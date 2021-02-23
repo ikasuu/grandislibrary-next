@@ -1,0 +1,718 @@
+{
+    "class": "Xenon",
+    "content": {
+        "classGroup": "Resistance (Xenon)",
+        "jobGroup": "Thief + Pirate",
+        "mainStat": "STR, DEX, LUK",
+        "secondaryStat": "-",
+        "legion": "Grants flat STR, DEX, and LUK",
+        "legionValue": "5/10/20/40/50",
+        "equipment": [
+            {"weapon": ["whipBlade"]},
+            {"secondary": ["coreController"]}
+        ],
+        "classType": [
+            "Hybrid",
+            "Versatille",
+            "Hard-hitting"
+        ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Great mobility with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Propulsion_Burst.png/revision/latest?cb=20121217224456' alt='Skill Propulsion Burst'> double flash jump and up jump with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Quicksilver_Takeoff.png/revision/latest?cb=20121217230611' alt='Skill Quicksilver Takeoff'>Quicksilver: Takeoff and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Diagonal_Chase.png/revision/latest?cb=20121217232028' alt='Skill Diagonal Chase'> Diagonal Chase",
+                "Ability to fly from is useful for bossing with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Liberty_Boosters.png/revision/latest?cb=20121223163553' alt='Skill Liberty Boosters'> Liberty Boosters",
+                "Decent survivability",
+                "Great mobbing with lots of summons and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616' alt='Skill Pinpoint Salvo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220' alt='Skill Aegis System'> homing missiles",
+                "Strong burst from 5th job skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Omega_Blaster.png/revision/latest?cb=20161125062712' alt='Skill Omega Blaster'> Omega Blaster plus you are invincible",
+                "Has an iFrame from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Orbital_Cataclysm.png/revision/latest?cb=20190525013054' alt='Skill Orbital Cataclysm'> Orbital Cataclysm",
+                "Has a bind from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Entangling_Lash.png/revision/latest?cb=20190525013041' alt='Skill Entangling Lash'> Entangling Lash"
+            ],
+            "cons": [
+                "Expensive to obtain %All Stat potentials",
+                "Extremely punishing if you die while charging 5th job skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Omega_Blaster.png/revision/latest?cb=20161125062712' alt='Skill Omega Blaster'> Omega Blaster"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505' alt='Skill Supply Surplus'> Supply Surplus, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_OOPArts_Code.png/revision/latest?cb=20170921233101' alt='Skill OOPArts Code'> OOParts Code and buffs with cooldowns",
+            [
+                "<strong>Max HP/MP</strong>: +55%",
+                "<strong>All Stats</strong>: +(up to 10% from <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Hybrid_Logic.png/revision/latest?cb=20121223163512' alt='Skill Hybrid Logic'> Link Skill)",
+                "<strong>Avoidability</strong>: +40%",
+                "<strong>Crit Rate</strong>: +40%",
+                "<strong>Crit Damage</strong>: +8%",
+                "<strong>Damage</strong>: +40%",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Knockback Resistance</strong>: +90%",
+                "<strong>Ignore DEF</strong>: +30%",
+                "<strong>Abnormal Status Resistance</strong>: 40"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Circuit_Surge.png/revision/latest?cb=20121217224615' alt='Skill Circuit Surge'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616' alt='Skill Pinpoint Salvo'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Efficiency_Streamline.png/revision/latest?cb=20121217225901' alt='Skill Efficiency Streamline'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Xenon_Booster.png/revision/latest?cb=20121217225950' alt='Skill Xenon Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220' alt='Skill Aegis System'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Manifest_Projector.png/revision/latest?cb=20121217232703' alt='Skill Manifest Projector'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>",
+            "summons": "[ <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Hypogram_Field_Penetrate.png/revision/latest?cb=20121218162233' alt='Skill Hypogram Field Penetrate'>/<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Hypogram_Field_Force_Field.png/revision/latest?cb=20121218161023' alt='Skill Hypogram Field Force Field'>/<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Hypogram_Field_Support.png/revision/latest?cb=20121218162346' alt='Skill Hypogram Field Support'> ](39 - 30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Hypogram_Field_Fusion.png/revision/latest?cb=20181115065336' alt='Skill Hypogram Field Fusion'>(100s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Resistance_Infantry.png/revision/latest?cb=20170625170734' alt='Skill Resistance Infantry'>(25s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/photon-ray.png?w=600' alt='Skill Photon Ray'/>(35s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_OOPArts_Code.png/revision/latest?cb=20170921233101' alt='Skill OOPArts Code'>(Costs Energy), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Amaranth_Generator.png/revision/latest?cb=20190525013034' alt='Skill Amaranth Generator'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Core_Overload.png/revision/latest?cb=20170609033037' alt='Skill Core Overload'>(180s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611' alt='Skill Last Resort'>(89 - 75s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741' alt='Skill Loaded Dice'>(180s cd <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813' alt='Skill Overdrive'>(70 - 64s cd)",
+            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Entangling_Lash.png/revision/latest?cb=20190525013041' alt='Skill Entangling Lash'>(180s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Orbital_Cataclysm.png/revision/latest?cb=20190525013054' alt='Skill Orbital Cataclysm'>(50s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Omega_Blaster.png/revision/latest?cb=20161125062712' alt='Skill Omega Blaster'>(180s cd)"
+        },
+        "linkSkill": {
+            "id": 80000047,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Hybrid_Logic.png/revision/latest?cb=20121223163512"],
+            "type": "Passive"
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/ykVnt0r.png",[499,374]],
+            "npc": [
+                ["",""]
+            ],
+            "info": [
+                "To create one, choose the 'Xenon' option in the Character Creation screen. Xenon's have their own separate creation button like Demons. As well, they have a different story than regular Resistance but are part of the same class group"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616' alt='Skill Pinpoint Salvo'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Propulsion_Burst.png/revision/latest?cb=20121217224456' alt='Skill Propulsion Burst'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Radial_Nerve.png/revision/latest?cb=20121217224818' alt='Skill Radial Nerve'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Circuit_Surge.png/revision/latest?cb=20121217224615' alt='Skill Circuit Surge'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Beam_Spline.png/revision/latest?cb=20121217224346' alt='Skill Beam Spline'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Pinpoint_Salvo_Redesign_A.png/revision/latest?cb=20121228071123' alt='Skill Pinpoint Salvo Redesign A'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Structural_Integrity.png/revision/latest?cb=20181015053022' alt='Skill Structural Integrity'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Xenon_Mastery.png/revision/latest?cb=20121217230155' alt='Skill Xenon Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Xenon_Booster.png/revision/latest?cb=20121217225950' alt='Skill Xenon Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Efficiency_Streamline.png/revision/latest?cb=20121217225901' alt='Skill Efficiency Streamline'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Perspective_Shift.png/revision/latest?cb=20160627052633' alt='Skill Perspective Shift'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Quicksilver_Flash.png/revision/latest?cb=20121217225534' alt='Skill Quicksilver Flash'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Ion_Thrust.png/revision/latest?cb=20121223153308' alt='Skill Ion Thrust'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Pinpoint_Salvo_Redesign_B.png/revision/latest?cb=20190525013056' alt='Skill Pinpoint Salvo Redesign B'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Emergency_Resupply.png/revision/latest?cb=20121217232857' alt='Skill Emergency Resupply'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Triangulation.png/revision/latest?cb=20121217232554' alt='Skill Triangulation'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220' alt='Skill Aegis System'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Manifest_Projector.png/revision/latest?cb=20121217232703' alt='Skill Manifest Projector'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Hybrid_Defenses.png/revision/latest?cb=20121217232341' alt='Skill Hybrid Defenses'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Combat_Switch_Explosion.png/revision/latest?cb=20121217231933' alt='Skill Combat Switch Explosion'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Diagonal_Chase.png/revision/latest?cb=20121217232028' alt='Skill Diagonal Chase'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Gravity_Pillar.png/revision/latest?cb=20121217232134' alt='Skill Gravity Pillar'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Pinpoint_Salvo_Perfect_Design.png/revision/latest?cb=20121228072612' alt='Skill Pinpoint Salvo Perfect Design' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Xenon_Expert.png/revision/latest?cb=20121218161427' alt='Skill Xenon Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Instant_Shock.png/revision/latest?cb=20121218161344' alt='Skill Instant Shock' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Offensive_Matrix.png/revision/latest?cb=20160627053032' alt='Skill Offensive Matrix' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Mecha_Purge_Snipe.png/revision/latest?cb=20121218160856' alt='Skill Mecha Purge Snipe' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_OOPArts_Code.png/revision/latest?cb=20170921233101' alt='Skill OOPArts Code' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Beam_Dance.png/revision/latest?cb=20121217234717' alt='Skill Beam Dance' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Hypogram_Field_Penetrate.png/revision/latest?cb=20121218162233' alt='Skill Hypogram Field Penetrate' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Beam_Dance_-_Reinforce.png/revision/latest?cb=20190525013038' alt='Skill Beam Dance - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Beam_Dance_-_Blur.png/revision/latest?cb=20190525013036' alt='Skill Beam Dance - Blur' width='32' height='32'>Beam Dance - Reinforce and Blur</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Mecha_Purge_-_Reinforce.png/revision/latest?cb=20190525013050' alt='Skill Mecha Purge - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Mecha_Purge_-_Guardbreak.png/revision/latest?cb=20190525013048' alt='Skill Mecha Purge - Guardbreak' width='32' height='32'> Mecha Purge - Reinforce and Guardbreak</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Hypogram_Field_-_Persist.png/revision/latest?cb=20190525013043' alt='Skill Hypogram Field - Persist' width='32' height='32'> Hypogram Field - Persist</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Beam_Dance.png/revision/latest?cb=20121217234717' alt='Skill Beam Dance'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Mecha_Purge_Snipe.png/revision/latest?cb=20121218160856' alt='Skill Mecha Purge Snipe'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Hypogram_Field_Penetrate.png/revision/latest?cb=20121218162233' alt='Skill Hypogram Field Penetrate'><ul><li><strong>Optional Nodes:</strong><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616' alt='Skill Pinpoint Salvo' width='32' height='32'> For extreme min-maxing or mobbing</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220' alt='Skill Aegis System' width='32' height='32'> For mobbing only</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Orbital_Cataclysm.png/revision/latest?cb=20190525013054' alt='Skill Orbital Cataclysm' width='32' height='32'> For iFrame</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Combat_Switch_Explosion.png/revision/latest?cb=20121217231933' alt='Skill Combat Switch Explosion' width='32' height='32'> for mobbing</li></ul></li></ul>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Beam_Spline.png/revision/latest?cb=20121217224346' alt='Skill Beam Spline'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616' alt='Skill Pinpoint Salvo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Quicksilver_Flash.png/revision/latest?cb=20121217225534' alt='Skill Quicksilver Flash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Ion_Thrust.png/revision/latest?cb=20121223153308' alt='Skill Ion Thrust'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Combat_Switch_Explosion.png/revision/latest?cb=20121217231933' alt='Skill Combat Switch Explosion'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Diagonal_Chase.png/revision/latest?cb=20121217232028' alt='Skill Diagonal Chase'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Gravity_Pillar.png/revision/latest?cb=20121217232134' alt='Skill Gravity Pillar'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220' alt='Skill Aegis System'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Triangulation.png/revision/latest?cb=20121217232554' alt='Skill Triangulation'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Beam_Dance.png/revision/latest?cb=20121217234717' alt='Skill Beam Dance'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Mecha_Purge_Snipe.png/revision/latest?cb=20121218160856' alt='Skill Mecha Purge Snipe'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Hypogram_Field_Penetrate.png/revision/latest?cb=20121218162233' alt='Skill Hypogram Field Penetrate'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Entangling_Lash.png/revision/latest?cb=20190525013041' alt='Skill Entangling Lash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Orbital_Cataclysm.png/revision/latest?cb=20190525013054' alt='Skill Orbital Cataclysm'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3211/xenon",
+            "https://maplestory.fandom.com/wiki/Xenon",
+            "https://www.youtube.com/watch?v=kQ5WVCw5_c0"
+        ],
+        "specialThanks": "Special thanks to botnextdoor for their help in making this overview!",
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build", "Danxier"],
+            ["Boost Nodes Build", "botnextdoor"],
+            ["Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Xenon Mechanics",
+            "content": "<p>Xenon is a hybrid class, they are able to equip both Thief and Pirate equipment. As well, they benefit the most from %All Stat and require a good balance of all stats to get the most range. As well, Xenon's Emblem is called a <img class='' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Eqp_Hybrid_Heart.png/revision/latest?cb=20160209005302' alt='Eqp Hybrid Heart' width='30' height='32' /> Power Source which is bought from his home base</p><p><img src='https://media3.giphy.com/media/YZ7mLgb9SvuzxjL0zn/giphy.gif' alt='Animated GIF' /></p><p>Xenon also has a secondary resource called <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505' alt='Skill Supply Surplus' width='32' height='32' /> Supply Surplus which will give you increased stats as the gauge fills up. Additionally, some of Xenon's skills will consume the Supply Surplus</p><p><img class='extra-content-image' src='https://media2.giphy.com/media/3Q2QxM6AzpNLh7QbQf/giphy.gif' alt='Animated GIF' /></p><p>As well, Xenon can have multiple attack variations that you can switch between using <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Modal_Shift.png/revision/latest?cb=20121223163547' alt='Skill Modal Shift' width='32' height='32' /> Modal Shift</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 30020232,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 30020234,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
+                    "type": "Passive",
+                    "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                },
+                {
+                    "id": 30021235,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Promessa_Escape.png/revision/latest?cb=20121223163539"],
+                    "animations": ["https://media0.giphy.com/media/iY3jj3UEbMEWEMKcGe/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 30021236,
+                    "icons": ["https://i.imgur.com/ipIf9r7.png"],
+                    "animations": ["https://media2.giphy.com/media/3Q2QxM6AzpNLh7QbQf/giphy.gif"],
+                    "type": "Special Active",
+                    "desc": "Using this skill will allow you to switch to different attacks",
+                    "details": [
+                        "Pressing this Skill multiple times will switch between your 2nd, 3rd, and 4th Job skill options"
+                    ]
+                },
+                {
+                    "id": 30021237,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Liberty_Boosters.png/revision/latest?cb=20121223163553"],
+                    "animations": ["https://media3.giphy.com/media/FgR6zJgXCxVeOyOcDn/giphy.gif"],
+                    "type": "Active",
+                    "desc": "While active, you will be able to fly for a short duration",
+                    "details": [
+                        "Only buffs can be used while in the air"
+                    ]
+                },
+                {
+                    "id": 30020240,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Mimic_Protocol.png/revision/latest?cb=20121223163602"],
+                    "type": "Passive"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 36001000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Beam_Spline.png/revision/latest?cb=20121217224346"],
+                        "animations": ["https://media2.giphy.com/media/1qzUlrFxEBtjBV3jHV/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swing your Whip Blade forward twice"
+                    },
+                    {
+                        "id": 36001001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Propulsion_Burst.png/revision/latest?cb=20121217224456"],
+                        "animations": ["https://media3.giphy.com/media/YgLQyKQ6pWvcgQibt9/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "id": 36001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Circuit_Surge.png/revision/latest?cb=20121217224615"],
+                        "animations": ["https://media3.giphy.com/media/zuvi0OQbFebleEVTMj/giphy.gif"],
+                        "type": "Supply Buff"
+                    },
+                    {
+                        "id": 36000003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Radial_Nerve.png/revision/latest?cb=20121217224818"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 36000004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Multilateral_II.png/revision/latest?cb=20121217224953", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
+                        "type": "Upgraded Passive",
+                        "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                    },
+                    {
+                        "id": 36001005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616"],
+                        "animations": ["https://media2.giphy.com/media/bwjIehUv5LQBKgLeek/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "When toggled, whenever you attack, you will fire missiles at nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 36101000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Quicksilver_Flash.png/revision/latest?cb=20121217225534"],
+                        "animations": ["https://media3.giphy.com/media/JBLNnvloo65PazTB0r/giphy.gif"],
+                        "type": "Modal Attack",
+                        "desc": "Slashes your whip blade several times in front of you"
+                    },
+                    {
+                        "id": 36101008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Quicksilver_Concentrate.png/revision/latest?cb=20121217230444"],
+                        "animations": ["https://media0.giphy.com/media/gCLxmURQUTNH6SY1Es/giphy.gif"],
+                        "type": "Modal Attack",
+                        "desc": "Swings you whip blade forward",
+                        "details": [
+                            "Attack has increased %Crit Rate"
+                        ]
+                    },
+                    {
+                        "id": 36101009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Quicksilver_Takeoff.png/revision/latest?cb=20121217230611"],
+                        "animations": ["https://media4.giphy.com/media/JT4uSYFHDs1BeIoXfW/giphy.gif"],
+                        "type": "Modal Attack",
+                        "desc": "Lashes your Whip Blade while boosting you up into the air"
+                    },
+                    {
+                        "id": 36101001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Ion_Thrust.png/revision/latest?cb=20121223153308"],
+                        "animations": ["https://media1.giphy.com/media/vM0zRRRUwZvq9Ev0Sh/giphy.gif"],
+                        "type": "Key-down Supply Attack",
+                        "desc": "Hop onto an Ion Thruster which will damage and push enemies back "
+                    },
+                    {
+                        "id": 36101003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Efficiency_Streamline.png/revision/latest?cb=20121217225901"],
+                        "animations": ["https://media4.giphy.com/media/lTqB31K2kNOsp0pkLY/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 36100002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Perspective_Shift.png/revision/latest?cb=20160627052633"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 36101004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Xenon_Booster.png/revision/latest?cb=20121217225950"],
+                        "animations": ["https://media3.giphy.com/media/NsWDB1LP56px67KHLN/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 36100005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Structural_Integrity.png/revision/latest?cb=20181015053022"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 36100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Xenon_Mastery.png/revision/latest?cb=20121217230155"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 36100007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Multilateral_III.png/revision/latest?cb=20121217230258", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
+                        "type": "Upgraded Passive",
+                        "desc": "Grants special bonuses once you've reached a certain amount of stats "
+                    },
+                    {
+                        "id": 36100010,
+                        "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg==", "https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %p Damage of attack"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 36111000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Combat_Switch_Explosion.png/revision/latest?cb=20121217231933"],
+                        "animations": ["https://media1.giphy.com/media/EpO3pUoOsjEeslVPc1/giphy.gif"],
+                        "type": "Modal Attack",
+                        "desc": "Thrusts your Whip Blade forward which will then explode"
+                    },
+                    {
+                        "id": 36111009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Combat_Switch_Air_Whip.png/revision/latest?cb=20121217233221"],
+                        "animations": ["https://media0.giphy.com/media/knsjNxmK8uLrssoage/giphy.gif"],
+                        "type": "Modal Attack",
+                        "desc": "Swings your Whip Blade forward",
+                        "details": [
+                            "Deals increased %Damage to enemies in the air"
+                        ]
+                    },
+                    {
+                        "id": 36111010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Combat_Switch_Fission.png/revision/latest?cb=20121217232953"],
+                        "animations": ["https://media2.giphy.com/media/QsLoswZdRrtG1lUl5H/giphy.gif"],
+                        "type": "Modal Attack",
+                        "desc": "Your whip blade splits and deals damage to enemies below you",
+                        "details": [
+                            "Can only be used in the air",
+                            "Can be combined with <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Diagonal_Chase.png/revision/latest?cb=20121217232028' alt='Skill Diagonal Chase' width='32' height='32'> Diagonal Chase"
+                        ]
+                    },
+                    {
+                        "id": 36111001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Diagonal_Chase.png/revision/latest?cb=20121217232028"],
+                        "animations": ["https://media1.giphy.com/media/m3WHDo2iuNJhnusWdY/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes diagonally while pushing back enemies"
+                    },
+                    {
+                        "id": 36111002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Gravity_Pillar.png/revision/latest?cb=20121217232134"],
+                        "animations": ["https://media2.giphy.com/media/9i8XfARrhPwRvdk7Ov/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates a zone from below that lifts enemies into the air"
+                    },
+                    {
+                        "id": 36111003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Hybrid_Defenses.png/revision/latest?cb=20121217232341"],
+                        "animations": ["https://media4.giphy.com/media/gAGKd8KlCL6U0SLacN/giphy.gif"],
+                        "type": "Supply Buff",
+                        "desc": "While active, grants increased %Avoidability",
+                        "details": [
+                            "Effects are removed after being hit a fixed number of times<ul><li>As well, when you are hit, the %Avoidability from this buff is reduced but you take less damage</li></ul>",
+                            "<strong>[Passive]</strong>: Permanently grants flat All Stats and DEF"
+                        ]
+                    },
+                    {
+                        "id": 36111004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220"],
+                        "animations": ["https://media1.giphy.com/media/nK6Um6v0H92WZHbi7h/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "Whenever you are hit or evade an attack, you have a chance to fire defensive missiles",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 36110005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Triangulation.png/revision/latest?cb=20121217232554"],
+                        "animations": ["https://media1.giphy.com/media/ScXcBcCDZnwVvGnrqg/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "While attacking, you have a chance to attach 'Airframes'. Once 3 Airframes are attached to an enemy, the stacks will be consumed and will deal damage to that enemy",
+                        "details": [
+                            "Unaffected by Damage Reflect",
+                            "Enemy has decreased %Accuracy and %Avoidability for each Airframe"
+                        ]
+                    },
+                    {
+                        "id": 36111006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Manifest_Projector.png/revision/latest?cb=20121217232703"],
+                        "animations": ["https://media2.giphy.com/media/VTFVgWLmkqWjTzSVrU/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a clone hologram that mimics your attacks, increasing the number of hits you deal per attack",
+                        "details": [
+                            "The clone only disappears after losing a proportion of your %Max HP",
+                            "Clone's attacks deal reduced %Final Damage"
+                        ]
+                    },
+                    {
+                        "id": 36110007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Multilateral_IV.png/revision/latest?cb=20121217232803", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
+                        "type": "Upgraded Passive",
+                        "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                    },
+                    {
+                        "id": 36111008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Emergency_Resupply.png/revision/latest?cb=20121217232857"],
+                        "animations": ["https://media0.giphy.com/media/4iiN90LiVRvSA5hbYE/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Instantly grants extra charges of Energy"
+                    },
+                    {
+                        "id": 36110012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Pinpoint_Salvo_Redesign_B.png/revision/latest?cb=20190525013056", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg=="],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %p Damage provided"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 36121000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Beam_Dance.png/revision/latest?cb=20121217234717"],
+                    "animations": ["https://media1.giphy.com/media/KpwElMxhQvlJmwmxCb/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Violently swings your Whip Blade around yourself",
+                    "details": [
+                        "You can move and jump while attacking"
+                    ]
+                },
+                {
+                    "id": 36121001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Mecha_Purge_Snipe.png/revision/latest?cb=20121218160856"],
+                    "animations": ["https://media1.giphy.com/media/uPco9wNhZXCRKJhnkG/giphy.gif"],
+                    "type": "Modal Attack",
+                    "desc": "Deals a focused attack towards a single enemy",
+                    "details": [
+                        "Attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "id": 36121011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Mecha_Purge_Bombard.png/revision/latest?cb=20121218161849"],
+                    "animations": ["https://media2.giphy.com/media/b50j4TpHd72JyS6lky/giphy.gif"],
+                    "type": "Modal Attack",
+                    "desc": "Blasts a laser forward damaging multiple enemies"
+                },
+                {
+                    "id": 36121012,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Mecha_Purge_Bombardment.png/revision/latest?cb=20121218162105"],
+                    "animations": ["https://media1.giphy.com/media/91ONXKoYSUWOJ9OZxy/giphy.gif"],
+                    "type": "Modal Attack",
+                    "desc": "Bombards enemies from the air with missiles and lasers"
+                },
+                {
+                    "id": 36121002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Hypogram_Field_Penetrate.png/revision/latest?cb=20121218162233"],
+                    "animations": ["https://media0.giphy.com/media/7r6ncNPP8QKXm1xvOi/giphy.gif"],
+                    "type": "Modal Summon",
+                    "desc": "Creates a zone where a bouncing orb will damage any enemy it comes in contact with"
+                },
+                {
+                    "id": 36121013,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Hypogram_Field_Force_Field.png/revision/latest?cb=20121218161023"],
+                    "animations": ["https://media4.giphy.com/media/zC7GMpqRlCiU55hucd/giphy.gif"],
+                    "type": "Modal Summon",
+                    "desc": "Creates a zone where enemies are damaged each time a bouncing orb touches the force field"
+                },
+                {
+                    "id": 36121014,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Hypogram_Field_Support.png/revision/latest?cb=20121218162346"],
+                    "animations": ["https://media0.giphy.com/media/PDkqZNbgzSNjw7h87Z/giphy.gif"],
+                    "type": "Modal Buff Zone",
+                    "desc": "Creates a zone where any party members within it will have increased %Max HP, %Avoidability",
+                    "details": [
+                        "Whenever party members dodge an attack, you will gain 1 Energy"
+                    ]
+                },
+                {
+                    "id": 36121003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_OOPArts_Code.png/revision/latest?cb=20170921233101"],
+                    "animations": ["https://media1.giphy.com/media/pT6K2SQgQyFMiZJaVS/giphy.gif"],
+                    "type": "Supply Buff"
+                },
+                {
+                    "id": 36120005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Instant_Shock.png/revision/latest?cb=20121218161344"],
+                    "animations": ["https://media2.giphy.com/media/TveJdvxaoXP9wsxJ9K/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Grants a dodge chance and enhances the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220' alt='Skill Aegis System'>"
+                },
+                {
+                    "id": 36120006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Xenon_Expert.png/revision/latest?cb=20121218161427", "https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Xenon_Mastery.png/revision/latest?cb=20121217230155"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "id": 36121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Temporal_Pod.png/revision/latest?cb=20121218161515"],
+                    "animations": ["https://media0.giphy.com/media/U21DgcXSXxToYEiHJc/giphy.gif"],
+                    "type": "Active",
+                    "desc": "When activated, you reduce the skill cooldowns of nearby party members",
+                    "details": [
+                        "The pod is destroyed when you are hit",
+                        "Has no effect on skills that are not affected by cooldown reset"
+                    ]
+                },
+                {
+                    "id": 36121008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media4.giphy.com/media/O9iUDyF1IeEQTF9dvk/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 36121009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media1.giphy.com/media/yi1GWUkLKBUDUYSjtn/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 36120004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Offensive_Matrix.png/revision/latest?cb=20160627053032"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 36120010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Multilateral_V.png/revision/latest?cb=20190525013053", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
+                    "type": "Upgraded Passive",
+                    "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                },
+                {
+                    "id": 36120015,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Pinpoint_Salvo_Perfect_Design.png/revision/latest?cb=20121228072612", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg=="],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %p Damage provided"
+                    ]
+                },
+                {
+                    "id": 36120016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Multilateral_VI.png/revision/latest?cb=20130517123557", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
+                    "type": "Upgraded Passive",
+                    "reqLev": "Req. 200",
+                    "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 36120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Beam_Dance_-_Reinforce.png/revision/latest?cb=20190525013038"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 36120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Beam_Dance_-_Blur.png/revision/latest?cb=20190525013036"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 36120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/45/Skill_Beam_Dance_-_Spread.png/revision/latest?cb=20190525013039"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 36120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Mecha_Purge_-_Reinforce.png/revision/latest?cb=20190525013050"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 36120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Mecha_Purge_-_Guardbreak.png/revision/latest?cb=20190525013048"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 36120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Mecha_Purge_-_Spread.png/revision/latest?cb=20190525013051"],
+                    "type": "Passive",
+                    "desc": "Increases the maximum number of enemies hit by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Mecha_Purge_Bombard.png/revision/latest?cb=20121218161849' alt='Skill Mecha Purge Bombard'>",
+                    "reqLev": 180
+                },
+                {
+                    "id": 36120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Hypogram_Field_-_Reinforce.png/revision/latest?cb=20190525013045"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 36120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Hypogram_Field_-_Speed.png/revision/latest?cb=20190525013046"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 36120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Hypogram_Field_-_Persist.png/revision/latest?cb=20190525013043"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 36121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Amaranth_Generator.png/revision/latest?cb=20190525013034"],
+                    "animations": ["https://media4.giphy.com/media/3e76FdX97GHJRVIRRF/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, Skills that will not consume your <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505' alt='Skill Supply Surplus'> Supply Surplus",
+                    "details": [
+                        "You will have infinite <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505' alt='Skill Supply Surplus'> Supply Surplus"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 36121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Entangling_Lash.png/revision/latest?cb=20190525013041"],
+                    "animations": ["https://media3.giphy.com/media/3ZLfHvmwCMh5iHLckp/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Lashes your Whip Blade forward, binding enemies hit",
+                    "reqLev": 160
+                },
+                {
+                    "id": 36121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Orbital_Cataclysm.png/revision/latest?cb=20190525013054"],
+                    "animations": ["https://media0.giphy.com/media/yEd2I5HDyqRFEmjJHB/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires a powerful laser cannon that deals a devastating attack",
+                    "details": [
+                        "After casting you will gain a %Damage buff"
+                    ],
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["resistanceInfantry", "goddessBlessing", "loadedDice", "overdrive", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Omega Blaster",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 550%, Number of Attacks: 6, Duration: 8 sec, Invincible while attacking\\nHold down skill key to charge, duration increases by 1 sec for every 5 sec charged (up to 7 sec max)\\nPress the skill again while attacking to cancel immediately\\nCooldown: 180 sec",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Omega_Blaster.png/revision/latest?cb=20161125062712"],
+                    "animations": ["https://media1.giphy.com/media/zzImSpAUXqpHCR2rsp/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Charges and releases a powerful laser beam",
+                    "details": [
+                        "Holding down the Skill Key before releasing will increase the duration of the skill",
+                        "If you press the Skill Key again while the laser is firing, you will cancel the attack immediately",
+                        "You are invincible while firing the laser"
+                    ]
+                },
+                {
+                    "name": "Core Overload",
+                    "shortDesc": "MP Cost: 250, When MP skill is cast, consumes 1% Max MP + 180 per sec. Allows you to charge 20 additional Surplus Energy. Energy charging time halved.\\nFinal Damage increases by 1% per Surplus Energy charged.\\nUse skill again to deactivate it. Extra Surplus Energy disappears immediately on skill deactivation.Generates plasma currents at random intervals that activate electricity 4 times striking up to 12 enemies for 355% damage 6 times.\\nCooldown: 180 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Core_Overload.png/revision/latest?cb=20170609033037"],
+                    "animations": ["https://media2.giphy.com/media/STPGuLhO2weanpUJnb/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Unleashes a devastating large area attack before dealing a final attack",
+                    "details": [
+                        "You gain increased %Final Damage for each Energy unit",
+                        "Using the Skill again will deactivate the skill immediately",
+                        "Periodically while active, you will produce plasma that damages nearby enemies"
+                    ]
+                },
+                {
+                    "name": "Hypogram Field: Fusion",
+                    "shortDesc": "MP cost: 1000, Hologram Field generated for 30 sec.\\nWhenever the orb makes contact with the Hologram Field, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 5. The same amount of damage is inflicted when the orb touches monsters.\\nDamage inflicted by party members within the field is increased by 17%, 1 power unit recharged whenever a party member within the field evades an attack.\\nMissiles fired by the Aegis System increased by 7 when Xenon is inside the field.\\nCooldown: 100 sec",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Hypogram_Field_Fusion.png/revision/latest?cb=20181115065336"],
+                    "animations": ["https://media3.giphy.com/media/Z5AvJ3ez7Hpl8Gs5mV/giphy.gif"],
+                    "type": "Summon / Buff Zone",
+                    "desc": "Creates a force field that has the combined effects of all 3 Hypogram Fields",
+                    "details": [
+                        "You also fire extra <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220' alt='Skill Aegis System'> missiles while inside the force field",
+                        "Increases %Damage of party members inside the field<ul><li>Recharges 1 Energy whenever a party member attacks within the field</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Photon Ray",
+                    "shortDesc": "MP Cost: 150, aim mode activates for 20 sec, additional 350 MP consumed upon firing\\nAfter initial 15 aims end, can do up to 15 additional aims\\nPhotonic cannon attacks 4 times with 700% damage per firing\\nCooldown: 35 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/photon-ray.png?w=600"],
+                    "animations": ["https://media3.giphy.com/media/uBUcPQuftygoRS3fu2/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a photon cannon that slowly aims and targets enemies before releasing homing missiles at targeted enemies",
+                    "details": [
+                        "On initial cast, enemies one by one will be aimed at before becoming a target<ul><li>Moving too far away from enemies that are being aimed at will cancel the targetting</li><li>Targetting starts off fast and eventually slows down<ul><li>Attacking enemies that are being aimed at will complete the targetting faster</li></ul></li></ul>",
+                        "Pressing the Skill Key again will fire the photon cannon<ul><li>If it is not pressed before the aiming phase ends, the photon cannon will not fire</li></ul>",
+                        "Photon cannon will prioritize bosses and enemies with the highest max HP",
+                        "Unaffected by Damage Reflect and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Manifest_Projector.png/revision/latest?cb=20121217232703' alt='Skill Manifest Projector'>",
+                        "Can be used during <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Mecha_Purge_Snipe.png/revision/latest?cb=20121218160856' alt='Skill Mecha Purge Snipe'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Orbital_Cataclysm.png/revision/latest?cb=20190525013054' alt='Skill Orbital Cataclysm'>, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Omega_Blaster.png/revision/latest?cb=20161125062712' alt='Skill Omega Blaster'> without any casting delay"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Beam Dance - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Beam_Dance.png/revision/latest?cb=20121217234717"],
+                "animations": ["https://media1.giphy.com/media/KpwElMxhQvlJmwmxCb/giphy.gif"]
+            },
+            {
+                "name": "Mecha Purge: Snipe - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Mecha_Purge_Snipe.png/revision/latest?cb=20121218160856"],
+                "animations": ["https://media3.giphy.com/media/uPco9wNhZXCRKJhnkG/giphy.gif"]
+            },
+            {
+                "name": "Mecha Purge: Bombard - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Mecha_Purge_Bombard.png/revision/latest?cb=20121218161849"],
+                "animations": ["https://media1.giphy.com/media/b50j4TpHd72JyS6lky/giphy.gif"]
+            },
+            {
+                "name": "Mecha Purge: Bombardment - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Mecha_Purge_Bombardment.png/revision/latest?cb=20121218162105"],
+                "animations": ["https://media1.giphy.com/media/91ONXKoYSUWOJ9OZxy/giphy.gif"]
+            },
+            {
+                "name": "Hypogram Field: Penetrate - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Hypogram_Field_Penetrate.png/revision/latest?cb=20121218162233"],
+                "animations": ["https://media0.giphy.com/media/7r6ncNPP8QKXm1xvOi/giphy.gif"]
+            },
+            {
+                "name": "Orbital Cataclysm - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Orbital_Cataclysm.png/revision/latest?cb=20190525013054"],
+                "animations": ["https://media0.giphy.com/media/yEd2I5HDyqRFEmjJHB/giphy.gif"]
+            },
+            {
+                "name": "Omega Blaster - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Omega_Blaster.png/revision/latest?cb=20161125062712"],
+                "animations": ["https://media1.giphy.com/media/zzImSpAUXqpHCR2rsp/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Xenon is an STR, DEX, and LUK hybrid Thief and Pirate class part of the Resistance class group. Since Xenon is a hybrid class, they are able to equip both Thief and Pirate equipment. As well, they benefit the most from %All Stat and require a good balance of all stats to get the most range"
+}

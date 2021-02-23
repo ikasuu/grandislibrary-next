@@ -1,0 +1,6 @@
+/* Styling for the homepage of Grandis Library */
+
+/* Styling for the Swiper component, lowers the pagination dots */
+.content-slide{
+  margin: 1rem 0 3rem 0;
+}

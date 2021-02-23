@@ -1,0 +1,671 @@
+{
+    "class": "Kinesis",
+    "content": {
+        "classGroup": "Other (FriendStory)",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["psyLimiter"]},
+            {"secondary": ["chessPiece"]}
+        ],
+        "classType": [
+            "Crowd Control",
+            "Utility",
+            "Multi-target"
+        ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Magic Attack"],
+        "prosCons": {
+            "pros": [
+                "Does not use MP as a resource",
+                "Mage with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Kinetic_Step.png/revision/latest?cb=20160121224618' alt='Skill Kinetic Step'> double jump",
+                "Has a bind skill <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Mental_Shock.png/revision/latest?cb=20160121223430' alt='Skill Mental Shock' width='32' height='32'> Mental Shock (Hyper Skill)",
+                "Has an iFrame skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534' alt='Skill Mental Tempest'> Mental Tempest (Hyper Skill)",
+                "100% Knockback Resistance",
+                "Great Link Skill that provides %Crit Damage"
+            ],
+            "cons": [
+                "Bossing is difficult against mobile bosses",
+                "Slight micromanaging with PP resource"
+                
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Mind_Tremor.png/revision/latest?cb=20160414184833' alt='Skill Mind Tremor'> Mind Tremor debuff, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Mind_Break.png/revision/latest?cb=20160414191540' alt='Skill Mind Break'> Mind Break buff, and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +50%",
+                "<strong>Avoidability</strong>: +32%",
+                "<strong>Magic Attack</strong>: +10%",
+                "<strong>Crit Rate</strong>: +40%",
+                "<strong>Crit Damage</strong>: +30% + (up to 4% from <img src=https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Judgment_%28Kinesis%29.png/revision/latest?cb=20160610024748' alt='Skill Judgement'/> Link Skill)",
+                "<strong>Damage</strong>: +40%",
+                "<strong>Final Damage</strong>: +20%",
+                "<strong>Attack Speed (Weapon)</strong>: 4",
+                "<strong>Knockback Resistance</strong>: +100%",
+                "<strong>Ignore DEF</strong>: +25%",
+                "<strong>Damage Reduction (Regular Monsters): </strong>+15%",
+                "<strong>Buff Duration</strong>: +20%",
+                "<strong>Abnormal Status Resistance</strong>: 50"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Mental_Shield.png/revision/latest?cb=20160414183307' alt='Skill Mental Shield'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_ESP_Booster.png/revision/latest?cb=20160121225140' alt='Skill ESP Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_President%27s_Orders.png/revision/latest?cb=20160414191639' alt='Skill President's Orders'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Psychic_Drain.png/revision/latest?cb=20160414184635' alt='Skill Psychic Drain'>(5s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Mind_Tremor.png/revision/latest?cb=20160414184833' alt='Skill Mind Tremor'>(10s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Ultimate_-_Trainwreck.png/revision/latest?cb=20160414043519' alt='Skill Ultimate - Trainwreck'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Psychic_Tornado.png/revision/latest?cb=20161125062713' alt='Skill Psychic Tornado'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Ultimate_-_Mind_Over_Matter.png/revision/latest?cb=20181015053357' alt='Skill Ultimate - Mind Over Matter'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Ultimate_-_Psychic_Shockwave.png/revision/latest?cb=20181115065416' alt='Skill Ultimate - Psychic Shockwave'>(Passive), <img src='https://orangemushroom.files.wordpress.com/2020/06/law-of-gravity.png?w=600' alt='Skill Law of Gravity'>(60s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Mind_Break.png/revision/latest?cb=20160414191540' alt='Skill Mind Break'>(30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Mental_Overdrive.png/revision/latest?cb=20160121224027' alt='Skill Mental Overdrive'>(210s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Otherworld_Goddess%27s_Blessing.png/revision/latest?cb=20191116025124' alt='Skill Otherworld Goddess's Blessing'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mana_Overload.png/revision/latest?cb=20161018183739' alt='Skill Mana Overload'>(59 - 30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)",
+            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Mental_Shock.png/revision/latest?cb=20160121223430' alt='Skill Mental Shock'>(210s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ultimate_-_Deep_Impact.png/revision/latest?cb=20160414184636' alt='Skill Ultimate - Deep Impact'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534' alt='Skill Mental Tempest'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)"
+        },
+        "linkSkill": {
+            "id": 80000188,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Judgment_%28Kinesis%29.png/revision/latest?cb=20160610024748"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Kinetic_Step.png/revision/latest?cb=20160121224618' alt='Skill Kinetic Step'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Mental_Fortitude.png/revision/latest?cb=20160104074900' alt='Skill Mental Fortitude'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_ESP_Booster.png/revision/latest?cb=20160121225140' alt='Skill ESP Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927' alt='Skill Psychic Force'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622' alt='Skill Ultimate - Metal Press'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Kinetic_Crash.png/revision/latest?cb=20160414181903' alt='Skill Kinetic Crash'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Mental_Strength.png/revision/latest?cb=20160414184634' alt='Skill Mental Strength'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_ESP_Mastery.png/revision/latest?cb=20160129014554' alt='Skill ESP Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Pure_Power.png/revision/latest?cb=20170902165622' alt='Skill Pure Power'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Psychic_Armor.png/revision/latest?cb=20160414184634' alt='Skill Psychic Armor'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Psychic_Drain.png/revision/latest?cb=20160414184635' alt='Skill Psychic Drain'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ultimate_-_Deep_Impact.png/revision/latest?cb=20160414184636' alt='Skill Ultimate - Deep Impact'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Psychic_Blast.png/revision/latest?cb=20160414184635' alt='Skill Psychic Blast'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Kinetic_Piledriver.png/revision/latest?cb=20160414184633' alt='Skill Kinetic Piledriver'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Kinetic_Jaunt.png/revision/latest?cb=20160414185437' alt='Skill Kinetic Jaunt'> -> <img src='https://i.imgur.com/27mKU5n.png'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Transcendence.png/revision/latest?cb=20160414185953' alt='Skill Transcendence'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Psychic_Reinforcement.png/revision/latest?cb=20170902170238' alt='Skill Psychic Reinforcement'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Psychic_Bulwark.png/revision/latest?cb=20160414185227' alt='Skill Psychic Bulwark'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Kinetic_Combo.png/revision/latest?cb=20160414184959' alt='Skill Kinetic Combo'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Third_Eye_%28Kinesis%29.png/revision/latest?cb=20160414185638' alt='Skill Third Eye (Kinesis)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Ultimate_-_Trainwreck.png/revision/latest?cb=20160414043519' alt='Skill Ultimate - Trainwreck'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Mind_Tremor.png/revision/latest?cb=20160414184833' alt='Skill Mind Tremor'> -> <img width='33' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Psychic_Assault.png/revision/latest?cb=20160414180805' alt='Skill Psychic Assault'> -> <img width='33' height='33' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749' alt='Skill Psychic Grab'>"],
+                ["4th Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Mastery.png/revision/latest?cb=20160414192329' alt='Skill Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mind_Scrambler.png/revision/latest?cb=20160414192253' alt='Skill Mind Scrambler'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Supreme_Concentration.png/revision/latest?cb=20160414192120' alt='Skill Supreme Concentration'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Awakening.png/revision/latest?cb=20160414192030' alt='Skill Awakening'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Telepath_Tactics.png/revision/latest?cb=20170902170506' alt='Skill Telepath Tactics'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Critical_Rush.png/revision/latest?cb=20160414192204' alt='Skill Critical Rush'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_President%27s_Orders.png/revision/latest?cb=20160414191639' alt='Skill President's Orders'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Psychic_Clutch.png/revision/latest?cb=20160414045005' alt='Skill Psychic Clutch'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Psychic_Charger.png/revision/latest?cb=20160414191729' alt='Skill Psychic Charger'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Mind_Quake.png/revision/latest?cb=20160414191546' alt='Skill Mind Quake'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ultimate_-_B.P.M..png/revision/latest?cb=20160414191401' alt='Skill Ultimate - B.P.M.'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Mind_Break.png/revision/latest?cb=20160414191540' alt='Skill Mind Break'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Clear_Mind.png/revision/latest?cb=20160414191911' alt='Skill Clear Mind'>"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Psychic_Grab_-_Boss_Point.png/revision/latest?cb=20160121083834' alt='Skill Psychic Grab - Boss Point' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Psychic_Grab_-_Reinforce.png/revision/latest?cb=20160121084624' alt='Skill Psychic Grab - Reinforce' width='32' height='32'> Psychic Grab - Boss Point and Reinforce</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Mind_Tremor_-_Overwhelm.png/revision/latest?cb=20160121215330' alt='Skill Mind Tremor - Overwhelm' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Mind_Tremor_-_Reinforce.png/revision/latest?cb=20160121215726' alt='Skill Mind Tremor - Reinforce' width='32' height='32'> Mind Tremor - Overwhelm, Reinforce</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Mind_Break_-_Enhance.png/revision/latest?cb=20160121221042' alt='Skill Mind Break - Enhance' width='32' height='32'> Mind Break - Enhance</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='33' height='33' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749' alt='Skill Psychic Grab'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ultimate_-_B.P.M..png/revision/latest?cb=20160414191401' alt='Skill Ultimate - B.P.M.'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622' alt='Skill Ultimate - Metal Press'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Ultimate_-_Trainwreck.png/revision/latest?cb=20160414043519' alt='Skill Ultimate - Trainwreck'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Kinetic_Combo.png/revision/latest?cb=20160414184959' alt='Skill Kinetic Combo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Mind_Break.png/revision/latest?cb=20160414191540' alt='Skill Mind Break'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534' alt='Skill Mental Tempest'/>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927' alt='Skill Psychic Force'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Kinetic_Crash.png/revision/latest?cb=20160414181903' alt='Skill Kinetic Crash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Kinetic_Piledriver.png/revision/latest?cb=20160414184633' alt='Skill Kinetic Piledriver'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ultimate_-_Deep_Impact.png/revision/latest?cb=20160414184636' alt='Skill Ultimate - Deep Impact'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Psychic_Drain.png/revision/latest?cb=20160414184635' alt='Skill Psychic Drain'> <img width='33' height='33' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749' alt='Skill Psychic Grab'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Ultimate_-_Trainwreck.png/revision/latest?cb=20160414043519' alt='Skill Ultimate - Trainwreck'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Kinetic_Combo.png/revision/latest?cb=20160414184959' alt='Skill Kinetic Combo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Mind_Break.png/revision/latest?cb=20160414191540' alt='Skill Mind Break'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ultimate_-_B.P.M..png/revision/latest?cb=20160414191401' alt='Skill Ultimate - B.P.M.'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534' alt='Skill Mental Tempest'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Mental_Shock.png/revision/latest?cb=20160121223430' alt='Skill Mental Shock'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622' alt='Skill Ultimate - Metal Press'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/5548/kinesis",
+            "https://maplestory.fandom.com/wiki/Kinesis"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Psychic Points",
+            "content": "<p><img src='https://i.imgur.com/j7UXdNT.png' alt='Psychic Points'/></p><p>Kinesis does not use MP and instead uses Psychic Points (PP) for special Ultimate skills. PP is generated by using most non-Ultimate skills. Your PP capacity will increase every time you Job Advance (excluding 5th Job)</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 140001289,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Psychic_Attack.png/revision/latest?cb=20160610023545"],
+                    "animations": ["https://media1.giphy.com/media/iT9kKzEeCIpJXxp2LA/giphy.gif"],
+                    "type": "Basic Attack Modifier",
+                    "desc": "Deals a ranged attack to one enemy in front of you",
+                    "details": [
+                        "Charges PP when used"
+                    ]
+                },
+                {
+                    "id": 140001290,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Return_%28Kinesis%29.png/revision/latest?cb=20160610023956"],
+                    "animations": ["https://media2.giphy.com/media/PVQwBfSxof6eYwrQB0/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 140000291,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_ESP.png/revision/latest?cb=20160610024301"],
+                    "type": "Passive"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 142000005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Mental_Fortitude.png/revision/latest?cb=20160104074900"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 142001001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Kinetic_Crash.png/revision/latest?cb=20160414181903"],
+                        "animations": ["https://media1.giphy.com/media/f3e2riaB17Cscni8sh/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Tosses enemies in front of you up and down",
+                        "details": [
+                            "Charges PP when used"
+                        ]
+                    },
+                    {
+                        "id": 142001000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927"],
+                        "animations": ["https://media0.giphy.com/media/QwyoIpsuRoOwdHD0li/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pushes several enemies back while applying debuff",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy is dealt damage over time and takes increased %Final Damage",
+                            "<strong>[Passive]</strong>: Permanently grants flat Magic Attack",
+                            "Charges PP when used"
+                        ]
+                    },
+                    {
+                        "id": 142001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622"],
+                        "animations": ["https://media3.giphy.com/media/MZWgxUZ4Hib3JAXJMy/giphy.gif"],
+                        "type": "PP Attack",
+                        "desc": "Drops a metal object on top of enemies in front of you"
+                    },
+                    {
+                        "id": 142001007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Mental_Shield.png/revision/latest?cb=20160414183307"],
+                        "animations": ["https://media3.giphy.com/media/qNp55rEn5pf5wyiRro/giphy.gif"],
+                        "type": "PP Toggle Buff"
+                    },
+                    {
+                        "id": 142001003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_ESP_Booster.png/revision/latest?cb=20160121225140"],
+                        "animations": ["https://media3.giphy.com/media/P8idQroox7uHvdUrWJ/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 142001004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Kinetic_Step.png/revision/latest?cb=20160121224618"],
+                        "animations": ["https://media3.giphy.com/media/YMYgMz6JvkshUOIs7u/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "While in the air, you can press the Up Key and Jump Key together to perform a vertical jump",
+                            "Can be used twice in a row"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 142101002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Kinetic_Piledriver.png/revision/latest?cb=20160414184633"],
+                        "animations": ["https://media3.giphy.com/media/MaTolsNGLGO1XK7IL2/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Lifts enemies into the air and smashes them to the ground",
+                        "details": [
+                            "Charges PP when used"
+                        ]
+                    },
+                    {
+                        "id": 142100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_ESP_Mastery.png/revision/latest?cb=20160129014554"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 142100000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Psychic_Blast.png/revision/latest?cb=20160414184635", "https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927"],
+                        "animations": ["https://media2.giphy.com/media/KbkVdAhGHp79sFfNXx/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "Pulls enemies above you to your platform",
+                        "details": [
+                            "Activated by pressing the Down Key and <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927' alt='Skill Psychic Force' width='32' height='32'> together",
+                            "Increases %Damage Over Time and max enemies knocked back",
+                            "Increases %Damage Increase during Damage Over Time and max amount of %Damage Increase",
+                            "Increases %Final Damage received from Kinesis while Damage Over Time is active",
+                            "Increases Magic Attack provided"
+                        ]
+                    },
+                    {
+                        "id": 142101009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Psychic_Drain.png/revision/latest?cb=20160414184635"],
+                        "animations": ["https://media3.giphy.com/media/ejzIitsfDK6ElG5fXO/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates a damaging area that also quickly generates PP while active",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 142101003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ultimate_-_Deep_Impact.png/revision/latest?cb=20160414184636"],
+                        "animations": ["https://media3.giphy.com/media/YqtpHYxl0VZq5XgeeK/giphy.gif"],
+                        "type": "PP Attack",
+                        "desc": "Leap into the air and dash down to the ground at an angle",
+                        "details": [
+                            "Enemies hit will have all buffs removed",
+                            "Unaffected by Damage Reflect",
+                            "<strong>[Passive]</strong>: Permanently increases %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622' alt='Skill Ultimate - Metal Press'>"
+                        ]
+                    },
+                    {
+                        "id": 142101004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Psychic_Armor.png/revision/latest?cb=20160414184634"],
+                        "animations": ["https://media4.giphy.com/media/XzZ1j1JMQp1bDswAlL/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 142100005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Pure_Power.png/revision/latest?cb=20170902165622"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 142100007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Mental_Strength.png/revision/latest?cb=20160414184634"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "id": 142111002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749"],
+                        "animations": ["https://media1.giphy.com/media/ekSaCPcz0LOMwxWg94/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Lifts up enemies or objects and uses them to attack",
+                        "detail": [
+                            "You cannot life bosses or enemies 11 levels higher than you",
+                            "Charges PP when used"
+                        ]
+                    },
+                    {
+                        "id": 142110000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Psychic_Assault.png/revision/latest?cb=20160414180805", "https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage Over Time and max enemies knocked back",
+                            "Increases %Damage Increase during Damage Over Time and max amount of %Damage Increase",
+                            "Increases %Final Damage received from Kinesis while Damage Over Time is active",
+                            "Increases Magic Attack provided"
+                        ]
+                    },
+                    {
+                        "id": 142111006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Mind_Tremor.png/revision/latest?cb=20160414184833"],
+                        "animations": ["https://media2.giphy.com/media/eiLmAbvo964qTLEjmx/giphy.gif"],
+                        "type": "Active Debuff Zone",
+                        "desc": "Creates an area on the ground that debuffs enemies",
+                        "detail": [
+                            "<strong>[Debuff]</strong>: Decreases %DEF and increases %Final Damage dealt to enemy",
+                            "The effects of the debuff will increase depending on how many enemies are affected"
+                        ]
+                    },
+                    {
+                        "id": 142111007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Ultimate_-_Trainwreck.png/revision/latest?cb=20160414043519"],
+                        "animations": ["https://media1.giphy.com/media/XZxqotJkH8L5EKZTiS/giphy.gif"],
+                        "type": "PP Attack",
+                        "desc": "Summons a train that continuously smashes down on enemies",
+                        "detail": [
+                            "<strong>[Passive]</strong>: Increases %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622' alt='Skill Ultimate - Metal Press'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ultimate_-_Deep_Impact.png/revision/latest?cb=20160414184636' alt='Skill Ultimate - Deep Impact'>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 142110011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Kinetic_Combo.png/revision/latest?cb=20160414184959"],
+                        "animations": ["https://media2.giphy.com/media/y2KcEoqO6HxCSPrnpj/giphy.gif"],
+                        "type": "Final Attack Passive",
+                        "desc": "Whenever you attack, there is a chance to create an additional attack that seeks and attacks a nearby enemy",
+                        "detail": [
+                            "Does not activate when using Ultimate-type skills, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927' alt='Skill Psychic Force'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Psychic_Drain.png/revision/latest?cb=20160414184635' alt='Skill Psychic Drain'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Ultimate_-_Psychic_Shot.png/revision/latest?cb=20160414191312' alt='Skill Ultimate - Psychic Shot'> Psychic Shot (4th Job), or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534' alt='Skill Mental Tempest'> Mental Tempest (Hyper Skill)"
+                        ]
+                    },
+                    {
+                        "id": 142110009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Psychic_Bulwark.png/revision/latest?cb=20160414185227", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Psychic_Armor.png/revision/latest?cb=20160414184634"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases DEF provided",
+                            "Now increases %Knockback Resistance"
+                        ]
+                    },
+                    {
+                        "id": 142111010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Kinetic_Jaunt.png/revision/latest?cb=20160414185437"],
+                        "animations": ["https://media1.giphy.com/media/XgMQ12fVckEn6CfKny/giphy.gif"],
+                        "type": "PP Key-down Active",
+                        "desc": "When held, you levitate up into the air",
+                        "details": [
+                            "You can move while this skill is held"
+                        ]
+                    },
+                    {
+                        "id": 142110008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Psychic_Reinforcement.png/revision/latest?cb=20170902170238"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 142110012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Third_Eye_%28Kinesis%29.png/revision/latest?cb=20160414185638"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 142110013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Transcendence.png/revision/latest?cb=20160414185953"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 142110014,
+                        "icons": ["https://i.imgur.com/27mKU5n.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "id": 142120000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Psychic_Clutch.png/revision/latest?cb=20160414045005", "https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage, number of hits, and max enemies hit",
+                        "Increases amount of enemies grabbed"
+                    ]
+                },
+                {
+                    "id": 142120002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Ultimate_-_Psychic_Shot.png/revision/latest?cb=20160414191312"],
+                    "animations": ["https://media2.giphy.com/media/idLLarA2xXWBY3nLiu/giphy.gif"],
+                    "type": "PP Passive Attack",
+                    "desc": "Throws the objects that you've grabbed with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Psychic_Clutch.png/revision/latest?cb=20160414045005' alt='Skill Psychic Clutch'> forward. Enemies hit are debuffed",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Reduces %DEF",
+                        "Shares Skill Points with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Psychic_Clutch.png/revision/latest?cb=20160414045005' alt='Skill Psychic Clutch'> Psychic Clutch",
+                        "Can be activated by pressing the Up Key and <img width='33' height='33' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749' alt='Skill Psychic Grab'> together"
+                    ]
+                },
+                {
+                    "id": 142121005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ultimate_-_B.P.M..png/revision/latest?cb=20160414191401"],
+                    "animations": ["https://media1.giphy.com/media/JTDOTSXpAH20pu26AK/giphy.gif"],
+                    "type": "PP Toggle Attack",
+                    "desc": "While active, a stream of psychic punches appear in front of you",
+                    "details": [
+                        "Increases %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622' alt='Skill Ultimate - Metal Press'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ultimate_-_Deep_Impact.png/revision/latest?cb=20160414184636' alt='Skill Ultimate - Deep Impact'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Ultimate_-_Trainwreck.png/revision/latest?cb=20160414043519' alt='Skill Ultimate - Trainwreck'>"
+                    ]
+                },
+                {
+                    "id": 142120003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Mind_Quake.png/revision/latest?cb=20160414191546", "https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Mind_Tremor.png/revision/latest?cb=20160414184833"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Now damages enemies on initial hit",
+                        "Now triples the amount of DEF Reduction and Final Damage applied based on enemies affected in the area",
+                        "Debuff now applies to both enemies that enter and leave"
+                    ]
+                },
+                {
+                    "id": 142121004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Mind_Break.png/revision/latest?cb=20160414191540"],
+                    "animations": ["https://media2.giphy.com/media/chiH4lkeTiIL46751I/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes a shockwave that damages nearby enemies",
+                    "details": [
+                        "Grants a stacking %Final Damage buff for each enemy hit<ul><li>Boss hits grant extra stacks</li></ul>",
+                        "Charges PP when used"
+                    ]
+                },
+                {
+                    "id": 142121016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_President%27s_Orders.png/revision/latest?cb=20160414191639"],
+                    "animations": ["https://media4.giphy.com/media/BRGLQ1NiThQWEj3zhy/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 142121008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Psychic_Charger.png/revision/latest?cb=20160414191729"],
+                    "animations": ["https://media2.giphy.com/media/vORjHvLxvU6ttvT5Hv/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Instantly charges up your PP",
+                    "details": [
+                        "<strong>[Passive]</strong>: Permanently increases %Boss Damage"
+                    ]
+                },
+                {
+                    "id": 142121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Clear_Mind.png/revision/latest?cb=20160414191911"],
+                    "animations": ["https://media0.giphy.com/media/1zUGyzcvKuHDGwRNvw/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
+                    "details": [
+                        "<strong>[Passive]</strong>: Increases Abnormal Status Resistance"
+                    ]
+                },
+                {
+                    "id": 142120006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Telepath_Tactics.png/revision/latest?cb=20170902170506"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 142120010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Awakening.png/revision/latest?cb=20160414192030"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 142120009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Supreme_Concentration.png/revision/latest?cb=20160414192120"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 142120011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Critical_Rush.png/revision/latest?cb=20160414192204"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Combo kills as in the 'Combo' text that appears when you defeat an enemy",
+                        "Effects are similar to what Weapon Mastery skills do"
+                    ]
+                },
+                {
+                    "id": 142120012,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mind_Scrambler.png/revision/latest?cb=20160414192253"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 142120013,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Mastery.png/revision/latest?cb=20160414192329", "https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_ESP_Mastery.png/revision/latest?cb=20160129014554"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now increases %Crit Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 142120033,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Psychic_Grab_-_Boss_Point.png/revision/latest?cb=20160121083834"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 142120034,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Psychic_Grab_-_Reinforce.png/revision/latest?cb=20160121084624"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 142120035,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Psychic_Grab_-_Steel_Skin.png/revision/latest?cb=20160121085438"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Grants a %DEF buff when used"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "id": 142120036,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Mind_Tremor_-_Overwhelm.png/revision/latest?cb=20160121215330"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 142120037,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Mind_Tremor_-_Reinforce.png/revision/latest?cb=20160121215726"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 142120038,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Mind_Tremor_-_Persist.png/revision/latest?cb=20160121220058"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 142120039,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Mind_Break_-_Reinforce.png/revision/latest?cb=20160121220412"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 142120040,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Mind_Break_-_Cooldown_Cutter.png/revision/latest?cb=20160121220710"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 142120041,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Mind_Break_-_Enhance.png/revision/latest?cb=20160121221042"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 142121030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534"],
+                    "animations": ["https://media1.giphy.com/media/DYtfwCn2yo9Ud8fdLf/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes a barrage of your Ultimate attacks before releasing a deadly final blow",
+                    "details": [
+                        "The final blow has increased %Ignore DEF",
+                        "You are invincible while casting and you instantly gain max PP"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 142121031,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Mental_Shock.png/revision/latest?cb=20160121223430"],
+                    "animations": ["https://media4.giphy.com/media/hzpkfQxQXjwzxRhxkN/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Unleashes a shockwave that binds nearby enemies",
+                    "reqLev": 160
+                },
+                {
+                    "id": 142121032,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Mental_Overdrive.png/revision/latest?cb=20160121224027"],
+                    "animations": ["https://media4.giphy.com/media/7PEVIRsj1XPbt91Kie/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["otherworldGoddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Psychic Tornado",
+                    "shortDesc": "Psychic Point Cost: 15, Max Enemies Hit: 15, Damage: 1000%, Number of Attacks: 4, Duration: 20 sec\\nThe tornado of objects grows and grows until the skill ends or is used again, causing the objects inside to be thrown forward.\\nThrown Object - Deals 275% damage on up to 10 enemies 2 times and explodes to deal 600% damage up to 10 enemies 10 times. Final Damage increases up to 3 times in proportion to the object's size.\\nCooldown: 120 sec",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Psychic_Tornado.png/revision/latest?cb=20161125062713"],
+                    "animations": ["https://media1.giphy.com/media/62tTfxlfv9bA5nBXk8/giphy.gif"],
+                    "type": "PP Attack",
+                    "desc": "Creates a cube above your head that damages nearby enemies while growing bigger and bigger",
+                    "details": [
+                        "Objects are also thrown out of the cube damaging enemies hit<ul><li>Based on the size of the object, the %Final Damage of the attack will be increased</li></ul>",
+                        "Once it grows to the maximum size, the cube will be thrown and cause an explosion"
+                    ]
+                },
+                {
+                    "name": "Ultimate - Mind Over Matter",
+                    "shortDesc": "Psychic Point Cost: 10. Max Enemies Hit: 10, Damage: 1000%, Number of Attacks: 5. Attacks more quickly as object accelerates.\\nWhile traveling towards you, object moves at 75% speed.\\nInflicts an additional 1400% damage to up to 12 enemies 12 times when the object disappears.\\nCooldown: 90 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Ultimate_-_Mind_Over_Matter.png/revision/latest?cb=20181015053357"],
+                    "animations": ["https://media2.giphy.com/media/iY1v2KiTOJlruBG3EY/giphy.gif"],
+                    "type": "PP Attack",
+                    "desc": "Creates a giant object that travels forward while damaging enemies",
+                    "details": [
+                        "Using <img width='33' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Psychic_Assault.png/revision/latest?cb=20160414180805' alt='Skill Psychic Assault'> will push the object causing it to speed up",
+                        "If the object hits the edge of the map, it will bounce back",
+                        "At the end of the duration, the object explodes"
+                    ]
+                },
+                {
+                    "name": "Ultimate - Psychic Shockwave",
+                    "shortDesc": "Psychic Point Cost: 3. Attacks the enemies you're lifting and up to 8 enemies in front of you to deal 1100% damage 6 time(s). Charges 1 Psychic Points when the skill lands successfully.\\nMicro Black Hole: Activates a black hole 4 times. Damage: 1000%, Max Enemies Hit: 8, Number of Attacks: 3. Charges 1 Psychic Point slot(s) when the skill hits a target.",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Ultimate_-_Psychic_Shockwave.png/revision/latest?cb=20181115065416"],
+                    "animations": ["https://media0.giphy.com/media/Z9g1yVMKsjLckwEICW/giphy.gif"],
+                    "type": "PP Attack",
+                    "desc": "Throws the objects that you've grabbed with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Psychic_Clutch.png/revision/latest?cb=20160414045005' alt='Skill Psychic Clutch'> forward and creates a black hole at the max distance",
+                    "details": [
+                        "Can be activated by pressing the Down Arrow Key and <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749' alt='Skill Psychic Grab' width='33' height='33'> together",
+                        "The black hole charges PP whenever the skill hits an enemy"
+                    ]
+                },
+                {
+                    "name": "Law of Gravity",
+                    "shortDesc": "Psychic Point Cost: 5, Enemies Hit: 1, Damage: 400%, Number of Attacks: 6, Debuff Duration: 22\\nPeriodically attacks up to 6 enemies with 1000% damage 8 times and pulls them in. Reduces the activation interval up to 3 times in proportion to the number of enemies pulled in so far, and Final Damage of the attack increases by 40%. If there is no enemy to pull in, objects will get pulled in instead. It will be regarded as the max number of enemies that can be attacked. Upon ending, it explodes to attack up to 10 enemies with 1200% damage 15 times.\\nCooldown: 60 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/law-of-gravity.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/60Ysnum3D8CVrUSv2a/giphy.gif"],
+                    "type": "PP Summon",
+                    "desc": "Damages and debuffs an enemy causing them to pull in nearby enemies and objects",
+                    "details": [
+                        "If the enemy is defeated, an orb will take its place and also pull in nearby enemies and objects",
+                        "Based on the number of enemies pulled in, the attack's frequency and %Final Damage will be increased",
+                        "If no enemies are nearby to pull in, the objects that are pulled in will be treated as enemies instead",
+                        "At the end of the duration, Law of Gravity will explode, damaging nearby enemies",
+                        "Prioritizes enemies with the highest max HP"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Psychic Grab - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749"],
+                "animations": ["https://media1.giphy.com/media/ekSaCPcz0LOMwxWg94/giphy.gif"]
+            },
+            {
+                "name": "Ultimate - Trainwreck - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Ultimate_-_Trainwreck.png/revision/latest?cb=20160414043519"],
+                "animations": ["https://media1.giphy.com/media/XZxqotJkH8L5EKZTiS/giphy.gif"]
+            },
+            {
+                "name": "Ultimate - Psychic Shot - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Ultimate_-_Psychic_Shot.png/revision/latest?cb=20160414191312"],
+                "animations": ["https://media2.giphy.com/media/idLLarA2xXWBY3nLiu/giphy.gif"]
+            },
+            {
+                "name": "Ultimate - B.P.M - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ultimate_-_B.P.M..png/revision/latest?cb=20160414191401"],
+                "animations": ["https://media1.giphy.com/media/JTDOTSXpAH20pu26AK/giphy.gif"]
+            },
+            {
+                "name": "Mental Tempest - Hyper Skills",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534"],
+                "animations": ["https://media1.giphy.com/media/DYtfwCn2yo9Ud8fdLf/giphy.gif"]
+            },
+            {
+                "name": "Psychic Tornado - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Psychic_Tornado.png/revision/latest?cb=20161125062713"],
+                "animations": ["https://media1.giphy.com/media/62tTfxlfv9bA5nBXk8/giphy.gif"]
+            },
+            {
+                "name": "Ultimate - Psychic Shockwave - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Ultimate_-_Psychic_Shockwave.png/revision/latest?cb=20181115065416"],
+                "animations": ["https://media0.giphy.com/media/Z9g1yVMKsjLckwEICW/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Kinesis is an INT Mage class part of the FriendStory class group. Kinesis does not use MP as a resource and instead has PP (Psychic Points) that skills consume. Kinesis charges his PP using special attacks and as well has a Double Jump skill instead of a Teleport like most Mages do"
+}

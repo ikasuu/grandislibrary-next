@@ -1,0 +1,567 @@
+{
+    "class": "Thunder Breaker",
+    "content": {
+        "classGroup": "Cygnus Knights",
+        "jobGroup": "Pirate",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["knuckle"]},
+            {"secondary": ["jewel"]}
+        ],
+        "classType": [
+            "Combo/Linking Skills",
+            "Mobile",
+            "Tons of lines"
+        ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Attack"],
+        "prosCons": {
+            "pros": [
+                "Combo class that allows you to link skills together",
+                "Attacks have many lines especially with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Arc_Charger.png/revision/latest?cb=20170910010910' alt='Skill Arc Charger'> Arc Charger (4th Job) that essentially doubles the number of lines you deal",
+                "4th Job Mobbing skill <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Thunderbolt.png/revision/latest?cb=20170910005211' alt='Skill Thunderbolt' width='32' height='32'/> Thunderbolt has a tall hitbox that can hit multiple platforms<ul><li>As well with <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Typhoon.png/revision/latest?cb=20170910005622' alt='Skill Typhoon' width='32' height='32'/> Typhoon (4th Job) and its 3rd Job variant <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale' width='32' height='32'/> Gale</li></ul>",
+                "Cygnus Knight characters do not need <img width='32' height='29' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png/revision/latest?cb=20140817012100' alt='Use Mastery Book 20'><img width='32' height='29' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png/revision/latest?cb=20140817012104' alt='Use Mastery Book 30'>Mastery Books"
+            ],
+            "cons": [
+                "Long cooldown on main buffs such as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Arc_Charger.png/revision/latest?cb=20170910010910' alt='Skill Arc Charger'> Arc Charger (4th Job), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Primal_Bolt.png/revision/latest?cb=20170707160705' alt='Skill Primal Bolt'> Primal Bolt (Hyper Skill) and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Lightning_Cascade.png/revision/latest?cb=20161125062545' alt='Skill Lightning Cascade'> Lightning Cascade (5th Job) especially if you die",
+                "Linking Skills consists of alternating between 2 skills which may be exhausting after prolonged playing"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, Link Skills, and buffs with cooldowns",
+            [
+                "<strong>Avoidability</strong>: +20%",
+                "<strong>Crit Rate</strong>: +30%",
+                "<strong>Crit Damage</strong>: +45%",
+                "<strong>Damage</strong>: 5% + (up to 35% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'><img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Typhoon.png/revision/latest?cb=20170910005622' alt='Skill Typhoon'> Gale/Typhoon)",
+                "<strong>Final Damage</strong>: (100% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> Lightning Elemental) + (20% on <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Link_Mastery.png/revision/latest?cb=20181014055246' alt='Skill Link Mastery'> Linked Attacks)",
+                "<strong>Knockback Resistance</strong>: 0%",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: 30%",
+                "<strong>Ignore DEF</strong>: (+45% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> Lightning Elemental)",
+                "<strong>Abnormal Status Resistance</strong>: 30"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Knuckle_Booster.png/revision/latest?cb=20110507035507' alt='Skill Knuckle Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Speed_Infusion.png/revision/latest?cb=20110508020039' alt='Skill Speed Infusion'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Phalanx_Charge.png/revision/latest?cb=20170623004415' alt='Skill Phalanx Charge'>(30s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Arc_Charger.png/revision/latest?cb=20170910010910' alt='Skill Arc Charger'>(296 - 180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Primal_Bolt.png/revision/latest?cb=20170707160705' alt='Skill Primal Bolt'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Glory_of_the_Guardians_%28Thunder_Breaker%29.png/revision/latest?cb=20160605205818' alt='Skill Glory of the Guardians (Thunder Breaker)'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Lightning_Cascade.png/revision/latest?cb=20161125062545' alt='Skill Lightning Cascade'> (120 - 105s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Empress_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065036' alt='Skill Empress Cygnus's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741' alt='Skill Loaded Dice'>(180s cd <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813' alt='Skill Overdrive'>(70 - 64s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Deep_Rising.png/revision/latest?cb=20130123175806' alt='Skill Deep Rising'> (45s cd)"
+        },
+        "linkSkill": {
+                "id": 80000055,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103"],
+                "type": "Passive",
+                "desc": "",
+                "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level"]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/s37E2Zg.png", [499,374]],
+            "npc": [
+                ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/NPC_Hawkeye.png/revision/latest?cb=20110308155305", [90,131]],
+                ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/NPC_Neinheart.png/revision/latest?cb=20110308155501",[64,109]]
+            ],
+            "info": [
+                "To create one, choose the 'Cygnus Knights' option in the Character Creation screen and then continue through the story until you reach Lv. 10 and Ereve. You will see 5 NPCs on the left after talking to Neinheart. Talk to Hawkeye to become a Thunder Breaker"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Electrified.png/revision/latest?cb=20130122072352' alt='Skill Electrified'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Lightning_Punch.png/revision/latest?cb=20130122071659' alt='Skill Lightning Punch'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Flash.png/revision/latest?cb=20130122071913' alt='Skill Flash'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303' alt='Skill Knuckle Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Knuckle_Booster.png/revision/latest?cb=20110507035507' alt='Skill Knuckle Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Lightning_Boost.png/revision/latest?cb=20130122074447' alt='Skill Lightning Boost'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Gains.png/revision/latest?cb=20130122073642' alt='Skill Gains'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Tidal_Crash.png/revision/latest?cb=20130122073231' alt='Skill Tidal Crash'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Shark_Sweep.png/revision/latest?cb=20130122073101' alt='Skill Shark Sweep'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Ironclad.png/revision/latest?cb=20160627045701' alt='Skill Ironclad'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Link_Mastery.png/revision/latest?cb=20181014055246' alt='Skill Link Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Lightning_Lord.png/revision/latest?cb=20130122080955' alt='Skill Lightning Lord'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Seawall.png/revision/latest?cb=20160627045143' alt='Skill Seawall'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Ascension.png/revision/latest?cb=20130122075906' alt='Skill Ascension'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Electrify.png/revision/latest?cb=20170910012937' alt='Skill Electrify' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052' alt='Skill Pirate' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Thunder_God.png/revision/latest?cb=20170910013037' alt='Skill Thunder God' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Arc_Charger.png/revision/latest?cb=20170910010910' alt='Skill Arc Charger' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Thunderbolt.png/revision/latest?cb=20170910005211' alt='Skill Thunderbolt' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Speed_Infusion.png/revision/latest?cb=20110508020039' alt='Skill Speed Infusion' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Typhoon.png/revision/latest?cb=20170910005622' alt='Skill Typhoon' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Annihilate.png/revision/latest?cb=20170910003335' alt='Skill Annihilate' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Gale_-_Extra_Strike.png/revision/latest?cb=20140425191055' alt='Skill Gale - Extra Strike' width='32' height='32'> Gale - Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Thunderbolt_-_Reinforce.png/revision/latest?cb=20140425191059' alt='Skill Thunderbolt - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Thunderbolt_-_Extra_Strike.png/revision/latest?cb=20140425191108' alt='Skill Thunderbolt - Extra Strike' width='32' height='32'> Thunderbolt - Reinforce and Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Annihilate_-_Reinforce.png/revision/latest?cb=20140425191112' alt='Skill Annihilate - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Annihilate_-_Boss_Rush.png/revision/latest?cb=20140425191120' alt='Skill Annihilate - Boss Rush' width='32' height='32'> Annihilate - Reinforce and Boss Rush</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Shark_Sweep.png/revision/latest?cb=20130122073101' alt='Skill Shark Sweep'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Annihilate.png/revision/latest?cb=20170910003335' alt='Skill Annihilate'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Ascension.png/revision/latest?cb=20130122075906' alt='Skill Ascension'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Thunderbolt.png/revision/latest?cb=20170910005211' alt='Skill Thunderbolt'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Lightning_Punch.png/revision/latest?cb=20130122071659' alt='Skill Lightning Punch'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Flash.png/revision/latest?cb=20130122071913' alt='Skill Flash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Shark_Sweep.png/revision/latest?cb=20130122073101' alt='Skill Shark Sweep'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Tidal_Crash.png/revision/latest?cb=20130122073231' alt='Skill Tidal Crash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Ascension.png/revision/latest?cb=20130122075906' alt='Skill Ascension'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Annihilate.png/revision/latest?cb=20170910003335' alt='Skill Annihilate'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Thunderbolt.png/revision/latest?cb=20170910005211' alt='Skill Thunderbolt'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Deep_Rising.png/revision/latest?cb=20130123175806' alt='Skill Deep Rising'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3370/dawn-warrior",
+            "https://maplestory.fandom.com/wiki/Dawn_Warrior",
+            "https://dexless.com/guides/dawn-warrior-guide.30/"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 10001244,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Elemental_Slash.png/revision/latest?cb=20130525122036"],
+                    "animations": ["https://media1.giphy.com/media/5irbTpJkg7qZanOLzB/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strikes forward hitting multiple enemies"
+                },
+                {
+                    "id": 10001245,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
+                    "animations": ["https://media1.giphy.com/media/IAZoN72DI12njaflIG/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 10000246,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Elemental_Harmony.png/revision/latest?cb=20130525122047"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 10000250,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Elemental_Expert.png/revision/latest?cb=20130525122051"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 10000252,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058"],
+                    "animations": ["https://media2.giphy.com/media/Wy7uJDa5nDkhvwq9Yq/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 15001020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Lightning_Punch.png/revision/latest?cb=20130122071659"],
+                        "animations": ["https://media3.giphy.com/media/QfO9D3SLCRkXUnYQ3K/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Punch forward",
+                        "details": [
+                            "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'> Thunder (3rd Job)"
+                        ]
+                    },
+                    {
+                        "id": 15001021,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Flash.png/revision/latest?cb=20130122071913"],
+                        "animations": ["https://media1.giphy.com/media/LD0Djkk3KSA6nk62zy/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Teleports to the nearest and damages nearby enemies",
+                        "details": [
+                            "If there are no enemies, teleports forward a short distance",
+                            "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'> Thunder (3rd Job)"
+                        ]
+                    },
+                    {
+                        "id": 15001022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
+                        "animations": ["https://media3.giphy.com/media/rkceNDqVFh7OCLO2no/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When active, your attacks have a chance to provide a stacking buff that increases %Ignore DEF (up to 1)"
+                    },
+                    {
+                        "id": 15000023,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Electrified.png/revision/latest?cb=20130122072352", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff",
+                            "Increases max stacks of buff up to 2",
+                            "Now increases Movement Speed, Jump and Max Movement Speed"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [{
+                        "id": 15101020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Shark_Sweep.png/revision/latest?cb=20130122073101"],
+                        "animations": ["https://media4.giphy.com/media/M2sdeddbjNHX45TZiq/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Sweep upwards performing a sommersault kick",
+                        "details": [
+                            "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'> Thunder (3rd Job)"
+                        ]
+                    },
+                    {
+                        "id": 15101021,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Tidal_Crash.png/revision/latest?cb=20130122073231"],
+                        "animations": ["https://media4.giphy.com/media/h1HvghS9pqnPg1e5F4/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing enemies back ",
+                        "details": [
+                            "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'> Thunder (3rd Job)"
+                        ]
+                    },
+                    {
+                        "id": 15101022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Knuckle_Booster.png/revision/latest?cb=20110507035507"],
+                        "animations": ["https://media0.giphy.com/media/tA5J3u0CZgvuD5vUgZ/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed by 2 stages"
+                    },
+                    {
+                        "id": 15100023,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 15100024,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Gains.png/revision/latest?cb=20130122073642"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 15100025,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Lightning_Boost.png/revision/latest?cb=20130122074447", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff",
+                            "Increases max stacks of buff up to 3",
+                            "Grants flat Attack"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 15111020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Ascension.png/revision/latest?cb=20130122075906"],
+                        "animations": ["https://media2.giphy.com/media/kl1r4J5Q1xPuvP0IQ6/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap up into the air while a shark launches from the ground",
+                        "details": [
+                            "Can be linked with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'> Thunder"
+                        ]
+                    },
+                    {
+                        "id": 15111021,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037"],
+                        "animations": ["https://media2.giphy.com/media/YU2hIjO8FtNEMyzSQP/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dives downwards to the ground at an angle",
+                        "details": [
+                            "Can only be used in the air or after <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Ascension.png/revision/latest?cb=20130122075906' alt='Skill Ascension'> Ascension",
+                            "Can be linked with all skills"
+                        ]
+                    },
+                    {
+                        "id": 15111022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207"],
+                        "animations": ["https://media3.giphy.com/media/WnCm9zdboew3IuyqWQ/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Unleashes a powerful whirlwind in front of you",
+                        "details": [
+                            "Consumes all stacks of <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental' width='32' height='32'><ul><li>Can only be used when you have more than 3 stacks</li><li>Gale cannot generate stacks of <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental' width='32' height='32'></li></ul>",
+                            "Grants a %Damage buff depending on how many stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> was consumed"
+                        ]
+                    },
+                    {
+                        "id": 15110023,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Seawall.png/revision/latest?cb=20160627045143"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 15110024,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Ironclad.png/revision/latest?cb=20160627045701"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 15110025,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Link_Mastery.png/revision/latest?cb=20181014055246"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 15110026,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Lightning_Lord.png/revision/latest?cb=20130122080955", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff",
+                            "Increases max stacks of buff up to 4",
+                            "Now grants flat Attack"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 15121000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
+                    "animations": ["https://media3.giphy.com/media/BPohzVfkrMfsDBMSXr/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "",
+                    "details": [
+                        "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete the quest 'The Alliance Gathers' at Lv. 120"
+                    ]
+                },
+                {
+                    "id": 15121001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Annihilate.png/revision/latest?cb=20170910003335"],
+                    "animations": ["https://media1.giphy.com/media/vnTgyhQ7DKdnabteLi/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summons a shark that lunges forward damaging one enemy",
+                    "details": [
+                        "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'>"
+                    ]
+                },
+                {
+                    "id": 15121002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Thunderbolt.png/revision/latest?cb=20170910005211"],
+                    "animations": ["https://media4.giphy.com/media/FKbPuYnEZooNnTsAPc/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slams down an anchor on enemies in front of you",
+                    "details": [
+                        "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'>"
+                    ]
+                },
+                {
+                    "id": 15120003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Typhoon.png/revision/latest?cb=20170910005622"],
+                    "animations": ["https://media1.giphy.com/media/eovAJz25VZvMV6DVR3/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Enhances <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'>, increasing %Damage and the amount of %Damage provided from buff"
+                },
+                {
+                    "id": 15121004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Arc_Charger.png/revision/latest?cb=20170910010910"],
+                    "animations": ["https://media3.giphy.com/media/lqNqC0DsrePHusvVEz/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, increases the number hits per attack of all your skills",
+                    "details": [
+                        "Functions similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Shadow_Partner.png/revision/latest?cb=20110504073955' alt='Skill Shadow Partner'> Shadow Partner",
+                        "The additional hit has reduced %Final Damage",
+                        "Cooldown is reduced based for every stack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'>"
+                    ]
+                },
+                {
+                    "id": 15121005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Speed_Infusion.png/revision/latest?cb=20110508020039"],
+                    "animations": ["https://media3.giphy.com/media/AT4pBfbtzZbSl55eUM/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "Increases Attack Speed (by 2 stages)"
+                },
+                {
+                    "id": 15120006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "id": 15120007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Electrify.png/revision/latest?cb=20170910012937"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 15120008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Thunder_God.png/revision/latest?cb=20170910013037", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases chance to trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff",
+                        "Increases max stacks of buff up to 5",
+                        "Increases %Crit Rate and %Crit Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 15120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Gale_-_Reinforce.png/revision/latest?cb=20140425191046"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 15120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Gale_-_Spread.png/revision/latest?cb=20140425191051"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 15120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Gale_-_Extra_Strike.png/revision/latest?cb=20140425191055"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 15120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Thunderbolt_-_Reinforce.png/revision/latest?cb=20140425191059"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 15120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Thunderbolt_-_Spread.png/revision/latest?cb=20140425191104"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 15120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Thunderbolt_-_Extra_Strike.png/revision/latest?cb=20140425191108"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 15120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Annihilate_-_Reinforce.png/revision/latest?cb=20140425191112"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 15120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Annihilate_-_Guardbreak.png/revision/latest?cb=20140425191117"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 15120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Annihilate_-_Boss_Rush.png/revision/latest?cb=20140425191120"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 15121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Primal_Bolt.png/revision/latest?cb=20170707160705"],
+                    "animations": ["https://media4.giphy.com/media/5hKYoyuGoLNcbLMI9y/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When active, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> can be used without any stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> and has no cooldown",
+                    "details": [
+                        "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> will still consume all stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'>",
+                        "<strong>[Passive]</strong>: Permanently, each stack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> grants additional %Ignore DEF and %Final Damage"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 15121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Deep_Rising.png/revision/latest?cb=20130123175806"],
+                    "animations": ["https://media3.giphy.com/media/mLTX27xjvKforRTChv/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summons the king of the sea to crash down on enemies",
+                    "details": [
+                        "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'>",
+                        "You are invincible while casting"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 11121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Glory_of_the_Guardians_%28Thunder_Breaker%29.png/revision/latest?cb=20160605205818"],
+                    "animations": ["https://media2.giphy.com/media/6pJR998LjgYLjsNPQK/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["phalanxCharge", "cygnusBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Lightning Cascade",
+                    "shortDesc": "MP Cost: 1000, Grants Final Damage +9% for 42 sec. Initial Damage: 600%, Max Enemies Hit: 5, Number of Attacks: 6. Send forth a traveling lightning bolt.\\nThe damage it deals decreases with each enemy it attacks, and it can hit up to 4 nearby enemies in a row\\nWhen only one bolt triggers, it becomes a more powerful version, dealing 800% damage 7 times.\\nLightning Spawn Cooldown: 3 sec\\nSkill Cooldown: 108 sec",
+                    "id": 400051007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Lightning_Cascade.png/revision/latest?cb=20161125062545"],
+                    "animations": ["https://media3.giphy.com/media/9qz8baSUojsFFBIdJf/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "When active, your attacks creates a chain of lightning that bounces to nearby enemies",
+                    "details": [
+                        "The lightning damage is reduced for each enemy it travels through",
+                        "Deals increased %Damage if only one enemy is hit",
+                        "Additionally grants a %Final Damage buff",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Shark Torpedo",
+                    "shortDesc": "MP Cost: 500, Consumes 2 Lightning Charges.\\nFires a deadly spirit-shark that deals 2000% damage 7 times to up to 15 enemies.\\nCooldown: 8 sec",
+                    "id": 400051016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Shark_Torpedo.png/revision/latest?cb=20170609033215"],
+                    "animations": ["https://media3.giphy.com/media/EprWwmMl2jpUFAwLXt/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Sends out a shark that rips through enemies in front of you",
+                    "details": [
+                        "Consumes 2 stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'>",
+                        "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Lightning God Spear Strike",
+                    "shortDesc": "MP Cost: 500\\nA divine trident is summoned after 8 linked attacks land successfully.\\nMax Enemies Hit: 8, Damage: 300%, Number of Attacks: 6\\nAfterwards, activates Lightning at set intervals 4 times, which hits up to 8 enemies for 400% damage 7 times.\\nCooldown: 7 sec",
+                    "id": 400051044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Lightning_God_Spear_Strike.png/revision/latest?cb=20181115065415"],
+                    "animations": ["https://media1.giphy.com/media/2JiaR3rUyriiIADRLc/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Every 8 successful Linked Attacks, a trident launches from the ground damaging nearby enemies",
+                    "details": [
+                        "The trident deals damage as it launches up and after it launches up"
+                    ]
+                },
+                {
+                    "name": "Lightning Spear Multistrike",
+                    "shortDesc": "MP Cost: 1000, Duration: 60 sec, Max Combo Attacks: 12\\nCombo Attack: Max Enemies Hit: 4, Damage: 750%, Number of Attacks: 5. When hit, Max Lightnings: 3, Max Enemies Hit: 3, Damage: 1000%, Number of Attacks: 4. Lightning activates in different places.\\nFinal combo attacks up to 7 enemies with 1200% damage 7 times. When hit, activates large lightning that attacks up to 8 eneemies with 1450% damage 6 times\\nCooldown: 120 sec",
+                    "id": 400051044,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/spear-lightning-chain.png?w=600"],
+                    "animations": ["https://media4.giphy.com/media/VdStVzbYIK5yp4dcUx/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strikes violently around you and causes lightning to strike from above",
+                    "details": [
+                        "Can be linked with all skills except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'>",
+                        "Can be used up to 12 times before going on cooldown",
+                        "The final strike deals increased %Damage",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Annihilate - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Annihilate.png/revision/latest?cb=20170910003335"],
+                "animations": ["https://media1.giphy.com/media/vnTgyhQ7DKdnabteLi/giphy.gif"]
+            },
+            {
+                "name": "Thunderbolt - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Thunderbolt.png/revision/latest?cb=20170910005211"],
+                "animations": ["https://media4.giphy.com/media/FKbPuYnEZooNnTsAPc/giphy.gif"]
+            },
+            {
+                "name": "Typhoon - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Typhoon.png/revision/latest?cb=20170910005622"],
+                "animations": ["https://media1.giphy.com/media/eovAJz25VZvMV6DVR3/giphy.gif"]
+            },
+            {
+                "name": "Deep Rising - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Deep_Rising.png/revision/latest?cb=20130123175806"],
+                "animations": ["https://media3.giphy.com/media/mLTX27xjvKforRTChv/giphy.gif"]
+            },
+            {
+                "name": "Lightning Cascade - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Lightning_Cascade.png/revision/latest?cb=20161125062545"],
+                "animations": ["https://media3.giphy.com/media/9qz8baSUojsFFBIdJf/giphy.gif"]
+            },
+            {
+                "name": "Shark Torpedo - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Shark_Torpedo.png/revision/latest?cb=20170609033215"],
+                "animations": ["https://media3.giphy.com/media/EprWwmMl2jpUFAwLXt/giphy.gif"]
+            },
+            {
+                "name": "Lightning God Spear Strike - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Lightning_God_Spear_Strike.png/revision/latest?cb=20181115065415"],
+                "animations": ["https://media1.giphy.com/media/2JiaR3rUyriiIADRLc/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Thunder Breaker is STR warrior class part of the Cygnus Knights. Thunder Breakers are known for their unique combo attack playstyle"
+}

@@ -1,0 +1,599 @@
+{
+    "class": "Dark Knight",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Max HP",
+        "legionValue": "2/3/4/5/6%",
+        "equipment": [
+            {"weapon": ["spear", "polearm"]},
+            {"secondary": ["ironChain"]}
+        ],
+        "classType": [
+            "Tanky",
+            "Offensive",
+            "Beginner-friendly"
+        ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Crit Rate"],
+        "prosCons": {
+            "pros": [
+                "High Max HP",
+                "Has lifesteal",
+                "100% Knockback Resistance",
+                "Easy 5th job node setup",
+                "Not mechanically complex, simple class",
+                "Invincibility after death + Revive"
+            ],
+            "cons": [
+                "Bossing skill requires a buff to be active in order to attack",
+                "Vertical reach is terrible until 4th job and 5th job"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives,<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Cross_Surge.png/revision/latest?cb=20130705114505' alt='Skill Cross Surge' width='32' height='32' /> Cross Surge buff, <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Sacrifice.png/revision/latest?cb=20130706031844' alt='Skill Sacrifice' width='32' height='32' /> Sacrifice buff, <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' /> Final Pact revive buff Link Skills, and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +80%",
+                "<strong>Max MP</strong>: +60%",
+                "<strong>Crit Rate</strong>: +40% + (10% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' /> Final Pact passive is active)",
+                "<strong>Crit Damage</strong>: +16% + (8% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' /> Final Pact passive is active)",
+                "<strong>Damage</strong>: +(5% when Spear is equipped) + (30% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' /> Final Pact passive is active)",
+                "<strong>Ignore DEF</strong>: +30%",
+                "<strong>Knockback Resistance</strong>: 100%",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +10%",
+                "<strong>Abnormal Status Resistance</strong>: 20"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Weapon_Booster_%28Spearman%29.png/revision/latest?cb=20110420132354' alt='Skill Weapon Booster (Spearman)' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Iron_Will_%28Spearman%29.png/revision/latest?cb=20130705103856' alt='Skill Iron Will (Spearman)' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Hyper_Body.png/revision/latest?cb=20110210134845' alt='Skill Hyper Body' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Cross_Surge.png/revision/latest?cb=20130705114505' alt='Skill Cross Surge' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'>",
+            "summons": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Evil_Eye.png/revision/latest?cb=20130705103844' alt='Skill Evil Eye' width='32' height='32' />, <img lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Radiant_Evil.png/revision/latest?cb=20170609033041' alt='Skill Radiant Evil' width='32' height='32'/>(20s cd)",
+            "buffCd": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Sacrifice.png/revision/latest?cb=20130706031844' alt='Skill Sacrifice' width='32' height='32' />(70s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Dark_Thirst.png/revision/latest?cb=20120917102429' alt='Skill Dark Thirst' width='32' height='32'/>(120s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Epic_Adventure_%28Warrior%29.png/revision/latest?cb=20120914160107' alt='Skill Epic Adventure (Warrior)' width='32' height='32' />(120s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/darkness-aura.png?w=600' alt='Skill Darkness Aura'/>(180s cd)",
+            "buffFifth": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Blitz_Shield.png/revision/latest?cb=20170629201925' alt='Skill Blitz Shield' width='32' height='32'/>(15s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing' width='32' height='32'/>(180s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742' alt='Skill Weapon Aura' width='32' height='32' />(180s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329' alt='Skill Impenetrable Skin' width='32' height='32' />(240s cd)",
+            "iFrame": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' />(803 - 600s cd revive)"
+        },
+        "linkSkill": {
+            "id": 80002758,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Invincible_Belief.png/revision/latest?cb=20191124005023"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/SmayX3a.png", [499,374]],
+            "npc": [
+                ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/NPC_Dances_with_Balrog.png/revision/latest?cb=20110306080902", [98,107]],
+                ["https://maplestory.io/api/character/%7B%22ItemId%22:1051355,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:21397,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:37847,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:1072833,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:2003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:12003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D/stand1/0",[64,97]]
+            ],
+            "info": [
+                "To create one, choose the 'Explorers' option in the Character Creation screen and then continue through the story until you reach the quest <a href='https://maplestory.fandom.com/wiki/Quests/77/Victoria_Island_or_Bust!' target='_blank' rel='noopener'>'Victoria Island or Bust'</a> and choose the 'Warrior, powerful and defensive' option",
+                "Once you reach Lv. 30 as a Warrior, talk to Dances with Balrog to accept a quest called <a href='https://maplestory.fandom.com/wiki/Quests/77/Way_of_the_Spearman' target='_blank' rel='noopener'>'Way of the Spearman'</a>. Completing the quest will make you a Spearman and you will be on the path to a Dark Knight. Spearman is the 2nd job of Dark Knight"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job","<img src='https://orangemushroom.files.wordpress.com/2013/05/warrior-jump.png?w=32&h=32' alt=''> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Iron_Body.png/revision/latest?cb=20160627041749' alt=''> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Warrior_Mastery.png/revision/latest?cb=20130705094411' alt=''> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Slash_Blast.png/revision/latest?cb=20100616081915' alt=''>"],
+                ["2nd Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Weapon_Mastery_%28Spearman%29.png/revision/latest?cb=20110420132350' alt='Skill Weapon Mastery (Spearman)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Weapon_Booster_%28Spearman%29.png/revision/latest?cb=20110420132354' alt='Skill Weapon Booster (Spearman)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Hyper_Body.png/revision/latest?cb=20110210134845' alt='Skill Hyper Body' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Iron_Will_%28Spearman%29.png/revision/latest?cb=20130705103856' alt='Skill Iron Will (Spearman)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Piercing_Drive.png/revision/latest?cb=20130705103832' alt='Skill Piercing Drive' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e7/Skill_Spear_Sweep.png/revision/latest?cb=20130705103850' alt='Skill Spear Sweep' width='32' height='32'>"],
+                ["3rd Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Cross_Surge.png/revision/latest?cb=20130705114505' alt='Skill Cross Surge' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Lord_of_Darkness.png/revision/latest?cb=20130705114613' alt='Skill Lord of Darkness' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Hex_of_the_Evil_Eye.png/revision/latest?cb=20140409154951' alt='Skill Hex of the Evil Eye' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Endure.png/revision/latest?cb=20130705105410' alt='Skill Endure' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Evil_Eye_of_Domination.png/revision/latest?cb=20170904052554' alt='Skill Evil Eye of Domination' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Evil_Eye_Shock.png/revision/latest?cb=20130705114445' alt='Skill Evil Eye Shock' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_La_Mancha_Spear.png/revision/latest?cb=20130705114418' alt='Skill La Mancha Spear' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Rush_%28Berserker%29.png/revision/latest?cb=20130705114424' alt='Skill Rush (Berserker)' width='32' height='32' />"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Barricade_Mastery_%28Dark_Knight%29.png/revision/latest?cb=20130706031857' alt='Skill Barricade Mastery (Dark Knight)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Dark_Impale.png/revision/latest?cb=20110422073014' alt='Skill Dark Impale' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921' alt='Skill Power Stance (Warrior)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Magic_Crash_%28Warrior%29.png/revision/latest?cb=20130705121916' alt='Skill Magic Crash (Warrior)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Sacrifice.png/revision/latest?cb=20130706031844' alt='Skill Sacrifice' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Gungnir%27s_Descent.png/revision/latest?cb=20130706031829' alt='Skill Gungnir' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Revenge_of_the_Evil_Eye.png/revision/latest?cb=20110422073005' alt='Skill Revenge of the Evil Eye' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Gungnir%27s_Descent_-_Boss_Rush.png/revision/latest?cb=20130706032048' alt='Skill Gungnir's Descent - Boss Rush' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Gungnir%27s_Descent_-_Reinforce.png/revision/latest?cb=20130706032036' alt='Skill Gungnir's Descent - Reinforce' width='32' height='32'> Gungnir's Descent - Boss Rush and Reinforce</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Evil_Eye_-_Hex_Reinforce.png/revision/latest?cb=20160425221809' alt='Skill Evil Eye - Hex Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Evil_Eye_-_Reinforce.png/revision/latest?cb=20160424205536' alt='Skill Evil Eye - Reinforce' width='32' height='32'> Evil Eye - Hex Reinforce and Reinforce</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Final_Pact_-_Damage.png/revision/latest?cb=20130706032015' alt='Skill Final Pact - Damage' width='32' height='32'> Final Pact - Damage</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Dark_Impale.png/revision/latest?cb=20110422073014' alt='Skill Dark Impale' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Gungnir%27s_Descent.png/revision/latest?cb=20130706031829' alt='Skill Gungnir's Descent' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Nightshade_Explosion.png/revision/latest?cb=20120917102158' alt='Skill Nightshade Explosion' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Evil_Eye_Shock.png/revision/latest?cb=20130705114445' alt='Skill Evil Eye Shock' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Rush_%28Berserker%29.png/revision/latest?cb=20130705114424' alt='Skill Rush (Berserker)' width='32' height='32'>",
+            "possible": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Slash_Blast.png/revision/latest?cb=20100616081915' alt='Skill Slash Blast' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Piercing_Drive.png/revision/latest?cb=20130705103832' alt='Skill Piercing Drive' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e7/Skill_Spear_Sweep.png/revision/latest?cb=20130705103850' alt='Skill Spear Sweep' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_La_Mancha_Spear.png/revision/latest?cb=20130705114418' alt='Skill La Mancha Spear' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Rush_%28Berserker%29.png/revision/latest?cb=20130705114424' alt='Skill Rush (Berserker)' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Evil_Eye_Shock.png/revision/latest?cb=20130705114445' alt='Skill Evil Eye Shock' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Dark_Impale.png/revision/latest?cb=20110422073014' alt='Skill Dark Impale' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Gungnir%27s_Descent.png/revision/latest?cb=20130706031829' alt='Skill Gungnir's Descent' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Nightshade_Explosion.png/revision/latest?cb=20120917102158' alt='Skill Nightshade Explosion' width='32' height='32'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3376/warrior",
+            "https://maplestory.fandom.com/wiki/Warrior/Skills",
+            "https://dexless.com/guides/dark-knight-of-darkness-of-darkness-of-darkness.63/"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Hyper Passive Build","Enbon"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skill Animation", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1281,
+                    "offline": true,
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "animations": ["https://media1.giphy.com/media/9CMy7sLPg8PkWApcjD/giphy.gif"],
+                    "type": "Active"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 1001005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Slash_Blast.png/revision/latest?cb=20100616081915"],
+                        "animations": ["https://media1.giphy.com/media/4P1piZSm6uDxU4axRT/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slashes forward"
+                    },
+                    {
+                        "id": 1001008,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2013/05/warrior-jump.png?w=32&h=32", "https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_War_Leap_%28Spearman%29.png/revision/latest?cb=20140405011709"],
+                        "animations": ["https://media2.giphy.com/media/D0rqzuHZSBd4ElKbYC/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "id": 1001010,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2020/03/leap-attack.png?w=600"],
+                        "animations": ["https://media3.giphy.com/media/6w0VNjKqMAiiIjul1A/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Dive downwards towards nearby platforms below",
+                        "details": [
+                            "Can only be used while in the air",
+                            "Can also be activated by pressing the Down Arrow Key and Attack Key together",
+                            "For both, you can also press the Left or Right Arrow Key instead to dive towards the desired direction"
+                        ]
+                    },
+                    {
+                        "id": 1000003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Iron_Body.png/revision/latest?cb=20160627041749"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 1000009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Warrior_Mastery.png/revision/latest?cb=20130705094411"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 1301011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Piercing_Drive.png/revision/latest?cb=20130705103832"],
+                        "animations": ["https://media3.giphy.com/media/Za9KoQwK1U7LuVVyZm/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches your spear forward",
+                        "details": [
+                            "The attack has increased %Crit Chance if enemies are hit by the shaft of the spear",
+                            "The attack has increased %Damage if enemies are hit by the spear blade"
+                        ]
+                    },
+                    {
+                        "id": 1301013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Evil_Eye.png/revision/latest?cb=20130705103844"],
+                        "animations": ["https://media3.giphy.com/media/ywcuqxvB8ccQLw5r9i/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons an Evil Eye that regularly heals you "
+                    },
+                    {
+                        "id": 1301012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e7/Skill_Spear_Sweep.png/revision/latest?cb=20130705103850"],
+                        "animations": ["https://media2.giphy.com/media/LPTbzbyv4D1Rz44DCK/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Sweep your spear to pull in enemies while stunning them"
+                    },
+                    {
+                        "id": 1301004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Weapon_Booster_%28Spearman%29.png/revision/latest?cb=20110420132354"],
+                        "animations": ["https://media0.giphy.com/media/8F3rsxO9zYbe25Y07F/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 1301006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Iron_Will_%28Spearman%29.png/revision/latest?cb=20130705103856"],
+                        "animations": ["https://media0.giphy.com/media/OBC3NBkhfKv3g1GI88/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 1301007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Hyper_Body.png/revision/latest?cb=20110210134845"],
+                        "animations": ["https://media2.giphy.com/media/Mv5ykfnRjXK81Pj3ML/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 1300000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Weapon_Mastery_%28Spearman%29.png/revision/latest?cb=20110420132350"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 1300002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Final Attack Passive",
+                        "desc": "Grants your attacks a chance to deal an additional hit"
+                    },
+                    {
+                        "id": 1300009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 1311011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_La_Mancha_Spear.png/revision/latest?cb=20130705114418"],
+                        "animations": ["https://media3.giphy.com/media/lSE0ol4bO6Fk83db3d/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Twirl your spear, damaging enemies caught in it",
+                        "details": [
+                            "At the end of the skill, you perform a final strike"
+                        ]
+                    },
+                    {
+                        "id": 1311012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Rush_%28Berserker%29.png/revision/latest?cb=20130705114424"],
+                        "animations": ["https://media1.giphy.com/media/fwuEHP8rPeDE23Q2Gl/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing back enemies"
+                    },
+                    {
+                        "id": 1311014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Evil_Eye_Shock.png/revision/latest?cb=20130705114445"],
+                        "animations": ["https://media2.giphy.com/media/ZZIDOmplkY5AXzcQ9c/giphy.gif"],
+                        "type": "Evil Eye Attack",
+                        "desc": "Unleashes a shockwave that stuns and damages nearby enemies"
+                    },
+                    {
+                        "id": 1311017,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2020/03/upper-charge-3.png?w=600"],
+                        "animations": ["https://media3.giphy.com/media/qp0lqV3qo0oYGVIkV6/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Launch up into the air",
+                        "details": [
+                            "Can also be activated by pressing the Up Arrow Key and Attack Key together<ul><li>Right-clicking the skill will lock it, preventing input activation</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 1311015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Cross_Surge.png/revision/latest?cb=20130705114505"],
+                        "animations": ["https://media4.giphy.com/media/oaMIulYDpjzsSeHAxE/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases %Final Damage based on your current %HP",
+                        "details": [
+                            "<strong>[Passive]</strong>: Permanently increases %Final Damage",
+                            "Additionally while active, increases %Damage Reduction based on your missing HP"
+                        ]
+                    },
+                    {
+                        "id": 1310013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Evil_Eye_of_Domination.png/revision/latest?cb=20170904052554"],
+                        "animations": ["https://media4.giphy.com/media/XUtoJDozTk25lKR6Tr/giphy.gif"],
+                        "type": "Evil Eye Passive Attack",
+                        "desc": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Evil_Eye.png/revision/latest?cb=20130705103844' alt='Skill Evil Eye' width='32' height='32' /> will now periodically attack nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 1310009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Lord_of_Darkness.png/revision/latest?cb=20130705114613"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 1310010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Endure.png/revision/latest?cb=20130705105410"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 1310016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Hex_of_the_Evil_Eye.png/revision/latest?cb=20140409154951"],
+                        "type": "Evil Eye Passive Party Buff",
+                        "desc": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Evil_Eye.png/revision/latest?cb=20130705103844' alt='Skill Evil Eye' width='32' height='32' /> will periodically buff you and party members granting flat Attack and DEF and %Crit Rate",
+                        "details": [
+                            "Effects are halved for party members"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 1321013,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Gungnir%27s_Descent.png/revision/latest?cb=20130706031829"],
+                    "animations": ["https://orangemushroom.files.wordpress.com/2013/07/gungnir-descent-effect.gif"],
+                    "type": "Attack",
+                    "desc": "A giant spear strikes down on one enemy",
+                    "details": [
+                        "Attack has increased %Ignore DEF",
+                        "Cooldown is ignored if <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Sacrifice.png/revision/latest?cb=20130706031844' alt='Skill Sacrifice' width='32' height='32' /> or <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' /> buff is active"
+                    ]
+                },
+                {
+                    "id": 1321014,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Magic_Crash_%28Warrior%29.png/revision/latest?cb=20130705121916"],
+                    "animations": ["https://media0.giphy.com/media/sdPXoBl9doTDfwYXVJ/giphy.gif"],
+                    "type": "Active Debuff",
+                    "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs"
+                },
+                {
+                    "id": 1321012,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Dark_Impale.png/revision/latest?cb=20110422073014"],
+                    "animations": ["https://media2.giphy.com/media/j5nTxmptbc92CXnfyE/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Swings your spear forward rapidly multiple times"
+                },
+                {
+                    "id": 1320017,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 1321015,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Sacrifice.png/revision/latest?cb=20130706031844"],
+                    "animations": ["https://media1.giphy.com/media/VW74vlxrK2XfR3hiff/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Restores %Max HP when casts and grants a buff that increases %Ignore DEF and %Boss Damage ",
+                    "details": [
+                        "<strong>[Passive]: </strong>Permanently increases %Ignore DEF",
+                        "Additionally, while buff is active, <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Gungnir%27s_Descent.png/revision/latest?cb=20130706031829' alt='Skill Gungnir's Descent' width='32' height='32' /> can be used without a cooldown",
+                        "Successful attacks from <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Evil_Eye.png/revision/latest?cb=20130705103844' alt='Skill Evil Eye' width='32' height='32' /> will reduce the cooldown slightly"
+                    ]
+                },
+                {
+                    "id": 1321000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 1321010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 1320016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852"],
+                    "animations": ["https://media1.giphy.com/media/N8umObxLBWQtA1fsZQ/giphy.gif"],
+                    "type": "Passive Buff Revive",
+                    "desc": "When your HP reaches 0, fully restores HP and MP while granting a buff",
+                    "details": [
+                        "<strong>[Buff]: </strong>You are invincible and <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Gungnir%27s_Descent.png/revision/latest?cb=20130706031829' alt='Skill Gungnir's Descent' width='32' height='32' /> can be casted without a cooldown<ul><li>While this buff is active, you must defeat 30 enemies or hit a boss 30 times to reduce the cooldown of the skill</li><li>Your attacks ignore Attack Ignore and Damage Reflect</li></ul>",
+                        "<strong>[Passive]: </strong>Permanently increases %Damage, %Crit Rate, %Crit Damage and grants flat Movement Speed when your %Max HP is above a certain threshold"
+                    ]
+                },
+                {
+                    "id": 1320018,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Barricade_Mastery_%28Dark_Knight%29.png/revision/latest?cb=20130706031857", "https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Weapon_Mastery_%28Spearman%29.png/revision/latest?cb=20110420132350"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "id": 1320011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Revenge_of_the_Evil_Eye.png/revision/latest?cb=20110422073005"],
+                    "type": "Evil Eye Passive",
+                    "desc": "When hit, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Evil_Eye.png/revision/latest?cb=20130705103844' alt='Skill Evil Eye' width='32' height='32'> launches a counterattack that will restore some %Max HP",
+                    "details": [
+                        "<strong>[Passive]: </strong>Permanently increases %Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Evil_Eye_Shock.png/revision/latest?cb=20130705114445' alt='Skill Evil Eye Shock' width='32' height='32' />"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 1320043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Evil_Eye_-_Reinforce.png/revision/latest?cb=20160424205536"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 1320044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Evil_Eye_-_Hex_Reinforce.png/revision/latest?cb=20160425221809"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 1320045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Evil_Eye_-_Aura_Reinforce.png/revision/latest?cb=20160425222051"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 1320046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Final_Pact_-_Damage.png/revision/latest?cb=20130706032015"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 1320047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Final_Pact_-_Reduce_Target.png/revision/latest?cb=20160619023153"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 1320048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Final_Pact_-_Critical_Chance.png/revision/latest?cb=20130706032030"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 1320049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Gungnir%27s_Descent_-_Reinforce.png/revision/latest?cb=20130706032036"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 1320050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Gungnir%27s_Descent_-_Guardbreak.png/revision/latest?cb=20130706032042"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 1320051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Gungnir%27s_Descent_-_Boss_Rush.png/revision/latest?cb=20130706032048"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 1321054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Dark_Thirst.png/revision/latest?cb=20120917102429"],
+                    "animations": ["https://media0.giphy.com/media/Jl3w4F3975D9wuU7Lj/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "id": 1321052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Nightshade_Explosion.png/revision/latest?cb=20120917102158"],
+                    "animations": ["https://media3.giphy.com/media/TgaA6VbQGVlC7Jawl3/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes an explosion around you that damages nearby enemies",
+                    "reqLev": 160
+                },
+                {
+                    "id": 1321053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Epic_Adventure_%28Warrior%29.png/revision/latest?cb=20120914160107"],
+                    "animations": ["https://media3.giphy.com/media/BEH2d6csjKp4gwxpA4/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expWarrior", "goddessBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Spear of Darkness",
+                    "shortDesc": "MP Cost: 350, summoned spear deals 600% damage 7 times on up to 12 enemies.\\nAdditional Critical Rate: +100%, Additional Monster DEF Ignored: +50%.\\nCooldown: 10 sec",
+                    "id": 400011004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Spear_of_Darkness.png/revision/latest?cb=20161125062716"],
+                    "animations": ["https://media3.giphy.com/media/CJYI6QjRt7my3rJOUf/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Hurls a spear forward",
+                    "details": [
+                        "You can direct the spear using the Up and Down Arrow Keys",
+                        "The attack has increased Ignore DEF and is a guaranteed Critical Hit"
+                    ]
+                },
+                {
+                    "name": "Radiant Evil",
+                    "shortDesc": "MP Cost: 1000, Evil Eye appears in front of you, attacking up to 10 enemies 2 times, dealing 375% damage for 3 sec.\\nCooldown: 20 sec",
+                    "id": 400011054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Radiant_Evil.png/revision/latest?cb=20170609033041"],
+                    "animations": ["https://media3.giphy.com/media/vzkRfpmEWmaAKHPC9M/giphy.gif"],
+                    "type": "Evil Eye Summon",
+                    "desc": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Evil_Eye.png/revision/latest?cb=20130705103844' alt='Skill Evil Eye' width='32' height='32' /> transforms into a giant version that pulsates, damaging nearby enemies",
+                    "details": [
+                        "Only usable while <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Evil_Eye_of_Domination.png/revision/latest?cb=20170904052554' alt='Skill Evil Eye of Domination' width='32' height='32' /> is active"
+                    ]
+                },
+                {
+                    "name": "Calamitous Cyclone",
+                    "shortDesc": "MP Cost: 100. Deals 800% damage 12 times consecutively on up to 12 enemies for up to 9 sec. Recover 1% of max HP for every attack that lands.\\nWhen key is released, activates a shockwave 5 times that deals 15 final attack(s) with 600% damage to a max of 12 enemies. Recover 10% of max HP for every final attack that lands. All Piercing Cyclone hits receive Additional Critical Rate: +100%, and Addition Monster Def Ignored: +50%\\nCooldown: 180 sec",
+                    "id": 400011068,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Calamitous_Cyclone.png/revision/latest?cb=20181115065213"],
+                    "animations": ["https://media0.giphy.com/media/nqcrKk81tNRt6GMRX4/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Unleashes a flurry of quick strikes in front of you",
+                    "details": [
+                        "At the end of the attack, launch forward a final spear that deals heavy damage",
+                        "The attack has increased %Ignore DEF and is a guaranteed Critical Hit"
+                    ]
+                },
+                {
+                    "name": "Darkness Aura",
+                    "shortDesc": "MP Cost: 1000. Periodically attack up to 6 enemies with 800% damage for 40 sec, then recover 6% of max HP and obtain 1 Life Force. If HP recovery exceeds Max HP, creates a shield that amounts to 75% of the recovery amount. Max Life Force: 15, Max Shield: 27% of Max HP\\nWith Hyper Body Applied: Periodically creates a maximum-strength shield.\\nWith Iron Will Applied: Damage: -9% (only for attacks that inflict damage at a certain ratio of your Max HP while attacking).\\nReusing this skill during its effect will deactivate that effect, but will also cause a Life Force Explosion that attacks 8 enemies with 1275% damage 13 times, as well as 1 more Life Force Explosions every 3 secs.\\nCooldown: 180 sec",
+                    "id": 400011068,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/darkness-aura.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/er72YYy6jPqFnlMkad/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Creates a damaging aura that amplifies the effects of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Iron_Will_%28Spearman%29.png/revision/latest?cb=20130705103856' alt='Skill Iron Will (Spearman)'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Hyper_Body.png/revision/latest?cb=20110210134845' alt='Skill Hyper Body'>",
+                    "details": [
+                        "Each attack from Darkness Aura will recover some %Max HP and grant 1 Life Force (up to 15)<ul><li>If your HP is full, instead you will gain a damage shield based on the amount that was supposed to be recovered</li></ul>",
+                        "At the end of the skill or when the skill is pressed again, based on how much Life Force was accumulated, you will create multiple explosions",
+                        "<strong>[<img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Hyper_Body.png/revision/latest?cb=20110210134845' alt='Skill Hyper Body' width='32' height='32'/> Special Effect]</strong>: Grants a damage shield",
+                        "<strong>[<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Iron_Will_%28Spearman%29.png/revision/latest?cb=20130705103856' alt='Skill Iron Will (Spearman)' width='32' height='32'/> Special Effect]</strong>: Increases %Damage Reduction against %Max HP attacks"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Evil Eye - 2nd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Evil_Eye.png/revision/latest?cb=20130705103844"],
+                "animations": ["https://media3.giphy.com/media/ywcuqxvB8ccQLw5r9i/giphy.gif"]
+            },
+            {
+                "name": "La Mancha Spear - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_La_Mancha_Spear.png/revision/latest?cb=20130705114418"],
+                "animations": ["https://media3.giphy.com/media/lSE0ol4bO6Fk83db3d/giphy.gif"]
+            },
+            {
+                "name": "Gungnir's Descent - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Gungnir%27s_Descent.png/revision/latest?cb=20130706031829"],
+                "animations": ["https://orangemushroom.files.wordpress.com/2013/07/gungnir-descent-effect.gif"]
+            },
+            {
+                "name": "Dark Impale - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Dark_Impale.png/revision/latest?cb=20110422073014"],
+                "animations": ["https://media2.giphy.com/media/j5nTxmptbc92CXnfyE/giphy.gif"]
+            },
+            {
+                "name": "Final Pact - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852"],
+                "animations": ["https://media1.giphy.com/media/N8umObxLBWQtA1fsZQ/giphy.gif"]
+            },
+            {
+                "name": "Radiant Evil - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Radiant_Evil.png/revision/latest?cb=20170609033041"],
+                "animations": ["https://media3.giphy.com/media/vzkRfpmEWmaAKHPC9M/giphy.gif"]
+            },
+            {
+                "name": "Calamitous Cyclone - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Calamitous_Cyclone.png/revision/latest?cb=20181115065213"],
+                "animations": ["https://media0.giphy.com/media/nqcrKk81tNRt6GMRX4/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Dark Knight is a STR warrior class part of the Explorers. Dark Knight has a very solid and simple kit and playstyle. There is also enough variety that makes Dark Knights an interesting enough class"
+}

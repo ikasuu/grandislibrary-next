@@ -1,0 +1,659 @@
+{
+    "class": "Mechanic",
+    "content": {
+        "classGroup": "Resistance",
+        "jobGroup": "Pirate",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Increases %Buff Duration",
+        "legionValue": "5/10/15/20/25%",
+        "equipment": [
+            {"weapon": ["gun"]},
+            {"secondary": ["magnum"]}
+        ],
+        "classType": [
+            "Mech-riding",
+            "Projectiles",
+            "Summon Utility"
+        ],
+        "innerAbility": ["+1 Skill", "Crit Rate", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Lots of utility and summons",
+                "You mount a mech and a tank to fight!",
+                "Heavy, hard-hitting artillery attacks"
+            ],
+            "cons": [
+                "You must constantly spam your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon'> Homing Beacon missiles while attacking",
+                "Main mobbing attack <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus'> hits mostly horizontally",
+                "Must micromanage robots"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +70%",
+                "<strong>Max MP</strong>: +40%",
+                "<strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Mech_Alloy_Research.png/revision/latest?cb=20141214075119' alt='Skill Mech Alloy Research' width='32' height='32'/> Dodge Chance</strong>: +15%",
+                "<strong>Crit Rate</strong>: +30% + (30% while <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tank_Mech.png/revision/latest?cb=20141109071627' alt='Skill Tank Mech'> Tank Mech is active)",
+                "<strong>Crit Damage</strong>: +5%",
+                "<strong>Damage</strong>: +10% + (up to 35% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Robot_Mastery.png/revision/latest?cb=20150315011449' alt='Skill Robot Mastery'> Robot Mastery)",
+                "<strong>Final Damage</strong>: +20% + (up to +15% while <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412' alt='Skill Support Unit H-EX'> Enhanced Support Unit buff is active)",
+                "<strong>Knockback Resistance</strong>: +0% + (100% while <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Humanoid_Mech.png/revision/latest?cb=20150313233612' alt='Skill Humanoid Mech'> mounted)",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +(30% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Mech_Alloy_Research.png/revision/latest?cb=20141214075119' alt='Skill Mech Alloy Research'> fails)",
+                "<strong>Ignore DEF: </strong>+45%",
+                "<strong>Abnormal Status Resistance</strong>: 40"
+            ]
+        ],
+        "buffInfo": {
+            "active": "[ <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Humanoid_Mech.png/revision/latest?cb=20150313233612' alt='Skill Humanoid Mech'> / <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tank_Mech.png/revision/latest?cb=20141109071627' alt='Skill Tank Mech'>(Mount) ], <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Mechanic_Rage.png/revision/latest?cb=20150314000826' alt='Skill Mechanic Rage'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Perfect_Armor.png/revision/latest?cb=20150314000859' alt='Skill Perfect Armor'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Open_Portal_GX-9.png/revision/latest?cb=20150314000749' alt='Skill Open Portal GX-9'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Robo_Launcher_RM7.png/revision/latest?cb=20141109015935' alt='Skill Robo Launcher RM7'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412' alt='Skill Support Unit H-EX'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Rock_%27n_Shock.png/revision/latest?cb=20110516043540' alt='Skill Rock 'n Shock'>(160s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Bots_%27n_Tots.png/revision/latest?cb=20110516085516' alt='Skill Bots 'n Tots'>(69 - 40s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Distortion_Bomb.png/revision/latest?cb=20121113023449' alt='Skill Distortion Bomb'>(8s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Doomsday_Device.png/revision/latest?cb=20161125062542' alt='Skill Doomsday Device'>(200s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Resistance_Infantry.png/revision/latest?cb=20170625170734' alt='Skill Resistance Infantry'>(25s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/mecha-carrier.png?w=600' alt='Skill Mecha Carrier'/>(200s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>(500 - 180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Full_Spread.png/revision/latest?cb=20141201023609' alt='Skill Full Spread'>(100s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355' alt='Skill For Liberty'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741' alt='Skill Loaded Dice'>(180s cd <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813' alt='Skill Overdrive'>(70 - 64s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Full_Metal_Barrage.png/revision/latest?cb=20181115065337' alt='Skill Full Metal Barrage'>(200s cd)"
+        },
+        "linkSkill": {
+            "id": 80000329,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level"
+            ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/2CtzSMS.png",[499,374]],
+            "npc": [
+                ["https://maplestory.io/api/GMS/210.1.1/npc/1105008/icon",[100,107]]
+            ],
+            "info": [
+                "To create one, choose the 'Resistance' option in the Character Creation screen and then continue through the story until Lv. 10 and talk to Checky in the <a href='https://maplestory.wiki/GMS/210.1.1/map/310010000' target='_blank' rel='noopener'>Secret Plaza</a> when prompt with choosing a class"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Rocket_Booster.png/revision/latest?cb=20150313233313' alt='Skill Rocket Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_ME-07_Drillhands.png/revision/latest?cb=20110212005408' alt='Skill ME-07 Drillhands'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Gatling_Gun.png/revision/latest?cb=20150313233952' alt='Skill Gatling Gun'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Humanoid_Mech.png/revision/latest?cb=20150313233612' alt='Skill Humanoid Mech'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Open_Portal_GX-9.png/revision/latest?cb=20150314000749' alt='Skill Open Portal GX-9'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Gun_Mastery.png/revision/latest?cb=20110507044026' alt='Skill Gun Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Mechanic_Rage.png/revision/latest?cb=20150314000826' alt='Skill Mechanic Rage'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Robo_Launcher_RM7.png/revision/latest?cb=20141109015935' alt='Skill Robo Launcher RM7'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Heavy_Gatling_Gun.png/revision/latest?cb=20141109015653' alt='Skill Heavy Gatling Gun'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Perfect_Armor.png/revision/latest?cb=20150314000859' alt='Skill Perfect Armor'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Overclock.png/revision/latest?cb=20160627052354' alt='Skill Overclock'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Mechanized_Defense_System.png/revision/latest?cb=20141214031415' alt='Skill Mechanized Defense System'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Advanced_Homing_Beacon.png/revision/latest?cb=20141214031413' alt='Skill Advanced Homing Beacon'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Rock_%27n_Shock.png/revision/latest?cb=20110516043540' alt='Skill Rock 'n Shock'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412' alt='Skill Support Unit H-EX'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Heavy_Salvo.png/revision/latest?cb=20141214031410' alt='Skill Heavy Salvo'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Punch_Launcher.png/revision/latest?cb=20150314033359' alt='Skill Punch Launcher'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Homing_Beacon_Research.png/revision/latest?cb=20141214075121' alt='Skill Homing Beacon Research' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818' alt='Skill Double Down' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Extreme_Mech.png/revision/latest?cb=20150315011811' alt='Skill Extreme Mech' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Robot_Mastery.png/revision/latest?cb=20150315011449' alt='Skill Robot Mastery' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Mech_Alloy_Research.png/revision/latest?cb=20141214075119' alt='Skill Mech Alloy Research' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Enhanced_Support_Unit.png/revision/latest?cb=20141214074715' alt='Skill Enhanced Support Unit' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Bots_%27n_Tots.png/revision/latest?cb=20110516085516' alt='Skill Bots ' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Giant_Robot_SG-88.png/revision/latest?cb=20110516085444' alt='Skill Giant Robot SG-88' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Rock_%27n_Shock_-_Reinforce.png/revision/latest?cb=20121113023312' alt='Skill Rock 'n Shock - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rock_%27n_Shock_-_Cooldown_Cutter.png/revision/latest?cb=20121113023326' alt='Skill Rock 'n Shock - Cooldown Cutter' width='32' height='32'> Rock 'n Shock - Persist and Cooldown Cutter</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Support_Unit_H-EX_-_Party_Reinforce.png/revision/latest?cb=20150108071408' alt='Skill Support Unit H-EX - Party Reinforce' width='32' height='32'> Support Unit - H-EX - Party Reinforce</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Salvo_-_Reinforce.png/revision/latest?cb=20150108072020' alt='Skill Salvo - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_AP_Salvo_Plus_-_Extra_Strike.png/revision/latest?cb=20150108072348' alt='Skill AP Salvo Plus - Extra Strike' width='32' height='32'> Salvo - Reinforce and Extra Strike</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Distortion_Bomb.png/revision/latest?cb=20121113023449' alt='Skill Distortion Bomb'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Robo_Launcher_RM7.png/revision/latest?cb=20141109015935' alt='Skill Robo Launcher RM7'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Rock_%27n_Shock.png/revision/latest?cb=20110516043540' alt='Skill Rock 'n Shock'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Bots_%27n_Tots.png/revision/latest?cb=20110516085516' alt='Skill Bots 'n Tots'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_ME-07_Drillhands.png/revision/latest?cb=20110212005408' alt='Skill ME-07 Drillhands'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Gatling_Gun.png/revision/latest?cb=20150313233952' alt='Skill Gatling Gun'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Rocket_Booster.png/revision/latest?cb=20150313233313' alt='Skill Rocket Booster'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Heavy_Gatling_Gun.png/revision/latest?cb=20141109015653' alt='Skill Heavy Gatling Gun'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Robo_Launcher_RM7.png/revision/latest?cb=20141109015935' alt='Skill Robo Launcher RM7'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Punch_Launcher.png/revision/latest?cb=20150314033359' alt='Skill Punch Launcher'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Rock_%27n_Shock.png/revision/latest?cb=20110516043540' alt='Skill Rock 'n Shock'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Heavy_Salvo.png/revision/latest?cb=20141214031410' alt='Skill Heavy Salvo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412' alt='Skill Support Unit H-EX'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Giant_Robot_SG-88.png/revision/latest?cb=20110516085444' alt='Skill Giant Robot SG-88'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Bots_%27n_Tots.png/revision/latest?cb=20110516085516' alt='Skill Bots 'n Tots'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Distortion_Bomb.png/revision/latest?cb=20121113023449' alt='Skill Distortion Bomb'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3393/mechanic",
+            "https://maplestory.fandom.com/wiki/Mechanic"
+        ],
+        "specialThanks": "Special thanks to Gboy and fuegobagel for their help in making this overview!",
+        "credits": [
+            ["Special Thanks", "Gboy and fuegobagel"],
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Robot Mastery",
+            "content": "<p>Based on the number of summoned robots that are out, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Robot_Mastery.png/revision/latest?cb=20150315011449' alt='Skill Robot Mastery'> Robot Mastery provides a stacking %Damage buff. Below is a list of skills that trigger and stack Robot Mastery</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Open_Portal_GX-9.png/revision/latest?cb=20150314000749' alt='Skill Open Portal GX-9' width='32' height='32'> Open Portal: GX-9 <strong>(2nd Job)</strong></li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Robo_Launcher_RM7.png/revision/latest?cb=20141109015935' alt='Skill Robo Launcher RM7' width='32' height='32'> Robo Launcher RM7 <strong>(2nd Job)</strong></li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412' alt='Skill Support Unit H-EX' width='32' height='32'> Support Unit: H-EX <strong>(3rd Job)</strong></li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Rock_%27n_Shock.png/revision/latest?cb=20110516043540' alt='Skill Rock 'n Shock' width='32' height='32'> Rock 'n Shock <strong>(3rd Job)</strong></li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Giant_Robot_SG-88.png/revision/latest?cb=20110516085444' alt='Skill Giant Robot SG-88' width='32' height='32'> Giant Robot SG-88 <strong>(4th Job)</strong></li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Bots_%27n_Tots.png/revision/latest?cb=20110516085516' alt='Skill Bots 'n Tots' width='32' height='32'> Bots 'n Tots <strong>(4th Job)</strong></li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Doomsday_Device.png/revision/latest?cb=20161125062542' alt='Skill Doomsday Device' width='32' height='32'> Doomsday Device <strong>(5th Job)</strong></li><li><img src='https://orangemushroom.files.wordpress.com/2020/06/mecha-carrier.png?w=600' alt='Mecha Carrier'> Mecha Carrier <strong>(5th Job)</strong></li></ul>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 20021000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Crystal_Throw.png/revision/latest?cb=20100606013011"],
+                    "animations": ["https://media4.giphy.com/media/gZK814lYZ6cZ7UjIFW/giphy.gif"],
+                    "type": "Attacks",
+                    "desc": "Throws a rock that deals fixed damage"
+                },
+                {
+                    "id": 20021001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Infiltrate.png/revision/latest?cb=20100606013059"],
+                    "animations": ["https://media1.giphy.com/media/Ln54groTrGh8Hu6Lfg/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Makes you invisible similar which when activated, you cannot hit or be hit by enemies similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> Dark Sight"
+                },
+                {
+                    "id": 20020002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Potion_Mastery.png/revision/latest?cb=20100606013234"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 30001281,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Secret_Assembly.png/revision/latest?cb=20160619042757"],
+                    "animations": ["https://media1.giphy.com/media/TcXR7RRgE4VFZJEigG/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 30001068,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Mechanic_Dash.png/revision/latest?cb=20151018042126"],
+                    "animations": ["https://media2.giphy.com/media/daNgACMllVbRVYSSci/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double Jump skill",
+                    "details": [
+                        "<strong>[Double Jump]</strong>: Can be assigned a Key Slot or activated by pressing jump twice<ul><li>Can be used while unmmounted</li></ul>",
+                        "<strong>[Jet Boosters]</strong>: While in the air, holding the Down Arrow Key and the Jump Key or Skill Key together will allow you to hover briefly<ul><li>You can move while hovering as long you hold onto the Jump Key or Skill Key</li></ul>",
+                        "<strong>[Mechanic Dash]</strong>: Double-tap the Left or Right Arrow Keys to dash forward<ul><li>Can be used in the air</li></ul>"
+                    ]
+                },
+                {
+                    "id": 30000227,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Hidden_Peace.png/revision/latest?cb=20160619042105"],
+                    "type": "Passive"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 35001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Humanoid_Mech.png/revision/latest?cb=20150313233612"],
+                        "animations": ["https://media1.giphy.com/media/fwFNadvsn6j3jePKd3/giphy.gif"],
+                        "type": "Active Mount",
+                        "desc": "Mount onto your Humanoid Mech",
+                        "details": [
+                            "When mounted you gain increased 100% Knockback Resistance, Attack, DEF and Max Movement Speed",
+                            "<strong>[Passive]</strong>: Permanently grants flat Max HP/MP"
+                        ]
+                    },
+                    {
+                        "id": 35001004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Gatling_Gun.png/revision/latest?cb=20150313233952"],
+                        "animations": ["https://media3.giphy.com/media/J6J8BLjDxpcKxsaAAv/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires several bullets that pierces through enemies"
+                    },
+                    {
+                        "id": 35001003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_ME-07_Drillhands.png/revision/latest?cb=20110212005408"],
+                        "animations": ["https://media0.giphy.com/media/QsOYV2ezYRwijCrotj/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward and pushing back enemies hit"
+                    },
+                    {
+                        "id": 35001006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Rocket_Booster.png/revision/latest?cb=20150313233313"],
+                        "animations": ["https://media1.giphy.com/media/0MJWO5mVSpEqWKAEfz/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Launches upwards before falling back down",
+                        "details": [
+                            "Can be used to propel up to platforms above you",
+                            "Can also be activated by pressing the Up Arrow Key and Jump Key together"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 35101001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Heavy_Gatling_Gun.png/revision/latest?cb=20141109015653"],
+                        "animations": ["https://media1.giphy.com/media/U77I8NGjvl3j634hEV/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires several bullets that pierces through enemies"
+                    },
+                    {
+                        "id": 35101002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901"],
+                        "animations": ["https://media1.giphy.com/media/j52DA25qU3ngm8MANl/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a homing missile that explodes dealing damage to nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect",
+                            "Right-click the skill to toggle on/off the smoke effect from this skill"
+                        ]
+                    },
+                    {
+                        "id": 35100000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Gun_Mastery.png/revision/latest?cb=20110507044026"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 35101006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Mechanic_Rage.png/revision/latest?cb=20150314000826"],
+                        "animations": ["https://media3.giphy.com/media/fna70iy24S66uZ75r6/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 35101005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Open_Portal_GX-9.png/revision/latest?cb=20150314000749"],
+                        "animations": ["https://media1.giphy.com/media/QWX3xWrjgeLHCN4S8v/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Places down a portal that allows you and your party members to freely move between",
+                        "details": [
+                            "You need to place down 2 portals for it to function<ul><li>They cannot be too far apart</li></ul>",
+                            "Has a cooldown (2 secs) after the portal has been used"
+                        ]
+                    },
+                    {
+                        "id": 35101007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Perfect_Armor.png/revision/latest?cb=20150314000859"],
+                        "animations": ["https://media3.giphy.com/media/inn8VlSrUVYvQiqlhW/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "desc": "While active, reflect back damage taken",
+                        "details": [
+                            "Additionally, permanently grants a chance to dodge attacks when mounted on your mech"
+                        ]
+                    },
+                    {
+                        "id": 35101012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Robo_Launcher_RM7.png/revision/latest?cb=20141109015935"],
+                        "animations": ["https://media2.giphy.com/media/IgSIWKAhBddmQvxaCe/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Places down a stationary sentry that attacks enemies in front of it",
+                        "details": [
+                            "At the end of the duration, the sentry explodes dealing damage to nearby enemies"
+                        ]
+                    },
+                    {
+                        "id": 35100011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 35111003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tank_Mech.png/revision/latest?cb=20141109071627"],
+                        "animations": ["https://media2.giphy.com/media/S6kcepai5zfqDihj4o/giphy.gif"],
+                        "type": "Active Mount",
+                        "desc": "Mount onto your Tank Mech",
+                        "details": [
+                            "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon' width='32' height='32'> fires additional missiles at each enemy instead of one but deals reduced %Final Damage",
+                            "While in Tank Mech, you gain increased %Crit Rate"
+                        ]
+                    },
+                    {
+                        "id": 35111006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Heavy_Salvo.png/revision/latest?cb=20141214031410"],
+                        "animations": ["https://media0.giphy.com/media/hsClKcQ0xMPtx7rewG/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a barrage of bullets forward",
+                        "details": [
+                            "Usable only in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Humanoid_Mech.png/revision/latest?cb=20150313233612' alt='Skill Humanoid Mech'> Humanoid Mode",
+                            "Shares the same Skill Points and Key Slot as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_AP_Salvo.png/revision/latest?cb=20141214031421' alt='Skill AP Salvo'>"
+                        ]
+                    },
+                    {
+                        "id": 35111007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_AP_Salvo.png/revision/latest?cb=20141214031421"],
+                        "animations": ["https://media3.giphy.com/media/gLzPjnVOtdvwISJdcF/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a concentrated bullet that hits one enemy",
+                        "details": [
+                            "Usable only in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tank_Mech.png/revision/latest?cb=20141109071627' alt='Skill Tank Mech'> Tank Mode",
+                            "Shares the same Skill Points and Key Slot as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_AP_Salvo.png/revision/latest?cb=20141214031421' alt='Skill AP Salvo'>"
+                        ]
+                    },
+                    {
+                        "id": 35111008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412"],
+                        "animations": ["https://media3.giphy.com/media/hrWmekYs2Jh2jWRIP6/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Places down a stationary robot that debuffs all enemies and restores %Max HP to nearby allies every few seconds",
+                        "details": [
+                            "<strong>[Debuff]</strong>:  Enemies have reduced %DEF",
+                            "<strong>[Passive]</strong>: Permanently increases your Abnormal Status Resistance and %Elemental Resistance",
+                            "At the end of the duration, the robot explodes dealing damage to nearby enemies"
+                        ]
+                    },
+                    {
+                        "id": 35111015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Punch_Launcher.png/revision/latest?cb=20150314033359"],
+                        "animations": ["https://media1.giphy.com/media/ehJoZvl32ldJgekKVB/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a fist forward that pushes enemies back"
+                    },
+                    {
+                        "id": 35110016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Overclock.png/revision/latest?cb=20160627052354"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 35111013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
+                        "animations": ["https://media2.giphy.com/media/s0dFzm7UUaDMTX7MyY/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants a buff depending on the number rolled",
+                        "details": [
+                            "<strong>[One]</strong>: Nothing",
+                            "<strong>[Two]</strong>: Increases %DEF",
+                            "<strong>[Three]</strong>: Increases %Max HP/MP",
+                            "<strong>[Four]</strong>: Increases %Crit Rate",
+                            "<strong>[Five]</strong>: Increases %Damage",
+                            "<strong>[Six]</strong>: Increases %EXP Rate"
+                        ]
+                    },
+                    {
+                        "id": 35111002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Rock_%27n_Shock.png/revision/latest?cb=20110516043540"],
+                        "animations": ["https://media2.giphy.com/media/j6q5kUf9QDr5hWM7Iw/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place down 3 robots that continuously attack and stun enemies",
+                        "details":[
+                            "At the end of the duration, the robots explode dealing damage to nearby enemies"
+                        ]
+                    },
+                    {
+                        "id": 35110017,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Advanced_Homing_Beacon.png/revision/latest?cb=20141214031413", "https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ]
+                    },
+                    {
+                        "id": 35110018,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Mechanized_Defense_System.png/revision/latest?cb=20141214031415"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 35110019,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Battle_Program.png/revision/latest?cb=20141214031417"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 35121015,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349"],
+                    "animations": ["https://media0.giphy.com/media/kFI1gQETu0ZwQ1iveo/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Fires a barrage of bullets forward",
+                    "details": [
+                        "Usable only in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Humanoid_Mech.png/revision/latest?cb=20150313233612' alt='Skill Humanoid Mech'> Humanoid Mode",
+                        "Shares the same Skill Points and Key Slot as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_AP_Salvo_Plus.png/revision/latest?cb=20141214075407' alt='Skill AP Salvo Plus'>"
+                    ]  
+                },
+                {
+                    "id": 35121016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_AP_Salvo_Plus.png/revision/latest?cb=20141214075407"],
+                    "animations": ["https://media3.giphy.com/media/dB6htq3szbz927lrR6/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire an explosive bullet that hits one enemy",
+                    "details": [
+                        "Usable only in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tank_Mech.png/revision/latest?cb=20141109071627' alt='Skill Tank Mech'> Tank Mode",
+                        "Shares the same Skill Points and Key Slot as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus'>",
+                        "Upon hitting an enemy, the bullet explodes damaging nearby enemies"
+                    ]  
+                },
+                {
+                    "id": 35121003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Giant_Robot_SG-88.png/revision/latest?cb=20110516085444"],
+                    "animations": ["https://media1.giphy.com/media/KENbYpeoYGttd5vGsu/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Tap the Attack Key to charge up and release a devastating attack",
+                    "details": [
+                        "Charging will increase the %Damage dealt",
+                        "Reduces damage taken while charging, including %Max HP attacks"
+                    ]
+                },
+                {
+                    "id": 35120002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Enhanced_Support_Unit.png/revision/latest?cb=20141214074715"],
+                    "type": "Passive",
+                    "desc": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412' alt='Skill Enhanced Support Unit'/> Now grants %Final Damage to you and your party members and the auto-recovery ranged has been increased",
+                    "details": [
+                        "%Damage of self-destruct has also been increased"
+                    ]  
+                },
+                {
+                    "id": 35121009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Bots_%27n_Tots.png/revision/latest?cb=20110516085516"],
+                    "animations": ["https://media2.giphy.com/media/jUt5WJsFRCOCQJma0p/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Places down a robot factory that deploys robots that chase enemies and self-destructs",
+                    "details": [
+                        "Unaffected by Damage Reflect",
+                        "At the end of the duration, the robot factory explodes dealing damage to nearby enemies"
+                    ]  
+                },
+                {
+                    "id": 35121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media3.giphy.com/media/q1pI6MuzQPMNCaUUkb/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 35121008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media1.giphy.com/media/G8IUqFNdBtcVUiI8f7/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds "  
+                },
+                {
+                    "id": 35120017,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Homing_Beacon_Research.png/revision/latest?cb=20141214075121", "https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases the number of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon'> homing missiles fired"
+                    ]
+                },
+                {
+                    "id": 35120000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Extreme_Mech.png/revision/latest?cb=20150315011811"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 35120001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Robot_Mastery.png/revision/latest?cb=20150315011449"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 35120014,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818", "https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
+                    "animations": ["https://media1.giphy.com/media/9mezG4kZBRtqkBxdJB/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Grants a chance to roll two dices at once"
+                    ]
+                },
+                {
+                    "id": 35120018,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Mech_Alloy_Research.png/revision/latest?cb=20141214075119"],
+                    "animations": ["https://media3.giphy.com/media/NuoBZboVIahQDQcdAw/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Grants a dodge chance and increases %Damage Reduction",
+                    "details": [
+                        "Additionally, permanently increases %Max HP/MP"
+                    ]  
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 35120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Rock_%27n_Shock_-_Reinforce.png/revision/latest?cb=20121113023312"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 35120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Rock_%27n_Shock_-_Persist.png/revision/latest?cb=20121113023318"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 35120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rock_%27n_Shock_-_Cooldown_Cutter.png/revision/latest?cb=20121113023326"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 35120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Support_Unit_H-EX_-_Reinforce.png/revision/latest?cb=20141201024332"],
+                    "type": "Passive",
+                    "desc": "Increases self-destruct explosion %Damage",
+                    "reqLev": 140
+                },
+                {
+                    "id": 35120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Support_Unit_H-EX_-_Party_Reinforce.png/revision/latest?cb=20150108071408"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 35120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Support_Unit_H-EX_-_Persist.png/revision/latest?cb=20150108071713"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 35120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Salvo_-_Reinforce.png/revision/latest?cb=20150108072020"],
+                    "type": "Passive",
+                    "desc": "Increases the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_AP_Salvo_Plus.png/revision/latest?cb=20141214075407' alt='Skill AP Salvo Plus'>",
+                    "reqLev": 150
+                },
+                {
+                    "id": 35120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heavy_Salvo_Plus_-_Spread.png/revision/latest?cb=20150108072229"],
+                    "type": "Passive",
+                    "desc": "Increases the number of enemies hit by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus'>",
+                    "reqLev": 165
+                },
+                {
+                    "id": 35120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_AP_Salvo_Plus_-_Extra_Strike.png/revision/latest?cb=20150108072348"],
+                    "type": "Passive",
+                    "desc": "Increases the number of hits per attack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_AP_Salvo_Plus.png/revision/latest?cb=20141214075407' alt='Skill AP Salvo Plus'>",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 35121055,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Full_Spread.png/revision/latest?cb=20141201023609"],
+                    "animations": ["https://media0.giphy.com/media/JTJ9Rqr4173kldWdc6/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases the number of homing missiles fired from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon'>",
+                    "details": [
+                        "Deals reduced %Damage similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tank_Mech.png/revision/latest?cb=20141109071627' alt='Skill Tank Mech'> but damage reduction does not stack"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 35121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Distortion_Bomb.png/revision/latest?cb=20121113023449"],
+                    "animations": ["https://media2.giphy.com/media/EkWPI6iJaOncUu9lQI/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Fires a special bomb that deals damage in an area",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 32121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355"],
+                    "animations": ["https://media1.giphy.com/media/Ar37NFQOKIImPzkDt8/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["resistanceInfantry", "goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Doomsday Device",
+                    "shortDesc": "MP Cost: 750, the summoned machine lasts 125 sec and its arsenal includes Gatling guns and missiles\\nGatling Gun - Max Enemies Hit: 8, Damage: 400%, Number of Attacks: 6, Cooldown: 1.5 sec\\nMissiles - Fires 2 missiles to hit up to 12 enemies, Damage: 600%, Number of Attacks: 3, Cooldown: 8 sec\\nCooldown: 200 sec",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Doomsday_Device.png/revision/latest?cb=20161125062542"],
+                    "animations": ["https://media4.giphy.com/media/jtYS3SRp3hijlw3vtu/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a turret that follows you and attacks nearby enemies"
+                },
+                {
+                    "name": "Mobile Missile Battery",
+                    "shortDesc": "MP Cost: 1000, Launches a battery that fires 38 micro missiles at up to 15 enemies.\\nMicro missiles deal 850% damage 5 times.\\nCooldown: 25 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Mobile_Missile_Battery.png/revision/latest?cb=20170609033041"],
+                    "animations": ["https://media2.giphy.com/media/B7QtKd8tGilOCQmqfR/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releases a canister of missiles that unloads on nearby enemies"
+                },
+                {
+                    "name": "Full Metal Barrage",
+                    "shortDesc": "MP Cost: 1500, Can down-key for up to 10 sec, Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 11.\\nWhen Homing Beacon is used during casting, 7 additional Beacons are fired, can be stacked with Full Spread.\\nCannot use Homing Beacon for 4 sec after skill ends.\\nCooldown: 200 sec",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Full_Metal_Barrage.png/revision/latest?cb=20181115065337"],
+                    "animations": ["https://media0.giphy.com/media/dGaeGbzzWGBl9s9Lbp/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Unleashes a gigantic mech that fires and bursts down enemies in front of you",
+                    "details": [
+                        "You are invincible while casting but you cannot move or change directions",
+                        "Can fire <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon'> while casting<ul><li>Fires additional homing missiles while active</li><li>You cannot use <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901' alt='Skill Homing Beacon'> for a short period after casting this skill</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Mecha Carrier",
+                    "shortDesc": "MP Cost: 1250. Summons a Mecha Carrier for 70 sec.\\n9 carrier-based aircraft(s) attack, then return. With each charge after that, 1 additional carrier-based aircraft(s) will join the sortie. Up to 16 carrier-based aircraft(s) can attack in total.\\nCarrier-Based Aircraft: Attacks the targets 4 time(s) with 500% damage, then returns.\\nCooldown: 200 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/mecha-carrier.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/KaTH5cPeRgfQ6fZYI2/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a stationary air carrier above you that fires homing aircrafts at enemies",
+                    "details": [
+                        "Each time the aircrafts hit an enemy, an additional aircraft will spawn (up to 16 max)",
+                        "If you move too far, the air carrier will teleport to your location",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Homing Beacon - 2nd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901"],
+                "animations": ["https://media1.giphy.com/media/j52DA25qU3ngm8MANl/giphy.gif"]
+            },
+            {
+                "name": "Rock 'n Shock - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Rock_%27n_Shock.png/revision/latest?cb=20110516043540"],
+                "animations": ["https://media2.giphy.com/media/j6q5kUf9QDr5hWM7Iw/giphy.gif"]
+            },
+            {
+                "name": "Heavy Salvo Plus - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349"],
+                "animations": ["https://media0.giphy.com/media/kFI1gQETu0ZwQ1iveo/giphy.gif"]
+            },
+            {
+                "name": "AP Salvo Plus - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_AP_Salvo_Plus.png/revision/latest?cb=20141214075407"],
+                "animations": ["https://media3.giphy.com/media/dB6htq3szbz927lrR6/giphy.gif"]
+            },
+            {
+                "name": "Giant Robot SG-88 - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Giant_Robot_SG-88.png/revision/latest?cb=20110516085444"],
+                "animations": ["https://media1.giphy.com/media/KENbYpeoYGttd5vGsu/giphy.gif"]
+            },
+            {
+                "name": "Bots 'n Tots - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Bots_%27n_Tots.png/revision/latest?cb=20110516085516"],
+                "animations": ["https://media2.giphy.com/media/jUt5WJsFRCOCQJma0p/giphy.gif"]
+            },
+            {
+                "name": "Full Metal Barrage - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Full_Metal_Barrage.png/revision/latest?cb=20181115065337"],
+                "animations": ["https://media0.giphy.com/media/dGaeGbzzWGBl9s9Lbp/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Mechanic is DEX pirate class part of the Resistance class group. What makes Mechanics unique is their ability to ride and attack on their mech and deploy different kinds of utility"
+}

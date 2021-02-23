@@ -1,0 +1,659 @@
+{
+    "class": "Bishop",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["wand", "staff"]},
+            {"secondary": ["mageShield", "magicBookB"]}
+        ],
+        "classType": [
+            "Support",
+            "Utility",
+            "Party Buff - Increased EXP gained"
+        ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Supportive class that is important for bossing",
+                "Lots of useful utility such as curing abnormal statuses, increasing EXP gained, and preventing KO",
+                "Has an ability to create a portal to the nearest town for convenience with <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Mystic_Door.png/revision/latest?cb=20110423060010' alt='Skill Mystic Door' width='32' height='32'/> Mystic Door",
+                "Buffs last for a long time because of passive increased buff duration"
+            ],
+            "cons": [
+                "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Teleport_Mastery.png/revision/latest?cb=20110423053952' alt='Skill Teleport Mastery'> Teleport Mastery will trigger Damage Reflect",
+                "Need to remember to toggle <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)'> Magic Guard",
+                "Low knockback resistance"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, Link Skills, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)' width='32' height='32' /> Magic Guard, <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c1/Skill_Holy_Symbol_-_Item_Drop.png/revision/latest?cb=20140412230104' alt='Skill Holy Symbol - Item Drop'/> Holy Symbol - Item Drop, and buffs with cooldowns",
+            [
+                "<strong>Crit Rate</strong>: +70% (+5% with Wand)",
+                "<strong>Crit Damage</strong>: +13%",
+                "<strong>Damage</strong>: +(up to 40% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500' alt='Skill Arcane Aim'> Arcane Aim)",
+                "<strong>Final Damage</strong>: +5% for each party member you have buffed (up to 30%) (additional +30% with <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant' width='32' height='32' /> Righteously Indignant active)",
+                "<strong>Knockback Resistance</strong>: 0%",
+                "<strong>Attack Speed (Weapon)</strong>: 4 ( additional -1 stage with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant'> Righteously Indignant active)",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +25%",
+                "<strong>Buff Duration</strong>: +50%",
+                "<strong>Ignore DEF</strong>: +20% (additional 20% with <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant' width='32' height='32' /> Righteously Indignant active)",
+                "<strong>EXP Rate (From Monsters)</strong>: +50%"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)' width='32' height='32'>(Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853' alt='Skill Magic Booster (Magician)' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Holy_Symbol.png/revision/latest?cb=20151207054159' alt='Skill Holy Symbol' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Teleport_Mastery.png/revision/latest?cb=20110423053952' alt='Skill Teleport Mastery' width='32' height='32'> (Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Advanced_Blessing.png/revision/latest?cb=20110423133135' alt='Skill Advanced Blessing' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant' width='32' height='32'> (Toggle)",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121' alt='Skill Bahamut'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Holy_Fountain.png/revision/latest?cb=20130706143137' alt='Skill Holy Fountain'>(87 - 60s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Mystic_Door.png/revision/latest?cb=20110423060010' alt='Skill Mystic Door'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Angel_of_Balance.png/revision/latest?cb=20170609033035' alt='Skill Angel of Balance'>(120s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Divine_Protection.png/revision/latest?cb=20130706143141' alt='Skill Divine Protection'>(405 - 180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Holy_Magic_Shell.png/revision/latest?cb=20110423060120' alt='Skill Holy Magic Shell'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329' alt='Skill Infinity'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heaven%27s_Door.png/revision/latest?cb=20120918153903' alt='Skill Heaven's Door'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Epic_Adventure_%28Magician%29.png/revision/latest?cb=20121015210355' alt='Skill Epic Adventure (Magician)'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Benediction.png/revision/latest?cb=20161125062538' alt='Skill Benediction'> (180s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mana_Overload.png/revision/latest?cb=20161018183739' alt='Skill Mana Overload'>(60 - 30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Resurrection.png/revision/latest?cb=20110423133148' alt='Skill Resurrection'>(1110 - 300s cd revive), (180s cd, blocks 1 death), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60 - 53s cd)"
+        },
+        "linkSkill": {
+                "id": 80002762,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304"],
+                "type": "Passive",
+                "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
+                "details": [
+                    "<strong>[Debuff]: </strong>Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
+                    "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level"
+                ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/SmayX3a.png",[499,374]],
+            "npc": [
+                ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/NPC_Grendel_the_Really_Old.png/revision/latest?cb=20110306080858",[99,193]],
+                ["https://maplestory.io/api/character/%7B%22ItemId%22:1051355,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:21397,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:37847,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:1072833,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:2003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:12003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D/stand1/0",[64,97]]
+            ],
+            "info": [
+                "To create one, choose the 'Explorers' option in the Character Creation screen and then continue through the story until you reach the quest <a href='https://maplestory.fandom.com/wiki/Quests/77/Victoria_Island_or_Bust!' target='_blank' rel='noopener'>'Victoria Island or Bust'</a> and choose the 'Magician, intelligent and magical' option",
+                "Once you reach Lv. 30 as a Magician, talk to Grendel the Really Old to accept a quest called <a href='https://maplestory.fandom.com/wiki/Quests/77/Path_of_the_Cleric' target='_blank' rel='noopener'>'Path of the Cleric'</a>. Completing the quest will make you a Cleric and you will be on the path to a Bishop. Cleric is the 2nd job of Bishop"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454' alt='Skill Light Speed'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_MP_Boost.png/revision/latest?cb=20110422142449' alt='Skill MP Boost'> -> <img width='32' height='32' src='https://static.wikia.nocookie.net/maplestory/images/1/12/Skill_Magic_Armor.png' alt='Skill Magic Armor.png'> -> <img width='32' height='32' src='https://static.wikia.nocookie.net/maplestory/images/f/fd/Skill_Energy_Bolt.png' alt='Skill Energy Bolt.png'>"],
+                ["2nd Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318' alt='Skill Spell Mastery' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321' alt='Skill High Wisdom' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853' alt='Skill Magic Booster (Magician)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Invincible.png/revision/latest?cb=20160627073033' alt='Skill Invincible' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_MP_Eater.png/revision/latest?cb=20110423005222' alt='Skill MP Eater' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Bless.png/revision/latest?cb=20110423022004' alt='Skill Bless' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Heal.png/revision/latest?cb=20140410201143' alt='Skill Heal' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Holy_Arrow.png/revision/latest?cb=20140410053243' alt='Skill Holy Arrow' width='32' height='32'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Holy_Focus.png/revision/latest?cb=20110423060115' alt='Skill Holy Focus'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Arcane_Overdrive.png/revision/latest?cb=20110502085236' alt='Skill Arcane Overdrive'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Teleport_Mastery.png/revision/latest?cb=20110423053952' alt='Skill Teleport Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Holy_Symbol.png/revision/latest?cb=20151207054159' alt='Skill Holy Symbol'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Holy_Fountain.png/revision/latest?cb=20130706143137' alt='Skill Holy Fountain'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Mystic_Door.png/revision/latest?cb=20110423060010' alt='Skill Mystic Door'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Dispel.png/revision/latest?cb=20130706143146' alt='Skill Dispel'> -> <img width='32' height='32' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADZ0lEQVR4nL1X7bWqMBCM59jAbQFLwBKgBCgBS8ASpAQtQUqAEqSESwuU4MssTLLEKN4/b85RkpDdmWw2H+zNGk/zf7BjQQt4do9fV0l+jGnGScq1rSzFr7Blmx8PT4qgACHP0kQq4ziKg1t+NFX3kDa++wawB2BvrD1EJIm3v9wf5lweRcR+ixzGfwHsQVabUcidCDM6EXWRGrOI2IfGJNdAm3bwiZx9NWIiCBGwNcgwhO/gRr4BTpETQNUc/fP5NLudS9SPEWDINaS/GpXzt0RB3qc/5kwBEqL741Wqzd5msKLK+T1FkFRCPkyrdvavf3/F/pM/FwERYRsrJYKqq0BYSPouMiSCHw0hV3ACwrAr0aunLkPM2RJdIiJi2wYFgYfvV6uAatEBZXZ24mw0Lnbu8AtBMa0iCf3FIAIK65idhmlyz/QnvjxAFNZjooDQH3iKZSBtGAHA9jP9NBP0i3FI1gbzKAhyBXb96P0IIhpFQIUlc/VR6NXmjXKmllQbSazBhv94OMjItJ0GfKxGv0RxXoZLpVAiWuUA5XBeNVKbgA+77CAitBW/JLf+kX3n3k5ZpvaB9rQOKYlug97Vvj8TpskLqOwZw9W14rl2PgKFrbSnfDW6pt/eUt8L8GX40X7nSHQ2AolPQlSgiEphUNu2cz+Yv4zcCVD/lyx1xIAj1zmAKUPjtIRFCzm1g5TxjOXBsBwsnH/2B6722KWvbPENHtm0hsELQJKf2tlRf84deamcERSBpCNI7sc9o1SiezvF2aUTnmvh++zn0Y0rYuJuR5DfZhFdla62apAy88OoaRvtk31OprMiEr8KUEGj7qRHzPbYEpRdTp3v4RasgQiQ7yUH0Eh1ACKiDygSMdzaOSOBJ37aBmVNDLzkABt5U3lHHo5ydVApUJB+TxHRK1kMNGJucK4JLYhgHyYo7GNH/FcCqJiI7f986hUR88NBbApAeLBEyqnzOTF9HkUYGUdcr32gHLs5vUQAne6Vn6urLZfGR2Nocnu3fL0/5sejSWvf71olKx/vbtXRKdCdKQgob3PYs3Re37E8uFcq0yP+YgJ2+FbTX0cxQWNAppdkKGTrG6KxO+R5vtTsGAERcYldzRcUcuXa+kKdHMEnkBx/egp2ywdj3Eh3VEmpy0NTmkNjvoEz+gfH2ozT170dOAAAAABJRU5ErkJggg==' alt='Skill Shining Ray'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Divine_Protection.png/revision/latest?cb=20130706143141' alt='Skill Divine Protection'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Holy_Magic_Shell.png/revision/latest?cb=20110423060120' alt='Skill Holy Magic Shell'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456' alt='Skill Buff Mastery' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Advanced_Blessing.png/revision/latest?cb=20110423133135' alt='Skill Advanced Blessing' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945' alt='Skill Big Bang' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121' alt='Skill Bahamut' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500' alt='Skill Arcane Aim' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329' alt='Skill Infinity' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345' alt='Skill Angel Ray' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Genesis.png/revision/latest?cb=20191217072510' alt='Skill Genesis' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Resurrection.png/revision/latest?cb=20110423133148' alt='Skill Resurrection' width='32' height='32' /> -> <img src='https://static.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c1/Skill_Holy_Symbol_-_Item_Drop.png/revision/latest?cb=20140412230104' alt='Skill Holy Symbol - Item Drop' width='32' height='32'> Holy Symbol - Item Drop</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Advanced_Blessing_-_Ferocity.png/revision/latest?cb=20120918153518' alt='Skill Advanced Blessing - Ferocity' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Advanced_Blessing_-_Boss_Rush.png/revision/latest?cb=20130707015905' alt='Skill Advanced Blessing - Boss Rush' width='32' height='32'> Advanced Blessing - Ferocity and Boss Rush</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Holy_Magic_Shell_-_Persist.png/revision/latest?cb=20120918152941' alt='Skill Holy Magic Shell - Persist' width='32' height='32'> Holy Magic Shell - Persist</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345' alt='Skill Angel Ray'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945' alt='Skill Big Bang'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121' alt='Skill Bahamut'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Heal.png/revision/latest?cb=20140410201143' alt='Skill Heal'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Holy_Arrow.png/revision/latest?cb=20140410053243' alt='Skill Holy Arrow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Shining_Ray.png/revision/latest?cb=20200420083014' alt='Skill Shining Ray'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945' alt='Skill Big Bang'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121' alt='Skill Bahamut'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345' alt='Skill Angel Ray'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Genesis.png/revision/latest?cb=20191217072510' alt='Skill Genesis'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heaven%27s_Door.png/revision/latest?cb=20120918153903' alt='Skill Heaven's Door'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/2893/magician",
+            "https://maplestory.fandom.com/wiki/Magician"
+        ],
+        "credits": [
+            ["Skill Icons + Attribute Info", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
+        ],
+        "extraContent": {
+            "title": "Bahamut",
+            "content": "<p>In 4th Job, you gain the summon <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121' alt=''> Bahamut which debuffs enemies causing enemies to take increased %Final Damage from Holy-attributed attacks and consume the debuff</p><p>Below is a list of skills that have a Holy-attribute:</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Holy_Arrow.png/revision/latest?cb=20140410053243' alt=''> Holy Arrow (2nd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Heal.png/revision/latest?cb=20140410201143' alt=''> Heal (2nd Job) - Damages Undead-type enemies</li><li><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADZ0lEQVR4nL1X7bWqMBCM59jAbQFLwBKgBCgBS8ASpAQtQUqAEqSESwuU4MssTLLEKN4/b85RkpDdmWw2H+zNGk/zf7BjQQt4do9fV0l+jGnGScq1rSzFr7Blmx8PT4qgACHP0kQq4ziKg1t+NFX3kDa++wawB2BvrD1EJIm3v9wf5lweRcR+ixzGfwHsQVabUcidCDM6EXWRGrOI2IfGJNdAm3bwiZx9NWIiCBGwNcgwhO/gRr4BTpETQNUc/fP5NLudS9SPEWDINaS/GpXzt0RB3qc/5kwBEqL741Wqzd5msKLK+T1FkFRCPkyrdvavf3/F/pM/FwERYRsrJYKqq0BYSPouMiSCHw0hV3ACwrAr0aunLkPM2RJdIiJi2wYFgYfvV6uAatEBZXZ24mw0Lnbu8AtBMa0iCf3FIAIK65idhmlyz/QnvjxAFNZjooDQH3iKZSBtGAHA9jP9NBP0i3FI1gbzKAhyBXb96P0IIhpFQIUlc/VR6NXmjXKmllQbSazBhv94OMjItJ0GfKxGv0RxXoZLpVAiWuUA5XBeNVKbgA+77CAitBW/JLf+kX3n3k5ZpvaB9rQOKYlug97Vvj8TpskLqOwZw9W14rl2PgKFrbSnfDW6pt/eUt8L8GX40X7nSHQ2AolPQlSgiEphUNu2cz+Yv4zcCVD/lyx1xIAj1zmAKUPjtIRFCzm1g5TxjOXBsBwsnH/2B6722KWvbPENHtm0hsELQJKf2tlRf84deamcERSBpCNI7sc9o1SiezvF2aUTnmvh++zn0Y0rYuJuR5DfZhFdla62apAy88OoaRvtk31OprMiEr8KUEGj7qRHzPbYEpRdTp3v4RasgQiQ7yUH0Eh1ACKiDygSMdzaOSOBJ37aBmVNDLzkABt5U3lHHo5ydVApUJB+TxHRK1kMNGJucK4JLYhgHyYo7GNH/FcCqJiI7f986hUR88NBbApAeLBEyqnzOTF9HkUYGUdcr32gHLs5vUQAne6Vn6urLZfGR2Nocnu3fL0/5sejSWvf71olKx/vbtXRKdCdKQgob3PYs3Re37E8uFcq0yP+YgJ2+FbTX0cxQWNAppdkKGTrG6KxO+R5vtTsGAERcYldzRcUcuXa+kKdHMEnkBx/egp2ywdj3Eh3VEmpy0NTmkNjvoEz+gfH2ozT170dOAAAAABJRU5ErkJggg==' alt='Skill Shining Ray'/> Shining Ray (3rd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345' alt=''> Angel Ray (4th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945' alt=''> Big Bang (4th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121' alt=''> Bahamut (4th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Angel_of_Balance.png/revision/latest?cb=20170609033035' alt=''> Angel of Balance (5th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Divine_Charge.png/revision/latest?cb=20110422062034' alt=''> Divine Charge (Paladin 4th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Heaven%27s_Hammer.png/revision/latest?cb=20110422062124' alt=''> Heaven's Hammer (Paladin 4th Job)</li></ul>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media0.giphy.com/media/iQbTHc5S139KKIVeEv/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media0.giphy.com/media/Qwibn1TC8THVjnCtgy/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media3.giphy.com/media/UDgSwjudB1qmbUEz4E/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1281,
+                    "offline": true,
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "animations": ["https://media2.giphy.com/media/VkUPUvrfEFZN52asVv/giphy.gif"],
+                    "type": "Active"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 2001008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Energy_Bolt.png/revision/latest?cb=20140409055248"],
+                        "animations": ["https://media.giphy.com/media/Qy80HxOG1aC4MBDyIL/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires an explosive orb forward"
+                    },
+                    {
+                        "id": 2001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158"],
+                        "animations": ["https://media4.giphy.com/media/TcWUHRjSSskegm8p65/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "desc": "When toggled, a portion of your damage taken will be redirected towards your MP",
+                        "details": [
+                            "<strong>[Note]</strong>: Always remember to keep this toggled on"
+                        ]
+                    },
+                    {
+                        "id": 2001009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454"],
+                        "animations": ["https://media.giphy.com/media/L133pkHETSckyF8WQs/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "id": 2000010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Magic_Armor.png/revision/latest?cb=20150915081824"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2000006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_MP_Boost.png/revision/latest?cb=20110422142449"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 2301005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Holy_Arrow.png/revision/latest?cb=20140410053243"],
+                        "animations": ["https://media.giphy.com/media/KdrITsT1kMj1QRQL7d/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a ray of holy magic forward",
+                        "details": [
+                            "Deals increased damage to Undead and Devil type monsters"
+                        ]
+                    },
+                    {
+                        "id": 2300009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Blessed_Ensemble.png/revision/latest?cb=20130706133806"],
+                        "type": "Passive",
+                        "desc": "Increases your %Final Damage for every nearby party member you have buffed",
+                        "details": [
+                            "Grants increased %EXP from enemies for each Cleric in your party (up to 60%)"
+                        ]
+                    },
+                    {
+                        "id": 2301002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Heal.png/revision/latest?cb=20140410201143"],
+                        "animations": ["https://media4.giphy.com/media/3RuhUBTnpAkJTsOZlF/giphy.gif"],
+                        "type": "Party Heal",
+                        "desc": "Heals nearby party members and debuffing nearby enemies",
+                        "details": [
+                            "<strong>[Debuff]: </strong>Enemy takes increased %Final Damage",
+                            "Deals damage to Undead type monsters",
+                            "Cooldown is reduced based on the number of members in your party"
+                        ]
+                    },
+                    {
+                        "id": 2301004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Bless.png/revision/latest?cb=20110423022004"],
+                        "animations": ["https://media2.giphy.com/media/1tFfCXoMBW1LK6r6Ve/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 2301008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853"],
+                        "animations": ["https://media4.giphy.com/media/L4lnBe2vHBy6XYuMXv/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 2300006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2300007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2300000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_MP_Eater.png/revision/latest?cb=20110423005222"],
+                        "type": "Passive",
+                        "desc": "Your attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Does not apply to bosses"
+                        ]
+                    },
+                    {
+                        "id": 2300003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Invincible.png/revision/latest?cb=20160627073033"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 2311004,
+                        "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADZ0lEQVR4nL1X7bWqMBCM59jAbQFLwBKgBCgBS8ASpAQtQUqAEqSESwuU4MssTLLEKN4/b85RkpDdmWw2H+zNGk/zf7BjQQt4do9fV0l+jGnGScq1rSzFr7Blmx8PT4qgACHP0kQq4ziKg1t+NFX3kDa++wawB2BvrD1EJIm3v9wf5lweRcR+ixzGfwHsQVabUcidCDM6EXWRGrOI2IfGJNdAm3bwiZx9NWIiCBGwNcgwhO/gRr4BTpETQNUc/fP5NLudS9SPEWDINaS/GpXzt0RB3qc/5kwBEqL741Wqzd5msKLK+T1FkFRCPkyrdvavf3/F/pM/FwERYRsrJYKqq0BYSPouMiSCHw0hV3ACwrAr0aunLkPM2RJdIiJi2wYFgYfvV6uAatEBZXZ24mw0Lnbu8AtBMa0iCf3FIAIK65idhmlyz/QnvjxAFNZjooDQH3iKZSBtGAHA9jP9NBP0i3FI1gbzKAhyBXb96P0IIhpFQIUlc/VR6NXmjXKmllQbSazBhv94OMjItJ0GfKxGv0RxXoZLpVAiWuUA5XBeNVKbgA+77CAitBW/JLf+kX3n3k5ZpvaB9rQOKYlug97Vvj8TpskLqOwZw9W14rl2PgKFrbSnfDW6pt/eUt8L8GX40X7nSHQ2AolPQlSgiEphUNu2cz+Yv4zcCVD/lyx1xIAj1zmAKUPjtIRFCzm1g5TxjOXBsBwsnH/2B6722KWvbPENHtm0hsELQJKf2tlRf84deamcERSBpCNI7sc9o1SiezvF2aUTnmvh++zn0Y0rYuJuR5DfZhFdla62apAy88OoaRvtk31OprMiEr8KUEGj7qRHzPbYEpRdTp3v4RasgQiQ7yUH0Eh1ACKiDygSMdzaOSOBJ37aBmVNDLzkABt5U3lHHo5ydVApUJB+TxHRK1kMNGJucK4JLYhgHyYo7GNH/FcCqJiI7f986hUR88NBbApAeLBEyqnzOTF9HkUYGUdcr32gHLs5vUQAne6Vn6urLZfGR2Nocnu3fL0/5sejSWvf71olKx/vbtXRKdCdKQgob3PYs3Re37E8uFcq0yP+YgJ2+FbTX0cxQWNAppdkKGTrG6KxO+R5vtTsGAERcYldzRcUcuXa+kKdHMEnkBx/egp2ywdj3Eh3VEmpy0NTmkNjvoEz+gfH2ozT170dOAAAAABJRU5ErkJggg=="],
+                        "animations": ["https://media.giphy.com/media/RGjdQLRn7a5NzWoV2m/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Shines a ray of light that damages nearby enemies and has a chance to stun",
+                        "details": [
+                            "Deals increased damage to Undead and Devil type monsters"
+                        ]
+                    },
+                    {
+                        "id": 2311011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Holy_Fountain.png/revision/latest?cb=20130706143137"],
+                        "animations": ["https://media.giphy.com/media/iG3sXFpNjqSdBkaNbm/giphy.gif"],
+                        "type": "Summon Heal",
+                        "desc": "Places down a fountain which party members can press the Up Arrow Key to restore some %Max HP",
+                        "details": [
+                            "Has a set number of uses before the fountain disappears",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "id": 2311012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Divine_Protection.png/revision/latest?cb=20130706143141"],
+                        "animations": ["https://media3.giphy.com/media/ShV89TzsSoN7IcRIca/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a barrier that blocks one Abnormal Status (Debuff)",
+                        "details": [
+                            "<strong>[Passive]: </strong>Permanently increases Abnormal Status Resistance and %Elemental Resistance",
+                            "Cooldown is reduced for each party member cured by <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Dispel.png/revision/latest?cb=20130706143146' alt='Skill Dispel' width='32' height='32' /> Dispel"
+                        ]
+                    },
+                    {
+                        "id": 2311002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Mystic_Door.png/revision/latest?cb=20110423060010"],
+                        "animations": ["https://media.giphy.com/media/JR229fm4MJfUsLtx1p/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Creates a portal that leads to the nearest town for your party members",
+                        "details": [
+                            "To use, press the Up Arrow Key"
+                        ]
+                    },
+                    {
+                        "id": 2311001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Dispel.png/revision/latest?cb=20130706143146"],
+                        "animations": ["https://media.giphy.com/media/fwufBWzBRITeJeNgEF/giphy.gif"],
+                        "type": "Party Active",
+                        "desc": "Cures party members of Abnormal Statuses",
+                        "details": [
+                            "If a party member is cured, the cooldown of Dispel and <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Divine_Protection.png/revision/latest?cb=20130706143141' alt='Skill Divine Protection' width='32' height='32' /> are reduced"
+                        ]
+                    },
+                    {
+                        "id": 2311003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Holy_Symbol.png/revision/latest?cb=20151207054159"],
+                        "animations": ["https://media.giphy.com/media/KdrZjE3QcxoX17L9F8/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Increases the amount of EXP gained from enemies for all party members nearby ",
+                        "details": [
+                            "If party members go too far, the effects of Holy Symbol are reduced"
+                        ]
+                    },
+                    {
+                        "id": 2311007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Teleport_Mastery.png/revision/latest?cb=20110423053952"],
+                        "animations": ["https://media0.giphy.com/media/ihn7lJCp9dygjKVlkv/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "When toggled, when you use <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454' alt='Skill Light Speed' width='32' height='32' />, nearby enemies will take damage",
+                        "details": [
+                            "Has a chance to stun enemies",
+                            "Permanently increases the teleport distance"
+                        ]
+                    },
+                    {
+                        "id": 2311009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Holy_Magic_Shell.png/revision/latest?cb=20110423060120"],
+                        "animations": ["https://media.giphy.com/media/VdcPRxWzFXNPxwy18Q/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Restores the HP of nearby party members and grants them a shield",
+                        "details": [
+                            "The shield will absorb a set number of attacks before disappearing<ul><li>If the attack was a %Max HP attack, you will take reduced damage instead</li></ul>",
+                            "After receiving a Holy Magic Shell, you may not receive another one for a short amount of time"
+                        ]
+                    },
+                    {
+                        "id": 2310010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Arcane_Overdrive.png/revision/latest?cb=20110502085236"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2310008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Holy_Focus.png/revision/latest?cb=20110423060115"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 2321007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345"],
+                    "animations": ["https://media.giphy.com/media/JqKD0nJQH8B1lUTUSK/giphy.gif"],
+                    "type": "Attack / Party Heal",
+                    "desc": "Fires a piercing holy arrow forward that damages enemies and heals party members it passes through"
+                },
+                {
+                    "id": 2321008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Genesis.png/revision/latest?cb=20191217072510"],
+                    "animations": ["https://media.giphy.com/media/hWpPSmMv7g12OYuyhu/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates rays of holy light that strike from above",
+                    "details": [
+                        "Attack has increased %Crit Rate"
+                    ]
+                },
+                {
+                    "id": 2321001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945"],
+                    "animations": ["https://media.giphy.com/media/SWuxjdO9dfZN40KUzA/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releases a holy explosion around you that damages and debuffs nearby enemies ",
+                    "details": [
+                        "<strong>[Debuff]: </strong>Decreases %DEF<ul><li>Can stack up to 4 times</li></ul>"
+                    ]
+                },
+                {
+                    "id": 2320013,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Blessed_Ensemble.png/revision/latest?cb=20130706133806"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Final Damage provided per stack"
+                    ]
+                },
+                {
+                    "id": 2321006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Resurrection.png/revision/latest?cb=20110423133148"],
+                    "animations": ["https://media.giphy.com/media/hRwc5AgTQ5s9Fjyt7F/giphy.gif"],
+                    "type": "Party Revive",
+                    "desc": "Revives all KO'd party members within range",
+                    "details": [
+                        "Additionally makes you briefly invincible",
+                        "Still consumes a Death Count for bosses even if revived but buffs are kept"
+                    ]
+                },
+                {
+                    "id": 2321004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329"],
+                    "animations": ["https://media2.giphy.com/media/NlEvlzJf1AFsql3KFo/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When active, your skills do not consume mana and you gain increased %Knockback Resistance and %Final Damage",
+                    "details": [
+                        "Additionally while active, continuously increases %Final Damage and periodically restores %Max HP/MP",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "id": 2321003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121"],
+                    "animations": ["https://media.giphy.com/media/JSXiTr8pSb7kT21KKd/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a dragon to attack nearby enemies while debuffing them",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Holy-attribute attacks deal increased %Final Damage and consume the debuff"
+                    ]
+                },
+                {
+                    "id": 2321005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Advanced_Blessing.png/revision/latest?cb=20110423133135"],
+                    "animations": ["https://media2.giphy.com/media/N8acYW9riUb1WSzEbL/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "",
+                    "details": [
+                        "Does not stack with <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Bless.png/revision/latest?cb=20110423022004' alt='Skill Bless' width='32' height='32' />"
+                    ]
+                },
+                {
+                    "id": 2321000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media3.giphy.com/media/JWmmeVpcY6xZy3avGZ/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 2321009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media2.giphy.com/media/drfz8YugHNehwJaduu/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 2320012,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 2320011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500"],
+                    "type": "Passive",
+                    "desc": "When attacking an enemy 3 or more times, you have a chance to gain a stacking %Damage buff",
+                    "details": [
+                        "Summon attacks cannot trigger this effect",
+                        "Additionally increases %Ignore DEF"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 2320043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Holy_Magic_Shell_-_Extra_Guard.png/revision/latest?cb=20120918152838"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 2320044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Holy_Magic_Shell_-_Persist.png/revision/latest?cb=20120918152941"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 2320045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Holy_Magic_Shell_-_Enhance.png/revision/latest?cb=20181122074858"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 2320046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Holy_Symbol_-_Experience.png/revision/latest?cb=20140412225803"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 2320047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Holy_Symbol_-_Preparation.png/revision/latest?cb=20140412225910"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 2320048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c1/Skill_Holy_Symbol_-_Item_Drop.png/revision/latest?cb=20140412230104"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 2320049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Advanced_Blessing_-_Ferocity.png/revision/latest?cb=20120918153518"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 2320050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Advanced_Blessing_-_Boss_Rush.png/revision/latest?cb=20130707015905"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 2320051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Advanced_Blessing_-_Extra_Point.png/revision/latest?cb=20120918153749"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 2321054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038"],
+                    "animations": ["https://media1.giphy.com/media/CcgcfMD0ZuGryjwHd2/giphy.gif"],
+                    "type": "Toggle Buff",
+                    "desc": "",
+                    "details": [
+                        "<strong>[When Active]: </strong>Increases %Final Damage, %Ignore DEF, Attack Speed (by 1 stage) and %Elemental Resistance and grants flat Magic Attack<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345' alt='Skill Angel Ray' width='32' height='32' /> also gains additional hits per attack</li><li>However, you have reduced Recovery Amount and <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345' alt='Skill Angel Ray' width='32' height='32' /> can only hit one enemy</li></ul>",
+                        "<strong>[When Inactive]:</strong> You gain increased %Damage"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 2321052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heaven%27s_Door.png/revision/latest?cb=20120918153903"],
+                    "animations": ["https://media.giphy.com/media/eieSF9w80PzsmJtB92/giphy.gif"],
+                    "type": "Party Buff / Attack",
+                    "desc": "Damages nearby enemies while granting a buff to nearby party members",
+                    "details": [
+                        "<strong>[Buff]: </strong>Protects allies from one KO",
+                        "After receiving a Heaven's Door's buff, you may not receive another one for a short amount of time"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 2321053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Epic_Adventure_%28Magician%29.png/revision/latest?cb=20121015210355"],
+                    "animations": ["https://media2.giphy.com/media/wYtZ26mvvkPRIh7JIL/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expMagician", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Benediction",
+                    "shortDesc": "MP Cost: 1000, Duration: 42 sec, Final Damage (all party members in range): +5%, periodically recovers 1% Max HP/MP and clears certain statuses, and have their Attack Speed increased.\\nFinal Damage: +1% per 2500 INT (up to +40% max)\\nHP/MP Recovery: +1% per 2000 INT (up to +10% max)\\nAttack Speed: +1 per 10000 INT (up to +3 max)\\nCan be toggled\\nCooldown: 180 sec",
+                    "id": 400021003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Benediction.png/revision/latest?cb=20161125062538"],
+                    "animations": ["https://media0.giphy.com/media/fLL904f95ZGghkCEwq/giphy.gif"],
+                    "type": "Buff Zone",
+                    "desc": "Creates an aura around your character where party members inside it gain a buff",
+                    "details": [
+                        "<strong>[Buff]:</strong> Increases %Final Damage and Attack Speed while periodically restoring %Max HP/MP and clearing certain Abnormal Statuses",
+                        "Effects scale off of your INT stat: <ul> <li><strong>[Final Damage]: </strong>+1% for every 2500 INT (up to +40%)</li> <li><strong>[HP/MP Recovery]: </strong>+1% for every 2000 INT (up to +10%)</li> <li><strong>[Attack Speed]: </strong>+1% for every 10000 INT (up to +3)</li> </ul>"
+                    ]
+                },
+                {
+                    "name": "Angel of Balance",
+                    "shortDesc": "MP Cost: 1000, Summon Duration: 30 sec. The angel's aspect depends upon whether Righteously Indignant is active or inactive.\\nInactive: Appears as the Angel of Benevolence. Grants a buff that recovers 15% of party members' Max HP every 5 sec and increases their damage by 5% and 1% per 1250 INT for 4 sec. Damage can increase up to 100%.\\nActive: Appears as the Avenging Angel. Attacks up to 12 enemies dealing 1000% damage 12 times. Attacked enemies are marked for 60 sec. Dealing holy damage to those enemies consumes the mark and increases Final Damage of the attack by 50%.\\nCooldown: 120 sec",
+                    "id": 400021032,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Angel_of_Balance.png/revision/latest?cb=20170609033035"],
+                    "animations": ["https://media4.giphy.com/media/8oDLiNFxGCnqZfhJkQ/giphy.gif", "https://media4.giphy.com/media/URNGCyY13yFPcimUKi/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons an angel to fight by your side",
+                    "details": [
+                        "Cannot be summoned while <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121' alt='Skill Bahamut' width='32' height='32' /> is active",
+                        "Unaffected by Damage Reflect",
+                        "<strong>[<img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant' width='32' height='32' /> is active]: </strong>Appears as Avenging Angel, attacks nearby enemies and debuffs them<ul><li><strong>[Debuff]</strong>: Holy-attribute attacks deal increased %Final Damage and consume the debuff</li></ul>",
+                        "<strong>[<img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant' width='32' height='32' /> is inactive]: </strong>Appears as Angel of Benevolence, granting a buff that periodically restores %Max HP to nearby party members and increases their %Damage<ul><li>Damage increase scales off of your INT stat, +1% for every 1250 INT (up to +100%)</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Peacemaker",
+                    "shortDesc": "MP Cost: 350, deals 700% damage to up to 6 enemies 4 time(s) at every interval, or restores 40% of the Bishop's max HP for you and your party members that come into contact with the object. Max Contact Count: 12, consumes the contact count for both attacks and recovery\\nHoly Light: Max Enemies Hit: 10, Damage: 1000%, Number of Attacks: 8. The Bishop and party members that come into contact with the light will gain a buff that increases damage by 10% for 8 sec + increases damage by 1% for each remaining contact count.\\nCooldown: 10 sec",
+                    "id": 400021070,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Peacemaker.png/revision/latest?cb=20181115065337"],
+                    "animations": ["https://media3.giphy.com/media/UjJzIrHnJ1VUbTLktp/giphy.gif"],
+                    "type": "Attack / Heal",
+                    "desc": "Sends an angel forward that damages enemies and heals party members it passes through",
+                    "details": [
+                        "At the end of its range, the angel lingers dealing damage and buffing party members<ul><li><strong>[Buff]: </strong>Increases %Damage</li><li>Pressing the Skill Key again will cause the angel to disappear</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Divine Punishment",
+                    "shortDesc": "MP Cost per Attack: 40, Consumes 1 holy light per sec.\\nAttacks up to 6 enemies to the front, for 350% damage, 5 times. While Righteously Indignant is active, increases the number of attacks by 5..\\n1 holy light is prepared every 8.5 sec, and you can hold up to 8 at a time.\\nCooldown: 1.5 sec",
+                    "id": 400021070,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/divine-punishment.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/ZHfg0SXUAcrQreCMbj/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Rains down angelic arrows from above",
+                    "details": [
+                        "This skill has a special resource called Divine Light which are prepared every 8.5 seconds and you can hold up to 8 at a time<ul><li>Costs 1 Divine Light per second to cast</li></ul>",
+                        "Deals increased number of hits per attack if <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant'> is active"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Holy Symbol - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Holy_Symbol.png/revision/latest?cb=20151207054159"],
+                "animations": ["https://media.giphy.com/media/KdrZjE3QcxoX17L9F8/giphy.gif"]
+            },
+            {
+                "name": "Genesis - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Genesis.png/revision/latest?cb=20191217072510"],
+                "animations": ["https://media.giphy.com/media/hWpPSmMv7g12OYuyhu/giphy.gif"]
+            },
+            {
+                "name": "Big Bang - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945"],
+                "animations": ["https://media.giphy.com/media/SWuxjdO9dfZN40KUzA/giphy.gif"]
+            },
+            {
+                "name": "Bahamut - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121"],
+                "animations": ["https://media.giphy.com/media/JSXiTr8pSb7kT21KKd/giphy.gif"]
+            },
+            {
+                "name": "Heaven's Door - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heaven%27s_Door.png/revision/latest?cb=20120918153903"],
+                "animations": ["https://media.giphy.com/media/eieSF9w80PzsmJtB92/giphy.gif"]
+            },
+            {
+                "name": "Benediction - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Benediction.png/revision/latest?cb=20161125062538"],
+                "animations": ["https://media0.giphy.com/media/fLL904f95ZGghkCEwq/giphy.gif"]
+            },
+            {
+                "name": "Peacemaker - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Peacemaker.png/revision/latest?cb=20181115065337"],
+                "animations": ["https://media3.giphy.com/media/UjJzIrHnJ1VUbTLktp/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Bishop is INT mage class part of the Explorers class group. Bishop is known for their incredible support potential"
+}

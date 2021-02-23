@@ -1,0 +1,665 @@
+{
+    "class": "Adele",
+    "content": {
+        "classGroup": "Flora",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["bladecaster"]},
+            {"secondary": ["bladebinder"]}
+        ],
+        "classType": [
+            "Summoner - Swords",
+            "Micro-management",
+            "Mobile"
+        ],
+        "innerAbility": ["Chance to Skip Cooldown", "Crit Rate", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Strong mobbing and bossing pontential",
+                "Has strong map control with <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Skill Hunting Decree'/> Aether Swords that fly around the map",
+                "Can convert MATK into ATK",
+                "Has a reactive playstyle with useful skills that can be used to dash back from danger or negate damage with precise timing",
+                "Has a bind <img src='https://orangemushroom.files.wordpress.com/2019/12/squall.png?w=600' alt='Skill Blade Torrent'/> Blade Torrent",
+                "Has 2 iFrame <img src='https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600' alt='Skill Aether Guard'/> Aether Guard and <img src='https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600' alt='Skill Infinite'/> Infinite"
+            ],
+            "cons": [
+                "Has micro-management with keeping track of cooldowns and active Aether Swords",
+                "Can be a bit spammy by constantly pressing buttons to keep damage up",
+                "Low base %Ignore DEF"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +15%",
+                "<strong>Crit Rate</strong>: +40%",
+                "<strong>Crit Damage</strong>: +10%",
+                "<strong>Attack Power</strong>: +10%",
+                "<strong>Final Damage</strong>: +55% + (up to 15% from <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> Resonance Rush buff)",
+                "<strong>Damage</strong>: +(up to 8% from <img src='https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600' alt='Noblesse'> Link Skill)",
+                "<strong>Boss Damage</strong>: +10% + (up to 4% from <img src='https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600' alt='Noblesse'> Link Skill)",
+                "<strong>Knockback Resistance</strong>: +100%",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +30%",
+                "<strong>Ignore DEF</strong>: +20% + (up to 15% from <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> Resonance Rush buff)",
+                "<strong>Abnormal Status Resistance</strong>: 30"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Aether_Forge.png/revision/latest?cb=20200618170855' alt='Skill Aether Forge'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aetherial_Arms.png/revision/latest?cb=20200618170905' alt='Skill Aetherial Arms'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Weave_Infusion.png/revision/latest?cb=20200618171016' alt='Skill Weave Infusion'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Hero_of_the_Flora_%28Adele%29.png/revision/latest?cb=20200618170015' alt='Skill Hero of the Flora (Adele)'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Reign_of_Destruction.png/revision/latest?cb=20200618170946' alt='Skill True Nobility'>(30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Infinity_Blade.png/revision/latest?cb=20200618170931' alt='Skill Infinity Blade'>(180s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/storm.png?w=600' alt='Skill Storm'>(90s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Divine_Wrath_%28Adele%29.png/revision/latest?cb=20200618170918' alt='Skill Divine Wrath (Adele)'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Legacy_Restoration.png/revision/latest?cb=20200618170933' alt='Skill Legacy Restoration'>(180s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Conversion_Overdrive.png/revision/latest?cb=20180701142936' alt='Skill Conversion Overdrive'>(200s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033' alt='Skill Grandis Goddess's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742' alt='Skill Weapon Aura'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329' alt='Skill Impenetrable Skin'>(240s cd)",
+            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Blade_Torrent.png/revision/latest?cb=20200618170911' alt='Skill Blade Torrent'>(180s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Aether_Guard.png/revision/latest?cb=20200618170859' alt='Skill Aether Guard'>(60s cd), <img src='https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600' alt='Skill Infinite'>(180s cd)"
+        },
+        "linkSkill": {
+            "id": 80002857,
+            "icons": ["https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img src='https://orangemushroom.files.wordpress.com/2019/12/vault.png?w=600' alt='Vault'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/rudiment.png?w=600' alt='Rudiment'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/plain.png?w=600' alt='Plain'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'>"],
+                ["2nd Job", "<img src='https://orangemushroom.files.wordpress.com/2019/12/physical-training.png?w=600' alt='Physical Training'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/attribute.png?w=600' alt='Attribute'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/mastery.png?w=600' alt='Mastery'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/booster.png?w=600' alt='Booster'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/wonder.png?w=600' alt='Wonder'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600' alt='Creation'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600' alt='Impale'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600' alt='Punto'>"],
+                ["3rd Job", "<img src='https://orangemushroom.files.wordpress.com/2019/12/feather.png?w=600' alt='Feather'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/tolerance.png?w=600' alt='Tolerance'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/nobility.png?w=600' alt='Nobility'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600' alt='Ascent'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600' alt='Cross'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/gathering.png?w=600' alt='Gathering'> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600' alt='Territory'>"],
+                ["4th Job", "<img src='https://orangemushroom.files.wordpress.com/2019/12/demolition.png?w=600' alt='Demolition' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/attain.png?w=600' alt='Attain' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/perfection.png?w=600' alt='Perfection' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/expert.png?w=600' alt='Expert' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600' alt='Divide' /> -> <img src='https://orangemushroom.files.wordpress.com/2020/01/lef-warrior.png?w=600' alt='Lef Warrior' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600' alt='Blossom' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600' alt='Dike' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/tread.png?w=600' alt='Tread' /> -> <img src='https://orangemushroom.files.wordpress.com/2019/12/grave.png?w=600' alt='Grave' /> -> <img src='https://orangemushroom.files.wordpress.com/2020/01/lef-heros-will.png?w=600' alt='Lef Hero' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://orangemushroom.files.wordpress.com/2019/12/trigger-reinforce.png?w=600' alt='Trigger - Reinforce'> <img src='https://orangemushroom.files.wordpress.com/2019/12/trigger-boss-killer.png?w=600' alt='Trigger - Boss Killer'> Trigger - Reinforce and Trigger - Boss Rush</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/resonance-extra-healing.png?w=600' alt='Resonance - Extra Healing'> Resonance Rush - Efficiency</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/territory-persist.png?w=600' alt='Territory - Persist'> Reign of Destruction - Persist</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/blossom-cooltime-reduce.png?w=600' alt='Blossom - Cooltime Reduce'> Aether Blossom - Cooldown Cutter</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img src='https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600' alt='Territory'> <img src='https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600' alt='Blossom'> <img src='https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600' alt='Creation'> <img src='https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600' alt='Divide'> <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'> <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'>",
+            "possible": "<img src='https://orangemushroom.files.wordpress.com/2019/12/plain.png?w=600' alt='Plain'> <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'> <img src='https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600' alt='Punto'> <img src='https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600' alt='Impale'> <img src='https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600' alt='Creation'> <img src='https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600' alt='Cross'> <img src='https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600' alt='Territory'> <img src='https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600' alt='Divide'> <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'> <img src='https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600' alt='Blossom'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/58793/adele",
+            "https://maplestory.fandom.com/wiki/Adele/"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
+        ],
+        "extraContent": {
+            "title": "Aether Weaving",
+            "content": "<p><img class='extra-content-image' src='https://media0.giphy.com/media/Y1Gx3pWfHGnDCHaxR8/giphy.gif' alt='Animated GIF'/></p><p>Adele has a secondary resource (unlocked in 2nd Job) called <img src='https://orangemushroom.files.wordpress.com/2019/12/aether.png?w=600' alt='Aether'> Aether Weaving that is used to activate certain skills and create 'Aether Swords' that can be commanded. Aether Weaving is generated passively and whenever you attack an enemy with a 'Trigger' skill</p><ul><li>Every 100 'Aether Weaving', an Aether Sword is readied</li><li>When a sword is readied, you can summon it using <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree' width='32' height='32'> Hunting Decree (3rd Job)</li><li>These swords are used primarily for <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree' width='32' height='32'> and cannot be used before 3rd Job</li><li>Each sword represents 100 AE which skills that consume AE can use</li><li>In 2nd Job, you can hold up to 2 Swords (200 AE) at a time and 3 Swords (300 AE) in 4th Job+</li><li>Note if you use any skill that consumes AE, your Aether Sword will disappear and be consumed as AE</li></ul><p>Below is a list of all Trigger skills:</p><ul><li><img src='https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600' alt='Punto'> Skewering (2nd Job)</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600' alt='Cross'> Eviscerate (3rd Job)</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600' alt='Divide'> Cleave (4th Job)</li><li><img src='https://orangemushroom.files.wordpress.com/2019/12/tread.png?w=600' alt='Tread'> Plummet (4th Job)</li></ul>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 150021000,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/01/revisitation.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/sRkG6Jc68nIwwy4IRQ/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 150020079,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/magic-circuit.png?w=600"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 150020006,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/01/face.png?w=600"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is gained and leveled up by completing the Adele storyline<ul><li>The storyline spans all the way up to Lv. 200</li></ul>"
+                    ]
+                },
+                {
+                    "id": 60011005,
+                    "offline": true,
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "maxLevel": 1,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/exclusive-spell.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/wIeX9ADXDixIsaZYuA/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players",
+                        "Has a cooldown (2 hrs)"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 151001000,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/plain.png?w=600"],
+                        "animations": ["https://media3.giphy.com/media/KCYmBs6F31WlMPOfla/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swings a sword forward"
+                    },
+                    {
+                        "id": 151001001,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600"],
+                        "animations": ["https://media0.giphy.com/media/j5QcQlY3GIABEePCaN/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates homing shards that seek out nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 151001002,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/vault.png?w=600"],
+                        "animations": ["https://media2.giphy.com/media/LrFzfgMEZDKRqSKJ6k/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 151001004,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/levitation.png?w=600"],
+                        "animations": ["https://media0.giphy.com/media/MxGIjq9jUhbOii86oY/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While in the air, pressing the Skill Key or pressing the Up Key twice will allow you to float for a short period of time",
+                        "details": [
+                            "Using the skill again or using <img src='https://orangemushroom.files.wordpress.com/2019/12/vault.png?w=600' alt='Vault'> will stop the skill",
+                            "You can lock the skill by right-clicking the skill to prevent it from activating with the Arrow Keys",
+                            "To unlock this skill, you need to complete Adele's storyline"
+                        ]
+                    },
+                    {
+                        "id": 151000005,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/rudiment.png?w=600"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 151100017,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/aether.png?w=600"],
+                        "type": "Passive",
+                        "desc": "A special resource that generates passively and whenever you attack an enemy with a 'Trigger' skill"
+                    },
+                    {
+                        "id": 151100002,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600"],
+                        "animations": ["https://media1.giphy.com/media/o4AI27UyJjfawQuhRl/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Whenever an Aether Sword attack hits an enemy, there is a chance to leave behind a crystal",
+                        "details": [
+                            "Using <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> Resonance will dash towards the crystals consuming it",
+                            "Up to 7 crystals can be active at a time and last 30 secs each<ul><li>Creating a new crystal will cause the oldest crystal to expire if there are already 7 crystals active</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 151101000,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600"],
+                        "animations": ["https://media2.giphy.com/media/m9v3zQx70hN8q97VC0/giphy.gif"],
+                        "type": "Trigger Attack",
+                        "desc": "Launches multiple swords forward"
+                    },
+                    {
+                        "id": 151101006,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600"],
+                        "animations": ["https://media0.giphy.com/media/JpeOY13y5dwUGakDam/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "When toggled, when a Trigger skills hit an enemy, Aether Swords will brandish in front of you that has a chance to leave behind a <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Aether_Crystal.png/revision/latest?cb=20200618170854' alt='Skill Aether Crystal'>",
+                        "details": [
+                            "The size of the attack will change based on the amount of Aether Energy you have currently",
+                            "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree'> Hunting Decree (3rd Job) can only be activated when this skill is toggled on",
+                            "Cooldown of the attack will be reduced each Job Advancement",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 151101001,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600"],
+                        "animations": ["https://media0.giphy.com/media/lqGR4b8YYKzIVIbsYp/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates an Aether Sword while shooting it forward that leaves behind a <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Aether_Crystal.png/revision/latest?cb=20200618170854' alt='Skill Aether Crystal'>",
+                        "details": [
+                            "You can use the Arrow Keys to decide the direction the Aether Sword is launched",
+                            "Can be linked with <img src='https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600' alt='Resonance'> Resonance Rush to quickly dash but no <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> crystal will be created"
+                        ]
+                    },
+                    {
+                        "id": 151101003,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600"],
+                        "animations": ["https://media2.giphy.com/media/kZKSgUf3uY4YmAbPc9/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Lunges a sword forward while dashing",
+                        "details": [
+                            "Deals increased %Damage the fewer enemies there are",
+                            "Can only be used when there is a nearby <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> or when linked with <img src='https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600' alt='Impale'><ul><li><img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> crystal will disappear if you dash to it</li></ul>",
+                            "You can use the Arrow Keys to decide the direction you dash towards",
+                            "If the skill hits an enemy, you gain a stacking buff that increases %Final Damage and %Ignore DEF (up to 3 times)"
+                        ]
+                    },
+                    {
+                        "id": 151101013,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/wonder.png?w=600"],
+                        "animations": ["https://media4.giphy.com/media/NFOjX0MtHhU97JVvBd/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "When toggled, Trigger attacks will periodically activate <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'> automatically",
+                        "details": [
+                            "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600 alt='Skill Magic Dispatch'/>"
+                        ]
+                    },
+                    {
+                        "id": 151101005,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/booster.png?w=600"],
+                        "animations": ["https://media2.giphy.com/media/DZi5vzjx0sme1X2ras/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 151100014,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/mastery.png?w=600"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 151100015,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attribute.png?w=600"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 151100016,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/physical-training.png?w=600"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "id": 151111000,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600"],
+                        "animations": ["https://media0.giphy.com/media/jQQVcydQzj7SzHDJQ2/giphy.gif"],
+                        "type": "Trigger Attack",
+                        "desc": "Slashes your sword forward"
+                    },
+                    {
+                        "id": 151111003,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600"],
+                        "animations": ["https://media3.giphy.com/media/IeWNTGLo1AYPYiwxmb/giphy.gif"],
+                        "type": "Aether Sword Summon",
+                        "desc": "Summons 2 Aether Swords to seek out and attack nearby enemies",
+                        "details": [
+                            "Up to 4 Aether Swords can be active at a time (in 3rd Job)<ul><li>The oldest Aether Swords will be replaced if 4 are already active</li></ul>",
+                            "Can only be activated when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Aether_Forge.png/revision/latest?cb=20200618170855' alt='Skill Aether Forge'> is toggled on",
+                            "Attack has a chance to create a <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 151111002,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/gathering.png?w=600"],
+                        "animations": ["https://media3.giphy.com/media/d8Qb3kHdw5L65gIHDI/giphy.gif"],
+                        "type": "Aether Sword Attack",
+                        "desc": "Commands all your <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'> swords to return to you while damaging and debuffing enemies in its path",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Adele's attack towards this target has increased %Ignore DEF",
+                            "Attack has a chance to create a <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 151111001,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600"],
+                        "animations": ["https://media2.giphy.com/media/eN51yOocvvxWIp72Dm/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates a zone of piercing swords",
+                        "details": [
+                            "Unaffected by Damage Reflect",
+                            "At the end of the duration, the attack explodes damaging nearby enemies"
+                        ]
+                    },
+                    {
+                        "id": 151111005,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/nobility.png?w=600"],
+                        "animations": ["https://media1.giphy.com/media/dXudUeSk8EMEcX8umt/giphy.gif"],
+                        "type": "Buff Zone",
+                        "desc": "Creates a barrier around you where party members redirect some of the damage to you by creating a shield for you",
+                        "details": [
+                            "Pressing the Skill Key again will cancel the shield"
+                        ]
+                    },
+                    {
+                        "id": 151111004,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/feather.png?w=600"],
+                        "animations": ["https://media1.giphy.com/media/TFNLyNO41OJDr3BYoB/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dashes backward",
+                        "details": [
+                            "Can be used while using a 'Trigger' skill",
+                            "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed"
+                        ]
+                    },
+                    {
+                        "id": 151110006,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 151110007,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/tolerance.png?w=600"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "id": 151120012,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/high-ether.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/aether.png?w=600"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max Aether and amount of <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Skill Hunting Decree'/> swords creatable from 4 to 6"
+                    ]
+                },
+                {
+                    "id": 151121000,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/SYXJ1sTWR7jEVLpSpp/giphy.gif"],
+                    "type": "Trigger Attack",
+                    "desc": "Slashes a giant sword forward",
+                    "details": [
+                        "There are 3 different attacks that can randomly trigger"
+                    ]
+                },
+                {
+                    "id": 151121003,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/Ig3C6I9G733sNEgX8G/giphy.gif"],
+                    "type": "Aether Sword Attack",
+                    "desc": "Commands all your <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'> swords to spin damaging nearby enemies",
+                    "details": [
+                        "Unaffected by Damage Reflect and cooldown resets",
+                        "Duration of Aether Swords will not go down when attack is active",
+                        "Attack has a chance to create a <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> crystal",
+                        "If an enemy is hit by multiple Aether Swords, each additional sword deals reduced damage"
+                    ]
+                },
+                {
+                    "id": 151121001,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/grave.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/RHCpLWle8DraSrvQBW/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Marks an enemy causing all Aether Swords to target them",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Attacks towards this enemy deals increased %Damage and %Ignore Def",
+                        "If you press the Skill Key again, the mark can be moved to another target if there is a mark active",
+                        "The skill will target the enemy with the highest Max HP",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "id": 151121004,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/RsNUW30Yhczac2feSx/giphy.gif"],
+                    "type": "Key-down Active",
+                    "desc": "An Aether Sword rotates around you, protecting you",
+                    "details": [
+                        "When held, damage taken including %HP attacks is reduced",
+                        "If you press and release the Skill Key instantly, you will instead parry an enemy attack, becoming invincible for a few seconds",
+                        "Cooldown is reduced based on the duration the skill was held",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "id": 151121002,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/tread.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/271gIbmLOpDvPqsgr2/giphy.gif"],
+                    "type": "Trigger Attack",
+                    "desc": "Dive down at your location damaging enemies in your path",
+                    "details": [
+                        "Can be used in the air to dive down vertically"
+                    ]
+                },
+                {
+                    "id": 151121005,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/01/lef-warrior.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/KkPrlAtPfT6W4njPcf/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 151121006,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/01/lef-heros-will.png?w=600"],
+                    "animations": ["https://media3.giphy.com/media/Tq9EsWm6lB7MlhjXwh/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 151120007,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/expert.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/mastery.png?w=600"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery and Attack provided"
+                    ]
+                },
+                {
+                    "id": 151120008,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/perfection.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %p Damage increased provided"
+                    ]
+                },
+                {
+                    "id": 151120009,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/demolition.png?w=600"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 151120010,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attain.png?w=600"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 151120031,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-reinforce.png?w=600"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of all Trigger skills"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 151120032,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-ignore-guard.png?w=600"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of all Trigger skills"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "id": 151120033,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-boss-killer.png?w=600"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of all Trigger skills"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "id": 151120034,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/resonance-extra-healing.png?w=600"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 151120035,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/territory-persist.png?w=600"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 151120036,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/blossom-cooltime-reduce.png?w=600"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 151120037,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attribute-healing-reinforce.png?w=600"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 151120038,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/nobility-shield-reinforce.png?w=600"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 151120039,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/dike-persist.png?w=600"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 151121041,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/marker.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/h2a2hDKzqycExpYwuz/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates shards at the location of enemies that explode",
+                    "details": [
+                        "Deals damage when the shards land and explode",
+                        "Deals increased %Damage if only one enemy is hit",
+                        "Creates <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> at the location of the explosion"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 151121040,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/squall.png?w=600"],
+                    "animations": ["https://media3.giphy.com/media/bKeQs54oZJ1F0ZAZcA/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Binds nearby enemies",
+                    "reqLev": 160
+                },
+                {
+                    "id": 151121042,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/race-of-god.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/gp7a45r7WcS6ztfvCM/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["conversionOverdrive", "grandisGoddessBlessingFL", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Ruin",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15\\nAn attack that deals 500% damage 6 times when summoned and activates 12 times.\\nAfter it's summoned, an additional sword pierce deals 900% damage 9 times and activates 8 times.\\nCooldown: 60 sec",
+                    "id": 400021002,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/ruin.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/mEggpFiv8PoTIVA7LS/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summons a giant sword that rains down from the sky dealing damage while coming down and after it lands"
+                },
+                {
+                    "name": "Infinity Blade",
+                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament\\nDuration: 30 sec, creates 18 aether swords that attack 2 times with 700% damage\\nOn successful hits, 5% chance to create an aether crystal.\\nCooldown 180 sec",
+                    "id": 400021030,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600"],
+                    "animations": ["https://media3.giphy.com/media/SYjfpPWRpR4JE20qqQ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates several special Aether Swords that seek out and attack nearby enemies like <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'>",
+                    "details": [
+                        "Infinity Blade Aether Swords are only affected by <img src='https://orangemushroom.files.wordpress.com/2019/12/grave.png?w=600' alt='Grave'> and cannot trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Noble_Summons.png/revision/latest?cb=20200618170938' alt='Skill Noble Summons'> or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Aether_Bloom.png/revision/latest?cb=20200618170852' alt='Skill Aether Bloom'>",
+                        "Has a small chance to create a <img src='https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600' alt='Aether Crystal'> crystal",
+                        "You are invincible at the initial cast and at the end of the skill",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Legacy Restoration",
+                    "shortDesc": "2% max MP will be consumed every sec while casting and after casting\\nDuration: 30 sec, Damage: 40%, Aether obtained: 75%, +2 aether swords that can be commanded with Hunting Decree\\nPeriodically spreads enchanted wings to attack 6 mobs with 1800% damage 3 times and restores 9.5% of max HP for you and your party members.\\nCooldown: 180 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/restore-effect.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/L4NVP0IEzjlCm67dl3/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases %Damage, Aether Weaving generation rate, the maximum number of swords commanded by <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Order'>",
+                    "details": [
+                        "Periodically, your wings flap dealing damage to nearby enemies and healing nearby party members and yourself"
+                    ]
+                },
+                {
+                    "name": "Storm",
+                    "shortDesc": "MP Cost: 500, Duration: 14 sec. Automatically attacks up to 7 nearby enemies periodically, for 500% damage 2 time(s).\\nThe skill's attack count is increased by 2 for every 2 aether swords recalled beyond the first pair.\\nCooldown: 90 sec.",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/storm.png?w=600"],
+                    "animations": ["https://media4.giphy.com/media/dbhParw91q0UXfrqO7/giphy.gif"],
+                    "type": "Aether Sword Attack",
+                    "desc": "Commands all your <img class='lzyPlcHld lzyTrns lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree' width='32' height='32' data-preserve-html-node='true' data-image-key='Skill_Hunting_Decree.png' data-image-name='Skill Hunting Decree.png' data-src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' /> swords to gather and surround yourself in a storm of swords",
+                    "details": [
+                        "Based on the number of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Hunting_Decree.png/revision/latest?cb=20200618170927' alt='Skill Hunting Decree'> swords that were active when Storm is used, the number of hits per attack is increased",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Aether Forge - 2nd Job",
+                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600"],
+                "animations": ["https://media0.giphy.com/media/JpeOY13y5dwUGakDam/giphy.gif"]
+            },
+            {
+                "name": "Hunting Decree - 3rd Job",
+                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600"],
+                "animations": ["https://media3.giphy.com/media/IeWNTGLo1AYPYiwxmb/giphy.gif"]
+            },
+            {
+                "name": "Noble Summons - 3rd Job",
+                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/gathering.png?w=600"],
+                "animations": ["https://media3.giphy.com/media/d8Qb3kHdw5L65gIHDI/giphy.gif"]
+            },
+            {
+                "name": "Cleave - 4th Job",
+                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600"],
+                "animations": ["https://media2.giphy.com/media/SYXJ1sTWR7jEVLpSpp/giphy.gif"]
+            },
+            {
+                "name": "Aether Bloom - 4th Job",
+                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600"],
+                "animations": ["https://media0.giphy.com/media/Ig3C6I9G733sNEgX8G/giphy.gif"]
+            },
+            {
+                "name": "Ruin - 5th Job",
+                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/ruin.png?w=600"],
+                "animations": ["https://media1.giphy.com/media/mEggpFiv8PoTIVA7LS/giphy.gif"]
+            },
+            {
+                "name": "Infinity Blade - 5th Job",
+                "icons": ["https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600"],
+                "animations": ["https://media3.giphy.com/media/SYjfpPWRpR4JE20qqQ/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Adele is STR warrior class part of the Flora class group. Adele has a secondary resource (unlocked in 2nd Job) that is used to create 'Aether Swords' that can be commanded"
+}

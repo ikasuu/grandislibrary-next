@@ -1,0 +1,154 @@
+@import url("https://use.typekit.net/glt4fmn.css");
+
+body{
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  overflow-wrap: break-word !important;
+  font-size: 1.05rem;
+}
+
+p{
+  line-height: 1.8rem;
+}
+
+h1, h2, h3, h4, .site-title{
+  font-family: acumin-pro, sans-serif !important;
+}
+
+h3, h2{
+  margin: 1rem 0 1rem 0;
+}
+
+h5{
+  font-size: unset;
+  margin: 1rem 0 1rem 0;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+li{
+  line-height: 1.8rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+a{
+  text-decoration: none !important;
+  color: #04AEE7 !important;
+}
+
+a:focus{
+  outline: none;
+}
+
+footer{
+  margin-top: 5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* For all items in navbar */
+.nav-props{
+  text-decoration: none !important;
+  cursor: pointer !important;
+  width: fit-content !important;
+  font-style: normal !important;
+  letter-spacing: 0em !important;
+  display: block !important;
+  outline: none !important;
+}
+
+/* For the site title specifically */
+.site-title{
+  opacity: 1 !important;
+  background: transparent !important;
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4em !important;
+}
+
+/* For the nav buttons like 'Home' and 'About' */
+.nav-link-button{
+  padding: .1em 0 !important;
+  margin-left: 0.8rem !important;
+  margin-right: 0.8rem !important;
+  font-size: 1.1rem !important;
+  line-height: 1.8em !important;
+}
+
+/* For the dropdown button in the navbar */
+.dropdown-toggle{
+  margin-left: 0.8rem !important;
+  margin-right: 0.3rem !important;
+  font-size: 1.1rem !important;
+  line-height: 1em !important;
+}
+
+/* The dropdown menu itself, not the button */
+.dropdown-menu{
+  width: fit-content !important;
+  outline: none !important;
+  border: none !important;
+}
+
+/* Underline property for the selected nav item and page */
+.underline{
+  background-repeat: repeat-x !important;
+  background-image: linear-gradient(to right,currentColor 100%,currentColor 0) !important;
+  background-size: 1px 1px !important;
+  background-position: 0 calc(100% - 0.1em) !important;
+}
+
+.btn{
+  font-weight: 300 !important;
+}
+
+/* Removes outline from buttons when clicked */
+.btn:focus {
+  outline: none;
+  box-shadow: none  ;
+}
+
+/* Removes outline from hamburger button */
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+}
+
+/* For footer purposes, we wrap everything in a container + flexbox */
+#container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#main-content {
+  flex: 1;
+}
+
+/* MUI CSS */
+
+/* Removing focus outline on Material UI Icon Button */
+.MuiFab-root:focus{
+  outline: none !important;
+}
+
+.MuiTypography-body1{
+  font-size: 1.05rem !important;
+  font-family: poppins, sans-serif !important;
+  font-weight: 300 !important;
+}
+
+/* Label related specifically for menu in Class Overview */
+.MuiFormControlLabel-root{
+  margin-left: 0px !important;
+}
+
+.MuiSwitch-switchBase{
+  color: #e0e0e0 !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track{
+  background-color: #4A7A8E !important;
+  opacity: 1 !important;
+}

@@ -1,0 +1,548 @@
+{
+    "class": "Jett",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Pirate",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Increases %Crit Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["gun"]},
+            {"secondary": ["fist"]}
+        ],
+        "classType": [
+            "Mobile",
+            "Mobber",
+            "GMS-Exclusive"
+        ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "%Damage to Debuffed"],
+        "prosCons": {
+            "pros": [
+                "Great mobbing",
+                "Lots of innate stats from passive",
+                "Good mobility with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Space_Walk.png/revision/latest?cb=20140816044702' alt='Skill Space Walk'> Space Walk and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Vortex_Cross.png/revision/latest?cb=20140817001553' alt='Skill Vortex Cross'> Vortex Cross"
+            ],
+            "cons": [
+                "Does not receive many changes due to being a GMS-Exclusive class",
+                "Lots of active buffs to maintain"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +130%",
+                "<strong>Max MP</strong>: +50%",
+                "<strong>DEF</strong>: +25%",
+                "<strong>Attack</strong>: +25%",
+                "<strong>DEX</strong>: +45%",
+                "<strong>Crit Rate</strong>: +55%",
+                "<strong>Crit Damage</strong>: +30%",
+                "<strong>Damage</strong>: +51%",
+                "<strong>Boss Damage</strong>: +20%",
+                "<strong>Final Damage</strong>: +30%",
+                "<strong>Knockback Resistance</strong>: +100%",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +15%",
+                "<strong>Ignore DEF</strong>: +25%",
+                "<strong>Abnormal Status Resistance</strong>: 35"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Bounty_Chaser.png/revision/latest?cb=20140817001558' alt='Skill Bounty Chaser'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Slipstream_Suit.png/revision/latest?cb=20140828054423' alt='Skill Slipstream Suit'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Gravity_Booster.png/revision/latest?cb=20140828063449' alt='Skill Gravity Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Bionic_Resilience.png/revision/latest?cb=20140816062235' alt='Skill Bionic Resilience'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Turret_Deployment.png/revision/latest?cb=20140816061717' alt='Skill Turret Deployment'>(28 - 22s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Gravity_Crush.png/revision/latest?cb=20161204065740' alt='Skill Gravity Crush'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Suborbital_Strike.png/revision/latest?cb=20170629204948' alt='Skill Suborbital Strike'>(180s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954' alt='Skill Epic Adventure (Pirate)'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741' alt='Skill Loaded Dice'>(180s cd <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813' alt='Skill Overdrive'>(70 - 64s cd)"
+        },
+        "linkSkill": {
+                "id":80001151,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Core_Aura.png/revision/latest?cb=20120619031149"],
+                "type": "Passive",
+                "desc": "Grants a random amount of STR, DEX, INT, LUK, Attack, and Magic Attack",
+                "details": [
+                    "The stats change every day, there are items dropped from monsters or from the Cash Shop that help you reroll the stats. There is also an item in the Cash Shop that lock the stats preventing it from changing"
+                ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Space_Walk.png/revision/latest?cb=20140816044702' alt='Skill Space Walk'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Seasoned_Hunter.png/revision/latest?cb=20140731022440' alt='Skill Seasoned Hunter'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Galactic_Might.png/revision/latest?cb=20140816044736' alt='Skill Galactic Might'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Starline_One.png/revision/latest?cb=20140816044638' alt='Skill Starline One'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Blaster_Barrage.png/revision/latest?cb=20140816044642' alt='Skill Blaster Barrage'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Cosmic_Shield.png/revision/latest?cb=20140731060614' alt='Skill Cosmic Shield'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Gun_Expert.png/revision/latest?cb=20140731060616' alt='Skill Gun Expert'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Bounty_Chaser.png/revision/latest?cb=20140817001558' alt='Skill Bounty Chaser'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Starline_Two.png/revision/latest?cb=20140817001536' alt='Skill Starline Two'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Vortex_Cross.png/revision/latest?cb=20140817001553' alt='Skill Vortex Cross'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Stellar_Impact.png/revision/latest?cb=20140816044924' alt='Skill Stellar Impact'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Clairvoyant.png/revision/latest?cb=20140807043116' alt='Skill Clairvoyant'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Slipstream_Suit.png/revision/latest?cb=20140828054423' alt='Skill Slipstream Suit'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Blaster_Overdrive.png/revision/latest?cb=20140807043107' alt='Skill Blaster Overdrive'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Turret_Deployment.png/revision/latest?cb=20140816061717' alt='Skill Turret Deployment'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Cosmic_Upheaval.png/revision/latest?cb=20140828054450' alt='Skill Cosmic Upheaval'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Spatial_Shift.png/revision/latest?cb=20140828053843' alt='Skill Spatial Shift'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Starline_Three.png/revision/latest?cb=20140828054558' alt='Skill Starline Three'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Falling_Stars.png/revision/latest?cb=20140828054533' alt='Skill Falling Stars'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Invincibility.png/revision/latest?cb=20140807234438' alt='Skill Invincibility' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Giga_Blaster.png/revision/latest?cb=20140807234432' alt='Skill Giga Blaster' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Jett_Supreme_Enhancement.png/revision/latest?cb=20191225010841' alt='Skill Jett Supreme Enhancement' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Strikeforce_Showdown.png/revision/latest?cb=20140828063113' alt='Skill Strikeforce Showdown' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349' alt='Skill Planet Buster' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Gravity_Booster.png/revision/latest?cb=20140828063449' alt='Skill Gravity Booster' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Starfall.png/revision/latest?cb=20140816043742' alt='Skill Starfall' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920' alt='Skill Starforce Salvo' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Backup_Beatdown.png/revision/latest?cb=20140828063532' alt='Skill Backup Beatdown' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Planet_Buster_-_Reinforce.png/revision/latest?cb=20191225014412' alt='Skill Planet Buster - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Planet_Buster_-_Extra_Strike.png/revision/latest?cb=20140828070040' alt='Skill Planet Buster - Extra Strike' width='32' height='32'> Planet Buster - Reinforce and Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Starforce_Salvo_-_Reinforce.png/revision/latest?cb=20140828065801' alt='Skill Starforce Salvo - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Starforce_Salvo_-_Range.png/revision/latest?cb=20140828065952' alt='Skill Starforce Salvo - Range' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Starforce_Salvo_-_Boss_Rush.png/revision/latest?cb=20140828065939' alt='Skill Starforce Salvo - Boss Rush' width='32' height='32'> Starforce Salvo - Reinforce, Range, and Boss Rush</li></ul>"
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Backup_Beatdown.png/revision/latest?cb=20140828063532' alt='Skill Backup Beatdown'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920' alt='Skill Starforce Salvo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Singularity_Shock.png/revision/latest?cb=20140828064936' alt='Skill Singularity Shock'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349' alt='Skill Planet Buster'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Vortex_Cross.png/revision/latest?cb=20140817001553' alt='Skill Vortex Cross'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Falling_Stars.png/revision/latest?cb=20140828054533' alt='Skill Falling Stars'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Starline_One.png/revision/latest?cb=20140816044638' alt='Skill Starline One'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Blaster_Barrage.png/revision/latest?cb=20140816044642' alt='Skill Blaster Barrage'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Starline_Two.png/revision/latest?cb=20140817001536' alt='Skill Starline Two'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Stellar_Impact.png/revision/latest?cb=20140816044924' alt='Skill Stellar Impact'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Vortex_Cross.png/revision/latest?cb=20140817001553' alt='Skill Vortex Cross'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Falling_Stars.png/revision/latest?cb=20140828054533' alt='Skill Falling Stars'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Starline_Three.png/revision/latest?cb=20140828054558' alt='Skill Starline Three'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Cosmic_Upheaval.png/revision/latest?cb=20140828054450' alt='Skill Cosmic Upheaval'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920' alt='Skill Starforce Salvo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Backup_Beatdown.png/revision/latest?cb=20140828063532' alt='Skill Backup Beatdown'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349' alt='Skill Planet Buster'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Singularity_Shock.png/revision/latest?cb=20140828064936' alt='Skill Singularity Shock'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3392/jett",
+            "https://maplestory.fandom.com/wiki/Jett"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media3.giphy.com/media/vTUoBgKCGFB8P8s6N8/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media2.giphy.com/media/PT6pWlC9IwSo8eZcOB/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media2.giphy.com/media/DgaGWrrMPqD074Sgj9/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1227,
+                    "offline": true,
+                    "name": "Return to Spaceship",
+                    "shortDesc": "Move to Jett's spaceship when used.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/90zC0lT.png"],
+                    "animations": ["https://media0.giphy.com/media/tCX7FnYC1DoSyoFduP/giphy.gif"],
+                    "type": "Active"
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 5081020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Starline_One.png/revision/latest?cb=20140816044638"],
+                        "animations": ["https://media1.giphy.com/media/Lo0ytWbtRAnkaPb8Vt/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Punches forward several times"
+                    },
+                    {
+                        "id": 5081002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Blaster_Barrage.png/revision/latest?cb=20140816044642"],
+                        "animations": ["https://media3.giphy.com/media/H27AsK5LJq6ONKrqZg/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Continuously fires a barrage of bullets",
+                        "details": [
+                            "You can move while casting"
+                        ]
+                    },
+                    {
+                        "id": 5081003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Space_Walk.png/revision/latest?cb=20140816044702"],
+                        "animations": ["https://media1.giphy.com/media/UUsOr8sO0wQVvYpc0a/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "id": 5080022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Seasoned_Hunter.png/revision/latest?cb=20140731022440"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5081023,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Galactic_Might.png/revision/latest?cb=20140816044736"],
+                        "animations": ["https://media0.giphy.com/media/gaU3aR9a90je8DqJj8/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "id": 5701010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Starline_Two.png/revision/latest?cb=20140817001536"],
+                        "animations": ["https://media0.giphy.com/media/Vzf022N4LEgFyvxhQK/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a laser in front of you",
+                        "details": [
+                            "Attack has a chance to stun"
+                        ]
+                    },
+                    {
+                        "id": 5701001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Stellar_Impact.png/revision/latest?cb=20140816044924"],
+                        "animations": ["https://media0.giphy.com/media/QWAcD8VxtMyDDubtzn/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Smashes the ground creating shockwaves that launch enemies into the air"
+                    },
+                    {
+                        "id": 5701011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Vortex_Cross.png/revision/latest?cb=20140817001553"],
+                        "animations": ["https://media2.giphy.com/media/RIGuq4PoPS2DDfr1Xk/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while dealing damage",
+                        "details": [
+                            "Holding the Up Arrow Key while casting will move you upwards"
+                        ]
+                    },
+                    {
+                        "id": 5701013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Bounty_Chaser.png/revision/latest?cb=20140817001558"],
+                        "animations": ["https://media2.giphy.com/media/MQheTfjw58jOSnqXvd/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 5700000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Gun_Expert.png/revision/latest?cb=20140731060616"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5700011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Cosmic_Shield.png/revision/latest?cb=20140731060614"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "id": 5711020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Starline_Three.png/revision/latest?cb=20140828054558"],
+                        "animations": ["https://media0.giphy.com/media/QyWBdUQLmGKs6Hq8by/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing enemies along with you"
+                    },
+                    {
+                        "id": 5711021,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Falling_Stars.png/revision/latest?cb=20140828054533"],
+                        "animations": ["https://media2.giphy.com/media/jtipy41TYAlywMTgi5/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap into the air and fire a barrage of bullets in front of you"
+                    },
+                    {
+                        "id": 5711001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Turret_Deployment.png/revision/latest?cb=20140816061717"],
+                        "animations": ["https://media1.giphy.com/media/XuRFM3OvHLkHOrx1dk/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a stationary turret that attacks nearby enemies "
+                    },
+                    {
+                        "id": 5711022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Cosmic_Upheaval.png/revision/latest?cb=20140828054450"],
+                        "animations": ["https://media2.giphy.com/media/Ihz7Lq5Iewb6jcZ0UY/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls in and damages nearby enemies"
+                    },
+                    {
+                        "id": 5711024,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Slipstream_Suit.png/revision/latest?cb=20140828054423"],
+                        "animations": ["https://media1.giphy.com/media/UaEzRIsOsx4E3Dbpw6/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 5710020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Spatial_Shift.png/revision/latest?cb=20140828053843", "https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Vortex_Cross.png/revision/latest?cb=20140817001553"],
+                        "animations": ["https://media2.giphy.com/media/LrREWxb9hBA4ZMCLC7/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Can now be used in the air",
+                            "You can move upwards and downwards in the air by pressing the Up or Down Arrow Keys and Skill Key together"
+                        ]
+                    },
+                    {
+                        "id": 5710022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Blaster_Overdrive.png/revision/latest?cb=20140807043107"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5710021,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Clairvoyant.png/revision/latest?cb=20140807043116"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "id": 5721001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920"],
+                        "animations": ["https://media0.giphy.com/media/Rki3Xk2cIbnV2DmYb3/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Continuously fires a barrage of bullets",
+                        "details": [
+                            "You can move and jump while casting"
+                        ]
+                    },
+                    {
+                        "id": 5721061,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Backup_Beatdown.png/revision/latest?cb=20140828063532"],
+                        "animations": ["https://media1.giphy.com/media/KzbcztbQ69j7PK7gEq/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "When held, unleashes a flurry of attacks around your character",
+                        "details": [
+                            "At the end of the attack, you deal a final punch attack",
+                            "You can move and jump while casting"
+                        ]
+                    },
+                    {
+                        "id": 5721064,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349"],
+                        "animations": ["https://media1.giphy.com/media/YMH7ChethcIwHvLb1c/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates a powerful explosion in front of you"
+                    },
+                    {
+                        "id": 5721002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                        "animations": ["https://media4.giphy.com/media/6LUD5S4gyYuxivRWxj/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    },
+                    {
+                        "id": 5721004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Starfall.png/revision/latest?cb=20140816043742"],
+                        "animations": ["https://media2.giphy.com/media/gJiB7wNjAcZRP1035P/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a massive attack that hits a large area"
+                    },
+                    {
+                        "id": 5721000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                        "animations": ["https://media1.giphy.com/media/QPXjFDIQcjMJyf9DHt/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 5721066,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Gravity_Booster.png/revision/latest?cb=20140828063449"],
+                        "animations": ["https://media3.giphy.com/media/woP3dn6wzua6dDmzWF/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 5721065,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Strikeforce_Showdown.png/revision/latest?cb=20140828063113"],
+                        "type": "Final Attack Passive",
+                        "desc": "When using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920' alt='Skill Starforce Salvo'>, there is a chance to deal an additional attack"
+                    },
+                    {
+                        "id": 5720060,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Giga_Blaster.png/revision/latest?cb=20140807234432", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Gun_Expert.png/revision/latest?cb=20140731060616"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now increases %Crit Damage"
+                        ]
+                    },
+                    {
+                        "id": 5720061,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Invincibility.png/revision/latest?cb=20140807234438"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5720062,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Jett_Supreme_Enhancement.png/revision/latest?cb=20191225010841"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 5720043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Backup_Beatdown_-_Reinforce.png/revision/latest?cb=20140828065829"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 5720044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Backup_Beatdown_-_Spread.png/revision/latest?cb=20140828065921"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 5720045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Backup_Beatdown_-_Extra_Strike.png/revision/latest?cb=20140828070008"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 5720049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Planet_Buster_-_Reinforce.png/revision/latest?cb=20191225014412"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 5720050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Planet_Buster_-_Guardbreak.png/revision/latest?cb=20140828070026"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 5720051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Planet_Buster_-_Extra_Strike.png/revision/latest?cb=20140828070040"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 5720046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Starforce_Salvo_-_Reinforce.png/revision/latest?cb=20140828065801"],
+                    "type": "Passive",
+                    "reqLev": 190
+                },
+                {
+                    "id": 5720047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Starforce_Salvo_-_Range.png/revision/latest?cb=20140828065952"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 5720048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Starforce_Salvo_-_Boss_Rush.png/revision/latest?cb=20140828065939"],
+                    "type": "Passive",
+                    "reqLev": 150
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 5721054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Bionic_Resilience.png/revision/latest?cb=20140816062235"],
+                    "animations": ["https://media0.giphy.com/media/mR5DVAIgueV48kZ0xv/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "id": 5721052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Singularity_Shock.png/revision/latest?cb=20140828064936"],
+                    "animations": ["https://media2.giphy.com/media/jnbr5FBqWxhyLFZKnU/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates a massive explosion that damages nearby enemies and inflicts a damaging debuff",
+                    "details": ["Attack is a guaranteed Critical Hit and has a chance to stun enemies"],
+                    "reqLev": 160
+                },
+                {
+                    "id": 5721053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954"],
+                    "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "",
+                    "details": ["Affects all party members"],
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expPirate","goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Gravity Crush",
+                    "shortDesc": "MP Cost: 1000, Draw in up to 8 enemies in range, stunning them, and create a singularity which periodically deals 1500% damage. Number of attacks: 3.\\nSingularity Duration: 30 sec. When the skill duration ends, the singularity explodes dealing 2400% AoE damage over a large range.\\nThe damage of the AoE attack can increase up to 6000% based on the damage inflicted by the caster or a party member while the enemy is within the Singularity.\\nCooldown: 120 sec",
+                    "id": 400051014,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Gravity_Crush.png/revision/latest?cb=20161204065740"],
+                    "animations": ["https://media3.giphy.com/media/f3okH4r3DiUWx30CzA/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Creates a vortex that pulls in and damages nearby enemies",
+                    "details": [
+                        "At the end of the Skill, the vortex will explode dealing massive damage<ul><li>Based on how much damage was dealt to enemies inside the vortex, the explosion will deal increased damage</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Suborbital Strike",
+                    "shortDesc": "MP Cost: 1000, Summons drones for 90 sec. The drones have two modes of operation, and you can switch between them every 3 sec. Drone attacks prioritize the enemy with the highest Max HP within range.\\n[Beam Splitter] The drones hover above 4 targets within range, and fire downward periodically dealing 450% damage to up to 8 enemies 4 times.\\n[Beam Amplifier] Drone hovers over 1 target within range and blasts downward periodically dealing 365% damage to up to 10 enemies 10 times.\\nCooldown: 180 sec",
+                    "id": 400051028,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Suborbital_Strike.png/revision/latest?cb=20170629204948"],
+                    "animations": ["https://media2.giphy.com/media/Ma52Bv2nronccH2FMD/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons drones above your character that damages nearby enemies",
+                    "details": [
+                        "The drones will seek out enemies with the highest max HP"
+                    ]
+                },
+                {
+                    "name": "Allied Fury",
+                    "shortDesc": "MP Cost: 60, summons fellow bounty hunters to attack enemies and mark any enemies that are not defeated, Max Enemies Hit: 15, Damage: 500, Number of Attacks: 10.\\nAttacks marked enemies with an airship for 600% damage 8 times.\\nFocused Attack: If attacking a single target, the total number of attacks increase by 4.\\nCooldown: 6 sec",
+                    "id": 400051040,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Allied_Fury.png/revision/latest?cb=20181115065212"],
+                    "animations": ["https://media3.giphy.com/media/cnivIQg0T3sIkCPuwU/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Bounty hunters appear to help take down enemies before an airship comes to deliver a final attack",
+                    "details": [
+                        "If attacking a single enemy, attack deals increased number of hits per attack"
+                    ]
+                },
+                {
+                    "name": "Anti-Gravity Cycle SFF-X Summon",
+                    "shortDesc": "MP Cost: 1000, Forms a protective shield, equivalent to 900% of max HP and immune to knockback, for 42 sec. Final Damage: +14%\\nIf you press the skill key again, you will launch an All-Out Barrage, attacking up to 15 enemies for 900% damage 10 time(s) per volley, numbering 3 volley(s) in total. All-Out Barrage Cooldown: 5 sec\\nCooldown: 180 sec",
+                    "id": 400051040,
+                    "icons": ["https://i.imgur.com/jkUHsGT.png"],
+                    "animations": ["https://media0.giphy.com/media/sr9I4YvXzQwC6IChX8/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summons a flying vehicle allowing you to fly around and fire lasers at enemies",
+                    "details": [
+                        "While active, gain increased %Final Damage, 100% Knockback Resistance, and a damage shield based on your %Max HP",
+                        "While riding, only certain skills can be used like <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920' alt='Skill Starforce Salvo'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349' alt='Skill Planet Buster'>",
+                        "Pressing the Skill Key will fire a barrage of lasers forward"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Space Walk - 1st Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Space_Walk.png/revision/latest?cb=20140816044702"],
+                "animations": ["https://media1.giphy.com/media/UUsOr8sO0wQVvYpc0a/giphy.gif"]
+            },
+            {
+                "name": "Backup Beatdown - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Backup_Beatdown.png/revision/latest?cb=20140828063532"],
+                "animations": ["https://media1.giphy.com/media/KzbcztbQ69j7PK7gEq/giphy.gif"]
+            },
+            {
+                "name": "Starline Salvo - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920"],
+                "animations": ["https://media0.giphy.com/media/Rki3Xk2cIbnV2DmYb3/giphy.gif"]
+            },
+            {
+                "name": "Planet Buster - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349"],
+                "animations": ["https://media1.giphy.com/media/YMH7ChethcIwHvLb1c/giphy.gif"]
+            },
+            {
+                "name": "Singularity Shock - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Singularity_Shock.png/revision/latest?cb=20140828064936"],
+                "animations": ["https://media2.giphy.com/media/jnbr5FBqWxhyLFZKnU/giphy.gif"]
+            },
+            {
+                "name": "Gravity Crush - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Gravity_Crush.png/revision/latest?cb=20161204065740"],
+                "animations": ["https://media3.giphy.com/media/f3okH4r3DiUWx30CzA/giphy.gif"]
+            },
+            {
+                "name": "Allied Fury - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Allied_Fury.png/revision/latest?cb=20181115065212"],
+                "animations": ["https://media3.giphy.com/media/cnivIQg0T3sIkCPuwU/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Jett is a DEX pirate class part of the Explorers class group. Although Jetts are categorized with Explorers, Jetts are not connected to Explorer classes at all and cannot Job Change to an Explorer Pirate. They do, however, share Cash Shop Inventories with Explorer classes"
+}

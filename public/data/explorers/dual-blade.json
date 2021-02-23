@@ -1,0 +1,654 @@
+{
+    "class": "Dual Blade",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX + STR",
+        "legion": "Grants flat LUK",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["dagger"]},
+            {"secondary": ["katara"]}
+        ],
+        "classType": [
+            "Single-target",
+            "Short-ranged",
+            "Mobile"
+        ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Buff Duration / Chance to Skip Cooldown"],
+        "prosCons": {
+            "pros": [
+                "Decent mobbing with great burst damage capabilities",
+                "Great bossing capabilities especially against non-stationary bosses",
+                "Has a lot of innate %Ignore DEF from Skills",
+                "Has iFrames from <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Chains_of_Hell.png/revision/latest?cb=20110505120133' alt='Skill Chains of Hell' width='32' height='32' /> Chains of Hell and <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut' width='32' height='32' /> Final Cut",
+                "Has lifesteal with <img class='lzyPlcHld lzyTrns lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ee/Skill_Life_Drain.png/revision/latest?cb=20110505120206' alt='Skill Life Drain' width='32' height='32' /> Life Drain",
+                "<img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Shadow_Meld.png/revision/latest?cb=20120221174546' alt='Skill Shadow Meld' width='32' height='32' /> Shadow Meld passive provides class with free 100% Crit Rate"
+            ],
+            "cons": [
+                "Can be squishy although class has high avoidability",
+                "Requires spending extra Mesos to buy <img src='https://maplestory.io/api/GMS/215/item/2431848/icon'> [Dual Blade Training Book] from Taeha at the Secret Garden",
+                "Attacks have short ranges"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, Link Skills, <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut'/> Final Cut, and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +20%",
+                "<img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Shadow_Meld.png/revision/latest?cb=20120221174546' alt='Skill Shadow Meld' width='32' height='32' /> Dodge Chance</strong>: +30%",
+                "<strong>DEF</strong>: +60%",
+                "<strong>Avoidability</strong>: +40%",
+                "<strong>Crit Rate</strong>: +25% + (100% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Shadow_Meld.png/revision/latest?cb=20120221174546' alt='Skill Shadow Meld' width='32' height='32' /> Shadow Meld is active)",
+                "<strong>Crit Damage</strong>: +13%",
+                "<strong>Final Damage</strong>: +20%",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
+                "<strong>Knockback Resistance</strong>: +90%",
+                "<strong>Abnormal Status Resistance</strong>: 30"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Self_Haste.png/revision/latest?cb=20110505095047' alt='Skill Self Haste'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Katara_Booster.png/revision/latest?cb=20110504144447' alt='Skill Katara Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Mirror_Image.png/revision/latest?cb=20110505120034' alt='Skill Mirror Image'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Mirrored_Target.png/revision/latest?cb=20110505124828' alt='Skill Mirrored Target'>",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut'>(148 - 90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Blade_Clone.png/revision/latest?cb=20121015220602' alt='Skill Blade Clone'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Epic_Adventure_%28Thief%29.png/revision/latest?cb=20121015205742' alt='Skill Epic Adventure (Thief)'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Shadow_Walker.png/revision/latest?cb=20170629203944' alt='Skill Shadow Walker'>(219 - 190s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611' alt='Skill Last Resort'>(89 - 75s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Chains_of_Hell.png/revision/latest?cb=20110505120133' alt='Skill Chains of Hell'>(64 - 45s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut'>(148 - 90s cd)"
+        },
+        "linkSkill": {
+            "id": 80002770,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 3 times, once for each unique Explorer Thief to reach Master Level"
+            ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/SwgoHej.png",[499,374]],
+            "npc": [["",""]],
+            "info": [
+                "To create one, choose the 'Dual Blade' option in the Character Creation screen. Dual Blades have their own separate creation button like Cannoneer and Pathfinder. As well, they have a different story than regular Explorers but are part of the same class group"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Flash_Jump_%28Dual_Blade%29.png/revision/latest?cb=20110505102647' alt='Skill Flash Jump (Dual Blade)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Side_Step.png/revision/latest?cb=20120218035511' alt='Skill Side Step'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Bandit_Slash.png/revision/latest?cb=20140409154655' alt='Skill Bandit Slash'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'>"],
+                ["1st Job+", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Katara_Mastery.png/revision/latest?cb=20110504144443' alt='Skill Katara Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Self_Haste.png/revision/latest?cb=20110505095047' alt='Skill Self Haste'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Tornado_Spin.png/revision/latest?cb=20100615142021' alt='Skill Tornado Spin'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Katara_Booster.png/revision/latest?cb=20110504144447' alt='Skill Katara Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Channel_Karma.png/revision/latest?cb=20160627054341' alt='Skill Channel Karma'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Slash_Storm.png/revision/latest?cb=20100615125320' alt='Skill Slash Storm'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Fatal_Blow.png/revision/latest?cb=20100614142444' alt='Skill Fatal Blow'>"],
+                ["2nd Job+", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Venom_%28Dagger%29.png/revision/latest?cb=20110504140532' alt='Skill Venom (Dagger)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Flashbang.png/revision/latest?cb=20110505102550' alt='Skill Flashbang'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Upper_Stab.png/revision/latest?cb=20110505102542' alt='Skill Upper Stab'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Flying_Assaulter.png/revision/latest?cb=20100614144330' alt='Skill Flying Assaulter'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ee/Skill_Life_Drain.png/revision/latest?cb=20110505120206' alt='Skill Life Drain'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Advanced_Dark_Sight.png/revision/latest?cb=20100615145647' alt='Skill Advanced Dark Sight'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Enveloping_Darkness.png/revision/latest?cb=20111226203900' alt='Skill Enveloping Darkness'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Shadow_Meld.png/revision/latest?cb=20120221174546' alt='Skill Shadow Meld'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Mirror_Image.png/revision/latest?cb=20110505120034' alt='Skill Mirror Image'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Bloody_Storm.png/revision/latest?cb=20100615145643' alt='Skill Bloody Storm'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Blade_Ascension.png/revision/latest?cb=20140509212744' alt='Skill Blade Ascension'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Chains_of_Hell.png/revision/latest?cb=20110505120133' alt='Skill Chains of Hell'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Sharpness.png/revision/latest?cb=20110505124843' alt='Skill Sharpness' width='32' height='32' /> -> <img src='https://static.wikia.nocookie.net/maplestory/images/7/7e/Skill_Toxic_Venom_%28Blade_Master%29.png' alt='Skill Toxic Venom (Shadower)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Katara_Expert.png/revision/latest?cb=20120227172956' alt='Skill Katara Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Thorns.png/revision/latest?cb=20160629051646' alt='Skill Thorns' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blade_Fury.png/revision/latest?cb=20140414050921' alt='Skill Blade Fury' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Mirrored_Target.png/revision/latest?cb=20110505124828' alt='Skill Mirrored Target' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Sudden_Raid.png/revision/latest?cb=20111125110226' alt='Skill Sudden Raid' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Phantom_Blow.png/revision/latest?cb=20140414050926' alt='Skill Phantom Blow' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "1st and 2nd Job+ require <img src='https://maplestory.io/api/GMS/215/item/2431848/icon'> Dual Blade Training Book to reach Master Level",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Phantom_Blow_-_Reinforce.png/revision/latest?cb=20140414050810' alt='Skill Phantom Blow - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Phantom_Blow_-_Guardbreak.png/revision/latest?cb=20140414050834' alt='Skill Phantom Blow - Guardbreak' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Phantom_Blow_-_Extra_Strike.png/revision/latest?cb=20140414050840' alt='Skill Phantom Blow - Extra Strike' width='32' height='32'> Phantom Blow - Reinforce, Guardbreak, and Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Blade_Fury_-_Reinforce.png/revision/latest?cb=20140423032618' alt='Skill Blade Fury - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Blade_Fury_-_Spread.png/revision/latest?cb=20140423032618' alt='Skill Blade Fury - Spread' width='32' height='32'> Blade Fury - Reinforce and Spread</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Phantom_Blow.png/revision/latest?cb=20140414050926' alt='Skill Phantom Blow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blade_Fury.png/revision/latest?cb=20140414050921' alt='Skill Blade Fury'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Asura%27s_Anger.png/revision/latest?cb=20121015220436' alt='Skill Asura's Anger'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Sudden_Raid.png/revision/latest?cb=20111125110226' alt='Skill Sudden Raid'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Blade_Clone.png/revision/latest?cb=20121015220602' alt='Skill Blade Clone'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Blade_Ascension.png/revision/latest?cb=20140509212744' alt='Skill Blade Ascension'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Bandit_Slash.png/revision/latest?cb=20140409154655' alt='Skill Bandit Slash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Tornado_Spin.png/revision/latest?cb=20100615142021' alt='Skill Tornado Spin'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Fatal_Blow.png/revision/latest?cb=20100614142444' alt='Skill Fatal Blow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Slash_Storm.png/revision/latest?cb=20100615125320' alt='Skill Slash Storm'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Flashbang.png/revision/latest?cb=20110505102550' alt='Skill Flashbang'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Upper_Stab.png/revision/latest?cb=20110505102542' alt='Skill Upper Stab'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Blade_Ascension.png/revision/latest?cb=20140509212744' alt='Skill Blade Ascension'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Flying_Assaulter.png/revision/latest?cb=20100614144330' alt='Skill Flying Assaulter'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Bloody_Storm.png/revision/latest?cb=20100615145643' alt='Skill Bloody Storm'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Chains_of_Hell.png/revision/latest?cb=20110505120133' alt='Skill Chains of Hell'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blade_Fury.png/revision/latest?cb=20140414050921' alt='Skill Blade Fury'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Phantom_Blow.png/revision/latest?cb=20140414050926' alt='Skill Phantom Blow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Sudden_Raid.png/revision/latest?cb=20111125110226' alt='Skill Sudden Raid'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Asura%27s_Anger.png/revision/latest?cb=20121015220436' alt='Skill Asura's Anger'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Blade_Clone.png/revision/latest?cb=20121015220602' alt='Skill Blade Clone'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3201/dual-blade",
+            "https://maplestory.fandom.com/wiki/Dual_Blade",
+            "https://www.youtube.com/watch?v=xy9IQeIC8_4"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
+        ],
+        "extraContent": {
+            "title": "Dark Sight",
+            "content": "<p><em>Referenced from <a href='https://www.reddit.com/r/Maplestory/comments/8aoood/dark_sight/' target='_blank' rel='noopener'>Nox</a> and <a href='https://www.reddit.com/r/Maplestory/comments/6nrj4z/what_can_hit_me_during_dark_sight/' target='_blank' rel='noopener'>Fatalyz</a></em></p><p>Dark Sight can only ignore <strong>falling debris </strong>such as from bosses like Magnus meteors, Pierre hats, Vellum rocks, Papulatus falling clocks, and Lotus demolishers. There are several %Max HP attacks that can be ignored, for example, Magnus spin attack, Crimson Queen's DoT flame, and Damien falling yellow/red meteors</p><p>Other attacks that can be avoided include, Gollux reverse key bomb (debuff still applies but no damage or stun is taken) and Magnus stun smoke Most non-debris one-shots cannot be avoided. For example, Vellum's tail attack and head pop, Von Bon's orb projectile and Crimson Queen's flame breath</p><p>All direct endgame boss attacks such as Lotus, Damien, Lucid and Will are unavoidable</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media3.giphy.com/media/lLjd69zp4xujLCBylh/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media4.giphy.com/media/kAK1LMi9PnfpMVwqq2/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media3.giphy.com/media/ypaWQz2r16HS86jIje/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1282,
+                    "offline": true,
+                    "name": "Return",
+                    "shortDesc": "Returns you to Kerning City Back Alley when used.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/LHQ2mbd.png"],
+                    "animations": ["https://media4.giphy.com/media/9HP4VAweLNLzKK9Xc1/giphy.gif"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "Gained from completing the quest 'Return to the Secret Garden' Lady Syl at Lv. 20"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 4001003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826"],
+                        "animations": ["https://media1.giphy.com/media/QVs3iXXRnaHXBf3k9z/giphy.gif"],
+                        "type": "Active / Utility",
+                        "desc": "While active, you cannot hit or be hit by enemies",
+                        "details": [
+                            "Has a cooldown (3 secs, stacks up to 5 times) per attack dodged",
+                            "You can use <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Flash_Jump_%28Dual_Blade%29.png/revision/latest?cb=20110505102647' alt='' /> Flash Jump while in Dark Sight"
+                        ]
+                    },
+                    {
+                        "id": 4001011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Flash_Jump_%28Dual_Blade%29.png/revision/latest?cb=20110505102647"],
+                        "animations": ["https://media2.giphy.com/media/JQpzFRbU3WYKNSCf33/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "id": 4000012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Side_Step.png/revision/latest?cb=20120218035511"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 4001013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Bandit_Slash.png/revision/latest?cb=20140409154655"],
+                        "animations": ["https://media1.giphy.com/media/jqH9ru6yJIoARdpwxe/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slashes forward at several enemies"
+                    }]
+                ],
+                [
+                    "1st Job+", [
+                        {
+                            "id": 4300000,
+                            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Katara_Mastery.png/revision/latest?cb=20110504144443"],
+                            "type": "Passive"
+                        },
+                        {
+                            "id": 4301003,
+                            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Self_Haste.png/revision/latest?cb=20110505095047"],
+                            "animations": ["https://media2.giphy.com/media/Etij0RXbfv3PsYZgja/giphy.gif"],
+                            "type": "Buff"
+                        },
+                        {
+                            "id": 4301004,
+                            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Tornado_Spin.png/revision/latest?cb=20100615142021"],
+                            "animations": ["https://media3.giphy.com/media/W2Ky10BxnAAbydPgjn/giphy.gif"],
+                            "type": "Attack",
+                            "desc": "Dashes forward while also pushing enemies back"
+                        }]
+                    ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 4311002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Fatal_Blow.png/revision/latest?cb=20100614142444"],
+                        "animations": ["https://media2.giphy.com/media/aFhC1AM05gp4Y431Wp/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strikes one enemy with a barrage of attacks"
+                    },
+                    {
+                        "id": 4311003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Slash_Storm.png/revision/latest?cb=20100615125320"],
+                        "animations": ["https://media1.giphy.com/media/TIEsac7llCb30wO4jf/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while slashing",
+                        "details": [
+                            "You will only dash forward when enemies are around"
+                        ]
+                    },
+                    {
+                        "id": 4311009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Katara_Booster.png/revision/latest?cb=20110504144447"],
+                        "animations": ["https://media1.giphy.com/media/KuHsnZvlJoSEgOdfS0/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 4310006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 4310005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Channel_Karma.png/revision/latest?cb=20160627054341"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job+", [
+                        {
+                            "id": 4321006,
+                            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Flying_Assaulter.png/revision/latest?cb=20100614144330"],
+                            "animations": ["https://media1.giphy.com/media/cPT5xfRpdYYff3u8zF/giphy.gif"],
+                            "type": "Attack",
+                            "desc": "Dives down from the air at an angle",
+                            "details": [
+                                "Attack has a chance to stun enemies",
+                                "Can only be used in the air",
+                                "Can be linked with <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Tornado_Spin.png/revision/latest?cb=20100615142021' alt='Skill Tornado Spin' width='32' height='32' /> or <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Bloody_Storm.png/revision/latest?cb=20100615145643' alt='Skill Bloody Storm' width='32' height='32' /> when Flying Assaulter is used first"
+                            ]
+                        },
+                        {
+                            "id": 4321004,
+                            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Upper_Stab.png/revision/latest?cb=20110505102542"],
+                            "animations": ["https://media0.giphy.com/media/VJwoTCrS9wzavmfHdZ/giphy.gif"],
+                            "type": "Attack",
+                            "desc": "Launches enemies in front of you into the air",
+                            "details": [
+                                "Deals increased %Damage to enemies in the air"
+                            ]
+                        },
+                        {
+                            "id": 4321002,
+                            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Flashbang.png/revision/latest?cb=20110505102550"],
+                            "animations": ["https://media2.giphy.com/media/iJCsehQn75EOICfQ54/giphy.gif"],
+                            "type": "Attack",
+                            "desc": "Throws a flashbang in front of you that debuffs enemies",
+                            "details": [
+                                "<strong>[Debuff]: </strong>Reduces %Accuracy and enemy takes increased %Damage"
+                            ]
+                        },
+                        {
+                            "id": 4320005,
+                            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Venom_%28Dagger%29.png/revision/latest?cb=20110504140532"],
+                            "type": "Passive",
+                            "desc": "Grants a chance for your attacks to apply a poisoning debuff"
+                        }]
+                    ],
+                [
+                "3rd Job", [{
+                        "id": 4331000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Bloody_Storm.png/revision/latest?cb=20100615145643"],
+                        "animations": ["https://media3.giphy.com/media/j3VOCfy45FjEHtjnT3/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while slashing",
+                        "details": [
+                            "You will only dash forward when enemies are around",
+                            "<strong>[Passive]: </strong>Permanently increases the %Damage of <img  src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Tornado_Spin.png/revision/latest?cb=20100615142021' alt='Skill Tornado Spin' width='32' height='32' /> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Flying_Assaulter.png/revision/latest?cb=20100614144330' alt='Skill Flying Assaulter' width='32' height='32' />"
+                        ]
+                    },
+                    {
+                        "id": 4331011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Blade_Ascension.png/revision/latest?cb=20140509212744"],
+                        "animations": ["https://media0.giphy.com/media/l43nrlEAGHAbvEGNQX/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slashes upward launching yourself into the air",
+                        "details": [
+                            "Pressing the Up Arrow Key and Skill Key together will boost you up higher"
+                        ]
+                    },
+                    {
+                        "id": 4331006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Chains_of_Hell.png/revision/latest?cb=20110505120133"],
+                        "animations": ["https://media2.giphy.com/media/WqKiXUdmwlzLZ1VB9E/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls an enemy close and deals a deadly barrage of attacks",
+                        "details": [
+                            "Attack is a guaranteed Critical Hit and has a chance to stun the enemy"
+                        ]
+                    },
+                    {
+                        "id": 4331002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Mirror_Image.png/revision/latest?cb=20110505120034"],
+                        "animations": ["https://media3.giphy.com/media/gjZs4YhVkefz710qnB/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a clone that mimics your attacks, increasing the number of hits you deal per attack",
+                        "details": [
+                            "The clone's attack deals reduced %Final Damage"
+                        ]
+                    },
+                    {
+                        "id": 4330001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Advanced_Dark_Sight.png/revision/latest?cb=20100615145647"],
+                        "type": "Passive",
+                        "desc": "While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'>, you can attack and use skills with a chance to not deactivate the buff. Additionally, when you are hit, there is a chance that <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> will automatically activate",
+                        "details": [
+                            "While in the automatic <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'>, if you dodge an attack that deals %Max HP, the cooldown does not apply",
+                            "Additionally, you gain increased %Final Damage while in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'>"
+                        ]
+                    },
+                    {
+                        "id": 4330007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ee/Skill_Life_Drain.png/revision/latest?cb=20110505120206"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 4330008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Enveloping_Darkness.png/revision/latest?cb=20111226203900"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 4330009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Shadow_Meld.png/revision/latest?cb=20120221174546"],
+                        "type": "Passive",
+                        "desc": "Grants a chance to dodge incoming attacks. Whenever you successfully dodge an attack, you gain a buff",
+                        "details": [
+                            "<strong>[Buff]</strong>: All your attacks are guaranteed Critical Hits and as well, grants flat Attack"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 4341004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blade_Fury.png/revision/latest?cb=20140414050921"],
+                    "animations": ["https://media3.giphy.com/media/JrAWRwk6Idj6n8irpb/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Spin furiously damaging nearby enemies",
+                    "details": [
+                        "Attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "id": 4341009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Phantom_Blow.png/revision/latest?cb=20140414050926"],
+                    "animations": ["https://media3.giphy.com/media/fW4KKDW3O1oyLcSP15/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Stabs violently forward at a single enemy",
+                    "details": [
+                        "Attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "id": 4341002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740"],
+                    "animations": ["https://media3.giphy.com/media/cJGbqpGb6OZNEzG9Cf/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Dashes forward dealing devastating damage and provides a buff",
+                    "details": [
+                        "<strong>[Buff]</strong>: Increases %Final Damage",
+                        "Holding the Skill Key will increase the %Damage of the attack",
+                        "You are briefly invincible after using Final Cut"
+                    ]
+                },
+                {
+                    "id": 4341011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Sudden_Raid.png/revision/latest?cb=20111125110226"],
+                    "animations": ["https://media3.giphy.com/media/kDB3DZQY0UP0pkZYnU/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes a devastating large attack that applies a damaging burning debuff ",
+                    "details": [
+                        "Unaffected by Damage Reflect",
+                        "<strong>[Passive]</strong>: Permanently reduces cooldown of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut' width='32' height='32'>"
+                    ]
+                },
+                {
+                    "id": 4341000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media2.giphy.com/media/a9Wey0bjlLoE53PRZF/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 4341008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media3.giphy.com/media/r8KHjNHeBrGz8lkvXM/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 4341006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Mirrored_Target.png/revision/latest?cb=20110505124828"],
+                    "animations": ["https://media1.giphy.com/media/LRgJe7XWrvf6Aj6Cfy/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Creates a dummy that draws in enemy aggro and redirects some damage taken to the dummy instead",
+                    "details": [
+                        "<strong>[Passive]</strong>: Permanently increases %Avoidability and %DEF",
+                        "Can only be used when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Mirror_Image.png/revision/latest?cb=20110505120034' alt='Skill Mirror Image'> is active",
+                        "Dummy has a set amount of HP",
+                        "When the dummy is attacked, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Shadow_Meld.png/revision/latest?cb=20120221174546' alt='Skill Shadow Meld'> will be triggered"
+                    ]
+                },
+                {
+                    "id": 4340007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Thorns.png/revision/latest?cb=20160629051646"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 4340010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Sharpness.png/revision/latest?cb=20110505124843"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 4340012,
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADgElEQVR4nL2XjZGjMAyFlZltgBa4EqAEKAFKgBJCCWwJUAKUACWEEs4tuIRdP4GIzE/Czc1EMwmJMX6fZNkyX+TbD33GbvJDA/wMj78fUU/jPz8CIQAsnkThfw9urT29FwQBX+vuQVUeM8TXFXEMOk6GjLE8CPqG4TwY5MZx4nuwIosoTdPdGMMw0Hc70r1I6O760ALxRRcMolEYOhDDMJMxri0iOAQM3DPuHinvh0e3/k7jnK8QFwixSwBxHNPj8aDIBjQ6HThrHES0RA0gReJHkCNDld/mABEhPU2XAARiGBwEGRcBy58wtOu87sNuya4o/n1Mxz8D4KE0jfkKD1wAXF5YypJg7dM9Gh9h8VS353Hp9fEApukZ1q3B07qu2ZOuGzgfDINYCp4MVJly92xl922HAMh0WOiSSg+qDRB5nlLTdRwBrAbxFBej5leGsN5/f+DdFAAiQLIk0U4cYEg+QJR5zomprUzLVaAZGsqned6DKvRAXgJwRxfW1q3tLQSmQUPI6oDpxJKEQ2QgGm3uvwVYIfqJlw1ERAyDbiGKouBnoijie6v4yaYYqPl9uQowiEDoh7cQVVVR0zRUluXqaZVXzvN9BC9G4Jk+dsl0HQWBEwgYxCVCZ+E+Mg9Asj9YGUK+yL5/BiFR2HopOSDZN68Qy1v3IUCWXKuGZxC6HVPnpYD6ExUnEbgiLAknYjonNETinMHGxkXyRYn2AJ799vs3TGe7QMAEBKYhQreMpU92bw5BPIC2H3cdIArBaZo44bIsWxNOR0ZANARsGGq3pCfK3TP3uiGzYTidAoRUkk4gYFtxLaxzABB4ZBbv13azicIhAMSRkCIuS+2dNa5I4RmIJy78Zmo9cR47eFMLtDg2l77vub1tWzdoQmeGrVucE/G+7amp715ktrbbB47Ex3FcpwM2LVVTl254VlUoUMPqOcQjB93UdApxug9sxWE4EaFacsXEOVHttBJaEa/rjkoHBPFXEIc5oL19bji0nIxn7+fl/TyS4Vq4pYZsz4qaD67I+rIqX0KcrgLdaSuu2yWneAt3H4iLoYYASiCO7O1OeCaOEMwnoWdWYxrM5tjBJ+EFYuvYJYBD8YXAbo5XAYqWCXY7HiCwEybhcTm+4V3t7O1oTsxrRQoRuGfR237frlC5tyL8vEkEGALvbJ8wEceXnoLb8sL4CVtfz38B4rhetKr9OvEAAAAASUVORK5CYII=", "https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Venom_%28Dagger%29.png/revision/latest?cb=20110504140532"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases debuff chance, duration, and %Damage",
+                        "Can now be stacked (up to 3 times)"
+                    ]
+                },
+                {
+                    "id": 4340013,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Sharpness.png/revision/latest?cb=20110505124843", "https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Katara_Mastery.png/revision/latest?cb=20110504144443"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Final Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 4340043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Bloody_Storm_-_Reinforce.png/revision/latest?cb=20121015215047"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 4340044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Bloody_Storm_-_Spread.png/revision/latest?cb=20121015215211"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 4340045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Bloody_Storm_-_Extra_Strike.png/revision/latest?cb=20121015215304"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 4340046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Phantom_Blow_-_Reinforce.png/revision/latest?cb=20140414050810"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 4340047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Phantom_Blow_-_Guardbreak.png/revision/latest?cb=20140414050834"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 4340048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Phantom_Blow_-_Extra_Strike.png/revision/latest?cb=20140414050840"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 4340055,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Blade_Fury_-_Reinforce.png/revision/latest?cb=20140423032618"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 4340056,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Blade_Fury_-_Guardbreak.png/revision/latest?cb=20140423032618"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 4340057,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Blade_Fury_-_Spread.png/revision/latest?cb=20140423032618"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 4341054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Blade_Clone.png/revision/latest?cb=20121015220602"],
+                    "animations": ["https://media0.giphy.com/media/lZ39AjiqZyTHIlaNsR/giphy.gif"],
+                    "type": "Final Attack Buff",
+                    "desc": "Increases %Damage and grants your attacks the ability to deal an extra attack",
+                    "reqLev": 140
+                },
+                {
+                    "id": 4341052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Asura%27s_Anger.png/revision/latest?cb=20121015220436"],
+                    "animations": ["https://media0.giphy.com/media/WtPfq2BC2zRln3ngHW/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates a torrent of slashes around you that damages nearby enemies",
+                    "details": [
+                        "Attack has 100% Ignore DEF",
+                        "You can move and jump while using Asura's Anger",
+                        "Pressing the Skill Key again will cancel the attack"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 4341053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Epic_Adventure_%28Thief%29.png/revision/latest?cb=20121015205742"],
+                    "animations": ["https://media4.giphy.com/media/owNXK6VoBUIrZ4FDZm/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expThief", "goddessBlessing", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Blade Tempest",
+                    "shortDesc": "MP Cost: 20, deals 1155% damage 7 times on up to 10 enemies, then deals 600% damage 5 times on up to 10 enemies in front of you for 10 sec, ignoring 100% additional Enemy DEF\\nCooldown: 90 sec",
+                    "id": 400041006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Blade_Tempest.png/revision/latest?cb=20161125062539"],
+                    "animations": ["https://media2.giphy.com/media/jQElPxklrTLfYHBWQP/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Unleashes a barrage of slashes in front of you",
+                    "details": [
+                        "Attack has 100% Ignore DEF",
+                        "You can move while attacking"
+                    ]
+                },
+                {
+                    "name": "Blades of Destiny",
+                    "shortDesc": "MP Cost: 500, Damage: 800%, Number of Attacks: 7, Chase Cut Activation Count: 5, Max Enemies Hit: 12, Enemy DEF Ignored: 30%\\nCooldown: 10 sec",
+                    "id": 400041021,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blades_of_Destiny.png/revision/latest?cb=20170609033036"],
+                    "animations": ["https://media3.giphy.com/media/kydAlZsgvhwBHoGeST/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releases a flurry of blades all around",
+                    "details": [
+                        "Attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Blade Tornado",
+                    "shortDesc": "MP Cost: 750, Max Enemies Hit: 10, Damage: 1200%, Number of Attacks: 7\\nAt intervals, Typhoon deals Damage: 800%, Max Enemies Hit: 10, Number of Attacks: 6. Activates whirlwind up to 6 times on 1 enemy.\\nFor Spinning Attack and Typhoon, Additional Monster DEF Ignored: +100%\\nCooldown: 12 sec",
+                    "id": 400041042,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Blade_Tornado.png/revision/latest?cb=20181115065212"],
+                    "animations": ["https://media3.giphy.com/media/PnJKvB3a326I2AWIr4/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releases a tornado forward that damages enemies it passes through",
+                    "details": [
+                        "Attack has 100% Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Haunted Edge",
+                    "shortDesc": "MP Cost: 750, Cooldown: 14 sec, all attacks of Haunted Edge ignores 30% of enemy defense\\nHaunted Edge-Asura: Max Enemies Hit: 8, Damage: 550%, Number of Attacks: 6, Max Sword Winds: 6, Sword Wind Damage: 750%, Number of Sword Wind Attacks: 3, Final Damage of sword wind reduces by 50% when one enemy is hit by several sword winds\\nHaunted Edge-Yaksa: Chase Cut Activation: 5, Max Enemies Hit: 2, Damage: 400%, Number of Attacks: 4",
+                    "id": 400041042,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/haunted-edge.png?w=600"],
+                    "animations": ["https://media4.giphy.com/media/J6HLpBWTus9GdmFFJ7/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Periodically, when using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blade_Fury.png/revision/latest?cb=20140414050921' alt='Skill Blade Fury'> or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Phantom_Blow.png/revision/latest?cb=20140414050926' alt='Skill Phantom Blow'>, an additional burst attack will trigger",
+                    "details": [
+                        "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blade_Fury.png/revision/latest?cb=20140414050921' alt='Skill Blade Fury' width='32' height='32'> <strong>[Sura]: </strong>Slashes around you and creates homing blade winds<ul><li>Blade winds are unaffected by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Mirror_Image.png/revision/latest?cb=20110505120034' alt='Skill Mirror Image'></li><li>Enemies hit by multiple Sword Winds, each additional Sword Wind deals reduced %Final Damage</li></ul>",
+                        "<img src='https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Phantom_Blow.png/revision/latest?cb=20140414050926' alt='Skill Phantom Blow' width='32' height='32'> <strong>[Rakshasa]: </strong>Slashes violently forward",
+                        "Attacks have increased %Ignore DEF",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Mirror Image - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Mirror_Image.png/revision/latest?cb=20110505120034"],
+                "animations": ["https://media3.giphy.com/media/gjZs4YhVkefz710qnB/giphy.gif"]
+            },
+            {
+                "name": "Blade Fury - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blade_Fury.png/revision/latest?cb=20140414050921"],
+                "animations": ["https://media3.giphy.com/media/JrAWRwk6Idj6n8irpb/giphy.gif"]
+            },
+            {
+                "name": "Phantom Blow - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Phantom_Blow.png/revision/latest?cb=20140414050926"],
+                "animations": ["https://media3.giphy.com/media/fW4KKDW3O1oyLcSP15/giphy.gif"]
+            },
+            {
+                "name": "Final Cut - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740"],
+                "animations": ["https://media3.giphy.com/media/cJGbqpGb6OZNEzG9Cf/giphy.gif"]
+            },
+            {
+                "name": "Asura's Anger - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Asura%27s_Anger.png/revision/latest?cb=20121015220436"],
+                "animations": ["https://media0.giphy.com/media/WtPfq2BC2zRln3ngHW/giphy.gif"]
+            },
+            {
+                "name": "Blade Tempest - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Blade_Tempest.png/revision/latest?cb=20161125062539"],
+                "animations": ["https://media2.giphy.com/media/jQElPxklrTLfYHBWQP/giphy.gif"]
+            },
+            {
+                "name": "Blade Tornado - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Blade_Tornado.png/revision/latest?cb=20181115065212"],
+                "animations": ["https://media3.giphy.com/media/PnJKvB3a326I2AWIr4/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Dual Blade is a LUK thief class part of the Explorers class group. Unlike other classes, Dual Blade's 1st Job and 2nd Job is split into two different Job Advancements where you gain additional Skills midway through. Dual Blades have a special Job Advancement at Lv. 20 and Lv. 45"
+}

@@ -1,0 +1,639 @@
+{
+    "class": "Night Walker",
+    "content": {
+        "classGroup": "Cygnus Knights",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat LUK",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["claw"]},
+            {"secondary": ["jewel"]},
+            {"ammo": "throwingStar"}
+        ],
+        "classType": [
+            "Single-target",
+            "Mobile",
+            "Throwing-Star User"
+        ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Attack"],
+        "prosCons": {
+            "pros": [
+                "Has a bind skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Shadow_Stitch.png/revision/latest?cb=20141101231511' alt='Skill Shadow Stitch'> Shadow Stitch",
+                "Has a passive revive <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Darkness_Ascending.png/revision/latest?cb=20141101055920' alt='Skill Darkness Ascending'> Darkness Ascending",
+                "Can avoid some %Max HP attacks <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> Dark Sight",
+                "Cygnus Knight characters do not need <img width='32' height='29' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png/revision/latest?cb=20140817012100' alt='Use Mastery Book 20'><img width='32' height='29' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png/revision/latest?cb=20140817012104' alt='Use Mastery Book 30'>Mastery Books"
+            ],
+            "cons": [
+                "Few mobbing skills only <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951' alt='Skill Shadow Spark'> Shadow Spark and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446' alt='Skill Dark Omen'> Dark Omen pre-5th Job",
+                "Most skills are single-target attacks like <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438' alt='Skill Quintuple Star'> Quintuple Star"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, Link Skills, and buffs with cooldowns",
+            [
+                "<strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Shadow_Slip.png/revision/latest?cb=20141101231547' alt='Skill Shadow Slip' width='32' height='32' /> Dodge Chance</strong>: +42%",
+                "<strong>Avoidability</strong>: +15%",
+                "<strong>Crit Rate</strong>: +35%",
+                "<strong>Crit Damage</strong>: +30%",
+                "<strong>Final Damage</strong>: (+10% for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Shadow_Jump.png/revision/latest?cb=20140928022637' alt='Skill Shadow Jump'> Throwing Star Skills while in the air)",
+                "<strong>Knockback Resistance</strong>: 0%",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +11%",
+                "<strong>Ignore DEF</strong>: +15% + (up to 35% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'> Dark Elemental)",
+                "<strong>Abnormal Status Resistance</strong>: 10"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Haste_%28Night_Walker%29.png/revision/latest?cb=20140928002725' alt='Skill Haste (Night Walker)'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Throwing_Booster.png/revision/latest?cb=20141031011640' alt='Skill Throwing Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Dark_Servant.png/revision/latest?cb=20141101055928' alt='Skill Dark Servant'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Shadow_Stars.png/revision/latest?cb=20120713123214' alt='Skill Shadow Stars'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446' alt='Skill Dark Omen'>(20s cd), (20s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Phalanx_Charge.png/revision/latest?cb=20170623004415' alt='Skill Phalanx Charge'>(30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Greater_Dark_Servant.png/revision/latest?cb=20170609033038' alt='Skill Greater Dark Servant'>(60s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Shadow_Illusion.png/revision/latest?cb=20141101231711' alt='Skill Shadow Illusion'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Glory_of_the_Guardians_%28Thunder_Breaker%29.png/revision/latest?cb=20160605205818' alt='Skill Glory of the Guardians (Thunder Breaker)'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Greater_Dark_Servant.png/revision/latest?cb=20170609033038' alt='Skill Greater Dark Servant'>(60s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Shadow_Spear.png/revision/latest?cb=20161125062714' alt='Skill Shadow Spear'>(180 - 165s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Empress_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065036' alt='Skill Empress Cygnus's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611' alt='Skill Last Resort'>(89 - 75s cd)",
+            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Shadow_Stitch.png/revision/latest?cb=20141101231511' alt='Skill Shadow Stitch'>(229 - 210s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Darkness_Ascending.png/revision/latest?cb=20141101055920' alt='Skill Darkness Ascending'>(3240 - 1800s cd revive), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Dominion.png/revision/latest?cb=20141101231709' alt='Skill Dominion'>(180s cd)"
+        },
+        "linkSkill": {
+                "id": 80000055,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103"],
+                "type": "Passive",
+                "desc": "",
+                "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level"]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/s37E2Zg.png", [499,374]],
+            "npc": [
+                ["https://maplestory.io/api/GMS/210.1.1/npc/1101006/icon", [64,119]],
+                ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/NPC_Neinheart.png/revision/latest?cb=20110308155501",[64,109]]
+            ],
+            "info": [
+                "To create one, choose the 'Cygnus Knights' option in the Character Creation screen and then continue through the story until you reach Lv. 10 and Ereve. You will see 5 NPCs on the left after talking to Neinheart. Talk to Eckhart to become a Night Walker"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Haste_%28Night_Walker%29.png/revision/latest?cb=20140928002725' alt='Skill Haste (Night Walker)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Lucky_Seven_%28Night_Walker%29.png/revision/latest?cb=20140928021422' alt='Skill Lucky Seven (Night Walker)'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Claw_Mastery.png/revision/latest?cb=20100308130337' alt='Skill Claw Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Throwing_Booster.png/revision/latest?cb=20141031011640' alt='Skill Throwing Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Adaptive_Darkness.png/revision/latest?cb=20141031070826' alt='Skill Adaptive Darkness'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Critical_Shot.png/revision/latest?cb=20110502133044' alt='Skill Critical Shot'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Bat_Affinity.png/revision/latest?cb=20141031070838' alt='Skill Bat Affinity'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Triple_Throw_%28Night_Walker%29.png/revision/latest?cb=20140928005018' alt='Skill Triple Throw (Night Walker)'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Darkness_Ascending.png/revision/latest?cb=20141101055920' alt='Skill Darkness Ascending'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Shadow_Stars.png/revision/latest?cb=20120713123214' alt='Skill Shadow Stars'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Alchemic_Adrenaline.png/revision/latest?cb=20111227004917' alt='Skill Alchemic Adrenaline'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Adaptive_Darkness_II.png/revision/latest?cb=20141101055925' alt='Skill Adaptive Darkness II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Enveloping_Darkness.png/revision/latest?cb=20111226203900' alt='Skill Enveloping Darkness'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Dark_Servant.png/revision/latest?cb=20141101055928' alt='Skill Dark Servant'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Bat_Affinity_II.png/revision/latest?cb=20141101055923' alt='Skill Bat Affinity II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951' alt='Skill Shadow Spark'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Quad_Star_%28Night_Walker%29.png/revision/latest?cb=20140928005948' alt='Skill Quad Star (Night Walker)'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Vitality_Siphon.png/revision/latest?cb=20181214202415' alt='Skill Vitality Siphon' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Adaptive_Darkness_III.png/revision/latest?cb=20141101231528' alt='Skill Adaptive Darkness III' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Claw_Expert.png/revision/latest?cb=20111125110117' alt='Skill Claw Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Bat_Affinity_III.png/revision/latest?cb=20141026181252' alt='Skill Bat Affinity III' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Shadow_Slip.png/revision/latest?cb=20141101231547' alt='Skill Shadow Slip' width='32' height='32' /> ->  <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Dark_Blessing.png/revision/latest?cb=20141101231515' alt='Skill Dark Blessing' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Shadow_Stitch.png/revision/latest?cb=20141101231511' alt='Skill Shadow Stitch' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446' alt='Skill Dark Omen' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438' alt='Skill Quintuple Star' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Quintuple_Star_-_Reinforce.png/revision/latest?cb=20141101231655' alt='Skill Quintuple Star - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Quintuple_Star_-_Boss_Rush.png/revision/latest?cb=20141026182252' alt='Skill Quintuple Star - Boss Rush' width='32' height='32'> Quintuple Star - Reinforce and Boss Rush</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Dark_Omen_-_Cooldown_Cutter.png/revision/latest?cb=20141101231658' alt='Skill Dark Omen - Cooldown Cutter' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Dark_Omen_-_Spread.png/revision/latest?cb=20141101231659' alt='Skill Dark Omen - Spread' width='32' height='32'> Dark Omen - Cooldown Cutter and Spread</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Vitality_Siphon_-_Reinforce.png/revision/latest?cb=20190917062458' alt='Skill Vitality Siphon - Reinforce' width='32' height='32'> Vitality Siphon - Reinforce</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438' alt='Skill Quintuple Star'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951' alt='Skill Shadow Spark'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Lucky_Seven_%28Night_Walker%29.png/revision/latest?cb=20140928021422' alt='Skill Lucky Seven (Night Walker)'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Triple_Throw_%28Night_Walker%29.png/revision/latest?cb=20140928005018' alt='Skill Triple Throw (Night Walker)'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Quad_Star_%28Night_Walker%29.png/revision/latest?cb=20140928005948' alt='Skill Quad Star (Night Walker)'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951' alt='Skill Shadow Spark'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438' alt='Skill Quintuple Star'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446' alt='Skill Dark Omen'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Shadow_Stitch.png/revision/latest?cb=20141101231511' alt='Skill Shadow Stitch'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Dominion.png/revision/latest?cb=20141101231709' alt='Skill Dominion'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3202/night-walker",
+            "https://maplestory.fandom.com/wiki/Night_Walker"
+        ],
+        "credits": [
+            ["Skill Icons + Attribute Info", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build", "Scaraset"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Dark Sight + Dark Attribute & Throwing Star Attacks",
+            "content": "<p><em>Referenced from <a href='https://www.reddit.com/r/Maplestory/comments/8aoood/dark_sight/' target='_blank' rel='noopener'>Nox</a> and <a href='https://www.reddit.com/r/Maplestory/comments/6nrj4z/what_can_hit_me_during_dark_sight/' target='_blank' rel='noopener'>Fatalyz</a></em></p><p>Dark Sight can only ignore <strong>falling debris </strong>such as from bosses like Magnus meteors, Pierre hats, Vellum rocks, Papulatus falling clocks, and Lotus demolishers. There are several %Max HP attacks that can be ignored, for example, Magnus spin attack, Crimson Queen's DoT flame, and Damien falling yellow/red meteors</p><p>Other attacks that can be avoided include, Gollux reverse key bomb (debuff still applies but no damage or stun is taken) and Magnus stun smoke Most non-debris one-shots cannot be avoided. For example, Vellum's tail attack and head pop, Von Bon's orb projectile and Crimson Queen's flame breath</p><p>All direct endgame boss attacks such as Lotus, Damien, Lucid and Will are unavoidable</p><h3>Dark Attribute</h3><p>In 4th Job, the cooldown of <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446' alt=''> Dark Omen is reduced whenever a Dark-attribute attack hits an enemy. In 5th Job, for <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Shadow_Spear.png/revision/latest?cb=20161125062714' alt=''> Shadow Spear, dark energy gathers until a spear appears as you use Dark-attribute attacks. Below is a list of all your Dark-attribute attacks:</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt=''> Shadow Bats (1st Job) - Will not reduce cooldown</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951' alt=''> Shadow Spark (3rd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438' alt=''> Quintuple Star (4th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446' alt='Skill Dark Omen'/> Dark Omen (4th Job) - Will not reduce cooldown<li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Dominion.png/revision/latest?cb=20141101231709' alt='Skill Dominion'/> Dominion (Hyper Skill)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Shadow_Spear.png/revision/latest?cb=20161125062714' alt'Skill Shadow Spear'/> Shadow Spear (5th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Shadow_Bite.png/revision/latest?cb=20181115065338' alt=''> Shadow Bite (5th Job)</li><li><img src='https://orangemushroom.files.wordpress.com/2020/06/rapid-throw.png?w=600' alt='Skill Rapid Throw'/> Rapid Throw (5th Job)</ul><h3>Throwing Star Attacks</h3><p>In 1st Job, you gain the buff, Dark Elemental <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt=''> which causes your Throwing Star attacks to debuff enemies. Additionally, Throwing Star attacks gain increased %Final Damage while in the air from <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Shadow_Jump.png/revision/latest?cb=20140928022637' alt=''> Shadow Jump. Below is a list of all your Throwing Star attacks:</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Lucky_Seven_%28Night_Walker%29.png/revision/latest?cb=20140928021422' alt=''> Lucky Seven (1st Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Triple_Throw_%28Night_Walker%29.png/revision/latest?cb=20140928005018' alt=''> Triple Throw (2nd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Quad_Star_%28Night_Walker%29.png/revision/latest?cb=20140928005948' alt=''> Quad Star (3rd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951' alt=''> Shadow Spark (3rd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438' alt=''> Quintuple Star (4th Job)</li><li><img src='https://orangemushroom.files.wordpress.com/2020/06/rapid-throw.png?w=600' alt='Skill Rapid Throw'/> Rapid Throw (5th Job)</ul>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 10001244,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Elemental_Slash.png/revision/latest?cb=20130525122036"],
+                    "animations": ["https://media3.giphy.com/media/HBWfxJ4qXjaXYbLrzo/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strikes forward hitting multiple enemies"
+                },
+                {
+                    "id": 10001245,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
+                    "animations": ["https://media1.giphy.com/media/kYx5G2ITsVksMEv2cS/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 10000249,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Elemental_Harmony.png/revision/latest?cb=20130525122047"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 10000250,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Elemental_Expert.png/revision/latest?cb=20130525122051"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 10000252,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058"],
+                    "type": "Passive",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 14001020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Lucky_Seven_%28Night_Walker%29.png/revision/latest?cb=20140928021422"],
+                        "animations": ["https://media1.giphy.com/media/4EQ3bcQCKcGPVeB0Oo/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throws 2 throwing stars at one enemy"
+                    },
+                    {
+                        "id": 14001021,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559"],
+                        "animations": ["https://media0.giphy.com/media/esFN2OrTEiH7bMicix/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Whenever your Throwing Star skills hit an enemy, there is a chance to debuff enemies (up to 2 stacks)",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Marked enemies take increased damage and your attacks gain %Ignore DEF"
+                        ]
+                    },
+                    {
+                        "id": 14001022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Haste_%28Night_Walker%29.png/revision/latest?cb=20140928002725"],
+                        "animations": ["https://media4.giphy.com/media/WQ6c0EyastC4XM55SH/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 14001023,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826"],
+                        "animations": ["https://media2.giphy.com/media/2NcGGRW1TPTw0Q7wbD/giphy.gif"],
+                        "type": "Active / Utility",
+                        "desc": "While active, you cannot hit or be hit by enemies",
+                        "details": [
+                            "Has a cooldown (3 secs, stacks up to 5 times) per attack dodged",
+                            "You can use <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Shadow_Jump.png/revision/latest?cb=20140928022637' alt='Skill Shadow Jump'> Shadow Jump while in Dark Sight"
+                        ]
+                    },
+                    {
+                        "id": 14001024,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Shadow_Dodge.png/revision/latest?cb=20140928022052"],
+                        "animations": ["https://media1.giphy.com/media/seyg0zqdcjyMPE1wXk/giphy.gif"],
+                        "type": "Active / Utility",
+                        "desc": "Dash backward",
+                        "details": [
+                            "Can be used while using Throwing Star skills"
+                        ]
+                    },
+                    {
+                        "id": 14001026,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058", "https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Shadow_Jump.png/revision/latest?cb=20140928022637"],
+                        "animations": ["https://media4.giphy.com/media/50VYYVSCIGFi7HnKVx/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot using <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Shadow_Jump.png/revision/latest?cb=20140928022637' alt='Skill Shadow Jump' width='32' height='32' /> or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li><li>Pressing Jump Twice without any Arrow Keys will allow you to jump in place<ul><li>You can right-click the skill to turn this function on/off</li></ul></li></ul>",
+                            "Can be used while using Throwing Star skills",
+                            "<strong>[Passive]</strong>: Permanently increases %Final Damage of Throwing Star skills while in the air"
+                        ]
+                    },
+                    {
+                        "id": 14001027,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
+                        "animations": ["https://media1.giphy.com/media/4cI1TzquDNwE7BR9Aw/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "When toggled, a Shadow Bat is summoned every 3 times you hit an enemy with a Throwing Star skill (up to 2 Shadow Bats). When a Shadow Bat is active, Throwing Star skills have a chance to trigger the Shadow Bat to seek and attack an enemy",
+                        "details": [
+                            "Can bounce off to multiple enemies",
+                            "Initial hit will restore some %Max HP",
+                            "Deals increased damage to non-boss monsters"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [{
+                        "id": 14101020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Triple_Throw_%28Night_Walker%29.png/revision/latest?cb=20140928005018"],
+                        "animations": ["https://media2.giphy.com/media/U7lRDkhqd5qeWppmoO/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throws 3 throwing stars at one enemy",
+                        "details": [
+                            "The last star will deal increased damage"
+                        ]
+                    },
+                    {
+                        "id": 14101022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Throwing_Booster.png/revision/latest?cb=20141031011640"],
+                        "animations": ["https://media0.giphy.com/media/G1NQ2CiG9DMHrsmYaO/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 14100023,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Claw_Mastery.png/revision/latest?cb=20100308130337"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Additionally increases the max number of charges each Throwing Star slot can hold"
+                        ]
+                    },
+                    {
+                        "id": 14100024,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Critical_Shot.png/revision/latest?cb=20110502133044"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 14100025,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 14100026,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Adaptive_Darkness.png/revision/latest?cb=20141031070826", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to apply <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'> debuff",
+                            "Increases max stacks of debuff up to 3",
+                            "Increases %Ignore DEF provided per stack and now deals damage over time"
+                        ]
+                    },
+                    {
+                        "id": 14100027,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Bat_Affinity.png/revision/latest?cb=20141031070838", "https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage",
+                            "Increases the maximum number of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'> Shadow Bats up to 3"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 14111020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Quad_Star_%28Night_Walker%29.png/revision/latest?cb=20140928005948"],
+                        "animations": ["https://media3.giphy.com/media/wK4RwyPeNMv0iucJTf/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throws 4 throwing stars at one enemy",
+                        "details": [
+                            "The last star will deal increased damage"
+                        ]
+                    },
+                    {
+                        "id": 14111022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951"],
+                        "animations": ["https://media1.giphy.com/media/GkfbWGGUP6sFd9Kb9p/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throws a Throwing Star that pierces through enemies before exploding"
+                    },
+                    {
+                        "id": 14111024,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Dark_Servant.png/revision/latest?cb=20141101055928"],
+                        "animations": ["https://media1.giphy.com/media/1FYVhhPlhJ3QPtmZE9/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a clone that follows your movements and copies your attacks after a short delay",
+                        "details": [
+                            "Attacks are limited to Throwing Star skills and Movement skills",
+                            "Clone's attacks deal reduced %Final Damage"
+                        ]
+                    },
+                    {
+                        "id": 14111025,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Shadow_Stars.png/revision/latest?cb=20120713123214"],
+                        "animations": ["https://media4.giphy.com/media/cqJDuKD9I3Zjcd3Nxt/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Allows your attacks to not consume Throwing Stars"
+                    },
+                    {
+                        "id": 14110026,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Enveloping_Darkness.png/revision/latest?cb=20111226203900"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 14110027,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Alchemic_Adrenaline.png/revision/latest?cb=20111227004917"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Recovery is not increased for percentage-based items like Elixirs"
+                        ]
+                    },
+                    {
+                        "id": 14110028,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Adaptive_Darkness_II.png/revision/latest?cb=20141101055925", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to apply <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'> debuff",
+                            "Increases max stacks of debuff up to 4",
+                            "Increases %Ignore DEF provided per stack"
+                        ]
+                    },
+                    {
+                        "id": 14110029,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Bat_Affinity_II.png/revision/latest?cb=20141101055923", "https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage",
+                            "Increases the maximum number of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'> Shadow Bats up to 4"
+                        ]
+                    },
+                    {
+                        "id": 14110030,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Darkness_Ascending.png/revision/latest?cb=20141101055920"],
+                        "animations": ["https://media3.giphy.com/media/cShkLhssTbqM7SOPTr/giphy.gif"],
+                        "type": "Passive Revive",
+                        "desc": "When hit by a fatal attack, you will not die but instead continuously heal back a percentage of your HP",
+                        "details": [
+                            "Depending on how many <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'> were active, you gain increased healing",
+                            "Briefly invincible during recovery and at the end of the skill",
+                            "Skill is not affected by cooldown resets"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 14121000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
+                    "animations": ["https://media3.giphy.com/media/BPohzVfkrMfsDBMSXr/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "",
+                    "details": [
+                        "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete the quest 'The Alliance Gathers' at Lv. 120"
+                    ]
+                },
+                {
+                    "id": 14121001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438"],
+                    "animations": ["https://media0.giphy.com/media/Kc0zIZTuCtmjk55BB0/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws 5 throwing stars at one enemy",
+                    "details": [
+                        "The last star will deal increased damage"
+                    ]
+                },
+                {
+                    "id": 14121003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446"],
+                    "animations": ["https://media1.giphy.com/media/c6xCNDd5U0onabCCUt/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a stationary pack of bats that attack enemies in an area",
+                    "details": [
+                        "Unaffected by Damage Reflect and you cannot be pushed back when casting this skill",
+                        "Cooldown is reduced when an enemy is hit by a Dark-attribute attack except for <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat' width='32' height='32' /> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446' alt='Skill Dark Omen' width='32' height='32' />"
+                    ]
+                },
+                {
+                    "id": 14121004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Shadow_Stitch.png/revision/latest?cb=20141101231511"],
+                    "animations": ["https://media4.giphy.com/media/YfFAVXTdNVel2fxE7N/giphy.gif"],
+                    "type": "Key-down Bind Attack",
+                    "desc": "While holding down the skill, you extend a creeping shadow that binds enemies when released",
+                    "details": [
+                        "You gain 100% Knockback Resistance while holding the skill"
+                    ]
+                },
+                {
+                    "id": 14120005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Claw_Expert.png/revision/latest?cb=20111125110117", "https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Claw_Mastery.png/revision/latest?cb=20100308130337"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "id": 14120006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Dark_Blessing.png/revision/latest?cb=20141101231515"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 14120007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Adaptive_Darkness_III.png/revision/latest?cb=20141101231528", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases chance to apply <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'> debuff",
+                        "Increases max stacks of debuff up to 5",
+                        "Increases %Ignore DEF provided per stack and %Damage dealt over time"
+                    ]
+                },
+                {
+                    "id": 14120008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Bat_Affinity_III.png/revision/latest?cb=20141026181252", "https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation chance and %Damage",
+                        "Increases the maximum number of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'> Shadow Bats up to 5"
+                    ]
+                },
+                {
+                    "id": 14120009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Vitality_Siphon.png/revision/latest?cb=20181214202415"],
+                    "animations": ["https://media3.giphy.com/media/ric4vRRrODDGwb1EWq/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "When applying <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'>, you absorb stacks of 'Liveliness' from enemies",
+                    "details": [
+                        "Once you reach 30 Liveliness, you gain a shield that absorbs damage",
+                        "Liveliness stacks disappear if you do not gain more stacks"
+                    ]
+                },
+                {
+                    "id": 14120010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Shadow_Slip.png/revision/latest?cb=20141101231547"],
+                    "type": "Passive",
+                    "desc": "Grants a chance to dodge attacks"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 14120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Quintuple_Star_-_Reinforce.png/revision/latest?cb=20141101231655"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 14120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Quintuple_Star_-_Boss_Rush.png/revision/latest?cb=20141026182252"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 14120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Quintuple_Star_-_Critical_Chance.png/revision/latest?cb=20160207071057"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 14120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Dark_Omen_-_Cooldown_Cutter.png/revision/latest?cb=20141101231658"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 14120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Dark_Omen_-_Spread.png/revision/latest?cb=20141101231659"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 14120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Dark_Omen_-_Reinforce.png/revision/latest?cb=20141101231701"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 14120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Vitality_Siphon_-_Extra_Point.png/revision/latest?cb=20141101231703"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 14120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Vitality_Siphon_-_Reinforce.png/revision/latest?cb=20190917062458"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 14120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Vitality_Siphon_-_Preparation.png/revision/latest?cb=20141101231707"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 14121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Shadow_Illusion.png/revision/latest?cb=20141101231711"],
+                    "animations": ["https://media3.giphy.com/media/Z6g68Q54RJiN3iox6F/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Summons 3 clones at once and function like <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Dark_Servant.png/revision/latest?cb=20141101055928' alt='Skill Dark Servant'>",
+                    "reqLev": 140
+                },
+                {
+                    "id": 14121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Dominion.png/revision/latest?cb=20141101231709"],
+                    "animations": ["https://media0.giphy.com/media/DsTW08naOQkF6sRiqU/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a dark attack that leaves the map in a stasis",
+                    "details": [
+                        "Using Throwing Star skills during this period will cause enemies to have max stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'> debuff",
+                        "You also gain %Final Damage and immunity to knockbacks and all your attacks will be critical hits during the duration of this skill"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 11121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Glory_of_the_Guardians_%28Thunder_Breaker%29.png/revision/latest?cb=20160605205818"],
+                    "animations": ["https://media2.giphy.com/media/e8xBzbH19L7sB4Hfhr/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["phalanxCharge", "cygnusBlessing", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Shadow Spear",
+                    "shortDesc": "MP Cost: 1000, Duration: 75. 100% chance for shadows to form on the ground every time you use a dark-aspected skill (excluding Dark Omen and Shadow Spear)\\nThe shadows slowly gather into a spear dealing 200% damage 4 times on up to 8 enemies\\nIf there are enough shadows, they coalesce into a Giant Spear that deals 800% damage 6 times on up to 12 enemies with a 3 sec cooldown.\\nCooldown: 168 sec",
+                    "id": 400041008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Shadow_Spear.png/revision/latest?cb=20161125062714"],
+                    "animations": ["https://media1.giphy.com/media/RGWR5FZqe7MVfGvAMW/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, dark energy gathers every time you use a Dark-attribute attack except for <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446' alt='Skill Dark Omen' width='32' height='32' /> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Shadow_Spear.png/revision/latest?cb=20161125062714' alt='Skill Shadow Spear' width='32' height='32' /> until a spear appears and strikes enemies from beneath",
+                    "details": [
+                        "The spear will slowly grow in size until it becomes a giant spear that deals increased %Damage"
+                    ]
+                },
+                {
+                    "name": "Greater Dark Servant",
+                    "shortDesc": "MP Cost: 800, Summon Duration: 42 sec. Shadow attacks from a fixed location, dealing additional 50% of the Final Damage of your throwing star skills.\\nActivate to swap places up to 3 times\\nCooldown: 60 sec",
+                    "id": 400041028,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Greater_Dark_Servant.png/revision/latest?cb=20170609033038"],
+                    "animations": ["https://media0.giphy.com/media/xiGljPQ9I2VR9dthLv/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a stationary clone that faces in the direction of the enemy with the highest Max HP",
+                    "details": [
+                        "Will mimic your Throwing Star attacks",
+                        "Unaffected by Damage Reflect",
+                        "Can trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559' alt='Skill Dark Elemental'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'>",
+                        "You can press the Skill Key to swap places with the clone (up to 3 times)"
+                    ]
+                },
+                {
+                    "name": "Shadow Bite",
+                    "shortDesc": "MP Cost: 1500, Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 14, deals 1200% damage to boss monsters, creates a Shadow Bat where an enemy received an attack if a Shadow Bat can be summoned\\nIf an enemy has been defeated by Shadow Bite, the Final Damage increases by 1% per 1 enemy for 17 sec. If you attacked a boss monster, the Final Damage increases by 14%. The Final Damage increased by Shadow Bite is applied up to 15%.\\nCooldown: 20 sec",
+                    "id": 400041037,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Shadow_Bite.png/revision/latest?cb=20181115065338"],
+                    "animations": ["https://media2.giphy.com/media/nXKvfulTjzqoEXjEqo/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "When active, wherever your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744' alt='Skill Shadow Bat'> attacks, the Shadow Bat will also bite",
+                    "details": [
+                        "Deals increased damage to bosses",
+                        "If the enemy is defeated by the bite, <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Shadow_Bite.png/revision/latest?cb=20181115065338' alt='Skill Shadow Bite' width='32' height='32' /> gains increased %Final Damage<ul><li>If the enemy hit was a boss, <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Shadow_Bite.png/revision/latest?cb=20181115065338' alt='Skill Shadow Bite' width='32' height='32' /> gains more %Final Damage</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Rapid Throw",
+                    "shortDesc": "MP Cost: 1000, consecutively throw shadow throwing stars with 850% damage 4 times for 2.7 sec then finish with a huge shadow throwing star that attacks up to 10 enemies with 1700% damage 13 times\\nTap repeatedly while the skill is in use to increase the consecutive throwing duration up to 4 sec\\nCooldown: 90 sec",
+                    "id": 400041037,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/rapid-throw.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/qAWjjh3EeFvuPOoz4C/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a barrage of stars forward before throwing a final giant throwing star",
+                    "details": [
+                        "When used in the air, you will remain in the air until the attack ends",
+                        "Continuously pressing the Skill Key will extend the duration of the attack"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Shadow Bat - 1st Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
+                "animations": ["https://media1.giphy.com/media/4cI1TzquDNwE7BR9Aw/giphy.gif"]
+            },
+            {
+                "name": "Shadow Spark - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951"],
+                "animations": ["https://media1.giphy.com/media/GkfbWGGUP6sFd9Kb9p/giphy.gif"]
+            },
+            {
+                "name": "Quintuple Star - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438"],
+                "animations": ["https://media0.giphy.com/media/Kc0zIZTuCtmjk55BB0/giphy.gif"]
+            },
+            {
+                "name": "Dark Omen - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446"],
+                "animations": ["https://media1.giphy.com/media/c6xCNDd5U0onabCCUt/giphy.gif"]
+            },
+            {
+                "name": "Dominion - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Dominion.png/revision/latest?cb=20141101231709"],
+                "animations": ["https://media0.giphy.com/media/DsTW08naOQkF6sRiqU/giphy.gif"]
+            },
+            {
+                "name": "Shadow Spear - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Shadow_Spear.png/revision/latest?cb=20161125062714"],
+                "animations": ["https://media1.giphy.com/media/RGWR5FZqe7MVfGvAMW/giphy.gif"]
+            },
+            {
+                "name": "Shadow Bite - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Shadow_Bite.png/revision/latest?cb=20181115065338"],
+                "animations": ["https://media2.giphy.com/media/nXKvfulTjzqoEXjEqo/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Night Walker is LUK thief class part of the Cygnus Knights. Night Walkers are known for their bossing capabilities. Additionally, they use Throwing Stars as ammo for their skills"
+}

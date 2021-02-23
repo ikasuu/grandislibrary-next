@@ -1,0 +1,676 @@
+{
+    "class": "Zero",
+    "content": {
+        "classGroup": "Other (Child of God)",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Increases %EXP Obtained from monsters",
+        "legionValue": "4/6/8/10/12%",
+        "equipment": [
+            {"weapon": ["longSword"]},
+            {"secondary": ["heavySword"]}
+        ],
+        "classType": [
+            "Combo - Dual Character",
+            "Multi-target",
+            "Mobile"
+        ],
+        "innerAbility": ["Attack Speed", "Crit Rate", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "You get to play as both a male and a female<ul><li>You can decorate both characters separately</li></ul>",
+                "Has lots of mobility and good mobbing",
+                "Has several iFrames from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Time_Holding.png/revision/latest?cb=20140108010045' alt='Skill Time Holding'> Time Holding, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Immune_Barrier.png/revision/latest?cb=20140107033613' alt='Skill Immune Barrier'> Immune Barrier, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rewind.png/revision/latest?cb=20140108010045' alt='Skill Rewind'> Rewind and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Twin_Blades_of_Time.png/revision/latest?cb=20170609033222' alt='Skill Twin Blades of Time'> Twin Blades of Time",
+                "Special weapon that upgrades based on your level (up until Absolab)",
+                "Has a revive skill, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rewind.png/revision/latest?cb=20140108010045' alt='Skill Rewind'/> Rewind",
+                "Legion bonus provides %Bonus EXP"
+            ],
+            "cons": [
+                "Hard to control due to the amount of mobility from skills",
+                "Can only be created certain times a year",
+                "Comboing attacks may be tricky to get a hang of"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns. Some stats are only active while playing as Alpha or Beta",
+            [
+                "<strong>Max HP</strong>: +15%",
+                "<strong>Crit Rate</strong>: +(up to 20% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044' alt='Skill Doubletime'> Doubletime)<div style='text-indent: 40px'><strong>[Alpha]</strong>: +40%</div><div style='text-indent: 40px'><strong>[Beta]</strong>: +15%</div>",
+                "<strong>Crit Damage</strong>: +0%<div style='text-indent: 40px'><strong>[Alpha]</strong>: +40%</div>",
+                "<strong>Damage</strong>: +(up to 10% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044' alt='Skill Doubletime'> Doubletime)",
+                "<strong>Boss Damage</strong>: +0%<div style='text-indent: 40px'><strong>[Beta]</strong>: +30%</div>",
+                "<strong>Final Damage</strong>: +25%",
+                "<strong>Knockback Resistance</strong>: +0%<div style='text-indent: 40px'><strong>[Beta]: </strong>+100%</div>",
+                "<strong>Attack Speed (Weapon)</strong>: 3 [Alpha], 6 [Beta] (additional -1 stage while <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Divine_Speed.png/revision/latest?cb=20140107015542' alt='Skill Divine Speed' width='32' height='32'> Divine Speed is active)",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +15%",
+                "<strong>Ignore DEF</strong>: +10%<div style='text-indent: 40px'><strong>[Alpha]</strong>: +30%</div>",
+                "<strong>Abnormal Status Resistance</strong>: (10 while <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Divine_Force.png/revision/latest?cb=20140107015534' alt='Skill Divine Force'> Divine Force is active)<div style='text-indent: 40px'><strong>[Alpha]: </strong>+10</div><div style='text-indent: 40px'><strong>[Beta] </strong>+40</div>"
+            ]
+        ],
+        "buffInfo": {
+            "active": "[ <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Divine_Force.png/revision/latest?cb=20140107015534' alt='Skill Divine Force'> / <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Divine_Speed.png/revision/latest?cb=20140107015542' alt='Skill Divine Speed'> ](Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Rhinne%27s_Protection.png/revision/latest?cb=20140107015644' alt='Skill Rhinne's Protection'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Time_Distortion.png/revision/latest?cb=20140108010045' alt='Skill Time Distortion'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Advanced_Throwing_Weapon.png/revision/latest?cb=20140107033511' alt='Skill Advanced Throwing Weapon'>, [ <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Shadow_Flash_%28Alpha%29.png/revision/latest?cb=20181115065338' alt='Skill Shadow Flash (Alpha)'> / <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Shadow_Flash_%28Beta%29.png/revision/latest?cb=20181115065338' alt='Skill Shadow Flash (Beta)'> ](40s cd)",
+            "buffCd": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Time_Holding.png/revision/latest?cb=20140108010045' alt='Skill Time Holding' width='32' height='32'>(180s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rewind.png/revision/latest?cb=20140108010045' alt='Skill Rewind' width='32' height='32'>(1800s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Transcendent_Rhinne%27s_Prayer.png/revision/latest?cb=20191122065038' alt='Skill Transcendent Rhinne's Prayer'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742' alt='Skill Weapon Aura'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329' alt='Skill Impenetrable Skin'>(240s cd)",
+            "binds": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Critical_Bind.png/revision/latest?cb=20140107033513' alt='Skill Critical Bind' width='32' height='32'>(35s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Chrono_Break.png/revision/latest?cb=20161125062540' alt='Skill Chrono Break' width='32' height='32'>(240s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Time_Holding.png/revision/latest?cb=20140108010045' alt='Skill Time Holding'>(180s cd) ,<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rewind.png/revision/latest?cb=20140108010045' alt='Skill Rewind'>(1800s cd revive), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Immune_Barrier.png/revision/latest?cb=20140107033613' alt='Skill Immune Barrier'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Twin_Blades_of_Time.png/revision/latest?cb=20170609033222' alt='Skill Twin Blades of Time'>(120s cd)"
+        },
+        "linkSkill": {
+            "id": 80000110,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "This skill is leveled up by completing the Zero storyline"
+            ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/cWrtkSq.png",[499,374]],
+            "npc": [
+                ["",""]
+
+            ],
+            "info": [
+                "Zero character creation only occurs for a limited time. Zero character creations are normally announced for major updates and can happen several times a year. In order to create a Zero though, you must have a character that is above Lv. 100"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["Alpha & Beta", "<p><strong>(Lv. 100)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Moon_Strike.png/revision/latest?cb=20140107031720' alt='Skill Moon Strike' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Piercing_Thrust.png/revision/latest?cb=20140107031721' alt='Skill Piercing Thrust' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Shadow_Strike.png/revision/latest?cb=20140107031816' alt='Skill Shadow Strike' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Long_Sword_Mastery.png/revision/latest?cb=20140107031720' alt='Skill Long Sword Mastery' width='32' height='32' /> | <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Rising_Slash_%28Zero%29.png/revision/latest?cb=20140107033613' alt='Skill Rising Slash (Zero)' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Air_Raid.png/revision/latest?cb=20140107033512' alt='Skill Air Raid' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Heavy_Sword_Mastery.png/revision/latest?cb=20140107033612' alt='Skill Heavy Sword Mastery' width='32' height='32' /> ]<br /><strong>(Lv. 105)</strong> [ n/a | <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Flash_Cut.png/revision/latest?cb=20140107033514' alt='Skill Flash Cut' width='32' height='32' /> ]<br /><strong>(Lv. 110)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Flash_Assault.png/revision/latest?cb=20140107031719' alt='Skill Flash Assault' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Time_Generator.png/revision/latest?cb=20140107031817' alt='Skill Time Generator' width='32' height='32' /> | <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Throwing_Weapon.png/revision/latest?cb=20140107033614' alt='Skill Throwing Weapon' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Solid_Body.png/revision/latest?cb=20140107033613' alt='Skill Solid Body' width='32' height='32' /> ]<br /><strong>(Lv. 115)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816' alt='Skill Spin Cutter' width='32' height='32' /> | <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Spin_Driver.png/revision/latest?cb=20140107033613' alt='Skill Spin Driver' width='32' height='32' /> ]<br /><strong>(Lv. 120)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Rolling_Cross.png/revision/latest?cb=20140107031816' alt='Skill Rolling Cross' width='32' height='32' />  | n/a ]<br /><strong>(Lv. 125)</strong> [ n/a | <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Wheel_Wind.png/revision/latest?cb=20140107033614' alt='Skill Wheel Wind' width='32' height='32' /> ]<br /><strong>(Lv. 130)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815' alt='Skill Rolling Assault' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Reinforce_Body.png/revision/latest?cb=20140107031721' alt='Skill Reinforce Body' width='32' height='32' /> | <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Armor_Split.png/revision/latest?cb=20140107033512' alt='Skill Armor Split' width='32' height='32' /> ]<br /><strong>(Lv. 135)</strong> [ n/a | <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Giga_Crash.png/revision/latest?cb=20140107033612' alt='Skill Giga Crash' width='32' height='32' /> ]<br /><strong>(Lv. 140)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Wind_Cutter.png/revision/latest?cb=20140107031817' alt='Skill Wind Cutter' width='32' height='32' /> | <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Falling_Star.png/revision/latest?cb=20140107033513' alt='Skill Falling Star' width='32' height='32' /> ]<br /><strong>(Lv. 145)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Wind_Striker.png/revision/latest?cb=20140107031817' alt='Skill Wind Striker' width='32' height='32' /> | <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Earth_Break.png/revision/latest?cb=20140107033513' alt='Skill Earth Break' width='32' height='32' /> ]<br /><strong>(Lv. 150)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817' alt='Skill Storm Break' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Advanced_Spin_Cutter.png/revision/latest?cb=20140107031718' alt='Skill Advanced Spin Cutter' width='32' height='32' /> | <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Air_Riot.png/revision/latest?cb=20140107033512' alt='Skill Air Riot' width='32' height='32' /> ]<br /><strong>(Lv. 155)</strong> [ n/a | <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Advanced_Throwing_Weapon.png/revision/latest?cb=20140107033511' alt='Skill Advanced Throwing Weapon' width='32' height='32' /> ]<br /><strong>(Lv. 160)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Grand_Rolling_Cross.png/revision/latest?cb=20140107031719' alt='Skill Grand Rolling Cross' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Divine_Leer.png/revision/latest?cb=20140107031718' alt='Skill Divine Leer' width='32' height='32' /> | n/a ]<br /><strong>(Lv. 165)</strong> [ n/a | <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Advanced_Wheel_Wind.png/revision/latest?cb=20140107033511' alt='Skill Advanced Wheel Wind' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Immune_Barrier.png/revision/latest?cb=20140107033613' alt='Skill Immune Barrier' width='32' height='32' /> ]<br /><strong>(Lv. 170)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Advanced_Rolling_Assault.png/revision/latest?cb=20140107031718' alt='Skill Advanced Rolling Assault' width='32' height='32' /> | <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Advanced_Earth_Break.png/revision/latest?cb=20140107033511' alt='Skill Advanced Earth Break' width='32' height='32' /> ]<br /><strong>(Lv. 180)</strong> [ <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Advanced_Storm_Break.png/revision/latest?cb=20140107031718' alt='Skill Advanced Storm Break' width='32' height='32' /> | n/a ]<br /><strong>(Lv. 185)</strong> [ n/a | <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Critical_Bind.png/revision/latest?cb=20140107033513' alt='Skill Critical Bind' width='32' height='32' /> ]</p>"]
+            ],
+            "details": [
+                "Alpha and Beta unlock new skills as you level up and will be able to max everything",
+                "Put one SP into each skill first that is available",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "Some of Alpha and Beta's skills will require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Wind_Cutter.png/revision/latest?cb=20140107031817' alt='Skill Wind Cutter'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Wind_Striker.png/revision/latest?cb=20140107031817' alt='Skill Wind Striker'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817' alt='Skill Storm Break'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Rolling_Cross.png/revision/latest?cb=20140107031816' alt=''> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815' alt=''> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816' alt=''> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Moon_Strike.png/revision/latest?cb=20140107031720' alt=''> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Piercing_Thrust.png/revision/latest?cb=20140107031721' alt=''> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Flash_Assault.png/revision/latest?cb=20140107031719' alt=''>",
+            "possible": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Moon_Strike.png/revision/latest?cb=20140107031720' alt='Skill Moon Strike' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Piercing_Thrust.png/revision/latest?cb=20140107031721' alt='Skill Piercing Thrust' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Flash_Assault.png/revision/latest?cb=20140107031719' alt='Skill Flash Assault' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816' alt='Skill Spin Cutter' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Rolling_Cross.png/revision/latest?cb=20140107031816' alt='Skill Rolling Cross' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815' alt='Skill Rolling Assault' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Wind_Cutter.png/revision/latest?cb=20140107031817' alt='Skill Wind Cutter' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Wind_Striker.png/revision/latest?cb=20140107031817' alt='Skill Wind Striker' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817' alt='Skill Storm Break' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Shadow_Rain.png/revision/latest?cb=20140108010045' alt='Skill Shadow Rain' width='32' height='32'><ul><li>Nodes provide boosts for both Alpha and Beta's skills</li></ul>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3377/zero",
+            "https://maplestory.fandom.com/wiki/Zero",
+            "https://youtu.be/ArGmjBAih0k"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Alpha and Beta",
+            "content": "<p>Zero starts at Level 100 and does not use MP and instead use Time Force (TF) which quickly regenerates</p><p><img class='extra-content'image' src='https://i.imgur.com/UadFjkV.png' alt='Zero HP and TF'/><img class='extra-content-image' src='https://i.imgur.com/oNbrhuM.png' alt='Zero Cosmetics'/> <p>With Zero, you control two characters Alpha and Beta. Both Alpha and Beta have their own HP and TF. Using attacks of the opposite character will swap you between Alpha and Beta. While the other is not active, they will slowly regenerate HP and TF. As well, both characters can be decorated differently and wear clothing specific to their gender. Non-gender specific clothing can be equipped by both at the same time if desired</p><p><img class='extra-content-image' src='https://i.imgur.com/YkMsT9i.png' alt='Zero Equipment'/></p><p>Zero's weapon is also special in which it upgrades for free every 10 levels up to Lv. 170. Within the Mirror World, monsters will drop Weapon Points (WP) that can be used to reroll a weapon's Bonus Stats and Potential</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Transcendent", [{
+                    "id": 100000282,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Dual_Combat.png/revision/latest?cb=20140107015549"],
+                    "animations": ["https://media1.giphy.com/media/pqqy1wpuAUnRlEeNTj/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "<strong>[Tag]</strong>: To switch between Alpha and Beta, use skills for the corresponding character",
+                        "<strong>[Assist]</strong>: After using Tag to switch, for up to 3 seconds, the other character will assist you by attacking when you attack"
+                    ]
+                },
+                {
+                    "id": 100000279,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Resolution_Time.png/revision/latest?cb=20140107015557"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing the Zero storyline"
+                    ]
+                },
+                {
+                    "id": 100001262,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Temple_Recall.png/revision/latest?cb=20140107015656"],
+                    "type": "Active"
+                },
+                {
+                    "id": 100001263,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Divine_Force.png/revision/latest?cb=20140107015534"],
+                    "animations": ["https://media4.giphy.com/media/fdVRSWBgKut3QCghGR/giphy.gif"],
+                    "type": "Toggle Party Buff",
+                    "desc": "",
+                    "details": [
+                        "Does not stack with <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Divine_Speed.png/revision/latest?cb=20140107015542' alt='Skill Divine Speed'/>"
+                    ]
+                },
+                {
+                    "id": 100001264,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Divine_Speed.png/revision/latest?cb=20140107015542"],
+                    "animations": ["https://media0.giphy.com/media/GUxGdwRqwnn52fXp3Q/giphy.gif"],
+                    "type": "Toggle Party",
+                    "desc": "",
+                    "details": [
+                        "Does not stack with <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Divine_Force.png/revision/latest?cb=20140107015534' alt='Skill Divine Force'/>"
+                    ]
+                },
+                {
+                    "id": 100001265,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Burst_Jump.png/revision/latest?cb=20140107015513"],
+                    "animations": ["https://media.giphy.com/media/S5VziRkqsdIYoAYMBG/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice"
+                    ]
+                },
+                {
+                    "id": 100001266,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Burst_Step.png/revision/latest?cb=20140107015525"],
+                    "animations": ["https://media.giphy.com/media/RJJQfT8eXvJ31kH18e/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Pressing any directional Arrow Key twice will dash towards that direction",
+                    "details": [
+                        "Can be used on ladders as well and links with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Burst_Jump.png/revision/latest?cb=20140107015513' alt='Skill Burst Jump'> Burst Jump",
+                        "Can be assigned a Key Slot, pressing the Skill Key plus an Arrow Key will activate Burst Step"
+                    ]
+                },
+                {
+                    "id": 100001268,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Rhinne%27s_Protection.png/revision/latest?cb=20140107015644"],
+                    "animations": ["https://media3.giphy.com/media/rY0rlNstyrD4Ja9b56/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id":100000267,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044"],
+                    "type": "Passive",
+                    "desc": "When you attack an enemy with a skill, your other attacks' cooldowns will be reduced. Also grants a special stacking buff when attacking",
+                    "details": [
+                        "<img src='https://i.imgur.com/tYmXTGb.png' alt='Skill Doubletime Recon'/> <strong>[Alpha - Detect]</strong>: Increases %Crit Rate",
+                        "<img src='https://i.imgur.com/R7VL2jP.png' alt='Skill Doubletime Strength'/> <strong>[Beta - Strength]</strong>: Increases %Damage",
+                        "Effects persist even when tagged"
+                    ]
+                },
+                {
+                    "id": 100001261,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Time_Distortion.png/revision/latest?cb=20140108010045"],
+                    "animations": ["https://media4.giphy.com/media/qBCifRdEjhAOBCo4vD/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Creates a zone that has different effects on enemies and party members",
+                    "details": [
+                        "<strong>[Enemy]</strong>: Increases damage taken and stuns. Every 4 secs, enemies will be buff canceled",
+                        "<strong>[Party Member]</strong>: Increases Attack Speed (by 1 stage). Every 4 secs, removes Abnormal Statuses"
+                    ],
+                    "reqLev": 110
+                },
+                {
+                    "id": 100001274,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Time_Holding.png/revision/latest?cb=20140108010045"],
+                    "animations": ["https://media3.giphy.com/media/TkTlgcafuT15aXEoLq/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Resets skill cooldowns for all applicable skills. During the period of the buff, you gain invincibility and unlimited Time Force",
+                    "details": [
+                        "Increases %Damage when Zero is Lv. 200 or above"
+                    ],
+                    "reqLev": 120
+                },
+                {
+                    "id": 100001272,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rewind.png/revision/latest?cb=20140108010045"],
+                    "animations": ["https://media2.giphy.com/media/kA3JJMkQqvZQAGJMH0/giphy.gif"],
+                    "type": "Buff Revive",
+                    "desc": "While active, when hit with a fatal attack, you are revived",
+                    "details": [
+                        "Restores all your HP and makes you invincible for a few seconds"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 100001283,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Shadow_Rain.png/revision/latest?cb=20140108010045"],
+                    "animations": ["https://media.giphy.com/media/eJjat8MraHdbnwUv6S/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Alpha and Beta combine forces to unleash an ultimate attack",
+                    "details": [
+                        "Applies <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Critical_Bind.png/revision/latest?cb=20140107033513' alt='Skill Critical Bind'> Critical Bind to targets hit"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 100001005,
+                    "offline": true,
+                    "name": "Focused Time",
+                    "shortDesc": "Consumes 10 Time Force, increases Attack Power and Magic ATT: +4%, for 40 minutes",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Focused_Time.png/revision/latest?cb=20140108010044"],
+                    "animations": ["https://media2.giphy.com/media/ZlCcynrMy375GqeNuj/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": 200,
+                    "details": [
+                        "Affects all nearby players",
+                        "Has a cooldown (2 hrs)"
+                    ]
+                }]
+            ],
+            [
+                "Alpha", [
+                    {
+                        "id": 101001200,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Moon_Strike.png/revision/latest?cb=20140107031720", "https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Piercing_Thrust.png/revision/latest?cb=20140107031721", "https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Shadow_Strike.png/revision/latest?cb=20140107031816"],
+                        "animations": ["https://media3.giphy.com/media/6N0WtQ9l2CJSqWMibM/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls in enemies while dealing damage",
+                        "details": [
+                            "Follow-up Attacks occur when you press the same button consecutively, for example <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Moon_Strike.png/revision/latest?cb=20140107031720' alt='Skill Moon Strike' width='32' height='32'><ul><li>Follow-up Attacks share the same key as its Active Attack</li></ul>"
+                        ],
+                        "reqLev": 100
+                    },
+                    {
+                        "id": 101000200,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Piercing_Thrust.png/revision/latest?cb=20140107031721"],
+                        "type": "Follow-up Attack",
+                        "desc": "Pushes enemies back while dealing damage",
+                        "reqLev": 100
+                    },
+                    {
+                        "id": 101000201,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Shadow_Strike.png/revision/latest?cb=20140107031816"],
+                        "type": "Follow-up Attack",
+                        "desc": "Teleports to the nearest enemy and strikes nearby enemies",
+                        "details": [
+                            "If there is no enemy in sight, will teleport a short distance",
+                            "Sends out a blade that pierces through enemies"
+                        ],
+                        "reqLev": 100
+                    },
+                    {
+                        "id": 101101200,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Flash_Assault.png/revision/latest?cb=20140107031719", "https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816"],
+                        "animations": ["https://media1.giphy.com/media/ZRQrEku25svZwlqzeX/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while damaging enemies",
+                        "reqLev": 110
+                    },
+                    {
+                        "id": 101100200,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816"],
+                        "type": "Follow-up Attack",
+                        "desc": "At your location, twirl to damage surrounding enemies",
+                        "reqLev": 115
+                    },
+                    {
+                        "id": 101100201,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Advanced_Spin_Cutter.png/revision/latest?cb=20140107031718", "https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits",
+                            "Now creates blades that pierces through enemies"
+                        ],
+                        "reqLev": 150
+                    },
+                    {
+                        "id": 101111200,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Rolling_Cross.png/revision/latest?cb=20140107031816", "https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815"],
+                        "animations": ["https://media.giphy.com/media/Qu2DeSBnbAPk3No5ke/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap up while spinning your sword",
+                        "reqLev": 120
+                    },
+                    {
+                        "id": 101110202,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815"],
+                        "type": "Follow-up Attack",
+                        "desc": "Spin back down to the ground while pushing enemies back",
+                        "reqLev": 130
+                    },
+                    {
+                        "id": 101110200,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Grand_Rolling_Cross.png/revision/latest?cb=20140107031719", "https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Rolling_Cross.png/revision/latest?cb=20140107031816"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Now creates blades that pierces through enemies"
+                        ],
+                        "reqLev": 160
+                    },
+                    {
+                        "id": 101110203,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Advanced_Rolling_Assault.png/revision/latest?cb=20140107031718", "https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits",
+                            "Now creates blades that pierces through enemies"
+                        ],
+                        "reqLev": 170
+                    },
+                    {
+                        "id": 101121200,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Wind_Cutter.png/revision/latest?cb=20140107031817", "https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Wind_Striker.png/revision/latest?cb=20140107031817", "https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817"],
+                        "animations": ["https://media.giphy.com/media/YSTcLqynWbfTN6eijA/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash forward creating vortexes on enemies hit",
+                        "reqLev": 140
+                    },
+                    {
+                        "id": 101120201,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Wind_Striker.png/revision/latest?cb=20140107031817"],
+                        "type": "Follow-up Attack",
+                        "desc": "Slash forward again to send any vortexes flying",
+                        "reqLev": 145
+                    },
+                    {
+                        "id": 101120202,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817"],
+                        "type": "Follow-up Attack",
+                        "desc": "Deal a final slash that creates another vortex that pushes enemies away",
+                        "reqLev": 150
+                    },
+                    {
+                        "id": 101120204,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Advanced_Storm_Break.png/revision/latest?cb=20140107031718", "https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Vortex now leaves a lingering Shock Field that continuously damages enemies within it"
+                        ],
+                        "reqLev": 180
+                    },
+                    {
+                        "id": 101000203,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Long_Sword_Mastery.png/revision/latest?cb=20140107031720"],
+                        "type": "Passive",
+                        "reqLev": 100
+                    },
+                    {
+                        "id": 101110205,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Time_Generator.png/revision/latest?cb=20140107031817"],
+                        "type": "Passive",
+                        "reqLev": 110
+                    },
+                    {
+                        "id": 101100203,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Reinforce_Body.png/revision/latest?cb=20140107031721"],
+                        "type": "Passive",
+                        "reqLev": 130
+                    },
+                    {
+                        "id": 101120207,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Divine_Leer.png/revision/latest?cb=20140107031718"],
+                        "type": "Passive",
+                        "desc": "Attacks have a chance to apply a Bleeding debuff and recover %Max HP",
+                        "details": [
+                            "Also permanently increases %Crit Damage"
+                        ],
+                        "reqLev": 160
+                    }]
+                ],
+                [
+                "Beta", [
+                    {
+                        "id": 101001100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Rising_Slash_%28Zero%29.png/revision/latest?cb=20140107033613", "https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Air_Raid.png/revision/latest?cb=20140107033512"],
+                        "animations": ["https://media.giphy.com/media/clojInLGMkuxvuLPaD/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swings your sword upwards launching enemies into the air",
+                        "details": [
+                            "Follow-up Attacks occur when you press the same button consecutively, for example <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Rising_Slash_%28Zero%29.png/revision/latest?cb=20140107033613' alt='Skill Rising Slash (Zero)' width='32' height='32'><ul><li>Follow-up Attacks share the same key as its Active Attack</li></ul>"
+                        ],
+                        "reqLev": 100
+                    },
+                    {
+                        "id": 101000100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Air_Raid.png/revision/latest?cb=20140107033512"],
+                        "type": "Follow-up Attack",
+                        "desc": "Swing your sword downward bring any enemies in the air back down",
+                        "reqLev": 100
+                    },
+                    {
+                        "id": 101000101,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Air_Riot.png/revision/latest?cb=20140107033512", "https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Air_Raid.png/revision/latest?cb=20140107033512"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increased %Damage",
+                            "Now causes an exploding shockwave where attack landed<ul><li>Unaffected by Damage Reflect</li></ul>"
+                        ],
+                        "reqLev": 150
+                    },
+                    {
+                        "id": 101101100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Flash_Cut.png/revision/latest?cb=20140107033514", "https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Throwing_Weapon.png/revision/latest?cb=20140107033614"],
+                        "animations": ["https://media.giphy.com/media/QytyPWUaf9pWeoNxj1/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swings your sword forward dealing damage to enemies",
+                        "reqLev": 105
+                    },
+                    {
+                        "id": 101100100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Throwing_Weapon.png/revision/latest?cb=20140107033614"],
+                        "type": "Follow-up Attack",
+                        "desc": "Throw your sword forward at an angle towards the ground",
+                        "reqLev": 110
+                    },
+                    {
+                        "id": 101100101,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Advanced_Throwing_Weapon.png/revision/latest?cb=20140107033511", "https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Throwing_Weapon.png/revision/latest?cb=20140107033614"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Instead of throwing your weapon at an angle, the sword will now slowly travel forward damaging and pushing enemies back<ul><li>Unaffected by Damage Reflect</li></ul>"
+                        ],
+                        "reqLev": 155
+                    },
+                    {
+                        "id": 101111100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Spin_Driver.png/revision/latest?cb=20140107033613", "https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Wheel_Wind.png/revision/latest?cb=20140107033614"],
+                        "animations": ["https://media.giphy.com/media/dw3R6tfROqbVScJo27/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Twirl your sword while pulling enemies in",
+                        "reqLev": 115
+                    },
+                    {
+                        "id": 101110101,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Wheel_Wind.png/revision/latest?cb=20140107033614"],
+                        "type": "Follow-up Attack",
+                        "desc": "Continuously spin around dealing damage to enemies in the area",
+                        "details": [
+                            "You can move while spinning",
+                            "Attack is cancelled when another attack is used"
+                        ],
+                        "reqLev": 125
+                    },
+                    {
+                        "id": 101110102,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Advanced_Wheel_Wind.png/revision/latest?cb=20140107033511", "https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Wheel_Wind.png/revision/latest?cb=20140107033614"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and duration",
+                            "Attack will also pull in nearby enemies"
+                        ],
+                        "reqLev": 165
+                    },
+                    {
+                        "id": 101121100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Giga_Crash.png/revision/latest?cb=20140107033612", "https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Falling_Star.png/revision/latest?cb=20140107033513", "https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Earth_Break.png/revision/latest?cb=20140107033513"],
+                        "animations": ["https://media.giphy.com/media/LMDT8qhmuuBqdAt2G7/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slams down on the ground hitting nearby enemies",
+                        "reqLev": 135
+                    },
+                    {
+                        "id": 101120100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Falling_Star.png/revision/latest?cb=20140107033513"],
+                        "type": "Follow-up Attack",
+                        "desc": "Jump upwards and slam down again hitting nearby enemies",
+                        "reqLev": 140
+                    },
+                    {
+                        "id": 101120102,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Earth_Break.png/revision/latest?cb=20140107033513"],
+                        "type": "Follow-up Attack",
+                        "desc": "Jump upwards a final time to slam a gigantic sword onto enemies",
+                        "reqLev": 145
+                    },
+                    {
+                        "id": 101120104,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Advanced_Earth_Break.png/revision/latest?cb=20140107033511", "https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Earth_Break.png/revision/latest?cb=20140107033513"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits but, reduces max enemies hit",
+                            "Now creates a lingering Shock Field that continuously damages to enemies within it"
+                        ],
+                        "reqLev": 170
+                    },
+                    {
+                        "id": 101000103,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Heavy_Sword_Mastery.png/revision/latest?cb=20140107033612"],
+                        "type": "Passive",
+                        "reqLev": 100
+                    },
+                    {
+                        "id": 101100102,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Solid_Body.png/revision/latest?cb=20140107033613"],
+                        "type": "Passive",
+                        "reqLev": 110
+                    },
+                    {
+                        "id": 101110103,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Armor_Split.png/revision/latest?cb=20140107033512"],
+                        "type": "Passive",
+                        "desc": "Beta's attacks has a chance to apply a stacking debuff that reduces an enemy's DEF",
+                        "reqLev": 130
+                    },
+                    {
+                        "id": 101120109,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Immune_Barrier.png/revision/latest?cb=20140107033613"],
+                        "type": "Passive",
+                        "desc": "After being hit by an attack, there is a chance to generate a barrier that blocks damage",
+                        "details": [
+                            "You are invincible at the time the barrier is created"
+                        ],
+                        "reqLev": 165
+                    },
+                    {
+                        "id": 101120110,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Critical_Bind.png/revision/latest?cb=20140107033513"],
+                        "type": "Passive Bind",
+                        "desc": "Beta's attacks have a chance to apply a debuff that binds enemies and makes them more vulnerable to Alpha's attacks",
+                        "details": [
+                            "Enemy is binded and Alpha's attack gain %Crit Rate and %Crit Damage towards that enemy",
+                            "There is a cooldown (35 secs) before an enemy can be binded again using Critical Bind "
+                        ],
+                        "reqLev": 185
+                    }]
+            ]
+        ],
+        "fifth": {
+            "fifthCommon": ["transcendentRhinnePrayer", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Chrono Break",
+                    "shortDesc": "Time Force Cost: 50, Max Enemies Hit: 15, Damage: 775%, Number of Attacks: 5, Bind Duration: 10 sec\\nBind Duration: Increases up to 100%, based on initial damage done\\nFor 42 sec - Skill Cooldowns: -250% (Excludes skills not affected by cooldown reduction), Attack Speed: +2, Final Damage: +35%, slows nearby enemies.\\nAdditional shock dealt 6 times, dealing 1300% damage 12 times to up to 15 enemies when the skill ends. Shock prioritizes enemies hit by the attack and boss monsters with the highest max HP.\\nCooldown: 240 sec.",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Chrono_Break.png/revision/latest?cb=20161125062540"],
+                    "animations": ["https://media4.giphy.com/media/5vlmN1UwutuxDt9cgY/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Unleashes a massive attack that binds nearby enemies",
+                    "details": [
+                        "While active, nearby enemies are slowed, Skills have reduced cooldowns and you gain increased Attack Speed (by 2 stages), %Final Damage",
+                        "If any enemies still live when the skill ends, they will take damage again based on the damage you did during Chrono Break",
+                        "Unaffected by Attack Ignore and Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Twin Blades of Time",
+                    "shortDesc": "Time Force Cost: 80, Max Enemies Hit: 12, Invulnerable while casting skill\\n[Beta Link] 1st Hit: Deals 1750% damage 8 times, 2nd Hit: Deals 1660% damage 12 times, 3rd Hit: Deals 2000% damage 13 times\\n[Alpha Link] 1st Hit: Deals 1750% damage 8 times, 2nd Hit: Deals 1660% damage 12 times, 3rd Hit: deal 2000% damage 13 times\\n[Joint Attack]: Triggers an explosion 3 time(s), which deals 1800% damage 15 times, Ignores an additional 100% Monster DEF\\nCooldown: 120 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Twin_Blades_of_Time.png/revision/latest?cb=20170609033222"],
+                    "animations": ["https://media2.giphy.com/media/2Vn0NxvnByhAXKL2L2/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Performs a joint attack with Alpha and Beta",
+                    "details": [
+                        "Invincible while casting",
+                        "Final attack has 100% Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Shadow Flash",
+                    "shortDesc": "Time Force Cost: 10, creates a sanctuary that lasts during cooldown. Max Enemies Hit: 8\\nAlpha: Deals Damage: 1000%, Number of Attacks: 6. Beta: Deals Damage: 1200%, Number of Attacks: 5\\nSkill Cooldown: Consumes 25 Time Force to destroy the sanctuary, move to the location, and attack up to 15 enemies. Alpha: Activates a sword attack 3 time(s), Damage: 800%, Number of Attacks: 15. Beta: Activates a sword attack 2 time(s). Damage: 1500%, Number of Attacks: 12\\nCooldown: 40 sec",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Shadow_Flash_%28Alpha%29.png/revision/latest?cb=20181115065338", "https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Shadow_Flash_%28Beta%29.png/revision/latest?cb=20181115065338"],
+                    "animations": ["https://media2.giphy.com/media/pAivY3C7KxHkNH6gT5/giphy.gif"],
+                    "type": "Attack / Summon",
+                    "desc": "Creates a sanctuary on the ground that you can teleport back to destroy the sanctuary and deal a devastating attack",
+                    "details": [
+                        "Alpha and Beta's Shadow Flash function separately"
+                    ]
+                },
+                {
+                    "name": "Ego Weapon",
+                    "shortDesc": "Alpha: Lazuli forms 9 blade(s), attacking 6 time(s) for 350% damage\\nBeta: Lapis forms 3 Heavy Swords, unleashing 2 shock(s) for 350% damage to 4 enemies\\nCooldown: 15 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/ego-weapon-alpha.png?w=600", "https://orangemushroom.files.wordpress.com/2020/06/ego-weapon-beta.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/W2rbRFIS37wYcsS9Nl/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Periodically, additional attacks will appear for both Alpha and Beta while attacking",
+                    "details": [
+                        "<strong>[Alpha]</strong>: Swords spin towards enemies dealing damage to enemies it collides with until it reaches the target",
+                        "<strong>[Beta]</strong>: Swords strike down onto enemies dealing damage to surrounding enemies",
+                        "Unaffected by Damage Reflect",
+                        "Cooldowns are separate for Alpha and Beta"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Shadow Rain - Transcendent",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Shadow_Rain.png/revision/latest?cb=20140108010045"],
+                "animations": ["https://media.giphy.com/media/eJjat8MraHdbnwUv6S/giphy.gif"]
+            },
+            {
+                "name": "Rolling Cross - Alpha",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Rolling_Cross.png/revision/latest?cb=20140107031816"],
+                "animations": ["https://media.giphy.com/media/Qu2DeSBnbAPk3No5ke/giphy.gif"]
+            },
+            {
+                "name": "Wind Cutter - Alpha",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Wind_Cutter.png/revision/latest?cb=20140107031817"],
+                "animations": ["https://media.giphy.com/media/YSTcLqynWbfTN6eijA/giphy.gif"]
+            },
+            {
+                "name": "Flash Cut - Beta",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Flash_Cut.png/revision/latest?cb=20140107033514"],
+                "animations": ["https://media.giphy.com/media/QytyPWUaf9pWeoNxj1/giphy.gif"]
+            },
+            {
+                "name": "Giga Crash - Beta",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Giga_Crash.png/revision/latest?cb=20140107033612"],
+                "animations": ["https://media.giphy.com/media/LMDT8qhmuuBqdAt2G7/giphy.gif"]
+            },
+            {
+                "name": "Chrono Break - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Chrono_Break.png/revision/latest?cb=20161125062540"],
+                "animations": ["https://media4.giphy.com/media/5vlmN1UwutuxDt9cgY/giphy.gif"]
+            },
+            {
+                "name": "Twin Blades of Time - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Twin_Blades_of_Time.png/revision/latest?cb=20170609033222"],
+                "animations": ["https://media2.giphy.com/media/2Vn0NxvnByhAXKL2L2/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Zero is a STR warrior class that is not part of any class grouping. With Zero, you control two characters Alpha and Beta. Using different attacks will swap you between Alpha and Beta"
+}

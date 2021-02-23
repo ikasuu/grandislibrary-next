@@ -1,0 +1,709 @@
+{
+    "class": "Wild Hunter",
+    "content": {
+        "classGroup": "Resistance",
+        "jobGroup": "Archer",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Chance for attack to deal increased %Damage",
+        "legionValue": "4/8/12/16/20% - 20% Chance",
+        "equipment": [
+            {"weapon": ["crossbow"]},
+            {"secondary": ["arrowhead"]},
+            {"ammo": "arrowC"}
+        ],
+        "classType": [
+            "Party Buff - Crit Rate + Crit Damage",
+            "Jaguar-riding",
+            "Micro-management"
+        ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Chance to Skip Cooldown"],
+        "prosCons": {
+            "pros": [
+                "Unique mechanic of mounting a Jaguar that you can ride and attack on",
+                "Lots of %Damage Reduction passives and %Max HP buffs",
+                "Has summons that attack for you and 5th Job makes you a cat lady",
+                "Has very good party buffs with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Call_of_the_Wild.png/revision/latest?cb=20120810051406' alt='Skill Call of the Wild'> Call of the Wild and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes'> Sharp Eyes",
+                "Has a bind with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Jaguar_Soul.png/revision/latest?cb=20150323084659' alt='Skill Jaguar Soul'> Jaguar Soul"
+            ],
+            "cons": [
+                "Micromanagement with controlling Jaguar when unmounted",
+                "Occasionally has lots of buttons to press and manage",
+                "Certain skills have long cooldowns"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +70%",
+                "<strong>Max MP</strong>: +15%",
+                "<strong><img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Flurry.png/revision/latest?cb=20130517114914' alt='Skill Flurry'> Dodge Chance</strong>: +40%",
+                "<strong>Avoidability</strong>: +15%",
+                "<strong>DEF</strong>: +50%",
+                "<strong>Attack</strong>: +30%",
+                "<strong>Crit Rate</strong>: +45% + (up to 18% with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Jaguar_Link.png/revision/latest?cb=20150321005539' alt='Skill Jaguar Link'> Jaguar Link)",
+                "<strong>Crit Damage</strong>: +23% + (8% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Summon_Jaguar.png/revision/latest?cb=20150320015457' alt='Skill Summon Jaguar'> unmounted) + (up to 12% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Jaguar_Link.png/revision/latest?cb=20150321005539' alt='Skill Jaguar Link'> Jaguar Link)",
+                "<strong>Damage</strong>: +10%",
+                "<strong>Final Damage</strong>: +20%",
+                "<strong>Knockback Resistance</strong>: +50% + (50% while <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Jaguar_Rider.png/revision/latest?cb=20110515080537' alt='Skill Jaguar Rider'> mounted)",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +35%",
+                "<strong>Ignore DEF: </strong>+30%",
+                "<strong>Abnormal Status Resistance</strong>: 45"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Soul_Arrow_Crossbow.png/revision/latest?cb=20110502134857' alt='Skill Soul Arrow Crossbow'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Call_of_the_Wild.png/revision/latest?cb=20120810051406' alt='Skill Call of the Wild'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Crossbow_Booster.png/revision/latest?cb=20100607082800' alt='Skill Crossbow Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Feline_Berserk.png/revision/latest?cb=20110515144409' alt='Skill Feline Berserk'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Hunting_Assistant_Unit.png/revision/latest?cb=20130517120628' alt='Skill Hunting Assistant Unit'>(8s cd),<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Drill_Salvo.png/revision/latest?cb=20150323085908' alt='Skill Drill Salvo'>(30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Jaguar_Storm.png/revision/latest?cb=20161125062545' alt='Skill Jaguar Storm'>(149 - 120s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Silent_Rampage.png/revision/latest?cb=20180921232551' alt='Skill Silent Rampage'>(160s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355' alt='Skill For Liberty'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957' alt='Skill Vicious Shot'>(120s cd)",
+            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Jaguar_Soul.png/revision/latest?cb=20150323084659' alt='Skill Jaguar Soul'>(210s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Primal_Fury.png/revision/latest?cb=20170609033041' alt='Skill Primal Fury'>(150s cd)"
+        },
+        "linkSkill": {
+            "id": 80000329,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level"
+            ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/2CtzSMS.png",[499,374]],
+            "npc": [
+                ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/NPC_Belle_%282%29.png/revision/latest?cb=20110401100912",[89,147]]
+            ],
+            "info": [
+                "To create one, choose the 'Resistance' option in the Character Creation screen and then continue through the story until Lv. 10 and talk to Belle in the <a href='https://maplestory.wiki/GMS/210.1.1/map/310010000' target='_blank' rel='noopener'>Secret Plaza</a> when prompt with choosing a class"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Double_Jump_%28Wild_Hunter%29.png/revision/latest?cb=20150319043405' alt='Skill Double Jump (Wild Hunter)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Resistance_Auto_Crank.png/revision/latest?cb=20130517113309' alt='Skill Resistance Auto Crank'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Nature%27s_Wrath.png/revision/latest?cb=20150320050902' alt='Skill Nature's Wrath'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Double_Shot_%28Wild_Hunter%29.png/revision/latest?cb=20150111201959' alt='Skill Double Shot (Wild Hunter)'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Jaguar_Mastery.png/revision/latest?cb=20150320201446' alt='Skill Jaguar Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Crossbow_Mastery.png/revision/latest?cb=20100609132925' alt='Skill Crossbow Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Crossbow_Booster.png/revision/latest?cb=20100607082800' alt='Skill Crossbow Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Call_of_the_Wild.png/revision/latest?cb=20120810051406' alt='Skill Call of the Wild'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Soul_Arrow_Crossbow.png/revision/latest?cb=20110502134857' alt='Skill Soul Arrow Crossbow'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Triple_Shot.png/revision/latest?cb=20150315224254' alt='Skill Triple Shot'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Jaguar_Link.png/revision/latest?cb=20150321005539' alt='Skill Jaguar Link'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Backstep.png/revision/latest?cb=20140513203116' alt='Skill Backstep'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Flurry.png/revision/latest?cb=20130517114914' alt='Skill Flurry'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Feline_Berserk.png/revision/latest?cb=20110515144409' alt='Skill Feline Berserk'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Hunting_Assistant_Unit.png/revision/latest?cb=20130517120628' alt='Skill Hunting Assistant Unit'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Enduring_Fire.png/revision/latest?cb=20110515140142' alt='Skill Enduring Fire'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_White_Heat_Rush.png/revision/latest?cb=20140513203111' alt='Skill White Heat Rush'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Wild_Instinct.png/revision/latest?cb=20110515144427' alt='Skill Wild Instinct' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Extended_Magazine.png/revision/latest?cb=20160627051915' alt='Skill Extended Magazine' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Crossbow_Expert.png/revision/latest?cb=20110503111142' alt='Skill Crossbow Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Advanced_Final_Attack_%28Wild_Hunter%29.png/revision/latest?cb=20150321010743' alt='Skill Advanced Final Attack (Wild Hunter)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423' alt='Skill Wild Arrow Blast' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Natural_Force.png/revision/latest?cb=20150322033557' alt='Skill Natural Force' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Drill_Salvo.png/revision/latest?cb=20150323085908' alt='Skill Drill Salvo' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Feline_Berserk_-_Reinforce.png/revision/latest?cb=20121113020307' alt='Skill Feline Berserk - Reinforce' width='32' height='32'> Feline Berserk - Reinforce</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Summon_Jaguar_-_Enhance.png/revision/latest?cb=20150321070058' alt='Skill Summon Jaguar - Enhance' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Summon_Jaguar_-_Reinforce.png/revision/latest?cb=20150321070056' alt='Skill Summon Jaguar - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Summon_Jaguar_-_Cooldown_Cutter.png/revision/latest?cb=20150321065308' alt='Skill Summon Jaguar - Cooldown Cutter' width='32' height='32'> Summon Jaguar - Enhance, Reinforce and Cooldown Cutter</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Wild_Arrow_Blast_-_Reinforce.png/revision/latest?cb=20121113020435' alt='Skill Wild Arrow Blast - Reinforce' width='32' height='32'> Wild Arrow Blast - Reinforce</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423' alt='Skill Wild Arrow Blast'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Summon_Jaguar.png/revision/latest?cb=20150320015457' alt='Skill Summon Jaguar'/> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Exploding_Arrows.png/revision/latest?cb=20110515144344' alt='Skill Exploding Arrows'> <img width='32' height='32' src='https://i.imgur.com/KTWEMO9.png' alt='Skill Hunting Assistant Unit'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Swipe.png/revision/latest?cb=20110515140209' alt='Skill Swipe'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Drill_Salvo.png/revision/latest?cb=20150323085908' alt='Skill Drill Salvo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_White_Heat_Rush.png/revision/latest?cb=20140513203111' alt='Skill White Heat Rush'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Sonic_Roar.png/revision/latest?cb=20110515144341' alt='Skill Sonic Roar'/>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Double_Shot_%28Wild_Hunter%29.png/revision/latest?cb=20150111201959' alt='Skill Double Shot (Wild Hunter)'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Summon_Jaguar.png/revision/latest?cb=20150320015457' alt='Skill Summon Jaguar'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Swipe.png/revision/latest?cb=20110515140209' alt='Skill Swipe'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Dash_%27n_Slash.png/revision/latest?cb=20110515140146' alt='Skill Dash 'n Slash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_White_Heat_Rush.png/revision/latest?cb=20140513203111' alt='Skill White Heat Rush'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Enduring_Fire.png/revision/latest?cb=20110515140142' alt='Skill Enduring Fire'> <img width='32' height='32' src='https://i.imgur.com/KTWEMO9.png' alt='Skill Hunting Assistant Unit'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Sonic_Roar.png/revision/latest?cb=20110515144341' alt='Skill Sonic Roar'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423' alt='Skill Wild Arrow Blast'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Drill_Salvo.png/revision/latest?cb=20150323085908' alt='Skill Drill Salvo'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Exploding_Arrows.png/revision/latest?cb=20110515144344' alt='Skill Exploding Arrows'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3155/wild-hunter",
+            "https://maplestory.fandom.com/wiki/Wild_Hunter",
+            "https://dexless.com/guides/wild-hunter-jaguar-caretaker.124/"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build", "Yshtir"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 20021000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Crystal_Throw.png/revision/latest?cb=20100606013011"],
+                    "animations": ["https://media3.giphy.com/media/wb8YmIh8qMeYcow18R/giphy.gif"],
+                    "type": "Attacks",
+                    "desc": "Throws a rock that deals fixed damage"
+                },
+                {
+                    "id": 20021001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Infiltrate.png/revision/latest?cb=20100606013059"],
+                    "animations": ["https://media3.giphy.com/media/rtzXxeIMfgROrjF9K2/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Makes you invisible similar which when activated, you cannot hit or be hit by enemies similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> Dark Sight"
+                },
+                {
+                    "id": 20020002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Potion_Mastery.png/revision/latest?cb=20100606013234"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 30001281,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Secret_Assembly.png/revision/latest?cb=20160619042757"],
+                    "animations": ["https://media3.giphy.com/media/5HP2kBZZ6E1zFqW8mz/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 30001281,
+                    "offline": true,
+                    "name": "Capture",
+                    "shortDesc": "MP Cost: 10, can capture up to 5 types of monsters\\nCooldown: 10 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Capture.png/revision/latest?cb=20100606013619"],
+                    "type": "Active",
+                    "desc": "Allows you to capture a monster which you can then summon to fight for you",
+                    "details": [
+                        "Monsters can be captured after their HP falls below 90%",
+                        "This skill is used to capture Jaguars that can be used as mounts"
+                    ]
+                },
+                {
+                    "id": 30001062,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Call_of_the_Hunter.png/revision/latest?cb=20100606013737"],
+                    "type": "Summon",
+                    "desc": "Allows you to randomly summon a monster you've captured (aside from a Jaguar)"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 33001105,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Double_Shot_%28Wild_Hunter%29.png/revision/latest?cb=20150111201959"],
+                        "animations": ["https://media1.giphy.com/media/EzUgxXve5bdXMQA6vm/giphy.gif"],
+                        "type": "Unmounted | Attack",
+                        "desc": "Fires two arrows but only hits one enemy"
+                    },
+                    {
+                        "id": 33001205,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Double_Shot_%28Wild_Hunter%29.png/revision/latest?cb=20150111201959"],
+                        "animations": ["https://media3.giphy.com/media/IOvyjB1z4erXKuN9D0/giphy.gif"],
+                        "type": "Mounted | Attack",
+                        "desc": "Fires two arrows and Jaguar artillery that pierces and hit multiple enemies but has reduced damage and range"
+                    },
+                    {
+                        "id": 33001102,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Double_Jump_%28Wild_Hunter%29.png/revision/latest?cb=20150319043405"],
+                        "animations": ["https://media3.giphy.com/media/pDIdtBoHM7o6TgVvxr/giphy.gif"],
+                        "type": "Umounted | Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Shares the same Key Slot with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Graviboots.png/revision/latest?cb=20110515080540' alt='Skill Graviboots'> Graviboots"
+                        ]
+                    },
+                    {
+                        "id": 33001202,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Graviboots.png/revision/latest?cb=20110515080540"],
+                        "animations": ["https://media3.giphy.com/media/ekCMuJm9Er0SPwj2ba/giphy.gif"],
+                        "type": "Mounted | Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "id": 33001001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Jaguar_Rider.png/revision/latest?cb=20110515080537"],
+                        "animations": ["https://media3.giphy.com/media/HSNV0qhiEMdllzHZxZ/giphy.gif"],
+                        "type": "Active Mount",
+                        "desc": "Mount onto your Jaguar for mounted attacks",
+                        "details": [
+                            "Increases your Movement Speed, %Knockback Resistance while riding"
+                        ]
+                    },
+                    {
+                        "id": 33001007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Summon_Jaguar.png/revision/latest?cb=20150320015457"],
+                        "animations": ["https://media0.giphy.com/media/Vk32HTYng2umG26AN6/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons your Jaguar to fight with you",
+                        "details": [
+                            "If your Jaguar is already summoned, you can use this skill again to mount onto it",
+                            "When Jaguar attacks, there is a chance to apply a stacking debuff called <strong>'Another Bite'</strong> that causes your Crossbow skills to deal an extra line of attack per stack",
+                            "When Jaguar is summoned you will gain additional %Crit Damage and Abnormal Status Resistance"
+                        ]
+                    },
+                    {
+                        "id": 33001016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Swipe.png/revision/latest?cb=20110515140209"],
+                        "animations": ["https://media3.giphy.com/media/5VJk3VzKXewgrEeCmH/giphy.gif"],
+                        "type": "Jaguar | Attack",
+                        "desc": "Command your Jaguar to swipe at enemies in front of you and applying the debuff 'Another Bite'",
+                        "details": [
+                            "<strong>[Note]</strong>: Jaguar skills can only be used while unmounted",
+                            "If Swipe lands, you will heal 7% of Max HP",
+                            "Unaffected by damage reflect"
+                        ]
+                    },
+                    {
+                        "id": 33001025,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Wild_Lure.png/revision/latest?cb=20150320022552"],
+                        "animations": ["https://media0.giphy.com/media/v9JnAtaEXkMM6RGS4A/giphy.gif"],
+                        "type": "Jaguar | Active Debuff",
+                        "desc": "Provokes enemies to attack your Jaguar",
+                        "details": [
+                            "Duration is halved against bosses"
+                        ]
+                    },
+                    {
+                        "id": 33000005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Resistance_Auto_Crank.png/revision/latest?cb=20130517113309"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 33000034,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Nature%27s_Wrath.png/revision/latest?cb=20150320050902"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 33001006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Jaguar_Management.png/revision/latest?cb=20150320051351"],
+                        "type": "Special Active",
+                        "desc": "Opens a UI that shows all your captured Jaguars",
+                        "details": [
+                            "Special Jaguars captured give bonus stats",
+                            "Snow White and Onyx Jaguar bonus stats do not stack"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 33101113,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Triple_Shot.png/revision/latest?cb=20150315224254"],
+                        "animations": ["https://media2.giphy.com/media/fvlRuZZc5axXdA9sgZ/giphy.gif"],
+                        "type": "Unmounted | Attack",
+                        "desc": "Fires three arrows but only hits one enemy"
+                    },
+                    {
+                        "id": 33101213,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Triple_Shot.png/revision/latest?cb=20150315224254"],
+                        "type": "Mounted | Attack",
+                        "desc": "Fires three arrows and Jaguar artillery that pierces and hit multiple enemies but has reduced damage and range"
+                    },
+                    {
+                        "id": 33101215,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Dash_%27n_Slash.png/revision/latest?cb=20110515140146"],
+                        "animations": ["https://media1.giphy.com/media/Ig3dPJsu0mxGAG1dmu/giphy.gif"],
+                        "type": "Mounted | Attack",
+                        "desc": "Dash forward dealing damage to multiple enemies and also stuns enemies"
+                    },
+                    {
+                        "id": 33101115,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Dash_%27n_Slash.png/revision/latest?cb=20110515140146"],
+                        "animations": ["https://media1.giphy.com/media/9vLGDmynzY5THW09dD/giphy.gif", "https://media3.giphy.com/media/3PZizCCDmo8IcgYPwb/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Jaguar dashes forward pushing enemies and dealing damage to them. Also stuns and has a chance to apply a stack of 'Another Bite'",
+                        "details": [
+                            "Unaffected by damage reflect"
+                        ]
+                    },
+                    {
+                        "id": 33100000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Crossbow_Mastery.png/revision/latest?cb=20100609132925"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 33101003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Soul_Arrow_Crossbow.png/revision/latest?cb=20110502134857"],
+                        "animations": ["https://media0.giphy.com/media/j2TItguR78snSQZRyW/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 33101005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Call_of_the_Wild.png/revision/latest?cb=20120810051406"],
+                        "animations": ["https://media2.giphy.com/media/17KIH7alCUvBehCHle/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "This buff has two parts, one part that applies only to you and a part that applies to you and your party members",
+                        "details": [
+                            "<strong>[Self]</strong>: Increases %Damage Reduction, %Avoidability, and %Max MP to yourself",
+                            "<strong>[Party + Self]</strong>: Increases %Attack and Magic Attack"
+                        ]
+                    },
+                    {
+                        "id": 33100009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Final Attack Passive",
+                        "desc": "Grants your attacks a chance to deal an additional hit"
+                    },
+                    {
+                        "id": 33100010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 33100014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Jaguar_Mastery.png/revision/latest?cb=20150320201446"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 33101012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Crossbow_Booster.png/revision/latest?cb=20100607082800"],
+                        "animations": ["https://media2.giphy.com/media/husZ3Lbb8MV6luny0G/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 33111112,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Enduring_Fire.png/revision/latest?cb=20110515140142"],
+                        "animations": ["https://media4.giphy.com/media/g5fQVHrTV4YNa22LB1/giphy.gif"],
+                        "type": "Unmounted | Attack",
+                        "desc": "Fires five arrows but only hits one enemy"
+                    },
+                    {
+                        "id": 33111212,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Enduring_Fire.png/revision/latest?cb=20110515140142"],
+                        "animations": ["https://media2.giphy.com/media/CIEfbsbmSFD4k7h2s0/giphy.gif"],
+                        "type": "Mounted | Attack",
+                        "desc": "Fires five arrows and Jaguar artillery that pierce and hit multiple enemies but has reduced damage and range"
+                    },
+                    {
+                        "id": 33111015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Sonic_Roar.png/revision/latest?cb=20110515144341"],
+                        "animations": ["https://media4.giphy.com/media/IQVM4oBYfgBSYaJkzm/giphy.gif"],
+                        "type": "Jaguar | Attack",
+                        "desc": "Jaguar roars creating a shockwave that damages multiple enemies and has a chance to apply a stack of 'Another Bite'",
+                        "details": [
+                            "Unaffected by damage reflect"
+                        ]
+                    },
+                    {
+                        "id": 33111010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_White_Heat_Rush.png/revision/latest?cb=20140513203111"],
+                        "animations": ["https://media3.giphy.com/media/F7lirJyljqD7f1BaEv/giphy.gif"],
+                        "type": "Mounted | Attack",
+                        "desc": "Dash upwards diagonally while dealing damage and pushing enemies away"
+                    },
+                    {
+                        "id": 33111013,
+                        "icons": ["https://i.imgur.com/KTWEMO9.png"],
+                        "animations": ["https://media3.giphy.com/media/mCxZSLab0ZpKEvPmhj/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a turret that attacks in an area for a certain interval before having to recharge to attack again"
+                    },
+                    {
+                        "id": 33111007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Feline_Berserk.png/revision/latest?cb=20110515144409"],
+                        "animations": ["https://media2.giphy.com/media/zdsKA6oaS4y38JqSn3/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "",
+                        "details": [
+                            "Right-click the skill to toggle on/off the red wing effect from this skill"
+                        ]
+                    },
+                    {
+                        "id": 33110008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Flurry.png/revision/latest?cb=20130517114914"],
+                        "type": "Passive",
+                        "desc": "Grants a chance to dodge attacks",
+                        "details": [
+                            "Whenever you dodge an attack, all your attacks will be Critical Hits briefly",
+                            "Additionally, grants flat DEX"
+                        ]
+                    },
+                    {
+                        "id": 33110014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Jaguar_Link.png/revision/latest?cb=20150321005539"],
+                        "type": "Passive",
+                        "desc": "For each captured Jaguar, gain %Crit Chance, %Crit Damage and Attack"
+                    },
+                    {
+                        "id": 33111011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Backstep.png/revision/latest?cb=20140513203116"],
+                        "animations": ["https://media3.giphy.com/media/YiXFu1SQtbQ4t7ohtn/giphy.gif"],
+                        "type": "Toggle",
+                        "desc": "When toggled, you will walk backward without changing directions",
+                        "details": [
+                            "<strong>[Passive]</strong>: Increases %Damage Reduction"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 33121114,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423"],
+                    "animations": ["https://media1.giphy.com/media/F97SG87Vi0L0nz3VeK/giphy.gif"],
+                    "type": "Unmounted | Key-down Attack",
+                    "desc": "Continuously fires arrows but attacks only hits one enemy",
+                    "details": [
+                        "Deals increased %Damage to bosses",
+                        "Can move and jump while casting"
+                    ]
+                },
+                {
+                    "id": 33121214,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423"],
+                    "animations": ["https://media1.giphy.com/media/DTFS2QXZAV1mIdhsvc/giphy.gif"],
+                    "type": "Mounted | Key-down Attack",
+                    "desc": "Continuously fires arrows and Jaguar artillery that pierce and hit multiple enemies but has reduced damage and range",
+                    "details": [
+                        "Can move, jump, and use <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Graviboots.png/revision/latest?cb=20110515080540' alt='Skill Graviboots'/> while casting"
+                    ]
+                },
+                {
+                    "id": 33121017,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Jaguar_Soul.png/revision/latest?cb=20150323084659"],
+                    "animations": ["https://media1.giphy.com/media/5MWtYOj8XPCZzKE51h/giphy.gif"],
+                    "type": "Jaguar | Bind Attack",
+                    "desc": "Unleashes a cry that attacks and binds the enemy with the highest HP and applies a stack of 'Another Bite'"
+                },
+                {
+                    "id": 33121016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Drill_Salvo.png/revision/latest?cb=20150323085908"],
+                    "animations": ["https://media1.giphy.com/media/MKLCywxt9NR7PxI34r/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a turret that launches drill attacks",
+                    "details": [
+                        "Increases <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423' alt='Skill Wild Arrow Blast'> %Damage against Normal Monsters while mounted on Jaguar"
+                    ]
+                },
+                {
+                    "id": 33121004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300"],
+                    "animations": ["https://media4.giphy.com/media/vGakR1qVI5X95eejBy/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 33121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media0.giphy.com/media/Vh5k1olCUcUEWokLQA/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 33121008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media0.giphy.com/media/AX3UGelJn8X1hr8zAG/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 33120013,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Extended_Magazine.png/revision/latest?cb=20160627051915"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 33120000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Crossbow_Expert.png/revision/latest?cb=20110503111142", "https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Crossbow_Mastery.png/revision/latest?cb=20100609132925"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "id": 33120010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Wild_Instinct.png/revision/latest?cb=20110515144427"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 33120011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Advanced_Final_Attack_%28Wild_Hunter%29.png/revision/latest?cb=20150321010743", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation chance and %Damage",
+                        "Now grants flat Attack"
+                    ]
+                },
+                {
+                    "id": 33120015,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Natural_Force.png/revision/latest?cb=20150322033557"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 33120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Feline_Berserk_-_Reinforce.png/revision/latest?cb=20121113020307"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 33120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Feline_Berserk_-_Vitality.png/revision/latest?cb=20121113020314"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 33120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Feline_Berserk_-_Rapid_Attack.png/revision/latest?cb=20121113020322"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 33120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Summon_Jaguar_-_Enhance.png/revision/latest?cb=20150321070058"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 33120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Summon_Jaguar_-_Reinforce.png/revision/latest?cb=20150321070056"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 33120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Summon_Jaguar_-_Cooldown_Cutter.png/revision/latest?cb=20150321065308"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 33120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Wild_Arrow_Blast_-_Reinforce.png/revision/latest?cb=20121113020435"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 33120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Wild_Arrow_Blast_-_Guardbreak.png/revision/latest?cb=20121113020449"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 33120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Wild_Arrow_Blast_-_Boss_Rush.png/revision/latest?cb=20130517120657"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 33121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Silent_Rampage.png/revision/latest?cb=20180921232551"],
+                    "animations": ["https://media3.giphy.com/media/NaVaObeilsF4hTa3VH/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "id": 33121155,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Exploding_Arrows.png/revision/latest?cb=20110515144344"],
+                    "animations": ["https://media1.giphy.com/media/Cz4zbH9irGhNjqJ4DK/giphy.gif"],
+                    "type": "Mounted | Attack",
+                    "desc": "Create a large area attack that deals damage to multiple enemies",
+                    "details": [
+                        "Shares cooldown with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Jaguar_Rampage.png/revision/latest?cb=20130517120706' alt='Skill Jaguar Rampage'> Jaguar Rampage"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 33121255,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Jaguar_Rampage.png/revision/latest?cb=20130517120706"],
+                    "animations": ["https://media1.giphy.com/media/PSLOUph5YXgGh4R5T2/giphy.gif"],
+                    "type": "Jaguar | Attack",
+                    "desc": "Jaguar dashes forward dealing damage and applying a stack of 'Another Bite'",
+                    "details": [
+                        "Shares a cooldown with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Exploding_Arrows.png/revision/latest?cb=20110515144344' alt='Skill Exploding Arrows'> Exploding Arrows"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 32121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355"],
+                    "animations": ["https://media3.giphy.com/media/oyIl8vMpt7jt7EEUVE/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["resistanceInfantry", "goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthMain": [
+                {
+                    "name": "Jaguar Storm",
+                    "shortDesc": "MP Cost: 1000, summons 7 jaguars from among the ones you've tamed (excluding your current jaguar) for 40 sec\\nApplies 87% Final Damage to the skills of summoned jaguars\\nWhen the skill is activated while jaguars are summoned, they will be re-summoned at your location. Jaguars can be re-summoned once every 10 seconds\\nCooldown: 125 sec\\n[Passive Effect - ATT Power: +55]",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Jaguar_Storm.png/revision/latest?cb=20161125062545"],
+                    "animations": ["https://media3.giphy.com/media/D2Bzyt5ukObgVAddR8/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons additional Jaguars that you've captured to fight alongside you",
+                    "details": [
+                        "They will use Jaguar Attack skills as well and functions similar to having just one Jaguar out",
+                        "<strong>[Passive]</strong>: Grants flat Attack"
+                    ]
+                },
+                {
+                    "name": "Primal Fury",
+                    "shortDesc": "MP Cost: 1000, grants invincibility for 12 sec.\\n[Primary Attack] Max Enemies Hit: 15, Damage: 675%, Number of Attacks: 12. Primary attack occurs 9 times. \\n[Final Attack] Activats a shock 4 times that unleashes 15 attacks for 900% damage. Shock has Critical Rate +100% and ignore 100% additional enemy Defense.\\nFinal Attack can be triggered immediately by using the skill before the Primary Attacks are complete, and 100% chance for Another Bite debuff to be at max stack.\\nIf not mounted, causes you to mount your jaguar. Invincible while mounting.\\nCooldown: 150 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Primal_Fury.png/revision/latest?cb=20170609033041"],
+                    "animations": ["https://media2.giphy.com/media/iOoWzUUqWTsPPScLMI/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes a devastating large area attack before dealing a final attack",
+                    "details": [
+                        "You are invincible while the skill is active",
+                        "Final attack has 100% Ignore DEF and is a guaranteed Critical Hit",
+                        "Applies stacks of 'Another Bite'"
+                    ]
+                },
+                {
+                    "name": "Primal Grenade",
+                    "shortDesc": "MP Cost: 500, upon explosion deals Damage: 1200%, Max Enemies Hit: 8, Number of Attacks: 6\\nNo casting action while Wild Arrow Blast is active.\\n1 grenade is prepared every 4.5 sec. Can have up to 8 grenades\\nCooldown: 0.5 sec",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Primal_Grenade.png/revision/latest?cb=20181115065337"],
+                    "animations": ["https://media0.giphy.com/media/Q3BUJApy7tfUw2oooW/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launches grenades that detonate when it hits an enemy",
+                    "details": [
+                        "If the grenade does not hit an enemy, it will bounce and detonate after a short delay",
+                        "When used with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423' alt='Skill Wild Arrow Blast'> there is no casting action meaning you can continue to move and use <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423' alt='Skill Wild Arrow Blast'> while casting Primal Grenade",
+                        "1 grenade is prepared every 4.5 secs and you can hold up to 8 grenades at once"
+                    ]
+                },
+                {
+                    "name": "Wild Arrow Blast Type X",
+                    "shortDesc": "MP Cost: 1000, Max Key Down Duration: 8.5 sec, Frontal Enemies Hit: 8, Damage: 950%, Number of Consecutive Attacks: 4, Enemy DEF Ignored: 20%\\nCooldown: 120 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/wild-vulcan-type-x.png?w=600"],
+                    "animations": ["https://media4.giphy.com/media/bDhCAxvPVCKjg8uHhq/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Fires a continuous barrage of arrows forward",
+                    "details": [
+                        "You can move while casting",
+                        "Attack has increased %Ignore DEF"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Hunting Assistant Unit - 3rd Job",
+                "icons": ["https://i.imgur.com/KTWEMO9.png"],
+                "animations": ["https://media3.giphy.com/media/mCxZSLab0ZpKEvPmhj/giphy.gif"]
+            },
+            {
+                "name": "Wild Arrow Blast - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423"],
+                "animations": ["https://media1.giphy.com/media/DTFS2QXZAV1mIdhsvc/giphy.gif"]
+            },
+            {
+                "name": "Drill Salvo - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Drill_Salvo.png/revision/latest?cb=20150323085908"],
+                "animations": ["https://media1.giphy.com/media/MKLCywxt9NR7PxI34r/giphy.gif"]
+            },
+            {
+                "name": "Jaguar Rampage - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Jaguar_Rampage.png/revision/latest?cb=20130517120706"],
+                "animations": ["https://media1.giphy.com/media/PSLOUph5YXgGh4R5T2/giphy.gif"]
+            },
+            {
+                "name": "Jaguar Storm - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Jaguar_Storm.png/revision/latest?cb=20161125062545"],
+                "animations": ["https://media3.giphy.com/media/D2Bzyt5ukObgVAddR8/giphy.gif"]
+            },
+            {
+                "name": "Primal Fury - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Primal_Fury.png/revision/latest?cb=20170609033041"],
+                "animations": ["https://media2.giphy.com/media/iOoWzUUqWTsPPScLMI/giphy.gif"]
+            },
+            {
+                "name": "Primal Grenade - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Primal_Grenade.png/revision/latest?cb=20181115065337"],
+                "animations": ["https://media0.giphy.com/media/Q3BUJApy7tfUw2oooW/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Wild Hunter is a DEX archer class part of the Resistance. What is unique about Wild Hunter is that she can ride a jaguar into battle and also command it to attack alongside you"
+}

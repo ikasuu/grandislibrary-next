@@ -1,0 +1,133 @@
+/* Styling for the main items on our homepage */
+
+/* Main flex container that contains all our components */
+.grid-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin: 3.5rem 1rem 5rem 1rem;
+}
+
+/* Wrapper for our grid item */
+.grid-wrapper{
+    max-width: 100%;
+    margin: 1rem;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Responsive image */
+.grid-image{
+    width: 100%;
+    height: auto;
+}
+
+/* Dark overlay over our image */
+.grid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2a2829;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+/* Text container */
+.grid-text{
+    color: #FFF;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    z-index: 3;
+}
+
+/* Actual text */
+.grid-title{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 1.64rem;
+    text-align: center;
+}
+
+/* Logic below */
+
+/* 0+ px */
+@media (min-width: 0px) {
+    .grid-wrapper{
+        max-width: 100%;
+    }
+    .grid-title{
+        font-size: 2.5rem;
+    }
+    .grid-flex-container{
+        margin-bottom: 2rem;
+    }
+    
+}
+
+/* 351+ px */
+@media (min-width: 352px) {
+    .grid-wrapper{
+        max-width: 40%;
+    }
+    .grid-title{
+        font-size: 1.5rem;
+    }
+    
+}
+
+/* 414+ px */
+@media (min-width: 414px) {
+    .grid-wrapper{
+        max-width: 40%;
+    }
+    .grid-title{
+        font-size: 2rem;
+    }
+    
+}
+
+/* 651+ px */
+@media (min-width: 651px) {
+    .grid-wrapper{
+        max-width: 100%;
+    }
+    .grid-flex-container{
+        flex-wrap: nowrap;
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+    }
+    .grid-title{
+        font-size: 1.5rem;
+    }
+
+}
+
+/* 760+ px */
+@media (min-width: 760px) {
+    .grid-title{
+        font-size: 2rem;
+    }
+
+}
+
+/* 932+ px */
+@media (min-width: 932px){
+    .grid-title{
+        font-size: 2.5rem;
+    }
+}
+
+/* Removes overlay and text on hover to match old design */
+.grid-wrapper:hover .grid-overlay, .grid-wrapper:hover .grid-text{
+    opacity: 0;
+    transition: opacity ease 200ms;
+}

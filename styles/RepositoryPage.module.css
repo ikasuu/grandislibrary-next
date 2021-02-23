@@ -1,0 +1,98 @@
+/* Quick jump button stylization */
+.quick-jump{
+    line-height: normal;
+}
+
+/* Container to hold each unique page */
+.content-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Smaller container for elements that prefer a smaller width when screen is large*/
+@media( min-width: 1200px){
+    .repository-md-container{
+        width: 75%;
+    }
+    .repository-sm-container{
+        width: 60%;
+    }
+
+}
+
+.repository-image{
+    max-width: 70%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+}
+
+.repository-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.repository-video-container{
+    margin: 2rem 0 1rem 0;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+/* Adjustment to container for different sized screens */
+
+/* 0 - 575 px */
+@media (max-width: 575px){
+    .content-container{
+        max-width: 28rem;
+    }
+}
+
+/* 576+ px */
+@media (min-width: 576px){
+    .content-container{
+        max-width: 30rem;
+    }
+}
+
+/* 768+ px */
+@media (min-width: 768px){
+    .content-container{
+        max-width: 40rem;
+    }
+}
+
+/* 992+ px */
+@media (min-width: 992px){
+    .content-container{
+        max-width: 50rem;
+    }
+}
+
+/* 1200+ px */
+@media (min-width: 1200px){
+    
+    .content-container{
+        max-width: 70rem;
+    }
+}
+
+/* 0 - 1200 px */
+@media (max-width: 1200px){
+    .repository-image{
+        max-width: 80%;
+    }
+
+    .content-container{
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+}

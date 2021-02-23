@@ -1,0 +1,606 @@
+{
+    "class": "Paladin",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["oneHSword", "twoHSword", "oneHBlunt", "twoHBlunt"]},
+            {"secondary": ["rosary", "warShield"]}
+        ],
+        "classType": [
+            "Tank",
+            "Utility",
+            "Elemental"
+        ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Tanky",
+                "Support",
+                "Decent mobbing",
+                "Has skills that grant invincibility",
+                "100% Knockback resistance",
+                "Has a bind skill"
+            ],
+            "cons": [
+                "Short-range",
+                "Lack of mobility"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, Link Skills, and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +20%",
+                "<strong>DEF</strong>: +250%",
+                "<strong>Guard Chance</strong>: +40%",
+                "<strong>Crit Rate</strong>: +42%",
+                "<strong>Crit Damage</strong>: +8% + (6% with 1H Sword equipped) + (5% with 2H Sword / 1H/2H Blunt Weapon)",
+                "<strong>Final Damage</strong>: +42%",
+                "<strong>Knockback Resistance</strong>: 100%",
+                "<strong>Attack Speed (Weapon)</strong>: [1H] 3, [2H] 4",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +40% + (up to 10% from <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Elemental_Charge.png/revision/latest?cb=20130705102302' alt='Skill Elemental Charge' width='32' height='32'/> Elemental Charge)",
+                "<strong>Ignore DEF</strong>: 32% + (10% with 2H Sword / 1H/2H Blunt Weapon)",
+                "<strong>Abnormal Status Resistance</strong>: +25 + (up to 10 from <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Elemental_Charge.png/revision/latest?cb=20130705102302' alt='Skill Elemental Charge' width='32' height='32'/> Elemental Charge)"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Weapon_Booster.png/revision/latest?cb=20110420081112' alt='Skill Weapon Booster' width='32' height='32'/>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Parashock_Guard.png/revision/latest?cb=20130705112329' alt='Skill Parashock Guard' width='32' height='32' /> </strong>(Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Combat_Orders.png/revision/latest?cb=20110422021843' alt='Skill Combat Orders' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Elemental_Force.png/revision/latest?cb=20130706022711' alt='Skill Elemental Force' width='32' height='32' />, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' />",
+            "buffCd": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Epic_Adventure_%28Warrior%29.png/revision/latest?cb=20120914160107' alt='Skill Epic Adventure (Warrior)' width='32' height='32' /> </strong>(120s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Sacrosanctity.png/revision/latest?cb=20120915173132' alt='Skill Sacrosanctity' width='32' height='32' /> (300s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Divine_Echo.png/revision/latest?cb=20161125062542' alt='Skill Divine Echo' width='32' height='32/> (120s cd)",
+            "buffFifth": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Blitz_Shield.png/revision/latest?cb=20170629201925' alt='Skill Blitz Shield' width='32' height='32'/>(15s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing' width='32' height='32'/>(180s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742' alt='Skill Weapon Aura' width='32' height='32'/>(180s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329' alt='Skill Impenetrable Skin' width='32' height='32'/>(240s cd)",
+            "binds": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Smite_Shield.png/revision/latest?cb=20120915172831' alt='Skill Smite Shield' width='32' height='32'/> (120s cd)",
+            "iFrame": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Guardian.png/revision/latest?cb=20140410052756' alt='Skill Guardian' width='32' height='32'/>(1000 - 600s cd revive), <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Sacrosanctity.png/revision/latest?cb=20120915173132' alt='Skill Sacrosanctity' width='32' height='32'/> (300s cd)"
+        },
+        "linkSkill": {
+            "id": 80002758,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Invincible_Belief.png/revision/latest?cb=20191124005023"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/SmayX3a.png", [499,374]],
+            "npc": [
+                ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/NPC_Dances_with_Balrog.png/revision/latest?cb=20110306080902", [98,107]],
+                ["https://maplestory.io/api/character/%7B%22ItemId%22:1051355,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:21397,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:37847,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:1072833,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:2003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:12003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D/stand1/0",[64,97]]
+            ],
+            "info": [
+                "To create one, choose the 'Explorers' option in the Character Creation screen and then continue through the story until you reach the quest <a href='https://maplestory.fandom.com/wiki/Quests/77/Victoria_Island_or_Bust!' target='_blank' rel='noopener'>'Victoria Island or Bust'</a> and choose the 'Warrior, powerful and defensive' option",
+                "Once you reach Lv. 30 as a Warrior, talk to Dances with Balrog to accept a quest called <a href='https://maplestory.fandom.com/wiki/Quests/77/Way_of_the_Page' target='_blank' rel='noopener'>'Way of the Page'</a>. Completing the quest will make you a Page and you will be on the path to a Paladin. Page is the 2nd job of Paladin"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job","<img src='https://orangemushroom.files.wordpress.com/2013/05/warrior-jump.png?w=32&h=32' alt=''> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Iron_Body.png/revision/latest?cb=20160627041749' alt=''> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Warrior_Mastery.png/revision/latest?cb=20130705094411' alt=''> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Slash_Blast.png/revision/latest?cb=20100616081915' alt=''>"],
+                ["2nd Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436' alt='Skill Weapon Mastery' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Weapon_Booster.png/revision/latest?cb=20110420081112' alt='' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Flame_Charge.png/revision/latest?cb=20110422021804' alt='Skill Flame Charge' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Blizzard_Charge.png/revision/latest?cb=20110422021828' alt='Skill Blizzard Charge' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Close_Combat.png/revision/latest?cb=20130705102310' alt='Skill Close Combat' width='32' height='32' />"],
+                ["3rd Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Divine_Shield.png/revision/latest?cb=20110422062311' alt='Skill Divine Shield' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Achilles.png/revision/latest?cb=20110422062038' alt='Skill Achilles' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Shield_Mastery_%28White_Knight%29.png/revision/latest?cb=20140415021234' alt='Skill Shield Mastery (White Knight)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Parashock_Guard.png/revision/latest?cb=20130705112329' alt='Skill Parashock Guard' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_HP_Recovery.png/revision/latest?cb=20140409060340' alt='Skill HP Recovery' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Combat_Orders.png/revision/latest?cb=20110422021843' alt='Skill Combat Orders' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Lightning_Charge.png/revision/latest?cb=20110422021833' alt='Skill Lightning Charge' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Rush_%28White_Knight%29.png/revision/latest?cb=20130705112311' alt='Skill Rush (White Knight)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Threaten.png/revision/latest?cb=20140409054850' alt='Skill Threaten' width='32' height='32'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Advanced_Charge.png/revision/latest?cb=20110422062119' alt='Skill Advanced Charge' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_High_Paladin.png/revision/latest?cb=20130706022723' alt='Skill High Paladin' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Elemental_Force.png/revision/latest?cb=20130706022711' alt='Skill Elemental Force' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Divine_Charge.png/revision/latest?cb=20110422062034' alt='Skill Divine Charge' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921' alt='Skill Power Stance (Warrior)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Heaven%27s_Hammer.png/revision/latest?cb=20110422062124' alt='Skill Heaven' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Blast.png/revision/latest?cb=20140410052225' alt='Skill Blast' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Magic_Crash_%28Warrior%29.png/revision/latest?cb=20130705121916' alt='Skill Magic Crash (Warrior)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Guardian.png/revision/latest?cb=20140410052756' alt='Skill Guardian' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Blast_-_Extra_Strike.png/revision/latest?cb=20181122074539' alt='Skill Blast - Extra Strike' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Blast_-_Reinforce.png/revision/latest?cb=20181122074521' alt='Skill Blast - Reinforce' width='32' height='32'> Blast - Extra Strike and Reinforce</li> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Threaten_-_Enhance.png/revision/latest?cb=20181122074453' alt='Skill Threaten - Enhance' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Threaten_-_Opportunity.png/revision/latest?cb=20181122074437' alt='Skill Threaten - Opportunity' width='32' height='32'> Threaten - Enhance and Opportunity</li> <li> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Heaven%27s_Hammer_-_Cooldown_Cutter.png/revision/latest?cb=20120915172743' alt='Skill Heaven's Hammer - Cooldown Cutter' width='32' height='32'> Heaven's Hammer - Cooldown Cutter </li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Blast.png/revision/latest?cb=20140410052225' alt='Skill Blast' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Lightning_Charge.png/revision/latest?cb=20110422021833' alt='Skill Lightning Charge' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Heaven%27s_Hammer.png/revision/latest?cb=20110422062124' alt='Skill Heaven's Hammer' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Rush_%28White_Knight%29.png/revision/latest?cb=20130705112311' alt='Skill Rush' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Divine_Charge.png/revision/latest?cb=20110422062034' alt='Skill Divine Charge' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32'>",
+            "possible": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Slash_Blast.png/revision/latest?cb=20100616081915' alt='Skill Slash Blast' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Flame_Charge.png/revision/latest?cb=20110422021804' alt='Skill Flame Charge' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Blizzard_Charge.png/revision/latest?cb=20110422021828' alt='Skill Blizzard Charge' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Close_Combat.png/revision/latest?cb=20130705102310' alt='Skill Close Combat' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Lightning_Charge.png/revision/latest?cb=20110422021833' alt='Skill Lightning Charge' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Rush_%28White_Knight%29.png/revision/latest?cb=20130705112311' alt='Skill Rush (White Knight)' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Divine_Charge.png/revision/latest?cb=20110422062034' alt='Skill Divine Charge' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Blast.png/revision/latest?cb=20140410052225' alt='Skill Blast' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Heaven%27s_Hammer.png/revision/latest?cb=20110422062124' alt='Skill Heaven's Hammer' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Smite_Shield.png/revision/latest?cb=20120915172831' alt='Skill Smite Shield' width='32' height='32'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3376/warrior",
+            "https://maplestory.fandom.com/wiki/Warrior/Skills",
+            "https://dexless.com/guides/an-excessively-in-depth-guide-to-everything-paladin.12/"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build","Dianette"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animation", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media2.giphy.com/media/eLnX2CftBnoCGMoKOt/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media1.giphy.com/media/yx8HVS62FRAPxaFrX8/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media4.giphy.com/media/MJ9J0u1WbR3x51Fnyv/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1281,
+                    "offline": true,
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "animations": ["https://media3.giphy.com/media/XwO7fFJzWCZLP2fHk6/giphy.gif"],
+                    "type": "Active"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 1001005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Slash_Blast.png/revision/latest?cb=20100616081915"],
+                        "animations": ["https://media.giphy.com/media/XaF4UFFpAzkOa5Tyqc/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slashes forward"
+                    },
+                    {
+                        "id": 1001008,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2013/05/warrior-jump.png?w=32&h=32"],
+                        "animations": ["https://media.giphy.com/media/clzAxP0lvD2AdxiOj1/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "id": 1001010,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2020/03/leap-attack.png?w=600"],
+                        "animations": ["https://media0.giphy.com/media/Cga9PCgZvzMmNuynx0/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Dive downwards towards nearby platforms below",
+                        "details": [
+                            "Can only be used while in the air",
+                            "Can also be activated by pressing the Down Arrow Key and Attack Key together",
+                            "For both, you can also press the Left or Right Arrow Key instead to dive towards the desired direction"
+                        ]
+                    },
+                    {
+                        "id": 1000003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Iron_Body.png/revision/latest?cb=20160627041749"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 1000009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Warrior_Mastery.png/revision/latest?cb=20130705094411"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 1201011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Flame_Charge.png/revision/latest?cb=20110422021804"],
+                        "animations": ["https://media.giphy.com/media/jQJCrR2sChzOXaCc2T/giphy.gif", "https://media.giphy.com/media/mFZKo6xjmHUabvZsI3/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Attack that deals fire damage and inflicts a damaging burn debuff"
+                    },
+                    {
+                        "id": 1201012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Blizzard_Charge.png/revision/latest?cb=20110422021828"],
+                        "animations": ["https://media.giphy.com/media/lr7zgW16MeXEc8oB3i/giphy.gif", "https://media.giphy.com/media/J0C5IeMZablzcxJybS/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Attack that deals ice damage and slows enemies",
+                        "details": [
+                            "Attacking enemies taking <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Flame_Charge.png/revision/latest?cb=20110422021804' alt='Skill Flame Charge' width='32' height='32' /> burn damage will deal more damage"
+                        ]
+                    },
+                    {
+                        "id": 1200014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Elemental_Charge.png/revision/latest?cb=20130705102302"],
+                        "type": "Passive",
+                        "desc": "Using a different Charge skill right after another will grant 1 Elemental Charge (up to 5)",
+                        "details": [
+                            "Each stack increases %Recovery amount, %Abnormal Status Resistance, and %Damage Reduction and grants flat Attack <ul> <li>Damage Reduction also reduces %Max HP attacks</li> </ul>",
+                            "Paladin has four Charge skills: <ul> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Flame_Charge.png/revision/latest?cb=20110422021804' alt='Skill Flame Charge' width='32' height='32' /> Flame Charge (2nd Job)</li> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Blizzard_Charge.png/revision/latest?cb=20110422021828' alt='Skill Blizzard Charge' width='32' height='32' /> Blizzard Charge (2nd Job)</li> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Lightning_Charge.png/revision/latest?cb=20110422021833' alt='Skill Lightning Charge' width='32' height='32' /> Lightning Charge (3rd Job)</li> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Divine_Charge.png/revision/latest?cb=20110422062034' alt='Skill Divine Charge' width='32' height='32' /> Divine Charge (4th Job)</li> </ul>"
+                        ]
+                    },
+                    {
+                        "id": 1201013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Close_Combat.png/revision/latest?cb=20130705102310"],
+                        "animations": ["https://media.giphy.com/media/dWCvbBPbyFl1qXDhKX/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls in enemies from both sides of you with a chance to stun"
+                    },
+                    {
+                        "id": 1201004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Weapon_Booster.png/revision/latest?cb=20110420081112"],
+                        "animations": ["https://media2.giphy.com/media/yuhCOX8BkVTqVbS39C/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 1200000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 1200002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Final Attack Passive",
+                        "desc": "Grants your attacks a chance to deal an additional hit"
+                    },
+                    {
+                        "id": 1200009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 1211008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Lightning_Charge.png/revision/latest?cb=20110422021833"],
+                        "animations": ["https://media.giphy.com/media/QWScu1TbnrK9lZ9uFb/giphy.gif", "https://media.giphy.com/media/U5Vi7Lld51YWfkHXJU/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Attack that deals lightning damage and stuns enemies",
+                        "details": [
+                            "Attacking <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Blizzard_Charge.png/revision/latest?cb=20110422021828' alt='Skill Blizzard Charge' width='32' height='32' /> slowed enemies will deal more damage"
+                        ]
+                    },
+                    {
+                        "id": 1211010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_HP_Recovery.png/revision/latest?cb=20140409060340"],
+                        "animations": ["https://media1.giphy.com/media/enjHpaH42QpNZesEU0/giphy.gif"],
+                        "type": "Active Heal"
+                    },
+                    {
+                        "id": 1211012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Rush_%28White_Knight%29.png/revision/latest?cb=20130705112311"],
+                        "animations": ["https://media.giphy.com/media/ZCTunlON2L6PnOuTBb/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing enemies back"
+                    },
+                    {
+                        "id": 1211013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Threaten.png/revision/latest?cb=20140409054850"],
+                        "animations": ["https://media3.giphy.com/media/Nzpp5keeyZ0pKxeOXS/giphy.gif"],
+                        "type": "Active Debuff",
+                        "desc": "Debuffs enemies by reducing their %Attack, %DEF and %Accuracy"
+                    },
+                    {
+                        "id": 1211017,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2020/03/upper-charge-2.png?w=600"],
+                        "animations": ["https://media2.giphy.com/media/B7gKN5anQI9yNm2mlR/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Launch up into the air",
+                        "details": [
+                            "Can also be activated by pressing the Up Arrow Key and Attack Key together<ul><li>Right-clicking the skill will lock it, preventing input activation</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 1211014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Parashock_Guard.png/revision/latest?cb=20130705112329"],
+                        "animations": ["https://media1.giphy.com/media/dQ6fBtNConKshKfysA/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "desc": "Reduces your %Guard Chance and %DEF but increases your Attack",
+                        "details": [
+                            "Also reduces damage taken by nearby party members and grants your party members a chance to guard themselves"
+                        ]
+                    },
+                    {
+                        "id": 1211011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Combat_Orders.png/revision/latest?cb=20110422021843"],
+                        "animations": ["https://media.giphy.com/media/QWFblQUb82DRptrNMA/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Temporarily grants bonus skill levels to skills of all party members ",
+                        "details": [
+                            "<strong>[Passive]: </strong>Permanently increases %Damage for <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Blizzard_Charge.png/revision/latest?cb=20110422021828' alt='Skill Blizzard Charge' width='32' height='32' /> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Flame_Charge.png/revision/latest?cb=20110422021804' alt='Skill Flame Charge' width='32' height='32' />",
+                            "<strong>Exception: </strong>Beginner skills, Combat Orders, Hyper Skills and 5th Job Skills"
+                        ]
+                    },
+                    {
+                        "id": 1210001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Shield_Mastery_%28White_Knight%29.png/revision/latest?cb=20140415021234"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 1210015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Achilles.png/revision/latest?cb=20110422062038"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 1210016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Divine_Shield.png/revision/latest?cb=20110422062311"],
+                        "type": "Passive",
+                        "desc": "Creates a shield when hit that absorbs attacks and increases your Attack",
+                        "details": [
+                            "For attacks that deal Max HP damage, reduces amount taken by a percentage"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 1221009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Blast.png/revision/latest?cb=20140410052225"],
+                    "animations": ["https://media.giphy.com/media/fSY8RygFYW2Opf5qJJ/giphy.gif", "https://media.giphy.com/media/mAJ6cjnyxuIlXQnwYd/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Deals a powerful attack against one enemy while applying the attribute of the most recently used Charge Skill"
+                },
+                {
+                    "id": 1221004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Divine_Charge.png/revision/latest?cb=20110422062034"],
+                    "animations": ["https://media.giphy.com/media/Qyo7msiKj8hAwQreKy/giphy.gif", "https://media.giphy.com/media/U7bCfGEJwW3OjEb2mw/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Attack that deals holy damage and silences enemies",
+                    "details": [
+                        "Attacking <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Lightning_Charge.png/revision/latest?cb=20110422021833' alt='Skill Lightning Charge' width='32' height='32' /> stunned enemies will deal more damage"
+                    ]
+                },
+                {
+                    "id": 1221014,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Magic_Crash_%28Warrior%29.png/revision/latest?cb=20130705121916"],
+                    "animations": ["https://media3.giphy.com/media/HgDntfuxkhsVXdd4Y5/giphy.gif"],
+                    "type": "Active Debuff",
+                    "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs "
+                },
+                {
+                    "id": 1221011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Heaven%27s_Hammer.png/revision/latest?cb=20110422062124"],
+                    "animations": ["https://media.giphy.com/media/kcOejHC4cnyF6uL8uU/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slams your hammer dealing damage to enemies in a large area",
+                    "details": [
+                        "You are not affected by knockbacks while casting",
+                        "Gains increased %Damage towards bosses"
+                    ]
+                },
+                {
+                    "id": 1221015,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Elemental_Force.png/revision/latest?cb=20130706022711"],
+                    "animations": ["https://media2.giphy.com/media/l6XUNEls4fWmPPV3bc/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1220017,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 1221000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media2.giphy.com/media/U8HyrEcToo25aKpnpY/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 1221012,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media2.giphy.com/media/27101nlpginVs3Dii6/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 1221016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Guardian.png/revision/latest?cb=20140410052756"],
+                    "animations": ["https://media0.giphy.com/media/2wcFTyYs5d8XQUreDs/giphy.gif"],
+                    "type": "Party Revive",
+                    "desc": "Revives one party member closest to you and makes both you and your party member invulnerable for a short time",
+                    "details": [
+                        "Still consumes a Death Count for bosses even if revived but buffs are kept"
+                    ]
+                },
+                {
+                    "id": 1220018,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_High_Paladin.png/revision/latest?cb=20130706022723"],
+                    "type": "Passive",
+                    "desc": "Increases %Weapon Mastery, %Crit Rate, %Crit Damage, %Ignore DEF, and %Final Damage and grants flat DEF",
+                    "details": [
+                        "Depending on the weapon equipped, gain additional %Critical Damage, %Ignore DEF and %Weapon Mastery"
+                    ]
+                },
+                {
+                    "id": 1220010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Advanced_Charge.png/revision/latest?cb=20110422062119", "https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Elemental_Charge.png/revision/latest?cb=20130705102302"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "For each charge of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Elemental_Charge.png/revision/latest?cb=20130705102302' alt='Skill Elemental Charge' width='32' height='32'/>, increases %Damage and grants flat Attack",
+                        "Additionally increases the max number of enemies hit and number of hits per attack of <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Blast.png/revision/latest?cb=20140410052225' alt='Skill Blast' width='32' height='32'/> and Charge Skills"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 1220043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Threaten_-_Persist.png/revision/latest?cb=20181122074420"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 1220044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Threaten_-_Opportunity.png/revision/latest?cb=20181122074437"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 1220045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Threaten_-_Enhance.png/revision/latest?cb=20181122074453"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 1220046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Blast_-_Reinforce.png/revision/latest?cb=20181122074521"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 1220047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Blast_-_Critical_Chance.png/revision/latest?cb=20181122074527"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 1220048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Blast_-_Extra_Strike.png/revision/latest?cb=20181122074539"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 1220049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Heaven%27s_Hammer_-_Reinforce.png/revision/latest?cb=20120915172245"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 1220051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Heaven%27s_Hammer_-_Cooldown_Cutter.png/revision/latest?cb=20120915172743"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 1220050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Heaven%27s_Hammer_-_Extra_Strike.png/revision/latest?cb=20120915172414"],
+                    "type": "Passive",
+                    "reqLev": 165
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 1221054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Sacrosanctity.png/revision/latest?cb=20120915173132"],
+                    "animations": ["https://media1.giphy.com/media/ekiIvJiMYCfViFUCtz/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "id": 1221052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Smite_Shield.png/revision/latest?cb=20120915172831"],
+                    "animations": ["https://media3.giphy.com/media/OzLy9gSVZb0kOM6Yal/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Binds nearby enemies and removes buffs to enemies hit",
+                    "reqLev": 160
+                },
+                {
+                    "id": 1221053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Epic_Adventure_%28Warrior%29.png/revision/latest?cb=20120914160107"],
+                    "animations": ["https://media3.giphy.com/media/BEH2d6csjKp4gwxpA4/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expWarrior", "goddessBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Divine Echo",
+                    "shortDesc": "MP Cost: 1000, Duration: 65 sec, targets a party member in range. Affected party member will duplicate any attack skills you use as well as certain buffs. Only the self-buff will persist if the target moves out of range. If the party member is not inside the echoing range, then you enhance yourself. If the party member is inside the echoing range when you're enhanced they automatically mimics you, and when the link is disconnected the party member's buff is also removed.\\nEchoing Party Member - Upon using an offensive skill, affected party member mimics you for 37% of Final Damage, Buff Duration: 62% + 1% for every 1000 Strength (up to 100%), Your Final Damage: +47%\\nSelf Buff - Final Damage: +47%\\nCooldown: 120 sec.",
+                    "id": 400011003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Divine_Echo.png/revision/latest?cb=20161125062542"],
+                    "animations": ["https://media0.giphy.com/media/XI03PVFtwCXH1KDwoE/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Targets a party member in range who will duplicate any attack skills and certain buffs you use",
+                    "details": [
+                        "Increases %Final Damage when <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Divine_Echo.png/revision/latest?cb=20161125062542' alt='Skill Divine Echo' width='32' height='32' /> Divine Echo is active",
+                        "Buffs gained from <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Divine_Echo.png/revision/latest?cb=20161125062542' alt='Skill Divine Echo' width='32' height='32' /> Divine Echo have a shorter duration <ul> <li>The duration is based on a fixed amount + 1% for every 1000 STR up to 100%</li> </ul>"
+                    ]
+                },
+                {
+                    "name": "Hammers of the Righteous",
+                    "shortDesc": "[Passive Effects] Creates 1 spiraling hammer around you whenever you generate an Elemental Charge. Up to 5 can be active at once, and their duration is shared with Elemental Charge.Hammers automatically attack up to 4 enemies 2 times dealing 500% damage. Attack speed increases with the number of hammers.\\n[Active Effects] MP Cost: 1000, Augments Hammers of the Righteous for 30 sec.\\nAugmented Hammers - Max Enemies Hit: 8, Number of Hits: 3, Damage: 1050% damage.\\nCooldown: 60 sec",
+                    "id": 400011052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Hammers_of_the_Righteous.png/revision/latest?cb=20170609033039"],
+                    "animations": ["https://media0.giphy.com/media/fx5X5NrlzJ1YVgUSm9/giphy.gif"],
+                    "type": "Active + Passive Attack",
+                    "desc": "Passively creates a hammer that circles around you when you use an Elemental Charge attack up to 5 hammers. Hammers automatically hit enemies and will gain attack speed based on the number of hammers active",
+                    "details": [
+                        "<strong>[Active]: </strong>Hammers grow in size and spin faster while dealing more damage"
+                    ]
+                },
+                {
+                    "name": "Grand Guardian",
+                    "shortDesc": "HP Cost: 5000. After that, consumes 1.5% of max HP per sec. Deals 350% damage 12 times consecutively on up to 12 enemies during key-down.\\nThe cross gets bigger after some time passes, which will increase attack speed and deal 600% damage.\\nMax Key-down Time: 10 sec, Additional Critical Rate: +100%, Additional Monster DEF Ignored: +100%\\nDamage Reduction During Key-down: 50% (including Percentage HP attacks)\\nCooldown: 150 sec",
+                    "id": 400011072,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Grand_Guardian.png/revision/latest?cb=20181115065214"],
+                    "animations": ["https://media0.giphy.com/media/6P9wXg8Sa4WZ065Fxa/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "When held, deals damage and becomes bigger after some time passes which will increase the attack speed and %Damage",
+                    "details": [
+                        "Consumes %Max HP while casting",
+                        "Attack has 100% Ignore DEF and is a guaranteed Critical Hit <ul> <li>Additionally increases your %Damage Reduction while casting (including %Max HP attacks)</li> </ul>"
+                    ]
+                },
+                {
+                    "name": "Mighty Mjolnir",
+                    "shortDesc": "MP Cost: 500, sets 1 enemy as the target and deals 450% damage 6 time(s). Additional Critical Rate: 50%. Tracks down a total of 4 enemies as targets, including the first attack.\\nA shockwave occurs after attacking the tracked target, dealing additional attacks up to 6 enemies, with 500% damage, 9 time(s).\\n1 Hammer will be prepared every 15 sec, and you can hold up to 2.\\nCooldown: 2.5 sec",
+                    "id": 400011072,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/mighty-mjolnir.png?w=600"],
+                    "animations": ["https://media4.giphy.com/media/RX5OleQKhMVCk6SqTk/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a mighty hammer that homes towards targets while targeting the enemy with the highest Max HP",
+                    "details": [
+                        "When the hammer hits an enemy, it creates a shockwave that damages nearby enemies",
+                        "You can control the direction of where the hammer is thrown by pressing the Skill Key and any Arrow Key",
+                        "You gain one hammer every 15 secs and can store up to 2 at a time"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Blizzard Charge - 2nd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Blizzard_Charge.png/revision/latest?cb=20110422021828"],
+                "animations": ["https://media.giphy.com/media/lr7zgW16MeXEc8oB3i/giphy.gif"]
+            },
+            {
+                "name": "Blast - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Blast.png/revision/latest?cb=20140410052225"],
+                "animations": ["https://media.giphy.com/media/fSY8RygFYW2Opf5qJJ/giphy.gif"]
+            },
+            {
+                "name": "Divine Charge - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Divine_Charge.png/revision/latest?cb=20110422062034"],
+                "animations": ["https://media.giphy.com/media/Qyo7msiKj8hAwQreKy/giphy.gif"]
+            },
+            {
+                "name": "Sacrosanctity - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Sacrosanctity.png/revision/latest?cb=20120915173132"],
+                "animations": ["https://media1.giphy.com/media/ekiIvJiMYCfViFUCtz/giphy.gif"]
+            },
+            {
+                "name": "Divine Echo - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Divine_Echo.png/revision/latest?cb=20161125062542"],
+                "animations": ["https://media0.giphy.com/media/XI03PVFtwCXH1KDwoE/giphy.gif"]
+            },
+            {
+                "name": "Hammers of the Righteous - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Hammers_of_the_Righteous.png/revision/latest?cb=20170609033039"],
+                "animations": ["https://media0.giphy.com/media/fx5X5NrlzJ1YVgUSm9/giphy.gif"]
+            },
+            {
+                "name": "Grand Guardian - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Grand_Guardian.png/revision/latest?cb=20181115065214"],
+                "animations": ["https://media0.giphy.com/media/6P9wXg8Sa4WZ065Fxa/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Paladin is a STR warrior class part of the Explorers. This class is known for its support and tank capabilities."
+}

@@ -1,0 +1,631 @@
+{
+    "class": "Arch Mage (Fire, Poison)",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Increases %Max MP",
+        "legionValue": "2/3/4/5/6%",
+        "equipment": [
+            {"weapon": ["wand", "staff"]},
+            {"secondary": ["mageShield", "magicBookI"]}
+        ],
+        "classType": [
+            "Burst",
+            "Single-target",
+            "Damage over Time"
+        ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Crit Rate"],
+        "prosCons": {
+            "pros": [
+                "High damage - hard-hitting attacks",
+                "Master of Damage over Time debuffs"
+            ],
+            "cons": [
+                "Short-ranged mobbing attack with <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014' alt='Skill Paralyze' width='32' height='32'/> Paralyze",
+                "Slow playstyle that requires preparation &amp; setup to deal damage",
+                "<img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Teleport_Mastery_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135459' alt='Skill Teleport Mastery (Fire, Poison)' width='32' height='32' /> Teleport Mastery will trigger Damage Reflect",
+                "Need to remember to toggle <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)' width='32' height='32' /> Magic Guard",
+                "Low knockback resistance"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, Link Skills, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)' width='32' height='32' /> Magic Guard and buffs with cooldowns",
+            [
+                "<strong>Max MP</strong>: +20%",
+                "<strong>Crit Rate</strong>: +30% + (5% when Wand is equipped)",
+                "<strong>Crit Damage</strong>: +13%",
+                "<strong>Damage</strong>: +50% + (up to 40% from Arcane Aim)",
+                "<strong>Final Damage</strong>: +40% + (up to 25% from <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201' alt='Skill Fervant Drain'/> Fervent Drain) + (up to 20% when attacking enemies affected by damage over time, stun, freeze, darkness, or paralysis)",
+                "<strong>Attack Speed (Weapon)</strong>: 4",
+                "<strong>Knockback Resistance</strong>: +0%",
+                "<strong>Buff Duration</strong>: +50%",
+                "<strong>Ignore DEF</strong>: +20%",
+                "<strong>Ignore Elemental Resistance</strong>: +10%",
+                "<strong>Abnormal Status Resistance</strong>: 20"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)'> (Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853' alt='Skill Magic Booster (Magician)'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Meditation.png/revision/latest?cb=20110423005230' alt='Skill Meditation'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Ignite.png/revision/latest?cb=20160107233500' alt='Skill Ignite'> (Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Elemental_Decrease.png/revision/latest?cb=20110423053958' alt='Skill Elemental Decrease'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Teleport_Mastery_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135459' alt='Skill Teleport Mastery (Fire, Poison)'> (Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Inferno_Aura.png/revision/latest?cb=20120917111149' alt='Skill Inferno Aura'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Viral_Slime.png/revision/latest?cb=20130706135447' alt='Skill Viral Slime'>(78 - 60s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Elemental_Fury.png/revision/latest?cb=20181115065214' alt='Skill Elemental Fury'>(75s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Elemental_Adaptation_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135452' alt='Skill Elemental Adaptation (Fire, Poison)'>(582 - 240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329' alt='Skill Infinity'>(180s cd)<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Epic_Adventure_%28Magician%29.png/revision/latest?cb=20121015210355' alt='Skill Epic Adventure (Magician)'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mana_Overload.png/revision/latest?cb=20161018183739' alt='Skill Mana Overload'>(60 - 30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60 - 53s cd)"
+        },
+        "linkSkill": {
+            "id": 80002762,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304"],
+            "type": "Passive",
+            "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
+            "details": [
+                "<strong>[Debuff]: </strong>Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
+                "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level"
+            ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/SmayX3a.png",[499,374]],
+            "npc": [
+                ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/NPC_Grendel_the_Really_Old.png/revision/latest?cb=20110306080858",[99,193]],
+                ["https://maplestory.io/api/character/%7B%22ItemId%22:1051355,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:21397,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:37847,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:1072833,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:2003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:12003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D/stand1/0",[64,97]]
+            ],
+            "info": [
+                "To create one, choose the 'Explorers' option in the Character Creation screen and then continue through the story until you reach the quest <a href='https://maplestory.fandom.com/wiki/Quests/77/Victoria_Island_or_Bust!' target='_blank' rel='noopener'>'Victoria Island or Bust'</a> and choose the 'Magician, intelligent and magical' option",
+                "Once you reach Lv. 30 as a Magician, talk to Grendel the Really Old to accept a quest called <a href='https://maplestory.fandom.com/wiki/Quests/77/Path_of_Fire_and_Poison' target='_blank' rel='noopener'>'Path of Fire and Poison'</a>. Completing the quest will make you a Wizard (Fire, Poison) and you will be on the path to an Arch Mage (Fire, Poison). Wizard (Fire, Poison) is the 2nd job of Arch Mage (Fire, Poison)"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454' alt='Skill Light Speed'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_MP_Boost.png/revision/latest?cb=20110422142449' alt='Skill MP Boost'> -> <img width='32' height='32' src='https://static.wikia.nocookie.net/maplestory/images/1/12/Skill_Magic_Armor.png' alt='Skill Magic Armor.png'> -> <img width='32' height='32' src='https://static.wikia.nocookie.net/maplestory/images/f/fd/Skill_Energy_Bolt.png' alt='Skill Energy Bolt.png'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318' alt='Skill Spell Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321' alt='Skill High Wisdom'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853' alt='Skill Magic Booster (Magician)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Ignite.png/revision/latest?cb=20160107233500' alt='Skill Ignite'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_MP_Eater.png/revision/latest?cb=20110423005222' alt='Skill MP Eater'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Meditation.png/revision/latest?cb=20110423005230' alt='Skill Meditation'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Flame_Orb.png/revision/latest?cb=20130706125153' alt='Skill Flame Orb'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Poison_Breath.png/revision/latest?cb=20110423005310' alt='Skill Poison Breath'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://static.wikia.nocookie.net/maplestory/images/0/0b/Skill_Mana_Burn.png' alt='Skill Mana Burn.png'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Burning_Magic.png/revision/latest?cb=20110423053714' alt='Skill Burning Magic'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Element_Amplification.png/revision/latest?cb=20110423053825' alt='Skill Element Amplification'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Arcane_Overdrive.png/revision/latest?cb=20110502085236' alt='Skill Arcane Overdrive'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Elemental_Decrease.png/revision/latest?cb=20110423053958' alt='Skill Elemental Decrease'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Teleport_Mastery_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135459' alt='Skill Teleport Mastery (Fire, Poison)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Viral_Slime.png/revision/latest?cb=20130706135447' alt='Skill Viral Slime'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Explosion.png/revision/latest?cb=20110423053834' alt='Skill Explosion'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Elemental_Adaptation_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135452' alt='Skill Elemental Adaptation (Fire, Poison)'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456' alt='Skill Buff Mastery' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014' alt='Skill Paralyze' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500' alt='Skill Arcane Aim' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329' alt='Skill Infinity' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Meteor_Shower.png/revision/latest?cb=20110423131347' alt='Skill Meteor Shower' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219' alt='Skill Mist Eruption' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259' alt='Skill Flame Haze' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Paralyze_-_Reinforce.png/revision/latest?cb=20140411045250' alt='Skill Paralyze - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Paralyze_-_Extra_Strike.png/revision/latest?cb=20140411044917' alt='Skill Paralyze - Extra Strike' width='32' height='32'> Paralyze - Reinforce and Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Mist_Eruption_-_Reinforce.png/revision/latest?cb=20170109225038' alt='Skill Mist Eruption - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Mist_Eruption_-_Guardbreaker.png/revision/latest?cb=20160702034341' alt='Skill Mist Eruption - Guardbreaker' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Mist_Eruption_-_Cooldown_Cutter.png/revision/latest?cb=20120917110741' alt='Skill Mist Eruption - Cooldown Cutter' width='32' height='32'> Mist Eruption - Reinforce, Guardbreaker, and Cooldown Cutter</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014' alt='Skill Paralyze'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Ignite.png/revision/latest?cb=20160107233500' alt='Skill Ignite'/> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259' alt='Skill Flame Haze'/> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit'/> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Teleport_Mastery_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135459' alt='Skill Teleport Mastery'/> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219' alt='Skill Mist Eruption'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Inferno_Aura.png/revision/latest?cb=20120917111149' alt='Skill Inferno Aura'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Megiddo_Flame.png/revision/latest?cb=20120917111033' alt='Skill Megiddo Flame'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Meteor_Shower.png/revision/latest?cb=20110423131347' alt='Skill Meteor Shower'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Energy_Bolt.png/revision/latest?cb=20140409055248' alt='Skill Energy Bolt'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Flame_Orb.png/revision/latest?cb=20130706125153' alt='Skill Flame Orb'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Poison_Breath.png/revision/latest?cb=20110423005310' alt='Skill Poison Breath'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Ignite.png/revision/latest?cb=20160107233500' alt='Skill Ignite'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Explosion.png/revision/latest?cb=20110423053834' alt='Skill Explosion'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Teleport_Mastery_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135459' alt='Skill Teleport Mastery (Fire, Poison)'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259' alt='Skill Flame Haze'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219' alt='Skill Mist Eruption'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014' alt='Skill Paralyze'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Meteor_Shower.png/revision/latest?cb=20110423131347' alt='Skill Meteor Shower'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Inferno_Aura.png/revision/latest?cb=20120917111149' alt='Skill Inferno Aura'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Megiddo_Flame.png/revision/latest?cb=20120917111033' alt='Skill Megiddo Flame'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/2893/magician",
+            "https://maplestory.fandom.com/wiki/Magician"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skill Animation (DoT Punisher)", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "DoT Debuffs",
+            "content": "<p>Stacking DoT debuffs will increase the %Final Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219' alt='Skill Mist Eruption' width='32' height='32'> Mist Eruption against an enemy. Below is a list of skills that apply DoT effects:</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Poison_Breath.png/revision/latest?cb=20110423005310' alt='Skill Poison Breath' width='32' height='32'> <strong>Poison Breath </strong>(2nd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Ignite.png/revision/latest?cb=20160107233500' alt='Skill Ignite' width='32' height='32'> <strong>Ignite </strong>(2nd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist' width='32' height='32'> <strong>Poison Mist</strong> (3rd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Viral_Slime.png/revision/latest?cb=20130706135447' alt='Skill Viral Slime' width='32' height='32'> <strong>Viral Slime</strong> (3rd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Teleport_Mastery_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135459' alt='Skill Teleport Mastery (Fire, Poison)' width='32' height='32'> <strong>Teleport Mastery </strong>(3rd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014' alt='Skill Paralyze' width='32' height='32'> <strong>Paralyze </strong>(4th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259' alt='Skill Flame Haze' width='32' height='32'> <strong>Flame Haze </strong>(4th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit' width='32' height='32'> <strong>Ifrit </strong>(4th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Megiddo_Flame.png/revision/latest?cb=20120917111033' alt='Skill Megiddo Flame' width='32' height='32'> <strong>Megiddo Flame </strong>(Hyper Skill)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_DoT_Punisher.png/revision/latest?cb=20161125062543' alt='Skill DoT Punisher' width='32' height='32'> <strong>DoT Punisher </strong>(5th Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Poison_Nova.png/revision/latest?cb=20170609044129' alt='Skill Poison Nova' width='32' height='32'> <strong>Poison Nova </strong>(5th Job)</li></ul>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1281,
+                    "offline": true,
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "animations": ["https://media1.giphy.com/media/9CMy7sLPg8PkWApcjD/giphy.gif"],
+                    "type": "Active"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 2001008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Energy_Bolt.png/revision/latest?cb=20140409055248"],
+                        "animations": ["https://media.giphy.com/media/Qy80HxOG1aC4MBDyIL/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires an explosive orb forward"
+                    },
+                    {
+                        "id": 2001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158"],
+                        "animations": ["https://media4.giphy.com/media/TcWUHRjSSskegm8p65/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "desc": "When toggled, a portion of your damage taken will be redirected towards your MP",
+                        "details": [
+                            "<strong>[Note]</strong>: Always remember to keep this toggled on"
+                        ]
+                    },
+                    {
+                        "id": 2001009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454"],
+                        "animations": ["https://media.giphy.com/media/L133pkHETSckyF8WQs/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "id": 2000010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Magic_Armor.png/revision/latest?cb=20150915081824"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2000006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_MP_Boost.png/revision/latest?cb=20110422142449"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 2101004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Flame_Orb.png/revision/latest?cb=20130706125153"],
+                        "animations": ["https://media3.giphy.com/media/F60tAozrH2vSSd3PUH/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Casts a fireball forward",
+                        "details": [
+                            "Strong against Ice-Attribute enemies"
+                        ]
+                    },
+                    {
+                        "id": 2100009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2101005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Poison_Breath.png/revision/latest?cb=20110423005310"],
+                        "animations": ["https://media2.giphy.com/media/2Cn6EWrfuEmH1HKHIu/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Casts an orb forward that applies a damaging poison debuff"
+                    },
+                    {
+                        "id": 2101001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Meditation.png/revision/latest?cb=20110423005230"],
+                        "animations": ["https://media2.giphy.com/media/uBX7fKZ7SGny1p9rKb/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 2101008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853"],
+                        "animations": ["https://media1.giphy.com/media/sltnZGDLPRTZYwKoj8/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 2101010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Ignite.png/revision/latest?cb=20160107233500"],
+                        "animations": ["https://media1.giphy.com/media/N1zRZJ49zzU2d9vcrT/giphy.gif"],
+                        "type": "Toggle",
+                        "desc": "When toggled, there is a chance to create a wall of fire whenever you use Fire-Attribute attacks",
+                        "details": [
+                            "Unaffected by damage reflect",
+                            "Enemies that touch the wall gain a damaging burn debuff"
+                        ]
+                    },
+                    {
+                        "id": 2100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2100007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2100000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_MP_Eater.png/revision/latest?cb=20110423005222"],
+                        "type": "Passive",
+                        "desc": "Your attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Does not apply to bosses"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 2111002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Explosion.png/revision/latest?cb=20110423053834"],
+                        "animations": ["https://media3.giphy.com/media/dIHEtFLsQugRKhSgwO/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates an explosion around yourself"
+                    },
+                    {
+                        "id": 2111003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620"],
+                        "animations": ["https://media1.giphy.com/media/1d8hqVLUWhuOQMXpA1/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Releases a lingering poisonous fog that applies a damaging poison debuff"
+                    },
+                    {
+                        "id": 2111010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Viral_Slime.png/revision/latest?cb=20130706135447"],
+                        "animations": ["https://media4.giphy.com/media/ny5HoFR7Qcvxfp7eIP/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a slime that seeks and attacks enemies",
+                        "details": [
+                            "If the slime defeats an enemy, it will split into 2"
+                        ]
+                    },
+                    {
+                        "id": 2111011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Elemental_Adaptation_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135452"],
+                        "animations": ["https://media4.giphy.com/media/KLGYmnxvnbWy0ZfKfs/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a barrier that blocks one Abnormal Status effect",
+                        "details": [
+                            "Once an Abnormal Status is blocked, there is a chance for the barrier to regenerate up to 5 times",
+                            "<strong>[Passive]: </strong>Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                        ]
+                    },
+                    {
+                        "id": 2111008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Elemental_Decrease.png/revision/latest?cb=20110423053958"],
+                        "animations": ["https://media2.giphy.com/media/WYdinWgGQhirP3LX5O/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 2111007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Teleport_Mastery_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135459"],
+                        "type": "Toggle Attack",
+                        "desc": "When toggled, when you use <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454' alt='Skill Light Speed' width='32' height='32' />, nearby enemies will take damage",
+                        "details": [
+                            "Has a chance to stun enemies and apply a damaging burn debuff",
+                            "Permanently increases the teleport distance"
+                        ]
+                    },
+                    {
+                        "id": 2110012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Mana_Burn.png/revision/latest?cb=20130706135523"],
+                        "type": "Passive",
+                        "desc": "When using Fire-Attribute attacks magic, your attack has a chance to reduce an enemy's MP and deal damage based on the MP consumed",
+                        "details": [
+                            "Does not work if the enemy's MP is below 20%",
+                            "Attack ignores enemy DEF"
+                        ]
+                    },
+                    {
+                        "id": 2110001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Element_Amplification.png/revision/latest?cb=20110423053825"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2110009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Arcane_Overdrive.png/revision/latest?cb=20110502085236"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2110000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Burning_Magic.png/revision/latest?cb=20110423053714"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 2121006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014"],
+                    "animations": ["https://media2.giphy.com/media/L0qA8KCASi2vfEodPr/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releases a wall of flame in front of you that applies paralysis and a damaging burn debuff"
+                },
+                {
+                    "id": 2121003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219"],
+                    "animations": ["https://media1.giphy.com/media/TfjB5lk7iyrfZoqJik/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Causes nearby <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist' width='32' height='32'> to erupt and explode damaging nearby enemies",
+                    "details": [
+                        "Damage of the explosion is increased based on how many DoT debuffs an enemy has active",
+                        "Explosion has increased %Ignore DEF",
+                        "<strong>[Passive]: </strong>Permanently increases %Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist' width='32' height='32'>",
+                        "Cooldown is slightly reduced if an enemy is hit by 5 or more explosions"
+                    ]
+                },
+                {
+                    "id": 2120014,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Final Damage provided per stack"
+                    ]
+                },
+                {
+                    "id": 2121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Meteor_Shower.png/revision/latest?cb=20110423131347"],
+                    "animations": ["https://media1.giphy.com/media/VCyjrru7lcA4FCIsJb/giphy.gif"],
+                    "type": "Attack / Final Attack",
+                    "desc": "Creates a shower of meteors that rain down from the sky",
+                    "details": [
+                        "<strong>[Final Attack]</strong>: While Meteor Shower is on cooldown, there is a chance your attacks cause for a meteor to strike a single enemy"
+                    ]
+                },
+                {
+                    "id": 2121011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259"],
+                    "animations": ["https://media2.giphy.com/media/h7LiJW2TuA5ymVDRre/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launches a deadly fireball forward at a single enemy that applies a damaging burning debuff",
+                    "details": [
+                        "Enemies with the debuff cannot deal touch damage",
+                        "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist'> will be automatically cast whenever you use Flame Haze"
+                    ]
+                },
+                {
+                    "id": 2121004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329"],
+                    "animations": ["https://media3.giphy.com/media/87krexu1RFN1vFMVtv/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When active, your skills do not consume mana and you gain increased %Knockback Resistance and %Final Damage",
+                    "details": [
+                        "Additionally while active, continuously increases %Final Damage and periodically restores %Max HP/MP",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "id": 2121005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551"],
+                    "animations": ["https://media3.giphy.com/media/oAISaE5ddxQA5YBydk/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a fire golem that attacks nearby enemies that applies a damaging burn debuff",
+                    "details": [
+                        "Unaffected by Damage Reflect",
+                        "<strong>[Passive]: </strong>Increases %Weapon Mastery"
+                    ]
+                },
+                {
+                    "id": 2121000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 2121008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 2120010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500"],
+                    "type": "Passive",
+                    "desc": "When attacking an enemy 3 or more times, you have a chance to gain a stacking %Damage buff",
+                    "details": [
+                        "Summon attacks cannot trigger this effect",
+                        "Additionally increases %Ignore DEF"
+                    ]
+                },
+                {
+                    "id": 2120012,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 2120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Poison_Mist_-_Reinforce.png/revision/latest?cb=20140411045011"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 2120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Poison_Mist_-_Aftermath.png/revision/latest?cb=20140411045055"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 2120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Poison_Mist_-_Cripple.png/revision/latest?cb=20140411045212"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 2120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Paralyze_-_Reinforce.png/revision/latest?cb=20140411045250"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 2120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Paralyze_-_Cripple.png/revision/latest?cb=20140411045321"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 2120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Paralyze_-_Extra_Strike.png/revision/latest?cb=20140411044917"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 2120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Mist_Eruption_-_Reinforce.png/revision/latest?cb=20170109225038"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 2120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Mist_Eruption_-_Guardbreaker.png/revision/latest?cb=20160702034341"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 2120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Mist_Eruption_-_Cooldown_Cutter.png/revision/latest?cb=20120917110741"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 2121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Inferno_Aura.png/revision/latest?cb=20120917111149"],
+                    "animations": ["https://media2.giphy.com/media/JmbaaYRl2pkb8LlFzt/giphy.gif"],
+                    "type": "Toggle Attack",
+                    "desc": "When toggled, creates an aura that damages nearby enemies",
+                    "details": [
+                        "Unaffected by Attack Ignore and Damage Reflect"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 2121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Megiddo_Flame.png/revision/latest?cb=20120917111033"],
+                    "animations": ["https://media0.giphy.com/media/KbNch2qj6zb3W27ZKj/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launches a fireball that seeks out a single enemy and applies a damaging burning debuff",
+                    "details": [
+                        "Ignores Attack Ignore and Damage Reflect"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 2121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Epic_Adventure_%28Magician%29.png/revision/latest?cb=20121015210355"],
+                    "animations": ["https://media2.giphy.com/media/wYtZ26mvvkPRIh7JIL/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expMagician", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "DoT Punisher",
+                    "shortDesc": "MP Cost: 500, Flame Orbs Created: 15, Damage Per Orb: 775%, Number of Attacks: 5, Duration: 20 sec\\nFlame Orb Damage: 275% damage every 1 sec for 8 sec\\nSummons 1 additional orb for every 1 of your damage over time stack(s) on enemies in range. Up to 25 Flame Orbs can be summoned in total.\\nWhen multiple orbs hit a single target, their damage is reduced by 35%, starting with the second orb.\\nCooldown: 25 sec",
+                    "id": 400021001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_DoT_Punisher.png/revision/latest?cb=20161125062543"],
+                    "animations": ["https://media1.giphy.com/media/Qx3waqcKv23TIqquJo/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releases multiple flame orbs that seek out enemies and applies a damaging burning debuff",
+                    "details": [
+                        "Summons additional orbs for every DoT debuff on enemies in range<ul><li>Only up to a maximum of 25 Flame Orbs will be created</li></ul>",
+                        "When multiple orbs hit a single target, their %Final Damage is reduced"
+                    ]
+                },
+                {
+                    "name": "Poison Nova",
+                    "shortDesc": "MP Cost: 500, Creates a number of poisonous clouds that deal 500% damage 12 times, and inflict an additional 600% damage every 1 sec for 10 sec. Enemies can only be struck by one poisonous cloud.\\n2 sec or more after poisonous clouds are created, you can use Mist Eruption to detonate them, hitting up to 12 enemies dealing 450% damage 12 times. Explosion damage from poisonous clouds may stack, but if more than 3 are applied to a single enemy, the Final Damage for the additional explosions is decreased by 50%.\\nCooldown: 25 sec",
+                    "id": 400021028,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Poison_Nova.png/revision/latest?cb=20170609044129"],
+                    "animations": ["https://media3.giphy.com/media/x7yYGoRgu0B5qe3keG/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releases multiple poison orbs that spread out in all directions, poisoning any enemies it collides with",
+                    "details": [
+                        "After several seconds, you can detonate the orbs to explode with <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219' alt='Skill Mist Eruption' width='32' height='32'/> dealing massive damage<ul><li>The orbs will change colors when they are ready to detonate</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Elemental Fury",
+                    "shortDesc": "MP Cost: 1000, Damage: 400%, Max Enemies Hit: 12, Number of Attacks: 6, Attack Duration: 3 sec Duration increases 0.6 sec per 1 active Fervent Drain\\nCooldown: 75 sec",
+                    "id": 400021066,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Elemental_Fury.png/revision/latest?cb=20181115065214"],
+                    "animations": ["https://media1.giphy.com/media/dDYD46AEA9Ip9Ozzct/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a spirit of fire to attack nearby enemies",
+                    "details": [
+                        "Duration is increased for each stack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201' alt='Skill Elemental Drain'>",
+                        "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit' width='32' height='32'> is active"
+                    ]
+                },
+                {
+                    "name": "Poison Chain",
+                    "shortDesc": "MP Cost: 1000, Enemies Hit: 1, Damage: 600%, Number of Attacks: 4, Poison Duration: 20 sec. Explosion from poisoned enemy attacks 6 times with 300% damage periodically, and spreads to 2 enemies nearby that aren't poisoned.\\nPoison accumulates up to 5 times. Explosion damage increases 55%p each in proportion to the accumulated poison.\\nExplosion can occur up to 9 times on 1 enemy and p to 22 times on all enemies in total.\\nIf it ended because the available explosions were used up, every poison is removed and there is an additional explosion.\\nCooldown: 30 sec",
+                    "id": 400021066,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/posion-chain.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/VZivijRl5k2JZaK03Z/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Casts a stacking poisonous debuff onto a single enemy that spreads to nearby enemies",
+                    "details": [
+                        "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<ul><li>Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion</li></ul>",
+                        "Each enemy can only explode up to 9 times, and a total of 22 times across all affected enemies<ul><li>If you reach maximum explosions, when the skill ends, all enemies will explode for a final explosion</li></ul>",
+                        "Does not trigger Damage Reflect or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201' alt='Skill Elemental Drain'>"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Poison Mist - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620"],
+                "animations": ["https://media1.giphy.com/media/1d8hqVLUWhuOQMXpA1/giphy.gif"]
+            },
+            {
+                "name": "Paralyze - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014"],
+                "animations": ["https://media2.giphy.com/media/L0qA8KCASi2vfEodPr/giphy.gif"]
+            },
+            {
+                "name": "Mist Eruption - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219"],
+                "animations": ["https://media1.giphy.com/media/TfjB5lk7iyrfZoqJik/giphy.gif"]
+            },
+            {
+                "name": "Meteor Shower - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Meteor_Shower.png/revision/latest?cb=20110423131347"],
+                "animations": ["https://media1.giphy.com/media/VCyjrru7lcA4FCIsJb/giphy.gif"]
+            },
+            {
+                "name": "Flame Haze - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259"],
+                "animations": ["https://media2.giphy.com/media/h7LiJW2TuA5ymVDRre/giphy.gif"]
+            },
+            {
+                "name": "DoT Punisher - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_DoT_Punisher.png/revision/latest?cb=20161125062543"],
+                "animations": ["https://media1.giphy.com/media/Qx3waqcKv23TIqquJo/giphy.gif"]
+            },
+            {
+                "name": "Elemental Fury - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Elemental_Fury.png/revision/latest?cb=20181115065214"],
+                "animations": ["https://media1.giphy.com/media/dDYD46AEA9Ip9Ozzct/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Arch Mage (Fire, Poison) is an INT mage class part of the Explorers class group. They specialize in Damage over Time magic and dealing heavy damage with massive attacks"
+}

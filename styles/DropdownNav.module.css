@@ -1,0 +1,27 @@
+/* Styling for our dropdown menu */
+
+/* Main div component */
+.menu{
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+}
+
+/* Actual dropdown menu that displays */
+.dropdown-menu{
+    margin-top: -0.1rem;
+    display: none;
+    width: fit-content;
+    padding-left: 1rem;
+    border-radius: 0;
+}
+
+/* Logic to make dropdown menu function */
+.menu:hover .dropdown-menu, .menu:active .dropdown-menu {
+    display: block;
+}
+
+/* Removes transition effect from button else it would affect how menu will look when toggling dark mode */
+.btn{
+    transition: none !important;
+}

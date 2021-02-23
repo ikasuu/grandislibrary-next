@@ -1,0 +1,191 @@
+{
+    "featured": [
+        {
+            "image": "https://i.imgur.com/u3eNy9o.png",
+            "alt": "Progression Guide",
+            "link": "#/content/progression-guide"
+        },
+        {
+            "image": "https://i.imgur.com/dYEiOUn.png",
+            "alt": "Discord Invite",
+            "link": "https://discord.gg/d4et8vt9kP"
+        },
+        {
+            "image": "https://i.imgur.com/N3YG4IM.png",
+            "alt": "Ko-fi Support",
+            "link": "https://ko-fi.com/ikasuu"
+        }
+    ],
+    "recent": [
+        {
+            "title": "Moonlight Magic Patch Notes",
+            "image": "https://i.imgur.com/vdUsnlT.png",
+            "alt": "Moonlight Magic Patch Notes",
+            "link": "https://maplestory.nexon.net/news/64760/v-220-moonlight-magic-patch-notes",
+            "subtitle": "February 3rd, 2021"
+        },
+        {
+            "title": "The Maplehood Watch is Back!",
+            "image": "https://i.imgur.com/orxrned.png",
+            "alt": "The Maplehood Watch is Back!",
+            "link": "https://maplestory.nexon.net/news/64800/the-maplehood-watch-is-back-for-2021",
+            "subtitle": "January 26th, 2021"
+        },
+        {
+            "title": "Visit Sellas, Where the Stars Sleep!",
+            "image": "https://i.imgur.com/YIJGoPr.png",
+            "alt": "Sellas, Where the Stars Sleep",
+            "link": "https://maplestory.nexon.net/news/63875/v-219-awake-flicker-of-light-patch-notes#sellas",
+            "subtitle": "January 6th, 2021"
+        },
+        {
+            "title": "NPC Frederick Removal",
+            "image": "https://i.imgur.com/gEQ3gaw.png",
+            "alt": "NPC Frederick Removal",
+            "link": "https://maplestory.nexon.net/news/64488/npc-fredrick-removal",
+            "subtitle": "January 6th, 2021"
+        },
+        {
+            "title": "Awake: Flicker of Light Patch Notes",
+            "image": "https://i.imgur.com/78EXXRq.png",
+            "alt": "Awake Flicker of Light",
+            "link": "https://maplestory.nexon.net/news/63875/v-219-awake-flicker-of-light-patch-notes",
+            "subtitle": "December 16, 2020"
+        },
+        {
+            "title": "Awake: Ascend to Mastery Patch Notes",
+            "image": "https://i.imgur.com/MP5hQVm.png",
+            "alt": "Awake Ascend to Mastery",
+            "link": "https://maplestory.nexon.net/news/63065/v-218-awake-ascend-to-mastery-patch-notes",
+            "subtitle": "November 17, 2020"
+        }
+    ],
+    "upcoming": [
+        {
+            "title": "NEO Update",
+            "image": "https://i.imgur.com/A78yRzl.png",
+            "alt": "KMS ver. 1.2.341 – MapleStory NEO: Signal!",
+            "link": "https://orangemushroom.net/2020/12/17/kms-ver-1-2-341-maplestory-neo-signal/",
+            "subtitle": "December 17, 2020"
+        },
+        {
+            "title": "Yeti's Debut!",
+            "image": "https://i.imgur.com/W4bNh8G.png",
+            "alt": "KMS ver. 1.2.340 – Yeti’s Debut!",
+            "link": "https://orangemushroom.net/2020/11/18/kms-ver-1-2-340-yetis-debut/",
+            "subtitle": "November 18, 2020"
+        },
+        {
+            "title": "Halloween Events",
+            "image": "https://i.imgur.com/TOR5i4Y.png",
+            "alt": "KMS ver. 1.2.339 – Halloween, Haste & Return of the Legends!",
+            "link": "https://orangemushroom.net/2020/10/21/kms-ver-1-2-339-halloween-haste-return-of-the-legends/",
+            "subtitle": "October 21, 2020"
+        },
+        {
+            "title": "MapleStory Anniversary (Maple Hotel)",
+            "image": "https://i.imgur.com/8ZQV5cY.png",
+            "alt": "KMS ver. 1.2.333 – MapleStory’s 17th Anniversary!",
+            "link": "https://orangemushroom.net/2020/04/23/kms-ver-1-2-333-maplestorys-17th-anniversary/",
+            "subtitle": "April 23, 2020"
+        }
+
+    ],
+    "popularContent": [
+        {
+            "title": "Progression Guide",
+            "image": "https://i.imgur.com/K0uTvbT.png",
+            "alt": "Progression Guide",
+            "link": "#/content/progression-guide",
+            "subtitle": "Content, Gameplay"
+        },
+        {
+            "title": "Shared Cash Shop Inventory",
+            "image": "https://i.imgur.com/3Hq55tb.png",
+            "alt": "Tera Burning",
+            "link": "#/content/shared-cash-shop-inventories",
+            "subtitle": "Content, Equipment"
+        },
+        {
+            "title": "Tera Burning",
+            "image": "https://i.imgur.com/EDvRb0c.png",
+            "alt": "Tera Burning",
+            "link": "#/events/tera-burning",
+            "subtitle": "Events, Training"
+        },
+        {
+            "title": "Level Content Guide",
+            "image": "https://i.imgur.com/XJYWLz0.png",
+            "alt": "Level Content Guide",
+            "link": "#/content/level-content-guide",
+            "subtitle": "Content, Gameplay"
+        },
+        {
+            "title": "Boss Pre-Quests",
+            "image": "https://i.imgur.com/yCwQ4Pc.png",
+            "alt": "Boss Pre-Quests",
+            "link": "#/content/boss-matchmaking-pre-quests",
+            "subtitle": "Content, Gameplay"
+        },
+        {
+            "title": "Upgrading & Enhancing Equipment",
+            "image": "https://i.imgur.com/GcXTd13.png",
+            "alt": "Upgrading & Enhancing Equipment",
+            "link": "#/content/upgrading-enhancing-equipment",
+            "subtitle": "Content, Equipment"
+        }
+
+    ],
+    "popularClasses": [
+        {
+            "alt": "Shadower",
+            "class": "shadower",
+            "path": "explorers/shadower"
+        },
+        {
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
+        },
+        {
+            "alt": "Night Lord",
+            "class": "night-lord",
+            "path": "explorers/night-lord"
+        },
+        {
+            "alt": "Hero",
+            "class": "hero",
+            "path": "explorers/hero"
+        },
+        {
+            "alt": "Night Walker",
+            "class": "night-walker",
+            "path": "cygnus-knights/night-walker"
+        },
+        {
+            "alt": "Dual Blade",
+            "class": "dual-blade",
+            "path": "explorers/dual-blade"
+        },
+        {
+            "alt": "Demon Slayer",
+            "class": "demon-slayer",
+            "path": "resistance/demon-slayer"
+        },
+        {
+            "alt": "Hoyoung",
+            "class": "hoyoung",
+            "path": "other/hoyoung"
+        },
+        {
+            "alt": "Arch Mage (Fire, Poison)",
+            "class": "arch-mage-fire-poison",
+            "path": "explorers/arch-mage-fire-poison"
+        },
+        {
+            "alt": "Paladin",
+            "class": "paladin",
+            "path": "explorers/paladin"
+        }
+    ]
+}

@@ -1,0 +1,598 @@
+{
+    "class": "Cannoneer",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Pirate",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["handCannon"]},
+            {"secondary": ["powderKeg"]}
+        ],
+        "classType": [
+            "Hard-hitter",
+            "Lots of lines",
+            "Mobile"
+        ],
+        "innerAbility": ["Attack Speed", "Crit Rate", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Attacks deal lots of lines/hits per attack",
+                "Lots of mobility with Skills with Cannon Jump, Monkey Push, and Blast Back",
+                "You have a monkey companion that follows you around!",
+                "Has several summons that fight alongside you",
+                "Has increased inventory space from <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Master_of_Organization.png/revision/latest?cb=20160710213621' alt='Skill Master of Organization' width='32' height='32'/> Master of Organization"
+            ],
+            "cons": [
+                "Attack Speed is quite slow but has lots of Attack Speed modifiers",
+                "Cannoneer attacks are mainly horizontal attacking with few vertical Skills"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Buckshot.png/revision/latest?cb=20121110170530' alt='Skill Buckshot'> Buckshot's %Final Damage decrease, and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +20%",
+                "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Counter_Crush.png/revision/latest?cb=20140415022709' alt='Skill Counter Crush'> <strong>Block Chance</strong>: +35%",
+                "<strong>DEF</strong>: +50%",
+                "<strong>Crit Rate</strong>: +40%",
+                "<strong>Crit Damage</strong>: +5% + (10% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Monkey_Wave.png/revision/latest?cb=20110606022134' alt='Skill Monkey Wave'> Monkey Wave buff is active)",
+                "<strong>Final Damage</strong>: +40%",
+                "<strong>Boss Damage</strong>: +40%",
+                "<strong>Attack Speed (Weapon)</strong>: 4",
+                "<strong>Knockback Resistance</strong>: +80%",
+                "<strong>Ignore DEF</strong>: +20%",
+                "<strong>Abnormal Status Resistance</strong>: 20"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Cannon_Booster.png/revision/latest?cb=20110605012635' alt='Skill Cannon Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Monkey_Magic.png/revision/latest?cb=20110605012707' alt='Skill Monkey Magic'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Monkey_Wave.png/revision/latest?cb=20110606022134' alt='Skill Monkey Wave'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Pirate%27s_Spirit.png/revision/latest?cb=20111026083917' alt='Skill Pirate's Spirit'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Buckshot.png/revision/latest?cb=20121110170530' alt='Skill Buckshot'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Monkey_Militia.png/revision/latest?cb=20110608083752' alt='Skill Monkey Militia'>(10s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Rolling_Rainbow.png/revision/latest?cb=20121109234754' alt='Skill Rolling Rainbow'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Monkey_Business.png/revision/latest?cb=20181115065415' alt='Skill Monkey Business'>(120s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/pool-maker.png?w=600' alt='Skill Poolmaker'/>(60s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Barrel_Roulette.png/revision/latest?cb=20110606022144' alt='Skill Barrel Roulette'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>(480 - 180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954' alt='Skill Epic Adventure (Pirate)'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741' alt='Skill Loaded Dice'>(180s cd <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813' alt='Skill Overdrive'>(70 - 64s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_The_Nuclear_Option.png/revision/latest?cb=20170609033221' alt='Skill The Nuclear Option'>(30s cd)"
+        },
+        "linkSkill": {
+                "id":80002774,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502"],
+                "type": "Passive",
+                "desc": "",
+                "details": [
+                    "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+                    "The stats are affected by %Stat bonuses",
+                    "<strong>[Note]: </strong>Link Skill has a togglable effect where you can swap all STR + %STR into DEX + %DEX and vice versa<ul><li>Double-click the Link Skill to turn this effect on/off</li><li>The effect only applies to the original Link Skill, not the transferred version</li></ul>"
+                ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/AoNNz8Q.png",[499,374]],
+            "npc": [
+                ["",""]
+            ],
+            "info": [
+                "To create one, choose the 'Cannoneer' option in the Character Creation screen. Cannoneers have their own separate creation button like Dual Blade and Pathfinder. As well, they have a different story than regular Explorers but are part of the same class group"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Monkey_Push.png/revision/latest?cb=20140116041844' alt='Skill Monkey Push'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Cannon_Boost.png/revision/latest?cb=20110604025603' alt='Skill Cannon Boost'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/45/Skill_Cannon_Blaster.png/revision/latest?cb=20110604025545' alt='Skill Cannon Blaster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Cannon_Strike.png/revision/latest?cb=20130713083422' alt='Skill Cannon Strike'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Blast_Back.png/revision/latest?cb=20110604025558' alt='Skill Blast Back'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Pirate_Training.png/revision/latest?cb=20110723140127' alt='Skill Pirate Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Cannon_Mastery.png/revision/latest?cb=20110605012716' alt='Skill Cannon Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Cannon_Booster.png/revision/latest?cb=20110605012635' alt='Skill Cannon Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Critical_Fire.png/revision/latest?cb=20110605012712' alt='Skill Critical Fire'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Monkey_Magic.png/revision/latest?cb=20110605012707' alt='Skill Monkey Magic'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scatter_Shot.png/revision/latest?cb=20140409154425' alt='Skill Scatter Shot'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Barrel_Bomb.png/revision/latest?cb=20110605012629' alt='Skill Barrel Bomb'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Pirate_Rush.png/revision/latest?cb=20110606022214' alt='Skill Pirate Rush'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Reinforced_Cannon.png/revision/latest?cb=20110606022210' alt='Skill Reinforced Cannon'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Barrel_Roulette.png/revision/latest?cb=20110606022144' alt='Skill Barrel Roulette'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Counter_Crush.png/revision/latest?cb=20140415022709' alt='Skill Counter Crush'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Cannon_Jump.png/revision/latest?cb=20110606022138' alt='Skill Cannon Jump'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Monkey_Wave.png/revision/latest?cb=20110606022134' alt='Skill Monkey Wave'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Cannon_Spike.png/revision/latest?cb=20140415021822' alt='Skill Cannon Spike'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Monkey_Fury.png/revision/latest?cb=20140116043745' alt='Skill Monkey Fury'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818' alt='Skill Double Down' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Cannon_Overload.png/revision/latest?cb=20110608083829' alt='Skill Cannon Overload' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Cannon_Bazooka.png/revision/latest?cb=20140414051134' alt='Skill Cannon Bazooka' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Pirate%27s_Spirit.png/revision/latest?cb=20111026083917' alt='Skill Pirate' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Mega_Monkey_Magic.png/revision/latest?cb=20110608083824' alt='Skill Mega Monkey Magic' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Monkey_Militia.png/revision/latest?cb=20110608083752' alt='Skill Monkey Militia' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Anchors_Aweigh.png/revision/latest?cb=20110608083748' alt='Skill Anchors Aweigh' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Cannon_Barrage.png/revision/latest?cb=20140414051046' alt='Skill Cannon Barrage' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Monkey_Militia_-_Enhance.png/revision/latest?cb=20121109233916' alt='Skill Monkey Militia - Enhance' width='32' height='32'> Monkey Militia - Enhance</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Cannon_Bazooka_-_Reinforce.png/revision/latest?cb=20140414051454' alt='Skill Cannon Bazooka - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Cannon_Bazooka_-_Extra_Strike.png/revision/latest?cb=20140414051514' alt='Skill Cannon Bazooka - Extra Strike' width='32' height='32'> Cannon Bazooka - Reinforce and Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Cannon_Barrage_-_Reinforce.png/revision/latest?cb=20140414051522' alt='Skill Cannon Barrage - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Cannon_Barrage_-_Extra_Strike.png/revision/latest?cb=20140414051536' alt='Skill Cannon Barrage - Extra Strike' width='32' height='32'> Cannon Barrage - Reinforce and Extra Strike</li></ul>"
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Cannon_Barrage.png/revision/latest?cb=20140414051046' alt='Skill Cannon Barrage'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Cannon_Bazooka.png/revision/latest?cb=20140414051134' alt='Skill Cannon Bazooka'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Rolling_Rainbow.png/revision/latest?cb=20121109234754' alt='Skill Rolling Rainbow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Monkey_Militia.png/revision/latest?cb=20110608083752' alt='Skill Monkey Militia'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Monkey_Fury.png/revision/latest?cb=20140116043745' alt='Skill Monkey Fury'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Anchors_Aweigh.png/revision/latest?cb=20110608083748' alt='Skill Anchors Aweigh'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/45/Skill_Cannon_Blaster.png/revision/latest?cb=20110604025545' alt='Skill Cannon Blaster'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Cannon_Strike.png/revision/latest?cb=20130713083422' alt='Skill Cannon Strike'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Blast_Back.png/revision/latest?cb=20110604025558' alt='Skill Blast Back'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scatter_Shot.png/revision/latest?cb=20140409154425' alt='Skill Scatter Shot'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Barrel_Bomb.png/revision/latest?cb=20110605012629' alt='Skill Barrel Bomb'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Cannon_Spike.png/revision/latest?cb=20140415021822' alt='Skill Cannon Spike'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Monkey_Wave.png/revision/latest?cb=20110606022134' alt='Skill Monkey Wave'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Cannon_Jump.png/revision/latest?cb=20110606022138' alt='Skill Cannon Jump'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Barrel_Roulette.png/revision/latest?cb=20110606022144' alt='Skill Barrel Roulette'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Monkey_Fury.png/revision/latest?cb=20140116043745' alt='Skill Monkey Fury'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Anchors_Aweigh.png/revision/latest?cb=20110608083748' alt='Skill Anchors Aweigh'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Monkey_Militia.png/revision/latest?cb=20110608083752' alt='Skill Monkey Militia'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Cannon_Bazooka.png/revision/latest?cb=20140414051134' alt='Skill Cannon Bazooka'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Cannon_Barrage.png/revision/latest?cb=20140414051046' alt='Skill Cannon Barrage'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Rolling_Rainbow.png/revision/latest?cb=20121109234754' alt='Skill Rolling Rainbow'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3391/cannoneer",
+            "https://maplestory.fandom.com/wiki/Cannoneer"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1283,
+                    "offline": true,
+                    "name": "Homeward Cannon",
+                    "shortDesc": "Returns you to the Nautilus when used.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/21sfwCo.png"],
+                    "animations": ["https://media4.giphy.com/media/K2YAugvvJSGJcBkplw/giphy.gif"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "Gained from completing the quest 'Return to The Nautilus' from Kyrin at Lv. 20"
+                    ]
+                },
+                {
+                    "id": 20050109,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Master_of_Swimming.png/revision/latest?cb=20110627095447"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 20050111,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Master_of_Organization.png/revision/latest?cb=20160710213621"],
+                    "type": "Passive"
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 5011000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/45/Skill_Cannon_Blaster.png/revision/latest?cb=20110604025545"],
+                        "animations": ["https://media0.giphy.com/media/Xbli5MehBN13837Gw4/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires your cannon forward at multiple enemies"
+                    },
+                    {
+                        "id": 5011001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Cannon_Strike.png/revision/latest?cb=20130713083422"],
+                        "animations": ["https://media2.giphy.com/media/giiF3BdH1691YrsFiA/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a strike forward at one enemy"
+                    },
+                    {
+                        "id": 5011002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Blast_Back.png/revision/latest?cb=20110604025558"],
+                        "type": "Attack / Utility",
+                        "desc": "Fires your cannon causing you to recoil backward",
+                        "details": [
+                            "The attack has a chance to slow enemies"
+                        ]
+                    },
+                    {
+                        "id": 5011006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Monkey_Push.png/revision/latest?cb=20140116041844"],
+                        "animations": ["https://media4.giphy.com/media/QhIP4pWedBMBg3ulbC/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "id": 5010003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Cannon_Boost.png/revision/latest?cb=20110604025603"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "id": 5301000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scatter_Shot.png/revision/latest?cb=20140409154425"],
+                        "animations": ["https://media1.giphy.com/media/fZ7cY4KNJhwqsyfa75/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires several explosive cannonballs forward"
+                    },
+                    {
+                        "id": 5301001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Barrel_Bomb.png/revision/latest?cb=20110605012629"],
+                        "animations": ["https://media3.giphy.com/media/Ln36zpHb1QvaGE6mzd/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a rolling barrel that travels a short distance before exploding ",
+                        "details": [
+                            "Attack pushes enemies back"
+                        ]
+                    },
+                    {
+                        "id": 5301002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Cannon_Booster.png/revision/latest?cb=20110605012635"],
+                        "animations": ["https://media1.giphy.com/media/8FDdAo76oPXsElb3aU/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 5301003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Monkey_Magic.png/revision/latest?cb=20110605012707"],
+                        "animations": ["https://media0.giphy.com/media/a0iRCOuLfxsGg88ZwU/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 5300004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Critical_Fire.png/revision/latest?cb=20110605012712"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5300005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Cannon_Mastery.png/revision/latest?cb=20110605012716"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5300008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Pirate_Training.png/revision/latest?cb=20110723140127"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "id": 5311000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Cannon_Spike.png/revision/latest?cb=20140415021822"],
+                        "animations": ["https://media0.giphy.com/media/Xa8wjmQ4FLO2eOUOK4/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a spike that pierces through enemies"
+                    },
+                    {
+                        "id": 5311010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Monkey_Fury.png/revision/latest?cb=20140116043745"],
+                        "animations": ["https://media0.giphy.com/media/MdA4CQLgH7OnhNFN8Q/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Launches a bomb that bounces around damages enemies and debuffs them",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy takes increased %Damage and takes damage periodically"
+                        ]
+                    },
+                    {
+                        "id": 5311002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Monkey_Wave.png/revision/latest?cb=20110606022134"],
+                        "animations": ["https://media1.giphy.com/media/UqTFkkRHlHCX1hd14s/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Creates a large shockwave that damages enemies and has a chance to stun ",
+                        "details": [
+                            "When Monkey Wave is fully charged and released, you gain a buff that increases %Crit Damage<ul><li>While buff is active, you have a chance while attacking to use Monkey Wave at full strength without charging. There will be a symbol above your head when it is ready</li></ul>",
+                            "<strong>[Passive]</strong>: Permanently increases %Crit Rate"
+                        ]
+                    },
+                    {
+                        "id": 5311003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Cannon_Jump.png/revision/latest?cb=20110606022138"],
+                        "animations": ["https://media1.giphy.com/media/RfeeCCjklxHWZ2PLXP/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Fires your cannon, launching you up into the air",
+                        "details": [
+                            "Can be activated using the Skill Key or by pressing the Up Arrow Key and Jump Key while in the air<ul><li>Can be used up to two times in a row</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 5311004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Barrel_Roulette.png/revision/latest?cb=20110606022144"],
+                        "animations": ["https://media4.giphy.com/media/KGSnEwpVU5bMoY6fog/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 5311005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
+                        "animations": ["https://media1.giphy.com/media/4eQqI2czS8JpJuy7Ih/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants a buff depending on the number rolled",
+                        "details": [
+                            "<strong>[One]: </strong>Nothing",
+                            "<strong>[Two]:</strong> Increases %DEF",
+                            "<strong>[Three]: </strong>Increases %Max HP/MP",
+                            "<strong>[Four]: </strong>Increases %Crit Rate",
+                            "<strong>[Five]: </strong>Increases %Damage",
+                            "<strong>[Six]: </strong>Increases %EXP Rate"
+                        ]
+                    },
+                    {
+                        "id": 5310006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Reinforced_Cannon.png/revision/latest?cb=20110606022210"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5310007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Pirate_Rush.png/revision/latest?cb=20110606022214"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5310009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Counter_Crush.png/revision/latest?cb=20140415022709"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "id": 5321000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Cannon_Bazooka.png/revision/latest?cb=20140414051134"],
+                        "animations": ["https://media3.giphy.com/media/SSQd05TfDGKt7TyNqU/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a large explosive blast forward"
+                    },
+                    {
+                        "id": 5321012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Cannon_Barrage.png/revision/latest?cb=20140414051046"],
+                        "animations": ["https://media0.giphy.com/media/j5o9RkXSV9vGoHLD2y/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a barrage of cannonballs at one enemy",
+                        "details": [
+                            "Attack has increased %Crit Rate and %Ignore DEF"
+                        ]
+                    },
+                    {
+                        "id": 5321003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Anchors_Aweigh.png/revision/latest?cb=20110608083748"],
+                        "animations": ["https://media0.giphy.com/media/eJ91iMd8CqTvxC7ZfW/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons an anchor that pulls in nearby enemies towards it while dealing damage ",
+                        "details": [
+                            "When the duration runs out, the anchor will explode"
+                        ]
+                    },
+                    {
+                        "id": 5321004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Monkey_Militia.png/revision/latest?cb=20110608083752"],
+                        "animations": ["https://media3.giphy.com/media/iJVo6pQV0Z7OY7nbHK/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a stationary sentry that attacks nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 5321001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744"],
+                        "animations": ["https://media2.giphy.com/media/LOikrbuPas8SGF91RY/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a massive attack that hits a large area while also granting you a buff",
+                        "details": [
+                            "Unaffected by Damage Reflect",
+                            "When used, reduces remaining cooldown of <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Barrel_Roulette.png/revision/latest?cb=20110606022144' alt='Skill Barrel Roulette' width='32' height='32' /> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice' width='32' height='32' /> slightly"
+                        ]
+                    },
+                    {
+                        "id": 5321010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Pirate%27s_Spirit.png/revision/latest?cb=20111026083917"],
+                        "animations": ["https://media2.giphy.com/media/DqFM1dwG4sRypumX7F/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases %Knockback Resistance",
+                        "details": [
+                            "<strong>[Passive]: </strong>Permanently increases %Boss Damage and the chance for <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Counter_Crush.png/revision/latest?cb=20140415022709' alt='Skill Counter Crush' width='32' height='32' /> to activate"
+                        ]
+                    },
+                    {
+                        "id": 5321005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                        "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 5321006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                        "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds "
+                    },
+                    {
+                        "id": 5320009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Cannon_Overload.png/revision/latest?cb=20110608083829", "https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Cannon_Mastery.png/revision/latest?cb=20110605012716"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now increases %Final Damage, Attack Speed (by 1 stage), and %Ignore DEF"
+                        ]
+                    },
+                    {
+                        "id": 5320008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Mega_Monkey_Magic.png/revision/latest?cb=20110608083824", "https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Monkey_Magic.png/revision/latest?cb=20110605012707"],
+                        "type": "Upgraded Passive",
+                        "desc": "Increases amount of stats provided"
+                    },
+                    {
+                        "id": 5320007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818", "https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Grants a chance to roll two dices at once"
+                        ]
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 5320043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Monkey_Militia_-_Splitter.png/revision/latest?cb=20121109233642"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 5320044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Monkey_Militia_-_Persist.png/revision/latest?cb=20121109233758"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 5320045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Monkey_Militia_-_Enhance.png/revision/latest?cb=20121109233916"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 5320046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Cannon_Bazooka_-_Reinforce.png/revision/latest?cb=20140414051454"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 5320047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Cannon_Bazooka_-_Spread.png/revision/latest?cb=20140414051510"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 5320048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Cannon_Bazooka_-_Extra_Strike.png/revision/latest?cb=20140414051514"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 5320049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Cannon_Barrage_-_Reinforce.png/revision/latest?cb=20140414051522"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 5320050,
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADwUlEQVR4nL1XiZWjMAxV3tsGSAlMCbiEUAItkBJMCaQEKCGUQEqwSxhKiEvISrYFMsdkdt/uaF7GB6D/dfn4Bam84GfkxB1J4PV8Pn8E/Xw+v5gEE/DgWZb9UyDn3K5O8/kJ6uPDk/i1AT+doBcv1/ibYj/HHz1z3Qj6Wvq5G/Yz7NcaB1V8sSDwJ5RlCeM4Qj9YP+2/eb2gyPOZRJIDt/4BEJUzCQLPNb8QCPX4nIHluxtwY6BUKiFBBhIJlnUSzlaR4ilaTcBgtiTIE7KleZcH8LsZweEftaUKniByzaChFVi7BCQJss67V0US5OYB524LiQrbB4HrBRxHs667uUcST7D9B0C7UNgQ0BPGSQdLZxK3HRIQSEwxF6pnAO9Mh56zG4Na0wYSGHspGwK3HEFvgQS1GxIDaQPvTiKSD4vl+ZjBzTVHTvXPOTEPCSQkEEAPS8LNJGwkwL/o7akMHXtPPTCivkbtEzvMAdDPSCYoc5IEv0PgfeeJslVkoQh/SkRY/iUBXRWgyhBbwx9NlgbQK0HCIvj1isSuWL4duComxwEBkiw7g1/xndsnwOBah+JnIiwmkoAKieXoggILtbiE+v4GgabRsghSAroIgHdaFYvCz+W4atX17HRQ18aToJakRW0X+wiLS7TqKwJtnifjhQAqIaUEbi262y6JVIiPKI4utvRO2TQhTOSB72xmFC5h0EyAwPW0V8GYZ30PFX40YFtjaMoYFiJhTFgiXQTfSzRiPM+/0h0/CcHDLb7LpQcuF5iQHLUsBp8rUdNc39TablWGRSjDkT21txeYrvVeKGz6cYfZvSuaFkW7VAt+N9P/aldf6Vs8gJksSdhpmh+Vq0pYk/ASm3chmNCLMg3T7diGuier+CXpWrKSQNWjSEhI4SVZSp3pOQT5YRUwCdy3mQQJL0RjnCOLzRjNzXDxcVVC5J0H1qek/b0gkuC+14/L8IiZziQIkMAPw/OFvN2MJDCDu7jd+jDQ92g9Zx2XolIqGfMcjWUrZX8vwDMB7Ygk2Ro8nhWQFfDBgJVLkUBH4BsC/tDIALFa+KDhFdHy/IhWxzAcydorR7L1QDwJkdRVyPa9xPKL0AGBvVB8iwADs2Tnc+iIU3HQDP58x8JAMtZS/jgHPCaFg/SQE+JFyh9QqaPoZHb24fHDldKj8fscqC/+bjDnwhDAaE18wHIS4ssJnfV36/6N+HVAHEhOdFfj2xGRgFrsWG24G9RCgez/jdAyj7ci6p7YA56EWR2Z/5cwOP2TITjFC+NPyHw9/w2EQiuVjrg2XQAAAABJRU5ErkJggg=="],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 5320051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Cannon_Barrage_-_Extra_Strike.png/revision/latest?cb=20140414051536"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 5321054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Buckshot.png/revision/latest?cb=20121110170530"],
+                    "animations": ["https://media2.giphy.com/media/cjbgKCIKFEQXRm14Z4/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Triples the number of attacks for your skills but you have reduced %Final Damage",
+                    "details": [
+                        "Does not apply to summons",
+                        "Number of attacks cannot exceed 15 lines/hits"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 5321052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Rolling_Rainbow.png/revision/latest?cb=20121109234754"],
+                    "animations": ["https://media0.giphy.com/media/Ti1gcx0c76rTzRB3hg/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons several cannons that fire a continuous wave of lasers",
+                    "reqLev": 160
+                },
+                {
+                    "id": 5321053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954"],
+                    "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expPirate","goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Cannon of Mass Destruction",
+                    "shortDesc": "MP Cost: 500, periodically fires a giant rocket, Max Enemies Hit: 15, Damage: 825%, Number of Attacks: 4.\\nYou can prepare a rocket once every 25 seconds, and can hold up to 3.\\nCooldown: 3 Sec.",
+                    "id": 400051008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cannon_of_Mass_Destruction.png/revision/latest?cb=20161125062540"],
+                    "animations": ["https://media1.giphy.com/media/iJzD8EVwWaQ74kKN5S/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires a large rocket that slowly travels and damages enemies it touches",
+                    "details": [
+                        "Gain 1 Rocket every 25 secs (max 3 Rockets)",
+                        "Each enemy can only be hit up to 50 times by a rocket"
+                    ]
+                },
+                {
+                    "name": "The Nuclear Option",
+                    "shortDesc": "MP Cost: 1000, You have up to 5 sec to aim your shot. The skill is canceled if you fail to fire within this time. The explosion inflicts 2400% damage 5 times to up to 15 enemies for 1 sec.\\nCreates a patch of Polluted Area lasting for 15 sec on the lowest platform within attack range which inflicts 1000% damage to up to 10 enemies.\\nCooldown: 30 sec",
+                    "id": 400051024,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_The_Nuclear_Option.png/revision/latest?cb=20170609033221"],
+                    "animations": ["https://media1.giphy.com/media/QTfvVSp1Xu6dbW7hKY/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Aims your cannon and fires a missile in a chosen direction that explodes and creates a lingering damaging field",
+                    "details": [
+                        "Hold to aim the cannon and angle it by using the Up or Down Arrow Keys<ul><li>You have up to 5 secs to aim or the Skill will cancel if you fail to fire within this time</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Monkey Business",
+                    "shortDesc": "MP Cost: 1000, Summon the Champion Monkey Platoon that fires Monkey Bombs and Monkey Cannons for 42 sec\\n Monkey Cannon: Max Enemies Hit: 3, Damage: 600%, Attack Count: 4\\nMonkey Bomb: Max Enemies Hit: 12, Damage: 900%, Attack Count: 7, Additional Monster DEF Ignored: 100%\\nBasic Roy: Uses Monkey Cannon every 1 sec, and Monkey Bomb every 6 sec.\\nSpeedy Maxi: Uses Monkey Cannon every 0.7 sec, and Monkey Bomb every 30 sec.\\nExplosive Khakkee: Uses Monkey Cannon every 2.5 sec, and Monkey Bomb every 3 sec.\\nCooldown: 120 sec",
+                    "id": 400051038,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Monkey_Business.png/revision/latest?cb=20181115065415"],
+                    "animations": ["https://media0.giphy.com/media/jpiU94GqZhdLKbkAgO/giphy.gif", "https://media3.giphy.com/media/KBVJYBf2AuJs3aZmIb/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons several monkeys to fight alongside you",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Poolmaker",
+                    "shortDesc": "MP Cost: 1000. Strikes that attack up to 8 enemies for 1400% damage, 3 time(s), occur 20 time(s) each.\\nSupply: Duration: 20 sec. When used, you'll gain a +27% damage increase buff, with a duration of 20 sec after recovering 17% of max HP. Only up to 2 supplies can exist on the map at a time.\\nCooldown: 60 sec",
+                    "id": 400051038,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/pool-maker.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/imkTUMhENgwTTWWXqD/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launches a barrage of missiles that slowly rain down onto enemies",
+                    "details": [
+                        "Additionally while the skill is active, a Supply Crate will drop that restores some %Max HP/MP and grants a %Damage buff<ul><li>Party members can also activate the Supply Crate and gain its effects</li><li>To activate the Supply Crate, press the Up Arrow Key on it</li><li>Up to 2 Supply Crates can be present on a map at one time</li></ul>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Monkey Wave - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Monkey_Wave.png/revision/latest?cb=20110606022134"],
+                "animations": ["https://media1.giphy.com/media/UqTFkkRHlHCX1hd14s/giphy.gif"]
+            },
+            {
+                "name": "Cannon Bazooka - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Cannon_Bazooka.png/revision/latest?cb=20140414051134"],
+                "animations": ["https://media3.giphy.com/media/SSQd05TfDGKt7TyNqU/giphy.gif"]
+            },
+            {
+                "name": "Rolling Rainbow - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Rolling_Rainbow.png/revision/latest?cb=20121109234754"],
+                "animations": ["https://media0.giphy.com/media/Ti1gcx0c76rTzRB3hg/giphy.gif"]
+            },
+            {
+                "name": "Cannon of Mass Destruction - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cannon_of_Mass_Destruction.png/revision/latest?cb=20161125062540"],
+                "animations": ["https://media1.giphy.com/media/iJzD8EVwWaQ74kKN5S/giphy.gif"]
+            },
+            {
+                "name": "Monkey Business - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Monkey_Business.png/revision/latest?cb=20181115065415"],
+                "animations": ["https://media0.giphy.com/media/jpiU94GqZhdLKbkAgO/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Cannoneer is a STR pirate class part of the Explorers class group. Cannoneers wield a Hand Cannon which they use to wreck havoc on enemies and control the map. They have a slow Attack Speed but make up with deadly attacks that deal tons of damage"
+}

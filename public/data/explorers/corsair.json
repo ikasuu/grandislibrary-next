@@ -1,0 +1,662 @@
+{
+    "class": "Corsair",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Pirate",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Increases %Summon Duration",
+        "legionValue": "4/6/8/10/12%",
+        "equipment": [
+            {"weapon": ["gun"]},
+            {"secondary": ["wristband"]},
+            {"ammo": "bullet"}
+        ],
+        "classType": [
+            "Long-ranged",
+            "Summon",
+            "Crowd-control"
+        ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Attack"],
+        "prosCons": {
+            "pros": [
+                "Has many summonable minions",
+                "Great 5th Job Skills",
+                "Lots of Max HP bonuses",
+                "Good mobbing and decent bossing",
+                "Has increased inventory space from <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Master_of_Organization.png/revision/latest?cb=20160710213621' alt='Skill Master of Organization' width='32' height='32'/> Master of Organization"
+            ],
+            "cons": [
+                "Has micromanagement with summons",
+                "Lacks mobility compared to other classes",
+                "Requires the use of Bullets as ammo",
+                "Attacks have few lines",
+                "Buffs have short durations",
+                "Lots of RNG with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'> Scurvy Summons, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'> Roll of the Dice, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047' alt='Skill Broadside'> Broadside"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +15%",
+                "<strong>DEF</strong>: +20%",
+                "<strong>Attack</strong>: +20%",
+                "<strong>Crit Rate</strong>: +60%",
+                "<strong>Crit Damage</strong>: +35%",
+                "<strong>Damage</strong>: +(15% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052' alt='Skill Pirate's Revenge'> Pirate's Revenge is active)",
+                "<strong>Final Damage</strong>: +20%",
+                "<strong>Knockback Resistance</strong>: +60%",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +55%",
+                "<strong>Ignore DEF</strong>: +20%",
+                "<strong>Abnormal Status Resistance</strong>: 45"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Gun_Booster.png/revision/latest?cb=20110507044126' alt='Skill Gun Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Infinity_Blast.png/revision/latest?cb=20111221142523' alt='Skill Infinity Blast'>, <img width='33' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Jolly_Roger.png/revision/latest?cb=20111228030956' alt='Skill Jolly Roger'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Whaler%27s_Potion.png/revision/latest?cb=20121016185348' alt='Skill Whaler's Potion'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Octo-Cannon.png/revision/latest?cb=20111228002700' alt='Skill Octo-Cannon'>(28 - 10s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047' alt='Skill Broadside'>(30s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>(480 - 180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954' alt='Skill Epic Adventure (Pirate)'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741' alt='Skill Loaded Dice'>(180s cd <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813' alt='Skill Overdrive'>(70 - 64s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Nautilus_Assault.png/revision/latest?cb=20181115065337' alt='Skill Nautilus Assault'>(180s cd)"
+        },
+        "linkSkill": {
+                "id":80002774,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502"],
+                "type": "Passive",
+                "desc": "",
+                "details": [
+                    "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+                    "The stats are affected by %Stat bonuses",
+                    "<strong>[Note]: </strong>Link Skill has a togglable effect where you can swap all STR + %STR into DEX + %DEX and vice versa<ul><li>Double-click the Link Skill to turn this effect on/off</li><li>The effect only applies to the original Link Skill, not the transferred version</li></ul>"
+                ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/SmayX3a.png",[499,374]],
+            "npc": [
+                ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/NPC_Kyrin.png/revision/latest?cb=20110306080911",[95,118]],
+                ["https://maplestory.io/api/character/%7B%22ItemId%22:1051355,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:21397,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:37847,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:1072833,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:2003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:12003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D/stand1/0",[64,97]]
+            ],
+            "info": [
+                "To create one, choose the 'Explorers' option in the Character Creation screen and then continue through the story until you reach the quest <a href='https://maplestory.fandom.com/wiki/Quests/77/Victoria_Island_or_Bust!' target='_blank' rel='noopener'>'Victoria Island or Bust'</a> and choose the 'Pirate, fancy and unique' option",
+                "Once you reach Lv. 30 as a Pirate, talk to Kyrin to accept a quest called <a href='https://maplestory.fandom.com/wiki/Quests/77/Gunslinger_of_the_Seven_Seas' target='_blank' rel='noopener'>'Gunslinger of the Seven Seas'</a>. Completing the quest will make you a Gunslinger and you will be on the path to a Corsair. Gunslinger is the 2nd job of Corsair"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Octopush.png/revision/latest?cb=20130713082252' alt='Skill Octopush'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Bullet_Time.png/revision/latest?cb=20110506064810' alt='Skill Bullet Time'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Dash.png/revision/latest?cb=20110506064955' alt='Skill Dash'> -> <img width='32' height='32' src='https://static.wikia.nocookie.net/maplestory/images/9/9f/Skill_Shadow_Heart.png' alt='Skill Shadow Heart.png'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Sommersault_Kick.png/revision/latest?cb=20110506064900' alt='Skill Sommersault Kick'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Double_Shot.png/revision/latest?cb=20110506064904' alt='Skill Double Shot'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Infinity_Blast.png/revision/latest?cb=20111221142523' alt='Skill Infinity Blast'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Wings.png/revision/latest?cb=20140416220613' alt='Skill Wings'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Gun_Mastery.png/revision/latest?cb=20110507044026' alt='Skill Gun Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Gun_Booster.png/revision/latest?cb=20110507044126' alt='Skill Gun Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Rapid_Blast.png/revision/latest?cb=20120730141606' alt='Skill Rapid Blast'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Triple_Fire.png/revision/latest?cb=20110508005848' alt='Skill Triple Fire'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Recoil_Shot.png/revision/latest?cb=20110507044141' alt='Skill Recoil Shot'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Outlaw%27s_Code.png/revision/latest?cb=20111228001644' alt='Skill Outlaw's Code'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Octo-Cannon.png/revision/latest?cb=20111228002700' alt='Skill Octo-Cannon'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Fullmetal_Jacket.png/revision/latest?cb=20111228002045' alt='Skill Fullmetal Jacket'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Cross_Cut_Blast.png/revision/latest?cb=20160629045948' alt='Skill Cross Cut Blast'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Blunderbuster.png/revision/latest?cb=20111227234821' alt='Skill Blunderbuster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Blackboot_Bill.png/revision/latest?cb=20111228000714' alt='Skill Blackboot Bill'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818' alt='Skill Double Down' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Ahoy_Mateys.png/revision/latest?cb=20111228031553' alt='Skill Ahoy Mateys' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052' alt='Skill Pirate' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Majestic_Presence.png/revision/latest?cb=20111228035430' alt='Skill Majestic Presence' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Eight-Legs_Easton.png/revision/latest?cb=20111228030548' alt='Skill Eight-Legs Easton' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Quickdraw.png/revision/latest?cb=20140419012051' alt='Skill Quickdraw' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Jolly_Roger.png/revision/latest?cb=20111228030956' alt='Skill Jolly Roger' width='33' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Parrotargetting.png/revision/latest?cb=20111228021645' alt='Skill Parrotargetting' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047' alt='Skill Broadside' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Rapid_Fire.png/revision/latest?cb=20110508033722' alt='Skill Rapid Fire' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Brain_Scrambler.png/revision/latest?cb=20111228030201' alt='Skill Brain Scrambler' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Rapid_Fire_-_Reinforce.png/revision/latest?cb=20121016184430' alt='Skill Rapid Fire - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Rapid_Fire_-_Boss_Rush.png/revision/latest?cb=20121016184627' alt='Skill Rapid Fire - Boss Rush' width='32' height='32'> Rapid Fire - Reinforce and Boss Rush</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Brain_Scrambler_-_Reinforce.png/revision/latest?cb=20140418193816' alt='Skill Brain Scrambler - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Brain_Scrambler_-_Extra_Strike.png/revision/latest?cb=20140418194114' alt='Skill Brain Scrambler - Extra Strike' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Brain_Scrambler_-_Boss_Rush.png/revision/latest?cb=20140724234011' alt='Skill Brain Scrambler - Boss Rush' width='32' height='32'> Brain Scrambler - Reinforce, Extra Strike, and Boss Rush<br></li></ul>"
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Rapid_Fire.png/revision/latest?cb=20110508033722' alt='Skill Rapid Fire'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047' alt='Skill Broadside'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Majestic_Presence.png/revision/latest?cb=20111228035430' alt='Skill Majestic Presence'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Brain_Scrambler.png/revision/latest?cb=20111228030201' alt='Skill Brain Scrambler'/> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'/> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Octo-Cannon.png/revision/latest?cb=20111228002700' alt='Skill Octo-Cannon'/> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Eight-Legs_Easton.png/revision/latest?cb=20111228030548' alt='Skill Eight-Legs Easton'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Ugly_Bomb.png/revision/latest?cb=20121016184817' alt='Skill Ugly Bomb'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Sommersault_Kick.png/revision/latest?cb=20110506064900' alt='Skill Sommersault Kick'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Double_Shot.png/revision/latest?cb=20110506064904' alt='Skill Double Shot'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Rapid_Blast.png/revision/latest?cb=20120730141606' alt='Skill Rapid Blast'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Recoil_Shot.png/revision/latest?cb=20110507044141' alt='Skill Recoil Shot'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Blunderbuster.png/revision/latest?cb=20111227234821' alt='Skill Blunderbuster'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Blackboot_Bill.png/revision/latest?cb=20111228000714' alt='Skill Blackboot Bill'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Octo-Cannon.png/revision/latest?cb=20111228002700' alt='Skill Octo-Cannon'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Rapid_Fire.png/revision/latest?cb=20110508033722' alt='Skill Rapid Fire'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Brain_Scrambler.png/revision/latest?cb=20111228030201' alt='Skill Brain Scrambler'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Eight-Legs_Easton.png/revision/latest?cb=20111228030548' alt='Skill Eight-Legs Easton'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Majestic_Presence.png/revision/latest?cb=20111228035430' alt='Skill Majestic Presence'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047' alt='Skill Broadside'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Parrotargetting.png/revision/latest?cb=20111228021645' alt='Skill Parrotargetting'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Ugly_Bomb.png/revision/latest?cb=20121016184817' alt='Skill Ugly Bomb'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3394/pirate",
+            "https://maplestory.fandom.com/wiki/Pirate"
+        ],
+        "specialThanks": "Special thanks to Huynni for their help in making this overview!",
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build", "Huynni"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1281,
+                    "offline": true,
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "animations": ["https://media1.giphy.com/media/9CMy7sLPg8PkWApcjD/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 20050109,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Master_of_Swimming.png/revision/latest?cb=20110627095447"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 20050111,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Master_of_Organization.png/revision/latest?cb=20160710213621"],
+                    "type": "Passive"
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 5001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Sommersault_Kick.png/revision/latest?cb=20110506064900"],
+                        "animations": ["https://media4.giphy.com/media/IRnKyV6jXPfluCu9mb/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Perform a kick in front of you"
+                    },
+                    {
+                        "id": 5001003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Double_Shot.png/revision/latest?cb=20110506064904"],
+                        "animations": ["https://media1.giphy.com/media/cYFELy9yP2MfAX2RkN/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Shoots two bullets at one enemy"
+                    },
+                    {
+                        "id": 5001010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Octopush.png/revision/latest?cb=20130713082252"],
+                        "animations": ["https://media1.giphy.com/media/jpMOW4N0JXHZwXGMUs/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "id": 5001005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Dash.png/revision/latest?cb=20110506064955"],
+                        "animations": ["https://media3.giphy.com/media/5Ah0oQuhdYRubceXqb/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double-tap the left or right Arrow Keys to start sprinting",
+                        "details": [
+                            "Sprinting increases Movement Speed and Jump",
+                            "While sprinting, you cannot be knocked back"
+                        ]
+                    },
+                    {
+                        "id": 5000007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Shadow_Heart.png/revision/latest?cb=20120628182247"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5000000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Bullet_Time.png/revision/latest?cb=20110506064810"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "id": 5200010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Triple_Fire.png/revision/latest?cb=20110508005848"],
+                        "type": "Passive",
+                        "desc": "Increases the %Damage and number of shots fired by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Double_Shot.png/revision/latest?cb=20110506064904' alt='Skill Double Shot'>"
+                    },
+                    {
+                        "id": 5201012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041"],
+                        "animations": ["https://media4.giphy.com/media/BjGDMinKGpr9AC3A0c/giphy.gif", "https://media4.giphy.com/media/WUf4kKiUVoNkOpexi4/giphy.gif", "https://media0.giphy.com/media/YLmZiQSY0s6Xrv0OBr/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons one of your crew members to fight alongside you"
+                    },
+                    {
+                        "id": 5201001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Rapid_Blast.png/revision/latest?cb=20120730141606"],
+                        "animations": ["https://media2.giphy.com/media/VhXGUGBEc6w7FO9t8U/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Rapidly fires several shots at multiple enemies"
+                    },
+                    {
+                        "id": 5201006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Recoil_Shot.png/revision/latest?cb=20110507044141"],
+                        "type": "Attack",
+                        "desc": "Fires a single shot that pushes you backward"
+                    },
+                    {
+                        "id": 5201003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Gun_Booster.png/revision/latest?cb=20110507044126"],
+                        "animations": ["https://media0.giphy.com/media/8F3rsxO9zYbe25Y07F/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 5201011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Wings.png/revision/latest?cb=20140416220613"],
+                        "animations": ["https://media3.giphy.com/media/IJxMvI17EZ9vgcxrp7/giphy.gif"],
+                        "type": "Active Utility",
+                        "desc": "Launches you up into the air",
+                        "details": [
+                            "Holding the Skill Key will allow you to glide after using the skill",
+                            "Can be used in the air"
+                        ]
+                    },
+                    {
+                        "id": 5201008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Infinity_Blast.png/revision/latest?cb=20111221142523"],
+                        "animations": ["https://media3.giphy.com/media/gYh008qGibL8aCXOTH/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Allows you to use your Skills without consuming any Bullets"
+                    },
+                    {
+                        "id": 5200000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Gun_Mastery.png/revision/latest?cb=20110507044026"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Additionally increases the max number of charges each Ammo slot can hold"
+                        ]
+                    },
+                    {
+                        "id": 5200009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "id": 5211008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Blunderbuster.png/revision/latest?cb=20111227234821"],
+                        "animations": ["https://media2.giphy.com/media/lPosLAMgv3gC1GuZQt/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a blast of bullets forward"
+                    },
+                    {
+                        "id": 5211010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Blackboot_Bill.png/revision/latest?cb=20111228000714"],
+                        "animations": ["https://media0.giphy.com/media/fAaqZVsGJ8CgRb78OL/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a giant bullet that pushes enemies back"
+                    },
+                    {
+                        "id": 5211014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Octo-Cannon.png/revision/latest?cb=20111228002700"],
+                        "animations": ["https://media2.giphy.com/media/XHjjQkjEgyCSFiD7Nz/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a cannon that attacks nearby enemies"
+                    },
+                    {
+                        "id": 5211007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
+                        "animations": ["https://media1.giphy.com/media/4eQqI2czS8JpJuy7Ih/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants a buff depending on the number rolled",
+                        "details": [
+                            "<strong>[One]</strong>: Nothing",
+                            "<strong>[Two]</strong>: Increases %DEF",
+                            "<strong>[Three]</strong>: Increases %Max HP/MP",
+                            "<strong>[Four]</strong>: Increases %Crit Rate",
+                            "<strong>[Five]</strong>: Increases %Damage",
+                            "<strong>[Six]</strong>: Increases %EXP Rate"
+                        ]
+                    },
+                    {
+                        "id": 5210009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Cross_Cut_Blast.png/revision/latest?cb=20160629045948"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5210012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Outlaw%27s_Code.png/revision/latest?cb=20111228001644"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5210013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Fullmetal_Jacket.png/revision/latest?cb=20111228002045"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 5210015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041"],
+                        "animations": ["https://media1.giphy.com/media/j5VZLnYT1aL8T9uj2X/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Increases the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'> and allows you to summon two crew members at once",
+                        "details": [
+                            "Your crew members can also block on Abnormal Status per each summon",
+                            "Additionally, a new crew member, Cutter, has a chance to be summoned"
+                        ]
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "id": 5221004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Rapid_Fire.png/revision/latest?cb=20110508033722"],
+                        "animations": ["https://media0.giphy.com/media/ejDyr14A9Sq0P2y0xc/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Fires a flurry of bullets in front of you",
+                        "details": [
+                            "You can move while casting Rapid Fire",
+                            "Not affected by Attack Speed"
+                        ]
+                    },
+                    {
+                        "id": 5221016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Brain_Scrambler.png/revision/latest?cb=20111228030201"],
+                        "animations": ["https://media0.giphy.com/media/h5KxQ49zqkIrKmJd0y/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a powerful shot at a single enemy",
+                        "details": [
+                            "Attack has increased %Ignore DEF and is a guaranteed Critical Hit"
+                        ]
+                    },
+                    {
+                        "id": 5221015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Parrotargetting.png/revision/latest?cb=20111228021645"],
+                        "animations": ["https://media3.giphy.com/media/uJXdLRoMw9WkUgqhGu/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throws a parrot egg that debuffs an enemy",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Attacks against this enemy have increased %Final Damage",
+                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage"
+                        ]
+                    },
+                    {
+                        "id": 5221017,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Eight-Legs_Easton.png/revision/latest?cb=20111228030548"],
+                        "animations": ["https://media0.giphy.com/media/KHE70MDdRiLEiMWdY0/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a barrage of bullets forward",
+                        "details": [
+                            "If used while pressing the Down Arrow Key, the attack range will be reduced, but you will be immune to knockbacks",
+                            "<strong>[Passive]: </strong>Increases %p Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike' width='32' height='32'> Nautilus Strike"
+                        ]
+                    },
+                    {
+                        "id": 5221022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047"],
+                        "animations": ["https://media3.giphy.com/media/IzjRO4QJ8qgQqudTVJ/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a battleship with a random crew member on board that fires bombs at nearby enemies",
+                        "details": [
+                            "Based on whichever crew member that appears, the damage, rate of fire, and range will differ"
+                        ]
+                    },
+                    {
+                        "id": 5221013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744"],
+                        "animations": ["https://media0.giphy.com/media/LOikrbuPas8SGF91RY/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a massive attack that hits a large area",
+                        "details": [
+                            "Unaffected by Damage Reflect",
+                            "While Nautilus Strike is on cooldown, increases the %Final Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Majestic_Presence.png/revision/latest?cb=20111228035430' alt='Skill Majestic Presence'> Majestic Presence explosion attack",
+                            "When used, reduces remaining cooldown of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047' alt='Skill Broadside'> slightly"
+                        ]
+                    },
+                    {
+                        "id": 5221021,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Quickdraw.png/revision/latest?cb=20140419012051"],
+                        "animations": ["https://media0.giphy.com/media/2SRnCJE1zuCOtMP0jP/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When used, your next attack gains increased %Final Damage",
+                        "details": [
+                            "<strong>[Passive]</strong>: Your attacks have a chance to automatically activate Quickdraw"
+                        ]
+                    },
+                    {
+                        "id": 5221000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                        "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 5221018,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Jolly_Roger.png/revision/latest?cb=20111228030956"],
+                        "animations": ["https://media0.giphy.com/media/rBuQ32Sx6KI5KllmaP/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 5221010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                        "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    },
+                    {
+                        "id": 5220012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052"],
+                        "type": "Passive",
+                        "desc": "When damaged, you have a chance to gain a %Damage buff",
+                        "details": [
+                            "<strong>[Passive]</strong>: Increases %Damage Reduction"
+                        ]
+                    },
+                    {
+                        "id": 5220014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818", "https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Grants a chance to roll two dices at once"
+                        ]
+                    },
+                    {
+                        "id": 5220019,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Ahoy_Mateys.png/revision/latest?cb=20111228031553"],
+                        "type": "Passive",
+                        "desc": "Increases the %Final Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'> and grants a unique buff based on which crew member is summoned",
+                        "details": [
+                            "Additionally grants flat Attack when <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons' width='32' height='32' /> is active:<ul><li><strong>[Murat]: </strong>Increases %Crit Damage</li><li><strong>[Valerie]: </strong>Increases %Crit Rate</li><li><strong>[Jack]:</strong> Increases %Max HP/MP and Movement Speed</li><li><strong>[Cutter]: </strong>Increases %Damage Reduction</li></ul>",
+                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage and grants flat Max HP"
+                        ]
+                    },
+                    {
+                        "id": 5220020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Majestic_Presence.png/revision/latest?cb=20111228035430"],
+                        "type": "Final Attack Passive",
+                        "desc": "Your shot-firing attacks deal an additional explosive attack",
+                        "details": [
+                            "Additionally increases %Gun Mastery, and grants flat Attack"
+                        ]
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 5220043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Double_Down_-_Saving_Grace.png/revision/latest?cb=20140418191453"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 5220044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Double_Down_-_Addition.png/revision/latest?cb=20140418191938"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 5220045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Double_Down_-_Enhance.png/revision/latest?cb=20140418192341"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 5220049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Rapid_Fire_-_Reinforce.png/revision/latest?cb=20121016184430"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 5220050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Rapid_Fire_-_Add_Range.png/revision/latest?cb=20121016184525"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 5220051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Rapid_Fire_-_Boss_Rush.png/revision/latest?cb=20121016184627"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 5220046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Brain_Scrambler_-_Reinforce.png/revision/latest?cb=20140418193816"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 5220047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Brain_Scrambler_-_Extra_Strike.png/revision/latest?cb=20140418194114"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 5220048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Brain_Scrambler_-_Boss_Rush.png/revision/latest?cb=20140724234011"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 5221054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Whaler%27s_Potion.png/revision/latest?cb=20121016185348"],
+                    "animations": ["https://media1.giphy.com/media/hSKXnvtuJarbVrbDUc/giphy.gif"],
+                    "reqLev": 140
+                },
+                {
+                    "id": 5221052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Ugly_Bomb.png/revision/latest?cb=20121016184817"],
+                    "animations": ["https://media2.giphy.com/media/ZYEFNcr39YUtfgSIHp/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Drops a massive bomb in front of you",
+                    "reqLev": 160
+                },
+                {
+                    "id": 5221053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954"],
+                    "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expPirate","goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Bullet Barrage",
+                    "shortDesc": "MP Cost: 500 per second, Duration: 6, periodically deals 455% damage 5 times on up to 15 enemies\\nMash the attack key to increase the skill duration by up to 6 sec\\nCooldown: 75 sec",
+                    "id": 400051006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Bullet_Barrage.png/revision/latest?cb=20161125062539"],
+                    "animations": ["https://media1.giphy.com/media/YOMGRwyqClgaWmKpcA/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Wildy fires bullets in all directions",
+                    "details": [
+                        "Continuously pressing the Skill Key will increase the duration of Bullet Barrage",
+                        "You can use mobility skills while casting",
+                        "Pressing the Skill Key again will cancel the attack"
+                    ]
+                },
+                {
+                    "name": "Target Lock",
+                    "shortDesc": "[Passive Effect] Focuses aim on up to 12 enemies within range whenever skill is not in cooldown. Aiming process resets if skill is activated when the target is locked.\\n[Active Effect] MP Cost: 850, Targeted enemies take 1600% damage 6 times, at +100% Critical Rate. Deals extra damage for Target Locks. Bonus stacks up to 3x.\\nCooldown: 30 sec",
+                    "id": 400051021,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Target_Lock.png/revision/latest?cb=20170609033220"],
+                    "animations": ["https://media2.giphy.com/media/KbrG6XSlejtSf6Tnxp/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires devastating shots at marked targets",
+                    "details": [
+                        "While Target Lock is not on cooldown, targets in range are randomly marked for the attack",
+                        "The target will blink 3 times before selecting a new target<ul><li>If you activate Target Lock while on the last blink, it will deal extra damage</li></ul>",
+                        "Attack is a guaranteed Critical Hit"
+                    ]
+                },
+                {
+                    "name": "Nautilus Assault",
+                    "shortDesc": "MP Cost: 1500, Max Enemies Hit: 15, Invincible while casting\\nShip Attack: The ship attacks at set intervals. Damage: 1200%, Number of Attacks: 6, Ship Attack Activation Count: 7\\nVolley: Fires a volley at set intervals. Damage: 600%, Number of Attacks: 12, Volley Activation Count: 36\\nCooldown: 180 sec\\nWhen either Nautilus Strike or Nautilus Assault is used, a cooldown of 8 sec is applied, but it won't be applied if another cooldown longer than that time is already applied.",
+                    "id": 400051040,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Nautilus_Assault.png/revision/latest?cb=20181115065337"],
+                    "animations": ["https://media3.giphy.com/media/mFpT9HG51BiQQuryhO/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summons the Nautilus to launch an assault",
+                    "details": [
+                        "The ship and assault both deal damage",
+                        "If either <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike'> or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Nautilus_Assault.png/revision/latest?cb=20181115065337' alt='Skill Nautilus Assault'> are used, there is a short cooldown (8 secs) before either can activated unless they are already on cooldown"
+                    ]
+                },
+                {
+                    "name": "Death Trigger",
+                    "shortDesc": "MP Cost: 750. Fires up to 7 shots, which attack up to 7 enemies with 1150% damage 11 time(s).\\nCooldown: 45 sec",
+                    "id": 400051040,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/death-trigger.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/MQPJkGiM0cPRcIieea/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires several bullets that ricochets to multiple enemies",
+                    "details": [
+                        "If there is an enemy affected by the <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Parrotargetting.png/revision/latest?cb=20111228021645' alt='Skill Parrotargetting'> debuff, all bullets will target that enemy",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Scurvy Summons - 2nd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041"],
+                "animations": ["https://media1.giphy.com/media/j5VZLnYT1aL8T9uj2X/giphy.gif"]
+            },
+            {
+                "name": "Octo-Cannon - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Octo-Cannon.png/revision/latest?cb=20111228002700"],
+                "animations": ["https://media2.giphy.com/media/XHjjQkjEgyCSFiD7Nz/giphy.gif"]
+            },
+            {
+                "name": "Rapid Fire - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Rapid_Fire.png/revision/latest?cb=20110508033722"],
+                "animations": ["https://media0.giphy.com/media/ejDyr14A9Sq0P2y0xc/giphy.gif"]
+            },
+            {
+                "name": "Broadside - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047"],
+                "animations": ["https://media3.giphy.com/media/IzjRO4QJ8qgQqudTVJ/giphy.gif"]
+            },
+            {
+                "name": "Eight-Legs Easton - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Eight-Legs_Easton.png/revision/latest?cb=20111228030548"],
+                "animations": ["https://media0.giphy.com/media/KHE70MDdRiLEiMWdY0/giphy.gif"]
+            },
+            {
+                "name": "Bullet Barrage - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Bullet_Barrage.png/revision/latest?cb=20161125062539"],
+                "animations": ["https://media1.giphy.com/media/YOMGRwyqClgaWmKpcA/giphy.gif"]
+            },
+            {
+                "name": "Nautilus Assault - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Nautilus_Assault.png/revision/latest?cb=20181115065337"],
+                "animations": ["https://media3.giphy.com/media/mFpT9HG51BiQQuryhO/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Corsair is a DEX pirate class part of the Explorers class group. Corsairs have many summons that help fight alongside you. Additionally, Corsairs consume Bullets as ammo for their attacks"
+}

@@ -1,0 +1,595 @@
+{
+    "class": "Bowmaster",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Archer",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Grants flat DEX",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["bow"]},
+            {"secondary": ["arrowFletching"]},
+            {"ammo": "arrowB"}
+        ],
+        "classType": [
+            "Party Buff - Crit Rate + Crit Damage",
+            "Long-ranged",
+            "Utility"
+        ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Attack"],
+        "prosCons": {
+            "pros": [
+                "Has lifesteal from <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Quiver_Cartridge.png/revision/latest?cb=20130707024904' alt='Skill Quiver Cartridge' width='32' height='32'> Quiver Cartridge's Blood Arrows",
+                "<img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Hookshot_%28Ranger%29.png/revision/latest?cb=20130707031829' alt='Skill Hookshot (Ranger)' width='32' height='32'> Hookshot allows you to freely move around the map",
+                "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes' width='32' height='32'> Sharp Eyes provides %Crit Rate and %Crit Damage to party members",
+                "Gains %Final Damage based on an enemy's PDR from <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Armor_Break.png/revision/latest?cb=20130707042209' alt='Skill Armor Break' width='32' height='32'> Armor Break",
+                "Has many useful summons such as <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'> Phoenix, <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Arrow_Blaster.png/revision/latest?cb=20130707042130' alt='Skill Arrow Blaster' width='32' height='32'> Arrow Blaster, and <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Guided_Arrow.png/revision/latest?cb=20161204065740' alt='Skill Guided Arrow' width='32' height='32'> Guided Arrow",
+                "Few buffs to manage"
+            ],
+            "cons": [
+                "Squishy pre-200",
+                "Requires a lot of skill rotations for optimal damage and skill uptime",
+                "No proper iFrames",
+                "No Knockback Resistance"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Reckless_Hunt_Bow.png/revision/latest?cb=20130707031838' alt='Skill Reckless Hunt Bow' width='32' height='32'> Reckless Hunt: Bow's %DEF reduction, <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Focused_Fury_%28Ranger%29.png/revision/latest?cb=20130707031848' alt='Skill Focused Fury (Ranger)' width='32' height='32'> Focus Fury Abnormal Status Resistance buff, <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Armor_Break.png/revision/latest?cb=20130707042209' alt='Skill Armor Break' width='32' height='32'> Armor Break's Final Damage boost, Link Skills, and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +40%",
+                "<strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Evasion_Boost.png/revision/latest?cb=20110502140706' alt='Skill Evasion Boost' width='32' height='32'> Dodge Chance: </strong>+30%",
+                "<strong>Avoidability</strong>: +30%",
+                "<strong>Attack</strong>: +25%",
+                "<strong>DEF</strong>: +30%",
+                "<strong>Crit Rate</strong>: +60%",
+                "<strong>Crit Damage</strong>: +23%",
+                "<strong>Final Damage</strong>: +(40% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Reckless_Hunt_Bow.png/revision/latest?cb=20130707031838' alt='Skill Reckless Hunt Bow' width='32' height='32'> Reckless Hunt: Bow is active)",
+                "<strong>Knockback Resistance</strong>: +0%",
+                "<strong>Attack Speed (Weapon)</strong>: 4",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +20%",
+                "<strong>Ignore DEF</strong>: +50%",
+                "<strong>Abnormal Status Resistance</strong>: 20"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Bow_Booster.png/revision/latest?cb=20110502134835' alt='Skill Bow Booster' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Soul_Arrow_Bow.png/revision/latest?cb=20110502142501' alt='Skill Soul Arrow Bow' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Reckless_Hunt_Bow.png/revision/latest?cb=20130707031838' alt='Skill Reckless Hunt Bow' width='32' height='32'> (Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Illusion_Step.png/revision/latest?cb=20160628052518' alt='Skill Illusion Step' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'>, <img src='https://orangemushroom.files.wordpress.com/2020/06/silhouette-mirage.png?w=600' alt='Skill Silhouette Mirage'/>(Toggle)",
+            "summons": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Fury_of_the_Wild.png/revision/latest?cb=20190615205233' alt='Skill Fury of the Wild' width='32' height='32'>(120 - 105s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Guided_Arrow.png/revision/latest?cb=20161204065740' alt='Skill Guided Arrow' width='32' height='32'>(60s cd)",
+            "buffCd": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Enchanted_Quiver.png/revision/latest?cb=20130707042201' alt='Skill Enchanted Quiver' width='32' height='32'>(57 - 30s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Concentration.png/revision/latest?cb=20121012200306' alt='Skill Concentration' width='32' height='32'>(90s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Epic_Adventure_%28Bowman%29.png/revision/latest?cb=20121015210409' alt='Skill Epic Adventure (Bowman)' width='32' height='32'>(120s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Storm_of_Arrows.png/revision/latest?cb=20161125062717' alt='Skill Storm of Arrows' width='32' height='32'>(120s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Inhuman_Speed.png/revision/latest?cb=20170609033039' alt='Skill Inhuman Speed' width='32' height='32'>(30s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quiver_Barrage.png/revision/latest?cb=20181115065338' alt='Skill Quiver Barrage' width='32' height='32'>(150s cd)",
+            "buffFifth": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing' width='32' height='32'>(180s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957' alt='Skill Vicious Shot' width='32' height='32'>(120s cd)",
+            "iFrame": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Hookshot_%28Ranger%29.png/revision/latest?cb=20130707031829' alt='Skill Hook Shot' width='32' height='32'>"
+        },
+        "linkSkill": {
+                "id":80002766,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130"],
+                "type": "Passive",
+                "desc": "",
+                "details": ["Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/SmayX3a.png",[499,374]],
+            "npc": [
+                ["https://maplestory.io/api/GMS/216/npc/10200/icon",[108,111]],
+                ["https://maplestory.io/api/character/%7B%22ItemId%22:1051355,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:21397,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:37847,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:1072833,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:2003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D,%7B%22ItemId%22:12003,%22Region%22:%22GMS%22,%22Version%22:%22216%22%7D/stand1/0",[64,97]]
+            ],
+            "info": [
+                "To create one, choose the 'Explorers' option in the Character Creation screen and then continue through the story until you reach the quest <a href='https://maplestory.fandom.com/wiki/Quests/77/Victoria_Island_or_Bust!' target='_blank' rel='noopener'>'Victoria Island or Bust'</a> and choose the 'Bowman, long-ranged and controlled' option",
+                "Once you reach Lv. 30 as a Bowman, talk to Athena Pierce to accept a quest called <a href='https://maplestory.fandom.com/wiki/Quests/77/Trail_of_the_Hunter' target='_blank' rel='noopener'>'Trail of the Hunter'</a>. Completing the quest will make you a Hunter and you will be on the path to a Bowmaster. Hunter is the 2nd job of Bowmaster"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Double_Jump_%28Archer%29.png/revision/latest?cb=20140413005802' alt='Skill Double Jump (Archer)' width='32' height='32'> -> <img src='https://static.wikia.nocookie.net/maplestory/images/a/a7/Skill_Archery_Mastery.png' alt='Skill Archery Mastery.png' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Critical_Shot.png/revision/latest?cb=20110502133044' alt='Skill Critical Shot' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Arrow_Blow.png/revision/latest?cb=20140413005650' alt='Skill Arrow Blow' width='32' height='32'>"],
+                ["2nd Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Bow_Mastery.png/revision/latest?cb=20110502134731' alt='Skill Bow Mastery' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Bow_Booster.png/revision/latest?cb=20110502134835' alt='Skill Bow Booster' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Soul_Arrow_Bow.png/revision/latest?cb=20110502142501' alt='Skill Soul Arrow Bow' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Arrow_Bomb.png/revision/latest?cb=20110502134910' alt='Skill Arrow Bomb' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Covering_Fire.png/revision/latest?cb=20130707024857' alt='Skill Covering Fire' width='32' height='32'>"],
+                ["3rd Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Reckless_Hunt_Crossbow.png/revision/latest?cb=20140413050244' alt='Skill Reckless Hunt Crossbow' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Evasion_Boost.png/revision/latest?cb=20110502140706' alt='Skill Evasion Boost' width='32' height='32'> -><img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Marksmanship.png/revision/latest?cb=20110502142528' alt='Skill Marksmanship' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Hookshot_%28Ranger%29.png/revision/latest?cb=20130707031829' alt='Skill Hookshot (Ranger)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Flame_Surge_%28Ranger%29.png/revision/latest?cb=20110502140545' alt='Skill Flame Surge (Ranger)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Arrow_Blaster.png/revision/latest?cb=20130707042130' alt='Skill Arrow Blaster' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Mortal_Blow.png/revision/latest?cb=20110502140519' alt='Skill Mortal Blow' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Focused_Fury_%28Ranger%29.png/revision/latest?cb=20130707031848' alt='Skill Focused Fury (Ranger)' width='32' height='32'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Armor_Break.png/revision/latest?cb=20130707042209' alt='Skill Armor Break' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Bow_Expert.png/revision/latest?cb=20110502142447' alt='Skill Bow Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134' alt='Skill Advanced Final Attack' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Arrow_Stream.png/revision/latest?cb=20130707042144' alt='Skill Arrow Stream' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Illusion_Step.png/revision/latest?cb=20160628052518' alt='Skill Illusion Step' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Enchanted_Quiver.png/revision/latest?cb=20130707042201' alt='Skill Enchanted Quiver' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Hurricane.png/revision/latest?cb=20110502142405' alt='Skill Hurricane' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Binding_Shot.png/revision/latest?cb=20130707042136' alt='Skill Binding Shot' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Sharp_Eyes_-_Guardbreak.png/revision/latest?cb=20130707042232' alt='Skill Sharp Eyes - Guardbreak' width='32' height='32'> Sharp Eyes - Guardbreak</li> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Arrow_Stream_-_Extra_Strike.png/revision/latest?cb=20130707042300' alt='Skill Arrow Stream - Extra Strike' width='32' height='32'> Arrow Stream - Extra Strike</li> <li> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Hurricane_-_Reinforce.png/revision/latest?cb=20140724233315' alt='Skill Hurricane - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Hurricane_-_Boss_Rush.png/revision/latest?cb=20140724233334' alt='Skill Hurricane - Boss Rush' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Hurricane_-_Split_Attack.png/revision/latest?cb=20140724233402' alt='Skill Hurricane - Split Attack' width='32' height='32'> Hurricane - Reinforce, Boss Rush, and Split Attack </li></ul>"
+        },
+        "nodeInfo": {
+            "recommended": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Hurricane.png/revision/latest?cb=20110502142405' alt='Skill Hurricane' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Quiver_Cartridge.png/revision/latest?cb=20130707024904' alt='Skill Quiver Cartridge' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Arrow_Blaster.png/revision/latest?cb=20130707042130' alt='Skill Arrow Blaster' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Arrow_Stream.png/revision/latest?cb=20130707042144' alt='Skill Arrow Stream' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'>",
+            "possible": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Arrow_Blow.png/revision/latest?cb=20140413005650' alt='Skill Arrow Blow' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Arrow_Bomb.png/revision/latest?cb=20110502134910' alt='Skill Arrow Bomb' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Flame_Surge_%28Ranger%29.png/revision/latest?cb=20110502140545' alt='Skill Flame Surge (Ranger)' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Hookshot_%28Ranger%29.png/revision/latest?cb=20130707031829' alt='Skill Hookshot (Ranger)' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Arrow_Blaster.png/revision/latest?cb=20130707042130' alt='Skill Arrow Blaster' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Hurricane.png/revision/latest?cb=20110502142405' alt='Skill Hurricane' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Binding_Shot.png/revision/latest?cb=20130707042136' alt='Skill Binding Shot' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Arrow_Stream.png/revision/latest?cb=20130707042144' alt='Skill Arrow Stream' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Quiver_Cartridge.png/revision/latest?cb=20130707024904' alt='Skill Quiver Cartridge' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Gritty_Gust.png/revision/latest?cb=20121012200107' alt='Skill Gritty Gust' width='32' height='32'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3154/bowman",
+            "https://maplestory.fandom.com/wiki/Bowman",
+            "https://dexless.com/guides/bowmaster-in-depth-job-guide.137/"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Pros and Cons + Hyper Passive Build", "Sky"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skill Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 50001000,
+                    "offline": true,
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "animations": ["https://media4.giphy.com/media/I5pm1CcxHiE08UXgL7/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "id": 50001001,
+                    "offline": true,
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "animations": ["https://media3.giphy.com/media/bnXEv4hggxwNpGaZ4c/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 50001002,
+                    "offline": true,
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "animations": ["https://media4.giphy.com/media/MsfISYyNBt92F02ltV/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 1281,
+                    "offline": true,
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "animations": ["https://media4.giphy.com/media/PQyc4x3XPGhqkz6HcE/giphy.gif"],
+                    "type": "Active"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 3001004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Arrow_Blow.png/revision/latest?cb=20140413005650"],
+                        "animations": ["https://media3.giphy.com/media/W6itmAFyBqFOkz0Vj8/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Shoots an arrow that when hit, damages nearby enemies"
+                    },
+                    {
+                        "id": 3001007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Double_Jump_%28Archer%29.png/revision/latest?cb=20140413005802", "https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Double_Jump_%28Hunter%29.png/revision/latest?cb=20140413013012"],
+                        "animations": ["https://media1.giphy.com/media/WOMrd8AlHLc7kh7X8x/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "While in the air, double-tapping the Up Arrow Key will perform a vertical jump",
+                            "Double-tapping the Down Arrow Key will allow you to descend quickly"
+                        ]
+                    },
+                    {
+                        "id": 3000001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Critical_Shot.png/revision/latest?cb=20110502133044"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id":3000002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Archery_Mastery.png/revision/latest?cb=20110520130950"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "id": 3101005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Arrow_Bomb.png/revision/latest?cb=20110502134910"],
+                        "animations": ["https://media3.giphy.com/media/USbQ8ItWZAZ0IZmbi9/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Shoots an explosive arrow that when hit, explodes damaging nearby enemies",
+                        "details": [
+                            "Attack has a chance to stun enemies"
+                        ]
+                    },
+                    {
+                        "id": 3101008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Covering_Fire.png/revision/latest?cb=20130707024857"],
+                        "animations": ["https://media3.giphy.com/media/J4gOXXKFdGGA8ZUZBl/giphy.gif"],
+                        "type": "Key-down Leap Attack",
+                        "desc": "Leaps backwards into the air and fires a stream of arrows"
+                    },
+                    {
+                        "id": 3101002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Bow_Booster.png/revision/latest?cb=20110502134835"],
+                        "animations": ["https://media3.giphy.com/media/sOs0AZ64U6oZkLxIax/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases your Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 3101004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Soul_Arrow_Bow.png/revision/latest?cb=20110502142501"],
+                        "animations": ["https://media2.giphy.com/media/tl6GhvAtJgKUZBVOgk/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 3101009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Quiver_Cartridge.png/revision/latest?cb=20130707024904"],
+                        "animations": ["https://media2.giphy.com/media/XOEFsnoI1cJan4yOiY/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While active, your attacks fire special homing arrows. There are 3 different quiver types, once you've consumed one quiver, you automatically switch to the next",
+                        "details": [
+                            "Pressing the Skill Key will manually switch to the next quiver",
+                            "The 3 types of quivers are:<ul><li><strong>[Blood Arrow]: </strong>Attack has a chance to restore some %Max HP</li><li><strong>[Posion Arrow]: </strong>Attack has a chance to inflict a stacking damaging debuff</li><li><strong>[Magic Arrow]: </strong>Attack has a chance to shoot a special magic arrow</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 3100000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Bow_Mastery.png/revision/latest?cb=20110502134731"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 3100001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Final Attack Passive",
+                        "desc": "Grants your attacks a chance to deal an additional hit"
+                    },
+                    {
+                        "id": 3100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "id": 3111013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Arrow_Blaster.png/revision/latest?cb=20130707042130"],
+                        "animations": ["https://media0.giphy.com/media/UrUncVc7EcDpd2bH4F/giphy.gif"],
+                        "type": "Key-down Attack / Summon",
+                        "desc": "Fires a stream of arrows at a chosen angle",
+                        "details": [
+                            "You can use the Up and Down Arrow Keys to change the angle of firing",
+                            "While casting, pressing the 'Interact / Harvest' key will set up an Arrow Blaster at your location<ul> <li>You can change the key to the Attack Key instead by right-clicking the skill</li> <li>Unaffected by Damage Reflect</li> <li>Has a cooldown (5 secs) before another Arrow Blaster can be placed (only 1 active at a time)</li> </ul>"
+                        ]
+                    },
+                    {
+                        "id": 3111003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Flame_Surge_%28Ranger%29.png/revision/latest?cb=20110502140545"],
+                        "animations": ["https://media1.giphy.com/media/TfvgXqLXZFS3XARTAw/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires an arrow that releases a fiery attack upon hitting an enemy, leaving a lingering burning field"
+                    },
+                    {
+                        "id": 3111005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452"],
+                        "animations": ["https://media3.giphy.com/media/eg3kij405oJoJ9o9nd/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a Phoenix that fights alongside you",
+                        "details": [
+                            "Unaffected by Damage Reflect",
+                            "<strong>[Passive]: </strong>Permanently increases %DEF"
+                        ]
+                    },
+                    {
+                        "id": 3111010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Hookshot_%28Ranger%29.png/revision/latest?cb=20130707031829"],
+                        "animations": ["https://media1.giphy.com/media/QuykWOAUoJN2R2sV77/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Fires a hook that targets the furthest enemy in range and pulls you towards it",
+                        "details": [
+                            "<strong>[Passive]: </strong>Permanently increases %Max HP"
+                        ]
+                    },
+                    {
+                        "id": 3111011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Reckless_Hunt_Crossbow.png/revision/latest?cb=20140413050244"],
+                        "type": "Toggle Buff",
+                        "desc": "While active, reduces %DEF but increases %Final Damage and grants flat Attack"
+                    },
+                    {
+                        "id": 3110001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Mortal_Blow.png/revision/latest?cb=20110502140519"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 3110012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Focused_Fury_%28Ranger%29.png/revision/latest?cb=20130707031848"],
+                        "type": "Passive",
+                        "desc": "While attacking, you periodically gain Abnormal Status Resistance",
+                        "details": [
+                            "Resets when an Abnormal Status is received",
+                            "<strong>[Passive]: </strong>Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                        ]
+                    },
+                    {
+                        "id": 3110007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Evasion_Boost.png/revision/latest?cb=20110502140706"],
+                        "type": "Passive",
+                        "desc": "Grants a chance to dodge attacks",
+                        "details": [
+                            "Whenever you dodge an attack, all your attacks will be Critical Hits briefly"
+                        ]
+                    },
+                    {
+                        "id": 3110014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Marksmanship.png/revision/latest?cb=20110502142528"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "id": 3121020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Hurricane.png/revision/latest?cb=20110502142405"],
+                        "animations": ["https://media3.giphy.com/media/YooaUKv03twMpbqIGa/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "While held, fires a continuous flurry of arrows at a single enemy",
+                        "details": [
+                            "You can move and jump while firing"
+                        ]
+                    },
+                    {
+                        "id": 3121014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Binding_Shot.png/revision/latest?cb=20130707042136"],
+                        "animations": ["https://media0.giphy.com/media/LScUyqTL0XlSeJbzgY/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires an arrow that debuffs an enemy ",
+                        "details": [
+                            "<strong>[Debuff]: </strong>Reduces HP Recover and Movement Speed",
+                            "<strong>[Passive]: </strong>Permanently increases the %Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Arrow_Blaster.png/revision/latest?cb=20130707042130' alt='Skill Arrow Blaster' width='32' height='32'>",
+                            "Has a cooldown (20 - 10 secs depending on Skill Level)"
+                        ]
+                    },
+                    {
+                        "id": 3121015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Arrow_Stream.png/revision/latest?cb=20130707042144"],
+                        "animations": ["https://media3.giphy.com/media/cO3K61LkuQWy2QaENj/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a barrage of arrows forward"
+                    },
+                    {
+                        "id": 3121002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300"],
+                        "animations": ["https://media0.giphy.com/media/zFyOrfXJDtiymYiByY/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 3121007,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2019/01/illusion-step.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 3121009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                        "animations": ["https://media3.giphy.com/media/B4vR1MVxyErVOcJ4P2/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    },
+                    {
+                        "id": 3121000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                        "animations": ["https://media4.giphy.com/media/DVEcrxMnH86Qet4Est/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 3121016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Enchanted_Quiver.png/revision/latest?cb=20130707042201"],
+                        "animations": ["https://media0.giphy.com/media/iDvMNse4b4n0xYxXC5/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Allows you to shoot without consuming your current <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Quiver_Cartridge.png/revision/latest?cb=20130707024904' alt='Skill Quiver Cartridge' width='32' height='32'> quiver",
+                        "details": [
+                            "<strong>[Passive]</strong> Permanently increases the effects of <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Quiver_Cartridge.png/revision/latest?cb=20130707024904' alt='Skill Quiver Cartridge' width='32' height='32'> quivers and the number of arrows carried per quiver"
+                        ]
+                    },
+                    {
+                        "id": 3120005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Bow_Expert.png/revision/latest?cb=20110502142447", "https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Bow_Mastery.png/revision/latest?cb=20110502134731"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Crit Damage"
+                        ]
+                    },
+                    {
+                        "id": 3120008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage",
+                            "Now grants flat Attack"
+                        ]
+                    },
+                    {
+                        "id": 3120018,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Armor_Break.png/revision/latest?cb=20130707042209"],
+                        "type": "Passive",
+                        "desc": "Periodically increases your next attack's %Final Damage and %Ignore DEF based on the enemy's PDR (Physical Defense Resistance)",
+                        "details": [
+                            "Cooldown of skill is reduced every time you attack"
+                        ]
+                    }
+                ]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 3120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Sharp_Eyes_-_Persist.png/revision/latest?cb=20130707042226"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 3120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Sharp_Eyes_-_Guardbreak.png/revision/latest?cb=20130707042232"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 3120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Sharp_Eyes_-_Critical_Chance.png/revision/latest?cb=20130707042238"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 3120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Arrow_Stream_-_Reinforce.png/revision/latest?cb=20130707042249"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 3120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Arrow_Stream_-_Spread.png/revision/latest?cb=20130707042254"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 3120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Arrow_Stream_-_Extra_Strike.png/revision/latest?cb=20130707042300"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 3120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Hurricane_-_Reinforce.png/revision/latest?cb=20140724233315"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 3120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Hurricane_-_Boss_Rush.png/revision/latest?cb=20140724233334"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 3120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Hurricane_-_Split_Attack.png/revision/latest?cb=20140724233402"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 3121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Concentration.png/revision/latest?cb=20121012200306"],
+                    "animations": ["https://media3.giphy.com/media/ocYVxpqvBqcPq6KODr/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "id": 3121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Gritty_Gust.png/revision/latest?cb=20121012200107"],
+                    "animations": ["https://media2.giphy.com/media/XbhBBuW6fczq4I4HtW/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releases a burst of wind that damages nearby enemies and inflicts a damaging debuff",
+                    "reqLev": 160
+                },
+                {
+                    "id": 3121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Epic_Adventure_%28Bowman%29.png/revision/latest?cb=20121015210409"],
+                    "animations": ["https://media0.giphy.com/media/AAhIhM6qORVf3IF4Up/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expBowman","goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthMain": [
+                {
+                    "name": "Storm of Arrows",
+                    "shortDesc": "MP Cost: 1000, Damage: +27%, Duration: 65 sec, arrows rain down every 5 sec for 2.5 sec; up to 6 of these areas can be created.\\nThe falling arrows deal 1200% damage on up to 10 enemies 5 times.\\nMagic Arrow activation chance applied to attacks in this area is 2x that of Quiver Cartridge.\\nCooldown: 120 sec",
+                    "id": 400031002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Storm_of_Arrows.png/revision/latest?cb=20161125062717"],
+                    "animations": ["https://media3.giphy.com/media/IyxGZFIQjxYVKCsq6Q/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, increases %Damage and arrows periodically rain from the sky on to enemies",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Inhuman Speed",
+                    "shortDesc": "MP Cost: 800, Duration: 3 sec. Fires arrows at set intervals dealing 800% 3 times to enemies within range of your afterimages.\\nCooldown: 30 sec\\n[Passive Effect: Every 10 attacks performed while this skill is on cooldown, an afterimage is created that lasts 1 sec and periodically attacks enemies within its range for 800% damage 3 times.]\\nActive and Passive Effects cannot trigger simultaneously.",
+                    "id": 400031020,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Inhuman_Speed.png/revision/latest?cb=20170609033039"],
+                    "animations": ["https://media1.giphy.com/media/ehJirtl72c2PSkPWQU/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "When first activated, creates an afterimage that attacks alongside you. While the Skill is on cooldown, every 10 attacks, you create another afterimage that attacks alongside you"
+                },
+                {
+                    "name": "Quiver Barrage",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec, Attack Power: +17%, use every type of arrowhead at once, including a flaming arrowhead\\nFlaming Arrow: Launches 6 flaming arrows consecutively at a certain interval. Max Enemies Hit: 6, Damage: 1500%, Number of Attacks: 3\\nCooldown: 120 sec",
+                    "id": 400031028,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quiver_Barrage.png/revision/latest?cb=20181115065338"],
+                    "animations": ["https://media3.giphy.com/media/PhOohVuDz73ClVYTsF/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, increases %Attack and uses every <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Quiver_Cartridge.png/revision/latest?cb=20130707024904' alt='Skill Quiver Cartridge' width='32' height='32'> quiver at once without consuming them. Additionally, adds another quiver type, Flaming Arrows that explode and damages nearby enemies",
+                    "details": [
+                        "Cannot be used together with <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Enchanted_Quiver.png/revision/latest?cb=20130707042201' alt='Skill Enchanted Quiver' width='32' height='32'> <ul> <li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Enchanted_Quiver.png/revision/latest?cb=20130707042201' alt='Skill Enchanted Quiver' width='32' height='32'> will be canceled if Quiver Barrage is activated</li> </ul>"
+                    ]
+                },
+                {
+                    "name": "Silhouette Mirage",
+                    "shortDesc": "Creates up to 2 illusory doubles every 50 sec\\nWhen you either receive damage that is at least 50% of your Max HP or you receive damage that leads to death, 1 illusory double disappears and that damage reduces by 80%\\nIf you have even 1 illusory double, direct skill attacks that hit will shoot 5 illusory bullets dealing 800% damage 3 times, MP Cost: 80, Cooldown: 7.5 sec\\nCooldown: 1.5 sec",
+                    "id": 400031028,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/silhouette-mirage.png?w=600"],
+                    "animations": ["https://media4.giphy.com/media/84icaHImpKbD793DTa/giphy.gif"],
+                    "type": "Toggle Buff",
+                    "desc": "When toggled, when you take damage equal to 50% of your max HP or higher or if the attack is fatal, a mirage (if available) will be consumed and the damage taken will be reduced",
+                    "details": [
+                        "If you have a mirage active, your attacks fire an additional attack periodically",
+                        "You gain 1 mirage every 45 secs (up to 2 max)",
+                        "Unaffected by Damage Reflect",
+                        "Right-clicking the skill will turn the mirage visual effect on/off"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Arrow Blaster - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Arrow_Blaster.png/revision/latest?cb=20130707042130"],
+                "animations": ["https://media0.giphy.com/media/UrUncVc7EcDpd2bH4F/giphy.gif"]
+            },
+            {
+                "name": "Phoenix - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452"],
+                "animations": ["https://media3.giphy.com/media/eg3kij405oJoJ9o9nd/giphy.gif"]
+            },
+            {
+                "name": "Hurricane - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Hurricane.png/revision/latest?cb=20110502142405"],
+                "animations": ["https://media3.giphy.com/media/YooaUKv03twMpbqIGa/giphy.gif"]
+            },
+            {
+                "name": "Arrow Stream - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Arrow_Stream.png/revision/latest?cb=20130707042144"],
+                "animations": ["https://media3.giphy.com/media/cO3K61LkuQWy2QaENj/giphy.gif"]
+            },
+            {
+                "name": "Sharp Eyes - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300"],
+                "animations": ["https://media0.giphy.com/media/zFyOrfXJDtiymYiByY/giphy.gif"]
+            },
+            {
+                "name": "Storm of Arrows - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Storm_of_Arrows.png/revision/latest?cb=20161125062717"],
+                "animations": ["https://media3.giphy.com/media/IyxGZFIQjxYVKCsq6Q/giphy.gif"]
+            },
+            {
+                "name": "Quiver Barrage - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quiver_Barrage.png/revision/latest?cb=20181115065338"],
+                "animations": ["https://media3.giphy.com/media/PhOohVuDz73ClVYTsF/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Bowmaster is a DEX archer class part of the Explorers class group. Bowmasters take down their enemies from afar using a flurry of arrows and useful summons. When in trouble, they have all the utilities to get out of danger"
+}

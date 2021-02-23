@@ -1,0 +1,606 @@
+{
+    "class": "Mercedes",
+    "content": {
+        "classGroup": "Heroes",
+        "jobGroup": "Archer",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Reduces skill cooldowns",
+        "legionValue": "2/3/4/5/6% [max. -5 sec]",
+        "equipment": [
+            {"weapon": ["dualBowguns"]},
+            {"secondary": ["magicArrow"]}
+        ],
+        "classType": [
+            "Combo-based",
+            "Mobile",
+            "Link Skill - Increased EXP"
+        ],
+        "innerAbility": ["Attack Speed", "Crit Rate", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Fun class with a linking / combo skill mechanic",
+                "Has innate HP and MP healing",
+                "Very mobile class with ability to quickly move up ladders and dash through map",
+                "A really good Link Skill that provides bonus EXP when hunting",
+                "Huge variety of attacks",
+                "Has a summon that attacks for you",
+                "You get to ride a unicorn into battle in 5th job!!!!"
+            ],
+            "cons": [
+                "Low HP but does not matter later on",
+                "You need to keep up a buff by linking skills together, you may forget"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Avoidability</strong>: +60%",
+                "<strong>Crit Rate</strong>: +55%",
+                "<strong>Crit Damage</strong>: +25%",
+                "<strong>Attack Power</strong>: +30%",
+                "<strong>Damage</strong>: +50%",
+                "<strong>Final Damage</strong>: +35% + (up to 20% from <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Ignis_Roar.png/revision/latest?cb=20171207054853' alt='Skill Ignis Roar' width='32' height='32'> Ignis Roar)",
+                "<strong>Boss Damage</strong>: +15%",
+                "<strong>Knockback Resistance</strong>: +0%",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +30%",
+                "<strong>Ignore DEF</strong>: +25%",
+                "<strong>Abnormal Status Resistance</strong>: 25",
+                "<strong>EXP Gained: </strong>(up to 20% from <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Elven_Blessing.png/revision/latest?cb=20110723104642' alt='Skill Elven Blessing'> Link Skill)"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Dual_Bowguns_Boost.png/revision/latest?cb=20110727142656' alt='Skill Dual Bowguns Boost'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Water_Shield.png/revision/latest?cb=20110810041409' alt='Skill Water Shield'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Ignis_Roar.png/revision/latest?cb=20171207054853' alt='Skill Ignis Roar'>(Special), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Ancient_Warding.png/revision/latest?cb=20110810054014' alt='Skill Ancient Warding'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Elemental_Knights.png/revision/latest?cb=20110810041419' alt='Skill Elemental Knights'>(192 - 120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Guided_Arrow.png/revision/latest?cb=20161204065740' alt='Skill Guided Arrow'>(60s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Elvish_Blessing.png/revision/latest?cb=20120814024032' alt='Skill Elvish Blessing'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Heroic_Memories_%28Mercedes%29.png/revision/latest?cb=20121015211444' alt='Skill Heroic Memories (Mercedes)'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Spirit_of_Elluel.png/revision/latest?cb=20161125062717' alt='Skill Spirit of Elluel'>(150s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/royal-knights.png?w=600' alt='Skill Royal Knights'/>(150s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015' alt='Skill Freud's Wisdom'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957' alt='Skill Vicious Shot'>(120s cd)",
+            "iFrame": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015' alt='Skill Freud's Wisdom' width='32' height='32'>(240s cd)"
+        },
+        "linkSkill": {
+                "id":80001040,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Elven_Blessing.png/revision/latest?cb=20110723104642"],
+                "type": "Active / Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Glide_Blast.png/revision/latest?cb=20110810032909' alt='Skill Glide Blast'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Potential_Power.png/revision/latest?cb=20110810032900' alt='Skill Potential Power'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Sharp_Aim.png/revision/latest?cb=20110810032915' alt='Skill Sharp Aim'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Swift_Dual_Shot.png/revision/latest?cb=20110810032854' alt='Skill Swift Dual Shot'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Dual_Bowguns_Mastery.png/revision/latest?cb=20110727142738' alt='Skill Dual Bowguns Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Dual_Bowguns_Boost.png/revision/latest?cb=20110727142656' alt='Skill Dual Bowguns Boost'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Spirit_Surge.png/revision/latest?cb=20160627050122' alt='Skill Spirit Surge'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Parting_Shot.png/revision/latest?cb=20170918074817' alt='Skill Parting Shot'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Piercing_Storm.png/revision/latest?cb=20110727142646' alt='Skill Piercing Storm'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959' alt='Skill Aerial Barrage'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Elemental_Knights.png/revision/latest?cb=20110810041419' alt='Skill Elemental Knights'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Water_Shield.png/revision/latest?cb=20110810041409' alt='Skill Water Shield'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Ignis_Roar.png/revision/latest?cb=20171207054853' alt='Skill Ignis Roar'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256' alt='Skill Unicorn Spike'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243' alt='Skill Stunning Strikes'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728' alt='Skill Gust Dive'>"],
+                ["4th Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229' alt='Skill Staggering Strikes'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Defense_Break.png/revision/latest?cb=20110810054039' alt='Skill Defense Break'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Dual_Bowguns_Expert.png/revision/latest?cb=20110810054035' alt='Skill Dual Bowguns Expert'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134' alt='Skill Advanced Final Attack'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Ancient_Warding.png/revision/latest?cb=20110810054014' alt='Skill Ancient Warding'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Rolling_Moonsault.png/revision/latest?cb=20110810054044' alt='Skill Rolling Moonsault'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956' alt='Skill Ishtar's Ring'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008' alt='Skill Lightning Edge'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero's Will'>"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ishtar%27s_Ring_-_Reinforce.png/revision/latest?cb=20120814021912' alt='Skill Ishtar's Ring - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ishtar%27s_Ring_-_Guardbreak.png/revision/latest?cb=20130315124653' alt='Skill Ishtar's Ring - Guardbreak' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Ishtar%27s_Ring_-_Boss_Rush.png/revision/latest?cb=20130315124703' alt='Skill Ishtar's Ring - Boss Rush' width='32' height='32'> Ishtar's Ring - Reinforce, Guardbreak and Boss Rush</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spikes_Royale_-_Armorbreak.png/revision/latest?cb=20120814022834' alt='Skill Spikes Royale - Armorbreak' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Spikes_Royale_-_Temper_Link.png/revision/latest?cb=20120814022925' alt='Skill Spikes Royale - Temper Link' width='32' height='32'> Spikes Royale - Guardbreak and Temper Link<ul><li>Can be changed if you don't train with <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado' width='32' height='32'></li></ul></li><li>Use <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Water_Shield_-_Reinforce.png/revision/latest?cb=20120814022256' alt='Skill Water Shield - Reinforce' width='32' height='32'> Water Shield - Reinforce if you have trouble with survivability while training between Lv. 160 - 200</li></ul>"
+        },
+        "nodeInfo": {
+            "recommended": "<ul><li><strong>Bossing: <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956' alt='Skill Ishtar's Ring' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243' alt='Skill Stunning Strikes' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Elemental_Knights.png/revision/latest?cb=20110810041419' alt='Skill Elemental Knights' width='32' height='32' /></strong></li><li><strong>Training <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008' alt='Skill Lightning Edge' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush' width='32' height='32' /></strong></li><li><strong>Both: <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256' alt='Skill Unicorn Spike' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32' /></strong></li></ul>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Swift_Dual_Shot.png/revision/latest?cb=20110810032854' alt='Skill Swift Dual Shot'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243' alt='Skill Stunning Strikes'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256' alt='Skill Unicorn Spike'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Elemental_Knights.png/revision/latest?cb=20110810041419' alt='Skill Elemental Knights'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956' alt='Skill Ishtar's Ring'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008' alt='Skill Lightning Edge'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3157/mercedes",
+            "https://maplestory.fandom.com/wiki/Mercedes"
+        ],
+        "specialThanks": "merc best class",
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Ignis Roar",
+            "content": "<p>A majority of Mercedes' attacks can be linked together which reduces the delay between skills. In 2nd Job, you gain an attack <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt=''> Rising Rush that is used to combo with another skill for a follow up attack</p><p>Below is all the skills that combo with Rising Rush:</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Parting_Shot.png/revision/latest?cb=20170918074817' alt='Skill Parting Shot' width='32' height='32'> Parting Shot (2nd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959' alt='Skill Aerial Barrage' width='32' height='32'> Aerial Barrage (3rd Job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Rolling_Moonsault.png/revision/latest?cb=20110810054044' alt='Skill Rolling Moonsault' width='32' height='32'> Rolling Moonsault (4th Job) - Can be used without Rising Rush</li></ul><p>In 3rd Job, you gain a passive <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Ignis_Roar.png/revision/latest?cb=20171207054853' alt=''> Ignis Roar where whenever you link/combo an attack, you gain a stacking %Final Damage buff</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 20020109,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Elven_Healing.png/revision/latest?cb=20160220233101"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 20020111,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Updraft.png/revision/latest?cb=20110723104708"],
+                    "animations": ["https://media2.giphy.com/media/5CXXY7dNRYKLvCPzXQ/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "When climbing ladders, pressing the Up Arrow Key and Jump key will launch you up"
+                },
+                {
+                    "id": 20021110,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Elven_Blessing.png/revision/latest?cb=20110723104642"],
+                    "type": "Active / Passive",
+                    "desc": "",
+                    "details": [
+                        "Mercedes has a shorter cooldown for active part of the skill compared to the linked version",
+                        "Can be found in the <img src='https://static.wikia.nocookie.net/maplestory/images/5/54/Skill_Link_Manager.png' alt='Skill Link Manager' width='32'/> Link Manager"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 23001000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Swift_Dual_Shot.png/revision/latest?cb=20110810032854"],
+                        "animations": ["https://media.giphy.com/media/eg4OqI9FhCMA74PHzp/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire multiple arrows forward that hit several enemies"
+                    },
+                    {
+                        "id": 23000001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Potential_Power.png/revision/latest?cb=20110810032900"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 23001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Glide_Blast.png/revision/latest?cb=20110810032909"],
+                        "animations": ["https://media.giphy.com/media/S3bVM2akfDLYfqegBg/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned to a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "id": 23000003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Sharp_Aim.png/revision/latest?cb=20110810032915"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "id": 23101000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Piercing_Storm.png/revision/latest?cb=20110727142646"],
+                        "animations": ["https://media.giphy.com/media/SvWJ9wNxQwt5qKwzSz/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a flurry of arrows forward that pierces through enemies"
+                    },
+                    {
+                        "id": 23101001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505"],
+                        "animations": ["https://media.giphy.com/media/kemLCwoJGIuEe2Yj0B/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing enemies and launching them into the air",
+                        "details": [
+                            "If you hold the down arrow key while pressing Rising Rush, it will instead launch enemies up without dashing forward",
+                            "Deals increased %p Damage to enemies in the air",
+                            "During the launch attack, you can combine the skill with other skills for a combo attack such as:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Parting_Shot.png/revision/latest?cb=20170918074817' alt='Skill Parting Shot' width='32' height='32'> Parting Shot (2nd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959' alt='Skill Aerial Barrage' width='32' height='32'> Aerial Barrage (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Rolling_Moonsault.png/revision/latest?cb=20110810054044' alt='Skill Rolling Moonsault' width='32' height='32'> Rolling Moonsault (4th job)</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 23100004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Parting_Shot.png/revision/latest?cb=20170918074817"],
+                        "animations": ["https://media.giphy.com/media/eJcWKpo8eaD4xv2bOb/giphy.gif"],
+                        "type": "Combo Attack",
+                        "desc": "Fires arrows at enemies launched by Rising Rush",
+                        "details": [
+                            "Another way to activate Parting Shot is to press the Attack key during Rishing Rush's launch attack"
+                        ]
+                    },
+                    {
+                        "id": 23101002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Dual_Bowguns_Boost.png/revision/latest?cb=20110727142656"],
+                        "animations": ["https://media0.giphy.com/media/NY6fvUuso1AKLKYH3P/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 23100003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Spirit_Surge.png/revision/latest?cb=20160627050122"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 23100005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Dual_Bowguns_Mastery.png/revision/latest?cb=20110727142738"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 23100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Final Attack Passive",
+                        "desc": "Grants your attacks a chance to deal an additional hit"
+                    },
+                    {
+                        "id": 23100008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "id": 23111000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243"],
+                        "animations": ["https://media.giphy.com/media/JsQYdSY5LXxxJ4Pg54/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires multiple arrows in front of you, dealing increased %Final Damage to stunned targets",
+                        "details": [
+                            "Has a chance to stun enemies",
+                            "This attack can be used in the air and linked when used first with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush' width='32' height='32'> Rising Rush (2nd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256' alt='Skill Unicorn Spike' width='32' height='32'> Unicorn Spike (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32'> Spikes Royale (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008' alt='Skill Lightning Edge' width='32' height='32'> Lightning Edge (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil' width='32' height='32'> Wrath of Enlil (Hyper Skill)</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 23111001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250"],
+                        "animations": ["https://media.giphy.com/media/frBg7UnxTlwjuPnou1/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Rain arrows down up enemies below you",
+                        "details": [
+                            "Can only be used while in the air",
+                            "Can be held as soon as you jump or put in a macro to use skill twice per jump<ul><li>Results are more consistent with more Attack Speed</li></ul>",
+                            "Can be used along with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Glide_Blast.png/revision/latest?cb=20110810032909' alt='Skill Glide Blast'> to increase jump distance",
+                            "This attack can be linked when used first with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728' alt='Skill Gust Dive' width='32' height='32'> Gust Dive (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32'> Spikes Royale (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil' width='32' height='32'> Wrath of Enlil (Hyper Skill)</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 23111002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256"],
+                        "animations": ["https://media.giphy.com/media/MZFFwyUCINQsTVG3Bx/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Sends out a rampage of unicorns that dash forward and debuffs enemies",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy takes increased %Damage",
+                            "Using link skills (combos) will reduce the cooldown by 1 sec"
+                        ]
+                    },
+                    {
+                        "id": 23111003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728"],
+                        "animations": ["https://media1.giphy.com/media/jsfYkQ30qelkw5IFh8/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "While in the air, dash diagonally towards the ground",
+                        "details": [
+                            "This attack can be linked when used first with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243' alt='Skill Stunning Strikes' width='32' height='32'> Stunning Strikes (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado' width='32' height='32'> Leaf Tornado (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32'> Spikes Royale (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008' alt='Skill Lightning Edge' width='32' height='32'> Lightning Edge (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil' width='32' height='32'> Wrath of Enlil (Hyper Skill)</li></ul>",
+                            "Using a non-macroed <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado'> during the animation of Gust Dive removes the end delay allowing you to move immediately afterwards<ul><li>Allows Gust Dive to be spammed</li><li>If you cannot get it to work, try spamming both <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado' width='32' height='32'> and Gust Dive together until you get the hang of it</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 23111005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Water_Shield.png/revision/latest?cb=20110810041409"],
+                        "animations": ["https://media4.giphy.com/media/jKI9Dju6eXshZDcWot/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 23110006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959"],
+                        "animations": ["https://media.giphy.com/media/hX7Psd17Gqxp9swQZU/giphy.gif"],
+                        "type": "Combo Attack",
+                        "desc": "Strikes enemies when linked with Rising Rush",
+                        "details": [
+                            "Another way to active Aerial Barrage is to press the Up Arrow Key and Attack key during Rishing Rush's launch attack",
+                            "<strong>[Passive]</strong>Permanently increases the damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'>",
+                            "This attack can be linked when used first with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado' width='32' height='32'> Leaf Tornado (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728' alt='Skill Gust Dive' width='32' height='32'> Gust Dive (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Rolling_Moonsault.png/revision/latest?cb=20110810054044' alt='Skill Rolling Moonsault' width='32' height='32'> Rolling Moonsault (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32'> Spikes Royale (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil' width='32' height='32'> Wrath of Enlil (Hyper Skill)</li></ul>",
+                            "Skill is considered a teleport, meaning that it can be used to dodge boss attacks<ul><li>For example, Lotus lasers, Magnus meteors &amp; spin)</li><li>Usually executed by using it after Down Arrow Key + <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush' width='32' height='32'></li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 23111008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Elemental_Knights.png/revision/latest?cb=20110810041419"],
+                        "animations": ["https://media1.giphy.com/media/vps8eo1J5lerGP7pzD/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons an Elemental Knight to fight by your side",
+                        "details": [
+                            "There are 3 possible spirits that can be summoned<ul><li><strong>[Ice Spirit]: </strong>Has a chance to freeze enemies</li><li><strong>[Fire Spirit]: </strong>Attacks apply a burn effect to enemies</li><li><strong>[Shadow Spirit]</strong>: Attacks deal increased damage</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 23110004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Ignis_Roar.png/revision/latest?cb=20171207054853"],
+                        "type": "Passive",
+                        "desc": "Whenever you link skills together, you gain a stacking of %Final Damage buff up to 10 times",
+                        "details": [
+                            "Also permanently increases %Avoidability, %Final Damage and Attack"
+                        ]
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "id": 23121000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956"],
+                        "animations": ["https://media.giphy.com/media/YqQG5R8b9b3WPSbaqU/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "When held, rapidly fires in front of you hitting only one enemy",
+                        "details": [
+                            "You can move while casting",
+                            "Each hit increases the duration of <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Ignis_Roar.png/revision/latest?cb=20171207054853' alt='Skill Ignis Roar'/> slightly",
+                            "<strong>[Passive]</strong>: Permanently increases the %p Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256' alt='Skill Unicorn Spike'>"
+                        ]
+                    },
+                    {
+                        "id": 23121002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004"],
+                        "animations": ["https://media.giphy.com/media/Lkl5wa3RK14BV3QyoV/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap up into the air and rain down spears on enemies while debuffing them",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Decreases %Defence and makes all attacks towards that enemy critical hits",
+                            "<strong>[Passive]</strong>: Permanently increases the %p Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado'>",
+                            "Using link skills (combos) will reduce the cooldown by 1 sec"
+                        ]
+                    },
+                    {
+                        "id": 23121003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008"],
+                        "animations": ["https://media.giphy.com/media/MFt51FftwLBCmGcELL/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while damaging enemies you pass through",
+                        "details": [
+                            "Debuffs bosses causing them to take increased %Damage from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956' alt='Skill Ishtar's Ring'> Ishtar's Ring",
+                            "This attack can be linked when used first with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush' width='32' height='32'> Rising Rush (2nd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243' alt='Skill Stunning Strikes' width='32' height='32'> Stunning Strikes (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256' alt='Skill Unicorn Spike' width='32' height='32'> Unicorn Spike (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32'> Spikes Royale (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil' width='32' height='32'> Wrath of Enlil (Hyper Skill)</li></ul>",
+                            "Using a non-macroed <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado'> during the animation of Lightning Edge removes the end delay allowing you to move immediately afterwards<ul><li>Allows Lightning Edge to be spammed</li><li>If you cannot get it to work, try spamming both <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado' width='32' height='32'> and Lightning Edge together until you get the hang of it</li></ul>",
+                            "<strong>[Passive]</strong>: Increases the %p Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728' alt='Skill Gust Dive'>"
+                            
+                        ]
+                    },
+                    {
+                        "id": 23121011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Rolling_Moonsault.png/revision/latest?cb=20110810054044"],
+                        "animations": ["https://media.giphy.com/media/kD0AM4tUlPb6L15f7O/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "While in the air, spin and deal damage to nearby enemies",
+                        "details": [
+                            "Resets <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Glide_Blast.png/revision/latest?cb=20110810032909' alt='Skill Glide Blast'>, allowing it to be used again",
+                            "Can be used without <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'>",
+                            "Another way to activate Rolling Moonsault is to press the Down Arrow Key and Attack key during the <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'/> launch attack",
+                            "Using Rolling Moonsault after <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959' alt='Skill Aerial Barrage'> grants additional airborne height compared to using it on its own",
+                            "This attack can be linked when used first with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado' width='32' height='32'> Leaf Tornado (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728' alt='Skill Gust Dive' width='32' height='32'> Gust Dive (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32'> Spikes Royale (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil' width='32' height='32'> Wrath of Enlil (Hyper Skill)</li></ul>",
+                            "<strong>[Passive]</strong>: Permanently increases the %p Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959' alt='Skill Aerial Barrage'>"
+                        ]
+                    },
+                    {
+                        "id": 23121014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Spirit_Nimble_Flight.png/revision/latest?cb=20160627080003"],
+                        "animations": ["https://media.giphy.com/media/JOdQMiz8KxE4qTob1M/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While attacking in the air, dash in a given direction while cancelling the attack and animation of the previous skill",
+                        "details": [
+                            "To activate, click on any Arrow Key and the Skill Key together while attacking",
+                            "Can be used mid-dash during <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008' alt='Skill Lightning Edge'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728' alt='Skill Gust Dive'><ul><li>Keeps momentum of original skill, allowing for some interesting movement</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 23121004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Ancient_Warding.png/revision/latest?cb=20110810054014"],
+                        "animations": ["https://media1.giphy.com/media/XKt7QRviolDvZxwSoj/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 23120013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229", "https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229"],
+                        "animations": ["https://media.giphy.com/media/JsQYdSY5LXxxJ4Pg54/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and max enemies hit",
+                            "Color of arrows are changed to red from green"
+                        ]
+                    },
+                    {
+                        "id": 23120009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Dual_Bowguns_Expert.png/revision/latest?cb=20110810054035", "https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Dual_Bowguns_Mastery.png/revision/latest?cb=20110727142738"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Crit Damage"
+                        ]
+                    },
+                    {
+                        "id": 23120010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Defense_Break.png/revision/latest?cb=20110810054039"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 23120012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage"
+                        ]
+                    },
+                    {
+                        "id": 23121005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                        "animations": ["https://media1.giphy.com/media/eTt0PXGc8H0NnQ6EVB/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 23121008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                        "animations": ["https://media2.giphy.com/media/mrbRtoDqKEGfT3Cq4Z/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 23120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ishtar%27s_Ring_-_Reinforce.png/revision/latest?cb=20120814021912"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 23120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ishtar%27s_Ring_-_Guardbreak.png/revision/latest?cb=20130315124653"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 23120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Ishtar%27s_Ring_-_Boss_Rush.png/revision/latest?cb=20130315124703"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 23120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Water_Shield_-_Reinforce.png/revision/latest?cb=20120814022256"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 23120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Water_Shield_-_True_Immunity_1.png/revision/latest?cb=20120814022434"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 23120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Water_Shield_-_True_Immunity_2.png/revision/latest?cb=20120814022525"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 23120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Spikes_Royale_-_Reinforce.png/revision/latest?cb=20120814022638"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 23120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spikes_Royale_-_Armorbreak.png/revision/latest?cb=20120814022834"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 23120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Spikes_Royale_-_Temper_Link.png/revision/latest?cb=20120814022925"],
+                    "type": "Passive",
+                    "desc": "Increases the passive %Damage increase to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado'>",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 23121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Elvish_Blessing.png/revision/latest?cb=20120814024032"],
+                    "animations": ["https://media1.giphy.com/media/EfIjLLQTEbCYqAviat/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "id": 23121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701"],
+                    "animations": ["https://media0.giphy.com/media/S3zc1gac8hvj0vOy7G/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes an attack in front of you",
+                    "details": [
+                        "This attack can be linked when used first with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush' width='32' height='32'> Rising Rush (2nd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243' alt='Skill Stunning Strikes' width='32' height='32'> Stunning Strikes (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256' alt='Skill Unicorn Spike' width='32' height='32'> Unicorn Spike (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32'> Spikes Royale (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008' alt='Skill Lightning Edge' width='32' height='32'> Lightning Edge (4th job)</li></ul>",
+                        "Using link skills (combos) will reduce the cooldown by 1 sec"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 23121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Heroic_Memories_%28Mercedes%29.png/revision/latest?cb=20121015211444"],
+                    "animations": ["https://media0.giphy.com/media/2xHUj6zsx55YWX2n9P/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["freudsWisdom","goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthMain": [
+                {
+                    "name": "Spirit of Elluel",
+                    "shortDesc": "MP Cost: 1000, Duration: 65 sec, your afterimages may mimic the skills you use up to 3 time each\\nAfterimage Final Damage: 55%\\nAfterimage Skill Mimic Chance: 90% (-20% per successful mimic)\\nIshtar's Ring Activation Chance: 50%Spirits - deal 825% damage 8 times on up to 10 enemies for 10 sec, cooldown decreases by 1 sec after using a linked skill\\nCooldown: 150 sec",
+                    "id": 400031002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Spirit_of_Elluel.png/revision/latest?cb=20161125062717"],
+                    "animations": ["https://media3.giphy.com/media/UJvtOsj9bFfCJp7RXz/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, attacks have a chance to create afterimages that mimic your skills. Additioanlly, periodically a giant tree appears that deals damage to enemies",
+                    "details": [
+                        "The giant tree has a cooldown (10 secs) but using link skills (combos) will reduce the cooldown by 1 sec"
+                    ]
+                },
+                {
+                    "name": "Sylvidia's Flight",
+                    "shortDesc": "MP Cost: 1000, Mount Duration: 42 sec. Knockback Resistance: +100%, Attack Power: +17%, Damage Taken: -25% (Includes HP% Based Attacks)\\nDash attack deals 1300% damage to up to 12 enemies 9 times.\\nCooldown: 150 sec",
+                    "id": 400031020,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Sylvidia%27s_Flight.png/revision/latest?cb=20170609033219"],
+                    "animations": ["https://media1.giphy.com/media/ZFRdSXp3bX2PlEJ8Vz/giphy.gif"],
+                    "type": "Mount Attack",
+                    "desc": "Mount onto Sylvidia and dash through enemies",
+                    "details": [
+                        "Pressing <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Sylvidia%27s_Flight.png/revision/latest?cb=20170609033219' alt='Skill Sylvidia's Flight'> first will mount onto Sylvidia and during the duration of the mount, you can press <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Sylvidia%27s_Flight.png/revision/latest?cb=20170609033219' alt='Skill Sylvidia's Flight'> again to perform a dash attack and pressing the Down Arrow Key and Attack Key will allow you to cancel the skill and unmount",
+                        "Sylvidia's attacks can also be triggered by pressing the Jump Key in midair<ul><li>If you hold the Up arrow key while pressing <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Sylvidia%27s_Flight.png/revision/latest?cb=20170609033219' alt='Skill Sylvidia's Flight'>, you will dash upwards diagonally</li></ul>",
+                        "You receive max stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Ignis_Roar.png/revision/latest?cb=20171207054853' alt='Skill Ignis Roar'> while riding",
+                        "During the duration of the skill, you gain %Attack, %Damage Reduction and 100% Knockback Resistance",
+                        "While riding, only certain skills can be used: <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256' alt='Skill Unicorn Spike'>,<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728' alt='Skill Gust Dive'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Spirit_Nimble_Flight.png/revision/latest?cb=20160627080003' alt='Skill Spirit Nimble Flight'>,<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Irkalla%27s_Wrath.png/revision/latest?cb=20181115065415' alt='Skill Irkalla's Wrath'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956' alt='Skill Ishtar's Ring'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Water_Shield.png/revision/latest?cb=20110810041409' alt='Skill Water Shield'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Ancient_Warding.png/revision/latest?cb=20110810054014' alt='Skill Ancient Warding'>, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>"
+                    ]
+                },
+                {
+                    "name": "Irkalla's Wrath",
+                    "shortDesc": "MP Cost: 150, can press the key down for up to 8.5 sec, attacks up to 10 enemies in front of you to deal 800% damage 8 times consecutively.\\nYou can use it while walking backward and can change direction by pressing the direction key twice\\nCooldown: 150 sec",
+                    "id": 400031028,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Irkalla%27s_Wrath.png/revision/latest?cb=20181115065415"],
+                    "animations": ["https://media3.giphy.com/media/KmkE9cSV0Ekz4OhrD7/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes a flurry of arrows similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956' alt='Skill Ishtar's Ring'> for up to 8.5 secs but can hit multiple enemies",
+                    "details": [
+                        "While the skill is active, you can move but only walk backwards and cannot jump<ul><li>To change directions, press the Arrow Key of the direction you want to face twice</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Royal Knights",
+                    "shortDesc": "MP Cost: 1200, invincible during casting and disarmament\\nDuration: 30 sec, up to 4 knights appear when attack by Mercedes hits, each dealing 650% damage 4 times, Cooldown: 1.4 sec\\nCooldown: 150 sec",
+                    "id": 400031028,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/royal-knights.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/kljlUYzXGw25fblU6a/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, whenever you attack, knights will appear and damage nearby enemies",
+                    "details": [
+                        "You are invincible during the initial cast and ending of the skill",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Leaf Tornado - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250"],
+                "animations": ["https://media.giphy.com/media/frBg7UnxTlwjuPnou1/giphy.gif"]
+            },
+            {
+                "name": "Elemental Knights - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Elemental_Knights.png/revision/latest?cb=20110810041419"],
+                "animations": ["https://media1.giphy.com/media/vps8eo1J5lerGP7pzD/giphy.gif"]
+            },
+            {
+                "name": "Ishtar's Ring - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956"],
+                "animations": ["https://media.giphy.com/media/YqQG5R8b9b3WPSbaqU/giphy.gif"]
+            },
+            {
+                "name": "Spikes Royale - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004"],
+                "animations": ["https://media.giphy.com/media/Lkl5wa3RK14BV3QyoV/giphy.gif"]
+            },
+            {
+                "name": "Wrath of Enlil - Hyper Skills",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701"],
+                "animations": ["https://media0.giphy.com/media/S3zc1gac8hvj0vOy7G/giphy.gif"]
+            },
+            {
+                "name": "Sylvidia's Flight - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Sylvidia%27s_Flight.png/revision/latest?cb=20170609033219"],
+                "animations": ["https://media1.giphy.com/media/ZFRdSXp3bX2PlEJ8Vz/giphy.gif"]
+            },
+            {
+                "name": "Irkalla's Wrath - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Irkalla%27s_Wrath.png/revision/latest?cb=20181115065415"],
+                "animations": ["https://media3.giphy.com/media/KmkE9cSV0Ekz4OhrD7/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Mercedes is a DEX archer class part of the Heroes. Mercedes is known for their quick mobility and ability to link attacks together"
+}

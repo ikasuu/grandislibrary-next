@@ -1,0 +1,657 @@
+{
+    "class": "Hoyoung",
+    "content": {
+        "classGroup": "Other (Anima)",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat LUK",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["ritualFan"]},
+            {"secondary": ["fanTassel"]}
+        ],
+        "classType": [
+            "Mobile",
+            "Burst",
+            "Fluid"
+        ],
+        "innerAbility": ["+1 Skill", "Buff Duration", "Crit Rate"],
+        "prosCons": {
+            "pros": [
+                "Has clones that attack for you",
+                "Very mobile class, good for mobbing",
+                "Strong burst potential",
+                "Lots of utility with skills that create damaging zones, portals, and provide invincibility",
+                "Has 2 iFrames <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Sage_Dream_of_Shangri-La.png/revision/latest?cb=20200209184817' alt='Skill Sage: Dream of Shangri-La'/> Sage: Dream of Shangri-La and <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Sage_Wrath_of_Gods.png/revision/latest?cb=20200209184818' alt='Skill Sage: Wrath of Gods'/> Sage: Wrath of Gods",
+                "Has a bind skill <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Sage_Tai_Yu_Clone.png/revision/latest?cb=20200209184817' alt='Skill Sage Tai Yu Clone'/> Sage: Tai Yu Clone"
+            ],
+            "cons": [
+                "Has to two different special resources to maintain to use certain skills",
+                "Lots of your attacks have cooldowns requiring you to make skill rotations",
+                "Complex class with high skill ceiling"
+                
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Avoidability</strong>: +65%",
+                "<strong>Crit Rate</strong>: +50%",
+                "<strong>Crit Damage</strong>: +40%",
+                "<strong>Attack Power</strong>: +10%",
+                "<strong>Final Damage</strong>: +55%",
+                "<strong>Boss Damage</strong>: +20%",
+                "<strong>Knockback Resistance</strong>: +20%",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +15%",
+                "<strong>Ignore DEF</strong>: +20% + (up to 10% from <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Bravado.png/revision/latest?cb=20191117083357' alt='Skill Bravado'> Link Skill)",
+                "<strong>Abnormal Status Resistance</strong>: 30",
+                "<strong>Minion Duration</strong>: +10%"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Talisman_Clone.png/revision/latest?cb=20191120081044' alt='Skill Talisman Clone'>(Talisman), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ritual_Fan_Acceleration.png/revision/latest?cb=20191120082541' alt='Skill Ritual Fan Acceleration'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Scroll_Butterfly_Dream.png/revision/latest?cb=20200209075543' alt='Skill Scroll Butterfly Dream'>(Scroll), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Anima_Warrior.png/revision/latest?cb=20200209075005' alt='Skill Anima Warrior'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Talisman_Seeking_Ghost_Flame.png/revision/latest?cb=20191122130049' alt='Skill Talisman Seeking Ghost Flame'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Scroll_Tiger_of_Songyu.png/revision/latest?cb=20200209184922' alt='Skill Scroll Tiger of Songyu'>(200s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Sage_Wrath_of_Gods.png/revision/latest?cb=20200209184818' alt='Skill Sage Wrath of Gods'>(200s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Sage_Tai_Yu%27s_Miracle_Tonic.png/revision/latest?cb=20200209184817' alt='Skill Sage Tai Yu's Miracle Tonic'>(100s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Sage_Clone_Rampage.png/revision/latest?cb=20200209184816' alt='Skill Sage Clone Rampage'>(200s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/sage-teachings-heaven-earth-human-apparition.png?w=600' alt='Skill Three Paths Apparition'>(100s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033' alt='Skill Grandis Goddess's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611' alt='Skill Last Resort'>(90 - 75s cd)",
+            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Sage_Tai_Yu_Clone.png/revision/latest?cb=20200209184817' alt='Skill Sage Tai Yu Clone'>(200s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Sage_Dream_of_Shangri-La.png/revision/latest?cb=20200209184817' alt='Skill Sage Dream of Shangri-La'>(200s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Sage_Wrath_of_Gods.png/revision/latest?cb=20200209184818' alt='Skill Sage Wrath of Gods'>(200s cd)"
+        },
+        "linkSkill": {
+            "id": 80000609,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Bravado.png/revision/latest?cb=20191117083357"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Graceful_Flight.png/revision/latest?cb=20191119142509' alt='Skill Graceful Flight'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Shrouding_Mist.png/revision/latest?cb=20191120070515' alt='Skill Shrouding Mist'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Light_Steps.png/revision/latest?cb=20191120065904' alt='Skill Light Steps'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741' alt='Skill Humanity As-You-Will Fan'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Talisman_Evil-Sealing_Gourd.png/revision/latest?cb=20191117100637' alt='Skill Talisman Evil-Sealing Gourd'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Heavenly_Body.png/revision/latest?cb=20191120091921' alt='Skill Heavenly Body'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Ritual_Fan_Mastery.png/revision/latest?cb=20191120084413' alt='Skill Ritual Fan Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Third_Eye_%28Hoyoung%29.png/revision/latest?cb=20191120091224' alt='Skill Third Eye (Hoyoung)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/45/Skill_Out_of_Sight.png/revision/latest?cb=20191120084842' alt='Skill Out of Sight'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ritual_Fan_Acceleration.png/revision/latest?cb=20191120082541' alt='Skill Ritual Fan Acceleration'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Talisman_Clone.png/revision/latest?cb=20191120081044' alt='Skill Talisman Clone'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142' alt='Skill Earth Ground-Shattering Wave'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Balanced_Breath.png/revision/latest?cb=20191122142945' alt='Skill Balanced Breath'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Diamond_Body.png/revision/latest?cb=20191122142549' alt='Skill Diamond Body'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Asura.png/revision/latest?cb=20191122141845' alt='Skill Asura'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Attainment.png/revision/latest?cb=20191122140629' alt='Skill Attainment'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733' alt='Skill Heaven Iron Fan Gale'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Earth_Stone_Tremor.png/revision/latest?cb=20191120095621' alt='Skill Earth Stone Tremor'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Talisman_Seeking_Ghost_Flame.png/revision/latest?cb=20191122130049' alt='Skill Talisman Seeking Ghost Flame'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Scroll_Degeneration.png/revision/latest?cb=20191122135742' alt='Skill Scroll Degeneration'>"],
+                ["4th Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Dragon%27s_Eye.png/revision/latest?cb=20200121135758' alt='Skill Dragon's Eye'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Enlightenment.png/revision/latest?cb=20200125205000' alt='Skill Enlightenment'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Advanced_Ritual_Fan_Mastery.png/revision/latest?cb=20200209073626' alt='Skill Advanced Ritual Fan Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Anima_Warrior.png/revision/latest?cb=20200209075005' alt='Skill Anima Warrior'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Humanity_Gold-Banded_Cudgel.png/revision/latest?cb=20200209075730' alt='Skill Humanity Gold-Banded Cudgel'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Heaven_Consuming_Flames.png/revision/latest?cb=20191122144051' alt='Skill Heaven Consuming Flames'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Talisman_Warp_Gate.png/revision/latest?cb=20200209075700' alt='Skill Talisman Warp Gate'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Thousand-Ton_Stone.png/revision/latest?cb=20200209075714' alt='Skill Thousand-Ton Stone'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Scroll_Butterfly_Dream.png/revision/latest?cb=20200209075543' alt='Skill Scroll Butterfly Dream'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Scroll_Star_Vortex.png/revision/latest?cb=20200209075612' alt='Skill Scroll Star Vortex'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Anima_Hero%27s_Will.png/revision/latest?cb=20200121141511' alt='Skill Anima Hero's Will'>"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Empowered_Harmony.png/revision/latest?cb=20200209184814' alt='Skill Empowered Harmony' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Boss_Rush_Harmony.png/revision/latest?cb=20200209184812' alt='Skill Boss Rush Harmony' width='32' height='32'> Empowered Harmony and Boss Rush Harmony</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Guardbreaking_Clones.png/revision/latest?cb=20200209184815' alt='Skill Guardbreaking Clones' width='32' height='32'> Guardbreaking Clones</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Hasty_Ghost_Flame.png/revision/latest?cb=20200209184815' alt='Skill Hasty Ghost Flame' width='32' height='32'> Hasty Ghost Flame</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Hasty_Vortex.png/revision/latest?cb=20200209184815' alt='Skill Hasty Vortex' width='32' height='32'> Hasty Vortex</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741' alt='Skill Humanity As-You-Will Fan' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Talisman_Clone.png/revision/latest?cb=20191120081044' alt='Skill Talisman Clone' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142' alt='Skill Earth Ground-Shattering Wave' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733' alt='Skill Heaven Iron Fan Gale' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Scroll_Star_Vortex.png/revision/latest?cb=20200209075612' alt='Skill Scroll Star Vortex' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Scroll_Butterfly_Dream.png/revision/latest?cb=20200209075543' alt='Skill Scroll Butterfly Dream' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Talisman_Seeking_Ghost_Flame.png/revision/latest?cb=20191122130049' alt='Skill Talisman Seeking Ghost Flame' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Talisman_Evil-Sealing_Gourd.png/revision/latest?cb=20191117100637' alt='Skill Talisman Evil-Sealing Gourd' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Scroll_Degeneration.png/revision/latest?cb=20191122135742' alt='Skill Scroll Degeneration' width='32' height='32' /><ul><li>Boost Nodes are listed from left to right in order of priority</li></ul>",
+            "possible": "<p><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741' alt='Skill Humanity As-You-Will Fan' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Talisman_Clone.png/revision/latest?cb=20191120081044' alt='Skill Talisman Clone' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142' alt='Skill Earth Ground-Shattering Wave' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733' alt='Skill Heaven Iron Fan Gale' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Scroll_Star_Vortex.png/revision/latest?cb=20200209075612' alt='Skill Scroll Star Vortex' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Scroll_Butterfly_Dream.png/revision/latest?cb=20200209075543' alt='Skill Scroll Butterfly Dream' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Talisman_Seeking_Ghost_Flame.png/revision/latest?cb=20191122130049' alt='Skill Talisman Seeking Ghost Flame' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Talisman_Evil-Sealing_Gourd.png/revision/latest?cb=20191117100637' alt='Skill Talisman Evil-Sealing Gourd' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Scroll_Degeneration.png/revision/latest?cb=20191122135742' alt='Skill Scroll Degeneration' width='32' height='32' /></p><ul><li>Skills below boost multiple skills</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741' alt='Skill Humanity As-You-Will Fan' width='32' height='32'> Humanity: As-You-Will Fan and Gold-Banded Cudgel</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142' alt='Skill Earth Ground-Shattering Wave' width='32' height='32'> Earth: Ground-Shattering Wave and Stone Tremor</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Talisman_Clone.png/revision/latest?cb=20191120081044' alt='Skill Talisman Clone' width='32' height='32' /> Talisman: Clone and Sage: Tai Yu Clone</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733' alt='Skill Heaven Iron Fan Gale' width='32' height='32'> Heaven: Iron Fan Gale and Consuming Flames</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Talisman_Evil-Sealing_Gourd.png/revision/latest?cb=20191117100637' alt='Skill Talisman Evil-Sealing Gourd' width='32' height='32'> Talisman: Evil-Sealing Gourd and Thousand-Ton Stone</li></ul>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/54393/hoyoung",
+            "https://maplestory.fandom.com/wiki/Hoyoung"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build + Boost Nodes Build", "iSlingGunz"],
+            ["Inner Ability","Maple Central"]
+        ],
+        "specialThanks": "Special thanks to Kénsa for their help in making this overview!",
+        "extraContent": {
+            "title": "Talisman Energy and Scroll Energy",
+            "content": "<p><img src='https://i.imgur.com/yLQQEvL.png' alt='Hoyoung Gauge' /></p><p>Hoyoung has two secondary resources called Talisman Energy and Scroll Energy that are used for Talisman Skills and Scroll Skills. In Hoyoung's gauge, the inner circle is the Talisman Energy and the outer ring is the Scroll Energy. Talisman Energy is charged by using Basic Skills and Scroll Energy is charged by using Talisman Skills and Basic Skills.</p><p>Hoyoung's Basic Skills are split into 3 different attributes, Humanity, Earth, and Heaven. On Hoyoung's gauge, you'll notice three orbs, this is your Attribute Combo, each representing a different attribute. Using a unique attribute will increase the stage of your Attribute Combo and grant bonus Talisman Energy. Once you consume all three orbs (Stage 3), the Attribute Combo resets</p><p><em>Talisman Energy is unlocked at 1st Job while Scroll Energy is unlocked at 3rd Job</em></p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 160001074,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Return_to_Cheong-woon.png/revision/latest?cb=20191117091643"],
+                    "animations": ["https://media2.giphy.com/media/MDxk0p9qSivVKnCVDq/giphy.gif"],
+                    "desc": "",
+                    "details": [
+                        "Skill is gained as you complete the storyline"
+                    ],
+                    "type": "Active"
+                },
+                {
+                    "id": 160001075,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Shapeshift.png/revision/latest?cb=20191116113719"],
+                    "animations": ["https://media0.giphy.com/media/U5UN1SubTdYP1t6Csy/giphy.gif"],
+                    "desc": "",
+                    "details": [
+                        "Skill is gained as you complete the storyline"
+                    ],
+                    "type": "Active"
+                },
+                {
+                    "id": 160001005,
+                    "offline": true,
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Exclusive_Spell_%28Hoyoung%29.png/revision/latest?cb=20191116140414"],
+                    "animations": ["https://media0.giphy.com/media/JwM2dOiuIZXhAp7RCa/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players",
+                        "Has a cooldown (2 hrs)"
+                    ]
+                },
+                {
+                    "id": 160000000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Spirit_Affinity.png/revision/latest?cb=20191116141513"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 160000076,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Fiend_Seal.png/revision/latest?cb=20191116142345"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is gained and leveled up by completing the Hoyoung storyline"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 164000010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Talisman_Energy.png/revision/latest?cb=20191117092937"],
+                        "type": "Passive",
+                        "desc": "Whenever you damage an enemy with a Basic Skill (Heaven, Earth or Humanity skills), you charge your Talisman Energy",
+                        "details": [
+                            "Each time you use a Heaven, Earth or Humanity skill for the first time, you gain bonus Talisman Energy<ul><li>Once all three types are used, the count will reset</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 164001000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741"],
+                        "animations": ["https://media.giphy.com/media/Pn6ELRVGqfRwpwPanb/giphy.gif"],
+                        "type": "Humanity Attack",
+                        "desc": "Swings your fan forward",
+                        "details": [
+                            "Enemies hit by the actual fan part of the skill take increased %Final Damage"
+                        ]
+                    },
+                    {
+                        "id": 164001001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Talisman_Evil-Sealing_Gourd.png/revision/latest?cb=20191117100637"],
+                        "animations": ["https://media.giphy.com/media/S92s9ysVXXlJ9IIbGg/giphy.gif"],
+                        "type": "Talisman Attack",
+                        "desc": "Swallows up nearby enemies into your gourd",
+                        "details": [
+                            "Pressing the Skill Key again launches all enemies swallowed",
+                            "Cannot swallow boss monsters, stationary monsters or monsters too higher level than you",
+                            "Deals increased %Boss Damage"
+                        ]
+                    },
+                    {
+                        "id": 164001003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Graceful_Flight.png/revision/latest?cb=20191119142509"],
+                        "animations": ["https://media.giphy.com/media/J2ayEiP1RfhNdWkMmY/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used up to twice in a row"
+                        ]
+                    },
+                    {
+                        "id": 164001004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Nimbus_Cloud_%28Hoyoung%29.png/revision/latest?cb=20191120064843"],
+                        "animations": ["https://media.giphy.com/media/eLpBEeYN1D0ee1kJEy/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Allows you to fly temporarily",
+                        "details": [
+                            "You can move by pressing the Arrow Keys",
+                            "If toggled to unlocked, you can also hold Jump and Arrow Key together to use Nimbus Cloud<ul><li>You can Lock and Unlock by right clicking the Skill in the Skills Tab</li></ul>",
+                            "Unlocked by completing main storyline"
+                        ]
+                    },
+                    {
+                        "id": 164000011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Light_Steps.png/revision/latest?cb=20191120065904"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 164000012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Shrouding_Mist.png/revision/latest?cb=20191120070515"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 164101000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142", "https://i.imgur.com/p5SrNLh.png"],
+                        "animations": ["https://media.giphy.com/media/TfLIpAmHcVpUb22Nv3/giphy.gif", "https://media.giphy.com/media/U1gdT40QW8JrpnDPEA/giphy.gif"],
+                        "type": "Earth Attack",
+                        "desc": "Sends out a shockwave forward",
+                        "details": [
+                            "If you press the Forward Arrow Key and the Skill Key again, you will dash forward<ul><li>If you do not press anything, a clone will be created instead that dashes forward</li></ul>",
+                            "Clone version is unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 164101003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Talisman_Clone.png/revision/latest?cb=20191120081044"],
+                        "animations": ["https://media.giphy.com/media/Xe9gxgXDOHLecu7Lii/giphy.gif"],
+                        "type": "Talisman Buff Attack",
+                        "desc": "While active, your attacks creates clones that attack nearby enemies",
+                        "details": [
+                            "Deals increased %Damage to non-boss monsters"
+                        ]
+                    },
+                    {
+                        "id": 164101005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ritual_Fan_Acceleration.png/revision/latest?cb=20191120082541"],
+                        "animations": ["https://media2.giphy.com/media/zSCmkeGudc8d0GNzjj/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 164100010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Ritual_Fan_Mastery.png/revision/latest?cb=20191120084413"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 164100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/45/Skill_Out_of_Sight.png/revision/latest?cb=20191120084842"],
+                        "type": "Passive",
+                        "desc": "Whenever you use the clone version of Basic Skills (like <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142' alt='Skill Earth Ground-Shattering Wave'>), you become hidden and cannot be hit by enemies similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> Dark Sight",
+                        "details": [
+                            "Additionally, permanently increases %Avoidability"
+                        ]
+                    },
+                    {
+                        "id": 164100011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Third_Eye_%28Hoyoung%29.png/revision/latest?cb=20191120091224"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 164100012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Heavenly_Body.png/revision/latest?cb=20191120091921"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 164100013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "id": 164110014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Scroll_Energy.png/revision/latest?cb=20191120093150"],
+                        "type": "Passive",
+                        "desc": "Whenever you damage an enemy with a Basic Skill or Talisman Skill, you charge your Scroll Energy"
+                    },
+                    {
+                        "id": 164111000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733", "https://i.imgur.com/Hc0gjoB.png"],
+                        "animations": ["https://media.giphy.com/media/dzOPUbXNN5QV8vhHb1/giphy.gif", "https://media.giphy.com/media/ihMoNfnftFHAw56QzP/giphy.gif"],
+                        "type": "Heaven Skill",
+                        "desc": "Leap into the air and blow a gale downwards",
+                        "details": [
+                            "If you press the Forward Arrow Key and the Skill Key again, you will leap forward<ul><li>If you do not press anything, a clone will be created instead that leaps forward</li></ul>",
+                            "Clone version is unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 164111003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Earth_Stone_Tremor.png/revision/latest?cb=20191120095621", "https://i.imgur.com/zlfF7GX.png"],
+                        "animations": ["https://media.giphy.com/media/ZZOFW52hLUrT0xYPzM/giphy.gif", "https://media.giphy.com/media/kI4IsMUFezaIiigY7A/giphy.gif"],
+                        "type": "Earth Skill",
+                        "desc": "Stones emerge from the ground damaging and stunning nearby enemies",
+                        "details": [
+                            "If you press the Left or Right Key and the Skill Key again, you will teleport towards that direction<ul><li>If you do not press anything, a clone will be created instead that dashes forward</li></ul>",
+                            "Only usable while on the ground",
+                            "Clone version is unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 164111007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Talisman_Seeking_Ghost_Flame.png/revision/latest?cb=20191122130049"],
+                        "animations": ["https://media.giphy.com/media/Spov5r2NQq8iaQoYoZ/giphy.gif"],
+                        "type": "Talisman Summon",
+                        "desc": "Summons a flame spirit that seeks and attacks nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 164111008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Scroll_Degeneration.png/revision/latest?cb=20191122135742"],
+                        "animations": ["https://media.giphy.com/media/fUAdyNalZJ1flEueHQ/giphy.gif"],
+                        "type": "Scroll Attack",
+                        "desc": "Transforms nearby enemies into frogs, bug and other creatures",
+                        "details": [
+                            "Cannot transform bosses but deals increased damage to bosses",
+                            "Transformed enemies have reduced %DEF"
+                        ]
+                    },
+                    {
+                        "id": 164110010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Attainment.png/revision/latest?cb=20191122140629"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 164110011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Asura.png/revision/latest?cb=20191122141845"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 164110012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Diamond_Body.png/revision/latest?cb=20191122142549"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 164110013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Balanced_Breath.png/revision/latest?cb=20191122142945"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "id": 164121000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Heaven_Consuming_Flames.png/revision/latest?cb=20191122144051", "https://i.imgur.com/jTYuPFv.png"],
+                    "animations": ["https://media.giphy.com/media/JohFIQewcoF4j3VuK7/giphy.gif", "https://media.giphy.com/media/MEvVdf5jehSJb0GI3W/giphy.gif"],
+                    "type": "Heaven Attack",
+                    "desc": "Creates a burst of flames that launches upwards",
+                    "details": [
+                        "If you press the Up Arrow Key and the Skill Key again, you will dash upwards<ul><li>If you do not press anything, a clone will be created instead that dashes upwards</li></ul>",
+                        "Can only be used in the air",
+                        "Clone version is unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "id": 164121003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Humanity_Gold-Banded_Cudgel.png/revision/latest?cb=20200209075730"],
+                    "animations": ["https://media.giphy.com/media/TiadUBD6uxpMQQXGFW/giphy.gif"],
+                    "type": "Heaven Attack",
+                    "desc": "Strikes forward and then delivers a final swing attack",
+                    "details": [
+                        "Does not charge any Talisman or Scroll Energy",
+                        "The final swing deals increased damage",
+                        "Deals increased %Boss Damage"
+                    ]
+                },
+                {
+                    "id": 164121005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Thousand-Ton_Stone.png/revision/latest?cb=20200209075714"],
+                    "animations": ["https://media.giphy.com/media/dagqIROpvMePqfgklG/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Transform into a stone that drops straight down crushing enemies",
+                    "details": [
+                        "Enemies hit gain a bleeding debuff",
+                        "Can only be used in the air",
+                        "You can activate this skill by pressing the Skill Key or tapping the Down Arrow key twice<ul><li>You can Right-click this skill to lock it, preventing the skill from activating by pressing the Down Arrow Keys"
+                    ]
+                },
+                {
+                    "id": 164121006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Talisman_Warp_Gate.png/revision/latest?cb=20200209075700"],
+                    "animations": ["https://media.giphy.com/media/dBNK9CH3MySvK7v7oE/giphy.gif"],
+                    "type": "Talisman Summon",
+                    "desc": "Creates a gate at your position that you can teleport back to while it is active",
+                    "details": [
+                        "To teleport, press the Skill Key again<ul><li>After teleporting, using the skill again while near the gate teleports you back to your previous lcoation</li></ul>",
+                        "<strong>[Passive]</strong>: Permanently increases %Avoidability"
+                    ]
+                },
+                {
+                    "id": 164121008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Scroll_Star_Vortex.png/revision/latest?cb=20200209075612"],
+                    "animations": ["https://media.giphy.com/media/Jmn3Jr3PR4hVrpnXgA/giphy.gif"],
+                    "type": "Scroll Attack",
+                    "desc": "Creates a vortex on the ground that damages nearby enemies",
+                    "details": [
+                        "While the skill is active, you accumulate Energy from enemies hit by the vortex<ul><li>If you press the Skill Key again, or when the vortex disappears, you and your party members will restore %HP/MP based on how much energy was stored</li><li>Attacking bosses will generate more Energy</li></ul>"
+                    ]
+                },
+                {
+                    "id": 164121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Scroll_Butterfly_Dream.png/revision/latest?cb=20200209075543"],
+                    "animations": ["https://media.giphy.com/media/kydC9MEaUvF53dDLWw/giphy.gif"],
+                    "type": "Scroll Buff Attack",
+                    "desc": "While active, your attacks create butterflies that seek and attack nearby enemies",
+                    "details": [
+                        "Additionally, while active, gain increased %Final Damage",
+                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Scroll_Degeneration.png/revision/latest?cb=20191122135742' alt='Skill Scroll Degeneration'>"
+                    ]
+                },
+                {
+                    "id": 164121009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Anima_Warrior.png/revision/latest?cb=20200209075005"],
+                    "animations": ["https://media2.giphy.com/media/p8SXNlOdWQqKhLwQNx/giphy.gif"],
+                    "type": "Pary Buff"
+                },
+                {
+                    "id": 164121010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Anima_Hero%27s_Will.png/revision/latest?cb=20200121141511"],
+                    "animations": ["https://media4.giphy.com/media/Q1HXu5h7wXORvDtoJh/giphy.gif"],
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
+                    "type": "Buff"
+                },
+                {
+                    "id": 164120010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Advanced_Ritual_Fan_Mastery.png/revision/latest?cb=20200209073626", "https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Ritual_Fan_Mastery.png/revision/latest?cb=20191120084413"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery and Attack provided",
+                        "Now increases %Final Damage"
+                    ]
+                },
+                {
+                    "id": 164120011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Enlightenment.png/revision/latest?cb=20200125205000", "https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Attainment.png/revision/latest?cb=20191122140629"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %p Damage increased provided",
+                        "Now increases %Damage"
+                    ]
+                },
+                {
+                    "id": 164120012,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Dragon%27s_Eye.png/revision/latest?cb=20200121135758"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 164120031,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Empowered_Harmony.png/revision/latest?cb=20200209184814"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741' alt='Skill Humanity As-You-Will Fan'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142' alt='Skill Earth Ground-Shattering Wave'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733' alt='Skill Heaven Iron Fan Gale'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Earth_Stone_Tremor.png/revision/latest?cb=20191120095621' alt='Skill Earth Stone Tremor'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Heaven_Consuming_Flames.png/revision/latest?cb=20191122144051' alt='Skill Heaven Consuming Flames'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Humanity_Gold-Banded_Cudgel.png/revision/latest?cb=20200209075730' alt='Skill Humanity Gold-Banded Cudgel'>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 164120032,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Piercing_Harmony.png/revision/latest?cb=20200209184816"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741' alt='Skill Humanity As-You-Will Fan'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142' alt='Skill Earth Ground-Shattering Wave'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733' alt='Skill Heaven Iron Fan Gale'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Earth_Stone_Tremor.png/revision/latest?cb=20191120095621' alt='Skill Earth Stone Tremor'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Heaven_Consuming_Flames.png/revision/latest?cb=20191122144051' alt='Skill Heaven Consuming Flames'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Humanity_Gold-Banded_Cudgel.png/revision/latest?cb=20200209075730' alt='Skill Humanity Gold-Banded Cudgel'>"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "id": 164120033,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Boss_Rush_Harmony.png/revision/latest?cb=20200209184812"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases the %Boss Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741' alt='Skill Humanity As-You-Will Fan'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Earth_Ground-Shattering_Wave.png/revision/latest?cb=20191120073142' alt='Skill Earth Ground-Shattering Wave'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733' alt='Skill Heaven Iron Fan Gale'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Earth_Stone_Tremor.png/revision/latest?cb=20191120095621' alt='Skill Earth Stone Tremor'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Heaven_Consuming_Flames.png/revision/latest?cb=20191122144051' alt='Skill Heaven Consuming Flames'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Humanity_Gold-Banded_Cudgel.png/revision/latest?cb=20200209075730' alt='Skill Humanity Gold-Banded Cudgel'>"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "id": 164120034,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Empowered_Gourd.png/revision/latest?cb=20200209184813"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 164120035,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Guardbreaking_Clones.png/revision/latest?cb=20200209184815"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 164120036,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Hasty_Ghost_Flame.png/revision/latest?cb=20200209184815"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 164120037,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Empowered_Degeneration.png/revision/latest?cb=20200209184813"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 164120038,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Butterfly_Rush.png/revision/latest?cb=20200209184813"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 164120039,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Hasty_Vortex.png/revision/latest?cb=20200209184815"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 164121041,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Sage_Tai_Yu%27s_Miracle_Tonic.png/revision/latest?cb=20200209184817"],
+                    "animations": ["https://media4.giphy.com/media/qUePM3hnX8Q158QTD4/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases %Final Damage and periodically generates Talisman Energy and Scroll Energy",
+                    "reqLev": 140
+                },
+                {
+                    "id": 164121042,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Sage_Dream_of_Shangri-La.png/revision/latest?cb=20200209184817"],
+                    "animations": ["https://media0.giphy.com/media/ZxnnLcM4VnwBZcz0JK/giphy.gif"],
+                    "type": "Key-down Active",
+                    "desc": "While held, you are invincible",
+                    "details": [
+                        "Depending on how long the skill was held, the cooldown will be shorter",
+                        "Holding the skill for the full duration will result in the full cooldown"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 164121043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Sage_Tai_Yu_Clone.png/revision/latest?cb=20200209184817"],
+                    "animations": ["https://media0.giphy.com/media/ZQyM72z1D74Lor7dMQ/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Binds the highest Max HP within range",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["grandisGoddessBlessingHY", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Sage: Clone Rampage",
+                    "shortDesc": "MP Cost: 1000, For 30 sec, create 12 clone(s) when attacking, Each clone attacks for 800%p more damage than Talisman: Clone 2 times\\nClone creation has a 1.5 sec cooldown\\nCooldown: 200 sec",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Sage_Clone_Rampage.png/revision/latest?cb=20200209184816"],
+                    "animations": ["https://media1.giphy.com/media/Ey543LglFZoALsYdv8/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Can only be used while <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Talisman_Clone.png/revision/latest?cb=20191120081044' alt='Skill Talisman Clone'> is active. While <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Sage_Clone_Rampage.png/revision/latest?cb=20200209184816' alt='Skill Sage Clone Rampage'> is active, the number of clones created is increased and are more powerful"
+                },
+                {
+                    "name": "Scroll: Tiger of Songyu",
+                    "shortDesc": "Scroll Energy Cost: 900, Duration: 57 sec, Max Enemies Hit: 12, Damage: 1800%, Number of Attacks: 8\\nWhen you reach attribute combo stage 3, its next attack is a roar that periodically deals 700% damage 4 times.\\nTiger's attacks have a cooldown of 3 sec\\nCooldown: 200 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Scroll_Tiger_of_Songyu.png/revision/latest?cb=20200209184922"],
+                    "animations": ["https://media2.giphy.com/media/W39BGDj6NNCyc2QraB/giphy.gif"],
+                    "type": "Scroll Summon",
+                    "desc": "Summons a tiger that attacks nearby enemies",
+                    "details": [
+                        "Each time you use all 3 of the Basic Skill attributes for your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Talisman_Energy.png/revision/latest?cb=20191117092937' alt='Skill Talisman Energy'> Talisman Energy, the tiger's next attack will be a mighty roar",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Sage: Wrath of God",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec, Damage: +70%\\nThe gods strike once per 12 successful attacks, hitting up to 10 enemies for 1700% damage 8 times, Cooldown: 1.5 sec\\nUsing the skill again will immediately end its effects and summon the gods at once, creating 6 shockwave(s) that attacks up to 15 enemies for 2000% damage 12 times.\\nYou are invincible while summoning the gods. It negates attack ignore and attack reflection effects.\\nCooldown: 200 sec",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Sage_Wrath_of_Gods.png/revision/latest?cb=20200209184818"],
+                    "animations": ["https://media3.giphy.com/media/va9ESeq0IsDLyZVXZV/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons giant gods that periodically attacks enemies",
+                    "details": [
+                        "When the Skill Key is pressed again, or when the duration ends, the gods will appear unleashing a massive attack<ul><li>You are invincible during this period</li><li>Unaffected by Attack Ignore and Damage Reflect</ul>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Sage: Three Paths Apparition",
+                    "shortDesc": "Passive Effect: clones appears to attack up to 4 enemies with 1250% damage 6 times, cooldown: 5 sec\\nActive Effect: MP Cost: 1250, passvie effect can activate 2 times without cooldown for 30 sec, then cooldown of 2 sec applied afterwards, Cooldown: 100 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/sage-teachings-heaven-earth-human-apparition.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/p2lTnMtyMeq6MHfnnt/giphy.gif"],
+                    "type": "Passive / Buff",
+                    "desc": "Using a Basic Skill will create an additional clone attack that counts towards a different attribute than the one used for your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Talisman_Energy.png/revision/latest?cb=20191117092937' alt='Skill Talisman Energy'> gauge",
+                    "details": [
+                        "<strong>[Active Buff]</strong>: While active, two additional attacks will be created instead of one"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Humanity: As-You-Will Fan - 1st Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Humanity_As-You-Will_Fan.png/revision/latest?cb=20191117094741"],
+                "animations": ["https://media.giphy.com/media/Pn6ELRVGqfRwpwPanb/giphy.gif"]
+            },
+            {
+                "name": "Talisman: Clone - 2nd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Talisman_Clone.png/revision/latest?cb=20191120081044"],
+                "animations": ["https://media.giphy.com/media/Xe9gxgXDOHLecu7Lii/giphy.gif"]
+            },
+            {
+                "name": "Heaven: Iron Fan Gale - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Heaven_Iron_Fan_Gale.png/revision/latest?cb=20191120093733"],
+                "animations": ["https://media.giphy.com/media/dzOPUbXNN5QV8vhHb1/giphy.gif"]
+            },
+            {
+                "name": "Earth: Stone Tremor - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Earth_Stone_Tremor.png/revision/latest?cb=20191120095621"],
+                "animations": ["https://media.giphy.com/media/ZZOFW52hLUrT0xYPzM/giphy.gif"]
+            },
+            {
+                "name": "Humanity: Gold-Banded Cudgel - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Humanity_Gold-Banded_Cudgel.png/revision/latest?cb=20200209075730"],
+                "animations": ["https://media.giphy.com/media/TiadUBD6uxpMQQXGFW/giphy.gif"]
+            },
+            {
+                "name": "Scroll: Butterfly Dream - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Scroll_Butterfly_Dream.png/revision/latest?cb=20200209075543"],
+                "animations": ["https://media.giphy.com/media/kydC9MEaUvF53dDLWw/giphy.gif"]
+            },
+            {
+                "name": "Scroll: Tiger of Songyu - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Scroll_Tiger_of_Songyu.png/revision/latest?cb=20200209184922"],
+                "animations": ["https://media2.giphy.com/media/W39BGDj6NNCyc2QraB/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Hoyoung is LUK thief class part of the Anima class group. Hoyoung has two secondary resources called Talisman Energy and Scroll Energy"
+}

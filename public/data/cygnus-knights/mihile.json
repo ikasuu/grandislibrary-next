@@ -1,0 +1,555 @@
+{
+    "class": "Mihile",
+    "content": {
+        "classGroup": "Cygnus Knights",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat Max HP",
+        "legionValue": "250/500/1000/2000/2500",
+        "equipment": [
+            {"weapon": ["oneHSword"]},
+            {"secondary": ["soulShield"]}
+        ],
+        "classType": [
+            "Parry",
+            "Supportive",
+            "Tanky"
+        ],
+        "innerAbility": ["Boss Damage", "Buff Duration", "%Damage to Debuffed"],
+        "prosCons": {
+            "pros": [
+                "Consistent DPS",
+                "100% Knockback Resistance",
+                "Lots of damage increasing buffs",
+                "Tanky"
+            ],
+            "cons": [
+                "Most attacks are short-ranged, except for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> Royal Guard which has a gigantic hitbox",
+                "<img class='lzyPlcHld lzyTrns lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard' width='32' height='32' data-image-key='Skill_Royal_Guard.png' data-image-name='Skill Royal Guard.png' data-src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' /> Royal Guard may be difficult to get a hang of"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, Link Skills, and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +20%",
+                "<strong>DEF</strong>: +100%",
+                "<strong>Crit Rate</strong>: +20% + (20% when attacking enemies with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Righteous_Indignation.png/revision/latest?cb=20120319204601' alt='Skill Righteous Indignation'> Abnormal Statuses)",
+                "<strong>Crit Damage</strong>: +8% + (8% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Roiling_Soul.png/revision/latest?cb=20170511005734' alt='Skill Roiling Soul'> Rolling Soul is active)",
+                "<strong>Damage</strong>: +60% + (up to 30% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Soul_Link.png/revision/latest?cb=20150704201041' alt='Skill Soul Link'> Soul Link is active)",
+                "<strong>Knockback Resistance</strong>: +100%",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
+                "<strong>Ignore DEF</strong>: +40%",
+                "<strong>Abnormal Status Resistance</strong>: 60"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Sword_Booster.png/revision/latest?cb=20110502045809' alt='Skill Sword Booster'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Rally.png/revision/latest?cb=20110502045826' alt='Skill Rally'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Enduring_Spirit.png/revision/latest?cb=20120319202836' alt='Skill Enduring Spirit'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Soul_Link.png/revision/latest?cb=20150704201041' alt='Skill Soul Link'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Roiling_Soul.png/revision/latest?cb=20170511005734' alt='Skill Roiling Soul'> (Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Phalanx_Charge.png/revision/latest?cb=20170623004415' alt='Skill Phalanx Charge'>(30s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Sacred_Cube.png/revision/latest?cb=20120918155822' alt='Skill Sacred Cube'>(210s cd), (120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Shield_of_Light.png/revision/latest?cb=20161125062715' alt='Skill Shield of Light'>(300s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Radiant_Soul.png/revision/latest?cb=20181115065338' alt='Skill Radiant Soul'>(180s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/light-of-courage.png?w=600' alt='Skill Light of Courage'/>(90s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Empress_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065036' alt='Skill Empress Cygnus's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Blitz_Shield.png/revision/latest?cb=20170629201925' alt='Skill Blitz Shield'>(15s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742' alt='Skill Weapon Aura'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329' alt='Skill Impenetrable Skin'>(240s cd)",
+            "iFrame": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard' width='32' height='32'/>"
+        },
+        "linkSkill": {
+                "id": 80001140,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705"],
+                "type": "Buff"
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/MqCeY3W.png", [499,374]],
+            "npc": [
+                ["", ""]
+            ],
+            "info": [
+                "To create one, choose the 'Mihile' option in the Character Creation screen. Mihile's have their own separate creation button. As well, they have a different story than regular Cygnus Knights but are part of the same class group"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Weightless_Heart.png/revision/latest?cb=20120319162917' alt='Skill Weightless Heart'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_HP_Boost.png/revision/latest?cb=20100722124608' alt='Skill HP Boost'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Soul_Devotion.png/revision/latest?cb=20120319163053' alt='Skill Soul Devotion'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Soul_Shield.png/revision/latest?cb=20120319162409' alt='Skill Soul Shield'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Soul_Blade.png/revision/latest?cb=20110502045833' alt='Skill Soul Blade'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436' alt='Skill Weapon Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Sword_Booster.png/revision/latest?cb=20110502045809' alt='Skill Sword Booster'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Rally.png/revision/latest?cb=20110502045826' alt='Skill Rally'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Soul_Driver.png/revision/latest?cb=20110502054804' alt='Skill Soul Driver'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Radiant_Driver.png/revision/latest?cb=20120319172022' alt='Skill Radiant Driver'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Radiant_Charge.png/revision/latest?cb=20160627053923' alt='Skill Radiant Charge'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Enduring_Spirit.png/revision/latest?cb=20120319202836' alt='Skill Enduring Spirit'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Self_Recovery_%28Mihile%29.png/revision/latest?cb=20110502054755' alt='Skill Self Recovery (Mihile)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Intense_Focus.png/revision/latest?cb=20120319204447' alt='Skill Intense Focus'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Righteous_Indignation.png/revision/latest?cb=20120319204601' alt='Skill Righteous Indignation'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Magic_Crash_%28Mihile%29.png/revision/latest?cb=20110421103319' alt='Skill Magic Crash (Mihile)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Soul_Link.png/revision/latest?cb=20150704201041' alt='Skill Soul Link'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Trinity_Attack.png/revision/latest?cb=20120319201325' alt='Skill Trinity Attack'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Combat_Mastery_%28Mihile%29.png/revision/latest?cb=20120320162806' alt='Skill Combat Mastery (Mihile)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Expert_Sword_Mastery_%28Mihile%29.png/revision/latest?cb=20120320160355' alt='Skill Expert Sword Mastery (Mihile)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134' alt='Skill Advanced Final Attack' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Radiant_Cross.png/revision/latest?cb=20150704221701' alt='Skill Radiant Cross' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921' alt='Skill Power Stance (Warrior)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Soul_Asylum.png/revision/latest?cb=20120320160157' alt='Skill Soul Asylum' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Roiling_Soul.png/revision/latest?cb=20170511005734' alt='Skill Roiling Soul' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Four-Point_Assault.png/revision/latest?cb=20120320161831' alt='Skill Four-Point Assault' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Radiant_Cross_-_Reinforce.png/revision/latest?cb=20150705175610' alt='Skill Radiant Cross - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Radiant_Cross_-_Spread.png/revision/latest?cb=20150705175921' alt='Skill Radiant Cross - Spread' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/61/Skill_Radiant_Cross_-_Extra_Strike.png/revision/latest?cb=20150705175113' alt='Skill Radiant Cross - Extra Strike' width='32' height='32'> Radiant Cross - Reinforce, Spread and Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Four-Point_Assault_-_Reinforce.png/revision/latest?cb=20120918155309' alt='Skill Four-Point Assault - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Four-Point_Assault_-_Extra_Strike.png/revision/latest?cb=20120918155451' alt='Skill Four-Point Assault - Extra Strike' width='32' height='32'> Four-Point Assault - Reinforce and Extra Strike</li></ul>"
+        },
+            "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Radiant_Cross.png/revision/latest?cb=20150704221701' alt='Skill Radiant Cross'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Four-Point_Assault.png/revision/latest?cb=20120320161831' alt='Skill Four-Point Assault'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Charging_Light.png/revision/latest?cb=20120918155648' alt='Skill Charging Light'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207' alt='Skill Final Attack'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Soul_Blade.png/revision/latest?cb=20110502045833' alt='Skill Soul Blade'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Soul_Driver.png/revision/latest?cb=20110502054804' alt='Skill Soul Driver'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Radiant_Driver.png/revision/latest?cb=20120319172022' alt='Skill Radiant Driver'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Trinity_Attack.png/revision/latest?cb=20120319201325' alt='Skill Trinity Attack'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Four-Point_Assault.png/revision/latest?cb=20120320161831' alt='Skill Four-Point Assault'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Radiant_Cross.png/revision/latest?cb=20150704221701' alt='Skill Radiant Cross'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Charging_Light.png/revision/latest?cb=20120918155648' alt='Skill Charging Light'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3375/mihile",
+            "https://maplestory.fandom.com/wiki/Mihile/Job"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [
+                {
+                    "id": 10001245,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
+                    "animations": ["https://media4.giphy.com/media/puSVOZMKB7rJYQFoUD/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 50001214,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705"],
+                    "animations": ["https://media2.giphy.com/media/mQms8vjQ6yCRgqGqpU/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Creates a barrier that blocks a fixed number of attacks and also increases %Damage while active",
+                    "details": [
+                        "For %Max HP attacks, reduces the amount of damage taken",
+                        "Can be found in the <img src='https://static.wikia.nocookie.net/maplestory/images/5/54/Skill_Link_Manager.png' alt='Skill Link Manager' width='32'/> Link Manager<ul><li>Skill is only applicable to Mihile, when linked, characters receive a %Knockback Resistance buff instead</li></ul>"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 51000001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Soul_Shield.png/revision/latest?cb=20120319162409"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 51001005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932"],
+                        "animations": ["https://media1.giphy.com/media/lSmanSIA6oFaYCz1LU/giphy.gif"],
+                        "type": "Special Attack",
+                        "desc": "Briefly becomes invincible while parrying the next attack for a set time after use",
+                        "details": [
+                            "Counterattack will create a damaging shockwave that becomes bigger for each successful counterattack (up to 3 stacks)",
+                            "Successful counterattacks will also grant an Attack buff that grows stronger for each successful counterattack (up to 3 stacks)"
+                        ]
+                    },
+                    {
+                        "id": 51001004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Soul_Blade.png/revision/latest?cb=20110502045833"],
+                        "animations": ["https://media2.giphy.com/media/f3GhKdfL2vazvsaL7v/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swings your sword creating a blade projectile that travels forward"
+                    },
+                    {
+                        "id": 51001003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Weightless_Heart.png/revision/latest?cb=20120319162917"],
+                        "animations": ["https://media3.giphy.com/media/fV1IsiNr4YKlhhRDAr/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "id": 51000002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Soul_Devotion.png/revision/latest?cb=20120319163053"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 51000000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_HP_Boost.png/revision/latest?cb=20100722124608"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [{
+                        "id": 51100001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 51100002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Final Attack Passive",
+                        "desc": "Grants your attacks a chance to deal an additional hit"
+                    },
+                    {
+                        "id": 51101003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Sword_Booster.png/revision/latest?cb=20110502045809"],
+                        "animations": ["https://media0.giphy.com/media/rOP9cUS0fbtx6GzVSn/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 51101004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Rally.png/revision/latest?cb=20110502045826"],
+                        "animations": ["https://media1.giphy.com/media/5GBy8FcujL97A8hPbV/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 51101005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Soul_Driver.png/revision/latest?cb=20110502054804"],
+                        "animations": ["https://media2.giphy.com/media/jQJcOU5FfMZh6NoxtV/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates multiple swords that rain down on nearby enemies"
+                    },
+                    {
+                        "id": 51101006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Radiant_Driver.png/revision/latest?cb=20120319172022"],
+                        "animations": ["https://media1.giphy.com/media/ZF8Y0aDdIEqlmRIYEF/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing enemies back"
+                    },
+                    {
+                        "id": 51101007,
+                        "icons": ["https://orangemushroom.files.wordpress.com/2020/03/vertical-shining-chase.png?w=600"],
+                        "animations": ["https://media3.giphy.com/media/ubhGxWYruCS2yyTZjF/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Charges upwards while pushing enemies back",
+                        "details": [
+                            "Can also be activated by pressing the Up Arrow Key and <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Radiant_Driver.png/revision/latest?cb=20120319172022' alt='Skill Radiant Driver' width='32' height='32'/> Skill Key together",
+                            "Shares Skill Points (SP) with <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Radiant_Driver.png/revision/latest?cb=20120319172022' alt='Skill Radiant Driver' width='32' height='32'/>"
+                        ]
+                    },
+                    {
+                        "id": 51100000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 51110000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Self_Recovery_%28Mihile%29.png/revision/latest?cb=20110502054755"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 51110001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Intense_Focus.png/revision/latest?cb=20120319204447"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 51110002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Righteous_Indignation.png/revision/latest?cb=20120319204601"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 51110009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Advanced_Royal_Guard.png/revision/latest?cb=20150704200515", "https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks to 5"
+                        ]
+                    },
+                    {
+                        "id": 51111004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Enduring_Spirit.png/revision/latest?cb=20120319202836"],
+                        "animations": ["https://media2.giphy.com/media/E8GcIww04TpI6NV9Wa/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 51111008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Soul_Link.png/revision/latest?cb=20150704201041"],
+                        "animations": ["https://media1.giphy.com/media/Cy4ZvEYH8e1RVum1J5/giphy.gif"],
+                        "type": "Toggle Party Buff",
+                        "desc": "While active, you gain increased %Damage for every party member and you periodically restore some %Max HP",
+                        "details": [
+                            "Additionally, a portion of the damage your party takes is redirected to you<ul><li>Damage can be nullified with <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard' width='32' height='32'/></li></ul>",
+                            "<strong>[Party Members]</strong>: Gain a portion of Attack and Magic Attack provided from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> when Mihile succeeds with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> and a portion of Abnormal Status Resistance and %DEF provided from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Enduring_Spirit.png/revision/latest?cb=20120319202836' alt='Skill Enduring Spirit'>"
+                        ]
+                    },
+                    {
+                        "id": 51111005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Magic_Crash_%28Mihile%29.png/revision/latest?cb=20110421103319"],
+                        "animations": ["https://media1.giphy.com/media/wC0kxtYCAfTA13gTVm/giphy.gif"],
+                        "type": "Active Debuff",
+                        "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs"
+                    },
+                    {
+                        "id": 51111006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Trinity_Attack.png/revision/latest?cb=20120319201325"],
+                        "animations": ["https://media2.giphy.com/media/QYuyk7pZY9sLZ8nRXP/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slashes forward three times dealing damage to multiple enemies in front of you"
+                    },
+                    {
+                        "id": 51110003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Radiant_Charge.png/revision/latest?cb=20160627053923"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 51120003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Soul_Asylum.png/revision/latest?cb=20120320160157"],
+                    "type": "Passive",
+                    "desc": "When <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> is successful, you gain a %Damage Reduction buff against %Max HP attacks",
+                    "details": [
+                        "Additionally, permanently increases %Damage Reduction"
+                    ]
+                },
+                {
+                    "id": 51120001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Expert_Sword_Mastery_%28Mihile%29.png/revision/latest?cb=20120320160355", "https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Rate and %Crit Damage"
+                    ]
+                },
+                {
+                    "id": 51120002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation chance and %Damage",
+                        "Now grants flat Attack"
+                    ]
+                },
+                {
+                    "id": 51121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Four-Point_Assault.png/revision/latest?cb=20120320161831"],
+                    "animations": ["https://media3.giphy.com/media/WsAUPbJVDDRcsDc7TI/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates multiple swords that strike forward and has a chance to debuff enemies",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Blind enemies, decreasing %Accuracy",
+                        "Hits only 2 enemies",
+                        "The last attack is always a guaranteed critical hit"
+                    ]
+                },
+                {
+                    "id": 51121009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Radiant_Cross.png/revision/latest?cb=20150704221701"],
+                    "animations": ["https://media2.giphy.com/media/jQcSlhXa4XbaJ94n3g/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slashes in front of you creating a blast of energy that has a chance to debuff enemies",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Blind enemies, decreasing %Accuracy"
+                    ]
+                },
+                {
+                    "id": 51121006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Roiling_Soul.png/revision/latest?cb=20170511005734"],
+                    "animations": ["https://media4.giphy.com/media/DAS4PfyuK4wBtH9kYJ/giphy.gif"],
+                    "type": "Toggle Buff",
+                    "desc": "While toggled, increases %Final Damage and %Crit Damage but can only hit one enemy"
+                },
+                {
+                    "id": 51120000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Combat_Mastery_%28Mihile%29.png/revision/latest?cb=20120320162806"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 51120004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 51121005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
+                    "animations": ["https://media4.giphy.com/media/ttbYsfm6dsdZ0ZHrzk/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "",
+                    "details": [
+                        "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete the quest 'The Alliance Gathers' at Lv. 120 from Neinheart in Ereve"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 51120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Enduring_Spirit_-_Persist.png/revision/latest?cb=20120918154747"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 51120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Enduring_Spirit_-_Steel_Skin.png/revision/latest?cb=20120918154840"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 51120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Enduring_Spirit_-_Preparation.png/revision/latest?cb=20120918154929"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 51120056,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Radiant_Cross_-_Reinforce.png/revision/latest?cb=20150705175610"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 51120057,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Radiant_Cross_-_Spread.png/revision/latest?cb=20150705175921"],
+                    "animations": ["https://media3.giphy.com/media/suA1ZPLyoXEhK4rAtg/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Leaves a lingering attack that damages enemies",
+                    "details": [
+                        "Also applies debuff",
+                        "To activate, press the Down Arrow Key and <img src='https://orangemushroom.files.wordpress.com/2015/06/shining-cross.png?w=600' alt='Skill Radiant Cross'/> together",
+                        "You can right-click the skill to trigger the additional attack each attack"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "id": 51120058,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/61/Skill_Radiant_Cross_-_Extra_Strike.png/revision/latest?cb=20150705175113"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 51120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Four-Point_Assault_-_Reinforce.png/revision/latest?cb=20120918155309"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 51120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Four-Point_Assault_-_Opportunity.png/revision/latest?cb=20120918155405"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 51120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Four-Point_Assault_-_Extra_Strike.png/revision/latest?cb=20120918155451"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 51121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Sacred_Cube.png/revision/latest?cb=20120918155822"],
+                    "animations": ["https://media3.giphy.com/media/zYYC8Ujhwrza1SjVdE/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "id": 51121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Charging_Light.png/revision/latest?cb=20120918155648"],
+                    "animations": ["https://media3.giphy.com/media/aq0UQNOhZ4cvIMqFfc/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summons a knight to charge forward, damaging enemies",
+                    "details": [
+                        "Grants a %Damage buff for you and your party members when skill is used"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 51121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Skill_Queen_of_Tomorrow.png/revision/latest?cb=20120918155740"],
+                    "animations": ["https://media0.giphy.com/media/XTTzeEHbR0JntpyKpr/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["phalanxCharge", "cygnusBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Shield of Light",
+                    "shortDesc": "MP Cost: 1000, Duration: 40 sec, Damage Reduction (to you and party member inside shield): 86% (including Percentage HP attacks).\\nCannot use movement skills while utilizing shield.The shield has 3 layers, each of which can defend against 16, 16, and 21 attacks, respectively.\\nWhen the shield is gone, your Final Damage: +5% + 1% per defense count for 150 sec.\\nPress the skill key again to manually remove the shield.\\nCooldown: 300 Sec.",
+                    "id": 400041008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Shield_of_Light.png/revision/latest?cb=20161125062715"],
+                    "animations": ["https://media2.giphy.com/media/AhozRbBaAlijRhop6D/giphy.gif"],
+                    "type": "Buff Zone",
+                    "desc": "Creates a shield that blocks a large portion of damage taken by your party members (including %Max HP attacks)",
+                    "details": [
+                        "Up to a fixed amount of attacks can be blocked by the shield before it is destroyed<ul><li>When your shield is gone, you gain a %Final Damage buff based on how many block charges remain</li><li>You can press the Skill Key again to manually remove the shield</li></ul>",
+                        "You cannot use movement skills (like <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Weightless_Heart.png/revision/latest?cb=20120319162917' alt='Skill Weightless Heart'>) while shield is active"
+                    ]
+                },
+                {
+                    "name": "Sword of Light",
+                    "shortDesc": "MP Cost: 800, Max Enemies Hit: 12, Number of Attacks: 7\\nDamage increases according to the number of Royal Guard's Attack Power buff's stack.\\nRoyal Guard's Attack Power buff duration increases 6 sec after use. However, it cannot exceed the max value.\\n[0, 1 Stack] - Damage: 700%, [2 Stacks] - Damage: 820%, [3 Stacks] - Damage: 1010%[4 Stacks] - Damage: 1200%, [5 Stacks] - Damage: 1400%\\nCooldown: 12 sec\\nWhen you attack during a cooldown: [1] attack activated per 5 sec. This attack is activated 5 sec after using the skill and does not increase the Buff Duration of Royal Guard.\\n100% chance to Blind enemies for 10 sec, reducing their Accuracy by 30%, Duration halved against bosses",
+                    "id": 400041028,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Sword_of_Light.png/revision/latest?cb=20170609033219"],
+                    "animations": ["https://media3.giphy.com/media/WA1pchU31igpG85dlu/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates a giant sword above you that shines, damaging and debuffing nearby enemies",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Blinds enemies, reducing %Accuracy<ul><li>Duration is halved for bosses</li></ul>",
+                        "The size and damage of the attack becomes stronger based on how stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> you have",
+                        "Additionally, when you use Sword of Light, the duration of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> buff is increased but cannot exceed the max duration",
+                        "While the Skill is on cooldown, periodically when you attack, you create an additional attack that damages nearby enemies<ul><li>Attack has a chance to blind enemies</li><li>Attack does not increase duration of <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard' width='32' height='32'/></li></ul>"
+                    ]
+                },
+                {
+                    "name": "Radiant Soul",
+                    "shortDesc": "MP Cost: 1200\\nEquip the Radiant Soul for 30 sec for an increase on the following: Attack: +27%, Critical Rate: +100%, Ignore Defense: +100%. Royal Guard defense possible for an additional 0.5 sec.\\nRadiant Soul Slash: MP Cost: 100, Max Enemies Hit: 8, Damage: 1300%, Number of Attacks: 7\\nCooldown: 180 sec",
+                    "id": 400041037,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Radiant_Soul.png/revision/latest?cb=20181115065338"],
+                    "animations": ["https://media4.giphy.com/media/u1q2iUttvNJSpQJ6Vv/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, pressing the Attack Key again performs a slash attack in front of you",
+                    "details": [
+                        "Additionally while active, you gain increased %Attack, %Ignore DEF, 100% Crit Rate and increased activation period of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> by 0.5 secs"
+                    ]
+                },
+                {
+                    "name": "Light of Courage",
+                    "shortDesc": "MP Cost: 1000, Duration: 25 sec, Damage: +22%.\\nIgnites a light that periodically attacks up to 4 surrounding enemies, for 650% damage, 5 time(s). Leaves the Light of Courage debuff on enemies successfully hit, and can be stacked up to 6 time(s). Debuff can only exist on up to 15 enemies at a time.\\nLight of Courage: Activates additional hits that deal 350% damage 2 time(s). Upon ending the skill, a Column of Light appears, attacking 10 time(s) for 750% damage (the number goes up proportionately to the number of Light of Courage stacks).\\nParty Effect: Forms a protective shield that corresponds to 260% of your and each of the party member's max HP. Protective Shield Duration: 10 sec, 7% of maximum reduced every sec.\\nCooldown: 90 sec",
+                    "id": 400041037,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/light-of-courage.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/mg6lUpNVqoTnaK6r5D/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Increases %Damage and periodically damages and debuffs nearby enemies",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Mihile's attacks deal an additional attack to the target<ul><li>Stacks up to 6 times</li><li>At the end of the skill, based on how many stacks are on the damaged target, 'Column of Light' will appear that damages debuffed enemy</li><li>Up to 15 enemies can have the debuff at a time</li></ul>",
+                        "<strong>[Party Effect]</strong>: Creates a slowly decaying damage shield based on their %Max HP",
+                        "Can be cancelled by pressing the Skill Key again<ul><li>Can be cancelled at the same time while using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Four-Point_Assault.png/revision/latest?cb=20120320161831' alt='Skill Four-Point Assault'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Charging_Light.png/revision/latest?cb=20120918155648' alt='Skill Charging Light'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Sword_of_Light.png/revision/latest?cb=20170609033219' alt='Skill Sword of Light'>, or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Radiant_Soul.png/revision/latest?cb=20181115065338' alt='Skill Radiant Soul'> to remove the animation delay</li></ul>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Royal Guard - 1st Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932"],
+                "animations": ["https://media1.giphy.com/media/lSmanSIA6oFaYCz1LU/giphy.gif"]
+            },
+            {
+                "name": "Four-Point Assault - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Four-Point_Assault.png/revision/latest?cb=20120320161831"],
+                "animations": ["https://media3.giphy.com/media/WsAUPbJVDDRcsDc7TI/giphy.gif"]
+            },
+            {
+                "name": "Radiant Cross - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Radiant_Cross.png/revision/latest?cb=20150704221701"],
+                "animations": ["https://media2.giphy.com/media/jQcSlhXa4XbaJ94n3g/giphy.gif"]
+            },
+            {
+                "name": "Charging Light - Hyper Skills",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Charging_Light.png/revision/latest?cb=20120918155648"],
+                "animations": ["https://media3.giphy.com/media/aq0UQNOhZ4cvIMqFfc/giphy.gif"]
+            },
+            {
+                "name": "Shield of Light - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Shield_of_Light.png/revision/latest?cb=20161125062715"],
+                "animations": ["https://media2.giphy.com/media/AhozRbBaAlijRhop6D/giphy.gif"]
+            },
+            {
+                "name": "Sword of Light - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Sword_of_Light.png/revision/latest?cb=20170609033219"],
+                "animations": ["https://media3.giphy.com/media/WA1pchU31igpG85dlu/giphy.gif"]
+            },
+            {
+                "name": "Radiant Soul - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Radiant_Soul.png/revision/latest?cb=20181115065338"],
+                "animations": ["https://media4.giphy.com/media/u1q2iUttvNJSpQJ6Vv/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Mihile is a STR warrior class part of the Cygnus Knights. What makes Mihile unique is their special ability to parry enemy attacks to create a powerful damaging shockwave that also grants a powerful attack buff"
+}

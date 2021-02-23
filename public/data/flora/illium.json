@@ -1,0 +1,700 @@
+{
+    "class": "Illium",
+    "content": {
+        "classGroup": "Flora",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["lucentGauntlet"]},
+            {"secondary": ["lucentWings"]}
+        ],
+        "classType": [
+            "Summoner",
+            "Mobile",
+            "Utility"
+        ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Crit Rate"],
+        "prosCons": {
+            "pros": [
+                "Has many summons that fight alongside you",
+                "Mobile class with ability to fly and teleport",
+                "Useful Link Skill that provides a %Damage buff for constantly moving",
+                "Strong mobbing potential",
+                "Can convert ATK into MATK",
+                "Has several iFrames like <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Crystalline_Bulwark.png/revision/latest?cb=20180122180555' alt='Skill Crystalline Bulwark'/> Crystalline Bulwark and <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Longinus_Zone.png/revision/latest?cb=20180122180601' alt='Skill Longinus Zone'/> Longinus Zone"
+            ],
+            "cons": [
+                "Lots of micromanaging to maximize damage",
+                "Constantly will have to reposition your <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal'/> crystal which is a main source of damage",
+                "May be a bit spammy with pressing <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin'/> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb'/> as your main combo",
+                "Can be squishy pre-200"
+                
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Aegis_of_Light.png/revision/latest?cb=20180122080228' alt='Skill Aegis of Light'/> Aegis of Light, and buffs with cooldowns",
+            [
+                "<strong>Max HP/MP</strong>: +30%",
+                "<strong>Magic Attack</strong>: +10%",
+                "<strong>Crit Rate</strong>: +40%",
+                "<strong>Crit Damage</strong>: +30%",
+                "<strong>Damage</strong>: +20% + (up to 12% from <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538' alt='Skill Tide of Battle'> Link Skill) + (20% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232' alt='Skill Umbral Brand'> Umbral Brand debuff)",
+                "<strong>Boss Damage</strong>: +30%",
+                "<strong>Final Damage</strong>: +35%",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Knockback Resistance</strong>: +0%",
+                "<strong>Ignore DEF</strong>: +25%",
+                "<strong>Abnormal Status Resistance</strong>: 30"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Gauntlet_Frenzy.png/revision/latest?cb=20180122080230' alt='Skill Gauntlet Frenzy'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Hero_of_the_Flora_%28Illium%29.png/revision/latest?cb=20180122082849' alt='Skill Hero of the Flora (Illium)'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Ex.png/revision/latest?cb=20171217213719' alt='Skill Ex'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231' alt='Skill Machina'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Crystal_Skill_-_Deus.png/revision/latest?cb=20180122082848' alt='Skill Crystal Skill - Deus'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Templar_Knight.png/revision/latest?cb=20171209214012' alt='Skill Templar Knight'>(180s cd),<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Crystalline_Spirit.png/revision/latest?cb=20181115065213' alt='Skill Crystalline Spirit'>(2.5s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/crystal-gate.png?w=600' alt='Skill Crystal Gate'>(180s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Crystalline_Bulwark.png/revision/latest?cb=20180122180555' alt='Skill Crystalline Bulwark'>(180s cd),<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Divine_Wrath_%28Illium%29.png/revision/latest?cb=20180122180557' alt='Skill Divine Wrath (Illium)'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Conversion_Overdrive.png/revision/latest?cb=20180701142936' alt='Skill Conversion Overdrive'>(200s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033' alt='Skill Grandis Goddess's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Crystalline_Bulwark.png/revision/latest?cb=20180122180555' alt='Skill Crystalline Bulwark'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Longinus_Zone.png/revision/latest?cb=20180122180601' alt='Skill Longinus Zone'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)"
+        },
+        "linkSkill": {
+            "id": 80000268,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538"],
+            "type": "Passive",
+            "desc": "As you move around, you gain a stacking %Damage buff"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Crystalline_Wings.png/revision/latest?cb=20171217213727' alt='Skill Crystalline Wings'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Lucent_Gauntlet_Mastery.png/revision/latest?cb=20171217213737' alt='Skill Lucent Gauntlet Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746' alt='Skill Lucent Brand'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Ex.png/revision/latest?cb=20171217213719' alt='Skill Ex'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Aegis_of_Light.png/revision/latest?cb=20180122080228' alt='Skill Aegis of Light'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232' alt='Skill Umbral Brand'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Gauntlet_Frenzy.png/revision/latest?cb=20180122080230' alt='Skill Gauntlet Frenzy'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Crystal_Skill_-_Vortex_of_Light.png/revision/latest?cb=20180122080229' alt='Skill Crystal Skill - Vortex of Light'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231' alt='Skill Machina'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231' alt='Skill Reaction - Destruction'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Endless_Research.png/revision/latest?cb=20180122081434' alt='Skill Endless Research'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Might_of_the_Flora.png/revision/latest?cb=20180122081435' alt='Skill Might of the Flora'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Tenacity.png/revision/latest?cb=20180122081437' alt='Skill Tenacity'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Lucent_Brand_II.png/revision/latest?cb=20180122081435' alt='Skill Lucent Brand II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Umbral_Brand_II.png/revision/latest?cb=20180122081437' alt='Skill Umbral Brand II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Reaction_-_Destruction_II.png/revision/latest?cb=20180122081436' alt='Skill Reaction - Destruction II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Crystal_Skill_-_Resonance.png/revision/latest?cb=20180122081433' alt='Skill Crystal Skill - Resonance'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434' alt='Skill Crystal Skill - Wings of Glory'>"],
+                ["4th Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Lucent_Brand_III.png/revision/latest?cb=20180122083006' alt='Skill Lucent Brand III'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Umbral_Brand_III.png/revision/latest?cb=20180122082852' alt='Skill Umbral Brand III'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Wisdom_of_the_Crystal.png/revision/latest?cb=20180122082850' alt='Skill Wisdom of the Crystal'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Resonant_Wings.png/revision/latest?cb=20180122082852' alt='Skill Resonant Wings'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851' alt='Skill Radiant Javelin II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Flash_Crystal_Battery.png/revision/latest?cb=20180122082848' alt='Skill Flash Crystal Battery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Hero_of_the_Flora_%28Illium%29.png/revision/latest?cb=20180122082849' alt='Skill Hero of the Flora (Illium)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Crystal_Skill_-_Deus.png/revision/latest?cb=20180122082848' alt='Skill Crystal Skill - Deus'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Vortex_Wings.png/revision/latest?cb=20180122082853' alt='Skill Vortex Wings'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Radiant_Orb_II.png/revision/latest?cb=20180122082851' alt='Skill Radiant Orb II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Floran_Hero%27s_Will_%28Illium%29.png/revision/latest?cb=20180122082849' alt='Skill Floran Hero's Will (Illium)'>"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Javelin_-_Reinforce.png/revision/latest?cb=20180122180559' alt='Skill Javelin - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Javelin_-_Extra_Strike.png/revision/latest?cb=20180122180558' alt='Skill Javelin - Extra Strike' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Javelin_-_Boss_Rush.png/revision/latest?cb=20180122180558' alt='Skill Javelin - Boss Rush' width='32' height='32'> Javelin - Reinforce, Extra Strike and Boss Rush</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Longinus_-_Cooldown_Cutter.png/revision/latest?cb=20180122180559' alt='Skill Longinus - Cooldown Cutter' width='32' height='32'> Longinus Spear - Cooldown Cutter</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Deus_-_Extra_Strike.png/revision/latest?cb=20180122180556' alt='Skill Deus - Extra Strike' width='32' height='32'> Deus - Extra Strike</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851' alt='Skill Radiant Javelin II'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231' alt='Skill Machina'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Reaction_-_Destruction_II.png/revision/latest?cb=20180122081436' alt='Skill Reaction - Destruction II'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Umbral_Brand_III.png/revision/latest?cb=20180122082852' alt='Skill Umbral Brand III'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Crystal_Skill_-_Deus.png/revision/latest?cb=20180122082848' alt='Skill Crystal Skill - Deus'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851' alt='Skill Radiant Javelin II'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Umbral_Brand_III.png/revision/latest?cb=20180122082852' alt='Skill Umbral Brand III'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Reaction_-_Destruction_II.png/revision/latest?cb=20180122081436' alt='Skill Reaction - Destruction II'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231' alt='Skill Machina'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Vortex_Wings.png/revision/latest?cb=20180122082853' alt='Skill Vortex Wings'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Longinus_Zone.png/revision/latest?cb=20180122180601' alt='Skill Longinus Zone'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Crystal_Skill_-_Deus.png/revision/latest?cb=20180122082848' alt='Skill Crystal Skill - Deus'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/27221/illium",
+            "https://maplestory.fandom.com/wiki/Illium",
+            "https://docs.google.com/document/d/1nH12j02tiyUAzxWLtL99iL-_pF1N4hJwvCnn1z9ahpc/edit"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build", "riox"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Crystal Battery",
+            "content": "<p><img class='extra-content-image' src='https://media.giphy.com/media/efV9JUKwE7dxXNmJ0c/giphy.gif' alt='Animated GIF'/><img src='https://i.imgur.com/4ZQ0iOs.png' alt=''/></p><p>In 2nd Job, after completing your storyline, Illium gains access to <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal' width='32' height='32'> an orb that you control and interact with. The orb has a special resource called 'Charges' that <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin' width='32' height='32'> Radiant Javelin, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb' width='32' height='32'> Radiant Orb, and <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear' width='32' height='32'> Longinus Spear generate each time it hits the orb</p><p>Below are the skills that generate Charges:</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin' width='32' height='32'> Radiant Javelin (1st Job) - 1 Charge</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb' width='32' height='32'> Radiant Javelin (1st Job) - 2 Charges</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear' width='32' height='32'> Longinus Spear (4th Job) - 3 Charges</li></ul><p><img class='extra-content-image' src='https://media.giphy.com/media/H1RgKtsYaZkisQcmmi/giphy.gif' alt='Animated GIF'/></p><p>Additionally, there are special skills that can be used once you reach a certain amount of Charges called 'Crystal Skills'. Crystal Skills do not consume Charges, instead they reset every time you hit the max amount of Charges. Crystal Skills can only be used one time until your Charges are reset</p><p>Below are all your Crystal Skills:</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Crystal_Skill_-_Vortex_of_Light.png/revision/latest?cb=20180122080229' alt='Skill Crystal Skill - Vortex of Light' width='32' height='32'> Crystal Skill - Vortex of Light (2nd Job) - 30 Charges</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Crystal_Skill_-_Resonance.png/revision/latest?cb=20180122081433' alt='Skill Crystal Skill - Resonance' width='32' height='32'> Crystal Skill - Resonance (3rd Job) - 60 Charges</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434' alt='Skill Crystal Skill - Wings of Glory' width='32' height='32'> Crystal Skill - Wings of Glory (3rd Job) - 150 Charges</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Crystal_Skill_-_Deus.png/revision/latest?cb=20180122082848' alt='Skill Crystal Skill - Deus' width='32' height='32'> Crystal Skill - Deus (4th Job) - 90 Charges</li></ul><p>Additionally, whenever <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin' width='32' height='32'> Radiant Javelin, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb' width='32' height='32'> Radiant Orb, and <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear' width='32' height='32'> Longinus Spear hits the orb, it triggers a special attack. <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231' alt='Skill Reaction - Destruction.png' width='32' height='32'> Reaction - Destruction triggers when <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin' width='32' height='32'> or <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear' width='32' height='32'> hits the orb and <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Reaction_-_Domination.png/revision/latest?cb=20180122080232' alt='Skill Reaction - Domination' width='32' height='32'> Reaction - Domination triggers when <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb' width='32' height='32'> hits the orb</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 150001016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Shelter_Return.png/revision/latest?cb=20171217081458"],
+                    "animations": ["https://media4.giphy.com/media/49msk5vNCYY2eyVNog/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Teleports to Illium's hideout"
+                },
+                {
+                    "id": 150000079,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Magic_Conversion.png/revision/latest?cb=20180701165859"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 150001005,
+                    "offline": true,
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Exclusive_Spell_%28Illium%29.png/revision/latest?cb=20171217080729"],
+                    "animations": ["https://media1.giphy.com/media/QoWk1BQlvp7LLxIP7Q/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players",
+                        "Has a cooldown (2 hrs)"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 152001001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935"],
+                        "animations": ["https://media.giphy.com/media/Th4ptvatxz2ypCqqsx/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a javelin that bounces between enemies",
+                        "details": [
+                            "This attack can hit the same enemy multiple times",
+                            "Javelins can also bounce off of your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal'> orb",
+                            "Deals increased %Damage to normal monsters"
+                        ]
+                    },
+                    {
+                        "id": 152001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710"],
+                        "animations": ["https://media.giphy.com/media/QTlS7dIrtSEaBDSghG/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires an orb that passes through and damages enemies",
+                        "details": [
+                            "<strong data-preserve-html-node='true'><img class='lzyPlcHld lzyTrns lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin' width='32' height='32' data-preserve-html-node='true' /></strong> briefly deals increased %Damage after using Radiant Orb"
+                        ]
+                    },
+                    {
+                        "id": 152001003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Ex.png/revision/latest?cb=20171217213719"],
+                        "animations": ["https://media.giphy.com/media/QVsM09QPdpPQahNpRv/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a robot that attaches itself to a target and deals continuous build-up damage"
+                    },
+                    {
+                        "id": 152001004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Crystalline_Wings.png/revision/latest?cb=20171217213727"],
+                        "animations": ["https://media.giphy.com/media/Jmy4oJgixL8lBmCya9/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "While in the air, if you hold down the Skill Key, you can fly around"
+                        ]
+                    },
+                    {
+                        "id": 152000006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Lucent_Gauntlet_Mastery.png/revision/latest?cb=20171217213737"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 152000007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746"],
+                        "animations": ["https://media4.giphy.com/media/P1ITMDOgDZvbwc0bWi/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "When <img class='lzyPlcHld lzyTrns lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb' width='32' height='32' data-preserve-html-node='true' data-image-key='Skill_Radiant_Orb.png' data-image-name='Skill Radiant Orb.png' data-src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' /> hits an enemy, you gain a stacking Attack and Magic Attack buff",
+                        "details": [
+                            "Additionally, permanently increases %Max HP/MP, %Damage and grants flat DEF"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 152100010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Crystal_Battery.png/revision/latest?cb=20171217213945"],
+                        "type": "Passive",
+                        "desc": "A special resource for using Crystal Skills that generates when certain attacks hit your orb",
+                        "details": [
+                            "When <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin'> interacts with your orb, you gain 1 Charge",
+                            "When <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb'> interacts with your orb, you gain 2 Charges",
+                            "In 2nd job, the orb can only hold 30 Charges<ul><li>Once your orb reaches max Charges, it will reset back to 0</li><li>Using a Crystal Skill will not consume your Charges instead, you can only use a Crystal Skill once per Charge reset</li>"
+                        ]
+                    },
+                    {
+                        "id": 152101003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230"],
+                        "animations": ["https://media.giphy.com/media/efV9JUKwE7dxXNmJ0c/giphy.gif"],
+                        "type": "Active",
+                        "desc": "When first used, summons an orb (that will not expire)",
+                        "details": [
+                            "You can press the skill again in order to move it in front of you",
+                            "If you press the Down Arrow Key and Skill Key together, the orb will teleport on top of you instead"
+                        ]
+                    },
+                    {
+                        "id": 152100001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231"],
+                        "animations": ["https://media.giphy.com/media/VDMXzcROJgaEwWIVaE/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "When <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin'> hits the orb, a destructive blast is released from the orb",
+                        "details": [
+                            "In 4th Job, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear'> Longinus Spear will also trigger this attack"
+                        ]
+                    },
+                    {
+                        "id": 152100002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Reaction_-_Domination.png/revision/latest?cb=20180122080232"],
+                        "animations": ["https://media.giphy.com/media/Ma1jYbagnXxeXSkF2j/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "When <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb'> hits the orb, a radiant blast is released from the orb",
+                        "details": [
+                            "Shares the same Skill Points (SP) with <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231' alt='Skill Reaction - Destruction'/>"
+                        ]
+                    },
+                    {
+                        "id": 152101006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Crystal_Skill_-_Vortex_of_Light.png/revision/latest?cb=20180122080229"],
+                        "animations": ["https://media.giphy.com/media/Lkr0Y1nJE2zQTrjlM5/giphy.gif"],
+                        "type": "Crystal Attack",
+                        "desc": "Beams of light quickly spin around your orb damaging nearby enemies",
+                        "details": [
+                            "Requires a minimum of 30 Charges to use"
+                        ]
+                    },
+                    {
+                        "id": 152101007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Gauntlet_Frenzy.png/revision/latest?cb=20180122080230"],
+                        "animations": ["https://media0.giphy.com/media/OV1wDNSi6MhYZwAO2g/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 152101008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231"],
+                        "animations": ["https://media.giphy.com/media/jR5uMmQB4Hqfnj44Ha/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a robot that hovers over your <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal' width='32' height='32'/> orb and attacks nearby enemies"
+                    },
+                    {
+                        "id": 152100011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Aegis_of_Light.png/revision/latest?cb=20180122080228"],
+                        "animations": ["https://media1.giphy.com/media/QFoKZty3v15mmciy1O/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Consumes a stack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746' alt='Skill Lucent Brand'> to absorb some damage taken",
+                        "details": [
+                            "When passive activates, you gain 100% Knockback Resistance"
+                        ]
+                    },
+                    {
+                        "id": 152100012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232"],
+                        "animations": ["https://media1.giphy.com/media/1ODeEPsV4WwiuUoFdg/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Enemies hit by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Reaction_-_Domination.png/revision/latest?cb=20180122080232' alt='Skill Reaction - Domination'> will gain a stacking debuff",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy has reduced %DEF and takes increased %Damage from Illium (except from <img rc='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710' alt='Skill Radiant Orb' width='32' height='32'/>)"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "id": 152110008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Crystal_Battery_II.png/revision/latest?cb=20180122081433", "https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Crystal_Battery.png/revision/latest?cb=20171217213945"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max Crystal Charge from 30 to 150"
+                        ]
+                    },
+                    {
+                        "id": 152110001,
+                        "offline": true,
+                        "name": "Reaction - Destruction II",
+                        "shortDesc": "MP Cost: 130, Max Enemies Hit: 9, Damage: 550%, Number of Attacks: 4, Detonations: 2\\nCooldown: 4 sec",
+                        "maxLevel": 20,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Reaction_-_Destruction_II.png/revision/latest?cb=20180122081436", "https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Now activates twice in a row and has increased %Boss Damage"
+                        ]
+                    },
+                    {
+                        "id": 152110002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Reaction_-_Domination_II.png/revision/latest?cb=20180122081436", "https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Reaction_-_Domination.png/revision/latest?cb=20180122080232"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits",
+                            "Shares the same Skill Points (SP) with <img src=https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Reaction_-_Destruction_II.png/revision/latest?cb=20180122081436' alt='Skill Reaction - Destruction II'/>"
+                        ]
+                    },
+                    {
+                        "id": 152111003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434"],
+                        "animations": ["https://media.giphy.com/media/J6Dd8eNulGBGxQ80nD/giphy.gif"],
+                        "type": "Crystal Buff",
+                        "desc": "Allows you to fly and throw special explosive <img src='https://i.imgur.com/KLz6lP6.png' alt='Skill Winged Javelin'/> Winged Javelins",
+                        "details": [
+                            "Requires a minimum of 150 Charges to use",
+                            "While in Wings of Glory, you gain increased %Final Damage, %Boss Damage, and 100% Knockback Resistance",
+                            "Deals increased %Final Damage the fewer enemies hit",
+                            "While active, you can still use <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Crystalline_Wings.png/revision/latest?cb=20171217213727' alt='Skill Crystalline Wings'/> to teleport",
+                            "This skill is not affected by buff duration or buff freezers"
+                        ]
+                    },
+                    {
+                        "id": 152111007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Crystal_Skill_-_Resonance.png/revision/latest?cb=20180122081433"],
+                        "animations": ["https://media.giphy.com/media/H1RgKtsYaZkisQcmmi/giphy.gif"],
+                        "type": "Crystal Active",
+                        "desc": "Creates a tether between you and the orb and inflicts <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232' alt='Skill Umbral Brand'> to enemies it touches",
+                        "details": [
+                            "Requires a minimum of 60 Charges to use",
+                            "This skill also heals some %Max HP and grants <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746' alt='Skill Lucent Brand'> whenever it comes in contact with Illium or a party member",
+                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                        ]
+                    },
+                    {
+                        "id": 152110009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Lucent_Brand_II.png/revision/latest?cb=20180122081435", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks from 3 to 6",
+                            "Additionally, permanently increases %p Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin'/>"
+                        ]
+                    },
+                    {
+                        "id": 152110010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Umbral_Brand_II.png/revision/latest?cb=20180122081437", "https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks from 1 to 3",
+                            "Increases amount of additional bonus %Damage is dealt to inflicted enemies"
+                        ]
+                    },
+                    {
+                        "id": 152110011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Might_of_the_Flora.png/revision/latest?cb=20180122081435"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 152110012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Tenacity.png/revision/latest?cb=20180122081437"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 152110013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Endless_Research.png/revision/latest?cb=20180122081434"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "id": 152120014,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Crystal_Battery_III.png/revision/latest?cb=20180122082847", "https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Crystal_Battery.png/revision/latest?cb=20171217213945"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "When <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850' alt='Skill Longinus Spear'> Longinus Spear hits the orb, grants 3 Charges"
+                    ]
+                },
+                {
+                    "id": 152120001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851", "https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin'> now on-hit, create shards that attack nearby enemies<ul><li>While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434' alt='Skill Crystal Skill - Wings of Glory'>, your <img src='https://i.imgur.com/KLz6lP6.png'> also fires extra projectiles that seek out enemies</li></ul>",
+                        "Additionally increases %Damage of <img src='https://i.imgur.com/KLz6lP6.png'> during <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434' alt='Skill Crystal Skill - Wings of Glory'>"
+                    ]
+                },
+                {
+                    "id": 152120003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Radiant_Orb_II.png/revision/latest?cb=20180122082851", "https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of attack",
+                        "Shares the same Skill Points (SP) with <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851' alt='Skill Radiant Javelin II'/>"
+                    ]
+                },
+                {
+                    "id": 152121004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850"],
+                    "animations": ["https://media.giphy.com/media/VHYIRowDfkkbMZi2y3/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a giant spear in the direction of your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal'> orb",
+                    "details": [
+                        "Will also trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231' alt='Skill Reaction - Destruction'>"
+                    ]
+                },
+                {
+                    "id": 152121005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Crystal_Skill_-_Deus.png/revision/latest?cb=20180122082848"],
+                    "animations": ["https://media.giphy.com/media/J2JVvNTRXiixWVATs0/giphy.gif"],
+                    "type": "Crystal Summon",
+                    "desc": "Combines <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Ex.png/revision/latest?cb=20171217213719' alt='Skill Ex'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231' alt='Skill Machina'> to summon a giant robot that fights alongside you",
+                    "details": [
+                        "Requires a minimum of 90 Charges to summon",
+                        "<strong>[Passive]</strong>: Permanently increases %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Ex.png/revision/latest?cb=20171217213719' alt='Skill Ex'>"
+                    ]
+                },
+                {
+                    "id": 152121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Vortex_Wings.png/revision/latest?cb=20180122082853"],
+                    "animations": ["https://media.giphy.com/media/fST0LkWwyHcNnJGlIZ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates a shockwave that deals heavy damage to nearby enemies",
+                    "details": [
+                        "Can only be used during <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434' alt='Skill Crystal Skill - Wings of Glory'> and only one time"
+                    ]
+                },
+                {
+                    "id": 152120008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Resonant_Wings.png/revision/latest?cb=20180122082852"],
+                    "type": "Passive",
+                    "desc": "While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434' alt='Skill Crystal Skill - Wings of Glory'>, you create projectiles that applies <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232' alt='Skill Umbral Brand'> to nearby enemies and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746' alt='Skill Lucent Brand'> to nearby party members",
+                    "details": [
+                        "Additionally, permanently increases %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Crystal_Skill_-_Vortex_of_Light.png/revision/latest?cb=20180122080229' alt='Skill Crystal Skill - Vortex of Light'>"
+                    ]
+                },
+                {
+                    "id": 152121009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Hero_of_the_Flora_%28Illium%29.png/revision/latest?cb=20180122082849"],
+                    "animations": ["https://media0.giphy.com/media/4YdIGXeYJYG0BVSC0o/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 152121010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Floran_Hero%27s_Will_%28Illium%29.png/revision/latest?cb=20180122082849"],
+                    "animations": ["https://media0.giphy.com/media/qqemDDp2c9kDdHAlbO/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 152121011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Flash_Crystal_Battery.png/revision/latest?cb=20180122082848"],
+                    "animations": ["https://media.giphy.com/media/RIXijm8pagxboTC5ml/giphy.gif"],
+                    "type": "Active",
+                    "desc": "For a short period increases how much Charge you gain from skills"
+                },
+                {
+                    "id": 152120012,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Lucent_Brand_III.png/revision/latest?cb=20180122083006", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max stacks from 6 to 10",
+                        "Additionally, permanently increases %p Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231' alt='Skill Machina'/>"
+                    ]
+                },
+                {
+                    "id": 152120013,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Umbral_Brand_III.png/revision/latest?cb=20180122082852", "https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max stacks from 3 to 5",
+                        "Increases amount of additional bonus %Damage is dealt to inflicted enemies"
+                    ]
+                },
+                {
+                    "id": 152120015,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Wisdom_of_the_Crystal.png/revision/latest?cb=20180122082850", "https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Lucent_Gauntlet_Mastery.png/revision/latest?cb=20171217213737"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now increases Attack Speed (by 1 stage), %Boss Damage, %Ignore DEF, and %Final Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 152120031,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Javelin_-_Reinforce.png/revision/latest?cb=20180122180559"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 152120032,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Javelin_-_Extra_Strike.png/revision/latest?cb=20180122180558"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 152120033,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Javelin_-_Boss_Rush.png/revision/latest?cb=20180122180558"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 152120034,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Longinus_-_Reinforce.png/revision/latest?cb=20180122180600"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 152120035,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Longinus_-_Extra_Strike.png/revision/latest?cb=20180122180600"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 152120036,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Longinus_-_Cooldown_Cutter.png/revision/latest?cb=20180122180559"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 152120037,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Deus_-_Reinforce.png/revision/latest?cb=20180122180557"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 152120038,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Deus_-_Extra_Strike.png/revision/latest?cb=20180122180556"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 152120039,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Deus_-_Boss_Rush.png/revision/latest?cb=20180122180556"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 152121043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Crystalline_Bulwark.png/revision/latest?cb=20180122180555"],
+                    "animations": ["https://media4.giphy.com/media/en9dkbhs7VcF3BN302/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, you and your party members become invulnerable based on how many Lucent Brand stacks you have currently active",
+                    "reqLev": 140
+                },
+                {
+                    "id": 152121041,
+                    "offline": true,
+                    "name": "Longinus Zone",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 12, Damage: 1500%, Number of Attacks: 3, Explosions: 4\\nInvulnerable while casting\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Longinus_Zone.png/revision/latest?cb=20180122180601"],
+                    "animations": ["https://media2.giphy.com/media/dgu111me7u6l1buPRv/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launches several spears in a single area",
+                    "details": [
+                        "You are invincible while casting"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 152121042,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Divine_Wrath_%28Illium%29.png/revision/latest?cb=20180122180557"],
+                    "animations": ["https://media0.giphy.com/media/oBdTwXnzzMI91d3fUF/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["conversionOverdrive", "grandisGoddessBlessingFL", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Crystal Ignition",
+                    "shortDesc": "MP Cost: 30, DoT: 1500%, Number of Attacks: 3, Max Enemies Hit: 15, damage increased by 20% when attacking a boss\\nCooldown: 180 sec",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Crystal_Ignition.png/revision/latest?cb=20171209213945"],
+                    "animations": ["https://media3.giphy.com/media/bGxMXxB38vVUsrKePb/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Fires a beam of light forward",
+                    "details": [
+                        "Deals increased %Damage towards bosses",
+                        "Refreshes stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232' alt='Skill Umbral Brand'> on enemies"
+                    ]
+                },
+                {
+                    "name": "Reaction - Spectral Blast",
+                    "shortDesc": "Max Enemies Hit: 15, Damage: 2000%, Boss Damage: +20%, Number of Attacks: 5\\nCooldown: 1 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Reaction_-_Spectral_Blast.png/revision/latest?cb=20171209214003"],
+                    "type": "Passive Attack",
+                    "desc": "When <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Crystal_Ignition.png/revision/latest?cb=20171209213945' alt='Skill Crystal Ignition'> hits your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal'> orb, it splits and creates three beams of light in front of you",
+                    "details": [
+                        "Shares the same Skill Points (SP) as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Crystal_Ignition.png/revision/latest?cb=20171209213945' alt='Skill Crystal Ignition'> and you get both skills at together"
+                    ]
+                },
+                {
+                    "name": "Templar Knight",
+                    "shortDesc": "MP Cost: 200, Duration: 40 sec, Max Enemies Hit: 12, DoT: 2000%, Number of Attacks: 6\\nIf Crystal Charges exceed 3 while preparing attack, Final Damage is multiplied by 2.\\nCooldown: 180 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Templar_Knight.png/revision/latest?cb=20171209214012"],
+                    "animations": ["https://media4.giphy.com/media/w4FsL0hKDCWiVWNbOz/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a giant robot that charges up and periodically releases a projectile forward",
+                    "details": [
+                        "With sufficient Charges, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Templar_Knight.png/revision/latest?cb=20171209214012' alt='Skill Templar Knight'> deals more damage",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Crystalline Spirit",
+                    "shortDesc": "MP Cost: 500, uses 1 crystal shard\\nA crystalline spirit forms near the mytocrystal for 30 sec. Only 75% of Final Damage for the Reaction skill the spirit activates is applied, but if it's the 5th skill, 100% is applied. Not affected by cooldown reset.\\nUsing Wings of Glory will disperse the crystalline spirit. Each spirit dispersed in the remaining time increases damage by 30%.\\nPrepares 1 crystal shard every 20 sec up to 2 shards.\\nCooldown: 2.5 sec\\n[Passive Effect: Magic ATT: +55]",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Crystalline_Spirit.png/revision/latest?cb=20181115065213"],
+                    "animations": ["https://media4.giphy.com/media/SJub9yDV6hJgYtw2G3/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons an additional orb <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal'>",
+                    "details": [
+                        "Costs 1 crystal shard to summon, which are gained every 20 secs (up to 2 at a time)",
+                        "This crystal acts exactly the same as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230' alt='Skill Deploy Crystal'> and can activate Reaction skills<ul><li>Deals less damage unless it's <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Crystal_Ignition.png/revision/latest?cb=20171209213945' alt='Skill Crystal Ignition'></li></ul>",
+                        "Using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434' alt='Skill Crystal Skill - Wings of Glory'> will consume all shards and any active <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Crystalline_Spirit.png/revision/latest?cb=20181115065213' alt='Skill Crystalline Spirit'> but increases your %Damage based on how many <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Crystalline_Spirit.png/revision/latest?cb=20181115065213' alt='Skill Crystalline Spirit'> consumed"
+                    ]
+                },
+                {
+                    "name": "Crystal Gate",
+                    "shortDesc": "MP Cost: 500, Duration: 155 sec, Max Crystal Gates: 3, activates after setting up at least 2. The setup time and the Crystal Gate duration are the same.\\nAfter using it once, all Crystal Gates cannot be used for 2 sec and Crystal Gates you actually used cannot be used for 5 sec.\\nPeriodically obtain Magic ATT +55 buff for 25 sec around the Crystal Gate.\\nDirect skill attacks that hit during the buff will bombard 5 times through the Crystal Gate up to 3 enemies with 900% damage. Cooldown: 1.5 sec\\nCooldown: 180 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/crystal-gate.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/V1hfgksEMmMPLq9Bz1/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Places down a portal that allows you to travel back and forth from both",
+                    "details": [
+                        "To use the portal, press the Up Arrow Key on the portal<ul><li>Has a cooldown (2 secs) between teleports and the portal used also has a cooldown (5 secs)</li></ul>",
+                        "While near the portal, you gain a Magic Attack buff and your attacks create explosions that damage nearby enemies",
+                        "Using a portal can activate <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538' alt='Skill Tide of Battle' width='32' height='32'>"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Radiant Javelin - 1st Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935"],
+                "animations": ["https://media.giphy.com/media/Th4ptvatxz2ypCqqsx/giphy.gif"]
+            },
+            {
+                "name": "Reaction - Destruction - 2nd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231"],
+                "animations": ["https://media.giphy.com/media/VDMXzcROJgaEwWIVaE/giphy.gif"]
+            },
+            {
+                "name": "Reaction - Domination - 2nd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Reaction_-_Domination.png/revision/latest?cb=20180122080232"],
+                "animations": ["https://media.giphy.com/media/Ma1jYbagnXxeXSkF2j/giphy.gif"]
+            },
+            {
+                "name": "Crystal Skill - Wings of Glory - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434"],
+                "animations": ["https://media.giphy.com/media/J6Dd8eNulGBGxQ80nD/giphy.gif"]
+            },
+            {
+                "name": "Longinus Spear - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850"],
+                "animations": ["https://media.giphy.com/media/VHYIRowDfkkbMZi2y3/giphy.gif"]
+            },
+            {
+                "name": "Crystal Skill - Deus - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Crystal_Skill_-_Deus.png/revision/latest?cb=20180122082848"],
+                "animations": ["https://media.giphy.com/media/J2JVvNTRXiixWVATs0/giphy.gif"]
+            },
+            {
+                "name": "Crystal Ignition - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Crystal_Ignition.png/revision/latest?cb=20171209213945"],
+                "animations": ["https://media3.giphy.com/media/bGxMXxB38vVUsrKePb/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Illium is primary stat is INT and uses a new weapon called Magic Gauntlet and secondary weapons Lucent Wings. Illium revolves around the controlling a magical orb. You can move the orb around and attack with that orb which requires charging the orb and interacting with it"
+}

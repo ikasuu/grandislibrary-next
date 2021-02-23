@@ -1,0 +1,559 @@
+{
+    "class": "Angelic Buster",
+    "content": {
+        "classGroup": "Nova",
+        "jobGroup": "Pirate",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Grants flat DEX",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["soulShooter"]},
+            {"secondary": ["soulRing"]}
+        ],
+        "classType": [
+            "Simple",
+            "Mobile",
+            "Hard-hitting"
+        ],
+        "innerAbility": ["Attack Speed", "Crit Rate", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Does not consume MP",
+                "Hard-hitting skills (but few damage lines)",
+                "4th Job Mobbing skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Celestial_Roar.png/revision/latest?cb=20120731161811' alt='Skill Celestial Roar'> Celestial Roar has a large hitbox",
+                "Good link skill for burst type skills",
+                "Has a grappling skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Grappling_Heart.png/revision/latest?cb=20120803112053' alt='Skill Grappling Heart'> Grappling Heart, that pulls you up to platforms above you",
+                "One of the furthest double jumps <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Feather_Hop.png/revision/latest?cb=20120731153250' alt='Skill Feather Hop'> Feather Hop"
+            ],
+            "cons": [
+                "Gender-locked (Female)",
+                "4th Job bossing skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817' alt='Skill Trinity'> Trinity leaves you stationary",
+                "Relies on Attack Speed (such as inner ability +1 Attack Speed)"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Crit Rate</strong>: +30%",
+                "<strong>Crit Damage</strong>: +53%",
+                "<strong>Damage</strong>: +20%",
+                "<strong>Final Damage</strong>: +10%",
+                "<strong>Attakc Speed (Weapon)</strong>: 4",
+                "<strong>Knockback Resistance</strong>: +80%",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +(50% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Power_Transfer.png/revision/latest?cb=20120731154757' alt='Skill Power Transfer'/> Power Transfer shield is active)",
+                "<strong>Ignore DEF</strong>: +15%",
+                "<strong>Abnormal Status Resistance</strong>: 40"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Melody_Cross.png/revision/latest?cb=20120731153256' alt='Skill Melody Cross'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Power_Transfer.png/revision/latest?cb=20120731154757' alt='Skill Power Transfer'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Iron_Blossom.png/revision/latest?cb=20120731160132' alt='Skill Iron Blossom'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Star_Gazer.png/revision/latest?cb=20120731161847' alt='Skill Star Gazer'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Nova_Warrior_%28Angelic_Buster%29.png/revision/latest?cb=20150610051435' alt='Skill Nova Warrior (Angelic Buster)'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Soul_Seeker_Expert.png/revision/latest?cb=20160529032336' alt='Skill Soul Seeker Expert'>(Toggle)",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Supreme_Supernova.png/revision/latest?cb=20120819033950' alt='Skill Supreme Supernova'>(60s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Sparkle_Burst.png/revision/latest?cb=20161125062715' alt='Skill Sparkle Burst'>(100s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Superstar_Spotlight.png/revision/latest?cb=20170609033219' alt='Skill Superstar Spotlight'>(198 - 150s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Mighty_Mascot.png/revision/latest?cb=20181115065337' alt='Skill Mighty Mascot'>(120s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Terms_and_Conditions.png/revision/latest?cb=20120803105421' alt='Skill Terms and Conditions'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Pretty_Exaltation.png/revision/latest?cb=20120819034017' alt='Skill Pretty Exaltation'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Final_Contract.png/revision/latest?cb=20121015213134' alt='Skill Final Contract'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033' alt='Skill Grandis Goddess's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741' alt='Skill Loaded Dice'>(180s cd <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813' alt='Skill Overdrive'>(70 - 64s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202' alt='Skill Might of the Nova'>(1200s cd blocks 1 death), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Sparkle_Burst.png/revision/latest?cb=20161125062715' alt='Skill Sparkle Burst'>(120s cd)"
+        },
+        "linkSkill": {
+            "id": 80001155,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Terms_and_Conditions.png/revision/latest?cb=20120803105421"],
+            "type": "Buff"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Feather_Hop.png/revision/latest?cb=20120731153250' alt='Skill Feather Hop'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Melody_Cross.png/revision/latest?cb=20120731153256' alt='Skill Melody Cross'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Affinity_Heart_I.png/revision/latest?cb=20120731153305' alt='Skill Affinity Heart I'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Star_Bubble.png/revision/latest?cb=20120731153243' alt='Skill Star Bubble'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Beautiful_Soul.png/revision/latest?cb=20120731154818' alt='Skill Beautiful Soul'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Soul_Shooter_Mastery.png/revision/latest?cb=20120803102758' alt='Skill Soul Shooter Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Affinity_Heart_II.png/revision/latest?cb=20120731154822' alt='Skill Affinity Heart II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Power_Transfer.png/revision/latest?cb=20120731154757' alt='Skill Power Transfer'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Lovely_Sting.png/revision/latest?cb=20120803102816' alt='Skill Lovely Sting'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Pink_Pummel.png/revision/latest?cb=20150605180008' alt='Skill Pink Pummel'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Love_Me_Heart.png/revision/latest?cb=20120731160135' alt='Skill Love Me Heart'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Affinity_Heart_III.png/revision/latest?cb=20120731160146' alt='Skill Affinity Heart III'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Dragon_Whistle.png/revision/latest?cb=20160627053639' alt='Skill Dragon Whistle'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Iron_Blossom.png/revision/latest?cb=20120731160132' alt='Skill Iron Blossom'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Heavenly_Crash.png/revision/latest?cb=20160529034915' alt='Skill Heavenly Crash'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Shining_Star_Burst.png/revision/latest?cb=20120807130511' alt='Skill Shining Star Burst'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106' alt='Skill Soul Seeker'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Soul_Seeker_Expert.png/revision/latest?cb=20160529032336' alt='Skill Soul Seeker Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Affinity_Heart_IV.png/revision/latest?cb=20120731161904' alt='Skill Affinity Heart IV' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Soul_Shooter_Expert.png/revision/latest?cb=20120803103446' alt='Skill Soul Shooter Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Celestial_Roar.png/revision/latest?cb=20120731161811' alt='Skill Celestial Roar' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Nova_Warrior_%28Angelic_Buster%29.png/revision/latest?cb=20150610051435' alt='Skill Nova Warrior (Angelic Buster)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Star_Gazer.png/revision/latest?cb=20120731161847' alt='Skill Star Gazer' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817' alt='Skill Trinity' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Soul_Resonance.png/revision/latest?cb=20120731161843' alt='Skill Soul Resonance' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Finale_Ribbon.png/revision/latest?cb=20120807130557' alt='Skill Finale Ribbon' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230' alt='Skill Nova Temperance' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Soul_Seeker_-_Make_Up.png/revision/latest?cb=20120819033811' alt='Skill Soul Seeker - Make Up' width='32' height='32'> Soul Seeker – Make Up</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Soul_Seeker_-_Reinforce.png/revision/latest?cb=20120819033822' alt='Skill Soul Seeker - Reinforce' width='32' height='32'> Soul Seeker – Reinforce OR <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Piercing_Soul_Seeker.png/revision/latest?cb=20160529065015' alt='Skill Piercing Soul Seeker' width='32' height='32'> Piercing Soul Seeker</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Finale_Ribbon_-_Cooldown_Cutter.png/revision/latest?cb=20120819033900' alt='Skill Finale Ribbon - Cooldown Cutter' width='32' height='32'> Finale Ribbon – Cooldown Cutter</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Trinity-Extra_Strike.png/revision/latest?cb=20140121020315' alt='Skill Trinity-Extra Strike' width='32' height='32'> Trinity – Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Trinity-Reinforce.png/revision/latest?cb=20140121015938' alt='Skill Trinity-Reinforce' width='32' height='32'> Trinity – Reinforce OR <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Piercing_Trinity.png/revision/latest?cb=20160529070038' alt='Skill Piercing Trinity' width='32' height='32'> Piercing Trinity<ul><li>Go for extra %Ignore DEF if you need more (min. 90% IED)</li></ul></li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106' alt='Skill Soul Seeker'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817' alt='Skill Trinity'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Supreme_Supernova.png/revision/latest?cb=20120819033950' alt='Skill Supreme Supernova'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Celestial_Roar.png/revision/latest?cb=20120731161811' alt='Skill Celestial Roar'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Soul_Resonance.png/revision/latest?cb=20120731161843' alt='Skill Soul Resonance'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Finale_Ribbon.png/revision/latest?cb=20120807130557' alt='Skill Finale Ribbon'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Soul_Buster.png/revision/latest?cb=20120803112045' alt='Skill Soul Buster'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Star_Bubble.png/revision/latest?cb=20120731153243' alt='Skill Star Bubble'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Lovely_Sting.png/revision/latest?cb=20120803102816' alt='Skill Lovely Sting'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Pink_Pummel.png/revision/latest?cb=20150605180008' alt='Skill Pink Pummel'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106' alt='Skill Soul Seeker'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Shining_Star_Burst.png/revision/latest?cb=20120807130511' alt='Skill Shining Star Burst'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Heavenly_Crash.png/revision/latest?cb=20160529034915' alt='Skill Heavenly Crash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Celestial_Roar.png/revision/latest?cb=20120731161811' alt='Skill Celestial Roar'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817' alt='Skill Trinity'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Finale_Ribbon.png/revision/latest?cb=20120807130557' alt='Skill Finale Ribbon'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Soul_Resonance.png/revision/latest?cb=20120731161843' alt='Skill Soul Resonance'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Supreme_Supernova.png/revision/latest?cb=20120819033950' alt='Skill Supreme Supernova'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3390/angelic-buster",
+            "https://maplestory.fandom.com/wiki/Angelic_Buster"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build", "Stupid_Otaku"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Soul Battery Recharge",
+            "content": "<p><img class='extra-content-image' src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Soul_Recharge.png/revision/latest?cb=20130110025011' alt='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Soul_Recharge.png/revision/latest?cb=20130110025011'/></p><p>Angelic Busters skills do not use any MP and does not have a MP resource. Angelic Buster instead has a special resource called Soul Battery that some skills require you to charge to use. Your Soul Battery can be recharged by attacking enemies</p><p>As you level up and gain new skills, you upgrade a skill called <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Affinity_Heart_I.png/revision/latest?cb=20120731153305' alt='Skill Affinity Heart I' width='32' height='32' /> Affinity Heart. As you upgrade this skill, the chance for your battery to recharge will be higher until eventually you won't need to worry about it at all</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 60011216,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Soul_Buster.png/revision/latest?cb=20120803112045"],
+                    "animations": ["https://i.imgur.com/1npEdq5.png"],
+                    "type": "Basic Attack Modifier",
+                    "desc": "Holding your Attack Key will fire homing bullets",
+                    "details": [
+                        "Can move while attacking"
+                    ]
+                },
+                {
+                    "id": 60010217,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_True_Heart_Inheritance.png/revision/latest?cb=20120803112050"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 60011218,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Grappling_Heart.png/revision/latest?cb=20120803112053"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "Pressing the Jump Key while launching up will cancel the grapple early"
+                    ]
+                },
+                {
+                    "id": 60011220,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Day_Dreamer.png/revision/latest?cb=20120807132355"],
+                    "animations": ["https://media4.giphy.com/media/tUjzmJHEaVjS4xi3GS/giphy.gif"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "Once teleported, exiting the map will move you to Pantheon"
+                    ]
+                },
+                {
+                    "id": 60011222,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Dress-Up.png/revision/latest?cb=20120803112112"],
+                    "animations": ["https://media2.giphy.com/media/ZMtHIKR4lXVBFmUqki/giphy.gif"],
+                    "type": "Active Transform",
+                    "desc": "Switches between your normal form and transformed form",
+                    "details": [
+                        "Using attacks will automatically transform you"
+                    ]
+                },
+                {
+                    "id": 60011005,
+                    "offline": true,
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Exclusive_Spell_%28Nova%29.png/revision/latest?cb=20171217080447"],
+                    "animations": ["https://media2.giphy.com/media/R0UHlI4FfAdRSmzRtL/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players",
+                        "Has a cooldown (2 hrs)"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 65001100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Star_Bubble.png/revision/latest?cb=20120731153243"],
+                        "animations": ["https://media3.giphy.com/media/rh9X5hvz0W8fzQoPHe/giphy.gif"],
+                        "type": "Soul Battery Attack",
+                        "desc": "Fires an explosive bubble forward"
+                    },
+                    {
+                        "id": 65001001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Feather_Hop.png/revision/latest?cb=20120731153250"],
+                        "animations": ["https://media3.giphy.com/media/VfKpaxOzCWA4SQJ5GE/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "id": 65001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Melody_Cross.png/revision/latest?cb=20120731153256"],
+                        "animations": ["https://media4.giphy.com/media/cXv8JOwUkA8UScoLCY/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 1 stage)",
+                        "details": [
+                            "<strong>[Passive]</strong>: Grants flat Max HP"
+                        ]
+                    },
+                    {
+                        "id": 65000003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Affinity_Heart_I.png/revision/latest?cb=20120731153305"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 65101100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Lovely_Sting.png/revision/latest?cb=20120803102816"],
+                        "animations": ["https://media3.giphy.com/media/4VGLp0jYbgZoi3zyeu/giphy.gif"],
+                        "type": "Soul Battery Attack",
+                        "desc": "Fires a piercing beam that inflicts a debuff",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Pressing this skill again detonates the debuff and damages the enemy"
+                        ]
+                    },
+                    {
+                        "id": 65101001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Pink_Pummel.png/revision/latest?cb=20150605180008"],
+                        "animations": ["https://media1.giphy.com/media/tY3GBd2akIkcvIag6U/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing back enemies"
+                    },
+                    {
+                        "id": 65101002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Power_Transfer.png/revision/latest?cb=20120731154757"],
+                        "animations": ["https://media4.giphy.com/media/aqslRNd7mdBJFqNV83/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 65100003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Soul_Shooter_Mastery.png/revision/latest?cb=20120803102758"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 65100004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Beautiful_Soul.png/revision/latest?cb=20120731154818"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 65100005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Affinity_Heart_II.png/revision/latest?cb=20120731154822"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 65111100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106"],
+                        "animations": ["https://media1.giphy.com/media/XRRMgf25Hvcz9Iubqk/giphy.gif"],
+                        "type": "Soul Battery Attack",
+                        "desc": "Throws out orbs that seek out and attack nearby enemies",
+                        "details": [
+                            "After hitting an enemy, there is a chance to create another Soul Seeker at its location",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "id": 65111101,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Shining_Star_Burst.png/revision/latest?cb=20120807130511"],
+                        "animations": ["https://media4.giphy.com/media/QvDf9OYxyufrkS9YUs/giphy.gif"],
+                        "type": "Soul Battery Attack",
+                        "desc": "Blades strike down from above onto enemies in front of you",
+                        "details": [
+                            "Enemies launched by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Heavenly_Crash.png/revision/latest?cb=20160529034915' alt='Skill Heavenly Crash'> Heavenly Crash will take extra damage"
+                        ]
+                    },
+                    {
+                        "id": 65111002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Heavenly_Crash.png/revision/latest?cb=20160529034915"],
+                        "animations": ["https://media0.giphy.com/media/RrC8r9rmRCIUE5tfVo/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Smashes a hammer creating a shockwave that launches enemies into the air"
+                    },
+                    {
+                        "id": 65111004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Iron_Blossom.png/revision/latest?cb=20120731160132"],
+                        "animations": ["https://media1.giphy.com/media/9sc2Cs9kdYZViBxUCf/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 65110003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Dragon_Whistle.png/revision/latest?cb=20160627053639"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 65110005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Love_Me_Heart.png/revision/latest?cb=20120731160135"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 65110006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Affinity_Heart_III.png/revision/latest?cb=20120731160146"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 65121100,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Celestial_Roar.png/revision/latest?cb=20120731161811"],
+                    "animations": ["https://media2.giphy.com/media/TA8na3YA0lTG33IcMn/giphy.gif"],
+                    "type": "Soul Battery Attack",
+                    "desc": "Creates a shockwave in front of you that has a chance to stun enemies"
+                },
+                {
+                    "id": 65121101,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817"],
+                    "animations": ["https://media4.giphy.com/media/l4ENGwe9KOqvmoGjAl/giphy.gif"],
+                    "type": "Soul Battery Attack",
+                    "desc": "Unleashes a powerful attack against one enemy",
+                    "details": [
+                        "Can be used consecutively up to 3 times",
+                        "Upon hitting an enemy with this skill, you gain a stacking %<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817' alt='Skill Trinity'> Trinity Damage and %Ignore DEF buff (up to 3 stacks)",
+                        "<strong>[Passive]</strong>: Permanently increases %Final Damage and %Ignore DEF"
+                    ]
+                },
+                {
+                    "id": 65121002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Finale_Ribbon.png/revision/latest?cb=20120807130557"],
+                    "animations": ["https://media0.giphy.com/media/nGdWGYwyG1oZ8w2k5M/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Swings ribbons that create a gigantic attack while debuffing enemies",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Enemy takes increased %Final Damage from Angelic Buster and increased %Damage for your party members"
+                    ]
+                },
+                {
+                    "id": 65121003,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Soul_Resonance.png/revision/latest?cb=20120731161843"],
+                    "animations": ["https://media0.giphy.com/media/EJUrtg7y2v8034oNUR/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Create a vortex that damages enemies within it",
+                    "details": [
+                        "At the end of the duration, unleash a massive explosion",
+                        "Deals increased damage to bosses",
+                        "You take reduced damage while casting (including %Max HP attacks)"
+                    ]
+                },
+                {
+                    "id": 65121004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Star_Gazer.png/revision/latest?cb=20120731161847"],
+                    "animations": ["https://media0.giphy.com/media/cytoTqZ29R3HY8W5Lq/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "id": 65120005,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Soul_Shooter_Expert.png/revision/latest?cb=20120803103446", "https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Soul_Shooter_Mastery.png/revision/latest?cb=20120803102758"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Rate and %Crit Damage"
+                    ]
+                },
+                {
+                    "id": 65120006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Affinity_Heart_IV.png/revision/latest?cb=20120731161904"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 65121009,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Nova_Warrior_%28Angelic_Buster%29.png/revision/latest?cb=20150610051435"],
+                    "animations": ["https://media1.giphy.com/media/1bfqHJUqM2kiKH2XMb/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 65121010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230"],
+                    "animations": ["https://media1.giphy.com/media/OubCLEOZUNkpBnvTJy/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "id": 65121011,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Soul_Seeker_Expert.png/revision/latest?cb=20160529032336"],
+                    "type": "Toggle Attack",
+                    "desc": "When toggled, whenever you attack, there is a chance to create <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106' alt='Skill Soul Seeker'>",
+                    "details": [
+                        "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Celestial_Roar.png/revision/latest?cb=20120731161811' alt='Skill Celestial Roar'> has an increased chance to create <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106' alt='Skill Soul Seeker'>",
+                        "Deals reduced damage compared to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106' alt='Skill Soul Seeker'>"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 65120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Soul_Seeker_-_Reinforce.png/revision/latest?cb=20120819033822"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 65120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Soul_Seeker_-_Make_Up.png/revision/latest?cb=20120819033811"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 65120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Piercing_Soul_Seeker.png/revision/latest?cb=20160529065015"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 65120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Finale_Ribbon_-_Reinforce.png/revision/latest?cb=20120819033843"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 65120047,
+                    "icons": ["https://i.imgur.com/LF1SU8F.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 65120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Finale_Ribbon_-_Cooldown_Cutter.png/revision/latest?cb=20120819033900"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 65120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Trinity-Reinforce.png/revision/latest?cb=20140121015938"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 65120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Piercing_Trinity.png/revision/latest?cb=20160529070038"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 65120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Trinity-Extra_Strike.png/revision/latest?cb=20140121020315"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 65121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Pretty_Exaltation.png/revision/latest?cb=20120819034017"],
+                    "animations": ["https://media1.giphy.com/media/R0bmwODahkNwbLyJGS/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "id": 65121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Supreme_Supernova.png/revision/latest?cb=20120819033950"],
+                    "animations": ["https://media2.giphy.com/media/DlZlysIBBBJrzyxSzk/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates a giant supernova that damages enemies within it",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 65121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Final_Contract.png/revision/latest?cb=20121015213134"],
+                    "animations": ["https://media0.giphy.com/media/e8epjVU09WGxc8EzB1/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["mightOfTheNova", "grandisGoddessBlessingNV", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Sparkle Burst",
+                    "shortDesc": "Summons an orb that grants 6 sec of invincibility, the orb can last up to 30 sec and explodes used again, Max Enemies Hit: 15, Damage: 1100%, Number of Attacks: 12.\\nAll attack skills except Soul Buster further enhance orb invincibility duration and powers, up to 2 stages, with each stage increasing the Final Damage by 100%, and the invincibility duration by 2 sec.\\nCooldown: 120 sec",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Sparkle_Burst.png/revision/latest?cb=20161125062715"],
+                    "animations": ["https://media4.giphy.com/media/TF3PchDrHWarxQDY6l/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates an orb that grants brief invincibility when activated. At the end of the duration or when the Skill Key is pressed again, the orb will explode damaging nearby enemies",
+                    "details": [
+                        "All attacks except <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Soul_Buster.png/revision/latest?cb=20120803112045' alt='Skill Soul Buster'> will charge the orb, increasing its %Final Damage and the invincibility duration (up to 2 stages)"
+                    ]
+                },
+                {
+                    "name": "Superstar Spotlight",
+                    "shortDesc": "Installs 3 spotlights that shine on you for 30 sec. Each spotlight deals 800% damage 3 times to up to 15 enemies within its area.\\nWhile you are within the spotlight, you gain Status Resistance +25, Critical Rate +15%, Knockback Resistance +20%, and Final Damage +5%.\\nYou receive a separate bonus for each spotlight, up to 3 buffs.\\nCooldown: 120 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Superstar_Spotlight.png/revision/latest?cb=20170609033219"],
+                    "animations": ["https://media0.giphy.com/media/tP3byNppXgJAsnabEI/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "3 Spotlights appear on the screen, shining light at your location. The spotlights will deal damage to enemies inside it and provides a stacking buff if you are in it",
+                    "details": [
+                        "Enemies can take damage from multiple spotlights",
+                        "If you are within the spotlight, you gain %Crit Rate, %Knockback Resistance, %Final Damage and Abnormal Status Resistance<ul><li>Each spotlight will grant the buff (stacking up to 3 times)</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Mighty Mascot",
+                    "shortDesc": "Duration: 35 sec. When successfully recharged, uses Twinkle Star or Magical Balloon. Max Enemies Hit: 6, Damage: 1200%, Number of Attacks: 5. Not used if in the middle of another action.\\nAcquire 1 Magical Bubble if Twinkle Star or Magical Balloon land successfully, and up to 8 can be held at a time.\\nUse the skill once more to cast Shiny Bubble Breath. Duration: 3 sec, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 8.\nAll Magical Bubbles will be consumed upon use of Shiny Bubble Breath. Duration is increased by 0.4 sec for every bubble. Can be used once while summoned. Skill ends only after all Bubbles are used up, even if the summon duration ends beforehand.\\nCooldown: 120 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2018/06/mascot-familiar.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/TOxQcjHUDrdrU3Mu5v/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "When summoned, whenever your battery recharges, Mighty Mascot will attack",
+                    "details": [
+                        "The attacks will generate a resource called 'Magical Bubbles' if they land (up to 8 at a time)",
+                        "Pressing the Skill Key again will consume all Magical Bubbles to create a breath attack<ul><li>The duration of the attack is increased for each Magical Bubble consumed</li><li>The attack only ends after all the Magical Bubbles are consumed and will keep going even if the summon expires</li></ul>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Trinity Fusion",
+                    "shortDesc": "A dragon's enemy attacks 7 enemies, for 355% damage, 3 times. 9 attack(s) will occur in total.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of Max HP will sure a 17% damage penalty.\\nCooldown: 14 sec\\n[Passive Effect: DEX +35]",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/trinity-fusion.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/TGSafmzWKzRvBivmw9/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Unleashes a powerful blast attack in front of you",
+                    "details": [
+                        "Can be activated by pressing the Down Arrow Key and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817' alt='Skill Trinity'> together",
+                        "While Trinity Fusion is casting, you gain increased %Damage Reduction against %Max HP attacks",
+                        "<strong>[Passive]</strong>: Grants flat DEX"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Soul Seeker - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106"],
+                "animations": ["https://media1.giphy.com/media/XRRMgf25Hvcz9Iubqk/giphy.gif"]
+            },
+            {
+                "name": "Celestial Roar - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Celestial_Roar.png/revision/latest?cb=20120731161811"],
+                "animations": ["https://media2.giphy.com/media/TA8na3YA0lTG33IcMn/giphy.gif"]
+            },
+            {
+                "name": "Trinity - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817"],
+                "animations": ["https://media4.giphy.com/media/l4ENGwe9KOqvmoGjAl/giphy.gif"]
+            },
+            {
+                "name": "Supreme Supernova - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Supreme_Supernova.png/revision/latest?cb=20120819033950"],
+                "animations": ["https://media2.giphy.com/media/DlZlysIBBBJrzyxSzk/giphy.gif"]
+            },
+            {
+                "name": "Sparkle Burst - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Sparkle_Burst.png/revision/latest?cb=20161125062715"],
+                "animations": ["https://media4.giphy.com/media/TF3PchDrHWarxQDY6l/giphy.gif"]
+            },
+            {
+                "name": "Superstar Spotlight - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Superstar_Spotlight.png/revision/latest?cb=20170609033219"],
+                "animations": ["https://media0.giphy.com/media/tP3byNppXgJAsnabEI/giphy.gif"]
+            },
+            {
+                "name": "Mighty Mascot - 5th Job",
+                "icons": ["https://orangemushroom.files.wordpress.com/2018/06/mascot-familiar.png?w=600"],
+                "animations": ["https://media1.giphy.com/media/TOxQcjHUDrdrU3Mu5v/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Angelic Buster is DEX pirate class part of the Nova class group. Angelic Busters skills do not use any MP and does not have a MP resource. Instead, the class has a special resource called Soul Battery that some skills require you to charge to use. Your Soul Battery can be recharged by attacking enemies"
+}

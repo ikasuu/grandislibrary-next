@@ -1,0 +1,573 @@
+{
+    "class": "Shade",
+    "content": {
+        "classGroup": "Heroes",
+        "jobGroup": "Pirate",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Crit Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["knuckle"]},
+            {"secondary": ["foxMarble"]}
+        ],
+        "classType": [
+            "Simple",
+            "Utility",
+            "Tanky"
+        ],
+        "innerAbility": ["Attack Speed", "Crit Rate", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Tanky class",
+                "Simple class",
+                "Very few active buffs, only buff you need to constantly keep up is <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> Maple Warrior<ul><li>Most buffs are passives</li></ul>",
+                "Has a bind skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Spirit_Trap.png/revision/latest?cb=20140914214023' alt='Skill Spirit Trap'> Spirit Trap",
+                "Has a revive <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Summon_Other_Spirit.png/revision/latest?cb=20140914214042' alt='Skill Summon Other Spirit'> Summon Other Spirit"
+            ],
+            "cons": [
+                "Simple class, linear gameplay style",
+                "Damage is not the highest compared to other classes<ul></li>Makes up for that with powerful utility</li></ul>"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Max HP/MP</strong>: +20%",
+                "<strong>Avoidability</strong>: +15%",
+                "<strong>Crit Rate</strong>: +15% + (90% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Critical_Insight.png/revision/latest?cb=20140921055826' alt='Skill Critical Insight'> Critical Insight is active)",
+                "<strong>Crit Damage</strong>: +20%",
+                "<strong>Damage</strong>: +50%",
+                "<strong>Final Damage</strong>: +10%",
+                "<strong>Boss Damage</strong>: +30%",
+                "<strong>Knockback Resistance</strong>: +100%",
+                "<strong>Attack Speed (Weapon)</strong>: 4",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +30%",
+                "<strong>Ignore DEF</strong>: +30%",
+                "<strong>Abnormal Status Resistance</strong>: 40",
+                "<strong>Minion Duration: </strong>+5%"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Fox_Spirits.png/revision/latest?cb=20150610054217' alt='Skill Fox Spirits' width='32' height='32'>(Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'>",
+            "summons": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Spiritgate.png/revision/latest?cb=20170609033218' alt='Skill Spiritgate' width='32' height='32'>(119 - 90s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Spirit_Ward.png/revision/latest?cb=20140921055801' alt='Skill Spirit Ward'>(168 - 60s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Spirit_Bond_Max.png/revision/latest?cb=20140720234310' alt='Skill Spirit Bond Max'>(120 - 100s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Heroic_Memories_%28Shade%29.png/revision/latest?cb=20140527070728' alt='Skill Heroic Memories (Shade)'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Spirit_Flow.png/revision/latest?cb=20161125062716' alt='Skill Spirit Flow'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015' alt='Skill Freud's Wisdom'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741' alt='Skill Loaded Dice'>(180s cd <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'>), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813' alt='Skill Overdrive'>(70 - 64s cd)",
+            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Spirit_Trap.png/revision/latest?cb=20140914214023' alt='Skill Spirit Trap'>(294 - 210s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Summon_Other_Spirit.png/revision/latest?cb=20140914214042' alt='Skill Summon Other Spirit'>(1800s cd revive), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Spirit_Incarnation.png/revision/latest?cb=20140921061615' alt='Skill Spirit Incarnation'>(120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015' alt='Skill Freud's Wisdom'>(240s cd)"
+        },
+        "linkSkill": {
+                "id":80000169,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Close_Call.png/revision/latest?cb=20140809015342"],
+                "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Vulpes_Leap.png/revision/latest?cb=20140401052036' alt='Skill Vulpes Leap'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Cosmic_Balance.png/revision/latest?cb=20140402165523' alt='Skill Cosmic Balance'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Flash_Fist.png/revision/latest?cb=20140527065759' alt='Skill Flash Fist'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133' alt='Skill Physical Training'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Spirit_Bond_2.png/revision/latest?cb=20140914072259' alt='Skill Spirit Bond 2'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303' alt='Skill Knuckle Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Fox_Spirit_Mastery.png/revision/latest?cb=20140914072309' alt='Skill Fox Spirit Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Blade_Imp_-_Forward_Slash.png/revision/latest?cb=20140914072247' alt='Skill Blade Imp - Forward Slash'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Blade_Imp_-_Downward_Slash.png/revision/latest?cb=20140914072242' alt='Skill Blade Imp - Downward Slash'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Back_Step.png/revision/latest?cb=20140914072251' alt='Skill Back Step'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Ground_Pound.png/revision/latest?cb=20140914072224' alt='Skill Ground Pound'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Harmonious_Defense.png/revision/latest?cb=20140914214035' alt='Skill Harmonious Defense'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Summon_Other_Spirit.png/revision/latest?cb=20140914214042' alt='Skill Summon Other Spirit'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Spirit_Bond_3.png/revision/latest?cb=20140914214029' alt='Skill Spirit Bond 3'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Weaken.png/revision/latest?cb=20140914214053' alt='Skill Weaken'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Blade_Imp_-_Spin_Slash.png/revision/latest?cb=20140914214015' alt='Skill Blade Imp - Spin Slash'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Spirit_Trap.png/revision/latest?cb=20140914214023' alt='Skill Spirit Trap'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Spirit_Frenzy.png/revision/latest?cb=20140914214016' alt='Skill Spirit Frenzy'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Shockwave_Punch.png/revision/latest?cb=20140914214005' alt='Skill Shockwave Punch'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirit_Mastery.png/revision/latest?cb=20140921055806' alt='Skill Fire Fox Spirit Mastery' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_High_Quality_Knuckle_Mastery.png/revision/latest?cb=20140921055823' alt='Skill High Quality Knuckle Mastery' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Critical_Insight.png/revision/latest?cb=20140921055826' alt='Skill Critical Insight' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Spirit_Bond_4.png/revision/latest?cb=20140921055817' alt='Skill Spirit Bond 4' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Bomb_Punch.png/revision/latest?cb=20140921055737' alt='Skill Bomb Punch' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Spirit_Ward.png/revision/latest?cb=20140921055801' alt='Skill Spirit Ward' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Soul_Splitter.png/revision/latest?cb=20140921055756' alt='Skill Soul Splitter' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Death_Mark.png/revision/latest?cb=20140921055750' alt='Skill Death Mark' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744' alt='Skill Spirit Claw' width='32' height='32'>"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Spirit_Claw_-_Reinforce.png/revision/latest?cb=20140921061555' alt='Skill Spirit Claw - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Spirit_Claw_-_Boss_Rush.png/revision/latest?cb=20140921061558' alt='Skill Spirit Claw - Boss Rush' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Spirit_Claw_-_Extra_Strike.png/revision/latest?cb=20140921061600' alt='Skill Spirit Claw - Extra Strike' width='32' height='32'> Spirit Claw - Reinforce, Bush Rush and Extra Strike</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Bomb_Punch_-_Reinforce.png/revision/latest?cb=20140921061602' alt='Skill Bomb Punch - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Bomb_Punch_-_Critical_Chance.png/revision/latest?cb=20140921061606' alt='Skill Bomb Punch - Critical Chance' width='32' height='32'> Bomb Punch - Reinforce and Critical Chance OR <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirits_-_Reinforce.png/revision/latest?cb=20140921061608' alt='Skill Fire Fox Spirits - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Fire_Fox_Spirits-Summon_Chance.png/revision/latest?cb=20140921061613' alt='Skill Fire Fox Spirits-Summon Chance' width='32' height='32'> Fire Fox Spirits - Reinforce and Summon Chance<ul><li>This is purely your preference if you mob with Spirit Claw or Bomb Punch</li><li>If you have 100% Crit Chance you can substitute Bomb Punch - Critical Chance</li></ul></li></ul>"
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744' alt='Skill Spirit Claw'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Bomb_Punch.png/revision/latest?cb=20140921055737' alt='Skill Bomb Punch'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Fox_Spirits.png/revision/latest?cb=20150610054217' alt='Skill Fox Spirits'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Spirit_Frenzy.png/revision/latest?cb=20140914214016' alt='Skill Spirit Frenzy'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Death_Mark.png/revision/latest?cb=20140921055750' alt='Skill Death Mark'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Spirit_Incarnation.png/revision/latest?cb=20140921061615' alt='Skill Spirit Incarnation'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Flash_Fist.png/revision/latest?cb=20140527065759' alt='Skill Flash Fist'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Ground_Pound.png/revision/latest?cb=20140914072224' alt='Skill Ground Pound'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Blade_Imp_-_Downward_Slash.png/revision/latest?cb=20140914072242' alt='Skill Blade Imp - Downward Slash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Blade_Imp_-_Forward_Slash.png/revision/latest?cb=20140914072247' alt='Skill Blade Imp - Forward Slash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Fox_Spirits.png/revision/latest?cb=20150610054217' alt='Skill Fox Spirits'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Shockwave_Punch.png/revision/latest?cb=20140914214005' alt='Skill Shockwave Punch'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Blade_Imp_-_Spin_Slash.png/revision/latest?cb=20140914214015' alt='Skill Blade Imp - Spin Slash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Spirit_Frenzy.png/revision/latest?cb=20140914214016' alt='Skill Spirit Frenzy'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Spirit_Trap.png/revision/latest?cb=20140914214023' alt='Skill Spirit Trap'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Summon_Other_Spirit.png/revision/latest?cb=20140914214042' alt='Skill Summon Other Spirit'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Bomb_Punch.png/revision/latest?cb=20140921055737' alt='Skill Bomb Punch'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744' alt='Skill Spirit Claw'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Death_Mark.png/revision/latest?cb=20140921055750' alt='Skill Death Mark'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Soul_Splitter.png/revision/latest?cb=20140921055756' alt='Skill Soul Splitter'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Spirit_Incarnation.png/revision/latest?cb=20140921061615' alt='Skill Spirit Incarnation'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/3395/shade",
+            "https://maplestory.fandom.com/wiki/Shade"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build", "Mahkii"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 20051284,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Fox_Trot.png/revision/latest?cb=20150216044653"],
+                    "animations": ["https://media.giphy.com/media/Me1Q2ciKIuNaLj2ju1/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Teleports to the nearest enemy in range",
+                    "details": [
+                        "If there are no enemies in range, you will teleport forward"
+                    ]
+                },
+                {
+                    "id": 20050285,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Spirit_Bond_1.png/revision/latest?cb=20150216044939"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 20050074,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Spirit_Affinity.png/revision/latest?cb=20191116141513"],
+                    "type": "Passive"
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 25000001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Swift_Strike.png/revision/latest?cb=20140527065733", "https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Flash_Fist.png/revision/latest?cb=20140527065759"],
+                        "animations": ["https://media.giphy.com/media/U3aLJXmGV7HJJsHZNK/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throws two quick punches forward",
+                        "details": [
+                            "Completing the Shade storyline will upgrade to <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Flash_Fist.png/revision/latest?cb=20140527065759' alt='Skill Flash Fist' width='32' height='32' /> Flash Fist which deals increased %Damage"
+                        ]
+                    },
+                    {
+                        "id": 25000003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Flash_Fist.png/revision/latest?cb=20140527065759"],
+                        "type": "Attack"
+                    },
+                    {
+                        "id": 25001204,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Vulpes_Leap.png/revision/latest?cb=20140401052036"],
+                        "animations": ["https://media.giphy.com/media/fUvPNwkEOsuGXVzpTQ/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "id": 25000105,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Cosmic_Balance.png/revision/latest?cb=20140402165523"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "id": 25100001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Ground_Pound.png/revision/latest?cb=20140914072224"],
+                        "animations": ["https://media.giphy.com/media/jVGtkynFy7Pvk9XcPw/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slams down on the ground creating shockwaves",
+                        "details": [
+                            "Can be held to continuously punch the ground",
+                            "Creates a shockwave that slows nearby enemies"
+                        ]
+                    },
+                    {
+                        "id": 25101003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Blade_Imp_-_Downward_Slash.png/revision/latest?cb=20140914072242"],
+                        "animations": ["https://media1.giphy.com/media/cCT2iqVF2loHShNDxX/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls enemies above you down to your platform and debuffs them",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy takes increased %Final Damage from Shade"
+                        ]
+                    },
+                    {
+                        "id": 25101004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Blade_Imp_-_Forward_Slash.png/revision/latest?cb=20140914072247"],
+                        "animations": ["https://media.giphy.com/media/hQWqOwe8xbROwAcrLe/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls enemies in front of you towards you and debuffs them",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy takes increased %Final Damage from Shade"
+                        ]
+                    },
+                    {
+                        "id": 25101205,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Back_Step.png/revision/latest?cb=20140914072251"],
+                        "animations": ["https://media.giphy.com/media/hrG5mdqgZ84GEk3LOc/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash backwards",
+                        "details": [
+                            "<strong>[Passive]</strong>: Permanently increases %Avoidability"
+                        ]
+                    },
+                    {
+                        "id": 25100106,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 25100107,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Spirit_Bond_2.png/revision/latest?cb=20140914072259"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 25100108,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 25101009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Fox_Spirits.png/revision/latest?cb=20150610054217"],
+                        "type": "Toggle Attack",
+                        "desc": "Toggles the Fox Spirits from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Fox_Spirit_Mastery.png/revision/latest?cb=20140914072309' alt='Skill Fox Spirit Mastery'> Fox Spirit Mastery to appear "
+                    },
+                    {
+                        "id": 25100009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Fox_Spirit_Mastery.png/revision/latest?cb=20140914072309"],
+                        "animations": ["https://media.giphy.com/media/jq6B2R2ZfMRtwGpKM7/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Grants a chance when attacking to summon Fox Spirits that seek and attack enemies"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "id": 25111000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Shockwave_Punch.png/revision/latest?cb=20140914214005"],
+                        "animations": ["https://media.giphy.com/media/Joyfsu3tcIXT2SxyFC/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strikes forward 3 times. The final strike sends out a shockwave that deals additional damage"
+                    },
+                    {
+                        "id": 25111004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Blade_Imp_-_Spin_Slash.png/revision/latest?cb=20140914214015"],
+                        "animations": ["https://media.giphy.com/media/iJPDhVoi4BwXdpcgO2/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Spin to pull enemies behind you to in front of you and debuffs them",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy takes increased %Final Damage from Shade"
+                        ]
+                    },
+                    {
+                        "id": 25111005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Spirit_Frenzy.png/revision/latest?cb=20140914214016"],
+                        "animations": ["https://media.giphy.com/media/SsZa2OFaajnwis0G7u/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Summons a flurry of spirits that spin around you dealing damage"
+                    },
+                    {
+                        "id": 25111206,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Spirit_Trap.png/revision/latest?cb=20140914214023"],
+                        "animations": ["https://media.giphy.com/media/XGmIoO7oQQKgKTB4hz/giphy.gif"],
+                        "type": "Bind Attack",
+                        "desc": "Creates a trap that binds enemies caught in it"
+                    },
+                    {
+                        "id": 25110107,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Spirit_Bond_3.png/revision/latest?cb=20140914214029"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 25110108,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Harmonious_Defense.png/revision/latest?cb=20140914214035"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 25111209,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Summon_Other_Spirit.png/revision/latest?cb=20140914214042"],
+                        "animations": ["https://media2.giphy.com/media/JJyVlhx7PaIKG5cReg/giphy.gif"],
+                        "type": "Passive Revive",
+                        "desc": "When hit by a fatal attack, you will be revived, knocking by enemies and dealing damage",
+                        "details": [
+                            "You are briefly invincible after reviving"  
+                        ]
+                    },
+                    {
+                        "id": 25110210,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Weaken.png/revision/latest?cb=20140914214053"],
+                        "type": "Passive",
+                        "desc": "When attacking enemies, you have a chance to debuff enemies",
+                        "details": [
+                            "Enemy takes increased %Damage and has reduced %Accuracy and %Avoidability"
+                        ]
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "id": 25121000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Bomb_Punch.png/revision/latest?cb=20140921055737"],
+                        "animations": ["https://media.giphy.com/media/UrtvBnz6RhRfGSL3dT/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Punches several times forward",
+                        "details": [
+                            "Has a chance to stun enemies",
+                            "Can be held down to continuously keep punching"
+                        ]
+                    },
+                    {
+                        "id": 25121005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744"],
+                        "animations": ["https://media.giphy.com/media/fUpSvwcCdGuaFdH77d/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cleave forward damaging enemies in front of you"
+                    },
+                    {
+                        "id": 25121006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Death_Mark.png/revision/latest?cb=20140921055750"],
+                        "animations": ["https://media.giphy.com/media/ZF87vlM69ZX9nWHPMz/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward damaging and debuffing enemies in front of you",
+                        "details": [
+                            "<strong>[Debuff]</strong>: All attacks against this target are critical hits and will restore some %Max HP. Target will also take some damage over time"
+                        ]
+                    },
+                    {
+                        "id": 25121007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Soul_Splitter.png/revision/latest?cb=20140921055756"],
+                        "animations": ["https://media.giphy.com/media/hqlRFRYtEFNIte9X3V/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strikes forward damaging and splitting the souls of enemies hit",
+                        "details": [
+                            "The soul is a stationary mirror image which will deal damage to the original enemy when attacked",
+                            "Grants additional EXP when defeating the soul or the original enemy"
+                        ]
+                    },
+                    {
+                        "id": 25121108,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                        "animations": ["https://media0.giphy.com/media/OmYneUp8HKBk3giEEm/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 25121209,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Spirit_Ward.png/revision/latest?cb=20140921055801"],
+                        "animations": ["https://media4.giphy.com/media/zVYEDFY52H8qtKPkWg/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Summons three guardian spirits that protect you from either a debuff or incoming damage",
+                        "details": [
+                            "One Guardian Spirit is consumed after protecting you from the incoming debuff or attack"
+                        ]
+                    },
+                    {
+                        "id": 25120110,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirit_Mastery.png/revision/latest?cb=20140921055806", "https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Fox_Spirit_Mastery.png/revision/latest?cb=20140914072309"],
+                        "animations": ["https://media0.giphy.com/media/OmYneUp8HKBk3giEEm/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases summon chance, %Damage, and number of repeat attacks",
+                            "Color of attack is changed to orange/red from blue"
+                        ]
+                    },
+                    {
+                        "id": 25121211,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                        "animations": ["https://media2.giphy.com/media/CDWBGrsQ6w7JS4aNG1/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    },
+                    {
+                        "id": 25120112,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Spirit_Bond_4.png/revision/latest?cb=20140921055817"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 25120113,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_High_Quality_Knuckle_Mastery.png/revision/latest?cb=20140921055823", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now increases %Crit Damage and %Final Damage"
+                        ]
+                    },
+                    {
+                        "id": 25120214,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Critical_Insight.png/revision/latest?cb=20140921055826"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 25120146,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Spirit_Claw_-_Reinforce.png/revision/latest?cb=20140921061555"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 25120147,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Spirit_Claw_-_Boss_Rush.png/revision/latest?cb=20140921061558"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 25120148,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Spirit_Claw_-_Extra_Strike.png/revision/latest?cb=20140921061600"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 25120149,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Bomb_Punch_-_Reinforce.png/revision/latest?cb=20140921061602"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 25120150,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Bomb_Punch_-_Spread.png/revision/latest?cb=20140921061604"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 25120151,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Bomb_Punch_-_Critical_Chance.png/revision/latest?cb=20140921061606"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 25120152,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirits_-_Reinforce.png/revision/latest?cb=20140921061608"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 25120153,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Fire_Fox_Spirits-Repeated_Attack_Bonus.png/revision/latest?cb=20140921061611"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 25120154,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Fire_Fox_Spirits-Summon_Chance.png/revision/latest?cb=20140921061613"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 25121131,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Spirit_Bond_Max.png/revision/latest?cb=20140720234310"],
+                    "animations": ["https://media0.giphy.com/media/0L3RNYF40GeXXqmMjP/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases %Damage, %Boss Damage, %Ignore DEF and Attack Speed (by 1 stage) and grants flat Attack",
+                    "details": [
+                        "At Lv. 200 you can complete a questline to enhance this skill"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 25121133,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Spirit_Bond_Max.png/revision/latest?cb=20140720234310"],
+                    "type": "Buff",
+                    "desc": "Increases %Damage, %Boss Damage, %Ignore DEF and Attack Speed (by 1 stage) and grants flat Attack",
+                    "details": [
+                        "When attacking there is a chance to drop<img src='https://maplestory.io/api/GMS/213/item/4001847/icon'> Livers that increase the duration of Spirit Bond Max",
+                        "There will also be a summoned Spirit Guardian that will attack with you:<ul><li><strong>[Liver Circle Dance]: </strong>The Spirit Guardian will attack nearby enemies</li><li><strong>[Spirit Frenzy]: </strong>The Spirit Guardian will cast a smaller version of <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Spirit_Frenzy.png/revision/latest?cb=20140914214016' alt='Skill Spirit Frenzy' width='32' height='32' /></li><li><strong>[Spirit Ward]: </strong>The Spirit Guardian uses <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Spirit_Ward.png/revision/latest?cb=20140921055801' alt='Skill Spirit Ward' width='32' height='32' /> on Shade as long as <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Spirit_Ward.png/revision/latest?cb=20140921055801' alt='Skill Spirit Ward' width='32' height='32' /> is not already active</li></ul>"
+                    ],
+                    "reqLev": 200
+                },
+                {
+                    "id": 25121030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Spirit_Incarnation.png/revision/latest?cb=20140921061615"],
+                    "animations": ["https://media.giphy.com/media/j58hfn1stzxjJm7GXf/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Transform into an invincible spirit that attacks enemies in a large area ",
+                    "reqLev": 160
+                },
+                {
+                    "id": 25121132,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Heroic_Memories_%28Shade%29.png/revision/latest?cb=20140527070728"],
+                    "animations": ["https://media0.giphy.com/media/jgFbHmSIYIIeIy31tR/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["freudsWisdom","goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Spirit Flow",
+                    "shortDesc": "MP Cost: 1000, resets cooldowns, Duration: 55, the spirits guiding you automatically trigger an attack skill when you perform an attack, excluding 5th Job Skills, when you perform an attack, Key-down Skill Durations: 3 sec, Final Damage: +17%\\nSpirit Attack Cooldown: 2 Sec.\\nCooldown: 120 Sec.",
+                    "id": 400031002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Spirit_Flow.png/revision/latest?cb=20161125062716"],
+                    "animations": ["https://media3.giphy.com/media/FnSSh6nmlsi2P8w9wB/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Whenever you attack, spirits will automatically appear and attack alongside you",
+                    "details": [
+                        "The spirits come from your skills from all Job Advancements except 5th Job",
+                        "Also resets all cooldowns for skills that apply and increases %Final Damage when active"
+                    ]
+                },
+                {
+                    "name": "Spiritgate",
+                    "shortDesc": "MP Cost: 1000, Duration: 40 sec, Creates a portal that summons 2 spirits lasting 8 sec. Up to 10 spirits can exist simultaneously.\\nSpirits seek out nearby enemies to inflict 600% damage 6 times. Spirits then collide with the enemy, disappearing and granting them a debuff for 8 sec.\\nAttacks against an afflicted enemy gain Critical Rate +8% and Critical Damage +1%.Debuff can stack up to 10 times.\\nCooldown: 95 sec",
+                    "id": 400031020,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Spiritgate.png/revision/latest?cb=20170609033218"],
+                    "animations": ["https://media0.giphy.com/media/rgX8FDXKbj0XfWJqXx/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Creates a portal where swarms of spirits will appear and seek out enemies to attack and debuff",
+                    "details": [
+                        "<strong>[Debuff]</strong>: Attacks to this enemy will have increased %Crit Rate and %Crit Damage<ul><li>The effects of the debuff can stack (up to 10 times)</li></ul>"
+                    ]
+                },
+                {
+                    "name": "True Spirit Claw",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 10, Damage: 1000%, Number of Attacks: 8, Additional Monster DEF Ignored: 50%\\nActivates when Spirit Claw is used\\nCooldown: 6 sec",
+                    "id": 400031028,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_True_Spirit_Claw.png/revision/latest?cb=20181115065415"],
+                    "animations": ["https://media4.giphy.com/media/HxBN9wmrlRCMIu9Cp1/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Periodically when using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744' alt='Skill Spirit Claw'>, the true form of the skill will appear, attacking enemies in a bigger radius",
+                    "details": [
+                        "The skill also gains additional %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Smashing Multipunch",
+                    "shortDesc": "MP Cost: 60. Consecutively attacks up to 10 enemies with 800% damage 5 time(s) during key-down.\\nMax Key-down Time: 1.3 sec\\nUpon end of key-down, a final shock attack that attacks 10 enemies with 1900% damage 15 time(s) is activated 3 time(s). Upon successful hits of the final attack, 15 additional Fox Spirits are summoned.\\nDuring Smashing Multipunch, any attacks that inflict damage proportional to Max HP will suffer a -50% penalty to damage. Fox Spirits have a 100% chance to appear upon each successful hit.\\nCooldown: 90 sec",
+                    "id": 400031028,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/smashing-chain-punch.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/KWxcfr56yN8aP9vpps/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Furiously punches forward before smashing down for a final attack",
+                    "details": [
+                        "The final attack creates a shockwave attack and summons several <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirit_Mastery.png/revision/latest?cb=20140921055806' alt='Skill Fire Fox Spirit Mastery'> where the smash lands",
+                        "Each punch has a guaranteed chance to summon a <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirit_Mastery.png/revision/latest?cb=20140921055806' alt='Skill Fire Fox Spirit Mastery'>",
+                        "While casting, you gain increased %Damage Reduction against %Max HP attacks"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Spirit Frenzy - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Spirit_Frenzy.png/revision/latest?cb=20140914214016"],
+                "animations": ["https://media.giphy.com/media/SsZa2OFaajnwis0G7u/giphy.gif"]
+            },
+            {
+                "name": "Bomb Punch - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Bomb_Punch.png/revision/latest?cb=20140921055737"],
+                "animations": ["https://media.giphy.com/media/UrtvBnz6RhRfGSL3dT/giphy.gif"]
+            },
+            {
+                "name": "Spirit Claw - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744"],
+                "animations": ["https://media.giphy.com/media/fUpSvwcCdGuaFdH77d/giphy.gif"]
+            },
+            {
+                "name": "Soul Splitter - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Soul_Splitter.png/revision/latest?cb=20140921055756"],
+                "animations": ["https://media.giphy.com/media/hqlRFRYtEFNIte9X3V/giphy.gif"]
+            },
+            {
+                "name": "Spirit Incarnation - Hyper Skills",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Spirit_Incarnation.png/revision/latest?cb=20140921061615"],
+                "animations": ["https://media.giphy.com/media/j58hfn1stzxjJm7GXf/giphy.gif"]
+            },
+            {
+                "name": "Spiritgate - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Spiritgate.png/revision/latest?cb=20170609033218"],
+                "animations": ["https://media0.giphy.com/media/rgX8FDXKbj0XfWJqXx/giphy.gif"]
+            },
+            {
+                "name": "True Spirit Claw - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_True_Spirit_Claw.png/revision/latest?cb=20181115065415"],
+                "animations": ["https://media4.giphy.com/media/HxBN9wmrlRCMIu9Cp1/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Shade is STR pirate class part of the Heroes class group. Shade is known for their tanky nature and few buffs to manage. Shade also has several utility skills that benefit parties and bosses greatly"
+}

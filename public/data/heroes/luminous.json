@@ -1,0 +1,567 @@
+{
+    "class": "Luminous",
+    "content": {
+        "classGroup": "Heroes",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["shiningRod"]},
+            {"secondary": ["orb"]}
+        ],
+        "classType": [
+            "Light/Dark Modes",
+            "Mobbing",
+            "Simple"
+        ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Boss Damage or Crit Rate"],
+        "prosCons": {
+            "pros": [
+                "Has good mobbing",
+                "Has a bind with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Armageddon.png/revision/latest?cb=20120819004918' alt='Skill Armageddon'> Armageddon (Hyper Skill)",
+                "Good link skill (provides %Ignore DEF, good for bossing)",
+                "Simple class that has dedicated bossing and mobbing attacks"
+            ],
+            "cons": [
+                "Weak teleport skill but becomes incredible while in Equilibrium mode",
+                "Has lots of active buffs to manage"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives, Light/Dark Affinity, Equilibrium, and buffs with cooldowns",
+            [
+                "<strong>Max MP</strong>: +30%",
+                "<img src='https://static.wikia.nocookie.net/maplestory/images/c/cc/Skill_Dusk_Guard.png' alt='Skill Dusk Guard.png' width='32' height='32'/> <strong>Dodge Chance</strong>: +20%",
+                "<strong>Crit Rate</strong>: +(30% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Lunar_Tide.png/revision/latest?cb=20120623114738' alt='Skill Lunar Tide'> Lunar Tide is active)",
+                "<strong>Crit Damage</strong>: +15%",
+                "<strong>Damage</strong>: +(20% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Lunar_Tide.png/revision/latest?cb=20120623114738' alt='Skill Lunar Tide' width='32' height='32'> Lunar Tide is active) + (up to 30% from <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Dark_Crescendo.png/revision/latest?cb=20120624200818' alt='Skill Dark Crescendo' width='32' height='32'> Dark Crescendo buff)",
+                "<strong>Final Damage</strong>: +70%",
+                "<strong>Attack Speed (Weapon)</strong>: 4",
+                "<strong>Knockback Resistance: +</strong>0%",
+                "<strong>Ignore DEF</strong>: +40% + (up to 20% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Light_Wash.png/revision/latest?cb=20191125065228' alt='Skill Light Wash'> Link Skill)",
+                "<strong>Abnormal Status Resistance</strong>: 40",
+                "<strong>Ignored Monster Elemental Resistance</strong>: +10%"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Magic_Booster_%28Luminous%29.png/revision/latest?cb=20120623112309' alt='Skill Magic Booster (Luminous)'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Dusk_Guard.png/revision/latest?cb=20120623113825' alt='Skill Dusk Guard'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Photic_Meditation.png/revision/latest?cb=20120623114418' alt='Skill Photic Meditation'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Dark_Crescendo.png/revision/latest?cb=20120624200818' alt='Skill Dark Crescendo'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Arcane_Pitch.png/revision/latest?cb=20120624200932' alt='Skill Arcane Pitch'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Morning_Star.png/revision/latest?cb=20120624200226' alt='Skill Morning Star'/>(5s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Gate_of_Light.png/revision/latest?cb=20161125062543' alt='Skill Gate of Light'>(Usable only in Equilibrium), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Aether_Conduit.png/revision/latest?cb=20170609033034' alt='Skill Aether Conduit'>(30s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/liberation-orb.png?w=600' alt='Skill Liberation Orb'/>(180s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Shadow_Shell.png/revision/latest?cb=20120623113553' alt='Skill Shadow Shell'>(570 - 300s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Equalize.png/revision/latest?cb=20120819004929' alt='Skill Equalize'>(150s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Heroic_Memories_%28Luminous%29.png/revision/latest?cb=20121015211503' alt='Skill Heroic Memories (Luminous)'>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015' alt='Skill Freud's Wisdom'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)",
+            "binds": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Armageddon.png/revision/latest?cb=20120819004918' alt='Skill Armageddon'>(120s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015' alt='Skill Freud's Wisdom'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)"
+        },
+        "linkSkill": {
+                "id":80000005,
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Light_Wash.png/revision/latest?cb=20191125065228"],
+                "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Standard_Magic_Guard.png/revision/latest?cb=20120622041010' alt='Skill Standard Magic Guard'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454' alt='Skill Light Speed'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Mana_Well.png/revision/latest?cb=20160627050452' alt='Skill Mana Well'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Flash_Shower.png/revision/latest?cb=20120622040215' alt='Skill Flash Shower'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Abyssal_Drop.png/revision/latest?cb=20120622040405' alt='Skill Abyssal Drop'>"],
+                ["2nd Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321' alt='Skill High Wisdom' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318' alt='Skill Spell Mastery' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Magic_Booster_%28Luminous%29.png/revision/latest?cb=20120623112309' alt='Skill Magic Booster (Luminous)' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Black_Blessing.png/revision/latest?cb=20120623112017' alt='Skill Black Blessing' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Sylvan_Lance.png/revision/latest?cb=20120623111413' alt='Skill Sylvan Lance' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Pressure_Void.png/revision/latest?cb=20120623111835' alt='Skill Pressure Void' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Blinding_Pillar.png/revision/latest?cb=20120623111605' alt='Skill Blinding Pillar' width='32' height='32'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Lunar_Tide.png/revision/latest?cb=20120623114738' alt='Skill Lunar Tide'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Dusk_Guard.png/revision/latest?cb=20120623113825' alt='Skill Dusk Guard'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Shadow_Shell.png/revision/latest?cb=20120623113553' alt='Skill Shadow Shell'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Photic_Meditation.png/revision/latest?cb=20120623114418' alt='Skill Photic Meditation'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Death_Scythe.png/revision/latest?cb=20120623113328' alt='Skill Death Scythe'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Spectral_Light.png/revision/latest?cb=20120623112846' alt='Skill Spectral Light'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Moonlight_Spear.png/revision/latest?cb=20120623113202' alt='Skill Moonlight Spear'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Death_Scythe.png/revision/latest?cb=20120623113328' alt='Skill Death Scythe'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Ray_of_Redemption.png/revision/latest?cb=20120623113019' alt='Skill Ray of Redemption'>"],
+                ["4th Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Darkness_Mastery.png/revision/latest?cb=20120624201244' alt='Skill Darkness Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Magic_Mastery_%28Luminous%29.png/revision/latest?cb=20120624201105' alt='Skill Magic Mastery (Luminous)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Arcane_Pitch.png/revision/latest?cb=20120624200932' alt='Skill Arcane Pitch'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Dark_Crescendo.png/revision/latest?cb=20120624200818' alt='Skill Dark Crescendo'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Reflection.png/revision/latest?cb=20120624200131' alt='Skill Reflection'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Apocalypse.png/revision/latest?cb=20120624200409' alt='Skill Apocalypse'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Ender.png/revision/latest?cb=20120624200643' alt='Skill Ender'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Morning_Star.png/revision/latest?cb=20120624200226' alt='Skill Morning Star'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero's Will'>"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Reflection_-_Reinforce.png/revision/latest?cb=20120819004753' alt='Skill Reflection - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Reflection_-_Spread.png/revision/latest?cb=20120819004802' alt='Skill Reflection - Spread' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Reflection_-_Range_Up.png/revision/latest?cb=20120819004810' alt='Skill Reflection - Range Up' width='32' height='32'> Reflection - Reinforce, Spread, and Range Up</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Ender_-_Reinforce.png/revision/latest?cb=20120819004848' alt='Skill Ender - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Ender_-_Extra_Target.png/revision/latest?cb=20120819004901' alt='Skill Ender - Extra Target' width='32' height='32'> Ender - Reinforce and Extra Target</li></ul>"
+        },
+        "nodeInfo": {
+            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Reflection.png/revision/latest?cb=20120624200131' alt='Skill Reflection'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Apocalypse.png/revision/latest?cb=20120624200409' alt='Skill Apocalypse'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Ender.png/revision/latest?cb=20120624200643' alt='Skill Ender'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Flash_Shower.png/revision/latest?cb=20120622040215' alt='Skill Flash Shower'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Abyssal_Drop.png/revision/latest?cb=20120622040405' alt='Skill Abyssal Drop'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Sylvan_Lance.png/revision/latest?cb=20120623111413' alt='Skill Sylvan Lance'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Pressure_Void.png/revision/latest?cb=20120623111835' alt='Skill Pressure Void'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Spectral_Light.png/revision/latest?cb=20120623112846' alt='Skill Spectral Light'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Ray_of_Redemption.png/revision/latest?cb=20120623113019' alt='Skill Ray of Redemption'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Moonlight_Spear.png/revision/latest?cb=20120623113202' alt='Skill Moonlight Spear'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Death_Scythe.png/revision/latest?cb=20120623113328' alt='Skill Death Scythe'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Reflection.png/revision/latest?cb=20120624200131' alt='Skill Reflection'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Morning_Star.png/revision/latest?cb=20120624200226' alt='Skill Morning Star'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Apocalypse.png/revision/latest?cb=20120624200409' alt='Skill Apocalypse'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Ender.png/revision/latest?cb=20120624200643' alt='Skill Ender'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Armageddon.png/revision/latest?cb=20120819004918' alt='Skill Armageddon'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/2892/luminous",
+            "https://maplestory.fandom.com/wiki/Luminous"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Hyper Passive Build + 5th Job Skills Animations", "KyoWantsCute"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
+        ],
+        "extraContent": {
+            "title": "Equilibrium",
+            "content": "<p><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/73/Light_Dark_Affinity.png/revision/latest?cb=20130526153231' alt='Light Dark Affinity' style='width: 65%; height: auto;'/></p><p>Luminous has two different types of skills, Light and Dark magic. In addition, they have two main modes indicated by a gauge which boosts the effects of their Light and Dark magic</p><p>When in <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Sunfire.png/revision/latest?cb=20181014063228' alt='Skill Sunfire' width='32' height='32'> Light mode, your Light skills deal additional hits per attack and restore some %Max HP. As you keep using Light skills, you eventually enter into Dark mode</p><p>When in <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Eclipse.png/revision/latest?cb=20181014064006' alt='Skill Eclipse' width='32' height='32'> Dark mode, your Dark skills deal additional hits per attack and cost 0 MP. As you keep using Dark skills, you eventually enter into Light mode</p><p>As well, Luminous has a middle state called <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421' alt='Skill Equilibrium' width='32' height='32'> Equilibrium unlocked in 3rd Job where you gain the effects of both Light and Dark mode and are also able to use Equilibrium skills with no cooldowns. This occurs whenever you switch between Light and Dark modes</p><h4><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Light_Affinity.png/revision/latest?cb=20120622041552' alt='Skill Light Affinity' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Dark_Affinity.png/revision/latest?cb=20120622041651' alt='Skill Dark Affinity' width='32' height='32'> Light and Dark Affinity (1st Job)</h4><p>Based on a choice you make, you can choose between Light or Dark magic. There is little difference except for a passive %Final Damage boost to either your Light or Dark magic. If you skip the beginning cutscenes, you will automatically receive the Dark magic bonuses. The %Final Damage is almost marginal but Light magic is preferred because of the attack <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Reflection.png/revision/latest?cb=20120624200131' alt='Skill Reflection' width='32' height='32'> Reflection (4th Job)</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 20040216,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Sunfire.png/revision/latest?cb=20181014063228"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 20040217,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Eclipse.png/revision/latest?cb=20181014064006"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 20040219,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421"],
+                    "type": "Passive",
+                    "desc": "While in Equilibrium mode, you take only 1 HP damage from enemy attacks and gain 100% Knockback Resistance",
+                    "details": [
+                        "Additionally, you gain both the effects of <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Sunfire.png/revision/latest?cb=20181014063228' alt='Skill Sunfire' width='32' height='32' /> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Eclipse.png/revision/latest?cb=20181014064006' alt='Skill Eclipse' width='32' height='32' /><ul><li>Equilibrium skills also deal additional hits per attack</li></ul>"
+                    ]
+                },
+                {
+                    "id": 20040221,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Inner_Light.png/revision/latest?cb=20120630015006"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 20041222,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Flash_Blink.png/revision/latest?cb=20120630015012"],
+                    "type": "Active",
+                    "desc": "Teleports to a random location on the map",
+                    "details": [
+                        "If there is an enemy nearby, you will teleport to the nearest enemy"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "id": 27001100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Flash_Shower.png/revision/latest?cb=20120622040215"],
+                        "animations": ["https://media2.giphy.com/media/Q7v5rUthVnh6g9ipgb/giphy.gif"],
+                        "type": "Light Attack",
+                        "desc": "Shoots out a projectile forward that passes through enemies"
+                    },
+                    {
+                        "id": 27001201,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Abyssal_Drop.png/revision/latest?cb=20120622040405"],
+                        "animations": ["https://media1.giphy.com/media/lRYO2jpGdodihUKtwq/giphy.gif"],
+                        "type": "Dark Attack",
+                        "desc": "Summons several crystals that drop in front of you"
+                    },
+                    {
+                        "id": 27001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454"],
+                        "animations": ["https://media2.giphy.com/media/Q7X0aJa40GBMJ84KvY/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "You are briefly invincible to touch damage after teleporting",
+                            "Can also be used on ladders to move to platforms above and below you",
+                            "While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421' alt='Skill Equilibrium'> Equilibrium mode, you can teleport in the air",
+                            "<strong>[Passive]</strong>: Increases Movement Speed and Jump"
+                        ]
+                    },
+                    {
+                        "id": 27000003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Standard_Magic_Guard.png/revision/latest?cb=20120622041010"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 27000004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Mana_Well.png/revision/latest?cb=20160627050452"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 27000106,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Light_Affinity.png/revision/latest?cb=20120622041552"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "You will receive either the Light or Dark version depending on your decision"
+                        ]
+                    },
+                    {
+                        "id": 27000207,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Dark_Affinity.png/revision/latest?cb=20120622041651"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "You will receive either the Light or Dark version depending on your decision"
+                        ]
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "id": 27101100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Sylvan_Lance.png/revision/latest?cb=20120623111413"],
+                        "animations": ["https://media0.giphy.com/media/gfleBGkbBLtf6PtszN/giphy.gif"],
+                        "type": "Light Attack",
+                        "desc": "Fires several homing spears forward"
+                    },
+                    {
+                        "id": 27101101,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Blinding_Pillar.png/revision/latest?cb=20120623111605"],
+                        "animations": ["https://media2.giphy.com/media/Qsa01Q7EEWyhM43TG6/giphy.gif"],
+                        "type": "Light Active",
+                        "desc": "Creates pillars of light around you that pushes enemies back and has a chance to stun"
+                    },
+                    {
+                        "id": 27101202,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Pressure_Void.png/revision/latest?cb=20120623111835"],
+                        "animations": ["https://media1.giphy.com/media/XGgGnMmdb2ib31yt5u/giphy.gif"],
+                        "type": "Key-down Dark Attack",
+                        "desc": "Creates an orb that damages nearby enemies",
+                        "details": [
+                            "Can be directed by pressing the Left or Right Arrow Keys"
+                        ]
+                    },
+                    {
+                        "id": 27100003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Black_Blessing.png/revision/latest?cb=20120623112017"],
+                        "animations": ["https://media3.giphy.com/media/YEwmxSErpmJkI4UMBq/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Periodically while in combat, creates orbs around you that absorb a portion of damage taken",
+                        "details": [
+                            "Based on how many orbs you have active, you gain increased Magic Attack (max 3 orbs)"
+                        ]
+                    },
+                    {
+                        "id": 27101004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Magic_Booster_%28Luminous%29.png/revision/latest?cb=20120623112309"],
+                        "animations": ["https://media0.giphy.com/media/12o7AbFSSA3CrhB1I9/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 27100005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 27100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "id": 27111100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Spectral_Light.png/revision/latest?cb=20120623112846"],
+                        "animations": ["https://media2.giphy.com/media/Vh2w21nbnKEnTUGTSZ/giphy.gif"],
+                        "type": "Key-down Light Attack",
+                        "desc": "Fires a controllable beam of light",
+                        "details": [
+                            "Can be directed by pressing the Up or Down Arrow Keys",
+                            "Pressing Left or Right will change the direction you fire"
+                        ]
+                    },
+                    {
+                        "id": 27111101,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Ray_of_Redemption.png/revision/latest?cb=20120623113019"],
+                        "animations": ["https://media2.giphy.com/media/UWWFIHo24QnP7X4IoD/giphy.gif"],
+                        "type": "Light Attack / Heal",
+                        "desc": "Shines a beam of light in front of you that damages enemies and heals nearby party members "
+                    },
+                    {
+                        "id": 27111202,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Moonlight_Spear.png/revision/latest?cb=20120623113202"],
+                        "animations": ["https://media3.giphy.com/media/WQ0woueuBbLT8MVmAB/giphy.gif"],
+                        "type": "Dark Attack",
+                        "desc": "Launches spears beneath nearby enemies"
+                    },
+                    {
+                        "id": 27111303,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Death_Scythe.png/revision/latest?cb=20120623113328"],
+                        "animations": ["https://media2.giphy.com/media/XI7qHV82pEcZXBSoiF/giphy.gif"],
+                        "type": "Equilibrium Attack",
+                        "desc": "Summons two reapers from opposite sides that dash towards each other",
+                        "details": [
+                            "While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421' alt='Skill Equilibrium'> Equilibrium mode, skill has no cooldown"
+                        ]
+                    },
+                    {
+                        "id": 27111004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Shadow_Shell.png/revision/latest?cb=20120623113553"],
+                        "animations": ["https://media0.giphy.com/media/pEGDbQn2Ap5KUXaOXX/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a shell that blocks up to 3 Abnormal Statuses",
+                        "details": [
+                            "<strong>[Passive]</strong>: Increases Abnormal Status Resistance and %Elemental Resistance"
+                        ]
+                    },
+                    {
+                        "id": 27111005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Dusk_Guard.png/revision/latest?cb=20120623113825"],
+                        "animations": ["https://media0.giphy.com/media/aTkErRpDW6jCP2n5w7/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants flat DEF and a chance to ignore an enemy attack"
+                    },
+                    {
+                        "id": 27111006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Photic_Meditation.png/revision/latest?cb=20120623114418"],
+                        "animations": ["https://media3.giphy.com/media/FlnqMz4CshbDh3b9aM/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 27110007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Lunar_Tide.png/revision/latest?cb=20120623114738"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "id": 27121100,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Reflection.png/revision/latest?cb=20120624200131"],
+                        "animations": ["https://media2.giphy.com/media/fX2ByunZXtlJpm0ObT/giphy.gif"],
+                        "type": "Light Attack",
+                        "desc": "Emits a beam of light that bounces to nearby enemies",
+                        "details": [
+                            "Damage is reduced per each bounce of the beam"
+                        ]
+                    },
+                    {
+                        "id": 27121201,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Morning_Star.png/revision/latest?cb=20120624200226"],
+                        "animations": ["https://media3.giphy.com/media/Wmcmse8j2wDh1WKXXp/giphy.gif"],
+                        "type": "Dark Summon",
+                        "desc": "Summons a meteor that pushes enemies back"
+                    },
+                    {
+                        "id": 27121202,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Apocalypse.png/revision/latest?cb=20120624200409"],
+                        "animations": ["https://media1.giphy.com/media/eiMKUGCwyyP0bUNx9t/giphy.gif"],
+                        "type": "Dark Attack",
+                        "desc": "Unleashes a burst of void energy in front of you"
+                    },
+                    {
+                        "id": 27121303,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Ender.png/revision/latest?cb=20120624200643"],
+                        "animations": ["https://media3.giphy.com/media/U50b0uz6IPnKuI7nyl/giphy.gif"],
+                        "type": "Equilibrium Attack",
+                        "desc": "Deals a devastating attack to up to 2 enemies",
+                        "details": [
+                            "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
+                            "While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421' alt='Skill Equilibrium'> Equilibrium mode, skill has no cooldown"
+                        ]
+                    },
+                    {
+                        "id": 27121005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Dark_Crescendo.png/revision/latest?cb=20120624200818"],
+                        "animations": ["https://media3.giphy.com/media/Y4UHzPrCmiQGO1SEq2/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "While active, whenever you attack you have a chance to gain a stacking %Damage buff"
+                    },
+                    {
+                        "id": 27121006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Arcane_Pitch.png/revision/latest?cb=20120624200932"],
+                        "animations": ["https://media0.giphy.com/media/MRVVpHe45agKIOOq6t/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "id": 27120007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Magic_Mastery_%28Luminous%29.png/revision/latest?cb=20120624201105", "https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants Magic Attack and increases %Crit Rate and %Crit Damage"
+                        ]
+                    },
+                    {
+                        "id": 27120008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Darkness_Mastery.png/revision/latest?cb=20120624201244"],
+                        "type": "Passive",
+                        "desc": "Increases the duration of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421' alt='Skill Equilibrium'> Equilibrium mode and decreases amount of skills required to reach <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Sunfire.png/revision/latest?cb=20181014063228' alt='Skill Sunfire'> Light mode and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Eclipse.png/revision/latest?cb=20181014064006' alt='Skill Eclipse'> Dark mode",
+                        "details": [
+                            "Additionally increases %Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Death_Scythe.png/revision/latest?cb=20120623113328' alt='Skill Death Scythe' width='32' height='32' />"
+                        ]
+                    },
+                    {
+                        "id": 27121009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                        "animations": ["https://media3.giphy.com/media/M8BgSGr2KZ1bsdXGZ4/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "id": 27121010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                        "animations": ["https://media1.giphy.com/media/UVUJvM1O2Xnvd3bbb0/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds "
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 27120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Reflection_-_Reinforce.png/revision/latest?cb=20120819004753"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 27120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Reflection_-_Spread.png/revision/latest?cb=20120819004802"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 27120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Reflection_-_Range_Up.png/revision/latest?cb=20120819004810"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 27120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Apocalypse_-_Reinforce.png/revision/latest?cb=20120819004818"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 27120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Apocalypse_-_Recharge.png/revision/latest?cb=20120819004823"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 27120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Apocalypse_-_Extra_Target.png/revision/latest?cb=20120819004841"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 27120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Ender_-_Reinforce.png/revision/latest?cb=20120819004848"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 27120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Ender_-_Extra_Target.png/revision/latest?cb=20120819004901"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 27120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Ender_-_Range_Up.png/revision/latest?cb=20120819004911"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 27121054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Equalize.png/revision/latest?cb=20120819004929"],
+                    "animations": ["https://media4.giphy.com/media/R4r75RlgdS9Xv84RfE/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Instantly puts you into Equilibrium mode",
+                    "reqLev": 140
+                },
+                {
+                    "id": 27121052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Armageddon.png/revision/latest?cb=20120819004918"],
+                    "animations": ["https://media2.giphy.com/media/19DomnaWbtGo40Pnjs/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Unleashes a massive explosion that binds nearby enemies",
+                    "reqLev": 160
+                },
+                {
+                    "id": 27121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Heroic_Memories_%28Luminous%29.png/revision/latest?cb=20121015211503"],
+                    "animations": ["https://media0.giphy.com/media/7mwErwbDHzmlzOgRGE/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["freudsWisdom","goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Gate of Light",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 12, Damage: 500%, Number of Attacks: 10\\nWhen attacking one enemy: 750%Duration: 37 sec\\nCan be used once while Equilibrium is active",
+                    "id": 400031002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Gate_of_Light.png/revision/latest?cb=20161125062543"],
+                    "animations": ["https://media4.giphy.com/media/vMERZQoDqTZ2YCTRGR/giphy.gif"],
+                    "type": "Equilibrium Summon",
+                    "desc": "Summons a gate that damages nearby enemies",
+                    "details": [
+                        "Deals increased %Damage if only attacking one enemy",
+                        "Can only be used only once while in Equilibrium mode"
+                    ]
+                },
+                {
+                    "name": "Aether Conduit",
+                    "shortDesc": "MP Cost: 1000, Summon Duration: 6 sec, Max Enemies Hit: 10\\nSunfire - Damage: 700%, Number of Attacks: 4\\nEclipse - Damage: 500%, Number of Attacks: 5\\nEquilibrium - Damage: 665%, Number of Attacks: 6\\nCooldown: 30 sec",
+                    "id": 400031020,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Aether_Conduit.png/revision/latest?cb=20170609033034"],
+                    "animations": ["https://media3.giphy.com/media/KvP3ewqwDi6Ugsepyz/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a magic symbol that shoots out streams of magic spears"
+                },
+                {
+                    "name": "Baptism of Light and Darkness",
+                    "shortDesc": "MP Cost: 2000, activates the Baptism of Light and Darkness 13 times consecutively. Damage: 750%, Number of Attacks: 7\\nAdditional Critical Rate: +100%, Additional Monster DEF Ignored: +100%\\nCooldown: 45 sec\\nIf the Ender hits the enemy, you gain 1 Sword of Consciousness. If you acquire 12 swords, the cooldown for Baptism of Light and Darkness resets immediately.",
+                    "id": 400031028,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Baptism_of_Light_and_Darkness.png/revision/latest?cb=20181115065415"],
+                    "animations": ["https://media3.giphy.com/media/vZ4MRQ3vlyQ5LIFrMa/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates several swords that strike down on one enemy",
+                    "details": [
+                        "Attack has increased %100 Ignore DEF and is a guaranteed Critical Hit",
+                        "If <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Ender.png/revision/latest?cb=20120624200643' alt='Skill Ender'> hits an enemy, you gain a stack of 'Sword of Consciousness' and at 12 stacks, the cooldown for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Baptism_of_Light_and_Darkness.png/revision/latest?cb=20181115065415' alt='Skill Baptism of Light and Darkness'> resets immediately"
+                    ]
+                },
+                {
+                    "name": "Liberation Orb",
+                    "shortDesc": "[Passive Effect]: Damage: 750%, Number of Attacks: 4, Cooldown: 6 sec, obtain up to 4 magic power per attribute. Light: creates up to 1 light zone(s) that attack up to 3 enemies. Darkness: fires magic bullets that move back and forth across up to 7 enemies.\\n[Active Effect]: MP Cost: 1200, Cooldown: 180 sec\\nDuration: 45 sec, direct skill attacks that create 10 magic orbs, each of which attack 1 enemy. Additional Critical Rate: 100%, Damage increases by 50%p for each unit of accumulated magic power beyond the first. Cooldown: 1 sec. Imbalance: creates a magic orb that deals 825% damage. Balance: creates a magic orb that deals 850% damage.",
+                    "id": 400031028,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/liberation-orb.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/HGSH2kvfrMusIVpaRr/giphy.gif"],
+                    "type": "Passive Attack / Summon",
+                    "desc": "",
+                    "details": [
+                        "Unaffected by Damage Reflect",
+                        "<strong>[Passive]</strong>: When using an attack that matches the current state you are in, there is a chance for a special attack to trigger<ul><li><strong>[<img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Sunfire.png/revision/latest?cb=20181014063228' alt='Skill Sunfire' width='32' height='32'/>]:</strong> Using a Light attack has a chance to create a burst of light near you that damages enemies</li><li><strong>[<img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Eclipse.png/revision/latest?cb=20181014064006' alt='Skill Eclipse' width='32' height='32'/>]: </strong>Using a Dark attack has a chance to create a projectile that bounces to multiple enemies</li><li>Each triggered attack will accumulate 1 'Magic Power' which is used for the Active effect<ul><li>Magic Power accumulated in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Sunfire.png/revision/latest?cb=20181014063228' alt='Skill Sunfire'> are separate from those obtained in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Eclipse.png/revision/latest?cb=20181014064006' alt='Skill Eclipse'></li><li>Up to 4 Magic Power can be accumulated for both states</li></li><li>They also do not disappear until the Active effect is used</li><li>Magic Power cannot be accumulated in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421' alt='Skill Equilibrium'></li></ul><</ul>",
+                        "<strong>[Active]</strong>: Summons a magic orb that launches homing orbs at a single enemy each time you attack<ul><li>Based on the Magic Power accumulated, if the amount on both sides are equal, the attack will deal increased %Damage and is considered <strong>Balanced</strong>, else it is <strong>Unbalanced</strong></li><li>For each Magic Power accumulated, the %Damage of the orbs will be increased</li><li>Attack will target bosses and enemies with the highest Max HP</li></ul>"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Death Scythe - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Death_Scythe.png/revision/latest?cb=20120623113328"],
+                "animations": ["https://media2.giphy.com/media/XI7qHV82pEcZXBSoiF/giphy.gif"]
+            },
+            {
+                "name": "Reflection - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Reflection.png/revision/latest?cb=20120624200131"],
+                "animations": ["https://media2.giphy.com/media/fX2ByunZXtlJpm0ObT/giphy.gif"]
+            },
+            {
+                "name": "Apocalypse - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Apocalypse.png/revision/latest?cb=20120624200409"],
+                "animations": ["https://media1.giphy.com/media/eiMKUGCwyyP0bUNx9t/giphy.gif"]
+            },
+            {
+                "name": "Ender - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Ender.png/revision/latest?cb=20120624200643"],
+                "animations": ["https://media3.giphy.com/media/U50b0uz6IPnKuI7nyl/giphy.gif"]
+            },
+            {
+                "name": "Gate of Light - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Gate_of_Light.png/revision/latest?cb=20161125062543"],
+                "animations": ["https://media4.giphy.com/media/vMERZQoDqTZ2YCTRGR/giphy.gif"]
+            },
+            {
+                "name": "Aether Conduit - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Aether_Conduit.png/revision/latest?cb=20170609033034"],
+                "animations": ["https://media3.giphy.com/media/KvP3ewqwDi6Ugsepyz/giphy.gif"]
+            },
+            {
+                "name": "Baptsim of Light and Darkness - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Baptism_of_Light_and_Darkness.png/revision/latest?cb=20181115065415"],
+                "animations": ["https://media3.giphy.com/media/vZ4MRQ3vlyQ5LIFrMa/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Luminous is an INT mage class part of the Heroes class group. What is unique about Luminous is their ability to control both Light and Dark magic. The strength of Luminous' magic will shift between Light and Dark thus requiring you to alternate between both"
+}

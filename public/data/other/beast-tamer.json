@@ -1,0 +1,976 @@
+{
+    "class": "Beast Tamer",
+    "content": {
+        "classGroup": "Other (Beast Tamer)",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Ignore DEF",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["scepter"]},
+            {"secondary": ["whistle", "mageShield"]}
+        ],
+        "classType": [
+            "Different Stances",
+            "Support",
+            "Non-KMS Exclusive (Except MSEA + TMS)"
+        ],
+        "innerAbility": ["Boss Damage", "Buff Duration", "Crit Rate"],
+        "prosCons": {
+            "pros": [
+                "Strong mobbing potential<ul><li>Also has strong 5th Job Skills that boost its mobbing potential even further</li></ul>",
+                "Good mobility in Hawk stance and Leopard Stance",
+                "Unique playstyle"
+            ],
+            "cons": [
+                "Complex Skill Tree mechanic<ul><li>You also cannot max all Skill Trees</li></ul>",
+                "Incredibly weak damage output",
+                "One of Beast Tamer's main buff skill is RNG dependent<ul><li><img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Meow_Card.png/revision/latest?cb=20140403174538' alt='Skill Meow Card'> Meow Card and more specifically <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Meow_Gold_Card.png/revision/latest?cb=20140403174714' alt='Skill Meow Gold Card'> Meow Gold Card which applies effects of all 3 cards</li></ul>",
+                "Not a KMS class, thus does not receive many changes and has many bugs",
+                "Difficult bossing against mobile bosses, your main bossing attack is stationary",
+                "Some important skills do not have 5th Job Boost Nodes<ul><li>Ex. <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Majestic_Trumpet.png/revision/latest?cb=20140214224128' alt='Skill Majestic Trumpet'> Majestic Trumpet, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Li%27l_Fort.png/revision/latest?cb=20140214224128' alt='Skill Li'l Fort'> Fort Follow-Up, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Bro_Attack.png/revision/latest?cb=20140321222358' alt='Skill Bro Attack'> Bro Attack</li></ul>"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns. Stance stats below are based on if you max that Skill Tree and are only active when in that stance",
+            [
+                "<strong>Max HP</strong>: +40% + (up to 5% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636' alt='Skill Focus Spirit'> Link Skill)<div style='text-indent: 40px'><strong>[Bear]</strong>: +70%</div>",
+                "<strong>Max MP</strong>: +16% + (up to 5% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636' alt='Skill Focus Spirit'> Link Skill)<div style='text-indent: 40px'><strong>[Bear]</strong>: +20%</div>",
+                "<strong>DEF</strong>: +0%<div style='text-indent: 40px'><strong>[Bear]</strong>: +100%</div>",
+                "<strong>Magic Attack</strong>: +5%<div style='text-indent: 40px'><strong>[Bear]</strong>: +10%</div><div style='text-indent: 40px'><strong>[Leopard]</strong>: +6%</div>",
+                "<strong>Crit Rate</strong>: +16% + (up to 10% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636' alt='Skill Focus Spirit'> Link Skill)<div style='text-indent: 40px'><strong>[Bear]</strong>: +50%</div><div style='text-indent: 40px'><strong>[Hawk]</strong>: +40%</div><div style='text-indent: 40px'><strong>[Cat]</strong>: +30%</div>",
+                "<strong>Crit Damage</strong>: +0%<div style='text-indent: 40px'><strong>[Bear]</strong>: +30% + (10% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Bear_Assault.png/revision/latest?cb=20140214224049' alt='Skill Bear Assault'> Bear Assault is active)</div><div style='text-indent: 40px'><strong>[Hawk]</strong>: +25%</div><div style='text-indent: 40px'><strong>[Cat]</strong>: +10%</div>",
+                "<strong>Damage</strong>: +0%<div style='text-indent: 40px'><strong>[Bear]</strong>: +(35% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Bear_Assault.png/revision/latest?cb=20140214224049' alt='Skill Bear Assault'> Bear Assault is active)</div>",
+                "<strong>Final Damage</strong>: +0%<div style='text-indent: 40px'><strong>[Bear]</strong>: +(20% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Bear_Assault.png/revision/latest?cb=20140214224049' alt='Skill Bear Assault' width='32' height='32'> Bear Assault is active)</div><div style='text-indent: 40px'><strong>[Leopard]</strong>: +20%</div>",
+                "<strong>Boss Damage</strong>: +11% + (up to 10% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636' alt='Skill Focus Spirit'> Link Skill)",
+                "<strong>Attack Speed (Weapon)</strong>:<div style='text-indent: 40px'><strong>[Bear]</strong>: 4</div><div style='text-indent: 40px'><strong>[Leopard]</strong>: 4</div><div style='text-indent: 40px'><strong>[Hawk]</strong>: 5</div>",
+                "<strong>Knockback Resistance</strong>: +0%<div style='text-indent: 40px'><strong>[Bear]</strong>: +95%</div><div style='text-indent: 40px'><strong>[Cat]</strong>: +30%</div>",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +0%<div style='text-indent: 40px'><strong>[Bear]</strong>: +30%</div>",
+                "<strong>Ignore DEF</strong>: +0%<div style='text-indent: 40px'><strong>[Bear]</strong>: +50%</div><div style='text-indent: 40px'><strong>[Leopard]</strong>: +90%</div><div style='text-indent: 40px'><strong>[Hawk]</strong>: +50%</div><div style='text-indent: 40px'><strong>[Cat]</strong>: +20%</div>",
+                "<strong>Abnormal Status Resistance</strong>: 40",
+                "<strong>Item Drop Rate</strong>: +0<div style='text-indent: 40px'><strong>[Cat]</strong>: +20%</div>",
+                "<strong>EXP Rate (From Monsters)</strong>: +0<div style='text-indent: 40px'><strong>[Cat]</strong>: +30%</div>"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Maple_Guardian.png/revision/latest?cb=20140217150807' alt='Skill Maple Guardian' width='32' height='32'>, [<img src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Bear_Assault.png/revision/latest?cb=20140214224049' alt='Skill Bear Assault' width='32' height='32'>], [<img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Hawk_Flock.png/revision/latest?cb=20140401051640' alt='Skill Hawk Flock' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Raptor_Talons.png/revision/latest?cb=20140401051734' alt='Skill Raptor Talons' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Bird%27s-Eye_View.png/revision/latest?cb=20140401051638' alt='Skill Bird's-Eye View' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Razor_Beak.png/revision/latest?cb=20140401051735' alt='Skill Razor Beak' width='32' height='32'>]",
+            "summons": "[<img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Li%27l_Fort.png/revision/latest?cb=20140214224128' alt='Skill Li'l Fort' width='32' height='32'>], [<img src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Bro_Attack.png/revision/latest?cb=20140321222358' alt='Skill Bro Attack' width='32' height='32'>], [<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Eka_Express.png/revision/latest?cb=20140401051639' alt='Skill Eka Express' width='32' height='32'>(380 - 200s cd)]",
+            "buffCd": "[<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Bear_Reborn.png/revision/latest?cb=20140214224050' alt='Skill Bear Reborn' width='32' height='32'>(2250 - 1800s cd)], [<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Meow_Card.png/revision/latest?cb=20140403174538' alt='Skill Meow Card' width='32' height='32'>(40s cd)] <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Team_Roar.png/revision/latest?cb=20140404210641' alt='Skill Team Roar' width='32' height='32'>(360s cd), <img src='https://i.imgur.com/JwcduBp.png' alt='Skill Greatest Show' width='32'>(180s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mana_Overload.png/revision/latest?cb=20161018183739' alt='Skill Mana Overload'>(60 - 30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)",
+            "iFrame": "[<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Bear_Reborn.png/revision/latest?cb=20140214224050' alt='Skill Bear Reborn' width='32' height='32'>(2250 - 1800s cd revive)], <img class='' src='https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Group_Bear_Blaster.png/revision/latest?cb=20140404210616' alt='Skill Group Bear Blaster' width='32' height='32'>(90s cd)<strong>, </strong>(360s cd), <img class='' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Aerial_Relief.png/revision/latest?cb=20181115065212' alt='Skill Aerial Relief' width='32' height='32'>(145s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form' width='32' height='32'>(60s cd)"
+        },
+        "linkSkill": {
+            "id": 80010006,
+            "icons": ["https://i.imgur.com/2G1kWET.png"],
+            "type": "Passive"
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/ud1ec8B.png",[499,374]],
+            "npc": [
+                ["",""]
+
+            ],
+            "info": [
+                "Beast Tamer character creation only occurs for a limited time. Beast Tamer character creations are normally announced for major updates and can happen several times a year"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["For Maining", "Max priority order - Bear > Cat > Hawk"],
+                ["For Legion/Link Skill", "Max priority order - Leopard > Bear > Choice of Hawk or Cat"]
+            ],
+            "details": [
+                "Beast Tamer unlocks new skills as you reach higher levels and allocate enough SP into that tree",
+                "You will have only enough SP to max two skill trees and a partial third tree",
+                "Starting from max to min priority Animal Tree, max each skill one by one and put 1 SP into any newly unlocked skill",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Furious_Strikes_-_Reinforce.png/revision/latest?cb=20140404210616' alt='Skill Furious Strikes - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Furious_Strikes_-_Extra_Strike.png/revision/latest?cb=20190730061721' alt='Skill Furious Strikes - Extra Strike' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Furious_Strikes_-_Boss_Rush.png/revision/latest?cb=20140404210615' alt='Skill Furious Strikes - Boss Rush' width='32' height='32'> Furious Strikes - Reinforce, Extra Strike and Boss Rush</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Formation_Attack_-_Reinforce.png/revision/latest?cb=20140404210614' alt='Skill Formation Attack - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Formation_Attack_-_Spread.png/revision/latest?cb=20140404210614' alt='Skill Formation Attack - Spread' width='32' height='32'> Formation Attack - Reinforce and Spread</li></ul><p>If investing in Leopard Mode instead of Hawk Mode or training for Legion Effect / Link skill</p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Three_Point_Pounce_-_Reinforce.png/revision/latest?cb=20140404210641' alt='Skill Three Point Pounce - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Three_Point_Pounce_-_Extra_Strike.png/revision/latest?cb=20140404210641' alt='Skill Three Point Pounce - Extra Strike' width='32' height='32'> Three-Point Pounce - Extra Strike and Reinforce</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<p><strong>Main choices: </strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Paw_Swipe.png/revision/latest?cb=20140214224128' alt='Skill Paw Swipe' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Li%27l_Fort.png/revision/latest?cb=20140214224128' alt='Skill Li' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Formation_Attack.png/revision/latest?cb=20140401051640' alt='Skill Formation Attack' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Tornado_Flight.png/revision/latest?cb=20140401051735' alt='Skill Tornado Flight' width='32' height='32' /> </p><p><strong>For training to 210: </strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Leopard%27s_Paw.png/revision/latest?cb=20140321222022' alt='Skill Leopard' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Three-Point_Pounce.png/revision/latest?cb=20140321222432' alt='Skill Three-Point Pounce' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Thunder_Dash.png/revision/latest?cb=20140321222113' alt='Skill Thunder Dash' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Macho_Dance.png/revision/latest?cb=20140321222333' alt='Skill Macho Dance' width='32' height='32' /></p>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Paw_Swipe.png/revision/latest?cb=20140214224128' alt='Skill Paw Swipe'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Deep_Breath.png/revision/latest?cb=20140214224128' alt='Skill Deep Breath'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Really_Deep_Breath.png/revision/latest?cb=20140214224050' alt='Skill Really Deep Breath'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Li%27l_Fort.png/revision/latest?cb=20140214224128' alt='Skill Li'l Fort'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Fishy_Slap.png/revision/latest?cb=20140214224051' alt='Skill Fishy Slap'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Table_Flip.png/revision/latest?cb=20140214224129' alt='Skill Table Flip'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Leopard%27s_Paw.png/revision/latest?cb=20140321222022' alt='Skill Leopard's Paw'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Macho_Dance.png/revision/latest?cb=20140321222333' alt='Skill Macho Dance'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Thunder_Dash.png/revision/latest?cb=20140321222113' alt='Skill Thunder Dash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Three-Point_Pounce.png/revision/latest?cb=20140321222432' alt='Skill Three-Point Pounce'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Party_Time.png/revision/latest?cb=20140321222526' alt='Skill Party Time'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Formation_Attack.png/revision/latest?cb=20140401051640' alt='Skill Formation Attack'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Tornado_Flight.png/revision/latest?cb=20140401051735' alt='Skill Tornado Flight'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Friend_Launcher.png/revision/latest?cb=20140403174328' alt='Skill Friend Launcher'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Fire_Kitty%21.png/revision/latest?cb=20140403174635' alt='Skill Fire Kitty!'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Group_Bear_Blaster.png/revision/latest?cb=20140404210616' alt='Skill Group Bear Blaster'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/2888/beast-tamer",
+            "https://maplestory.fandom.com/wiki/Beast_Tamer",
+            "https://www.reddit.com/r/Maplestory/comments/h11ux4/a_guide_to_the_beast_tamer_changes_rise_patch/"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Pros and Cons & Hyper Passive Build & Boost Nodes Build", "OnceShine"],
+            ["Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Fort, Lai, Eka, and Arby",
+            "content": "<p><img class='extra-content-image' src='https://i.imgur.com/qhfdAG4.png' alt='Stance Change'></p><p>Beast Tamers do not have regular 1st, 2nd, 3rd, and 4th Job Advancements. Instead they 4 different animal stances with their own separate skill trees. The skills can only be used while in that specified stance. There is a Bear stance, Leopard stance, Hawk stance, and Cat stance. Hawk stance and Cat stance are unlocked as you level up. Cat stance, in particular, is a supportive stance that provides useful party buffs and heals</p><p><img class='extra-content-image' src='https://i.imgur.com/5orblvu.png' alt='Skill Tree'></p><p>Additionally, Skills are unlocked at a specified level and require a set amount of Skill Points to be allocated into that Animal skill tree. You will not be able to max out all your skills. Instead, you will only have enough SP to max two animal skill trees and some remaining for a third tree. Additionally, any skill effects such as passives and actives are only granted while in that particular animal stance</p><p><img class='extra-content-image' src='https://i.imgur.com/BTN9Tyg.png' alt='Expand View'/></p><p>Click this button in the Skill UI to show the expanded Skill Tree</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 110001506,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Guardian_Leap.png/revision/latest?cb=20140126155000"],
+                    "animations": ["https://media2.giphy.com/media/elJL1zvel3IsGljzcD/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice"
+                    ]
+                },
+                {
+                    "id": 110001510,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Critter_Select.png/revision/latest?cb=20140126155035"],
+                    "animations": ["https://media2.giphy.com/media/AXcSprKuKeNk3OwHpB/giphy.gif"],
+                    "type": "Special Active",
+                    "desc": "Allows you to change between each animal stance"
+                },
+                {
+                    "id": 110001514,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Homeward_Bound.png/revision/latest?cb=20140126155109"],
+                    "animations": ["https://media1.giphy.com/media/JBCRFF1XsOiU99QssA/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "id": 110000515,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Beast_Scepter_Mastery.png/revision/latest?cb=20140126155137"],
+                    "type": "Passive",
+                    "reqLev": 40
+                },
+                {
+                    "id": 110000513,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Growth_Spurt.png/revision/latest?cb=20140126155218"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Skill Level gradually increases as your character levels up"
+                    ],
+                    "reqLev": 60
+                },
+                {
+                    "id": 110001511,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Maple_Guardian.png/revision/latest?cb=20140217150807"],
+                    "animations": ["https://media1.giphy.com/media/JhJzu7Fci6btFAuXKk/giphy.gif"],
+                    "type": "Party Buff",
+                    "reqLev": 120
+                },
+                {
+                    "id": 110001512,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Beastly_Resolve.png/revision/latest?cb=20140217150915"],
+                    "animations": ["https://media2.giphy.com/media/XCa9brFCddpmZfibwo/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
+                    "reqLev": 150
+                }]
+            ],
+            [
+                "Bear", [
+                    {
+                        "id": 112000000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Paw_Swipe.png/revision/latest?cb=20140214224128"],
+                        "animations": ["https://media0.giphy.com/media/L069vTxBGyofRZEf9D/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "Swipes forward 3 times consecutively",
+                        "reqLev": 10
+                    },
+                    {
+                        "id": 112001006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Majestic_Trumpet.png/revision/latest?cb=20140214224128"],
+                        "animations": ["https://media0.giphy.com/media/RJIquD8nzOU9pqACyw/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Releases a lethal gas that leaves a lingering burning field",
+                        "reqLev": "14 + 7 SP"
+                    },
+                    {
+                        "id": 112000011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Well_Fed.png/revision/latest?cb=20140214224129"],
+                        "type": "Passive",
+                        "reqLev": "19 + 15 SP"
+                    },
+                    {
+                        "id": 112000010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Dumb_Luck.png/revision/latest?cb=20140214224051"],
+                        "type": "Passive",
+                        "reqLev": "25 + 14 SP"
+                    },
+                    {
+                        "id": 112001004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Deep_Breath.png/revision/latest?cb=20140214224128"],
+                        "animations": ["https://media2.giphy.com/media/kdjS5yegT2NJ7WxLhF/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Inhales pulling in enemies in front of you",
+                        "reqLev": "31 + 39 SP"
+                    },
+                    {
+                        "id": 112000015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Fort_Follow-Up.png/revision/latest?cb=20140214224051"],
+                        "type": "Passive",
+                        "desc": "Every 4th attack, you deal an additional attack",
+                        "reqLev": "39 + 47 SP"
+                    },
+                    {
+                        "id": 112000012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Defense_Ignorance.png/revision/latest?cb=20140214224051"],
+                        "type": "Passive",
+                        "reqLev": "47 + 62 SP"
+                    },
+                    {
+                        "id": 112000003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Furious_Strikes.png/revision/latest?cb=20140214224127"],
+                        "animations": ["https://media3.giphy.com/media/ZczWQtTYl9nfvWirfn/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Continuously slam hammers in front of you",
+                        "details": [
+                            "Activates when pressing Attack Key 4 times in a row",
+                            "To keep Furious Strikes going, you can hold onto or mash the Attack Key"
+                        ],
+                        "reqLev": "54 + 73 SP"
+                    },
+                    {
+                        "id": 112000014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Bear_Strength.png/revision/latest?cb=20140214224050"],
+                        "type": "Passive",
+                        "reqLev": "63 + 93 SP"
+                    },
+                    {
+                        "id": 112001005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Really_Deep_Breath.png/revision/latest?cb=20140214224050"],
+                        "animations": ["https://media3.giphy.com/media/PkL7zGfVE2ZR6CzLGk/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Inhales pulling in enemies on both sides of you",
+                        "details": [
+                            "Skill is separate from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Deep_Breath.png/revision/latest?cb=20140214224128' alt='Skill Deep Breath'>"
+                        ],
+                        "reqLev": "70 + 105 SP"
+                    },
+                    {
+                        "id": 112001007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Li%27l_Fort.png/revision/latest?cb=20140214224128"],
+                        "animations": ["https://media2.giphy.com/media/Lnj309C7FFn2cgqMfo/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons Li'l Fort to attack at a fixed location",
+                        "reqLev": "76 + 120 SP"
+                    },
+                    {
+                        "id": 112000013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Fort_the_Brave.png/revision/latest?cb=20140214224052"],
+                        "type": "Passive",
+                        "reqLev": "82 + 130 SP"
+                    },
+                    {
+                        "id": 112001009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Bear_Assault.png/revision/latest?cb=20140214224049"],
+                        "animations": ["https://media4.giphy.com/media/eRFtZQ6lqd9Zou0iaN/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "reqLev": "90 + 140 SP"
+                    },
+                    {
+                        "id": 112001008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Fishy_Slap.png/revision/latest?cb=20140214224051"],
+                        "animations": ["https://media3.giphy.com/media/jruRkUqOtVZOmlsaPh/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Swings a giant fish that damages nearby enemies",
+                        "reqLev": "98 + 155 SP"
+                    },
+                    {
+                        "id": 112000016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Bear_Reborn.png/revision/latest?cb=20140214224050"],
+                        "animations": ["https://media2.giphy.com/media/yYwqWuAYhkHEQm75nA/giphy.gif"],
+                        "type": "Passive Revive",
+                        "desc": "When hit by a fatal attack, you will be revived",
+                        "details": [
+                            "When revive activates, knock back and damage nearby enemies",
+                            "You are briefly invincible after reviving"
+                        ],
+                        "reqLev": "105 + 175 SP"
+                    },
+                    {
+                        "id": 112000020,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Billowing_Trumpet.png/revision/latest?cb=20140214224050", "https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Majestic_Trumpet.png/revision/latest?cb=20140214224128"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Additionally grants flat Magic Attack"
+                        ],
+                        "reqLev": "109 + 183 SP"
+                    },
+                    {
+                        "id": 112001018,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Table_Flip.png/revision/latest?cb=20140214224129"],
+                        "animations": ["https://media1.giphy.com/media/gJo0RmPw3bwPpL5rpA/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Flips a table in front of you damaging nearby enemies",
+                        "reqLev": "114 + 190 SP"
+                    }]
+                ],
+                [
+                "Leopard", [
+                    {
+                        "id": 112100000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Leopard%27s_Paw.png/revision/latest?cb=20140321222022"],
+                        "animations": ["https://media1.giphy.com/media/StRjxvabv074VpB4Mf/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "Swipes forward 2 times",
+                        "reqLev": 10
+                    },
+                    {
+                        "id": 112101007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Thunder_Dash.png/revision/latest?cb=20140321222113"],
+                        "animations": ["https://media0.giphy.com/media/IdmeTKvCeEv3Fo4Tjo/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swipes and dashes forward",
+                        "details": [
+                            "Can be linked with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Leopard%27s_Paw.png/revision/latest?cb=20140321222022' alt='Skill Leopard's Paw' width='32' height='32'> Leopard's Paw</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Leopard%27s_Pounce.png/revision/latest?cb=20140321222128' alt='Skill Leopard's Pounce' width='32' height='32'> Leopard's Pounce</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Leopard%27s_Roar.png/revision/latest?cb=20140321222407' alt='Skill Leopard's Roar' width='32' height='32'> Leopard's Roar</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Macho_Slam.png/revision/latest?cb=20140321222345' alt='Skill Macho Slam' width='32' height='32'> Macho Slam</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Three-Point_Pounce.png/revision/latest?cb=20140321222432' alt='Skill Three-Point Pounce' width='32' height='32'> Three-Point Pounce</li></ul>"
+                        ],
+                        "reqLev": "15 + 9 SP"
+                    },
+                    {
+                        "id": 112100011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Leopard_Hide.png/revision/latest?cb=20140321222121"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Maximum of 10% Max HP can be restored per attack"
+                        ],
+                        "reqLev": "21 + 18 SP"
+                    },
+                    {
+                        "id": 112100002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Leopard%27s_Pounce.png/revision/latest?cb=20140321222128"],
+                        "animations": ["https://media3.giphy.com/media/hW3yYE0iRioG1l0pqD/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pounces forward",
+                        "details": [
+                            "Automatically activated when pressing Attack Key 3 times in a row<ul><li>Can also be activated manually by pressing the Skill Key after the 2nd attack</li></ul>"
+                        ],
+                        "reqLev": "27 + 27 SP"
+                    },
+                    {
+                        "id": 112100013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Rippling_Feline_Muscles.png/revision/latest?cb=20140321222136"],
+                        "type": "Passive",
+                        "reqLev": "35 + 39 SP"
+                    },
+                    {
+                        "id": 112101004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Macho_Dance.png/revision/latest?cb=20140321222333"],
+                        "animations": ["https://media1.giphy.com/media/j2w7AnNHDIqbQQKN7e/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swipes up into the air launching yourself up",
+                        "reqLev": "41 + 48 SP"
+                    },
+                    {
+                        "id": 112101005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Macho_Slam.png/revision/latest?cb=20140321222345"],
+                        "animations": ["https://media2.giphy.com/media/cKcMAOZ6kEbRDBJyud/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pounces back down towards the ground",
+                        "details": [
+                            "Can only be used in the air"
+                        ],
+                        "reqLev": "49 + 60 SP"
+                    },
+                    {
+                        "id": 112101016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Bro_Attack.png/revision/latest?cb=20140321222358"],
+                        "animations": ["https://media2.giphy.com/media/JsszZ9ZrJWjbJ34WUv/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "While active, grants a chance for your attacks to summon a baby Snow Leopard to attack alongside you",
+                        "reqLev": "57 + 72 SP"
+                    },
+                    {
+                        "id": 112100003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Leopard%27s_Roar.png/revision/latest?cb=20140321222407"],
+                        "animations": ["https://media3.giphy.com/media/SVStqs2vE9LfvxPIBv/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Roars forward sending out a damaging shockwave",
+                        "details": [
+                            "Automatically activated when pressing Attack Key after <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Leopard%27s_Pounce.png/revision/latest?cb=20140321222128' alt='Skill Leopard's Pounce'>",
+                            "Increases %Damage and max number of enemies hit for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Leopard%27s_Paw.png/revision/latest?cb=20140321222022' alt='Skill Leopard's Paw'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Leopard%27s_Pounce.png/revision/latest?cb=20140321222128' alt='Skill Leopard's Pounce'>"
+                        ],
+                        "reqLev": "67 + 87 SP"
+                    },
+                    {
+                        "id": 112100008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Thunder_Trail.png/revision/latest?cb=20140321222417"],
+                        "animations": ["https://i.imgur.com/ArQMhkB.png"],
+                        "type": "Passive",
+                        "desc": "Leaves a damaging burning field after using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Thunder_Dash.png/revision/latest?cb=20140321222113' alt='Skill Thunder Dash'>",
+                        "reqLev": "73 + 96 SP"
+                    },
+                    {
+                        "id": 112100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Macho_Incarnate.png/revision/latest?cb=20140321222425"],
+                        "animations": ["https://i.imgur.com/nUyXKv3.png"],
+                        "type": "Passive",
+                        "desc": "Releases a mighty roar that has a chance to stun enemies after using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Macho_Slam.png/revision/latest?cb=20140321222345' alt='Skill Macho Slam'>",
+                        "details": [
+                            "<strong>[Passive]</strong>: Increases %Damage and max number of enemies hit for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Macho_Dance.png/revision/latest?cb=20140321222333' alt='Skill Macho Dance'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Macho_Slam.png/revision/latest?cb=20140321222345' alt='Skill Macho Slam'>"
+                        ],
+                        "reqLev": "80 + 107 SP"
+                    },
+                    {
+                        "id": 112101009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Three-Point_Pounce.png/revision/latest?cb=20140321222432"],
+                        "animations": ["https://media3.giphy.com/media/YmttNa9etD19MGEhGA/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pounces around 3 times while slashing at enemies",
+                        "reqLev": "86 + 116 SP"
+                    },
+                    {
+                        "id": 112100012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Advanced_Thunder_Dash.png/revision/latest?cb=20140321222444", "https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Thunder_Dash.png/revision/latest?cb=20140321222113"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and dash distance",
+                            "Reduces cooldown"
+                        ],
+                        "reqLev": "91 + 123 SP"
+                    },
+                    {
+                        "id": 112100010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Deadly_Fangs.png/revision/latest?cb=20140321222456"],
+                        "type": "Passive",
+                        "reqLev": "85 + 129 SP"
+                    },
+                    {
+                        "id": 112100014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Lethal_Lai.png/revision/latest?cb=20140321222505"],
+                        "type": "Passive",
+                        "reqLev": "101 + 138 SP"
+                    },
+                    {
+                        "id": 112100015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Leopard_Reflexes.png/revision/latest?cb=20140321222516"],
+                        "type": "Passive",
+                        "reqLev": "108 + 149 SP"
+                    },
+                    {
+                        "id": 112101017,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Party_Time.png/revision/latest?cb=20140321222526"],
+                        "animations": ["https://media2.giphy.com/media/d90xSUfc41yv32Qh9R/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Unleashes a deadly slash that damages a large area",
+                        "reqLev": "116 + 190 SP"
+                    }]
+            ],
+            [
+                "Hawk", [
+                    {
+                        "id": 112110003,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Formation_Attack.png/revision/latest?cb=20140401051640"],
+                        "animations": ["https://media1.giphy.com/media/Y4Dj3mN5oxGCgazgRv/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "When Attack Key is held, fires out homing birds",
+                        "details": [
+                            "When the birds hit an enemy, the cooldown of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Fly.png/revision/latest?cb=20140401051640' alt='Skill Fly'> Fly is reduced slightly",
+                            "You can move while casting"
+                        ],
+                        "reqLev": 30
+                    },
+                    {
+                        "id": 112111017,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Sky_Walk.png/revision/latest?cb=20140401051735"],
+                        "animations": ["https://media2.giphy.com/media/h2TFMtUBfgqLfWh0H8/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Increases the jump distance of <img width='32' height='32' class='Skill Guardian Leap' src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Guardian_Leap.png/revision/latest?cb=20140126155000' alt='Skill Guardian Leap'> and allows you to jump an extra time",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ],
+                        "reqLev": 30
+                    },
+                    {
+                        "id": 112111002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Vertical_Draft.png/revision/latest?cb=20140401051735"],
+                        "animations": ["https://media0.giphy.com/media/Q790pKKav1I5H9qiKA/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Launches yourself up into the air",
+                        "details": [
+                            "Can also be activated by double-tapping the Up Arrow Key while in the air"
+                        ],
+                        "reqLev": "33 + 8 SP"
+                    },
+                    {
+                        "id": 112111010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Eka_Express.png/revision/latest?cb=20140401051639"],
+                        "animations": ["https://media2.giphy.com/media/YpTgcPgjCOwqVMpWUj/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Creates a portal that leads to the nearest town for your party members",
+                        "details": [
+                            "To use, press the Up Arrow Key",
+                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage"
+                        ],
+                        "reqLev": "37 + 14 SP"
+                    },
+                    {
+                        "id": 112111000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Fly.png/revision/latest?cb=20140401051640"],
+                        "animations": ["https://media3.giphy.com/media/YmUk2hJFTXW21cyqEq/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Allows you to fly which unlocks additional attacks",
+                        "details": [
+                            "Press and hold the Jump Key and Up Arrow Key to fly",
+                            "Press the Jump Key and Down Arrow Key to stop flying"
+                        ],
+                        "reqLev": "43 + 20 SP"
+                    },
+                    {
+                        "id": 112111007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Hawk_Flock.png/revision/latest?cb=20140401051640"],
+                        "animations": ["https://media3.giphy.com/media/3C1ZHpBIdbkyV8lhxJ/giphy.gif"],
+                        "type": "Party Buff",
+                        "reqLev": "48 + 27 SP"
+                    },
+                    {
+                        "id": 112110014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Max_Mobility.png/revision/latest?cb=20140401051734"],
+                        "type": "Passive",
+                        "reqLev": "52 + 40 SP"
+                    },
+                    {
+                        "id": 112110005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Defensive_Formation.png/revision/latest?cb=20140401051639"],
+                        "animations": ["https://media0.giphy.com/media/dtIvsHDRBfZCnNssW5/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "While in <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Fly.png/revision/latest?cb=20140401051640' alt='Skill Fly'/>, birds periodically spawn and attack nearby enemies",
+                        "reqLev": "62 + 50"
+                    },
+                    {
+                        "id": 112111001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Eka_Glider.png/revision/latest?cb=20140401051639"],
+                        "animations": ["https://media0.giphy.com/media/dv6sn3ccim6vp1qY9j/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While in the air, holding the Skill Key will allow you to glide",
+                        "reqLev": "65 + 70 SP"
+                    },
+                    {
+                        "id": 112110012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Feather_Cloak.png/revision/latest?cb=20140401051640"],
+                        "type": "Passive",
+                        "reqLev": "72 + 71 SP"
+                    },
+                    {
+                        "id": 112111011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Regroup.png/revision/latest?cb=20140401051735"],
+                        "type": "Active",
+                        "desc": "Summons any party members on the same channel to your location",
+                        "details": [
+                            "Characters have to be above Lv. 9",
+                            "<strong>[Passive]</strong>: Increases %Ignore DEF"
+                        ],
+                        "reqLev": "78 + 81 SP"
+                    },
+                    {
+                        "id": 112111006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Raptor_Talons.png/revision/latest?cb=20140401051734"],
+                        "animations": ["https://media3.giphy.com/media/lTOZDoTUzVO1SYLonG/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants flat Magic Attack and causes your attacks to apply a damaging bleeding debuff",
+                        "reqLev": "83 + 82 SP"
+                    },
+                    {
+                        "id": 112111004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Baby_Bombers.png/revision/latest?cb=20140401051638"],
+                        "animations": ["https://media2.giphy.com/media/eIsjWXRKH5j0WlDhbl/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Fly.png/revision/latest?cb=20140401051640' alt='Skill Fly'>, commands birds to slash around you, damaging nearby enemies",
+                        "reqLev": "88 + 103 SP"
+                    },
+                    {
+                        "id": 112111009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Bird%27s-Eye_View.png/revision/latest?cb=20140401051638"],
+                        "animations": ["https://media1.giphy.com/media/ERTIcOB6qfqumpPbrm/giphy.gif"],
+                        "type": "Party Buff",
+                        "reqLev": "94 + 126 SP"
+                    },
+                    {
+                        "id": 112110015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Veteran_Formation.png/revision/latest?cb=20140401051736"],
+                        "type": "Passive",
+                        "reqLev": "99 + 137 SP"
+                    },
+                    {
+                        "id": 112111008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Razor_Beak.png/revision/latest?cb=20140401051735"],
+                        "animations": ["https://media3.giphy.com/media/NFQKuPQn4IrvNUJZh9/giphy.gif"],
+                        "type": "Party Buff",
+                        "reqLev": "104 + 145 SP"
+                    },
+                    {
+                        "id": 112110013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Feather_Boots.png/revision/latest?cb=20140401051639"],
+                        "type": "Passive",
+                        "reqLev": "110 + 150 SP"
+                    },
+                    {
+                        "id": 112111016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Tornado_Flight.png/revision/latest?cb=20140401051735"],
+                        "animations": ["https://media3.giphy.com/media/H4ydKagmfIAPgBNthn/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "While in <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Fly.png/revision/latest?cb=20140401051640' alt='Skill Fly'/>, creates a tornado that damages nearby enemies",
+                        "details": [
+                            "You can control the tornado by using the Arrow Keys, similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Sentient_Arrow.png/revision/latest?cb=20130210012159' alt='Skill Sentient Arrow'> Sentient Arrow"
+                        ],
+                        "reqLev": "118 + 170 SP"
+                    }]
+            ],
+            [
+                "Cat", [
+                    {
+                        "id": 112120000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Friend_Launcher.png/revision/latest?cb=20140403174328"],
+                        "animations": ["https://media0.giphy.com/media/hTCDVwgj3Ao5V2Tm6j/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "Launches an animal forward that damages enemies it hits",
+                        "reqLev": 50
+                    },
+                    {
+                        "id": 112120015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Cat_Wit.png/revision/latest?cb=20140403174316"],
+                        "type": "Passive",
+                        "reqLev": 50
+                    },
+                    {
+                        "id": 112120021,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Kitty_Battle_Squad.png/revision/latest?cb=20140403174259"],
+                        "type": "Party Passive",
+                        "reqLev": "53 + 8 SP"
+                    },
+                    {
+                        "id": 112120023,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Kitty_Treats.png/revision/latest?cb=20140403174344"],
+                        "type": "Party Passive",
+                        "reqLev": "56 + 15 SP"
+                    },
+                    {
+                        "id": 112120014,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Purr-Powered.png/revision/latest?cb=20140403174358"],
+                        "type": "Passive",
+                        "reqLev": "61 + 27 SP"
+                    },
+                    {
+                        "id": 112120017,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Sticky_Paws.png/revision/latest?cb=20140403174411"],
+                        "type": "Party Passive",
+                        "reqLev": "66 + 39 SP"
+                    },
+                    {
+                        "id": 112121013,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Meow_Heal.png/revision/latest?cb=20140403174425"],
+                        "animations": ["https://media2.giphy.com/media/VJ50AqBqWAO5aVaoLL/giphy.gif"],
+                        "type": "Party Heal",
+                        "desc": "Throws a yarn that heals any party members it hits",
+                        "reqLev": "71 + 51 SP"
+                    },
+                    {
+                        "id": 112120018,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Cat%27s_Claws.png/revision/latest?cb=20140403174443"],
+                        "type": "Party Passive",
+                        "reqLev": "75 + 60 SP"
+                    },
+                    {
+                        "id": 112121010,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Meow_Cure.png/revision/latest?cb=20140403174456"],
+                        "animations": ["https://media0.giphy.com/media/UAUQfTOOmtjzQBuTut/giphy.gif"],
+                        "type": "Party Active",
+                        "desc": "Cures party members of Abnormal Statuses",
+                        "reqLev": "79 + 70 SP"
+                    },
+                    {
+                        "id": 112121005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Purr_Zone.png/revision/latest?cb=20140403174506"],
+                        "animations": ["https://media1.giphy.com/media/YPhQotP9lxxOdovkYh/giphy.gif"],
+                        "type": "Party Heal / Attack",
+                        "desc": "Creates a zone that heals party members and damages enemies within it ",
+                        "reqLev": "84 + 83 SP"
+                    },
+                    {
+                        "id": 112121006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Meow_Card.png/revision/latest?cb=20140403174538"],
+                        "animations": ["https://media2.giphy.com/media/D5gD2rQDHmEOQYcYQL/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Provides a random buff based on a card chosen",
+                        "details": [
+                            "<img src='https://i.imgur.com/btkP5mN.png'> <strong>[Red Card]</strong>: Increases %Damage",
+                            "<img src='https://i.imgur.com/BjfAPJg.png'> <strong>[Blue Card]</strong>:<strong> </strong>Increases %Max HP/MP and grants flat DEF",
+                            "<img src='https://i.imgur.com/2dLvoXR.png'> <strong>[Green Card]:</strong> Increases Attack Speed (by 2 stages) and Movement Speed"
+                        ],
+                        "reqLev": "89 + 95 SP"
+                    },
+                    {
+                        "id": 112120058,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Friend_Launcher_-_Enhance.png/revision/latest?cb=20140403174603", "https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Friend_Launcher.png/revision/latest?cb=20140403174328"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ],
+                        "reqLev": "93 + 104 SP"
+                    },
+                    {
+                        "id": 112120022,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Mouser%27s_Insight.png/revision/latest?cb=20140403174625"],
+                        "type": "Party Passive",
+                        "reqLev": "97 + 113 SP"
+                    },
+                    {
+                        "id": 112121004,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Fire_Kitty%21.png/revision/latest?cb=20140403174635 "],
+                        "animations": ["https://media2.giphy.com/media/ft5asfPY9CZJCjp3DH/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a kitty forward that debuffs enemies hit",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy has reduced %DEF"
+                        ],
+                        "reqLev": "102 + 125 SP"
+                    },
+                    {
+                        "id": 112121011,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/61/Skill_Meow_Revive.png/revision/latest?cb=20140403174649"],
+                        "animations": ["https://media2.giphy.com/media/S8WyeSjOMCIuK3qk1j/giphy.gif"],
+                        "type": "Party Revive",
+                        "desc": "Revives all KO'd party members within range",
+                        "details": [
+                            "Still consumes a Death Count for bosses even if revived but buffs are kept"
+                        ],
+                        "reqLev": "107 + 137 SP"
+                    },
+                    {
+                        "id": 112120019,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Meow_Gold_Card.png/revision/latest?cb=20140403174714"],
+                        "type": "Passive",
+                        "desc": "Grants a chance to draw the Gold Card when using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Meow_Card.png/revision/latest?cb=20140403174538' alt='Skill Meow Card'> that provides the effects of all 3 cards",
+                        "reqLev": "111 + 147 SP"
+                    },
+                    {
+                        "id": 112120016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Friends_of_Arby.png/revision/latest?cb=20140403174736"],
+                        "type": "Party Passive",
+                        "desc": "",
+                        "details": [
+                            "When stacked with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Holy_Symbol.png/revision/latest?cb=20151207054159' alt='Skill Holy Symbol'> Holy Symbol, only the highest EXP bonus will take effect"
+                        ],
+                        "reqLev": "115 + 160 SP"
+                    },
+                    {
+                        "id": 112121057,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Cat%27s_Cradle_Blitzkrieg.png/revision/latest?cb=20140403174744"],
+                        "animations": ["https://media0.giphy.com/media/ibczXOhxAyWahErmSv/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates a zone where if a party member attacks an enemy, all enemies within the zone will take damage",
+                        "reqLev": "120 + 170 SP"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 112120043,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Furious_Strikes_-_Reinforce.png/revision/latest?cb=20140404210616"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 112120044,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Furious_Strikes_-_Extra_Strike.png/revision/latest?cb=20190730061721"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 112120045,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Furious_Strikes_-_Boss_Rush.png/revision/latest?cb=20140404210615"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 112120046,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Three_Point_Pounce_-_Reinforce.png/revision/latest?cb=20140404210641"],
+                    "type": "Passive",
+                    "reqLev": 190
+                },
+                {
+                    "id": 112120047,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Three_Point_Pounce_-_Spread.png/revision/latest?cb=20140404210641"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 112120048,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Three_Point_Pounce_-_Extra_Strike.png/revision/latest?cb=20140404210641"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 112120049,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Formation_Attack_-_Reinforce.png/revision/latest?cb=20140404210614"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 112120050,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Formation_Attack_-_Spread.png/revision/latest?cb=20140404210614"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 112120051,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Formation_Attack_-_Guardbreak.png/revision/latest?cb=20140404210614"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 112120052,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Friend_Launcher_-_Reinforce.png/revision/latest?cb=20140404210615"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 112120053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Friend_Launcher_-_Spread.png/revision/latest?cb=20140404210615"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 112120054,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Friend_Launcher_-_Range.png/revision/latest?cb=20140404210615"],
+                    "type": "Passive",
+                    "reqLev": 140
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 112121056,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Team_Roar.png/revision/latest?cb=20140404210641"],
+                    "animations": ["https://media3.giphy.com/media/pRhbNGAeQY1Mdsd2TS/giphy.gif"],
+                    "type": "Buff / Party Buff",
+                    "desc": "While active, grants invincibility to yourself and increases %Damage for your party",
+                    "reqLev": 140
+                },
+                {
+                    "id": 112121055,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Group_Bear_Blaster.png/revision/latest?cb=20140404210616"],
+                    "animations": ["https://media2.giphy.com/media/JRJ2fOrl9bO4sZQWCu/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launches a bear at enemies around you",
+                    "details": [
+                        "You are invincible while casting"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "id": 112121058,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_All_Together%21_Critter_Crossing%21.png/revision/latest?cb=20200613000257"],
+                    "animations": ["https://media2.giphy.com/media/Q99aClwKgW54hqBhId/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Applies all your passive and buff effects, regardless of the mode you are in",
+                    "details": [
+                        "You also gain passive and buffs for skills you do not have SP invested in but are removed at the end of the duration<ul><li>Buffs are removed at the end of the duration</li></ul>"
+                    ],
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Champ Charge",
+                    "shortDesc": "MP Cost: 1000, Beast Tamer's four animal friends attacks the enemy consecutively.\\nLai - Regular Attack: attacks 8 enemies 3 times dealing 750% damage, Special Attack: attacks 8 enemies 6 times dealing 700% damage.\\nFort - Regular Attack: attacks 6 enemies 2 times dealing 1145% damage, Special Attack: attacks 4 enemies 3 times dealing 1300% damage, then attacks 1 enemy 8 times dealing 750% damage.\\nEka - Regular Attack: attacks 8 enemies 10 times dealing 325% damage, Special Attack: attacks 15 enemies over a large range 10 times, dealing 350% damage.\\nArby - Regular Attack: attack 8 enemies 1 time dealing 1300% damage, Special Attack: periodically attack 8 enemies 4 times dealing 600% damage, creates a tree that reduces damage taken by nearby allies by 40%, Tree Duration: 10 sec\\nCooldown: 60 sec",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Champ_Charge.png/revision/latest?cb=20161204065740"],
+                    "animations": ["https://media0.giphy.com/media/XbaUn1EkdYw2ICY9hB/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes a powerful attack that releases a final attack with one of the 4 animals",
+                    "details": [
+                        "Continuously press the Skill Key to perform the attack",
+                        "You can choose which animal appears at the final attack similar to <img class='' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Critter_Select.png/revision/latest?cb=20140126155035' alt='Skill Critter Select' width='32' height='32'><ul><li>Choosing Arby the Cat will summon a tree that damages nearby enemies and reduces damage taken by party members</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Cub Cavalry",
+                    "shortDesc": "MP Cost: 1000, Summon Duration: 10 sec. Summons between 4 and at most 8 groups of critter cubs, depending on the number of enemies within range.\\nCubs periodically attack 3 times dealing 600% damage.\\nWhen time runs out the cubs attack, dealing 1500% damage to as many as 8 enemies 8 times\\nCooldown: 30 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Cub_Cavalry.png/revision/latest?cb=20170701162513"],
+                    "animations": ["https://media0.giphy.com/media/MEdsE4gRKRSsc9rDhl/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a group of critters that travel around while damaging enemies in its path",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Aerial Relief",
+                    "shortDesc": "MP Cost: 1500, periodically attacks 34 times, Max Enemies Hit: 15, Damage: 630%, Number of Attacks: 12\\nRecovers 1250 HP for you and nearby allies and ignores abnormal status.\\nCooldown: 145 sec",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Aerial_Relief.png/revision/latest?cb=20181115065212"],
+                    "animations": ["https://media2.giphy.com/media/TGoSY3UcN47FkKlRBo/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Your animal friends get on an airplane and launches forward ",
+                    "details": [
+                        "Unaffected by Damage Reflect",
+                        "Using the skill will restore some HP and cure Abnormal Statuses to nearby party members"
+                    ]
+                },
+                {
+                    "name": "The Greatest Show on Maple World is Coming!",
+                    "shortDesc": "MP Cost: 1000, Duration: 55 sec. Forms an area of effect that attacks up to 5 enemies for 1000% damage, 10 time(s), every 4 sec. If the mode changes during buff duration, it activates a tag attack that attacks up to 10 enemies, for 1275% damage, 12 time(s). Tag Attack Cooldown: 5 sec\\nCooldown: 180 sec",
+                    "id": 400021067,
+                    "icons": ["https://i.imgur.com/JwcduBp.png"],
+                    "animations": ["https://media0.giphy.com/media/KleKnG6S6InUf70UNN/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Your animal friends surround you, periodically damaging nearby enemies ",
+                    "details": [
+                        "While active, changing animal stances <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Critter_Select.png/revision/latest?cb=20140126155035' alt='Skill Critter Select'> will activate an additional attack that deals increased %Damage",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Majestic Trumpet - Bear Stance",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Majestic_Trumpet.png/revision/latest?cb=20140214224128"],
+                "animations": ["https://media0.giphy.com/media/RJIquD8nzOU9pqACyw/giphy.gif"]
+            },
+            {
+                "name": "Furious Strikes - Bear Stance",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Furious_Strikes.png/revision/latest?cb=20140214224127"],
+                "animations": ["https://media3.giphy.com/media/ZczWQtTYl9nfvWirfn/giphy.gif"]
+            },
+            {
+                "name": "Leopard's Roar - Leopard Stance",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Leopard%27s_Roar.png/revision/latest?cb=20140321222407"],
+                "animations": ["https://media3.giphy.com/media/SVStqs2vE9LfvxPIBv/giphy.gif"]
+            },
+            {
+                "name": "Party Time - Leopard Stance",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Party_Time.png/revision/latest?cb=20140321222526"],
+                "animations": ["https://media2.giphy.com/media/d90xSUfc41yv32Qh9R/giphy.gif"]
+            },
+            {
+                "name": "Formation Attack - Hawk Stance",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Formation_Attack.png/revision/latest?cb=20140401051640"],
+                "animations": ["https://media1.giphy.com/media/Y4Dj3mN5oxGCgazgRv/giphy.gif"]
+            },
+            {
+                "name": "Defensive Formation - Hawk Stance",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Defensive_Formation.png/revision/latest?cb=20140401051639"],
+                "animations": ["https://media0.giphy.com/media/dtIvsHDRBfZCnNssW5/giphy.gif"]
+            },
+            {
+                "name": "Cat's Cradle Blitzkrieg - Cat Stance",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Cat%27s_Cradle_Blitzkrieg.png/revision/latest?cb=20140403174744"],
+                "animations": ["https://media0.giphy.com/media/ibczXOhxAyWahErmSv/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Beast Tamer is an INT mage class part of its own Beast Tamer class group. What is special about Beast Tamers is that they do not have regular 1st, 2nd, 3rd, and 4th Job Advancements. Instead they 4 different animal stances with their own separate skill trees. The skills can only be used while in that specified stance. There is a Bear stance, Leopard stance, Hawk stance, and Cat stance"
+}

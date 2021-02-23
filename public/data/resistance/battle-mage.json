@@ -1,0 +1,608 @@
+{
+    "class": "Battle Mage",
+    "content": {
+        "classGroup": "Resistance",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["staff"]},
+            {"secondary": ["mageShield", "magicMarble"]}
+        ],
+        "classType": [
+            "Party Buff - Auras",
+            "Utility",
+            "Well-rounded"
+        ],
+        "innerAbility": ["Attack Speed", "Crit Rate", "Boss Damage"],
+        "prosCons": {
+            "pros": [
+                "Best teleporting skill <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Teleport.png/revision/latest?cb=20100530141342' alt='Skill Teleport'> since it can be used in the air, without platforms around and overall speed of teleport<ul><li>As well becomes a damaging attacking in 3rd Job with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'> Dark Shock</li></ul>",
+                "Has great party utility with party auras <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Hasty_Aura.png/revision/latest?cb=20150312015436' alt='Skill Hasty Aura'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Draining_Aura.png/revision/latest?cb=20141102065410' alt='Skill Draining Aura'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Blue_Aura.png/revision/latest?cb=20150312025849' alt='Skill Blue Aura'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Dark_Aura.png/revision/latest?cb=20150312034656' alt='Skill Dark Aura'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Weakening_Aura.png/revision/latest?cb=20141102204046' alt='Skill Weakening Aura'> and barriers <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Party_Shield.png/revision/latest?cb=20110515044651' alt='Skill Party Shield'> for any situation",
+                "Has lifesteal from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Draining_Aura.png/revision/latest?cb=20141102065410' alt='Skill Draining Aura'> Draining Aura",
+                "Lots of %DEF and %Max HP, great for training pre-200",
+                "Has 100% Knockback Resistance"
+            ],
+            "cons": [
+                "Has a bit of micromanaging from party auras",
+                "Reliant on telecasting (attacking while teleporting) and teleport",
+                "Short ranged compared to other mages"
+            ]
+        },
+        "baseStats": [
+            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            [
+                "<strong>Max HP</strong>: +180%",
+                "<strong>Avoidability</strong>: +40%",
+                "<strong>DEF</strong>: +150%",
+                "<strong>Magic Attack</strong>: +40%",
+                "<strong>Crit Rate</strong>: +35% + (20% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Battle_Rage.png/revision/latest?cb=20120810041643' alt='Skill Battle Rage'> Battle Rage is active)",
+                "<strong>Crit Damage</strong>: +40% + (8% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Battle_Rage.png/revision/latest?cb=20120810041643' alt='Skill Battle Rage'> Battle Rage is active)",
+                "<strong>Damage</strong>: +10% + (40% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Battle_Rage.png/revision/latest?cb=20120810041643' alt='Skill Battle Rage'> Battle Rage is active) + (20% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Dark_Aura.png/revision/latest?cb=20150312034656' alt='Skill Dark Aura'> Dark Aura is active)",
+                "<strong>Final Damage</strong>: +10%",
+                "<strong>Knockback Resistance</strong>: +100%",
+                "<strong>Attack Speed (Weapon)</strong>: 3 (additional -1 stage when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Hasty_Aura.png/revision/latest?cb=20150312015436' alt='Skill Hasty Aura'> Hasty Aura is active)",
+                "<strong>Damage Reduction (Regular Monsters)</strong>: +25% + (15% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Blue_Aura.png/revision/latest?cb=20150312025849' alt='Skill Blue Aura'> Blue Aura is active)",
+                "<strong>Ignore DEF</strong>: +30% + (20% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Weakening_Aura.png/revision/latest?cb=20141102204046' alt='Skill Weakening Aura'> Weakening Aura is active)",
+                "<strong>Abnormal Status Resistance</strong>: 30 + (20 when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Blue_Aura.png/revision/latest?cb=20150312025849' alt='Skill Blue Aura'> Blue Aura is active)"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Staff_Boost.png/revision/latest?cb=20110515023621' alt='Skill Staff Boost'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Battle_Rage.png/revision/latest?cb=20120810041643' alt='Skill Battle Rage'>(Toggle), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'> | <strong>Auras</strong> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Hasty_Aura.png/revision/latest?cb=20150312015436' alt='Skill Hasty Aura'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Draining_Aura.png/revision/latest?cb=20141102065410' alt='Skill Draining Aura'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Blue_Aura.png/revision/latest?cb=20150312025849' alt='Skill Blue Aura'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Dark_Aura.png/revision/latest?cb=20150312034656' alt='Skill Dark Aura'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Weakening_Aura.png/revision/latest?cb=20141102204046' alt='Skill Weakening Aura'>",
+            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Altar_of_Annihilation.png/revision/latest?cb=20170609033035' alt='Skill Altar of Annihilation'>(0.5s cd, 25s recharge), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Grim_Harvest.png/revision/latest?cb=20181115065214' alt='Skill Grim Harvest'>(100s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Resistance_Infantry.png/revision/latest?cb=20170625170734' alt='Skill Resistance Infantry'>(25s cd)",
+            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Master_of_Death.png/revision/latest?cb=20130516161917' alt='Skill Master of Death'>(200s cd), (120s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Aura_Scythe.png/revision/latest?cb=20161125062538' alt='Skill Aura Scythe'>(150s cd), <img src='https://orangemushroom.files.wordpress.com/2020/06/abyssal-lightning.png?w=600' alt='Skill Abyssal Lightning'/>(200s cd)",
+            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)",
+            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)"
+        },
+        "linkSkill": {
+            "id": 80000329,
+            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level"
+            ]
+        },
+        "howToCreate": {
+            "image": ["https://i.imgur.com/2CtzSMS.png",[499,374]],
+            "npc": [
+                ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/NPC_Brighton_%282%29.png/revision/latest?cb=20110328122018",[83,123]]
+            ],
+            "info": [
+                "To create one, choose the 'Resistance' option in the Character Creation screen and then continue through the story until Lv. 10 and talk to Brighton in the <a href='https://maplestory.wiki/GMS/210.1.1/map/310010000' target='_blank' rel='noopener'>Secret Plaza</a> when prompt with choosing a class"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Teleport.png/revision/latest?cb=20100530141342' alt='Skill Teleport'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Staff_Artist.png/revision/latest?cb=20130516152904' alt='Skill Staff Artist'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Hasty_Aura.png/revision/latest?cb=20150312015436' alt='Skill Hasty Aura'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Triple_Blow.png/revision/latest?cb=20100608052816' alt='Skill Triple Blow'>"],
+                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321' alt='Skill High Wisdom'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Ordinary_Conversion.png/revision/latest?cb=20100614034749' alt='Skill Ordinary Conversion'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Staff_Mastery.png/revision/latest?cb=20100614034639' alt='Skill Staff Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Staff_Boost.png/revision/latest?cb=20110515023621' alt='Skill Staff Boost'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Draining_Aura.png/revision/latest?cb=20141102065410' alt='Skill Draining Aura'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Quad_Blow.png/revision/latest?cb=20120401164928' alt='Skill Quad Blow'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Dark_Chain.png/revision/latest?cb=20120115030626' alt='Skill Dark Chain'>"],
+                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Power_Stance_%28Battle_Mage%29.png/revision/latest?cb=20150312033440' alt='Skill Power Stance (Battle Mage)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Dark_Conditioning.png/revision/latest?cb=20141102072847' alt='Skill Dark Conditioning'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Battle_Mastery.png/revision/latest?cb=20110515035123' alt='Skill Battle Mastery'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Blue_Aura.png/revision/latest?cb=20150312025849' alt='Skill Blue Aura'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Quintuple_Blow.png/revision/latest?cb=20110515035047' alt='Skill Quintuple Blow'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Battle_Burst.png/revision/latest?cb=20140511045852' alt='Skill Battle Burst'>"],
+                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Staff_Expert.png/revision/latest?cb=20130516161815' alt='Skill Staff Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Spell_Boost.png/revision/latest?cb=20141102211347' alt='Skill Spell Boost' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Finishing_Blow.png/revision/latest?cb=20120403234943' alt='Skill Finishing Blow' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Dark_Aura.png/revision/latest?cb=20150312034656' alt='Skill Dark Aura' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Weakening_Aura.png/revision/latest?cb=20141102204046' alt='Skill Weakening Aura' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Party_Shield.png/revision/latest?cb=20110515044651' alt='Skill Party Shield' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Battle_Rage.png/revision/latest?cb=20120810041643' alt='Skill Battle Rage' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Dark_Genesis.png/revision/latest?cb=20150312035127' alt='Skill Dark Genesis' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
+            ],
+            "details": [
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<p><strong>Training:</strong></p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Dark_Genesis_-_Cooldown_Cutter.png/revision/latest?cb=20141102213405' alt='Skill Dark Genesis - Cooldown Cutter' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Dark_Genesis_-_Reinforce.png/revision/latest?cb=20141102213407' alt='Skill Dark Genesis - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Dark_Genesis_-_Additional_Reinforce.png/revision/latest?cb=20141102213404' alt='Skill Dark Genesis - Additional Reinforce' width='32' height='32'> Dark Genesis - Cooldown Cutter, Reinforce and Additional Reinforce</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Weakening_Aura_-_Elemental_Decrease.png/revision/latest?cb=20141102213428' alt='Skill Weakening Aura - Elemental Decrease' width='32' height='32'> Dark Aura - Boss Rush</li><li>Last SP free for any</li></ul><p><strong>Bossing:</strong></p><ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Dark_Aura_-_Boss_Rush.png/revision/latest?cb=20141102213424' alt='Skill Dark Aura - Boss Rush' width='32' height='32'> Dark Aura - Boss Rush</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Weakening_Aura_-_Elemental_Decrease.png/revision/latest?cb=20141102213428' alt='Skill Weakening Aura - Elemental Decrease' width='32' height='32'> Weakening Aura - Elemental Decrease</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Blue_Aura_-_Dispel_Magic.png/revision/latest?cb=20141102213434' alt='Skill Blue Aura - Dispel Magic' width='32' height='32'> Blue Aura - Dispel Magic</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Party_Shield_-_Cooldown_Cutter.png/revision/latest?cb=20141102213516' alt='Skill Party Shield - Cooldown Cutter' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Party_Shield_-_Enhance.png/revision/latest?cb=20141102213512' alt='Skill Party Shield - Enhance' width='32' height='32'> Party Shield - Cooldown Cutter and Enhance</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Finishing_Blow.png/revision/latest?cb=20120403234943' alt='Skill Finishing Blow' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307' alt='Skill Condemnation' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Dark_Genesis.png/revision/latest?cb=20150312035127' alt='Skill Dark Genesis' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Sweeping_Staff.png/revision/latest?cb=20121113011743' alt='Skill Sweeping Staff' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Dark_Chain.png/revision/latest?cb=20120115030626' alt='Skill Dark Chain' width='32' height='32'>",
+            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Triple_Blow.png/revision/latest?cb=20100608052816' alt='Skill Triple Blow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307' alt='Skill Condemnation'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Quad_Blow.png/revision/latest?cb=20120401164928' alt='Skill Quad Blow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Dark_Chain.png/revision/latest?cb=20120115030626' alt='Skill Dark Chain'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Quintuple_Blow.png/revision/latest?cb=20110515035047' alt='Skill Quintuple Blow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Battle_Burst.png/revision/latest?cb=20140511045852' alt='Skill Battle Burst'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Finishing_Blow.png/revision/latest?cb=20120403234943' alt='Skill Finishing Blow'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Dark_Genesis.png/revision/latest?cb=20150312035127' alt='Skill Dark Genesis'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Sweeping_Staff.png/revision/latest?cb=20121113011743' alt='Skill Sweeping Staff'>"
+        },
+        "moreInfo": [
+            "http://maplestory.nexon.net/game/classes-and-jobs/1225/battle-mage",
+            "https://maplestory.fandom.com/wiki/Battle_Mage"
+        ],
+        "credits": [
+            ["Skill Icons", "MapleWiki"],
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "id": 20021000,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Crystal_Throw.png/revision/latest?cb=20100606013011"],
+                    "animations": ["https://media3.giphy.com/media/1c1qBgqtJNKp8u0UzW/giphy.gif"],
+                    "type": "Attacks",
+                    "desc": "Throws a rock that deals fixed damage"
+                },
+                {
+                    "id": 20021001,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Infiltrate.png/revision/latest?cb=20100606013059"],
+                    "animations": ["https://media2.giphy.com/media/OAqAR4PlE8MOEjfLwH/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Makes you invisible similar which when activated, you cannot hit or be hit by enemies similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> Dark Sight"
+                },
+                {
+                    "id": 20020002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Potion_Mastery.png/revision/latest?cb=20100606013234"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 30001281,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Secret_Assembly.png/revision/latest?cb=20160619042757"],
+                    "animations": ["https://media1.giphy.com/media/EOAPVrGaUNzjyNfV6G/giphy.gif"],
+                    "type": "Active"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "id": 32001000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Triple_Blow.png/revision/latest?cb=20100608052816"],
+                        "animations": ["https://media0.giphy.com/media/2cqwWQcA2ZzI0bLlL0/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strikes forward 3 times with your staff"
+                    },
+                    {
+                        "id": 32001002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Teleport.png/revision/latest?cb=20100530141342"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders<ul><li>Can still be used even if there are no platforms to teleport to</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 32001016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Hasty_Aura.png/revision/latest?cb=20150312015436"],
+                        "animations": ["https://media3.giphy.com/media/JLzDzZPsXO7qdHESoL/giphy.gif"],
+                        "type": "Party Aura",
+                        "desc": "",
+                        "details": [
+                            "When <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'/> Dark Shock (3rd Job) is learned, <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Teleport.png/revision/latest?cb=20100530141342' alt='Skill Combat Teleport'/> teleport range is increased<ul><li>This function can be toggled on/off by right-clicking the skill</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 32001014,
+                        "offline": true,
+                        "name": "Condemnation",
+                        "shortDesc": "After defeating 10 enemies, inflicts damage to 7 enemies on your next attack. Damage: 185 + (1% x Character Level), Number of Attacks: 7. Attacking a boss 2 times will count as defeating 1 enemy. Once activated, it cannot activate again until 9 sec have passed.",
+                        "maxLevel": 1,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307"],
+                        "animations": ["https://media1.giphy.com/media/FI0abs9kD2KHliZEOg/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "After defeating 10 enemies, your dark spirit will unleash a deadly attack",
+                        "details": [
+                            "Attacking a boss twice will count as defeating 1 enemy",
+                            "%Damage also scales based on your Character's Level"
+                        ]
+                    },
+                    {
+                        "id": 32000015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Staff_Artist.png/revision/latest?cb=20130516152904"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "id": 32101000,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Quad_Blow.png/revision/latest?cb=20120401164928"],
+                        "animations": ["https://media1.giphy.com/media/p0cyFf9YKDZUhW5C6H/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strikes forward 4 times with your staff"
+                    },
+                    {
+                        "id": 32101001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Dark_Chain.png/revision/latest?cb=20120115030626"],
+                        "animations": ["https://media0.giphy.com/media/3xngKrRq4CMpyvQPNT/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates a chain that pulls in and stuns enemies",
+                        "details": [
+                            "Can be linked with any Blow-type skills"
+                        ]
+                    },
+                    {
+                        "id": 32101009,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Draining_Aura.png/revision/latest?cb=20141102065410"],
+                        "animations": ["https://media0.giphy.com/media/WajNNsS5FtOX1DlKt8/giphy.gif"],
+                        "type": "Party Aura",
+                        "desc": "While active, your attacks restore a percentage of the damage dealt as HP",
+                        "details": [
+                            "<strong>[Passive]</strong>: Permanently restores some HP every few seconds and whenever you defeat an enemy you restore some %Max HP",
+                            "The healing cannot exceed 15% of your Max HP",
+                            "Damage dealt by the caster also recovers the HP of nearby party members"
+                        ]
+                    },
+                    {
+                        "id": 32101005,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Staff_Boost.png/revision/latest?cb=20110515023621"],
+                        "animations": ["https://media3.giphy.com/media/fEDVrR7WQ3anr6mrRp/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "id": 32100006,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Staff_Mastery.png/revision/latest?cb=20100614034639"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 32100007,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 32100008,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Ordinary_Conversion.png/revision/latest?cb=20100614034749"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 32100010,
+                        "offline": true,
+                        "name": "Grim Contract",
+                        "shortDesc": "After defeating 8 enemies, inflicts damage to 8 enemies on your next attack. Damage: 190 + (1% x Character Level), Number of Attacks: 8. Once activated, it cannot activate again until 8 sec have passed.",
+                        "maxLevel": 1,
+                        "icons": ["https://i.imgur.com/Psmer7y.png", "https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307"],
+                        "animations": ["https://media3.giphy.com/media/zWjsJfCQwHOq5Ksabq/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Reduces number of enemies required to activate to 8 and time between activations to 8 secs",
+                            "Increases %Damage, number of hits, and max enemies hit"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "id": 32111002,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Quintuple_Blow.png/revision/latest?cb=20110515035047"],
+                        "animations": ["https://media1.giphy.com/media/CmUmt0SkSitI8FfHOB/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strikes forward 5 times with your staff"
+                    },
+                    {
+                        "id": 32111015,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Battle_Burst.png/revision/latest?cb=20140511045852"],
+                        "animations": ["https://media0.giphy.com/media/H8TTe6BsnVlhzZENL5/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pulling enemies you pass through",
+                        "details": [
+                            "Can be linked with any Blow-type skills",
+                            "<strong>[Passive]</strong>: Permanently increases %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Dark_Chain.png/revision/latest?cb=20120115030626' alt='Skill Dark Chain'>"
+                        ]
+                    },
+                    {
+                        "id": 32111012,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Blue_Aura.png/revision/latest?cb=20150312025849"],
+                        "animations": ["https://media3.giphy.com/media/QGGJt2ekUpqwkF4KWD/giphy.gif"],
+                        "type": "Party Aura"
+                    },
+                    {
+                        "id": 32111016,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052"],
+                        "animations": ["https://media4.giphy.com/media/xodnSODsIYcnbE9HDe/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "When toggled, your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Teleport.png/revision/latest?cb=20100530141342' alt='Skill Teleport'> teleporting creates a shock attack that applies a debuff",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Attacking this enemy consumes the debuff and deals an additional attack<ul><li>If the enemy is a boss, the attack that consumes the debuff deals increased %Damage</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 32110001,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Battle_Mastery.png/revision/latest?cb=20110515035123"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 32110018,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Power_Stance_%28Battle_Mage%29.png/revision/latest?cb=20150312033440"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 32110019,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Dark_Conditioning.png/revision/latest?cb=20141102072847"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 32110017,
+                        "offline": true,
+                        "name": "Grim Contract II",
+                        "shortDesc": "After defeating 6 enemies, inflicts damage to 8 enemies on your next attack. Damage: 195 + (1% x Character Level), Number of Attacks: 10. Once activated, it cannot activate again until 6 sec have passed.",
+                        "maxLevel": 1,
+                        "icons": ["https://i.imgur.com/CbYkpWT.png", "https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307"],
+                        "animations": ["https://media0.giphy.com/media/gvdSoUyBhAJFQ5qnNM/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Reduces number of enemies required to activate to 6 and time between activations to 6 secs",
+                            "Increases %Damage and number of hits"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "id": 32121002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Finishing_Blow.png/revision/latest?cb=20120403234943"],
+                    "animations": ["https://media2.giphy.com/media/fndFCFAidGsFiR4s86/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strikes forward 6 times with your staff",
+                    "details": [
+                        "Attack has increased %Crit Rate and %Ignore DEF"
+                    ]
+                },
+                {
+                    "id": 32121004,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Dark_Genesis.png/revision/latest?cb=20150312035127"],
+                    "animations": ["https://media3.giphy.com/media/dpXAjnT5IPyrOxGN0f/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes a large deadly attack",
+                    "details": [
+                        "Ignores Damage Reflect",
+                        "<strong>[Final Attack]</strong>: While skill is on cooldown, attacks have a chance to hit a single enemy with a lightning strike",
+                        "<strong>[Passive]</strong>: Permanently increases %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Dark_Chain.png/revision/latest?cb=20120115030626' alt='Skill Dark Chain'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Battle_Burst.png/revision/latest?cb=20140511045852' alt='Skill Battle Burst'>, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'>"
+                    ]
+                },
+                {
+                    "id": 32121017,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Dark_Aura.png/revision/latest?cb=20150312034656"],
+                    "animations": ["https://media4.giphy.com/media/72KU3iov2ocJVPHOm0/giphy.gif"],
+                    "type": "Party Aura"
+                },
+                {
+                    "id": 32121018,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Weakening_Aura.png/revision/latest?cb=20141102204046"],
+                    "animations": ["https://media4.giphy.com/media/rFTAHekfdfMsRxtXDV/giphy.gif"],
+                    "type": "Party Aura"
+                },
+                {
+                    "id": 32121010,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Battle_Rage.png/revision/latest?cb=20120810041643"],
+                    "animations": ["https://media1.giphy.com/media/L1mOrPCVYzB3bN9gN0/giphy.gif"],
+                    "type": "Toggle Buff",
+                    "desc": "Increases %Damage, %Crit Rate and %Crit Damage",
+                    "details": [
+                        "While active, you can only target enemy<ul><li>Excludes <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307' alt='Skill Condemnation'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Aura_Scythe.png/revision/latest?cb=20161125062538' alt='Skill Aura Scythe'> (Ambassador Scythe), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Aura_Scythe.png/revision/latest?cb=20161125062538' alt='Skill Aura Scythe'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Altar_of_Annihilation.png/revision/latest?cb=20170609033035' alt='Skill Altar of Annihilation'>, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Grim_Harvest.png/revision/latest?cb=20181115065214' alt='Skill Grim Harvest'></li></ul>",
+                        "<strong>[Passive]</strong>: Permanently increases %Max HP/MP"
+                    ]
+                },
+                {
+                    "id": 32121006,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Party_Shield.png/revision/latest?cb=20110515044651"],
+                    "animations": ["https://media0.giphy.com/media/YaOtp3VFhNgTtIQksQ/giphy.gif"],
+                    "type": "Buff Zone",
+                    "desc": "Creates a shield that increases %Damage Reduction including %Max HP attacks"
+                },
+                {
+                    "id": 32121007,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
+                    "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "id": 32121008,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
+                    "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds "
+                },
+                {
+                    "id": 32120016,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Staff_Expert.png/revision/latest?cb=20130516161815", "https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Staff_Mastery.png/revision/latest?cb=20100614034639"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Magic Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "id": 32120020,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Spell_Boost.png/revision/latest?cb=20141102211347"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 32120019,
+                    "offline": true,
+                    "name": "Grim Contract III",
+                    "shortDesc": "After defeating 6 enemies, inflicts damage to 10 enemies on your next attack. Damage: 200 + (1% x Character Level), Number of Attacks: 12. Once activated, it cannot activate again until 5 sec have passed.",
+                    "maxLevel": 1,
+                    "icons": ["https://i.imgur.com/Pbe2ulI.png", "https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307"],
+                    "animations": ["https://media0.giphy.com/media/gvdSoUyBhAJFQ5qnNM/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Reduces time between activations to 5 secs",
+                        "Increases %Damage, number of hits, and max enemies hit"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "id": 32120057,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Dark_Genesis_-_Cooldown_Cutter.png/revision/latest?cb=20141102213405"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 32120058,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Dark_Genesis_-_Reinforce.png/revision/latest?cb=20141102213407"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 32120059,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Dark_Genesis_-_Additional_Reinforce.png/revision/latest?cb=20141102213404"],
+                    "type": "Passive",
+                    "desc": "Increases %Damage to the Final Attack lightning strike",
+                    "reqLev": 180
+                },
+                {
+                    "id": 32120060,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Dark_Aura_-_Boss_Rush.png/revision/latest?cb=20141102213424"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "id": 32120061,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Weakening_Aura_-_Elemental_Decrease.png/revision/latest?cb=20141102213428"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Does not stack with other buffs that reduces %Elemental Resistance"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "id": 32120062,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Blue_Aura_-_Dispel_Magic.png/revision/latest?cb=20141102213434"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "id": 32120063,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Party_Shield_-_Cooldown_Cutter.png/revision/latest?cb=20141102213516"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "id": 32120064,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Party_Shield_-_Persist.png/revision/latest?cb=20141102213514"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "id": 32120065,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Party_Shield_-_Enhance.png/revision/latest?cb=20141102213512"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "id": 32121056,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Master_of_Death.png/revision/latest?cb=20130516161917"],
+                    "animations": ["https://media3.giphy.com/media/NkDrM2kiddIBMm8Ebn/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases the number of hits per attack for Blow-type skills and provides bonus effects to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307' alt='Skill Condemnation'>",
+                    "details": [
+                        "While active, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307' alt='Skill Condemnation'> gains the following effects:<ul><li>Reduced number of enemies required to activate <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307' alt='Skill Condemnation'> (to 5 enemies)</li><li>Attack has increased %Final Damage</li><li>Cooldown of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307' alt='Skill Condemnation'> is slightly reduced every time you use a Dark-attribute attack</li></ul>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "id": 32120055,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Sweeping_Staff.png/revision/latest?cb=20121113011743"],
+                    "animations": ["https://media1.giphy.com/media/Y4TXT8Gb9YCWjdw80f/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Swings a giant staff and smashes it into the ground",
+                    "reqLev": 160
+                },
+                {
+                    "id": 32121053,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355"],
+                    "animations": ["https://media1.giphy.com/media/Ar37NFQOKIImPzkDt8/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["resistanceInfantry", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Aura Scythe",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Number of Attacks: 10, Damage: 1000%, enemies in range are frozen.\\nArea stays icy for 15 sec, periodically inflicting 750% damage and freezing stacks to enemies caught in it.\\nCooldown: 60 sec",
+                    "id": 400021002,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Aura_Scythe.png/revision/latest?cb=20161125062538"],
+                    "animations": ["https://media0.giphy.com/media/PTsU31Ntwf7nUvhrTC/giphy.gif"],
+                    "type": "Party Aura / Buff Attack",
+                    "desc": "Grants the effects of all your auras and alters your Blow-type skill into a slashing attack",
+                    "details": [
+                        "While active, the special attack can be toggled on or off by pressing the skill again"
+                    ]
+                },
+                {
+                    "name": "Altar of Annihilation",
+                    "shortDesc": "MP Cost: 500, Altar Duration: 40 sec, Max Enemies Hit: 10, Damage: 1600%, Number of Attacks: 4\\nThe orb takes 0.8 sec to move to the next altar. After 2 altars, the time to travel that distance is reduced by 15% for every additional altar.\\nA new altar can be summoned every 25 sec, up to 4 altars.\\nEnemies hit gain Dark Brand.\\nCooldown: 0.5 sec",
+                    "id": 400021030,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Altar_of_Annihilation.png/revision/latest?cb=20170609033035"],
+                    "animations": ["https://media2.giphy.com/media/0fBLvs3WNU3ziNb5me/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Creates an altar where when there are more than two altars active, an orb will travel between altars damaging enemies that it passes through",
+                    "details": [
+                        "A new altar is gained every 25 secs, up to 4 altars can be held at a time",
+                        "Orb will apply the debuff from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'>"
+                    ]
+                },
+                {
+                    "name": "Grim Harvest",
+                    "shortDesc": "MP Cost: 1000, summons the Grim Harvest that attacks for 30 sec every 4 sec. Max Enemies Hit: 10, Damage: 1600%, Number of Attacks: 12\\nUse the skill again to re-summon near you, can be used once every 10 sec.\\nIf the Grim Harvest defeats an enemy, the duration increases by 0.2 sec per 1 enemy. If a boss was attacked, the duration increases by 2 sec. Duration increased to up to 3 sec for each attack.\\nAttack interval becomes 50% with the Master of Death applied, but duration is not increased with attacks\\nCooldown: 100 sec",
+                    "id": 400021067,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Grim_Harvest.png/revision/latest?cb=20181115065214"],
+                    "animations": ["https://media2.giphy.com/media/3W9bWWfTttMIxAWB98/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a giant reaper that attacks nearby enemies",
+                    "details": [
+                        "Using the Skill again will re-summoned near you<ul><li>Can be used every 10 secs</li></ul>",
+                        "If Grim Harvest defeats an enemy, the duration is increased slightly<ul><li>If the enemy is a boss instead, the duration is increased whenever the summon hits it</li></ul>",
+                        "If <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Master_of_Death.png/revision/latest?cb=20130516161917' alt='Skill Master of Death' width='32' height='32'> is active, the time between attacks is reduced but attacks from the reaper will not increase the duration of the summon"
+                    ]
+                },
+                {
+                    "name": "Abyssal Lightning",
+                    "shortDesc": "MP Cost: 500, invincible during casting and disarmament\\nDuration: 35, periodically creates 2 netherworld passages, the passages remain for 15 sec, and up to 4 can exist in the map.\\nBlack Lightning: MP Cost: 75, Lightning Created: 3 times, Max Enemies Hit: 8, Damage: 100%, Number of Attacks: 5, Critical Rate: 100%, Enemy DEF Ignored: 20%, Final Damage: 80% only when activating instead of Dark Shock\\nCooldown: 200 sec",
+                    "id": 400021067,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/abyssal-lightning.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/RzcARu9K9xBHVTqarA/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, enhances <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'> and periodically creates passageways that you can teleport to",
+                    "details": [
+                        "To teleport to a passage, press the Skill Key and any Arrow Key together to move to the nearest passage<ul><li>Up to 4 passageways can exist at a time</li></ul>",
+                        "Enhanced <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052' alt='Skill Dark Shock'> has increased %Ignore DEF and is a guaranteed Critical Hit",
+                        "You are invincible at the initial cast and ending of the skill",
+                        "Unaffected Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Condemnation - 1st Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Condemnation.png/revision/latest?cb=20141031000307"],
+                "animations": ["https://media2.giphy.com/media/qdbsRTyuW3O9fhmAhG/giphy.gif"]
+            },
+            {
+                "name": "Finishing Blow - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Finishing_Blow.png/revision/latest?cb=20120403234943"],
+                "animations": ["https://media1.giphy.com/media/fndFCFAidGsFiR4s86/giphy.gif"]
+            },
+            {
+                "name": "Dark Genesis - 4th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Dark_Genesis.png/revision/latest?cb=20150312035127"],
+                "animations": ["https://media3.giphy.com/media/dpXAjnT5IPyrOxGN0f/giphy.gif"]
+            },
+            {
+                "name": "Sweeping Staff - Hyper Skill",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Sweeping_Staff.png/revision/latest?cb=20121113011743"],
+                "animations": ["https://media1.giphy.com/media/Y4TXT8Gb9YCWjdw80f/giphy.gif"]
+            },
+            {
+                "name": "Aura Scythe - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Aura_Scythe.png/revision/latest?cb=20161125062538"],
+                "animations": ["https://media0.giphy.com/media/PTsU31Ntwf7nUvhrTC/giphy.gif"]
+            },
+            {
+                "name": "Altar of Annihilation - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Altar_of_Annihilation.png/revision/latest?cb=20170609033035"],
+                "animations": ["https://media2.giphy.com/media/0fBLvs3WNU3ziNb5me/giphy.gif"]
+            },
+            {
+                "name": "Grim Harvester - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Grim_Harvest.png/revision/latest?cb=20181115065214"],
+                "animations": ["https://media2.giphy.com/media/3W9bWWfTttMIxAWB98/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Battle Mage is an INT mage class part of the Resistance. What's special about Battle Mages is that they have special aura buffs that affect party members as well. There are some useful buffs such as %Boss Damage and Attack Speed boosts. As well, Battle Mages has a dark spirit that follows them around and periodically attacks alongside you"
+}
