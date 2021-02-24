@@ -30,5 +30,8 @@
     "styled-components": "^5.2.1",
     "styled-theming": "^2.2.0",
     "swiper": "^6.4.15"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
   }
 }
