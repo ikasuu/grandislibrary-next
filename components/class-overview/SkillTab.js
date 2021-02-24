@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Tab, Tabs} from 'react-bootstrap';
-import { HashLink as Link } from 'react-router-hash-link';
+import Link from 'next/link';
 import styled from 'styled-components';
 import LazyLoad, { forceCheck } from 'react-lazyload';
 import storage from 'local-storage-fallback';
@@ -60,10 +60,10 @@ export function SkillTab({primary, fifth, hyper}) {
               <LazyLoad height={2000} offset={100}>
                 <StyledHeaderThree>Common V Skills</StyledHeaderThree>
                 <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings}/>
-                <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+                <a smooth href="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></a>
                 <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
                 <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
-                <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+                <a smooth href="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></a>
               </LazyLoad>
             </Tab>
             {hyper && <Tab eventKey="hyper" title="Hyper Skills">

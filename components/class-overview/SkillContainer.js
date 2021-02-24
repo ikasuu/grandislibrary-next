@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import axiosRetry from 'axios-retry';
-import { HashLink as Link } from 'react-router-hash-link';
+import Link from 'next/link';
 import { Image } from 'react-bootstrap';
 
 import SkillInfo from './SkillInfo'
@@ -118,7 +118,7 @@ export class SkillContainer extends Component {
                                     </div>
                             )
                         }
-                        <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+                        <a href="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></a>
                     </div>
                 }
             </div>

@@ -15,10 +15,10 @@ function DropdownNav(props) {
         <div className={styles["menu"]}>
             <Button className="nav-link-button nav-props" variant="link">Quick Links</Button>
             <div className={styles["dropdown-menu"]}>
-                <Link className="nav-link-button nav-props" href="/content" onClick={() => setExpanded(false)}>Content</Link>
-                <Link className="nav-link-button nav-props" href="/classes" onClick={() => setExpanded(false)}>Classes</Link>
-                <Link className="nav-link-button nav-props" href="/events" onClick={() => setExpanded(false)}>Events</Link>
-                <Link className="nav-link-button nav-props" href="/resources" onClick={() => setExpanded(false)}>Resources</Link>
+                <Link className="nav-link-button nav-props" href="/content" onClick={() => setExpanded(false)}><a>Content</a></Link>
+                <Link className="nav-link-button nav-props" href="/classes" onClick={() => setExpanded(false)}><a>Classes</a></Link>
+                <Link className="nav-link-button nav-props" href="/events" onClick={() => setExpanded(false)}><a>Events</a></Link>
+                <Link className="nav-link-button nav-props" href="/resources" onClick={() => setExpanded(false)}><a>Resources</a></Link>
             </div>
         </div>
     );

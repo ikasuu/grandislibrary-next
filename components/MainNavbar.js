@@ -58,8 +58,8 @@ function MainNavbar(props) {
             <Nav>
               <NavButton variant="link" className="hvr-buzz-out"><a href="https://discord.gg/d4et8vt9kP" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></NavButton>
               <DropdownNav setExpanded={setExpanded}/>
-              <Link className="nav-link-button nav-props" activeClassName="underline" href="/about" onClick={() => setExpanded(false)}>About</Link>
-              <Link className="nav-link-button nav-props" activeClassName="underline" isActive={checkActive} href="/" onClick={() => setExpanded(false)}>Home</Link>
+              <Link className="nav-link-button nav-props" activeClassName="underline" href="/about" onClick={() => setExpanded(false)}><a>About</a></Link>
+              <Link className="nav-link-button nav-props" activeClassName="underline" isActive={checkActive} href="/" onClick={() => setExpanded(false)}><a>Home</a></Link>
             </Nav>
             <NavButton variant="link" onClick={e=>
                   setTheme(

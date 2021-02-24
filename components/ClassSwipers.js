@@ -59,15 +59,17 @@ export function ClassGroupContainer({classes, classGroup}){
         <ClassContainer>
             <LazyLoad height={200} offset={100}>
                 {classes.map(job => 
-                    <Link href={`/classes/${classGroup}/${job[0]}`} key={job} className="hvr-float">
-                        <Figure>
-                            <ClassFigure
-                                width={120}
-                                height={176}
-                                alt={job[1]}
-                                src={`/class-portrait/${job[0]}.png`}/>
-                            <Overlay/>
-                        </Figure>
+                    <Link href={`/classes/${classGroup}/${job[0]}`} key={job}>
+                        <a className="hvr-float">
+                            <Figure>
+                                <ClassFigure
+                                    width={120}
+                                    height={176}
+                                    alt={job[1]}
+                                    src={`/class-portrait/${job[0]}.png`}/>
+                                <Overlay/>
+                            </Figure>
+                        </a>
                     </Link>
                 )}
             </LazyLoad>
