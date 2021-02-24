@@ -2,8 +2,6 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import Link from 'next/link';
 
-import styles from '../styles/DropdownNav.module.css';
-
 /*
     Dropdown menu component from navbar
     Created by: Ikasuu, Fall 2020
@@ -12,13 +10,13 @@ import styles from '../styles/DropdownNav.module.css';
 function DropdownNav(props) {
     const setExpanded = props.setExpanded;
     return (
-        <div className={styles["menu"]}>
+        <div className="dropdown-menu-container">
             <Button className="nav-link-button nav-props" variant="link">Quick Links</Button>
-            <div className={styles["dropdown-menu"]}>
-                <Link className="nav-link-button nav-props" href="/content" onClick={() => setExpanded(false)}><a>Content</a></Link>
-                <Link className="nav-link-button nav-props" href="/classes" onClick={() => setExpanded(false)}><a>Classes</a></Link>
-                <Link className="nav-link-button nav-props" href="/events" onClick={() => setExpanded(false)}><a>Events</a></Link>
-                <Link className="nav-link-button nav-props" href="/resources" onClick={() => setExpanded(false)}><a>Resources</a></Link>
+            <div className="dropdown-menu">
+                <Link href="/content"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Content</a></Link>
+                <Link href="/classes"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Classes</a></Link>
+                <Link href="/events"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Events</a></Link>
+                <Link href="/resources"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Resources</a></Link>
             </div>
         </div>
     );

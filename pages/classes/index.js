@@ -1,10 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
 
-import { HeaderImageUrl, classes } from '../special/Values';
-import HeaderImage from '../components/HeaderImage';
-import { ClassGroupContainer } from '../components/ClassSwipers';
-import * as Page from '../components/Page';
+import { HeaderImageUrl, classes } from '../../special/Values';
+import HeaderImage from '../../components/HeaderImage';
+import { ClassGroupContainer } from '../../components/ClassSwipers';
+import * as Page from '../../components/Page';
 
 /*
     Classes page for navigating into each Class Overview

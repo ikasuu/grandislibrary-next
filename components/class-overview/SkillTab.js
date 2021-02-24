@@ -60,10 +60,10 @@ export function SkillTab({primary, fifth, hyper}) {
               <LazyLoad height={2000} offset={100}>
                 <StyledHeaderThree>Common V Skills</StyledHeaderThree>
                 <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings}/>
-                <a smooth href="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></a>
+                <a href="#skill"><span className="jump-button-tabs"/></a>
                 <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
                 <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
-                <a smooth href="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></a>
+                <a href="#skill"><span className="jump-button-tabs"/></a>
               </LazyLoad>
             </Tab>
             {hyper && <Tab eventKey="hyper" title="Hyper Skills">
@@ -80,13 +80,6 @@ export function SkillTab({primary, fifth, hyper}) {
       <QuickJump settings={settings} setSettings={setSettings}/> 
     </div>
   );
-}
-
-// Used to scroll to anchor tags
-const scrollWidthOffset = (el) => {
-  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-  const yOffset = -80; 
-  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 // Retrieves settings from storage, if it does not exist, use default value (false & true)

@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Children } from 'react';
+import PropTypes from 'prop-types';
 import { Nav, Navbar, Button } from 'react-bootstrap';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import styled from 'styled-components';
 
 import DropdownNav from './DropdownNav';
@@ -10,15 +12,6 @@ import { logo } from '../special/Values';
     Main navbar component for our site
     Created by: Ikasuu, Fall 2020
 */
-
-//Check if homepage for NavLink use, else we will always have an underline under 'Home'
-const checkActive = (match, location) => {
-    //some additional logic to verify you are in the home URI
-    if(!location) return false;
-    const {pathname} = location;
-    return pathname === "/";
-}
-
 const NavButton = styled(Button)`
     width: fit-content !important;
 `;
@@ -39,8 +32,8 @@ function MainNavbar(props) {
       <div>
         <Navbar fixed="top" collapseOnSelect expand="lg" expanded={expanded}>
           <Navbar.Brand>
-            <Link className="site-title nav-props" href="/">
-              <a>
+            <Link href="/">
+              <a className="site-title nav-props">
                 <img
                     src={logo}
                     width="42"
@@ -58,8 +51,8 @@ function MainNavbar(props) {
             <Nav>
               <NavButton variant="link" className="hvr-buzz-out"><a href="https://discord.gg/d4et8vt9kP" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></NavButton>
               <DropdownNav setExpanded={setExpanded}/>
-              <Link className="nav-link-button nav-props" activeClassName="underline" href="/about" onClick={() => setExpanded(false)}><a>About</a></Link>
-              <Link className="nav-link-button nav-props" activeClassName="underline" isActive={checkActive} href="/" onClick={() => setExpanded(false)}><a>Home</a></Link>
+              <ActiveLink activeClassName="underline" href="/about"><a className="nav-link-button nav-props"onClick={() => setExpanded(false)}>About</a></ActiveLink>
+              <ActiveLink activeClassName="underline" href="/"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Home</a></ActiveLink>
             </Nav>
             <NavButton variant="link" onClick={e=>
                   setTheme(
@@ -72,6 +65,33 @@ function MainNavbar(props) {
         </Navbar>
       </div>
   );
+}
+
+/*
+    Active Link component which displays underline on the navbar for the link/page that is currently active
+    Created by: Ikasuu, Fall 2020
+*/
+const ActiveLink = ({ children, activeClassName, ...props}) => {
+  const { asPath } = useRouter();
+  const child = Children.only(children);
+  const childClassName = child.props.className || '';
+
+  const className =
+    asPath === props.href 
+      ? `${childClassName} ${activeClassName}`.trim()
+      : childClassName
+
+  return (
+    <Link {...props}>
+      {React.cloneElement(child, {
+        className: className || null,
+      })}
+    </Link>
+  )
+}
+
+ActiveLink.propTypes = {
+  activeClassName: PropTypes.string.isRequired,
 }
 
 export default MainNavbar;

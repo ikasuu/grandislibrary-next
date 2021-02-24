@@ -9,8 +9,6 @@ import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
 
-import '../../css/class-overview.css';
-
 /*
 This file contains the intro contents of a Class Overview
 In this file you will find:

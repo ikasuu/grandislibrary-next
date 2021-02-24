@@ -1,10 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
 
-import { HeaderImageUrl } from '../special/Values';
-import HeaderImage from '../components/HeaderImage';
-import { content } from '../special/SiteContent';
-import * as Page from '../components/Page';
+import { HeaderImageUrl } from '../../special/Values';
+import HeaderImage from '../../components/HeaderImage';
+import { content } from '../../special/SiteContent';
+import * as Page from '../../components/Page';
 
 /*
     Content page

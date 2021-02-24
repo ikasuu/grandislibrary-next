@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import { HashLink as Link } from 'react-router-hash-link';
+import Link from 'next/link';
 import Fab from '@material-ui/core/Fab';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -87,9 +87,9 @@ export function QuickJump({settings, setSettings}) {
             >
                 <div className="arrow" style={{position: "absolute", top: "0px", transform: "translate(0px, 8px)"}}/>
                 <MenuHeader>Quick Jump</MenuHeader>
-                <MenuItem onClick={handleClose}><MenuLink smooth to="#property" scroll={el => scrollWidthOffset(el)}>Class Properties</MenuLink></MenuItem>
-                <MenuItem onClick={handleClose}><MenuLink smooth to="#stat" scroll={el => scrollWidthOffset(el)}>Base Stats</MenuLink></MenuItem>
-                <MenuItem onClick={handleClose}><MenuLink smooth to="#skill" scroll={el => scrollWidthOffset(el)}>Skill Info</MenuLink></MenuItem>
+                <MenuItem onClick={handleClose}><MenuLink href="#property"><a>Class Properties</a></MenuLink></MenuItem>
+                <MenuItem onClick={handleClose}><MenuLink href="#stat"><a>Base Stats</a></MenuLink></MenuItem>
+                <MenuItem onClick={handleClose}><MenuLink href="#skill"><a>Skill Info</a></MenuLink></MenuItem>
                 <Divider variant="middle" />
                 <MenuHeader>Settings</MenuHeader>
                 <FormGroup>
@@ -121,7 +121,7 @@ const scrollWidthOffset = (el) => {
 
 export function ScrollToTop() {
     return (
-        <Link smooth to="#" scroll={el => scrollWidthOffset(el)}><ScrollFab/></Link>
+        <a href="#"><ScrollFab/></a>
     );
 }
 

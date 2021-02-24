@@ -7,9 +7,6 @@ import FeaturedSwiper, { ContentSwiper } from '../components/ContentSwipers';
 import { TopClassSwipe } from '../components/ClassSwipers';
 import GridContainer from '../components/homepage/GridContainer';
 
-// Import CSS
-import '../styles/Home.module.css';
-
 /*
     Homepage
     Created by: Ikasuu, Fall 2020

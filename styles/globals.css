@@ -84,11 +84,27 @@ footer{
   line-height: 1em !important;
 }
 
+/* Container to hold our dropdown menu */
+.dropdown-menu-container{
+  position: relative;
+  width: fit-content;
+  display: inline-block;
+}
+
 /* The dropdown menu itself, not the button */
 .dropdown-menu{
-  width: fit-content !important;
-  outline: none !important;
-  border: none !important;
+  width: fit-content;
+  display: none;
+  outline: none;
+  border: none;
+  margin-top: -0.1rem;
+  padding-left: 1rem;
+  border-radius: 0;
+}
+
+/* Logic to make dropdown menu function */
+.dropdown-menu-container:hover .dropdown-menu, .dropdown-menu-container:active .dropdown-menu {
+  display: block;
 }
 
 /* Underline property for the selected nav item and page */
@@ -99,8 +115,10 @@ footer{
   background-position: 0 calc(100% - 0.1em) !important;
 }
 
+/* Styling for bootstrap .btn buttons */
 .btn{
   font-weight: 300 !important;
+  transition: none;
 }
 
 /* Removes outline from buttons when clicked */
@@ -124,6 +142,16 @@ footer{
 
 #main-content {
   flex: 1;
+}
+
+/* CLASS OVERVIEW CSS */
+
+/* 0-991 px */
+@media (max-width: 991px){
+  .extra-content-image{
+      width: 100%;
+      height: auto;
+  }
 }
 
 /* MUI CSS */
@@ -151,4 +179,11 @@ footer{
 .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track{
   background-color: #4A7A8E !important;
   opacity: 1 !important;
+}
+
+/* SWIPER-RELATED CSS */
+
+/* Styling for the Swiper component, lowers the pagination dots */
+.content-slide{
+  margin: 1rem 0 3rem 0;
 }

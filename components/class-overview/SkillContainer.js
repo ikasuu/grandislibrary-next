@@ -118,19 +118,12 @@ export class SkillContainer extends Component {
                                     </div>
                             )
                         }
-                        <a href="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></a>
+                        <a href="#skill"><span className="jump-button-tabs"/></a>
                     </div>
                 }
             </div>
         );
     }
-}
-
-//Used to scroll to anchor tags
-const scrollWidthOffset = (el) => {
-    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-    const yOffset = -80; 
-    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 /*

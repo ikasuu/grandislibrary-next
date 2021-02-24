@@ -5,7 +5,6 @@ import Head from 'next/head';
 
 import { getInitialTheme, GlobalStyle } from '../special/GlobalTheme';
 import MainNavbar from '../components/MainNavbar';
-import ScrollToTop from '../special/Hooks';
 import Footer from '../components/Footer';
 
 // Import External Global CSS/SCSS
@@ -13,7 +12,7 @@ import 'swiper/swiper.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/navigation/navigation.scss';
-
+// Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Global CSS
@@ -37,7 +36,6 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyle/>
-              <ScrollToTop/>
               <MainNavbar setTheme={setTheme} theme={theme}/>
               <div id="main-content"><Component {...pageProps} /></div>
             <Footer/>
