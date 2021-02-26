@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { Col, Container, Row } from 'react-bootstrap';
 import styled from 'styled-components';
 
-import HeaderImageUrl from '../special/Values';
+import HeaderImageUrl from '../special/SiteValues';
 import HeaderImage from '../components/HeaderImage';
 import { Subtitle, Title } from '../components/Page';
 

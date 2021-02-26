@@ -1,5 +1,8 @@
 import React from 'react';
+import Head from 'next/head';
 
+import { EventPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
 
 const BurningSkill = {
@@ -10,7 +13,12 @@ const BurningSkill = {
 
 function BurningWorld() {
     return (
-        <div>
+        <EventPage>
+            <Head>
+                <title>Burning World | Grandis Library</title>
+                <meta content={"Burning World is a temporary world that has special benefits for all characters in this world"} name="description"/>
+            </Head>
+            <ContentTitle>Burning World</ContentTitle>
             <h2><img src="https://i.imgur.com/lItdwgb.png" width="40" height="46" alt=""/> What is Burning World?</h2>
             <p>Burning World is a temporary world that has special benefits for all characters in this world. Additionally, you are able to create multiple Mega Burning characters within this world. The main benefit is that at the end of the event, you are able to transfer your characters out of Burning World and into a Regular World (Non-Reboot World)</p>
             <p>Burning World characters can be transferred into any Regular World. Burning World characters cannot be transferred into Reboot worlds. This may be because Burning World functions almost the same as a regular world and does not have any Reboot functionalities</p>
@@ -143,7 +151,7 @@ function BurningWorld() {
             <p>For more info, check out: <a rel="noreferrer noopener" href="http://maplestory.nexon.net/news/59147/burning-world-event" target="_blank">http://maplestory.nexon.net/news/59147/burning-world-event</a></p>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: OrangeMushroom and MapleStory Official Website</p>
-        </div>
+        </EventPage>
     )
 }
 

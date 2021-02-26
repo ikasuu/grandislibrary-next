@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Image } from 'react-bootstrap';
 
 import SkillInfo from './SkillInfo'
-import { version, loadingImage } from '../../special/Values';
+import { version, loadingImage } from '../../special/SiteValues';
 
 /*
     This file contains both SkillContainer and VSkillContainer (exclusively for 5th Job Skills), containers to hold a list of skills

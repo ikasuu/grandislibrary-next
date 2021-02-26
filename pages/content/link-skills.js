@@ -1,12 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 
-import { linkSkills } from '../../special/Values';
+import { linkSkills } from '../../special/SiteValues';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
+import { ContentPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 function LinkSkills() {
     return (
-      <div className="repository-md-container">
+      <ContentPage className="repository-md-container">
+        <Head>
+            <title>Link Skill | Grandis Library</title>
+            <meta content={"An explanation of Link Skills and a list of all Link Skills and their Master Levels and effects"} name="description"/>
+        </Head>
+        <ContentTitle>Link Skills</ContentTitle>
         <p><img className="repository-image" src="https://i.imgur.com/MuIiQA4.png" alt="Link Manager UI"/></p>
         <p>Link Skills are unique to each class and can be given to your other characters on the same world. Link Skills mostly come as passives but there are a few Active Link Skills too</p>
         <p>Once a character reaches Level 70, they can share their Link Skill with another character. When you Share your Link Skill, both characters will gain the effect of the Link Skill. Sometimes Link Skills may have different effects for the character with the linked version. Link Skills grow stronger at Level 120 (Skill Level 2) and most grow stronger again at Level 210 (Skill Level 3). Some Link Skills can stack increasing the strength of the Link Skill by linking the same Link Skill multiple times from different characters of the same class group</p>
@@ -18,19 +26,19 @@ function LinkSkills() {
         <strong>Note:</strong> If you do not see your Link Skill in the Link Manager, you may have to accept a quest in the Lightbulb tab on the left-hand side of the screen. If you still do not see it, try relogging
         <h3 id="top">Quick Jumps</h3>
         <ul>
-          <li><Link smooth href="#explorers" scroll={el => scrollWidthOffset(el)}>Explorers</Link></li>
-          <li><Link smooth href="#cygnusknights" scroll={el => scrollWidthOffset(el)}>Cygnus Knights</Link></li>
-          <li><Link smooth href="#heroes" scroll={el => scrollWidthOffset(el)}>Heroes</Link></li>
-          <li><Link smooth href="#resistance" scroll={el => scrollWidthOffset(el)}>Resistance</Link></li>
-          <li><Link smooth href="#nova" scroll={el => scrollWidthOffset(el)}>Nova</Link></li>
-          <li><Link smooth href="#sengoku" scroll={el => scrollWidthOffset(el)}>Sengoku</Link></li>
-          <li><Link smooth href="#flora" scroll={el => scrollWidthOffset(el)}>Flora</Link></li>
-          <li><Link smooth href="#other" scroll={el => scrollWidthOffset(el)}>Other</Link></li>
-          <li><Link smooth href="#notable" scroll={el => scrollWidthOffset(el)}>Notable Link Skills</Link></li>
-          <li><Link smooth href="#builds" scroll={el => scrollWidthOffset(el)}>Examples of Link Skill Builds</Link></li>
+          <li><Link smooth href="#explorers" scroll>Explorers</Link></li>
+          <li><Link smooth href="#cygnusknights" scroll>Cygnus Knights</Link></li>
+          <li><Link smooth href="#heroes" scroll>Heroes</Link></li>
+          <li><Link smooth href="#resistance" scroll>Resistance</Link></li>
+          <li><Link smooth href="#nova" scroll>Nova</Link></li>
+          <li><Link smooth href="#sengoku" scroll>Sengoku</Link></li>
+          <li><Link smooth href="#flora" scroll>Flora</Link></li>
+          <li><Link smooth href="#other" scroll>Other</Link></li>
+          <li><Link smooth href="#notable" scroll>Notable Link Skills</Link></li>
+          <li><Link smooth href="#builds" scroll>Examples of Link Skill Builds</Link></li>
         </ul>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="explorers">Explorers</h2>
         <hr />
         <p><strong>[Hero, Paladin and Dark Knight]</strong></p>
@@ -51,7 +59,7 @@ function LinkSkills() {
         <p><strong>[Jett]</strong></p>
         <SingleSkill skillData={linkSkills.jett}/>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="cygnusknights">Cygnus Knights</h2>
         <hr />
         <p><strong>[Dawn Warrior, Wind Archer, Thunder Breaker, Night Walker, and Blaze Wizard]</strong></p>
@@ -60,7 +68,7 @@ function LinkSkills() {
         <p><strong>[Mihile]</strong></p>
         <SingleSkill skillData={linkSkills.mihile}/>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="heroes">Heroes</h2>
         <hr />
         <p><strong>[Mercedes]</strong></p>
@@ -81,7 +89,7 @@ function LinkSkills() {
         <p><strong>[Shade] </strong></p>
         <SingleSkill skillData={linkSkills.shade}/>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="resistance">Resistance</h2>
         <hr />
         <p><strong>[Wild Hunter, Battle Mage, Mechanic, and Blaster]</strong></p>
@@ -96,7 +104,7 @@ function LinkSkills() {
         <p><strong>[Xenon]</strong></p>
         <SingleSkill skillData={linkSkills.xenon}/>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="nova">Nova</h2>
         <hr />
         <p><strong>[Angelic Buster]</strong></p>
@@ -108,7 +116,7 @@ function LinkSkills() {
         <p><strong>[Kaiser] </strong></p>
         <SingleSkill skillData={linkSkills.kaiser}/>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="sengoku">Sengoku</h2>
         <hr />
         <p><strong>[Hayato] </strong></p>
@@ -117,7 +125,7 @@ function LinkSkills() {
         <p><strong>[Kanna] </strong></p>
         <SingleSkill skillData={linkSkills.kanna}/>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="flora">Flora</h2>
         <hr />
         <p><strong>[Ark] </strong></p>
@@ -129,7 +137,7 @@ function LinkSkills() {
         <p><strong>[Adele] </strong></p>
         <SingleSkill skillData={linkSkills.adele}/>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="other">Other</h2>
         <hr />
         <p><strong>[Beast Tamer] </strong></p>
@@ -144,7 +152,7 @@ function LinkSkills() {
         <p><strong>[Zero] </strong></p>
         <SingleSkill skillData={linkSkills.zero}/>
         <hr />
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="notable">Notable Link Skills:</h2>
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>
@@ -240,7 +248,7 @@ function LinkSkills() {
           <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32" /> <strong>[Beast Tamer] </strong>- Up to 10%</li>
           <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124" alt="Skill Phantom Instinct" width="32" height="32" /> <strong>[Phantom] </strong>- Up to 20%</li>
         </ul>
-        <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="builds">Examples of Link Skill Builds:</h2>
         <h3>Training:</h3>
         <p><img src="https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Combo_Kill_Blessing.png/revision/latest?cb=20160623050748" alt="Skill Combo Kill Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Solus.png/revision/latest?cb=20180815050834" alt="Skill Solus" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Unfair_Advantage.png/revision/latest?cb=20171205075511" alt="Skill Unfair Advantage" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Wild_Rage.png/revision/latest?cb=20140623054437" alt="Skill Wild Rage" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rune_Persistence.png/revision/latest?cb=20160624211333" alt="Skill Rune Persistence" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130" alt="Skill Adventurer's Curiosity" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726" alt="Skill Thief's Cunning" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502" alt="Skill Pirate Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Bravado.png/revision/latest?cb=20191117083357" alt="Skill Bravado" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609" alt="Skill Rhinne's Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Elementalism.png/revision/latest?cb=20171223042231" alt="Skill Elementalism" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)" width="32" height="32"/></p>
@@ -265,16 +273,8 @@ function LinkSkills() {
         <p><a href="https://www.youtube.com/watch?v=zT1jX_tnQjM">https://www.youtube.com/watch?v=zT1jX_tnQjM</a></p>
         <h4>Credits:</h4>
         <p><strong>Skill Icons + Info</strong>: MapleWiki</p>
-      </div>
+      </ContentPage>
     )
-}
-
-//Used to scroll to anchor tags
-
-const scrollWidthOffset = (el) => {
-  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-  const yOffset = -80; 
-  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 export default LinkSkills

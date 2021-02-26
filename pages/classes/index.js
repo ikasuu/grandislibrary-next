@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import { HeaderImageUrl, classes } from '../../special/Values';
+import { HeaderImageUrl, classes } from '../../special/SiteValues';
 import HeaderImage from '../../components/HeaderImage';
 import { ClassGroupContainer } from '../../components/ClassSwipers';
 import * as Page from '../../components/Page';

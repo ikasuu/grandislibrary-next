@@ -1,8 +1,17 @@
 import React from 'react';
+import Head from 'next/head';
+
+import { EventPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 function MapleRelay() {
     return (
-        <div>
+        <EventPage>
+            <Head>
+                <title>Maple Relay | Grandis Library</title>
+                <meta content={"Maple Relay is an event where you receive rewards for simply staying online. Obtain gifts daily and at each milestone"} name="description"/>
+            </Head>
+            <ContentTitle>Maple Relay</ContentTitle>
             <h2>What is Maple Relay?</h2>
             <p>Maple Relay is an event where you receive rewards for simply staying online. During the event, you will receive a reward daily for staying on 30 mins, 60 mins, 90 mins, and 180 mins. Each time you claim the daily reward, you will add a point to the "Total Claimed" counter. As you reach 12, 32, 56, and 80 reward claims, you will receive a special reward. This means that each day you can obtain a total of 4 reward claims</p>
             <p><img className="repository-image" src="https://i.imgur.com/3ORAvj5.png" alt="Maple Relay UI"/></p>
@@ -57,7 +66,7 @@ function MapleRelay() {
             <p>For more info, check out:</p> 
             <p><a href="http://maplestory.nexon.net/news/59255/v-215-rise-surge-of-power-patch-notes#relay">http://maplestory.nexon.net/news/59255/v-215-rise-surge-of-power-patch-notes#relay</a></p>
             <p><strong>Information from</strong>: MapleStory Official Website</p>
-        </div>
+        </EventPage>
     )
 }
 

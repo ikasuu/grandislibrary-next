@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import styled from 'styled-components';
 
 import DropdownNav from './DropdownNav';
-import { logo } from '../special/Values';
+import { logo } from '../special/SiteValues';
 
 /*
     Main navbar component for our site

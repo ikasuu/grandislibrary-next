@@ -17,7 +17,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Global CSS
 import '../styles/hover.css';
-import '../styles/globals.css'
+import '../styles/globals.css';
+import '../styles/repository-page.css';
 
 function MyApp({ Component, pageProps }) {
 

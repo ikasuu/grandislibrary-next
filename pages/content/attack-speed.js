@@ -1,8 +1,17 @@
 import React from 'react';
+import Head from 'next/head';
+
+import { ContentPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 function AttackSpeed() {
     return (
-        <div>
+        <ContentPage>
+            <Head>
+                <title>Attack Speed | Grandis Library</title>
+                <meta content={"An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"} name="description"/>
+            </Head>
+            <ContentTitle>Attack Speed</ContentTitle>
             <p>Modified from: <a href="http://www.basilmarket.com/General-Attack-Speed-101-Wiki-303" target="_blank" rel="noreferrer noopener">http://www.basilmarket.com/General-Attack-Speed-101-Wiki-303</a></p>
             <h2><strong>Attack Speed of your Weapon</strong></h2>
             <p>Each Weapon in the game has an Attack Speed value in their description as follows:</p>
@@ -145,7 +154,7 @@ function AttackSpeed() {
             <h3>Example:</h3>
             <p>An Aran with the <img src="https://maplestory.io/api/GMS/210.1.1/item/1442002/icon" alt=""/> Eviscerator polearm, which is Slower (9). The Aran gets +2 AS from their <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Polearm_Booster.png/revision/latest?cb=20100603074001" alt="Skill Polearm Booster" width="32" height="32"/> Weapon Booster skill, +1 AS from <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Polearm_Mastery.png/revision/latest?cb=20100603082005" alt="Skill Polearm Mastery" width="32" height="32"/> Polearm Mastery skill, +1 AS from <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Speed_Infusion.png/revision/latest?cb=20110508020039" alt="Skill Speed Infusion" width="32" height="32"/> Decent Speed Infusion, +1 from Inner Ability, and +1 from <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Use_Extreme_Green_Potion.png/revision/latest?cb=20170206074332" alt="Use Extreme Green Potion" width="22" height="31"/> Extreme Green Potion (for a total of +6 AS). Thus, their attack speed would be: Slower (9) - (+6 AS) = Fastest (3)</p>
             <p>Later, they find a Rune of Swiftness and uses it, granting them another +3 attack speed that can ignore the soft speed cap (for a total of +9 attack speed). Their final Attack Speed is Fastest (0)</p>
-        </div>
+        </ContentPage>
     );
 }
 

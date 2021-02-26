@@ -1,8 +1,17 @@
 import React from 'react';
+import Head from 'next/head';
+
+import { EventPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 function MegaBurning() {
     return (
-        <div>
+        <EventPage>
+            <Head>
+                <title>Mega Burning | Grandis Library</title>
+                <meta content={"An event where created characters after level 10 gain 2 extra levels for every level up until level 150"} name="description"/>
+            </Head>
+            <ContentTitle>Mega Burning</ContentTitle>
             <h2>What is Mega Burning?</h2>
             <p>Mega Burning Project is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 150. </strong>That means you will get 3 levels for every level up! This event is open to <strong>ALL</strong> servers, both Reboot and non-Reboot worlds. Certain characters cannot be burned which includes <strong>Zero and any newly released classes if stated</strong></p>
             <h3>Notes</h3>
@@ -85,7 +94,7 @@ function MegaBurning() {
             <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project</a></p>
-        </div>
+        </EventPage>
     )
 }
 

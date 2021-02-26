@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 
-import { version, versionName } from '../special/Values';
+import { version, versionName } from '../special/SiteValues';
 import { KofiButton } from './Page';
 
 /*

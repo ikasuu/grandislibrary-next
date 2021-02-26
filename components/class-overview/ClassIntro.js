@@ -1,10 +1,10 @@
 import React from 'react';
-import DOMPurify from 'dompurify';
+import DOMPurify from 'isomorphic-dompurify';
 import parse from 'html-react-parser';
 import styled from 'styled-components';
 import { Col, Container, Image, Table, Row, Card } from 'react-bootstrap';
 
-import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
+import { weapons, secondaryWeapons, weaponConsumable } from '../../special/SiteValues';
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';

@@ -8,7 +8,7 @@ import Fuse from 'fuse.js';
 
 import data from '../special/resource-content.json';
 
-import HeaderImageUrl from '../special/Values';
+import HeaderImageUrl from '../special/SiteValues';
 import HeaderImage from '../components/HeaderImage';
 import { Title, TabLink } from '../components/Page';
 

@@ -1,8 +1,17 @@
 import React from 'react';
+import Head from 'next/head';
+
+import { EventPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 function WhoToTeraBurn() {
     return (
-        <div>
+        <EventPage>
+            <Head>
+                <title>Who to Tera Burn | Grandis Library</title>
+                <meta content={"A guide to help you choose a character to Tera Burn based on good Link Skills and Legion bonuses"} name="description"/>
+            </Head>
+            <ContentTitle>Who To Tera Burn</ContentTitle>
             <p>Modified from shrimpstation's: <a rel="noreferrer noopener" href="https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/" target="_blank">https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/</a></p>
             <h2>What makes a character good to burn?</h2>
             <p>Generally, burns are best for classes considered annoying and difficult to train or if you are seeking to create a new main character. Since Tera Burning goes to up Lv. 200 as opposed to Lv. 150 for Mega Burning, it’s a good time to get a character to Lv. 210 for their Lv. 3 Link Skill. There are also classes with good Legion System bonuses at Lv. 200 that are also useful if you already have your main Link Skills</p>
@@ -181,7 +190,7 @@ function WhoToTeraBurn() {
             <hr/>
             <h3>Credits:</h3>
             <p>shrimpstation</p>
-        </div>
+        </EventPage>
     )
 }
 

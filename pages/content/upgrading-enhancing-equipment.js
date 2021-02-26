@@ -1,23 +1,32 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
+
+import { ContentPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 function UpgradeEquipment() {
     return (
-      <div>
+      <ContentPage>
+          <Head>
+            <title>Upgrading & Enhancing Equipment | Grandis Library</title>
+            <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
+          </Head>
+          <ContentTitle>Upgrading & Enhancing Equipment</ContentTitle>
           <p><img className="repository-image" src="https://vignette.wikia.nocookie.net/maplestory/images/4/46/Unlimited_UI_Equip.png/revision/latest?cb=20130426110647" alt="Equipment Diagram"/></p>
           <p>Bonus Stats appear in <span style={{color: '#339966'}}>green</span> font while stats from upgrading appear in <span style={{color: '#3366ff'}}>blue</span> [Refer to 11]. The color of an item's name indicates how many stats above or below average an item is [Refer to 02]</p>
           <h3 id="top">Quick Jumps</h3>
           <ul>
-            <li><Link smooth href="#scrolls" scroll={el => scrollWidthOffset(el)}>Scrolls</Link></li>
-            <li><Link smooth href="#spelltrace" scroll={el => scrollWidthOffset(el)}>Spell Tracing</Link></li>
-            <li><Link smooth href="#starforce" scroll={el => scrollWidthOffset(el)}>Star Forcing</Link></li>
-            <li><Link smooth href="#hammer" scroll={el => scrollWidthOffset(el)}>Transfer Hammer</Link></li>
-            <li><Link smooth href="#transpose" scroll={el => scrollWidthOffset(el)}>Transposing</Link></li>
-            <li><Link smooth href="#cubing" scroll={el => scrollWidthOffset(el)}>Cubing & Potentials</Link></li>
-            <li><Link smooth href="#bonus" scroll={el => scrollWidthOffset(el)}>Flames &amp; Bonus Stats</Link></li>
+            <li><Link smooth href="#scrolls" scroll>Scrolls</Link></li>
+            <li><Link smooth href="#spelltrace" scroll>Spell Tracing</Link></li>
+            <li><Link smooth href="#starforce" scroll>Star Forcing</Link></li>
+            <li><Link smooth href="#hammer" scroll>Transfer Hammer</Link></li>
+            <li><Link smooth href="#transpose" scroll>Transposing</Link></li>
+            <li><Link smooth href="#cubing" scroll>Cubing & Potentials</Link></li>
+            <li><Link smooth href="#bonus" scroll>Flames &amp; Bonus Stats</Link></li>
           </ul>
           <div className="repository-md-container">
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="scrolls">Scrolls in Regular Servers</h2>
             <hr/>
             <p>Scrolls are one way of upgrading equipment, they are found in the USE tab. Scrolls are the traditional way of upgrading equipment and can be done by double-clicking it and dragging it on to an item. Most of regular scrolls nowadays are useless and have been replaced with an easier system called <a rel="noreferrer noopener" href="https://support-maplestory.nexon.net/hc/en-us/articles/204744535-What-are-Spell-Traces-" target="_blank">Spell Tracing</a> which will be explained later. For now, Spell Tracing provides the same function as scrolling and is much easier to obtain than scrolls</p>
@@ -203,7 +212,7 @@ function UpgradeEquipment() {
                   scroll when applied
               </li>
             </ul>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="spelltrace"><img src="https://maplestory.io/api/GMS/210.1.1/item/2433943/icon" alt=""/> Spell Tracing in Regular Servers</h2>
             <hr/>
             <p><img src="https://i.imgur.com/MapgJ6D.png" alt="Spell Trace"/></p>
@@ -215,7 +224,7 @@ function UpgradeEquipment() {
             <p>There are different scrolls to choose from, for weapons most of the time you just use the 70% ones and 15% if you have the resources and plan to keep it for a while</p>
             <p>For regular gear, you can upgrade them using 70% and 30% if you have the resources and plan to keep it for a while</p>
             <p><strong>[Note]</strong>: The lower the success rate, the higher the stats they provide but also costs more Spell Traces! As well, the higher level gear will cost more Spell Traces</p>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="starforce">Star Forcing</h2>
             <hr/>
             <p><img src="https://support-maplestory.nexon.net/hc/article_attachments/360057675372/starforce.png" alt="Starforce Equipment"/></p>
@@ -253,7 +262,7 @@ function UpgradeEquipment() {
             <p>If the equipment is destroyed while Star Forcing, you will gain an Equipment Trace. Equipment Traces can be applied to a new copy of the same item to restore all the stats, potentials and enhancements</p>
             <p><strong>[Star Force Maps]</strong>: There are special training maps that will require you to have a certain amount of Star Force to hunt efficiently on a map. These maps feature monsters with greater health but give much more EXP</p>
             <p>Star Force also contributes to the amount of damage your Legion Character does on the Legion Board</p>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="hammer">Transfer Hammer</h2>
             <hr/>
             <p><img className="repository-image" src="https://i.imgur.com/fqoJwOA.png" alt="Transfer Hammer UI"/></p>
@@ -263,13 +272,13 @@ function UpgradeEquipment() {
             <p><img className="repository-image" src="https://i.imgur.com/Ymb1fDI.png" alt="Transfer Hammer Button"/></p>
             <p>To begin Transfer Hammering, you can access the UI from your Inventory by<strong> pressing the blue hammer icon</strong></p>
             <p>For more info on Transfer Hammer, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Transfer_Hammer" target="_blank">https://strategywiki.org/wiki/MapleStory/Transfer_Hammer</a></p>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="transpose">Transposing</h2>
             <hr/>
             <p><img className="repository-image" src="https://i.imgur.com/S5tz1Gz.png" alt="Transpose UI"/></p>
             <p>Tranposing allows you to transfer an equipment's bonus stats from Bonus Stats, Scroll and Star Force Enhancements (the blue and green stats) to <strong>Sweetwater gear</strong>. The Star Force count will also drop by 1 but you retain the bonus stats. Potential Ranks also carry over but the Potential Lines will be reset</p>
             <p>Transposing is unlocked after gaining access to Commerci at Lv. 140. Transposing will cost <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/56/Etc_Commerci_Denaro.png/revision/latest?cb=20140901070302" alt="Etc Commerci Denaro" width="30" height="22"/> <a href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaros]</a> and the chance for transposing to succeed is not guaranteed</p>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="cubing">Cubing &amp; Potentials</h2>
             <hr/>
             <p><img src="https://i.imgur.com/KiRDRYi.png" alt=""/><img src="https://i.imgur.com/qQkJRO6.png" alt=""/></p>
@@ -344,7 +353,7 @@ function UpgradeEquipment() {
                   </ul>
               </li>
             </ul>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="bonus">Flames &amp; Bonus Stats</h2>
             <p>Equipment can come with Bonus Stats. The stats can be categorized into Tiers. There are a total of 7 tiers with 7 being the highest and providing the most stat boosts. Boss Equipment & KMS equipment tends to have higher tiers of Bonus Stats compared to items outside of KMS (for example Gollux accessories & Sweetwater). More info can be found at the bottom of the page on Bonus Stats</p>
             <p>To reroll Bonus Stats, you need to use items called "Rebirth Flames". Regular rebirth flames that have a "LV. X" attached to it can only reroll certain items up to that specified level and are dropped by Bosses. These regular flames yield lower tiers compared to special ones. You can identify which equipment can be flamed by hovering over them and checking the top left corner of the equipment icon. If there is a transparent dot, it can be flamed with regular rebirth flames. If there is a white dot, it can only be flamed with special rebirth flames</p>
@@ -375,17 +384,9 @@ function UpgradeEquipment() {
                   https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p
               </a></p>
           </div>
-      </div>
+      </ContentPage>
 
     )
-}
-
-//Used to scroll to anchor tags
-
-const scrollWidthOffset = (el) => {
-  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-  const yOffset = -80; 
-  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 export default UpgradeEquipment

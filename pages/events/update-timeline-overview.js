@@ -1,13 +1,21 @@
 import React from 'react';
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
+import Head from 'next/head';
 
+import { EventPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 import Video from '../../components/repository/Video';
 import { TabLink } from '../../components/Page';
 
 function UpdateTimelineOverview() {
     return (
-        <div>
+        <EventPage>
+            <Head>
+                <title>Update Timeline Overview | Grandis Library</title>
+                <meta content={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"} name="description"/>
+            </Head>
+            <ContentTitle>Update Timeline Overview</ContentTitle>
             <ul>
                 <li><Link href="#bang">Big Bang</Link></li>
                 <li><Link href="#chaos">Chaos</Link></li>
@@ -81,211 +89,211 @@ function UpdateTimelineOverview() {
             </ul>
             <h2 id="bang">Big Bang Update - Dec 2010</h2>
             <BigBang/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="chaos">Chaos Update - July 2011</h2>
             <Chaos/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="ascension">Ascension Update - Oct 2011</h2>
             <Ascension/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="fellowship">Rise of Fellowship Update - Nov 2011</h2>
             <RiseOfFellowship/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="legends">Legends Update - Dec 2011</h2>
             <Legends/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="rising">Alliance Rising Update - Jan 2012</h2>
             <AllianceRising/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="unbound">Alliance Unbound Update - Mar 2012</h2>
             <AllianceUnbound/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="eternal">Alliance Eternal Update - Apr 2012</h2>
             <AllianceEternal/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="renegades">Renegades Update - June 2012</h2>
             <Renegades/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="mutiny">Mutiny Update - Aug 2012</h2>
             <Mutiny/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="dawn">New Dawn Update - Sept 2012</h2>
             <NewDawn/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="champions">Champions Update - Sept 2012</h2>
             <Champions/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="tempest">Tempest Update - Sept 2012</h2>
             <Tempest/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="snake">Year of the Snake Update - Feb 2013</h2>
             <YearOfTheSnake/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="honor">Mark Of Honor Update - Feb 2013</h2>
             <MarkOfHonor/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="hyper">Hyper Evolution Update - Apr 2013</h2>
             <HyperEvolution/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="unleashed">Unleashed Update - May 2013</h2>
             <Unleashed/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="reforged">Cygnus Knights Awakening Update - Sept 2013</h2>
             <CyngusKnightsAwakening/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="dawnveil">Dawnveil Demons of Tynerum Update (RED) - Oct 2013</h2>
             <Dawnveil/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="red">RED Update - Dec 2013</h2>
             <Red/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="returnmasteria">Return to Masteria Update - Feb 2014</h2>
             <ReturnToMasteria/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="athenaeum">Grand Athenaeum Update - Mar 2014</h2>
             <GrandAthenaeum/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="legacynine">Legacy of Nine Update - May 2014</h2>
             <LegacyOfNine/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="risingheroes">Rising Heroes: Elite Update - Jun 2014</h2>
             <RisingHeroesElite/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="hieizan">Mark of Honor Hieizan Temple Update - Aug 2014</h2>
             <HieizanTemple/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="sao">Sword Art Online Update - Sept 2014</h2>
             <SwordArtOnline/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="awakening">Cygnus Awakening: Night Walker Update - Oct 2014</h2>
             <CygnusAwakeningNW/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="shiningstar">Shining Star Update - Dec 2014</h2>
             <ShiningStar/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="titan">MapleStory X Attack on Titan Update - Jan 2015</h2>
             <AttackOnTitan/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="blackheaven">Black Heaven Update - Mar 2015</h2>
             <BlackHeaven/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="springsummer">Spring into Summer Update - May 2015</h2>
             <SpringIntoSummer/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="firepower">FIREPOWER Update - Jul 2015</h2>
             <Firepower/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="superstar">Pink Bean: Superstar Update - Aug 2015</h2>
             <PinkBeanSuperstar/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="asylum">Asylum Update - Oct 2015</h2>
             <Asylum/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="alishan">Welcome to Alishan Update - Oct 2015</h2>
             <Alishan/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="reboot">Reboot Update - Dec 2015</h2>
             <Reboot/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="masteriatime">Masteria Through Time Update - Mar 2016</h2>
             <MasteriaThroughTime/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="eleven">Maple's Eleven Update - Apr 2016</h2>
             <MapleEleven/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="detectives">Detectives Update - May 2016</h2>
             <Detectives/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="heroesmaple">Heroes of Maple Update - Jun 2016</h2>
             <HeroesOfMaple/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="mushroomshrine">Mushroom Shrine Tales Update - Sept 2016</h2>
             <MushroomShrineTales/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="strangestories">Strange Stories Update - Oct 2016</h2>
             <StrangeStories/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="v">V Update - Dec 2016</h2>
             <VUpate/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="kerningcity">Kerning City Superstars Update - Feb 2017</h2>
             <KerningCitySuperstars/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="rezero">MapleStory X Re:Zero Update - May 2017</h2>
             <ReZero/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="override">Override Update - Jun 2017</h2>
             <Override/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="tuneup">Tune Up Update - Aug 2017</h2>
             <TuneUp/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="nova">NOVA Update - Nov 2017</h2>
             <Nova/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="newyear">New Year Showdown Update - Jan 2018</h2>
             <NewYearShowdown/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="evangelion">MapleStory X Evangelion Update - Feb 2018</h2>
             <Evangelion/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="pinkbeany">Lifestyle of the Pink Beany - May 2018</h2>
             <LifestylePinkBeany/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="ark">Ark Update - Jun 2018</h2>
             <Ark/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="cardcaptor">MapleStory x Cardcaptor Update - Aug 2018</h2>
             <Cardcaptor/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="darknesslooms">Darkness Looms Update - Oct 2018</h2>
             <DarknessLooms/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="blackmage">Black Mage Update - Nov 2018</h2>
             <BlackMage/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="arcade">Arcade Adventures Update - Mar 2019</h2>
             <ArcadeAdventures/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="line">LINE FRIENDS x MapleStory Update - Apr 2019</h2>
             <LineFriends/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="pathfinder">Pathfinder Update - Jun 2019</h2>
             <Pathfinder/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="worldsunite">Worlds Unite Update - Aug 2019</h2>
             <WorldsUnite/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="melody">Fabled Melody Update - Sept 2019</h2>
             <FabledMelody/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="glory">Glory Update - Nov 2019</h2>
             <Glory/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="utopia">Mechanical Utopia Update - Jan 2020</h2>
             <MechanicalUtopia/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="isekai">MapleStory X ISEKAI QUARTET Update - Mar 2020</h2>
             <IsekaiQuartet/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="pixelparty">Pixel Party Update - Apr 2020</h2>
             <PixelParty/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="rise">Rise Update - Jun 2020</h2>
             <Rise/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="astral">Astral Blessings Update - Aug 2020</h2>
             <AstralBlessing/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="asura">Sengoku Returns: Asura War Update - Oct 2020</h2>
             <AsuraWar/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="awake">Awake Update - Nov 2020</h2>
             <Awake/>
-            <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="moonlight-magic">Moonlight Magic Update - Feb 2021</h2>
             <MoonlightMagic/>
-        </div>
+        </EventPage>
     )
 }
 

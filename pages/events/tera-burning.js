@@ -1,8 +1,17 @@
 import React from 'react';
+import Head from 'next/head';
+
+import { EventPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 function TeraBurning() {
     return (
-        <div>
+        <EventPage>
+            <Head>
+                <title>Tera Burning | Grandis Library</title>
+                <meta content={"An event where NEWLY created characters after level 10 gain 2 extra levels for every level up until level 200"} name="description"/>
+            </Head>
+            <ContentTitle>Tera Burning</ContentTitle>
             <h2>What is Tera Burning</h2>
             <p>Tera Burning is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 200.</strong> That means you will get 3 levels for every level up! This event is open to servers, both Reboot and non-Reboot worlds. Certain characters cannot be burned which includes Zero and any newly released classes if stated</p>
             <h3>Notes</h3>
@@ -109,7 +118,7 @@ function TeraBurning() {
             <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/54153/tera-burning-and-extreme-breakthrough-events" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/54153/tera-burning-and-extreme-breakthrough-events</a></p>
-        </div>
+        </EventPage>
     )
 }
 

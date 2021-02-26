@@ -3,7 +3,7 @@ import { Image, Modal } from 'react-bootstrap';
 import axios from 'axios';
 import axiosRetry from 'axios-retry';
 
-import { version, loadingImage } from '../../special/Values';
+import { version, loadingImage } from '../../special/SiteValues';
 import SkillInfo from './SkillInfo'
 
 /*

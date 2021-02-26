@@ -6,7 +6,7 @@ import LazyLoad, { forceCheck } from 'react-lazyload';
 import storage from 'local-storage-fallback';
 
 import { SkillContainer, VSkillContainer } from './SkillContainer';
-import { commonFifth } from '../../special/Values';
+import { commonFifth } from '../../special/SiteValues';
 import { QuickJump } from '../UtilityButtons';
 
 /*

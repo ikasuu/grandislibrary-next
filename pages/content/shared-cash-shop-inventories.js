@@ -1,5 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
+import Head from 'next/head';
+
+import { ContentPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 const TableContainer = styled.div`
     overflow-x: auto;
@@ -22,7 +26,12 @@ const ClassBlock = styled.tr`
 
 function SharedCashShopInventory() {
     return (
-        <div>
+        <ContentPage>
+            <Head>
+            <title>Shared Cash Shop Inventories | Grandis Library</title>
+                            <meta content={"A list of all classes that share Cash Shop inventories"} name="description"/>
+            </Head>
+            <ContentTitle>Shared Cash Shop Inventories</ContentTitle>
             <img src="https://i.imgur.com/r9iQ8pR.png" alt="Cash Shop Inventory"/>
             <StyledP>Below is a list of classes that share Cash Shop inventories. Each different color group shares Cash Shop inventories</StyledP>
             <TableContainer>
@@ -270,7 +279,7 @@ function SharedCashShopInventory() {
         <ul>
         <li>Credits to Kradian South #4949 for the image version</li>
         </ul>
-      </div>
+      </ContentPage>
     );
 }
 

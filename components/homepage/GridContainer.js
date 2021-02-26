@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HeaderBlockImageUrl } from '../../special/Values';
+import { HeaderBlockImageUrl } from '../../special/SiteValues';
 import GridItem from './GridItem';
 
 import styles from '../../styles/GridItem.module.css';

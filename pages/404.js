@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-import HeaderImageUrl from '../special/Values';
+import HeaderImageUrl from '../special/SiteValues';
 import HeaderImage from '../components/HeaderImage';
 
 /*

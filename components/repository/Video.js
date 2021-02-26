@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../../styles/RepositoryPage.module.css';
-
 /*
     Component to format videos used within repository pages (Content / Event)
     Created by: Ikasuu, Winter 2020

@@ -6,7 +6,7 @@ import SwiperCore, { Scrollbar } from 'swiper';
 import styled from 'styled-components';
 import LazyLoad from 'react-lazyload';
 
-import { classes } from '../special/Values';
+import { classes } from '../special/SiteValues';
 import { Overlay } from './Page';
 
 SwiperCore.use([Scrollbar]);

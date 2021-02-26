@@ -1,43 +1,51 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
+
+import { ContentPage } from '../../components/repository/RepositoryPage';
+import { ContentTitle } from '../../components/Page';
 
 function BossMatchmaking() {
     return (
-      <div>
-
+      <ContentPage>
+        <Head>
+            <title>Boss Pre-Quests | Grandis Library</title>
+            <meta content={"An explanation on how to unlock access to each of the bosses in the Boss Matchmaking System"} name="description"/>
+        </Head>
+        <ContentTitle>Boss Pre-Quests</ContentTitle>
         <p><img className="repository-image" src="https://i.imgur.com/dZesF8F.png" alt="Boss Queue"/></p>
         <p>As you level up even more, you will gain access to more and more bosses. To easily get to some of these bosses (but you must complete their pre-quests first!) , you can use the Boss Matchmaking system! You can find it by pressing "F" or "P" by default to open the Friend List or Party List and switching to "BOSS". Whenever you are in a party with another person, you will instantly be queued and teleported to a boss when you accept the notification that pops up. Occasionally you may get an extra party member (but usually they'll leave on their own) but it is a quick way to get to bosses</p>
         <p><strong>Note</strong>: Bosses with multiple difficulties with only one "Can clear" tag listed below means that clears are shared between all difficulties. If you see multiple "Can clear"s for a boss that means the clears are independent for each difficulty</p>
         <h3 id="top">Quick Jumps</h3>
         <ul>
-          <li><Link smooth href="#balrog" scroll={el => scrollWidthOffset(el)}>Balrog</Link></li>
-          <li><Link smooth href="#zakum" scroll={el => scrollWidthOffset(el)}>Zakum</Link></li>
-          <li><Link smooth href="#ursus" scroll={el => scrollWidthOffset(el)}>Ursus</Link></li>
-          <li><Link smooth href="#magnus" scroll={el => scrollWidthOffset(el)}>Magnus</Link></li>
-          <li><Link smooth href="#hilla" scroll={el => scrollWidthOffset(el)}>Hilla</Link></li>
-          <li><Link smooth href="#omnicln" scroll={el => scrollWidthOffset(el)}>OMNI-CLN</Link></li>
-          <li><Link smooth href="#papulatus" scroll={el => scrollWidthOffset(el)}>Papulatus</Link></li>
-          <li><Link smooth href="#rootabyss" scroll={el => scrollWidthOffset(el)}>Root Abyss</Link></li>
-          <li><Link smooth href="#vonleon" scroll={el => scrollWidthOffset(el)}>Von Leon</Link></li>
-          <li><Link smooth href="#horntail" scroll={el => scrollWidthOffset(el)}>Horntail</Link></li>
-          <li><Link smooth href="#arkarium" scroll={el => scrollWidthOffset(el)}>Arkarium</Link></li>
-          <li><Link smooth href="#pinkbean" scroll={el => scrollWidthOffset(el)}>Pink Bean</Link></li>
-          <li><Link smooth href="#cygnus" scroll={el => scrollWidthOffset(el)}>Cygnus</Link></li>
-          <li><Link smooth href="#lotus" scroll={el => scrollWidthOffset(el)}>Lotus</Link></li>
-          <li><Link smooth href="#damien" scroll={el => scrollWidthOffset(el)}>Damien</Link></li>
-          <li><Link smooth href="#lucid" scroll={el => scrollWidthOffset(el)}>Lucid</Link></li>
-          <li><Link smooth href="#gollux" scroll={el => scrollWidthOffset(el)}>Gollux</Link></li>
-          <li><Link smooth href="#gloom" scroll={el => scrollWidthOffset(el)}>Gloom</Link></li>
-          <li><Link smooth href="#verushilla" scroll={el => scrollWidthOffset(el)}>Verus Hilla</Link></li>
-          <li><Link smooth href="#darknell" scroll={el => scrollWidthOffset(el)}>Darknell</Link></li>
-          <li><Link smooth href="#blackmage" scroll={el => scrollWidthOffset(el)}>Black Mage</Link></li>
-          <li><Link smooth href="#ranmaru" scroll={el => scrollWidthOffset(el)}>Ranmaru</Link></li>
-          <li><Link smooth href="#princessno" scroll={el => scrollWidthOffset(el)}>Princess No</Link></li>
-          <li><Link smooth href="#will" scroll={el => scrollWidthOffset(el)}>Will</Link></li>
-          <li><Link smooth href="#julieta" scroll={el => scrollWidthOffset(el)}>Julieta</Link></li>
+          <li><Link smooth href="#balrog" scroll>Balrog</Link></li>
+          <li><Link smooth href="#zakum" scroll>Zakum</Link></li>
+          <li><Link smooth href="#ursus" scroll>Ursus</Link></li>
+          <li><Link smooth href="#magnus" scroll>Magnus</Link></li>
+          <li><Link smooth href="#hilla" scroll>Hilla</Link></li>
+          <li><Link smooth href="#omnicln" scroll>OMNI-CLN</Link></li>
+          <li><Link smooth href="#papulatus" scroll>Papulatus</Link></li>
+          <li><Link smooth href="#rootabyss" scroll>Root Abyss</Link></li>
+          <li><Link smooth href="#vonleon" scroll>Von Leon</Link></li>
+          <li><Link smooth href="#horntail" scroll>Horntail</Link></li>
+          <li><Link smooth href="#arkarium" scroll>Arkarium</Link></li>
+          <li><Link smooth href="#pinkbean" scroll>Pink Bean</Link></li>
+          <li><Link smooth href="#cygnus" scroll>Cygnus</Link></li>
+          <li><Link smooth href="#lotus" scroll>Lotus</Link></li>
+          <li><Link smooth href="#damien" scroll>Damien</Link></li>
+          <li><Link smooth href="#lucid" scroll>Lucid</Link></li>
+          <li><Link smooth href="#gollux" scroll>Gollux</Link></li>
+          <li><Link smooth href="#gloom" scroll>Gloom</Link></li>
+          <li><Link smooth href="#verushilla" scroll>Verus Hilla</Link></li>
+          <li><Link smooth href="#darknell" scroll>Darknell</Link></li>
+          <li><Link smooth href="#blackmage" scroll>Black Mage</Link></li>
+          <li><Link smooth href="#ranmaru" scroll>Ranmaru</Link></li>
+          <li><Link smooth href="#princessno" scroll>Princess No</Link></li>
+          <li><Link smooth href="#will" scroll>Will</Link></li>
+          <li><Link smooth href="#julieta" scroll>Julieta</Link></li>
         </ul>
         <div className="repository-md-container">
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="balrog"><img src="https://vignette.wikia.nocookie.net/maplestory/images/d/d0/MapIcon_Balog.png/revision/latest?cb=20150106210011" alt="MapIcon Balog" width="38" height="38"/> Balrog</h2>
           <p><strong>[Easy Lv. 65+]</strong></p>
           <p>No pre-quests</p>
@@ -48,7 +56,7 @@ function BossMatchmaking() {
               <li><strong>Can clear</strong>: 7 times daily</li>
               <li><strong>Location:</strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/105100100">Balrog Temple: Bottom of the Temple</a> in Sleepywood</li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="zakum"><img src="https://vignette.wikia.nocookie.net/maplestory/images/8/82/MapIcon_Zakum.png/revision/latest?cb=20141119172744" alt="MapIcon Zakum" width="38" height="38"/> Zakum</h2>
           <p><strong>[Easy Lv. 50+] [Normal/Chaos Lv. 100+]</strong></p>
           <p>No pre-quests but, initially there is a quest in the Lightbulb icon called "[Zakum] Statue of Dread" at Lv. 50 that will teleport you to <a href="https://maplestory.wiki/GMS/210.1.1/map/211000001" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a> where you talk to an NPC corresponding to your job (Mage, Archer, Thief, etc.) to teleport to <a href="https://maplestory.wiki/GMS/210.1.1/map/211042300" target="_blank" rel="noreferrer noopener">Dead Mines - The Door to Zakum</a></p>
@@ -74,7 +82,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Chaos</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/211042300" target="_blank" rel="noreferrer noopener">El Nath: The Door to Zakum</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="ursus"><img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Soul_Collector_Artwork_Ursus_%281%29.png/revision/latest/scale-to-width-down/171?cb=20180113223809" alt="Soul Collector Artwork Ursus (1)" width="42" height="45"/> Ursus</h2>
           <p><strong>[Normal Lv. 100+]</strong></p>
           <p>You must complete a quest in the Lightbulb icon called “[Ursus] Rumors of The Mighty” at Lv. 100 that is required to enter Ursus. The quest is short and explains what Ursus is</p>
@@ -83,7 +91,7 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: Dimensional Mirror after completing pre-quests</li>
             <li><strong>Main Rewards:</strong> <img src="https://maplestory.io/api/GMS/215/item/4036313/icon" alt=""/>[Mesos]</li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="magnus"><img src="https://vignette.wikia.nocookie.net/maplestory/images/f/fc/MapIcon_Magnus.png/revision/latest?cb=20141124064756" alt="MapIcon Magnus" width="38" height="38"/> Magnus</h2>
           <p><strong>[Easy Lv. 115+]</strong></p>
           <p>In Heliseum there will be a quest from Piston called "<a href="https://maplestory.fandom.com/wiki/Quests/21/(Easy_Magnus)_Magnus_Simulator" target="_blank" rel="noreferrer noopener">[Easy Magnus] Magnus Simulator</a>" that is required to enter Easy Magnus. The quest is short and consists of some dialogue</p>
@@ -116,7 +124,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Hard</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/401060000" target="_blank" rel="noreferrer noopener">Tyrant's Castle : Heliseum Heights Entry</a> in Heliseum/Pantheon</li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="hilla"><img src="https://vignette.wikia.nocookie.net/maplestory/images/9/9f/MapIcon_Hilla.png/revision/latest?cb=20140928235713" alt="MapIcon Hilla" width="38" height="38"/> Hilla</h2>
           <p><strong>[Normal Lv. 120+] [Hard Lv. 170+]</strong></p>
           <p>No pre-quests</p>
@@ -133,7 +141,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Hard</strong>: Weekly</li>
             <li><strong>Location</strong>: Dimensional Mirror</li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="omnicln"><img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c1/MapIcon_OmegaSector.png/revision/latest?cb=20100619153514" alt="MapIcon OmegaSector" width="38" height="38"/> OMNI-CLN</h2>
           <p><strong>[Normal Lv. 180+]</strong></p>
           <p>You must complete the Omega Sector Theme Dungeon to gain access to OMNI-CLN. To start the Theme Dungeon, accept the quest from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/38/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
@@ -145,7 +153,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Daily</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/221030900" target="_blank" rel="noreferrer noopener">Omega Sector - Pilothouse</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="papulatus"><img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6d/MapIcon_Papulatus_Clock.png/revision/latest?cb=20180109012602" alt="MapIcon Papulatus Clock" width="38" height="38"/> Papulatus</h2>
           <p><strong>[Easy Lv. 115+] [Normal Lv. 155+] [Hard Lv. 190+]</strong></p>
           <p>You must complete the questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/36/(Papulatus)_The_Light_Of_Chaos" target="_blank" rel="noreferrer noopener">[Papulatus] The Light of Chaos</a>” at Lv. 115</p>
@@ -166,7 +174,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Hard</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/220080000" target="_blank" rel="noreferrer noopener">Ludibrium - Deep Inside the Clocktower</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="rootabyss"><img src="https://vignette.wikia.nocookie.net/maplestory/images/1/1e/MapIcon_Piere.png/revision/latest?cb=20180109073042" alt="MapIcon Piere" width="38" height="38"/><img src="https://vignette.wikia.nocookie.net/maplestory/images/1/15/MapIcon_BanBan.png/revision/latest?cb=20180109154944" alt="MapIcon BanBan" width="38" height="38"/><img src="https://vignette.wikia.nocookie.net/maplestory/images/2/25/MapIcon_BloodyQueen.png/revision/latest?cb=20180109154740" alt="MapIcon BloodyQueen" width="38" height="38"/><img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b5/MapIcon_Bellum.png/revision/latest?cb=20180109155335" alt="MapIcon Bellum" width="38" height="38"/> Root Abyss</h2>
           <p><strong>[Normal Lv. 125+]</strong></p>
           <p>You must complete the questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/62/(Root_Abyss)_An_Urgent_Summons">[Root Abyss] An Urgent Summon</a>” at Lv. 125. Once you've completed the questline, you get 5 free keys daily to access the bosses</p>
@@ -197,7 +205,7 @@ function BossMatchmaking() {
               <li><strong>Can clear Chaos</strong>: Weekly</li>
               <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/105200000">Root Abyss: Colossal Root</a> in Sleepywood, accessible from Dimensonal Mirror</li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="vonleon"><img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b4/MapIcon_VanLeon.png/revision/latest?cb=20100909103717" alt="MapIcon VanLeon" width="38" height="38"/> Von Leon</h2>
           <p><strong>[Easy/Normal/Hard Lv. 125+]</strong></p>
           <p>You must complete the Lion King's Castle Theme Dungeon from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/221/Desolate_Castle">Desolate Castle</a>” at Lv. 115. The quest “<a href="https://maplestory.fandom.com/wiki/Quests/221/The_Adventure_of_Jenn_the_Locksmith">The Adventure of Jenn the Locksmith</a>” is also required to unlock Von Leon - it is accessible from the Lightbulb icon</p>
@@ -215,7 +223,7 @@ function BossMatchmaking() {
                 <a href="https://maplestory.wiki/GMS/210.1.1/item/2030021" target="_blank" rel="noreferrer noopener">[The Knight's Magic Scroll]</a>
             </li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="horntail"><img src="https://vignette.wikia.nocookie.net/maplestory/images/5/58/MapIcon_Hontale.png/revision/latest?cb=20141220001329" alt="MapIcon Hontale" width="38" height="38"/> Horntail</h2>
           <p><strong>[Easy/Normal Lv. 130+] [Chaos Lv. 135+]</strong></p>
           <p>No pre-quests to teleport to Horntail using the Boss Matchmaking System but requires you to complete some quests from <a href="https://maplestory.fandom.com/wiki/Moira" target="_blank" rel="noreferrer noopener">Moira</a> located just <a href="https://maplestory.wiki/GMS/210.1.1/map/240040700" target="_blank" rel="noreferrer noopener">outside of Horntail</a>. The quests are short and just dialogue</p>
@@ -234,7 +242,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Daily</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/240040700" target="_blank" rel="noreferrer noopener">Leafre: Cave of Life - Entrance</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="arkarium"><img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e9/MapIcon_Akairum.png/revision/latest?cb=20141001075303" alt="MapIcon Akairum" width="38" height="38"/> Arkarium</h2>
           <p><strong>[Easy/Normal Lv. 140+]</strong></p>
           <p>You must complete the Silent Crusade questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/1/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 90 to unlock access to Arkarium</p>
@@ -252,7 +260,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Daily</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/272020110">Dimensional Schism: Front of Arkarium's Alter</a> in the Temple of Time</li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="pinkbean"><img src="https://vignette.wikia.nocookie.net/maplestory/images/6/69/MapIcon_PinkBean.png/revision/latest?cb=20100619154913" alt="MapIcon PinkBean" width="38" height="38"/> Pink Bean</h2>
           <p><strong>[Normal Lv. 160+] [Chaos Lv. 170+]</strong></p>
           <p><img src="https://maplestory.io/api/GMS/210.1.1/npc/2140000/icon" alt=""/></p>
@@ -270,7 +278,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Chaos</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/270050000">Deep Place of Temple: Forgotten Twilight</a> in the Temple of Time</li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="cygnus"><img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b2/MapIcon_Signus.png/revision/latest?cb=20141218024114" alt="MapIcon Signus" width="38" height="38"/> Cygnus</h2>
           <p><strong>[Easy Lv. 140+]</strong></p>
           <p>No pre-quests</p>
@@ -293,7 +301,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Normal</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/271040200" target="_blank" rel="noreferrer noopener">Knight Stronghold: Cygnus Rear Garden</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="lotus"><img  src="https://vignette.wikia.nocookie.net/maplestory/images/e/e1/MapIcon_Haven.png/revision/latest?cb=20150118085415" alt="MapIcon Haven" width="38" height="38"/> Lotus</h2>
           <p><strong>[Normal/Hard Lv. 190+]</strong></p>
           <p>You must complete all Acts of Black Heaven Blockbuster from the Lightbulb icon called “<a href="https://maplestory.wiki/GMS/210.1.1/quest/33127" target="_blank" rel="noreferrer noopener">[Black Heaven] For Maple World</a>" at Lv. 120. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing the Blockbuster will unlock access for all of your other characters in the same world</p>
@@ -318,7 +326,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/350060300" target="_blank" rel="noreferrer noopener">Black Heaven Inside: Core Entrance</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="damien"><img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5c/MapIcon_fallenWorldTree.png/revision/latest?cb=20191204082811" alt="MapIcon fallenWorldTree" width="38" height="38"/> Damien</h2>
           <p><strong>[Normal/Hard Lv. 190+]</strong></p>
           <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb icon called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing Act 4 will unlock access for all of your other characters in the same world</p>
@@ -340,7 +348,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/350060300" target="_blank" rel="noreferrer noopener">Black Heaven Inside: Core Entrance</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="lucid"><img src="https://vignette.wikia.nocookie.net/maplestory/images/9/99/MapIcon_Lacheln.png/revision/latest?cb=20160819012310" alt="MapIcon Lacheln" width="38" height="38"/> Lucid</h2>
           <p><strong>[Easy/Normal/Hard Lv. 220+ &amp; 360AF+]</strong></p>
           <p>You must complete the Lachelein storyline and defeat Story Mode Lucid in order to unlock access to Lucid</p>
@@ -361,7 +369,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450004000" target="_blank" rel="noreferrer noopener">Lachelein: Nightmare Clocktower</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="gollux"><img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7a/MapIcon_GiantVellud.png/revision/latest?cb=20140926175935" alt="MapIcon GiantVellud" width="36" height="37"/> Gollux</h2>
           <p><strong>[Easy/Normal/Hard/Hell Lv. 180]</strong></p>
           <p>You can enter the Gollux area without any pre-quests. Enter through the Dimensional Mirror. To gain access to Gollux, you must complete the quest “[Gollux] The Cracks of Corruption”. The quest consists of only dialogue</p>
@@ -377,7 +385,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Daily</li>
             <li><strong>Location</strong>: Dimensional Mirror</li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="gloom"><img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7a/MapIcon_moonBridge.png/revision/latest?cb=20191204082819" alt="MapIcon moonBridge" width="38" height="38"/> Gloom</h2>
           <p><strong>[Normal/Chaos Lv. 245+ &amp; 730AF+]</strong></p>
           <p>You must complete the Moonbridge storyline and defeat Story Mode Gloom in order to unlock access to Gloom</p>
@@ -391,7 +399,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/450009301" target="_blank">Moonbridge: Facing the Eye of the Void</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="verushilla"><img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7e/MapIcon_TheLabyrinthOfSuffering.png/revision/latest?cb=20180831061919" alt="MapIcon TheLabyrinthOfSuffering" width="38" height="38"/> Verus Hilla</h2>
           <p><strong>[Hard Lv. 250+ &amp; 900AF+]</strong></p>
           <p>You must complete the Labyrinth of Suffering storyline and defeat Story Mode Verus Hilla in order to unlock access to Verus Hilla</p>
@@ -405,7 +413,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450011320" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering: Deep Core Base</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="darknell"><img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b5/MapIcon_Limen.png/revision/latest?cb=20191204082817" alt="MapIcon Limen" width="38" height="38"/> Darknell</h2>
           <p><strong>[Normal/Hard Lv. 255+ &amp; 850AF+]</strong></p>
           <p>You must complete the Limina storyline and defeat Story Mode Darknell to unlock access to Darknell</p>
@@ -417,7 +425,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450012200" target="_blank" rel="noreferrer noopener">Limina: Final Horizon Fore</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="blackmage"><img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b5/MapIcon_Limen.png/revision/latest?cb=20191204082817" alt="MapIcon Limen" width="38" height="38"/> Black Mage</h2>
           <p><strong>[Hard Lv. 255+ 1320AF+]</strong></p>
           <p>You must complete the Limina storyline and defeat Story Mode Black Mage to unlock access to Black Mage</p>
@@ -430,7 +438,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Monthly</li>
             <li><strong>Location</strong>: <a href="http://Limina: Giant's Heart" target="_blank" rel="noreferrer noopener">Limina: Giant's Heart</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="ranmaru"><img src="https://vignette.wikia.nocookie.net/maplestory/images/9/94/MapIcon_Ranmaru.png/revision/latest?cb=20150105042228" alt="MapIcon Ranmaru" width="38" height="38"/> Ranmaru</h2>
           <p><strong>[Normal/Madman Lv. 120+/Lv.180+]</strong></p>
           <p>No pre-quests</p>
@@ -451,7 +459,7 @@ function BossMatchmaking() {
               <li><strong>Can clear</strong>: Daily</li>
               <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/807300100" target="_blank" rel="noreferrer noopener">El Nath: Secret Altar Path</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="princessno"><img src="https://vignette.wikia.nocookie.net/maplestory/images/a/a6/MapIcon_JP_Nohime.png/revision/latest?cb=20150225220019" alt="MapIcon JP Nohime" width="38" height="38"/> Princess No</h2>
           <p><strong>[Normal Lv. 140+]</strong></p>
           <p>You must complete the Hieizan Temple storyline to gain access to Princess No. To start, accept the quest from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/56/(Hieizan_Temple)_Regards,_Takeda_Shingen">[Hieizan Temple] Regards, Takeda Shingen</a>” at Lv. 140</p>
@@ -464,7 +472,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/811000999" target="_blank" rel="noreferrer noopener">Hieizan: Hieizan Temple Plaza</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="will"><img src="https://vignette.wikia.nocookie.net/maplestory/images/0/05/MapIcon_esfera.png/revision/latest?cb=20191204082805" alt="MapIcon esfera" width="38" height="38"/> Will</h2>
           <p><strong>[Normal/Hard Lv. 235+ &amp; 760AF+]</strong></p>
           <p>You must complete the Esfera storyline and defeat Story Mode Will in order to unlock access to Will</p>
@@ -488,7 +496,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450007200" target="_blank" rel="noreferrer noopener">Esfera: Radiant Temple</a></li>
           </ul>
-          <div><Link smooth href="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="julieta"><img src="https://vignette.wikia.nocookie.net/maplestory/images/9/9d/MapIcon_PL_Abrup.png/revision/latest?cb=20180729145333" alt="MapIcon PL Abrup" width="38" height="38"/> Julieta</h2>
           <p><strong>[Normal Level 140+]</strong></p>
           <p>You must complete the Monad Blockbuster from the Lightbulb icon called "[MONAD: The First Omen] An Old Woman's Letter] at Lv. 110. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest</p>
@@ -497,16 +505,8 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: Accessible from the Boss Matchmaking System directly</li>
           </ul>
         </div>
-      </div>
+      </ContentPage>
     )
-}
-
-//Used to scroll to anchor tags
-
-const scrollWidthOffset = (el) => {
-  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-  const yOffset = -80; 
-  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 export default BossMatchmaking

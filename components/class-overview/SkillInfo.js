@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Badge, Card, Image, Modal } from 'react-bootstrap';
 import { Parser } from 'expr-eval';
-import DOMPurify from 'dompurify';
+import DOMPurify from 'isomorphic-dompurify';
 import parse from 'html-react-parser';
 import styled from 'styled-components';
 
