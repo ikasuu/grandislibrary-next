@@ -84,45 +84,47 @@ export function ClassGroupContainer({classes, classGroup}){
 
 export function TopClassSwipe({classes}){
     return(
-        <Swiper
-            spaceBetween={10}
-            slidesPerView={2}
-            breakpoints={{
-            // when window width is >= 360px
-            360: {
-                slidesPerView: 3.5,
+        <LazyLoad height={200} offset={100}>
+            <Swiper
+                spaceBetween={10}
+                slidesPerView={2}
+                breakpoints={{
+                // when window width is >= 360px
+                360: {
+                    slidesPerView: 3.5,
+                    },
+                // when window width is >= 490px
+                490: {
+                    slidesPerView: 4.5,
+                    },
+                // when window width is >= 770px
+                770: {
+                    slidesPerView: 5.5,
+                    },
+                // when window width is >= 991px
+                991: {
+                    slidesPerView: 8.5,
                 },
-            // when window width is >= 490px
-            490: {
-                slidesPerView: 4.5,
-                },
-            // when window width is >= 770px
-            770: {
-                slidesPerView: 5.5,
-                },
-            // when window width is >= 991px
-            991: {
-                slidesPerView: 8.5,
-            },
-            // when window width is >= 1199px
-            1199: {
-                slidesPerView: 9.5,
+                // when window width is >= 1199px
+                1199: {
+                    slidesPerView: 9.5,
+                    }
+                }}
+            >
+                {
+                    classes.map((content, index) => 
+                    <SwiperSlide key={index}>
+                        <Link href={`/classes/${content.path}`}>
+                            <a className="hvr-float">
+                                <Image src={`/class-portrait/${content.class}.png`} alt={content.alt} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                                <div className="class-overlay"/>
+                            </a>
+                        </Link>
+                    </SwiperSlide>
+                    )
                 }
-            }}
-        >
-            {
-                classes.map((content, index) => 
-                <SwiperSlide key={index}>
-                    <Link href={`/classes/${content.path}`}>
-                        <a className="hvr-float">
-                            <Image src={`/class-portrait/${content.class}.png`} alt={content.alt} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
-                        </a>
-                    </Link>
-                </SwiperSlide>
-                )
-            }
-        </Swiper>
+            </Swiper>
+        </LazyLoad>
     );
 }
 
@@ -142,7 +144,7 @@ function ClassSwipe({classGroup}) {
     }
 
     return (
-        <div>
+        <LazyLoad height={200} offset={100}>
             <h5>Check out some more {name} classes below:</h5>
             <Swiper
                 scrollbar={{ draggable: true, hide: true }}
@@ -173,7 +175,7 @@ function ClassSwipe({classGroup}) {
             >
                 {renderSwitch(name)}
             </Swiper>
-        </div>
+        </LazyLoad>
     );
 }
 

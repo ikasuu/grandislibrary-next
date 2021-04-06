@@ -5,6 +5,7 @@ import SwiperCore, { Pagination, Autoplay, Navigation } from 'swiper';
 import styled from 'styled-components';
 
 import { Overlay, GradientOverlay } from './Page';
+import LazyLoad from 'react-lazyload';
 
 SwiperCore.use([Pagination, Autoplay, Navigation]);
 
@@ -27,25 +28,27 @@ const ContentImage = styled(Image)`
 
 function FeaturedSwiper({content}) {
     return (
-        <Swiper
-            autoplay={{ delay: 7000, disableOnInteraction: false }}
-            pagination={{ clickable: true }}
-            spaceBetween={30}
-            slidesPerView={1}
-            loop
-            navigation
-        >
-            {
-                content.map((content, index) => 
-                <SwiperSlide key={index} className="content-slide">
-                    <a href={content.link} target="_blank" rel="noreferrer noopener">
-                    <ContentImage src={content.image} alt={content.alt} fluid/>
-                    <Overlay/>
-                    </a>
-                </SwiperSlide>
-                )
-            }
-        </Swiper>
+        <LazyLoad height={200} offset={100}>
+            <Swiper
+                autoplay={{ delay: 7000, disableOnInteraction: false }}
+                pagination={{ clickable: true }}
+                spaceBetween={30}
+                slidesPerView={1}
+                loop
+                navigation
+            >
+                {
+                    content.map((content, index) => 
+                    <SwiperSlide key={index} className="content-slide">
+                        <a href={content.link} target="_blank" rel="noreferrer noopener">
+                        <ContentImage src={content.image} alt={content.alt} fluid/>
+                        <Overlay/>
+                        </a>
+                    </SwiperSlide>
+                    )
+                }
+            </Swiper>
+        </LazyLoad>
     );
 }
 
@@ -98,39 +101,41 @@ const ContentSubtitle = styled.p`
 
 export function ContentSwiper({content, launch}){
     return(
-        <Swiper
-            autoplay={{ delay: 6000, disableOnInteraction: false }}
-            pagination={{ clickable: true }}
-            spaceBetween={30}
-            slidesPerView={2}
-            navigation
-            centeredSlides
-            loop
-            breakpoints={{
-            // when window width is >= 360px
-            360: {
-                slidesPerView: 1,
-                },
-            // when window width is >= 991px
-            991: {
-                slidesPerView: 2,
+        <LazyLoad height={200} offset={100}>
+            <Swiper
+                autoplay={{ delay: 6000, disableOnInteraction: false }}
+                pagination={{ clickable: true }}
+                spaceBetween={30}
+                slidesPerView={2}
+                navigation
+                centeredSlides
+                loop
+                breakpoints={{
+                // when window width is >= 360px
+                360: {
+                    slidesPerView: 1,
+                    },
+                // when window width is >= 991px
+                991: {
+                    slidesPerView: 2,
+                }
+            }}
+            >
+            {
+                content.map((content, index) => 
+                <SwiperSlide key={index} className="content-slide">
+                    <a href={content.link} target="_blank" rel="noreferrer noopener">
+                    <ContentImage src={content.image} alt={content.alt} fluid/>
+                    <GradientOverlay/>
+                    { launch && <ContentLaunch/>}
+                    <ContentTitle>{content.title}</ContentTitle>
+                    <ContentSubtitle>{content.subtitle}</ContentSubtitle>
+                    </a>
+                </SwiperSlide>
+                )
             }
-        }}
-        >
-        {
-            content.map((content, index) => 
-            <SwiperSlide key={index} className="content-slide">
-                <a href={content.link} target="_blank" rel="noreferrer noopener">
-                <ContentImage src={content.image} alt={content.alt} fluid/>
-                <GradientOverlay/>
-                { launch && <ContentLaunch/>}
-                <ContentTitle>{content.title}</ContentTitle>
-                <ContentSubtitle>{content.subtitle}</ContentSubtitle>
-                </a>
-            </SwiperSlide>
-            )
-        }
-        </Swiper>
+            </Swiper>
+        </LazyLoad>
     );
 }
 
