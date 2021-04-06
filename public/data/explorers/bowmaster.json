@@ -53,7 +53,7 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Bow_Booster.png/revision/latest?cb=20110502134835' alt='Skill Bow Booster' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Soul_Arrow_Bow.png/revision/latest?cb=20110502142501' alt='Skill Soul Arrow Bow' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Reckless_Hunt_Bow.png/revision/latest?cb=20130707031838' alt='Skill Reckless Hunt Bow' width='32' height='32'> (Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Illusion_Step.png/revision/latest?cb=20160628052518' alt='Skill Illusion Step' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'>, <img src='https://orangemushroom.files.wordpress.com/2020/06/silhouette-mirage.png?w=600' alt='Skill Silhouette Mirage'/>(Toggle)",
+            "active": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Bow_Booster.png/revision/latest?cb=20110502134835' alt='Skill Bow Booster' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Soul_Arrow_Bow.png/revision/latest?cb=20110502142501' alt='Skill Soul Arrow Bow' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Reckless_Hunt_Bow.png/revision/latest?cb=20130707031838' alt='Skill Reckless Hunt Bow' width='32' height='32'> (Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'>, <img src='https://orangemushroom.files.wordpress.com/2020/06/silhouette-mirage.png?w=600' alt='Skill Silhouette Mirage'/>(Toggle)",
             "summons": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Fury_of_the_Wild.png/revision/latest?cb=20190615205233' alt='Skill Fury of the Wild' width='32' height='32'>(120 - 105s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Guided_Arrow.png/revision/latest?cb=20161204065740' alt='Skill Guided Arrow' width='32' height='32'>(60s cd)",
             "buffCd": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Enchanted_Quiver.png/revision/latest?cb=20130707042201' alt='Skill Enchanted Quiver' width='32' height='32'>(57 - 30s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Concentration.png/revision/latest?cb=20121012200306' alt='Skill Concentration' width='32' height='32'>(90s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Epic_Adventure_%28Bowman%29.png/revision/latest?cb=20121015210409' alt='Skill Epic Adventure (Bowman)' width='32' height='32'>(120s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Storm_of_Arrows.png/revision/latest?cb=20161125062717' alt='Skill Storm of Arrows' width='32' height='32'>(120s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Inhuman_Speed.png/revision/latest?cb=20170609033039' alt='Skill Inhuman Speed' width='32' height='32'>(30s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quiver_Barrage.png/revision/latest?cb=20181115065338' alt='Skill Quiver Barrage' width='32' height='32'>(150s cd)",
             "buffFifth": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing' width='32' height='32'>(180s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957' alt='Skill Vicious Shot' width='32' height='32'>(120s cd)",
@@ -99,7 +99,7 @@
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/3154/bowman",
-            "https://maplestory.fandom.com/wiki/Bowman",
+            "https://maplestory.fandom.com/wiki/Bowmaster",
             "https://dexless.com/guides/bowmaster-in-depth-job-guide.137/"
         ],
         "credits": [
@@ -119,8 +119,8 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/qeIExni.png"],
-                    "animations": ["https://media4.giphy.com/media/I5pm1CcxHiE08UXgL7/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC/0lEQVR4nL1XAZGrMBBdZmoAC/kSqAQqgUoACSABJBAJjYRDApHQSCgS+NnA0gQIF64zXW4OEkL27du3S7mAayN8xyK6sAGMP/3zK95v138jgSAAxnmasFMbDcPgjOM4DnpuHEeIosiAuPzFOTlWSjnzjLFgIPWjh+p+HS9w0tA5Ob5er869vu8XIKFsnAJAzslx2bbmrKR0ACGQUBDBAGznz+cTeNcZxwO8dZDmGS40a0JBBAE4dG4JkS6TNF1AJEnyOQDbupluF+D7AsHaUa/HpwHY0bePBygcW9Eb5zOCwTrbLByl4hQDnab+CChakqUaoILAIjgHoC5LkwJkQcotGOO8kxPtgX3lEMBafPeiWEour2sDYlBqohfTsWpMHwOwrWoaZ8yrCtIsA6YjRconwO/7MfuQAbvj/WbIgNGiXk/PqIYv93HOJ8RdAJuOV/9AU90gy/NpwzkNnRCGBdDBSj5pos3KeQ+3XfuqYQPAyfvrBZxLkMqtfaabi7QqouMCXlojouLGsf2OLNPM7OkrSQeA1znWdZaD4BzWhnNr5+vXNFqe7HdHrwa6bpv/REeDAA29lhNRCd82Bgwe6+64AeB2vF5fD0v0765HGzE9M4Fosxqf3kS/nOE9tlk4ZEAEdLwsL0E0lR5L/9rZecoS07z2bBdAW+cmBYaFnY6HyicR5m09p2BYlO+s1c4lsqMBsHjbGxYAtvhu9wIG6nhla0CoYep4lCql51B8lV4r59rPUSN42Gs9kXsZKCpX6bwpTAUwpJHKcd6UF5W7thOQaYVjpGqHDRbaiHxGSg7pkLE+8I+A+HSwAMAGgerENKR5jRpf0iAFNyzEqH4tOvPrV0da6fk6xU7IljQI/QyyAHMKKO+oA7xHzQjm9YcMxHoj1W1r3FTCKppEb8pnwWbwbjRUCbbz3U6IkzYLZFSz65/gdO/M2l/fBTaIvQ3Wdnat720Y4bcafR0RiBA7u5asERK/ivAyIgYMCPxc+oaRc/xnpyDCbzX4ji2f5/8BSxxCgTxgn7sAAAAASUVORK5CYII="],
+                    "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
@@ -130,8 +130,8 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/GpKcy63.png"],
-                    "animations": ["https://media3.giphy.com/media/bnXEv4hggxwNpGaZ4c/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVR4nL1Xi5GDIBDFmTRASjAlnCXEEmIJZwlnCZcSvBJiCVqClJC0QAkeS7KKggtGJm8yBvnt4+2ywoHNMbDPIMGCSWBo+/tHrOfZaUASSEAbP3+luydPknFxbBjcgkK96qdJHGIaR/xezqxqOrrPrWdVkQ0HFgnmyvmibk0JQDQCgPr7YpXLv4YcE5UAGrv9XFhxbVgIVgmYkiIoKe99q/9PWT76AOo4p2OLVKCt67GclyU5EZNTsaiaqY4zEl4XiC5MSrVU/dff6hcZyUIwI+CSfa196Q6wLyV7Ss6fBHiaqndaAksBU3Y9saPe6Q5lmCujuG6f71cJgMVHZySR1woegk4sx+PRWU8FrpOAJ2ZILNXzBq6LQFZMgyCgxGvlZeC+Dg5aFwHcywDcz9zRLh+CxcKMANdhpE2YlQvQTtrqwrkLUkXBsJ3lcx9iZJ+KSj2rIAO+jGopAD/gcG/b+ShoMva0TjguePqYMWYRwMHwlLosjSYMiMmA6Oit6Wu3CUzm7Aym3/ds0k0EUG6PwQh81j9Gnhy+9CUAfG5mzJAzwVsHEjNfIMxzgK/vbgKbpN97HnDPmVKN4X3fJsDDJdh8Hgic1Vm9zJxU330EHPAFG0Uggbva3ttR6AkIcG0E3IqgmKACmgRcl6JD2J9uNA4P0wUJ3NXYZzB+Iv8Bbq6jgAlpMSsAAAAASUVORK5CYII="],
+                    "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
                     "type": "Buff"
                 },
                 {
@@ -140,8 +140,8 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
-                    "animations": ["https://media4.giphy.com/media/MsfISYyNBt92F02ltV/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACx0lEQVR4nL1XgZGbMBCUZ9yAvgRSAl8CKYGU4Bb8JZgWKCGUEEp4SgglvEpwtJJWOgkZ+2di7xiQsXy7d9zpxFHluKrX4MCBFHD98/n3Jew/339cKYICHHnXNv+dzITTMAzqfD67e19fV/X2dnAijs8kpwLjZQQRJzvS6vL7U338er8e1RNhQG5P4zg6Yq21+vigCI+nCTCMfQDI89+eKIDkuNJ7f9+48TCMSrfd4wKoWDhRnydOkhzeG+m2wK4Ak5+sEb0vgglXeE5AyDRNjwugwcb+cV2NNQAhWwUy5MA4JXI+e5J3XaeWZXxQgEUTDDSND2MpoUZ+sfVehhzkTdOoeZ6z+3cFwBDUr7iCOiigfUhCuPv+ZEk8uZ+bvAd53/fuuiyrOp3sXHu9K0Br/9xNMFjzGuTxZqh7SY7vJC/D/1AEghRJH/MS5JfL2RnHgXEZevnsUX7wXibyN9YBEw0AzPJaeeWLjnHkOiufNN4vQz7nsJxyXENrewnzRc7jdyzBpfe7AkpyGequ66Nxelh6LscgRx6k3+4IKDO8fLbzPMU6R1ltQ5zAhYdXtuRdAaQXvSQS9b3vaDQqPUsOmFjvqH0c0zRvVsZdAeCueQ/geVNQSSzFAuu6OnKfvPrxHFBG7aIWdn5nVCCI5Ld6yLfb8a2wEzJasWwdeb2RbQSUGwkJhPYWOYgRbhxLWGYJHeeo/UdgxMQ86/cznXPbtnUHNG7rvt7Sj8lIboxL672QOw+LmgcSuVbsG7GjmhsroVzxmP2+gSzOsz1IYnDqYt8Acoqt7gmxZSYxxSCJkoH6tp1z2CN0JeFiR41bsxsRkM0FhnuEsSAqURKHT4bU1rfiogDuVjPDwtgJq1hRHMlQnbg+NwcEHPCuhrcjv06TRfwDxuvbwbs75RqGacFbEYYHRsCJwOvSK0BynGQOHPCupl6D+Hr+Dx893LO6fTh1AAAAAElFTkSuQmCC"],
+                    "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
                     "type": "Buff"
                 },
                 {
@@ -150,8 +150,8 @@
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
-                    "animations": ["https://media4.giphy.com/media/PQyc4x3XPGhqkz6HcE/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAELUlEQVR4nL1X77WqMAwP57hAHQFHgBFwBByBO4KO4B1BR5ARZAQdQUawI/QlTUJThPvel3dzDra0afLLX+oGcgrwO1ToxAII98cLHE48Pv9v9FDXdVAQCiA8UHnl9oYVZnNY2Vsb1/kvtzt8HfYRxEYtT8ohjfGMrkG+Z+flC2Cs0/sTFVXlKn9XnQAExCYtO36iUrEkgvdmff6O8/Jh5Dte6/Fp3DK/CFK/bPLDIsCViVmFekGge/Re3o11uD4MAFfcu6N3DxjiBpfbljFEecjj6GwZhwmAVw9EHaWsKDMkpQoyOuv2GZkKNd5wskflt1a86JNcJ8BJjiCQEKhrdEOUqAfUchAQ7gIfRNY3HfO0jg1Q/kluOSnW3Nok+DYBlzIbzIj03KLFb55fcd7h/IqWt2d8uhVZYIAthUCZ3RGH72UhDoU/UVEVEghV3l1Mos1LcLk88yqwZUcgIvUp/k8sn6rLlSt1uOavuZei+7v0rvuOqiALgSYYfNJwwNhSz8AYlxz7otBOOnVUCCEkI6DNZajHjJGzKjA5MO87qDeWE/04Vs7KDMvoF9cnqmT9ScbcJSIfIQBxmUrdckO54OFTEY0qalhU0pQO7q/3zyDgiYzStK77qYxTCEBaZ49aWoxt82bLSflZhRawSt7DX4nyq9/FfOmwcr4gCwHwJuYcuC0DiOY5+CdyP/GNMMW/e8WKuTrqonsTArKclN/Q2i+yVEDQQxn/d/N+WBdwHuU4LlvfD3FpkzMuEOXCwN2N4juP8zCO0bX7ercSf1buUbkjA1v0ssN7h+2E1WisJ7oYLww5MAVBSaf9YV9vZ8rVY+/p3VFCU6+ghtXspnbOHujXrPecgCdOvlT/GL3dNoKg0e4xEM/9q0XFBMJ2YqG8Ed0WXHfJ14raf7p4ZMupD6g3OESs0JEBTcG9pJWz5IXvAo7tAU6Q3wmXCa0vvmFSRBZHIKP0iZY88Io5QB65P6gfIA8lOXXQfqV0e9OI4uVhyQtGOVVCg44LD8dVQdYdOaYNxjS8yaW7aHlsShGosdzSMUzy10NAdGZ3JdT0I5/So3GpWhkvJeb8UMh3ZJ0YAN1gNEmmPgCf3wUFdZq51QsQUmgPURMjcEteEMMYQCfabDW0LCg08gG6G8HnmcAuJCDAFfIOTvrHigeOIYVgwGt1E6/RBedD51IrJhAkg+JOoE5FHgIiDYG07RDEGHolr6hd7SykkN0JhYFAGOUTVaYlH2dWtTYP6OxWrgTmjqENzSlQfD9ld0IjTGnYLoOxXrgu5Ys5o+vNVrogXeffcI3fAv4YFXW9479m078ZSMljQcQrmCSabdH02Y635QWwkT/wXlvEkZTjv6K4qY0ogqD/bKlv4oUhorzIaNZpLD2v08XiqZdMy2f5dZ3k96j8oMiyTljIH8bfoCkT/wAXlggNeeq6hwAAAABJRU5ErkJggg=="],
+                    "animations": ["https://media1.giphy.com/media/9CMy7sLPg8PkWApcjD/giphy.gif"],
                     "type": "Active"
                 }]
             ],
@@ -159,6 +159,9 @@
                 "1st Job", [
                     {
                         "id": 3001004,
+                        "name": "Arrow Blow",
+                        "shortDesc": "MP Cost: 11, Damage: 295%, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Arrow_Blow.png/revision/latest?cb=20140413005650"],
                         "animations": ["https://media3.giphy.com/media/W6itmAFyBqFOkz0Vj8/giphy.gif"],
                         "type": "Attack",
@@ -166,6 +169,9 @@
                     },
                     {
                         "id": 3001007,
+                        "name": "Double Jump",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Double_Jump_%28Archer%29.png/revision/latest?cb=20140413005802", "https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Double_Jump_%28Hunter%29.png/revision/latest?cb=20140413013012"],
                         "animations": ["https://media1.giphy.com/media/WOMrd8AlHLc7kh7X8x/giphy.gif"],
                         "type": "Active",
@@ -178,11 +184,17 @@
                     },
                     {
                         "id": 3000001,
+                        "name": "Critical Shot",
+                        "shortDesc": "Critical Rate: +40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Critical_Shot.png/revision/latest?cb=20110502133044"],
                         "type": "Passive"
                     },
                     {
                         "id":3000002,
+                        "name": "Archery Mastery",
+                        "shortDesc": "Range +120, Movement Speed +30, Max Movement Speed Increased to 160",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Archery_Mastery.png/revision/latest?cb=20110520130950"],
                         "type": "Passive"
                     }]
@@ -190,6 +202,9 @@
                 [
                     "2nd Job", [{
                         "id": 3101005,
+                        "name": "Arrow Bomb",
+                        "shortDesc": "MP Cost: 15, Damage: 525%, Max Monsters Hit: 6, Stun Duration: 6 sec, Stun Chance: 60%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Arrow_Bomb.png/revision/latest?cb=20110502134910"],
                         "animations": ["https://media3.giphy.com/media/USbQ8ItWZAZ0IZmbi9/giphy.gif"],
                         "type": "Attack",
@@ -200,6 +215,9 @@
                     },
                     {
                         "id": 3101008,
+                        "name": "Covering Fire",
+                        "shortDesc": "MP Cost: 5, if you press and hold the skill key after jumping a certain distance backward, you will attack enemies at up to 105% of damage for 2 sec while in mid-air",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Covering_Fire.png/revision/latest?cb=20130707024857"],
                         "animations": ["https://media3.giphy.com/media/J4gOXXKFdGGA8ZUZBl/giphy.gif"],
                         "type": "Key-down Leap Attack",
@@ -207,6 +225,9 @@
                     },
                     {
                         "id": 3101002,
+                        "name": "Bow Booster",
+                        "shortDesc": "MP Cost: 11, Bow Attack Speed increased for 300 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Bow_Booster.png/revision/latest?cb=20110502134835"],
                         "animations": ["https://media3.giphy.com/media/sOs0AZ64U6oZkLxIax/giphy.gif"],
                         "type": "Buff",
@@ -214,12 +235,18 @@
                     },
                     {
                         "id": 3101004,
+                        "name": "Soul Arrow: Bow",
+                        "shortDesc": "MP Cost: 22, Attack Power: +30, Duration: 300 sec, able to attack without using arrows",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Soul_Arrow_Bow.png/revision/latest?cb=20110502142501"],
                         "animations": ["https://media2.giphy.com/media/tl6GhvAtJgKUZBVOgk/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 3101009,
+                        "name": "Quiver Cartridge",
+                        "shortDesc": "Fires 1 arrow out of 10 from a quiver containing three specialized arrows. The quiver refills when all three arrows have been expended.\\nBlood Arrowhead: Has a 50% chance to restore 3% of Max HP\\nPoison Arrowhead: Deals 150% damage over 8 sec, and can stack up to 3 times. When attacking an enemy with Poison Arrow's DoT applied, Critical Damage is increased by 4%.\\nMagic Arrowhead: Has a 30% chance to fire a magic arrow that deals 220% damage.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Quiver_Cartridge.png/revision/latest?cb=20130707024904"],
                         "animations": ["https://media2.giphy.com/media/XOEFsnoI1cJan4yOiY/giphy.gif"],
                         "type": "Active",
@@ -231,17 +258,26 @@
                     },
                     {
                         "id": 3100000,
+                        "name": "Bow Mastery",
+                        "shortDesc": "Bow Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Bow_Mastery.png/revision/latest?cb=20110502134731"],
                         "type": "Passive"
                     },
                     {
                         "id": 3100001,
+                        "name": "Final Attack : Bow",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 150% Final Attack damage.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                         "type": "Final Attack Passive",
                         "desc": "Grants your attacks a chance to deal an additional hit"
                     },
                     {
                         "id": 3100006,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     }]
@@ -249,6 +285,9 @@
                 [
                     "3rd Job", [{
                         "id": 3111013,
+                        "name": "Arrow Blaster",
+                        "shortDesc": "MP Cost: 7, Max Enemies Hit: 4, Damage: 181%. While casting, use the Interact/Harvest key to set up Arrow Blaster, firing arrows that deal 85% damage for 30 sec.\\nCooldown for installed Arrow Blaster: 5 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Arrow_Blaster.png/revision/latest?cb=20130707042130"],
                         "animations": ["https://media0.giphy.com/media/UrUncVc7EcDpd2bH4F/giphy.gif"],
                         "type": "Key-down Attack / Summon",
@@ -260,6 +299,9 @@
                     },
                     {
                         "id": 3111003,
+                        "name": "Flame Surge",
+                        "shortDesc": "MP Cost: 30, Damage: 360%, Number of Attacks: 3, Damage Over Time: 100% damage every 1 sec for 6 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Flame_Surge_%28Ranger%29.png/revision/latest?cb=20110502140545"],
                         "animations": ["https://media1.giphy.com/media/TfvgXqLXZFS3XARTAw/giphy.gif"],
                         "type": "Attack",
@@ -267,6 +309,9 @@
                     },
                     {
                         "id": 3111005,
+                        "name": "Phoenix",
+                        "shortDesc": "MP Cost: 70, summon Phoenix for 220 sec. Attack up to 4 enemies at once with 390% damage. 95% chance to Stun\\n[Passive Effects: Increase Defense by 30%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452"],
                         "animations": ["https://media3.giphy.com/media/eg3kij405oJoJ9o9nd/giphy.gif"],
                         "type": "Summon",
@@ -278,6 +323,9 @@
                     },
                     {
                         "id": 3111010,
+                        "name": "Hookshot",
+                        "shortDesc": "MP Cost: 21, after attacking with 170% damage, moves by passing through enemies\\n[Passive Effects: Max HP increases by 40%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Hookshot_%28Ranger%29.png/revision/latest?cb=20130707031829"],
                         "animations": ["https://media1.giphy.com/media/QuykWOAUoJN2R2sV77/giphy.gif"],
                         "type": "Attack / Utility",
@@ -288,17 +336,26 @@
                     },
                     {
                         "id": 3111011,
+                        "name": "Reckless Hunt: Bow",
+                        "shortDesc": "DEF: -25%, Attack Power: +40, Final Damage: +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Reckless_Hunt_Crossbow.png/revision/latest?cb=20140413050244"],
                         "type": "Toggle Buff",
                         "desc": "While active, reduces %DEF but increases %Final Damage and grants flat Attack"
                     },
                     {
                         "id": 3110001,
+                        "name": "Mortal Blow",
+                        "shortDesc": "After 9 number of attacks, the following attack's damage +80%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Mortal_Blow.png/revision/latest?cb=20110502140519"],
                         "type": "Passive"
                     },
                     {
                         "id": 3110012,
+                        "name": "Focused Fury",
+                        "shortDesc": "While attacking, Status Resistance will increase by 5 per hit up to 100 for 90 sec. Resets when an Abnormal Status is received.\\n[Passive Effects: Increases Status Resistance by 20 and Elemental Resistance by 20%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Focused_Fury_%28Ranger%29.png/revision/latest?cb=20130707031848"],
                         "type": "Passive",
                         "desc": "While attacking, you periodically gain Abnormal Status Resistance",
@@ -309,6 +366,9 @@
                     },
                     {
                         "id": 3110007,
+                        "name": "Evasion Boost",
+                        "shortDesc": "Dodge Chance: 30%, all attacks following a successful dodge for 1 sec will be criticals.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Evasion_Boost.png/revision/latest?cb=20110502140706"],
                         "type": "Passive",
                         "desc": "Grants a chance to dodge attacks",
@@ -318,6 +378,9 @@
                     },
                     {
                         "id": 3110014,
+                        "name": "Marksmanship",
+                        "shortDesc": "When attacking, ignores 25% of monster's Weapon DEF. Attack Power: +25%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Marksmanship.png/revision/latest?cb=20110502142528"],
                         "type": "Passive"
                     }]
@@ -325,6 +388,9 @@
                 [
                     "4th Job", [{
                         "id": 3121020,
+                        "name": "Hurricane",
+                        "shortDesc": "MP Cost: 9, 350% damage per arrow. While casting, move at 100% speed",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Hurricane.png/revision/latest?cb=20110502142405"],
                         "animations": ["https://media3.giphy.com/media/YooaUKv03twMpbqIGa/giphy.gif"],
                         "type": "Key-down Attack",
@@ -335,6 +401,9 @@
                     },
                     {
                         "id": 3121014,
+                        "name": "Binding Shot",
+                        "shortDesc": "MP Cost: 26, Damage: 530%, Number of Attacks: 6, Duration: 20 sec, HP Recovery effect: -60%, Speed: -30%\\nCooldown: 10 sec\\n[Passive Effects: Increases damage for Arrow blaster and installed Arrow Blaster by 90%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Binding_Shot.png/revision/latest?cb=20130707042136"],
                         "animations": ["https://media0.giphy.com/media/LScUyqTL0XlSeJbzgY/giphy.gif"],
                         "type": "Attack",
@@ -347,6 +416,9 @@
                     },
                     {
                         "id": 3121015,
+                        "name": "Arrow Stream",
+                        "shortDesc": "MP Cost: 32, attack up to 8 enemies with 350% damage 5 times",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Arrow_Stream.png/revision/latest?cb=20130707042144"],
                         "animations": ["https://media3.giphy.com/media/cO3K61LkuQWy2QaENj/giphy.gif"],
                         "type": "Attack",
@@ -354,17 +426,18 @@
                     },
                     {
                         "id": 3121002,
+                        "name": "Sharp Eyes",
+                        "shortDesc": "MP Cost: 45, Critical Rate: 20%, Critical Damage: +15%, Duration: 300 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300"],
                         "animations": ["https://media0.giphy.com/media/zFyOrfXJDtiymYiByY/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
-                        "id": 3121007,
-                        "icons": ["https://orangemushroom.files.wordpress.com/2019/01/illusion-step.png"],
-                        "type": "Passive"
-                    },
-                    {
                         "id": 3121009,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media3.giphy.com/media/B4vR1MVxyErVOcJ4P2/giphy.gif"],
                         "type": "Buff",
@@ -372,12 +445,18 @@
                     },
                     {
                         "id": 3121000,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 60, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media4.giphy.com/media/DVEcrxMnH86Qet4Est/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 3121016,
+                        "name": "Enhancted Quiver",
+                        "shortDesc": "MP Cost: 20, Current arrow will not be consumed for 30 sec. Cooldown: 30 sec\\n[Passive Effects] Blood Arrow - Recovery Chance: 70%, Max HP Recovery Ration: +5%.\\nPoison Arrow - Damage Over Time: 220%. Critical Damage Increase Rate: +8%\\nMagic Arrow - Activation Chance: 60%. Damage increases to 260%.\\nPoison Arrow and Blood Arrow count increased to 20 arrows. Magic Arrow increased to 40 arrows.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Enchanted_Quiver.png/revision/latest?cb=20130707042201"],
                         "animations": ["https://media0.giphy.com/media/iDvMNse4b4n0xYxXC5/giphy.gif"],
                         "type": "Buff",
@@ -388,6 +467,9 @@
                     },
                     {
                         "id": 3120005,
+                        "name": "Bow Expert",
+                        "shortDesc": "Bow Mastery: +70%. Attack Power: +60, Critical Damage: +8%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Bow_Expert.png/revision/latest?cb=20110502142447", "https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Bow_Mastery.png/revision/latest?cb=20110502134731"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -397,7 +479,18 @@
                         ]
                     },
                     {
+                        "id": 3121007,
+                        "name": "Illusion Step",
+                        "shortDesc": "Dexterity: +80, Avoidability: +30% chance, Damage taken reduced by 20%.",
+                        "maxLevel": 30,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Illusion_Step_%28Pathfinder%29.png"],
+                        "type": "Passive"
+                    },
+                    {
                         "id": 3120008,
+                        "name": "Advanced Final Attack",
+                        "shortDesc": "Attack Power: +20 permanently.\\n[Final Attack Skills] Final Attack Chance: 70%, Damage: 210%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -408,6 +501,9 @@
                     },
                     {
                         "id": 3120018,
+                        "name": "Armor Break",
+                        "shortDesc": "Final Damage increases as much as 100% of Enemy DEF while attacking, and 50% of Enemy DEF is ignored.\\nCooldown: 9 sec, Cooldown reduced by 1 sec every time you attack. Minimum cooldown of 1 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Armor_Break.png/revision/latest?cb=20130707042209"],
                         "type": "Passive",
                         "desc": "Periodically increases your next attack's %Final Damage and %Ignore DEF based on the enemy's PDR (Physical Defense Resistance)",
@@ -422,54 +518,81 @@
             "hyperPassive": [
                 {
                     "id": 3120043,
+                    "name": "Sharp Eyes - Persist",
+                    "shortDesc": "Duration: +30 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Sharp_Eyes_-_Persist.png/revision/latest?cb=20130707042226"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 3120044,
+                    "name": "Sharp Eyes - Guardbreak",
+                    "shortDesc": "Enemy DEF Ignored: +5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Sharp_Eyes_-_Guardbreak.png/revision/latest?cb=20130707042232"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 3120045,
+                    "name": "Sharp Eyes - Critical Chance",
+                    "shortDesc": "Critical Rate: +5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Sharp_Eyes_-_Critical_Chance.png/revision/latest?cb=20130707042238"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 3120046,
+                    "name": "Arrow Stream - Reinforce",
+                    "shortDesc": "Damaage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Arrow_Stream_-_Reinforce.png/revision/latest?cb=20130707042249"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 3120047,
+                    "name": "Arrow Stream - Spread",
+                    "shortDesc": "Max Enemies Hit: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Arrow_Stream_-_Spread.png/revision/latest?cb=20130707042254"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 3120048,
+                    "name": "Arrow Stream - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Arrow_Stream_-_Extra_Strike.png/revision/latest?cb=20130707042300"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 3120049,
+                    "name": "Hurricane - Reinforce",
+                    "shortDesc": "Damage: +30%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Hurricane_-_Reinforce.png/revision/latest?cb=20140724233315"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 3120050,
+                    "name": "Hurricane - Boss Rush",
+                    "shortDesc": "Boss Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Hurricane_-_Boss_Rush.png/revision/latest?cb=20140724233334"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 3120051,
+                    "name": "Hurricane - Split Attack",
+                    "shortDesc": "Number of Attacks: +1, reduces Damage to 75% of the original Damage",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Hurricane_-_Split_Attack.png/revision/latest?cb=20140724233402"],
                     "type": "Passive",
                     "reqLev": 190
@@ -478,6 +601,9 @@
             "hyperActive": [
                 {
                     "id": 3121054,
+                    "name": "Concentrate",
+                    "shortDesc": "MP Cost: 300, Duration: 30 sec, Attack Power: +50, Knockback Resistance: +100%, When Attacking Boss Monsters - Damage: +20%\\nCooldown: 90 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Concentration.png/revision/latest?cb=20121012200306"],
                     "animations": ["https://media3.giphy.com/media/ocYVxpqvBqcPq6KODr/giphy.gif"],
                     "type": "Buff",
@@ -485,6 +611,9 @@
                 },
                 {
                     "id": 3121052,
+                    "name": "Gritty Gust",
+                    "shortDesc": "MP Cost: 200, Enemies Hit: 12, Damage: 335%, Number of Attacks: 12, 200% damage every 10 sec.\\nCooldown: 15 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Gritty_Gust.png/revision/latest?cb=20121012200107"],
                     "animations": ["https://media2.giphy.com/media/XbhBBuW6fczq4I4HtW/giphy.gif"],
                     "type": "Attack",
@@ -493,6 +622,9 @@
                 },
                 {
                     "id": 3121053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Epic_Adventure_%28Bowman%29.png/revision/latest?cb=20121015210409"],
                     "animations": ["https://media0.giphy.com/media/AAhIhM6qORVf3IF4Up/giphy.gif"],
                     "type": "Buff",

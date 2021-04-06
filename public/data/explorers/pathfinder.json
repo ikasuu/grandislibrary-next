@@ -115,8 +115,8 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/qeIExni.png"],
-                    "animations": ["https://media0.giphy.com/media/ANrc5LWqUZEEneRPA9/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC/0lEQVR4nL1XAZGrMBBdZmoAC/kSqAQqgUoACSABJBAJjYRDApHQSCgS+NnA0gQIF64zXW4OEkL27du3S7mAayN8xyK6sAGMP/3zK95v138jgSAAxnmasFMbDcPgjOM4DnpuHEeIosiAuPzFOTlWSjnzjLFgIPWjh+p+HS9w0tA5Ob5er869vu8XIKFsnAJAzslx2bbmrKR0ACGQUBDBAGznz+cTeNcZxwO8dZDmGS40a0JBBAE4dG4JkS6TNF1AJEnyOQDbupluF+D7AsHaUa/HpwHY0bePBygcW9Eb5zOCwTrbLByl4hQDnab+CChakqUaoILAIjgHoC5LkwJkQcotGOO8kxPtgX3lEMBafPeiWEour2sDYlBqohfTsWpMHwOwrWoaZ8yrCtIsA6YjRconwO/7MfuQAbvj/WbIgNGiXk/PqIYv93HOJ8RdAJuOV/9AU90gy/NpwzkNnRCGBdDBSj5pos3KeQ+3XfuqYQPAyfvrBZxLkMqtfaabi7QqouMCXlojouLGsf2OLNPM7OkrSQeA1znWdZaD4BzWhnNr5+vXNFqe7HdHrwa6bpv/REeDAA29lhNRCd82Bgwe6+64AeB2vF5fD0v0765HGzE9M4Fosxqf3kS/nOE9tlk4ZEAEdLwsL0E0lR5L/9rZecoS07z2bBdAW+cmBYaFnY6HyicR5m09p2BYlO+s1c4lsqMBsHjbGxYAtvhu9wIG6nhla0CoYep4lCql51B8lV4r59rPUSN42Gs9kXsZKCpX6bwpTAUwpJHKcd6UF5W7thOQaYVjpGqHDRbaiHxGSg7pkLE+8I+A+HSwAMAGgerENKR5jRpf0iAFNyzEqH4tOvPrV0da6fk6xU7IljQI/QyyAHMKKO+oA7xHzQjm9YcMxHoj1W1r3FTCKppEb8pnwWbwbjRUCbbz3U6IkzYLZFSz65/gdO/M2l/fBTaIvQ3Wdnat720Y4bcafR0RiBA7u5asERK/ivAyIgYMCPxc+oaRc/xnpyDCbzX4ji2f5/8BSxxCgTxgn7sAAAAASUVORK5CYII="],
+                    "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
@@ -126,8 +126,8 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/GpKcy63.png"],
-                    "animations": ["https://media4.giphy.com/media/gsPxMfbF4oJlhG2JKG/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVR4nL1Xi5GDIBDFmTRASjAlnCXEEmIJZwlnCZcSvBJiCVqClJC0QAkeS7KKggtGJm8yBvnt4+2ywoHNMbDPIMGCSWBo+/tHrOfZaUASSEAbP3+luydPknFxbBjcgkK96qdJHGIaR/xezqxqOrrPrWdVkQ0HFgnmyvmibk0JQDQCgPr7YpXLv4YcE5UAGrv9XFhxbVgIVgmYkiIoKe99q/9PWT76AOo4p2OLVKCt67GclyU5EZNTsaiaqY4zEl4XiC5MSrVU/dff6hcZyUIwI+CSfa196Q6wLyV7Ss6fBHiaqndaAksBU3Y9saPe6Q5lmCujuG6f71cJgMVHZySR1woegk4sx+PRWU8FrpOAJ2ZILNXzBq6LQFZMgyCgxGvlZeC+Dg5aFwHcywDcz9zRLh+CxcKMANdhpE2YlQvQTtrqwrkLUkXBsJ3lcx9iZJ+KSj2rIAO+jGopAD/gcG/b+ShoMva0TjguePqYMWYRwMHwlLosjSYMiMmA6Oit6Wu3CUzm7Aym3/ds0k0EUG6PwQh81j9Gnhy+9CUAfG5mzJAzwVsHEjNfIMxzgK/vbgKbpN97HnDPmVKN4X3fJsDDJdh8Hgic1Vm9zJxU330EHPAFG0Uggbva3ttR6AkIcG0E3IqgmKACmgRcl6JD2J9uNA4P0wUJ3NXYZzB+Iv8Bbq6jgAlpMSsAAAAASUVORK5CYII="],
+                    "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
                     "type": "Buff"
                 },
                 {
@@ -136,8 +136,8 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
-                    "animations": ["https://media1.giphy.com/media/iQC1tzre1I8TEUgRpB/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACx0lEQVR4nL1XgZGbMBCUZ9yAvgRSAl8CKYGU4Bb8JZgWKCGUEEp4SgglvEpwtJJWOgkZ+2di7xiQsXy7d9zpxFHluKrX4MCBFHD98/n3Jew/339cKYICHHnXNv+dzITTMAzqfD67e19fV/X2dnAijs8kpwLjZQQRJzvS6vL7U338er8e1RNhQG5P4zg6Yq21+vigCI+nCTCMfQDI89+eKIDkuNJ7f9+48TCMSrfd4wKoWDhRnydOkhzeG+m2wK4Ak5+sEb0vgglXeE5AyDRNjwugwcb+cV2NNQAhWwUy5MA4JXI+e5J3XaeWZXxQgEUTDDSND2MpoUZ+sfVehhzkTdOoeZ6z+3cFwBDUr7iCOiigfUhCuPv+ZEk8uZ+bvAd53/fuuiyrOp3sXHu9K0Br/9xNMFjzGuTxZqh7SY7vJC/D/1AEghRJH/MS5JfL2RnHgXEZevnsUX7wXibyN9YBEw0AzPJaeeWLjnHkOiufNN4vQz7nsJxyXENrewnzRc7jdyzBpfe7AkpyGequ66Nxelh6LscgRx6k3+4IKDO8fLbzPMU6R1ltQ5zAhYdXtuRdAaQXvSQS9b3vaDQqPUsOmFjvqH0c0zRvVsZdAeCueQ/geVNQSSzFAuu6OnKfvPrxHFBG7aIWdn5nVCCI5Ld6yLfb8a2wEzJasWwdeb2RbQSUGwkJhPYWOYgRbhxLWGYJHeeo/UdgxMQ86/cznXPbtnUHNG7rvt7Sj8lIboxL672QOw+LmgcSuVbsG7GjmhsroVzxmP2+gSzOsz1IYnDqYt8Acoqt7gmxZSYxxSCJkoH6tp1z2CN0JeFiR41bsxsRkM0FhnuEsSAqURKHT4bU1rfiogDuVjPDwtgJq1hRHMlQnbg+NwcEHPCuhrcjv06TRfwDxuvbwbs75RqGacFbEYYHRsCJwOvSK0BynGQOHPCupl6D+Hr+Dx893LO6fTh1AAAAAElFTkSuQmCC"],
+                    "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
                     "type": "Buff"
                 },
                 {
@@ -146,7 +146,7 @@
                     "name": "Return to Partem",
                     "shortDesc": "Returns you to Karuppa Town when used.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://i.imgur.com/VJLJIiR.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD8ElEQVR4nL1X7ZWjMAwU720DvhJICU4JUEK2BLaEbAmhhFDCpYRQQighlHCUwGlkyxZfd/9W+/YBxtaMRhMDH7SMmX4mCj2xBObX6/0j6OfzaVYSSkDAvS+JJqJxnNLksnT03cbzjqh6hnun86805/36I8e+djQ2Yex23eYhF87vv5/09VkLiY8FOOVFYz+G2RXGHbVtUO3O676mcD67mQo+B5m7i+NM9nqdJY/mKDkHrksfGDSXiiiSWHpgymzLxpskPgHgH+dNM1LBpObrm7quTKRwb4wFAFgq18ImSipofFhwBVTw7uEEHNUjsQZULtqTgMsR5ExSUYtVoAeqnYSEFAJCfskgE3BZ9tBzI7vbyg7wti0jiSKNq0JfrRo9EK9i/tL7fQLjYHrvQ9XoJY4bcBwVNCqQxqc8X9eLJ2JLgGNVWHign7yA78W60ufqaJUBqXWM/kKwQUPTYjwrEM2mjBHaglRxJAHQmsFuFI7PFbiSaVMbaKEE23xfgXJ4JNm075uex2uAf1MmgfG23SqlfkBe5A8/6wMFBv53sQPax03PDfiLr8/xOs/LCtg8iEH3FsoifKxv9m29cH1F10WvLXjPf2sSOg/regpbKPJ1nNfzaCLRuG0LBl6C6KZaEj+a7APIfKX3Avyb5zU8qiRwv47EAQ7ZLx1UqFN+kNhtgUdv+kom3d1TEqIA955pOiH5ky9PUg3uARTgjbvJtaoW5tWyruV10OAl94IC/sgD61AFiCvoYjLtqSVhwREK3vA6igqsA23wjd8nkKoP2SRcM5v7cyIxrK6t4bR1rSmom9qlEWnXA6GnCCjQNZYcKzF9bsD2SKgKVoF/ekCZWWnFA03wgIJLVZFEqpavS7pkcjxfPNBmDyCfglsfZALxF5DAY0wxGZ0za8epIOckTQgx4tGn96NxNbQoGDGokGXdNeFRCxRciB2AWxLrFqRi/2XCoxaQkRzgnv+GeLxAfvrM9//TAht5H6AqtUEDG8m6AK1cDcWvGAvw9Xr7QFKcXQJIaAkIa15sf4KZRNy2WXpnnmwwog2Av4xymt+SONyIrBHXAaAqAo+RDJRRf6zzWBJKxNOBBzR0J9zxUGxDya9ZJb/EaNJtXA92QhsLAtYH1oQ2XOw8op9Gnj2m8XVYE2r+QwJrEx4pUDLUyBrgCHCQ6WVkq8GeAocm1JubZ0F8IupGBKgqyo/XOz0+DAHdiOLyVBA2rz0FCnyr4evI9Y4wx25EiKM2CjgpseVmpO+VVoHrraG+7+VlhL+KMFSoAkIC32x0zws0/U0ee3hM5W1xNG+3aMed3wNC9GF+tMRg8kkYcFVAo4gfjD8R6Tf+F+p4ysAIKGqRAAAAAElFTkSuQmCC"],
                     "animations": ["https://media1.giphy.com/media/kHPmrSxrk4u9jCJE3T/giphy.gif"],
                     "type": "Active",
                     "desc": "",
@@ -160,7 +160,7 @@
                     "name": "Ancient Curse",
                     "shortDesc": "Level 1: Critical Rate -20%, Defense -20%, Status Resistance -20\\nLevel 2: Defense -20%, Status Resistance -20\\nLevel 3: Status Resistance -20\\nLevel 4: Curse has been lifted",
                     "maxLevel": 4,
-                    "icons": ["https://i.imgur.com/nDtAYzx.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADk0lEQVR4nL2X7ZWyMBCFx3PeBtgS2BKwBClBSoASsAQtQUqQEqQEKWEpYS2BN3fMwE2APeufHY9CMMl9ZvI1/JPQRvkb29kNA4yPx9efqO/3n6NBGICKZ1n6fmetyOP4Xpvr7S5VkSvEv1i8qC7bLYf59tm5762eIJLiIsmB6ibR1dvtWkt5dBU9RDAHFuJP/yVRs05OkkkdlA/dWSG4nkIlMwg0AGEWT8KXYEL3uODaIwBzz6X79NQM5cZDwKxu2h1mkJURXgJEITNvWPzgejpCsJgms5zloVeFcKXU/aINg6xBhABDGD4Wtis8hXguey1/u5X74SY0yneCMAOItVeIaMIGABBnT/l+S/wk1QZEE/RhIDynlhFY8dyEYSx+9M/Ocp3KrRNliMTJtpFDiMKTIMIIuGWVFq+KGEfMbPManeNrnUPo6j7wHBHg/1rv/cF73UaRzDvx+ATQd4Nby61CJG55AbIshslrdG4QMAs7zCAwHGbcDtb5PQP93tKndEMEcMrbxdrmkGNMSx+Js/ecQ88QukI8qEFwDJ40Bptz4Fz0wXhvidv8iCH4uUIUDzndsoVOAKBhLqrFZCt9mcPO4msQuPKcMAjcZ9lV+noIAe5ZLbv+1cjEYZhovNRYvPFz4qdIoH0bDQd0vk7fIQAebg7HD2E34Dpxh8xzCbFln8NHCDBm4yYER8C84U0JV0ysJlolaGf7RGxf6bdCTAB5f5mWGg9D5ScUjy1DWDSalSWKfipamtY/nG1qty6KaBJCNLuNesphwqBsnaLxViTWPEd9fq7tdRVcJXe5w1GycAjuYy35bt6qUTmGgFgMkbhPLH6MoGbxpQUR0GSCyjwctg8oHEE0cgnErZ3Vt7DLxlwIAIay1tTKDqLXL3cyH0I8J9bWPYvjkxavdY9T8ZXKdUuAtLvoKZE2hwnCtlQTj09DW2r8H58b3N4MSWzTrkRAk06fsVhGE0PYkKBz26TOtNmw19bP5KAcwsRVVhKSpJQgseSMpiERQHD4Y3FrxwCx+DICFAVUtoSSrdMKTQCxJW7gk+eUHa8CmOeWPCIamie6pZH2y0hgzzDDIQa4VFPWEHxLfAFwu9dS5JcgEgoyLFI5hchoaaGMLEoFbclbBkzC/E5gADu8q9nbESB+tvn/fTs/Hcffv9c2bYe3ItzuLAIKgXe2dwwjBL9LDEsrvzYTxw8Pwc6/ML5tlbxt07H7H6pFH5G5lFKPAAAAAElFTkSuQmCC"],
                     "type": "Passive",
                     "desc": "Your stats are reduced due to an unknown curse",
                     "details": [
@@ -173,6 +173,9 @@
                 "1st Job", [
                     {
                         "id": 3010001,
+                        "name": "Curse Dampening I",
+                        "shortDesc": "Activated when attacking with a Cardinal Force skill. Accumulates up to level 10, with a Critical Rate increase of 2% for each level.\\nCan only be activated when the curse is reducing your Critical Rate.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Curse_Dampening_I.png/revision/latest?cb=20190616015125"],
                         "type": "Passive",
                         "desc": "When attacking with a <strong>Cardinal Force</strong> attack, you gain a stacking %Crit Rate buff",
@@ -182,6 +185,9 @@
                     },
                     {
                         "id": 3011004,
+                        "name": "Cardinal Deluge",
+                        "shortDesc": "MP Cost: 10, Max Enemies Hit: 4. Blasts an arrow that deals 90% damage 4 times.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121"],
                         "animations": ["https://media.giphy.com/media/LShxFbFSWHPSa8HuSL/giphy.gif"],
                         "type": "Cardinal Force Attack",
@@ -192,6 +198,9 @@
                     },
                     {
                         "id": 3011005,
+                        "name": "Double Jump",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Double_Jump_%28Pathfinder%29.png/revision/latest?cb=20190616015127"],
                         "animations": ["https://media4.giphy.com/media/PfPkavy8oJG3sDQ3l4/giphy.gif"],
                         "type": "Active",
@@ -204,11 +213,17 @@
                     },
                     {
                         "id": 3010003,
+                        "name": "Archery Mastery",
+                        "shortDesc": "Range +120, Movement Speed +30, Max Movement Speed Increased to 160",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Archery_Mastery.png/revision/latest?cb=20110520130950"],
                         "type": "Passive"
                     },
                     {
                         "id": 3010002,
+                        "name": "Forceful Shot",
+                        "shortDesc": "Critical Rate: +40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Critical_Shot.png/revision/latest?cb=20110502133044"],
                         "type": "Passive"
                     }]
@@ -216,6 +231,9 @@
                 [
                     "2nd Job", [{
                         "id": 3300000,
+                        "name": "Relic Charge I",
+                        "shortDesc": "Relic Gauge Maximum Charge: 1000\\nAttacking an enemy with a Cardinal Force skill charges the relic gauge by 10, and by 5 for every guided arrow of Cardinal Deluge that hits an enemy.\\nIf a different Cardinal Force skill is used next, the cooldown for all Ancient Force skills will be reduced by 0.5, except for the 5th Job Advancement skills.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Relic_Charge_I.png/revision/latest?cb=20190616015332"],
                         "type": "Passive",
                         "desc": "Attacking enemies with <strong>Cardinal Force </strong>skills will charge your Relic Gauge",
@@ -225,6 +243,9 @@
                     },
                     {
                         "id": 3300001,
+                        "name": "Curse Dampening II",
+                        "shortDesc": "Activated when attacking with a Cardinal Force skill. Accumulates up to level 10, with a Defense increase of 2% for each level.\\nCan only be activated when the curse is reducing your Defense.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Curse_Dampening_II.png/revision/latest?cb=20190616015126"],
                         "type": "Passive",
                         "desc": "When attacking with a <strong>Cardinal Force</strong> attack, you gain a stacking %DEF buff",
@@ -234,6 +255,9 @@
                     },
                     {
                         "id": 3300002,
+                        "name": "Cardinal Deluge Amplification",
+                        "shortDesc": "MP Cost: 15. Fires an arrow that deals 200% damage to up to 5 enemies 4 times. If a boss monster is within the attack's range, fires 1 additional arrows.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Cardinal_Deluge_Amplification.png/revision/latest?cb=20190616015121", "https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -244,6 +268,9 @@
                     },
                     {
                         "id": 3301003,
+                        "name": "Cardinal Burst",
+                        "shortDesc": "MP Cost: 15, Max Enemies: 4, Damage: 200%, Attack Count: 4, when the arrow explodes.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553"],
                         "animations": ["https://media.giphy.com/media/SA0iTiVe5bfY3JAzmb/giphy.gif"],
                         "type": "Cardinal Force Attack",
@@ -254,6 +281,9 @@
                     },
                     {
                         "id": 3301008,
+                        "name": "Swarm Shot",
+                        "shortDesc": "Relic Gauge Cost: 50, Max Enemies Hit: 8, Damage: 200%, Attack Count: 4. Creates 2 magical arrows that deal 100% damage 4 times each time this attack pierces an enemy.\\nCooldown: 10 sec.",
+                        "maxLevel": 19,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Swarm_Shot.png/revision/latest?cb=20190616015334"],
                         "animations": ["https://media.giphy.com/media/LmsFNfu9adHjfq6isr/giphy.gif"],
                         "type": "Ancient Force Attack",
@@ -261,6 +291,9 @@
                     },
                     {
                         "id": 3301010,
+                        "name": "Ancient Bow Booster",
+                        "shortDesc": "MP Cost: 11, Increases attack speed of Ancient Bow for 300 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Ancient_Bow_Booster.png/revision/latest?cb=20190615205547"],
                         "animations": ["https://media3.giphy.com/media/jdR2gnHYsewDJGPYLT/giphy.gif"],
                         "type": "Buff",
@@ -268,17 +301,26 @@
                     },
                     {
                         "id": 3300005,
+                        "name": "Bountiful Deluge",
+                        "shortDesc": "When using Cardinal Burst while the relic displays the Deluge emblem, there is a 40% chance to create 3 magical arrows.\\nThese magical arrows will chase and attack nearby enemies for 2 sec, dealing 100% damage 3 times.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Bountiful_Deluge.png/revision/latest?cb=20190615205552"],
                         "type": "Passive",
                         "desc": "When using <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553' alt='Skill Cardinal Burst' width='32' height='32'> while your relic is displaying the 'Deluge' emblem, you have a chance to create homing arrows"
                     },
                     {
                         "id": 3300006,
+                        "name": "Ancient Bow Mastery",
+                        "shortDesc": "Ancient Bow Mastery: +50%, Attack Power +30",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Ancient_Bow_Mastery.png/revision/latest?cb=20190615205548"],
                         "type": "Passive"
                     },
                     {
                         "id": 3300007,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     }]
@@ -286,6 +328,9 @@
                 [
                     "3rd Job", [{
                         "id": 3310000,
+                        "name": "Curse Dampening III",
+                        "shortDesc": "Activated when attacking with a Cardinal Force skill. Accumulates up to level 10, with a Status Resistance increase of 2% for each level.\\nCan only be activated when the curse is reducing your Status Resistance.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Curse_Dampening_III.png/revision/latest?cb=20190616015126"],
                         "type": "Passive",
                         "desc": "When attacking with a <strong>Cardinal Force</strong> attack, you gain a stacking Abnormal Status Resistance buff",
@@ -295,6 +340,9 @@
                     },
                     {
                         "id": 3310001,
+                        "name": "Cardinal Burst Amplification",
+                        "shortDesc": "MP Cost: 20, Max Enemies: 5, Damage: 300%, Attack Count: 4, when the arrow explodes.\\nIf the total number of enemies struck is lower than the maximum, this skill's final damage will increased by an additional 10% for each enemy below the max.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Cardinal_Burst_Amplification.png/revision/latest?cb=20190615205553", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -305,6 +353,9 @@
                     },
                     {
                         "id": 3311002,
+                        "name": "Cardinal Torrent",
+                        "shortDesc": "MP Cost: 20, Consumes 1 Swiftstrike Charge\\nDeals 400% damage 5 times to up to 6 nearby enemies.\\nYou gain 1 Swiftstrike Charge every 7 sec, and can store up to a maximum of 5.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Cardinal_Torrent.png/revision/latest?cb=20190616015123"],
                         "animations": ["https://media.giphy.com/media/dW0Yz61W2AMydrof34/giphy.gif"],
                         "type": "Cardinal Force Attack",
@@ -317,6 +368,9 @@
                     },
                     {
                         "id": 3311010,
+                        "name": "Triple Impact",
+                        "shortDesc": "Relic Gauge Cost: 50. Explosions deal 400% damage 5 times to up to 4 enemies.\\nCooldown 10 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Triple_Impact.png/revision/latest?cb=20190616015334"],
                         "animations": ["https://media.giphy.com/media/VIPY8sbgRYgXlAYWCp/giphy.gif"],
                         "type": "Ancient Force Attack",
@@ -324,6 +378,9 @@
                     },
                     {
                         "id": 3311009,
+                        "name": "Shadow Raven",
+                        "shortDesc": "MP Cost: 70, summon a Raven for 220 sec. Deals 390% damage to up to 4 enemies at once.\\n[Passive Effect: Increases your Defense by 30%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Shadow_Raven.png/revision/latest?cb=20190616015333"],
                         "animations": ["https://media.giphy.com/media/ibYZywtvXeyW2TjJy8/giphy.gif"],
                         "type": "Summon",
@@ -334,6 +391,9 @@
                     },
                     {
                         "id": 3311012,
+                        "name": "Cursebound Endurance",
+                        "shortDesc": "MP Cost: 58, increases Status Resistance by 30 for 300 sec. If afflicted by an abnormal status while this skill, Status Resistance will be increased by 20, and can be stacked up to 5 times.\\n[Passive Effect: Increases Status Resistance by 30 and all Elemental Resistances by 30%]",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Cursebound_Endurance.png/revision/latest?cb=20190616015127"],
                         "animations": ["https://media0.giphy.com/media/3cFe4RRgyl38Ex1qJL/giphy.gif"],
                         "type": "Buff",
@@ -344,6 +404,9 @@
                     },
                     {
                         "id": 3310006,
+                        "name": "Guidance of the Ancients",
+                        "shortDesc": "Each time the Relic Gauge has been filled up by 1000, your Final Damage is increased by 15% for 30 sec.\\nRestores HP/MP by 20% when activated\\n[Passive Effect: Increases Max HP by 50%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Guidance_of_the_Ancients.png/revision/latest?cb=20190616015129"],
                         "type": "Passive",
                         "desc": "Each time you fill up your Relic Gauge by 1000, you gain a %Final Damage buff and restore some %HP/MP",
@@ -353,12 +416,18 @@
                     },
                     {
                         "id": 3310004,
+                        "name": "Bountiful Burst",
+                        "shortDesc": "When using Cardinal Deluge while the relic displays the Burst emblem, there is a 40% chance to create 2 magical arrows.\\nThese magical arrows will chase nearby enemies for 2 sec and explode on contact, dealing 150% damage to up to 4 enemies 3 times.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Bountiful_Burst.png/revision/latest?cb=20190615205551"],
                         "type": "Passive",
                         "desc": "When using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121' alt='Skill Cardinal Deluge'> while your relic is displaying the 'Burst' emblem, you have a chance to create homing arrows"
                     },
                     {
                         "id": 3310005,
+                        "name": "Evasion Boost",
+                        "shortDesc": "Dodge Chance: 30%, all attacks following a successful dodge for 1 sec will be critical hits.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Evasion_Boost.png/revision/latest?cb=20110502140706"],
                         "type": "Passive",
                         "desc": "Grants a chance to dodge attacks",
@@ -368,6 +437,9 @@
                     },
                     {
                         "id": 3310008,
+                        "name": "Archer's Essence",
+                        "shortDesc": "Critical Rate: +10%, Damage: +10%, Ignore Defense: +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Archer%27s_Essence.png/revision/latest?cb=20190615205551"],
                         "type": "Passive"
                     }]
@@ -375,6 +447,9 @@
                 [
                     "4th Job", [{
                         "id": 3320000,
+                        "name": "Relic Charge II",
+                        "shortDesc": "The Relic Gauge is charged by 20 when attacking an enemy with a Cardinal Force skill, and by 10 per hit from Cardinal Deluge's guided arrows.\\nThe Shadow Raven will charge the Relic Gauge by 10 for each enemy hit by its attacks. When you use another Cardinal Force skill, all Ancient Force and Enchant Force skills will have their cooldowns reduced by 1 sec, except for 5th Job Advancement skills.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Relic_Charge_II.png/revision/latest?cb=20190616015333"],
                         "type": "Passive",
                         "desc": "Attacking enemies with <strong>Cardinal Force </strong>skills will charge your Relic Gauge",
@@ -385,6 +460,9 @@
                     },
                     {
                         "id": 3320001,
+                        "name": "Curseweaver",
+                        "shortDesc": "Using certain skills will inflict enemies with the Ancient Curse debuff, which lasts for 15 sec and can be stacked up to 5 times.\\nSkills that utilize the Ancient Bow deal an increased 4% Critical Damage to enemies for each stack of the curse debuff currently afflicting them.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Curseweaver.png/revision/latest?cb=20190616015127"],
                         "type": "Passive",
                         "desc": "Certain skills will inflict your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Ancient_Curse.png/revision/latest?cb=20190615205548' alt='Skill Ancient Curse'> Ancient Curse on enemies up to 5 times",
@@ -395,6 +473,9 @@
                     },
                     {
                         "id": 3320002,
+                        "name": "Advanced Cardinal Force",
+                        "shortDesc": "When using Cardinal Force skills, MP Cost: 30\\nCardinal Deluge\\nFires an arrow that deals 300% damage to up to 6 enemies 4 times. Fires 1 additional arrow if a boss monster is within range.\\nCardinal Burst\\nAn exploding arrow deals 400% damage to up to 6 enemies 4 times. If total enemies struck is lower than the max, an additional 10% is added to the final damage for each enemy below the max.\\nCardinal Torrent\\nConsumes 1 Swiftstrike Charge. Deals 540% damage 5 times to up to 7 nearby enemies. You gain 1 Swiftstrike Charge every 7 sec up to a maximum of 5. You cannot be pushed back while casting, and each enemy hit will receive 1 stack of the Ancient Curse debuff.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Advanced_Cardinal_Force.png/revision/latest?cb=20190615205544", "https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553", "https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Cardinal_Torrent.png/revision/latest?cb=20190616015123"],
                         "animations": ["https://media.giphy.com/media/H422SodZD7TNa5l5nP/giphy.gif", "https://media.giphy.com/media/WsvBfbCd5AHSW2X8OT/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -407,6 +488,9 @@
                     },
                     {
                         "id": 3321012,
+                        "name": "Glyph of Impalement",
+                        "shortDesc": "Relic Gauge Cost: 100, Max Enemies Hit: 8, Damage: 800%, Attack Count: 6. Final Damage increased by 10% per stack of the Ancient Curse debuff.\\nCooldown: 15 sec.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Glyph_of_Impalement.png/revision/latest?cb=20190616015128"],
                         "animations": ["https://media.giphy.com/media/fXo8Ovl96HmvoAZ2Zv/giphy.gif"],
                         "type": "Ancient Force Attack",
@@ -417,6 +501,9 @@
                     },
                     {
                         "id": 3321014,
+                        "name": "Combo Assault",
+                        "shortDesc": "Relic Gauge Cost: 150. Bow attack deals 500% damage to up to 4 enemies 7 times, inflicting 1 stack(s) of the Ancient Curse debuff.\\nArrow attack deals 550% damage to up to 10 enemies 5 times.\\nCooldown: 20 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Combo_Assault.png/revision/latest?cb=20190616015125"],
                         "animations": ["https://media.giphy.com/media/eKTtbptGr7YJy01VU9/giphy.gif"],
                         "type": "Enchant Force Attack",
@@ -429,18 +516,27 @@
                     },
                     {
                         "id": 3321022,
+                        "name": "Sharp Eyes",
+                        "shortDesc": "MP Cost: 45, Critical Rate: +20%, Critical Damage: +15%, Duration: 300 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300"],
                         "animations": ["https://media0.giphy.com/media/ifdDVn3R3xBv8uEMdP/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 3321023,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 60, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media4.giphy.com/media/QsoibusElAc9YmiaM6/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 3321024,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media4.giphy.com/media/1iqKwytbHSdhMyooNp/giphy.gif"],
                         "type": "Buff",
@@ -448,6 +544,9 @@
                     },
                     {
                         "id": 3320008,
+                        "name": "Bountiful Torrent",
+                        "shortDesc": "When using Cardinal Deluge or Cardinal Burst while the relic displays the Torrent emblem, your next 6 attacks within the following 7 sec have a 40% chance to apply 1 stack of the Ancient Curse debuff.\\nPermanently increases your Attack Power by 20%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Bountiful_Torrent.png/revision/latest?cb=20190615205552"],
                         "type": "Passive",
                         "desc": "When using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121' alt='Skill Cardinal Deluge'> or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553' alt='Skill Cardinal Burst'> while your relic is displaying the 'Torrent' emblem, you have a chance to create homing arrows",
@@ -457,6 +556,9 @@
                     },
                     {
                         "id": 3320009,
+                        "name": "Ancient Archery",
+                        "shortDesc": "Bountiful Deluge Damage: +50%p, Bountiful Burst Damage: +50%p\\nSwarm Shot First Arrow Damage: +350%p, Additional Magical Arrows' Damage: +200%p, Triple Impact Explosion Damage: +200%p.\\nFinal Damage of Ancient Force and Enchant Force Skills: +10%, Boss Damage: +50%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Ancient_Archery.png/revision/latest?cb=20190615205545"],
                         "type": "Passive",
                         "desc": "Increases the %p Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Bountiful_Deluge.png/revision/latest?cb=20190615205552' alt='Skill Bountiful Deluge'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Bountiful_Burst.png/revision/latest?cb=20190615205551' alt='Skill Bountiful Burst'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Swarm_Shot.png/revision/latest?cb=20190616015334' alt='Skill Swarm Shot'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Triple_Impact.png/revision/latest?cb=20190616015334' alt='Skill Triple Impact'>",
@@ -466,6 +568,9 @@
                     },
                     {
                         "id": 3320010,
+                        "name": "Ancient Bow Expertise",
+                        "shortDesc": "Ancient Bow Mastery: +70%. Attack Power: +60, Critical Damage: +10%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Ancient_Bow_Expertise.png/revision/latest?cb=20190615205547", "https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Ancient_Bow_Mastery.png/revision/latest?cb=20190615205548"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -476,6 +581,9 @@
                     },
                     {
                         "id": 3320011,
+                        "name": "Illusion Step",
+                        "shortDesc": "Dexterity: +80, Avoidability: +30% chance, Damage taken reduced by 20%.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Illusion_Step_%28Pathfinder%29.png"],
                         "type": "Passive"
                     }]
@@ -485,24 +593,36 @@
             "hyperPassive": [
                 {
                     "id": 3320025,
+                    "name": "Sharp Eyes - Persist",
+                    "shortDesc": "Duration: +30 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Sharp_Eyes_-_Persist.png/revision/latest?cb=20130707042226"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 3320026,
+                    "name": "Sharp Eyes - Guardbreak",
+                    "shortDesc": "Enemy DEF Ignored: +5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Sharp_Eyes_-_Guardbreak.png/revision/latest?cb=20130707042232"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 3320027,
+                    "name": "Sharp Eyes - Critical Chance",
+                    "shortDesc": "Critical Rate: +5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Sharp_Eyes_-_Critical_Chance.png/revision/latest?cb=20130707042238"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 3320028,
+                    "name": "Cardinal Force - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Cardinal_Force_-_Reinforce.png/revision/latest?cb=20190616015123"],
                     "type": "Passive",
                     "desc": "",
@@ -513,6 +633,9 @@
                 },
                 {
                     "id": 3320029,
+                    "name": "Cardinal Force - Bountiful Enhance",
+                    "shortDesc": "Activation rate and debuff application chance: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Cardinal_Force_-_Bountiful_Enhance.png/revision/latest?cb=20190616015122"],
                     "type": "Passive",
                     "desc": "",
@@ -524,6 +647,9 @@
                 },
                 {
                     "id": 3320030,
+                    "name": "Cardinal Force - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Cardinal_Force_-_Extra_Strike.png/revision/latest?cb=20190616015122"],
                     "type": "Passive",
                     "desc": "",
@@ -534,6 +660,9 @@
                 },
                 {
                     "id": 3320031,
+                    "name": "Ancient Force - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Ancient_Force_-_Boss_Rush.png/revision/latest?cb=20190615205549"],
                     "type": "Passive",
                     "desc": "",
@@ -544,6 +673,9 @@
                 },
                 {
                     "id": 3320032,
+                    "name": "Ancient Force - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Ancient_Force_-_Guardbreak.png/revision/latest?cb=20190615205550"],
                     "type": "Passive",
                     "desc": "",
@@ -554,6 +686,9 @@
                 },
                 {
                     "id": 3320033,
+                    "name": "Ancient Force - Enchant Enhance",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Ancient_Force_-_Enchant_Enhance.png/revision/latest?cb=20190615205550"],
                     "type": "Passive",
                     "desc": "",
@@ -566,6 +701,9 @@
             "hyperActive": [
                 {
                     "id": 3321034,
+                    "name": "Awakened Relic",
+                    "shortDesc": "MP Cost: 300, Instantly fills the Relic Gauge to its maximum capacity. The amount charged counts toward the activation of Guidance of the Ancients.\\nFor 30 sec, 1 additional magical arrows will be created when Bountiful Deluge and Bountiful Burst are used, and the time required to generate a unit of Swiftstrike Energy is reduced to 3 sec\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Awakened_Relic.png/revision/latest?cb=20190615205551"],
                     "animations": ["https://media4.giphy.com/media/bvjW8sMUlMGAPW85MJ/giphy.gif"],
                     "type": "Buff",
@@ -578,6 +716,9 @@
                 },
                 {
                     "id": 3321035,
+                    "name": "Ancient Astra",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 7 enemies, for 400% damage, 6 times.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 80 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Ancient_Astra.png/revision/latest?cb=20190615205547"],
                     "animations": ["https://media3.giphy.com/media/cZFWxk1ntZRUQtUz4k/giphy.gif", "https://media3.giphy.com/media/7tDA9N0BaetPzVTmtn/giphy.gif", "https://media3.giphy.com/media/yj3JOoyMoVVkoOJAgR/giphy.gif"],
                     "type": "Key-down Attack",
@@ -591,6 +732,9 @@
                 },
                 {
                     "id": 3321041,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Epic_Adventure_%28Bowman%29.png/revision/latest?cb=20121015210409"],
                     "animations": ["https://media0.giphy.com/media/AAhIhM6qORVf3IF4Up/giphy.gif"],
                     "type": "Buff",

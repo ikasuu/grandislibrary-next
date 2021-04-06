@@ -113,23 +113,35 @@
             [
                 "Beginner", [{
                     "id": 30020232,
+                    "name": "Supply Surplus",
+                    "shortDesc": "Recharges one power unit every 4 sec, and grants a 60% chance to recharge one unit on hit/evade. +1% all stats per extra power unit.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505"],
                     "type": "Passive"
                 },
                 {
                     "id": 30020234,
+                    "name": "Multilateral I",
+                    "shortDesc": "[At 20+ STR] 3% for Knockback Resistance\\n[At 20+ DEX] 3% for Elemental Resistance, 3 for Abnormal Status Resistance\\n[At 20+ LUK] 3% Avoidability\\n[At 20+ STR, DEX, and LUK] 3% Damage",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                     "type": "Passive",
                     "desc": "Grants special bonuses once you've reached a certain amount of stats"
                 },
                 {
                     "id": 30021235,
+                    "name": "Promessa Escape",
+                    "shortDesc": "MP Cost: 30. Summons the Promessa to return you to base.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Promessa_Escape.png/revision/latest?cb=20121223163539"],
                     "animations": ["https://media0.giphy.com/media/iY3jj3UEbMEWEMKcGe/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 30021236,
+                    "name": "Modal Shift",
+                    "shortDesc": "Use this skill simultaneously with another skill to activate its alternate modes. Reactivate this skill to revert back.",
+                    "maxLevel": 1,
                     "icons": ["https://i.imgur.com/ipIf9r7.png"],
                     "animations": ["https://media2.giphy.com/media/3Q2QxM6AzpNLh7QbQf/giphy.gif"],
                     "type": "Special Active",
@@ -140,6 +152,9 @@
                 },
                 {
                     "id": 30021237,
+                    "name": "Liberty Boosters",
+                    "shortDesc": "Activate the booster to fly for 30 sec. Cooldown: 30 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Liberty_Boosters.png/revision/latest?cb=20121223163553"],
                     "animations": ["https://media3.giphy.com/media/FgR6zJgXCxVeOyOcDn/giphy.gif"],
                     "type": "Active",
@@ -150,6 +165,9 @@
                 },
                 {
                     "id": 30020240,
+                    "name": "Mimic Protocol",
+                    "shortDesc": "Lets you ignore equipment stat requirements. Also lets you equip Pirate and Thief equipment.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Mimic_Protocol.png/revision/latest?cb=20121223163602"],
                     "type": "Passive"
                 }]
@@ -158,6 +176,9 @@
                 "1st Job", [
                     {
                         "id": 36001000,
+                        "name": "Beam Spline",
+                        "shortDesc": "MP Cost: 9, Damage: 150%, Number of Attacks: 2, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Beam_Spline.png/revision/latest?cb=20121217224346"],
                         "animations": ["https://media2.giphy.com/media/1qzUlrFxEBtjBV3jHV/giphy.gif"],
                         "type": "Attack",
@@ -165,6 +186,9 @@
                     },
                     {
                         "id": 36001001,
+                        "name": "Propulsion Burst",
+                        "shortDesc": "MP Cost: 10. Adds an extra jump when used in midair. Can be used 2 times back to back.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Propulsion_Burst.png/revision/latest?cb=20121217224456"],
                         "animations": ["https://media3.giphy.com/media/YgLQyKQ6pWvcgQibt9/giphy.gif"],
                         "type": "Active",
@@ -176,23 +200,35 @@
                     },
                     {
                         "id": 36001002,
+                        "name": "Circuit Surge",
+                        "shortDesc": "[Supply]\\nEnergy Cost: 3, Weapon ATT: +30, Duration: 240 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Circuit_Surge.png/revision/latest?cb=20121217224615"],
                         "animations": ["https://media3.giphy.com/media/zuvi0OQbFebleEVTMj/giphy.gif"],
                         "type": "Supply Buff"
                     },
                     {
                         "id": 36000003,
+                        "name": "Radial Nerve",
+                        "shortDesc": "Speed: +40, Max Speed: +20, Jump: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Radial_Nerve.png/revision/latest?cb=20121217224818"],
                         "type": "Passive"
                     },
                     {
                         "id": 36000004,
+                        "name": "Multilateral II",
+                        "shortDesc": "[At 40+ STR] Knockback Resistance 5%\\n[At 40+ DEX] Elemental Resistance 5%, Abnormal Status Resistance 5\\n[At 40+ LUK] Avoidability +5%\\n[At 40+ STR, DEX, and LUK] Damage +5%, Max HP & MP +5%",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Multilateral_II.png/revision/latest?cb=20121217224953", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                         "type": "Upgraded Passive",
                         "desc": "Grants special bonuses once you've reached a certain amount of stats"
                     },
                     {
                         "id": 36001005,
+                        "name": "Pinpoint Salvo",
+                        "shortDesc": "Damage to enemies in range: 50%, Number of Missiles: 4. Cooldown: 2 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616"],
                         "animations": ["https://media2.giphy.com/media/bwjIehUv5LQBKgLeek/giphy.gif"],
                         "type": "Toggle Attack",
@@ -206,6 +242,9 @@
                 "2nd Job", [
                     {
                         "id": 36101000,
+                        "name": "Quicksilver: Flash",
+                        "shortDesc": "MP Cost: 16, Damage: 145%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Quicksilver_Flash.png/revision/latest?cb=20121217225534"],
                         "animations": ["https://media3.giphy.com/media/JBLNnvloo65PazTB0r/giphy.gif"],
                         "type": "Modal Attack",
@@ -213,6 +252,9 @@
                     },
                     {
                         "id": 36101008,
+                        "name": "Quicksilver: Concentrate",
+                        "shortDesc": "MP Cost: 16, Max Enemies Hit: 6, Damage: 240%, Number of Attacks: 2, Critical Rate: +30%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Quicksilver_Concentrate.png/revision/latest?cb=20121217230444"],
                         "animations": ["https://media0.giphy.com/media/gCLxmURQUTNH6SY1Es/giphy.gif"],
                         "type": "Modal Attack",
@@ -223,6 +265,9 @@
                     },
                     {
                         "id": 36101009,
+                        "name": "Quicksilver: Takeoff",
+                        "shortDesc": "MP Cost: 16, Damage: 155%, Number of Attacks: 2, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Quicksilver_Takeoff.png/revision/latest?cb=20121217230611"],
                         "animations": ["https://media4.giphy.com/media/JT4uSYFHDs1BeIoXfW/giphy.gif"],
                         "type": "Modal Attack",
@@ -230,6 +275,9 @@
                     },
                     {
                         "id": 36101001,
+                        "name": "Ion Thrust",
+                        "shortDesc": "[Supply ]\\nEnergy Cost: 3, MP Cost per attack: 6, Max Enemies: 6 Damage: 60%, Knocks back enemies. Duration: 8. Energy is consumed only when the Ion Thrust is summoned.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Ion_Thrust.png/revision/latest?cb=20121223153308"],
                         "animations": ["https://media1.giphy.com/media/vM0zRRRUwZvq9Ev0Sh/giphy.gif"],
                         "type": "Key-down Supply Attack",
@@ -237,17 +285,26 @@
                     },
                     {
                         "id": 36101003,
+                        "name": "Efficiency Streamline",
+                        "shortDesc": "MP Cost: 15, HP and MP: +30% for 240 sec\\n[Passive Effect : HP and MP: +1000]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Efficiency_Streamline.png/revision/latest?cb=20121217225901"],
                         "animations": ["https://media4.giphy.com/media/lTqB31K2kNOsp0pkLY/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 36100002,
+                        "name": "Perspective Shift",
+                        "shortDesc": "Critical Rate: +40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Perspective_Shift.png/revision/latest?cb=20160627052633"],
                         "type": "Passive"
                     },
                     {
                         "id": 36101004,
+                        "name": "Xenon Booster",
+                        "shortDesc": "MP Cost: 20, Attack Speed increased for 240 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Xenon_Booster.png/revision/latest?cb=20121217225950"],
                         "animations": ["https://media3.giphy.com/media/NsWDB1LP56px67KHLN/giphy.gif"],
                         "type": "Buff",
@@ -255,22 +312,34 @@
                     },
                     {
                         "id": 36100005,
+                        "name": "Structural Integrity",
+                        "shortDesc": "All Stats: +20",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Structural_Integrity.png/revision/latest?cb=20181015053022"],
                         "type": "Passive"
                     },
                     {
                         "id": 36100006,
+                        "name": "Xenon Mastery",
+                        "shortDesc": "Mastery: +50%, Attack Power +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Xenon_Mastery.png/revision/latest?cb=20121217230155"],
                         "type": "Passive"
                     },
                     {
                         "id": 36100007,
+                        "name": "Multilateral III",
+                        "shortDesc": "[At 90+ STR] Knockback Resistance +7%\\n[At 90+ DEX] Elemental Resistance +7%, Abnormal Status Resistance +7\\n[At 90+ LUK] Avoidability +7%\\n[At 90+ STR, DEX, and LUK] Damage +7%, Max HP/MP +5%",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Multilateral_III.png/revision/latest?cb=20121217230258", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                         "type": "Upgraded Passive",
                         "desc": "Grants special bonuses once you've reached a certain amount of stats "
                     },
                     {
                         "id": 36100010,
+                        "name": "Pinpoint Salvo Redesign A",
+                        "shortDesc": "Pinpoint Salvo Damage: +40% points.",
+                        "maxLevel": 4,
                         "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg==", "https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -282,6 +351,9 @@
                 [
                 "3rd Job", [{
                         "id": 36111000,
+                        "name": "Combat Switch: Explosion",
+                        "shortDesc": "MP Cost: 20, Damage: 250%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Combat_Switch_Explosion.png/revision/latest?cb=20121217231933"],
                         "animations": ["https://media1.giphy.com/media/EpO3pUoOsjEeslVPc1/giphy.gif"],
                         "type": "Modal Attack",
@@ -289,6 +361,9 @@
                     },
                     {
                         "id": 36111009,
+                        "name": "Combat Switch: Air Whip",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 8, Damage: 270%, Number of Attacks: 2, Additional damage on airborne enemies: 190%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Combat_Switch_Air_Whip.png/revision/latest?cb=20121217233221"],
                         "animations": ["https://media0.giphy.com/media/knsjNxmK8uLrssoage/giphy.gif"],
                         "type": "Modal Attack",
@@ -299,6 +374,9 @@
                     },
                     {
                         "id": 36111010,
+                        "name": "Combat Switch: Fission",
+                        "shortDesc": "MP Cost: 20, Damage: 271%, Number of Attacks: 3, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Combat_Switch_Fission.png/revision/latest?cb=20121217232953"],
                         "animations": ["https://media2.giphy.com/media/QsLoswZdRrtG1lUl5H/giphy.gif"],
                         "type": "Modal Attack",
@@ -310,6 +388,9 @@
                     },
                     {
                         "id": 36111001,
+                        "name": "Diagonal Chase",
+                        "shortDesc": "MP Cost: 21, Max Enemies Hit: 6, Damage: 260% to knock back enemies.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Diagonal_Chase.png/revision/latest?cb=20121217232028"],
                         "animations": ["https://media1.giphy.com/media/m3WHDo2iuNJhnusWdY/giphy.gif"],
                         "type": "Attack",
@@ -317,6 +398,9 @@
                     },
                     {
                         "id": 36111002,
+                        "name": "Gravity Pillar",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 6, Damage: 301%, Number of Attacks: 1, Launches enemies into the air.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Gravity_Pillar.png/revision/latest?cb=20121217232134"],
                         "animations": ["https://media2.giphy.com/media/9i8XfARrhPwRvdk7Ov/giphy.gif"],
                         "type": "Attack",
@@ -324,6 +408,9 @@
                     },
                     {
                         "id": 36111003,
+                        "name": "Hybrid Defenses",
+                        "shortDesc": "[Supply]\\nEnergy Cost: 7, Additional Avoidability: +100%, Additional Avoidability when hit: -5%, Damage taken when hit: -5%. Effects removed after 10 evasions.\\n[Passive Effects : All Stats: +10, DEF: +400]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Hybrid_Defenses.png/revision/latest?cb=20121217232341"],
                         "animations": ["https://media4.giphy.com/media/gAGKd8KlCL6U0SLacN/giphy.gif"],
                         "type": "Supply Buff",
@@ -335,6 +422,9 @@
                     },
                     {
                         "id": 36111004,
+                        "name": "Aegis System",
+                        "shortDesc": "Chance to fire missiles when hit or evading: 100%, Damage: 120%, Number of Missiles: 3, Cooldown: 1.5 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Aegis_System.png/revision/latest?cb=20160108005220"],
                         "animations": ["https://media1.giphy.com/media/nK6Um6v0H92WZHbi7h/giphy.gif"],
                         "type": "Toggle Attack",
@@ -345,6 +435,9 @@
                     },
                     {
                         "id": 36110005,
+                        "name": "Triangulation",
+                        "shortDesc": "Chance to attach Airframe on attack: 30%, Max Airframes: 3, Damage when enemy with 3 Airframes is attacked: 340%, Number of Attacks: 3, Enemy Accuracy for each Airframe: - 8%",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Triangulation.png/revision/latest?cb=20121217232554"],
                         "animations": ["https://media1.giphy.com/media/ScXcBcCDZnwVvGnrqg/giphy.gif"],
                         "type": "Passive",
@@ -356,6 +449,9 @@
                     },
                     {
                         "id": 36111006,
+                        "name": "Manifest Projector",
+                        "shortDesc": "MP Cost: 100, Creates a clone hologram. Projection makes an additional hit that is 70% of Final Damage. Projection disappears after losing x00% of your Max HP.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Manifest_Projector.png/revision/latest?cb=20121217232703"],
                         "animations": ["https://media2.giphy.com/media/VTFVgWLmkqWjTzSVrU/giphy.gif"],
                         "type": "Buff",
@@ -367,12 +463,18 @@
                     },
                     {
                         "id": 36110007,
+                        "name": "Multilateral IV",
+                        "shortDesc": "[At 150+ STR] Knockback Resistance +10%\\n[At 150+ DEX] Elemental Resistance +10%, Abnormal Status Resistance +10\\n[At 150+ LUK] Avoidability +10%\\n[At 150+ STR, DEX, and LUK] Damage +10%, Max HP/MP +10%",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Multilateral_IV.png/revision/latest?cb=20121217232803", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                         "type": "Upgraded Passive",
                         "desc": "Grants special bonuses once you've reached a certain amount of stats"
                     },
                     {
                         "id": 36111008,
+                        "name": "Emergency Resupply",
+                        "shortDesc": "MP Cost: 75, Extra power unit charged: 10. Cooldown: 30 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Emergency_Resupply.png/revision/latest?cb=20121217232857"],
                         "animations": ["https://media0.giphy.com/media/4iiN90LiVRvSA5hbYE/giphy.gif"],
                         "type": "Active",
@@ -380,6 +482,9 @@
                     },
                     {
                         "id": 36110012,
+                        "name": "Pinpoint Salvo Redesign B",
+                        "shortDesc": "Pinpoint Salvo Damage: +40% points. Stacks with 1st enhancement.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Pinpoint_Salvo_Redesign_B.png/revision/latest?cb=20190525013056", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg=="],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -391,6 +496,9 @@
                 [
                 "4th Job", [{
                     "id": 36121000,
+                    "name": "Beam Dance",
+                    "shortDesc": "MP Cost per attack: 9, Damage: 260%, Number of Attacks: 1, Max Enemies Hit: 8",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Beam_Dance.png/revision/latest?cb=20121217234717"],
                     "animations": ["https://media1.giphy.com/media/KpwElMxhQvlJmwmxCb/giphy.gif"],
                     "type": "Key-down Attack",
@@ -401,6 +509,9 @@
                 },
                 {
                     "id": 36121001,
+                    "name": "Mecha Purge: Snipe",
+                    "shortDesc": "MP Cost: 25, Damage: 345%, Max Enemies Hit: 1, Number of Attacks: 7, Enemy DEF Ignored: 30%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Mecha_Purge_Snipe.png/revision/latest?cb=20121218160856"],
                     "animations": ["https://media1.giphy.com/media/uPco9wNhZXCRKJhnkG/giphy.gif"],
                     "type": "Modal Attack",
@@ -411,6 +522,9 @@
                 },
                 {
                     "id": 36121011,
+                    "name": "Mecha Purge: Bombard",
+                    "shortDesc": "MP Cost: 25, Damage: 344%, Number of Attacks: 4, Max Enemies Hit: 8",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Mecha_Purge_Bombard.png/revision/latest?cb=20121218161849"],
                     "animations": ["https://media2.giphy.com/media/b50j4TpHd72JyS6lky/giphy.gif"],
                     "type": "Modal Attack",
@@ -418,6 +532,9 @@
                 },
                 {
                     "id": 36121012,
+                    "name": "Mecha Purge: Bombardment",
+                    "shortDesc": "MP Cost: 25, Damage: 398%, Number of Attacks: 5, Max Enemies Hit: 15",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Mecha_Purge_Bombardment.png/revision/latest?cb=20121218162105"],
                     "animations": ["https://media1.giphy.com/media/91ONXKoYSUWOJ9OZxy/giphy.gif"],
                     "type": "Modal Attack",
@@ -425,6 +542,9 @@
                 },
                 {
                     "id": 36121002,
+                    "name": "Hypogram Field: Penetrate",
+                    "shortDesc": "MP Cost: 31, Hypogram Field Duration: 20, Damage on contact: 213%\\nCooldown: 30 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Hypogram_Field_Penetrate.png/revision/latest?cb=20121218162233"],
                     "animations": ["https://media0.giphy.com/media/7r6ncNPP8QKXm1xvOi/giphy.gif"],
                     "type": "Modal Summon",
@@ -432,6 +552,9 @@
                 },
                 {
                     "id": 36121013,
+                    "name": "Hypogram Field: Force Field",
+                    "shortDesc": "MP Cost: 31, Duration of hypogram field: 20, Max enemies hit when ball touches field: 8, Damage: 400%, Cooldown: 30 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Hypogram_Field_Force_Field.png/revision/latest?cb=20121218161023"],
                     "animations": ["https://media4.giphy.com/media/zC7GMpqRlCiU55hucd/giphy.gif"],
                     "type": "Modal Summon",
@@ -439,6 +562,9 @@
                 },
                 {
                     "id": 36121014,
+                    "name": "Hypogram Field: Support",
+                    "shortDesc": "MP Cost: 31, Duration of hypogram field: 20, Ally Max HP Boost: 10%, Power units recharged when allies evade: +1.\\nCooldown: 30 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Hypogram_Field_Support.png/revision/latest?cb=20121218162346"],
                     "animations": ["https://media0.giphy.com/media/PDkqZNbgzSNjw7h87Z/giphy.gif"],
                     "type": "Modal Buff Zone",
@@ -449,12 +575,18 @@
                 },
                 {
                     "id": 36121003,
+                    "name": "OOPArts Code",
+                    "shortDesc": "[Supply]\\nEnergy Cost: 20, Duration: 30, Final Damage: +25%, Boss Damage: +30%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_OOPArts_Code.png/revision/latest?cb=20170921233101"],
                     "animations": ["https://media1.giphy.com/media/pT6K2SQgQyFMiZJaVS/giphy.gif"],
                     "type": "Supply Buff"
                 },
                 {
                     "id": 36120005,
+                    "name": "Instant Shock",
+                    "shortDesc": "Additional evasion chance: 40%, Aegis System Missile Damage: +20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Instant_Shock.png/revision/latest?cb=20121218161344"],
                     "animations": ["https://media2.giphy.com/media/TveJdvxaoXP9wsxJ9K/giphy.gif"],
                     "type": "Passive",
@@ -462,6 +594,9 @@
                 },
                 {
                     "id": 36120006,
+                    "name": "Xenon Expert",
+                    "shortDesc": "Mastery: +70%, Attack Power: +30, Critical Damage: +8%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Xenon_Expert.png/revision/latest?cb=20121218161427", "https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Xenon_Mastery.png/revision/latest?cb=20121217230155"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -472,6 +607,9 @@
                 },
                 {
                     "id": 36121007,
+                    "name": "Temporal Pod",
+                    "shortDesc": "MP Cost: 100, Duration of party cooldown reduction effect: 60. Cooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Temporal_Pod.png/revision/latest?cb=20121218161515"],
                     "animations": ["https://media0.giphy.com/media/U21DgcXSXxToYEiHJc/giphy.gif"],
                     "type": "Active",
@@ -483,12 +621,18 @@
                 },
                 {
                     "id": 36121008,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media4.giphy.com/media/O9iUDyF1IeEQTF9dvk/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 36121009,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media1.giphy.com/media/yi1GWUkLKBUDUYSjtn/giphy.gif"],
                     "type": "Buff",
@@ -496,17 +640,26 @@
                 },
                 {
                     "id": 36120004,
+                    "name": "Offensive Matrix",
+                    "shortDesc": "Knockback Resistance: 50%, Enemy DEF Ignored: +30%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Offensive_Matrix.png/revision/latest?cb=20160627053032"],
                     "type": "Passive"
                 },
                 {
                     "id": 36120010,
+                    "name": "Multilateral V",
+                    "shortDesc": "[At 260+ STR] Knockback Resistance +10%\\n[At 260+ DEX] Elemental Resistance +10%, Abnormal Status Resistance +10\\n[At 260+ LUK] Avoidability +10%\\n[At 260+ STR, DEX, and LUK] Damage +10%, Max HP/MP +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Multilateral_V.png/revision/latest?cb=20190525013053", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                     "type": "Upgraded Passive",
                     "desc": "Grants special bonuses once you've reached a certain amount of stats"
                 },
                 {
                     "id": 36120015,
+                    "name": "Pinpoint Salvo Perfect Design",
+                    "shortDesc": "Pinpoint Salvo Damage: +100% points. Stacks with 1st and 2nd enhancement.",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Pinpoint_Salvo_Perfect_Design.png/revision/latest?cb=20121228072612", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg=="],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -516,6 +669,9 @@
                 },
                 {
                     "id": 36120016,
+                    "name": "Multilateral VI",
+                    "shortDesc": "[At 330+ STR] 5% for Knockback Resistance\\n[At 330+ DEX] 5% for Elemental Resistance, 5 for Abnormal Status Resistance\\n[At 330+ LUK]: 5% Avoidability\\n[At 330+ STR, DEX, and LUK] +5% Damage",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Multilateral_VI.png/revision/latest?cb=20130517123557", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                     "type": "Upgraded Passive",
                     "reqLev": "Req. 200",
@@ -527,36 +683,54 @@
             "hyperPassive": [
                 {
                     "id": 36120044,
+                    "name": "Beam Dance - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Beam_Dance_-_Reinforce.png/revision/latest?cb=20190525013038"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 36120043,
+                    "name": "Beam Dance - Blur",
+                    "shortDesc": "Speed When Using Skill: +10",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Beam_Dance_-_Blur.png/revision/latest?cb=20190525013036"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 36120045,
+                    "name": "Beam Dance - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/45/Skill_Beam_Dance_-_Spread.png/revision/latest?cb=20190525013039"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 36120046,
+                    "name": "Mecha Purge - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Mecha_Purge_-_Reinforce.png/revision/latest?cb=20190525013050"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 36120047,
+                    "name": "Mecha Purge - Guard Break",
+                    "shortDesc": "Ignore DEF amount +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Mecha_Purge_-_Guardbreak.png/revision/latest?cb=20190525013048"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 36120048,
+                    "name": "Mecha Purge - Spread",
+                    "shortDesc": "Max Enemies Hit: +2 ",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Mecha_Purge_-_Spread.png/revision/latest?cb=20190525013051"],
                     "type": "Passive",
                     "desc": "Increases the maximum number of enemies hit by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Mecha_Purge_Bombard.png/revision/latest?cb=20121218161849' alt='Skill Mecha Purge Bombard'>",
@@ -564,18 +738,27 @@
                 },
                 {
                     "id": 36120050,
+                    "name": "Hypogram Field - Reinforce",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Hypogram_Field_-_Reinforce.png/revision/latest?cb=20190525013045"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 36120049,
+                    "name": "Hypogram Field - Speed",
+                    "shortDesc": "Increases orb speed.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Hypogram_Field_-_Speed.png/revision/latest?cb=20190525013046"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 36120051,
+                    "name": "Hypogram Field - Persist",
+                    "shortDesc": "Duration: +10",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Hypogram_Field_-_Persist.png/revision/latest?cb=20190525013043"],
                     "type": "Passive",
                     "reqLev": 190
@@ -584,10 +767,13 @@
             "hyperActive": [
                 {
                     "id": 36121054,
+                    "name": "Amaranth Generator",
+                    "shortDesc": "MP Cost: 100, Gauge Charge: Max, Charge duration: 10 sec\\nCooldown: 90 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Amaranth_Generator.png/revision/latest?cb=20190525013034"],
                     "animations": ["https://media4.giphy.com/media/3e76FdX97GHJRVIRRF/giphy.gif"],
                     "type": "Buff",
-                    "desc": "While active, Skills that will not consume your <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505' alt='Skill Supply Surplus'> Supply Surplus",
+                    "desc": "While active, skills that will not consume your <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505' alt='Skill Supply Surplus'> Supply Surplus",
                     "details": [
                         "You will have infinite <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supply_Surplus.png/revision/latest?cb=20121223163505' alt='Skill Supply Surplus'> Supply Surplus"
                     ],
@@ -595,6 +781,9 @@
                 },
                 {
                     "id": 36121053,
+                    "name": "Entangling Lash",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 700%, Number of Attacks: 4, Chance to Debuff: 100%, Bind Duration: 10 sec.\\nBind Duration: +100% depending on damage inflicted with Entangling Lash.\\nCooldown: 180 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Entangling_Lash.png/revision/latest?cb=20190525013041"],
                     "animations": ["https://media3.giphy.com/media/3ZLfHvmwCMh5iHLckp/giphy.gif"],
                     "type": "Bind Attack",
@@ -603,6 +792,9 @@
                 },
                 {
                     "id": 36121052,
+                    "name": "Orbital Cataclysm",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 900%, Number of Attacks: 6, DEF: - 30% for 10 sec. Invincible while casting.\\nAfter casting, increases damage by 10% for 25 sec\\nCooldown: 50 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Orbital_Cataclysm.png/revision/latest?cb=20190525013054"],
                     "animations": ["https://media0.giphy.com/media/yEd2I5HDyqRFEmjJHB/giphy.gif"],
                     "type": "Attack",

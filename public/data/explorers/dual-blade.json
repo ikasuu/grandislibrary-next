@@ -117,8 +117,8 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/qeIExni.png"],
-                    "animations": ["https://media3.giphy.com/media/lLjd69zp4xujLCBylh/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC/0lEQVR4nL1XAZGrMBBdZmoAC/kSqAQqgUoACSABJBAJjYRDApHQSCgS+NnA0gQIF64zXW4OEkL27du3S7mAayN8xyK6sAGMP/3zK95v138jgSAAxnmasFMbDcPgjOM4DnpuHEeIosiAuPzFOTlWSjnzjLFgIPWjh+p+HS9w0tA5Ob5er869vu8XIKFsnAJAzslx2bbmrKR0ACGQUBDBAGznz+cTeNcZxwO8dZDmGS40a0JBBAE4dG4JkS6TNF1AJEnyOQDbupluF+D7AsHaUa/HpwHY0bePBygcW9Eb5zOCwTrbLByl4hQDnab+CChakqUaoILAIjgHoC5LkwJkQcotGOO8kxPtgX3lEMBafPeiWEour2sDYlBqohfTsWpMHwOwrWoaZ8yrCtIsA6YjRconwO/7MfuQAbvj/WbIgNGiXk/PqIYv93HOJ8RdAJuOV/9AU90gy/NpwzkNnRCGBdDBSj5pos3KeQ+3XfuqYQPAyfvrBZxLkMqtfaabi7QqouMCXlojouLGsf2OLNPM7OkrSQeA1znWdZaD4BzWhnNr5+vXNFqe7HdHrwa6bpv/REeDAA29lhNRCd82Bgwe6+64AeB2vF5fD0v0765HGzE9M4Fosxqf3kS/nOE9tlk4ZEAEdLwsL0E0lR5L/9rZecoS07z2bBdAW+cmBYaFnY6HyicR5m09p2BYlO+s1c4lsqMBsHjbGxYAtvhu9wIG6nhla0CoYep4lCql51B8lV4r59rPUSN42Gs9kXsZKCpX6bwpTAUwpJHKcd6UF5W7thOQaYVjpGqHDRbaiHxGSg7pkLE+8I+A+HSwAMAGgerENKR5jRpf0iAFNyzEqH4tOvPrV0da6fk6xU7IljQI/QyyAHMKKO+oA7xHzQjm9YcMxHoj1W1r3FTCKppEb8pnwWbwbjRUCbbz3U6IkzYLZFSz65/gdO/M2l/fBTaIvQ3Wdnat720Y4bcafR0RiBA7u5asERK/ivAyIgYMCPxc+oaRc/xnpyDCbzX4ji2f5/8BSxxCgTxgn7sAAAAASUVORK5CYII="],
+                    "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
@@ -128,8 +128,8 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/GpKcy63.png"],
-                    "animations": ["https://media4.giphy.com/media/kAK1LMi9PnfpMVwqq2/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVR4nL1Xi5GDIBDFmTRASjAlnCXEEmIJZwlnCZcSvBJiCVqClJC0QAkeS7KKggtGJm8yBvnt4+2ywoHNMbDPIMGCSWBo+/tHrOfZaUASSEAbP3+luydPknFxbBjcgkK96qdJHGIaR/xezqxqOrrPrWdVkQ0HFgnmyvmibk0JQDQCgPr7YpXLv4YcE5UAGrv9XFhxbVgIVgmYkiIoKe99q/9PWT76AOo4p2OLVKCt67GclyU5EZNTsaiaqY4zEl4XiC5MSrVU/dff6hcZyUIwI+CSfa196Q6wLyV7Ss6fBHiaqndaAksBU3Y9saPe6Q5lmCujuG6f71cJgMVHZySR1woegk4sx+PRWU8FrpOAJ2ZILNXzBq6LQFZMgyCgxGvlZeC+Dg5aFwHcywDcz9zRLh+CxcKMANdhpE2YlQvQTtrqwrkLUkXBsJ3lcx9iZJ+KSj2rIAO+jGopAD/gcG/b+ShoMva0TjguePqYMWYRwMHwlLosjSYMiMmA6Oit6Wu3CUzm7Aym3/ds0k0EUG6PwQh81j9Gnhy+9CUAfG5mzJAzwVsHEjNfIMxzgK/vbgKbpN97HnDPmVKN4X3fJsDDJdh8Hgic1Vm9zJxU330EHPAFG0Uggbva3ttR6AkIcG0E3IqgmKACmgRcl6JD2J9uNA4P0wUJ3NXYZzB+Iv8Bbq6jgAlpMSsAAAAASUVORK5CYII="],
+                    "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
                     "type": "Buff"
                 },
                 {
@@ -138,8 +138,8 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
-                    "animations": ["https://media3.giphy.com/media/ypaWQz2r16HS86jIje/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACx0lEQVR4nL1XgZGbMBCUZ9yAvgRSAl8CKYGU4Bb8JZgWKCGUEEp4SgglvEpwtJJWOgkZ+2di7xiQsXy7d9zpxFHluKrX4MCBFHD98/n3Jew/339cKYICHHnXNv+dzITTMAzqfD67e19fV/X2dnAijs8kpwLjZQQRJzvS6vL7U338er8e1RNhQG5P4zg6Yq21+vigCI+nCTCMfQDI89+eKIDkuNJ7f9+48TCMSrfd4wKoWDhRnydOkhzeG+m2wK4Ak5+sEb0vgglXeE5AyDRNjwugwcb+cV2NNQAhWwUy5MA4JXI+e5J3XaeWZXxQgEUTDDSND2MpoUZ+sfVehhzkTdOoeZ6z+3cFwBDUr7iCOiigfUhCuPv+ZEk8uZ+bvAd53/fuuiyrOp3sXHu9K0Br/9xNMFjzGuTxZqh7SY7vJC/D/1AEghRJH/MS5JfL2RnHgXEZevnsUX7wXibyN9YBEw0AzPJaeeWLjnHkOiufNN4vQz7nsJxyXENrewnzRc7jdyzBpfe7AkpyGequ66Nxelh6LscgRx6k3+4IKDO8fLbzPMU6R1ltQ5zAhYdXtuRdAaQXvSQS9b3vaDQqPUsOmFjvqH0c0zRvVsZdAeCueQ/geVNQSSzFAuu6OnKfvPrxHFBG7aIWdn5nVCCI5Ld6yLfb8a2wEzJasWwdeb2RbQSUGwkJhPYWOYgRbhxLWGYJHeeo/UdgxMQ86/cznXPbtnUHNG7rvt7Sj8lIboxL672QOw+LmgcSuVbsG7GjmhsroVzxmP2+gSzOsz1IYnDqYt8Acoqt7gmxZSYxxSCJkoH6tp1z2CN0JeFiR41bsxsRkM0FhnuEsSAqURKHT4bU1rfiogDuVjPDwtgJq1hRHMlQnbg+NwcEHPCuhrcjv06TRfwDxuvbwbs75RqGacFbEYYHRsCJwOvSK0BynGQOHPCupl6D+Hr+Dx893LO6fTh1AAAAAElFTkSuQmCC"],
+                    "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
                     "type": "Buff"
                 },
                 {
@@ -148,7 +148,7 @@
                     "name": "Return",
                     "shortDesc": "Returns you to Kerning City Back Alley when used.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://i.imgur.com/LHQ2mbd.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFMUlEQVR4nL1X7XGkMAxVZtKAU4JTAlsCWwIpgZTAlgAlZEvYLQFKwCWEEuIS9t6TbL6Wux93M+cMiQNYepKfnsxrexsfIlFEnFw+TvI/Rnvr1R/9vvJX6b2cTu/Sj9/6gsOzGO2Ffx7JjMNPtImc380X773yney8LPB0ioaAC7ngbzGoY2e2PO1OdjmvGTirzx95vXycdaLOhwGrLrhaWxSnBCLmtBz8zY7i7m9G4e0vnZdn+OilqUqR2wgQb5aBzAEJQaTGdceFbYkA8Ha+/HX2f/pGcYoUBvj6hamXxackAC7d8+mhs/0KyTkpU3LyVdrzz+G3TvMTxIr1nZTfNwuP2fJX+PUpK7ICkPe5ANIAdwXpMUlIt0O6suN9TrBKqgMwIQF33BZmt8HVTSmaNYA8lDBe9zECQv3zJZe3T3U40mDTKHOlu4AzpVRVIZ+XThzmnvuKKH3XSS7m+rtN8XmtAQ00blm9BaAP4S62JKuW4gMgXgCCURZtKy8vL5bqMOiV519tI74ECADg+PmBDeQgBq+2Ms2WdLsDAMrWOm2R13+jVsIyxn4ER+9SF5W8n0/SICsdnEbn5NkW8qX33fa+LEB2GQiWgelLy1DFY2eXqeyQdv40iJrzb4CKu9SaltQiM7Ct4+MMDFMiClJbNmJM2CJ4P5/nqJkFArlqRkrZjqQJmfEui9ofM5DSTTXEXItxl4GmaeHc6iA6M9I2xo3H47G1NZEjtUSAczMHtuO5CvgiyYWyib5JUSyjBvOrcpQT9j8/onMC2wbD4ClqCIQMdjkTqwzJXoiytKpsIv33CiAW0eDwiIYOx75X1vfY/4AtqKgh61jyBmZuUNrvxSJ2my2YebFyNnfD5260TvUA5yRi2W+lKKb+t6isSza3AW23oMTDAWQqSaBgCdn5D2hYp0TEqqrUOefOPQOVCRHP5HSbP8cAmB6IUKzucDyZDuxsMi6Wn+rA6TQD4XxDQi2/OjXG1D2pwTu9WAEwV9FZ387yuQfAOyy5tQjx4lwzNL8Y565MMaMgReiCOyThkjMjYpisa+Wev8sB675AW6VjRk1S1lW1CiPNUM6RtkqL3GUOrCR5AUDErH/V96gAYrqfI9N+UBaamSzFVoLN/J5b2dMBzrAM48R1d9xoDNDRFnDfFXFd2TmOXTGuN8iGTwbGsdeoKEg+kW1+Lyblga14HYzYxcSyEeVCfAIAQ6z/qpjRx2sQ1/hNZKyCO7JE9jP9A/5na77g/7Zt5vcUPCWdbVoB21GNPcNOa3sOzKFGO5Jxz5rcR9ctxKUG1KcMB9gvVZ4JYD1cUwBEsFpOGVpq4OBIpv0CDWleyNe67d6yCliGbEpszUeObV1QO7q2NnvRr3RlswVpuzQ9jJrN41bY3ql0hqcMUIqPxGe+A2nWYG613nXk6TQtb7k1gPVgqlBmApZrE1mxO15P4utRnRdTp4DZhCZwQivhet5wwE7A6TwIQA4EN21wxyRU9b5c0RL4wqDkiTD+GKt0YIWh8KGliGMAoqqlVbAOXxJBbRSPVh7spIweQTAYmnLgFU9Nzhe/yUA+kEae47Qlsh0oGDUWopUnF7OUmtI0Y6DYQLrTMzJfD2HsKwSnsuK1qzraVwCrDLT6hZI+zUqkPZAppoSKXLfMqUi5FI0Gex/s4BpSKPFqzWyyz7FIzXHe1vN4xww6U9cOay+fZ/WpH6cjJvw+nL9aXbk7wSYWUCm9GZyf+ZkhquTLmT+/s3pmv8Q+B7/10WvqVXqDmfgfg9+i+cP3F4xeujuOGpMkAAAAAElFTkSuQmCC"],
                     "animations": ["https://media4.giphy.com/media/9HP4VAweLNLzKK9Xc1/giphy.gif"],
                     "type": "Active",
                     "desc": "",
@@ -161,6 +161,9 @@
                 "1st Job", [
                     {
                         "id": 4001003,
+                        "name": "Dark Sight",
+                        "shortDesc": "MP Cost: 5, hides in the shadows for 200 seconds.\\nWhen Dark Sight is deactivated, cooldown increased per attack dodged: 3 seconds. Stacks up to 5 times.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826"],
                         "animations": ["https://media1.giphy.com/media/QVs3iXXRnaHXBf3k9z/giphy.gif"],
                         "type": "Active / Utility",
@@ -172,6 +175,9 @@
                     },
                     {
                         "id": 4001011,
+                        "name": "Flash Jump",
+                        "shortDesc": "MP Cost: 22, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Flash_Jump_%28Dual_Blade%29.png/revision/latest?cb=20110505102647"],
                         "animations": ["https://media2.giphy.com/media/JQpzFRbU3WYKNSCf33/giphy.gif"],
                         "type": "Active",
@@ -183,11 +189,17 @@
                     },
                     {
                         "id": 4000012,
+                        "name": "Side Step",
+                        "shortDesc": "Avoidability +15%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Side_Step.png/revision/latest?cb=20120218035511"],
                         "type": "Passive"
                     },
                     {
                         "id": 4001013,
+                        "name": "Bandit Slash",
+                        "shortDesc": "MP Cost: 13, Damage: 330%, Max Enemies Hit: 3",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Bandit_Slash.png/revision/latest?cb=20140409154655"],
                         "animations": ["https://media1.giphy.com/media/jqH9ru6yJIoARdpwxe/giphy.gif"],
                         "type": "Attack",
@@ -198,17 +210,26 @@
                     "1st Job+", [
                         {
                             "id": 4300000,
+                            "name": "Katara Mastery",
+                            "shortDesc": "Dagger and Katara Mastery: +50%",
+                            "maxLevel": 10,
                             "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Katara_Mastery.png/revision/latest?cb=20110504144443"],
                             "type": "Passive"
                         },
                         {
                             "id": 4301003,
+                            "name": "Self Haste",
+                            "shortDesc": "MP Cost: 16, Duration: 200 sec, Speed: +40, Jump: +23\\n[Passive Effects - Max Speed: +20]",
+                            "maxLevel": 10,
                             "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Self_Haste.png/revision/latest?cb=20110505095047"],
                             "animations": ["https://media2.giphy.com/media/Etij0RXbfv3PsYZgja/giphy.gif"],
                             "type": "Buff"
                         },
                         {
                             "id": 4301004,
+                            "name": "Tornado Spin",
+                            "shortDesc": "MP Cost: 36, Damage: 380%, Max Enemies Hit: 6",
+                            "maxLevel": 15,
                             "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Tornado_Spin.png/revision/latest?cb=20100615142021"],
                             "animations": ["https://media3.giphy.com/media/W2Ky10BxnAAbydPgjn/giphy.gif"],
                             "type": "Attack",
@@ -219,6 +240,9 @@
                 "2nd Job", [
                     {
                         "id": 4311002,
+                        "name": "Fatal Blow",
+                        "shortDesc": "MP Cost: 30, Number of Attacks: 7, Damage: 108%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Fatal_Blow.png/revision/latest?cb=20100614142444"],
                         "animations": ["https://media2.giphy.com/media/aFhC1AM05gp4Y431Wp/giphy.gif"],
                         "type": "Attack",
@@ -226,6 +250,9 @@
                     },
                     {
                         "id": 4311003,
+                        "name": "Slash Storm",
+                        "shortDesc": "MP Cost: 24, Damage: 190%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Slash_Storm.png/revision/latest?cb=20100615125320"],
                         "animations": ["https://media1.giphy.com/media/TIEsac7llCb30wO4jf/giphy.gif"],
                         "type": "Attack",
@@ -236,6 +263,9 @@
                     },
                     {
                         "id": 4311009,
+                        "name": "Katara Booster",
+                        "shortDesc": "MP Cost: 12, Attack Speed increased for 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Katara_Booster.png/revision/latest?cb=20110504144447"],
                         "animations": ["https://media1.giphy.com/media/KuHsnZvlJoSEgOdfS0/giphy.gif"],
                         "type": "Buff",
@@ -243,11 +273,17 @@
                     },
                     {
                         "id": 4310006,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increases LUK by 30 and DEX by 30",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800"],
                         "type": "Passive"
                     },
                     {
                         "id": 4310005,
+                        "name": "Channel Karma",
+                        "shortDesc": "Attack +30",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Channel_Karma.png/revision/latest?cb=20160627054341"],
                         "type": "Passive"
                     }]
@@ -256,6 +292,9 @@
                     "2nd Job+", [
                         {
                             "id": 4321006,
+                            "name": "Flying Assaulter",
+                            "shortDesc": "MP Cost: 44, Damage: 165%, Number of Attacks: 4, Max Monsters Hit: 8, Stun Chance: 20%, Stun Duration: 6 sec",
+                            "maxLevel": 20,
                             "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Flying_Assaulter.png/revision/latest?cb=20100614144330"],
                             "animations": ["https://media1.giphy.com/media/cPT5xfRpdYYff3u8zF/giphy.gif"],
                             "type": "Attack",
@@ -268,6 +307,9 @@
                         },
                         {
                             "id": 4321004,
+                            "name": "Upper Stab",
+                            "shortDesc": "MP Cost: 45, Damage: 300%, Max Enemies Hit: 8, Damage (to airborne enemies): +80%",
+                            "maxLevel": 10,
                             "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Upper_Stab.png/revision/latest?cb=20110505102542"],
                             "animations": ["https://media0.giphy.com/media/VJwoTCrS9wzavmfHdZ/giphy.gif"],
                             "type": "Attack",
@@ -278,6 +320,9 @@
                         },
                         {
                             "id": 4321002,
+                            "name": "Flashbang",
+                            "shortDesc": "MP Cost: 65, Max Enemies Hit: 6, Damage: 250%, 90% chance for Accuracy decrease: -20%, Duration: 50 sec, damage of all your skills increased by 10% against select enemies. Cooldown: 60 sec",
+                            "maxLevel": 5,
                             "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Flashbang.png/revision/latest?cb=20110505102550"],
                             "animations": ["https://media2.giphy.com/media/iJCsehQn75EOICfQ54/giphy.gif"],
                             "type": "Attack",
@@ -288,6 +333,9 @@
                         },
                         {
                             "id": 4320005,
+                            "name": "Venom",
+                            "shortDesc": "Status Chance: 30%, Damage Over Time: 90% damage every 1 sec for 6 sec",
+                            "maxLevel": 20,
                             "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Venom_%28Dagger%29.png/revision/latest?cb=20110504140532"],
                             "type": "Passive",
                             "desc": "Grants a chance for your attacks to apply a poisoning debuff"
@@ -296,6 +344,9 @@
                 [
                 "3rd Job", [{
                         "id": 4331000,
+                        "name": "Bloody Storm",
+                        "shortDesc": "MP Cost: 50, Damage: 265%, Max Enemies Hit: 8, Number of Attacks: 3\\n[Passive Effect: Increases damage of Tornado Spin and Flying Assaulter by 20%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Bloody_Storm.png/revision/latest?cb=20100615145643"],
                         "animations": ["https://media3.giphy.com/media/j3VOCfy45FjEHtjnT3/giphy.gif"],
                         "type": "Attack",
@@ -307,6 +358,9 @@
                     },
                     {
                         "id": 4331011,
+                        "name": "Blade Ascension",
+                        "shortDesc": "Lifts you into the air. MP Cost: 41, Damage: 175% Max Enemies Hit: 6, Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Blade_Ascension.png/revision/latest?cb=20140509212744"],
                         "animations": ["https://media0.giphy.com/media/l43nrlEAGHAbvEGNQX/giphy.gif"],
                         "type": "Attack",
@@ -317,6 +371,9 @@
                     },
                     {
                         "id": 4331006,
+                        "name": "Chains of Hell",
+                        "shortDesc": "MP Cost: 75, Invincibility Duration: 1.5 sec\\nDamage: 150%, Number of Attacks: 7, Stun Chance: 10%, Stun Duration: 4 sec, Additional Critical Rate: 100%, Invincible during attack\\nCooldown: 45 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Chains_of_Hell.png/revision/latest?cb=20110505120133"],
                         "animations": ["https://media2.giphy.com/media/WqKiXUdmwlzLZ1VB9E/giphy.gif"],
                         "type": "Attack",
@@ -327,6 +384,9 @@
                     },
                     {
                         "id": 4331002,
+                        "name": "Mirror Image",
+                        "shortDesc": "MP Cost: 67, summons a shadow for an additional hit that is 70% of the final damage for all attacks (except Flashbang) for 200 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Mirror_Image.png/revision/latest?cb=20110505120034"],
                         "animations": ["https://media3.giphy.com/media/gjZs4YhVkefz710qnB/giphy.gif"],
                         "type": "Buff",
@@ -337,6 +397,9 @@
                     },
                     {
                         "id": 4330001,
+                        "name": "Advanced Dark Sight",
+                        "shortDesc": "49% chance to maintain Dark Sight on attacking. 20% chance to auto-trigger Dark Sight, Final Damage +20% when attacking during Dark Sight.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Advanced_Dark_Sight.png/revision/latest?cb=20100615145647"],
                         "type": "Passive",
                         "desc": "While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'>, you can attack and use skills with a chance to not deactivate the buff. Additionally, when you are hit, there is a chance that <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> will automatically activate",
@@ -347,16 +410,25 @@
                     },
                     {
                         "id": 4330007,
+                        "name": "Life Drain",
+                        "shortDesc": "10% chance to recover 20% of Max HP when attacking.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ee/Skill_Life_Drain.png/revision/latest?cb=20110505120206"],
                         "type": "Passive"
                     },
                     {
                         "id": 4330008,
+                        "name": "Enveloping Darkness",
+                        "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Enveloping_Darkness.png/revision/latest?cb=20111226203900"],
                         "type": "Passive"
                     },
                     {
                         "id": 4330009,
+                        "name": "Shadow Meld",
+                        "shortDesc": "Dodge Chance: 30%, Upon successful dodge, Attack Power +15 and all attacks performed afterwards will be Critical Hits for 7 sec. Cooldown upon successful dodge: 5 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Shadow_Meld.png/revision/latest?cb=20120221174546"],
                         "type": "Passive",
                         "desc": "Grants a chance to dodge incoming attacks. Whenever you successfully dodge an attack, you gain a buff",
@@ -368,6 +440,9 @@
                 [
                 "4th Job", [{
                     "id": 4341004,
+                    "name": "Blade Fury",
+                    "shortDesc": "MP Cost: 65, Damage: 250%, Max Enemies Hit: 8, Number of Attacks: 4, Enemy DEF Ignored: 20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blade_Fury.png/revision/latest?cb=20140414050921"],
                     "animations": ["https://media3.giphy.com/media/JrAWRwk6Idj6n8irpb/giphy.gif"],
                     "type": "Attack",
@@ -378,6 +453,9 @@
                 },
                 {
                     "id": 4341009,
+                    "name": "Phantom Blow",
+                    "shortDesc": "MP Cost: 42, Number of Attacks: 6, Damage: 315%, Enemy DEF Ignored: 30%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Phantom_Blow.png/revision/latest?cb=20140414050926"],
                     "animations": ["https://media3.giphy.com/media/fW4KKDW3O1oyLcSP15/giphy.gif"],
                     "type": "Attack",
@@ -388,6 +466,9 @@
                 },
                 {
                     "id": 4341002,
+                    "name": "Final Cut",
+                    "shortDesc": "MP Cost: 400, HP Cost: 10%, Damage: 2000%, Max Enemies Hit: 8, skill damage will be reduced if the charge time is too short",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740"],
                     "animations": ["https://media3.giphy.com/media/cJGbqpGb6OZNEzG9Cf/giphy.gif"],
                     "type": "Key-down Attack",
@@ -400,23 +481,32 @@
                 },
                 {
                     "id": 4341011,
+                    "name": "Sudden Raid",
+                    "shortDesc": "MP Cost: 290, Damage: 494%, Max Enemies Hit: 15, Number of Attacks: 7, Damage Over Time: 210% damage every 1 sec for 10 sec\\nFinal Cut's Remaining Cooldown: -20%\\nCooldown: 30 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Sudden_Raid.png/revision/latest?cb=20111125110226"],
                     "animations": ["https://media3.giphy.com/media/kDB3DZQY0UP0pkZYnU/giphy.gif"],
                     "type": "Attack",
                     "desc": "Unleashes a devastating large attack that applies a damaging burning debuff ",
                     "details": [
                         "Unaffected by Damage Reflect",
-                        "<strong>[Passive]</strong>: Permanently reduces cooldown of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut' width='32' height='32'>"
+                        "When used, reduces remaining cooldown of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut' width='32' height='32'>"
                     ]
                 },
                 {
                     "id": 4341000,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media2.giphy.com/media/a9Wey0bjlLoE53PRZF/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 4341008,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media3.giphy.com/media/r8KHjNHeBrGz8lkvXM/giphy.gif"],
                     "type": "Buff",
@@ -424,6 +514,9 @@
                 },
                 {
                     "id": 4341006,
+                    "name": "Mirrored Target",
+                    "shortDesc": "Active Effects - MP Cost: 135, Dummy HP: 19000, Dummy Duration: 90 sec, damage taken is reduced by 20% while the dummy is summoned, Shadow Meld occurs when the dummy is hit.\\nDummy does not take damage from some attacks.\\n[Passive Effect - Avoidability: 25%, Defense: +60%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Mirrored_Target.png/revision/latest?cb=20110505124828"],
                     "animations": ["https://media1.giphy.com/media/LRgJe7XWrvf6Aj6Cfy/giphy.gif"],
                     "type": "Summon",
@@ -437,16 +530,25 @@
                 },
                 {
                     "id": 4340007,
+                    "name": "Thorns",
+                    "shortDesc": "Attack Power: +30, Knockback Resistance: +90%",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Thorns.png/revision/latest?cb=20160629051646"],
                     "type": "Passive"
                 },
                 {
                     "id": 4340010,
+                    "name": "Sharpness",
+                    "shortDesc": "Critical Rate: +35%, Critical Damage: +13%",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Sharpness.png/revision/latest?cb=20110505124843"],
                     "type": "Passive"
                 },
                 {
                     "id": 4340012,
+                    "name": "Toxic Venom",
+                    "shortDesc": "Poison Chance: 50%, 160% damage every 1 sec for 8 sec, can be stacked 3 times",
+                    "maxLevel": 10,
                     "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADgElEQVR4nL2XjZGjMAyFlZltgBa4EqAEKAFKgBJCCWwJUAKUACWEEs4tuIRdP4GIzE/Czc1EMwmJMX6fZNkyX+TbD33GbvJDA/wMj78fUU/jPz8CIQAsnkThfw9urT29FwQBX+vuQVUeM8TXFXEMOk6GjLE8CPqG4TwY5MZx4nuwIosoTdPdGMMw0Hc70r1I6O760ALxRRcMolEYOhDDMJMxri0iOAQM3DPuHinvh0e3/k7jnK8QFwixSwBxHNPj8aDIBjQ6HThrHES0RA0gReJHkCNDld/mABEhPU2XAARiGBwEGRcBy58wtOu87sNuya4o/n1Mxz8D4KE0jfkKD1wAXF5YypJg7dM9Gh9h8VS353Hp9fEApukZ1q3B07qu2ZOuGzgfDINYCp4MVJly92xl922HAMh0WOiSSg+qDRB5nlLTdRwBrAbxFBej5leGsN5/f+DdFAAiQLIk0U4cYEg+QJR5zomprUzLVaAZGsqned6DKvRAXgJwRxfW1q3tLQSmQUPI6oDpxJKEQ2QgGm3uvwVYIfqJlw1ERAyDbiGKouBnoijie6v4yaYYqPl9uQowiEDoh7cQVVVR0zRUluXqaZVXzvN9BC9G4Jk+dsl0HQWBEwgYxCVCZ+E+Mg9Asj9YGUK+yL5/BiFR2HopOSDZN68Qy1v3IUCWXKuGZxC6HVPnpYD6ExUnEbgiLAknYjonNETinMHGxkXyRYn2AJ799vs3TGe7QMAEBKYhQreMpU92bw5BPIC2H3cdIArBaZo44bIsWxNOR0ZANARsGGq3pCfK3TP3uiGzYTidAoRUkk4gYFtxLaxzABB4ZBbv13azicIhAMSRkCIuS+2dNa5I4RmIJy78Zmo9cR47eFMLtDg2l77vub1tWzdoQmeGrVucE/G+7amp715ktrbbB47Ex3FcpwM2LVVTl254VlUoUMPqOcQjB93UdApxug9sxWE4EaFacsXEOVHttBJaEa/rjkoHBPFXEIc5oL19bji0nIxn7+fl/TyS4Vq4pYZsz4qaD67I+rIqX0KcrgLdaSuu2yWneAt3H4iLoYYASiCO7O1OeCaOEMwnoWdWYxrM5tjBJ+EFYuvYJYBD8YXAbo5XAYqWCXY7HiCwEybhcTm+4V3t7O1oTsxrRQoRuGfR237frlC5tyL8vEkEGALvbJ8wEceXnoLb8sL4CVtfz38B4rhetKr9OvEAAAAASUVORK5CYII=", "https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Venom_%28Dagger%29.png/revision/latest?cb=20110504140532"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -457,6 +559,9 @@
                 },
                 {
                     "id": 4340013,
+                    "name": "Katara Expert",
+                    "shortDesc": "Dagger and Katara Mastery: +70%, Attack Power: +30, Final Damage: +20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Sharpness.png/revision/latest?cb=20110505124843", "https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Katara_Mastery.png/revision/latest?cb=20110504144443"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -471,54 +576,81 @@
             "hyperPassive": [
                 {
                     "id": 4340043,
+                    "name": "Bloody Storm - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Bloody_Storm_-_Reinforce.png/revision/latest?cb=20121015215047"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 4340044,
+                    "name": "Bloody Storm - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Bloody_Storm_-_Spread.png/revision/latest?cb=20121015215211"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 4340045,
+                    "name": "Bloody Storm - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Bloody_Storm_-_Extra_Strike.png/revision/latest?cb=20121015215304"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 4340046,
+                    "name": "Phantom Blow - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Phantom_Blow_-_Reinforce.png/revision/latest?cb=20140414050810"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 4340047,
+                    "name": "Phantom Blow - Guardbreak",
+                    "shortDesc": "20% additional DEF ignored",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Phantom_Blow_-_Guardbreak.png/revision/latest?cb=20140414050834"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 4340048,
+                    "name": "Phantom Blow - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Phantom_Blow_-_Extra_Strike.png/revision/latest?cb=20140414050840"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 4340055,
+                    "name": "Blade Fury - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Blade_Fury_-_Reinforce.png/revision/latest?cb=20140423032618"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 4340056,
+                    "name": "Blade Fury - Guardbreak",
+                    "shortDesc": "DEF Ignored: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Blade_Fury_-_Guardbreak.png/revision/latest?cb=20140423032618"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 4340057,
+                    "name": "Blade Fury - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Blade_Fury_-_Spread.png/revision/latest?cb=20140423032618"],
                     "type": "Passive",
                     "reqLev": 190
@@ -527,6 +659,9 @@
             "hyperActive": [
                 {
                     "id": 4341054,
+                    "name": "Blade Clone",
+                    "shortDesc": "MP Cost: 200, [Final Attack Skills] Duration: 60, Extra Attack Chance for Direct Skills: 100%, Bonus Damage: 140%, Damage: +10%.\\nCooldown: 90 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Blade_Clone.png/revision/latest?cb=20121015220602"],
                     "animations": ["https://media0.giphy.com/media/lZ39AjiqZyTHIlaNsR/giphy.gif"],
                     "type": "Final Attack Buff",
@@ -535,6 +670,9 @@
                 },
                 {
                     "id": 4341052,
+                    "name": "Asura's Anger",
+                    "shortDesc": "MP Cost: 300, Duration: 10 sec, Enemies Hit: 10, Damage: 420%, Number of Attacks: 4, Ignores 100% of Enemy DEF, Can move and jump while using the skill, Immediately canceled if you use it again.\\nCooldown: 60 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Asura%27s_Anger.png/revision/latest?cb=20121015220436"],
                     "animations": ["https://media0.giphy.com/media/WtPfq2BC2zRln3ngHW/giphy.gif"],
                     "type": "Attack",
@@ -548,6 +686,9 @@
                 },
                 {
                     "id": 4341053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Epic_Adventure_%28Thief%29.png/revision/latest?cb=20121015205742"],
                     "animations": ["https://media4.giphy.com/media/owNXK6VoBUIrZ4FDZm/giphy.gif"],
                     "type": "Buff",

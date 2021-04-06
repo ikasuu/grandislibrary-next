@@ -42,7 +42,7 @@
                 "<strong>Boss Damage</strong>: +0%<div style='text-indent: 40px'><strong>[Beta]</strong>: +30%</div>",
                 "<strong>Final Damage</strong>: +25%",
                 "<strong>Knockback Resistance</strong>: +0%<div style='text-indent: 40px'><strong>[Beta]: </strong>+100%</div>",
-                "<strong>Attack Speed (Weapon)</strong>: 3 [Alpha], 6 [Beta] (additional -1 stage while <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Divine_Speed.png/revision/latest?cb=20140107015542' alt='Skill Divine Speed' width='32' height='32'> Divine Speed is active)",
+                "<strong>Attack Speed (Weapon)</strong>: 3 [Alpha], 6 [Beta] (additional -1 stage while <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Divine_Speed.png/revision/latest?cb=20140107015542' alt='Skill Divine Speed' width='32' height='32'> Divine Speed is active and -1 stage when <img src='https://i.imgur.com/R7VL2jP.png' alt='Skill Doubletime Strength'/> Doubletime is max stacks)",
                 "<strong>Damage Reduction (Regular Monsters)</strong>: +15%",
                 "<strong>Ignore DEF</strong>: +10%<div style='text-indent: 40px'><strong>[Alpha]</strong>: +30%</div>",
                 "<strong>Abnormal Status Resistance</strong>: (10 while <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Divine_Force.png/revision/latest?cb=20140107015534' alt='Skill Divine Force'> Divine Force is active)<div style='text-indent: 40px'><strong>[Alpha]: </strong>+10</div><div style='text-indent: 40px'><strong>[Beta] </strong>+40</div>"
@@ -106,7 +106,7 @@
         ],
         "extraContent": {
             "title": "Alpha and Beta",
-            "content": "<p>Zero starts at Level 100 and does not use MP and instead use Time Force (TF) which quickly regenerates</p><p><img class='extra-content'image' src='https://i.imgur.com/UadFjkV.png' alt='Zero HP and TF'/><img class='extra-content-image' src='https://i.imgur.com/oNbrhuM.png' alt='Zero Cosmetics'/> <p>With Zero, you control two characters Alpha and Beta. Both Alpha and Beta have their own HP and TF. Using attacks of the opposite character will swap you between Alpha and Beta. While the other is not active, they will slowly regenerate HP and TF. As well, both characters can be decorated differently and wear clothing specific to their gender. Non-gender specific clothing can be equipped by both at the same time if desired</p><p><img class='extra-content-image' src='https://i.imgur.com/YkMsT9i.png' alt='Zero Equipment'/></p><p>Zero's weapon is also special in which it upgrades for free every 10 levels up to Lv. 170. Within the Mirror World, monsters will drop Weapon Points (WP) that can be used to reroll a weapon's Bonus Stats and Potential</p>"
+            "content": "<p>Zero starts at Level 100 and does not use MP and instead use Time Force (TF) which quickly regenerates</p><p><img class='extra-content-image' src='https://i.imgur.com/UadFjkV.png' alt='Zero HP and TF'/><img class='extra-content-image' src='https://i.imgur.com/oNbrhuM.png' alt='Zero Cosmetics'/> <p>With Zero, you control two characters Alpha and Beta. Both Alpha and Beta have their own HP and TF. Using attacks of the opposite character will swap you between Alpha and Beta. While the other is not active, they will slowly regenerate HP and TF. As well, both characters can be decorated differently and wear clothing specific to their gender. Non-gender specific clothing can be equipped by both at the same time if desired</p><p><img class='extra-content-image' src='https://i.imgur.com/YkMsT9i.png' alt='Zero Equipment'/></p><p>Zero's weapon is also special in which it upgrades for free every 10 levels up to Lv. 170. Within the Mirror World, monsters will drop Weapon Points (WP) that can be used to reroll a weapon's Bonus Stats and Potential</p>"
         }
     },
     "skill": {
@@ -114,6 +114,9 @@
             [
                 "Transcendent", [{
                     "id": 100000282,
+                    "name": "Dual Combat",
+                    "shortDesc": "[Tag]: While on standby, use Zero's skills to switch attackers\\nCooldown: 3 sec\\n[Assist]: After using Tag to switch, for up to 3 seconds, use Assist for fire support. Cannot be activated while using the previous Assist skill.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Dual_Combat.png/revision/latest?cb=20140107015549"],
                     "animations": ["https://media1.giphy.com/media/pqqy1wpuAUnRlEeNTj/giphy.gif"],
                     "type": "Passive",
@@ -125,6 +128,9 @@
                 },
                 {
                     "id": 100000279,
+                    "name": "Resolution Time",
+                    "shortDesc": "Permanently increases Final Damage by 25%, Strength by 50, Max HP by 15%, and Max Speed by 20",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Resolution_Time.png/revision/latest?cb=20140107015557"],
                     "type": "Passive",
                     "desc": "",
@@ -134,11 +140,17 @@
                 },
                 {
                     "id": 100001262,
+                    "name": "Temple Recall",
+                    "shortDesc": "Time Force Cost: 10, returns to Zero's Temple\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Temple_Recall.png/revision/latest?cb=20140107015656"],
                     "type": "Active"
                 },
                 {
                     "id": 100001263,
+                    "name": "Divine Force",
+                    "shortDesc": "Time Force Cost: 20, Attack Power: +20, Magic ATT: +20, DEF: +500, Elemental Resistance: +10%, and all Abnormal Status Resistance: +10",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Divine_Force.png/revision/latest?cb=20140107015534"],
                     "animations": ["https://media4.giphy.com/media/fdVRSWBgKut3QCghGR/giphy.gif"],
                     "type": "Toggle Party Buff",
@@ -149,6 +161,9 @@
                 },
                 {
                     "id": 100001264,
+                    "name": "Divine Speed",
+                    "shortDesc": "Time Force Cost: 20, Speed: +20, Jump: +10, Attack Speed: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Divine_Speed.png/revision/latest?cb=20140107015542"],
                     "animations": ["https://media0.giphy.com/media/GUxGdwRqwnn52fXp3Q/giphy.gif"],
                     "type": "Toggle Party",
@@ -159,6 +174,9 @@
                 },
                 {
                     "id": 100001265,
+                    "name": "Burst Jump",
+                    "shortDesc": "Time Force Cost: 5, while jumping, use the jump key to jump certain distance\\nCan be linked with Burst Step",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Burst_Jump.png/revision/latest?cb=20140107015513"],
                     "animations": ["https://media.giphy.com/media/S5VziRkqsdIYoAYMBG/giphy.gif"],
                     "type": "Active",
@@ -169,6 +187,9 @@
                 },
                 {
                     "id": 100001266,
+                    "name": "Burst Step",
+                    "shortDesc": "Time Force Cost: 5, press arrow keys UP, DOWN, LEFT, RIGHT and then use the skill to move in the corresponding direction\\nDouble-tap UP UP, DOWN DOWN, LEFT LEFT, RIGHT RIGHT to move in that direction\\nCan be used on a ladder or rope. Can be linked with Burst Jump",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Burst_Step.png/revision/latest?cb=20140107015525"],
                     "animations": ["https://media.giphy.com/media/RJJQfT8eXvJ31kH18e/giphy.gif"],
                     "type": "Active",
@@ -180,26 +201,35 @@
                 },
                 {
                     "id": 100001268,
+                    "name": "Rhinne's Protection",
+                    "shortDesc": "Time Force Cost: 10, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Rhinne%27s_Protection.png/revision/latest?cb=20140107015644"],
                     "animations": ["https://media3.giphy.com/media/rY0rlNstyrD4Ja9b56/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id":100000267,
+                    "name": "Doubletime",
+                    "shortDesc": "Reduces Zero's attack skill cooldown by 4 seconds (excluding skills already on cooldown, Transcendent, and 5th Job skills).\\n[Detect]: When Alpha attacks, Critical Rate increases by 2% for 20 seconds. Can stack up to 10 times.\\n[Strength]: When Beta attacks, damage increases by 1% for 20 seconds. Can stack up to 10 times, Attack Speed increased +1 when max stacked\\nEffect for [Detect] and [Strength] remains even when tagged.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044"],
                     "type": "Passive",
                     "desc": "When you attack an enemy with a skill, your other attacks' cooldowns will be reduced. Also grants a special stacking buff when attacking",
                     "details": [
                         "<img src='https://i.imgur.com/tYmXTGb.png' alt='Skill Doubletime Recon'/> <strong>[Alpha - Detect]</strong>: Increases %Crit Rate",
-                        "<img src='https://i.imgur.com/R7VL2jP.png' alt='Skill Doubletime Strength'/> <strong>[Beta - Strength]</strong>: Increases %Damage",
+                        "<img src='https://i.imgur.com/R7VL2jP.png' alt='Skill Doubletime Strength'/> <strong>[Beta - Strength]</strong>: Increases %Damage<ul><li>At max stacks increases Attack Speed (by 1 stage)</li></ul>",
                         "Effects persist even when tagged"
                     ]
                 },
                 {
                     "id": 100001261,
+                    "name": "Time Distortion",
+                    "shortDesc": "Time Force Cost: 30, Area of Time created for 30 sec\\n[Enemies within the area]: Every 4 sec, buff cancels, damage taken increases by 25%, and stuns normal monsters\\n[Party members within the area]: Every 4 sec, Nullify Magic and removes Abnormal Status, Attack Speed: +1\\nCooldown: 240 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Time_Distortion.png/revision/latest?cb=20140108010045"],
                     "animations": ["https://media4.giphy.com/media/qBCifRdEjhAOBCo4vD/giphy.gif"],
-                    "type": "Active",
+                    "type": "Summon",
                     "desc": "Creates a zone that has different effects on enemies and party members",
                     "details": [
                         "<strong>[Enemy]</strong>: Increases damage taken and stuns. Every 4 secs, enemies will be buff canceled",
@@ -209,6 +239,9 @@
                 },
                 {
                     "id": 100001274,
+                    "name": "Time Holding",
+                    "shortDesc": "Time Force Cost: 10, Invincible for 15 sec, resets cooldowns for all skills.\\nIncreases damage by 10% for 90 seconds when Zero is Level 200 or above.\\nCooldown: 180 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Time_Holding.png/revision/latest?cb=20140108010045"],
                     "animations": ["https://media3.giphy.com/media/TkTlgcafuT15aXEoLq/giphy.gif"],
                     "type": "Buff",
@@ -220,6 +253,9 @@
                 },
                 {
                     "id": 100001272,
+                    "name": "Rewind",
+                    "shortDesc": "Time Force Cost: 10, when you get knocked out you use up the buff instead, restoring all HP and becoming invincible for 2 seconds\\nCooldown: 1800 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rewind.png/revision/latest?cb=20140108010045"],
                     "animations": ["https://media2.giphy.com/media/kA3JJMkQqvZQAGJMH0/giphy.gif"],
                     "type": "Buff Revive",
@@ -231,6 +267,9 @@
                 },
                 {
                     "id": 100001283,
+                    "name": "Shadow Rain",
+                    "shortDesc": "Time Force Cost: 50,\\n[Beta]: Damage: 1400%, Max Enemies Hit: 15, Max Hits: 7\\n[Alpha]: Damage: 1400%, Max Enemies Hit: 15, Max Hits: 7\\nCooldown: 300 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Shadow_Rain.png/revision/latest?cb=20140108010045"],
                     "animations": ["https://media.giphy.com/media/eJjat8MraHdbnwUv6S/giphy.gif"],
                     "type": "Attack",
@@ -261,6 +300,9 @@
                 "Alpha", [
                     {
                         "id": 101001200,
+                        "name": "Moon Strike",
+                        "shortDesc": "Time Force Cost: 3, Damage: 120%, Number of Attacks: 6, Max Enemies Hit: 8",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Moon_Strike.png/revision/latest?cb=20140107031720", "https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Piercing_Thrust.png/revision/latest?cb=20140107031721", "https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Shadow_Strike.png/revision/latest?cb=20140107031816"],
                         "animations": ["https://media3.giphy.com/media/6N0WtQ9l2CJSqWMibM/giphy.gif"],
                         "type": "Attack",
@@ -272,6 +314,9 @@
                     },
                     {
                         "id": 101000200,
+                        "name": "Piercing Thrust",
+                        "shortDesc": "Time Force Cost: 5, Damage: 170%, Number of Attacks: 6, Max Enemies Hit: 8",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Piercing_Thrust.png/revision/latest?cb=20140107031721"],
                         "type": "Follow-up Attack",
                         "desc": "Pushes enemies back while dealing damage",
@@ -279,6 +324,9 @@
                     },
                     {
                         "id": 101000201,
+                        "name": "Shadow Strike",
+                        "shortDesc": "Time Force Cost: 7, Damage: 195%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Blade]: Max Enemies Hit: 8, Damage: 310%, Number of Attacks: 1.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Shadow_Strike.png/revision/latest?cb=20140107031816"],
                         "type": "Follow-up Attack",
                         "desc": "Teleports to the nearest enemy and strikes nearby enemies",
@@ -290,6 +338,9 @@
                     },
                     {
                         "id": 101101200,
+                        "name": "Flash Assault",
+                        "shortDesc": "Time Force Cost: 9, Damage: 165%, Number of Attacks: 8, Max Enemies Hit: 8\\nCooldown: 5 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Flash_Assault.png/revision/latest?cb=20140107031719", "https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816"],
                         "animations": ["https://media1.giphy.com/media/ZRQrEku25svZwlqzeX/giphy.gif"],
                         "type": "Attack",
@@ -298,6 +349,9 @@
                     },
                     {
                         "id": 101100200,
+                        "name": "Spin Cutter",
+                        "shortDesc": "Time Force Cost: 11, Damage: 180%, Number of Attacks: 8, Max Enemies Hit: 8",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816"],
                         "type": "Follow-up Attack",
                         "desc": "At your location, twirl to damage surrounding enemies",
@@ -305,6 +359,9 @@
                     },
                     {
                         "id": 101100201,
+                        "name": "Advanced Spin Cutter",
+                        "shortDesc": "Time Force Cost: 11, Damage: 260%, Number of Attacks: 10, Max Enemies Hit: 8.\\n[Blade]: Max Enemies Hit: 8, Damage: 130%, Number of Attacks: 4.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Advanced_Spin_Cutter.png/revision/latest?cb=20140107031718", "https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Spin_Cutter.png/revision/latest?cb=20140107031816"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -316,6 +373,9 @@
                     },
                     {
                         "id": 101111200,
+                        "name": "Rolling Cross",
+                        "shortDesc": "Time Force Cost: 13, Damage: 215%, Number of Attacks: 12, Max Enemies Hit: 8\\nCooldown: 10 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Rolling_Cross.png/revision/latest?cb=20140107031816", "https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815"],
                         "animations": ["https://media.giphy.com/media/Qu2DeSBnbAPk3No5ke/giphy.gif"],
                         "type": "Attack",
@@ -324,6 +384,9 @@
                     },
                     {
                         "id": 101110202,
+                        "name": "Rolling Assault",
+                        "shortDesc": "Time Force Cost: 15, Damage: 275%, Number of Attacks: 10, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815"],
                         "type": "Follow-up Attack",
                         "desc": "Spin back down to the ground while pushing enemies back",
@@ -331,6 +394,9 @@
                     },
                     {
                         "id": 101110200,
+                        "name": "Grand Rolling Cross",
+                        "shortDesc": "Time Force Cost: 13, Damage: 365%, Number of Attacks: 12, Max Enemies Hit: 8.\\n[Blade]: Max Enemies Hit: 8, Damage: 350%, Number of Attacks: 2.\\nCooldown: 10 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Grand_Rolling_Cross.png/revision/latest?cb=20140107031719", "https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Rolling_Cross.png/revision/latest?cb=20140107031816"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -342,6 +408,9 @@
                     },
                     {
                         "id": 101110203,
+                        "name": "Advanced Rolling Assault",
+                        "shortDesc": "Time Force Cost: 15, Damage: 375%, Number of Attacks: 12, Max Enemies Hit: 8.\\n[Blade]: Max Enemies Hit: 8, Damage: 250%, Number of Attacks: 3.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Advanced_Rolling_Assault.png/revision/latest?cb=20140107031718", "https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Rolling_Assault.png/revision/latest?cb=20140107031815"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -353,6 +422,9 @@
                     },
                     {
                         "id": 101121200,
+                        "name": "Wind Cutter",
+                        "shortDesc": "Time Force Cost: 17, Damage: 165%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 110% per 0.5 sec, Number of Attacks: 3, Duration: 3 sec.\\nCooldown: 15 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Wind_Cutter.png/revision/latest?cb=20140107031817", "https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Wind_Striker.png/revision/latest?cb=20140107031817", "https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817"],
                         "animations": ["https://media.giphy.com/media/YSTcLqynWbfTN6eijA/giphy.gif"],
                         "type": "Attack",
@@ -361,6 +433,9 @@
                     },
                     {
                         "id": 101120201,
+                        "name": "Wind Striker",
+                        "shortDesc": "Time Force Cost: 21, Damage: 215%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 215% per 0.5 sec, Number of Attacks: 4, Duration: 3 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Wind_Striker.png/revision/latest?cb=20140107031817"],
                         "type": "Follow-up Attack",
                         "desc": "Slash forward again to send any vortexes flying",
@@ -368,6 +443,9 @@
                     },
                     {
                         "id": 101120202,
+                        "name": "Storm Break",
+                        "shortDesc": "Time Force Cost: 21, Damage: 215%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 215% per 0.5 sec, Number of Attacks: 4, Duration: 3 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817"],
                         "type": "Follow-up Attack",
                         "desc": "Deal a final slash that creates another vortex that pushes enemies away",
@@ -375,6 +453,9 @@
                     },
                     {
                         "id": 101120204,
+                        "name": "Advanced Storm Break",
+                        "shortDesc": "Time Force Cost: 21, Damage: 335%, Max Enemies Hit: 8, Max Hits: 10\\n[Vortex]: Max Enemies Hit: 8, Damage: 335% per 0.5 sec, Number of Attacks: 4, Duration of Vortex: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 3, Damage Over Time: 230% damage per 1 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Advanced_Storm_Break.png/revision/latest?cb=20140107031718", "https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Storm_Break.png/revision/latest?cb=20140107031817"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -386,24 +467,36 @@
                     },
                     {
                         "id": 101000203,
+                        "name": "Long Sword Mastery",
+                        "shortDesc": "Permanent Long Sword Mastery Bonus: 70%, Attack Power: +40, Speed: +30, Jump: +20, Attack Speed: +3 step, Ignores 30% of enemy defense.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Long_Sword_Mastery.png/revision/latest?cb=20140107031720"],
                         "type": "Passive",
                         "reqLev": 100
                     },
                     {
                         "id": 101110205,
+                        "name": "Time Generator",
+                        "shortDesc": "Permanent Increases to Alpha's Time Force Recovery Rate: + 30%, 25% Chance of recovering 10 Time Force when attacking.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Time_Generator.png/revision/latest?cb=20140107031817"],
                         "type": "Passive",
                         "reqLev": 110
                     },
                     {
                         "id": 101100203,
+                        "name": "Reinforce Body",
+                        "shortDesc": "Permanently Increases Alpha's HP: +30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%, Max Time Force: +MDF%, Critical Rate: +40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Reinforce_Body.png/revision/latest?cb=20140107031721"],
                         "type": "Passive",
                         "reqLev": 130
                     },
                     {
                         "id": 101120207,
+                        "name": "Divine Leer",
+                        "shortDesc": "Alpha's Critical Damage: +50% permanently\\nDamage Over Time: 200% damage every 1 sec for 10 sec at 15% chance, and replenishing 5% of max HP",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Divine_Leer.png/revision/latest?cb=20140107031718"],
                         "type": "Passive",
                         "desc": "Attacks have a chance to apply a Bleeding debuff and recover %Max HP",
@@ -417,6 +510,9 @@
                 "Beta", [
                     {
                         "id": 101001100,
+                        "name": "Rising Slash",
+                        "shortDesc": "Time Force Cost: 3, Damage: 210%, Number of Attacks: 6, Max Enemies Hit: 6",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Rising_Slash_%28Zero%29.png/revision/latest?cb=20140107033613", "https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Air_Raid.png/revision/latest?cb=20140107033512"],
                         "animations": ["https://media.giphy.com/media/clojInLGMkuxvuLPaD/giphy.gif"],
                         "type": "Attack",
@@ -428,6 +524,9 @@
                     },
                     {
                         "id": 101000100,
+                        "name": "Air Raid",
+                        "shortDesc": "Time Force Cost: 5, Damage: 230%, Number of Attacks: 6, Max Enemies Hit: 6",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Air_Raid.png/revision/latest?cb=20140107033512"],
                         "type": "Follow-up Attack",
                         "desc": "Swing your sword downward bring any enemies in the air back down",
@@ -435,6 +534,9 @@
                     },
                     {
                         "id": 101000101,
+                        "name": "Air Riot",
+                        "shortDesc": "Time Force Cost: 5, Damage: 330%, Number of Attacks: 9, Max Enemies Hit: 6.\\n[Shock Wave]: Damage: 330%, Number of Attacks: 9, Max Enemies Hit: 6. Chance of Stun: 100%, Duration: 3 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Air_Riot.png/revision/latest?cb=20140107033512", "https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Air_Raid.png/revision/latest?cb=20140107033512"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -446,6 +548,9 @@
                     },
                     {
                         "id": 101101100,
+                        "name": "Flash Cut",
+                        "shortDesc": "Time Force Cost: 7, Damage: 205%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 5 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Flash_Cut.png/revision/latest?cb=20140107033514", "https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Throwing_Weapon.png/revision/latest?cb=20140107033614"],
                         "animations": ["https://media.giphy.com/media/QytyPWUaf9pWeoNxj1/giphy.gif"],
                         "type": "Attack",
@@ -454,6 +559,9 @@
                     },
                     {
                         "id": 101100100,
+                        "name": "Throwing Weapon",
+                        "shortDesc": "Time Force Cost: 9, Damage: 380%, Number of Attacks: 2, Max Enemies Hit: 6",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Throwing_Weapon.png/revision/latest?cb=20140107033614"],
                         "type": "Follow-up Attack",
                         "desc": "Throw your sword forward at an angle towards the ground",
@@ -461,6 +569,9 @@
                     },
                     {
                         "id": 101100101,
+                        "name": "Advanced Throwing Weapon",
+                        "shortDesc": "Time Force Cost: 9, Damage: 550% every 0.3 sec, Number of Attacks: 2, Max Enemies Hit: 6, Duration: 4 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Advanced_Throwing_Weapon.png/revision/latest?cb=20140107033511", "https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Throwing_Weapon.png/revision/latest?cb=20140107033614"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -472,6 +583,9 @@
                     },
                     {
                         "id": 101111100,
+                        "name": "Spin Driver",
+                        "shortDesc": "Time Force Cost: 11, Damage: 260%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 10 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Spin_Driver.png/revision/latest?cb=20140107033613", "https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Wheel_Wind.png/revision/latest?cb=20140107033614"],
                         "animations": ["https://media.giphy.com/media/dw3R6tfROqbVScJo27/giphy.gif"],
                         "type": "Attack",
@@ -480,6 +594,9 @@
                     },
                     {
                         "id": 101110101,
+                        "name": "Wheel Wind",
+                        "shortDesc": "Time Force Cost: 13 per 1 sec, Damage: 120% per 0.1 sec, Max Enemies Hit: 6, Attack count: 2, Duration: 5 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Wheel_Wind.png/revision/latest?cb=20140107033614"],
                         "type": "Follow-up Attack",
                         "desc": "Continuously spin around dealing damage to enemies in the area",
@@ -491,6 +608,9 @@
                     },
                     {
                         "id": 101110102,
+                        "name": "Advanced Wheel Wind",
+                        "shortDesc": "Time Force Cost: 13 per 1 sec, Damage: 200%, Max Enemies Hit: 6, Attack count: 2, Duration: 7",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Advanced_Wheel_Wind.png/revision/latest?cb=20140107033511", "https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Wheel_Wind.png/revision/latest?cb=20140107033614"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -502,6 +622,9 @@
                     },
                     {
                         "id": 101121100,
+                        "name": "Giga Crash",
+                        "shortDesc": "Time Force Cost: 15, Damage: 250%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 15 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Giga_Crash.png/revision/latest?cb=20140107033612", "https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Falling_Star.png/revision/latest?cb=20140107033513", "https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Earth_Break.png/revision/latest?cb=20140107033513"],
                         "animations": ["https://media.giphy.com/media/LMDT8qhmuuBqdAt2G7/giphy.gif"],
                         "type": "Attack",
@@ -510,6 +633,9 @@
                     },
                     {
                         "id": 101120100,
+                        "name": "Falling Star",
+                        "shortDesc": "Time Force Cost: 17, Damage: 225%, Number of Attacks: 6, Max Enemies Hit: 6.\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 225%, Number of Attacks: 3.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Falling_Star.png/revision/latest?cb=20140107033513"],
                         "type": "Follow-up Attack",
                         "desc": "Jump upwards and slam down again hitting nearby enemies",
@@ -517,6 +643,9 @@
                     },
                     {
                         "id": 101120102,
+                        "name": "Earth Break",
+                        "shortDesc": "Time Force Cost: 19, Damage: 260%, Number of Attacks: 8, Max Enemies Hit: 6.\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 260%, Number of Attacks: 8.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Earth_Break.png/revision/latest?cb=20140107033513"],
                         "type": "Follow-up Attack",
                         "desc": "Jump upwards a final time to slam a gigantic sword onto enemies",
@@ -524,6 +653,9 @@
                     },
                     {
                         "id": 101120104,
+                        "name": "Advanced Earth Break",
+                        "shortDesc": "Time Force Cost: 19, Damage: 380%, Max Enemies Hit: 6, Max Hits: 10\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 285%, Number of Attacks: 10\\n[Shock Field]: Max Enemies Hit: 6 Duration: 5 Damage Over Time: 340% damage per 1 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Advanced_Earth_Break.png/revision/latest?cb=20140107033511", "https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Earth_Break.png/revision/latest?cb=20140107033513"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -535,18 +667,27 @@
                     },
                     {
                         "id": 101000103,
+                        "name": "Heavy Sword Mastery",
+                        "shortDesc": "Permanently adds Heavy Sword Mastery Bonus: +70%, Critical Rate:+15%, Boss Damage: +30%, Attack Power: +80, Attack Speed: +2.\\nDamage: +8% for each target fewer than skill's Max Targets.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Heavy_Sword_Mastery.png/revision/latest?cb=20140107033612"],
                         "type": "Passive",
                         "reqLev": 100
                     },
                     {
                         "id": 101100102,
+                        "name": "Solid Body",
+                        "shortDesc": "Permanently Increases Beta's stats. Defense: +2000, Abnormal Status Resistance: +40, Elemental Resistance: +40%, Knockback Resistance: +100%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Solid_Body.png/revision/latest?cb=20140107033613"],
                         "type": "Passive",
                         "reqLev": 110
                     },
                     {
                         "id": 101110103,
+                        "name": "Armor Split",
+                        "shortDesc": "When Beta attacks there is a 20% chance of dropping the target's defense rate by 10% for the 20 sec\\nCan be stacked up to 5 times",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Armor_Split.png/revision/latest?cb=20140107033512"],
                         "type": "Passive",
                         "desc": "Beta's attacks has a chance to apply a stacking debuff that reduces an enemy's DEF",
@@ -554,6 +695,9 @@
                     },
                     {
                         "id": 101120109,
+                        "name": "Immune Barrier",
+                        "shortDesc": "Respond to enemy attacks with a 25% chance of creating a barrier that blocks up to 50% Max HP for 5 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Immune_Barrier.png/revision/latest?cb=20140107033613"],
                         "type": "Passive",
                         "desc": "After being hit by an attack, there is a chance to generate a barrier that blocks damage",
@@ -564,6 +708,9 @@
                     },
                     {
                         "id": 101120110,
+                        "name": "Critical Barrier",
+                        "shortDesc": "Beta's Attack Bind Chance: 10%, Duration: 4 sec\\nTargets gain +30% Critical Rate and +20% Critical Damage when Alpha attacks.\\nThe Bind effect will expire after inflicting damage proportional to the remaining effect duration.\\nEnemies affected will resist Critical Bind for 35 sec afterwards and won't become incapacitated.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Critical_Bind.png/revision/latest?cb=20140107033513"],
                         "type": "Passive Bind",
                         "desc": "Beta's attacks have a chance to apply a debuff that binds enemies and makes them more vulnerable to Alpha's attacks",

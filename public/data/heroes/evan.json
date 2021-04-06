@@ -99,6 +99,9 @@
             [
                 "Beginner", [{
                     "id": 20010194,
+                    "name": "Inherited Will",
+                    "shortDesc": "Permanently increases Magic ATT by 10 and All Stats by 10",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Inherited_Will.png/revision/latest?cb=20160626053333"],
                     "type": "Passive",
                     "desc": "",
@@ -108,6 +111,9 @@
                 },
                 {
                     "id": 20011293,
+                    "name": "Back to Nature",
+                    "shortDesc": "MP Cost: 100, Moves you to your Front Yard.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Back_to_Nature.png/revision/latest?cb=20160624211209"],
                     "animations": ["https://media3.giphy.com/media/6nKp3gkjf3ZjTEz4Aj/giphy.gif"],
                     "type": "Active"
@@ -116,6 +122,9 @@
             [
                 "1st Job", [{
                         "id": 22001010,
+                        "name": "Mana Burst I",
+                        "shortDesc": "MP Cost: 24, Damage: 150%, Number of Attacks: 2, Max Enemies Hit: 4",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Mana_Burst_I.png/revision/latest?cb=20151206184421"],
                         "animations": ["https://media.giphy.com/media/Qu6hb2NMh8JFWb6SLq/giphy.gif"],
                         "type": "Attack",
@@ -123,6 +132,9 @@
                     },
                     {
                         "id": 22001011,
+                        "name": "Teleport",
+                        "shortDesc": "MP Cost: 22, Teleport Range: 275, Downward Movement Range: +85",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Teleport.png/revision/latest?cb=20100530141342"],
                         "animations": ["https://media.giphy.com/media/RkbLonl1kvGDtiB6RO/giphy.gif"],
                         "type": "Active",
@@ -130,6 +142,9 @@
                     },
                     {
                         "id": 22001012,
+                        "name": "Magic Guard",
+                        "shortDesc": "MP Cost: 30, Damage Taken (while active): -10%, Damage Displaced: 85% of your MP",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Magic_Guard_%28Evan%29.png/revision/latest?cb=20100530144039"],
                         "animations": ["https://media4.giphy.com/media/5oBdex1TizRtSxKWg0/giphy.gif"],
                         "type": "Toggle Buff",
@@ -141,16 +156,25 @@
                     },
                     {
                         "id": 22000013,
+                        "name": "Dragon Soul",
+                        "shortDesc": "Permanently increases DEF: +145, Speed: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Dragon_Soul.png/revision/latest?cb=20100530133819"],
                         "type": "Passive"
                     },
                     {
                         "id": 22000014,
+                        "name": "Magic Link",
+                        "shortDesc": "Permanently increases Max MP: +20%, MP increases by 120 per level, Magic ATT: +20",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Magic_Link.png/revision/latest?cb=20151206184822"],
                         "type": "Passive"
                     },
                     {
                         "id": 22000015,
+                        "name": "Dragon Spark",
+                        "shortDesc": "[Final Attack Skills] Chance: 40%, Damage: 100%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Dragon_Spark.png/revision/latest?cb=20160624173750"],
                         "type": "Final Attack Passive",
                         "desc": "Whenever you attack, Mir has a chance to deal an additional attack as well"
@@ -159,6 +183,9 @@
                 [
                     "2nd Job", [{
                         "id": 22110010,
+                        "name": "Mana Burst II",
+                        "shortDesc": "MP Cost: 30, Damage: 130%, Number of Attacks: 3, Max Enemies Hit: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Mana_Burst_II.png/revision/latest?cb=20160624174126", "https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Mana_Burst_I.png/revision/latest?cb=20151206184421"],
                         "animations": ["https://media.giphy.com/media/J67nsNvyqxbLgBqz5O/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -169,6 +196,9 @@
                     },
                     {
                         "id": 22111011,
+                        "name": "Wind Circle",
+                        "shortDesc": "MP Cost: 40. Knocks back up to 6 enemies, dealing 108% damage 5 times\\nCasting Wind Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Wind Circle, or casting Wind Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Wind_Circle.png/revision/latest?cb=20160515203054"],
                         "animations": ["https://media.giphy.com/media/f7Aic4eTu558RcZxJX/giphy.gif"],
                         "type": "Attack",
@@ -205,6 +235,9 @@
                     },
                     {
                         "id": 22110013,
+                        "name": "Return Flash",
+                        "shortDesc": "Max Monsters Cursed: 8, amplifies Final Damage of magic attack skills by 10%, Duration 60 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Return_Flash.png/revision/latest?cb=20160624175638"],
                         "animations": ["https://media.giphy.com/media/kfFtxflavhbBfiI4Dz/giphy.gif"],
                         "type": "Fusion Skill",
@@ -216,6 +249,9 @@
                     },
                     {
                         "id": 22111017,
+                        "name": "Return!",
+                        "shortDesc": "Immediately calls Mir, mid-fight.\\nCooldown: 2",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Return%21.png/revision/latest?cb=20160624180007"],
                         "type": "Active",
                         "desc": "Mir will immediately return to you if Mir is actively attacking",
@@ -225,6 +261,9 @@
                     },
                     {
                         "id": 22111020,
+                        "name": "Magic Booster",
+                        "shortDesc": "MP Cost: 38, Magic ATT Speed increased by 2 for 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Magic_Booster_%28Evan%29.png/revision/latest?cb=20100531000939"],
                         "animations": ["https://media0.giphy.com/media/IHFRxUtJiruLXESSoE/giphy.gif"],
                         "type": "Buff",
@@ -232,6 +271,9 @@
                     },
                     {
                         "id": 22110019,
+                        "name": "Support Jump",
+                        "shortDesc": "MP Cost: 18, jump in mid-air to go farther.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Support_Jump.png/revision/latest?cb=20160624180227"],
                         "animations": ["https://media.giphy.com/media/KEAC9vsbKCpcw1LtRu/giphy.gif"],
                         "type": "Active",
@@ -243,21 +285,33 @@
                     },
                     {
                         "id": 22110015,
+                        "name": "High Wisdom",
+                        "shortDesc": "INT: +40",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_High_Wisdom_%28Evan%29.png/revision/latest?cb=20160203063706"],
                         "type": "Passive"
                     },
                     {
                         "id": 22110016,
+                        "name": "Partners",
+                        "shortDesc": "While Mir is attacking, Evan's Damage: +20%\\n[Passive Effect: Stance Chance +30%]",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Partners.png/revision/latest?cb=20160624180324"],
                         "type": "Passive"
                     },
                     {
                         "id": 22110018,
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: +50%, Critical Rate: +15%, Magic ATT: +10, Critical Rate (wand equipped): 5%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Spell_Mastery_%28Evan%29.png/revision/latest?cb=20160118015407"],
                         "type": "Passive"
                     },
                     {
                         "id": 22110021,
+                        "name": "Advanced Dragon Spark",
+                        "shortDesc": "[Final Attack Skills] Chance: 100%, Damage: 150%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Advanced_Dragon_Spark.png/revision/latest?cb=20160624180456", "https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Dragon_Spark.png/revision/latest?cb=20160624173750"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -269,6 +323,9 @@
                 [
                     "3rd Job", [{
                         "id": 22140010,
+                        "name": "Mana Burst III",
+                        "shortDesc": "MP Cost: 37, Damage: 150%, Number of Attacks: 4, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://i.imgur.com/eey9hSG.png", "https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Mana_Burst_I.png/revision/latest?cb=20151206184421"],
                         "animations": ["https://media.giphy.com/media/UqYkZXtnFskBOF6yrb/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -279,6 +336,9 @@
                     },
                     {
                         "id": 22141011,
+                        "name": "Thunder Circle",
+                        "shortDesc": "MP Cost: 48, Max Enemies Hit: 8, Damage: 170%, Number of Attacks: 5\\nCasting Thunder Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Thunder Circle, or casting Thunder Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Thunder_Circle.png/revision/latest?cb=20160515202735"],
                         "animations": ["https://media.giphy.com/media/VdL6ASb87JJSYljaIr/giphy.gif"],
                         "type": "Attack",
@@ -316,6 +376,9 @@
                     },
                     {
                         "id": 22140013,
+                        "name": "Return Dive",
+                        "shortDesc": "Duration: 60 sec, Attack Speed of you and nearby party members: +1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Return_Dive.png/revision/latest?cb=20160624181522"],
                         "animations": ["https://media.giphy.com/media/S5W5W1IhxTWRoSXl4P/giphy.gif"],
                         "type": "Fusion Skill",
@@ -341,6 +404,9 @@
                     },
                     {
                         "id": 22141017,
+                        "name": "Magic Debris",
+                        "shortDesc": "Amount of Debris Created: 1, Debris Formation Cooldown: 0.6 sec, Maximum Debris Limit: 15, MP Cost: 100, Maximum Enemies Hit: 15, Damage: 70%, Number of Hits: 1, Damage: +40% points (for every 5 debris), unactivated debris disappears after a set time",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Magic_Debris.png/revision/latest?cb=20160624181836"],
                         "animations": ["https://media1.giphy.com/media/yD3zBI5OmhMV3oE9sQ/giphy.gif"],
                         "type": "Attack",
@@ -352,27 +418,42 @@
                     },
                     {
                         "id": 22141016,
+                        "name": "Elemental Decrease",
+                        "shortDesc": "MP Cost: 53, Elemental Attribute Resistance: -10%, Duration: 180 sec\\n[Passive : Final damage +15%]",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Elemental_Decrease_%28Evan%29.png/revision/latest?cb=20100530232404"],
                         "animations": ["https://media1.giphy.com/media/DxotdC17AUlNPCqNR9/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 22140018,
+                        "name": "Critical Magic",
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Critical_Magic.png/revision/latest?cb=20160624181917"],
                         "type": "Passive"
                     },
                     {
                         "id": 22140019,
+                        "name": "Magic Resistance",
+                        "shortDesc": "Permanently increases Abnormal Status Resistance by 20 and Elemental Resistance by 25%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Magic_Resistance.png/revision/latest?cb=20160624182036"],
                         "type": "Passive"
                     },
                     {
                         "id": 22140020,
+                        "name": "Magic Amplification",
+                        "shortDesc": "MP Cost: +130%, Final Damage of Magic ATT: +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Magic_Amplification.png/revision/latest?cb=20160624182150"],
                         "type": "Passive"
                     },
                     {
                         "id": 22140021,
+                        "name": "Dragon Potential",
+                        "shortDesc": "DEF Ignored Permanently: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Dragon_Potential.png/revision/latest?cb=20160624182302"],
                         "type": "Passive"
                     }]
@@ -380,6 +461,9 @@
                 [
                     "4th Job", [{
                         "id": 22170060,
+                        "name": "Mana Burst IV",
+                        "shortDesc": "MP Cost: 42\\n[1st hit] Damage: 290%, Number of Attacks: 4, Max Enemies Hit: 8\\n[2nd hit] Max Enemies Hit: 8, Damage: 330%, Number of Attacks: 4",
+                        "maxLevel": 30,
                         "icons": ["https://i.imgur.com/7fSrLPr.png", "https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Mana_Burst_I.png/revision/latest?cb=20151206184421"],
                         "animations": ["https://media.giphy.com/media/TdEXJC2h2IDZabVZM1/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -390,6 +474,9 @@
                     },
                     {
                         "id": 22171062,
+                        "name": "Earth Circle",
+                        "shortDesc": "MP Cost: 58, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 5\\nCasting Earth Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Earth Circle, or casting Earth Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Earth_Circle.png/revision/latest?cb=20160515202331"],
                         "animations": ["https://media.giphy.com/media/efDXDj43zAhxmzjo1X/giphy.gif"],
                         "type": "Attack",
@@ -442,6 +529,9 @@
                     },
                     {
                         "id": 22170064,
+                        "name": "Return Flame",
+                        "shortDesc": "Max Enemies Hit: 8, Damage: 150%, Duration: 30",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Return_Flame.png/revision/latest?cb=20160624204724"],
                         "animations": ["https://media.giphy.com/media/dYrU5hr58GHo30dikW/giphy.gif"],
                         "type": "Fusion Skill",
@@ -468,6 +558,9 @@
                     },
                     {
                         "id": 22171095,
+                        "name": "Dark Fog",
+                        "shortDesc": "MP Cost: 400, Damage: 400%, Max Enemies Hit: 15, Number of Attacks: 6, Crit Rate: +20%, Cooldown: 40 sec\\nMagic Debris Damage during Cooldown: +20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Dark_Fog.png/revision/latest?cb=20100601014032"],
                         "animations": ["https://media.giphy.com/media/TH6YwhLotPaLCfs7NG/giphy.gif"],
                         "type": "Attack",
@@ -479,6 +572,9 @@
                     },
                     {
                         "id": 22171073,
+                        "name": "Blessing of the Onyx",
+                        "shortDesc": "MP Cost: 48, DEF: +600, Magic ATT: +80, Duration: 180 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Blessing_of_the_Onyx.png/revision/latest?cb=20160624205202"],
                         "animations": ["https://media2.giphy.com/media/Gm6uGjQMT6sPjyB4G0/giphy.gif"],
                         "type": "Buff",
@@ -489,12 +585,18 @@
                     },
                     {
                         "id": 22171068,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media2.giphy.com/media/S61VqxzwSzWiWejtjo/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 22171069,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media1.giphy.com/media/TbhdyNvvQ1egJz96Fy/giphy.gif"],
                         "type": "Buff",
@@ -502,6 +604,9 @@
                     },
                     {
                         "id": 22170070,
+                        "name": "Enhanced Magic Debris",
+                        "shortDesc": "Amount of Debris Created: 1, Debris Formation Cooldown: 0.4 sec, Maximum Debris Limit: 15, MP Cost: 140, Maximum Enemies Hit: 15, Damage: 110%, Number of Hits: 1, Damage: +100% points (for every 5 debris), unactivated debris disappears after a set time",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Enhanced_Magic_Debris.png/revision/latest?cb=20160624205330", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Magic_Debris.png/revision/latest?cb=20160624181836"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -512,6 +617,9 @@
                     },
                     {
                         "id": 22170071,
+                        "name": "Magic Mastery",
+                        "shortDesc": "Magic Mastery: +70%. Magic ATT: +30, Critical Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Magic_Mastery_%28Evan%29.png/revision/latest?cb=20100601020033", "https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Spell_Mastery_%28Evan%29.png/revision/latest?cb=20160118015407"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -522,16 +630,25 @@
                     },
                     {
                         "id": 22170072,
+                        "name": "Onyx Will",
+                        "shortDesc": "Damage Taken: -20%, Knockback Resistance (while Mir is attacking): +70% permanently",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Onyx_Will.png/revision/latest?cb=20110514134141"],
                         "type": "Passive"
                     },
                     {
                         "id": 22170074,
+                        "name": "Dragon Fury",
+                        "shortDesc": "Magic ATT: +35%, MP Range: 30% to 100% of Max MP",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Dragon_Fury.png/revision/latest?cb=20110514130425"],
                         "type": "Passive"
                     },
                     {
                         "id": 22170075,
+                        "name": "High Dragon Potential",
+                        "shortDesc": "Boss Damage: +20% permanently",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_High_Dragon_Potential.png/revision/latest?cb=20160624205726"],
                         "type": "Passive"
                     }]
@@ -541,54 +658,81 @@
             "hyperPassive": [
                 {
                     "id": 22170084,
+                    "name": "Speedy Dragon Flash",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Speedy_Dragon_Flash.png/revision/latest?cb=20160108232902"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 22170085,
+                    "name": "Howling Wind",
+                    "shortDesc": "Wind Blades: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Howling_Wind.png/revision/latest?cb=20160108234353"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 22170086,
+                    "name": "Rolling Thunder",
+                    "shortDesc": "Attacks (per area): +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rolling_Thunder.png/revision/latest?cb=20160624210147"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 22170087,
+                    "name": "Speedy Dragon Dive",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Speedy_Dragon_Dive.png/revision/latest?cb=20160624210302"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 22170088,
+                    "name": "Thunder Overload",
+                    "shortDesc": "Orbs: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Thunder_Overload.png/revision/latest?cb=20160624210433"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 22170089,
+                    "name": "Earth-Shattering Dive",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Earth-shattering_Dive.png/revision/latest?cb=20160624210439"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 22170090,
+                    "name": "Speedy Dragon Breath",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Speedy_Dragon_Breath.png/revision/latest?cb=20160624210532"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 22170091,
+                    "name": "Lungs of Stone",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Lungs_of_Stone.png/revision/latest?cb=20160624210819"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 22170092,
+                    "name": "Cyclone Breath",
+                    "shortDesc": "Target's minimum HP range: +5%, Additional Damage: +85% points",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Wind_Breath_-_Opportunity.png/revision/latest?cb=20160624210917"],
                     "type": "Passive",
                     "reqLev": 190
@@ -597,6 +741,9 @@
             "hyperActive": [
                 {
                     "id": 22171081,
+                    "name": "Summon Onyx Dragon",
+                    "shortDesc": "MP Cost: 600, Duration: 40 sec, Damage: 550%, Enemies Hit: 8, Number of Attacks: 2, Abnormal Status Resistance (while Onyx Dragon is present): +80\\nCooldown: 80 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Summon_Onyx_Dragon.png/revision/latest?cb=20120813181233"],
                     "animations": ["https://media2.giphy.com/media/McNAppCfN9plmhYK49/giphy.gif"],
                     "type": "Summon",
@@ -608,6 +755,9 @@
                 },
                 {
                     "id": 22171080,
+                    "name": "Dragon Master",
+                    "shortDesc": "Mount Duration: 10 sec, Invincible while mounted, Duration: 0.3 sec. Enemies Hit: 10, Damage: 450%, Number of Attacks: 7, MP Cost per Attack: 50\\nCooldown: 240 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Dragon_Master.png/revision/latest?cb=20160515205055"],
                     "animations": ["https://media3.giphy.com/media/kHgM3wuRfmmrAXahbN/giphy.gif"],
                     "type": "Mount Attack",
@@ -620,6 +770,9 @@
                 },
                 {
                     "id": 22171082,
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://i.imgur.com/2C4r5eE.png"],
                     "animations": ["https://media2.giphy.com/media/C60hyupJj0fvuXTHMU/giphy.gif"],
                     "type": "Buff",

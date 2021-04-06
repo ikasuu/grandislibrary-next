@@ -96,7 +96,7 @@
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/2893/magician",
-            "https://maplestory.fandom.com/wiki/Magician"
+            "https://maplestory.fandom.com/wiki/Magician_(Ice,_Lightning)"
         ],
         "specialThanks": "Special thanks to splashos49 for their help in making this overview!",
         "credits": [
@@ -120,7 +120,7 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC/0lEQVR4nL1XAZGrMBBdZmoAC/kSqAQqgUoACSABJBAJjYRDApHQSCgS+NnA0gQIF64zXW4OEkL27du3S7mAayN8xyK6sAGMP/3zK95v138jgSAAxnmasFMbDcPgjOM4DnpuHEeIosiAuPzFOTlWSjnzjLFgIPWjh+p+HS9w0tA5Ob5er869vu8XIKFsnAJAzslx2bbmrKR0ACGQUBDBAGznz+cTeNcZxwO8dZDmGS40a0JBBAE4dG4JkS6TNF1AJEnyOQDbupluF+D7AsHaUa/HpwHY0bePBygcW9Eb5zOCwTrbLByl4hQDnab+CChakqUaoILAIjgHoC5LkwJkQcotGOO8kxPtgX3lEMBafPeiWEour2sDYlBqohfTsWpMHwOwrWoaZ8yrCtIsA6YjRconwO/7MfuQAbvj/WbIgNGiXk/PqIYv93HOJ8RdAJuOV/9AU90gy/NpwzkNnRCGBdDBSj5pos3KeQ+3XfuqYQPAyfvrBZxLkMqtfaabi7QqouMCXlojouLGsf2OLNPM7OkrSQeA1znWdZaD4BzWhnNr5+vXNFqe7HdHrwa6bpv/REeDAA29lhNRCd82Bgwe6+64AeB2vF5fD0v0765HGzE9M4Fosxqf3kS/nOE9tlk4ZEAEdLwsL0E0lR5L/9rZecoS07z2bBdAW+cmBYaFnY6HyicR5m09p2BYlO+s1c4lsqMBsHjbGxYAtvhu9wIG6nhla0CoYep4lCql51B8lV4r59rPUSN42Gs9kXsZKCpX6bwpTAUwpJHKcd6UF5W7thOQaYVjpGqHDRbaiHxGSg7pkLE+8I+A+HSwAMAGgerENKR5jRpf0iAFNyzEqH4tOvPrV0da6fk6xU7IljQI/QyyAHMKKO+oA7xHzQjm9YcMxHoj1W1r3FTCKppEb8pnwWbwbjRUCbbz3U6IkzYLZFSz65/gdO/M2l/fBTaIvQ3Wdnat720Y4bcafR0RiBA7u5asERK/ivAyIgYMCPxc+oaRc/xnpyDCbzX4ji2f5/8BSxxCgTxgn7sAAAAASUVORK5CYII="],
                     "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
@@ -131,7 +131,7 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVR4nL1Xi5GDIBDFmTRASjAlnCXEEmIJZwlnCZcSvBJiCVqClJC0QAkeS7KKggtGJm8yBvnt4+2ywoHNMbDPIMGCSWBo+/tHrOfZaUASSEAbP3+luydPknFxbBjcgkK96qdJHGIaR/xezqxqOrrPrWdVkQ0HFgnmyvmibk0JQDQCgPr7YpXLv4YcE5UAGrv9XFhxbVgIVgmYkiIoKe99q/9PWT76AOo4p2OLVKCt67GclyU5EZNTsaiaqY4zEl4XiC5MSrVU/dff6hcZyUIwI+CSfa196Q6wLyV7Ss6fBHiaqndaAksBU3Y9saPe6Q5lmCujuG6f71cJgMVHZySR1woegk4sx+PRWU8FrpOAJ2ZILNXzBq6LQFZMgyCgxGvlZeC+Dg5aFwHcywDcz9zRLh+CxcKMANdhpE2YlQvQTtrqwrkLUkXBsJ3lcx9iZJ+KSj2rIAO+jGopAD/gcG/b+ShoMva0TjguePqYMWYRwMHwlLosjSYMiMmA6Oit6Wu3CUzm7Aym3/ds0k0EUG6PwQh81j9Gnhy+9CUAfG5mzJAzwVsHEjNfIMxzgK/vbgKbpN97HnDPmVKN4X3fJsDDJdh8Hgic1Vm9zJxU330EHPAFG0Uggbva3ttR6AkIcG0E3IqgmKACmgRcl6JD2J9uNA4P0wUJ3NXYZzB+Iv8Bbq6jgAlpMSsAAAAASUVORK5CYII="],
                     "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
                     "type": "Buff"
                 },
@@ -141,7 +141,7 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACx0lEQVR4nL1XgZGbMBCUZ9yAvgRSAl8CKYGU4Bb8JZgWKCGUEEp4SgglvEpwtJJWOgkZ+2di7xiQsXy7d9zpxFHluKrX4MCBFHD98/n3Jew/339cKYICHHnXNv+dzITTMAzqfD67e19fV/X2dnAijs8kpwLjZQQRJzvS6vL7U338er8e1RNhQG5P4zg6Yq21+vigCI+nCTCMfQDI89+eKIDkuNJ7f9+48TCMSrfd4wKoWDhRnydOkhzeG+m2wK4Ak5+sEb0vgglXeE5AyDRNjwugwcb+cV2NNQAhWwUy5MA4JXI+e5J3XaeWZXxQgEUTDDSND2MpoUZ+sfVehhzkTdOoeZ6z+3cFwBDUr7iCOiigfUhCuPv+ZEk8uZ+bvAd53/fuuiyrOp3sXHu9K0Br/9xNMFjzGuTxZqh7SY7vJC/D/1AEghRJH/MS5JfL2RnHgXEZevnsUX7wXibyN9YBEw0AzPJaeeWLjnHkOiufNN4vQz7nsJxyXENrewnzRc7jdyzBpfe7AkpyGequ66Nxelh6LscgRx6k3+4IKDO8fLbzPMU6R1ltQ5zAhYdXtuRdAaQXvSQS9b3vaDQqPUsOmFjvqH0c0zRvVsZdAeCueQ/geVNQSSzFAuu6OnKfvPrxHFBG7aIWdn5nVCCI5Ld6yLfb8a2wEzJasWwdeb2RbQSUGwkJhPYWOYgRbhxLWGYJHeeo/UdgxMQ86/cznXPbtnUHNG7rvt7Sj8lIboxL672QOw+LmgcSuVbsG7GjmhsroVzxmP2+gSzOsz1IYnDqYt8Acoqt7gmxZSYxxSCJkoH6tp1z2CN0JeFiR41bsxsRkM0FhnuEsSAqURKHT4bU1rfiogDuVjPDwtgJq1hRHMlQnbg+NwcEHPCuhrcjv06TRfwDxuvbwbs75RqGacFbEYYHRsCJwOvSK0BynGQOHPCupl6D+Hr+Dx893LO6fTh1AAAAAElFTkSuQmCC"],
                     "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
                     "type": "Buff"
                 },
@@ -151,7 +151,7 @@
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAELUlEQVR4nL1X77WqMAwP57hAHQFHgBFwBByBO4KO4B1BR5ARZAQdQUawI/QlTUJThPvel3dzDra0afLLX+oGcgrwO1ToxAII98cLHE48Pv9v9FDXdVAQCiA8UHnl9oYVZnNY2Vsb1/kvtzt8HfYRxEYtT8ohjfGMrkG+Z+flC2Cs0/sTFVXlKn9XnQAExCYtO36iUrEkgvdmff6O8/Jh5Dte6/Fp3DK/CFK/bPLDIsCViVmFekGge/Re3o11uD4MAFfcu6N3DxjiBpfbljFEecjj6GwZhwmAVw9EHaWsKDMkpQoyOuv2GZkKNd5wskflt1a86JNcJ8BJjiCQEKhrdEOUqAfUchAQ7gIfRNY3HfO0jg1Q/kluOSnW3Nok+DYBlzIbzIj03KLFb55fcd7h/IqWt2d8uhVZYIAthUCZ3RGH72UhDoU/UVEVEghV3l1Mos1LcLk88yqwZUcgIvUp/k8sn6rLlSt1uOavuZei+7v0rvuOqiALgSYYfNJwwNhSz8AYlxz7otBOOnVUCCEkI6DNZajHjJGzKjA5MO87qDeWE/04Vs7KDMvoF9cnqmT9ScbcJSIfIQBxmUrdckO54OFTEY0qalhU0pQO7q/3zyDgiYzStK77qYxTCEBaZ49aWoxt82bLSflZhRawSt7DX4nyq9/FfOmwcr4gCwHwJuYcuC0DiOY5+CdyP/GNMMW/e8WKuTrqonsTArKclN/Q2i+yVEDQQxn/d/N+WBdwHuU4LlvfD3FpkzMuEOXCwN2N4juP8zCO0bX7ercSf1buUbkjA1v0ssN7h+2E1WisJ7oYLww5MAVBSaf9YV9vZ8rVY+/p3VFCU6+ghtXspnbOHujXrPecgCdOvlT/GL3dNoKg0e4xEM/9q0XFBMJ2YqG8Ed0WXHfJ14raf7p4ZMupD6g3OESs0JEBTcG9pJWz5IXvAo7tAU6Q3wmXCa0vvmFSRBZHIKP0iZY88Io5QB65P6gfIA8lOXXQfqV0e9OI4uVhyQtGOVVCg44LD8dVQdYdOaYNxjS8yaW7aHlsShGosdzSMUzy10NAdGZ3JdT0I5/So3GpWhkvJeb8UMh3ZJ0YAN1gNEmmPgCf3wUFdZq51QsQUmgPURMjcEteEMMYQCfabDW0LCg08gG6G8HnmcAuJCDAFfIOTvrHigeOIYVgwGt1E6/RBedD51IrJhAkg+JOoE5FHgIiDYG07RDEGHolr6hd7SykkN0JhYFAGOUTVaYlH2dWtTYP6OxWrgTmjqENzSlQfD9ld0IjTGnYLoOxXrgu5Ys5o+vNVrogXeffcI3fAv4YFXW9479m078ZSMljQcQrmCSabdH02Y635QWwkT/wXlvEkZTjv6K4qY0ogqD/bKlv4oUhorzIaNZpLD2v08XiqZdMy2f5dZ3k96j8oMiyTljIH8bfoCkT/wAXlggNeeq6hwAAAABJRU5ErkJggg=="],
                     "animations": ["https://media1.giphy.com/media/9CMy7sLPg8PkWApcjD/giphy.gif"],
                     "type": "Active"
                 }]
@@ -160,6 +160,9 @@
                 "1st Job", [
                     {
                         "id": 2001008,
+                        "name": "Energy Bolt",
+                        "shortDesc": "MP Cost: 24, Damage: 309%, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Energy_Bolt.png/revision/latest?cb=20140409055248"],
                         "animations": ["https://media.giphy.com/media/Qy80HxOG1aC4MBDyIL/giphy.gif"],
                         "type": "Attack",
@@ -167,6 +170,9 @@
                     },
                     {
                         "id": 2001002,
+                        "name": "Magic Guard",
+                        "shortDesc": "MP Cost: 13, Damage Displaced: 85% of your MP, Duration: While the skill is activated",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158"],
                         "animations": ["https://media4.giphy.com/media/TcWUHRjSSskegm8p65/giphy.gif"],
                         "type": "Toggle Buff",
@@ -177,6 +183,9 @@
                     },
                     {
                         "id": 2001009,
+                        "name": "Teleport",
+                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 170, and up and down with 275",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454"],
                         "animations": ["https://media.giphy.com/media/L133pkHETSckyF8WQs/giphy.gif"],
                         "type": "Active",
@@ -187,11 +196,17 @@
                     },
                     {
                         "id": 2000010,
+                        "name": "Magic Armor",
+                        "shortDesc": "Defense: +100",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Magic_Armor.png/revision/latest?cb=20150915081824"],
                         "type": "Passive"
                     },
                     {
                         "id": 2000006,
+                        "name": "MP Boost",
+                        "shortDesc": "Max MP: +20%, MP increases by 120 per level\\nCritical Rate: +5% when equipped with a Wand",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_MP_Boost.png/revision/latest?cb=20110422142449"],
                         "type": "Passive"
                     }]
@@ -200,6 +215,9 @@
                 "2nd Job", [
                     {
                         "id": 2201008,
+                        "name": "Cold Beam",
+                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 27, Max Enemies Hit: 6, Damage: 199%, Number of Attacks: 3, Freeze Duration: 8",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Cold_Beam.png/revision/latest?cb=20140409153651"],
                         "animations": ["https://media3.giphy.com/media/KfYZDBdB726BvADES9/giphy.gif"],
                         "type": "Attack",
@@ -210,6 +228,9 @@
                     },
                     {
                         "id": 2200011,
+                        "name": "Freezing Crush",
+                        "shortDesc": "Grants Critical Damage: +2% per stack when attacking a Frozen enemy. Lightning-based skills consume ice stacks, granting Damage: +9% per stack.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Freezing_Crush.png/revision/latest?cb=20130706132353"],
                         "type": "Passive",
                         "desc": "Attacking enemies with Ice-Attribute attacks will provide a stacking debuff",
@@ -219,6 +240,9 @@
                     },
                     {
                         "id": 2201005,
+                        "name": "Thunder Bolt",
+                        "shortDesc": "MP Cost: 30, Damage: 210%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thunder_Bolt.png/revision/latest?cb=20140409153835"],
                         "animations": ["https://media4.giphy.com/media/PtX8bLpi1Gf5Xrjd4b/giphy.gif"],
                         "type": "Attack",
@@ -226,6 +250,9 @@
                     },
                     {
                         "id": 2201009,
+                        "name": "Chilling Step",
+                        "shortDesc": "Upon using the Teleport skill, freezes the ground at 60% chance, dealing 2% to enemies on the frozen ground with freeze stacks. Last 6 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Chilling_Step.png/revision/latest?cb=20130706132405"],
                         "animations": ["https://media0.giphy.com/media/wssRQBKgW0vwFwBJ9M/giphy.gif"],
                         "type": "Toggle",
@@ -233,12 +260,18 @@
                     },
                     {
                         "id": 2201001,
+                        "name": "Meditation",
+                        "shortDesc": "MP Cost: 16, Party Member Magic ATT: +30, Duration: 240 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Meditation.png/revision/latest?cb=20110423005230"],
                         "animations": ["https://media2.giphy.com/media/uBX7fKZ7SGny1p9rKb/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 2201010,
+                        "name": "Magic Booster",
+                        "shortDesc": "MP Cost: 20, Weapon's Attack Speed increased for 240 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853"],
                         "animations": ["https://media1.giphy.com/media/sltnZGDLPRTZYwKoj8/giphy.gif"],
                         "type": "Buff",
@@ -246,16 +279,25 @@
                     },
                     {
                         "id": 2200006,
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: 50%, Magic ATT: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
                         "type": "Passive"
                     },
                     {
                         "id": 2200007,
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
                         "type": "Passive"
                     },
                     {
                         "id": 2200000,
+                        "name": "MP Eater",
+                        "shortDesc": "MP Absorb Chance: 20%, Amount Absorbed: 10% of the enemy's Max HP",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_MP_Eater.png/revision/latest?cb=20110423005222"],
                         "type": "Passive",
                         "desc": "Your attacks have a chance to steal a portion of the enemy's %Max HP",
@@ -267,6 +309,9 @@
                 [
                 "3rd Job", [{
                         "id": 2211002,
+                        "name": "Ice Strike",
+                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 90, Damage: 335% Number of Attacks: 4, Max Monsters Hit: 8, Freeze Duration: 8 sec",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Ice_Strike.png/revision/latest?cb=20110423054931"],
                         "animations": ["https://media2.giphy.com/media/VD4rGmzN7isIF0uw1k/giphy.gif"],
                         "type": "Attack",
@@ -277,6 +322,9 @@
                     },
                     {
                         "id": 2211010,
+                        "name": "Glacier Chain",
+                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 65, Damage: 383% Number of Attacks: 3, Max Monsters Hit: 12, Freeze Duration: 8 sec",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Glacier_Chain.png/revision/latest?cb=20110423132444"],
                         "animations": ["https://media3.giphy.com/media/MZMJDWRzKaxEEBCFCA/giphy.gif"],
                         "type": "Attack",
@@ -287,6 +335,9 @@
                     },
                     {
                         "id": 2211011,
+                        "name": "Thunderstorm",
+                        "maxLevel": 10,
+                        "shortDesc": "MP Cost: 40, Duration: 90 sec, Damage: 310%, each one fewer enemy increases Damage by 30%. Up to 430% damage on a single target.\\nCooldown: 30 sec",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunderstorm.png/revision/latest?cb=20130706141522"],
                         "animations": ["https://media3.giphy.com/media/qqQJLgcYq1NjkHap3w/giphy.gif"],
                         "type": "Summon",
@@ -297,6 +348,9 @@
                     },
                     {
                         "id": 2211012,
+                        "name": "Elemental Adaptation (Ice, Lightning)",
+                        "shortDesc": "MP Cost: 190, upon defending critical Abnormal Status attack, for 30 sec, activates a barrier that blocks all Abnormal Status effects and apply 240 sec Cooldown.\\n[Passive Effect: Increases All Elemental Resistances and Abnormal Status Resistance by 20%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c1/Skill_Elemental_Adaptation_%28Ice%2C_Lightning%29.png/revision/latest?cb=20130706141530"],
                         "animations": ["https://media3.giphy.com/media/kdoM0JVWP1bHducJL4/giphy.gif"],
                         "type": "Buff",
@@ -308,12 +362,18 @@
                     },
                     {
                         "id": 2211008,
+                        "name": "Elemental Decrease",
+                        "maxLevel": 10,
+                        "shortDesc": "MP Cost: 50, Elemental Attribute Resistance: -10%, Duration: 240 sec\\n[Passive: Final damage: +50%]",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Elemental_Decrease.png/revision/latest?cb=20110423053958"],
                         "animations": ["https://media2.giphy.com/media/WYdinWgGQhirP3LX5O/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 2211007,
+                        "name": "Teleport Mastery",
+                        "maxLevel": 10,
+                        "shortDesc": "MP Cost: 20, Damage: 340%, Max Enemies Hit: 6, Stun Chance: 80%, Stun Duration: 4 sec, Teleport Distance: +20",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Teleport_Mastery.png/revision/latest?cb=20110423053952"],
                         "type": "Toggle Attack",
                         "desc": "When toggled, when you use <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454' alt='Skill Light Speed' width='32' height='32' />, nearby enemies will take damage",
@@ -324,16 +384,33 @@
                     },
                     {
                         "id": 2210009,
+                        "name": "Arcane Overdrive",
+                        "maxLevel": 10,
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +13%",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Arcane_Overdrive.png/revision/latest?cb=20110502085236"],
                         "type": "Passive"
                     },
                     {
                         "id": 2210000,
+                        "name": "Storm Magic",
+                        "maxLevel": 10,
+                        "shortDesc": "Deals 20% extra final damage against enemies with the following effects: Damage Over Time, Freeze, Stun, Darkness, or Paralysis",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Storm_Magic.png/revision/latest?cb=20110423054858"],
                         "type": "Passive"
                     },
                     {
+                        "id": 2210001,
+                        "name": "Element Amplifcation",
+                        "shortDesc": "MP Cost: +50%, Damage: +50%",
+                        "maxLevel": 10,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Element_Amplification.png/revision/latest?cb=20110423053825"],
+                        "type": "Passive"
+                    },
+                    {
                         "id": 2210013,
+                        "name": "Shatter",
+                        "maxLevel": 4,
+                        "shortDesc": "Attack frozen enemies with a 20% chance to ignore 5% DEF for each stack",
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Shatter.png/revision/latest?cb=20130706141534"],
                         "type": "Passive"
                     }]
@@ -341,6 +418,9 @@
                 [
                 "4th Job", [{
                     "id": 2221006,
+                    "name": "Chain Lightning",
+                    "shortDesc": "MP Cost: 44, Damage: 185%, Number of Attacks: 10, Max Monsters Hit: 6, Stun Chance: 90%, Stun Duration: 4 sec, Additional Critical Rate: 25%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/ff/Skill_Chain_Lightning.png/revision/latest?cb=20140412031428"],
                     "animations": ["https://media2.giphy.com/media/X9e1IIMzV4qyQ1R5mr/giphy.gif"],
                     "type": "Attack",
@@ -351,8 +431,11 @@
                 },
                 {
                     "id": 2221011,
+                    "name": "Freezing Breath",
+                    "shortDesc": "MP Cost: 22, makes you invincible. Stun up to 8 enemies and inflicts 450% damage 4 times for 13 sec. Reduces enemy Magic DEF by -30% and Weapon DEF by -15%.\\nStun Duration: +100% depending on damage inflicted with Freezing Breath.\\nOnly inflicts damage to stunned enemies.\\nThis effect lasts as long as the key is held, up to 13 sec. Cooldown: 180 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Freezing_Breath.png/revision/latest?cb=20130706154747"],
-                    "animations": ["https://orangemushroom.files.wordpress.com/2013/07/freezing-breath-effect.gif?w=600&h=328"],
+                    "animations": ["https://media2.giphy.com/media/j5CTjgrrneYs5rKPwc/giphy.gif"],
                     "type": "Key-down Bind Attack",
                     "desc": "Binds enemies hit by the breath while also reducing their %DEF",
                     "details": [
@@ -361,6 +444,9 @@
                 },
                 {
                     "id": 2221007,
+                    "name": "Blizzard",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 15, Damage: 301%, Number of Attacks: 12, Cooldown: 45 sec\\nPass Effect [Final Attack] While on cooldown, your attack skills have a 60% chance to strike a single enemy with a Blizzard, dealing 220% damage.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Blizzard.png/revision/latest?cb=20140412031555"],
                     "animations": ["https://media3.giphy.com/media/RLD5ktbdno2tMxWCCm/giphy.gif"],
                     "type": "Attack / Final Attack",
@@ -371,6 +457,9 @@
                 },
                 {
                     "id": 2221012,
+                    "name": "Frozen Orb",
+                    "shortDesc": "MP Cost: 50, create a Frozen Orb that deals 220% damage with ice shards to up to 8 enemies, Cooldown: 5 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Frozen_Orb.png/revision/latest?cb=20130706154752"],
                     "animations": ["https://media2.giphy.com/media/zVywunEdIxPuahEzhc/giphy.gif"],
                     "type": "Attack",
@@ -381,6 +470,9 @@
                 },
                 {
                     "id": 2221004,
+                    "name": "Infinity",
+                    "shortDesc": "MP Cost: 80, Increases final damage of Magic ATT by 70%.\\nPeriodically recovers base HP and MP by 10% and increases final damage of Magic ATT by 3%.\\nFinal Damage increased by Infinity is additive.\\nKnockback Resistance: +70%, Duration: 40 sec, Cooldown: 3 min",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329"],
                     "animations": ["https://media3.giphy.com/media/87krexu1RFN1vFMVtv/giphy.gif"],
                     "type": "Buff",
@@ -392,6 +484,9 @@
                 },
                 {
                     "id": 2221005,
+                    "name": "Elquines",
+                    "shortDesc": "MP Cost: 120, Summon Elquines Duration: 260 sec, Damage: 127%, Max Enemies Hit: 3, Number of Attacks: 3.\\n[Passive Effect: Permanently increases Mastery by 70%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Elquines.png/revision/latest?cb=20140412031543"],
                     "animations": ["https://media3.giphy.com/media/lza4Q8BsY232lpFa64/giphy.gif"],
                     "type": "Summon",
@@ -403,12 +498,18 @@
                 },
                 {
                     "id": 2221000,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 2221008,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
                     "type": "Buff",
@@ -416,11 +517,17 @@
                 },
                 {
                     "id": 2220013,
+                    "name": "Buff Mastery",
+                    "shortDesc": "Permanently increased Magic ATT: +30, Buff Duration: +50%",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456"],
                     "type": "Passive"
                 },
                 {
                     "id": 2220010,
+                    "name": "Arcane Aim",
+                    "shortDesc": "Ignores 20% of enemy DEF. Aside from minions' attacks, damage will increase by 8% for 5 sec at a 80% chance when the attack hits. Accumulates up to 5 times.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500"],
                     "type": "Passive",
                     "desc": "When attacking an enemy 3 or more times, you have a chance to gain a stacking %Damage buff",
@@ -431,6 +538,9 @@
                 },
                 {
                     "id": 2220015,
+                    "name": "Frost Clutch",
+                    "shortDesc": "Grants Critical Damage: +3% per stack when attacking a Frozen enemy. Lightning-based skills consume ice stacks, granting Damage +12% per stack.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Freezing_Crush.png/revision/latest?cb=20130706132353"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -444,54 +554,81 @@
             "hyperPassive": [
                 {
                     "id": 2220043,
+                    "name": "Teleport Mastery - Reinforce",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Teleport_Mastery_-_Reinforce.png/revision/latest?cb=20120918150946"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 2220044,
+                    "name": "Teleport Mastery - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Teleport_Mastery_-_Spread.png/revision/latest?cb=20120918151046"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 2221045,
+                    "name": "Teleport Mastery - Range",
+                    "shortDesc": "100 bonus distance",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Teleport_Mastery_-_Range.png/revision/latest?cb=20120918151159"],
                     "type": "Toggle Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 2220046,
+                    "name": "Chain Lightning - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Chain_Lightning_-_Reinforce.png/revision/latest?cb=20140412031948"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 2220047,
+                    "name": "Chain Lightning - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Chain_Lightning_-_Spread.png/revision/latest?cb=20140412214707"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 2220048,
+                    "name": "Chain Lightning - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Chain_Lightning_-_Extra_Strike.png/revision/latest?cb=20140412214727"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 2220049,
+                    "name": "Frozen Orb - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Frozen_Orb_-_Reinforce.png/revision/latest?cb=20130706154857"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 2220050,
+                    "name": "Frozen Orb - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Frozen_Orb_-_Spread.png/revision/latest?cb=20130706154902"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 2220051,
+                    "name": "Frozen Orb - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Frozen_Orb_-_Critical_Chance.png/revision/latest?cb=20130706154907"],
                     "type": "Passive",
                     "reqLev": 190
@@ -500,6 +637,9 @@
             "hyperActive": [
                 {
                     "id": 2221054,
+                    "name": "Absolute Zero Aura",
+                    "shortDesc": "MP Cost: 60 per second. Grants Knockback Resistance for you and nearby party members: +20%, Abnormal Status Resistance: +20, Elemental Resistance: +20%\\nDamage Taken: -20%\\nFreezes up to 15 enemies periodically.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Absolute_Zero_Aura.png/revision/latest?cb=20120918152241"],
                     "animations": ["https://media3.giphy.com/media/SP5XmTkpfgBKoiz6Uz/giphy.gif"],
                     "type": "Party Toggle Buff",
@@ -507,6 +647,9 @@
                 },
                 {
                     "id": 2221052,
+                    "name": "Lightning Orb",
+                    "shortDesc": "Key-down skill. MP Cost per attack: 30, Enemies Hit: 15, Damage every 0.25 sec: 105%, Number of Attacks: 15, Max Duration: 8 sec, Final Damage based on Duration: 350%.\\nCooldown: 75 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Lightning_Orb.png/revision/latest?cb=20120918152121"],
                     "animations": ["https://media2.giphy.com/media/fU4VvsyssPUtipF9A0/giphy.gif"],
                     "type": "Key-down Attack",
@@ -514,6 +657,9 @@
                 },
                 {
                     "id": 2221053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Epic_Adventure_%28Magician%29.png/revision/latest?cb=20121015210355"],
                     "animations": ["https://media2.giphy.com/media/wYtZ26mvvkPRIh7JIL/giphy.gif"],
                     "type": "Buff",

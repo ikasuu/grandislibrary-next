@@ -116,6 +116,9 @@
             [
                 "Beginner", [{
                     "id": 110001506,
+                    "name": "Guardian Leap",
+                    "shortDesc": "MP Cost: 10, jumps further",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Guardian_Leap.png/revision/latest?cb=20140126155000"],
                     "animations": ["https://media2.giphy.com/media/elJL1zvel3IsGljzcD/giphy.gif"],
                     "type": "Active",
@@ -126,6 +129,9 @@
                 },
                 {
                     "id": 110001510,
+                    "name": "Critter Select",
+                    "shortDesc": "Use your direction keys to select an animal mode.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Critter_Select.png/revision/latest?cb=20140126155035"],
                     "animations": ["https://media2.giphy.com/media/AXcSprKuKeNk3OwHpB/giphy.gif"],
                     "type": "Special Active",
@@ -133,18 +139,27 @@
                 },
                 {
                     "id": 110001514,
+                    "name": "Homeward Bound",
+                    "shortDesc": "Cooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Homeward_Bound.png/revision/latest?cb=20140126155109"],
                     "animations": ["https://media1.giphy.com/media/JBCRFF1XsOiU99QssA/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 110000515,
+                    "name": "Beast Scepter Mastery",
+                    "shortDesc": "Scepter Mastery: +70%, Magic ATT: +50",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Beast_Scepter_Mastery.png/revision/latest?cb=20140126155137"],
                     "type": "Passive",
                     "reqLev": 40
                 },
                 {
                     "id": 110000513,
+                    "name": "Growth Spurt",
+                    "shortDesc": "INT: +60 , LUK: +30, Critical Rate: +16%, Max HP: +40%, Max MP: +16%, Boss Damage: +11%, Magic ATT: +5%, DEF: +2000, All Abnormal Status and Elemental Resistance: +40%, Damage taken when hit by enemies: -40%.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Growth_Spurt.png/revision/latest?cb=20140126155218"],
                     "type": "Passive",
                     "desc": "",
@@ -155,6 +170,9 @@
                 },
                 {
                     "id": 110001511,
+                    "name": "Maple Guardian",
+                    "shortDesc": "MP Cost: 70, All Stats: +15%, Duration: 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Maple_Guardian.png/revision/latest?cb=20140217150807"],
                     "animations": ["https://media1.giphy.com/media/JhJzu7Fci6btFAuXKk/giphy.gif"],
                     "type": "Party Buff",
@@ -162,6 +180,9 @@
                 },
                 {
                     "id": 110001512,
+                    "name": "Beastly Resolve",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Beastly_Resolve.png/revision/latest?cb=20140217150915"],
                     "animations": ["https://media2.giphy.com/media/XCa9brFCddpmZfibwo/giphy.gif"],
                     "type": "Buff",
@@ -173,6 +194,9 @@
                 "Bear", [
                     {
                         "id": 112000000,
+                        "name": "Paw Swipe",
+                        "shortDesc": "First 3 Hits: Damage: 420%, Max Enemies Hit: 8, Max Hits: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Paw_Swipe.png/revision/latest?cb=20140214224128"],
                         "animations": ["https://media0.giphy.com/media/L069vTxBGyofRZEf9D/giphy.gif"],
                         "type": "Basic Attack Modifier",
@@ -181,6 +205,9 @@
                     },
                     {
                         "id": 112001006,
+                        "name": "Majestic Trumpet",
+                        "shortDesc": "MP Cost: 35, Damage: 210%, Max Enemies Hit: 10, Duration: 15 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Majestic_Trumpet.png/revision/latest?cb=20140214224128"],
                         "animations": ["https://media0.giphy.com/media/RJIquD8nzOU9pqACyw/giphy.gif"],
                         "type": "Attack",
@@ -189,18 +216,27 @@
                     },
                     {
                         "id": 112000011,
+                        "name": "Well Fed",
+                        "shortDesc": "Passive Effect: Max HP: +50%, INT: +50",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Well_Fed.png/revision/latest?cb=20140214224129"],
                         "type": "Passive",
                         "reqLev": "19 + 15 SP"
                     },
                     {
                         "id": 112000010,
+                        "name": "Dumb Luck",
+                        "shortDesc": "Knockback Resistance: +95%, Defense: +200, Damage taken when hit by enemies: -30%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Dumb_Luck.png/revision/latest?cb=20140214224051"],
                         "type": "Passive",
                         "reqLev": "25 + 14 SP"
                     },
                     {
                         "id": 112001004,
+                        "name": "Deep Breath",
+                        "shortDesc": "MP Cost: 30, Damage: 450%, Max Enemies Hit: 8.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Deep_Breath.png/revision/latest?cb=20140214224128"],
                         "animations": ["https://media2.giphy.com/media/kdjS5yegT2NJ7WxLhF/giphy.gif"],
                         "type": "Attack",
@@ -209,6 +245,9 @@
                     },
                     {
                         "id": 112000015,
+                        "name": "Fort Follow-Up",
+                        "shortDesc": "Additional Damage: 275%, Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Fort_Follow-Up.png/revision/latest?cb=20140214224051"],
                         "type": "Passive",
                         "desc": "Every 4th attack, you deal an additional attack",
@@ -216,12 +255,18 @@
                     },
                     {
                         "id": 112000012,
+                        "name": "Defense Ignorance",
+                        "shortDesc": "Passive Effect: Enemy DEF Ignored: 30%, Attack Speed: +2",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Defense_Ignorance.png/revision/latest?cb=20140214224051"],
                         "type": "Passive",
                         "reqLev": "47 + 62 SP"
                     },
                     {
                         "id": 112000003,
+                        "name": "Furious Strikes",
+                        "shortDesc": "MP Cost: 10, Damage: 450%, Number of Attacks: 4, Max Enemies Hit: 8\\nExtra Paw Swipe Damage: +100%. While channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percent of damage) are reduced by 20%.",
+                        "maxLevel": 25,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Furious_Strikes.png/revision/latest?cb=20140214224127"],
                         "animations": ["https://media3.giphy.com/media/ZczWQtTYl9nfvWirfn/giphy.gif"],
                         "type": "Passive",
@@ -234,12 +279,18 @@
                     },
                     {
                         "id": 112000014,
+                        "name": "Bear Strength",
+                        "shortDesc": "Passive Effect: Critical Rate: +60%, Critical Damage: +40%, Magic ATT: +15",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Bear_Strength.png/revision/latest?cb=20140214224050"],
                         "type": "Passive",
                         "reqLev": "63 + 93 SP"
                     },
                     {
                         "id": 112001005,
+                        "name": "Really Deep Breath",
+                        "shortDesc": "MP Cost: 70, Damage: 670%, Max Enemies Hit: 10",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Really_Deep_Breath.png/revision/latest?cb=20140214224050"],
                         "animations": ["https://media3.giphy.com/media/PkL7zGfVE2ZR6CzLGk/giphy.gif"],
                         "type": "Attack",
@@ -251,6 +302,9 @@
                     },
                     {
                         "id": 112001007,
+                        "name": "Li'l Fort",
+                        "shortDesc": "MP Cost: 46\\n- Bear Damage: 475%, Number of Attacks: 4\\n- Bear Duration: 60 sec.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Li%27l_Fort.png/revision/latest?cb=20140214224128"],
                         "animations": ["https://media2.giphy.com/media/Lnj309C7FFn2cgqMfo/giphy.gif"],
                         "type": "Summon",
@@ -259,12 +313,18 @@
                     },
                     {
                         "id": 112000013,
+                        "name": "Fort the Brave",
+                        "shortDesc": "Passive Effect: Magic ATT: +10%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Fort_the_Brave.png/revision/latest?cb=20140214224052"],
                         "type": "Passive",
                         "reqLev": "82 + 130 SP"
                     },
                     {
                         "id": 112001009,
+                        "name": "Bear Assault",
+                        "shortDesc": "Active Effect - MP Cost: 62, Damage: +35%, Critial Damage: +10%, Final Damage: +20%\\nPassive Effects - Max HP: +20%, Max MP: +20%, DEF: +100%, Ignore Enemy DEF: +20%\\nReduce the maximum number of monsters that can be attacked, with all of the character's attack skills, to 1/3 (aside from some minions). Minimum number of monsters that can be attacked for multi-target skills: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Bear_Assault.png/revision/latest?cb=20140214224049"],
                         "animations": ["https://media4.giphy.com/media/eRFtZQ6lqd9Zou0iaN/giphy.gif"],
                         "type": "Toggle Buff",
@@ -272,6 +332,9 @@
                     },
                     {
                         "id": 112001008,
+                        "name": "Fishy Slap",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 8, Damage: 330%,\\nNumber of Attacks: 5, Skill Duration: 13 sec, Cooldown: 30 sec.",
+                        "maxLevel": 25,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Fishy_Slap.png/revision/latest?cb=20140214224051"],
                         "animations": ["https://media3.giphy.com/media/jruRkUqOtVZOmlsaPh/giphy.gif"],
                         "type": "Key-down Attack",
@@ -280,6 +343,9 @@
                     },
                     {
                         "id": 112000016,
+                        "name": "Bear Reborn",
+                        "shortDesc": "Resurrection Cooldown: 1800 sec, Resurrection Invincibility: 10 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Bear_Reborn.png/revision/latest?cb=20140214224050"],
                         "animations": ["https://media2.giphy.com/media/yYwqWuAYhkHEQm75nA/giphy.gif"],
                         "type": "Passive Revive",
@@ -292,6 +358,9 @@
                     },
                     {
                         "id": 112000020,
+                        "name": "Billowing Trumpet",
+                        "shortDesc": "Magic ATT: +30, Majestic Trumpet Damage over Time: +140%.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Billowing_Trumpet.png/revision/latest?cb=20140214224050", "https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Majestic_Trumpet.png/revision/latest?cb=20140214224128"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -303,6 +372,9 @@
                     },
                     {
                         "id": 112001018,
+                        "name": "Table Flip",
+                        "shortDesc": "MP Cost: 300, Damage: 560%, Max Enemies Hit: 15, Number of Attacks: 10\\nCooldown: 15 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Table_Flip.png/revision/latest?cb=20140214224129"],
                         "animations": ["https://media1.giphy.com/media/gJo0RmPw3bwPpL5rpA/giphy.gif"],
                         "type": "Attack",
@@ -314,6 +386,9 @@
                 "Leopard", [
                     {
                         "id": 112100000,
+                        "name": "Leopard's Paw",
+                        "shortDesc": "Damage: 200% (first two hits), Max Enemies Hit: 8, Number of Attacks: 2.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Leopard%27s_Paw.png/revision/latest?cb=20140321222022"],
                         "animations": ["https://media1.giphy.com/media/StRjxvabv074VpB4Mf/giphy.gif"],
                         "type": "Basic Attack Modifier",
@@ -322,6 +397,9 @@
                     },
                     {
                         "id": 112101007,
+                        "name": "Thunder Dash",
+                        "shortDesc": "MP Cost: 10, Damage: 230%, Number of Attacks: 2, Max Enemies Hit: 8, Cooldown: 3 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Thunder_Dash.png/revision/latest?cb=20140321222113"],
                         "animations": ["https://media0.giphy.com/media/IdmeTKvCeEv3Fo4Tjo/giphy.gif"],
                         "type": "Attack",
@@ -333,6 +411,9 @@
                     },
                     {
                         "id": 112100011,
+                        "name": "Leopard Hide",
+                        "shortDesc": "Trigger Chance: 40%, Restores 8% of the finishing blow's damage dealt as HP",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Leopard_Hide.png/revision/latest?cb=20140321222121"],
                         "type": "Passive",
                         "desc": "",
@@ -343,6 +424,9 @@
                     },
                     {
                         "id": 112100002,
+                        "name": "Leopard's Pounce",
+                        "shortDesc": "MP Cost: 0, Damage: 280%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Leopard%27s_Pounce.png/revision/latest?cb=20140321222128"],
                         "animations": ["https://media3.giphy.com/media/hW3yYE0iRioG1l0pqD/giphy.gif"],
                         "type": "Attack",
@@ -354,12 +438,18 @@
                     },
                     {
                         "id": 112100013,
+                        "name": "Rippling Feline Muscles",
+                        "shortDesc": "Magic ATT: +35, INT: +35, Speed: +35, Jump: +6",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Rippling_Feline_Muscles.png/revision/latest?cb=20140321222136"],
                         "type": "Passive",
                         "reqLev": "35 + 39 SP"
                     },
                     {
                         "id": 112101004,
+                        "name": "Macho Dance",
+                        "shortDesc": "MP Cost: 20, Damage: 240%, Number of Attacks: 3, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Macho_Dance.png/revision/latest?cb=20140321222333"],
                         "animations": ["https://media1.giphy.com/media/j2w7AnNHDIqbQQKN7e/giphy.gif"],
                         "type": "Attack",
@@ -368,6 +458,9 @@
                     },
                     {
                         "id": 112101005,
+                        "name": "Macho Slam",
+                        "shortDesc": "MP Cost: 20, Damage: 300%, Number of Attacks: 3, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Macho_Slam.png/revision/latest?cb=20140321222345"],
                         "animations": ["https://media2.giphy.com/media/cKcMAOZ6kEbRDBJyud/giphy.gif"],
                         "type": "Attack",
@@ -379,6 +472,9 @@
                     },
                     {
                         "id": 112101016,
+                        "name": "Bro Attack",
+                        "shortDesc": "MP Cost: 120, Summon Chance: 15%, Buff Duration: 180 sec.\\n- Baby Leopard Damage: 550%\\n- Baby Leopard Duration: 40 sec.\\nCooldown: ooltime Sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Bro_Attack.png/revision/latest?cb=20140321222358"],
                         "animations": ["https://media2.giphy.com/media/JsszZ9ZrJWjbJ34WUv/giphy.gif"],
                         "type": "Buff",
@@ -387,6 +483,9 @@
                     },
                     {
                         "id": 112100003,
+                        "name": "Leopard's Roar",
+                        "shortDesc": "MP Cost: 0, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 4\\nLeopard's Paw and Leopard's Pounce Damage: +20%, Max Enemies Hit: +3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Leopard%27s_Roar.png/revision/latest?cb=20140321222407"],
                         "animations": ["https://media3.giphy.com/media/SVStqs2vE9LfvxPIBv/giphy.gif"],
                         "type": "Attack",
@@ -399,6 +498,9 @@
                     },
                     {
                         "id": 112100008,
+                        "name": "Thunder Trail",
+                        "shortDesc": "Afterimage: Damage: 160%, Max Enemies Hit: 10, Duration: 4 sec., Number of Attacks: 3",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Thunder_Trail.png/revision/latest?cb=20140321222417"],
                         "animations": ["https://i.imgur.com/ArQMhkB.png"],
                         "type": "Passive",
@@ -407,6 +509,9 @@
                     },
                     {
                         "id": 112100006,
+                        "name": "Macho Incarnate",
+                        "shortDesc": "Damage: 850%, Max Enemies Hit: 8, Duration: 4 sec., Number of Attacks: 1, Chance to Stun: 100%\\nNumber of mobs attacked with Macho Dance, Macho Slam: +3, Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Macho_Incarnate.png/revision/latest?cb=20140321222425"],
                         "animations": ["https://i.imgur.com/nUyXKv3.png"],
                         "type": "Passive",
@@ -418,6 +523,9 @@
                     },
                     {
                         "id": 112101009,
+                        "name": "Three-Point Pounce",
+                        "shortDesc": "MP Cost: 130, Damage: 615%, Number of Attacks: 4, Max Enemies Hit: 10, Cooldown: 2 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Three-Point_Pounce.png/revision/latest?cb=20140321222432"],
                         "animations": ["https://media3.giphy.com/media/YmttNa9etD19MGEhGA/giphy.gif"],
                         "type": "Attack",
@@ -426,6 +534,9 @@
                     },
                     {
                         "id": 112100012,
+                        "name": "Advanced Thunder Dash",
+                        "shortDesc": "MP Cost: 112, Damage: 400%, Number of Attacks: 4, Max Enemies Hit: 10, Cooldown: 2 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Advanced_Thunder_Dash.png/revision/latest?cb=20140321222444", "https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Thunder_Dash.png/revision/latest?cb=20140321222113"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -437,24 +548,36 @@
                     },
                     {
                         "id": 112100010,
+                        "name": "Deadly Fangs",
+                        "shortDesc": "Magic ATT: +30, Final Damage: +20%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Deadly_Fangs.png/revision/latest?cb=20140321222456"],
                         "type": "Passive",
                         "reqLev": "85 + 129 SP"
                     },
                     {
                         "id": 112100014,
+                        "name": "Lethal Lai",
+                        "shortDesc": "Damage of Leopard's Paw, Leopard's Pounce, Leopard's Roar, Macho Dance, Macho Slam, Thunder Dash: +40%, Max Enemies Hit: +4, Ingore DEF: +30%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Lethal_Lai.png/revision/latest?cb=20140321222505"],
                         "type": "Passive",
                         "reqLev": "101 + 138 SP"
                     },
                     {
                         "id": 112100015,
+                        "name": "Leopard Reflexes",
+                        "shortDesc": "Attack Speed: +2 level(s), Magic ATT: +6%, Ignore Enemy Defense: 60%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Leopard_Reflexes.png/revision/latest?cb=20140321222516"],
                         "type": "Passive",
                         "reqLev": "108 + 149 SP"
                     },
                     {
                         "id": 112101017,
+                        "name": "Party Time",
+                        "shortDesc": "MP Cost: 300, Damage: 650%, Number of Attacks: 8, Max Enemies Hit: 15, Cooldown: 15 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Party_Time.png/revision/latest?cb=20140321222526"],
                         "animations": ["https://media2.giphy.com/media/d90xSUfc41yv32Qh9R/giphy.gif"],
                         "type": "Attack",
@@ -466,6 +589,9 @@
                 "Hawk", [
                     {
                         "id": 112110003,
+                        "name": "Formation Attack",
+                        "shortDesc": "Damage: 110%, Max Enemies Hit: 3, Number of Attacks: 1. When enemies are hit, reduces Fly's cooldown by 0.5 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Formation_Attack.png/revision/latest?cb=20140401051640"],
                         "animations": ["https://media1.giphy.com/media/Y4Dj3mN5oxGCgazgRv/giphy.gif"],
                         "type": "Basic Attack Modifier",
@@ -478,6 +604,9 @@
                     },
                     {
                         "id": 112111017,
+                        "name": "Sky Walk",
+                        "shortDesc": "MP Cost: 13. Jump up to two more times in midair after your initial jump.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Sky_Walk.png/revision/latest?cb=20140401051735"],
                         "animations": ["https://media2.giphy.com/media/h2TFMtUBfgqLfWh0H8/giphy.gif"],
                         "type": "Active",
@@ -489,6 +618,9 @@
                     },
                     {
                         "id": 112111002,
+                        "name": "Vertical Draft",
+                        "shortDesc": "Jump: 1650",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Vertical_Draft.png/revision/latest?cb=20140401051735"],
                         "animations": ["https://media0.giphy.com/media/Q790pKKav1I5H9qiKA/giphy.gif"],
                         "type": "Active",
@@ -500,6 +632,9 @@
                     },
                     {
                         "id": 112111010,
+                        "name": "Eka Express",
+                        "shortDesc": "MP Cost: 60, Portal Duration: 200 sec, Cooldown: 200 sec\\nPassive Effects - Critical Damage: +10%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Eka_Express.png/revision/latest?cb=20140401051639"],
                         "animations": ["https://media2.giphy.com/media/YpTgcPgjCOwqVMpWUj/giphy.gif"],
                         "type": "Summon",
@@ -512,6 +647,9 @@
                     },
                     {
                         "id": 112111000,
+                        "name": "Fly",
+                        "shortDesc": "Flight Duration: 30 sec, Cooldown: 60 sec.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Fly.png/revision/latest?cb=20140401051640"],
                         "animations": ["https://media3.giphy.com/media/YmUk2hJFTXW21cyqEq/giphy.gif"],
                         "type": "Active",
@@ -524,6 +662,9 @@
                     },
                     {
                         "id": 112111007,
+                        "name": "Hawk Flock",
+                        "shortDesc": "MP Cost: 25, Duration: 180 sec, Speed: +30, Jump: +15\\nPassive Effects - Max Movement Speed: +15",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Hawk_Flock.png/revision/latest?cb=20140401051640"],
                         "animations": ["https://media3.giphy.com/media/3C1ZHpBIdbkyV8lhxJ/giphy.gif"],
                         "type": "Party Buff",
@@ -531,12 +672,18 @@
                     },
                     {
                         "id": 112110014,
+                        "name": "Max Mobility",
+                        "shortDesc": "Magic ATT: +30, Attack Speed: +-2 level(s), Ignore Enemy Defense: 30%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Max_Mobility.png/revision/latest?cb=20140401051734"],
                         "type": "Passive",
                         "reqLev": "52 + 40 SP"
                     },
                     {
                         "id": 112110005,
+                        "name": "Defensive Formation",
+                        "shortDesc": "Damage (Eka's friends): 150%, Max Hits: 2",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Defensive_Formation.png/revision/latest?cb=20140401051639"],
                         "animations": ["https://media0.giphy.com/media/dtIvsHDRBfZCnNssW5/giphy.gif"],
                         "type": "Passive",
@@ -545,6 +692,9 @@
                     },
                     {
                         "id": 112111001,
+                        "name": "Eka Glider",
+                        "shortDesc": "Glide: Hold Skill Key",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Eka_Glider.png/revision/latest?cb=20140401051639"],
                         "animations": ["https://media0.giphy.com/media/dv6sn3ccim6vp1qY9j/giphy.gif"],
                         "type": "Active",
@@ -553,12 +703,18 @@
                     },
                     {
                         "id": 112110012,
+                        "name": "Feather Cloak",
+                        "shortDesc": "Jump: +4, Critical Rate: +15%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Feather_Cloak.png/revision/latest?cb=20140401051640"],
                         "type": "Passive",
                         "reqLev": "72 + 71 SP"
                     },
                     {
                         "id": 112111011,
+                        "name": "Regroup",
+                        "shortDesc": "Summons party members. MP Cost: 60, Cooldown: 600 sec\\nPassive Effects - Ignore Enemy Defense: 20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Regroup.png/revision/latest?cb=20140401051735"],
                         "type": "Active",
                         "desc": "Summons any party members on the same channel to your location",
@@ -570,6 +726,9 @@
                     },
                     {
                         "id": 112111006,
+                        "name": "Raptor Talons",
+                        "shortDesc": "MP Cost: 50, Duration: 180 sec, Magic ATT: +60\\nPassive Effects: Bleed Chance: 100%, Bleed Damage: 340% per sec, Bleed Duration: 6 sec\\nCooldown: ooltime sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Raptor_Talons.png/revision/latest?cb=20140401051734"],
                         "animations": ["https://media3.giphy.com/media/lTOZDoTUzVO1SYLonG/giphy.gif"],
                         "type": "Buff",
@@ -578,6 +737,9 @@
                     },
                     {
                         "id": 112111004,
+                        "name": "Baby Bombers",
+                        "shortDesc": "MP Cost: 80, Damage: 525%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Baby_Bombers.png/revision/latest?cb=20140401051638"],
                         "animations": ["https://media2.giphy.com/media/eIsjWXRKH5j0WlDhbl/giphy.gif"],
                         "type": "Attack",
@@ -586,6 +748,9 @@
                     },
                     {
                         "id": 112111009,
+                        "name": "Bird's-Eye View",
+                        "shortDesc": "MP Cost: 30, Duration: 450 sec, Critical Rate: +15%, Defense: +900",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Bird%27s-Eye_View.png/revision/latest?cb=20140401051638"],
                         "animations": ["https://media1.giphy.com/media/ERTIcOB6qfqumpPbrm/giphy.gif"],
                         "type": "Party Buff",
@@ -593,12 +758,18 @@
                     },
                     {
                         "id": 112110015,
+                        "name": "Veteran Formation",
+                        "shortDesc": "Formation Attack, Defensive Formation, and Baby Bombers Damage: +150%, Formation Attack Count: +3",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Veteran_Formation.png/revision/latest?cb=20140401051736"],
                         "type": "Passive",
                         "reqLev": "99 + 137 SP"
                     },
                     {
                         "id": 112111008,
+                        "name": "Razor Beak",
+                        "shortDesc": "MP Cost: 22, Weapon ATT: +30, Magic ATT: +30, Duration: 180 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Razor_Beak.png/revision/latest?cb=20140401051735"],
                         "animations": ["https://media3.giphy.com/media/NFQKuPQn4IrvNUJZh9/giphy.gif"],
                         "type": "Party Buff",
@@ -606,12 +777,18 @@
                     },
                     {
                         "id": 112110013,
+                        "name": "Feather Boots",
+                        "shortDesc": "Movement Speed: +45, Critical Damage: +15%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Feather_Boots.png/revision/latest?cb=20140401051639"],
                         "type": "Passive",
                         "reqLev": "110 + 150 SP"
                     },
                     {
                         "id": 112111016,
+                        "name": "Tornado Flight",
+                        "shortDesc": "MP Cost: 42, Max Enemies Hit: 8, Damage: 800%. Steer by holding the skill key and pressing Left, Right, Up, and Down. Max Range: 600, Cooldown: 25",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Tornado_Flight.png/revision/latest?cb=20140401051735"],
                         "animations": ["https://media3.giphy.com/media/H4ydKagmfIAPgBNthn/giphy.gif"],
                         "type": "Key-down Attack",
@@ -626,6 +803,9 @@
                 "Cat", [
                     {
                         "id": 112120000,
+                        "name": "Friend Launcher",
+                        "shortDesc": "Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 4. On the 4th attack, delivers a final blow striking 8 enemies once and dealing 400% damage.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Friend_Launcher.png/revision/latest?cb=20140403174328"],
                         "animations": ["https://media0.giphy.com/media/hTCDVwgj3Ao5V2Tm6j/giphy.gif"],
                         "type": "Basic Attack Modifier",
@@ -634,36 +814,54 @@
                     },
                     {
                         "id": 112120015,
+                        "name": "Cat Wit",
+                        "shortDesc": "Passive Effect - INT: +100",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Cat_Wit.png/revision/latest?cb=20140403174316"],
                         "type": "Passive",
                         "reqLev": 50
                     },
                     {
                         "id": 112120021,
+                        "name": "Kitty Battle Squad",
+                        "shortDesc": "Passive Effects: ATT/Magic ATT: +35",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Kitty_Battle_Squad.png/revision/latest?cb=20140403174259"],
                         "type": "Party Passive",
                         "reqLev": "53 + 8 SP"
                     },
                     {
                         "id": 112120023,
+                        "name": "Kitty Treats",
+                        "shortDesc": "Max HP: +625, Max MP: +625",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Kitty_Treats.png/revision/latest?cb=20140403174344"],
                         "type": "Party Passive",
                         "reqLev": "56 + 15 SP"
                     },
                     {
                         "id": 112120014,
+                        "name": "Purr-Powered",
+                        "shortDesc": "Passive Effect - Stance Chance: +30%, HP Recovery: 100 per 4 seconds, MP Recovery: 100 per 4 seconds",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Purr-Powered.png/revision/latest?cb=20140403174358"],
                         "type": "Passive",
                         "reqLev": "61 + 27 SP"
                     },
                     {
                         "id": 112120017,
+                        "name": "Sticky Paws",
+                        "shortDesc": "Passive Effect - Party Item Drop Chance: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Sticky_Paws.png/revision/latest?cb=20140403174411"],
                         "type": "Party Passive",
                         "reqLev": "66 + 39 SP"
                     },
                     {
                         "id": 112121013,
+                        "name": "Meow Heal",
+                        "shortDesc": "MP Cost: 46, Max Number:6, Recovered: 20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Meow_Heal.png/revision/latest?cb=20140403174425"],
                         "animations": ["https://media2.giphy.com/media/VJ50AqBqWAO5aVaoLL/giphy.gif"],
                         "type": "Party Heal",
@@ -672,12 +870,18 @@
                     },
                     {
                         "id": 112120018,
+                        "name": "Cat's Claws",
+                        "shortDesc": "Passive Effects: Critical Rate: +30%, Critical Damage: +10%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Cat%27s_Claws.png/revision/latest?cb=20140403174443"],
                         "type": "Party Passive",
                         "reqLev": "75 + 60 SP"
                     },
                     {
                         "id": 112121010,
+                        "name": "Meow Cure",
+                        "shortDesc": "MP Cost: 10, Chance to nullify magic effects and remove abnormal status: 100%, Cooldown: 5 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Meow_Cure.png/revision/latest?cb=20140403174456"],
                         "animations": ["https://media0.giphy.com/media/UAUQfTOOmtjzQBuTut/giphy.gif"],
                         "type": "Party Active",
@@ -686,6 +890,9 @@
                     },
                     {
                         "id": 112121005,
+                        "name": "Purr Zone",
+                        "shortDesc": "MP Cost: MP 115, Max Targets Affected: 8, Damage: 1000%, Friends Healed: 550, Duration: 22 sec,\\nCooldown: 15 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Purr_Zone.png/revision/latest?cb=20140403174506"],
                         "animations": ["https://media1.giphy.com/media/YPhQotP9lxxOdovkYh/giphy.gif"],
                         "type": "Party Heal / Attack",
@@ -694,6 +901,9 @@
                     },
                     {
                         "id": 112121006,
+                        "name": "Meow Card",
+                        "shortDesc": "MP Cost: 0,\\nRed Card - Damage: +40%\\nBlue Card - DEF: +200, Max HP/MP: +25%\\nYellow Card - Attack Speed: +-2, Speed: +20\\nDuration: 120 sec, Cooldown: 30 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Meow_Card.png/revision/latest?cb=20140403174538"],
                         "animations": ["https://media2.giphy.com/media/D5gD2rQDHmEOQYcYQL/giphy.gif"],
                         "type": "Party Buff",
@@ -707,6 +917,9 @@
                     },
                     {
                         "id": 112120058,
+                        "name": "Friend Launcher - Enhance",
+                        "shortDesc": "Friend Launcher Damage: +100%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Friend_Launcher_-_Enhance.png/revision/latest?cb=20140403174603", "https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Friend_Launcher.png/revision/latest?cb=20140403174328"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -717,12 +930,18 @@
                     },
                     {
                         "id": 112120022,
+                        "name": "Mouser's Insight",
+                        "shortDesc": "DEF Ignored: 20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Mouser%27s_Insight.png/revision/latest?cb=20140403174625"],
                         "type": "Party Passive",
                         "reqLev": "97 + 113 SP"
                     },
                     {
                         "id": 112121004,
+                        "name": "Fire Kitty!",
+                        "shortDesc": "MP Cost: 46, Damage: 800%, Number of Attacks: 3, Max Enemies Hit: 8, Enemy DEF: -40%, Cooldown: 3 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Fire_Kitty%21.png/revision/latest?cb=20140403174635 "],
                         "animations": ["https://media2.giphy.com/media/ft5asfPY9CZJCjp3DH/giphy.gif"],
                         "type": "Attack",
@@ -734,6 +953,9 @@
                     },
                     {
                         "id": 112121011,
+                        "name": "Meow Revive",
+                        "shortDesc": "MP Cost: 75, Revives KO'd party member within range, Cooldown: 750 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/61/Skill_Meow_Revive.png/revision/latest?cb=20140403174649"],
                         "animations": ["https://media2.giphy.com/media/S8WyeSjOMCIuK3qk1j/giphy.gif"],
                         "type": "Party Revive",
@@ -745,6 +967,9 @@
                     },
                     {
                         "id": 112120019,
+                        "name": "Meow Gold Card",
+                        "shortDesc": "MP Cost: 75, Passive Effect: Gold Card Chance: 30%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Meow_Gold_Card.png/revision/latest?cb=20140403174714"],
                         "type": "Passive",
                         "desc": "Grants a chance to draw the Gold Card when using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Meow_Card.png/revision/latest?cb=20140403174538' alt='Skill Meow Card'> that provides the effects of all 3 cards",
@@ -752,6 +977,9 @@
                     },
                     {
                         "id": 112120016,
+                        "name": "Friends of Arby",
+                        "shortDesc": "Passive Effect: Party EXP: +30%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Friends_of_Arby.png/revision/latest?cb=20140403174736"],
                         "type": "Party Passive",
                         "desc": "",
@@ -762,6 +990,9 @@
                     },
                     {
                         "id": 112121057,
+                        "name": "Cat's Cradle Blitzkrieg",
+                        "shortDesc": "Damage from Party Member: 1000%, Number of Hits: 1, Duration: 12, Cooldown: 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Cat%27s_Cradle_Blitzkrieg.png/revision/latest?cb=20140403174744"],
                         "animations": ["https://media0.giphy.com/media/ibczXOhxAyWahErmSv/giphy.gif"],
                         "type": "Attack",
@@ -774,72 +1005,108 @@
             "hyperPassive": [
                 {
                     "id": 112120043,
+                    "name": "Furious Strikes - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Furious_Strikes_-_Reinforce.png/revision/latest?cb=20140404210616"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 112120044,
+                    "name": "Furious Strikes - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Furious_Strikes_-_Extra_Strike.png/revision/latest?cb=20190730061721"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 112120045,
+                    "name": "Furious Strikes - Boss Rush",
+                    "shortDesc": "+20% damage to bosses",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Furious_Strikes_-_Boss_Rush.png/revision/latest?cb=20140404210615"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 112120046,
+                    "name": "Three-Point Pounce - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Three_Point_Pounce_-_Reinforce.png/revision/latest?cb=20140404210641"],
                     "type": "Passive",
                     "reqLev": 190
                 },
                 {
                     "id": 112120047,
+                    "name": "Three-Point Pounce - Spread",
+                    "shortDesc": "Monsters Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Three_Point_Pounce_-_Spread.png/revision/latest?cb=20140404210641"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 112120048,
+                    "name": "Three-Point Pounce - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Three_Point_Pounce_-_Extra_Strike.png/revision/latest?cb=20140404210641"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 112120049,
+                    "name": "Formation Attack - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Formation_Attack_-_Reinforce.png/revision/latest?cb=20140404210614"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 112120050,
+                    "name": "Formation Attack - Spread",
+                    "shortDesc": "Monsters Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Formation_Attack_-_Spread.png/revision/latest?cb=20140404210614"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 112120051,
+                    "name": "Formation Attack - Guardbreak",
+                    "shortDesc": "DEF Ignored: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Formation_Attack_-_Guardbreak.png/revision/latest?cb=20140404210614"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 112120052,
+                    "name": "Friend Launcher - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Friend_Launcher_-_Reinforce.png/revision/latest?cb=20140404210615"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 112120053,
+                    "name": "Friend Launcher - Spread",
+                    "shortDesc": "Monsters Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Friend_Launcher_-_Spread.png/revision/latest?cb=20140404210615"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 112120054,
+                    "name": "Friend Launcher - Range",
+                    "shortDesc": "Range: 350",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Friend_Launcher_-_Range.png/revision/latest?cb=20140404210615"],
                     "type": "Passive",
                     "reqLev": 140
@@ -848,6 +1115,9 @@
             "hyperActive": [
                 {
                     "id": 112121056,
+                    "name": "Team Roar",
+                    "shortDesc": "MP Cost: 1000, Invincibility Duration: 15 sec, Damage Boost: +30%\\nCooldown: 180 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Team_Roar.png/revision/latest?cb=20140404210641"],
                     "animations": ["https://media3.giphy.com/media/pRhbNGAeQY1Mdsd2TS/giphy.gif"],
                     "type": "Buff / Party Buff",
@@ -856,6 +1126,9 @@
                 },
                 {
                     "id": 112121055,
+                    "name": "Group Bear Blaster",
+                    "shortDesc": "MP Cost: 500, Damage: 540%, Number of Attacks: 15, Max Enemies Hit: 15, Cooldown: 90 sec, Invincible while casting",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Group_Bear_Blaster.png/revision/latest?cb=20140404210616"],
                     "animations": ["https://media2.giphy.com/media/JRJ2fOrl9bO4sZQWCu/giphy.gif"],
                     "type": "Attack",
@@ -867,6 +1140,9 @@
                 },
                 {
                     "id": 112121058,
+                    "name": "All Together! Critter Crossing!",
+                    "shortDesc": "MP Cost: 1000, Duration: 60, applies all of the passive and buff skills with a few exceptions, regardless of the mode.\\nHowever, only skills with SP invested will be maintained, and buffs will disappear regardless of the remaining duration when this buff ends.\\nCooldown: 180 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_All_Together%21_Critter_Crossing%21.png/revision/latest?cb=20200613000257"],
                     "animations": ["https://media2.giphy.com/media/Q99aClwKgW54hqBhId/giphy.gif"],
                     "type": "Buff",

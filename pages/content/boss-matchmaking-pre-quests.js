@@ -43,6 +43,9 @@ function BossMatchmaking() {
           <li><Link smooth href="#princessno" scroll>Princess No</Link></li>
           <li><Link smooth href="#will" scroll>Will</Link></li>
           <li><Link smooth href="#julieta" scroll>Julieta</Link></li>
+          <li><Link smooth href="#akechi" scroll>Akechi Mitsuhide</Link></li>
+          <li><Link smooth href="#yakuza" scroll>Yakuza Boss</Link></li>
+          <li><Link smooth href="#gigatoad" scroll>Gigatoad</Link></li>
         </ul>
         <div className="repository-md-container">
           <div><Link smooth href="#top" scroll>Go to top</Link></div>
@@ -313,8 +316,8 @@ function BossMatchmaking() {
             </li>
             <li>
                 <strong>Hard Mode Only Rewards: </strong>
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/8/89/Eqp_AbsoLab_Knight_Shoes.png/revision/latest?cb=20160719041459" alt="Eqp AbsoLab Knight Shoes" width="28" height="32" />
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Eqp_AbsoLab_Knight_Gloves.png/revision/latest?cb=20160719041450" alt="Eqp AbsoLab Knight Gloves" width="32" height="30" />
+                <img  src="https://maplestory.io/api/GMS/220/item/1073030/icon" alt="Eqp AbsoLab Knight Shoes" width="28" height="32" />
+                <img  src="https://maplestory.io/api/GMS/220/item/1082636/icon" alt="Eqp AbsoLab Knight Gloves" width="32" height="30" />
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/6/67/Eqp_AbsoLab_Knight_Cape.png/revision/latest?cb=20160719041507" alt="Eqp AbsoLab Knight Cape" width="34" height="33" />
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Eqp_AbsoLab_Saber.png/revision/latest?cb=20160719054959" alt="Eqp AbsoLab Saber" width="33" height="33" />
                 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Absolute_Labs_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Shoe/Glove/Cape/Weapon) AbsoLab Gear]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Etc_Damaged_Black_Heart.png/revision/latest?cb=20170529165211" alt="Etc Damaged Black Heart" width="26" height="29" />
@@ -340,7 +343,7 @@ function BossMatchmaking() {
                 <strong>Hard Mode Only Rewards: </strong><a href="https://maplestory.fandom.com/wiki/Damienroid" target="_blank" rel="noreferrer noopener">[Damienroid Android]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/c/c1/Eqp_Magic_Eyepatch.png/revision/latest?cb=20171208055917" alt="Eqp Magic Eyepatch" width="31" height="20" />
                 <a href="https://maplestory.wiki/GMS/210.1.1/item/1022278" target="_blank" rel="noreferrer noopener">[Magic Eyepatch]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Eqp_AbsoLab_Knight_Helm.png/revision/latest?cb=20150219020652" alt="Eqp AbsoLab Knight Helm" width="34" height="28" />
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Eqp_AbsoLab_Knight_Suit.png/revision/latest?cb=20150830054823" alt="Eqp AbsoLab Knight Suit" width="26" height="32" />
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Eqp_AbsoLab_Knight_Shoulder.png/revision/latest?cb=20160806223349" alt="Eqp AbsoLab Knight Shoulder" width="34" height="33" />
+                <img  src="https://maplestory.io/api/GMS/220/item/1152174/icon" alt="Eqp AbsoLab Knight Shoulder" width="34" height="33" />
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Eqp_AbsoLab_Saber.png/revision/latest?cb=20160719054959" alt="Eqp AbsoLab Saber" width="33" height="33" />
                 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Absolute_Labs_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Hat/Overall/Shoulder/Weapon) AbsoLab Gear]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Use_Bonus_Occult_Cube.png/revision/latest?cb=20190103221114" alt="Use Bonus Occult Cube" width="27" height="27" />
                 <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>
@@ -361,8 +364,8 @@ function BossMatchmaking() {
             <li><strong>Normal Mode and Above Rewards:</strong> <a href="https://maplestory.fandom.com/wiki/Butterfly_Droplet_Stone" target="_blank" rel="noreferrer noopener">[Butterfly Droplet Stone]</a></li>
             <li>
                 <strong>Hard Mode Only Rewards: </strong><a href="https://maplestory.fandom.com/wiki/Lucidroid" target="_blank" rel="noreferrer noopener">[Lucidroid]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/0/02/Eqp_Dreamy_Belt.png/revision/latest?cb=20170924211825" alt="Eqp Dreamy Belt" width="36" height="35" />
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1132308" target="_blank" rel="noreferrer noopener">[Dreamy Belt]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/8/88/Eqp_Arcane_Umbra_Knight_Shoes.png/revision/latest?cb=20170122013051" alt="Eqp Arcane Umbra Knight Shoes" width="26" height="30" />
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Eqp_Arcane_Umbra_Knight_Gloves.png/revision/latest?cb=20170122011728" alt="Eqp Arcane Umbra Knight Gloves" width="30" height="25" />
+                <a href="https://maplestory.wiki/GMS/210.1.1/item/1132308" target="_blank" rel="noreferrer noopener">[Dreamy Belt]</a>, <img  src="https://maplestory.io/api/GMS/220/item/1073158/icon" alt="Eqp Arcane Umbra Knight Shoes" width="26" height="30" />
+                <img  src="https://maplestory.io/api/GMS/220/item/1082695/icon" alt="Eqp Arcane Umbra Knight Gloves" width="30" height="25" />
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/2/22/Eqp_Arcane_Umbra_Saber.png/revision/latest?cb=20161222220021" alt="Eqp Arcane Umbra Saber" width="32" height="32" />
                 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Shoe/Glove/Weapon) Arcane Umbra Gear]</a>
             </li>
@@ -466,7 +469,7 @@ function BossMatchmaking() {
           <ul>
             <li>
                 <strong>Main Rewards:</strong>
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/1/10/Use_Captivating_Fragment.png/revision/latest?cb=20190524152732" alt="Use Captivating Fragment" width="30" height="30" /> [Secondary Weapon Fragment], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Use_Power_Elixir.png/revision/latest?cb=20151109020354" alt="Use Power Elixir" width="32" height="31" /> [Power Elixir], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/6/60/Use_Rebirth_Flame_Lv._140.png/revision/latest?cb=20180414204213" alt="Use Rebirth Flame Lv. 140" width="27" height="33" /> [Rebirth Flame], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube" width="29" height="29" /> [Occult Cube], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Use_Master_Craftsman%27s_Cube.png/revision/latest?cb=20140729054943" alt="Use Master Craftsman's Cube" width="32" height="32" /> [Master Craftsman's
+                <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/10/Use_Captivating_Fragment.png/revision/latest?cb=20190524152732" alt="Use Captivating Fragment" width="30" height="30" /> [Secondary Weapon Fragment], <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Eqp_Hayato%27s_Treasure.png/revision/latest?cb=20181024054825" alt="Eqp Hayato's Treasure" width="31" height="31" /><img src="https://vignette.wikia.nocookie.net/maplestory/images/5/59/Eqp_Kanna%27s_Treasure.png/revision/latest?cb=20181024054842" alt="Eqp Kanna's Treasure" width="31" height="32" /><img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Eqp_Ayame%27s_Treasure.png/revision/latest?cb=20160831005323" alt="Eqp Ayame's Treasure" width="33" height="28" /> [ <a href="https://maplestory.wiki/GMS/210.1.1/item/1152171" target="_blank" rel="noopener noreferrer">Shoulder</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1113155" target="_blank" rel="noopener noreferrer">Ring</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1132275" target="_blank" rel="noopener noreferrer">Belt</a> ], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Use_Power_Elixir.png/revision/latest?cb=20151109020354" alt="Use Power Elixir" width="32" height="31" /> [Power Elixir], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/6/60/Use_Rebirth_Flame_Lv._140.png/revision/latest?cb=20180414204213" alt="Use Rebirth Flame Lv. 140" width="27" height="33" /> [Rebirth Flame], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube" width="29" height="29" /> [Occult Cube], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Use_Master_Craftsman%27s_Cube.png/revision/latest?cb=20140729054943" alt="Use Master Craftsman's Cube" width="32" height="32" /> [Master Craftsman's
                 Cube], <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal" width="32" height="38" /> [Intense Power Crystal]
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -478,7 +481,7 @@ function BossMatchmaking() {
           <p>You must complete the Esfera storyline and defeat Story Mode Will in order to unlock access to Will</p>
           <ul>
             <li>
-                <strong>Normal Mode and Above Rewards: </strong>[Power Elixir], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Use_Rebirth_Flame_Lv._150.png/revision/latest?cb=20180414204510" alt="Use Rebirth Flame Lv. 150" width="27" height="33" /> [Lv. 150 Rebirth Flame], <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Use_Soul_Shard.png/revision/latest?cb=20180112052625" alt="Use Soul Shard" width="29" height="25" /> [Soul Shard], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube" width="29" height="29" /> [Occult Cube], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Etc_Stone_Cobweb_Droplet.png/revision/latest?cb=20180908000107" alt="Etc Stone Cobweb Droplet" width="34" height="36" /> [Stone Cobweb Droplet]
+                <strong>Normal Mode and Above Rewards: </strong>[Power Elixir], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Use_Rebirth_Flame_Lv._150.png/revision/latest?cb=20180414204510" alt="Use Rebirth Flame Lv. 150" width="27" height="33" /> [Lv. 150 Rebirth Flame], <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Use_Soul_Shard.png/revision/latest?cb=20180112052625" alt="Use Soul Shard" width="29" height="25" /> [Soul Shard], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube" width="29" height="29" /> [Occult Cube], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Etc_Stone_Cobweb_Droplet.png/revision/latest?cb=20180908000107" alt="Etc Stone Cobweb Droplet" width="34" height="36" /> [Stone Cobweb Droplet], <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal" width="32" height="38" /> [Intense Power Crystal], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/d/da/Etc_Crusader_Coins.png/revision/latest?cb=20170331044758" alt="Etc Crusader Coins" width="27" height="25" /> [Crusader Coins]
             </li>
             <li>
                 <strong>Hard Mode Only Rewards: </strong>
@@ -487,11 +490,11 @@ function BossMatchmaking() {
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Eqp_Cursed_Green_Spellbook.png/revision/latest?cb=20180702022320" alt="Eqp Cursed Green Spellbook" width="37" height="37" />
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Eqp_Cursed_Yellow_Spellbook.png/revision/latest?cb=20180702022434" alt="Eqp Cursed Yellow Spellbook" width="38" height="36" />
                 <a href="https://maplestory.wiki/GMS/210.1.1/item/1162080" target="_blank" rel="noreferrer noopener">[Cursed Spellbook]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/9/97/Eqp_Arcane_Umbra_Knight_Hat.png/revision/latest?cb=20161208043106" alt="Eqp Arcane Umbra Knight Hat" width="37" height="36" />
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Eqp_Arcane_Umbra_Knight_Shoulder.png/revision/latest?cb=20161209035635" alt="Eqp Arcane Umbra Knight Shoulder" width="32" height="27" />
+                <img  src="https://maplestory.wiki/GMS/220/item/1152196" alt="Eqp Arcane Umbra Knight Shoulder" width="32" height="27" />
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Eqp_Arcane_Umbra_Knight_Suit.png/revision/latest?cb=20161209231322" alt="Eqp Arcane Umbra Knight Suit" width="26" height="31" />
                 <img  src="https://vignette.wikia.nocookie.net/maplestory/images/2/22/Eqp_Arcane_Umbra_Saber.png/revision/latest?cb=20161222220021" alt="Eqp Arcane Umbra Saber" width="32" height="32" />
                 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Hat/Shoulder/Overall/Weapon) Arcane Umbra Gear]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Use_Mirror_World_Nodestone.png/revision/latest?cb=20181002064218" alt="Use Mirror World Nodestone" width="38" height="38" />
-                <a href="https://maplestory.fandom.com/wiki/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal" width="32" height="38" /> [Intense Power Crystal], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/d/da/Etc_Crusader_Coins.png/revision/latest?cb=20170331044758" alt="Etc Crusader Coins" width="27" height="25" /> [Crusader Coins]
+                <a href="https://maplestory.fandom.com/wiki/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450007200" target="_blank" rel="noreferrer noopener">Esfera: Radiant Temple</a></li>
@@ -503,6 +506,37 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: 3 times daily</li>
             <li><strong>Location</strong>: Accessible from the Boss Matchmaking System directly</li>
+          </ul>
+          <h2 id="akechi"><img src="https://maplestory.io/api/GMS/220/map/874000005/icon" alt="Ritual Altar Icon"/> Akechi Mitsuhide</h2>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
+          <hr/>
+          <p><strong>[Normal Level 200+]</strong></p>
+          <p>You must complete the Asura Crisis storyline starting with the quest from your Lightbulb icon called "[The Asura Crisis] Back to Momijigaoka" at Lv. 200</p>
+          <ul>
+            <li><strong>Main Rewards: </strong><img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube"/><a href="https://maplestory.fandom.com/wiki/Occult_Cube" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Use_Bonus_Occult_Cube.png/revision/latest?cb=20190103221114" alt="Use Bonus Occult Cube"/><a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Use_Power_Elixir.png/revision/latest?cb=20151109020354" alt="Use Power Elixir"/><a href="https://maplestory.fandom.com/wiki/Power_Elixir">[ Power Elixir]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal"/><a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a><img src="https://maplestory.io/api/GMS/220/item/1302364/icon" alt="Eqp Wolf Weapon"/><img src="https://maplestory.io/api/GMS/220/item/1402274/icon" alt="Eqp Wolf Weapon"/><a href="https://maplestory.fandom.com/wiki/Equipment_Set/Amaterasu_Set" target="_blank" rel="noopener noreferrer">[Japanese Wolf Weapons]</a>, <img src="https://maplestory.io/api/GMS/220/item/4310295/icon" alt="Mark of the Silver Wolf"/> [Mark of the Silver Wolf]</li>
+            <li><strong><strong>Can clear</strong>:</strong> Weekly</li>
+            <li><strong><strong>Location</strong>: </strong><a href="https://maplestory.wiki/GMS/220/map/800000000" target="_blank" rel="noopener noreferrer">Mushroom Shrine</a></li>
+          </ul>
+          <h2 id="yakuza"><img src="https://maplestory.io/api/GMS/220/map/800023024/icon" alt="Showa Town Map Icon"/> Yakuza Boss</h2>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
+          <hr/>
+          <p><strong>[Normal Level 160+]</strong></p> 
+          <p>You must complete a series of quest starting from "[Showa Town] Welcome to Showa Town!" from the Lightbulb icon at Lv. 160. The last quest you need to complete is "Investigating Fire Raccoon Finance"</p>
+          <ul>
+            <li><strong>Main Rewards:</strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal"/><a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="https://maplestory.io/api/GMS/220/item/1402211/icon" alt="Eqp Terminus Divider"/><img src="https://maplestory.io/api/GMS/220/item/1472227/icon" alt="Eqp Terminus Executioner"/><img src="https://maplestory.io/api/GMS/220/item/1092113/icon" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="https://maplestory.io/api/JMS/393/item/2631425/icon" alt="Showa Town Damage Skin"/><img src="https://maplestory.io/api/JMS/393/item/2631513/icon" alt="Fire Racoon Damage Skin"/> [Damage Skins]</li>
+            <li><strong>Can clear</strong>: Daily</li>
+            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/220/map/801040003" target="_blank" rel="noopener noreferrer">Showa Town: Parlor</a></li>
+          </ul>
+          <h2 id="gigatoad"><img src="https://maplestory.io/api/GMS/220/map/231050000/icon" alt="Mushroom Shrine Icon"/> Gigatoad</h2>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
+          <hr/>
+          <p><strong>[Normal &amp; Frenzied Level 160+]</strong></p>
+          <p>No pre-quests</p>
+          <ul>
+            <li><strong>Normal Mode and Above Rewards:</strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal"/><a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="https://maplestory.io/api/GMS/220/item/1402211/icon" alt="Eqp Terminus Divider"/><img src="https://maplestory.io/api/GMS/220/item/1472227/icon" alt="Eqp Terminus Executioner"/><img src="https://maplestory.io/api/GMS/220/item/1092113/icon" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="https://maplestory.io/api/GMS/220/item/1382045/icon" alt="Eqp Elemental Staff 1"/><img src="https://maplestory.io/api/GMS/220/item/1382046/icon" alt="Eqp Elemental Staff 2"/>[Elemental Staves], <img src="https://grandislibrary.files.wordpress.com/2021/03/toad-1.png" alt="Toad Pet Coupon"/> [(30 Day) Toad Pet Coupon], <img src="https://grandislibrary.files.wordpress.com/2021/03/ninja-castle-damage-skin.png" alt="Ninja Castle Damage Skin"/> [Damage Skin]</li>
+            <li><strong><strong>Frenzied Mode Only Rewards: </strong></strong><img src="https://maplestory.io/api/GMS/220/item/2049000/icon" alt="Clean Slate Scroll"/>[Clean Slate Scroll], <img src="https://maplestory.io/api/GMS/220/item/2512292/icon" alt="Exp Accumulation Potion Recipe"/> [EXP Accumulation Potion Recipe], <img src="https://maplestory.io/api/GMS/220/item/2512293/icon" alt="Wealth Acquisition Potion Recipe"/> [Wealth Acquisition Potion Recipe], <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Use_Soul_Shard.png/revision/latest?cb=20180112052625" alt="Soul Shard"/> [Soul Shard], <img src="https://grandislibrary.files.wordpress.com/2021/03/golden-toad.png" alt="Golden Toad Sculpture"/> [Golden Toad Sculpture]</li>
+            <li><strong><strong>Can clear</strong>:</strong> 3 times daily</li>
+            <li><strong><strong>Location</strong>: </strong>Accessible from Ninja Castle</li>
           </ul>
         </div>
       </ContentPage>

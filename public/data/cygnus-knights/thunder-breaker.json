@@ -89,9 +89,9 @@
             "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Lightning_Punch.png/revision/latest?cb=20130122071659' alt='Skill Lightning Punch'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Flash.png/revision/latest?cb=20130122071913' alt='Skill Flash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Shark_Sweep.png/revision/latest?cb=20130122073101' alt='Skill Shark Sweep'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Tidal_Crash.png/revision/latest?cb=20130122073231' alt='Skill Tidal Crash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Ascension.png/revision/latest?cb=20130122075906' alt='Skill Ascension'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037' alt='Skill Thunder'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Annihilate.png/revision/latest?cb=20170910003335' alt='Skill Annihilate'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Thunderbolt.png/revision/latest?cb=20170910005211' alt='Skill Thunderbolt'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Deep_Rising.png/revision/latest?cb=20130123175806' alt='Skill Deep Rising'>"
         },
         "moreInfo": [
-            "http://maplestory.nexon.net/game/classes-and-jobs/3370/dawn-warrior",
-            "https://maplestory.fandom.com/wiki/Dawn_Warrior",
-            "https://dexless.com/guides/dawn-warrior-guide.30/"
+            "http://maplestory.nexon.net/game/classes-and-jobs/3396/thunder-breaker",
+            "https://maplestory.fandom.com/wiki/Thunder_Breaker",
+            "https://docs.google.com/document/d/1qFFG8ayqJybQ3_eLWGc2u7gDV3jzWwfj5gewnaexwGY"
         ],
         "credits": [
             ["Skill Icons", "MapleWiki"],
@@ -105,6 +105,9 @@
             [
                 "Beginner", [{
                     "id": 10001244,
+                    "name": "Elemental Slash",
+                    "shortDesc": "MP Cost: 0, Damage: 130%, Number of Attacks: 1, Max Enemies Hit: 3",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Elemental_Slash.png/revision/latest?cb=20130525122036"],
                     "animations": ["https://media1.giphy.com/media/5irbTpJkg7qZanOLzB/giphy.gif"],
                     "type": "Attack",
@@ -112,22 +115,34 @@
                 },
                 {
                     "id": 10001245,
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
                     "animations": ["https://media1.giphy.com/media/IAZoN72DI12njaflIG/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 10000246,
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Strength increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Elemental_Harmony.png/revision/latest?cb=20130525122047"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000250,
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Elemental_Expert.png/revision/latest?cb=20130525122051"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000252,
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058"],
                     "animations": ["https://media2.giphy.com/media/Wy7uJDa5nDkhvwq9Yq/giphy.gif"],
                     "type": "Passive",
@@ -140,6 +155,9 @@
             [
                 "1st Job", [{
                         "id": 15001020,
+                        "name": "Lightning Punch",
+                        "shortDesc": "MP Cost: 21, Damage: 160%, Number of Attacks: 2, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Lightning_Punch.png/revision/latest?cb=20130122071659"],
                         "animations": ["https://media3.giphy.com/media/QfO9D3SLCRkXUnYQ3K/giphy.gif"],
                         "type": "Attack",
@@ -150,6 +168,9 @@
                     },
                     {
                         "id": 15001021,
+                        "name": "Flash",
+                        "shortDesc": "MP Cost: 9, Max Enemies Hit: 4 Damage: 310%, Number of Attacks: 1. Teleports the distance of 300 when there are no enemies in range.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Flash.png/revision/latest?cb=20130122071913"],
                         "animations": ["https://media1.giphy.com/media/LD0Djkk3KSA6nk62zy/giphy.gif"],
                         "type": "Attack",
@@ -161,6 +182,9 @@
                     },
                     {
                         "id": 15001022,
+                        "name": "Lightning Elemental",
+                        "shortDesc": "MP Cost: 20, Duration: 180 sec. Chance to create Lightning Charge: 10%, Buff Duration: 30, Monster DEF Ignored: 5%. Max Stacks: 1.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
                         "animations": ["https://media3.giphy.com/media/rkceNDqVFh7OCLO2no/giphy.gif"],
                         "type": "Buff",
@@ -168,6 +192,9 @@
                     },
                     {
                         "id": 15000023,
+                        "name": "Electrified",
+                        "shortDesc": "Chance to create Lightning Charge: +20%, Max Charges: +1, Speed: +40, Jump: +20, Speed Limit: +20.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Electrified.png/revision/latest?cb=20130122072352", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -181,6 +208,9 @@
                 [
                 "2nd Job", [{
                         "id": 15101020,
+                        "name": "Shark Sweep",
+                        "shortDesc": "MP Cost: 31, Damage: 155%, Number of Attacks: 4, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Shark_Sweep.png/revision/latest?cb=20130122073101"],
                         "animations": ["https://media4.giphy.com/media/M2sdeddbjNHX45TZiq/giphy.gif"],
                         "type": "Attack",
@@ -191,6 +221,9 @@
                     },
                     {
                         "id": 15101021,
+                        "name": "Tidal Crash",
+                        "shortDesc": "MP Cost: 20, Max Monsters Hit: 8, Number of Attacks: 2, Damage: 255%, moving enemies back.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Tidal_Crash.png/revision/latest?cb=20130122073231"],
                         "animations": ["https://media4.giphy.com/media/h1HvghS9pqnPg1e5F4/giphy.gif"],
                         "type": "Attack",
@@ -201,6 +234,9 @@
                     },
                     {
                         "id": 15101022,
+                        "name": "Knuckle Booster",
+                        "shortDesc": "MP Cost: 11, Knuckle Attack Speed increased for 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Knuckle_Booster.png/revision/latest?cb=20110507035507"],
                         "animations": ["https://media0.giphy.com/media/tA5J3u0CZgvuD5vUgZ/giphy.gif"],
                         "type": "Buff",
@@ -208,16 +244,25 @@
                     },
                     {
                         "id": 15100023,
+                        "name": "Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
                         "type": "Passive"
                     },
                     {
                         "id": 15100024,
+                        "name": "Gains",
+                        "shortDesc": "Permanent STR: +60",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Gains.png/revision/latest?cb=20130122073642"],
                         "type": "Passive"
                     },
                     {
                         "id": 15100025,
+                        "name": "Lightning Boost",
+                        "shortDesc": "Lightning Charge Chance: +20%, Max Charges: +1, Attack Power: +20",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Lightning_Boost.png/revision/latest?cb=20130122074447", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -231,6 +276,9 @@
                 [
                 "3rd Job", [{
                         "id": 15111020,
+                        "name": "Ascension",
+                        "shortDesc": "MP Cost: 41, Damage: 225%, Number of Attacks: 5, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Ascension.png/revision/latest?cb=20130122075906"],
                         "animations": ["https://media2.giphy.com/media/kl1r4J5Q1xPuvP0IQ6/giphy.gif"],
                         "type": "Attack",
@@ -241,6 +289,9 @@
                     },
                     {
                         "id": 15111021,
+                        "name": "Thunder",
+                        "shortDesc": "MP Cost: 37, Damage: 170%, Number of Attacks: 4, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Thunder.png/revision/latest?cb=20130122080037"],
                         "animations": ["https://media2.giphy.com/media/YU2hIjO8FtNEMyzSQP/giphy.gif"],
                         "type": "Attack",
@@ -252,6 +303,9 @@
                     },
                     {
                         "id": 15111022,
+                        "name": "Gale",
+                        "shortDesc": "MP Cost: 65, Max Enemies Hit: 6, Damage: 381%, Number of Attacks: 3. Available only after accumulating 3 Lightning Charges. Damage Bonus Per Lightning Charge: 4%, Duration: 60 sec. This skill does not generate Lightning Charges.\\nCooldown: 20 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207"],
                         "animations": ["https://media3.giphy.com/media/WnCm9zdboew3IuyqWQ/giphy.gif"],
                         "type": "Attack",
@@ -263,21 +317,33 @@
                     },
                     {
                         "id": 15110023,
+                        "name": "Seawall",
+                        "shortDesc": "Abnormal Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Seawall.png/revision/latest?cb=20160627045143"],
                         "type": "Passive"
                     },
                     {
                         "id": 15110024,
+                        "name": "Ironclad",
+                        "shortDesc": "Damage: +5%, Damage Taken: -10%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Ironclad.png/revision/latest?cb=20160627045701"],
                         "type": "Passive"
                     },
                     {
                         "id": 15110025,
+                        "name": "Link Mastery",
+                        "shortDesc": "Final Damage increased 20% on Linked Attack.",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Link_Mastery.png/revision/latest?cb=20181014055246"],
                         "type": "Passive"
                     },
                     {
                         "id": 15110026,
+                        "name": "Lightning Lord",
+                        "shortDesc": "Lightning Charge Chance: +30%, Max Charges: +1, Attack Power: +30",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Lightning_Lord.png/revision/latest?cb=20130122080955", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -291,6 +357,9 @@
                 [
                 "4th Job", [{
                     "id": 15121000,
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
                     "animations": ["https://media3.giphy.com/media/BPohzVfkrMfsDBMSXr/giphy.gif"],
                     "type": "Party Buff",
@@ -301,6 +370,9 @@
                 },
                 {
                     "id": 15121001,
+                    "name": "Annihilate",
+                    "shortDesc": "MP Cost: 60, Damage: 350%, Number of Attacks: 7, Enemies Hit: 1",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Annihilate.png/revision/latest?cb=20170910003335"],
                     "animations": ["https://media1.giphy.com/media/vnTgyhQ7DKdnabteLi/giphy.gif"],
                     "type": "Attack",
@@ -311,6 +383,9 @@
                 },
                 {
                     "id": 15121002,
+                    "name": "Thunderbolt",
+                    "shortDesc": "MP Cost: 75, Damage: 320%, Number of Attacks: 5, Max Enemies Hit: 8",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Thunderbolt.png/revision/latest?cb=20170910005211"],
                     "animations": ["https://media4.giphy.com/media/FKbPuYnEZooNnTsAPc/giphy.gif"],
                     "type": "Attack",
@@ -321,6 +396,9 @@
                 },
                 {
                     "id": 15120003,
+                    "name": "Typhoon",
+                    "shortDesc": "MP Cost: 49, Max Enemies Hit: 8, Damage: 390%, Number of Attacks: 5. Available only after accumulating 2 Lightning Charges. Damage Bonus Per Lightning Charge: 7%, Duration: 90 sec. This skill does not generate Lightning Charges.\\nCooldown: 10 sec.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Typhoon.png/revision/latest?cb=20170910005622"],
                     "animations": ["https://media1.giphy.com/media/eovAJz25VZvMV6DVR3/giphy.gif"],
                     "type": "Passive",
@@ -328,6 +406,9 @@
                 },
                 {
                     "id": 15121004,
+                    "name": "Arc Charger",
+                    "shortDesc": "MP Cost: 80, Duration: 180 sec, Grants all attacks an additional hit inflicting 70% of Final Damage.\\nCooldown: 180 sec, Cooldown reduced by -6 sec per remaining Lightning Charge.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Arc_Charger.png/revision/latest?cb=20170910010910"],
                     "animations": ["https://media3.giphy.com/media/lqNqC0DsrePHusvVEz/giphy.gif"],
                     "type": "Buff",
@@ -340,6 +421,9 @@
                 },
                 {
                     "id": 15121005,
+                    "name": "Speed Infusion",
+                    "shortDesc": "HP Cost: 40, MP Cost: 40, Attack Speed Increase Duration: 300 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Speed_Infusion.png/revision/latest?cb=20110508020039"],
                     "animations": ["https://media3.giphy.com/media/AT4pBfbtzZbSl55eUM/giphy.gif"],
                     "type": "Party Buff",
@@ -347,6 +431,9 @@
                 },
                 {
                     "id": 15120006,
+                    "name": "Knuckle Expert",
+                    "shortDesc": "Knuckle Mastery: +70%. Attack Power: +30, Critical Damage: +20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -357,11 +444,17 @@
                 },
                 {
                     "id": 15120007,
+                    "name": "Electrify",
+                    "shortDesc": "Max HP: 20%, Avoidability: +20%, Damage Intake: -20%",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Electrify.png/revision/latest?cb=20170910012937"],
                     "type": "Passive"
                 },
                 {
                     "id": 15120008,
+                    "name": "Thunder God",
+                    "shortDesc": "Lightning Charge Chance: +30%, Max Charges: 1. Critical Rate: +30%, Critical Damage: +25%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Thunder_God.png/revision/latest?cb=20170910013037", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -377,54 +470,81 @@
             "hyperPassive": [
                 {
                     "id": 15120043,
+                    "name": "Gale - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Gale_-_Reinforce.png/revision/latest?cb=20140425191046"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 15120044,
+                    "name": "Gale - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Gale_-_Spread.png/revision/latest?cb=20140425191051"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 15120045,
+                    "name": "Gale - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Gale_-_Extra_Strike.png/revision/latest?cb=20140425191055"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 15120046,
+                    "name": "Thunderbolt - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Thunderbolt_-_Reinforce.png/revision/latest?cb=20140425191059"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 15120047,
+                    "name": "Thunderbolt - Spread",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Thunderbolt_-_Spread.png/revision/latest?cb=20140425191104"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 15120048,
+                    "name": "Thunderbolt - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Thunderbolt_-_Extra_Strike.png/revision/latest?cb=20140425191108"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 15120049,
+                    "name": "Annihilate - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Annihilate_-_Reinforce.png/revision/latest?cb=20140425191112"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 15120050,
+                    "name": "Annihilate - Guardbreak",
+                    "shortDesc": "Monster DEF ignored increased 20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Annihilate_-_Guardbreak.png/revision/latest?cb=20140425191117"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 15120051,
+                    "name": "Annihilate - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Annihilate_-_Boss_Rush.png/revision/latest?cb=20140425191120"],
                     "type": "Passive",
                     "reqLev": 190
@@ -433,6 +553,9 @@
             "hyperActive": [
                 {
                     "id": 15121054,
+                    "name": "Primal Bolt",
+                    "shortDesc": "MP Cost: 200, For 30 sec, no Lightning Charges are consumed, Gale's cooldown isn't applied, and required Lightning Charges are ignored.\\nCooldown: 120 sec\\n[Passive Effects] Each Lightning Charge grants Ignore Enemy DEF 9%, Final Damage: +20%.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Primal_Bolt.png/revision/latest?cb=20170707160705"],
                     "animations": ["https://media4.giphy.com/media/5hKYoyuGoLNcbLMI9y/giphy.gif"],
                     "type": "Buff",
@@ -445,6 +568,9 @@
                 },
                 {
                     "id": 15121052,
+                    "name": "Deep Rising",
+                    "shortDesc": "MP Cost: 350, Max Enemies Hit: 15, Damage: 860%, Number of Attacks: 7. Invincible during casting.\\nCooldown: 45 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Deep_Rising.png/revision/latest?cb=20130123175806"],
                     "animations": ["https://media3.giphy.com/media/mLTX27xjvKforRTChv/giphy.gif"],
                     "type": "Attack",
@@ -457,6 +583,9 @@
                 },
                 {
                     "id": 11121053,
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Cygnus class or Mihile in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Glory_of_the_Guardians_%28Thunder_Breaker%29.png/revision/latest?cb=20160605205818"],
                     "animations": ["https://media2.giphy.com/media/6pJR998LjgYLjsNPQK/giphy.gif"],
                     "type": "Buff",

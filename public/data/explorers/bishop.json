@@ -95,7 +95,7 @@
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/2893/magician",
-            "https://maplestory.fandom.com/wiki/Magician"
+            "https://maplestory.fandom.com/wiki/Bishop"
         ],
         "credits": [
             ["Skill Icons + Attribute Info", "MapleWiki"],
@@ -116,8 +116,8 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/qeIExni.png"],
-                    "animations": ["https://media0.giphy.com/media/iQbTHc5S139KKIVeEv/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC/0lEQVR4nL1XAZGrMBBdZmoAC/kSqAQqgUoACSABJBAJjYRDApHQSCgS+NnA0gQIF64zXW4OEkL27du3S7mAayN8xyK6sAGMP/3zK95v138jgSAAxnmasFMbDcPgjOM4DnpuHEeIosiAuPzFOTlWSjnzjLFgIPWjh+p+HS9w0tA5Ob5er869vu8XIKFsnAJAzslx2bbmrKR0ACGQUBDBAGznz+cTeNcZxwO8dZDmGS40a0JBBAE4dG4JkS6TNF1AJEnyOQDbupluF+D7AsHaUa/HpwHY0bePBygcW9Eb5zOCwTrbLByl4hQDnab+CChakqUaoILAIjgHoC5LkwJkQcotGOO8kxPtgX3lEMBafPeiWEour2sDYlBqohfTsWpMHwOwrWoaZ8yrCtIsA6YjRconwO/7MfuQAbvj/WbIgNGiXk/PqIYv93HOJ8RdAJuOV/9AU90gy/NpwzkNnRCGBdDBSj5pos3KeQ+3XfuqYQPAyfvrBZxLkMqtfaabi7QqouMCXlojouLGsf2OLNPM7OkrSQeA1znWdZaD4BzWhnNr5+vXNFqe7HdHrwa6bpv/REeDAA29lhNRCd82Bgwe6+64AeB2vF5fD0v0765HGzE9M4Fosxqf3kS/nOE9tlk4ZEAEdLwsL0E0lR5L/9rZecoS07z2bBdAW+cmBYaFnY6HyicR5m09p2BYlO+s1c4lsqMBsHjbGxYAtvhu9wIG6nhla0CoYep4lCql51B8lV4r59rPUSN42Gs9kXsZKCpX6bwpTAUwpJHKcd6UF5W7thOQaYVjpGqHDRbaiHxGSg7pkLE+8I+A+HSwAMAGgerENKR5jRpf0iAFNyzEqH4tOvPrV0da6fk6xU7IljQI/QyyAHMKKO+oA7xHzQjm9YcMxHoj1W1r3FTCKppEb8pnwWbwbjRUCbbz3U6IkzYLZFSz65/gdO/M2l/fBTaIvQ3Wdnat720Y4bcafR0RiBA7u5asERK/ivAyIgYMCPxc+oaRc/xnpyDCbzX4ji2f5/8BSxxCgTxgn7sAAAAASUVORK5CYII="],
+                    "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
@@ -127,8 +127,8 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/GpKcy63.png"],
-                    "animations": ["https://media0.giphy.com/media/Qwibn1TC8THVjnCtgy/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVR4nL1Xi5GDIBDFmTRASjAlnCXEEmIJZwlnCZcSvBJiCVqClJC0QAkeS7KKggtGJm8yBvnt4+2ywoHNMbDPIMGCSWBo+/tHrOfZaUASSEAbP3+luydPknFxbBjcgkK96qdJHGIaR/xezqxqOrrPrWdVkQ0HFgnmyvmibk0JQDQCgPr7YpXLv4YcE5UAGrv9XFhxbVgIVgmYkiIoKe99q/9PWT76AOo4p2OLVKCt67GclyU5EZNTsaiaqY4zEl4XiC5MSrVU/dff6hcZyUIwI+CSfa196Q6wLyV7Ss6fBHiaqndaAksBU3Y9saPe6Q5lmCujuG6f71cJgMVHZySR1woegk4sx+PRWU8FrpOAJ2ZILNXzBq6LQFZMgyCgxGvlZeC+Dg5aFwHcywDcz9zRLh+CxcKMANdhpE2YlQvQTtrqwrkLUkXBsJ3lcx9iZJ+KSj2rIAO+jGopAD/gcG/b+ShoMva0TjguePqYMWYRwMHwlLosjSYMiMmA6Oit6Wu3CUzm7Aym3/ds0k0EUG6PwQh81j9Gnhy+9CUAfG5mzJAzwVsHEjNfIMxzgK/vbgKbpN97HnDPmVKN4X3fJsDDJdh8Hgic1Vm9zJxU330EHPAFG0Uggbva3ttR6AkIcG0E3IqgmKACmgRcl6JD2J9uNA4P0wUJ3NXYZzB+Iv8Bbq6jgAlpMSsAAAAASUVORK5CYII="],
+                    "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
                     "type": "Buff"
                 },
                 {
@@ -137,8 +137,8 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
-                    "animations": ["https://media3.giphy.com/media/UDgSwjudB1qmbUEz4E/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACx0lEQVR4nL1XgZGbMBCUZ9yAvgRSAl8CKYGU4Bb8JZgWKCGUEEp4SgglvEpwtJJWOgkZ+2di7xiQsXy7d9zpxFHluKrX4MCBFHD98/n3Jew/339cKYICHHnXNv+dzITTMAzqfD67e19fV/X2dnAijs8kpwLjZQQRJzvS6vL7U338er8e1RNhQG5P4zg6Yq21+vigCI+nCTCMfQDI89+eKIDkuNJ7f9+48TCMSrfd4wKoWDhRnydOkhzeG+m2wK4Ak5+sEb0vgglXeE5AyDRNjwugwcb+cV2NNQAhWwUy5MA4JXI+e5J3XaeWZXxQgEUTDDSND2MpoUZ+sfVehhzkTdOoeZ6z+3cFwBDUr7iCOiigfUhCuPv+ZEk8uZ+bvAd53/fuuiyrOp3sXHu9K0Br/9xNMFjzGuTxZqh7SY7vJC/D/1AEghRJH/MS5JfL2RnHgXEZevnsUX7wXibyN9YBEw0AzPJaeeWLjnHkOiufNN4vQz7nsJxyXENrewnzRc7jdyzBpfe7AkpyGequ66Nxelh6LscgRx6k3+4IKDO8fLbzPMU6R1ltQ5zAhYdXtuRdAaQXvSQS9b3vaDQqPUsOmFjvqH0c0zRvVsZdAeCueQ/geVNQSSzFAuu6OnKfvPrxHFBG7aIWdn5nVCCI5Ld6yLfb8a2wEzJasWwdeb2RbQSUGwkJhPYWOYgRbhxLWGYJHeeo/UdgxMQ86/cznXPbtnUHNG7rvt7Sj8lIboxL672QOw+LmgcSuVbsG7GjmhsroVzxmP2+gSzOsz1IYnDqYt8Acoqt7gmxZSYxxSCJkoH6tp1z2CN0JeFiR41bsxsRkM0FhnuEsSAqURKHT4bU1rfiogDuVjPDwtgJq1hRHMlQnbg+NwcEHPCuhrcjv06TRfwDxuvbwbs75RqGacFbEYYHRsCJwOvSK0BynGQOHPCupl6D+Hr+Dx893LO6fTh1AAAAAElFTkSuQmCC"],
+                    "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
                     "type": "Buff"
                 },
                 {
@@ -147,8 +147,8 @@
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
-                    "animations": ["https://media2.giphy.com/media/VkUPUvrfEFZN52asVv/giphy.gif"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAELUlEQVR4nL1X77WqMAwP57hAHQFHgBFwBByBO4KO4B1BR5ARZAQdQUawI/QlTUJThPvel3dzDra0afLLX+oGcgrwO1ToxAII98cLHE48Pv9v9FDXdVAQCiA8UHnl9oYVZnNY2Vsb1/kvtzt8HfYRxEYtT8ohjfGMrkG+Z+flC2Cs0/sTFVXlKn9XnQAExCYtO36iUrEkgvdmff6O8/Jh5Dte6/Fp3DK/CFK/bPLDIsCViVmFekGge/Re3o11uD4MAFfcu6N3DxjiBpfbljFEecjj6GwZhwmAVw9EHaWsKDMkpQoyOuv2GZkKNd5wskflt1a86JNcJ8BJjiCQEKhrdEOUqAfUchAQ7gIfRNY3HfO0jg1Q/kluOSnW3Nok+DYBlzIbzIj03KLFb55fcd7h/IqWt2d8uhVZYIAthUCZ3RGH72UhDoU/UVEVEghV3l1Mos1LcLk88yqwZUcgIvUp/k8sn6rLlSt1uOavuZei+7v0rvuOqiALgSYYfNJwwNhSz8AYlxz7otBOOnVUCCEkI6DNZajHjJGzKjA5MO87qDeWE/04Vs7KDMvoF9cnqmT9ScbcJSIfIQBxmUrdckO54OFTEY0qalhU0pQO7q/3zyDgiYzStK77qYxTCEBaZ49aWoxt82bLSflZhRawSt7DX4nyq9/FfOmwcr4gCwHwJuYcuC0DiOY5+CdyP/GNMMW/e8WKuTrqonsTArKclN/Q2i+yVEDQQxn/d/N+WBdwHuU4LlvfD3FpkzMuEOXCwN2N4juP8zCO0bX7ercSf1buUbkjA1v0ssN7h+2E1WisJ7oYLww5MAVBSaf9YV9vZ8rVY+/p3VFCU6+ghtXspnbOHujXrPecgCdOvlT/GL3dNoKg0e4xEM/9q0XFBMJ2YqG8Ed0WXHfJ14raf7p4ZMupD6g3OESs0JEBTcG9pJWz5IXvAo7tAU6Q3wmXCa0vvmFSRBZHIKP0iZY88Io5QB65P6gfIA8lOXXQfqV0e9OI4uVhyQtGOVVCg44LD8dVQdYdOaYNxjS8yaW7aHlsShGosdzSMUzy10NAdGZ3JdT0I5/So3GpWhkvJeb8UMh3ZJ0YAN1gNEmmPgCf3wUFdZq51QsQUmgPURMjcEteEMMYQCfabDW0LCg08gG6G8HnmcAuJCDAFfIOTvrHigeOIYVgwGt1E6/RBedD51IrJhAkg+JOoE5FHgIiDYG07RDEGHolr6hd7SykkN0JhYFAGOUTVaYlH2dWtTYP6OxWrgTmjqENzSlQfD9ld0IjTGnYLoOxXrgu5Ys5o+vNVrogXeffcI3fAv4YFXW9479m078ZSMljQcQrmCSabdH02Y635QWwkT/wXlvEkZTjv6K4qY0ogqD/bKlv4oUhorzIaNZpLD2v08XiqZdMy2f5dZ3k96j8oMiyTljIH8bfoCkT/wAXlggNeeq6hwAAAABJRU5ErkJggg=="],
+                    "animations": ["https://media1.giphy.com/media/9CMy7sLPg8PkWApcjD/giphy.gif"],
                     "type": "Active"
                 }]
             ],
@@ -156,6 +156,9 @@
                 "1st Job", [
                     {
                         "id": 2001008,
+                        "name": "Energy Bolt",
+                        "shortDesc": "MP Cost: 24, Damage: 309%, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Energy_Bolt.png/revision/latest?cb=20140409055248"],
                         "animations": ["https://media.giphy.com/media/Qy80HxOG1aC4MBDyIL/giphy.gif"],
                         "type": "Attack",
@@ -163,6 +166,9 @@
                     },
                     {
                         "id": 2001002,
+                        "name": "Magic Guard",
+                        "shortDesc": "MP Cost: 13, Damage Displaced: 85% of your MP, Duration: While the skill is activated",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158"],
                         "animations": ["https://media4.giphy.com/media/TcWUHRjSSskegm8p65/giphy.gif"],
                         "type": "Toggle Buff",
@@ -173,6 +179,9 @@
                     },
                     {
                         "id": 2001009,
+                        "name": "Teleport",
+                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 170, and up and down with 275",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454"],
                         "animations": ["https://media.giphy.com/media/L133pkHETSckyF8WQs/giphy.gif"],
                         "type": "Active",
@@ -183,11 +192,17 @@
                     },
                     {
                         "id": 2000010,
+                        "name": "Magic Armor",
+                        "shortDesc": "Defense: +100",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Magic_Armor.png/revision/latest?cb=20150915081824"],
                         "type": "Passive"
                     },
                     {
                         "id": 2000006,
+                        "name": "MP Boost",
+                        "shortDesc": "Max MP: +20%, MP increases by 120 per level\\nCritical Rate: +5% when equipped with a Wand",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_MP_Boost.png/revision/latest?cb=20110422142449"],
                         "type": "Passive"
                     }]
@@ -196,6 +211,9 @@
                 "2nd Job", [
                     {
                         "id": 2301005,
+                        "name": "Holy Arrow",
+                        "shortDesc": "MP Cost: 36, Damage: 518%, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Holy_Arrow.png/revision/latest?cb=20140410053243"],
                         "animations": ["https://media.giphy.com/media/KdrITsT1kMj1QRQL7d/giphy.gif"],
                         "type": "Attack",
@@ -206,6 +224,9 @@
                     },
                     {
                         "id": 2300009,
+                        "name": "Blessed Ensemble",
+                        "shortDesc": "Including yourself, increases final damage by 2% in proportion to the number of nearby party members you have buffed. 20% bonus EXP fo each Cleric in the party.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Blessed_Ensemble.png/revision/latest?cb=20130706133806"],
                         "type": "Passive",
                         "desc": "Increases your %Final Damage for every nearby party member you have buffed",
@@ -215,6 +236,9 @@
                     },
                     {
                         "id": 2301002,
+                        "name": "Heal",
+                        "shortDesc": "MP Cost: 24, Recovery: 300%, Heal's Cooldown per Party Member Healed: -2 sec, Duration: 2 sec, Max Number of Nearby Monsters: 6, Final Damage: +10%, Max Number of Undead Monsters: 6, Damage: 410%\\nCooldown: 4 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Heal.png/revision/latest?cb=20140410201143"],
                         "animations": ["https://media4.giphy.com/media/3RuhUBTnpAkJTsOZlF/giphy.gif"],
                         "type": "Party Heal",
@@ -227,12 +251,18 @@
                     },
                     {
                         "id": 2301004,
+                        "name": "Bless",
+                        "shortDesc": "MP Cost: 20, Attack Power: +15, Magic ATT: +15, DEF: +300, Duration: 240 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Bless.png/revision/latest?cb=20110423022004"],
                         "animations": ["https://media2.giphy.com/media/1tFfCXoMBW1LK6r6Ve/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 2301008,
+                        "name": "Magic Booster",
+                        "shortDesc": "MP Cost: 20, Weapon's Attack Speed increased for 240 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853"],
                         "animations": ["https://media4.giphy.com/media/L4lnBe2vHBy6XYuMXv/giphy.gif"],
                         "type": "Buff",
@@ -240,16 +270,25 @@
                     },
                     {
                         "id": 2300006,
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: 50%, Magic ATT: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
                         "type": "Passive"
                     },
                     {
                         "id": 2300007,
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
                         "type": "Passive"
                     },
                     {
                         "id": 2300000,
+                        "name": "MP Eater",
+                        "shortDesc": "MP Absorb Chance: 20%, Amount Absorbed: 10% of the enemy's Max MP",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_MP_Eater.png/revision/latest?cb=20110423005222"],
                         "type": "Passive",
                         "desc": "Your attacks have a chance to steal a portion of the enemy's %Max HP",
@@ -259,6 +298,9 @@
                     },
                     {
                         "id": 2300003,
+                        "name": "Invincible",
+                        "shortDesc": "Damage Taken: -25%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Invincible.png/revision/latest?cb=20160627073033"],
                         "type": "Passive"
                     }]
@@ -266,7 +308,10 @@
                 [
                 "3rd Job", [{
                         "id": 2311004,
-                        "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADZ0lEQVR4nL1X7bWqMBCM59jAbQFLwBKgBCgBS8ASpAQtQUqAEqSESwuU4MssTLLEKN4/b85RkpDdmWw2H+zNGk/zf7BjQQt4do9fV0l+jGnGScq1rSzFr7Blmx8PT4qgACHP0kQq4ziKg1t+NFX3kDa++wawB2BvrD1EJIm3v9wf5lweRcR+ixzGfwHsQVabUcidCDM6EXWRGrOI2IfGJNdAm3bwiZx9NWIiCBGwNcgwhO/gRr4BTpETQNUc/fP5NLudS9SPEWDINaS/GpXzt0RB3qc/5kwBEqL741Wqzd5msKLK+T1FkFRCPkyrdvavf3/F/pM/FwERYRsrJYKqq0BYSPouMiSCHw0hV3ACwrAr0aunLkPM2RJdIiJi2wYFgYfvV6uAatEBZXZ24mw0Lnbu8AtBMa0iCf3FIAIK65idhmlyz/QnvjxAFNZjooDQH3iKZSBtGAHA9jP9NBP0i3FI1gbzKAhyBXb96P0IIhpFQIUlc/VR6NXmjXKmllQbSazBhv94OMjItJ0GfKxGv0RxXoZLpVAiWuUA5XBeNVKbgA+77CAitBW/JLf+kX3n3k5ZpvaB9rQOKYlug97Vvj8TpskLqOwZw9W14rl2PgKFrbSnfDW6pt/eUt8L8GX40X7nSHQ2AolPQlSgiEphUNu2cz+Yv4zcCVD/lyx1xIAj1zmAKUPjtIRFCzm1g5TxjOXBsBwsnH/2B6722KWvbPENHtm0hsELQJKf2tlRf84deamcERSBpCNI7sc9o1SiezvF2aUTnmvh++zn0Y0rYuJuR5DfZhFdla62apAy88OoaRvtk31OprMiEr8KUEGj7qRHzPbYEpRdTp3v4RasgQiQ7yUH0Eh1ACKiDygSMdzaOSOBJ37aBmVNDLzkABt5U3lHHo5ydVApUJB+TxHRK1kMNGJucK4JLYhgHyYo7GNH/FcCqJiI7f986hUR88NBbApAeLBEyqnzOTF9HkUYGUdcr32gHLs5vUQAne6Vn6urLZfGR2Nocnu3fL0/5sejSWvf71olKx/vbtXRKdCdKQgob3PYs3Re37E8uFcq0yP+YgJ2+FbTX0cxQWNAppdkKGTrG6KxO+R5vtTsGAERcYldzRcUcuXa+kKdHMEnkBx/egp2ywdj3Eh3VEmpy0NTmkNjvoEz+gfH2ozT170dOAAAAABJRU5ErkJggg=="],
+                        "name": "Shining Ray",
+                        "shortDesc": "MP Cost: 45, Damage: 254%, Number of Attacks: 4, Max Monsters Hit: 6, Stun Chance: 60%, Stun Duration: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADt0lEQVR4nL1X7ZGrMAwUM9dAWuCVACWQEnIlJCVACaQEUsJRApQQSnhpISXkeW0Jrw15d79OM5kAlqXV6sPwIam85HeksAsG8Lrf//6K97r+8zIQBsA7rw6jyKMTadz6xa33VVg9NKrWizxrd393112499LtrDl5zrq8iAzO5uxslr0MX5NcPo8exEfiHNJoFgYCAUMeRPeD+N44N9uPq5wr90xBxBQgcocOCisL2Hh1IM4MQqKDw841O7+Rc41+9SWTv0yLcHQLpz6yAGmVukpBLM5oY0wwI11Y06x55y3Z0ei9jyo+jgCArjQQxAo2NgSCxSLNhZ1z5BYgZMkBwNlC12XGhIEwx7dFEjl/E/mjiyB8HHkKUINtL4lgowGCIfis1Mkp072p4YdsI4cYw5Ar7OUMoNo7pd+CqyRlAk4vTmeAsTYAXBwbpynss7U8crY3qq85B4B2MQZKoY1dQCwanTm/HR3tk7J3DCAGBVGqvgVjgUBaCYG+ZaDUDYbaEEM+Ke8LFeA8x8IV0kdQpcRAFg1il4EVhOWXooZgwjVFiB757e+07x6e+Y7pgi6mokhsOTCAAuzTTooAMGRQ3daKvBmCgZQX3p5Ax4aXCSJfuliENNCIARivw0bPgm7EJlBvubdIn5SOQxXbFP/Y+6l5thrgVHpfcw5A9CDBep2CMMHZ8FA2UEwNDRvtWBmLtJ3Z+YHStmFgwaRrI5BBHZ5WsEHY8brX/SZlYKTn5tzOA6urBWj3zoIQflBEPVhRftGMgMEm22KTD2vQQdt+6V5/mtaadyruDQMVR9XH0w1MwABqAZV8cgaORWQDcunivZ94ej9kTJntCqduXgOcgpUJdb7ofMdk8+zpMW3TDq2HdQAbhE7QmvJOkX+fAhJ//GYHiqiTaxGvTUxn7Yrc7o9SwAAkGLFTDNdHNWyOAWSW6Ay6bRv35gHupmAj/M5HAhAzOfe0O705fdH4ka19AEaRViwGk+97eh9gabaP1vT4aWjO2e47AGshZmh5nj/SHK7FKaTDe1ZREN5HTDcByBEq8qVIxyxabtqpl0HfFSYa1/6fX+Hxu+p9kwFAa1Q8sRRxQwaR74nAsOCcQAsmOm1qyxfgKwS1AWDOV4p2vgFaiR0gVA+gPR9OiRCbsI3fbheYwv9ATNR6JldKy16hsvOdGijwrea/jlhhMxklfS3n4dO+0XkT2G2c8VWElcIY8CDwzeZHpKdnim9D4Hychc/x92I6E52MDdmMzo0Bk0I/GH9D1jz9Ay1M5p0TOli3AAAAAElFTkSuQmCC"],
                         "animations": ["https://media.giphy.com/media/RGjdQLRn7a5NzWoV2m/giphy.gif"],
                         "type": "Attack",
                         "desc": "Shines a ray of light that damages nearby enemies and has a chance to stun",
@@ -276,6 +321,9 @@
                     },
                     {
                         "id": 2311011,
+                        "name": "Holy Fountain",
+                        "shortDesc": "MP Cost: 40, restores 40% HP when used, able to use 20 times total. Duration: 60 sec. Cooldown: 60 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Holy_Fountain.png/revision/latest?cb=20130706143137"],
                         "animations": ["https://media.giphy.com/media/iG3sXFpNjqSdBkaNbm/giphy.gif"],
                         "type": "Summon Heal",
@@ -287,6 +335,9 @@
                     },
                     {
                         "id": 2311012,
+                        "name": "Divine Protection",
+                        "shortDesc": "MP Cost: 80, resist critical Abnormal Status once.\\nCooldown: 180 sec\\n[Passive Effect: Increases Abnormal Status and all Elemental Resistance by 40]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Divine_Protection.png/revision/latest?cb=20130706143141"],
                         "animations": ["https://media3.giphy.com/media/ShV89TzsSoN7IcRIca/giphy.gif"],
                         "type": "Buff",
@@ -298,6 +349,9 @@
                     },
                     {
                         "id": 2311002,
+                        "name": "Mystic Door",
+                        "shortDesc": "MP 60, Portal Duration: 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Mystic_Door.png/revision/latest?cb=20110423060010"],
                         "animations": ["https://media.giphy.com/media/JR229fm4MJfUsLtx1p/giphy.gif"],
                         "type": "Summon",
@@ -308,6 +362,9 @@
                     },
                     {
                         "id": 2311001,
+                        "name": "Dispel",
+                        "shortDesc": "MP Cost: 10, after nullifying magic and curing Abnormal Status at 100% chance, Dispel's cooldown reduced by 4 sec and\\nDivine Protection's cooldown reduced by 60 sec for each party member cured\\nCooldown: 8 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Dispel.png/revision/latest?cb=20130706143146"],
                         "animations": ["https://media.giphy.com/media/fwufBWzBRITeJeNgEF/giphy.gif"],
                         "type": "Party Active",
@@ -318,6 +375,9 @@
                     },
                     {
                         "id": 2311003,
+                        "name": "Holy Symbol",
+                        "shortDesc": "MP Cost: 300, EXP Bonus: 50%, Duration: 240 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Holy_Symbol.png/revision/latest?cb=20151207054159"],
                         "animations": ["https://media.giphy.com/media/KdrZjE3QcxoX17L9F8/giphy.gif"],
                         "type": "Party Buff",
@@ -328,6 +388,9 @@
                     },
                     {
                         "id": 2311007,
+                        "name": "Teleport Mastery",
+                        "shortDesc": "MP Cost: 20, Damage: 340%, Max Monsters Hit: 6, Stun Chance: 80%, Stun Duration: 4 sec, Teleport Distance: +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Teleport_Mastery.png/revision/latest?cb=20110423053952"],
                         "animations": ["https://media0.giphy.com/media/ihn7lJCp9dygjKVlkv/giphy.gif"],
                         "type": "Toggle Attack",
@@ -339,6 +402,9 @@
                     },
                     {
                         "id": 2311009,
+                        "name": "Holy Magic Shell",
+                        "shortDesc": "MP Cost: 70, base HP Recovered: 100%, Duration: 15 sec, Max Number of Attacks Blocked: 15, Damage: -10% for attacks that do a certain percentage of your Max HP.\\nCannot trigger Holy Magic for 80 sec  Cooldown: 90 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Holy_Magic_Shell.png/revision/latest?cb=20110423060120"],
                         "animations": ["https://media.giphy.com/media/VdcPRxWzFXNPxwy18Q/giphy.gif"],
                         "type": "Party Buff",
@@ -350,11 +416,17 @@
                     },
                     {
                         "id": 2310010,
+                        "name": "Arcane Overdrive",
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +13%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Arcane_Overdrive.png/revision/latest?cb=20110502085236"],
                         "type": "Passive"
                     },
                     {
                         "id": 2310008,
+                        "name": "Holy Focus",
+                        "shortDesc": "For all attacks and the Heal skill, Critical Rate: +40%, Magic Mastery: +70%",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Holy_Focus.png/revision/latest?cb=20110423060115"],
                         "type": "Passive"
                     }]
@@ -362,6 +434,9 @@
                 [
                 "4th Job", [{
                     "id": 2321007,
+                    "name": "Angel Ray",
+                    "shortDesc": "MP Cost: 56, Max Enemies Hit: 6, Damage: 225%, Number of Attacks: 7. Restores 20% of your Max HP for you and your party members.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345"],
                     "animations": ["https://media.giphy.com/media/JqKD0nJQH8B1lUTUSK/giphy.gif"],
                     "type": "Attack / Party Heal",
@@ -369,6 +444,9 @@
                 },
                 {
                     "id": 2321008,
+                    "name": "Genesis",
+                    "shortDesc": "MP Cost: 300, Damage: 405%, Max Enemies Hit: 15, Number of Attacks: 12, Crit Rate: +20%, Cooldown: 45 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Genesis.png/revision/latest?cb=20191217072510"],
                     "animations": ["https://media.giphy.com/media/hWpPSmMv7g12OYuyhu/giphy.gif"],
                     "type": "Attack",
@@ -379,6 +457,9 @@
                 },
                 {
                     "id": 2321001,
+                    "name": "Big Bang",
+                    "shortDesc": "MP Cost: 50, Max Enemies Hit: 10, Damage: 480%, Number of Attacks: 4, Successfully hit enemy's Defense: -10%, Duration: 15 sec, can be stacked up to 4 time(s).",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945"],
                     "animations": ["https://media.giphy.com/media/SWuxjdO9dfZN40KUzA/giphy.gif"],
                     "type": "Attack",
@@ -389,6 +470,9 @@
                 },
                 {
                     "id": 2320013,
+                    "name": "Blessed Harmony",
+                    "shortDesc": "The final damage increases by 3% for each party member that received the buff",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Blessed_Ensemble.png/revision/latest?cb=20130706133806"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -398,6 +482,9 @@
                 },
                 {
                     "id": 2321006,
+                    "name": "Resurrection",
+                    "shortDesc": "MP Cost: 150. Revives all KO'd party members within range and grants you invincibility for 3 sec. Cooldown: 300 sec",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Resurrection.png/revision/latest?cb=20110423133148"],
                     "animations": ["https://media.giphy.com/media/hRwc5AgTQ5s9Fjyt7F/giphy.gif"],
                     "type": "Party Revive",
@@ -409,6 +496,9 @@
                 },
                 {
                     "id": 2321004,
+                    "name": "Infinity",
+                    "shortDesc": "MP Cost: 80, Increases final damage of Magic ATT by 70%.\\nPeriodically recovers base HP and MP by 10% and increases final damage of Magic ATT by 3%.\\nFinal Damage increased by Infinity is additive.\\nKnockback Resistance: +70%, Duration: 40 sec, Cooldown: 3 min",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329"],
                     "animations": ["https://media2.giphy.com/media/NlEvlzJf1AFsql3KFo/giphy.gif"],
                     "type": "Buff",
@@ -420,6 +510,9 @@
                 },
                 {
                     "id": 2321003,
+                    "name": "Bahamut",
+                    "shortDesc": "MP Cost: 120, Bahamut Summon Duration: 260 sec, Damage: 170%, Max Enemies Hit: 3, Number of Attacks: 3\\nEnemies attacked will be marked with Bahamut's insignia for 60 seconds, and when they are attacked with a Holy attack, the insignia will disappear and final damage will increase by 25%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121"],
                     "animations": ["https://media.giphy.com/media/JSXiTr8pSb7kT21KKd/giphy.gif"],
                     "type": "Summon",
@@ -430,6 +523,9 @@
                 },
                 {
                     "id": 2321005,
+                    "name": "Advanced Blessing",
+                    "shortDesc": "MP Cost: 52, Attack Power: +30, Magic ATT: +30, DEF: +550, Max HP: +750, Max MP: +750, MP Consumption: -20%, Duration: 240 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Advanced_Blessing.png/revision/latest?cb=20110423133135"],
                     "animations": ["https://media2.giphy.com/media/N8acYW9riUb1WSzEbL/giphy.gif"],
                     "type": "Party Buff",
@@ -440,12 +536,18 @@
                 },
                 {
                     "id": 2321000,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media3.giphy.com/media/JWmmeVpcY6xZy3avGZ/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 2321009,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media2.giphy.com/media/drfz8YugHNehwJaduu/giphy.gif"],
                     "type": "Buff",
@@ -453,11 +555,17 @@
                 },
                 {
                     "id": 2320012,
+                    "name": "Buff Mastery",
+                    "shortDesc": "Permanently increased Magic ATT: +30, Buff Duration: +50%",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456"],
                     "type": "Passive"
                 },
                 {
                     "id": 2320011,
+                    "name": "Arcane Aim",
+                    "shortDesc": "Ignores 20% of enemy DEF. Aside from minions' attacks, damage will increase by 8% for 5 sec at a 80% chance when the attack hits. Accumulates up to 5 times.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500"],
                     "type": "Passive",
                     "desc": "When attacking an enemy 3 or more times, you have a chance to gain a stacking %Damage buff",
@@ -472,54 +580,81 @@
             "hyperPassive": [
                 {
                     "id": 2320043,
+                    "name": "Holy Magic Shell - Extra Guard",
+                    "shortDesc": "2 additional guards",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Holy_Magic_Shell_-_Extra_Guard.png/revision/latest?cb=20120918152838"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 2320044,
+                    "name": "Holy Magic Shell - Persist",
+                    "shortDesc": "Duration: +5 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Holy_Magic_Shell_-_Persist.png/revision/latest?cb=20120918152941"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 2320045,
+                    "name": "Holy Magic Shell - Enhance",
+                    "shortDesc": "Increases damage reduction by 5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Holy_Magic_Shell_-_Enhance.png/revision/latest?cb=20181122074858"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 2320046,
+                    "name": "Holy Symbol - Experience",
+                    "shortDesc": "20% additional EXP for only self",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Holy_Symbol_-_Experience.png/revision/latest?cb=20140412225803"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 2320047,
+                    "name": "Holy Symbol - Preparation",
+                    "shortDesc": "Abnormal Status Resistance and Elemental Resistance: +10%\\n[Passive Effects - Abnormal Status Resistance: +10, Elemental Resistance: +10%]",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Holy_Symbol_-_Preparation.png/revision/latest?cb=20140412225910"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 2320048,
+                    "name": "Holy Symbol - Item Drop",
+                    "shortDesc": "30% additional drop rate",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c1/Skill_Holy_Symbol_-_Item_Drop.png/revision/latest?cb=20140412230104"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 2320049,
+                    "name": "Advanced Blessing - Ferocity",
+                    "shortDesc": "Attack Power and Magic ATT: +20",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Advanced_Blessing_-_Ferocity.png/revision/latest?cb=20120918153518"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 2320050,
+                    "name": "Advanced Blessing - Boss Rush",
+                    "shortDesc": "Boss Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Advanced_Blessing_-_Boss_Rush.png/revision/latest?cb=20130707015905"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 2320051,
+                    "name": "Advanced Blessing - Extra Point",
+                    "shortDesc": "1000 additional Max HP & MP",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Advanced_Blessing_-_Extra_Point.png/revision/latest?cb=20120918153749"],
                     "type": "Passive",
                     "reqLev": 190
@@ -528,6 +663,9 @@
             "hyperActive": [
                 {
                     "id": 2321054,
+                    "name": "Righteously Indignant",
+                    "shortDesc": "[While Inactive] Damage: +40%\\n[While Active] MP Cost: 100, Magic ATT: +50, Final Damage: +30%, Enemy DEF Ignored: +20%, Attack Speed: +1,\\nElemental Resistance: -10%. Reduces Recovery Amount to 40% of the normal amount.\\nAngel Ray Attack Count: +7, Max Enemies Hit by guided Angel Ray reduced to 1. Can use Teleport while using Angel Ray. Grants the same Defense reduction debuff as Big Bang to enemies successfully hit by Angel Ray.\\nCan only use teleport skills, buff skills, Angel Ray, Heaven's Door, Rope Lift, Erda Nova, Erdas Shower, True Arachnid Reflection, Ethereal Form, Peacemaker, and Divine Punishment.\\nCooldown: 1 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038"],
                     "animations": ["https://media1.giphy.com/media/CcgcfMD0ZuGryjwHd2/giphy.gif"],
                     "type": "Toggle Buff",
@@ -540,6 +678,9 @@
                 },
                 {
                     "id": 2321052,
+                    "name": "Heaven's Door",
+                    "shortDesc": "MP Cost: 500, Enemies Hit: 15, Damage: 1000%, Number of Attacks: 8, Protects party members from one KO.\\nCooldown: 180 sec\\nParty members that receive Heaven's Door cannot receive it again for 600 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heaven%27s_Door.png/revision/latest?cb=20120918153903"],
                     "animations": ["https://media.giphy.com/media/eieSF9w80PzsmJtB92/giphy.gif"],
                     "type": "Party Buff / Attack",
@@ -552,6 +693,9 @@
                 },
                 {
                     "id": 2321053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Epic_Adventure_%28Magician%29.png/revision/latest?cb=20121015210355"],
                     "animations": ["https://media2.giphy.com/media/wYtZ26mvvkPRIh7JIL/giphy.gif"],
                     "type": "Buff",

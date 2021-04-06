@@ -105,6 +105,9 @@
             [
                 "Beginner", [{
                     "id": 150001016,
+                    "name": "Shelter Return",
+                    "shortDesc": "MP Cost: 100\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Shelter_Return.png/revision/latest?cb=20171217081458"],
                     "animations": ["https://media4.giphy.com/media/49msk5vNCYY2eyVNog/giphy.gif"],
                     "type": "Active",
@@ -112,6 +115,9 @@
                 },
                 {
                     "id": 150000079,
+                    "name": "Magic Conversion",
+                    "shortDesc": "50% of your equipment's Attack Power is converted to Magic ATT, excluding your weapon. Any set effects do not apply. Only converts up to 20% of your weapon's base attack power.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Magic_Conversion.png/revision/latest?cb=20180701165859"],
                     "type": "Passive"
                 },
@@ -136,6 +142,9 @@
                 "1st Job", [
                     {
                         "id": 152001001,
+                        "name": "Radiant Javelin",
+                        "shortDesc": "MP Cost: 24, Damage: 100%, Number of Attacks: 2, Max Enemies Hit: 4\\nDamage against normal monsters: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935"],
                         "animations": ["https://media.giphy.com/media/Th4ptvatxz2ypCqqsx/giphy.gif"],
                         "type": "Attack",
@@ -148,6 +157,9 @@
                     },
                     {
                         "id": 152001002,
+                        "name": "Radiant Orb",
+                        "shortDesc": "MP Cost: 15. Max Enemies Hit: 3, Damage: 50%, Number of Attacks: 1. Radiant Javelin Damage: +15% for 2 sec after use.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710"],
                         "animations": ["https://media.giphy.com/media/QTlS7dIrtSEaBDSghG/giphy.gif"],
                         "type": "Attack",
@@ -158,6 +170,9 @@
                     },
                     {
                         "id": 152001003,
+                        "name": "Ex",
+                        "shortDesc": "MP Cost: 90, Duration: 180 sec. Moves to the target and attacks for a short time. Damage increases after a certain number of hits.\\n[Stage 1] Damage: 60%, increases after 10 hits.\\n[Stage 2] Damage: 100%, increases after 10 hits.\\n[Stage 3] Damage: 200%, attack ends after 20 hits.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Ex.png/revision/latest?cb=20171217213719"],
                         "animations": ["https://media.giphy.com/media/QVsM09QPdpPQahNpRv/giphy.gif"],
                         "type": "Summon",
@@ -165,6 +180,9 @@
                     },
                     {
                         "id": 152001004,
+                        "name": "Crystalline Wings",
+                        "shortDesc": "MP Cost: 20, Teleport horizontally a distance of 195, or vertically a distance of 275.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Crystalline_Wings.png/revision/latest?cb=20171217213727"],
                         "animations": ["https://media.giphy.com/media/Jmy4oJgixL8lBmCya9/giphy.gif"],
                         "type": "Active",
@@ -175,11 +193,17 @@
                     },
                     {
                         "id": 152000006,
+                        "name": "Lucent Gauntlet Mastery",
+                        "shortDesc": "Lucent Gauntlet Mastery: +40%, Critical Rate: +20%, Damage Taken: -40%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Lucent_Gauntlet_Mastery.png/revision/latest?cb=20171217213737"],
                         "type": "Passive"
                     },
                     {
                         "id": 152000007,
+                        "name": "Lucent Brand",
+                        "shortDesc": "Max Stacks: 3, Duration: 10 sec\\nAttack Power & Magic ATT +2 per stack\\n[Passive Effects - Max HP & Max MP: +10%, Damage: +10%, DEF: +100]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746"],
                         "animations": ["https://media4.giphy.com/media/P1ITMDOgDZvbwc0bWi/giphy.gif"],
                         "type": "Passive",
@@ -193,6 +217,9 @@
                 "2nd Job", [
                     {
                         "id": 152100010,
+                        "name": "Crystal Battery",
+                        "shortDesc": "Max Crystal Charges: 30\\n- Radiant Javelin Grants 1 Charge\\n- Radiant Orb Grants 2 Charges",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Crystal_Battery.png/revision/latest?cb=20171217213945"],
                         "type": "Passive",
                         "desc": "A special resource for using Crystal Skills that generates when certain attacks hit your orb",
@@ -204,6 +231,9 @@
                     },
                     {
                         "id": 152101003,
+                        "name": "Deploy Crystal",
+                        "shortDesc": "Your Crystal Battery will reset 10 sec after reaching the max Crystal Charge count.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Deploy_Crystal.png/revision/latest?cb=20180122080230"],
                         "animations": ["https://media.giphy.com/media/efV9JUKwE7dxXNmJ0c/giphy.gif"],
                         "type": "Active",
@@ -215,6 +245,9 @@
                     },
                     {
                         "id": 152100001,
+                        "name": "Reaction - Destruction",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 9 , Damage: 360%, Number of Attacks: 4\\nCooldown: 6 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231"],
                         "animations": ["https://media.giphy.com/media/VDMXzcROJgaEwWIVaE/giphy.gif"],
                         "type": "Passive Attack",
@@ -225,6 +258,9 @@
                     },
                     {
                         "id": 152100002,
+                        "name": "Reaction - Domination",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 9 , Damage: 360%, Number of Attacks: 1\\nCooldown: 6 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Reaction_-_Domination.png/revision/latest?cb=20180122080232"],
                         "animations": ["https://media.giphy.com/media/Ma1jYbagnXxeXSkF2j/giphy.gif"],
                         "type": "Passive Attack",
@@ -235,6 +271,9 @@
                     },
                     {
                         "id": 152101006,
+                        "name": "Crystal Skill - Vortex of Light",
+                        "shortDesc": "Crystal Charge Cost: 30, MP Cost: 80, Max Enemies Hit: 12, Damage: 500%, Number of Attacks: 10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Crystal_Skill_-_Vortex_of_Light.png/revision/latest?cb=20180122080229"],
                         "animations": ["https://media.giphy.com/media/Lkr0Y1nJE2zQTrjlM5/giphy.gif"],
                         "type": "Crystal Attack",
@@ -245,6 +284,9 @@
                     },
                     {
                         "id": 152101007,
+                        "name": "Gauntlet Frenzy",
+                        "shortDesc": "MP Cost: 12, Duration: 300 sec, Lucent Gauntlet Attack Speed: +2",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Gauntlet_Frenzy.png/revision/latest?cb=20180122080230"],
                         "animations": ["https://media0.giphy.com/media/OV1wDNSi6MhYZwAO2g/giphy.gif"],
                         "type": "Buff",
@@ -252,6 +294,9 @@
                     },
                     {
                         "id": 152101008,
+                        "name": "Machina",
+                        "shortDesc": "MP Cost: 100, Duration: 180 sec\\nDamage: 250%, Number of Attacks: 4, Enemies Hit: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231"],
                         "animations": ["https://media.giphy.com/media/jR5uMmQB4Hqfnj44Ha/giphy.gif"],
                         "type": "Summon",
@@ -259,6 +304,9 @@
                     },
                     {
                         "id": 152100011,
+                        "name": "Aegis of Light",
+                        "shortDesc": "When hit, 1 Lucent Brand will reduce damage taken by 50%.\\n100% Knockback Resistance applied when activated.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Aegis_of_Light.png/revision/latest?cb=20180122080228"],
                         "animations": ["https://media1.giphy.com/media/QFoKZty3v15mmciy1O/giphy.gif"],
                         "type": "Passive",
@@ -269,6 +317,9 @@
                     },
                     {
                         "id": 152100012,
+                        "name": "Umbral Brand",
+                        "shortDesc": "Duration: 10 sec, DEF: 4%\\nIllium's attacks inflict 20% bonus damage against Umbral Branded targets.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232"],
                         "animations": ["https://media1.giphy.com/media/1ODeEPsV4WwiuUoFdg/giphy.gif"],
                         "type": "Passive",
@@ -282,6 +333,9 @@
                 "3rd Job", [
                     {
                         "id": 152110008,
+                        "name": "Crystal Battery",
+                        "shortDesc": "Max Crystal Charges: 150\\n-Radiant Javelin Grants 1 Charge\\n-Radiant Orb Grants 2 Charges",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Crystal_Battery_II.png/revision/latest?cb=20180122081433", "https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Crystal_Battery.png/revision/latest?cb=20171217213945"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -305,6 +359,9 @@
                     },
                     {
                         "id": 152110002,
+                        "name": "Reaction - Domination II",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 12 , Damage: 550%, Number of Attacks: 2\\nCooldown: 4 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Reaction_-_Domination_II.png/revision/latest?cb=20180122081436", "https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Reaction_-_Domination.png/revision/latest?cb=20180122080232"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -315,6 +372,9 @@
                     },
                     {
                         "id": 152111003,
+                        "name": "Crystal Skill - Wings of Glory",
+                        "shortDesc": "Crystal Charge Cost: 150\\nDuration: 20 sec\\nFinal Damage: +25%, Knockback Resistance: +100%, Boss Damage: +30%\\nWinged Javelin: explodes on contact, striking up to 5 enemies ofr 300% damage 6 times, Damage Against Normal Monsters: +20%. If total enemies struct is lower than the max, an additional 10% is added to the final damage for each enemy below the max. Final Damage increases up to 40%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434"],
                         "animations": ["https://media.giphy.com/media/J6Dd8eNulGBGxQ80nD/giphy.gif"],
                         "type": "Crystal Buff",
@@ -329,6 +389,9 @@
                     },
                     {
                         "id": 152111007,
+                        "name": "Crystal Skill - Resonance",
+                        "shortDesc": "Crystal Charge Cost: 60, MP Cost: 200, Resonance Cycles: 15, Effect: Grants Lucent Brand, Restores 10% of Max HP\\n[Passive Effects - Abnormal Status Resistance: +30, Elemental Resistance: +30%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Crystal_Skill_-_Resonance.png/revision/latest?cb=20180122081433"],
                         "animations": ["https://media.giphy.com/media/H1RgKtsYaZkisQcmmi/giphy.gif"],
                         "type": "Crystal Active",
@@ -341,6 +404,9 @@
                     },
                     {
                         "id": 152110009,
+                        "name": "Lucent Brand II",
+                        "shortDesc": "Max Stacks: 6, Duration: 10 sec\\n[Stack Bonuses] 1-3 Stacks: Attack Power & Magic ATT +2\\n4 - 6 Stacks: Attack Power & Magic ATT +4\\n[Passive Effects - Radiant Javelin Damage +200%p]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Lucent_Brand_II.png/revision/latest?cb=20180122081435", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -351,6 +417,9 @@
                     },
                     {
                         "id": 152110010,
+                        "name": "Umbral Brand II",
+                        "shortDesc": "Max Stacks: 3 times, Duration: 10 sec\\nReduces enemy Defense based on stack count.\\n[Stack Bonuses]1 Stack: DEF -4%\\n2-3 Stacks: DEF -4%\\nIllium's attacks aginst Umbral Branded enemies inflict an additional hit dealing 30%. The bonus hit's damage is multiplied up to 3x based on the number of Stacks.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Umbral_Brand_II.png/revision/latest?cb=20180122081437", "https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -361,16 +430,25 @@
                     },
                     {
                         "id": 152110011,
+                        "name": "Might of the Flora",
+                        "shortDesc": "Max HP & MP: +20%\\nDamage: +10%\\nJump: +10, Movement Speed: +10, Max Movement Speed: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Might_of_the_Flora.png/revision/latest?cb=20180122081435"],
                         "type": "Passive"
                     },
                     {
                         "id": 152110012,
+                        "name": "Tenacity",
+                        "shortDesc": "Intelligence: +40, Magic ATT: +10%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Tenacity.png/revision/latest?cb=20180122081437"],
                         "type": "Passive"
                     },
                     {
                         "id": 152110013,
+                        "name": "Endless Research",
+                        "shortDesc": "Magic ATT: +50, Critical Damage: +30%, Critical Rate: +20%",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Endless_Research.png/revision/latest?cb=20180122081434"],
                         "type": "Passive"
                     }]
@@ -379,6 +457,9 @@
                 "4th Job", [
                 {
                     "id": 152120014,
+                    "name": "Crystal Battery III",
+                    "shortDesc": "Max Crystal Charges: 150\\n-Radiant Javelin Grants 1 Charge\\n-Radiant Orb Grants 2 Charges\\n-Longinus Spear Grants 3 Charges",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Crystal_Battery_III.png/revision/latest?cb=20180122082847", "https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Crystal_Battery.png/revision/latest?cb=20171217213945"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -388,6 +469,9 @@
                 },
                 {
                     "id": 152120001,
+                    "name": "Radiant Javelin II",
+                    "shortDesc": "MP Cost: 6, Max Enemies Hit: 1, Damage: 75%p, Number of Attacks: 1\\nOn Hit: Creates 2 shards that each inflict 130% damage. Upon using Winged Javelin: Creates 3 additional projectiles instead of shards which pursue enemies and strike for 250% damage 3 times.\\n[Passive Effects-Increases Winged Javelin's damage by 165%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851", "https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -398,6 +482,9 @@
                 },
                 {
                     "id": 152120003,
+                    "name": "Radiant Orb II",
+                    "shortDesc": "MP Cost: 15, Max Enemies Hit: 2, Damage: +250%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Radiant_Orb_II.png/revision/latest?cb=20180122082851", "https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -408,6 +495,9 @@
                 },
                 {
                     "id": 152121004,
+                    "name": "Longinus Spear",
+                    "shortDesc": "MP Cost: 150\\nMax Enemies Hit: 10, Damage: 950%, Number of Attacks: 8\\nBoss Damage: +20%\\nCooldown: 15 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Longinus_Spear.png/revision/latest?cb=20180122082850"],
                     "animations": ["https://media.giphy.com/media/VHYIRowDfkkbMZi2y3/giphy.gif"],
                     "type": "Attack",
@@ -418,6 +508,9 @@
                 },
                 {
                     "id": 152121005,
+                    "name": "Crystal Skill - Deus",
+                    "shortDesc": "Crystal Charge Cost: 90, MP Cost: 300, Duration: 30 sec, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 5\\nSatellite Attack Power is equial to Ex's.\\n[Passive Effects - Ex Damage: +100%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Crystal_Skill_-_Deus.png/revision/latest?cb=20180122082848"],
                     "animations": ["https://media.giphy.com/media/J2JVvNTRXiixWVATs0/giphy.gif"],
                     "type": "Crystal Summon",
@@ -429,6 +522,9 @@
                 },
                 {
                     "id": 152121007,
+                    "name": "Vortex Wings",
+                    "shortDesc": "Crystal Charge Cost: 30, MP Cost: 200, Max Enemies Hit: 12, Damage: 1070%, Number of Attacks: 15",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Vortex_Wings.png/revision/latest?cb=20180122082853"],
                     "animations": ["https://media.giphy.com/media/fST0LkWwyHcNnJGlIZ/giphy.gif"],
                     "type": "Attack",
@@ -439,6 +535,9 @@
                 },
                 {
                     "id": 152120008,
+                    "name": "Resonance Wings",
+                    "shortDesc": "Places Umbral Brands on enemies and Lucent Brands on allies, up to 12 targets.\\n[Passive Effects - Crystal Skill - Increases Vortex of Light's damage by +100%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Resonant_Wings.png/revision/latest?cb=20180122082852"],
                     "type": "Passive",
                     "desc": "While in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Crystal_Skill_-_Wings_of_Glory.png/revision/latest?cb=20180122081434' alt='Skill Crystal Skill - Wings of Glory'>, you create projectiles that applies <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232' alt='Skill Umbral Brand'> to nearby enemies and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746' alt='Skill Lucent Brand'> to nearby party members",
@@ -448,12 +547,18 @@
                 },
                 {
                     "id": 152121009,
+                    "name": "Hero of the Flora",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Hero_of_the_Flora_%28Illium%29.png/revision/latest?cb=20180122082849"],
                     "animations": ["https://media0.giphy.com/media/4YdIGXeYJYG0BVSC0o/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 152121010,
+                    "name": "Floran Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Floran_Hero%27s_Will_%28Illium%29.png/revision/latest?cb=20180122082849"],
                     "animations": ["https://media0.giphy.com/media/qqemDDp2c9kDdHAlbO/giphy.gif"],
                     "type": "Buff",
@@ -461,6 +566,9 @@
                 },
                 {
                     "id": 152121011,
+                    "name": "Flash Crystal Battery",
+                    "shortDesc": "MP Cost: 100, Duration: 10 sec, Crystal Charges from Radiant skills: +100%, Cooldown: 120 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Flash_Crystal_Battery.png/revision/latest?cb=20180122082848"],
                     "animations": ["https://media.giphy.com/media/RIXijm8pagxboTC5ml/giphy.gif"],
                     "type": "Active",
@@ -468,6 +576,9 @@
                 },
                 {
                     "id": 152120012,
+                    "name": "Lucent Brand III",
+                    "shortDesc": "Max Stacks: 10, Duration: 10 sec\\n[Stack Bonuses]\\n1-3 Stacks: Attack Power & Magic ATT +2\\n4-6 Stacks: Attack Power & Magic ATT +4\\n7-9 Stacks: Attack Power & Magic ATT +6\\n10 Stacks: Attack Power & Magic ATT +10\\n[Passive Effects - Machina Damage: +100%p]",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Lucent_Brand_III.png/revision/latest?cb=20180122083006", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -478,6 +589,9 @@
                 },
                 {
                     "id": 152120013,
+                    "name": "Umbral Brand III",
+                    "shortDesc": "Max Stacks: 5, Duration: 10 sec\\n[Stack Bonuses]\\n1 Stack: DEF: -4%\\n2-3 Stack: DEF: -4%\\n4-5 Stack: DEF: -4%\\nIllium's attacks against Umbral Branded enemies inflict an additional hit dealing 40%. The bonus hit's damage is multiplied up to 5x based on the number of Stacks.",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Umbral_Brand_III.png/revision/latest?cb=20180122082852", "https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -488,6 +602,9 @@
                 },
                 {
                     "id": 152120015,
+                    "name": "Wisdom of the Crystal",
+                    "shortDesc": "Lucent Gauntlet Mastery: +70%, Attack Speed: +1, Boss Damage: +30%, Ignore DEF: +25%, Final Damage: +35%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Wisdom_of_the_Crystal.png/revision/latest?cb=20180122082850", "https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Lucent_Gauntlet_Mastery.png/revision/latest?cb=20171217213737"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -502,54 +619,81 @@
             "hyperPassive": [
                 {
                     "id": 152120031,
+                    "name": "Javelin - Reinforce",
+                    "shortDesc": "Radiant Javelin Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Javelin_-_Reinforce.png/revision/latest?cb=20180122180559"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 152120032,
+                    "name": "Javelin - Extra Strike",
+                    "shortDesc": "Radiant Javelin Attack Count: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Javelin_-_Extra_Strike.png/revision/latest?cb=20180122180558"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 152120033,
+                    "name": "Javelin - Boss Rush",
+                    "shortDesc": "Radiant Javelin Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Javelin_-_Boss_Rush.png/revision/latest?cb=20180122180558"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 152120034,
+                    "name": "Longinus - Reinforce",
+                    "shortDesc": "Longinus Spear Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Longinus_-_Reinforce.png/revision/latest?cb=20180122180600"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 152120035,
+                    "name": "Longinus - Extra Strike",
+                    "shortDesc": "Longinus Spear Attack Count: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Longinus_-_Extra_Strike.png/revision/latest?cb=20180122180600"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 152120036,
+                    "name": "Longinus - Cooldown Cutter",
+                    "shortDesc": "Longinus Spear Cooldown: -20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Longinus_-_Cooldown_Cutter.png/revision/latest?cb=20180122180559"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 152120037,
+                    "name": "Deus - Reinforce",
+                    "shortDesc": "Crystal Skill - Deus & Satellite Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Deus_-_Reinforce.png/revision/latest?cb=20180122180557"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 152120038,
+                    "name": "Deus - Extra Strike",
+                    "shortDesc": "Crystal Skill - Deus & Satellite Attack Counts: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Deus_-_Extra_Strike.png/revision/latest?cb=20180122180556"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 152120039,
+                    "name": "Deus - Boss Rush",
+                    "shortDesc": "Crystal Skill - Deus & Satellite Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Deus_-_Boss_Rush.png/revision/latest?cb=20180122180556"],
                     "type": "Passive",
                     "reqLev": 190
@@ -558,6 +702,9 @@
             "hyperActive": [
                 {
                     "id": 152121043,
+                    "name": "Crystalline Bulwark",
+                    "shortDesc": "MP Cost: 100, Invincibility: 1 sec per Lucent Brand stack\\nCooldown: 180 sec ",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Crystalline_Bulwark.png/revision/latest?cb=20180122180555"],
                     "animations": ["https://media4.giphy.com/media/en9dkbhs7VcF3BN302/giphy.gif"],
                     "type": "Buff",
@@ -581,6 +728,9 @@
                 },
                 {
                     "id": 152121042,
+                    "name": "Divine Wrath",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Flora class in the party.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Divine_Wrath_%28Illium%29.png/revision/latest?cb=20180122180557"],
                     "animations": ["https://media0.giphy.com/media/oBdTwXnzzMI91d3fUF/giphy.gif"],
                     "type": "Buff",

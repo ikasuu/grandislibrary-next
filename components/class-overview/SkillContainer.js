@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-import axiosRetry from 'axios-retry';
-import Link from 'next/link';
-import { Image } from 'react-bootstrap';
+// import Link from 'next/link';
 
 import SkillInfo from './SkillInfo'
-import { version, loadingImage } from '../../special/SiteValues';
 
 /*
     This file contains both SkillContainer and VSkillContainer (exclusively for 5th Job Skills), containers to hold a list of skills
@@ -34,40 +30,7 @@ export class SkillContainer extends Component {
     }
 
     componentDidMount(){
-        const { skillData } = this.state
         this._isMounted = true;
-        //Array to hold all our requests that we will execute in one call
-        const request = [];
-        //Array to hold all retrieved skill data
-        const retrievedHolder = [];
-        //Array to store offline skills temporarily to insert into retrievedHolder at the end
-        const offlineHolder = [];
-
-        axiosRetry(axios, { retries: 5 }); //Retries request up to 5 times if request fails
-        //If skill has "offline" tag in JSON file, don't retrieve it from API and push it into the offlineHolder instead
-        skillData.forEach( (skill, index) => {
-            if(!skill.offline){
-                request.push(axios.get(`https://maplestory.io/api/GMS/${version}/job/skill/${skill.id}`));
-            }
-            else{
-                offlineHolder.push([skill, index]);
-            }
-        })
-        //Execute all calls then store the response data in retrievedHolder
-        axios.all(request)
-            .then(response => {
-                response.forEach(it => retrievedHolder.push(it.data));
-                //Push all offline skills into their correct positions
-                offlineHolder.forEach( skill => retrievedHolder.splice(skill[1], 0, skill[0]));
-                if(this._isMounted){
-                    this.setState({
-                        retrievedData: retrievedHolder,
-                        loading: false
-                    });
-                }
-            })
-            .catch(err => console.log(err));
-
     }
 
     // Re-renders component when settings change via UtilityButton (QuickJump)
@@ -84,43 +47,24 @@ export class SkillContainer extends Component {
 
     //Map each skill as a SkillInfo component by passing the following info: Name of skill, Skill Description, Short Description, Skill Properties, and Skill Master Level
     render() {
-        const { loading, retrievedData, settings } = this.state;
+        const { skillData, settings } = this.state;
         
         return (
             <div>
                 {
-                    loading ? <div style={{margin: '2rem 0% 2rem 45%'}}><Image src={loadingImage}/><div style={{paddingLeft: '0.5rem'}}>Loading!</div></div> : 
-                    <div>
-                        {
-                            retrievedData.map((skill, index) => 
-                                skill.offline ?
-                                    <div key={index}>
-                                        <SkillInfo 
-                                            skillData={skill}
-                                            name={skill.name}
-                                            properties={{}}
-                                            shortDesc={skill.shortDesc}
-                                            maxLevel={skill.maxLevel}
-                                            animationSetting={settings.animations}/>
-                                    </div>
-                                :
-                                //Offline skills require fetching all their info from json file instead
-                                    <div key={index}>
-                                        <SkillInfo 
-                                            skillData={this.state.skillData[index]}
-                                            name={skill.description.name}
-                                            desc={skill.description.desc}
-                                            shortDesc={skill.description.shortDesc}
-                                            properties={skill.properties}
-                                            levelProperties={skill.levelProperties}
-                                            maxLevel={skill.properties.maxLevel}
-                                            animationSetting={settings.animations}/>
-                                    </div>
-                            )
-                        }
-                        <a href="#skill"><span className="jump-button-tabs"/></a>
-                    </div>
+                    skillData.map((skill, index) => 
+                            <div key={index}>
+                                <SkillInfo 
+                                    skillData={skill}
+                                    name={skill.name}
+                                    properties={{}}
+                                    shortDesc={skill.shortDesc}
+                                    maxLevel={skill.maxLevel}
+                                    animationSetting={settings.animations}/>
+                            </div>
+                    )
                 }
+                <a href="#skill"><span className="jump-button-tabs"/></a>
             </div>
         );
     }

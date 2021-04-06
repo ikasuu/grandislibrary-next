@@ -1,90 +1,104 @@
 {
     "featured": [
         {
-            "image": "https://i.imgur.com/u3eNy9o.png",
+            "image": "https://i.imgur.com/vWBaX8i.jpg",
             "alt": "Progression Guide",
             "link": "#/content/progression-guide"
         },
         {
-            "image": "https://i.imgur.com/dYEiOUn.png",
+            "image": "https://i.imgur.com/PMZtMf8.png",
             "alt": "Discord Invite",
             "link": "https://discord.gg/d4et8vt9kP"
         },
         {
-            "image": "https://i.imgur.com/N3YG4IM.png",
+            "image": "https://i.imgur.com/2zMuAH7.png",
             "alt": "Ko-fi Support",
             "link": "https://ko-fi.com/ikasuu"
         }
     ],
     "recent": [
         {
+            "title": "Spring Blossoms Patch Notes",
+            "image": "https://i.imgur.com/DY0gTTm.jpg",
+            "alt": "Spring Blossoms Update Preview",
+            "link": "https://maplestory.nexon.net/news/65824/v-221-spring-blossoms-patch-notes",
+            "subtitle": "March 9th, 2021"
+        },
+        {
+            "title": "Bonus Stat Generation Issue Compensation",
+            "image": "https://i.imgur.com/TOjVlq9.jpg",
+            "alt": "Bonus Stat Generation Issue Compensation",
+            "link": "https://maplestory.nexon.net/news/65947/update-on-bonus-stat-generation-issue-compensation",
+            "subtitle": "February 26, 2021"
+        },
+        {
+            "title": "Bonus Stat Generation Issue",
+            "image": "https://i.imgur.com/TOjVlq9.jpg",
+            "alt": "Bonus Stat Generation Issue",
+            "link": "https://maplestory.nexon.net/news/65368/bonus-stat-generation-issue",
+            "subtitle": "February 23, 2020"
+        },
+        {
             "title": "Moonlight Magic Patch Notes",
-            "image": "https://i.imgur.com/vdUsnlT.png",
+            "image": "https://i.imgur.com/msLNqqV.png",
             "alt": "Moonlight Magic Patch Notes",
             "link": "https://maplestory.nexon.net/news/64760/v-220-moonlight-magic-patch-notes",
             "subtitle": "February 3rd, 2021"
         },
         {
             "title": "The Maplehood Watch is Back!",
-            "image": "https://i.imgur.com/orxrned.png",
+            "image": "https://i.imgur.com/6vFLLqI.png",
             "alt": "The Maplehood Watch is Back!",
             "link": "https://maplestory.nexon.net/news/64800/the-maplehood-watch-is-back-for-2021",
             "subtitle": "January 26th, 2021"
         },
         {
             "title": "Visit Sellas, Where the Stars Sleep!",
-            "image": "https://i.imgur.com/YIJGoPr.png",
+            "image": "https://i.imgur.com/WqegnCm.png",
             "alt": "Sellas, Where the Stars Sleep",
             "link": "https://maplestory.nexon.net/news/63875/v-219-awake-flicker-of-light-patch-notes#sellas",
             "subtitle": "January 6th, 2021"
-        },
-        {
-            "title": "NPC Frederick Removal",
-            "image": "https://i.imgur.com/gEQ3gaw.png",
-            "alt": "NPC Frederick Removal",
-            "link": "https://maplestory.nexon.net/news/64488/npc-fredrick-removal",
-            "subtitle": "January 6th, 2021"
-        },
-        {
-            "title": "Awake: Flicker of Light Patch Notes",
-            "image": "https://i.imgur.com/78EXXRq.png",
-            "alt": "Awake Flicker of Light",
-            "link": "https://maplestory.nexon.net/news/63875/v-219-awake-flicker-of-light-patch-notes",
-            "subtitle": "December 16, 2020"
-        },
-        {
-            "title": "Awake: Ascend to Mastery Patch Notes",
-            "image": "https://i.imgur.com/MP5hQVm.png",
-            "alt": "Awake Ascend to Mastery",
-            "link": "https://maplestory.nexon.net/news/63065/v-218-awake-ascend-to-mastery-patch-notes",
-            "subtitle": "November 17, 2020"
         }
     ],
     "upcoming": [
         {
+            "title": "Yeti x Pink Bean World!",
+            "image": "https://i.imgur.com/Rvp6DNo.jpg",
+            "alt": "Yeti x Pink Bean World!",
+            "link": "https://orangemushroom.net/2021/03/24/kms-ver-1-2-346-yeti-x-pink-bean-world/",
+            "subtitle": "March 24, 2021"
+        },
+        {
+            "title": "Job Balances",
+            "image": "https://i.imgur.com/j8cjjF1.png",
+            "alt": "KMS ver. 1.2.344 – Job Balancing!",
+            "link": "https://orangemushroom.net/2021/02/24/kms-ver-1-2-344-job-balancing/",
+            "subtitle": "February 18, 2021"
+        },
+        {
             "title": "NEO Update",
-            "image": "https://i.imgur.com/A78yRzl.png",
+            "image": "https://i.imgur.com/JVL9P4X.png",
             "alt": "KMS ver. 1.2.341 – MapleStory NEO: Signal!",
             "link": "https://orangemushroom.net/2020/12/17/kms-ver-1-2-341-maplestory-neo-signal/",
             "subtitle": "December 17, 2020"
         },
         {
             "title": "Yeti's Debut!",
-            "image": "https://i.imgur.com/W4bNh8G.png",
+            "image": "https://i.imgur.com/ZTGpZiA.png",
             "alt": "KMS ver. 1.2.340 – Yeti’s Debut!",
             "link": "https://orangemushroom.net/2020/11/18/kms-ver-1-2-340-yetis-debut/",
             "subtitle": "November 18, 2020"
         },
         {
             "title": "Halloween Events",
-            "image": "https://i.imgur.com/TOR5i4Y.png",
+            "image": "https://i.imgur.com/7QRxoLk.png",
             "alt": "KMS ver. 1.2.339 – Halloween, Haste & Return of the Legends!",
             "link": "https://orangemushroom.net/2020/10/21/kms-ver-1-2-339-halloween-haste-return-of-the-legends/",
             "subtitle": "October 21, 2020"
         },
         {
             "title": "MapleStory Anniversary (Maple Hotel)",
-            "image": "https://i.imgur.com/8ZQV5cY.png",
+            "image": "https://i.imgur.com/b5KtcMH.png",
             "alt": "KMS ver. 1.2.333 – MapleStory’s 17th Anniversary!",
             "link": "https://orangemushroom.net/2020/04/23/kms-ver-1-2-333-maplestorys-17th-anniversary/",
             "subtitle": "April 23, 2020"
@@ -94,42 +108,42 @@
     "popularContent": [
         {
             "title": "Progression Guide",
-            "image": "https://i.imgur.com/K0uTvbT.png",
+            "image": "https://i.imgur.com/MKXKOYf.png",
             "alt": "Progression Guide",
             "link": "#/content/progression-guide",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Shared Cash Shop Inventory",
-            "image": "https://i.imgur.com/3Hq55tb.png",
+            "image": "https://i.imgur.com/fK7UDov.png",
             "alt": "Tera Burning",
             "link": "#/content/shared-cash-shop-inventories",
             "subtitle": "Content, Equipment"
         },
         {
             "title": "Tera Burning",
-            "image": "https://i.imgur.com/EDvRb0c.png",
+            "image": "https://i.imgur.com/Bv7UNPk.png",
             "alt": "Tera Burning",
             "link": "#/events/tera-burning",
             "subtitle": "Events, Training"
         },
         {
             "title": "Level Content Guide",
-            "image": "https://i.imgur.com/XJYWLz0.png",
+            "image": "https://i.imgur.com/zd4PtjM.png",
             "alt": "Level Content Guide",
             "link": "#/content/level-content-guide",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Boss Pre-Quests",
-            "image": "https://i.imgur.com/yCwQ4Pc.png",
+            "image": "https://i.imgur.com/4QKNQx5.png",
             "alt": "Boss Pre-Quests",
             "link": "#/content/boss-matchmaking-pre-quests",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Upgrading & Enhancing Equipment",
-            "image": "https://i.imgur.com/GcXTd13.png",
+            "image": "https://i.imgur.com/J6ocFYJ.png",
             "alt": "Upgrading & Enhancing Equipment",
             "link": "#/content/upgrading-enhancing-equipment",
             "subtitle": "Content, Equipment"
@@ -137,6 +151,11 @@
 
     ],
     "popularClasses": [
+        {
+            "alt": "Hayato",
+            "class": "hayato",
+            "path": "sengoku/hayato"
+        },
         {
             "alt": "Shadower",
             "class": "shadower",
@@ -146,26 +165,6 @@
             "alt": "Adele",
             "class": "adele",
             "path": "flora/adele"
-        },
-        {
-            "alt": "Night Lord",
-            "class": "night-lord",
-            "path": "explorers/night-lord"
-        },
-        {
-            "alt": "Hero",
-            "class": "hero",
-            "path": "explorers/hero"
-        },
-        {
-            "alt": "Night Walker",
-            "class": "night-walker",
-            "path": "cygnus-knights/night-walker"
-        },
-        {
-            "alt": "Dual Blade",
-            "class": "dual-blade",
-            "path": "explorers/dual-blade"
         },
         {
             "alt": "Demon Slayer",
@@ -178,14 +177,29 @@
             "path": "other/hoyoung"
         },
         {
-            "alt": "Arch Mage (Fire, Poison)",
-            "class": "arch-mage-fire-poison",
-            "path": "explorers/arch-mage-fire-poison"
+            "alt": "Kanna",
+            "class": "kanna",
+            "path": "sengoku/kanna"
         },
         {
-            "alt": "Paladin",
-            "class": "paladin",
-            "path": "explorers/paladin"
+            "alt": "Dual Blade",
+            "class": "dual-blade",
+            "path": "explorers/dual-blade"
+        },
+        {
+            "alt": "Hero",
+            "class": "hero",
+            "path": "explorers/hero"
+        },
+        {
+            "alt": "Night Lord",
+            "class": "night-lord",
+            "path": "explorers/night-lord"
+        },
+        {
+            "alt": "Dawn Warrior",
+            "class": "dawn-warrior",
+            "path": "cygnus-knights/dawn-warrior"
         }
     ]
 }

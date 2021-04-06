@@ -96,21 +96,33 @@
             [
                 "Beginner", [{
                     "id": 40020000,
+                    "name": "Blessing of the Five Elements",
+                    "shortDesc": "Permanently increases HP by 15%, Damage from enemies: - 20%\\n+HP while +MP item is equipped\\n+1 Magic Attack for every 700 HP\\n[Magic Attack Increase: dam]",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Blessing_of_the_Five_Elements.png/revision/latest?cb=20120818095513"],
                     "type": "Passive"
                 },
                 {
                     "id": 40020109,
+                    "name": "Haku the Familiar",
+                    "shortDesc": "The mystical creature Haku follows you around everywhere. EVERYWHERE.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Haku_the_Familiar.png/revision/latest?cb=20160610215421"],
                     "type": "Passive"
                 },
                 {
                     "id": 40020001,
+                    "name": "Manaflow",
+                    "shortDesc": "When Mana is not full, automatically recovers 50 every 6 seconds until full.\\nFan Weapon Mastery: +40%.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Manaflow.png/revision/latest?cb=20120818095522"],
                     "type": "Passive"
                 },
                 {
                     "id": 40021227,
+                    "name": "Return of the Five Planets",
+                    "shortDesc": "Returns you to Momijigaoka.\\nCooldown 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Return_of_the_Five_Planets_%28Kanna%29.png/revision/latest?cb=20170904055731"],
                     "animations": ["https://media2.giphy.com/media/Z2sA7N6SQ7rCGkz4uQ/giphy.gif"],
                     "type": "Active"
@@ -120,6 +132,9 @@
                 "1st Job", [
                     {
                         "id": 42000000,
+                        "name": "Geomancy",
+                        "shortDesc": "Permanently gain Insight Lv. 30\\nEvery 5 sec, Kanna will discover a Mana Vein in the area when one of the skills below is used.\\n[1st-4th Skills] Shikigami Haunting 3rd Hit\\n[2nd Skills] Exorcist's Charm, Shikigami Charm\\n[4th Skill] Falling Sakura\\nThe spiritual energy of nature flows within the Mana Vein, allowing Kanna's Mana to recover even more quickly This effect stacks with MP recovery from other skills. Up to 3 Mana Veins can be active at one time.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Geomancy.png/revision/latest?cb=20190612230800"],
                         "animations": ["https://media1.giphy.com/media/DRTAXke0FWxUQBxWve/giphy.gif"],
                         "type": "Passive",
@@ -132,11 +147,17 @@
                     },
                     {
                         "id": 42000008,
+                        "name": "Haku the Familiar 2",
+                        "shortDesc": "Permanently increases Speed by 20 and Luck by 30\\nDepending on the amount of Potential and Bonus Potential INT, STR, DEX, and LUK of the Fan that Haku has equipped, Kanna's stats will also increase.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Haku_the_Familiar_2.png/revision/latest?cb=20180607142309"],
                         "type": "Passive"
                     },
                     {
                         "id": 42001000,
+                        "name": "Shikigami Haunting",
+                        "shortDesc": "[1st Hit]: Damage: 150%, Max Enemies Hit: 4, Attack Count: 2\\n[2nd Hit]: Damage: 150%, Max Enemies Hit: 4, Attack Count: 2\\n[3rd Hit]: Damage: 180%, Max Enemies Hit: 4, Attack Count: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Shikigami_Haunting.png/revision/latest?cb=20190602164414"],
                         "animations": ["https://media.giphy.com/media/h7uVQnHqcMLLBPWxoE/giphy.gif"],
                         "type": "Attack",
@@ -144,11 +165,17 @@
                     },
                     {
                         "id": 42000003,
+                        "name": "Spiritual Enlightenment",
+                        "shortDesc": "Permanently increases INT by 40 and Defense by 400.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Spiritual_Enlightenment.png/revision/latest?cb=20180607142033"],
                         "type": "Passive"
                     },
                     {
                         "id": 42001002,
+                        "name": "Mana Wrap",
+                        "shortDesc": "[Normal Teleport] Press a directional key and the skill key together to teleport a horizontal distance of 300 or a vertical distance of 400.\\n[Mana Vein Teleport] Press the skill key when a Mana Vein is discovered and you'll immediately jump to one of the discovered Mana Veins\\n[Random Teleport] Press the skill key in town to teleport to a random location. Mana Cost: 20",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Mana_Warp.png/revision/latest?cb=20190602221327"],
                         "animations": ["https://media.giphy.com/media/U8TGpQWRyJ0sFiEqEF/giphy.gif"],
                         "type": "Active",
@@ -161,6 +188,9 @@
                     },
                     {
                         "id": 42001100,
+                        "name": "Ghost Yaksha Trainee",
+                        "shortDesc": "Mana Cost: 30, Duration: 30 sec. Summons the Ghost Yaksha Shikigami.\\nWhile summoned, the Ghost Yaksha repeatedly attacks up to 6 enemies for 120% damage 4 times.\\nUse the skill again while the Ghost Yaksha is summoned to instantly dismiss it, pulling in nearby enemies to be hit for 350% damage.\\nCooldown: 3 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Ghost_Yaksha_Trainee.png/revision/latest?cb=20180607142158"],
                         "animations": ["https://media.giphy.com/media/VhLUmZC1MDeFMRWxhd/giphy.gif"],
                         "type": "Summon",
@@ -174,6 +204,9 @@
                 "2nd Job", [
                     {
                         "id": 42100024,
+                        "name": "Shikigami Haunting 2",
+                        "shortDesc": "[1st Hit]: Damage: 170%, Max Enemies Hit: 6, Attack Count: 2\\n[2nd Hit]: Damage: 170%, Max Enemies Hit: 6, Attack Count: 2\\n[3rd Hit]: Damage: 210%, Max Enemies Hit: 6, Attack Count: 2\\n[Spirit Warding Charm]: Activation Chance: 40%. Duration: 6 sec, Speed Reduced by 60%, Damage: 105% per sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Shikigami_Haunting_2.png/revision/latest?cb=20190612235944", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Shikigami_Haunting.png/revision/latest?cb=20190602164414"],
                         "animations": ["https://media.giphy.com/media/h7uVQnHqcMLLBPWxoE/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -185,6 +218,9 @@
                     },
                     {
                         "id": 42101002,
+                        "name": "Haku Reborn",
+                        "shortDesc": "Mana Cost: 50, Transformation Duration: 300 sec. Cooldown: 5 sec\\nHaku's Spirit Walker Skills\\n[Haku's Gift]: When Kanna's HP is below 90%, restores 50% of max HP. (Cooldown: 120 sec)\\n[Foxfire]: Summons a barrier made up of 3 wisps of foxfire for 30 sec. When Kanna is hit, the foxfire absorbs the damage instead, then attacks back by exploding for 800% damage. (Cooldown: 60 sec)\\n[Haku's Blessing]: Increases Magic ATT for you and your party members by 20% of the Magic ATT of the Fan Haku has equipped. (Always Applied)\\n[Breath of the Unseen]: Kanna's final damage increased by 3% for each party member. (Always Applied)",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Haku_Reborn.png/revision/latest?cb=20180607140957"],
                         "animations": ["https://media.giphy.com/media/KHKnNHlFq7AdGouHuB/giphy.gif"],
                         "type": "Summon",
@@ -198,6 +234,9 @@
                     },
                     {
                         "id": 42101005,
+                        "name": "Exorcist's Charm",
+                        "shortDesc": "MP Cost: 40. Summons a dark cloud. Max Enemies Hit: 15, Damage: 350%, Attack Count: 6, Duration: 3 sec. When enemies come in contact with the cloud, they receive 200% damage every 1 sec for 1 sec.\\nCooldown: 3 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Exorcist%27s_Charm.png/revision/latest?cb=20180607141110"],
                         "animations": ["https://media.giphy.com/media/VbtPJxm0lyMo2jtpMw/giphy.gif"],
                         "type": "Attack",
@@ -208,6 +247,9 @@
                     },
                     {
                         "id": 42100000,
+                        "name": "Ghost Yaksha Brother",
+                        "shortDesc": "Mana Cost: 30, Duration: 30 sec. Summons the Ghost Yaksha Shikigami.\\nWhile summoned, the Ghost Yaksha repeatedly attacks up to 8 enemies for 150% damage 4 times.\\nUse the skill again while the Ghost Yaksha is summoned to instantly dismiss it, pulling in nearby enemies to be hit for 350% damage.\\nCooldown: 3 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Ghost_Yaksha_Brother.png/revision/latest?cb=20180607140909", "https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Ghost_Yaksha_Trainee.png/revision/latest?cb=20180607142158"],
                         "animations": ["https://media.giphy.com/media/kFNdsIOUhFJ8mCqJXO/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -219,6 +261,9 @@
                     },
                     {
                         "id": 42101104,
+                        "name": "Shikigami Charm",
+                        "shortDesc": "Mana Cost: 25, Max Enemies Hit: 8, Damage: 180%, Attack Count: 4. Creates a vortex to attack enemies and flings you back approximately 1,300 pixels.\\nCooldown: 6 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Shikigami_Charm.png/revision/latest?cb=20190612235416"],
                         "animations": ["https://media0.giphy.com/media/hp8qp41NYzlePqxUyk/giphy.gif"],
                         "type": "Attack / Utility",
@@ -226,6 +271,9 @@
                     },
                     {
                         "id": 42101003,
+                        "name": "Radiant Peacock",
+                        "shortDesc": "Increases the Attack Speed by 2 levels for 240 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Radiant_Peacock.png/revision/latest?cb=20180607140835"],
                         "animations": ["https://media3.giphy.com/media/0z54DeqIKN9xvekXhp/giphy.gif"],
                         "type": "Buff",
@@ -233,6 +281,9 @@
                     },
                     {
                         "id": 42100007,
+                        "name": "Soul Bomb",
+                        "shortDesc": "Hits enemies within a 150-pixel range of the defeated enemy. Max Enemies Hit: 4, Damage: 120%",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0a/Skill_Soul_Bomb.png/revision/latest?cb=20180607141122"],
                         "animations": ["https://media.giphy.com/media/SvuOh3LqtjiUoM165q/giphy.gif"],
                         "type": "Passive",
@@ -243,6 +294,9 @@
                 "3rd Job", [
                     {
                         "id": 42110001,
+                        "name": "Warding Barrier",
+                        "shortDesc": "[Max Barriers Simultaneously Deployable]: 3\\n[Mana Recovery Reduction Per Barrier]: 4",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/ff/Skill_Warding_Barrier.png/revision/latest?cb=20190614200920"],
                         "type": "Passive",
                         "desc": "Whenever you have a Barrier up, you have reduced Mana recovery for each Barrier you have up",
@@ -253,6 +307,9 @@
                     },
                     {
                         "id": 42111004,
+                        "name": "Blossom Barrier",
+                        "shortDesc": "Mana Cost: 20, Duration: 100 sec, Damage Reduction: 60%, Status Resistance: +30\\nKnockback Resistance: +50%\\nCooldown: 100 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Blossom_Barrier.png/revision/latest?cb=20190614220030"],
                         "animations": ["https://media.giphy.com/media/RMjuZHW4K1lw7VC1it/giphy.gif", "https://i.imgur.com/bq462fI.png"],
                         "type": "Buff Zone",
@@ -263,6 +320,9 @@
                     },
                     {
                         "id": 42110013,
+                        "name": "Shikigami Haunting 3",
+                        "shortDesc": "[1st Hit]: Damage: 200%, Max Enemies Hit: 6, Attack Count: 4\\n[2nd Hit]: Damage: 200%, Max Enemies Hit: 6, Attack Count: 4\\n[3rd Hit]: Damage: 250%, Max Enemies Hit: 6, Attack Count: 4\\n[Spirit Warding Charm]: Activation Chance: 60%. Duration: 6 sec, Speed Reduced by 75%, Damage: 160% per sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Shikigami_Haunting_3.png/revision/latest?cb=20190614220225", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Shikigami_Haunting.png/revision/latest?cb=20190602164414"],
                         "animations": ["https://media.giphy.com/media/hvSOXX5indRSqhvnUW/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -274,6 +334,9 @@
                     },
                     {
                         "id": 42110002,
+                        "name": "Yosuzume",
+                        "shortDesc": "Each successful attack by Kanna has a 70% chance to summon Shikigami Charms, depending on the number of mobs hit. Shikigami Charms fly to nearby enemies, dealing 195% damage and leaving a mark that adds 5% to damage received from Kanna's attacks for 5 sec.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Yosuzume.png/revision/latest?cb=20190612235616"],
                         "animations": ["https://media.giphy.com/media/YMk53eng4hHBZ3JWZt/giphy.gif"],
                         "type": "Passive",
@@ -284,11 +347,17 @@
                     },
                     {
                         "id": 42110009,
+                        "name": "Spirit Path",
+                        "shortDesc": "Magic ATT: +30, Critical Rate: +25%, Critical Damage: +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Spirit_Path.png/revision/latest?cb=20180604033255"],
                         "type": "Passive"
                     },
                     {
                         "id": 42110008,
+                        "name": "Lifeblood Ritual",
+                        "shortDesc": "Restores 5% of Max HP for each enemy defeated. When attacking a boss enemy, restores 1% of Max HP every 4 sec.\\nPermanently increases Status Resistance by 30%.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Lifeblood_Ritual.png/revision/latest?cb=20120817141133"],
                         "type": "Passive",
                         "desc": "Enemies defeated by you restores some %HP. When attacking bosses, you will also restore some %HP periodically",
@@ -298,6 +367,9 @@
                     },
                     {
                         "id": 42111100,
+                        "name": "Tengu Strike",
+                        "shortDesc": "Mana Cost: 20. Summons the twin Tengu.\\nThe Tengu will venture out as far as 600 to the left and right of Kanna, and attack up to 15 enemies for 400% damage 5 times.\\nCooldown: 1 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Tengu_Strike.png/revision/latest?cb=20190614221822"],
                         "animations": ["https://media.giphy.com/media/XB4OvoJB7Zn5EwBDJp/giphy.gif"],
                         "type": "Attack / Summon",
@@ -308,6 +380,9 @@
                     },
                     {
                         "id": 42110000,
+                        "name": "Ghost Yaksha Lieutenant",
+                        "shortDesc": "Mana Cost: 30, Duration: 30 sec. Summons the Ghost Yaksha Shikigami.\\nWhile summoned, the Ghost Yaksha repeatedly attacks up to 10 enemies for 200% damage 4 times.\\nUse the skill again while the Ghost Yaksha is summoned to instantly dismiss it, pulling in nearby enemies to be hit for 400% damage.\\nCooldown: 3 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/ff/Skill_Ghost_Yaksha_Lieutenant.png/revision/latest?cb=20190614222620", "https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Ghost_Yaksha_Trainee.png/revision/latest?cb=20180607142158"],
                         "animations": ["https://media.giphy.com/media/Lkxns30ZbKddXisrny/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -319,6 +394,9 @@
                     },
                     {
                         "id": 42111003,
+                        "name": "Kishin Shoukan",
+                        "shortDesc": "Mana Cost: 20, Duration: 30 sec. Summons the demons Hana and Yuki.\\nWhile summoned, the two demons ricochet an orb of energy between them to attack enemies caught in the crossfire. Max Enemies Hit: 10, Damage: 150%, Attack Count: 2\\nReduces the respawn waiting time on the field by 40%, and increases max amount of enemies that can be created by 50%.\\nEffect cannot be stacked within the same zone.\\nCooldown: 60 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Kishin_Shoukan.png/revision/latest?cb=20190612235327"],
                         "animations": ["https://media.giphy.com/media/dWBJAfeUifoR9K0QEa/giphy.gif"],
                         "type": "Summon",
@@ -330,6 +408,9 @@
                     },
                     {
                         "id": 42111012,
+                        "name": "Mana Balance",
+                        "shortDesc": "Uses 50% of Max HP to immediately recover 80 Mana.\\nCooldown: 15 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Mana_Balance.png/revision/latest?cb=20150527193839"],
                         "animations": ["https://media2.giphy.com/media/QkAOuZNesiVTaool7b/giphy.gif"],
                         "type": "Active"
@@ -339,6 +420,9 @@
                 "4th Job", [
                 {
                     "id": 42120011,
+                    "name": "Haku Perfected",
+                    "shortDesc": "Upgrades Haku Reborn. Haku takes human form for 500 sec. Cooldown: 5 sec\\nHaku's Spirit Walker Skills\\n[Haku's Gift 2]: When Kanna's HP is below 90%, restores 80% of max HP. (Cooldown: 120 sec)\\n[Foxfire 2]: Summons a barrier made up of 3 wisps of foxfire for 55 sec. When Kanna is hit, the foxfire absorbs the damage instead, then retaliates by exploding for 1350% damage. (Cooldown: 60 sec)\\n[Haku's Blessing 2]: Increases Magic ATT for you and your party members by 40% of Magic ATT of the fan Haku has equipped. (Always Applied)\\n[Breath of the Unseen 2]: Kanna's final damage increased by 5% for each party member. (Always Applied)",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Haku_Perfected.png/revision/latest?cb=20190615005018", "https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Haku_Reborn.png/revision/latest?cb=20180607140957"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -352,6 +436,9 @@
                 },
                 {
                     "id": 42121005,
+                    "name": "Bellflower Barrier",
+                    "shortDesc": "Mana Cost: 20, Duration: 100 sec, Damage: +20%, Boss Damage: +5%\\nCooldown: 180 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Bellflower_Barrier.png/revision/latest?cb=20190615163433"],
                     "animations": ["https://media.giphy.com/media/h79wpSH7g0RtrCysbz/giphy.gif", "https://i.imgur.com/wmrcc5W.png"],
                     "type": "Buff Zone",
@@ -362,6 +449,9 @@
                 },
                 {
                     "id": 42120025,
+                    "name": "Shikigami Haunting 4",
+                    "shortDesc": "[1st Hit]: Damage: 250%, Max Enemies Hit: 8, Attack Count: 4\\n[2nd Hit]: Damage: 300%, Max Enemies Hit: 8, Attack Count: 4\\n[3rd Hit]: Damage: 400%, Max Enemies Hit: 8, Attack Count: 4, Mana Restored: 5, amount needed to activate Shikigami Doppelganger additionally increased by 5.\\n[Spirit Warding Charm]: Activation Chance: 100%. Duration: 6 sec, Speed Reduced by 90%, Damage: 240% per sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Shikigami_Haunting_4.png/revision/latest?cb=20190615170200", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Shikigami_Haunting.png/revision/latest?cb=20190602164414"],
                     "animations": ["https://media.giphy.com/media/YnqIlsV6xoenJXShhM/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -374,6 +464,9 @@
                 },
                 {
                     "id": 42121104,
+                    "name": "Shikigami Doppelganger",
+                    "shortDesc": "When activated, begins to accumulate Mana each time Kanna consumes Mana. Once it has been charged with 260 Mana, this skill activates an attack that damages up to 8 enemies near Kanna, for 480% damage on each of 15 hits, 480 time(s).\\nCooldown: 5 sec.",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Shikigami_Doppelganger.png/revision/latest?cb=20190612235836"],
                     "animations": ["https://media.giphy.com/media/JUkzyWUpB3ffic53qG/giphy.gif"],
                     "type": "Toggle Attack",
@@ -381,16 +474,22 @@
                 },
                 {
                     "id": 42121102,
+                    "name": "Nine-Tailed Fury",
+                    "shortDesc": "Mana Cost: 60, Max Enemies Hit: 15, Damage: 540%, Attack Count: 9, Duration: 35 sec, Damage Increase: 20%.\\nCooldown: 45 sec\\n[Passive Effect: When attacking while Nine-Tailed Fury is off cooldown, Haku attacks up to 6 enemies in front of him for 150% damage 3 times, at a prop% chance]",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Nine-Tailed_Fury.png/revision/latest?cb=20180607140315"],
                     "animations": ["https://media.giphy.com/media/ln6LadUTweX5gVwBSA/giphy.gif"],
-                    "type": "Attack",
+                    "type": "Attack / Final Attack",
                     "desc": "Unleashes an attack that hits enemies in a large area and grants a %Damage increasing buff",
                     "details": [
-                        "<strong>[Final Attack Passive]</strong.: When Nine-Tailed Fury is off cooldown, Haku has a chance to attack nearby enemies"
+                        "<strong>[Final Attack Passive]</strong>: When Nine-Tailed Fury is off cooldown, Haku has a chance to attack nearby enemies"
                     ]
                 },
                 {
                     "id": 42120001,
+                    "name": "Ghost Yaksha Boss",
+                    "shortDesc": "Mana Cost: 40, Duration: 30 sec. Summons the Ghost Yaksha Shikigami.\\nWhile summoned, the Ghost Yaksha repeatedly attacks up to 10 enemies for 240% damage 4 times.\\nUse the skill again while the Ghost Yaksha is summoned to instantly dismiss it, pulling in nearby enemies to be hit for 500% damage.\\nCooldown: 3 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Ghost_Yaksha_Boss.png/revision/latest?cb=20190612235111", "https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Ghost_Yaksha_Trainee.png/revision/latest?cb=20180607142158"],
                     "animations": ["https://media.giphy.com/media/ihYsWg5J4CtvlwLfgs/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -402,11 +501,17 @@
                 },
                 {
                     "id": 42120009,
+                    "name": "Kasen",
+                    "shortDesc": "Fan Mastery: 70%, Damage: +30%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Kasen.png/revision/latest?cb=20180607121248"],
                     "type": "Passive"
                 },
                 {
                     "id": 42120003,
+                    "name": "Nightghost Guide",
+                    "shortDesc": "Attack Chance: 30%, Max Enemies Hit: 6, Damage: 160%, Attack Count: 1. Attacked Targets have a 30% chance to yield 30% additional EXP for 5 sec, and have an increased chance to drop equipment with potential. Also, when this effect is activated, the installed Kishin Shoukan's duration is increased by 5 sec.\\n[Passive Effect: Kishin Shoukan Damage: +200%p]",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Nightghost_Guide.png/revision/latest?cb=20190612235223"],
                     "type": "Final Attack Passive",
                     "desc": "Attacks have a chance to deal an additional hit that debuffs enemies",
@@ -417,13 +522,23 @@
                 },
                 {
                     "id": 42121100,
+                    "name": "Orochi Unbound",
+                    "shortDesc": "Mana Cost: 50, Max Enemies hit: 15, Damage: 375%, Attack Count: 1. Hold the key down for up to approx. 4 sec to use 5 Mana per sec. Max Enemies Hit: 15, Damage: 500%, Attack Count: 8.\\nCooldown: 90 sec",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Orochi_Unbound.png/revision/latest?cb=20180604034453"],
                     "animations": ["https://media.giphy.com/media/IecSMenU5Be7lXIxl4/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": ""
+                    "desc": "When held, a flurry of attacks will rain down targeting enemies",
+                    "details": [
+                        "Can be used in the air",
+                        "You have 100% Knockback Resistance while the skill is active"
+                    ]
                 },
                 {
                     "id": 42121000,
+                    "name": "Vanquisher's Charm",
+                    "shortDesc": "Mana Cost: 15, Max Duration: 10 sec, Max Enemies Hit: 8, Damage: 300%, Number of Consecutive Attacks: 5\\nYou can move and jump while holding down the skill key.\\nWhile in use, increases the amount needed to activate Shikigami Doppelganger by 30.\\nCooldown: 60 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Vanquisher%27s_Charm.png/revision/latest?cb=20180604033802"],
                     "animations": ["https://media1.giphy.com/media/h1tOlEp5gmFT0tHybE/giphy.gif"],
                     "type": "Key-down Attack",
@@ -434,6 +549,9 @@
                 },
                 {
                     "id": 42121002,
+                    "name": "Falling Sakura",
+                    "shortDesc": "Mana Cost: 60, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 5\\n100% of max HP recovered for yourself and nearby party members.\\nCooldown: 20 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Falling_Sakura.png/revision/latest?cb=20190612235722"],
                     "animations": ["https://media.giphy.com/media/lPG5I1KQz7Hh80hiVK/giphy.gif"],
                     "type": "Attack / Heal",
@@ -444,6 +562,9 @@
                 },
                 {
                     "id": 42121004,
+                    "name": "Binding Tempest",
+                    "shortDesc": "Mana Cost: 40, Max Enemies Hit: 15, Damage: 250%, Attack Count: 8, Stun Duration: 10 sec.\\nDepending on the amount of damage dealt to enemies with Binding Tempest, the Stun Duration can be increased to up to 100%\\nCooldown: 120 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Binding_Tempest.png/revision/latest?cb=20180604035845"],
                     "animations": ["https://media.giphy.com/media/H75GL3YSGKrR3T5oth/giphy.gif"],
                     "type": "Bind Attack",
@@ -451,12 +572,18 @@
                 },
                 {
                     "id": 42121006,
+                    "name": "Akatsuki Warrior",
+                    "shortDesc": "Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Akatsuki_Warrior.png/revision/latest?cb=20180520025411"],
                     "animations": ["https://media1.giphy.com/media/omrn6bGMjudf84b7j5/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 42121007,
+                    "name": "Hero's Will",
+                    "shortDesc": "Mana Cost: 5, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Hero%27s_Will_%28Sengoku%29.png/revision/latest?cb=20180607132647"],
                     "animations": ["https://media2.giphy.com/media/pGq2DlUTJm2b1OMqdg/giphy.gif"],
                     "type": "Buff",
@@ -468,54 +595,81 @@
             "hyperPassive": [
                 {
                     "id": 42120043,
+                    "name": "Vanquisher's Charm - Extra Strike",
+                    "shortDesc": "Number of Attacks: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Vanquisher%27s_Charm_-_Extra_Strike.png/revision/latest?cb=20180607134642"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 42120044,
+                    "name": "Geomancy - Spread",
+                    "shortDesc": "Maximum number of Mana Veins that can be concurrently active increased by 1.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Geomancy_-_Spread.png/revision/latest?cb=20190615202154"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 42120045,
+                    "name": "Vanquisher's Charm - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Vanquisher%27s_Charm_-_Spread.png/revision/latest?cb=20180607134607"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 42120046,
+                    "name": "Blossom Barrier - Boss Rush",
+                    "shortDesc": "Boss Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Bellflower_Barrier_-_Boss_Rush.png/revision/latest?cb=20190615201312"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 42120047,
+                    "name": "Blossom Barrier - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -90%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Blossom_Barrier_-_Cooldown_Cutter.png/revision/latest?cb=20190615201649"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 42120048,
+                    "name": "Bellflower Barrier - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -80%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Bellflower_Barrier_-_Cooldown_Cutter.png/revision/latest?cb=20190615201752"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 42120049,
+                    "name": "Vanquisher's Charm - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Vanquisher%27s_Charm_-_Reinforce.png/revision/latest?cb=20180607134529"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 42120050,
+                    "name": "Geomancy - Persist",
+                    "shortDesc": "Duration: +5 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Geomancy_-_Persist.png/revision/latest?cb=20190615202402"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 42120051,
+                    "name": "Bellflower Barrier - Persist",
+                    "shortDesc": "Duration: +20 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Bellflower_Barrier_-_Persist.png/revision/latest?cb=20190615202454"],
                     "type": "Passive",
                     "reqLev": 190
@@ -524,6 +678,9 @@
             "hyperActive": [
                 {
                     "id": 42121054,
+                    "name": "Circle of Suppression",
+                    "shortDesc": "When activated, uses 30 Mana to deal 500% damage to 15 nearby enemies at set intervals 1 times.\\nNegates attack ignore and attack reflection effects.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Circle_of_Suppression.png/revision/latest?cb=20190615202854"],
                     "animations": ["https://media4.giphy.com/media/GSdY1XkjV5TUVljXYr/giphy.gif"],
                     "type": "Toggle Buff",
@@ -536,6 +693,9 @@
                 },
                 {
                     "id": 42121052,
+                    "name": "Veritable Pandemonium",
+                    "shortDesc": "Mana Cost: 50, Max Enemies Hit: 15, Damage: 670%, Attack Count: 15, Stun Duration: 15 sec.\\nDepending on the amount of damage dealt to enemies with Veritable Pandemonium, Stun Duration increased to up to 100%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Veritable_Pandemonium.png/revision/latest?cb=20151020051426"],
                     "animations": ["https://media.giphy.com/media/dCQImTctSZhxqP2Ksp/giphy.gif"],
                     "type": "Bind Attack",
@@ -544,6 +704,9 @@
                 },
                 {
                     "id": 42121053,
+                    "name": "Princess's Vow",
+                    "shortDesc": "Mana Cost: 50, Duration: 60 sec, Damage: +10%.\\nOnly applies to Sengoku Warrior classes within the party.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Princess%27s_Vow.png/revision/latest?cb=20180607174156"],
                     "animations": ["https://media3.giphy.com/media/nMmmfnEu0n2GqUg4OX/giphy.gif"],
                     "type": "Buff",

@@ -101,17 +101,26 @@
             [
                 "Beginner", [{
                     "id": 150021000,
+                    "name": "Artistic Recall",
+                    "shortDesc": "MP Cost: 30, you move to Ristonia.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2020/01/revisitation.png?w=600"],
                     "animations": ["https://media2.giphy.com/media/sRkG6Jc68nIwwy4IRQ/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 150020079,
+                    "name": "Magic Conversion",
+                    "shortDesc": "35% of your equipment's Magic ATT is converted to Attack Power, excluding your weapon. Any set effects do not apply. Only converts up to 15% of your weapon's base Attack Power.",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/magic-circuit.png?w=600"],
                     "type": "Passive"
                 },
                 {
                     "id": 150020006,
+                    "name": "Recalling Greatness",
+                    "shortDesc": "Critical Damage: +10%, Attack Power: +10%",
+                    "maxLevel": 10,
                     "icons": ["https://orangemushroom.files.wordpress.com/2020/01/face.png?w=600"],
                     "type": "Passive",
                     "desc": "",
@@ -140,6 +149,9 @@
                 "1st Job", [
                     {
                         "id": 151001000,
+                        "name": "Blade of Will",
+                        "shortDesc": "MP Cost: 12, Damage: 85%, Number of Attacks: 4, Max Enemies Hit: 5",
+                        "maxLevel": 20,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/plain.png?w=600"],
                         "animations": ["https://media3.giphy.com/media/KCYmBs6F31WlMPOfla/giphy.gif"],
                         "type": "Attack",
@@ -147,6 +159,9 @@
                     },
                     {
                         "id": 151001001,
+                        "name": "Magic Dispatch",
+                        "shortDesc": "MP Cost: 20, Damage: 80%, Number of Attacks: 3, Magical Shards: 5\\nCooldown: 6 sec",
+                        "maxLevel": 20,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600"],
                         "animations": ["https://media0.giphy.com/media/j5QcQlY3GIABEePCaN/giphy.gif"],
                         "type": "Attack",
@@ -157,6 +172,9 @@
                     },
                     {
                         "id": 151001002,
+                        "name": "Jaunt",
+                        "shortDesc": "MP Cost: 5, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/vault.png?w=600"],
                         "animations": ["https://media2.giphy.com/media/LrFzfgMEZDKRqSKJ6k/giphy.gif"],
                         "type": "Active",
@@ -167,6 +185,9 @@
                     },
                     {
                         "id": 151001004,
+                        "name": "High Rise",
+                        "shortDesc": "MP Cost: 20, allows you to remain in the air for a short time",
+                        "maxLevel": 1,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/levitation.png?w=600"],
                         "animations": ["https://media0.giphy.com/media/MxGIjq9jUhbOii86oY/giphy.gif"],
                         "type": "Active",
@@ -179,6 +200,9 @@
                     },
                     {
                         "id": 151000005,
+                        "name": "Martial Discipline",
+                        "shortDesc": "Attack Power: +30, Defense: +200, Max HP: +1000\\nSpeed: +10, Jump: +10, Knockback Resistance: +60%\\nDamage Taken: -10%",
+                        "maxLevel": 19,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/rudiment.png?w=600"],
                         "type": "Passive"
                     }]
@@ -187,12 +211,18 @@
                 "2nd Job", [
                     {
                         "id": 151100017,
+                        "name": "Aether Weaving",
+                        "shortDesc": "Obtain 5 aether at regular intervals, obtain 12 aether when Trigger skill hits, can obtain up to 300.\\nWhen Aether Forge is active, every 100 aether can create 2 aether swords. Up to 4 aether swords can be created at a time.",
+                        "maxLevel": 1,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/aether.png?w=600"],
                         "type": "Passive",
                         "desc": "A special resource that generates passively and whenever you attack an enemy with a 'Trigger' skill"
                     },
                     {
                         "id": 151100002,
+                        "name": "Aether Crystal",
+                        "shortDesc": "Duration: 30 sec, up to 7 can exist on the map.\\nIf the max limit is reached and another one is created, the crystal with the lowest duration vanishes.\\nThe crystal cannot be created near another crystal, or near certain platforms such as those that cannot be reached.\\nCooldown: 4 sec",
+                        "maxLevel": 1,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/aether-crystal.png?w=600"],
                         "animations": ["https://media1.giphy.com/media/o4AI27UyJjfawQuhRl/giphy.gif"],
                         "type": "Passive",
@@ -204,6 +234,9 @@
                     },
                     {
                         "id": 151101000,
+                        "name": "Skewering",
+                        "shortDesc": "MP Cost: 25, Damage: 80%, Number of Attacks: 8, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/punto.png?w=600"],
                         "animations": ["https://media2.giphy.com/media/m9v3zQx70hN8q97VC0/giphy.gif"],
                         "type": "Trigger Attack",
@@ -211,6 +244,9 @@
                     },
                     {
                         "id": 151101006,
+                        "name": "Aether Forge",
+                        "shortDesc": "When Trigger Skill hits, deal 200% damage to up to 10 enemies every 9.5 sec Reaching your 3rd and 4th job will reduce attack cooldown by 4 sec each.\\nAttack 1 times per aether sword.\\nEach successful attack has a 30% chance to create an aether crystal.\\nCooldown: 0.5 sec",
+                        "maxLevel": 10,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/creation.png?w=600"],
                         "animations": ["https://media0.giphy.com/media/JpeOY13y5dwUGakDam/giphy.gif"],
                         "type": "Toggle Attack",
@@ -224,6 +260,9 @@
                     },
                     {
                         "id": 151101001,
+                        "name": "Impale",
+                        "shortDesc": "MP Cost: 45, Aether Cost: 15\\nDamage: 85%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 7 sec ",
+                        "maxLevel": 10,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/impale.png?w=600"],
                         "animations": ["https://media0.giphy.com/media/lqGR4b8YYKzIVIbsYp/giphy.gif"],
                         "type": "Attack",
@@ -235,6 +274,9 @@
                     },
                     {
                         "id": 151101003,
+                        "name": "Resonance Rush",
+                        "shortDesc": "Aether crystal used with Resonance Rush vanishes.\\nDamage: 120%, Number of Attacks: 6, Max Enemies Hit: 6\\nIf total enemies struck is lower than the max, an additional 15% is added to the final damage for each enemy below the max. Increased final damage is additive.\\nWhen attack hits, a buff triggers for 30 sec that increases final damage by 5% and Enemy DEF Ignored by 5%. Can be stacked up to 2 times.",
+                        "maxLevel": 10,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/resonance.png?w=600"],
                         "animations": ["https://media2.giphy.com/media/kZKSgUf3uY4YmAbPc9/giphy.gif"],
                         "type": "Attack",
@@ -248,6 +290,9 @@
                     },
                     {
                         "id": 151101013,
+                        "name": "Aetherial Arms",
+                        "shortDesc": "When Trigger Skill hits, creates shard every 8 sec, consume 25 MP upon creation.\\nMagic Dispatch and Aetherial Arms Damage: +30%p\\nCooldown: 0.5 sec",
+                        "maxLevel": 10,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/wonder.png?w=600"],
                         "animations": ["https://media4.giphy.com/media/NFOjX0MtHhU97JVvBd/giphy.gif"],
                         "type": "Toggle Attack",
@@ -258,6 +303,9 @@
                     },
                     {
                         "id": 151101005,
+                        "name": "Weave Infusion",
+                        "shortDesc": "MP Cost: 10, Increases attack speed of Bladecaster for 200 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/booster.png?w=600"],
                         "animations": ["https://media2.giphy.com/media/DZi5vzjx0sme1X2ras/giphy.gif"],
                         "type": "Buff",
@@ -265,16 +313,25 @@
                     },
                     {
                         "id": 151100014,
+                        "name": "Bladecaster Control",
+                        "shortDesc": "Bladecaster Mastery: +50%\\nAttack Power: +30",
+                        "maxLevel": 10,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/mastery.png?w=600"],
                         "type": "Passive"
                     },
                     {
                         "id": 151100015,
+                        "name": "Will to Live",
+                        "shortDesc": "Every 5 sec, restores 4% of Max HP/MP even in combat.",
+                        "maxLevel": 9,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attribute.png?w=600"],
                         "type": "Passive"
                     },
                     {
                         "id": 151100016,
+                        "name": "Elite Training",
+                        "shortDesc": "STR +60",
+                        "maxLevel": 5,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/physical-training.png?w=600"],
                         "type": "Passive"
                     }]
@@ -283,6 +340,9 @@
                 "3rd Job", [
                     {
                         "id": 151111000,
+                        "name": "Eviscerate",
+                        "shortDesc": "MP Cost: 35, Damage: 220%, Number of Attacks: 6, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/cross.png?w=600"],
                         "animations": ["https://media0.giphy.com/media/jQQVcydQzj7SzHDJQ2/giphy.gif"],
                         "type": "Trigger Attack",
@@ -290,6 +350,9 @@
                     },
                     {
                         "id": 151111003,
+                        "name": "Hunting Decree",
+                        "shortDesc": "MP Cost: 40, Aether Cost: 100\\nFor each aether sword, Duration: 40 sec, Damage: 240%, Number of Attacks: 2\\nCan command up to 4 swords. When you exceed the max number and a command is given, the aether sword with the least duration left vanishes.\\nWhen attack hits, 15% chance to create aether crystal.\\nCooldown: 0.5 sec",
+                        "maxLevel": 20,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600"],
                         "animations": ["https://media3.giphy.com/media/IeWNTGLo1AYPYiwxmb/giphy.gif"],
                         "type": "Aether Sword Summon",
@@ -303,6 +366,9 @@
                     },
                     {
                         "id": 151111002,
+                        "name": "Noble Summons",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 10, Damage: 260%, Number of Attacks: 4\\nDebuffs enemies for 30 sec. During that time, Adele ignores 10% of those enemies' DEF.\\nEach successful attack has a 90% chance to create an aether crystal.\\nCooldown: 12 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/gathering.png?w=600"],
                         "animations": ["https://media3.giphy.com/media/d8Qb3kHdw5L65gIHDI/giphy.gif"],
                         "type": "Aether Sword Attack",
@@ -315,6 +381,9 @@
                     },
                     {
                         "id": 151111001,
+                        "name": "Reign of Destruction",
+                        "shortDesc": "MP Cost: 120, Territory Duration: 7 sec, Max Enemies Hit: 8, Damage: 100%, Number of Attacks: 4\\nThe sword turns when duration ends, attacking an additional 12 times dealing 550% damage up to 12 enemies.\\nCooldown: 30 sec",
+                        "maxLevel": 20,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/territory.png?w=600"],
                         "animations": ["https://media2.giphy.com/media/eN51yOocvvxWIp72Dm/giphy.gif"],
                         "type": "Attack",
@@ -326,6 +395,9 @@
                     },
                     {
                         "id": 151111005,
+                        "name": "True Nobility",
+                        "shortDesc": "MP Cost: 200, Creates a spirit field for 20 sec.\\nReceive 30% of the damage dealt to party members inside the field and create a shield equal to 80% of that damage.\\nCooldown: 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/nobility.png?w=600"],
                         "animations": ["https://media1.giphy.com/media/dXudUeSk8EMEcX8umt/giphy.gif"],
                         "type": "Buff Zone",
@@ -336,6 +408,9 @@
                     },
                     {
                         "id": 151111004,
+                        "name": "Feather Float",
+                        "shortDesc": "MP Cost: 46, Aether Cost: 20\\nMove back a short distance.\\nCooldown: 6 sec\\n[Passive Effect: Speed: +5, Jump: +10, Max Speed: +10]",
+                        "maxLevel": 4,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/feather.png?w=600"],
                         "animations": ["https://media1.giphy.com/media/TFNLyNO41OJDr3BYoB/giphy.gif"],
                         "type": "Active",
@@ -347,11 +422,17 @@
                     },
                     {
                         "id": 151110006,
+                        "name": "Ascent",
+                        "shortDesc": "Attack Power: +30, Final Damage: +15%, Critical Rate: +20%\\nMagic Dispatch and Aetherial Arms Damage: +115%p\\nAether Forge Damage: +240%p\\nImpale Damage: +100%p\\nResonance Rush Damage: +125%p",
+                        "maxLevel": 20,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600"],
                         "type": "Passive"
                     },
                     {
                         "id": 151110007,
+                        "name": "Tolerance",
+                        "shortDesc": "Knockback Resistance: +40%, Max HP: +10%, Status Resistance: +30, Elemental Resistance: +30%\\nDamage Taken: -20%",
+                        "maxLevel": 10,
                         "icons": ["https://orangemushroom.files.wordpress.com/2019/12/tolerance.png?w=600"],
                         "type": "Passive"
                     }]
@@ -360,6 +441,9 @@
                 "4th Job", [
                 {
                     "id": 151120012,
+                    "name": "Aether Mastery",
+                    "shortDesc": "Obtain up to 400 aether.\\nIncreases max aether swords that can be created with Aether Forge, and commanded with Hunting Decree, to 6.",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/high-ether.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/aether.png?w=600"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -369,6 +453,9 @@
                 },
                 {
                     "id": 151121000,
+                    "name": "Cleave",
+                    "shortDesc": "MP Cost: 40, Damage: 375%, Number of Attacks: 6, Max Enemies Hit: 7",
+                    "maxLevel": 30,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/divide.png?w=600"],
                     "animations": ["https://media2.giphy.com/media/SYXJ1sTWR7jEVLpSpp/giphy.gif"],
                     "type": "Trigger Attack",
@@ -379,6 +466,9 @@
                 },
                 {
                     "id": 151121003,
+                    "name": "Aether Bloom",
+                    "shortDesc": "MP Cost: 80. For each aether sword, Max Enemies Hit: 8, Damage: 650%, Number of Attacks: 8\\nIf one enemy gets hit by Aether Bloom multiple times, the skill's final damage on that enemy is reduced by 25%.\\nWhen attack hits, 50% chance to create aether crystal.\\nCooldown: 20 sec",
+                    "maxLevel": 30,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/blossom.png?w=600"],
                     "animations": ["https://media0.giphy.com/media/Ig3C6I9G733sNEgX8G/giphy.gif"],
                     "type": "Aether Sword Attack",
@@ -392,6 +482,9 @@
                 },
                 {
                     "id": 151121001,
+                    "name": "Grave Proclamation",
+                    "shortDesc": "MP Cost: 150, Enemies Hit: 1, Damage: 800%, Number of Attacks: 10\\nIncreases damage to enemy with mark of death by 20%, and ignores additional 10% defense rate.\\nIf there is an enemy with the mark within attack range of Hunting Decree or Infinity Blade, the attack will focus on that enemy.\\nCooldown: 90 sec",
+                    "maxLevel": 20,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/grave.png?w=600"],
                     "animations": ["https://media1.giphy.com/media/RHCpLWle8DraSrvQBW/giphy.gif"],
                     "type": "Attack",
@@ -405,6 +498,9 @@
                 },
                 {
                     "id": 151121004,
+                    "name": "Aether Guard",
+                    "shortDesc": "MP Cost: 150. Key can be held up to 8 sec. Damage taken while key is held, including attacks that deal damage in proportion to Max HP, is reduced by 40%.\\nIf you use the moment you are attacked, you are invincible for 3 sec and the damage is blocked.\\nWhen the skill ends, cooldown is reduced by 3.5 sec for each sec remaining from holding the key.\\nCooldown: 60 sec",
+                    "maxLevel": 20,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600"],
                     "animations": ["https://media2.giphy.com/media/RsNUW30Yhczac2feSx/giphy.gif"],
                     "type": "Key-down Active",
@@ -418,6 +514,9 @@
                 },
                 {
                     "id": 151121002,
+                    "name": "Plummet",
+                    "shortDesc": "MP Cost: 45. Drop vertically when used in the air, Damage: 550%, Max Enemies Hit: 6, Number of Attacks: 6\\nCooldown: 1.5 sec",
+                    "maxLevel": 20,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/tread.png?w=600"],
                     "animations": ["https://media1.giphy.com/media/271gIbmLOpDvPqsgr2/giphy.gif"],
                     "type": "Trigger Attack",
@@ -428,12 +527,18 @@
                 },
                 {
                     "id": 151121005,
+                    "name": "Hero of the Flora",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://orangemushroom.files.wordpress.com/2020/01/lef-warrior.png?w=600"],
                     "animations": ["https://media1.giphy.com/media/KkPrlAtPfT6W4njPcf/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 151121006,
+                    "name": "Floran Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://orangemushroom.files.wordpress.com/2020/01/lef-heros-will.png?w=600"],
                     "animations": ["https://media3.giphy.com/media/Tq9EsWm6lB7MlhjXwh/giphy.gif"],
                     "type": "Buff",
@@ -441,6 +546,9 @@
                 },
                 {
                     "id": 151120007,
+                    "name": "Bladecaster Expertise",
+                    "shortDesc": "Bladecaster Mastery: +70%, Attack Power: +30",
+                    "maxLevel": 30,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/expert.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/mastery.png?w=600"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -450,6 +558,9 @@
                 },
                 {
                     "id": 151120008,
+                    "name": "Perfection",
+                    "shortDesc": "Magic Dispatch and Aetherial Arms Damage: +225%p\\nAether Forge Damage: +270%p\\nImpale Damage: +200%p\\nResonance Rush Damage: +265%p\\nHunting Decree Damage: +120%p\\nNoble Summons Damage: +300%p\\nReign of Destruction Damage: +300%p",
+                    "maxLevel": 30,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/perfection.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -459,11 +570,17 @@
                 },
                 {
                     "id": 151120009,
+                    "name": "Ruination",
+                    "shortDesc": "Final Damage: +30%, Enemy DEF Ignored: +20%",
+                    "maxLevel": 20,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/demolition.png?w=600"],
                     "type": "Passive"
                 },
                 {
                     "id": 151120010,
+                    "name": "Strive",
+                    "shortDesc": "Attack Power: +30, Boss Damage: +10%, Critical Rate: +20%, Max HP: +15%",
+                    "maxLevel": 20,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attain.png?w=600"],
                     "type": "Passive"
                 }]
@@ -473,6 +590,9 @@
             "hyperPassive": [
                 {
                     "id": 151120031,
+                    "name": "Trigger - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-reinforce.png?w=600"],
                     "type": "Passive",
                     "desc": "",
@@ -483,6 +603,9 @@
                 },
                 {
                     "id": 151120032,
+                    "name": "Trigger - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-ignore-guard.png?w=600"],
                     "type": "Passive",
                     "desc": "",
@@ -493,6 +616,9 @@
                 },
                 {
                     "id": 151120033,
+                    "name": "Trigger - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/trigger-boss-killer.png?w=600"],
                     "type": "Passive",
                     "desc": "",
@@ -503,36 +629,54 @@
                 },
                 {
                     "id": 151120034,
+                    "name": "Resonance Rush - Efficiency",
+                    "shortDesc": "Obtain 20 aether when aether crystal is used for Resonance Rush. Does not consume aether when using Impale.",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/resonance-extra-healing.png?w=600"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 151120035,
+                    "name": "Reign of Destruction - Persist",
+                    "shortDesc": "Duration: +4 sec",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/territory-persist.png?w=600"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 151120036,
+                    "name": "Aether Bloom - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/blossom-cooltime-reduce.png?w=600"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 151120037,
+                    "name": "Will to Live - Aura Reinforce",
+                    "shortDesc": "Recovery Ratio: +3%, additive to existing recovery.",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/attribute-healing-reinforce.png?w=600"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 151120038,
+                    "name": "True Nobility - Shield Reinforce",
+                    "shortDesc": "Increases shield amount created in proportion to damage by 350%.",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/nobility-shield-reinforce.png?w=600"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 151120039,
+                    "name": "Aether Guard - Persist",
+                    "shortDesc": "Invincibility Duration: +1 sec",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/dike-persist.png?w=600"],
                     "type": "Passive",
                     "reqLev": 190
@@ -541,6 +685,9 @@
             "hyperActive": [
                 {
                     "id": 151121041,
+                    "name": "Shardbreaker",
+                    "shortDesc": "MP Cost: 250, creates a shard in the location of up to 7 enemies.\\nFor each shard that is created and shattered, Max Enemies Hit: 7, Damage: 500%, Number of Attacks: 6\\nIf all of the shards attack only 1 enemy, final damage of Shardbreaker is increased by 300%.\\nIf total enemies struck is lower than the max, creates up to 5 shards in random locations.\\nAfter shards shatter, creates up to 5 aether crystals.\\nCooldown: 60 sec",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/marker.png?w=600"],
                     "animations": ["https://media1.giphy.com/media/h2a2hDKzqycExpYwuz/giphy.gif"],
                     "type": "Attack",
@@ -554,14 +701,20 @@
                 },
                 {
                     "id": 151121040,
+                    "name": "Blade Torrent",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 6, Damage: 1000%, Number of Attacks: 12\\nStun Duration: 10 sec\\nStun Duration: +100% depending on damage inflicted with Blade Torrent.\\nCooldown: 180 sec",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/squall.png?w=600"],
                     "animations": ["https://media3.giphy.com/media/bKeQs54oZJ1F0ZAZcA/giphy.gif"],
                     "type": "Bind Attack",
-                    "desc": "Binds nearby enemies",
+                    "desc": "Launches swords that binds nearby enemies",
                     "reqLev": 160
                 },
                 {
                     "id": 151121042,
+                    "name": "Divine Wrath",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Flora class in the party.",
+                    "maxLevel": 1,
                     "icons": ["https://orangemushroom.files.wordpress.com/2019/12/race-of-god.png?w=600"],
                     "animations": ["https://media0.giphy.com/media/gp7a45r7WcS6ztfvCM/giphy.gif"],
                     "type": "Buff",

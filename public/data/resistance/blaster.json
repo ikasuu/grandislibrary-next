@@ -120,6 +120,9 @@
             [
                 "Beginner", [{
                     "id": 20021000,
+                    "name": "Crystal Throw",
+                    "shortDesc": "MP Cost: 7, Damage: 40",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Crystal_Throw.png/revision/latest?cb=20100606013011"],
                     "animations": ["https://media3.giphy.com/media/1c1qBgqtJNKp8u0UzW/giphy.gif"],
                     "type": "Attacks",
@@ -127,6 +130,9 @@
                 },
                 {
                     "id": 20021001,
+                    "name": "Infiltrate",
+                    "shortDesc": "MP Cost: 15, Hide for 30 sec, Movement Speed: +15",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Infiltrate.png/revision/latest?cb=20100606013059"],
                     "animations": ["https://media2.giphy.com/media/OAqAR4PlE8MOEjfLwH/giphy.gif"],
                     "type": "Active",
@@ -134,11 +140,17 @@
                 },
                 {
                     "id": 20020002,
+                    "name": "Potion Mastery",
+                    "shortDesc": "Recovery Rate: +115%",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Potion_Mastery.png/revision/latest?cb=20100606013234"],
                     "type": "Passive"
                 },
                 {
                     "id": 30001281,
+                    "name": "Secret Assembly",
+                    "shortDesc": "MP Cost: 100, you move to the Resistance Secret Plaza\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Secret_Assembly.png/revision/latest?cb=20160619042757"],
                     "animations": ["https://media1.giphy.com/media/EOAPVrGaUNzjyNfV6G/giphy.gif"],
                     "type": "Active"
@@ -148,6 +160,9 @@
                 "1st Job", [
                     {
                         "id": 37001000,
+                        "name": "Magnum Punch",
+                        "shortDesc": "MP Cost: 12, Enemies Hit: 6, Damage: 75%, Number of Attacks: 3.\\nUsing Revolving Cannon while using Magnum Punch will additionally attack the same number of enemies for 40% damage 3 times.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Magnum_Punch.png/revision/latest?cb=20160718024740"],
                         "animations": ["https://media1.giphy.com/media/cZd0BV1765HxUxQlAo/giphy.gif"],
                         "type": "Attack",
@@ -158,6 +173,9 @@
                     },
                     {
                         "id": 37001001,
+                        "name": "Revolving Cannon",
+                        "shortDesc": "Uses 1 Ammo, and your Ammo is reloaded if used as a key-down skill",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Revolving_Cannon.png/revision/latest?cb=20160718025458"],
                         "animations": ["https://media2.giphy.com/media/RBnVeiAtsYtAsED7TS/giphy.gif"],
                         "type": "Attack",
@@ -170,6 +188,9 @@
                     },
                     {
                         "id": 37001002,
+                        "name": "Bunker Buster Explosion",
+                        "shortDesc": "Requires 3 or more Dynamo Gauge bars. Attack up to 10 enemies for 100% damage 8 times. Melee hits ignore 80% of enemy Defense Rate.\\nReleases Shockwave 1, attacking up to 10 enemies for 50% damage 6 times.\\nAfter use, you will Overheat for 7 sec. While Overheated, the Dynamo Gauge is set to max, and you cannot charge the Dynamo Gauge or use Bunker Buster Explosion. On ending, depletes the Dynamo Gauge.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Bunker_Buster_Explosion.png/revision/latest?cb=20160718053050"],
                         "animations": ["https://media1.giphy.com/media/Fz4hwcnk9gDi7uXiBi/giphy.gif"],
                         "type": "Attack",
@@ -182,6 +203,9 @@
                     },
                     {
                         "id": 37001003,
+                        "name": "Double Jump",
+                        "shortDesc": "MP Cost: 5, allows you to jump a greater distance",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Double_Jump_%28Blaster%29.png/revision/latest?cb=20160718053250"],
                         "animations": ["https://media2.giphy.com/media/dv8pn1OVdMHzkuazIq/giphy.gif"],
                         "type": "Active",
@@ -193,6 +217,9 @@
                     },
                     {
                         "id": 37001004,
+                        "name": "Detonate",
+                        "shortDesc": "Ammo Cost: 1, Max Enemies Hit: 6, Damage: 155%, Number of Attacks: 2",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Detonate.png/revision/latest?cb=20160718053259"],
                         "animations": ["https://media4.giphy.com/media/SwL9qy3PMmZltjpsXp/giphy.gif"],
                         "type": "Attack / Utility",
@@ -203,6 +230,9 @@
                     },
                     {
                         "id": 37000006,
+                        "name": "Blast Shield",
+                        "shortDesc": "When hit, converts 30% of your damage taken into a protective shield. 40% + 50 of the shield dissipates every 5 second. The maximum strength of the shield is equal to your Max HP.\\nKnockback Resistance increases by 100% while using Blaster skills.\\nPermanently increases Knockback Resistance by 40%, DEF by 200, and Max HP by 20%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Blast_Shield.png/revision/latest?cb=20160718053403"],
                         "animations": ["https://media2.giphy.com/media/t2krSCY1W46O8AqlpW/giphy.gif"],
                         "type": "Passive",
@@ -214,6 +244,9 @@
                     },
                     {
                         "id": 37000007,
+                        "name": "Revolving Cannon Mastery",
+                        "shortDesc": "[Final Attack Type Skill] When the Dynamo Gauge has at least 1 stock, direct attacks from the Arm Cannon will trigger additional attacks which deal 75% 1 times. For each charged Dynamo Gauge stock, the damage of the additional hits increase by 10%.\\nPermanently increases Movement Speed by 30, Jump Power by 15, and Max Movement Speed by 20.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Revolving_Cannon_Mastery.png/revision/latest?cb=20160718053528"],
                         "type": "Final Attack Passive",
                         "desc": "Whenever you have at least 1 Dynamo Gauge bar, when you attack with your Arm Cannon, you will deal an additional attack",
@@ -227,6 +260,9 @@
                 "2nd Job", [
                     {
                         "id": 37101000,
+                        "name": "Double Blast",
+                        "shortDesc": "MP Cost: 20, Enemies Hit: 6, Damage: 130%, Number of Attacks: 4.\\nUsing Revolving Cannon while using Double Blast will additionally attack the same number of enemies for 80% damage 3 times.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Double_Blast_%28Blaster%29.png/revision/latest?cb=20160718053958"],
                         "animations": ["https://media4.giphy.com/media/SEFD5UUCZ26Sa0BJei/giphy.gif"],
                         "type": "Attack",
@@ -238,6 +274,9 @@
                     },
                     {
                         "id": 37101001,
+                        "name": "Bobbing",
+                        "shortDesc": "MP Cost: 9, Bonus Avoidability 35% applied for 1.5 sec after activation.\\nMagnum Punch damage +90% points.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Bobbing.png/revision/latest?cb=20160718054407"],
                         "animations": ["https://media2.giphy.com/media/6El6oGzdxhFHt7keQv/giphy.gif"],
                         "type": "Charge Active",
@@ -251,6 +290,9 @@
                     },
                     {
                         "id": 37101003,
+                        "name": "Arm Cannon Boost",
+                        "shortDesc": "MP Cost: 11, Duration: 200 sec, Weapon Attack Speed: +2",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Arm_Cannon_Boost.png/revision/latest?cb=20160718054403"],
                         "animations": ["https://media2.giphy.com/media/gkh6Av8xWjVtP6zj7x/giphy.gif"],
                         "type": "Buff",
@@ -258,16 +300,25 @@
                     },
                     {
                         "id": 37100004,
+                        "name": "Arm Cannon Mastery",
+                        "shortDesc": "Mastery +50%, Critical Rate +30%, and Attack Power +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Arm_Cannon_Mastery.png/revision/latest?cb=20160718054748"],
                         "type": "Passive"
                     },
                     {
                         "id": 37100005,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800"],
                         "type": "Passive"
                     },
                     {
                         "id": 37100006,
+                        "name": "Charge Mastery",
+                        "shortDesc": "Decreases the charge time for all charge skills by 15%. Using a charge skill reloads 1 Ammo immediately but will not reload while in midair or interrupt an auto-reload.\\nAt the start of charged Bobbing, Weaving, or Hammer Smash, all damage taken is briefly reduced by 20%, including attacks that deal damage based on your Max HP.\\nPermanently increases damage by 20%.",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Charge_Mastery.png/revision/latest?cb=20160718054754"],
                         "type": "Passive",
                         "desc": "Decreases the charge time required for all Charge Skills (marked by a 'C' on icon)",
@@ -279,6 +330,9 @@
                     },
                     {
                         "id": 37100007,
+                        "name": "Revolving Cannon Plus",
+                        "shortDesc": "Bunker Buster Explosion damage +20% points, Shockwave 1 damage +40% points\\nAdditional attack damage due to overheating +20% points, Revolving Cannon damage during Magnum Punch +40% points\\nMaximum Dynamo Gauge capacity expanded to 4 bars, maximum number of Ammo increased to 4.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 4 bars or higher increases damage by 40% points and will generate Shockwave 2, which attacks up to 10 enemies for 100% damage 6 times.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Revolving_Cannon_Plus.png/revision/latest?cb=20160718054800"],
                         "animations": ["https://media1.giphy.com/media/XCR3lWGgVJLF0bvRqa/giphy.gif"],
                         "type": "Passive",
@@ -291,6 +345,9 @@
                 [
                 "3rd Job", [{
                         "id": 37111000,
+                        "name": "Hammer Smash",
+                        "shortDesc": "MP Cost: 25, Max Number of Enemies: 8, Damage: 200%. Attacks 6 times. Applies Debuff on Hit: for 10 seconds, Final Damage taken from Blaster's attack +10%.\\nWhen releasing charge, creates a shockwave that lasts for 5 sec and hits up to 8 enemies for 150% damage 2 times. Enemies struck by the shockwave will be afflicted by the Final Damage debuff.\\nDouble Blast Damage +90% points.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Hammer_Smash.png/revision/latest?cb=20160718061950"],
                         "animations": ["https://media4.giphy.com/media/GnTJGxiAgvJH5fSDmN/giphy.gif"],
                         "type": "Charge Attack",
@@ -304,6 +361,9 @@
                     },
                     {
                         "id": 37111003,
+                        "name": "Weaving",
+                        "shortDesc": "MP Cost: 9, Bonus Avoidability 35% applied for 1.5 sec after activation.\\nMagnum Punch damage +105% points.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/38/Skill_Weaving.png/revision/latest?cb=20160718061936"],
                         "animations": ["https://media4.giphy.com/media/o2Ieuk4fluIiVzlA82/giphy.gif"],
                         "type": "Charge Active",
@@ -317,6 +377,9 @@
                     },
                     {
                         "id": 37111005,
+                        "name": "Rocket Rush",
+                        "shortDesc": "MP cost: 28, grab onto a maximum of 1 enemies and deal 140% Damage 2 times. After the grab, push back up to 15 nearby enemies while dealing 140% damge.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Rocket_Rush.png/revision/latest?cb=20160718061929"],
                         "animations": ["https://media1.giphy.com/media/P1gwiBPD3vHrsgM4Kq/giphy.gif"],
                         "type": "Attack",
@@ -327,12 +390,18 @@
                     },
                     {
                         "id": 37110006,
+                        "name": "Magnum Launch",
+                        "shortDesc": "MP Cost: 10, Damage: 180%, Number of Attacks: 6, Max Enemies Hit: 15",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Magnum_Launch.png/revision/latest?cb=20160718062259"],
                         "type": "Passive Attack",
                         "desc": "Throws the enemy you are holding with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Rocket_Rush.png/revision/latest?cb=20160718061929' alt='Skill Rocket Rush'> that damages enemies it passes through"
                     },
                     {
                         "id": 37110007,
+                        "name": "Revolving Cannon Plus II",
+                        "shortDesc": "Bunker Buster Explosion damage +60% points, Shockwave 1 damage +80% points, and Shockwave 2 damage +40% points\\nAdditional attack damage due to overheating +60% points, Revolving Cannon damage during Magnum Punch +60% points, Revolving Cannon damage during Double Blast +20% points\\nMaximum Dynamo Gauge capacity expanded to 5 slots, maximum number of Bullets increased to 5.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 5 slots or higher increases its damage by 80% points and will generate Shockwave 3, which attacks up to 10 enemies for 180% damage 6 times.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Revolving_Cannon_Plus_II.png/revision/latest?cb=20160718062307", "https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Revolving_Cannon_Plus.png/revision/latest?cb=20160718054800"],
                         "animations": ["https://media2.giphy.com/media/4aqPxsWY0qRzvKvVEL/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -344,6 +413,9 @@
                     },
                     {
                         "id": 37110008,
+                        "name": "Shield Training",
+                        "shortDesc": "When hit, convert 40% of damage taken into a protective shield. 40% + 50 of the shield dissipates each second. The maximum potential for the shield is equal to your Max HP.\\nPermanently increases Abnormal Status Resistance by 20 and Elemental Resistance by 20%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Shield_Training.png/revision/latest?cb=20160718062315"],
                         "type": "Passive",
                         "desc": "When hit, you convert a portion of the damage taken into a shield that slowly disappears",
@@ -353,6 +425,9 @@
                     },
                     {
                         "id": 37110009,
+                        "name": "Combo Training",
+                        "shortDesc": "Can be stacked up to 10 times. Duration: 10 sec. Final Damage increased by 3% per stack, Attack Speed increased by 1 for every 6 stacks, Skill Link Speed increased by 1 for every 10 stacks.\\nPermanently increases Attack Power by 15%",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Combo_Training.png/revision/latest?cb=20160718062458"],
                         "type": "Passive",
                         "desc": "Whenever you link two skills, you gain a stacking buff of %Final Damage (up to 10 stacks)",
@@ -366,6 +441,9 @@
                 [
                 "4th Job", [{
                     "id": 37121000,
+                    "name": "Shotgun Punch",
+                    "shortDesc": "MP cost: 70, Max Number of Enemies: 6, Damage: 265%, Number of Attacks: 6. Generates a shockwave that attacks up to 6 enemies for 140% damage 4 times\\nIncreases Double Blast damage by 140% points.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Shotgun_Punch.png/revision/latest?cb=20160718063536"],
                     "animations": ["https://media3.giphy.com/media/a7jT1jL4Q1DHFSy1zp/giphy.gif"],
                     "type": "Attack",
@@ -376,6 +454,9 @@
                 },
                 {
                     "id": 37120002,
+                    "name": "Muzzle Flash",
+                    "shortDesc": "MP cost: 25, Maximum Number of Enemies: 6, Damage: 500%, Number of Attacks: 3\\nMagnum Punch damage +160% points",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Muzzle_Flash.png/revision/latest?cb=20160718063543"],
                     "animations": ["https://media1.giphy.com/media/hsX8Uo04RjZjjJ1Oeu/giphy.gif"],
                     "type": "Passive Attack",
@@ -388,6 +469,9 @@
                 },
                 {
                     "id": 37121003,
+                    "name": "Ballistic Hurricane",
+                    "shortDesc": "MP Cost: 0, Max Enemies Hit: 12, Damage: 1250%, Duration: 6 sec. Upon using this skill, deliver a jumping uppercut that hits up to 12 enemies for 1250% damage 5 times and sends them flying.\\nYou can move around, using the arrow keys, while holding the skill key down.\\nIf the attack succeeds, combo training remains at max level.\\nHammer Smash Damage, aside from ShockWave, +195% points\\nCooldown: 45 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Ballistic_Hurricane.png/revision/latest?cb=20160718063549"],
                     "animations": ["https://media2.giphy.com/media/fGwSqztMDvikDf2Ydr/giphy.gif"],
                     "type": "Key-down Attack",
@@ -400,6 +484,9 @@
                 },
                 {
                     "id": 37121004,
+                    "name": "Revolving Blast",
+                    "shortDesc": "MP Cost: 200, Rushes and grabs enemies for 230% damage. Stuns. Hits 2 times. Activate Revolving Cannon to attack up to 10 more enemies up to 6 times. Each attack hits 4 time(s) for 200%, 220%, 240%, 260%, 280%, or 300% damage.\\nBonus Bunker Buster deals 350% damage 8 times and ignores additional 80% Defense Rate.\\nCooldown: 150 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Revolving_Blast.png/revision/latest?cb=20160718063556"],
                     "animations": ["https://media1.giphy.com/media/NgtimTpsJFj7ZV52EX/giphy.gif"],
                     "type": "Bind Attack",
@@ -413,6 +500,9 @@
                 },
                 {
                     "id": 37121005,
+                    "name": "Vitality Shield",
+                    "shortDesc": "MP Cost: 100, recovers HP equal to the sum of the dissipated Blast Shield and 50% of your Max HP. The extended defense period lasts for 15 sec.\\nMagnum Launch damage increased by 150% points.\\nCooldown: 200 sec.",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Vitality_Shield.png/revision/latest?cb=20160718063602"],
                     "animations": ["https://media2.giphy.com/media/G3KTdLGMJSdUo6kBk6/giphy.gif"],
                     "type": "Buff",
@@ -425,12 +515,18 @@
                 },
                 {
                     "id": 37121006,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media2.giphy.com/media/aoysQxSTS2P09Hx83P/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 37121007,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media3.giphy.com/media/OeKh6N6GRsGv4cGvcx/giphy.gif"],
                     "type": "Buff",
@@ -438,6 +534,9 @@
                 },
                 {
                     "id": 37120008,
+                    "name": "Revolving Cannon Plus III",
+                    "shortDesc": "Bunker Buster Explosion damage +120% points, Shockwave 1 damage +170% points, Shockwave 2 damage +130% points, and Shockwave 3 damage +90% points\\nAdditional attack damage due to overheating +140% points, Revolving Cannon damage during Magnum Punch +140% points, Revolving Cannon damage during Double Blast +100% points\\nMaximum Dynamo Gauge capacity expanded to 6 slots, maximum number of Bullets increased to 6.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 6 slots or higher increases its damage by 150% points and will generate Shockwave 4, which attacks up to 10 enemies for 320% damage 6 times.",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Revolving_Cannon_Plus_III.png/revision/latest?cb=20160718063625", "https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Revolving_Cannon_Plus.png/revision/latest?cb=20160718054800"],
                     "animations": ["https://media3.giphy.com/media/zwG3eFSpYT20Q3nN1L/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -449,6 +548,9 @@
                 },
                 {
                     "id": 37120009,
+                    "name": "Shield Training II",
+                    "shortDesc": "When hit, convert 50% of damage taken into a protective shield. 40% + 50 of the shield dissipates each second. The maximum potential for the shield is equal to your Max HP.\\nPermanently increases Abnormal Status Resistance by 20% and Elemental Resistance by 20%.\\nRocket Rush damage +80% points.",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Shield_Training_II.png/revision/latest?cb=20160718063632", "https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Shield_Training.png/revision/latest?cb=20160718062315"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -460,6 +562,9 @@
                 },
                 {
                     "id": 37120010,
+                    "name": "Gauntlet Expert",
+                    "shortDesc": "Mastery: +70%, Critical Damage: +15%, Boss Damage: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Gauntlet_Expert.png/revision/latest?cb=20160718063642", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Arm_Cannon_Mastery.png/revision/latest?cb=20160718054748"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -470,6 +575,9 @@
                 },
                 {
                     "id": 37120011,
+                    "name": "Advanced Charge Mastery",
+                    "shortDesc": "Decreases the charge time for all charge skills by 40%. Using a charge skill reloads 2 Ammo immediately but will not reload while in midair or interrupt an auto-reload.\\nImmediately after using charged Bobbing, Weaving, or Hammer Smash, all damage taken is briefly reduced by 35%, including attacks that deal damage based on your Max HP.\\nPermanently ignore 35% of enemies' Defense, and damage taken is reduced by 15%.",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Advanced_Charge_Mastery.png/revision/latest?cb=20160718063648", "https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Charge_Mastery.png/revision/latest?cb=20160718054754"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -481,6 +589,9 @@
                 },
                 {
                     "id": 37120012,
+                    "name": "Combo Training II",
+                    "shortDesc": "Can be stacked up to 10 times. Duration: 10 sec. Final Damage and Critical Rate increased by 6% and 3% respectively per stack, Attack Speed increased by 1 for every 6 stacks, Skill Link Speed increased by 1 for every 5 stacks.\\nPermanently increases Attack Power by 40",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Combo_Training_II.png/revision/latest?cb=20160718063654", "https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Combo_Training.png/revision/latest?cb=20160718062458"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -496,6 +607,9 @@
             "hyperPassive": [
                 {
                     "id": 37120045,
+                    "name": "Aftershock Punch",
+                    "shortDesc": "Number of Attacks: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Aftershock_Punch.png/revision/latest?cb=20160530055659"],
                     "type": "Passive",
                     "desc": "Increases the number of hits from the shockwaves created from <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Hammer_Smash.png/revision/latest?cb=20160718061950' alt='Skill Hammer Smash'> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Shotgun_Punch.png/revision/latest?cb=20160718063536' alt='Skill Shotgun Punch'>",
@@ -503,6 +617,9 @@
                 },
                 {
                     "id": 37120043,
+                    "name": "Power Punch",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Power_Punch.png/revision/latest?cb=20160718064605"],
                     "type": "Passive",
                     "desc": "Increases the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Magnum_Punch.png/revision/latest?cb=20160718024740' alt='Skill Magnum Punch'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Double_Blast_%28Blaster%29.png/revision/latest?cb=20160718053958' alt='Skill Double Blast (Blaster)'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Hammer_Smash.png/revision/latest?cb=20160718061950' alt='Skill Hammer Smash'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Shotgun_Punch.png/revision/latest?cb=20160718063536' alt='Skill Shotgun Punch'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Muzzle_Flash.png/revision/latest?cb=20160718063543' alt='Skill Muzzle Flash'>, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Ballistic_Hurricane.png/revision/latest?cb=20160718063549' alt='Skill Ballistic Hurricane'>",
@@ -510,6 +627,9 @@
                 },
                 {
                     "id": 37120044,
+                    "name": "Piercing Punch",
+                    "shortDesc": "Monster DEF Ignored: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Piercing_Punch.png/revision/latest?cb=20160718064622"],
                     "type": "Passive",
                     "desc": "Increases the %Ignore DEF of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Magnum_Punch.png/revision/latest?cb=20160718024740' alt='Skill Magnum Punch'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Double_Blast_%28Blaster%29.png/revision/latest?cb=20160718053958' alt='Skill Double Blast (Blaster)'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Hammer_Smash.png/revision/latest?cb=20160718061950' alt='Skill Hammer Smash'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Shotgun_Punch.png/revision/latest?cb=20160718063536' alt='Skill Shotgun Punch'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Muzzle_Flash.png/revision/latest?cb=20160718063543' alt='Skill Muzzle Flash'>, and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Ballistic_Hurricane.png/revision/latest?cb=20160718063549' alt='Skill Ballistic Hurricane'>",
@@ -517,6 +637,9 @@
                 },
                 {
                     "id": 37120046,
+                    "name": "Improved Bunker Explosion",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Improved_Bunker_Explosion.png/revision/latest?cb=20160718064631"],
                     "type": "Passive",
                     "desc": "Increases %Damage of the initial hit",
@@ -524,6 +647,9 @@
                 },
                 {
                     "id": 37120047,
+                    "name": "Improved Bunker Shockwave",
+                    "shortDesc": "Damage: +15%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Improved_Bunker_Shockwave.png/revision/latest?cb=20160718064639"],
                     "type": "Passive",
                     "desc": "Increases %Damage of the explosion after the initial hit",
@@ -531,24 +657,36 @@
                 },
                 {
                     "id": 37120048,
+                    "name": "Bunker Buster Explosion - Guard Bonus",
+                    "shortDesc": "Guard bonus during Bunker Buster Explosion. Damage reduction rate follows the rates in Charge Mastery.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Bunker_Explosion_Guard_Bonus.png/revision/latest?cb=20160718064647"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 37120049,
+                    "name": "Blast Shield Recovery",
+                    "shortDesc": "Recover 50% of the dissipating Blast Shield as HP.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Blast_Shield_Recovery.png/revision/latest?cb=20160718064656"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 37120051,
+                    "name": "Speedy Ballistic Hurricane",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Speedy_Ballistic_Hurricane.png/revision/latest?cb=20160718064710"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 37120050,
+                    "name": "Speedy Vitality Shield",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Speedy_Vitality_Shield.png/revision/latest?cb=20160718064703"],
                     "type": "Passive",
                     "reqLev": 190
@@ -557,6 +695,9 @@
             "hyperActive": [
                 {
                     "id": 37121054,
+                    "name": "Cannon Overdrive",
+                    "shortDesc": "MP Cost: 200. Duration: 35 sec. Increases damage for skills that use Ammo by 50%. Ammo auto-reload time decreased by 70%. The Dynamo Gauge Overheat duration for Bunker Buster Explosion is reduced to 1 second.\\nCooldown : 240 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Cannon_Overdrive.png/revision/latest?cb=20160718064727"],
                     "animations": ["https://media0.giphy.com/media/taGQZYv08nt67fUjOs/giphy.gif"],
                     "type": "Buff",
@@ -568,6 +709,9 @@
                 },
                 {
                     "id": 37121052,
+                    "name": "Hyper Magnum Punch",
+                    "shortDesc": "MP Cost: 400, Attacks up to 15 enemies for 500% 15 times.\\nGenerates a shockwave that attacks for 250% damage 8 times.\\nCan be enhanced up to 3 levels by charging, and each level of enhancement generates an additional shockwave that deals 350%, 450%, 550% damage 8 times.\\nWhile charging, the defense boosts from Charge Mastery are applied, and Abnormal Status Resistance increases by 100.\\nEach time you get hit while charging, the final damage increases by 5%, up to 50%.\\nCan be charged for up to 4 sec.\\nCooldown: 150 sec.\\nShotgun Punch deals +30% damage to normal monsters once Hyper Magnum Punch is obtained.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Hyper_Magnum_Punch.png/revision/latest?cb=20160718064719"],
                     "animations": ["https://media1.giphy.com/media/JrNNGDcnSAlubSqIL0/giphy.gif"],
                     "type": "Charge Attack",
@@ -581,6 +725,9 @@
                 },
                 {
                     "id": 32121053,
+                    "name": "For Liberty",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355"],
                     "animations": ["https://media1.giphy.com/media/Ar37NFQOKIImPzkDt8/giphy.gif"],
                     "type": "Buff",

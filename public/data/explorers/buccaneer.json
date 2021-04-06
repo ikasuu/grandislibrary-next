@@ -95,7 +95,7 @@
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/3394/pirate",
-            "https://maplestory.fandom.com/wiki/Pirate",
+            "https://maplestory.fandom.com/wiki/Buccaneer",
             "https://dexless.com/guides/buccaneer-overview.38/"
         ],
         "specialThanks": "Special thanks to Subluxe for their help in making this overview!",
@@ -119,7 +119,7 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC/0lEQVR4nL1XAZGrMBBdZmoAC/kSqAQqgUoACSABJBAJjYRDApHQSCgS+NnA0gQIF64zXW4OEkL27du3S7mAayN8xyK6sAGMP/3zK95v138jgSAAxnmasFMbDcPgjOM4DnpuHEeIosiAuPzFOTlWSjnzjLFgIPWjh+p+HS9w0tA5Ob5er869vu8XIKFsnAJAzslx2bbmrKR0ACGQUBDBAGznz+cTeNcZxwO8dZDmGS40a0JBBAE4dG4JkS6TNF1AJEnyOQDbupluF+D7AsHaUa/HpwHY0bePBygcW9Eb5zOCwTrbLByl4hQDnab+CChakqUaoILAIjgHoC5LkwJkQcotGOO8kxPtgX3lEMBafPeiWEour2sDYlBqohfTsWpMHwOwrWoaZ8yrCtIsA6YjRconwO/7MfuQAbvj/WbIgNGiXk/PqIYv93HOJ8RdAJuOV/9AU90gy/NpwzkNnRCGBdDBSj5pos3KeQ+3XfuqYQPAyfvrBZxLkMqtfaabi7QqouMCXlojouLGsf2OLNPM7OkrSQeA1znWdZaD4BzWhnNr5+vXNFqe7HdHrwa6bpv/REeDAA29lhNRCd82Bgwe6+64AeB2vF5fD0v0765HGzE9M4Fosxqf3kS/nOE9tlk4ZEAEdLwsL0E0lR5L/9rZecoS07z2bBdAW+cmBYaFnY6HyicR5m09p2BYlO+s1c4lsqMBsHjbGxYAtvhu9wIG6nhla0CoYep4lCql51B8lV4r59rPUSN42Gs9kXsZKCpX6bwpTAUwpJHKcd6UF5W7thOQaYVjpGqHDRbaiHxGSg7pkLE+8I+A+HSwAMAGgerENKR5jRpf0iAFNyzEqH4tOvPrV0da6fk6xU7IljQI/QyyAHMKKO+oA7xHzQjm9YcMxHoj1W1r3FTCKppEb8pnwWbwbjRUCbbz3U6IkzYLZFSz65/gdO/M2l/fBTaIvQ3Wdnat720Y4bcafR0RiBA7u5asERK/ivAyIgYMCPxc+oaRc/xnpyDCbzX4ji2f5/8BSxxCgTxgn7sAAAAASUVORK5CYII="],
                     "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
@@ -130,7 +130,7 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVR4nL1Xi5GDIBDFmTRASjAlnCXEEmIJZwlnCZcSvBJiCVqClJC0QAkeS7KKggtGJm8yBvnt4+2ywoHNMbDPIMGCSWBo+/tHrOfZaUASSEAbP3+luydPknFxbBjcgkK96qdJHGIaR/xezqxqOrrPrWdVkQ0HFgnmyvmibk0JQDQCgPr7YpXLv4YcE5UAGrv9XFhxbVgIVgmYkiIoKe99q/9PWT76AOo4p2OLVKCt67GclyU5EZNTsaiaqY4zEl4XiC5MSrVU/dff6hcZyUIwI+CSfa196Q6wLyV7Ss6fBHiaqndaAksBU3Y9saPe6Q5lmCujuG6f71cJgMVHZySR1woegk4sx+PRWU8FrpOAJ2ZILNXzBq6LQFZMgyCgxGvlZeC+Dg5aFwHcywDcz9zRLh+CxcKMANdhpE2YlQvQTtrqwrkLUkXBsJ3lcx9iZJ+KSj2rIAO+jGopAD/gcG/b+ShoMva0TjguePqYMWYRwMHwlLosjSYMiMmA6Oit6Wu3CUzm7Aym3/ds0k0EUG6PwQh81j9Gnhy+9CUAfG5mzJAzwVsHEjNfIMxzgK/vbgKbpN97HnDPmVKN4X3fJsDDJdh8Hgic1Vm9zJxU330EHPAFG0Uggbva3ttR6AkIcG0E3IqgmKACmgRcl6JD2J9uNA4P0wUJ3NXYZzB+Iv8Bbq6jgAlpMSsAAAAASUVORK5CYII="],
                     "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
                     "type": "Buff"
                 },
@@ -140,7 +140,7 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACx0lEQVR4nL1XgZGbMBCUZ9yAvgRSAl8CKYGU4Bb8JZgWKCGUEEp4SgglvEpwtJJWOgkZ+2di7xiQsXy7d9zpxFHluKrX4MCBFHD98/n3Jew/339cKYICHHnXNv+dzITTMAzqfD67e19fV/X2dnAijs8kpwLjZQQRJzvS6vL7U338er8e1RNhQG5P4zg6Yq21+vigCI+nCTCMfQDI89+eKIDkuNJ7f9+48TCMSrfd4wKoWDhRnydOkhzeG+m2wK4Ak5+sEb0vgglXeE5AyDRNjwugwcb+cV2NNQAhWwUy5MA4JXI+e5J3XaeWZXxQgEUTDDSND2MpoUZ+sfVehhzkTdOoeZ6z+3cFwBDUr7iCOiigfUhCuPv+ZEk8uZ+bvAd53/fuuiyrOp3sXHu9K0Br/9xNMFjzGuTxZqh7SY7vJC/D/1AEghRJH/MS5JfL2RnHgXEZevnsUX7wXibyN9YBEw0AzPJaeeWLjnHkOiufNN4vQz7nsJxyXENrewnzRc7jdyzBpfe7AkpyGequ66Nxelh6LscgRx6k3+4IKDO8fLbzPMU6R1ltQ5zAhYdXtuRdAaQXvSQS9b3vaDQqPUsOmFjvqH0c0zRvVsZdAeCueQ/geVNQSSzFAuu6OnKfvPrxHFBG7aIWdn5nVCCI5Ld6yLfb8a2wEzJasWwdeb2RbQSUGwkJhPYWOYgRbhxLWGYJHeeo/UdgxMQ86/cznXPbtnUHNG7rvt7Sj8lIboxL672QOw+LmgcSuVbsG7GjmhsroVzxmP2+gSzOsz1IYnDqYt8Acoqt7gmxZSYxxSCJkoH6tp1z2CN0JeFiR41bsxsRkM0FhnuEsSAqURKHT4bU1rfiogDuVjPDwtgJq1hRHMlQnbg+NwcEHPCuhrcjv06TRfwDxuvbwbs75RqGacFbEYYHRsCJwOvSK0BynGQOHPCupl6D+Hr+Dx893LO6fTh1AAAAAElFTkSuQmCC"],
                     "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
                     "type": "Buff"
                 },
@@ -150,17 +150,23 @@
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAELUlEQVR4nL1X77WqMAwP57hAHQFHgBFwBByBO4KO4B1BR5ARZAQdQUawI/QlTUJThPvel3dzDra0afLLX+oGcgrwO1ToxAII98cLHE48Pv9v9FDXdVAQCiA8UHnl9oYVZnNY2Vsb1/kvtzt8HfYRxEYtT8ohjfGMrkG+Z+flC2Cs0/sTFVXlKn9XnQAExCYtO36iUrEkgvdmff6O8/Jh5Dte6/Fp3DK/CFK/bPLDIsCViVmFekGge/Re3o11uD4MAFfcu6N3DxjiBpfbljFEecjj6GwZhwmAVw9EHaWsKDMkpQoyOuv2GZkKNd5wskflt1a86JNcJ8BJjiCQEKhrdEOUqAfUchAQ7gIfRNY3HfO0jg1Q/kluOSnW3Nok+DYBlzIbzIj03KLFb55fcd7h/IqWt2d8uhVZYIAthUCZ3RGH72UhDoU/UVEVEghV3l1Mos1LcLk88yqwZUcgIvUp/k8sn6rLlSt1uOavuZei+7v0rvuOqiALgSYYfNJwwNhSz8AYlxz7otBOOnVUCCEkI6DNZajHjJGzKjA5MO87qDeWE/04Vs7KDMvoF9cnqmT9ScbcJSIfIQBxmUrdckO54OFTEY0qalhU0pQO7q/3zyDgiYzStK77qYxTCEBaZ49aWoxt82bLSflZhRawSt7DX4nyq9/FfOmwcr4gCwHwJuYcuC0DiOY5+CdyP/GNMMW/e8WKuTrqonsTArKclN/Q2i+yVEDQQxn/d/N+WBdwHuU4LlvfD3FpkzMuEOXCwN2N4juP8zCO0bX7ercSf1buUbkjA1v0ssN7h+2E1WisJ7oYLww5MAVBSaf9YV9vZ8rVY+/p3VFCU6+ghtXspnbOHujXrPecgCdOvlT/GL3dNoKg0e4xEM/9q0XFBMJ2YqG8Ed0WXHfJ14raf7p4ZMupD6g3OESs0JEBTcG9pJWz5IXvAo7tAU6Q3wmXCa0vvmFSRBZHIKP0iZY88Io5QB65P6gfIA8lOXXQfqV0e9OI4uVhyQtGOVVCg44LD8dVQdYdOaYNxjS8yaW7aHlsShGosdzSMUzy10NAdGZ3JdT0I5/So3GpWhkvJeb8UMh3ZJ0YAN1gNEmmPgCf3wUFdZq51QsQUmgPURMjcEteEMMYQCfabDW0LCg08gG6G8HnmcAuJCDAFfIOTvrHigeOIYVgwGt1E6/RBedD51IrJhAkg+JOoE5FHgIiDYG07RDEGHolr6hd7SykkN0JhYFAGOUTVaYlH2dWtTYP6OxWrgTmjqENzSlQfD9ld0IjTGnYLoOxXrgu5Ys5o+vNVrogXeffcI3fAv4YFXW9479m078ZSMljQcQrmCSabdH02Y635QWwkT/wXlvEkZTjv6K4qY0ogqD/bKlv4oUhorzIaNZpLD2v08XiqZdMy2f5dZ3k96j8oMiyTljIH8bfoCkT/wAXlggNeeq6hwAAAABJRU5ErkJggg=="],
                     "animations": ["https://media1.giphy.com/media/9CMy7sLPg8PkWApcjD/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 20050109,
+                    "name": "Master of Swimming",
+                    "shortDesc": "Permanently increases swimming speed and prevents HP loss when swimming.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Master_of_Swimming.png/revision/latest?cb=20110627095447"],
                     "type": "Passive"
                 },
                 {
                     "id": 20050111,
+                    "name": "Master of Organization",
+                    "shortDesc": "Permanently expands Equip, Use, Set-up, and Etc. Inventory.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Master_of_Organization.png/revision/latest?cb=20160710213621"],
                     "type": "Passive"
                 }]
@@ -168,6 +174,9 @@
             [
                 "1st Job", [{
                         "id": 5001002,
+                        "name": "Sommersault Kick",
+                        "shortDesc": "MP Cost: 16, Damage: 305%, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Sommersault_Kick.png/revision/latest?cb=20110506064900"],
                         "animations": ["https://media4.giphy.com/media/IRnKyV6jXPfluCu9mb/giphy.gif"],
                         "type": "Attack",
@@ -175,6 +184,9 @@
                     },
                     {
                         "id": 5001003,
+                        "name": "Double Shot",
+                        "shortDesc": "MP Cost: 7, Damage: 165%, Range: 380",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Double_Shot.png/revision/latest?cb=20110506064904"],
                         "animations": ["https://media1.giphy.com/media/cYFELy9yP2MfAX2RkN/giphy.gif"],
                         "type": "Attack",
@@ -182,6 +194,9 @@
                     },
                     {
                         "id": 5001010,
+                        "name": "Octopush",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Octopush.png/revision/latest?cb=20130713082252"],
                         "animations": ["https://media1.giphy.com/media/jpMOW4N0JXHZwXGMUs/giphy.gif"],
                         "type": "Active",
@@ -192,6 +207,9 @@
                     },
                     {
                         "id": 5001005,
+                        "name": "Dash",
+                        "shortDesc": "Dash, MP Cost: 1, Duration: Up to 10 sec., Movement Speed: +50, Jump: +20, Knockback Resistance: +100%",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Dash.png/revision/latest?cb=20110506064955"],
                         "animations": ["https://media3.giphy.com/media/5Ah0oQuhdYRubceXqb/giphy.gif"],
                         "type": "Active",
@@ -203,11 +221,17 @@
                     },
                     {
                         "id": 5000007,
+                        "name": "Shadow Heart",
+                        "shortDesc": "Critical Rate: +20%, Critical Damage: +5%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Shadow_Heart.png/revision/latest?cb=20120628182247"],
                         "type": "Passive"
                     },
                     {
                         "id": 5000000,
+                        "name": "Bullet Time",
+                        "shortDesc": "Max Movement Speed: +20, Jump: +10",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Bullet_Time.png/revision/latest?cb=20110506064810"],
                         "type": "Passive"
                     }]
@@ -215,6 +239,9 @@
                 [
                     "2nd Job", [{
                         "id": 5101012,
+                        "name": "Tornado Uppercut",
+                        "shortDesc": "MP Cost: 20 or Energy Cost: 85, Damage: 370%, Max Enemies Hit: 6",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tornado_Uppercut.png/revision/latest?cb=20111221142011"],
                         "animations": ["https://media1.giphy.com/media/L1cF3DGGG9CB5jJVIB/giphy.gif"],
                         "type": "Attack",
@@ -222,6 +249,9 @@
                     },
                     {
                         "id": 5101014,
+                        "name": "Energy Vortex",
+                        "shortDesc": "Energy Cost: 85, Damage: 410%, Max Enemies Hit: 6",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Energy_Vortex.png/revision/latest?cb=20131129050807"],
                         "animations": ["https://media1.giphy.com/media/cJT67GJOq5GjR9DYbr/giphy.gif"],
                         "type": "Energy Attack",
@@ -233,6 +263,9 @@
                     },
                     {
                         "id": 5100015,
+                        "name": "Energy Charge",
+                        "shortDesc": "Max Energy: 5000, Energy Charged upon attack: 150, Upon Energy Charge activation, Movement Speed: 10, Defense: +250, half effect while charging",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Energy_Charge.png/revision/latest?cb=20110507235938"],
                         "animations": ["https://media0.giphy.com/media/l4vmHR3WqSAkFsEOsx/giphy.gif"],
                         "type": "Passive",
@@ -244,6 +277,9 @@
                     },
                     {
                         "id": 5101004,
+                        "name": "Corkscrew Blow",
+                        "shortDesc": "MP Cost: 20, Damage: 120%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Corkscrew_Blow.png/revision/latest?cb=20110507035323"],
                         "animations": ["https://media0.giphy.com/media/ii8SM1EyHetW0Oald1/giphy.gif"],
                         "type": "Attack",
@@ -254,6 +290,9 @@
                     },
                     {
                         "id": 5101006,
+                        "name": "Knuckle Booster",
+                        "shortDesc": "MP Cost: 11, Knuckle Attack Speed increased for 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Knuckle_Booster.png/revision/latest?cb=20110507035507"],
                         "animations": ["https://media0.giphy.com/media/8F3rsxO9zYbe25Y07F/giphy.gif"],
                         "type": "Buff",
@@ -261,37 +300,54 @@
                     },
                     {
                         "id": 5100016,
+                        "name": "Advanced Dash",
+                        "shortDesc": "MP Cost: 1, Travel a short distance. Speed: + 50, Jump: +20, Duration: Up to 10 sec.",
+                        "maxLevel": 1,
                         "icons": ["https://orangemushroom.files.wordpress.com/2020/03/advanced-dash.png?w=600"],
                         "animations": ["https://orangemushroom.files.wordpress.com/2020/03/advanced-dash-effect-1.gif?w=600"],
                         "type": "Passive",
                         "desc": "Using <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Dash.png/revision/latest?cb=20110506064955' alt='Skill Dash' width='32' height='32' /> now propels you forward",
                         "details": [
-                            "Additionally increases the effects of <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Dash.png/revision/latest?cb=20110506064955' alt='Skill Dash' width='32' height='32'>",
-                            "The dash is similar to Mechanic's <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Mechanic_Dash.png/revision/latest?cb=20151018042126' alt='Skill Mechanic Dash' width='32' height='32'> Mechanical Dash"
+                            "Additionally increases the effects of <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Dash.png/revision/latest?cb=20110506064955' alt='Skill Dash' width='32' height='32'>"
                         ]
                     },
                     {
                         "id": 5100001,
+                        "name": "Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
                         "type": "Passive"
                     },
                     {
                         "id": 5100009,
+                        "name": "HP Boost",
+                        "shortDesc": "Max HP: +20%, Knockback Resistance: +100%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_HP_Boost.png/revision/latest?cb=20100722124608"],
                         "type": "Passive"
                     },
                     {
                         "id": 5100010,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800"],
                         "type": "Passive"
                     },
                     {
                         "id": 5100013,
+                        "name": "Perseverance",
+                        "shortDesc": "Recover 5% HP/MP every 5 sec",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Perseverance.png/revision/latest?cb=20111221142034"],
                         "type": "Passive"
                     },
                     {
                         "id": 5100011,
+                        "name": "Dark Clarity",
+                        "shortDesc": "Attack Power: +30",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Dark_Clarity.png/revision/latest?cb=20160629045547"],
                         "type": "Passive"
                     }]
@@ -299,6 +355,9 @@
                 [
                     "3rd Job", [{
                         "id": 5111009,
+                        "name": "Spiral Assault",
+                        "shortDesc": "MP Cost: 34, Damage: 337%, Max Enemies Hit: 8, Number of Attacks: 2\\nWhile using other skills, Cooldown: 4 sec\\n[Passive Effects: Corkscrew Blow Damage: +100%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Spiral_Assault.png/revision/latest?cb=20111221143416"],
                         "animations": ["https://media1.giphy.com/media/Zccm1N0XaPnw4wY5ik/giphy.gif"],
                         "type": "Attack",
@@ -310,6 +369,9 @@
                     },
                     {
                         "id": 5111002,
+                        "name": "Energy Burst",
+                        "shortDesc": "MP Cost: 27, Damage: 433%, Max Enemies Hit: 8, Number of Attacks: 2, Stun Chance: 50%, Stun Duration: 7 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Energy_Burst.png/revision/latest?cb=20110507235943"],
                         "animations": ["https://media2.giphy.com/media/h2echzwH9LD30vOqbl/giphy.gif"],
                         "type": "Attack",
@@ -320,6 +382,9 @@
                     },
                     {
                         "id": 5111013,
+                        "name": "Hedgehog Buster",
+                        "shortDesc": "Energy Cost: 140, Damage: 450%, Max Enemies Hit: 8, Number of Attacks: 2, Stun Chance: 50%, Stun Duration: 7 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Energy_Burst.png/revision/latest?cb=20110507235943"],
                         "animations": ["https://media3.giphy.com/media/RKHU5XV9lueYIb1b0N/giphy.gif"],
                         "type": "Energy Attack",
@@ -331,6 +396,9 @@
                     },
                     {
                         "id": 5110014,
+                        "name": "Supercharge",
+                        "shortDesc": "Max Energy increased to 10000. Energy charged when attacking: 300, when Energy Charge is activated, Attack: +30, Movement Speed: +30, Defense: +500. Applies only half the effect while charging. Charges twice as fast when attacking bosses.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supercharge.png/revision/latest?cb=20131129053400", "https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Energy_Charge.png/revision/latest?cb=20110507235938"],
                         "animations": ["https://media1.giphy.com/media/RN8wKZmNHAraW3M6Zt/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -343,6 +411,9 @@
                     },
                     {
                         "id": 5111012,
+                        "name": "Static Thumper",
+                        "shortDesc": "MP Cost: 28 or Energy Cost: 180, Damage: 200%, Max Enemies Hit: 8, Number of Attacks: 5, when fully charged, damage increases by 10%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Static_Thumper.png/revision/latest?cb=20110508000052"],
                         "animations": ["https://media0.giphy.com/media/f9wvccr05Q7faKhDet/giphy.gif"],
                         "type": "Attack",
@@ -353,6 +424,9 @@
                     },
                     {
                         "id": 5111007,
+                        "name": "Roll of the Dice",
+                        "shortDesc": "MP Cost: 60, Buff Duration: 180, Cooldown: 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
                         "animations": ["https://media1.giphy.com/media/4eQqI2czS8JpJuy7Ih/giphy.gif"],
                         "type": "Buff",
@@ -368,16 +442,25 @@
                     },
                     {
                         "id": 5110011,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Admiral%27s_Wings.png/revision/latest?cb=20160702022247"],
-                        "type": "Passive"
-                    },
-                    {
-                        "id": 5110000,
+                        "name": "Precision Strikes",
+                        "shortDesc": "Critical Rate: +15%, Critical Damage: +10%, Additional Critical Rate on Bosses: 20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Precision_Strikes.png/revision/latest?cb=20111227224327"],
                         "type": "Passive"
                     },
                     {
+                        "id": 5110000,
+                        "name": "Stun Mastery",
+                        "shortDesc": "Critical Rate when attacking stunned enemies: +60%, Stun Rate: 20%",
+                        "maxLevel": 10,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Stun_Mastery.png/revision/latest?cb=20110507235933"],
+                        "type": "Passive"
+                    },
+                    {
                         "id": 5110010,
+                        "name": "Admiral's Wings",
+                        "shortDesc": "Damage Taken: -20%",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Admiral%27s_Wings.png/revision/latest?cb=20160702022247"],
                         "type": "Passive"
                     }]
@@ -385,6 +468,9 @@
                 [
                     "4th Job", [{
                         "id": 5121007,
+                        "name": "Octopunch",
+                        "shortDesc": "MP Cost: 32 or Energy Cost: 150, Damage: 320%, Number of Attacks: 8. When fully charged, Number of Attacks: 10.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Octopunch.png/revision/latest?cb=20111227202037"],
                         "animations": ["https://media1.giphy.com/media/kGLgswg6bhrDkmAIto/giphy.gif"],
                         "type": "Attack",
@@ -392,6 +478,9 @@
                     },
                     {
                         "id": 5121020,
+                        "name": "Octopunch",
+                        "shortDesc": "MP Cost: 32 or Energy Cost: 150, Damage: 320%, Number of Attacks: 8. When fully charged, Damage: 320%, Number of Attacks: 10.",
+                        "maxLevel": 30,
                         "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADkElEQVR4nL1X3bmiMBBNvu82oCVACZcStIS1BCwBSoAStAS3BG4JWkIoAUtgc0gOmcTI7r54HhRxyDnzk8zwpWLM6jPQvJAC5mmaPsK+3+9niqAAR35qlx+7b/txKJQqnkr1vbO4+OCc7HNdo9S4U89+dPaNtz1526dgG5zt8n9l/59mdTdGVWW5iPhKybPIkKufMRYK8nsmg3v7zL1ZyYHvolhFrClYFtuCJFeeGJDklQ72+F1qR7rXK7ldIFo2LsJ6J3481VuA9GxJL437JnnXKdW2gRzhz5HrUikbgVcBwLWPuRH+s/Ae5K21Gez9o3Yi6PHy3cTr3SnCCPJg8yqApATIGxF6iVUEotKF+/DeiCgsIkr3n6EjWwJIDDRebZFJCcgHH/6bCrsgBQhlZMRaQcBSVAkJyPvM1iIYAdbAzZMcEyEkrMRapk4EwAj57+YQdpBfNg7HY1L13AUmeYbEKEat/6EGsCXfkZ908GJAYdnIjda2aJyIMfFe7P+lGE1cpEEAvf/xBGkhMgWdWOBYOhGFzK+4NmL7oQh5IAH3NAUHIavOeH4zr/eGOohgWefAHVBY+6leNSUCvPcHT45rGD1UfBQTsiirMn8MEzwDIITPZQ8iSX4QHjPHt9mJuP1v1/bRmcRz45gREJGLkBa/AjFF0JPhb2J8rJmGzQgwBSxERgRiUANSxLJ277ZiY/N6uLwRUDgRSANEzHw2jYAkJ/HVXtciFWg2MgVLxbcb5Cr2HiJwDswhakKAcjtBiqh5KPlzHp2OIvB9bn0KRleIAIrxaRerjvGBxEKcjZItOQiorTetdmfBwS+yE3sT5My/JD/6emArBkjOpsTwA5s1sEZDpIHtGGD4TzqQR0WYTFUmGUbSVh0JQMeSUUhFSLAGcjug0on3QgTHs2w7tjNeNBH9Vq4m5Ji1eCFI2YxynfJlHhDrZNtxDmfRalnolQ4i5ECy2CcCjfBahr/sM+04Nw9IEcTdf9P7QQi8JAKrJPQkx0546QVyHgBYfJgLZDckOAvKgWT10Oef9ykCAPnmUNoKMikiBWdECKn0+2bE+5M/LzaH0johArkU4V9IHLxKpO7WJO8EmfbMCGSGUo13Nbwd7R7XQICFGf7LHF5McN/aPB/ObAevKIIoy3DNaLIGLPnDNrfK2WhGYBGB1yVVJyFEo0Hj6PxRCuWpTYphw6BQKzkjQGj/wvgJrPn6A5Tj6yAfK4dRAAAAAElFTkSuQmCC"],
                         "animations": ["https://media0.giphy.com/media/Y2bdGwdniyxXt38m0r/giphy.gif"],
                         "type": "Energy Attack",
@@ -403,6 +492,9 @@
                     },
                     {
                         "id": 5121001,
+                        "name": "Dragon Strike",
+                        "shortDesc": "Energy Cost: 180, Damage: 300%, Max Enemies Targeted: 10, Number of Hits: 12. For enemies hit, duration: 15, final damage taken from Buccaneer +20%.\\nCooldown: 10 sec. Can only be used when fully charged.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Dragon_Strike.png/revision/latest?cb=20110508015920"],
                         "animations": ["https://media2.giphy.com/media/VEbWEIpjIf57ydUwU0/giphy.gif"],
                         "type": "Energy Attack",
@@ -414,6 +506,9 @@
                     },
                     {
                         "id": 5121013,
+                        "name": "Nautilus Strike",
+                        "shortDesc": "MP Cost: 350, Damage: 440%, Max Enemies Hit: 15, Number of Attacks: 7\\n[Final Attack Skills] 100% chance to strike 2 additional times for 165% damage. Duration: 165% when attacking with Somersault Kick, Corkscrew Blow, Spiral Assault, Octopunch, Serpent Vortex, or Howling Fist during cooldown.\\nCooldown: 60 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744"],
                         "animations": ["https://media0.giphy.com/media/LOikrbuPas8SGF91RY/giphy.gif"],
                         "type": "Attack",
@@ -425,6 +520,9 @@
                     },
                     {
                         "id": 5121016,
+                        "name": "Buccaneer Blast",
+                        "shortDesc": "MP Cost: 46, Max Enemies Hit: 10, Damage: 565%, Number of Attacks: 4. When energy is fully charged, the damage of Double Blast increases by 20%.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Buccaneer_Blast.png/revision/latest?cb=20111221151748"],
                         "animations": ["https://media2.giphy.com/media/RlwHopNbL9ZxjcxKlP/giphy.gif"],
                         "type": "Attack",
@@ -432,6 +530,9 @@
                     },
                     {
                         "id": 5121017,
+                        "name": "Double Blast",
+                        "shortDesc": "Energy Cost: 260, Max Enemies Hit: 10, Damage: 565%, Number of Attacks: 4",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Double_Blast_%28Buccaneer%29.png/revision/latest?cb=20140419213232"],
                         "animations": ["https://media2.giphy.com/media/d5Ysy5aS7xyTIodaRe/giphy.gif"],
                         "type": "Energy Attack",
@@ -443,6 +544,9 @@
                     },
                     {
                         "id": 5121015,
+                        "name": "Crossbones",
+                        "shortDesc": "MP Cost: 45, Duration: 180 sec, Damage: +30%.\\n[Passive Effect: Increases Knuckle Mastery by 70%, Abnormal Status Resistance by 30, and Elemental Resistance by 30%]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Crossbones.png/revision/latest?cb=20111221151810"],
                         "animations": ["https://media3.giphy.com/media/x1S2Bj2CALCpCqFUwz/giphy.gif"],
                         "type": "Buff",
@@ -453,6 +557,9 @@
                     },
                     {
                         "id": 5121010,
+                        "name": "Time Leap",
+                        "shortDesc": "MP Cost: 405, Cooldown: 180 sec\\nParty members that received the effect cannot receive Time Leap's effect again for 180 sec.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/61/Skill_Time_Leap.png/revision/latest?cb=20110508020047"],
                         "animations": ["https://media3.giphy.com/media/O6RWeNjF1PQ7SAR77D/giphy.gif"],
                         "type": "Party Active",
@@ -465,6 +572,9 @@
                     },
                     {
                         "id": 5121009,
+                        "name": "Speed Infusion",
+                        "shortDesc": "HP Cost: 40, MP Cost: 40, Attack Speed Increase Duration: 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Speed_Infusion.png/revision/latest?cb=20110508020039"],
                         "animations": ["https://media3.giphy.com/media/AT4pBfbtzZbSl55eUM/giphy.gif"],
                         "type": "Party Buff",
@@ -472,12 +582,18 @@
                     },
                     {
                         "id": 5121000,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 5121008,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
                         "type": "Buff",
@@ -485,6 +601,9 @@
                     },
                     {
                         "id": 5120012,
+                        "name": "Double Down",
+                        "shortDesc": "MP Cost: 60, 50% chance of rolling a Double Down, Buff Duration: 180 sec\\nCooldown: 180 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818", "https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -494,6 +613,9 @@
                     },
                     {
                         "id": 5120018,
+                        "name": "Ultra Charge",
+                        "shortDesc": "Energy charged when attacking: 350, when Energy Charge is activated, Attack: +50, Movement Speed: +40, Defense: +600. Applies only half the effect while charging. Charges twice as fast when attacking bosses.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Ultra_Charge.png/revision/latest?cb=20140419213237", "https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supercharge.png/revision/latest?cb=20131129053400"],
                         "animations": ["https://media3.giphy.com/media/SU9OjLLrTKBtI5r3N1/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -505,6 +627,9 @@
                     },
                     {
                         "id": 5120011,
+                        "name": "Pirate's Revenge",
+                        "shortDesc": "Chance: 25%, Damage Taken: -40%, Damage: +25%, Duration: 30 sec, will also activate for attacks that deal damage of a set proportion to the maximum HP.\\n[Passive Effects: Corkscrew Blow and Spiral Assault Damage: +100%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052"],
                         "type": "Passive",
                         "desc": "When damaged, you have a chance to take reduced damage and gain a %Damage buff",
@@ -516,6 +641,9 @@
                     },
                     {
                         "id": 5120014,
+                        "name": "Typhoon Crush",
+                        "shortDesc": "40% chance of ignoring all enemy DEF",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Typhoon_Crush.png/revision/latest?cb=20111221151841"],
                         "type": "Passive",
                         "desc": "",
@@ -529,54 +657,81 @@
             "hyperPassive": [
                 {
                     "id": 5120043,
+                    "name": "Double Down - Saving Grace",
+                    "shortDesc": "When Double Down does not activate, there is a 40% chance for the cooldown to not apply. The next cast after this will activate Double Down with 4 or above.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Double_Down_-_Saving_Grace.png/revision/latest?cb=20140418191453"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 5120044,
+                    "name": "Double Down - Addition",
+                    "shortDesc": "Lucky number 7 added to Double Down",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Double_Down_-_Addition.png/revision/latest?cb=20140418191938"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 5120045,
+                    "name": "Double Down - Enhance",
+                    "shortDesc": "Increases the chances of rolling a 4, 5, or 6 in Roll of the Dice.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Double_Down_-_Enhance.png/revision/latest?cb=20140418192341"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 5120046,
+                    "name": "Octopunch - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Octopunch_-_Reinforce.png/revision/latest?cb=20121016155238"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 5120047,
+                    "name": "Octopunch - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Octopunch_-_Boss_Rush.png/revision/latest?cb=20121016155438"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 5120048,
+                    "name": "Octopunch - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Octopunch_-_Extra_Strike.png/revision/latest?cb=20121016155534"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 5120049,
+                    "name": "Buccaneer Blast - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Buccaneer_Blast_-_Reinforce.png/revision/latest?cb=20121016155639"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 5120050,
+                    "name": "Buccaneer Blast - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Buccaneer_Blast_-_Spread.png/revision/latest?cb=20121016155757"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 5120051,
+                    "name": "Buccaneer Blast - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Buccaneer_Blast_-_Extra_Strike.png/revision/latest?cb=20121016155935"],
                     "type": "Passive",
                     "reqLev": 190
@@ -585,6 +740,9 @@
             "hyperActive": [
                 {
                     "id": 5121054,
+                    "name": "Stimulating Conversation",
+                    "shortDesc": "MP Cost: 300 (when fully charged)\\nDuration: 120 sec, Damage: +20%, self-charge 800 energy at certain interval.\\nCooldown: 240 sec\\n[Passive Effect: Boss Damage: +20%]",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Stimulating_Conversation.png/revision/latest?cb=20121016160211"],
                     "animations": ["https://media1.giphy.com/media/dayIXafRIVr43GVEx5/giphy.gif"],
                     "type": "Buff",
@@ -596,6 +754,9 @@
                 },
                 {
                     "id": 5121052,
+                    "name": "Power Unity",
+                    "shortDesc": "Energy Cost: 1500, Max Enemies Hit: 8, Damage: 650%, Number of Attacks: 5. Can only be used when the energy is draining after a full charge. For 90 sec, increases Critical Damage by 10%. Can stack up to 4 times.\\nCooldown: 10 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Power_Unity.png/revision/latest?cb=20121016160038"],
                     "animations": ["https://media0.giphy.com/media/XftOIDU2Nqz9lXY8SC/giphy.gif"],
                     "type": "Energy Attack",
@@ -607,6 +768,9 @@
                 },
                 {
                     "id": 5121053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954"],
                     "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
                     "type": "Buff",

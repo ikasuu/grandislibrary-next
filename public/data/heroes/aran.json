@@ -99,6 +99,9 @@
             [
                 "Beginner", [{
                     "id": 20000194,
+                    "name": "Regained Memory",
+                    "shortDesc": "Permanently increase Attack Power: +5%, DEF: +300, Speed: +10",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Regained_Memory.png/revision/latest?cb=20160626035608"],
                     "type": "Passive",
                     "desc": "",
@@ -108,6 +111,9 @@
                 },
                 {
                     "id": 20001295,
+                    "name": "Combat Step",
+                    "shortDesc": "MP Cost: 5, travel a short distance\\nMovement Speed +15, Max Movement Speed +20",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Combat_Step.png/revision/latest?cb=20160623035959"],
                     "animations": ["https://media.giphy.com/media/RJbu2XQsnEuWrjNF9e/giphy.gif"],
                     "type": "Active",
@@ -121,6 +127,9 @@
                 },
                 {
                     "id": 20001296,
+                    "name": "Return to Rien",
+                    "shortDesc": "MP Cost: 100.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Return_to_Rien.png/revision/latest?cb=20160623040152"],
                     "type": "Active",
                     "desc": "Teleports to Rien, Aran's hometown"
@@ -129,11 +138,17 @@
             [
                 "1st Job", [{
                         "id": 21000000,
+                        "name": "Combo Ability",
+                        "shortDesc": "Knockback Resistance +50%, For every 50 Combo Counts, ATT: +2, DEF: +20, Speed: +3, Max Stacks: 10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Combo_Ability.png/revision/latest?cb=20100603074051"],
                         "type": "Passive"
                     },
                     {
                         "id": 21001010,
+                        "name": "Smash Swing",
+                        "shortDesc": "MP Cost: 5, Damage: 150%, Attacks Per Swing: 2, Max Enemies Hit: 6",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Smash_Swing.png/revision/latest?cb=20151112090117"],
                         "animations": ["https://media.giphy.com/media/XEgFwTDPrOXAfKbusH/giphy.gif"],
                         "type": "Basic Attack Modifier",
@@ -141,6 +156,9 @@
                     },
                     {
                         "id": 21000004,
+                        "name": "Smash Wave",
+                        "shortDesc": "MP Cost: 15, Damage: 500%, Max Enemies Hit: 6, Number of Attacks: 1\\nCooldown: 3 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Smash_Wave.png/revision/latest?cb=20151113014407"],
                         "animations": ["https://media.giphy.com/media/gdfVSJEaf2yoFHE3Ia/giphy.gif"],
                         "type": "Attack",
@@ -151,6 +169,9 @@
                     },
                     {
                         "id": 21001003,
+                        "name": "Polearm Booster",
+                        "shortDesc": "MP Cost: 11, Weapon's Attack Speed increased by 2 for 200 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Polearm_Booster.png/revision/latest?cb=20100603074001"],
                         "animations": ["https://media1.giphy.com/media/Fn2lupD9g7O1XGgDDI/giphy.gif"],
                         "type": "Buff",
@@ -158,6 +179,9 @@
                     },
                     {
                         "id": 21001008,
+                        "name": "Body Pressure",
+                        "shortDesc": "Damage Reflected: 500%",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Body_Pressure.png/revision/latest?cb=20100603082115"],
                         "animations": ["https://media0.giphy.com/media/79AfLL65IEKwdSU3TE/giphy.gif"],
                         "type": "Toggle Buff",
@@ -167,6 +191,9 @@
                 [
                     "2nd Job", [{
                         "id": 21101011,
+                        "name": "Final Charge",
+                        "shortDesc": "MP Cost: 32, Damage: 300%, Max Monsters Hit: 10, Use command to stun enemies for 10 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Final_Charge.png/revision/latest?cb=20160624032813"],
                         "animations": ["https://media.giphy.com/media/efsGUg6BkRVghBs0eH/giphy.gif"],
                         "type": "Attack",
@@ -177,6 +204,9 @@
                     },
                     {
                         "id": 21101016,
+                        "name": "Final Toss",
+                        "shortDesc": "MP Cost: 30, Damage: 550%, Max Enemies Hit: 10, Damage to Airborne Enemies: +100% points",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Final_Toss.png/revision/latest?cb=20160624034842"],
                         "animations": ["https://media0.giphy.com/media/XetTkW9zBDWsNyXepl/giphy.gif"],
                         "type": "Attack",
@@ -189,6 +219,9 @@
                     },
                     {
                         "id": 21101017,
+                        "name": "Rolling Spin",
+                        "shortDesc": "MP Cost: 37, Damage: 555%, Number of Attacks: 3, Max Monsters Hit: 10, Use command to stun enemies for 5 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Rolling_Spin.png/revision/latest?cb=20160624035606"],
                         "animations": ["https://media.giphy.com/media/h53K1Arrd0e0b492Zq/giphy.gif"],
                         "type": "Attack",
@@ -200,12 +233,18 @@
                     },
                     {
                         "id": 21101005,
+                        "name": "Drain",
+                        "shortDesc": "Recovers 1% of your Max HP when attacking enemies. Permanently increases Max HP by 10%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Drain.png/revision/latest?cb=20100603082221"],
                         "animations": ["https://media0.giphy.com/media/xXPnoBw16q0FA4zLmR/giphy.gif"],
                         "type": "Toggle Buff"
                     },
                     {
                         "id": 21101006,
+                        "name": "Snow Charge",
+                        "shortDesc": "Permanently increases Damage by 10%. MP Cost: 33, Duration: 200 sec, Enemy Speed: -40 for 20 sec, Damage: +10% when attacking enemies that have had their speed reduced. Can be used on bosses but the speed reduction's duration is cut in half.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Snow_Charge.png/revision/latest?cb=20100603100949"],
                         "animations": ["https://media3.giphy.com/media/vNQlFJ7WlMvoeO8Qef/giphy.gif"],
                         "type": "Buff",
@@ -217,16 +256,25 @@
                     },
                     {
                         "id": 21100000,
+                        "name": "Polearm Mastery",
+                        "shortDesc": "Polearm Mastery: +50%, Attack Speed +1",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Polearm_Mastery.png/revision/latest?cb=20100603082005"],
                         "type": "Passive"
                     },
                     {
                         "id": 21100014,
+                        "name": "Command Mastery I",
+                        "shortDesc": "Skill damage increases by 5% points when the skill is triggered with a command.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Command_Mastery_I.png/revision/latest?cb=20160624040332"],
                         "type": "Passive"
                     },
                     {
                         "id": 21100015,
+                        "name": "Swing Studies I",
+                        "shortDesc": "Smash Swing Damage: +200% points, Final Damage (of other skills): +10% for 3 sec.\\n[Final Attack Skills] Creates an afterimage that attacks up to 4 enemies with 100% damage 2 times when you use other direct attack skills after Smash Swing. Increases Movement Speed during swings.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Swing_Studies_I.png/revision/latest?cb=20160624041128"],
                         "animations": ["https://media2.giphy.com/media/l3CIKsOE8V2cjr5830/giphy.gif"],
                         "type": "Final Attack Passive",
@@ -238,11 +286,17 @@
                     },
                     {
                         "id": 21100008,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     },
                     {
                         "id": 21100010,
+                        "name": "Final Attack",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal Final Attack damage of 150%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                         "type": "Final Attack Passive",
                         "desc": "Grants your attacks a chance to deal an additional hit"
@@ -251,6 +305,9 @@
                 [
                     "3rd Job", [{
                         "id": 21110000,
+                        "name": "Advanced Combo Ability",
+                        "shortDesc": "Knockback Resistance: +50%, Attack Power: +10, Abnormal Status Resistance: +40, Critical Rate: +20%, Critical Damage: +10%, Critical Rate (per 50 combos): +3%, Attack Power (per 10 combos): +2, Max Stacks: 10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Advanced_Combo_Ability.png/revision/latest?cb=20100603100546", "https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Combo_Ability.png/revision/latest?cb=20100603074051"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -262,12 +319,18 @@
                     },
                     {
                         "id": 21110026,
+                        "name": "Aero Swing",
+                        "shortDesc": "Can use Smash Swing while airborne, damage increases by 100% points",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Aero_Swing.png/revision/latest?cb=20160624044517"],
                         "animations": ["https://media3.giphy.com/media/yOsg57wXlj8GTN2jZ9/giphy.gif"],
                         "type": "Passive"
                     },
                     {
                         "id": 21110016,
+                        "name": "Adrenaline Rush",
+                        "shortDesc": "At 1,000 Combos: For 15 sec, Aran's skill damage increases by 150% points excluding Finisher/summoning/additional attack skills, attack count increases by 2, maximum monsters hit increases by 5\\nSkill damage permanently increases by 100% points",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Adrenaline_Rush.png/revision/latest?cb=20160110015041"],
                         "animations": ["https://media0.giphy.com/media/l8eubWVB69lPOIAjoP/giphy.gif"],
                         "type": "Passive",
@@ -282,6 +345,9 @@
                     },
                     {
                         "id": 21111021,
+                        "name": "Final Blow",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 6, Damage: 285%, Number of Attacks: 5, Ignored Monster DEF: 15%\\nShoots 1 shockwaves that attack up to 6 enemies with 350% damage 4 times during Adrenaline Rush.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Final_Blow.png/revision/latest?cb=20160624050128"],
                         "animations": ["https://media.giphy.com/media/d9Yp8ZC6CbMa3ZcFtt/giphy.gif"],
                         "type": "Attack",
@@ -294,6 +360,9 @@
                     },
                     {
                         "id": 21111017,
+                        "name": "Judgment Draw",
+                        "shortDesc": "MP Cost: 30, Damage: 380%, Attack Count: 4, Max Enemies Hit: 10, Freeze Duration: 10 sec, Damage Over Time: 200% damage every 1 sec for 6 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Judgment_Draw_%28Aran%29.png/revision/latest?cb=20160624051748"],
                         "animations": ["https://media.giphy.com/media/jpWZpz9OyEkx3g1WdI/giphy.gif"],
                         "type": "Attack",
@@ -304,6 +373,9 @@
                     },
                     {
                         "id": 21111019,
+                        "name": "Gathering Hook",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 10, Damage: 170%, Number of Attacks: 2\\nCooldown: 5 sec",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Gathering_Hook.png/revision/latest?cb=20160624051841"],
                         "animations": ["https://media.giphy.com/media/RIwJRabEmxu5w7VmH5/giphy.gif"],
                         "type": "Attack",
@@ -314,17 +386,26 @@
                     },
                     {
                         "id": 21111012,
+                        "name": "Maha Blessing",
+                        "shortDesc": "MP Cost: 13, Attack Power: +30, Magic ATT: +30, Duration: 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Maha_Blessing.png/revision/latest?cb=20111029145646"],
                         "animations": ["https://media1.giphy.com/media/Qa2W8Hhqp8GYwiM9T5/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 21110029,
+                        "name": "Might",
+                        "shortDesc": "Attack Power: +40, DEF: +215, Damage required to knock back a monster decreased to 10%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Might.png/revision/latest?cb=20160624043718"],
                         "type": "Passive"
                     },
                     {
                         "id": 21110010,
+                        "name": "Cleaving Blows",
+                        "shortDesc": "Monster DEF Ignored: 40%, Damage: +10%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Cleaving_Blows.png/revision/latest?cb=20110512130106"],
                         "type": "Passive"
                     }]
@@ -332,6 +413,9 @@
                 [
                     "4th Job", [{
                         "id": 21120022,
+                        "name": "Beyond Blade",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 6, Damage: 285%, Number of Attacks: 5. Deals up to 3 additional hits with consecutive key presses.\\n2 Hits: Attack 5 times for 300% damage\\n3 Hits: Attack 5 times for 315% damage.\\nFor each enemy struck fewer than Max Enemies Hit, 6% of the damage that would be dealt is doubled and inflicted as bonus damage.\\nBonus Critical Rate: 100%, Ignored Monster DEF: 30%\\nFires a shockwave that hits up to 6 enemies for 400% damage 5 times if in Adrenaline Rush state.\\nCan be used after Final Blow.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Beyond_Blade.png/revision/latest?cb=20120813161209"],
                         "animations": ["https://media.giphy.com/media/L1WHFDUsN8ZobX9Bu9/giphy.gif"],
                         "type": "Attack",
@@ -345,6 +429,9 @@
                     },
                     {
                         "id": 21120023,
+                        "name": "Finisher - Storm of Fear",
+                        "shortDesc": "MP Cost: 200, Max Enemies Hit: 12, Damage: 650%, Number of Attacks: 1, Max Duration: 10 sec\\nOnly one finisher can be triggered per Adrenaline Rush.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Finisher_-_Storm_of_Fear.png/revision/latest?cb=20160624055527"],
                         "animations": ["https://media4.giphy.com/media/JVPf2T3tjFuFCUi1Mq/giphy.gif"],
                         "type": "Command Key-down Attack",
@@ -356,6 +443,9 @@
                     },
                     {
                         "id": 21120019,
+                        "name": "Finisher - Hunter's Prey",
+                        "shortDesc": "MP Cost: 200. Hold key down to charge and use arrow keys to change direction once activated. A Chase Cut that strikes 15 times, dealing 1070% to 1 monsters, is activated 7 time(s). Invincible while charging. Damage increases by 100% for every 1 sec spent charging, up to 500%. Can charge for up to 5 sec.\\nOnly one finisher can be triggered per Adrenaline Rush.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Finisher_-_Hunter%27s_Prey.png/revision/latest?cb=20160118081907"],
                         "animations": ["https://media3.giphy.com/media/crCUwG8CPqzLaAurpc/giphy.gif"],
                         "type": "Command Key-down Attack",
@@ -368,6 +458,9 @@
                     },
                     {
                         "id": 21120001,
+                        "name": "High Mastery",
+                        "shortDesc": "Polearm Mastery: +70%. Attack Power: +30, Critical Damage: +8%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_High_Mastery.png/revision/latest?cb=20100603104117", "https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Polearm_Mastery.png/revision/latest?cb=20100603082005"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -378,17 +471,26 @@
                     },
                     {
                         "id": 21120004,
+                        "name": "High Defense",
+                        "shortDesc": "Damage Taken: -40%, HP: +20%, DEF: +300",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_High_Defense.png/revision/latest?cb=20100603104419"],
                         "type": "Passive"
                     },
                     {
                         "id": 21121000,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media1.giphy.com/media/TjG8RU54DVvsuIvrM3/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 21121008,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media2.giphy.com/media/29EwQksKCRv7SEcK9l/giphy.gif"],
                         "type": "Buff",
@@ -396,12 +498,18 @@
                     },
                     {
                         "id": 21120011,
+                        "name": "Sudden Strike",
+                        "shortDesc": "Damage dealt by Smash Wave, Final Charge, Final Toss, Rolling Spin, Judgment Draw, and Final Blow: +60% points",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Sudden_Strike_%28Aran%29.png/revision/latest?cb=20110513104855"],
                         "type": "Passive",
                         "desc": "Increases %p Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Smash_Wave.png/revision/latest?cb=20151113014407' alt='Skill Smash Wave' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Final_Charge.png/revision/latest?cb=20160624032813' alt='Skill Final Charge' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Final_Toss.png/revision/latest?cb=20160624034842' alt='Skill Final Toss' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Rolling_Spin.png/revision/latest?cb=20160624035606' alt='Skill Rolling Spin' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Final_Blow.png/revision/latest?cb=20160624050128' alt='Skill Final Blow' width='32' height='32'>and <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Judgment_Draw_%28Aran%29.png/revision/latest?cb=20160624051748' alt='Skill Judgment Draw (Aran)' width='32' height='32'>"
                     },
                     {
                         "id": 21120020,
+                        "name": "Command Mastery II",
+                        "shortDesc": "Skill damage increases by 20% points when the skill is triggered with a command.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Command_Mastery_II.png/revision/latest?cb=20160624065155", "https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Command_Mastery_I.png/revision/latest?cb=20160624040332"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -411,6 +519,9 @@
                     },
                     {
                         "id": 21120021,
+                        "name": "Swing Studies II",
+                        "shortDesc": "Smash Swing Damage: +250% points, Final Damage (of other skills): +15% for 5 sec.\\n[Final Attack Skills] Creates an afterimage that attacks up to 6 enemies with 280% damage 5 times when you use other direct attack skills after Smash Swing. Increases Movement Speed during swings.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Swing_Studies_II.png/revision/latest?cb=20160624065528", "https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Swing_Studies_I.png/revision/latest?cb=20160624041128"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -421,6 +532,9 @@
                     },
                     {
                         "id": 21120012,
+                        "name": "Advanced Final Attack",
+                        "shortDesc": "Attack Power: +30 permanently.\\n[Final Attack Skills] Final Attack Chance: 60%, Damage: 85%, Times Activated: 3.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -435,54 +549,81 @@
             "hyperPassive": [
                 {
                     "id": 21120059,
+                    "name": "Heavy Swing",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Heavy_Swing.png/revision/latest?cb=20151206053419"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 21120060,
+                    "name": "Frenzied Swing",
+                    "shortDesc": "Damage added to other skills after swinging: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Frenzied_Swing.png/revision/latest?cb=20151228065513"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 21120061,
+                    "name": "Rebounding Swing",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Rebounding_Swing.png/revision/latest?cb=20160101021805"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 21120062,
+                    "name": "Storming Terror",
+                    "shortDesc": "Max Enemies Hit: +3",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Storming_Terror.png/revision/latest?cb=20160101022137"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 21120063,
+                    "name": "Merciless Hunt",
+                    "shortDesc": "Damage: +30%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Merciless_Hunt.png/revision/latest?cb=20160101022430"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 21120064,
+                    "name": "Surging Adrenaline",
+                    "shortDesc": "Duration: +5 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Surging_Adrenaline.png/revision/latest?cb=20160101022740"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 21120065,
+                    "name": "Beyond-er Blade",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Beyond-er_Blade.png/revision/latest?cb=20160108015538"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 21120066,
+                    "name": "Beyond Blade Barrage",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/04/Skill_Beyond_Blade_Barrage.png/revision/latest?cb=20160108015900"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 21120067,
+                    "name": "Piercing Beyond Blade",
+                    "shortDesc": "Monster DEF Ignored: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Piercing_Beyond_Blade.png/revision/latest?cb=20160108020028"],
                     "type": "Passive",
                     "reqLev": 190
@@ -491,6 +632,9 @@
             "hyperActive": [
                 {
                     "id": 21121058,
+                    "name": "Adrenaline Burst",
+                    "shortDesc": "MP Cost: 500, Cooldown: 240 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Adrenaline_Burst.png/revision/latest?cb=20181112052147"],
                     "type": "Buff",
                     "desc": "Instantly activates <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Adrenaline_Rush.png/revision/latest?cb=20160110015041' alt='Skill Adrenaline Rush'>",
@@ -498,6 +642,9 @@
                 },
                 {
                     "id": 21121057,
+                    "name": "Maha's Domain",
+                    "shortDesc": "MP Cost: 500, Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 5. Deals 3 attacks of 500% damage each to enemies in range for 10 sec. Removes some Abnormal Statuses from party members and restores HP/MP by 20% every second\\nCooldown: 150 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Maha%27s_Domain.png/revision/latest?cb=20160108020355"],
                     "animations": ["https://media1.giphy.com/media/SuwtmEp1VkjbMG2OBP/giphy.gif"],
                     "type": "Attack / Buff Zone",
@@ -509,6 +656,9 @@
                 },
                 {
                     "id": 21121053,
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Heroic_Memories_%28Aran%29.png/revision/latest?cb=20121015211332"],
                     "animations": ["https://media3.giphy.com/media/k2zTy2N3AYAhLYR7ZO/giphy.gif"],
                     "type": "Buff",

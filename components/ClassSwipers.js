@@ -184,7 +184,7 @@ function renderSwitch(param){
             return(
                 classes.explorers.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/classes/explorers/${job[0]}`}>
+                        <Link href={`/classes/explorers/${job[0]}`} replace>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>

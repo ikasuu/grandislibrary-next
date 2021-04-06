@@ -103,6 +103,9 @@
             [
                 "Beginner", [{
                     "id": 150011074,
+                    "name": "Contact Caravan",
+                    "shortDesc": "MP Cost: 100, gains a buff for 300 sec\\nFerret: Active Cooldowns shortened by 10% (except skills that ignore cooldown resets)\\nSalvo: Damage increases by 8%\\nMar: EXP +4%\\nZippy: Applies Ferret, Salvo, and Mar's buffs at the same time at half strength\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Contact_Caravan.png/revision/latest?cb=20180815050154"],
                     "animations": ["https://media2.giphy.com/media/4Zi1fJR52tKJXlVFPg/giphy.gif"],
                     "type": "Buff",
@@ -117,6 +120,9 @@
                 },
                 {
                     "id": 150010079,
+                    "name": "Magic Conversion",
+                    "shortDesc": "25% of your equipment's Magic ATT is converted to Attack Power, excluding your weapon. Any set effects do not apply. Only converts up to 10% of your weapon's base Attack Power.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Magic_Conversion.png/revision/latest?cb=20180701165859"],
                     "type": "Passive"
                 },
@@ -141,6 +147,9 @@
                 "1st Job", [
                     {
                         "id": 155000007,
+                        "name": "Specter State",
+                        "shortDesc": "Activate Specter State after using Specter skills multiple times.\\nIf you use the last of your Spectra to maintain Specter State, you won't be able to recover it for 20 sec, even in Flora State\\nSpecter State\\nSkills: changed and enhanced, Attack Power: +30, Knockback Resistance: +100%",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Specter_State.png/revision/latest?cb=20180902220538"],
                         "animations": ["https://media0.giphy.com/media/H5Ke6z1fvUIYT97mNf/giphy.gif"],
                         "type": "Passive",
@@ -153,6 +162,9 @@
                     },
                     {
                         "id": 155001102,
+                        "name": "Ominous Nightmare",
+                        "shortDesc": "HP Cost: 30, Damage: 90%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 2 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Skill_Ominous_Nightmare.png/revision/latest?cb=20180902220535"],
                         "animations": ["https://media2.giphy.com/media/fqzaYix4q3syMqhY6Y/giphy.gif"],
                         "type": "Lef | Attack",
@@ -160,6 +172,9 @@
                     },
                     {
                         "id": 155001202,
+                        "name": "Ominous Dream",
+                        "shortDesc": "Damage: 120%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits\\nNo cooldown",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Ominous_Dream.png/revision/latest?cb=20180902220535"],
                         "animations": ["https://media3.giphy.com/media/cmYkvo2YVa3s5TQMAY/giphy.gif"],
                         "type": "Specter | Attack",
@@ -171,6 +186,9 @@
                     },
                     {
                         "id": 155001100,
+                        "name": "Basic Charge Drive",
+                        "shortDesc": "MP Cost: 16, Damage: 100%, Max Enemies Hit: 6, Number of Attacks: 3\\nBasic Cast: Damage: 50%, Number of Basic Casts: 2, Number of Attacks: 1\\nBasic Buff : Speed: + 20 when Basic Cast hits, Knockback Resistance: +50% when Basic Cast hits, Duration: 60 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Basic_Charge_Drive.png/revision/latest?cb=20180902220525"],
                         "animations": ["https://media0.giphy.com/media/WQBQ8L3rDdT5PxkZqO/giphy.gif"],
                         "type": "Lef | Attack",
@@ -182,6 +200,9 @@
                     },
                     {
                         "id": 155001103,
+                        "name": "Spell Bullets",
+                        "shortDesc": "MP Cost: 10, Shoot all charged spells at once like bullets.\\nDamage +5% for every extra bullet\\nMax Bullets: 5",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Spell_Bullets.png/revision/latest?cb=20180902220539"],
                         "animations": ["https://media1.giphy.com/media/qmPMA3vFyTqM3vhIDk/giphy.gif"],
                         "type": "Attack",
@@ -194,6 +215,9 @@
                     },
                     {
                         "id": 155001104,
+                        "name": "Mystic Leap",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Mystic_Leap.png/revision/latest?cb=20180902220534"],
                         "animations": ["https://media2.giphy.com/media/PnChaj1vieuE932VW7/giphy.gif"],
                         "type": "Lef | Active",
@@ -204,6 +228,9 @@
                     },
                     {
                         "id": 155001204,
+                        "name": "Instinctual Leap",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Instinctual_Leap.png/revision/latest?cb=20180902220530"],
                         "animations": ["https://media2.giphy.com/media/Swg8DkSlnYoQ6srAEp/giphy.gif"],
                         "type": "Specter | Active",
@@ -217,6 +244,9 @@
                     },
                     {
                         "id": 155000006,
+                        "name": "Mystic Arts Mastery",
+                        "shortDesc": "Attack Power: +20, Speed: +25, Max Speed: +25, Jump: +20, Knockback Resistance: +50%, Defense: +250",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Mystic_Arts_Mastery.png/revision/latest?cb=20180902220533"],
                         "type": "Passive"
                     }]
@@ -225,6 +255,9 @@
                 "2nd Job", [
                     {
                         "id": 155101006,
+                        "name": "Master Corruption",
+                        "shortDesc": "Switch to Specter State\\nCooldown: 3 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Master_Corruption.png/revision/latest?cb=20180902220531"],
                         "animations": ["https://media3.giphy.com/media/0S9YOS3PEB47PHegmZ/giphy.gif"],
                         "type": "Active Transform",
@@ -237,6 +270,9 @@
                     },
                     {
                         "id": 155101100,
+                        "name": "Scarlet Charge Drive",
+                        "shortDesc": "MP Cost: 25, Damage: 80%, Max Enemies Hit: 6, Number of Attacks: 3\\nGenerates flames upon charging. Damage: 80%, Max Enemies Hit: 6, Number of Attacks: 3\\nCooldown: 3 sec\\nScarlet Cast: Damage: 90% Max Enemies Hit: 8, Number of Attacks: 5\\nScarlet Buff: Attack Power: +30 and Critical Rate +20% when Scarlet Buff hits. Duration: 60 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Scarlet_Charge_Drive.png/revision/latest?cb=20180902220536"],
                         "animations": ["https://media0.giphy.com/media/Y34wl7XtiiySMUoo4t/giphy.gif"],
                         "type": "Lef | Attack",
@@ -248,6 +284,9 @@
                     },
                     {
                         "id": 155101200,
+                        "name": "Grievous Wound",
+                        "shortDesc": "Damage: 170%, Max Enemies Hit: 8, Number of Attacks: 6\\nRecovers 2% of Max HP when the attack hits\\nCooldown: 3 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Grievous_Wound.png/revision/latest?cb=20180902220526"],
                         "animations": ["https://media0.giphy.com/media/MXzkgPLiYo02ZFc3Db/giphy.gif"],
                         "type": "Specter | Attack",
@@ -258,6 +297,9 @@
                     },
                     {
                         "id": 155101104,
+                        "name": "Unstoppable Impulse",
+                        "shortDesc": "HP Cost: 70, Damage: 110%, Number of Attacks: 5, Max Enemies Hit: 6, Max Consecutive Use: 2 times\\nCooldown: 6 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Unstoppable_Impulse.png/revision/latest?cb=20180902220540"],
                         "animations": ["https://media2.giphy.com/media/ZeF3EfB4RVnah0QkPG/giphy.gif"],
                         "type": "Lef | Attack",
@@ -270,6 +312,9 @@
                     },
                     {
                         "id": 155101204,
+                        "name": "Tenacious Instinct",
+                        "shortDesc": "Damage: 135%, Number of Attacks: 6, Max Enemies Hit: 6, Max Consecutive Use: 2 times\\nCooldown: 6 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Unstoppable_Impulse.png/revision/latest?cb=20180902220540"],
                         "animations": ["https://media1.giphy.com/media/j04Hm7H8igPfw8lxaB/giphy.gif"],
                         "type": "Specter | Attack",
@@ -283,6 +328,9 @@
                     },
                     {
                         "id": 155101008,
+                        "name": "Impending Death",
+                        "shortDesc": "Generates Abyssal Aura when attacking. Damage: 190%, Number of Attacks: 2, Max Abyssal Aura: 6\\nThe strength of the Abyssal Aura is based on the number of enemies nearby.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Impending_Death.png/revision/latest?cb=20180902220527"],
                         "animations": ["https://media0.giphy.com/media/Izim3k9QCQYDojhy57/giphy.gif"],
                         "type": "Specter | Toggle Attack",
@@ -293,6 +341,9 @@
                     },
                     {
                         "id": 155101005,
+                        "name": "Knuckle Booster",
+                        "shortDesc": "MP Cost: 10, Knuckle Attack Speed increased for 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Knuckle_Booster_%28Ark%29.png/revision/latest?cb=20180902220531"],
                         "animations": ["https://media3.giphy.com/media/YF7Dgi8JRHzqPsYySR/giphy.gif"],
                         "type": "Buff",
@@ -300,16 +351,25 @@
                     },
                     {
                         "id": 155100007,
+                        "name": "Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +50%, Attack Power +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
                         "type": "Passive"
                     },
                     {
                         "id": 155100010,
+                        "name": "Initiate Fusion",
+                        "shortDesc": "Max HP: +20%, Max MP: +20%, Damage Taken: -30%",
+                        "maxLevel": 8,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Initate_Fusion.png/revision/latest?cb=20180902220528"],
                         "type": "Passive"
                     },
                     {
                         "id": 155100011,
+                        "name": "Physical Training",
+                        "shortDesc": "STR +60",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     }]
@@ -318,6 +378,9 @@
                 "3rd Job", [
                     {
                         "id": 155110000,
+                        "name": "Vivid Nightmare",
+                        "shortDesc": "HP Cost: 50, Damage: 270%, Number of Attacks: 6, Enemies Hit: 6\\nCooldown: 2 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Vivid_Nightmare.png/revision/latest?cb=20180903020401", "https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Skill_Ominous_Nightmare.png/revision/latest?cb=20180902220535"],
                         "type": "Lef | Upgraded Passive",
                         "desc": "",
@@ -327,6 +390,9 @@
                     },
                     {
                         "id": 155110001,
+                        "name": "Vivid Dream",
+                        "shortDesc": "Damage: 280%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits\\nNo cooldown",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Vivid_Dream.png/revision/latest?cb=20180903020358", "https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Ominous_Dream.png/revision/latest?cb=20180902220535"],
                         "type": "Specter | Upgraded Passive",
                         "desc": "",
@@ -337,6 +403,9 @@
                     },
                     {
                         "id": 155111102,
+                        "name": "Gust Charge Drive",
+                        "shortDesc": "MP Cost: 40, Damage: 205%, Max Enemies Hit: 6, Number of Attacks: 6\\nCooldown: 5 sec\\nGust Cast: Pulls enemies nearby and does 200% damage. Max Enemies Hit: 12, Number of Attacks: 4\\nGust Buff\\nDuration: 60 sec when Gust Cast hits, Attack Speed: +1, Avoidability: +25%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Gust_Charge_Drive.png/revision/latest?cb=20180903020352"],
                         "animations": ["https://media1.giphy.com/media/MFPYje0PKhfsq4dYws/giphy.gif"],
                         "type": "Lef | Attack",
@@ -349,6 +418,9 @@
                     },
                     {
                         "id": 155111202,
+                        "name": "Insatiable Hunger",
+                        "shortDesc": "Damage: 320%, Max Enemies Hit: 8, Number of Attacks: 7\\nRecovers 5% of Max HP when the attack hits\\nCooldown: 5 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Insatiable_Hunger.png/revision/latest?cb=20180903020354"],
                         "animations": ["https://media1.giphy.com/media/Zb0TsAv4co18cMvLRd/giphy.gif"],
                         "type": "Specter | Attack",
@@ -359,11 +431,14 @@
                     },
                     {
                         "id": 155111306,
+                        "name": "Creeping Terror",
+                        "shortDesc": "HP Cost: 2% of Max HP per 0.5 sec while holding the key, Max Duration: 5 sec, Invincible while holding down the key\\nBoundless Horror\\nDamage: 400%, Max Enemies Hit: 12, Number of Attacks: 15\\nCooldown: 60 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Creeping_Terror.png/revision/latest?cb=20180903020305"],
                         "animations": ["https://media1.giphy.com/media/WQUYmWnkWxu7CrgOiV/giphy.gif"],
                         "type": "Key-down Attack",
                         "desc": "Burrow into the ground and emerge as a gigantic Specter",
-                        "detail": [
+                        "details": [
                             "While held, you will remain invincible and burrowed",
                             "When used, you will be shifted into Specter Form",
                             "Ignores Attack Ignore and Damage Reflect",
@@ -372,6 +447,9 @@
                     },
                     {
                         "id": 155111207,
+                        "name": "Vengeful Hate",
+                        "shortDesc": "20% chance to leave Abyssal Mark when Impending Death hits. Activates marks within a set range, dealing 210% damage to up to 8 enemies 6 times for every activated mark.\\nMax Mark Creation: 12, Max Duration: 20 sec\\nMax Mark Activation Limit for Auto Mode: 8\\nCooldown: 12 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Vengeful_Hate.png/revision/latest?cb=20180903020357"],
                         "animations": ["https://media4.giphy.com/media/6T9Zdru5HreMK11lJM/giphy.gif"],
                         "type": "Specter | Attack",
@@ -382,16 +460,25 @@
                     },
                     {
                         "id": 155110008,
+                        "name": "Mystic Arts Training",
+                        "shortDesc": "Basic Charge Drive Damage: +260%p, Basic Cast Damage: +160%p, Scarlet Charge Drive and Flame Damage: +100%p, Scarlet Cast Damage: +90%p",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Mystic_Arts_Training.png/revision/latest?cb=20180903020355"],
                         "type": "Passive"
                     },
                     {
                         "id": 155110009,
+                        "name": "Innate Arts Training",
+                        "shortDesc": "Grievous Wound: +160%p, Unstoppable Impulse / Tenacious Instinct Damage: +150%p, Impending Death Damage: +145%p",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Innate_Arts_Training.png/revision/latest?cb=20180903020354"],
                         "type": "Passive"
                     },
                     {
                         "id": 155110010,
+                        "name": "Advanced Fusion",
+                        "shortDesc": "Final Damage: +10%, Critical Rate: +20%, Status Resistance: +40, All Elemental Resistance: +16%",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Advanced_Fusion.png/revision/latest?cb=20180903020259"],
                         "type": "Passive"
                     }]
@@ -400,6 +487,9 @@
                 "4th Job", [
                 {
                     "id": 155120000,
+                    "name": "Endless Nightmare",
+                    "shortDesc": "HP Cost: 85, Damage: 440%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 2 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Endless_Nightmare.png/revision/latest?cb=20180903020307", "https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Skill_Ominous_Nightmare.png/revision/latest?cb=20180902220535"],
                     "type": "Lef | Upgraded Passive",
                     "desc": "",
@@ -409,6 +499,9 @@
                 },
                 {
                     "id": 155120001,
+                    "name": "Endless Dream",
+                    "shortDesc": "Damage: 445%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits\\nNo cooldown",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Endless_Dream.png/revision/latest?cb=20180903020306", "https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Ominous_Dream.png/revision/latest?cb=20180902220535"],
                     "type": "Specter | Upgraded Passive",
                     "desc": "",
@@ -419,6 +512,9 @@
                 },
                 {
                     "id": 155121102,
+                    "name": "Abyssal Charge Drive",
+                    "shortDesc": "HP Cost: 95, MP Cost: 65\\nDamage: 340%, Max Enemies Hit: 8, Number of Attacks: 4, Abyssal Magic: 410%, Abyssal Magic Max Enemies Hit: 8, Abyssal Magic Number of Attacks: 6\\nCooldown: 9 sec\\nAbyssal Cast : Creates Abyssal Cast when used. Abyssal Cast Duration: 3 sec, Abyssal Cast Max Enemies Hit: 8, Abyssal Cast Damage: 70%, Abyssal Cast Number of Attacks: 2\\nAbyssal Buff : Activates when Abyssal Cast hits. Duration: 60 sec 20%, Boss Damage: +30%, Ignore Defense +20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Abyssal_Charge_Drive.png/revision/latest?cb=20180903020258"],
                     "animations": ["https://media0.giphy.com/media/WmuCAIC260RcsKDDvS/giphy.gif"],
                     "type": "Lef | Attack",
@@ -430,6 +526,9 @@
                 },
                 {
                     "id": 155121202,
+                    "name": "Unbridled Chaos",
+                    "shortDesc": "Damage: 440%, Max Enemies Hit: 12, Number of Attacks: 12\\nRecovers 3% of Max HP when the attack hits\\nCooldown: 9 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Unbridled_Chaos.png/revision/latest?cb=20180903020356"],
                     "animations": ["https://media1.giphy.com/media/iggX7D7dkuSNUIExRG/giphy.gif"],
                     "type": "Specter | Attack",
@@ -440,6 +539,9 @@
                 },
                 {
                     "id": 155121306,
+                    "name": "Blissful Restraint",
+                    "shortDesc": "HP Cost: 1100, Damage: 600%, Max Enemies Hit: 1, Number of Attacks: 6. Bind Duration: 10 sec, Bind duration can increase up to 100% based on the damage inflicted with this skill.\\nAfterward\\nDuration: 9 sec, Max Enemies Hit: 12, Damage: 400%, Number of Attacks: 3\\nWhen the skill ends:\\nDamage: 1000%, Max Enemies Hit: 12, Number of Attacks: 8\\nCooldown: 180 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Blissful_Restraint.png/revision/latest?cb=20180903020302"],
                     "animations": ["https://media3.giphy.com/media/h3oIXOQgxmzM14fKFC/giphy.gif"],
                     "type": "Bind Attack",
@@ -453,12 +555,18 @@
                 },
                 {
                     "id": 155121008,
+                    "name": "Hero of the Flora",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Hero_of_the_Flora_%28Ark%29.png/revision/latest?cb=20180701215500"],
                     "animations": ["https://media0.giphy.com/media/OHI7iswR11WGft9NVg/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 155121009,
+                    "name": "Floran Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Floran_Hero%27s_Will_%28Ark%29.png/revision/latest?cb=20180903020309"],
                     "animations": ["https://media1.giphy.com/media/2qpEVaM8y61HcNSEmJ/giphy.gif"],
                     "type": "Buff",
@@ -466,6 +574,9 @@
                 },
                 {
                     "id": 155120010,
+                    "name": "Knuckle Expert",
+                    "shortDesc": "Knuckle Mastery: +70%. Attack Power: +30, Critical Damage: +30%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -476,6 +587,9 @@
                 },
                 {
                     "id": 155120011,
+                    "name": "Advanced Mystic Arts",
+                    "shortDesc": "Basic Charge Drive Damage: +250%p, Basic Cast Damage: +160%p, Scarlet Charge Drive and Flame Damage: +170%p, Scarlet Cast Damage: +40%p, Gust Charge Drive Damage: +195%p, Gust Cast Damage: +30%p",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Advanced_Mystic_Arts.png/revision/latest?cb=20180903020300", "https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Mystic_Arts_Training.png/revision/latest?cb=20180903020355"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -485,6 +599,9 @@
                 },
                 {
                     "id": 155120012,
+                    "name": "Advanced Innate Arts",
+                    "shortDesc": "Grievous Wound: +180%p, Unstoppable Impulse/Tenacious Instinct Damage: +175%p, Impending Death Damage: +115%p, Insatiable Hunger Damage: +190%p, Boundless Horror Damage: +890%p, Vengeful Hate Damage: +110%p",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Advanced_Innate_Arts.png/revision/latest?cb=20180903020300", "https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Innate_Arts_Training.png/revision/latest?cb=20180903020354"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -494,11 +611,17 @@
                 },
                 {
                     "id": 155120013,
+                    "name": "Complete Fusion",
+                    "shortDesc": "Attack Power: +40, Critical Rate: +10%, Ignore Defense: +30%, Boss Damage: +30%\\nDamage Taken: -20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Complete_Fusion.png/revision/latest?cb=20180903020304"],
                     "type": "Passive"
                 },
                 {
                     "id": 155120014,
+                    "name": "Battle Frenzy",
+                    "shortDesc": "Activated when you connect Basic Charge Drive or Endless Dream with other skills. Can be stacked up to 3 times. Duration: 5 sec\\nHigher levels of this skill allow you to link skills with Basic Charge Drive and Endless Dream faster.\\nPermanently increases Final Damage by 20%.",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Battle_Frenzy.png/revision/latest?cb=20180903020301"],
                     "type": "Passive",
                     "desc": "Whenever you link an attack with <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Basic_Charge_Drive.png/revision/latest?cb=20180902220525' alt='Skill Plain Charge Drive'/> or <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Ominous_Dream.png/revision/latest?cb=20180902220535' alt='Skill Endless Dream'/>, you gain stacks that make it easier to link further skills",
@@ -512,6 +635,9 @@
             "hyperPassive": [
                 {
                     "id": 155120031,
+                    "name": "Reinforced Battle Arts",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Reinforced_Battle_Arts.png/revision/latest?cb=20180903020356"],
                     "type": "Passive",
                     "desc": "",
@@ -522,6 +648,9 @@
                 },
                 {
                     "id": 155120032,
+                    "name": "Guardbreak Arts",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Guardbreak_Arts.png/revision/latest?cb=20180903020351"],
                     "type": "Passive",
                     "desc": "",
@@ -532,6 +661,9 @@
                 },
                 {
                     "id": 155120033,
+                    "name": "Boss Rush Arts",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Boss_Rush_Arts.png/revision/latest?cb=20180903020302"],
                     "type": "Passive",
                     "desc": "",
@@ -542,6 +674,9 @@
                 },
                 {
                     "id": 155120039,
+                    "name": "Incredibly Tenacious Instinct",
+                    "shortDesc": "Repeat Count: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Incredibly_Tenacious_Instinct.png/revision/latest?cb=20180903020353"],
                     "desc": "",
                     "details": [
@@ -552,18 +687,27 @@
                 },
                 {
                     "id": 155120037,
+                    "name": "Euphoric Restraint",
+                    "shortDesc": "Damage: +60%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Euphoric_Restraint.png/revision/latest?cb=20180903020309"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 155120038,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Eased_Terror.png/revision/latest?cb=20180903020305"],
+                    "name": "Swift Creeping Terror",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD7UlEQVR4nL1Xi3GrMBA8zaQBXgm4BFECLgFKwCXgEkwJpgQoIZSASgglhBL8boUk9MGJM5nJzdh8BLervdPpeCNjA/9qogf9gZVEYjLnjgDA5/njL/CpKE6YqPAJaHAp8+1K8NjjBTGESO+1kqjhX35PnzU+78M7XeqzJvEWg9eXjh3ciHCMbOivVPMYjg4sz7bzZd2ODF538MXvj/yrWnN/8zncW2oqDoIh8eYDCGZZ4UH4nq7UlbfAiQMHsLWLieZHsz3D4G1TGtDyQDTBQuzqvvkDMxOX7aKdFAvRDBLVTZPBNchpEt3VOagNYYoEK4oiAZ/nWWMAC2EICDwzC+6MFamzjLI8p1VW+lamRloX85CVHO9+7ufdvzSkCQEAPaaFBn5P9Ps9zT43k2QAnQsANJEA+LCuuxqeddcQOJgMHSiguolk2Wi5C5NsGrzcnA/ZSM+sPYg5ZeElwqBxTNImBHq+f49UsMD1ypJ3SodAz9iO4ZzvQfAk9l6+2jFL4imBxlNh7LccmEfFJawKHx6P4yrnDXVa2E9uGBhMVajg2cMk/EoFf8Y4wtz5eNGzw0yruUn8jkXvxr9cBVaFeGkpVqHLtqBWBtyegwT1C7Vj4UBuH3s1vJ52ck8VcAWa0myFyUqy6kpvXH4w9LnJiYEroaoNiVNB74+ZzmIn5WMcKhA/YA2EPnulVwTOfRIIDMAxBpU0+cKARuCxOQIoj7pMcpl98CyPSPxj1WezrABYmXCMXjh85YoiAmffgn0Dqx+nVAFdatkXkg/LzTIGmZax1BoC+MDahplmSg0kbO7PLJtS+0pIQmB3PKJwuQB8ou/taA84IpQSuOLFSs/2YSqgH4ZXwK09vuglRNRD7ARYct6odRhEf43fQxv1LQkbc7vlTkbqUkoHjnHJz6m4DoAXsnrg7ZgyqQnh3js3HGeu29OLJELSNa0qo44LS3vf2z34tRUiyAFUOnEKY39e9kQDOJIRhSpKP73nNFmqAtdeDe5mz9XSt7Aj6kLwI+vWjUSZZY4cVJp4RXSGVUzCgh8l6N6W33kJXrbYoxYgBCo/rohYEcpbgt0S6uHWPoNjJCYBLPvGcUdkwMf1cDTJA/86BseaRxL6JBa1v+EIoEGwKiBJsFK7JwRetbU/Ucmt28KbVN7sSQgsu0snCrRtSzeeE2r6T82fPcyCmq+NQIWkI5KcSLi5oNfL6Vcmjj5YnlgQgsV0tvWS08BFoeXd76dh8MvsqwQEvtXwdTSOvSNx5TJy46am+kko6nSZoYeAL+s355zIZYmvIlwKq4AmgTYp95rIHrVP0q8M9BFR368Fx5+fhMJ8MP6FuST5D97GJDbnPHRRAAAAAElFTkSuQmCC"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 155120034,
+                    "name": "Enhanced Spectra Healing",
+                    "shortDesc": "Spectra Recovery Speed: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Enhanced_Spectra_Healing.png/revision/latest?cb=20180903020308"],
                     "type": "Passive",
                     "desc": "",
@@ -574,6 +718,9 @@
                 },
                 {
                     "id": 155120035,
+                    "name": "Enhanced Specter State",
+                    "shortDesc": "",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Enhanced_Specter_State.png/revision/latest?cb=20180903020308"],
                     "type": "Passive",
                     "desc": "",
@@ -584,6 +731,9 @@
                 },
                 {
                     "id": 155120036,
+                    "name": "Advanced Specter State",
+                    "shortDesc": "",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Advanced_Specter_State.png/revision/latest?cb=20180903020301"],
                     "type": "Passive",
                     "desc": "",
@@ -597,6 +747,9 @@
             "hyperActive": [
                 {
                     "id": 155121043,
+                    "name": "Charge Spell Amplifier",
+                    "shortDesc": "MP Cost: 500, Duration: 60 sec\\nCharge Spell buff applied to party members who are within range when it activates. Charge Spell duration is the remaining time of Charge Spell Amplification.\\nEffect is doubled for yourself while Charge Spell Amplification lasts.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Charge_Spell_Amplifier.png/revision/latest?cb=20180903020303"],
                     "animations": ["https://media3.giphy.com/media/vZXDFW63oFrpXaI2g5/giphy.gif"],
                     "type": "Buff",
@@ -605,6 +758,9 @@
                 },
                 {
                     "id": 155121341,
+                    "name": "Endless Agony",
+                    "shortDesc": "Hold the key to continue the attack. Max Enemies Hit: 5, Max Duration: 3 sec, Damage: 300%, Number of Attacks: 3. An Abyssal Guard is summoned when the key is released or when the skill ends.\\nAbyssal Guard: activates Chase Cut 5 times, dealing 100% damage 12 times to 12 enemies, HP Recovery when the attack hits: 20% of Max HP, Final Damage based on duration: Up to 250%\\nCooldown: 60 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Endless_Agony.png/revision/latest?cb=20180903020306"],
                     "animations": ["https://media3.giphy.com/media/cn3rv2MxPo6xdV5L7p/giphy.gif"],
                     "type": "Key-down Attack",
@@ -616,6 +772,9 @@
                 },
                 {
                     "id": 155121042,
+                    "name": "Divine Wrath",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Flora class in the party.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Divine_Wrath_%28Ark%29.png/revision/latest?cb=20180701214946"],
                     "animations": ["https://media2.giphy.com/media/MY3bOY5o0IQMnYBQMJ/giphy.gif"],
                     "type": "Buff",

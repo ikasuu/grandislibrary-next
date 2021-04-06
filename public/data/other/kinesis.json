@@ -103,6 +103,9 @@
             [
                 "Beginner", [{
                     "id": 140001289,
+                    "name": "Psychic Attack",
+                    "shortDesc": "Up to 1 enemies attacked 1 times at 100% damage\\n[Charges 1 Psychic Points when used]",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Psychic_Attack.png/revision/latest?cb=20160610023545"],
                     "animations": ["https://media1.giphy.com/media/iT9kKzEeCIpJXxp2LA/giphy.gif"],
                     "type": "Basic Attack Modifier",
@@ -113,12 +116,18 @@
                 },
                 {
                     "id": 140001290,
+                    "name": "Return",
+                    "shortDesc": "Returns to Kinesis's Hideout.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Return_%28Kinesis%29.png/revision/latest?cb=20160610023956"],
                     "animations": ["https://media2.giphy.com/media/PVQwBfSxof6eYwrQB0/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 140000291,
+                    "name": "ESP",
+                    "shortDesc": "Critical Rate: 10%, Avoidability: 12%, Speed: +10",
+                    "maxLevel": 6,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_ESP.png/revision/latest?cb=20160610024301"],
                     "type": "Passive"
                 }]
@@ -127,11 +136,17 @@
                 "1st Job", [
                     {
                         "id": 142000005,
+                        "name": "Mental Fortitude",
+                        "shortDesc": "Max HP: +30%, Magic ATT: +10, Jump: +10, Speed: +10, and Max Speed: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Mental_Fortitude.png/revision/latest?cb=20160104074900"],
                         "type": "Passive"
                     },
                     {
                         "id": 142001001,
+                        "name": "Kinetic Crash",
+                        "shortDesc": "Up to 4 enemies attacked 2 times at 140% damage\\n[Charges 1 Psychic Points when used]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Kinetic_Crash.png/revision/latest?cb=20160414181903"],
                         "animations": ["https://media1.giphy.com/media/f3e2riaB17Cscni8sh/giphy.gif"],
                         "type": "Attack",
@@ -142,6 +157,9 @@
                     },
                     {
                         "id": 142001000,
+                        "name": "Psychic Force",
+                        "shortDesc": "Enemies Knocked Back: 4, Damage Over Time: 20%, Damage Over Time Duration: 30 sec, Damage Increase During Damage Over Time: 10% per sec, Max Increase During Damage Over Time: 200%\\nFinal damage received from Kinesis attack while Damage Over Time is applied: +10%.\\nCooldown: 1 sec\\n[Passive Effect - Magic ATT: +10]\\n[Psychic Points Charged During Skill Use: 1]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927"],
                         "animations": ["https://media0.giphy.com/media/QwyoIpsuRoOwdHD0li/giphy.gif"],
                         "type": "Attack",
@@ -154,6 +172,9 @@
                     },
                     {
                         "id": 142001002,
+                        "name": "Ultimate - Metal Press",
+                        "shortDesc": "Psychic Point Cost: 7. Damage: 120%, Number of Attacks: 10, Max Enemies Hit: 12",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622"],
                         "animations": ["https://media3.giphy.com/media/MZWgxUZ4Hib3JAXJMy/giphy.gif"],
                         "type": "PP Attack",
@@ -161,12 +182,18 @@
                     },
                     {
                         "id": 142001007,
+                        "name": "Mental Shield",
+                        "shortDesc": "Cancel 60% of damage received by consuming 1 Psychic Point. Can be toggled On/Off",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Mental_Shield.png/revision/latest?cb=20160414183307"],
                         "animations": ["https://media3.giphy.com/media/qNp55rEn5pf5wyiRro/giphy.gif"],
                         "type": "PP Toggle Buff"
                     },
                     {
                         "id": 142001003,
+                        "name": "ESP Booster",
+                        "shortDesc": "Duration: 180 sec, Attack Speed: +2",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_ESP_Booster.png/revision/latest?cb=20160121225140"],
                         "animations": ["https://media3.giphy.com/media/P8idQroox7uHvdUrWJ/giphy.gif"],
                         "type": "Buff",
@@ -174,6 +201,9 @@
                     },
                     {
                         "id": 142001004,
+                        "name": "Kinetic Step",
+                        "shortDesc": "Jump a set distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Kinetic_Step.png/revision/latest?cb=20160121224618"],
                         "animations": ["https://media3.giphy.com/media/YMYgMz6JvkshUOIs7u/giphy.gif"],
                         "type": "Active",
@@ -189,6 +219,9 @@
                 "2nd Job", [
                     {
                         "id": 142101002,
+                        "name": "Kinetic Piledriver",
+                        "shortDesc": "Up to 8 enemies attacked 2 times at 280% damage\\n[Charges 1 Psychic Points when used]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Kinetic_Piledriver.png/revision/latest?cb=20160414184633"],
                         "animations": ["https://media3.giphy.com/media/MaTolsNGLGO1XK7IL2/giphy.gif"],
                         "type": "Attack",
@@ -199,11 +232,17 @@
                     },
                     {
                         "id": 142100006,
+                        "name": "ESP Mastery",
+                        "shortDesc": "Psy-limiter Mastery: +50%, Critical Rate: +10%, and INT: +40",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_ESP_Mastery.png/revision/latest?cb=20160129014554"],
                         "type": "Passive"
                     },
                     {
                         "id": 142100000,
+                        "name": "Psychic Blast",
+                        "shortDesc": "Enemies Knocked Back: 6, Damage Over Time: 40%, Damage Over Time Duration: 30 sec, Damage Increase During Damage Over Time: 25% per sec, Max Increase During Damage Over Time: 400%\\nFinal damage received from Kinesis attack while Damage Over Time is applied: +15%.\\nCooldown: 1 sec\\n[Passive Effect - Magic ATT: +10]\\n[Psychic Points Charged During Skill Use: 1]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Psychic_Blast.png/revision/latest?cb=20160414184635", "https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927"],
                         "animations": ["https://media2.giphy.com/media/KbkVdAhGHp79sFfNXx/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -218,6 +257,9 @@
                     },
                     {
                         "id": 142101009,
+                        "name": "Psychic Drain",
+                        "shortDesc": "Max Enemies Hit: 5, Damage: 150%, Duration: 15 sec. Restores 1 Psychic Point on each use.\\nCooldown: 5 sec",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Psychic_Drain.png/revision/latest?cb=20160414184635"],
                         "animations": ["https://media3.giphy.com/media/ejzIitsfDK6ElG5fXO/giphy.gif"],
                         "type": "Attack",
@@ -228,6 +270,9 @@
                     },
                     {
                         "id": 142101003,
+                        "name": "Ultimate - Deep Impact",
+                        "shortDesc": "Psychic Point 5 consumed. Max Enemies Hit: 4, Damage: 170%, Number of Attacks: 7. Targets hit have all buffs removed\\nDamage for [Ultimate - Metal Press] +130%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ultimate_-_Deep_Impact.png/revision/latest?cb=20160414184636"],
                         "animations": ["https://media3.giphy.com/media/YqtpHYxl0VZq5XgeeK/giphy.gif"],
                         "type": "PP Attack",
@@ -240,17 +285,26 @@
                     },
                     {
                         "id": 142101004,
+                        "name": "Psychic Armor",
+                        "shortDesc": "Duration: 180 sec, DEF: +300, Avoidability: +20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Psychic_Armor.png/revision/latest?cb=20160414184634"],
                         "animations": ["https://media4.giphy.com/media/XzZ1j1JMQp1bDswAlL/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 142100005,
+                        "name": "Pure Power",
+                        "shortDesc": "Damage: +20%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Pure_Power.png/revision/latest?cb=20170902165622"],
                         "type": "Passive"
                     },
                     {
                         "id": 142100007,
+                        "name": "Mental Strength",
+                        "shortDesc": "Max HP: +20%, Magic ATT: +10, Jump: +10, Speed: +10, and Max Speed: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Mental_Strength.png/revision/latest?cb=20160414184634"],
                         "type": "Passive"
                     }]
@@ -259,17 +313,23 @@
                 "3rd Job", [
                     {
                         "id": 142111002,
+                        "name": "Psychic Grab",
+                        "shortDesc": "3 enemies lifted up and controlled with the powers of psychokinesis.\\n[Psychic Smash]: Enemies Hit Including Grabbed Enemy: 8, Damage: 340%, Number of Attacks: 3. Recovers 1 Psychic Point.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749"],
                         "animations": ["https://media1.giphy.com/media/ekSaCPcz0LOMwxWg94/giphy.gif"],
                         "type": "Attack",
                         "desc": "Lifts up enemies or objects and uses them to attack",
-                        "detail": [
+                        "details": [
                             "You cannot life bosses or enemies 11 levels higher than you",
                             "Charges PP when used"
                         ]
                     },
                     {
                         "id": 142110000,
+                        "name": "Psychic Assault",
+                        "shortDesc": "Enemies Knocked Back: 8, Damage Over Time: 75%, Damage Over Time Duration: 30 sec, Damage Increase During Damage Over Time: 50% per sec, Max Increase During Damage Over Time: 700%\\nFinal damage received from Kinesis attack while Damage Over Time is applied: +20%.\\nCooldown: 1 sec\\n[Passive Effect - Magic ATT: +10]\\n[Psychic Points Charged During Skill Use: 1]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Psychic_Assault.png/revision/latest?cb=20160414180805", "https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -282,38 +342,50 @@
                     },
                     {
                         "id": 142111006,
+                        "name": "Mind Tremor",
+                        "shortDesc": "Max Enemies with reduced Speed in the area: 5, DEF Reduction and Received Final Damage: +10%\\nDEF Reduction and Final Damage Increase is double the amount of monsters affected in the area.\\nDuration: 30, Debuff is applied to enemies who enter and leave the area for the same duration of being in the area.\\n[Psychic Point recovery during skill use: 1]\\nCooldown: 30 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Mind_Tremor.png/revision/latest?cb=20160414184833"],
                         "animations": ["https://media2.giphy.com/media/eiLmAbvo964qTLEjmx/giphy.gif"],
                         "type": "Active Debuff Zone",
                         "desc": "Creates an area on the ground that debuffs enemies",
-                        "detail": [
+                        "details": [
                             "<strong>[Debuff]</strong>: Decreases %DEF and increases %Final Damage dealt to enemy",
                             "The effects of the debuff will increase depending on how many enemies are affected"
                         ]
                     },
                     {
                         "id": 142111007,
+                        "name": "Ultimate - Trainwreck",
+                        "shortDesc": "Psychic Points Consumption: 15, Max Enemies hit: 5, Damage: 120%, Number of Attacks: 6, Duration: 12 sec, Ultimate - Trainwreck Damage during damage duration: -5%\\n[Ultimate - Metal Press] Damage: +140%\\n[Ultimate - Deep Impact] Damage: +100%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Ultimate_-_Trainwreck.png/revision/latest?cb=20160414043519"],
                         "animations": ["https://media1.giphy.com/media/XZxqotJkH8L5EKZTiS/giphy.gif"],
                         "type": "PP Attack",
                         "desc": "Summons a train that continuously smashes down on enemies",
-                        "detail": [
+                        "details": [
                             "<strong>[Passive]</strong>: Increases %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ultimate_-_Metal_Press.png/revision/latest?cb=20160414182622' alt='Skill Ultimate - Metal Press'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Ultimate_-_Deep_Impact.png/revision/latest?cb=20160414184636' alt='Skill Ultimate - Deep Impact'>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
                     {
                         "id": 142110011,
+                        "name": "Kinetic Combo",
+                        "shortDesc": "70% chance to automatically attack nearby enemies with surrounding objects for 350% damage when attack hits.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Kinetic_Combo.png/revision/latest?cb=20160414184959"],
                         "animations": ["https://media2.giphy.com/media/y2KcEoqO6HxCSPrnpj/giphy.gif"],
                         "type": "Final Attack Passive",
                         "desc": "Whenever you attack, there is a chance to create an additional attack that seeks and attacks a nearby enemy",
-                        "detail": [
+                        "details": [
                             "Does not activate when using Ultimate-type skills, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Psychic_Force.png/revision/latest?cb=20151230223927' alt='Skill Psychic Force'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Psychic_Drain.png/revision/latest?cb=20160414184635' alt='Skill Psychic Drain'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Ultimate_-_Psychic_Shot.png/revision/latest?cb=20160414191312' alt='Skill Ultimate - Psychic Shot'> Psychic Shot (4th Job), or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534' alt='Skill Mental Tempest'> Mental Tempest (Hyper Skill)"
                         ]
                     },
                     {
                         "id": 142110009,
+                        "name": "Psychic Bulwark",
+                        "shortDesc": "Psychic Armor - DEF: +500, Knockback Resistance: +100%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Psychic_Bulwark.png/revision/latest?cb=20160414185227", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Psychic_Armor.png/revision/latest?cb=20160414184634"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -324,6 +396,9 @@
                     },
                     {
                         "id": 142111010,
+                        "name": "Kinetic Jaunt",
+                        "shortDesc": "Move up quickly and in selected directions. Duration increases with skill level. Moving during skill uses costs 2 Psychic Points.\\nCooldown: 10 sec",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Kinetic_Jaunt.png/revision/latest?cb=20160414185437"],
                         "animations": ["https://media1.giphy.com/media/XgMQ12fVckEn6CfKny/giphy.gif"],
                         "type": "PP Key-down Active",
@@ -334,21 +409,33 @@
                     },
                     {
                         "id": 142110008,
+                        "name": "Psychic Reinforcement",
+                        "shortDesc": "Magic ATT: +10%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Psychic_Reinforcement.png/revision/latest?cb=20170902170238"],
                         "type": "Passive"
                     },
                     {
                         "id": 142110012,
+                        "name": "Third Eye",
+                        "shortDesc": "Critical Rate: +20%, Critical Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Third_Eye_%28Kinesis%29.png/revision/latest?cb=20160414185638"],
                         "type": "Passive"
                     },
                     {
                         "id": 142110013,
+                        "name": "Transcendence",
+                        "shortDesc": "Abnormal Status Resistance: +20, Elemental Resistance: +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Transcendence.png/revision/latest?cb=20160414185953"],
                         "type": "Passive"
                     },
                     {
                         "id": 142110014,
+                        "name": "Mitigation",
+                        "shortDesc": "Damage Taken: -15%",
+                        "maxLevel": 10,
                         "icons": ["https://i.imgur.com/27mKU5n.png"],
                         "type": "Passive"
                     }]
@@ -357,6 +444,9 @@
                 "4th Job", [
                 {
                     "id": 142120000,
+                    "name": "Psychic Clutch",
+                    "shortDesc": "5 enemies lifted up and controlled with the powers of psychokinesis.\\n[Psychic Smash]: Enemies Hit Including Grabbed Enemy: 8, Damage: 470%, Number of Attacks: 5. Recovers 1 Psychic Point.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Psychic_Clutch.png/revision/latest?cb=20160414045005", "https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Psychic_Grab.png/revision/latest?cb=20160414175749"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -367,6 +457,9 @@
                 },
                 {
                     "id": 142120002,
+                    "name": "Ultimate - Psychic Shot",
+                    "shortDesc": "Psychic Point Cost: 5. Damage per projectile: 300%, Number of Attacks: 3, DEF on damaged enemies: -15%, DEF reduction duration: 10",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Ultimate_-_Psychic_Shot.png/revision/latest?cb=20160414191312"],
                     "animations": ["https://media2.giphy.com/media/idLLarA2xXWBY3nLiu/giphy.gif"],
                     "type": "PP Passive Attack",
@@ -379,6 +472,9 @@
                 },
                 {
                     "id": 142121005,
+                    "name": "Ultimate - B.P.M.",
+                    "shortDesc": "Enemies Hit: 3, Damage: 175%, Number of Attacks: 7, Psychic Point Cost on First Use: 1. On/Off skill\\nCooldown: 0.5 sec\\n[Ultimate - Metal Press] Damage: +310%p\\n[Ultimate - Deep Impact] Damage: +270%\\n[Ultimate - Trainwreck] Damage: +100%",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ultimate_-_B.P.M..png/revision/latest?cb=20160414191401"],
                     "animations": ["https://media1.giphy.com/media/JTDOTSXpAH20pu26AK/giphy.gif"],
                     "type": "PP Toggle Attack",
@@ -389,6 +485,9 @@
                 },
                 {
                     "id": 142120003,
+                    "name": "Mind Quake",
+                    "shortDesc": "Initial hit - Max Enemies hit: 5, Damage: 500%, Number of Attacks: 1, Enemies in area have Speed Reduction, DEF Reduction and Received Final Damage: +10%\\nDEF Reduction and Final Damage Increase is triple the amount of monsters affected in the area.\\nDuration: 30, Debuff is applied to enemies who enter and leave the area for the same duration they spent in the area.\\n[Psychic Point recovery during skill use: 1]\\nCooldown: 30 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Mind_Quake.png/revision/latest?cb=20160414191546", "https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Mind_Tremor.png/revision/latest?cb=20160414184833"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -400,6 +499,9 @@
                 },
                 {
                     "id": 142121004,
+                    "name": "Mind Break",
+                    "shortDesc": "Max Enemies Hit: 15, Damage: 1000%, Number of Attacks: 4,\\nDuration: 30, Final Damage: +1% for each enemy hit during the time, Damage Cap: 20%, Boss Monster Counts as: 5\\n[Psychic Points Charged During Skill Use: 1]\\nCooldown: 30 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Mind_Break.png/revision/latest?cb=20160414191540"],
                     "animations": ["https://media2.giphy.com/media/chiH4lkeTiIL46751I/giphy.gif"],
                     "type": "Attack",
@@ -411,12 +513,18 @@
                 },
                 {
                     "id": 142121016,
+                    "name": "President's Orders",
+                    "shortDesc": "Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_President%27s_Orders.png/revision/latest?cb=20160414191639"],
                     "animations": ["https://media4.giphy.com/media/BRGLQ1NiThQWEj3zhy/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 142121008,
+                    "name": "Psychic Charger",
+                    "shortDesc": "Charges 50% of the remaining points to reach maximum Psychic Points when used.\\nCooldown: 45 sec\\n[Passive Effect - Damage when attacking Boss: +30%]",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Psychic_Charger.png/revision/latest?cb=20160414191729"],
                     "animations": ["https://media2.giphy.com/media/vORjHvLxvU6ttvT5Hv/giphy.gif"],
                     "type": "Active",
@@ -427,6 +535,9 @@
                 },
                 {
                     "id": 142121007,
+                    "name": "Clear Mind",
+                    "shortDesc": "Clear StatusCooldown: 180 sec[Passive Effect - Abnormal Status Resistance: +20]",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Clear_Mind.png/revision/latest?cb=20160414191911"],
                     "animations": ["https://media0.giphy.com/media/1zUGyzcvKuHDGwRNvw/giphy.gif"],
                     "type": "Buff",
@@ -437,21 +548,33 @@
                 },
                 {
                     "id": 142120006,
+                    "name": "Telepath Tactics",
+                    "shortDesc": "Magic ATT: +50, Damage: +20%",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Telepath_Tactics.png/revision/latest?cb=20170902170506"],
                     "type": "Passive"
                 },
                 {
                     "id": 142120010,
+                    "name": "Awakening",
+                    "shortDesc": "Final Damage: +25%, Ultimate Skill Critical Damage: +20%",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Awakening.png/revision/latest?cb=20160414192030"],
                     "type": "Passive"
                 },
                 {
                     "id": 142120009,
+                    "name": "Supreme Concentration",
+                    "shortDesc": "Buff Duration: +20%",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Supreme_Concentration.png/revision/latest?cb=20160414192120"],
                     "type": "Passive"
                 },
                 {
                     "id": 142120011,
+                    "name": "Critical Rush",
+                    "shortDesc": "The gap between the minimum and maximum damage decreases a fixed amount every time you get 30 combo kills.",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Critical_Rush.png/revision/latest?cb=20160414192204"],
                     "type": "Passive",
                     "desc": "",
@@ -462,11 +585,17 @@
                 },
                 {
                     "id": 142120012,
+                    "name": "Mind Scrambler",
+                    "shortDesc": "Defense Ignored: 25%",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mind_Scrambler.png/revision/latest?cb=20160414192253"],
                     "type": "Passive"
                 },
                 {
                     "id": 142120013,
+                    "name": "Mastery",
+                    "shortDesc": "Weapon Mastery: +70%, Critical Damage: +10%",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Mastery.png/revision/latest?cb=20160414192329", "https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_ESP_Mastery.png/revision/latest?cb=20160129014554"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -481,18 +610,27 @@
             "hyperPassive": [
                 {
                     "id": 142120033,
+                    "name": "Psychic Grab - Boss Point",
+                    "shortDesc": "Doubles Psychic Points charged",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Psychic_Grab_-_Boss_Point.png/revision/latest?cb=20160121083834"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 142120034,
+                    "name": "Psychic Grab - Reinforce",
+                    "shortDesc": "Psychic Smash and Psychic Shot Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Psychic_Grab_-_Reinforce.png/revision/latest?cb=20160121084624"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 142120035,
+                    "name": "Psychic Grab - Steel Skin",
+                    "shortDesc": "DEF: +100%, Duration: 10 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Psychic_Grab_-_Steel_Skin.png/revision/latest?cb=20160121085438"],
                     "type": "Passive",
                     "desc": "",
@@ -503,36 +641,54 @@
                 },
                 {
                     "id": 142120036,
+                    "name": "Mind Tremor - Overwhelm",
+                    "shortDesc": "DEF reduction rate doubles",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Mind_Tremor_-_Overwhelm.png/revision/latest?cb=20160121215330"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 142120037,
+                    "name": "Mind Tremor - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Mind_Tremor_-_Reinforce.png/revision/latest?cb=20160121215726"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 142120038,
+                    "name": "Mind Tremor - Persist",
+                    "shortDesc": "Duration: +15 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Mind_Tremor_-_Persist.png/revision/latest?cb=20160121220058"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 142120039,
+                    "name": "Mind Break - Reinforce",
+                    "shortDesc": "Damage: +40%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Mind_Break_-_Reinforce.png/revision/latest?cb=20160121220412"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 142120040,
+                    "name": "Mind Break - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Mind_Break_-_Cooldown_Cutter.png/revision/latest?cb=20160121220710"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 142120041,
+                    "name": "Mind Break - Enhance",
+                    "shortDesc": "Final damage increase amount increased by 2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Mind_Break_-_Enhance.png/revision/latest?cb=20160121221042"],
                     "type": "Passive",
                     "reqLev": 190
@@ -541,6 +697,9 @@
             "hyperActive": [
                 {
                     "id": 142121030,
+                    "name": "Mental Tempest",
+                    "shortDesc": "Max Enemies Hit: 15, Damage: 400%, Max Projectiles: 16, Final Blow Damage: 1500%, Final Blow activates critical damage with Ignore DEF: +50%\\nGrants invincibility during skill casting, and Psychic Points increase to maximum immediately upon casting.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Mental_Tempest.png/revision/latest?cb=20160121221534"],
                     "animations": ["https://media1.giphy.com/media/DYtfwCn2yo9Ud8fdLf/giphy.gif"],
                     "type": "Attack",
@@ -553,6 +712,9 @@
                 },
                 {
                     "id": 142121031,
+                    "name": "Mental Shock",
+                    "shortDesc": "Max Enemies Hit: 15, Damage: 2100%, Number of Attacks: 1, Stun Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Mental Shock.\\nCooldown: 210 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Mental_Shock.png/revision/latest?cb=20160121223430"],
                     "animations": ["https://media4.giphy.com/media/hzpkfQxQXjwzxRhxkN/giphy.gif"],
                     "type": "Bind Attack",
@@ -561,6 +723,9 @@
                 },
                 {
                     "id": 142121032,
+                    "name": "Mental Overdrive",
+                    "shortDesc": "Reduces Psychic Point consumption by half for 30 sec while increasing the Psychic Points are continuously increased.\\nCooldown: 210 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Mental_Overdrive.png/revision/latest?cb=20160121224027"],
                     "animations": ["https://media4.giphy.com/media/7PEVIRsj1XPbt91Kie/giphy.gif"],
                     "type": "Buff",

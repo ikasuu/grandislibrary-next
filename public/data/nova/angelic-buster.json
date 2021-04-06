@@ -99,6 +99,9 @@
             [
                 "Beginner", [{
                     "id": 60011216,
+                    "name": "Soul Buster",
+                    "shortDesc": "Hold down attack key to attack continuously. Works while moving. Deal 60% damage to 3 enemies. 20% recharge success chance.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Soul_Buster.png/revision/latest?cb=20120803112045"],
                     "animations": ["https://i.imgur.com/1npEdq5.png"],
                     "type": "Basic Attack Modifier",
@@ -109,11 +112,17 @@
                 },
                 {
                     "id": 60010217,
+                    "name": "True Heart Inheritance",
+                    "shortDesc": "Additional Soul Shooter Mastery: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_True_Heart_Inheritance.png/revision/latest?cb=20120803112050"],
                     "type": "Passive"
                 },
                 {
                     "id": 60011218,
+                    "name": "Grappling Heart",
+                    "shortDesc": "Use to move to nearest the platform above you. Press jump while moving to cancel.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Grappling_Heart.png/revision/latest?cb=20120803112053"],
                     "type": "Active",
                     "desc": "",
@@ -123,6 +132,9 @@
                 },
                 {
                     "id": 60011220,
+                    "name": "Day Dreamer",
+                    "shortDesc": "Return to Angelic Buster's room when used.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Day_Dreamer.png/revision/latest?cb=20120807132355"],
                     "animations": ["https://media4.giphy.com/media/tUjzmJHEaVjS4xi3GS/giphy.gif"],
                     "type": "Active",
@@ -133,6 +145,9 @@
                 },
                 {
                     "id": 60011222,
+                    "name": "Dress-up",
+                    "shortDesc": "Use this skill to alter pre-transformation and post-transformation appearances.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Dress-Up.png/revision/latest?cb=20120803112112"],
                     "animations": ["https://media2.giphy.com/media/ZMtHIKR4lXVBFmUqki/giphy.gif"],
                     "type": "Active Transform",
@@ -162,6 +177,9 @@
                 "1st Job", [
                     {
                         "id": 65001100,
+                        "name": "Star Bubble",
+                        "shortDesc": "Enemies Hit: 6, Damage: 500%, Number of Attacks: 1. Soul Battery Skill. Recharge Chance: 70%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Star_Bubble.png/revision/latest?cb=20120731153243"],
                         "animations": ["https://media3.giphy.com/media/rh9X5hvz0W8fzQoPHe/giphy.gif"],
                         "type": "Soul Battery Attack",
@@ -169,6 +187,9 @@
                     },
                     {
                         "id": 65001001,
+                        "name": "Feather Hop",
+                        "shortDesc": "Jump distance will increase with level. Press Jump + directional key in air to jump again.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Feather_Hop.png/revision/latest?cb=20120731153250"],
                         "animations": ["https://media3.giphy.com/media/VfKpaxOzCWA4SQJ5GE/giphy.gif"],
                         "type": "Active",
@@ -180,6 +201,9 @@
                     },
                     {
                         "id": 65001002,
+                        "name": "Melody Cross",
+                        "shortDesc": "Weapon attack speed +1 for 180 sec.\\n[Passive Effect : Max HP +2500]",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Melody_Cross.png/revision/latest?cb=20120731153256"],
                         "animations": ["https://media4.giphy.com/media/cXv8JOwUkA8UScoLCY/giphy.gif"],
                         "type": "Buff",
@@ -190,6 +214,9 @@
                     },
                     {
                         "id": 65000003,
+                        "name": "Affinity Heart I",
+                        "shortDesc": "Recharge Rate: +30%, Speed: +40, Jump: +20, Speed Limit: +25",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Affinity_Heart_I.png/revision/latest?cb=20120731153305"],
                         "type": "Passive"
                     }]
@@ -198,6 +225,9 @@
                 "2nd Job", [
                     {
                         "id": 65101100,
+                        "name": "Lovely Sting",
+                        "shortDesc": "Enemies Hit: 8, Damage: 600%, Number of Attacks: 1. You can detonate the debuff on enemies afterwards. Soul Battery skill. Recharge Chance: 50%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Lovely_Sting.png/revision/latest?cb=20120803102816"],
                         "animations": ["https://media3.giphy.com/media/4VGLp0jYbgZoi3zyeu/giphy.gif"],
                         "type": "Soul Battery Attack",
@@ -208,6 +238,9 @@
                     },
                     {
                         "id": 65101001,
+                        "name": "Pink Pummel",
+                        "shortDesc": "Enemies Hit: 12, Damage: 480%, Number of Attacks: 1. Recharge Chance: 20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Pink_Pummel.png/revision/latest?cb=20150605180008"],
                         "animations": ["https://media1.giphy.com/media/tY3GBd2akIkcvIag6U/giphy.gif"],
                         "type": "Attack",
@@ -215,22 +248,34 @@
                     },
                     {
                         "id": 65101002,
+                        "name": "Power Transfer",
+                        "shortDesc": "Duration: 180. Convert 1% of damage dealt into a protective shield that decreases Damage by 50%.\\nCreates a protective shield with a value of 1000 upon casting. The max value of the shield is equal to your Max HP, but it cannot exceed 99999.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Power_Transfer.png/revision/latest?cb=20120731154757"],
                         "animations": ["https://media4.giphy.com/media/aqslRNd7mdBJFqNV83/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 65100003,
+                        "name": "Soul Shooter Mastery",
+                        "shortDesc": "Soul Shooter Mastery: +50%, Attack Power +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Soul_Shooter_Mastery.png/revision/latest?cb=20120803102758"],
                         "type": "Passive"
                     },
                     {
                         "id": 65100004,
+                        "name": "Beautiful Soul",
+                        "shortDesc": "Permanent +40 DEX",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Beautiful_Soul.png/revision/latest?cb=20120731154818"],
                         "type": "Passive"
                     },
                     {
                         "id": 65100005,
+                        "name": "Affinity Heart II",
+                        "shortDesc": "Every 10 enemies KO'd gives you a 100% chance to recharge. Abnormal Status Resistance: +40, Elemental Resistance: +40%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Affinity_Heart_II.png/revision/latest?cb=20120731154822"],
                         "type": "Passive"
                     }]
@@ -238,6 +283,9 @@
                 [
                 "3rd Job", [{
                         "id": 65111100,
+                        "name": "Soul Seeker",
+                        "shortDesc": "Summons 2 spirits to randomly attack 2 mobs in range. Each spirit will deal 320% damage 1 times. 85% chance to recreate spirit and attacks up to 7 time(s). Soul Battery skill. Recharge Chance: 30%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106"],
                         "animations": ["https://media1.giphy.com/media/XRRMgf25Hvcz9Iubqk/giphy.gif"],
                         "type": "Soul Battery Attack",
@@ -249,6 +297,9 @@
                     },
                     {
                         "id": 65111101,
+                        "name": "Shining Star Burst",
+                        "shortDesc": "Mobs Hit: 8, Damage: 780%, Number of Attacks: 1. Damage dealt against enemies launched by Heavenly Crash doubled. Soul Battery skill. Recharge Chance: 40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Shining_Star_Burst.png/revision/latest?cb=20120807130511"],
                         "animations": ["https://media4.giphy.com/media/QvDf9OYxyufrkS9YUs/giphy.gif"],
                         "type": "Soul Battery Attack",
@@ -259,6 +310,9 @@
                     },
                     {
                         "id": 65111002,
+                        "name": "Heavenly Crash",
+                        "shortDesc": "Mobs Hit: 8, Damage: 760%, Number of Attacks: 1. Attacked mobs lifted upwards. Recharge Chance: 20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Heavenly_Crash.png/revision/latest?cb=20160529034915"],
                         "animations": ["https://media0.giphy.com/media/RrC8r9rmRCIUE5tfVo/giphy.gif"],
                         "type": "Attack",
@@ -266,22 +320,34 @@
                     },
                     {
                         "id": 65111004,
+                        "name": "Iron Blossom",
+                        "shortDesc": "Duration: 180 sec, Knockback Resistance: +40%. Effect doubled when Power Transfer Shield is up.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Iron_Blossom.png/revision/latest?cb=20120731160132"],
                         "animations": ["https://media1.giphy.com/media/9sc2Cs9kdYZViBxUCf/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 65110003,
+                        "name": "Dragon Whistle",
+                        "shortDesc": "Attack +40",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Dragon_Whistle.png/revision/latest?cb=20160627053639"],
                         "type": "Passive"
                     },
                     {
                         "id": 65110005,
+                        "name": "Love Me Heart",
+                        "shortDesc": "Max HP: +1000, DEF: +1000",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Love_Me_Heart.png/revision/latest?cb=20120731160135"],
                         "type": "Passive"
                     },
                     {
                         "id": 65110006,
+                        "name": "Affinity Heart III",
+                        "shortDesc": "+100% Recharge chance when Recharge fails twice in a row. Dex: +40, Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Affinity_Heart_III.png/revision/latest?cb=20120731160146"],
                         "type": "Passive"
                     }]
@@ -289,6 +355,9 @@
                 [
                 "4th Job", [{
                     "id": 65121100,
+                    "name": "Celestial Roar",
+                    "shortDesc": "Mobs Hit: 8, Damage: 580%, Number of Attacks: 4, Stun Chance: 90%, Stun Duration: 3 sec. Soul Battery skill. Recharge Chance: 40%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Celestial_Roar.png/revision/latest?cb=20120731161811"],
                     "animations": ["https://media2.giphy.com/media/TA8na3YA0lTG33IcMn/giphy.gif"],
                     "type": "Soul Battery Attack",
@@ -296,6 +365,9 @@
                 },
                 {
                     "id": 65121101,
+                    "name": "Trinity",
+                    "shortDesc": "Mobs Hit: 1, Damage: 720%, Number of Hits: 2. This skill can be cast up to 3 times in a row. 2nd Attack: 3 hits. 3rd Attack: 4 hits.\\n+10% Trinity and Trinity Fusion increase Damage and DEF Ignore on a successful hit with Trinity. Stacks up to 3 times. Soul Battery skill. Recharge Chance: 50%.\\n[Passive Effect] Final Damage: +10%, Enemy DEF Ignore: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Trinity.png/revision/latest?cb=20120731161817"],
                     "animations": ["https://media4.giphy.com/media/l4ENGwe9KOqvmoGjAl/giphy.gif"],
                     "type": "Soul Battery Attack",
@@ -308,6 +380,9 @@
                 },
                 {
                     "id": 65121002,
+                    "name": "Finale Ribbon",
+                    "shortDesc": "Mobs Hit: 10, Damage: 400%, Number of Attacks: 10. Creates debuff that has Duration: 20 sec, Angelic Buster's Final Damage: +25%, Party Members with All Other Jobs' Damage: +20%\\nCooldown: 40 sec, Recharge Chance: 50%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Finale_Ribbon.png/revision/latest?cb=20120807130557"],
                     "animations": ["https://media0.giphy.com/media/nGdWGYwyG1oZ8w2k5M/giphy.gif"],
                     "type": "Attack",
@@ -318,6 +393,9 @@
                 },
                 {
                     "id": 65121003,
+                    "name": "Soul Resonance",
+                    "shortDesc": "Hold the key for this skill. Mobs Hit: 10, Damage Dealt Per Attack: 730%, Duration: 8 sec max, Max Finishing Blow Based on Remaining Duration: 3000%, Damage Against Bosses: +50%\\nWhile in use, damage taken, including attacks with damage proportional to Max HP, -35%.\\nCooldown: 60 sec.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Soul_Resonance.png/revision/latest?cb=20120731161843"],
                     "animations": ["https://media0.giphy.com/media/EJUrtg7y2v8034oNUR/giphy.gif"],
                     "type": "Key-down Attack",
@@ -330,12 +408,18 @@
                 },
                 {
                     "id": 65121004,
+                    "name": "Star Gazer",
+                    "shortDesc": "Critical Damage: +45%, Duration: 180 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Star_Gazer.png/revision/latest?cb=20120731161847"],
                     "animations": ["https://media0.giphy.com/media/cytoTqZ29R3HY8W5Lq/giphy.gif"],
                     "type": "Buff"
                 },
                 {
                     "id": 65120005,
+                    "name": "Soul Shooter Expert",
+                    "shortDesc": "Mastery: +70%, Attack Power: +30, Critical Rate: +30%, Critical Damage: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Soul_Shooter_Expert.png/revision/latest?cb=20120803103446", "https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Soul_Shooter_Mastery.png/revision/latest?cb=20120803102758"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -346,17 +430,26 @@
                 },
                 {
                     "id": 65120006,
+                    "name": "Affinity Heart IV",
+                    "shortDesc": "100% chance to reattempt Recharge again when it fails. 50% chance to increase damage by 30% for 5 seconds when Recharge is successful.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Affinity_Heart_IV.png/revision/latest?cb=20120731161904"],
                     "type": "Passive"
                 },
                 {
                     "id": 65121009,
+                    "name": "Nova Warrior",
+                    "shortDesc": "Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Nova_Warrior_%28Angelic_Buster%29.png/revision/latest?cb=20150610051435"],
                     "animations": ["https://media1.giphy.com/media/1bfqHJUqM2kiKH2XMb/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 65121010,
+                    "name": "Nova Temperance",
+                    "shortDesc": "Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230"],
                     "animations": ["https://media1.giphy.com/media/OubCLEOZUNkpBnvTJy/giphy.gif"],
                     "type": "Buff",
@@ -364,6 +457,9 @@
                 },
                 {
                     "id": 65121011,
+                    "name": "Soul Seeker Expert",
+                    "shortDesc": "35% chance to summon a Soul Seeker when attacking with an Angelic Buster skill (excludes Soul Buster and Soul Seeker skills). When using Celestial Roar, activation rate +15%.\\nThe summoned Soul Seeker's Attack Power will be only 75% of a regular Soul Seeker.",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Soul_Seeker_Expert.png/revision/latest?cb=20160529032336"],
                     "type": "Toggle Attack",
                     "desc": "When toggled, whenever you attack, there is a chance to create <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Soul_Seeker.png/revision/latest?cb=20120731160106' alt='Skill Soul Seeker'>",
@@ -378,54 +474,81 @@
             "hyperPassive": [
                 {
                     "id": 65120043,
+                    "name": "Soul Seeker - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Soul_Seeker_-_Reinforce.png/revision/latest?cb=20120819033822"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 65120044,
+                    "name": "Soul Seeker - Make Up",
+                    "shortDesc": "Recreation chance +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Soul_Seeker_-_Make_Up.png/revision/latest?cb=20120819033811"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 65120045,
+                    "name": "Piercing Soul Seeker",
+                    "shortDesc": "Bonus DEF ignored: 10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Piercing_Soul_Seeker.png/revision/latest?cb=20160529065015"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 65120046,
+                    "name": "Finale Ribbon - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Finale_Ribbon_-_Reinforce.png/revision/latest?cb=20120819033843"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 65120047,
+                    "name": "Finale Ribbon - Armorbreak",
+                    "shortDesc": "DEF Ignored: +15%",
+                    "maxLevel": 1,
                     "icons": ["https://i.imgur.com/LF1SU8F.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 65120048,
+                    "name": "Finale Ribbon - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Finale_Ribbon_-_Cooldown_Cutter.png/revision/latest?cb=20120819033900"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 65120049,
+                    "name": "Trinity - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Trinity-Reinforce.png/revision/latest?cb=20140121015938"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 65120050,
+                    "name": "Piercing Trinity",
+                    "shortDesc": "Bonus DEF ignored: 20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Piercing_Trinity.png/revision/latest?cb=20160529070038"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 65120051,
+                    "name": "Trinity - Extra Strike",
+                    "shortDesc": "Damage: -70%p, Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Trinity-Extra_Strike.png/revision/latest?cb=20140121020315"],
                     "type": "Passive",
                     "reqLev": 190
@@ -434,6 +557,9 @@
             "hyperActive": [
                 {
                     "id": 65121054,
+                    "name": "Pretty Exaltation",
+                    "shortDesc": "Duration: 30 sec, Enemy DEF Ignored: 30%, Damage upon attacking Boss Monster: 20%, Chance to trigger Soul Seeker Expert: +15%\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Pretty_Exaltation.png/revision/latest?cb=20120819034017"],
                     "animations": ["https://media1.giphy.com/media/R0bmwODahkNwbLyJGS/giphy.gif"],
                     "type": "Buff",
@@ -441,6 +567,9 @@
                 },
                 {
                     "id": 65121052,
+                    "name": "Supreme Supernova",
+                    "shortDesc": "Duration: 12 sec, Mobs Hit: 15, Damage: 600%, Number of Attacks: 3\\nCooldown: 60 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Supreme_Supernova.png/revision/latest?cb=20120819033950"],
                     "animations": ["https://media2.giphy.com/media/DlZlysIBBBJrzyxSzk/giphy.gif"],
                     "type": "Attack",
@@ -452,6 +581,9 @@
                 },
                 {
                     "id": 65121053,
+                    "name": "Final Contract",
+                    "shortDesc": "Duration: 30 sec, Attack Power: 50, Critical Rate: 30%. Knockback Resistance: +100%, Status Resistance: +100%, Elemental Resistance +100%\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Final_Contract.png/revision/latest?cb=20121015213134"],
                     "animations": ["https://media0.giphy.com/media/e8epjVU09WGxc8EzB1/giphy.gif"],
                     "type": "Buff",

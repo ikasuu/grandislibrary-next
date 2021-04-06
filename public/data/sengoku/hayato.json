@@ -103,23 +103,35 @@
             [
                 "Beginner", [{
                     "id": 40010000,
+                    "name": "Master of Blades",
+                    "shortDesc": "Permanent Speed Increase 20, Maximum Speed 165, Jump 10, Katana Mastery Increase: 75%, Willpower: 30",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Master_of_Blades.png/revision/latest?cb=20180520131349"],
                     "type": "Passive"
                 },
                 {
                     "id": 40010067,
+                    "name": "Shimada Heart",
+                    "shortDesc": "Permanent Damage Increase: 0.5%, Defense: +100 Defense (Current Damage Increased: dam%)",
+                    "maxLevel": 1,
                     "icons": ["https://i.imgur.com/Q3husRn.png"],
                     "type": "Passive",
                     "desc": "Grants %Damage based on your DEF stat up to a 49% Damage bonus"
                 },
                 {
                     "id": 40011227,
+                    "name": "Return of the Five Planets",
+                    "shortDesc": "Returns you to Momijigaoka upon use.\\nCooldown 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Return_of_the_Five_Planets_%28Hayato%29.png/revision/latest?cb=20170904055426"],
                     "animations": ["https://media2.giphy.com/media/btQ7SzFXNCsMrs8Xvz/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 40011288,
+                    "name": "Quick Draw",
+                    "shortDesc": "Max Sword Energy Cost: 100",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Quick_Draw.png/revision/latest?cb=20180520132001"],
                     "animations": ["https://media2.giphy.com/media/oOgtbnIt8KmZbOB1EP/giphy.gif"],
                     "type": "Active",
@@ -131,6 +143,9 @@
                 },
                 {
                     "id": 40011289,
+                    "name": "Summer Rain",
+                    "shortDesc": "Damage: 220%, Max Enemies Hit: 15, Number of Attacks: 15, +15% damage for 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Summer_Rain.png/revision/latest?cb=20180505151645"],
                     "animations": ["https://media.giphy.com/media/j5Emn3Vdr2atauhKXZ/giphy.gif"],
                     "type": "Normal | Attack",
@@ -143,6 +158,9 @@
                 },
                 {
                     "id": 40011290,
+                    "name": "Hitokiri Hundred Strike",
+                    "shortDesc": "Damage: 220%, Max Enemies Hit: 15, Number of Attacks: 15, +15% damage for 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Hitokiri_Hundred_Strike.png/revision/latest?cb=20180505151702"],
                     "animations": ["https://media.giphy.com/media/UVYaUsC0mxXDUSLfnC/giphy.gif"],
                     "type": "Quick Draw | Attack",
@@ -158,6 +176,9 @@
                 "1st Job", [
                     {
                         "id": 41001000,
+                        "name": "Sanrenzan",
+                        "shortDesc": "MP Cost: 9\\n1st Hit - Damage: 80%, Max Enemies Hit: 4, Number of Attacks: 2\\n2nd Hit - Damage: 100%, Max Enemies Hit: 4, Number of Attacks: 3\\n3rd Hit - Damage: 120%, Max Enemies Hit: 4, Number of Attacks: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Sanrenzan.png/revision/latest?cb=20151008073148"],
                         "animations": ["https://media0.giphy.com/media/nxwRD5yFJowtqPlMay/giphy.gif"],
                         "type": "Normal | Basic Attack Modifier",
@@ -170,6 +191,9 @@
                     },
                     {
                         "id": 41001009,
+                        "name": "Blade Flash",
+                        "shortDesc": "MP Cost: 11, Damage: 180%, Max Enemies Hit: 1 Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Blade_Flash.png/revision/latest?cb=20150527211943"],
                         "animations": ["https://media1.giphy.com/media/wIcRX4tvIhqdAjBtrr/giphy.gif"],
                         "type": "Quick Draw | Basic Attack Modifier",
@@ -181,6 +205,9 @@
                     },
                     {
                         "id": 41001002,
+                        "name": "Surging Blade",
+                        "shortDesc": "MP Cost: 8, Damage: 75%, Max Enemies Hit: 4, Dashes forward.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Surging_Blade.png/revision/latest?cb=20180509232452"],
                         "animations": ["https://media.giphy.com/media/S2wQXCPf5fIA5b6i72/giphy.gif"],
                         "type": "Attack",
@@ -191,11 +218,17 @@
                     },
                     {
                         "id": 41000003,
+                        "name": "Center Ki",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 10,
                         "icons": ["https://i.imgur.com/px3dlQT.png"],
                         "type": "Passive"
                     },
                     {
                         "id": 41001011,
+                        "name": "Battoujutsu Leap",
+                        "shortDesc": "MP Cost: 5, Adds an extra jump when used in midair. Can be used 2 times back to back.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Battoujutsu_Leap.png/revision/latest?cb=20150527213026"],
                         "animations": ["https://media.giphy.com/media/Lq0LnHSokwBauuM8HO/giphy.gif"],
                         "type": "Normal | Active",
@@ -208,6 +241,9 @@
                     },
                     {
                         "id": 41001012,
+                        "name": "Battoujutsu Dash",
+                        "shortDesc": "MP Cost: 10, Dash left or right as desired.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Battoujutsu_Dash.png/revision/latest?cb=20150527213408"],
                         "animations": ["https://media2.giphy.com/media/fT9th1wTjXbnRpSEIE/giphy.gif"],
                         "type": "Quick Draw | Active",
@@ -219,6 +255,9 @@
                     },
                     {
                         "id": 41001013,
+                        "name": "Shouryuusen",
+                        "shortDesc": "MP Cost: 21, Damage: 100%, Max Enemies Hit: 6, Number of Attacks: 5, Lifts enemies into air.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Shouryuusen.png/revision/latest?cb=20180511210209"],
                         "animations": ["https://media.giphy.com/media/WQCb2DcBh5dsPjeGLk/giphy.gif"],
                         "type": "Attack",
@@ -226,6 +265,9 @@
                     },
                     {
                         "id": 41001014,
+                        "name": "Battoujutsu Advance",
+                        "shortDesc": "MP Cost: 8, Time Limit: time sec. Attack Power based on stage of attack: +damR%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Battoujutsu_Advance.png/revision/latest?cb=20150527212529"],
                         "animations": ["https://media4.giphy.com/media/eBybUJkKqK1fsYdw1q/giphy.gif"],
                         "type": "Key-down Special Attack",
@@ -240,6 +282,9 @@
                 "2nd Job", [
                     {
                         "id": 41101000,
+                        "name": "Jin Sanrenzan",
+                        "shortDesc": "MP Cost: 14\\n1st Hit - Damage: 180%, Max Enemies Hit: 5, Number of Attacks: 2\\n2nd Hit - Damage: 140%, Max Enemies Hit: 5, Number of Attacks: 3\\n3rd Hit - Damage: 180%, Max Enemies Hit: 5, Number of Attacks: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Jin_Sanrenzan.png/revision/latest?cb=20151011193802"],
                         "animations": ["https://media2.giphy.com/media/8e6ifUzkf6a8hQKe3x/giphy.gif"],
                         "type": "Normal | Basic Attack Modifier",
@@ -253,6 +298,9 @@
                     },
                     {
                         "id": 41101011,
+                        "name": "Jin Blade Flash",
+                        "shortDesc": "MP Cost: 14, Damage: 210%, Max Enemies Hit: 1 Number of Attacks: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Jin_Blade_Flash.png/revision/latest?cb=20150528013956"],
                         "animations": ["https://media2.giphy.com/media/FXpll4cOudTszajoU5/giphy.gif"],
                         "type": "Quick Draw | Basic Attack Modifier",
@@ -265,12 +313,18 @@
                     },
                     {
                         "id": 41101003,
+                        "name": "Military Might",
+                        "shortDesc": "MP Cost: 120, For 180 sec, Max HP and Max MP: +20%, Physical Attack Power: +15, Speed: +20, Jump: +10",
+                        "maxLevel": 20,
                         "icons": ["https://i.imgur.com/LCwNX0h.png"],
                         "animations": ["https://media3.giphy.com/media/Dgwd4jNkWpHus99qeL/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 41101004,
+                        "name": "Vapor Blade",
+                        "shortDesc": "MP Cost: 12, Damage: 100%, Max Enemies Hit: 8, Jumps during attack",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Vapor_Blade.png/revision/latest?cb=20180520023538"],
                         "animations": ["https://media2.giphy.com/media/R8DY9yuQGAaY537tyO/giphy.gif"],
                         "type": "Attack / Utility",
@@ -283,6 +337,9 @@
                     },
                     {
                         "id": 41101005,
+                        "name": "Katana Booster",
+                        "shortDesc": "MP Cost: 11, Duration: 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://i.imgur.com/hdGK7Fn.png"],
                         "animations": ["https://media0.giphy.com/media/jSHzyONYMZYBSCkyU8/giphy.gif"],
                         "type": "Buff",
@@ -290,11 +347,17 @@
                     },
                     {
                         "id": 41100006,
+                        "name": "Unfaltering Blade",
+                        "shortDesc": "Critical Damage +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Unfaltering_Blade.png/revision/latest?cb=20120725114759"],
                         "type": "Passive"
                     },
                     {
                         "id": 41101012,
+                        "name": "Rising Slash",
+                        "shortDesc": "MP Cost: 55, Damage: 170%, Number of Attacks: 3, Max Enemies Hit: 6, Enemies are launched into air when they are hit.",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Rising_Slash_%28Hayato%29.png/revision/latest?cb=20150528014409"],
                         "animations": ["https://media.giphy.com/media/gdqRJn1VTZpJF1A7C6/giphy.gif"],
                         "type": "Attack",
@@ -302,6 +365,9 @@
                     },
                     {
                         "id": 41101013,
+                        "name": "Falcon Dive",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 170%, Number of Attacks: 6",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Falcon_Dive.png/revision/latest?cb=20150528014802"],
                         "animations": ["https://media.giphy.com/media/duXuf35Mtwvu4jevlZ/giphy.gif"],
                         "type": "Attack",
@@ -315,6 +381,9 @@
                 "3rd Job", [
                     {
                         "id": 41111000,
+                        "name": "Fuu Sanrenzan",
+                        "shortDesc": "MP Cost: 22, 1st Hit - Damage: 230%, Max Enemies Hit: 6, Number of Attacks: 2\\n2nd Hit - Damage: 250%, Max Enemies Hit: 6, Number of Attacks: 3\\n3rd Hit - Damage: 260%, Max Enemies Hit: 6, Number of Attacks: 4\\nRequired Skill: Jin Sanrenzan Lv. 20+",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Fuu_Sanrenzan.png/revision/latest?cb=20151031191758"],
                         "animations": ["https://media2.giphy.com/media/zDjrXBVD3mgAa0Jr8K/giphy.gif"],
                         "type": "Normal | Basic Attack Modifier",
@@ -328,6 +397,9 @@
                     },
                     {
                         "id": 41111014,
+                        "name": "Fuu Blade Flash",
+                        "shortDesc": "MP Cost: 14, Damage: 270%, Max Enemies Hit: 1 Number of Attacks: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Fuu_Blade_Flash.png/revision/latest?cb=20150528033816"],
                         "animations": ["https://media3.giphy.com/media/ddP5iPoEztWW3T6XEE/giphy.gif"],
                         "type": "Quick Draw | Basic Attack Modifier",
@@ -340,6 +412,9 @@
                     },
                     {
                         "id": 41111001,
+                        "name": "Sweeping Sword",
+                        "shortDesc": "MP Cost: 31, Max Enemies Hit: 10, Damage: 210%, Number of Attacks: 6",
+                        "maxLevel": 20,
                         "icons": ["https://i.imgur.com/1J8Xjyn.png"],
                         "animations": ["https://media.giphy.com/media/Q74ZmtW5vCSSfvbEZX/giphy.gif"],
                         "type": "Attack",
@@ -351,6 +426,9 @@
                     },
                     {
                         "id": 41111003,
+                        "name": "Whirlwind Cut",
+                        "shortDesc": "Active Effect: MP Cost: 33, Max Enemies Hit: 6, Damage: 380%, Number of Attacks: 3, Critical When Combined with Shouryuusen: 100%",
+                        "maxLevel": 20,
                         "icons": ["https://i.imgur.com/CcaWNWc.png"],
                         "animations": ["https://media.giphy.com/media/YSHEL3UICCNwntOozP/giphy.gif"],
                         "type": "Attack",
@@ -361,27 +439,39 @@
                     },
                     {
                         "id": 41110006,
+                        "name": "Willow Dodge",
+                        "shortDesc": "Attack Boost Chance: 90%, Evasion: 35%, Damage: +6%. Damage Boost can be stacked 5 times.",
+                        "maxLevel": 15,
                         "icons": ["https://i.imgur.com/eqo0ZSZ.png"],
                         "type": "Passive",
                         "desc": "Whenever you dodge an attack, there is a chance to gain a stacking buff that grants %Damage"
                     },
                     {
                         "id": 41110007,
+                        "name": "Merciless Blade",
+                        "shortDesc": "Status Chance: 30%, 190% damage every 1 sec, Duration: 6 sec",
+                        "maxLevel": 15,
                         "icons": ["https://i.imgur.com/SqpeUpj.png"],
                         "type": "Passive",
                         "desc": "Your attacks gain a chance to cause a bleeding debuff"
                     },
                     {
                         "id": 41110009,
+                        "name": "Warrior's Heart",
+                        "shortDesc": "Chance: 40%, HP Recovered: 4%",
+                        "maxLevel": 15,
                         "icons": ["https://i.imgur.com/qO3TSOY.png"],
                         "type": "Passive",
                         "desc": "Whenever you land a critical hit, there is a chance to recover some HP",
                         "details": [
-                            "A very very strong buff because the HP heal bypasses all healing blocks"
+                            "A very strong buff because the HP heal bypasses all healing blocks"
                         ]
                     },
                     {
                         "id": 41111015,
+                        "name": "Dankuusen",
+                        "shortDesc": "MP Cost: 15, Damage: 210%, Max Enemies Hit: 6 Number of Attacks: 4",
+                        "maxLevel": 20,
                         "icons": ["https://i.imgur.com/ItPRvmd.png"],
                         "animations": ["https://media.giphy.com/media/gLuDekEG4ybBXGGlr1/giphy.gif"],
                         "type": "Attack",
@@ -397,6 +487,9 @@
                 "4th Job", [
                 {
                     "id": 41121000,
+                    "name": "Rai Sanrenzan",
+                    "shortDesc": "MP Cost: 27, 1st Hit - Damage: 280%, Max Enemies Hit: 8, Number of Attacks: 3\\n2nd Hit - Damage: 300%, Max Enemies Hit: 8, Number of Attacks: 4\\n3rd Hit - Damage: 320%, Max Enemies Hit: 8, Number of Attacks: 4, Extra Damage Chance: 20%, Extra Damage: 440%",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Rai_Sanrenzan.png/revision/latest?cb=20151129035321"],
                     "animations": ["https://media2.giphy.com/media/RZPAKRh7L9qK0tcFh2/giphy.gif"],
                     "type": "Normal | Basic Attack Modifier",
@@ -409,6 +502,9 @@
                 },
                 {
                     "id": 41121016,
+                    "name": "Rai Blade Flash",
+                    "shortDesc": "MP Cost: 14, Damage: 340%, Max Enemies Hit: 1 Number of Attacks: 8",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Rai_Blade_Flash.png/revision/latest?cb=20150529004735"],
                     "animations": ["https://media3.giphy.com/media/1AoQ9XR6rJoZEFK6zq/giphy.gif"],
                     "type": "Quick Draw | Basic Attack Modifier",
@@ -421,6 +517,9 @@
                 },
                 {
                     "id": 41121001,
+                    "name": "Shinsoku",
+                    "shortDesc": "MP Cost: 28, Damage: 330%, Number of Attacks: 2.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Shinsoku.png/revision/latest?cb=20151102042946"],
                     "animations": ["https://media.giphy.com/media/fAmf5QDm0P5JYbqUM0/giphy.gif"],
                     "type": "Quick Draw | Key-down Attack",
@@ -432,6 +531,9 @@
                 },
                 {
                     "id": 41121002,
+                    "name": "Hitokiri Strike",
+                    "shortDesc": "MP Cost: 142, Max Enemies Hit: 15, Damage: 500%, Number of Attacks: 8, Guaranteed Critical Attack, Critical Rate Increase: 45% for 40 sec, Invincibility: 3 sec\\nCooldown: 90 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Hitokiri_Strike.png/revision/latest?cb=20150528203324"],
                     "animations": ["https://media.giphy.com/media/fYlTJdPBWOoSkxYxnI/giphy.gif"],
                     "type": "Attack",
@@ -445,17 +547,23 @@
                 },
                 {
                     "id": 41121022,
+                    "name": "Hitokiri Strike - Angle",
+                    "shortDesc": "MP Cost: 48. While moving diagonally - Damage: 500%, Max Enemies Hit: 15, Number of Critical Attacks: 8\\nCooldown: 6 sec",
+                    "maxLevel": 30,
                     "icons": ["https://i.imgur.com/jO68hbU.png"],
                     "animations": ["https://media.giphy.com/media/Kfw7IRifjHdOhzWsBW/giphy.gif"],
                     "type": "Attack",
                     "desc": "Swiftly dashes diagonally, damaging enemies in your path",
                     "details": [
-                        "Replaces <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Hitokiri_Strike.png/revision/latest?cb=20150528203324' alt='Skill Hitokiri Strike'/> while it is on cooldown",
+                        "Shares SP with and replaces <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Hitokiri_Strike.png/revision/latest?cb=20150528203324' alt='Skill Hitokiri Strike'/> while it is on cooldown",
                         "Attack is a guaranteed Critical Hit"
                     ]
                 },
                 {
                     "id": 41120006,
+                    "name": "Jinsoku",
+                    "shortDesc": "Trigger Chance: 45% after avoiding an attack, Damage Reduction: 72%, Duration: 8 sec.\\nPermanently increases Avoidability by 35%",
+                    "maxLevel": 30,
                     "icons": ["https://i.imgur.com/o21vwUD.png"],
                     "type": "Passive",
                     "desc": "After dodging an attack, there is a chance to gain a buff that increases %Damage Reduction",
@@ -465,17 +573,26 @@
                 },
                 {
                     "id": 41120008,
+                    "name": "Cleaver",
+                    "shortDesc": "Defense Ignored: 35%, Damage: +30%",
+                    "maxLevel": 30,
                     "icons": ["https://i.imgur.com/XXfGR23.png"],
                     "type": "Passive"
                 },
                 {
                     "id": 41121005,
+                    "name": "Akatsuki Warrior",
+                    "shortDesc": "MP Cost: 70, All Stats: +15%, Duration: 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://i.imgur.com/BtFnvf4.png"],
                     "animations": ["https://media0.giphy.com/media/xV0QsBh8jJy20EeOip/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 41121004,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Removes all abnormal status effects, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Hero%27s_Will_%28Sengoku%29.png/revision/latest?cb=20180607132647"],
                     "animations": ["https://media4.giphy.com/media/QgIkVNHth9iNdHX9hp/giphy.gif"],
                     "type": "Buff",
@@ -483,6 +600,9 @@
                 },
                 {
                     "id": 41121015,
+                    "name": "Eye for an Eye",
+                    "shortDesc": "After you successfully dodge, you can counterattack with 350% damage against up to 6 enemies.",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Eye_for_an_Eye.png/revision/latest?cb=20120725121111"],
                     "animations": ["https://media4.giphy.com/media/OudD7wrSPB6k9mzUy8/giphy.gif"],
                     "type": "Toggle Attack",
@@ -493,6 +613,9 @@
                 },
                 {
                     "id": 41120007,
+                    "name": "Bloodletter",
+                    "shortDesc": "Status Chance: 50%, 280% damage every 1 sec, Duration: 6 sec",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/ff/Skill_Bloodletter.png/revision/latest?cb=20120725121116", "https://i.imgur.com/SqpeUpj.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -502,6 +625,9 @@
                 },
                 {
                     "id": 41121017,
+                    "name": "Tornado Blade",
+                    "shortDesc": "MP Cost: 32, Max Enemies Hit: 8, Critical Damage: 280%, Number of Attacks: 7, Pulls in enemies with Stun Chance: 100%, Stun Duration: 10 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Tornado_Blade.png/revision/latest?cb=20180526210831"],
                     "animations": ["https://media.giphy.com/media/QZJ004hwRCoT5AwYRz/giphy.gif"],
                     "type": "Attack",
@@ -512,6 +638,9 @@
                 },
                 {
                     "id": 41121018,
+                    "name": "Sudden Strike",
+                    "shortDesc": "MP Cost: 56, Max Enemies Hit: 10, Damage: 405%, Number of Attacks: 6, Additional Debuff Damage from Party: +20%, Debuff applies to Boss monsters.",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Sudden_Strike_%28Hayato%29.png/revision/latest?cb=20150529004057"],
                     "animations": ["https://media.giphy.com/media/kBT4K1Ru4qeS5K6SY1/giphy.gif"],
                     "type": "Attack",
@@ -523,6 +652,9 @@
                 },
                 {
                     "id": 41120003,
+                    "name": "Iron Skin",
+                    "shortDesc": "Abnormal Status Resistance: +50%, All Elemental Resistance: +50% permanently",
+                    "maxLevel": 20,
                     "icons": ["https://i.imgur.com/R8wYNvu.png"],
                     "type": "Passive"
                 }]
@@ -532,54 +664,81 @@
             "hyperPassive": [
                 {
                     "id": 41120043,
+                    "name": "Shinsoku - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Shinsoku_-_Reinforce.png/revision/latest?cb=20151102044418"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 41120044,
+                    "name": "Shinsoku - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Shinsoku_-_Extra_Strike.png/revision/latest?cb=20151102044522"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 41120045,
+                    "name": "Shinsoku - Boss Rush",
+                    "shortDesc": "20% additional damage against bosses",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Shinsoku_-_Boss_Rush.png/revision/latest?cb=20151102044634"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 41120046,
+                    "name": "Sudden Strike - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Sudden_Strike_-_Reinforce.png/revision/latest?cb=20150529023941"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 41120047,
+                    "name": "Sudden Strike - Spread",
+                    "shortDesc": "Monsters Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Sudden_Strike_-_Spread.png/revision/latest?cb=20150529023949"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 41120048,
+                    "name": "Sudden Strike - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Sudden_Strike_-_Extra_Strike.png/revision/latest?cb=20150529024007"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 41120050,
+                    "name": "Hitokiri Strike - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://i.imgur.com/UVYebLo.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 41120051,
+                    "name": "Hitokiri Strike - Cooldown Cutter",
+                    "shortDesc": "Cooldown -30%",
+                    "maxLevel": 1,
                     "icons": ["https://i.imgur.com/JEfqKFK.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 41120049,
+                    "name": "Hitokiri Strike - Persist",
+                    "shortDesc": "Duration: +20 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/44/Skill_Hitokiri_Strike_-_Persist.png/revision/latest?cb=20170904061001"],
                     "type": "Passive",
                     "reqLev": 190
@@ -588,6 +747,9 @@
             "hyperActive": [
                 {
                     "id": 41121054,
+                    "name": "God of Blades",
+                    "shortDesc": "MP Cost: 80, ATT +50 for 30 seconds, All abnormal status and elemental resistance increased by 100.\\nCooldown: 90 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_God_of_Blades.png/revision/latest?cb=20180505151320"],
                     "animations": ["https://media4.giphy.com/media/XBPYKyKWUeU7ACzlwz/giphy.gif"],
                     "type": "Buff",
@@ -595,6 +757,9 @@
                 },
                 {
                     "id": 41121052,
+                    "name": "Falcon's Honor",
+                    "shortDesc": "MP Cost: 200, Sword Energy: +100, Damage: 500%, Number of Attacks: 8, Max Enemies Hit: 14\\nCooldown: 8 sec",
+                    "maxLevel": 1,
                     "icons": ["https://i.imgur.com/0daF5SK.png"],
                     "animations": ["https://media.giphy.com/media/KHJNlXuwNPAYGxXZKw/giphy.gif"],
                     "type": "Attack",
@@ -606,6 +771,9 @@
                 },
                 {
                     "id": 41121053,
+                    "name": "Princess's Vow",
+                    "shortDesc": "MP Cost: 80, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Sengoku classes within the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Princess%27s_Vow.png/revision/latest?cb=20180607174156"],
                     "animations": ["https://media0.giphy.com/media/abFvHAra2ZPFt9nDyR/giphy.gif"],
                     "type": "Buff",

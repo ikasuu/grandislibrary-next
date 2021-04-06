@@ -112,7 +112,7 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC/0lEQVR4nL1XAZGrMBBdZmoAC/kSqAQqgUoACSABJBAJjYRDApHQSCgS+NnA0gQIF64zXW4OEkL27du3S7mAayN8xyK6sAGMP/3zK95v138jgSAAxnmasFMbDcPgjOM4DnpuHEeIosiAuPzFOTlWSjnzjLFgIPWjh+p+HS9w0tA5Ob5er869vu8XIKFsnAJAzslx2bbmrKR0ACGQUBDBAGznz+cTeNcZxwO8dZDmGS40a0JBBAE4dG4JkS6TNF1AJEnyOQDbupluF+D7AsHaUa/HpwHY0bePBygcW9Eb5zOCwTrbLByl4hQDnab+CChakqUaoILAIjgHoC5LkwJkQcotGOO8kxPtgX3lEMBafPeiWEour2sDYlBqohfTsWpMHwOwrWoaZ8yrCtIsA6YjRconwO/7MfuQAbvj/WbIgNGiXk/PqIYv93HOJ8RdAJuOV/9AU90gy/NpwzkNnRCGBdDBSj5pos3KeQ+3XfuqYQPAyfvrBZxLkMqtfaabi7QqouMCXlojouLGsf2OLNPM7OkrSQeA1znWdZaD4BzWhnNr5+vXNFqe7HdHrwa6bpv/REeDAA29lhNRCd82Bgwe6+64AeB2vF5fD0v0765HGzE9M4Fosxqf3kS/nOE9tlk4ZEAEdLwsL0E0lR5L/9rZecoS07z2bBdAW+cmBYaFnY6HyicR5m09p2BYlO+s1c4lsqMBsHjbGxYAtvhu9wIG6nhla0CoYep4lCql51B8lV4r59rPUSN42Gs9kXsZKCpX6bwpTAUwpJHKcd6UF5W7thOQaYVjpGqHDRbaiHxGSg7pkLE+8I+A+HSwAMAGgerENKR5jRpf0iAFNyzEqH4tOvPrV0da6fk6xU7IljQI/QyyAHMKKO+oA7xHzQjm9YcMxHoj1W1r3FTCKppEb8pnwWbwbjRUCbbz3U6IkzYLZFSz65/gdO/M2l/fBTaIvQ3Wdnat720Y4bcafR0RiBA7u5asERK/ivAyIgYMCPxc+oaRc/xnpyDCbzX4ji2f5/8BSxxCgTxgn7sAAAAASUVORK5CYII="],
                     "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
@@ -123,7 +123,7 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVR4nL1Xi5GDIBDFmTRASjAlnCXEEmIJZwlnCZcSvBJiCVqClJC0QAkeS7KKggtGJm8yBvnt4+2ywoHNMbDPIMGCSWBo+/tHrOfZaUASSEAbP3+luydPknFxbBjcgkK96qdJHGIaR/xezqxqOrrPrWdVkQ0HFgnmyvmibk0JQDQCgPr7YpXLv4YcE5UAGrv9XFhxbVgIVgmYkiIoKe99q/9PWT76AOo4p2OLVKCt67GclyU5EZNTsaiaqY4zEl4XiC5MSrVU/dff6hcZyUIwI+CSfa196Q6wLyV7Ss6fBHiaqndaAksBU3Y9saPe6Q5lmCujuG6f71cJgMVHZySR1woegk4sx+PRWU8FrpOAJ2ZILNXzBq6LQFZMgyCgxGvlZeC+Dg5aFwHcywDcz9zRLh+CxcKMANdhpE2YlQvQTtrqwrkLUkXBsJ3lcx9iZJ+KSj2rIAO+jGopAD/gcG/b+ShoMva0TjguePqYMWYRwMHwlLosjSYMiMmA6Oit6Wu3CUzm7Aym3/ds0k0EUG6PwQh81j9Gnhy+9CUAfG5mzJAzwVsHEjNfIMxzgK/vbgKbpN97HnDPmVKN4X3fJsDDJdh8Hgic1Vm9zJxU330EHPAFG0Uggbva3ttR6AkIcG0E3IqgmKACmgRcl6JD2J9uNA4P0wUJ3NXYZzB+Iv8Bbq6jgAlpMSsAAAAASUVORK5CYII="],
                     "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
                     "type": "Buff"
                 },
@@ -133,7 +133,7 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACx0lEQVR4nL1XgZGbMBCUZ9yAvgRSAl8CKYGU4Bb8JZgWKCGUEEp4SgglvEpwtJJWOgkZ+2di7xiQsXy7d9zpxFHluKrX4MCBFHD98/n3Jew/339cKYICHHnXNv+dzITTMAzqfD67e19fV/X2dnAijs8kpwLjZQQRJzvS6vL7U338er8e1RNhQG5P4zg6Yq21+vigCI+nCTCMfQDI89+eKIDkuNJ7f9+48TCMSrfd4wKoWDhRnydOkhzeG+m2wK4Ak5+sEb0vgglXeE5AyDRNjwugwcb+cV2NNQAhWwUy5MA4JXI+e5J3XaeWZXxQgEUTDDSND2MpoUZ+sfVehhzkTdOoeZ6z+3cFwBDUr7iCOiigfUhCuPv+ZEk8uZ+bvAd53/fuuiyrOp3sXHu9K0Br/9xNMFjzGuTxZqh7SY7vJC/D/1AEghRJH/MS5JfL2RnHgXEZevnsUX7wXibyN9YBEw0AzPJaeeWLjnHkOiufNN4vQz7nsJxyXENrewnzRc7jdyzBpfe7AkpyGequ66Nxelh6LscgRx6k3+4IKDO8fLbzPMU6R1ltQ5zAhYdXtuRdAaQXvSQS9b3vaDQqPUsOmFjvqH0c0zRvVsZdAeCueQ/geVNQSSzFAuu6OnKfvPrxHFBG7aIWdn5nVCCI5Ld6yLfb8a2wEzJasWwdeb2RbQSUGwkJhPYWOYgRbhxLWGYJHeeo/UdgxMQ86/cznXPbtnUHNG7rvt7Sj8lIboxL672QOw+LmgcSuVbsG7GjmhsroVzxmP2+gSzOsz1IYnDqYt8Acoqt7gmxZSYxxSCJkoH6tp1z2CN0JeFiR41bsxsRkM0FhnuEsSAqURKHT4bU1rfiogDuVjPDwtgJq1hRHMlQnbg+NwcEHPCuhrcjv06TRfwDxuvbwbs75RqGacFbEYYHRsCJwOvSK0BynGQOHPCupl6D+Hr+Dx893LO6fTh1AAAAAElFTkSuQmCC"],
                     "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
                     "type": "Buff"
                 },
@@ -143,7 +143,7 @@
                     "name": "Homeward Cannon",
                     "shortDesc": "Returns you to the Nautilus when used.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://i.imgur.com/21sfwCo.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEmklEQVR4nL1Xi5HiMAwVMzTgLSGUEEoIJSQlkBKSEuISkhLiEnAJuARcAi6B05NtNvxu4e7mdHM7JnGsJz3p2V4P8/FCFIhIUd9s6X/YMB/EH/yu8acqCtpuN3Q4nmSC4nchxAl/bWkZxf9CHNBuE33h2RpzsvOqLG6+Xa2+PvJ1uVzeQBMzsEs+132z48GZnaunn8zzTGVZckZiZogyYUTO2uvDpmneBtrVFS98FBDrCCwv+WhwgtRVZcUgAnnn5Ln1noJ35JwXgJ9bpHe9GD83jlCFyJ/wiN+UqVWkXgB/19Y/TdDTRN1+z6kgKrhYAYVSgTrOBrB7UPGvAaxWK057SZ7H1joyxqT2IIplnfLAtAgwFb/5uRCzqd8DgNnEd1VVpIqSClWQD16cRtaCFCfGzjr6zJY18MLmeeDq7mPV8x8PHqQe8u+4kOdC3HNlT+ZzKl4CQCozDTZxjExYa2RcgJ5rhkpx/n763wCQDSkfuj07LCQbyAoi7vVEBx47F9j5RJ/bGzWQswBnsILrACDkc66HXRrnuZ/ZGzWQ7TQqakzJTpVUvPDuo3gNNVE7/fmekZTw+UtEX9YdtTbQXhmqahIqUIGen1mjaHJQQSNzl9ZxjehUIzk7t3q7pOBJAOKc5XeuJ2m1yY9krCdl4/yKNLutae4m6YxNG+jAgoXW1ek/fhtuz6wPt3G+QcHxEKjRA1WeuS5YcJiCkR1u24qd79n9RJvmG70IEhcoos8SXRSKOlW+FKmnAHL0uxYKFxPXlX3sBL2n46AjBZwNUOSMjtFyK5Y8xzKIIHXiJdBMxS2IH7pAFSopHsswof9ZBQ1vP8FxBha7H7cpNEEzmpFBTCbqhONvs+MubeeTX6rlDxTUZMkWNa8fpOgcCxA0ACclaKHnFfu+v+4P2J6LqqChGmjbtOT49+V4EEeBgbSaSWOK7ql4CcCEimK7OWm/cYQst5I6nyLBYaXvOf2D51ogtAifrnZ0FMc5yiJt34Yz4Jc5/j0AvB8rSztf0DiM1LQN0xIXq5l37I44BXVdx861SHZ2vvra3Cx1Oc5Miafz3PEalWQhHkyfAMj9jNRLax048r4V5zgXaFZFnIAMcw5l1FrH+dcdMjlNac7rSRYK7B+3G9aNEGEy0oqDxnJhVBBowOFkHDpxPnDkcZ6TLGD+5XKSuZfz6eoY0Yd0cKHQcFARnE4754MQOance2VSEnWOHO/B/f28MGlJMQKKjq3smN4ZpoAD3D3uGTcU5M2nhuZeAVkpOuuU8D4MgzgfOBNt28ocn4rrq8Wm9XxnVNVIwbaLkJ4UIZx/p/Py8Ayc5wy13IKgp65rAZbBn8eOgWhRzdPpSHrXSKtOd/kKNzqwEOn7I3ZeOIMA59mWzpdzYeiXzSZd9VgbvGnpmQkAFb4ROPd4rFqCgOWUL51nQ+THkRVxYgXFhoQxi9CEjJzPjwD4csr9+yXXpGUEr0DcP3tm2zbXgZKx8L3I8mQcxRvZKV5OMcA1CeIAQHimzWM34P3yyopzYLi6iheVbpzThYVEwrN04xnWxLhNzjFpnT/OIP6H5Vs40P8CoWSroDEnC8QAAAAASUVORK5CYII="],
                     "animations": ["https://media4.giphy.com/media/K2YAugvvJSGJcBkplw/giphy.gif"],
                     "type": "Active",
                     "desc": "",
@@ -153,11 +153,17 @@
                 },
                 {
                     "id": 20050109,
+                    "name": "Master of Swimming",
+                    "shortDesc": "Permanently increases swimming speed and prevents HP loss when swimming.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Master_of_Swimming.png/revision/latest?cb=20110627095447"],
                     "type": "Passive"
                 },
                 {
                     "id": 20050111,
+                    "name": "Master of Organization",
+                    "shortDesc": "Permanently expands Equip, Use, Set-up, and Etc. Inventory.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Master_of_Organization.png/revision/latest?cb=20160710213621"],
                     "type": "Passive"
                 }]
@@ -165,6 +171,9 @@
             [
                 "1st Job", [{
                         "id": 5011000,
+                        "name": "Cannon Blaster",
+                        "shortDesc": "MP Cost: 11, Damage: 265%, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/45/Skill_Cannon_Blaster.png/revision/latest?cb=20110604025545"],
                         "animations": ["https://media0.giphy.com/media/Xbli5MehBN13837Gw4/giphy.gif"],
                         "type": "Attack",
@@ -172,6 +181,9 @@
                     },
                     {
                         "id": 5011001,
+                        "name": "Cannon Strike",
+                        "shortDesc": "MP Cost: 9, Damage: 95%, Number of Attacks: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Cannon_Strike.png/revision/latest?cb=20130713083422"],
                         "animations": ["https://media2.giphy.com/media/giiF3BdH1691YrsFiA/giphy.gif"],
                         "type": "Attack",
@@ -179,6 +191,9 @@
                     },
                     {
                         "id": 5011002,
+                        "name": "Blast Back",
+                        "shortDesc": "MP Cost: 30, Damage: 225%, Max Enemies Hit: 3, 55% chance of decreasing the Movement Speed of target by -45 for 4 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Blast_Back.png/revision/latest?cb=20110604025558"],
                         "type": "Attack / Utility",
                         "desc": "Fires your cannon causing you to recoil backward",
@@ -188,6 +203,9 @@
                     },
                     {
                         "id": 5011006,
+                        "name": "Monkey Push",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Monkey_Push.png/revision/latest?cb=20140116041844"],
                         "animations": ["https://media4.giphy.com/media/QhIP4pWedBMBg3ulbC/giphy.gif"],
                         "type": "Active",
@@ -198,6 +216,9 @@
                     },
                     {
                         "id": 5010003,
+                        "name": "Cannon Boost",
+                        "shortDesc": "Attack Power: +20, Defense: +250",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Cannon_Boost.png/revision/latest?cb=20110604025603"],
                         "type": "Passive"
                     }]
@@ -205,6 +226,9 @@
                 [
                     "2nd Job", [{
                         "id": 5301000,
+                        "name": "Scatter Shot",
+                        "shortDesc": "MP Cost: 24, Damage: 185%, Max Enemies Hit: 4, Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scatter_Shot.png/revision/latest?cb=20140409154425"],
                         "animations": ["https://media1.giphy.com/media/fZ7cY4KNJhwqsyfa75/giphy.gif"],
                         "type": "Attack",
@@ -212,6 +236,9 @@
                     },
                     {
                         "id": 5301001,
+                        "name": "Barrel Bomb",
+                        "shortDesc": "MP Cost: 28, Damage: 70%, Max Enemies Hit: 8, Number of Attacks: 3, Knockback Chance: 100%, Explode dealing 370% damage after moving a fixed distance.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Barrel_Bomb.png/revision/latest?cb=20110605012629"],
                         "animations": ["https://media3.giphy.com/media/Ln36zpHb1QvaGE6mzd/giphy.gif"],
                         "type": "Attack",
@@ -222,6 +249,9 @@
                     },
                     {
                         "id": 5301002,
+                        "name": "Cannon Booster",
+                        "shortDesc": "MP Cost: 11, Attack Speed increased for 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Cannon_Booster.png/revision/latest?cb=20110605012635"],
                         "animations": ["https://media1.giphy.com/media/8FDdAo76oPXsElb3aU/giphy.gif"],
                         "type": "Buff",
@@ -229,22 +259,34 @@
                     },
                     {
                         "id": 5301003,
+                        "name": "Monkey Magic",
+                        "shortDesc": "MP Cost: 55, Duration: 180 sec, HP: +400, MP: +400, All Stats: +30, Speed: +10, Jump +5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Monkey_Magic.png/revision/latest?cb=20110605012707"],
                         "animations": ["https://media0.giphy.com/media/a0iRCOuLfxsGg88ZwU/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 5300004,
+                        "name": "Critical Fire",
+                        "shortDesc": "Critical Rate: +20%, Critical Damage: +5%",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Critical_Fire.png/revision/latest?cb=20110605012712"],
                         "type": "Passive"
                     },
                     {
                         "id": 5300005,
+                        "name": "Cannon Mastery",
+                        "shortDesc": "Cannon Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Cannon_Mastery.png/revision/latest?cb=20110605012716"],
                         "type": "Passive"
                     },
                     {
                         "id": 5300008,
+                        "name": "Pirate Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Pirate_Training.png/revision/latest?cb=20110723140127"],
                         "type": "Passive"
                     }]
@@ -252,6 +294,9 @@
                 [
                     "3rd Job", [{
                         "id": 5311000,
+                        "name": "Cannon Spike",
+                        "shortDesc": "MP Cost: 36, Damage: 240%, Max Enemies Hit: 6, Number of Attacks: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Cannon_Spike.png/revision/latest?cb=20140415021822"],
                         "animations": ["https://media0.giphy.com/media/Xa8wjmQ4FLO2eOUOK4/giphy.gif"],
                         "type": "Attack",
@@ -259,6 +304,9 @@
                     },
                     {
                         "id": 5311010,
+                        "name": "Monkey Fury",
+                        "shortDesc": "MP Cost: 62, Damage: 180%, Max Enemies Hit: 10, Number of Attacks: 3, Damage per second: 200% for 30 sec with a 100% chance. Damage: +40% to pertinent enemy, Cooldown: 10 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Monkey_Fury.png/revision/latest?cb=20140116043745"],
                         "animations": ["https://media0.giphy.com/media/MdA4CQLgH7OnhNFN8Q/giphy.gif"],
                         "type": "Summon",
@@ -269,6 +317,9 @@
                     },
                     {
                         "id": 5311002,
+                        "name": "Monkey Wave",
+                        "shortDesc": "MP Cost: 55, Max Damage: 860%, Stun Chance: 95%, Stun Duration: 4 sec. After full strength use: Critical Damage +5% for 30 sec. After Critical: 50% chance of full strength within 15 sec.\\n[Passive effect: Critical Rate: +20%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Monkey_Wave.png/revision/latest?cb=20110606022134"],
                         "animations": ["https://media1.giphy.com/media/UqTFkkRHlHCX1hd14s/giphy.gif"],
                         "type": "Key-down Attack",
@@ -280,6 +331,9 @@
                     },
                     {
                         "id": 5311003,
+                        "name": "Cannon Jump",
+                        "shortDesc": "MP Cost: 35, Damage: 210%, Max Enemies Hit: 6",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d2/Skill_Cannon_Jump.png/revision/latest?cb=20110606022138"],
                         "animations": ["https://media1.giphy.com/media/RfeeCCjklxHWZ2PLXP/giphy.gif"],
                         "type": "Attack / Utility",
@@ -290,12 +344,18 @@
                     },
                     {
                         "id": 5311004,
+                        "name": "Barrel Roulette",
+                        "shortDesc": "MP Cost: 60, applies a random buff for 180 sec.\\nLightning: [Final Attack Skills] When attacking with a direct skill, additional attack to 6 enemies for 150% damage.\\nIce: Critical Damage: +5%.\\nSlow: When attacking, 50% chance of applying Slow Abnormal Status for 5 sec to all enemies, including bosses.\\nSkull: When attacking, continuous damage of 200% Damage every 1 sec for 5 sec.\\nCooldown: 180 sec\\n[Passive Effects: Final damage +10%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Barrel_Roulette.png/revision/latest?cb=20110606022144"],
                         "animations": ["https://media4.giphy.com/media/KGSnEwpVU5bMoY6fog/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 5311005,
+                        "name": "Roll of the Dice",
+                        "shortDesc": "MP Cost: 60, Buff Duration: 180, Cooldown: 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
                         "animations": ["https://media1.giphy.com/media/4eQqI2czS8JpJuy7Ih/giphy.gif"],
                         "type": "Buff",
@@ -311,16 +371,25 @@
                     },
                     {
                         "id": 5310006,
+                        "name": "Reinforced Cannon",
+                        "shortDesc": "Permanently increases Attack Power by 40 and Attack Speed by 1 level.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Reinforced_Cannon.png/revision/latest?cb=20110606022210"],
                         "type": "Passive"
                     },
                     {
                         "id": 5310007,
+                        "name": "Pirate Rush",
+                        "shortDesc": "HP: +20%, DEF +50%, Abnormal Status Resistance +20",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Pirate_Rush.png/revision/latest?cb=20110606022214"],
                         "type": "Passive"
                     },
                     {
                         "id": 5310009,
+                        "name": "Counter Crush",
+                        "shortDesc": "20% chance of blocking an enemy attack and countering with 200% damage.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Counter_Crush.png/revision/latest?cb=20140415022709"],
                         "type": "Passive"
                     }]
@@ -328,6 +397,9 @@
                 [
                     "4th Job", [{
                         "id": 5321000,
+                        "name": "Cannon Bazooka",
+                        "shortDesc": "MP Cost: 75, Damage: 545%, Max Enemies Hit: 8, Number of Attacks: 4",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Cannon_Bazooka.png/revision/latest?cb=20140414051134"],
                         "animations": ["https://media3.giphy.com/media/SSQd05TfDGKt7TyNqU/giphy.gif"],
                         "type": "Attack",
@@ -335,6 +407,9 @@
                     },
                     {
                         "id": 5321012,
+                        "name": "Cannon Barrage",
+                        "shortDesc": "MP Cost: 63, Number of Attacks: 4, Damage: 750%, Bonus Critical Rate: 15%, Ignore DEF: 20%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Cannon_Barrage.png/revision/latest?cb=20140414051046"],
                         "animations": ["https://media0.giphy.com/media/j5o9RkXSV9vGoHLD2y/giphy.gif"],
                         "type": "Attack",
@@ -345,6 +420,9 @@
                     },
                     {
                         "id": 5321003,
+                        "name": "Anchors Aweigh",
+                        "shortDesc": "MP Cost: 86, Summon Duration: 20 sec. Pulls the enemy forward while dealing 460% damage at fixed intervals. When duration has run out, will explode to deal 625% additional damage",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Anchors_Aweigh.png/revision/latest?cb=20110608083748"],
                         "animations": ["https://media0.giphy.com/media/eJ91iMd8CqTvxC7ZfW/giphy.gif"],
                         "type": "Summon",
@@ -355,6 +433,9 @@
                     },
                     {
                         "id": 5321004,
+                        "name": "Monkey Militia",
+                        "shortDesc": "MP Cost: 70, Summon Duration: 60 sec, Damage: 295%\\nCooldown: 10 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Monkey_Militia.png/revision/latest?cb=20110608083752"],
                         "animations": ["https://media3.giphy.com/media/iJVo6pQV0Z7OY7nbHK/giphy.gif"],
                         "type": "Summon",
@@ -365,6 +446,9 @@
                     },
                     {
                         "id": 5321001,
+                        "name": "Nautilus Strike",
+                        "shortDesc": "MP Cost: 350, Damage: 510%, Max Enemies Hit: 15, Number of Attacks: 5\\nCooldown: 30 sec\\nUpon use, remaining Cooldown -50% for Barrel Roulette and Roll of the Dice",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744"],
                         "animations": ["https://media2.giphy.com/media/LOikrbuPas8SGF91RY/giphy.gif"],
                         "type": "Attack",
@@ -376,6 +460,9 @@
                     },
                     {
                         "id": 5321010,
+                        "name": "Pirate's Spirit",
+                        "shortDesc": "Active Effect - MP Cost: 80, Duration: 180 sec, Knockback Resistance: +80%\\n[Passive Effect - Permanently increases chance of counterattack by 15%, increases damage when attacking a boss by 40%.]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Pirate%27s_Spirit.png/revision/latest?cb=20111026083917"],
                         "animations": ["https://media2.giphy.com/media/DqFM1dwG4sRypumX7F/giphy.gif"],
                         "type": "Buff",
@@ -386,12 +473,18 @@
                     },
                     {
                         "id": 5321005,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 5321006,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
                         "type": "Buff",
@@ -399,6 +492,9 @@
                     },
                     {
                         "id": 5320009,
+                        "name": "Cannon Overload",
+                        "shortDesc": "Permanent Final Damage: +30%, Attack Speed: +1, Mastery: +70%. Enemy DEF ignored by 20%.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Cannon_Overload.png/revision/latest?cb=20110608083829", "https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Cannon_Mastery.png/revision/latest?cb=20110605012716"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -409,12 +505,18 @@
                     },
                     {
                         "id": 5320008,
+                        "name": "Mega Monkey Magic",
+                        "shortDesc": "MP Cost: 80, Duration: 180 sec, HP: +1000, MP: +1000, All Stats: +60, Speed: +15, Jump +10",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Mega_Monkey_Magic.png/revision/latest?cb=20110608083824", "https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Monkey_Magic.png/revision/latest?cb=20110605012707"],
                         "type": "Upgraded Passive",
                         "desc": "Increases amount of stats provided"
                     },
                     {
                         "id": 5320007,
+                        "name": "Double Down",
+                        "shortDesc": "MP Cost: 60, 50% chance of rolling a Double Down, Buff Duration: 180 sec\\nCooldown: 180 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818", "https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -428,54 +530,81 @@
             "hyperPassive": [
                 {
                     "id": 5320043,
+                    "name": "Monkey Militia - Splitter",
+                    "shortDesc": "Number of Attacks: +1, Final Damage: -60%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Monkey_Militia_-_Splitter.png/revision/latest?cb=20121109233642"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 5320044,
+                    "name": "Monkey Militia - Persist",
+                    "shortDesc": "Duration: +10 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Monkey_Militia_-_Persist.png/revision/latest?cb=20121109233758"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 5320045,
+                    "name": "Monkey Militia - Enhance",
+                    "shortDesc": "Can enlist 1 more",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Monkey_Militia_-_Enhance.png/revision/latest?cb=20121109233916"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 5320046,
+                    "name": "Cannon Bazooka - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Cannon_Bazooka_-_Reinforce.png/revision/latest?cb=20140414051454"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 5320047,
+                    "name": "Cannon Bazooka - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Cannon_Bazooka_-_Spread.png/revision/latest?cb=20140414051510"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 5320048,
+                    "name": "Cannon Bazooka - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Cannon_Bazooka_-_Extra_Strike.png/revision/latest?cb=20140414051514"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 5320049,
+                    "name": "Cannon Barrage - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Cannon_Barrage_-_Reinforce.png/revision/latest?cb=20140414051522"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 5320050,
+                    "name": "Cannon Barrage - Critical Chance",
+                    "shortDesc": "Critical Rate: +15%",
+                    "maxLevel": 1,
                     "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADwUlEQVR4nL1XiZWjMAxV3tsGSAlMCbiEUAItkBJMCaQEKCGUQEqwSxhKiEvISrYFMsdkdt/uaF7GB6D/dfn4Bam84GfkxB1J4PV8Pn8E/Xw+v5gEE/DgWZb9UyDn3K5O8/kJ6uPDk/i1AT+doBcv1/ibYj/HHz1z3Qj6Wvq5G/Yz7NcaB1V8sSDwJ5RlCeM4Qj9YP+2/eb2gyPOZRJIDt/4BEJUzCQLPNb8QCPX4nIHluxtwY6BUKiFBBhIJlnUSzlaR4ilaTcBgtiTIE7KleZcH8LsZweEftaUKniByzaChFVi7BCQJss67V0US5OYB524LiQrbB4HrBRxHs667uUcST7D9B0C7UNgQ0BPGSQdLZxK3HRIQSEwxF6pnAO9Mh56zG4Na0wYSGHspGwK3HEFvgQS1GxIDaQPvTiKSD4vl+ZjBzTVHTvXPOTEPCSQkEEAPS8LNJGwkwL/o7akMHXtPPTCivkbtEzvMAdDPSCYoc5IEv0PgfeeJslVkoQh/SkRY/iUBXRWgyhBbwx9NlgbQK0HCIvj1isSuWL4duComxwEBkiw7g1/xndsnwOBah+JnIiwmkoAKieXoggILtbiE+v4GgabRsghSAroIgHdaFYvCz+W4atX17HRQ18aToJakRW0X+wiLS7TqKwJtnifjhQAqIaUEbi262y6JVIiPKI4utvRO2TQhTOSB72xmFC5h0EyAwPW0V8GYZ30PFX40YFtjaMoYFiJhTFgiXQTfSzRiPM+/0h0/CcHDLb7LpQcuF5iQHLUsBp8rUdNc39TablWGRSjDkT21txeYrvVeKGz6cYfZvSuaFkW7VAt+N9P/aldf6Vs8gJksSdhpmh+Vq0pYk/ASm3chmNCLMg3T7diGuier+CXpWrKSQNWjSEhI4SVZSp3pOQT5YRUwCdy3mQQJL0RjnCOLzRjNzXDxcVVC5J0H1qek/b0gkuC+14/L8IiZziQIkMAPw/OFvN2MJDCDu7jd+jDQ92g9Zx2XolIqGfMcjWUrZX8vwDMB7Ygk2Ro8nhWQFfDBgJVLkUBH4BsC/tDIALFa+KDhFdHy/IhWxzAcydorR7L1QDwJkdRVyPa9xPKL0AGBvVB8iwADs2Tnc+iIU3HQDP58x8JAMtZS/jgHPCaFg/SQE+JFyh9QqaPoZHb24fHDldKj8fscqC/+bjDnwhDAaE18wHIS4ssJnfV36/6N+HVAHEhOdFfj2xGRgFrsWG24G9RCgez/jdAyj7ci6p7YA56EWR2Z/5cwOP2TITjFC+NPyHw9/w2EQiuVjrg2XQAAAABJRU5ErkJggg=="],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 5320051,
+                    "name": "Cannon Barrage - Extra Strike",
+                    "shortDesc": "1 additional attacks",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Cannon_Barrage_-_Extra_Strike.png/revision/latest?cb=20140414051536"],
                     "type": "Passive",
                     "reqLev": 190
@@ -484,18 +613,25 @@
             "hyperActive": [
                 {
                     "id": 5321054,
+                    "name": "Buckshot",
+                    "shortDesc": "MP Cost: 300, Number of Attacks for Skills: +3 time(s), Duration: 180 sec, Final Damage: -45%\\nNumber of attacks cannot exceed 15.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Buckshot.png/revision/latest?cb=20121110170530"],
                     "animations": ["https://media2.giphy.com/media/cjbgKCIKFEQXRm14Z4/giphy.gif"],
                     "type": "Buff",
                     "desc": "Triples the number of attacks for your skills but you have reduced %Final Damage",
                     "details": [
                         "Does not apply to summons",
-                        "Number of attacks cannot exceed 15 lines/hits"
+                        "Number of attacks cannot exceed 15 lines/hits",
+                        "Has no cooldown"
                     ],
                     "reqLev": 140
                 },
                 {
                     "id": 5321052,
+                    "name": "Rolling Rainbow",
+                    "shortDesc": "Installation skill. MP Cost: 300, Damage: 600% to 10 enemies within a range, Number of attacks: 3, Duration: 12 sec.\\nCooldown: 90 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Rolling_Rainbow.png/revision/latest?cb=20121109234754"],
                     "animations": ["https://media0.giphy.com/media/Ti1gcx0c76rTzRB3hg/giphy.gif"],
                     "type": "Summon",
@@ -504,6 +640,9 @@
                 },
                 {
                     "id": 5321053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954"],
                     "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
                     "type": "Buff",

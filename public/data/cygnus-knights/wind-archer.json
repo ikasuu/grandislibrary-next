@@ -109,6 +109,9 @@
             [
                 "Beginner", [{
                     "id": 10001244,
+                    "name": "Elemental Slash",
+                    "shortDesc": "MP Cost: 0, Damage: 130%, Number of Attacks: 1, Max Enemies Hit: 3",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Elemental_Slash.png/revision/latest?cb=20130525122036"],
                     "animations": ["https://media1.giphy.com/media/oLsQ6CK4VnDU8f9HUn/giphy.gif"],
                     "type": "Attack",
@@ -116,22 +119,34 @@
                 },
                 {
                     "id": 10001245,
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
                     "animations": ["https://media1.giphy.com/media/IAZoN72DI12njaflIG/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 10000247,
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Dexterity increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Elemental_Harmony.png/revision/latest?cb=20130525122047"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000250,
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Elemental_Expert.png/revision/latest?cb=20130525122051"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000252,
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058"],
                     "animations": ["https://media2.giphy.com/media/Wy7uJDa5nDkhvwq9Yq/giphy.gif"],
                     "type": "Active",
@@ -144,6 +159,9 @@
             [
                 "1st Job", [{
                         "id": 13001020,
+                        "name": "Breeze Arrow",
+                        "shortDesc": "MP Cost: 22, Damage: 120%, Number of Attacks: 3, Max Enemies Hit: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Breeze_Arrow.png/revision/latest?cb=20130209125926"],
                         "animations": ["https://media.giphy.com/media/eKOfWEQTIDVaIJqYI8/giphy.gif"],
                         "type": "Attack",
@@ -151,6 +169,9 @@
                     },
                     {
                         "id": 13001021,
+                        "name": "Wind Walk",
+                        "shortDesc": "MP Cost: 10, Works in the air and stops at end of a platform.\\nPassive Effect: Speed: 35, Jump: 15, Max Movement Speed: +20",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Wind_Walk.png/revision/latest?cb=20130209125938"],
                         "animations": ["https://media.giphy.com/media/h1QPUlEJlfc8E5tAwj/giphy.gif"],
                         "type": "Active",
@@ -162,12 +183,18 @@
                     },
                     {
                         "id": 13001022,
+                        "name": "Storm Elemental",
+                        "shortDesc": "MP Cost: 20, Damage: +10%, Duration: 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Storm_Elemental.png/revision/latest?cb=20130209125943"],
                         "animations": ["https://media1.giphy.com/media/uvvXbrAInnfUfFMt25/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 13000023,
+                        "name": "Whispers of the Wind",
+                        "shortDesc": "Attack Power: +20, Range: +160",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/ff/Skill_Whispers_of_the_Wind.png/revision/latest?cb=20130209125948"],
                         "type": "Passive"
                     }]
@@ -175,6 +202,9 @@
                 [
                 "2nd Job", [{
                         "id": 13101020,
+                        "name": "Fairy Spiral",
+                        "shortDesc": "MP Cost: 31, Damage: 175%, Number of Attacks: 3, Number of Enemies pushed back: 6.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Fairy_Spiral.png/revision/latest?cb=20130210005442"],
                         "animations": ["https://media.giphy.com/media/j4qItkAna7XwkaPpLW/giphy.gif"],
                         "type": "Attack",
@@ -182,6 +212,9 @@
                     },
                     {
                         "id": 13101021,
+                        "name": "Gust Shot",
+                        "shortDesc": "MP Cost: 20, Damage: 260%, Max Monsters Hit: 6, Number of Attacks: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Gust_Shot.png/revision/latest?cb=20130210005449"],
                         "animations": ["https://media.giphy.com/media/jrcN8KtWnL5YKWEHiY/giphy.gif"],
                         "type": "Attack",
@@ -192,6 +225,9 @@
                     },
                     {
                         "id": 13101022,
+                        "name": "Trifling Wind I",
+                        "shortDesc": "Max soul energy created: 3, Chance to create energy: 20%, Random enemies damaged: 170%, Chance to create enhanced soul energy: 5%, Damage of enhanced soul energy: 210%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Trifling_Wind_I.png/revision/latest?cb=20130210005454"],
                         "animations": ["https://media.giphy.com/media/eMbhZeAbgOaPkBDcap/giphy.gif"],
                         "type": "Toggle Attack",
@@ -199,6 +235,9 @@
                     },
                     {
                         "id": 13101023,
+                        "name": "Bow Booster",
+                        "shortDesc": "MP Cost: 11, Bow Attack Speed increased for 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Bow_Booster.png/revision/latest?cb=20110502134835"],
                         "animations": ["https://media1.giphy.com/media/7NjL35KBsLkOmTl9PK/giphy.gif"],
                         "type": "Buff",
@@ -206,17 +245,26 @@
                     },
                     {
                         "id": 13101024,
+                        "name": "Sylvan Aid",
+                        "shortDesc": "MP Cost: 30, Attack Power: 20, Critical Rate: +10%, No Arrows Used for: 200 sec.",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Sylvan_Aid.png/revision/latest?cb=20130210005500"],
                         "animations": ["https://media4.giphy.com/media/VlfwgnVziZ5D1VvMId/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 13100025,
+                        "name": "Bow Mastery",
+                        "shortDesc": "Bow Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Bow_Mastery.png/revision/latest?cb=20110502134731"],
                         "type": "Passive"
                     },
                     {
                         "id": 13100026,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     }]
@@ -224,6 +272,9 @@
                 [
                 "3rd Job", [{
                         "id": 13111020,
+                        "name": "Sentient Arrow",
+                        "shortDesc": "MP Cost: 8. Attack 6 enemies with 165% damage. Steer by holding the skill key and using the directional keys. Maximum Range: 350. Does not activate with Trifling Wind and Storm Bringer.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Sentient_Arrow.png/revision/latest?cb=20130210012159"],
                         "animations": ["https://media.giphy.com/media/kGpHTpYl2EynDcdMby/giphy.gif"],
                         "type": "Key-down Attack",
@@ -235,6 +286,9 @@
                     },
                     {
                         "id": 13111021,
+                        "name": "Pinpoint Pierce",
+                        "shortDesc": "MP Cost: 37, Max Enemies Hit: 1, Damage: 340%, Number of Attacks: 2.\\nActivates a debuff of 15% Damage and 15% Ignore Defense to all of Wind Archer's attacks for 30 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Pinpoint_Pierce.png/revision/latest?cb=20130210012205"],
                         "animations": ["https://media.giphy.com/media/Kfw65CCc8p4exrZHPk/giphy.gif"],
                         "type": "Attack",
@@ -245,6 +299,9 @@
                     },
                     {
                         "id": 13110022,
+                        "name": "Trifling Wind II",
+                        "shortDesc": "Max soul energy created: 4, Chance to create energy: 30%, Random enemies damaged: 215%, Chance to create enhanced soul energy: 10%, Damage of enhanced soul energy: 270%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Trifling_Wind_II.png/revision/latest?cb=20130210012212", "https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Trifling_Wind_I.png/revision/latest?cb=20130210005454"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -254,6 +311,9 @@
                     },
                     {
                         "id": 13111023,
+                        "name": "Albatross",
+                        "shortDesc": "MP Cost: 70, Duration: 200 sec. Attack Power: +20, Max HP: +1500, Critical Rate: +10% with increased attack speed.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Albatross.png/revision/latest?cb=20130210012218"],
                         "animations": ["https://media3.giphy.com/media/0UQa5WzhggTvyzhk3B/giphy.gif"],
                         "type": "Buff",
@@ -264,6 +324,9 @@
                     },
                     {
                         "id": 13111024,
+                        "name": "Emerald Flower",
+                        "shortDesc": "MP Cost: 60, Duration: 60 sec. Crystal Flower HP: 20000 Slows affected enemies.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Emerald_Flower.png/revision/latest?cb=20130210012225"],
                         "animations": ["https://media4.giphy.com/media/zZ6lX74zcCOUoDW1js/giphy.gif"],
                         "type": "Summon",
@@ -274,11 +337,17 @@
                     },
                     {
                         "id": 13110025,
+                        "name": "Featherweight",
+                        "shortDesc": "Damage Taken: -30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%. ",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Featherweight.png/revision/latest?cb=20130210012234"],
                         "type": "Passive"
                     },
                     {
                         "id": 13110026,
+                        "name": "Second Wind",
+                        "shortDesc": "DEF: +1000, Attack Power for 5 sec. after Avoid: +15",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Second_Wind.png/revision/latest?cb=20130210012242"],
                         "type": "Passive"
                     }]
@@ -286,6 +355,9 @@
                 [
                 "4th Job", [{
                     "id": 13121000,
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
                     "animations": ["https://media4.giphy.com/media/luvqKZVw3XTCpMw3c0/giphy.gif"],
                     "type": "Party Buff",
@@ -296,6 +368,9 @@
                 },
                 {
                     "id": 13121001,
+                    "name": "Song of Heaven",
+                    "shortDesc": "MP Cost per attack: 8, Max Enemies Hit: 4, Damage: 345%.\\nFor each enemy struck fewer than Max Enemies Hit, damage done to each enemy increases by 20%, and the damage that would be dealt is doubled and applied as bonus damage.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Song_of_Heaven.png/revision/latest?cb=20130210015258"],
                     "animations": ["https://media.giphy.com/media/RJKYtmTNBseEXqdWtX/giphy.gif"],
                     "type": "Key-down Attack",
@@ -306,6 +381,9 @@
                 },
                 {
                     "id": 13121002,
+                    "name": "Spiraling Vortex",
+                    "shortDesc": "MP Cost: 75, Enemies pushed back: 7, Damage: 380%, Number of Attacks: 5, Splash Damage: 230%, Number of Splash Damage Attacks: 2\\n[Passive Effect: Sentient Arrow Damage: +275% points]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Spiraling_Vortex.png/revision/latest?cb=20130210015306"],
                     "animations": ["https://media.giphy.com/media/VeT5jdAqfFOoMi8C2C/giphy.gif"],
                     "type": "Attack",
@@ -316,6 +394,9 @@
                 },
                 {
                     "id": 13120003,
+                    "name": "Trifling Wind III",
+                    "shortDesc": "Max soul energy created: 5, Chance to create energy: 50%, Random enemies damaged: 290%, Chance to create enhanced soul energy: 20%, Damage of enhanced soul energy: 390%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Trifling_Wind_III.png/revision/latest?cb=20130210015312", "https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Trifling_Wind_I.png/revision/latest?cb=20130210005454"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -325,17 +406,26 @@
                 },
                 {
                     "id": 13121005,
+                    "name": "Sharp Eyes",
+                    "shortDesc": "MP Cost: 45, Critical Rate: +20%, Critical Damage: +15%, Duration: 300 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300"],
                     "animations": ["https://media4.giphy.com/media/avOgUs3Isyyqx30Hw4/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 13120004,
+                    "name": "Touch of the Wind",
+                    "shortDesc": "Attack power: +10%, Dexterity: +15%, Max HP: +20%, Additional Avoidability: +30%",
+                    "maxLevel": 30,
                     "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADQElEQVR4nL1X7bWqMBAM59wGfCVwS8ASsAQtAUqAEqAEKEFLkBKkBCnhWYIvk2RgEyPq++Gco+EjuzPZ3STkR/m4q+8g4YUUcL9crl9h325/7xRBAYY8y9KPHNVbpZrL5wK641mVh50R8ROSH8pWdVWlyrZVx64y97LtS6WKTqmht854v0tu6nzfeP1nQucPwLtin+sLK8KrAZK3vTUKyaWIfC/sXpDTH0SwD+EJQKcanRsd3noRQXEkB4aTa/ubaW0E4uSN9lfWfiSiAoCNa2HUOiNAqkfup9EST8oqudyLmZw2vSOXfkN4AkBiolBbwwoiSmuM55t0Kbx6u5lFgBwROF4t8UnrwJuqs37hryrUw+gfBMiQjYNSWb44YbEZ8gQjv812uEcNyH4E/DQipaspYAQQ+kIrvk0ufG52lomNRnO3QUXxYfQUAUmZvZ1t09Sm8q0ISBEIIyod5MaZ/nVunex3WuBZzySOekdR9prkaFGsRRUnjwogOcM46RCOJ0tIAqSGLVNFUfiddBoyLT7Vz4vcpiUW/qgACY4gTf2Rkzxz0xki+BwtogY73cWIWMPTFHCxAXmuicbWOmdLQEQWvEf/wQ0WfvafpEACI5lgJ0gIXPPZHAlxjdRle/UST2sAqpFLjoqOQyGhGN4zJfvOrgtv14CcBRiFcTgsAohVQa4/7DmYj1IwrwfY8W624Ihp8EPPlmJnuHVqjfypAA8bS8AKJ8L8m2rPH/u9wmsByp/7sibC4gv7/bcA7mYEp5VZeNp4Cka+H2z/0N9HKyFrgBhkVbvtNZaCUy0WJFE39PfWbjjPAj0Fm79+hcuwhuHeZP572MG+P2i/XfVURHQ3BFjVzDWIKILk5n3uL9Ge0NviJxbZaASA9ndRT4dyMzK+J7FTqsfCYz/4qf/oxfS6iHj6TThHQX/ZwEhusWkWjC6CobbtNC798J0Aco5+NQLMD0WAGCFsxHlpdB+jFERCIG+WZyBGYZJ89rsmIMSen2O7JZdN5PDG80ztDlwkjmE1BfymlwVjWmEgxUiEpJ59cDCRgIAEZzWejtghbIl3V7g1P/1pwKkIlwkjYETgzPYNkBx/MgWJOzB+A/Px/B+kvz6WokSpmwAAAABJRU5ErkJggg=="],
                     "type": "Passive"
                 },
                 {
                     "id": 13120006,
+                    "name": "Bow Expert",
+                    "shortDesc": "Bow Mastery: +70%. Attack Power: +30, Final Damage: +25%, Critical Damage: +20%, Damage Against Bosses: +40%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Bow_Expert.png/revision/latest?cb=20110502142447", "https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Bow_Mastery.png/revision/latest?cb=20110502134731"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -346,12 +436,18 @@
                 },
                 {
                     "id": 13120007,
+                    "name": "Emerald Dust",
+                    "shortDesc": "Increases Crystal Flower's Max HP to 40000, Monster DEF: --10%, Damage Intake: -20%",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Emerald_Dust.png/revision/latest?cb=20130210015342", "https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Emerald_Flower.png/revision/latest?cb=20130210012225"],
                     "type": "Upgraded Passive",
                     "desc": "Increases the Max HP of summon and now grants reduces nearby enemy %DEF and increases %Damage Reduction while active"
                 },
                 {
                     "id": 13120008,
+                    "name": "Albatross Max",
+                    "shortDesc": "MP Cost: 85, Attack Power: +50, Damage: +25%, Ignored Monster DEF: 15%, Critical Rate: 25%, Abnormal Status Resistance: +15, Elemental Resistance: +15%, Additional Attack Speed increase.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Albatross_Max.png/revision/latest?cb=20130210015349", "https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Albatross.png/revision/latest?cb=20130210012218"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -366,54 +462,81 @@
             "hyperPassive": [
                 {
                     "id": 13120043,
+                    "name": "Trifling Wind - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Trifling_Wind_-_Reinforce.png/revision/latest?cb=20130210015418"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 13120044,
+                    "name": "Trifling Wind - Enhance",
+                    "shortDesc": "Activation Chance: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Trifling_Wind_-_Enhance.png/revision/latest?cb=20130210015426"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 13120045,
+                    "name": "Trifling Wind - Double Chance",
+                    "shortDesc": "Spirit Aura occurs twice and can hit a target twice",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Trifling_Wind_-_Double_Chance.png/revision/latest?cb=20130210015432"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 13120046,
+                    "name": "Spiraling Vortex - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Spiraling_Vortex_-_Reinforce.png/revision/latest?cb=20130210015508"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 13120047,
+                    "name": "Spiraling Vortex - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Spiraling_Vortex_-_Spread.png/revision/latest?cb=20130210015515"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 13120048,
+                    "name": "Spiraling Vortex - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Spiraling_Vortex_-_Extra_Strike.png/revision/latest?cb=20130210015532"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 13120049,
+                    "name": "Song of Heaven - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Song_of_Heaven_-_Reinforce.png/revision/latest?cb=20130210015541"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 13120050,
+                    "name": "Song of Heaven - Guardbreak",
+                    "shortDesc": "Monster DEF ignored increased 20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Song_of_Heaven_-_Guardbreak.png/revision/latest?cb=20130210015550"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 13120051,
+                    "name": "Song of Heaven - Boss Rush",
+                    "shortDesc": "Boss Damage: +30%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Song_of_Heaven_-_Boss_Rush.png/revision/latest?cb=20130210015556"],
                     "type": "Passive",
                     "reqLev": 190
@@ -422,14 +545,23 @@
             "hyperActive": [
                 {
                     "id": 13121054,
+                    "name": "Storm Bringer",
+                    "shortDesc": "MP Cost: 150, Duration: 200 sec., Chance to summon a large arrow on attack: 30%, Additional Damage from Arrow: 500%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Storm_Bringer.png/revision/latest?cb=20130210015706"],
                     "animations": ["https://media0.giphy.com/media/3Sic73OrzLeB3GGJLu/giphy.gif"],
                     "type": "Buff",
                     "desc": "While active, your attacks have a chance to create large homing arrows",
+                    "details": [
+                        "Has no cooldown"
+                    ],
                     "reqLev": 140
                 },
                 {
                     "id": 13121052,
+                    "name": "Monsoon",
+                    "shortDesc": "MP Cost: 350, Enemies Hit: 15, Damage: 430%, Number of Attacks: 12. Debuff Damage: 200% every 1 sec for 30 sec.\\nCooldown: 30 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Monsoon.png/revision/latest?cb=20130210015612"],
                     "animations": ["https://media.giphy.com/media/ZGCaWjsnAwwxeDL6TF/giphy.gif"],
                     "type": "Attack",
@@ -441,6 +573,9 @@
                 },
                 {
                     "id": 11121053,
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Cygnus class or Mihile in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Glory_of_the_Guardians_%28Wind_Archer%29.png/revision/latest?cb=20130210015631"],
                     "animations": ["https://media3.giphy.com/media/HVZAvOGDBTY49cICQg/giphy.gif"],
                     "type": "Buff",

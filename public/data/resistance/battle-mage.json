@@ -110,6 +110,9 @@
             [
                 "Beginner", [{
                     "id": 20021000,
+                    "name": "Crystal Throw",
+                    "shortDesc": "MP Cost: 7, Damage: 40",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Crystal_Throw.png/revision/latest?cb=20100606013011"],
                     "animations": ["https://media3.giphy.com/media/1c1qBgqtJNKp8u0UzW/giphy.gif"],
                     "type": "Attacks",
@@ -117,6 +120,9 @@
                 },
                 {
                     "id": 20021001,
+                    "name": "Infiltrate",
+                    "shortDesc": "MP Cost: 15, Hide for 30 sec, Movement Speed: +15",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Infiltrate.png/revision/latest?cb=20100606013059"],
                     "animations": ["https://media2.giphy.com/media/OAqAR4PlE8MOEjfLwH/giphy.gif"],
                     "type": "Active",
@@ -124,11 +130,17 @@
                 },
                 {
                     "id": 20020002,
+                    "name": "Potion Mastery",
+                    "shortDesc": "Recovery Rate: +115%",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Potion_Mastery.png/revision/latest?cb=20100606013234"],
                     "type": "Passive"
                 },
                 {
                     "id": 30001281,
+                    "name": "Secret Assembly",
+                    "shortDesc": "MP Cost: 100, you move to the Resistance Secret Plaza\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Secret_Assembly.png/revision/latest?cb=20160619042757"],
                     "animations": ["https://media1.giphy.com/media/EOAPVrGaUNzjyNfV6G/giphy.gif"],
                     "type": "Active"
@@ -138,6 +150,9 @@
                 "1st Job", [
                     {
                         "id": 32001000,
+                        "name": "Triple Blow",
+                        "shortDesc": "MP Cost: 20, Damage: 170%, Max Attacks: 3, Max Monsters Hit: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Triple_Blow.png/revision/latest?cb=20100608052816"],
                         "animations": ["https://media0.giphy.com/media/2cqwWQcA2ZzI0bLlL0/giphy.gif"],
                         "type": "Attack",
@@ -145,6 +160,9 @@
                     },
                     {
                         "id": 32001002,
+                        "name": "Combat Teleport",
+                        "shortDesc": "MP Cost: 20, Horizontal range: 210, Vertical range: 290",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Teleport.png/revision/latest?cb=20100530141342"],
                         "type": "Active",
                         "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
@@ -154,6 +172,9 @@
                     },
                     {
                         "id": 32001016,
+                        "name": "Hasty Aura",
+                        "shortDesc": "MP Cost per sec: 8, Speed: +10, Attack Speed +1 level\\nCooldown: 3 sec\\n[Passive Effect: Speed: 30, Max Speed: 20, Jump: 20, Attack Speed +2 levels, Avoidability: +15%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Hasty_Aura.png/revision/latest?cb=20150312015436"],
                         "animations": ["https://media3.giphy.com/media/JLzDzZPsXO7qdHESoL/giphy.gif"],
                         "type": "Party Aura",
@@ -179,6 +200,9 @@
                     },
                     {
                         "id": 32000015,
+                        "name": "Staff Artist",
+                        "shortDesc": "Magic ATT: +20, Critical Rate: +15%, DEF: +150",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Staff_Artist.png/revision/latest?cb=20130516152904"],
                         "type": "Passive"
                     }]
@@ -187,6 +211,9 @@
                 "2nd Job", [
                     {
                         "id": 32101000,
+                        "name": "Quad Blow",
+                        "shortDesc": "MP Cost: 30, Damage: 220%, Max Attacks: 4, Max Monsters Hit: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Quad_Blow.png/revision/latest?cb=20120401164928"],
                         "animations": ["https://media1.giphy.com/media/p0cyFf9YKDZUhW5C6H/giphy.gif"],
                         "type": "Attack",
@@ -194,6 +221,9 @@
                     },
                     {
                         "id": 32101001,
+                        "name": "Dark Chain",
+                        "shortDesc": "MP Cost: 45, Damage: 600%, Max Monsters Hit: 8, Knock Down Duration: 8 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Dark_Chain.png/revision/latest?cb=20120115030626"],
                         "animations": ["https://media0.giphy.com/media/3xngKrRq4CMpyvQPNT/giphy.gif"],
                         "type": "Attack",
@@ -204,6 +234,9 @@
                     },
                     {
                         "id": 32101009,
+                        "name": "Draining Aura",
+                        "shortDesc": "MP Cost per sec: 28, Heals you for 1% of damage dealt. Cannot recover again for 5 sec after a recovery takes place. Damage dealt by Battle Mage also heals any party members within the range of Draining Aura.\\nCooldown: 3 sec\\n[Passive Effect: Max HP recovery every 4 sec: 2% + 1000, Max HP recovery every time you eliminate an enemy: 1%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Draining_Aura.png/revision/latest?cb=20141102065410"],
                         "animations": ["https://media0.giphy.com/media/WajNNsS5FtOX1DlKt8/giphy.gif"],
                         "type": "Party Aura",
@@ -216,6 +249,9 @@
                     },
                     {
                         "id": 32101005,
+                        "name": "Staff Boost",
+                        "shortDesc": "MP Cost: 40, Attack Speed increased for 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Staff_Boost.png/revision/latest?cb=20110515023621"],
                         "animations": ["https://media3.giphy.com/media/fEDVrR7WQ3anr6mrRp/giphy.gif"],
                         "type": "Buff",
@@ -223,16 +259,25 @@
                     },
                     {
                         "id": 32100006,
+                        "name": "Staff Mastery",
+                        "shortDesc": "Staff Mastery: +50%, Magic ATT: +30, Critical Hit Rate: +20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Staff_Mastery.png/revision/latest?cb=20100614034639"],
                         "type": "Passive"
                     },
                     {
                         "id": 32100007,
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
                         "type": "Passive"
                     },
                     {
                         "id": 32100008,
+                        "name": "Ordinary Conversion",
+                        "shortDesc": "Max HP: +150%",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Ordinary_Conversion.png/revision/latest?cb=20100614034749"],
                         "type": "Passive"
                     },
@@ -255,6 +300,9 @@
                 [
                 "3rd Job", [{
                         "id": 32111002,
+                        "name": "Quintuple Blow",
+                        "shortDesc": "MP Cost: 42, Damage: 235%, Number of Attacks: 5, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Quintuple_Blow.png/revision/latest?cb=20110515035047"],
                         "animations": ["https://media1.giphy.com/media/CmUmt0SkSitI8FfHOB/giphy.gif"],
                         "type": "Attack",
@@ -262,6 +310,9 @@
                     },
                     {
                         "id": 32111015,
+                        "name": "Battle Burst",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 8, Damage: 900%.\\n[Passive Effect: Dark Chain's Damage: +50%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Battle_Burst.png/revision/latest?cb=20140511045852"],
                         "animations": ["https://media0.giphy.com/media/H8TTe6BsnVlhzZENL5/giphy.gif"],
                         "type": "Attack",
@@ -273,12 +324,18 @@
                     },
                     {
                         "id": 32111012,
+                        "name": "Blue Aura",
+                        "shortDesc": "MP Cost: 12 per sec, Abnormal Status Resistance: +20, Damage Taken: -15%.\\nCooldown: 3 sec\\n[Passive Effects - Abnormal Status Resistance: +30, Elemental Resistance: +30%, DEF: +150%, Damage Taken: -25%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Blue_Aura.png/revision/latest?cb=20150312025849"],
                         "animations": ["https://media3.giphy.com/media/QGGJt2ekUpqwkF4KWD/giphy.gif"],
                         "type": "Party Aura"
                     },
                     {
                         "id": 32111016,
+                        "name": "Dark Shock",
+                        "shortDesc": "Increases the MP Cost of Combat Teleport by 15. Teleporting creates a streak of black lightning between your start and end positions. [Black Lightning] Max Enemies Hit: 8, Damage: 225%, Number of Attacks: 4. Afflicts enemies with Dark Brand for 5 sec. Attacking enemies with Dark Brand consumes the brand and deals an additional 350% damage 4 number of times. Brand-consuming attacks deal 20% bonus damage against bosses.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Dark_Shock.png/revision/latest?cb=20110515035052"],
                         "animations": ["https://media4.giphy.com/media/xodnSODsIYcnbE9HDe/giphy.gif"],
                         "type": "Toggle Attack",
@@ -289,16 +346,25 @@
                     },
                     {
                         "id": 32110001,
+                        "name": "Battle Mastery",
+                        "shortDesc": "Final Damage: +15%, Critical Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Battle_Mastery.png/revision/latest?cb=20110515035123"],
                         "type": "Passive"
                     },
                     {
                         "id": 32110018,
+                        "name": "Power Stance",
+                        "shortDesc": "Knockback Resistance: +100%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Power_Stance_%28Battle_Mage%29.png/revision/latest?cb=20150312033440"],
                         "type": "Passive"
                     },
                     {
                         "id": 32110019,
+                        "name": "Dark Conditioning",
+                        "shortDesc": "Attack Speed: +1, Avoidability: 25%, Speed: 30, Max Speed: 10",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Dark_Conditioning.png/revision/latest?cb=20141102072847"],
                         "type": "Passive"
                     },
@@ -321,6 +387,9 @@
                 [
                 "4th Job", [{
                     "id": 32121002,
+                    "name": "Finishing Blow",
+                    "shortDesc": "MP Cost: 60, Damage: 330%, Max Enemies Hit: 6, Number of Attacks: 6, Crit Rate: +25%, Bonus Ignore DEF: 20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Finishing_Blow.png/revision/latest?cb=20120403234943"],
                     "animations": ["https://media2.giphy.com/media/fndFCFAidGsFiR4s86/giphy.gif"],
                     "type": "Attack",
@@ -331,6 +400,9 @@
                 },
                 {
                     "id": 32121004,
+                    "name": "Dark Genesis",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 520%, Number of Attacks: 8, Stun Duration: 4 sec\\n[Final Attack Skills] Cooldown: 30 sec. Making a direct attack during cooldown has a 60% chance to hit a single enemy with lightning, dealing 220% damage.\\nPassive Effect: +60% damage on Dark Chain, Battle Burst, and Dark Shock]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Dark_Genesis.png/revision/latest?cb=20150312035127"],
                     "animations": ["https://media3.giphy.com/media/dpXAjnT5IPyrOxGN0f/giphy.gif"],
                     "type": "Attack",
@@ -343,18 +415,27 @@
                 },
                 {
                     "id": 32121017,
+                    "name": "Dark Aura",
+                    "shortDesc": "MP Cost per sec: 16, Damage: +20%\\nCooldown: 3 sec\\n[Passive Effect: Magic ATT +15%]",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Dark_Aura.png/revision/latest?cb=20150312034656"],
                     "animations": ["https://media4.giphy.com/media/72KU3iov2ocJVPHOm0/giphy.gif"],
                     "type": "Party Aura"
                 },
                 {
                     "id": 32121018,
+                    "name": "Weakening Aura",
+                    "shortDesc": "MP Cost per sec: 26, Enemy DEF: -20%. Requires 2 sec to apply but will be in effect 20 sec after aura deactivation.\\nCooldown: 3 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Weakening_Aura.png/revision/latest?cb=20141102204046"],
                     "animations": ["https://media4.giphy.com/media/rFTAHekfdfMsRxtXDV/giphy.gif"],
                     "type": "Party Aura"
                 },
                 {
                     "id": 32121010,
+                    "name": "Battle Rage",
+                    "shortDesc": "MP Cost: 50, Damage: +40%, Critical Rate: +20%, Critical Damage: +8%\\nReduces the Max Enemies Hit for all skills (except some summons) by 1/3. For skills that target multiple enemies, Max Enemies Hit won't be reduced below 2.\\nExcludes Condemnation, Ambassador Scythe when enhanced by Aura Scythe, Altar of Annihilation, and Grim Harvest from max enemies hit reduction.\\n[Passive Effects: Max HP +30%, Max MP +30%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Battle_Rage.png/revision/latest?cb=20120810041643"],
                     "animations": ["https://media1.giphy.com/media/L1mOrPCVYzB3bN9gN0/giphy.gif"],
                     "type": "Toggle Buff",
@@ -366,6 +447,9 @@
                 },
                 {
                     "id": 32121006,
+                    "name": "Party Shield",
+                    "shortDesc": "MP Cost: 150, Duration 40 sec, -10% damage when hit with an attack that inflicts damage of a certain proportion of Max HP.\\nCooldown: 180 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Party_Shield.png/revision/latest?cb=20110515044651"],
                     "animations": ["https://media0.giphy.com/media/YaOtp3VFhNgTtIQksQ/giphy.gif"],
                     "type": "Buff Zone",
@@ -373,12 +457,18 @@
                 },
                 {
                     "id": 32121007,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 32121008,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30\\nCooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
                     "type": "Buff",
@@ -386,6 +476,9 @@
                 },
                 {
                     "id": 32120016,
+                    "name": "Staff Expert",
+                    "shortDesc": "Staff Mastery: +70%. Magic ATT: +30, Critical Damage: +20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Staff_Expert.png/revision/latest?cb=20130516161815", "https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Staff_Mastery.png/revision/latest?cb=20100614034639"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -396,6 +489,9 @@
                 },
                 {
                     "id": 32120020,
+                    "name": "Spell Boost",
+                    "shortDesc": "Magic ATT: +25%, Damage: +10%, Enemy DEF Ignored: +30%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Spell_Boost.png/revision/latest?cb=20141102211347"],
                     "type": "Passive"
                 },
@@ -420,18 +516,27 @@
             "hyperPassive": [
                 {
                     "id": 32120057,
+                    "name": "Dark Genesis - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -40%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Dark_Genesis_-_Cooldown_Cutter.png/revision/latest?cb=20141102213405"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 32120058,
+                    "name": "Dark Genesis - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f4/Skill_Dark_Genesis_-_Reinforce.png/revision/latest?cb=20141102213407"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 32120059,
+                    "name": "Dark Genesis - Additional Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Dark_Genesis_-_Additional_Reinforce.png/revision/latest?cb=20141102213404"],
                     "type": "Passive",
                     "desc": "Increases %Damage to the Final Attack lightning strike",
@@ -439,12 +544,18 @@
                 },
                 {
                     "id": 32120060,
+                    "name": "Dark Aura - Boss Rush",
+                    "shortDesc": "When attacking Boss Monster - Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Dark_Aura_-_Boss_Rush.png/revision/latest?cb=20141102213424"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 32120061,
+                    "name": "Weakening Aura - Elemental Decrease",
+                    "shortDesc": "Decreases Elemental Resistance by 10%, increases final damage enemies receive by 10%.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Weakening_Aura_-_Elemental_Decrease.png/revision/latest?cb=20141102213428"],
                     "type": "Passive",
                     "desc": "",
@@ -455,24 +566,36 @@
                 },
                 {
                     "id": 32120062,
+                    "name": "Blue Aura - Dispel Magic",
+                    "shortDesc": "Clears Status on party members every 5 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Blue_Aura_-_Dispel_Magic.png/revision/latest?cb=20141102213434"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 32120063,
+                    "name": "Party Shield - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Party_Shield_-_Cooldown_Cutter.png/revision/latest?cb=20141102213516"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 32120064,
+                    "name": "Party Shield - Persist",
+                    "shortDesc": "Duration +15 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Party_Shield_-_Persist.png/revision/latest?cb=20141102213514"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 32120065,
+                    "name": "Party Shield - Enhance",
+                    "shortDesc": "Damage reduction rate on attacks by ratio of max HP +10%.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Party_Shield_-_Enhance.png/revision/latest?cb=20141102213512"],
                     "type": "Passive",
                     "reqLev": 190
@@ -481,6 +604,9 @@
             "hyperActive": [
                 {
                     "id": 32121056,
+                    "name": "Master of Death",
+                    "shortDesc": "MP Cost: 300, Duration: 30 sec, Number of Attacks Blow skill: +1\\nnumber of required souls reduced to 1, Condemnation Final Damage: +50%, Reduces Condemnation cooldown by 0.5 sec every time you successfully use a dark-attribute attack (besides Condemnation).\\nCooldown: 200 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Master_of_Death.png/revision/latest?cb=20130516161917"],
                     "animations": ["https://media3.giphy.com/media/NkDrM2kiddIBMm8Ebn/giphy.gif"],
                     "type": "Buff",
@@ -492,6 +618,9 @@
                 },
                 {
                     "id": 32120055,
+                    "name": "Sweeping Staff",
+                    "shortDesc": "MP Cost: 80, Damage: 650%, Number of Attacks: 5, Enemies Hit: 8",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Sweeping_Staff.png/revision/latest?cb=20121113011743"],
                     "animations": ["https://media1.giphy.com/media/Y4TXT8Gb9YCWjdw80f/giphy.gif"],
                     "type": "Attack",
@@ -500,6 +629,9 @@
                 },
                 {
                     "id": 32121053,
+                    "name": "For Liberty",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355"],
                     "animations": ["https://media1.giphy.com/media/Ar37NFQOKIImPzkDt8/giphy.gif"],
                     "type": "Buff",

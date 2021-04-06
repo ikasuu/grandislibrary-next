@@ -98,6 +98,9 @@
             [
                 "Beginner", [{
                     "id": 20051284,
+                    "name": "Fox Trot",
+                    "shortDesc": "MP Cost: 20. When no enemies are around, you'll be teleported forward 300.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Fox_Trot.png/revision/latest?cb=20150216044653"],
                     "animations": ["https://media.giphy.com/media/Me1Q2ciKIuNaLj2ju1/giphy.gif"],
                     "type": "Active",
@@ -108,11 +111,17 @@
                 },
                 {
                     "id": 20050285,
+                    "name": "Spirit Bond 1",
+                    "shortDesc": "Recovers 1% HP on hit.\\nChance of permanently increasing Power Stance: 100%, Damage Taken: -30%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Spirit_Bond_1.png/revision/latest?cb=20150216044939"],
                     "type": "Passive"
                 },
                 {
                     "id": 20050074,
+                    "name": "Spirit Affinity",
+                    "shortDesc": "Minion Duration +5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Spirit_Affinity.png/revision/latest?cb=20191116141513"],
                     "type": "Passive"
                 }]
@@ -120,6 +129,9 @@
             [
                 "1st Job", [{
                         "id": 25000001,
+                        "name": "Swift Strike",
+                        "shortDesc": "MP Cost: 9, Damage: 120%, Number of Attacks: 2, Max Enemies Hit: 4",
+                        "maxLevel": 25,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Swift_Strike.png/revision/latest?cb=20140527065733", "https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Flash_Fist.png/revision/latest?cb=20140527065759"],
                         "animations": ["https://media.giphy.com/media/U3aLJXmGV7HJJsHZNK/giphy.gif"],
                         "type": "Attack",
@@ -130,11 +142,17 @@
                     },
                     {
                         "id": 25000003,
+                        "name": "Flash Fist",
+                        "shortDesc": "MP Cost: 11, Damage: 155%, Number of Attacks: 2, Max Enemies Hit: 4",
+                        "maxLevel": 25,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Flash_Fist.png/revision/latest?cb=20140527065759"],
                         "type": "Attack"
                     },
                     {
                         "id": 25001204,
+                        "name": "Vulpes Leap",
+                        "shortDesc": "MP Cost: 10, jumps ahead a certain distance",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Vulpes_Leap.png/revision/latest?cb=20140401052036"],
                         "animations": ["https://media.giphy.com/media/fUvPNwkEOsuGXVzpTQ/giphy.gif"],
                         "type": "Active",
@@ -145,6 +163,9 @@
                     },
                     {
                         "id": 25000105,
+                        "name": "Cosmic Balance",
+                        "shortDesc": "Permanently increases Defense by 500, Max HP by 20%, and Max MP by 20%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Cosmic_Balance.png/revision/latest?cb=20140402165523"],
                         "type": "Passive"
                     }]
@@ -152,6 +173,9 @@
                 [
                     "2nd Job", [{
                         "id": 25100001,
+                        "name": "Ground Pound",
+                        "shortDesc": "MP Cost: 18, Damage: 360%, Number of Attacks: 2\\n[Shockwave]: Max Enemies Hit: 15, Speed: -40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Ground_Pound.png/revision/latest?cb=20140914072224"],
                         "animations": ["https://media.giphy.com/media/jVGtkynFy7Pvk9XcPw/giphy.gif"],
                         "type": "Attack",
@@ -163,6 +187,9 @@
                     },
                     {
                         "id": 25101003,
+                        "name": "Blade Imp - Downward Slash",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 100%, Number of Attacks: 4\\nBlade Imp - Trap: Final damage from Shade's attack increased by 10% for 15 sec\\nCooldown: 1 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Blade_Imp_-_Downward_Slash.png/revision/latest?cb=20140914072242"],
                         "animations": ["https://media1.giphy.com/media/cCT2iqVF2loHShNDxX/giphy.gif"],
                         "type": "Attack",
@@ -173,6 +200,9 @@
                     },
                     {
                         "id": 25101004,
+                        "name": "Blade Imp - Forward Slash",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 110%, Number of Attacks: 4\\nBlade Imp - Trap: Final damage from Shade's attack increased by 10% for 15 sec\\nCooldown: 1 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Blade_Imp_-_Forward_Slash.png/revision/latest?cb=20140914072247"],
                         "animations": ["https://media.giphy.com/media/hQWqOwe8xbROwAcrLe/giphy.gif"],
                         "type": "Attack",
@@ -183,6 +213,9 @@
                     },
                     {
                         "id": 25101205,
+                        "name": "Back Step",
+                        "shortDesc": "MP Cost: 10. Moves a certain distance backward.\\n[Passive Effect: Avoidability: +15% permanently]",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Back_Step.png/revision/latest?cb=20140914072251"],
                         "animations": ["https://media.giphy.com/media/hrG5mdqgZ84GEk3LOc/giphy.gif"],
                         "type": "Active",
@@ -193,27 +226,42 @@
                     },
                     {
                         "id": 25100106,
+                        "name": "Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
                         "type": "Passive"
                     },
                     {
                         "id": 25100107,
+                        "name": "Spirit Bond 2",
+                        "shortDesc": "Permanently increases Attack Speed by 1 and Movement Speed by 20.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Spirit_Bond_2.png/revision/latest?cb=20140914072259"],
                         "type": "Passive"
                     },
                     {
                         "id": 25100108,
+                        "name": "Strength Training",
+                        "shortDesc": "STR: +60 permanently",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     },
                     {
                         "id": 25101009,
+                        "name": "Fox Spirits",
+                        "shortDesc": "",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5a/Skill_Fox_Spirits.png/revision/latest?cb=20150610054217"],
                         "type": "Toggle Attack",
                         "desc": "Toggles the Fox Spirits from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Fox_Spirit_Mastery.png/revision/latest?cb=20140914072309' alt='Skill Fox Spirit Mastery'> Fox Spirit Mastery to appear "
                     },
                     {
                         "id": 25100009,
+                        "name": "Fox Spirit Mastery",
+                        "shortDesc": "Summon Chance: 10%, Number of Foxes: 1\\nFox Damage: 100%, Max Enemies Hit: 1, Number of Attacks: 1\\nRepeats 2 times per attack",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Fox_Spirit_Mastery.png/revision/latest?cb=20140914072309"],
                         "animations": ["https://media.giphy.com/media/jq6B2R2ZfMRtwGpKM7/giphy.gif"],
                         "type": "Passive",
@@ -223,6 +271,9 @@
                 [
                     "3rd Job", [{
                         "id": 25111000,
+                        "name": "Shockwave Punch",
+                        "shortDesc": "MP Cost: 30\\n[1st hit]: Max Enemies Hit: 6, Damage: 250%, Number of Attacks: 2\\n[2nd hit]: Max Enemies Hit: 6, Damage: 260%, Number of Attacks: 2\\n[3rd hit]: Max Enemies Hit: 6, Damage: 300%, Number of Attacks: 3\\n[Shockwave]: Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Shockwave_Punch.png/revision/latest?cb=20140914214005"],
                         "animations": ["https://media.giphy.com/media/Joyfsu3tcIXT2SxyFC/giphy.gif"],
                         "type": "Attack",
@@ -230,6 +281,9 @@
                     },
                     {
                         "id": 25111004,
+                        "name": "Blade Imp - Spin Slash",
+                        "shortDesc": "MP Cost: 60, Max Enemies Hit: 6, Damage: 160%, Number of Attacks: 4\\nBlade Imp - Trap: Final damage from Shade's attack increased by 10% for 15 sec\\nCooldown: 1 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Blade_Imp_-_Spin_Slash.png/revision/latest?cb=20140914214015"],
                         "animations": ["https://media.giphy.com/media/iJPDhVoi4BwXdpcgO2/giphy.gif"],
                         "type": "Attack",
@@ -240,6 +294,9 @@
                     },
                     {
                         "id": 25111005,
+                        "name": "Spirit Frenzy",
+                        "shortDesc": "MP Cost: 7, Damage: 45%, Number of Attacks: 5, Max Enemies Hit: 10\\nCooldown: 10 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Spirit_Frenzy.png/revision/latest?cb=20140914214016"],
                         "animations": ["https://media.giphy.com/media/SsZa2OFaajnwis0G7u/giphy.gif"],
                         "type": "Key-down Attack",
@@ -247,6 +304,9 @@
                     },
                     {
                         "id": 25111206,
+                        "name": "Spirit Trap",
+                        "shortDesc": "MP Cost: 65, Trap Duration: 10 sec\\nTemporarily immobilizes enemies and inflicts 700% damage 3 times.\\nTrap Duration increased by up to 100% based on damage inflicted by Spirit Trap.\\nOnly inflicts damage to Trapped enemies.\\nCooldown: 210 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Spirit_Trap.png/revision/latest?cb=20140914214023"],
                         "animations": ["https://media.giphy.com/media/XGmIoO7oQQKgKTB4hz/giphy.gif"],
                         "type": "Bind Attack",
@@ -254,16 +314,25 @@
                     },
                     {
                         "id": 25110107,
+                        "name": "Spirit Bond 3",
+                        "shortDesc": "Damage: +20%, Attack Power: +20 permanently",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Spirit_Bond_3.png/revision/latest?cb=20140914214029"],
                         "type": "Passive"
                     },
                     {
                         "id": 25110108,
+                        "name": "Harmonious Defense",
+                        "shortDesc": "Permanently increases Defense by 1500, Abnormal Status Resistance by 40, and Elemental Resistance by 40%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Harmonious_Defense.png/revision/latest?cb=20140914214035"],
                         "type": "Passive"
                     },
                     {
                         "id": 25111209,
+                        "name": "Summon Other Spirit",
+                        "shortDesc": "Prevents KO when hit by a fatal attack, Max Enemies Hit: 15, Damage: 450%, Number of Attacks: 4, Invincibility: 3 sec\\nCooldown: 1800 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Summon_Other_Spirit.png/revision/latest?cb=20140914214042"],
                         "animations": ["https://media2.giphy.com/media/JJyVlhx7PaIKG5cReg/giphy.gif"],
                         "type": "Passive Revive",
@@ -274,6 +343,9 @@
                     },
                     {
                         "id": 25110210,
+                        "name": "Weaken",
+                        "shortDesc": "Summon Chance (per attack): 10%, Duration: 15 sec, Damage: +20%, Accuracy: -60%, Avoidability: -40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Weaken.png/revision/latest?cb=20140914214053"],
                         "type": "Passive",
                         "desc": "When attacking enemies, you have a chance to debuff enemies",
@@ -285,6 +357,9 @@
                 [
                     "4th Job", [{
                         "id": 25121000,
+                        "name": "Bomb Punch",
+                        "shortDesc": "MP Cost: 20 per hit\\n[1st hit]: Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 3\\n[2nd hit]: Max Enemies Hit: 8, Damage: 310%, Number of Attacks: 3\\n[3rd hit]: Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 3\\n[4th Hit]: Max Enemies Hit: 8, Damage: 350%, Number of Attacks: 3, Stun Chance: 100%, Stun Duration: 2 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Bomb_Punch.png/revision/latest?cb=20140921055737"],
                         "animations": ["https://media.giphy.com/media/UrtvBnz6RhRfGSL3dT/giphy.gif"],
                         "type": "Attack",
@@ -296,6 +371,9 @@
                     },
                     {
                         "id": 25121005,
+                        "name": "Spirit Claw",
+                        "shortDesc": "MP Cost: 80, Damage: 265%, Number of Attacks: 12, Max Enemies Hit: 3",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744"],
                         "animations": ["https://media.giphy.com/media/fUpSvwcCdGuaFdH77d/giphy.gif"],
                         "type": "Attack",
@@ -303,6 +381,9 @@
                     },
                     {
                         "id": 25121006,
+                        "name": "Death Mark",
+                        "shortDesc": "MP Cost: 100, Max Enemies Hit: 10, Damage: 700%, Number of Critical Hits: 3\\n[Mark]: Duration: 15 sec, Damage Interval: 1 sec, Damage per Interval: 250%, HP Absorb Amount: 1% of damage dealt\\nCooldown: 60 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Death_Mark.png/revision/latest?cb=20140921055750"],
                         "animations": ["https://media.giphy.com/media/ZF87vlM69ZX9nWHPMz/giphy.gif"],
                         "type": "Attack",
@@ -313,6 +394,9 @@
                     },
                     {
                         "id": 25121007,
+                        "name": "Soul Splitter",
+                        "shortDesc": "MP Cost: 100, Max Enemies Hit: 6, Damage: 2000%, Number of Attacks: 1\\nSplits enemy souls from their bodies.\\nFinal Damage: +20% for stationary monsters whose souls aren't split.\\n[Split Soul]: Shares HP with its body. Final Damage: -80%, Duration: 10 sec at the spot where attacked.\\nSoul Duration: +100% depending on damage inflicted with Soul Splitter.\\nEXP obtained: +100% when defeating a split soul or the soul's body.\\nCooldown: 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Soul_Splitter.png/revision/latest?cb=20140921055756"],
                         "animations": ["https://media.giphy.com/media/hqlRFRYtEFNIte9X3V/giphy.gif"],
                         "type": "Attack",
@@ -324,12 +408,18 @@
                     },
                     {
                         "id": 25121108,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media0.giphy.com/media/OmYneUp8HKBk3giEEm/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 25121209,
+                        "name": "Spirit Ward",
+                        "shortDesc": "MP Cost: 55, Duration: 30 sec, Spirits Summoned: 3, Removes debuffs or nullifies incoming damage.\\nConsumes one Guardian Spirit when attacked or given a debuff.\\nCooldown: 60 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Spirit_Ward.png/revision/latest?cb=20140921055801"],
                         "animations": ["https://media4.giphy.com/media/zVYEDFY52H8qtKPkWg/giphy.gif"],
                         "type": "Buff",
@@ -340,6 +430,9 @@
                     },
                     {
                         "id": 25120110,
+                        "name": "Fire Fox Spirit Mastery",
+                        "shortDesc": "Summon Chance: 25%, Number of Fire Fox Spirits: 1\\nFire Fox Spirit Damage: 200%, Max Enemies Hit: 1, Number of Attacks: 1\\nRepeats 3 times per attack",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirit_Mastery.png/revision/latest?cb=20140921055806", "https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Fox_Spirit_Mastery.png/revision/latest?cb=20140914072309"],
                         "animations": ["https://media0.giphy.com/media/OmYneUp8HKBk3giEEm/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -351,6 +444,9 @@
                     },
                     {
                         "id": 25121211,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media2.giphy.com/media/CDWBGrsQ6w7JS4aNG1/giphy.gif"],
                         "type": "Buff",
@@ -358,11 +454,17 @@
                     },
                     {
                         "id": 25120112,
+                        "name": "Spirit Bond 4",
+                        "shortDesc": "[Passive] Ignored Enemy DEF: +30%, Final Damage: +15%, Boss Damage: +30%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Spirit_Bond_4.png/revision/latest?cb=20140921055817"],
                         "type": "Passive"
                     },
                     {
                         "id": 25120113,
+                        "name": "Advanced Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +70%, Critical Damage: +20%, Final Damage: +10%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_High_Quality_Knuckle_Mastery.png/revision/latest?cb=20140921055823", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -373,6 +475,9 @@
                     },
                     {
                         "id": 25120214,
+                        "name": "Critical Insight",
+                        "shortDesc": "When an enemy goes below 50% HP, your Critical Rate increases by 75% and your Critical Damage increases by 20%\\nPermanently increases your Critical Rate by 25%.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Critical_Insight.png/revision/latest?cb=20140921055826"],
                         "type": "Passive"
                     }]
@@ -382,54 +487,81 @@
             "hyperPassive": [
                 {
                     "id": 25120146,
+                    "name": "Spirit Claw - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Spirit_Claw_-_Reinforce.png/revision/latest?cb=20140921061555"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 25120147,
+                    "name": "Spirit Claw - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Spirit_Claw_-_Boss_Rush.png/revision/latest?cb=20140921061558"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 25120148,
+                    "name": "Spirit Claw - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Spirit_Claw_-_Extra_Strike.png/revision/latest?cb=20140921061600"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 25120149,
+                    "name": "Bomb Punch - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Bomb_Punch_-_Reinforce.png/revision/latest?cb=20140921061602"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 25120150,
+                    "name": "Bomb Punch - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Bomb_Punch_-_Spread.png/revision/latest?cb=20140921061604"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 25120151,
+                    "name": "Bomb Punch - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Bomb_Punch_-_Critical_Chance.png/revision/latest?cb=20140921061606"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 25120152,
+                    "name": "Fire Fox Spirits - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirits_-_Reinforce.png/revision/latest?cb=20140921061608"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 25120153,
+                    "name": "Fire Fox Spirits-Repeated Attack Bonus",
+                    "shortDesc": "Repeated Attack Count: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Fire_Fox_Spirits-Repeated_Attack_Bonus.png/revision/latest?cb=20140921061611"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 25120154,
+                    "name": "Fire Fox Spirits-Summon Chance",
+                    "shortDesc": "Summon Chance: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Fire_Fox_Spirits-Summon_Chance.png/revision/latest?cb=20140921061613"],
                     "type": "Passive",
                     "reqLev": 190
@@ -438,6 +570,9 @@
             "hyperActive": [
                 {
                     "id": 25121131,
+                    "name": "Spirit Bond Max",
+                    "shortDesc": "MP Cost: 300, Duration: 30 sec, Damage: +35%, Attack Power: +20, When Attacking Boss Monsters - Damage: +20%, Increases Attack Speed by 1 stage, Enemy DEF Ignored: 20%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Spirit_Bond_Max.png/revision/latest?cb=20140720234310"],
                     "animations": ["https://media0.giphy.com/media/0L3RNYF40GeXXqmMjP/giphy.gif"],
                     "type": "Buff",
@@ -449,6 +584,9 @@
                 },
                 {
                     "id": 25121133,
+                    "name": "Spirit Bond Max",
+                    "shortDesc": "MP Cost: 300, Duration: 30, Damage: +35%, Attack Power: +20, Boss Attack Damage: +20%, Attack speed increased by 1, Enemy DEF ignored: 20%, summons Moonbeam spirit guardian\\nCooldown: 120 sec\\nLiver Memory Chance (on attack): 10%, Spirit Bond Max Duration: +x sec, doesn't increase past the Spirit Bond Max cooldown.\\nThe summoned Spirit Guardian uses the below skills on its own:\\nLiver Circle Dance: Attacks up to 6 enemies with 275% damage 3 times, Cooldown: 3 sec\\nSpirit Frenzy: Attacks up to 10 enemies with 150% damage, Duration: 4.8 sec, Shade's Spirit Frenzy Final Damage (while Spirit Guardian is using Spirit Frenzy): +700%, Cooldown: 60 sec\\nSpirit Ward: Uses Spirit Ward again when Spirit Guardian is not at max due to Shade's Spirit Ward, Cooldown: 100 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Spirit_Bond_Max.png/revision/latest?cb=20140720234310"],
                     "type": "Buff",
                     "desc": "Increases %Damage, %Boss Damage, %Ignore DEF and Attack Speed (by 1 stage) and grants flat Attack",
@@ -460,6 +598,9 @@
                 },
                 {
                     "id": 25121030,
+                    "name": "Spirit Incarnation",
+                    "shortDesc": "MP Cost: 50, Max Enemies Hit: 15, Damage: 700%, Number of Attacks: 1\\nLasts while key is held down, Max Duration: 8 sec\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Spirit_Incarnation.png/revision/latest?cb=20140921061615"],
                     "animations": ["https://media.giphy.com/media/j58hfn1stzxjJm7GXf/giphy.gif"],
                     "type": "Key-down Attack",
@@ -468,6 +609,9 @@
                 },
                 {
                     "id": 25121132,
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Heroic_Memories_%28Shade%29.png/revision/latest?cb=20140527070728"],
                     "animations": ["https://media0.giphy.com/media/jgFbHmSIYIIeIy31tR/giphy.gif"],
                     "type": "Buff",

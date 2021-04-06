@@ -107,6 +107,9 @@
             [
                 "Beginner", [{
                     "id": 10001244,
+                    "name": "Elemental Slash",
+                    "shortDesc": "MP Cost: 0, Damage: 130%, Number of Attacks: 1, Max Enemies Hit: 3",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Elemental_Slash.png/revision/latest?cb=20130525122036"],
                     "animations": ["https://media1.giphy.com/media/zRhiRIyHGAcB5n0feK/giphy.gif"],
                     "type": "Attack",
@@ -114,22 +117,34 @@
                 },
                 {
                     "id": 10001245,
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
                     "animations": ["https://media2.giphy.com/media/G6EPY8oodm94P6vkbO/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 10000248,
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Intelligence increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Elemental_Harmony.png/revision/latest?cb=20130525122047"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000250,
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Elemental_Expert.png/revision/latest?cb=20130525122051"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000252,
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058"],
                     "type": "Passive",
                     "desc": "Double jump skill",
@@ -141,6 +156,9 @@
             [
                 "1st Job", [{
                         "id": 12001020,
+                        "name": "Orbital Flame",
+                        "shortDesc": "MP Cost: 24, Max Enemies Hit: 4, Damage: 200%, Number of Attacks: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
                         "animations": ["https://media0.giphy.com/media/FlQolrSTU0gt54hquW/giphy.gif"],
                         "type": "Attack",
@@ -151,6 +169,9 @@
                     }, 
                     {
                         "id": 12001021,
+                        "name": "Flame Bite",
+                        "shortDesc": "MP Cost: 38, Max Enemies Hit: 4, Damage: 180%, Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Flame_Bite.png/revision/latest?cb=20140429061742"],
                         "animations": ["https://media.giphy.com/media/KgDz9MooLKXQHiteCL/giphy.gif"],
                         "type": "Attack",
@@ -158,6 +179,9 @@
                     },
                     {
                         "id": 12000022,
+                        "name": "Flame Elemental",
+                        "shortDesc": "Duration: 8 sec, Magic ATT: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748"],
                         "animations": ["https://media4.giphy.com/media/QPz7AfldSDkMmVn0aq/giphy.gif"],
                         "type": "Passive",
@@ -165,6 +189,9 @@
                     },
                     {
                         "id": 12000023,
+                        "name": "Firewalk",
+                        "shortDesc": "MP Cost: 12, Jump in the input direction.\\n[Passive Effect - Defense: +100]",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058", "https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Firewalk.png/revision/latest?cb=20140429061758"],
                         "animations": ["https://media3.giphy.com/media/CZLqoPcnfPOxRQCFbM/giphy.gif"],
                         "type": "Passive",
@@ -176,11 +203,17 @@
                     },
                     {
                         "id": 12000024,
+                        "name": "Fire Repulsion",
+                        "shortDesc": "85% of damage taken goes to MP instead of HP.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Fire_Repulsion.png/revision/latest?cb=20140429061804"],
                         "type": "Passive"
                     },
                     {
                         "id": 12000025,
+                        "name": "Natural Talent",
+                        "shortDesc": "Max MP: +20%, MP increases by 120 per level\\nCritical Rate +5% when equipped with a Wand",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Natural_Talent.png/revision/latest?cb=20140429061812"],
                         "type": "Passive"
                     }]
@@ -188,6 +221,9 @@
                 [
                 "2nd Job", [{
                         "id": 12100020,
+                        "name": "Greater Orbital Flame",
+                        "shortDesc": "MP Cost: 28, Max Enemies Hit: 8, Damage: 250%, Number of Attacks: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Greater_Orbital_Flame.png/revision/latest?cb=20140929180416", "https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
                         "animations": ["https://media2.giphy.com/media/ThLn9ghj284gtJMDvK/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -198,6 +234,9 @@
                     },
                     {
                         "id": 12101021,
+                        "name": "Flame Vortex",
+                        "shortDesc": "MP Cost: 22, Damage: 210%, Number of Attacks: 2, Number of Enemies pushed back: 6.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Flame_Vortex.png/revision/latest?cb=20141024045212"],
                         "animations": ["https://media.giphy.com/media/VJC5svuBdaG1yL5AaO/giphy.gif"],
                         "type": "Attack",
@@ -205,6 +244,9 @@
                     },
                     {
                         "id": 12101024,
+                        "name": "Ignition",
+                        "shortDesc": "MP Cost: 13, Duration: 300 sec, Probability to activate [Ignition] effect: 100%.\\nIgnition: Duration: 10 sec, Damage: 220% per sec, AoE Damage at the end of duration: 240%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222"],
                         "animations": ["https://media2.giphy.com/media/K5WDKSspsStsji0KYy/giphy.gif"],
                         "type": "Buff",
@@ -215,6 +257,9 @@
                     },
                     {
                         "id": 12101025,
+                        "name": "Flashfire",
+                        "shortDesc": "MP Cost: 45, Trail Duration: 100 sec, Reuse skill during this time to teleport to your original location.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Flashfire.png/revision/latest?cb=20140924033034"],
                         "animations": ["https://media.giphy.com/media/dyYDe1KsOMO5Dwx4zB/giphy.gif"],
                         "type": "Active",
@@ -222,6 +267,9 @@
                     },
                     {
                         "id": 12101023,
+                        "name": "Word of Fire",
+                        "shortDesc": "MP Cost: 13, Duration: 300 sec, Magic ATT: +20, Attack Speed: +-1 level",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Word_of_Fire.png/revision/latest?cb=20140918072400"],
                         "animations": ["https://media0.giphy.com/media/RfH72usgQvffqw3v3M/giphy.gif"],
                         "type": "Buff",
@@ -229,12 +277,18 @@
                     },
                     {
                         "id": 12101022,
+                        "name": "Controlled Burn",
+                        "shortDesc": "Recovers 75% of your MP upon casting.\\nCooldown: 90 sec",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Controlled_Burn.png/revision/latest?cb=20141024045226"],
                         "animations": ["https://media1.giphy.com/media/BUJGUtlBIlXoJxJkEN/giphy.gif"],
                         "type": "Active"
                     },
                     {
                         "id": 12100026,
+                        "name": "Greater Flame Elemental",
+                        "shortDesc": "Duration: 8 sec, Magic ATT: +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Greater_Flame_Elemental.png/revision/latest?cb=20140926023602", "https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -244,6 +298,9 @@
                     },
                     {
                         "id": 12100027,
+                        "name": "Spell Control",
+                        "shortDesc": "Magic ATT: +10, Magic Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Spell_Control.png/revision/latest?cb=20141024045233"],
                         "type": "Passive"
                     }]
@@ -251,6 +308,9 @@
                 [
                 "3rd Job", [{
                         "id": 12110020,
+                        "name": "Grand Orbital Flame",
+                        "shortDesc": "MP Cost: 56, Max Enemies Hit: 8, Damage: 275%, Number of Attacks: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Grand_Orbital_Flame.png/revision/latest?cb=20141024051340", "https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
                         "animations": ["https://media2.giphy.com/media/vkeNfasF1MwPL7ayCv/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -261,6 +321,9 @@
                     },
                     {
                         "id": 12111021,
+                        "name": "Flame Tempest",
+                        "shortDesc": "MP Cost: 56, Damage: 405%, Number of Attacks: 2, Number of Enemies pushed away: 8.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Flame_Tempest.png/revision/latest?cb=20141024051344"],
                         "animations": ["https://media.giphy.com/media/fSSknsUuypuAr7bztg/giphy.gif"],
                         "type": "Attack",
@@ -268,6 +331,9 @@
                     },
                     {
                         "id": 12111022,
+                        "name": "Cinder Maelstrom",
+                        "shortDesc": "MP Cost: 120, Duration: 20 sec, Blows up one enemy to deal 300% Damage, Pulls 8 enemies.\\nCooldown: 30 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Cinder_Maelstrom.png/revision/latest?cb=20141024051351"],
                         "animations": ["https://media.giphy.com/media/Ke2N0gT2oGcdUuzZ3p/giphy.gif"],
                         "type": "Attack",
@@ -278,6 +344,9 @@
                     },
                     {
                         "id": 12111023,
+                        "name": "Phoenix Run",
+                        "shortDesc": "MP Cost: 300, Duration: 1800 sec, Teleports backward at the moment of impact to recover 50% HP, Ignore Damage Duration: 3 sec\\nCooldown 1800 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Phoenix_Run.png/revision/latest?cb=20141024051357"],
                         "animations": ["https://media2.giphy.com/media/G4v2o9ALKegKRFDqcr/giphy.gif"],
                         "type": "Buff Revive",
@@ -288,6 +357,9 @@
                     },
                     {
                         "id": 12110024,
+                        "name": "Grand Flame Elemental",
+                        "shortDesc": "Duration: 8 sec, Magic ATT: +30",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Grand_Flame_Elemental.png/revision/latest?cb=20140926024336", "https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -297,16 +369,25 @@
                     },
                     {
                         "id": 12110025,
+                        "name": "Liberated Magic",
+                        "shortDesc": "MP Cost: +150%, Final Damage: +30%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Liberated_Magic.png/revision/latest?cb=20141024051403"],
                         "type": "Passive"
                     },
                     {
                         "id": 12110026,
+                        "name": "Burning Focus",
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +15%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Burning_Focus.png/revision/latest?cb=20141024051414"],
                         "type": "Passive"
                     },
                     {
                         "id": 12110027,
+                        "name": "Brilliant Enlightenment",
+                        "shortDesc": "Permanently increases INT by 60.",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Brilliant_Enlightenment.png/revision/latest?cb=20141024051409"],
                         "type": "Passive"
                     }]
@@ -314,6 +395,9 @@
                 [
                 "4th Job", [{
                     "id": 12121000,
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
                     "animations": ["https://media0.giphy.com/media/5PBQ2cd682zPHHrhNL/giphy.gif"],
                     "type": "Party Buff",
@@ -324,6 +408,9 @@
                 },
                 {
                     "id": 12120006,
+                    "name": "Final Orbital Flame",
+                    "shortDesc": "MP Cost: 84, Max Enemies Hit: 8, Damage: 305%, Number of Attacks: 2. Damage Against Normal Monsters: +30%.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Final_Orbital_Flame.png/revision/latest?cb=20141024054036", "https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
                     "animations": ["https://media3.giphy.com/media/VGVb6tDX7NsCeV9NyZ/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -334,6 +421,9 @@
                 },
                 {
                     "id": 12121001,
+                    "name": "Blazing Extinction",
+                    "shortDesc": "MP Cost: 40, Duration: 10 sec, Damage: 310%, Number of Attacks: 3, Max Enemies Hit: 8\\nCooldown: 5 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blazing_Extinction.png/revision/latest?cb=20141024054040"],
                     "animations": ["https://media4.giphy.com/media/kTOarpDmgxwGQkwMII/giphy.gif"],
                     "type": "Attack",
@@ -341,6 +431,9 @@
                 },
                 {
                     "id": 12121002,
+                    "name": "Towering Inferno",
+                    "shortDesc": "MP Cost: 115, Max Enemies Hit: 15, Damage: 350%, Number of Attacks: 10, Final Damage increased by 90% for enemies hit by Ignition. Can immediately detonate Ignition, but not cast it.\\nCooldown: 30 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Towering_Inferno.png/revision/latest?cb=20141024054045"],
                     "animations": ["https://media.giphy.com/media/WQaMQtTjUFZqqU7chV/giphy.gif"],
                     "type": "Attack",
@@ -348,6 +441,9 @@
                 },
                 {
                     "id": 12121004,
+                    "name": "Fires of Creation",
+                    "shortDesc": "MP Cost: 115, Duration: 300 sec, Additional MP Cost: 105%, Ignore DEF: +30%. [Ignition] effects: Elemental Resistance: -10%.\\nCooldown: 5 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Fires_of_Creation.png/revision/latest?cb=20141024054050"],
                     "animations": ["https://media.giphy.com/media/SrzXryGvzi6OBb6t8z/giphy.gif", "https://media.giphy.com/media/KFnDGviutx03u1uKfB/giphy.gif"],
                     "type": "Buff",
@@ -358,6 +454,9 @@
                 },
                 {
                     "id": 12121005,
+                    "name": "Burning Conduit",
+                    "shortDesc": "MP Cost: 115, Duration: 30 sec, Damage: +60% and Attack Speed: +-1 stages when you are on the pentacle\\nCooldown: 45 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Burning_Conduit.png/revision/latest?cb=20141024054055"],
                     "animations": ["https://media.giphy.com/media/JPs7KL5yjl4RusvBsI/giphy.gif"],
                     "type": "Buff Zone",
@@ -365,6 +464,9 @@
                 },
                 {
                     "id": 12121003,
+                    "name": "Flame Barrier",
+                    "shortDesc": "MP Cost: 22, Duration: 15 sec, Damage Intake: -50%. Explodes at the end, Max Enemies Hit: 8, Damage: 350%\\nCooldown: 90 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Flame_Barrier.png/revision/latest?cb=20141024054100"],
                     "animations": ["https://media.giphy.com/media/h4No85YIrRxmkAC6LU/giphy.gif"],
                     "type": "Buff",
@@ -372,6 +474,9 @@
                 },
                 {
                     "id": 12120007,
+                    "name": "Final Flame Elemental",
+                    "shortDesc": "Duration: 8 sec, Magic ATT: +40",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Final_Flame_Elemental.png/revision/latest?cb=20140924171827", "https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -381,11 +486,17 @@
                 },
                 {
                     "id": 12120009,
+                    "name": "Pure Magic",
+                    "shortDesc": "Magic ATT: +20, Final Damage: +50%, Magic Mastery: +70%",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Pure_Magic.png/revision/latest?cb=20141001065845"],
                     "type": "Passive"
                 },
                 {
                     "id": 12120008,
+                    "name": "Wild Blaze",
+                    "shortDesc": "Ignition Final DoT: +60%, All abnormal status and elemental resistance: +30%.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Wild_Blaze.png/revision/latest?cb=20141024054104"],
                     "type": "Passive"
                 }]
@@ -395,42 +506,63 @@
             "hyperPassive": [
                 {
                     "id": 12121043,
+                    "name": "Orbital Flame - Range",
+                    "shortDesc": "Movement range +100",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Orbital_Flame_-_Range.png/revision/latest?cb=20160206182904"],
                     "type": "Toggle Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 12120044,
+                    "name": "Orbital Flame - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Orbital_Flame_-_Guardbreak.png/revision/latest?cb=20140924180211"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 12120045,
+                    "name": "Orbital Flame - Split Attack",
+                    "shortDesc": "Damage: -90%p, Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Orbital_Flame_-_Split_Attack.png/revision/latest?cb=20140924180218"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 12120047,
+                    "name": "Blazing Extinction - Reinforce",
+                    "shortDesc": "Blazing Extinction Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Blazing_Extinction_-_Reinforce.png/revision/latest?cb=20140924180232"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 12120048,
+                    "name": "Blazing Extinction - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Blazing_Extinction_-_Spread.png/revision/latest?cb=20140924180236"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 12120046,
+                    "name": "Blazing Extinction - Add Attack",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Blazing_Extinction_-_Add_Attack.png/revision/latest?cb=20140511155835"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 12120050,
+                    "name": "Ignition - Reinforce",
+                    "shortDesc": "Additional 20% damage.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Ignition_-_Reinforce.png/revision/latest?cb=20140924180255"],
                     "type": "Passive",
                     "desc": "Increases %Damage of DoT",
@@ -438,6 +570,9 @@
                 },
                 {
                     "id": 12120051,
+                    "name": "Ignition - Mass Explosion",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Ignition_-_Mass_Explosion.png/revision/latest?cb=20140924180300"],
                     "type": "Passive",
                     "desc": "Increases %Damage of explosion",
@@ -445,6 +580,9 @@
                 },
                 {
                     "id": 12120049,
+                    "name": "Ignition - Max Ignition",
+                    "shortDesc": "Decrease DoT interval by 0.5",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Ignition_-_Max_Ignition.png/revision/latest?cb=20140924180249"],
                     "type": "Passive",
                     "reqLev": 190
@@ -453,6 +591,9 @@
             "hyperActive": [
                 {
                     "id": 12121054,
+                    "name": "Dragon Blaze",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 1, Max Duration: 2 sec, Damage: 500%, Number of Attacks: Up to 6 while the key is held.\\nUpon releasing the key or after the attack has finished, attacks 10 more times for 500% Damage. Can immediately detonate Ignition, but not cast it.\\nCooldown: 90 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/82/Skill_Dragon_Blaze.png/revision/latest?cb=20140924180310"],
                     "animations": ["https://media.giphy.com/media/YPV6obronI5akavFgF/giphy.gif"],
                     "type": "Key-down Attack",
@@ -461,6 +602,9 @@
                 },
                 {
                     "id": 12121052,
+                    "name": "Cataclysm",
+                    "shortDesc": "MP Cost: 350, Max Enemies Hit: 15, Damage: 860%, Number of Attacks: 7. Invincible during casting. Can immediately detonate Ignition, but not cast it.\\nCooldown: 100 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Cataclysm.png/revision/latest?cb=20140924180305"],
                     "animations": ["https://media1.giphy.com/media/f8OuKTizuJhHU0krFY/giphy.gif"],
                     "type": "Attack",
@@ -472,6 +616,9 @@
                 },
                 {
                     "id": 11121053,
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Cygnus class or Mihile in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Glory_of_the_Guardians_%28Blaze_Wizard%29.png/revision/latest?cb=20160605205915"],
                     "animations": ["https://media3.giphy.com/media/MXpfx9c27xnEFKygBg/giphy.gif"],
                     "type": "Buff",

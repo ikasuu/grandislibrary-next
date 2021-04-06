@@ -113,6 +113,9 @@
             [
                 "Beginner", [{
                     "id": 20021000,
+                    "name": "Crystal Throw",
+                    "shortDesc": "MP Cost: 7, Damage: 40",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Crystal_Throw.png/revision/latest?cb=20100606013011"],
                     "animations": ["https://media4.giphy.com/media/gZK814lYZ6cZ7UjIFW/giphy.gif"],
                     "type": "Attacks",
@@ -120,6 +123,9 @@
                 },
                 {
                     "id": 20021001,
+                    "name": "Infiltrate",
+                    "shortDesc": "MP Cost: 15, Hide for 30 sec, Movement Speed: +15",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Infiltrate.png/revision/latest?cb=20100606013059"],
                     "animations": ["https://media1.giphy.com/media/Ln54groTrGh8Hu6Lfg/giphy.gif"],
                     "type": "Active",
@@ -127,18 +133,27 @@
                 },
                 {
                     "id": 20020002,
+                    "name": "Potion Mastery",
+                    "shortDesc": "Recovery Rate: +115%",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Potion_Mastery.png/revision/latest?cb=20100606013234"],
                     "type": "Passive"
                 },
                 {
                     "id": 30001281,
+                    "name": "Secret Assembly",
+                    "shortDesc": "MP Cost: 100, you move to the Resistance Secret Plaza\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Secret_Assembly.png/revision/latest?cb=20160619042757"],
                     "animations": ["https://media1.giphy.com/media/TcXR7RRgE4VFZJEigG/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 30001068,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Mechanic_Dash.png/revision/latest?cb=20151018042126"],
+                    "name": "Jet Booster",
+                    "shortDesc": "Booster Max: 100, All Skill Activation MP Cost: 8\\nDouble Acceleration: While in the air, press the jump or skill key to perform a mid-air jump. Consumes 25 of the booster. Can be used even when not mounted on the Mech, in which case it does not consume any of the booster.\\nBooster Deployment: CWhile in the air, press the Down key, together with the jump or skill key, to hover in the air at a cost of 25 of the booster per sec.\\nMechanic Dash: Press Left twice, Right twice, or, if on the ground, Left/Right plus the skill key to dash in a straight line. If used in the air, consumes 25 of the booster. Cooldown: 0.3 sec.",
+                    "maxLevel": 1,
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADZElEQVR4nL1XgXGsIBTkZtKAKcGUICVoCVqClnCWoCWcJWgJWgKWEEsIJeSzyOMA8XKXP5Od8UBEdtn3gPON+fhmf4MLVVwB319ff8P//n75JhEkQJMnidNr449HScWvBYjPL8Y/3rWItzNyXj0YYHxCoItAbJYmVsTbobMhF2J/Saqr4JyJeWVyU4/VxatsF/EfLhB8AQE5AGNmdc+ViCzL2LquXv/fYw4ERMhDEXAiTVPlwrb3HZ1Or7qxyUDAk6jrWpdt29o8ieZETJDXJ3TAALqSSJsdVzlQVZUNhzDheSon8BwiNsWQsqMADILBYDeJIHLYf71ebQ5Qif7xGZ5g86d3cMAVQShMAg7DoB0AQgfsDKOkPEruCQjXfWFEFGZwkCVqs4AAXNM07e+R/S5RVEQSbbYCuq7TiRWugnA/IGL7fDxOwFsdRJyrpGuVwFzdL2q0OhDggiwlcjckEAr7i6LwiMdx1MmJkqtSdA4x0Bp3QD5FBGD2RNbNgvXL5ieYgZTSktsZmzyAOIiwK4Pc/PhgrEx2YuDz87gPuNbbl8u7/QRsQgQKG9pQd8sDQA7iAPckDGYbm32S+IlErlE9z3O9UhAGDyExHJmFLwBx/QmYGa5bV7OmHWw7bCc33DBEQeEw8JLwdutMzc90zncyOAABTbt6z+u6tG7EVpJHroePJCHIl3WPXb/lO+HU61IINeNmtbGlAwk7Y9/3yvbJ9BPR0Fm4oYgdRsuysDUt2TXfd7ueXXcRsmEk2c0DKTfjQL2fkPz149kRMLENDphDAvtF73SkndAFZo6YQ7h+RyUh1V8WAIv1jIaG9cOdXO+AVa6SND0sL4SGyVYJSe0Z8Sq8EMzzqIS0Oh/2MtPCUCIMq5lc02eafJ0afT/e1Epo2LkISj6PLFiG2OGqah/wXi5OWXoODHph3HRotmFj86hyoNjOV0D5w2GEjH4UP5ccewYOJVoNPwLZT+s/P/k/0DQNexaYNTLfPRm5Oh6ElH5Hsh4CSASQRzaiR8dq+F8B5NhyaVUgfEJvHYlPCpRBG9XPjmP9j6h63ObOXJN3kfi6iUfxjyQjBFzwraa/jiS3hC5CV3glz8nziJigba1nfBWheiEHtAh8LsVwcwStkfso6vM2IsePG4KL+WD8C9jP839Izen1w1AqqAAAAABJRU5ErkJggg=="],
                     "animations": ["https://media2.giphy.com/media/daNgACMllVbRVYSSci/giphy.gif"],
                     "type": "Active",
                     "desc": "Double Jump skill",
@@ -150,6 +165,9 @@
                 },
                 {
                     "id": 30000227,
+                    "name": "Hidden Peace",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Hidden_Peace.png/revision/latest?cb=20160619042105"],
                     "type": "Passive"
                 }]
@@ -158,6 +176,9 @@
                 "1st Job", [
                     {
                         "id": 35001002,
+                        "name": "Humanoid Mech",
+                        "shortDesc": "MP Cost: 50, Max Speed When Mounted: 20, Attack Power: 40, Defense: +300\\nPermanently increases Max HP and Max MP by 1500",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Humanoid_Mech.png/revision/latest?cb=20150313233612"],
                         "animations": ["https://media1.giphy.com/media/fwFNadvsn6j3jePKd3/giphy.gif"],
                         "type": "Active Mount",
@@ -169,6 +190,9 @@
                     },
                     {
                         "id": 35001004,
+                        "name": "Gatling Gun",
+                        "shortDesc": "MP Cost: 10, Damage: 90%, Max Enemies Hit: 4, Number of projectiles: 4",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Gatling_Gun.png/revision/latest?cb=20150313233952"],
                         "animations": ["https://media3.giphy.com/media/J6J8BLjDxpcKxsaAAv/giphy.gif"],
                         "type": "Attack",
@@ -176,6 +200,9 @@
                     },
                     {
                         "id": 35001003,
+                        "name": "ME-07 Drillhands",
+                        "shortDesc": "MP Cost: 31, Max Enemies Hit: 10, Damage: 150% to knocked back enemies.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_ME-07_Drillhands.png/revision/latest?cb=20110212005408"],
                         "animations": ["https://media0.giphy.com/media/QsOYV2ezYRwijCrotj/giphy.gif"],
                         "type": "Attack",
@@ -183,6 +210,9 @@
                     },
                     {
                         "id": 35001006,
+                        "name": "Rocket Booster",
+                        "shortDesc": "MP Cost: 50 each (launch and land), Damage: 300%, Max Enemies Hit (upon landing): 6",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Rocket_Booster.png/revision/latest?cb=20150313233313"],
                         "animations": ["https://media1.giphy.com/media/0MJWO5mVSpEqWKAEfz/giphy.gif"],
                         "type": "Attack / Utility",
@@ -197,6 +227,9 @@
                 "2nd Job", [
                     {
                         "id": 35101001,
+                        "name": "Heavy Gatling Gun",
+                        "shortDesc": "MP Cost: 15, Damage: 160%, Max Enemies Hit: 6, Number of projectiles: 6",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Heavy_Gatling_Gun.png/revision/latest?cb=20141109015653"],
                         "animations": ["https://media1.giphy.com/media/U77I8NGjvl3j634hEV/giphy.gif"],
                         "type": "Attack",
@@ -204,6 +237,9 @@
                     },
                     {
                         "id": 35101002,
+                        "name": "Homing Beacon",
+                        "shortDesc": "MP Cost: 65, Damage: 350%, Max Enemy Hit: 4 at once",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901"],
                         "animations": ["https://media1.giphy.com/media/j52DA25qU3ngm8MANl/giphy.gif"],
                         "type": "Attack",
@@ -215,11 +251,17 @@
                     },
                     {
                         "id": 35100000,
+                        "name": "Mechanic Mastery",
+                        "shortDesc": "Attack Power: +20, Weapon Mastery: +50%, Critical Rate: +10%, Critical Damage: +5%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Gun_Mastery.png/revision/latest?cb=20110507044026"],
                         "type": "Passive"
                     },
                     {
                         "id": 35101006,
+                        "name": "Mechanic Rage",
+                        "shortDesc": "MP Cost: 21, Attack Speed increased for 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Mechanic_Rage.png/revision/latest?cb=20150314000826"],
                         "animations": ["https://media3.giphy.com/media/fna70iy24S66uZ75r6/giphy.gif"],
                         "type": "Buff",
@@ -227,6 +269,9 @@
                     },
                     {
                         "id": 35101005,
+                        "name": "Open Portal: GX-9",
+                        "shortDesc": "MP Cost: 50, Portal Duration: 300 sec, cannot be used for 2 seconds after use.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Open_Portal_GX-9.png/revision/latest?cb=20150314000749"],
                         "animations": ["https://media1.giphy.com/media/QWX3xWrjgeLHCN4S8v/giphy.gif"],
                         "type": "Summon",
@@ -238,6 +283,9 @@
                     },
                     {
                         "id": 35101007,
+                        "name": "Perfect Armor",
+                        "shortDesc": "Ability One - While mounting your mech, it has a 20% chance to guard against attacks (permanent)\\nAbility Two - Reflects 500% damage back to enemies (when skill is active)",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Perfect_Armor.png/revision/latest?cb=20150314000859"],
                         "animations": ["https://media3.giphy.com/media/inn8VlSrUVYvQiqlhW/giphy.gif"],
                         "type": "Toggle Buff",
@@ -248,6 +296,9 @@
                     },
                     {
                         "id": 35101012,
+                        "name": "Robo Launcher RM7",
+                        "shortDesc": "MP Cost: 45, Robo Launcher Duration: 60 sec, Damage: 250%, Self-Destruct Damage: 400%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Robo_Launcher_RM7.png/revision/latest?cb=20141109015935"],
                         "animations": ["https://media2.giphy.com/media/IgSIWKAhBddmQvxaCe/giphy.gif"],
                         "type": "Summon",
@@ -258,6 +309,9 @@
                     },
                     {
                         "id": 35100011,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     }]
@@ -265,6 +319,9 @@
                 [
                 "3rd Job", [{
                         "id": 35111003,
+                        "name": "Tank Mech",
+                        "shortDesc": "Tank Mode MP Cost: 50 plus 10 MP every 5 sec, Normal Attack Damage: 100%\\nRegular Attack MP Cost: 20, Additional Critical Rate: +30%\\nHoming missile's final damage is reduced to 60% of the original damage.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tank_Mech.png/revision/latest?cb=20141109071627"],
                         "animations": ["https://media2.giphy.com/media/S6kcepai5zfqDihj4o/giphy.gif"],
                         "type": "Active Mount",
@@ -276,28 +333,37 @@
                     },
                     {
                         "id": 35111006,
+                        "name": "Heavy Salvo",
+                        "shortDesc": "MP Cost per attack: 35, Damage: 300%, Number of Attacks: 4, Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Heavy_Salvo.png/revision/latest?cb=20141214031410"],
                         "animations": ["https://media0.giphy.com/media/hsClKcQ0xMPtx7rewG/giphy.gif"],
                         "type": "Attack",
                         "desc": "Fires a barrage of bullets forward",
                         "details": [
                             "Usable only in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Humanoid_Mech.png/revision/latest?cb=20150313233612' alt='Skill Humanoid Mech'> Humanoid Mode",
-                            "Shares the same Skill Points and Key Slot as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_AP_Salvo.png/revision/latest?cb=20141214031421' alt='Skill AP Salvo'>"
+                            "Shares the same SP and Key Slot as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_AP_Salvo.png/revision/latest?cb=20141214031421' alt='Skill AP Salvo'>"
                         ]
                     },
                     {
                         "id": 35111007,
+                        "name": "AP Salvo",
+                        "shortDesc": "MP Cost: 35, Damage: 250%, Number of Attacks: 6, Enemies Hit: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_AP_Salvo.png/revision/latest?cb=20141214031421"],
                         "animations": ["https://media3.giphy.com/media/gLzPjnVOtdvwISJdcF/giphy.gif"],
                         "type": "Attack",
                         "desc": "Fires a concentrated bullet that hits one enemy",
                         "details": [
                             "Usable only in <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Tank_Mech.png/revision/latest?cb=20141109071627' alt='Skill Tank Mech'> Tank Mode",
-                            "Shares the same Skill Points and Key Slot as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_AP_Salvo.png/revision/latest?cb=20141214031421' alt='Skill AP Salvo'>"
+                            "Shares the same SP and Key Slot as <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_AP_Salvo.png/revision/latest?cb=20141214031421' alt='Skill AP Salvo'>"
                         ]
                     },
                     {
                         "id": 35111008,
+                        "name": "Support Unit: H-EX",
+                        "shortDesc": "MP Cost: 100, Deploys H-EX and reduces Defense of monsters on the map by -10% for 80 sec. Restores 8% of HP for you and nearby party members every 5 sec. After skill duration ends, self-destructs inflicting 500% damage.\\n[Passive Effects - Status Resistance: +40, Elemental Resistance: +40%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412"],
                         "animations": ["https://media3.giphy.com/media/hrWmekYs2Jh2jWRIP6/giphy.gif"],
                         "type": "Summon",
@@ -310,6 +376,9 @@
                     },
                     {
                         "id": 35111015,
+                        "name": "Punch Launcher",
+                        "shortDesc": "MP Cost: 45, Damage: 200%, Number of Attacks: 1, Enemies Hit with Knock-back Attack: 10.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Punch_Launcher.png/revision/latest?cb=20150314033359"],
                         "animations": ["https://media1.giphy.com/media/ehJoZvl32ldJgekKVB/giphy.gif"],
                         "type": "Attack",
@@ -317,11 +386,17 @@
                     },
                     {
                         "id": 35110016,
+                        "name": "Overclock",
+                        "shortDesc": "Final Damage: 20%, Critical Rate: 20%, Enemy DEF Ignored: +30%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Overclock.png/revision/latest?cb=20160627052354"],
                         "type": "Passive"
                     },
                     {
                         "id": 35111013,
+                        "name": "Roll of the Dice",
+                        "shortDesc": "MP Cost: 60, Buff Duration: 180 sec\\nCooldown: 200 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
                         "animations": ["https://media2.giphy.com/media/s0dFzm7UUaDMTX7MyY/giphy.gif"],
                         "type": "Buff",
@@ -337,6 +412,9 @@
                     },
                     {
                         "id": 35111002,
+                        "name": "Rock 'n Shock",
+                        "shortDesc": "MP Cost: 75, When 3 coils are placed - Tesla Coil Duration: 60 sec, Damage: 200%, Max Monsters Hit: 10, Self-Destruct Damage: 550%\\nCooldown: 160 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Rock_%27n_Shock.png/revision/latest?cb=20110516043540"],
                         "animations": ["https://media2.giphy.com/media/j6q5kUf9QDr5hWM7Iw/giphy.gif"],
                         "type": "Summon",
@@ -347,6 +425,9 @@
                     },
                     {
                         "id": 35110017,
+                        "name": "Advanced Homing Beacon",
+                        "shortDesc": "Homing Beacon Damage: +500%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Advanced_Homing_Beacon.png/revision/latest?cb=20141214031413", "https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -356,11 +437,17 @@
                     },
                     {
                         "id": 35110018,
+                        "name": "Mechanized Defense System",
+                        "shortDesc": "Max HP: +30%, Max MP: +30%, DEF: +750, Damage Ignored: 15%",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Mechanized_Defense_System.png/revision/latest?cb=20141214031415"],
                         "type": "Passive"
                     },
                     {
                         "id": 35110019,
+                        "name": "Battle Program",
+                        "shortDesc": "Humanoid Mech Speed: +10, Rocket Booster Recoil Distance decreases, Mechanic Dash Movement Range increases",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Battle_Program.png/revision/latest?cb=20141214031417"],
                         "type": "Passive"
                     }]
@@ -368,6 +455,9 @@
                 [
                 "4th Job", [{
                     "id": 35121015,
+                    "name": "Heavy Salvo Plus",
+                    "shortDesc": "Key-down skill. MP Cost: 20, Damage: 400%, Number of Attacks: 2, Enemies Hit: 8",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349"],
                     "animations": ["https://media0.giphy.com/media/kFI1gQETu0ZwQ1iveo/giphy.gif"],
                     "type": "Key-down Attack",
@@ -379,6 +469,9 @@
                 },
                 {
                     "id": 35121016,
+                    "name": "AP Salvo Plus",
+                    "shortDesc": "MP Cost: 90, First Hit has Damage: 285%, Number of Attacks: 6, Enemies Hit: 1.\\n2nd Explosion: Enemies Hit: 4, Damage: 350%, Number of Attacks: 1",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_AP_Salvo_Plus.png/revision/latest?cb=20141214075407"],
                     "animations": ["https://media3.giphy.com/media/dB6htq3szbz927lrR6/giphy.gif"],
                     "type": "Attack",
@@ -391,6 +484,9 @@
                 },
                 {
                     "id": 35121003,
+                    "name": "Giant Robot SG-88",
+                    "shortDesc": "MP Cost: 400, Max Enemies Hit: 15, Damage: 500%, Number of Attacks: 8. Damage to Nearby Enemies: 1300% per sec, Number of Attacks: 2. Damage -50% only for attacks that inflict damage at a certain ratio of the Max HP.\\nCooldown: 30 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Giant_Robot_SG-88.png/revision/latest?cb=20110516085444"],
                     "animations": ["https://media1.giphy.com/media/KENbYpeoYGttd5vGsu/giphy.gif"],
                     "type": "Attack",
@@ -402,6 +498,9 @@
                 },
                 {
                     "id": 35120002,
+                    "name": "Enhanced Support Unit",
+                    "shortDesc": "Final Damage +10% for yourself and all your party members, self-destruction damage increased to 1100%, auto-recovery range increased.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Enhanced_Support_Unit.png/revision/latest?cb=20141214074715"],
                     "type": "Passive",
                     "desc": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/7/72/Skill_Support_Unit_H-EX.png/revision/latest?cb=20141214031412' alt='Skill Enhanced Support Unit'/> Now grants %Final Damage to you and your party members and the auto-recovery ranged has been increased",
@@ -411,6 +510,9 @@
                 },
                 {
                     "id": 35121009,
+                    "name": "Bots 'n Tots",
+                    "shortDesc": "MP Cost: 100, Robot Factory Duration: 30 sec, Max Toy Robots Summoned: 3 toy robots. Summon Interval: Every 3 sec., Self-Destruct Damage: 1000%\\nToy Robots' Self-Destruct Damage: 500%\\nCooldown: 60 sec.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Bots_%27n_Tots.png/revision/latest?cb=20110516085516"],
                     "animations": ["https://media2.giphy.com/media/jUt5WJsFRCOCQJma0p/giphy.gif"],
                     "type": "Summon",
@@ -422,12 +524,18 @@
                 },
                 {
                     "id": 35121007,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media3.giphy.com/media/q1pI6MuzQPMNCaUUkb/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 35121008,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media1.giphy.com/media/G8IUqFNdBtcVUiI8f7/giphy.gif"],
                     "type": "Buff",
@@ -435,6 +543,9 @@
                 },
                 {
                     "id": 35120017,
+                    "name": "Homing Beacon Research",
+                    "shortDesc": "Bonus Homing Beacon missiles: +5",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Homing_Beacon_Research.png/revision/latest?cb=20141214075121", "https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901"],
                     "type": "Passive",
                     "desc": "",
@@ -444,16 +555,25 @@
                 },
                 {
                     "id": 35120000,
+                    "name": "Extreme Mech",
+                    "shortDesc": "Hop on your Humanoid Mech for these effects. Attack Power: +55, Defense: +600\\nWeapon Mastery: +70%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Extreme_Mech.png/revision/latest?cb=20150315011811"],
                     "type": "Passive"
                 },
                 {
                     "id": 35120001,
+                    "name": "Robot Mastery",
+                    "shortDesc": "Increases damage by 6% for each summoned Robot.\\nRobot's Final Damage and Final Self-Destruct Damage: +105%, Summon Duration for skills aside from 5th skills: +40%.\\n<Robo Launcher RM7> Damage: +135%p.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Robot_Mastery.png/revision/latest?cb=20150315011449"],
                     "type": "Passive"
                 },
                 {
                     "id": 35120014,
+                    "name": "Double Down",
+                    "shortDesc": "MP Cost: 60, 50% chance of rolling a Double Down, Buff Duration: 180 sec\\nCooldown: 180 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818", "https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
                     "animations": ["https://media1.giphy.com/media/9mezG4kZBRtqkBxdJB/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -464,6 +584,9 @@
                 },
                 {
                     "id": 35120018,
+                    "name": "Mech Alloy Research",
+                    "shortDesc": "Dodge Chance: 15%, Damage Taken -30% upon failure to dodge\\nThis skill permanently increases Max HP by 40% and Max MP by 10%.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Mech_Alloy_Research.png/revision/latest?cb=20141214075119"],
                     "animations": ["https://media3.giphy.com/media/NuoBZboVIahQDQcdAw/giphy.gif"],
                     "type": "Passive",
@@ -478,24 +601,36 @@
             "hyperPassive": [
                 {
                     "id": 35120043,
+                    "name": "Rock 'n Shock - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Rock_%27n_Shock_-_Reinforce.png/revision/latest?cb=20121113023312"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 35120044,
+                    "name": "Rock 'n Shock - Persist",
+                    "shortDesc": "Duration: +10 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/91/Skill_Rock_%27n_Shock_-_Persist.png/revision/latest?cb=20121113023318"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 35120045,
+                    "name": "Rock 'n Shock - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Rock_%27n_Shock_-_Cooldown_Cutter.png/revision/latest?cb=20121113023326"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 35120046,
+                    "name": "Support Unit: H-EX - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Support_Unit_H-EX_-_Reinforce.png/revision/latest?cb=20141201024332"],
                     "type": "Passive",
                     "desc": "Increases self-destruct explosion %Damage",
@@ -503,18 +638,27 @@
                 },
                 {
                     "id": 35120047,
+                    "name": "Support Unit: H-EX - Party Reinforce",
+                    "shortDesc": "Party member final damage: +5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Support_Unit_H-EX_-_Party_Reinforce.png/revision/latest?cb=20150108071408"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 35120048,
+                    "name": "Support Unit: H-EX - Persist",
+                    "shortDesc": "Duration: +10 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Support_Unit_H-EX_-_Persist.png/revision/latest?cb=20150108071713"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 35120049,
+                    "name": "Heavy Salvo - Reinforce",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Salvo_-_Reinforce.png/revision/latest?cb=20150108072020"],
                     "type": "Passive",
                     "desc": "Increases the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_AP_Salvo_Plus.png/revision/latest?cb=20141214075407' alt='Skill AP Salvo Plus'>",
@@ -522,6 +666,9 @@
                 },
                 {
                     "id": 35120050,
+                    "name": "Heavy Salvo Plus - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heavy_Salvo_Plus_-_Spread.png/revision/latest?cb=20150108072229"],
                     "type": "Passive",
                     "desc": "Increases the number of enemies hit by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Heavy_Salvo_Plus.png/revision/latest?cb=20141214074349' alt='Skill Heavy Salvo Plus'>",
@@ -529,6 +676,9 @@
                 },
                 {
                     "id": 35120051,
+                    "name": "AP Salvo Plus - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_AP_Salvo_Plus_-_Extra_Strike.png/revision/latest?cb=20150108072348"],
                     "type": "Passive",
                     "desc": "Increases the number of hits per attack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_AP_Salvo_Plus.png/revision/latest?cb=20141214075407' alt='Skill AP Salvo Plus'>",
@@ -538,6 +688,9 @@
             "hyperActive": [
                 {
                     "id": 35121055,
+                    "name": "Full Spread",
+                    "shortDesc": "MP Cost: 200, Duration: 10 sec to fire 6 additional shots.\\nHoming Beacon's damage decreased to 60%, does not stack with the damage reduction from Tank Mech.\\nCooldown: 100 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Full_Spread.png/revision/latest?cb=20141201023609"],
                     "animations": ["https://media0.giphy.com/media/JTJ9Rqr4173kldWdc6/giphy.gif"],
                     "type": "Buff",
@@ -549,6 +702,9 @@
                 },
                 {
                     "id": 35121052,
+                    "name": "Distortion Bomb",
+                    "shortDesc": "MP Cost: 250, Duration: 4, Max Enemies Hit: 8, Damage: 350%, Number of Attacks: 2\\nCooldown: 8 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Distortion_Bomb.png/revision/latest?cb=20121113023449"],
                     "animations": ["https://media2.giphy.com/media/EkWPI6iJaOncUu9lQI/giphy.gif"],
                     "type": "Summon",
@@ -560,6 +716,9 @@
                 },
                 {
                     "id": 32121053,
+                    "name": "For Liberty",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355"],
                     "animations": ["https://media1.giphy.com/media/Ar37NFQOKIImPzkDt8/giphy.gif"],
                     "type": "Buff",

@@ -99,11 +99,17 @@
             [
                 "Beginner", [{
                     "id": 20031203,
+                    "name": "To The Skies",
+                    "shortDesc": "MP Cost: 30, Returns you to Lumiere",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_To_The_Skies.png/revision/latest?cb=20120129154330"],
                     "type": "Active"
                 },
                 {
                     "id": 20031205,
+                    "name": "Shroud Walk",
+                    "shortDesc": "MP Cost: 30, Use directional keys to teleport\\n(Arrows shown only for the directions you can go)\\nNumber of directional keys you can enter: 3, Each movement you make after the skill ends increases the cooldown by 1.5 seconds.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Shroud_Walk.png/revision/latest?cb=20120129155938"],
                     "animations": ["https://media1.giphy.com/media/Z5sObbVDkh31uSlgeF/giphy.gif"],
                     "type": "Active",
@@ -114,11 +120,17 @@
                 },
                 {
                     "id": 20030206,
+                    "name": "Dexterous Training",
+                    "shortDesc": "DEX: +40, Avoidability: +20%, Diligence: Lv. 20, Insight: Lv. 20",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Dexterous_Training.png/revision/latest?cb=20120129161748"],
                     "type": "Passive"
                 },
                 {
                     "id": 20031207,
+                    "name": "Skill Swipe",
+                    "shortDesc": "MP Cost: 30, Shifts to steal mode upon use\\nMove the mouse cursor to select the nearby Explorer character",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Skill_Swipe.png/revision/latest?cb=20120129162424"],
                     "animations": ["https://i.imgur.com/eVynglA.jpg"],
                     "type": "Special Active",
@@ -130,6 +142,9 @@
                 },
                 {
                     "id": 20031208,
+                    "name": "Loadout",
+                    "shortDesc": "Manage stolen skills. 30 second cooldown added.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Loadout.png/revision/latest?cb=20120129162627"],
                     "type": "Special Active",
                     "desc": "Allows you to manage all the skills you have stolen",
@@ -138,7 +153,10 @@
                     ]
                 },
                 {
-                    "id": 20031208,
+                    "id": 20031210,
+                    "name": "Judgment Draw",
+                    "shortDesc": "MP Cost: 60, Attacks enemies with Carte Noir 10 times. Also grants one of the following effects for 30 sec.\\nDestin Card: Critical Rate +20%\\nMalheur Card: Item Drop Rate +10%\\nEndurance Card: Abnormal Status Resistance +20, Elemental Resistance +20\\nDrain Card: 1% of Max HP recovered when attacking",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Judgment_Draw.png/revision/latest?cb=20120129163816", "https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Judgment_Draw_%282%29.png/revision/latest?cb=20120129164351"],
                     "animations": ["https://media.giphy.com/media/XCxZpbcYcQauPvUQe5/giphy.gif"],
                     "type": "Attack",
@@ -150,6 +168,9 @@
                 },
                 {
                     "id": 20031260,
+                    "name": "Judgment Draw Auto/Manual",
+                    "shortDesc": "Auto Mode: Automatically activates the Judgment Draw skill when your deck is full.\\nManual Mode: Judgment Draw must be used manually, even if your deck is empty.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Judgment_Draw_Auto.png/revision/latest?cb=20130315131542", "https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Judgment_Draw_Manual.png/revision/latest?cb=20141212054013"],
                     "type": "Toggle",
                     "desc": "When this skill is on Auto, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Judgment_Draw.png/revision/latest?cb=20120129163816' alt='Skill Judgment Draw'><img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Judgment_Draw_%282%29.png/revision/latest?cb=20120129164351' alt='Skill Judgment Draw (2)'> will automatically be used when your Card Gauge is filled"
@@ -158,6 +179,9 @@
             [
                 "1st Job", [{
                         "id": 24001000,
+                        "name": "Double Entendre",
+                        "shortDesc": "MP Cost: 14, Damage: 178%, Number of Attacks: 2, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Double_Entendre.png/revision/latest?cb=20111226175554"],
                         "animations": ["https://media.giphy.com/media/YTEtXAhdxGjXEDgglK/giphy.gif"],
                         "type": "Attack",
@@ -165,6 +189,9 @@
                     },
                     {
                         "id": 24001001,
+                        "name": "Impeccable Memory I",
+                        "shortDesc": "MP Cost: MP to use the equipped skill.\\nSkill Level of the stolen skill cannot be over 20",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Impeccable_Memory_I.png/revision/latest?cb=20111226180009"],
                         "animations": ["https://media.giphy.com/media/hqg3adlCip57QcpIj5/giphy.gif"],
                         "type": "Stolen Skill",
@@ -172,6 +199,9 @@
                     },
                     {
                         "id": 24001002,
+                        "name": "Phantom Swiftness",
+                        "shortDesc": "MP Cost: 20, Additional Jump distance\\n[Passive Effects - Movement Speed +35, Max Movement Speed +20, Jump +20]",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e7/Skill_Phantom_Swiftness.png/revision/latest?cb=20111226175515"],
                         "animations": ["https://media.giphy.com/media/h1Qm730PeDP3C2tnVa/giphy.gif"],
                         "type": "Active",
@@ -184,6 +214,9 @@
                     },
                     {
                         "id": 24000003,
+                        "name": "Feather Foot",
+                        "shortDesc": "Avoidability +20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Feather_Foot.png/revision/latest?cb=20111217164512"],
                         "type": "Passive"
                     }]
@@ -191,6 +224,9 @@
                 [
                     "2nd Job", [{
                         "id": 24101000,
+                        "name": "Calling Card",
+                        "shortDesc": "MP Cost: 21, Damage: 170%, Number of Attacks: 3, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Calling_Card.png/revision/latest?cb=20111226175841"],
                         "animations": ["https://media.giphy.com/media/j6x1TU8KaRfg4A4iIa/giphy.gif"],
                         "type": "Attack",
@@ -198,6 +234,9 @@
                     },
                     {
                         "id": 24101001,
+                        "name": "Impeccable Memory II",
+                        "shortDesc": "MP Cost: MP to use the equipped skill.\\nSkill Level of the stolen skill cannot be over 20",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Impeccable_Memory_II.png/revision/latest?cb=20111226180216"],
                         "animations": ["https://media1.giphy.com/media/5FB6zE2ZZ8cTb9mt9U/giphy.gif"],
                         "type": "Stolen Skill",
@@ -205,6 +244,9 @@
                     },
                     {
                         "id": 24101002,
+                        "name": "Mille Cartes",
+                        "shortDesc": "MP Cost: 40, Damage: 320%, Max Enemies Hit: 10, Knocks back enemies",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Mille_Cartes.png/revision/latest?cb=20111226180339"],
                         "animations": ["https://media.giphy.com/media/eNA3AbdliV4SeB4KA8/giphy.gif"],
                         "type": "Attack",
@@ -212,6 +254,9 @@
                     },
                     {
                         "id": 24100003,
+                        "name": "Carte Blanche",
+                        "shortDesc": "Upon a successful critical attack, card appears at 60% chance, Damage: 160%, Deck +1",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Carte_Blanche.png/revision/latest?cb=20111226180521"],
                         "animations": ["https://media.giphy.com/media/S85DLjUuvQtzD2zywZ/giphy.gif"],
                         "type": "Passive",
@@ -219,11 +264,17 @@
                     },
                     {
                         "id": 24100004,
+                        "name": "Cane Mastery",
+                        "shortDesc": "Cane Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Cane_Mastery.png/revision/latest?cb=20111218162638"],
                         "type": "Passive"
                     },
                     {
                         "id": 24101005,
+                        "name": "Cane Booster",
+                        "shortDesc": "MP Cost: 30, Cane Attack Speed increased for 240 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Cane_Booster.png/revision/latest?cb=20111226180627"],
                         "animations": ["https://media4.giphy.com/media/fY3cbkPbi3w2XYc3xc/giphy.gif"],
                         "type": "Buff",
@@ -231,6 +282,9 @@
                     },
                     {
                         "id": 24100006,
+                        "name": "Devil's Luck",
+                        "shortDesc": "Permanently increases LUK by 60",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Devil%27s_Luck.png/revision/latest?cb=20111218162800"],
                         "type": "Passive"
                     }]
@@ -238,6 +292,9 @@
                 [
                     "3rd Job", [{
                         "id": 24111000,
+                        "name": "Blason",
+                        "shortDesc": "MP Cost: 30, Damage: 320%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Blason.png/revision/latest?cb=20111226180849"],
                         "animations": ["https://media.giphy.com/media/jPHadI5ltslrpbcHgt/giphy.gif"],
                         "type": "Attack",
@@ -245,6 +302,9 @@
                     },
                     {
                         "id": 24111001,
+                        "name": "Impeccable Memory III",
+                        "shortDesc": "MP Cost: MP to use the equipped skill.\\nSkill Level of the stolen skill cannot be over 20",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Impeccable_Memory_III.png/revision/latest?cb=20111226180938"],
                         "animations": ["https://media.giphy.com/media/L00S1a5MyuBnHjGBy4/giphy.gif"],
                         "type": "Stolen Skill",
@@ -252,6 +312,9 @@
                     },
                     {
                         "id": 24111002,
+                        "name": "Final Feint",
+                        "shortDesc": "MP Cost: 300, upon death, you revive with 100% of Max HP. Makes you invincible for 4 sec\\nAfter using buff: Cooldown: 1800 sec\\n[Passive Effects: Permanently increases LUK by 60]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Final_Feint.png/revision/latest?cb=20111226181100"],
                         "animations": ["https://media4.giphy.com/media/XhiuK6by7GvEBKepcR/giphy.gif"],
                         "type": "Buff Revive",
@@ -264,17 +327,26 @@
                     },
                     {
                         "id": 24111003,
+                        "name": "Bad Luck Ward",
+                        "shortDesc": "MP Cost: 80, Duration: 240 sec, Max HP: +30%, Max MP: +30%, Elemental Resistance: +40%, Abnormal Status Resistance: +40",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Bad_Luck_Ward.png/revision/latest?cb=20111226181223"],
                         "animations": ["https://media1.giphy.com/media/wXJltXjmodoRKYoYI9/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 24110005,
+                        "name": "Lune",
+                        "shortDesc": "Attack Power +40",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Lune.png/revision/latest?cb=20170902170921"],
                         "type": "Passive"
                     },
                     {
                         "id": 24110004,
+                        "name": "Mist Mask",
+                        "shortDesc": "Additional Avoidability Chance: 30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Mist_Mask.png/revision/latest?cb=20111226181313"],
                         "animations": ["https://media2.giphy.com/media/1LrR3wVYhqhQyTCZtr/giphy.gif"],
                         "type": "Passive",
@@ -282,6 +354,9 @@
                     },
                     {
                         "id": 24111006,
+                        "name": "Rapier Wit",
+                        "shortDesc": "MP Cost: 40, While moving - Damage: 270%, Max Enemies Hit: 10, Number of Attacks: 2, After moving - Attacks 3 times with 270% damage\\n[Passive Effects - Carte Mille Damage: +50%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Rapier_Wit.png/revision/latest?cb=20111226181540"],
                         "animations": ["https://media.giphy.com/media/JTJCCdSF7JWo1ha1sE/giphy.gif"],
                         "type": "Attack",
@@ -293,6 +368,9 @@
                     },
                     {
                         "id": 24110007,
+                        "name": "Piercing Vision",
+                        "shortDesc": "Permanently increases Critical Rate by 35% and Final Damage by 30%.",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Piercing_Vision.png/revision/latest?cb=20171218082708"],
                         "type": "Passive"
                     }]
@@ -300,6 +378,9 @@
                 [
                     "4th Job", [{
                         "id": 24121000,
+                        "name": "Mille Aiguilles",
+                        "shortDesc": "MP Cost per attack: 15, Damage: 125%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Mille_Aiguilles.png/revision/latest?cb=20111226182135"],
                         "animations": ["https://media.giphy.com/media/duo8SPcWHyySBy6q1s/giphy.gif"],
                         "type": "Key-down Attack",
@@ -310,6 +391,9 @@
                     },
                     {
                         "id": 24121001,
+                        "name": "Impeccable Memory IV",
+                        "shortDesc": "MP Cost: MP to use the equipped skill.\\nSkill Level of the stolen skill cannot be over 30",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e7/Skill_Impeccable_Memory_IV.png/revision/latest?cb=20111226182224"],
                         "animations": ["https://media.giphy.com/media/WQrWxY2wbp3DxJqRSV/giphy.gif"],
                         "type": "Stolen Skill",
@@ -317,12 +401,18 @@
                     },
                     {
                         "id": 24120002,
+                        "name": "Carte Noir",
+                        "shortDesc": "Upon a successful critical attack, card appears at 100% chance, Damage: 270%, Deck +1\\nAdditional Avoidability Chance +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Carte_Noir.png/revision/latest?cb=20111226182327"],
                         "animations": ["https://media.giphy.com/media/S85DLjUuvQtzD2zywZ/giphy.gif"],
                         "type": "Upgraded Passive"
                     },
                     {
                         "id": 24121003,
+                        "name": "Penombre",
+                        "shortDesc": "MP Cost: 50, Damage: 450%, Max Enemies Hit: 10, Number of Attacks: 3, Enemy DEF Ignored: 20% for 15 sec.\\n[Passive Effects - Rapier Wit Damage: +50%]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Penombre.png/revision/latest?cb=20111226182351"],
                         "animations": ["https://media.giphy.com/media/MBBdaIQ63EZ0TidfgS/giphy.gif"],
                         "type": "Attack",
@@ -334,12 +424,18 @@
                     },
                     {
                         "id": 24121004,
+                        "name": "Priere D'Aria",
+                        "shortDesc": "MP Cost: 120, Damage: +30%, Enemy Defense Rate Ignored: 30%, Duration: 240",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Priere_D%27Aria.png/revision/latest?cb=20111226182535"],
                         "animations": ["https://media3.giphy.com/media/kM7XSZHNvYjz9Fb8LN/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 24121005,
+                        "name": "Tempest",
+                        "shortDesc": "Key-down Skill. MP Cost: 20 per attack, Damage: 200%, Number of Attacks: 3, Max Enemies Hit: 8\\nCooldown: 18 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Tempest.png/revision/latest?cb=20111226182613"],
                         "animations": ["https://media.giphy.com/media/Lm6UVRo6Yvd9DnAilg/giphy.gif  "],
                         "type": "Key-down Attack",
@@ -351,6 +447,9 @@
                     },
                     {
                         "id": 24120006,
+                        "name": "Cane Expert",
+                        "shortDesc": "Cane Mastery: +70%, Attack Power: +40, Critical Damage: +15%, Final Damage: +25%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Cane_Expert.png/revision/latest?cb=20111226182640", "https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Cane_Mastery.png/revision/latest?cb=20111218162638"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -361,6 +460,9 @@
                     },
                     {
                         "id": 24121007,
+                        "name": "Vol D'Ame",
+                        "shortDesc": "MP Cost: 60, Max Enemies: 12, Buffs applied:\\nAttack: Attack +40\\nDamage Ignored: Damage Received -40%\\nDamage Reflect: Reflects 600% of Damage Received\\nCancels Physical/Magic Attacks, Obsidian Skin: Temporary Invincibility except against some attacks\\nCooldown: 120 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Vol_D%27Ame.png/revision/latest?cb=20111226182712"],
                         "animations": ["https://media.giphy.com/media/elc0m7nnoLw6gLHhee/giphy.gif"],
                         "type": "Active",
@@ -371,12 +473,18 @@
                     },
                     {
                         "id": 24121008,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media1.giphy.com/media/ndyooOBEyXACmlyDlL/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 24121009,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media3.giphy.com/media/BLDsQBOnf19dDhY8p4/giphy.gif"],
                         "type": "Buff",
@@ -388,54 +496,81 @@
             "hyperPassive": [
                 {
                     "id": 24120043,
+                    "name": "Tempest - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Tempest_-_Reinforce.png/revision/latest?cb=20120817222749"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 24120044,
+                    "name": "Tempest - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Tempest_-_Cooldown_Cutter.png/revision/latest?cb=20120817222919"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 24120045,
+                    "name": "Tempest - Extra Target",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Tempest_-_Extra_Target.png/revision/latest?cb=20120817223048"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 24120046,
+                    "name": "Mille Aiguilles - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Mille_Aiguilles_-_Reinforce.png/revision/latest?cb=20120817223219"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 24120047,
+                    "name": "Mille Aiguilles - Extra Target",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Mille_Aiguilles_-_Extra_Target.png/revision/latest?cb=20120817223328"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 24120048,
+                    "name": "Mille Aiguilles - Guardbreak",
+                    "shortDesc": "Bonus 20% monster DEF ignored",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Mille_Aiguilles_-_Guardbreak.png/revision/latest?cb=20130315125943"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 24120049,
+                    "name": "Bad Luck Ward - Immunity Enhance",
+                    "shortDesc": "Abnormal Status Resistance: +5, Elemental Resistance: +5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Bad_Luck_Ward_-_Immunity_Enhance.png/revision/latest?cb=20120817223640"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 24120050,
+                    "name": "Bad Luck Ward - Hyper Health",
+                    "shortDesc": "Max HP +10% in addition",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Bad_Luck_Ward_-_Hyper_Health.png/revision/latest?cb=20120817223838"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 24120051,
+                    "name": "Bad Luck Ward - Hyper Mana",
+                    "shortDesc": "Max MP +10% in addition",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Bad_Luck_Ward_-_Hyper_Mana.png/revision/latest?cb=20120817223922"],
                     "type": "Passive",
                     "reqLev": 190
@@ -444,6 +579,9 @@
             "hyperActive": [
                 {
                     "id": 24121054,
+                    "name": "Impeccable Memory H",
+                    "shortDesc": "MP Cost: the stolen skill's MP cost",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Impeccable_Memory_H.png/revision/latest?cb=20151219082947"],
                     "type": "Stolen Skill",
                     "desc": "Allows you to use a stolen Explorer Hyper Skill",
@@ -451,6 +589,9 @@
                 },
                 {
                     "id": 24120055,
+                    "name": "Rose Carte Finale",
+                    "shortDesc": "Damage: 200%, Max Enemies Hit: 6, Number of Hits: 2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Carte_Rose_Finale.png/revision/latest?cb=20120817224100"],
                     "animations": ["https://media1.giphy.com/media/PgHy6Cc6vacd11ylNU/giphy.gif"],
                     "type": "Attack",
@@ -459,6 +600,9 @@
                 },
                 {
                     "id": 24121053,
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Heroic_Memories_%28Phantom%29.png/revision/latest?cb=20121015211455"],
                     "animations": ["https://media0.giphy.com/media/pS4dTlENlIyPd62P2j/giphy.gif"],
                     "type": "Buff",

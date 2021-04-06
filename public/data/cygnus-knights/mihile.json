@@ -26,7 +26,7 @@
             ],
             "cons": [
                 "Most attacks are short-ranged, except for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> Royal Guard which has a gigantic hitbox",
-                "<img class='lzyPlcHld lzyTrns lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard' width='32' height='32' data-image-key='Skill_Royal_Guard.png' data-image-name='Skill Royal Guard.png' data-src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' /> Royal Guard may be difficult to get a hang of"
+                "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard' width='32' height='32' data-image-key='Skill_Royal_Guard.png' data-image-name='Skill Royal Guard.png' data-src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' /> Royal Guard may be difficult to get a hang of"
             ]
         },
         "baseStats": [
@@ -101,12 +101,18 @@
                 "Beginner", [
                 {
                     "id": 10001245,
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
                     "animations": ["https://media4.giphy.com/media/puSVOZMKB7rJYQFoUD/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 50001214,
+                    "name": "Knight's Watch",
+                    "shortDesc": "Barrier Duration: 45 sec, Enemy Blows Blocked: 9, Damage: +25%. Damage -30% only for attacks that inflict damage at a certain ratio of the Max HP. [Cooldown: 180 sec]",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705"],
                     "animations": ["https://media2.giphy.com/media/mQms8vjQ6yCRgqGqpU/giphy.gif"],
                     "type": "Active",
@@ -120,11 +126,17 @@
             [
                 "1st Job", [{
                         "id": 51000001,
+                        "name": "Soul Shield",
+                        "shortDesc": "DEF: +200",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Soul_Shield.png/revision/latest?cb=20120319162409"],
                         "type": "Passive"
                     },
                     {
                         "id": 51001005,
+                        "name": "Royal Guard",
+                        "shortDesc": "MP Cost: 20, become invincible when attacked for 4 sec, nullifying attacks and counterattacking for a set time after use. Attack Power increases for 12 sec per counterattack.\\nIf you guard successfully while in Attack Power Increase buff state, counterattack damage, attack range, and Attack Power increases gradually, but the time for guarding decreases gradually.\\n[1st Time]: Max Number of Enemies: 6, Damage: 275% + 1% per level, Number of Attacks: 4, Attack Power: +10.\\n[2nd Time]: Max Number of Enemies: 7, Damage: 340% + 1% per level, Number of Attacks: 5, Attack Power: +15.\\n[3rd Time]: Max Number of Enemies: 8, Damage: 440% + 1% per level, Number of Attacks: 6, Attack Power: +20.\\nCooldown: 6 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932"],
                         "animations": ["https://media1.giphy.com/media/lSmanSIA6oFaYCz1LU/giphy.gif"],
                         "type": "Special Attack",
@@ -136,6 +148,9 @@
                     },
                     {
                         "id": 51001004,
+                        "name": "Soul Blade",
+                        "shortDesc": "MP Cost: 14, Damage: 340%, Max Enemies Hit: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Soul_Blade.png/revision/latest?cb=20110502045833"],
                         "animations": ["https://media2.giphy.com/media/f3GhKdfL2vazvsaL7v/giphy.gif"],
                         "type": "Attack",
@@ -143,6 +158,9 @@
                     },
                     {
                         "id": 51001003,
+                        "name": "Weightless Heart",
+                        "shortDesc": "MP Cost: 20, allows you to jump a greater distance",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Weightless_Heart.png/revision/latest?cb=20120319162917"],
                         "animations": ["https://media3.giphy.com/media/fV1IsiNr4YKlhhRDAr/giphy.gif"],
                         "type": "Active",
@@ -153,11 +171,17 @@
                     },
                     {
                         "id": 51000002,
+                        "name": "Soul Devotion",
+                        "shortDesc": "Movement Speed +25, Jump +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Soul_Devotion.png/revision/latest?cb=20120319163053"],
                         "type": "Passive"
                     },
                     {
                         "id": 51000000,
+                        "name": "HP Boost",
+                        "shortDesc": "Max HP: +20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_HP_Boost.png/revision/latest?cb=20100722124608"],
                         "type": "Passive"
                     }]
@@ -165,17 +189,26 @@
                 [
                 "2nd Job", [{
                         "id": 51100001,
+                        "name": "Sword Mastery",
+                        "shortDesc": "One-Handed Sword Mastery: +50%, Final Damage: +15%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436"],
                         "type": "Passive"
                     },
                     {
                         "id": 51100002,
+                        "name": "Final Attack",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 50% Final Attack damage 3 time(s).",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                         "type": "Final Attack Passive",
                         "desc": "Grants your attacks a chance to deal an additional hit"
                     },
                     {
                         "id": 51101003,
+                        "name": "Sword Booster",
+                        "shortDesc": "MP Cost: 11, Weapon's Attack Speed increased for 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Sword_Booster.png/revision/latest?cb=20110502045809"],
                         "animations": ["https://media0.giphy.com/media/rOP9cUS0fbtx6GzVSn/giphy.gif"],
                         "type": "Buff",
@@ -183,12 +216,18 @@
                     },
                     {
                         "id": 51101004,
+                        "name": "Rally",
+                        "shortDesc": "MP Cost: 20, Attack Power: +30, Duration: 180 sec\\n[Passive Effects: Attack Power +20]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Rally.png/revision/latest?cb=20110502045826"],
                         "animations": ["https://media1.giphy.com/media/5GBy8FcujL97A8hPbV/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 51101005,
+                        "name": "Soul Driver",
+                        "shortDesc": "MP Cost: 18, Damage: 145%, Number of Attacks: 6, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Soul_Driver.png/revision/latest?cb=20110502054804"],
                         "animations": ["https://media2.giphy.com/media/jQJcOU5FfMZh6NoxtV/giphy.gif"],
                         "type": "Attack",
@@ -196,6 +235,9 @@
                     },
                     {
                         "id": 51101006,
+                        "name": "Radiant Driver",
+                        "shortDesc": "MP Cost: 35, Damage: 400%, Max Enemies Pushed: 6",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Radiant_Driver.png/revision/latest?cb=20120319172022"],
                         "animations": ["https://media1.giphy.com/media/ZF8Y0aDdIEqlmRIYEF/giphy.gif"],
                         "type": "Attack",
@@ -203,6 +245,9 @@
                     },
                     {
                         "id": 51101007,
+                        "name": "Vertical Radiant Driver",
+                        "shortDesc": "MP Cost: 35, Damage: 400%, Max Enemies Pushed: 6",
+                        "maxLevel": 9,
                         "icons": ["https://orangemushroom.files.wordpress.com/2020/03/vertical-shining-chase.png?w=600"],
                         "animations": ["https://media3.giphy.com/media/ubhGxWYruCS2yyTZjF/giphy.gif"],
                         "type": "Attack",
@@ -214,6 +259,9 @@
                     },
                     {
                         "id": 51100000,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     }]
@@ -221,21 +269,33 @@
                 [
                 "3rd Job", [{
                         "id": 51110000,
+                        "name": "Self Recovery",
+                        "shortDesc": "Regularly recovers 300 HP and 90 MP.",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Self_Recovery_%28Mihile%29.png/revision/latest?cb=20110502054755"],
                         "type": "Passive"
                     },
                     {
                         "id": 51110001,
+                        "name": "Intense Focus",
+                        "shortDesc": "Strength: +60, Critical Rate: +20%, Final Damage: +10%, Attack Speed: +1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Intense_Focus.png/revision/latest?cb=20120319204447"],
                         "type": "Passive"
                     },
                     {
                         "id": 51110002,
+                        "name": "Righteous Indignation",
+                        "shortDesc": "When attacking enemies in Stun, Blind, Freeze, Incapacitation, or Charging Light Debuff status, Final Damage: +25%, Critical Rate: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Righteous_Indignation.png/revision/latest?cb=20120319204601"],
                         "type": "Passive"
                     },
                     {
                         "id": 51110009,
+                        "name": "Advanced Royal Guard",
+                        "shortDesc": "[4th Time]: Max Number of Enemies: 10, Damage: 480% + 1% per level, Number of Attacks: 7, Attack Power: +30.\\n[5th Time]: Max Number of Enemies: 15, Damage: 565% + 1% per level, Number of Attacks: 9, Attack Power: +45.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Advanced_Royal_Guard.png/revision/latest?cb=20150704200515", "https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -245,12 +305,18 @@
                     },
                     {
                         "id": 51111004,
+                        "name": "Enduring Spirit",
+                        "shortDesc": "MP Cost: 40, DEF: +100%, Abnormal Status Resistance: +60, Elemental Resistance: +60%, Duration: 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Enduring_Spirit.png/revision/latest?cb=20120319202836"],
                         "animations": ["https://media2.giphy.com/media/E8GcIww04TpI6NV9Wa/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 51111008,
+                        "name": "Soul Link",
+                        "shortDesc": "MP Cost per sec: 15\\n[Mihile]: Damage: +5% per party member, recover 1% of Max HP per 4 sec. Receive 20% of party member's damage that can be nullified with Royal Guard. If you are not in a party, you will be considered to be in your own party.\\n[Party Member]: Share Attack Power: Attack Power and Magic ATT +50% when Mihile succeeds with Royal Guard, and Abnormal Status: +20% and DEF: +30% from Enduring Spirit.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Soul_Link.png/revision/latest?cb=20150704201041"],
                         "animations": ["https://media1.giphy.com/media/Cy4ZvEYH8e1RVum1J5/giphy.gif"],
                         "type": "Toggle Party Buff",
@@ -262,6 +328,9 @@
                     },
                     {
                         "id": 51111005,
+                        "name": "Magic Crash",
+                        "shortDesc": "MP Cost: 15, 100% chance to remove enemies' buffs. For 22 sec, prevents 10 enemies from casting buffs.\\nCooldown: 60 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Magic_Crash_%28Mihile%29.png/revision/latest?cb=20110421103319"],
                         "animations": ["https://media1.giphy.com/media/wC0kxtYCAfTA13gTVm/giphy.gif"],
                         "type": "Active Debuff",
@@ -269,6 +338,9 @@
                     },
                     {
                         "id": 51111006,
+                        "name": "Trinity Attack",
+                        "shortDesc": "MP Cost: 19, Damage: 410%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Trinity_Attack.png/revision/latest?cb=20120319201325"],
                         "animations": ["https://media2.giphy.com/media/QYuyk7pZY9sLZ8nRXP/giphy.gif"],
                         "type": "Attack",
@@ -276,6 +348,9 @@
                     },
                     {
                         "id": 51110003,
+                        "name": "Radiant Charge",
+                        "shortDesc": "Damage: +60%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Radiant_Charge.png/revision/latest?cb=20160627053923"],
                         "type": "Passive"
                     }]
@@ -283,6 +358,9 @@
                 [
                 "4th Job", [{
                     "id": 51120003,
+                    "name": "Soul Asylum",
+                    "shortDesc": "When Royal Guard is successful, Damage -5% only for attacks that inflict damage at a certain ratio to max HP for 15 sec\\nDamage -20% permanently.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Soul_Asylum.png/revision/latest?cb=20120320160157"],
                     "type": "Passive",
                     "desc": "When <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> is successful, you gain a %Damage Reduction buff against %Max HP attacks",
@@ -292,6 +370,9 @@
                 },
                 {
                     "id": 51120001,
+                    "name": "Expert Sword Mastery",
+                    "shortDesc": "One-Handed Sword Mastery: +70%, Attack Power: +30, Critical Rate: 15%, Critical Damage: +10%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Expert_Sword_Mastery_%28Mihile%29.png/revision/latest?cb=20120320160355", "https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -302,6 +383,9 @@
                 },
                 {
                     "id": 51120002,
+                    "name": "Advanced Final Attack",
+                    "shortDesc": "Attack Power: +30 permanently.\\n[Final Attack Skills] Final Attack Chance: 75%, Damage: 95%, Times Activated: 4.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -312,6 +396,9 @@
                 },
                 {
                     "id": 51121007,
+                    "name": "Four-Point Assault",
+                    "shortDesc": "MP Cost: 32, Damage: 210%, Max Enemies Hit: 2, Number of Attacks: 11, Shadow Attack and Blind Chance: 20%, Enemy's Accuracy: -30% for 10 sec, Critical Hit on final attack",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Four-Point_Assault.png/revision/latest?cb=20120320161831"],
                     "animations": ["https://media3.giphy.com/media/WsAUPbJVDDRcsDc7TI/giphy.gif"],
                     "type": "Attack",
@@ -324,6 +411,9 @@
                 },
                 {
                     "id": 51121009,
+                    "name": "Radiant Cross",
+                    "shortDesc": "MP Cost: 70, Damage: 440%, Max Enemies Hit: 7, Number of Attacks: 4, Shadow Attack and Blind Chance: 30%, Enemy's Accuracy: -30% for 10 sec.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Radiant_Cross.png/revision/latest?cb=20150704221701"],
                     "animations": ["https://media2.giphy.com/media/jQcSlhXa4XbaJ94n3g/giphy.gif"],
                     "type": "Attack",
@@ -334,23 +424,35 @@
                 },
                 {
                     "id": 51121006,
+                    "name": "Roiling Soul",
+                    "shortDesc": "MP Cost: 50, Final Damage: +30%, Critical Damage: +8%\\nReduces the Max Enemies Hit for all skills (except some summons) by 1/3. For skills that target multiple enemies, Max Enemies Hit won't be reduced below 2.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Roiling_Soul.png/revision/latest?cb=20170511005734"],
                     "animations": ["https://media4.giphy.com/media/DAS4PfyuK4wBtH9kYJ/giphy.gif"],
                     "type": "Toggle Buff",
-                    "desc": "While toggled, increases %Final Damage and %Crit Damage but can only hit one enemy"
+                    "desc": "While toggled, increases %Final Damage and %Crit Damage but reduces max enemies hit for all skills (except some summons)"
                 },
                 {
                     "id": 51120000,
+                    "name": "Combat Mastery",
+                    "shortDesc": "40% enemy DEF ignored",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Combat_Mastery_%28Mihile%29.png/revision/latest?cb=20120320162806"],
                     "type": "Passive"
                 },
                 {
                     "id": 51120004,
+                    "name": "Power Stance",
+                    "shortDesc": "Knockback Resistance: +100%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921"],
                     "type": "Passive"
                 },
                 {
                     "id": 51121005,
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
                     "animations": ["https://media4.giphy.com/media/ttbYsfm6dsdZ0ZHrzk/giphy.gif"],
                     "type": "Party Buff",
@@ -365,30 +467,45 @@
             "hyperPassive": [
                 {
                     "id": 51120043,
+                    "name": "Enduring Spirit - Persist",
+                    "shortDesc": "Duration: +20 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Enduring_Spirit_-_Persist.png/revision/latest?cb=20120918154747"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 51120044,
+                    "name": "Enduring Spirit - Steel Skin",
+                    "shortDesc": "20% additional DEF",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Enduring_Spirit_-_Steel_Skin.png/revision/latest?cb=20120918154840"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 51120045,
+                    "name": "Enduring Spirit - Preparation",
+                    "shortDesc": "Additional Abnormal Status Resistance: +10, Elemental Resistance: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Enduring_Spirit_-_Preparation.png/revision/latest?cb=20120918154929"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 51120056,
+                    "name": "Radiant Cross - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Radiant_Cross_-_Reinforce.png/revision/latest?cb=20150705175610"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 51120057,
+                    "name": "Radiant Cross - Spread",
+                    "shortDesc": "Damage: 75%, Max Enemies Hit: 6, Number of Attacks: 4, Duration: 12 sec\\nWhen Shadow Attack and Blind effect activates at 100% chance, Enemy's Accuracy: -30% for 10 sec, Duration is cut in half against bosses.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Radiant_Cross_-_Spread.png/revision/latest?cb=20150705175921"],
                     "animations": ["https://media3.giphy.com/media/suA1ZPLyoXEhK4rAtg/giphy.gif"],
                     "type": "Passive",
@@ -402,24 +519,36 @@
                 },
                 {
                     "id": 51120058,
+                    "name": "Radiant Cross - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/61/Skill_Radiant_Cross_-_Extra_Strike.png/revision/latest?cb=20150705175113"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 51120049,
+                    "name": "Four-Point Assault - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Four-Point_Assault_-_Reinforce.png/revision/latest?cb=20120918155309"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 51120050,
+                    "name": "Four-Point Assault - Opportunity",
+                    "shortDesc": "Activation Change +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Four-Point_Assault_-_Opportunity.png/revision/latest?cb=20120918155405"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 51120051,
+                    "name": "Four-Point Assault - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f1/Skill_Four-Point_Assault_-_Extra_Strike.png/revision/latest?cb=20120918155451"],
                     "type": "Passive",
                     "reqLev": 190
@@ -428,6 +557,9 @@
             "hyperActive": [
                 {
                     "id": 51121054,
+                    "name": "Sacred Cube",
+                    "shortDesc": "MP Cost: 200, Duration: 30 sec, Damage: +10%, Max HP: +20%\\nDamage Taken: -20%, Royal Guard defense possible for an additional 0.5 sec.\\nCooldown: 210 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Sacred_Cube.png/revision/latest?cb=20120918155822"],
                     "animations": ["https://media3.giphy.com/media/zYYC8Ujhwrza1SjVdE/giphy.gif"],
                     "type": "Buff",
@@ -435,6 +567,9 @@
                 },
                 {
                     "id": 51121052,
+                    "name": "Charging Light",
+                    "shortDesc": "MP Cost: 300, Number of Enemies: 15, Damage: 600%, Number of Attacks: 10, 10% more damage for party members including yourself for 10 sec.\\nCooldown: 15 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Charging_Light.png/revision/latest?cb=20120918155648"],
                     "animations": ["https://media3.giphy.com/media/aq0UQNOhZ4cvIMqFfc/giphy.gif"],
                     "type": "Attack",
@@ -446,6 +581,9 @@
                 },
                 {
                     "id": 51121053,
+                    "name": "Queen of Tomorrow",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Cygnus class or Mihile in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Skill_Queen_of_Tomorrow.png/revision/latest?cb=20120918155740"],
                     "animations": ["https://media0.giphy.com/media/XTTzeEHbR0JntpyKpr/giphy.gif"],
                     "type": "Buff",

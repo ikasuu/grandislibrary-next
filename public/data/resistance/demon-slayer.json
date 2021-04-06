@@ -114,6 +114,9 @@
             [
                 "Beginner", [{
                     "id": 30010110,
+                    "name": "Dark Winds",
+                    "shortDesc": "High Jump: Press the up arrow key twice during a jump\\nJag Jump: Press the right or left arrow key twice during a jump\\nGlide: Jump Key (Maintain Press)",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Dark_Winds.png/revision/latest?cb=20110810024348"],
                     "animations": ["https://media3.giphy.com/media/KGY5QQgsIqWkoJDhii/giphy.gif"],
                     "type": "Passive",
@@ -124,11 +127,17 @@
                 },
                 {
                     "id": 30010185,
+                    "name": "Demonic Blood",
+                    "shortDesc": "Willpower: Lv. 20, Ambition: Lv. 20, Knockback Resistance: +100%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Demonic_Blood.png/revision/latest?cb=20110810024519"],
                     "type": "Passive"
                 },
                 {
                     "id": 30010111,
+                    "name": "Curse of Fury",
+                    "shortDesc": "1% chance to increase damage by 100% when attacking. Recovers 5% HP when triggered. Absorbs Fury if target is eliminated.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Curse_of_Fury.png/revision/latest?cb=20110810024354"],
                     "type": "Passive"
                 }]
@@ -137,6 +146,9 @@
                 "1st Job", [
                     {
                         "id": 31000004,
+                        "name": "Demon Lash",
+                        "shortDesc": "1st, 2nd: Damage: 110%, Max Monsters Hit: 6, Number of Attacks: 2.\\n3rd: Damage: 100%, Max Monsters Hit: 6, Number of Attacks: 3\\n4th: Damage: 100%, Max Monsters Hit: 6, Number of Attacks: 4",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Demon_Lash.png/revision/latest?cb=20110812075039"],
                         "animations": ["https://media0.giphy.com/media/H4JvP1IyVOJ1QD5Yht/giphy.gif"],
                         "type": "Basic Attack Modifier",
@@ -147,6 +159,9 @@
                     },
                     {
                         "id": 31001000,
+                        "name": "Grim Scythe",
+                        "shortDesc": "HP Cost: 15, Fury Cost: 2, When skill key is held - Damage: 100%, Max Enemies Hit: 8, Number of Attacks: 3",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/ff/Skill_Grim_Scythe.png/revision/latest?cb=20110812075022"],
                         "animations": ["https://media0.giphy.com/media/fuKnoASmmhJv2U8L98/giphy.gif"],
                         "type": "Key-down Attack",
@@ -154,6 +169,9 @@
                     },
                     {
                         "id": 31001001,
+                        "name": "Battle Pact",
+                        "shortDesc": "HP Cost: 80, Attack Speed increased for 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Battle_Pact_%28Demon_Slayer%29.png/revision/latest?cb=20110812075022"],
                         "animations": ["https://media3.giphy.com/media/vco4SBt8cO9J9sJtBL/giphy.gif"],
                         "type": "Buff",
@@ -161,11 +179,17 @@
                     },
                     {
                         "id": 31000002,
+                        "name": "Shadow Swiftness",
+                        "shortDesc": "Movement Speed +25, Jump +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Shadow_Swiftness.png/revision/latest?cb=20110812075032"],
                         "type": "Passive"
                     },
                     {
                         "id": 31000003,
+                        "name": "HP Boost",
+                        "shortDesc": "Max HP: +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_HP_Boost.png/revision/latest?cb=20100722124608"],
                         "type": "Passive"
                     }]
@@ -174,6 +198,9 @@
                 "2nd Job", [
                     {
                         "id": 31100007,
+                        "name": "Barbed Lash",
+                        "shortDesc": "Demon Lash Damage: +80%p",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e7/Skill_Barbed_Lash.png/revision/latest?cb=20110812082231", "https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Demon_Lash.png/revision/latest?cb=20110812075039"],
                         "animations": ["https://media1.giphy.com/media/L2ZLMzo9jZ035cT3cB/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -184,6 +211,9 @@
                     },
                     {
                         "id": 31101000,
+                        "name": "Soul Eater",
+                        "shortDesc": "HP Cost: 45, Fury Cost: 3, When skill key is pressed down - Damage: 120%, Max Enemies Hit: 8, Number of Attacks: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Soul_Eater.png/revision/latest?cb=20110812082128"],
                         "animations": ["https://media1.giphy.com/media/THTSvkvOEKB3jJ6DNa/giphy.gif"],
                         "type": "Key-down Attack",
@@ -191,6 +221,9 @@
                     },
                     {
                         "id": 31101001,
+                        "name": "Dark Thrust",
+                        "shortDesc": "Fury Cost: 6, Damage: 115%, Number of Attacks: 3, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Dark_Thrust.png/revision/latest?cb=20110812082136"],
                         "animations": ["https://media2.giphy.com/media/SXYsYrXJ4FnYOEroJx/giphy.gif"],
                         "type": "Attack",
@@ -198,6 +231,9 @@
                     },
                     {
                         "id": 31101002,
+                        "name": "Chaos Lock",
+                        "shortDesc": "Fury Cost: 20, After teleporting - Damage: 305%, Max Enemies Hit: 6, Stun Chance: 90%, Stun Duration: 3 sec\\nAfter teleporting, cannot absorb Fury for 0.7 sec\\nCooldown: 0.7 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Chaos_Lock.png/revision/latest?cb=20110812082141"],
                         "animations": ["https://media2.giphy.com/media/U4G9eFiL9aoY3tKTWE/giphy.gif"],
                         "type": "Attack",
@@ -209,6 +245,9 @@
                     },
                     {
                         "id": 31101003,
+                        "name": "Vengeance",
+                        "shortDesc": "HP Cost: 150, Returns 400% of damage received back to the enemy for 180 sec, Paralysis Chance: 90%, Paralysis Duration: 5 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/98/Skill_Vengeance.png/revision/latest?cb=20110812082151"],
                         "animations": ["https://media2.giphy.com/media/JaMKIAlt3WiVFH2l71/giphy.gif"],
                         "type": "Buff",
@@ -219,16 +258,25 @@
                     },
                     {
                         "id": 31100004,
+                        "name": "Weapon Mastery",
+                        "shortDesc": "One-Handed Blunt and Axe Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Weapon_Mastery_%28Demon_Slayer%29.png/revision/latest?cb=20110812082159"],
                         "type": "Passive"
                     },
                     {
                         "id": 31100005,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800"],
                         "type": "Passive"
                     },
                     {
                         "id": 31100006,
+                        "name": "Outrage",
+                        "shortDesc": "ATT: +50, Critical Rate: +20%",
+                        "maxLevel": 18,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Outrage.png/revision/latest?cb=20110812082225"],
                         "type": "Passive"
                     }]
@@ -236,6 +284,9 @@
                 [
                 "3rd Job", [{
                         "id": 31110010,
+                        "name": "Demon Lash Arch",
+                        "shortDesc": "Demon Lash Damage: +30%",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Demon_Lash_Arch.png/revision/latest?cb=20110812120642", "https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Demon_Lash.png/revision/latest?cb=20110812075039"],
                         "animations": ["https://media3.giphy.com/media/gfMmGTVi0eqjierAzH/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -246,6 +297,9 @@
                     },
                     {
                         "id": 31111000,
+                        "name": "Judgment",
+                        "shortDesc": "HP Cost: 300, Fury Cost: 20, Max Monsters Hit: 10, Number of Attacks: 5, Damage: 200%, Critical Hit Rate: +40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Judgment.png/revision/latest?cb=20110812120525"],
                         "animations": ["https://media0.giphy.com/media/Qvva1BHFj97nFIRcJo/giphy.gif"],
                         "type": "Attack",
@@ -256,6 +310,9 @@
                     },
                     {
                         "id": 31111001,
+                        "name": "Vortex of Doom",
+                        "shortDesc": "Fury Cost: 10, Damage: 190%, Number of Attacks: 3, Max Monsters Hit: 10, Stun Chance: 90%, Stun Duration: 5 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Vortex_of_Doom.png/revision/latest?cb=20110812120531"],
                         "animations": ["https://media3.giphy.com/media/SX0vXd40EfsACHnhBi/giphy.gif"],
                         "type": "Attack",
@@ -266,6 +323,9 @@
                     },
                     {
                         "id": 31111003,
+                        "name": "Raven Storm",
+                        "shortDesc": "Fury Cost: 10, Damage: 170%, Max Enemies Hit: 8, Number of Attacks: 5, Recovers up to 50% of HP, Invincible while casting\\nCooldown: 30 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Raven_Storm.png/revision/latest?cb=20110812120534"],
                         "animations": ["https://media1.giphy.com/media/LqUuQKYk3KSRUhTGQm/giphy.gif"],
                         "type": "Attack",
@@ -277,6 +337,9 @@
                     },
                     {
                         "id": 31111005,
+                        "name": "Carrion Breath",
+                        "shortDesc": "HP Cost: 80, Fury Cost: 6. When skill key is pressed - Damage: 155%, Max Monsters Hit: 10, Number of Attacks: 5. Poison Damage Over Time: 135% damage every 1 sec for 8 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Carrion_Breath.png/revision/latest?cb=20110812120617"],
                         "animations": ["https://media0.giphy.com/media/JSozKO7VM91qfg80SW/giphy.gif"],
                         "type": "Key-down Attack",
@@ -287,11 +350,17 @@
                     },
                     {
                         "id": 31110004,
+                        "name": "Black-Hearted Strength",
+                        "shortDesc": "Increases Defense by +100%, Abnormal Status Resistance by +60, and Elemental Resistance by +60%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Black-Hearted_Strength.png/revision/latest?cb=20160627050954"],
                         "type": "Passive"
                     },
                     {
                         "id": 31110007,
+                        "name": "Focused Fury",
+                        "shortDesc": "Final Damage: +25%, Increases Attack Speed",
+                        "maxLevel": 18,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Focused_Fury_%28Demon_Slayer%29.png/revision/latest?cb=20110812120626"],
                         "type": "Passive",
                         "desc": "",
@@ -301,6 +370,9 @@
                     },
                     {
                         "id": 31110008,
+                        "name": "Possessed Aegis",
+                        "shortDesc": "When attacking, 30% chance of guarding. When guarding is successful, 3% of HP and 5 Fury are recovered.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Possessed_Aegis.png/revision/latest?cb=20110812120630"],
                         "type": "Passive",
                         "desc": "Grants a chance to guard an incoming attack",
@@ -310,6 +382,9 @@
                     },
                     {
                         "id": 31110009,
+                        "name": "Max Fury",
+                        "shortDesc": "When using Demon Slash, grants a 75% chance of absorbing additional Fury. Automatically recovers 10 Fury every 4 seconds.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Max_Fury.png/revision/latest?cb=20110812120635"],
                         "type": "Passive",
                         "desc": "Gain an increased chance to restore additional DF while using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Demon_Lash.png/revision/latest?cb=20110812075039' alt='Skill Demon Lash'>",
@@ -321,6 +396,9 @@
                 [
                 "4th Job", [{
                     "id": 31120011,
+                    "name": "Demon Thrash",
+                    "shortDesc": "Demon Lash Damage: +30%, Final Damage: +30%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Demon_Thrash.png/revision/latest?cb=20110812130423", "https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Demon_Lash.png/revision/latest?cb=20110812075039"],
                     "animations": ["https://media1.giphy.com/media/W4nfjUXdsAgEWd1Kgd/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -331,6 +409,9 @@
                 },
                 {
                     "id": 31121000,
+                    "name": "Infernal Concussion",
+                    "shortDesc": "HP Cost: 300, Fury Cost: 15, Damage: 400%, Max Monsters Hit: 10. Deals 5 critical attacks that deal 320% damage.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Infernal_Concussion.png/revision/latest?cb=20110812130236"],
                     "animations": ["https://media3.giphy.com/media/TJrUmeYyn6uFR2tKA6/giphy.gif"],
                     "type": "Attack",
@@ -341,6 +422,9 @@
                 },
                 {
                     "id": 31121001,
+                    "name": "Demon Impact",
+                    "shortDesc": "Fury Cost: 8, Damage: 460%, Max Enemies Hit: 4, Number of Attacks: 6, Additional Critical Rate: 100%, Enemy DEF Ignored: 30%, Slow Duration: 3 sec, Boss Damage: +40%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Demon_Impact.png/revision/latest?cb=20110812130249"],
                     "animations": ["https://media2.giphy.com/media/Z9VCEoQlTKCFy6W4OT/giphy.gif"],
                     "type": "Attack",
@@ -351,6 +435,9 @@
                 },
                 {
                     "id": 31121003,
+                    "name": "Demon Cry",
+                    "shortDesc": "HP Cost: 400, Fury Cost: 30, Number of Attacks: 7, Damage: 515%, Max Monsters Hit: 15. Duration: 20 sec, Enemy ATT and DEF: -15%, Accuracy -20%, EXP and Item Drop Rate: +20%.\\nCooldown: 14 sec, reduced for 7 sec while Boundless Rage is in use",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Demon_Cry.png/revision/latest?cb=20110812130305"],
                     "animations": ["https://media1.giphy.com/media/fUMCSC894TxZMR4epj/giphy.gif"],
                     "type": "Attack",
@@ -362,6 +449,9 @@
                 },
                 {
                     "id": 31121006,
+                    "name": "Binding Darkness",
+                    "shortDesc": "Fury Cost: 60, Damage: 700%, Max Enemies Hit: 15, Number of Attacks: 3, 100% chance to Stun enemies for 10 sec\\nStun Duration increased by up to 100% based on damage inflicted by Binding Darkness.\\nCooldown: 120 sec\\n[Passive Effects] - Permanently increased Ignore Enemy DEF permanently by 30%",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Binding_Darkness.png/revision/latest?cb=20110812130343"],
                     "animations": ["https://media2.giphy.com/media/Q8DQNUyn4wNw207YgP/giphy.gif"],
                     "type": "Bind Attack",
@@ -372,6 +462,9 @@
                 },
                 {
                     "id": 31121005,
+                    "name": "Dark Metamorphosis",
+                    "shortDesc": "HP Cost: 300, Fury Cost: 40, invincible while casting, Damage: +35% over 180 sec. Automatically attacks nearby enemies dealing 250% damage.\\nCooldown: 90 sec\\n[Passive Effect: Max HP: +20%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Dark_Metamorphosis.png/revision/latest?cb=20110812130334"],
                     "animations": ["https://media3.giphy.com/media/ejyTCFfcEbN66VzsJV/giphy.gif"],
                     "type": "Buff",
@@ -383,24 +476,36 @@
                 },
                 {
                     "id": 31121007,
+                    "name": "Boundless Rage",
+                    "shortDesc": "Fury Cost: 100, Use skills without consuming Fury, Duration: 50 sec\\nCooldown: 200 sec",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Boundless_Rage.png/revision/latest?cb=20110812130408"],
                     "animations": ["https://media4.giphy.com/media/fz9eM7FZWjgYA9VB7f/giphy.gif"],
                     "type": "Buff"
                 },
                 {
                     "id": 31121002,
+                    "name": "Leech Aura",
+                    "shortDesc": "Fury Cost: 30, For 180 sec, heals your party members for 3% of the damage you inflict. Cannot recover more than 25% of Max HP. Requires 5 sec cooldown.",
+                    "maxLevel": 9,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Leech_Aura.png/revision/latest?cb=20110812130253"],
                     "animations": ["https://media1.giphy.com/media/1UP0e7aENgEz7FG2PT/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 31121004,
+                    "name": "Maple Warrior",
+                    "shortDesc": "HP Cost: 500, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Maple_Warrior_%28Demon%29.png/revision/latest?cb=20110812130330"],
                     "animations": ["https://media0.giphy.com/media/4b2fVfWJ8dXmCUfA4k/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 31120008,
+                    "name": "Barricade Mastery",
+                    "shortDesc": "One-Handed Blunt and Axe Mastery: +70%, Attack Power: +50, Critical Damage: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Barricade_Mastery_%28Demon_Slayer%29.png/revision/latest?cb=20110812130412", "https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Weapon_Mastery_%28Demon_Slayer%29.png/revision/latest?cb=20110812082159"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -411,6 +516,9 @@
                 },
                 {
                     "id": 31120009,
+                    "name": "Obsidian Skin",
+                    "shortDesc": "Permanently decreases damage taken by 20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/76/Skill_Obsidian_Skin.png/revision/latest?cb=20110812130418"],
                     "type": "Passive"
                 }]
@@ -420,54 +528,81 @@
             "hyperPassive": [
                 {
                     "id": 31120043,
+                    "name": "Demon Lash - Fury",
+                    "shortDesc": "Fury Absorption: +50%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Demon_Lash_-_Fury.png/revision/latest?cb=20160519200636"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 31120044,
+                    "name": "Demon Lash - Reinforce",
+                    "shortDesc": "Final Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Demon_Lash_-_Reinforce.png/revision/latest?cb=20160519200839"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 31120045,
+                    "name": "Demon Lash - Reinforce Duration",
+                    "shortDesc": "Final damage of other skills after using Demon Lash: +10%, Duration: 4 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Demon_Lash_-_Reinforce_Duration.png/revision/latest?cb=20160519201117"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 31120046,
+                    "name": "Dark Metamorphosis - Enhance",
+                    "shortDesc": "When activated, all of Demon Slayer's attacks will negate Attack Ignore and Attack Reflect effects for 20% of the duration time.\\n[Passive Effect: Damage over time will negate Attack Ignore and Attack Reflect effects.]",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Dark_Metamorphosis_-_Enhance.png/revision/latest?cb=20121111230733"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 31120047,
+                    "name": "Dark Metamorphosis - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Dark_Metamorphosis_-_Reinforce.png/revision/latest?cb=20121111230549"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 31120048,
+                    "name": "Dark Metamorphosis - Reduced Fury",
+                    "shortDesc": "Fury cost: -50%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Dark_Metamorphosis_-_Reduced_Fury.png/revision/latest?cb=20121111230640"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 31120049,
+                    "name": "Demon Impact - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Demon_Impact_-_Reinforce.png/revision/latest?cb=20121111230828"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 31120050,
+                    "name": "Demon Impact - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Demon_Impact_-_Extra_Strike.png/revision/latest?cb=20121111230927"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 31120051,
+                    "name": "Demon Impact - Reduce Fury",
+                    "shortDesc": "Fury cost: -50%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Demon_Impact_-_Reduce_Fury.png/revision/latest?cb=20121111231018"],
                     "type": "Passive",
                     "reqLev": 190
@@ -476,6 +611,9 @@
             "hyperActive": [
                 {
                     "id": 31121054,
+                    "name": "Blue Blood",
+                    "shortDesc": "HP Cost: 300, Fury Cost: 30, Final damage of all attacks: +90% for 60 sec.\\nCooldown: 120 sec, Cooldown: -3 sec every time 50 Fury is absorbed, Additional Cooldown: -2 sec every 4 sec when using Blue Blood and Boundless Rage at the same time.\\n[Passive Effect - Fury consumption on all skills: -20%]",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Blue_Blood.png/revision/latest?cb=20121111231537"],
                     "animations": ["https://media1.giphy.com/media/RQAudgIzODJQ6pd17G/giphy.gif"],
                     "type": "Buff",
@@ -489,6 +627,9 @@
                 },
                 {
                     "id": 31121052,
+                    "name": "Cerberus Chomp",
+                    "shortDesc": "HP Cost: 300, Max Enemies Hit: 8, Damage: 450%, Number of Attacks: 6, Boss Damage: +50%, Monster Defense Rate Ignored: 50%. Additional Fury Absorption: 50.\\nCooldown: 5 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Cerberus_Chomp.png/revision/latest?cb=20121111231250"],
                     "animations": ["https://media4.giphy.com/media/RYlEz7k3zLfzysaQ17/giphy.gif"],
                     "type": "Attack",
@@ -501,6 +642,9 @@
                 },
                 {
                     "id": 31121053,
+                    "name": "Demonic Fortitude",
+                    "shortDesc": "Fury Cost: 10, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Demonic_Fortitude.png/revision/latest?cb=20160111212529"],
                     "animations": ["https://media4.giphy.com/media/ZZTzpzS6I8L0Q0ZmYU/giphy.gif"],
                     "type": "Buff",

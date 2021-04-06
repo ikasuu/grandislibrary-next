@@ -98,6 +98,9 @@
             [
                 "Beginner", [{
                     "id": 60001216,
+                    "name": "Realign: Defender Mode",
+                    "shortDesc": "Defense: +200",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
                     "type": "Toggle Buff",
                     "desc": "",
@@ -107,6 +110,9 @@
                 },
                 {
                     "id": 60001217,
+                    "name": "Realign: Attacker Mode",
+                    "shortDesc": "Attack Power: +5, Critical Rate: +3%, Boss Damage: +3%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
                     "type": "Toggle Buff",
                     "desc": "",
@@ -116,6 +122,9 @@
                 },
                 {
                     "id": 60001218,
+                    "name": "Vertical Grapple",
+                    "shortDesc": "Press the skill key while you're climbing to cancel.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Vertical_Grapple.png/revision/latest?cb=20160609063040"],
                     "animations": ["https://media4.giphy.com/media/43UIrafIm5vfJUptKK/giphy.gif"],
                     "desc": "Grapples onto a platform above and launches you up",
@@ -126,6 +135,9 @@
                 },
                 {
                     "id": 60000219,
+                    "name": "Transfiguration",
+                    "shortDesc": "Stage 1: Attack Speed: +1, Speed: +5, Jump: +10, Power Stance Chance: 20%\\nStage 2: Attack Speed: +1, Speed: +10, Jump: +20, Power Stance Chance: +40%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Transfiguration.png/revision/latest?cb=20120717143151"],
                     "type": "Passive",
                     "desc": "As you charge your Morph Gauge, you gain bonus effects",
@@ -135,6 +147,9 @@
                 },
                 {
                     "id": 60001225,
+                    "name": "Dragon Link",
+                    "shortDesc": "Morph Gauge fills faster, and the Dragon Link skill and the Kaiser attack skill that follows will have their final damage increased by 15%. Once used, any buff that increases the final damage of following attack will disappear regardless of the skill. Does not apply to Wing Beat.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015"],
                     "type": "Special Active",
                     "desc": "Allows you to use Attack Commands by combining this Skill Key with a unique combination of Keys",
@@ -160,6 +175,9 @@
                 },
                 {
                     "id": 60001296,
+                    "name": "Guardian's Return",
+                    "shortDesc": "MP Cost: 100\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Guardian%27s_Return.png/revision/latest?cb=20181007164332"],
                     "animations": ["https://media2.giphy.com/media/MtDluVIABhtbqOcoGY/giphy.gif"],
                     "type": "Active",
@@ -170,6 +188,9 @@
                 "1st Job", [
                     {
                         "id": 61001000,
+                        "name": "Dragon Slash",
+                        "shortDesc": "1-hit: Attack up to 8 enemies for 70% damage 3 times\\n2-hit: Up to 6 enemies attack for 50% damage 5 times\\n3-hit: Up to 6 enemies attack for 60% damage 5 times\\nFinal Form: Up to 8 enemies attack for 160% damage 5 times, Up to 10 enemies attack 6 times after 4th job",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
                         "animations": ["https://media.giphy.com/media/SsHs6FaASxUfjk2Jta/giphy.gif"],
                         "type": "Basic Attack Modifier",
@@ -177,6 +198,9 @@
                     },
                     {
                         "id": 61001101,
+                        "name": "Flame Surge",
+                        "shortDesc": "MP Cost: 10, Damage: 170%, Number of Attacks: 2, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Flame_Surge_%28Kaiser%29.png/revision/latest?cb=20120710084019"],
                         "animations": ["https://media.giphy.com/media/ZEr8nWXKfiaMKZJGAc/giphy.gif"],
                         "type": "Attack",
@@ -187,6 +211,9 @@
                     },
                     {
                         "id": 61001002,
+                        "name": "Air Lift",
+                        "shortDesc": "MP Cost: 10, Set Jump Distance, Max Speed: +20, Speed: +20",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Air_Lift.png/revision/latest?cb=20120710084058"],
                         "animations": ["https://media.giphy.com/media/Yqt9wvIGanCoETbOJv/giphy.gif"],
                         "type": "Active",
@@ -197,6 +224,9 @@
                     },
                     {
                         "id": 61000003,
+                        "name": "Scale Skin",
+                        "shortDesc": "DEF: +200, Knockback Resistance: +40%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Scale_Skin.png/revision/latest?cb=20120710084143"],
                         "type": "Passive"
                     }]
@@ -205,6 +235,9 @@
                 "2nd Job", [
                     {
                         "id": 61100009,
+                        "name": "Dragon Slash I",
+                        "shortDesc": "Additional 40% bonus to Dragon Slash damage",
+                        "maxLevel": 2,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Dragon_Slash_I.png/revision/latest?cb=20120810142953", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -214,6 +247,9 @@
                     },
                     {
                         "id": 61101100,
+                        "name": "Impact Wave",
+                        "shortDesc": "MP Cost: 17, Damage: 270%, Mobs Hit: 8, Number of Attacks: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Impact_Wave.png/revision/latest?cb=20120710091911"],
                         "animations": ["https://media.giphy.com/media/chmthJBWxZ1gA4yP3Q/giphy.gif"],
                         "type": "Attack",
@@ -224,6 +260,9 @@
                     },
                     {
                         "id": 61101101,
+                        "name": "Piercing Blaze",
+                        "shortDesc": "MP Cost: 20, Monsters Hit: 12, Damage: 250%, Stun Chance: 80%, Stun Duration: 2 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Piercing_Blaze.png/revision/latest?cb=20120710091944"],
                         "animations": ["https://media.giphy.com/media/Q8VF9KTaIXhcw75sCR/giphy.gif"],
                         "type": "Attack",
@@ -234,6 +273,9 @@
                     },
                     {
                         "id": 61101002,
+                        "name": "Tempest Blades",
+                        "shortDesc": "MP Cost: 30, Swords Summoned: 3. Use the skill again after summoning to send the swords at the enemy and deal 300% damage with 3 attacks.\\nCooldown: 10 sec\\nFinal Form: Number of Attacks: +1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015"],
                         "animations": ["https://media4.giphy.com/media/1LA9MUMwL0tK8ZBg7M/giphy.gif"],
                         "type": "Attack",
@@ -244,6 +286,9 @@
                     },
                     {
                         "id": 61101004,
+                        "name": "Blaze On",
+                        "shortDesc": "MP Cost: 30, Duration: 240 sec, Attack Power: +20, Attack Speed: +2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Blaze_On.png/revision/latest?cb=20120710092156"],
                         "animations": ["https://media2.giphy.com/media/Xf7QogrkqzI36ivNjx/giphy.gif"],
                         "type": "Buff",
@@ -251,16 +296,25 @@
                     },
                     {
                         "id": 61100006,
+                        "name": "Sword Mastery",
+                        "shortDesc": "Two-Handed Sword Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120710092315"],
                         "type": "Passive"
                     },
                     {
                         "id": 61100007,
+                        "name": "Inner Blaze",
+                        "shortDesc": "STR: +20, HP: +20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Inner_Blaze.png/revision/latest?cb=20120710092407"],
                         "type": "Passive"
                     },
                     {
                         "id": 61100005,
+                        "name": "Defender Mode I",
+                        "shortDesc": "Defense: Additional +200",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -270,6 +324,9 @@
                     },
                     {
                         "id": 61100008,
+                        "name": "Attacker Mode I",
+                        "shortDesc": "Attack Power: +10, Critical Rate: +2%, Boss Damage: +5%",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -281,6 +338,9 @@
                 [
                 "3rd Job", [{
                         "id": 61110015,
+                        "name": "Dragon Slash II",
+                        "shortDesc": "Additional 70% bonus to Dragon Slash damage",
+                        "maxLevel": 2,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Dragon_Slash_II.png/revision/latest?cb=20120810144648", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -290,6 +350,9 @@
                     },
                     {
                         "id": 61111100,
+                        "name": "Wing Beat",
+                        "shortDesc": "MP Cost: 35, Damage: 200%, Number of Attacks: 40, Chance to Slow Attacked Monsters: 40%\\nDissipates when certain number of attacks are made, set distance is traveled, or duration expires.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Wing_Beat.png/revision/latest?cb=20120711071512"],
                         "animations": ["https://media.giphy.com/media/JNxvdTpydxnjeRRzK3/giphy.gif"],
                         "type": "Attack",
@@ -302,6 +365,9 @@
                     },
                     {
                         "id": 61111101,
+                        "name": "Pressure Chain",
+                        "shortDesc": "MP Cost: 30, Penetrates then pulls 8 enemies dealing 280% damage 2 times, Stun Chance: 95%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Pressure_Chain.png/revision/latest?cb=20120711072423"],
                         "animations": ["https://media.giphy.com/media/Teymdfasnw9rTJWvng/giphy.gif"],
                         "type": "Attack",
@@ -312,6 +378,9 @@
                     },
                     {
                         "id": 61111008,
+                        "name": "Final Form",
+                        "shortDesc": "MP Cost: 40, Duration: 60, Final Damage: +10%, Power Stance Chance: +100%. Ignores enemies' attack-ignoring and attack-reflecting effects.\\nAfter 4th Job Advancement: Final Damage: +15%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949"],
                         "animations": ["https://media.giphy.com/media/YRV9WjMrXTvI6Xjhko/giphy.gif"],
                         "type": "Active Transform",
@@ -323,6 +392,9 @@
                     },
                     {
                         "id": 61111002,
+                        "name": "Stone Dragon",
+                        "shortDesc": "MP Cost: 35, Summon Duration: 60 sec, Enemies Hit: 8, Damage: 400%, Slow Chance: 75%, Slow Duration: 3 sec",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Stone_Dragon.png/revision/latest?cb=20120711072454"],
                         "animations": ["https://media.giphy.com/media/WPv39R4DsuzoKmsurS/giphy.gif"],
                         "type": "Summon",
@@ -334,6 +406,9 @@
                     },
                     {
                         "id": 61111003,
+                        "name": "Cursebite",
+                        "shortDesc": "MP Cost: 40, Duration: 240 sec, Status Resistance: +60, Elemental Resistance: +60%\\nFinal Damage against monsters with Abnormal Status increases by 15%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Cursebite.png/revision/latest?cb=20120711072547"],
                         "animations": ["https://media1.giphy.com/media/fZ26qxlsTkxJZ75CoZ/giphy.gif"],
                         "type": "Buff",
@@ -344,21 +419,33 @@
                     },
                     {
                         "id": 61110004,
+                        "name": "Catalyze",
+                        "shortDesc": "Attack Power: +30%, Critical Rate: +20%, Final Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Catalyze.png/revision/latest?cb=20160627053430"],
                         "type": "Passive"
                     },
                     {
                         "id": 61110006,
+                        "name": "Self Recovery",
+                        "shortDesc": "Every 4 sec, restores 5% HP and MP even in combat.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Self_Recovery_%28Kaiser%29.png/revision/latest?cb=20120711072822"],
                         "type": "Passive"
                     },
                     {
                         "id": 61110007,
+                        "name": "Advanced Inner Blaze",
+                        "shortDesc": "STR: +30, HP: +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Advanced_Inner_Blaze.png/revision/latest?cb=20120711072910"],
                         "type": "Passive"
                     },
                     {
                         "id": 61110005,
+                        "name": "Defender Mode II",
+                        "shortDesc": "Defense: Additional +200\\n3% of max HP restored when using Dragon Link skills.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -369,6 +456,9 @@
                     },
                     {
                         "id": 61110010,
+                        "name": "Attacker Mode II",
+                        "shortDesc": "Attack Power: +15, Critical Rate: +5%, Boss Damage: +5%\\nFinal Damage additionally increased by 5% when using Dragon Link skills.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -381,6 +471,9 @@
                 [
                 "4th Job", [{
                     "id": 61120020,
+                    "name": "Dragon Slash III",
+                    "shortDesc": "Additional 90% bonus to Dragon Slash damage",
+                    "maxLevel": 6,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dragon_Slash_III.png/revision/latest?cb=20120810145754", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -390,6 +483,9 @@
                 },
                 {
                     "id": 61121100,
+                    "name": "Gigas Wave",
+                    "shortDesc": "MP Cost: 50, Enemies Hit: 1, Damage: 330%, Number of Attacks: 9\\nFinal Form: MP Cost: 60, Enemies Hit: 3, Damage: 330%, Number of Attacks: 11",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852"],
                     "animations": ["https://media.giphy.com/media/cP5XFUcr3vkzW0e8m8/giphy.gif"],
                     "type": "Attack",
@@ -401,6 +497,9 @@
                 },
                 {
                     "id": 61121102,
+                    "name": "Dragon Barrage",
+                    "shortDesc": "MP Cost: 50, Max Enemies Hit: 12, Damage: 550%, Number of Attacks: 7\\nFinal Form: MP Cost: 60, Enemies Hit: 12, Damage: 550%, Number of Attacks: 9.\\nCooldown: 5 sec.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Dragon_Barrage.png/revision/latest?cb=20120711155148"],
                     "animations": ["https://media.giphy.com/media/cIDaNCkmfZno9R9Z44/giphy.gif"],
                     "type": "Attack",
@@ -411,6 +510,9 @@
                 },
                 {
                     "id": 61121104,
+                    "name": "Blade Burst",
+                    "shortDesc": "MP Cost: 45, Mobs Hit: 12, Damage: 300%, Number of Attacks: 5. Explosion damage hits 12 enemies for 225% damage 4 times.",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Blade_Burst.png/revision/latest?cb=20120711155311"],
                     "animations": ["https://media2.giphy.com/media/jBTUak4IWQ6rvehl0V/giphy.gif"],
                     "type": "Attack",
@@ -422,6 +524,9 @@
                 },
                 {
                     "id": 61121105,
+                    "name": "Inferno Breath",
+                    "shortDesc": "MP Cost: 70, Damage: 300%, Number of Attacks: 8, Max Enemies Hit: 15, Continuous Damage Dealt Afterwards\\nCooldown: 20 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Inferno_Breath.png/revision/latest?cb=20120711155347"],
                     "animations": ["https://media.giphy.com/media/Pn7tLd3SRqymurqs3K/giphy.gif"],
                     "type": "Attack",
@@ -432,6 +537,9 @@
                 },
                 {
                     "id": 61120007,
+                    "name": "Advanced Tempest Blade",
+                    "shortDesc": "MP Cost: 60, Number of Your Swords Summoned: 5. Use the skill again after summoning to send the swords at the enemy and deal 400% damage with 4 attacks.\\nCooldown: 10 sec\\nPermanently Increase Attack Power: +20\\nFinal Form: Number of Attacks: +1",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Advanced_Tempest_Blades.png/revision/latest?cb=20120711155438", "https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -442,17 +550,26 @@
                 },
                 {
                     "id": 61121009,
+                    "name": "Grand Armor",
+                    "shortDesc": "MP Cost: MP 60, Duration: 240, Damage Taken: -30%, Party's Damage Taken: -10%",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Grand_Armor.png/revision/latest?cb=20120711155721"],
                     "animations": ["https://media0.giphy.com/media/cIKW4al99NOXpwvxtH/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 61120011,
+                    "name": "Unbreakable Will",
+                    "shortDesc": "40% monster DEF ignored",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Unbreakable_Will.png/revision/latest?cb=20120711164408"],
                     "type": "Passive"
                 },
                 {
                     "id": 61120012,
+                    "name": "Expert Sword Mastery",
+                    "shortDesc": "Two-Handed Sword Mastery: +70%, Attack Power: +30, Critical Rate: +20%, Critical Damage: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Expert_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120711164442", "https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120710092315"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -463,12 +580,18 @@
                 },
                 {
                     "id": 61121014,
+                    "name": "Nova Warrior",
+                    "shortDesc": "MP Cost: 60, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Nova_Warrior_%28Kaiser%29.png/revision/latest?cb=20171217232514"],
                     "animations": ["https://media3.giphy.com/media/AvN8Xla6VPprOB8pXS/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 61121015,
+                    "name": "Nova Temperance",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230"],
                     "animations": ["https://media2.giphy.com/media/vo6UGpCKG27VWiR297/giphy.gif"],
                     "type": "Buff",
@@ -476,6 +599,9 @@
                 },
                 {
                     "id": 61120010,
+                    "name": "Defender Mode III",
+                    "shortDesc": "Defense: Additional +200\\nDamage Reduction During Final Form: 5% (including Percentage HP attacks)",
+                    "maxLevel": 2,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -486,6 +612,9 @@
                 },
                 {
                     "id": 61120013,
+                    "name": "Attacker Mode III",
+                    "shortDesc": "Attack Power: +15, Critical Rate: +10%, Boss Damage: +5%\\nDamage additionally increased by 10% when attacking Boss Monsters in Final Form mode.",
+                    "maxLevel": 2,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -500,12 +629,18 @@
             "hyperPassive": [
                 {
                     "id": 61120043,
+                    "name": "Gigas Wave - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Gigas_Wave_-_Reinforce.png/revision/latest?cb=20120819013222"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 61120044,
+                    "name": "Gigas Wave - Burden",
+                    "shortDesc": "Duration +5 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Gigas_Wave_-_Burden.png/revision/latest?cb=20130624053437"],
                     "type": "Passive",
                     "desc": "Increases duration of slow",
@@ -513,42 +648,63 @@
                 },
                 {
                     "id": 61120045,
+                    "name": "Gigas Wave - Bonus Attack",
+                    "shortDesc": "Number of Hits +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Gigas_Wave_-_Bonus_Attack.png/revision/latest?cb=20120819013507"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 61120046,
+                    "name": "Inferno Breath - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Inferno_Breath_-_Reinforce.png/revision/latest?cb=20120819013614"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 61120047,
+                    "name": "Inferno Breath - Burn",
+                    "shortDesc": "Flame duration +10 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Inferno_Breath_-_Burn.png/revision/latest?cb=20120819013730"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 61120048,
+                    "name": "Inferno Breath - Blaze",
+                    "shortDesc": "Flame Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Inferno_Breath_-_Blaze.png/revision/latest?cb=20120819013942"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 61120049,
+                    "name": "Wing Beat - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/38/Skill_Wing_Beat_-_Reinforce.png/revision/latest?cb=20120819014143"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 61120050,
+                    "name": "Wing Beat - Pummel",
+                    "shortDesc": "Duration +5 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Wing_Beat_-_Pummel.png/revision/latest?cb=20120819014234"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 61120051,
+                    "name": "Wing Beat - Extra Attack",
+                    "shortDesc": "Number of Hits +8",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Wing_Beat_-_Extra_Attack.png/revision/latest?cb=20120819014326"],
                     "type": "Passive",
                     "reqLev": 190
@@ -557,6 +713,9 @@
             "hyperActive": [
                 {
                     "id": 61121054,
+                    "name": "Kaiser's Majesty",
+                    "shortDesc": "MP Cost: 300, Cooldowns Reset, Duration: 30 sec, ATT +30, Attack Speed +1. Negates enemy's Attack Ignore and Attack Reflect effects\\nCooldown: 90 sec. Hyper Skill cooldowns not reset.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Kaiser%27s_Majesty.png/revision/latest?cb=20121015212936"],
                     "animations": ["https://media4.giphy.com/media/acfMhcGA8oUEizIr3k/giphy.gif"],
                     "type": "Buff",
@@ -568,6 +727,9 @@
                 },
                 {
                     "id": 61121052,
+                    "name": "Ancestral Prominence",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 15, Damage: 1000%, Number of Attacks: 15. Invincible during casting.\\nCooldown: 60 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Ancestral_Prominence.png/revision/latest?cb=20120819014423"],
                     "animations": ["https://media0.giphy.com/media/leAltxVhD1T7wuTLd3/giphy.gif"],
                     "type": "Attack",
@@ -579,6 +741,9 @@
                 },
                 {
                     "id": 61121053,
+                    "name": "Final Trance",
+                    "shortDesc": "MP Cost: 300, Transforms into Final Form for 60 sec.\\nCooldown: 300 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Final_Trance.png/revision/latest?cb=20120819014545"],
                     "animations": ["https://media1.giphy.com/media/zngA7kj6xJNrizAPmc/giphy.gif"],
                     "type": "Buff / Transform",

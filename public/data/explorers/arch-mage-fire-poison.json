@@ -96,7 +96,7 @@
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/2893/magician",
-            "https://maplestory.fandom.com/wiki/Magician"
+            "https://maplestory.fandom.com/wiki/Magician_(Fire,_Poison)"
         ],
         "credits": [
             ["Skill Icons", "MapleWiki"],
@@ -118,7 +118,7 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/qeIExni.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC/0lEQVR4nL1XAZGrMBBdZmoAC/kSqAQqgUoACSABJBAJjYRDApHQSCgS+NnA0gQIF64zXW4OEkL27du3S7mAayN8xyK6sAGMP/3zK95v138jgSAAxnmasFMbDcPgjOM4DnpuHEeIosiAuPzFOTlWSjnzjLFgIPWjh+p+HS9w0tA5Ob5er869vu8XIKFsnAJAzslx2bbmrKR0ACGQUBDBAGznz+cTeNcZxwO8dZDmGS40a0JBBAE4dG4JkS6TNF1AJEnyOQDbupluF+D7AsHaUa/HpwHY0bePBygcW9Eb5zOCwTrbLByl4hQDnab+CChakqUaoILAIjgHoC5LkwJkQcotGOO8kxPtgX3lEMBafPeiWEour2sDYlBqohfTsWpMHwOwrWoaZ8yrCtIsA6YjRconwO/7MfuQAbvj/WbIgNGiXk/PqIYv93HOJ8RdAJuOV/9AU90gy/NpwzkNnRCGBdDBSj5pos3KeQ+3XfuqYQPAyfvrBZxLkMqtfaabi7QqouMCXlojouLGsf2OLNPM7OkrSQeA1znWdZaD4BzWhnNr5+vXNFqe7HdHrwa6bpv/REeDAA29lhNRCd82Bgwe6+64AeB2vF5fD0v0765HGzE9M4Fosxqf3kS/nOE9tlk4ZEAEdLwsL0E0lR5L/9rZecoS07z2bBdAW+cmBYaFnY6HyicR5m09p2BYlO+s1c4lsqMBsHjbGxYAtvhu9wIG6nhla0CoYep4lCql51B8lV4r59rPUSN42Gs9kXsZKCpX6bwpTAUwpJHKcd6UF5W7thOQaYVjpGqHDRbaiHxGSg7pkLE+8I+A+HSwAMAGgerENKR5jRpf0iAFNyzEqH4tOvPrV0da6fk6xU7IljQI/QyyAHMKKO+oA7xHzQjm9YcMxHoj1W1r3FTCKppEb8pnwWbwbjRUCbbz3U6IkzYLZFSz65/gdO/M2l/fBTaIvQ3Wdnat720Y4bcafR0RiBA7u5asERK/ivAyIgYMCPxc+oaRc/xnpyDCbzX4ji2f5/8BSxxCgTxgn7sAAAAASUVORK5CYII="],
                     "animations": ["https://media3.giphy.com/media/GNEhN7n8SMsICftsiO/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
@@ -129,7 +129,7 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/GpKcy63.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVR4nL1Xi5GDIBDFmTRASjAlnCXEEmIJZwlnCZcSvBJiCVqClJC0QAkeS7KKggtGJm8yBvnt4+2ywoHNMbDPIMGCSWBo+/tHrOfZaUASSEAbP3+luydPknFxbBjcgkK96qdJHGIaR/xezqxqOrrPrWdVkQ0HFgnmyvmibk0JQDQCgPr7YpXLv4YcE5UAGrv9XFhxbVgIVgmYkiIoKe99q/9PWT76AOo4p2OLVKCt67GclyU5EZNTsaiaqY4zEl4XiC5MSrVU/dff6hcZyUIwI+CSfa196Q6wLyV7Ss6fBHiaqndaAksBU3Y9saPe6Q5lmCujuG6f71cJgMVHZySR1woegk4sx+PRWU8FrpOAJ2ZILNXzBq6LQFZMgyCgxGvlZeC+Dg5aFwHcywDcz9zRLh+CxcKMANdhpE2YlQvQTtrqwrkLUkXBsJ3lcx9iZJ+KSj2rIAO+jGopAD/gcG/b+ShoMva0TjguePqYMWYRwMHwlLosjSYMiMmA6Oit6Wu3CUzm7Aym3/ds0k0EUG6PwQh81j9Gnhy+9CUAfG5mzJAzwVsHEjNfIMxzgK/vbgKbpN97HnDPmVKN4X3fJsDDJdh8Hgic1Vm9zJxU330EHPAFG0Uggbva3ttR6AkIcG0E3IqgmKACmgRcl6JD2J9uNA4P0wUJ3NXYZzB+Iv8Bbq6jgAlpMSsAAAAASUVORK5CYII="],
                     "animations": ["https://media4.giphy.com/media/2TgbcwrbxeatNQ6pa7/giphy.gif"],
                     "type": "Buff"
                 },
@@ -139,7 +139,7 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["https://i.imgur.com/LCMnk0k.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACx0lEQVR4nL1XgZGbMBCUZ9yAvgRSAl8CKYGU4Bb8JZgWKCGUEEp4SgglvEpwtJJWOgkZ+2di7xiQsXy7d9zpxFHluKrX4MCBFHD98/n3Jew/339cKYICHHnXNv+dzITTMAzqfD67e19fV/X2dnAijs8kpwLjZQQRJzvS6vL7U338er8e1RNhQG5P4zg6Yq21+vigCI+nCTCMfQDI89+eKIDkuNJ7f9+48TCMSrfd4wKoWDhRnydOkhzeG+m2wK4Ak5+sEb0vgglXeE5AyDRNjwugwcb+cV2NNQAhWwUy5MA4JXI+e5J3XaeWZXxQgEUTDDSND2MpoUZ+sfVehhzkTdOoeZ6z+3cFwBDUr7iCOiigfUhCuPv+ZEk8uZ+bvAd53/fuuiyrOp3sXHu9K0Br/9xNMFjzGuTxZqh7SY7vJC/D/1AEghRJH/MS5JfL2RnHgXEZevnsUX7wXibyN9YBEw0AzPJaeeWLjnHkOiufNN4vQz7nsJxyXENrewnzRc7jdyzBpfe7AkpyGequ66Nxelh6LscgRx6k3+4IKDO8fLbzPMU6R1ltQ5zAhYdXtuRdAaQXvSQS9b3vaDQqPUsOmFjvqH0c0zRvVsZdAeCueQ/geVNQSSzFAuu6OnKfvPrxHFBG7aIWdn5nVCCI5Ld6yLfb8a2wEzJasWwdeb2RbQSUGwkJhPYWOYgRbhxLWGYJHeeo/UdgxMQ86/cznXPbtnUHNG7rvt7Sj8lIboxL672QOw+LmgcSuVbsG7GjmhsroVzxmP2+gSzOsz1IYnDqYt8Acoqt7gmxZSYxxSCJkoH6tp1z2CN0JeFiR41bsxsRkM0FhnuEsSAqURKHT4bU1rfiogDuVjPDwtgJq1hRHMlQnbg+NwcEHPCuhrcjv06TRfwDxuvbwbs75RqGacFbEYYHRsCJwOvSK0BynGQOHPCupl6D+Hr+Dx893LO6fTh1AAAAAElFTkSuQmCC"],
                     "animations": ["https://media3.giphy.com/media/ovwoxK9O4JAkSKtKm3/giphy.gif"],
                     "type": "Buff"
                 },
@@ -149,7 +149,7 @@
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://i.imgur.com/O2v7k8w.png"],
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAELUlEQVR4nL1X77WqMAwP57hAHQFHgBFwBByBO4KO4B1BR5ARZAQdQUawI/QlTUJThPvel3dzDra0afLLX+oGcgrwO1ToxAII98cLHE48Pv9v9FDXdVAQCiA8UHnl9oYVZnNY2Vsb1/kvtzt8HfYRxEYtT8ohjfGMrkG+Z+flC2Cs0/sTFVXlKn9XnQAExCYtO36iUrEkgvdmff6O8/Jh5Dte6/Fp3DK/CFK/bPLDIsCViVmFekGge/Re3o11uD4MAFfcu6N3DxjiBpfbljFEecjj6GwZhwmAVw9EHaWsKDMkpQoyOuv2GZkKNd5wskflt1a86JNcJ8BJjiCQEKhrdEOUqAfUchAQ7gIfRNY3HfO0jg1Q/kluOSnW3Nok+DYBlzIbzIj03KLFb55fcd7h/IqWt2d8uhVZYIAthUCZ3RGH72UhDoU/UVEVEghV3l1Mos1LcLk88yqwZUcgIvUp/k8sn6rLlSt1uOavuZei+7v0rvuOqiALgSYYfNJwwNhSz8AYlxz7otBOOnVUCCEkI6DNZajHjJGzKjA5MO87qDeWE/04Vs7KDMvoF9cnqmT9ScbcJSIfIQBxmUrdckO54OFTEY0qalhU0pQO7q/3zyDgiYzStK77qYxTCEBaZ49aWoxt82bLSflZhRawSt7DX4nyq9/FfOmwcr4gCwHwJuYcuC0DiOY5+CdyP/GNMMW/e8WKuTrqonsTArKclN/Q2i+yVEDQQxn/d/N+WBdwHuU4LlvfD3FpkzMuEOXCwN2N4juP8zCO0bX7ercSf1buUbkjA1v0ssN7h+2E1WisJ7oYLww5MAVBSaf9YV9vZ8rVY+/p3VFCU6+ghtXspnbOHujXrPecgCdOvlT/GL3dNoKg0e4xEM/9q0XFBMJ2YqG8Ed0WXHfJ14raf7p4ZMupD6g3OESs0JEBTcG9pJWz5IXvAo7tAU6Q3wmXCa0vvmFSRBZHIKP0iZY88Io5QB65P6gfIA8lOXXQfqV0e9OI4uVhyQtGOVVCg44LD8dVQdYdOaYNxjS8yaW7aHlsShGosdzSMUzy10NAdGZ3JdT0I5/So3GpWhkvJeb8UMh3ZJ0YAN1gNEmmPgCf3wUFdZq51QsQUmgPURMjcEteEMMYQCfabDW0LCg08gG6G8HnmcAuJCDAFfIOTvrHigeOIYVgwGt1E6/RBedD51IrJhAkg+JOoE5FHgIiDYG07RDEGHolr6hd7SykkN0JhYFAGOUTVaYlH2dWtTYP6OxWrgTmjqENzSlQfD9ld0IjTGnYLoOxXrgu5Ys5o+vNVrogXeffcI3fAv4YFXW9479m078ZSMljQcQrmCSabdH02Y635QWwkT/wXlvEkZTjv6K4qY0ogqD/bKlv4oUhorzIaNZpLD2v08XiqZdMy2f5dZ3k96j8oMiyTljIH8bfoCkT/wAXlggNeeq6hwAAAABJRU5ErkJggg=="],
                     "animations": ["https://media1.giphy.com/media/9CMy7sLPg8PkWApcjD/giphy.gif"],
                     "type": "Active"
                 }]
@@ -158,6 +158,9 @@
                 "1st Job", [
                     {
                         "id": 2001008,
+                        "name": "Energy Bolt",
+                        "shortDesc": "MP Cost: 24, Damage: 309%, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Energy_Bolt.png/revision/latest?cb=20140409055248"],
                         "animations": ["https://media.giphy.com/media/Qy80HxOG1aC4MBDyIL/giphy.gif"],
                         "type": "Attack",
@@ -165,6 +168,9 @@
                     },
                     {
                         "id": 2001002,
+                        "name": "Magic Guard",
+                        "shortDesc": "MP Cost: 13, Damage Displaced: 85% of your MP, Duration: While the skill is activated",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158"],
                         "animations": ["https://media4.giphy.com/media/TcWUHRjSSskegm8p65/giphy.gif"],
                         "type": "Toggle Buff",
@@ -175,6 +181,9 @@
                     },
                     {
                         "id": 2001009,
+                        "name": "Teleport",
+                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 170, and up and down with 275",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454"],
                         "animations": ["https://media.giphy.com/media/L133pkHETSckyF8WQs/giphy.gif"],
                         "type": "Active",
@@ -185,11 +194,17 @@
                     },
                     {
                         "id": 2000010,
+                        "name": "Magic Armor",
+                        "shortDesc": "Defense: +100",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Magic_Armor.png/revision/latest?cb=20150915081824"],
                         "type": "Passive"
                     },
                     {
                         "id": 2000006,
+                        "name": "MP Boost",
+                        "shortDesc": "Max MP: +20%, MP increases by 120 per level\\nCritical Rate: +5% when equipped with a Wand",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_MP_Boost.png/revision/latest?cb=20110422142449"],
                         "type": "Passive"
                     }]
@@ -198,6 +213,9 @@
                 "2nd Job", [
                     {
                         "id": 2101004,
+                        "name": "Flame Orb",
+                        "shortDesc": "MP Cost: 22, Damage: 301%, Number of Attacks: 2, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Flame_Orb.png/revision/latest?cb=20130706125153"],
                         "animations": ["https://media3.giphy.com/media/F60tAozrH2vSSd3PUH/giphy.gif"],
                         "type": "Attack",
@@ -208,11 +226,17 @@
                     },
                     {
                         "id": 2100009,
+                        "name": "Elemental Drain",
+                        "shortDesc": "For each Damage-Over-Time effect active on nearby foes (up to 5): Final Damage: +3%.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201"],
                         "type": "Passive"
                     },
                     {
                         "id": 2101005,
+                        "name": "Poison Breath",
+                        "shortDesc": "MP Cost: 17, Damage: 180%, Enemies Hit: 6, Damage Over Time: 60% damage every 1 sec for 10 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Poison_Breath.png/revision/latest?cb=20110423005310"],
                         "animations": ["https://media2.giphy.com/media/2Cn6EWrfuEmH1HKHIu/giphy.gif"],
                         "type": "Attack",
@@ -220,12 +244,18 @@
                     },
                     {
                         "id": 2101001,
+                        "name": "Meditation",
+                        "shortDesc": "MP Cost: 16, Party Member Magic ATT: +30, Duration: 240 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Meditation.png/revision/latest?cb=20110423005230"],
                         "animations": ["https://media2.giphy.com/media/uBX7fKZ7SGny1p9rKb/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 2101008,
+                        "name": "Magic Booster",
+                        "shortDesc": "MP Cost: 20, Weapon's Attack Speed increased for 240 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Magic_Booster_%28Magician%29.png/revision/latest?cb=20110423053853"],
                         "animations": ["https://media1.giphy.com/media/sltnZGDLPRTZYwKoj8/giphy.gif"],
                         "type": "Buff",
@@ -233,6 +263,9 @@
                     },
                     {
                         "id": 2101010,
+                        "name": "Ignite",
+                        "shortDesc": "When casting Fire magic, 50% chance to create a wall of fire that attacks at a certain interval with the following effects - [Max Enemies Hit: 8. Damage: 40%, Attack Count: 3, Duration: 6]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Ignite.png/revision/latest?cb=20160107233500"],
                         "animations": ["https://media1.giphy.com/media/N1zRZJ49zzU2d9vcrT/giphy.gif"],
                         "type": "Toggle",
@@ -244,16 +277,25 @@
                     },
                     {
                         "id": 2100006,
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: 50%, Magic ATT: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
                         "type": "Passive"
                     },
                     {
                         "id": 2100007,
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
                         "type": "Passive"
                     },
                     {
                         "id": 2100000,
+                        "name": "MP Eater",
+                        "shortDesc": "MP Absorb Chance: 20%, Amount Absorbed: 10% of the enemy's Max MP",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_MP_Eater.png/revision/latest?cb=20110423005222"],
                         "type": "Passive",
                         "desc": "Your attacks have a chance to steal a portion of the enemy's %Max HP",
@@ -265,6 +307,9 @@
                 [
                 "3rd Job", [{
                         "id": 2111002,
+                        "name": "Explosion",
+                        "shortDesc": "MP Cost: 56, Damage: 405%, Number of Attacks: 2, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Explosion.png/revision/latest?cb=20110423053834"],
                         "animations": ["https://media3.giphy.com/media/dIHEtFLsQugRKhSgwO/giphy.gif"],
                         "type": "Attack",
@@ -272,6 +317,9 @@
                     },
                     {
                         "id": 2111003,
+                        "name": "Poison Mist",
+                        "shortDesc": "MP Cost: 55, Damage: 270%, Duration: 15 sec, Damage Over Time: 240% damage every 1 sec for 6 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620"],
                         "animations": ["https://media1.giphy.com/media/1d8hqVLUWhuOQMXpA1/giphy.gif"],
                         "type": "Attack",
@@ -279,6 +327,9 @@
                     },
                     {
                         "id": 2111010,
+                        "name": "Viral Slime",
+                        "shortDesc": "MP Cost: 40, 160% continuous damage to the target for 10 sec. Slime will last up to 60 sec and it will split up to 10 slimes\\n[Cooldown: 60 sec]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Viral_Slime.png/revision/latest?cb=20130706135447"],
                         "animations": ["https://media4.giphy.com/media/ny5HoFR7Qcvxfp7eIP/giphy.gif"],
                         "type": "Summon",
@@ -289,6 +340,9 @@
                     },
                     {
                         "id": 2111011,
+                        "name": "Elemental Adaptation (Fire, Poison)",
+                        "shortDesc": "MP Cost: 35, upon defending critical Abnormal Status, consumes up to 2% of Max MP and regenerate the barrier up to 5 times at 80% chance.\\nCooldown: 240 sec\\n[Passive Effect: Increases Abnormal Status and all Elemental Resistances by 20%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Elemental_Adaptation_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135452"],
                         "animations": ["https://media4.giphy.com/media/KLGYmnxvnbWy0ZfKfs/giphy.gif"],
                         "type": "Buff",
@@ -300,15 +354,21 @@
                     },
                     {
                         "id": 2111008,
+                        "name": "Elemental Decrease",
+                        "shortDesc": "MP Cost: 50, Elemental Attribute Resistance: -10%, Duration: 240 sec\\n[Passive : Final damage +40%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Elemental_Decrease.png/revision/latest?cb=20110423053958"],
                         "animations": ["https://media2.giphy.com/media/WYdinWgGQhirP3LX5O/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 2111007,
+                        "name": "Teleport Mastery",
+                        "shortDesc": "Additional MP Cost: 20, Max Enemies Hit: 6, Damage: 272%, Stun Chance: 80%, Stun Duration: 4. For 4 sec, 98% damage at every 2 sec.\\nPermanently increases Teleport distance by 20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Teleport_Mastery_%28Fire%2C_Poison%29.png/revision/latest?cb=20130706135459"],
                         "type": "Toggle Attack",
-                        "desc": "When toggled, when you use <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454' alt='Skill Light Speed' width='32' height='32' />, nearby enemies will take damage",
+                        "desc": "When toggled, when you use <img src='https://i.imgur.com/pJQKhJ7.png' alt='Skill Teleport' width='32' height='32' />, nearby enemies will take damage",
                         "details": [
                             "Has a chance to stun enemies and apply a damaging burn debuff",
                             "Permanently increases the teleport distance"
@@ -316,6 +376,9 @@
                     },
                     {
                         "id": 2110012,
+                        "name": "Mana Burn",
+                        "shortDesc": "Upon casting fire magic, burn 1% of enemy's current MP at 10% chance. 50 times of consumed MP will be dealt as an extra hit. If enemy's MP is under 20%, activation will be restricted",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Mana_Burn.png/revision/latest?cb=20130706135523"],
                         "type": "Passive",
                         "desc": "When using Fire-Attribute attacks magic, your attack has a chance to reduce an enemy's MP and deal damage based on the MP consumed",
@@ -326,16 +389,25 @@
                     },
                     {
                         "id": 2110001,
+                        "name": "Element Amplification",
+                        "shortDesc": "MP Cost: +50%, Damage: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Element_Amplification.png/revision/latest?cb=20110423053825"],
                         "type": "Passive"
                     },
                     {
                         "id": 2110009,
+                        "name": "Arcane Overdrive",
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +13%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Arcane_Overdrive.png/revision/latest?cb=20110502085236"],
                         "type": "Passive"
                     },
                     {
                         "id": 2110000,
+                        "name": "Burning Magic",
+                        "shortDesc": "Increases damage over time durations by 100%, increases final damage by 20% when attacking enemies affected by damage over time, stun, freeze, darkness, or paralysis effects.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Burning_Magic.png/revision/latest?cb=20110423053714"],
                         "type": "Passive"
                     }]
@@ -343,6 +415,9 @@
                 [
                 "4th Job", [{
                     "id": 2121006,
+                    "name": "Paralyze",
+                    "shortDesc": "MP Cost: 40, Damage: 220%, Attack Count: 7, Max Enemies Hit: 8, Paralysis Duration: 5 sec, Damage Over Time: 240% damage every 1 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014"],
                     "animations": ["https://media2.giphy.com/media/L0qA8KCASi2vfEodPr/giphy.gif"],
                     "type": "Attack",
@@ -350,19 +425,25 @@
                 },
                 {
                     "id": 2121003,
+                    "name": "Mist Eruption",
+                    "shortDesc": "[Active Effects] MP Cost: 100, Max Enemies Hit: 12, Damage: 45%, Number of Attacks: 15, Number of Explosions: 4, Ignored Enemy Defense: +40%. Final Damage Modifier: +20% for 2 explosions, +45% for 3 explosions, +80% for 4 explosions, +125% for 5 explosions. Max Simultaneous Mist Explosions: 6. Cooldown: 10 sec\\nMist Eruption's cooldown is reduced by 2 seconds upon striking an enemy with 5 or more explosions. This cooldown reduction applies before other cooldown reductions.\\n[Passive Effect] Permanently increases Poison Mist's continuous damage to 300%.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219"],
                     "animations": ["https://media1.giphy.com/media/TfjB5lk7iyrfZoqJik/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Causes nearby <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist' width='32' height='32'> to erupt and explode damaging nearby enemies",
+                    "desc": "Causes nearby <img src='https://i.imgur.com/pItBAJg.png' alt='Skill Poison Mist' width='32' height='32'> to erupt and explode damaging nearby enemies",
                     "details": [
                         "Damage of the explosion is increased based on how many DoT debuffs an enemy has active",
                         "Explosion has increased %Ignore DEF",
-                        "<strong>[Passive]: </strong>Permanently increases %Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist' width='32' height='32'>",
+                        "<strong>[Passive]: </strong>Permanently increases %Damage of <img src='https://i.imgur.com/pItBAJg.png' alt='Skill Poison Mist' width='32' height='32'>",
                         "Cooldown is slightly reduced if an enemy is hit by 5 or more explosions"
                     ]
                 },
                 {
                     "id": 2120014,
+                    "name": "Fervent Drain",
+                    "shortDesc": "Increases the Final Damage of each damage-over-time effect inflicted by your skills by 5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -372,6 +453,9 @@
                 },
                 {
                     "id": 2121007,
+                    "name": "Meteor Shower",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 15, Damage: 315%, Number of Attacks: 12, Cooldown: 45 sec\\nPassive Effect: [Final Attack] While on cooldown, your attack skills have a 60% chance to strike a single enemy with a meteorite, dealing 220% damage.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Meteor_Shower.png/revision/latest?cb=20110423131347"],
                     "animations": ["https://media1.giphy.com/media/VCyjrru7lcA4FCIsJb/giphy.gif"],
                     "type": "Attack / Final Attack",
@@ -382,17 +466,23 @@
                 },
                 {
                     "id": 2121011,
+                    "name": "Flame Haze",
+                    "shortDesc": "MP Cost: 70, Damage on a Single Target: 202%, Number of Attacks: 15, inflicts 200% continuous damage at 100% chance for 10 sec. Maintains untouchable status and slows enemy by -50%. Upon hitting enemy, the Poison Mist forms on enemy location. If no enemy is hit, the Poison Mist forms on your location\\nCooldown: 10 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259"],
                     "animations": ["https://media2.giphy.com/media/h7LiJW2TuA5ymVDRre/giphy.gif"],
                     "type": "Attack",
                     "desc": "Launches a deadly fireball forward at a single enemy that applies a damaging burning debuff",
                     "details": [
                         "Enemies with the debuff cannot deal touch damage",
-                        "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620' alt='Skill Poison Mist'> will be automatically cast whenever you use Flame Haze"
+                        "<img width='32' height='32' src='https://i.imgur.com/pItBAJg.png' alt='Skill Poison Mist'> will be automatically cast whenever you use Flame Haze"
                     ]
                 },
                 {
                     "id": 2121004,
+                    "name": "Infinity",
+                    "shortDesc": "MP Cost: 80, Increases final damage of Magic ATT by 70%.\\nPeriodically recovers base HP and MP by 10% and increases final damage of Magic ATT by 3%.\\nFinal Damage increased by Infinity is additive.\\nKnockback Resistance: +70%, Duration: 40 sec, Cooldown: 3 min",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329"],
                     "animations": ["https://media3.giphy.com/media/87krexu1RFN1vFMVtv/giphy.gif"],
                     "type": "Buff",
@@ -404,6 +494,9 @@
                 },
                 {
                     "id": 2121005,
+                    "name": "Ifrit",
+                    "shortDesc": "MP Cost: 120, Duration: 260 sec, Damage: 150%, Max Enemies Hit: 3, Number of Attacks: 3. Duration: 2 sec. Causes damage every 1 sec. for 140% damage. Permanently increases mastery by 70%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551"],
                     "animations": ["https://media3.giphy.com/media/oAISaE5ddxQA5YBydk/giphy.gif"],
                     "type": "Summon",
@@ -415,12 +508,18 @@
                 },
                 {
                     "id": 2121000,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 2121008,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
                     "type": "Buff",
@@ -428,6 +527,9 @@
                 },
                 {
                     "id": 2120010,
+                    "name": "Arcane Aim",
+                    "shortDesc": "Ignores 20% of enemy DEF. Aside from minions' attacks, damage will increase by 8% for 5 sec at a 80% chance when the attack hits. Accumulates up to 5 times.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500"],
                     "type": "Passive",
                     "desc": "When attacking an enemy 3 or more times, you have a chance to gain a stacking %Damage buff",
@@ -438,6 +540,9 @@
                 },
                 {
                     "id": 2120012,
+                    "name": "Buff Mastery",
+                    "shortDesc": "Permanently Increased Magic ATT: +30, Buff Duration: +50%",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456"],
                     "type": "Passive"
                 }]
@@ -447,54 +552,97 @@
             "hyperPassive": [
                 {
                     "id": 2120043,
+                    "name": "Poison Mist - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Poison_Mist_-_Reinforce.png/revision/latest?cb=20140411045011"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of initial attack"
+                    ],
                     "reqLev": 140
                 },
                 {
                     "id": 2120044,
+                    "name": "Poison Mist - Aftermath",
+                    "shortDesc": "Bonus 6 seconds of additional damage",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Poison_Mist_-_Aftermath.png/revision/latest?cb=20140411045055"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 2120045,
+                    "name": "Poison Mist - Cripple",
+                    "shortDesc": "Additional 20% damage",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Poison_Mist_-_Cripple.png/revision/latest?cb=20140411045212"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of damage over time"
+                    ],
                     "reqLev": 180
                 },
                 {
                     "id": 2120046,
+                    "name": "Paralyze - Reinforce",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Paralyze_-_Reinforce.png/revision/latest?cb=20140411045250"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of initial attack"
+                    ],
                     "reqLev": 140
                 },
                 {
                     "id": 2120047,
+                    "name": "Paralyze - Cripple",
+                    "shortDesc": "Additional 20% damage",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Paralyze_-_Cripple.png/revision/latest?cb=20140411045321"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of damage over time"
+                    ],
                     "reqLev": 165
                 },
                 {
                     "id": 2120048,
+                    "name": "Paralyze - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Paralyze_-_Extra_Strike.png/revision/latest?cb=20140411044917"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 2120049,
+                    "name": "Mist Eruption - Reinforce",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Mist_Eruption_-_Reinforce.png/revision/latest?cb=20170109225038"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 2120050,
+                    "name": "Mist Eruption - Guardbreaker",
+                    "shortDesc": "Bonus 20% monster DEF ignored",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Mist_Eruption_-_Guardbreaker.png/revision/latest?cb=20160702034341"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 2120051,
+                    "name": "Mist Eruption - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -50%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Mist_Eruption_-_Cooldown_Cutter.png/revision/latest?cb=20120917110741"],
                     "type": "Passive",
                     "reqLev": 190
@@ -503,9 +651,12 @@
             "hyperActive": [
                 {
                     "id": 2121054,
+                    "name": "Inferno Aura",
+                    "shortDesc": "MP Cost: 100 per second, Damage per 3 second(s): 400%, Number of Attacks: 2.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Inferno_Aura.png/revision/latest?cb=20120917111149"],
                     "animations": ["https://media2.giphy.com/media/JmbaaYRl2pkb8LlFzt/giphy.gif"],
-                    "type": "Toggle Attack",
+                    "type": "Toggle Buff",
                     "desc": "When toggled, creates an aura that damages nearby enemies",
                     "details": [
                         "Unaffected by Attack Ignore and Damage Reflect"
@@ -514,6 +665,9 @@
                 },
                 {
                     "id": 2121052,
+                    "name": "Megiddo Flame",
+                    "shortDesc": "MP Cost: 500, Enemies Hit: 1, Damage: 420%, Number of Attacks: 15, 700% damage every 1 sec for 30 sec. Negates Attack Ignore and Attack Reflect effects.\\nCooldown: 50 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Megiddo_Flame.png/revision/latest?cb=20120917111033"],
                     "animations": ["https://media0.giphy.com/media/KbNch2qj6zb3W27ZKj/giphy.gif"],
                     "type": "Attack",
@@ -525,6 +679,9 @@
                 },
                 {
                     "id": 2121053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Epic_Adventure_%28Magician%29.png/revision/latest?cb=20121015210355"],
                     "animations": ["https://media2.giphy.com/media/wYtZ26mvvkPRIh7JIL/giphy.gif"],
                     "type": "Buff",
@@ -569,8 +726,8 @@
                     "type": "Summon",
                     "desc": "Summons a spirit of fire to attack nearby enemies",
                     "details": [
-                        "Duration is increased for each stack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201' alt='Skill Elemental Drain'>",
-                        "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit' width='32' height='32'> is active"
+                        "Duration is increased for each stack of <img width='32' height='32' src='https://i.imgur.com/noEPwHP.png' alt='Skill Elemental Drain'>",
+                        "Can only be used when <img src='https://i.imgur.com/enOfZGr.png' alt='Skill Ifrit' width='32' height='32'> is active"
                     ]
                 },
                 {
@@ -584,7 +741,7 @@
                     "details": [
                         "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<ul><li>Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion</li></ul>",
                         "Each enemy can only explode up to 9 times, and a total of 22 times across all affected enemies<ul><li>If you reach maximum explosions, when the skill ends, all enemies will explode for a final explosion</li></ul>",
-                        "Does not trigger Damage Reflect or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201' alt='Skill Elemental Drain'>"
+                        "Does not trigger Damage Reflect or <img width='32' height='32' src='https://i.imgur.com/noEPwHP.png' alt='Skill Elemental Drain'>"
                     ]
                 }
             ]
@@ -592,37 +749,37 @@
         "notable": [
             {
                 "name": "Poison Mist - 3rd Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Poison_Mist.png/revision/latest?cb=20140410010620"],
+                "icons": ["https://i.imgur.com/pItBAJg.png"],
                 "animations": ["https://media1.giphy.com/media/1d8hqVLUWhuOQMXpA1/giphy.gif"]
             },
             {
                 "name": "Paralyze - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014"],
+                "icons": ["https://i.imgur.com/J4eELbI.png"],
                 "animations": ["https://media2.giphy.com/media/L0qA8KCASi2vfEodPr/giphy.gif"]
             },
             {
                 "name": "Mist Eruption - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219"],
+                "icons": ["https://i.imgur.com/BO6Ul1i.png"],
                 "animations": ["https://media1.giphy.com/media/TfjB5lk7iyrfZoqJik/giphy.gif"]
             },
             {
                 "name": "Meteor Shower - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Meteor_Shower.png/revision/latest?cb=20110423131347"],
+                "icons": ["https://i.imgur.com/8INle4D.png"],
                 "animations": ["https://media1.giphy.com/media/VCyjrru7lcA4FCIsJb/giphy.gif"]
             },
             {
                 "name": "Flame Haze - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259"],
+                "icons": ["https://i.imgur.com/DazUdlT.png"],
                 "animations": ["https://media2.giphy.com/media/h7LiJW2TuA5ymVDRre/giphy.gif"]
             },
             {
                 "name": "DoT Punisher - 5th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_DoT_Punisher.png/revision/latest?cb=20161125062543"],
+                "icons": ["https://i.imgur.com/ZNYm428.png"],
                 "animations": ["https://media1.giphy.com/media/Qx3waqcKv23TIqquJo/giphy.gif"]
             },
             {
                 "name": "Elemental Fury - 5th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Elemental_Fury.png/revision/latest?cb=20181115065214"],
+                "icons": ["https://i.imgur.com/0xGGGBK.png"],
                 "animations": ["https://media1.giphy.com/media/dDYD46AEA9Ip9Ozzct/giphy.gif"]
             }
         ]

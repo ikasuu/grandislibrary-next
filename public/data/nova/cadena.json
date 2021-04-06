@@ -103,6 +103,9 @@
             [
                 "Beginner", [{
                     "id": 60020216,
+                    "name": "Haggle",
+                    "shortDesc": "Purchase items 4% cheaper at shops. Does not apply if the purchase cost is above 70% of the sales cost.\\nWhen stacked with the Merchandising guild skill, the higher figure is applied first.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Haggle.png/revision/latest?cb=20171205075509"],
                     "type": "Passive",
                     "desc": "Items are shops are discounted",
@@ -112,6 +115,9 @@
                 },
                 {
                     "id": 60021217,
+                    "name": "Back to HQ",
+                    "shortDesc": "Cooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Back_to_HQ.png"],
                     "animations": ["https://media3.giphy.com/media/jRxHOv78fkTmRIFZ9T/giphy.gif"],
                     "type": "Active"
@@ -137,6 +143,9 @@
                 "1st Job", [
                     {
                         "id": 64001000,
+                        "name": "Chain Arts: Pursuit",
+                        "shortDesc": "MP Cost: 10, Max Enemies Hit: 1, Damage: 100%, Number of Attacks: 1, 100% chance to slow enemies for 5 sec, enables Dark Sight state and cannot be hit from the time you start moving for 2 sec.\\nCooldown: 0.2 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Chain_Arts_Pursuit.png/revision/latest?cb=20171205075509"],
                         "animations": ["https://grandislibrary.files.wordpress.com/2017/08/maple_170822_045933-e1503345602115.jpg"],
                         "type": "Attack / Utility",
@@ -150,6 +159,9 @@
                     },
                     {
                         "id": 64001001,
+                        "name": "Chain Arts: Thrash",
+                        "shortDesc": "MP Cost: 13,\\n[1st Hit] Damage: 150%, Max Enemies Hit: 4, Number of Attacks: 2\\n[2nd Hit] Damage: 150%, Max Enemies Hit: 6, Number of Attacks: 2, 100% chance of slowing enemies for 5 sec.\\nSkills used immediately after 1st hit gain +10% Final Damage (Excludes Chain Arts: Thrash).",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Chain_Arts_Thrash.png/revision/latest?cb=20171205075509"],
                         "animations": ["https://grandislibrary.files.wordpress.com/2017/08/maple_170822_050256-e1503345799651.jpg"],
                         "type": "Basic Attack Modifier",
@@ -163,6 +175,9 @@
                     },
                     {
                         "id": 64001002,
+                        "name": "Summon Scimitar",
+                        "shortDesc": "MP Cost: 15, Damage: 125%, Max Enemies Hit: 6, Number of Attacks: 5\\nCooldown: 4 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Summon_Scimitar.png/revision/latest?cb=20171205075510"],
                         "animations": ["https://media0.giphy.com/media/hofKPVG2DxYV95iELl/giphy.gif"],
                         "type": "Attack",
@@ -170,6 +185,9 @@
                     },
                     {
                         "id": 64001003,
+                        "name": "Shadowstep",
+                        "shortDesc": "MP Cost: 5, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Shadowstep.png/revision/latest?cb=20171205075510"],
                         "animations": ["https://media3.giphy.com/media/DYHl3U39N5La0CpoLo/giphy.gif"],
                         "type": "Active",
@@ -181,11 +199,17 @@
                     },
                     {
                         "id": 64000004,
+                        "name": "The Way of Shadows",
+                        "shortDesc": "Avoidability: +15%, Max Movement Speed: +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0a/Skill_The_Way_of_Shadows.png/revision/latest?cb=20171205075510"],
                         "type": "Passive"
                     },
                     {
                         "id": 64000005,
+                        "name": "Uncanny Luck",
+                        "shortDesc": "Permanently increases LUK by 50",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Uncanny_Luck.png/revision/latest?cb=20171205075511"],
                         "type": "Passive"
                     }]
@@ -194,6 +218,9 @@
                 "2nd Job", [
                     {
                         "id": 64100000,
+                        "name": "Chain Arts: Thrash II",
+                        "shortDesc": "Chain Arts: Thrash 2nd Hit Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 3",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Chain_Arts_Thrash_II.png/revision/latest?cb=20171212083640", "https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Chain_Arts_Thrash.png/revision/latest?cb=20171205075509"],
                         "animations": ["https://media3.giphy.com/media/f5sGmIE94Alr4HL2Cc/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -204,6 +231,9 @@
                     },
                     {
                         "id": 64101001,
+                        "name": "Summon Claw",
+                        "shortDesc": "MP Cost: 20, Damage: 235%, Max Enemies Hit: 10, Number of Attacks: 4\\nCooldown: 3 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Summon_Claw.png/revision/latest?cb=20171212083616"],
                         "animations": ["https://media1.giphy.com/media/Etr8guuHM0IqGJpguN/giphy.gif"],
                         "type": "Attack",
@@ -214,6 +244,9 @@
                     },
                     {
                         "id": 64101002,
+                        "name": "Summon Shuriken",
+                        "shortDesc": "MP Cost: 28, Strikes for 205% damage 40 times over 7 sec. Automatically explodes once all attacks are expended, or when duration ends. Explosion deals 450% damage to 8 enemies 3 times.\\nPress the skill key again to manually detonate the shuriken\\nCooldown: 10 sec",
+                        "maxLevel": 19,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Summon_Shuriken.png/revision/latest?cb=20171212083649"],
                         "animations": ["https://media1.giphy.com/media/SpQVvbz0zLsfpOUDbW/giphy.gif"],
                         "type": "Attack",
@@ -224,6 +257,9 @@
                     },
                     {
                         "id": 64101003,
+                        "name": "Weapon Booster",
+                        "shortDesc": "MP Cost: 10, Increases attack speed of all weapons for 200 sec.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/81/Skill_Weapon_Booster_%28Cadena%29.png/revision/latest?cb=20171212083659"],
                         "animations": ["https://media3.giphy.com/media/0uA1Ms2TxRS3ZiLJ9c/giphy.gif"],
                         "type": "Buff",
@@ -231,6 +267,9 @@
                     },
                     {
                         "id": 64100004,
+                        "name": "Muscle Memory",
+                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +3% per stack, for 20 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing this buff stack inflicts additional hits. [Bonus Hits] Damage: 100%, Max Enemies Hit: 5, Number of Attacks: 2, Cooldown: 0.25 sec.\\n[Passive Effect: Damage for Scimitar +80%p]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Muscle_Memory.png/revision/latest?cb=20171212083708"],
                         "animations": ["https://media2.giphy.com/media/DtIEg85hNTSZDLUZiH/giphy.gif"],
                         "type": "Passive",
@@ -243,16 +282,25 @@
                     },
                     {
                         "id": 64100005,
+                        "name": "Weapon Mastery",
+                        "shortDesc": "Mastery with Chain, and all Summoned Weapons increased by 50%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Weapon_Mastery_%28Cadena%29.png/revision/latest?cb=20171212083720"],
                         "type": "Passive"
                     },
                     {
                         "id": 64100006,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increases LUK by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     },
                     {
                         "id": 64100007,
+                        "name": "Wisdom of Shadows",
+                        "shortDesc": "Attack Power: +10, Critical Damage: +5%, Critical Rate: +10%, Avoidability: +20%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Wisdom_of_Shadows.png/revision/latest?cb=20171212083733"],
                         "type": "Passive"
                     }]
@@ -261,6 +309,9 @@
                 "3rd Job", [
                     {
                         "id": 64110000,
+                        "name": "Chain Arts: Thrash III",
+                        "shortDesc": "Chain Arts: Thrash 2nd Hit Damage: 300%, Max Enemies Hit: 7, Number of Attacks: 4",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Chain_Arts_Thrash_III.png/revision/latest?cb=20171212085135", "https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Chain_Arts_Thrash.png/revision/latest?cb=20171205075509"],
                         "animations": ["https://media3.giphy.com/media/cHT1oXTUtXcopj68jF/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -272,6 +323,9 @@
                     },
                     {
                         "id": 64111002,
+                        "name": "Summon Shotgun",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 6, Number of Attacks: 7\\nClose Range Damage: 390%\\nMid Range Damage: 320%\\nLong Range Damage: 275%\\nCooldown: 5 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Summon_Shotgun.png/revision/latest?cb=20171212085142"],
                         "animations": ["https://media2.giphy.com/media/UUypEIg7mGtGlaKvpi/giphy.gif"],
                         "type": "Attack",
@@ -282,6 +336,9 @@
                     },
                     {
                         "id": 64111003,
+                        "name": "Summon Daggers",
+                        "shortDesc": "MP Cost: 35, Damage: 315%, Max Enemies Hit: 4, Number of Attacks: 8. Enemies struck will have a 100% chance to become Terrified for 10 sec, reducing their Defense by 30%.\\nCooldown: 10 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Summon_Daggers.png/revision/latest?cb=20171212085148"],
                         "animations": ["https://media3.giphy.com/media/JNfPdKnqb6NHTlafi7/giphy.gif"],
                         "type": "Attack",
@@ -292,6 +349,9 @@
                     },
                     {
                         "id": 64111004,
+                        "name": "Summon Decoy Bomb",
+                        "shortDesc": "Places a bomb that explodes after 1 sec. MP Cost: 40, Damage: 415%, Max Enemies Hit: 8, Number of Attacks: 6\\nCooldown: 8 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Summon_Decoy_Bomb.png/revision/latest?cb=20171212085156"],
                         "animations": ["https://media3.giphy.com/media/cuz1slMwOMEVMyWDWn/giphy.gif"],
                         "type": "Attack",
@@ -302,6 +362,9 @@
                     },
                     {
                         "id": 64110005,
+                        "name": "Muscle Memory II",
+                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +7% per stack, for 20 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 3\\nCooldown for Bonus Hits: 0.25 sec\\n[Passive Effects - Damage for Summon Scimitar, Claw, Shuriken +100%p]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Muscle_Memory_II.png/revision/latest?cb=20171212091434", "https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Muscle_Memory.png/revision/latest?cb=20171212083708"],
                         "animations": ["https://media3.giphy.com/media/RTQ8WNieZaAlJrVJ8r/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -314,16 +377,25 @@
                     },
                     {
                         "id": 64110006,
+                        "name": "Determination",
+                        "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Determination.png/revision/latest?cb=20171212091441"],
                         "type": "Passive"
                     },
                     {
                         "id": 64110007,
+                        "name": "Cheap Shot",
+                        "shortDesc": "Your attacks against enemies affected by Abnormal Statuses gain Critical Rate: +1%, Critical Damage +5%, Max Eligible Targets: 5",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Cheap_Shot.png/revision/latest?cb=20171212091457"],
                         "type": "Passive"
                     },
                     {
                         "id": 64110014,
+                        "name": "Keen Eye",
+                        "shortDesc": "Ignore DEF: +20%, Avoidability: +40%",
+                        "maxLevel": 19,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Keen_Eye.png/revision/latest?cb=20171212091505"],
                         "type": "Passive"
                     }]
@@ -332,6 +404,9 @@
                 "4th Job", [
                 {
                     "id": 64120000,
+                    "name": "Chain Arts: Thrash IV",
+                    "shortDesc": "Chain Arts: Thrash 2nd Hit Damage: 400%, Max Enemies Hit: 7, Number of Attacks: 5",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Chain_Arts_Thrash_III.png/revision/latest?cb=20171212085135", "https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Chain_Arts_Thrash.png/revision/latest?cb=20171205075509"],
                     "animations": ["https://media1.giphy.com/media/Zd14oAH7INl8O3zBnM/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -342,6 +417,9 @@
                 },
                 {
                     "id": 64121021,
+                    "name": "Summon Brick",
+                    "shortDesc": "MP Cost: 45, Damage: 485%, Max Enemies Hit: 7, Number of Attacks: 7\\nCooldown: 8 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Summon_Brick.png/revision/latest?cb=20171212091202"],
                     "animations": ["https://grandislibrary.files.wordpress.com/2017/08/maple_170822_065525-e1503352592332.jpg"],
                     "type": "Attack",
@@ -352,6 +430,9 @@
                 },
                 {
                     "id": 64121003,
+                    "name": "Summon Spiked Bat",
+                    "shortDesc": "MP Cost: 40, [First Hit] Damage: 450%, Max Enemies Hit: 8, Number of Attacks: 6\\n[2nd Hit] Damage: 555%, Number of Attacks: 7, Max Enemies Hit: 8\\n[3rd Hit] Damage: 715%, Max Enemies Hit: 10, Number of Attacks: 8\\nFor each enemy struck fewer than Max Enemies Hit, Damage Increase by 5%. Enemies struck by 3rd Hit have a 100% chance to be confused. [Confusion] Duration: 15 sec, Enemy Attack: -20%\\nCooldown: 12 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Summon_Spiked_Bat.png/revision/latest?cb=20171212091213"],
                     "animations": ["https://media2.giphy.com/media/5sEj4CQBCKThBnepdt/giphy.gif"],
                     "type": "Attack",
@@ -365,6 +446,9 @@
                 },
                 {
                     "id": 64121002,
+                    "name": "Chain Arts: Reign of Chains",
+                    "shortDesc": "MP Cost per attack: 25, Damage: 600%, Max Enemies Hit: 12, Number of Attacks: 2, Attack Duration: 6 sec,\\nCan use directional keys to move while holding the skill key.\\nCooldown: 50 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c1/Skill_Chain_Arts_Reign_of_Chains.png/revision/latest?cb=20171212091244"],
                     "animations": ["https://media4.giphy.com/media/8Ox03OIY5RKIXl3fUo/giphy.gif"],
                     "type": "Key-down Attack",
@@ -376,6 +460,9 @@
                 },
                 {
                     "id": 64121001,
+                    "name": "Chain Arts: Beatdown",
+                    "shortDesc": "MP Cost: 255, Max Enemies Hit: 1, Damage: 300%, Attacks: 2, Stun Duration: 10 sec. Increases stun duration up to 100% based on inflicted damage. If the enemy isn't stunned, invincible for 5 sec.\\nDepending on the number of skill key presses, follow-up attack power is divided into 3 levels. Attacks each group of enemies with 770%/880%/990% damage, respectively, 15 time(s), and activates a final attack that attacks 10 enemies with 250%/350%/500% damage, respectively, 10 time(s)\\nDuring the consecutive attacks, activates a shockwave that attacks up to 10 enemies with 600% damage 4 time(s). Additional DEF ignored: +80%.\\nCooldown: 150 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Chain_Arts_Beatdown.png/revision/latest?cb=20171212091301"],
                     "animations": ["https://media3.giphy.com/media/1GNXN0mVrLP25Buxx1/giphy.gif"],
                     "type": "Bind Attack",
@@ -387,12 +474,18 @@
                 },
                 {
                     "id": 64121004,
+                    "name": "Nova Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Nova_Warrior_%28Cadena%29.png/revision/latest?cb=20171212091307"],
                     "animations": ["https://media0.giphy.com/media/mL5BWodEyOyv4jhKBz/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 64121005,
+                    "name": "Nova Temperance",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230"],
                     "animations": ["https://media1.giphy.com/media/OubCLEOZUNkpBnvTJy/giphy.gif"],
                     "type": "Buff",
@@ -400,6 +493,9 @@
                 },
                 {
                     "id": 64120006,
+                    "name": "Muscle Memory",
+                    "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +11% for 20 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 350%, Max Enemies Hit: 7, Number of Attacks: 4, Cooldown: 0.25 sec\\n[Passive Effect: Damage for Summon Scimitar, Claw, Shuriken, Shotgun, Daggers, and Decoy Bomb are all increased by +120%p]",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Muscle_Memory_III.png/revision/latest?cb=20171212091320", "https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Muscle_Memory.png/revision/latest?cb=20171212083708"],
                     "animations": ["https://media4.giphy.com/media/SArs3wqnwvi0kZv1vw/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -412,6 +508,9 @@
                 },
                 {
                     "id": 64120007,
+                    "name": "Cheap Shot II",
+                    "shortDesc": "Damage Against Normal Monsters: +10%\\nYour attacks against enemies affected by Abnormal Statuses gain Critical Rate +2% and Critical Damage +10%. Max Eligible Targets: 10\\nBleed Chance: 50%, Bleed Duration: 10 sec, Bleed Damage: 110% over 1 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Cheap_Shot_II.png/revision/latest?cb=20171212091326", "https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Cheap_Shot.png/revision/latest?cb=20171212091457"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -424,6 +523,9 @@
                 },
                 {
                     "id": 64120008,
+                    "name": "Weapons Expert",
+                    "shortDesc": "For chain and all Summoned Weapons - Mastery: +70%, Attack Power: +30, Critical Rate: +30%, Critical Damage: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Weapons_Expert.png/revision/latest?cb=20171212091340", "https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Weapon_Mastery_%28Cadena%29.png/revision/latest?cb=20171212083720"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -434,6 +536,9 @@
                 },
                 {
                     "id": 64120009,
+                    "name": "Wisdom of Shadows II",
+                    "shortDesc": "Attack Power: +30, Critical Damage: +5%, Critical Rate: +10%, Avoidability: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Wisdom_of_Shadows_II.png/revision/latest?cb=20171212091346"],
                     "type": "Passive"
                 }]
@@ -443,54 +548,81 @@
             "hyperPassive": [
                 {
                     "id": 64120043,
+                    "name": "Chain-less Arts: Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Chain-less_Arts_-_Reinforce.png/revision/latest?cb=20171212200537"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 64120044,
+                    "name": "Chain-less Arts: Critical Chance",
+                    "shortDesc": "Critical Rate +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Chain-less_Arts_-_Critical_Chance.png/revision/latest?cb=20171212200553"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 64120045,
+                    "name": "Chain-less Arts: Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Chain-less_Arts_-_Boss_Rush.png/revision/latest?cb=20171212200601"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 64120046,
+                    "name": "Chain Arts: Thrash - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Chain_Arts_Thrash_-_Reinforce.png/revision/latest?cb=20171212200629"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 64120047,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Chain_Arts_Thrash_-_Spread.png/revision/latest?cb=20171212200640"],
+                    "name": "Chain Arts: Thrash - Linked Attack Reinforce",
+                    "shortDesc": "Final Damage of skills used immediately after 1 hit of Chain Arts: Thrash +5% (excludes Chain Arts: Thrash).",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Chain_Arts_Thrash_-_Linked_Attack_Reinforce.png/revision/latest?cb=20171212200652"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 64120048,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Chain_Arts_Thrash_-_Linked_Attack_Reinforce.png/revision/latest?cb=20171212200652"],
+                    "name": "Chain Arts: Thrash - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Chain_Arts_Thrash_-_Spread.png/revision/latest?cb=20171212200640"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 64120049,
+                    "name": "Chain Arts: Beatdown - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Chain_Arts_Beatdown_-_Reinforce.png/revision/latest?cb=20171212200711"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 64120050,
+                    "name": "Chain Arts: Beatdown - Shockwave Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Chain_Arts_Beatdown_-_Shockwave_Reinforce.png/revision/latest?cb=20171212200718"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 64120051,
+                    "name": "Chain Arts: Beatdown - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Chain_Arts_Beatdown_-_Cooldown_Cutter.png/revision/latest?cb=20171212200726"],
                     "type": "Passive",
                     "reqLev": 190
@@ -499,6 +631,9 @@
             "hyperActive": [
                 {
                     "id": 64121054,
+                    "name": "Shadowdealer's Elixir",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: + 10%, Critical Rate: +10%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Shadowdealer%27s_Elixir.png/revision/latest?cb=20171212200808"],
                     "animations": ["https://media3.giphy.com/media/JFKOz6cNfzzr2gFPII/giphy.gif"],
                     "type": "Buff",
@@ -506,6 +641,9 @@
                 },
                 {
                     "id": 64121052,
+                    "name": "Chain Arts: Crush",
+                    "shortDesc": "MP Cost: 300, Damage: 510%, Max Enemies Hit: 15, Number of Attacks: 15\\nCooldown: 30 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Chain_Arts_Crush.png/revision/latest?cb=20171212200800"],
                     "animations": ["https://media4.giphy.com/media/IiSINpfCN0K4aBPBpe/giphy.gif"],
                     "type": "Attack",
@@ -514,6 +652,9 @@
                 },
                 {
                     "id": 64121053,
+                    "name": "Veteran Shadowdealer",
+                    "shortDesc": "MP Cost: 500, Duration: 30 sec, Multiplies the effects of Muscle Memory by 2\\nWhenever you summon a weapon or land a hit on an enemy, creates an explosion that deals 255% damage 2 times to up to 6 enemies.\\nCooldown: 200 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Veteran_Shadowdealer.png/revision/latest?cb=20171212200816"],
                     "animations": ["https://media4.giphy.com/media/p8BpXo6GmdZ5uNIESs/giphy.gif"],
                     "type": "Buff",

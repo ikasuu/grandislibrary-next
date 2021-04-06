@@ -114,6 +114,9 @@
             [
                 "Beginner", [{
                     "id": 10001244,
+                    "name": "Elemental Slash",
+                    "shortDesc": "MP Cost: 0, Damage: 130%, Number of Attacks: 1, Max Enemies Hit: 3",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Elemental_Slash.png/revision/latest?cb=20130525122036"],
                     "animations": ["https://media1.giphy.com/media/5irbTpJkg7qZanOLzB/giphy.gif"],
                     "type": "Attack",
@@ -121,22 +124,34 @@
                 },
                 {
                     "id": 10001245,
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
                     "animations": ["https://media1.giphy.com/media/IAZoN72DI12njaflIG/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 10000246,
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Strength increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Elemental_Harmony.png/revision/latest?cb=20130525122047"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000250,
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Elemental_Expert.png/revision/latest?cb=20130525122051"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000252,
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058"],
                     "animations": ["https://media2.giphy.com/media/Wy7uJDa5nDkhvwq9Yq/giphy.gif"],
                     "type": "Passive",
@@ -149,6 +164,9 @@
             [
                 "1st Job", [{
                         "id": 11001020,
+                        "name": "Triple Slash",
+                        "shortDesc": "MP Cost: 14, Damage: 90%, Number of Attacks: 3, Max Enemies Hit: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Triple_Slash.png/revision/latest?cb=20130411154913"],
                         "animations": ["https://media2.giphy.com/media/YjgDtU07L6w55Pgzls/giphy.gif"],
                         "type": "Attack",
@@ -156,6 +174,9 @@
                     },
                     {
                         "id": 11001022,
+                        "name": "Soul Element",
+                        "shortDesc": "MP Cost: 20, Duration: 180, Immobility Debuff Chance: 80%, Debuff Duration: 2\\n[Passive Effect: Ignores 10% of Monster DEF]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Soul_Element.png/revision/latest?cb=20130411154923"],
                         "animations": ["https://media4.giphy.com/media/YRvHsErMqHjuUG7i7a/giphy.gif"],
                         "type": "Buff",
@@ -166,11 +187,17 @@
                     },
                     {
                         "id": 11000023,
+                        "name": "Inner Voice",
+                        "shortDesc": "Max HP: +20%, DEF: +1000, Speed: +40, Jump: +20, Max Speed: +20",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Inner_Voice.png/revision/latest?cb=20130411154928"],
                         "type": "Passive"
                     },
                     {
                         "id": 11000021,
+                        "name": "Hand of Light",
+                        "shortDesc": "Attack +20",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Hand_of_Light.png/revision/latest?cb=20160627042914"],
                         "type": "Passive"
                     }]
@@ -178,6 +205,9 @@
                 [
                 "2nd Job", [{
                         "id": 11101120,
+                        "name": "Flicker",
+                        "shortDesc": "MP Cost: 20, Damage: 170%, Number of Attacks: 2, Max Enemies Hit: 7 while moving.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Bluster.png/revision/latest?cb=20130411160050"],
                         "animations": ["https://media1.giphy.com/media/gQ9nFgvgkpJ1j9XRKo/giphy.gif"],
                         "type": "Moon Attack",
@@ -188,6 +218,9 @@
                     },
                     {
                         "id": 11101220,
+                        "name": "Bluster",
+                        "shortDesc": "MP Cost: 20, Damage: 170%, Number of Attacks: 2, Enemies Hit: 7",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Bluster.png/revision/latest?cb=20130411160050"],
                         "animations": ["https://media3.giphy.com/media/eeZBcWue5AO1rcENx6/giphy.gif"],
                         "type": "Sun Attack",
@@ -198,6 +231,9 @@
                     },
                     {
                         "id": 11101121,
+                        "name": "Trace Cut",
+                        "shortDesc": "MP Cost: 20, Damage: 130%, Number of Attacks: 3, Enemies Hit: 7",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Shadow_Tackle.png/revision/latest?cb=20130411160101"],
                         "animations": ["https://media0.giphy.com/media/mNKTiuK4GDh6TUmJot/giphy.gif"],
                         "type": "Moon Attack",
@@ -205,6 +241,9 @@
                     },
                     {
                         "id": 11101221,
+                        "name": "Shadow Tackle",
+                        "shortDesc": "MP Cost: 20, Damage: 130%, Number of Attacks: 3, Enemies Hit: 7",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Shadow_Tackle.png/revision/latest?cb=20130411160101"],
                         "animations": ["https://media4.giphy.com/media/P7BpHzWsuph7lEp9Rq/giphy.gif"],
                         "type": "Sun Attack",
@@ -212,6 +251,9 @@
                     },
                     {
                         "id": 11101022,
+                        "name": "Falling Moon",
+                        "shortDesc": "MP Cost: 10, Critical Rate: +20%, Number of Attacks for 1st - 4th/Hyper/some 5th Skills: +2 time(s), Final Damage: -60%. Cannot be used with Rising Sun.\\nNumber of attacks cannot exceed 15.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Falling_Moon.png/revision/latest?cb=20130411160106"],
                         "animations": ["https://media3.giphy.com/media/rPXumCTMnQYLZuzwTi/giphy.gif"],
                         "type": "Toggle Buff",
@@ -219,6 +261,9 @@
                     },
                     {
                         "id": 11101024,
+                        "name": "Soul Speed",
+                        "shortDesc": "MP Cost: 30, Duration: 180 sec, Attack Speed: +2",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Soul_Speed.png/revision/latest?cb=20130411160120"],
                         "animations": ["https://media4.giphy.com/media/c52xV3bVxgU9bBJ9gl/giphy.gif"],
                         "type": "Buff",
@@ -226,16 +271,25 @@
                     },
                     {
                         "id": 11100023,
+                        "name": "Divine Hand",
+                        "shortDesc": "Attack +20",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Divine_Hand.png/revision/latest?cb=20160627043518"],
                         "type": "Passive"
                     },
                     {
                         "id": 11100025,
+                        "name": "Sword Mastery",
+                        "shortDesc": "One-Handed and Two-Handed Sword Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Sword_Mastery_%28Dawn_Warrior%29.png/revision/latest?cb=20130411160201"],
                         "type": "Passive"
                     },
                     {
                         "id": 11100026,
+                        "name": "Inner Harmony",
+                        "shortDesc": "Permanently increase STR by 40 and DEX by 20.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Inner_Harmony.png/revision/latest?cb=20130411160207"],
                         "type": "Passive"
                     }]
@@ -243,6 +297,9 @@
                 [
                 "3rd Job", [{
                         "id": 11111120,
+                        "name": "Moon Shadow",
+                        "shortDesc": "MP Cost: 28, Damage: 215%, Number of Attacks: 5, Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Light_Merger.png/revision/latest?cb=20130411161319"],
                         "animations": ["https://media0.giphy.com/media/9ltEMkR4WrESePRh3m/giphy.gif"],
                         "type": "Moon Attack",
@@ -250,6 +307,9 @@
                     },
                     {
                         "id": 11111220,
+                        "name": "Light Merger",
+                        "shortDesc": "MP Cost: 28, Damage: 320%, Number of Attacks: 3, Enemies Hit: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Light_Merger.png/revision/latest?cb=20130411161319"],
                         "animations": ["https://media0.giphy.com/media/zUvOCFXEGiQ2ncYqe5/giphy.gif"],
                         "type": "Sun Attack",
@@ -257,6 +317,9 @@
                     },
                     {
                         "id": 11111121,
+                        "name": "Moon Cross",
+                        "shortDesc": "MP Cost: 37, While pulling: Damage: 155%, Number of Attacks: 4, Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Moon_Cross.png/revision/latest?cb=20130411161330"],
                         "animations": ["https://media3.giphy.com/media/wilNHGAUMJqKcLiAKs/giphy.gif"],
                         "type": "Moon Attack",
@@ -264,6 +327,9 @@
                     },
                     {
                         "id": 11111221,
+                        "name": "Sun Cross",
+                        "shortDesc": "MP Cost: 37, Damage: 290%, Number of Attacks: 2, Enemies Pushed Back: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Moon_Cross.png/revision/latest?cb=20130411161330"],
                         "animations": ["https://media0.giphy.com/media/s23ds1f66gnDfCsEoO/giphy.gif"],
                         "type": "Sun Attack",
@@ -271,6 +337,9 @@
                     },
                     {
                         "id": 11111022,
+                        "name": "Rising Sun",
+                        "shortDesc": "MP Cost: 10, Final Damage: 15%, and Attack Speed Increased by 1 stage. Cannot be used with Falling Moon.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Rising_Sun.png/revision/latest?cb=20130411161335"],
                         "animations": ["https://media4.giphy.com/media/elXLSKDg2oItVuSzGg/giphy.gif"],
                         "type": "Toggle Buff",
@@ -278,23 +347,35 @@
                     },
                     {
                         "id": 11111023,
+                        "name": "True Sight",
+                        "shortDesc": "MP Cost: 50, Success Rate: 100%, Enemy DEF in Range: -10%, Duration: 30 sec, final damage the enemy receives increased by 5%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_True_Sight.png/revision/latest?cb=20130411161339"],
                         "animations": ["https://media4.giphy.com/media/MNN2yEVQH9v8Gb4mJ0/giphy.gif"],
                         "type": "Active Debuff",
-                        "desc": ""
+                        "desc": "Applies a debuff to nearby enemies that reduces %DEF and increases %Final Damage taken"
                     },
                     {
                         "id": 11110024,
+                        "name": "Soul of the Guardian",
+                        "shortDesc": "Max HP: +2000, DEF: +1500",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Soul_of_the_Guardian.png/revision/latest?cb=20160627044310"],
                         "type": "Passive"
                     },
                     {
                         "id": 11110025,
+                        "name": "Will of Steel",
+                        "shortDesc": "Abnormal Status Resistance: +30, Elemental Resistance: +30%, Damage Intake: -25%, Recovers 5% of your Max HP every 4 sec.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Will_of_Steel.png/revision/latest?cb=20130411161351"],
                         "type": "Passive"
                     },
                     {
                         "id": 11110026,
+                        "name": "Inner Voice",
+                        "shortDesc": "Attack Power: +30, STR: +40",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Inner_Shout.png/revision/latest?cb=20130411161356"],
                         "type": "Passive"
                     }]
@@ -302,6 +383,9 @@
                 [
                 "4th Job", [{
                     "id": 11121000,
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
                     "animations": ["https://media3.giphy.com/media/BPohzVfkrMfsDBMSXr/giphy.gif"],
                     "type": "Party Buff",
@@ -312,6 +396,9 @@
                 },
                 {
                     "id": 11121101,
+                    "name": "Moon Dancer",
+                    "shortDesc": "MP Cost: 8, Damage: 400%, Number of Attacks: 4, Enemies Hit: 1",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Speeding_Sunset.png/revision/latest?cb=20130411163057"],
                     "animations": ["https://media0.giphy.com/media/zjUgjosOo2VO4AXdCq/giphy.gif"],
                     "type": "Moon Attack",
@@ -322,6 +409,9 @@
                 },
                 {
                     "id": 11121201,
+                    "name": "Speeding Sunset",
+                    "shortDesc": "MP Cost: 8, Damage: 400%, Number of Attacks: 4, Enemies Hit: 1",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Speeding_Sunset.png/revision/latest?cb=20130411163057"],
                     "animations": ["https://media1.giphy.com/media/dUUaIGkPTd8IxyvjsM/giphy.gif"],
                     "type": "Sun Attack",
@@ -332,6 +422,9 @@
                 },
                 {
                     "id": 11121103,
+                    "name": "Crescent Divide",
+                    "shortDesc": "MP Cost: 75, Damage: 295%, Number of Attacks: 6, Enemies Hit: 7",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Solar_Pierce.png/revision/latest?cb=20130411163117"],
                     "animations": ["https://media0.giphy.com/media/JmbX2VH1XzbDXZxfZz/giphy.gif"],
                     "type": "Moon Attack",
@@ -339,6 +432,9 @@
                 },
                 {
                     "id": 11121203,
+                    "name": "Solar Pierce",
+                    "shortDesc": "MP Cost: 75, Damage: 295%, Number of Attacks: 6, Enemies Hit: 7",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Solar_Pierce.png/revision/latest?cb=20130411163117"],
                     "animations": ["https://media4.giphy.com/media/aVViIzpaTZGJ8o2gpq/giphy.gif"],
                     "type": "Sun Attack",
@@ -346,6 +442,9 @@
                 },
                 {
                     "id": 11121004,
+                    "name": "Impaling Rays",
+                    "shortDesc": "MP Cost: 100, Max Enemies Hit: 15, Damage: 850%, Number of Attacks: 1, Chance to Incapacitate: 100%, Incapacitate Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Impaling Rays.\\nDamage after Debuff: +850%\\nCooldown: 180 sec.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Impaling_Rays.png/revision/latest?cb=20130411163121"],
                     "animations": ["https://media3.giphy.com/media/dVbrh1u7lXlgQN3mAJ/giphy.gif"],
                     "type": "Bind Attack",
@@ -356,6 +455,9 @@
                 },
                 {
                     "id": 11121005,
+                    "name": "Equinox Cycle",
+                    "shortDesc": "MP Cost: 70, Duration: 200 sec. During this time, every time a skill is used, the position changes and activates both Falling Moon and Raising Sun effects.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Equinox_Cycle.png/revision/latest?cb=20130411163314"],
                     "animations": ["https://media0.giphy.com/media/uJAee4FJMmWmu4XgXD/giphy.gif"],
                     "type": "Buff",
@@ -366,22 +468,31 @@
                 },
                 {
                     "id": 11121014,
+                    "name": "Equinox Slash",
+                    "shortDesc": "MP Cost: 100, Damage: 240%, Number of Attacks: 6, Enemies Hit: 7.\\nCooldown: 5 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Equinox_Slash.png/revision/latest?cb=20170116073225"],
                     "animations": ["https://orangemushroom.files.wordpress.com/2016/08/solunar-slash-effect.gif?w=600"],
                     "type": "Equinox Attack",
                     "desc": "Instantly dashes forward, damaging nearby enemies",
                     "details": [
                         "Can only be used in the air but can be used while using other skills",
-                        "You do not need to allocate SP into this skill, SP is shared with Equinox Cycle"
+                        "You do not need to allocate SP into this skill, SP is shared with <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Equinox_Cycle.png/revision/latest?cb=20130411163314' alt='Skill Equinox Slash'/> Equinox Cycle"
                     ]
                 },
                 {
                     "id": 11120006,
+                    "name": "Soul Pledge",
+                    "shortDesc": "All Stats: +30, Critical Rate: +10%, Knockback Resistance: +100%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Soul_Pledge.png/revision/latest?cb=20160627044655"],
                     "type": "Passive"
                 },
                 {
                     "id": 11120007,
+                    "name": "Student of the Blade",
+                    "shortDesc": "One-Handed and Two-Handed Sword Mastery: +70%, Attack Power: +50, Critical Damage: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/93/Skill_Student_of_the_Blade.png/revision/latest?cb=20130411163324", "https://vignette.wikia.nocookie.net/maplestory/images/a/ae/Skill_Sword_Mastery_%28Dawn_Warrior%29.png/revision/latest?cb=20130411160201"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -392,11 +503,17 @@
                 },
                 {
                     "id": 11120008,
+                    "name": "Unpredictable",
+                    "shortDesc": "Monster DEF ignored: 30%, When attacking Boss Monster - Damage: +15%",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Unpredictable.png/revision/latest?cb=20130411163330"],
                     "type": "Passive"
                 },
                 {
                     "id": 11120009,
+                    "name": "Master of the Sword",
+                    "shortDesc": "[Falling Moon] Critical Rate: +35%, Attack Count on 1st - 4th/Hyper/Some 5th Skills: x2, Final Damage Reduction: 90%\\n[Rising Sun] Final Damage: 25% Attack Speed: +2, Attack Power: +45",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Master_of_the_Sword.png/revision/latest?cb=20130411163337", "https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Falling_Moon.png/revision/latest?cb=20130411160106", "https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Rising_Sun.png/revision/latest?cb=20130411161335"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -411,54 +528,81 @@
             "hyperPassive": [
                 {
                     "id": 11120043,
+                    "name": "True Sight - Persist",
+                    "shortDesc": "Duration: +20 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_True_Sight_-_Persist.png/revision/latest?cb=20130411164138"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 11120044,
+                    "name": "True Sight - Enhance",
+                    "shortDesc": "Elemental Resistance: -10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_True_Sight_-_Enhance.png/revision/latest?cb=20130411164142"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 11120045,
+                    "name": "True Sight - Guardbreak",
+                    "shortDesc": "DEF: Additional -10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_True_Sight_-_Guardbreak.png/revision/latest?cb=20130411164147"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 11120046,
+                    "name": "Divide and Pierce - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Divide_and_Pierce_-_Reinforce.png/revision/latest?cb=20130411164151"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 11120047,
+                    "name": "Divide and Pierce - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Divide_and_Pierce_-_Spread.png/revision/latest?cb=20130411164156"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 11120048,
+                    "name": "Divide and Pierce - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Divide_and_Pierce_-_Extra_Strike.png/revision/latest?cb=20130411164200"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 11120049,
+                    "name": "Careening Dance - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Careening_Dance_-_Reinforce.png/revision/latest?cb=20130411164223"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 11120050,
+                    "name": "Careening Dance - Guardbreak",
+                    "shortDesc": "Monster DEF ignored increased 20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Careening_Dance_-_Guardbreak.png/revision/latest?cb=20130411164228"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 11120051,
+                    "name": "Careening Dance - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Careening_Dance_-_Boss_Rush.png/revision/latest?cb=20130411164233"],
                     "type": "Passive",
                     "reqLev": 190
@@ -467,13 +611,23 @@
             "hyperActive": [
                 {
                     "id": 11121054,
+                    "name": "Soul Forge",
+                    "shortDesc": "MP Cost: 150, Attack Power: +50, Duration: 180 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Soul_Forge.png/revision/latest?cb=20130411164248"],
                     "animations": ["https://media3.giphy.com/media/EvRH7aWelAhmANEuNS/giphy.gif"],
                     "type": "Buff",
+                    "desc": "",
+                    "details": [
+                        "Has no cooldown"
+                    ],
                     "reqLev": 140
                 },
                 {
                     "id": 11121052,
+                    "name": "Styx Crossing",
+                    "shortDesc": "MP Cost: 300, activates Chase Cut 5 times, dealing 160% damage 5 times to 15 enemies. During Max Charge: Damage: 580%, you can deal damage to enemies with Attack Ignore or Attack Reflection effects. Can move and jump while charging, charging canceled when other skill is used except for Elemental Shift.\\nCooldown: 20 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Styx_Crossing.png/revision/latest?cb=20130411164238"],
                     "animations": ["https://media2.giphy.com/media/wgH7tmNZUQScPtMdO6/giphy.gif"],
                     "type": "Key-down Attack",
@@ -487,6 +641,9 @@
                 },
                 {
                     "id": 11121053,
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Cygnus class or Mihile in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Glory_of_the_Guardians_%28Dawn_Warrior%29.png/revision/latest?cb=20130411164242"],
                     "animations": ["https://media4.giphy.com/media/sRBlVNgM8m8nViUsYH/giphy.gif"],
                     "type": "Buff",

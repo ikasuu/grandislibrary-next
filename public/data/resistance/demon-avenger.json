@@ -109,6 +109,9 @@
             [
                 "Beginner", [{
                     "id": 30010110,
+                    "name": "Dark Winds",
+                    "shortDesc": "High Jump: Press the up arrow key twice during a jump\\nJag Jump: Press the right or left arrow key twice during a jump\\nGlide: Jump Key (Maintain Press)",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Dark_Winds.png/revision/latest?cb=20110810024348"],
                     "animations": ["https://media1.giphy.com/media/8lW5qs5NkB7xRnwwf2/giphy.gif"],
                     "type": "Passive",
@@ -119,11 +122,17 @@
                 },
                 {
                     "id": 30010185,
+                    "name": "Demonic Blood",
+                    "shortDesc": "Willpower: Lv. 20, Ambition: Lv. 20, Knockback Resistance: +100%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Demonic_Blood.png/revision/latest?cb=20110810024519"],
                     "type": "Passive"
                 },
                 {
                     "id": 30010230,
+                    "name": "Exceed",
+                    "shortDesc": "Life Sap -1% for every 20 Exceed Overload cap and 2 Overload stacks.\\nOverload +1 when another Exceed skill is used while Exceed skill is in use.\\nUsing Overload Release reduces the Exceed levels to half.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Exceed.png/revision/latest?cb=20121129065205"],
                     "type": "Passive",
                     "desc": "Using an Exceed attack grants a stacking debuff called Overload (up to 20 stacks). Repeatedly using Exceed attacks will cause you to enter Exceed Mode",
@@ -134,6 +143,9 @@
                 },
                 {
                     "id": 30010231,
+                    "name": "Hyper Potion Mastery",
+                    "shortDesc": "Potion Recovery Rate: +200%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Hyper_Potion_Mastery.png/revision/latest?cb=20121129065212"],
                     "desc": "",
                     "details": [
@@ -143,11 +155,17 @@
                 },
                 {
                     "id": 30010232,
+                    "name": "Star Force Conversion",
+                    "shortDesc": "Max HP increases proportional to the Star Force on your equipped items",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Star_Force_Conversion.png/revision/latest?cb=20150325043253"],
                     "type": "Passive"
                 },
                 {
                     "id": 30010242,
+                    "name": "Blood Pact",
+                    "shortDesc": "Damage calculated based on Max HP.\\nOnly a set percentage of Bonus HP from Equipment items are applied.\\nBase HP confers a greater damage bonus than HP bonuses from equipment and items.\\nAllows you to ignore stat requirements on Warrior and Demon Avenger equipment.\\nIn situations where HP cannot be recovered, HP consumed by the 1st through 4th tier job skills will be reduced by 90%.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Blood_Pact.png/revision/latest?cb=20140927184958"],
                     "type": "Passive",
                     "desc": "Your damage is calculated based on your Max HP",
@@ -162,6 +180,9 @@
                 "1st Job", [
                     {
                         "id": 31011000,
+                        "name": "Exceed: Double Slash",
+                        "shortDesc": "HP Cost: 1%, Damage: 200%, Number of Attacks: 2, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Exceed_Double_Slash.png/revision/latest?cb=20121129075926"],
                         "animations": ["https://media4.giphy.com/media/XQdU7YYcz9YQGYY7CL/giphy.gif", "https://media3.giphy.com/media/duRXF4CZaQnVAnKX4h/giphy.gif"],
                         "type": "Exceed Attack",
@@ -169,6 +190,9 @@
                     },
                     {
                         "id": 31011001,
+                        "name": "Overload Release",
+                        "shortDesc": "Resets Overload to 0. Duration: 60 sec, Final damage: +15%, Max HP Restored: 100%\\n20% of overall HP restored even when under the effect of certain statuses (not including the recovery reductions from Demonic Frenzy or the ones within Ghost Park).",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Overload_Release.png/revision/latest?cb=20121129075935"],
                         "animations": ["https://media3.giphy.com/media/6vQcemPIeHMEzrLzSZ/giphy.gif"],
                         "type": "Active",
@@ -179,11 +203,17 @@
                     },
                     {
                         "id": 31010002,
+                        "name": "Life Sap",
+                        "shortDesc": "100% chance to recover 5% HP on hit",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Life_Sap.png/revision/latest?cb=20121129075942"],
                         "type": "Passive"
                     },
                     {
                         "id": 31010003,
+                        "name": "Demonic Veracity",
+                        "shortDesc": "Speed: +45, Max Speed: +20, Jump: +20, Critical Rate: +20%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Demonic_Veracity.png/revision/latest?cb=20121129075947"],
                         "type": "Passive"
                     }]
@@ -192,6 +222,9 @@
                 "2nd Job", [
                     {
                         "id": 31201000,
+                        "name": "Exceed: Demon Strike",
+                        "shortDesc": "HP Cost: 1%, Damage: 125%, Number of Attacks: 4, Max Enemies Hit: 10",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Exceed_Demon_Strike.png/revision/latest?cb=20121129082130"],
                         "animations": ["https://media0.giphy.com/media/fvCo7uigjzSceoR5hr/giphy.gif", "https://media0.giphy.com/media/7gqZeIUVCuzhymPRbh/giphy.gif"],
                         "type": "Exceed Attack",
@@ -199,6 +232,9 @@
                     },
                     {
                         "id": 31201001,
+                        "name": "Bat Swarm",
+                        "shortDesc": "HP Cost: 1% of Max HP, Damage: 200%, Number of Attacks: 40.\\nThe cloud expires once you finish attacking, move a certain distance, or its timer runs out. Press the skill key again to change direction.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Bat_Swarm.png/revision/latest?cb=20121129082137"],
                         "animations": ["https://media3.giphy.com/media/MXJO9lhBz04ldl4RCS/giphy.gif"],
                         "type": "Attack",
@@ -210,6 +246,9 @@
                     },
                     {
                         "id": 31201002,
+                        "name": "Battle Pact",
+                        "shortDesc": "HP Cost: 200, Duration: 180 sec, Attack Speed: +2",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Battle_Pact_%28Demon_Avenger%29.png/revision/latest?cb=20121129082210"],
                         "animations": ["https://media0.giphy.com/media/2bCFMW0SbfrSJ3Wm5j/giphy.gif"],
                         "type": "Buff",
@@ -217,21 +256,33 @@
                     },
                     {
                         "id": 31200004,
+                        "name": "Unbreakable Steel",
+                        "shortDesc": "Permanently increases Defense by 100%.",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Unbreakable_Steel.png/revision/latest?cb=20121129082234"],
                         "type": "Passive"
                     },
                     {
                         "id": 31200005,
+                        "name": "Desperado Mastery",
+                        "shortDesc": "Permanently increases Desperado Mastery by 50%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Desperado_Mastery.png/revision/latest?cb=20121129082239"],
                         "type": "Passive"
                     },
                     {
                         "id": 31200006,
+                        "name": "Rage Within",
+                        "shortDesc": "Permanently increases Max HP by 600 and Defense by 500",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0a/Skill_Rage_Within.png/revision/latest?cb=20121129082245"],
                         "type": "Passive"
                     },
                     {
                         "id": 31200003,
+                        "name": "Abyssal Connection",
+                        "shortDesc": "Attack +40",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2d/Skill_Abyssal_Connection.png/revision/latest?cb=20160627051311"],
                         "type": "Passive"
                     }]
@@ -239,6 +290,9 @@
                 [
                 "3rd Job", [{
                         "id": 31211000,
+                        "name": "Exceed: Lunar Slash",
+                        "shortDesc": "HP Cost: 3%, Damage: 300%, Number of Attacks: 3, Max Enemies Hit: 10",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Exceed_Lunar_Slash.png/revision/latest?cb=20121129083121"],
                         "animations": ["https://media2.giphy.com/media/imCZxTtl6qjsUyoF7I/giphy.gif", "https://media0.giphy.com/media/LyyjHuZzkfjaAFQnR2/giphy.gif"],
                         "type": "Exceed Attack",
@@ -249,6 +303,9 @@
                     },
                     {
                         "id": 31211001,
+                        "name": "Vitality Veil",
+                        "shortDesc": "HP Cost per attack: 100, Enemies hit with Key Pressed: 12, Damage: 300%, HP Restored: 10%.\\nExplosion Damage: 1000%\\nCooldown: 12 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Vitality_Veil.png/revision/latest?cb=20121129083132"],
                         "animations": ["https://media1.giphy.com/media/bftQrOn3UFEPzuJI82/giphy.gif"],
                         "type": "Key-down Attack",
@@ -259,6 +316,9 @@
                     },
                     {
                         "id": 31211002,
+                        "name": "Shield Charge",
+                        "shortDesc": "HP Cost: 2% of Max HP, Enemies Hit: 12, Damage: 200%, Number of Attacks: 2.\\nEnemies Hit After Charge: 12, Damage After Charge: 200%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Shield_Charge.png/revision/latest?cb=20121129083143"],
                         "animations": ["https://media4.giphy.com/media/YxK2KAalEMuSYeRP16/giphy.gif"],
                         "type": "Attack",
@@ -269,24 +329,36 @@
                     },
                     {
                         "id": 31211003,
+                        "name": "Ward Evil",
+                        "shortDesc": "HP Cost: 900, Duration: 180 sec, Elemental Resistance: +50%, Status Resistance: +50, Damage Intake: -30%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Ward_Evil.png/revision/latest?cb=20121129083158"],
                         "animations": ["https://media4.giphy.com/media/qf6VQ0BXuC65iEOLVY/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 31211004,
+                        "name": "Diabolic Recovery",
+                        "shortDesc": "HP Cost: 900, Duration: 180 sec, Max HP: +25%. Restores 5% HP every 4 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Diabolic_Recovery.png/revision/latest?cb=20121129083217"],
                         "animations": ["https://media0.giphy.com/media/owGc7zD89dwo6qjMR1/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 31210005,
+                        "name": "Pain Dampener",
+                        "shortDesc": "Exceed Overload HP Absorption Penalty: -2%, Exceed Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Pain_Dampener.png/revision/latest?cb=20160520031102"],
                         "type": "Passive",
                         "desc": "Reduces the penalty to <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Life_Sap.png/revision/latest?cb=20121129075942' alt='Skill Life Sap' width='32' height='32'> from <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Exceed.png/revision/latest?cb=20121129065205' alt='Skill Exceed' width='32' height='32'> and increases the %Damage of Exceed Skills"
                     },
                     {
                         "id": 31210006,
+                        "name": "Advanced Life Sap",
+                        "shortDesc": "Increases Life Sap's absorption amount boosted to 10% of Max HP, Overload Release's final damage increase amount boosted to 25%.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/99/Skill_Advanced_Life_Sap.png/revision/latest?cb=20121129083244"],
                         "type": "Passive",
                         "desc": "Increases the healing from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Life_Sap.png/revision/latest?cb=20121129075942' alt='Skill Life Sap'> and increases the %Final Damage provided from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Overload_Release.png/revision/latest?cb=20121129075935' alt='Skill Overload Release'>"
@@ -295,6 +367,9 @@
                 [
                 "4th Job", [{
                     "id": 31221000,
+                    "name": "Exceed: Execution",
+                    "shortDesc": "HP Cost: 4%, Damage: 540%, Number of Attacks: 4, Max Enemies Hit: 2. Enemy DEF Ignored: 30%.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Exceed_Execution.png/revision/latest?cb=20121129085544"],
                     "animations": ["https://media2.giphy.com/media/S5kTVrsVULE6lNojVT/giphy.gif", "https://media2.giphy.com/media/D2EIpVJsYBaQKp6Ooj/giphy.gif"],
                     "type": "Exceed Attack",
@@ -306,6 +381,9 @@
                 },
                 {
                     "id": 31221001,
+                    "name": "Nether Shield",
+                    "shortDesc": "HP Cost: 8% of Max HP, Shields: 2, Damage: 500%, Number of Attacks: 2, Attacks per Shield: 8.\\nCooldown: 6 sec\\n[Passive Effect: Exceed: Lunar Slash Damage: +330%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Nether_Shield.png/revision/latest?cb=20121129085551"],
                     "animations": ["https://media3.giphy.com/media/WiJfPmCM89vKOn75eD/giphy.gif"],
                     "type": "Attack",
@@ -316,6 +394,9 @@
                 },
                 {
                     "id": 31221002,
+                    "name": "Nether Slice",
+                    "shortDesc": "HP Cost: 1000, Enemies Hit: 12, Damage: 350%, Number of Attacks: 4, Debuff Duration: 30 sec, Enemy DEF: -30%\\n[Passive Effect: Exceed: Demon Strike Damage: +155%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Nether_Slice.png/revision/latest?cb=20121129085558"],
                     "animations": ["https://media4.giphy.com/media/D2XyircJ05OMDaGdpK/giphy.gif"],
                     "type": "Attack",
@@ -327,6 +408,9 @@
                 },
                 {
                     "id": 31221003,
+                    "name": "Blood Prison",
+                    "shortDesc": "HP Cost: 0, Max Enemies Hit: 14, Damage: 800%, Number of Attacks: 3, Stun Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Blood Prison.\\nCooldown: 120 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Blood_Prison.png/revision/latest?cb=20121129085607"],
                     "animations": ["https://media4.giphy.com/media/qOiAPrNw1tvgF6w0ll/giphy.gif"],
                     "type": "Bind Attack",
@@ -334,22 +418,34 @@
                 },
                 {
                     "id": 31221008,
+                    "name": "Maple Warrior",
+                    "shortDesc": "HP Cost: 1000, Duration: 900 sec, All Stats assigned APs: +15%\\n[Passive - Max HP: +15%]",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Maple_Warrior_%28Demon%29.png/revision/latest?cb=20110812130330"],
                     "animations": ["https://media3.giphy.com/media/K9RIwd9SI6DugjHTd9/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 31220004,
+                    "name": "Overwhelming Power",
+                    "shortDesc": "Damage: +30%, Attack Speed: +1",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Overwhelming_Power.png/revision/latest?cb=20160627051612"],
                     "type": "Passive"
                 },
                 {
                     "id": 31220005,
+                    "name": "Defense Expertise",
+                    "shortDesc": "Enemy DEF Ignored: 30%, Shield Charge and Nether Shield Damage: +20%.\\nShield Charge and Nether Shield ignore 2x DEF.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Defense_Expertise.png/revision/latest?cb=20121129065226"],
                     "type": "Passive"
                 },
                 {
                     "id": 31220006,
+                    "name": "Advanced Desperado Mastery",
+                    "shortDesc": "Desperado Mastery: +70%, Attack Power: +50, Critical Damage: +8%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Advanced_Desperado_Mastery.png/revision/latest?cb=20121129065217", "https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Skill_Desperado_Mastery.png/revision/latest?cb=20121129082239"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -360,6 +456,9 @@
                 },
                 {
                     "id": 31220007,
+                    "name": "Infernal Exceed",
+                    "shortDesc": "[Final Attack Skills] Chance to deliver an extra attack after Exceed: 70%, Damage: 200%, Bonus Number of Attacks: 2, Max Enemies Hit: 2",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Infernal_Exceed.png/revision/latest?cb=20121129085720"],
                     "type": "Final Attack Passive",
                     "desc": "Using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Exceed.png/revision/latest?cb=20121129065205' alt='Skill Exceed'> Exceed Skills have a chance to deal an additional attack"
@@ -370,6 +469,9 @@
             "hyperPassive": [
                 {
                     "id": 31220043,
+                    "name": "Exceed - Reinforce",
+                    "shortDesc": "Exceed Skills Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Exceed_-_Reinforce.png/revision/latest?cb=20121129085852"],
                     "type": "Passive",
                     "desc": "Increases %Damage of all Exceed skills",
@@ -377,6 +479,9 @@
                 },
                 {
                     "id": 31220044,
+                    "name": "Exceed - Reduce Overload",
+                    "shortDesc": "Exceed Overload: -2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Exceed_-_Reduce_Overload.png/revision/latest?cb=20140322195734"],
                     "type": "Passive",
                     "desc": "Reduces max Overload stacks from 20 to 18",
@@ -384,6 +489,9 @@
                 },
                 {
                     "id": 31220045,
+                    "name": "Exceed - Opportunity",
+                    "shortDesc": "Bonus Exceed Attack Chance: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Exceed_-_Opportunity.png/revision/latest?cb=20121129090005"],
                     "type": "Passive",
                     "desc": "Increases the chance for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Infernal_Exceed.png/revision/latest?cb=20121129085720' alt='Skill Infernal Exceed'> to activate",
@@ -391,36 +499,54 @@
                 },
                 {
                     "id": 31220046,
+                    "name": "Ward Evil - Harden",
+                    "shortDesc": "Damage Intake: -10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Ward_Evil_-_Harden.png/revision/latest?cb=20140322200251"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 31220047,
+                    "name": "Ward Evil - Immunity Enhance 1",
+                    "shortDesc": "Status Resistance: +10",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Ward_Evil_-_Immunity_Enhance_1.png/revision/latest?cb=20140322200845"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 31220048,
+                    "name": "Ward Evil - Immunity Enhance 2",
+                    "shortDesc": "Elemental Resistance: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Ward_Evil_-_Immunity_Enhance_2.png/revision/latest?cb=20140322200854"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 31220049,
+                    "name": "Nether Shield - Reinforce",
+                    "shortDesc": "Nether Shield Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Nether_Shield_-_Reinforce.png/revision/latest?cb=20121129090018"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 31220050,
+                    "name": "Nether Shield - Spread",
+                    "shortDesc": "Permanently increases the max number of attacks per Nether Shield by 2.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Nether_Shield_-_Spread.png/revision/latest?cb=20121129090024"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 31220051,
+                    "name": "Nether Shield - Range",
+                    "shortDesc": "Nether Shield Range: +50",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Nether_Shield_-_Range.png/revision/latest?cb=20121129090030"],
                     "type": "Passive",
                     "reqLev": 190
@@ -429,6 +555,9 @@
             "hyperActive": [
                 {
                     "id": 31221054,
+                    "name": "Forbidden Contract",
+                    "shortDesc": "HP Cost: 5000 , Duration: 30 sec, Damage: +10%, Skill HP Consumption: 0\\nCooldown: 75 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Forbidden_Contract.png/revision/latest?cb=20121129090257"],
                     "animations": ["https://media2.giphy.com/media/OmusqCaRhefxib6uUd/giphy.gif"],
                     "type": "Buff",
@@ -436,6 +565,9 @@
                 },
                 {
                     "id": 31221052,
+                    "name": "Thousand Swords",
+                    "shortDesc": "Max HP Cost: 15%, Exceed Overload: +5, Damage: 500%, Number of Attacks: 8, Max Enemies Hit: 14\\nCooldown: 8 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Thousand_Swords.png/revision/latest?cb=20121129090037"],
                     "animations": ["https://media0.giphy.com/media/2AwtpPKSA3xf4nhtFa/giphy.gif"],
                     "type": "Attack",
@@ -447,6 +579,9 @@
                 },
                 {
                     "id": 31221053,
+                    "name": "Demonic Fortitude",
+                    "shortDesc": "HP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Demonic_Fortitude.png/revision/latest?cb=20160111212529"],
                     "animations": ["https://media4.giphy.com/media/ZZTzpzS6I8L0Q0ZmYU/giphy.gif"],
                     "type": "Buff",

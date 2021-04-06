@@ -72,7 +72,7 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Reflection_-_Reinforce.png/revision/latest?cb=20120819004753' alt='Skill Reflection - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Reflection_-_Spread.png/revision/latest?cb=20120819004802' alt='Skill Reflection - Spread' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Reflection_-_Range_Up.png/revision/latest?cb=20120819004810' alt='Skill Reflection - Range Up' width='32' height='32'> Reflection - Reinforce, Spread, and Range Up</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Ender_-_Reinforce.png/revision/latest?cb=20120819004848' alt='Skill Ender - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Ender_-_Extra_Target.png/revision/latest?cb=20120819004901' alt='Skill Ender - Extra Target' width='32' height='32'> Ender - Reinforce and Extra Target</li></ul>"
+            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Reflection_-_Range_Up.png/revision/latest?cb=20120819004810' alt='Skill Reflection - Range Up' width='32' height='32'> Reflection - Range Up</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Apocalypse_-_Reinforce.png/revision/latest?cb=20120819004818' alt='Skill Apocalypse - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Apocalypse_-_Recharge.png/revision/latest?cb=20120819004823' alt='Skill Apocalypse - Recharge' width='32' height='32'> Apocalypse - Reinforce and Recharge</li></li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Ender_-_Reinforce.png/revision/latest?cb=20120819004848' alt='Skill Ender - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Ender_-_Range_Up.png/revision/latest?cb=20120819004911' alt='Skill Ender - Range Up' width='32' height='32'> Ender - Reinforce and Range Up</li></ul>"
         },
         "nodeInfo": {
             "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Reflection.png/revision/latest?cb=20120624200131' alt='Skill Reflection'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Apocalypse.png/revision/latest?cb=20120624200409' alt='Skill Apocalypse'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Ender.png/revision/latest?cb=20120624200643' alt='Skill Ender'>",
@@ -85,7 +85,8 @@
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
-            ["Hyper Passive Build + 5th Job Skills Animations", "KyoWantsCute"],
+            ["Hyper Passive Build", "dri"],
+            ["5th Job Skills Animations", "KyoWantsCute"],
             ["Boost Nodes Build + Inner Ability","Maple Central"]
         ],
         "extraContent": {
@@ -98,16 +99,25 @@
             [
                 "Beginner", [{
                     "id": 20040216,
+                    "name": "Sunfire",
+                    "shortDesc": "Light skills deal an additional hit dealing 50% of Final Damage and restoring 1% of your base HP per cast.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Sunfire.png/revision/latest?cb=20181014063228"],
                     "type": "Passive"
                 },
                 {
                     "id": 20040217,
+                    "name": "Eclipse",
+                    "shortDesc": "Dark skills deal an additional hit proportional to the number of attacks that is 50% of final damage and use 0 MP.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Eclipse.png/revision/latest?cb=20181014064006"],
                     "type": "Passive"
                 },
                 {
                     "id": 20040219,
+                    "name": "Equilibrium",
+                    "shortDesc": "Knockback Resistance +100% for 10 sec. When using light and dark spells, delivers an additional attack inflicting 50% of Final Damage for each hit. When Equilibrium is active, delivers an additional attack inflicting 100% of Final Damage for each hit. Ignores all cooldowns. Dark spells cost 0 MP. Light spells restore 1% of HP.\\nThe total number of hits cannot exceed 15 for both Light and Dark attacks.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421"],
                     "type": "Passive",
                     "desc": "While in Equilibrium mode, you take only 1 HP damage from enemy attacks and gain 100% Knockback Resistance",
@@ -117,11 +127,17 @@
                 },
                 {
                     "id": 20040221,
+                    "name": "Inner Light",
+                    "shortDesc": "Willpower Lv. 20, Insight Lv. 20, INT +20 , more MP increased from leveling, permanent immunity to the Darkness status.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Inner_Light.png/revision/latest?cb=20120630015006"],
                     "type": "Passive"
                 },
                 {
                     "id": 20041222,
+                    "name": "Flash Blink",
+                    "shortDesc": "MP Cost: 40. Teleport to a random location on the field.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Flash_Blink.png/revision/latest?cb=20120630015012"],
                     "type": "Active",
                     "desc": "Teleports to a random location on the map",
@@ -133,6 +149,9 @@
             [
                 "1st Job", [{
                         "id": 27001100,
+                        "name": "Flash Shower",
+                        "shortDesc": "MP Cost: 21. Max Enemies Hit: 5, Damage: 280%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Flash_Shower.png/revision/latest?cb=20120622040215"],
                         "animations": ["https://media2.giphy.com/media/Q7v5rUthVnh6g9ipgb/giphy.gif"],
                         "type": "Light Attack",
@@ -140,6 +159,9 @@
                     },
                     {
                         "id": 27001201,
+                        "name": "Abyssal Drop",
+                        "shortDesc": "MP Cost: 22. Max Enemies Hit: 6, Number of Attacks: 3, Damage: 107%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Abyssal_Drop.png/revision/latest?cb=20120622040405"],
                         "animations": ["https://media1.giphy.com/media/lRYO2jpGdodihUKtwq/giphy.gif"],
                         "type": "Dark Attack",
@@ -147,6 +169,9 @@
                     },
                     {
                         "id": 27001002,
+                        "name": "Light Speed",
+                        "shortDesc": "MP Cost: 20. Teleport left/right 170 and up/down 320. Become invulnerable to physical attacks for a short time after teleport. You will not become invulnerable unless you actually move.\\n[Passive Effect: +20 Movement Speed and +psdJump Jump]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Light_Speed.png/revision/latest?cb=20160627060454"],
                         "animations": ["https://media2.giphy.com/media/Q7X0aJa40GBMJ84KvY/giphy.gif"],
                         "type": "Active",
@@ -160,16 +185,25 @@
                     },
                     {
                         "id": 27000003,
+                        "name": "Standard Magic Guard",
+                        "shortDesc": "85% of damage affects MP instead of HP. If your MP reaches 0, your HP takes full damage.\\n[Passive Effect: +150 Defense.]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Standard_Magic_Guard.png/revision/latest?cb=20120622041010"],
                         "type": "Passive"
                     },
                     {
                         "id": 27000004,
+                        "name": "Mana Well",
+                        "shortDesc": "Max MP: +30%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Mana_Well.png/revision/latest?cb=20160627050452"],
                         "type": "Passive"
                     },
                     {
                         "id": 27000106,
+                        "name": "Light Affinity",
+                        "shortDesc": "Increase light magic's final damage by 5%",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Light_Affinity.png/revision/latest?cb=20120622041552"],
                         "type": "Passive",
                         "desc": "",
@@ -179,6 +213,9 @@
                     },
                     {
                         "id": 27000207,
+                        "name": "Dark Affinity",
+                        "shortDesc": "Increase dark magic's final damage by 5%",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Dark_Affinity.png/revision/latest?cb=20120622041651"],
                         "type": "Passive",
                         "desc": "",
@@ -190,6 +227,9 @@
                 [
                     "2nd Job", [{
                         "id": 27101100,
+                        "name": "Sylvan Lance",
+                        "shortDesc": "MP Cost: 31. Max Enemies Hit: 8, Damage: 115%, Number of Attacks: 4.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Sylvan_Lance.png/revision/latest?cb=20120623111413"],
                         "animations": ["https://media0.giphy.com/media/gfleBGkbBLtf6PtszN/giphy.gif"],
                         "type": "Light Attack",
@@ -197,6 +237,9 @@
                     },
                     {
                         "id": 27101101,
+                        "name": "Blinding Pillar",
+                        "shortDesc": "MP Cost: 15, Max Enemies Hit: 10, Distance: 350, Knockback Chance: 100%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Blinding_Pillar.png/revision/latest?cb=20120623111605"],
                         "animations": ["https://media2.giphy.com/media/Qsa01Q7EEWyhM43TG6/giphy.gif"],
                         "type": "Light Active",
@@ -204,6 +247,9 @@
                     },
                     {
                         "id": 27101202,
+                        "name": "Pressure Void",
+                        "shortDesc": "MP Cost: 15, Enemies Hit: 8, Number of Attacks: 1, Damage: 168%. Steer by holding the skill key and using Left Arrow Key,Right Arrow Key. Maximum range of 350 to the left and right.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Pressure_Void.png/revision/latest?cb=20120623111835"],
                         "animations": ["https://media1.giphy.com/media/XGgGnMmdb2ib31yt5u/giphy.gif"],
                         "type": "Key-down Dark Attack",
@@ -214,6 +260,9 @@
                     },
                     {
                         "id": 27100003,
+                        "name": "Black Blessing",
+                        "shortDesc": "Creates a dark orb to protect you from all attacks for 3 sec. If you take damage, one orb of darkness will break and absorb 70% of damage.\\n[Boost to Magic Attack when orbs are accumulated]\\n1 orb: +15 Magic Attack\\n2 orbs: +24 Magic Attack\\n3 orbs: +30 Magic Attack",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Black_Blessing.png/revision/latest?cb=20120623112017"],
                         "animations": ["https://media3.giphy.com/media/YEwmxSErpmJkI4UMBq/giphy.gif"],
                         "type": "Passive",
@@ -224,6 +273,9 @@
                     },
                     {
                         "id": 27101004,
+                        "name": "Magic Booster",
+                        "shortDesc": "MP Cost: 30, Duration: 180 sec, Attack Speed: +2",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Magic_Booster_%28Luminous%29.png/revision/latest?cb=20120623112309"],
                         "animations": ["https://media0.giphy.com/media/12o7AbFSSA3CrhB1I9/giphy.gif"],
                         "type": "Buff",
@@ -231,11 +283,17 @@
                     },
                     {
                         "id": 27100005,
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: 50%, Magic ATT: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
                         "type": "Passive"
                     },
                     {
                         "id": 27100006,
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_High_Wisdom.png/revision/latest?cb=20110423005321"],
                         "type": "Passive"
                     }]
@@ -243,6 +301,9 @@
                 [
                     "3rd Job", [{
                         "id": 27111100,
+                        "name": "Spectral Light",
+                        "shortDesc": "MP Cost per attack: 20. Max Enemies Hit: 8, Damage: 121%, Number of Attacks: 4. Steer the beams by holding the skill key and pressing Up or Down.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Spectral_Light.png/revision/latest?cb=20120623112846"],
                         "animations": ["https://media2.giphy.com/media/Vh2w21nbnKEnTUGTSZ/giphy.gif"],
                         "type": "Key-down Light Attack",
@@ -254,6 +315,9 @@
                     },
                     {
                         "id": 27111101,
+                        "name": "Ray of Redemption",
+                        "shortDesc": "MP Cost: 41, Damage: 180%, Number of Attacks: 3, Max Enemies Hit: 6, Recovery: 800%\\n[Cooldown: 5 sec]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Ray_of_Redemption.png/revision/latest?cb=20120623113019"],
                         "animations": ["https://media2.giphy.com/media/UWWFIHo24QnP7X4IoD/giphy.gif"],
                         "type": "Light Attack / Heal",
@@ -261,6 +325,9 @@
                     },
                     {
                         "id": 27111202,
+                        "name": "Moonlight Spear",
+                        "shortDesc": "MP Cost: 75, Max Enemies Hit: 6, Damage: 371%, Number of Attacks: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Moonlight_Spear.png/revision/latest?cb=20120623113202"],
                         "animations": ["https://media3.giphy.com/media/WQ0woueuBbLT8MVmAB/giphy.gif"],
                         "type": "Dark Attack",
@@ -268,6 +335,9 @@
                     },
                     {
                         "id": 27111303,
+                        "name": "Death Scythe",
+                        "shortDesc": "MP Cost: 120, Max Enemies Hit: 10, Damage: 230%, Number of Attacks: 6\\n[Cooldown: 24 sec]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Death_Scythe.png/revision/latest?cb=20120623113328"],
                         "animations": ["https://media2.giphy.com/media/XI7qHV82pEcZXBSoiF/giphy.gif"],
                         "type": "Equilibrium Attack",
@@ -278,6 +348,9 @@
                     },
                     {
                         "id": 27111004,
+                        "name": "Shadow Shell",
+                        "shortDesc": "MP Cost: 200. Ignore debilitating status conditions 3 times. Cooldown: 300 sec when broken.\\n[Passive Effect: Increases Elemental Resistance by 40% and Abnormal Status Resistance by 40]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Shadow_Shell.png/revision/latest?cb=20120623113553"],
                         "animations": ["https://media0.giphy.com/media/pEGDbQn2Ap5KUXaOXX/giphy.gif"],
                         "type": "Buff",
@@ -288,6 +361,9 @@
                     },
                     {
                         "id": 27111005,
+                        "name": "Dusk Guard",
+                        "shortDesc": "MP Cost: 76. Duration: 180 sec, DEF: + 300, Damage Ignored: 20%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Dusk_Guard.png/revision/latest?cb=20120623113825"],
                         "animations": ["https://media0.giphy.com/media/aTkErRpDW6jCP2n5w7/giphy.gif"],
                         "type": "Buff",
@@ -295,12 +371,18 @@
                     },
                     {
                         "id": 27111006,
+                        "name": "Photic Meditation",
+                        "shortDesc": "MP Cost: 55. Duration: 180 sec. Increases you and your party members' Magic ATT by 40.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Photic_Meditation.png/revision/latest?cb=20120623114418"],
                         "animations": ["https://media3.giphy.com/media/FlnqMz4CshbDh3b9aM/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 27110007,
+                        "name": "Lunar Tide",
+                        "shortDesc": "When MP is greater than HP, damage increases by 20%. When MP lower than HP, Critical Rate increases by 30%.",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Lunar_Tide.png/revision/latest?cb=20120623114738"],
                         "type": "Passive"
                     }]
@@ -308,6 +390,9 @@
                 [
                     "4th Job", [{
                         "id": 27121100,
+                        "name": "Reflection",
+                        "shortDesc": "MP Cost: 81, Damage: 400%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Reflection.png/revision/latest?cb=20120624200131"],
                         "animations": ["https://media2.giphy.com/media/fX2ByunZXtlJpm0ObT/giphy.gif"],
                         "type": "Light Attack",
@@ -318,6 +403,9 @@
                     },
                     {
                         "id": 27121201,
+                        "name": "Morning Star",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 8, Knockback Damage: 180%, Number of Attacks: 2, Explosion Damage: 370%\\n[Cooldown: 5 sec]\\n[Passive Effect: Final Damage +30%]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Morning_Star.png/revision/latest?cb=20120624200226"],
                         "animations": ["https://media3.giphy.com/media/Wmcmse8j2wDh1WKXXp/giphy.gif"],
                         "type": "Dark Summon",
@@ -325,6 +413,9 @@
                     },
                     {
                         "id": 27121202,
+                        "name": "Apocalypse",
+                        "shortDesc": "MP Cost: 100, Max Enemies Hit: 8, Number of Attacks: 7, Damage: 340%.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Apocalypse.png/revision/latest?cb=20120624200409"],
                         "animations": ["https://media1.giphy.com/media/eiMKUGCwyyP0bUNx9t/giphy.gif"],
                         "type": "Dark Attack",
@@ -332,6 +423,9 @@
                     },
                     {
                         "id": 27121303,
+                        "name": "Ender",
+                        "shortDesc": "MP Cost: 49, Max Enemies Hit: 2. Damage: 385%, Number of Attacks: 7\\nAdditional Critical rate: 100%, Additional DEF ignored: 40%\\n[Cooldown: 12 sec]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Ender.png/revision/latest?cb=20120624200643"],
                         "animations": ["https://media3.giphy.com/media/U50b0uz6IPnKuI7nyl/giphy.gif"],
                         "type": "Equilibrium Attack",
@@ -343,6 +437,9 @@
                     },
                     {
                         "id": 27121005,
+                        "name": "Dark Crescendo",
+                        "shortDesc": "MP Cost: 80. For 180 sec, chance to Increase Damage with each hit: 80%, Damage: +2%. Can stack up to 15 times.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Dark_Crescendo.png/revision/latest?cb=20120624200818"],
                         "animations": ["https://media3.giphy.com/media/Y4UHzPrCmiQGO1SEq2/giphy.gif"],
                         "type": "Buff",
@@ -350,12 +447,18 @@
                     },
                     {
                         "id": 27121006,
+                        "name": "Arcane Pitch",
+                        "shortDesc": "MP Cost: 85, Ignored Monster Elemental Resistance 10%, Duration: 180 sec\\n[Passive: Final damage +40%, ignores 40% of defense rate]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Arcane_Pitch.png/revision/latest?cb=20120624200932"],
                         "animations": ["https://media0.giphy.com/media/MRVVpHe45agKIOOq6t/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 27120007,
+                        "name": "Magic Mastery",
+                        "shortDesc": "Mastery: +70%, Magic ATT: +30, Critical Rate: +15%, Critical Damage: +15%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Magic_Mastery_%28Luminous%29.png/revision/latest?cb=20120624201105", "https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Spell_Mastery.png/revision/latest?cb=20110423005318"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -366,6 +469,9 @@
                     },
                     {
                         "id": 27120008,
+                        "name": "Darkness Mastery",
+                        "shortDesc": "Equilibrium Duration: +7 sec. Time to reach Sunfire and Eclipse decreases when light or dark skills are used.\\nCan use Light Speed once vertically (up-down) and once horizontally (left-right) in the air while Equilibrium is active\\nDeath Scythe Damage: +100%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Darkness_Mastery.png/revision/latest?cb=20120624201244"],
                         "type": "Passive",
                         "desc": "Increases the duration of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Equilibrium.png/revision/latest?cb=20181014064421' alt='Skill Equilibrium'> Equilibrium mode and decreases amount of skills required to reach <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Sunfire.png/revision/latest?cb=20181014063228' alt='Skill Sunfire'> Light mode and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Eclipse.png/revision/latest?cb=20181014064006' alt='Skill Eclipse'> Dark mode",
@@ -375,12 +481,18 @@
                     },
                     {
                         "id": 27121009,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media3.giphy.com/media/M8BgSGr2KZ1bsdXGZ4/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 27121010,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media1.giphy.com/media/UVUJvM1O2Xnvd3bbb0/giphy.gif"],
                         "type": "Buff",
@@ -392,54 +504,81 @@
             "hyperPassive": [
                 {
                     "id": 27120043,
+                    "name": "Reflection - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Reflection_-_Reinforce.png/revision/latest?cb=20120819004753"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 27120044,
+                    "name": "Reflection - Spread",
+                    "shortDesc": "Increases split damage reduction rate to 0%.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Reflection_-_Spread.png/revision/latest?cb=20120819004802"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 27120045,
+                    "name": "Reflection - Range Up",
+                    "shortDesc": "Range +50",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Reflection_-_Range_Up.png/revision/latest?cb=20120819004810"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 27120046,
+                    "name": "Apocalypse - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Apocalypse_-_Reinforce.png/revision/latest?cb=20120819004818"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 27120047,
+                    "name": "Apocalypse - Recharge",
+                    "shortDesc": "Increases gauge fill amount",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Apocalypse_-_Recharge.png/revision/latest?cb=20120819004823"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 27120048,
+                    "name": "Apocalypse - Extra Target",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Apocalypse_-_Extra_Target.png/revision/latest?cb=20120819004841"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 27120049,
+                    "name": "Ender - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Ender_-_Reinforce.png/revision/latest?cb=20120819004848"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 27120050,
+                    "name": "Ender - Extra Target",
+                    "shortDesc": "Max Enemies Hit: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Ender_-_Extra_Target.png/revision/latest?cb=20120819004901"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 27120051,
+                    "name": "Ender - Range Up",
+                    "shortDesc": "Range 40",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Ender_-_Range_Up.png/revision/latest?cb=20120819004911"],
                     "type": "Passive",
                     "reqLev": 190
@@ -448,14 +587,20 @@
             "hyperActive": [
                 {
                     "id": 27121054,
+                    "name": "Equalize",
+                    "shortDesc": "MP Cost: 1000, Equilibrium status begins.\\nCooldown: 150 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Equalize.png/revision/latest?cb=20120819004929"],
                     "animations": ["https://media4.giphy.com/media/R4r75RlgdS9Xv84RfE/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Instantly puts you into Equilibrium mode",
+                    "desc": "Instantly enter into Equilibrium mode",
                     "reqLev": 140
                 },
                 {
                     "id": 27121052,
+                    "name": "Armageddon",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 1000%, Number of Attacks: 3, Stun Duration: 10 sec, Invincible while casting.\\nStun Duration: up to +100% depending on damage inflicted with Armageddon.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Armageddon.png/revision/latest?cb=20120819004918"],
                     "animations": ["https://media2.giphy.com/media/19DomnaWbtGo40Pnjs/giphy.gif"],
                     "type": "Bind Attack",
@@ -464,6 +609,9 @@
                 },
                 {
                     "id": 27121053,
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Heroic_Memories_%28Luminous%29.png/revision/latest?cb=20121015211503"],
                     "animations": ["https://media0.giphy.com/media/7mwErwbDHzmlzOgRGE/giphy.gif"],
                     "type": "Buff",

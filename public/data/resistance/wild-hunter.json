@@ -116,13 +116,19 @@
             [
                 "Beginner", [{
                     "id": 20021000,
+                    "name": "Crystal Throw",
+                    "shortDesc": "MP Cost: 7, Damage: 40",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Crystal_Throw.png/revision/latest?cb=20100606013011"],
                     "animations": ["https://media3.giphy.com/media/wb8YmIh8qMeYcow18R/giphy.gif"],
-                    "type": "Attacks",
+                    "type": "Attack",
                     "desc": "Throws a rock that deals fixed damage"
                 },
                 {
                     "id": 20021001,
+                    "name": "Infiltrate",
+                    "shortDesc": "MP Cost: 15, Hide for 30 sec, Movement Speed: +15",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Infiltrate.png/revision/latest?cb=20100606013059"],
                     "animations": ["https://media3.giphy.com/media/rtzXxeIMfgROrjF9K2/giphy.gif"],
                     "type": "Active",
@@ -130,11 +136,17 @@
                 },
                 {
                     "id": 20020002,
+                    "name": "Potion Mastery",
+                    "shortDesc": "Recovery Rate: +115%",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Potion_Mastery.png/revision/latest?cb=20100606013234"],
                     "type": "Passive"
                 },
                 {
                     "id": 30001281,
+                    "name": "Secret Assembly",
+                    "shortDesc": "MP Cost: 100, you move to the Resistance Secret Plaza\\nCooldown: 600 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Secret_Assembly.png/revision/latest?cb=20160619042757"],
                     "animations": ["https://media3.giphy.com/media/5HP2kBZZ6E1zFqW8mz/giphy.gif"],
                     "type": "Active"
@@ -155,6 +167,9 @@
                 },
                 {
                     "id": 30001062,
+                    "name": "Call of the Hunter",
+                    "shortDesc": "MP Cost: 10, summons a monster for 60 sec\\nThe monster attacks with 200% + 1% per monster level damage every 2 sec\\nCooldown: 30 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Call_of_the_Hunter.png/revision/latest?cb=20100606013737"],
                     "type": "Summon",
                     "desc": "Allows you to randomly summon a monster you've captured (aside from a Jaguar)"
@@ -164,6 +179,9 @@
                 "1st Job", [
                     {
                         "id": 33001105,
+                        "name": "Double Shot",
+                        "shortDesc": "MP Cost: 22, Damage: 185%, Number of Attacks: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Double_Shot_%28Wild_Hunter%29.png/revision/latest?cb=20150111201959"],
                         "animations": ["https://media1.giphy.com/media/EzUgxXve5bdXMQA6vm/giphy.gif"],
                         "type": "Unmounted | Attack",
@@ -171,6 +189,9 @@
                     },
                     {
                         "id": 33001205,
+                        "name": "Double Shot",
+                        "shortDesc": "MP Cost 22, Max Enemies Hit: 5, Damage: 80%, Number of Piercing Attacks: 2, Number of Bullets: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Double_Shot_%28Wild_Hunter%29.png/revision/latest?cb=20150111201959"],
                         "animations": ["https://media3.giphy.com/media/IOvyjB1z4erXKuN9D0/giphy.gif"],
                         "type": "Mounted | Attack",
@@ -178,6 +199,9 @@
                     },
                     {
                         "id": 33001102,
+                        "name": "Double Jump",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Double_Jump_%28Wild_Hunter%29.png/revision/latest?cb=20150319043405"],
                         "animations": ["https://media3.giphy.com/media/pDIdtBoHM7o6TgVvxr/giphy.gif"],
                         "type": "Umounted | Active",
@@ -189,6 +213,9 @@
                     },
                     {
                         "id": 33001202,
+                        "name": "Graviboots",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0b/Skill_Graviboots.png/revision/latest?cb=20110515080540"],
                         "animations": ["https://media3.giphy.com/media/ekCMuJm9Er0SPwj2ba/giphy.gif"],
                         "type": "Mounted | Active",
@@ -200,6 +227,9 @@
                     },
                     {
                         "id": 33001001,
+                        "name": "Jaguar Rider",
+                        "shortDesc": "MP Cost: 20, Speed While Riding: 40, Knockback Resistance: +50%\\nCooldown: 3 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Jaguar_Rider.png/revision/latest?cb=20110515080537"],
                         "animations": ["https://media3.giphy.com/media/HSNV0qhiEMdllzHZxZ/giphy.gif"],
                         "type": "Active Mount",
@@ -210,6 +240,9 @@
                     },
                     {
                         "id": 33001007,
+                        "name": "Summon Jaguar",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 6, Damage of Summoned Jaguar: 140% + 1% per character level. Debuff Chance: 15%, Max Stacks: 3, Duration: 8 sec\\nAnother Bite: [Final Attack Type Skill] Crossbow-Type Skills - Damage against Debuffed Enemies: 60% per stack + 1% for every 3 player levels.\\nCritical Damage of Summoned Jaguar: +8%, Abnormal Status Resistance: +30.\\nCooldown: 3 sec.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Summon_Jaguar.png/revision/latest?cb=20150320015457"],
                         "animations": ["https://media0.giphy.com/media/Vk32HTYng2umG26AN6/giphy.gif"],
                         "type": "Summon",
@@ -222,6 +255,9 @@
                     },
                     {
                         "id": 33001016,
+                        "name": "Swipe",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 8, Damage: 200% + 1% per character level, Number of Attacks: 4.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 30%.\\nRecover 7% of Max HP when attacking.\\nCooldown: 5 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Swipe.png/revision/latest?cb=20110515140209"],
                         "animations": ["https://media3.giphy.com/media/5VJk3VzKXewgrEeCmH/giphy.gif"],
                         "type": "Jaguar | Attack",
@@ -234,6 +270,9 @@
                     },
                     {
                         "id": 33001025,
+                        "name": "Wild Lure",
+                        "shortDesc": "MP Cost: 50, Max Enemies Provoked: 10, Provocation Duration: 10 sec. Duration is cut in half against bosses.\\nCooldown: 20 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1b/Skill_Wild_Lure.png/revision/latest?cb=20150320022552"],
                         "animations": ["https://media0.giphy.com/media/v9JnAtaEXkMM6RGS4A/giphy.gif"],
                         "type": "Jaguar | Active Debuff",
@@ -244,16 +283,25 @@
                     },
                     {
                         "id": 33000005,
+                        "name": "Resistance Auto Crank",
+                        "shortDesc": "Attack Power: +20, Crossbow Skill Attack Range: +50, Jump: +20, Speed: +40",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Resistance_Auto_Crank.png/revision/latest?cb=20130517113309"],
                         "type": "Passive"
                     },
                     {
                         "id": 33000034,
+                        "name": "Nature's Wrath",
+                        "shortDesc": "Critical Rate: +25%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Nature%27s_Wrath.png/revision/latest?cb=20150320050902"],
                         "type": "Passive"
                     },
                     {
                         "id": 33001006,
+                        "name": "Jaguar Management",
+                        "shortDesc": "Manage captured Jaguars using the mouse.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Jaguar_Management.png/revision/latest?cb=20150320051351"],
                         "type": "Special Active",
                         "desc": "Opens a UI that shows all your captured Jaguars",
@@ -267,6 +315,9 @@
                 "2nd Job", [
                     {
                         "id": 33101113,
+                        "name": "Triple Shot",
+                        "shortDesc": "MP Cost: 28, Damage: 290%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Triple_Shot.png/revision/latest?cb=20150315224254"],
                         "animations": ["https://media2.giphy.com/media/fvlRuZZc5axXdA9sgZ/giphy.gif"],
                         "type": "Unmounted | Attack",
@@ -274,12 +325,18 @@
                     },
                     {
                         "id": 33101213,
+                        "name": "Triple Shot",
+                        "shortDesc": "MP Cost: 28, Damage: 290%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Triple_Shot.png/revision/latest?cb=20150315224254"],
                         "type": "Mounted | Attack",
                         "desc": "Fires three arrows and Jaguar artillery that pierces and hit multiple enemies but has reduced damage and range"
                     },
                     {
                         "id": 33101215,
+                        "name": "Dash 'n Slash",
+                        "shortDesc": "MP Cost: 45, Max Enemies Hit: 8, Damage: 225% + (1% x Character Level), Number of Attacks: 2, Chance to Stun: 100%, Stun Duration: 3 sec.",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Dash_%27n_Slash.png/revision/latest?cb=20110515140146"],
                         "animations": ["https://media1.giphy.com/media/Ig3dPJsu0mxGAG1dmu/giphy.gif"],
                         "type": "Mounted | Attack",
@@ -287,6 +344,9 @@
                     },
                     {
                         "id": 33101115,
+                        "name": "Dash 'n Slash",
+                        "shortDesc": "MP Cost: 45, Max Enemies Hit: 8, Damage: 225% + 1% per level, Number of Attacks: 2, Stun Chance: 100% for 3 sec.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 80%.\\nCooldown: 7 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Dash_%27n_Slash.png/revision/latest?cb=20110515140146"],
                         "animations": ["https://media1.giphy.com/media/9vLGDmynzY5THW09dD/giphy.gif", "https://media3.giphy.com/media/3PZizCCDmo8IcgYPwb/giphy.gif"],
                         "type": "Attack",
@@ -297,17 +357,26 @@
                     },
                     {
                         "id": 33100000,
+                        "name": "Crossbow Mastery",
+                        "shortDesc": "Crossbow Mastery: +50%, Damage: +10%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Crossbow_Mastery.png/revision/latest?cb=20100609132925"],
                         "type": "Passive"
                     },
                     {
                         "id": 33101003,
+                        "name": "Soul Arrow: Crossbow",
+                        "shortDesc": "MP Cost: 30, ATT +20 for 300 sec, able to attack without spending arrows.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Soul_Arrow_Crossbow.png/revision/latest?cb=20110502134857"],
                         "animations": ["https://media0.giphy.com/media/j2TItguR78snSQZRyW/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 33101005,
+                        "name": "Call of the Wild",
+                        "shortDesc": "MP Cost: 40, Duration: 300 sec, Party Attack Power and Magic ATT: +10%\\n[Passive Effect: Damage Taken: -15%, Bonus Avoidability: +15%, Max MP: +15%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Call_of_the_Wild.png/revision/latest?cb=20120810051406"],
                         "animations": ["https://media2.giphy.com/media/17KIH7alCUvBehCHle/giphy.gif"],
                         "type": "Party Buff",
@@ -319,22 +388,34 @@
                     },
                     {
                         "id": 33100009,
+                        "name": "Final Attack",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 150% Final Attack damage.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                         "type": "Final Attack Passive",
                         "desc": "Grants your attacks a chance to deal an additional hit"
                     },
                     {
                         "id": 33100010,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     },
                     {
                         "id": 33100014,
+                        "name": "Jaguar Mastery",
+                        "shortDesc": "Max HP: +20%, Knockback Resistance: +50%",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Jaguar_Mastery.png/revision/latest?cb=20150320201446"],
                         "type": "Passive"
                     },
                     {
                         "id": 33101012,
+                        "name": "Crossbow Booster",
+                        "shortDesc": "MP Cost: 11, Crossbow Attack Speed increased for 300 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Crossbow_Booster.png/revision/latest?cb=20100607082800"],
                         "animations": ["https://media2.giphy.com/media/husZ3Lbb8MV6luny0G/giphy.gif"],
                         "type": "Buff",
@@ -344,6 +425,9 @@
                 [
                 "3rd Job", [{
                         "id": 33111112,
+                        "name": "Enduring Fire",
+                        "shortDesc": "MP Cost: 40, Damage: 270%, Number of Attacks: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Enduring_Fire.png/revision/latest?cb=20110515140142"],
                         "animations": ["https://media4.giphy.com/media/g5fQVHrTV4YNa22LB1/giphy.gif"],
                         "type": "Unmounted | Attack",
@@ -351,6 +435,9 @@
                     },
                     {
                         "id": 33111212,
+                        "name": "Enduring Fire",
+                        "shortDesc": "MP Cost 40, Max Enemies Hit: 6, Damage: 115%, Number of Piercing Attacks: 2, Number of Bullets: 5",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Enduring_Fire.png/revision/latest?cb=20110515140142"],
                         "animations": ["https://media2.giphy.com/media/CIEfbsbmSFD4k7h2s0/giphy.gif"],
                         "type": "Mounted | Attack",
@@ -358,6 +445,9 @@
                     },
                     {
                         "id": 33111015,
+                        "name": "Sonic Roar",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 220% + 1% per level, Number of Attacks: 6.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 40%.\\nCooldown: 6 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a8/Skill_Sonic_Roar.png/revision/latest?cb=20110515144341"],
                         "animations": ["https://media4.giphy.com/media/IQVM4oBYfgBSYaJkzm/giphy.gif"],
                         "type": "Jaguar | Attack",
@@ -368,6 +458,9 @@
                     },
                     {
                         "id": 33111010,
+                        "name": "White Heat Rush",
+                        "shortDesc": "MP Cost: 21, Max Enemies Hit: 8, Damage: 1200%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_White_Heat_Rush.png/revision/latest?cb=20140513203111"],
                         "animations": ["https://media3.giphy.com/media/F7lirJyljqD7f1BaEv/giphy.gif"],
                         "type": "Mounted | Attack",
@@ -375,6 +468,9 @@
                     },
                     {
                         "id": 33111013,
+                        "name": "Hunting Assistant Unit",
+                        "shortDesc": "MP Cost: 64, Duration: 31 sec, Attack Duration: 3 sec, Reload time: 4 sec, Number of Enemies: 8, Damage: 150%, Number of Attacks: 3\\nCooldown: 8 sec",
+                        "maxLevel": 20,
                         "icons": ["https://i.imgur.com/KTWEMO9.png"],
                         "animations": ["https://media3.giphy.com/media/mCxZSLab0ZpKEvPmhj/giphy.gif"],
                         "type": "Summon",
@@ -382,6 +478,9 @@
                     },
                     {
                         "id": 33111007,
+                        "name": "Feline Berserk",
+                        "shortDesc": "MP Cost: 130, Attack Power: +20%, Duration: 300 sec, Speed: +15. Attack Speed will increase by 1.\\n[Passive Effect - Max HP: +50%]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Feline_Berserk.png/revision/latest?cb=20110515144409"],
                         "animations": ["https://media2.giphy.com/media/zdsKA6oaS4y38JqSn3/giphy.gif"],
                         "type": "Buff",
@@ -392,6 +491,9 @@
                     },
                     {
                         "id": 33110008,
+                        "name": "Flurry",
+                        "shortDesc": "Dexterity: + 40, Dodge Chance: 40%, all attacks following a successful dodge for 1 sec will be criticals.",
+                        "maxLevel": 19,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/25/Skill_Flurry.png/revision/latest?cb=20130517114914"],
                         "type": "Passive",
                         "desc": "Grants a chance to dodge attacks",
@@ -402,12 +504,18 @@
                     },
                     {
                         "id": 33110014,
+                        "name": "Jaguar Link",
+                        "shortDesc": "Each Captured Jaguar - Critical Rate: +3%, Critical Damage: +2%, Max Number of Jaguars: 6, Attack Power: +10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Jaguar_Link.png/revision/latest?cb=20150321005539"],
                         "type": "Passive",
                         "desc": "For each captured Jaguar, gain %Crit Chance, %Crit Damage and Attack"
                     },
                     {
                         "id": 33111011,
+                        "name": "Backstep",
+                        "shortDesc": "While activated, your Jaguar is able to attack while walking backwards.\\n[Passive Effect: Damage Taken: -20%]",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Backstep.png/revision/latest?cb=20140513203116"],
                         "animations": ["https://media3.giphy.com/media/YiXFu1SQtbQ4t7ohtn/giphy.gif"],
                         "type": "Toggle",
@@ -420,6 +528,9 @@
                 [
                 "4th Job", [{
                     "id": 33121114,
+                    "name": "Wild Arrow Blast",
+                    "shortDesc": "MP Cost per attack: 13, Damage per arrow: 370%, Speed during casting: 140, Boss Monster Damage: +10%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423"],
                     "animations": ["https://media1.giphy.com/media/F97SG87Vi0L0nz3VeK/giphy.gif"],
                     "type": "Unmounted | Key-down Attack",
@@ -431,6 +542,9 @@
                 },
                 {
                     "id": 33121214,
+                    "name": "Wild Arrow Blast",
+                    "shortDesc": "MP Cost per attack: 13, For each shot, Max Enemies Hit: 8, Damage: 185%, Number of Piercing Attacks: 2",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Wild_Arrow_Blast.png/revision/latest?cb=20110515144423"],
                     "animations": ["https://media1.giphy.com/media/DTFS2QXZAV1mIdhsvc/giphy.gif"],
                     "type": "Mounted | Key-down Attack",
@@ -441,6 +555,9 @@
                 },
                 {
                     "id": 33121017,
+                    "name": "Jaguar Soul",
+                    "shortDesc": "MP Cost: 300, Enemies Hit: 1, Damage: 270% + 1% per character level, Number of Attacks: 12. Stun Chance: 100%, Duration: 10 sec, Stun Duration increased by up to 100% based on damage inflicted by Jaguar Soul\\nAnother Bite Debuff Chance: 100%\\nCooldown: 210 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Jaguar_Soul.png/revision/latest?cb=20150323084659"],
                     "animations": ["https://media1.giphy.com/media/5MWtYOj8XPCZzKE51h/giphy.gif"],
                     "type": "Jaguar | Bind Attack",
@@ -448,6 +565,9 @@
                 },
                 {
                     "id": 33121016,
+                    "name": "Drill Salvo",
+                    "shortDesc": "MP Cost: 50, Duration: 15 sec, Damage: 430%, Number of Attacks: 1, Max Enemies Hit: 10\\nCooldown: 30 sec\\nWild Arrow Blast Damage Against Normal Monsters While Mounted on Jaguar: +20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Drill_Salvo.png/revision/latest?cb=20150323085908"],
                     "animations": ["https://media1.giphy.com/media/MKLCywxt9NR7PxI34r/giphy.gif"],
                     "type": "Summon",
@@ -458,18 +578,27 @@
                 },
                 {
                     "id": 33121004,
+                    "name": "Sharp Eyes",
+                    "shortDesc": "MP Cost: 45, Critical Rate: +20%, Critical Damage: +15%, Duration: 300 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300"],
                     "animations": ["https://media4.giphy.com/media/vGakR1qVI5X95eejBy/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 33121007,
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                     "animations": ["https://media0.giphy.com/media/Vh5k1olCUcUEWokLQA/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "id": 33121008,
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30\\nCooldown: 360 sec",
+                    "maxLevel": 5,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                     "animations": ["https://media0.giphy.com/media/AX3UGelJn8X1hr8zAG/giphy.gif"],
                     "type": "Buff",
@@ -477,11 +606,17 @@
                 },
                 {
                     "id": 33120013,
+                    "name": "Extended Magazine",
+                    "shortDesc": "Final Damage: +20%, All Stats: +60",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Extended_Magazine.png/revision/latest?cb=20160627051915"],
                     "type": "Passive"
                 },
                 {
                     "id": 33120000,
+                    "name": "Crossbow Expert",
+                    "shortDesc": "Crossbow Mastery: +70%. Attack Power: +30, Critical Damage: +20%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Crossbow_Expert.png/revision/latest?cb=20110503111142", "https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Crossbow_Mastery.png/revision/latest?cb=20100609132925"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -492,11 +627,17 @@
                 },
                 {
                     "id": 33120010,
+                    "name": "Wild Instinct",
+                    "shortDesc": "DEF: +50%, Ignore Enemy's Weapon DEF: 30%",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Wild_Instinct.png/revision/latest?cb=20110515144427"],
                     "type": "Passive"
                 },
                 {
                     "id": 33120011,
+                    "name": "Advanced Final Attack",
+                    "shortDesc": "Attack Power: +20 permanently.\\n[Final Attack Skills] Final Attack Chance: 70%, Damage: 210%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Advanced_Final_Attack_%28Wild_Hunter%29.png/revision/latest?cb=20150321010743", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -507,6 +648,9 @@
                 },
                 {
                     "id": 33120015,
+                    "name": "Natural Force",
+                    "shortDesc": "Elemental Resistance: +30%, Abnormal Status Resistance: +15",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Natural_Force.png/revision/latest?cb=20150322033557"],
                     "type": "Passive"
                 }]
@@ -516,54 +660,81 @@
             "hyperPassive": [
                 {
                     "id": 33120043,
+                    "name": "Feline Berserk - Reinforce",
+                    "shortDesc": "Attack +5%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Feline_Berserk_-_Reinforce.png/revision/latest?cb=20121113020307"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 33120044,
+                    "name": "Feline Berserk - Vitality",
+                    "shortDesc": "Max HP: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Feline_Berserk_-_Vitality.png/revision/latest?cb=20121113020314"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 33120045,
+                    "name": "Feline Berserk - Rapid Attack",
+                    "shortDesc": "+1 Attack Speed",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Feline_Berserk_-_Rapid_Attack.png/revision/latest?cb=20121113020322"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 33120046,
+                    "name": "Summon Jaguar - Enhance",
+                    "shortDesc": "Another Bite Damage: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Summon_Jaguar_-_Enhance.png/revision/latest?cb=20150321070058"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 33120047,
+                    "name": "Summon Jaguar - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Summon_Jaguar_-_Reinforce.png/revision/latest?cb=20150321070056"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 33120048,
+                    "name": "Summon Jaguar - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Summon_Jaguar_-_Cooldown_Cutter.png/revision/latest?cb=20150321065308"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 33120049,
+                    "name": "Wild Arrow Blast - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Wild_Arrow_Blast_-_Reinforce.png/revision/latest?cb=20121113020435"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 33120050,
+                    "name": "Wild Arrow Blast - Guardbreak",
+                    "shortDesc": "Bonus DEF ignored: 10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Wild_Arrow_Blast_-_Guardbreak.png/revision/latest?cb=20121113020449"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 33120051,
+                    "name": "Wild Arrow Blast - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Wild_Arrow_Blast_-_Boss_Rush.png/revision/latest?cb=20130517120657"],
                     "type": "Passive",
                     "reqLev": 190
@@ -572,6 +743,9 @@
             "hyperActive": [
                 {
                     "id": 33121054,
+                    "name": "Silent Rampage",
+                    "shortDesc": "MP Cost: 200, Duration: 40 sec, Damage: +40%, Final Attack Chance: 100%.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Silent_Rampage.png/revision/latest?cb=20180921232551"],
                     "animations": ["https://media3.giphy.com/media/NaVaObeilsF4hTa3VH/giphy.gif"],
                     "type": "Buff",
@@ -579,6 +753,9 @@
                 },
                 {
                     "id": 33121155,
+                    "name": "Exploding Arrows",
+                    "shortDesc": "MP Cost: 200, Damage: 380%, Number of Attacks: 11, Max Enemies Hit: 15\\nCooldown: 12 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Exploding_Arrows.png/revision/latest?cb=20110515144344"],
                     "animations": ["https://media1.giphy.com/media/Cz4zbH9irGhNjqJ4DK/giphy.gif"],
                     "type": "Mounted | Attack",
@@ -590,6 +767,9 @@
                 },
                 {
                     "id": 33121255,
+                    "name": "Jaguar Rampage",
+                    "shortDesc": "MP Cost: 200, Enemies Hit: 6, Damage: 500% + 1% per level, Number of Attacks: 9. 100% Chance for Another Bite.\\nCooldown: 12 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Jaguar_Rampage.png/revision/latest?cb=20130517120706"],
                     "animations": ["https://media1.giphy.com/media/PSLOUph5YXgGh4R5T2/giphy.gif"],
                     "type": "Jaguar | Attack",
@@ -601,6 +781,9 @@
                 },
                 {
                     "id": 32121053,
+                    "name": "For Liberty",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_For_Liberty.png/revision/latest?cb=20121111231355"],
                     "animations": ["https://media3.giphy.com/media/oyIl8vMpt7jt7EEUVE/giphy.gif"],
                     "type": "Buff",

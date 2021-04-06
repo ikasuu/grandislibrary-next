@@ -103,11 +103,17 @@
             [
                 "Beginner", [{
                     "id": 20020109,
+                    "name": "Elven Healing",
+                    "shortDesc": "Recovers HP and MP by 5% of Max HP and MP every 4 seconds.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Elven_Healing.png/revision/latest?cb=20160220233101"],
                     "type": "Passive"
                 },
                 {
                     "id": 20020111,
+                    "name": "Updraft",
+                    "shortDesc": "Can be used on ladders or ropes.\\n[Command:Up Arrow Key + Jump ]",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Updraft.png/revision/latest?cb=20110723104708"],
                     "animations": ["https://media2.giphy.com/media/5CXXY7dNRYKLvCPzXQ/giphy.gif"],
                     "type": "Passive",
@@ -115,6 +121,9 @@
                 },
                 {
                     "id": 20021110,
+                    "name": "Elven Blessing",
+                    "shortDesc": "Returns you to Elluel\\nCooldown: 600 sec\\nAdditional Effect: Permanently receive 20% additional EXP",
+                    "maxLevel": 3,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Elven_Blessing.png/revision/latest?cb=20110723104642"],
                     "type": "Active / Passive",
                     "desc": "",
@@ -127,6 +136,9 @@
             [
                 "1st Job", [{
                         "id": 23001000,
+                        "name": "Swift Dual Shot",
+                        "shortDesc": "MP Cost: 14, Arrows Fired: 3, Damage: 125%, Max Monsters Hit: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Swift_Dual_Shot.png/revision/latest?cb=20110810032854"],
                         "animations": ["https://media.giphy.com/media/eg4OqI9FhCMA74PHzp/giphy.gif"],
                         "type": "Attack",
@@ -134,11 +146,17 @@
                     },
                     {
                         "id": 23000001,
+                        "name": "Potential Power",
+                        "shortDesc": "Movement Speed: +30, Max Movement Speed Limit: +165, Damage: +20%, Enemy Attack Avoidance Rate: 20%",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Potential_Power.png/revision/latest?cb=20110810032900"],
                         "type": "Passive"
                     },
                     {
                         "id": 23001002,
+                        "name": "Glide Blast",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Glide_Blast.png/revision/latest?cb=20110810032909"],
                         "animations": ["https://media.giphy.com/media/S3bVM2akfDLYfqegBg/giphy.gif"],
                         "type": "Active",
@@ -149,6 +167,9 @@
                     },
                     {
                         "id": 23000003,
+                        "name": "Sharp Aim",
+                        "shortDesc": "Critical Rate: +40%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Sharp_Aim.png/revision/latest?cb=20110810032915"],
                         "type": "Passive"
                     }]
@@ -156,6 +177,9 @@
                 [
                     "2nd Job", [{
                         "id": 23101000,
+                        "name": "Piercing Storm",
+                        "shortDesc": "MP Cost: 24, Damage: 120%, Max Monsters Hit: 6, Number of Penetration Attacks: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Piercing_Storm.png/revision/latest?cb=20110727142646"],
                         "animations": ["https://media.giphy.com/media/SvWJ9wNxQwt5qKwzSz/giphy.gif"],
                         "type": "Attack",
@@ -163,6 +187,9 @@
                     },
                     {
                         "id": 23101001,
+                        "name": "Rising Rush",
+                        "shortDesc": "MP Cost: 25, Damage: 250%, Launch Damage: 250%, Number of Attacks: 2 times, Max Enemies Hit: 8, Damage when Attacking Airborne Enemies: +30%p",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505"],
                         "animations": ["https://media.giphy.com/media/kemLCwoJGIuEe2Yj0B/giphy.gif"],
                         "type": "Attack",
@@ -175,6 +202,9 @@
                     },
                     {
                         "id": 23100004,
+                        "name": "Parting Shot",
+                        "shortDesc": "MP Cost: 16, Damage: 85%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Parting_Shot.png/revision/latest?cb=20170918074817"],
                         "animations": ["https://media.giphy.com/media/eJcWKpo8eaD4xv2bOb/giphy.gif"],
                         "type": "Combo Attack",
@@ -185,6 +215,9 @@
                     },
                     {
                         "id": 23101002,
+                        "name": "Dual Bowguns Boost",
+                        "shortDesc": "MP Cost: 11, Attack Speed increased for 200 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Dual_Bowguns_Boost.png/revision/latest?cb=20110727142656"],
                         "animations": ["https://media0.giphy.com/media/NY6fvUuso1AKLKYH3P/giphy.gif"],
                         "type": "Buff",
@@ -192,22 +225,34 @@
                     },
                     {
                         "id": 23100003,
+                        "name": "Spirit Surge",
+                        "shortDesc": "Damage: +30%, Critical Rate: +15%",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Spirit_Surge.png/revision/latest?cb=20160627050122"],
                         "type": "Passive"
                     },
                     {
                         "id": 23100005,
+                        "name": "Dual Bowguns Mastery",
+                        "shortDesc": "Dual Bowguns Mastery: +50%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Dual_Bowguns_Mastery.png/revision/latest?cb=20110727142738"],
                         "type": "Passive"
                     },
                     {
                         "id": 23100006,
+                        "name": "Final Attack: Dual Bowguns",
+                        "shortDesc": "[Final Attack Skills] Final Attack Chance: 40%, Final Attack Damage: 75%, Number of Hits: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                         "type": "Final Attack Passive",
                         "desc": "Grants your attacks a chance to deal an additional hit"
                     },
                     {
                         "id": 23100008,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     }]
@@ -215,6 +260,9 @@
                 [
                     "3rd Job", [{
                         "id": 23111000,
+                        "name": "Stunning Strikes",
+                        "shortDesc": "MP Cost: 35, Damage: 260%, Number of Arrows: 4, Max Monsters Hit: 5, Stun Chance: 80%, Stun Duration: 6 sec, Final Damage to Stunned Enemies: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243"],
                         "animations": ["https://media.giphy.com/media/JsQYdSY5LXxxJ4Pg54/giphy.gif"],
                         "type": "Attack",
@@ -226,6 +274,9 @@
                     },
                     {
                         "id": 23111001,
+                        "name": "Leap Tornado",
+                        "shortDesc": "MP Cost: 45, Damage: 260%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250"],
                         "animations": ["https://media.giphy.com/media/frBg7UnxTlwjuPnou1/giphy.gif"],
                         "type": "Attack",
@@ -239,6 +290,9 @@
                     },
                     {
                         "id": 23111002,
+                        "name": "Unicorn Spike",
+                        "shortDesc": "MP Cost: 62, Damage: 315%, Max Enemies Hit: 8, Number of Critical Attacks: 5, Additional Damage Debuff Chance: 100%, Additional Damage Debuff Duration: 30 sec, Additional Damage: 30%\\nCooldown: 10 sec\\nUsing link skills reduces cooldown by 1 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Unicorn_Spike.png/revision/latest?cb=20110810041256"],
                         "animations": ["https://media.giphy.com/media/MZFFwyUCINQsTVG3Bx/giphy.gif"],
                         "type": "Attack",
@@ -250,6 +304,9 @@
                     },
                     {
                         "id": 23111003,
+                        "name": "Gust Dive",
+                        "shortDesc": "MP Cost: 45, Damage: 260%, Number of Attacks: 4, Max Enemies Hit: 6",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728"],
                         "animations": ["https://media1.giphy.com/media/jsfYkQ30qelkw5IFh8/giphy.gif"],
                         "type": "Attack",
@@ -261,12 +318,18 @@
                     },
                     {
                         "id": 23111005,
+                        "name": "Water Shield",
+                        "shortDesc": "MP Cost: 100, Damage Taken: -30%, Duration: 200 sec, Abnormal Status Resistance: +25, Elemental Resistance: +25%.",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Water_Shield.png/revision/latest?cb=20110810041409"],
                         "animations": ["https://media4.giphy.com/media/jKI9Dju6eXshZDcWot/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 23110006,
+                        "name": "Aerial Barrage",
+                        "shortDesc": "MP Cost: 28, Damage: 105%, Max Enemies Hit: 8, Number of Attacks: 6\\n[Passive Effects - Rising Rush Damage: +100%p]",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959"],
                         "animations": ["https://media.giphy.com/media/hX7Psd17Gqxp9swQZU/giphy.gif"],
                         "type": "Combo Attack",
@@ -280,6 +343,9 @@
                     },
                     {
                         "id": 23111008,
+                        "name": "Elemental Knights",
+                        "shortDesc": "MP Cost: 60, Summons 1 random Spirit for 210 sec, can summon up to 2 Spirits.\\nIce Spirit - Damage: 385%, Freeze Chance: 90%, Freeze Duration: 5 sec\\nFire Spirit - Damage: 385%, Damage over time: 110% damage every 1 sec for 5 sec\\nShadow Spirit - Damage: 485%\\nCooldown: 120 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1f/Skill_Elemental_Knights.png/revision/latest?cb=20110810041419"],
                         "animations": ["https://media1.giphy.com/media/vps8eo1J5lerGP7pzD/giphy.gif"],
                         "type": "Summon",
@@ -290,6 +356,9 @@
                     },
                     {
                         "id": 23110004,
+                        "name": "Ignis Roar",
+                        "shortDesc": "Final damage increased by 2% when using linked skills.\\nFinal damage increase due to linked skill usage can stack up to 10 times, lasts for 15, damage is stacked additively.\\n[Passive Effects - Avoidability +20%, Final Damage +15%, ATT: +40]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Ignis_Roar.png/revision/latest?cb=20171207054853"],
                         "type": "Passive",
                         "desc": "Whenever you link skills together, you gain a stacking of %Final Damage buff up to 10 times",
@@ -301,6 +370,9 @@
                 [
                     "4th Job", [{
                         "id": 23121000,
+                        "name": "Ishtar's Ring",
+                        "shortDesc": "MP Cost per attack: 10, Damage: 220%, Number of Attacks: 2\\nWhen hit, Ignis Roar Duration: +0.1 sec\\n[Passive Effect: Unicorn Spikes Damage: +100%p]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Ishtar%27s_Ring.png/revision/latest?cb=20110810053956"],
                         "animations": ["https://media.giphy.com/media/YqQG5R8b9b3WPSbaqU/giphy.gif"],
                         "type": "Key-down Attack",
@@ -313,6 +385,9 @@
                     },
                     {
                         "id": 23121002,
+                        "name": "Spikes Royale",
+                        "shortDesc": "MP Cost: 60. Delivers a Critical attack. Damage: 700%, Max Enemies Hit: 12, Number of Attacks: 3, Enemy DEF: -30%, Duration: 30 sec\\nCooldown: 5 sec\\nCooldown reduced by 1 second each time a linked skill is used.\\n[Passive Effect - Leaf Tornado Damage: +130%p]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004"],
                         "animations": ["https://media.giphy.com/media/Lkl5wa3RK14BV3QyoV/giphy.gif"],
                         "type": "Attack",
@@ -325,6 +400,9 @@
                     },
                     {
                         "id": 23121003,
+                        "name": "Lightning Edge",
+                        "shortDesc": "MP Cost: 74, Max Enemies Hit: 8, Damage: 420%, Number of Attacks while moving forward: 3, Ignore collision with boss and Debuff while attacking boss with Lightning Edge: Ishtar's Ring Damage: +20%, Duration: 30 sec.\\n[Passive Effect: Gust Dive Damage: +170%p]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Lightning_Edge.png/revision/latest?cb=20110810054008"],
                         "animations": ["https://media.giphy.com/media/MFt51FftwLBCmGcELL/giphy.gif"],
                         "type": "Attack",
@@ -339,6 +417,9 @@
                     },
                     {
                         "id": 23121011,
+                        "name": "Rolling Moonsault",
+                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 6\\nGlide Blast is reset after use\\nCooldown: 4 sec\\n[Passive Effects - Rising Rush, Aerial Barrage Damage: +195%p]",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Rolling_Moonsault.png/revision/latest?cb=20110810054044"],
                         "animations": ["https://media.giphy.com/media/kD0AM4tUlPb6L15f7O/giphy.gif"],
                         "type": "Attack",
@@ -354,6 +435,9 @@
                     },
                     {
                         "id": 23121014,
+                        "name": "Spirit Nimble Flight",
+                        "shortDesc": "MP Cost: 250, cancels your current skill and move in the desired direction by using any arrow key while Mercedes is performing a skill mid-air.\\nCooldown: 10 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Spirit_Nimble_Flight.png/revision/latest?cb=20160627080003"],
                         "animations": ["https://media.giphy.com/media/JOdQMiz8KxE4qTob1M/giphy.gif"],
                         "type": "Active",
@@ -365,13 +449,19 @@
                     },
                     {
                         "id": 23121004,
+                        "name": "Ancient Warding",
+                        "shortDesc": "MP Cost: 80, For 200 seconds, Attack Power +30%, HP: +1500\\n[Passive Effect: Ignis Roar's Avoidability Chance: +20%]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Ancient_Warding.png/revision/latest?cb=20110810054014"],
                         "animations": ["https://media1.giphy.com/media/XKt7QRviolDvZxwSoj/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 23120013,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229", "https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229"],
+                        "name": "Staggering Strikes",
+                        "shortDesc": "MP Cost: 35, Damage: 380%, Number of Arrows: 4, Max Monsters Hit: 8, Stun Chance: 80%, Stun Duration: 6 sec, Final Damage to Stunned Enemies: +20%",
+                        "maxLevel": 10,
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229", "https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243"],
                         "animations": ["https://media.giphy.com/media/JsQYdSY5LXxxJ4Pg54/giphy.gif"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -382,6 +472,9 @@
                     },
                     {
                         "id": 23120009,
+                        "name": "Dual Bowguns Expert",
+                        "shortDesc": "Dual Bowguns Mastery: +70%. Attack Power: +30, Critical Damage: +10%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Dual_Bowguns_Expert.png/revision/latest?cb=20110810054035", "https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Dual_Bowguns_Mastery.png/revision/latest?cb=20110727142738"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -392,11 +485,17 @@
                     },
                     {
                         "id": 23120010,
+                        "name": "Defense Break",
+                        "shortDesc": "Ignored Enemy DEF: 25%, Final Damage +20%, When Attacking Boss Monsters - Damage: +20%, Critical Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Defense_Break.png/revision/latest?cb=20110810054039"],
                         "type": "Passive"
                     },
                     {
                         "id": 23120012,
+                        "name": "Advanced Final Attack",
+                        "shortDesc": "Attack Power: +20 permanently.\\n[Final Attack Skills] Final Attack Chance: 75%, Damage: 120%, Times Activated: 2.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -406,12 +505,18 @@
                     },
                     {
                         "id": 23121005,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media1.giphy.com/media/eTt0PXGc8H0NnQ6EVB/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 23121008,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media2.giphy.com/media/mrbRtoDqKEGfT3Cq4Z/giphy.gif"],
                         "type": "Buff",
@@ -423,54 +528,81 @@
             "hyperPassive": [
                 {
                     "id": 23120043,
+                    "name": "Ishtar's Ring - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Ishtar%27s_Ring_-_Reinforce.png/revision/latest?cb=20120814021912"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 23120044,
+                    "name": "Ishtar's Ring - Guardbreak",
+                    "shortDesc": "Monster DEF ignored increased 20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ishtar%27s_Ring_-_Guardbreak.png/revision/latest?cb=20130315124653"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 23120045,
+                    "name": "Ishtar's Ring - Boss Rush",
+                    "shortDesc": "When attacking Boss Monsters with Ishtar's Ring - Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/66/Skill_Ishtar%27s_Ring_-_Boss_Rush.png/revision/latest?cb=20130315124703"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 23120046,
+                    "name": "Water Shield - Reinforce",
+                    "shortDesc": "Damage Reduction: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Water_Shield_-_Reinforce.png/revision/latest?cb=20120814022256"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 23120047,
+                    "name": "Water Shield - True Immunity 1",
+                    "shortDesc": "Abnormal Status Resistance: +10",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Water_Shield_-_True_Immunity_1.png/revision/latest?cb=20120814022434"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 23120048,
+                    "name": "Water Shield - True Immunity 2",
+                    "shortDesc": "Elemental Resistance +10% in addition",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Water_Shield_-_True_Immunity_2.png/revision/latest?cb=20120814022525"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 23120049,
+                    "name": "Spikes Royale - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Spikes_Royale_-_Reinforce.png/revision/latest?cb=20120814022638"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 23120050,
+                    "name": "Spikes Royale - Armorbreak",
+                    "shortDesc": "Defense Reduction: +-20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spikes_Royale_-_Armorbreak.png/revision/latest?cb=20120814022834"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 23120051,
+                    "name": "Spikes Royale - Temper Link",
+                    "shortDesc": "Damage: +30% in addition",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Skill_Spikes_Royale_-_Temper_Link.png/revision/latest?cb=20120814022925"],
                     "type": "Passive",
                     "desc": "Increases the passive %Damage increase to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado'>",
@@ -480,6 +612,9 @@
             "hyperActive": [
                 {
                     "id": 23121054,
+                    "name": "Elvish Blessing",
+                    "shortDesc": "MP Cost: 300, Duration: 60 sec, Attack Power: +80, Knockback Resistance: +100%.\\nCooldown: 90 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Elvish_Blessing.png/revision/latest?cb=20120814024032"],
                     "animations": ["https://media1.giphy.com/media/EfIjLLQTEbCYqAviat/giphy.gif"],
                     "type": "Buff",
@@ -487,6 +622,9 @@
                 },
                 {
                     "id": 23121052,
+                    "name": "Wrath of Enlil",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 10, Damage: 400%, Number of Attacks: 10.\\nCooldown: 8 sec,\\nCooldown reduced by 1 sec when a Link skill is used.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701"],
                     "animations": ["https://media0.giphy.com/media/S3zc1gac8hvj0vOy7G/giphy.gif"],
                     "type": "Attack",
@@ -499,6 +637,9 @@
                 },
                 {
                     "id": 23121053,
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Heroic_Memories_%28Mercedes%29.png/revision/latest?cb=20121015211444"],
                     "animations": ["https://media0.giphy.com/media/2xHUj6zsx55YWX2n9P/giphy.gif"],
                     "type": "Buff",

@@ -111,6 +111,9 @@
             [
                 "Beginner", [{
                     "id": 10001244,
+                    "name": "Elemental Slash",
+                    "shortDesc": "MP Cost: 0, Damage: 130%, Number of Attacks: 1, Max Enemies Hit: 3",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Elemental_Slash.png/revision/latest?cb=20130525122036"],
                     "animations": ["https://media3.giphy.com/media/HBWfxJ4qXjaXYbLrzo/giphy.gif"],
                     "type": "Attack",
@@ -118,22 +121,34 @@
                 },
                 {
                     "id": 10001245,
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
                     "animations": ["https://media1.giphy.com/media/kYx5G2ITsVksMEv2cS/giphy.gif"],
                     "type": "Active"
                 },
                 {
                     "id": 10000249,
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Luck increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Elemental_Harmony.png/revision/latest?cb=20130525122047"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000250,
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Elemental_Expert.png/revision/latest?cb=20130525122051"],
                     "type": "Passive"
                 },
                 {
                     "id": 10000252,
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058"],
                     "type": "Passive",
                     "desc": "Double jump skill",
@@ -145,6 +160,9 @@
             [
                 "1st Job", [{
                         "id": 14001020,
+                        "name": "Lucky Seven",
+                        "shortDesc": "MP Cost: 16, Damage: 190%, Number of Attacks: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Lucky_Seven_%28Night_Walker%29.png/revision/latest?cb=20140928021422"],
                         "animations": ["https://media1.giphy.com/media/4EQ3bcQCKcGPVeB0Oo/giphy.gif"],
                         "type": "Attack",
@@ -152,6 +170,9 @@
                     },
                     {
                         "id": 14001021,
+                        "name": "Dark Elemental",
+                        "shortDesc": "MP Cost: 15, Hit enemies with Throwing Stars Skill within 180 sec. for a 20% chance to create a Mark of Darkness that stacks 2 times. Marked enemies will take 80% damage over time per stack every second for 5 seconds, and if Night Walkers attack these enemies, 4% DEF is ignored per stack.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559"],
                         "animations": ["https://media0.giphy.com/media/esFN2OrTEiH7bMicix/giphy.gif"],
                         "type": "Buff",
@@ -162,12 +183,18 @@
                     },
                     {
                         "id": 14001022,
+                        "name": "Haste",
+                        "shortDesc": "MP Cost: 30, Duration: 180 sec, Speed: +40, Jump: +20\\n[Passive Effects - Max Speed: +20, Avoidability: +15%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/71/Skill_Haste_%28Night_Walker%29.png/revision/latest?cb=20140928002725"],
                         "animations": ["https://media4.giphy.com/media/WQ6c0EyastC4XM55SH/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 14001023,
+                        "name": "Dark Sight",
+                        "shortDesc": "MP Cost: 20, hides in the shadows for 200 seconds.\\nIf dodged attacks that deal damage in proportion to Max HP, when Dark Sight is deactivated, cooldown increased per attack dodged: 3 seconds. Stacks up to 5 times.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826"],
                         "animations": ["https://media2.giphy.com/media/2NcGGRW1TPTw0Q7wbD/giphy.gif"],
                         "type": "Active / Utility",
@@ -179,6 +206,9 @@
                     },
                     {
                         "id": 14001024,
+                        "name": "Shadow Dodge",
+                        "shortDesc": "MP Cost: 7, pushes you back a short distance.\\nCooldown: 5 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Shadow_Dodge.png/revision/latest?cb=20140928022052"],
                         "animations": ["https://media1.giphy.com/media/seyg0zqdcjyMPE1wXk/giphy.gif"],
                         "type": "Active / Utility",
@@ -189,6 +219,9 @@
                     },
                     {
                         "id": 14001026,
+                        "name": "Shadow Jump",
+                        "shortDesc": "MP Cost: 5, jumps further\\n[Passive Effect - Final Damage of Throwing Star Skill in Air: +15%]",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058", "https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Shadow_Jump.png/revision/latest?cb=20140928022637"],
                         "animations": ["https://media4.giphy.com/media/50VYYVSCIGFi7HnKVx/giphy.gif"],
                         "type": "Active",
@@ -201,6 +234,9 @@
                     },
                     {
                         "id": 14001027,
+                        "name": "Shadow Bat",
+                        "shortDesc": "Summons a Shadow Bat for 60 sec for every 3 times that you hit with a Throwing Star skill. Max number of bats: 2. When using a Throwing Star skill, there is a 50% chance that the character flies towards the target and inflicts 150% damage. Also bounces off 3 enemies and inflicts the same amount of damage before disappearing. Recovers 1% of Max HP on first damage. Damage Against Normal Monsters: +10%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
                         "animations": ["https://media1.giphy.com/media/4cI1TzquDNwE7BR9Aw/giphy.gif"],
                         "type": "Toggle Attack",
@@ -215,6 +251,9 @@
                 [
                 "2nd Job", [{
                         "id": 14101020,
+                        "name": "Triple Throw",
+                        "shortDesc": "MP Cost: 25, Number of Attacks: 2, Damage: 240%. Number of Explosion: 1, Explosion Damage: 350%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Triple_Throw_%28Night_Walker%29.png/revision/latest?cb=20140928005018"],
                         "animations": ["https://media2.giphy.com/media/U7lRDkhqd5qeWppmoO/giphy.gif"],
                         "type": "Attack",
@@ -225,6 +264,9 @@
                     },
                     {
                         "id": 14101022,
+                        "name": "Throwing Booster",
+                        "shortDesc": "MP Cost: 21, Claw Attack Speed increased for 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Throwing_Booster.png/revision/latest?cb=20141031011640"],
                         "animations": ["https://media0.giphy.com/media/G1NQ2CiG9DMHrsmYaO/giphy.gif"],
                         "type": "Buff",
@@ -232,6 +274,9 @@
                     },
                     {
                         "id": 14100023,
+                        "name": "Throwing Mastery",
+                        "shortDesc": "Damage: +30%, Claw Mastery: +50%, Throwing Stars: +200",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Claw_Mastery.png/revision/latest?cb=20100308130337"],
                         "type": "Passive",
                         "desc": "",
@@ -241,16 +286,25 @@
                     },
                     {
                         "id": 14100024,
+                        "name": "Critical Throw",
+                        "shortDesc": "Critical Rate: +35%, Critical Damage: +10%",
+                        "maxLevel": 19,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Critical_Shot.png/revision/latest?cb=20110502133044"],
                         "type": "Passive"
                     },
                     {
                         "id": 14100025,
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increases LUK by 60",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20110420081133"],
                         "type": "Passive"
                     },
                     {
                         "id": 14100026,
+                        "name": "Adaptive Darkness",
+                        "shortDesc": "Chance to place Mark of Darkness: 5%, Maximum Stacking Limit: 1, DoT Per Stack: 40%, Defense Rate Ignored Per Mark: +1%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Adaptive_Darkness.png/revision/latest?cb=20141031070826", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -262,6 +316,9 @@
                     },
                     {
                         "id": 14100027,
+                        "name": "Bat Affinity",
+                        "shortDesc": "Shadow Bat's Attack Chance: 20%, Max Summon Limit: 1, Damage: 120%, Max Enemies Hit: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Bat_Affinity.png/revision/latest?cb=20141031070838", "https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -274,6 +331,9 @@
                 [
                 "3rd Job", [{
                         "id": 14111020,
+                        "name": "Quad Star",
+                        "shortDesc": "MP Cost: 41, Number of Attacks: 3, Damage: 300%. Number of Explosions: 1, Damage: 400%.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d8/Skill_Quad_Star_%28Night_Walker%29.png/revision/latest?cb=20140928005948"],
                         "animations": ["https://media3.giphy.com/media/wK4RwyPeNMv0iucJTf/giphy.gif"],
                         "type": "Attack",
@@ -284,6 +344,9 @@
                     },
                     {
                         "id": 14111022,
+                        "name": "Shadow Spark",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 590%, Enemies Hit From Explosion: 6, Damage From Explosion: 690%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Shadow_Spark.png/revision/latest?cb=20141031031951"],
                         "animations": ["https://media1.giphy.com/media/GkfbWGGUP6sFd9Kb9p/giphy.gif"],
                         "type": "Attack",
@@ -291,6 +354,9 @@
                     },
                     {
                         "id": 14111024,
+                        "name": "Dark Servant",
+                        "shortDesc": "MP Cost: 65, Summon Duration: 180 sec. Your shadow attacks, dealing 70% of the Final Damage of your throwing star skills.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Dark_Servant.png/revision/latest?cb=20141101055928"],
                         "animations": ["https://media1.giphy.com/media/1FYVhhPlhJ3QPtmZE9/giphy.gif"],
                         "type": "Buff",
@@ -302,6 +368,9 @@
                     },
                     {
                         "id": 14111025,
+                        "name": "Spirit Projection",
+                        "shortDesc": "MP Cost: 20 and 100 throwing stars, Duration: 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Shadow_Stars.png/revision/latest?cb=20120713123214"],
                         "animations": ["https://media4.giphy.com/media/cqJDuKD9I3Zjcd3Nxt/giphy.gif"],
                         "type": "Buff",
@@ -309,11 +378,17 @@
                     },
                     {
                         "id": 14110026,
+                        "name": "Enveloping Darkness",
+                        "shortDesc": "Abnormal Status Resistance: +10, Elemental Resistance: +10%",
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Enveloping_Darkness.png/revision/latest?cb=20111226203900"],
                         "type": "Passive"
                     },
                     {
                         "id": 14110027,
+                        "name": "Alchemic Adrenaline",
+                        "shortDesc": "Recovery Amount: +170%, Critical Damage: +10%",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Alchemic_Adrenaline.png/revision/latest?cb=20111227004917"],
                         "type": "Passive",
                         "desc": "",
@@ -323,6 +398,9 @@
                     },
                     {
                         "id": 14110028,
+                        "name": "Adaptive Darkness II",
+                        "shortDesc": "Chance to place Mark of Darkness: 5%, Maximum Stacking Limit: 1, DoT Per Stack: 50%, Defense Rate Ignored Per Mark: +1%.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Adaptive_Darkness_II.png/revision/latest?cb=20141101055925", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -334,6 +412,9 @@
                     },
                     {
                         "id": 14110029,
+                        "name": "Bat Affinity II",
+                        "shortDesc": "Shadow Bat's Max Summon Limit: 1, Damage: 150%, Max Enemies Hit: 1",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Bat_Affinity_II.png/revision/latest?cb=20141101055923", "https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -344,6 +425,9 @@
                     },
                     {
                         "id": 14110030,
+                        "name": "Darkness Ascending",
+                        "shortDesc": "When hit by an attack that would prove fatal, recover 50% of Max HP per 3 sec. If Shadow Bats are currently summoned, they are consumed to recover 10% extra HP per bat. Invincible for 2 sec while recovering, and again at the end of skill.\\nCooldown: 1800 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Darkness_Ascending.png/revision/latest?cb=20141101055920"],
                         "animations": ["https://media3.giphy.com/media/cShkLhssTbqM7SOPTr/giphy.gif"],
                         "type": "Passive Revive",
@@ -358,6 +442,9 @@
                 [
                 "4th Job", [{
                     "id": 14121000,
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
                     "animations": ["https://media3.giphy.com/media/BPohzVfkrMfsDBMSXr/giphy.gif"],
                     "type": "Party Buff",
@@ -368,6 +455,9 @@
                 },
                 {
                     "id": 14121001,
+                    "name": "Quintuple Star",
+                    "shortDesc": "MP Cost: 36, Number of Attacks: 4, Damage: 340%. Number of Explosions: 1, Explosion Damage: 475%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Quintuple_Star.png/revision/latest?cb=20141101231438"],
                     "animations": ["https://media0.giphy.com/media/Kc0zIZTuCtmjk55BB0/giphy.gif"],
                     "type": "Attack",
@@ -378,6 +468,9 @@
                 },
                 {
                     "id": 14121003,
+                    "name": "Dark Omen",
+                    "shortDesc": "MP Cost: 110, Duration: 5, Max Enemies Hit every 0.3 sec: 6, Damage: 500%. Summon 1 Shadow Bat per 3 enemies hit. Max number of bats: 2.\\nCooldown: 20 sec. Cooldown decreased by 0.5 sec per dark-attribute attack success, except Shadow Bat and Dark Omen.",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Dark_Omen.png/revision/latest?cb=20141101231446"],
                     "animations": ["https://media1.giphy.com/media/c6xCNDd5U0onabCCUt/giphy.gif"],
                     "type": "Summon",
@@ -389,6 +482,9 @@
                 },
                 {
                     "id": 14121004,
+                    "name": "Shadow Stitch",
+                    "shortDesc": "MP Cost: 66, Extends your shadow up to 5 sec while you hold the key. Releasing will activate the skill. Max Enemies Hit Within Shadow: 15, Damage: 850%. Bind Duration: incapacitated for 10 sec Incapacitation increases by 1 sec for 1 enemies hit. Increases up to 13 sec\\nBind Duration: Up to +100%, depending on damage inflicted with Shadow Stitch.\\nCooldown: 210 sec",
+                    "maxLevel": 20,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Shadow_Stitch.png/revision/latest?cb=20141101231511"],
                     "animations": ["https://media4.giphy.com/media/YfFAVXTdNVel2fxE7N/giphy.gif"],
                     "type": "Key-down Bind Attack",
@@ -399,6 +495,9 @@
                 },
                 {
                     "id": 14120005,
+                    "name": "Throwing Expert",
+                    "shortDesc": "Claw Mastery: +70%. Attack Power: +30, Critical Damage: +10%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Claw_Expert.png/revision/latest?cb=20111125110117", "https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Claw_Mastery.png/revision/latest?cb=20100308130337"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -409,11 +508,17 @@
                 },
                 {
                     "id": 14120006,
+                    "name": "Dark Blessing",
+                    "shortDesc": "Attack Power: 30, Monster DEF Ignored: +15%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1d/Skill_Dark_Blessing.png/revision/latest?cb=20141101231515"],
                     "type": "Passive"
                 },
                 {
                     "id": 14120007,
+                    "name": "Adaptive Darkness III",
+                    "shortDesc": "Chance to place Mark of Darkness: 5%, Maximum Stacking Limit: 1, DoT Per Stack: 50%, Defense Rate Ignored Per Mark: +1%.",
+                    "maxLevel": 10,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Adaptive_Darkness_III.png/revision/latest?cb=20141101231528", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dark_Elemental.png/revision/latest?cb=20140928021559"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -425,6 +530,9 @@
                 },
                 {
                     "id": 14120008,
+                    "name": "Bat Affinity III",
+                    "shortDesc": "Shadow Bat's Attack Chance: 30%, Max Summon Limit: 1, Damage: 200%, Max Enemies Hit: 1",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Bat_Affinity_III.png/revision/latest?cb=20141026181252", "https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Shadow_Bat.png/revision/latest?cb=20160107224744"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -435,6 +543,9 @@
                 },
                 {
                     "id": 14120009,
+                    "name": "Vitality Siphon",
+                    "shortDesc": "Absorbs liveliness from your enemies when laying the Mark of Darkness with Dark Elemental. When liveliness absorbed reaches 30, it will all be consumed, maintained for 15 sec, and a Protective Shield that absorbs up to max 3250 damage will be created.\\nAbsorbed liveliness will be maintained for 10 sec, and this time will reset when you set the Mark of Darkness.",
+                    "maxLevel": 15,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Vitality_Siphon.png/revision/latest?cb=20181214202415"],
                     "animations": ["https://media3.giphy.com/media/ric4vRRrODDGwb1EWq/giphy.gif"],
                     "type": "Passive",
@@ -446,6 +557,9 @@
                 },
                 {
                     "id": 14120010,
+                    "name": "Shadow Slip",
+                    "shortDesc": "Dodge Chance: +40%, Damage Taken: -10%",
+                    "maxLevel": 30,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Shadow_Slip.png/revision/latest?cb=20141101231547"],
                     "type": "Passive",
                     "desc": "Grants a chance to dodge attacks"
@@ -456,54 +570,81 @@
             "hyperPassive": [
                 {
                     "id": 14120043,
+                    "name": "Quintuple Star - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Quintuple_Star_-_Reinforce.png/revision/latest?cb=20141101231655"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 14120044,
+                    "name": "Quintuple Star - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Quintuple_Star_-_Boss_Rush.png/revision/latest?cb=20141026182252"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 14120045,
+                    "name": "Quintuple Star - Critical Chance",
+                    "shortDesc": "Critical Rate: +10%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Quintuple_Star_-_Critical_Chance.png/revision/latest?cb=20160207071057"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 14120046,
+                    "name": "Dark Omen - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -50%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Dark_Omen_-_Cooldown_Cutter.png/revision/latest?cb=20141101231658"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 14120047,
+                    "name": "Dark Omen - Spread",
+                    "shortDesc": "Max Enemies Hit: +9",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Dark_Omen_-_Spread.png/revision/latest?cb=20141101231659"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 14120048,
+                    "name": "Dark Omen - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Dark_Omen_-_Reinforce.png/revision/latest?cb=20141101231701"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 14120049,
+                    "name": "Vitality Siphon - Extra Point",
+                    "shortDesc": "Protective Shield: +1500",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Vitality_Siphon_-_Extra_Point.png/revision/latest?cb=20141101231703"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 14120050,
+                    "name": "Vitality Siphon - Reinforce",
+                    "shortDesc": "Attack Power: +60",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Vitality_Siphon_-_Reinforce.png/revision/latest?cb=20190917062458"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 14120051,
+                    "name": "Vitality Siphon - Preparation",
+                    "shortDesc": "Status Resistance: +30",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Vitality_Siphon_-_Preparation.png/revision/latest?cb=20141101231707"],
                     "type": "Passive",
                     "reqLev": 190
@@ -512,6 +653,9 @@
             "hyperActive": [
                 {
                     "id": 14121054,
+                    "name": "Shadow Illusion",
+                    "shortDesc": "MP Cost: 200, Summons 3 Shadows, Duration: 30 sec. Each shadow makes an additional hit that is 70%, 50%, 30% of the final damage.\\nCooldown: 180 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Shadow_Illusion.png/revision/latest?cb=20141101231711"],
                     "animations": ["https://media3.giphy.com/media/Z6g68Q54RJiN3iox6F/giphy.gif"],
                     "type": "Buff",
@@ -520,6 +664,9 @@
                 },
                 {
                     "id": 14121052,
+                    "name": "Dominion",
+                    "shortDesc": "MP Cost: 350, Damage: 1000%, Max Enemies Hit: 15, Number of Attacks: 10. Grants invincibility while this skill is active. Use Throwing Stars skill within 30 sec of skill to receive Mark of Darkness at max stacks, and summon Shadow Bats that receive the following effects- [Final Damage: +20%. All attacks will be critical hits, immune to knockback.]\\nCooldown: 180 sec.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Dominion.png/revision/latest?cb=20141101231709"],
                     "animations": ["https://media0.giphy.com/media/DsTW08naOQkF6sRiqU/giphy.gif"],
                     "type": "Attack",
@@ -532,6 +679,9 @@
                 },
                 {
                     "id": 11121053,
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Cygnus class or Mihile in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Glory_of_the_Guardians_%28Thunder_Breaker%29.png/revision/latest?cb=20160605205818"],
                     "animations": ["https://media2.giphy.com/media/e8xBzbH19L7sB4Hfhr/giphy.gif"],
                     "type": "Buff",
