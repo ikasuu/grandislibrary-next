@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 import ClassIntro, { ClassCreation, ClassExtraContent } from '../../components/class-overview/ClassIntro';
@@ -11,8 +12,12 @@ import SkillTab from '../../components/class-overview/SkillTab';
 function ClassOverview({post, slug}) {
     const [data, setData] = useState(post);
 
+    useEffect(() => {
+      setData(post);
+    },[slug])
+
     return (
-        <div key={slug}>
+        <div>
             <Head>
               <title>{`${data.class} | Grandis Library`}</title>
               <meta content={data.meta} name="description"/>
