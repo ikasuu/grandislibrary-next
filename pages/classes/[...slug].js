@@ -10,14 +10,9 @@ import SkillTab from '../../components/class-overview/SkillTab';
 
 function ClassOverview({post, slug}) {
     const [data, setData] = useState(post);
-    const [url, setUrl] = useState(slug);
-
-    useEffect(() => {
-      setUrl({url: slug});
-    }, [slug]);
 
     return (
-        <div key={url}>
+        <div key={slug}>
             <Head>
               <title>{`${data.class} | Grandis Library`}</title>
               <meta content={data.meta} name="description"/>
