@@ -186,7 +186,11 @@ function renderSwitch(param){
             return(
                 classes.explorers.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href="/classes/explorers/[slug]" as={`/classes/explorers/${job[0]}`}>
+                        <Link
+                            href={{
+                                pathname: '/classes/explorers/[slug]',
+                                query: { slug: `${job[0]}` },
+                            }}>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>
@@ -200,7 +204,11 @@ function renderSwitch(param){
             return(
                 classes.cygnusKnights.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/classes/cygnus-knights/${job[0]}`}>
+                        <Link 
+                            href={{
+                                pathname: '/classes/cygnus-knights/[slug]',
+                                query: { slug: `${job[0]}` },
+                            }}>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 0 0'}}/>
                                 <Overlay/>
@@ -214,7 +222,11 @@ function renderSwitch(param){
             return(
                 classes.heroes.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/classes/heroes/${job[0]}`}>
+                        <Link 
+                            href={{
+                                pathname: '/classes/heroes/[slug]',
+                                query: { slug: `${job[0]}` },
+                            }}>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>
@@ -228,7 +240,11 @@ function renderSwitch(param){
             return(
                 classes.resistance.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/classes/resistance/${job[0]}`}>
+                        <Link 
+                            href={{
+                                pathname: '/classes/resistance/[slug]',
+                                query: { slug: `${job[0]}` },
+                            }}>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>
@@ -242,7 +258,11 @@ function renderSwitch(param){
             return(
                 classes.nova.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/classes/nova/${job[0]}`}>
+                        <Link 
+                            href={{
+                                pathname: '/classes/nova/[slug]',
+                                query: { slug: `${job[0]}` },
+                            }}>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>
@@ -256,7 +276,11 @@ function renderSwitch(param){
             return(
                 classes.sengoku.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/classes/sengoku/${job[0]}`}>
+                        <Link 
+                            href={{
+                                pathname: '/classes/sengoku/[slug]',
+                                query: { slug: `${job[0]}` },
+                            }}>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>
@@ -270,7 +294,11 @@ function renderSwitch(param){
             return(
                 classes.flora.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/classes/flora/${job[0]}`}>
+                        <Link 
+                            href={{
+                                pathname: '/classes/flora/[slug]',
+                                query: { slug: `${job[0]}` },
+                            }}>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>
@@ -284,7 +312,11 @@ function renderSwitch(param){
             return(
                 classes.other.map((job, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/classes/other/${job[0]}`}>
+                        <Link 
+                            href={{
+                                pathname: '/classes/other/[slug]',
+                                query: { slug: `${job[0]}` },
+                            }}>
                             <a className="hvr-float">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>
