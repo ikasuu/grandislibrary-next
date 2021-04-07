@@ -25,6 +25,7 @@ const FooterText = styled.h6`
 const FooterLink = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
+    width: fit-content;
 
     &:hover{
         text-decoration: underline;
@@ -64,16 +65,16 @@ function Footer() {
                     </FooterCol>
                     <FooterCol md>
                         <h5><strong>ABOUT</strong></h5>
-                        <FooterLink><a href="#/about" className="footer-link">About Us</a></FooterLink>
+                        <FooterLink><a href="/about" className="footer-link">About Us</a></FooterLink>
                         <FooterLink><a href="https://github.com/ikasuu/GrandisLibrary" target="_blank" rel="noreferrer noopener" className="footer-link">GitHub</a></FooterLink>
                         <FooterLink><a href="https://maplestory.io/" target="_blank" rel="noreferrer noopener" className="footer-link">API Source</a></FooterLink>
                         <div><FooterButton variant="link"><a href="https://ko-fi.com/ikasuu" target="_blank" rel="noreferrer noopener"><KofiButton/></a></FooterButton></div>
                     </FooterCol>
                     <FooterCol md>
                         <h5><strong>QUICK LINKS</strong></h5>
-                        <FooterLink><a href="#/content/progression-guide" className="footer-link">Progression Guide</a></FooterLink>
-                        <FooterLink><a href="#/content/level-content-guide" className="footer-link">Level Content Guide</a></FooterLink>
-                        <FooterLink><a href="#/content/link-skills" className="footer-link">Link Skills</a></FooterLink>
+                        <FooterLink><a href="/content/progression-guide" className="footer-link">Progression Guide</a></FooterLink>
+                        <FooterLink><a href="/content/level-content-guide" className="footer-link">Level Content Guide</a></FooterLink>
+                        <FooterLink><a href="/content/link-skills" className="footer-link">Link Skills</a></FooterLink>
                     </FooterCol>
                     <FooterCol md>
                         <h5><strong>USEFUL LINKS</strong></h5>

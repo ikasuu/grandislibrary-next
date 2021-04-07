@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 import ClassIntro, { ClassCreation, ClassExtraContent } from '../../components/class-overview/ClassIntro';
@@ -9,11 +8,11 @@ import HeaderImageUrl, { classes } from '../../special/SiteValues';
 import HeaderImage from '../../components/HeaderImage';
 import SkillTab from '../../components/class-overview/SkillTab';
 
-function ClassOverview({post}) {
+function ClassOverview({post, slug}) {
     const [data, setData] = useState(post);
 
     return (
-        <div>
+        <div key={slug}>
             <Head>
               <title>{`${data.class} | Grandis Library`}</title>
               <meta content={data.meta} name="description"/>
@@ -77,7 +76,7 @@ export async function getStaticProps({ params }) {
   const post = await res.json();
 
   // Pass post data to the page via props
-  return { props: { post } };
+  return { props: { post, slug: params.slug,} };
 }
 
 export default ClassOverview;

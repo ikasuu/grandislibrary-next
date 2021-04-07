@@ -3,7 +3,7 @@
         {
             "image": "https://i.imgur.com/vWBaX8i.jpg",
             "alt": "Progression Guide",
-            "link": "#/content/progression-guide"
+            "link": "/content/progression-guide"
         },
         {
             "image": "https://i.imgur.com/PMZtMf8.png",
@@ -110,42 +110,42 @@
             "title": "Progression Guide",
             "image": "https://i.imgur.com/MKXKOYf.png",
             "alt": "Progression Guide",
-            "link": "#/content/progression-guide",
+            "link": "/content/progression-guide",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Shared Cash Shop Inventory",
             "image": "https://i.imgur.com/fK7UDov.png",
             "alt": "Tera Burning",
-            "link": "#/content/shared-cash-shop-inventories",
+            "link": "/content/shared-cash-shop-inventories",
             "subtitle": "Content, Equipment"
         },
         {
             "title": "Tera Burning",
             "image": "https://i.imgur.com/Bv7UNPk.png",
             "alt": "Tera Burning",
-            "link": "#/events/tera-burning",
+            "link": "/events/tera-burning",
             "subtitle": "Events, Training"
         },
         {
             "title": "Level Content Guide",
             "image": "https://i.imgur.com/zd4PtjM.png",
             "alt": "Level Content Guide",
-            "link": "#/content/level-content-guide",
+            "link": "/content/level-content-guide",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Boss Pre-Quests",
             "image": "https://i.imgur.com/4QKNQx5.png",
             "alt": "Boss Pre-Quests",
-            "link": "#/content/boss-matchmaking-pre-quests",
+            "link": "/content/boss-matchmaking-pre-quests",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Upgrading & Enhancing Equipment",
             "image": "https://i.imgur.com/J6ocFYJ.png",
             "alt": "Upgrading & Enhancing Equipment",
-            "link": "#/content/upgrading-enhancing-equipment",
+            "link": "/content/upgrading-enhancing-equipment",
             "subtitle": "Content, Equipment"
         }
 
