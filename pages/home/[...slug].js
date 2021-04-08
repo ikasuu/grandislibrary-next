@@ -15,7 +15,7 @@ export async function getStaticPaths() {
   }
   
 // This also gets called at build time
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
     return {
         redirect: {
             destination: `/${params.slug}`,
