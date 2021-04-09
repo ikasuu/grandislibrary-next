@@ -32,7 +32,8 @@ function ClassOverview({post, slug}) {
                 primary={data.skill.primary}
                 fifth={data.skill.fifth} hyper={data.skill.hyper}
                 hyperSkillBuild={data.content.hyperBuild}
-                nodeInfo={data.content.nodeInfo}/>
+                nodeInfo={data.content.nodeInfo}
+                slug={slug[0]}/>
               <hr/>
               <ClassOutro classGroup={data.content.classGroup} classTitle={data.class} moreInfo={data.content.moreInfo} credits={data.content.credits}/>
             </Container>

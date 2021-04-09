@@ -40,7 +40,7 @@ const StyledHeaderThree = styled.h3`
     margin: 2rem 0 1.25rem 0;
 `;
 
-export function SkillTab({primary, fifth, hyper}) {
+export function SkillTab({primary, fifth, hyper, slug}) {
 
   // Hook to store setting info to be used by UtilityButton (QuickJump), this is also where the button is stored
   // When changes are made to settings, we have a useEffect hook that auto-updates our storage version of setting
@@ -77,7 +77,7 @@ export function SkillTab({primary, fifth, hyper}) {
           </Tabs>
         </Container>
       </LazyLoad>
-      <QuickJump settings={settings} setSettings={setSettings}/> 
+      <QuickJump settings={settings} setSettings={setSettings} slug={slug}/> 
     </div>
   );
 }

@@ -35,12 +35,17 @@ function InfoButton({tooltip}) {
 */
 
 // Styling for each link
-const MenuLink = styled(Link)`
-    color: black !important;
+const MenuLink = styled.a`
+    color: black;
     width: 100%;
 
     &:focus{
         outline: none;
+    }
+
+    &:hover{
+        color: black;
+        text-decoration: none;
     }
 `;
 
@@ -93,10 +98,6 @@ export function QuickJump({settings, setSettings}) {
                 <Divider variant="middle" />
                 <MenuHeader>Settings</MenuHeader>
                 <FormGroup>
-                    {/* <FormControlLabel
-                        control={<Switch color="primary" checked={settings.offline} onChange={handleChange} name="offline"/>}
-                        label="Offline Skill Info"
-                    /> */}
                     <FormControlLabel
                         control={<Switch color="primary" checked={settings.animations} onChange={handleChange} name="animations"/>}
                         label="Skill Animations"

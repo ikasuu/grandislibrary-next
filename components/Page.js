@@ -134,7 +134,7 @@ export function CardContainer({content, type}) {
         {
             content.map((el, index) => 
                 <ContentCard key={index}>
-                    <Link href={`${type}/${el[0]}`}><a><Card.Img variant="top" src={`/thumbnail/${el[0]}.png`} alt={el[1]}/></a></Link>
+                    <Link href={`${type}/${el[0]}`}><a style={{display: 'inline-block'}}><Card.Img variant="top" src={`/thumbnail/${el[0]}.png`} alt={el[1]}/></a></Link>
                     <Card.Body>
                         <Link href={`${type}/${el[0]}`}><a><ContentCardTitle>{el[1]}</ContentCardTitle></a></Link>
                         <ContentCardText>{el[2]}</ContentCardText>

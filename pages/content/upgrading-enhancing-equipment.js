@@ -4,6 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
+import { ScrollToTop } from '../../components/UtilityButtons';
 
 function UpgradeEquipment() {
     return (
@@ -12,6 +13,7 @@ function UpgradeEquipment() {
             <title>Upgrading & Enhancing Equipment | Grandis Library</title>
             <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
           </Head>
+          <ScrollToTop/>
           <ContentTitle>Upgrading & Enhancing Equipment</ContentTitle>
           <p><img className="repository-image" src="https://vignette.wikia.nocookie.net/maplestory/images/4/46/Unlimited_UI_Equip.png/revision/latest?cb=20130426110647" alt="Equipment Diagram"/></p>
           <p>Bonus Stats appear in <span style={{color: '#339966'}}>green</span> font while stats from upgrading appear in <span style={{color: '#3366ff'}}>blue</span> [Refer to 11]. The color of an item's name indicates how many stats above or below average an item is [Refer to 02]</p>

@@ -26,10 +26,6 @@ const FooterLink = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: fit-content;
-
-    &:hover{
-        text-decoration: underline;
-    }
 `;
 
 const FooterDisclaimer = styled.p`
