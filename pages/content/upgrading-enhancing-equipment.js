@@ -4,7 +4,6 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { ScrollToTop } from '../../components/UtilityButtons';
 
 function UpgradeEquipment() {
     return (
@@ -13,7 +12,6 @@ function UpgradeEquipment() {
             <title>Upgrading & Enhancing Equipment | Grandis Library</title>
             <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
           </Head>
-          <ScrollToTop/>
           <ContentTitle>Upgrading & Enhancing Equipment</ContentTitle>
           <p><img className="repository-image" src="https://vignette.wikia.nocookie.net/maplestory/images/4/46/Unlimited_UI_Equip.png/revision/latest?cb=20130426110647" alt="Equipment Diagram"/></p>
           <p>Bonus Stats appear in <span style={{color: '#339966'}}>green</span> font while stats from upgrading appear in <span style={{color: '#3366ff'}}>blue</span> [Refer to 11]. The color of an item's name indicates how many stats above or below average an item is [Refer to 02]</p>
@@ -110,7 +108,7 @@ function UpgradeEquipment() {
               <li>
                   <img src="https://maplestory.io/api/GMS/210.1.1/item/2049400/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2049700/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2049750/icon" alt=""/>
                   <img src="https://maplestory.io/api/GMS/210.1.1/item/2049784/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048305/icon" alt=""/><strong> [Potential Scrolls]: </strong>These scrolls provide a
-                  <strong>potential for gear</strong>. When used, if an item does not have a potential, it will gain one on success. Or, there are certain ones that give <strong>Epic, Unique, and Legendary potential</strong>. There is also one that
+                  <strong> potential for gear</strong>. When used, if an item does not have a potential, it will gain one on success. Or, there are certain ones that give <strong>Epic, Unique, and Legendary potential</strong>. There is also one that
                   provides <strong>Bonus Potential</strong> which is extra potential on top of your current potential on your item (refer to the top image [14]).
                   <ul>
                       <li> <a href="https://maplestory.wiki/GMS/210.1.1/item/2049401" target="_blank" rel="noreferrer noopener">Regular Potential</a> and <a href="https://maplestory.wiki/GMS/210.1.1/item/2049705" target="_blank" rel="noreferrer noopener">Epic Potential</a> scrolls can be found normally in-game from hunting and in shops but <a href="https://maplestory.wiki/GMS/210.1.1/item/2049750" target="_blank" rel="noreferrer noopener">Unique Potential</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2049780" target="_blank" rel="noreferrer noopener">Legendary Potential</a>, and <a href="https://maplestory.wiki/GMS/210.1.1/item/2048308" target="_blank" rel="noreferrer noopener">Bonus Potential Scrolls</a> are found from things such as Gachapon, Marvel Machine, Philosopher Books or rarely from Events

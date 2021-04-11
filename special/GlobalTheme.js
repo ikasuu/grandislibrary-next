@@ -126,7 +126,7 @@ export const GlobalStyle = createGlobalStyle`
     background-size: 2rem 2rem;
     height: 2rem;
     width: 2rem;
-    display: block;
+    display: inline-block;
   }
   
   //Navbar links such as 'Home' and 'About'
