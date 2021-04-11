@@ -236,7 +236,7 @@ function ClassDetail({content}) {
               </Table>
             </BaseStatsWrapper>
             <BuffAndActivesWrapper md="auto">
-              <StyledHeaderTwo>Buffs &amp; Other Actives</StyledHeaderTwo>
+              <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order instead, show all active skills excluding primary attacks"/></StyledHeaderTwo>
               <Table size="sm" borderless>
                 <tbody>
                   <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
@@ -249,7 +249,7 @@ function ClassDetail({content}) {
               </Table>
             </BuffAndActivesWrapper>
           </Row>
-        <StyledHeaderTwo>Skill Build Path</StyledHeaderTwo>
+        <StyledHeaderTwo>Example Skill Build Path</StyledHeaderTwo>
         <Table borderless>
           <tbody>
             {content.buildPath.build.map((build,index) => 
