@@ -23,6 +23,7 @@
 .grid-image{
     width: 100%;
     height: auto;
+    box-shadow: 6px 13px 14px -10px rgba(0,0,0,0.63);
 }
 
 /* Dark overlay over our image */

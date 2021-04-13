@@ -20,13 +20,6 @@ function MainNavbar(props) {
   const [expanded, setExpanded] = useState(false);
   const setTheme = props.setTheme;
   const theme = props.theme;
-  
-  // const ClickHandler = () => {
-  //   ReactGA.event({
-  //     category: 'Butt-on',
-  //     action: "Discord button"
-  //   })
-  // }
 
   return (
       <div>
@@ -49,7 +42,10 @@ function MainNavbar(props) {
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="mr-auto"/>
             <Nav>
-              <NavButton variant="link" className="hvr-buzz-out"><a href="https://discord.gg/d4et8vt9kP" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></NavButton>
+              <div className="nav-button-container">
+                <NavButton variant="link" className="hvr-buzz-out"><a href="https://discord.gg/d4et8vt9kP" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></NavButton>
+                <NavButton variant="link" className="hvr-buzz-out"><a href="https://ko-fi.com/ikasuu" target='_blank' rel="noopener noreferrer"><span className="kofi-button"/></a></NavButton>
+              </div>
               <DropdownNav setExpanded={setExpanded}/>
               <ActiveLink activeClassName="underline" href="/about"><a className="nav-link-button nav-props"onClick={() => setExpanded(false)}>About</a></ActiveLink>
               <ActiveLink activeClassName="underline" href="/"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Home</a></ActiveLink>

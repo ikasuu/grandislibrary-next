@@ -71,7 +71,17 @@ export const GlobalStyle = createGlobalStyle`
     background-size: 6rem 2rem;
     width: 5.7rem;
     height: 1.7rem;
-    display:block;
+    display: block;
+  }
+
+    //Navbar kofi button
+    .kofi-button{
+    background: url("/icons/kofi-logo-${getMenuColor}.png");
+    margin-top: -0.2rem;
+    background-size: 5rem 1.7rem;
+    width: 5rem;
+    height: 1.7rem;
+    display: block;
   }
 
   //Footer discord button
@@ -81,6 +91,15 @@ export const GlobalStyle = createGlobalStyle`
     width: 2.3rem;
     height: 2.3rem;
     display:block;
+  }
+
+  .nav-button-container{
+    border-right: 0.15rem solid ${getForeground};
+    margin-right: 0.25rem;
+    padding-right: 0.25rem;
+    @media( max-width: 991px){
+      border: none;
+    }
   }
 
   //Footer twitter button

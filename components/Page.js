@@ -146,7 +146,7 @@ export function CardContainer({content, type}) {
 }
 
 export const KofiButton = styled.span`
-    background: url("https://i.imgur.com/2JUenYl.png");
+    background: url("icons/kofi-coffee.png");
     background-size: 10rem 2.5rem;
     width: 10rem;
     height: 2.5rem;

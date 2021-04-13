@@ -24,6 +24,7 @@ In this file you will find:
 // Round the corners of swiper images
 const ContentImage = styled(Image)`
     border-radius: 1rem;
+    box-shadow: 9px 5px 13px -7px rgba(0,0,0,0.59);
 `;
 
 function FeaturedSwiper({content}) {
