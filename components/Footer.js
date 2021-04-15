@@ -61,7 +61,7 @@ function Footer() {
                     </FooterCol>
                     <FooterCol md>
                         <h5><strong>ABOUT</strong></h5>
-                        <FooterLink><a href="/about" className="footer-link">About Us</a></FooterLink>
+                        <FooterLink><a href="/privacy" className="footer-link">Privacy Policy</a></FooterLink>
                         <FooterLink><a href="https://github.com/ikasuu/GrandisLibrary" target="_blank" rel="noreferrer noopener" className="footer-link">GitHub</a></FooterLink>
                         <FooterLink><a href="https://maplestory.io/" target="_blank" rel="noreferrer noopener" className="footer-link">API Source</a></FooterLink>
                         <div><FooterButton variant="link"><a href="https://ko-fi.com/ikasuu" target="_blank" rel="noreferrer noopener"><KofiButton/></a></FooterButton></div>
