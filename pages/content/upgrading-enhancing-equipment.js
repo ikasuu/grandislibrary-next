@@ -9,10 +9,10 @@ function UpgradeEquipment() {
     return (
       <ContentPage>
           <Head>
-            <title>Upgrading & Enhancing Equipment | Grandis Library</title>
+            <title>Upgrading &amp; Enhancing Equipment | Grandis Library</title>
             <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
           </Head>
-          <ContentTitle>Upgrading & Enhancing Equipment</ContentTitle>
+          <ContentTitle>Upgrading &amp; Enhancing Equipment</ContentTitle>
           <p><img className="repository-image" src="https://vignette.wikia.nocookie.net/maplestory/images/4/46/Unlimited_UI_Equip.png/revision/latest?cb=20130426110647" alt="Equipment Diagram"/></p>
           <p>Bonus Stats appear in <span style={{color: '#339966'}}>green</span> font while stats from upgrading appear in <span style={{color: '#3366ff'}}>blue</span> [Refer to 11]. The color of an item's name indicates how many stats above or below average an item is [Refer to 02]</p>
           <h3 id="top">Quick Jumps</h3>
@@ -22,7 +22,7 @@ function UpgradeEquipment() {
             <li><Link smooth href="#starforce" scroll>Star Forcing</Link></li>
             <li><Link smooth href="#hammer" scroll>Transfer Hammer</Link></li>
             <li><Link smooth href="#transpose" scroll>Transposing</Link></li>
-            <li><Link smooth href="#cubing" scroll>Cubing & Potentials</Link></li>
+            <li><Link smooth href="#cubing" scroll>Cubing &amp; Potentials</Link></li>
             <li><Link smooth href="#bonus" scroll>Flames &amp; Bonus Stats</Link></li>
           </ul>
           <div className="repository-md-container">
