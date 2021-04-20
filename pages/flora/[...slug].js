@@ -44,32 +44,9 @@ function ClassOverview({post, slug}) {
 // This function gets called at build time
 export async function getStaticPaths() {
 
-  const explorerPaths = classes.explorers.map((job) => ({
-    params: { slug: ['explorers', job[0]] },
+  const paths = classes.flora.map((job) => ({
+    params: { slug: [job[0]] },
   }));
-  const cygnusPaths = classes.cygnusKnights.map((job) => ({
-    params: { slug: ['cygnus-knights', job[0]] },
-  }));
-  const heroesPaths = classes.heroes.map((job) => ({
-    params: { slug: ['heroes', job[0]] },
-  }));
-  const resistancePaths = classes.resistance.map((job) => ({
-    params: { slug: ['resistance', job[0]] },
-  }));
-  const novaPaths = classes.nova.map((job) => ({
-    params: { slug: ['nova', job[0]] },
-  }));
-  const sengokuPaths = classes.sengoku.map((job) => ({
-    params: { slug: ['sengoku', job[0]] },
-  }));
-  const floraPaths = classes.flora.map((job) => ({
-    params: { slug: ['flora', job[0]] },
-  }));
-  const otherPaths = classes.other.map((job) => ({
-    params: { slug: ['other', job[0]] },
-  }));
-
-  const paths = explorerPaths.concat(cygnusPaths, heroesPaths, resistancePaths, novaPaths, sengokuPaths, floraPaths, otherPaths);
 
   // We'll pre-render only these paths at build time.
   // { fallback: false } means other routes should 404.
@@ -78,7 +55,7 @@ export async function getStaticPaths() {
 
 // This also gets called at build time
 export async function getStaticProps({ params }) {
-  const res = await fetch(`https://raw.githubusercontent.com/ikasuu/grandislibrary/master/public/data/${params.slug[0]}/${params.slug[1]}.json`);
+  const res = await fetch(`https://raw.githubusercontent.com/ikasuu/grandislibrary/master/public/data/flora/${params.slug[0]}.json`);
   const post = await res.json();
 
   // Pass post data to the page via props

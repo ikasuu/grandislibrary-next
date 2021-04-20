@@ -469,7 +469,7 @@ export const commonFifth = {
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957"],
         "animations": ["https://media0.giphy.com/media/gLaAUn0lGqbwsnsPyl/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, allows your %Crit Rate to exceed 100% and increases your %Crit Rate depending on how much %Crit Rate you have"
+        "desc": "While active, allows your %Crit Rate to exceed 100% and increases your %Crit Damage depending on how much %Crit Rate you have"
     },
     venomBurst: {
         "name": "Venom Burst",
