@@ -18,6 +18,13 @@
     ],
     "recent": [
         {
+            "title": "16th Anniversary: Hotel Maple Patch Notes",
+            "image": "/home-thumbnail/gms-16th-anniversary.jpg",
+            "alt": "16th Anniversary: Hotel Maple Patch Notes",
+            "link": "https://maplestory.nexon.net/news/66516/v-222-16th-anniversary-hotel-maple-patch-notes",
+            "subtitle": "March 9th, 2021"
+        },
+        {
             "title": "Spring Blossoms Patch Notes",
             "image": "https://i.imgur.com/DY0gTTm.jpg",
             "alt": "Spring Blossoms Update Preview",
@@ -51,16 +58,16 @@
             "alt": "The Maplehood Watch is Back!",
             "link": "https://maplestory.nexon.net/news/64800/the-maplehood-watch-is-back-for-2021",
             "subtitle": "January 26th, 2021"
-        },
-        {
-            "title": "Visit Sellas, Where the Stars Sleep!",
-            "image": "https://i.imgur.com/WqegnCm.png",
-            "alt": "Sellas, Where the Stars Sleep",
-            "link": "https://maplestory.nexon.net/news/63875/v-219-awake-flicker-of-light-patch-notes#sellas",
-            "subtitle": "January 6th, 2021"
         }
     ],
     "upcoming": [
+        {
+            "title": "18th Anniversary: Blooming Forest",
+            "image": "/home-thumbnail/kms-18th-anniversary.jpg",
+            "alt": "18th Anniversary: Blooming Forest",
+            "link": "https://orangemushroom.net/2021/04/21/kms-ver-1-2-347-maplestorys-18th-anniversary-blooming-forest/",
+            "subtitle": "April 21, 2021"
+        },
         {
             "title": "Yeti x Pink Bean World!",
             "image": "https://i.imgur.com/Rvp6DNo.jpg",
@@ -95,15 +102,7 @@
             "alt": "KMS ver. 1.2.339 – Halloween, Haste & Return of the Legends!",
             "link": "https://orangemushroom.net/2020/10/21/kms-ver-1-2-339-halloween-haste-return-of-the-legends/",
             "subtitle": "October 21, 2020"
-        },
-        {
-            "title": "MapleStory Anniversary (Maple Hotel)",
-            "image": "https://i.imgur.com/b5KtcMH.png",
-            "alt": "KMS ver. 1.2.333 – MapleStory’s 17th Anniversary!",
-            "link": "https://orangemushroom.net/2020/04/23/kms-ver-1-2-333-maplestorys-17th-anniversary/",
-            "subtitle": "April 23, 2020"
         }
-
     ],
     "popularContent": [
         {
