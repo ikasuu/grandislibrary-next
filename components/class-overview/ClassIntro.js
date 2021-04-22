@@ -53,8 +53,8 @@ const PropertyContainer = styled(Col)`
   }
 `;
 
-// Container to hold ClassProsCons and LinkSkill
-const ProsConsContainer = styled(Col)`
+// Container to hold ClassBuff and LinkSkill
+const BuffContainer = styled(Col)`
   max-width: 36rem;
 
   /* For iPad so that the elements do not display as blocks */
@@ -74,10 +74,10 @@ export function ClassIntro({data}) {
                         <ClassProperties content={data.content}/>
                         <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
                     </PropertyContainer>
-                    <ProsConsContainer md="auto">
-                        <ClassProsCons pros={data.content.prosCons.pros} cons={data.content.prosCons.cons}/>
+                    <BuffContainer md="auto">
+                        <ClassBuffs content={data.content}/>
                         <LinkSkill linkSkill={data.content.linkSkill}/>
-                    </ProsConsContainer>
+                    </BuffContainer>
                 </Row>
             </Container>
             <hr/>
@@ -174,24 +174,31 @@ function PropertyBox({skills, classType}) {
 }
 
 /*
-    Pros and Cons component in our Class Overviews
+    Buff component in our Class Overviews
     Created by: Ikasuu, Fall 2020
 */
 
-function ClassProsCons({pros, cons}) {
+// Wrapper for to Buffs and Other Actives container
+const BuffAndActivesWrapper = styled(Col)`
+  max-width: 37rem;
+`;
+
+function ClassBuffs({content}) {
   return (
       <div>
-          <StyledHeaderTwo>Pros and Cons</StyledHeaderTwo>
-          <Container>
-              <StyledHeaderThree>Pros</StyledHeaderThree>
-              <ul>
-                  {pros.map( pro => <li key={pro}>{parse(DOMPurify.sanitize(pro))}</li>)}
-              </ul>
-              <StyledHeaderThree>Cons</StyledHeaderThree>
-              <ul>
-                  {cons.map( con => <li key={con}>{parse(DOMPurify.sanitize(con))}</li>)}
-              </ul>
-          </Container>
+        <BuffAndActivesWrapper md="auto">
+            <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order instead, show all active skills excluding primary attacks"/></StyledHeaderTwo>
+            <Table size="sm" borderless>
+            <tbody>
+                <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
+                {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<tr><th><strong>Summons</strong>:</th><td>None</td></tr>}
+                <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData></tr>
+                <tr><th><strong>5th Job Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</StatTableData></tr>
+                {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
+                {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
+            </tbody>
+            </Table>
+        </BuffAndActivesWrapper>
       </div>
   );
 }
@@ -212,11 +219,6 @@ const BaseStatTitle = styled(StyledHeaderTwo)`
   }
 `;
 
-// Wrapper for to Buffs and Other Actives container
-const BuffAndActivesWrapper = styled(Col)`
-  max-width: 37rem;
-`;
-
 // Adding padding for td in Base Stats table
 const StatTableData = styled.td`
   padding: 0.3rem !important;
@@ -225,8 +227,7 @@ const StatTableData = styled.td`
 function ClassDetail({content}) {
     return (
         <Container>
-          {content.specialThanks && <em>{content.specialThanks}</em>}
-          <Row>
+           {content.specialThanks && <em>{content.specialThanks}</em>}
             <BaseStatsWrapper md="auto">
               <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>
               <Table borderless>
@@ -235,40 +236,26 @@ function ClassDetail({content}) {
                 </tbody>
               </Table>
             </BaseStatsWrapper>
-            <BuffAndActivesWrapper md="auto">
-              <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order instead, show all active skills excluding primary attacks"/></StyledHeaderTwo>
-              <Table size="sm" borderless>
-                <tbody>
-                  <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
-                  {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<tr><th><strong>Summons</strong>:</th><td>None</td></tr>}
-                  <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData></tr>
-                  <tr><th><strong>5th Job Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</StatTableData></tr>
-                  {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
-                  {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
-                </tbody>
-              </Table>
-            </BuffAndActivesWrapper>
-          </Row>
-        <StyledHeaderTwo>Example Skill Build Path</StyledHeaderTwo>
-        <Table borderless>
-          <tbody>
-            {content.buildPath.build.map((build,index) => 
-              <tr key={index}>
-                <th>{build[0]}:</th>
-                <StatTableData>{parse(DOMPurify.sanitize(build[1]))}</StatTableData>
-              </tr>)}
-          </tbody>
-        </Table>
-        <ul>
-            {content.buildPath.details.map((detail,index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}
-        </ul>
-        <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive>
-        {parse(DOMPurify.sanitize(content.hyperBuild.recommended))}
-        <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
-        <Container>{parse(DOMPurify.sanitize(content.nodeInfo.recommended))}</Container>
-        <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
-        <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
-        <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
+            <StyledHeaderTwo>Example Skill Build Path</StyledHeaderTwo>
+            <Table borderless>
+            <tbody>
+                {content.buildPath.build.map((build,index) => 
+                <tr key={index}>
+                    <th>{build[0]}:</th>
+                    <StatTableData>{parse(DOMPurify.sanitize(build[1]))}</StatTableData>
+                </tr>)}
+            </tbody>
+            </Table>
+            <ul>
+                {content.buildPath.details.map((detail,index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}
+            </ul>
+            <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive>
+            {parse(DOMPurify.sanitize(content.hyperBuild.recommended))}
+            <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
+            <Container>{parse(DOMPurify.sanitize(content.nodeInfo.recommended))}</Container>
+            <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
+            <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
+            <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
               <ul>
                 {
                     content.innerAbility.map((ability, index) => 
