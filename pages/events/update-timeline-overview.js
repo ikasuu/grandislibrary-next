@@ -86,6 +86,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#asura">Sengoku Returns: Asura War</Link></li>
                 <li><Link href="#awake">Awake</Link></li>
                 <li><Link href="#moonlight-magic">Moonlight Magic</Link></li>
+                <li><Link href="#hotel-maple">Hotel Maple</Link></li>
             </ul>
             <h2 id="bang">Big Bang Update - Dec 2010</h2>
             <BigBang/>
@@ -293,6 +294,9 @@ function UpdateTimelineOverview() {
             <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="moonlight-magic">Moonlight Magic Update - Feb 2021</h2>
             <MoonlightMagic/>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
+            <h2 id="hotel-maple">Hotel Maple Update - Apr 2021</h2>
+            <HotelMaple/>
         </EventPage>
     )
 }
@@ -1427,6 +1431,22 @@ function HieizanTemple() {
                 <li>Mori Ranmaru now drops Japanese Myth equipment</li>
                 <li>Javaert, the Commerci Denaro vendor, will now restock his items daily</li>
                 <li>Gender restrictions have been removed for trading cash cover equipment</li>
+            </ul>
+        </LazyLoad>
+    )
+};
+
+function HotelMaple() {
+    return (
+        <LazyLoad height={200} offset={100}>
+            <Video src="https://www.youtube.com/embed/h640p96ZhBY" title="Hotel Maple"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/66516/v-222-16th-anniversary-hotel-maple-patch-notes"/></p>
+            </div>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li>Android Shop now sells additional items and can recharge Throwing Stars and Arrows</li>
+                <li>Character Clean-up - Characters that have not logged on since December 15, 2016 will be deactivated and be deleted on June 9, 2021</li>
             </ul>
         </LazyLoad>
     )

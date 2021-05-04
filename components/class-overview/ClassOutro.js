@@ -47,7 +47,8 @@ function ClassMoreInfo({classTitle, moreInfo}) {
 function ClassSuggestions({classGroup}) {
     return (
         <div>
-            <ClassSwipe classGroup={classGroup}/>
+            {/* Removed until fixed */}
+            {/* <ClassSwipe classGroup={classGroup}/> */}
         </div>
     );
 }

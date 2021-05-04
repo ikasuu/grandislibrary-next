@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 220; 
-export const versionName = "Moonlight Magic Update"
+export const version = 222; 
+export const versionName = "Hotel Maple Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
