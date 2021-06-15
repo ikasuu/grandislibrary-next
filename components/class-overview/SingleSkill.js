@@ -24,7 +24,7 @@ export class SingleSkill extends Component {
         this.state = {
              retrievedData: [],
              skillData: props.skillData,
-             loading: true
+             loading: false
         };
     }
 
@@ -53,17 +53,25 @@ export class SingleSkill extends Component {
     }
 
     render() {
-        const { loading, retrievedData } = this.state
+        const { loading, retrievedData, skillData } = this.state
         return (
             <div>
             {
                 loading ? <div style={{margin: '2rem 40% 2rem 40%'}}><Image src={loadingImage}/><div style={{paddingLeft: '0.5rem'}}>Loading!</div></div> : 
                 <div>
                 {
-                    retrievedData.map((skill, index) => 
+                    skillData.offline ? 
+                    <SkillInfo
+                    skillData={skillData}
+                    name={skillData.name}
+                    shortDesc={skillData.shortDesc}
+                    properties={{}}
+                    maxLevel={skillData.maxLevel}
+                    /> :
+                    retrievedData.map((skill) => 
                         <div key={skill.description.id}>
                             <SkillInfo 
-                                skillData={this.state.skillData}
+                                skillData={skillData}
                                 name={skill.description.name}
                                 desc={skill.description.desc}
                                 shortDesc={skill.description.shortDesc}

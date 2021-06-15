@@ -18,6 +18,20 @@
     ],
     "recent": [
         {
+            "title": "NEO Update Patch Notes",
+            "image": "/home-thumbnail/gms-neo.jpg",
+            "alt": "NEO Update Patch Notes",
+            "link": "https://maplestory.nexon.net/news/67135/v-223-neo-darkness-ascending-patch-notes",
+            "subtitle": "June 8th, 2021"
+        },
+        {
+            "title": "Prepare for NEO Maple Events",
+            "image": "/home-thumbnail/neo-maple-events.jpg",
+            "alt": "Prepare for NEO Maple Events",
+            "link": "https://maplestory.nexon.net/news/67023/prepare-for-summer-with-the-neo-maple-events",
+            "subtitle": "May 26th, 2021"
+        },
+        {
             "title": "16th Anniversary: Hotel Maple Patch Notes",
             "image": "/home-thumbnail/gms-16th-anniversary.jpg",
             "alt": "16th Anniversary: Hotel Maple Patch Notes",
@@ -44,20 +58,6 @@
             "alt": "Bonus Stat Generation Issue",
             "link": "https://maplestory.nexon.net/news/65368/bonus-stat-generation-issue",
             "subtitle": "February 23, 2020"
-        },
-        {
-            "title": "Moonlight Magic Patch Notes",
-            "image": "https://i.imgur.com/msLNqqV.png",
-            "alt": "Moonlight Magic Patch Notes",
-            "link": "https://maplestory.nexon.net/news/64760/v-220-moonlight-magic-patch-notes",
-            "subtitle": "February 3rd, 2021"
-        },
-        {
-            "title": "The Maplehood Watch is Back!",
-            "image": "https://i.imgur.com/6vFLLqI.png",
-            "alt": "The Maplehood Watch is Back!",
-            "link": "https://maplestory.nexon.net/news/64800/the-maplehood-watch-is-back-for-2021",
-            "subtitle": "January 26th, 2021"
         }
     ],
     "upcoming": [
@@ -81,13 +81,6 @@
             "alt": "KMS ver. 1.2.344 – Job Balancing!",
             "link": "https://orangemushroom.net/2021/02/24/kms-ver-1-2-344-job-balancing/",
             "subtitle": "February 18, 2021"
-        },
-        {
-            "title": "NEO Update",
-            "image": "https://i.imgur.com/JVL9P4X.png",
-            "alt": "KMS ver. 1.2.341 – MapleStory NEO: Signal!",
-            "link": "https://orangemushroom.net/2020/12/17/kms-ver-1-2-341-maplestory-neo-signal/",
-            "subtitle": "December 17, 2020"
         },
         {
             "title": "Yeti's Debut!",

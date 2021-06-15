@@ -77,7 +77,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}} />
                     <StyledTd style={{color: 'black'}} />
                     <StyledTd style={{color: 'black'}} />
-                    <StyledTd style={{color: 'black'}}>Jett / Zen</StyledTd>
+                    <StyledTd style={{color: 'black'}}>Jett</StyledTd>
                 </ClassBlock>
                 <ClassBlock>
                     <StyledTd style={{color: 'black'}} />
@@ -171,7 +171,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}><strong>Nova</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}>Kaiser</StyledTd>
                     <StyledTd style={{color: 'black'}} />
-                    <StyledTd style={{color: 'black'}} />
+                    <StyledTd style={{color: 'black'}}>Kain</StyledTd>
                     <StyledTd style={{color: 'black'}}>Cadena</StyledTd>
                     <StyledTd style={{color: 'black'}}>Angelic Buster</StyledTd>
                 </ClassBlock>
@@ -275,7 +275,7 @@ function SharedCashShopInventory() {
             </table>
         </TableContainer>
         <StyledP>For an image version of this check out: </StyledP>
-        <a href="https://cdn.discordapp.com/attachments/312354082356592641/678635478618210324/unknown.png" target="_blank" rel="noopener noreferrer">https://cdn.discordapp.com/attachments/312354082356592641/678635478618210324/unknown.png</a>
+        <a href="https://cdn.discordapp.com/attachments/655519944083243069/786509048467947530/unknown.png" target="_blank" rel="noopener noreferrer">https://cdn.discordapp.com/attachments/655519944083243069/786509048467947530/unknown.png</a>
         <ul>
         <li>Credits to Kradian South #4949 for the image version</li>
         </ul>
