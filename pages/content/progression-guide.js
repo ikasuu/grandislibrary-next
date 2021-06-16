@@ -1885,12 +1885,12 @@ function ProgressionGuide() {
                     <li>Normal and Hard Magnus cannot be fought until Lv. 155+</li>
                 </ul>
                 </li>
-                <li><strong style={{color: '#ff6600'}}><em>[Reboot Recommended]</em></strong>  <strong>(Lv. 100) [Ursus] Rumors of The Mighty </strong>- Quest to get started with Ursus, an important boss in Reboot for Mesos. Provides a quick explanation to the boss
+                <li><strong>(Lv. 100) [Ursus] Rumors of The Mighty </strong>- Quest to get started with Ursus, an important boss in Reboot for Mesos. Provides a quick explanation to the boss
                 <ul>
                     <li><strong>Main Reward: </strong><strong />[Mesos]</li>
                 </ul>
                 </li>
-                <li><strong style={{color: '#ff6600'}}><em>[Reboot Recommended] </em>(Lv. 100) [Mushroom Shrine Tales] Kino Konoko's Request </strong>- Completing this storyline rewards you <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/49/Eqp_Wings_of_Fate.png/revision/latest?cb=20190531042939" alt="Eqp Wings of Fate" width={36} height={35} /> <a href="https://maplestory.fandom.com/wiki/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Wings of Fate]</a> which give some pretty good stats but may be tedious to obtain since the story is quite long
+                <li><strong>(Lv. 100) [Mushroom Shrine Tales] Kino Konoko's Request </strong>- Completing this storyline rewards you <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/49/Eqp_Wings_of_Fate.png/revision/latest?cb=20190531042939" alt="Eqp Wings of Fate" width={36} height={35} /> <a href="https://maplestory.fandom.com/wiki/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Wings of Fate]</a> which give some pretty good stats but may be tedious to obtain since the story is quite long
                 <ul>
                     <li>This cape may be useful for gear progression in Reboot if you do want to obtain it</li>
                 </ul>
@@ -1912,6 +1912,7 @@ function ProgressionGuide() {
                 </li>
                 <li><strong>(Lv. 115) [Easy Magnus] Magnus Simulator </strong>- Short dialogue quest that unlocks access to Easy Magnus</li>
                 <li><strong>(Lv. 115) [Papulatus] The Light of Chaos </strong>- Starts the pre-quests for the boss Papulatus</li>
+                <li><strong>(Lv. 120) Call of Princess Sakuno: Stop Mori Ranmaru! </strong>- Short dialogue quest that unlocks access to the boss Mori Ranmori</li>
                 <li><strong>(Lv. 120) [Black Heaven] For Maple World </strong>- A long storyline with multiple Acts. Completing Black Heaven will unlock access to the boss <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Mobicon_Lotus_%282%29.png/revision/latest?cb=20150312043217" alt="Mobicon Lotus (2)" width={27} height={27} />Lotus (but cannot be fought until Lv. 190)
                 <ul>
                     <li>Completing this on one character will unlock access to Lotus for all your characters in the same world</li>
@@ -1953,8 +1954,10 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><strong>(Lv. 190) [Haven] A New Home </strong>- Storyline, unlocks access to Weekly Quests in the Scrapyard</li>
-                <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain </strong>- Storyline, unlocks access to Weekly Quests in the Dark World Tree</li>
+                <li><strong>(Lv. 180) [Gollux] The Cracks of Corruption </strong>- Short dialogue quest that unlocks access to the boss Gollux</li>
+                <li><strong>(Lv. 190) [Haven] A New Home </strong>- Pre-quests to unlock access to Weekly Quests in the Scrapyard</li>
+                <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain </strong>- Pre-quests to unlock access to Weekly Quests in the Dark World Tree</li>
+                <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- Pre-quests to unlocking access to the boss Akechi Mitsuhide</li>
             </ul>
             <h4>Theme Dungeons:</h4>
             <p>Theme Dungeons labeled in orange are recommended, in green are optional, in white are skippable</p>

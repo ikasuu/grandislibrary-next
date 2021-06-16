@@ -51,6 +51,7 @@ function AttackSpeed() {
                 <li>Chain [1H] (Fast 4)</li>
                 <li>Ritual Fan [1H] (Fast 4)</li>
                 <li>Bladecaster / Tuner [1H] (Fast 4)</li>
+                <li>Whispershot / Breath Shooter [1H] (Fast 4)</li>
             </ul>
             <h3>Fast (5)</h3>
             <ul>
