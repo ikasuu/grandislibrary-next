@@ -30,7 +30,7 @@ const ClassContainer = styled.div`
     padding-left: 2.5rem;
     margin: auto;
 
-    /* Adjustments to container and figures for mobile / tablet */
+    /* Adjustments to container and figures for mobile/tablet */
     @media(max-width: 1199px){
         width: 90%;
     }
