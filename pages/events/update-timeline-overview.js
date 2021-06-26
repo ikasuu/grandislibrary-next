@@ -87,6 +87,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#awake">Awake</Link></li>
                 <li><Link href="#moonlight-magic">Moonlight Magic</Link></li>
                 <li><Link href="#hotel-maple">Hotel Maple</Link></li>
+                <li><Link href="#neo">Neo</Link></li>
             </ul>
             <h2 id="bang">Big Bang Update - Dec 2010</h2>
             <BigBang/>
@@ -297,16 +298,11 @@ function UpdateTimelineOverview() {
             <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="hotel-maple">Hotel Maple Update - Apr 2021</h2>
             <HotelMaple/>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
+            <h2 id="neo">Neo Update - June 2021</h2>
+            <Neo/>
         </EventPage>
     )
-}
-
-//Used to scroll to anchor tags
-
-const scrollWidthOffset = (el) => {
-    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-    const yOffset = -80; 
-    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 function Alishan() {
@@ -1916,6 +1912,99 @@ function Mutiny() {
         </LazyLoad>
     )
 };
+
+function Neo(){
+    return(
+        <LazyLoad height={200} offset={100}>
+            <Video src="https://www.youtube.com/embed/EaSiggfQ2lM" title="NEO"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/67135/v-223-neo-darkness-ascending-patch-notes"/></p>
+            </div>
+            <h3>New Content</h3>
+            <ul>
+                <li>
+                    <strong>New class, <a href="https://maplestory.fandom.com/wiki/Kain" target="_blank" rel="noopener">Kain</a></strong>
+                </li>
+                <li>
+                    New area, <img src="https://maplestory.io/api/KMS/348/map/410000401/icon" alt="MapIcon Toolen City" /> <a href="https://maplestory.fandom.com/wiki/Category:Toolen_City" target="_blank" rel="noopener">Toolen City</a>
+                </li>
+                <li>
+                    <strong>New area, <img src="https://maplestory.io/api/KMS/348/map/410000500/icon" alt="MapIcon Cernium"/> <a href="https://maplestory.fandom.com/wiki/Category:Cernium" target="_blank" rel="noopener">Cernium + Burning Cernium</a></strong>
+                </li>
+                <li>
+                    <strong>New Symbol Force, <img src="https://maplestory.io/api/KMST/1119/item/1713000/icon" alt="Eqp Sacred Force"/> <a href="https://maplestory.fandom.com/wiki/Category:Sacred_Symbols" target="_blank" rel="noopener">Sacred Force</a></strong>
+                </li>
+            </ul>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li><strong>Characters below Lv. 35 that have not logged on since December 15, 2016 have been deleted</strong></li>
+                <li><strong>Level cap increases to 300</strong></li>
+                <li><strong>Damage cap increases to 150 billion</strong></li>
+                <li><strong>Meso cap increased to 100 billion</strong></li>
+                <li><strong>Required EXP from Lv. 210 to 249 has been reduced</strong></li>
+                <li>
+                    <strong>Arcane River Quest improvements</strong>
+                    <ul>
+                        <li>The amount of Arcane Symbols obtained upon completing Vanishing Journey and Chu Chu Island daily quests has been increased</li>
+                        <li>Upon completing the Reverse City questline, the amount of Arcane Symbols rewarded for Vanishing Journey daily quests will be doubled</li>
+                        <li>Upon completing the Yum Yum Island questline, the amount of Arcane Symbols rewarded for Chu Chu Island daily quests will be doubled</li>
+                        <li>New daily quests have been added for Reverse City and Yum Yum Island for Vanishing Journey and Chu Chu Island once the questlines have been completed</li>
+                    </ul>
+                </li>
+                <li>Gloom (Chaos), Darknell (Hard), Verus Hilla, and Black Mage now drop Arcane Umbra equipment when defeated</li>
+                <li>
+                    Death Penalty changes
+                    <ul>
+                        <li>EXP is no longer lost when dying</li>
+                        <li>Upon dying, characters will now receive a debuff that reduced EXP obtained and drop rate</li>
+                        <li>Safety Charms now immediately remove the debuff</li>
+                    </ul>
+                </li>
+                <li>
+                    Monster Park improvements
+                    <ul>
+                        <li>EXP for Vanishing Journey has been increased</li>
+                        <li>Chu Chu Island Skywhale maps have been simplified</li>
+                        <li>Lachelein stage has been added for characters that have completed the Lachelein questline</li>
+                    </ul>
+                </li>
+                <li>
+                    Boss Matchmaking changes
+                    <ul>
+                        <li><strong>Players can now directly teleport to a boss without needing to be matched successfully with another player</strong></li>
+                        <li>Form Party buff has been removed</li>
+                    </ul>
+                </li>
+                <li><strong>During weekly and monthly bosses, pets now only pick up items rewarded to individual players</strong></li>
+                <li>NPC Collector can now be accessed through the Quick Move UI</li>
+                <li>
+                    Meso Market changes
+                    <ul>
+                        <li><strong>Trades are now shared between characters within the same world</strong></li>
+                        <li>Listing, Cancelling, and Collecting has been changed to "per world"</li>
+                        <li>Meso Market daily list count has been increased from 5 to 20</li>
+                        <li>Trade fee discount and additional meso/Maple Point distribution upon successful trade has been removed</li>
+                    </ul>
+                </li>
+                <li>Mu Gong's Soul Shard has been added to the Mu Lung Dojo Point Shop</li>
+                <li>Pets that are expired will display as red in the inventory</li>
+                <li>A pop-up will now appear when Safeguard is automatically disabled during Star Force Enhancement</li>
+                <li>Party members' boss death count will be displayed on the party UI</li>
+                <li>Players can now move to Cash Shop or different channels during boss entry waiting lobbies for Lucid, Verus Hilla, and Darknell</li>
+                <li>Character skin information can now be checked in the Cash tab of the Equipment Inventory UI</li>
+                <li>Clean Slate Scroll will be replaced with Pure Clean Slate Scroll (for consistent naming conventions)</li>
+                <li>
+                    <strong>V Matrix QoL changes</strong>
+                    <ul>
+                        <li>The color and effect of a selected node is now distinguished from newly obtained nodes</li>
+                        <li>Node lock function has been added</li>
+                        <li>Select All feature has been added for node disassembling</li>
+                    </ul>
+                </li>
+            </ul>
+        </LazyLoad>
+    );
+}
 
 function NewDawn() {
     return (

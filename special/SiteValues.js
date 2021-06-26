@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 222; 
-export const versionName = "Hotel Maple Update"
+export const version = 223; 
+export const versionName = "Neo Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";

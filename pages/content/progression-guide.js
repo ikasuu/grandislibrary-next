@@ -841,7 +841,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6d/MapIcon_Papulatus_Clock.png/revision/latest?cb=20180109012602" alt="MapIcon Papulatus Clock" width={38} height={38} /> <a href="https://maplestory.fandom.com/wiki/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Easy Papulatus</strong></a>
+                <li> <img src="https://maplestory.io/api/GMS/223/map/220080001/icon" alt="MapIcon Papulatus Clock"/> <a href="https://maplestory.fandom.com/wiki/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Easy Papulatus</strong></a>
                 <ul>
                     <li>Source of <img src="https://maplestory.io/api/GMS/210.1.1/item/2431872/icon" alt="" />Reward Points, <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube" width={29} height={29} /> <a href="https://maplestory.fandom.com/wiki/Occult_Cube" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/17/Use_Elixir.png/revision/latest?cb=20151109020319" alt="Use Elixir" width={32} height={31} /> <a href="https://maplestory.fandom.com/wiki/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/d/da/Etc_Crusader_Coins.png/revision/latest?cb=20170331044758" alt="Etc Crusader Coins" width={27} height={25} />  <a href="https://maplestory.fandom.com/wiki/Crusader_Coins" target="_blank" rel="noreferrer noopener">[Crusader Coin]</a> and <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal" width={32} height={38} /> <a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
                     </li>
@@ -1035,7 +1035,7 @@ function ProgressionGuide() {
             <h3>[ &gt; 20k Main Stat] Midgame Bosses:</h3>
             <hr />
             <ul>
-                <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6d/MapIcon_Papulatus_Clock.png/revision/latest?cb=20180109012602" alt="MapIcon Papulatus Clock" width={38} height={38} /> <a href="https://maplestory.fandom.com/wiki/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Chaos Papulatus</strong></a>
+                <li> <img src="https://maplestory.io/api/GMS/223/map/220080001/icon" alt="MapIcon Papulatus Clock" width={38} height={38} /> <a href="https://maplestory.fandom.com/wiki/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Chaos Papulatus</strong></a>
                 <ul>
                     <li>Source of <img src="https://maplestory.io/api/GMS/210.1.1/item/2431872/icon" alt="" />Reward Points, <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube" width={29} height={29} /> <a href="https://maplestory.fandom.com/wiki/Occult_Cube" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Use_Power_Elixir.png/revision/latest?cb=20151109020354" alt="Use Power Elixir" width={32} height={31} /> <a href="https://maplestory.fandom.com/wiki/Power_Elixir">[ Power Elixir]</a> and <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal" width={32} height={38} /> <a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
                     </li>
@@ -1067,9 +1067,9 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h3>[ &gt; 25k Main Stat] Early Endgame Bosses:</h3>
+            <h3>Tier I Endgame Bosses:</h3>
             <hr />
-            <p>Bosses beyond this point are not meant to be soloable. Instead, you will want to find a Hard Boss Party to clear these bosses together. It may be weird that these bosses are split again into Early, Mid, and End but, there is that big of a different between the later bosses and earlier bosses</p>
+            <p>Bosses beyond this point are not meant to be soloable and are more party-oriented bosses. As well, beyond this point, bosses will be separated by tiers as there is no good recommended stat indicators for the reasons mentioned earlier.</p>
             <ul>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e1/MapIcon_Haven.png/revision/latest?cb=20150118085415" alt="MapIcon Haven" width={38} height={38} /> <strong><a href="https://maplestory.fandom.com/wiki/Lotus" target="_blank" rel="noreferrer noopener">Hard Lotus</a></strong>
                 <ul>
@@ -1088,7 +1088,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h3>[ &gt; 25k Main Stat] Mid Endgame Bosses:</h3>
+            <h3>Tier II Endgame Bosses:</h3>
             <hr />
             <ul>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/99/MapIcon_Lacheln.png/revision/latest?cb=20160819012310" alt="MapIcon Lacheln" width={38} height={38} /> <a href="https://maplestory.fandom.com/wiki/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Lucid</strong></a>
@@ -1106,12 +1106,12 @@ function ProgressionGuide() {
                     <li>Source of <img src="https://maplestory.io/api/GMS/210.1.1/item/2431872/icon" alt="" />Reward Points, <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube" width={29} height={29} /> <a href="https://maplestory.fandom.com/wiki/Occult_Cube" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Use_Bonus_Occult_Cube.png/revision/latest?cb=20190103221114" alt="Use Bonus Occult Cube" width={27} height={27} /> <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Use_Power_Elixir.png/revision/latest?cb=20151109020354" alt="Use Power Elixir" width={32} height={31} /> <a href="https://maplestory.fandom.com/wiki/Power_Elixir">[ Power Elixir]</a> and <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal" width={32} height={38} /> <a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
                     </li>
                     <li><strong>Normal Mode and Above Rewards:</strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Etc_Stone_Cobweb_Droplet.png/revision/latest?cb=20180908000107" alt="Etc Stone Cobweb Droplet" width={34} height={36} />[Stone Cobweb Droplet]</li>
-                    <li><strong>Hard Mode Only Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Eqp_Cursed_Red_Spellbook.png/revision/latest?cb=20180702021659" alt="Eqp Cursed Red Spellbook" width={38} height={37} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Eqp_Cursed_Blue_Spellbook.png/revision/latest?cb=20180702022133" alt="Eqp Cursed Blue Spellbook" width={38} height={37} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Eqp_Cursed_Green_Spellbook.png/revision/latest?cb=20180702022320" alt="Eqp Cursed Green Spellbook" width={37} height={37} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Eqp_Cursed_Yellow_Spellbook.png/revision/latest?cb=20180702022434" alt="Eqp Cursed Yellow Spellbook" width={38} height={36} /> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162080" target="_blank" rel="noreferrer noopener">[Cursed Spellbook]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/97/Eqp_Arcane_Umbra_Knight_Hat.png/revision/latest?cb=20161208043106" alt="Eqp Arcane Umbra Knight Hat" width={37} height={36} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Eqp_Arcane_Umbra_Knight_Shoulder.png/revision/latest?cb=20161209035635" alt="Eqp Arcane Umbra Knight Shoulder" width={32} height={27} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Eqp_Arcane_Umbra_Knight_Suit.png/revision/latest?cb=20161209231322" alt="Eqp Arcane Umbra Knight Suit" width={26} height={31} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/22/Eqp_Arcane_Umbra_Saber.png/revision/latest?cb=20161222220021" alt="Eqp Arcane Umbra Saber" width={32} height={31} /> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Hat/Shoulder/Overall/Weapon) Arcane Umbra Gear]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Use_Mirror_World_Nodestone.png/revision/latest?cb=20181002064218" alt="Use Mirror World Nodestone" width={38} height={38} /> <a href="https://maplestory.fandom.com/wiki/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>
+                    <li><strong>Hard Mode Only Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Eqp_Cursed_Red_Spellbook.png/revision/latest?cb=20180702021659" alt="Eqp Cursed Red Spellbook" width={38} height={37} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Eqp_Cursed_Blue_Spellbook.png/revision/latest?cb=20180702022133" alt="Eqp Cursed Blue Spellbook" width={38} height={37} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Eqp_Cursed_Green_Spellbook.png/revision/latest?cb=20180702022320" alt="Eqp Cursed Green Spellbook" width={37} height={37} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Eqp_Cursed_Yellow_Spellbook.png/revision/latest?cb=20180702022434" alt="Eqp Cursed Yellow Spellbook" width={38} height={36} /> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162080" target="_blank" rel="noreferrer noopener">[Cursed Spellbook]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/97/Eqp_Arcane_Umbra_Knight_Hat.png/revision/latest?cb=20161208043106" alt="Eqp Arcane Umbra Knight Hat" width={37} height={36} /> <img src="https://maplestory.io/api/GMS/223/item/1152198/icon" alt="Eqp Arcane Umbra Knight Shoulder"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Eqp_Arcane_Umbra_Knight_Suit.png/revision/latest?cb=20161209231322" alt="Eqp Arcane Umbra Knight Suit" width={26} height={31} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/22/Eqp_Arcane_Umbra_Saber.png/revision/latest?cb=20161222220021" alt="Eqp Arcane Umbra Saber" width={32} height={31} /> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Hat/Shoulder/Overall/Weapon) Arcane Umbra Gear]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Use_Mirror_World_Nodestone.png/revision/latest?cb=20181002064218" alt="Use Mirror World Nodestone" width={38} height={38} /> <a href="https://maplestory.fandom.com/wiki/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>
                     </li>
                 </ul>
                 </li>
             </ul>
-            <h3>[ &gt; 25k Main Stat] End Endgame Bosses:</h3>
+            <h3>Tier III Endgame Bosses:</h3>
             <hr />
             <ul>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7a/MapIcon_moonBridge.png/revision/latest?cb=20191204082819" alt="MapIcon moonBridge" width={38} height={38} /> <strong><a href="https://maplestory.fandom.com/wiki/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Gloom</a></strong>
@@ -1163,7 +1163,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c2/MapIcon_MonsterPark.png/revision/latest?cb=20100619154742" alt="MapIcon MonsterPark" width={38} height={38} /> <strong>[Lv. 105+] <a href="https://maplestory.fandom.com/wiki/Category:Monster_Park" target="_blank" rel="noreferrer noopener">[Daily] Monster Park</a></strong>: Completing Monster Park will reward you with a considerable amount of EXP and <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Etc_Monster_Park_Commemorative_Coin.png/revision/latest?cb=20150209010037" alt="Etc Monster Park Commemorative Coin" width={28} height={28} /> <a href="https://maplestory.fandom.com/wiki/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coin]</a> to use in a special shop
+                <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c2/MapIcon_MonsterPark.png/revision/latest?cb=20100619154742" alt="MapIcon MonsterPark" width={38} height={38} /> <strong>[Lv. 105+] <a href="https://maplestory.fandom.com/wiki/Category:Monster_Park" target="_blank" rel="noreferrer noopener">[Daily] Monster Park</a></strong>: Completing Monster Park will reward you with a considerable amount of EXP and <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Etc_Monster_Park_Commemorative_Coin.png/revision/latest?cb=20150209010037" alt="Etc Monster Park Commemorative Coin" width={28} height={28} /> <a href="https://maplestory.fandom.com/wiki/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coins]</a> to use in a special shop
                 <ul>
                     <li>Great for early levels as you gain a lot of EXP</li>
                     <li>Special shop sells special potions <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/51/Use_Extreme_Red_Potion.png/revision/latest?cb=20170206074326" alt="Use Extreme Red Potion" width={22} height={31} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Use_Extreme_Green_Potion.png/revision/latest?cb=20170206074332" alt="Use Extreme Green Potion" width={22} height={31} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Use_Extreme_Blue_Potion.png/revision/latest?cb=20170206074338" alt="Use Extreme Blue Potion" width={22} height={31} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Use_Extreme_Gold_Potion.png/revision/latest?cb=20170206074343" alt="Use Extreme Gold Potion" width={30} height={35} />that are transferable within your account (given same World) that grant useful buffs for training</li>
@@ -1173,50 +1173,45 @@ function ProgressionGuide() {
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2b/MapIcon_MTour.png/revision/latest?cb=20200415050411" alt="MapIcon MTour" width={38} height={38} /> <strong>[Lv. 105+] [Daily] </strong><strong>Maple Tour: </strong>Completing Maple Tour will reward you with Mesos and <img src="https://maplestory.io/api/GMS/212/item/4310286/icon" alt="" />[Maple Tour Coins] to buy special items at Maple Tour</li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f5/MapIcon_ShangHaiCN.png/revision/latest?cb=20171129032322" alt="MapIcon ShangHaiCN" width={38} height={38} /> <strong>[Lv. 140+] </strong><a href="https://maplestory.fandom.com/wiki/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong style={{color: '#ff6600'}}>[Reboot] [Daily] The Far East (Yu Garden)</strong></a>: Completing The Far East storyline will unlock Daily Quests
                 <ul>
-                    <li><strong>Main Reward:</strong>  <strong />[Epic Potential Scrolls] in Reboot Servers only</li>
+                    <li><strong>Main Reward:</strong> <img src="https://maplestory.io/api/GMS/223/item/2049701/icon" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Reboot Servers only</li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/aa/MapIcon_Road_of_Vanishing.png/revision/latest?cb=20160819012324" alt="MapIcon Road of Vanishing" width={38} height={38} /> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey storyline will unlock Daily Quests
                 <ul>
-                    <li><strong>Main Reward: </strong>[Arcane Symbol]</li>
-                    <li>The Daily Quests will be your main way of unlocking more <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Eqp_Arcane_Symbol_Vanishing_Journey.png/revision/latest?cb=20170116212418" alt="Eqp Arcane Symbol Vanishing Journey" width={34} height={33} /> [Arcane Symbols]</li>
+                    <li><strong>Main Reward:</strong> <img src="https://maplestory.io/api/GMS/223/item/1712001/icon" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/aa/MapIcon_Road_of_Vanishing.png/revision/latest?cb=20160819012324" alt="MapIcon Road of Vanishing" width={38} height={38} /> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Weekly] Arcane River - Vanishing Journey</a>: </strong>Completing the Vanishing Journey Daily twice each will reward you with Nodestones
                 <ul>
-                    <li><strong>Main Reward: </strong> <img src="https://maplestory.io/api/GMS/215/item/2435719/icon" alt="" /> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">[Nodestone]</a>
+                    <li><strong>Main Reward:</strong> <img src="https://maplestory.io/api/GMS/215/item/2435719/icon" alt="" /> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">[Nodestones]</a>
                     </li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/aa/MapIcon_Road_of_Vanishing.png/revision/latest?cb=20160819012324" alt="MapIcon Road of Vanishing" width={38} height={38} /> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Erda_Spectrum" target="_blank" rel="noreferrer noopener">[Daily PQ] Erda Spectrum</a></strong>: Unlocked once you complete the Vanishing Journey storyline. Can be done in parties of 1 to 3. There are 2 stages and the objective to help Nina conduct research in several different areas
                 <ul>
-                    <li><strong>Main Reward: </strong>[Arcane Symbol]</li>
+                    <li><strong>Main Reward:</strong> <img src="https://maplestory.io/api/GMS/223/item/1712001/icon" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/01/MapIcon_ChewChew.png/revision/latest?cb=20160819012317" alt="MapIcon ChewChew" width={38} height={38} /> <strong>[Lv. 210+]</strong>  <a href="https://maplestory.fandom.com/wiki/Category:Chu_Chu_Island" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Chu Chu Island</strong></a>: Completing storyline will unlock access to a Party Quest and Daily Quests
                 <ul>
-                    <li>Daily quests can be skipped unless you struggle with Hungry Muto or are lacking symbols to enhance</li>
-                    <li><strong>Main Rewards: </strong>[Arcane Symbol]</li>
+                    <li><strong>Main Reward:</strong> <img src="https://maplestory.io/api/GMS/223/item/1712002/icon" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/01/MapIcon_ChewChew.png/revision/latest?cb=20160819012317" alt="MapIcon ChewChew" width={38} height={38} /> <strong> [Lv. 210+] <a href="https://maplestory.fandom.com/wiki/Category:Hungry_Muto" target="_blank" rel="noreferrer noopener">[Daily PQ] Hungry Muto</a></strong>: Unlocked once you complete the Chu Chu Island storyline. Can be done in parties of 1 to 4. The main objective is to collect ingredients from monsters to create dishes to feed Muto
                 <ul>
-                    <li>This is your main way of obtaining more <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/74/Eqp_Arcane_Symbol_Chu_Chu_Island.png/revision/latest?cb=20170116215643" alt="Eqp Arcane Symbol Chu Chu Island" width={33} height={34} />[Arcane Symbols]</li>
-                    <li><strong>Main Rewards: </strong>[Arcane Symbol]</li>
+                    <li><strong>Main Reward:</strong> <img src="https://maplestory.io/api/GMS/223/item/1712002/icon" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/99/MapIcon_Lacheln.png/revision/latest?cb=20160819012310" alt="MapIcon Lacheln" width={38} height={38} /> <strong>[Lv. 220+] </strong><a href="https://maplestory.fandom.com/wiki/Category%3ALachelein" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Lachelein</strong></a>: Completing the storyline will unlock access to Dream Defender, Daily Quests
                 <ul>
-                    <li>Daily quests can be skipped unless you struggle with Dream Defender or are lacking symbols to enhance</li>
-                    <li><strong>Main Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Eqp_Arcane_Symbol_Lachelein.png/revision/latest?cb=20170116215729" alt="Eqp Arcane Symbol Lachelein" width={34} height={33} /> [Arcane Symbol]</li>
+                    <li><strong>Main Rewards:</strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Eqp_Arcane_Symbol_Lachelein.png/revision/latest?cb=20170116215729" alt="Eqp Arcane Symbol Lachelein" width={34} height={33} /> [Arcane Symbols]</li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/99/MapIcon_Lacheln.png/revision/latest?cb=20160819012310" alt="MapIcon Lacheln" width={38} height={38} /> <strong>[Lv. 220+] <a href="https://maplestory.fandom.com/wiki/Category:Dream_Defender" target="_blank" rel="noreferrer noopener">[Daily] Dream Defender</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to protect Music Boxes from becoming corrupted. If they become corrupted, you must free them by attacking it
                 <ul>
-                    <li>This is your main way of obtaining more <img src="https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Eqp_Arcane_Symbol_Lachelein.png/revision/latest?cb=20170116215729" alt="Eqp Arcane Symbol Lachelein" width={34} height={33} /> [Arcane Symbols]</li>
                     <li><strong>Main Rewards:</strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/72/Etc_Dream_Coin.png/revision/latest?cb=20181013105725" alt="Etc Dream Coin" width={27} height={27} /> <a href="https://maplestory.fandom.com/wiki/Dream_Coin" target="_blank" rel="noreferrer noopener">[Dream Coins]</a>
                     <ul>
-                        <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/72/Etc_Dream_Coin.png/revision/latest?cb=20181013105725" alt="Etc Dream Coin" width={27} height={27} />can be exchanged for <img src="https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Eqp_Arcane_Symbol_Lachelein.png/revision/latest?cb=20170116215729" alt="Eqp Arcane Symbol Lachelein" width={34} height={33} /> [Arcane Symbols]</li>
+                        <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/72/Etc_Dream_Coin.png/revision/latest?cb=20181013105725" alt="Etc Dream Coin" width={27} height={27} /> can be exchanged for <img src="https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Eqp_Arcane_Symbol_Lachelein.png/revision/latest?cb=20170116215729" alt="Eqp Arcane Symbol Lachelein" width={34} height={33} /> [Arcane Symbols]</li>
                         <li>Once you have completed all your runs of Dream Defender you can talk to the five ranking NPCs in Lachelein for extra <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/72/Etc_Dream_Coin.png/revision/latest?cb=20181013105725" alt="Etc Dream Coin" width={27} height={27} />[Dream Coins]</li>
                     </ul>
                     </li>
@@ -1224,10 +1219,7 @@ function ProgressionGuide() {
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b2/MapIcon_Arcana.png/revision/latest?cb=20170203025705" alt="MapIcon Arcana" width={38} height={38} /> <strong> [Lv. 225+] <a href="https://maplestory.fandom.com/wiki/Category:Arcana" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Arcana</a></strong>: Completing the storyline will unlock access to Spirit Savior and Daily Quests
                 <ul>
-                    <li><strong>Main Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/23/Eqp_Arcane_Symbol_Arcana.png/revision/latest?cb=20170807071750" alt="Eqp Arcane Symbol Arcana" width={33} height={33} /> [Arcane Symbol]
-                    <ul>
-                        <li>If you are lazy, you can just complete daily quests instead of Spirit Savior</li>
-                    </ul>
+                    <li><strong>Main Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/23/Eqp_Arcane_Symbol_Arcana.png/revision/latest?cb=20170807071750" alt="Eqp Arcane Symbol Arcana" width={33} height={33} /> [Arcane Symbols]
                     </li>
                 </ul>
                 </li>
@@ -1235,24 +1227,40 @@ function ProgressionGuide() {
                 <ul>
                     <li><strong>Main Rewards:</strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Etc_Spirit_Coin.png/revision/latest?cb=20181013111133" alt="Etc Spirit Coin" width={28} height={28} /> <a href="https://maplestory.fandom.com/wiki/Spirit_Coin" target="_blank" rel="noreferrer noopener">[Spirit Coins]</a>
                     </li>
-                    <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Etc_Spirit_Coin.png/revision/latest?cb=20181013111133" alt="Etc Spirit Coin" width={28} height={28} />can be exchanged for <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/23/Eqp_Arcane_Symbol_Arcana.png/revision/latest?cb=20170807071750" alt="Eqp Arcane Symbol Arcana" width={33} height={33} /> [Arcane Symbols]</li>
+                    <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Etc_Spirit_Coin.png/revision/latest?cb=20181013111133" alt="Etc Spirit Coin" width={28} height={28} /> can be exchanged for <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/23/Eqp_Arcane_Symbol_Arcana.png/revision/latest?cb=20170807071750" alt="Eqp Arcane Symbol Arcana" width={33} height={33} /> [Arcane Symbols]</li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b6/MapIcon_Morass.png/revision/latest?cb=20171021043007" alt="MapIcon Morass" width={38} height={38} /> <strong>[Lv. 230+] </strong><a href="https://maplestory.fandom.com/wiki/Category%3AMorass" target="_blank" rel="noreferrer noopener"><strong>[Daily] Morass</strong></a>: Completing the storyline here unlocks Daily Quests for this area
                 <ul>
-                    <li><strong>Main Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Eqp_Arcane_Symbol_Morass.png/revision/latest?cb=20171127043047" alt="Eqp Arcane Symbol Morass" width={34} height={34} />[Arcane Symbol]</li>
+                    <li><strong>Main Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Eqp_Arcane_Symbol_Morass.png/revision/latest?cb=20171127043047" alt="Eqp Arcane Symbol Morass" width={34} height={34} />[Arcane Symbols]</li>
                 </ul>
                 </li>
                 <li> <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/05/MapIcon_esfera.png/revision/latest?cb=20191204082805" alt="MapIcon esfera" width={38} height={38} /> <strong>[Lv. 235+] <a href="https://maplestory.fandom.com/wiki/Category:Esfera" target="_blank" rel="noreferrer noopener">[Daily] Esfera</a></strong>: Completing the storyline here unlocks Daily Quests for this area
                 <ul>
-                    <li><strong>Main Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Eqp_Arcane_Symbol_Esfera.png/revision/latest?cb=20180622045018" alt="Eqp Arcane Symbol Esfera" width={33} height={33} /> [Arcane Symbol]</li>
+                    <li><strong>Main Rewards: </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Eqp_Arcane_Symbol_Esfera.png/revision/latest?cb=20180622045018" alt="Eqp Arcane Symbol Esfera" width={33} height={33} /> [Arcane Symbols]</li>
+                </ul>
+                </li>
+                <li> <img src="https://maplestory.io/api/GMS/223/map/450009100/icon" alt="MapIcon Moonbridge"/> <strong>[Lv. 245+] <a href="https://maplestory.fandom.com/wiki/Quests/224/(Daily_Quest)_Tenebris_Research" target="_blank" rel="noreferrer noopener">[Daily] Tenebris</a></strong>: Completing the storyline in Moonbridge unlocks Daily Quests for this region
+                <ul>
+                    <li>More daily quests are available once Labyrinth of Suffering and Limina storylines have been completed</li>
+                    <li><strong>Main Rewards: </strong> <img src="https://maplestory.io/api/GMS/223/item/4001893/icon" alt="Etc Spark of Determination"/> [Spark of Determination]</li>
+                </ul>
+                </li>
+                <li> <img src="https://maplestory.io/api/GMS/223/map/410000500/icon" alt="MapIcon Cernium"/> <strong>[Lv. 260+] <a href="https://strategywiki.org/wiki/MapleStory/Grandis" target="_blank" rel="noreferrer noopener">[Daily] Cernium</a></strong>: Completing the storyline here unlocks Daily Quests for this area
+                <ul>
+                    <li><strong>Main Rewards: </strong> <img src="https://maplestory.io/api/GMS/223/item/1713000/icon" alt="Eqp Sacred Symbol Cernium"/> [Sacred Symbols]</li>
+                </ul>
+                </li>
+                <li> <img src="https://maplestory.io/api/GMS/223/map/410000500/icon" alt="MapIcon Cernium"/> <strong>[Lv. 265+] <a href="https://strategywiki.org/wiki/MapleStory/Grandis" target="_blank" rel="noreferrer noopener">[Daily] Burning Cernium</a></strong>: Completing the storyline here unlocks Daily Quests for this area
+                <ul>
+                    <li><strong>Main Rewards: </strong> <img src="https://maplestory.io/api/GMS/223/item/1713000/icon" alt="Eqp Sacred Symbol Cernium"/> [Sacred Symbols]</li>
                 </ul>
                 </li>
             </ul>
             <hr />
             <h4>Optional:</h4>
             <ul>
-                <li><strong>[Lv. 140+] <a href="https://strategywiki.org/wiki/MapleStory/Commerci_Trade_Voyages" target="_blank" rel="noreferrer noopener">[Daily] Commerci Voyages</a></strong>: Unlocked once you reach the town of San Commerci. Complete trade voyages where waves of enemies spawn to earn <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/56/Etc_Commerci_Denaro.png/revision/latest?cb=20140901070302" alt="Etc Commerci Denaro" width={30} height={22} /> <a href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaro]</a>
+                <li><img src="https://maplestory.io/api/GMS/223/map/865000002/icon" alt="MapIcon Commerci"/> <strong>[Lv. 140+] <a href="https://strategywiki.org/wiki/MapleStory/Commerci_Trade_Voyages" target="_blank" rel="noreferrer noopener">[Daily] Commerci Voyages</a></strong>: Unlocked once you reach the town of San Commerci. Complete trade voyages where waves of enemies spawn to earn <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/56/Etc_Commerci_Denaro.png/revision/latest?cb=20140901070302" alt="Etc Commerci Denaro" width={30} height={22} /> <a href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaro]</a>
                 <ul>
                     <li>Denaros are used to buy <strong /> [<a href="https://maplestory.wiki/GMS/210.1.1/item/1012438" target="_blank" rel="noreferrer noopener">Sweetwater Monocle</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1022211" target="_blank" rel="noreferrer noopener">Sweetwater Tattoo</a> ] from <a href="https://maplestory.fandom.com/wiki/Javert" target="_blank" rel="noreferrer noopener">Javert</a>
                     </li>
@@ -1272,7 +1280,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><strong>[Lv. 190+] <a href="https://maplestory.fandom.com/wiki/Category:Scrapyard" target="_blank" rel="noreferrer noopener">[Weekly] Scrapyard</a></strong>: Unlocked once you reach Lv. 190
+                <li><img src="https://maplestory.io/api/GMS/223/map/310070000/icon" alt="MapIcon Scrapyard"/> <strong>[Lv. 190+] <a href="https://maplestory.fandom.com/wiki/Category:Scrapyard" target="_blank" rel="noreferrer noopener">[Weekly] Scrapyard</a></strong>: Unlocked once you reach Lv. 190
                 <ul>
                     <li>Weekly Quests reward you with <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Etc_Diffusion-Line_Energy_Core_%28Grade_A%29.png/revision/latest?cb=20180329022046" alt="Etc Diffusion-Line Energy Core (Grade A)" width={36} height={30} /> [Diffusion-Line Energy Core (Grade A)] which are used to create <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/45/Etc_AbsoLab_Coin.png/revision/latest?cb=20160926034628" alt="Etc AbsoLab Coin" width={27} height={26} /> [AbsoLab Coins] to buy for <img src="https://maplestory.io/api/GMS/220/item/1073030/icon" alt="Eqp AbsoLab Knight Shoes" width={28} height={32} /> <img src="https://maplestory.io/api/GMS/220/item/1082636/icon" alt="Eqp AbsoLab Knight Gloves" width={32} height={30} /> <img src="https://maplestory.io/api/GMS/220/item/1102775/icon" alt="Eqp AbsoLab Knight Cape" width={34} height={33} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Eqp_AbsoLab_Saber.png/revision/latest?cb=20160719054959" alt="Eqp AbsoLab Saber" width={33} height={33} /> [<em>(Shoe/Glove/Cape/Weapon)</em> AbsoLab Gear]
                     <ul>
@@ -1283,7 +1291,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><strong>[Lv. 190+] <a href="https://maplestory.fandom.com/wiki/Category:Dark_World_Tree" target="_blank" rel="noreferrer noopener">[Weekly] Dark World Tree</a></strong>: Unlocked once you reach Lv. 190
+                <li><img src="https://maplestory.io/api/GMS/223/map/105300304/icon" alt="MapIcon Dark World Tree"/> <strong>[Lv. 190+] <a href="https://maplestory.fandom.com/wiki/Category:Dark_World_Tree" target="_blank" rel="noreferrer noopener">[Weekly] Dark World Tree</a></strong>: Unlocked once you reach Lv. 190
                 <ul>
                     <li>Weekly Quests reward you with <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Etc_Faint_Stigma_Spirit_Stone.png/revision/latest?cb=20180329023046" alt="Etc Faint Stigma Spirit Stone" width={22} height={21} />[Faint Stigma Spirit Stone] which are used to create <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Etc_Stigma_Coin.png/revision/latest?cb=20160926034615" alt="Etc Stigma Coin" width={27} height={26} /> [Stigma Coins] to buy for <img src="https://maplestory.io/api/GMS/220/item/1004422/icon" alt="Eqp AbsoLab Knight Helm" width={34} height={28} /> <img src="https://maplestory.io/api/GMS/220/item/1052882/icon" alt="Eqp AbsoLab Knight Suit" width={26} height={32} /> <img src="https://maplestory.io/api/GMS/220/item/1152174/icon" alt="Eqp AbsoLab Knight Shoulder" width={34} height={33} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Eqp_AbsoLab_Saber.png/revision/latest?cb=20160719054959" alt="Eqp AbsoLab Saber" width={33} height={33} /> [<em>(Hat/Overall/Shoulder/Weapon)</em> AbsoLab Gear]
                     <ul>
@@ -1959,9 +1967,9 @@ function ProgressionGuide() {
                 <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain </strong>- Pre-quests to unlock access to Weekly Quests in the Dark World Tree</li>
                 <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- Pre-quests to unlocking access to the boss Akechi Mitsuhide</li>
             </ul>
-            <h4>Theme Dungeons:</h4>
-            <p>Theme Dungeons labeled in orange are recommended, in green are optional, in white are skippable</p>
-            <p><strong>[Note]</strong>: I recommend doing the Lv. 30 Theme Dungeons because completing 2 and a half theme dungeons is enough to reach Lv. 60 to complete your 3rd Job Advancement. Theme Dungeons between Lv. 60 - 120 are completely optional (except for Lion King's Castle) as grinding is much faster and less tedious at these levels. They can be done if you dislike grinding but you will not gain as many levels compared to Lv. 30 - 60</p>
+            <h4>Theme Dungeon Starting Quests:</h4>
+            <p>Quests labeled in orange are recommended, in green are optional, in white are skippable</p>
+            <p>The Lv. 30 Theme Dungeons are recommended as completing 2 and a half theme dungeons is enough to reach Lv. 60 to complete your 3rd Job Advancement. Theme Dungeons between Lv. 60 - 120 are completely optional (except for Lion King's Castle) as grinding is much faster and less tedious at these levels. They can be done if you dislike grinding but you will not gain as many levels compared to Lv. 30 - 60</p>
             <ul>
                 <li><strong style={{color: '#ff6600'}}>(Lv. 30) [Riena Strait] Get it Strait</strong> - Theme Dungeon, provides good EXP for Lv. 30 - 59 with scaling monster levels
                 <ul>
