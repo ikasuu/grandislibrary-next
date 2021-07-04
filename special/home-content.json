@@ -62,6 +62,13 @@
     ],
     "upcoming": [
         {
+            "title": "Maple LIVE!",
+            "image": "/home-thumbnail/maple-live.jpg",
+            "alt": "Maple LIVE!",
+            "link": "https://orangemushroom.net/2021/06/17/kms-ver-1-2-349-maple-live/",
+            "subtitle": "June 17, 2021"
+        },
+        {
             "title": "18th Anniversary: Blooming Forest",
             "image": "/home-thumbnail/kms-18th-anniversary.jpg",
             "alt": "18th Anniversary: Blooming Forest",
@@ -144,24 +151,9 @@
     ],
     "popularClasses": [
         {
-            "alt": "Hayato",
-            "class": "hayato",
-            "path": "sengoku/hayato"
-        },
-        {
-            "alt": "Shadower",
-            "class": "shadower",
-            "path": "explorers/shadower"
-        },
-        {
             "alt": "Adele",
             "class": "adele",
             "path": "flora/adele"
-        },
-        {
-            "alt": "Demon Slayer",
-            "class": "demon-slayer",
-            "path": "resistance/demon-slayer"
         },
         {
             "alt": "Hoyoung",
@@ -169,19 +161,19 @@
             "path": "other/hoyoung"
         },
         {
-            "alt": "Kanna",
-            "class": "kanna",
-            "path": "sengoku/kanna"
+            "alt": "Demon Slayer",
+            "class": "demon-slayer",
+            "path": "resistance/demon-slayer"
         },
         {
-            "alt": "Dual Blade",
-            "class": "dual-blade",
-            "path": "explorers/dual-blade"
+            "alt": "Demon Avenger",
+            "class": "demon-avenger",
+            "path": "resistance/demon-avenger"
         },
         {
-            "alt": "Hero",
-            "class": "hero",
-            "path": "explorers/hero"
+            "alt": "Night Walker",
+            "class": "night-walker",
+            "path": "cygnus-knights/night-walker"
         },
         {
             "alt": "Night Lord",
@@ -189,9 +181,24 @@
             "path": "explorers/night-lord"
         },
         {
-            "alt": "Dawn Warrior",
-            "class": "dawn-warrior",
-            "path": "cygnus-knights/dawn-warrior"
+            "alt": "Shadower",
+            "class": "shadower",
+            "path": "explorers/shadower"
+        },
+        {
+            "alt": "Hayato",
+            "class": "hayato",
+            "path": "sengoku/hayato"
+        },
+        {
+            "alt": "Kanna",
+            "class": "kanna",
+            "path": "sengoku/kanna"
+        },
+        {
+            "alt": "Arch Mage (F/P)",
+            "class": "arch-mage-fire-poison",
+            "path": "explorers/arch-mage-fire-poison"
         }
     ]
 }
