@@ -1,6 +1,11 @@
 {
     "featured": [
         {
+            "image": "/home-thumbnail/kain-overview.jpg",
+            "alt": "Kain Class Overview",
+            "link": "/nova/kain"
+        },
+        {
             "image": "https://i.imgur.com/vWBaX8i.jpg",
             "alt": "Progression Guide",
             "link": "/content/progression-guide"
