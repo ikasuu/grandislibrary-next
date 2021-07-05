@@ -193,7 +193,7 @@ export const commonFifth = {
         "animations": ["https://media0.giphy.com/media/ZlMeLcuyoa4oW2el4Z/giphy.gif"],
         "desc": "Transforms Phoenix, Frosprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Freezer.png/revision/latest?cb=20110503111203' alt='' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Shadow_Raven.png/revision/latest?cb=20190616015333' alt='' /> is active"
+            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='/class-icons/marksman/frostprey.png' alt='Skill Frostprey' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Shadow_Raven.png/revision/latest?cb=20190616015333' alt='' /> is active"
         ]
     },
     expThief: {
