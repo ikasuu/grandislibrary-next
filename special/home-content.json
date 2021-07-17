@@ -23,6 +23,20 @@
     ],
     "recent": [
         {
+            "title": "v.224 Update Preview",
+            "image": "/home-thumbnail/neo-lights-wrath.jpg",
+            "alt": "v.224 Update Preview",
+            "link": "https://maplestory.nexon.net/news/67946/v-224-neo-light-s-wrath-update-preview",
+            "subtitle": "July 14th, 2021"
+        },
+        {
+            "title": "NEO Tera Burning + Burning World",
+            "image": "/home-thumbnail/neo-burning.jpg",
+            "alt": "NEO Tera Burning + Burning World",
+            "link": "https://maplestory.nexon.net/news/67221/power-level-with-tera-burning-plus-and-burning-world-events",
+            "subtitle": "June 9th, 2021"
+        },
+        {
             "title": "NEO Update Patch Notes",
             "image": "/home-thumbnail/gms-neo.jpg",
             "alt": "NEO Update Patch Notes",
@@ -49,23 +63,16 @@
             "alt": "Spring Blossoms Update Preview",
             "link": "https://maplestory.nexon.net/news/65824/v-221-spring-blossoms-patch-notes",
             "subtitle": "March 9th, 2021"
-        },
-        {
-            "title": "Bonus Stat Generation Issue Compensation",
-            "image": "https://i.imgur.com/TOjVlq9.jpg",
-            "alt": "Bonus Stat Generation Issue Compensation",
-            "link": "https://maplestory.nexon.net/news/65947/update-on-bonus-stat-generation-issue-compensation",
-            "subtitle": "February 26, 2021"
-        },
-        {
-            "title": "Bonus Stat Generation Issue",
-            "image": "https://i.imgur.com/TOjVlq9.jpg",
-            "alt": "Bonus Stat Generation Issue",
-            "link": "https://maplestory.nexon.net/news/65368/bonus-stat-generation-issue",
-            "subtitle": "February 23, 2020"
         }
     ],
     "upcoming": [
+        {
+            "title": "Maple LIVE: New Class Lara",
+            "image": "/home-thumbnail/lara.jpg",
+            "alt": "Maple LIVE: New Class Lara",
+            "link": "https://orangemushroom.net/2021/07/14/kms-ver-1-2-351-maple-live-romantic-geomancer-lara/",
+            "subtitle": "July 14, 2021"
+        },
         {
             "title": "Maple LIVE!",
             "image": "/home-thumbnail/maple-live.jpg",
