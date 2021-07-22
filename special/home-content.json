@@ -23,11 +23,18 @@
     ],
     "recent": [
         {
-            "title": "v.224 Update Preview",
-            "image": "/home-thumbnail/neo-lights-wrath.jpg",
-            "alt": "v.224 Update Preview",
-            "link": "https://maplestory.nexon.net/news/67946/v-224-neo-light-s-wrath-update-preview",
-            "subtitle": "July 14th, 2021"
+            "title": "Mark Your Miracle Time Event",
+            "image": "/home-thumbnail/miracle-time.jpg",
+            "alt": "Mark Your Miracle Time Event",
+            "link": "https://maplestory.nexon.net/news/67983/mark-your-miracle-time-event",
+            "subtitle": "July 21st, 2021"
+        },
+        {
+            "title": "v.224 Patch Notes",
+            "image": "/home-thumbnail/lights-wrath-notes.jpg",
+            "alt": "v.224 Patch Notes",
+            "link": "https://maplestory.nexon.net/news/67904/v-224-neo-light-s-wrath-patch-notes",
+            "subtitle": "July 21st, 2021"
         },
         {
             "title": "NEO Tera Burning + Burning World",
@@ -49,20 +56,6 @@
             "alt": "Prepare for NEO Maple Events",
             "link": "https://maplestory.nexon.net/news/67023/prepare-for-summer-with-the-neo-maple-events",
             "subtitle": "May 26th, 2021"
-        },
-        {
-            "title": "16th Anniversary: Hotel Maple Patch Notes",
-            "image": "/home-thumbnail/gms-16th-anniversary.jpg",
-            "alt": "16th Anniversary: Hotel Maple Patch Notes",
-            "link": "https://maplestory.nexon.net/news/66516/v-222-16th-anniversary-hotel-maple-patch-notes",
-            "subtitle": "April 20th, 2021"
-        },
-        {
-            "title": "Spring Blossoms Patch Notes",
-            "image": "https://i.imgur.com/DY0gTTm.jpg",
-            "alt": "Spring Blossoms Update Preview",
-            "link": "https://maplestory.nexon.net/news/65824/v-221-spring-blossoms-patch-notes",
-            "subtitle": "March 9th, 2021"
         }
     ],
     "upcoming": [
@@ -100,13 +93,6 @@
             "alt": "KMS ver. 1.2.344 – Job Balancing!",
             "link": "https://orangemushroom.net/2021/02/24/kms-ver-1-2-344-job-balancing/",
             "subtitle": "February 18, 2021"
-        },
-        {
-            "title": "Yeti's Debut!",
-            "image": "https://i.imgur.com/ZTGpZiA.png",
-            "alt": "KMS ver. 1.2.340 – Yeti’s Debut!",
-            "link": "https://orangemushroom.net/2020/11/18/kms-ver-1-2-340-yetis-debut/",
-            "subtitle": "November 18, 2020"
         },
         {
             "title": "Halloween Events",
