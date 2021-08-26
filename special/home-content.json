@@ -23,11 +23,18 @@
     ],
     "recent": [
         {
-            "title": "Mark Your Miracle Time Event",
+            "title": "Goo Island Getaway Patch Notes",
+            "image": "/home-thumbnail/goo-island.jpg",
+            "alt": "Goo Island Getaway Patch Notes",
+            "link": "https://maplestory.nexon.net/news/68486/v-225-goo-island-getaway-patch-notes",
+            "subtitle": "August 24, 2021"
+        },
+        {
+            "title": "Mark Your Miracle Time Event (EVENT ENDED)",
             "image": "/home-thumbnail/miracle-time.jpg",
             "alt": "Mark Your Miracle Time Event",
             "link": "https://maplestory.nexon.net/news/67983/mark-your-miracle-time-event",
-            "subtitle": "July 21st, 2021"
+            "subtitle": "July 21, 2021"
         },
         {
             "title": "v.224 Patch Notes",
@@ -49,16 +56,16 @@
             "alt": "NEO Update Patch Notes",
             "link": "https://maplestory.nexon.net/news/67135/v-223-neo-darkness-ascending-patch-notes",
             "subtitle": "June 8th, 2021"
-        },
-        {
-            "title": "Prepare for NEO Maple Events",
-            "image": "/home-thumbnail/neo-maple-events.jpg",
-            "alt": "Prepare for NEO Maple Events",
-            "link": "https://maplestory.nexon.net/news/67023/prepare-for-summer-with-the-neo-maple-events",
-            "subtitle": "May 26th, 2021"
         }
     ],
     "upcoming": [
+        {
+            "title": "Maple LIVE: New Boss Guardian Angel Slime",
+            "image": "/home-thumbnail/guardian-angel-slime.jpg",
+            "alt": "Maple LIVE: New Boss Guardian Angel Slime",
+            "link": "https://orangemushroom.net/2021/08/11/kms-ver-1-2-352-maple-live-guardian-angel-slime/",
+            "subtitle": "August 11, 2021"
+        },
         {
             "title": "Maple LIVE: New Class Lara",
             "image": "/home-thumbnail/lara.jpg",
@@ -154,19 +161,9 @@
             "path": "flora/adele"
         },
         {
-            "alt": "Hoyoung",
-            "class": "hoyoung",
-            "path": "other/hoyoung"
-        },
-        {
-            "alt": "Demon Slayer",
-            "class": "demon-slayer",
-            "path": "resistance/demon-slayer"
-        },
-        {
-            "alt": "Demon Avenger",
-            "class": "demon-avenger",
-            "path": "resistance/demon-avenger"
+            "alt": "Arch Mage (F/P)",
+            "class": "arch-mage-fire-poison",
+            "path": "explorers/arch-mage-fire-poison"
         },
         {
             "alt": "Night Walker",
@@ -174,19 +171,24 @@
             "path": "cygnus-knights/night-walker"
         },
         {
+            "alt": "Wind Archer",
+            "class": "wind-archer",
+            "path": "cygnus-knights/wind-archer"
+        },
+        {
+            "alt": "Demon Slayer",
+            "class": "demon-slayer",
+            "path": "resistance/demon-slayer"
+        },
+        {
+            "alt": "Dawn Warrior",
+            "class": "dawn-warrior",
+            "path": "cygnus-knights/dawn-warrior"
+        },
+        {
             "alt": "Night Lord",
             "class": "night-lord",
             "path": "explorers/night-lord"
-        },
-        {
-            "alt": "Shadower",
-            "class": "shadower",
-            "path": "explorers/shadower"
-        },
-        {
-            "alt": "Hayato",
-            "class": "hayato",
-            "path": "sengoku/hayato"
         },
         {
             "alt": "Kanna",
@@ -194,9 +196,14 @@
             "path": "sengoku/kanna"
         },
         {
-            "alt": "Arch Mage (F/P)",
-            "class": "arch-mage-fire-poison",
-            "path": "explorers/arch-mage-fire-poison"
+            "alt": "Dual Blade",
+            "class": "dual-blade",
+            "path": "explorers/dual-blade"
+        },
+        {
+            "alt": "Shadower",
+            "class": "shadower",
+            "path": "explorers/shadower"
         }
     ]
 }
