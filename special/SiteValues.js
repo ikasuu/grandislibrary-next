@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 223; 
-export const versionName = "Neo Update"
+export const version = 225; 
+export const versionName = "Goo Island Getaway Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
@@ -723,6 +723,15 @@ export const linkSkills = {
         "desc": "",
         "details": [
             "Useful for TRAINING characters pre-200 because of increased SURVIVABILITY"
+        ]
+    },
+    kain: {
+        "id": 60030241,
+        "icons": ["https://i.imgur.com/8ZnGQnN.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for INCREASING DAMAGE"
         ]
     },
     hayato: {

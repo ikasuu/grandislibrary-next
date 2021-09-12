@@ -39,6 +39,7 @@ function BossMatchmaking() {
           <li><Link smooth href="#verushilla" scroll>Verus Hilla</Link></li>
           <li><Link smooth href="#darknell" scroll>Darknell</Link></li>
           <li><Link smooth href="#blackmage" scroll>Black Mage</Link></li>
+          <li><Link smooth href="#seren" scroll>Seren</Link></li>
           <li><Link smooth href="#ranmaru" scroll>Ranmaru</Link></li>
           <li><Link smooth href="#princessno" scroll>Princess No</Link></li>
           <li><Link smooth href="#will" scroll>Will</Link></li>
@@ -440,6 +441,15 @@ function BossMatchmaking() {
             </li>
             <li><strong>Can clear</strong>: Monthly</li>
             <li><strong>Location</strong>: <a href="http://Limina: Giant's Heart" target="_blank" rel="noreferrer noopener">Limina: Giant's Heart</a></li>
+          </ul>
+          <div><Link smooth href="#top" scroll>Go to top</Link></div>
+          <h2 id="seren"><img src="https://maplestory.io/api/KMS/348/map/410000500/icon" alt="MapIcon Cernium" /> Seren</h2>
+          <p><strong>[Hard Lv. 265+ 150SacF+]</strong></p>
+          <p>You must complete the Burning Cernium storyline and to unlock access to Seren</p>
+          <ul>
+            <li><strong>Main Rewards: </strong><strong><img className="transparent" src="https://maplestory.io/api/GMS/225/item/1190555/icon?resize=1" alt="https://maplestory.io/api/GMS/225/item/1190555/icon?resize=1" /></strong> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage:_Warrior" target="_blank" rel="noopener">[Emblem]</a>, <img src="https://maplestory.io/api/GMS/225/item/2632972/icon" data-v-e6b15fb6="true" /> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Use_Power_Elixir.png/revision/latest?cb=20151109020354" alt="Use Power Elixir" width={32} height={31} /> [Power Elixir], <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Use_Rebirth_Flame_Lv._150.png/revision/latest?cb=20180414204510" alt="Use Rebirth Flame Lv. 150" width={27} height={33} /> [Lv. 150 Rebirth Flame], <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f6/Use_Occult_Cube.png/revision/latest?cb=20160830185430" alt="Use Occult Cube" width={29} height={29} /> [Occult Cube], <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Etc_Intense_Power_Crystal.png/revision/latest?cb=20171201210059" alt="Etc Intense Power Crystal" width={32} height={38} /> [Intense Power Crystal], <img src="https://vignette.wikia.nocookie.net/maplestory/images/d/da/Etc_Crusader_Coins.png/revision/latest?cb=20170331044758" alt="Etc Crusader Coins" width={27} height={25} /> [Crusader Coins]</li>
+            <li><strong>Can clear</strong>: Weekly</li>
+            <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/Palace_Main_Hall" target="_blank" rel="noreferrer noopener">Cernium: Palace Main Hall</a></li>
           </ul>
           <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="ranmaru"><img src="https://vignette.wikia.nocookie.net/maplestory/images/9/94/MapIcon_Ranmaru.png/revision/latest?cb=20150105042228" alt="MapIcon Ranmaru" width="38" height="38"/> Ranmaru</h2>

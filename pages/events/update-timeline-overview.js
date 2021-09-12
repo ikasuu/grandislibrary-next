@@ -88,6 +88,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#moonlight-magic">Moonlight Magic</Link></li>
                 <li><Link href="#hotel-maple">Hotel Maple</Link></li>
                 <li><Link href="#neo">Neo</Link></li>
+                <li><Link href="#goo-island">Goo Island Getaway</Link></li>
             </ul>
             <h2 id="bang">Big Bang Update - Dec 2010</h2>
             <BigBang/>
@@ -301,6 +302,9 @@ function UpdateTimelineOverview() {
             <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="neo">Neo Update - June 2021</h2>
             <Neo/>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
+            <h2 id="goo-island">Goo Island Getaway Update - Aug 2021</h2>
+            <GooIsland/>
         </EventPage>
     )
 }
@@ -1307,6 +1311,21 @@ function Glory() {
     )
 };
 
+function GooIsland() {
+    return (
+        <LazyLoad height={200} offset={100}>
+            <img className="repository-image" src="https://nxcache.nexon.net/cms/2021/q3/1667/1100x225-maplestory-goo-island-getaway-mmorpg-pn.jpg" alt="Goo Island Getaway"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/68486/v-225-goo-island-getaway-patch-notes"/></p>
+            </div>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li><img src="https://maplestory.io/api/GMS/224/mob/8144008/icon" alt="Ganapati"/> <img src="https://maplestory.io/api/GMS/225/mob/8144008/icon" alt="Stone Goblin Guardian" />Ganapati has been replaced with Stone Goblin Guardian</li>
+            </ul>
+        </LazyLoad>
+    )
+};
+
 function GrandAthenaeum() {
     return (
         <LazyLoad height={200} offset={100}>
@@ -1919,21 +1938,16 @@ function Neo(){
             <Video src="https://www.youtube.com/embed/EaSiggfQ2lM" title="NEO"/>
             <div className="repository-md-container">
                 <p><TabLink url="https://maplestory.nexon.net/news/67135/v-223-neo-darkness-ascending-patch-notes"/></p>
+                <p><TabLink url="https://maplestory.nexon.net/news/67904/v-224-neo-light-s-wrath-patch-notes"/></p>
             </div>
             <h3>New Content</h3>
             <ul>
-                <li>
-                    <strong>New class, <a href="https://maplestory.fandom.com/wiki/Kain" target="_blank" rel="noopener">Kain</a></strong>
-                </li>
-                <li>
-                    New area, <img src="https://maplestory.io/api/KMS/348/map/410000401/icon" alt="MapIcon Toolen City" /> <a href="https://maplestory.fandom.com/wiki/Category:Toolen_City" target="_blank" rel="noopener">Toolen City</a>
-                </li>
-                <li>
-                    <strong>New area, <img src="https://maplestory.io/api/KMS/348/map/410000500/icon" alt="MapIcon Cernium"/> <a href="https://maplestory.fandom.com/wiki/Category:Cernium" target="_blank" rel="noopener">Cernium + Burning Cernium</a></strong>
-                </li>
-                <li>
-                    <strong>New Symbol Force, <img src="https://maplestory.io/api/KMST/1119/item/1713000/icon" alt="Eqp Sacred Force"/> <a href="https://maplestory.fandom.com/wiki/Category:Sacred_Symbols" target="_blank" rel="noopener">Sacred Force</a></strong>
-                </li>
+                <li><strong>New class, <a href="https://maplestory.fandom.com/wiki/Kain" target="_blank" rel="noopener">Kain</a></strong></li>
+                <li><strong><img src="https://maplestory.io/api/GMS/225/item/2881192/icon" data-v-e6b15fb6 /> Morass and <img src="https://maplestory.io/api/GMS/225/item/2881182/icon" data-v-e6b15fb6 /> Esfera Familiar and Badges have been added</strong></li>
+                <li>New area, <img src="https://maplestory.io/api/KMS/348/map/410000401/icon" alt="MapIcon Toolen City" /> <a href="https://maplestory.fandom.com/wiki/Category:Toolen_City" target="_blank" rel="noopener">Toolen City</a></li>
+                <li><strong>New area, <img src="https://maplestory.io/api/KMS/348/map/410000500/icon" alt="MapIcon Cernium" /> <a href="https://maplestory.fandom.com/wiki/Category:Cernium" target="_blank" rel="noopener">Cernium + Burning Cernium</a></strong></li>
+                <li><strong>New area, <img src="https://maplestory.io/api/GMS/225/map/410003000/icon" data-v-e6b15fb6="true" /> <a href="https://maplestory.fandom.com/wiki/Category:Hotel_Arcus" target="_blank" rel="noopener">Hotel Arcus</a></strong></li>
+                <li><strong>New Symbol Force, <img src="https://maplestory.io/api/KMST/1119/item/1713000/icon" alt="Eqp Sacred Force" /><img src="https://maplestory.io/api/GMS/225/item/1713001/icon" data-v-e6b15fb6="true" /> <a href="https://maplestory.fandom.com/wiki/Category:Sacred_Symbols" target="_blank" rel="noopener">Sacred Force</a></strong></li>
             </ul>
             <h3>New Features + Changes</h3>
             <ul>
@@ -1942,49 +1956,68 @@ function Neo(){
                 <li><strong>Damage cap increases to 150 billion</strong></li>
                 <li><strong>Meso cap increased to 100 billion</strong></li>
                 <li><strong>Required EXP from Lv. 210 to 249 has been reduced</strong></li>
-                <li>
-                    <strong>Arcane River Quest improvements</strong>
+                <li><strong>PIC System has been removed</strong></li>
+                <li><strong>Legion Coin Shop has been modified</strong>
+                <ul>
+                    <li>The following items have been removed:
                     <ul>
-                        <li>The amount of Arcane Symbols obtained upon completing Vanishing Journey and Chu Chu Island daily quests has been increased</li>
-                        <li>Upon completing the Reverse City questline, the amount of Arcane Symbols rewarded for Vanishing Journey daily quests will be doubled</li>
-                        <li>Upon completing the Yum Yum Island questline, the amount of Arcane Symbols rewarded for Chu Chu Island daily quests will be doubled</li>
-                        <li>New daily quests have been added for Reverse City and Yum Yum Island for Vanishing Journey and Chu Chu Island once the questlines have been completed</li>
+                        <li><img src="https://maplestory.io/api/GMS/225/item/2049701/icon" data-v-e6b15fb6 /> [Epic Potential Scroll 50%], <img src="https://maplestory.io/api/GMS/225/item/2432083/icon" data-v-e6b15fb6 /> [Master Craftsman's Cube], <img src="https://maplestory.io/api/GMS/225/item/2048308/icon" data-v-e6b15fb6 /> [Bonus Potential Scroll 50%]</li>
                     </ul>
+                    </li>
+                    <li>The following items have been added:
+                    <ul>
+                        <li><img src="https://maplestory.io/api/GMS/225/item/2049700/icon" data-v-e6b15fb6 /> [Epic Potential Scroll 100%], <img src="https://maplestory.io/api/GMS/225/item/2711023/icon" data-v-e6b15fb6 /> [Karma Master Craftsman's Cube], <img src="https://maplestory.io/api/GMS/225/item/2048759/icon" data-v-e6b15fb6 /> [Karma Rejuvenating Flame], <img src="https://maplestory.io/api/GMS/225/item/2048757/icon" data-v-e6b15fb6 /> [Karma Eternal Rebirth Flame], <img src="https://maplestory.io/api/GMS/225/item/2048766/icon" data-v-e6b15fb6 /> [Karma Black Rebirth Flame], <img src="https://maplestory.io/api/GMS/225/item/2048338/icon" data-v-e6b15fb6 /> [Bonus Potential Scroll 100%]</li>
+                        <li>Karma items can only be used on untradable items</li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><strong>Starforce Enhancement and Spell Tracing animation times have been shortened</strong></li>
+                <li>Tradeability of Secondary Weapons for Mechanic, Demon Avenger, Demon Slayer, and Mihile have been updated</li>
+                <li>Explorer classes now receive their Emblems when they reach Lv. 60 and Lv. 100 via a quest called "Explorer's Token"</li>
+                <li><strong>Reboot World Improvements</strong>
+                <ul>
+                    <li><img src="https://maplestory.io/api/GMS/225/item/4001878/icon" data-v-e6b15fb6 /><img src="https://maplestory.io/api/GMS/225/item/4001889/icon" data-v-e6b15fb6 /> Droplet Stones can now be traded and be exchanged for one another</li>
+                </ul>
+                </li>
+                <li><strong>Arcane River Quest improvements</strong>
+                <ul>
+                    <li>The amount of Arcane Symbols obtained upon completing Vanishing Journey and Chu Chu Island daily quests has been increased</li>
+                    <li>Upon completing the Reverse City questline, the amount of Arcane Symbols rewarded for Vanishing Journey daily quests will be doubled</li>
+                    <li>Upon completing the Yum Yum Island questline, the amount of Arcane Symbols rewarded for Chu Chu Island daily quests will be doubled</li>
+                    <li>New daily quests have been added for Reverse City and Yum Yum Island for Vanishing Journey and Chu Chu Island once the questlines have been completed</li>
+                </ul>
                 </li>
                 <li>Gloom (Chaos), Darknell (Hard), Verus Hilla, and Black Mage now drop Arcane Umbra equipment when defeated</li>
-                <li>
-                    Death Penalty changes
-                    <ul>
-                        <li>EXP is no longer lost when dying</li>
-                        <li>Upon dying, characters will now receive a debuff that reduced EXP obtained and drop rate</li>
-                        <li>Safety Charms now immediately remove the debuff</li>
-                    </ul>
+                <li>Death Penalty changes
+                <ul>
+                    <li>EXP is no longer lost when dying</li>
+                    <li>Upon dying, characters will now receive a debuff that reduced EXP obtained and drop rate</li>
+                    <li>Safety Charms now immediately remove the debuff</li>
+                </ul>
                 </li>
-                <li>
-                    Monster Park improvements
-                    <ul>
-                        <li>EXP for Vanishing Journey has been increased</li>
-                        <li>Chu Chu Island Skywhale maps have been simplified</li>
-                        <li>Lachelein stage has been added for characters that have completed the Lachelein questline</li>
-                    </ul>
+                <li>Monster Park improvements
+                <ul>
+                    <li>EXP for Vanishing Journey has been increased</li>
+                    <li>Chu Chu Island Skywhale maps have been simplified</li>
+                    <li>Lachelein stage has been added for characters that have completed the Lachelein questline</li>
+                </ul>
                 </li>
-                <li>
-                    Boss Matchmaking changes
-                    <ul>
-                        <li><strong>Players can now directly teleport to a boss without needing to be matched successfully with another player</strong></li>
-                        <li>Form Party buff has been removed</li>
-                    </ul>
+                <li>Boss Matchmaking changes
+                <ul>
+                    <li><strong>Players can now directly teleport to a boss without needing to be matched successfully with another player</strong></li>
+                    <li>Form Party buff has been removed</li>
+                </ul>
                 </li>
                 <li><strong>During weekly and monthly bosses, pets now only pick up items rewarded to individual players</strong></li>
                 <li>NPC Collector can now be accessed through the Quick Move UI</li>
-                <li>
-                    Meso Market changes
-                    <ul>
-                        <li><strong>Trades are now shared between characters within the same world</strong></li>
-                        <li>Listing, Cancelling, and Collecting has been changed to "per world"</li>
-                        <li>Meso Market daily list count has been increased from 5 to 20</li>
-                        <li>Trade fee discount and additional meso/Maple Point distribution upon successful trade has been removed</li>
-                    </ul>
+                <li>Meso Market changes
+                <ul>
+                    <li><strong>Trades are now shared between characters within the same world</strong></li>
+                    <li>Listing, Cancelling, and Collecting has been changed to "per world"</li>
+                    <li>Meso Market daily list count has been increased from 5 to 20</li>
+                    <li>Trade fee discount and additional meso/Maple Point distribution upon successful trade has been removed</li>
+                </ul>
                 </li>
                 <li>Mu Gong's Soul Shard has been added to the Mu Lung Dojo Point Shop</li>
                 <li>Pets that are expired will display as red in the inventory</li>
@@ -1993,13 +2026,12 @@ function Neo(){
                 <li>Players can now move to Cash Shop or different channels during boss entry waiting lobbies for Lucid, Verus Hilla, and Darknell</li>
                 <li>Character skin information can now be checked in the Cash tab of the Equipment Inventory UI</li>
                 <li>Clean Slate Scroll will be replaced with Pure Clean Slate Scroll (for consistent naming conventions)</li>
-                <li>
-                    <strong>V Matrix QoL changes</strong>
-                    <ul>
-                        <li>The color and effect of a selected node is now distinguished from newly obtained nodes</li>
-                        <li>Node lock function has been added</li>
-                        <li>Select All feature has been added for node disassembling</li>
-                    </ul>
+                <li><strong>V Matrix QoL changes</strong>
+                <ul>
+                    <li>The color and effect of a selected node is now distinguished from newly obtained nodes</li>
+                    <li>Node lock function has been added</li>
+                    <li>Select All feature has been added for node disassembling</li>
+                </ul>
                 </li>
             </ul>
         </LazyLoad>

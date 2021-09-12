@@ -55,7 +55,8 @@ function Footer() {
                             <FooterButton variant="link"><a href="https://twitter.com/MapleShinnie" target="_blank" rel="noreferrer noopener"><span className="twitter-button"/></a></FooterButton>
                             <FooterButton variant="link"><a href="https://www.youtube.com/channel/UCPiNjGVt9P04a80vEBid3rA" target="_blank" rel="noreferrer noopener"><span className="youtube-button"/></a></FooterButton>
                         </FooterButtonContainer>
-                        <FooterText>GMS Ver. {version} [{versionName}]</FooterText>
+                        {/* <FooterText>GMS Ver. {version} [{versionName}]</FooterText> */}
+                        <FooterText>GMS Ver. 226 [{versionName}]</FooterText>
                         <FooterDisclaimer>Grandis Library is a fan-made resource and is in no way affiliated with Nexon</FooterDisclaimer>
                     </FooterCol>
                     <FooterCol md>

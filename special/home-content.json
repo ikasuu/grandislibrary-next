@@ -41,24 +41,31 @@
             "image": "/home-thumbnail/lights-wrath-notes.jpg",
             "alt": "v.224 Patch Notes",
             "link": "https://maplestory.nexon.net/news/67904/v-224-neo-light-s-wrath-patch-notes",
-            "subtitle": "July 21st, 2021"
+            "subtitle": "July 21, 2021"
         },
         {
             "title": "NEO Tera Burning + Burning World",
             "image": "/home-thumbnail/neo-burning.jpg",
             "alt": "NEO Tera Burning + Burning World",
             "link": "https://maplestory.nexon.net/news/67221/power-level-with-tera-burning-plus-and-burning-world-events",
-            "subtitle": "June 9th, 2021"
+            "subtitle": "June 9, 2021"
         },
         {
             "title": "NEO Update Patch Notes",
             "image": "/home-thumbnail/gms-neo.jpg",
             "alt": "NEO Update Patch Notes",
             "link": "https://maplestory.nexon.net/news/67135/v-223-neo-darkness-ascending-patch-notes",
-            "subtitle": "June 8th, 2021"
+            "subtitle": "June 8, 2021"
         }
     ],
     "upcoming": [
+        {
+            "title": "Chu Chu Food Festival",
+            "image": "/home-thumbnail/chu-chu-food.jpg",
+            "alt": "Chu Chu Food Festival",
+            "link": "https://orangemushroom.net/2021/09/08/kms-ver-1-2-353-chu-chu-food-festival/",
+            "subtitle": "Sept 8, 2021"
+        },
         {
             "title": "Maple LIVE: New Boss Guardian Angel Slime",
             "image": "/home-thumbnail/guardian-angel-slime.jpg",
