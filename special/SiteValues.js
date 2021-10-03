@@ -4,7 +4,7 @@
 */
 
 //Latest version of GMS
-export const version = 225; 
+export const version = 226; 
 export const versionName = "Goo Island Getaway Update"
 
 export const loadingImage = "/loading.gif";
