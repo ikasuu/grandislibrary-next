@@ -60,6 +60,13 @@
     ],
     "upcoming": [
         {
+            "title": "64-bit Client",
+            "image": "/home-thumbnail/new-client.jpg",
+            "alt": "64-bit Client",
+            "link": "https://orangemushroom.net/2021/09/15/kms-ver-1-2-354-64-bit-client/",
+            "subtitle": "Sept 15, 2021"
+        },
+        {
             "title": "Chu Chu Food Festival",
             "image": "/home-thumbnail/chu-chu-food.jpg",
             "alt": "Chu Chu Food Festival",
@@ -168,9 +175,9 @@
             "path": "flora/adele"
         },
         {
-            "alt": "Arch Mage (F/P)",
-            "class": "arch-mage-fire-poison",
-            "path": "explorers/arch-mage-fire-poison"
+            "alt": "Dawn Warrior",
+            "class": "dawn-warrior",
+            "path": "cygnus-knights/dawn-warrior"
         },
         {
             "alt": "Night Walker",
@@ -183,24 +190,9 @@
             "path": "cygnus-knights/wind-archer"
         },
         {
-            "alt": "Demon Slayer",
-            "class": "demon-slayer",
-            "path": "resistance/demon-slayer"
-        },
-        {
-            "alt": "Dawn Warrior",
-            "class": "dawn-warrior",
-            "path": "cygnus-knights/dawn-warrior"
-        },
-        {
-            "alt": "Night Lord",
-            "class": "night-lord",
-            "path": "explorers/night-lord"
-        },
-        {
-            "alt": "Kanna",
-            "class": "kanna",
-            "path": "sengoku/kanna"
+            "alt": "Arch Mage (F/P)",
+            "class": "arch-mage-fire-poison",
+            "path": "explorers/arch-mage-fire-poison"
         },
         {
             "alt": "Dual Blade",
@@ -208,9 +200,24 @@
             "path": "explorers/dual-blade"
         },
         {
-            "alt": "Shadower",
-            "class": "shadower",
-            "path": "explorers/shadower"
+            "alt": "Hoyoung",
+            "class": "hoyoung",
+            "path": "other/hoyoung"
+        },
+        {
+            "alt": "Night Lord",
+            "class": "night-lord",
+            "path": "explorers/night-lord"
+        },
+        {
+            "alt": "Arch Mage (I/L)",
+            "class": "arch-mage-ice-lightning",
+            "path": "explorers/arch-mage-ice-lightning"
+        },
+        {
+            "alt": "Kanna",
+            "class": "kanna",
+            "path": "sengoku/kanna"
         }
     ]
 }
