@@ -23,6 +23,13 @@
     ],
     "recent": [
         {
+            "title": "MapleStory X Bugcat Capoo Preview",
+            "image": "/home-thumbnail/bugcat-capoo.jpg",
+            "alt": "MapleStory X Bugcat Capoo Preview",
+            "link": "https://maplestory.nexon.net/micro-site/bugcatcapoo",
+            "subtitle": "Sept 29, 2021"
+        },
+        {
             "title": "Goo Island Getaway Patch Notes",
             "image": "/home-thumbnail/goo-island.jpg",
             "alt": "Goo Island Getaway Patch Notes",
@@ -49,13 +56,6 @@
             "alt": "NEO Tera Burning + Burning World",
             "link": "https://maplestory.nexon.net/news/67221/power-level-with-tera-burning-plus-and-burning-world-events",
             "subtitle": "June 9, 2021"
-        },
-        {
-            "title": "NEO Update Patch Notes",
-            "image": "/home-thumbnail/gms-neo.jpg",
-            "alt": "NEO Update Patch Notes",
-            "link": "https://maplestory.nexon.net/news/67135/v-223-neo-darkness-ascending-patch-notes",
-            "subtitle": "June 8, 2021"
         }
     ],
     "upcoming": [
