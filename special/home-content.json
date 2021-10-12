@@ -6,12 +6,7 @@
             "link": "/nova/kain"
         },
         {
-            "image": "https://i.imgur.com/vWBaX8i.jpg",
-            "alt": "Progression Guide",
-            "link": "/content/progression-guide"
-        },
-        {
-            "image": "https://i.imgur.com/PMZtMf8.png",
+            "image": "/home-thumbnail/discord-invite.jpg",
             "alt": "Discord Invite",
             "link": "https://discord.gg/d4et8vt9kP"
         },
@@ -23,11 +18,18 @@
     ],
     "recent": [
         {
-            "title": "MapleStory X Bugcat Capoo Preview",
+            "title": "MapleStory Fest 2021 At Home coming November 13!",
+            "image": "/home-thumbnail/maplefest-2021.jpg",
+            "alt": "MapleStory Fest 2021 At Home coming November 13!",
+            "link": "https://maplestory.nexon.net/maplestoryfest",
+            "subtitle": "October 7, 2021"
+        },
+        {
+            "title": "MapleStory X Bugcat Capoo Patch Notes",
             "image": "/home-thumbnail/bugcat-capoo.jpg",
-            "alt": "MapleStory X Bugcat Capoo Preview",
-            "link": "https://maplestory.nexon.net/micro-site/bugcatcapoo",
-            "subtitle": "Sept 29, 2021"
+            "alt": "MapleStory X Bugcat Capoo Patch Notes",
+            "link": "https://maplestory.nexon.net/news/68219/v-227-maplestory-x-bugcat-capoo-patch-notes",
+            "subtitle": "October 5, 2021"
         },
         {
             "title": "Goo Island Getaway Patch Notes",
@@ -49,13 +51,6 @@
             "alt": "v.224 Patch Notes",
             "link": "https://maplestory.nexon.net/news/67904/v-224-neo-light-s-wrath-patch-notes",
             "subtitle": "July 21, 2021"
-        },
-        {
-            "title": "NEO Tera Burning + Burning World",
-            "image": "/home-thumbnail/neo-burning.jpg",
-            "alt": "NEO Tera Burning + Burning World",
-            "link": "https://maplestory.nexon.net/news/67221/power-level-with-tera-burning-plus-and-burning-world-events",
-            "subtitle": "June 9, 2021"
         }
     ],
     "upcoming": [
@@ -107,20 +102,6 @@
             "alt": "Yeti x Pink Bean World!",
             "link": "https://orangemushroom.net/2021/03/24/kms-ver-1-2-346-yeti-x-pink-bean-world/",
             "subtitle": "March 24, 2021"
-        },
-        {
-            "title": "Job Balances",
-            "image": "https://i.imgur.com/j8cjjF1.png",
-            "alt": "KMS ver. 1.2.344 – Job Balancing!",
-            "link": "https://orangemushroom.net/2021/02/24/kms-ver-1-2-344-job-balancing/",
-            "subtitle": "February 18, 2021"
-        },
-        {
-            "title": "Halloween Events",
-            "image": "https://i.imgur.com/7QRxoLk.png",
-            "alt": "KMS ver. 1.2.339 – Halloween, Haste & Return of the Legends!",
-            "link": "https://orangemushroom.net/2020/10/21/kms-ver-1-2-339-halloween-haste-return-of-the-legends/",
-            "subtitle": "October 21, 2020"
         }
     ],
     "popularContent": [
