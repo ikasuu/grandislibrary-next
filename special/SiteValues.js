@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 226; 
-export const versionName = "Goo Island Getaway Update"
+export const version = 227; 
+export const versionName = "Bugcat Capoo Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
@@ -35,7 +35,8 @@ export const classes = {
     nova: [["angelic-buster", "Angelic Buster"], ["kaiser", "Kaiser"], ["cadena", "Cadena"], ["kain", "Kain"]],
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"]],
-    other: [["hoyoung", "Hoyoung"], ["kinesis", "Kinesis"], ["zero", "Zero"], ["beast-tamer", "Beast Tamer"]]
+    other: [["kinesis", "Kinesis"], ["zero", "Zero"], ["beast-tamer", "Beast Tamer"]],
+    anima: [["hoyoung", "Hoyoung"]]
 }
 
 //Weapons for class overviews, contains icon path and formatted name

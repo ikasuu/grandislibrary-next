@@ -165,10 +165,10 @@ function PropertyBox({skills, classType}) {
           { skills.map( skill => 
               <NotableSkill key={skill.name} skill={skill}/>
           )}
-          <StyledHeaderFive>Class Type</StyledHeaderFive>
+          {/* <StyledHeaderFive>Class Type</StyledHeaderFive>
           <ul>
               {classType.map(it => <li key={it}>{it}</li>)}
-          </ul>
+          </ul> */}
       </div>
   );
 }

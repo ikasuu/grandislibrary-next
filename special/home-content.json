@@ -18,6 +18,13 @@
     ],
     "recent": [
         {
+            "title": "Marvel Machine Returns!",
+            "image": "/home-thumbnail/marvel-machine.jpg",
+            "alt": "Marvel Machine Returns!",
+            "link": "https://maplestory.nexon.net/news/69255/marvel-machine-returns",
+            "subtitle": "November 5, 2021"
+        },
+        {
             "title": "MapleStory Fest 2021 At Home coming November 13!",
             "image": "/home-thumbnail/maplefest-2021.jpg",
             "alt": "MapleStory Fest 2021 At Home coming November 13!",
@@ -43,13 +50,6 @@
             "image": "/home-thumbnail/miracle-time.jpg",
             "alt": "Mark Your Miracle Time Event",
             "link": "https://maplestory.nexon.net/news/67983/mark-your-miracle-time-event",
-            "subtitle": "July 21, 2021"
-        },
-        {
-            "title": "v.224 Patch Notes",
-            "image": "/home-thumbnail/lights-wrath-notes.jpg",
-            "alt": "v.224 Patch Notes",
-            "link": "https://maplestory.nexon.net/news/67904/v-224-neo-light-s-wrath-patch-notes",
             "subtitle": "July 21, 2021"
         }
     ],
@@ -151,54 +151,54 @@
     ],
     "popularClasses": [
         {
-            "alt": "Adele",
-            "class": "adele",
-            "path": "flora/adele"
-        },
-        {
-            "alt": "Dawn Warrior",
-            "class": "dawn-warrior",
-            "path": "cygnus-knights/dawn-warrior"
-        },
-        {
-            "alt": "Night Walker",
-            "class": "night-walker",
-            "path": "cygnus-knights/night-walker"
-        },
-        {
-            "alt": "Wind Archer",
-            "class": "wind-archer",
-            "path": "cygnus-knights/wind-archer"
-        },
-        {
-            "alt": "Arch Mage (F/P)",
-            "class": "arch-mage-fire-poison",
-            "path": "explorers/arch-mage-fire-poison"
-        },
-        {
-            "alt": "Dual Blade",
-            "class": "dual-blade",
-            "path": "explorers/dual-blade"
-        },
-        {
-            "alt": "Hoyoung",
-            "class": "hoyoung",
-            "path": "other/hoyoung"
-        },
-        {
-            "alt": "Night Lord",
-            "class": "night-lord",
-            "path": "explorers/night-lord"
-        },
-        {
-            "alt": "Arch Mage (I/L)",
-            "class": "arch-mage-ice-lightning",
-            "path": "explorers/arch-mage-ice-lightning"
-        },
-        {
             "alt": "Kanna",
             "class": "kanna",
             "path": "sengoku/kanna"
+        },
+        {
+            "alt": "Hayato",
+            "class": "hayato",
+            "path": "sengoku/hayato"
+        },
+        {
+            "alt": "Xenon",
+            "class": "xenon",
+            "path": "resistance/xenon"
+        },
+        {
+            "alt": "Wild Hunter",
+            "class": "wild-hunter",
+            "path": "resistance/wild-hunter"
+        },
+        {
+            "alt": "Mechanic",
+            "class": "mechanic",
+            "path": "resistance/mechanic"
+        },
+        {
+            "alt": "Demon Slayer",
+            "class": "demon-slayer",
+            "path": "resistance/demon-slayer"
+        },
+        {
+            "alt": "Demon Avenger",
+            "class": "demon-avenger",
+            "path": "resistance/demon-avenger"
+        },
+        {
+            "alt": "Blaster",
+            "class": "blaster",
+            "path": "resistance/blaster"
+        },
+        {
+            "alt": "Battle Mage",
+            "class": "battle-mage",
+            "path": "resistance/battle-mage"
+        },
+        {
+            "alt": "Zero",
+            "class": "zero",
+            "path": "other/zero"
         }
     ]
 }
