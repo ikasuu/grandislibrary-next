@@ -89,6 +89,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#hotel-maple">Hotel Maple</Link></li>
                 <li><Link href="#neo">Neo</Link></li>
                 <li><Link href="#goo-island">Goo Island Getaway</Link></li>
+                <li><Link href="#bugcat-capoo">Bugcat Capoo</Link></li>
             </ul>
             <h2 id="bang">Big Bang Update - Dec 2010</h2>
             <BigBang/>
@@ -305,6 +306,9 @@ function UpdateTimelineOverview() {
             <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="goo-island">Goo Island Getaway Update - Aug 2021</h2>
             <GooIsland/>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
+            <h2 id="bugcat-capoo">Bugcat Capoo Update - Oct 2021</h2>
+            <BugcatCapoo/>
         </EventPage>
     )
 }
@@ -923,6 +927,73 @@ function BlackMage() {
         </LazyLoad>
     )
 };
+
+function BugcatCapoo(){
+    return(
+        <LazyLoad height={200} offset={100}>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/68219/v-227-maplestory-x-bugcat-capoo-patch-notes"/></p>
+            </div>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li>Job Balances
+                    <ul>
+                        <li>Many classes receive value changes to skills and quality of life changes</li>
+                        <li>5th Job Skill Blink when pressed with Down Arrow Key allows you to float briefly in the air</li>
+                        <li>Pet Auto Buff can now be registered with skills with cooldowns</li>
+                        <li>
+                            <img src="https://grandislibrary.com/class-icons/explorers/bowmaster/bow-acceleration.png" /><img src="https://grandislibrary.com/class-icons/heroes/phantom/cane-acceleration.png" /> Several classes gain additional +1 attack
+                            speed and some Booster-type skills have been changed to passives
+                        </li>
+                        <li>
+                            <img src="https://grandislibrary.com/class-icons/cygnus-knights/cygnus-knights-will.png" /><img src="https://grandislibrary.com/class-icons/resistance/the-demons-will.png" /> New Hero's Will for classes that did not have one
+                            previously
+                        </li>
+                        <li>
+                            <img src="https://grandislibrary.com/class-icons/heroes/phantom/bad-luck-ward.png" /> Phantom's Bad Luck Ward Hyper Passives changed to
+                            <img src="https://grandislibrary.com/class-icons/heroes/phantom/impeccable-memory-iv.png" /> Impeccable Memory IV Hyper Passives
+                        </li>
+                        <li><img src="https://grandislibrary.com/class-icons/heroes/luminous/the-crossroads-of-destiny.png" /> The Crossroads of Destiny new skill added to Luminous to swap between Light and Dark Affinity</li>
+                        <li>
+                            <img src="https://grandislibrary.com/class-icons/explorers/dark-knight/accept-final-pact.png" /><img src="https://grandislibrary.com/class-icons/heroes/aran/adrenaline-rush-activate.png" /> New activation skills for Dark
+                            Knight and Aran
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Tower of Oz Improvements
+                    <ul>
+                        <li>Certain floors have been updated or given explanations</li>
+                        <li><strong>New Ring Activation Skill that will activate the effect of the currently equipped Oz rings</strong></li>
+                    </ul>
+                </li>
+                <li>
+                    Monster Life Improvements
+                    <ul>
+                        <li>The probability of special category monsters appearing upon combination has been modified according to the grade</li>
+                    </ul>
+                </li>
+                <li>
+                    Auction House Improvements
+                    <ul>
+                        <li>Added search options for additional options, upgrade count, and Scissors use count</li>
+                    </ul>
+                </li>
+                <li>
+                    Boss Improvements
+                    <ul>
+                        <li>Exit portals have been replaced with NPCs that must be clicked to exit</li>
+                        <li>Practice mode limit has been increased from 5 to 20 times per day</li>
+                        <li><strong>Reward Points collection has all been combined into one and can receive all at once</strong></li>
+                    </ul>
+                </li>
+                <li><strong>Inner Ability rank will no longer have a chance to decrease on a reroll</strong></li>
+                <li>Fairy Bros' Daily Gift rewards have been updated and can be claimed on any character upon defeating 300 monsters</li>
+                <li><strong>Pathfinder Open Advancement is now available</strong></li>
+            </ul>
+        </LazyLoad>
+    )
+}
 
 function Cardcaptor() {
     return (

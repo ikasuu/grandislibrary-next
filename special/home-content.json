@@ -18,6 +18,13 @@
     ],
     "recent": [
         {
+            "title": "On Air: Glimpse of Joy Patch Notes",
+            "image": "/home-thumbnail/glimpse-of-joy.jpg",
+            "alt": "On Air: Glimpse of Joy Patch Notes",
+            "link": "https://maplestory.nexon.net/news/70205/v-228-on-air-glimpse-of-joy-patch-notes",
+            "subtitle": "November 16, 2021"
+        },
+        {
             "title": "Marvel Machine Returns!",
             "image": "/home-thumbnail/marvel-machine.jpg",
             "alt": "Marvel Machine Returns!",
@@ -44,13 +51,6 @@
             "alt": "Goo Island Getaway Patch Notes",
             "link": "https://maplestory.nexon.net/news/68486/v-225-goo-island-getaway-patch-notes",
             "subtitle": "August 24, 2021"
-        },
-        {
-            "title": "Mark Your Miracle Time Event (EVENT ENDED)",
-            "image": "/home-thumbnail/miracle-time.jpg",
-            "alt": "Mark Your Miracle Time Event",
-            "link": "https://maplestory.nexon.net/news/67983/mark-your-miracle-time-event",
-            "subtitle": "July 21, 2021"
         }
     ],
     "upcoming": [
@@ -67,27 +67,6 @@
             "alt": "Chu Chu Food Festival",
             "link": "https://orangemushroom.net/2021/09/08/kms-ver-1-2-353-chu-chu-food-festival/",
             "subtitle": "Sept 8, 2021"
-        },
-        {
-            "title": "Maple LIVE: New Boss Guardian Angel Slime",
-            "image": "/home-thumbnail/guardian-angel-slime.jpg",
-            "alt": "Maple LIVE: New Boss Guardian Angel Slime",
-            "link": "https://orangemushroom.net/2021/08/11/kms-ver-1-2-352-maple-live-guardian-angel-slime/",
-            "subtitle": "August 11, 2021"
-        },
-        {
-            "title": "Maple LIVE: New Class Lara",
-            "image": "/home-thumbnail/lara.jpg",
-            "alt": "Maple LIVE: New Class Lara",
-            "link": "https://orangemushroom.net/2021/07/14/kms-ver-1-2-351-maple-live-romantic-geomancer-lara/",
-            "subtitle": "July 14, 2021"
-        },
-        {
-            "title": "Maple LIVE!",
-            "image": "/home-thumbnail/maple-live.jpg",
-            "alt": "Maple LIVE!",
-            "link": "https://orangemushroom.net/2021/06/17/kms-ver-1-2-349-maple-live/",
-            "subtitle": "June 17, 2021"
         },
         {
             "title": "18th Anniversary: Blooming Forest",
