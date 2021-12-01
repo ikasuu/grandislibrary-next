@@ -1,9 +1,9 @@
 {
     "featured": [
         {
-            "image": "/home-thumbnail/kain-overview.jpg",
-            "alt": "Kain Class Overview",
-            "link": "/nova/kain"
+            "image": "/home-thumbnail/lara-overview.jpg",
+            "alt": "Lara Class Overview",
+            "link": "/anima/lara"
         },
         {
             "image": "/home-thumbnail/discord-invite.jpg",
@@ -17,6 +17,13 @@
         }
     ],
     "recent": [
+        {
+            "title": "Play as the Earthseer Lara!",
+            "image": "/home-thumbnail/earthseer-lara.jpg",
+            "alt": "Play as the Earthseer Lara!",
+            "link": "https://maplestory.nexon.net/news/70510/play-as-the-earthseer-lara",
+            "subtitle": "November 30, 2021"
+        },
         {
             "title": "On Air: Glimpse of Joy Patch Notes",
             "image": "/home-thumbnail/glimpse-of-joy.jpg",
@@ -44,13 +51,6 @@
             "alt": "MapleStory X Bugcat Capoo Patch Notes",
             "link": "https://maplestory.nexon.net/news/68219/v-227-maplestory-x-bugcat-capoo-patch-notes",
             "subtitle": "October 5, 2021"
-        },
-        {
-            "title": "Goo Island Getaway Patch Notes",
-            "image": "/home-thumbnail/goo-island.jpg",
-            "alt": "Goo Island Getaway Patch Notes",
-            "link": "https://maplestory.nexon.net/news/68486/v-225-goo-island-getaway-patch-notes",
-            "subtitle": "August 24, 2021"
         }
     ],
     "upcoming": [
