@@ -363,7 +363,7 @@ export const commonFifth = {
         "name": "Lotus Flower",
         "shortDesc": "MP Cost: 15% of Max MP, Lotus Summon Duration: 1775 sec.\\nInvincible for 3.5 sec. upon revival.\\nCooldown: 400 sec. Skill Cooldown upon successful revival: -1425 sec.",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/lotus-flower.png"],
+        "icons": ["/class-icons/5th-job/lotus-flower.png"],
         "animations": ["https://media.giphy.com/media/SGdhCXQpAHwCb1Fe8U/giphy.gif"],
         "type": "Buff Revive",
         "desc": "When hit by a fatal attack, you will not die but instead heal back a percentage of your HP back",
