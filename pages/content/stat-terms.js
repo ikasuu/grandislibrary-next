@@ -10,7 +10,7 @@ function StatTerms() {
       <ContentPage>
          <Head>
          <title>Stat Terms | Grandis Library</title>
-         <meta content={"An explanation of each stat in the Character Stat UI and other special stats"} name="description"/>
+         <meta content={"An explanation of each stat in the Character Stat UI and other special stats such as EXP Rate"} name="description"/>
          </Head>
          <ContentTitle>Stat Terms</ContentTitle>
          <h2 id="top">Quick Move</h2>
