@@ -12,7 +12,7 @@ function LinkSkills() {
       <ContentPage className="repository-md-container">
         <Head>
             <title>Link Skill | Grandis Library</title>
-            <meta content={"An explanation of Link Skills and a list of all Link Skills and their Master Levels and effects"} name="description"/>
+            <meta content={"An explanation of Link Skills and a list of all Link Skills and their effects"} name="description"/>
         </Head>
         <ContentTitle>Link Skills</ContentTitle>
         <p><img className="repository-image" src="https://i.imgur.com/MuIiQA4.png" alt="Link Manager UI"/></p>
