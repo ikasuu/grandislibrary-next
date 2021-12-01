@@ -28,8 +28,8 @@ function SharedCashShopInventory() {
     return (
         <ContentPage>
             <Head>
-            <title>Shared Cash Shop Inventories | Grandis Library</title>
-                            <meta content={"A list of all classes that share Cash Shop inventories"} name="description"/>
+                <title>Shared Cash Shop Inventories | Grandis Library</title>
+                <meta content={"A list of all classes that share Cash Shop inventories"} name="description"/>
             </Head>
             <ContentTitle>Shared Cash Shop Inventories</ContentTitle>
             <img src="https://i.imgur.com/r9iQ8pR.png" alt="Cash Shop Inventory"/>
