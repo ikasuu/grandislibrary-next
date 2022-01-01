@@ -485,7 +485,7 @@ function ContentGuide() {
     </ul>
     <hr/>
     <h2>Credits:</h2>
-    <p > <a href="https://www.youtube.com/watch?v=OUXyJ-J7P0w&amp;t">https://www.youtube.com/watch?v=OUXyJ-J7P0w&amp;t</a><br /> <a href="https://www.youtube.com/watch?v=_3zL6TAOSBY&amp;t">https://www.youtube.com/watch?v=_3zL6TAOSBY&amp;t</a><br /> <a href="https://www.youtube.com/watch?v=r4P89p2jfJY&amp;t=5664s">https://www.youtube.com/watch?v=r4P89p2jfJY&amp;t</a><br /> <a href="https://maplestory.fandom.com/wiki/MapleStory">https://maplestory.fandom.com/wiki/MapleStory</a><br /> <a href="https://maplestory.wiki/">https://maplestory.wiki/</a>
+    <p > <a href="https://www.youtube.com/watch?v=OUXyJ-J7P0w&amp;t">https://www.youtube.com/watch?v=OUXyJ-J7P0w&amp;t</a><br/> <a href="https://www.youtube.com/watch?v=_3zL6TAOSBY&amp;t">https://www.youtube.com/watch?v=_3zL6TAOSBY&amp;t</a><br /> <a href="https://www.youtube.com/watch?v=r4P89p2jfJY&amp;t=5664s">https://www.youtube.com/watch?v=r4P89p2jfJY&amp;t</a><br /> <a href="https://maplestory.fandom.com/wiki/MapleStory">https://maplestory.fandom.com/wiki/MapleStory</a><br /> <a href="https://maplestory.wiki/">https://maplestory.wiki/</a>
     </p>
   </ContentPage>
  );
