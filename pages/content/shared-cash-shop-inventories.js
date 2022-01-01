@@ -38,7 +38,7 @@ function SharedCashShopInventory() {
             <table>
                 <thead>
                 <tr>
-                    <th />
+                    <th/>
                     <th>Warrior</th>
                     <th>Magician</th>
                     <th>Archer</th>
