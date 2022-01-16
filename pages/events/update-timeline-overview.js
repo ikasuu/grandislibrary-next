@@ -90,6 +90,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#neo">Neo</Link></li>
                 <li><Link href="#goo-island">Goo Island Getaway</Link></li>
                 <li><Link href="#bugcat-capoo">Bugcat Capoo</Link></li>
+                <li><Link href="#on-air">On Air</Link></li>
             </ul>
             <h2 id="bang">Big Bang Update - Dec 2010</h2>
             <BigBang/>
@@ -309,6 +310,9 @@ function UpdateTimelineOverview() {
             <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="bugcat-capoo">Bugcat Capoo Update - Oct 2021</h2>
             <BugcatCapoo/>
+            <div><Link smooth href="#top" scroll>Go to top</Link></div>
+            <h2 id="on-air">On Air Update - Dec 2021</h2>
+            <OnAir/>
         </EventPage>
     )
 }
@@ -950,8 +954,7 @@ function BugcatCapoo(){
                             previously
                         </li>
                         <li>
-                            <img src="https://grandislibrary.com/class-icons/heroes/phantom/bad-luck-ward.png" /> Phantom's Bad Luck Ward Hyper Passives changed to
-                            <img src="https://grandislibrary.com/class-icons/heroes/phantom/impeccable-memory-iv.png" /> Impeccable Memory IV Hyper Passives
+                            <img src="https://grandislibrary.com/class-icons/heroes/phantom/bad-luck-ward.png" /> Phantom's Bad Luck Ward Hyper Passives changed to <img src="https://grandislibrary.com/class-icons/heroes/phantom/impeccable-memory-iv.png" /> Impeccable Memory IV Hyper Passives
                         </li>
                         <li><img src="https://grandislibrary.com/class-icons/heroes/luminous/the-crossroads-of-destiny.png" /> The Crossroads of Destiny new skill added to Luminous to swap between Light and Dark Affinity</li>
                         <li>
@@ -2205,6 +2208,95 @@ function Nova() {
         </LazyLoad>
     )
 };
+
+function OnAir() {
+    return(
+        <LazyLoad>
+            <div className="repository-md-container">
+                <img className="repository-image" src="https://nxcache.nexon.net/cms/2021/q4/1542/1100x225-maplestory-on-air-glimpse-of-joy-pn-mmorpg.jpg" alt="On Air"/>
+                <p><TabLink url="https://maplestory.nexon.net/news/70205/v-228-on-air-glimpse-of-joy-patch-notes"/></p>
+                <p><TabLink url="https://maplestory.nexon.net/news/70691/v-229-on-air-an-absolute-unit-patch-notes"/></p>
+            </div>
+            <h3>New Content</h3>
+            <ul>
+                <li><strong>New Mage Class, Lara</strong></li>
+                <li>New Starting Area, <img src="/images/map-icons/narin.png" alt="MapIcon Narin"/> Narin</li>
+                <li><strong>New Boss, Guardian Angel Slime</strong></li>
+                <li>New Morass daily activity, Ranheim Defense</li>
+                <li>New Esfera daily activity, Esfera Guardian</li>
+                <li>Weekly Guild Missions Added
+                <ul>
+                    <li><strong>Noblesse Skill Points can be earned according to the total combined Weekly Mission Points earned by the guild</strong></li>
+                </ul>
+                </li>
+            </ul>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li><strong>Pets can now use 2 buff skill slots</strong></li>
+                <li>Added new Hyper Stat for %Damage Against Normal Monsters</li>
+                <li>Added 3 preset slots for Hyper Stats</li>
+                <li>Allowed use for up to 5 Chair Bags and Title Holders respectively</li>
+                <li>Added feature to lock an item from being rearranged when sorted in inventory</li>
+                <li>Added feature to sort by item type</li>
+                <li>Added feature to add favourite maps on the World Map by right-clicking</li>
+                <li><strong><img src="/images/items/dream-key.png" alt="Etc Dream Key"/> Dream Key has been removed from the Cygnus (Normal Mode) boss requirements</strong></li>
+                <li><strong>After defeating a boss, press the Up Arrow key to use the exit portal</strong></li>
+                <li>Flag Race Revamp
+                <ul>
+                    <li>Entry is now available for about 2 minutes at the 30-minute mark of every hour</li>
+                    <li>During entry times, players can enter via the button in the ‘Guild Contents’ tab of the Guild UI</li>
+                </ul>
+                </li>
+                <li>Sharenian Culvert Revamp
+                <ul>
+                    <li>Players can go to the Culvert Entrance via the button in the ‘Guild Contents’ tab of the Guild UI or by talking to NPC Daedal at the Orbis Guild Base &lt;Hall of Heroes&gt;</li>
+                    <li>Sharenian Culvert can only be entered alone and there is no limit to how many times it can be attempted</li>
+                </ul>
+                </li>
+                <li>Reboot World Changes
+                <ul>
+                    <li><strong>%Damage Increase effect has now been changed to %Final Damage Increase</strong></li>
+                    <li>Alicia's Ring Box will no longer provide unusable rings for each job</li>
+                </ul>
+                </li>
+                <li><strong>Character Stats - Detailed Stats UI provides more detailed information</strong></li>
+                <li>Potential Improvements
+                <ul>
+                    <li><strong>The two Critical Damage +% stats in the set rates for each stat were combined into one.</strong></li>
+                    <li>The following stats will no longer appear when using the Red Cube, Black Cube, Master Craftsman's Cube, Meister's Cube, Violet Cube, or the Cube of Equality:
+                    <ul>
+                        <li>(Unique) Boss Damage: +20%</li>
+                        <li><strong>(Unique) All Skill Levels +1 (Excludes 5th Job skills and certain other skills, only increases up to the skill's Master Level)</strong></li>
+                        <li><strong>(Unique, Legendary) All Skill Levels +2 (Excludes 5th Job skills and certain other skills, only increases up to the skill's Master Level)</strong></li>
+                        <li><strong>(Legendary) All Skill Levels +3 (Excludes 5th Job skills and certain other skills, only increases up to the skill's Master Level)</strong></li>
+                        <li>(Legendary) All Elemental Resistance: +10% (Based on Lv. 120+ equipment)</li>
+                        <li>(Legendary) Status Resistance +10 (Based on Lv. 120+ equipment)</li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><strong>The transfer count for link skills will be increased to 4, and players can now pay an additional cost to perform additional transfers up to 10 times</strong></li>
+                <li><strong>EXP rewards will now be given when players complete Arcane River area daily quests</strong></li>
+                <li><strong>The Morass daily quest completion NPCs have been consolidated to Jean at Trueffet Square</strong></li>
+                <li><strong>Added new Limina area maps with monsters that have more HP but give more EXP:</strong>
+                <ul>
+                    <li>World's Sorrow Midpoint 4</li>
+                    <li>End of the World 1-7</li>
+                    <li>End of the World 2-6</li>
+                </ul>
+                </li>
+                <li>Added button to check current price of Intense Power Crystals for bosses when selling at Collector NPC</li>
+                <li><strong>Maple Reward Point Improvements</strong>
+                <ul>
+                    <li>Daily Bosses: 30 Maple Reward Points</li>
+                    <li>Weekly Bosses: 200 Maple Reward Points</li>
+                    <li>Monthly Bosses: 1,000 Maple Reward Points</li>
+                </ul>
+                </li>
+            </ul>
+        </LazyLoad>
+    )
+}
 
 function Override() {
     return (

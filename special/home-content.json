@@ -18,6 +18,20 @@
     ],
     "recent": [
         {
+            "title": "On Air Tera Burning Plus Part 2!",
+            "image": "/home-thumbnail/on-air-tera-burning.jpg",
+            "alt": "On Air Tera Burning Plus Part 2!",
+            "link": "https://maplestory.nexon.net/news/71119/on-air-tera-burning-plus-part-2",
+            "subtitle": "December 28, 2021"
+        },
+        {
+            "title": "On Air: Absolute Unit Patch Notes",
+            "image": "/home-thumbnail/absolute-unit-patch-notes.jpg",
+            "alt": "On Air: Glimpse of Joy Patch Notes",
+            "link": "https://maplestory.nexon.net/news/70691/v-229-on-air-an-absolute-unit-patch-notes",
+            "subtitle": "December 14, 2021"
+        },
+        {
             "title": "Play as the Earthseer Lara!",
             "image": "/home-thumbnail/earthseer-lara.jpg",
             "alt": "Play as the Earthseer Lara!",
@@ -37,20 +51,6 @@
             "alt": "Marvel Machine Returns!",
             "link": "https://maplestory.nexon.net/news/69255/marvel-machine-returns",
             "subtitle": "November 5, 2021"
-        },
-        {
-            "title": "MapleStory Fest 2021 At Home coming November 13!",
-            "image": "/home-thumbnail/maplefest-2021.jpg",
-            "alt": "MapleStory Fest 2021 At Home coming November 13!",
-            "link": "https://maplestory.nexon.net/maplestoryfest",
-            "subtitle": "October 7, 2021"
-        },
-        {
-            "title": "MapleStory X Bugcat Capoo Patch Notes",
-            "image": "/home-thumbnail/bugcat-capoo.jpg",
-            "alt": "MapleStory X Bugcat Capoo Patch Notes",
-            "link": "https://maplestory.nexon.net/news/68219/v-227-maplestory-x-bugcat-capoo-patch-notes",
-            "subtitle": "October 5, 2021"
         }
     ],
     "upcoming": [
@@ -130,29 +130,44 @@
     ],
     "popularClasses": [
         {
-            "alt": "Kanna",
-            "class": "kanna",
-            "path": "sengoku/kanna"
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
         },
         {
-            "alt": "Hayato",
-            "class": "hayato",
-            "path": "sengoku/hayato"
+            "alt": "Arch Mage F/P",
+            "class": "arch-mage-fire-poison",
+            "path": "explorers/arch-mage-fire-poison"
         },
         {
-            "alt": "Xenon",
-            "class": "xenon",
-            "path": "resistance/xenon"
+            "alt": "Arch Mage I/L",
+            "class": "arch-mage-ice-lightning",
+            "path": "explorers/arch-mage-ice-lightning"
         },
         {
-            "alt": "Wild Hunter",
-            "class": "wild-hunter",
-            "path": "resistance/wild-hunter"
+            "alt": "Night Lord",
+            "class": "night-lord",
+            "path": "explorers/night-lord"
         },
         {
-            "alt": "Mechanic",
-            "class": "mechanic",
-            "path": "resistance/mechanic"
+            "alt": "Dawn Warrior",
+            "class": "dawn-warrior",
+            "path": "cygnus-knights/dawn-warrior"
+        },
+        {
+            "alt": "Shadower",
+            "class": "shadower",
+            "path": "explorers/shadower"
+        },
+        {
+            "alt": "Dual Blade",
+            "class": "dual-blade",
+            "path": "explorers/dual-blade"
+        },
+        {
+            "alt": "Kain",
+            "class": "kain",
+            "path": "nova/kain"
         },
         {
             "alt": "Demon Slayer",
@@ -160,24 +175,9 @@
             "path": "resistance/demon-slayer"
         },
         {
-            "alt": "Demon Avenger",
-            "class": "demon-avenger",
-            "path": "resistance/demon-avenger"
-        },
-        {
-            "alt": "Blaster",
-            "class": "blaster",
-            "path": "resistance/blaster"
-        },
-        {
-            "alt": "Battle Mage",
-            "class": "battle-mage",
-            "path": "resistance/battle-mage"
-        },
-        {
-            "alt": "Zero",
-            "class": "zero",
-            "path": "other/zero"
+            "alt": "Kanna",
+            "class": "kanna",
+            "path": "sengoku/kanna"
         }
     ]
 }
