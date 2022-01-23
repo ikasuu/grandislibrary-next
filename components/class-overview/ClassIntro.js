@@ -161,7 +161,7 @@ function ClassProperties({content}) {
 function PropertyBox({skills, classType}) {
   return (
       <div style={{paddingLeft: '0.5rem'}}>
-          <StyledHeaderFive>Notable Skills</StyledHeaderFive>
+          <StyledHeaderFive>Skill Preview</StyledHeaderFive>
           { skills.map( skill => 
               <NotableSkill key={skill.name} skill={skill}/>
           )}
