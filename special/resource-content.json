@@ -16,7 +16,7 @@
                 "Pirate Explorers have the option of Auto Assigning STR and DEX, ONLY chose STR for Buccaneers and ONLY DEX for Cosairs",
                 "Xenon have the option of Auto Assigning STR,DEX and LUK, all are viable and should be balanced evenly"
             ],
-            "tags": "ap pirate explorer xenon"
+            "tags": "ap pirate explorer xenon auto assign"
         },
         {
             "question": "How should I put my SP? Are there are Skill Builds?",
