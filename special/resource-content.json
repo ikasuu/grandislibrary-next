@@ -50,20 +50,20 @@
             "tags": "tera mega burning"
         },
         {
-            "question": "What are these things floating above people's heads",
+            "question": "What are these floating circles above people's heads",
             "answer": [
                 "They are from Soul Weapons, you need to defeat a boss and obtain 10 [Soul Shards] to exchange for a random Soul type of that boss. Different Soul types provide different stats, there is also a 'Magnificent' modifier that is different from the rest",
                 "You can also get Boss Souls from Gachapon and Marvel Machine which is NX Content"
             ],
             "image": "https://vignette.wikia.nocookie.net/maplestory/images/9/92/Soul_Effect_Lucid_%28Magnificent%29.gif/revision/latest/scale-to-width-down/180?cb=20180827145404",
-            "tags": "effect boss soul character"
+            "tags": "effect boss soul character circle"
         },
         {
-            "question": "What are these people floating behind people's characters",
+            "question": "What are these floating people behind people's characters",
             "answer": [
                 "They are from Professions, when you reach the Meister rank in Blacksmithing, Accessory Crafting or Alchemy, you can choose to have a special effect above your character"
             ],
-            "tags": "effect meister profession crafting character"
+            "tags": "effect meister profession crafting character angel"
         },
         {
             "question": "Why does this item give less range compared to one that seems stronger?",
@@ -103,6 +103,14 @@
                 "This effect only applies to the character with the original Link Skill and does not transfer if the Link Skill is applied to another character"
             ],
             "tags": "pirate explorer range damage dex str link skill"
+        },
+        {
+            "question": "Can I delete a Burning character and still get the rewards again?",
+            "answer": [
+                "Yes, equipment such as the Frozen Set and Timed Root Abyss set (for Tera Burning) can be obtained again if you recreate a Burning character",
+                "Only additional rewards for reaching Lv. 200 to 220 can only be claimed once per account"
+            ],
+            "tags": "burning delete character mega tera rewards recreate"
         }
     ],
     "template": {
