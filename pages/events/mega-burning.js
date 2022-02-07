@@ -17,7 +17,7 @@ function MegaBurning() {
             <h3>Notes</h3>
             <hr/>
             <p>If you create an Illium character and select it as "Burning", you will need to complete your Illium questline first before teleporting out of the area. Otherwise you won't be able to get your 2nd job advancement properly</p>
-            <p>You may remake your Burning character BUT you will need to wait 24 hours for a character to be fully deleted if you want to choose the same name</p>
+            <p>Rewards such as the Frozen Set can be obtained again if you recreate a Burning Character</p>
             <p>"Burning" effect stops when you have reached level 150 or when the event is over. It is not a permanent effect</p>
             <p><img src="https://maplestory.io/api/GMS/210.1.1/item/2534001/icon" alt=""/> Mega Burninator item can be used on any character (does not need to be newly created) but will not grant you any of the rewards. Instead, you only get the levelling effect on the chosen character</p>
             <p>All unopened rewards (Mysterious Cryptic Gift Box, Lv. 30 Equipment Box and Legendary Cryptic Chest) expire after the burning event is over. Opened items will be kept, the boxes themselves expire!</p>

@@ -107,7 +107,7 @@ function WhoToTeraBurn() {
                     </ul>
                 </li>
                 <li>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Mille_Aiguilles.png/revision/latest?cb=20111226182135" alt="Skill Mille Aiguilles" width="32" height="32" /> Phantom - +20% crit rate
+                    <img src="/class-icons/heroes/phantom/mille-aiguilles.png" alt="Skill Mille Aiguilles" width="32" height="32" /> Phantom - +20% crit rate
                     <ul>
                         <li>Good for classes with &lt; 100% Crit Rate</li>
                         <li><strong>[Legion (Reboot-recommended)]</strong> - Meso obtained +4%</li>
@@ -120,15 +120,15 @@ function WhoToTeraBurn() {
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32" /> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
                     Max HP/MP
                 </li>
-                <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rune_Persistence.png/revision/latest?cb=20160624211333" alt="Skill Rune Persistence" width="32" height="32" /> Evan - Increased Rune EXP Duration by 70%</li>
+                <li><img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32" /> Evan - Increased Rune EXP Duration by 70%</li>
                 <li>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)" width="32" height="32" /> Mercedes - +20% EXP obtained
                 </li>
                 <li>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705" alt="Skill Knight's Watch" width="32" height="32" /> Mihile - +100% Knockback Resistance 130s, 3 min
+                    <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch" width="32" height="32" /> Mihile - +100% Knockback Resistance 130s, 3 min
                     cooldown
                 </li>
-                <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124" alt="Skill Phantom Instinct" width="32" height="32" /> Phantom - +20% Crit Rate</li>
+                <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct" width="32" height="32" /> Phantom - +20% Crit Rate</li>
             </ul>
             <h3>Good Legion Bonuses + Lv. 2 Link Skill that may be hard to level:</h3>
             <ul>

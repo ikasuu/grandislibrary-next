@@ -33,6 +33,7 @@ function LinkSkills() {
           <li><Link smooth href="#nova" scroll>Nova</Link></li>
           <li><Link smooth href="#sengoku" scroll>Sengoku</Link></li>
           <li><Link smooth href="#flora" scroll>Flora</Link></li>
+          <li><Link smooth href="#anima" scroll>Anima</Link></li>
           <li><Link smooth href="#other" scroll>Other</Link></li>
           <li><Link smooth href="#notable" scroll>Notable Link Skills</Link></li>
           <li><Link smooth href="#builds" scroll>Examples of Link Skill Builds</Link></li>
@@ -140,13 +141,19 @@ function LinkSkills() {
         <SingleSkill skillData={linkSkills.adele}/>
         <hr />
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        <h2 id="anima">Anima</h2>
+        <hr />
+        <p><strong>[Hoyoung]</strong></p>
+        <SingleSkill skillData={linkSkills.hoyoung}/>
+        <hr />
+        <p><strong>[Lara]</strong></p>
+        <SingleSkill skillData={linkSkills.lara}/>
+        <hr />
+        <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="other">Other</h2>
         <hr />
         <p><strong>[Beast Tamer] </strong></p>
         <SingleSkill skillData={linkSkills.beastTamer}/>
-        <hr />
-        <p><strong>[Hoyoung]</strong></p>
-        <SingleSkill skillData={linkSkills.hoyoung}/>
         <hr />
         <p><strong>[Kinesis]</strong></p>
         <SingleSkill skillData={linkSkills.kinesis}/>
@@ -159,28 +166,28 @@ function LinkSkills() {
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>
         <ul>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Solus.png/revision/latest?cb=20180815050834" alt="Skill Solus" width="32" height="32" /> <strong>[Ark] </strong>- %Damage</li>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Wild_Rage.png/revision/latest?cb=20140623054437" alt="Skill Wild Rage" width="32" height="32" /> <strong>[Demon Avenger] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/solus.png" alt="Skill Solus" width="32" height="32" /> <strong>[Ark] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage" width="32" height="32" /> <strong>[Demon Avenger] </strong>- %Damage</li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726" alt="Skill Thief's Cunning" width="32" height="32" /> <strong>[Explorer Thieves] </strong>- %Damage
+              <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32" /> <strong>[Explorer Thieves] </strong>- %Damage
               (for classes with debuffs)
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502" alt="Skill Pirate Blessing" width="32" height="32" /> <strong>[Explorer Pirates] </strong>- All Stats
+              <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing" width="32" height="32" /> <strong>[Explorer Pirates] </strong>- All Stats
               (affected by %Stat)
           </li>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538" alt="Skill Tide of Battle" width="32" height="32" /> <strong>[Illium] </strong>- %Damage</li>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Elementalism.png/revision/latest?cb=20171223042231" alt="Skill Elementalism" width="32" height="32" /> <strong>[Kanna] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle" width="32" height="32" /> <strong>[Illium] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism" width="32" height="32" /> <strong>[Kanna] </strong>- %Damage</li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Judgment_%28Kinesis%29.png/revision/latest?cb=20160610024748" alt="Skill Judgment (Kinesis)" width="32" height="32" /> <strong>[Kinesis] </strong>- %Crit
+              <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)" width="32" height="32" /> <strong>[Kinesis] </strong>- %Crit
               Damage
           </li>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Hybrid_Logic.png/revision/latest?cb=20121223163512" alt="Skill Hybrid Logic" width="32" height="32" /> <strong>[Xenon] </strong>- %All Stat</li>
+          <li><img src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic" width="32" height="32" /> <strong>[Xenon] </strong>- %All Stat</li>
         </ul>
         <h3>For Bossing + Ignore DEF:</h3>
         <ul>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Terms_and_Conditions.png/revision/latest?cb=20120803105421" alt="Skill Terms and Conditions" width="32" height="32" />
+              <img src="/class-icons/link-skills/terms-and-condition.png" alt="Skill Terms and Conditions" width="32" height="32" />
               <strong>[Angelic Buster] </strong>- For Burst skills
           </li>
           <li><strong>[Adele] </strong>- %Boss Damage</li>
@@ -189,51 +196,51 @@ function LinkSkills() {
               Rate and %Max HP/MP
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103" alt="Skill Cygnus Blessing" width="32" height="32" /> <strong>[Cygnus Knights] </strong>- Useful for
+              <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing" width="32" height="32" /> <strong>[Cygnus Knights] </strong>- Useful for
               Abnormal Status Resistance and slight damage boost
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Fury_Unleashed.png/revision/latest?cb=20140808220635" alt="Skill Fury Unleashed" width="32" height="32" /> <strong>[Demon Slayer] </strong>- %Boss Damage
+              <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed" width="32" height="32" /> <strong>[Demon Slayer] </strong>- %Boss Damage
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304" alt="Skill Empirical Knowledge" width="32" height="32" /> <strong>[Explorer Mages] </strong>-
+              <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge" width="32" height="32" /> <strong>[Explorer Mages] </strong>-
               %Ignore DEF
           </li>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Light_Wash.png/revision/latest?cb=20191125065228" alt="Skill Light Wash" width="32" height="32" /> <strong>[Luminous] </strong>- %Ignore DEF</li>
+          <li><img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash" width="32" height="32" /> <strong>[Luminous] </strong>- %Ignore DEF</li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705" alt="Skill Knight's Watch" width="32" height="32" /><strong> [Mihile] </strong>- 100% Knockback
+              <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch" width="32" height="32" /><strong> [Mihile] </strong>- 100% Knockback
               Resistance buff for classes with &lt; 100% resistance
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212" alt="Skill Spirit of Freedom" width="32" height="32" /> <strong>[Resistance] </strong>- iFrames
+              <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom" width="32" height="32" /> <strong>[Resistance] </strong>- iFrames
               after reviving
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Close_Call.png/revision/latest?cb=20140809015342" alt="Skill Close Call" width="32" height="32" /> <strong>[Shade] </strong>- Utility, chance to not die from
+              <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call" width="32" height="32" /> <strong>[Shade] </strong>- Utility, chance to not die from
               fatal attacks
           </li>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609" alt="Skill Rhinne's Blessing" width="32" height="32" /> <strong>[Zero] </strong>- %Ignore DEF</li>
+          <li><img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing" width="32" height="32" /> <strong>[Zero] </strong>- %Ignore DEF</li>
         </ul>
         <h3>For Training:</h3>
         <ul>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Combo_Kill_Blessing.png/revision/latest?cb=20160623050748" alt="Skill Combo Kill Blessing" width="32" height="32" /> <strong>[Aran] </strong>- Useful for
+              <img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing" width="32" height="32" /> <strong>[Aran] </strong>- Useful for
               pre-200
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Unfair_Advantage.png/revision/latest?cb=20171205075511" alt="Skill Unfair Advantage" width="32" height="32" /> <strong>[Cadena] </strong>- Increased %Damage
+              <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage" width="32" height="32" /> <strong>[Cadena] </strong>- Increased %Damage
               to lower level enemies + enemies with Abnormal Statuses
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rune_Persistence.png/revision/latest?cb=20160624211333" alt="Skill Rune Persistence" width="32" height="32" /> <strong>[Evan] </strong>- Useful all levels
+              <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32" /> <strong>[Evan] </strong>- Useful all levels
               especially pre-200
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Bravado.png/revision/latest?cb=20191117083357" alt="Skill Bravado" width="32" height="32" /> <strong>[Hoyoung] </strong>- Useful if you need a small boost to
+              <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado" width="32" height="32" /> <strong>[Hoyoung] </strong>- Useful if you need a small boost to
               one-shot enemies
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Iron_Will_%28Kaiser%29.png/revision/latest?cb=20120717143209" alt="Skill Iron Will (Kaiser)" width="32" height="32" /> <strong>[Kaiser] </strong>- For
+              <img src="/class-icons/link-skills/iron-will.png" alt="Skill Iron Will (Kaiser)" width="32" height="32" /> <strong>[Kaiser] </strong>- For
               pre-200 if you die a lot
           </li>
           <li>
@@ -244,29 +251,29 @@ function LinkSkills() {
         <h3>For Low Crit Rate:</h3>
         <ul>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130" alt="Skill Adventurer's Curiosity" width="32" height="32" />
+              <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32" />
               <strong>[Explorer Archers] - </strong>Up to 10%
           </li>
           <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32" /> <strong>[Beast Tamer] </strong>- Up to 10%</li>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124" alt="Skill Phantom Instinct" width="32" height="32" /> <strong>[Phantom] </strong>- Up to 20%</li>
+          <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct" width="32" height="32" /> <strong>[Phantom] </strong>- Up to 20%</li>
         </ul>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="builds">Examples of Link Skill Builds:</h2>
         <h3>Training:</h3>
-        <p><img src="https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Combo_Kill_Blessing.png/revision/latest?cb=20160623050748" alt="Skill Combo Kill Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Solus.png/revision/latest?cb=20180815050834" alt="Skill Solus" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Unfair_Advantage.png/revision/latest?cb=20171205075511" alt="Skill Unfair Advantage" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Wild_Rage.png/revision/latest?cb=20140623054437" alt="Skill Wild Rage" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rune_Persistence.png/revision/latest?cb=20160624211333" alt="Skill Rune Persistence" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130" alt="Skill Adventurer's Curiosity" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726" alt="Skill Thief's Cunning" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502" alt="Skill Pirate Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Bravado.png/revision/latest?cb=20191117083357" alt="Skill Bravado" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609" alt="Skill Rhinne's Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Elementalism.png/revision/latest?cb=20171223042231" alt="Skill Elementalism" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)" width="32" height="32"/></p>
+        <p><img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/solus.png" alt="Skill Solus" width="32" height="32"/> <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage" width="32" height="32"/> <img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage" width="32" height="32"/> <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32"/> <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado" width="32" height="32"/> <img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)" width="32" height="32"/></p>
         <p>(Aran, Ark, Cadena, Demon Avenger, Evan, Explorer Archer, Explorer Thief, Explorer Pirate, Hoyoung, Zero, Kanna, Mercedes)</p>
         <p>Rationale: Increased EXP Gain, Damage, and Damage Reduction if required. If you feel that you do not need extra survivability, you can swap out some Link Skills for more damage or other stats like %Crit Rate</p>
-        <p>Other options: <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit"/> (Crit Rate, Max HP/MP), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103" alt="Skill Cygnus Blessing"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Keen_Edge.png/revision/latest?cb=20180520131734" alt="Skill Keen Edge"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538" alt="Skill Tide of Battle"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Iron_Will_%28Kaiser%29.png/revision/latest?cb=20120717143209" alt="Skill Iron Will (Kaiser)"/> (Max HP), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124" alt="Skill Phantom Instinct"/> (Crit Rate), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Hybrid_Logic.png/revision/latest?cb=20121223163512" alt="Skill Hybrid Logic"/> (Damage) (Beast Tamer, Cygnus Knights, Hayato, Illium, Kaiser, Phantom, and Xenon)</p>
+        <p>Other options: <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit"/> (Crit Rate, Max HP/MP), <img width="32" height="32" src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/keen-edge.png" alt="Skill Keen Edge"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/iron-will.png" alt="Skill Iron Will (Kaiser)"/> (Max HP), <img width="32" height="32" src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> (Crit Rate), <img width="32" height="32" src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic"/> (Damage) (Beast Tamer, Cygnus Knights, Hayato, Illium, Kaiser, Phantom, and Xenon)</p>
         <h3>Bossing:</h3>
-        <p><img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103" alt="Skill Cygnus Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Close_Call.png/revision/latest?cb=20140809015342" alt="Skill Close Call" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Fury_Unleashed.png/revision/latest?cb=20140808220635" alt="Skill Fury Unleashed" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502" alt="Skill Pirate Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304" alt="Skill Empirical Knowledge" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130" alt="Skill Adventurer's Curiosity" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726" alt="Skill Thief's Cunning" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212" alt="Skill Spirit of Freedom" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Judgment_%28Kinesis%29.png/revision/latest?cb=20160610024748" alt="Skill Judgment (Kinesis)" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Light_Wash.png/revision/latest?cb=20191125065228" alt="Skill Light Wash" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124" alt="Skill Phantom Instinct" width="32" height="32"/></p>
+        <p><img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing" width="32" height="32"/> <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32"/> <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call" width="32" height="32"/> <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed" width="32" height="32"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge" width="32" height="32"/> <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32"/> <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom" width="32" height="32"/> <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)" width="32" height="32"/> <img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash" width="32" height="32"/> <img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct" width="32" height="32"/></p>
         <p>(Cygnus Knights, Beast Tamer, Shade, Demon Slayer, Explorer Pirate, Explorer Mage, Explorer Archer, Explorer Thief, Resistance, Kinesis, Luminous, Phantom)</p>
         <p>Rationale: Increased damage, %Crit Rate (to get 100% if needed), and %Ignore DEF. Other Link Skills are used for utility and survivability</p>
-        <p>Other options: <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Terms_and_Conditions.png/revision/latest?cb=20120803105421" alt="Skill Terms and Conditions"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Solus.png/revision/latest?cb=20180815050834" alt="Skill Solus"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Wild_Rage.png/revision/latest?cb=20140623054437" alt="Skill Wild Rage"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Invincible_Belief.png/revision/latest?cb=20191124005023" alt="Skill Invincible Belief"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538" alt="Skill Tide of Battle"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705" alt="Skill Knight's Watch"/> (Knockback Resistance), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Hybrid_Logic.png/revision/latest?cb=20121223163512" alt="Skill Hybrid Logic"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609" alt="Skill Rhinne's Blessing"/> (%Ignore DEF) (Angelic Buster, Ark, Demon Avenger, Explorer Warrior, Illium, Mihile, Xenon, and Zero)</p>
+        <p>Other options: <img width="32" height="32" src="/class-icons/link-skills/terms-and-condition.png" alt="Skill Terms and Conditions"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/solus.png" alt="Skill Solus"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/invincible-belief.png" alt="Skill Invincible Belief"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/> (Knockback Resistance), <img width="32" height="32" src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing"/> (%Ignore DEF) (Angelic Buster, Ark, Demon Avenger, Explorer Warrior, Illium, Mihile, Xenon, and Zero)</p>
         <h3>Third Example:</h3>
-        <p><img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Solus.png/revision/latest?cb=20180815050834" alt="Skill Solus"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130" alt="Skill Adventurer's Curiosity"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726" alt="Skill Thief's Cunning"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Judgment_%28Kinesis%29.png/revision/latest?cb=20160610024748" alt="Skill Judgment (Kinesis)"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Light_Wash.png/revision/latest?cb=20191125065228" alt="Skill Light Wash"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124" alt="Skill Phantom Instinct"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502" alt="Skill Pirate Blessing"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609" alt="Skill Rhinne's Blessing"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Close_Call.png/revision/latest?cb=20140809015342" alt="Skill Close Call"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Elementalism.png/revision/latest?cb=20171223042231" alt="Skill Elementalism"/></p>
+        <p><img width="32" height="32" src="/class-icons/link-skills/solus.png" alt="Skill Solus"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit"/> <img width="32" height="32" src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity"/> <img width="32" height="32" src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning"/> <img width="32" height="32" src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)"/> <img width="32" height="32" src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash"/> <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)"/> <img width="32" height="32" src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> <img width="32" height="32" src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing"/> <img width="32" height="32" src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing"/> <img width="32" height="32" src="/class-icons/link-skills/close-call.png" alt="Skill Close Call"/> <img width="32" height="32" src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism"/></p>
         <p>(Ark, Beast Tamer, Explorer Archer, Explorer Thief, Kinesis, Luminous, Mercedes, Phantom, Explorer Pirate, Zero, Shade, Kanna)</p>
         <p>Rational: A sort of what I'd use normally for both bossing and training without having to switch. I try to incorporate as much damage as possible but also include important stats I need such as %Crit Rate, %Crit Damage and %Ignore DEF</p>
-        <p>Other options: <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103" alt="Skill Cygnus Blessing"/> (Damage, Abnormal Status Resistance), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Wild_Rage.png/revision/latest?cb=20140623054437" alt="Skill Wild Rage"/> (Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Fury_Unleashed.png/revision/latest?cb=20140808220635" alt="Skill Fury Unleashed"/> (Boss Damage), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rune_Persistence.png/revision/latest?cb=20160624211333" alt="Skill Rune Persistence"/> (EXP Gain), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304" alt="Skill Empirical Knowledge"/> (Damage, %Ignore DEF), <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212" alt="Skill Spirit of Freedom"/> (Invincibility after reviving) (Cygnus Knights, Demon Avenger, Demon Slayer, Evan, Explorer Mage, and Resistance</p>
+        <p>Other options: <img width="32" height="32" src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> (Damage, Abnormal Status Resistance), <img width="32" height="32" src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed"/> (Boss Damage), <img width="32" height="32" src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence"/> (EXP Gain), <img width="32" height="32" src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge"/> (Damage, %Ignore DEF), <img width="32" height="32" src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom"/> (Invincibility after reviving) (Cygnus Knights, Demon Avenger, Demon Slayer, Evan, Explorer Mage, and Resistance</p>
         <hr/>
         <p>For more info on Link Skills check out:</p>
         <p><a href="https://maplestory.fandom.com/wiki/Link_Skill">https://maplestory.fandom.com/wiki/Link_Skill</a></p>

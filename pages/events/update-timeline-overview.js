@@ -1348,17 +1348,17 @@ function Glory() {
                     <a href="https://maplestory.wiki/GMS/214/item/1202281" target="_blank" rel="noreferrer noopener">Lireni's Wish</a>
                 </li>
                 <li>
-                    New 5th Job skills (<img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033" alt="Skill Grandis Goddess's Blessing" width="32" height="32" />
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037" alt="Skill Maple World Goddess's Blessing" width="32" height="32" />
+                    New 5th Job skills (<img src="/class-icons/5th-job/grandis-goddess-blessing.png" alt="Skill Grandis Goddess's Blessing" width="32" height="32" />
+                    <img src="/class-icons/5th-job/maple-world-goddess-blessing.png" alt="Skill Maple World Goddess's Blessing" width="32" height="32" />
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Transcendent_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065038" alt="Skill Transcendent Cygnus's Blessing" width="32" height="32" /> enhanced Maple
                     Warrior)
                 </li>
                 <li>Arcane River Express Pass added - use Maple Points to automatically complete Arcane River dailies</li>
                 <li>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Invincible_Belief.png/revision/latest?cb=20191124005023" alt="Skill Invincible Belief" width="32" height="32" />
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304" alt="Skill Empirical Knowledge" width="32" height="32" />
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130" alt="Skill Adventurer's Curiosity" width="32" height="32" />
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726" alt="Skill Thief's Cunning" width="32" height="32" /><strong> Explorer Link Skills added</strong>
+                    <img src="/class-icons/link-skills/invincible-belief.png" alt="Skill Invincible Belief" width="32" height="32" />
+                    <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge" width="32" height="32" />
+                    <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32" />
+                    <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32" /><strong> Explorer Link Skills added</strong>
                 </li>
             </ul>
             <h3>New Features + Changes</h3>
@@ -2915,7 +2915,7 @@ function StrangeStories() {
             <h3>New Features + Changes</h3>
             <ul>
                 <li>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809" alt="Skill Maple Warrior" width="32" height="32" /> Maple Warrior type skill no longer has a cast delay
+                    <img src="/class-icons/common/maple-warrior.png" alt="Skill Maple Warrior" width="32" height="32" /> Maple Warrior type skill no longer has a cast delay
                 </li>
                 <li>Changed projectile skill logic, will search for new target if initial is gone, if no new enemies, projectile will disappear</li>
                 <li>Majority of Return skills have cooldown set to 600 secs</li>

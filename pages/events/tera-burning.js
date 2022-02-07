@@ -17,7 +17,7 @@ function TeraBurning() {
             <h3>Notes</h3>
             <hr/>
             <p>If you create an Illium character and select it as "Burning", you will need to complete your Illium questline first before teleporting out of the area. Otherwise you won't be able to get your 2nd job advancement properly</p>
-            <p>You may remake your Burning character BUT you will need to wait 24 hours for a character to be fully deleted if you want to choose the same name</p>
+            <p>Rewards such as the Timed Root Abyss set can be obtained again if you recreate a Burning Character. However, additional rewards for reaching Lv. 200 to 220 can only be claimed once per account</p>
             <p>“Tera Burning” effect stops when you have reached level 200 or when the event is over. It is not a permanent effect</p>
             <p>All unopened rewards (Mysterious Cryptic Gift Box, Lv. 30 Equipment Box, Legendary Cryptic Chest, etc) expire after the burning event is over. Opened items will be kept, the boxes themselves expire!</p>
             <hr/>

@@ -4,7 +4,7 @@
 */
 
 //Latest version of GMS
-export const version = 228; 
+export const version = 229; 
 export const versionName = "On Air Update"
 
 export const loadingImage = "/loading.gif";
@@ -141,19 +141,19 @@ export const weaponConsumable = {
 //Common 5th Job Skills
 export const commonFifth = {
     goddessBlessing: {
-        "name": "Maple World Goddess Blessing",
+        "name": "Maple World Goddess's Blessing",
         "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 350% for 60 sec, Damage: +17%\\nCooldown: 180 sec",
         "id": 400001042,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037"],
+        "icons": ["/class-icons/5th-job/maple-world-goddess-blessing.png"],
         "animations": ["https://media4.giphy.com/media/AV4drI0ly2fYImnP3H/giphy.gif"],
         "type": "Buff",
-        "desc": "Increases the effects of <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'> greatly and grants increased %Damage"
+        "desc": "Increases the effects of <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior' width='32' height='32'> greatly and grants increased %Damage"
     },
     expWarrior:{
         "name": "Blitz Shield",
         "shortDesc": "HP Cost: 5% of Max HP, Creates a protective shield that blocks 20% of your Max HP as damage for 5 sec.\\nWhen the shield expires or the skill is activated again, it detonates and inflicts 1000% damage to 12 enemies 5 times.\\nYour shield must be active for at least 2 sec before it can be detonated.\\nCooldown: 15 sec",
         "id": 400001010,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Blitz_Shield.png/revision/latest?cb=20170629201925"],
+        "icons": ["/class-icons/5th-job/blitz-shield.png"],
         "animations": ["https://media2.giphy.com/media/0Rj4K4HNqYGsk63MyN/giphy.gif"],
         "type": "Buff",
         "desc": "Creates a shield based on your %Max HP that blocks damage",
@@ -165,7 +165,7 @@ export const commonFifth = {
         "name": "Unreliable Memory",
         "shortDesc": "MP Cost: 150, Uses one random skill or active Hyper Skill from 1st to 4th jobs.\\nIgnores MP cost and cooldown of selected skill. Cannot trigger unlearned skills.\\nCooldown: 10 sec\\n[Passive Effect: INT +25]",
         "id": 400001021,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Unreliable_Memory.png/revision/latest?cb=20170629202924"],
+        "icons": ["/class-icons/5th-job/unreliable-memory.png"],
         "animations": ["https://media4.giphy.com/media/ncQEHsz4n9SUxkaU4l/giphy.gif"],
         "type": "Active",
         "desc": "Uses one random skill or active Hyper Skill from 1st to 4th Job",
@@ -179,42 +179,42 @@ export const commonFifth = {
         "name": "Fury of the Wild",
         "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 825%, Number of Attacks: 7\\nCooldown: 108 sec",
         "id": 400001012,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Fury_of_the_Wild.png/revision/latest?cb=20190615205233"],
+        "icons": ["/class-icons/5th-job/fury-of-the-wild.png"],
         "animations": ["https://media3.giphy.com/media/llsZlPVsm7sAZFcb8i/giphy.gif"],
         "type": "Summon",
         "desc": "Transforms Phoenix, Frosprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='/class-icons/marksman/frostprey.png' alt='Skill Frostprey' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Shadow_Raven.png/revision/latest?cb=20190616015333' alt='' /> is active"
+            "Can only be used when <img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey' /> <img class='icon' src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven' /> is active"
         ]
     },
     expPBowman: {
         "name": "Fury of the Wild",
         "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 825%, Number of Attacks: 7\\nCooldown: 108 sec",
         "id": 400001012,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Fury_of_the_Wild.png/revision/latest?cb=20190615205233"],
+        "icons": ["/class-icons/5th-job/fury-of-the-wild.png"],
         "animations": ["https://media0.giphy.com/media/ZlMeLcuyoa4oW2el4Z/giphy.gif"],
         "desc": "Transforms Phoenix, Frosprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='/class-icons/marksman/frostprey.png' alt='Skill Frostprey' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Shadow_Raven.png/revision/latest?cb=20190616015333' alt='' /> is active"
+            "Can only be used when <img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey' /> <img class='icon' src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven' /> is active"
         ]
     },
     expThief: {
         "name": "Shadow Walker",
         "shortDesc": "MP Cost: 850, Duration: 30 sec. Initiates a form of stealth that is not canceled by skills or attacks.\\nFinal Damage increased by 15% added on top of Advanced Dark Sight's Final Damage bonus.\\nCooldown: 195 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Shadow_Walker.png/revision/latest?cb=20170629203944"],
+        "icons": ["/class-icons/5th-job/shadow-walker.png"],
         "animations": ["https://media4.giphy.com/media/KZvjAfaZInF431yAcH/giphy.gif"],
         "type": "Buff",
-        "desc": "Activates a special <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> where attacking will not cancel the buff",
+        "desc": "Activates a special <img width='32' height='32' src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'> where attacking will not cancel the buff",
         "details": [
-            "Additionally increases %Final Damage added on top of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Advanced_Dark_Sight.png/revision/latest?cb=20100615145647' alt='Skill Advanced Dark Sight'>"
+            "Additionally increases %Final Damage added on top of <img width='32' height='32' src='/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'>"
         ]
     },
     expPirate: {
         "name": "Pirate's Banner",
         "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec.\\nBoosts the stats of party members near the flag by 22% in any attribute they have assigned AP. Enemy DEF: -22%\\nCooldown: 35 sec",
         "id": 400001017,
-        "icons": ["https://orangemushroom.files.wordpress.com/2016/12/pirate-flag.png?w=600"],
+        "icons": ["/class-icons/5th-job/pirates-banner.png"],
         "animations": ["https://media2.giphy.com/media/4HkGIZpk9nhjknNRFb/giphy.gif"],
         "type": "Buff Zone",
         "desc": "Increases all stats assigned APs by a percentage of party members within the zone and reduces enemy %DEF inside the zone"
@@ -223,7 +223,7 @@ export const commonFifth = {
         "name": "Phalanx Charge",
         "shortDesc": "MP Cost: 500, Damage: 900%, Number of Attacks: 65\\nSpearmen disappear when the number of attacks is reached, they move a certain distance, or after a certain duration. Activate the skill again to change their direction.\\nCooldown: 30 sec",
         "id": 400001018,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Phalanx_Charge.png/revision/latest?cb=20170623004415"],
+        "icons": ["/class-icons/5th-job/phalanx-charge.png"],
         "animations": ["https://media4.giphy.com/media/7y719ZfMh0lXsQW919/giphy.gif"],
         "type": "Summon",
         "desc": "Summons Spearmen of Cygnus Knights to charge forward damaging enemies that collide with it",
@@ -237,20 +237,20 @@ export const commonFifth = {
         "name": "Empress Cygnus's Blessing",
         "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%.\\nThis damage bonus is additive and maxes out at 90%\\nCooldown: 240 sec.",
         "id": 400001043,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Empress_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065036", "https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Transcendent_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065038"],
+        "icons": ["/class-icons/5th-job/empress-cygnuss-blessing.png", "/class-icons/5th-job/transcendent-cygnuss-blessing.png"],
         "animations": ["https://media4.giphy.com/media/o4zWBHJ69l1pd4x9hf/giphy.gif", "https://media2.giphy.com/media/oHDJdfZZm1KEBCm9n7/giphy.gif"],
         "type": "Buff",
         "desc": "Increases %Damage",
         "details": [
             "Additionally periodically restores %Max HP and increases the %Damage buff (up to 90%)",
-            "Skill is enhanced after Lv. 245 becoming <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Transcendent_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065038' alt='Skill Transcendent Cygnus's Blessing' width='32' height='32'/> Transcendent Cygnus's Blessing<ul><li>Damage buff will instead go up to 120% and additionally now reduces damage taken (including %Max HP attacks)</li></ul>"
+            "Skill is enhanced after Lv. 245 becoming <img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus's Blessing'/> Transcendent Cygnus's Blessing<ul><li>Damage buff will instead go up to 120% and additionally now reduces damage taken (including %Max HP attacks)</li></ul>"
         ]
     },
     freudsWisdom:{
         "name": "Freud's Wisdom",
         "shortDesc": "MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Knockback Resistance: +75%\\nStack 3 - All Stats: +50\\nStack 4 - Attack Power & Magic ATT: +22\\nStack 5 - Boss Damage: +22%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires (including character death) or max stack count is reached.",
         "id": 400001024,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015"],
+        "icons": ["/class-icons/5th-job/freuds-wisdom.png"],
         "animations": ["https://media0.giphy.com/media/qLHXWAJbWTXFxORQyS/giphy.gif"],
         "type": "Buff",
         "desc": "Provides a stacking buff with each stack providing an additional effect",
@@ -263,7 +263,7 @@ export const commonFifth = {
         "name": "Resistance Infantry",
         "shortDesc": "MP Cost: 650, Duration: 10 sec, Damage: 415%, Number of Attacks: 9, Max Enemies Hit: 12\\nCooldown: 25 sec",
         "id": 400001019,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Resistance_Infantry.png/revision/latest?cb=20170625170734"],
+        "icons": ["/class-icons/5th-job/resistance-infantry.png"],
         "animations": ["https://media1.giphy.com/media/8lnnh46r15qpe51QLL/giphy.gif"],
         "type": "Summon",
         "desc": "A squad of Resistance infantry fires waves of bullets at enemies",
@@ -275,7 +275,7 @@ export const commonFifth = {
         "name": "Defender of the Demon",
         "shortDesc": "Consumes 5% of Max HP to summon Mastema for 55 sec.\\nCooldown: 150 sec\\nMastema uses the following skills at her own discretion:\\nMastema's Claw - Max Enemies Hit: 8, Damage: 1000%, Number of Attacks: 8, Cooldown: 4 sec\\nMastema's Mark - Damage Taken: -22% (Including attacks inflicting damage proportional to Max HP), Max Uses: 2, Duration: 6 sec. Mastema's Mark vanishes when duration ends or max uses is reached. Cooldown: 10 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Defender_of_the_Demon.png/revision/latest?cb=20170625165445"],
+        "icons": ["/class-icons/5th-job/defender-of-the-demon.png"],
         "animations": ["https://media1.giphy.com/media/XGCkfDLecmgSCsBc4n/giphy.gif"],
         "type": "Summon",
         "desc": "Summons Mastema to fight by your side",
@@ -288,7 +288,7 @@ export const commonFifth = {
         "name": "Otherworld Goddess's Blessing",
         "shortDesc": "HP Cost: 5% of Max HP, increases Final Damage by 10% for 40 sec. Periodically casts various blessings or attacks. Previous blessings disappear when a new blessing is cast.\\nBlessing of Recovery : Restores 27% of the your character's max DF/PP/HP. Heals through status effects that prevent health recovery, aside from in Ghost Park.\\nAegis Blessing: Damage Taken: -70% (Triggers once, includes damage proportional to Max HP.)\\nBlessing of Fortitude: Ignores one debilitating status effect.\\nOtherwordly Void: Max Enemies Hit: 12, Damage: 2400%, Number of Attacks: 12\\nCooldown: 120 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Otherworld_Goddess%27s_Blessing.png/revision/latest?cb=20191116025124"],
+        "icons": ["/class-icons/5th-job/otherworld-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/HBVTG6lGTAK9OLJ9qe/giphy.gif"],
         "type": "Buff",
         "desc": "Increases your %Final Damage while periodically providing various buffs",
@@ -303,19 +303,19 @@ export const commonFifth = {
         "name": "Might of the Nova",
         "shortDesc": "HP Cost: 20% of Max HP, Max Enemies Hit: 15, Damage: 4000%, Number of Attacks: 10\\nBuff: After use, you are protected from fatal blows for 900 sec.\\nCooldown: 1200 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202"],
+        "icons": ["/class-icons/5th-job/might-of-the-nova.png"],
         "animations": ["https://media1.giphy.com/media/eiYA7as3sG0mA6277y/giphy.gif"],
         "type": "Attack / Buff",
         "desc": "Deals a massive attack to nearby enemies while granting a buff that prevents you from one fatal blow",
         "details": [
-            "Functions exactly the same as Bishop's <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heaven%27s_Door.png/revision/latest?cb=20120918153903' alt='Skill Heaven's Door'> Heaven's Door"
+            "Functions exactly the same as Bishop's <img width='32' height='32' src='/class-icons/explorers/bishop/heavens-door.png' alt='Skill Heaven's Door'> Heaven's Door"
         ]
     },
     grandisGoddessBlessingNV:{
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, skills have a chance to not have a cooldown",
@@ -328,7 +328,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, skills have a chance to not have a cooldown",
@@ -341,7 +341,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, a percent of your equipment's Attack or Magic Attack will be converted to the one you use",
@@ -354,7 +354,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, increases %Damage, 100% Knockback Resistance and Talisman and Scroll Power charge rate"
@@ -375,7 +375,7 @@ export const commonFifth = {
         "name": "Sengoku Force, Assemble!",
         "shortDesc": "MP Cost: 1000, Consumes HP for jobs that do not utilize MP. Summons two Sengoku warriors. Summon Duration: 42 sec, Cooldown: 120 sec.\\n[Uesugi Kenshin] Damage: 500%, Max Enemies Hit: 8, Number of Attacks: 4, Ignore Defense +20%\\n[Tsuchimikado Haruaki] Damage: 405%, Max Enemies Hit: 8, Number of Attacks: 5, Damage Taken -15%\\n[Ayame] Damage: 560%, Max Enemies Hit: 8, Number of Attacks: 4, Critical Damage +15%\\n[Takeda Shingen] Damage: 275%, Max Enemies Hit: 8, Number of Hits: 8, Attack Power +30, Magic ATT +30",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Sengoku_Force%2C_Assemble%21.png/revision/latest?cb=20170628223223"],
+        "icons": ["/class-icons/5th-job/sengoku-force-assemble.png"],
         "animations": ["https://media2.giphy.com/media/hdOUEr0bUns5nRa0pR/giphy.gif"],
         "type": "Summon",
         "desc": "Randomly summons two Sengoku heroes to fight alongside you while providing a buff",
@@ -390,7 +390,7 @@ export const commonFifth = {
         "name": "Princess Sakuno's Blessing",
         "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 13%\\nPeriodical Bonus Final Damage Increase: 3%\\nPrincess Sakuno's Blessing will increase final damage by up to 48%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Princess_Sakuno%27s_Blessing.png/revision/latest?cb=20191122065037"],
+        "icons": ["/class-icons/5th-job/princess-sakunos-blessing.png"],
         "animations": ["https://media1.giphy.com/media/5trU6eJgfy60uoDzH2/giphy.gif"],
         "type": "Buff",
         "desc": "Increases %Final Damage",
@@ -403,7 +403,7 @@ export const commonFifth = {
         "name": "Conversion Overdrive",
         "shortDesc": "MP Cost: 15% of Max MP, Duration: 55 sec, Damage increases up to 45% depending on current MP proportions, Damage increase reset when Spell Storm occurs.\\nWhen using attack skill, activates a Spell Storm. Spell Storm MP Cost: additional 150 per 4 sec, Spell Storm Max Enemies Hit: 6, Spell Storm Damage: 1000%, Spell Storm Number of Attacks: 3\\nCooldown: 200 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Conversion_Overdrive.png/revision/latest?cb=20180701142936"],
+        "icons": ["/class-icons/5th-job/conversion-overdrive.png"],
         "animations": ["https://media4.giphy.com/media/DTXNaMlNmJjsxBdspG/giphy.gif"],
         "type": "Buff",
         "desc": "Increases your %Damage in proportion to your current MP",
@@ -415,20 +415,20 @@ export const commonFifth = {
         "name": "Transcendent Rhinne's Prayer",
         "shortDesc": "Time Force Cost: 30, resets cooldowns for all skills.\\nDuration: 42 sec, Attack Power: +85. When Doubletime stacks, gives a buff that creates additional attack with 250% damage and 5 additional attacks to enemies you attack with your skills.\\n Additional hit buff disappears when additional attacks occurs, or if Transcendent Rhinne's Prayer ends.\\nDoubletime and Immune Barrier last for their maximum duration.\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Transcendent_Rhinne%27s_Prayer.png/revision/latest?cb=20191122065038"],
+        "icons": ["/class-icons/other/zero/transcendent-rhinnes-prayer.png"],
         "animations": ["https://media1.giphy.com/media/1l2KreXVnPRTEZaj1k/giphy.gif"],
         "type": "Buff",
-        "desc": "When <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044' alt='Skill Doubletime'/> stacks, your next attack creates an additional attack",
+        "desc": "When <img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> stacks, your next attack creates an additional attack",
         "details": [
             "When used, skill cooldowns are reset",
-            "Additionally while active, <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044' alt='Skill Doubletime'/> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Immune_Barrier.png/revision/latest?cb=20140107033613' alt='Skill Immune Barrier'/> last for their maximum duration"
+            "Additionally while active, <img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> and <img src='/class-icons/other/zero/immune-barrier.png' alt='Skill Immune Barrier'/> last for their maximum duration"
         ]
     },
     weaponAura:{
         "name": "Weapon Aura",
         "shortDesc": "HP Cost: 10%, Ignores 15% Enemy DEF for 130 sec, Final Damage: +5%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1000% damage on up to 10 enemies 6 times.\\nCooldown: 180 Sec.",
         "id": 400011000,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742"],
+        "icons": ["/class-icons/5th-job/weapon-aura.png"],
         "animations": ["https://media4.giphy.com/media/flLOmhDE95Z0NDH1ug/giphy.gif"],
         "type": "Buff Attack",
         "desc": "Causes your attacks to periodically create a damaging wave"
@@ -437,16 +437,16 @@ export const commonFifth = {
         "name": "Impenetrable Skin",
         "shortDesc": "HP Cost: 5% of Max HP, Duration: 35 sec, Knockdown Immunity and Status Resistance: +75\\nDamage increases +3% when hit, Max Stack: 10 times\\nCooldown: 240 sec\\n[Passive Effects - STR: +25, Max HP: +1250]",
         "id": 400011066,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329"],
+        "icons": ["/class-icons/5th-job/impenetrable-skin.png"],
         "animations": ["https://media3.giphy.com/media/jjMaS7mAgN1OvvY9JT/giphy.gif"],
         "type": "Buff",
-        "desc": "While active you gain increased Abnormal Status Resistance and 100% Knockback Resistance. As well, when you are hit you gain a stacking %Damage buff"
+        "desc": "While active, gain increased Abnormal Status Resistance and 100% Knockback Resistance. As well, when you are hit, gain a stacking %Damage buff"
     },
     manaOverload:{
         "name": "Mana Overload",
         "shortDesc": "Consumes +2% Max MP to increase the Final Damage of all your skills (excluding summons) by 10%\\nConsumes 0.5% Max HP for jobs without MP\\nCan be toggled On/Off\\nCooldown: 35 sec",
         "id": 400021000,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mana_Overload.png/revision/latest?cb=20161018183739"],
+        "icons": ["/class-icons/5th-job/mana-overload.png"],
         "animations": ["https://media1.giphy.com/media/uH12ABjyZFLcfbvjFH/giphy.gif"],
         "type": "Buff",
         "desc": "When toggled, increases the %Final Damage of all your skills (excluding summons)",
@@ -458,7 +458,7 @@ export const commonFifth = {
         "name": "Ethereal Form",
         "shortDesc": "HP Cost: 1000, Duration: 3 sec, Gain Knockdown Immunity and lose 7750 MP instead of taking damage, when MP is 0 you lose 1750 HP\\nCooldown: 60 sec",
         "id": 400021060,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802"],
+        "icons": ["/class-icons/5th-job/ethereal-form.png"],
         "animations": ["https://media1.giphy.com/media/PoQHT9CkudFCPj6RBi/giphy.gif"],
         "type": "Buff",
         "desc": "While active, you gain 100% Knockback Resistance and lose a fixed amount of MP instead of taking damage",
@@ -470,7 +470,7 @@ export const commonFifth = {
         "name": "Guided Arrow",
         "shortDesc": "MP Cost: 350, Duration: 60 sec, Arrow Damage: 800% damage 90 times to 1 nearby enemy when in combat\\nCooldown: 60 sec",
         "id": 400031000,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Guided_Arrow.png/revision/latest?cb=20161204065740"],
+        "icons": ["/class-icons/5th-job/guided-arrow.png"],
         "animations": ["https://media0.giphy.com/media/8fKfxe9zlHnmrXuXVJ/giphy.gif"],
         "type": "Summon",
         "desc": "Creates a spirit arrow that seeks and attacks nearby enemies",
@@ -482,7 +482,7 @@ export const commonFifth = {
         "name": "Vicious Shot",
         "shortDesc": "MP Cost: 500, Duration: 30 sec, Allows Critical Rate to exceed 100% and Critical Damage to increase by 45% of Critical Rate.\\nThe attack's additional Critical Rate is not applied.\\nCooldown: 120 sec",
         "id": 400031023,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957"],
+        "icons": ["/class-icons/5th-job/vicious-shot.png"],
         "animations": ["https://media0.giphy.com/media/gLaAUn0lGqbwsnsPyl/giphy.gif"],
         "type": "Buff",
         "desc": "While active, allows your %Crit Rate to exceed 100% and increases your %Crit Damage depending on how much %Crit Rate you have"
@@ -491,7 +491,7 @@ export const commonFifth = {
         "name": "Venom Burst",
         "shortDesc": "MP Cost: 300, Consumes all active Damage-over-Time stacks on up to 12 poisoned enemies in range and instantly inflicts 100% of their remaining damage plus an additional 1000% damage 6 times Additional damage is +15% per remaining second of consumed DoT stacks up to 5\\nAfterwards, spreads the original DoT damage to up to 10 nearby enemies\\nCooldown: 8 sec\\n[Passive Effects - Bonus DoT Chance: 50% to deal 310% damage every 1 sec for 8 sec]",
         "id": 400041000,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Venom_Burst.png/revision/latest?cb=20161204065741"],
+        "icons": ["/class-icons/5th-job/venom-burst.png"],
         "animations": ["https://media3.giphy.com/media/hk99simjA0L918EjM0/giphy.gif"],
         "type": "Attack",
         "desc": "Consumes all active Damage-over-Time stacks on nearby enemies to instantly deal the remaining damage plus some additional %Final Damage",
@@ -504,7 +504,7 @@ export const commonFifth = {
         "name": "Last Resort",
         "shortDesc": "HP Cost: 10% of Max HP, reduces Avoidability (including Bonus Evasion) and increases Final Damage for 30 sec, Hit Damage increased if attacked within a certain percentage of your max HP. Enters 2nd Stage with remaining duration being reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage.\\n1st Stage - Avoidability: -20%, Hit Damage: +10%, Final Damage: +12%\\n2nd Stage - Avoidability: -90%, Hit Damage: +40%, Final Damage: +35%\\nCooldown: 78 sec\\n[Passive Effect - ATT Power: +25]",
         "id": 400041032,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611"],
+        "icons": ["/class-icons/5th-job/last-resort.png"],
         "animations": ["https://media1.giphy.com/media/H9sLPP1J2vVhs6Cmcl/giphy.gif"],
         "type": "Buff",
         "desc": "Reduces your %Avoidability while increases %Final Damage and %Damage Taken from %Max HP attacks",
@@ -517,12 +517,12 @@ export const commonFifth = {
         "name": "Loaded Dice",
         "shortDesc": "MP Cost: 1000, select your desired die roll. If a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%.\\nCooldown: 10 Sec.\\n[Passive Effect: Attack Power: +35]",
         "id": 400051000,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741"],
+        "icons": ["/class-icons/5th-job/loaded-dice.png"],
         "animations": ["https://media0.giphy.com/media/3o34vbKGyVYywzT5tB/giphy.gif"],
         "type": "Buff",
-        "desc": "After casting this skill, the next time you use <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice' width='32' height='32' /> Roll of the Dice, you'll throw an additional dice of your choosing",
+        "desc": "After casting this skill, the next time you use <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice' width='32' height='32' /> Roll of the Dice, you'll throw an additional dice of your choosing",
         "details": [
-            "Classes without <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice' width='32' height='32' /> will be given a special skill to choose their desired number",
+            "Classes without <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice' width='32' height='32' /> will be given a special skill to choose their desired number",
             "<strong>[Passive]</strong>: Permanently grants flat Attack"
         ]
     },
@@ -530,7 +530,7 @@ export const commonFifth = {
         "name": "Overdrive",
         "shortDesc": "HP Cost: 1750, Duration: 30 sec, Attack Power: +70% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power\\nCooldown: 65 sec",
         "id": 400051033,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813"],
+        "icons": ["/class-icons/5th-job/overdrive.png"],
         "animations": ["https://media2.giphy.com/media/rgc0CfIUzypN6jyNrL/giphy.gif"],
         "type": "Buff",
         "desc": "Increases your %Attack but after the effect ends and the skill is on cooldown, you have reduced %Attack"
@@ -540,7 +540,7 @@ export const commonFifth = {
 export const linkSkills = {
     expWarrior: {
         "id": 80002758,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Invincible_Belief.png/revision/latest?cb=20191124005023"],
+        "icons": ["/class-icons/link-skills/invincible-belief.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -550,7 +550,7 @@ export const linkSkills = {
     },
     expMage: {
         "id": 80002762,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304"],
+        "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
         "type": "Passive",
         "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
         "details": [
@@ -561,17 +561,18 @@ export const linkSkills = {
     },
     expArcher: {
         "id":80002766,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130"],
+        "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level",
-            "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE<ul><li>Additionally great for adding monsters to Monster Collection!!</li></ul>"
+            "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE",
+            "Additionally useful for adding monsters to Monster Collection"
         ]
     },
     expThief: {
         "id": 80002770,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726"],
+        "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -581,7 +582,7 @@ export const linkSkills = {
     },
     expPirate: {
         "id":80002774,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502"],
+        "icons": ["/class-icons/link-skills/pirate-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -593,7 +594,7 @@ export const linkSkills = {
     },
     jett: {
         "id":80001151,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Core_Aura.png/revision/latest?cb=20120619031149"],
+        "icons": ["/class-icons/link-skills/core-aura.png"],
         "type": "Passive",
         "desc": "Grants a random amount of STR, DEX, INT, LUK, Attack, and Magic Attack",
         "details": [
@@ -603,7 +604,7 @@ export const linkSkills = {
     },
     cygnusKnights: {
         "id": 80000055,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103"],
+        "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -613,7 +614,7 @@ export const linkSkills = {
     },
     mihile: {
         "id": 80001140,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705"],
+        "icons": ["/class-icons/link-skills/knights-watch.png"],
         "type": "Buff",
         "desc": "",
         "details": [
@@ -622,7 +623,7 @@ export const linkSkills = {
     },
     mercedes: {
         "id":80001040,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Elven_Blessing.png/revision/latest?cb=20110723104642"],
+        "icons": ["/class-icons/link-skills/elven-blessing.png"],
         "type": "Active / Passive",
         "desc": "",
         "details": [
@@ -631,7 +632,7 @@ export const linkSkills = {
     },
     aran: {
         "id":80000370,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Combo_Kill_Blessing.png/revision/latest?cb=20160623050748"],
+        "icons": ["/class-icons/link-skills/combo-kill-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -640,7 +641,7 @@ export const linkSkills = {
     },
     phantom: {
         "id":80000002,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124"],
+        "icons": ["/class-icons/link-skills/phantom-instinct.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -649,7 +650,7 @@ export const linkSkills = {
     },
     luminous: {
         "id":80000005,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Light_Wash.png/revision/latest?cb=20191125065228"],
+        "icons": ["/class-icons/link-skills/light-wash.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -658,7 +659,7 @@ export const linkSkills = {
     },
     evan: {
         "id":80000369,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rune_Persistence.png/revision/latest?cb=20160624211333"],
+        "icons": ["/class-icons/link-skills/rune-persistence.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -667,7 +668,7 @@ export const linkSkills = {
     },
     shade: {
         "id":80000169,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Close_Call.png/revision/latest?cb=20140809015342"],
+        "icons": ["/class-icons/link-skills/close-call.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -676,7 +677,7 @@ export const linkSkills = {
     },
     resistance: {
         "id": 80000329,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212"],
+        "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -686,7 +687,7 @@ export const linkSkills = {
     },
     demonAvenger: {
         "id": 80000050,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Wild_Rage.png/revision/latest?cb=20140623054437"],
+        "icons": ["/class-icons/link-skills/wild-rage.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -695,7 +696,7 @@ export const linkSkills = {
     },
     demonSlayer: {
         "id": 80000001,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Fury_Unleashed.png/revision/latest?cb=20140808220635"],
+        "icons": ["/class-icons/link-skills/fury-unleashed.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -704,7 +705,7 @@ export const linkSkills = {
     },
     xenon: {
         "id": 80000047,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Hybrid_Logic.png/revision/latest?cb=20121223163512"],
+        "icons": ["/class-icons/link-skills/hybrid-logic.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -713,7 +714,7 @@ export const linkSkills = {
     },
     angelicBuster: {
         "id": 80001155,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Terms_and_Conditions.png/revision/latest?cb=20120803105421"],
+        "icons": ["/class-icons/link-skills/terms-and-conditions.png"],
         "type": "Buff",
         "desc": "",
         "details": [
@@ -722,7 +723,7 @@ export const linkSkills = {
     },
     cadena: {
         "id": 80000261,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Unfair_Advantage.png/revision/latest?cb=20171205075511"],
+        "icons": ["/class-icons/link-skills/unfair-advantage.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -732,7 +733,7 @@ export const linkSkills = {
     },
     kaiser: {
         "id": 80000006,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Iron_Will_%28Kaiser%29.png/revision/latest?cb=20120717143209"],
+        "icons": ["/class-icons/link-skills/iron-will.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -741,7 +742,7 @@ export const linkSkills = {
     },
     kain: {
         "id": 60030241,
-        "icons": ["https://i.imgur.com/8ZnGQnN.png"],
+        "icons": ["/class-icons/link-skills/time-to-prepare.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -750,7 +751,7 @@ export const linkSkills = {
     },
     hayato: {
         "id": 80000003,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Keen_Edge.png/revision/latest?cb=20180520131734"],
+        "icons": ["/class-icons/link-skills/keen-edge.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -759,7 +760,7 @@ export const linkSkills = {
     },
     kanna: {
         "id": 80000004,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Elementalism.png/revision/latest?cb=20171223042231"],
+        "icons": ["/class-icons/link-skills/elementalism.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -768,7 +769,7 @@ export const linkSkills = {
     },
     ark: {
         "id": 80000514,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Solus.png/revision/latest?cb=20180815050834"],
+        "icons": ["/class-icons/link-skills/solus.png"],
         "type": "Passive",
         "desc": "While you are in combat state, you gain a stacking %Damage buff",
         "details": [
@@ -777,7 +778,7 @@ export const linkSkills = {
     },
     illium: {
         "id": 80000268,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538"],
+        "icons": ["/class-icons/link-skills/tide-of-battle.png"],
         "type": "Passive",
         "desc": "As you move around, you gain a stacking %Damage buff",
         "details": [
@@ -786,7 +787,7 @@ export const linkSkills = {
     },
     adele: {
         "id": 80002857,
-        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600"],
+        "icons": ["/class-icons/link-skills/noble-fire.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -795,7 +796,7 @@ export const linkSkills = {
     },
     beastTamer: {
         "id": 80010006,
-        "icons": ["https://i.imgur.com/2G1kWET.png"],
+        "icons": ["/class-icons/link-skills/focus-spirit.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -804,7 +805,16 @@ export const linkSkills = {
     },
     hoyoung: {
         "id": 80000609,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Bravado.png/revision/latest?cb=20191117083357"],
+        "icons": ["/class-icons/link-skills/bravado.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for TRAINING because of INCREASED DAMAGE"
+        ]
+    },
+    lara: {
+        "id": 160010001,
+        "icons": ["/class-icons/anima/lara/natures-friend.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -813,7 +823,7 @@ export const linkSkills = {
     },
     kinesis: {
         "id": 80000188,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Judgment_%28Kinesis%29.png/revision/latest?cb=20160610024748"],
+        "icons": ["/class-icons/link-skills/judgment.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -822,7 +832,7 @@ export const linkSkills = {
     },
     zero: {
         "id": 80000110,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609"],
+        "icons": ["/class-icons/link-skills/rhinnes-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [

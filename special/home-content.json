@@ -55,6 +55,20 @@
     ],
     "upcoming": [
         {
+            "title": "Destiny Update: Explorer Remaster",
+            "image": "/home-thumbnail/destiny-explorer-revamp.jpg",
+            "alt": "Destiny Update: Explorer Remaster",
+            "link": "https://orangemushroom.net/2022/01/27/kms-ver-1-2-360-maplestory-destiny-adventurer-remaster/",
+            "subtitle": "Jan 27, 2022"
+        },
+        {
+            "title": "Destiny Update",
+            "image": "/home-thumbnail/destiny.jpg",
+            "alt": "Destiny Update",
+            "link": "https://orangemushroom.net/2021/12/30/kms-ver-1-2-359-maplestory-destiny-starlight-symphony/",
+            "subtitle": "Dec 30, 2021"
+        },
+        {
             "title": "64-bit Client",
             "image": "/home-thumbnail/new-client.jpg",
             "alt": "64-bit Client",
@@ -85,43 +99,50 @@
     ],
     "popularContent": [
         {
+            "title": "Lara Class Overview",
+            "image": "/home-thumbnail/narin.jpg",
+            "alt": "Lara Class Overview",
+            "link": "/anima/lara",
+            "subtitle": "Classes, Anima"
+        },
+        {
             "title": "Progression Guide",
-            "image": "https://i.imgur.com/MKXKOYf.png",
+            "image": "/home-thumbnail/progression.jpg",
             "alt": "Progression Guide",
             "link": "/content/progression-guide",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Shared Cash Shop Inventory",
-            "image": "https://i.imgur.com/fK7UDov.png",
-            "alt": "Tera Burning",
+            "image": "/home-thumbnail/shared-cash.jpg",
+            "alt": "Shared Cash Shop Inventory",
             "link": "/content/shared-cash-shop-inventories",
             "subtitle": "Content, Equipment"
         },
         {
             "title": "Tera Burning",
-            "image": "https://i.imgur.com/Bv7UNPk.png",
+            "image": "/home-thumbnail/tera-burning.jpg",
             "alt": "Tera Burning",
             "link": "/events/tera-burning",
             "subtitle": "Events, Training"
         },
         {
             "title": "Level Content Guide",
-            "image": "https://i.imgur.com/zd4PtjM.png",
+            "image": "/home-thumbnail/level-content-guide.jpg",
             "alt": "Level Content Guide",
             "link": "/content/level-content-guide",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Boss Pre-Quests",
-            "image": "https://i.imgur.com/4QKNQx5.png",
+            "image": "/home-thumbnail/boss-pre-quests.jpg",
             "alt": "Boss Pre-Quests",
             "link": "/content/boss-matchmaking-pre-quests",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Upgrading & Enhancing Equipment",
-            "image": "https://i.imgur.com/J6ocFYJ.png",
+            "image": "/home-thumbnail/upgrade-enhance.jpg",
             "alt": "Upgrading & Enhancing Equipment",
             "link": "/content/upgrading-enhancing-equipment",
             "subtitle": "Content, Equipment"
@@ -130,14 +151,14 @@
     ],
     "popularClasses": [
         {
-            "alt": "Adele",
-            "class": "adele",
-            "path": "flora/adele"
-        },
-        {
             "alt": "Arch Mage F/P",
             "class": "arch-mage-fire-poison",
             "path": "explorers/arch-mage-fire-poison"
+        },
+        {
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
         },
         {
             "alt": "Arch Mage I/L",
@@ -150,29 +171,29 @@
             "path": "explorers/night-lord"
         },
         {
-            "alt": "Dawn Warrior",
-            "class": "dawn-warrior",
-            "path": "cygnus-knights/dawn-warrior"
-        },
-        {
             "alt": "Shadower",
             "class": "shadower",
             "path": "explorers/shadower"
         },
         {
-            "alt": "Dual Blade",
-            "class": "dual-blade",
-            "path": "explorers/dual-blade"
-        },
-        {
-            "alt": "Kain",
-            "class": "kain",
-            "path": "nova/kain"
-        },
-        {
             "alt": "Demon Slayer",
             "class": "demon-slayer",
             "path": "resistance/demon-slayer"
+        },
+        {
+            "alt": "Dawn Warrior",
+            "class": "dawn-warrior",
+            "path": "cygnus-knights/dawn-warrior"
+        },
+        {
+            "alt": "Night Walker",
+            "class": "night-walker",
+            "path": "cygnus-knights/night-walker"
+        },
+        {
+            "alt": "Dual Blade",
+            "class": "dual-blade",
+            "path": "explorers/dual-blade"
         },
         {
             "alt": "Kanna",
