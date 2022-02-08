@@ -103,6 +103,15 @@
                 "Only additional rewards for reaching Lv. 200 to 220 can only be claimed once per account"
             ],
             "tags": "burning delete character mega tera rewards recreate"
+        },
+        {
+            "question": "How do I get the rewards from the Maple Guide?",
+            "answer": [
+                "The main rewards stated in the Maple Guide only show the potential rewards you can obtain from that content and are not guaranteed",
+                "The 'Stamp Requirement' objective when completed allows you to teleport freely to that location regardless of level",
+                "Without the objective completed, you can only teleport to the location if you are within 29 levels of the maximum recommended level"
+            ],
+            "tags": "maple guide main rewards stamp cannot get"
         }
     ],
     "template": {
