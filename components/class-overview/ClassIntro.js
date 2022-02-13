@@ -161,7 +161,7 @@ function ClassProperties({content}) {
 function PropertyBox({skills, classType}) {
   return (
       <div style={{paddingLeft: '0.5rem'}}>
-          <StyledHeaderFive>Skill Preview</StyledHeaderFive>
+          <StyledHeaderFive>Skill Preview<InfoButton tooltip="Click the skill icon to view skill animation"/></StyledHeaderFive>
           { skills.map( skill => 
               <NotableSkill key={skill.name} skill={skill}/>
           )}
