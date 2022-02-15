@@ -204,7 +204,7 @@ function ProgressionGuide() {
                 <li>After talking to the Memory Keeper and Temple Keeper, you'll receive a quest called <a href="https://maplestory.wiki/GMS/210.1.1/quest/1461" target="_blank" rel="noreferrer noopener">"5th Job: Blessing of the Goddess"</a>. Once you've talked to all the Goddesses and completed their challenge, you can job advanced to 5th Job</li>
                 <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/100000201" target="_blank" rel="noreferrer noopener">Henesys: Bowman Instructional School</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
                 <ul>
-                    <li>Talk to "The Goddess of Maple World" to complete the quest</li>
+                    <li>Talk to the "Goddess of Maple World" to complete the quest</li>
                 </ul>
                 </li>
                 <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/105300000" target="_blank" rel="noreferrer noopener">Dark World Tree: Deserted Camp</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
@@ -214,11 +214,7 @@ function ProgressionGuide() {
                 </li>
                 <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/400000001" target="_blank" rel="noreferrer noopener">Pantheon: Grand Temple Interior</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
                 <ul>
-                    <li>After talking to the "Goddess of Grandis", you must defeat Magnus at any difficulty
-                    <ul>
-                        <li>I recommend defeating Easy Magnus</li>
-                    </ul>
-                    </li>
+                    <li>Talk to the "Goddess of Grandis" twice and defeat a weak version of Magnus after being teleported</li>
                 </ul>
                 </li>
                 <li>Each goddess will give you an Arcane Stone which you can charge up by fighting monsters. Once the stone has been charged, you can use it again to gain some EXP
