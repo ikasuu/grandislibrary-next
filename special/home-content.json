@@ -18,6 +18,20 @@
     ],
     "recent": [
         {
+            "title": "Maplehood Watch Returns for 2022!",
+            "image": "/home-thumbnail/maplehood-watch.jpg",
+            "alt": "Maplehood Watch Returns for 2022!",
+            "link": "https://maplestory.nexon.net/news/71772/maplehood-watch-returns-for-2022",
+            "subtitle": "February 11, 2021"
+        },
+        {
+            "title": "Festival of Foodies Patch Notes",
+            "image": "/home-thumbnail/festival-of-foodies.jpg",
+            "alt": "Festival of Foodies Patch Notes",
+            "link": "https://maplestory.nexon.net/news/71736/v-230-festival-of-foodies-patch-notes",
+            "subtitle": "February 8, 2022"
+        },
+        {
             "title": "On Air Tera Burning Plus Part 2!",
             "image": "/home-thumbnail/on-air-tera-burning.jpg",
             "alt": "On Air Tera Burning Plus Part 2!",
@@ -37,20 +51,6 @@
             "alt": "Play as the Earthseer Lara!",
             "link": "https://maplestory.nexon.net/news/70510/play-as-the-earthseer-lara",
             "subtitle": "November 30, 2021"
-        },
-        {
-            "title": "On Air: Glimpse of Joy Patch Notes",
-            "image": "/home-thumbnail/glimpse-of-joy.jpg",
-            "alt": "On Air: Glimpse of Joy Patch Notes",
-            "link": "https://maplestory.nexon.net/news/70205/v-228-on-air-glimpse-of-joy-patch-notes",
-            "subtitle": "November 16, 2021"
-        },
-        {
-            "title": "Marvel Machine Returns!",
-            "image": "/home-thumbnail/marvel-machine.jpg",
-            "alt": "Marvel Machine Returns!",
-            "link": "https://maplestory.nexon.net/news/69255/marvel-machine-returns",
-            "subtitle": "November 5, 2021"
         }
     ],
     "upcoming": [
