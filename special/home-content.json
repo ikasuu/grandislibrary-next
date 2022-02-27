@@ -18,6 +18,13 @@
     ],
     "recent": [
         {
+            "title": "Hot Weeks Return to 2022!",
+            "image": "/home-thumbnail/hot-time.jpg",
+            "alt": "Hot Weeks Return to 2022!",
+            "link": "https://maplestory.nexon.net/news/72613/hot-weeks-return-to-2022",
+            "subtitle": "February 25, 2021"
+        },
+        {
             "title": "Maplehood Watch Returns for 2022!",
             "image": "/home-thumbnail/maplehood-watch.jpg",
             "alt": "Maplehood Watch Returns for 2022!",
@@ -44,13 +51,6 @@
             "alt": "On Air: Glimpse of Joy Patch Notes",
             "link": "https://maplestory.nexon.net/news/70691/v-229-on-air-an-absolute-unit-patch-notes",
             "subtitle": "December 14, 2021"
-        },
-        {
-            "title": "Play as the Earthseer Lara!",
-            "image": "/home-thumbnail/earthseer-lara.jpg",
-            "alt": "Play as the Earthseer Lara!",
-            "link": "https://maplestory.nexon.net/news/70510/play-as-the-earthseer-lara",
-            "subtitle": "November 30, 2021"
         }
     ],
     "upcoming": [
