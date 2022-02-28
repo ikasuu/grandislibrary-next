@@ -112,6 +112,15 @@
                 "Without the objective completed, you can only teleport to the location if you are within 29 levels of the maximum recommended level"
             ],
             "tags": "maple guide main rewards stamp cannot get"
+        },
+        {
+            "question": "Can I transfer Cash Shop items from one character to another?",
+            "answer": [
+                "Characters that belong to the same Class Group share the same Cash Shop inventories",
+                "Items cannot be transferred to characters that do not belong to the same Class Group unless during a 'Cash Shop Transfer' event",
+                "Cash Shop Transfer events occur about 2 to 3 times per year and allows items to be moved between characters even if they do not belong to the same Class Group"
+            ],
+            "tags": "cash shop transfer event character"
         }
     ],
     "template": {
