@@ -22,38 +22,45 @@
             "image": "/home-thumbnail/hot-time.jpg",
             "alt": "Hot Weeks Return to 2022!",
             "link": "https://maplestory.nexon.net/news/72613/hot-weeks-return-to-2022",
-            "subtitle": "February 25, 2021"
+            "subtitle": "Feb 25, 2021"
         },
         {
             "title": "Maplehood Watch Returns for 2022!",
             "image": "/home-thumbnail/maplehood-watch.jpg",
             "alt": "Maplehood Watch Returns for 2022!",
             "link": "https://maplestory.nexon.net/news/71772/maplehood-watch-returns-for-2022",
-            "subtitle": "February 11, 2021"
+            "subtitle": "Feb 11, 2021"
         },
         {
             "title": "Festival of Foodies Patch Notes",
             "image": "/home-thumbnail/festival-of-foodies.jpg",
             "alt": "Festival of Foodies Patch Notes",
             "link": "https://maplestory.nexon.net/news/71736/v-230-festival-of-foodies-patch-notes",
-            "subtitle": "February 8, 2022"
+            "subtitle": "Feb 8, 2022"
         },
         {
             "title": "On Air Tera Burning Plus Part 2!",
             "image": "/home-thumbnail/on-air-tera-burning.jpg",
             "alt": "On Air Tera Burning Plus Part 2!",
             "link": "https://maplestory.nexon.net/news/71119/on-air-tera-burning-plus-part-2",
-            "subtitle": "December 28, 2021"
+            "subtitle": "Dec 28, 2021"
         },
         {
             "title": "On Air: Absolute Unit Patch Notes",
             "image": "/home-thumbnail/absolute-unit-patch-notes.jpg",
             "alt": "On Air: Glimpse of Joy Patch Notes",
             "link": "https://maplestory.nexon.net/news/70691/v-229-on-air-an-absolute-unit-patch-notes",
-            "subtitle": "December 14, 2021"
+            "subtitle": "Dec 14, 2021"
         }
     ],
     "upcoming": [
+        {
+            "title": "Destiny Update: New Boss Kalos",
+            "image": "/home-thumbnail/kalos.jpg",
+            "alt": "Destiny Update: New Boss Kalos",
+            "link": "https://orangemushroom.net/2022/02/24/kms-ver-1-2-361-maplestory-destiny-the-watcher-kalos/",
+            "subtitle": "Feb 24, 2022"
+        },
         {
             "title": "Destiny Update: Explorer Remaster",
             "image": "/home-thumbnail/destiny-explorer-revamp.jpg",
@@ -76,25 +83,18 @@
             "subtitle": "Sept 15, 2021"
         },
         {
-            "title": "Chu Chu Food Festival",
-            "image": "/home-thumbnail/chu-chu-food.jpg",
-            "alt": "Chu Chu Food Festival",
-            "link": "https://orangemushroom.net/2021/09/08/kms-ver-1-2-353-chu-chu-food-festival/",
-            "subtitle": "Sept 8, 2021"
-        },
-        {
             "title": "18th Anniversary: Blooming Forest",
             "image": "/home-thumbnail/kms-18th-anniversary.jpg",
             "alt": "18th Anniversary: Blooming Forest",
             "link": "https://orangemushroom.net/2021/04/21/kms-ver-1-2-347-maplestorys-18th-anniversary-blooming-forest/",
-            "subtitle": "April 21, 2021"
+            "subtitle": "Apr 21, 2021"
         },
         {
             "title": "Yeti x Pink Bean World!",
             "image": "https://i.imgur.com/Rvp6DNo.jpg",
             "alt": "Yeti x Pink Bean World!",
             "link": "https://orangemushroom.net/2021/03/24/kms-ver-1-2-346-yeti-x-pink-bean-world/",
-            "subtitle": "March 24, 2021"
+            "subtitle": "Mar 24, 2021"
         }
     ],
     "popularContent": [
