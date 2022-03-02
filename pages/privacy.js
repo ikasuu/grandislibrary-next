@@ -43,7 +43,7 @@ function Privacy() {
             <Container>
                 <PrivacyTitle>Privacy Policy</PrivacyTitle>
                 <PrivacySubtitle>Last Revised April 14th, 2021</PrivacySubtitle>
-                <p>This page informs you of how Grandis Library ("us", "we", or "our") collects, uses and shares information about you when you use our site grandislibrary.com.</p>
+                <p>This page informs you of how Grandis Library ("us", "we", or "our") collects, uses, and shares information about you when you use our site grandislibrary.com.</p>
                 <p>By using our site, you agree to the collection and use of information in accordance with this policy.</p> 
                 <PrivacySubject>Cloudflare Analytics</PrivacySubject>
                 <p>To monitor and analyze user's use of our site, we use a third party service called Cloudflare Analytics. We use this service to determine the popularity of content and better understand online activity and user behavior. By accessing our site, you consent to the collection and use of your information by Cloudflare Analytics. You are encouraged to review their privacy policy and contact them for repsonses to your questions.</p>
