@@ -42,7 +42,7 @@ function Privacy() {
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
                 <PrivacyTitle>Privacy Policy</PrivacyTitle>
-                <PrivacySubtitle>Last Revised April 14th, 2021</PrivacySubtitle>
+                <PrivacySubtitle>Last Revised March 7th, 2022</PrivacySubtitle>
                 <p>This page informs you of how Grandis Library ("us", "we", or "our") collects, uses, and shares information about you when you use our site grandislibrary.com.</p>
                 <p>By using our site, you agree to the collection and use of information in accordance with this policy.</p> 
                 <PrivacySubject>Cloudflare Analytics</PrivacySubject>
@@ -50,6 +50,7 @@ function Privacy() {
                 <PrivacySubject>Local Storage</PrivacySubject>
                 <p>There are at most two local storage values stored by your browser for our site in your device's storage. Local storage is solely used to determine the theme of the site (dark mode or light mode) and whether to hide skill animations on Class Overviews.</p>
                 <p>Local storage values do not contain any personal data and are only used to provide a more personalized and persistant experience between each page session.</p>
+                <p><em>Note that local storage is different from cookies. Grandis Library does not use any cookies.</em></p>
                 <PrivacySubject>Changes to this Policy</PrivacySubject>
                 <p>We may change this Privacy Policy from time to time to reflect changes to our practices, or for legal, technical, or operational reasons. If we do, we will let you know by revising the date at the top of the policy. By continuing to use our site after Privacy Policy changes go into effect, you agree to be bound by the revised policy.</p>
                 <PrivacySubject>Contact</PrivacySubject>
