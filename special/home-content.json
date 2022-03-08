@@ -151,19 +151,14 @@
     ],
     "popularClasses": [
         {
-            "alt": "Arch Mage F/P",
-            "class": "arch-mage-fire-poison",
-            "path": "explorers/arch-mage-fire-poison"
-        },
-        {
-            "alt": "Adele",
-            "class": "adele",
-            "path": "flora/adele"
-        },
-        {
             "alt": "Arch Mage I/L",
             "class": "arch-mage-ice-lightning",
             "path": "explorers/arch-mage-ice-lightning"
+        },
+        {
+            "alt": "Arch Mage F/P",
+            "class": "arch-mage-fire-poison",
+            "path": "explorers/arch-mage-fire-poison"
         },
         {
             "alt": "Night Lord",
@@ -171,9 +166,24 @@
             "path": "explorers/night-lord"
         },
         {
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
+        },
+        {
             "alt": "Shadower",
             "class": "shadower",
             "path": "explorers/shadower"
+        },
+        {
+            "alt": "Kanna",
+            "class": "kanna",
+            "path": "sengoku/kanna"
+        },
+        {
+            "alt": "Hero",
+            "class": "hero",
+            "path": "explorers/hero"
         },
         {
             "alt": "Demon Slayer",
@@ -181,24 +191,14 @@
             "path": "resistance/demon-slayer"
         },
         {
-            "alt": "Dawn Warrior",
-            "class": "dawn-warrior",
-            "path": "cygnus-knights/dawn-warrior"
-        },
-        {
-            "alt": "Night Walker",
-            "class": "night-walker",
-            "path": "cygnus-knights/night-walker"
-        },
-        {
             "alt": "Dual Blade",
             "class": "dual-blade",
             "path": "explorers/dual-blade"
         },
         {
-            "alt": "Kanna",
-            "class": "kanna",
-            "path": "sengoku/kanna"
+            "alt": "Dawn Warrior",
+            "class": "dawn-warrior",
+            "path": "cygnus-knights/dawn-warrior"
         }
     ]
 }
