@@ -35,21 +35,21 @@ function UpgradeEquipment() {
             <hr/>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2046315/icon" alt="" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2046342/icon" alt="" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2046346/icon" alt="" />
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2046315/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2046342/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2046346/icon" alt=""/>
                   <strong>[</strong><strong>Regular Scrolls]: </strong>When a regular scroll succeeds, it will increase the stats of equipment by a flat amount
               </li>
             </ul>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2613050/icon" alt="" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2046876/icon" alt="" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2048094/icon" alt="" />
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2048095/icon" alt="" /><strong>[Special Regular Scrolls]: </strong>There are also other scrolls obtainable from <a href="http://maplestory.nexon.net/micro-site/37241" target="_blank" rel="noreferrer noopener">Gachapon</a>, <a href="http://maplestory.nexon.net/game/marvel-machine" target="_blank" rel="noreferrer noopener">Marvel Machine</a>,
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2613050/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2046876/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048094/icon" alt=""/>
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2048095/icon" alt=""/><strong>[Special Regular Scrolls]: </strong>There are also other scrolls obtainable from <a href="http://maplestory.nexon.net/micro-site/37241" target="_blank" rel="noreferrer noopener">Gachapon</a>, <a href="http://maplestory.nexon.net/game/marvel-machine" target="_blank" rel="noreferrer noopener">Marvel Machine</a>,
                   etc. (aka loot boxes) that provide better stats than Spell Tracing and regular scrolls. Keep in mind these are very expensive and are usually used late game to maximize damage. As well, the best scrolls most of the time also have
                   bad success rates and may destroy items so, they may cost extra to buy items that prevent items from being destroyed or losing an upgrade slot
               </li>
             </ul>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/219/item/2046991/icon" alt="" /><img src="https://maplestory.io/api/GMS/219/item/2046992/icon" alt="" /><strong>[Magical Scroll]: </strong>Weapon scrolls that grant 9 to 11 Attack or Magic
+                  <img src="https://maplestory.io/api/GMS/219/item/2046991/icon" alt=""/><img src="https://maplestory.io/api/GMS/219/item/2046992/icon" alt=""/><strong>[Magical Scroll]: </strong>Weapon scrolls that grant 9 to 11 Attack or Magic
                   Attack +3 all stats
                   <ul>
                       <li>Obtainable from Gachapon</li>
@@ -58,7 +58,7 @@ function UpgradeEquipment() {
             </ul>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2612043/icon" alt="" /> <strong>[9th Anniversary Prime Scrolls]: </strong>Grants +3 all stats and Weapon Prime Scrolls provide +10 Attack and Magic Attack. Has a 40% chance to
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2612043/icon" alt=""/> <strong>[9th Anniversary Prime Scrolls]: </strong>Grants +3 all stats and Weapon Prime Scrolls provide +10 Attack and Magic Attack. Has a 40% chance to
                   succeed and 30% to destroy item on failure. Scrolling with these scrolls is also referred to as <strong>Priming</strong>
                   <ul>
                     <li> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2613042" target="_blank">One-Handed Weapon</a>, <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2612043" target="_blank">Two-Handed Weapon</a>, <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2615026" target="_blank">Accessory</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2616057" target="_blank">Armor</a>
@@ -69,7 +69,7 @@ function UpgradeEquipment() {
             </ul>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2613050/icon" alt="" /> <strong>[X Scrolls]: </strong>Weapon scrolls that grant 10 to 12 Attack or Magic Attack and +5 all stats when applied. Has a 100% Success Rate. There are
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2613050/icon" alt=""/> <strong>[X Scrolls]: </strong>Weapon scrolls that grant 10 to 12 Attack or Magic Attack and +5 all stats when applied. Has a 100% Success Rate. There are
                   also Pet Equip scrolls that grant 5 to 7 Attack or Magic Attack
                   <ul>
                     <li>
@@ -84,8 +84,8 @@ function UpgradeEquipment() {
             </ul>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2046856/icon" alt="" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2046857/icon" alt="" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2048094/icon" alt="" />
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2048095/icon" alt="" /> <strong>[Premium Scrolls]:</strong> Grants 4 to 5 Attack or Magic Attack when applied
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2046856/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2046857/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048094/icon" alt=""/>
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2048095/icon" alt=""/> <strong>[Premium Scrolls]:</strong> Grants 4 to 5 Attack or Magic Attack when applied
                   <ul>
                     <li>Obtainable from Gachapon and occasionally from Event Coin Shops</li>
                   </ul>
@@ -93,7 +93,7 @@ function UpgradeEquipment() {
             </ul>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2049300/icon" alt="" /> <strong>[Equip Enhancement Scroll]</strong>: These scrolls provides <strong>one star force</strong> (enhancement [1], refer to image at top) on success
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2049300/icon" alt=""/> <strong>[Equip Enhancement Scroll]</strong>: These scrolls provides <strong>one star force</strong> (enhancement [1], refer to image at top) on success
               </li>
               <li>
                   <strong>[Pure Equipment Enhancement Scroll]: </strong>The Pure version scrolls are mainly used on Tyrant or <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">"Superior"</a> gear because it does not destroy an item on failure
@@ -358,7 +358,7 @@ function UpgradeEquipment() {
             <p>Equipment can come with Bonus Stats. The stats can be categorized into Tiers. There are a total of 7 tiers with 7 being the highest and providing the most stat boosts. Boss Equipment & KMS equipment tends to have higher tiers of Bonus Stats compared to items outside of KMS (for example Gollux accessories & Sweetwater). More info can be found at the bottom of the page on Bonus Stats</p>
             <p>To reroll Bonus Stats, you need to use items called "Rebirth Flames". Regular rebirth flames that have a "LV. X" attached to it can only reroll certain items up to that specified level and are dropped by Bosses. These regular flames yield lower tiers compared to special ones. You can identify which equipment can be flamed by hovering over them and checking the top left corner of the equipment icon. If there is a transparent dot, it can be flamed with regular rebirth flames. If there is a white dot, it can only be flamed with special rebirth flames</p>
             <p><img src="https://maplestory.io/api/GMS/210.1.1/item/2048700/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048701/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048702/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048703/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048704/icon" alt=""/> Regular Rebirth Flames: <a href="https://maplestory.wiki/GMS/210.1.1/item/2048700" target="_blank" rel="noreferrer noopener">[Lv. 110]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048701" target="_blank" rel="noreferrer noopener">[Lv. 120]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048702" target="_blank" rel="noreferrer noopener">[Lv. 130]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048703" target="_blank" rel="noreferrer noopener">[Lv. 140]</a>, and <a href="https://maplestory.wiki/GMS/214/item/2048704" target="_blank" rel="noreferrer noopener">[Lv. 150]</a></p>
-            <p><img src="https://maplestory.io/api/GMS/210.1.1/item/2048716/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048717/icon" alt=""/> Special Rebirth Flames: <a href="https://maplestory.wiki/GMS/214/item/2048716">[Powerful Rebirth Flame]</a> and <a href="https://maplestory.wiki/GMS/214/item/2048717" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a></p>
+            <p><img src="/images/items/powerful-rebirth-flame.png" alt=""/><img src="/images/items/eternal-rebirth-flame.png" alt=""/> Special Rebirth Flames: <a href="https://maplestory.wiki/GMS/214/item/2048716">[Powerful Rebirth Flame]</a> and <a href="https://maplestory.wiki/GMS/214/item/2048717" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a></p>
             <p>Powerful Rebirth Flames and Eternal Rebirth Flames can reroll any equipment with Bonus Stats. They can also provide the best Bonus Stats possible. These special Rebirth Flames can be crafted, sold in Event Shops, given from Fairy Bros' Daily Gift or sometimes dropped by Elite Monsters and Bosses</p>
             <p>Additionally, there is a special Rebirth Flame called the <img src="https://maplestory.io/api/GMS/214/item/2048753/icon" alt="Black Rebirth Flame"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2048753" target="_blank">Black Rebirth Flame</a> that is only available from Event Shops which functions just like an Eternal Rebirth Flame but you can choose between your previous stats or the current ones similar to the <img src="https://maplestory.io/api/GMS/214/item/5062010/icon" alt="Black Cube"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5062010" target="_blank">Black Cube</a> for Potentials</p>
             <h4>Item Dots <em data-preserve-html-node="true">(refer to [04] on the top image)</em></h4>

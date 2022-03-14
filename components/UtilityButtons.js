@@ -95,13 +95,13 @@ export function QuickJump({settings, setSettings}) {
                 <MenuItem onClick={handleClose}><MenuLink href="#property"><a>Class Properties</a></MenuLink></MenuItem>
                 <MenuItem onClick={handleClose}><MenuLink href="#stat"><a>Base Stats</a></MenuLink></MenuItem>
                 <MenuItem onClick={handleClose}><MenuLink href="#skill"><a>Skill Info</a></MenuLink></MenuItem>
-                <Divider variant="middle" />
+                <Divider variant="middle"/>
                 <MenuHeader>Settings</MenuHeader>
                 <FormGroup>
                     <FormControlLabel
                         control={<Switch color="primary" checked={settings.animations} onChange={handleChange} name="animations"/>}
                         label="Skill Animations"
-                    />
+                   />
                 </FormGroup>
             </Menu>
         </div>

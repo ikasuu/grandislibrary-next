@@ -15,7 +15,7 @@ function LinkSkills() {
             <meta content={"An explanation of Link Skills and a list of all Link Skills and their effects"} name="description"/>
         </Head>
         <ContentTitle>Link Skills</ContentTitle>
-        <p><img className="repository-image" src="https://i.imgur.com/MuIiQA4.png" alt="Link Manager UI"/></p>
+        <p><img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager UI"/></p>
         <p>Link Skills are unique to each class and can be given to your other characters on the same world. Link Skills mostly come as passives but there are a few Active Link Skills too</p>
         <p>Once a character reaches Level 70, they can share their Link Skill with another character. When you Share your Link Skill, both characters will gain the effect of the Link Skill. Sometimes Link Skills may have different effects for the character with the linked version. Link Skills grow stronger at Level 120 (Skill Level 2) and most grow stronger again at Level 210 (Skill Level 3). Some Link Skills can stack increasing the strength of the Link Skill by linking the same Link Skill multiple times from different characters of the same class group</p>
         <p>A character can have up to 12 Link Skills (13 if considering themselves) linked to them at one time and each Link Skill can only be linked to one character at a time. Each Link Skill can be linked to a different character up to 10 times per day. The first 4 times are free however and will cost Mesos afterwards</p>
@@ -38,224 +38,224 @@ function LinkSkills() {
           <li><Link smooth href="#notable" scroll>Notable Link Skills</Link></li>
           <li><Link smooth href="#builds" scroll>Examples of Link Skill Builds</Link></li>
         </ul>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="explorers">Explorers</h2>
-        <hr />
+        <hr/>
         <p><strong>[Hero, Paladin and Dark Knight]</strong></p>
         <SingleSkill skillData={linkSkills.expWarrior}/>
-        <hr />
+        <hr/>
         <p><strong>[Bishop, Arch Mage (Ice, Lightning) and Arch Mage (Fire, Poision)]</strong></p>
         <SingleSkill skillData={linkSkills.expMage}/>
-        <hr />
+        <hr/>
         <p><strong>[Bow Master, Marksman and Pathfinder]</strong></p>
         <SingleSkill skillData={linkSkills.expArcher}/>
-        <hr />
+        <hr/>
         <p><strong>[Shadower, Night Lord, and Dual Blade]</strong></p>
         <SingleSkill skillData={linkSkills.expThief}/>
-        <hr />
+        <hr/>
         <p><strong>[Corsair, Buccaneer, and Cannoneer]</strong></p>
         <SingleSkill skillData={linkSkills.expPirate}/>
-        <hr />
+        <hr/>
         <p><strong>[Jett]</strong></p>
         <SingleSkill skillData={linkSkills.jett}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="cygnusknights">Cygnus Knights</h2>
-        <hr />
+        <hr/>
         <p><strong>[Dawn Warrior, Wind Archer, Thunder Breaker, Night Walker, and Blaze Wizard]</strong></p>
         <SingleSkill skillData={linkSkills.cygnusKnights}/>
-        <hr />
+        <hr/>
         <p><strong>[Mihile]</strong></p>
         <SingleSkill skillData={linkSkills.mihile}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="heroes">Heroes</h2>
-        <hr />
+        <hr/>
         <p><strong>[Mercedes]</strong></p>
         <SingleSkill skillData={linkSkills.mercedes}/>
-        <hr />
+        <hr/>
         <p><strong>[Aran]</strong></p>
         <SingleSkill skillData={linkSkills.aran}/>
-        <hr />
+        <hr/>
         <p><strong>[Phantom]</strong></p>
         <SingleSkill skillData={linkSkills.phantom}/>
-        <hr />
+        <hr/>
         <p><strong>[Luminous]</strong></p>
         <SingleSkill skillData={linkSkills.luminous}/>
-        <hr />
+        <hr/>
         <p><strong>[Evan] </strong></p>
         <SingleSkill skillData={linkSkills.evan}/>
-        <hr />
+        <hr/>
         <p><strong>[Shade] </strong></p>
         <SingleSkill skillData={linkSkills.shade}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="resistance">Resistance</h2>
-        <hr />
+        <hr/>
         <p><strong>[Wild Hunter, Battle Mage, Mechanic, and Blaster]</strong></p>
         <SingleSkill skillData={linkSkills.resistance}/>
-        <hr />
+        <hr/>
         <p><strong>[Demon Avenger]</strong></p>
         <SingleSkill skillData={linkSkills.demonAvenger}/>
-        <hr />
+        <hr/>
         <p><strong>[Demon Slayer]</strong></p>
         <SingleSkill skillData={linkSkills.demonSlayer}/>
-        <hr />
+        <hr/>
         <p><strong>[Xenon]</strong></p>
         <SingleSkill skillData={linkSkills.xenon}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="nova">Nova</h2>
-        <hr />
+        <hr/>
         <p><strong>[Angelic Buster]</strong></p>
         <SingleSkill skillData={linkSkills.angelicBuster}/>
-        <hr />
+        <hr/>
         <p><strong>[Cadena] </strong></p>
         <SingleSkill skillData={linkSkills.cadena}/>
-        <hr />
+        <hr/>
         <p><strong>[Kaiser] </strong></p>
         <SingleSkill skillData={linkSkills.kaiser}/>
         <p><strong>[Kain] </strong></p>
         <SingleSkill skillData={linkSkills.kain}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="sengoku">Sengoku</h2>
-        <hr />
+        <hr/>
         <p><strong>[Hayato] </strong></p>
         <SingleSkill skillData={linkSkills.hayato}/>
-        <hr />
+        <hr/>
         <p><strong>[Kanna] </strong></p>
         <SingleSkill skillData={linkSkills.kanna}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="flora">Flora</h2>
-        <hr />
+        <hr/>
         <p><strong>[Ark] </strong></p>
         <SingleSkill skillData={linkSkills.ark}/>
-        <hr />
+        <hr/>
         <p><strong>[Illium] </strong></p>
         <SingleSkill skillData={linkSkills.illium}/>
-        <hr />
+        <hr/>
         <p><strong>[Adele] </strong></p>
         <SingleSkill skillData={linkSkills.adele}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="anima">Anima</h2>
-        <hr />
+        <hr/>
         <p><strong>[Hoyoung]</strong></p>
         <SingleSkill skillData={linkSkills.hoyoung}/>
-        <hr />
+        <hr/>
         <p><strong>[Lara]</strong></p>
         <SingleSkill skillData={linkSkills.lara}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="other">Other</h2>
-        <hr />
+        <hr/>
         <p><strong>[Beast Tamer] </strong></p>
         <SingleSkill skillData={linkSkills.beastTamer}/>
-        <hr />
+        <hr/>
         <p><strong>[Kinesis]</strong></p>
         <SingleSkill skillData={linkSkills.kinesis}/>
-        <hr />
+        <hr/>
         <p><strong>[Zero] </strong></p>
         <SingleSkill skillData={linkSkills.zero}/>
-        <hr />
+        <hr/>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="notable">Notable Link Skills:</h2>
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img width="32" height="32" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>
         <ul>
-          <li><img src="/class-icons/link-skills/solus.png" alt="Skill Solus" width="32" height="32" /> <strong>[Ark] </strong>- %Damage</li>
-          <li><img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage" width="32" height="32" /> <strong>[Demon Avenger] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/solus.png" alt="Skill Solus" width="32" height="32"/> <strong>[Ark] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage" width="32" height="32"/> <strong>[Demon Avenger] </strong>- %Damage</li>
           <li>
-              <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32" /> <strong>[Explorer Thieves] </strong>- %Damage
+              <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32"/> <strong>[Explorer Thieves] </strong>- %Damage
               (for classes with debuffs)
           </li>
           <li>
-              <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing" width="32" height="32" /> <strong>[Explorer Pirates] </strong>- All Stats
+              <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing" width="32" height="32"/> <strong>[Explorer Pirates] </strong>- All Stats
               (affected by %Stat)
           </li>
-          <li><img src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle" width="32" height="32" /> <strong>[Illium] </strong>- %Damage</li>
-          <li><img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism" width="32" height="32" /> <strong>[Kanna] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle" width="32" height="32"/> <strong>[Illium] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism" width="32" height="32"/> <strong>[Kanna] </strong>- %Damage</li>
           <li>
-              <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)" width="32" height="32" /> <strong>[Kinesis] </strong>- %Crit
+              <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)" width="32" height="32"/> <strong>[Kinesis] </strong>- %Crit
               Damage
           </li>
-          <li><img src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic" width="32" height="32" /> <strong>[Xenon] </strong>- %All Stat</li>
+          <li><img src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic" width="32" height="32"/> <strong>[Xenon] </strong>- %All Stat</li>
         </ul>
         <h3>For Bossing + Ignore DEF:</h3>
         <ul>
           <li>
-              <img src="/class-icons/link-skills/terms-and-condition.png" alt="Skill Terms and Conditions" width="32" height="32" />
+              <img src="/class-icons/link-skills/terms-and-condition.png" alt="Skill Terms and Conditions" width="32" height="32"/>
               <strong>[Angelic Buster] </strong>- For Burst skills
           </li>
           <li><strong>[Adele] </strong>- %Boss Damage</li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32" /> <strong>[Beast Tamer] </strong>- %Boss Damage, %Crit
+              <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32"/> <strong>[Beast Tamer] </strong>- %Boss Damage, %Crit
               Rate and %Max HP/MP
           </li>
           <li>
-              <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing" width="32" height="32" /> <strong>[Cygnus Knights] </strong>- Useful for
+              <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing" width="32" height="32"/> <strong>[Cygnus Knights] </strong>- Useful for
               Abnormal Status Resistance and slight damage boost
           </li>
           <li>
-              <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed" width="32" height="32" /> <strong>[Demon Slayer] </strong>- %Boss Damage
+              <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed" width="32" height="32"/> <strong>[Demon Slayer] </strong>- %Boss Damage
           </li>
           <li>
-              <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge" width="32" height="32" /> <strong>[Explorer Mages] </strong>-
+              <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge" width="32" height="32"/> <strong>[Explorer Mages] </strong>-
               %Ignore DEF
           </li>
-          <li><img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash" width="32" height="32" /> <strong>[Luminous] </strong>- %Ignore DEF</li>
+          <li><img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash" width="32" height="32"/> <strong>[Luminous] </strong>- %Ignore DEF</li>
           <li>
-              <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch" width="32" height="32" /><strong> [Mihile] </strong>- 100% Knockback
+              <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch" width="32" height="32"/><strong> [Mihile] </strong>- 100% Knockback
               Resistance buff for classes with &lt; 100% resistance
           </li>
           <li>
-              <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom" width="32" height="32" /> <strong>[Resistance] </strong>- iFrames
+              <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom" width="32" height="32"/> <strong>[Resistance] </strong>- iFrames
               after reviving
           </li>
           <li>
-              <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call" width="32" height="32" /> <strong>[Shade] </strong>- Utility, chance to not die from
+              <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call" width="32" height="32"/> <strong>[Shade] </strong>- Utility, chance to not die from
               fatal attacks
           </li>
-          <li><img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing" width="32" height="32" /> <strong>[Zero] </strong>- %Ignore DEF</li>
+          <li><img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing" width="32" height="32"/> <strong>[Zero] </strong>- %Ignore DEF</li>
         </ul>
         <h3>For Training:</h3>
         <ul>
           <li>
-              <img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing" width="32" height="32" /> <strong>[Aran] </strong>- Useful for
+              <img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing" width="32" height="32"/> <strong>[Aran] </strong>- Useful for
               pre-200
           </li>
           <li>
-              <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage" width="32" height="32" /> <strong>[Cadena] </strong>- Increased %Damage
+              <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage" width="32" height="32"/> <strong>[Cadena] </strong>- Increased %Damage
               to lower level enemies + enemies with Abnormal Statuses
           </li>
           <li>
-              <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32" /> <strong>[Evan] </strong>- Useful all levels
+              <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32"/> <strong>[Evan] </strong>- Useful all levels
               especially pre-200
           </li>
           <li>
-              <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado" width="32" height="32" /> <strong>[Hoyoung] </strong>- Useful if you need a small boost to
+              <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado" width="32" height="32"/> <strong>[Hoyoung] </strong>- Useful if you need a small boost to
               one-shot enemies
           </li>
           <li>
-              <img src="/class-icons/link-skills/iron-will.png" alt="Skill Iron Will (Kaiser)" width="32" height="32" /> <strong>[Kaiser] </strong>- For
+              <img src="/class-icons/link-skills/iron-will.png" alt="Skill Iron Will (Kaiser)" width="32" height="32"/> <strong>[Kaiser] </strong>- For
               pre-200 if you die a lot
           </li>
           <li>
-              <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)" width="32" height="32" />
+              <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)" width="32" height="32"/>
               <strong>[Mercedes] </strong>- Best results for training Lv. 200+
           </li>
         </ul>
         <h3>For Low Crit Rate:</h3>
         <ul>
           <li>
-              <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32" />
+              <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32"/>
               <strong>[Explorer Archers] - </strong>Up to 10%
           </li>
-          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32" /> <strong>[Beast Tamer] </strong>- Up to 10%</li>
-          <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct" width="32" height="32" /> <strong>[Phantom] </strong>- Up to 20%</li>
+          <li><img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32"/> <strong>[Beast Tamer] </strong>- Up to 10%</li>
+          <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct" width="32" height="32"/> <strong>[Phantom] </strong>- Up to 20%</li>
         </ul>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="builds">Examples of Link Skill Builds:</h2>

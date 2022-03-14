@@ -31,14 +31,14 @@ function MyApp({ Component, pageProps }) {
     <div id="container">
       <Head>
         <title>Grandis Library</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" property="og:description" content="A collection of MapleStory guides, resources and information." key="desc" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+        <meta name="description" property="og:description" content="A collection of MapleStory guides, resources and information." key="desc"/>
       </Head>
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyle/>
               <MainNavbar setTheme={setTheme} theme={theme}/>
-              <div id="main-content"><Component {...pageProps} /></div>
+              <div id="main-content"><Component {...pageProps}/></div>
             <Footer/>
         </>
       </ThemeProvider>

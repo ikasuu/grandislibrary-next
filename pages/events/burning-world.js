@@ -57,9 +57,9 @@ function BurningWorld() {
                     <img src="https://maplestory.io/api/GMS/214/item/2433444/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener">[Use] Legendary Cryptic Chest</a>
                     <ul>
                         <li>
-                            Contains Lv. 100 Frozen Gear <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Onyx_Maple_Hat.png/revision/latest?cb=20180509152508" alt="Eqp Onyx Maple Hat" width="33" height="24" />
-                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Eqp_Onyx_Maple_Suit.png/revision/latest?cb=20180516204357" alt="Eqp Onyx Maple Suit" width="28" height="29" />
-                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Eqp_Onyx_Maple_Cape.png/revision/latest?cb=20180516202756" alt="Eqp Onyx Maple Cape" width="31" height="30" />
+                            Contains Lv. 100 Frozen Gear <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Onyx_Maple_Hat.png/revision/latest?cb=20180509152508" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
+                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Eqp_Onyx_Maple_Suit.png/revision/latest?cb=20180516204357" alt="Eqp Onyx Maple Suit" width="28" height="29"/>
+                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Eqp_Onyx_Maple_Cape.png/revision/latest?cb=20180516202756" alt="Eqp Onyx Maple Cape" width="31" height="30"/>
                             <ul>
                                 <li>Consists of Hat, Overall, Cape, Weapon, and Secondary Weapon</li>
                             </ul>
@@ -67,7 +67,7 @@ function BurningWorld() {
                     </ul>
                 </li>
                 <li>
-                    <img class="" src="https://vignette.wikia.nocookie.net/maplestory/images/8/83/Use_Mastery_Box.png/revision/latest?cb=20181115044138" alt="Use Mastery Box" width="29" height="24" />
+                    <img class="" src="/images/items/mastery-box.png" alt="Use Mastery Box" width="29" height="24"/>
                     <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener"> [Use] Mastery Box (x8)</a>
                 </li>
                 <li>
