@@ -1395,7 +1395,7 @@ function Glory() {
                 </li>
                 <li>
                     New equipment, <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/18/Eqp_Numenal%27s_Willpower.png/revision/latest?cb=20200102153019" alt="Eqp Numenal's Willpower" width="32" height="32"/>
-                    <a href="https://maplestory.wiki/GMS/214/item/1032314" target="_blank" rel="noreferrer noopener">Numenal's Willpower</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Eqp_Glona%27s_Heart.png/revision/latest?cb=20200116033305" alt="Eqp Glona's Heart" width="30" height="30"/>
+                    <a href="https://maplestory.wiki/GMS/214/item/1032314" target="_blank" rel="noreferrer noopener">Numenal's Willpower</a>, <img src="/images/equipment/glonas-heart.png" alt="Eqp Glona's Heart" width="30" height="30"/>
                     <a href="https://maplestory.wiki/GMS/214/item/1113305" target="_blank" rel="noreferrer noopener">Glona's Heart</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Eqp_Legacy_of_Light.png/revision/latest?cb=20200103144348" alt="Eqp Legacy of Light" width="32" height="32"/>
                     <a href="https://maplestory.wiki/GMS/214/item/1122438" target="_blank" rel="noreferrer noopener">Legacy of Light</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Eqp_Legacy_of_Darkness.png/revision/latest?cb=20200103144509" alt="Eqp Legacy of Darkness" width="34" height="34"/>
                     <a href="https://maplestory.wiki/GMS/214/item/1122439" target="_blank" rel="noreferrer noopener">Legacy of Darkness</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Eqp_Delgrund%27s_Honor.png/revision/latest?cb=20200116035209" alt="Eqp Delgrund's Honor" width="31" height="31"/>
@@ -1547,7 +1547,7 @@ function HieizanTemple() {
                     <a href="https://maplestory.fandom.com/wiki/Category:Princess_No" target="_blank" rel="noreferrer noopener">Princess No</a>
                 </li>
                 <li>
-                    New equipment, <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Eqp_Princess_No%27s_Accursed_Arrow.png/revision/latest?cb=20170904025120" alt="Eqp Princess No's Accursed Arrow" width="37" height="36"/>
+                    New equipment, <img src="/images/equipment/princess-nos-accursed-arrow.png" alt="Eqp Princess No's Accursed Arrow" width="37" height="36"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/cd/Eqp_Princess_No%27s_Feather.png/revision/latest?cb=20170902232433" alt="Eqp Princess No's Feather" width="36" height="36"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/27/Eqp_Princess_No_Path.png/revision/latest?cb=20180701141900" alt="Eqp Princess No Path" width="35" height="35"/>
                     <a href="https://maplestory.fandom.com/wiki/Captivating_Fragment" target="_blank" rel="noreferrer noopener">P. No Secondaries</a>
@@ -1906,7 +1906,7 @@ function MarkOfHonor() {
                     New equipment, <img src="https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Eqp_Royal_Warrior_Helm.png/revision/latest?cb=20150112211030" alt="Eqp Royal Warrior Helm" width="36" height="28"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Eagle_Eye_Warrior_Armor.png/revision/latest?cb=20160501235236" alt="Eqp Eagle Eye Warrior Armor" width="29" height="24"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/09/Eqp_Trixter_Warrior_Pants.png/revision/latest?cb=20160502025844" alt="Eqp Trixter Warrior Pants" width="23" height="28"/>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Eqp_Fafnir_Mistilteinn.png/revision/latest?cb=20151107043901" alt="Eqp Fafnir Mistilteinn" width="35" height="35"/> Lv.150 Root Abyss set, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Eqp_Amaterasu%27s_Helm.png/revision/latest?cb=20161116022415" alt="Eqp Amaterasu's Helm" width="38" height="40"/>
+                    <img src="/images/equipment/fafnir-mistilteinn.png" alt="Eqp Fafnir Mistilteinn" width="35" height="35"/> Lv.150 Root Abyss set, <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm" width="38" height="40"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Eqp_Amaterasu%27s_Epaulet.png/revision/latest?cb=20190806072327" alt="Eqp Amaterasu's Epaulet" width="27" height="26"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/85/Eqp_Tsukuyomi%27s_Execution_Sword.png/revision/latest?cb=20190808082454" alt="Eqp Tsukuyomi's Execution Sword" width="36" height="29"/> Lv. 150 Japanese
                     Myth Armor

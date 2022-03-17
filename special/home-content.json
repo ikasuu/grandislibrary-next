@@ -18,18 +18,31 @@
     ],
     "recent": [
         {
+            "title": "Double Trouble Superstars Patch Notes",
+            "image": "/home-thumbnail/double-trouble.jpg",
+            "alt": "Double Trouble Superstars Patch Notes",
+            "link": "https://maplestory.nexon.net/news/72827/v-231-double-trouble-superstars-patch-notes",
+            "subtitle": "Mar 15, 2022"
+        },        {
+            "title": "The Marvel Machine Returns!",
+            "image": "/home-thumbnail/marvel-machine.jpg",
+            "alt": "The Marvel Machine Returns!",
+            "link": "https://maplestory.nexon.net/news/72863/the-marvel-machine-returns-march-18",
+            "subtitle": "Mar 14, 2022"
+        },
+        {
             "title": "Hot Weeks Return to 2022!",
             "image": "/home-thumbnail/hot-time.jpg",
             "alt": "Hot Weeks Return to 2022!",
             "link": "https://maplestory.nexon.net/news/72613/hot-weeks-return-to-2022",
-            "subtitle": "Feb 25, 2021"
+            "subtitle": "Feb 25, 2022"
         },
         {
             "title": "Maplehood Watch Returns for 2022!",
             "image": "/home-thumbnail/maplehood-watch.jpg",
             "alt": "Maplehood Watch Returns for 2022!",
             "link": "https://maplestory.nexon.net/news/71772/maplehood-watch-returns-for-2022",
-            "subtitle": "Feb 11, 2021"
+            "subtitle": "Feb 11, 2022"
         },
         {
             "title": "Festival of Foodies Patch Notes",
@@ -37,20 +50,6 @@
             "alt": "Festival of Foodies Patch Notes",
             "link": "https://maplestory.nexon.net/news/71736/v-230-festival-of-foodies-patch-notes",
             "subtitle": "Feb 8, 2022"
-        },
-        {
-            "title": "On Air Tera Burning Plus Part 2!",
-            "image": "/home-thumbnail/on-air-tera-burning.jpg",
-            "alt": "On Air Tera Burning Plus Part 2!",
-            "link": "https://maplestory.nexon.net/news/71119/on-air-tera-burning-plus-part-2",
-            "subtitle": "Dec 28, 2021"
-        },
-        {
-            "title": "On Air: Absolute Unit Patch Notes",
-            "image": "/home-thumbnail/absolute-unit-patch-notes.jpg",
-            "alt": "On Air: Glimpse of Joy Patch Notes",
-            "link": "https://maplestory.nexon.net/news/70691/v-229-on-air-an-absolute-unit-patch-notes",
-            "subtitle": "Dec 14, 2021"
         }
     ],
     "upcoming": [
@@ -76,25 +75,11 @@
             "subtitle": "Dec 30, 2021"
         },
         {
-            "title": "64-bit Client",
-            "image": "/home-thumbnail/new-client.jpg",
-            "alt": "64-bit Client",
-            "link": "https://orangemushroom.net/2021/09/15/kms-ver-1-2-354-64-bit-client/",
-            "subtitle": "Sept 15, 2021"
-        },
-        {
             "title": "18th Anniversary: Blooming Forest",
             "image": "/home-thumbnail/kms-18th-anniversary.jpg",
             "alt": "18th Anniversary: Blooming Forest",
             "link": "https://orangemushroom.net/2021/04/21/kms-ver-1-2-347-maplestorys-18th-anniversary-blooming-forest/",
             "subtitle": "Apr 21, 2021"
-        },
-        {
-            "title": "Yeti x Pink Bean World!",
-            "image": "https://i.imgur.com/Rvp6DNo.jpg",
-            "alt": "Yeti x Pink Bean World!",
-            "link": "https://orangemushroom.net/2021/03/24/kms-ver-1-2-346-yeti-x-pink-bean-world/",
-            "subtitle": "Mar 24, 2021"
         }
     ],
     "popularContent": [
