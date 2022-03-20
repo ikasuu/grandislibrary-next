@@ -121,7 +121,7 @@ function WorldMap(){
         <div>
             <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h3 id="world-map">W - World Map</h3>
-            <img className="repository-image" src="https://i.imgur.com/Zc3jRlG.png" alt="World Map"/>
+            <img className="repository-image" src="/images/info/world-map-ui.png" alt="World Map"/>
             <p>Here you can view all areas in the game that have world maps</p>
             <p>At the top left corner, you can view the 3 major collections of areas, Maple World, Grandis, and Arcane River. Maple World and Grandis are the two dimensions and Arcane River is an Lv. 200 area. Right beside it, you can select a specific region within that area</p>
             <p>You can Left-Click into specific areas in the World Map and also Right-Click to expand and go backward</p>

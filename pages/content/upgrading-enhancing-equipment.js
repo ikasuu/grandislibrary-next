@@ -124,7 +124,7 @@ function UpgradeEquipment() {
             </ul>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2049370/icon" alt=""/><strong> [Star Enhancement Scrolls]: </strong>These scrolls grant you a certain amount of <strong>star force/enhancements</strong> at a 100% rate
+                  <img src="/images/items/star-enhancement-scroll.png" alt=""/><strong> [Star Enhancement Scrolls]: </strong>These scrolls grant you a certain amount of <strong>star force/enhancements</strong> at a 100% rate
                   <ul>
                       <li>This does not mean it will add extra stars but instead set the star force to that amount if it is less than it</li>
                       <li>These scrolls cannot be used on Superior equipment such as Tyrant gear</li>
@@ -213,10 +213,10 @@ function UpgradeEquipment() {
               </li>
             </ul>
             <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="spelltrace"><img src="https://maplestory.io/api/GMS/210.1.1/item/2433943/icon" alt=""/> Spell Tracing in Regular Servers</h2>
+            <h2 id="spelltrace"><img src="/images/items/spell-trace.png" alt=""/> Spell Tracing in Regular Servers</h2>
             <hr/>
             <p><img src="https://i.imgur.com/MapgJ6D.png" alt="Spell Trace"/></p>
-            <p>Spell tracing involves using an item called <img src="https://maplestory.io/api/GMS/210.1.1/item/2433943/icon" alt=""/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/4001832" target="_blank">"Spell Trace"</a> to upgrade items instead of using scrolls. They also consume an upgrade slot upon success or fail. This is the main and most common way to upgrade equipment. Some common ways to get Spell Traces is to hunt monsters, Pollo Frito portals, Silent Crusade, Surprise Missions and from events</p>
+            <p>Spell tracing involves using an item called <img src="/images/items/spell-trace.png" alt=""/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/4001832" target="_blank">"Spell Trace"</a> to upgrade items instead of using scrolls. They also consume an upgrade slot upon success or fail. This is the main and most common way to upgrade equipment. Some common ways to get Spell Traces is to hunt monsters, Pollo Frito portals, Silent Crusade, Surprise Missions and from events</p>
             <p><img src="https://i.imgur.com/NdMVnLN.png" alt="Spell Trace UI"/><img src="https://i.imgur.com/b5bCMeo.png" alt="Enhance a piece"/></p>
             <p>You can open the Equipment Enchant menu by either pressing "O" by default or through your inventory by pressing the <strong>red button with a hammer</strong></p>
             <p><img className="repository-image" src="https://i.imgur.com/ycKE0BQ.png" alt="Spell Trace in Use"/></p>
@@ -227,7 +227,7 @@ function UpgradeEquipment() {
             <div><Link smooth href="#top" scroll>Go to top</Link></div>
             <h2 id="starforce">Star Forcing</h2>
             <hr/>
-            <p><img src="https://support-maplestory.nexon.net/hc/article_attachments/360057675372/starforce.png" alt="Starforce Equipment"/></p>
+            <p><img src="/images/info/starforce-tooltip.png" alt="Starforce Equipment"/></p>
             <p>Once you have consumed all upgrade slots, you may star force/enhance your gear. In Reboot, there are no upgrade slots, so you just star force/enhance instead. Star Forcing costs mesos that grants increased stats on success</p>
             <p><img src="https://i.imgur.com/XJcpGw8.png" alt="Star Force Red Button"/></p>
             <p><img src="https://support-maplestory.nexon.net/hc/article_attachments/360057676032/equip_enchant.png" alt="Equip Enhance UI"/><img src="https://i.imgur.com/HA8qvVg.png" alt="Star Force UI"/></p>

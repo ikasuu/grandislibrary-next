@@ -78,7 +78,7 @@ function TeraBurning() {
                     <img src="https://maplestory.io/api/GMS/214/item/2439179/icon" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2439179">[Use] Root Abyss Set Box (Time-Restricted)</a></strong>
                     <ul>
                         <li>
-                            Contains Lv. 150 70% Spell Traced, Epic Potential Root Abyss Gear <img width="36" height="28" src="https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Eqp_Royal_Warrior_Helm.png/revision/latest?cb=20150112211030" alt="Eqp Royal Warrior Helm"/><img width="29" height="24" src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Eagle_Eye_Warrior_Armor.png/revision/latest?cb=20160501235236" alt="Eqp Eagle Eye Warrior Armor"/><img width="23" height="28" src="https://vignette.wikia.nocookie.net/maplestory/images/0/09/Eqp_Trixter_Warrior_Pants.png/revision/latest?cb=20160502025844" alt="Eqp Trixter Warrior Pants"/>
+                            Contains Lv. 150 70% Spell Traced, Epic Potential Root Abyss Gear <img width="36" height="28" src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/><img width="29" height="24" src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Eagle_Eye_Warrior_Armor.png/revision/latest?cb=20160501235236" alt="Eqp Eagle Eye Warrior Armor"/><img width="23" height="28" src="https://vignette.wikia.nocookie.net/maplestory/images/0/09/Eqp_Trixter_Warrior_Pants.png/revision/latest?cb=20160502025844" alt="Eqp Trixter Warrior Pants"/>
                             <ul>
                                 <li>Consists of Hat, Top, Bottom, and Weapon</li>
                             </ul>
