@@ -1124,7 +1124,7 @@ function CyngusKnightsAwakening() {
                     </ul>
                 </li>
                 <li>
-                    New Theme Dungeon, <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4e/MapIcon_fairyAcademy.png/revision/latest?cb=20130628060623" alt="MapIcon fairyAcademy" width="38" height="38"/>
+                    New Theme Dungeon, <img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy" width="38" height="38"/>
                     <a href="https://maplestory.fandom.com/wiki/Category:Ellinel" target="_blank" rel="noreferrer noopener">Ellinel Fairy Academy</a>
                 </li>
                 <li>
@@ -2433,7 +2433,7 @@ function Pathfinder() {
             <ul>
                 <li><strong>5th Job Advancement can now be done without Temple of Time quest completion and without accumulating EXP on Arcane Stones</strong></li>
                 <li>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/4e/MapIcon_fairyAcademy.png/revision/latest?cb=20130628060623" alt="MapIcon fairyAcademy" width="38" height="38"/>
+                    <img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy" width="38" height="38"/>
                     <img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach" width="38" height="38"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/89/MapIcon_glacierExplorer.png/revision/latest?cb=20130619034108" alt="MapIcon glacierExplorer" width="38" height="38"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/43/MapIcon_Elodin.png/revision/latest?cb=20190207224724" alt="MapIcon Elodin" width="38" height="38"/>
