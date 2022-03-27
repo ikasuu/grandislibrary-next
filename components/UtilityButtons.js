@@ -101,7 +101,7 @@ export function QuickJump({settings, setSettings}) {
                     <FormControlLabel
                         control={<Switch color="primary" checked={settings.animations} onChange={handleChange} name="animations"/>}
                         label="Skill Animations"
-                   />
+                  />
                 </FormGroup>
             </Menu>
         </div>

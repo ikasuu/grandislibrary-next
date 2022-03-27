@@ -905,7 +905,7 @@ function BlackMage() {
                         alt="Skill Battoujutsu Ultimate Will - God of Blades"
                         width="32"
                         height="32"
-                   />
+                  />
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/61/Skill_Instinctual_Combo.png/revision/latest?cb=20181115065213" alt="Skill Instinctual Combo" width="32" height="32"/> New 5th job skills for all classes
                 </li>
             </ul>
@@ -1394,12 +1394,12 @@ function Glory() {
                     </ul>
                 </li>
                 <li>
-                    New equipment, <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/18/Eqp_Numenal%27s_Willpower.png/revision/latest?cb=20200102153019" alt="Eqp Numenal's Willpower" width="32" height="32"/>
+                    New equipment, <img src="/images/equipment/numenals-willpower.png" alt="Eqp Numenal's Willpower" width="32" height="32"/>
                     <a href="https://maplestory.wiki/GMS/214/item/1032314" target="_blank" rel="noreferrer noopener">Numenal's Willpower</a>, <img src="/images/equipment/glonas-heart.png" alt="Eqp Glona's Heart" width="30" height="30"/>
-                    <a href="https://maplestory.wiki/GMS/214/item/1113305" target="_blank" rel="noreferrer noopener">Glona's Heart</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Eqp_Legacy_of_Light.png/revision/latest?cb=20200103144348" alt="Eqp Legacy of Light" width="32" height="32"/>
-                    <a href="https://maplestory.wiki/GMS/214/item/1122438" target="_blank" rel="noreferrer noopener">Legacy of Light</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Eqp_Legacy_of_Darkness.png/revision/latest?cb=20200103144509" alt="Eqp Legacy of Darkness" width="34" height="34"/>
-                    <a href="https://maplestory.wiki/GMS/214/item/1122439" target="_blank" rel="noreferrer noopener">Legacy of Darkness</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Eqp_Delgrund%27s_Honor.png/revision/latest?cb=20200116035209" alt="Eqp Delgrund's Honor" width="31" height="31"/>
-                    <a href="https://maplestory.wiki/GMS/214/item/1132313" target="_blank" rel="noreferrer noopener">Delgrund's Honor</a>, <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/52/Eqp_Lireni%27s_Wish.png/revision/latest?cb=20200116035346" alt="Eqp Lireni's Wish" width="33" height="31"/>
+                    <a href="https://maplestory.wiki/GMS/214/item/1113305" target="_blank" rel="noreferrer noopener">Glona's Heart</a>, <img src="/images/equipment/legacy-of-light.png" alt="Eqp Legacy of Light" width="32" height="32"/>
+                    <a href="https://maplestory.wiki/GMS/214/item/1122438" target="_blank" rel="noreferrer noopener">Legacy of Light</a>, <img src="/images/equipment/legacy-of-darkness.png" alt="Eqp Legacy of Darkness" width="34" height="34"/>
+                    <a href="https://maplestory.wiki/GMS/214/item/1122439" target="_blank" rel="noreferrer noopener">Legacy of Darkness</a>, <img src="/images/equipment/delgrunds-honor.png" alt="Eqp Delgrund's Honor" width="31" height="31"/>
+                    <a href="https://maplestory.wiki/GMS/214/item/1132313" target="_blank" rel="noreferrer noopener">Delgrund's Honor</a>, <img src="/images/equipment/lirenis-wish.png" alt="Eqp Lireni's Wish" width="33" height="31"/>
                     <a href="https://maplestory.wiki/GMS/214/item/1202281" target="_blank" rel="noreferrer noopener">Lireni's Wish</a>
                 </li>
                 <li>

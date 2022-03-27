@@ -297,7 +297,7 @@ export function ClassCreation({classTitle, howToCreate}) {
                 src={howToCreate.image[0]}
                 width={howToCreate.image[1][0]}
                 height={howToCreate.image[1][1]}
-           />
+          />
             {howToCreate.npc.map(npc => <Image key={npc} src={npc[0]} width={npc[1][0]} height={npc[1][1]}/>)}
             <HowToCreateCard>
                 <Card.Body>{howToCreate.info.map(info => <p key={info}>{parse(DOMPurify.sanitize(info, { ADD_ATTR: ['target'] }))}</p>)}</Card.Body>

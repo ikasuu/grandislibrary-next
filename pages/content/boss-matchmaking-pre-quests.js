@@ -94,7 +94,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: 3 times daily</li>
             <li><strong>Location</strong>: Dimensional Mirror after completing pre-quests</li>
-            <li><strong>Main Rewards:</strong> <img src="https://maplestory.io/api/GMS/215/item/4036313/icon" alt=""/>[Mesos]</li>
+            <li><strong>Main Rewards:</strong> <img src="/images/items/meso.png" alt="Meso"/> [Mesos]</li>
           </ul>
           <div><Link smooth href="#top" scroll>Go to top</Link></div>
           <h2 id="magnus"><img src="/images/map-icons/magnus.png" alt="MapIcon Magnus" width="38" height="38"/> Magnus</h2>
