@@ -1128,7 +1128,7 @@ function CyngusKnightsAwakening() {
                     <a href="https://maplestory.fandom.com/wiki/Category:Ellinel" target="_blank" rel="noreferrer noopener">Ellinel Fairy Academy</a>
                 </li>
                 <li>
-                    New Theme Dungeon, <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/89/MapIcon_glacierExplorer.png/revision/latest?cb=20130619034108" alt="MapIcon glacierExplorer" width="38" height="38"/>
+                    New Theme Dungeon, <img src="/images/map-icons/riena-strait.png" alt="MapIcon glacierExplorer" width="38" height="38"/>
                     <a href="https://maplestory.fandom.com/wiki/Category%3ARiena_Strait" target="_blank" rel="noreferrer noopener">Riena Strait</a>
                 </li>
                 <li>Maple Chat revamped (Current iteration)</li>
@@ -1815,7 +1815,7 @@ function LifestylePinkBeany() {
                 <p><TabLink url="http://maplestory.nexon.net/news/30735/updated-v-195-lifestyle-of-the-pink-and-beany-patch-notes"/></p>
             </div>
             <h3>New Content</h3>
-            <ul><li>New Theme Dungeon: <img width="38" height="38" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c8/MapIcon_foxvillage.png/revision/latest?cb=20141217120807" alt="MapIcon foxvillage"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category%3AFox_Valley" target="_blank">Fox Valley</a></li></ul>
+            <ul><li>New Theme Dungeon: <img width="38" height="38" src="/images/map-icons/fox-valley.png" alt="MapIcon foxvillage"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category%3AFox_Valley" target="_blank">Fox Valley</a></li></ul>
             <h3>New Features + Changes</h3>
             <ul><li>Frozen gear reverted to match the red art style used in KMS</li></ul>
         </LazyLoad>
@@ -1904,8 +1904,8 @@ function MarkOfHonor() {
                 </li>
                 <li>
                     New equipment, <img src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm" width="36" height="28"/>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Eagle_Eye_Warrior_Armor.png/revision/latest?cb=20160501235236" alt="Eqp Eagle Eye Warrior Armor" width="29" height="24"/>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/09/Eqp_Trixter_Warrior_Pants.png/revision/latest?cb=20160502025844" alt="Eqp Trixter Warrior Pants" width="23" height="28"/>
+                    <img src="/images/equipment/eagle-eye-warrior-armor.png" alt="Eqp Eagle Eye Warrior Armor" width="29" height="24"/>
+                    <img src="/images/equipment/trixter-warrior-pants.png" alt="Eqp Trixter Warrior Pants" width="23" height="28"/>
                     <img src="/images/equipment/fafnir-mistilteinn.png" alt="Eqp Fafnir Mistilteinn" width="35" height="35"/> Lv.150 Root Abyss set, <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm" width="38" height="40"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Eqp_Amaterasu%27s_Epaulet.png/revision/latest?cb=20190806072327" alt="Eqp Amaterasu's Epaulet" width="27" height="26"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/85/Eqp_Tsukuyomi%27s_Execution_Sword.png/revision/latest?cb=20190808082454" alt="Eqp Tsukuyomi's Execution Sword" width="36" height="29"/> Lv. 150 Japanese
@@ -2015,7 +2015,7 @@ function MushroomShrineTales() {
                 <p><TabLink url="http://maplestory.nexon.net/news/16847/v-176-mushroom-shrine-tales-patch-notes"/></p>
             </div>
             <h3>New Content</h3>
-            <ul><li><img width="38" height="38" src="https://vignette.wikia.nocookie.net/maplestory/images/6/65/MapIcon_jipangu.png/revision/latest?cb=20171129032623" alt="MapIcon jipangu"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category:Mushroom_Shrine" target="_blank">Mushroom Shrine</a> Revamped</li></ul>
+            <ul><li><img width="38" height="38" src="/images/map-icons/mushroom-shrine.png" alt="MapIcon jipangu"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category:Mushroom_Shrine" target="_blank">Mushroom Shrine</a> Revamped</li></ul>
         </LazyLoad>
     )
 };
@@ -2415,7 +2415,7 @@ function Pathfinder() {
                     <a href="https://maplestory.fandom.com/wiki/Category%3APartem" target="_blank" rel="noreferrer noopener">Partem</a>
                 </li>
                 <li>
-                    New Theme Dungeon, <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/43/MapIcon_Elodin.png/revision/latest?cb=20190207224724" alt="MapIcon Elodin" width="38" height="38"/>
+                    New Theme Dungeon, <img src="/images/map-icons/elodin.png" alt="MapIcon Elodin" width="38" height="38"/>
                     <a href="https://maplestory.fandom.com/wiki/Category%3AElodin" target="_blank" rel="noreferrer noopener">Secret Forest of Elodin</a>
                 </li>
                 <li>New Theme Dungeon, <a href="https://maplestory.fandom.com/wiki/Category%3APartem" target="_blank" rel="noreferrer noopener">Partem Ruins</a></li>
@@ -2435,8 +2435,8 @@ function Pathfinder() {
                 <li>
                     <img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy" width="38" height="38"/>
                     <img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach" width="38" height="38"/>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/89/MapIcon_glacierExplorer.png/revision/latest?cb=20130619034108" alt="MapIcon glacierExplorer" width="38" height="38"/>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/43/MapIcon_Elodin.png/revision/latest?cb=20190207224724" alt="MapIcon Elodin" width="38" height="38"/>
+                    <img src="/images/map-icons/riena-strait.png" alt="MapIcon glacierExplorer" width="38" height="38"/>
+                    <img src="/images/map-icons/elodin.png" alt="MapIcon Elodin" width="38" height="38"/>
                     <strong> Lv. 30 - 59 Theme Dungeons revamped, areas are now proportional to your level up to Lv.59, monsters are instanced</strong>
                 </li>
                 <li>Revamps and adjustments to Lv. 140 - 200 Quests and Fields</li>
@@ -2840,7 +2840,7 @@ function RisingHeroesElite() {
             <ul>
                 <li>New class, <a href="https://maplestory.fandom.com/wiki/Shade" target="_blank" rel="noreferrer noopener">Shade</a></li>
                 <li>
-                    New area, <img class="" src="https://vignette.wikia.nocookie.net/maplestory/images/c/c8/MapIcon_foxvillage.png/revision/latest?cb=20141217120807" alt="MapIcon foxvillage" width="38" height="38"/>
+                    New area, <img class="" src="/images/map-icons/fox-valley.png" alt="MapIcon foxvillage" width="38" height="38"/>
                     <a href="https://maplestory.fandom.com/wiki/Category:Vulpes" target="_blank" rel="noreferrer noopener">Fox Point Village</a> (Vulpes)
                 </li>
                 <li>New dungeon, <a href="https://strategywiki.org/wiki/MapleStory/Tower_of_Oz" target="_blank" rel="noreferrer noopener">Tower of Oz</a></li>
@@ -2962,7 +2962,7 @@ function StrangeStories() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New area, <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/9c/MapIcon_PL_AfterLand.png/revision/latest?cb=20181005120902" alt="MapIcon PL AfterLand" width="38" height="38"/>
+                    New area, <img src="/images/map-icons/afterlands.png" alt="MapIcon PL AfterLand" width="38" height="38"/>
                     <a href="https://maplestory.fandom.com/wiki/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">The Afterlands</a>
                 </li>
                 <li>Fishing System introduced</li>

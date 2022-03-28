@@ -111,8 +111,8 @@ function BossMatchmaking() {
             <li>
                 <strong>Easy Mode and Above Rewards:</strong>
                 <img  src="/images/equipment/elite-heliseum-belt.png" alt="Eqp Elite Heliseum Belt" width="33" height="27"/>
-                <a href="https://maplestory.fandom.com/wiki/Elite_Heliseum_Warrior_Belt" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Eqp_Blue_Dragon_Boots.png/revision/latest?cb=20171017030458" alt="Eqp Blue Dragon Boots" width="28" height="32"/> [Level 110 Gear], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/af/Eqp_Crystal_Ventus_Badge.png/revision/latest?cb=20150911184149" alt="Eqp Crystal Ventus Badge" width="33" height="31"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1182087" target="_blank" rel="noreferrer noopener">[Crystal Ventus Badge]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Eqp_Royal_Black_Metal_Shoulder.png/revision/latest?cb=20160106224701" alt="Eqp Royal Black Metal Shoulder" width="30" height="33"/>
+                <a href="https://maplestory.fandom.com/wiki/Elite_Heliseum_Warrior_Belt" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>, <img  src="/images/equipment/blue-dragon-boots.png" alt="Eqp Blue Dragon Boots" width="28" height="32"/> [Level 110 Gear], <img  src="/images/equipment/crystal-ventus-badge.png" alt="Eqp Crystal Ventus Badge" width="33" height="31"/>
+                <a href="https://maplestory.wiki/GMS/210.1.1/item/1182087" target="_blank" rel="noreferrer noopener">[Crystal Ventus Badge]</a>, <img  src="/images/equipment/royal-black-metal-shoulder.png" alt="Eqp Royal Black Metal Shoulder" width="30" height="33"/>
                 <a href="https://maplestory.fandom.com/wiki/Royal_Black_Metal_Shoulder" target="_blank" rel="noreferrer noopener">[Royal Black Metal Shoulder]</a>, <img  src="/images/items/elixir.png" alt="Use Elixir" width="32" height="31"/> [Elixir %HP/MP Potions], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Use_Rebirth_Flame_Lv._110.png/revision/latest?cb=20180414202217" alt="Use Rebirth Flame Lv. 110" width="27" height="33"/> [Lv. 110 Rebirth Flame], <img  src="/images/items/occult-cube.png" alt="Use Occult Cube" width="29" height="29"/> [Occult Cube], <img src="/images/items/soul-shard.png" alt="Use Soul Shard" width="29" height="25"/> [Soul Shard], <img  src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin" width="31" height="31"/> [Shadowdealer Coin], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal" width="32" height="38"/> [Intense Power Crystal]
             </li>
             <li>
@@ -386,7 +386,7 @@ function BossMatchmaking() {
                 <strong>Hard Mode Only Rewards: </strong><a href="https://maplestory.fandom.com/wiki/Lucidroid" target="_blank" rel="noreferrer noopener">[Lucidroid]</a>, <img  src="/images/equipment/dreamy-belt.png" alt="Eqp Dreamy Belt" width="36" height="35"/>
                 <a href="https://maplestory.wiki/GMS/210.1.1/item/1132308" target="_blank" rel="noreferrer noopener">[Dreamy Belt]</a>, <img  src="/images/equipment/arcane-umbra-knight-shoes.png" alt="Eqp Arcane Umbra Knight Shoes" width="26" height="30"/>
                 <img  src="/images/equipment/arcane-umbra-knight-gloves.png" alt="Eqp Arcane Umbra Knight Gloves" width="30" height="25"/>
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/2/22/Eqp_Arcane_Umbra_Saber.png/revision/latest?cb=20161222220021" alt="Eqp Arcane Umbra Saber" width="32" height="32"/>
+                <img  src="/images/equipment/arcane-umbra-saber.png" alt="Eqp Arcane Umbra Saber" width="32" height="32"/>
                 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Shoe/Glove/Weapon) Arcane Umbra Gear]</a>
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -518,10 +518,10 @@ function BossMatchmaking() {
                 <img  src="/images/equipment/cursed-blue-spellbook.png" alt="Eqp Cursed Blue Spellbook" width="38" height="37"/>
                 <img  src="/images/equipment/cursed-green-spellbook.png" alt="Eqp Cursed Green Spellbook" width="37" height="37"/>
                 <img  src="/images/equipment/cursed-yellow-spellbook.png" alt="Eqp Cursed Yellow Spellbook" width="38" height="36"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1162080" target="_blank" rel="noreferrer noopener">[Cursed Spellbook]</a>, <img  src="https://vignette.wikia.nocookie.net/maplestory/images/9/97/Eqp_Arcane_Umbra_Knight_Hat.png/revision/latest?cb=20161208043106" alt="Eqp Arcane Umbra Knight Hat" width="37" height="36"/>
+                <a href="https://maplestory.wiki/GMS/210.1.1/item/1162080" target="_blank" rel="noreferrer noopener">[Cursed Spellbook]</a>, <img  src="/images/equipment/arcane-umbra-knight-hat.png" alt="Eqp Arcane Umbra Knight Hat" width="37" height="36"/>
                 <img  src="https://maplestory.wiki/GMS/220/item/1152196" alt="Eqp Arcane Umbra Knight Shoulder" width="32" height="27"/>
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Eqp_Arcane_Umbra_Knight_Suit.png/revision/latest?cb=20161209231322" alt="Eqp Arcane Umbra Knight Suit" width="26" height="31"/>
-                <img  src="https://vignette.wikia.nocookie.net/maplestory/images/2/22/Eqp_Arcane_Umbra_Saber.png/revision/latest?cb=20161222220021" alt="Eqp Arcane Umbra Saber" width="32" height="32"/>
+                <img  src="/images/equipment/arcane-umbra-knight-suit.png" alt="Eqp Arcane Umbra Knight Suit" width="26" height="31"/>
+                <img  src="/images/equipment/arcane-umbra-saber.png" alt="Eqp Arcane Umbra Saber" width="32" height="32"/>
                 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Hat/Shoulder/Overall/Weapon) Arcane Umbra Gear]</a>, <img  src="/images/items/mirror-world-nodestone.png" alt="Use Mirror World Nodestone" width="38" height="38"/>
                 <a href="https://maplestory.fandom.com/wiki/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>
             </li>

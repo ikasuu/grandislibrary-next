@@ -117,12 +117,12 @@ function WhoToTeraBurn() {
             <h3>Top 5 Tera Burns for Link Skills:</h3>
             <ul>
                 <li>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Focus_Spirit.png/revision/latest?cb=20140808220636" alt="Skill Focus Spirit" width="32" height="32"/> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
+                    <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit" width="32" height="32"/> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
                     Max HP/MP
                 </li>
                 <li><img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32"/> Evan - Increased Rune EXP Duration by 70%</li>
                 <li>
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Elven_Blessing_%28Linked%29.png/revision/latest?cb=20120317030640" alt="Skill Elven Blessing (Linked)" width="32" height="32"/> Mercedes - +20% EXP obtained
+                    <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)" width="32" height="32"/> Mercedes - +20% EXP obtained
                 </li>
                 <li>
                     <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch" width="32" height="32"/> Mihile - +100% Knockback Resistance 130s, 3 min

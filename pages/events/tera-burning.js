@@ -29,7 +29,7 @@ function TeraBurning() {
             <hr/>
             <h2>Rewards:</h2>
             <p>Rewards are given through a quest in the <strong>Star (Events) tab </strong>on the left side of the screen. All rewards are given at level 10 but some items require you to be a certain level to open them</p>
-            <p><img src="http://nxcache.nexon.net/cms/2018/2445/gtyliijtghlfjfsk-fd.png" alt="Frozen Gear"/></p>
+            <p><img src="/images/info/frozen-set.png" alt="Frozen Gear"/></p>
             <h3>Level 10: Pet with Auto Loot</h3>
             <ul>
                 <li>
@@ -53,15 +53,14 @@ function TeraBurning() {
                 </li>
             </ul>
             <h3>Level 100: Permanent Frozen Equipment</h3>
-            <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Character_Frozen_Set.png/revision/latest?cb=20190525023646" alt="Character Frozen Set"/>
             <ul>
                 <li>
                     <img src="https://maplestory.io/api/GMS/214/item/2433444/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
-                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Onyx_Maple_Hat.png/revision/latest?cb=20180509152508" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
-                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Eqp_Onyx_Maple_Suit.png/revision/latest?cb=20180516204357" alt="Eqp Onyx Maple Suit" width="28" height="29"/>
-                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Eqp_Onyx_Maple_Cape.png/revision/latest?cb=20180516202756" alt="Eqp Onyx Maple Cape" width="31" height="30"/> and <strong></strong>
+                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
+                            <img src="/images/equipment/frozen-suit.png" alt="Eqp Onyx Maple Suit" width="28" height="29"/>
+                            <img src="/images/equipment/frozen-cape.png" alt="Eqp Onyx Maple Cape" width="31" height="30"/> and <strong></strong>
                             <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">Mastery Boxes (x8)</a>
                             <ul>
                                 <li>Consists of Hat, Overall, Cape, Weapon, and Secondary Weapon</li>
@@ -72,13 +71,13 @@ function TeraBurning() {
                 </li>
             </ul>
             <h3>Level 150: Temporary Root Abyss Set, 70% Scrolled + 12 Stars + Epic Potential (90 Days)</h3>
-            <img className="repository-image" src="http://nxcache.nexon.net/spotlight/286/00ES3-0b9411ac-a477-4445-9f35-9c2864290b43.png" alt="CRA Gear"/>
+            <img className="repository-image" src="/images/info/fafnir-set.png" alt="CRA Gear"/>
             <ul>
                 <li>
                     <img src="https://maplestory.io/api/GMS/214/item/2439179/icon" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2439179">[Use] Root Abyss Set Box (Time-Restricted)</a></strong>
                     <ul>
                         <li>
-                            Contains Lv. 150 70% Spell Traced, Epic Potential Root Abyss Gear <img width="36" height="28" src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/><img width="29" height="24" src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Eagle_Eye_Warrior_Armor.png/revision/latest?cb=20160501235236" alt="Eqp Eagle Eye Warrior Armor"/><img width="23" height="28" src="https://vignette.wikia.nocookie.net/maplestory/images/0/09/Eqp_Trixter_Warrior_Pants.png/revision/latest?cb=20160502025844" alt="Eqp Trixter Warrior Pants"/>
+                            Contains Lv. 150 70% Spell Traced, Epic Potential Root Abyss Gear <img width="36" height="28" src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/><img width="29" height="24" src="/images/equipment/eagle-eye-warrior-armor.png" alt="Eqp Eagle Eye Warrior Armor"/><img width="23" height="28" src="/images/equipment/trixter-warrior-pants.png" alt="Eqp Trixter Warrior Pants"/>
                             <ul>
                                 <li>Consists of Hat, Top, Bottom, and Weapon</li>
                             </ul>

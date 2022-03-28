@@ -24,7 +24,7 @@ function MegaBurning() {
             <hr/>
             <h2>Rewards:</h2>
             <p>Rewards are given through a quest in the <strong>Star (Events) tab </strong>on the left side of the screen. All rewards are given at level 10 but some items require you to be a certain level to open them</p>
-            <p><img src="http://nxcache.nexon.net/cms/2018/2445/gtyliijtghlfjfsk-fd.png" alt="Frozen Gear"/></p>
+            <p><img src="/images/info/frozen-set.png" alt="Frozen Gear"/></p>
             <h3>Level 10: Pet with Auto Loot</h3>
             <ul>
                 <li>
@@ -48,15 +48,14 @@ function MegaBurning() {
                 </li>
             </ul>
             <h3>Level 100: Permanent Frozen Equipment</h3>
-            <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Character_Frozen_Set.png/revision/latest?cb=20190525023646" alt="Character Frozen Set"/>
             <ul>
                 <li>
                     <img src="https://maplestory.io/api/GMS/214/item/2433444/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
-                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Onyx_Maple_Hat.png/revision/latest?cb=20180509152508" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
-                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Eqp_Onyx_Maple_Suit.png/revision/latest?cb=20180516204357" alt="Eqp Onyx Maple Suit" width="28" height="29"/>
-                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Eqp_Onyx_Maple_Cape.png/revision/latest?cb=20180516202756" alt="Eqp Onyx Maple Cape" width="31" height="30"/> and <strong></strong>
+                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
+                            <img src="/images/equipment/frozen-suit.png" alt="Eqp Onyx Maple Suit" width="28" height="29"/>
+                            <img src="/images/equipment/frozen-cape.png" alt="Eqp Onyx Maple Cape" width="31" height="30"/> and <strong></strong>
                             <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">Mastery Boxes (x8)</a>
                             <ul>
                                 <li>Consists of Hat, Overall, Cape, Weapon, and Secondary Weapon</li>
