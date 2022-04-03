@@ -616,7 +616,7 @@ function Asylum() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    Class revamp: Kanna &amp; Hayato ( <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Normal_Stance_Bonus.png/revision/latest?cb=20180505150714" alt="Skill Normal Stance Bonus" width="32" height="32"/>
+                    Class revamp: Kanna &amp; Hayato ( <img src="/class-icons/sengoku/hayato/normal-stance.png" alt="Skill Normal Stance Bonus" width="32" height="32"/>
                     <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Quick_Draw.png/revision/latest?cb=20180520132001" alt="Skill Quick Draw" width="32" height="32"/> Sword Energy system)
                 </li>
                 <li>Feedback Survey system added when exiting game</li>
@@ -682,7 +682,7 @@ function Awake() {
                         <li>
                             Such as, <img src="https://vignette.wikia.nocookie.net/maplestory/images/2/27/Skill_Meso_Explosion.png/revision/latest?cb=20160107234010" alt="Skill Meso Explosion" width="32" height="32"/>,
                             <img src="https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Homing_Beacon.png/revision/latest?cb=20141109015901" alt="Skill Homing Beacon" width="32" height="32"/> and
-                            <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932" alt="Skill Royal Guard" width="32" height="32"/>
+                            <img src="/class-icons/cygnus-knights/mihile/royal-guard.png" alt="Skill Royal Guard" width="32" height="32"/>
                         </li>
                     </ul>
                 </li>
@@ -1852,7 +1852,7 @@ function MapleEleven() {
             </div>
             <h3>New Content</h3>
             <ul>
-                <li>Boss revamp, <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/82/MapIcon_Zakum.png/revision/latest?cb=20141119172744" alt="MapIcon Zakum" width="38" height="38"/> Zakum</li>
+                <li>Boss revamp, <img src="/images/map-icons/zakum.png" alt="MapIcon Zakum" width="38" height="38"/> Zakum</li>
                 <li>Pollo &amp; Frito missions added</li>
                 <li><img src="https://maplestory.io/api/GMS/214/item/2434813/icon" alt=""/> Mu Lung Dojo AFK Zone added</li>
             </ul>
@@ -2221,7 +2221,7 @@ function Nova() {
                     <a href="https://maplestory.fandom.com/wiki/Category:Spirit_Savior" target="_blank" rel="noreferrer noopener">Spirit Savior</a>
                 </li>
                 <li>
-                    Boss revamp, <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6d/MapIcon_Papulatus_Clock.png/revision/latest?cb=20180109012602" alt="MapIcon Papulatus Clock" width="38" height="38"/>
+                    Boss revamp, <img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock" width="38" height="38"/>
                     <a href="https://maplestory.fandom.com/wiki/Papulatus" target="_blank" rel="noreferrer noopener">Papulatus</a>
                 </li>
                 <li>
