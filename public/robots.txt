@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://grandislibrary.com
+
+# Sitemaps
+Sitemap: https://grandislibrary.com/sitemap.xml

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "sitemap": "next-sitemap --config next-sitemap-config.js",
     "export": "next export",
     "start": "next start"
   },
@@ -33,6 +34,7 @@
     "swiper": "^6.4.15"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.12.0"
+    "babel-plugin-styled-components": "^1.12.0",
+    "next-sitemap": "^2.5.17"
   }
 }
