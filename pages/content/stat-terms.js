@@ -108,7 +108,7 @@ function StatTerms() {
          <h2 id="stance">Knockback Resistance (Stance)</h2>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Knockback_Resistance" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Knockback_Resistance</a></p>
          <p>A stat that determines the chance of resisting getting knocked back when hit by a monster. There are certain attacks and maps that can ignore Knockback Resistance and still push you back. As well, there are Super Knockbacks that pushes you back and leaves you briefly immobile</p>
-         <p>There are certain classes and skills that have Super Knockback Resistance that can prevent being knockbacked by all sources. An example of this is <img src="/class-icons/flora/ark/enhanced-specter-state.png" alt="Skill Enhanced Specter State" width="32" height="32"/> Enhanced Specter State and <img src="/class-icons/sengoku/hayato/sudden-strike.png" alt="Skill Sudden Strike (Hayato)" width="32" height="32"/> Sudden Strike</p>
+         <p>There are certain classes and skills that have Super Knockback Resistance that can prevent being knockbacked by all sources. An example of this is <img src="/class-icons/flora/ark/enhanced-specter-state.png" alt="Skill Enhanced Specter State"/> Enhanced Specter State and <img src="/class-icons/sengoku/hayato/sudden-strike.png" alt="Skill Sudden Strike (Hayato)"/> Sudden Strike</p>
          <div><Link smooth href="#top" scroll>Go to top</Link></div>
          <h2 id="def">Defense</h2>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Defense" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Defense</a></p>

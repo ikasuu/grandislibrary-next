@@ -55,7 +55,7 @@ function MegaBurning() {
                         <li>
                             Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
                             <img src="/images/equipment/frozen-suit.png" alt="Eqp Onyx Maple Suit" width="28" height="29"/>
-                            <img src="/images/equipment/frozen-cape.png" alt="Eqp Onyx Maple Cape" width="31" height="30"/> and <strong></strong>
+                            <img src="/images/equipment/frozen-cape.png" alt="Eqp Onyx Maple Cape"/> and <strong></strong>
                             <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">Mastery Boxes (x8)</a>
                             <ul>
                                 <li>Consists of Hat, Overall, Cape, Weapon, and Secondary Weapon</li>

@@ -19,26 +19,26 @@ function WhoToTeraBurn() {
             <p><strong>[Note]</strong>: You cannot burn the newest class release or Zero</p>
             <h3>Notably difficult or annoying classes to level:</h3>
             <ul>
-                <li><img src="/class-icons/resistance/blaster/revolving-cannon-mastery.png" alt="Class Blaster" width="32" height="32"/> Blaster</li>
-                <li><img src="/class-icons/explorers/buccaneer/octopunch-1.png" alt="Skill Octopunch" width="32" height="32"/> Buccaneer</li>
-                <li><img src="/class-icons/explorers/dual-blade/bloody-storm.png" alt="Skill Bloody Storm" width="32" height="32"/> Dual Blade</li>
-                <li><img src="/class-icons/explorers/hero/combo-attack.png" alt="Skill Combo Attack" width="32" height="32"/> Hero</li>
-                <li><img src="/class-icons/explorers/marksman/snipe.png" alt="Skill Snipe" width="32" height="32"/> Marksman</li>
-                <li><img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech" width="32" height="32"/> Mechanic</li>
-                <li><img src="/class-icons/heroes/mercedes/leap-tornado.png" alt="Skill Leap Tornado" width="32" height="32"/> Mercedes</li>
+                <li><img src="/class-icons/resistance/blaster/revolving-cannon-mastery.png" alt="Class Blaster"/> Blaster</li>
+                <li><img src="/class-icons/explorers/buccaneer/octopunch-1.png" alt="Skill Octopunch"/> Buccaneer</li>
+                <li><img src="/class-icons/explorers/dual-blade/bloody-storm.png" alt="Skill Bloody Storm"/> Dual Blade</li>
+                <li><img src="/class-icons/explorers/hero/combo-attack.png" alt="Skill Combo Attack"/> Hero</li>
+                <li><img src="/class-icons/explorers/marksman/snipe.png" alt="Skill Snipe"/> Marksman</li>
+                <li><img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech"/> Mechanic</li>
+                <li><img src="/class-icons/heroes/mercedes/leap-tornado.png" alt="Skill Leap Tornado"/> Mercedes</li>
             </ul>
             <p><strong>[Note]</strong>:Explorer classes can job change using a <img src="/images/items/job-advancement-coin.png" alt=""/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4310086">[Job Advancement Coin]</a> to other Explorer classes within their job branch thus, you can level up a class with decent mobbing capabilities then job change to the desired class</p>
             <h3>Classes with Lv. 3 Link Skills / Good Legion Bonuses:</h3>
             <ul>
                 <li>
-                    <img src="/class-icons/nova/angelic-buster/trinity.png" alt="Skill Trinity" width="32" height="32"/> Angelic Buster - Provides buff that increases %Damage (+60%)
+                    <img src="/class-icons/nova/angelic-buster/trinity.png" alt="Skill Trinity"/> Angelic Buster - Provides buff that increases %Damage (+60%)
                     (90s cooldown)
                     <ul>
                         <li>Good for bossing for classes with burst-type attacks</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/heroes/aran/smash-swing.png" alt="Skill Smash Swing" width="32" height="32"/> Aran - Increases amount of EXP given from Combo Kill
+                    <img src="/class-icons/heroes/aran/smash-swing.png" alt="Skill Smash Swing"/> Aran - Increases amount of EXP given from Combo Kill
                     orbs (900%)
                     <ul>
                         <li>Good for training characters pre-200</li>
@@ -46,14 +46,14 @@ function WhoToTeraBurn() {
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/flora/ark/impending-death.png" alt="Class Ark" width="32" height="32"/> Ark - Grants a stacking %Damage buff (up to 5 times / 16%) when in
+                    <img src="/class-icons/flora/ark/impending-death.png" alt="Class Ark"/> Ark - Grants a stacking %Damage buff (up to 5 times / 16%) when in
                     combat
                     <ul>
                         <li>Good for all classes</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/other/beast-tamer/friend-launcher.png" alt="Class Beast Tamer" width="32" height="32"/> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
+                    <img src="/class-icons/other/beast-tamer/friend-launcher.png" alt="Class Beast Tamer"/> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
                     Max HP/MP
                     <ul>
                         <li>Good if you require more %Crit Rate and %Boss Damage</li>
@@ -61,53 +61,53 @@ function WhoToTeraBurn() {
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/resistance/demon-avenger/exceed-double-slash.png" alt="Skill Exceed Double Slash" width="32" height="32"/> Demon Avenger - +15% Damage
+                    <img src="/class-icons/resistance/demon-avenger/exceed-double-slash.png" alt="Skill Exceed Double Slash"/> Demon Avenger - +15% Damage
                     <ul>
                         <li>Good for all classes</li>
                         <li><strong>[Legion]:</strong> +5% Boss Damage</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/resistance/demon-slayer/demon-thrash.png" alt="Skill Demon Thrash" width="32" height="32"/> Demon Slayer - +20% Boss Damage
+                    <img src="/class-icons/resistance/demon-slayer/demon-thrash.png" alt="Skill Demon Thrash"/> Demon Slayer - +20% Boss Damage
                     <ul>
                         <li>Good for bossing</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/heroes/evan/mana-burst-i.png" alt="Skill Mana Burst I" width="32" height="32"/> Evan - Increases Rune EXP Duration by 70%
+                    <img src="/class-icons/heroes/evan/mana-burst-i.png" alt="Skill Mana Burst I"/> Evan - Increases Rune EXP Duration by 70%
                     <ul>
                         <li>Good for training</li>
                         <li><strong>[Legion]: </strong>Chance to recover 8% MP with each attack (has cooldown)</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/nova/kaiser/tempest-blades.png" alt="Skill Tempest Blades" width="32" height="32"/> Kaiser - +20% Max HP
+                    <img src="/class-icons/nova/kaiser/tempest-blades.png" alt="Skill Tempest Blades"/> Kaiser - +20% Max HP
                     <ul>
                         <li>Good for training characters pre-200</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/heroes/luminous/equilibrium.png" alt="Class Luminous" width="32" height="32"/> Luminous - +20% Ignore DEF
+                    <img src="/class-icons/heroes/luminous/equilibrium.png" alt="Class Luminous"/> Luminous - +20% Ignore DEF
                     <ul>
                         <li>Good for bossing</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/heroes/mercedes/leap-tornado.png" alt="Skill Leap Tornado" width="32" height="32"/> Mercedes - +20% EXP obtained
+                    <img src="/class-icons/heroes/mercedes/leap-tornado.png" alt="Skill Leap Tornado"/> Mercedes - +20% EXP obtained
                     <ul>
                         <li>Good for training</li>
                         <li><strong>[Legion]</strong> - Skill Cooldown reduced by -5%</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/cygnus-knights/mihile/royal-guard.png" alt="Skill Royal Guard" width="32" height="32"/> Mihile - +100% Knockback Resistance 130s, 180s cooldown
+                    <img src="/class-icons/cygnus-knights/mihile/royal-guard.png" alt="Skill Royal Guard"/> Mihile - +100% Knockback Resistance 130s, 180s cooldown
                     <ul>
                         <li>Good for bossing for classes with &lt; 100% Knockback Resistance</li>
                         <li><strong>[Legion]</strong> - +2000 Max HP</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/heroes/phantom/mille-aiguilles.png" alt="Skill Mille Aiguilles" width="32" height="32"/> Phantom - +20% crit rate
+                    <img src="/class-icons/heroes/phantom/mille-aiguilles.png" alt="Skill Mille Aiguilles"/> Phantom - +20% crit rate
                     <ul>
                         <li>Good for classes with &lt; 100% Crit Rate</li>
                         <li><strong>[Legion (Reboot-recommended)]</strong> - Meso obtained +4%</li>
@@ -117,58 +117,58 @@ function WhoToTeraBurn() {
             <h3>Top 5 Tera Burns for Link Skills:</h3>
             <ul>
                 <li>
-                    <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit" width="32" height="32"/> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
+                    <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
                     Max HP/MP
                 </li>
-                <li><img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32"/> Evan - Increased Rune EXP Duration by 70%</li>
+                <li><img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence"/> Evan - Increased Rune EXP Duration by 70%</li>
                 <li>
-                    <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)" width="32" height="32"/> Mercedes - +20% EXP obtained
+                    <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)"/> Mercedes - +20% EXP obtained
                 </li>
                 <li>
-                    <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch" width="32" height="32"/> Mihile - +100% Knockback Resistance 130s, 3 min
+                    <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/> Mihile - +100% Knockback Resistance 130s, 3 min
                     cooldown
                 </li>
-                <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct" width="32" height="32"/> Phantom - +20% Crit Rate</li>
+                <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> Phantom - +20% Crit Rate</li>
             </ul>
             <h3>Good Legion Bonuses + Lv. 2 Link Skill that may be hard to level:</h3>
             <ul>
                 <li>
-                    <img src="/class-icons/resistance/blaster/revolving-cannon-mastery.png" alt="Class Blaster" width="32" height="32"/> Blaster - +5% Ignore DEF
+                    <img src="/class-icons/resistance/blaster/revolving-cannon-mastery.png" alt="Class Blaster"/> Blaster - +5% Ignore DEF
                     <ul>
                         <li><strong>[Link Skill]:</strong> Invincibility after death</li>
                     </ul>
                 </li>
-                <li><img src="/class-icons/explorers/corsair/rapid-fire.png" alt="Skill Rapid Fire" width="32" height="32"/> Corsair - +10% Summon Duration</li>
+                <li><img src="/class-icons/explorers/corsair/rapid-fire.png" alt="Skill Rapid Fire"/> Corsair - +10% Summon Duration</li>
                 <li>
-                    <img src="/class-icons/sengoku/hayato/normal-stance.png" alt="Skill Normal Stance Bonus" width="32" height="32"/> Hayato - +5% Crit Damage
+                    <img src="/class-icons/sengoku/hayato/normal-stance.png" alt="Skill Normal Stance Bonus"/> Hayato - +5% Crit Damage
                     <ul>
                         <li><strong>[Link Skill]: </strong>+15 All Stat, +15 Attack &amp; Magic Attack</li>
                     </ul>
                 </li>
                 <li><img src="/class-icons/link-skills/core-aura.png" alt="Skill Core Aura"/> Jett - +5% Crit Damage</li>
-                <li><img src="/class-icons/explorers/marksman/snipe.png" alt="Skill Snipe" width="32" height="32"/> Marksman - +4% Crit Rate</li>
+                <li><img src="/class-icons/explorers/marksman/snipe.png" alt="Skill Snipe"/> Marksman - +4% Crit Rate</li>
                 <li>
-                    <img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech" width="32" height="32"/> Mechanic - +20% Buff Duration
+                    <img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech"/> Mechanic - +20% Buff Duration
                     <ul>
                         <li><strong>[Link Skill]:</strong> Invincibility after death</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/explorers/night-lord/showdown.png" alt="Skill Showdown" width="32" height="32"/> Night Lord - +4% Crit Rate
+                    <img src="/class-icons/explorers/night-lord/showdown.png" alt="Skill Showdown"/> Night Lord - +4% Crit Rate
                     <ul>
                         <li><strong>[Link Skill]: </strong>Passive buff that grants %Damage when an Abnormal Status is inflicted</li>
                     </ul>
                 </li>
-                <li><img src="/class-icons/heroes/shade/spirit-bond-max.png" alt="Skill Spirit Bond Max" width="32" height="32"/> Shade - +5% Crit Damage</li>
+                <li><img src="/class-icons/heroes/shade/spirit-bond-max.png" alt="Skill Spirit Bond Max"/> Shade - +5% Crit Damage</li>
                 <li>
-                    <img src="/class-icons/other/zero/twin-blades-of-time.png" alt="Skill Twin Blades of Time" width="32" height="32"/>
+                    <img src="/class-icons/other/zero/twin-blades-of-time.png" alt="Skill Twin Blades of Time"/>
                     <em><strong>[Cannot be burned] </strong></em>Zero - +12% EXP obtained
                 </li>
             </ul>
             <h3>Top 5 Tera Burns for Legion:</h3>
             <ul>
                 <li>
-                    <img src="/class-icons/explorers/corsair/rapid-fire.png" alt="Skill Rapid Fire" width="32" height="32"/> Corsair - +10% Summon Duration
+                    <img src="/class-icons/explorers/corsair/rapid-fire.png" alt="Skill Rapid Fire"/> Corsair - +10% Summon Duration
                     <ul>
                         <li>
                             Is an Explorer Pirate so you can train a Cannoneer to Lv. 200 and use a <img src="/images/items/job-advancement-coin.png" alt=""/>
@@ -176,10 +176,10 @@ function WhoToTeraBurn() {
                         </li>
                     </ul>
                 </li>
-                <li><img src="/class-icons/sengoku/hayato/normal-stance.png" alt="Skill Normal Stance Bonus" width="32" height="32"/> Hayato - +5% Crit Damage</li>
-                <li><img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech" width="32" height="32"/> Mechanic - +20% Buff Duration</li>
-                <li><img src="/class-icons/heroes/shade/spirit-bond-max.png" alt="Skill Spirit Bond Max" width="32" height="32"/> Shade - +5% Crit Damage</li>
-                <li><img src="/class-icons/resistance/blaster/revolving-cannon-mastery.png" alt="Class Blaster" width="32" height="32"/> Blaster - +5% Ignore DEF</li>
+                <li><img src="/class-icons/sengoku/hayato/normal-stance.png" alt="Skill Normal Stance Bonus"/> Hayato - +5% Crit Damage</li>
+                <li><img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech"/> Mechanic - +20% Buff Duration</li>
+                <li><img src="/class-icons/heroes/shade/spirit-bond-max.png" alt="Skill Spirit Bond Max"/> Shade - +5% Crit Damage</li>
+                <li><img src="/class-icons/resistance/blaster/revolving-cannon-mastery.png" alt="Class Blaster"/> Blaster - +5% Ignore DEF</li>
             </ul>
             <h3>Notes:</h3>
             <hr/>

@@ -166,106 +166,106 @@ function LinkSkills() {
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img width="32" height="32" src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>
         <ul>
-          <li><img src="/class-icons/link-skills/solus.png" alt="Skill Solus" width="32" height="32"/> <strong>[Ark] </strong>- %Damage</li>
-          <li><img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage" width="32" height="32"/> <strong>[Demon Avenger] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/solus.png" alt="Skill Solus"/> <strong>[Ark] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage"/> <strong>[Demon Avenger] </strong>- %Damage</li>
           <li>
-              <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32"/> <strong>[Explorer Thieves] </strong>- %Damage
+              <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning"/> <strong>[Explorer Thieves] </strong>- %Damage
               (for classes with debuffs)
           </li>
           <li>
-              <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing" width="32" height="32"/> <strong>[Explorer Pirates] </strong>- All Stats
+              <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing"/> <strong>[Explorer Pirates] </strong>- All Stats
               (affected by %Stat)
           </li>
-          <li><img src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle" width="32" height="32"/> <strong>[Illium] </strong>- %Damage</li>
-          <li><img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism" width="32" height="32"/> <strong>[Kanna] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle"/> <strong>[Illium] </strong>- %Damage</li>
+          <li><img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism"/> <strong>[Kanna] </strong>- %Damage</li>
           <li>
-              <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)" width="32" height="32"/> <strong>[Kinesis] </strong>- %Crit
+              <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)"/> <strong>[Kinesis] </strong>- %Crit
               Damage
           </li>
-          <li><img src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic" width="32" height="32"/> <strong>[Xenon] </strong>- %All Stat</li>
+          <li><img src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic"/> <strong>[Xenon] </strong>- %All Stat</li>
         </ul>
         <h3>For Bossing + Ignore DEF:</h3>
         <ul>
           <li>
-              <img src="/class-icons/link-skills/terms-and-condition.png" alt="Skill Terms and Conditions" width="32" height="32"/>
+              <img src="/class-icons/link-skills/terms-and-condition.png" alt="Skill Terms and Conditions"/>
               <strong>[Angelic Buster] </strong>- For Burst skills
           </li>
           <li><strong>[Adele] </strong>- %Boss Damage</li>
           <li>
-              <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit" width="32" height="32"/> <strong>[Beast Tamer] </strong>- %Boss Damage, %Crit
+              <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> <strong>[Beast Tamer] </strong>- %Boss Damage, %Crit
               Rate and %Max HP/MP
           </li>
           <li>
-              <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing" width="32" height="32"/> <strong>[Cygnus Knights] </strong>- Useful for
+              <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> <strong>[Cygnus Knights] </strong>- Useful for
               Abnormal Status Resistance and slight damage boost
           </li>
           <li>
-              <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed" width="32" height="32"/> <strong>[Demon Slayer] </strong>- %Boss Damage
+              <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed"/> <strong>[Demon Slayer] </strong>- %Boss Damage
           </li>
           <li>
-              <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge" width="32" height="32"/> <strong>[Explorer Mages] </strong>-
+              <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge"/> <strong>[Explorer Mages] </strong>-
               %Ignore DEF
           </li>
-          <li><img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash" width="32" height="32"/> <strong>[Luminous] </strong>- %Ignore DEF</li>
+          <li><img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash"/> <strong>[Luminous] </strong>- %Ignore DEF</li>
           <li>
-              <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch" width="32" height="32"/><strong> [Mihile] </strong>- 100% Knockback
+              <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/><strong> [Mihile] </strong>- 100% Knockback
               Resistance buff for classes with &lt; 100% resistance
           </li>
           <li>
-              <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom" width="32" height="32"/> <strong>[Resistance] </strong>- iFrames
+              <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom"/> <strong>[Resistance] </strong>- iFrames
               after reviving
           </li>
           <li>
-              <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call" width="32" height="32"/> <strong>[Shade] </strong>- Utility, chance to not die from
+              <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call"/> <strong>[Shade] </strong>- Utility, chance to not die from
               fatal attacks
           </li>
-          <li><img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing" width="32" height="32"/> <strong>[Zero] </strong>- %Ignore DEF</li>
+          <li><img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing"/> <strong>[Zero] </strong>- %Ignore DEF</li>
         </ul>
         <h3>For Training:</h3>
         <ul>
           <li>
-              <img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing" width="32" height="32"/> <strong>[Aran] </strong>- Useful for
+              <img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing"/> <strong>[Aran] </strong>- Useful for
               pre-200
           </li>
           <li>
-              <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage" width="32" height="32"/> <strong>[Cadena] </strong>- Increased %Damage
+              <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage"/> <strong>[Cadena] </strong>- Increased %Damage
               to lower level enemies + enemies with Abnormal Statuses
           </li>
           <li>
-              <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32"/> <strong>[Evan] </strong>- Useful all levels
+              <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence"/> <strong>[Evan] </strong>- Useful all levels
               especially pre-200
           </li>
           <li>
-              <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado" width="32" height="32"/> <strong>[Hoyoung] </strong>- Useful if you need a small boost to
+              <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado"/> <strong>[Hoyoung] </strong>- Useful if you need a small boost to
               one-shot enemies
           </li>
           <li>
-              <img src="/class-icons/link-skills/iron-will.png" alt="Skill Iron Will (Kaiser)" width="32" height="32"/> <strong>[Kaiser] </strong>- For
+              <img src="/class-icons/link-skills/iron-will.png" alt="Skill Iron Will (Kaiser)"/> <strong>[Kaiser] </strong>- For
               pre-200 if you die a lot
           </li>
           <li>
-              <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)" width="32" height="32"/>
+              <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)"/>
               <strong>[Mercedes] </strong>- Best results for training Lv. 200+
           </li>
         </ul>
         <h3>For Low Crit Rate:</h3>
         <ul>
           <li>
-              <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32"/>
+              <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity"/>
               <strong>[Explorer Archers] - </strong>Up to 10%
           </li>
-          <li><img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit" width="32" height="32"/> <strong>[Beast Tamer] </strong>- Up to 10%</li>
-          <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct" width="32" height="32"/> <strong>[Phantom] </strong>- Up to 20%</li>
+          <li><img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> <strong>[Beast Tamer] </strong>- Up to 10%</li>
+          <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> <strong>[Phantom] </strong>- Up to 20%</li>
         </ul>
         <div><Link smooth href="#top" scroll>Go to top</Link></div>
         <h2 id="builds">Examples of Link Skill Builds:</h2>
         <h3>Training:</h3>
-        <p><img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/solus.png" alt="Skill Solus" width="32" height="32"/> <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage" width="32" height="32"/> <img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage" width="32" height="32"/> <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence" width="32" height="32"/> <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado" width="32" height="32"/> <img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism" width="32" height="32"/> <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)" width="32" height="32"/></p>
+        <p><img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing"/> <img src="/class-icons/link-skills/solus.png" alt="Skill Solus"/> <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage"/> <img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage"/> <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence"/> <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing"/> <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado"/> <img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing"/> <img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism"/> <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)"/></p>
         <p>(Aran, Ark, Cadena, Demon Avenger, Evan, Explorer Archer, Explorer Thief, Explorer Pirate, Hoyoung, Zero, Kanna, Mercedes)</p>
         <p>Rationale: Increased EXP Gain, Damage, and Damage Reduction if required. If you feel that you do not need extra survivability, you can swap out some Link Skills for more damage or other stats like %Crit Rate</p>
         <p>Other options: <img width="32" height="32" src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> (Crit Rate, Max HP/MP), <img width="32" height="32" src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/keen-edge.png" alt="Skill Keen Edge"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/iron-will.png" alt="Skill Iron Will (Kaiser)"/> (Max HP), <img width="32" height="32" src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> (Crit Rate), <img width="32" height="32" src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic"/> (Damage) (Beast Tamer, Cygnus Knights, Hayato, Illium, Kaiser, Phantom, and Xenon)</p>
         <h3>Bossing:</h3>
-        <p><img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit" width="32" height="32"/> <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call" width="32" height="32"/> <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed" width="32" height="32"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing" width="32" height="32"/> <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge" width="32" height="32"/> <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity" width="32" height="32"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning" width="32" height="32"/> <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom" width="32" height="32"/> <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)" width="32" height="32"/> <img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash" width="32" height="32"/> <img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct" width="32" height="32"/></p>
+        <p><img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call"/> <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing"/> <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge"/> <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning"/> <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom"/> <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)"/> <img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash"/> <img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/></p>
         <p>(Cygnus Knights, Beast Tamer, Shade, Demon Slayer, Explorer Pirate, Explorer Mage, Explorer Archer, Explorer Thief, Resistance, Kinesis, Luminous, Phantom)</p>
         <p>Rationale: Increased damage, %Crit Rate (to get 100% if needed), and %Ignore DEF. Other Link Skills are used for utility and survivability</p>
         <p>Other options: <img width="32" height="32" src="/class-icons/link-skills/terms-and-condition.png" alt="Skill Terms and Conditions"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/solus.png" alt="Skill Solus"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/invincible-belief.png" alt="Skill Invincible Belief"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/> (Knockback Resistance), <img width="32" height="32" src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic"/> (Damage), <img width="32" height="32" src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing"/> (%Ignore DEF) (Angelic Buster, Ark, Demon Avenger, Explorer Warrior, Illium, Mihile, Xenon, and Zero)</p>

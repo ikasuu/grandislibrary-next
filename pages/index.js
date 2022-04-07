@@ -6,7 +6,6 @@ import data from '../special/home-content.json';
 import FeaturedSwiper, { ContentSwiper } from '../components/ContentSwipers';
 import { TopClassSwipe } from '../components/ClassSwipers';
 import GridContainer from '../components/homepage/GridContainer';
-
 /*
     Homepage
     Created by: Ikasuu, Fall 2020
