@@ -7,18 +7,19 @@ import { getInitialTheme, GlobalStyle } from '../special/GlobalTheme';
 import MainNavbar from '../components/MainNavbar';
 import Footer from '../components/Footer';
 
+// Global CSS
+import '../styles/hover.css';
+import '../styles/globals.css';
+import '../styles/repository-page.css';
+
 // Import External Global CSS/SCSS
 import 'swiper/swiper.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/navigation/navigation.scss';
+
 // Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-// Global CSS
-import '../styles/hover.css';
-import '../styles/globals.css';
-import '../styles/repository-page.css';
 
 function MyApp({ Component, pageProps }) {
 
