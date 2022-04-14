@@ -306,7 +306,7 @@ function ProgressionGuide() {
                 </li>
                 <li> <img src="/images/items/etc-slot-coupon.png" alt="Use Etc Slot Coupon"/> [Etc/Set-up/Use/Equip/Storage Add 8 Inventory Slots] - Unlimited purchases (Regular Server only)</li>
                 <li> <img src="/images/items/add-pendant-slots.png" alt="Use Add Pendant Slots"/> <a href="https://maplestory.wiki/GMS/215/item/2435909" target="_blank" rel="noreferrer noopener">[30-day Pendent Slot Expansion]</a> - Unlimited purchases (Regular Server Only)</li>
-                <li> <img src="/images/items/shielding-scroll.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/5064000" target="_blank" rel="noreferrer noopener">[Shielding Ward]</a> (Regular Server only)</li>
+                <li> <img src="/images/items/shielding-ward.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/5064000" target="_blank" rel="noreferrer noopener">[Shielding Ward]</a> (Regular Server only)</li>
                 <li> <img src="/images/items/shield-scroll.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/5064100" target="_blank" rel="noreferrer noopener">[Shield Scroll]</a> (Regular Server only)</li>
                 <li> <img src="/images/items/guardian-scroll.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/5064300" target="_blank" rel="noreferrer noopener">[Guardian Scroll]</a> (Regular Server only)</li>
             </ul>
