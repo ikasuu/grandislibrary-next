@@ -3,7 +3,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
-import { ContentTitle } from '../../components/Page';
+import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
+import { AdOutArticle, AdInArticle } from '../../components/Ads';
 
 function ProgressionGuide() {
     return (
@@ -12,10 +13,11 @@ function ProgressionGuide() {
                 <title>Progression Guide | Grandis Library</title>
                 <meta content={"A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"} name="description"/>
             </Head>
+            <AdOutArticle/>
             <ContentTitle>Progression Guide</ContentTitle>
             <p>For info on all the content in MapleStory, check out: <a href="https://www.grandislibrary.com/contents/level-content-guide" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/level-content-guide</a>
             </p>
-            <h3 id="top">Quick Jumps:</h3>
+            <ArticleHeaderTwo id="top">Quick Jumps:</ArticleHeaderTwo>
             <ul>
                 <li className="quick-jump"><Link smooth href="#intro">Introduction</Link>
                 </li>
@@ -78,21 +80,21 @@ function ProgressionGuide() {
                 <li className="quick-jump"><Link smooth href="#lightbulb">Lightbulb Quests</Link>
                 </li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="intro">Introduction:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="intro">Introduction:</ArticleHeaderTwo>
             <hr/>
             <p>Some brief advice before starting, do not worry much about dailies and bosses until you've reached Lv. 200 and have obtained your 5th Job Advancement. Focus mostly on training and filling up your equipment slots. When you have time, complete some pre-quests for important content. Some bosses you could try and fight pre-200 are Normal Zakum, Normal Hilla, Easy Magnus, Root Abyss, Easy/Normal Horntail, Normal Ranmaru, and Ursus</p>
             <p>Additionally, all classes are going to be weak early on, especially if this is your first character. As you get closer to Lv. 200, monsters will hit you hard and they will be harder to defeat. Past Lv. 200, it does get easier but you'll need to fill up your equipment slots and start upgrading your equipment. Lastly, you probably won't get to the level where your class is as strong as the DPM charts suggest plus, DPM charts do not translate to the actual DPM while playing the game. Choose a class that you enjoy or seems enticing and go from there</p>
             <p>Good luck on your Maple journey!!</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="jobadv">Job Advancements:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="jobadv">Job Advancements:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/job-advancement.png" alt="Job Advancement"/>
             <p>Most classes in the game have Job Advancements at Lv. 10, 30, 60, 100, and 200. These are referred to as your 1st, 2nd, 3rd, 4th, and 5th Job Advancements. During your Job Advancement, you will gain new skills to use</p>
             <p>To start your Job Advancement, open your Maple Guide, "U" by default, and you will see a button that says "Job Advancement Quest"</p>
             <p><strong>[Note]: </strong>Dual Blades have two additional Job Advancements at Lv. 20 and Lv. 45. They are a continuation of your 1st Job and 2nd Job Advancements and you will gain new skills at these levels</p><p><strong>[Note]: </strong>Beast Tamers do not have Job Advancements and instead only unlock new skills by reaching a certain level and allocating enough SP into an animal tree. A common build path is Bear/Hawk/Cat. For mobbing or Legion, you can use Bear/Leopard/Cat instead</p><p><strong>[Note]: </strong>Zero does not have Job Advancements and instead only unlock new skills by reaching certain levels</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="apsp">SP and AP Distribution:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="apsp">SP and AP Distribution:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/skill-ui.png" alt="Skill UI"/>
             <img className="repository-image" src="/images/info/stat-ui.png" alt="SP UI"/>
@@ -104,22 +106,23 @@ function ProgressionGuide() {
             <p><strong>[Note]</strong>: If you are playing Dual Blade, their skills in 2nd Job and 3rd Job require special Mastery Books called <img src="/images/items/dual-blade-training-book.png" alt="Mastery Book Dual Blade"/> <a href="https://maplestory.wiki/GMS/215/item/2431848" target="_blank" rel="noreferrer noopener">[Dual Blade Training Book]</a> to increase a Skill's Master Level which can be bought with Mesos from <a href="https://maplestory.fandom.com/wiki/Taeha" target="_blank" rel="noreferrer noopener">Taeha</a> in <img src="/images/map-icons/secret-garden.png" alt="Secret Garden Icon"/> <a href="https://maplestory.fandom.com/wiki/The_Secret_Garden_Basement" target="_blank" rel="noreferrer noopener">The Secret Garden Basement</a>
             </p>
             <p><strong>[Note]</strong>: If you are playing Beast Tamer, you will only be able to max 2 animal tree and partially a third tree. An ideal build path is Bear/Hawk/Cat. For mobbing or Legion, you can use Bear/Leopard instead and allocate remaining points either into Hawk or Cat</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="inner">Inner Ability:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="inner">Inner Ability:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability"/>
             <p>To unlock your Inner Ability, you need to be Lv. 50. You will find a quest in your Lightbulb tab on the left-hand side called <a href="https://maplestory.fandom.com/wiki/Quests/59/The_Eye_Opener" target="_blank" rel="noreferrer noopener">"The Eye Opener"</a>
             </p>
             <p>Inner Abilities are special bonuses that add extra stats to your character. They work similarly to potentials and can be reset using <img src="/images/items/medal-of-honor.png" alt="Item Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Boss Medal of Honor Item"/> Honor EXP. Just like Potentials, there are different tiers, Rare, Epic, Unique, and Legendary. You can tier up by using Honor EXP to reset your Inner Ability but watch out, resetting can also drop your tier if you are above Epic. If you are starting out, you do not need to worry too much about it just yet. If you do have an excess of Honor EXP, you can start by resetting to reach Unique or Legendary Ability</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3>Link Skills:</h3>
             <hr/>
             <img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager"/>
             <p>Link Skills are unique to each class and can be given to your other characters on the same world. Link Skills mostly come as passives but there are a few Active Link Skills too Once a character reaches Level 70, they can share their Link Skill with another character. When you Share your Link Skill, both characters will gain the effect of the Link Skill. Sometimes Link Skills may have different effects for the character with the linked version. Link Skills grow stronger at Level 120 (Skill Level 2) and most grow stronger again at Level 210 (Skill Level 3). Some Link Skills can stack increasing the strength of the Link Skill by linking the same Link Skill multiple times from different characters of the same class group</p>
             <p><strong>[Note]:</strong> If you do not see your Link Skill in the Link Manager, you may have to accept a quest in the Lightbulb tab on the left-hand side of the screen. If you still do not see it, try relogging For more info on Link Skills, check out: <a href="https://www.grandislibrary.com/contents/link-skills" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/link-skills</a>
             </p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="pocket">Pocket Slot:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <AdInArticle/>
+            <ArticleHeaderTwo id="pocket">Pocket Slot:</ArticleHeaderTwo>
             <hr/>
             <p>Pocket Slot is an additional equipment slot you can unlock to equip Pocket Items. To unlock the Pocket Slot, you will first need to reach Lv. 30 Charm in your Traits Stat</p>
             <p>Traits are special stats that provide small bonuses to your character. To learn more about Traits, check out: <a href="https://maplestory.fandom.com/wiki/Traits" target="_blank" rel="noreferrer noopener">https://maplestory.fandom.com/wiki/Traits</a>
@@ -128,22 +131,22 @@ function ProgressionGuide() {
             <p>Once you've reached Lv. 30 Charm you will receive a quest in your Star Event Tab on the left-hand side from <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/npc/1012117" target="_blank">Big Headward</a> in <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/map/100000104" target="_blank">Henesys Hair Salon</a>. You will be asked to bring a <img src="/images/items/rose-clipping.png" alt=""/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/4032933" target="_blank">Rose Clipping</a> that can be found by harvesting herbs or from the Auction House</p>
             <p>Once unlocked, you can buy a regular Pocket Item from <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Nave" target="_blank">Nave</a> in <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/map/100000100" target="_blank">Henesys Market</a>. There are also other special Pocket Items you can obtain but the most commonly used ones are dropped by bosses such as, <img src="/images/equipment/stone-of-eternal-life.png" alt="Eqp Stone of Eternal Life" width={30} height={28}/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/1162009" target="_blank">Stone of Eternal Life</a> from <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Hilla/Monster" target="_blank">Hilla</a>, <img src="/images/equipment/pink-holy-cup.png" alt=""/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/1162025" target="_blank">Pink Holy Cup</a> from <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Pink_Bean" target="_blank">Pink Bean</a>, or <img src="/images/equipment/cursed-red-spellbook.png" alt="Eqp Cursed Red Spellbook" width={38} height={37}/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/1162080" target="_blank">Cursed Spellbooks</a> from <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Will/Monster" target="_blank">Will</a>
             </p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="emblem">Gold Emblem</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="emblem">Gold Emblem</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/emblem-equip.png" alt="Emblem Item"/>
             <p>At Lv. 100, most classes will get their Gold Emblem for free by accepting a quest in your Lightbulb tab on the left-hand side of the screen. Emblems are very important and easy to obtain equipment that should be obtained right away. Emblems are special like Weapons and Secondary Weapons in which they can obtain %Ignore DEF, and %Attack lines as potentials which are very important stats to have. However, Emblems cannot obtain %Boss Damage</p>
             <p><strong>[Note]: </strong>For Kaiser and Angelic Buster can buy their <img src="/images/equipment/dragon-emblem.png" alt="Eqp Dragon Emblem"/> <img src="/images/equipment/angel-emblem.png" alt="Eqp Angel Emblem"/> Emblem from <a href="https://maplestory.fandom.com/wiki/Harpoon#Pantheon" target="_blank" rel="noreferrer noopener">Harpoon</a> or <a href="https://maplestory.fandom.com/wiki/Mayala" target="_blank" rel="noreferrer noopener">Mayala</a></p>
             <p><strong>[Note]: </strong>For Xenon can buy their <img src="/images/equipment/hybrid-heart.png" alt="Eqp Hybrid Heart"/> Emblem/Power Source from <a href="https://maplestory.fandom.com/wiki/Edwin" target="_blank" rel="noreferrer noopener">Edwin</a> or <a href="https://maplestory.fandom.com/wiki/Silbaron" target="_blank" rel="noreferrer noopener">Silbaron</a></p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="powercrystal"> <img src="/images/items/intense-power-crystal.png" alt=""/> Intense Power Crystals:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="powercrystal"> <img src="/images/items/intense-power-crystal.png" alt=""/> Intense Power Crystals:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/collector-ui.png" alt="Intense Power Crystal Shop"/>
             <img className="repository-image" src="/images/info/quick-move.png" alt="Quick Move UI"/>
             <p>Most bosses (excluding Gollux) drop <img src="/images/items/intense-power-crystal.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/4001886" target="_blank" rel="noreferrer noopener">[Intense Power Crystals]</a> that can be sold for Mesos. The price of the Intense Power Crystal will vary based on how many players are in your party, the difficulty of the boss, and if the boss is daily or weekly</p>
             <p>To sell your Intense Power Crystals, access the <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Collector" target="_blank">Collector</a> found by pressing the "Quick Move" button located below the minimap from any town. You can also access the Collector through the Free Market, also accessible from "Quick Move". The Collector will only accept 60 Intense Power Crystals a week and resets on Thursdays 12am UTC</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="4th">4th Job and Mastery Books:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="4th">4th Job and Mastery Books:</ArticleHeaderTwo>
             <hr/>
             <p>In 4th Job, you will require <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20" width={32} height={29}/>  <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30" width={32} height={29}/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book" target="_blank" rel="noreferrer noopener">[Mastery Books]</a> (except for Cygnus Knights and Beast Tamers) to reach the Master Level of your skills. When you first reach 4th Job, you'll notice most of your skills' Master Level is 10. You will first need to use <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20" width={32} height={29}/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book_20" target="_blank" rel="noreferrer noopener">[Mastery Book 20]</a> for each required skill to unlock Master Level 20. Afterward, you'll need to use a <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30" width={32} height={29}/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book_30" target="_blank" rel="noreferrer noopener">[Mastery Book 30]</a> for skills that have a Master Level 30</p>
             <p>To obtain Mastery Books, they are sold by <a href="https://maplestory.fandom.com/wiki/Luna" target="_blank" rel="noreferrer noopener">Luna</a>, <a href="https://maplestory.fandom.com/wiki/Sly#Leafre" target="_blank" rel="noreferrer noopener">Sly</a>, <a href="https://maplestory.fandom.com/wiki/Illiad" target="_blank" rel="noreferrer noopener">Illiad</a>, and <a href="https://maplestory.fandom.com/wiki/Bung%27s_Mama" target="_blank" rel="noreferrer noopener">Bung's Mama</a> for 3,000,000/5,000,000 Mesos. You can also buy them from <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins" width={27} height={25}/>  <a href="https://maplestory.fandom.com/wiki/Wence" target="_blank" rel="noreferrer noopener"> Wence</a>,  <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune" width={33} height={35}/> <a href="https://maplestory.fandom.com/wiki/Oko" target="_blank" rel="noreferrer noopener">Oko</a>, and <img src="/images/items/time-coin.png" alt="Etc Time Coin" width={27} height={28}/> <a href="https://maplestory.fandom.com/wiki/Cello">Cello <em>(Zero Only)</em></a> with special currencies. However, the best way to obtain Mastery Books is from Event Shops and from Theme Dungeons. Some Theme Dungeons reward you with <img src="/images/items/mastery-box.png" alt="Use Mastery Box" width={29} height={24}/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Boxes]</a> that functions as either a Mastery Book 20 or 30</p>
@@ -169,8 +172,8 @@ function ProgressionGuide() {
                 </li>
             </ul>
             <p>Additionally, as you reach 4th Job, you should start upgrading your equipment and Star Force them to 10 - 5 stars. It does not matter if the gear will be replaced, this will help you to fight monsters at an optimal pace</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="hyper">Hyper Skills + Hyper Stats</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="hyper">Hyper Skills + Hyper Stats</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/hyper-skill-active-ui.png" alt="Hyper Active UI"/>
             <img className="repository-image" src="/images/info/hyper-skill-passive-ui.png" alt="Hyper Passive UI"/>
@@ -181,8 +184,9 @@ function ProgressionGuide() {
             </p>
             <p>For more info on Hyper Stats, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Hyper_Stats" target="_blank">https://strategywiki.org/wiki/MapleStory/Hyper_Stats</a>
             </p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id={140}>Level 140 and Beyond:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <AdInArticle/>
+            <ArticleHeaderTwo id={140}>Level 140 and Beyond:</ArticleHeaderTwo>
             <hr/>
             <p>Past this point, you will begin to notice you are struggling against monsters. At Lv. 140 you will have gained all your 4th Job SP. I recommend that you max all your skills along with <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20" width={32} height={29}/>  <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30" width={32} height={29}/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book" target="_blank" rel="noreferrer noopener">[Mastery Books]</a> before going any further</p>
             <p>Additionally, take some time to fill up every equipment slot and Spell Trace everything if you are on Regular Servers. Be sure to Star Force everything as much as you can. A bare minimum of 5 Stars on everything but the best would be to have at least 10 Stars. As well, reveal all the potentials on your equipment and try to use cubes to reroll for some %Main Stat or Epic Potential</p>
@@ -190,8 +194,8 @@ function ProgressionGuide() {
             <p>You can also check out <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a> for info on upgrading and enhancing your equipment</p>
             <p>Going forward, you do not need to worry much about dailies or bosses for now until you've reached Lv. 200. You can however try and fight some bosses in the &lt; 2k Main Stat section of the <a href="https://www.grandislibrary.com/contents/progression-guide#bosses">Bosses</a> part of this guide for Mesos, equipment, and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2711001" target="_blank">Occult Cubes</a>. Your main priority right now is leveling up and working towards filling up each equipment slot with Epic Potential gear</p>
             <p>If you are struggling with Mesos, be sure to complete <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour" data-preserve-html-node="true" width={38} height={38}/> Maple Tour every day as the main reward is Mesos</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="5th">5th Job Advancement:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="5th">5th Job Advancement:</ArticleHeaderTwo>
             <hr/>
             <p><strong>Mandatory Requirements to accept 5th Job Quest:</strong>
             </p>
@@ -230,8 +234,8 @@ function ProgressionGuide() {
                 <li><strong>[Note]: </strong>The symbol you obtain is not a real Arcane Symbol yet until you complete the Vanishing Journey storyline. In the meantime, you must complete the story with the limited Arcane Force you have</li>
                 <li><strong>[Tip] </strong>If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Force, allocate some points temporarily until you get enough Arcane Force</li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="matrix">5th Job V Matrix + Nodestones:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="matrix">5th Job V Matrix + Nodestones:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/v-matrix-ui.png" alt="V Matrix"/>
             <p>In 5th Job, you do not gain skills regularly like your previous Job Advancements. Instead, you have "Nodes" which contains a 5th Job Skill. You can equip these Nodes into your V Matrix to gain access to that Skill. To gain Nodes, you need to open <img src="/images/items/nodestone.png" alt="Nodestone Item"/>Nodestones that are obtained from monsters in the Arcane River, Vanishing Journey Weekly Quest, and Event Shops</p>
@@ -270,16 +274,16 @@ function ProgressionGuide() {
             <img className="repository-image" src="/images/info/node-skill-craft.png" alt="Node Crafting"/>
             <p>Another way to gain more Nodes is by Nodecrafting. To craft Nodes, you will need Node Shards which are obtained from disassembling unwanted Nodes at a Node Master. To start, click on the "Nodecrafting" button and then click on a Node you want to craft and then press the "Craft" button. Don't press the Craft Nodestone button as you will get a Nodestone instead!</p>
             <p><strong>[Note]</strong>: When crafting Boost Nodes, you can choose the Main Skill for that Node by choosing the desired skill in the Nodecrafting UI</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="legion">Legion System</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="legion">Legion System</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/legion-ui.png" alt="Legion Board"/>
             <img className="repository-image" src="/images/info/legion-legend.png" alt="Legion Legend"/>
             <p>A system that is unlocked when you have either a total of 500 levels within your World from your characters or have reached Lv. 200 and completed the 5th Job Advancement. You can assign your characters onto a grid to provide bonuses to all your characters in your World</p>
             <p>You will see there is a "Total Level", this is based on your 40 highest level characters. This is also referred to as your "Legion Level". The higher your Legion Level the more characters you can assign to your grid. To increase the amount of characters you can assign, you also need to give your <img src="/images/items/legion-coin.png" alt="Etc Legion Coin" width={28} height={28}/> <a href="https://maplestory.fandom.com/wiki/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a> to <a href="https://maplestory.fandom.com/wiki/Dame_Appropriation" target="_blank" rel="noreferrer noopener">Dame Appropriation</a>. Legion Coins are gained passively based on your characters currently assigned to the grid</p>
             <p>Legion Coins are also used to buy special items from <a href="https://maplestory.fandom.com/wiki/Squire_Pancho_Sanza" target="_blank" rel="noreferrer noopener">Squire Pancho Sanza</a> such as <img src="/images/items/legion-expertise.png" alt="Use Legion's Expertise" width={32} height={32}/> [EXP Booster], <img src="/images/items/legion-luck.png" alt="Use Legion's Luck" width={32} height={32}/> [Drop Rate Booster], <img src="/images/items/legion-wealth.png" alt="Use Legion's Wealth" width={32} height={32}/> [Meso Rate Booster], <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll" width={32} height={25}/> [Epic Potential Scrolls], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube" width={32} height={32}/> [Master Craftsman's Cube], <img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll" width={32} height={25}/> [Bonus Potential Scrolls] and <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame" width={28} height={33}/> [Powerful Rebirth Flames]</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="rewardpoint">Reward Points + Maple Rewards Shop:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="rewardpoint">Reward Points + Maple Rewards Shop:</ArticleHeaderTwo>
             <hr/>
             <p> <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points are a special currency used in the Cash Shop at the Maple Rewards Shop or to apply a 30% discount to certain Cash Shop purchases. The discount, however, is very limited so Reward Points are usually only used to buy items from the Maple Rewards Shop</p>
             <p>Reward Points expire at the end of the next month that the points were obtained. So if you obtained some Reward Points in August, the points would expire on September 30th</p>
@@ -318,14 +322,15 @@ function ProgressionGuide() {
                 <li>Playing MapleStory M, the mobile game</li>
                 <li>Fairy Bros Daily Gift Reward</li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="auction">Auction House in Regular Servers:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <AdInArticle/>
+            <ArticleHeaderTwo id="auction">Auction House in Regular Servers:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/auction-house.png" alt="Auction House"/>
             <p>Auction House in Regular Servers allows you to buy and sell items to other Maplers. You can buy anything from equipment, potions, to cosmetic items like chairs and cash clothing. As well, you can also buy <a rel="noreferrer noopener" href="https://maplestory.nexon.net/micro-site/53117" target="_blank">Wonderberry</a> pets here that pick up items for you</p>
             <p><img className="repository-image" src="/images/info/auction-house-button.png" alt="Auction House Button"/></p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="content">Important Content:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="content">Important Content:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li><strong>[Regular Servers] Spell Tracing: </strong>Using <img src="/images/items/spell-trace.png" alt="Etc Spell Trace" width={33} height={32}/> Spell Traces, you can upgrade your gear to gain more stats
@@ -372,8 +377,8 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="questlines">Important Questlines to Complete:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="questlines">Important Questlines to Complete:</ArticleHeaderTwo>
             <hr/>
             <p>Questlines here unlock access to bosses or reward worthwhile equipment</p>
             <ul>
@@ -420,8 +425,8 @@ function ProgressionGuide() {
                 <li>
                 <img alt="" src="/images/map-icons/masteria-through-time.png"/> <strong>[Lv. 160]</strong><strong> <a href="https://maplestory.fandom.com/wiki/Blockbuster/Masteria_Through_Time" target="_blank" rel="noreferrer noopener">[Blockbuster] Masteria Through Time</a></strong>: Completing blockbuster will reward you with <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian" width={26} height={34}/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1142962" target="_blank" rel="noreferrer noopener">[Best-in-slot Medal]</a>, <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid" width={22} height={28}/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662090" target="_blank" rel="noreferrer noopener">[Subani-Roid]</a> OR <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid" width={22} height={28}/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662091" target="_blank" rel="noreferrer noopener">[Dr. Jang-Roid]</a> androids with NPC Vendor</li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="equipment">Equipment Content:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="equipment">Equipment Content:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li>Level beside items are when they can be obtained or equipped</li>
@@ -433,7 +438,7 @@ function ProgressionGuide() {
                 <li>For more info on equipment in the game check out: <a href="https://maplestory.fandom.com/wiki/Item" target="_blank" rel="noreferrer noopener">https://maplestory.fandom.com/wiki/Item</a>
                 </li>
             </ul>
-            <h4>Lv. 10 - 120:</h4>
+            <h3>Lv. 10 - 120:</h3>
             <ul>
                 <li><strong>[Lv. 10 - 40]</strong><img src="/images/equipment/brown-winter-hat.png" alt="Eqp Brown Winter Hat" width="29" height="21"/><img src="/images/equipment/blue-split-piece.png" alt="Eqp Blue Split Piece" width="25" height="28"/><img src="/images/equipment/blue-shouldermail-pants.png" alt="Eqp Blue Shouldermail Pants" width="25" height="28"/><img src="/images/equipment/silver-sylvia.png" alt="Eqp Silver Sylvia"/><img src="/images/equipment/brown-leather-krag.png" alt="Eqp Brown Leather Krag" width="29" height="21"/> Can be bought from your class' hometown<ul><li>Can also be dropped by monsters around your level</li></ul></li>
                 <li><strong>[Lv. 40 - 110]</strong><img src="/images/equipment/green-distinction.png" alt="Eqp Green Distinction" width="32" height="22"/><img src="/images/equipment/blue-requiem.png" alt="Eqp Blue Requiem" width="27" height="32"/><img src="/images/equipment/black-neos-pants.png" alt="Eqp Black Neos Pants" width="21" height="29"/><img src="/images/equipment/green-mystra.png" alt="Eqp Green Mystra" width="24" height="24"/><img src="/images/equipment/black-duke-barkin-shoes.png" alt="Eqp Black Duke Barkin Shoes" width="24" height="29"/> Dropped by monsters around your level<ul><li>Can also be crafted with the Blacksmith Profession</li></ul></li>
@@ -503,7 +508,7 @@ function ProgressionGuide() {
                 <li><strong>[Lv. 115] </strong> <img src="/images/equipment/mystic-face-accessory.png" alt="Eqp Mystic Face Accessory" width={23} height={29}/>  <img src="/images/equipment/mystic-eye-accessory.png" alt="Eqp Mystic Eye Accessory" width={33} height={27}/> <img src="/images/equipment/mystic-earrings.png" alt="Eqp Mystic Earrings" width={31} height={26}/>  <img src="/images/equipment/mystic-pendant.png" alt="Eqp Mystic Pendant" width={30} height={28}/> <img src="/images/equipment/mystic-belt.png" alt="Eqp Mystic Belt"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Mystic_Set" target="_blank" rel="noreferrer noopener">[Mystic Gear]</a> Bought with <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins" width={27} height={25}/>  <a href="https://maplestory.fandom.com/wiki/Crusader_Coins" target="_blank" rel="noreferrer noopener">[Crusader Coins]</a> from <a href="https://maplestory.fandom.com/wiki/Wence" target="_blank" rel="noreferrer noopener">Wence</a>
                 </li>
             </ul>
-            <h4>Lv. 120+:</h4>
+            <h3>Lv. 120+:</h3>
             <ul>
                 <li><strong>[Lv. 120+] </strong> <img src="/images/equipment/elite-heliseum-boots.png" alt=""/> <img src="/images/equipment/elite-heliseum-cape.png" alt="Eqp Elite Heliseum Cape" width={32} height={30}/> [ <a href="https://maplestory.wiki/GMS/210.1.1/item/1072732" target="_blank" rel="noreferrer noopener">Lv. 80 Shoe</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1102471">Lv. 80 Cape</a> ] Chance to drop from <a href="https://maplestory.fandom.com/wiki/Treglow" target="_blank" rel="noreferrer noopener">Treglow</a> / <a href="https://maplestory.fandom.com/wiki/Victor" target="_blank" rel="noreferrer noopener">Victor</a> / <a href="https://maplestory.fandom.com/wiki/Velderoth" target="_blank" rel="noreferrer noopener">Velderoth</a>
                 <ul>
@@ -609,7 +614,7 @@ function ProgressionGuide() {
                     </ul>
                 </li>
             </ul>
-            <h4>Boss Armor:</h4>
+            <h3>Boss Armor:</h3>
             <ul>
                 <li>Considered a <a href="https://maplestory.fandom.com/wiki/Category:Boss_Reward_Equipment?from=Frozen+Hat" target="_blank" rel="noreferrer noopener">Boss Item</a> for Flames/Bonus Stats</li>
                 <li>Considered the main gear to strive because they are Boss Items</li>
@@ -628,7 +633,7 @@ function ProgressionGuide() {
                 <li><strong>[Lucid / Will </strong> <img src="/images/items/phantasma-coin.png" alt="Etc Phantasma Coin" width={27} height={27}/> <img src="/images/items/arachno-coin.png" alt="Etc Arachno Coin" width={27} height={27}/><strong>] </strong> <img src="/images/equipment/arcane-umbra-knight-hat.png" alt="Eqp Arcane Umbra Knight Hat" width={37} height={36}/> <img src="/images/equipment/arcane-umbra-knight-suit.png" alt="Eqp Arcane Umbra Mage Suit" width={32} height={32}/>  <img src="/images/equipment/arcane-umbra-knight-shoes.png" alt="Eqp Arcane Umbra Knight Shoes" width={26} height={30}/> <img src="/images/equipment/arcane-umbra-knight-gloves.png" alt="Eqp Arcane Umbra Knight Gloves" width={30} height={25}/>  <img src="/images/equipment/arcane-umbra-knight-cape.png" alt="Eqp Arcane Umbra Knight Cape" width={37} height={33}/>  <img src="/images/equipment/arcane-umbra-knight-shoulder.png" alt="Eqp Arcane Umbra Knight Shoulder" width={32} height={27}/> <img src="/images/equipment/arcane-umbra-saber.png" alt="Eqp Arcane Umbra Saber" width={32} height={31}/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Lv. 200 Arcane Umbra Gear]</a>
                 </li>
             </ul>
-            <h4>Boss Accessories:</h4>
+            <h3>Boss Accessories:</h3>
             <ul>
                 <li>Part of the <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Pitched_Boss_Set" target="_blank" rel="noreferrer noopener">Pitched Boss Accessory Set</a>
                 </li>
@@ -658,8 +663,8 @@ function ProgressionGuide() {
             <hr/>
             <p>For info on upgrading and enhancing gear check out: <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a>
             </p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h4 id="spelltrace"> <img src="/images/items/spell-trace.png" alt=""/> Spell Tracing in Regular Servers:</h4>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <h3 id="spelltrace"> <img src="/images/items/spell-trace.png" alt=""/> Spell Tracing in Regular Servers:</h3>
             <hr/>
             <p>For regular servers, be sure to upgrade all your gear with at least 70% Spell Tracing so that you can start Star Forcing your gear as well. On average, 70% Spell Tracing provides an optimal amount of stats compared to just 100% Spell Tracing your equipment</p>
             <p>In Reboot Servers, Spell Traces are useless and can be sold to NPCs for extra Mesos</p>
@@ -674,31 +679,26 @@ function ProgressionGuide() {
                 <li>Inferno Wolf + Pollo/Frito Missions</li>
                 <li> <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins" width={27} height={25}/> Crusader Coin shop</li>
             </ul>
-            <p><strong>Spell Trace Fever:</strong>
-            </p>
+            <h5>Spell Trace Fever:</h5>
             <img className="repository-image" src="/images/info/spell-trace-fever.png" alt="Spell Trace Fever"/>
             <p>Occasionally on Regular Servers, there are special events that take place where Spell Trace enhancements have a higher success rate. These are the best times to upgrade equipment you plan to invest a lot of time into. Unless you are planning to perfect a piece of equipment, you do not need to wait for this event to start Spell Tracing</p>
-            <p><strong>50% Off Spell Tracing:</strong>
-            </p>
+            <h5>50% Off Spell Tracing:</h5>
             <p>Occasionally on Regular Servers, during Sunny Sundays, there are events where Spell Tracing will cost half the amount. This is a good time to use Spell Traces on (Ark) Innocence Scrolls or Clean Slates but, Spell Trace Fever is much better still because of the increased rates. Also, using regular 10% Clean Slates and 50% Innocence Scrolls will probably be more cost-effective than using the Spell Tracing versions</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h4 id="starforce">Star Forcing:</h4>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <h3 id="starforce">Star Forcing:</h3>
             <hr/>
             <img className="repository-image" src="/images/info/starforce-tooltip.png" alt="Star Force Example"/>
             <p>Once you have consumed all upgrade slots, you may star force/enhance your gear. In Reboot, there are no upgrade slots, so you just star force/enhance instead. Star Forcing costs Mesos that grants increased stats on success</p>
             <p>A recommended amount of stars you want for each piece of equipment is around 10 - 12 stars early on but optimally all gear at 12 stars</p>
             <p>Occasionally there are events with shops that sell <img src="/images/items/star-enhancement-scroll.png" alt=""/>[Star Enhancement Scrolls] which sets an equipment's Star Force to the said amount. There is normally one that enhances your gear to <a href="https://maplestory.wiki/GMS/210.1.1/item/2049378" target="_blank" rel="noreferrer noopener">15-stars</a> that you can get from events if you do not have enough Mesos to Star Force. Past 15 stars, equipment start to see a clear difference from equipment with fewer stars</p>
-            <p><strong>30% Star Force Discount:</strong>
-            </p>
+            <h5>30% Star Force Discount:</h5>
             <p>Occasionally on Sunny Sundays, there is an event where Star Forcing prices are discounted by 30%. These are the best times to Star Force if you are trying to reach above 15 stars. If you are just Star Forcing regularly to 12 stars, you do not need to wait for this to happen</p>
-            <p><strong>5/10/15 Star Force 100%:</strong>
-            </p>
+            <h5>5/10/15 Star Force 100%:</h5>
             <p>Occasionally on Sunny Sundays, there is an event where enhancing to 5, 10, or 15 Star Force, the success rate is guaranteed. This is also a good time to try reaching to 15 stars but is not necessary to start Star Forcing your gear</p>
-            <p><strong>1+1 Event:</strong>
-            </p>
+            <h5>1+1 Event:</h5>
             <p>Occasionally on Sunny Sundays, there is an event where for every Star Force enhancement below 10 Stars, you gain 2 stars. This is also a good time to try reaching to 15 stars since you essentially only need to keep trying from 12 Stars, but is not necessary to start Star Forcing your gear</p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h4 id="additionalstats">Bonus Stats:</h4>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <h3 id="additionalstats">Bonus Stats:</h3>
             <hr/>
             <p>For now you do not need to worry too much about Bonus Stats and Rebirth Flames. If you do obtain a special rebirth flame, feel free to use it on anything or on regular servers, you can sell them (if tradeable)</p>
             <p>Some nice stats to reroll into is your Main Stat, %All Stat, %Boss Damage or Attack/Magic Attack</p>
@@ -735,8 +735,8 @@ function ProgressionGuide() {
                 </li>
                 <li>Set bonus effect</li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h4 id="transferhammer">Transfer Hammer:</h4>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <h3 id="transferhammer">Transfer Hammer:</h3>
             <hr/>
             <img className="repository-image" src="/images/info/transfer-hammer-ui.png" alt="Transfer Hammer UI"/>
             <p>Transfer Hammer is a system that allows you to transfer Star Force, Potentials, Bonus Potentials, and Soul Weapon from one equipment to another (with restrictions). The following will not be transferred, Scrolled Stats and Bonus Stats. Additionally, you will lose one Star Force while transferring and any potentials above Epic will be dropped down to Epic Potential. You can only transfer equipment up to 10 levels apart of each other. For equipment below Lv. 100, you can transfer up to 20 levels apart</p>
@@ -745,8 +745,8 @@ function ProgressionGuide() {
             <img className="repository-image" src="/images/info/transfer-hammer-button.png" alt="Transfer Hammer Button"/>
             <p>To begin Transfer Hammering, you can access the UI from your Inventory by<strong> pressing the blue hammer icon</strong> For more info on Transfer Hammer, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Transfer_Hammer" target="_blank">https://strategywiki.org/wiki/MapleStory/Transfer_Hammer</a>
             </p>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h4 id="epicgear">Epic Potential Gear and so on:</h4>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <h3 id="epicgear">Epic Potential Gear and so on:</h3>
             <hr/>
             <p>Early game you want to have all your gear at least 9% Main Stat and Epic Potential. You will also be wanting to be working towards Unique Potential gear. Your main focus for this would be to try and get your Weapon, Secondary Weapon, and Emblem to unique first as their potentials can provide special stats like %Attack/Magic Attack, %Ignore DEF and %Boss Damage unlike the rest of your gear. As a note, do not keep %Damage lines as they do not provide as much as a boost as the other potential lines do</p>
             <p>Additionally, be sure all your equipment have 3 lines of potential instead of 2. Use <img src="/images/items/gold-potential-stamp.png" alt="Gold Potential Stamp"/> <a href="https://maplestory.wiki/GMS/215/item/2049500" target="_blank" rel="noreferrer noopener">[Gold Potential Stamp]</a> to unlock a 3rd line if needed</p>
@@ -782,8 +782,8 @@ function ProgressionGuide() {
                 <li>Pollo/Frito Missions + Inferno Wolf</li>
                 <li>Surprise Mission</li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="bosses">[ &lt; 2k Main Stat] Earlygame Bosses:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="bosses">[ &lt; 2k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
             <hr/>
             <p>Bosses listed are in a sort of easiest to hardest order but don't be afraid to try them out yourself. The amount of Main Stat listed is just a safe recommendation, your class may be able to defeat a boss with lower stat if you have the damage or the right mechanics</p>
             <p>As well, it should be noted, a better, more general guide would be to consider which floor you can reach in Mu Lung Dojo although neither is perfectly accurate. The best way to check if you can defeat a boss is by trying, especially in Practice Mode when applicable</p>
@@ -830,7 +830,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h3 id="bosses">[ &gt; 3k Main Stat] Earlygame Bosses:</h3>
+            <ArticleHeaderTwo id="bosses">[ &gt; 3k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/gollux.png" alt="MapIcon GiantVellud"/> <strong><a href="https://maplestory.fandom.com/wiki/Gollux" target="_blank" rel="noreferrer noopener">Easy/Normal Gollux</a></strong>:
@@ -900,7 +900,7 @@ function ProgressionGuide() {
                     </ul>
                 </li>
             </ul>
-            <h3 id="bosses">[ &gt; 5k Main Stat] Earlygame Bosses:</h3>
+            <ArticleHeaderTwo id="bosses">[ &gt; 5k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon PinkBean" width={38} height={38}/> <a href="https://maplestory.fandom.com/wiki/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Normal Pink Bean</strong></a>
@@ -931,7 +931,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h3>[ &gt; 8k Main Stat] Earlygame Bosses:</h3>
+            <ArticleHeaderTwo>[ &gt; 8k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Signus" width={38} height={38}/> <a href="https://maplestory.fandom.com/wiki/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Cygnus</strong></a>
@@ -944,7 +944,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h3>[ &gt; 12k Main Stat] Midgame Bosses:</h3>
+            <ArticleHeaderTwo>[ &gt; 12k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon PinkBean" width={38} height={38}/> <a href="https://maplestory.fandom.com/wiki/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Chaos Pink Bean</strong></a>
@@ -972,7 +972,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h3>[ &gt; 14k Main Stat] Midgame Bosses:</h3>
+            <ArticleHeaderTwo>[ &gt; 14k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <p>Recommended to have at least &gt;%90 IED and &gt;200% Boss Damage for bosses beyond this point</p>
             <ul>
@@ -998,7 +998,7 @@ function ProgressionGuide() {
                     </ul>
                 </li>
             </ul>
-            <h3>[ &gt; 20k Main Stat] Midgame Bosses:</h3>
+            <ArticleHeaderTwo>[ &gt; 20k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock" width={38} height={38}/> <a href="https://maplestory.fandom.com/wiki/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Chaos Papulatus</strong></a>
@@ -1042,7 +1042,7 @@ function ProgressionGuide() {
                     </ul>
                 </li>
             </ul>
-            <h3>Tier I Endgame Bosses:</h3>
+            <ArticleHeaderTwo>Tier I Endgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <p>Bosses beyond this point are not meant to be soloable and are more party-oriented bosses. As well, beyond this point, bosses will be separated by tiers as there is no good recommended stat indicators for the reasons mentioned earlier.</p>
             <ul>
@@ -1063,7 +1063,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h3>Tier II Endgame Bosses:</h3>
+            <ArticleHeaderTwo>Tier II Endgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln" width={38} height={38}/> <a href="https://maplestory.fandom.com/wiki/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Lucid</strong></a>
@@ -1081,12 +1081,12 @@ function ProgressionGuide() {
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/occult-cube.png" alt="Use Occult Cube" width={29} height={29}/> <a href="https://maplestory.fandom.com/wiki/Occult_Cube" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube" width={27} height={27}/> <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir" width={32} height={31}/> <a href="https://maplestory.fandom.com/wiki/Power_Elixir">[ Power Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal" width={32} height={38}/> <a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
                     </li>
                     <li><strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/stone-cobweb-droplet.png" alt="Etc Stone Cobweb Droplet" width={34} height={36}/>[Stone Cobweb Droplet]</li>
-                    <li><strong>Hard Mode Only Rewards: </strong> <img src="/images/equipment/cursed-red-spellbook.png" alt="Eqp Cursed Red Spellbook" width={38} height={37}/> <img src="/images/equipment/cursed-blue-spellbook.png" alt="Eqp Cursed Blue Spellbook" width={38} height={37}/> <img src="/images/equipment/cursed-green-spellbook.png" alt="Eqp Cursed Green Spellbook" width={37} height={37}/> <img src="/images/equipment/cursed-yellow-spellbook.png" alt="Eqp Cursed Yellow Spellbook" width={38} height={36}/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162080" target="_blank" rel="noreferrer noopener">[Cursed Spellbook]</a>, <img src="/images/equipment/arcane-umbra-knight-hat.png" alt="Eqp Arcane Umbra Knight Hat" width={37} height={36}/> <img src="https://maplestory.io/api/GMS/223/item/1152198/icon" alt="Eqp Arcane Umbra Knight Shoulder"/> <img src="/images/equipment/arcane-umbra-knight-suit.png" alt="Eqp Arcane Umbra Knight Suit" width={26} height={31}/> <img src="/images/equipment/arcane-umbra-saber.png" alt="Eqp Arcane Umbra Saber" width={32} height={31}/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Hat/Shoulder/Overall/Weapon) Arcane Umbra Gear]</a>, <img src="/images/items/mirror-world-nodestone.png" alt="Use Mirror World Nodestone" width={38} height={38}/> <a href="https://maplestory.fandom.com/wiki/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>
+                    <li><strong>Hard Mode Only Rewards: </strong> <img src="/images/equipment/cursed-red-spellbook.png" alt="Eqp Cursed Red Spellbook" width={38} height={37}/> <img src="/images/equipment/cursed-blue-spellbook.png" alt="Eqp Cursed Blue Spellbook" width={38} height={37}/> <img src="/images/equipment/cursed-green-spellbook.png" alt="Eqp Cursed Green Spellbook" width={37} height={37}/> <img src="/images/equipment/cursed-yellow-spellbook.png" alt="Eqp Cursed Yellow Spellbook" width={38} height={36}/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162080" target="_blank" rel="noreferrer noopener">[Cursed Spellbook]</a>, <img src="/images/equipment/arcane-umbra-knight-hat.png" alt="Eqp Arcane Umbra Knight Hat" width={37} height={36}/> <img src="/images/equipment/arcane-umbra-knight-shoulder.png" alt="Eqp Arcane Umbra Knight Shoulder"/> <img src="/images/equipment/arcane-umbra-knight-suit.png" alt="Eqp Arcane Umbra Knight Suit" width={26} height={31}/> <img src="/images/equipment/arcane-umbra-saber.png" alt="Eqp Arcane Umbra Saber" width={32} height={31}/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Hat/Shoulder/Overall/Weapon) Arcane Umbra Gear]</a>, <img src="/images/items/mirror-world-nodestone.png" alt="Use Mirror World Nodestone" width={38} height={38}/> <a href="https://maplestory.fandom.com/wiki/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>
                     </li>
                 </ul>
                 </li>
             </ul>
-            <h3>Tier III Endgame Bosses:</h3>
+            <ArticleHeaderTwo>Tier III Endgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge" width="{38}" height="{38}"/> <strong><a href="https://maplestory.fandom.com/wiki/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Gloom</a></strong>
@@ -1117,7 +1117,7 @@ function ProgressionGuide() {
                     </ul>
                 </li>
             </ul>
-            <h3>Tier IV Endgame Bosses:</h3>
+            <ArticleHeaderTwo>Tier IV Endgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li><img src="/images/map-icons/limina.png" alt="MapIcon Limen" width="{38}" height="{38}"/> <a href="https://maplestory.fandom.com/wiki/Black_Mage/Monster" target="_blank" rel="noreferrer noopener"><strong>Black Mage</strong></a>
@@ -1134,8 +1134,9 @@ function ProgressionGuide() {
                 </li>
             </ul>
             <hr/>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="dailyweekly">Daily / Weekly Quests:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <AdInArticle/>
+            <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests:</ArticleHeaderTwo>
             <hr/>
             <p>A majority of Daily and Weekly Quests are mostly done at Lv. 200+. Characters pre-200 do not need to worry about these quests as much</p>
             <ul>
@@ -1234,18 +1235,18 @@ function ProgressionGuide() {
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera" width="{33}" height="{33}"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="https://maplestory.io/api/GMS/223/map/450009100/icon" alt="MapIcon Moonbridge"/> <strong>[Lv. 245+] <a href="https://maplestory.fandom.com/wiki/Quests/224/(Daily_Quest)_Tenebris_Research" target="_blank" rel="noreferrer noopener">[Daily] Tenebris</a></strong>: Completing the storyline in Moonbridge unlocks Daily Quests for this region
+                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong>[Lv. 245+] <a href="https://maplestory.fandom.com/wiki/Quests/224/(Daily_Quest)_Tenebris_Research" target="_blank" rel="noreferrer noopener">[Daily] Tenebris</a></strong>: Completing the storyline in Moonbridge unlocks Daily Quests for this region
                     <ul>
                     <li>More daily quests are available once Labyrinth of Suffering and Limina storylines have been completed</li>
                     <li><strong>Main Rewards: </strong> <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> [Spark of Determination]</li>
                     </ul>
                 </li>
-                <li><img src="https://maplestory.io/api/GMS/223/map/410000500/icon" alt="MapIcon Cernium"/> <strong>[Lv. 260+] <a href="https://maplestory.fandom.com/wiki/Category:Cernium" target="_blank" rel="noreferrer noopener">[Daily] Cernium</a></strong>: Completing the storyline here unlocks Daily Quests for this area
+                <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <strong>[Lv. 260+] <a href="https://maplestory.fandom.com/wiki/Category:Cernium" target="_blank" rel="noreferrer noopener">[Daily] Cernium</a></strong>: Completing the storyline here unlocks Daily Quests for this area
                     <ul>
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/sacred-symbol-cernium.png" alt="Eqp Sacred Symbol Cernium"/> [Sacred Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="https://maplestory.io/api/GMS/223/map/410000500/icon" alt="MapIcon Cernium"/> <strong>[Lv. 265+] <a href="https://maplestory.fandom.com/wiki/Category:Burning_Cernium" target="_blank" rel="noreferrer noopener">[Daily] Burning Cernium</a></strong>: Completing the storyline here unlocks Daily Quests for this area
+                <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <strong>[Lv. 265+] <a href="https://maplestory.fandom.com/wiki/Category:Burning_Cernium" target="_blank" rel="noreferrer noopener">[Daily] Burning Cernium</a></strong>: Completing the storyline here unlocks Daily Quests for this area
                     <ul>
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/sacred-symbol-cernium.png" alt="Eqp Sacred Symbol Cernium"/> [Sacred Symbols]</li>
                     </ul>
@@ -1257,9 +1258,9 @@ function ProgressionGuide() {
                 </li>
             </ul>
             <hr/>
-            <h4>Optional:</h4>
+            <h3>Optional:</h3>
             <ul>
-                <li><img src="https://maplestory.io/api/GMS/223/map/865000002/icon" alt="MapIcon Commerci"/> <strong>[Lv. 140+] <a href="https://strategywiki.org/wiki/MapleStory/Commerci_Trade_Voyages" target="_blank" rel="noreferrer noopener">[Daily] Commerci Voyages</a></strong>: Unlocked once you reach the town of San Commerci. Complete trade voyages where waves of enemies spawn to earn <img src="/images/items/commerci-denaro.png" alt="Etc Commerci Denaro" width={30} height={22}/> <a href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaro]</a>
+                <li><img src="/images/map-icons/commerci.png" alt="MapIcon Commerci"/> <strong>[Lv. 140+] <a href="https://strategywiki.org/wiki/MapleStory/Commerci_Trade_Voyages" target="_blank" rel="noreferrer noopener">[Daily] Commerci Voyages</a></strong>: Unlocked once you reach the town of San Commerci. Complete trade voyages where waves of enemies spawn to earn <img src="/images/items/commerci-denaro.png" alt="Etc Commerci Denaro" width={30} height={22}/> <a href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaro]</a>
                 <ul>
                     <li>Denaros are used to buy <strong/> <img src="/images/equipment/sweetwater-monocle.png" alt="Eqp Sweetwater Monocle"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1012438" target="_blank" rel="noreferrer noopener">[Sweetwater Monocle]</a> and <img src="/images/equipment/sweetwater-tattoo.png" alt="Eqp Sweetwater Tattoo"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022211" target="_blank" rel="noreferrer noopener">[Sweetwater Tattoo]</a> from <a href="https://maplestory.fandom.com/wiki/Javert" target="_blank" rel="noreferrer noopener">Javert</a>
                     </li>
@@ -1279,7 +1280,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><img src="https://maplestory.io/api/GMS/223/map/310070000/icon" alt="MapIcon Scrapyard"/> <strong>[Lv. 190+] <a href="https://maplestory.fandom.com/wiki/Category:Scrapyard" target="_blank" rel="noreferrer noopener">[Weekly] Scrapyard</a></strong>: Unlocked once you reach Lv. 190
+                <li><img src="/images/map-icons/haven.png" alt="MapIcon Scrapyard"/> <strong>[Lv. 190+] <a href="https://maplestory.fandom.com/wiki/Category:Scrapyard" target="_blank" rel="noreferrer noopener">[Weekly] Scrapyard</a></strong>: Unlocked once you reach Lv. 190
                 <ul>
                     <li>Weekly Quests reward you with <img src="/images/items/diffusion-line-energy-core.png" alt="Etc Diffusion-Line Energy Core (Grade A)" width={36} height={30}/> [Diffusion-Line Energy Core (Grade A)] which are used to create <img src="/images/items/absolab-coin.png" alt="Etc AbsoLab Coin" width={27} height={26}/> [AbsoLab Coins] to buy for <img src="/images/equipment/absolab-knight-shoes.png" alt="Eqp AbsoLab Knight Shoes" width={28} height={32}/> <img src="/images/equipment/absolab-knight-gloves.png" alt="Eqp AbsoLab Knight Gloves" width={32} height={30}/> <img src="/images/equipment/absolab-knight-cape.png" alt="Eqp AbsoLab Knight Cape" width={34} height={33}/> <img src="/images/equipment/absolab-saber.png" alt="Eqp AbsoLab Saber" width={33} height={33}/> [<em>(Shoe/Glove/Cape/Weapon)</em> AbsoLab Gear]
                     <ul>
@@ -1290,7 +1291,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><img src="https://maplestory.io/api/GMS/223/map/105300304/icon" alt="MapIcon Dark World Tree"/> <strong>[Lv. 190+] <a href="https://maplestory.fandom.com/wiki/Category:Dark_World_Tree" target="_blank" rel="noreferrer noopener">[Weekly] Dark World Tree</a></strong>: Unlocked once you reach Lv. 190
+                <li><img src="/images/map-icons/dark-world-tree.png" alt="MapIcon Dark World Tree"/> <strong>[Lv. 190+] <a href="https://maplestory.fandom.com/wiki/Category:Dark_World_Tree" target="_blank" rel="noreferrer noopener">[Weekly] Dark World Tree</a></strong>: Unlocked once you reach Lv. 190
                 <ul>
                     <li>Weekly Quests reward you with <img src="/images/items/faint-stigma-spirit-stone.png" alt="Etc Faint Stigma Spirit Stone"/> [Faint Stigma Spirit Stone] which are used to create <img src="/images/items/stigma-coin.png" alt="Etc Stigma Coin" width={27} height={26}/> [Stigma Coins] to buy for <img src="/images/equipment/absolab-knight-helm.png" alt="Eqp AbsoLab Knight Helm" width={34} height={28}/> <img src="/images/equipment/absolab-knight-suit.png" alt="Eqp AbsoLab Knight Suit" width={26} height={32}/> <img src="/images/equipment/absolab-knight-shoulder.png" alt="Eqp AbsoLab Knight Shoulder" width={34} height={33}/> <img src="/images/equipment/absolab-saber.png" alt="Eqp AbsoLab Saber" width={33} height={33}/> [<em>(Hat/Overall/Shoulder/Weapon)</em> AbsoLab Gear]
                     <ul>
@@ -1314,8 +1315,8 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="training">Training Maps:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="training">Training Maps:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/world-map-ui.png" alt="World Map"/>
             <p>To find a certain map or monster listed here, open your World Map (W by default) and search for the desired item on the right-hand side. Clicking on the item you want will direct you to the map which will start blinking</p>
@@ -1516,7 +1517,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h4>Arcane River - Vanishing Journey + Reverse City [Recommended Level: 200 - 212]</h4>
+            <h3>Arcane River - Vanishing Journey + Reverse City [Recommended Level: 200 - 212]</h3>
             <ul>
                 <li> <img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing" width={38} height={38}/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/450001014" target="_blank" rel="noreferrer noopener">[Arcane Force 30] Vanishing Journey - Weathered Land of Sorrow</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8641002" target="_blank" rel="noreferrer noopener">Sad Erda</a>
                 </li>
@@ -1531,7 +1532,7 @@ function ProgressionGuide() {
                 <li> <img src="/images/map-icons/reverse-city.png" alt="MapIcon Reverse City" width={32} height={34}/> <a href="https://maplestory.wiki/GMS/214/map/450014300" target="_blank" rel="noreferrer noopener"><strong>[Arcane Force 100] Reverse City - </strong><strong>Hidden Research Train</strong></a>: <a href="https://maplestory.wiki/GMS/214/mob/8641066" target="_blank" rel="noreferrer noopener">Seeker T-Drone Model A</a> and <a href="https://maplestory.wiki/GMS/214/mob/8641067" target="_blank" rel="noreferrer noopener">Seeker T-Drone Model B</a>
                 </li>
             </ul>
-            <h4>Arcane River - Chu Chu Island + Yum Yum Island [Recommended Level: 210 - 222]</h4>
+            <h3>Arcane River - Chu Chu Island + Yum Yum Island [Recommended Level: 210 - 222]</h3>
             <ul>
                 <li> <img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450002008" target="_blank" rel="noreferrer noopener">[Arcane Force 100] Chu Chu Island - Bitty-Bobble Forest 1</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8642004" target="_blank" rel="noreferrer noopener">Flyon</a>
                 </li>
@@ -1544,7 +1545,7 @@ function ProgressionGuide() {
                 <li> <img src="/images/map-icons/yum-yum-island.png" alt="MapIcon YumYum" width={36} height={36}/> <strong><a href="https://maplestory.wiki/GMS/215/map/450015290" target="_blank" rel="noreferrer noopener">[Arcane Force 190] Yum Yum Island - Hidden Illiard Field</a></strong>: <a href="https://maplestory.wiki/GMS/215/mob/8642062" target="_blank" rel="noreferrer noopener">Potent Lytone</a> and <a href="https://maplestory.wiki/GMS/215/mob/8642063" target="_blank" rel="noreferrer noopener">Potent Stonepy</a>
                 </li>
             </ul>
-            <h4>Arcane River - Lachelein [Recommended Level: 220 - 225]</h4>
+            <h3>Arcane River - Lachelein [Recommended Level: 220 - 225]</h3>
             <ul>
                 <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450003310">[Arcane Force 210] Lachelein - Chicken Festival 2</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8643004">Gallus</a>
                 </li>
@@ -1555,7 +1556,7 @@ function ProgressionGuide() {
                 <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450003500">[Arcane Force 240] Lachelein - Nightmare Clocktower 1F</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8643000">Dreamkeeper</a>
                 </li>
             </ul>
-            <h4>Arcane River - Arcana [Recommended Level: 225 - 250]</h4>
+            <h3>Arcane River - Arcana [Recommended Level: 225 - 250]</h3>
             <ul>
                 <li> <img src="/images/map-icons/arcana.png" alt="MapIcon Arcana" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450005210">[Arcane Force 320] Arcana - Snow Cloud Clearing</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644003">Snow Cloud Spirit</a>
                 </li>
@@ -1566,34 +1567,34 @@ function ProgressionGuide() {
                 <li> <img src="/images/map-icons/arcana.png" alt="MapIcon Arcana" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450005430">[Arcane Force 360] Arcana - Cavern Lower Path</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644007">Befuddled Spirit</a>
                 </li>
             </ul>
-            <h4>Arcane River - Morass [Recommended Level: 230 - 235]</h4>
+            <h3>Arcane River - Morass [Recommended Level: 230 - 235]</h3>
             <ul>
                 <li> <img src="/images/map-icons/morass.png" alt="MapIcon Morass" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450006210" target="_blank" rel="noreferrer noopener">[Arcane Force 480] Morass - Shadowdance Hall Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644405" target="_blank" rel="noreferrer noopener">Blue Shadow</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644405" target="_blank" rel="noreferrer noopener">Red Shadow</a>
                 </li>
                 <li> <img src="/images/map-icons/morass.png" alt="MapIcon Morass" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450006410" target="_blank" rel="noreferrer noopener">[Arcane Force 520] Morass - That Day in Trueffet Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644411" target="_blank" rel="noreferrer noopener">Thralled Wizard</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644412" target="_blank" rel="noreferrer noopener">Thralled Archer</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644410" target="_blank" rel="noreferrer noopener">Thralled Warhammer Knight</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644409" target="_blank" rel="noreferrer noopener">Thralled Guard</a>
                 </li>
             </ul>
-            <h4>Arcane River - Esfera [Recommended Level: 235 - 250]</h4>
+            <h3>Arcane River - Esfera [Recommended Level: 235 - 250]</h3>
             <ul>
                 <li> <img src="/images/map-icons/esfera.png" alt="MapIcon esfera" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450007110" target="_blank" rel="noreferrer noopener">[Arcane Force 600] Esfera - Mirror-touched Sea Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644504" target="_blank" rel="noreferrer noopener">Aranya</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644505" target="_blank" rel="noreferrer noopener">Aranea</a>
                 </li>
                 <li> <img src="/images/map-icons/esfera.png" alt="MapIcon esfera" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450007210" target="_blank" rel="noreferrer noopener">[Arcane Force 640] Esfera - Radiant Temple Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450007210" target="_blank" rel="noreferrer noopener">Light Executor</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644509" target="_blank" rel="noreferrer noopener">Dark Executor</a>
                 </li>
             </ul>
-            <h4>Arcane River - Moonbridge + Labyrinth of Suffering [Recommended Level: 245 - 255]</h4>
+            <h3>Arcane River - Moonbridge + Labyrinth of Suffering [Recommended Level: 245 - 255]</h3>
             <ul>
                 <li> <img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450009110" target="_blank" rel="noreferrer noopener">[Arcane Force 670] Moonbridge - Last Horizon Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644615" target="_blank" rel="noreferrer noopener">Soot Talon</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644614" target="_blank" rel="noreferrer noopener">Soot Beast</a>
                 </li>
                 <li> <img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge" width={38} height={38}/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450009310" target="_blank" rel="noreferrer noopener">[Arcane Force 730] Moonbridge - Void Current Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644619" target="_blank" rel="noreferrer noopener">Burst Glare</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644618" target="_blank" rel="noreferrer noopener">Crushing Glare</a>
                 </li>
             </ul>
-            <h4>Arcane River - Limina [Recommended Level<strong>: </strong>255 - 275]</h4>
+            <h3>Arcane River - Limina [Recommended Level<strong>: </strong>255 - 275]</h3>
             <ul>
                 <li> <img src="/images/map-icons/limina.png" alt="MapIcon Limen" width={38} height={38}/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category:Limina" target="_blank"><strong>Limina</strong></a>
                 </li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="themedungeon">Theme Dungeons:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="themedungeon">Theme Dungeons:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy" width={38} height={38}/> <strong>[Lv. 30 - 59] </strong><a href="https://maplestory.fandom.com/wiki/Category:Ellinel" target="_blank" rel="noreferrer noopener"><strong>Ellinel Fairy Academy</strong></a>: Accessible from <img src="/images/info/lightbulb.png" alt="MapleStory_qjjMOLZewp" width={48} height={45}/>
@@ -1720,8 +1721,8 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="quests">Quests:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="quests">Quests:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li>Most of the pre-Lv. 100 quests here are outdated except the ones that reward medals and purely grinding is preferred</li>
@@ -1862,11 +1863,11 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <div><Link smooth href="#top">Go to top</Link></div>
-            <h3 id="lightbulb">Lightbulb Quests:</h3>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="lightbulb">Lightbulb Quests:</ArticleHeaderTwo>
             <hr/>
             <p>The quests found in your "Maple Mailbox" or the Lightbulb icon on the left-hand side may be overwhelming with the number of quests available. Here will be a list of quests and which ones are more important compared to others. If you do not see a certain quest, it may be tied to your class' storyline. These can be skipped by most classes. But, Explorer classes, Hoyoung, and Adele gain special rewards though from their class' storyline so, it should not be skipped. Quests with the label <span style={{color: '#ff0000'}} data-preserve-html-node="true">[Required]</span> should also be completed</p>
-            <h4>Recommended Quests:</h4>
+            <h3>Recommended Quests:</h3>
             <ul>
                 <li><strong>(Lv. 33) Have you learned about pets? </strong>- Tutorial quest explaining pets. Rewards you with a free 3-day pet
                 <ul>
@@ -1962,7 +1963,7 @@ function ProgressionGuide() {
                 <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain </strong>- Pre-quests to unlock access to Weekly Quests in the Dark World Tree</li>
                 <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- Pre-quests to unlocking access to the boss Akechi Mitsuhide</li>
             </ul>
-            <h4>Theme Dungeon Starting Quests:</h4>
+            <h3>Theme Dungeon Starting Quests:</h3>
             <p>Quests labeled in orange are recommended, in green are optional, in white are skippable</p>
             <p>The Lv. 30 Theme Dungeons are recommended as completing 2 and a half theme dungeons is enough to reach Lv. 60 to complete your 3rd Job Advancement. Theme Dungeons between Lv. 60 - 120 are completely optional (except for Lion King's Castle) as grinding is much faster and less tedious at these levels. They can be done if you dislike grinding but you will not gain as many levels compared to Lv. 30 - 60</p>
             <ul>
@@ -2012,7 +2013,7 @@ function ProgressionGuide() {
                 </li>
                 <li><strong>(Lv. 120) [Fantasy Theme World] Dylan's Story </strong>- Theme Dungeon
                 <ul>
-                    <li><strong>Main Rewards:</strong>  <img src="https://maplestory.io/api/GMS/211.1.0/item/1082719/icon" alt="Heart Bracelet"/> <a href="https://maplestory.wiki/GMS/205/item/1082719" target="_blank" rel="noreferrer noopener">[Heart Bracelet]</a>, <img src="/images/equipment/101st-times-the-charm.png" alt="101st Time's the Charm"/> [Medal], <img src="/images/equipment/ludi-targa-hat.png" alt="Ludi Targa Hat"/> <img src="/images/equipment/ludi-scarlion-hat.png" alt="Ludi Scarlion Hat"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003534">[Ludi Targa Hat]</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/item/1003535">[Ludi Scarlion Hat]</a>, <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-bracelet.png" alt="Heart Bracelet"/> <a href="https://maplestory.wiki/GMS/205/item/1082719" target="_blank" rel="noreferrer noopener">[Heart Bracelet]</a>, <img src="/images/equipment/101st-times-the-charm.png" alt="101st Time's the Charm"/> [Medal], <img src="/images/equipment/ludi-targa-hat.png" alt="Ludi Targa Hat"/> <img src="/images/equipment/ludi-scarlion-hat.png" alt="Ludi Scarlion Hat"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003534">[Ludi Targa Hat]</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/item/1003535">[Ludi Scarlion Hat]</a>, <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
                 </ul>
                 </li>
                 <li><strong style={{color: '#99cc00'}}>(Lv. 125) [Korean Folk Town] A Letter from the Library </strong>- Theme Dungeon
@@ -2067,10 +2068,10 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h4>Optional Quests:</h4>
+            <h3>Optional Quests:</h3>
             <ul>
                 <li><strong>(Lv. 10) Do you know about Maple Guide? </strong>- Tutorial quest explaining Maple Guide</li>
-                <li><strong>(Lv. 20) Do you know about Spell Enhancements? </strong>- Tutorial quest explaining <img src="https://maplestory.io/api/GMS/215/item/2433943/icon" alt=""/>Spell Tracing</li>
+                <li><strong>(Lv. 20) Do you know about Spell Enhancements? </strong>- Tutorial quest explaining <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing</li>
                 <li><strong>(Lv. 20) Do you know about Star Force Enhancements?</strong> Tutorial quest explaining Star Forcing</li>
                 <li><strong>(Regular Server only) (Lv. 33) Mysterious Merchant Matilda </strong>- Tutorial quest explaining <a href="https://maplestory.fandom.com/wiki/Matilda" target="_blank" rel="noreferrer noopener">Matilda</a>, an NPC that sells <img src="/images/items/ap-reset-scroll.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/2501000" target="_blank" rel="noreferrer noopener">[AP Reset Scrolls]</a>, <img src="/images/items/sp-reset-scroll.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/2500000" target="_blank" rel="noreferrer noopener">[SP Reset Scrolls]</a>, <img src="/images/items/buff-freezer.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/4143002" target="_blank" rel="noreferrer noopener">[Buff Freezers]</a>, <img src="/images/items/safety-charm.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/4140003" target="_blank" rel="noreferrer noopener">[Safety Charms]</a>, and <img src="/images/items/respawn-token.png" alt=""/> <a href="https://maplestory.wiki/GMS/215/item/5510000" target="_blank" rel="noreferrer noopener">[Respawn Tokens]</a> for Mesos
                 <ul>
@@ -2159,7 +2160,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <h4>Can Be Skipped:</h4>
+            <h3>Can Be Skipped:</h3>
             <p><strong>[Note]: </strong>Quests above Lv. 140 can be done as they provide some equipment but are rarely done compared to the quests in Optional</p>
             <ul>
                 <li><strong>(Lv. 33) Do you know about the Beauty Salon? </strong>- Tutorial quest explaining the Beauty Salon, a place to save your hair and face styles
@@ -2252,6 +2253,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
+            <AdOutArticle/>
         </ContentPage>
     );
 }

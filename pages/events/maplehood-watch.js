@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
+import { AdOutArticle, AdInArticle } from '../../components/Ads';
 
 function MaplehoodWatch() {
     return (
@@ -11,6 +12,7 @@ function MaplehoodWatch() {
                 <title>Maplehood Watch | Grandis Library</title>
                 <meta content={"An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"} name="description"/>
             </Head>
+            <AdOutArticle/>
             <ContentTitle>Maplehood Watch</ContentTitle>
             <p>Maplehood Watch is an event where players can earn <span style={{color: '#ff0000'}}><strong>free cash items</strong></span>. The event lasts for <strong>two weeks</strong> and each week consists of a <strong>Beauty Day</strong>, <strong>Enhancement Day</strong> and <strong>Gachapon Day.</strong> Thus, you can earn the same rewards twice per event!</p>
             <p>To begin, accept the quest <strong>'[Maplehood Watch] Not in My Neighborhood'</strong> from the <strong>Star (Events) tab</strong> on the left side of the screen. This event is available to <strong>all characters Lv. 33 or higher</strong>, and to <strong>Zero characters who've completed Story Quest Chapter 2</strong></p>
@@ -25,11 +27,11 @@ function MaplehoodWatch() {
                 <li><strong>This can be completed 3 times per character per day</strong>.</li>
                 <li>Accept the quest <strong>‘[Maplehood Watch] Beautification Bonanza'</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
                 <li>
-                    <strong>Hunt monsters within your level range</strong> (20 levels below and 20 levels above) and collect <img src="https://maplestory.io/api/GMS/219/item/4034907/icon" alt=""/> [Maplehood Watch Coupon Fragments] to
+                    <strong>Hunt monsters within your level range</strong> (20 levels below and 20 levels above) and collect <img src="/images/items/maplehood-watch-coupon-fragment.png" alt="Etc Maplehood Watch Coupon Fragment"/> [Maplehood Watch Coupon Fragments] to
                     receive rewards!
                 </li>
             </ul>
-            <p>Upon completion, you will receive a&nbsp;<img src="https://maplestory.io/api/GMS/219/item/5150154/icon" alt=""/> [Maplehood Watch Hair Coupon] and&nbsp;<img src="https://maplestory.io/api/GMS/219/item/5152223/icon" alt=""/> [Maplehood Watch Face Coupon]. To change your hair take it to <strong>B</strong><strong>ig Headward in Henesys Hair Salon</strong>. To change your face take it to <strong>Nurse Pretty in Henesys Plastic Surgery</strong>. You can also do this in any town by pressing the "Quick Move" button on the top left</p>
+            <p>Upon completion, you will receive a <img src="/images/items/maplehood-watch-hair-coupon.png" alt="Cash Maplehood Watch Hair Coupon"/> [Maplehood Watch Hair Coupon] and <img src="/images/items/maplehood-watch-face-coupon.png" alt="Cash Maplehood Watch Face Coupon"/> [Maplehood Watch Face Coupon]. To change your hair take it to <strong>B</strong><strong>ig Headward in Henesys Hair Salon</strong>. To change your face take it to <strong>Nurse Pretty in Henesys Plastic Surgery</strong>. You can also do this in any town by pressing the "Quick Move" button on the top left</p>
             <p>Some example hairstyles and face styles from August 2019 Maplehood:</p>
             <p><img className="repository-image" src="http://nxcache.nexon.net/cms/2019/Q3/2227/male-hairs.png" alt="Male Hairstyles"/></p>
             <p>Male: Cute Boy Hair, Let-it-be Hair, Lucky Charms, Ponytail Hair, Sprout Shiny Hair, and Windblown Wave Hair</p>
@@ -48,15 +50,16 @@ function MaplehoodWatch() {
                 <li><strong>Hunt 200 monsters within your level range</strong> (20 levels below and 20 levels above) to receive rewards!</li>
             </ul>
             <h3>Upon completion:</h3>
-            <p>Receive one <img src="https://maplestory.io/api/GMS/219/item/5520001/icon" alt=""/> [Platinum Scissors of Karma] and one <img src="https://maplestory.io/api/GMS/219/item/2434770/icon" alt=""/> [Miracle Circulator] (on non-Reboot worlds)</p>
-            <p><img src="https://i.imgur.com/s4FQSL6.png" width="32" height="32" alt=""/> Receive one <img src="https://maplestory.io/api/GMS/219/item/2432268/icon" alt=""/> [Red Cube] and one <img src="https://maplestory.io/api/GMS/219/item/2434770/icon" alt=""/> [Miracle Circulator] (on Reboot world only)</p>
+            <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on non-Reboot worlds)</p>
+            <p><img src="https://i.imgur.com/s4FQSL6.png" width="32" height="32" alt=""/> Receive one <img src="/images/items/red-cube.png" alt="Cash Red Cube"/> [Red Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Reboot world only)</p>
+            <AdInArticle/>
             <h2>Gachapon Day</h2>
             <ul>
                 <li><strong>This can be completed 3 times per character per day</strong>. Log in and accept the quest <strong>‘[Maplehood Watch] Gachapon Giveaway’</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
                 <li><strong>Hunt 200 monsters within your level range</strong> (20 levels below and 20 levels above) to receive rewards!</li>
             </ul>
-            <p>Upon completion, receive 5 <img src="https://maplestory.io/api/GMS/219/item/2028348/icon" alt=""/> [Maplehood Watch Gachapon Coupons] and 3 <img src="https://maplestory.io/api/GMS/219/item/5222165/icon" alt=""/> [Maplehood Watch Avatar Boxes]</p>
-            <h3>Maplehood watch Gachapon</h3>
+            <p>Upon completion, receive 5 <img src="/images/items/maplehood-watch-gachapon.png" alt="Use Maplehood Watch Gachapon"/> [Maplehood Watch Gachapon] and 3 <img src="/images/items/maplehood-watch-avatar-box.png" alt="Cash Maplehood Watch Avatar Box"/> [Maplehood Watch Avatar Boxes]</p>
+            <h3>Maplehood Watch Gachapon</h3>
             <p><strong>[Note]</strong>: Remember, equipment in Reboot cannot be transferred through the bank! This applies to items that even say "Transferable Within Account" or "Can be traded once within account"</p>
             <p>Located in your <strong>USE tab</strong>, Double-click each one to receive one random item. Some examples of items included from August 2019 Maplehood Watch:</p>
             <p><img className="repository-image" src="http://nxcache.nexon.net/cms/2019/Q3/2290/maplehood-gacha-items.png" alt="Maplehood Gacha Items"/></p>
@@ -78,6 +81,7 @@ function MaplehoodWatch() {
             <hr/>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: MapleStory Official Website</p>
+            <AdOutArticle/>
         </EventPage>
     )
 }

@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
+import { AdOutArticle, AdInArticle } from '../../components/Ads';
 
 const BurningSkill = {
         "id": 80000545,
@@ -19,13 +20,14 @@ function BurningWorld() {
                 <meta content={"Burning World is a temporary world that has special benefits for all characters in this world"} name="description"/>
             </Head>
             <ContentTitle>Burning World</ContentTitle>
-            <h2><img src="https://i.imgur.com/lItdwgb.png" width="40" height="46" alt=""/> What is Burning World?</h2>
+            <AdOutArticle/>
+            <h2><img src="https://i.imgur.com/lItdwgb.png" alt="WorldIcon Burning World"/> What is Burning World?</h2>
             <p>Burning World is a temporary world that has special benefits for all characters in this world. Additionally, you are able to create multiple Mega Burning characters within this world. The main benefit is that at the end of the event, you are able to transfer your characters out of Burning World and into a Regular World (Non-Reboot World)</p>
             <p>Burning World characters can be transferred into any Regular World. Burning World characters cannot be transferred into Reboot worlds. This may be because Burning World functions almost the same as a regular world and does not have any Reboot functionalities</p>
             <h3>Notes</h3>
             <hr/>
             <p>Link Skills are unavailable in Burning World. You will have access to Link Skills once you've transferred your characters out of the Burning World</p>
-            <p>At the end of Burning World, during the transferring period, you will be automatically moved to the transferring map. You will not be able to access the Cash Shop in the here!!</p>
+            <p>At the end of Burning World, during the transferring period, you will be automatically moved to the transferring map and cannot leave</p>
             <p>Any characters that are not moved during the transferring period will be deleted along with their items and Cash Items. To keep Cash Items, make sure to move them onto your characters before transferring them out of Burning World</p>
             <p>Characters must be at least Lv. 150 to transfer out of Burning World</p>
             <p>Zero characters, when available, can be created however, they cannot be burned</p>
@@ -42,7 +44,7 @@ function BurningWorld() {
                     </ul>
                 </li>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/5002121/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/5002121" target="_blank" rel="noreferrer noopener">[Pet] Snail</a>
+                    <img src="/images/items/snail-pet.png" alt="Cash Snail"/> <a href="https://maplestory.wiki/GMS/214/item/5002121" target="_blank" rel="noreferrer noopener">[Pet] Snail</a>
                     <ul>
                         <li>Lasts 24 hours (of active playtime)</li>
                     </ul>
@@ -105,7 +107,7 @@ function BurningWorld() {
                     </ul>
                 </li>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2431958/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/5040004" target="_blank" rel="noreferrer noopener">[Cash] Hyper Teleport Rock (30 Day)</a>
+                    <img src="/images/items/hyper-teleport-rock.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/5040004" target="_blank" rel="noreferrer noopener">[Cash] Hyper Teleport Rock (30 Day)</a>
                     <ul>
                         <li>Allows you to teleport anywhere from the World Map</li>
                     </ul>
@@ -114,6 +116,7 @@ function BurningWorld() {
             </ul>
             <p>For more information on Mega Burning characters, check out: <a href="https://www.grandislibrary.com/event/mega-burning" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/mega-burning</a></p>
             <p>Need help choosing a character to burn? Check out: <a href="https://www.grandislibrary.com/event/who-to-tera-burn" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/who-to-tera-burn</a></p>
+            <AdInArticle/>
             <h2>Transferring from Burning World</h2>
             <p><strong>To transfer first, your character must be at least Lv. 150</strong></p>
             <p>Once the Burning World event ends, you can transfer your character to a Regular World (Non-Reboot world). You will not be able to train your characters in the Burning World during this period</p>
@@ -151,6 +154,7 @@ function BurningWorld() {
             <p>For more info, check out: <a rel="noreferrer noopener" href="http://maplestory.nexon.net/news/59147/burning-world-event" target="_blank">http://maplestory.nexon.net/news/59147/burning-world-event</a></p>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: OrangeMushroom and MapleStory Official Website</p>
+            <AdOutArticle/>
         </EventPage>
     )
 }

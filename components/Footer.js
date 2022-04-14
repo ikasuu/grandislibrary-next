@@ -73,9 +73,9 @@ function Footer() {
                     </FooterCol>
                     <FooterCol md>
                         <h5><strong>USEFUL LINKS</strong></h5>
+                        <FooterLink><a href="https://maplestory.nexon.net/" target="_blank" rel="noreferrer noopener" className="footer-link">Official MapleStory Site</a></FooterLink>
                         <FooterLink><a href="https://maplestory.fandom.com/wiki/" target="_blank" rel="noreferrer noopener" className="footer-link">MapleWiki</a></FooterLink>
                         <FooterLink><a href="https://maplestory.nexon.net/news/59803/maple-guides" target="_blank" rel="noreferrer noopener" className="footer-link">Maple Guides</a></FooterLink>
-                        <FooterLink><a href="https://www.reddit.com/r/Maplestory/" target="_blank" rel="noreferrer noopener" className="footer-link">r/MapleStory</a></FooterLink>
                     </FooterCol>
                 </Row>
             </Container>

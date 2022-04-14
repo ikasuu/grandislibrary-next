@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import HeaderImageUrl from '../special/SiteValues';
 import HeaderImage from '../components/HeaderImage';
 import { Subtitle, Title } from '../components/Page';
+import AdNavigation from '../components/Ads';
 
 /*
     About page
@@ -92,10 +93,11 @@ function About(){
                         <p>-Ikasuu</p>
                     </LeftWrapper>
                     <RightWrapper md="auto">
-                        <CharacterImage src="https://i.imgur.com/rzgSbGD.png" alt="Ikasuu"/>
-                        <p>IGN - Ikasuu <BeraIcon src="https://i.imgur.com/aE9e6Mh.png" alt="Bera Icon"/></p>
+                        <CharacterImage src="/images/info/ikasuu-character.png" alt="Ikasuu"/>
+                        <p>IGN - Ikasuu <BeraIcon src="/images/info/bera.png" alt="Bera Icon"/></p>
                     </RightWrapper>
                 </Row>
+                <AdNavigation/>
             </Container>
         </div>
     );

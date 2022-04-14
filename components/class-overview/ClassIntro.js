@@ -8,6 +8,7 @@ import { weapons, secondaryWeapons, weaponConsumable } from '../../special/SiteV
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
+import AdClassOverview from '../Ads';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -67,6 +68,7 @@ export function ClassIntro({data}) {
     return (
         <div>
             <Container>
+                <AdClassOverview/>
                 <ContentTitle>{data.class}</ContentTitle>
                 <div id="property"/>
                 <Row>
@@ -81,6 +83,7 @@ export function ClassIntro({data}) {
                 </Row>
             </Container>
             <hr/>
+            <AdClassOverview/>
             <div id="stat"/>
             <ClassDetail content={data.content} skill={data.skill}/>
         </div>

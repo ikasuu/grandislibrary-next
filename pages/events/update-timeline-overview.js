@@ -4,9 +4,9 @@ import LazyLoad from 'react-lazyload';
 import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
-import { ContentTitle } from '../../components/Page';
+import { ContentTitle, TabLink, ArticleHeaderTwo } from '../../components/Page';
 import Video from '../../components/repository/Video';
-import { TabLink } from '../../components/Page';
+import { AdOutArticle, AdInArticle } from '../../components/Ads';
 
 function UpdateTimelineOverview() {
     return (
@@ -15,6 +15,7 @@ function UpdateTimelineOverview() {
                 <title>Update Timeline Overview | Grandis Library</title>
                 <meta content={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"} name="description"/>
             </Head>
+            <AdOutArticle/>
             <ContentTitle>Update Timeline Overview</ContentTitle>
             <ul>
                 <li><Link href="#bang">Big Bang</Link></li>
@@ -93,230 +94,246 @@ function UpdateTimelineOverview() {
                 <li><Link href="#on-air">On Air</Link></li>
                 <li><Link href="#festival-of-foodies">Festival of Foodies</Link></li>
             </ul>
-            <h2 id="bang">Big Bang Update - Dec 2010</h2>
+            <ArticleHeaderTwo id="bang">Big Bang Update - Dec 2010</ArticleHeaderTwo>
             <BigBang/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="chaos">Chaos Update - July 2011</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="chaos">Chaos Update - July 2011</ArticleHeaderTwo>
             <Chaos/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="ascension">Ascension Update - Oct 2011</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="ascension">Ascension Update - Oct 2011</ArticleHeaderTwo>
             <Ascension/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="fellowship">Rise of Fellowship Update - Nov 2011</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="fellowship">Rise of Fellowship Update - Nov 2011</ArticleHeaderTwo>
             <RiseOfFellowship/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="legends">Legends Update - Dec 2011</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="legends">Legends Update - Dec 2011</ArticleHeaderTwo>
             <Legends/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="rising">Alliance Rising Update - Jan 2012</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="rising">Alliance Rising Update - Jan 2012</ArticleHeaderTwo>
             <AllianceRising/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="unbound">Alliance Unbound Update - Mar 2012</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="unbound">Alliance Unbound Update - Mar 2012</ArticleHeaderTwo>
             <AllianceUnbound/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="eternal">Alliance Eternal Update - Apr 2012</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="eternal">Alliance Eternal Update - Apr 2012</ArticleHeaderTwo>
             <AllianceEternal/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="renegades">Renegades Update - June 2012</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="renegades">Renegades Update - June 2012</ArticleHeaderTwo>
             <Renegades/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="mutiny">Mutiny Update - Aug 2012</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="mutiny">Mutiny Update - Aug 2012</ArticleHeaderTwo>
             <Mutiny/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="dawn">New Dawn Update - Sept 2012</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="dawn">New Dawn Update - Sept 2012</ArticleHeaderTwo>
             <NewDawn/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="champions">Champions Update - Sept 2012</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="champions">Champions Update - Sept 2012</ArticleHeaderTwo>
             <Champions/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="tempest">Tempest Update - Sept 2012</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="tempest">Tempest Update - Sept 2012</ArticleHeaderTwo>
             <Tempest/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="snake">Year of the Snake Update - Feb 2013</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="snake">Year of the Snake Update - Feb 2013</ArticleHeaderTwo>
             <YearOfTheSnake/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="honor">Mark Of Honor Update - Feb 2013</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="honor">Mark Of Honor Update - Feb 2013</ArticleHeaderTwo>
             <MarkOfHonor/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="hyper">Hyper Evolution Update - Apr 2013</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="hyper">Hyper Evolution Update - Apr 2013</ArticleHeaderTwo>
             <HyperEvolution/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="unleashed">Unleashed Update - May 2013</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="unleashed">Unleashed Update - May 2013</ArticleHeaderTwo>
             <Unleashed/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="reforged">Cygnus Knights Awakening Update - Sept 2013</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="reforged">Cygnus Knights Awakening Update - Sept 2013</ArticleHeaderTwo>
             <CyngusKnightsAwakening/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="dawnveil">Dawnveil Demons of Tynerum Update (RED) - Oct 2013</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="dawnveil">Dawnveil Demons of Tynerum Update (RED) - Oct 2013</ArticleHeaderTwo>
             <Dawnveil/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="red">RED Update - Dec 2013</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="red">RED Update - Dec 2013</ArticleHeaderTwo>
             <Red/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="returnmasteria">Return to Masteria Update - Feb 2014</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="returnmasteria">Return to Masteria Update - Feb 2014</ArticleHeaderTwo>
             <ReturnToMasteria/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="athenaeum">Grand Athenaeum Update - Mar 2014</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="athenaeum">Grand Athenaeum Update - Mar 2014</ArticleHeaderTwo>
             <GrandAthenaeum/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="legacynine">Legacy of Nine Update - May 2014</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="legacynine">Legacy of Nine Update - May 2014</ArticleHeaderTwo>
             <LegacyOfNine/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="risingheroes">Rising Heroes: Elite Update - Jun 2014</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="risingheroes">Rising Heroes: Elite Update - Jun 2014</ArticleHeaderTwo>
             <RisingHeroesElite/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="hieizan">Mark of Honor Hieizan Temple Update - Aug 2014</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="hieizan">Mark of Honor Hieizan Temple Update - Aug 2014</ArticleHeaderTwo>
             <HieizanTemple/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="sao">Sword Art Online Update - Sept 2014</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="sao">Sword Art Online Update - Sept 2014</ArticleHeaderTwo>
             <SwordArtOnline/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="awakening">Cygnus Awakening: Night Walker Update - Oct 2014</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="awakening">Cygnus Awakening: Night Walker Update - Oct 2014</ArticleHeaderTwo>
             <CygnusAwakeningNW/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="shiningstar">Shining Star Update - Dec 2014</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="shiningstar">Shining Star Update - Dec 2014</ArticleHeaderTwo>
             <ShiningStar/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="titan">MapleStory X Attack on Titan Update - Jan 2015</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="titan">MapleStory X Attack on Titan Update - Jan 2015</ArticleHeaderTwo>
             <AttackOnTitan/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="blackheaven">Black Heaven Update - Mar 2015</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="blackheaven">Black Heaven Update - Mar 2015</ArticleHeaderTwo>
             <BlackHeaven/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="springsummer">Spring into Summer Update - May 2015</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="springsummer">Spring into Summer Update - May 2015</ArticleHeaderTwo>
             <SpringIntoSummer/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="firepower">FIREPOWER Update - Jul 2015</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="firepower">FIREPOWER Update - Jul 2015</ArticleHeaderTwo>
             <Firepower/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="superstar">Pink Bean: Superstar Update - Aug 2015</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="superstar">Pink Bean: Superstar Update - Aug 2015</ArticleHeaderTwo>
             <PinkBeanSuperstar/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="asylum">Asylum Update - Oct 2015</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="asylum">Asylum Update - Oct 2015</ArticleHeaderTwo>
             <Asylum/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="alishan">Welcome to Alishan Update - Oct 2015</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="alishan">Welcome to Alishan Update - Oct 2015</ArticleHeaderTwo>
             <Alishan/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="reboot">Reboot Update - Dec 2015</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="reboot">Reboot Update - Dec 2015</ArticleHeaderTwo>
             <Reboot/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="masteriatime">Masteria Through Time Update - Mar 2016</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="masteriatime">Masteria Through Time Update - Mar 2016</ArticleHeaderTwo>
             <MasteriaThroughTime/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="eleven">Maple's Eleven Update - Apr 2016</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="eleven">Maple's Eleven Update - Apr 2016</ArticleHeaderTwo>
             <MapleEleven/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="detectives">Detectives Update - May 2016</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="detectives">Detectives Update - May 2016</ArticleHeaderTwo>
             <Detectives/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="heroesmaple">Heroes of Maple Update - Jun 2016</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="heroesmaple">Heroes of Maple Update - Jun 2016</ArticleHeaderTwo>
             <HeroesOfMaple/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="mushroomshrine">Mushroom Shrine Tales Update - Sept 2016</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="mushroomshrine">Mushroom Shrine Tales Update - Sept 2016</ArticleHeaderTwo>
             <MushroomShrineTales/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="strangestories">Strange Stories Update - Oct 2016</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="strangestories">Strange Stories Update - Oct 2016</ArticleHeaderTwo>
             <StrangeStories/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="v">V Update - Dec 2016</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="v">V Update - Dec 2016</ArticleHeaderTwo>
             <VUpate/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="kerningcity">Kerning City Superstars Update - Feb 2017</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="kerningcity">Kerning City Superstars Update - Feb 2017</ArticleHeaderTwo>
             <KerningCitySuperstars/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="rezero">MapleStory X Re:Zero Update - May 2017</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="rezero">MapleStory X Re:Zero Update - May 2017</ArticleHeaderTwo>
             <ReZero/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="override">Override Update - Jun 2017</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="override">Override Update - Jun 2017</ArticleHeaderTwo>
             <Override/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="tuneup">Tune Up Update - Aug 2017</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="tuneup">Tune Up Update - Aug 2017</ArticleHeaderTwo>
             <TuneUp/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="nova">NOVA Update - Nov 2017</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="nova">NOVA Update - Nov 2017</ArticleHeaderTwo>
             <Nova/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="newyear">New Year Showdown Update - Jan 2018</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="newyear">New Year Showdown Update - Jan 2018</ArticleHeaderTwo>
             <NewYearShowdown/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="evangelion">MapleStory X Evangelion Update - Feb 2018</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="evangelion">MapleStory X Evangelion Update - Feb 2018</ArticleHeaderTwo>
             <Evangelion/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="pinkbeany">Lifestyle of the Pink Beany - May 2018</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="pinkbeany">Lifestyle of the Pink Beany - May 2018</ArticleHeaderTwo>
             <LifestylePinkBeany/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="ark">Ark Update - Jun 2018</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="ark">Ark Update - Jun 2018</ArticleHeaderTwo>
             <Ark/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="cardcaptor">MapleStory x Cardcaptor Update - Aug 2018</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="cardcaptor">MapleStory x Cardcaptor Update - Aug 2018</ArticleHeaderTwo>
             <Cardcaptor/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="darknesslooms">Darkness Looms Update - Oct 2018</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="darknesslooms">Darkness Looms Update - Oct 2018</ArticleHeaderTwo>
             <DarknessLooms/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="blackmage">Black Mage Update - Nov 2018</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="blackmage">Black Mage Update - Nov 2018</ArticleHeaderTwo>
             <BlackMage/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="arcade">Arcade Adventures Update - Mar 2019</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="arcade">Arcade Adventures Update - Mar 2019</ArticleHeaderTwo>
             <ArcadeAdventures/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="line">LINE FRIENDS x MapleStory Update - Apr 2019</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="line">LINE FRIENDS x MapleStory Update - Apr 2019</ArticleHeaderTwo>
             <LineFriends/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="pathfinder">Pathfinder Update - Jun 2019</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="pathfinder">Pathfinder Update - Jun 2019</ArticleHeaderTwo>
             <Pathfinder/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="worldsunite">Worlds Unite Update - Aug 2019</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="worldsunite">Worlds Unite Update - Aug 2019</ArticleHeaderTwo>
             <WorldsUnite/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="melody">Fabled Melody Update - Sept 2019</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="melody">Fabled Melody Update - Sept 2019</ArticleHeaderTwo>
             <FabledMelody/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="glory">Glory Update - Nov 2019</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="glory">Glory Update - Nov 2019</ArticleHeaderTwo>
             <Glory/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="utopia">Mechanical Utopia Update - Jan 2020</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="utopia">Mechanical Utopia Update - Jan 2020</ArticleHeaderTwo>
             <MechanicalUtopia/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="isekai">MapleStory X ISEKAI QUARTET Update - Mar 2020</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="isekai">MapleStory X ISEKAI QUARTET Update - Mar 2020</ArticleHeaderTwo>
             <IsekaiQuartet/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="pixelparty">Pixel Party Update - Apr 2020</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="pixelparty">Pixel Party Update - Apr 2020</ArticleHeaderTwo>
             <PixelParty/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="rise">Rise Update - Jun 2020</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="rise">Rise Update - Jun 2020</ArticleHeaderTwo>
             <Rise/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="astral">Astral Blessings Update - Aug 2020</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="astral">Astral Blessings Update - Aug 2020</ArticleHeaderTwo>
             <AstralBlessing/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="asura">Sengoku Returns: Asura War Update - Oct 2020</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="asura">Sengoku Returns: Asura War Update - Oct 2020</ArticleHeaderTwo>
             <AsuraWar/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="awake">Awake Update - Nov 2020</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="awake">Awake Update - Nov 2020</ArticleHeaderTwo>
             <Awake/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="moonlight-magic">Moonlight Magic Update - Feb 2021</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="moonlight-magic">Moonlight Magic Update - Feb 2021</ArticleHeaderTwo>
             <MoonlightMagic/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="hotel-maple">Hotel Maple Update - Apr 2021</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="hotel-maple">Hotel Maple Update - Apr 2021</ArticleHeaderTwo>
             <HotelMaple/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="neo">Neo Update - June 2021</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="neo">Neo Update - June 2021</ArticleHeaderTwo>
             <Neo/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="goo-island">Goo Island Getaway Update - Aug 2021</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="goo-island">Goo Island Getaway Update - Aug 2021</ArticleHeaderTwo>
             <GooIsland/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="bugcat-capoo">Bugcat Capoo Update - Oct 2021</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="bugcat-capoo">Bugcat Capoo Update - Oct 2021</ArticleHeaderTwo>
             <BugcatCapoo/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="on-air">On Air Update - Dec 2021</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="on-air">On Air Update - Dec 2021</ArticleHeaderTwo>
             <OnAir/>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="festival-of-foodies">Festival of Foodies Update - Feb 2022</h2>
+            <AdInArticle/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="festival-of-foodies">Festival of Foodies Update - Feb 2022</ArticleHeaderTwo>
             <FestivalOfFoodies/>
+            <AdOutArticle/>
         </EventPage>
     )
 }
@@ -547,7 +564,7 @@ function Ascension() {
                 <li>Re-buy button for items you’ve recently sold to NPC Vendors</li>
                 <li>Dedicated Mount skills tab and Guild skill tab in your Character Info UI</li>
                 <li>NPCs now have distinct icons depending on their function</li>
-                <li>Quest notifications that appear above your character’s head have been moved to the left side of the screen <img src="https://i.imgur.com/OWuAwNY.png" alt="MapleStory_qjjMOLZewp" width="48" height="45"/></li>
+                <li>Quest notifications that appear above your character’s head have been moved to the left side of the screen <img src="/images/info/lightbulb.png" alt="MapleStory_qjjMOLZewp" width="48" height="45"/></li>
                 <li>Different icons will be shown for different notification types (Lightbulb, star, etc)</li>
                 <li>New Medal UI where most medals can now be reissued with a fee</li>
                 <li>Unused AP/SP after leveling-up, a notification will be displayed at the bottom of the screen</li>
@@ -2879,7 +2896,7 @@ function ShiningStar() {
                 <li>New UI in Skill UI for allocating SP</li>
                 <li><img src="https://maplestory.io/api/GMS/214/item/2431789/icon" alt=""/><img src="https://maplestory.io/api/GMS/214/item/2431790/icon" alt=""/> Prices for Mastery Book 20 + 30 lowered and can be stacked now</li>
                 <li><img src="https://maplestory.io/api/GMS/214/item/2434503/icon" alt=""/> Wence's Silent Crusade coin shop now sells Spell Traces</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2431872/icon" alt=""/> Maple Reward system introduced</li>
+                <li><img src="/images/items/reward-points.png" alt=""/> Maple Reward system introduced</li>
             </ul>
         </LazyLoad>
     )
