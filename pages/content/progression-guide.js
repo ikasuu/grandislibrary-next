@@ -13,7 +13,7 @@ function ProgressionGuide() {
                 <title>Progression Guide | Grandis Library</title>
                 <meta content={"A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"} name="description"/>
             </Head>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <ContentTitle>Progression Guide</ContentTitle>
             <p>For info on all the content in MapleStory, check out: <a href="https://www.grandislibrary.com/contents/level-content-guide" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/level-content-guide</a>
             </p>
@@ -121,7 +121,7 @@ function ProgressionGuide() {
             <p><strong>[Note]:</strong> If you do not see your Link Skill in the Link Manager, you may have to accept a quest in the Lightbulb tab on the left-hand side of the screen. If you still do not see it, try relogging For more info on Link Skills, check out: <a href="https://www.grandislibrary.com/contents/link-skills" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/link-skills</a>
             </p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <ArticleHeaderTwo id="pocket">Pocket Slot:</ArticleHeaderTwo>
             <hr/>
             <p>Pocket Slot is an additional equipment slot you can unlock to equip Pocket Items. To unlock the Pocket Slot, you will first need to reach Lv. 30 Charm in your Traits Stat</p>
@@ -185,7 +185,7 @@ function ProgressionGuide() {
             <p>For more info on Hyper Stats, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Hyper_Stats" target="_blank">https://strategywiki.org/wiki/MapleStory/Hyper_Stats</a>
             </p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <ArticleHeaderTwo id={140}>Level 140 and Beyond:</ArticleHeaderTwo>
             <hr/>
             <p>Past this point, you will begin to notice you are struggling against monsters. At Lv. 140 you will have gained all your 4th Job SP. I recommend that you max all your skills along with <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20" width={32} height={29}/>  <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30" width={32} height={29}/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book" target="_blank" rel="noreferrer noopener">[Mastery Books]</a> before going any further</p>
@@ -323,7 +323,7 @@ function ProgressionGuide() {
                 <li>Fairy Bros Daily Gift Reward</li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <ArticleHeaderTwo id="auction">Auction House in Regular Servers:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/auction-house.png" alt="Auction House"/>
@@ -1135,7 +1135,7 @@ function ProgressionGuide() {
             </ul>
             <hr/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests:</ArticleHeaderTwo>
             <hr/>
             <p>A majority of Daily and Weekly Quests are mostly done at Lv. 200+. Characters pre-200 do not need to worry about these quests as much</p>
@@ -2253,7 +2253,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
         </ContentPage>
     );
 }

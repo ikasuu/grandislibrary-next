@@ -68,7 +68,7 @@ export function ClassIntro({data}) {
     return (
         <div>
             <Container>
-                <AdClassOverview/>
+                {/* <AdClassOverview/> */}
                 <ContentTitle>{data.class}</ContentTitle>
                 <div id="property"/>
                 <Row>
@@ -83,7 +83,7 @@ export function ClassIntro({data}) {
                 </Row>
             </Container>
             <hr/>
-            <AdClassOverview/>
+            {/* <AdClassOverview/> */}
             <div id="stat"/>
             <ClassDetail content={data.content} skill={data.skill}/>
         </div>

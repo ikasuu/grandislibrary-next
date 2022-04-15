@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import Video from '../../components/repository/Video';
+import { AdNavigation } from '../../components/Ads';
 
 function ChaosRing() {
     return (
@@ -43,6 +44,7 @@ function ChaosRing() {
             <h3>Credits:</h3>
             <p><strong>Item Image from:</strong></p>
             <p><a href="https://maplestory.wiki/GMS/210.1.1/item/1114305" target="_blank" rel="noopener noreferrer">https://maplestory.wiki/GMS/210.1.1/item/1114305</a></p>
+            <AdNavigation/>
         </EventPage>
     )
 }

@@ -13,7 +13,7 @@ function UpgradeEquipment() {
             <title>Upgrading &amp; Enhancing Equipment | Grandis Library</title>
             <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
           </Head>
-          <AdOutArticle/>
+          {/* <AdOutArticle/> */}
           <ContentTitle>Upgrading &amp; Enhancing Equipment</ContentTitle>
           <p><img className="repository-image" src="/images/info/equipment-tooltip.png" alt="Equipment Diagram"/></p>
           <p>Bonus Stats appear in <span style={{color: '#339966'}}>green</span> font while stats from upgrading appear in <span style={{color: '#3366ff'}}>blue</span> [Refer to 11]. The color of an item's name indicates how many stats above or below average an item is [Refer to 02]</p>
@@ -265,7 +265,7 @@ function UpgradeEquipment() {
             <p><strong>[Star Force Maps]</strong>: There are special training maps that will require you to have a certain amount of Star Force to hunt efficiently on a map. These maps feature monsters with greater health but give much more EXP</p>
             <p>Star Force also contributes to the amount of damage your Legion Character does on the Legion Board</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <ArticleHeaderTwo id="hammer">Transfer Hammer</ArticleHeaderTwo>
             <hr/>
             <p><img className="repository-image" src="https://i.imgur.com/fqoJwOA.png" alt="Transfer Hammer UI"/></p>
@@ -387,7 +387,7 @@ function UpgradeEquipment() {
                   https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p
               </a></p>
           </div>
-          <AdOutArticle/>
+          {/* <AdOutArticle/> */}
       </ContentPage>
 
     )

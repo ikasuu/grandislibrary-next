@@ -13,7 +13,7 @@ function KeyboardShortcuts() {
                 <title>Keyboard Shortcuts | Grandis Library</title>
                 <meta content={"An explanation on the all the different UIs accessible from the Keyboard Shortcuts"} name="description"/>
             </Head>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <ContentTitle>Keyboard Shortcuts</ContentTitle>
             <h3 id="top">Quick Jumps</h3>
             <ul>
@@ -54,40 +54,40 @@ function KeyboardShortcuts() {
             <QuestLog/>
             <WorldMap/>
             <Equipment/>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <FriendsPartyBoss/>
             <ItemPot/>
             <MapleGuide/>
             <Items/>
             <CharacterStat/>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <Guild/>
             <Whisper/>
             <Skill/>
             <Notifier/>
             <Medals/>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <MapleChat/>
             <Events/>
             <Professions/>
             <Minimap/>
             <CharInfo/>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <SoulWeapon/>
             <BattleAnalysis/>
             <EnhanceEquipment/>
             <MonsterCollection/>
             <Legion/>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <MapleNews/>
             <PictureMode/>
             <Mute/>
             <MapleRelay/>
             <MapleAchievement/>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <Familiar/>
             <Emoticon/>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
         </ContentPage>
     )
 }

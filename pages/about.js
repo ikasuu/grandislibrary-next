@@ -97,7 +97,7 @@ function About(){
                         <p>IGN - Ikasuu <BeraIcon src="/images/info/bera.png" alt="Bera Icon"/></p>
                     </RightWrapper>
                 </Row>
-                <AdNavigation/>
+                {/* <AdNavigation/> */}
             </Container>
         </div>
     );

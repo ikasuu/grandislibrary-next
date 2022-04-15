@@ -12,7 +12,7 @@ function MaplehoodWatch() {
                 <title>Maplehood Watch | Grandis Library</title>
                 <meta content={"An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"} name="description"/>
             </Head>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <ContentTitle>Maplehood Watch</ContentTitle>
             <p>Maplehood Watch is an event where players can earn <span style={{color: '#ff0000'}}><strong>free cash items</strong></span>. The event lasts for <strong>two weeks</strong> and each week consists of a <strong>Beauty Day</strong>, <strong>Enhancement Day</strong> and <strong>Gachapon Day.</strong> Thus, you can earn the same rewards twice per event!</p>
             <p>To begin, accept the quest <strong>'[Maplehood Watch] Not in My Neighborhood'</strong> from the <strong>Star (Events) tab</strong> on the left side of the screen. This event is available to <strong>all characters Lv. 33 or higher</strong>, and to <strong>Zero characters who've completed Story Quest Chapter 2</strong></p>
@@ -52,7 +52,7 @@ function MaplehoodWatch() {
             <h3>Upon completion:</h3>
             <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on non-Reboot worlds)</p>
             <p><img src="https://i.imgur.com/s4FQSL6.png" width="32" height="32" alt=""/> Receive one <img src="/images/items/red-cube.png" alt="Cash Red Cube"/> [Red Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Reboot world only)</p>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
             <h2>Gachapon Day</h2>
             <ul>
                 <li><strong>This can be completed 3 times per character per day</strong>. Log in and accept the quest <strong>‘[Maplehood Watch] Gachapon Giveaway’</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
@@ -81,7 +81,7 @@ function MaplehoodWatch() {
             <hr/>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: MapleStory Official Website</p>
-            <AdOutArticle/>
+            {/* <AdOutArticle/> */}
         </EventPage>
     )
 }

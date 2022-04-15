@@ -15,7 +15,7 @@ function LinkSkills() {
             <title>Link Skill | Grandis Library</title>
             <meta content={"An explanation of Link Skills and a list of all Link Skills and their effects"} name="description"/>
         </Head>
-        <AdOutArticle/>
+        {/* <AdOutArticle/> */}
         <ContentTitle>Link Skills</ContentTitle>
         <p><img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager UI"/></p>
         <p>Link Skills are unique to each class and can be given to your other characters on the same world. Link Skills mostly come as passives but there are a few Active Link Skills too</p>
@@ -164,7 +164,7 @@ function LinkSkills() {
         <SingleSkill skillData={linkSkills.zero}/>
         <hr/>
         {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-        <AdOutArticle/>
+        {/* <AdOutArticle/> */}
         <h2 id="notable">Notable Link Skills:</h2>
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img width="32" height="32" src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>
@@ -285,7 +285,7 @@ function LinkSkills() {
         <p><a href="https://www.youtube.com/watch?v=zT1jX_tnQjM">https://www.youtube.com/watch?v=zT1jX_tnQjM</a></p>
         <h4>Credits:</h4>
         <p><strong>Skill Icons + Info</strong>: MapleWiki</p>
-        <AdOutArticle/>
+        {/* <AdOutArticle/> */}
       </ContentPage>
     )
 }

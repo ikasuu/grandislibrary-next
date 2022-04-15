@@ -18,7 +18,7 @@ export function ClassOutro({classGroup, classTitle, moreInfo, credits}) {
             <ClassMoreInfo classTitle={classTitle} moreInfo={moreInfo}/>
             <ClassSuggestions classGroup={classGroup}/>
             <ClassCredit credits={credits}/>
-            <AdClassOverview/>
+            {/* <AdClassOverview/> */}
         </div>
     );
 }
