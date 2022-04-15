@@ -34,8 +34,8 @@ export const AdNavigation = () => {
       <ins
         className="adsbygoogle"
         style={{display: "block"}}
-        data-ad-client="0"
-        data-ad-slot="0"
+        data-ad-client="ca-pub-2213677142380749"
+        data-ad-slot="1029974048"
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
@@ -57,15 +57,15 @@ export const AdClassOverview = () => {
     <AdWrapper>
       <ins className="adsbygoogle"
       style={{display: 'block'}}
-      data-ad-client="0"
-      data-ad-slot="0"
+      data-ad-client="ca-pub-2213677142380749"
+      data-ad-slot="5546985319"
       data-ad-format="auto"
       data-full-width-responsive="true"/>
     </AdWrapper>
   );
 };
 
-//AdOuterTitle - ad used at the top & bottom of articles
+//AdOutTitle - ad used at the top & bottom of articles
 export const AdOutArticle = () => {
   useEffect(() => {
     try {
@@ -79,8 +79,8 @@ export const AdOutArticle = () => {
     <AdWrapper>
       <ins className="adsbygoogle"
       style={{display: 'block'}}
-      data-ad-client="0"
-      data-ad-slot="0"
+      data-ad-client="ca-pub-2213677142380749"
+      data-ad-slot="9117530820"
       data-ad-format="auto"
       data-full-width-responsive="true"/>
     </AdWrapper>
@@ -103,8 +103,8 @@ export const AdInArticle = () => {
       style={{display: 'block', textAlign: 'center'}}
       data-ad-layout="in-article"
       data-ad-format="fluid"
-      data-ad-client="0"
-      data-ad-slot="0"/>
+      data-ad-client="ca-pub-2213677142380749"
+      data-ad-slot="9994083514"/>
     </AdWrapper>
   );
 };
