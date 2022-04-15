@@ -19,6 +19,11 @@ const AdWrapper = styled.div`
     margin: 1.5rem 0 1.5rem 0;
 `;
 
+const BannerAdWrapper = styled.div`
+    margin: 1.5rem 0 1.5rem 0;
+    max-height: 2.5rem;
+`;
+
 //AdNavigation - ad for the navigation pages like homepage, content, events, resources
 export const AdNavigation = () => {
   useEffect(() => {
@@ -30,7 +35,7 @@ export const AdNavigation = () => {
   }, []);
 
   return (
-    <AdWrapper>
+    <BannerAdWrapper>
       <ins
         className="adsbygoogle"
         style={{display: "block"}}
@@ -39,7 +44,7 @@ export const AdNavigation = () => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
-    </AdWrapper>
+    </BannerAdWrapper>
   );
 };
 
@@ -54,14 +59,14 @@ export const AdClassOverview = () => {
   }, []);
 
   return (
-    <AdWrapper>
+    <BannerAdWrapper>
       <ins className="adsbygoogle"
       style={{display: 'block'}}
       data-ad-client="ca-pub-2213677142380749"
       data-ad-slot="5546985319"
       data-ad-format="auto"
       data-full-width-responsive="true"/>
-    </AdWrapper>
+    </BannerAdWrapper>
   );
 };
 
@@ -98,14 +103,14 @@ export const AdInArticle = () => {
   }, []);
 
   return (
-    <AdWrapper>
+    <BannerAdWrapper>
       <ins className="adsbygoogle"
       style={{display: 'block', textAlign: 'center'}}
       data-ad-layout="in-article"
       data-ad-format="fluid"
       data-ad-client="ca-pub-2213677142380749"
       data-ad-slot="9994083514"/>
-    </AdWrapper>
+    </BannerAdWrapper>
   );
 };
 
