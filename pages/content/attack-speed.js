@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdOutArticle, AdInArticle } from '../../components/Ads';
+import { AdInArticle, AdOutArticle } from '../../components/Ads';
 
 function AttackSpeed() {
     return (
@@ -119,7 +119,7 @@ function AttackSpeed() {
                 </li>
                 <li>Beta Heavy Sword [1H] (Slow 8)</li>
             </ul>
-            <AdInArticle/>
+            <AdOutArticle/>
             <h2>Weapon Boosting Skills and Sources</h2>
             <p>All classes have a standard <img src="/class-icons/heroes/aran/polearm-booster.png" alt="Skill Polearm Booster"/> <img src="/class-icons/heroes/evan/magic-booster.png" alt="Skill Magic Booster (Evan)"/> Weapon Booster skill that increases your attack speed by +2 stages</p>
             <p>A few classes have skills other than their typical weapon boosting skill that further that boosts their attack speed (i.e. Buccaneer or Thunder Breaker's <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> <a href="https://maplestory.fandom.com/wiki/Speed_Infusion" target="_blank" rel="noreferrer noopener">Speed Infusion</a> provides another +2 AS, a Kaiser using <img src="/class-icons/nova/kaiser/dragon-link.png" alt="Skill Dragon Link"/> key-command skills when their Dragon Gauge is filled provides another +2 AS, etc.)</p>

@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdOutArticle, AdInArticle } from '../../components/Ads';
+import { AdInArticle, AdOutArticle } from '../../components/Ads';
 
 function WhoToTeraBurn() {
     return (
@@ -132,7 +132,7 @@ function WhoToTeraBurn() {
                 </li>
                 <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> Phantom - +20% Crit Rate</li>
             </ul>
-            <AdInArticle/>
+            <AdOutArticle/>
             <h3>Good Legion Bonuses + Lv. 2 Link Skill that may be hard to level:</h3>
             <ul>
                 <li>

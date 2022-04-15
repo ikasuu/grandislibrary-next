@@ -16,12 +16,7 @@ In this file you will find:
 
 //AdWrapper - component to wrap around Ad unit to add margin spacing
 const AdWrapper = styled.div`
-    margin: 1.5rem 0 1.5rem 0;
-`;
-
-const BannerAdWrapper = styled.div`
-    margin: 1.5rem 0 1.5rem 0;
-    max-height: 1rem;
+    margin: 2.5rem 0 2rem 0;
 `;
 
 //AdNavigation - ad for the navigation pages like homepage, content, events, resources
@@ -35,16 +30,16 @@ export const AdNavigation = () => {
   }, []);
 
   return (
-    <BannerAdWrapper>
+    <AdWrapper>
       <ins
         className="adsbygoogle"
-        style={{display: "block"}}
+        style={{display: 'inline-block', width: '728px', height: '90px'}}
         data-ad-client="ca-pub-2213677142380749"
         data-ad-slot="1029974048"
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
-    </BannerAdWrapper>
+    </AdWrapper>
   );
 };
 
@@ -59,14 +54,14 @@ export const AdClassOverview = () => {
   }, []);
 
   return (
-    <BannerAdWrapper>
+    <AdWrapper>
       <ins className="adsbygoogle"
-      style={{display: 'block'}}
+      style={{display: 'inline-block', width: '728px', height: '90px'}}
       data-ad-client="ca-pub-2213677142380749"
       data-ad-slot="5546985319"
       data-ad-format="auto"
       data-full-width-responsive="true"/>
-    </BannerAdWrapper>
+    </AdWrapper>
   );
 };
 
@@ -83,7 +78,7 @@ export const AdOutArticle = () => {
   return (
     <AdWrapper>
       <ins className="adsbygoogle"
-      style={{display: 'block'}}
+      style={{display: 'inline-block', width: '728px', height: '90px'}}
       data-ad-client="ca-pub-2213677142380749"
       data-ad-slot="9117530820"
       data-ad-format="auto"
@@ -103,14 +98,14 @@ export const AdInArticle = () => {
   }, []);
 
   return (
-    <BannerAdWrapper>
+    <AdWrapper>
       <ins className="adsbygoogle"
       style={{display: 'block', textAlign: 'center'}}
       data-ad-layout="in-article"
       data-ad-format="fluid"
       data-ad-client="ca-pub-2213677142380749"
       data-ad-slot="9994083514"/>
-    </BannerAdWrapper>
+    </AdWrapper>
   );
 };
 

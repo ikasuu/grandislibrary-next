@@ -6,7 +6,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, TabLink, ArticleHeaderTwo } from '../../components/Page';
 import Video from '../../components/repository/Video';
-import { AdOutArticle, AdInArticle } from '../../components/Ads';
+import { AdInArticle, AdOutArticle } from '../../components/Ads';
 
 function UpdateTimelineOverview() {
     return (
@@ -105,7 +105,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="fellowship">Rise of Fellowship Update - Nov 2011</ArticleHeaderTwo>
             <RiseOfFellowship/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="legends">Legends Update - Dec 2011</ArticleHeaderTwo>
             <Legends/>
@@ -121,7 +121,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="renegades">Renegades Update - June 2012</ArticleHeaderTwo>
             <Renegades/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="mutiny">Mutiny Update - Aug 2012</ArticleHeaderTwo>
             <Mutiny/>
@@ -137,7 +137,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="snake">Year of the Snake Update - Feb 2013</ArticleHeaderTwo>
             <YearOfTheSnake/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="honor">Mark Of Honor Update - Feb 2013</ArticleHeaderTwo>
             <MarkOfHonor/>
@@ -153,7 +153,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="dawnveil">Dawnveil Demons of Tynerum Update (RED) - Oct 2013</ArticleHeaderTwo>
             <Dawnveil/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="red">RED Update - Dec 2013</ArticleHeaderTwo>
             <Red/>
@@ -169,7 +169,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="risingheroes">Rising Heroes: Elite Update - Jun 2014</ArticleHeaderTwo>
             <RisingHeroesElite/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="hieizan">Mark of Honor Hieizan Temple Update - Aug 2014</ArticleHeaderTwo>
             <HieizanTemple/>
@@ -185,7 +185,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="titan">MapleStory X Attack on Titan Update - Jan 2015</ArticleHeaderTwo>
             <AttackOnTitan/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="blackheaven">Black Heaven Update - Mar 2015</ArticleHeaderTwo>
             <BlackHeaven/>
@@ -201,7 +201,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="asylum">Asylum Update - Oct 2015</ArticleHeaderTwo>
             <Asylum/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="alishan">Welcome to Alishan Update - Oct 2015</ArticleHeaderTwo>
             <Alishan/>
@@ -217,7 +217,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="detectives">Detectives Update - May 2016</ArticleHeaderTwo>
             <Detectives/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="heroesmaple">Heroes of Maple Update - Jun 2016</ArticleHeaderTwo>
             <HeroesOfMaple/>
@@ -233,7 +233,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="kerningcity">Kerning City Superstars Update - Feb 2017</ArticleHeaderTwo>
             <KerningCitySuperstars/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="rezero">MapleStory X Re:Zero Update - May 2017</ArticleHeaderTwo>
             <ReZero/>
@@ -249,7 +249,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="newyear">New Year Showdown Update - Jan 2018</ArticleHeaderTwo>
             <NewYearShowdown/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="evangelion">MapleStory X Evangelion Update - Feb 2018</ArticleHeaderTwo>
             <Evangelion/>
@@ -265,7 +265,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="darknesslooms">Darkness Looms Update - Oct 2018</ArticleHeaderTwo>
             <DarknessLooms/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="blackmage">Black Mage Update - Nov 2018</ArticleHeaderTwo>
             <BlackMage/>
@@ -281,7 +281,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="worldsunite">Worlds Unite Update - Aug 2019</ArticleHeaderTwo>
             <WorldsUnite/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="melody">Fabled Melody Update - Sept 2019</ArticleHeaderTwo>
             <FabledMelody/>
@@ -297,7 +297,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="pixelparty">Pixel Party Update - Apr 2020</ArticleHeaderTwo>
             <PixelParty/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="rise">Rise Update - Jun 2020</ArticleHeaderTwo>
             <Rise/>
@@ -313,7 +313,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="moonlight-magic">Moonlight Magic Update - Feb 2021</ArticleHeaderTwo>
             <MoonlightMagic/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="hotel-maple">Hotel Maple Update - Apr 2021</ArticleHeaderTwo>
             <HotelMaple/>
@@ -329,7 +329,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="on-air">On Air Update - Dec 2021</ArticleHeaderTwo>
             <OnAir/>
-            <AdInArticle/>
+            <AdOutArticle/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="festival-of-foodies">Festival of Foodies Update - Feb 2022</ArticleHeaderTwo>
             <FestivalOfFoodies/>

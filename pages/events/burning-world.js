@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
-import { AdOutArticle, AdInArticle } from '../../components/Ads';
+import { AdInArticle, AdOutArticle } from '../../components/Ads';
 
 const BurningSkill = {
         "id": 80000545,
@@ -116,7 +116,7 @@ function BurningWorld() {
             </ul>
             <p>For more information on Mega Burning characters, check out: <a href="https://www.grandislibrary.com/event/mega-burning" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/mega-burning</a></p>
             <p>Need help choosing a character to burn? Check out: <a href="https://www.grandislibrary.com/event/who-to-tera-burn" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/who-to-tera-burn</a></p>
-            <AdInArticle/>
+            <AdOutArticle/>
             <h2>Transferring from Burning World</h2>
             <p><strong>To transfer first, your character must be at least Lv. 150</strong></p>
             <p>Once the Burning World event ends, you can transfer your character to a Regular World (Non-Reboot world). You will not be able to train your characters in the Burning World during this period</p>

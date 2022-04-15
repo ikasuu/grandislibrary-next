@@ -6,7 +6,7 @@ import { linkSkills } from '../../special/SiteValues';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdOutArticle, AdInArticle } from '../../components/Ads';
+import { AdInArticle, AdOutArticle } from '../../components/Ads';
 
 function LinkSkills() {
     return (
@@ -164,7 +164,7 @@ function LinkSkills() {
         <SingleSkill skillData={linkSkills.zero}/>
         <hr/>
         {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-        <AdInArticle/>
+        <AdOutArticle/>
         <h2 id="notable">Notable Link Skills:</h2>
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img width="32" height="32" src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>

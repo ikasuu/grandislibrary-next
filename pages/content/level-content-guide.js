@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { AdOutArticle, AdInArticle } from '../../components/Ads';
+import { AdInArticle, AdOutArticle } from '../../components/Ads';
 
 function ContentGuide() {
  return (
@@ -92,7 +92,7 @@ function ContentGuide() {
     </ul>
     <hr/>
     {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <AdInArticle/>
+    <AdOutArticle/>
     <ArticleHeaderTwo id="70">Level 70</ArticleHeaderTwo>
     <h3>Content Available:</h3>
     <h4>Recommended</h4>
@@ -170,7 +170,7 @@ function ContentGuide() {
     </ul>
     <hr/>
     {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <AdInArticle/>
+    <AdOutArticle/>
     <ArticleHeaderTwo id="120">Level 120</ArticleHeaderTwo>
     <h3>Content Available:</h3>
     <h4>Recommended</h4>
@@ -288,7 +288,7 @@ function ContentGuide() {
     </ul>
     <hr/>
     {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <AdInArticle/>
+    <AdOutArticle/>
     <ArticleHeaderTwo id="170">Level 170</ArticleHeaderTwo>
     <h3>Content Available:</h3>
     <h4>Recommended</h4>
@@ -418,7 +418,7 @@ function ContentGuide() {
     </ul>
     <hr/>
     {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <AdInArticle/>
+    <AdOutArticle/>
     <ArticleHeaderTwo id="220">Level 220</ArticleHeaderTwo>
     <h3>Content Available:</h3>
     <hr/>

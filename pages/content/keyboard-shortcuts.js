@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdOutArticle, AdInArticle } from '../../components/Ads';
+import { AdInArticle, AdOutArticle } from '../../components/Ads';
 
 function KeyboardShortcuts() {
     return (
@@ -54,37 +54,37 @@ function KeyboardShortcuts() {
             <QuestLog/>
             <WorldMap/>
             <Equipment/>
-            <AdInArticle/>
+            <AdOutArticle/>
             <FriendsPartyBoss/>
             <ItemPot/>
             <MapleGuide/>
             <Items/>
             <CharacterStat/>
-            <AdInArticle/>
+            <AdOutArticle/>
             <Guild/>
             <Whisper/>
             <Skill/>
             <Notifier/>
             <Medals/>
-            <AdInArticle/>
+            <AdOutArticle/>
             <MapleChat/>
             <Events/>
             <Professions/>
             <Minimap/>
             <CharInfo/>
-            <AdInArticle/>
+            <AdOutArticle/>
             <SoulWeapon/>
             <BattleAnalysis/>
             <EnhanceEquipment/>
             <MonsterCollection/>
             <Legion/>
-            <AdInArticle/>
+            <AdOutArticle/>
             <MapleNews/>
             <PictureMode/>
             <Mute/>
             <MapleRelay/>
             <MapleAchievement/>
-            <AdInArticle/>
+            <AdOutArticle/>
             <Familiar/>
             <Emoticon/>
             <AdOutArticle/>

@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { AdOutArticle, AdInArticle } from '../../components/Ads';
+import { AdInArticle, AdOutArticle } from '../../components/Ads';
 
 function BossMatchmaking() {
     return (
@@ -132,7 +132,7 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/401060000" target="_blank" rel="noreferrer noopener">Tyrant's Castle : Heliseum Heights Entry</a> in Heliseum/Pantheon</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <AdInArticle/>
+          <AdOutArticle/>
           <ArticleHeaderTwo id="hilla"><img src="/images/map-icons/hilla.png" alt="MapIcon Hilla"/> Hilla</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 120+] [Hard Lv. 170+]</strong></p>
           <p>No pre-quests</p>
@@ -229,7 +229,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <AdInArticle/>
+          <AdOutArticle/>
           <ArticleHeaderTwo id="horntail"><img src="/images/map-icons/horntail.png" alt="MapIcon Hontale"/> Horntail</ArticleHeaderTwo>
           <p><strong>[Easy/Normal Lv. 130+] [Chaos Lv. 135+]</strong></p>
           <p>No pre-quests to teleport to Horntail using the Boss Matchmaking System but requires you to complete some quests from <a href="https://maplestory.fandom.com/wiki/Moira" target="_blank" rel="noreferrer noopener">Moira</a> located just <a href="https://maplestory.wiki/GMS/210.1.1/map/240040700" target="_blank" rel="noreferrer noopener">outside of Horntail</a>. The quests are short and just dialogue</p>
@@ -333,7 +333,7 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/350060300" target="_blank" rel="noreferrer noopener">Black Heaven Inside: Core Entrance</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <AdInArticle/>
+          <AdOutArticle/>
           <ArticleHeaderTwo id="damien"><img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> Damien</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 190+]</strong></p>
           <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb icon called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing Act 4 will unlock access for all of your other characters in the same world</p>
@@ -425,7 +425,7 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/450009301" target="_blank">Moonbridge: Facing the Eye of the Void</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <AdInArticle/>
+          <AdOutArticle/>
           <ArticleHeaderTwo id="verushilla"><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> Verus Hilla</ArticleHeaderTwo>
           <p><strong>[Hard Lv. 250+ &amp; 900AF+]</strong></p>
           <p>You must complete the Labyrinth of Suffering storyline and defeat Story Mode Verus Hilla in order to unlock access to Verus Hilla</p>
@@ -495,7 +495,7 @@ function BossMatchmaking() {
               <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/807300100" target="_blank" rel="noreferrer noopener">El Nath: Secret Altar Path</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <AdInArticle/>
+          <AdOutArticle/>
           <ArticleHeaderTwo id="princessno"><img src="/images/map-icons/princess-no-boss.png" alt="MapIcon JP Nohime"/> Princess No</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 140+]</strong></p>
           <p>You must complete the Hieizan Temple storyline to gain access to Princess No. To start, accept the quest from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/56/(Hieizan_Temple)_Regards,_Takeda_Shingen">[Hieizan Temple] Regards, Takeda Shingen</a>” at Lv. 140</p>
