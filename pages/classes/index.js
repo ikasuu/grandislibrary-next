@@ -40,7 +40,7 @@ function Classes() {
                 <Page.Subtitle>Other</Page.Subtitle>
                 <Page.Caption>Classes here only share Cash Shop Inventories with their own class - they do not share with each other</Page.Caption>
                 <ClassGroupContainer classes={classes.other} classGroup="other"/>
-                <AdNavigation/>
+                {/* <AdNavigation/> */}
             </div>
         </div>
     );
