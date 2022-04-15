@@ -2,7 +2,7 @@ import React, { useState, useEffect, Suspense } from 'react';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
 import Head from 'next/head';
-// import Script from 'next/script';
+import Script from 'next/script';
 
 import { getInitialTheme, GlobalStyle } from '../special/GlobalTheme';
 import MainNavbar from '../components/MainNavbar';
