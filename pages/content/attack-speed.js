@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
+import { AdOutArticle, AdInArticle } from '../../components/Ads';
 
 function AttackSpeed() {
     return (
@@ -11,9 +12,10 @@ function AttackSpeed() {
                 <title>Attack Speed | Grandis Library</title>
                 <meta content={"An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"} name="description"/>
             </Head>
+            <AdOutArticle/>
             <ContentTitle>Attack Speed</ContentTitle>
             <p>Modified from: <a href="http://www.basilmarket.com/General-Attack-Speed-101-Wiki-303" target="_blank" rel="noreferrer noopener">http://www.basilmarket.com/General-Attack-Speed-101-Wiki-303</a></p>
-            <h2><strong>Attack Speed of your Weapon</strong></h2>
+            <h2>Attack Speed of your Weapon</h2>
             <p>Each Weapon in the game has an Attack Speed value in their description as follows:</p>
             <p>Faster &gt; Fast &gt; Normal &gt; Slow &gt; Slower</p>
             <p>The values for each Attack Speed can be classified as such:</p>
@@ -35,7 +37,7 @@ function AttackSpeed() {
             </ul>
             <p><strong>[Note]: </strong>Hurricane-type / Key-down skills like <img src="/class-icons/explorers/bowmaster/hurricane.png" alt="Skill Hurricane"/> <a href="https://maplestory.fandom.com/wiki/Hurricane" target="_blank" rel="noreferrer noopener">Hurricane</a>, <img src="/class-icons/heroes/phantom/mille-aiguilles.png" alt="Skill Mille Aiguilles"/> <a href="https://maplestory.fandom.com/wiki/Mille_Aiguilles" target="_blank" rel="noreferrer noopener">Mille Aiguilles</a>, <img src="/class-icons/heroes/mercedes/ishtars-ring.png" alt="Skill Ishtar's Ring"/> <a href="https://maplestory.fandom.com/wiki/Ishtar's_Ring" target="_blank" rel="noreferrer noopener">Ishtar's Ring</a>, <img src="/class-icons/resistance/xenon/beam-dance.png" alt="Skill Beam Dance"/> <a href="https://maplestory.fandom.com/wiki/Beam_Dance" target="_blank" rel="noreferrer noopener">Beam Dance</a>, or <img src="/class-icons/resistance/wild-hunter/wild-arrow-blast.png" alt="Skill Wild Arrow Blast"/> <a href="https://maplestory.fandom.com/wiki/Wild_Arrow_Blast" target="_blank" rel="noreferrer noopener">Wild Arrow Blast</a> are not affected by Attack Speed</p>
             <p><strong>[Note]: </strong>All mages except Battle Mage are not affected by their weapon's Attack Speed. Instead, all attacks have a cast speed of Normal (6) regardless of weapon which is still affected by Attack Speed </p>
-            <h2><strong>Weapon Attack Speeds</strong></h2>
+            <h2>Weapon Attack Speeds</h2>
             <h3>Fast (4)</h3>
             <ul>
                 <li>Dagger [1H] (Fast 4)
@@ -117,15 +119,16 @@ function AttackSpeed() {
                 </li>
                 <li>Beta Heavy Sword [1H] (Slow 8)</li>
             </ul>
-            <h2><strong>Weapon Boosting Skills and Sources</strong></h2>
+            <AdInArticle/>
+            <h2>Weapon Boosting Skills and Sources</h2>
             <p>All classes have a standard <img src="/class-icons/heroes/aran/polearm-booster.png" alt="Skill Polearm Booster"/> <img src="/class-icons/heroes/evan/magic-booster.png" alt="Skill Magic Booster (Evan)"/> Weapon Booster skill that increases your attack speed by +2 stages</p>
             <p>A few classes have skills other than their typical weapon boosting skill that further that boosts their attack speed (i.e. Buccaneer or Thunder Breaker's <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> <a href="https://maplestory.fandom.com/wiki/Speed_Infusion" target="_blank" rel="noreferrer noopener">Speed Infusion</a> provides another +2 AS, a Kaiser using <img src="/class-icons/nova/kaiser/dragon-link.png" alt="Skill Dragon Link"/> key-command skills when their Dragon Gauge is filled provides another +2 AS, etc.)</p>
             <p>As well, there are sources beyond your class's skills that you can obtain to further increase your Attack Speed (i.e. +1 AS Inner Ability +1 AS from <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> <a href="https://maplestory.fandom.com/wiki/Decent_Speed_Infusion" target="_blank" rel="noreferrer noopener">Decent Speed Infusion</a>, +1 AS from <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <a href="https://maplestory.fandom.com/wiki/Extreme_Green_Potion" target="_blank" rel="noreferrer noopener">Extreme Green Potion</a> from Monster Park, etc.)</p>
-            <h2><strong>Calculating your final attack speed</strong></h2>
+            <h2>Calculating your final attack speed</h2>
             <p>The actual math in calculating your final Attack Speed is very easy. You just take your weapon's Attack Speed then subtract it by the total Attack Speed boosts you get from your skills and sources</p>
             <h3>Examples:</h3>
-            <p>A Dark Knight wielding a <img src="https://maplestory.io/api/GMS/210.1.1/item/1432167/icon" alt=""/> Fafnir Brionak, which is Normal (6). The Dark Knight uses their <img src="/class-icons/explorers/dark-knight/weapon-booster.png" alt="Skill Weapon Booster (Spearman)"/> Weapon Booster skill that gives +2 AS, plus they have <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion that gives +1 AS (for a total of +3 AS). Thus, their final attack speed is: Normal (6) - (+3 AS) = Faster (3)</p>
-            <p>A Cannoneer with a <img src="https://maplestory.io/api/GMS/210.1.1/item/1532098/icon" alt=""/> Fafnir Lost Cannon, which is Slow (8). The Cannoneer gets +2 AS from their <img src="/class-icons/explorers/cannoneer/cannon-booster.png" alt="Skill Cannon Booster"/> Weapon Booster skill, +1 AS from the <img src="/class-icons/explorers/cannoneer/reinforced-cannon.png" alt="Skill Reinforced Cannon"/> Reinforced Cannon skill, +1 AS from the <img src="/class-icons/explorers/cannoneer/cannon-overload.png" alt="Skill Cannon Overload"/> Cannon Overload skill, +1 AS from the <img src="https://maplestory.io/api/GMS/210.1.1/item/2023126/icon" alt=""/> Extreme Green Potion (for a total of +5 AS). Thus, their final attack speed is: Slow (8) - (+5 AS) = Faster (3)</p>
+            <p>A Dark Knight wielding a <img src="/images/equipment/fafnir-brionak.png" alt="Eqp Fafnir Brionak"/> Fafnir Brionak, which is Normal (6). The Dark Knight uses their <img src="/class-icons/explorers/dark-knight/weapon-booster.png" alt="Skill Weapon Booster (Spearman)"/> Weapon Booster skill that gives +2 AS, plus they have <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion that gives +1 AS (for a total of +3 AS). Thus, their final attack speed is: Normal (6) - (+3 AS) = Faster (3)</p>
+            <p>A Cannoneer with a <img src="/images/equipment/fafnir-lost-cannon.png" alt="Eqp Fafnir Lost Cannon"/> Fafnir Lost Cannon, which is Slow (8). The Cannoneer gets +2 AS from their <img src="/class-icons/explorers/cannoneer/cannon-booster.png" alt="Skill Cannon Booster"/> Weapon Booster skill, +1 AS from the <img src="/class-icons/explorers/cannoneer/reinforced-cannon.png" alt="Skill Reinforced Cannon"/> Reinforced Cannon skill, +1 AS from the <img src="/class-icons/explorers/cannoneer/cannon-overload.png" alt="Skill Cannon Overload"/> Cannon Overload skill, +1 AS from the <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion (for a total of +5 AS). Thus, their final attack speed is: Slow (8) - (+5 AS) = Faster (3)</p>
             <p>However, there TWO speed caps in place to prevent players from going crazy over attack speed</p>
             <h2>Speed Cap 1 - The Soft Speed Cap</h2>
             <p>The first speed cap is the Soft Speed Cap, which is Fastest (2). Most attack speed boosting sources and skills cannot bypass the soft speed cap, including, but not limited to the following:</p>
@@ -135,7 +138,7 @@ function AttackSpeed() {
                 <li>Almost all Weapon Booster skills from your class' skills</li>
             </ul>
             <h3>Example:</h3>
-            <p>A Shadower with a <img src="https://maplestory.io/api/GMS/210.1.1/item/1332225/icon" alt=""/> Fafnir Damascus, which is Fast (4). The Shadower gets +2 AS from their <img src="/class-icons/explorers/shadower/dagger-booster.png" alt="Skill Dagger Booster"/> Weapon Booster skill. They also have +1 AS Inner Ability. You may think her final attack speed is Fastest (1), since Fast (4) - (+3 AS) = Fastest (1). However, their weapon boosting skill nor the +1 attack speed inner ability can break the soft speed cap of Fastest (2). Thus, they are stuck at Fastest (2) despite her inner ability</p>
+            <p>A Shadower with a <img src="/images/equipment/fafnir-damascus.png" alt="Eqp Fafnir Damascus"/> Fafnir Damascus, which is Fast (4). The Shadower gets +2 AS from their <img src="/class-icons/explorers/shadower/dagger-booster.png" alt="Skill Dagger Booster"/> Weapon Booster skill. They also have +1 AS Inner Ability. You may think her final attack speed is Fastest (1), since Fast (4) - (+3 AS) = Fastest (1). However, their weapon boosting skill nor the +1 attack speed inner ability can break the soft speed cap of Fastest (2). Thus, they are stuck at Fastest (2) despite her inner ability</p>
             <h2>Speed Cap 2 - The Hard Speed Cap</h2>
             <p>The absolute fastest attack speed a player can achieve is Fastest (0), no exceptions. Fastest (0) is thus known as the Hard Speed Cap</p>
             <p>There are a handful of Attack Speed boost sources that can ignore the soft speed cap of Faster (2). These are the following:</p>
@@ -143,8 +146,8 @@ function AttackSpeed() {
                 <li>Rune of Decay (+1 attack speed)</li>
                 <li>Rune of Destruction (+1 attack speed)</li>
                 <li>Rune of Swiftness (+3 attack speed)</li>
-                <li><img src="https://maplestory.io/api/GMS/210.1.1/item/2023126/icon" alt=""/> <a href="https://maplestory.fandom.com/wiki/Extreme_Green_Potion" target="_blank" rel="noopener noreferrer">Extreme Green Potion</a> (+1 attack speed)</li>
-                <li><img src="https://maplestory.io/api/GMS/210.1.1/item/2591401/icon" alt=""/> <a href="https://maplestory.fandom.com/wiki/Fickle_Queen" target="_blank" rel="noopener noreferrer">Crimson Queen soul's attack speed buff</a> (+1 attack speed)</li>
+                <li><img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <a href="https://maplestory.fandom.com/wiki/Extreme_Green_Potion" target="_blank" rel="noopener noreferrer">Extreme Green Potion</a> (+1 attack speed)</li>
+                <li><img src="/images/items/crimson-queen-soul.png" alt="Use Crimson Queen Soul"/> <a href="https://maplestory.fandom.com/wiki/Fickle_Queen" target="_blank" rel="noopener noreferrer">Crimson Queen soul's attack speed buff</a> (+1 attack speed)</li>
                 <li>Battle Mage's <img src="/class-icons/resistance/battle-mage/hasty-aura.png" alt="Skill Hasty Aura"/> <a href="https://maplestory.fandom.com/wiki/Hasty_Aura" target="_blank" rel="noopener noreferrer">Hasty Aura</a> (+2 attack speed)</li>
                 <li>Zero's <img src="/class-icons/other/zero/divine-speed.png" alt="Skill Divine Speed"/> <a href="https://maplestory.fandom.com/wiki/Divine_Speed" target="_blank" rel="noopener noreferrer">Divine Speed</a> (+1 attack speed)</li>
                 <li>Kaiser's <img src="/class-icons/nova/kaiser/kaisers-majesty.png" alt="Skill Kaiser's Majesty"/> <a href="https://maplestory.fandom.com/wiki/Kaiser's_Majesty" target="_blank" rel="noopener noreferrer">Kaiser's Majesty</a> (+1 attack speed)</li>
@@ -152,8 +155,9 @@ function AttackSpeed() {
             <p>You will need only one of these Attack Speed boosts to break through the Soft Speed cap to be able to reach the Hard Speed cap</p>
             <strong>Note:</strong> Depending on your server, you may have a Hard Speed Cap of 2. GMS and MSEA has a Hard Speed Cap of 0
             <h3>Example:</h3>
-            <p>An Aran with the <img src="https://maplestory.io/api/GMS/210.1.1/item/1442002/icon" alt=""/> Eviscerator polearm, which is Slower (9). The Aran gets +2 AS from their <img src="/class-icons/heroes/aran/polearm-booster.png" alt="Skill Polearm Booster"/> Weapon Booster skill, +1 AS from <img src="/class-icons/heroes/aran/polearm-mastery.png" alt="Skill Polearm Mastery"/> Polearm Mastery skill, +1 AS from <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion, +1 from Inner Ability, and +1 from <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion (for a total of +6 AS). Thus, their attack speed would be: Slower (9) - (+6 AS) = Fastest (3)</p>
+            <p>An Aran with the <img src="/images/equipment/eviscerator.png" alt="Eqp Eviscerator"/> Eviscerator polearm, which is Slower (9). The Aran gets +2 AS from their <img src="/class-icons/heroes/aran/polearm-booster.png" alt="Skill Polearm Booster"/> Weapon Booster skill, +1 AS from <img src="/class-icons/heroes/aran/polearm-mastery.png" alt="Skill Polearm Mastery"/> Polearm Mastery skill, +1 AS from <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion, +1 from Inner Ability, and +1 from <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion (for a total of +6 AS). Thus, their attack speed would be: Slower (9) - (+6 AS) = Fastest (3)</p>
             <p>Later, they find a Rune of Swiftness and uses it, granting them another +3 attack speed that can ignore the soft speed cap (for a total of +9 attack speed). Their final Attack Speed is Fastest (0)</p>
+            <AdOutArticle/>
         </ContentPage>
     );
 }

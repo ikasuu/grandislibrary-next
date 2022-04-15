@@ -35,6 +35,10 @@ export const Caption = styled.p`
     font-size: 1.08rem;
 `;
 
+export const ArticleHeaderTwo = styled.h2`
+    margin: 2.5rem 0 1rem 0;
+`;
+
 // An overlay to go over images
 export const Overlay = styled.div`
     position: absolute;

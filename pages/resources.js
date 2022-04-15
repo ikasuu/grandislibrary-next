@@ -11,6 +11,7 @@ import data from '../special/resource-content.json';
 import HeaderImageUrl from '../special/SiteValues';
 import HeaderImage from '../components/HeaderImage';
 import { Title, TabLink } from '../components/Page';
+import AdNavigation from '../components/Ads';
 
 SwiperCore.use([Scrollbar, Mousewheel]);
 
@@ -114,6 +115,7 @@ function Resources() {
                         </TableContainer>
                     </Tab>
                 </Tabs>
+                <AdNavigation/>
                 <ResourceSubtitle className="faq">Frequently Asked Questions</ResourceSubtitle>
                 <FaqSearchWrapper><FaqSearch className="faq-search" type="text" placeholder="Search" onChange={event => setSearchTerm((event.target.value))}></FaqSearch></FaqSearchWrapper>
                 <FaqSwiper
@@ -138,6 +140,7 @@ function Resources() {
                         )
                     }
                 </FaqSwiper>
+                <AdNavigation/>
             </Container>
         </div>
     );

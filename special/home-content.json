@@ -18,12 +18,20 @@
     ],
     "recent": [
         {
+            "title": "Tactical Relay Event 2022!",
+            "image": "/home-thumbnail/tactical-relay.jpg",
+            "alt": "Tactical Relay Event 2022!",
+            "link": "https://maplestory.nexon.net/news/73592/tactical-relay-event",
+            "subtitle": "Apr 12, 2022"
+        },
+        {
             "title": "Double Trouble Superstars Patch Notes",
             "image": "/home-thumbnail/double-trouble.jpg",
             "alt": "Double Trouble Superstars Patch Notes",
             "link": "https://maplestory.nexon.net/news/72827/v-231-double-trouble-superstars-patch-notes",
             "subtitle": "Mar 15, 2022"
-        },        {
+        },
+        {
             "title": "The Marvel Machine Returns!",
             "image": "/home-thumbnail/marvel-machine.jpg",
             "alt": "The Marvel Machine Returns!",
@@ -43,16 +51,16 @@
             "alt": "Maplehood Watch Returns for 2022!",
             "link": "https://maplestory.nexon.net/news/71772/maplehood-watch-returns-for-2022",
             "subtitle": "Feb 11, 2022"
-        },
-        {
-            "title": "Festival of Foodies Patch Notes",
-            "image": "/home-thumbnail/festival-of-foodies.jpg",
-            "alt": "Festival of Foodies Patch Notes",
-            "link": "https://maplestory.nexon.net/news/71736/v-230-festival-of-foodies-patch-notes",
-            "subtitle": "Feb 8, 2022"
         }
     ],
     "upcoming": [
+        {
+            "title": "Camilia's Pop-up Store",
+            "image": "/home-thumbnail/camilia-pop-up.jpg",
+            "alt": "Camilia's Pop-up Store",
+            "link": "https://orangemushroom.net/2022/03/24/kms-ver-1-2-362-super-haste-camillas-pop-up-store/",
+            "subtitle": "Mar 24, 2022"
+        },
         {
             "title": "Destiny Update: New Boss Kalos",
             "image": "/home-thumbnail/kalos.jpg",
@@ -141,24 +149,14 @@
             "path": "explorers/arch-mage-ice-lightning"
         },
         {
-            "alt": "Arch Mage F/P",
-            "class": "arch-mage-fire-poison",
-            "path": "explorers/arch-mage-fire-poison"
-        },
-        {
-            "alt": "Night Lord",
-            "class": "night-lord",
-            "path": "explorers/night-lord"
-        },
-        {
             "alt": "Adele",
             "class": "adele",
             "path": "flora/adele"
         },
         {
-            "alt": "Shadower",
-            "class": "shadower",
-            "path": "explorers/shadower"
+            "alt": "Arch Mage F/P",
+            "class": "arch-mage-fire-poison",
+            "path": "explorers/arch-mage-fire-poison"
         },
         {
             "alt": "Kanna",
@@ -166,24 +164,34 @@
             "path": "sengoku/kanna"
         },
         {
-            "alt": "Hero",
-            "class": "hero",
-            "path": "explorers/hero"
-        },
-        {
             "alt": "Demon Slayer",
             "class": "demon-slayer",
             "path": "resistance/demon-slayer"
         },
         {
-            "alt": "Dual Blade",
-            "class": "dual-blade",
-            "path": "explorers/dual-blade"
+            "alt": "Night Lord",
+            "class": "night-lord",
+            "path": "explorers/night-lord"
+        },
+        {
+            "alt": "Demon Avenger",
+            "class": "demon-avenger",
+            "path": "resistance/demon-avenger"
         },
         {
             "alt": "Dawn Warrior",
             "class": "dawn-warrior",
             "path": "cygnus-knights/dawn-warrior"
+        },
+        {
+            "alt": "Shadower",
+            "class": "shadower",
+            "path": "explorers/shadower"
+        },
+        {
+            "alt": "Cannoneer",
+            "class": "cannoneer",
+            "path": "explorers/cannoneer"
         }
     ]
 }

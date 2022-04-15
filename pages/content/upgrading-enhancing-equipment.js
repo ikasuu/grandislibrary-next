@@ -3,7 +3,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
-import { ContentTitle } from '../../components/Page';
+import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
+import { AdOutArticle, AdInArticle } from '../../components/Ads';
 
 function UpgradeEquipment() {
     return (
@@ -12,6 +13,7 @@ function UpgradeEquipment() {
             <title>Upgrading &amp; Enhancing Equipment | Grandis Library</title>
             <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
           </Head>
+          <AdOutArticle/>
           <ContentTitle>Upgrading &amp; Enhancing Equipment</ContentTitle>
           <p><img className="repository-image" src="/images/info/equipment-tooltip.png" alt="Equipment Diagram"/></p>
           <p>Bonus Stats appear in <span style={{color: '#339966'}}>green</span> font while stats from upgrading appear in <span style={{color: '#3366ff'}}>blue</span> [Refer to 11]. The color of an item's name indicates how many stats above or below average an item is [Refer to 02]</p>
@@ -26,8 +28,8 @@ function UpgradeEquipment() {
             <li><Link smooth href="#bonus" scroll>Flames &amp; Bonus Stats</Link></li>
           </ul>
           <div className="repository-md-container">
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="scrolls">Scrolls in Regular Servers</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="scrolls">Scrolls in Regular Servers</ArticleHeaderTwo>
             <hr/>
             <p>Scrolls are one way of upgrading equipment, they are found in the USE tab. Scrolls are the traditional way of upgrading equipment and can be done by double-clicking it and dragging it on to an item. Most of regular scrolls nowadays are useless and have been replaced with an easier system called <a rel="noreferrer noopener" href="https://support-maplestory.nexon.net/hc/en-us/articles/204744535-What-are-Spell-Traces-" target="_blank">Spell Tracing</a> which will be explained later. For now, Spell Tracing provides the same function as scrolling and is much easier to obtain than scrolls</p>
             <p><strong>[Note]: </strong>Whenever you use a scroll, whether it fails or passes, an upgrade slot will be consumed</p>
@@ -212,8 +214,8 @@ function UpgradeEquipment() {
                   scroll when applied
               </li>
             </ul>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="spelltrace"><img src="/images/items/spell-trace.png" alt=""/> Spell Tracing in Regular Servers</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="spelltrace"><img src="/images/items/spell-trace.png" alt=""/> Spell Tracing in Regular Servers</ArticleHeaderTwo>
             <hr/>
             <p><img src="https://i.imgur.com/MapgJ6D.png" alt="Spell Trace"/></p>
             <p>Spell tracing involves using an item called <img src="/images/items/spell-trace.png" alt=""/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/4001832" target="_blank">"Spell Trace"</a> to upgrade items instead of using scrolls. They also consume an upgrade slot upon success or fail. This is the main and most common way to upgrade equipment. Some common ways to get Spell Traces is to hunt monsters, Pollo Frito portals, Silent Crusade, Surprise Missions and from events</p>
@@ -224,8 +226,8 @@ function UpgradeEquipment() {
             <p>There are different scrolls to choose from, for weapons most of the time you just use the 70% ones and 15% if you have the resources and plan to keep it for a while</p>
             <p>For regular gear, you can upgrade them using 70% and 30% if you have the resources and plan to keep it for a while</p>
             <p><strong>[Note]</strong>: The lower the success rate, the higher the stats they provide but also costs more Spell Traces! As well, the higher level gear will cost more Spell Traces</p>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="starforce">Star Forcing</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="starforce">Star Forcing</ArticleHeaderTwo>
             <hr/>
             <p><img src="/images/info/starforce-tooltip.png" alt="Starforce Equipment"/></p>
             <p>Once you have consumed all upgrade slots, you may star force/enhance your gear. In Reboot, there are no upgrade slots, so you just star force/enhance instead. Star Forcing costs mesos that grants increased stats on success</p>
@@ -262,8 +264,9 @@ function UpgradeEquipment() {
             <p>If the equipment is destroyed while Star Forcing, you will gain an Equipment Trace. Equipment Traces can be applied to a new copy of the same item to restore all the stats, potentials and enhancements</p>
             <p><strong>[Star Force Maps]</strong>: There are special training maps that will require you to have a certain amount of Star Force to hunt efficiently on a map. These maps feature monsters with greater health but give much more EXP</p>
             <p>Star Force also contributes to the amount of damage your Legion Character does on the Legion Board</p>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="hammer">Transfer Hammer</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <AdInArticle/>
+            <ArticleHeaderTwo id="hammer">Transfer Hammer</ArticleHeaderTwo>
             <hr/>
             <p><img className="repository-image" src="https://i.imgur.com/fqoJwOA.png" alt="Transfer Hammer UI"/></p>
             <p>Transfer Hammer is a system that allows you to transfer Star Force, Potentials, Bonus Potentials, and Soul Weapon from one equipment to another (with restrictions). The following will not be transferred, Scrolled Stats and Bonus Stats. Additionally you will lose one Star Force while transferring and any potentials above Epic will be dropped down to Epic Potential. You can only transfer equipment up to 10 levels apart of each other. For equipment below Lv. 100, you can transfer up to 20 levels apart</p>
@@ -272,14 +275,14 @@ function UpgradeEquipment() {
             <p><img className="repository-image" src="https://i.imgur.com/Ymb1fDI.png" alt="Transfer Hammer Button"/></p>
             <p>To begin Transfer Hammering, you can access the UI from your Inventory by<strong> pressing the blue hammer icon</strong></p>
             <p>For more info on Transfer Hammer, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Transfer_Hammer" target="_blank">https://strategywiki.org/wiki/MapleStory/Transfer_Hammer</a></p>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="transpose">Transposing</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="transpose">Transposing</ArticleHeaderTwo>
             <hr/>
             <p><img className="repository-image" src="https://i.imgur.com/S5tz1Gz.png" alt="Transpose UI"/></p>
             <p>Tranposing allows you to transfer an equipment's bonus stats from Bonus Stats, Scroll and Star Force Enhancements (the blue and green stats) to <strong>Sweetwater gear</strong>. The Star Force count will also drop by 1 but you retain the bonus stats. Potential Ranks also carry over but the Potential Lines will be reset</p>
             <p>Transposing is unlocked after gaining access to Commerci at Lv. 140. Transposing will cost <img src="/images/items/commerci-denaro.png" alt="Etc Commerci Denaro" width="30" height="22"/> <a href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaros]</a> and the chance for transposing to succeed is not guaranteed</p>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="cubing">Cubing &amp; Potentials</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="cubing">Cubing &amp; Potentials</ArticleHeaderTwo>
             <hr/>
             <p><img src="https://i.imgur.com/KiRDRYi.png" alt=""/><img src="https://i.imgur.com/qQkJRO6.png" alt=""/></p>
             <p>Potentials refer to additional stats that some items sometimes come with. These stats are listed at the bottom of a tooltip. There are different tiers of Potentials that grant greater bonuses, lowest being Rare and highest being Legendary. Potentials initially start off as Hidden Potentials and need to be revealed in order to reveal their additional stats. Additionally, there are also Bonus Potentials which is a second line of Potentials that function the same and can be added to equipment</p>
@@ -353,8 +356,8 @@ function UpgradeEquipment() {
                   </ul>
               </li>
             </ul>
-            <div><Link smooth href="#top" scroll>Go to top</Link></div>
-            <h2 id="bonus">Flames &amp; Bonus Stats</h2>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="bonus">Flames &amp; Bonus Stats</ArticleHeaderTwo>
             <p>Equipment can come with Bonus Stats. The stats can be categorized into Tiers. There are a total of 7 tiers with 7 being the highest and providing the most stat boosts. Boss Equipment & KMS equipment tends to have higher tiers of Bonus Stats compared to items outside of KMS (for example Gollux accessories & Sweetwater). More info can be found at the bottom of the page on Bonus Stats</p>
             <p>To reroll Bonus Stats, you need to use items called "Rebirth Flames". Regular rebirth flames that have a "LV. X" attached to it can only reroll certain items up to that specified level and are dropped by Bosses. These regular flames yield lower tiers compared to special ones. You can identify which equipment can be flamed by hovering over them and checking the top left corner of the equipment icon. If there is a transparent dot, it can be flamed with regular rebirth flames. If there is a white dot, it can only be flamed with special rebirth flames</p>
             <p><img src="https://maplestory.io/api/GMS/210.1.1/item/2048700/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048701/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048702/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048703/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/2048704/icon" alt=""/> Regular Rebirth Flames: <a href="https://maplestory.wiki/GMS/210.1.1/item/2048700" target="_blank" rel="noreferrer noopener">[Lv. 110]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048701" target="_blank" rel="noreferrer noopener">[Lv. 120]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048702" target="_blank" rel="noreferrer noopener">[Lv. 130]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048703" target="_blank" rel="noreferrer noopener">[Lv. 140]</a>, and <a href="https://maplestory.wiki/GMS/214/item/2048704" target="_blank" rel="noreferrer noopener">[Lv. 150]</a></p>
@@ -384,6 +387,7 @@ function UpgradeEquipment() {
                   https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p
               </a></p>
           </div>
+          <AdOutArticle/>
       </ContentPage>
 
     )

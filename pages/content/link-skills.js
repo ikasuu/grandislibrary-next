@@ -6,6 +6,7 @@ import { linkSkills } from '../../special/SiteValues';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
+import { AdOutArticle, AdInArticle } from '../../components/Ads';
 
 function LinkSkills() {
     return (
@@ -14,6 +15,7 @@ function LinkSkills() {
             <title>Link Skill | Grandis Library</title>
             <meta content={"An explanation of Link Skills and a list of all Link Skills and their effects"} name="description"/>
         </Head>
+        <AdOutArticle/>
         <ContentTitle>Link Skills</ContentTitle>
         <p><img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager UI"/></p>
         <p>Link Skills are unique to each class and can be given to your other characters on the same world. Link Skills mostly come as passives but there are a few Active Link Skills too</p>
@@ -39,7 +41,7 @@ function LinkSkills() {
           <li><Link smooth href="#builds" scroll>Examples of Link Skill Builds</Link></li>
         </ul>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="explorers">Explorers</h2>
         <hr/>
         <p><strong>[Hero, Paladin and Dark Knight]</strong></p>
@@ -60,7 +62,7 @@ function LinkSkills() {
         <p><strong>[Jett]</strong></p>
         <SingleSkill skillData={linkSkills.jett}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="cygnusknights">Cygnus Knights</h2>
         <hr/>
         <p><strong>[Dawn Warrior, Wind Archer, Thunder Breaker, Night Walker, and Blaze Wizard]</strong></p>
@@ -69,7 +71,7 @@ function LinkSkills() {
         <p><strong>[Mihile]</strong></p>
         <SingleSkill skillData={linkSkills.mihile}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="heroes">Heroes</h2>
         <hr/>
         <p><strong>[Mercedes]</strong></p>
@@ -90,7 +92,7 @@ function LinkSkills() {
         <p><strong>[Shade] </strong></p>
         <SingleSkill skillData={linkSkills.shade}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="resistance">Resistance</h2>
         <hr/>
         <p><strong>[Wild Hunter, Battle Mage, Mechanic, and Blaster]</strong></p>
@@ -105,7 +107,7 @@ function LinkSkills() {
         <p><strong>[Xenon]</strong></p>
         <SingleSkill skillData={linkSkills.xenon}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="nova">Nova</h2>
         <hr/>
         <p><strong>[Angelic Buster]</strong></p>
@@ -119,7 +121,7 @@ function LinkSkills() {
         <p><strong>[Kain] </strong></p>
         <SingleSkill skillData={linkSkills.kain}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="sengoku">Sengoku</h2>
         <hr/>
         <p><strong>[Hayato] </strong></p>
@@ -128,7 +130,7 @@ function LinkSkills() {
         <p><strong>[Kanna] </strong></p>
         <SingleSkill skillData={linkSkills.kanna}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="flora">Flora</h2>
         <hr/>
         <p><strong>[Ark] </strong></p>
@@ -140,7 +142,7 @@ function LinkSkills() {
         <p><strong>[Adele] </strong></p>
         <SingleSkill skillData={linkSkills.adele}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="anima">Anima</h2>
         <hr/>
         <p><strong>[Hoyoung]</strong></p>
@@ -149,7 +151,7 @@ function LinkSkills() {
         <p><strong>[Lara]</strong></p>
         <SingleSkill skillData={linkSkills.lara}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="other">Other</h2>
         <hr/>
         <p><strong>[Beast Tamer] </strong></p>
@@ -161,7 +163,8 @@ function LinkSkills() {
         <p><strong>[Zero] </strong></p>
         <SingleSkill skillData={linkSkills.zero}/>
         <hr/>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+        <AdInArticle/>
         <h2 id="notable">Notable Link Skills:</h2>
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img width="32" height="32" src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>
@@ -257,7 +260,7 @@ function LinkSkills() {
           <li><img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> <strong>[Beast Tamer] </strong>- Up to 10%</li>
           <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> <strong>[Phantom] </strong>- Up to 20%</li>
         </ul>
-        <div><Link smooth href="#top" scroll>Go to top</Link></div>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="builds">Examples of Link Skill Builds:</h2>
         <h3>Training:</h3>
         <p><img src="/class-icons/link-skills/combo-kill-blessing.png" alt="Skill Combo Kill Blessing"/> <img src="/class-icons/link-skills/solus.png" alt="Skill Solus"/> <img src="/class-icons/link-skills/unfair-advantage.png" alt="Skill Unfair Advantage"/> <img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage"/> <img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence"/> <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing"/> <img src="/class-icons/link-skills/bravado.png" alt="Skill Bravado"/> <img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing"/> <img src="/class-icons/link-skills/elementalism.png" alt="Skill Elementalism"/> <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)"/></p>
@@ -282,6 +285,7 @@ function LinkSkills() {
         <p><a href="https://www.youtube.com/watch?v=zT1jX_tnQjM">https://www.youtube.com/watch?v=zT1jX_tnQjM</a></p>
         <h4>Credits:</h4>
         <p><strong>Skill Icons + Info</strong>: MapleWiki</p>
+        <AdOutArticle/>
       </ContentPage>
     )
 }

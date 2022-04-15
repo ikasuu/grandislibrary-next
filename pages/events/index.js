@@ -5,6 +5,7 @@ import { HeaderImageUrl } from '../../special/SiteValues';
 import HeaderImage from '../../components/HeaderImage';
 import { events } from '../../special/SiteContent';
 import * as Page from '../../components/Page';
+import AdNavigation from '../../components/Ads';
 
 /*
     Events page
@@ -25,6 +26,7 @@ function Events() {
             <Page.CardContainer content={events.item} type="events"/>
             <Page.Subtitle>Update Related</Page.Subtitle>
             <Page.CardContainer content={events.update} type="events"/>
+            <AdNavigation/>
         </div>
     );
 }

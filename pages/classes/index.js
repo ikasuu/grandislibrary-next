@@ -5,6 +5,7 @@ import { HeaderImageUrl, classes } from '../../special/SiteValues';
 import HeaderImage from '../../components/HeaderImage';
 import { ClassGroupContainer } from '../../components/ClassSwipers';
 import * as Page from '../../components/Page';
+import AdNavigation from '../../components/Ads';
 
 /*
     Classes page for navigating into each Class Overview
@@ -39,6 +40,7 @@ function Classes() {
                 <Page.Subtitle>Other</Page.Subtitle>
                 <Page.Caption>Classes here only share Cash Shop Inventories with their own class - they do not share with each other</Page.Caption>
                 <ClassGroupContainer classes={classes.other} classGroup="other"/>
+                <AdNavigation/>
             </div>
         </div>
     );

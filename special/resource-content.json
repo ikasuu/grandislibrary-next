@@ -133,37 +133,37 @@
     "links": [
         {
             "title": "Maple Guides",
-            "icon": "https://nxcache.nexon.net/maplestory/assets-new/img/fpo_article_author_avatar2.jpg",
+            "icon": "/images/resources/mapleguide.png",
             "url": "https://maplestory.nexon.net/news/59803/maple-guides"
         },
         {
             "title": "MapleWiki",
-            "icon": "https://gallery.kissclipart.com/20180901/fsq/kissclipart-maplestory-leaf-clipart-maplestory-2-maplestory-ad-163a69918b9d1300.jpg",
+            "icon": "/images/resources/maplewiki.png",
             "url": "https://maplestory.fandom.com/"
         },
         {
             "title": "StrategyWiki",
-            "icon": "https://lh3.googleusercontent.com/-NopR45Q35B1muTrGbbboA_h3Nbx005TUSr46TN0T-CgtA4KvdZBmfpcUcLDvD-65Q",
+            "icon": "/images/resources/strategywiki.png",
             "url": "https://strategywiki.org/wiki/MapleStory"
         },
         {
             "title": "OrangeMushroom Blog",
-            "icon": "https://maplestory.io/api/GMS/210.1.1/mob/100004/render/stand",
+            "icon": "/images/resources/orangemushroom.png",
             "url": "https://orangemushroom.net/"
         },
         {
             "title": "MasteringGaming MapleStory Calculators",
-            "icon": "https://yt3.ggpht.com/a/AATXAJzF1Iw9qWvk2RORRCTBTm-JJM2xw6e010kfgg=s100-c-k-c0xffffffff-no-rj-mo",
+            "icon": "/images/resources/masteringgaming.png",
             "url": "http://tiny.cc/maplestorycalculators"
         },
         {
             "title": "SuckHard's MapleStory Calculators",
-            "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "icon": "/images/resources/github.png",
             "url": "https://brendonmay.github.io/"
         },
         {
             "title": "Xenogent's Legion Solver",
-            "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "icon": "/images/resources/github.png",
             "url": "https://xenogents.github.io/LegionSolver/"
         },
         {
@@ -173,150 +173,135 @@
         },
         {
             "title": "Maplestory.wiki Database",
-            "icon": "https://maplestory.wiki/img/kino.2ccbbc5c.png",
+            "icon": "/images/resources/maplestorywiki.png",
             "url": "https://maplestory.wiki/"
         },
         {
             "title": "Maple Editors Graphic Database",
-            "icon": "https://maplestory.io/api/GMS/215/item/5000042/icon",
+            "icon": "/images/resources/mapleeditors.png",
             "url": "https://mapleeditors.com/"
         },
         {
             "title": "MapleStory.io API",
-            "icon": "https://maplestory.io/api/GMS/219/map/109050000/icon",
+            "icon": "/images/resources/maplestoryio.png",
             "url": "https://maplestory.io/"
         },
         {
             "title": "Pink Bean Multi-purpose Discord Bot",
-            "icon": "https://camo.githubusercontent.com/84643d4b0fbfe63e2431927b5c69190e0e1ea77e/68747470733a2f2f7777772e70696e6b6265616e2e78797a2f696d6167652f70696e6b6265616e2e706e67",
+            "icon": "/images/resources/pinkbeanbot.png",
             "url": "https://www.pinkbean.xyz/"
         },
         {
             "title": "Dexless",
-            "icon": "https://i.imgur.com/bs68ezR.png",
+            "icon": "/images/resources/dexless.png",
             "url": "https://dexless.com/"
         },
         {
             "title": "Official MapleStory Discord",
-            "icon": "https://image.flaticon.com/icons/svg/2111/2111370.svg",
+            "icon": "/images/resources/discord.png",
             "url": "https://discordapp.com/invite/maplestory"
         },
         {
             "title": "Maple Central Discord",
-            "icon": "https://image.flaticon.com/icons/svg/2111/2111370.svg",
+            "icon": "/images/resources/discord.png",
             "url": "https://discordapp.com/invite/maplestory"
         },
         {
             "title": "r/MapleStory Discord",
-            "icon": "https://image.flaticon.com/icons/svg/2111/2111370.svg",
+            "icon": "/images/resources/discord.png",
             "url": "https://discordapp.com/invite/ms"
         },
         {
             "title": "r/MapleStory",
-            "icon": "https://www.redditinc.com/assets/images/site/reddit-logo.png",
+            "icon": "/images/resources/reddit.png",
             "url": "https://www.reddit.com/r/Maplestory/"
         }
     ],
     "creators": [
         {
-            "title": "DaBoki",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwvqsOt-GZCAyk1kSgbkb7SEcGO4tOkGFGCIw=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/TheDaBoki"
+            "title": "AxeChris",
+            "icon": "/images/resources/axechris.png",
+            "url": "https://www.youtube.com/c/AxeChris"
         },
         {
             "title": "Coppersan",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwPs2JFiT0e81l3WhE1HE28AmVYK3-Umeu5rQ=s100-c-k-c0xffffffff-no-rj-mo",
+            "icon": "/images/resources/coppersan.png",
             "url": "https://www.youtube.com/user/coppersan"
         },
         {
-            "title": "x3TheAran59",
-            "icon": "https://yt3.ggpht.com/a/AATXAJxd2wpNj99ZPltYSjffq_n9Q6HoD6f0qc2m7A=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/x3TheAran59"
-        },
-        {
-            "title": "KyoWantsCute",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwi4OG4mD8Q_vhDILpYomkB4e55vViSxGdMrg=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/KyoWantsCute"
-        },
-        {
-            "title": "iSlingGunz",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwc7a9vhrIp1bosreALXDYct5Jt0QDfpgesPg=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/iSIingGunz"
-        },
-        {
-            "title": "MasteringGaming",
-            "icon": "https://yt3.ggpht.com/a/AATXAJzF1Iw9qWvk2RORRCTBTm-JJM2xw6e010kfgg=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/MasteringGaming"
-        },
-        {
-            "title": "SlipySlidy",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwtFpTIq7H7I3dGLcy1nsgu7qoEfjLg5AObDQ=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/SlipySlidy"
-        },
-        {
-            "title": "LeWaffles",
-            "icon": "https://yt3.ggpht.com/a/AATXAJzSfPXc1gxQD_XMiQt9Vpph0FBhmVemFp5aTA=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/channel/UC9tH0qIULT6x8ir1S8X5oSQ"
-        },
-        {
-            "title": "Jancy49",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwZfeyWxuynWnTiA4YmqshWasQJ2rR8TnRe1w=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/channel/UC7LKKBelbLcyqwVKHIQGfGg"
-        },
-        {
-            "title": "MisusingTV",
-            "icon": "https://yt3.ggpht.com/a/AATXAJxZEk3QIiCFyGrVGcQm8D5V1pNcYSnmUWzT4g=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.twitch.tv/misusingtv/"
-        },
-        {
-            "title": "Scardor",
-            "icon": "https://yt3.ggpht.com/a/AATXAJxVNp3Wi8tN_ApM5K2N18xDkQ-urxLHEB0Tkg=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.twitch.tv/scardor/"
-        },
-        {
-            "title": "pocketstream",
-            "icon": "https://yt3.ggpht.com/a/AATXAJxH3Pd0WezUUYDBb9YKRtjgqGZTrIppbl2YJw=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.twitch.tv/pocketstream"
-        },
-        {
-            "title": "루시페린YouTube",
-            "icon": "https://yt3.ggpht.com/a/AATXAJxO7XE5l5kUuWfZkuCkUAUQ8WQqApscGR7hpA=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/channel/UCPiWp6ECXwZ4PaupNoaqaZA"
-        },
-        {
-            "title": "PirateIzzy",
-            "icon": "https://yt3.ggpht.com/a/AATXAJzNeTANxqHmgcKtBtz9fK_A4IwL_zHMV0yN1A=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/channel/UC9B_9h7w4NFkN5Wewu9vY1w"
-        },
-        {
-            "title": "aLovingSoul",
-            "icon": "https://yt3.ggpht.com/a/AATXAJy-R9CEGvXCmv_5QXE_7Z_r8E6G-rgwX66w8A=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/PureImagination268"
-        },
-        {
-            "title": "Minastory미나",
-            "icon": "https://yt3.ggpht.com/ytc/AAUvwngP-r4LyNCkUnu4pFhh7Z6RFzZ5wwN5akz1izqXVVg=s88-c-k-c0x00ffffff-no-rj",
-            "url": "https://www.youtube.com/channel/UCMOv2SE_txWk3NbWlwKubNA"
-        },
-        {
-            "title": "TehCheeseMo",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwrV4_sAnAeDfsz6W78VkWuFPepyXaA99GA7Q=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/TehCheeseMo"
-        },
-        {
-            "title": "Sojiniee",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwdwj9l_sWBm0knMR4I1rtQYGDqAbNuMJQLBA=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/user/Kikiz0419"
+            "title": "DaBoki",
+            "icon": "/images/resources/daboki.png",
+            "url": "https://www.youtube.com/user/TheDaBoki"
         },
         {
             "title": "Danxier",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwWKfMGpQYrJ8u7kZmr6fKN7pD-Q4C3e7g56A=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/channel/UCA-erOe-JiQXDLlQjLQZkog"
+            "icon": "/images/resources/danxier.png",
+            "url": "https://www.youtube.com/c/Danxier"
         },
         {
-            "title": "Damagefury",
-            "icon": "https://yt3.ggpht.com/a/AATXAJwPGZQB92XDD4x__kQTU-QNMcMLyOPQxZMVnw=s100-c-k-c0xffffffff-no-rj-mo",
-            "url": "https://www.youtube.com/channel/UCaBot5Ss4af00sJG9rPSg7A"
+            "title": "iSlingGunz",
+            "icon": "/images/resources/islinggunz.png",
+            "url": "https://www.youtube.com/user/iSIingGunz"
+        },
+        {
+            "title": "Jancy49",
+            "icon": "/images/resources/jancy49.png",
+            "url": "https://www.youtube.com/channel/UC7LKKBelbLcyqwVKHIQGfGg"
+        },
+        {
+            "title": "KyoWantsCute",
+            "icon": "/images/resources/kyowantscute.png",
+            "url": "https://www.youtube.com/user/KyoWantsCute"
+        },
+        {
+            "title": "LeWaffles",
+            "icon": "/images/resources/lewaffles.png",
+            "url": "https://www.youtube.com/channel/UC9tH0qIULT6x8ir1S8X5oSQ"
+        },
+        {
+            "title": "MasteringGaming",
+            "icon": "/images/resources/masteringgaming.png",
+            "url": "https://www.youtube.com/user/MasteringGaming"
+        },
+        {
+            "title": "Minastory미나",
+            "icon": "/images/resources/minastory.png",
+            "url": "https://www.youtube.com/channel/UCMOv2SE_txWk3NbWlwKubNA"
+        },
+        {
+            "title": "MisusingTV",
+            "icon": "/images/resources/misusingtv.png",
+            "url": "https://www.twitch.tv/misusingtv/"
+        },
+        {
+            "title": "PirateIzzy",
+            "icon": "/images/resources/pirateizzy.png",
+            "url": "https://www.youtube.com/channel/UC9B_9h7w4NFkN5Wewu9vY1w"
+        },
+        {
+            "title": "Scardor",
+            "icon": "/images/resources/scardor.png",
+            "url": "https://www.twitch.tv/scardor/"
+        },
+        {
+            "title": "SlipySlidy",
+            "icon": "/images/resources/slipyslidy.png",
+            "url": "https://www.youtube.com/user/SlipySlidy"
+        },
+        {
+            "title": "루시페린YouTube",
+            "icon": "/images/resources/루시페린.png",
+            "url": "https://www.youtube.com/c/루시페린YouTube"
+        },
+        {
+            "title": "Sojiniee",
+            "icon": "/images/resources/sojiniee.png",
+            "url": "https://www.youtube.com/c/Sojiniee"
+        },
+        {
+            "title": "x3TheAran59",
+            "icon": "/images/resources/x3thearan59.png",
+            "url": "https://www.youtube.com/user/x3TheAran59"
         }
     ]
 }
