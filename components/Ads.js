@@ -21,7 +21,7 @@ const AdWrapper = styled.div`
 
 const BannerAdWrapper = styled.div`
     margin: 1.5rem 0 1.5rem 0;
-    max-height: 2.5rem;
+    max-height: 1rem;
 `;
 
 //AdNavigation - ad for the navigation pages like homepage, content, events, resources
