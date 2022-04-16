@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Container } from "react-bootstrap";
 import styled from 'styled-components';
 
 /*
@@ -15,7 +16,7 @@ In this file you will find:
 */
 
 //AdWrapper - component to wrap around Ad unit to add margin spacing
-const AdWrapper = styled.div`
+const AdWrapper = styled(Container)`
     margin: 2.5rem 0 2rem 0;
 `;
 
@@ -33,7 +34,7 @@ export const AdNavigation = () => {
     <AdWrapper>
       <ins
         className="adsbygoogle"
-        style={{display: 'block', padding: '0 3rem 0 3rem'}}
+        style={{display: 'block'}}
         data-ad-client="ca-pub-2213677142380749"
         data-ad-slot="1029974048"
         data-ad-format="horizontal"
