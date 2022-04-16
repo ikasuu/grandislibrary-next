@@ -17,6 +17,7 @@ In this file you will find:
 //AdWrapper - component to wrap around Ad unit to add margin spacing
 const AdWrapper = styled.ins`
     margin: 2.5rem 0 2rem 0;
+    padding: 0rem 1.5rem 0 1.5rem;
 `;
 
 //AdNavigation - ad for the navigation pages like homepage, content, events, resources
