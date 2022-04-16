@@ -16,7 +16,7 @@ In this file you will find:
 
 //AdWrapper - component to wrap around Ad unit to add margin spacing
 const AdWrapper = styled.div`
-    margin: 2.5rem 0 2rem 0;
+    margin: 2.5rem 0.5rem 2rem 0.5rem;
 `;
 
 //AdNavigation - ad for the navigation pages like homepage, content, events, resources
@@ -33,11 +33,11 @@ export const AdNavigation = () => {
     <AdWrapper>
       <ins
         className="adsbygoogle"
-        style={{display: 'block', width: '100%'}}
+        style={{display: 'block', minWidth: '400px', maxWidth: '970px', width: '100%', height: '90px'}}
         data-ad-client="ca-pub-2213677142380749"
         data-ad-slot="1029974048"
-        data-ad-format="horizontal"
-        data-full-width-responsive="false"
+        // data-ad-format="horizontal"
+        // data-full-width-responsive="true"
       />
     </AdWrapper>
   );
