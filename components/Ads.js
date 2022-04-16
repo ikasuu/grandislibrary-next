@@ -33,10 +33,10 @@ export const AdNavigation = () => {
     <AdWrapper>
       <ins
         className="adsbygoogle"
-        style={{display: 'inline-block', width: '728px', height: '90px'}}
+        style={{display: 'block'}}
         data-ad-client="ca-pub-2213677142380749"
         data-ad-slot="1029974048"
-        data-ad-format="auto"
+        data-ad-format="horizontal"
         data-full-width-responsive="true"
       />
     </AdWrapper>
