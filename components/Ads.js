@@ -57,11 +57,12 @@ export const AdClassOverview = () => {
   return (
     <AdWrapper>
       <ins className="adsbygoogle"
-      style={{display: 'inline-block', width: '728px', height: '90px'}}
+      style={{display: 'block'}}
       data-ad-client="ca-pub-2213677142380749"
       data-ad-slot="5546985319"
-      data-ad-format="auto"
-      data-full-width-responsive="true"/>
+      data-ad-format="horizontal"
+      data-full-width-responsive="false"
+      />
     </AdWrapper>
   );
 };
@@ -79,11 +80,12 @@ export const AdOutArticle = () => {
   return (
     <AdWrapper>
       <ins className="adsbygoogle"
-      style={{display: 'inline-block', width: '728px', height: '90px'}}
+      style={{display: 'block'}}
       data-ad-client="ca-pub-2213677142380749"
       data-ad-slot="9117530820"
-      data-ad-format="auto"
-      data-full-width-responsive="true"/>
+      data-ad-format="horizontal"
+      data-full-width-responsive="false"
+      />
     </AdWrapper>
   );
 };
