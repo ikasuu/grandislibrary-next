@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function ContentGuide() {
  return (
@@ -13,7 +13,6 @@ function ContentGuide() {
         <title>Level Content Guide | Grandis Library</title>
         <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
     </Head>
-    {/* <AdOutArticle/> */}
     <ContentTitle>Level Content Guide</ContentTitle>
     <h3 id="top">Quick Jumps</h3>
     <ul> <li><Link smooth href="#1">Lv. 1 - 29</Link></li> <li><Link smooth href="#30">Lv. 30-49</Link></li> <li><Link smooth href="#50">Lv. 50</Link></li> <li><Link smooth href="#60">Lv. 60</Link></li> <li><Link smooth href="#70">Lv. 70</Link></li> <li><Link smooth href="#80">Lv. 80</Link></li> <li><Link smooth href="#90">Lv. 90</Link></li> <li><Link smooth href="#100">Lv. 100</Link></li> <li><Link smooth href="#110">Lv. 110</Link></li> <li><Link smooth href="#120">Lv. 120</Link></li> <li><Link smooth href="#130">Lv. 130</Link></li> <li><Link smooth href="#140">Lv. 140</Link></li> <li><Link smooth href="#150">Lv. 150</Link></li> <li><Link smooth href="#160">Lv. 160</Link></li> <li><Link smooth href="#170">Lv. 170</Link></li> <li><Link smooth href="#180">Lv. 180</Link></li> <li><Link smooth href="#190">Lv. 190</Link></li> <li><Link smooth href="#200">Lv. 200</Link></li> <li><Link smooth href="#210">Lv. 210</Link></li> <li><Link smooth href="#220">Lv. 220</Link></li> <li><Link smooth href="#230">Lv. 230</Link></li> <li><Link smooth href="#240">Lv. 240</Link></li> <li><Link smooth href="#250">Lv. 250+</Link></li>
@@ -521,7 +520,7 @@ function ContentGuide() {
     <ArticleHeaderTwo>Credits:</ArticleHeaderTwo>
     <p > <a href="https://www.youtube.com/watch?v=OUXyJ-J7P0w&amp;t">https://www.youtube.com/watch?v=OUXyJ-J7P0w&amp;t</a><br/> <a href="https://www.youtube.com/watch?v=_3zL6TAOSBY&amp;t">https://www.youtube.com/watch?v=_3zL6TAOSBY&amp;t</a><br/> <a href="https://www.youtube.com/watch?v=r4P89p2jfJY&amp;t=5664s">https://www.youtube.com/watch?v=r4P89p2jfJY&amp;t</a><br/> <a href="https://maplestory.fandom.com/wiki/MapleStory">https://maplestory.fandom.com/wiki/MapleStory</a><br/> <a href="https://maplestory.wiki/">https://maplestory.wiki/</a>
     </p>
-    {/* <AdOutArticle/> */}
+    <AdOutArticle/>
   </ContentPage>
  );
 }

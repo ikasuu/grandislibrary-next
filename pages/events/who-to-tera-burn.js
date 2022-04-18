@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function WhoToTeraBurn() {
     return (
@@ -12,7 +12,6 @@ function WhoToTeraBurn() {
                 <title>Who to Tera Burn | Grandis Library</title>
                 <meta content={"A guide to help you choose a character to Tera Burn based on good Link Skills and Legion bonuses"} name="description"/>
             </Head>
-            {/* <AdOutArticle/> */}
             <ContentTitle>Who To Tera Burn</ContentTitle>
             <p>Modified from shrimpstation's: <a rel="noreferrer noopener" href="https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/" target="_blank">https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/</a></p>
             <h2>What makes a character good to burn?</h2>
@@ -193,7 +192,7 @@ function WhoToTeraBurn() {
             <hr/>
             <h3>Credits:</h3>
             <p>shrimpstation</p>
-            {/* <AdOutArticle/> */}
+            <AdOutArticle/>
         </EventPage>
     )
 }

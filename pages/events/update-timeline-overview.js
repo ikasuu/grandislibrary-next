@@ -6,7 +6,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, TabLink, ArticleHeaderTwo } from '../../components/Page';
 import Video from '../../components/repository/Video';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function UpdateTimelineOverview() {
     return (
@@ -15,7 +15,6 @@ function UpdateTimelineOverview() {
                 <title>Update Timeline Overview | Grandis Library</title>
                 <meta content={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"} name="description"/>
             </Head>
-            {/* <AdOutArticle/> */}
             <ContentTitle>Update Timeline Overview</ContentTitle>
             <ul>
                 <li><Link href="#bang">Big Bang</Link></li>
@@ -333,7 +332,7 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="festival-of-foodies">Festival of Foodies Update - Feb 2022</ArticleHeaderTwo>
             <FestivalOfFoodies/>
-            {/* <AdOutArticle/> */}
+            <AdOutArticle/>
         </EventPage>
     )
 }

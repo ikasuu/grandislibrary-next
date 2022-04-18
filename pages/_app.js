@@ -33,7 +33,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Grandis Library</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-        <meta name="description" property="og:description" content="A collection of MapleStory guides, resources and information." key="desc"/>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2213677142380749" crossOrigin="anonymous"/>
       </Head>
       <ThemeProvider theme={theme}>

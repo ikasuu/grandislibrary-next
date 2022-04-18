@@ -26,7 +26,7 @@ function Content() {
             <Page.CardContainer content={content.class} type="content"/>
             <Page.Subtitle>Equipment Related</Page.Subtitle>
             <Page.CardContainer content={content.equipment} type="content"/>
-            {/* <AdNavigation/> */}
+            <AdNavigation/>
         </div>
     );
 }

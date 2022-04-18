@@ -9,6 +9,7 @@ In this file you will find:
 -AdClassOverview - ad used in the class overviews
 -AdOutArticle - ad used at the top & bottom of articles
 -AdInArticle - ad used within articles such as Content and Events articles
+-dInArticleBanner - banner ad used within articles such as Content and Events articles
 */
 
 /*
@@ -112,7 +113,7 @@ export const AdInArticle = () => {
   );
 };
 
-//AdInArticle - banner ad used within articles such as Content and Events articles
+//AdInArticleBanner - banner ad used within articles such as Content and Events articles
 export const AdInArticleBanner = () => {
   useEffect(() => {
     try {

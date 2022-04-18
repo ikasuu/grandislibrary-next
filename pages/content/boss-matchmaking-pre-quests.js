@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function BossMatchmaking() {
     return (
@@ -13,7 +13,6 @@ function BossMatchmaking() {
             <title>Boss Pre-Quests | Grandis Library</title>
             <meta content={"An explanation on how to unlock access to each of the bosses in the Boss Matchmaking System"} name="description"/>
         </Head>
-        {/* <AdOutArticle/> */}
         <ContentTitle>Boss Pre-Quests</ContentTitle>
         <p><img className="repository-image" src="/images/info/boss-queue.png" alt="Boss Queue"/></p>
         <p>As you level up even more, you will gain access to more and more bosses. To easily get to some of these bosses (but you must complete their pre-quests first!) , you can use the Boss Matchmaking system! You can find it by pressing "F" or "P" by default to open the Friend List or Party List and switching to "BOSS". Whenever you are in a party with another person, you will instantly be queued and teleported to a boss when you accept the notification that pops up. Occasionally you may get an extra party member (but usually they'll leave on their own) but it is a quick way to get to bosses</p>
@@ -572,7 +571,7 @@ function BossMatchmaking() {
             <li><strong><strong>Location</strong>: </strong>Accessible from Ninja Castle</li>
           </ul>
         </div>
-        {/* <AdOutArticle/> */}
+        <AdOutArticle/>
       </ContentPage>
     )
 }

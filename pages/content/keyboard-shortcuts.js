@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function KeyboardShortcuts() {
     return (
@@ -13,7 +13,6 @@ function KeyboardShortcuts() {
                 <title>Keyboard Shortcuts | Grandis Library</title>
                 <meta content={"An explanation on the all the different UIs accessible from the Keyboard Shortcuts"} name="description"/>
             </Head>
-            {/* <AdOutArticle/> */}
             <ContentTitle>Keyboard Shortcuts</ContentTitle>
             <h3 id="top">Quick Jumps</h3>
             <ul>
@@ -87,7 +86,7 @@ function KeyboardShortcuts() {
             {/* <AdOutArticle/> */}
             <Familiar/>
             <Emoticon/>
-            {/* <AdOutArticle/> */}
+            <AdOutArticle/>
         </ContentPage>
     )
 }

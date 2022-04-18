@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function UpgradeEquipment() {
     return (
@@ -13,7 +13,6 @@ function UpgradeEquipment() {
             <title>Upgrading &amp; Enhancing Equipment | Grandis Library</title>
             <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
           </Head>
-          {/* <AdOutArticle/> */}
           <ContentTitle>Upgrading &amp; Enhancing Equipment</ContentTitle>
           <p><img className="repository-image" src="/images/info/equipment-tooltip.png" alt="Equipment Diagram"/></p>
           <p>Bonus Stats appear in <span style={{color: '#339966'}}>green</span> font while stats from upgrading appear in <span style={{color: '#3366ff'}}>blue</span> [Refer to 11]. The color of an item's name indicates how many stats above or below average an item is [Refer to 02]</p>
@@ -387,7 +386,7 @@ function UpgradeEquipment() {
                   https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p
               </a></p>
           </div>
-          {/* <AdOutArticle/> */}
+          <AdOutArticle/>
       </ContentPage>
 
     )

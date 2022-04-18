@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function MapleRelay() {
     return (
@@ -12,7 +12,6 @@ function MapleRelay() {
                 <title>Maple Relay | Grandis Library</title>
                 <meta content={"Maple Relay is an event where you receive rewards for simply staying online. Obtain gifts daily and at each milestone"} name="description"/>
             </Head>
-            {/* <AdOutArticle/> */}
             <ContentTitle>Maple Relay</ContentTitle>
             <h2>What is Maple Relay?</h2>
             <p>Maple Relay is an event where you receive rewards for simply staying online. During the event, you will receive a reward daily for staying on 30 mins, 60 mins, 90 mins, and 180 mins. Each time you claim the daily reward, you will add a point to the "Total Claimed" counter. As you reach 12, 32, 56, and 80 reward claims, you will receive a special reward. This means that each day you can obtain a total of 4 reward claims</p>
@@ -35,7 +34,7 @@ function MapleRelay() {
             <h2>Rewards</h2>
             <p>Rewards may vary between each Maple Relay event but primarily you will get <img src="/images/items/reward-points.png" alt="Reward Points"/> <a rel="noreferrer noopener" href="https://support-maplestory.nexon.net/hc/en-us/articles/204088489-What-is-the-Maple-Rewards-System-" target="_blank">Reward Points</a> which can be used in the Maple Rewards Shop. Occasionally, <img src="https://maplestory.io/api/GMS/214/item/2431738/icon" alt=""/> <a rel="noreferrer noopener" href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank">Maple Points</a> are also rewarded which function just like NX and do not expire</p>
             <p>The "Total Claimed" rewards differ each Maple Relay but normally the 80 total claims reward is a <img src="https://maplestory.io/api/GMS/214/item/2630814/icon" alt=""/> Relay Master Box which you can choose to either obtain an <img src="https://maplestory.io/api/GMS/214/item/1242116/icon" alt=""/><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2436283" target="_blank">Absolab Weapon</a> for your class or <img src="https://maplestory.io/api/GMS/214/item/1122150/icon" alt=""/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2630705" target="_blank">Dominator Pendant</a>. Both items are special in which they have fixed stats that cannot be changed except for their Bonus Stats which can be Rebirth Flamed</p>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <h3>Notes</h3>
             <hr/>
             <p>The Absolab weapon from Maple Relay cannot be exchanged by Zero classes</p>
@@ -69,7 +68,7 @@ function MapleRelay() {
             <p>For more info, check out:</p> 
             <p><a href="http://maplestory.nexon.net/news/59255/v-215-rise-surge-of-power-patch-notes#relay">http://maplestory.nexon.net/news/59255/v-215-rise-surge-of-power-patch-notes#relay</a></p>
             <p><strong>Information from</strong>: MapleStory Official Website</p>
-            {/* <AdOutArticle/> */}
+            <AdOutArticle/>
         </EventPage>
     )
 }

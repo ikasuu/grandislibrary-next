@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import Video from '../../components/repository/Video';
-
+import { AdOutArticle } from '../../components/Ads';
 
 function SynergyRing() {
     return (
@@ -32,6 +32,7 @@ function SynergyRing() {
             <h3>Credits:</h3>
             <p><strong>Item Image from:</strong></p>
             <p><a href="https://maplestory.wiki/GMS/210.1.1/item/1114302" target="_blank" rel="noopener noreferrer">https://maplestory.wiki/GMS/210.1.1/item/1114302</a></p>
+            <AdOutArticle/>
         </EventPage>
     )
 }

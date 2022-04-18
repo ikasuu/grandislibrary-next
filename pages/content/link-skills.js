@@ -6,7 +6,7 @@ import { linkSkills } from '../../special/SiteValues';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function LinkSkills() {
     return (
@@ -15,7 +15,6 @@ function LinkSkills() {
             <title>Link Skill | Grandis Library</title>
             <meta content={"An explanation of Link Skills and a list of all Link Skills and their effects"} name="description"/>
         </Head>
-        {/* <AdOutArticle/> */}
         <ContentTitle>Link Skills</ContentTitle>
         <p><img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager UI"/></p>
         <p>Link Skills are unique to each class and can be given to your other characters on the same world. Link Skills mostly come as passives but there are a few Active Link Skills too</p>
@@ -285,7 +284,7 @@ function LinkSkills() {
         <p><a href="https://www.youtube.com/watch?v=zT1jX_tnQjM">https://www.youtube.com/watch?v=zT1jX_tnQjM</a></p>
         <h4>Credits:</h4>
         <p><strong>Skill Icons + Info</strong>: MapleWiki</p>
-        {/* <AdOutArticle/> */}
+        <AdOutArticle/>
       </ContentPage>
     )
 }

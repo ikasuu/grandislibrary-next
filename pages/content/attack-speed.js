@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function AttackSpeed() {
     return (
@@ -12,7 +12,6 @@ function AttackSpeed() {
                 <title>Attack Speed | Grandis Library</title>
                 <meta content={"An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"} name="description"/>
             </Head>
-            {/* <AdOutArticle/> */}
             <ContentTitle>Attack Speed</ContentTitle>
             <p>Modified from: <a href="http://www.basilmarket.com/General-Attack-Speed-101-Wiki-303" target="_blank" rel="noreferrer noopener">http://www.basilmarket.com/General-Attack-Speed-101-Wiki-303</a></p>
             <h2>Attack Speed of your Weapon</h2>
@@ -157,7 +156,7 @@ function AttackSpeed() {
             <h3>Example:</h3>
             <p>An Aran with the <img src="/images/equipment/eviscerator.png" alt="Eqp Eviscerator"/> Eviscerator polearm, which is Slower (9). The Aran gets +2 AS from their <img src="/class-icons/heroes/aran/polearm-booster.png" alt="Skill Polearm Booster"/> Weapon Booster skill, +1 AS from <img src="/class-icons/heroes/aran/polearm-mastery.png" alt="Skill Polearm Mastery"/> Polearm Mastery skill, +1 AS from <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion, +1 from Inner Ability, and +1 from <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion (for a total of +6 AS). Thus, their attack speed would be: Slower (9) - (+6 AS) = Fastest (3)</p>
             <p>Later, they find a Rune of Swiftness and uses it, granting them another +3 attack speed that can ignore the soft speed cap (for a total of +9 attack speed). Their final Attack Speed is Fastest (0)</p>
-            {/* <AdOutArticle/> */}
+            <AdOutArticle/>
         </ContentPage>
     );
 }

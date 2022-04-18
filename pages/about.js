@@ -6,7 +6,6 @@ import styled from 'styled-components';
 import HeaderImageUrl from '../special/SiteValues';
 import HeaderImage from '../components/HeaderImage';
 import { Subtitle, Title } from '../components/Page';
-import AdNavigation from '../components/Ads';
 
 /*
     About page
@@ -97,7 +96,6 @@ function About(){
                         <p>IGN - Ikasuu <BeraIcon src="/images/info/bera.png" alt="Bera Icon"/></p>
                     </RightWrapper>
                 </Row>
-                {/* <AdNavigation/> */}
             </Container>
         </div>
     );

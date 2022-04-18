@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import Video from '../../components/repository/Video';
-import { AdClassOverview, AdOutArticle, AdInArticleBanner } from '../../components/Ads';
+import { AdOutArticle } from '../../components/Ads';
 
 function ChaosRing() {
     return (
@@ -28,7 +28,6 @@ function ChaosRing() {
                     </ul>
                 </li>
             </ul>
-            <AdInArticleBanner/>
             <p><img src="https://i.imgur.com/vgZSBqw.png" alt="Chaos Ring UI"/></p>
             <ul>
                 <li>
@@ -46,7 +45,7 @@ function ChaosRing() {
             <h3>Credits:</h3>
             <p><strong>Item Image from:</strong></p>
             <p><a href="https://maplestory.wiki/GMS/210.1.1/item/1114305" target="_blank" rel="noopener noreferrer">https://maplestory.wiki/GMS/210.1.1/item/1114305</a></p>
-            <AdClassOverview/>
+            <AdOutArticle/>
         </EventPage>
     )
 }

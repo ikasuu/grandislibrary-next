@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function StatTerms() {
     return (
@@ -13,7 +13,6 @@ function StatTerms() {
          <title>Stat Terms | Grandis Library</title>
          <meta content={"An explanation of each stat in the Character Stat UI and other special stats such as EXP Rate"} name="description"/>
          </Head>
-         {/* <AdOutArticle/> */}
          <ContentTitle>Stat Terms</ContentTitle>
          <h2 id="top">Quick Move</h2>
          <ul>
@@ -161,7 +160,7 @@ function StatTerms() {
          <p>Stat Comparison Calculator: <a href="https://tiny.cc/maplestorycalculators" target="_blank" rel="noreferrer noopener">tiny.cc/maplestorycalculators</a></p>
          <h3>Credits:</h3>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formula" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formula</a></p>
-         {/* <AdOutArticle/> */}
+         <AdOutArticle/>
       </ContentPage>
     );
 }

@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function MaplehoodWatch() {
     return (
@@ -12,7 +12,6 @@ function MaplehoodWatch() {
                 <title>Maplehood Watch | Grandis Library</title>
                 <meta content={"An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"} name="description"/>
             </Head>
-            {/* <AdOutArticle/> */}
             <ContentTitle>Maplehood Watch</ContentTitle>
             <p>Maplehood Watch is an event where players can earn <span style={{color: '#ff0000'}}><strong>free cash items</strong></span>. The event lasts for <strong>two weeks</strong> and each week consists of a <strong>Beauty Day</strong>, <strong>Enhancement Day</strong> and <strong>Gachapon Day.</strong> Thus, you can earn the same rewards twice per event!</p>
             <p>To begin, accept the quest <strong>'[Maplehood Watch] Not in My Neighborhood'</strong> from the <strong>Star (Events) tab</strong> on the left side of the screen. This event is available to <strong>all characters Lv. 33 or higher</strong>, and to <strong>Zero characters who've completed Story Quest Chapter 2</strong></p>
@@ -81,7 +80,7 @@ function MaplehoodWatch() {
             <hr/>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: MapleStory Official Website</p>
-            {/* <AdOutArticle/> */}
+            <AdOutArticle/>
         </EventPage>
     )
 }

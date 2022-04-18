@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { AdInArticle, AdOutArticle } from '../../components/Ads';
+import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
 
 function ProgressionGuide() {
     return (
@@ -13,7 +13,6 @@ function ProgressionGuide() {
                 <title>Progression Guide | Grandis Library</title>
                 <meta content={"A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"} name="description"/>
             </Head>
-            {/* <AdOutArticle/> */}
             <ContentTitle>Progression Guide</ContentTitle>
             <p>For info on all the content in MapleStory, check out: <a href="https://www.grandislibrary.com/contents/level-content-guide" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/level-content-guide</a>
             </p>
@@ -2253,7 +2252,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            {/* <AdOutArticle/> */}
+            <AdOutArticle/>
         </ContentPage>
     );
 }

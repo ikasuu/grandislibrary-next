@@ -43,9 +43,7 @@ function Classes() {
                 <ClassGroupContainer classes={classes.other} classGroup="other"/>
                 
             </div>
-            {/* <Container> */}
-                {/* <AdNavigation/> */}
-            {/* </Container> */}
+            <AdNavigation/>
         </div>
     );
 }

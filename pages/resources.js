@@ -115,7 +115,6 @@ function Resources() {
                         </TableContainer>
                     </Tab>
                 </Tabs>
-                {/* <AdNavigation/> */}
                 <ResourceSubtitle className="faq">Frequently Asked Questions</ResourceSubtitle>
                 <FaqSearchWrapper><FaqSearch className="faq-search" type="text" placeholder="Search" onChange={event => setSearchTerm((event.target.value))}></FaqSearch></FaqSearchWrapper>
                 <FaqSwiper
@@ -140,7 +139,7 @@ function Resources() {
                         )
                     }
                 </FaqSwiper>
-                {/* <AdNavigation/> */}
+                <AdNavigation/>
             </Container>
         </div>
     );
