@@ -112,4 +112,27 @@ export const AdInArticle = () => {
   );
 };
 
+//AdInArticle - banner ad used within articles such as Content and Events articles
+export const AdInArticleBanner = () => {
+  useEffect(() => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
+  return (
+    <AdWrapper>
+      <ins className="adsbygoogle"
+      style={{display: 'block'}}
+      data-ad-client="ca-pub-2213677142380749"
+      data-ad-slot="1955751322"
+      data-ad-format="horizontal"
+      data-full-width-responsive="false"
+      />
+    </AdWrapper>
+  );
+};
+
 export default AdNavigation;
