@@ -53,37 +53,37 @@ function KeyboardShortcuts() {
             <QuestLog/>
             <WorldMap/>
             <Equipment/>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <FriendsPartyBoss/>
             <ItemPot/>
             <MapleGuide/>
             <Items/>
             <CharacterStat/>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <Guild/>
             <Whisper/>
             <Skill/>
             <Notifier/>
             <Medals/>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <MapleChat/>
             <Events/>
             <Professions/>
             <Minimap/>
             <CharInfo/>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <SoulWeapon/>
             <BattleAnalysis/>
             <EnhanceEquipment/>
             <MonsterCollection/>
             <Legion/>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <MapleNews/>
             <PictureMode/>
             <Mute/>
             <MapleRelay/>
             <MapleAchievement/>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <Familiar/>
             <Emoticon/>
             <AdOutArticle/>

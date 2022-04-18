@@ -55,7 +55,7 @@ function StatTerms() {
          <p>Some sources of these stats come from Leveling Up, %Stats from Potentials, Star Force + Scrolls (Spell Trace), Hyper Stats and Passive Skills</p>
          <p><strong>In general when you Level Up, you can use the Auto-Assign feature to allocate your AP</strong></p>
          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-         {/* <AdOutArticle/> */}
+         <AdInArticleBanner/>
          <h2 id="attack">Attack + Magic Attack</h2>
          <p>Attack is another important stat that your Damage scales from. Like AP stats, Attack is used in the calculation of Damage</p>
          <p>Some sources of these stats come from %Attack from Potentials, Star Force + Scrolls (Spell Trace), Hyper Stats, Passive Skills and Potion Buffs</p>
@@ -87,7 +87,7 @@ function StatTerms() {
          <p>A visualization of IED calculation is: <em>[Source 1 x Source 2 x Source 3 x ... x Source n]</em></p>
          <p>IED is irrelevant against normal enemies as most only have 10% PDR/MDR</p>
          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-         {/* <AdOutArticle/> */}
+         <AdInArticleBanner/>
          <h2 id="ignoreelement">Ignore Elemental Resistance + Elemental Resistance</h2>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Monster_Elemental_Resistance" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Monster_Elemental_Resistance</a></p>
          <p>Elemental Resistance is another stat like PDR/MDR which reduces your %Final Damage</p>
@@ -113,7 +113,7 @@ function StatTerms() {
          <p>A stat that determines the chance of resisting getting knocked back when hit by a monster. There are certain attacks and maps that can ignore Knockback Resistance and still push you back. As well, there are Super Knockbacks that pushes you back and leaves you briefly immobile</p>
          <p>There are certain classes and skills that have Super Knockback Resistance that can prevent being knockbacked by all sources. An example of this is <img src="/class-icons/flora/ark/enhanced-specter-state.png" alt="Skill Enhanced Specter State"/> Enhanced Specter State and <img src="/class-icons/sengoku/hayato/sudden-strike.png" alt="Skill Sudden Strike (Hayato)"/> Sudden Strike</p>
          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-         {/* <AdOutArticle/> */}
+         <AdInArticleBanner/>
          <h2 id="def">Defense</h2>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Defense" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Defense</a></p>
          <p>A stat used to calculate the damage you take from enemies. However, this stat is not as important past Lv. 200 since most monsters in the Arcane River will deal 1 HP damage to you with enough Arcane Force. Additionally, most bosses deal %Max HP damage instead which ignores the DEF stat</p>
@@ -137,7 +137,7 @@ function StatTerms() {
          <p>Arcane Power maps have a minimum required amount of Arcane Power to deal 100% Damage to enemies in the map. Higher amounts of Arcane Power allows you to deal increased damage up to 50% more</p>
          <p>From Arcane Symbols, you can have a maximum of 1320 AF and 13.2k Main Stat for most classes. There is also a Hyper Stat that increases your Arcane Power as well</p>
          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-         {/* <AdOutArticle/> */}
+         <AdInArticleBanner/>
          <h2 id="item">Item Drop Rate</h2>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Drop_Rate_Stacking" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Drop_Rate_Stacking</a></p>
          <p>A special stat that increases the drop rate of items. However, there are some items that are affected less than others or even not affected at all from Drop Rate increases</p>

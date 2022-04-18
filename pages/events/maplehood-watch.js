@@ -51,7 +51,7 @@ function MaplehoodWatch() {
             <h3>Upon completion:</h3>
             <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on non-Reboot worlds)</p>
             <p><img src="https://i.imgur.com/s4FQSL6.png" width="32" height="32" alt=""/> Receive one <img src="/images/items/red-cube.png" alt="Cash Red Cube"/> [Red Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Reboot world only)</p>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <h2>Gachapon Day</h2>
             <ul>
                 <li><strong>This can be completed 3 times per character per day</strong>. Log in and accept the quest <strong>‘[Maplehood Watch] Gachapon Giveaway’</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>

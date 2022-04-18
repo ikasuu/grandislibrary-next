@@ -264,7 +264,7 @@ function UpgradeEquipment() {
             <p><strong>[Star Force Maps]</strong>: There are special training maps that will require you to have a certain amount of Star Force to hunt efficiently on a map. These maps feature monsters with greater health but give much more EXP</p>
             <p>Star Force also contributes to the amount of damage your Legion Character does on the Legion Board</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <ArticleHeaderTwo id="hammer">Transfer Hammer</ArticleHeaderTwo>
             <hr/>
             <p><img className="repository-image" src="https://i.imgur.com/fqoJwOA.png" alt="Transfer Hammer UI"/></p>

@@ -131,7 +131,7 @@ function WhoToTeraBurn() {
                 </li>
                 <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> Phantom - +20% Crit Rate</li>
             </ul>
-            {/* <AdOutArticle/> */}
+            <AdInArticleBanner/>
             <h3>Good Legion Bonuses + Lv. 2 Link Skill that may be hard to level:</h3>
             <ul>
                 <li>

@@ -163,7 +163,7 @@ function LinkSkills() {
         <SingleSkill skillData={linkSkills.zero}/>
         <hr/>
         {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-        {/* <AdOutArticle/> */}
+        <AdInArticleBanner/>
         <h2 id="notable">Notable Link Skills:</h2>
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img width="32" height="32" src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>
