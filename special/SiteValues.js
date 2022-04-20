@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 230.3; 
-export const versionName = "Festival of Foodies Update"
+export const version = 231; 
+export const versionName = "Double Trouble Superstars Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";

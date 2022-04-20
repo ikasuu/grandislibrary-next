@@ -92,6 +92,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#bugcat-capoo">Bugcat Capoo</Link></li>
                 <li><Link href="#on-air">On Air</Link></li>
                 <li><Link href="#festival-of-foodies">Festival of Foodies</Link></li>
+                <li><Link href="#double-trouble">Double Trouble Superstars</Link></li>
             </ul>
             <ArticleHeaderTwo id="bang">Big Bang Update - Dec 2010</ArticleHeaderTwo>
             <BigBang/>
@@ -332,6 +333,9 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="festival-of-foodies">Festival of Foodies Update - Feb 2022</ArticleHeaderTwo>
             <FestivalOfFoodies/>
+            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ArticleHeaderTwo id="double-trouble">Double Trouble Superstars Update - Mar 2022</ArticleHeaderTwo>
+            <DoubleTroubleSuperstars/>
             <AdOutArticle/>
         </EventPage>
     )
@@ -1221,6 +1225,23 @@ function Detectives() {
         </LazyLoad>
     )
 };
+
+function DoubleTroubleSuperstars() {
+    return(
+        <LazyLoad height={200} offset={100}>
+            <img className="repository-image" src="https://nxcache.nexon.net/cms/2022/q1/2066/maplestory-double-trouble-superstars-mmorpg-patchnotes-in-post-banner-1100x225.jpg" alt="Double Trouble Superstars"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/72827/v-231-double-trouble-superstars-patch-notes"/></p>
+            </div>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li><strong>Updated game client from 32-bit to 64-bit</strong></li>
+                <li>Improved drop rate of Cubic Blade and Rebirth Flame related items from Elite Monsters in Regular Servers</li>
+                <li>Dalair Medal Quests removed</li>
+            </ul>
+        </LazyLoad>
+    )
+}
 
 function Evangelion() {
     return (
