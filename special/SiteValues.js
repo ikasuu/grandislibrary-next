@@ -75,7 +75,7 @@ export const weapons = {
     ancientBow: [`https://maplestory.io/api/GMS/${version}/item/1592000/icon`, "Ancient Bow"],
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
     bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
-    whispershot: [`https://i.imgur.com/NgIOGsT.png`, "Whispershot"]
+    whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -126,8 +126,8 @@ export const secondaryWeapons = {
     relic: [`https://maplestory.io/api/GMS/${version}/item/1353703/icon`, "Relic"],
     fanTassel: [`https://maplestory.io/api/GMS/${version}/item/1353803/icon`, "Fan Tassel"],
     bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"],
-    weaponBelt: [`https://i.imgur.com/yKfIH8l.png`, "Weapon Belt"],
-    ornament: ["/class-icons/anima/lara/ornament.png","Ornament"]
+    weaponBelt: [`https://maplestory.io/api/GMS/${version}/item/1354013/icon`, "Weapon Belt"],
+    ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name

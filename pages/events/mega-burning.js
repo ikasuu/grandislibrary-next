@@ -20,7 +20,7 @@ function MegaBurning() {
             <p>If you create an Illium character and select it as "Burning", you will need to complete your Illium questline first before teleporting out of the area. Otherwise you won't be able to get your 2nd job advancement properly</p>
             <p>Rewards such as the Frozen Set can be obtained again if you recreate a Burning Character</p>
             <p>"Burning" effect stops when you have reached level 150 or when the event is over. It is not a permanent effect</p>
-            <p><img src="https://maplestory.io/api/GMS/210.1.1/item/2534001/icon" alt=""/> Mega Burninator item can be used on any character (does not need to be newly created) but will not grant you any of the rewards. Instead, you only get the levelling effect on the chosen character</p>
+            <p><img src="/images/items/mega-character-burninator.png" alt="Use Mega Character Burninator"/> Mega Burninator item can be used on any character (does not need to be newly created) but will not grant you any of the rewards. Instead, you only get the levelling effect on the chosen character</p>
             <p>All unopened rewards (Mysterious Cryptic Gift Box, Lv. 30 Equipment Box and Legendary Cryptic Chest) expire after the burning event is over. Opened items will be kept, the boxes themselves expire!</p>
             <hr/>
             <h2>Rewards:</h2>
@@ -29,19 +29,19 @@ function MegaBurning() {
             <h3>Level 10: Pet with Auto Loot</h3>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2433442/icon" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2433442" target="_blank" rel="noreferrer noopener">[Use] Mysterious Cryptic Gift Box</a></strong> Contains a pet
+                    <img src="/images/items/mysterious-cryptic-gift-box.png" alt="Use Mysterious Cryptic Gift Box"/><strong> <a href="https://maplestory.wiki/GMS/214/item/2433442" target="_blank" rel="noreferrer noopener">[Use] Mysterious Cryptic Gift Box</a></strong> Contains a pet
                     <strong></strong> Snail that lasts 5 hours of active play time
                     <ul>
                         <li>Box expires in 7-days if unopened</li>
-                        <li>Pet comes with <img src="https://maplestory.io/api/GMS/214/item/5190000/icon" alt=""/> Meso Magnet and Item Pouch</li>
-                        <li>Pet Cannot be moved to Cash Inventory and cannot be revived with <img src="https://maplestory.io/api/GMS/214/item/5689005/icon" alt=""/> Water of Life</li>
+                        <li>Pet comes with <img src="/class-icons/common/item-pouch-skill.png" alt="Item Pouch Skill"/> Meso Magnet and Item Pouch</li>
+                        <li>Pet Cannot be moved to Cash Inventory and cannot be revived with <img src="/images/items/premium-water-of-life.png" alt="Cash Premium Water of Life"/> Water of Life</li>
                     </ul>
                 </li>
             </ul>
             <h3>Level 30:</h3>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2435742/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2435742" target="_blank" rel="noreferrer noopener"><strong>[Use] Lv. 30 Equipment Box</strong></a>
+                    <img src="/images/items/equipment-box-30.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2435742" target="_blank" rel="noreferrer noopener"><strong>[Use] Lv. 30 Equipment Box</strong></a>
                     <ul>
                         <li>Box containing Lv. 30 equipment for your class</li>
                         <li>Box expires after a set date if unopened, items inside are permanent</li>
@@ -51,7 +51,7 @@ function MegaBurning() {
             <h3>Level 100: Permanent Frozen Equipment</h3>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2433444/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
+                    <img src="/images/items/legendary-cryptic-chest.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
                             Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
@@ -69,14 +69,14 @@ function MegaBurning() {
             <h3>Level 130:</h3>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2435743/icon" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2435743" target="_blank" rel="noreferrer noopener">[Use] Keep on Burning Title Coupon</a></strong>
+                    <img src="/images/equipment/keep-on-burning.png" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2435743" target="_blank" rel="noreferrer noopener">[Use] Keep on Burning Title Coupon</a></strong>
                     <ul>
                         <li>Contains the Keep on Burning Title listed below</li>
                         <li>Coupon expires after a set date if unredeemed</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2435743/icon" alt=""/> <strong><a href="https://maplestory.wiki/GMS/214/item/3700385">[Set-up] Keep on Burning</a></strong>
+                    <img src="/images/equipment/keep-on-burning.png" alt=""/> <strong><a href="https://maplestory.wiki/GMS/214/item/3700385">[Set-up] Keep on Burning</a></strong>
                     <ul>
                         <li>Stats last 14 days</li>
                         <li>+10 All Stats</li>

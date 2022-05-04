@@ -33,7 +33,7 @@ function SharedCashShopInventory() {
                 <meta content={"A list of all classes that share Cash Shop inventories"} name="description"/>
             </Head>
             <ContentTitle>Shared Cash Shop Inventories</ContentTitle>
-            <img src="https://i.imgur.com/r9iQ8pR.png" alt="Cash Shop Inventory"/>
+            <img src="/images/info/cash-shop-inventory.png" alt="Cash Shop Inventory"/>
             <StyledP>Below is a list of classes that share Cash Shop inventories. Each different color group shares Cash Shop inventories</StyledP>
             <TableContainer>
             <table>

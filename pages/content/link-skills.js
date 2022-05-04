@@ -22,7 +22,7 @@ function LinkSkills() {
         <p>A character can have up to 12 Link Skills (13 if considering themselves) linked to them at one time and each Link Skill can only be linked to one character at a time. Each Link Skill can be linked to a different character up to 10 times per day. The first 4 times are free however and will cost Mesos afterwards</p>
         <p>For Link Skills that stack, linking them will automatically stack them together. Although, the class must be unique for the Link Skills to stack (ex. cannot be two Dark Knights, must be a Dark Knight and a Paladin or Hero)</p>
         <p>Some advice in choosing Link Skills, choose ones that provide stats you need. For example, I am trying to reach 100% Crit Chance, I try to get as many %Crit Chance Link Skills to help me reach that goal. There are also other essential stats that are useful for all classes such as %Damage, %Boss Damage or %Ignore DEF. Other important Link Skills include ones that increase the amount of EXP gained</p>
-        <p><img className="repository-image" src="https://i.imgur.com/waEl3bv.png" alt="Link Manager Skill"/></p>
+        <p><img className="repository-image" src="/images/info/link-manager.png" alt="Link Manager Skill"/></p>
         <p>To manage your Link Skills, open up your Skills Tab UI, and click into your Beginner skills. There you will find a skill called Link Manager</p>
         <strong>Note:</strong> If you do not see your Link Skill in the Link Manager, you may have to accept a quest in the Lightbulb tab on the left-hand side of the screen. If you still do not see it, try relogging
         <h3 id="top">Quick Jumps</h3>

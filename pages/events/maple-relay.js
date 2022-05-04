@@ -15,7 +15,7 @@ function MapleRelay() {
             <ContentTitle>Maple Relay</ContentTitle>
             <h2>What is Maple Relay?</h2>
             <p>Maple Relay is an event where you receive rewards for simply staying online. During the event, you will receive a reward daily for staying on 30 mins, 60 mins, 90 mins, and 180 mins. Each time you claim the daily reward, you will add a point to the "Total Claimed" counter. As you reach 12, 32, 56, and 80 reward claims, you will receive a special reward. This means that each day you can obtain a total of 4 reward claims</p>
-            <p><img className="repository-image" src="https://i.imgur.com/3ORAvj5.png" alt="Maple Relay UI"/></p>
+            <p><img className="repository-image" src="/images/info/maple-relay-ui.png" alt="Maple Relay UI"/></p>
             <h2>How do I participate?</h2>
             <p>To participate, your account must meet at least 1 of the following requirements:</p>
             <ul>
@@ -32,8 +32,8 @@ function MapleRelay() {
             <p>During the event, once you've accepted the quest on one character, you do not need to accept the quest again on another character. As well, there is no level requirement, all you need to do is stay logged on</p>
             <p>There is also a Keyboard Shortcut to open the Maple Relay UI that you can assign. Another way to open the UI is by accessing it from the star event notifier on the left side of the screen</p>
             <h2>Rewards</h2>
-            <p>Rewards may vary between each Maple Relay event but primarily you will get <img src="/images/items/reward-points.png" alt="Reward Points"/> <a rel="noreferrer noopener" href="https://support-maplestory.nexon.net/hc/en-us/articles/204088489-What-is-the-Maple-Rewards-System-" target="_blank">Reward Points</a> which can be used in the Maple Rewards Shop. Occasionally, <img src="https://maplestory.io/api/GMS/214/item/2431738/icon" alt=""/> <a rel="noreferrer noopener" href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank">Maple Points</a> are also rewarded which function just like NX and do not expire</p>
-            <p>The "Total Claimed" rewards differ each Maple Relay but normally the 80 total claims reward is a <img src="https://maplestory.io/api/GMS/214/item/2630814/icon" alt=""/> Relay Master Box which you can choose to either obtain an <img src="https://maplestory.io/api/GMS/214/item/1242116/icon" alt=""/><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2436283" target="_blank">Absolab Weapon</a> for your class or <img src="https://maplestory.io/api/GMS/214/item/1122150/icon" alt=""/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2630705" target="_blank">Dominator Pendant</a>. Both items are special in which they have fixed stats that cannot be changed except for their Bonus Stats which can be Rebirth Flamed</p>
+            <p>Rewards may vary between each Maple Relay event but primarily you will get <img src="/images/items/reward-points.png" alt="Reward Points"/> <a rel="noreferrer noopener" href="https://support-maplestory.nexon.net/hc/en-us/articles/204088489-What-is-the-Maple-Rewards-System-" target="_blank">Reward Points</a> which can be used in the Maple Rewards Shop. Occasionally, <img src="/images/items/maple-point-gift-certificate.png" alt="Use Maple Point Gift Certificate"/> <a rel="noreferrer noopener" href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank">Maple Points</a> are also rewarded which function just like NX and do not expire</p>
+            <p>The "Total Claimed" rewards differ each Maple Relay but normally the 80 total claims reward is a <img src="/images/items/relay-master-box.png" alt="Use Relay Master Box"/> Relay Master Box which you can choose to either obtain an <img src="/images/equipment/absolab-saber.png" alt=""/><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2436283" target="_blank">Absolab Weapon</a> for your class or <img src="/images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2630705" target="_blank">Dominator Pendant</a>. Both items are special in which they have fixed stats that cannot be changed except for their Bonus Stats which can be Rebirth Flamed</p>
             <AdInArticleBanner/>
             <h3>Notes</h3>
             <hr/>
@@ -45,24 +45,23 @@ function MapleRelay() {
             <p><strong>Rewards From July 22, 2020 Maple Relay:</strong></p>
             <p>Daily Rewards:</p>
             <ul>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2432742/icon" alt=""/> 100 &amp; 500 Maple Reward Points</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2431738/icon" alt=""/> Maple Points</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2631453/icon" alt=""/> Rise Coins</li>
+                <li><img src="/images/items/reward-points.png" alt="Use Reward Points"/> 100 &amp; 500 Maple Reward Points</li>
+                <li><img src="/images/items/maple-point-gift-certificate.png" alt=""/> Maple Points</li>
+                <li><img src="/images/items/rise-coin.png" alt="Etc Rise Coin"/> Rise Event Coins</li>
             </ul>
             <p>Total Claimed Rewards:</p>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/1005521/icon" alt=""/><img src="https://maplestory.io/api/GMS/214/item/1005522/icon" alt=""/> <img src="https://maplestory.io/api/GMS/214/item/1053566/icon" alt=""/>
-                    <img src="https://maplestory.io/api/GMS/214/item/1053567/icon" alt=""/> Kindergarten Back-to-School outfit (Cash Item)
+                    <img src="/images/equipment/navy-kindergarten-back-to-school-hat.png" alt="Cash Navy Kidergarten Back-to-School Hat"/><img src="/images/equipment/yellow-kindergarten-back-to-school-hat.png" alt="Cash Yellow Kindergarten Back-to-School Hat"/> <img src="/images/equipment/yellow-kindergarten-back-to-school-outfit.png" alt="Cash Yellow Kindergarten Back-to-School Outfit"/><img src="/images/equipment/navy-kindergarten-back-to-school-outfit.png" alt="Cash Navy Kindergarten Back-to-School Outfit"/> Kindergarten Back-to-School outfit (Cash Item)
                     <ul>
                         <li>Can be transferred to <a href="https://www.grandislibrary.com/contents/shared-cash-shop-inventories" target="_blank" rel="noreferrer noopener">Cash Shop Inventory</a></li>
                     </ul>
                 </li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2436287/icon" alt=""/> Red Cube Twelve Pack</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2431747/icon" alt=""/> 10k Maple Points</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2630814/icon" alt=""/> Relay Master Box (Choice of Absolab Weapon or Dominator Pendant)</li>
+                <li><img src="/images/items/red-cube.png" alt="Cash Red Cube Twelve Pack"/> Red Cube Twelve Pack</li>
+                <li><img src="/images/items/maple-point-gift-certificate.png" alt="Use 10k Maple Points"/> 10k Maple Points</li>
+                <li><img src="/images/items/relay-master-box.png" alt="Use Relay Master Box"/> Relay Master Box (Choice of Absolab Weapon or Dominator Pendant)</li>
             </ul>
-            <p><img src="http://nxcache.nexon.net/cms/2020/q3/1205/maplestory-rise-surge-of-power-mmorpg-maplerelay-2.png" alt="MapleStory MMORPG Rise Surge of Power Maple Relay"/></p>
+            <p><img src="/images/info/kindergarten-back-to-school-outfit.png" alt="Kindergarten Back-to-School Outfit"/></p>
             <hr/>
             <h3>Credits:</h3>
             <p>For more info, check out:</p> 

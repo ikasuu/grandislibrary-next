@@ -344,7 +344,7 @@ function UpdateTimelineOverview() {
 function Alishan() {
     return (
         <LazyLoad height={200} offset={100}>
-            <img className="repository-image" src="http://nxcache.nexon.net/umbraco/3176/151030_1100x225_v167alishan.jpg" alt="Welcome to Alishan"/>
+            <img className="repository-image" src="/images/info/alishan.png" alt="Welcome to Alishan"/>
             <div className="repository-md-container">
                 <p><TabLink url="http://maplestory.nexon.net/news/4620/v-167--welcome-to-alishan-patch-notes"/></p>
             </div>
@@ -669,7 +669,7 @@ function Awake() {
             </div>
             <h3>New Content</h3>
             <ul>
-                <li><img src="https://i.imgur.com/SoXcDFJ.png" alt=""/> <img src="https://i.imgur.com/txps9oi.png" alt=""/> <img src="https://i.imgur.com/jkUHsGT.png" alt=""/> <img src="https://i.imgur.com/4WkRzjK.png" alt=""/> New 5th job skills for all classes</li>
+                <li><img src="/class-icons/sengoku/hayato/instant-slice.png" alt="Instant Slice"/> <img src="/class-icons/sengoku/kanna/ghost-yaksha-great-oni-lords-legion.png" alt="Ghost Yaksha Great Oni Lord's Legion"/> <img src="/class-icons/explorers/jett/anti-gravity-cycle.png" alt="Anti Gravity Cycle"/> <img src="/class-icons/other/beast-tamer/the-greatest-show-on-maple-world-is-coming.png" alt="The Greatest Show on Maple World is Coming"/> New 5th job skills for all classes</li>
                 <li>
                     New skills for Warriors, Buccaneer, Mihile, and Mechanic
                     <ul>
@@ -2074,11 +2074,11 @@ function Neo(){
             <h3>New Content</h3>
             <ul>
                 <li><strong>New class, <a href="https://maplestory.fandom.com/wiki/Kain" target="_blank" rel="noopener">Kain</a></strong></li>
-                <li><strong><img src="https://maplestory.io/api/GMS/225/item/2881192/icon" data-v-e6b15fb6/> Morass and <img src="https://maplestory.io/api/GMS/225/item/2881182/icon" data-v-e6b15fb6/> Esfera Familiar and Badges have been added</strong></li>
+                <li><strong><img src="https://maplestory.io/api/GMS/225/item/2881192/icon"/> Morass and <img src="https://maplestory.io/api/GMS/225/item/2881182/icon"/> Esfera Familiar and Badges have been added</strong></li>
                 <li>New area, <img src="https://maplestory.io/api/KMS/348/map/410000401/icon" alt="MapIcon Toolen City"/> <a href="https://maplestory.fandom.com/wiki/Category:Toolen_City" target="_blank" rel="noopener">Toolen City</a></li>
                 <li><strong>New area, <img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <a href="https://maplestory.fandom.com/wiki/Category:Cernium" target="_blank" rel="noopener">Cernium + Burning Cernium</a></strong></li>
-                <li><strong>New area, <img src="/images/map-icons/hotel-arcus.png" data-v-e6b15fb6="true"/> <a href="https://maplestory.fandom.com/wiki/Category:Hotel_Arcus" target="_blank" rel="noopener">Hotel Arcus</a></strong></li>
-                <li><strong>New Symbol Force, <img src="https://maplestory.io/api/KMST/1119/item/1713000/icon" alt="Eqp Sacred Force"/><img src="/images/equipment/sacred-symbol-arcus.png" data-v-e6b15fb6="true"/> <a href="https://maplestory.fandom.com/wiki/Category:Sacred_Symbols" target="_blank" rel="noopener">Sacred Force</a></strong></li>
+                <li><strong>New area, <img src="/images/map-icons/hotel-arcus.png"/> <a href="https://maplestory.fandom.com/wiki/Category:Hotel_Arcus" target="_blank" rel="noopener">Hotel Arcus</a></strong></li>
+                <li><strong>New Symbol Force, <img src="/images/equipment/sacred-symbol-cernium.png" alt="Eqp Sacred Force"/><img src="/images/equipment/sacred-symbol-arcus.png"/> <a href="https://maplestory.fandom.com/wiki/Category:Sacred_Symbols" target="_blank" rel="noopener">Sacred Force</a></strong></li>
             </ul>
             <h3>New Features + Changes</h3>
             <ul>
@@ -2092,12 +2092,12 @@ function Neo(){
                 <ul>
                     <li>The following items have been removed:
                     <ul>
-                        <li><img src="https://maplestory.io/api/GMS/225/item/2049701/icon" data-v-e6b15fb6/> [Epic Potential Scroll 50%], <img src="https://maplestory.io/api/GMS/225/item/2432083/icon" data-v-e6b15fb6/> [Master Craftsman's Cube], <img src="https://maplestory.io/api/GMS/225/item/2048308/icon" data-v-e6b15fb6/> [Bonus Potential Scroll 50%]</li>
+                        <li><img src="https://maplestory.io/api/GMS/225/item/2049701/icon"/> [Epic Potential Scroll 50%], <img src="https://maplestory.io/api/GMS/225/item/2432083/icon"/> [Master Craftsman's Cube], <img src="https://maplestory.io/api/GMS/225/item/2048308/icon"/> [Bonus Potential Scroll 50%]</li>
                     </ul>
                     </li>
                     <li>The following items have been added:
                     <ul>
-                        <li><img src="https://maplestory.io/api/GMS/225/item/2049700/icon" data-v-e6b15fb6/> [Epic Potential Scroll 100%], <img src="https://maplestory.io/api/GMS/225/item/2711023/icon" data-v-e6b15fb6/> [Karma Master Craftsman's Cube], <img src="https://maplestory.io/api/GMS/225/item/2048759/icon" data-v-e6b15fb6/> [Karma Rejuvenating Flame], <img src="https://maplestory.io/api/GMS/225/item/2048757/icon" data-v-e6b15fb6/> [Karma Eternal Rebirth Flame], <img src="https://maplestory.io/api/GMS/225/item/2048766/icon" data-v-e6b15fb6/> [Karma Black Rebirth Flame], <img src="https://maplestory.io/api/GMS/225/item/2048338/icon" data-v-e6b15fb6/> [Bonus Potential Scroll 100%]</li>
+                        <li><img src="https://maplestory.io/api/GMS/225/item/2049700/icon"/> [Epic Potential Scroll 100%], <img src="https://maplestory.io/api/GMS/225/item/2711023/icon"/> [Karma Master Craftsman's Cube], <img src="https://maplestory.io/api/GMS/225/item/2048759/icon"/> [Karma Rejuvenating Flame], <img src="https://maplestory.io/api/GMS/225/item/2048757/icon"/> [Karma Eternal Rebirth Flame], <img src="https://maplestory.io/api/GMS/225/item/2048766/icon"/> [Karma Black Rebirth Flame], <img src="https://maplestory.io/api/GMS/225/item/2048338/icon"/> [Bonus Potential Scroll 100%]</li>
                         <li>Karma items can only be used on untradable items</li>
                     </ul>
                     </li>
@@ -2108,7 +2108,7 @@ function Neo(){
                 <li>Explorer classes now receive their Emblems when they reach Lv. 60 and Lv. 100 via a quest called "Explorer's Token"</li>
                 <li><strong>Reboot World Improvements</strong>
                 <ul>
-                    <li><img src="https://maplestory.io/api/GMS/225/item/4001878/icon" data-v-e6b15fb6/><img src="https://maplestory.io/api/GMS/225/item/4001889/icon" data-v-e6b15fb6/> Droplet Stones can now be traded and be exchanged for one another</li>
+                    <li><img src="https://maplestory.io/api/GMS/225/item/4001878/icon"/><img src="https://maplestory.io/api/GMS/225/item/4001889/icon"/> Droplet Stones can now be traded and be exchanged for one another</li>
                 </ul>
                 </li>
                 <li><strong>Arcane River Quest improvements</strong>

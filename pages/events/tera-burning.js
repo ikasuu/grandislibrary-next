@@ -34,19 +34,19 @@ function TeraBurning() {
             <h3>Level 10: Pet with Auto Loot</h3>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2433442/icon" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2433442" target="_blank" rel="noreferrer noopener">[Use] Mysterious Cryptic Gift Box</a></strong> Contains a pet
+                    <img src="/images/items/mysterious-cryptic-gift-box.png" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2433442" target="_blank" rel="noreferrer noopener">[Use] Mysterious Cryptic Gift Box</a></strong> Contains a pet
                     <strong></strong> Snail that lasts 5 hours of active play time
                     <ul>
                         <li>Box expires in 7-days if unopened</li>
-                        <li>Pet comes with <img src="https://maplestory.io/api/GMS/214/item/5190000/icon" alt=""/> Meso Magnet and Item Pouch</li>
-                        <li>Pet Cannot be moved to Cash Inventory and cannot be revived with <img src="https://maplestory.io/api/GMS/214/item/5689005/icon" alt=""/> Water of Life</li>
+                        <li>Pet comes with <img src="/class-icons/common/item-pouch-skill.png" alt=""/> Meso Magnet and Item Pouch</li>
+                        <li>Pet Cannot be moved to Cash Inventory and cannot be revived with <img src="/images/items/premium-water-of-life.png" alt=""/> Water of Life</li>
                     </ul>
                 </li>
             </ul>
             <h3>Level 30:</h3>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2435742/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2435742" target="_blank" rel="noreferrer noopener"><strong>[Use] Lv. 30 Equipment Box</strong></a>
+                    <img src="/images/items/equipment-box-30.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2435742" target="_blank" rel="noreferrer noopener"><strong>[Use] Lv. 30 Equipment Box</strong></a>
                     <ul>
                         <li>Box containing Lv. 30 equipment for your class</li>
                         <li>Box expires after a set date if unopened, items inside are permanent</li>
@@ -56,7 +56,7 @@ function TeraBurning() {
             <h3>Level 100: Permanent Frozen Equipment</h3>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2433444/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
+                    <img src="/images/items/legendary-cryptic-chest.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
                             Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
@@ -75,7 +75,7 @@ function TeraBurning() {
             <img className="repository-image" src="/images/info/fafnir-set.png" alt="CRA Gear"/>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2439179/icon" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2439179">[Use] Root Abyss Set Box (Time-Restricted)</a></strong>
+                    <img src="/images/items/root-abyss-set-box.png" alt="Use Root Abyss Set Box"/><strong> <a href="https://maplestory.wiki/GMS/214/item/2439179">[Use] Root Abyss Set Box (Time-Restricted)</a></strong>
                     <ul>
                         <li>
                             Contains Lv. 150 70% Spell Traced, Epic Potential Root Abyss Gear <img width="36" height="28" src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/><img width="29" height="24" src="/images/equipment/eagle-eye-warrior-armor.png" alt="Eqp Eagle Eye Warrior Armor"/><img width="23" height="28" src="/images/equipment/trixter-warrior-pants.png" alt="Eqp Trixter Warrior Pants"/>
@@ -91,14 +91,14 @@ function TeraBurning() {
             <p><strong>[Note]</strong>: The title can only be used after completing 5th Job Advancement and the "A Greater Power, Arcane Power" quest <strong>Note: </strong>The title is permanent but the stats expire <span style={{color: '#ff0000'}}>(30 days)</span>, you receive this instead of the Mega Burning "Keep on Burning" title</p>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2439181/icon" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2439181" target="_blank" rel="noreferrer noopener">[Use] Eternal Flame Title Coupon</a></strong>
+                    <img src="/images/equipment/eternal-flame.png" alt="Use Eternal Flame Title Coupon"/><strong> <a href="https://maplestory.wiki/GMS/214/item/2439181" target="_blank" rel="noreferrer noopener">[Use] Eternal Flame Title Coupon</a></strong>
                     <ul>
                         <li>Contains the Keep on Burning Title listed below</li>
                         <li>Coupon expires after a set date if unredeemed</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/2439181/icon" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/3700530" target="_blank" rel="noreferrer noopener">[Set-up] Eternal Flame</a></strong>
+                    <img src="/images/equipment/eternal-flame.png" alt="Setup Eternal Flame"/><strong> <a href="https://maplestory.wiki/GMS/214/item/3700530" target="_blank" rel="noreferrer noopener">[Set-up] Eternal Flame</a></strong>
                     <ul>
                         <li>Stats last 30 days</li>
                         <li>+15 All Stats</li>

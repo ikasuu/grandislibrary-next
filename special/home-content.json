@@ -11,12 +11,26 @@
             "link": "https://discord.gg/d4et8vt9kP"
         },
         {
-            "image": "https://i.imgur.com/2zMuAH7.png",
+            "image": "/home-thumbnail/kofi.png",
             "alt": "Ko-fi Support",
             "link": "https://ko-fi.com/ikasuu"
         }
     ],
     "recent": [
+        {
+            "title": "Pixel Picks Voting is Back!",
+            "image": "/home-thumbnail/pixel-picks.jpg",
+            "alt": "Pixel Picks Voting is Back!",
+            "link": "https://maplestory.nexon.net/news/74055/pixel-picks-voting-is-back",
+            "subtitle": "May 2, 2022"
+        },
+        {
+            "title": "Blooming Forest Patch Notes",
+            "image": "/home-thumbnail/blooming-forest.jpg",
+            "alt": "Blooming Forest Patch Notes",
+            "link": "https://maplestory.nexon.net/news/73909/updated-may-2-v-232-blooming-forest-patch-notes",
+            "subtitle": "Apr 26, 2022"
+        },
         {
             "title": "Tactical Relay Event 2022!",
             "image": "/home-thumbnail/tactical-relay.jpg",
@@ -37,23 +51,16 @@
             "alt": "The Marvel Machine Returns!",
             "link": "https://maplestory.nexon.net/news/72863/the-marvel-machine-returns-march-18",
             "subtitle": "Mar 14, 2022"
-        },
-        {
-            "title": "Hot Weeks Return to 2022!",
-            "image": "/home-thumbnail/hot-time.jpg",
-            "alt": "Hot Weeks Return to 2022!",
-            "link": "https://maplestory.nexon.net/news/72613/hot-weeks-return-to-2022",
-            "subtitle": "Feb 25, 2022"
-        },
-        {
-            "title": "Maplehood Watch Returns for 2022!",
-            "image": "/home-thumbnail/maplehood-watch.jpg",
-            "alt": "Maplehood Watch Returns for 2022!",
-            "link": "https://maplestory.nexon.net/news/71772/maplehood-watch-returns-for-2022",
-            "subtitle": "Feb 11, 2022"
         }
     ],
     "upcoming": [
+        {
+            "title": "19th Anniversary: Maple Momentree",
+            "image": "/home-thumbnail/momentree.jpg",
+            "alt": "19th Anniversary: Maple Momentree",
+            "link": "https://orangemushroom.net/2022/04/21/kms-ver-1-2-363-maplestorys-19th-anniversary-maple-momentree/",
+            "subtitle": "Apr 21, 2022"
+        },
         {
             "title": "Camilia's Pop-up Store",
             "image": "/home-thumbnail/camilia-pop-up.jpg",
@@ -81,13 +88,6 @@
             "alt": "Destiny Update",
             "link": "https://orangemushroom.net/2021/12/30/kms-ver-1-2-359-maplestory-destiny-starlight-symphony/",
             "subtitle": "Dec 30, 2021"
-        },
-        {
-            "title": "18th Anniversary: Blooming Forest",
-            "image": "/home-thumbnail/kms-18th-anniversary.jpg",
-            "alt": "18th Anniversary: Blooming Forest",
-            "link": "https://orangemushroom.net/2021/04/21/kms-ver-1-2-347-maplestorys-18th-anniversary-blooming-forest/",
-            "subtitle": "Apr 21, 2021"
         }
     ],
     "popularContent": [
@@ -149,34 +149,19 @@
             "path": "explorers/arch-mage-ice-lightning"
         },
         {
-            "alt": "Adele",
-            "class": "adele",
-            "path": "flora/adele"
-        },
-        {
             "alt": "Arch Mage F/P",
             "class": "arch-mage-fire-poison",
             "path": "explorers/arch-mage-fire-poison"
         },
         {
-            "alt": "Kanna",
-            "class": "kanna",
-            "path": "sengoku/kanna"
-        },
-        {
-            "alt": "Demon Slayer",
-            "class": "demon-slayer",
-            "path": "resistance/demon-slayer"
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
         },
         {
             "alt": "Night Lord",
             "class": "night-lord",
             "path": "explorers/night-lord"
-        },
-        {
-            "alt": "Demon Avenger",
-            "class": "demon-avenger",
-            "path": "resistance/demon-avenger"
         },
         {
             "alt": "Dawn Warrior",
@@ -189,9 +174,24 @@
             "path": "explorers/shadower"
         },
         {
-            "alt": "Cannoneer",
-            "class": "cannoneer",
-            "path": "explorers/cannoneer"
+            "alt": "Kanna",
+            "class": "kanna",
+            "path": "sengoku/kanna"
+        },
+        {
+            "alt": "Demon Slayer",
+            "class": "demon-slayer",
+            "path": "resistance/demon-slayer"
+        },
+        {
+            "alt": "Hero",
+            "class": "hero",
+            "path": "explorers/hero"
+        },
+        {
+            "alt": "Lara",
+            "class": "lara",
+            "path": "anima/lara"
         }
     ]
 }

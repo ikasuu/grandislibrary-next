@@ -1128,7 +1128,7 @@ function ProgressionGuide() {
                 <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <a href="https://maplestory.fandom.com/wiki/Seren/Monster" target="_blank" rel="noreferrer noopener"><strong>Seren</strong></a>
                     <ul>
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/occult-cube.png" alt="Use Occult Cube" width="{29}" height="{29}"/> <a href="https://maplestory.fandom.com/wiki/Occult_Cube" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube" width="{27}" height="{27}"/> <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir" width="{32}" height="{31}"/> <a href="https://maplestory.fandom.com/wiki/Power_Elixir">[ Power Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal" width="{32}" height="{38}"/> <a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li><strong>Main Rewards:</strong> <strong><img className="transparent" src="/images/equipment/mitras-rage-warrior.png" alt="/images/equipment/mitras-rage-warrior.png"/></strong> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage:_Warrior" target="_blank" rel="noopener">[Emblem]</a>, <img src="/images/items/mitras-nodestone.png" data-v-e6b15fb6="true"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a></li>
+                    <li><strong>Main Rewards:</strong> <strong><img className="transparent" src="/images/equipment/mitras-rage-warrior.png" alt="/images/equipment/mitras-rage-warrior.png"/></strong> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage:_Warrior" target="_blank" rel="noopener">[Emblem]</a>, <img src="/images/items/mitras-nodestone.png"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a></li>
                     </ul>
                 </li>
             </ul>
@@ -1250,9 +1250,9 @@ function ProgressionGuide() {
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/sacred-symbol-cernium.png" alt="Eqp Sacred Symbol Cernium"/> [Sacred Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/hotel-arcus.png" data-v-e6b15fb6="true"/> <strong>[Lv. 270+] <a href="https://maplestory.fandom.com/wiki/Category:Hotel_Arcus" target="_blank" rel="noreferrer noopener">[Daily] Hotel Arcus</a></strong>: Completing the storyline here unlocks Daily Quests for this area
+                <li><img src="/images/map-icons/hotel-arcus.png"/> <strong>[Lv. 270+] <a href="https://maplestory.fandom.com/wiki/Category:Hotel_Arcus" target="_blank" rel="noreferrer noopener">[Daily] Hotel Arcus</a></strong>: Completing the storyline here unlocks Daily Quests for this area
                     <ul>
-                    <li><strong>Main Rewards: </strong><img src="/images/equipment/sacred-symbol-arcus.png" data-v-e6b15fb6="true"/> [Sacred Symbols]</li>
+                    <li><strong>Main Rewards: </strong><img src="/images/equipment/sacred-symbol-arcus.png"/> [Sacred Symbols]</li>
                     </ul>
                 </li>
             </ul>
@@ -1617,7 +1617,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
                 <li>
-                <img src="https://cdn.wikimg.net/en/strategywiki/images/5/51/MS_Mushroom_Castle_icon.png" alt="MS Mushroom Castle icon.png" width={38} height={38}/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">Mushroom Kingdom</a>: </strong>Accessible from <img src="/images/info/lightbulb.png" alt="MapleStory_qjjMOLZewp" width={48} height={45}/>
+                <img src="/images/map-icons/mushroom-castle.png" alt="MS Mushroom Castle icon.png" width={38} height={38}/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">Mushroom Kingdom</a>: </strong>Accessible from <img src="/images/info/lightbulb.png" alt="MapleStory_qjjMOLZewp" width={48} height={45}/>
                 <ul>
                     <li>Has lots of cutscenes compared to the previous Theme Dungeons which is why most people skip this one</li>
                     <li><strong>Main Rewards:</strong>  <img src="/images/items/meso.png" alt="Meso"/> [3 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace" width={33} height={32}/> [Spell Traces], <img src="/images/equipment/violettas-knight.png" alt="Eqp Violetta's Knight" width={33} height={32}/> [Medal], <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape" width={31} height={33}/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">[Heavy Violetta Cape]</a><a href="https://maplestory.wiki/GMS/215/item/1142629" target="_blank" rel="noreferrer noopener">, </a> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love" width={35} height={33}/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">[Shackles of Love]</a>

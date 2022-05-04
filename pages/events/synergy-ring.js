@@ -15,8 +15,8 @@ function SynergyRing() {
             </Head>
             <ContentTitle>Synergy Ring</ContentTitle>
             <p>The Synergy Ring is an <strong>event ring</strong> that costs <strong>800 coins </strong>during major events with a coin shop. The special feature of this ring is that you gain a "Bonus Set Effect" based on how many characters of your characters (in the same world) have the ring equipped. That means the total cost will be <strong>4000 coins </strong>to have the full benefits of the ring. The ring can also obtain a potential <strong>(there are special Craftsman's Cube for the ring itself at a discounted price)</strong></p>
-            <Video src="https://www.youtube.com/embed/t-s2u7ANvUI" title="Synergy Ring"/>
-            <p><img className="repository-image" src="https://i.imgur.com/cUOmhBp.png" alt="Synergy Ring Item"/></p>
+            <Video /images/info/starforce-sucess.pngs://www.youtube.com/embed/t-s2u7ANvUI" title="Synergy Ring"/>
+            <p><img className="repository-image" src="/images/info/synergy-ring-tooltip.png" alt="Synergy Ring Item"/></p>
             <h3>Details:</h3>
             <ul>
                 <li>
