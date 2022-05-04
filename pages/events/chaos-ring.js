@@ -16,7 +16,7 @@ function ChaosRing() {
             <AdOutArticle/>
             <ContentTitle>Chaos Ring</ContentTitle>
             <p>Introduced during the ARK update, this new event ring allows the user to<strong> reset it's stats and potential up to 10 times per week (resets Mondays)</strong>. But, the ability to reset the ring lasts 180 days. After that, you will need to use<strong> Cubes to reset the potential</strong>. The ring can be cubed to LEGENDARY but the weekly free rerolls only go up to UNIQUE</p>
-            <Video /images/info/starforce-sucess.pngs://www.youtube.com/embed/JRqrDBQx4rY" title="Chaos Ring"/>
+            <Video src="https://www.youtube.com/embed/JRqrDBQx4rY" title="Chaos Ring"/>
             <p><img className="repository-image" src="/images/info/chaos-ring-tooltip.png" alt="chaosring.png"/></p>
             <h3>Details:</h3>
             <ul>
