@@ -367,7 +367,7 @@ function AllianceEternal() {
                 <p><TabLink url="https://web.archive.org/web/20120513110931/http://maplestory.nexon.net/News/News.aspx?boardNo=103&contentNo=00Dor&pageIndex=1"/></p>
             </div>
             <h3>New Features + Changes</h3>
-            <ul><li><img src="https://maplestory.io/api/GMS/214/item/2022719/icon" alt=""/> Lion King’s Castle revamp - Changed to a Theme Dungeon</li></ul>
+            <ul><li><img src="/images/items/anis-box.png" alt="Use Ani's Box"/> Lion King’s Castle revamp - Changed to a Theme Dungeon</li></ul>
         </LazyLoad>
     )
 };
@@ -396,9 +396,8 @@ function AllianceRising() {
                         <li><a href="https://maplestory.fandom.com/wiki/Mystic_Gate" target="_blank" rel="noreferrer noopener">Mystic Gates</a> introduced (15 times a day entry)</li>
                         <li>Level 45 or above requirement</li>
                         <li>
-                            New rewards such as <img src="https://maplestory.io/api/GMS/210.1.1/item/1112607/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/1112608/icon" alt=""/>
-                            <img src="https://maplestory.io/api/GMS/210.1.1/item/1112609/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/1112611/icon" alt=""/> rings and <img src="https://maplestory.io/api/GMS/210.1.1/item/4310018/icon" alt=""/>
-                            <a href="https://maplestory.fandom.com/wiki/Crusader_Coins" target="_blank" rel="noreferrer noopener">Crusader Coins</a>
+                            New rewards such as <img src="/images/equipment/mighty-crusader-ring-ii.png" alt="Eqp Mighty Crusader Ring II"/><img src="/images/equipment/mighty-crusader-ring-iii.png" alt="Eqp Mighty Crusader III"/>
+                            <img src="/images/equipment/heroic-crusader-ring-i.png" alt="Eqp Heroic Crusader Ring I"/><img src="/images/equipment/heroic-crusader-ring-iii.png" alt="Eqp Heroic Crusader III"/> rings and <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coin"/> <a href="https://maplestory.fandom.com/wiki/Crusader_Coins" target="_blank" rel="noreferrer noopener">Crusader Coins</a>
                         </li>
                     </ul>
                 </li>
@@ -408,7 +407,7 @@ function AllianceRising() {
                 </li>
             </ul>
             <h3>New Cash Items</h3>
-            <ul><li><img src="https://maplestory.io/api/GMS/214/item/5450008/icon" alt=""/> Portable Storage</li></ul>
+            <ul><li><img src="/images/items/portable-storage.png" alt="Cash Portable Storage"/> Portable Storage</li></ul>
         </LazyLoad>
     )
 };
@@ -425,8 +424,7 @@ function AllianceUnbound() {
             <ul>
                 <li><strong>Nebulites System introduced</strong></li>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/214/item/1112683/icon" alt=""/> <a href="https://maplestory.fandom.com/wiki/Category%3AEllin_Forest" target="_blank" rel="noreferrer noopener">Ellin Forest</a> Revamp (Ephenia boss update, current
-                    iteration)
+                    <img src="/images/equipment/ephenias-ring.png" alt="Eqp Ephenia's Ring"/> <a href="https://maplestory.fandom.com/wiki/Category%3AEllin_Forest" target="_blank" rel="noreferrer noopener">Ellin Forest</a> Revamp (Ephenia boss update, current iteration)
                 </li>
                 <li>New Leaf City + Masteria Revamp (Aliens invasion)</li>
             </ul>
@@ -486,17 +484,14 @@ function Ark() {
                 </li>
                 <li>New boss, <a href="https://maplestory.fandom.com/wiki/Will" target="_blank" rel="noreferrer noopener">Will</a></li>
                 <li>
-                    New equipment, Pocket item, <img src="https://maplestory.io/api/GMS/214/item/1162080/icon" alt=""/><img src="https://maplestory.io/api/GMS/214/item/1162081/icon" alt=""/><img src="https://maplestory.io/api/GMS/214/item/1162082/icon" alt=""/>
-                    <img src="https://maplestory.io/api/GMS/214/item/1162083/icon" alt=""/> Cursed Spellbook
+                    New equipment, Pocket item, <img src="/images/equipment/cursed-red-spellbook.png" alt="Eqp Cursed Red Spellbook"/><img src="/images/equipment/cursed-blue-spellbook.png" alt="Eqp Cursed Blue Spellbook"/><img src="/images/equipment/cursed-green-spellbook.png" alt="Eqp Cursed Green Spellbook"/><img src="/images/equipment/cursed-yellow-spellbook.png" alt="Eqp Cursed Yellow Spellbook"/> Cursed Spellbook
                 </li>
                 <li>
-                    New item, <img src="https://maplestory.io/api/GMS/214/item/2438411/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2438411" target="_blank" rel="noreferrer noopener">Mirror World Nodestone</a> - provides new 5th job skill <img src="/class-icons/5th-job/true-arachnid-reflection.png" alt="Skill True Arachnid Reflection"/> <a href="https://maplestory.fandom.com/wiki/True_Arachnid_Reflection" target="_blank" rel="noreferrer noopener">True Arachnid Reflection</a>, <img src="https://maplestory.io/api/GMS/214/item/4001890/icon" alt=""/>
-                    <a href="https://maplestory.wiki/GMS/214/item/4001890" target="_blank" rel="noreferrer noopener">Stone Cobweb Droplet</a> to obtain <img src="https://maplestory.io/api/GMS/214/item/4310249/icon" alt=""/>
-                    <a href="https://maplestory.fandom.com/wiki/Arachno_Coin" target="_blank" rel="noreferrer noopener">Arachno Coins</a> to purchase Arcane Umbra equipment
+                    New item, <img src="/images/items/mirror-world-nodestone.png" alt="Use Mirror World Nodestone"/> <a href="https://maplestory.wiki/GMS/214/item/2438411" target="_blank" rel="noreferrer noopener">Mirror World Nodestone</a> - provides new 5th job skill <img src="/class-icons/5th-job/true-arachnid-reflection.png" alt="Skill True Arachnid Reflection"/> <a href="https://maplestory.fandom.com/wiki/True_Arachnid_Reflection" target="_blank" rel="noreferrer noopener">True Arachnid Reflection</a>, <img src="/images/items/stone-cobweb-droplet.png" alt="Etc Stone Cobweb Droplet"/>
+                    <a href="https://maplestory.wiki/GMS/214/item/4001890" target="_blank" rel="noreferrer noopener">Stone Cobweb Droplet</a> to obtain <img src="/images/items/arachno-coin.png" alt="Etc Arachno Coin"/> <a href="https://maplestory.fandom.com/wiki/Arachno_Coin" target="_blank" rel="noreferrer noopener">Arachno Coins</a> to purchase Arcane Umbra equipment
                 </li>
                 <li>
-                    Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Library"/>
-                    <a href="https://www.youtube.com/watch?v=f4bzrRnN2Uk" target="_blank" rel="noreferrer noopener">Shadow Alchemist</a> story added
+                    Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Library"/> <a href="https://www.youtube.com/watch?v=f4bzrRnN2Uk" target="_blank" rel="noreferrer noopener">Shadow Alchemist</a> story added
                 </li>
                 <li>New storyline, <a href="https://maplestory.fandom.com/wiki/Category:Captain_Vaga" target="_blank" rel="noreferrer noopener">Captain Vaga</a> (Stellar Detectives prequel)</li>
                 <li>New blockbuster: <a href="https://maplestory.fandom.com/wiki/Blockbuster/Monad" target="_blank" rel="noreferrer noopener">Monad</a></li>
@@ -527,7 +522,7 @@ function Ark() {
                 <li>Easy mode Hungry Muto added</li>
                 <li>Bonus coins given from the 1st place per Dream Defender results increased based on number of floors cleared</li>
                 <li>Entering Spirit Savior 3 times per day grants additional coins</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/1712000/icon" alt=""/><strong> You can combine multiple Arcane Symbols at once</strong></li>
+                <li><img src="/images/equipment/arcane-symbol.png" alt="Eqp Arcane Symbol"/><strong> You can combine multiple Arcane Symbols at once</strong></li>
                 <li>Players can see Runes &amp; Lures on the mini-map</li>
             </ul>
         </LazyLoad>
@@ -637,7 +632,7 @@ function Asylum() {
                 <li>Feedback Survey system added when exiting game</li>
             </ul>
             <h3>New Cash Items</h3>
-            <ul><li><img src="https://maplestory.io/api/GMS/215/item/2436402/icon" alt="Name Change Coupon"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2436402" target="_blank">[Character Name Change Coupon Voucher]</a>: Allows users to change the name of their character</li></ul>
+            <ul><li><img src="/images/items/character-name-change-coupon.png" alt="Use Character Name Change Coupon"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2436402" target="_blank">Character Name Change Coupon Voucher</a> allows users to change the name of their character</li></ul>
         </LazyLoad>
     )
 };
@@ -655,7 +650,7 @@ function AttackOnTitan() {
                 <li>New dungeon, Beasts of Fury</li>
             </ul>
             <h3>New Features + Changes</h3>
-            <ul><li>Multi Pet Quests change (<img src="https://maplestory.io/api/GMS/214/item/5460000/icon" alt=""/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5460000" target="_blank">Pet Snack</a> for multiple pets)</li></ul>
+            <ul><li>Multi Pet Quests change (<img src="/images/items/pet-snack.png" alt="Cash Pet Snack"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5460000" target="_blank">Pet Snack</a> for multiple pets)</li></ul>
         </LazyLoad>
     )
 };
@@ -682,7 +677,7 @@ function Awake() {
                     </ul>
                 </li>
                 <li>Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Library"/> Sharenian Knights story added</li>
-                <li>New Event, <img src="https://maplestory.io/api/KMS/339/map/993184000/icon" alt=""/> Awake</li>
+                <li>New Event, <img src="/images/map-icons/awake.png" alt="MapIcon Awake"/> Awake</li>
             </ul>
             <h3>New Features + Changes</h3>
             <ul>
@@ -707,7 +702,7 @@ function Awake() {
                 <li>
                     Auction House changes
                     <ul>
-                        <li><img src="https://maplestory.io/api/GMS/217/item/2434503/icon" alt=""/> Spell Traces can now only be bought or sold in units of 1,000</li>
+                        <li><img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Traces can now only be bought or sold in units of 1,000</li>
                         <li>Job search filters added to search options for armor</li>
                         <li>When registering an item to sell, the item will be searchable after 5 minutes</li>
                     </ul>
@@ -732,14 +727,13 @@ function Awake() {
                     <strong>MVP System changes</strong>
                     <ul>
                         <li>
-                            New rank added, <img src="https://maplestory.io/api/KMS/339/item/3014037/icon" alt=""/> MVP Red, a tier above Diamond
+                            New rank added, <img src="/images/items/glory-of-red.png" alt="Setup Glory of Red"/> MVP Red, a tier above Diamond
                             <ul>
                                 <li>
-                                    Includes a <img src="https://maplestory.io/api/KMS/339/item/2631756/icon" alt=""/> MVP Red Royal Pack that can be claimed once per month per character (all items except Maple Points)
+                                    Includes a <img src="/images/items/mvp-red-royal-pack.png" alt="Use MVP Red Royal Pack"/> MVP Red Royal Pack that can be claimed once per month per character (all items except Maple Points)
                                     <ul>
                                         <li>
-                                            Contains Maple Points, <img src="https://maplestory.io/api/KMS/339/item/1115095/icon" alt=""/> Label and Chat Rings, <img src="https://maplestory.io/api/KMS/339/item/3130001/icon" alt=""/> Togglable Damage Skin (Set-up
-                                            item), <img src="https://maplestory.io/api/KMS/339/item/1143203/icon" alt=""/> Title, <img src="https://maplestory.io/api/KMS/339/item/3700625/icon" alt=""/> Medal, and other special rewards
+                                            Contains Maple Points, <img src="/images/equipment/mvp-chat-ring-red.png" alt="Cash Chat Ring (Red)"/> Label and Chat Rings, <img src="/images/items/mvp-royal-damage-skin.png" alt="Use MVP Royal Damage Skin"/> Togglable Damage Skin (Set-up item), <img src="/images/equipment/born-to-be-mvp-red.png" alt="Eqp Born to Be MVP Red"/> Title, <img src="/images/equipment/mvp-red.png" alt="Setup MVP Red"/> Medal, and other special rewards
                                         </li>
                                     </ul>
                                 </li>
@@ -752,12 +746,11 @@ function Awake() {
                                 <li>Claim period is divided into, Days 1 - 10, Days 11 - 20, and Days 21 - last day of the month</li>
                             </ul>
                         </li>
-                        <li><img src="https://maplestory.io/api/KMS/339/item/3700341/icon" alt=""/> MVP Bronze title stats will be adjusted from 90-day duration to permanent and will be tradable within account</li>
+                        <li><img src="/images/equipment/mvp-bronze-i.png" alt="Setup MVP Bronze I"/> MVP Bronze title stats will be adjusted from 90-day duration to permanent and will be tradable within account</li>
                     </ul>
                 </li>
                 <li>
-                    Maroon in Pantheon sells <img src="https://maplestory.io/api/GMS/217/item/2350004/icon" alt=""/><img src="https://maplestory.io/api/GMS/217/item/2350005/icon" alt=""/> Final Form Main/Sub Color Change Coupons and
-                    <img src="https://maplestory.io/api/GMS/217/item/2350007/icon" alt=""/> Color Reset Coupons
+                    Maroon in Pantheon sells <img src="/images/items/final-form-main-color-change-coupon.png" alt="Use Final Form Main Color Change Coupon"/><img src="/images/items/final-form-sub-color-change-coupon.png" alt="Use Final Form Sub Color Change Coupon"/> Final Form Main/Sub Color Change Coupons and <img src="/images/items/final-form-color-reset-coupon.png" alt="Use Final Form Color Reset Coupon"/> Color Reset Coupons
                 </li>
                 <li>
                     <strong>Map Improvements, maps have more monsters</strong>
@@ -772,7 +765,7 @@ function Awake() {
                         <li>When an Elite Champion is defeated, an Elite Champion Orb will be created similar to Combo Orbs</li>
                     </ul>
                 </li>
-                <li>Reboot Gift Box adjustments, last gift box changed from 72 mil mesos to <img src="https://maplestory.io/api/GMS/217/item/2439306/icon" alt=""/> Reboot Meso Pouch (x3)</li>
+                <li>Reboot Gift Box adjustments, last gift box changed from 72 mil mesos to <img src="/images/items/reboot-meso-pouch.png" alt="Use Reboot Meso Pouch"/> Reboot Meso Pouch (x3)</li>
                 <li><strong>Meso Piggy Bank soon to be removed (January 26)</strong></li>
                 <li>More maps can be accessible for Magnus (Normal, Hard) boss battle</li>
                 <li><strong>Maximum number of damage skins that can be saved on the Damage Skin slots have been changed to 36</strong></li>
@@ -831,11 +824,11 @@ function BigBang() {
             <h3>New Cash Items</h3>
             <ul>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/210.1.1/item/5660000/icon" alt=""/> <a href="https://maplestory.wiki/GMS/210.1.1/item/5660000" target="_blank" rel="noreferrer noopener">Quest Deliverer Thomas</a>: allows to remotely accept an
+                    <img src="/images/items/quest-deliverer-thomas.png" alt="Cash Quest Deliverer Thomas"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/5660000" target="_blank" rel="noreferrer noopener">Quest Deliverer Thomas</a> allows to remotely accept an
                     available quest from anywhere
                 </li>
                 <li>
-                    <img src="https://maplestory.io/api/GMS/210.1.1/item/5660001/icon" alt=""/> <a href="https://maplestory.wiki/GMS/210.1.1/item/5660001" target="_blank" rel="noreferrer noopener">Quest Completer Alice</a>: allows you to complete quests to
+                    <img src="/images/items/quest-completer-alice.png" alt="Cash Quest Completer Alice"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/5660001" target="_blank" rel="noreferrer noopener">Quest Completer Alice</a> allows you to complete quests to
                     NPCs from anywhere
                 </li>
             </ul>
@@ -856,10 +849,9 @@ function BlackHeaven() {
                 <li>Class revamps, Battle Mage, Wild Hunter, Mechanic (Current iteration)</li>
                 <li>New blockbuster, <a href="https://maplestory.fandom.com/wiki/Blockbuster/Black_Heaven" target="_blank" rel="noreferrer noopener">Black Heaven</a></li>
                 <li>
-                    New boss: <img src="/images/map-icons/blockbuster.png" alt="MapIcon BlockBuster"/>
-                    <a href="https://maplestory.fandom.com/wiki/Lotus" target="_blank" rel="noreferrer noopener">Lotus</a>
+                    New boss: <img src="/images/map-icons/blockbuster.png" alt="MapIcon BlockBuster"/> <a href="https://maplestory.fandom.com/wiki/Lotus" target="_blank" rel="noreferrer noopener">Lotus</a>
                 </li>
-                <li>New equipment, <img src="https://maplestory.io/api/GMS/214/item/4310156/icon" alt=""/> Absolab set</li>
+                <li>New equipment, <img src="/images/items/absolab-coin.png" alt="Etc AbsoLab Coin"/> Absolab set</li>
             </ul>
             <h3>New Features + Changes</h3>
             <ul>
@@ -870,7 +862,7 @@ function BlackHeaven() {
                         <li>Rank-up rates also increased for all craftable and purchasable Cubes</li>
                     </ul>
                 </li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2433103/icon" alt=""/> Medals of Honor dropped by bosses have been updated</li>
+                <li><img src="/images/items/boss-medal-of-honor.png" alt="Use Boss Medal of Honor"/> Medals of Honor dropped by bosses have been updated</li>
                 <li><strong>Zeros can now use Damage Skins!</strong></li>
                 <li>Maple Rewards earning limits increased by 50% for both Daily and Monthly limits</li>
                 <li>Indicator for unused SP will no longer appear on 4th Job even if there is SP left</li>
@@ -894,20 +886,13 @@ function BlackMage() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New areas, <img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/>
-                    <a href="https://maplestory.fandom.com/wiki/Category%3AMoonbridge" target="_blank" rel="noreferrer noopener">Moonbridge</a>, <img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/>
-                    <a href="https://maplestory.fandom.com/wiki/Category:Labyrinth_of_Suffering" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering</a>, and <img src="/images/map-icons/limina.png" alt="MapIcon Limen"/>
-                    <a href="https://maplestory.fandom.com/wiki/Category%3ALimina" target="_blank" rel="noreferrer noopener">Limina</a>
+                    New areas, <img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> <a href="https://maplestory.fandom.com/wiki/Category%3AMoonbridge" target="_blank" rel="noreferrer noopener">Moonbridge</a>, <img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> <a href="https://maplestory.fandom.com/wiki/Category:Labyrinth_of_Suffering" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering</a>, and <img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a href="https://maplestory.fandom.com/wiki/Category%3ALimina" target="_blank" rel="noreferrer noopener">Limina</a>
                 </li>
                 <li>
-                    New boss: <a href="https://maplestory.fandom.com/wiki/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Gloom</a>,
-                    <a href="https://maplestory.fandom.com/wiki/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Verus Hilla</a>,
-                    <a href="https://maplestory.fandom.com/wiki/Guard_Captain_Darknell" target="_blank" rel="noreferrer noopener">Guard Captain Darknell</a>,
-                    <a href="https://maplestory.fandom.com/wiki/Black_Mage" target="_blank" rel="noreferrer noopener">Black Mage</a>
+                    New boss: <a href="https://maplestory.fandom.com/wiki/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Gloom</a>, <a href="https://maplestory.fandom.com/wiki/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Verus Hilla</a>, <a href="https://maplestory.fandom.com/wiki/Guard_Captain_Darknell" target="_blank" rel="noreferrer noopener">Guard Captain Darknell</a>, and <a href="https://maplestory.fandom.com/wiki/Black_Mage" target="_blank" rel="noreferrer noopener">Black Mage</a>
                 </li>
                 <li>
-                    <strong>New equipment, </strong><img src="https://maplestory.io/api/GMS/214/item/2439614/icon" alt=""/><strong> Genesis weapons and </strong><img src="https://maplestory.io/api/GMS/214/item/1182285/icon" alt=""/>
-                    <a href="https://maplestory.wiki/GMS/214/item/1182285" target="_blank" rel="noreferrer noopener"><strong>Genesis Badge</strong></a>
+                    <strong>New equipment, </strong><img src="/images/items/sealed-genesis-weapon-box.png" alt="Etc Sealed Genesis Weapon Box"/><strong> Genesis weapons and </strong><img src="/images/equipment/genesis-badge.png" alt="Equip Genesis Badge"/> <a href="https://maplestory.wiki/GMS/214/item/1182285" target="_blank" rel="noreferrer noopener"><strong>Genesis Badge</strong></a>
                 </li>
                 <li>
                     <img src="/class-icons/explorers/shadower/sonic-blow.png" alt="Skill Sonic Blow"/>
@@ -924,17 +909,17 @@ function BlackMage() {
                 <li><strong>Hyper skill points gained at Lv.140, 150, 160, 165, 180, 190</strong></li>
                 <li><strong>Drop rate of Nodestones in Vanishing Journey reduced by 20%</strong></li>
                 <li><strong>All three inner abilities now unlock when the quest is completed at Lv.50</strong></li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2431174/icon" alt=""/> Monsters below Lv.50 no longer drop Medor of Honor</li>
+                <li><img src="/images/items/medal-of-honor.png" alt="Use Medal of Honor"/> Monsters below Lv.50 no longer drop Medal of Honor</li>
                 <li><strong>Total amount of EXP required to level from 200 to 220 reduced by 25%</strong></li>
                 <li>New Maple Guides added for multiple areas</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2435719/icon" alt=""/> <strong>Weekly quest added for Vanishing Journey where completing Vanishing Journey dailies twice during a week will reward the player with 3 Nodestones</strong></li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2030000/icon" alt=""/> Characters are given return scrolls upon making their 1st job advancement</li>
+                <li><img src="/images/items/nodestone.png" alt="Use Nodestone"/> <strong>Weekly quest added for Vanishing Journey where completing Vanishing Journey dailies twice during a week will reward the player with 3 Nodestones</strong></li>
+                <li><img src="/images/items/return-scroll-nearest-town.png" alt="Use Return Scroll"/> Characters are given return scrolls upon making their 1st job advancement</li>
                 <li>Skill UI enlarged</li>
                 <li>Damage Skin UI updated</li>
                 <li><strong>Exclusive notifier for daily and weekly quests added</strong></li>
                 <li>New 1280 x 720 and 1920 x 1080 resolutions added</li>
                 <li>Boss Map Death EXP penalty removed from Ranmaru and Princess No</li>
-                <li>New Guild Skill <img src="https://orangemushroom.files.wordpress.com/2019/12/mileage-encounter.png?w=600" alt="Mileage Encounter"/> Point Accrual, periodic gain of Reward Points for being online</li>
+                <li>New Guild Skill <img src="/class-icons/common/point-accrual.png" alt="Point Accrual"/> Point Accrual, periodic gain of Reward Points for being online</li>
                 <li>Commerci Dungeon + Merchant Union Voyages bosses now drop equipment in Reboot world based on your class</li>
                 <li>Chu Chu Island Monster Park added</li>
             </ul>
@@ -2256,7 +2241,7 @@ function Nova() {
                 <li>5-minute time limit added to obtain rewards before leaving</li>
                 <li>Players can no longer change equipment while sitting on a chair</li>
                 <li>New Skill Effect Transparency Option for pet opacity introduced</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/1712000/icon" alt=""/> Arcane Symbol drop will only be shown to the player who dealt the most damage</li>
+                <li><img src="/images/equipment/arcane-symbol.png" alt=""/> Arcane Symbol drop will only be shown to the player who dealt the most damage</li>
                 <li><img src="https://maplestory.io/api/GMS/214/item/1242103/icon" alt=""/> Von Leon Pirate Set now has an Energy Chain weapon</li>
                 <li>New Character Creation illustrations for Aran, Evan, Mercedes, Phantom, Luminous and Shade</li>
             </ul>
@@ -3046,8 +3031,8 @@ function TuneUp() {
                 <li>Auction House, “List Again” feature added</li>
                 <li>Certain UI screens become semi-transparent when your character goes into battle</li>
                 <li><img src="https://maplestory.io/api/GMS/214/item/3080014/icon" alt=""/> You can use two chair bags instead of just one</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2435719/icon" alt=""/> You can disassemble multiple nodes at once</li>
-                <li><img src="https://maplestory.io/api/GMS/214/item/2435719/icon" alt=""/> You can cancel Nodestone animation by pressing the ESC key</li>
+                <li><img src="/images/items/nodestone.png" alt=""/> You can disassemble multiple nodes at once</li>
+                <li><img src="/images/items/nodestone.png" alt=""/> You can cancel Nodestone animation by pressing the ESC key</li>
                 <li>You can change pages in V Matrix UI with the mouse wheel</li>
                 <li>Tot’s Know-How removed and replaced with a different system</li>
                 <li>Many consumable items have their max stack count increased to 3,000</li>
