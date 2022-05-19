@@ -166,7 +166,7 @@ function BossMatchmaking() {
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong>
-                <img src="/images/equipment/timeless-fennel.png" alt="Eqp Timeless Fennel"/> [Lv. 120 Gear], <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                <img src="/images/equipment/eclectic-fennel.png" alt="Eqp Eclectic Fennel"/> [Lv. 120 Gear], <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
             </li>
             <li>
                 <strong>Normal Mode and Above Rewards:</strong>
@@ -216,7 +216,7 @@ function BossMatchmaking() {
           <ul>
             <li>
                 <strong>Easy/Normal/Hard Mode Rewards:</strong>
-                <img src="/images/equipment/timeless-fennel.png" alt="Eqp Timeless Fennel"/> [Lv. 120 Gear], <img src="/images/equipment/muspell-warrior-hat.png" alt="Eqp Muspell Warrior Hat"/> [<em>(Normal/Hard only)</em> Lv.
+                <img src="/images/equipment/eclectic-fennel.png" alt="Eqp Eclectic Fennel"/> [Lv. 120 Gear], <img src="/images/equipment/muspell-warrior-hat.png" alt="Eqp Muspell Warrior Hat"/> [<em>(Normal/Hard only)</em> Lv.
                 130 Gear], <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's
                 Cube], <img src="/images/items/royal-lion-king-medal.png" alt="Etc Royal Lion King Medal"/> [Von Leon Gear Currency]
                 <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
@@ -272,8 +272,7 @@ function BossMatchmaking() {
           <p>You must complete the main Temple of Time questline to unlock access to Pink Bean. You can start the questline by accepting the quest “<a href="https://maplestory.wiki/GMS/210.1.1/quest/3500" target="_blank" rel="noreferrer noopener">Path to the Past</a>" from the Temple Keeper</p>
           <ul>
             <li>
-                <strong>Normal Mode and Above Rewards:</strong>
-                <img src="/images/equipment/timeless-dead-end.png" alt="Eqp Timeless Dead End"/>[Reverse Gear], <img src="/images/equipment/pensalir-battle-helm.png" alt="Eqp Pensalir Battle Helm"/> [Lv. 140 Gear], <img src=" /images/equipment/black-bean-mark.png" alt="Eqp Black Bean Mark"/>
+                <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/pensalir-battle-helm.png" alt="Eqp Pensalir Battle Helm"/> [Lv. 140 Gear], <img src=" /images/equipment/black-bean-mark.png" alt="Eqp Black Bean Mark"/>
                 <a href="https://maplestory.wiki/GMS/210.1.1/item/1022232" target="_blank" rel="noreferrer noopener">[Black Bean Mark]</a>, <img src=" /images/equipment/golden-clover-belt.png" alt="Eqp Golden Clover Belt"/>
                 <a href="https://maplestory.wiki/GMS/210.1.1/item/1132272" target="_blank" rel="noreferrer noopener">[Golden Clover Belt]</a>, <img src=" /images/equipment/pink-holy-cup.png" alt="Eqp Pink Holy Cup"/>
                 <a href="https://maplestory.wiki/GMS/210.1.1/item/1162025" target="_blank" rel="noreferrer noopener">[Pink Holy Cup]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Rebirth Flames], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's
@@ -479,7 +478,7 @@ function BossMatchmaking() {
           <ul>
               <li>
                   <strong>Normal Mode and Above Rewards:</strong>
-                  <img src="/images/equipment/timeless-fennel.png" alt="Eqp Timeless Fennel"/> [Lv. 120 Gear], <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm"/>
+                  <img src="/images/equipment/eclectic-fennel.png" alt="Eqp Eclectic Fennel"/> [Lv. 120 Gear], <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm"/>
                   <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Amaterasu_Set" target="_blank" rel="noreferrer noopener">[Japanese Armor]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/>
                   <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/>
                   <img src="/images/items/eternal-rebirth-flame.png" alt="Use Eternal Rebirth Flame"/>
