@@ -93,6 +93,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#on-air">On Air</Link></li>
                 <li><Link href="#festival-of-foodies">Festival of Foodies</Link></li>
                 <li><Link href="#double-trouble">Double Trouble Superstars</Link></li>
+                <li><Link href="#blooming-forest">Blooming Forest</Link></li>
             </ul>
             <ArticleHeaderTwo id="bang">Big Bang Update - Dec 2010</ArticleHeaderTwo>
             <BigBang/>
@@ -336,6 +337,8 @@ function UpdateTimelineOverview() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="double-trouble">Double Trouble Superstars Update - Mar 2022</ArticleHeaderTwo>
             <DoubleTroubleSuperstars/>
+            <ArticleHeaderTwo id="blooming-forest">Blooming Forest Update - Apr 2022</ArticleHeaderTwo>
+            <BloomingForest/>
             <AdOutArticle/>
         </EventPage>
     )
@@ -923,6 +926,19 @@ function BlackMage() {
                 <li>Commerci Dungeon + Merchant Union Voyages bosses now drop equipment in Reboot world based on your class</li>
                 <li>Chu Chu Island Monster Park added</li>
             </ul>
+        </LazyLoad>
+    )
+};
+
+function BloomingForest() {
+    return (
+        <LazyLoad height={200} offset={100}>
+            <img className="repository-image" src="/images/info/blooming-forest.png" alt="Blooming Forest"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/73909/updated-may-2-v-232-blooming-forest-patch-notes"/></p>
+            </div>
+            <h3>New Content</h3>
+            <ul><li>New event, 17th Anniversary - Blooming Forest</li></ul>
         </LazyLoad>
     )
 };

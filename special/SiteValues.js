@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 231; 
-export const versionName = "Double Trouble Superstars Update"
+export const version = 232; 
+export const versionName = "Blooming Forest Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
