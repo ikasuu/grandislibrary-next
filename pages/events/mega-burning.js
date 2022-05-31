@@ -41,7 +41,7 @@ function MegaBurning() {
             <h3>Level 30:</h3>
             <ul>
                 <li>
-                    <img src="/images/items/equipment-box-30.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2435742" target="_blank" rel="noreferrer noopener"><strong>[Use] Lv. 30 Equipment Box</strong></a>
+                    <img src="/images/items/equipment-box-30.png" alt="Use Equipment Box 30"/> <a href="https://maplestory.wiki/GMS/214/item/2435742" target="_blank" rel="noreferrer noopener"><strong>[Use] Lv. 30 Equipment Box</strong></a>
                     <ul>
                         <li>Box containing Lv. 30 equipment for your class</li>
                         <li>Box expires after a set date if unopened, items inside are permanent</li>
@@ -51,7 +51,7 @@ function MegaBurning() {
             <h3>Level 100: Permanent Frozen Equipment</h3>
             <ul>
                 <li>
-                    <img src="/images/items/legendary-cryptic-chest.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
+                    <img src="/images/items/legendary-cryptic-chest.png" alt="Use Legendary Cryptic Chest"/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
                             Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
@@ -69,14 +69,14 @@ function MegaBurning() {
             <h3>Level 130:</h3>
             <ul>
                 <li>
-                    <img src="/images/equipment/keep-on-burning.png" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2435743" target="_blank" rel="noreferrer noopener">[Use] Keep on Burning Title Coupon</a></strong>
+                    <img src="/images/equipment/keep-on-burning.png" alt="Use Keep on Burning Coupon"/><strong> <a href="https://maplestory.wiki/GMS/214/item/2435743" target="_blank" rel="noreferrer noopener">[Use] Keep on Burning Title Coupon</a></strong>
                     <ul>
                         <li>Contains the Keep on Burning Title listed below</li>
                         <li>Coupon expires after a set date if unredeemed</li>
                     </ul>
                 </li>
                 <li>
-                    <img src="/images/equipment/keep-on-burning.png" alt=""/> <strong><a href="https://maplestory.wiki/GMS/214/item/3700385">[Set-up] Keep on Burning</a></strong>
+                    <img src="/images/equipment/keep-on-burning.png" alt="Setup Keep on Burning"/> <strong><a href="https://maplestory.wiki/GMS/214/item/3700385">[Set-up] Keep on Burning</a></strong>
                     <ul>
                         <li>Stats last 14 days</li>
                         <li>+10 All Stats</li>

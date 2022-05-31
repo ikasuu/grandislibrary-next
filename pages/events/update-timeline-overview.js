@@ -1681,8 +1681,8 @@ function IsekaiQuartet() {
             </ul>
             <h3>New Cash Items</h3>
             <ul>
-                <li><img src="/images/items/hair-choice-coupon.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433392" target="_blank" rel="noreferrer noopener">Hair Choice Coupon</a> - Replaces REG and VIP coupons</li>
-                <li><img src="/images/items/face-choice-coupon.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433393" target="_blank" rel="noreferrer noopener">Face Choice Coupon</a> - Replaces REG and VIP coupons</li>
+                <li><img src="/images/items/hair-choice-coupon.png" alt="Cash Hair Choice Coupon"/> <a href="https://maplestory.wiki/GMS/214/item/2433392" target="_blank" rel="noreferrer noopener">Hair Choice Coupon</a> - Replaces REG and VIP coupons</li>
+                <li><img src="/images/items/face-choice-coupon.png" alt="Cash Face Choice Coupon"/> <a href="https://maplestory.wiki/GMS/214/item/2433393" target="_blank" rel="noreferrer noopener">Face Choice Coupon</a> - Replaces REG and VIP coupons</li>
             </ul>
         </LazyLoad>
     )
@@ -2249,7 +2249,7 @@ function Nova() {
                 <li>5-minute time limit added to obtain rewards before leaving</li>
                 <li>Players can no longer change equipment while sitting on a chair</li>
                 <li>New Skill Effect Transparency Option for pet opacity introduced</li>
-                <li><img src="/images/equipment/arcane-symbol.png" alt=""/> Arcane Symbol drop will only be shown to the player who dealt the most damage</li>
+                <li><img src="/images/equipment/arcane-symbol.png" alt="Eqp Arcane Symbol"/> Arcane Symbol drop will only be shown to the player who dealt the most damage</li>
                 <li><img src="/images/equipment/royal-von-leon-energy-chain.png" alt="Eqp Royal Von Leon Energy Chain"/> Von Leon Pirate Set now has an Energy Chain weapon</li>
                 <li>New Character Creation illustrations for Aran, Evan, Mercedes, Phantom, Luminous and Shade</li>
             </ul>
@@ -2574,7 +2574,7 @@ function Reboot() {
             <h3>New Features + Changes</h3>
             <ul>
                 <li>MapleTV removed</li>
-                <li><img src="/images/items/owl-of-minerva.png" alt=""/> Owl of Minerva can now search for tradeable cash items</li>
+                <li><img src="/images/items/owl-of-minerva.png" alt="Cash Owl of Minerva"/> Owl of Minerva can now search for tradeable cash items</li>
                 <li>More Star Force maps added</li>
                 <li>Mastery Books can now be rewarded from ingame content</li>
                 <li>Summoned skills' monster kills will no longer give you Souls for Soul Weapon</li>
@@ -2615,8 +2615,8 @@ function Red() {
                 <li>Explorers Revamp (Current iteration)</li>
                 <li><a href="https://maplestory.fandom.com/wiki/Open_Advancement" target="_blank" rel="noreferrer noopener">Open Job Advancement</a> system introduced</li>
                 <li>
-                    <img src="/images/items/master-craftsmans-cube.png" alt=""/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2711005" target="_blank" rel="noreferrer noopener">Master Craftsman Cubes</a> +
-                    <img src="/images/items/meisters-cube.png" alt=""/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2711004" target="_blank" rel="noreferrer noopener">Meister Cubes</a> introduced
+                    <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2711005" target="_blank" rel="noreferrer noopener">Master Craftsman Cubes</a> +
+                    <img src="/images/items/meisters-cube.png" alt="Use Meister's Cube"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2711004" target="_blank" rel="noreferrer noopener">Meister Cubes</a> introduced
                 </li>
                 <li><a href="https://maplestory.wiki/GMS/214/map/820000000" target="_blank" rel="noreferrer noopener">Event Hall</a> added</li>
                 <li><a href="https://youtu.be/3y_k7X4D31k" target="_blank" rel="noreferrer noopener">Smart Mounts</a> introduced (Autopilot mode)</li>
@@ -2895,7 +2895,7 @@ function ShiningStar() {
                 <li>New UI in Skill UI for allocating SP</li>
                 <li><img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20"/><img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30"/> Prices for Mastery Book 20 + 30 lowered and can be stacked now</li>
                 <li><img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Wence's Silent Crusade coin shop now sells Spell Traces</li>
-                <li><img src="/images/items/reward-points.png" alt=""/> Maple Reward system introduced</li>
+                <li><img src="/images/items/reward-points.png" alt="Use Reward Points"/> Maple Reward system introduced</li>
             </ul>
         </LazyLoad>
     )

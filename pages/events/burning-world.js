@@ -106,7 +106,7 @@ function BurningWorld() {
                     </ul>
                 </li>
                 <li>
-                    <img src="/images/items/hyper-teleport-rock.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/5040004" target="_blank" rel="noreferrer noopener">[Cash] Hyper Teleport Rock (30 Day)</a>
+                    <img src="/images/items/hyper-teleport-rock.png" alt="Cash Hyper Teleport Rock"/> <a href="https://maplestory.wiki/GMS/214/item/5040004" target="_blank" rel="noreferrer noopener">[Cash] Hyper Teleport Rock (30 Day)</a>
                     <ul>
                         <li>Allows you to teleport anywhere from the World Map</li>
                     </ul>

@@ -33,7 +33,7 @@ function MapleRelay() {
             <p>There is also a Keyboard Shortcut to open the Maple Relay UI that you can assign. Another way to open the UI is by accessing it from the star event notifier on the left side of the screen</p>
             <h2>Rewards</h2>
             <p>Rewards may vary between each Maple Relay event but primarily you will get <img src="/images/items/reward-points.png" alt="Reward Points"/> <a rel="noreferrer noopener" href="https://support-maplestory.nexon.net/hc/en-us/articles/204088489-What-is-the-Maple-Rewards-System-" target="_blank">Reward Points</a> which can be used in the Maple Rewards Shop. Occasionally, <img src="/images/items/maple-point-gift-certificate.png" alt="Use Maple Point Gift Certificate"/> <a rel="noreferrer noopener" href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank">Maple Points</a> are also rewarded which function just like NX and do not expire</p>
-            <p>The "Total Claimed" rewards differ each Maple Relay but normally the 80 total claims reward is a <img src="/images/items/relay-master-box.png" alt="Use Relay Master Box"/> Relay Master Box which you can choose to either obtain an <img src="/images/equipment/absolab-saber.png" alt=""/><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2436283" target="_blank">Absolab Weapon</a> for your class or <img src="/images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2630705" target="_blank">Dominator Pendant</a>. Both items are special in which they have fixed stats that cannot be changed except for their Bonus Stats which can be Rebirth Flamed</p>
+            <p>The "Total Claimed" rewards differ each Maple Relay but normally the 80 total claims reward is a <img src="/images/items/relay-master-box.png" alt="Use Relay Master Box"/> Relay Master Box which you can choose to either obtain an <img src="/images/equipment/absolab-saber.png" alt="Eqp Absolab Saber"/><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2436283" target="_blank">Absolab Weapon</a> for your class or <img src="/images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2630705" target="_blank">Dominator Pendant</a>. Both items are special in which they have fixed stats that cannot be changed except for their Bonus Stats which can be Rebirth Flamed</p>
             <AdInArticleBanner/>
             <h3>Notes</h3>
             <hr/>
@@ -46,7 +46,7 @@ function MapleRelay() {
             <p>Daily Rewards:</p>
             <ul>
                 <li><img src="/images/items/reward-points.png" alt="Use Reward Points"/> 100 &amp; 500 Maple Reward Points</li>
-                <li><img src="/images/items/maple-point-gift-certificate.png" alt=""/> Maple Points</li>
+                <li><img src="/images/items/maple-point-gift-certificate.png" alt="Use Maple Points Gift Certificate"/> Maple Points</li>
                 <li><img src="/images/items/rise-coin.png" alt="Etc Rise Coin"/> Rise Event Coins</li>
             </ul>
             <p>Total Claimed Rewards:</p>

@@ -34,19 +34,19 @@ function TeraBurning() {
             <h3>Level 10: Pet with Auto Loot</h3>
             <ul>
                 <li>
-                    <img src="/images/items/mysterious-cryptic-gift-box.png" alt=""/><strong> <a href="https://maplestory.wiki/GMS/214/item/2433442" target="_blank" rel="noreferrer noopener">[Use] Mysterious Cryptic Gift Box</a></strong> Contains a pet
+                    <img src="/images/items/mysterious-cryptic-gift-box.png" alt="Use Mysterious Cryptic Gift Box"/><strong> <a href="https://maplestory.wiki/GMS/214/item/2433442" target="_blank" rel="noreferrer noopener">[Use] Mysterious Cryptic Gift Box</a></strong> Contains a pet
                     <strong></strong> Snail that lasts 5 hours of active play time
                     <ul>
                         <li>Box expires in 7-days if unopened</li>
-                        <li>Pet comes with <img src="/class-icons/common/item-pouch-skill.png" alt=""/> Meso Magnet and Item Pouch</li>
-                        <li>Pet Cannot be moved to Cash Inventory and cannot be revived with <img src="/images/items/premium-water-of-life.png" alt=""/> Water of Life</li>
+                        <li>Pet comes with <img src="/class-icons/common/item-pouch-skill.png" alt="Skill Item Pouch Skill"/> Meso Magnet and Item Pouch</li>
+                        <li>Pet Cannot be moved to Cash Inventory and cannot be revived with <img src="/images/items/premium-water-of-life.png" alt="Cash Premium Water of Life"/> Water of Life</li>
                     </ul>
                 </li>
             </ul>
             <h3>Level 30:</h3>
             <ul>
                 <li>
-                    <img src="/images/items/equipment-box-30.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2435742" target="_blank" rel="noreferrer noopener"><strong>[Use] Lv. 30 Equipment Box</strong></a>
+                    <img src="/images/items/equipment-box-30.png" alt="Use Equipment Box 30"/> <a href="https://maplestory.wiki/GMS/214/item/2435742" target="_blank" rel="noreferrer noopener"><strong>[Use] Lv. 30 Equipment Box</strong></a>
                     <ul>
                         <li>Box containing Lv. 30 equipment for your class</li>
                         <li>Box expires after a set date if unopened, items inside are permanent</li>
@@ -56,7 +56,7 @@ function TeraBurning() {
             <h3>Level 100: Permanent Frozen Equipment</h3>
             <ul>
                 <li>
-                    <img src="/images/items/legendary-cryptic-chest.png" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
+                    <img src="/images/items/legendary-cryptic-chest.png" alt="Use Legendary Cryptic Chest"/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
                             Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat" width="33" height="24"/>

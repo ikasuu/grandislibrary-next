@@ -197,8 +197,8 @@ function BossMatchmaking() {
                 <img src="/images/equipment/pierre-hat.png" alt="Eqp Pierre Hat"/>
                 <img src="/images/equipment/von-bon-helmet.png" alt="Eqp Von Bon Helmet"/>
                 <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Root Abyss Hat], <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's
-                Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coin], <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> [Yggdrasil Coin], <img src="/images/items/crimson-queens-throne.png" alt=""/><img src="/images/items/happy-pierre-chair.png" alt=""/><img src="/images/items/von-bons-von-chair.png" alt=""/>
-                <img src="/images/items/vellum-rock-chair.png" alt=""/>[Chair]
+                Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coin], <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> [Yggdrasil Coin], <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/><img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/><img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/>
+                <img src="/images/items/vellum-rock-chair.png" alt="Setup Vellum Rock Chair"/>[Chair]
             </li>
             <li>
                 <strong>Chaos Mode only Rewards:</strong> <img src="/images/equipment/queens-tiara.png" alt="Eqp Queen's Tiara"/>
@@ -287,7 +287,7 @@ function BossMatchmaking() {
           <p><strong>[Easy Lv. 140+]</strong></p>
           <p>No pre-quests</p>
           <p><strong>[Normal Lv. 170+]</strong></p>
-          <p><img src="/images/npc/chief-alex.png" alt=""/></p>
+          <p><img src="/images/npc/chief-alex.png" alt="NPC Chief Alex"/></p>
           <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestory.fandom.com/wiki/Quests/47/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestory.wiki/GMS/210.1.1/map/271010000" target="_blank" rel="noreferrer noopener">Future Henesys</a></p>
           <ul>
             <li>
@@ -414,7 +414,7 @@ function BossMatchmaking() {
           <p>You must complete the Moonbridge storyline and defeat Story Mode Gloom in order to unlock access to Gloom</p>
           <ul>
             <li>
-                <strong>Normal/Hard Mode Rewards: </strong><img src="/images/equipment/endless-terror.png" alt=""/>
+                <strong>Normal/Hard Mode Rewards: </strong><img src="/images/equipment/endless-terror.png" alt="Eqp Endless Terror"/>
                 <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/218/item/1113306" target="_blank">[(Chaos Only) Endless Terror Ring]</a>
                 <img src="/images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [Bonus Occult Cube], <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/>
                 <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Spark_of_Determination" target="_blank">[Spark of Determination]</a>, <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
@@ -443,7 +443,7 @@ function BossMatchmaking() {
           <p>You must complete the Limina storyline and defeat Story Mode Darknell to unlock access to Darknell</p>
           <ul>
             <li>
-                <strong>Normal/Hard Mode Rewards:</strong> <img src="/images/equipment/commanding-force-earring.png" alt=""/>
+                <strong>Normal/Hard Mode Rewards:</strong> <img src="/images/equipment/commanding-force-earring.png" alt="Eqp Commanding Force Earrings"/>
                 <a href="https://maplestory.wiki/GMS/218/item/1032316" target="_blank" rel="noreferrer noopener">[(Hard Only) Commanding Force Earrings]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [Bonus Occult Cube], <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> [Spark of Determination], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
