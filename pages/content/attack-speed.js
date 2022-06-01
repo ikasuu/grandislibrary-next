@@ -132,7 +132,7 @@ function AttackSpeed() {
             <h2>Speed Cap 1 - The Soft Speed Cap</h2>
             <p>The first speed cap is the Soft Speed Cap, which is Fastest (2). Most attack speed boosting sources and skills cannot bypass the soft speed cap, including, but not limited to the following:</p>
             <ul>
-                <li><img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion" data-image-key="Skill_Speed_Infusion.png" data-image-name="Skill Speed Infusion.png" width={32} height={32}/> <a href="https://maplestory.fandom.com/wiki/Decent_Speed_Infusion" target="_blank" rel="noopener noreferrer">Decent Speed Infusion</a></li>
+                <li><img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion" data-image-key="Skill_Speed_Infusion.png" data-image-name="Skill Speed Infusion.png"/> <a href="https://maplestory.fandom.com/wiki/Decent_Speed_Infusion" target="_blank" rel="noopener noreferrer">Decent Speed Infusion</a></li>
                 <li>+1 Attack Speed Inner Ability</li>
                 <li>Almost all Weapon Booster skills from your class' skills</li>
             </ul>

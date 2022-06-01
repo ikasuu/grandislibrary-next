@@ -8,7 +8,7 @@ import { weapons, secondaryWeapons, weaponConsumable } from '../../special/SiteV
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
-import AdClassOverview from '../Ads';
+import { AdClassOverview } from '../Ads';
 
 /*
 This file contains the intro contents of a Class Overview
