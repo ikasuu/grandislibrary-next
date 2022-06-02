@@ -68,7 +68,7 @@ function BurningWorld() {
                     </ul>
                 </li>
                 <li>
-                    <img class="" src="/images/items/mastery-box.png" alt="Use Mastery Box" width="29" height="24"/>
+                    <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/>
                     <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener"> [Use] Mastery Box (x8)</a>
                 </li>
                 <li>

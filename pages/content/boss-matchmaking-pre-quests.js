@@ -393,7 +393,7 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450004000" target="_blank" rel="noreferrer noopener">Lachelein: Nightmare Clocktower</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="gollux"><img src="/images/map-icons/gollux.png" alt="MapIcon GiantVellud"/> Gollux</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="gollux"><img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> Gollux</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Hard/Hell Lv. 180]</strong></p>
           <p>You can enter the Gollux area without any pre-quests. Enter through the Dimensional Mirror. To gain access to Gollux, you must complete the quest “[Gollux] The Cracks of Corruption”. The quest consists of only dialogue</p>
           <ul>

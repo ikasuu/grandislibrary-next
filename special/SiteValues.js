@@ -147,7 +147,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/maple-world-goddess-blessing.png"],
         "animations": ["https://media4.giphy.com/media/AV4drI0ly2fYImnP3H/giphy.gif"],
         "type": "Buff",
-        "desc": "Increases the effects of <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior' width='32' height='32'> greatly and grants increased %Damage"
+        "desc": "Increases the effects of <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> greatly and grants increased %Damage"
     },
     expWarrior:{
         "name": "Blitz Shield",
@@ -184,7 +184,7 @@ export const commonFifth = {
         "type": "Summon",
         "desc": "Transforms Phoenix, Frosprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix' width='32' height='32'/> <img class='icon' src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/> <img class='icon' src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/> is active"
+            "Can only be used when <img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix'/> <img class='icon' src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/> <img class='icon' src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/> is active"
         ]
     },
     expPBowman: {
@@ -195,7 +195,7 @@ export const commonFifth = {
         "animations": ["https://media0.giphy.com/media/ZlMeLcuyoa4oW2el4Z/giphy.gif"],
         "desc": "Transforms Phoenix, Frosprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix' width='32' height='32'/> <img class='icon' src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/> <img class='icon' src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/> is active"
+            "Can only be used when <img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix'/> <img class='icon' src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/> <img class='icon' src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/> is active"
         ]
     },
     expThief: {
@@ -205,9 +205,9 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/shadow-walker.png"],
         "animations": ["https://media4.giphy.com/media/KZvjAfaZInF431yAcH/giphy.gif"],
         "type": "Buff",
-        "desc": "Activates a special <img width='32' height='32' src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'> where attacking will not cancel the buff",
+        "desc": "Activates a special <img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'> where attacking will not cancel the buff",
         "details": [
-            "Additionally increases %Final Damage added on top of <img width='32' height='32' src='/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'>"
+            "Additionally increases %Final Damage added on top of <img src='/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'>"
         ]
     },
     expPirate: {
@@ -308,7 +308,7 @@ export const commonFifth = {
         "type": "Attack / Buff",
         "desc": "Deals a massive attack to nearby enemies while granting a buff that prevents you from one fatal blow",
         "details": [
-            "Functions exactly the same as Bishop's <img width='32' height='32' src='/class-icons/explorers/bishop/heavens-door.png' alt='Skill Heaven's Door'> Heaven's Door"
+            "Functions exactly the same as Bishop's <img src='/class-icons/explorers/bishop/heavens-door.png' alt='Skill Heaven's Door'> Heaven's Door"
         ]
     },
     grandisGoddessBlessingNV:{
@@ -380,10 +380,10 @@ export const commonFifth = {
         "type": "Summon",
         "desc": "Randomly summons two Sengoku heroes to fight alongside you while providing a buff",
         "details": [
-            "<strong><img class='' src='https://maplestory.io/api/GMS/210.1.1/npc/9130005/icon' width='51' height='65' data-v-69bdc78a=''/>[Uesugi Kenshin]: </strong>Slashes her blade at nearby enemies<ul><li>Increases %Ignore DEF</li></ul>",
-            "<strong><img class='' src='https://maplestory.io/api/GMS/210.1.1/npc/9130007/icon' width='61' height='93' data-v-69bdc78a=''/>[Tsuchimikado Haruaki]: </strong>Swings his fan creating a wave of magic<ul><li>Increases %Damage Reduction</li></ul>",
-            "<strong><img class='' src='https://maplestory.io/api/GMS/210.1.1/npc/9000425/icon' width='55' height='74' data-v-69bdc78a=''/>[Ayame]: </strong>Shoots her rifle forward<ul><li>Increases %Crit Damage</li></ul>",
-            "<img class='' src='https://maplestory.io/api/GMS/210.1.1/npc/9000427/icon' width='72' height='76' data-v-69bdc78a=''/>[Takeda Shingen]: </strong>Flags strike down on nearby enemies<ul><li>Increases Attack and Magic Attack</li></ul>"
+            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9130005/icon'/>[Uesugi Kenshin]: </strong>Slashes her blade at nearby enemies<ul><li>Increases %Ignore DEF</li></ul>",
+            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9130007/icon'/>[Tsuchimikado Haruaki]: </strong>Swings his fan creating a wave of magic<ul><li>Increases %Damage Reduction</li></ul>",
+            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9000425/icon'/>[Ayame]: </strong>Shoots her rifle forward<ul><li>Increases %Crit Damage</li></ul>",
+            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9000427/icon'/>[Takeda Shingen]: </strong>Flags strike down on nearby enemies<ul><li>Increases Attack and Magic Attack</li></ul>"
         ]
     },
     princessSakunoBlessing:{
@@ -520,9 +520,9 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/loaded-dice.png"],
         "animations": ["https://media0.giphy.com/media/3o34vbKGyVYywzT5tB/giphy.gif"],
         "type": "Buff",
-        "desc": "After casting this skill, the next time you use <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice' width='32' height='32'/> Roll of the Dice, you'll throw an additional dice of your choosing",
+        "desc": "After casting this skill, the next time you use <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/> Roll of the Dice, you'll throw an additional dice of your choosing",
         "details": [
-            "Classes without <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice' width='32' height='32'/> will be given a special skill to choose their desired number",
+            "Classes without <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/> will be given a special skill to choose their desired number",
             "<strong>[Passive]</strong>: Permanently grants flat Attack"
         ]
     },

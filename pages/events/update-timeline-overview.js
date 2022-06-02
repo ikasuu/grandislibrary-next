@@ -494,7 +494,7 @@ function Ark() {
                     <a href="https://maplestory.wiki/GMS/214/item/4001890" target="_blank" rel="noreferrer noopener">Stone Cobweb Droplet</a> to obtain <img src="/images/items/arachno-coin.png" alt="Etc Arachno Coin"/> <a href="https://maplestory.fandom.com/wiki/Arachno_Coin" target="_blank" rel="noreferrer noopener">Arachno Coins</a> to purchase Arcane Umbra equipment
                 </li>
                 <li>
-                    Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Library"/> <a href="https://www.youtube.com/watch?v=f4bzrRnN2Uk" target="_blank" rel="noreferrer noopener">Shadow Alchemist</a> story added
+                    Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/> <a href="https://www.youtube.com/watch?v=f4bzrRnN2Uk" target="_blank" rel="noreferrer noopener">Shadow Alchemist</a> story added
                 </li>
                 <li>New storyline, <a href="https://maplestory.fandom.com/wiki/Category:Captain_Vaga" target="_blank" rel="noreferrer noopener">Captain Vaga</a> (Stellar Detectives prequel)</li>
                 <li>New blockbuster: <a href="https://maplestory.fandom.com/wiki/Blockbuster/Monad" target="_blank" rel="noreferrer noopener">Monad</a></li>
@@ -565,7 +565,7 @@ function Ascension() {
                 <li>Re-buy button for items you’ve recently sold to NPC Vendors</li>
                 <li>Dedicated Mount skills tab and Guild skill tab in your Character Info UI</li>
                 <li>NPCs now have distinct icons depending on their function</li>
-                <li>Quest notifications that appear above your character’s head have been moved to the left side of the screen <img src="/images/info/lightbulb.png" alt="MapleStory_qjjMOLZewp" width="48" height="45"/></li>
+                <li>Quest notifications that appear above your character’s head have been moved to the left side of the screen <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/></li>
                 <li>Different icons will be shown for different notification types (Lightbulb, star, etc)</li>
                 <li>New Medal UI where most medals can now be reissued with a fee</li>
                 <li>Unused AP/SP after leveling-up, a notification will be displayed at the bottom of the screen</li>
@@ -679,7 +679,7 @@ function Awake() {
                         <li>[Mechanic] <img src="/class-icons/resistance/mechanic/jet-booster.png" alt="Skill Mechanic Dash"/> Jet Booster</li>
                     </ul>
                 </li>
-                <li>Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Library"/> Sharenian Knights story added</li>
+                <li>Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/> Sharenian Knights story added</li>
                 <li>New Event, <img src="/images/map-icons/awake.png" alt="MapIcon Awake"/> Awake</li>
             </ul>
             <h3>New Features + Changes</h3>
@@ -1485,7 +1485,7 @@ function GrandAthenaeum() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New Story Theme Dungeon, <img class="" src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Library"/>
+                    New Story Theme Dungeon, <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/>
                     <a href="https://strategywiki.org/wiki/MapleStory/Grand_Athenaeum" target="_blank" rel="noreferrer noopener">Grand Athenaeum</a>
                 </li>
                 <li>New content, <a href="https://www.youtube.com/watch?v=DL-0-XgM2x4" target="_blank" rel="noreferrer noopener">Boss Arena</a></li>
@@ -1698,7 +1698,7 @@ function KerningCitySuperstars() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New Theme Dungeon, <img class="" src="/images/map-icons/kerning-tower.png" alt="MapIcon KerningTower"/> <a href="https://maplestory.fandom.com/wiki/Category%3AKerning_Tower" target="_blank" rel="noreferrer noopener">Kerning Tower</a> (Kerning Square Revamp)
+                    New Theme Dungeon, <img src="/images/map-icons/kerning-tower.png" alt="MapIcon KerningTower"/> <a href="https://maplestory.fandom.com/wiki/Category%3AKerning_Tower" target="_blank" rel="noreferrer noopener">Kerning Tower</a> (Kerning Square Revamp)
                 </li>
                 <li>
                     <strong><a href="http://maplestory.nexon.net/news/21036/updated-introducing-the-maple-value-points-mvp-service" target="_blank" rel="noreferrer noopener">MVP System</a> introduced</strong>
@@ -1821,7 +1821,7 @@ function LifestylePinkBeany() {
                 <p><TabLink url="http://maplestory.nexon.net/news/30735/updated-v-195-lifestyle-of-the-pink-and-beany-patch-notes"/></p>
             </div>
             <h3>New Content</h3>
-            <ul><li>New Theme Dungeon: <img width="38" height="38" src="/images/map-icons/fox-valley.png" alt="MapIcon foxvillage"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category%3AFox_Valley" target="_blank">Fox Valley</a></li></ul>
+            <ul><li>New Theme Dungeon: <img src="/images/map-icons/fox-valley.png" alt="MapIcon Fox Valley"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category%3AFox_Valley" target="_blank">Fox Valley</a></li></ul>
             <h3>New Features + Changes</h3>
             <ul><li>Frozen gear reverted to match the red art style used in KMS</li></ul>
         </LazyLoad>
@@ -1907,13 +1907,12 @@ function MarkOfHonor() {
                     New area, <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/> <a href="https://maplestory.fandom.com/wiki/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Root Abyss</a>
                 </li>
                 <li>
-                    New equipment, <img src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm" width="36" height="28"/>
-                    <img src="/images/equipment/eagle-eye-warrior-armor.png" alt="Eqp Eagle Eye Warrior Armor" width="29" height="24"/>
-                    <img src="/images/equipment/trixter-warrior-pants.png" alt="Eqp Trixter Warrior Pants" width="23" height="28"/>
+                    New equipment, <img src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/>
+                    <img src="/images/equipment/eagle-eye-warrior-armor.png" alt="Eqp Eagle Eye Warrior Armor"/>
+                    <img src="/images/equipment/trixter-warrior-pants.png" alt="Eqp Trixter Warrior Pants"/>
                     <img src="/images/equipment/fafnir-mistilteinn.png" alt="Eqp Fafnir Mistilteinn"/> Lv.150 Root Abyss set, <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm"/>
-                    <img src="/images/equipment/amaterasus-epaulet.png" alt="Eqp Amaterasu's Epaulet" width="27" height="26"/>
-                    <img src="/images/equipment/amaterasus-nimbus-sword.png" alt="Eqp Tsukuyomi's Execution Sword" width="36" height="29"/> Lv. 150 Japanese
-                    Myth Armor
+                    <img src="/images/equipment/amaterasus-epaulet.png" alt="Eqp Amaterasu's Epaulet"/>
+                    <img src="/images/equipment/amaterasus-nimbus-sword.png" alt="Eqp Tsukuyomi's Execution Sword"/> Lv. 150 Japanese Myth Armor
                 </li>
                 <li>New equipment slot, <a href="https://maplestory.fandom.com/wiki/Totem" target="_blank" rel="noreferrer noopener">Totems</a></li>
                 <li>
@@ -2018,7 +2017,7 @@ function MushroomShrineTales() {
                 <p><TabLink url="http://maplestory.nexon.net/news/16847/v-176-mushroom-shrine-tales-patch-notes"/></p>
             </div>
             <h3>New Content</h3>
-            <ul><li><img width="38" height="38" src="/images/map-icons/mushroom-shrine.png" alt="MapIcon jipangu"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category:Mushroom_Shrine" target="_blank">Mushroom Shrine</a> Revamped</li></ul>
+            <ul><li><img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon jipangu"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category:Mushroom_Shrine" target="_blank">Mushroom Shrine</a> Revamped</li></ul>
         </LazyLoad>
     )
 };
@@ -2036,7 +2035,7 @@ function Mutiny() {
                     New boss, <img src="/images/map-icons/hilla.png" alt="MapIcon Hilla"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Hilla" target="_blank">Hilla</a>
                 </li>
                 <li>
-                    New items, <img src="/images/equipment/necro-terror.png" alt="Eqp Necro Terror"/> Necro set, <img src="/images/items/pet-box-blackheart.png" alt="Use Pet Box Blackheart"/><img src="/images/items/blackheart.png" alt="Cash Blackheart"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5000217" target="_blank">Blackheart pet</a>, <img width="32" height="30" src="/images/equipment/will-o-the-wisps.png" alt="Eqp Will o' the Wisps"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/1032136" target="_blank">Will o' the Wisps</a>, <img src="/images/equipment/stone-of-eternal-life.png" alt="Eqp Stone of Eternal Life"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/1162009" target="_blank">Stone of Eternal Life</a>
+                    New items, <img src="/images/equipment/necro-terror.png" alt="Eqp Necro Terror"/> Necro set, <img src="/images/items/pet-box-blackheart.png" alt="Use Pet Box Blackheart"/><img src="/images/items/blackheart.png" alt="Cash Blackheart"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5000217" target="_blank">Blackheart pet</a>, <img src="/images/equipment/will-o-the-wisps.png" alt="Eqp Will o' the Wisps"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/1032136" target="_blank">Will o' the Wisps</a>, <img src="/images/equipment/stone-of-eternal-life.png" alt="Eqp Stone of Eternal Life"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/1162009" target="_blank">Stone of Eternal Life</a>
                 </li>
                 <li>New content, <a rel="noreferrer noopener" href="https://gamerbewbs.wordpress.com/2012/08/11/gms-mutiny-spiegelmanns-gonzo-gallery-guide/" target="_blank">Spiegelmann’s Gonzo Gallery</a></li>
                 <li>
@@ -2047,7 +2046,7 @@ function Mutiny() {
                     </ul>
                 </li>
                 <li>
-                    <img width="38" height="38" src="/images/map-icons/golden-temple.png" alt="MapIcon GoldTempleTH"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category:Golden_Temple" target="_blank">Golden Temple</a> revamped into Theme Dungeon (current iteration)
+                    <img src="/images/map-icons/golden-temple.png" alt="MapIcon Golden Temple"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category:Golden_Temple" target="_blank">Golden Temple</a> revamped into Theme Dungeon (current iteration)
                 </li>
             </ul>
             <h3>New Features + Changes</h3>
@@ -2220,7 +2219,7 @@ function Nova() {
                     Boss revamp, <img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> <a href="https://maplestory.fandom.com/wiki/Papulatus" target="_blank" rel="noreferrer noopener">Papulatus</a>
                 </li>
                 <li>
-                    Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Library"/> <a href="https://maplestory.fandom.com/wiki/Ryude" target="_blank" rel="noreferrer noopener">Winter Bard</a> story added
+                    Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/> <a href="https://maplestory.fandom.com/wiki/Ryude" target="_blank" rel="noreferrer noopener">Winter Bard</a> story added
                 </li>
                 <li>
                     New 5th job skills (<img src="/class-icons/5th-job/erda-shower.png" alt="Skill Erda Shower"/> Erda Shower, common class skills)
@@ -2527,7 +2526,7 @@ function PixelParty() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    <img src="/images/equipment/roro-the-familiar-manager.png" alt="Eqp Roro the Familiar Manager" width="30" height="36"/> <strong><a href="https://maplestory.fandom.com/wiki/Familiars" target="_blank" rel="noreferrer noopener">Familiar System</a> Revamp - was disabled until Rise: Surge of Power update after being heavily broken on release</strong>
+                    <img src="/images/equipment/roro-the-familiar-manager.png" alt="Eqp Roro the Familiar Manager"/> <strong><a href="https://maplestory.fandom.com/wiki/Familiars" target="_blank" rel="noreferrer noopener">Familiar System</a> Revamp - was disabled until Rise: Surge of Power update after being heavily broken on release</strong>
                 </li>
                 <li><strong>Gollux Revamp (Current iteration)</strong></li>
             </ul>
@@ -2724,7 +2723,7 @@ function Rise() {
                     New area, <img src="/images/map-icons/ristonia.png" alt="MapIcon Ristonia"/> <a href="https://maplestory.fandom.com/wiki/Category%3ARistonia" target="_blank" rel="noreferrer noopener">Ristonia</a>
                 </li>
                 <li>
-                    New area, <img src="/images/map-icons/reverse-city.png" alt="MapIcon Reverse City" width="32" height="34"/> <a href="https://maplestory.fandom.com/wiki/Category%3AReverse_City" target="_blank" rel="noreferrer noopener">Reverse City</a>
+                    New area, <img src="/images/map-icons/reverse-city.png" alt="MapIcon Reverse City"/> <a href="https://maplestory.fandom.com/wiki/Category%3AReverse_City" target="_blank" rel="noreferrer noopener">Reverse City</a>
                 </li>
                 <li>
                     New area, <img src="/images/map-icons/yum-yum-island.png" alt="MapIcon Yum Yum Island"/> <a href="https://maplestory.fandom.com/wiki/Category:Yum_Yum_Island" target="_blank" rel="noreferrer noopener">Yum Yum Island</a>
@@ -2808,7 +2807,7 @@ function RisingHeroesElite() {
             <ul>
                 <li>New class, <a href="https://maplestory.fandom.com/wiki/Shade" target="_blank" rel="noreferrer noopener">Shade</a></li>
                 <li>
-                    New area, <img class="" src="/images/map-icons/fox-valley.png" alt="MapIcon foxvillage"/>
+                    New area, <img src="/images/map-icons/fox-valley.png" alt="MapIcon Fox Valley"/>
                     <a href="https://maplestory.fandom.com/wiki/Category:Vulpes" target="_blank" rel="noreferrer noopener">Fox Point Village</a> (Vulpes)
                 </li>
                 <li>New dungeon, <a href="https://strategywiki.org/wiki/MapleStory/Tower_of_Oz" target="_blank" rel="noreferrer noopener">Tower of Oz</a></li>
@@ -2993,7 +2992,7 @@ function Tempest() {
                     New class, <a href="https://maplestory.fandom.com/wiki/Luminous" target="_blank" rel="noreferrer noopener">Luminous</a>, <a href="https://maplestory.fandom.com/wiki/Kaiser" target="_blank" rel="noreferrer noopener">Kaiser</a>, <a href="https://maplestory.fandom.com/wiki/Angelic_Buster" target="_blank" rel="noreferrer noopener">Angelic Buster</a>
                 </li>
                 <li>
-                    New area, <img src="/images/map-icons/pantheon.png" alt="MapIcon Pantheon"/> <a href="https://maplestory.fandom.com/wiki/Category:Pantheon" target="_blank" rel="noreferrer noopener">Pantheon</a>, <img class="" src="/images/map-icons/heliseum.png" alt="MapIcon helisium"/> <a href="https://maplestory.fandom.com/wiki/Category%3AHeliseum" target="_blank" rel="noreferrer noopener">Heliseum</a>
+                    New area, <img src="/images/map-icons/pantheon.png" alt="MapIcon Pantheon"/> <a href="https://maplestory.fandom.com/wiki/Category:Pantheon" target="_blank" rel="noreferrer noopener">Pantheon</a>, <img src="/images/map-icons/heliseum.png" alt="MapIcon helisium"/> <a href="https://maplestory.fandom.com/wiki/Category%3AHeliseum" target="_blank" rel="noreferrer noopener">Heliseum</a>
                 </li>
                 <li>
                     New boss, <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestory.fandom.com/wiki/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a>

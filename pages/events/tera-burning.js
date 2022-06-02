@@ -59,8 +59,8 @@ function TeraBurning() {
                     <img src="/images/items/legendary-cryptic-chest.png" alt="Use Legendary Cryptic Chest"/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
-                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
-                            <img src="/images/equipment/frozen-suit.png" alt="Eqp Onyx Maple Suit" width="28" height="29"/>
+                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat"/>
+                            <img src="/images/equipment/frozen-suit.png" alt="Eqp Onyx Maple Suit"/>
                             <img src="/images/equipment/frozen-cape.png" alt="Eqp Onyx Maple Cape"/> and <strong></strong>
                             <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">Mastery Boxes (x8)</a>
                             <ul>
@@ -78,7 +78,7 @@ function TeraBurning() {
                     <img src="/images/items/root-abyss-set-box.png" alt="Use Root Abyss Set Box"/><strong> <a href="https://maplestory.wiki/GMS/214/item/2439179">[Use] Root Abyss Set Box (Time-Restricted)</a></strong>
                     <ul>
                         <li>
-                            Contains Lv. 150 70% Spell Traced, Epic Potential Root Abyss Gear <img width="36" height="28" src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/><img width="29" height="24" src="/images/equipment/eagle-eye-warrior-armor.png" alt="Eqp Eagle Eye Warrior Armor"/><img width="23" height="28" src="/images/equipment/trixter-warrior-pants.png" alt="Eqp Trixter Warrior Pants"/>
+                            Contains Lv. 150 70% Spell Traced, Epic Potential Root Abyss Gear <img src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/><img src="/images/equipment/eagle-eye-warrior-armor.png" alt="Eqp Eagle Eye Warrior Armor"/><img src="/images/equipment/trixter-warrior-pants.png" alt="Eqp Trixter Warrior Pants"/>
                             <ul>
                                 <li>Consists of Hat, Top, Bottom, and Weapon</li>
                             </ul>
