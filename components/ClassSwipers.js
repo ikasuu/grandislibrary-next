@@ -54,9 +54,17 @@ const ClassFigure = styled(Figure.Image)`
     }
 `;
 
+// Styling for the title + black bar on swiper images
+const FilterTitle = styled.p`
+    opacity: 0;
+    display: inline;
+    position: absolute;
+`;
+
 export function ClassGroupContainer({classes, classGroup}){
     return(
         <ClassContainer>
+            {classes.map(job => <FilterTitle>{job[1]}</FilterTitle>)}
             <LazyLoad height={200} offset={100}>
                 {classes.map(job => 
                     <Link href={`/${classGroup}/${job[0]}`} key={job}>

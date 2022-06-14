@@ -18,6 +18,13 @@
     ],
     "recent": [
         {
+            "title": "Final Weekend to Claim Destiny Pre-Registration Gift!",
+            "image": "/home-thumbnail/destiny-preregister.jpg",
+            "alt": "Final Weekend to Claim Destiny Pre-Registration Gift!",
+            "link": "https://maplestory.nexon.net/news/74767/final-weekend-to-claim-your-destiny-pre-registration-package",
+            "subtitle": "June 10, 2022"
+        },
+        {
             "title": "Pixel Picks Voting is Back!",
             "image": "/home-thumbnail/pixel-picks.jpg",
             "alt": "Pixel Picks Voting is Back!",
@@ -44,16 +51,16 @@
             "alt": "Double Trouble Superstars Patch Notes",
             "link": "https://maplestory.nexon.net/news/72827/v-231-double-trouble-superstars-patch-notes",
             "subtitle": "Mar 15, 2022"
-        },
-        {
-            "title": "The Marvel Machine Returns!",
-            "image": "/home-thumbnail/marvel-machine.jpg",
-            "alt": "The Marvel Machine Returns!",
-            "link": "https://maplestory.nexon.net/news/72863/the-marvel-machine-returns-march-18",
-            "subtitle": "Mar 14, 2022"
         }
     ],
     "upcoming": [
+        {
+            "title": "Ignition Update: Cygnus Knights Remaster",
+            "image": "/home-thumbnail/ignition.jpg",
+            "alt": "Ignition Update: Cygnus Knights Remaster",
+            "link": "https://orangemushroom.net/2022/06/12/kmst-ver-1-2-142-maplestory-ignition-showcase-cygnus-remaster/",
+            "subtitle": "June 12, 2022"
+        },
         {
             "title": "7000 Days of MapleStory!",
             "image": "/home-thumbnail/7000-days.jpg",
