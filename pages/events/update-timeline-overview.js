@@ -1059,7 +1059,7 @@ function Chaos() {
                     <a href="https://maplestory.fandom.com/wiki/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener">Gate to the Future</a>
                 </li>
                 <li>
-                    New boss, <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Signus"/>
+                    New boss, <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/>
                     <a href="https://maplestory.fandom.com/wiki/Cygnus/Monster" target="_blank" rel="noreferrer noopener">Empress Cygnus</a>
                 </li>
                 <li><img src="/images/items/secret-mastery-book.png" alt="Use Secret Mastery Book"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2430144" target="_blank" rel="noreferrer noopener">Secret Mystery Books</a> - receive a random mastery book</li>

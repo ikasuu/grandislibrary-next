@@ -28,11 +28,9 @@ function ProgressionGuide() {
                 </li>
                 <li className="quick-jump"><Link smooth href="#pocket">Pocket Slot</Link>
                 </li>
-                <li className="quick-jump"><Link smooth href="#emblem">Gold Emblem</Link>
+                <li className="quick-jump"><Link smooth href="#emblem">Gold Emblem + 4th Job</Link>
                 </li>
                 <li className="quick-jump"><Link smooth href="#powercrystal">Intense Power Crystal</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#4th">4th Job + Mastery Books</Link>
                 </li>
                 <li className="quick-jump"><Link smooth href="#hyper">Hyper Skills + Hyper Stats</Link>
                 </li>
@@ -102,9 +100,7 @@ function ProgressionGuide() {
             <p>For AP, you gain 5 AP every time you level up and most classes gain 5 AP for each Job Advancement from 1st to 4th. You do not need to worry about how to allocate your AP, instead just use Auto Assign for all your AP</p>
             <p><strong>[Note]</strong>: If you are playing Xenon, it is best to distribute your AP evenly between all 3 stats. You can easily do so by using the Auto Assign from 1st Job to 4th Job, the game will let you know when you've reached the requirement for the Multilateral skills. Past Lv. 200, you continue to evenly distribute your AP by referring to your current stats</p>
             <p><strong>[Note]</strong>: If you are creating an Explorer Pirate, you will have the choice between Auto Assigning to STR or DEX, choose STR only if you are creating a Buccaneer and DEX only if you are creating a Corsair</p>
-            <p><strong>[Note]</strong>: If you are playing Dual Blade, their skills in 2nd Job and 3rd Job require special Mastery Books called <img src="/images/items/dual-blade-training-book.png" alt="Mastery Book Dual Blade"/> <a href="https://maplestory.wiki/GMS/215/item/2431848" target="_blank" rel="noreferrer noopener">[Dual Blade Training Book]</a> to increase a Skill's Master Level which can be bought with Mesos from <a href="https://maplestory.fandom.com/wiki/Taeha" target="_blank" rel="noreferrer noopener">Taeha</a> in <img src="/images/map-icons/secret-garden.png" alt="Secret Garden Icon"/> <a href="https://maplestory.fandom.com/wiki/The_Secret_Garden_Basement" target="_blank" rel="noreferrer noopener">The Secret Garden Basement</a>
-            </p>
-            <p><strong>[Note]</strong>: If you are playing Beast Tamer, you will only be able to max 2 animal tree and partially a third tree. An ideal build path is Bear/Hawk/Cat. For mobbing or Legion, you can use Bear/Leopard instead and allocate remaining points either into Hawk or Cat</p>
+            <p><strong>[Note]</strong>: If you are playing Beast Tamer, you will continue to gain SP up until Lv. 250. An ideal build path is Bear/Hawk/Cat. For mobbing or Legion, you can use Bear/Leopard instead and allocate remaining points either into Hawk or Cat</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="inner">Inner Ability:</ArticleHeaderTwo>
             <hr/>
@@ -131,10 +127,11 @@ function ProgressionGuide() {
             <p>Once unlocked, you can buy a regular Pocket Item from <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Nave" target="_blank">Nave</a> in <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/map/100000100" target="_blank">Henesys Market</a>. There are also other special Pocket Items you can obtain but the most commonly used ones are dropped by bosses such as, <img src="/images/equipment/stone-of-eternal-life.png" alt="Eqp Stone of Eternal Life"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/1162009" target="_blank">Stone of Eternal Life</a> from <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Hilla/Monster" target="_blank">Hilla</a>, <img src="/images/equipment/pink-holy-cup.png" alt="Eqp Pink Holy Cup"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/1162025" target="_blank">Pink Holy Cup</a> from <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Pink_Bean" target="_blank">Pink Bean</a>, or <img src="/images/equipment/cursed-red-spellbook.png" alt="Eqp Cursed Red Spellbook"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/1162080" target="_blank">Cursed Spellbooks</a> from <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Will/Monster" target="_blank">Will</a>
             </p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="emblem">Gold Emblem</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="emblem">Gold Emblem + 4th Job</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/emblem-equip.png" alt="Emblem Item"/>
             <p>At Lv. 100, most classes will get their Gold Emblem for free by accepting a quest in your Lightbulb tab on the left-hand side of the screen. Emblems are very important and easy to obtain equipment that should be obtained right away. Emblems are special like Weapons and Secondary Weapons in which they can obtain %Ignore DEF, and %Attack lines as potentials which are very important stats to have. However, Emblems cannot obtain %Boss Damage</p>
+            <p>Upon reaching 4th Job, you should start upgrading your equipment and Star Force them to 10 - 5 stars. It does not matter if the gear will be replaced, this will help you to fight monsters at an optimal pace</p>
             <p><strong>[Note]: </strong>For Kaiser and Angelic Buster can buy their <img src="/images/equipment/dragon-emblem.png" alt="Eqp Dragon Emblem"/> <img src="/images/equipment/angel-emblem.png" alt="Eqp Angel Emblem"/> Emblem from <a href="https://maplestory.fandom.com/wiki/Harpoon#Pantheon" target="_blank" rel="noreferrer noopener">Harpoon</a> or <a href="https://maplestory.fandom.com/wiki/Mayala" target="_blank" rel="noreferrer noopener">Mayala</a></p>
             <p><strong>[Note]: </strong>For Xenon can buy their <img src="/images/equipment/hybrid-heart.png" alt="Eqp Hybrid Heart"/> Emblem/Power Source from <a href="https://maplestory.fandom.com/wiki/Edwin" target="_blank" rel="noreferrer noopener">Edwin</a> or <a href="https://maplestory.fandom.com/wiki/Silbaron" target="_blank" rel="noreferrer noopener">Silbaron</a></p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
@@ -144,33 +141,6 @@ function ProgressionGuide() {
             <img className="repository-image" src="/images/info/quick-move.png" alt="Quick Move UI"/>
             <p>Most bosses (excluding Gollux) drop <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestory.wiki/GMS/215/item/4001886" target="_blank" rel="noreferrer noopener">[Intense Power Crystals]</a> that can be sold for Mesos. The price of the Intense Power Crystal will vary based on how many players are in your party, the difficulty of the boss, and if the boss is daily or weekly</p>
             <p>To sell your Intense Power Crystals, access the <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Collector" target="_blank">Collector</a> found by pressing the "Quick Move" button located below the minimap from any town. You can also access the Collector through the Free Market, also accessible from "Quick Move". The Collector will only accept 60 Intense Power Crystals a week and resets on Thursdays 12am UTC</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="4th">4th Job and Mastery Books:</ArticleHeaderTwo>
-            <hr/>
-            <p>In 4th Job, you will require <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20"/>  <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book" target="_blank" rel="noreferrer noopener">[Mastery Books]</a> (except for Cygnus Knights and Beast Tamers) to reach the Master Level of your skills. When you first reach 4th Job, you'll notice most of your skills' Master Level is 10. You will first need to use <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book_20" target="_blank" rel="noreferrer noopener">[Mastery Book 20]</a> for each required skill to unlock Master Level 20. Afterward, you'll need to use a <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book_30" target="_blank" rel="noreferrer noopener">[Mastery Book 30]</a> for skills that have a Master Level 30</p>
-            <p>To obtain Mastery Books, they are sold by <a href="https://maplestory.fandom.com/wiki/Luna" target="_blank" rel="noreferrer noopener">Luna</a>, <a href="https://maplestory.fandom.com/wiki/Sly#Leafre" target="_blank" rel="noreferrer noopener">Sly</a>, <a href="https://maplestory.fandom.com/wiki/Illiad" target="_blank" rel="noreferrer noopener">Illiad</a>, and <a href="https://maplestory.fandom.com/wiki/Bung%27s_Mama" target="_blank" rel="noreferrer noopener">Bung's Mama</a> for 3,000,000/5,000,000 Mesos. You can also buy them from <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/>  <a href="https://maplestory.fandom.com/wiki/Wence" target="_blank" rel="noreferrer noopener"> Wence</a>,  <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> <a href="https://maplestory.fandom.com/wiki/Oko" target="_blank" rel="noreferrer noopener">Oko</a>, and <img src="/images/items/time-coin.png" alt="Etc Time Coin"/> <a href="https://maplestory.fandom.com/wiki/Cello">Cello <em>(Zero Only)</em></a> with special currencies. However, the best way to obtain Mastery Books is from Event Shops and from Theme Dungeons. Some Theme Dungeons reward you with <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Boxes]</a> that functions as either a Mastery Book 20 or 30</p>
-            <p>Here is a list of all the questlines that reward <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/>:</p>
-            <ul>
-                <li> <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/> <a href="https://maplestory.fandom.com/wiki/Category:Grand_Athenaeum">Grand Athenaeum</a>
-                </li>
-                <li> <img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon LionCastle"/> <a href="https://maplestory.fandom.com/wiki/Category%3ALion_King's_Castle">Lion King's Castle</a>
-                </li>
-                <li> <img src="/images/map-icons/fantasy-theme-world.png" alt="MapIcon FantasticPark"/> <a href="https://maplestory.fandom.com/wiki/Category:Fantasy_Theme_World">Fantasy Theme World</a>
-                </li>
-                <li> <img src="/images/map-icons/silent-crusade.png" alt="MapIcon CrossHunter"/> <a href="https://maplestory.fandom.com/wiki/Silent_Crusade">Silent Crusade</a>
-                </li>
-                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/> <a href="https://maplestory.fandom.com/wiki/Category:Root_Abyss">Root Abyss</a>
-                </li>
-                <li> <img src="/images/map-icons/korean-folk-town.png" alt="MapIcon Folkvillige"/> <a href="https://maplestory.fandom.com/wiki/Category:Korean_Folk_Town">Korean Folk Town</a>
-                </li>
-                <li> <img src="/images/map-icons/golden-temple.png" alt="MapIcon Golden Temple"/> <a href="https://maplestory.fandom.com/wiki/Category:Golden_Temple">Golden Temple</a>
-                </li>
-                <li> <img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonwood"/> <a href="https://maplestory.fandom.com/wiki/Category:Tynerum">Crimsonheart Castle</a>
-                </li>
-                <li> <img src="/images/map-icons/partem-ruins.png" alt="MapIcon Partem"/> <a href="https://maplestory.fandom.com/wiki/Category:Partem">Partem Ruins</a>
-                </li>
-            </ul>
-            <p>Additionally, as you reach 4th Job, you should start upgrading your equipment and Star Force them to 10 - 5 stars. It does not matter if the gear will be replaced, this will help you to fight monsters at an optimal pace</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="hyper">Hyper Skills + Hyper Stats</ArticleHeaderTwo>
             <hr/>
@@ -187,8 +157,7 @@ function ProgressionGuide() {
             <AdInArticleBanner/>
             <ArticleHeaderTwo id={140}>Level 140 and Beyond:</ArticleHeaderTwo>
             <hr/>
-            <p>Past this point, you will begin to notice you are struggling against monsters. At Lv. 140 you will have gained all your 4th Job SP. I recommend that you max all your skills along with <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20"/>  <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book" target="_blank" rel="noreferrer noopener">[Mastery Books]</a> before going any further</p>
-            <p>Additionally, take some time to fill up every equipment slot and Spell Trace everything if you are on Regular Servers. Be sure to Star Force everything as much as you can. A bare minimum of 5 Stars on everything but the best would be to have at least 10 Stars. As well, reveal all the potentials on your equipment and try to use cubes to reroll for some %Main Stat or Epic Potential</p>
+            <p>Upon reaching Lv. 140, take some time to fill up every equipment slot and Spell Trace everything if you are on Regular Servers. Be sure to Star Force everything as much as you can. A bare minimum of 5 Stars on everything but the best would be to have at least 10 Stars. As well, reveal all the potentials on your equipment and try to use cubes to reroll for some %Main Stat or Epic Potential</p>
             <p>If you need help filling up your equipment slots, check out the <a href="https://www.grandislibrary.com/contents/progression-guide#equipment">Equipment Content</a> section of this guide!</p>
             <p>You can also check out <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a> for info on upgrading and enhancing your equipment</p>
             <p>Going forward, you do not need to worry much about dailies or bosses for now until you've reached Lv. 200. You can however try and fight some bosses in the &lt; 2k Main Stat section of the <a href="https://www.grandislibrary.com/contents/progression-guide#bosses">Bosses</a> part of this guide for Mesos, equipment, and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2711001" target="_blank">Occult Cubes</a>. Your main priority right now is leveling up and working towards filling up each equipment slot with Epic Potential gear</p>
@@ -1646,28 +1615,27 @@ function ProgressionGuide() {
                 </li>
                 <li> <img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon LionCastle"/> <strong>[Lv. 115] <a href="https://maplestory.fandom.com/wiki/Category%3ALion_King's_Castle" target="_blank" rel="noreferrer noopener">[Pre-Quest] Lion King's Castle</a></strong>: Accessible from a quest in your Lightbulb tab and from traveling from <a href="https://maplestory.wiki/GMS/210.1.1/map/211040600" target="_blank" rel="noreferrer noopener">El Nath</a>, Completing this Theme Dungeon grants access to the boss <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <a href="https://maplestory.fandom.com/wiki/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a>
                 <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-of-a-lion.png" alt="Eqp Heart of a Lion"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a>
-                    </li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-of-a-lion.png" alt="Eqp Heart of a Lion"/> [Medal]</li>
                 </ul>
                 </li>
                 <li> <img src="/images/map-icons/korean-folk-town.png" alt="MapIcon Folkvillige"/> <strong>[Lv. 130] <a href="https://maplestory.fandom.com/wiki/Category:Korean_Folk_Town" target="_blank" rel="noreferrer noopener">Korean Folk Town</a>: </strong>Accessible by accepting a quest in your Lightbulb icon or by traveling from <a href="https://maplestory.fandom.com/wiki/Helios_Tower_(100th_Floor)" target="_blank" rel="noreferrer noopener">Ludibrium</a> or <a href="https://maplestory.fandom.com/wiki/The_Sharp_Unknown" target="_blank" rel="noreferrer noopener">Aqua Road</a>
                 <ul>
-                    <li><strong>Rewards:</strong> <img src="/images/equipment/like-clouds-and-winds.png" alt="Eqp Like Clouds and Winds"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/><a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Rewards:</strong> <img src="/images/equipment/like-clouds-and-winds.png" alt="Eqp Like Clouds and Winds"/> [Medal]</li>
                 </ul>
                 </li>
                 <li> <img src="/images/map-icons/golden-temple.png" alt="MapIcon Golden Temple"/> <strong> [Lv. 130] <a href="https://maplestory.fandom.com/wiki/Category:Golden_Temple" target="_blank" rel="noreferrer noopener">Golden Temple</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
                 <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/ravanas-golden-crown.png" alt="Eqp Ravana's Golden Crown"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003455" target="_blank" rel="noreferrer noopener">[Ravana's Golden Crown]</a>, <img src="/images/equipment/seeker-of-gilded-truth.png" alt="Eqp Seeker of Gilded Truth"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/ravanas-golden-crown.png" alt="Eqp Ravana's Golden Crown"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003455" target="_blank" rel="noreferrer noopener">[Ravana's Golden Crown]</a>, <img src="/images/equipment/seeker-of-gilded-truth.png" alt="Eqp Seeker of Gilded Truth"/> [Medal]</li>
                 </ul>
                 </li>
                 <li> <img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonwood"/> <strong> [Lv. 130] <a href="https://maplestory.fandom.com/wiki/Category:Tynerum" target="_blank" rel="noreferrer noopener">Crimsonheart Castle</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
                 <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/crimsonheart-savior.png" alt="Eqp Crimsonheart Savior"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/crimsonheart-savior.png" alt="Eqp Crimsonheart Savior"/> [Medal]</li>
                 </ul>
                 </li>
                 <li> <img src="/images/map-icons/partem-ruins.png" alt="MapIcon Partem"/> <strong>[Lv. 135] </strong><strong>Partem Ruins</strong>: Accessible initially from a quest in your Lightbulb icon and from Partem in <a href="https://maplestory.fandom.com/wiki/Spore_Hill" target="_blank" rel="noreferrer noopener">Henesys</a>
                 <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal]</li>
                 </ul>
                 </li>
                 <li> <img src="/images/map-icons/yu-garden.png" alt="MapIcon ShangHaiCN"/> <strong>[Lv. 140] </strong><a href="https://maplestory.fandom.com/wiki/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>The Far East (Yu Garden)</strong></a>: Accessible from <a href="https://maplestory.wiki/GMS/210.1.1/map/104020000" target="_blank" rel="noreferrer noopener">Six Path Crossway</a>
@@ -2006,33 +1974,32 @@ function ProgressionGuide() {
                 <li><strong style={{color: '#ff6600'}}>(Lv. 115) [Lion King's Castle] Desolate Castle </strong>- Theme Dungeon that also unlocks access to the boss Von Leon after completing it
                 <ul>
                     <li><strong style={{color: '#ff6600'}}>[Reboot Recommended] </strong>- Royal Von Leon equipment dropped by Von Leon is useful for Reboot progression</li>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-of-a-lion.png" alt="Eqp Heart of a Lion"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a>
-                    </li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-of-a-lion.png" alt="Eqp Heart of a Lion"/> [Medal]</li>
                 </ul>
                 </li>
                 <li><strong>(Lv. 120) [Fantasy Theme World] Dylan's Story </strong>- Theme Dungeon
                 <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-bracelet.png" alt="Heart Bracelet"/> <a href="https://maplestory.wiki/GMS/205/item/1082719" target="_blank" rel="noreferrer noopener">[Heart Bracelet]</a>, <img src="/images/equipment/101st-times-the-charm.png" alt="101st Time's the Charm"/> [Medal], <img src="/images/equipment/ludi-targa-hat.png" alt="Ludi Targa Hat"/> <img src="/images/equipment/ludi-scarlion-hat.png" alt="Ludi Scarlion Hat"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003534">[Ludi Targa Hat]</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/item/1003535">[Ludi Scarlion Hat]</a>, <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-bracelet.png" alt="Heart Bracelet"/> <a href="https://maplestory.wiki/GMS/205/item/1082719" target="_blank" rel="noreferrer noopener">[Heart Bracelet]</a>, <img src="/images/equipment/101st-times-the-charm.png" alt="101st Time's the Charm"/> [Medal], <img src="/images/equipment/ludi-targa-hat.png" alt="Ludi Targa Hat"/> <img src="/images/equipment/ludi-scarlion-hat.png" alt="Ludi Scarlion Hat"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003534">[Ludi Targa Hat]</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/item/1003535">[Ludi Scarlion Hat]</a></li>
                 </ul>
                 </li>
                 <li><strong style={{color: '#99cc00'}}>(Lv. 125) [Korean Folk Town] A Letter from the Library </strong>- Theme Dungeon
                 <ul>
-                    <li><strong>Rewards:</strong> <img src="/images/equipment/like-clouds-and-winds.png" alt="Eqp Like Clouds and Winds"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Rewards:</strong> <img src="/images/equipment/like-clouds-and-winds.png" alt="Eqp Like Clouds and Winds"/> [Medal]</li>
                 </ul>
                 </li>
                 <li><strong style={{color: '#99cc00'}}>(Lv. 130) [Crimsonheart] To Grendel's Library </strong>- Theme Dungeon
                 <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/crimsonheart-savior.png" alt="Eqp Crimsonheart Savior"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/crimsonheart-savior.png" alt="Eqp Crimsonheart Savior"/> [Medal]</li>
                 </ul>
                 </li>
                 <li><strong style={{color: '#99cc00'}}>(Lv. 130) [Golden Temple] Noi More Tourists </strong>- Theme Dungeon
                 <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/ravanas-golden-crown.png" alt="Eqp Ravana's Golden Crown"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003455" target="_blank" rel="noreferrer noopener">[Ravana's Golden Crown]</a>, <img src="/images/equipment/seeker-of-gilded-truth.png" alt="Eqp Seeker of Gilded Truth"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/ravanas-golden-crown.png" alt="Eqp Ravana's Golden Crown"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003455" target="_blank" rel="noreferrer noopener">[Ravana's Golden Crown]</a>, <img src="/images/equipment/seeker-of-gilded-truth.png" alt="Eqp Seeker of Gilded Truth"/> [Medal]</li>
                 </ul>
                 </li>
                 <li><strong style={{color: '#99cc00'}}>(Lv. 135) [Partem Ruins] Dark Prophecy </strong>- Theme Dungeon
                 <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal], <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">[Mastery Box]</a></li>
+                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal]</li>
                 </ul>
                 </li>
                 <li><strong style={{color: '#ff6600'}}><em>[Reboot Recommended] </em>(Lv. 140) Finding Tomo </strong>- Quest to get started with the Yu Garden (The Far East) Theme Dungeon
@@ -2100,11 +2067,9 @@ function ProgressionGuide() {
                 </ul>
                 </li>
                 <li><strong>(Lv. 80) Use the Transfer Hammer! </strong>- Tutorial quest explaining Transfer Hammer</li>
-                <li><strong>(Lv. 100) Mastery Book Sale </strong>- Tutorial quest explaining Mastery Books <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20"/>  <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book" target="_blank" rel="noreferrer noopener">[Mastery Books]</a>
-                </li>
                 <li><strong>(Lv. 100) </strong><strong>[Grand Athenaeum] Visit the Grand Athenaeum </strong>- Cutscene heavy storyline that explains Maple World lore
                 <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/items/mastery-book-20.png" alt="Use Mastery Book 20"/> <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30"/> <a href="https://maplestory.fandom.com/wiki/Mastery_Book" target="_blank" rel="noreferrer noopener">[Mastery Books]</a> and a <img src="/images/equipment/scholarly-pendant.png" alt="Eqp Scholarly Pendant"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122263" target="_blank" rel="noreferrer noopener">[Scholarly Pendant]</a> for completing 3 stories</li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/scholarly-pendant.png" alt="Eqp Scholarly Pendant"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122263" target="_blank" rel="noreferrer noopener">[Scholarly Pendant]</a> for completing 3 stories</li>
                 </ul>
                 </li>
                 <li><strong>(Lv. 140) [Dimension Invasion] Across Worlds </strong>- A quest to get started with Dimension Invasion. Provides a quick explanation of Dimension Invasion

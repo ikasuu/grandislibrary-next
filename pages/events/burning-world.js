@@ -68,10 +68,6 @@ function BurningWorld() {
                     </ul>
                 </li>
                 <li>
-                    <img src="/images/items/mastery-box.png" alt="Use Mastery Box"/>
-                    <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener"> [Use] Mastery Box (x8)</a>
-                </li>
-                <li>
                     <img src="/images/equipment/keep-on-burning.png" alt="Setup Keep on Burning"/> <a href="https://maplestory.wiki/GMS/214/item/3700385" target="_blank" rel="noreferrer noopener">[Title] Keep on Burning</a>
                     <ul>
                         <li>Stats last 14 days</li>

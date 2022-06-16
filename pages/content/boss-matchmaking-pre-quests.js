@@ -486,8 +486,7 @@ function BossMatchmaking() {
                   Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
               </li>
               <li>
-                  <strong>Madman Mode only Rewards:</strong>
-                  <img src="/images/items/mastery-book-30.png" alt="Use Mastery Book 30"/>[Mastery Book], <img src="/images/items/meisters-cube.png" alt="Use Meister's Cube"/> [Meister's Cube]
+                  <strong>Madman Mode only Rewards:</strong> <img src="/images/items/meisters-cube.png" alt="Use Meister's Cube"/> [Meister's Cube]
               </li>
               <li><strong>Can clear</strong>: Daily</li>
               <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/807300100" target="_blank" rel="noreferrer noopener">El Nath: Secret Altar Path</a></li>

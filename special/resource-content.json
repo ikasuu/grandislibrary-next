@@ -4,10 +4,16 @@
             "question": "Why do I have extra skill points?",
             "answer": [
                 "If you are playing a Cygnus Knight class, you need to complete a short questline to get Call of Cygnus, Cygnus Knight's Maple Warrior buff",
-                "If you are playing Ark, Hoyoung, or Adele, you must complete your storyline quests to receive certain skills",
-                "If you are 4th job and have extra skill points, you need to buy Mastery Books from Illiad in Leafre which increase the Master Level on certain 4th job skills. Certain in-game content will also reward you with Mastery Boxes can function both as a Mastery Book 20 or 30"
+                "If you are playing Ark, Hoyoung, or Adele, you must complete your storyline quests to receive certain skills"
             ],
-            "tags": "sp 4th job ark hoyoung adele cygnus knight mastery book box"
+            "tags": "sp 4th job ark hoyoung adele cygnus knight"
+        },
+        {
+            "question": "Where did Mastery Books go?",
+            "answer": [
+                "Mastery Books were removed in the Destiny Update and are no longer required to reach Master Level for 4th job skills"
+            ],
+            "tags": "sp 4th job mastery book"
         },
         {
             "question": "What should I assign my AP into?",
