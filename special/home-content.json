@@ -18,6 +18,20 @@
     ],
     "recent": [
         {
+            "title": "Destiny: Remastered Patch Notes",
+            "image": "/home-thumbnail/destiny-explorer-revamp.jpg",
+            "alt": "Destiny: Remastered Patch Notes",
+            "link": "https://maplestory.nexon.net/news/74810/v-233-destiny-remastered-patch-notes",
+            "subtitle": "June 15, 2022"
+        },
+        {
+            "title": "Tera Burning Plus, Burning World and more!",
+            "image": "/home-thumbnail/destiny-burning.jpg",
+            "alt": "Tera Burning Plus, Burning World and more!",
+            "link": "https://maplestory.nexon.net/news/74811/destiny-tera-burning-plus-burning-world-and-more",
+            "subtitle": "June 15, 2022"
+        },
+        {
             "title": "Final Weekend to Claim Destiny Pre-Registration Gift!",
             "image": "/home-thumbnail/destiny-preregister.jpg",
             "alt": "Final Weekend to Claim Destiny Pre-Registration Gift!",
@@ -37,20 +51,6 @@
             "alt": "Blooming Forest Patch Notes",
             "link": "https://maplestory.nexon.net/news/73909/updated-may-2-v-232-blooming-forest-patch-notes",
             "subtitle": "Apr 26, 2022"
-        },
-        {
-            "title": "Tactical Relay Event 2022!",
-            "image": "/home-thumbnail/tactical-relay.jpg",
-            "alt": "Tactical Relay Event 2022!",
-            "link": "https://maplestory.nexon.net/news/73592/tactical-relay-event",
-            "subtitle": "Apr 12, 2022"
-        },
-        {
-            "title": "Double Trouble Superstars Patch Notes",
-            "image": "/home-thumbnail/double-trouble.jpg",
-            "alt": "Double Trouble Superstars Patch Notes",
-            "link": "https://maplestory.nexon.net/news/72827/v-231-double-trouble-superstars-patch-notes",
-            "subtitle": "Mar 15, 2022"
         }
     ],
     "upcoming": [
@@ -88,20 +88,6 @@
             "alt": "Destiny Update: New Boss Kalos",
             "link": "https://orangemushroom.net/2022/02/24/kms-ver-1-2-361-maplestory-destiny-the-watcher-kalos/",
             "subtitle": "Feb 24, 2022"
-        },
-        {
-            "title": "Destiny Update: Explorer Remaster",
-            "image": "/home-thumbnail/destiny-explorer-revamp.jpg",
-            "alt": "Destiny Update: Explorer Remaster",
-            "link": "https://orangemushroom.net/2022/01/27/kms-ver-1-2-360-maplestory-destiny-adventurer-remaster/",
-            "subtitle": "Jan 27, 2022"
-        },
-        {
-            "title": "Destiny Update",
-            "image": "/home-thumbnail/destiny.jpg",
-            "alt": "Destiny Update",
-            "link": "https://orangemushroom.net/2021/12/30/kms-ver-1-2-359-maplestory-destiny-starlight-symphony/",
-            "subtitle": "Dec 30, 2021"
         }
     ],
     "popularContent": [
