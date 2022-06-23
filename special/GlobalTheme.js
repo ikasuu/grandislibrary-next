@@ -269,6 +269,28 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${getMenuColor} !important;
   }
 
+  [data-tooltip]:before {
+    content: attr(data-tooltip);
+    position: absolute;
+    opacity: 0;
+    
+    transition: all 0.2s ease;
+    padding: 0.45rem;
+    color: white;
+    border-radius: 5px;
+    transform: translate(-40%, -50%);
+    margin-top: -2rem;
+    text-align: center;
+  }
+
+  [data-tooltip]:hover:before {
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.93);   
+  }
+
+  [data-tooltip]:not([data-tooltip-persistent]):before {
+    pointer-events: none;
+  }
   `;
   
 //Get user's preferred site theme, if none, default is 'dark'

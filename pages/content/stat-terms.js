@@ -101,7 +101,6 @@ function StatTerms() {
          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
          <h2 id="critdamage">Critical Damage</h2>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Critical_Damage" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Critical_Damage</a></p>
-         <p>The minimum Mesos dropped is <em>6 x Monster Level</em> and with the 300% Meso Rate increase, the maximum Mesos dropped is <em>9 x Monster Level</em>. However, in Reboot World, enemies drop 5x the amount compared to Regular Worlds (the values shown above)</p>
          <p>The damage multiplier that is used when you land a Critical Hit. The value that you see in the Character Stat UI is added to a Lower Critical Damage (20%) and a Higher Critical Damage (50%) multiplier. Whenever you land a Critical Hit the damage multiplier will be between these two values</p>
          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
          <h2 id="abnormal">Abnormal Status Resistance</h2>
