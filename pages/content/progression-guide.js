@@ -182,7 +182,7 @@ function ProgressionGuide() {
                 </li>
                 <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/105300000" target="_blank" rel="noreferrer noopener">Dark World Tree: Deserted Camp</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
                 <ul>
-                    <li>After talking to the "Goddess of Tynerum", you must climb up near the top of the Dark World Tree to find a <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a> on a random map</li>
+                    <li>After talking to the "Goddess of Tynerum", defeat all enemies and a series of maps after being teleport</li>
                 </ul>
                 </li>
                 <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/400000001" target="_blank" rel="noreferrer noopener">Pantheon: Grand Temple Interior</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>

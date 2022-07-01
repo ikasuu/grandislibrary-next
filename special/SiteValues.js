@@ -163,16 +163,30 @@ export const commonFifth = {
     },
     expMagician:{
         "name": "Unreliable Memory",
-        "shortDesc": "MP Cost: 150, Uses one random skill or active Hyper Skill from 1st to 4th jobs.\\nIgnores MP cost and cooldown of selected skill. Cannot trigger unlearned skills.\\nCooldown: 10 sec\\n[Passive Effect: INT +25]",
+        "shortDesc": "MP Cost: 100. Uses a memorized skill.\\nIgnored MP cost and cooldown of selected skill, and reduces cooldown of Unreliable Memory by a fixed amount according to set probability rates.\\nCooldown: 355 sec.\\n[Passive Effect: INT +25]",
         "id": 400001021,
-        "icons": ["/class-icons/5th-job/unreliable-memory.png"],
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/unreliable-memory.png"],
         "animations": ["https://media4.giphy.com/media/ncQEHsz4n9SUxkaU4l/giphy.gif"],
         "type": "Active",
-        "desc": "Uses one random skill or active Hyper Skill from 1st to 4th Job",
+        "desc": "Uses the memorized skill chosen from <span data-tooltip='Mind Delve (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/mind-delve.png' alt='Skill Mind Delve'/></span>",
         "details": [
-            "Ignores MP Cost and cooldowns",
-            "Cannot trigger unlearned skills",
-            "<strong>[Passive]</strong>: Grants flat INT"
+            "<strong>[Passive]</strong>: Grants flat INT",
+            "Ignores MP cost and cooldowns",
+            "Cooldown of Unreliable Memory will be reduced based on the probabilities below:<ul><li>20% reduction (1% chance)</li><li>25% reduction (5% chance)</li><li>30% reduction (10% chance)</li><li>35% reduction (15% chance)</li><li>35% reduction (20% chance)</li><li>40% reduction (15% chance)</li><li>45% reduction (10% chance)</li><li>50% reduction (5% chance)</li><li>55% reduction (5% chance)</li><li>60% reduction (5% chance)</li><li>70% reduction (5% chance)</li><li>75% reduction (3% chance)</li><li>80% reduction (1% chance)</li></ul>"
+        ]
+    },
+    mindDelve:{
+        "name": "Mind Delve",
+        "shortDesc": "MP Cost: 150. Use the number keys to select a spell that can be activated with Unreliable Memory. This skill is canceled if you fail to select a spell within 5 sec, or if you press any other keys.\\nCooldown: 5 sec.",
+        "id": 400001063,
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/mind-delve.png"],
+        "animations": ["https://media.giphy.com/media/pBcdQ9kl2OkOXJY95t/giphy.gif"],
+        "type": "Active",
+        "desc": "When used, allows you select 3rd - 4th job skills using the Number Keys to be cast when using <span data-tooltip='Unreliable Memory (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>",
+        "details": [
+            "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
+            "Only skills with SP allocated can be chosen",
+            "This skill is gained alongside and shares SP with <span data-tooltip='Unreliable Memory (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>"
         ]
     },
     expBowman: {
