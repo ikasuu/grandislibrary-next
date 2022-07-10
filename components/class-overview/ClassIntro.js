@@ -193,7 +193,7 @@ function ClassBuffs({content}) {
             <Table size="sm" borderless>
             <tbody>
                 <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
-                {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<tr><th><strong>Summons</strong>:</th><td>None</td></tr>}
+                {content.buffInfo.summons ? <tr><th><strong>Summons &amp; Placables</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<tr><th><strong>Summons</strong>:</th><td>None</td></tr>}
                 <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData></tr>
                 <tr><th><strong>Common V Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</StatTableData></tr>
                 {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
