@@ -231,7 +231,10 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/pirates-banner.png"],
         "animations": ["https://media2.giphy.com/media/4HkGIZpk9nhjknNRFb/giphy.gif"],
         "type": "Buff Zone",
-        "desc": "Increases all stats assigned APs by a percentage of party members within the zone and reduces enemy %DEF inside the zone"
+        "desc": "Increases all stats assigned APs by a percentage of party members within the zone and reduces enemy %DEF inside the zone",
+        "details": [
+            "During the jump animation, you will not be knocked back at all (Super Knockback Resistance)"
+        ]
     },
     phalanxCharge:{
         "name": "Phalanx Charge",
