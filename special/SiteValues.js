@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 232; 
-export const versionName = "Blooming Forest Update"
+export const version = 234; 
+export const versionName = "Destiny Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";

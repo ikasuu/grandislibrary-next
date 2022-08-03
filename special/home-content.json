@@ -18,6 +18,13 @@
     ],
     "recent": [
         {
+            "title": "Destiny: Homecoming Patch Notes",
+            "image": "/home-thumbnail/homecoming.jpg",
+            "alt": "Destiny: Homecoming Patch Notes",
+            "link": "https://maplestory.nexon.net/news/75294/v-234-destiny-homecoming-patch-notes",
+            "subtitle": "July 19, 2022"
+        },
+        {
             "title": "Destiny: Remastered Patch Notes",
             "image": "/home-thumbnail/destiny-explorer-revamp.jpg",
             "alt": "Destiny: Remastered Patch Notes",
@@ -44,13 +51,6 @@
             "alt": "Pixel Picks Voting is Back!",
             "link": "https://maplestory.nexon.net/news/74055/pixel-picks-voting-is-back",
             "subtitle": "May 2, 2022"
-        },
-        {
-            "title": "Blooming Forest Patch Notes",
-            "image": "/home-thumbnail/blooming-forest.jpg",
-            "alt": "Blooming Forest Patch Notes",
-            "link": "https://maplestory.nexon.net/news/73909/updated-may-2-v-232-blooming-forest-patch-notes",
-            "subtitle": "Apr 26, 2022"
         }
     ],
     "upcoming": [
@@ -81,13 +81,6 @@
             "alt": "Camilia's Pop-up Store",
             "link": "https://orangemushroom.net/2022/03/24/kms-ver-1-2-362-super-haste-camillas-pop-up-store/",
             "subtitle": "Mar 24, 2022"
-        },
-        {
-            "title": "Destiny Update: New Boss Kalos",
-            "image": "/home-thumbnail/kalos.jpg",
-            "alt": "Destiny Update: New Boss Kalos",
-            "link": "https://orangemushroom.net/2022/02/24/kms-ver-1-2-361-maplestory-destiny-the-watcher-kalos/",
-            "subtitle": "Feb 24, 2022"
         }
     ],
     "popularContent": [
