@@ -265,7 +265,7 @@ export const commonFifth = {
     },
     freudsWisdom:{
         "name": "Freud's Wisdom",
-        "shortDesc": "MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Knockback Resistance: +75%\\nStack 3 - All Stats: +50\\nStack 4 - Attack Power & Magic ATT: +22\\nStack 5 - Boss Damage: +22%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires (including character death) or max stack count is reached.",
+        "shortDesc": "MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Status Resistance: +22\\nStack 3 - All Stats: +50\\nStack 4 - Attack Power & Magic ATT: +22\\nStack 5 - Boss Damage: +22%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires (including character death) or max stack count is reached.",
         "id": 400001024,
         "icons": ["/class-icons/5th-job/freuds-wisdom.png"],
         "animations": ["https://media0.giphy.com/media/qLHXWAJbWTXFxORQyS/giphy.gif"],
@@ -330,28 +330,27 @@ export const commonFifth = {
     },
     grandisGoddessBlessingNV:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, skills have a chance to not have a cooldown",
+        "desc": "While active, gain increased %Damage and skills have a chance to not have a cooldown",
         "details": [
-            "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)",
-            "Additionally grants %Damage and 100% Knockback Resistance"
+            "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)"
         ]
     },
     grandisGoddessBlessingKAI:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, skills have a chance to not have a cooldown",
+        "desc": "While active, gain increased %Damage and skills have a chance to not have a cooldown",
         "details": [
             "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)",
-            "Additionally grants %Damage and 100% Knockback Resistance"
+            "Kaiser gains additional %Damage based each Morph Gauge stage"
         ]
     },
     grandisGoddessBlessingFL:{
@@ -485,13 +484,14 @@ export const commonFifth = {
     },
     guidedArrow: {
         "name": "Guided Arrow",
-        "shortDesc": "MP Cost: 350, Duration: 60 sec, Arrow Damage: 800% damage 90 times to 1 nearby enemy when in combat\\nCooldown: 60 sec",
+        "shortDesc": "MP Cost: 350, Arrow Damage: 800% damage to 1 nearby enemy. Damage Against Normal Enemies +20%",
         "id": 400031000,
         "icons": ["/class-icons/5th-job/guided-arrow.png"],
         "animations": ["https://media0.giphy.com/media/8fKfxe9zlHnmrXuXVJ/giphy.gif"],
-        "type": "Summon",
-        "desc": "Creates a spirit arrow that seeks and attacks nearby enemies",
+        "type": "Toggle Summon",
+        "desc": "Summons an arrow that seeks and attacks nearby enemies",
         "details": [
+            "Deals increased %Damage to regular monsters",
             "Unaffected by Damage Reflect"
         ]
     },
