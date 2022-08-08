@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Alert } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
@@ -24,7 +24,6 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
-            <Alert variant="warning">Explorer Class Overviews are now updated with the Destiny Redux changes. Thank you for your patience!</Alert>
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
