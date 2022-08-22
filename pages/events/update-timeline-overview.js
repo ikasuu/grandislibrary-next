@@ -94,6 +94,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#festival-of-foodies">Festival of Foodies</Link></li>
                 <li><Link href="#double-trouble">Double Trouble Superstars</Link></li>
                 <li><Link href="#blooming-forest">Blooming Forest</Link></li>
+                <li><Link href="#destiny">Destiny</Link></li>
             </ul>
             <ArticleHeaderTwo id="bang">Big Bang Update - Dec 2010</ArticleHeaderTwo>
             <BigBang/>
@@ -339,6 +340,8 @@ function UpdateTimelineOverview() {
             <DoubleTroubleSuperstars/>
             <ArticleHeaderTwo id="blooming-forest">Blooming Forest Update - Apr 2022</ArticleHeaderTwo>
             <BloomingForest/>
+            <ArticleHeaderTwo id="destiny">Destiny Update - June 2022</ArticleHeaderTwo>
+            <Destiny/>
             <AdOutArticle/>
         </EventPage>
     )
@@ -1223,6 +1226,75 @@ function Detectives() {
             </div>
             <h3>New Content</h3>
             <ul><li>New Theme Dungeon: <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Stellar_Detectives" target="_blank">Stellar Detectives</a></li></ul>
+        </LazyLoad>
+    )
+};
+
+function Destiny() {
+    return (
+        <LazyLoad height={200} offset={100}>
+            <Video src="https://www.youtube.com/embed/G4cvn4pOn_k" title="Destiny"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/74810/v-233-destiny-remastered-patch-notes"/></p>
+                <p><TabLink url="https://maplestory.nexon.net/news/75294/v-234-destiny-homecoming-patch-notes"/></p>
+            </div>
+            <h3>New Content</h3>
+            <ul>
+                <li><strong>Explorer classes remastered</strong></li>
+                <li><img src="/images/equipment/twilight-mark.png" alt="Eqp Twilight Mark"/> <img src="/images/equipment/estella-earrings.png" alt="Eqp Estella Earrings"/> <img src="/images/equipment/guardian-angel-ring.png" alt="Eqp Dawn Guardian Angel Ring"/> <img src="/images/equipment/daybreak-pendant.png" alt="Eqp Daybreak Pendant"/> New Dawn Boss accessory set added</li>
+                <li><strong>Home system introduced</strong></li>
+                <li>New boss, Kalos</li>
+                <li><img src="/images/equipment/eternal-knight-helm.png" alt="Eqp Eternal Knight Helm"/> <img src="/images/equipment/eternal-knight-armor.png" alt="Eqp Eternal Knight Armor"/> <img src="/images/equipment/eternal-knight-pants.png" alt="Eqp Eternal Knight Pants"/> New equipment set, Eternal equipment</li>
+            </ul>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li><strong>Maple Guide improved</strong>
+                    <ul>
+                        <li>More areas can be teleported to with a 10-sec coolcown</li>
+                        <li>New rewards (once per world) have been added upon completing tasks</li>
+                    </ul>
+                </li>
+                <li><strong>Mastery Book system removed</strong></li>
+                <li><strong>All classes will receive 100% Knockback Resistance from skills</strong>
+                    <ul>
+                        <li>Mihile's link skill now increases Status Resistance</li>
+                        <li>Knockback Resistance from Legion Grid Bonus changed to increases %Damage against Regular Monsters</li>
+                        <li>Knockback Resistance Hyper Stat removed and refunded</li>
+                    </ul>
+                </li>
+                <li><strong>All classes now have some sort of upward movement skill</strong></li>
+                <li><strong>New rewards added to Lotus, Damien, Mitsuhide, Lucid, Will, Gloom, Darknell, Verus Hilla, Black Mage, and Chosen Seren</strong>
+                    <ul>
+                        <li>Some rewards include: <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> Powerful Rebirth Flame
+                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use Bonus EXP Coupon Voucher"/> 50% EXP Coupon Voucher
+                        , <img src="/images/items/sparkling-red-star-potion.png" alt="Use Sparkling Red Star Potion"/> Sparkling Red Star Potion
+                        , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> Sparkling Blue Star Potion
+                        , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> Small EXP Accumulation Potion
+                        , <img src="/images/items/black-rebirth-flame.png" alt="Use Black Rebirth Flame"/> (Non-Reboot Only) Black Rebirth Flame
+                        , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Coupon"/> (Non-Reboot Only) Premium Scroll Coupon
+                        , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll Coupon"/> (Non-Reboot Only) Magical Scroll Coupon</li>
+                    </ul>
+                </li>
+                <li><strong>AbsoLab and Arcane Umbra equipment now drop as <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <img src="/images/items/arcane-umbra-box.png" alt="Use Arcane Umbra Box"/> boxes from hard bosses</strong></li>
+                <li><strong><img src="/images/equipment/cursed-red-spellbook.png" alt="Eqp Cursed Red Spellbook"/> Cursed Spellbook and <img src="/images/equipment/mitras-rage-warrior.png" alt="Eqp Mitra's Rage Warrior"/> Mitra's Rage now drop as <img src="/images/items/wills-cursed-spellbook-selection-box.png" alt="Use Will's Cursed Spellbook Selection Box"/> <img src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/> boxes</strong></li>
+                <li>Reduced amount of EXP required for levels between Lv. 250 - 259</li>
+                <li><strong>Star Enhancement cost in some enhancement sections are reduced</strong></li>
+                <li><strong>Completion of Arcane River and beyond storylines are shared within the world</strong>
+                    <ul>
+                        <li>Added a feature to skip those storylines for new characters once a single character has completed the storyline</li>
+                    </ul>
+                </li>
+                <li><strong>Black Mage practice mode added</strong></li>
+                <li>5th Job Advancement and 'A Greater Power' quest have been simplified</li>
+                <li><strong>Link Skill presets added</strong></li>
+                <li><strong>Key Bindings presets added</strong></li>
+                <li><strong>Cooldown notification system added</strong></li>
+                <li>Cooldown of skills are indicated more clearly on key binds</li>
+                <li>Monsters can be locked in Monster Life to prevent accidentally releasing them</li>
+                <li>Added 30% All Stat Scrolls to Spell Tracing to Armors and Accessories</li>
+                <li>Max Damage Skin Slots increased from 48 to 60</li>
+                <li><strong>New 64-bit options added to Options UI</strong></li>
+            </ul>
         </LazyLoad>
     )
 };

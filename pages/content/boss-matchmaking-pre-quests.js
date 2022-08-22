@@ -317,11 +317,7 @@ function BossMatchmaking() {
             </li>
             <li>
                 <strong>Hard Mode Only Rewards: </strong>
-                <img src="/images/equipment/absolab-knight-shoes.png" alt="Eqp AbsoLab Knight Shoes"/>
-                <img src="/images/equipment/absolab-knight-gloves.png" alt="Eqp AbsoLab Knight Gloves"/>
-                <img src="/images/equipment/absolab-knight-cape.png" alt="Eqp AbsoLab Knight Cape"/>
-                <img src="/images/equipment/absolab-saber.png" alt="Eqp AbsoLab Saber"/>
-                <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Absolute_Labs_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Shoe/Glove/Cape/Weapon) AbsoLab Gear]</a>, <img src="/images/items/damaged-black-heart.png" alt="Etc Damaged Black Heart"/>
+                <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>, <img src="/images/items/damaged-black-heart.png" alt="Etc Damaged Black Heart"/>
                 <a href="https://maplestory.fandom.com/wiki/Damaged_Black_Heart" target="_blank" rel="noreferrer noopener">[Damaged Black Heart]</a>, <img src="/images/equipment/android.png" alt="Eqp Deluxe Android (M)"/>
                 <a href="https://maplestory.fandom.com/wiki/Lotusroid" target="_blank" rel="noreferrer noopener">[Lotusroid Android]</a>, <img src="/images/equipment/berserked.png" alt="Eqp Berserked"/>
                 <a href="https://maplestory.wiki/GMS/210.1.1/item/1012632">[Beserked Face Accessory]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/>
@@ -343,11 +339,8 @@ function BossMatchmaking() {
             </li>
             <li>
                 <strong>Hard Mode Only Rewards: </strong><a href="https://maplestory.fandom.com/wiki/Damienroid" target="_blank" rel="noreferrer noopener">[Damienroid Android]</a>, <img src="/images/equipment/magic-eyepatch.png" alt="Eqp Magic Eyepatch"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1022278" target="_blank" rel="noreferrer noopener">[Magic Eyepatch]</a>, <img src="/images/equipment/absolab-knight-helm.png" alt="Eqp AbsoLab Knight Helm"/>
-                <img src="/images/equipment/absolab-knight-suit.png" alt="Eqp AbsoLab Knight Suit"/>
-                <img src="/images/equipment/absolab-knight-shoulder.png" alt="Eqp AbsoLab Knight Shoulder"/>
-                <img src="/images/equipment/absolab-saber.png" alt="Eqp AbsoLab Saber"/>
-                <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Absolute_Labs_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[(Hat/Overall/Shoulder/Weapon) AbsoLab Gear]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/>
+                <a href="https://maplestory.wiki/GMS/210.1.1/item/1022278" target="_blank" rel="noreferrer noopener">[Magic Eyepatch]</a>
+                , <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/>
                 <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -467,7 +460,7 @@ function BossMatchmaking() {
           <p><strong>[Hard Lv. 265+ 150SacF+]</strong></p>
           <p>You must complete the Burning Cernium storyline and to unlock access to Seren</p>
           <ul>
-            <li><strong>Main Rewards: </strong><strong><img className="transparent" src="/images/equipment/mitras-rage-warrior.png" alt="/images/equipment/mitras-rage-warrior.png"/></strong> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage:_Warrior" target="_blank" rel="noopener">[Emblem]</a>, <img src="/images/items/mitras-nodestone.png"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]</li>
+            <li><strong>Main Rewards: </strong><strong><img className="transparent" src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/></strong> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage_Selection_Box" target="_blank" rel="noopener">[Mitra's Rage Selection Box]</a>, <img src="/images/items/mitras-nodestone.png"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]</li>
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/Palace_Main_Hall" target="_blank" rel="noreferrer noopener">Cernium: Palace Main Hall</a></li>
           </ul>

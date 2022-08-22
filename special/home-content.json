@@ -147,34 +147,9 @@
             "path": "explorers/arch-mage-fire-poison"
         },
         {
-            "alt": "Adele",
-            "class": "adele",
-            "path": "flora/adele"
-        },
-        {
-            "alt": "Night Lord",
-            "class": "night-lord",
-            "path": "explorers/night-lord"
-        },
-        {
-            "alt": "Dawn Warrior",
-            "class": "dawn-warrior",
-            "path": "cygnus-knights/dawn-warrior"
-        },
-        {
             "alt": "Shadower",
             "class": "shadower",
             "path": "explorers/shadower"
-        },
-        {
-            "alt": "Kanna",
-            "class": "kanna",
-            "path": "sengoku/kanna"
-        },
-        {
-            "alt": "Demon Slayer",
-            "class": "demon-slayer",
-            "path": "resistance/demon-slayer"
         },
         {
             "alt": "Hero",
@@ -182,9 +157,34 @@
             "path": "explorers/hero"
         },
         {
-            "alt": "Lara",
-            "class": "lara",
-            "path": "anima/lara"
+            "alt": "Night Lord",
+            "class": "night-lord",
+            "path": "explorers/night-lord"
+        },
+        {
+            "alt": "Buccaneer",
+            "class": "buccaneer",
+            "path": "explorers/buccaneer"
+        },
+        {
+            "alt": "Dark Knight",
+            "class": "dark-knight",
+            "path": "explorers/dark-knight"
+        },
+        {
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
+        },
+        {
+            "alt": "Paladin",
+            "class": "paladin",
+            "path": "explorers/paladin"
+        },
+        {
+            "alt": "Corsair",
+            "class": "corsair",
+            "path": "explorers/corsair"
         }
     ]
 }
