@@ -457,7 +457,7 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="seren"><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> Seren</ArticleHeaderTwo>
-          <p><strong>[Hard Lv. 265+ 150SacF+]</strong></p>
+          <p><strong>[Hard Lv. 265+ 150SacP+]</strong></p>
           <p>You must complete the Burning Cernium storyline and to unlock access to Seren</p>
           <ul>
             <li><strong>Main Rewards: </strong><strong><img className="transparent" src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/></strong> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage_Selection_Box" target="_blank" rel="noopener">[Mitra's Rage Selection Box]</a>, <img src="/images/items/mitras-nodestone.png"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]</li>

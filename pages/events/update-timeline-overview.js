@@ -2147,7 +2147,7 @@ function Neo(){
                 <li>New area, <img src="/images/map-icons/toolen-city.png" alt="MapIcon Toolen City"/> <a href="https://maplestory.fandom.com/wiki/Category:Toolen_City" target="_blank" rel="noopener">Toolen City</a></li>
                 <li><strong>New area, <img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <a href="https://maplestory.fandom.com/wiki/Category:Cernium" target="_blank" rel="noopener">Cernium + Burning Cernium</a></strong></li>
                 <li><strong>New area, <img src="/images/map-icons/hotel-arcus.png"/> <a href="https://maplestory.fandom.com/wiki/Category:Hotel_Arcus" target="_blank" rel="noopener">Hotel Arcus</a></strong></li>
-                <li><strong>New Symbol Force, <img src="/images/equipment/sacred-symbol-cernium.png" alt="Eqp Sacred Force"/><img src="/images/equipment/sacred-symbol-arcus.png"/> <a href="https://maplestory.fandom.com/wiki/Category:Sacred_Symbols" target="_blank" rel="noopener">Sacred Force</a></strong></li>
+                <li><strong>New Symbol Force, <img src="/images/equipment/sacred-symbol-cernium.png" alt="Eqp Sacred Power"/><img src="/images/equipment/sacred-symbol-arcus.png"/> <a href="https://maplestory.fandom.com/wiki/Category:Sacred_Symbols" target="_blank" rel="noopener">Sacred Power</a></strong></li>
             </ul>
             <h3>New Features + Changes</h3>
             <ul>

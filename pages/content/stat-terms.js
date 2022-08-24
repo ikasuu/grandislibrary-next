@@ -115,7 +115,7 @@ function StatTerms() {
          <AdInArticleBanner/>
          <h2 id="def">Defense</h2>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Defense" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Defense</a></p>
-         <p>A stat used to calculate the damage you take from enemies. However, this stat is not as important past Lv. 200 since most monsters in the Arcane River will deal 1 HP damage to you with enough Arcane Force. Additionally, most bosses deal %Max HP damage instead which ignores the DEF stat</p>
+         <p>A stat used to calculate the damage you take from enemies. However, this stat is not as important past Lv. 200 since most monsters in the Arcane River will deal 1 HP damage to you with enough Arcane Power. Additionally, most bosses deal %Max HP damage instead which ignores the DEF stat</p>
          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
          <h2 id="speed">Speed (Movement Speed)</h2>
          <p>Stat that determines how fast your character moves</p>

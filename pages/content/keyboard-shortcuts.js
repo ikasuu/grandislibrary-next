@@ -148,7 +148,7 @@ function Equipment(){
             <p><img className="repository-image" src="/images/info/equipment-visual-effect.png" alt="Effect"/><img className="repository-image" src="/images/info/beauty-salon.png" alt="Beauty Salon"/></p>
             <p>On the bottom, you will see the "Effect" button, here you can right-click equipment that has visual effects to toggle them ON/OFF. Right beside it is the "Salon" button where you can manage all of your Hairstyles and Facestyles. In the Beauty Salon, you can save hair or face and change back to them later. To gain more slots you will need to buy <img src="/images/items/beauty-salon-hair-slot-coupon.png" alt="Cash Beauty Salon Hair Slot Coupon"/><img src="/images/items/beauty-salon-face-slot-coupon.png" alt="Cash Beauty Salon Face Slot Coupon"/> Beauty Salon Slot Coupons from the Rewards Point Shop (in the Cash Shop)</p>
             <h4>Equip Tab</h4>
-            <p><img className="repository-image" src="/images/info/arcane-force-ui.png" alt="Arcane Force"/><img className="repository-image" src="/images/info/commerci-vessel-ui.png" alt="Vessel"/></p>
+            <p><img className="repository-image" src="/images/info/arcane-force-ui.png" alt="Arcane Power"/><img className="repository-image" src="/images/info/commerci-vessel-ui.png" alt="Vessel"/></p>
             <p>In the Equip Tab, you can see all the gear that provides stats to your character</p>
             <p>The "Arcane Equipment" window will appear once you have reached Lv. 200 and obtained your first Arcane Symbol. At the bottom right, there will be a "Vessel" button if you have gained access to Commerci Trade Voyages</p>
             <h4>Cash Tab</h4>
