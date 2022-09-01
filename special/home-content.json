@@ -18,6 +18,13 @@
     ],
     "recent": [
         {
+            "title": "Rocking Revamp Patch Notes",
+            "image": "/home-thumbnail/rocking-revamp.jpg",
+            "alt": "Rocking Revamp Patch Notes",
+            "link": "https://maplestory.nexon.net/news/76108/v-235-rocking-revamp-patch-notes",
+            "subtitle": "August 30, 2022"
+        },
+        {
             "title": "Destiny: Homecoming Patch Notes",
             "image": "/home-thumbnail/homecoming.jpg",
             "alt": "Destiny: Homecoming Patch Notes",
@@ -44,13 +51,6 @@
             "alt": "Final Weekend to Claim Destiny Pre-Registration Gift!",
             "link": "https://maplestory.nexon.net/news/74767/final-weekend-to-claim-your-destiny-pre-registration-package",
             "subtitle": "June 10, 2022"
-        },
-        {
-            "title": "Pixel Picks Voting is Back!",
-            "image": "/home-thumbnail/pixel-picks.jpg",
-            "alt": "Pixel Picks Voting is Back!",
-            "link": "https://maplestory.nexon.net/news/74055/pixel-picks-voting-is-back",
-            "subtitle": "May 2, 2022"
         }
     ],
     "upcoming": [

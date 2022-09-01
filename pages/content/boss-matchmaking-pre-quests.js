@@ -275,14 +275,18 @@ function BossMatchmaking() {
           <p>You must complete the Silent Crusade questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/1/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 90 to unlock access to Arkarium</p>
           <ul>
             <li>
-                <strong>Easy mode and Above Rewards: </strong>[Lv. 130 Gear], <img src=" /images/equipment/mechanator-pendant.png" alt="Eqp Mechanator Pendant"/>
-                <a href="https://maplestory.fandom.com/wiki/Mechanator_Pendant" target="_blank" rel="noreferrer noopener">[Mechanator Pendant]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/> [Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src=" /images/items/primal-essence.png" alt="Etc Primal Essence"/>
-                <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noreferrer noopener">[Primal Essence]</a>, <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's
-                Cube],<img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coin]
+                <strong>Easy mode and Above Rewards:</strong> <img src=" /images/equipment/mechanator-pendant.png" alt="Eqp Mechanator Pendant"/> <a href="https://maplestory.fandom.com/wiki/Mechanator_Pendant" target="_blank" rel="noreferrer noopener">[Mechanator Pendant]</a>
+                , <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir]
+                , <img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/> [Lv. 130 Rebirth Flame]
+                , <img src=" /images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noreferrer noopener">[Primal Essence]</a>
+                , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+                , <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube]
+                ,<img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coin]
             </li>
             <li>
-                <strong>Normal mode only Rewards: </strong>[Lv. 140 Gear], <img src=" /images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/>
-                <a href="https://maplestory.fandom.com/wiki/Dominator_Pendant" target="_blank" rel="noreferrer noopener">[Dominator Pendant]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+                <strong>Normal mode only Rewards:</strong> <img src=" /images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a href="https://maplestory.fandom.com/wiki/Dominator_Pendant" target="_blank" rel="noreferrer noopener">[Dominator Pendant]</a>
+                , <img src="/images/items/arkarium-statue.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Arkarium Statue]</a>
+                , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
             </li>
             <li><strong>Can clear</strong>: Daily</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/272020110">Dimensional Schism: Front of Arkarium's Alter</a> in the Temple of Time</li>
@@ -294,11 +298,21 @@ function BossMatchmaking() {
           <p>You must complete the main Temple of Time questline to unlock access to Pink Bean. You can start the questline by accepting the quest “<a href="https://maplestory.wiki/GMS/210.1.1/quest/3500" target="_blank" rel="noreferrer noopener">Path to the Past</a>" from the Temple Keeper</p>
           <ul>
             <li>
-                <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/pensalir-battle-helm.png" alt="Eqp Pensalir Battle Helm"/> [Lv. 140 Gear], <img src=" /images/equipment/black-bean-mark.png" alt="Eqp Black Bean Mark"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1022232" target="_blank" rel="noreferrer noopener">[Black Bean Mark]</a>, <img src=" /images/equipment/golden-clover-belt.png" alt="Eqp Golden Clover Belt"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1132272" target="_blank" rel="noreferrer noopener">[Golden Clover Belt]</a>, <img src=" /images/equipment/pink-holy-cup.png" alt="Eqp Pink Holy Cup"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1162025" target="_blank" rel="noreferrer noopener">[Pink Holy Cup]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Rebirth Flames], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's
-                Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/black-bean-mark.png" alt="Eqp Black Bean Mark"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022232" target="_blank" rel="noreferrer noopener">[Black Bean Mark]</a>
+                , <img src=" /images/equipment/golden-clover-belt.png" alt="Eqp Golden Clover Belt"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1132272" target="_blank" rel="noreferrer noopener">[Golden Clover Belt]</a>
+                , <img src=" /images/equipment/pink-holy-cup.png" alt="Eqp Pink Holy Cup"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162025" target="_blank" rel="noreferrer noopener">[Pink Holy Cup]</a>
+                , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+                , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
+                , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+                , <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube]
+                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+            </li>
+            <li>
+              <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-pink-bean-hat.png"/><img src="/images/equipment/chaos-pink-bean-suit.png"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Chaos_Pink_Bean_Set_I" target="_blank" rel="noreferrer noopener">[Chaos Pink Bean Set]</a>
+              , <img src="/images/equipment/black-bean-hat.png"/><img src="/images/equipment/black-bean-suit.png"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Black_Bean_Set" target="_blank" rel="noreferrer noopener">[Black Bean Set]</a>
+              , <img src="/images/items/powerful-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+              , <img src="/images/items/eternal-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+              , <img src="/images/items/pink-bean-armchair.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Pink Bean Armchair]</a>
             </li>
             <li><strong>Can clear Normal</strong>: Daily</li>
             <li><strong>Can clear Chaos</strong>: Weekly</li>
@@ -313,18 +327,19 @@ function BossMatchmaking() {
           <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestory.fandom.com/wiki/Quests/47/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestory.wiki/GMS/210.1.1/map/271010000" target="_blank" rel="noreferrer noopener">Future Henesys</a></p>
           <ul>
             <li>
-                <strong>Easy Mode and Above Rewards: </strong>[Lv. 140 Gear], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/> [Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src=" /images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/>
-                <img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> [Empress Gear Fragment], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's
-                Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                <strong>Easy Mode and Above Rewards:</strong> <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+                , <img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/> [Lv. 140 Rebirth Flame]
+                , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+                , <img src=" /images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/><img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> [Empress Gear Fragment]
+                , <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube]
+                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
             </li>
             <li>
-                <strong>Normal Mode only Rewards:</strong>
-                <img src="/images/equipment/lionheart-battle-shoulder.png" alt="Eqp Lionheart Battle Shoulder"/>
-                <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Empress Shoulder]</a>, <img src=" /images/equipment/deimos-warrior-shield.png" alt="Eqp Deimos Sage Shield"/>
-                <img src=" /images/equipment/deimos-shadow-shield.png" alt="Eqp Deimos Shadow Shield"/>
-                <img src=" /images/equipment/deimos-sage-shield.png" alt="Eqp Deimos Warrior Shield"/> [Shield Recipes]
+                <strong>Normal Mode only Rewards:</strong> <img src="/images/equipment/lionheart-battle-shoulder.png" alt="Eqp Lionheart Battle Shoulder"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Empress Shoulder]</a>
+                , <img src=" /images/equipment/deimos-warrior-shield.png" alt="Eqp Deimos Sage Shield"/><img src=" /images/equipment/deimos-shadow-shield.png" alt="Eqp Deimos Shadow Shield"/><img src=" /images/equipment/deimos-sage-shield.png" alt="Eqp Deimos Warrior Shield"/> [Shield Recipes]
+                , <img src="/images/items/plush-cygnus-shelf.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Plush Cygnus Shelf]</a>
             </li>
-            <li><strong>Can clear Normal</strong>: Weekly</li>
+            <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/271040200" target="_blank" rel="noreferrer noopener">Knight Stronghold: Cygnus Rear Garden</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
@@ -333,17 +348,33 @@ function BossMatchmaking() {
           <p>You must complete all Acts of Black Heaven Blockbuster from the Lightbulb icon called “<a href="https://maplestory.wiki/GMS/210.1.1/quest/33127" target="_blank" rel="noreferrer noopener">[Black Heaven] For Maple World</a>" at Lv. 120. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing the Blockbuster will unlock access for all of your other characters in the same world</p>
           <ul>
             <li>
-                <strong>Normal Mode and Above Rewards: </strong><img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power
-                Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/extraordinary-energy-core.png" alt="Etc Extraordinary Energy Core (Grade S)"/>
-                [Extraordinary Energy Core (Grade S)], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/extraordinary-energy-core.png" alt="Etc Extraordinary Energy Core (Grade S)"/> [Extraordinary Energy Core (Grade S)]
+              , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+              , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+              , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestory.fandom.com/wiki/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+              , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+              , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+              , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+              , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+              , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+              , <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube]
+              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube#Tradeable" target="_blank" rel="noreferrer noopener">[(Non-Reboot Only) Bonus Occult Cube]</a>
             </li>
             <li>
-                <strong>Hard Mode Only Rewards: </strong>
-                <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>, <img src="/images/items/damaged-black-heart.png" alt="Etc Damaged Black Heart"/>
-                <a href="https://maplestory.fandom.com/wiki/Damaged_Black_Heart" target="_blank" rel="noreferrer noopener">[Damaged Black Heart]</a>, <img src="/images/equipment/android.png" alt="Eqp Deluxe Android (M)"/>
-                <a href="https://maplestory.fandom.com/wiki/Lotusroid" target="_blank" rel="noreferrer noopener">[Lotusroid Android]</a>, <img src="/images/equipment/berserked.png" alt="Eqp Berserked"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1012632">[Beserked Face Accessory]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/>
-                <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube#Tradeable" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>
+                <strong>Hard Mode Only Rewards: </strong> <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>
+                , <img src="/images/items/damaged-black-heart.png" alt="Etc Damaged Black Heart"/> <a href="https://maplestory.fandom.com/wiki/Damaged_Black_Heart" target="_blank" rel="noreferrer noopener">[Damaged Black Heart]</a>
+                , <img src="/images/equipment/android.png" alt="Eqp Deluxe Android (M)"/> <a href="https://maplestory.fandom.com/wiki/Lotusroid" target="_blank" rel="noreferrer noopener">[Lotusroid Android]</a>
+                , <img src="/images/equipment/berserked.png" alt="Eqp Berserked"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1012632">[Beserked Face Accessory]</a>
+                , <img src="/images/items/orchids-plush-bunny.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener noreferrer">[Orchid's Plush Bunny]</a>
+                , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestory.fandom.com/wiki/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Non-Reboot Only) Scroll - Accessory Coupon]</a>
+                , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Unrelenting Flame]</a>
+                , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
+                , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/350060300" target="_blank" rel="noreferrer noopener">Black Heaven Inside: Core Entrance</a></li>
@@ -355,18 +386,36 @@ function BossMatchmaking() {
           <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb icon called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing Act 4 will unlock access for all of your other characters in the same world</p>
           <ul>
             <li>
-                <strong>Normal Mode and Above Rewards: </strong><img src="/images/equipment/ruin-force-shield.png" alt="Eqp Ruin Force Shield"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1099015" target="_blank" rel="noreferrer noopener">[(Demon-Class Exclusive) Ruin Force Shield]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/twisted-stigma-spirit-stone.png" alt="Etc Twisted Stigma Spirit Stone"/> [Twisted Stigma
-                Spirit Stone], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              <strong>Normal Mode Rewards: </strong> , <img src="/images/equipment/ruin-force-shield.png" alt="Eqp Ruin Force Shield"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1099015" target="_blank" rel="noreferrer noopener">[(Demon-Class Exclusive) Ruin Force Shield]</a>
+              , <img src="/images/items/twisted-stigma-spirit-stone.png" alt="Etc Twisted Stigma Spirit Stone"/> [Twisted Stigma Spirit Stone]
+              , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+              , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+              , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestory.fandom.com/wiki/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+              , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+              , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+              , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+              , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+              , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+              , <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube]
+              , <img src="/images/items/bonus-occult-cube.png"/> <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Bonus Occult Cube]</a>
+              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
             </li>
             <li>
-                <strong>Hard Mode Only Rewards: </strong><a href="https://maplestory.fandom.com/wiki/Damienroid" target="_blank" rel="noreferrer noopener">[Damienroid Android]</a>, <img src="/images/equipment/magic-eyepatch.png" alt="Eqp Magic Eyepatch"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1022278" target="_blank" rel="noreferrer noopener">[Magic Eyepatch]</a>
-                , <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/>
-                <a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>
+                <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/damienroid.png"/> <a href="https://maplestory.fandom.com/wiki/Damienroid" target="_blank" rel="noreferrer noopener">[Damienroid Android]</a>
+                , <img src="/images/equipment/magic-eyepatch.png" alt="Eqp Magic Eyepatch"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022278" target="_blank" rel="noreferrer noopener">[Magic Eyepatch]</a>
+                , <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>
+                , <img src="/images/items/damiens-sword.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener noreferrer">[Damien's Sword]</a>
+                , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestory.fandom.com/wiki/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Non-Reboot Only) Scroll - Accessory Coupon]</a>
+                , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Unrelenting Flame]</a>
+                , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
+                , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/350060300" target="_blank" rel="noreferrer noopener">Black Heaven Inside: Core Entrance</a></li>
+            <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/Path_to_the_World_Tree_Summit" target="_blank" rel="noreferrer noopener">Dark World Tree: Path to the World Tree Summit</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/boss-icons/ramuramu.png" alt="MapIcon ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
@@ -389,7 +438,7 @@ function BossMatchmaking() {
           </ul> 
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="lucid"><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> Lucid</ArticleHeaderTwo>
-          <p><strong>[Easy/Normal/Hard Lv. 220+ &amp; 360AF+]</strong></p>
+          <p><strong>[Easy/Normal/Hard Lv. 220+ &amp; 360ArcP+]</strong></p>
           <p>You must complete the Lachelein storyline and defeat Story Mode Lucid in order to unlock access to Lucid</p>
           <ul>
             <li>
@@ -403,8 +452,8 @@ function BossMatchmaking() {
                 , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
                 , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
                 , <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube]
-                , <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [Bonus Occult Cube]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal],
+                , <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [(Non-Reboot Only) Bonus Occult Cube]
             </li>
             <li>
               <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/butterfly-droplet-stone.png"/> <a href="https://maplestory.fandom.com/wiki/Butterfly_Droplet_Stone" target="_blank" rel="noreferrer noopener">[Butterfly Droplet Stone]</a>
@@ -431,26 +480,50 @@ function BossMatchmaking() {
           <p>You can enter the Gollux area without any pre-quests. Enter through the Dimensional Mirror. To gain access to Gollux, you must complete the quest “[Gollux] The Cracks of Corruption”. The quest consists of only dialogue</p>
           <ul>
             <li>
-                <strong>Main Rewards:</strong> <img src="/images/items/gollux-penny.png" alt="Etc Gollux Penny"/>
-                <img src="/images/items/gollux-coin.png" alt="Etc Gollux Coin"/> [Gollux Penny/Coins], <img src="/images/equipment/superior-gollux-earrings.png" alt="Eqp Superior Gollux Earrings"/>
-                <img src="/images/equipment/superior-gollux-ring.png" alt="Eqp Superior Gollux Ring"/>
+                <strong>Main Rewards:</strong> <img src="/images/items/gollux-penny.png" alt="Etc Gollux Penny"/> <img src="/images/items/gollux-coin.png" alt="Etc Gollux Coin"/> [Gollux Penny/Coins]
+                , <img src="/images/equipment/superior-gollux-earrings.png" alt="Eqp Superior Gollux Earrings"/>
+                <img src="/images/equipment/superior-gollux-ring.png"/>
                 <img src="/images/equipment/superior-engraved-gollux-pendant.png" alt="Eqp Superior Engraved Gollux Pendant"/>
                 <img src="/images/equipment/superior-engraved-gollux-belt.png" alt="Eqp Superior Engraved Gollux Belt"/>
                 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Superior_Gollux_Set" target="_blank" rel="noreferrer noopener">[Gollux Accessories]</a>
+                , <img src="/images/items/gollux-wood-bench.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener noreferrer">[(Hell Mode Only) Gollux Wood Bench]</a>
+                , <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube]
             </li>
             <li><strong>Can clear</strong>: Daily</li>
             <li><strong>Location</strong>: Dimensional Mirror</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="gloom"><img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> Gloom</ArticleHeaderTwo>
-          <p><strong>[Normal/Chaos Lv. 245+ &amp; 730AF+]</strong></p>
+          <p><strong>[Normal/Chaos Lv. 245+ &amp; 730ArcP+]</strong></p>
           <p>You must complete the Moonbridge storyline and defeat Story Mode Gloom in order to unlock access to Gloom</p>
           <ul>
             <li>
-                <strong>Normal/Hard Mode Rewards: </strong><img src="/images/equipment/endless-terror.png" alt="Eqp Endless Terror"/>
-                <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/218/item/1113306" target="_blank">[(Chaos Only) Endless Terror Ring]</a>
-                <img src="/images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [Bonus Occult Cube], <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/>
-                <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Spark_of_Determination" target="_blank">[Spark of Determination]</a>, <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+                <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/estella-earrings.png" alt="Eqp Estella Earrings"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Estella_Earrings" target="_blank">[Estella Earrings]</a>
+                , <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Spark_of_Determination" target="_blank">[Spark of Determination]</a>
+                , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestory.fandom.com/wiki/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+                , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+                , <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [(Non-Reboot Only) Bonus Occult Cube]
+            </li>
+            <li>
+              <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/endless-terror.png" alt="Eqp Endless Terror"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/218/item/1113306" target="_blank">[Endless Terror]</a>
+              , <img src="/images/items/gloom-dark-bean-bag.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener noreferrer">[Gloom Dark Bean Bag]</a>
+              , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+              , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
+              , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
+              , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
+              , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestory.fandom.com/wiki/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Magical Scroll - Weapon Coupon]</a>
+              , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/450009301" target="_blank">Moonbridge: Facing the Eye of the Void</a></li>
@@ -458,39 +531,110 @@ function BossMatchmaking() {
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <AdInArticleBanner/>
           <ArticleHeaderTwo id="verushilla"><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> Verus Hilla</ArticleHeaderTwo>
-          <p><strong>[Hard Lv. 250+ &amp; 900AF+]</strong></p>
+          <p><strong>[Normal/Hard Lv. 250+ &amp; 900ArcP+]</strong></p>
           <p>You must complete the Labyrinth of Suffering storyline and defeat Story Mode Verus Hilla in order to unlock access to Verus Hilla</p>
           <ul>
             <li>
-                <strong>Hard Mode Rewards:</strong>
-                <img src="/images/equipment/source-of-suffering.png" alt="Eqp Source of Suffering"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1122430" target="_blank" rel="noreferrer noopener">[Source of Suffering]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/shadow-of-annihilation.png" alt="Etc Shadow of Annihilation"/>
-                <a href="https://maplestory.fandom.com/wiki/Shadow_of_Annihilation" target="_blank" rel="noreferrer noopener">[Shadow of Annihilation]</a>
+              <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/daybreak-pendant.png" alt="Eqp Daybreak Pendant"/> <a href="https://maplestory.fandom.com/wiki/Daybreak_Pendant" target="_blank" rel="noreferrer noopener">[Daybreak Pendant]</a>
+              , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
+              , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+              , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+              , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestory.fandom.com/wiki/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+              , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+              , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+              , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+              , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+              , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+              , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+              , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [(Non-Reboot Only) Bonus Occult Cube]
+              , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
+            </li>
+            <li>
+              <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/source-of-suffering.png" alt="Eqp Source of Suffering"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122430" target="_blank" rel="noreferrer noopener">[Source of Suffering]</a>
+              , <img src="/images/items/shadow-of-annihilation.png" alt="Etc Shadow of Annihilation"/> <a href="https://maplestory.fandom.com/wiki/Shadow_of_Annihilation" target="_blank" rel="noreferrer noopener">[Shadow of Annihilation]</a>
+              , <img src="/images/items/soul-candle.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener noreferrer">[Soul Candle]</a>
+              , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+              , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
+              , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
+              , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestory.fandom.com/wiki/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Magical Scroll - Weapon Coupon]</a>
+              , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450011320" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering: Deep Core Base</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="darknell"><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> Darknell</ArticleHeaderTwo>
-          <p><strong>[Normal/Hard Lv. 255+ &amp; 850AF+]</strong></p>
+          <p><strong>[Normal/Hard Lv. 255+ &amp; 850ArcP+]</strong></p>
           <p>You must complete the Limina storyline and defeat Story Mode Darknell to unlock access to Darknell</p>
           <ul>
             <li>
-                <strong>Normal/Hard Mode Rewards:</strong> <img src="/images/equipment/commanding-force-earring.png" alt="Eqp Commanding Force Earrings"/>
-                <a href="https://maplestory.wiki/GMS/218/item/1032316" target="_blank" rel="noreferrer noopener">[(Hard Only) Commanding Force Earrings]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [Bonus Occult Cube], <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> [Spark of Determination], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/estella-earrings.png" alt="Eqp Estella Earrings"/> <a href="https://maplestory.fandom.com/wiki/Daybreak_Pendant" target="_blank" rel="noreferrer noopener">[Estella Earrings]</a>
+              , <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> [Spark of Determination]
+              , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+              , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+              , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestory.fandom.com/wiki/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+              , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+              , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+              , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+              , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+              , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+              , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+              , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [(Non-Reboot Only) Bonus Occult Cube]
+            </li>
+            <li>
+              <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/commanding-force-earring.png" alt="Eqp Commanding Force Earrings"/> <a href="https://maplestory.wiki/GMS/218/item/1032316" target="_blank" rel="noreferrer noopener">[Commanding Force Earrings]</a>
+              , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
+              , <img src="/images/items/darknells-helmet-decoration.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener noreferrer">[Darknell's Helmet Decoration]</a>
+              , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+              , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
+              , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
+              , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestory.fandom.com/wiki/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Magical Scroll - Weapon Coupon]</a>
+              , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
+              , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450012200" target="_blank" rel="noreferrer noopener">Limina: Final Horizon Fore</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="blackmage"><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> Black Mage</ArticleHeaderTwo>
-          <p><strong>[Hard Lv. 255+ 1320AF+]</strong></p>
+          <p><strong>[Hard Lv. 255+ 1320ArcP+]</strong></p>
           <p>You must complete the Limina storyline and defeat Story Mode Black Mage to unlock access to Black Mage</p>
           <ul>
             <li>
-                <strong>Main Rewards: </strong> <img src="/images/items/sealed-genesis-weapon-box.png" alt="Use Sealed Genesis Weapon Box"/>
-                <a href="https://maplestory.fandom.com/wiki/Sealed_Genesis_Weapon_Box" target="_blank" rel="noreferrer noopener">[Sealed Genesis Weapon Box]</a>, <img src="/images/equipment/genesis-badge.png" alt="Eqp Genesis Badge"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1182285" target="_blank" rel="noreferrer noopener">[Genesis Badge]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              <strong>Main Rewards:</strong> <img src="/images/items/sealed-genesis-weapon-box.png" alt="Use Sealed Genesis Weapon Box"/> <a href="https://maplestory.fandom.com/wiki/Sealed_Genesis_Weapon_Box" target="_blank" rel="noreferrer noopener">[Sealed Genesis Weapon Box]</a>
+              , <img src="/images/equipment/genesis-badge.png" alt="Eqp Genesis Badge"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1182285" target="_blank" rel="noreferrer noopener">[Genesis Badge]</a>
+              , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
+              , <img src="/images/items/black-mages-mirror.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener noreferrer">[Black Mage's Mirror]</a>
+              , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+              , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+              , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+              , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestory.fandom.com/wiki/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+              , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+              , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+              , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+              , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+              , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+              , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [(Non-Reboot Only) Bonus Occult Cube]
+              , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
+              , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
+              , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestory.fandom.com/wiki/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Magical Scroll - Weapon Coupon]</a>
+              , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
+              , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
             <li><strong>Can clear</strong>: Monthly</li>
             <li><strong>Location</strong>: <a href="http://Limina: Giant's Heart" target="_blank" rel="noreferrer noopener">Limina: Giant's Heart</a></li>
@@ -500,7 +644,31 @@ function BossMatchmaking() {
           <p><strong>[Hard Lv. 265+ 150SacP+]</strong></p>
           <p>You must complete the Burning Cernium storyline and to unlock access to Seren</p>
           <ul>
-            <li><strong>Main Rewards: </strong><strong><img className="transparent" src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/></strong> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage_Selection_Box" target="_blank" rel="noopener">[Mitra's Rage Selection Box]</a>, <img src="/images/items/mitras-nodestone.png"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> [Occult Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]</li>
+            <li>
+              <strong>Main Rewards:</strong> <img src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage_Selection_Box" target="_blank" rel="noopener">[Mitra's Rage Selection Box]</a>
+              , <img src="/images/items/mitras-nodestone.png"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a>
+              , <img src="/images/equipment/daybreak-pendant.png" alt="Eqp Daybreak Pendant"/> <a href="https://maplestory.fandom.com/wiki/Daybreak_Pendant" target="_blank" rel="noopener">[Daybreak Pendant]</a>
+              , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+              , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+              , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+              , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestory.fandom.com/wiki/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+              , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+              , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+              , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+              , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+              , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+              , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> [(Non-Reboot Only) Bonus Occult Cube]
+              , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
+              , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
+              , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestory.fandom.com/wiki/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Magical Scroll - Weapon Coupon]</a>
+              , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
+              , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
+            </li>
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/Palace_Main_Hall" target="_blank" rel="noreferrer noopener">Cernium: Palace Main Hall</a></li>
           </ul>
@@ -540,7 +708,7 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="will"><img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> Will</ArticleHeaderTwo>
-          <p><strong>[Normal/Hard Lv. 235+ &amp; 760AF+]</strong></p>
+          <p><strong>[Normal/Hard Lv. 235+ &amp; 760ArcP+]</strong></p>
           <p>You must complete the Esfera storyline and defeat Story Mode Will in order to unlock access to Will</p>
           <ul>
             <li>
@@ -589,7 +757,7 @@ function BossMatchmaking() {
           <p><strong>[Normal Level 200+]</strong></p>
           <p>You must complete the Asura Crisis storyline starting with the quest from your Lightbulb icon called "[The Asura Crisis] Back to Momijigaoka" at Lv. 200</p>
           <ul>
-            <li><strong>Main Rewards: </strong><img src="/images/items/occult-cube.png" alt="Use Occult Cube"/><a href="https://maplestory.fandom.com/wiki/Occult_Cube" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/><a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/><a href="https://maplestory.fandom.com/wiki/Power_Elixir">[ Power Elixir]</a>, <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a><img src="/images/equipment/nimbus-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><img src="/images/equipment/weeping-spirit-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><a href="https://maplestory.fandom.com/wiki/Equipment_Set/Amaterasu_Set" target="_blank" rel="noopener noreferrer">[Japanese Wolf Weapons]</a>, <img src="/images/items/mark-of-the-silver-wolf.png" alt="Mark of the Silver Wolf"/> [Mark of the Silver Wolf]</li>
+            <li><strong>Main Rewards: </strong><img src="/images/items/occult-cube.png" alt="Use Occult Cube"/><a href="https://maplestory.fandom.com/wiki/Occult_Cube" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>, <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/><a href="https://maplestory.fandom.com/wiki/Bonus_Occult_Cube" target="_blank" rel="noreferrer noopener">[(Non-Reboot Only) Bonus Occult Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/><a href="https://maplestory.fandom.com/wiki/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a><img src="/images/equipment/nimbus-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><img src="/images/equipment/weeping-spirit-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><a href="https://maplestory.fandom.com/wiki/Equipment_Set/Amaterasu_Set" target="_blank" rel="noopener noreferrer">[Japanese Wolf Weapons]</a>, <img src="/images/items/mark-of-the-silver-wolf.png" alt="Mark of the Silver Wolf"/> [Mark of the Silver Wolf]</li>
             <li><strong><strong>Can clear</strong>:</strong> Weekly</li>
             <li><strong><strong>Location</strong>: </strong><a href="https://maplestory.wiki/GMS/220/map/800000000" target="_blank" rel="noopener noreferrer">Mushroom Shrine</a></li>
           </ul>
