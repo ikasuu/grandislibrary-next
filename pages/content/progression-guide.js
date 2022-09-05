@@ -260,7 +260,7 @@ function ProgressionGuide() {
             <ul>
                 <li> <img src="/images/items/black-cube.png" alt="Cash Black Cube"/> <a href="https://maplestory.wiki/GMS/215/item/5062010" target="_blank" rel="noreferrer noopener">[Black Cube]</a>
                 </li>
-                <li> <img src="/images/items/black-cube.png" alt="Cash Black Cube"/> <a href="https://maplestory.wiki/GMS/215/item/5062009" target="_blank" rel="noreferrer noopener">[Red Cube]</a>
+                <li> <img src="/images/items/red-cube.png" alt="Cash Black Cube"/> <a href="https://maplestory.wiki/GMS/215/item/5062009" target="_blank" rel="noreferrer noopener">[Red Cube]</a>
                 </li>
                 <li> <img src="/images/items/exp-special-coupon.png" alt="Cash EXP Special Coupon"/> <a href="https://maplestory.wiki/GMS/215/item/5211046" target="_blank" rel="noreferrer noopener">[1-day 2x EXP Special Coupon]</a> (Regular Server only)</li>
                 <li> <img src="/images/items/wild-totem.png" alt="Cash Wild Totem Coupon"/> <a href="https://maplestory.wiki/GMS/215/item/5680823" target="_blank" rel="noreferrer noopener">[Wild Totem Coupon]</a>

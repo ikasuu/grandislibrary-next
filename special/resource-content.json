@@ -111,11 +111,12 @@
             "tags": "burning delete character mega tera rewards recreate"
         },
         {
-            "question": "How do I get the rewards from the Maple Guide?",
+            "question": "How do I get the Main Rewards from the Maple Guide?",
             "answer": [
-                "The main rewards stated in the Maple Guide only show the potential rewards you can obtain from that content and are not guaranteed",
+                "The Main Rewards stated in the Maple Guide only show the possible rewards you can obtain from that content and are not guaranteed",
                 "The 'Stamp Requirement' objective when completed allows you to teleport freely to that location regardless of level",
-                "Without the objective completed, you can only teleport to the location if you are within 29 levels of the maximum recommended level"
+                "Without the objective completed, you can only teleport to the location if you are within 29 levels of the maximum recommended level",
+                "Maple Guide Rewards found in certain levels can be obtained once per World after completing the objective given"
             ],
             "tags": "maple guide main rewards stamp cannot get"
         },

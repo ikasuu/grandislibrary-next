@@ -675,7 +675,7 @@ function Awake() {
                     New skills for Warriors, Buccaneer, Mihile, and Mechanic
                     <ul>
                         <li>
-                            [Warriors] <img src="/class-icons/explorers/warrior/leap-attack.png" alt="Skill Leap Attack.png"/> Leap Attack and <img src="/class-icons/explorers/hero/upward-charge.png" alt="Upper Charge (1)"/><img src="/class-icons/explorers/paladin/upward-charge.png" alt="Upper Charge (2)"/><img src="/class-icons/explorers/dark-knight/upward-charge.png" alt="Upper Charge (3)"/> Upward Charge
+                            [Warriors] <img src="/class-icons/explorers/warrior/leap-attack.png" alt="Skill Leap Attack.png"/> Leap Attack and <img src="/class-icons/explorers/warrior/upward-charge-1.png" alt="Skill Upper Charge"/><img src="/class-icons/explorers/warrior/upward-charge-4.png" alt="Skill Upper Charge"/><img src="/class-icons/explorers/warrior/upward-charge-2.png" alt="Skill Upper Charge"/><img src="/class-icons/explorers/warrior/upward-charge-3.png" alt="Skill Upper Charge"/> Upward Charge
                         </li>
                         <li>[Buccaneer] <img src="/class-icons/explorers/buccaneer/advanced-dash.png" alt="Advanced Dash"/> Advanced Dash</li>
                         <li>[Mihile] <img src="/class-icons/cygnus-knights/mihile/vertical-radiant-driver.png" alt="Vertical Shining Chase"/> Vertical Radiant Driver</li>
@@ -960,7 +960,7 @@ function BugcatCapoo(){
                         <li>5th Job Skill Blink when pressed with Down Arrow Key allows you to float briefly in the air</li>
                         <li>Pet Auto Buff can now be registered with skills with cooldowns</li>
                         <li>
-                            <img src="/class-icons/common/bow-acceleration.png"/><img src="/class-icons/heroes/phantom/cane-acceleration.png"/> Several classes gain additional +1 attack
+                            <img src="/class-icons/common/agile-bows.png"/><img src="/class-icons/heroes/phantom/cane-acceleration.png"/> Several classes gain additional +1 attack
                             speed and some Booster-type skills have been changed to passives
                         </li>
                         <li>

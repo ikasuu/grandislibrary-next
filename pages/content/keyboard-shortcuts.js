@@ -96,6 +96,7 @@ function IntroKeyboardShortcuts(){
         <div>
             <img className="repository-image" src="/images/info/keyboard-shortcuts.png" alt="Keyboard Shortcuts"/>
             <p>By pressing ' \ ' by default will bring up the Keyboard Shortcuts. You can also press 'ESC' by default and going to "Key Bindings" to also access the Keyboard Shortcuts. Here you can move around and place your Skills and usable items into any of the open slots. You can also Right-Click Key Slots to remove an item from a Key Slot</p>
+            <p>Up to 3 keyboard presets can be created and applied by pressing the buttons located in the top right corner</p>
         </div>
     )
 }
@@ -144,16 +145,17 @@ function Equipment(){
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="equipment">E - Equipment</h3>
             <img className="repository-image" src="/images/info/equipment-ui.png" alt="Equipment UI"/>
-            <p>Here you can view all the equipment you have equipped</p>
+            <p>Here you can view and access the equipment you have equipped. As well, you can visually show/hide your Medal and Title that you have equipped by clicking the boxes at the bottom</p>
             <p><img className="repository-image" src="/images/info/equipment-visual-effect.png" alt="Effect"/><img className="repository-image" src="/images/info/beauty-salon.png" alt="Beauty Salon"/></p>
-            <p>On the bottom, you will see the "Effect" button, here you can right-click equipment that has visual effects to toggle them ON/OFF. Right beside it is the "Salon" button where you can manage all of your Hairstyles and Facestyles. In the Beauty Salon, you can save hair or face and change back to them later. To gain more slots you will need to buy <img src="/images/items/beauty-salon-hair-slot-coupon.png" alt="Cash Beauty Salon Hair Slot Coupon"/><img src="/images/items/beauty-salon-face-slot-coupon.png" alt="Cash Beauty Salon Face Slot Coupon"/> Beauty Salon Slot Coupons from the Rewards Point Shop (in the Cash Shop)</p>
+            <p>On the bottom left corner, there is a button labelled "Effect", here you can right-click equipment that has visual effects to toggle them ON/OFF. Beside the "Effect" button is the "Salon" button where you can manage all of your Hairstyles and Facestyles. In the Beauty Salon, you can save hair or face and change back to them later. To gain more slots you will need to buy <img src="/images/items/beauty-salon-hair-slot-coupon.png" alt="Cash Beauty Salon Hair Slot Coupon"/><img src="/images/items/beauty-salon-face-slot-coupon.png" alt="Cash Beauty Salon Face Slot Coupon"/> Beauty Salon Slot Coupons from the Rewards Point Shop (in the Cash Shop)</p>
             <h4>Equip Tab</h4>
             <p><img className="repository-image" src="/images/info/arcane-force-ui.png" alt="Arcane Power"/><img className="repository-image" src="/images/info/commerci-vessel-ui.png" alt="Vessel"/></p>
             <p>In the Equip Tab, you can see all the gear that provides stats to your character</p>
             <p>The "Arcane Equipment" window will appear once you have reached Lv. 200 and obtained your first Arcane Symbol. At the bottom right, there will be a "Vessel" button if you have gained access to Commerci Trade Voyages</p>
             <h4>Cash Tab</h4>
             <img className="repository-image" src="/images/info/equipment-cash-tab.png" alt="Cash Tab"/>
-            <p>In the Cash Tab, you can see all Cash Item gear that covers over your character's regular equipment. Cash clothing are vanity items and do not alter the stats of your main equipment</p>
+            <p>In the Cash Tab, you can see all Cash Item gear that covers over your character's regular equipment. Cash clothing are cosmetic items and do not alter the stats of your main equipment</p>
+            <p>If you have a Cash Weapon equipped, you can change visually how the weapon is held at the bottom of the UI</p>
             <h4>Pet Tab</h4>
             <img className="repository-image" src="/images/info/equipment-pet-tab.png" alt="Pet Tab"/>
             <p>In the Pet Tab, you can manage all of your active pets. Here you can also manage your pet skills if your pet has any</p>
@@ -196,8 +198,8 @@ function MapleGuide(){
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="maple-guide">U - Maple Guide</h3>
             <p><img className="repository-image" src="/images/info/maple-guide-expanded.png" alt="Maple Guide Expanded"/><img className="repository-image" src="/images/info/maple-guide-ui.png" alt="Maple Guide"/></p>
-            <p>Here you can view Recommended Quests and Content for your level range. Pressing the Maple Guide Key while the Maple Guide is active will expand it into a bigger window</p>
-            <p>In the expanded window, you can see all the available content for all levels. You can teleport directly to different places once you have reached the recommended level. You can only teleport back to that area if you are less than 10 levels above the maximum recommended level. You can gain "Completion Stamp" by completing certain requirements to teleport back to that area regardless of your level. Beside some levels, there is a Star button which will bring up a tutorial for a feature in the game. Note, the rewards listed in the guide are not guaranteed but instead let you know what sort of rewards are obtainable</p>
+            <p>Here you can view Recommended Quests, Content and Hunting Zones for your level range. Pressing the Maple Guide Key while the Maple Guide is active will expand it into a bigger window</p>
+            <p>In the expanded window, you can see all the available content for all levels. You can teleport directly to different places once you have reached the recommended level. You can only teleport back to that area if you are less than 10 levels above the maximum recommended level. You can gain "Completion Stamp" by completing certain requirements to teleport back to that area regardless of your level. Beside some levels, there are objectives that can be completed to receive rewards once per World. Note, when viewing the "Main Rewards" listed when clicking into content are not guaranteed but instead show possible rewards</p>
             <p>In the "Boss Content" tab, you will see all the bosses in the game. In the "Special Content" tab, you will see content for Story-type content, Progression-type content, Competitive-type content and lastly Arcane River related content</p>
         </div>
     )

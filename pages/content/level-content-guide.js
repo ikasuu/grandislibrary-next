@@ -32,7 +32,7 @@ function ContentGuide() {
     {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
     <ArticleHeaderTwo id="30">Level 30 - 49</ArticleHeaderTwo>
     <p><img className="repository-image" src="/images/info/maple-guide-expanded.png" alt="Maple Content Guide"/><img className="repository-image" src="/images/info/maple-guide-ui.png" alt="Content Guide Minimized"/></p>
-    <p>Once you reach Lv. 30 you will have full access to the "Maple Guide". Here, you can begin your Job Advancement. You can do the same for 3rd job and 4th job. You can also bring up the UI by pressing "U" by default. Pressing it twice will expand the UI where you can see all the available content for all levels. You can teleport directly to different places once you have reached the recommended level. You can only teleport back to that area if you are less than 10 levels above the maximum recommended level. You can gain "Completion Stamp" by completing certain requirements to teleport back to that area regardless of your level</p>
+    <p>Once you reach Lv. 30 you will have full access to the "Maple Guide". Here, you can begin your Job Advancement. You can do the same for 3rd, 4th, and 5th Job. You can also bring up and expand the UI by pressing "U" by default. Expanding the UI allows you to see available content for all levels. You can teleport directly to different places once you have reached the recommended level. You can only teleport back to that area if you are less than 10 levels above the maximum recommended level. You can gain "Completion Stamp" by completing certain requirements to teleport back to that area regardless of your level</p>
     <p><img src="/images/npc/dimensional-mirror.png" alt="NPC Dimensional Mirror"/><img className="repository-image" src="/images/info/dimensional-mirror-ui.png" alt="Dimensional Mirror UI"/></p>
     <p>Additionally, a lot of other Content in MapleStory can be found by accessing the "Dimensional Mirror" in most towns, you can also find it in the "Quick Move" tab on the top left of the screen in towns</p>
     <p><img className="repository-image" src="/images/info/quick-move.png" alt="Quick Move"/></p>
@@ -79,7 +79,7 @@ function ContentGuide() {
     <ArticleHeaderTwo id="60">Level 60</ArticleHeaderTwo>
     <p>Congratulations on level 60! Welcome to 3rd job!</p>
     <p><img className="repository-image" src="/images/info/boss-queue.png" alt="Boss Matchmaking UI"/></p>
-    <p><strong>[Tip]</strong>: As you level up, even more, you will gain access to more and more bosses. To easily get to some of these bosses (but you must complete their pre-quests first!), you can use the Boss Matchmaking system! You can find it by pressing "F" or "P" by default to open the Friend List or Party List and switching to "BOSS". Whenever you are in a party with another person, you will instantly be queued and teleported to a boss when you accept the notification that pops up. Occasionally you may get an extra party member (but usually they'll leave on their own) but it is a quick way to get to bosses</p>
+    <p><strong>[Tip]</strong>: As you level up, you will reach the required level to more and more bosses. To instantly move to bosses for free after completing their pre-quests, you can access the "Boss Contents" UI. You can find it by assigning the "Boss Party" Key Slot to your Keyboard Shortcuts</p>
     <h3>Content Available:</h3>
     <h4>Optional</h4>
     <h5>[Grinding is preferred at these levels as there isn't much to do]</h5>

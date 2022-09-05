@@ -389,7 +389,7 @@ function BossMatchmaking() {
           <AdInArticleBanner/>
           <ArticleHeaderTwo id="damien"><img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> Damien</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 190+]</strong></p>
-          <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb icon called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing Act 4 will unlock access for all of your other characters in the same world</p>
+          <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb icon called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest. Completing Act 4 will unlock access for all of your other characters in the same world</p>
           <ul>
             <li>
               <strong>Normal Mode Rewards: </strong> , <img src="/images/equipment/ruin-force-shield.png" alt="Eqp Ruin Force Shield"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1099015" target="_blank" rel="noreferrer noopener">[(Demon-Class Exclusive) Ruin Force Shield]</a>
@@ -648,7 +648,7 @@ function BossMatchmaking() {
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="seren"><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> Seren</ArticleHeaderTwo>
           <p><strong>[Hard Lv. 265+ 150SacP+]</strong></p>
-          <p>You must complete the Burning Cernium storyline and to unlock access to Seren</p>
+          <p>You must complete the Burning Cernium storyline to unlock access to Seren</p>
           <ul>
             <li>
               <strong>Main Rewards:</strong> <img src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage_Selection_Box" target="_blank" rel="noopener">[Mitra's Rage Selection Box]</a>
