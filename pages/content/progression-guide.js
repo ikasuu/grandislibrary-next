@@ -36,7 +36,7 @@ function ProgressionGuide() {
                 </li>
                 <li className="quick-jump"><Link smooth href="#140">Lv. 140 and Beyond</Link>
                 </li>
-                <li className="quick-jump"><Link smooth href="#5th">5th Job Advancement</Link>
+                <li className="quick-jump"><Link smooth href="#5th">5th Job Advancement &amp; Arcane River</Link>
                 </li>
                 <li className="quick-jump"><Link smooth href="#matrix">V Matrix + Nodestones</Link>
                 </li>
@@ -163,7 +163,7 @@ function ProgressionGuide() {
             <p>Going forward, you do not need to worry much about dailies or bosses for now until you've reached Lv. 200. You can however try and fight some bosses in the &lt; 2k Main Stat section of the <a href="https://www.grandislibrary.com/contents/progression-guide#bosses">Bosses</a> part of this guide for Mesos, equipment, and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2711001" target="_blank">Occult Cubes</a>. Your main priority right now is leveling up and working towards filling up each equipment slot with Epic Potential gear</p>
             <p>If you are struggling with Mesos, be sure to complete <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour" data-preserve-html-node="true"/> Maple Tour every day as the main reward is Mesos</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="5th">5th Job Advancement:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="5th">5th Job Advancement &amp; Arcane River:</ArticleHeaderTwo>
             <hr/>
             <p><strong>Mandatory Requirements to accept 5th Job Quest:</strong>
             </p>
@@ -196,20 +196,21 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <p><strong>After Advancement, obtaining an Arcane Symbol:</strong> To deal damage to monsters in the Arcane River, Arcane Power is required similar to Star Force which you gain from equipping <img src="/images/equipment/arcane-symbol.png" alt="Eqp Arcane Symbol"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Arcane_Symbols" target="_blank">Arcane Symbols</a></p>
+            <img className="repository-image" src="/images/info/arcane-force-ui.png" alt="Arcane Force UI"/>
+            <p><strong>After Advancement, obtaining an Arcane Symbol:</strong> To deal damage to monsters in the <a href="https://maplestory.fandom.com/wiki/Category:Arcane_River" target="_blank" rel="noopener referrer">Arcane River</a> - the main region past Level 200, Arcane Power is required similar to Star Force which you gain from equipping <img src="/images/equipment/arcane-symbol.png" alt="Eqp Arcane Symbol"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Arcane_Symbols" target="_blank">Arcane Symbols</a></p>
             <ul>
-                <li>To obtain your Arcane Symbol, you must complete the quest <a href="https://maplestory.wiki/GMS/210.1.1/quest/1466" target="_blank" rel="noreferrer noopener">"A Greater Power"</a> located in your Lightbulb icon. This quest is intentionally difficult as you have no Arcane Power</li>
-                <li><strong>[Note]: </strong>The symbol you obtain is not a real Arcane Symbol yet until you complete the Vanishing Journey storyline. In the meantime, you must complete the story with the limited Arcane Power you have</li>
-                <li><strong>[Tip] </strong>If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Power, allocate some points temporarily until you get enough Arcane Power</li>
+                <li>To obtain your first Arcane Symbol, you must complete the quest <a href="https://maplestory.wiki/GMS/210.1.1/quest/1466" target="_blank" rel="noreferrer noopener">"A Greater Power"</a> located in your Lightbulb icon. This quest is intentionally difficult as you have no Arcane Power yet</li>
+                <li><strong>[Note]</strong>: The symbol you obtain is not a real Arcane Symbol yet until you complete the Vanishing Journey storyline. In the meantime, you must complete the story with the limited Arcane Power you have</li>
+                <li><strong>[Tip]</strong> If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Power, allocate some points temporarily until you get enough Arcane Power</li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="matrix">5th Job V Matrix + Nodestones:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/v-matrix-ui.png" alt="V Matrix"/>
-            <p>In 5th Job, you do not gain skills regularly like your previous Job Advancements. Instead, you have "Nodes" which contains a 5th Job Skill. You can equip these Nodes into your V Matrix to gain access to that Skill. To gain Nodes, you need to open <img src="/images/items/nodestone.png" alt="Nodestone Item"/>Nodestones that are obtained from monsters in the Arcane River, Vanishing Journey Weekly Quest, and Event Shops</p>
+            <p>In 5th Job, you do not gain skills regularly like your previous Job Advancements. Instead, you have "Nodes" which contains a 5th Job Skill. You can equip these Nodes into your V Matrix to gain access to that skill. To gain Nodes, you need to open <img src="/images/items/nodestone.png" alt="Nodestone Item"/>Nodestones that are obtained from monsters in the Arcane River, Vanishing Journey Weekly Quest, Nodecrafting, and Event Shops</p>
             <img className="repository-image" src="/images/info/v-matrix-button.png" alt="Skill UI"/>
             <p>To view your V Matrix, open up your Skill UI, "K" by default, and click to the "V" tab and press the "V Matrix" button at the top</p>
-            <p>You will notice you will have empty slots and locked slots. You gain additional slots as you level up your Character Level which will allow you to equip more Nodes and in turn more 5th Job Skills. Additionally, you can pay Mesos to unlock slots early. To equip a Node, double-click or drag them into an empty slot</p>
+            <p>You will notice you have empty slots and locked slots. You gain additional slots as your character levels up which will allow you to equip more Nodes and in turn more 5th Job Skills. Additionally, you can pay Mesos to unlock slots early. To equip a Node, double-click or drag them into an empty slot</p>
             <p>All classes have their Main 5th Job Skills that are exclusive to that class. There are also 5th Job Skills exclusive to a certain Class Group like Explorers or Cygnus Knights. Lastly, there are Common 5th Job skills that are available to all classes</p>
             <img className="repository-image" src="/images/info/node-enhance.png" alt="Enhancing Node"/>
             <img className="repository-image" src="/images/info/node-enhance-button.png" alt="Enhance Single Node"/>
@@ -233,15 +234,24 @@ function ProgressionGuide() {
                 <li>They cannot be leveled up and have a timed duration and will disappear</li>
                 <li>It is best to disassemble these nodes for Node Shards that are used to craft new Nodes</li>
             </ul>
+            <h3>Matrix Points</h3>
+            <img className="repository-image" src="/images/info/slot-enhancement-button.png" alt="Slot Enhancement Button"/>
             <img className="repository-image" src="/images/info/matrix-points.png" alt="Matrix Points"/>
-            <p>Each time your character levels up, you gain a Matrix Point. Matrix Points are used to raise a Node's Rank but they are tied to the Node Slots themselves instead of the Node. Each slot can allocate up to 5 additional Ranks for a Node. This means each Skill Node or Boost Node can reach a max Rank of 30. You can assign your Matrix Points in the V Matrix by pressing the "Slot Enhancement" button on the right</p> <img className="repository-image" src="/images/npc/archelle.png" alt="Node Master"/>
+            <p>Each time your character levels up, you gain a Matrix Point. Matrix Points are used to raise a Node's Rank but they are tied to the Node Slots themselves instead of the Node. Each slot can allocate up to 5 additional Ranks for a Node. This means each Skill Node or Boost Node can reach a max Rank of 30. You can assign your Matrix Points in the V Matrix by pressing the "Slot Enhancement" button</p>
+            <h3>Node Enhancing</h3>
             <img className="repository-image" src="/images/info/node-crafting.png" alt="V Upgrade UI"/>
-            <p>To enhance your Nodes, you will need to talk to a Node Master such as <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/npc/1540945" target="_blank">Archelle</a> in <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/map/450001000" target="_blank">Nameless Town</a>. To start, right-click a Node you want to enhance. Using copies of the same Node you are trying to enhance, you consume the extra Nodes to the gain EXP required to level up a Node. As mentioned previously, to enhance Boost Nodes, you need Nodes with the same Main Skill. All Nodes have a max Rank of 25 meaning each Node provides 25 Skill Levels for a skill</p>
-            <p>To gain additional Nodes, you will need to open <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">Nodestones</a> which will give you a random Node for your class. You can obtain Nodestones from monster drops in the Arcane River, from the <a href="https://maplestory.wiki/GMS/215/quest/34151" target="_blank" rel="noreferrer noopener">Weekly Quest in Vanishing Journey</a>, and from Events. Additionally, there is a special Nodestone called <img src="/images/items/exp-nodestone.png" alt="Use EXP Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2439279" target="_blank" rel="noreferrer noopener">[Experience Nodestone]</a> which when opened provides an EXP Node that can be used on any Node as EXP. These Nodestones are only obtainable from Events</p>
-            <img className="repository-image" src="/images/info/node-disassemble.png" alt="Disassemble Node"/>
+            <p>To enhance your Nodes, right-click a Node you want to enhance. Using copies of the same Node you are trying to enhance, you consume the extra Nodes to the gain EXP required to level up a Node. As mentioned previously, to enhance Boost Nodes, you need Nodes with the same Main Skill. All Nodes have a max Rank of 25 meaning each Node provides 25 Skill Levels for a skill</p>
+            <p>To gain additional Nodes, you will need to open <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">Nodestones</a> which will give you a random Node for your class. You can obtain Nodestones from monster drops in the Arcane River, from the <a href="https://maplestory.wiki/GMS/215/quest/34151" target="_blank" rel="noreferrer noopener">Weekly Quest in Vanishing Journey</a>, Nodecrafting, and from Events</p>
+            <p>There are also special Nodestones called <img src="/images/items/exp-nodestone.png" alt="Use EXP Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2439279" target="_blank" rel="noreferrer noopener">[Experience Nodestone]</a> which when opened provides an EXP Node that can be used on any Node as EXP. These Nodestones are only obtainable from Events</p>
+            <h3>Node Disassembling</h3>
+            <img className="repository-image" src="/images/info/disassemble-node.png" alt="Disassemble Node"/>
+            <p>Nodes can be disassembled to gain Node Shards that are used to craft more Nodestones or a guaranteed Node. To disassemble Nodes, press on the "Disassemble Nodes" button beside the "Slot Enhancement" button</p>
+            <p>You can select multiple Nodes to disassemble at a time or right click to select to disassemble a single Node</p>
+            <h3>Nodecrafting</h3>
             <img className="repository-image" src="/images/info/node-skill-craft.png" alt="Node Crafting"/>
-            <p>Another way to gain more Nodes is by Nodecrafting. To craft Nodes, you will need Node Shards which are obtained from disassembling unwanted Nodes at a Node Master. To start, click on the "Nodecrafting" button and then click on a Node you want to craft and then press the "Craft" button. Don't press the Craft Nodestone button as you will get a Nodestone instead!</p>
-            <p><strong>[Note]</strong>: When crafting Boost Nodes, you can choose the Main Skill for that Node by choosing the desired skill in the Nodecrafting UI</p>
+            <p>Specific Nodes can be crafted by pressing the "Nodecrafting" button. To craft Nodes, you will need Node Shards which are obtained from disassembling Nodes</p>
+            <p>In the Nodecrafting UI, select the Node you want to craft and then press the "Craft" button. Do not press the "Craft Nodestone" button as you will craft a Nodestone instead</p>
+            <p><strong>[Note]</strong>: When crafting Boost Nodes, you can choose the Main Skill for that Node by selecting the desired skill in the Nodecrafting UI</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="legion">Legion System</ArticleHeaderTwo>
             <hr/>
