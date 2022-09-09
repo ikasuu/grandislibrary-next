@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 234; 
-export const versionName = "Destiny Update"
+export const version = 235; 
+export const versionName = "Rocking Revamp Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
