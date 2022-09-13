@@ -2374,6 +2374,12 @@ function ProgressionGuide() {
                 <li><strong>(Lv. 190) [Haven] A New Home </strong>- Pre-quests to unlock access to Weekly Quests in the Scrapyard</li>
                 <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain </strong>- Pre-quests to unlock access to Weekly Quests in the Dark World Tree</li>
                 <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- Pre-quests to unlocking access to the boss Akechi Mitsuhide</li>
+                <li>
+                    <strong>(Lv. 235) [Kao's Memory] The First Memory </strong>- Begins a storyline involving <a href="https://maplestory.fandom.com/wiki/Kao" target="_blank" rel="noopener noreferrer">Kao</a> between Lv. 235 to 255
+                    <ul>
+                        <li><strong>Main Reward</strong>: <img src="/images/equipment/kao-hood.png" alt="Eqp Kao Hood"/> <a href="https://maplestory.fandom.com/wiki/Kao_Hood" target="_blank" rel="noopener noreferrer">[Kao Hood]</a></li>
+                    </ul>
+                </li>
             </ul>
             <h3>Theme Dungeon Starting Quests:</h3>
             <p>Quests labeled in orange are recommended, in green are optional, in white are skippable</p>
@@ -2411,7 +2417,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><strong>(Lv. 95) [Ellin Forest] Invitation to Ellin Forest </strong>- Theme Dungeon
+                <li><strong>(Lv. 95) [Ellin Forest] A Peculiar Book </strong>- Theme Dungeon
                 <ul>
                     <li><strong>Main Rewards:</strong> <img src="/images/equipment/ephenias-ring.png" alt="Eqp Ephenia's Ring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1112683" target="_blank" rel="noreferrer noopener">[Ephenia's Ring]</a>, <img src="/images/equipment/ellin-forest-guardian.png" alt="Eqp Ellin Forest Guardian"/> [Medal]</li>
                 </ul>
