@@ -5,8 +5,56 @@ import Head from 'next/head';
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
 import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import TrainingMap from '../../components/content/TrainingMap';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Mousewheel, Scrollbar } from 'swiper';
+import Fuse from 'fuse.js';
+import styled from 'styled-components';
+
+import maps from '../../special/training-maps.json';
+
+// Swiper element used for the training map
+const TrainingMapSwiper = styled(Swiper)`
+    width: 90%;
+    max-height: 50rem;
+    min-height: 50rem;
+    overflow: hidden;
+`;
+
+// Filter search bar for training map
+const TrainingMapSearch = styled.input`
+    margin: 0 0 1.5rem 0;
+    padding-left: 1rem;
+    width: 95%;
+    height: 3rem;
+    border: none;
+    -webkit-filter: drop-shadow( 3px 3px 3px rgba(0, 0, 0, .2));
+    filter: drop-shadow( 3px 3px 3px rgba(0, 0, 0, .2));
+`;
+
+// Used to center search bar for training map
+const TrainingMapSearchWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+`;
 
 function ProgressionGuide() {
+    SwiperCore.use([Scrollbar, Mousewheel]);
+
+    // Create search query object that searches our data by looking at the question and tags
+    const fuse = new Fuse(maps, {keys: ["level", "mapName", "area"]});
+    // Used to store what's typed into search bar
+    const [searchTerm, setSearchTerm] = React.useState("");
+
+    // Custom filtering function, return original if search query returns nothing (len = 0)
+    const searchQuery = (term) => {
+        const results = fuse.search(term);
+        if(results.length){
+            return results;
+        }
+        return maps;
+    }
+
     return (
         <ContentPage>
             <Head>
@@ -1732,280 +1780,27 @@ function ProgressionGuide() {
             <ArticleHeaderTwo id="training">Training Maps:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/world-map-ui.png" alt="World Map"/>
-            <p>To find a certain map or monster listed here, open your World Map (W by default) and search for the desired item on the right-hand side. Clicking on the item you want will direct you to the map which will start blinking</p>
-            <ul>
-                <li> <img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/100040000" target="_blank" rel="noreferrer noopener">Henesys - Golem's Temple</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5150000" target="_blank" rel="noreferrer noopener">Mixed Golems</a>
-                <ul>
-                    <li><strong>Recommended Level</strong>: 10 - 15</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/100040000" target="_blank" rel="noreferrer noopener">Henesys - Golem's Temple</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5150003" target="_blank" rel="noreferrer noopener">Flaming Mixed Golems</a>
-                <ul>
-                    <li><strong>Recommended Level</strong>: 15 - 25</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/101030000" target="_blank" rel="noreferrer noopener">Ellinia - North Forest</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2230100" target="_blank" rel="noreferrer noopener">Evil Eyes</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3230100" target="_blank" rel="noreferrer noopener">Curse Eyes</a>
-                <ul>
-                    <li><strong>Recommended Level</strong>: 25 - 30</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach"/> <a href="https://maplestory.fandom.com/wiki/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener"><strong>Gold Beach Resort</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/3401003" target="_blank" rel="noreferrer noopener">Violet Clam Slime</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3401010" target="_blank" rel="noreferrer noopener">Seashell Octopus Slime</a>
-                <ul>
-                    <li><strong>Recommended Level</strong>: 30 - 50</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong><a href="https://maplestory.fandom.com/wiki/Category:Elodin" target="_blank" rel="noreferrer noopener">Elodin</a></strong>: <a href="https://maplestory.wiki/GMS/215/mob/3501106" target="_blank" rel="noreferrer noopener">Forest Glimmerfox</a> and <a href="https://maplestory.wiki/GMS/215/mob/3501107" target="_blank" rel="noreferrer noopener">Night Glimmerfox</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>30 - 50</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/102030000" target="_blank" rel="noreferrer noopener"><strong>Perion - Wild Boar Land</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2230102" target="_blank" rel="noreferrer noopener">Wild Boars</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>50 - 60</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/102040200" target="_blank" rel="noreferrer noopener">Perion - Excavation Site</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230125" target="_blank" rel="noreferrer noopener">Skeledogs</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230126" target="_blank" rel="noreferrer noopener">Mummydogs</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/7130103" target="_blank" rel="noreferrer noopener">Commander Soldier</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>55 - 70</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/sleepywood.png" alt="MapIcon Dungeon"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/105010000" target="_blank" rel="noreferrer noopener">Sleepywood - Silent Swamp</a></strong> and <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/105020000" target="_blank" rel="noreferrer noopener">Sunless Area</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4130100" target="_blank" rel="noreferrer noopener">Copper Drakes</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/2600224" target="_blank" rel="noreferrer noopener">Drakes</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>60 - 70</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/el-nath.png" alt="MapIcon ElNath"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/211040200" target="_blank" rel="noreferrer noopener">El Nath - Ice Valley II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5140000" target="_blank" rel="noreferrer noopener">White Fang</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>70 - 80</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/verne-mine.png" alt="MapIcon Verne Mine"/> <strong><a href="https://maplestory.wiki/GMS/215/map/310050600" target="_blank" rel="noreferrer noopener">Verne Mine - Shaft 2</a> &amp; <a href="https://maplestory.wiki/GMS/215/map/310060300" target="_blank" rel="noreferrer noopener">Deep Shaft</a></strong>: <a href="https://maplestory.wiki/GMS/215/mob/7150001" target="_blank" rel="noreferrer noopener">Big Spider</a> and <a href="https://maplestory.wiki/GMS/215/mob/8105005" target="_blank" rel="noreferrer noopener">Ore Muncher</a>
-                <ul>
-                    <li><strong>Recommeded Level: </strong>80 - 85</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/260020600" target="_blank" rel="noreferrer noopener">Nihal Desert - Sahel 2</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110300" target="_blank" rel="noreferrer noopener">Sand Rat</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110301" target="_blank" rel="noreferrer noopener">Scorpion</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>80 - 100</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <strong/><a href="https://maplestory.wiki/GMS/210.1.1/map/260020610" target="_blank" rel="noreferrer noopener"><strong>Nihal Desert - The Desert of Serenity</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110300" target="_blank" rel="noreferrer noopener">Sand Rat</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3110301" target="_blank" rel="noreferrer noopener">Dark Sand Dwarf</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>80 - 100</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/261020300" target="_blank" rel="noreferrer noopener">Magatia - Lab Area C-1</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/map/261020400" target="_blank" rel="noreferrer noopener">Lab Area C-2</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5110301" target="_blank" rel="noreferrer noopener">Roid</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5110302" target="_blank" rel="noreferrer noopener">Neo Huroid</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>90 - 100</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240010600" target="_blank" rel="noreferrer noopener">[Star Force 5] Leafre - Sky Nest II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140003" target="_blank" rel="noreferrer noopener">Blood Harp</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>90 - 100</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/240010000" target="_blank" rel="noreferrer noopener">Leafre - West Leafre Forest</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2600003" target="_blank" rel="noreferrer noopener">Rash</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/2600004" target="_blank" rel="noreferrer noopener">Dark Rash</a>
-                <ul>
-                    <li><strong>Recommended Level:</strong> 100 - 110</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240020200" target="_blank" rel="noreferrer noopener">[Star Force 15] Leafre - The Area of Black Kentaurus</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140104" target="_blank" rel="noreferrer noopener">Black Kentaurus</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>100 - 110</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestory.fandom.com/wiki/Zakum" target="_blank" rel="noreferrer noopener"><strong>[Boss] Normal Zakum</strong></a>: Defeating this will give you LOTS of EXP
-                <ul>
-                    <li><strong>Recommended Level: </strong>100 - 130</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Ludibrium"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/220020600" target="_blank" rel="noreferrer noopener">Ludibrium - Toy Factory</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230111" target="_blank" rel="noreferrer noopener">Robo</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230112" target="_blank" rel="noreferrer noopener">Master Robo</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>110 - 125</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Ludibrium"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/220060201" target="_blank" rel="noreferrer noopener">[Star Force 26] Ludibrium - Unbalanced Time</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/7160000" target="_blank" rel="noreferrer noopener">Dual Ghost Pirate</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>110 - 130</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Ludibrium"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/220060400" target="_blank" rel="noreferrer noopener">[Star Force 26] Ludibrium - Warped Passage</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8160000" target="_blank" rel="noreferrer noopener">Gatekeeper</a>
-                <ul>
-                    <li><strong>Recommended Level:</strong> 110 - 130</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Ludibrium"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/220070400" target="_blank" rel="noreferrer noopener">[Star Force 26] Ludibrium - Forgotten Passage</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8170000" target="_blank" rel="noreferrer noopener">Thanatos</a>
-                <ul>
-                    <li><strong>Recommended Level:</strong> 110 - 130</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/korean-folk-town.png" alt="MapIcon Folkvillige"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/224000100" target="_blank" rel="noreferrer noopener">Korean Folk Town - Black Mountain Entrance</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5100100" target="_blank" rel="noreferrer noopener">Moon Bunny</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>125 - 140</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/korean-folk-town.png" alt="MapIcon Folkvillige"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/224000142" target="_blank" rel="noreferrer noopener">Korean Folk Town - Goblin House</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5100108" target="_blank" rel="noreferrer noopener">Yellow King Goblin</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>130 - 150</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/dead-mine.png" alt="MapIcon ElNathDungeon"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/211042000" target="_blank" rel="noreferrer noopener">[Star Force 55] El Nath - The Cave of Trial I</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/map/211042200" target="_blank" rel="noreferrer noopener">III</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230108" target="_blank" rel="noreferrer noopener">Jr. Cerebes</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140500" target="_blank" rel="noreferrer noopener">Bain</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>130 - 145</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/kerning-tower.png" alt="MapIcon KerningTower"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/103041140" target="_blank" rel="noreferrer noopener">Kerning Tower - 5F Cosmetics Store 1</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4310011" target="_blank" rel="noreferrer noopener">Killer Cosmetics</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>145 - 160</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240040320" target="_blank" rel="noreferrer noopener">[Star Force 65] Leafre - Black Wyvern's Nest</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8150303" target="_blank" rel="noreferrer noopener">Dark Wyvern</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>135 - 145</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/kerning-tower.png" alt="MapIcon KerningTower"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/103041119" target="_blank" rel="noreferrer noopener">[Star Force 80] Kerning Tower - 2F Cafe 4</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4310017" target="_blank" rel="noreferrer noopener">Enraged Espresso Machine</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>145 - 160</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/stone-colossus.png" alt="MapIcon Colossus"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240090200" target="_blank" rel="noreferrer noopener">Stone Colossus - Colossus West Road 2</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8147000" target="_blank" rel="noreferrer noopener">Mantis</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8147001" target="_blank" rel="noreferrer noopener">Blood Mantis</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>150 - 160</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/showa-town.png" alt="MapIcon shouwa"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/801040004" target="_blank" rel="noreferrer noopener">Showa Town - Armory</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/9400015" target="_blank" rel="noreferrer noopener">Dusk Viper</a>
-                <ul>
-                    <li><strong>Recommended Level:</strong> 160 - 185</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/temple-of-time.png" alt="MapIcon TimeTemple"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/270030300" target="_blank" rel="noreferrer noopener"><strong>Temple of Time - Road to Oblivion 2/3</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8200011" target="_blank" rel="noreferrer noopener">Oblivion Guardian</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8200012" target="_blank" rel="noreferrer noopener">Chief Oblivion Guardian</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>160 - 170</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/stronghold.png" alt="MapIcon darkEreb"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/271030200" target="_blank" rel="noreferrer noopener"><strong>Knight Stronghold - Knight District 2</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8610007" target="_blank" rel="noreferrer noopener">Official Knight C</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>165 - 180</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/kerning-tower.png" alt="MapIcon KerningTower"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/103041149" target="_blank" rel="noreferrer noopener"> [Star Force 80] Kerning Tower - 5F Cosmetics Store 4&gt;</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4310020" target="_blank" rel="noreferrer noopener">Deadly Dressing Table</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>160 - 170</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/savage-terminal.png" alt="MapIcon SavageTerminal"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/402000125" target="_blank" rel="noreferrer noopener"><strong>Savage Terminal - Seedy Scrapyard 2</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2400330" target="_blank" rel="noreferrer noopener">Prickly Hedgehog</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/2400331" target="_blank" rel="noreferrer noopener">Foul Ooze Waste</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>170 - 180</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/omega-sector.png" alt="MapIcon OmegaSector"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/221030610" target="_blank" rel="noreferrer noopener">Omega Sector - Corridor 202</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230132" target="_blank" rel="noreferrer noopener">Gray Luxury Saucer</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>170 - 185</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/omega-sector.png" alt="MapIcon OmegaSector"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/221030640" target="_blank" rel="noreferrer noopener">[Star Force 140] Omega Sector - Corridor H01/2/3</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230141" target="_blank" rel="noreferrer noopener">Gray Commuter Saucer</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>170 - 200</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/twilight-perion.png" alt="MapIcon destructionPerion"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/273010000" target="_blank" rel="noreferrer noopener">Twilight Perion - Deserted Southern Ridge</a></strong> + <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/273020000" target="_blank" rel="noreferrer noopener">Desolate Hills</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8620000" target="_blank" rel="noreferrer noopener">Swollen Stump</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>180 - 190</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/twilight-perion.png" alt="MapIcon destructionPerion"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/273040100" target="_blank" rel="noreferrer noopener">Twilight Perion - Forsaken Excavation Site 2/3/4</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8620007" target="_blank" rel="noreferrer noopener">Sinister Rocky Mask</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8620008" target="_blank" rel="noreferrer noopener">Sinister Steel Mask</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>185 - 200</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/fox-valley.png" alt="MapIcon Fox Valley"/> <strong><a href="https://maplestory.wiki/GMS/215/map/410000101" target="_blank" rel="noreferrer noopener">Fox Valley - Fox Tree Midway 1</a></strong>: <a href="https://maplestory.wiki/GMS/215/mob/2400256" target="_blank" rel="noreferrer noopener">Snowy Stjartmes</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>185 - 200</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/310070140" target="_blank" rel="noreferrer noopener">Scrapyard - Scrapyard Hill 4</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8250003" target="_blank" rel="noreferrer noopener">Chaseroid Red</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8250005" target="_blank" rel="noreferrer noopener">Hunterizer Red</a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>200 - 210</li>
-                </ul>
-                </li>
-            </ul>
-            <h3>Arcane River - Vanishing Journey + Reverse City [Recommended Level: 200 - 212]</h3>
-            <ul>
-                <li> <img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/450001014" target="_blank" rel="noreferrer noopener">[Arcane Power 30] Vanishing Journey - Weathered Land of Sorrow</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8641002" target="_blank" rel="noreferrer noopener">Sad Erda</a>
-                </li>
-                <li> <img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450001112" target="_blank" rel="noreferrer noopener">[Arcane Power 40] Vanishing Journey - Fire Zone</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8641005" target="_blank" rel="noreferrer noopener">Blazing Erda</a>
-                </li>
-                <li> <img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/450001210" target="_blank" rel="noreferrer noopener">[Arcane Power 60] Vanishing Journey - Forked Road 1</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/map/450001216" target="_blank" rel="noreferrer noopener">Below the Cave</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8641007" target="_blank" rel="noreferrer noopener">Tranquil Erda</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/mob/8641008" target="_blank" rel="noreferrer noopener">Lantern Erda</a>
-                </li>
-                <li> <img src="/images/map-icons/reverse-city.png" alt="MapIcon Reverse City"/> <strong><a href="https://maplestory.wiki/GMS/214/map/450014020" target="_blank" rel="noreferrer noopener">[Arcane Power 40] Reverse City - Subway Tunnel 1 - 6</a></strong>: <a href="https://maplestory.wiki/GMS/214/mob/8641051" target="_blank" rel="noreferrer noopener">Erda Rat</a> and <a href="https://maplestory.wiki/GMS/214/mob/8641052" target="_blank" rel="noreferrer noopener">Monto</a>
-                </li>
-                <li> <img src="/images/map-icons/reverse-city.png" alt="MapIcon Reverse City"/> <strong><a href="https://maplestory.wiki/GMS/214/map/450014100" target="_blank" rel="noreferrer noopener">[Arcane Power 40] Reverse City - T-Boy's Research Train 1 - 3</a></strong>: <a href="https://maplestory.wiki/GMS/214/mob/8641053" target="_blank" rel="noreferrer noopener">Seeker T-Drone Model A</a> and <a href="https://maplestory.wiki/GMS/214/mob/8641054" target="_blank" rel="noreferrer noopener">Seeker T-Drone Model B</a>
-                </li>
-                <li> <img src="/images/map-icons/reverse-city.png" alt="MapIcon Reverse City"/> <a href="https://maplestory.wiki/GMS/214/map/450014300" target="_blank" rel="noreferrer noopener"><strong>[Arcane Power 100] Reverse City - </strong><strong>Hidden Research Train</strong></a>: <a href="https://maplestory.wiki/GMS/214/mob/8641066" target="_blank" rel="noreferrer noopener">Seeker T-Drone Model A</a> and <a href="https://maplestory.wiki/GMS/214/mob/8641067" target="_blank" rel="noreferrer noopener">Seeker T-Drone Model B</a>
-                </li>
-            </ul>
-            <h3>Arcane River - Chu Chu Island + Yum Yum Island [Recommended Level: 210 - 222]</h3>
-            <ul>
-                <li> <img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450002008" target="_blank" rel="noreferrer noopener">[Arcane Power 100] Chu Chu Island - Bitty-Bobble Forest 1</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8642004" target="_blank" rel="noreferrer noopener">Flyon</a>
-                </li>
-                <li> <img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450002014" target="_blank" rel="noreferrer noopener">[Arcane Power 130] Chu Chu Island - Torrent Zone 3</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8642010" target="_blank" rel="noreferrer noopener">Rhyturtle</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8642011" target="_blank" rel="noreferrer noopener">Boss Rhyturtle</a>
-                </li>
-                <li> <img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450002016" target="_blank" rel="noreferrer noopener">[Arcane Power 160] Chu Chu Island - Mountain's Mouth</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8642012" target="_blank" rel="noreferrer noopener">Crilla</a>
-                </li>
-                <li> <img src="/images/map-icons/yum-yum-island.png" alt="MapIcon YumYum"/> <strong><a href="https://maplestory.wiki/GMS/215/map/450015050" target="_blank" rel="noreferrer noopener">[Arcane Power 130] Yum Yum Island - Mushbud Forest 3 - 6</a></strong>: <a href="https://maplestory.wiki/GMS/215/mob/8642051" target="_blank" rel="noreferrer noopener">Bunshroom</a> and <a href="https://maplestory.wiki/GMS/215/mob/8642050" target="_blank" rel="noreferrer noopener">Monkeyrog</a>
-                </li>
-                <li> <img src="/images/map-icons/yum-yum-island.png" alt="MapIcon YumYum"/> <strong><a href="https://maplestory.wiki/GMS/215/map/450015290" target="_blank" rel="noreferrer noopener">[Arcane Power 190] Yum Yum Island - Hidden Illiard Field</a></strong>: <a href="https://maplestory.wiki/GMS/215/mob/8642062" target="_blank" rel="noreferrer noopener">Potent Lytone</a> and <a href="https://maplestory.wiki/GMS/215/mob/8642063" target="_blank" rel="noreferrer noopener">Potent Stonepy</a>
-                </li>
-            </ul>
-            <h3>Arcane River - Lachelein [Recommended Level: 220 - 225]</h3>
-            <ul>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450003310">[Arcane Power 210] Lachelein - Chicken Festival 2</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8643004">Gallus</a>
-                </li>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450003420"> [Arcane Power 210] Lachelein - Revelation Place 3</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8643008">Angry Masquerade Citizen</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8643009">Insane Masquerade Citizen</a>
-                </li>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/450003440"><strong>[Arcane Power 210] Lachelein - Occupied Dance Floor 1</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8643012">Weakened Dreamkeeper</a>
-                </li>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450003500">[Arcane Power 240] Lachelein - Nightmare Clocktower 1F</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8643000">Dreamkeeper</a>
-                </li>
-            </ul>
-            <h3>Arcane River - Arcana [Recommended Level: 225 - 250]</h3>
-            <ul>
-                <li> <img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450005210">[Arcane Power 320] Arcana - Snow Cloud Clearing</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644003">Snow Cloud Spirit</a>
-                </li>
-                <li> <img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450005220">[Arcane Power 320] Arcana - Thunder Cloud Clearing</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644004">Thunder Cloud Spirit</a>
-                </li>
-                <li> <img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450005500">[Arcane Power 360] Arcana - Labyrinthine Cavern</a> and</strong>  <a href="https://maplestory.wiki/GMS/210.1.1/map/450005412"><strong>Upper Path 2</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644008">Anguished Spirit</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644009">Mournful Spirit</a>
-                </li>
-                <li> <img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450005430">[Arcane Power 360] Arcana - Cavern Lower Path</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644007">Befuddled Spirit</a>
-                </li>
-            </ul>
-            <h3>Arcane River - Morass [Recommended Level: 230 - 235]</h3>
-            <ul>
-                <li> <img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450006210" target="_blank" rel="noreferrer noopener">[Arcane Power 480] Morass - Shadowdance Hall Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644405" target="_blank" rel="noreferrer noopener">Blue Shadow</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644405" target="_blank" rel="noreferrer noopener">Red Shadow</a>
-                </li>
-                <li> <img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450006410" target="_blank" rel="noreferrer noopener">[Arcane Power 520] Morass - That Day in Trueffet Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644411" target="_blank" rel="noreferrer noopener">Thralled Wizard</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644412" target="_blank" rel="noreferrer noopener">Thralled Archer</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644410" target="_blank" rel="noreferrer noopener">Thralled Warhammer Knight</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644409" target="_blank" rel="noreferrer noopener">Thralled Guard</a>
-                </li>
-            </ul>
-            <h3>Arcane River - Esfera [Recommended Level: 235 - 250]</h3>
-            <ul>
-                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450007110" target="_blank" rel="noreferrer noopener">[Arcane Power 600] Esfera - Mirror-touched Sea Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644504" target="_blank" rel="noreferrer noopener">Aranya</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644505" target="_blank" rel="noreferrer noopener">Aranea</a>
-                </li>
-                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450007210" target="_blank" rel="noreferrer noopener">[Arcane Power 640] Esfera - Radiant Temple Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450007210" target="_blank" rel="noreferrer noopener">Light Executor</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644509" target="_blank" rel="noreferrer noopener">Dark Executor</a>
-                </li>
-            </ul>
-            <h3>Arcane River - Moonbridge + Labyrinth of Suffering [Recommended Level: 245 - 255]</h3>
-            <ul>
-                <li> <img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450009110" target="_blank" rel="noreferrer noopener">[Arcane Power 670] Moonbridge - Last Horizon Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644615" target="_blank" rel="noreferrer noopener">Soot Talon</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644614" target="_blank" rel="noreferrer noopener">Soot Beast</a>
-                </li>
-                <li> <img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/450009310" target="_blank" rel="noreferrer noopener">[Arcane Power 730] Moonbridge - Void Current Maps</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644619" target="_blank" rel="noreferrer noopener">Burst Glare</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/8644618" target="_blank" rel="noreferrer noopener">Crushing Glare</a>
-                </li>
-            </ul>
-            <h3>Arcane River - Limina [Recommended Level<strong>: </strong>255 - 275]</h3>
-            <ul>
-                <li> <img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a rel="noreferrer noopener" href="https://maplestory.fandom.com/wiki/Category:Limina" target="_blank"><strong>Limina</strong></a>
-                </li>
-            </ul>
+            <p>Below is a list of recommended training maps for grinding. To find out how to navigate to a specific map, open your World Map (W by default) and search for the desired map on the right-hand side. Clicking on the item you want will direct you to the map which will start blinking</p>
+            <p>Special thanks to Proof#8868 for the recommended training maps. Click <a href="https://docs.google.com/spreadsheets/d/1QqtsUcnB5WBMGplKvpJI3qZQYAR5HSKn7VdHsJvRTtg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here</a> for a Google Sheets version of the training maps</p>
+            <p><em>*Search function may not be 100% reliable</em></p>
+            <TrainingMapSearchWrapper><TrainingMapSearch className="faq-search" type="text" placeholder="Search" onChange={event => setSearchTerm((event.target.value))}></TrainingMapSearch></TrainingMapSearchWrapper>
+            <TrainingMapSwiper
+                scrollbar={{ draggable: true, hide: true }}
+                spaceBetween={10}
+                slidesPerView="auto"
+                direction="vertical"
+                freeMode
+                mousewheel
+                >
+                    {
+                        // Since fuse returns a slightly different object, we need to use a ternary to adjust based on if the original is returned or the filtered is returned
+                        searchQuery(searchTerm).map((map, index) =>
+                        <SwiperSlide key={index}>
+                            <TrainingMap level={map.level ? map.level : map.item.level} icon={map.icon ? map.icon : map.item.icon} mapName={`${map.area ? map.area : map.item.area} - ${map.mapName ? map.mapName : map.item.mapName}`} mapLink={map.mapLink ? map.mapLink : map.item.mapLink}/>
+                        </SwiperSlide>
+                        )
+                    }
+            </TrainingMapSwiper>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="themedungeon">Theme Dungeons:</ArticleHeaderTwo>
             <hr/>

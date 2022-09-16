@@ -1,0 +1,1087 @@
+[
+    {
+        "level": 16,
+        "icon": "henesys",
+        "mapName": "Golem's Temple 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Golem%27s_Temple_1",
+        "area": "Henesys"
+    },
+    {
+        "level": 23,
+        "icon": "savage-terminal",
+        "mapName": "Waste Treatment Plant 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Waste_Treatment_Plant_1",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 26,
+        "icon": "ellinia",
+        "mapName": "Giant Tree",
+        "mapLink": "https://maplestory.fandom.com/wiki/Giant_Tree?so=search",
+        "area": "Ellinia"
+    },
+    {
+        "level": 27,
+        "icon": "ellinia",
+        "mapName": "Green Tree Trunk",
+        "mapLink": "https://maplestory.fandom.com/wiki/Green_Tree_Trunk?so=search",
+        "area": "Ellinia"
+    },
+    {
+        "level": 29,
+        "icon": "savage-terminal",
+        "mapName": "Waste Treatment Plant 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Waste_Treatment_Plant_3",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 30,
+        "icon": "savage-terminal",
+        "mapName": "Stray Dog Alley 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Stray_Dog_Alley_1?so=search",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 34,
+        "icon": "gold-beach",
+        "mapName": "Gold Beach Seaside 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Gold_Beach_Seaside_2?so=search",
+        "area": "Gold Beach"
+    },
+    {
+        "level": 35,
+        "icon": "savage-terminal",
+        "mapName": "Shaded Dump Site",
+        "mapLink": "https://maplestory.fandom.com/wiki/Shaded_Dump_Site?so=search",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 37,
+        "icon": "savage-terminal",
+        "mapName": "Stray Dog Alley 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Stray_Dog_Alley_2?so=search",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 42,
+        "icon": "savage-terminal",
+        "mapName": "Mr. Hazard's Lair 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Mr._Hazard's_Lair_3?so=search",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 45,
+        "icon": "kerning-city",
+        "mapName": "Line 2 Area 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Line_2_Area_3?so=search",
+        "area": "Kerning City"
+    },
+    {
+        "level": 55,
+        "icon": "perion",
+        "mapName": "Wild Boar Land",
+        "mapLink": "https://maplestory.fandom.com/wiki/Wild_Boar_Land?so=search",
+        "area": "Perion"
+    },
+    {
+        "level": 60,
+        "icon": "mushroom-castle",
+        "mapName": "Castle Corridor 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Castle_Corridor_1?so=search",
+        "area": "Mushroom Castle"
+    },
+    {
+        "level": 62,
+        "icon": "perion",
+        "mapName": "Excavation Intermission Area",
+        "mapLink": "https://maplestory.fandom.com/wiki/Excavation_Intermission_Area?so=search",
+        "area": "Perion"
+    },
+    {
+        "level": 62,
+        "icon": "perion",
+        "mapName": "Military Camp 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Military_Camp_1?so=search",
+        "area": "Perion"
+    },
+    {
+        "level": 65,
+        "icon": "mushroom-castle",
+        "mapName": "Galley",
+        "mapLink": "https://maplestory.fandom.com/wiki/Galley?so=search",
+        "area": "Mushroom Castle"
+    },
+    {
+        "level": 66,
+        "icon": "sleepywood",
+        "mapName": "Silent Swamp",
+        "mapLink": "https://maplestory.fandom.com/wiki/Silent_Swamp?so=search",
+        "area": "Sleepywood"
+    },
+    {
+        "level": 71,
+        "icon": "orbis",
+        "mapName": "Stairway to the Sky I",
+        "mapLink": "https://maplestory.fandom.com/wiki/Stairway_to_the_Sky_I?so=search",
+        "area": "Orbis"
+    },
+    {
+        "level": 74,
+        "icon": "orbis",
+        "mapName": "Cloud Park VI",
+        "mapLink": "https://maplestory.fandom.com/wiki/Cloud_Park_VI?so=search",
+        "area": "Orbis"
+    },
+    {
+        "level": 81,
+        "icon": "el-nath",
+        "mapName": "Ice Valley II",
+        "mapLink": "https://maplestory.fandom.com/wiki/Ice_Valley_II?so=search",
+        "area": "El Nath"
+    },
+    {
+        "level": 84,
+        "icon": "edelstein",
+        "mapName": "Shaft 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Shaft_4?so=search",
+        "area": "Edelstein"
+    },
+    {
+        "level": 86,
+        "icon": "ariant",
+        "mapName": "Tent of the Entertainers",
+        "mapLink": "https://maplestory.fandom.com/wiki/Tent_of_the_Entertainers?so=search",
+        "area": "Ariant"
+    },
+    {
+        "level": 89,
+        "icon": "magatia",
+        "mapName": "Sahel 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Sahel_2?so=search",
+        "area": "Magatia"
+    },
+    {
+        "level": 90,
+        "icon": "magatia",
+        "mapName": "The Desert of Serenity",
+        "mapLink": "https://maplestory.fandom.com/wiki/The_Desert_of_Serenity?so=search",
+        "area": "Magatia"
+    },
+    {
+        "level": 91,
+        "icon": "magatia",
+        "mapName": "Lab - Area B-3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Lab_-_Area_B-3?so=search",
+        "area": "Magatia"
+    },
+    {
+        "level": 92,
+        "icon": "magatia",
+        "mapName": "Lab - Unit 102",
+        "mapLink": "https://maplestory.fandom.com/wiki/Lab_-_Unit_102?so=search",
+        "area": "Magatia"
+    },
+    {
+        "level": 95,
+        "icon": "magatia",
+        "mapName": "Lab - Area C-2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Lab_-_Area_C-2?so=search",
+        "area": "Magatia"
+    },
+    {
+        "level": 95,
+        "icon": "magatia",
+        "mapName": "Lab - Unit 202",
+        "mapLink": "https://maplestory.fandom.com/wiki/Lab_-_Unit_202?so=search",
+        "area": "Magatia"
+    },
+    {
+        "level": 95,
+        "icon": "magatia",
+        "mapName": "Authorised Personnel Only",
+        "mapLink": "https://maplestory.fandom.com/wiki/Authorized_Personnel_Only",
+        "area": "Magatia"
+    },
+    {
+        "level": 103,
+        "icon": "leafre",
+        "mapName": "West Leafre Forest",
+        "mapLink": "https://maplestory.fandom.com/wiki/West_Leafre_Forest?so=search",
+        "area": "Leafre"
+    },
+    {
+        "level": 104,
+        "icon": "leafre",
+        "mapName": "Minar Forest : West Border",
+        "mapLink": "https://maplestory.fandom.com/wiki/Minar_Forest_%3A_West_Border?so=search",
+        "area": "Leafre"
+    },
+    {
+        "level": 107,
+        "icon": "leafre",
+        "mapName": "Sky Nest II",
+        "mapLink": "https://maplestory.fandom.com/wiki/Sky_Nest_II?so=search",
+        "area": "Leafre",
+        "sf": 5
+    },
+    {
+        "level": 110,
+        "icon": "leafre",
+        "mapName": "The Area of Blue Kentaurus",
+        "mapLink": "https://maplestory.fandom.com/wiki/The_Area_of_Blue_Kentaurus",
+        "area": "Leafre"
+    },
+    {
+        "level": 112,
+        "icon": "ludibrium",
+        "mapName": "Cloud Terrace<1>",
+        "mapLink": "https://maplestory.fandom.com/wiki/Cloud_Terrace_1?so=search",
+        "area": "Ludibrium"
+    },
+    {
+        "level": 113,
+        "icon": "ludibrium",
+        "mapName": "Toy Factory <Process 1> Zone 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Toy_Factory_(Process_1)_Zone_3",
+        "area": "Ludibrium"
+    },
+    {
+        "level": 113,
+        "icon": "ludibrium",
+        "mapName": "Toy Factory <Apparatus Room>",
+        "mapLink": "https://maplestory.fandom.com/wiki/Toy_Factory_(Apparatus_Room)",
+        "area": "Ludibrium"
+    },
+    {
+        "level": 115,
+        "icon": "tyrants-castle",
+        "mapName": "Tyrant's Castle 3rd Floor Hallway",
+        "mapLink": "https://maplestory.fandom.com/wiki/Tyrant's_Castle_3rd_Floor_Hallway?so=search",
+        "area": "Tyrant's Castle"
+    },
+    {
+        "level": 119,
+        "icon": "ludibrium",
+        "mapName": "Warped Path of Time<4>",
+        "mapLink": "https://maplestory.fandom.com/wiki/Warped_Path_of_Time_4?so=search",
+        "area": "Clocktower Bottom Floor",
+        "sf": 27
+    },
+    {
+        "level": 120,
+        "icon": "ludibrium",
+        "mapName": "Warped Passage",
+        "mapLink": "https://maplestory.fandom.com/wiki/Warped_Passage?so=search",
+        "area": "Clocktower Bottom Floor",
+        "sf": 28
+    },
+    {
+        "level": 120,
+        "icon": "el-nath",
+        "mapName": "Sharp Cliff 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Sharp_Cliff_3?so=search",
+        "area": "El Nath"
+    },
+    {
+        "level": 121,
+        "icon": "el-nath",
+        "mapName": "Sharp Cliff 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Sharp_Cliff_4?so=search",
+        "area": "El Nath"
+    },
+    {
+        "level": 123,
+        "icon": "fantasy-theme-world",
+        "mapName": "Extreme Station <3>",
+        "mapLink": "https://maplestory.fandom.com/wiki/Extreme_Station_3?so=search",
+        "area": "Fantasy Theme World"
+    },
+    {
+        "level": 130,
+        "icon": "korean-folk-town",
+        "mapName": "Black Mountain Entrance",
+        "mapLink": "https://maplestory.fandom.com/wiki/Black_Mountain_Entrance?so=search",
+        "area": "Korean Folk Town"
+    },
+    {
+        "level": 134,
+        "icon": "korean-folk-town",
+        "mapName": "Tiger Forest II",
+        "mapLink": "https://maplestory.fandom.com/wiki/Tiger_Forest_II?so=search",
+        "area": "Korean Folk Town"
+    },
+    {
+        "level": 136,
+        "icon": "dead-mine",
+        "mapName": "The Cave of Trials III",
+        "mapLink": "https://maplestory.fandom.com/wiki/The_Cave_of_Trials_III",
+        "area": "Dead Mine",
+        "sf": 55
+    },
+    {
+        "level": 139,
+        "icon": "korean-folk-town",
+        "mapName": "Haunted House",
+        "mapLink": "Korean Folk Town",
+        "area": "Korean Folk Town"
+    },
+    {
+        "level": 140,
+        "icon": "korean-folk-town",
+        "mapName": "Goblin House",
+        "mapLink": "https://maplestory.fandom.com/wiki/Haunted_House?so=search",
+        "area": "Korean Folk Town"
+    },
+    {
+        "level": 140,
+        "icon": "herb-town",
+        "mapName": "Red-Nose Pirate Den 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Red-Nose_Pirate_Den_2?so=search",
+        "area": "Herb Town"
+    },
+    {
+        "level": 141,
+        "icon": "leafre",
+        "mapName": "Black Wyvern's Nest",
+        "mapLink": "https://maplestory.fandom.com/wiki/Black_Wyvern's_Nest?so=search",
+        "area": "Leafre",
+        "sf": 65
+    },
+    {
+        "level": 142,
+        "icon": "partem-ruins",
+        "mapName": "Keeper's Path 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Keeper's_Path_4?so=search",
+        "area": "Partem"
+    },
+    {
+        "level": 146,
+        "icon": "kerning-tower",
+        "mapName": "B1 Electronics Store <2>",
+        "mapLink": "https://maplestory.fandom.com/wiki/B1_Electronics_Store_2?so=search",
+        "area": "Kerning Tower"
+    },
+    {
+        "level": 148,
+        "icon": "kerning-tower",
+        "mapName": "2F Cafe <3>",
+        "mapLink": "https://maplestory.fandom.com/wiki/2F_Cafe_3?so=search",
+        "area": "Kerning Tower"
+    },
+    {
+        "level": 152,
+        "icon": "stone-colossus",
+        "mapName": "Colossus West Road 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Colossus_West_Road_2?so=search",
+        "area": "Stone Colossus"
+    },
+    {
+        "level": 155,
+        "icon": "kerning-tower",
+        "mapName": "2F Cafe <4>",
+        "mapLink": "https://maplestory.fandom.com/wiki/2F_Cafe_4?so=search",
+        "area": "Kerning Tower",
+        "sf": 80
+    },
+    {
+        "level": 155,
+        "icon": "kerning-tower",
+        "mapName": "5F Cosmetics Shops <3>",
+        "mapLink": "https://maplestory.fandom.com/wiki/5F_Cosmetics_Shops_3?so=search",
+        "area": "Kerning Tower"
+    },
+    {
+        "level": 160,
+        "icon": "showa-town",
+        "mapName": "Armory",
+        "mapLink": "https://maplestory.fandom.com/wiki/Armory?so=search",
+        "area": "Showa"
+    },
+    {
+        "level": 161,
+        "icon": "kerning-tower",
+        "mapName": "5F Cosmetics Shops <4>",
+        "mapLink": "https://maplestory.fandom.com/wiki/5F_Cosmetics_Shops_4?so=search",
+        "area": "Kerning Tower",
+        "sf": 80
+    },
+    {
+        "level": 165,
+        "icon": "omega-sector",
+        "mapName": "Boswell Field II",
+        "mapLink": "https://maplestory.fandom.com/wiki/Boswell_Field_II?so=search",
+        "area": "Omega Sector"
+    },
+    {
+        "level": 165,
+        "icon": "omega-sector",
+        "mapName": "Boswell Field IV",
+        "mapLink": "https://maplestory.fandom.com/wiki/Boswell_Field_IV?so=search",
+        "area": "Omega Sector"
+    },
+    {
+        "level": 166,
+        "icon": "henesys-ruins",
+        "mapName": "Hill North of Henesys Ruins",
+        "mapLink": "https://maplestory.fandom.com/wiki/Hill_North_of_Henesys_Ruins?so=search",
+        "area": "Henesys Ruins"
+    },
+    {
+        "level": 169,
+        "icon": "omega-sector",
+        "mapName": "Corridor 101",
+        "mapLink": "https://maplestory.fandom.com/wiki/Corridor_101?so=search",
+        "area": "Omega Sector"
+    },
+    {
+        "level": 173,
+        "icon": "omega-sector",
+        "mapName": "Corridor 204",
+        "mapLink": "https://maplestory.fandom.com/wiki/Corridor_204?so=search",
+        "area": "Omega Sector"
+    },
+    {
+        "level": 174,
+        "icon": "kritias",
+        "mapName": "Forest of Pain 5",
+        "mapLink": "https://maplestory.fandom.com/wiki/Forest_of_Pain_5?so=search",
+        "area": "Kritias"
+    },
+    {
+        "level": 175,
+        "icon": "omega-sector",
+        "mapName": "Corridor 203",
+        "mapLink": "https://maplestory.fandom.com/wiki/Corridor_203?so=search",
+        "area": "Omega Sector"
+    },
+    {
+        "level": 175,
+        "icon": "kritias",
+        "mapName": "Corrupted Magic Forest 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Corrupted_Magic_Forest_1?so=search",
+        "area": "Kritias"
+    },
+    {
+        "level": 176,
+        "icon": "savage-terminal",
+        "mapName": "Seedy Scrapyard 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Seedy_Scrapyard_3?so=search",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 178,
+        "icon": "omega-sector",
+        "mapName": "Corridor H01",
+        "mapLink": "https://maplestory.fandom.com/wiki/Corridor_H01?so=search",
+        "area": "Omega Sector",
+        "sf": 140
+    },
+    {
+        "level": 179,
+        "icon": "savage-terminal",
+        "mapName": "Sketchy Back-Alley 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Sketchy_Back-Alley_3?so=search",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 180,
+        "icon": "omega-sector",
+        "mapName": "Corridor H03",
+        "mapLink": "https://maplestory.fandom.com/wiki/Corridor_H03?so=search",
+        "area": "Omega Sector",
+        "sf": 140
+    },
+    {
+        "level": 180,
+        "icon": "stronghold",
+        "mapName": "Knights' Chamber 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Knights%27_Chamber_3",
+        "area": "Dark Ereve"
+    },
+    {
+        "level": 181,
+        "icon": "savage-terminal",
+        "mapName": "Dingy Brawl 'n' Bash Club 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Dingy_Brawl_'n'_Bash_Club_2?so=search",
+        "area": "Savage Terminal"
+    },
+    {
+        "level": 181,
+        "icon": "kritias",
+        "mapName": "Corrupted Magic Forest 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Corrupted_Magic_Forest_2?so=search",
+        "area": "Kritias"
+    },
+    {
+        "level": 182,
+        "icon": "stronghold",
+        "mapName": "Knights' Chamber 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Knights'_Chamber_4?so=search",
+        "area": "Dark Ereve"
+    },
+    {
+        "level": 184,
+        "icon": "stronghold",
+        "mapName": "Hall of Honor",
+        "mapLink": "https://maplestory.fandom.com/wiki/Hall_of_Honor?so=search",
+        "area": "Dark Ereve"
+    },
+    {
+        "level": 187,
+        "icon": "kritias",
+        "mapName": "Corrupted Magic Forest 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Corrupted_Magic_Forest_3?so=search",
+        "area": "Kritias"
+    },
+    {
+        "level": 190,
+        "icon": "twilight-perion",
+        "mapName": "Deserted Southern Ridge",
+        "mapLink": "https://maplestory.fandom.com/wiki/Deserted_Southern_Ridge?so=search",
+        "area": "Twilight Perion"
+    },
+    {
+        "level": 190,
+        "icon": "twilight-perion",
+        "mapName": "Desolate Rocky Road",
+        "mapLink": "https://maplestory.fandom.com/wiki/Desolate_Rocky_Road?so=search",
+        "area": "Twilight Perion"
+    },
+    {
+        "level": 192,
+        "icon": "fox-valley",
+        "mapName": "Fox Tree Top Path 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Fox_Tree_Top_Path_2?so=search",
+        "area": "Fox Valley"
+    },
+    {
+        "level": 193,
+        "icon": "twilight-perion",
+        "mapName": "Fevered Land",
+        "mapLink": "https://maplestory.fandom.com/wiki/Fevered_Land?so=search",
+        "area": "Twilight Perion"
+    },
+    {
+        "level": 195,
+        "icon": "fox-valley",
+        "mapName": "Fox Tree Lower Path 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Fox_Tree_Lower_Path_3?so=search",
+        "area": "Fox Valley"
+    },
+    {
+        "level": 195,
+        "icon": "twilight-perion",
+        "mapName": "Forsaken Excavation Site 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Forsaken_Excavation_Site_2?so=search",
+        "area": "Twilight Perion"
+    },
+    {
+        "level": 196,
+        "icon": "twilight-perion",
+        "mapName": "Forsaken Excavation Site 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Forsaken_Excavation_Site_4?so=search",
+        "area": "Twilight Perion"
+    },
+    {
+        "level": 201,
+        "icon": "vanishing-journey",
+        "mapName": "Weathered Land of Rage",
+        "mapLink": "https://maplestory.fandom.com/wiki/Weathered_Land_of_Rage?so=search",
+        "area": "Vanishing Journey",
+        "arcP": 30
+    },
+    {
+        "level": 204,
+        "icon": "haven",
+        "mapName": "Scrapyard Hill 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Scrapyard_Hill_4?so=search",
+        "area": "Scrapyard"
+    },
+    {
+        "level": 204,
+        "icon": "vanishing-journey",
+        "mapName": "Rock Zone",
+        "mapLink": "https://maplestory.fandom.com/wiki/Rock_Zone?so=search",
+        "area": "Vanishing Journey",
+        "arcP": 40
+    },
+    {
+        "level": 205,
+        "icon": "vanishing-journey",
+        "mapName": "Fire Zone",
+        "mapLink": "https://maplestory.fandom.com/wiki/Fire_Zone?so=search",
+        "area": "Vanishing Journey",
+        "arcP": 40
+    },
+    {
+        "level": 205,
+        "icon": "reverse-city",
+        "mapName": "Subway Tunnel 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Subway_Tunnel_1?so=search",
+        "area": "Reverse City",
+        "arcP": 40
+    },
+    {
+        "level": 206,
+        "icon": "reverse-city",
+        "mapName": "T-Boy's Research Train 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/T-Boy's_Research_Train_1?so=search",
+        "area": "Reverse City",
+        "arcP": 40
+    },
+    {
+        "level": 206,
+        "icon": "vanishing-journey",
+        "mapName": "Fire Spirit Zone",
+        "mapLink": "https://maplestory.fandom.com/wiki/Fire_Spirit_Zone?so=search",
+        "area": "Vanishing Journey",
+        "arcP": 40
+    },
+    {
+        "level": 207,
+        "icon": "vanishing-journey",
+        "mapName": "Eastern Cave Path 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Eastern_Cave_Path_2?so=search",
+        "area": "Vanishing Journey",
+        "arcP": 60
+    },
+    {
+        "level": 207,
+        "icon": "vanishing-journey",
+        "mapName": "Below the Cave",
+        "mapLink": "https://maplestory.fandom.com/wiki/Below_the_Cave?so=search",
+        "area": "Vanishing Journey",
+        "arcP": 60
+    },
+    {
+        "level": 207,
+        "icon": "reverse-city",
+        "mapName": "Surface Train 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Surface_Train_1?so=search",
+        "area": "Reverse City",
+        "arcP": 60
+    },
+    {
+        "level": 209,
+        "icon": "vanishing-journey",
+        "mapName": "Arma's Hideout",
+        "mapLink": "https://maplestory.fandom.com/wiki/Arma's_Hideout?so=search",
+        "area": "Vanishing Journey",
+        "arcP": 60
+    },
+    {
+        "level": 209,
+        "icon": "vanishing-journey",
+        "mapName": "Hidden Fire Zone",
+        "mapLink": "https://maplestory.fandom.com/wiki/Hidden_Fire_Zone?so=search",
+        "area": "Vanishing Journey",
+        "arcP": 80
+    },
+    {
+        "level": 210,
+        "icon": "reverse-city",
+        "mapName": "Hidden Research Train",
+        "mapLink": "https://maplestory.fandom.com/wiki/Hidden_Research_Train?so=search",
+        "area": "Reverse City",
+        "arcP": 100
+    },
+    {
+        "level": 213,
+        "icon": "chu-chu-island",
+        "mapName": "Bittle-Bobble Forest 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Bitty-Bobble_Forest_1",
+        "area": "Chu Chu Island",
+        "arcP": 100
+    },
+    {
+        "level": 213,
+        "icon": "chu-chu-island",
+        "mapName": "Slurpy Forest Depths",
+        "mapLink": "https://maplestory.fandom.com/wiki/Slurpy_Forest_Depths?so=search",
+        "area": "Chu Chu Island",
+        "arcP": 100
+    },
+    {
+        "level": 215,
+        "icon": "yum-yum-island",
+        "mapName": "Mushbud Forest 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Mushbud_Forest_3?so=search",
+        "area": "Yum Yum Island",
+        "arcP": 130
+    },
+    {
+        "level": 216,
+        "icon": "chu-chu-island",
+        "mapName": "Torrent Zone 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Torrent_Zone_3?so=search",
+        "area": "Chu Chu Island",
+        "arcP": 130
+    },
+    {
+        "level": 217,
+        "icon": "yum-yum-island",
+        "mapName": "Illiard Field 5",
+        "mapLink": "https://maplestory.fandom.com/wiki/Illiard_Field_5?so=search",
+        "area": "Yum Yum Island",
+        "arcP": 160
+    },
+    {
+        "level": 218,
+        "icon": "dark-world-tree",
+        "mapName": "Upper Stem Crossroad",
+        "mapLink": "https://maplestory.fandom.com/wiki/Upper_Stem_Crossroad?so=search",
+        "area": "Dark World Tree"
+    },
+    {
+        "level": 219,
+        "icon": "yum-yum-island",
+        "mapName": "Fungos Forest 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Fungos_Forest_2?so=search",
+        "area": "Yum Yum Island",
+        "arcP": 160
+    },
+    {
+        "level": 220,
+        "icon": "yum-yum-island",
+        "mapName": "Hidden Mushbud Forest",
+        "mapLink": "https://maplestory.fandom.com/wiki/Hidden_Mushbud_Forest?so=search",
+        "area": "Yum Yum Island",
+        "arcP": 190
+    },
+    {
+        "level": 220,
+        "icon": "yum-yum-island",
+        "mapName": "Hidden Illiard Field",
+        "mapLink": "https://maplestory.fandom.com/wiki/Hidden_Illiard_Field?so=search",
+        "area": "Yum Yum Island",
+        "arcP": 190
+    },
+    {
+        "level": 221,
+        "icon": "lachelein",
+        "mapName": "Outlaw's Street 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Outlaw's_Street_2?so=search",
+        "area": "Lachelein",
+        "arcP": 210
+    },
+    {
+        "level": 221,
+        "icon": "lachelein",
+        "mapName": "Outlaw's Street 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Outlaw's_Street_3?so=search",
+        "area": "Lachelein",
+        "arcP": 210
+    },
+    {
+        "level": 221,
+        "icon": "lachelein",
+        "mapName": "Chicken Festival 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Chicken_Festival_1?so=search",
+        "area": "Lachelein",
+        "arcP": 210
+    },
+    {
+        "level": 224,
+        "icon": "lachelein",
+        "mapName": "Revelation Place 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Revelation_Place_3?so=search",
+        "area": "Lachelein",
+        "arcP": 210
+    },
+    {
+        "level": 224,
+        "icon": "lachelein",
+        "mapName": "Occupied Dance Floor 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Occupied_Dance_Floor_1?so=search",
+        "area": "Lachelein",
+        "arcP": 210
+    },
+    {
+        "level": 226,
+        "icon": "lachelein",
+        "mapName": "Nightmare Clocktower 1F",
+        "mapLink": "https://maplestory.fandom.com/wiki/Nightmare_Clocktower_1F?so=search",
+        "area": "Lachelein",
+        "arcP": 240
+    },
+    {
+        "level": 228,
+        "icon": "arcana",
+        "mapName": "The Forest of Earth",
+        "mapLink": "https://maplestory.fandom.com/wiki/The_Forest_of_Earth?so=search",
+        "area": "Arcana",
+        "arcP": 280
+    },
+    {
+        "level": 233,
+        "icon": "arcana",
+        "mapName": "Between Frost and Thunder 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Between_Frost_and_Thunder_2?so=search",
+        "area": "Arcana",
+        "arcP": 320
+    },
+    {
+        "level": 237,
+        "icon": "arcana",
+        "mapName": "Cavern Lower Path",
+        "mapLink": "https://maplestory.fandom.com/wiki/Cavern_Lower_Path?so=search",
+        "area": "Arcana",
+        "arcP": 360
+    },
+    {
+        "level": 237,
+        "icon": "arcana",
+        "mapName": "Deep in the Cavern - Upper Path 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Deep_in_the_Cavern_-_Upper_Path_1",
+        "area": "Arcana",
+        "arcP": 360
+    },
+    {
+        "level": 237,
+        "icon": "arcana",
+        "mapName": "Cavern Upper Path",
+        "mapLink": "https://maplestory.fandom.com/wiki/Cavern_Upper_Path?so=search",
+        "area": "Arcana",
+        "arcP": 360
+    },
+    {
+        "level": 239,
+        "icon": "arcana",
+        "mapName": "Deep in the Cavern - Lower Path 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Deep_in_the_Cavern_-_Lower_Path_2",
+        "area": "Arcana",
+        "arcP": 360
+    },
+    {
+        "level": 239,
+        "icon": "arcana",
+        "mapName": "Labyrinthine Cavern - Upper Path",
+        "mapLink": "https://maplestory.fandom.com/wiki/Labyrinthine_Cavern_-_Upper_Path",
+        "area": "Arcana",
+        "arcP": 360
+    },
+    {
+        "level": 239,
+        "icon": "morass",
+        "mapName": "Shadowdance Hall 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Shadowdance_Hall_2?so=search",
+        "area": "Morass",
+        "arcP": 480
+    },
+    {
+        "level": 242,
+        "icon": "morass",
+        "mapName": "That Day in Trueffet 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/That_Day_in_Trueffet_3?so=search",
+        "area": "Morass",
+        "arcP": 520
+    },
+    {
+        "level": 244,
+        "icon": "esfera",
+        "mapName": "Mirror-touched Sea 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Mirror-touched_Sea_2?so=search",
+        "area": "Esfera",
+        "arcP": 600
+    },
+    {
+        "level": 244,
+        "icon": "esfera",
+        "mapName": "Mirror-touched Sea 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Mirror-touched_Sea_3?so=search",
+        "area": "Esfera",
+        "arcP": 600
+    },
+    {
+        "level": 245,
+        "icon": "sellas",
+        "mapName": "The Final Edge of Light 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/The_Final_Edge_of_Light_1?so=search",
+        "area": "Sellas",
+        "arcP": 600
+    },
+    {
+        "level": 246,
+        "icon": "sellas",
+        "mapName": "The Final Edge of Light 5",
+        "mapLink": "https://maplestory.fandom.com/wiki/The_Final_Edge_of_Light_5?so=search",
+        "area": "Sellas",
+        "arcP": 600
+    },
+    {
+        "level": 248,
+        "icon": "esfera",
+        "mapName": "Radiant Temple 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Radiant_Temple_2?so=search",
+        "area": "Esfera",
+        "arcP": 640
+    },
+    {
+        "level": 248,
+        "icon": "sellas",
+        "mapName": "Plunging Depths 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Plunging_Depths_1?so=search",
+        "area": "Sellas",
+        "arcP": 640
+    },
+    {
+        "level": 249,
+        "icon": "esfera",
+        "mapName": "Radiant Temple 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Radiant_Temple_3?so=search",
+        "area": "Esfera",
+        "arcP": 640
+    },
+    {
+        "level": 249,
+        "icon": "sellas",
+        "mapName": "Plunging Depths 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Plunging_Depths_4?so=search",
+        "area": "Sellas",
+        "arcP": 640
+    },
+    {
+        "level": 249,
+        "icon": "sellas",
+        "mapName": "Plunging Depths 5",
+        "mapLink": "https://maplestory.fandom.com/wiki/Plunging_Depths_5?so=search",
+        "area": "Sellas",
+        "arcP": 640
+    },
+    {
+        "level": 250,
+        "icon": "sellas",
+        "mapName": "Star-Swallowing Sea 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Star-Swallowing_Sea_1?so=search",
+        "area": "Sellas",
+        "arcP": 670
+    },
+    {
+        "level": 251,
+        "icon": "sellas",
+        "mapName": "Star-Swallowing Sea 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Star-Swallowing_Sea_4?so=search",
+        "area": "Sellas",
+        "arcP": 670
+    },
+    {
+        "level": 251,
+        "icon": "sellas",
+        "mapName": "Star-Swallowing Sea 5",
+        "mapLink": "https://maplestory.fandom.com/wiki/Star-Swallowing_Sea_5?so=search",
+        "area": "Sellas",
+        "arcP": 670
+    },
+    {
+        "level": 251,
+        "icon": "moonbridge",
+        "mapName": "Last Horizon 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/Last_Horizon_2?so=search",
+        "area": "Moonbridge",
+        "arcP": 670
+    },
+    {
+        "level": 252,
+        "icon": "moonbridge",
+        "mapName": "Last Horizon 6",
+        "mapLink": "https://maplestory.fandom.com/wiki/Last_Horizon_6?so=search",
+        "area": "Moonbridge",
+        "arcP": 670
+    },
+    {
+        "level": 254,
+        "icon": "moonbridge",
+        "mapName": "Void Current 3",
+        "mapLink": "https://maplestory.fandom.com/wiki/Void_Current_3?so=search",
+        "area": "Moonbridge",
+        "arcP": 730
+    },
+    {
+        "level": 254,
+        "icon": "moonbridge",
+        "mapName": "Void Current 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Void_Current_4?so=search",
+        "area": "Moonbridge",
+        "arcP": 730
+    },
+    {
+        "level": 256,
+        "icon": "labyrinth-of-suffering",
+        "mapName": "Labyrinth of Suffering Interior 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Labyrinth_of_Suffering_Interior_4?so=search",
+        "area": "Tenebris",
+        "arcP": 760
+    },
+    {
+        "level": 256,
+        "icon": "labyrinth-of-suffering",
+        "mapName": "Labryinth of Suffering Interior 5",
+        "mapLink": "https://maplestory.fandom.com/wiki/Labyrinth_of_Suffering_Interior_5?so=search",
+        "area": "Tenebris",
+        "arcP": 760
+    },
+    {
+        "level": 258,
+        "icon": "labyrinth-of-suffering",
+        "mapName": "Labyrinth of Suffering Core 7",
+        "mapLink": "https://maplestory.fandom.com/wiki/Labyrinth_of_Suffering_Core_7?so=search",
+        "area": "Tenebris",
+        "arcP": 790
+    },
+    {
+        "level": 259,
+        "icon": "labyrinth-of-suffering",
+        "mapName": "Labryinth of Suffering Deep Core 1",
+        "mapLink": "https://maplestory.fandom.com/wiki/Labyrinth_of_Suffering_Deep_Core_1?so=search",
+        "area": "Tenebris",
+        "arcP": 820
+    },
+    {
+        "level": 259,
+        "icon": "labyrinth-of-suffering",
+        "mapName": "Labyrinth of Suffering Deep Core 4",
+        "mapLink": "https://maplestory.fandom.com/wiki/Labyrinth_of_Suffering_Deep_Core_4?so=search",
+        "area": "Tenebris",
+        "arcP": 820
+    },
+    {
+        "level": 260,
+        "icon": "limina",
+        "mapName": "World's Sorrow Depths 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/World's_Sorrow_Depths_2?so=search",
+        "area": "Limina",
+        "arcP": 850
+    },
+    {
+        "level": 261,
+        "icon": "limina",
+        "mapName": "World's Sorrow Midpoint 2",
+        "mapLink": "https://maplestory.fandom.com/wiki/World's_Sorrow_Midpoint_2?so=search",
+        "area": "Limina",
+        "arcP": 850
+    },
+    {
+        "level": 262,
+        "icon": "limina",
+        "mapName": "End of the World 1-4",
+        "mapLink": "https://maplestory.fandom.com/wiki/End_of_the_World_1-4?so=search",
+        "area": "Limina",
+        "arcP": 880
+    },
+    {
+        "level": 262,
+        "icon": "limina",
+        "mapName": "End of the World 1-5",
+        "mapLink": "https://maplestory.fandom.com/wiki/End_of_the_World_1-5?so=search",
+        "area": "Limina",
+        "arcP": 880
+    },
+    {
+        "level": 264,
+        "icon": "limina",
+        "mapName": "End of the World 2-5",
+        "mapLink": "https://maplestory.fandom.com/wiki/End_of_the_World_2-5?so=search",
+        "area": "Limina",
+        "arcP": 880
+    }
+]
