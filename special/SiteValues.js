@@ -297,7 +297,7 @@ export const commonFifth = {
         "type": "Summon",
         "desc": "Summons Mastema to fight by your side",
         "details": [
-            "Mastema has two different skills:<ul><li><strong>[Mastema's Claw]</strong>: Mastema attacks by clawing forward</strong></li><li><strong>[Mastema's Mark]</strong>: Mastema grants a buff that increases %Damage Reduction (including %Max HP attacks)<ul><li>Mastema will use this skill up to two times</li><li>Buff vanishes when duration ends or max uses is reached</li></li></ul>",
+            "Mastema has two different skills:<ul><li><strong>[Mastema's Claw]</strong>: Mastema attacks by clawing forward</strong></li><li><strong>[Mastema's Mark]</strong>: Mastema grants a buff that increases %Damage Reduction (including %Max HP attacks)<ul><li>Blocks up to two attacks before disappearing</li><li>Buff disappears when duration ends or max uses is reached</li></li></ul>",
             "Unaffected by Damage Reflect"
         ]
     },
