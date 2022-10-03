@@ -33,23 +33,20 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Grandis Library</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-        <Script async strategy="beforeInteractive" src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.AD_ID}`} crossOrigin="anonymous"/>
+        
         <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-${process.env.NEXT_PUBLIC_GA_ID}`}
           strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_ID}`}/>
-        <Script
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${process.env.GA_ID}', {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+          `}
+        </Script>
       </Head>
       <ThemeProvider theme={theme}>
         <>
