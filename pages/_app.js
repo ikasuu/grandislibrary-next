@@ -2,7 +2,7 @@ import React, { useState, useEffect, Suspense } from 'react';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
 import Head from 'next/head';
-// import Script from 'next/script';
+import Script from 'next/script';
 
 import { getInitialTheme, GlobalStyle } from '../special/GlobalTheme';
 import MainNavbar from '../components/MainNavbar';
@@ -33,7 +33,23 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Grandis Library</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2213677142380749" crossOrigin="anonymous"/>
+        <Script async strategy="beforeInteractive" src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.AD_ID}`} crossOrigin="anonymous"/>
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_ID}`}/>
+        <Script
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.GA_ID}', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
       </Head>
       <ThemeProvider theme={theme}>
         <>
