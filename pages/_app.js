@@ -32,7 +32,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Grandis Library</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-        <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_AD_ID}`} crossOrigin="anonymous"/>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2213677142380749" crossOrigin="anonymous"/>
+        {/* <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_AD_ID}`} crossOrigin="anonymous"/> */}
         {/* <script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}/>
         <script>
           {`
