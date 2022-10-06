@@ -252,15 +252,15 @@ export const commonFifth = {
     },
     cygnusBlessing:{
         "name": "Empress Cygnus's Blessing",
-        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%.\\nThis damage bonus is additive and maxes out at 90%\\nCooldown: 240 sec.",
+        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%.\\nThis damage bonus is additive and maxes out at 90%\\nCooldown: 240 sec.\\n--------\\nMP Cost: 500, Duration: 45 sec, Damage +25%, Damage Taken: -5% (Includes damage proportional to Max HP).\\nPeriodically restores 7% HP and increases your damage by 7%.\\nThis damage bonus is additive, and maxes out at 120%\\nCooldown: 240 sec.",
         "id": 400001043,
         "icons": ["/class-icons/5th-job/empress-cygnuss-blessing.png", "/class-icons/5th-job/transcendent-cygnuss-blessing.png"],
         "animations": ["https://media4.giphy.com/media/o4zWBHJ69l1pd4x9hf/giphy.gif", "https://media2.giphy.com/media/oHDJdfZZm1KEBCm9n7/giphy.gif"],
         "type": "Buff",
-        "desc": "Increases %Damage",
+        "desc": "Increases %Damage and periodically restores %Max HP",
         "details": [
-            "Additionally periodically restores %Max HP and increases the %Damage buff (up to 90%)",
-            "Skill is enhanced after Lv. 245 becoming <img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus's Blessing'/> Transcendent Cygnus's Blessing<ul><li>Damage buff will instead go up to 120% and additionally now reduces damage taken (including %Max HP attacks)</li></ul>"
+            "%Damage buff stacks additively (up to 90%)",
+            "Skill is enhanced after Lv. 245 becoming <img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus's Blessing'/> Transcendent Cygnus's Blessing and additionally reduces damage taken (including %Max HP attacks)"
         ]
     },
     freudsWisdom:{
