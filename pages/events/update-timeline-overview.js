@@ -95,6 +95,7 @@ function UpdateTimelineOverview() {
                 <li><Link href="#double-trouble">Double Trouble Superstars</Link></li>
                 <li><Link href="#blooming-forest">Blooming Forest</Link></li>
                 <li><Link href="#destiny">Destiny</Link></li>
+                <li><Link href="#rocking-revamp">Rocking Revamp</Link></li>
             </ul>
             <ArticleHeaderTwo id="bang">Big Bang Update - Dec 2010</ArticleHeaderTwo>
             <BigBang/>
@@ -342,6 +343,8 @@ function UpdateTimelineOverview() {
             <BloomingForest/>
             <ArticleHeaderTwo id="destiny">Destiny Update - June 2022</ArticleHeaderTwo>
             <Destiny/>
+            <ArticleHeaderTwo id="rocking-revamp">Rocking Revamp Update - Aug 2022</ArticleHeaderTwo>
+            <RockingRevamp/>
             <AdOutArticle/>
         </EventPage>
     )
@@ -2931,6 +2934,67 @@ function RisingHeroesElite() {
             </ul>
             <h3>New Cash Items</h3>
             <ul><li><img src="/class-icons/common/auto-all-cure-skill.png" alt="Auto All Cure Skill"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/5190009" target="_blank">Auto All Cure Skill</a></li></ul>
+        </LazyLoad>
+    )
+};
+
+function RockingRevamp() {
+    return (
+        <LazyLoad height={200} offset={100}>
+            <img className="repository-image" src="/images/info/rocking-revamp.png" alt="Rocking Revamp"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/76108/v-235-rocking-revamp-patch-notes"/></p>
+            </div>
+            <h3>New Content</h3>
+            <ul>
+                <li>New questline added for Kao's Memory between Esfera, Limina, and the Temple of Time</li>
+            </ul>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li>Ellin Forest Revamped</li>
+                <li><strong>Reward Phase added to Lotus, Damien, Will, Gloom, Darknell, Verus Hilla, Akechi Mitsuhide</strong></li>
+                <li><strong>NX Credit and Prepaid combined into one currency</strong></li>
+                <li>Mu Lung Dojo Expansion
+                    <ul>
+                        <li>Floors increased from 80 to 100</li>
+                        <li>New achievements added</li>
+                        <li>Updated Dojo UI</li>
+                    </ul>
+                </li>
+                <li>Legion Rank Expansion
+                    <ul>
+                        <li>New ranks added for Legion Level above 10k</li>
+                        <li>Number of characters included in Legion's Cumulative Level is increased from 40 to 42</li>
+                        <li>New achievements added</li>
+                    </ul>
+                </li>
+                <li><strong>Explorer story quest can now be skipped</strong></li>
+                <li><strong>Default Storage slots expanded from 4 to 24 slots and max slots increased from 128 to 152</strong></li>
+                <li><strong>Fairy Bros' Daily Gift rewards are now tradable within account</strong></li>
+                <li>Transfer Hammer changes
+                    <ul>
+                        <li>Level 119 or lower equipment can now have their stats transferred by 20 levels</li>
+                        <li>New equipment added for smoother usage of Transfer Hammer <img src="/images/equipment/antique-leaf-shoulder.png" alt="Eqp Antique Leaf Shoulder"/><img src="/images/equipment/antique-root-shoulder.png" alt="Eqp Antique Root Shoulder"/><img src="/images/equipment/antique-leaf-cape.png" alt="Eqp Antique Leaf Cape"/></li>
+                    </ul>
+                </li>
+                <li>
+                    AbsoLab Equipment-related Weekly Quests modified such that players are guaranteed enough rewards to redeem 1 <img src="/images/items/stigma-coin.png" alt="Eqp Stigma Coin"/> Stigma Coin and 1 <img src="/images/items/absolab-coin.png" alt="Eqp AbsoLab Coin"/> AbsoLab Coin
+                </li>
+                <li>Added Boss %HP indicator</li>
+                <li>Profession Mastery decay amount reduced</li>
+                <li>Profession UI Ardentmill teleport cooldown reduced from 30 to 5 minutes</li>
+                <li>Fritto's Treasure Catch removed from Pollo and Fritto Bounty Hunting</li>
+                <li><strong>Materials obtained in Ursus are now shared with all characters within the same World</strong></li>
+                <li><strong>When Starforcing, Safeguard check will not be automatically disabled</strong></li>
+                <li><strong>Monster Park rewards are now tradable between characters within World</strong></li>
+                <li><strong>Enhancement, Extraction, and Crafting can now be performed directly in your V Matrix</strong></li>
+                <li>Arcane River and Grandis Daily Quests can now be completed via the Lightbulb icon</li>
+                <li><strong>Boss content unified into one format UI</strong></li>
+                <li><strong>40 slot Recipe, Scroll, and Title holders added</strong></li>
+                <li>Max Waru in Monster Life increased to 99,999,999</li>
+                <li><strong>Function added sell all Intense Power Crystal in Collector Shop</strong></li>
+                <li><strong>Added feature to display NX Weapon as One-Handed Weapon, Two-Handed Weapon, and Gun Motion</strong></li>
+            </ul>
         </LazyLoad>
     )
 };

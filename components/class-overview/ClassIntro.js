@@ -116,7 +116,7 @@ function ClassProperties({content}) {
               </tr>
               <tr>
                   <th><strong>Primary Stat</strong></th>
-                  <td>{content.mainStat}</td>
+                  <td>{content.mainStat} <InfoButton tooltip="Classes primarily benefit from this stat. It is recommended to always use Auto Assign to assign your AP"/></td>
               </tr>
               <tr>
                   <th><strong>Secondary Stat</strong></th>
