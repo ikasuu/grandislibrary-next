@@ -5,7 +5,7 @@ import { HeaderImageUrl } from '../../special/SiteValues';
 import HeaderImage from '../../components/HeaderImage';
 import { content } from '../../special/SiteContent';
 import * as Page from '../../components/Page';
-import { StickyAd } from '../../components/Ads';
+import BannerAdOne, { StickyAd } from '../../components/Ads';
 
 /*
     Content page
@@ -26,6 +26,7 @@ function Content() {
             <Page.CardContainer content={content.class} type="content"/>
             <Page.Subtitle>Equipment Related</Page.Subtitle>
             <Page.CardContainer content={content.equipment} type="content"/>
+            <BannerAdOne/>
             <StickyAd/>
         </div>
     );
