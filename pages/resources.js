@@ -11,7 +11,7 @@ import data from '../special/resource-content.json';
 import HeaderImageUrl from '../special/SiteValues';
 import HeaderImage from '../components/HeaderImage';
 import { Title, TabLink } from '../components/Page';
-import { BannerAdOne } from '../components/Ads';
+import { BannerAdOne, StickyAd } from '../components/Ads';
 
 SwiperCore.use([Scrollbar, Mousewheel]);
 
@@ -141,6 +141,7 @@ function Resources() {
                 </FaqSwiper>
                 <BannerAdOne/>
             </Container>
+            <StickyAd/>
         </div>
     );
 }
