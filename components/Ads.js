@@ -20,6 +20,7 @@ const AdWrapper = styled(Container)`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1rem 0 1rem 0;
 `;
 
 export function BannerAdOne(){
