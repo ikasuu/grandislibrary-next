@@ -78,6 +78,7 @@ export function ClassIntro({data}) {
                     <BuffContainer md="auto">
                         <ClassBuffs content={data.content}/>
                         <LinkSkill linkSkill={data.content.linkSkill}/>
+                        <VideoAd/>
                     </BuffContainer>
                 </Row>
             </Container>
@@ -170,7 +171,6 @@ function PropertyBox({skills, classType}) {
           <ul>
               {classType.map(it => <li key={it}>{it}</li>)}
           </ul> */}
-          <VideoAd/>
       </div>
   );
 }
