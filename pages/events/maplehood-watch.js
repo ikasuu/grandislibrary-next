@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
 
 function MaplehoodWatch() {
     return (
@@ -19,6 +19,7 @@ function MaplehoodWatch() {
             <p><img src="/images/info/maplehood-watch-schedule.png" alt="Maplehood Watch Schedule 2019"/></p>
             <p><strong>[Note]</strong>: Daily reset occurs at 12:00am GMT so you need to complete the quests for that day before then!! You will not be able to complete the quests for that day anymore once reset happens!</p>
             <img className="repository-image" src="/images/info/maplehood-preview.png" alt="Maplehood Watch Event"/>
+            <VideoAd/>
             <h2>Beauty Day</h2>
             <p><strong>[Note]</strong>: Hairstyles and Facestyles are completely random! Save your current hairstyle/face in your salon and any hairs you get as well!</p>
             <p><strong>[Note]</strong>: The coupons do not work after the day has ended and once the event is over</p>
@@ -51,7 +52,7 @@ function MaplehoodWatch() {
             <h3>Upon completion:</h3>
             <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on non-Reboot worlds)</p>
             <p><img src="/images/info/reboot.png" alt="WorldIcon Reboot"/> Receive one <img src="/images/items/red-cube.png" alt="Cash Red Cube"/> [Red Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Reboot world only)</p>
-            <AdInArticleBanner/>
+            <BannerAdOne/>
             <h2>Gachapon Day</h2>
             <ul>
                 <li><strong>This can be completed 3 times per character per day</strong>. Log in and accept the quest <strong>‘[Maplehood Watch] Gachapon Giveaway’</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
@@ -80,7 +81,7 @@ function MaplehoodWatch() {
             <hr/>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: MapleStory Official Website</p>
-            <AdOutArticle/>
+            <BannerAdTwo/>
         </EventPage>
     )
 }

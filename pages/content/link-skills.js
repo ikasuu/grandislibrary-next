@@ -6,7 +6,7 @@ import { linkSkills } from '../../special/SiteValues';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
 
 function LinkSkills() {
     return (
@@ -39,6 +39,7 @@ function LinkSkills() {
           <li><Link smooth href="#notable" scroll>Notable Link Skills</Link></li>
           <li><Link smooth href="#builds" scroll>Examples of Link Skill Builds</Link></li>
         </ul>
+        <VideoAd/>
         <hr/>
         {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="explorers">Explorers</h2>
@@ -163,7 +164,7 @@ function LinkSkills() {
         <SingleSkill skillData={linkSkills.zero}/>
         <hr/>
         {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-        <AdInArticleBanner/>
+        <BannerAdOne/>
         <h2 id="notable">Notable Link Skills:</h2>
         <p>Some Link Skills may fit multiple roles, for example, Beast Tamer's Link Skill <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> provides %Boss Damage, %Crit Rate and %Max HP/MP</p>
         <h3>For Damage:</h3>
@@ -284,7 +285,7 @@ function LinkSkills() {
         <p><a href="https://www.youtube.com/watch?v=zT1jX_tnQjM">https://www.youtube.com/watch?v=zT1jX_tnQjM</a></p>
         <h4>Credits:</h4>
         <p><strong>Skill Icons + Info</strong>: MapleWiki</p>
-        <AdOutArticle/>
+        <BannerAdTwo/>
       </ContentPage>
     )
 }

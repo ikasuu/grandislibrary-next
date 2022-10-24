@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
 
 function AttackSpeed() {
     return (
@@ -36,6 +36,7 @@ function AttackSpeed() {
             </ul>
             <p><strong>[Note]: </strong>Hurricane-type / Key-down skills like <img src="/class-icons/explorers/bowmaster/hurricane.png" alt="Skill Hurricane"/> <a href="https://maplestory.fandom.com/wiki/Hurricane" target="_blank" rel="noreferrer noopener">Hurricane</a>, <img src="/class-icons/heroes/phantom/mille-aiguilles.png" alt="Skill Mille Aiguilles"/> <a href="https://maplestory.fandom.com/wiki/Mille_Aiguilles" target="_blank" rel="noreferrer noopener">Mille Aiguilles</a>, <img src="/class-icons/heroes/mercedes/ishtars-ring.png" alt="Skill Ishtar's Ring"/> <a href="https://maplestory.fandom.com/wiki/Ishtar's_Ring" target="_blank" rel="noreferrer noopener">Ishtar's Ring</a>, <img src="/class-icons/resistance/xenon/beam-dance.png" alt="Skill Beam Dance"/> <a href="https://maplestory.fandom.com/wiki/Beam_Dance" target="_blank" rel="noreferrer noopener">Beam Dance</a>, or <img src="/class-icons/resistance/wild-hunter/wild-arrow-blast.png" alt="Skill Wild Arrow Blast"/> <a href="https://maplestory.fandom.com/wiki/Wild_Arrow_Blast" target="_blank" rel="noreferrer noopener">Wild Arrow Blast</a> are not affected by Attack Speed</p>
             <p><strong>[Note]: </strong>All mages except Battle Mage are not affected by their weapon's Attack Speed. Instead, all attacks have a cast speed of Normal (6) regardless of weapon which is still affected by Attack Speed </p>
+            <VideoAd/>
             <h2>Weapon Attack Speeds</h2>
             <h3>Fast (4)</h3>
             <ul>
@@ -118,7 +119,7 @@ function AttackSpeed() {
                 </li>
                 <li>Beta Heavy Sword [1H] (Slow 8)</li>
             </ul>
-            <AdInArticleBanner/>
+            <BannerAdOne/>
             <h2>Weapon Boosting Skills and Sources</h2>
             <p>All classes have a standard <img src="/class-icons/heroes/aran/polearm-booster.png" alt="Skill Polearm Booster"/> <img src="/class-icons/heroes/evan/magic-booster.png" alt="Skill Magic Booster (Evan)"/> Weapon Booster skill that increases your attack speed by +2 stages</p>
             <p>A few classes have skills other than their typical weapon boosting skill that further that boosts their attack speed (i.e. Buccaneer or Thunder Breaker's <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> <a href="https://maplestory.fandom.com/wiki/Speed_Infusion" target="_blank" rel="noreferrer noopener">Speed Infusion</a> provides another +2 AS, a Kaiser using <img src="/class-icons/nova/kaiser/dragon-link.png" alt="Skill Dragon Link"/> key-command skills when their Dragon Gauge is filled provides another +2 AS, etc.)</p>
@@ -156,7 +157,7 @@ function AttackSpeed() {
             <h3>Example:</h3>
             <p>An Aran with the <img src="/images/equipment/eviscerator.png" alt="Eqp Eviscerator"/> Eviscerator polearm, which is Slower (9). The Aran gets +2 AS from their <img src="/class-icons/heroes/aran/polearm-booster.png" alt="Skill Polearm Booster"/> Weapon Booster skill, +1 AS from <img src="/class-icons/heroes/aran/polearm-mastery.png" alt="Skill Polearm Mastery"/> Polearm Mastery skill, +1 AS from <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion, +1 from Inner Ability, and +1 from <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion (for a total of +6 AS). Thus, their attack speed would be: Slower (9) - (+6 AS) = Fastest (3)</p>
             <p>Later, they find a Rune of Swiftness and uses it, granting them another +3 attack speed that can ignore the soft speed cap (for a total of +9 attack speed). Their final Attack Speed is Fastest (0)</p>
-            <AdOutArticle/>
+            <BannerAdTwo/>
         </ContentPage>
     );
 }

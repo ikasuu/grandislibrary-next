@@ -54,6 +54,7 @@ function Footer() {
                             <FooterButton variant="link"><a href="https://discord.gg/d4et8vt9kP" target="_blank" rel="noreferrer noopener"><span className="discord-mini-button"/></a></FooterButton>
                             <FooterButton variant="link"><a href="https://twitter.com/MapleShinnie" target="_blank" rel="noreferrer noopener"><span className="twitter-button"/></a></FooterButton>
                             <FooterButton variant="link"><a href="https://www.youtube.com/channel/UCPiNjGVt9P04a80vEBid3rA" target="_blank" rel="noreferrer noopener"><span className="youtube-button"/></a></FooterButton>
+                            <FooterButton variant="link"><a href="https://github.com/ikasuu/grandislibrary-next/" target="_blank" rel="noreferrer noopener"><span className="github-button"/></a></FooterButton>
                         </FooterButtonContainer>
                         <FooterText>GMS Ver. {version} [{versionName}]</FooterText>
                         <FooterDisclaimer>Grandis Library is a fan-made resource and is in no way affiliated with Nexon</FooterDisclaimer>
@@ -61,7 +62,7 @@ function Footer() {
                     <FooterCol md>
                         <h5><strong>ABOUT</strong></h5>
                         <FooterLink><a href="/privacy" className="footer-link">Privacy Policy</a></FooterLink>
-                        <FooterLink><a href="https://github.com/ikasuu/grandislibrary-next" target="_blank" rel="noreferrer noopener" className="footer-link">GitHub</a></FooterLink>
+                        <FooterLink><a class="nn-cmp-show" style={{color: "white"}} href="#">Manage Cookie Settings</a></FooterLink>
                         <FooterLink><a href="https://maplestory.io/" target="_blank" rel="noreferrer noopener" className="footer-link">API Source</a></FooterLink>
                         <div><FooterButton variant="link"><a href="https://ko-fi.com/ikasuu" target="_blank" rel="noreferrer noopener"><KofiButton/></a></FooterButton></div>
                     </FooterCol>

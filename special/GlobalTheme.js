@@ -84,15 +84,6 @@ export const GlobalStyle = createGlobalStyle`
     display: block;
   }
 
-  //Footer discord button
-  .discord-mini-button{
-    background: url("/icons/discord-mini-logo-${getMenuColor}.svg");
-    background-size: 2.3rem 2.3rem;
-    width: 2.3rem;
-    height: 2.3rem;
-    display:block;
-  }
-
   .nav-button-container{
     border-right: 0.15rem solid ${getForeground};
     margin-right: 0.25rem;
@@ -102,21 +93,40 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+  //Footer discord button
+  .discord-mini-button{
+    background: url("/icons/discord-mini-logo-${getMenuColor}.svg");
+    background-size: 2.3rem 2.3rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    display:block;
+  }
+
   //Footer twitter button
   .twitter-button{
     background: url("/icons/twitter-rounded-square-${getMenuColor}.png");
-    background-size: 1.7rem 1.7rem;
-    width: 1.7rem;
-    height: 1.7rem;
+    background-size: 1.8rem 1.8rem;
+    width: 1.8rem;
+    height: 1.8rem;
     display:block;
   }
 
   //Footer youtube button
   .youtube-button{
     background: url("/icons/yt_logo_mono_${getMenuColor}.png");
-    background-size: 2rem 1.7rem;
+    background-size: 2rem 1.8rem;
     width: 2rem;
-    height: 1.7rem;
+    height: 1.8rem;
+    margin-left: 0.25rem;
+    display:block;
+  }
+
+  //Footer github button
+  .github-button{
+    background: url("/icons/GitHub-Mark-${getMenuColor}-64px.png");
+    background-size: 2rem 1.9rem;
+    width: 2rem;
+    height: 1.9rem;
     margin-left: 0.25rem;
     display:block;
   }

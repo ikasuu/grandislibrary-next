@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd } from '../../components/Ads';
 import TrainingMap from '../../components/content/TrainingMap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Mousewheel, Scrollbar } from 'swiper';
@@ -125,6 +125,7 @@ function ProgressionGuide() {
                 <li className="quick-jump"><Link smooth href="#lightbulb">Lightbulb Quests</Link>
                 </li>
             </ul>
+            <VideoAd/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="intro">Introduction:</ArticleHeaderTwo>
             <hr/>
@@ -164,7 +165,7 @@ function ProgressionGuide() {
             <p><strong>[Note]:</strong> If you do not see your Link Skill in the Link Manager, you may have to accept a quest in the Lightbulb tab on the left-hand side of the screen. If you still do not see it, try relogging For more info on Link Skills, check out: <a href="https://www.grandislibrary.com/contents/link-skills" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/link-skills</a>
             </p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdInArticleBanner/>
+            <BannerAdOne/>
             <ArticleHeaderTwo id="pocket">Pocket Slot:</ArticleHeaderTwo>
             <hr/>
             <p>Pocket Slot is an additional equipment slot you can unlock to equip Pocket Items. To unlock the Pocket Slot, you will first need to reach Lv. 30 Charm in your Traits Stat</p>
@@ -202,7 +203,6 @@ function ProgressionGuide() {
             <p>For more info on Hyper Stats, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Hyper_Stats" target="_blank">https://strategywiki.org/wiki/MapleStory/Hyper_Stats</a>
             </p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdInArticleBanner/>
             <ArticleHeaderTwo id={140}>Level 140 and Beyond:</ArticleHeaderTwo>
             <hr/>
             <p>Upon reaching Lv. 140, take some time to fill up every equipment slot and Spell Trace everything if you are on Regular Servers. Be sure to Star Force everything as much as you can. A bare minimum of 5 Stars on everything but the best would be to have at least 10 Stars. As well, reveal all the potentials on your equipment and try to use cubes to reroll for some %Main Stat or Epic Potential</p>
@@ -349,7 +349,7 @@ function ProgressionGuide() {
                 <li>Fairy Bros Daily Gift Reward</li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdInArticleBanner/>
+            <BannerAdTwo/>
             <ArticleHeaderTwo id="auction">Auction House in Regular Servers:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/auction-house.png" alt="Auction House"/>
@@ -1596,7 +1596,7 @@ function ProgressionGuide() {
             </ul>
             <hr/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdInArticleBanner/>
+            <BannerAdThree/>
             <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests:</ArticleHeaderTwo>
             <hr/>
             <p>A majority of Daily and Weekly Quests are mostly done at Lv. 200+. Characters pre-200 do not need to worry about these quests as much</p>
@@ -2463,7 +2463,6 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <AdOutArticle/>
         </ContentPage>
     );
 }

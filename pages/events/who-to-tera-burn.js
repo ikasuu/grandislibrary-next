@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
 
 function WhoToTeraBurn() {
     return (
@@ -29,6 +29,7 @@ function WhoToTeraBurn() {
                 <li><img src="/class-icons/heroes/mercedes/leap-tornado.png" alt="Skill Leap Tornado"/> Mercedes</li>
             </ul>
             <p><strong>[Note]</strong>:Explorer classes can job change using a <img src="/images/items/job-advancement-coin.png" alt="Etc Job Advancement Coin"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4310086">[Job Advancement Coin]</a> to other Explorer classes within their job branch thus, you can level up a class with decent mobbing capabilities then job change to the desired class</p>
+            <VideoAd/>
             <h3>Classes with Lv. 3 Link Skills / Good Legion Bonuses:</h3>
             <ul>
                 <li>
@@ -131,7 +132,7 @@ function WhoToTeraBurn() {
                 </li>
                 <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> Phantom - +20% Crit Rate</li>
             </ul>
-            <AdInArticleBanner/>
+            <BannerAdOne/>
             <h3>Good Legion Bonuses + Lv. 2 Link Skill that may be hard to level:</h3>
             <ul>
                 <li>
@@ -192,7 +193,7 @@ function WhoToTeraBurn() {
             <hr/>
             <h3>Credits:</h3>
             <p>shrimpstation</p>
-            <AdOutArticle/>
+            <BannerAdTwo/>
         </EventPage>
     )
 }

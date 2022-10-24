@@ -194,9 +194,14 @@
             "url": "https://maplestory.io/"
         },
         {
-            "title": "Pink Bean Multi-purpose Discord Bot",
-            "icon": "/images/resources/pinkbeanbot.png",
-            "url": "https://www.pinkbean.xyz/"
+            "title": "Maplestory Network",
+            "icon": "/images/resources/maplestorydotnet.png",
+            "url": "https://maplestory.net"
+        },
+        {
+            "title": "Maple Info Corner",
+            "icon": "/images/resources/whackybeanz.png",
+            "url": "https://whackybeanz.com/"
         },
         {
             "title": "Dexless",

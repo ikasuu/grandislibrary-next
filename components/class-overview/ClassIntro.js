@@ -8,7 +8,7 @@ import { weapons, secondaryWeapons, weaponConsumable } from '../../special/SiteV
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
-import { AdClassOverview } from '../Ads';
+import BannerAdOne, { VideoAd } from '../Ads';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -82,7 +82,6 @@ export function ClassIntro({data}) {
                 </Row>
             </Container>
             <hr/>
-            <AdClassOverview/>
             <div id="stat"/>
             <ClassDetail content={data.content} skill={data.skill}/>
         </div>
@@ -171,6 +170,7 @@ function PropertyBox({skills, classType}) {
           <ul>
               {classType.map(it => <li key={it}>{it}</li>)}
           </ul> */}
+          <VideoAd/>
       </div>
   );
 }
@@ -240,6 +240,7 @@ function ClassDetail({content}) {
                 </tbody>
               </Table>
             </BaseStatsWrapper>
+            <BannerAdOne/>
             <StyledHeaderTwo>Example Skill Build Path</StyledHeaderTwo>
             <Table borderless>
             <tbody>

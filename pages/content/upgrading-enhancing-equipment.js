@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
 
 function UpgradeEquipment() {
     return (
@@ -26,6 +26,7 @@ function UpgradeEquipment() {
             <li><Link smooth href="#cubing" scroll>Cubing &amp; Potentials</Link></li>
             <li><Link smooth href="#bonus" scroll>Flames &amp; Bonus Stats</Link></li>
           </ul>
+          <VideoAd/>
           <div className="repository-md-container">
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="scrolls">Scrolls in Regular Servers</ArticleHeaderTwo>
@@ -262,7 +263,7 @@ function UpgradeEquipment() {
             <p><strong>[Star Force Maps]</strong>: There are special training maps that will require you to have a certain amount of Star Force to hunt efficiently on a map. These maps feature monsters with greater health but give much more EXP</p>
             <p>Star Force also contributes to the amount of damage your Legion Character does on the Legion Board</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <AdInArticleBanner/>
+            <BannerAdOne/>
             <ArticleHeaderTwo id="hammer">Transfer Hammer</ArticleHeaderTwo>
             <hr/>
             <p><img className="repository-image" src="/images/info/transfer-hammer-ui.png" alt="Transfer Hammer UI"/></p>
@@ -384,7 +385,7 @@ function UpgradeEquipment() {
                   https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p
               </a></p>
           </div>
-          <AdOutArticle/>
+          <BannerAdTwo/>
       </ContentPage>
 
     )

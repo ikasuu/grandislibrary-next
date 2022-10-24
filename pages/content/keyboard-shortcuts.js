@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd } from '../../components/Ads';
 
 function KeyboardShortcuts() {
     return (
@@ -48,45 +48,42 @@ function KeyboardShortcuts() {
                 <li><Link smooth href="#familiar" scroll>Familiar</Link></li>
                 <li><Link smooth href="#emoticon" scroll>Emoticons</Link></li>
             </ul>
+            <VideoAd/>
             <IntroKeyboardShortcuts/>
             <ChangeQuickslots/>
             <QuestLog/>
             <WorldMap/>
             <Equipment/>
-            <AdInArticleBanner/>
+            <BannerAdOne/>
             <FriendsPartyBoss/>
             <ItemPot/>
             <MapleGuide/>
             <Items/>
             <CharacterStat/>
-            <AdInArticleBanner/>
+            <BannerAdTwo/>
             <Guild/>
             <Whisper/>
             <Skill/>
             <Notifier/>
             <Medals/>
-            <AdInArticleBanner/>
             <MapleChat/>
             <Events/>
             <Professions/>
             <Minimap/>
             <CharInfo/>
-            <AdInArticleBanner/>
+            <BannerAdThree/>
             <SoulWeapon/>
             <BattleAnalysis/>
             <EnhanceEquipment/>
             <MonsterCollection/>
             <Legion/>
-            <AdInArticleBanner/>
             <MapleNews/>
             <PictureMode/>
             <Mute/>
             <MapleRelay/>
             <MapleAchievement/>
-            <AdInArticleBanner/>
             <Familiar/>
             <Emoticon/>
-            <AdOutArticle/>
         </ContentPage>
     )
 }

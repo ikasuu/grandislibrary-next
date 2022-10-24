@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import Video from '../../components/repository/Video';
-import { AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo } from '../../components/Ads';
 
 function ChaosRing() {
     return (
@@ -13,7 +13,7 @@ function ChaosRing() {
                 <title>Chaos Ring | Grandis Library</title>
                 <meta content={"An event ring that has allows you to reroll the ring’s stats and potential for free a fixed number of times each week"} name="description"/>
             </Head>
-            <AdOutArticle/>
+            <BannerAdOne/>
             <ContentTitle>Chaos Ring</ContentTitle>
             <p>Introduced during the ARK update, this new event ring allows the user to<strong> reset it's stats and potential up to 10 times per week (resets Mondays)</strong>. But, the ability to reset the ring lasts 180 days. After that, you will need to use<strong> Cubes to reset the potential</strong>. The ring can be cubed to LEGENDARY but the weekly free rerolls only go up to UNIQUE</p>
             <Video src="https://www.youtube.com/embed/JRqrDBQx4rY" title="Chaos Ring"/>
@@ -45,7 +45,7 @@ function ChaosRing() {
             <h3>Credits:</h3>
             <p><strong>Item Image from:</strong></p>
             <p><a href="https://maplestory.wiki/GMS/210.1.1/item/1114305" target="_blank" rel="noopener noreferrer">https://maplestory.wiki/GMS/210.1.1/item/1114305</a></p>
-            <AdOutArticle/>
+            <BannerAdTwo/>
         </EventPage>
     )
 }

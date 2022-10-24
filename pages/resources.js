@@ -11,7 +11,7 @@ import data from '../special/resource-content.json';
 import HeaderImageUrl from '../special/SiteValues';
 import HeaderImage from '../components/HeaderImage';
 import { Title, TabLink } from '../components/Page';
-import AdNavigation from '../components/Ads';
+import { BannerAdOne } from '../components/Ads';
 
 SwiperCore.use([Scrollbar, Mousewheel]);
 
@@ -96,7 +96,7 @@ function Resources() {
                             <Table borderless>
                                 <tbody>
                                     {data.links.map((link, index) => 
-                                        <tr key={index}><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
+                                        <tr key={index}><td><img src={link.icon} style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
                                     )}
                                 </tbody>
                             </Table>
@@ -108,7 +108,7 @@ function Resources() {
                             <Table borderless>
                                 <tbody>
                                     {data.creators.map((link, index) => 
-                                        <tr key={index}><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
+                                        <tr key={index}><td><img src={link.icon} style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
                                     )}
                                 </tbody>
                             </Table>
@@ -139,7 +139,7 @@ function Resources() {
                         )
                     }
                 </FaqSwiper>
-                <AdNavigation/>
+                <BannerAdOne/>
             </Container>
         </div>
     );

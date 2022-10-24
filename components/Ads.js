@@ -1,139 +1,67 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import styled from 'styled-components';
 
 /*
 This file contains the Adsense ad elements
 In this file you will find:
--AdNavigation - ad for the navigation pages like homepage, content, events, resources
--AdClassOverview - ad used in the class overviews
--AdOutArticle - ad used at the top & bottom of articles
--AdInArticle - ad used within articles such as Content and Events articles
--dInArticleBanner - banner ad used within articles such as Content and Events articles
+-BannerAdOne/Two/Three - horizontal banner ads containing both desktop & mobile ads (728x90) / (320x50)
+-StickyAd - horizontal banner ads containing both desktop & mobile ads that are stickied to the bottom of the screen
+-VideoAd - video ad that stickies to the bottom left of the screen
 */
 
 /*
     Created by: Ikasuu, Spring 2022
+      ~Fall 2022 updated ad format
 */
 
 //AdWrapper - component to wrap around Ad unit to add margin spacing
 const AdWrapper = styled(Container)`
-    margin: 2.5rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
-//AdNavigation - ad for the navigation pages like homepage, content, events, resources
-export const AdNavigation = () => {
-  useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
-
-  return (
+export function BannerAdOne(){
+  return(
     <AdWrapper>
-      <ins
-        className="adsbygoogle"
-        style={{display: 'block'}}
-        data-ad-client="ca-pub-2213677142380749"
-        data-ad-slot="1029974048"
-        data-ad-format="horizontal"
-        data-full-width-responsive="false"
-      />
+      <div id="nn_lb1"></div>
+      <div id="nn_mobile_lb1"></div>
     </AdWrapper>
-  );
-};
+  )
+}
 
-//AdClassOverview - ad used in the class overviews
-export const AdClassOverview = () => {
-  useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
-
-  return (
+export function BannerAdTwo(){
+  return(
     <AdWrapper>
-      <ins className="adsbygoogle"
-      style={{display: 'block'}}
-      data-ad-client="ca-pub-2213677142380749"
-      data-ad-slot="5546985319"
-      data-ad-format="horizontal"
-      data-full-width-responsive="false"
-      />
+      <div id="nn_lb3"></div>
+      <div id="nn_mobile_lb3"></div>
     </AdWrapper>
-  );
-};
+  )
+}
 
-//AdOutTitle - ad used at the top & bottom of articles
-export const AdOutArticle = () => {
-  useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
-
-  return (
+export function BannerAdThree(){
+  return(
     <AdWrapper>
-      <ins className="adsbygoogle"
-      style={{display: 'block'}}
-      data-ad-client="ca-pub-2213677142380749"
-      data-ad-slot="9117530820"
-      data-ad-format="horizontal"
-      data-full-width-responsive="false"
-      />
+      <div id="nn_lb4"></div>
     </AdWrapper>
-  );
-};
+  )
+}
 
-//AdInArticle - ad used within articles such as Content and Events articles
-export const AdInArticle = () => {
-  useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
+export function StickyAd(){
+  return(
+    <div>
+      <div id="nn_lb2"></div>
+      <div id="nn_mobile_lb2"></div>
+    </div>
+    
+  )
+}
 
-  return (
-    <AdWrapper>
-      <ins className="adsbygoogle"
-      style={{display: 'block', textAlign: 'center'}}
-      data-ad-layout="in-article"
-      data-ad-format="fluid"
-      data-ad-client="ca-pub-2213677142380749"
-      data-ad-slot="9994083514"/>
-    </AdWrapper>
-  );
-};
+export function VideoAd(){
+  return(
+    <div id="nn_player"></div>
+  )
+}
 
-//AdInArticleBanner - banner ad used within articles such as Content and Events articles
-export const AdInArticleBanner = () => {
-  useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
-
-  return (
-    <AdWrapper>
-      <ins className="adsbygoogle"
-      style={{display: 'block'}}
-      data-ad-client="ca-pub-2213677142380749"
-      data-ad-slot="1955751322"
-      data-ad-format="horizontal"
-      data-full-width-responsive="false"
-      />
-    </AdWrapper>
-  );
-};
-
-export default AdNavigation;
+export default BannerAdOne;

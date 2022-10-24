@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdOutArticle } from '../../components/Ads';
+import BannerAdOne from '../../components/Ads';
 
 const TableContainer = styled.div`
     overflow-x: auto;
@@ -275,12 +275,7 @@ function SharedCashShopInventory() {
                 </tbody>
             </table>
         </TableContainer>
-        {/* <StyledP>For an image version of this check out: </StyledP>
-        <a href="https://cdn.discordapp.com/attachments/655519944083243069/786509048467947530/unknown.png" target="_blank" rel="noopener noreferrer">https://cdn.discordapp.com/attachments/655519944083243069/786509048467947530/unknown.png</a>
-        <ul>
-        <li>Credits to Kradian South #4949 for the image version</li>
-        </ul> */}
-        <AdOutArticle/>
+        <BannerAdOne/>
       </ContentPage>
     );
 }

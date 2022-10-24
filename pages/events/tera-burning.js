@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { VideoAd } from '../../components/Ads';
 
 function TeraBurning() {
     return (
@@ -15,6 +15,7 @@ function TeraBurning() {
             <ContentTitle>Tera Burning</ContentTitle>
             <h2>What is Tera Burning</h2>
             <p>Tera Burning is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 200.</strong> That means you will get 3 levels for every level up! This event is open to servers, both Reboot and non-Reboot worlds. Certain characters cannot be burned which includes Zero and any newly released classes if stated</p>
+            <VideoAd/>
             <h3>Notes</h3>
             <hr/>
             <p>If you create an Illium character and select it as "Burning", you will need to complete your Illium questline first before teleporting out of the area. Otherwise you won't be able to get your 2nd job advancement properly</p>
@@ -117,7 +118,7 @@ function TeraBurning() {
             <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/54153/tera-burning-and-extreme-breakthrough-events" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/54153/tera-burning-and-extreme-breakthrough-events</a></p>
-            <AdOutArticle/>
+            <BannerAdOne/>
         </EventPage>
     )
 }

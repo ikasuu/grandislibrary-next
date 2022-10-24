@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import { AdOutArticle } from '../../components/Ads';
+import BannerAdOne from '../../components/Ads';
 
 function MegaBurning() {
     return (
@@ -20,7 +20,7 @@ function MegaBurning() {
             <p>If you create an Illium character and select it as "Burning", you will need to complete your Illium questline first before teleporting out of the area. Otherwise you won't be able to get your 2nd job advancement properly</p>
             <p>Rewards such as the Frozen Set can be obtained again if you recreate a Burning Character</p>
             <p>"Burning" effect stops when you have reached level 150 or when the event is over. It is not a permanent effect</p>
-            <p><img src="/images/items/mega-character-burninator.png" alt="Use Mega Character Burninator"/> Mega Burninator item can be used on any character (does not need to be newly created) but will not grant you any of the rewards. Instead, you only get the levelling effect on the chosen character</p>
+            <p><img src="/images/items/mega-character-burninator.png" alt="Use Mega Character Burninator"/> Mega Burninator item can be used on any character to apply the Mega Burning effect</p>
             <p>All unopened rewards (Mysterious Cryptic Gift Box, Lv. 30 Equipment Box and Legendary Cryptic Chest) expire after the burning event is over. Opened items will be kept, the boxes themselves expire!</p>
             <hr/>
             <h2>Rewards:</h2>
@@ -93,7 +93,7 @@ function MegaBurning() {
             <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project</a></p>
-            <AdOutArticle/>
+            <BannerAdOne/>
         </EventPage>
     )
 }

@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
-import { AdInArticleBanner, AdOutArticle } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
 
 const BurningSkill = {
         "id": 80000545,
@@ -31,6 +31,7 @@ function BurningWorld() {
             <p>Characters must be at least Lv. 150 to transfer out of Burning World</p>
             <p>Zero characters, when available, can be created however, they cannot be burned</p>
             <hr/>
+            <VideoAd/>
             <h2>Benefits of Burning World</h2>
             <p>All characters in the Burning World gain the passive skill below while in this world, the passive does not transfer into other worlds</p>
             <SingleSkill skillData={BurningSkill}/>
@@ -111,7 +112,7 @@ function BurningWorld() {
             </ul>
             <p>For more information on Mega Burning characters, check out: <a href="https://www.grandislibrary.com/event/mega-burning" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/mega-burning</a></p>
             <p>Need help choosing a character to burn? Check out: <a href="https://www.grandislibrary.com/event/who-to-tera-burn" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/who-to-tera-burn</a></p>
-            <AdInArticleBanner/>
+            <BannerAdOne/>
             <h2>Transferring from Burning World</h2>
             <p><strong>To transfer first, your character must be at least Lv. 150</strong></p>
             <p>Once the Burning World event ends, you can transfer your character to a Regular World (Non-Reboot world). You will not be able to train your characters in the Burning World during this period</p>
@@ -146,7 +147,7 @@ function BurningWorld() {
             <p>For more info, check out: <a rel="noreferrer noopener" href="http://maplestory.nexon.net/news/59147/burning-world-event" target="_blank">http://maplestory.nexon.net/news/59147/burning-world-event</a></p>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: OrangeMushroom and MapleStory Official Website</p>
-            <AdOutArticle/>
+            <BannerAdTwo/>
         </EventPage>
     )
 }
