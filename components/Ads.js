@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import styled from 'styled-components';
 
@@ -24,6 +24,14 @@ const AdWrapper = styled(Container)`
 `;
 
 export function BannerAdOne(){
+  useEffect(() => {
+    try {
+      (window.reloadAdSlots());
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
   return(
     <AdWrapper>
       <div id="nn_lb1"></div>
@@ -33,6 +41,14 @@ export function BannerAdOne(){
 }
 
 export function BannerAdTwo(){
+  useEffect(() => {
+    try {
+      (window.reloadAdSlots());
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
   return(
     <AdWrapper>
       <div id="nn_lb3"></div>
@@ -42,6 +58,14 @@ export function BannerAdTwo(){
 }
 
 export function BannerAdThree(){
+  useEffect(() => {
+    try {
+      (window.reloadAdSlots());
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
   return(
     <AdWrapper>
       <div id="nn_lb4"></div>
@@ -50,6 +74,14 @@ export function BannerAdThree(){
 }
 
 export function StickyAd(){
+  useEffect(() => {
+    try {
+      (window.reloadAdSlots());
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
   return(
     <div>
       <div id="nn_lb2"></div>
@@ -60,6 +92,14 @@ export function StickyAd(){
 }
 
 export function VideoAd(){
+  useEffect(() => {
+    try {
+      (window.reloadAdSlots());
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
   return(
     <div id="nn_player"></div>
   )
