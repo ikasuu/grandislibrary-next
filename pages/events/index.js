@@ -26,7 +26,6 @@ function Events() {
             <Page.CardContainer content={events.item} type="events"/>
             <Page.Subtitle>Update Related</Page.Subtitle>
             <Page.CardContainer content={events.update} type="events"/>
-            <BannerAdOne/>
             <StickyAd/>
         </div>
     );
