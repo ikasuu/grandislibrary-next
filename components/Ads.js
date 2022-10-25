@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import styled from 'styled-components';
 
 /*
@@ -91,7 +91,7 @@ export function StickyAd(){
   )
 }
 
-export function VideoAd(){
+export function VideoAdClassOverview(){
   useEffect(() => {
     try {
       (window.reloadAdSlots());
@@ -102,6 +102,27 @@ export function VideoAd(){
 
   return(
     <div id="nn_player"></div>
+  )
+}
+
+export function VideoAd(){
+  useEffect(() => {
+    try {
+      (window.reloadAdSlots());
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
+  return(
+    <Container>
+      <Row md={2}>
+        <Col>
+          <div id="nn_player"></div>
+        </Col>
+      </Row>
+    </Container>
+    
   )
 }
 
