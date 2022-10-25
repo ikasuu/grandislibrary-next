@@ -8,7 +8,7 @@ import { weapons, secondaryWeapons, weaponConsumable } from '../../special/SiteV
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
-import BannerAdOne, { VideoAd } from '../Ads';
+import BannerAdOne, { VideoAdClassOverview } from '../Ads';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -78,7 +78,7 @@ export function ClassIntro({data}) {
                     <BuffContainer md="auto">
                         <ClassBuffs content={data.content}/>
                         <LinkSkill linkSkill={data.content.linkSkill}/>
-                        <VideoAd/>
+                        <VideoAdClassOverview/>
                     </BuffContainer>
                 </Row>
             </Container>
