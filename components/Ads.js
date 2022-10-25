@@ -23,6 +23,10 @@ const AdWrapper = styled(Container)`
   margin: 1rem 0 1rem 0;
 `;
 
+const AdRowWrapper = styled(Row)`
+  margin: 1rem 0 1rem 0;
+`
+
 export function BannerAdOne(){
   useEffect(() => {
     try {
@@ -116,11 +120,11 @@ export function VideoAd(){
 
   return(
     <Container>
-      <Row md={2}>
+      <AdRowWrapper md={2}>
         <Col>
           <div id="nn_player"></div>
         </Col>
-      </Row>
+      </AdRowWrapper>
     </Container>
     
   )
