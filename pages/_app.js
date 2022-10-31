@@ -34,9 +34,9 @@ function MyApp({ Component, pageProps }) {
 
         <link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin></link>
 
-        <script crossOrigin="anonymous">{`window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt']};`}</script>
-        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossOrigin="anonymous"></script>
-        <script async src="https://kumo.network-n.com/dist/app.js" site="grandislibrary" crossOrigin="anonymous"></script>
+        <script>{`window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt']};`}</script>
+        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+        <script async src="https://kumo.network-n.com/dist/app.js" site="grandislibrary"></script>
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
         {/* <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_AD_ID}`} crossOrigin="anonymous"/>
