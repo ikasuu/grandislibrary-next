@@ -72,7 +72,7 @@ export function QuickJump({settings, setSettings}) {
 
     return (
         <div>
-            <Fab onClick={handleMenu} color="primary" size="medium" style={{position: 'fixed', bottom: '2.5rem', right: '2.5rem', zIndex: '1000'}}>
+            <Fab onClick={handleMenu} color="primary" size="medium" style={{position: 'fixed', bottom: '3.5rem', right: '2.5rem', zIndex: '1000'}}>
                 <span className="jump-button"/>
             </Fab>
             <Menu
