@@ -145,7 +145,7 @@ function ScrollTop(props){
 function ScrollFab(){
     return(
         <ScrollTop>
-                <Fab color="primary" size="medium" style={{position: 'fixed', bottom: '2.5rem', right: '2.5rem', zIndex: '1000'}}>
+                <Fab color="primary" size="medium" style={{position: 'fixed', bottom: '3rem', right: '2.5rem', zIndex: '1000'}}>
                     <span className="scroll-top-button"/>
                 </Fab>
         </ScrollTop>
