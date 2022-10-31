@@ -2,7 +2,6 @@ import React, { useState, useEffect, Suspense } from 'react';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
 import Head from 'next/head';
-import Script from 'next/script';
 
 import { getInitialTheme, GlobalStyle } from '../special/GlobalTheme';
 import MainNavbar from '../components/MainNavbar';
@@ -35,9 +34,9 @@ function MyApp({ Component, pageProps }) {
 
         <link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin></link>
 
-        <Script strategy="afterInteractive">{`window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt']};`}</Script>
-        <Script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" strategy="afterInteractive"></Script>
-        <Script src="https://kumo.network-n.com/dist/app.js" site="grandislibrary" strategy="afterInteractive"></Script>
+        <script crossOrigin="anonymous">{`window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt']};`}</script>
+        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossOrigin="anonymous"></script>
+        <script async src="https://kumo.network-n.com/dist/app.js" site="grandislibrary" crossOrigin="anonymous"></script>
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
         {/* <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_AD_ID}`} crossOrigin="anonymous"/>
