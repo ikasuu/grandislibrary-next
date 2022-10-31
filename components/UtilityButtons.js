@@ -141,13 +141,25 @@ function ScrollTop(props){
     );
 }
 
+// Styling for each link
+const FabButton = styled(Fab)`
+    position: fixed;
+    z-index: 1000;
+    right: 2.5rem;
+    bottom: 2.5rem;
+
+    @media (max-width: 1199px){
+        bottom: 3.5rem;
+    }
+`;
+
 // Function for quick jump menu, handles logic
 function ScrollFab(){
     return(
         <ScrollTop>
-                <Fab color="primary" size="medium" style={{position: 'fixed', bottom: '3rem', right: '2.5rem', zIndex: '1000'}}>
+                <FabButton color="primary" size="medium">
                     <span className="scroll-top-button"/>
-                </Fab>
+                </FabButton>
         </ScrollTop>
     );
 }
