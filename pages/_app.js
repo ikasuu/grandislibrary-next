@@ -31,11 +31,6 @@ function MyApp({ Component, pageProps }) {
     <div id="container">
       <Head>
         <title>Grandis Library</title>
-
-        <link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin></link>
-
-        <script>{`window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt']};`}</script>
-        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
         <script async src="https://kumo.network-n.com/dist/app.js" site="grandislibrary"></script>
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
