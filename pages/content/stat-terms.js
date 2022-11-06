@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd, StickyAd } from '../../components/Ads';
 
 function StatTerms() {
     return (
@@ -14,6 +14,7 @@ function StatTerms() {
          <meta content={"An explanation of each stat in the Character Stat UI and other special stats such as EXP Rate"} name="description"/>
          </Head>
          <ContentTitle>Stat Terms</ContentTitle>
+         <StickyAd/>
          <h2 id="top">Quick Move</h2>
          <ul>
             <li><Link smooth href="#fame" scroll>Fame</Link></li>

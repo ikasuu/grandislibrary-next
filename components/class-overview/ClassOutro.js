@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import ClassSwipe from '../ClassSwipers';
-import { BannerAdTwo } from '../Ads';
+import { BannerAdThree } from '../Ads';
 
 /*
 This file contains the outro contents (after the skills overview) of a Class Overview
@@ -15,10 +15,11 @@ In this file you will find:
 export function ClassOutro({classGroup, classTitle, moreInfo, credits}) {
     return (
         <div>
+            <BannerAdThree/>
+            <hr/>
             <ClassMoreInfo classTitle={classTitle} moreInfo={moreInfo}/>
             <ClassSuggestions classGroup={classGroup}/>
             <ClassCredit credits={credits}/>
-            <BannerAdTwo/>
         </div>
     );
 }

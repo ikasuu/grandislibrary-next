@@ -6,7 +6,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, TabLink, ArticleHeaderTwo } from '../../components/Page';
 import Video from '../../components/repository/Video';
-import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd, StickyAd } from '../../components/Ads';
 
 function UpdateTimelineOverview() {
     return (
@@ -16,6 +16,7 @@ function UpdateTimelineOverview() {
                 <meta content={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"} name="description"/>
             </Head>
             <ContentTitle>Update Timeline Overview</ContentTitle>
+            <StickyAd/>
             <ul>
                 <li><Link href="#bang">Big Bang</Link></li>
                 <li><Link href="#chaos">Chaos</Link></li>
@@ -1496,7 +1497,7 @@ function Glory() {
                 <li>
                     <img src="/class-icons/link-skills/invincible-belief.png" alt="Skill Invincible Belief"/>
                     <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge"/>
-                    <img src="/class-icons/link-skills/adventurers-curiousity.png" alt="Skill Adventurer's Curiosity"/>
+                    <img src="/class-icons/link-skills/adventurers-curiosity.png" alt="Skill Adventurer's Curiosity"/>
                     <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning"/><strong> Explorer Link Skills added</strong>
                 </li>
             </ul>

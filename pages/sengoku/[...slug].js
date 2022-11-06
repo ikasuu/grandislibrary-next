@@ -34,7 +34,6 @@ function ClassOverview({post, slug}) {
                 hyperSkillBuild={data.content.hyperBuild}
                 nodeInfo={data.content.nodeInfo}
                 slug={slug[0]}/>
-              <hr/>
               <ClassOutro classGroup={data.content.classGroup} classTitle={data.class} moreInfo={data.content.moreInfo} credits={data.content.credits}/>
             </Container>
         </div>

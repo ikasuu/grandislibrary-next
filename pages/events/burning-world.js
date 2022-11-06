@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import { SingleSkill } from '../../components/class-overview/SingleSkill';
-import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd, StickyAd } from '../../components/Ads';
 
 const BurningSkill = {
         "id": 80000545,
@@ -20,9 +20,11 @@ function BurningWorld() {
                 <meta content={"Burning World is a temporary world that has special benefits for all characters in this world"} name="description"/>
             </Head>
             <ContentTitle>Burning World</ContentTitle>
+            <StickyAd/>
             <h2><img src="/images/info/burning-world.png" alt="WorldIcon Burning World"/> What is Burning World?</h2>
             <p>Burning World is a temporary world that has special benefits for all characters in this world. Additionally, you are able to create multiple Mega Burning characters within this world. The main benefit is that at the end of the event, you are able to transfer your characters out of Burning World and into a Regular World (Non-Reboot World)</p>
             <p>Burning World characters can be transferred into any Regular World. Burning World characters cannot be transferred into Reboot worlds. This may be because Burning World functions almost the same as a regular world and does not have any Reboot functionalities</p>
+            <VideoAd/>
             <h3>Notes</h3>
             <hr/>
             <p>Link Skills are unavailable in Burning World. You will have access to Link Skills once you've transferred your characters out of the Burning World</p>
@@ -31,7 +33,7 @@ function BurningWorld() {
             <p>Characters must be at least Lv. 150 to transfer out of Burning World</p>
             <p>Zero characters, when available, can be created however, they cannot be burned</p>
             <hr/>
-            <VideoAd/>
+            <BannerAdOne/>
             <h2>Benefits of Burning World</h2>
             <p>All characters in the Burning World gain the passive skill below while in this world, the passive does not transfer into other worlds</p>
             <SingleSkill skillData={BurningSkill}/>
@@ -112,7 +114,7 @@ function BurningWorld() {
             </ul>
             <p>For more information on Mega Burning characters, check out: <a href="https://www.grandislibrary.com/event/mega-burning" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/mega-burning</a></p>
             <p>Need help choosing a character to burn? Check out: <a href="https://www.grandislibrary.com/event/who-to-tera-burn" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/who-to-tera-burn</a></p>
-            <BannerAdOne/>
+            <BannerAdTwo/>
             <h2>Transferring from Burning World</h2>
             <p><strong>To transfer first, your character must be at least Lv. 150</strong></p>
             <p>Once the Burning World event ends, you can transfer your character to a Regular World (Non-Reboot world). You will not be able to train your characters in the Burning World during this period</p>
@@ -147,7 +149,7 @@ function BurningWorld() {
             <p>For more info, check out: <a rel="noreferrer noopener" href="http://maplestory.nexon.net/news/59147/burning-world-event" target="_blank">http://maplestory.nexon.net/news/59147/burning-world-event</a></p>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: OrangeMushroom and MapleStory Official Website</p>
-            <BannerAdTwo/>
+            <BannerAdThree/>
         </EventPage>
     )
 }

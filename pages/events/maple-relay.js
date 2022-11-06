@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd, StickyAd } from '../../components/Ads';
 
 function MapleRelay() {
     return (
@@ -13,6 +13,7 @@ function MapleRelay() {
                 <meta content={"Maple Relay is an event where you receive rewards for simply staying online. Obtain gifts daily and at each milestone"} name="description"/>
             </Head>
             <ContentTitle>Maple Relay</ContentTitle>
+            <StickyAd/>
             <h2>What is Maple Relay?</h2>
             <p>Maple Relay is an event where you receive rewards for simply staying online. During the event, you will receive a reward daily for staying on 30 mins, 60 mins, 90 mins, and 180 mins. Each time you claim the daily reward, you will add a point to the "Total Claimed" counter. As you reach 12, 32, 56, and 80 reward claims, you will receive a special reward. This means that each day you can obtain a total of 4 reward claims</p>
             <p><img className="repository-image" src="/images/info/maple-relay-ui.png" alt="Maple Relay UI"/></p>

@@ -5,7 +5,8 @@ import { HeaderImageUrl } from '../../special/SiteValues';
 import HeaderImage from '../../components/HeaderImage';
 import { events } from '../../special/SiteContent';
 import * as Page from '../../components/Page';
-import BannerAdOne, { StickyAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, StickyAd } from '../../components/Ads';
+import { Container } from 'react-bootstrap';
 
 /*
     Events page
@@ -22,10 +23,16 @@ function Events() {
             <Page.Title>Events</Page.Title>
             <Page.Subtitle>Training Related</Page.Subtitle>
             <Page.CardContainer content={events.training} type="events"/>
+            <Container>
+                <BannerAdOne/>
+            </Container>
             <Page.Subtitle>Item Related</Page.Subtitle>
             <Page.CardContainer content={events.item} type="events"/>
             <Page.Subtitle>Update Related</Page.Subtitle>
             <Page.CardContainer content={events.update} type="events"/>
+            <Container>
+                <BannerAdTwo/>
+            </Container>
             <StickyAd/>
         </div>
     );

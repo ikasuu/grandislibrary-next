@@ -8,7 +8,7 @@ import { weapons, secondaryWeapons, weaponConsumable } from '../../special/SiteV
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
-import BannerAdOne, { VideoAdClassOverview } from '../Ads';
+import BannerAdOne, { BannerAdTwo, StickyAd, VideoAdClassOverview } from '../Ads';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -68,6 +68,7 @@ export function ClassIntro({data}) {
     return (
         <div>
             <Container>
+                <StickyAd/>
                 <ContentTitle>{data.class}</ContentTitle>
                 <div id="property"/>
                 <Row>
@@ -167,10 +168,6 @@ function PropertyBox({skills, classType}) {
           { skills.map( skill => 
               <NotableSkill key={skill.name} skill={skill}/>
           )}
-          {/* <StyledHeaderFive>Class Type</StyledHeaderFive>
-          <ul>
-              {classType.map(it => <li key={it}>{it}</li>)}
-          </ul> */}
       </div>
   );
 }
@@ -261,13 +258,14 @@ function ClassDetail({content}) {
             <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
             <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
-              <ul>
-                {
-                    content.innerAbility.map((ability, index) => 
-                        <li key={index}>{ability}</li>    
-                    )
-                }
-              </ul>
+            <ul>
+            {
+                content.innerAbility.map((ability, index) => 
+                    <li key={index}>{ability}</li>    
+                )
+            }
+            </ul>
+            <BannerAdTwo/>
       </Container>
     );
 }

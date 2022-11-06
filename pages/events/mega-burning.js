@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne from '../../components/Ads';
+import BannerAdOne, { BannerAdThree, BannerAdTwo, StickyAd } from '../../components/Ads';
 
 function MegaBurning() {
     return (
@@ -13,6 +13,7 @@ function MegaBurning() {
                 <meta content={"An event where created characters after level 10 gain 2 extra levels for every level up until level 150"} name="description"/>
             </Head>
             <ContentTitle>Mega Burning</ContentTitle>
+            <StickyAd/>
             <h2>What is Mega Burning?</h2>
             <p>Mega Burning Project is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 150. </strong>That means you will get 3 levels for every level up! This event is open to <strong>ALL</strong> servers, both Reboot and non-Reboot worlds. Certain characters cannot be burned which includes <strong>Zero and any newly released classes if stated</strong></p>
             <h3>Notes</h3>
@@ -23,6 +24,7 @@ function MegaBurning() {
             <p><img src="/images/items/mega-character-burninator.png" alt="Use Mega Character Burninator"/> Mega Burninator item can be used on any character to apply the Mega Burning effect</p>
             <p>All unopened rewards (Mysterious Cryptic Gift Box, Lv. 30 Equipment Box and Legendary Cryptic Chest) expire after the burning event is over. Opened items will be kept, the boxes themselves expire!</p>
             <hr/>
+            <BannerAdOne/>
             <h2>Rewards:</h2>
             <p>Rewards are given through a quest in the <strong>Star (Events) tab </strong>on the left side of the screen. All rewards are given at level 10 but some items require you to be a certain level to open them</p>
             <p><img src="/images/info/frozen-set.png" alt="Frozen Gear"/></p>
@@ -65,6 +67,7 @@ function MegaBurning() {
                     </ul>
                 </li>
             </ul>
+            <BannerAdTwo/>
             <h3>Level 130:</h3>
             <ul>
                 <li>
@@ -93,7 +96,7 @@ function MegaBurning() {
             <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project</a></p>
-            <BannerAdOne/>
+            <BannerAdThree/>
         </EventPage>
     )
 }

@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd, StickyAd } from '../../components/Ads';
 
 function UpgradeEquipment() {
     return (
@@ -14,6 +14,7 @@ function UpgradeEquipment() {
             <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
           </Head>
           <ContentTitle>Upgrading &amp; Enhancing Equipment</ContentTitle>
+          <StickyAd/>
           <p><img className="repository-image" src="/images/info/equipment-tooltip.png" alt="Equipment Diagram"/></p>
           <p>Bonus Stats appear in <span style={{color: '#339966'}}>green</span> font while stats from upgrading appear in <span style={{color: '#3366ff'}}>blue</span> [Refer to 11]. The color of an item's name indicates how many stats above or below average an item is [Refer to 02]</p>
           <h3 id="top">Quick Jumps</h3>

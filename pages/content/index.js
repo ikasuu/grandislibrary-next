@@ -5,7 +5,8 @@ import { HeaderImageUrl } from '../../special/SiteValues';
 import HeaderImage from '../../components/HeaderImage';
 import { content } from '../../special/SiteContent';
 import * as Page from '../../components/Page';
-import BannerAdOne, { StickyAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, StickyAd } from '../../components/Ads';
+import { Container } from 'react-bootstrap';
 
 /*
     Content page
@@ -20,13 +21,19 @@ function Content() {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.ristonia}/>
             <Page.Title>Content</Page.Title>
+            <StickyAd/>
             <Page.Subtitle>Gameplay Related</Page.Subtitle>
             <Page.CardContainer content={content.gameplay} type="content"/>
+            <Container>
+                <BannerAdOne/>
+            </Container>
             <Page.Subtitle>Class Related</Page.Subtitle>
             <Page.CardContainer content={content.class} type="content"/>
             <Page.Subtitle>Equipment Related</Page.Subtitle>
             <Page.CardContainer content={content.equipment} type="content"/>
-            <StickyAd/>
+            <Container>
+                <BannerAdTwo/>
+            </Container>
         </div>
     );
 }

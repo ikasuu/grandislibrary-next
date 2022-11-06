@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import { BannerAdOne, BannerAdTwo, BannerAdThree, VideoAd } from '../../components/Ads';
+import { BannerAdOne, BannerAdTwo, BannerAdThree, VideoAd, StickyAd } from '../../components/Ads';
 
 function BossMatchmaking() {
     return (
@@ -14,6 +14,7 @@ function BossMatchmaking() {
             <meta content={"An explanation on how to unlock access to each of the bosses in the Boss Matchmaking System"} name="description"/>
         </Head>
         <ContentTitle>Boss Pre-Quests</ContentTitle>
+        <StickyAd/>
         <p><img className="repository-image" src="/images/info/boss-queue.png" alt="Boss Queue"/></p>
         <p>As you level up, you will reach the required level to more and more bosses. To instantly move to bosses for free after completing their pre-quests, you can access the "Boss Contents" UI. You can find it by assigning the "Boss Party" Key Slot to your Keyboard Shortcuts</p>
         <p><strong>Note</strong>: Bosses with multiple difficulties with only one "Can clear" tag listed below means that clears are shared between all difficulties. If you see multiple "Can clear"s for a boss that means the clears are independent for each difficulty</p>
@@ -234,6 +235,7 @@ function BossMatchmaking() {
               <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/105200000">Root Abyss: Colossal Root</a> in Sleepywood, accessible from Dimensonal Mirror</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+          <BannerAdTwo/>
           <ArticleHeaderTwo id="vonleon"><img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> Von Leon</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Hard Lv. 125+]</strong></p>
           <p>You must complete the Lion King's Castle Theme Dungeon from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/221/Desolate_Castle">Desolate Castle</a>” at Lv. 115. The quest “<a href="https://maplestory.fandom.com/wiki/Quests/221/The_Adventure_of_Jenn_the_Locksmith">The Adventure of Jenn the Locksmith</a>” is also required to unlock Von Leon - it is accessible from the Lightbulb icon</p>
@@ -350,6 +352,7 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/271040200" target="_blank" rel="noreferrer noopener">Knight Stronghold: Cygnus Rear Garden</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+          <BannerAdThree/>
           <ArticleHeaderTwo id="lotus"><img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> Lotus</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 190+]</strong></p>
           <p>You must complete all Acts of Black Heaven Blockbuster from the Lightbulb icon called “<a href="https://maplestory.wiki/GMS/210.1.1/quest/33127" target="_blank" rel="noreferrer noopener">[Black Heaven] For Maple World</a>" at Lv. 120. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing the Blockbuster will unlock access for all of your other characters in the same world</p>
@@ -387,7 +390,6 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/350060300" target="_blank" rel="noreferrer noopener">Black Heaven Inside: Core Entrance</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <BannerAdTwo/>
           <ArticleHeaderTwo id="damien"><img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> Damien</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 190+]</strong></p>
           <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb icon called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest. Completing Act 4 will unlock access for all of your other characters in the same world</p>
@@ -749,7 +751,6 @@ function BossMatchmaking() {
               <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/807300100" target="_blank" rel="noreferrer noopener">El Nath: Secret Altar Path</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <BannerAdThree/>
           <ArticleHeaderTwo id="princessno"><img src="/images/map-icons/princess-no-boss.png" alt="MapIcon JP Nohime"/> Princess No</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 140+]</strong></p>
           <p>You must complete the Hieizan Temple storyline to gain access to Princess No. To start, accept the quest from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/56/(Hieizan_Temple)_Regards,_Takeda_Shingen">[Hieizan Temple] Regards, Takeda Shingen</a>” at Lv. 140</p>

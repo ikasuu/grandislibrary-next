@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne from '../../components/Ads';
+import BannerAdOne, { StickyAd } from '../../components/Ads';
 
 const TableContainer = styled.div`
     overflow-x: auto;
@@ -33,6 +33,7 @@ function SharedCashShopInventory() {
                 <meta content={"A list of all classes that share Cash Shop inventories"} name="description"/>
             </Head>
             <ContentTitle>Shared Cash Shop Inventories</ContentTitle>
+            <StickyAd/>
             <img src="/images/info/cash-shop-inventory.png" alt="Cash Shop Inventory"/>
             <StyledP>Below is a list of classes that share Cash Shop inventories. Each different color group shares Cash Shop inventories</StyledP>
             <TableContainer>

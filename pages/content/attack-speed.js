@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdThree, BannerAdTwo, VideoAd, StickyAd } from '../../components/Ads';
 
 function AttackSpeed() {
     return (
@@ -13,6 +13,7 @@ function AttackSpeed() {
                 <meta content={"An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"} name="description"/>
             </Head>
             <ContentTitle>Attack Speed</ContentTitle>
+            <StickyAd/>
             <p>Modified from: <a href="http://www.basilmarket.com/General-Attack-Speed-101-Wiki-303" target="_blank" rel="noreferrer noopener">http://www.basilmarket.com/General-Attack-Speed-101-Wiki-303</a></p>
             <h2>Attack Speed of your Weapon</h2>
             <p>Each Weapon in the game has an Attack Speed value in their description as follows:</p>
@@ -130,6 +131,7 @@ function AttackSpeed() {
             <p>A Dark Knight wielding a <img src="/images/equipment/fafnir-brionak.png" alt="Eqp Fafnir Brionak"/> Fafnir Brionak, which is Normal (6). The Dark Knight uses their <img src="/class-icons/explorers/dark-knight/weapon-booster.png" alt="Skill Weapon Booster (Spearman)"/> Weapon Booster skill that gives +2 AS, plus they have <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion that gives +1 AS (for a total of +3 AS). Thus, their final attack speed is: Normal (6) - (+3 AS) = Faster (3)</p>
             <p>A Cannoneer with a <img src="/images/equipment/fafnir-lost-cannon.png" alt="Eqp Fafnir Lost Cannon"/> Fafnir Lost Cannon, which is Slow (8). The Cannoneer gets +2 AS from their <img src="/class-icons/explorers/cannoneer/cannon-booster.png" alt="Skill Cannon Booster"/> Weapon Booster skill, +1 AS from the <img src="/class-icons/explorers/cannoneer/reinforced-cannon.png" alt="Skill Reinforced Cannon"/> Reinforced Cannon skill, +1 AS from the <img src="/class-icons/explorers/cannoneer/cannon-overload.png" alt="Skill Cannon Overload"/> Cannon Overload skill, +1 AS from the <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion (for a total of +5 AS). Thus, their final attack speed is: Slow (8) - (+5 AS) = Faster (3)</p>
             <p>However, there TWO speed caps in place to prevent players from going crazy over attack speed</p>
+            <BannerAdTwo/>
             <h2>Speed Cap 1 - The Soft Speed Cap</h2>
             <p>The first speed cap is the Soft Speed Cap, which is Fastest (2). Most attack speed boosting sources and skills cannot bypass the soft speed cap, including, but not limited to the following:</p>
             <ul>
@@ -157,7 +159,7 @@ function AttackSpeed() {
             <h3>Example:</h3>
             <p>An Aran with the <img src="/images/equipment/eviscerator.png" alt="Eqp Eviscerator"/> Eviscerator polearm, which is Slower (9). The Aran gets +2 AS from their <img src="/class-icons/heroes/aran/polearm-booster.png" alt="Skill Polearm Booster"/> Weapon Booster skill, +1 AS from <img src="/class-icons/heroes/aran/polearm-mastery.png" alt="Skill Polearm Mastery"/> Polearm Mastery skill, +1 AS from <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion, +1 from Inner Ability, and +1 from <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion (for a total of +6 AS). Thus, their attack speed would be: Slower (9) - (+6 AS) = Fastest (3)</p>
             <p>Later, they find a Rune of Swiftness and uses it, granting them another +3 attack speed that can ignore the soft speed cap (for a total of +9 attack speed). Their final Attack Speed is Fastest (0)</p>
-            <BannerAdTwo/>
+            <BannerAdThree/>
         </ContentPage>
     );
 }

@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd, StickyAd, BannerAdThree } from '../../components/Ads';
 
 function WhoToTeraBurn() {
     return (
@@ -13,11 +13,13 @@ function WhoToTeraBurn() {
                 <meta content={"A guide to help you choose a character to Tera Burn based on good Link Skills and Legion bonuses"} name="description"/>
             </Head>
             <ContentTitle>Who To Tera Burn</ContentTitle>
+            <StickyAd/>
             <p>Modified from shrimpstation's: <a rel="noreferrer noopener" href="https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/" target="_blank">https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/</a></p>
             <h2>What makes a character good to burn?</h2>
             <p>Generally, burns are best for classes considered annoying and difficult to train or if you are seeking to create a new main character. Since Tera Burning goes to up Lv. 200 as opposed to Lv. 150 for Mega Burning, it’s a good time to get a character to Lv. 210 for their Lv. 3 Link Skill. There are also classes with good Legion System bonuses at Lv. 200 that are also useful if you already have your main Link Skills</p>
             <p>If you are using Tera Burning to create a new main character, any class is fine to choose from. Usually, for Tera Burn events, there are also rewards past Lv. 200 that help set you up for 5th Job as you reach certain levels</p>
             <p><strong>[Note]</strong>: You cannot burn the newest class release or Zero</p>
+            <VideoAd/>
             <h3>Notably difficult or annoying classes to level:</h3>
             <ul>
                 <li><img src="/class-icons/resistance/blaster/revolving-cannon-mastery.png" alt="Class Blaster"/> Blaster</li>
@@ -29,7 +31,7 @@ function WhoToTeraBurn() {
                 <li><img src="/class-icons/heroes/mercedes/leap-tornado.png" alt="Skill Leap Tornado"/> Mercedes</li>
             </ul>
             <p><strong>[Note]</strong>:Explorer classes can job change using a <img src="/images/items/job-advancement-coin.png" alt="Etc Job Advancement Coin"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4310086">[Job Advancement Coin]</a> to other Explorer classes within their job branch thus, you can level up a class with decent mobbing capabilities then job change to the desired class</p>
-            <VideoAd/>
+            <BannerAdOne/>
             <h3>Classes with Lv. 3 Link Skills / Good Legion Bonuses:</h3>
             <ul>
                 <li>
@@ -132,7 +134,7 @@ function WhoToTeraBurn() {
                 </li>
                 <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> Phantom - +20% Crit Rate</li>
             </ul>
-            <BannerAdOne/>
+            <BannerAdTwo/>
             <h3>Good Legion Bonuses + Lv. 2 Link Skill that may be hard to level:</h3>
             <ul>
                 <li>
@@ -193,7 +195,7 @@ function WhoToTeraBurn() {
             <hr/>
             <h3>Credits:</h3>
             <p>shrimpstation</p>
-            <BannerAdTwo/>
+            <BannerAdThree/>
         </EventPage>
     )
 }

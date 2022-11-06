@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle, ArticleHeaderTwo } from '../../components/Page';
-import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd, StickyAd } from '../../components/Ads';
 import TrainingMap from '../../components/content/TrainingMap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Mousewheel, Scrollbar } from 'swiper';
@@ -62,6 +62,7 @@ function ProgressionGuide() {
                 <meta content={"A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"} name="description"/>
             </Head>
             <ContentTitle>Progression Guide</ContentTitle>
+            <StickyAd/>
             <p>For info on all the content in MapleStory, check out: <a href="https://www.grandislibrary.com/contents/level-content-guide" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/level-content-guide</a>
             </p>
             <ArticleHeaderTwo id="top">Quick Jumps:</ArticleHeaderTwo>
@@ -252,6 +253,7 @@ function ProgressionGuide() {
                 <li><strong>[Tip]</strong> If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Power, allocate some points temporarily until you get enough Arcane Power</li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <BannerAdTwo/>
             <ArticleHeaderTwo id="matrix">5th Job V Matrix + Nodestones:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/v-matrix-ui.png" alt="V Matrix"/>
@@ -349,13 +351,13 @@ function ProgressionGuide() {
                 <li>Fairy Bros Daily Gift Reward</li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <BannerAdTwo/>
             <ArticleHeaderTwo id="auction">Auction House in Regular Servers:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/auction-house.png" alt="Auction House"/>
             <p>Auction House in Regular Servers allows you to buy and sell items to other Maplers. You can buy anything from equipment, potions, to cosmetic items like chairs and cash clothing. As well, you can also buy <a rel="noreferrer noopener" href="https://maplestory.nexon.net/micro-site/53117" target="_blank">Wonderberry</a> pets here that pick up items for you</p>
             <p><img className="repository-image" src="/images/info/auction-house-button.png" alt="Auction House Button"/></p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <BannerAdThree/>
             <ArticleHeaderTwo id="content">Important Content:</ArticleHeaderTwo>
             <hr/>
             <ul>
@@ -1596,7 +1598,6 @@ function ProgressionGuide() {
             </ul>
             <hr/>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <BannerAdThree/>
             <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests:</ArticleHeaderTwo>
             <hr/>
             <p>A majority of Daily and Weekly Quests are mostly done at Lv. 200+. Characters pre-200 do not need to worry about these quests as much</p>

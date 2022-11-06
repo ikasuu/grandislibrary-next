@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne, { BannerAdTwo, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, VideoAd, StickyAd, BannerAdThree } from '../../components/Ads';
 
 function MaplehoodWatch() {
     return (
@@ -13,12 +13,13 @@ function MaplehoodWatch() {
                 <meta content={"An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"} name="description"/>
             </Head>
             <ContentTitle>Maplehood Watch</ContentTitle>
+            <StickyAd/>
+            <img className="repository-image" src="/images/info/maplehood-preview.png" alt="Maplehood Watch Event"/>
             <p>Maplehood Watch is an event where players can earn <span style={{color: '#ff0000'}}><strong>free cash items</strong></span>. The event lasts for <strong>two weeks</strong> and each week consists of a <strong>Beauty Day</strong>, <strong>Enhancement Day</strong> and <strong>Gachapon Day.</strong> Thus, you can earn the same rewards twice per event!</p>
             <p>To begin, accept the quest <strong>'[Maplehood Watch] Not in My Neighborhood'</strong> from the <strong>Star (Events) tab</strong> on the left side of the screen. This event is available to <strong>all characters Lv. 33 or higher</strong>, and to <strong>Zero characters who've completed Story Quest Chapter 2</strong></p>
             <p>An example of a schedule from August 2019 Maplehood Watch:</p>
             <p><img src="/images/info/maplehood-watch-schedule.png" alt="Maplehood Watch Schedule 2019"/></p>
             <p><strong>[Note]</strong>: Daily reset occurs at 12:00am GMT so you need to complete the quests for that day before then!! You will not be able to complete the quests for that day anymore once reset happens!</p>
-            <img className="repository-image" src="/images/info/maplehood-preview.png" alt="Maplehood Watch Event"/>
             <VideoAd/>
             <h2>Beauty Day</h2>
             <p><strong>[Note]</strong>: Hairstyles and Facestyles are completely random! Save your current hairstyle/face in your salon and any hairs you get as well!</p>
@@ -41,6 +42,7 @@ function MaplehoodWatch() {
             <p>Male: Arrogant Face, Clear Face, Dewy-Eyed Face, Friendly Friend Face, Overjoyed Smile, and Piercing Gaze</p>
             <p><img className="repository-image" src="/images/info/maplehood-watch-female-faces.png" alt="Maplehood Watch Female Facestyles"/></p>
             <p>Female: Bling Bling Face, Eyelash Perm Face, Piercing Gaze, Spica Face, Tender Love, and Wounded Look</p>
+            <BannerAdOne/>
             <h2>Enhancement Day</h2>
             <ul>
                 <li>
@@ -52,7 +54,7 @@ function MaplehoodWatch() {
             <h3>Upon completion:</h3>
             <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on non-Reboot worlds)</p>
             <p><img src="/images/info/reboot.png" alt="WorldIcon Reboot"/> Receive one <img src="/images/items/red-cube.png" alt="Cash Red Cube"/> [Red Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Reboot world only)</p>
-            <BannerAdOne/>
+            
             <h2>Gachapon Day</h2>
             <ul>
                 <li><strong>This can be completed 3 times per character per day</strong>. Log in and accept the quest <strong>‘[Maplehood Watch] Gachapon Giveaway’</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
@@ -70,6 +72,7 @@ function MaplehoodWatch() {
             <p>Sparkling Maple Chair, Underneath the Maple Tree Chair..., Imperial Cygnus Feast Chair, Fat Lucky Cat, Monkeying Around Chair, and School Bus Chair</p>
             <p><img className="repository-image" src="/images/info/maplehood-watch-gacha-android.png" alt="Maplehood Gacha Androids"/></p>
             <p>Deluxe and Fantastical Androids (male and female available for both)</p>
+            <BannerAdTwo/>
             <h3>Maplehood Watch Avatar Boxes</h3>
             <p><strong>[Note]</strong>: These cash items are untradeable but can be transferred between characters through the cash shop. Characters must share the same inventory! (Ex. Explorers, Resistance, Flora)</p>
             <p>The Maplehood Watch Avatar Box (located in your Cash Shop) contains random permanent cash covers. Double-click a box to receive one equip. Some example of equipment included from August 2019 Maplehood</p>
@@ -81,7 +84,7 @@ function MaplehoodWatch() {
             <hr/>
             <h3>Credits:</h3>
             <p><strong>Information from</strong>: MapleStory Official Website</p>
-            <BannerAdTwo/>
+            <BannerAdThree/>
         </EventPage>
     )
 }

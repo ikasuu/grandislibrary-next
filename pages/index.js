@@ -6,7 +6,7 @@ import data from '../special/home-content.json';
 import FeaturedSwiper, { ContentSwiper } from '../components/ContentSwipers';
 import { TopClassSwipe } from '../components/ClassSwipers';
 import GridContainer from '../components/homepage/GridContainer';
-import { BannerAdOne, BannerAdTwo, StickyAd } from '../components/Ads';
+import { BannerAdOne, BannerAdThree, BannerAdTwo, StickyAd } from '../components/Ads';
 import Head from 'next/head';
 
 /*
@@ -24,15 +24,16 @@ function Home(){
       <Container>
         <FeaturedSwiper content={data.featured}/>
         <BannerAdOne/>
-        <h3>Recent News in Global MapleStory</h3>
+        <h3>Patch Notes in Global MapleStory</h3>
         <ContentSwiper content={data.recent} launch={true}/>
         <h3>Upcoming Updates</h3>
         <ContentSwiper content={data.upcoming} launch={true}/>
+        <BannerAdTwo/>
         <h3>Popular Content</h3>
         <ContentSwiper content={data.popularContent} launch={false}/>
         <h3>Last Month's Most Viewed Classes</h3>
         <TopClassSwipe classes={data.popularClasses}/>
-        <BannerAdTwo/>
+        <BannerAdThree/>
       </Container>
       <StickyAd/>
     </div>

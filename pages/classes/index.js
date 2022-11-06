@@ -5,7 +5,8 @@ import { HeaderImageUrl, classes } from '../../special/SiteValues';
 import HeaderImage from '../../components/HeaderImage';
 import { ClassGroupContainer } from '../../components/ClassSwipers';
 import * as Page from '../../components/Page';
-import BannerAdOne, { StickyAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, BannerAdThree, StickyAd } from '../../components/Ads';
+import { Container } from 'react-bootstrap';
 
 /*
     Classes page for navigating into each Class Overview
@@ -23,6 +24,9 @@ function Classes() {
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
                 <ClassGroupContainer classes={classes.explorers} classGroup="explorers"/>
+                <Container>
+                    <BannerAdOne/>
+                </Container>
                 <Page.Subtitle>Cygnus Knights</Page.Subtitle>
                 <ClassGroupContainer classes={classes.cygnusKnights} classGroup="cygnus-knights"/>
                 <Page.Subtitle>Heroes</Page.Subtitle>
@@ -31,6 +35,9 @@ function Classes() {
                 <ClassGroupContainer classes={classes.resistance} classGroup="resistance"/>
                 <Page.Subtitle>Nova</Page.Subtitle>
                 <ClassGroupContainer classes={classes.nova} classGroup="nova"/>
+                <Container>
+                    <BannerAdTwo/>
+                </Container>
                 <Page.Subtitle>Sengoku</Page.Subtitle>
                 <ClassGroupContainer classes={classes.sengoku} classGroup="sengoku"/>
                 <Page.Subtitle>Flora</Page.Subtitle>
@@ -40,6 +47,9 @@ function Classes() {
                 <Page.Subtitle>Other</Page.Subtitle>
                 <Page.Caption>Classes here only share Cash Shop Inventories with their own class - they do not share with each other</Page.Caption>
                 <ClassGroupContainer classes={classes.other} classGroup="other"/>
+                <Container>
+                    <BannerAdThree/>
+                </Container>
             </div>
             <StickyAd/>
         </div>

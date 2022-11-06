@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { EventPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne, { VideoAd } from '../../components/Ads';
+import BannerAdOne, { VideoAd, StickyAd, BannerAdTwo, BannerAdThree } from '../../components/Ads';
 
 function TeraBurning() {
     return (
@@ -13,6 +13,7 @@ function TeraBurning() {
                 <meta content={"An event where NEWLY created characters after level 10 gain 2 extra levels for every level up until level 200"} name="description"/>
             </Head>
             <ContentTitle>Tera Burning</ContentTitle>
+            <StickyAd/>
             <h2>What is Tera Burning</h2>
             <p>Tera Burning is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 200.</strong> That means you will get 3 levels for every level up! This event is open to servers, both Reboot and non-Reboot worlds. Certain characters cannot be burned which includes Zero and any newly released classes if stated</p>
             <VideoAd/>
@@ -29,6 +30,7 @@ function TeraBurning() {
             <p><a href="https://www.reddit.com/r/Maplestory/comments/cf3re2/gms_dpm_chart_v205/" target="_blank" rel="noopener noreferrer" data-preserve-html-node="true">https://www.reddit.com/r/Maplestory/comments/ftxlhe/dpm_chart_gms_v212_and_kms_12332//</a></p>
             <p><strong>Note: DPM Charts are really bad indicators of if a class is good or not! These tests are performed under PERFECT CONDITIONS so does not translate directly to how much damage a class really does. As well, DPM ≠ Fun nor best class!! There are classes with better mobbing or better mobility or better bossing BUT no class has everything</strong></p>
             <hr/>
+            <BannerAdOne/>
             <h2>Rewards:</h2>
             <p>Rewards are given through a quest in the <strong>Star (Events) tab </strong>on the left side of the screen. All rewards are given at level 10 but some items require you to be a certain level to open them</p>
             <p><img src="/images/info/frozen-set.png" alt="Frozen Gear"/></p>
@@ -87,6 +89,7 @@ function TeraBurning() {
                     </ul>
                 </li>
             </ul>
+            <BannerAdTwo/>
             <h3>Level 200 + 5th Job:</h3>
             <p><strong>[Note]</strong>: The title can only be used after completing 5th Job Advancement and the "A Greater Power, Arcane Power" quest <strong>Note: </strong>The title is permanent but the stats expire <span style={{color: '#ff0000'}}>(30 days)</span>, you receive this instead of the Mega Burning "Keep on Burning" title</p>
             <ul>
@@ -118,7 +121,7 @@ function TeraBurning() {
             <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/54153/tera-burning-and-extreme-breakthrough-events" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/54153/tera-burning-and-extreme-breakthrough-events</a></p>
-            <BannerAdOne/>
+            <BannerAdThree/>
         </EventPage>
     )
 }

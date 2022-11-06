@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
-import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd } from '../../components/Ads';
+import BannerAdOne, { BannerAdTwo, BannerAdThree, VideoAd, StickyAd } from '../../components/Ads';
 
 function KeyboardShortcuts() {
     return (
@@ -14,6 +14,7 @@ function KeyboardShortcuts() {
                 <meta content={"An explanation on the all the different UIs accessible from the Keyboard Shortcuts"} name="description"/>
             </Head>
             <ContentTitle>Keyboard Shortcuts</ContentTitle>
+            <StickyAd/>
             <h3 id="top">Quick Jumps</h3>
             <ul>
                 <li><Link smooth href="#quickslots" scroll>Change Quickslots</Link></li>
@@ -67,11 +68,11 @@ function KeyboardShortcuts() {
             <Notifier/>
             <Medals/>
             <MapleChat/>
+            <BannerAdThree/>
             <Events/>
             <Professions/>
             <Minimap/>
             <CharInfo/>
-            <BannerAdThree/>
             <SoulWeapon/>
             <BattleAnalysis/>
             <EnhanceEquipment/>
