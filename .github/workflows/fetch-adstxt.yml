@@ -11,5 +11,10 @@ jobs:
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://kumo.network-n.com/adstxt/?domain=grandislibrary.com
-          save-location: public/ads.txt
+          save-location: public
+          save-name: ads
           format: txt
+      - name: GitHub Commit & Push
+        uses: actions-js/push@v1.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
