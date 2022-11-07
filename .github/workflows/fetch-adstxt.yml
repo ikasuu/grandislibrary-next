@@ -1,6 +1,4 @@
 name: Fetch Ads-txt
-permissions:
-  contents: write
 on:
   push:
   schedule:
