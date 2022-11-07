@@ -14,7 +14,7 @@ jobs:
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://kumo.network-n.com/adstxt/?domain=grandislibrary.com
-          save-location: $github_workspace/public
+          save-location: public
           save-name: ads
           format: txt
       - name: Auto Commit
