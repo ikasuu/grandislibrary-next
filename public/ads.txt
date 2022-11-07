@@ -1,4 +1,4 @@
-#  Updated: 2022-11-04 16:59:33
+#  Updated: 2022-10-19 16:55:46
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -27,7 +27,6 @@
 
 
 33across.com, 0010b00002CpYhEAAV, RESELLER, bbea06d9c4d2853c
-33across.com, 0010b00002EdWnZAAV, RESELLER, bbea06d9c4d2853c
 33across.com, 0010b00002Xbn7QAAR, RESELLER, bbea06d9c4d2853c
 33across.com, 0013300001kQj2HAAS, RESELLER, bbea06d9c4d2853c
 33across.com, 0014000001PCseWAAT, RESELLER, bbea06d9c4d2853c
@@ -65,7 +64,6 @@ appnexus.com, 1001, RESELLER, f5ab79cb980f11d1
 appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
 appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
 appnexus.com, 11440, DIRECT, f5ab79cb980f11d1
-appnexus.com, 11664, RESELLER
 appnexus.com, 11924, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12290, RESELLER, f5ab79cb980f11d1
 appnexus.com, 13099, RESELLER
@@ -115,7 +113,6 @@ contextweb.com, 560288, RESELLER, 89ff185a4c4e857c
 contextweb.com, 560606, RESELLER, 89ff185a4c4e857c
 contextweb.com, 561913, RESELLER, 89ff185a4c4e857c
 contextweb.com, 561998, RESELLER, 89ff185a4c4e857c
-contextweb.com, 562258, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562350, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562377, DIRECT, 89ff185a4c4e857c
 contextweb.com, 562615, RESELLER, 89ff185a4c4e857c
@@ -144,7 +141,6 @@ emxdgt.com, 1798, RESELLER, 1e1d41537f7cad7f
 emxdgt.com, 1803, DIRECT, 1e1d41537f7cad7f
 emxdgt.com, 1918, RESELLER, 1e1d41537f7cad7f
 emxdgt.com, 2009, RESELLER, 1e1d41537f7cad7f
-emxdgt.com, 273, RESELLER, 1e1d41537f7cad7f
 engagebdr.com, 10181, RESELLER
 engagebdr.com, 10417, RESELLER
 engagebdr.com, 16, RESELLER
@@ -182,10 +178,8 @@ improvedigital.com, 2016, RESELLER
 improvedigital.com, 2021, DIRECT
 improvedigital.com, 2050, RESELLER
 improvedigital.com, 335, RESELLER
-indexexchange.com, 183875, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 183920, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 184270, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 184349, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 184775, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 186046, RESELLER
 indexexchange.com, 190906, RESELLER, 50b1c356f2c5c8fc
@@ -201,8 +195,6 @@ indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 194520, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 194558, RESELLER
 indexexchange.com, 194590, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 195924, RESELLER
-indexexchange.com, 196845, RESELLER, 50b1c356f2c5c8fc
 infolinks.com, 3355573, DIRECT
 inmobi.com, 17865bac25f44f51b8fd08b12e92072c, DIRECT, 83e75a7ae333ca9d
 inmobi.com, 55049d2e109d4ac1820ca1432dda4e13, RESELLER, 83e75a7ae333ca9d
@@ -269,21 +261,16 @@ openx.com, 540679900, RESELLER, 6a698e2ec38604c6
 openx.com, 540866936, DIRECT, 6a698e2ec38604c6
 openx.com, 540886248, DIRECT, 6a698e2ec38604c6
 openx.com, 543174347, RESELLER, 6a698e2ec38604c6
-openx.com, 544096208, RESELLER, 6a698e2ec38604c6
 openx.com, 556543003, DIRECT, 6a698e2ec38604c6
 pokkt.com, 5886, RESELLER, c45702d9311e25fd
 primis.tech, 28588, DIRECT, b6b21d256ef43532
 pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
 pubmatic.com, 154037, RESELLER, 5d62403b186f2ace
-pubmatic.com, 155967, RESELLER, 5d62403b186f2ace
 pubmatic.com, 155975, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156077, RESELLER, 5d62403b186f2ace
-pubmatic.com, 156078, RESELLER, 5d62403b186f2ace
-pubmatic.com, 156084, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156177, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156313, RESELLER, 5d62403b186f2ace
-pubmatic.com, 156325, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156344, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156389, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156423, RESELLER, 5d62403b186f2ace
@@ -424,7 +411,6 @@ sovrn.com, 251666, DIRECT, fafdf38b16bf6b2b
 sovrn.com, 260380, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 268479, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 328150, DIRECT, fafdf38b16bf6b2b
-sovrn.com, 378732, RESELLER, fafdf38b16bf6b2b
 spotx.tv, 212457, RESELLER
 spotx.tv, 268145, DIRECT, 7842df1d2fe2db34
 spotx.tv, 268145, RESELLER, 7842df1d2fe2db34
@@ -440,7 +426,6 @@ spotxchange.com, 94794, RESELLER, 7842df1d2fe2db34
 startapp.com, smt, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 synacor.com, 82321, DIRECT, e108f11b2cdf7d5b
-synacor.com, 82321, RESELLER, e108f11b2cdf7d5b
 synacor.com, 82401, RESELLER, e108f11b2cdf7d5b
 telaria.com, mb9eo-oqsbf, RESELLER, 1a4e959a1b50034a
 telaria.com, r3222-wec7r, RESELLER, 1a4e959a1b50034a
@@ -482,7 +467,6 @@ yahoo.com, 55029, RESELLER, e1a5b5b6e3255540
 yahoo.com, 55317, RESELLER, e1a5b5b6e3255540
 yahoo.com, 55771, RESELLER, e1a5b5b6e3255540
 yahoo.com, 56371, DIRECT, e1a5b5b6e3255540
-yahoo.com, 56374, DIRECT, e1a5b5b6e3255540
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
 yahoo.com, 58723, RESELLER
 yahoo.com, 58905, RESELLER, e1a5b5b6e3255540
