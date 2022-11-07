@@ -11,12 +11,13 @@ jobs:
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://kumo.network-n.com/adstxt/?domain=grandislibrary.com
+          save-location: public
           save-name: ads
           format: txt
-      - name: Build and Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: master # Pushes the updates to the master branch.
-          FOLDER: fetch-api-data-action # The location of the data.json file saved by the Fetch API Data action.
-          TARGET_FOLDER: public # Saves the data into the 'data' directory on the master branch.
+      - uses: actions/checkout@v2
+      - name: Commit adstxt
+        run: |
+          git config --global user.name 'ikasuu'
+          git config --global user.email '[bots]@users.noreply.github.com'
+          git commit -am "Updating ads.txt"
+          git push
