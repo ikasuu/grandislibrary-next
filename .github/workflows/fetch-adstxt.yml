@@ -17,4 +17,4 @@ jobs:
       - name: Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: master
+          commit_message: Updating ads.txt
