@@ -14,11 +14,10 @@ jobs:
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://kumo.network-n.com/adstxt/?domain=grandislibrary.com
-          save-location: public
+          save-location: $github_workspace/public
           save-name: ads
           format: txt
       - name: Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Updating ads.txt
-          file_pattern: 'public/ads.txt'
