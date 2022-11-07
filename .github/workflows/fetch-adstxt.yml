@@ -1,6 +1,5 @@
 name: Fetch Ads-txt
 on:
-  push:
   schedule:
     - cron: '0 0 1-31/2 * *'
 jobs:
