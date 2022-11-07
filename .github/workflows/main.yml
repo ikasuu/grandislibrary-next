@@ -1,0 +1,14 @@
+name: Fetch Ads-txt
+on:
+  schedule:
+    - cron: '0 0 1-31/2 * *'
+jobs:
+  fetch-adstxt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch API Data 📦
+        uses: JamesIves/fetch-api-data-action@v2
+        with:
+          endpoint: https://kumo.network-n.com/adstxt/?domain=grandislibrary.com
+          save-location: public/ads.txt
+          format: txt
