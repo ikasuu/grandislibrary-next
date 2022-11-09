@@ -1,0 +1,20 @@
+name: Fetch Ads-txt
+on:
+  schedule:
+    - cron: '0 0 1-31/2 * *'
+jobs:
+  fetch-adstxt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch API Data 📦
+        uses: JamesIves/fetch-api-data-action@v2
+        with:
+          endpoint: https://kumo.network-n.com/adstxt/?domain=grandislibrary.com
+          save-location: public
+          save-name: ads
+          format: txt
+      - name: Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updating ads.txt
