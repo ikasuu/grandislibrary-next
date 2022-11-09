@@ -37,6 +37,7 @@ function MyApp({ Component, pageProps }) {
         <script>{`window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt']};`}</script>
         <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
         <script async src="https://kumo.network-n.com/dist/app.js" site="grandislibrary"></script>
+        <script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}/>
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>
