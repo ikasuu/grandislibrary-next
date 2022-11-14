@@ -18,7 +18,7 @@ export function ClassOutro({classGroup, classTitle, moreInfo, credits}) {
             <BannerAdThree/>
             <hr/>
             <ClassMoreInfo classTitle={classTitle} moreInfo={moreInfo}/>
-            <ClassSuggestions classGroup={classGroup}/>
+            <ClassSuggestions classTitle={classTitle} classGroup={classGroup}/>
             <ClassCredit credits={credits}/>
         </div>
     );
@@ -47,11 +47,10 @@ function ClassMoreInfo({classTitle, moreInfo}) {
     Created by: Ikasuu, Fall 2020
 */
 
-function ClassSuggestions({classGroup}) {
+function ClassSuggestions({classTitle, classGroup}) {
     return (
         <div>
-            {/* Removed until fixed */}
-            {/* <ClassSwipe classGroup={classGroup}/> */}
+            <ClassSwipe classTitle={classTitle} classGroup={classGroup}/>
         </div>
     );
 }
