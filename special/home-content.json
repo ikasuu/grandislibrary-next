@@ -1,11 +1,6 @@
 {
     "featured": [
         {
-            "image": "/home-thumbnail/lara-overview.jpg",
-            "alt": "Lara Class Overview",
-            "link": "/anima/lara"
-        },
-        {
             "image": "/home-thumbnail/discord-invite.jpg",
             "alt": "Discord Invite",
             "link": "https://discord.gg/d4et8vt9kP"
@@ -17,6 +12,13 @@
         }
     ],
     "recent": [
+        {
+            "title": "Ignition: Cygnus Knights Redux Patch Notes",
+            "image": "/home-thumbnail/cygnus-knights-redux.jpg",
+            "alt": "Ignition: Cygnus Knights Redux Patch Notes",
+            "link": "https://maplestory.nexon.net/news/77917/v-237-ignition-cygnus-knights-redux-patch-notes",
+            "subtitle": "November 15, 2022"
+        },
         {
             "title": "Midnight Carnival Patch Notes",
             "image": "/home-thumbnail/midnight-carnival.jpg",
@@ -47,13 +49,6 @@
         }
     ],
     "upcoming": [
-        {
-            "title": "Ignition Update: Cygnus Knights Remaster",
-            "image": "/home-thumbnail/ignition.jpg",
-            "alt": "Ignition Update: Cygnus Knights Remaster",
-            "link": "https://orangemushroom.net/2022/06/30/kms-ver-1-2-366-maplestory-ignition-cygnus-knights-remaster/",
-            "subtitle": "June 30, 2022"
-        },
         {
             "title": "7000 Days of MapleStory!",
             "image": "/home-thumbnail/7000-days.jpg",
@@ -130,24 +125,14 @@
     ],
     "popularClasses": [
         {
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
+        },
+        {
             "alt": "Arch Mage I/L",
             "class": "arch-mage-ice-lightning",
             "path": "explorers/arch-mage-ice-lightning"
-        },
-        {
-            "alt": "Arch Mage F/P",
-            "class": "arch-mage-fire-poison",
-            "path": "explorers/arch-mage-fire-poison"
-        },
-        {
-            "alt": "Shadower",
-            "class": "shadower",
-            "path": "explorers/shadower"
-        },
-        {
-            "alt": "Hero",
-            "class": "hero",
-            "path": "explorers/hero"
         },
         {
             "alt": "Night Lord",
@@ -155,9 +140,14 @@
             "path": "explorers/night-lord"
         },
         {
-            "alt": "Buccaneer",
-            "class": "buccaneer",
-            "path": "explorers/buccaneer"
+            "alt": "Dawn Warrior",
+            "class": "dawn-warrior",
+            "path": "cygnus-knights/dawn-warrior"
+        },
+        {
+            "alt": "Marksman",
+            "class": "marksman",
+            "path": "explorers/marksman"
         },
         {
             "alt": "Dark Knight",
@@ -165,9 +155,14 @@
             "path": "explorers/dark-knight"
         },
         {
-            "alt": "Adele",
-            "class": "adele",
-            "path": "flora/adele"
+            "alt": "Dual Blade",
+            "class": "dual-blade",
+            "path": "explorers/dual-blade"
+        },
+        {
+            "alt": "Buccaneer",
+            "class": "buccaneer",
+            "path": "explorers/buccaneer"
         },
         {
             "alt": "Paladin",
@@ -175,9 +170,9 @@
             "path": "explorers/paladin"
         },
         {
-            "alt": "Corsair",
-            "class": "corsair",
-            "path": "explorers/corsair"
+            "alt": "Night Walker",
+            "class": "night-walker",
+            "path": "cygnus-knights/night-walker"
         }
     ]
 }
