@@ -524,7 +524,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/last-resort.png"],
         "animations": ["https://media1.giphy.com/media/H9sLPP1J2vVhs6Cmcl/giphy.gif"],
         "type": "Buff",
-        "desc": "Reduces your %Avoidability while increases %Final Damage and %Damage Taken from %Max HP attacks",
+        "desc": "Reduces your %Avoidability while increases %Final Damage and damage taken from enemy attacks (including %Max HP attacks)",
         "details": [
             "There are two possible stages of the buff, pressing the Skill Key again will go to the second stage which increases the effects of both the debuff and buff portions of the Skill",
             "<strong>[Passive]</strong>: Permanently grants flat Attack"
