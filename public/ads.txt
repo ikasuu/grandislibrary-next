@@ -1,4 +1,4 @@
-#  Updated: 2022-11-24 10:23:06
+#  Updated: 2022-11-28 10:59:49
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -245,6 +245,7 @@ pubmatic.com, 160887, DIRECT, 5d62403b186f2ace
 pubmatic.com, 161593, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161691, DIRECT, 5d62403b186f2ace
 pubmatic.com, 162186, DIRECT, 5d62403b186f2ace
+pubmatic.com, 162672, DIRECT, 5d62403b186f2ace
 pubmatic.com, 60809, RESELLER, 5d62403b186f2ace
 pubmatic.com, 81564, RESELLER, 5d62403b186f2ace
 pubnative.net, 1004796, RESELLER, d641df8625486a7b
@@ -358,6 +359,7 @@ webeyemob.com, 70080, RESELLER
 xad.com, 241, RESELLER, 81cbf0a75a5e0e9a
 xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
 xandr.com, 13171, RESELLER
+xandr.com, 14082, RESELLER
 yahoo.com, 55317, RESELLER, e1a5b5b6e3255540
 yahoo.com, 55771, RESELLER, e1a5b5b6e3255540
 yahoo.com, 56371, DIRECT, e1a5b5b6e3255540
