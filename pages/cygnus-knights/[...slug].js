@@ -24,7 +24,6 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
-            <Alert variant="warning">[Note] Class Overviews are slowly being updated with Ignition update changes. Please check <a href="https://discord.gg/d4et8vt9kP" target="_blank" rel="noreferrer noopener">Discord</a> server for updates</Alert>
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
