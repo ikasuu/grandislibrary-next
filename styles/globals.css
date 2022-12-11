@@ -153,6 +153,12 @@ footer{
 }
 
 /* CLASS OVERVIEW CSS */
+.ds-table table, .ds-table table th, .ds-table table td{
+  border: 0.1rem groove black;
+  padding: 0.35rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
 /* 0-991 px */
 @media (max-width: 991px){
