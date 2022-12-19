@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 236; 
-export const versionName = "Midnight Carnival Update"
+export const version = 238; 
+export const versionName = "Ignition Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
@@ -142,12 +142,15 @@ export const weaponConsumable = {
 export const commonFifth = {
     goddessBlessing: {
         "name": "Maple World Goddess's Blessing",
-        "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 350% for 60 sec, Damage: +17%\\nCooldown: 180 sec",
+        "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 350% for 60 sec, Damage: +17%\\nMaple World Goddess's Blessing is ready every 180 sec, and can bless up to 2 times.",
         "id": 400001042,
         "icons": ["/class-icons/5th-job/maple-world-goddess-blessing.png"],
         "animations": ["https://media4.giphy.com/media/AV4drI0ly2fYImnP3H/giphy.gif"],
         "type": "Buff",
-        "desc": "Increases the effects of <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> greatly and grants increased %Damage"
+        "desc": "Increases the effects of <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> greatly and grants increased %Damage",
+        "details": [
+            "Blessing is prepared every 180 sec (up to 2 blessings)"
+        ]
     },
     expWarrior:{
         "name": "Blitz Shield",
@@ -163,7 +166,7 @@ export const commonFifth = {
     },
     expMagician:{
         "name": "Unreliable Memory",
-        "shortDesc": "MP Cost: 100. Uses a memorized skill.\\nIgnored MP cost and cooldown of selected skill, and reduces cooldown of Unreliable Memory by a fixed amount according to set probability rates.\\nCooldown: 355 sec.\\n[Passive Effect: INT +25]",
+        "shortDesc": "MP Cost: 100. Uses a memorized skill.\\nIgnores MP cost and cooldown of selected skill, and reduces cooldown of Unreliable Memory by a fixed amount according to set probability rates.\\nCooldown: 355 sec.\\n[Passive Effect: INT +25]",
         "id": 400001021,
         "icons": ["/class-icons/5th-job/unreliable-memory.png"],
         "animations": ["https://media4.giphy.com/media/ncQEHsz4n9SUxkaU4l/giphy.gif"],
@@ -233,7 +236,8 @@ export const commonFifth = {
         "type": "Buff Zone",
         "desc": "Increases all stats assigned APs by a percentage of party members within the zone and reduces enemy %DEF inside the zone",
         "details": [
-            "During the jump animation, you will not be knocked back at all (Super Knockback Resistance)"
+            "During the jump animation, you will not be knocked back at all (Super Knockback Resistance)",
+            "Reduction to %DEF can be considered as %Ignore DEF"
         ]
     },
     phalanxCharge:{
@@ -252,7 +256,7 @@ export const commonFifth = {
     },
     cygnusBlessing:{
         "name": "Empress Cygnus's Blessing",
-        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%.\\nThis damage bonus is additive and maxes out at 90%\\nCooldown: 240 sec.\\n--------\\nMP Cost: 500, Duration: 45 sec, Damage +25%, Damage Taken: -5% (Includes damage proportional to Max HP).\\nPeriodically restores 7% HP and increases your damage by 7%.\\nThis damage bonus is additive, and maxes out at 120%\\nCooldown: 240 sec.",
+        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%.\\nThis damage bonus is additive and maxes out at 90%\\nCygnus's Blessing is ready every 240 sec, and can bless up to 2 times.\\n--------\\nMP Cost: 500, Duration: 45 sec, Damage +25%, Damage Taken: -5% (Includes damage proportional to Max HP).\\nPeriodically restores 7% HP and increases your damage by 7%.\\nThis damage bonus is additive, and maxes out at 120%\\nCygnus's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001043,
         "icons": ["/class-icons/5th-job/empress-cygnuss-blessing.png", "/class-icons/5th-job/transcendent-cygnuss-blessing.png"],
         "animations": ["https://media4.giphy.com/media/o4zWBHJ69l1pd4x9hf/giphy.gif", "https://media2.giphy.com/media/oHDJdfZZm1KEBCm9n7/giphy.gif"],
@@ -260,6 +264,7 @@ export const commonFifth = {
         "desc": "Increases %Damage and periodically restores %Max HP",
         "details": [
             "%Damage buff stacks additively (up to 90%)",
+            "Blessing is prepared every 240 sec (up to 2 blessings)",
             "Skill is enhanced after Lv. 245 becoming <img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus's Blessing'/> Transcendent Cygnus's Blessing and additionally reduces damage taken (including %Max HP attacks)"
         ]
     },
@@ -303,7 +308,7 @@ export const commonFifth = {
     },
     otherworldGoddessBlessing:{
         "name": "Otherworld Goddess's Blessing",
-        "shortDesc": "HP Cost: 5% of Max HP, increases Final Damage by 10% for 40 sec. Periodically casts various blessings or attacks. Previous blessings disappear when a new blessing is cast.\\nBlessing of Recovery : Restores 27% of the your character's max DF/PP/HP. Heals through status effects that prevent health recovery, aside from in Ghost Park.\\nAegis Blessing: Damage Taken: -70% (Triggers once, includes damage proportional to Max HP.)\\nBlessing of Fortitude: Ignores one debilitating status effect.\\nOtherwordly Void: Max Enemies Hit: 12, Damage: 2400%, Number of Attacks: 12\\nCooldown: 120 sec",
+        "shortDesc": "HP Cost: 5% of Max HP, increases Final Damage by 10% for 40 sec. Periodically casts various blessings or attacks. Previous blessings disappear when a new blessing is cast.\\nBlessing of Recovery : Restores 27% of the your character's max DF/PP/HP. Heals through status effects that prevent health recovery, aside from in Ghost Park.\\nAegis Blessing: Damage Taken: -70% (Triggers once, includes damage proportional to Max HP.)\\nBlessing of Fortitude: Ignores one debilitating status effect.\\nOtherwordly Void: Max Enemies Hit: 12, Damage: 2400%, Number of Attacks: 12\\nOtherworld Goddess's Blessing is ready every 120 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/otherworld-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/HBVTG6lGTAK9OLJ9qe/giphy.gif"],
@@ -313,7 +318,8 @@ export const commonFifth = {
             "<strong>[Blessing of Recovery]: </strong>Restores some %Max HP regardless of any effects preventing HP recovery",
             "<strong>[Aegis Blessing]</strong>: Reduces damage taken once, including %Max HP damage but, triggers only once per buff",
             "<strong>[Blessing of Fortitude]: </strong>Ignores one movement-restricting Abnormal Status",
-            "<strong>[Otherworldly Void]: </strong>Damages nearby enemies"
+            "<strong>[Otherworldly Void]: </strong>Damages nearby enemies",
+            "Blessing is prepared every 120 sec (up to 2 blessings)"
         ]
     },
     mightOfTheNova:{
@@ -330,19 +336,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingNV:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
-        "id": 400001013,
-        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
-        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
-        "type": "Buff",
-        "desc": "While active, gain increased %Damage and skills have a chance to not have a cooldown",
-        "details": [
-            "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)"
-        ]
-    },
-    grandisGoddessBlessingKAI:{
-        "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
@@ -350,12 +344,26 @@ export const commonFifth = {
         "desc": "While active, gain increased %Damage and skills have a chance to not have a cooldown",
         "details": [
             "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)",
-            "Kaiser gains additional %Damage based each Morph Gauge stage"
+            "Blessing is prepared every 240 sec (up to 2 blessings)"
+        ]
+    },
+    grandisGoddessBlessingKAI:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
+        "id": 400001013,
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
+        "type": "Buff",
+        "desc": "While active, gain increased %Damage and skills have a chance to not have a cooldown",
+        "details": [
+            "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)",
+            "Kaiser gains additional %Damage based each Morph Gauge stage",
+            "Blessing is prepared every 240 sec (up to 2 blessings)"
         ]
     },
     grandisGoddessBlessingFL:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
@@ -363,17 +371,33 @@ export const commonFifth = {
         "desc": "While active, a percent of your equipment's Attack or Magic Attack will be converted to the one you use",
         "details": [
             "Excludes your Primary Weapon and Set Bonus Effects",
-            "Converted bonus cannot exceed 150% of your weapon's base Attack/Magic Attack"
+            "Converted bonus cannot exceed 150% of your weapon's base Attack/Magic Attack",
+            "Blessing is prepared every 240 sec (up to 2 blessings)"
         ]
     },
-    grandisGoddessBlessingAN:{
+    grandisGoddessBlessingHY:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, increases %Damage, 100% Knockback Resistance and Talisman and Scroll Power charge rate"
+        "desc": "While active, increases %Damage and Talisman and Scroll Power charge rate",
+        "details": [
+            "Blessing is prepared every 240 sec (up to 2 blessings)"
+        ]
+    },
+    grandisGoddessBlessingLARA:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
+        "id": 400001013,
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
+        "type": "Buff",
+        "desc": "While active, increases %Damage and %Final Damage bonus provided from <img src='/class-icons/anima/lara/dragon-vein-echo.png' alt='Skill Dragon Vein Echo'/>",
+        "details": [
+            "Blessing is prepared every 240 sec (up to 2 blessings)"
+        ]
     },
     lotusFlower:{
         "name": "Lotus Flower",
@@ -397,22 +421,23 @@ export const commonFifth = {
         "desc": "Randomly summons two Sengoku heroes to fight alongside you while providing a buff",
         "details": [
             "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9130005/icon'/>[Uesugi Kenshin]: </strong>Slashes her blade at nearby enemies<ul><li>Increases %Ignore DEF</li></ul>",
-            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9130007/icon'/>[Tsuchimikado Haruaki]: </strong>Swings his fan creating a wave of magic<ul><li>Increases %Damage Reduction</li></ul>",
+            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9130007/icon'/>[Tsuchimikado Haruaki]: </strong>Swings his fan creating a wave of magic<ul><li>Increases %Damage Reduction (includes %Max HP attacks)</li></ul>",
             "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9000425/icon'/>[Ayame]: </strong>Shoots her rifle forward<ul><li>Increases %Crit Damage</li></ul>",
             "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9000427/icon'/>[Takeda Shingen]: </strong>Flags strike down on nearby enemies<ul><li>Increases Attack and Magic Attack</li></ul>"
         ]
     },
     princessSakunoBlessing:{
         "name": "Princess Sakuno's Blessing",
-        "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 13%\\nPeriodical Bonus Final Damage Increase: 3%\\nPrincess Sakuno's Blessing will increase final damage by up to 48%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nCooldown: 240 sec",
+        "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 13%\\nPeriodical Bonus Final Damage Increase: 3%\\nPrincess Sakuno's Blessing will increase final damage by up to 48%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nPrincess Sakuno's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/princess-sakunos-blessing.png"],
         "animations": ["https://media1.giphy.com/media/5trU6eJgfy60uoDzH2/giphy.gif"],
         "type": "Buff",
         "desc": "Increases %Final Damage",
         "details": [
-            "The amount of %Final Damage provided increases periodically",
-            "While active, prevents 1 Abnormal Status"
+            "The amount of %Final Damage provided increases periodically (additively)",
+            "While active, blocks 1 Critical Abnormal Status",
+            "Blessing is prepared every 240 sec (up to 2 blessings)"
         ]
     },
     conversionOverdrive:{
@@ -429,15 +454,16 @@ export const commonFifth = {
     },
     transcendentRhinnePrayer:{
         "name": "Transcendent Rhinne's Prayer",
-        "shortDesc": "Time Force Cost: 30, resets cooldowns for all skills.\\nDuration: 42 sec, Attack Power: +85. When Doubletime stacks, gives a buff that creates additional attack with 250% damage and 5 additional attacks to enemies you attack with your skills.\\n Additional hit buff disappears when additional attacks occurs, or if Transcendent Rhinne's Prayer ends.\\nDoubletime and Immune Barrier last for their maximum duration.\\nCooldown: 240 sec",
+        "shortDesc": "Time Force Cost: 30, resets cooldowns for all skills except the skills that are not affected by cooldown reset.\\nDuration: 42 sec, Attack Power: +85. When Doubletime stacks, gives a buff that creates additional attack with 250% damage and 5 additional attacks to enemies you attack with your skills.\\n Additional hit buff disappears when additional attacks occurs, or if Transcendent Rhinne's Prayer ends.\\nDoubletime and Immune Barrier last for their maximum duration.\\nRhinne's Prayer is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/other/zero/transcendent-rhinnes-prayer.png"],
         "animations": ["https://media1.giphy.com/media/1l2KreXVnPRTEZaj1k/giphy.gif"],
         "type": "Buff",
         "desc": "When <img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> stacks, your next attack creates an additional attack",
         "details": [
-            "When used, skill cooldowns are reset",
-            "Additionally while active, <img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> and <img src='/class-icons/other/zero/immune-barrier.png' alt='Skill Immune Barrier'/> last for their maximum duration"
+            "When used, applicable skill cooldowns are reset",
+            "Additionally while active, <img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> and <img src='/class-icons/other/zero/immune-barrier.png' alt='Skill Immune Barrier'/> last for their maximum duration",
+            "Prayer is prepared every 240 sec (up to 2 prayers)"
         ]
     },
     weaponAura:{
@@ -460,7 +486,7 @@ export const commonFifth = {
     },
     manaOverload:{
         "name": "Mana Overload",
-        "shortDesc": "Consumes +2% Max MP to increase the Final Damage of all your skills (excluding summons) by 10%\\nConsumes 0.5% Max HP for jobs without MP\\nCan be toggled On/Off\\nCooldown: 35 sec",
+        "shortDesc": "Consumes 2% Max MP to increase the Final Damage of all your skills (excluding summons) by 10%\\nConsumes 0.3% Max HP for jobs without MP\\nCan be toggled On/Off\\nCooldown: 35 sec",
         "id": 400021000,
         "icons": ["/class-icons/5th-job/mana-overload.png"],
         "animations": ["https://media1.giphy.com/media/uH12ABjyZFLcfbvjFH/giphy.gif"],
@@ -472,14 +498,15 @@ export const commonFifth = {
     },
     etherealForm:{
         "name": "Ethereal Form",
-        "shortDesc": "HP Cost: 1000, Duration: 3 sec, Gain Knockdown Immunity and lose 7750 MP instead of taking damage, when MP is 0 you lose 1750 HP\\nCooldown: 60 sec",
+        "shortDesc": "HP Cost: 1000, Duration: 3 sec, Grants Knockdown Immunity. Situations that would normally cause you to take damage instead reduce your MP by 7750.\\nIf you would reduce your MP below 0, you will instead take normal HP damage. If your job does not utilize MP, you will lose 1750 HP.\\nCooldown: 60 sec",
         "id": 400021060,
         "icons": ["/class-icons/5th-job/ethereal-form.png"],
         "animations": ["https://media1.giphy.com/media/PoQHT9CkudFCPj6RBi/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, you gain 100% Knockback Resistance and lose a fixed amount of MP instead of taking damage",
+        "desc": "While active, you will not be knocked back at all (Super Knockback Resistance) and lose a fixed amount of MP instead of taking HP damage",
         "details": [
-            "When MP is 0 you take a fixed amount of HP damage"
+            "When MP is 0 you take normal amount of HP damage",
+            "If your class does not utilize MP, a fixed amount of HP damage is taken"
         ]
     },
     guidedArrow: {
