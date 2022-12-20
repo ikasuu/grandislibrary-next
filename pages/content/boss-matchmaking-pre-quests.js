@@ -47,7 +47,6 @@ function BossMatchmaking() {
           <li><Link smooth href="#ranmaru" scroll>Ranmaru</Link></li>
           <li><Link smooth href="#princessno" scroll>Princess No</Link></li>
           <li><Link smooth href="#will" scroll>Will</Link></li>
-          <li><Link smooth href="#julieta" scroll>Julieta</Link></li>
           <li><Link smooth href="#akechi" scroll>Akechi Mitsuhide</Link></li>
           <li><Link smooth href="#yakuza" scroll>Yakuza Boss</Link></li>
           <li><Link smooth href="#gigatoad" scroll>Gigatoad</Link></li>
@@ -427,7 +426,7 @@ function BossMatchmaking() {
             <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/Path_to_the_World_Tree_Summit" target="_blank" rel="noreferrer noopener">Dark World Tree: Path to the World Tree Summit</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/boss-icons/ramuramu.png" alt="MapIcon ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/map-icons/ramuramu.png" alt="MapIcon ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
           <p><strong>[Normal/Chaos Lv. 210+]</strong></p>
           <p>You must complete the quest <a href="https://maplestory.fandom.com/wiki/Quests/243/(Ramuramu)_Who%27s_REALLY_the_Cutest_of_Them_All%3F" target="_blank" rel="noreferrer noopener">"[Ramuramu] Who's REALLY the Cutest of Them All?"</a> that consists of only a series of dialogue</p>
           <ul>
@@ -803,14 +802,6 @@ function BossMatchmaking() {
             </li>
             <li><strong>Can clear</strong>: Weekly</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450007200" target="_blank" rel="noreferrer noopener">Esfera: Radiant Temple</a></li>
-          </ul>
-          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="julieta"><img src="/images/map-icons/abrup.png" alt="MapIcon PL Abrup"/> Julieta</ArticleHeaderTwo>
-          <p><strong>[Normal Level 140+]</strong></p>
-          <p>You must complete the Monad Blockbuster from the Lightbulb icon called "[MONAD: The First Omen] An Old Woman's Letter] at Lv. 110. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest</p>
-          <ul>
-            <li><strong>Can clear</strong>: 3 times daily</li>
-            <li><strong>Location</strong>: Accessible from the Boss Matchmaking System directly</li>
           </ul>
           <ArticleHeaderTwo id="akechi"><img src="/images/map-icons/fort-asura.png" alt="Ritual Altar Icon"/> Akechi Mitsuhide</ArticleHeaderTwo>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
