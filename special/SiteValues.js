@@ -538,7 +538,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/venom-burst.png"],
         "animations": ["https://media3.giphy.com/media/hk99simjA0L918EjM0/giphy.gif"],
         "type": "Attack",
-        "desc": "Consumes all active Damage-over-Time stacks on nearby enemies to instantly deal the remaining damage plus some additional %Final Damage",
+        "desc": "Consumes all active Damage-over-Time stacks on nearby enemies to instantly deal the remaining damage plus an additional attack",
         "details": [
             "When activated, the original DoT will spread to nearby enemies",
             "<strong>[Passive]</strong>: Permanently adds a bonus chance to apply a DoT effect to enemies when attacking"
@@ -553,13 +553,13 @@ export const commonFifth = {
         "type": "Buff",
         "desc": "Reduces your %Avoidability while increases %Final Damage and damage taken from enemy attacks (including %Max HP attacks)",
         "details": [
-            "There are two possible stages of the buff, pressing the Skill Key again will go to the second stage which increases the effects of both the debuff and buff portions of the Skill",
+            "There are two stages of the buff, pressing the Skill Key again will enter second stage which increases the effects of both the debuff and buff portions of the skill",
             "<strong>[Passive]</strong>: Permanently grants flat Attack"
         ]
     },
     loadedDice: {
         "name": "Loaded Dice",
-        "shortDesc": "MP Cost: 1000, select your desired die roll. If a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%.\\nCooldown: 10 Sec.\\n[Passive Effect: Attack Power: +35]",
+        "shortDesc": "MP Cost: 1000, select your desired die roll.\\nIf a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%.\\nCooldown: 10 Sec.\\n[Passive Effect: Attack Power: +35]",
         "id": 400051000,
         "icons": ["/class-icons/5th-job/loaded-dice.png"],
         "animations": ["https://media0.giphy.com/media/3o34vbKGyVYywzT5tB/giphy.gif"],
