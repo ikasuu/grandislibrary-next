@@ -428,7 +428,7 @@ function BossMatchmaking() {
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/map-icons/ramuramu.png" alt="MapIcon ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
           <p><strong>[Normal/Chaos Lv. 210+]</strong></p>
-          <p>You must complete the quest <a href="https://maplestory.fandom.com/wiki/Quests/243/(Ramuramu)_Who%27s_REALLY_the_Cutest_of_Them_All%3F" target="_blank" rel="noreferrer noopener">"[Ramuramu] Who's REALLY the Cutest of Them All?"</a> that consists of only a series of dialogue</p>
+          <p>You must complete the quest <a href="https://maplestory.fandom.com/wiki/Quests/243/(Ramuramu)_Psych_Exam" target="_blank" rel="noreferrer noopener">"[Ramuramu] Psych Exam"</a> that consists of only a series of dialogue</p>
           <ul>
             <li>
                 <strong>Normal Mode and Above Rewards: </strong>

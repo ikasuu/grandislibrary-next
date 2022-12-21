@@ -272,7 +272,7 @@ function ProgressionGuide() {
                 <img src="/images/info/boost-node.png" alt="Boost Node"/><strong>Boost Nodes</strong>: These are passives that increase the %Final Damage of your 1st - 4th Job Skills. They also provide different bonuses based on the Skill Level of the node such as extra %Crit Rate or %Ignore DEF</p>
             <ul>
                 <li>Each Boost Node will enhance 3 different Skills. When you hover over a boost node in your V Matrix, the Main Skill that is used for leveling up a Boost Node will be the skill at the top. You will need multiple Boost Nodes with the same Main Skill to upgrade a Boost Node</li>
-                <li>Exact duplicates of the same Boost Node (with the same Main Skill and other skills) cannot be equipped</li>
+                <li>Exact duplicates of the same Boost Node (with the same Main Skill and other skills) cannot be equipped together</li>
                 <li>Each Boost Node has a max Rank of 25 but each boosted skill can reach a Master Level of 50 (60 with <em>Matrix Points</em>) by equipping two Boost Nodes that boost the same skill</li>
             </ul>
             <p>
@@ -306,13 +306,22 @@ function ProgressionGuide() {
             <img className="repository-image" src="/images/info/legion-legend.png" alt="Legion Legend"/>
             <p>The Legion System is unlocked when you have either a total of 500 levels within your World from your characters or have reached Lv. 200 and completed the 5th Job Advancement. You can assign your characters onto a grid to provide bonus stats to all your characters in your World</p>
             <p>The "Total Level" or "Legion Level" is based on your 42 highest level characters. The higher your Legion Level the more characters you can assign to your grid. To increase the amount of characters you can assign, <img src="/images/items/legion-coin.png" alt="Etc Legion Coin"/> <a href="https://maplestory.fandom.com/wiki/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a> are given to <a href="https://maplestory.fandom.com/wiki/Dame_Appropriation" target="_blank" rel="noreferrer noopener">Dame Appropriation</a> to upgrade your board. Legion Coins are gained passively based on your characters currently assigned to the grid</p>
-            <p>Legion Coins are also used to buy special items from <a href="https://maplestory.fandom.com/wiki/Squire_Pancho_Sanza" target="_blank" rel="noreferrer noopener">Squire Pancho Sanza</a> such as <img src="/images/items/legion-expertise.png" alt="Use Legion's Expertise"/> [EXP Booster], <img src="/images/items/legion-luck.png" alt="Use Legion's Luck"/> [Drop Rate Booster], <img src="/images/items/legion-wealth.png" alt="Use Legion's Wealth"/> [Meso Rate Booster], <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's Cube], <img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/> [Bonus Potential Scrolls] and <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> [Powerful Rebirth Flames]</p>
+            <p>Legion Coins are also used to buy special items from <a href="https://maplestory.fandom.com/wiki/Squire_Pancho_Sanza" target="_blank" rel="noreferrer noopener">Squire Pancho Sanza</a> such as:</p>
+            <ul>
+                <li><img src="/images/items/legion-expertise.png" alt="Use Legion's Expertise"/> [EXP Booster]</li>
+                <li><img src="/images/items/legion-luck.png" alt="Use Legion's Luck"/> [Drop Rate Booster]</li>
+                <li><img src="/images/items/legion-wealth.png" alt="Use Legion's Wealth"/> [Meso Rate Booster]</li>
+                <li><img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls]</li>
+                <li><img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's Cube]</li>
+                <li><img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/> [Bonus Potential Scrolls]</li>
+                <li><img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> [Powerful Rebirth Flames]</li>
+            </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="rewardpoint">Reward Points + Maple Rewards Shop:</ArticleHeaderTwo>
             <hr/>
-            <p> <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points are a special currency used in the Cash Shop at the Maple Rewards Shop or to apply a 30% discount to certain Cash Shop purchases. The discount, however, is very limited so Reward Points are usually only used to buy items from the Maple Rewards Shop</p>
+            <p><img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points are a special currency used in the Cash Shop at the Maple Rewards Shop or to apply a 30% discount to certain Cash Shop purchases</p>
             <p>Reward Points expire at the end of the next month that the points were obtained. So if you obtained some Reward Points in August, the points would expire on September 30th</p>
-            <p>The Maple Rewards Shop contains a variety of Cash Shop items available for purchase with Reward Points. You can only buy a set amount of each item per month per account, and the items restock every month. Certain items are not available in Reboot Servers since you can already buy them with Mesos or are related to upgrading/scrolling</p>
+            <p>The Maple Rewards Shop contains a variety of Cash Shop items available for purchase with Reward Points. You can only buy a set amount of each item per month per account, and items restock every month</p>
             <p>Some notable items in the shop are:</p>
             <ul>
                 <li> <img src="/images/items/black-cube.png" alt="Cash Black Cube"/> <a href="https://maplestory.wiki/GMS/215/item/5062010" target="_blank" rel="noreferrer noopener">[Black Cube]</a>
@@ -349,7 +358,7 @@ function ProgressionGuide() {
             <ArticleHeaderTwo id="auction">Auction House in Regular Servers:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/auction-house.png" alt="Auction House"/>
-            <p>Auction House in Regular Servers allows you to buy and sell items to other Maplers. You can buy anything from equipment, potions, to cosmetic items like chairs and cash clothing. As well, you can also buy <a rel="noreferrer noopener" href="https://maplestory.nexon.net/micro-site/53117" target="_blank">Wonderberry</a> pets here that pick up items for you</p>
+            <p>Auction House in Regular Servers allows you to buy and sell items to other players. You can buy anything from equipment, potions, to cosmetic items like chairs and cash clothing. As well, you can also buy <a rel="noreferrer noopener" href="https://maplestory.nexon.net/micro-site/53117" target="_blank">Wonderberry</a> pets here that pick up items for you</p>
             <p><img className="repository-image" src="/images/info/auction-house-button.png" alt="Auction House Button"/></p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <BannerAdThree/>
@@ -393,7 +402,7 @@ function ProgressionGuide() {
                     <li>Equipment is considered a Boss Item, it will gain additional Bonus Stats compared to normal equipment</li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/yu-garden.png" alt="MapIcon ShangHaiCN"/> <strong>[Lv. 140] </strong><a href="https://maplestory.fandom.com/wiki/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong style={{color: '#ff6600'}}>[Reboot] The Far East (Yu Garden)</strong></a>: Provides an easy source to <strong/> [Epic Potential Scrolls] in Reboot Servers</li>
+                <li> <img src="/images/map-icons/yu-garden.png" alt="MapIcon ShangHaiCN"/> <strong>[Lv. 140] <span style={{color: '#ff6600'}}>[Reboot]</span><a href="https://maplestory.fandom.com/wiki/Category:The_Far_East" target="_blank" rel="noreferrer noopener">The Far East (Yu Garden)</a></strong>: Provides an easy source to <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Reboot Servers</li>
                 <li><strong>[SPECIAL] <a href="https://maplestory.fandom.com/wiki/Legion_System" target="_blank" rel="noreferrer noopener">Legion System</a></strong>: A system that is unlocked when you have either a total of 500 levels within your World from your characters or have reached Lv. 200 and completed the 5th Job Advancement. You can assign your characters onto a grid to provide bonuses to all your characters in your World. Additionally, you will passively gain <img src="/images/items/legion-coin.png" alt="Etc Legion Coin"/> <a href="https://maplestory.fandom.com/wiki/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a> to use to buy items from <a href="https://maplestory.fandom.com/wiki/Squire_Pancho_Sanza" target="_blank" rel="noreferrer noopener">Squire Pancho Sanza</a>
                 <ul>
                     <li><strong>Notable Items</strong>: <img src="/images/items/legion-expertise.png" alt="Use Legion's Expertise"/> [EXP Booster], <img src="/images/items/legion-luck.png" alt="Use Legion's Luck"/> [Drop Rate Booster], <img src="/images/items/legion-wealth.png" alt="Use Legion's Wealth"/> [Meso Rate Booster], <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls], <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> [Master Craftsman's Cube], <img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/> [Bonus Potential Scrolls] and <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> [Powerful Rebirth Flames]</li>
@@ -407,7 +416,7 @@ function ProgressionGuide() {
             <ul>
                 <li> <img src="/images/map-icons/heliseum.png" alt="MapIcon retakeHQ"/> <strong>[Lv. 90] </strong><a href="https://maplestory.fandom.com/wiki/Category:Heliseum" target="_blank" rel="noreferrer noopener"><strong>Heliseum</strong></a>: Completing this storyline unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestory.fandom.com/wiki/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestory.fandom.com/wiki/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> which can be used as currency for a <a href="https://maplestory.fandom.com/wiki/Mayala" target="_blank" rel="noreferrer noopener">special shop</a>
                 <ul>
-                    <li><strong>Notable shop items:</strong> <img src="/images/equipment/elite-heliseum-cape.png" alt="Eqp Elite Heliseum Cape"/> <img src="/images/equipment/nova-hyades-cloak.png" alt="Eqp Nova Hyades Cloak"/> <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Cape]</a>, <img src="/images/equipment/elite-heliseum-boots.png" alt="Eqp Elite Heliseum Boots"/> <img src="/images/equipment/nova-hyades-boots.png" alt="Eqp Nova Boots"/> <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Shoe]</a>, <img src="/images/equipment/elite-heliseum-belt.png" alt="Eqp Elite Heliseum Belt"/> <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>, <img src="/images/equipment/antique-root-gloves.png" alt="Eqp Antique Root Gloves"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1082688" target="_blank" rel="noreferrer noopener">[Antique Root Gloves]</a>
+                    <li><strong>Notable shop items:</strong> <img src="/images/equipment/elite-heliseum-cape.png" alt="Eqp Elite Heliseum Cape"/> <img src="/images/equipment/nova-hyades-cloak.png" alt="Eqp Nova Hyades Cloak"/> <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Cape]</a>, <img src="/images/equipment/elite-heliseum-boots.png" alt="Eqp Elite Heliseum Boots"/> <img src="/images/equipment/nova-hyades-boots.png" alt="Eqp Nova Boots"/> <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Shoe]</a>, <img src="/images/equipment/elite-heliseum-belt.png" alt="Eqp Elite Heliseum Belt"/> <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>, <img src="/images/equipment/antique-root-gloves.png" alt="Eqp Antique Root Gloves"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1082688" target="_blank" rel="noreferrer noopener">[Antique Root Gloves]</a> <img src="http://localhost:3000/images/equipment/antique-leaf-cape.png" alt="Eqp Antique Leaf Cape"/> <a href="https://maplestory.fandom.com/wiki/Antique_Leaf_Cape" target="_blank" rel="noreferrer noopener">[Antique Leaf Cape]</a>
                     </li>
                 </ul>
                 </li>
@@ -423,6 +432,7 @@ function ProgressionGuide() {
                 <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/> <strong>[Lv. 125] </strong><a href="https://maplestory.fandom.com/wiki/Category:Root_Abyss" target="_blank" rel="noreferrer noopener"><strong>Root Abyss</strong></a>: Completing the storyline unlocks <img src="/images/items/gnarled-wooden-key.png" alt="Etc Gnarled Wooden Key"/> <a href="https://maplestory.fandom.com/wiki/Gnarled_Wooden_Key" target="_blank" rel="noreferrer noopener">Daily Keys</a> for <img src="/images/map-icons/crimson-queen.png" alt="MapIcon BloodyQueen"/> Crimson Queen, <img src="/images/map-icons/pierre.png" alt="MapIcon Piere"/> Pierre, <img src="/images/map-icons/von-bon.png" alt="MapIcon BanBan"/> Von Bon, and <img src="/images/map-icons/vellum.png" alt="MapIcon Bellum"/> Vellum
                 <ul>
                     <li>Remember to defeat each Normal Mode 10 times to unlock their Chaos Mode</li>
+                    <li><img src="http://localhost:3000/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> <img src="http://localhost:3000/images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/> Coins dropped from the bosses can be used to buy useful <img src="http://localhost:3000/images/equipment/antique-leaf-shoulder.png" alt="Eqp Antique Leaf Shoulder"/> <img src="http://localhost:3000/images/equipment/antique-root-shoulder.png" alt="Eqp Antique Root Shoulder"/> equipment for Transfer Hammer</li>
                 </ul>
                 </li>
                 <li> <img src="/images/map-icons/blockbuster.png" alt="MapIcon BlockBuster"/> <strong>[Lv. 120] <a href="https://maplestory.fandom.com/wiki/Blockbuster/Black_Heaven" target="_blank" rel="noreferrer noopener">[Blockbuster] Black Heaven</a></strong>: Completing Black Heaven will unlock access to the boss <img src="/images/map-icons/lotus-boss.png" alt="Mobicon Lotus"/> Lotus
@@ -447,6 +457,12 @@ function ProgressionGuide() {
                 <li> <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon destructionTown"/> <img src="/images/map-icons/stronghold.png" alt="MapIcon darkEreb"/> <strong>[Lv. 160]</strong>  <a href="https://maplestory.fandom.com/wiki/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Gate to the Future</strong></a>: Completing questline will unlock access to <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Signus"/> Normal Cygnus</li>
                 <li>
                 <img src="/images/map-icons/masteria-through-time.png" alt="MapIcon Masteria Through Time" /> <strong>[Lv. 160]</strong><strong> <a href="https://maplestory.fandom.com/wiki/Blockbuster/Masteria_Through_Time" target="_blank" rel="noreferrer noopener">[Blockbuster] Masteria Through Time</a></strong>: Completing blockbuster will reward you with <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1142962" target="_blank" rel="noreferrer noopener">[Best-in-slot Medal]</a>, <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662090" target="_blank" rel="noreferrer noopener">[Subani-Roid]</a> OR <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662091" target="_blank" rel="noreferrer noopener">[Dr. Jang-Roid]</a> androids with NPC Vendor</li>
+                <li>
+                    <img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> <strong>[Lv. 200] <a href="https://maplestory.fandom.com/wiki/Quests/137/(The_Asura_Crisis)_Back_to_Momijigaoka" target="_blank" rel="noreferrer noopener">The Asura Crisis</a></strong>: Completing the storyline will unlock access to the boss <img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> Akechi Mitsuhide
+                </li>
+                <li>
+                    <img src="http://localhost:3000/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong>[Lv. 210] <a href="https://maplestory.fandom.com/wiki/Quests/243/(Ramuramu)_Psych_Exam" target="_blank" rel="noreferrer noopener">Ramuramu</a></strong>: Completing the storyline will unlock access to the boss <img src="http://localhost:3000/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> Guardian Angel Slime
+                </li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="equipment">Equipment Content:</ArticleHeaderTwo>
@@ -713,7 +729,6 @@ function ProgressionGuide() {
             <p>Some ways to obtain Spell Traces are:</p>
             <ul>
                 <li>Monster drops</li>
-                <li>Surprise Missions</li>
                 <li>Inferno Wolf + Pollo/Frito Missions</li>
                 <li> <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> Crusader Coin shop</li>
             </ul>
@@ -728,13 +743,15 @@ function ProgressionGuide() {
             <img className="repository-image" src="/images/info/starforce-tooltip.png" alt="Star Force Example"/>
             <p>Once you have consumed all upgrade slots, you may star force/enhance your gear. In Reboot, there are no upgrade slots, so you just star force/enhance instead. Star Forcing costs Mesos that grants increased stats on success</p>
             <p>A recommended amount of stars you want for each piece of equipment is around 10 - 12 stars early on but optimally all gear at 12 stars</p>
-            <p>Occasionally there are events with shops that sell <img src="/images/items/star-enhancement-scroll.png" alt="Use Star Enchancement Scroll"/>[Star Enhancement Scrolls] which sets an equipment's Star Force to the said amount. There is normally one that enhances your gear to <a href="https://maplestory.wiki/GMS/210.1.1/item/2049378" target="_blank" rel="noreferrer noopener">15-stars</a> that you can get from events if you do not have enough Mesos to Star Force. Past 15 stars, equipment start to see a clear difference from equipment with fewer stars</p>
+            <p>Occasionally there are events with shops that sell <img src="/images/items/star-enhancement-scroll.png" alt="Use Star Enchancement Scroll"/>[Star Enhancement Scrolls] which sets an equipment's Star Force to the said amount. There is normally one that enhances your gear to 17-stars that are obtainable from events if you do not have enough Mesos to Star Force. Past 15 stars, equipment start to see a clear difference from equipment with fewer stars</p>
             <h5>30% Star Force Discount:</h5>
             <p>Occasionally on Sunny Sundays, there is an event where Star Forcing prices are discounted by 30%. These are the best times to Star Force if you are trying to reach above 15 stars. If you are just Star Forcing regularly to 12 stars, you do not need to wait for this to happen</p>
             <h5>5/10/15 Star Force 100%:</h5>
             <p>Occasionally on Sunny Sundays, there is an event where enhancing to 5, 10, or 15 Star Force, the success rate is guaranteed. This is also a good time to try reaching to 15 stars but is not necessary to start Star Forcing your gear</p>
             <h5>1+1 Event:</h5>
             <p>Occasionally on Sunny Sundays, there is an event where for every Star Force enhancement below 10 Stars, you gain 2 stars. This is also a good time to try reaching to 15 stars since you essentially only need to keep trying from 12 Stars, but is not necessary to start Star Forcing your gear</p>
+            <h5>Shining Star Force Event:</h5>
+            <p>Occasionally on Sunny Sundays, the 30% Discount and 5/10/15 Star event may overlap which provides the best opportunity to Star Force your gear especially to 17-star</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="additionalstats">Bonus Stats:</h3>
             <hr/>
@@ -818,7 +835,6 @@ function ProgressionGuide() {
                 <li>Commerci Voyages</li>
                 <li>Bosses</li>
                 <li>Pollo/Frito Missions + Inferno Wolf</li>
-                <li>Surprise Mission</li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="bosses">[ &lt; 2k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
@@ -1076,7 +1092,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
             </ul>
-            <ArticleHeaderTwo>[ &gt; 12k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>[ &gt; 12k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon PinkBean"/> <a href="https://maplestory.fandom.com/wiki/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Chaos Pink Bean</strong></a>
@@ -1612,7 +1628,7 @@ function ProgressionGuide() {
                     <li><strong>Main Reward:</strong> <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Reboot Servers only</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey storyline will unlock Daily Quests
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey storyline will unlock Daily Quests for this area
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
                     </ul>
@@ -1627,7 +1643,7 @@ function ProgressionGuide() {
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong>[Lv. 210+]</strong> <a href="https://maplestory.fandom.com/wiki/Category:Chu_Chu_Island" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Chu Chu Island</strong></a>: Completing storyline will unlock access to a Party Quest and Daily Quests
+                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong>[Lv. 210+]</strong> <a href="https://maplestory.fandom.com/wiki/Category:Chu_Chu_Island" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Chu Chu Island</strong></a>: Completing storyline will unlock access to a Party Quest and Daily Quests for this area
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
                     </ul>
@@ -1637,7 +1653,7 @@ function ProgressionGuide() {
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong>[Lv. 220+] </strong><a href="https://maplestory.fandom.com/wiki/Category%3ALachelein" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Lachelein</strong></a>: Completing the storyline will unlock access to Dream Defender, Daily Quests
+                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong>[Lv. 220+] </strong><a href="https://maplestory.fandom.com/wiki/Category%3ALachelein" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Lachelein</strong></a>: Completing the storyline will unlock access to Dream Defender and Daily Quests for this area
                     <ul>
                     <li><strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]</li>
                     </ul>
@@ -1652,7 +1668,7 @@ function ProgressionGuide() {
                     </li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong> [Lv. 225+] <a href="https://maplestory.fandom.com/wiki/Category:Arcana" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Arcana</a></strong>: Completing the storyline will unlock access to Spirit Savior and Daily Quests
+                <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong> [Lv. 225+] <a href="https://maplestory.fandom.com/wiki/Category:Arcana" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Arcana</a></strong>: Completing the storyline will unlock access to Spirit Savior and Daily Quests for this area
                     <ul>
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-arcana.png" alt="Eqp Arcane Symbol Arcana"/> [Arcane Symbols]</li>
                     </ul>
@@ -2132,6 +2148,7 @@ function ProgressionGuide() {
                 <li><strong>(Lv. 190) [Haven] A New Home </strong>- Pre-quests to unlock access to Weekly Quests in the Scrapyard</li>
                 <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain </strong>- Pre-quests to unlock access to Weekly Quests in the Dark World Tree</li>
                 <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- Pre-quests to unlocking access to the boss Akechi Mitsuhide</li>
+                <li><strong>(Lv. 210) [Ramuramu] Psych Exam </strong>- Pre-quests to unlocking access to the boss Guardian Angel Slime</li>
                 <li>
                     <strong>(Lv. 235) [Kao's Memory] The First Memory </strong>- Begins a storyline involving <a href="https://maplestory.fandom.com/wiki/Kao" target="_blank" rel="noopener noreferrer">Kao</a> between Lv. 235 to 255
                     <ul>
