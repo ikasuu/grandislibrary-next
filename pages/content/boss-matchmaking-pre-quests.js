@@ -626,7 +626,7 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="blackmage"><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> Black Mage</ArticleHeaderTwo>
-          <p><strong>[Hard Lv. 255+ 1320ArcP+]</strong></p>
+          <p><strong>[Hard/Extreme Lv. 255+ 1320ArcP+]</strong></p>
           <p>You must complete the Limina storyline and defeat Story Mode Black Mage to unlock access to Black Mage</p>
           <ul>
             <li>
@@ -661,7 +661,7 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="seren"><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> Seren</ArticleHeaderTwo>
-          <p><strong>[Hard Lv. 265+ 150SacP+]</strong></p>
+          <p><strong>[Hard/Extreme Lv. 265+ 150SacP+]</strong></p>
           <p>You must complete the Burning Cernium storyline to unlock access to Seren</p>
           <ul>
             <li>

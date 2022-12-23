@@ -147,7 +147,6 @@ function AttackSpeed() {
             <ul>
                 <li>Rune of Decay (+1 attack speed)</li>
                 <li>Rune of Destruction (+1 attack speed)</li>
-                <li>Rune of Swiftness (+3 attack speed)</li>
                 <li><img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <a href="https://maplestory.fandom.com/wiki/Extreme_Green_Potion" target="_blank" rel="noopener noreferrer">Extreme Green Potion</a> (+1 attack speed)</li>
                 <li><img src="/images/items/crimson-queen-soul.png" alt="Use Crimson Queen Soul"/> <a href="https://maplestory.fandom.com/wiki/Fickle_Queen" target="_blank" rel="noopener noreferrer">Crimson Queen soul's attack speed buff</a> (+1 attack speed)</li>
                 <li>Battle Mage's <img src="/class-icons/resistance/battle-mage/hasty-aura.png" alt="Skill Hasty Aura"/> <a href="https://maplestory.fandom.com/wiki/Hasty_Aura" target="_blank" rel="noopener noreferrer">Hasty Aura</a> (+2 attack speed)</li>
