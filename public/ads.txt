@@ -1,4 +1,4 @@
-#  Updated: 2023-01-12 15:07:21
+#  Updated: 2023-01-13 11:39:44
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -342,7 +342,9 @@ triplelift.com, 11582, RESELLER, 6c33edb13117fd86
 triplelift.com, 13264, DIRECT, 6c33edb13117fd86
 triplelift.com, 8210, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332, DIRECT, 6c33edb13117fd86
+triplelift.com, 9332, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
+triplelift.com, 9332-EB, RESELLER, 6c33edb13117fd86
 ucfunnel.com, par-488A3E6BD8D997D0ED8B3BD34D8BA4B, RESELLER
 verve.com, 15290, RESELLER, 0c8f5958fc2d6270
 verve.com, 15503, RESELLER, 0c8f5958fc2d6270
