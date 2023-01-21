@@ -1,4 +1,4 @@
-#  Updated: 2023-01-17 10:42:30
+#  Updated: 2023-01-19 12:29:35
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -337,7 +337,6 @@ spotxchange.com, 94794, RESELLER, 7842df1d2fe2db34
 startapp.com, smt, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 synacor.com, 82321, DIRECT, e108f11b2cdf7d5b
-synacor.com, 82321, RESELLER, e108f11b2cdf7d5b
 telaria.com, mb9eo-oqsbf, RESELLER, 1a4e959a1b50034a
 telaria.com, r3222-wec7r, RESELLER, 1a4e959a1b50034a
 themediagrid.com, TU8HG3, DIRECT
