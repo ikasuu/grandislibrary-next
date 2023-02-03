@@ -1,4 +1,4 @@
-#  Updated: 2023-01-19 12:29:35
+#  Updated: 2023-02-02 15:22:08
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -167,7 +167,7 @@ inmobi.com, 17865bac25f44f51b8fd08b12e92072c, DIRECT, 83e75a7ae333ca9d
 inmobi.com, 55049d2e109d4ac1820ca1432dda4e13, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 9e311c7a68e94888aac7fbb4272381e2, RESELLER, 83e75a7ae333ca9d
 inmobi.com, b4821b1325c44dc581b04d743ca46575, RESELLER, 83e75a7ae333ca9d
-kargo.com 8720, DIRECT
+kargo.com,  8720, DIRECT
 lemmatechnologies.com, 89, RESELLER, 7829010c5bebd1fb
 lijit.com, 240955, DIRECT, fafdf38b16bf6b2b
 lijit.com, 240955-eb, DIRECT, fafdf38b16bf6b2b
