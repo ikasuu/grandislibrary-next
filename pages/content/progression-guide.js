@@ -206,7 +206,7 @@ function ProgressionGuide() {
             <p>Check out the <a href="https://www.grandislibrary.com/contents/progression-guide#equipment">Equipment Content</a> section of this guide for more info on available equipment</p>
             <p>For more info on enhancing equipment, check out <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a></p>
             <p>For extra mesos, equipment, and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2711001" target="_blank">Occult Cubes</a>, you may try to defeat bosses from the &lt; 2k Main Stat section of the <a href="https://www.grandislibrary.com/contents/progression-guide#bosses">Bosses</a></p>
-            <p>As well, be sure to complete <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour" data-preserve-html-node="true"/> Maple Tour every day as the main reward is Mesos</p>
+            <p>As well, be sure to complete <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> Maple Tour every day as the main reward is Mesos</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="5th">5th Job Advancement &amp; Arcane River:</ArticleHeaderTwo>
             <hr/>
@@ -2061,7 +2061,7 @@ function ProgressionGuide() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="lightbulb">Lightbulb Quests:</ArticleHeaderTwo>
             <hr/>
-            <p>The quests found in your "Maple Mailbox" or the Lightbulb icon on the left-hand side may be overwhelming with the number of quests available. Here will be a list of quests and which ones are more important compared to others. If you do not see a certain quest, it may be tied to your class' storyline. These can be skipped by most classes. But, Explorer classes, Hoyoung, and Adele gain special rewards though from their class' storyline so, it should not be skipped. Quests with the label <span style={{color: '#ff0000'}} data-preserve-html-node="true">[Required]</span> should also be completed</p>
+            <p>The quests found in your "Maple Mailbox" or the Lightbulb icon on the left-hand side may be overwhelming with the number of quests available. Here will be a list of quests and which ones are more important compared to others. If you do not see a certain quest, it may be tied to your class' storyline. These can be skipped by most classes. But, Explorer classes, Hoyoung, and Adele gain special rewards though from their class' storyline so, it should not be skipped. Quests with the label <span style={{color: '#ff0000'}}>[Required]</span> should also be completed</p>
             <h3>Recommended Quests:</h3>
             <ul>
                 <li><strong>(Lv. 33) Have you learned about pets? </strong>- Tutorial quest explaining pets. Rewards you with a free 3-day pet

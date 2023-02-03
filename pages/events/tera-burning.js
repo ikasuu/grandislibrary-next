@@ -25,9 +25,9 @@ function TeraBurning() {
             <p>All unopened rewards (Mysterious Cryptic Gift Box, Lv. 30 Equipment Box, Legendary Cryptic Chest, etc) expire after the burning event is over. Opened items will be kept, the boxes themselves expire!</p>
             <hr/>
             <p>Need help choosing a class? Check out these resources:</p>
-            <p><a href="https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/" target="_blank" rel="noopener noreferrer" data-preserve-html-node="true">https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/</a></p>
-            <p><a href="https://maplestory.fandom.com/wiki/Characters_and_Skills" target="_blank" rel="noopener noreferrer" data-preserve-html-node="true">https://maplestory.fandom.com/wiki/Characters_and_Skills</a></p>
-            <p><a href="https://www.reddit.com/r/Maplestory/comments/cf3re2/gms_dpm_chart_v205/" target="_blank" rel="noopener noreferrer" data-preserve-html-node="true">https://www.reddit.com/r/Maplestory/comments/ftxlhe/dpm_chart_gms_v212_and_kms_12332//</a></p>
+            <p><a href="https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/" target="_blank" rel="noopener noreferrer">https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/</a></p>
+            <p><a href="https://maplestory.fandom.com/wiki/Characters_and_Skills" target="_blank" rel="noopener noreferrer">https://maplestory.fandom.com/wiki/Characters_and_Skills</a></p>
+            <p><a href="https://www.reddit.com/r/Maplestory/comments/cf3re2/gms_dpm_chart_v205/" target="_blank" rel="noopener noreferrer">https://www.reddit.com/r/Maplestory/comments/ftxlhe/dpm_chart_gms_v212_and_kms_12332//</a></p>
             <p><strong>Note: DPM Charts are really bad indicators of if a class is good or not! These tests are performed under PERFECT CONDITIONS so does not translate directly to how much damage a class really does. As well, DPM ≠ Fun nor best class!! There are classes with better mobbing or better mobility or better bossing BUT no class has everything</strong></p>
             <hr/>
             <BannerAdOne/>
