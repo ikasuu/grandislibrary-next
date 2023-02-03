@@ -1,4 +1,4 @@
-#  Updated: 2022-12-06 16:14:43
+#  Updated: 2023-02-02 15:22:08
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -51,6 +51,7 @@ advertising.com, 28784, DIRECT
 advertising.com, 6202, RESELLER
 advertising.com, 7372, RESELLER
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
+amxrtb.com, 105199691, RESELLER
 appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
 appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
 appnexus.com, 11440, DIRECT, f5ab79cb980f11d1
@@ -70,6 +71,7 @@ appnexus.com, 4052, RESELLER
 appnexus.com, 6979, RESELLER
 appnexus.com, 7044, RESELLER, f5ab79cb980f11d1
 appnexus.com, 7666, RESELLER, f5ab79cb980f11d1
+appnexus.com, 8173, RESELLER
 appnexus.com, 8178, RESELLER, f5ab79cb980f11d1
 appnexus.com, 8233, RESELLER
 appnexus.com, 8790, RESELLER, f5ab79cb980f11d1
@@ -91,6 +93,7 @@ contextweb.com, 558355, RESELLER
 contextweb.com, 558622, RESELLER, 89ff185a4c4e857c
 contextweb.com, 560606, RESELLER, 89ff185a4c4e857c
 contextweb.com, 561998, RESELLER, 89ff185a4c4e857c
+contextweb.com, 562001, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562258, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562350, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562377, DIRECT, 89ff185a4c4e857c
@@ -103,12 +106,12 @@ criteo.com, B-059206, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068585, DIRECT, 9fac4a4a87c2a44f
 districtm.io, 100962, RESELLER, 3fd707be9c4527c3
 districtm.io, 102080, DIRECT, 3fd707be9c4527c3
+e-planning.net, 299e243949e31a22, RESELLER, c1ba615865ed87b2
 e-planning.net, 901a809a65f984a4, RESELLER, c1ba615865ed87b2
 emxdgt.com, 1284, RESELLER, 1e1d41537f7cad7f
 emxdgt.com, 1290, DIRECT, 1e1d41537f7cad7f
 emxdgt.com, 1309, DIRECT, 1e1d41537f7cad7f
 emxdgt.com, 1349, RESELLER, 1e1d41537f7cad7f
-emxdgt.com, 1584, RESELLER, 1e1d41537f7cad7f
 emxdgt.com, 1803, DIRECT, 1e1d41537f7cad7f
 emxdgt.com, 1918, RESELLER, 1e1d41537f7cad7f
 emxdgt.com, 2009, RESELLER, 1e1d41537f7cad7f
@@ -146,6 +149,7 @@ improvedigital.com, 2050, RESELLER
 improvedigital.com, 335, RESELLER
 indexexchange.com, 183875, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 183920, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 184081, RESELLER
 indexexchange.com, 184270, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 184349, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191306, RESELLER
@@ -163,11 +167,13 @@ inmobi.com, 17865bac25f44f51b8fd08b12e92072c, DIRECT, 83e75a7ae333ca9d
 inmobi.com, 55049d2e109d4ac1820ca1432dda4e13, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 9e311c7a68e94888aac7fbb4272381e2, RESELLER, 83e75a7ae333ca9d
 inmobi.com, b4821b1325c44dc581b04d743ca46575, RESELLER, 83e75a7ae333ca9d
+kargo.com,  8720, DIRECT
 lemmatechnologies.com, 89, RESELLER, 7829010c5bebd1fb
 lijit.com, 240955, DIRECT, fafdf38b16bf6b2b
 lijit.com, 240955-eb, DIRECT, fafdf38b16bf6b2b
 lijit.com, 268479, RESELLER, fafdf38b16bf6b2b
 lijit.com, 268479-eb, RESELLER, fafdf38b16bf6b2b
+lijit.com, 367236, RESELLER, fafdf38b16bf6b2b
 lkqd.net, 626, RESELLER, 59c49fa9598a0117
 loopme.com, 11280, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
@@ -186,6 +192,7 @@ ogury.com, e91052177a44df900ef9977b4b8314fe, RESELLER
 onetag.com, 572a470226457b8, RESELLER
 onetag.com, 598ce3ddaee8c90, RESELLER
 onetag.com, 59aa7be4921bac8, RESELLER
+onetag.com, 69f48c2160c8113, RESELLER
 onetag.com, 6b859b96c564fbe, RESELLER
 onetag.com, 74d276d460678b8, DIRECT
 onetag.com, 74d276d460678b8-OB, DIRECT
@@ -266,6 +273,7 @@ richaudience.com, 1BTOoaD22a, RESELLER
 risecodes.com, 62cd4aab9766d400014b79de, DIRECT
 rubiconproject.com, 10061, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13344, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13510, RESELLER
 rubiconproject.com, 15278, RESELLER, 0bfd66d529a55807
@@ -288,6 +296,7 @@ rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 9061, RESELLER, 0bfd66d529a55807
 sharethrough.com, 5926d422, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, OsQNsPHm, DIRECT, d53b998a7bd4ecd2
+sharethrough.com, flUyJowI, RESELLER
 sharethrough.com, uQoEabsG, DIRECT, d53b998a7bd4ecd2
 smaato.com, 1100004890, DIRECT, 07bcf65f187117b4
 smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
@@ -319,19 +328,15 @@ sovrn.com, 268479, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 378732, RESELLER, fafdf38b16bf6b2b
 spotx.tv, 268145, DIRECT, 7842df1d2fe2db34
 spotx.tv, 268145, RESELLER, 7842df1d2fe2db34
-spotx.tv, 304965, RESELLER, 7842df1d2fe2db34
 spotx.tv, 84294, RESELLER, 7842df1d2fe2db34
 spotx.tv, 94794, RESELLER, 7842df1d2fe2db34
 spotxchange.com, 268145, DIRECT, 7842df1d2fe2db34
 spotxchange.com, 268145, RESELLER, 7842df1d2fe2db34
-spotxchange.com, 304965, RESELLER, 7842df1d2fe2db34
 spotxchange.com, 84294, RESELLER, 7842df1d2fe2db34
 spotxchange.com, 94794, RESELLER, 7842df1d2fe2db34
 startapp.com, smt, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 synacor.com, 82321, DIRECT, e108f11b2cdf7d5b
-synacor.com, 82321, RESELLER, e108f11b2cdf7d5b
-synacor.com, 82401, RESELLER, e108f11b2cdf7d5b
 telaria.com, mb9eo-oqsbf, RESELLER, 1a4e959a1b50034a
 telaria.com, r3222-wec7r, RESELLER, 1a4e959a1b50034a
 themediagrid.com, TU8HG3, DIRECT
@@ -340,9 +345,10 @@ themediagrid.com, VQ7WG4, DIRECT, 35d5010d7789b49d
 tremorhub.com, mb9eo-oqsbf, RESELLER, 1a4e959a1b50034a
 triplelift.com, 11582, RESELLER, 6c33edb13117fd86
 triplelift.com, 13264, DIRECT, 6c33edb13117fd86
+triplelift.com, 8210, RESELLER
 triplelift.com, 8210, RESELLER, 6c33edb13117fd86
-triplelift.com, 9332, DIRECT, 6c33edb13117fd86
-triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
+triplelift.com, 9332, RESELLER, 6c33edb13117fd86
+triplelift.com, 9332-EB, RESELLER, 6c33edb13117fd86
 ucfunnel.com, par-488A3E6BD8D997D0ED8B3BD34D8BA4B, RESELLER
 verve.com, 15290, RESELLER, 0c8f5958fc2d6270
 verve.com, 15503, RESELLER, 0c8f5958fc2d6270
