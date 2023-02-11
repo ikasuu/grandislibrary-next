@@ -53,7 +53,7 @@ function MaplehoodWatch() {
             </ul>
             <h3>Upon completion:</h3>
             <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on non-Reboot worlds)</p>
-            <p><img src="/images/info/reboot.png" alt="WorldIcon Reboot"/> Receive one <img src="/images/items/red-cube.png" alt="Cash Red Cube"/> [Red Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Reboot world only)</p>
+            <p><img src="/images/info/reboot.png" alt="WorldIcon Reboot"/> Receive one <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> [Glowing Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Reboot world only)</p>
             
             <h2>Gachapon Day</h2>
             <ul>

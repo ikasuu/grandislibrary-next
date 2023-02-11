@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 238; 
-export const versionName = "Ignition Update"
+export const version = 239; 
+export const versionName = "Neo Tokyo Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";

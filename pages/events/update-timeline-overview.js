@@ -1395,7 +1395,7 @@ function FestivalOfFoodies() {
                     <li>Each Days-of-the-week badge from Monster Park can be bought from Laku the Merchant</li>
                     <li><strong>Slot Bags can be purchased with mesos in the General Store from major towns</strong></li>
                     <li><strong><img src="/images/items/arcane-river-droplet-stone.png" alt="Etc Arcane River Droplet Stone"/> Arcane River Droplet Stone and <img src="/images/items/stone-origin-droplet.png" alt="Etc Stone Origin Droplet"/> Stone Origin Droplet can now be purchased with mesos from General Stores in regions past Lachelein</strong></li>
-                    <li><strong><img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsmans Cube"/> Master Craftsman's Cube, <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> Powerful Rebirth Flame, and <img src="/images/items/silver-potential-stamp.png" alt="Use Silver Potential Stamp"/> Silver Potential Stamp can now be purchased from Arcane River General Stores</strong></li>
+                    <li><strong><img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> Master Craftsman's Cube, <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> Powerful Rebirth Flame, and <img src="/images/items/silver-potential-stamp.png" alt="Use Silver Potential Stamp"/> Silver Potential Stamp can now be purchased from Arcane River General Stores</strong></li>
                 </ul>
             </li>
             <li>
@@ -1803,7 +1803,7 @@ function LegacyOfNine() {
                 <li>Master Craftsman’s Cubes + Meister’s Cube drop rate adjusted, small drop rate increase for most bosses</li>
                 <li>
                     Cube Rank Up Rate Adjusted (<img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> Master Craftsman’s, <img src="/images/items/meisters-cube.png" alt="Use Meister's Cube"/> Meister’s,
-                    <img src="/images/items/red-cube.png" alt="Cash Red Cube"/> Red, <img src="/images/items/black-cube.png" alt="Cash Black Cube"/> Black, <img src="/images/items/bonus-potential-cube.png" alt="Cash Bonus Potential Cube"/> Bonus Potential Cubes)
+                    <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> Red, <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> Black, <img src="/images/items/bonus-potential-cube.png" alt="Cash Bonus Potential Cube"/> Bonus Potential Cubes)
                 </li>
                 <li><img src="/images/items/golden-hammer.png" alt="Use Golden Hammer"/> Golden Hammer Boss Drop added</li>
                 <li><img src="/images/items/owl-of-minerva.png" alt="Use Owl of Minerva"/> <img src="/images/equipment/electronic-heart.png" alt="Eqp Electronic Heart"/> Owl of Minerva + Electronic Hearts sold for money instead of in Cash Shop</li>
@@ -2676,10 +2676,10 @@ function Red() {
                 </li>
                 <li>New content, <a href="https://www.youtube.com/watch?v=UtW6Lldv7K8&amp;t" target="_blank" rel="noreferrer noopener">Trade Voyages</a></li>
                 <li>New continent, <a href="http://maplestory.nexon.net/micro-site/dawnveil" target="_blank" rel="noreferrer noopener">Dawnveil</a></li>
-                <li>Explorers Revamp (Current iteration)</li>
+                <li>Explorers Revamp</li>
                 <li><a href="https://maplestory.fandom.com/wiki/Open_Advancement" target="_blank" rel="noreferrer noopener">Open Job Advancement</a> system introduced</li>
                 <li>
-                    <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2711005" target="_blank" rel="noreferrer noopener">Master Craftsman Cubes</a> +
+                    <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> <a href="https://maplestory.fandom.com/wiki/Master_Craftsman's_Cube" target="_blank" rel="noreferrer noopener">Master Craftsman Cubes</a> +
                     <img src="/images/items/meisters-cube.png" alt="Use Meister's Cube"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2711004" target="_blank" rel="noreferrer noopener">Meister Cubes</a> introduced
                 </li>
                 <li><a href="https://maplestory.wiki/GMS/214/map/820000000" target="_blank" rel="noreferrer noopener">Event Hall</a> added</li>

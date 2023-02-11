@@ -13,6 +13,13 @@
     ],
     "recent": [
         {
+            "title": "Neo Tokyo Patch Notes",
+            "image": "/home-thumbnail/neo-tokyo.jpg",
+            "alt": "Neo Tokyo Patch Notes",
+            "link": "https://maplestory.nexon.net/news/80182/v-239-neo-tokyo-patch-notes",
+            "subtitle": "February 7, 2023"
+        },
+        {
             "title": "Ignition: Extreme Patch Notes",
             "image": "/home-thumbnail/ignition-extreme.jpg",
             "alt": "Ignition: Extreme Patch Notes",
@@ -46,16 +53,16 @@
             "alt": "Destiny: Homecoming Patch Notes",
             "link": "https://maplestory.nexon.net/news/75294/v-234-destiny-homecoming-patch-notes",
             "subtitle": "July 19, 2022"
-        },
-        {
-            "title": "Destiny: Remastered Patch Notes",
-            "image": "/home-thumbnail/destiny-explorer-revamp.jpg",
-            "alt": "Destiny: Remastered Patch Notes",
-            "link": "https://maplestory.nexon.net/news/74810/v-233-destiny-remastered-patch-notes",
-            "subtitle": "June 15, 2022"
         }
     ],
     "upcoming": [
+        {
+            "title": "Savior: Khali, the Wind of Revenge!",
+            "image": "/home-thumbnail/khali.jpg",
+            "alt": "Savior: Khali, the Wind of Revenge!",
+            "link": "https://orangemushroom.net/2023/01/19/kms-ver-1-2-373-maplestory-savior-khali-the-wind-of-revenge/",
+            "subtitle": "January 19, 2023"
+        },
         {
             "title": "7000 Days of MapleStory!",
             "image": "/home-thumbnail/7000-days.jpg",
@@ -69,13 +76,6 @@
             "alt": "19th Anniversary: Maple Momentree",
             "link": "https://orangemushroom.net/2022/04/21/kms-ver-1-2-363-maplestorys-19th-anniversary-maple-momentree/",
             "subtitle": "Apr 21, 2022"
-        },
-        {
-            "title": "Camilia's Pop-up Store",
-            "image": "/home-thumbnail/camilia-pop-up.jpg",
-            "alt": "Camilia's Pop-up Store",
-            "link": "https://orangemushroom.net/2022/03/24/kms-ver-1-2-362-super-haste-camillas-pop-up-store/",
-            "subtitle": "Mar 24, 2022"
         }
     ],
     "popularContent": [

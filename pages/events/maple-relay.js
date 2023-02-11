@@ -59,7 +59,7 @@ function MapleRelay() {
                         <li>Can be transferred to <a href="https://www.grandislibrary.com/contents/shared-cash-shop-inventories" target="_blank" rel="noreferrer noopener">Cash Shop Inventory</a></li>
                     </ul>
                 </li>
-                <li><img src="/images/items/red-cube.png" alt="Cash Red Cube Twelve Pack"/> Red Cube Twelve Pack</li>
+                <li><img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube Twelve Pack"/> Glowing Cube Twelve Pack</li>
                 <li><img src="/images/items/maple-point-gift-certificate.png" alt="Use 10k Maple Points"/> 10k Maple Points</li>
                 <li><img src="/images/items/relay-master-box.png" alt="Use Relay Master Box"/> Relay Master Box (Choice of Absolab Weapon or Dominator Pendant)</li>
             </ul>

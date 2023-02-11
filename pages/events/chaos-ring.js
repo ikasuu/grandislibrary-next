@@ -39,7 +39,7 @@ function ChaosRing() {
                         <li>Max +/- 5 ATK/MATK</li>
                     </ul>
                 </li>
-                <li><strong>The ring can only obtain Legendary Potential from Red Cubes, Black Cubes and Meister Cubes. The reroll function only goes up to unique. The reroll works like Master Craftsman's Cubes.</strong></li>
+                <li><strong>The ring can only obtain Legendary Potential from Glowing Cubes, Bright Cubes and Solid Cubes. The reroll function only goes up to unique. The reroll works like Hard Cubes.</strong></li>
                 <li>Untradable (Cannot be transferred within account). The ring itself is permanent but the Chaos Ring Coupon itself expires in 10 days if it is not used</li>
                 <li>Costs 3500 coins to buy from Event Shop</li>
             </ul>

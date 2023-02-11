@@ -115,10 +115,10 @@ function UpgradeEquipment() {
                       <li> <a href="https://maplestory.wiki/GMS/210.1.1/item/2049401" target="_blank" rel="noreferrer noopener">Regular Potential</a> and <a href="https://maplestory.wiki/GMS/210.1.1/item/2049705" target="_blank" rel="noreferrer noopener">Epic Potential</a> scrolls can be found normally in-game from hunting and in shops but <a href="https://maplestory.wiki/GMS/210.1.1/item/2049750" target="_blank" rel="noreferrer noopener">Unique Potential</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2049780" target="_blank" rel="noreferrer noopener">Legendary Potential</a>, and <a href="https://maplestory.wiki/GMS/210.1.1/item/2048308" target="_blank" rel="noreferrer noopener">Bonus Potential Scrolls</a> are found from things such as Gachapon, Marvel Machine, Philosopher Books or rarely from Events
                       </li>
                       <li>
-                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2049407" target="_blank" rel="noreferrer noopener">Advanced Potential Scrolls</a> from <img src="/images/items/red-cube-fragment.png" alt="Use Red Cube Fragment"/> Red Cube Fragments (from using Red Cubes) that has a higher success rate than regular potential scrolls
+                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2049407" target="_blank" rel="noreferrer noopener">Advanced Potential Scrolls</a> from <img src="/images/items/red-cube-fragment.png" alt="Use Glowing Cube Fragment"/> Glowing Cube Fragments (from using Glowing Cubes) that has a higher success rate than regular potential scrolls
                       </li>
                       <li>
-                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2048306" target="_blank" rel="noreferrer noopener">Special Bonus Potential Scrolls</a> from <img src="/images/items/black-cube-fragment.png" alt="Use Black Cube Fragment"/> Black Cube Fragments (from using Black Cubes) that has a 100% chance to add a Bonus Potential
+                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2048306" target="_blank" rel="noreferrer noopener">Special Bonus Potential Scrolls</a> from <img src="/images/items/black-cube-fragment.png" alt="Use Bright Cube Fragment"/> Bright Cube Fragments (from using Bright Cubes) that has a 100% chance to add a Bonus Potential
                       </li>
                   </ul>
               </li>
@@ -180,7 +180,7 @@ function UpgradeEquipment() {
                   <img src="/images/items/gold-potential-stamp.png" alt="Use Gold Potential Stamp"/><img src="/images/items/silver-potential-stamp.png" alt="Use Silver Potential Stamp"/><img src="/images/items/bonus-potential-stamp.png" alt="Use Bonus Potential Stamp"/>
                   <strong> [Potential Stamps]: </strong>Some equipment may occasionally only come with two lines of potentials, potential stamps can <strong>add a third line on success</strong>
                   <ul>
-                      <li>Can be found in Legion Shop, Event Shops and from <img src="/images/items/black-cube-fragment.png" alt="Use Black Cube Fragment"/> Black Cube Fragments (obtained from using Black Cubes)</li>
+                      <li>Can be found in Legion Shop, Event Shops and from <img src="/images/items/black-cube-fragment.png" alt="Use Bright Cube Fragment"/> Bright Cube Fragments (obtained from using Bright Cubes)</li>
                   </ul>
               </li>
             </ul>
@@ -298,7 +298,7 @@ function UpgradeEquipment() {
             <p><img className="repository-image" src="/images/info/cube-chart.png" alt="Cube Chart"/></p>
             <ul>
               <li>
-                  <img src="/images/items/occult-cube.png" alt="Use Occult Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2711000" target="_blank" rel="noreferrer noopener">[Occult Cube]</a>: </strong>Rerolls potential of
+                  <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2711000" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>: </strong>Rerolls potential of
                   items up to EPIC
                   <ul>
                       <li>Drops from Bosses and are occasionally rewarded</li>
@@ -306,7 +306,7 @@ function UpgradeEquipment() {
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/bonus-occult-cube.png" alt="Use Bonus Occult Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2730002" target="_blank" rel="noreferrer noopener">[Bonus Occult Cube]</a>: </strong>Rerolls the BONUS
+                  <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2730002" target="_blank" rel="noreferrer noopener">[Bonus Mystical Cube]</a>: </strong>Rerolls the BONUS
                   potential of items up to RARE
                   <ul>
                       <li>Dropped by Midgame/Lategame Bosses and also found in Event Shops</li>
@@ -314,7 +314,7 @@ function UpgradeEquipment() {
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710002" target="_blank" rel="noreferrer noopener">[Master Craftsman's Cube]</a>: </strong>Rerolls
+                  <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710002" target="_blank" rel="noreferrer noopener">[Hard Cube]</a>: </strong>Rerolls
                   potential of items up to UNIQUE
                   <ul>
                       <li>Can be crafted with Professions</li>
@@ -323,7 +323,7 @@ function UpgradeEquipment() {
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/meisters-cube.png" alt="Use Meister's Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710003" target="_blank" rel="noreferrer noopener">[Meister's Cube]</a>: </strong>Rerolls potential of
+                  <img src="/images/items/solid-cube.png" alt="Use Solid Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710003" target="_blank" rel="noreferrer noopener">[Solid Cube]</a>: </strong>Rerolls potential of
                   items up to LEGENDARY
                   <ul>
                       <li>Can be crafted with Professions</li>
@@ -332,23 +332,23 @@ function UpgradeEquipment() {
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/red-cube.png" alt="Cash Red Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062009">[Red Cube]</a>: </strong>Rerolls potential of items up to LEGENDARY
+                  <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062009">[Glowing Cube]</a>: </strong>Rerolls potential of items up to LEGENDARY
                   <ul>
                       <li>Found in the Cash Shop, Reward Points Shop and from Fairy Bros' Daily Gift</li>
                       <li>Occasionally also found in Event Shops</li>
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/black-cube.png" alt="Cash Black Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062010" target="_blank" rel="noreferrer noopener">[Black Cube]</a>: </strong>Rerolls potential of items
+                  <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062010" target="_blank" rel="noreferrer noopener">[Bright Cube]</a>: </strong>Rerolls potential of items
                   up to LEGENDARY. You also have the chance to choose which potential you want, your Current one or the New one
                   <ul>
                       <li>Found in the Cash Shop, Reward Points Shop and from Fairy Bros' Daily Gift</li>
-                      <li>Has a higher chance than Red Cubes to tier up equipment</li>
+                      <li>Has a higher chance than Glowing Cubes to tier up equipment</li>
                       <li>Occasionally also found in Event Shops</li>
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/bonus-potential-cube.png" alt="Cash Bonus Potential Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062500" target="_blank" rel="noreferrer noopener">[Bonus Potential Cube]</a>: </strong>Rerolls the
+                  <img src="/images/items/bonus-glowing-cube.png" alt="Cash Bonus Glowing Cube"/> <strong><a href="https://maplestory.fandom.com/wiki/Cube" target="_blank" rel="noreferrer noopener">[Bonus Potential Cube]</a>: </strong>Rerolls the
                   BONUS potential of items up to LEGENDARY
                   <ul>
                       <li>Found in the Cash Shop and from Fairy Bros' Daily Gift</li>
@@ -362,7 +362,7 @@ function UpgradeEquipment() {
             <p><img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/><img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/><img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/><img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/><img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> Regular Rebirth Flames: <a href="https://maplestory.wiki/GMS/210.1.1/item/2048700" target="_blank" rel="noreferrer noopener">[Lv. 110]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048701" target="_blank" rel="noreferrer noopener">[Lv. 120]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048702" target="_blank" rel="noreferrer noopener">[Lv. 130]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048703" target="_blank" rel="noreferrer noopener">[Lv. 140]</a>, and <a href="https://maplestory.wiki/GMS/214/item/2048704" target="_blank" rel="noreferrer noopener">[Lv. 150]</a></p>
             <p><img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/><img src="/images/items/eternal-rebirth-flame.png" alt="Use Eternal Rebirth Flame"/> Special Rebirth Flames: <a href="https://maplestory.wiki/GMS/214/item/2048716">[Powerful Rebirth Flame]</a> and <a href="https://maplestory.wiki/GMS/214/item/2048717" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a></p>
             <p>Powerful Rebirth Flames and Eternal Rebirth Flames can reroll any equipment with Bonus Stats. They can also provide the best Bonus Stats possible. These special Rebirth Flames can be crafted, sold in Event Shops, given from Fairy Bros' Daily Gift or sometimes dropped by Elite Monsters and Bosses</p>
-            <p>Additionally, there is a special Rebirth Flame called the <img src="/images/items/black-rebirth-flame.png" alt="Black Rebirth Flame"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2048753" target="_blank">Black Rebirth Flame</a> that is only available from Event Shops which functions just like an Eternal Rebirth Flame but you can choose between your previous stats or the current ones similar to the <img src="/images/items/black-cube.png" alt="Cash Black Cube"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5062010" target="_blank">Black Cube</a> for Potentials</p>
+            <p>Additionally, there is a special Rebirth Flame called the <img src="/images/items/black-rebirth-flame.png" alt="Black Rebirth Flame"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2048753" target="_blank">Black Rebirth Flame</a> that is only available from Event Shops which functions just like an Eternal Rebirth Flame but you can choose between your previous stats or the current ones similar to the <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5062010" target="_blank">Bright Cube</a> for Potentials</p>
             <h4>Item Dots <em>(refer to [04] on the top image)</em></h4>
             <p>On the top left corner of an equipment icon when hovering over it, there is a dot that indicates if a Regular Rebirth Flame can be applied to that equipment</p>
             <p><img src="/images/info/item-transparent-dot.png" alt="Transparent Dot"/></p>
