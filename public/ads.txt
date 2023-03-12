@@ -1,4 +1,4 @@
-#  Updated: 2023-03-06 11:58:27
+#  Updated: 2023-03-08 17:10:50
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -23,13 +23,17 @@
 #  An ad network with publisher values. We help games
 #  websites grow and deliver advertising that works.
 #
+#  If you want to advertise with us or join our network,
+#  you can email us at: info@publisher-collective.com
+#
 # -----------------------------------------------------
-
 33across.com, 0010b00002CpYhEAAV, RESELLER, bbea06d9c4d2853c
 33across.com, 0010b00002EdWnZAAV, RESELLER, bbea06d9c4d2853c
 33across.com, 0010b00002Xbn7QAAR, RESELLER, bbea06d9c4d2853c
 33across.com, 0014000001aXjnGAAS, RESELLER, bbea06d9c4d2853c
 33across.com, 0015a00002oUk4aAAC, RESELLER, bbea06d9c4d2853c
+MANAGERDOMAIN=network-n.com
+OWNERDOMAIN=grandislibrary.com
 adagio.io, 1107, DIRECT
 adcolony.com, 496220845654deec, RESELLER, 1ad675c9de6b5176
 adcolony.com, 801e49d1be83b5f9, RESELLER, 1ad675c9de6b5176
@@ -107,6 +111,7 @@ criteo.com, B-059206, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068585, DIRECT, 9fac4a4a87c2a44f
 districtm.io, 100962, RESELLER, 3fd707be9c4527c3
 districtm.io, 102080, DIRECT, 3fd707be9c4527c3
+durationmedia.net, 22856983634, DIRECT
 e-planning.net, 299e243949e31a22, RESELLER, c1ba615865ed87b2
 e-planning.net, 901a809a65f984a4, RESELLER, c1ba615865ed87b2
 emxdgt.com, 1284, RESELLER, 1e1d41537f7cad7f
@@ -242,6 +247,7 @@ pubmatic.com, 156931, RESELLER, 5d62403b186f2ace
 pubmatic.com, 157097, RESELLER, 5d62403b186f2ace
 pubmatic.com, 157577, DIRECT, 5d62403b186f2ace
 pubmatic.com, 157897, RESELLER, 5d62403b186f2ace
+pubmatic.com, 158024, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158060, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158100, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
