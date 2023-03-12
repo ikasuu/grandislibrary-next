@@ -12,11 +12,11 @@ export const logo = "/logo.png";
 
 //Image paths for our page headers
 export const HeaderImageUrl = {
-    library: "/headers/monad-1.png",
-    grandis: "/headers/monad-2.png",
-    fox: "/headers/monad-3.png",
-    verdel: "/headers/monad-4.png",
-    ristonia: "/headers/monad-5.png"
+    library: "/headers/grandis-library.png",
+    grandis: "/headers/borderless.png",
+    fox: "/headers/fox-valley.png",
+    verdel: "/headers/verdel.png",
+    ristonia: "/headers/ristonia.png"
 };
 
 // Image paths for the home buttons
