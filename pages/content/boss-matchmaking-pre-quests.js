@@ -56,17 +56,22 @@ function BossMatchmaking() {
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="balrog"><img src="/images/map-icons/balrog.png" alt="MapIcon Balog"/> Balrog</ArticleHeaderTwo>
           <p><strong>[Easy Lv. 65+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: 7 times daily</li>
+          </ul>
           <p>No pre-quests</p>
           <ul>
               <li>
                   <strong>Main Rewards:</strong> <img src="/images/equipment/bain-wings.png" alt="Eqp Bain Wings"/>[Lv. 58 Bain Weapon], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> <a href="https://maplestory.fandom.com/wiki/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Soul Shard]</a>, <img src="/images/items/balrog-horn-throne.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Balrog-Horn Throne]</a>
               </li>
-              <li><strong>Can clear</strong>: 7 times daily</li>
-              <li><strong>Location:</strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/105100100">Balrog Temple: Bottom of the Temple</a> in Sleepywood</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="zakum"><img src="/images/map-icons/zakum.png" alt="MapIcon Zakum"/> Zakum</ArticleHeaderTwo>
           <p><strong>[Easy Lv. 50+] [Normal/Chaos Lv. 100+]</strong></p>
+          <ul>
+            <li><strong>Can clear Easy/Normal</strong>: Daily</li>
+            <li><strong>Can clear Chaos</strong>: Weekly</li>
+          </ul>
           <p>No pre-quests but, initially there is a quest in the Lightbulb icon called "[Zakum] Statue of Dread" at Lv. 50 that will teleport you to <a href="https://maplestory.wiki/GMS/210.1.1/map/211000001" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a> where you talk to an NPC corresponding to your job (Mage, Archer, Thief, etc.) to teleport to <a href="https://maplestory.wiki/GMS/210.1.1/map/211042300" target="_blank" rel="noreferrer noopener">Dead Mines - The Door to Zakum</a></p>
           <ul>
             <li>
@@ -91,30 +96,24 @@ function BossMatchmaking() {
               <a href="https://maplestory.fandom.com/wiki/Enraged_Zakum_Belt" target="_blank" rel="noreferrer noopener">[Enraged Zakum Belt]</a>, <img src="/images/items/zakum-hand-table.png"/>
               <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Zakum Hand Table]</a>
             </li>
-            <li><strong>Can clear Easy/Normal</strong>: Daily</li>
-            <li><strong>Can clear Chaos</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/211042300" target="_blank" rel="noreferrer noopener">El Nath: The Door to Zakum</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="ursus"><img src="/images/map-icons/ursus.png" alt="Soul Collector Artwork Ursus (1)"/> Ursus</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 100+]</strong></p>
-          <p>You must complete a quest in the Lightbulb icon called “[Ursus] Rumors of The Mighty” at Lv. 100 that is required to enter Ursus. The quest is short and explains what Ursus is</p>
           <ul>
             <li><strong>Can clear</strong>: 3 times daily</li>
-            <li><strong>Location</strong>: Dimensional Mirror after completing pre-quests</li>
             <li><strong>Main Rewards:</strong> <img src="/images/items/meso.png" alt="Meso"/> [Mesos]</li>
           </ul>
+          <p>You must complete a quest in the Lightbulb icon called “[Ursus] Rumors of The Mighty” at Lv. 100 that is required to enter Ursus. The quest is short and explains what Ursus is</p>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="magnus"><img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> Magnus</ArticleHeaderTwo>
-          <p><strong>[Easy Lv. 115+]</strong></p>
-          <p>In Heliseum there will be a quest from Piston called "<a href="https://maplestory.fandom.com/wiki/Quests/21/(Easy_Magnus)_Magnus_Simulator" target="_blank" rel="noreferrer noopener">[Easy Magnus] Magnus Simulator</a>" that is required to enter Easy Magnus. The quest is short and consists of some dialogue</p>
+          <p><strong>[Easy Lv. 115+][Normal Lv. 155+][Hard Lv.175+]</strong></p>
           <ul>
             <li><strong>Can clear Easy/Normal</strong>: Daily</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/401000001" target="_blank" rel="noreferrer noopener">Heliseum - Commander Barracks</a></li>
+            <li><strong>Can clear Hard</strong>: Weekly</li>
           </ul>
-          <p><strong>[Normal Lv. 155+][Hard Lv.175+]</strong></p>
           <p>You must complete a questline from the Lightbulb icon called "<a href="https://maplestory.fandom.com/wiki/Quests/21/To_Pantheon" target="_blank" rel="noreferrer noopener">To Pantheon</a>" at Lv. 90 until you gain access to the Tyrant's Castle</p>
-          <p><strong>[NOTE]: Angelic Buster, Kaiser and Cadena must complete their entire storyline to unlock access to Magnus (excluding Easy mode)</strong></p>
+          <p><strong>[NOTE]: Angelic Buster, Kaiser and Cadena must complete their entire storyline to unlock access to Magnus</strong></p>
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong>
@@ -139,13 +138,15 @@ function BossMatchmaking() {
                 , <img src="/images/items/magnus-coin.png" alt="Etc Magnus Coin"/> [Magnus Coin]
                 , <img src="/images/items/magnus-horn-throne.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Magnus Horn Throne]</a>
             </li>
-            <li><strong>Can clear Hard</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/401060000" target="_blank" rel="noreferrer noopener">Tyrant's Castle : Heliseum Heights Entry</a> in Heliseum/Pantheon</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <BannerAdOne/>
           <ArticleHeaderTwo id="hilla"><img src="/images/map-icons/hilla.png" alt="MapIcon Hilla"/> Hilla</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 120+] [Hard Lv. 170+]</strong></p>
+          <ul>
+            <li><strong>Can clear Normal</strong>: Daily</li>
+            <li><strong>Can clear Hard</strong>: Weekly</li>
+          </ul>
           <p>No pre-quests</p>
           <ul>
             <li>
@@ -164,24 +165,26 @@ function BossMatchmaking() {
               <img src="/images/equipment/will-o-the-wisps.png"/> <a href="https://maplestory.fandom.com/wiki/Will_o%27_the_Wisps" target="_blank" rel="noreferrer noopener">[Will O' the Wisps]</a>
               , <img src="/images/items/hilla-obelisk-floor-lamp.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Hilla Obelisk Floor Lamp]</a>
             </li>
-            <li><strong>Can clear Normal</strong>: Daily</li>
-            <li><strong>Can clear Hard</strong>: Weekly</li>
-            <li><strong>Location</strong>: Dimensional Mirror</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="omnicln"><img src="/images/map-icons/omega-sector.png" alt="MapIcon OmegaSector"/> OMNI-CLN</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 180+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Daily</li>
+          </ul>
           <p>You must complete the Omega Sector Theme Dungeon to gain access to OMNI-CLN. To start the Theme Dungeon, accept the quest from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/38/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
           <ul>
             <li>
                 <strong>Main Rewards: </strong><img src="/images/items/elixir.png"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/omni-cln-component.png" alt="Etc OMNI-CLN Component"/> <a href="https://maplestory.fandom.com/wiki/OMNI-CLN_Component" target="_blank" rel="noreferrer noopener">[OMNI-CLN Component]</a>, <img src="/images/items/omni-cln-vacuum.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[OMNI-CLN Vacuum]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
             </li>
-            <li><strong>Can clear</strong>: Daily</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/221030900" target="_blank" rel="noreferrer noopener">Omega Sector - Pilothouse</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="papulatus"><img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> Papulatus</ArticleHeaderTwo>
           <p><strong>[Easy Lv. 115+] [Normal Lv. 155+] [Chaos Lv. 190+]</strong></p>
+          <ul>
+            <li><strong>Can clear Easy/Normal</strong>: Daily</li>
+            <li><strong>Can clear Hard</strong>: Weekly</li>
+          </ul>
           <p>You must complete the questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/36/(Papulatus)_The_Light_Of_Chaos" target="_blank" rel="noreferrer noopener">[Papulatus] The Light of Chaos</a>” at Lv. 115</p>
           <ul>
             <li>
@@ -199,19 +202,18 @@ function BossMatchmaking() {
                 <strong>Hard Mode only Rewards:</strong> <img src="/images/equipment/papulatus-mark.png" alt="Eqp Papulatus Mark"/> <a href="https://maplestory.fandom.com/wiki/Papulatus_Mark" target="_blank" rel="noreferrer noopener">[Papulatus Mark]</a>
                 , <img src="/images/items/papulatus-wall-clock.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Papulatus Wall Clock]</a>
             </li>
-            <li><strong>Can clear Easy/Normal</strong>: Daily</li>
-            <li><strong>Can clear Hard</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/220080000" target="_blank" rel="noreferrer noopener">Ludibrium - Deep Inside the Clocktower</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="rootabyss"><img src="/images/map-icons/pierre.png" alt="MapIcon Piere"/><img src="/images/map-icons/von-bon.png" alt="MapIcon BanBan"/><img src="/images/map-icons/crimson-queen.png" alt="MapIcon BloodyQueen"/><img src="/images/map-icons/vellum.png" alt="MapIcon Bellum"/> Root Abyss</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 125+]</strong></p>
-          <p>You must complete the questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/62/(Root_Abyss)_An_Urgent_Summons">[Root Abyss] An Urgent Summon</a>” at Lv. 125. Once you've completed the questline, you get 5 free keys daily to access the bosses</p>
           <ul>
             <li><strong>Can clear Normal</strong>: Daily</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/105200000">Root Abyss: Colossal Root</a> in Sleepywood, accessible from Dimensonal Mirror</li>
           </ul>
+          <p>You must complete the questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/62/(Root_Abyss)_An_Urgent_Summons">[Root Abyss] An Urgent Summon</a>” at Lv. 125. Once you've completed the questline, you get 5 free keys daily to access the bosses</p>
           <p><strong>[Chaos Lv. 180+]</strong></p>
+          <ul>
+            <li><strong>Can clear Chaos</strong>: Weekly</li>
+          </ul>
           <p>Unlocked by completing Normal Root Abyss 10 times for the corresponding boss</p>
           <ul>
             <li><strong>Normal mode and Above Rewards:</strong></li>
@@ -230,13 +232,14 @@ function BossMatchmaking() {
                 <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Chaos Hat], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/piece-of-anguish.png" alt="Use Piece of Anguish"/><img src="/images/items/piece-of-mockery.png" alt="Use Piece of Mockery"/><img src="/images/items/piece-of-time.png" alt="Use Piece of Time"/><img src="/images/items/piece-of-destruction.png" alt="Use Piece of Destruction"/> [Chaos Root Abyss Gear Fragment], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src=" /images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/> [Chaos Yggdrasil Coin]
                 , <img src="/images/items/pierre-umbrella-stand.png"/><img src="/images/items/von-bon-windup-clock.png"/><img src="/images/items/crimson-queen-vanity-table.png"/><img src="/images/items/vellum-lava-bathtub.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Furniture]</a>
               </li>
-              <li><strong>Can clear Chaos</strong>: Weekly</li>
-              <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/105200000">Root Abyss: Colossal Root</a> in Sleepywood, accessible from Dimensonal Mirror</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <BannerAdTwo/>
           <ArticleHeaderTwo id="vonleon"><img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> Von Leon</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Hard Lv. 125+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Daily</li>
+          </ul>
           <p>You must complete the Lion King's Castle Theme Dungeon from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/221/Desolate_Castle">Desolate Castle</a>” at Lv. 115. The quest “<a href="https://maplestory.fandom.com/wiki/Quests/221/The_Adventure_of_Jenn_the_Locksmith">The Adventure of Jenn the Locksmith</a>” is also required to unlock Von Leon - it is accessible from the Lightbulb icon</p>
           <ul>
             <li>
@@ -249,15 +252,13 @@ function BossMatchmaking() {
               , <img src="/images/equipment/ifias-earrings.png"/><img src="/images/equipment/ifias-ring.png"/><img src="/images/equipment/ifias-necklace.png"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Ifia%27s_Treasure_Set" target="_blank" rel="noreferrer noopener">[Ifia Accessories]</a>
               , <img src="/images/items/lion-ice-sculpture.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Lion Ice Sculpture]</a>
             </li>
-            <li><strong>Can clear</strong>: Daily</li>
-            <li>
-                <strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/211070000">Lion King's Castle: Audience Room Corridor</a> in El Nath using <img src="/images/items/the-knights-magic-scroll.png" alt="Use The Knight's Magic Scroll"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/2030021" target="_blank" rel="noreferrer noopener">[The Knight's Magic Scroll]</a>
-            </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="horntail"><img src="/images/map-icons/horntail.png" alt="MapIcon Hontale"/> Horntail</ArticleHeaderTwo>
           <p><strong>[Easy/Normal Lv. 130+] [Chaos Lv. 135+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Daily</li>
+          </ul>
           <p>No pre-quests to teleport to Horntail using the Boss Matchmaking System but requires you to complete some quests from <a href="https://maplestory.fandom.com/wiki/Moira" target="_blank" rel="noreferrer noopener">Moira</a> located just <a href="https://maplestory.wiki/GMS/210.1.1/map/240040700" target="_blank" rel="noreferrer noopener">outside of Horntail</a>. The quests are short and just dialogue</p>
           <ul>
             <li><strong>Easy Mode and Above Rewards: </strong> <img src="/images/equipment/silver-blossom-ring.png"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1113149" target="_blank" rel="noreferrer noopener">[Silver Blossom Ring]</a>, <img src="/images/equipment/dea-sidus-earrings.png" alt="Eqp Dea Sidus Earring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032241" target="_blank" rel="noreferrer noopener">[Dea Sidus Earrings]</a>
@@ -274,12 +275,13 @@ function BossMatchmaking() {
                 , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
                 , <img src="/images/items/horntail-fountain.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Horntail Fountain]</a>
             </li>
-            <li><strong>Can clear</strong>: Daily</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/240040700" target="_blank" rel="noreferrer noopener">Leafre: Cave of Life - Entrance</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="arkarium"><img src="/images/map-icons/arkarium.png" alt="MapIcon Akairum"/> Arkarium</ArticleHeaderTwo>
           <p><strong>[Easy/Normal Lv. 140+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Daily</li>
+          </ul>
           <p>You must complete the Silent Crusade questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/1/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 90 to unlock access to Arkarium</p>
           <ul>
             <li>
@@ -296,12 +298,14 @@ function BossMatchmaking() {
                 , <img src="/images/items/arkarium-statue.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Arkarium Statue]</a>
                 , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
             </li>
-            <li><strong>Can clear</strong>: Daily</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/272020110">Dimensional Schism: Front of Arkarium's Alter</a> in the Temple of Time</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="pinkbean"><img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon PinkBean"/> Pink Bean</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 160+] [Chaos Lv. 170+]</strong></p>
+          <ul>
+            <li><strong>Can clear Normal</strong>: Daily</li>
+            <li><strong>Can clear Chaos</strong>: Weekly</li>
+          </ul>
           <p><img src="/images/npc/temple-keeper.png" alt="NPC Temple Keeper"/></p>
           <p>You must complete the main Temple of Time questline to unlock access to Pink Bean. You can start the questline by accepting the quest “<a href="https://maplestory.wiki/GMS/210.1.1/quest/3500" target="_blank" rel="noreferrer noopener">Path to the Past</a>" from the Temple Keeper</p>
           <ul>
@@ -322,15 +326,13 @@ function BossMatchmaking() {
               , <img src="/images/items/eternal-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
               , <img src="/images/items/pink-bean-armchair.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Pink Bean Armchair]</a>
             </li>
-            <li><strong>Can clear Normal</strong>: Daily</li>
-            <li><strong>Can clear Chaos</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/270050000">Deep Place of Temple: Forgotten Twilight</a> in the Temple of Time</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="cygnus"><img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Signus"/> Cygnus</ArticleHeaderTwo>
-          <p><strong>[Easy Lv. 140+]</strong></p>
-          <p>No pre-quests</p>
-          <p><strong>[Normal Lv. 170+]</strong></p>
+          <p><strong>[Easy Lv. 140+] [Normal Lv. 170+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p><img src="/images/npc/chief-alex.png" alt="NPC Chief Alex"/></p>
           <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestory.fandom.com/wiki/Quests/47/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestory.wiki/GMS/210.1.1/map/271010000" target="_blank" rel="noreferrer noopener">Future Henesys</a></p>
           <ul>
@@ -347,13 +349,14 @@ function BossMatchmaking() {
                 , <img src=" /images/equipment/deimos-warrior-shield.png" alt="Eqp Deimos Sage Shield"/><img src=" /images/equipment/deimos-shadow-shield.png" alt="Eqp Deimos Shadow Shield"/><img src=" /images/equipment/deimos-sage-shield.png" alt="Eqp Deimos Warrior Shield"/> [Shield Recipes]
                 , <img src="/images/items/plush-cygnus-shelf.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noreferrer noopener">[Plush Cygnus Shelf]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/271040200" target="_blank" rel="noreferrer noopener">Knight Stronghold: Cygnus Rear Garden</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <BannerAdThree/>
           <ArticleHeaderTwo id="lotus"><img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> Lotus</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 190+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete all Acts of Black Heaven Blockbuster from the Lightbulb icon called “<a href="https://maplestory.wiki/GMS/210.1.1/quest/33127" target="_blank" rel="noreferrer noopener">[Black Heaven] For Maple World</a>" at Lv. 120. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing the Blockbuster will unlock access for all of your other characters in the same world</p>
           <ul>
             <li>
@@ -385,12 +388,13 @@ function BossMatchmaking() {
                 , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
                 , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/350060300" target="_blank" rel="noreferrer noopener">Black Heaven Inside: Core Entrance</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="damien"><img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> Damien</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 190+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb icon called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest. Completing Act 4 will unlock access for all of your other characters in the same world</p>
           <ul>
             <li>
@@ -422,12 +426,13 @@ function BossMatchmaking() {
                 , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
                 , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/Path_to_the_World_Tree_Summit" target="_blank" rel="noreferrer noopener">Dark World Tree: Path to the World Tree Summit</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/map-icons/ramuramu.png" alt="MapIcon ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
           <p><strong>[Normal/Chaos Lv. 210+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the quest <a href="https://maplestory.fandom.com/wiki/Quests/243/(Ramuramu)_Psych_Exam" target="_blank" rel="noreferrer noopener">"[Ramuramu] Psych Exam"</a> that consists of only a series of dialogue</p>
           <ul>
             <li>
@@ -450,12 +455,13 @@ function BossMatchmaking() {
                 , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
                 , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/Guardian_Angel_Slime_Altar" target="_blank" rel="noreferrer noopener">Ramuramu Valley: Guardian Angel Slime Altar</a></li>
           </ul> 
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="lucid"><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> Lucid</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Hard Lv. 220+ &amp; 360ArcP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the Lachelein storyline and defeat Story Mode Lucid in order to unlock access to Lucid</p>
           <ul>
             <li>
@@ -488,12 +494,13 @@ function BossMatchmaking() {
                 , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
                 , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450004000" target="_blank" rel="noreferrer noopener">Lachelein: Nightmare Clocktower</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="gollux"><img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> Gollux</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Hard/Hell Lv. 180]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Daily</li>
+          </ul>
           <p>You can enter the Gollux area without any pre-quests. Enter through the Dimensional Mirror. To gain access to Gollux, you must complete the quest “[Gollux] The Cracks of Corruption”. The quest consists of only dialogue</p>
           <ul>
             <li>
@@ -506,12 +513,13 @@ function BossMatchmaking() {
                 , <img src="/images/items/gollux-wood-bench.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener noreferrer">[(Hell Mode Only) Gollux Wood Bench]</a>
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
             </li>
-            <li><strong>Can clear</strong>: Daily</li>
-            <li><strong>Location</strong>: Dimensional Mirror</li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="gloom"><img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> Gloom</ArticleHeaderTwo>
           <p><strong>[Normal/Chaos Lv. 245+ &amp; 730ArcP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the Moonbridge storyline and defeat Story Mode Gloom in order to unlock access to Gloom</p>
           <ul>
             <li>
@@ -543,12 +551,13 @@ function BossMatchmaking() {
               , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
               , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/450009301" target="_blank">Moonbridge: Facing the Eye of the Void</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="verushilla"><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> Verus Hilla</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 250+ &amp; 900ArcP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the Labyrinth of Suffering storyline and defeat Story Mode Verus Hilla in order to unlock access to Verus Hilla</p>
           <ul>
             <li>
@@ -582,12 +591,13 @@ function BossMatchmaking() {
               , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
               , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450011320" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering: Deep Core Base</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="darknell"><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> Darknell</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 255+ &amp; 850ArcP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the Limina storyline and defeat Story Mode Darknell to unlock access to Darknell</p>
           <ul>
             <li>
@@ -621,12 +631,13 @@ function BossMatchmaking() {
               , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
               , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450012200" target="_blank" rel="noreferrer noopener">Limina: Final Horizon Fore</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="blackmage"><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> Black Mage</ArticleHeaderTwo>
           <p><strong>[Hard/Extreme Lv. 255+ 1320ArcP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Monthly</li>
+          </ul>
           <p>You must complete the Limina storyline and defeat Story Mode Black Mage to unlock access to Black Mage</p>
           <ul>
             <li>
@@ -656,12 +667,13 @@ function BossMatchmaking() {
               , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
               , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Monthly</li>
-            <li><strong>Location</strong>: <a href="http://Limina: Giant's Heart" target="_blank" rel="noreferrer noopener">Limina: Giant's Heart</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="seren"><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> Seren</ArticleHeaderTwo>
           <p><strong>[Hard/Extreme Lv. 265+ 150SacP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the Burning Cernium storyline to unlock access to Seren</p>
           <ul>
             <li>
@@ -691,11 +703,12 @@ function BossMatchmaking() {
               , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
               , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/Palace_Main_Hall" target="_blank" rel="noreferrer noopener">Cernium: Palace Main Hall</a></li>
           </ul>
           <ArticleHeaderTwo id="kalos"><img src="/images/map-icons/karote.png" alt="MapIcon Karote"/> Kalos</ArticleHeaderTwo>
           <p><strong>[Chaos Lv. 270+ 250SacP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the <a href="https://maplestory.fandom.com/wiki/Quests/241/(Karote)_Kalos_the_Guardian" target="_blank" rel="noopener noreferrer">[Karote] Kalos the Guardian</a> questline and defeat Story Mode Kalos to unlock access to Kalos</p>
           <ul>
             <li>
@@ -724,12 +737,13 @@ function BossMatchmaking() {
               , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
               , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.fandom.com/wiki/The_Unending_Tower" target="_blank" rel="noreferrer noopener">Karote: The Unending Tower</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="ranmaru"><img src="/images/map-icons/ranmaru.png" alt="MapIcon Ranmaru"/> Ranmaru</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 120+/Lv.180+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Daily</li>
+          </ul>
           <p>No pre-quests</p>
           <ul>
               <li>
@@ -746,12 +760,13 @@ function BossMatchmaking() {
                   , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
                   , <img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/> <a href="https://maplestory.fandom.com/wiki/Rebirth_Flame_Lv._120" target="_blank" rel="noreferrer noopener">[Lv. 130 Rebirth Flame]</a>
               </li>
-              <li><strong>Can clear</strong>: Daily</li>
-              <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/807300100" target="_blank" rel="noreferrer noopener">El Nath: Secret Altar Path</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="princessno"><img src="/images/map-icons/princess-no-boss.png" alt="MapIcon JP Nohime"/> Princess No</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 140+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the Hieizan Temple storyline to gain access to Princess No. To start, accept the quest from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/56/(Hieizan_Temple)_Regards,_Takeda_Shingen">[Hieizan Temple] Regards, Takeda Shingen</a>” at Lv. 140</p>
           <ul>
             <li>
@@ -764,12 +779,13 @@ function BossMatchmaking() {
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
                 , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/811000999" target="_blank" rel="noreferrer noopener">Hieizan: Hieizan Temple Plaza</a></li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="will"><img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> Will</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 235+ &amp; 760ArcP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li>
+          </ul>
           <p>You must complete the Esfera storyline and defeat Story Mode Will in order to unlock access to Will</p>
           <ul>
             <li>
@@ -800,13 +816,14 @@ function BossMatchmaking() {
                 , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
                 , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
             </li>
-            <li><strong>Can clear</strong>: Weekly</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/map/450007200" target="_blank" rel="noreferrer noopener">Esfera: Radiant Temple</a></li>
           </ul>
           <ArticleHeaderTwo id="akechi"><img src="/images/map-icons/fort-asura.png" alt="Ritual Altar Icon"/> Akechi Mitsuhide</ArticleHeaderTwo>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <hr/>
           <p><strong>[Normal Level 200+]</strong></p>
+          <ul>
+            <li><strong><strong>Can clear</strong>:</strong> Weekly</li>
+          </ul>
           <p>You must complete the Asura Crisis storyline starting with the quest from your Lightbulb icon called "[The Asura Crisis] Back to Momijigaoka" at Lv. 200</p>
           <ul>
             <li>
@@ -822,29 +839,31 @@ function BossMatchmaking() {
               , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/><a href="https://maplestory.fandom.com/wiki/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Non-Reboot Only) Bonus Mystical Cube]</a>
             </li>
-            <li><strong><strong>Can clear</strong>:</strong> Weekly</li>
-            <li><strong><strong>Location</strong>: </strong><a href="https://maplestory.wiki/GMS/220/map/800000000" target="_blank" rel="noopener noreferrer">Mushroom Shrine</a></li>
           </ul>
           <ArticleHeaderTwo id="yakuza"><img src="/images/map-icons/showa-town.png" alt="Showa Town Map Icon"/> Yakuza Boss</ArticleHeaderTwo>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <hr/>
           <p><strong>[Normal Level 160+]</strong></p> 
+          <ul>
+            <li><strong>Can clear</strong>: Daily</li>
+            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/220/map/801040003" target="_blank" rel="noopener noreferrer">Showa Town: Parlor</a></li>
+          </ul>
           <p>You must complete a series of quest starting from "[Showa Town] Welcome to Showa Town!" from the Lightbulb icon at Lv. 160. The last quest you need to complete is "Investigating Fire Raccoon Finance"</p>
           <ul>
             <li><strong>Main Rewards:</strong> <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/equipment/terminus-dominator.png" alt="Eqp Terminus Divider"/><img src="/images/equipment/terminus-executioner.png" alt="Eqp Terminus Executioner"/><img src="/images/equipment/terminus-defender.png" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="/images/items/showa-town-damage-skin.png" alt="Showa Town Damage Skin"/><img src="/images/items/fire-raccoon-damage-skin.png" alt="Fire Racoon Damage Skin"/> [Damage Skins]</li>
-            <li><strong>Can clear</strong>: Daily</li>
-            <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/220/map/801040003" target="_blank" rel="noopener noreferrer">Showa Town: Parlor</a></li>
           </ul>
           <ArticleHeaderTwo id="gigatoad"><img src="/images/map-icons/mushroom-shrine.png" alt="Mushroom Shrine Icon"/> Gigatoad</ArticleHeaderTwo>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <hr/>
           <p><strong>[Normal &amp; Frenzied Level 160+]</strong></p>
+          <ul>
+            <li><strong><strong>Can clear</strong>:</strong> 3 times daily</li>
+            <li><strong><strong>Location</strong>: </strong>Accessible from Ninja Castle</li>
+          </ul>
           <p>No pre-quests</p>
           <ul>
             <li><strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/equipment/terminus-dominator.png" alt="Eqp Terminus Divider"/><img src="/images/equipment/terminus-executioner.png" alt="Eqp Terminus Executioner"/><img src="/images/equipment/terminus-defender.png" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="/images/equipment/elemental-staff-1.png" alt="Eqp Elemental Staff 1"/><img src="/images/equipment/elemental-staff-2.png" alt="Eqp Elemental Staff 2"/>[Elemental Staves], <img src="/images/items/toad-pet-coupon.png" alt="Toad Pet Coupon"/> [(30 Day) Toad Pet Coupon], <img src="/images/items/ninja-castle-damage-skin.png" alt="Ninja Castle Damage Skin"/> [Damage Skin]</li>
             <li><strong><strong>Frenzied Mode Only Rewards: </strong></strong><img src="/images/items/clean-slate-scroll.png" alt="Clean Slate Scroll"/>[Clean Slate Scroll], <img src="/images/items/potion-recipe.png" alt="Exp Accumulation Potion Recipe"/> [EXP Accumulation Potion Recipe], <img src="/images/items/potion-recipe.png" alt="Wealth Acquisition Potion Recipe"/> [Wealth Acquisition Potion Recipe], <img src="/images/items/soul-shard.png" alt="Soul Shard"/> [Soul Shard], <img src="/images/items/golden-toad-sculpture.png" alt="Golden Toad Sculpture"/> [Golden Toad Sculpture]</li>
-            <li><strong><strong>Can clear</strong>:</strong> 3 times daily</li>
-            <li><strong><strong>Location</strong>: </strong>Accessible from Ninja Castle</li>
           </ul>
         </div>
       </ContentPage>

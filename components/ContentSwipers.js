@@ -126,7 +126,7 @@ export function ContentSwiper({content, launch}){
                 content.map((content, index) => 
                 <SwiperSlide key={index} className="content-slide">
                     <a href={content.link} target="_blank" rel="noreferrer noopener">
-                    <ContentImage src={content.image} alt={content.alt} fluid/>
+                    <ContentImage src={content.image} alt={content.title} fluid/>
                     <GradientOverlay/>
                     { launch && <ContentLaunch/>}
                     <ContentTitle>{content.title}</ContentTitle>

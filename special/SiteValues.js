@@ -147,7 +147,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/maple-world-goddess-blessing.png"],
         "animations": ["https://media4.giphy.com/media/AV4drI0ly2fYImnP3H/giphy.gif"],
         "type": "Buff",
-        "desc": "Increases the effects of <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> greatly and grants increased %Damage",
+        "desc": "While active, increases %Damage and the stat bonuses of <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> and similar skills",
         "details": [
             "Blessing is prepared every 180 sec (up to 2 blessings)"
         ]
@@ -554,6 +554,7 @@ export const commonFifth = {
         "desc": "Reduces your %Avoidability while increases %Final Damage and damage taken from enemy attacks (including %Max HP attacks)",
         "details": [
             "There are two stages of the buff, pressing the Skill Key again will enter second stage which increases the effects of both the debuff and buff portions of the skill",
+            "Activating the buff by pressing the Down Arrow Key and Skill Key together will immediately trigger Stage 2<ul><li>Right-clicking the skill will toggle ON/OFF this function</li></ul>",
             "<strong>[Passive]</strong>: Permanently grants flat Attack"
         ]
     },

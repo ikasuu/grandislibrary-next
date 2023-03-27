@@ -13,74 +13,64 @@
     ],
     "recent": [
         {
+            "title": "Double Trouble Recharge Patch Notes",
+            "image": "/home-thumbnail/double-trouble-recharge.jpg",
+            "link": "https://maplestory.nexon.net/news/81361/v-240-double-trouble-recharge-patch-notes",
+            "subtitle": "March 22, 2023"
+        },
+        {
             "title": "Neo Tokyo Patch Notes",
             "image": "/home-thumbnail/neo-tokyo.jpg",
-            "alt": "Neo Tokyo Patch Notes",
             "link": "https://maplestory.nexon.net/news/80182/v-239-neo-tokyo-patch-notes",
             "subtitle": "February 7, 2023"
         },
         {
             "title": "Ignition: Extreme Patch Notes",
             "image": "/home-thumbnail/ignition-extreme.jpg",
-            "alt": "Ignition: Extreme Patch Notes",
             "link": "https://maplestory.nexon.net/news/78591/v-238-ignition-extreme-patch-notes",
             "subtitle": "December 14, 2022"
         },
         {
             "title": "Ignition: Cygnus Knights Redux Patch Notes",
             "image": "/home-thumbnail/cygnus-knights-redux.jpg",
-            "alt": "Ignition: Cygnus Knights Redux Patch Notes",
             "link": "https://maplestory.nexon.net/news/77917/v-237-ignition-cygnus-knights-redux-patch-notes",
             "subtitle": "November 15, 2022"
         },
         {
             "title": "Midnight Carnival Patch Notes",
             "image": "/home-thumbnail/midnight-carnival.jpg",
-            "alt": "Midnight Carnival Patch Notes",
             "link": "https://maplestory.nexon.net/news/76820/v-236-midnight-carnival-patch-notes",
             "subtitle": "October 4, 2022"
         },
         {
             "title": "Rocking Revamp Patch Notes",
             "image": "/home-thumbnail/rocking-revamp.jpg",
-            "alt": "Rocking Revamp Patch Notes",
             "link": "https://maplestory.nexon.net/news/76108/v-235-rocking-revamp-patch-notes",
             "subtitle": "August 30, 2022"
-        },
-        {
-            "title": "Destiny: Homecoming Patch Notes",
-            "image": "/home-thumbnail/homecoming.jpg",
-            "alt": "Destiny: Homecoming Patch Notes",
-            "link": "https://maplestory.nexon.net/news/75294/v-234-destiny-homecoming-patch-notes",
-            "subtitle": "July 19, 2022"
         }
     ],
     "upcoming": [
         {
             "title": "Savior: New Boss Kaling",
             "image": "/home-thumbnail/kaling.jpg",
-            "alt": "Savior: New Boss Kaling",
             "link": "https://orangemushroom.net/2023/02/23/kms-ver-1-2-374-maplestory-savior-sinners-paradise-shangri-la-2023-maple-vision-talk/",
             "subtitle": "February 23, 2023"
         },
         {
             "title": "Savior: Khali, the Wind of Revenge!",
             "image": "/home-thumbnail/khali.jpg",
-            "alt": "Savior: Khali, the Wind of Revenge!",
             "link": "https://orangemushroom.net/2023/01/19/kms-ver-1-2-373-maplestory-savior-khali-the-wind-of-revenge/",
             "subtitle": "January 19, 2023"
         },
         {
             "title": "7000 Days of MapleStory!",
             "image": "/home-thumbnail/7000-days.jpg",
-            "alt": "7000 Days of MapleStory!",
             "link": "https://orangemushroom.net/2022/05/19/kms-ver-1-2-365-7000-days-of-maplestory/",
             "subtitle": "May 19, 2022"
         },
         {
             "title": "19th Anniversary: Maple Momentree",
             "image": "/home-thumbnail/momentree.jpg",
-            "alt": "19th Anniversary: Maple Momentree",
             "link": "https://orangemushroom.net/2022/04/21/kms-ver-1-2-363-maplestorys-19th-anniversary-maple-momentree/",
             "subtitle": "Apr 21, 2022"
         }
@@ -89,49 +79,41 @@
         {
             "title": "Lara Class Overview",
             "image": "/home-thumbnail/narin.jpg",
-            "alt": "Lara Class Overview",
             "link": "/anima/lara",
             "subtitle": "Classes, Anima"
         },
         {
             "title": "Progression Guide",
             "image": "/home-thumbnail/progression.jpg",
-            "alt": "Progression Guide",
             "link": "/content/progression-guide",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Shared Cash Shop Inventory",
             "image": "/home-thumbnail/shared-cash.jpg",
-            "alt": "Shared Cash Shop Inventory",
             "link": "/content/shared-cash-shop-inventories",
             "subtitle": "Content, Equipment"
         },
         {
             "title": "Tera Burning",
             "image": "/home-thumbnail/tera-burning.jpg",
-            "alt": "Tera Burning",
             "link": "/events/tera-burning",
             "subtitle": "Events, Training"
         },
         {
             "title": "Level Content Guide",
             "image": "/home-thumbnail/level-content-guide.jpg",
-            "alt": "Level Content Guide",
             "link": "/content/level-content-guide",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Boss Pre-Quests",
-            "image": "/home-thumbnail/boss-pre-quests.jpg",
-            "alt": "Boss Pre-Quests",
             "link": "/content/boss-matchmaking-pre-quests",
             "subtitle": "Content, Gameplay"
         },
         {
             "title": "Upgrading & Enhancing Equipment",
             "image": "/home-thumbnail/upgrade-enhance.jpg",
-            "alt": "Upgrading & Enhancing Equipment",
             "link": "/content/upgrading-enhancing-equipment",
             "subtitle": "Content, Equipment"
         }

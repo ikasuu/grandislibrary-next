@@ -158,7 +158,7 @@ function ProgressionGuide() {
             <ArticleHeaderTwo id="inner">Inner Ability:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability"/>
-            <p>Inner Ability is located under the Character Stat UI and is unlocked at Lv. 50. To unlock, locate the quest in your Lightbulb tab on the left-hand side called <a href="https://maplestory.fandom.com/wiki/Quests/59/The_Eye_Opener" target="_blank" rel="noreferrer noopener">"The Eye Opener"</a></p>
+            <p>Inner Ability is located under the Character Stat UI and is automatically unlocked at Lv. 50</p>
             <p>Inner Abilities are stat bonuses that work similar to Item Potentials but for your character. They can be reset using <img src="/images/items/medal-of-honor.png" alt="Item Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Boss Medal of Honor Item"/> Honor EXP</p>
             <p>Like Potentials, there are different tiers, Rare, Epic, Unique, and Legendary. You can tier up by using Honor EXP to reset your Inner Ability and resetting will not lower your tier</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
@@ -2071,7 +2071,6 @@ function ProgressionGuide() {
                 </ul>
                 </li>
                 <li><strong>(Lv. 35) The Professional </strong>- A quest to start unlocking Professions, MapleStory's crafting system</li>
-                <li><strong>(Lv. 50) The Eye Opener </strong>- Unlocks your Inner Ability</li>
                 <li><strong>(Lv. 70) [Link Skill] Teaching Link Skill </strong>- Explains Link Skills and unlocks your Link Skill for some classes</li>
                 <li><strong>(Lv. 90) [Silent Crusade] A Cry for Help</strong> - Completing this storyline unlocks access to <img src="/images/map-icons/arkarium.png" alt="MapIcon Akairum"/> <a href="https://maplestory.fandom.com/wiki/Arkarium" target="_blank" rel="noreferrer noopener">Arkarium</a> (but cannot be fought until Lv. 140). You can access the Silent Crusade UI from a HotKey found in your keyboard shortcuts at the bottom by pressing "\"
                 <ul>
