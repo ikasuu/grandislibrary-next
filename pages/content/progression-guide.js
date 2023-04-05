@@ -2099,7 +2099,6 @@ function ProgressionGuide() {
                 </ul>
                 </li>
                 <li><strong>(Lv. 105) [Monster Park] Monster Park Grand Re-opening</strong> - Quest to get started with Monster Park, a special dungeon area that provides EXP when completed</li>
-                <li><strong>(Lv. 115) [Easy Magnus] Magnus Simulator </strong>- Short dialogue quest that unlocks access to Easy Magnus</li>
                 <li><strong>(Lv. 115) [Papulatus] The Light of Chaos </strong>- Starts the pre-quests for the boss Papulatus</li>
                 <li><strong>(Lv. 120) Call of Princess Sakuno: Stop Mori Ranmaru! </strong>- Short dialogue quest that unlocks access to the boss Mori Ranmori</li>
                 <li><strong>(Lv. 120) [Black Heaven] For Maple World </strong>- A long storyline with multiple Acts. Completing Black Heaven will unlock access to the boss <img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> Lotus (but cannot be fought until Lv. 190)
