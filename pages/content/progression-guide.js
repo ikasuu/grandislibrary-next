@@ -272,7 +272,7 @@ function ProgressionGuide() {
                 <img src="/images/info/boost-node.png" alt="Boost Node"/><strong>Boost Nodes</strong>: These are passives that increase the %Final Damage of your 1st - 4th Job Skills. They also provide different bonuses based on the Skill Level of the node such as extra %Crit Rate or %Ignore DEF</p>
             <ul>
                 <li>Each Boost Node will enhance 3 different Skills. When you hover over a boost node in your V Matrix, the Main Skill that is used for leveling up a Boost Node will be the skill at the top. You will need multiple Boost Nodes with the same Main Skill to upgrade a Boost Node</li>
-                <li>Exact duplicates of the same Boost Node (with the same Main Skill and other skills) cannot be equipped together</li>
+                <li>Boost Nodes with the same Main Skill cannot be equipped together</li>
                 <li>Each Boost Node has a max Rank of 25 but each boosted skill can reach a Master Level of 50 (60 with <em>Matrix Points</em>) by equipping two Boost Nodes that boost the same skill</li>
             </ul>
             <p>
