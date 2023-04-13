@@ -859,7 +859,7 @@ export const linkSkills = {
     },
     lara: {
         "id": 160010001,
-        "icons": ["/class-icons/link-skill/natures-friend.png"],
+        "icons": ["/class-icons/link-skills/natures-friend.png"],
         "type": "Passive",
         "desc": "",
         "details": [
