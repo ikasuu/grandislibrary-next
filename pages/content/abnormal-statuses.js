@@ -517,7 +517,7 @@ function PotionLock() {
                     </tr>
                     <tr>
                         <StatusTitle>Cure</StatusTitle>
-                        <StyledTd><img src="/class-icons/explorers/marksman/pain-killer.png" alt="Skill Painkiller"/> Painkiller (Marksman), <img src="/class-icons/explorers/bishop/dispel.png" alt="Skill Dispel"/> Dispel (Bishop), <img src="/class-icons/common/heros-will.png" alt="Skill Hero's Will"/> Hero's Will Skills, <img src="/class-icons/other/zero/time-distortion.png" alt="Skill Time Distortion"/> Time Distortion (Zero), <img src="/class-icons/heroes/shade/spirit-ward.png" alt="Skill Spirit Ward"/> Spirit Ward (Shade)</StyledTd>
+                        <StyledTd><img src="/class-icons/explorers/bishop/dispel.png" alt="Skill Dispel"/> Dispel (Bishop), <img src="/class-icons/common/heros-will.png" alt="Skill Hero's Will"/> Hero's Will Skills, <img src="/class-icons/other/zero/time-distortion.png" alt="Skill Time Distortion"/> Time Distortion (Zero), <img src="/class-icons/heroes/shade/spirit-ward.png" alt="Skill Spirit Ward"/> Spirit Ward (Shade)</StyledTd>
                     </tr>
                     <tr>
                         <StatusTitle>Used by</StatusTitle>
