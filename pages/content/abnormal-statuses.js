@@ -37,8 +37,8 @@ export default function AbnormalStatuses() {
         <ContentTitle>Abnormal Statuses</ContentTitle>
         <StickyAd/>
         <Introduction/>
-        <VideoAd/>
         <TableOfContents/>
+        <VideoAd/>
         <ArticleHeaderTwo>Debuffs</ArticleHeaderTwo>
         <StyledHeaderThree id="weakness">Weakness</StyledHeaderThree>
         <Weakness/>
