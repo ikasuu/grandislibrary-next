@@ -114,7 +114,7 @@ export default function AbnormalStatuses() {
 function Introduction(){
     return(
         <div>
-            <p>Translated from: <a href="https://namu.wiki/w/메이플스토리/시스템/상태이상" target="_blank" rel="noreferrer noopener">https://namu.wiki/w/메이플스토리/시스템/상태이상</a></p>
+            <p>Translated and adapted from: <a href="https://namu.wiki/w/메이플스토리/시스템/상태이상" target="_blank" rel="noreferrer noopener">https://namu.wiki/w/메이플스토리/시스템/상태이상</a></p>
             <ArticleHeaderTwo>Introduction</ArticleHeaderTwo>
             <StyledHeaderThree>What Are Abnormal Statuses?</StyledHeaderThree>
             <p>Abnormal Statuses are status effects applied mainly by bosses, elite bosses, and elite monsters. Some classes can apply Abnormal Statuses to monsters such as <img src="/class-icons/explorers/paladin/divine-charge.png" alt="Skill Divine Charge"/> Divine Charge (Paladin) which applies the Silence status with the same effect as Seal</p>
