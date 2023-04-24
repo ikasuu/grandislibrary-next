@@ -57,6 +57,7 @@ const ClassFigure = styled(Figure.Image)`
 // Styling for the title + black bar on swiper images
 const FilterTitle = styled.p`
     opacity: 0;
+    font-size: 1px;
     display: inline;
     position: absolute;
 `;

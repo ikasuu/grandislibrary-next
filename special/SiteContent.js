@@ -6,9 +6,10 @@
 export const content = {    
     gameplay: [
         ["progression-guide", "Progression Guide", "A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"],
-        ["boss-matchmaking-pre-quests", "Boss Pre-quests", "An explanation on how to unlock access to each of the bosses in the Boss Matchmaking System"],
+        ["boss-matchmaking-pre-quests", "Boss Pre-quests", "An explanation on how to unlock access to each boss in the Boss Matchmaking System"],
         ["level-content-guide", "Level Content Guide", "An in-depth guide to recommended and optional content and training spots available at each level"],
-        ["keyboard-shortcuts", "Keyboard Shortcuts", "An explanation on the all the different UIs accessible from the Keyboard Shortcuts"]
+        ["keyboard-shortcuts", "Keyboard Shortcuts", "An explanation on all the different UIs accessible from the Keyboard Shortcuts"],
+        ["abnormal-statuses", "Abnormal Statuses", "An explanation of what Abnormal Statuses are and what each one does"]
     ],
     class: [ 
         ["stat-terms", "Stat Terms", "An explanation of each stat in the Character Stat UI and other special stats"],

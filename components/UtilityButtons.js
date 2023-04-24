@@ -120,9 +120,9 @@ const scrollWidthOffset = (el) => {
     Created by: Ikasuu, Spring 2021
 */
 
-export function ScrollToTop() {
+export function ScrollToTop({anchor}) {
     return (
-        <a href="#"><ScrollFab/></a>
+        <a href={anchor ? anchor : "#"}><ScrollFab/></a>
     );
 }
 
