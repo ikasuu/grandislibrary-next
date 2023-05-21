@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Alert, Container } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
@@ -11,10 +11,17 @@ import SkillTab from '../../components/class-overview/SkillTab';
 
 function ClassOverview({post, slug}) {
     const [data, setData] = useState(post);
+    const [jettFlag, setJettFlag] = useState(false);
 
     useEffect(() => {
       setData(post);
     },[slug])
+
+    useEffect(() => {
+      if(data.class === "Jett"){
+        setJettFlag(true);
+      }
+    }, data.class)
 
     return (
         <div>
@@ -24,6 +31,7 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
+              {jettFlag && <Alert variant="danger">Jett character creation is now disabled. Jett will be removed as a playable character in February 2024 in GMS. For more info, please read Nexon's offical <a href="https://maplestory.nexon.net/news/82854/maple-memo-important-announcement-about-jett-characters" target="_blank" rel="noreferrer noopener">Maple Memo</a>. For JMS, the notice is located <a href="https://maplestory.nexon.co.jp/notice/view/?alias=3ce62ea291e64f04b9a7ef83e61f6576" target="_blank" rel="noreferrer noopener">here</a></Alert>}
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
