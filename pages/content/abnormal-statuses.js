@@ -990,7 +990,7 @@ function DamageReflect() {
             <p>Attack Reflection fixed damage can vary from minimal damage on bosses like Akechi Mitsuhide to instant deaths like Crimson Queen</p>
             <p>Skills that indicate <strong>"Unaffected by attack reflection"</strong> will not trigger the reflection damage however the attack will still deal 1 damage. Skills that indicate <strong>"Unaffected by attack ignore and attack reflection"</strong> can deal damage through Damage Reflect without triggering the reflection damage</p>
             <p>For Cygnus, damage reflect will damage the party member with the lowest Max HP. If you are solo, the damage will be returned to you instead</p>
-            <p>As a side note, some classes also reflect damage back like Hero, Dark Knight, Aran, Demon Slayer, Mechanic, and Xenon</p>
+            <p>As a side note, some classes also reflect damage back like Hero, Aran, Demon Slayer, Mechanic, and Xenon</p>
         </LazyLoad>
     )
 };
@@ -1049,7 +1049,7 @@ function DamienBrand() {
                 <li><strong>Random</strong> - "Damien is targeting a random opponent for his Brand"</li>
             </ul>
             <p>Brand stacks are also added from getting hit by Damien</p>
-            <p>Dying cannot be prevented by any skills upon reaching 7 stacks</p>
+            <p>Dying cannot be prevented by any skills upon reaching 7 stacks. However, iFrame skills can delay the triggering of the effect</p>
         </LazyLoad>
     )
 };
