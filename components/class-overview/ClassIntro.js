@@ -42,6 +42,8 @@ const StyledHeaderFive = styled.h5`
 
 // Container to hold ClassProperties and PropertyBox
 const PropertyContainer = styled(Col)`
+    max-width: 33rem;
+
   /* For iPad so that the elements do not display as blocks */
   @media (max-width: 1199px){
       max-width: 21rem;
@@ -54,9 +56,9 @@ const PropertyContainer = styled(Col)`
   }
 `;
 
-// Container to hold ClassBuff and LinkSkill
+// Container to hold ClassBuff
 const BuffContainer = styled(Col)`
-  max-width: 36rem;
+  max-width: 34rem;
 
   /* For iPad so that the elements do not display as blocks */
   @media (max-width: 1199px){
@@ -75,11 +77,11 @@ export function ClassIntro({data}) {
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>
                         <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
+                        <LinkSkill linkSkill={data.content.linkSkill}/>
+                        <VideoAdClassOverview/>
                     </PropertyContainer>
                     <BuffContainer md="auto">
                         <ClassBuffs content={data.content}/>
-                        <LinkSkill linkSkill={data.content.linkSkill}/>
-                        <VideoAdClassOverview/>
                     </BuffContainer>
                 </Row>
             </Container>
@@ -186,8 +188,8 @@ function ClassBuffs({content}) {
   return (
       <div>
         <BuffAndActivesWrapper md="auto">
-            <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order instead, show all active skills excluding primary attacks"/></StyledHeaderTwo>
-            <Table size="sm" borderless>
+            <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order. Durations and cooldowns are based on their base value at Max Level"/></StyledHeaderTwo>
+            <Table size="sm">
             <tbody>
                 <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
                 {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.toggles))}</StatTableData></tr>:<></>}

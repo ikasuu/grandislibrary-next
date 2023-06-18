@@ -75,7 +75,8 @@ export const weapons = {
     ancientBow: [`https://maplestory.io/api/GMS/${version}/item/1592000/icon`, "Ancient Bow"],
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
     bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
-    whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"]
+    whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"],
+    chakram: [`https://maplestory.io/api/KMS/373/item/1404007/icon`, "Chakram"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -127,7 +128,8 @@ export const secondaryWeapons = {
     fanTassel: [`https://maplestory.io/api/GMS/${version}/item/1353803/icon`, "Fan Tassel"],
     bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"],
     weaponBelt: [`https://maplestory.io/api/GMS/${version}/item/1354013/icon`, "Weapon Belt"],
-    ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"]
+    ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"],
+    hexSeeker: [`https://maplestory.io/api/KMS/373/item/1354032/icon`, "Hex Seeker"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
@@ -363,16 +365,15 @@ export const commonFifth = {
     },
     grandisGoddessBlessingFL:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
-        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTI4YWJiM21vemt5MW5yNDRnM2hncWkzYXo3cWM0YzVqcGYwOGpweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1FUDtuDNiNos8qi01U/giphy.gif"],
         "type": "Buff",
         "desc": "While active, a percent of your equipment's Attack or Magic Attack will be converted to the one you use",
         "details": [
             "Excludes your Primary Weapon and Set Bonus Effects",
-            "Converted bonus cannot exceed 150% of your weapon's base Attack/Magic Attack",
-            "Blessing is prepared every 240 sec (up to 2 blessings)"
+            "Converted bonus cannot exceed 150% of your weapon's base Attack/Magic Attack"
         ]
     },
     grandisGoddessBlessingHY:{
@@ -380,11 +381,11 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
-        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
         "desc": "While active, increases %Damage and Talisman and Scroll Power charge rate",
         "details": [
-            "Blessing is prepared every 240 sec (up to 2 blessings)"
+            "Blessing is prepared every 180 sec (up to 2 blessings)"
         ]
     },
     grandisGoddessBlessingLARA:{
@@ -392,11 +393,37 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
-        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, increases %Damage and %Final Damage bonus provided from <img src='/class-icons/anima/lara/dragon-vein-echo.png' alt='Skill Dragon Vein Echo'/>",
+        "desc": "While active, increases %Damage and %Final Damage bonus from <img src='/class-icons/anima/lara/dragon-vein-echo.png' alt='Skill Dragon Vein Echo'/>",
         "details": [
-            "Blessing is prepared every 240 sec (up to 2 blessings)"
+            "Blessing is prepared every 180 sec (up to 2 blessings)"
+        ]
+    },
+    afterimageOfTheOtherworld:{
+        "name": "Afterimage of the Otherworld",
+        "shortDesc": "HP Cost: 5%, Afterimage of the Otherworld Duration: 47 sec\\nIncreases all stats that you invested AP into by 15% when there is an Afterimage of the Otherworld within the same map\\n10% chance to restore 3% of Max HP and 3% of Max MP when attacking enemies created by Afterimage of the Otherworld\\nCooldown: 60 sec",
+        "id": 400001065,
+        "icons": ["/class-icons/5th-job/afterimage-of-the-otherworld.png"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXA2N294M3ozdm5ncHlkdDkxa2hyeTNvM3dpcjJxZTAzZXdqaGpnMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0WvCReMHp6vK0YgdOm/giphy.gif"],
+        "type": "Summon",
+        "desc": "Places a portal that increases all stats directly invested with AP and applies a debuff to an enemy",
+        "details": [
+            "<strong>[Debuff]</strong>: Attacking this enemy has a chance to restore %Max HP/MP<ul><li>Debuff application prioritizes bosses with the highest HP first</li></ul>"
+        ]
+    },
+    transcendent:{
+        "name": "Transcendent",
+        "shortDesc": "HP Cost: 5%, Applies Light, Life, and Time Blessing\\nLight Blessing\\nDuration: 20 sec\\nCreates a spear of light when using the attack skill that flies toward enemies in front. Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 4. Remains in place where it sticks, Enemies Hit: 10, Damage: 400%, Number of Attacks: 4, Max Continuous Attacks: 5\\nMax Spears of Light: 7, Spear of Light Cooldown: 2 sec\\nLife Blessing\\nDuration: 28 sec\\nFinal Damage: +5%, Number of Debilitating Status Conditions Blocked: 3\\nTime Blessing\\nDuration: 55 sec, 100% chance for afterimage of a previous time to remain when using 4th job or lower skills (excluding Beginner Skills), Max Enemies Hit: 10, Damage: 350%, Number of Attacks: 3\\nAfterimage of skills that triggered Assist for Zero deals 400% damage\\nAfterimage attack occurs only once per skill\\nCooldown: 120 sec",
+        "id": 400001065,
+        "icons": ["/class-icons/5th-job/transcendent.png"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmVyem9wYXUzYWRkaG90andkeW03ZDlicG5nYjAxYThnNXZkcngxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a29UzvDhUSFQgmdnc0/giphy.gif"],
+        "type": "Buff",
+        "desc": "When used, applies 3 different buff effects",
+        "details": [
+            "<strong>[Light Blessing]</strong>: Using attack skills creates a spear that strikes enemies and lingers briefly dealing continuous damage",
+            "<strong>[Life Blessing]</strong>: Increases %Final Damage and blocks up to 3 Critical Abnormal Statuses",
+            "<strong>[Time Blessing]</strong>: Using 4th Job or lower skills (excluding Beginner Skills) create afterimages that deals an additional attack<ul><li><strong>[Note]</strong>: In the case that more Transcendent classes are added, the 'skills that triggered Assist for Zero' implies that only Zero's skills that trigger the Assist effect create stronger afterimages</li><li>Afterimages can only be created once per skill</li></ul>"
         ]
     },
     lotusFlower:{
