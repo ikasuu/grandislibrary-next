@@ -29,7 +29,7 @@ function AttackSpeed() {
                 <li>Faster (Stage 7)</li>
             </ul>
             <p>Fast and Slow have two values to them because there are certain weapons that have the same Attack Speed label but may be noticeably faster than the other</p>
-            <p>There are also 3 values greater than Faster (3) but no weapon naturally has an Attack Speed value above Faster (3). They can be classified as such:</p>
+            <p>There are also 3 values greater than Faster (7) but no weapon naturally has an Attack Speed value above Faster (7). They can be classified as such:</p>
             <ul>
                 <li>Fastest (Stage 8)</li>
                 <li>Fastest (Stage 9)</li>
