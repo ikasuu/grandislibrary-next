@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 240; 
-export const versionName = "Double Trouble Recharge"
+export const version = 241; 
+export const versionName = "Maple Momentree"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";

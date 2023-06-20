@@ -13,25 +13,31 @@
     ],
     "recent": [
         {
-            "title": "V.241 Maple Momentree Patch Notes",
-            "image": "/home-thumbnail/momentree.jpg",
-            "link": "https://maplestory.nexon.net/news/82631/v-241-maple-momentree-patch-notes",
-            "subtitle": "May 02, 2023"
+            "title": "V.242 Savior: Khali, Wind of Vengeance",
+            "image": "/home-thumbnail/savior.jpg",
+            "link": "https://maplestory.nexon.net/news/83731/v-242-savior-khali-wind-of-vengeance-patch-notes",
+            "subtitle": "June 13, 2023"
         },
         {
-            "title": "Double Trouble Recharge Patch Notes",
+            "title": "V.241 Maple Momentree",
+            "image": "/home-thumbnail/momentree.jpg",
+            "link": "https://maplestory.nexon.net/news/82631/v-241-maple-momentree-patch-notes",
+            "subtitle": "May 2, 2023"
+        },
+        {
+            "title": "V.240 Double Trouble Recharge",
             "image": "/home-thumbnail/double-trouble-recharge.jpg",
             "link": "https://maplestory.nexon.net/news/81361/v-240-double-trouble-recharge-patch-notes",
             "subtitle": "March 22, 2023"
         },
         {
-            "title": "Neo Tokyo Patch Notes",
+            "title": "V.239 Neo Tokyo",
             "image": "/home-thumbnail/neo-tokyo.jpg",
             "link": "https://maplestory.nexon.net/news/80182/v-239-neo-tokyo-patch-notes",
             "subtitle": "February 7, 2023"
         },
         {
-            "title": "Ignition: Extreme Patch Notes",
+            "title": "V.238 Ignition: Extreme",
             "image": "/home-thumbnail/ignition-extreme.jpg",
             "link": "https://maplestory.nexon.net/news/78591/v-238-ignition-extreme-patch-notes",
             "subtitle": "December 14, 2022"
@@ -41,15 +47,15 @@
             "image": "/home-thumbnail/cygnus-knights-redux.jpg",
             "link": "https://maplestory.nexon.net/news/77917/v-237-ignition-cygnus-knights-redux-patch-notes",
             "subtitle": "November 15, 2022"
-        },
-        {
-            "title": "Midnight Carnival Patch Notes",
-            "image": "/home-thumbnail/midnight-carnival.jpg",
-            "link": "https://maplestory.nexon.net/news/76820/v-236-midnight-carnival-patch-notes",
-            "subtitle": "October 4, 2022"
         }
     ],
     "upcoming": [
+        {
+            "title": "New Age: Identisk Island!",
+            "image": "/home-thumbnail/new-age-identisk.jpg",
+            "link": "https://orangemushroom.net/2023/06/16/kms-ver-1-2-378-maplestory-new-age-identisk-island/",
+            "subtitle": "June 16, 2023"
+        },
         {
             "title": "20th Anniversary: Mapril Island",
             "image": "/home-thumbnail/mapril.jpg",
@@ -67,12 +73,6 @@
             "image": "/home-thumbnail/khali.jpg",
             "link": "https://orangemushroom.net/2023/01/19/kms-ver-1-2-373-maplestory-savior-khali-the-wind-of-revenge/",
             "subtitle": "January 19, 2023"
-        },
-        {
-            "title": "7000 Days of MapleStory!",
-            "image": "/home-thumbnail/7000-days.jpg",
-            "link": "https://orangemushroom.net/2022/05/19/kms-ver-1-2-365-7000-days-of-maplestory/",
-            "subtitle": "May 19, 2022"
         }
     ],
     "popularContent": [
