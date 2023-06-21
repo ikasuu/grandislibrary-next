@@ -1,6 +1,11 @@
 {
     "featured": [
         {
+            "image": "/home-thumbnail/khali-overview.jpg",
+            "alt": "Khali Class Overview",
+            "link": "https://grandislibrary.com/flora/khali"
+        },
+        {
             "image": "/home-thumbnail/discord-invite.jpg",
             "alt": "Discord Invite",
             "link": "https://discord.gg/d4et8vt9kP"
@@ -77,10 +82,10 @@
     ],
     "popularContent": [
         {
-            "title": "Lara Class Overview",
-            "image": "/home-thumbnail/narin.jpg",
-            "link": "/anima/lara",
-            "subtitle": "Classes, Anima"
+            "title": "Khali Class Overview",
+            "image": "/home-thumbnail/erimos.jpg",
+            "link": "/flora/khali",
+            "subtitle": "Classes, Flora"
         },
         {
             "title": "Progression Guide",
@@ -122,39 +127,9 @@
     ],
     "popularClasses": [
         {
-            "alt": "Adele",
-            "class": "adele",
-            "path": "flora/adele"
-        },
-        {
-            "alt": "Arch Mage I/L",
-            "class": "arch-mage-ice-lightning",
-            "path": "explorers/arch-mage-ice-lightning"
-        },
-        {
-            "alt": "Night Lord",
-            "class": "night-lord",
-            "path": "explorers/night-lord"
-        },
-        {
             "alt": "Dawn Warrior",
             "class": "dawn-warrior",
             "path": "cygnus-knights/dawn-warrior"
-        },
-        {
-            "alt": "Marksman",
-            "class": "marksman",
-            "path": "explorers/marksman"
-        },
-        {
-            "alt": "Dark Knight",
-            "class": "dark-knight",
-            "path": "explorers/dark-knight"
-        },
-        {
-            "alt": "Dual Blade",
-            "class": "dual-blade",
-            "path": "explorers/dual-blade"
         },
         {
             "alt": "Buccaneer",
@@ -162,14 +137,44 @@
             "path": "explorers/buccaneer"
         },
         {
-            "alt": "Paladin",
-            "class": "paladin",
-            "path": "explorers/paladin"
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
+        },
+        {
+            "alt": "Hero",
+            "class": "hero",
+            "path": "explorers/hero"
+        },
+        {
+            "alt": "Shadower",
+            "class": "shadower",
+            "path": "explorers/shadower"
+        },
+        {
+            "alt": "Bishop",
+            "class": "bishop",
+            "path": "explorers/bishop"
+        },
+        {
+            "alt": "Dual Blade",
+            "class": "dual-blade",
+            "path": "explorers/dual-blade"
         },
         {
             "alt": "Night Walker",
             "class": "night-walker",
             "path": "cygnus-knights/night-walker"
+        },
+        {
+            "alt": "Night Lord",
+            "class": "night-lord",
+            "path": "explorers/night-lord"
+        },
+        {
+            "alt": "Wind Archer",
+            "class": "wind-archer",
+            "path": "cygnus-knights/wind-archer"
         }
     ]
 }

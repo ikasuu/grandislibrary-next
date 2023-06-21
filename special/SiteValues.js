@@ -4,20 +4,26 @@
 */
 
 //Latest version of GMS
-export const version = 241; 
-export const versionName = "Maple Momentree"
+export const version = 242; 
+export const versionName = "Savior"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
 
 //Image paths for our page headers
 export const HeaderImageUrl = {
-    library: "/headers/grandis-library.png",
-    grandis: "/headers/borderless.png",
-    fox: "/headers/fox-valley.png",
-    verdel: "/headers/verdel.png",
-    ristonia: "/headers/ristonia.png"
+    library: "/headers/erimos-1.png",
+    grandis: "/headers/erimos-2.png",
+    fox: "/headers/erimos-3.png",
+    verdel: "/headers/erimos-4.png",
+    ristonia: "/headers/erimos-5.png"
 };
+
+// library: "/headers/grandis-library.png",
+// grandis: "/headers/borderless.png",
+// fox: "/headers/fox-valley.png",
+// verdel: "/headers/verdel.png",
+// ristonia: "/headers/ristonia.png"
 
 // Image paths for the home buttons
 export const HeaderBlockImageUrl = {
@@ -34,7 +40,7 @@ export const classes = {
     resistance: [["battle-mage", "Battle Mage"], ["blaster", "Blaster"], ["mechanic", "Mechanic"], ["wild-hunter", "Wild Hunter"], ["xenon", "Xenon"], ["demon-slayer", "Demon Slayer"], ["demon-avenger", "Demon Avenger"]],
     nova: [["angelic-buster", "Angelic Buster"], ["kaiser", "Kaiser"], ["cadena", "Cadena"], ["kain", "Kain"]],
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
-    flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"]],
+    flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
     other: [["kinesis", "Kinesis"], ["zero", "Zero"], ["beast-tamer", "Beast Tamer"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]]
 }
