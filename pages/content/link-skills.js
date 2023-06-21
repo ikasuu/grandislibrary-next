@@ -143,6 +143,9 @@ function LinkSkills() {
         <p><strong>[Adele] </strong></p>
         <SingleSkill skillData={linkSkills.adele}/>
         <hr/>
+        <p><strong>[Khali] </strong></p>
+        <SingleSkill skillData={linkSkills.khali}/>
+        <hr/>
         {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="anima">Anima</h2>
         <hr/>

@@ -872,6 +872,16 @@ export const linkSkills = {
             "Useful for BOSSING"
         ]
     },
+    khali: {
+        "id": 80003224,
+        "icons": ["/class-icons/link-skills/innate-gift.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Unaffected by cooldown resets, cooldown reduction, and buff duration increase",
+            "Useful for SURVIVABILITY"
+        ]
+    },
     beastTamer: {
         "id": 80010006,
         "icons": ["/class-icons/link-skills/focus-spirit.png"],
