@@ -744,7 +744,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>No pre-quests</p>
+          <p>You must complete the quest "[Ranmaru] Call of Princess Sakuno: Stop Mori Ranmaru!" that consists of only a series of dialogue</p>
           <ul>
               <li>
                   <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/eclectic-fennel.png" alt="Eqp Eclectic Fennel"/> [Lv. 120 Gear]

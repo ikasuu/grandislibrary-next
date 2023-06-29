@@ -2078,11 +2078,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><strong>(Lv. 90) To Pantheon </strong>- Completing this storyline unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestory.fandom.com/wiki/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> (cannot be fought until Lv. 155) and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestory.fandom.com/wiki/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> which can be used as currency for a <a href="https://maplestory.fandom.com/wiki/Mayala" target="_blank" rel="noreferrer noopener">special shop</a>
-                <ul>
-                    <li>Normal and Hard Magnus cannot be fought until Lv. 155+</li>
-                </ul>
-                </li>
+                <li><strong>(Lv. 90) To Pantheon </strong>- Completing this storyline unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestory.fandom.com/wiki/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestory.fandom.com/wiki/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> which can be used as currency for a <a href="https://maplestory.fandom.com/wiki/Mayala" target="_blank" rel="noreferrer noopener">special shop</a></li>
                 <li><strong>(Lv. 100) [Ursus] Rumors of The Mighty </strong>- Quest to get started with Ursus, an important boss in Reboot for Mesos. Provides a quick explanation to the boss
                 <ul>
                     <li><strong>Main Reward: </strong><strong/>[Mesos]</li>
@@ -2100,7 +2096,7 @@ function ProgressionGuide() {
                 </li>
                 <li><strong>(Lv. 105) [Monster Park] Monster Park Grand Re-opening</strong> - Quest to get started with Monster Park, a special dungeon area that provides EXP when completed</li>
                 <li><strong>(Lv. 115) [Papulatus] The Light of Chaos </strong>- Starts the pre-quests for the boss Papulatus</li>
-                <li><strong>(Lv. 120) Call of Princess Sakuno: Stop Mori Ranmaru! </strong>- Short dialogue quest that unlocks access to the boss Mori Ranmori</li>
+                <li><strong>(Lv. 120) [Ranmaru] Call of Princess Sakuno: Stop Mori Ranmaru! </strong>- Short dialogue quest that unlocks access to the boss Mori Ranmori</li>
                 <li><strong>(Lv. 120) [Black Heaven] For Maple World </strong>- A long storyline with multiple Acts. Completing Black Heaven will unlock access to the boss <img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> Lotus (but cannot be fought until Lv. 190)
                 <ul>
                     <li>Completing this on one character will unlock access to Lotus for all your characters in the same world</li>
@@ -2291,6 +2287,11 @@ function ProgressionGuide() {
                 </ul>
                 </li>
                 <li><strong>(Lv. 80) Use the Transfer Hammer! </strong>- Tutorial quest explaining Transfer Hammer</li>
+                <li><strong>(Lv. 90) [Stellar Detectives] </strong><strong>The Erased Diary </strong>- Storyline with useful but optional rings for bossing
+                <ul>
+                    <li><strong>Main Rewards:</strong> <img src="/images/items/hyperspace-box.png" alt="Use Hyperspace Box"/>[<a href="https://maplestory.fandom.com/wiki/Hyperspace_Box" target="_blank" rel="noreferrer noopener">Hyperspace Box</a>] <img src="/images/equipment/i-really-like-tutu.png" alt="Eqp I really like Tutu"/> <img src="/images/equipment/i-really-like-nenne.png" alt="Eqp I really like Nenne"/> <img src="/images/equipment/i-really-like-lingling.png" alt="Eqp I really like Lingling"/> <img src="/images/equipment/i-really-like-jett.png" alt="Eqp I Really Like Jett"/> [Medal], <img src="/images/items/lingling-damage-skin.png" alt="Use Lingling Damage Skin"/> <img src="/images/items/tutu-damage-skin.png" alt="Use Tutu Damage Skin"/> <img src="/images/items/nenne-damage-skin.png" alt="Use Nenne Damage Skin"/> [Damage Skins]</li>
+                </ul>
+                </li>
                 <li><strong>(Lv. 100) </strong><strong>[Grand Athenaeum] Visit the Grand Athenaeum </strong>- Cutscene heavy storyline that explains Maple World lore
                 <ul>
                     <li><strong>Main Rewards:</strong> <img src="/images/equipment/scholarly-pendant.png" alt="Eqp Scholarly Pendant"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122263" target="_blank" rel="noreferrer noopener">[Scholarly Pendant]</a> for completing 3 stories</li>
@@ -2300,12 +2301,6 @@ function ProgressionGuide() {
                 <ul>
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/dimension-gloves.png" alt="Eqp Dimension Gloves"/> <img src="/images/equipment/high-quality-dimension-gloves.png" alt="Eqp High Quality Dimension Gloves"/> <a href="https://maplestory.fandom.com/wiki/Dimension_Gloves" target="_blank" rel="noreferrer noopener">[Dimension Gloves]</a>
                     </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 140) [Tower of Oz] Tower Under the Sea </strong>- A quest to get started with the Tower of Oz. Provides a quick explanation and tutorial for Tower of Oz
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/ring-of-restraint.png" alt="Eqp Ring of Restraint"/> <img src="/images/equipment/ultimatum-ring.png" alt="Eqp Ultimatum Ring"/> [Rings with Active Skills], <img src="/images/equipment/ryudes-sword.png" alt="Eqp Ryude's Sword"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1402224" target="_blank" rel="noreferrer noopener">[Ryude's Sword]</a>, <img src="/images/equipment/ocean-glow-earrings.png" alt="Eqp Ocean Glow Earrings"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032232" target="_blank" rel="noreferrer noopener">[Ocean Glow Earrings]</a>, <img src="/images/equipment/lightseeker.png" alt="Eqp Lightseeker"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1452229" target="_blank" rel="noreferrer noopener">[Lightseeker Bow]</a>, <img src="/images/equipment/alicias-mutated-staff.png" alt="Eqp Alicia's Mutated Staff"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1382234" target="_blank" rel="noreferrer noopener">[Alicia's Mutated Staff]</a>, <img src="/images/equipment/aquarius-crown.png" alt="Eqp Aquarius Crown"/>  <a href="https://maplestory.wiki/GMS/210.1.1/item/1004075" target="_blank" rel="noreferrer noopener">[Aquarius Crown]</a>, <img src="/images/items/alicias-damage-skin.png" alt="Use Alicia's Damage Skin"/> <img src="/images/items/dorothys-damage-skin.png" alt="Use Dorothy's Damage Skin"/> <img src="/images/items/basic-damage-skin.png" alt="Use Basic Damage Skin"/> [Damage Skins]</li>
-                    <li>Only the rings are valuable although they can be tedious to obtain because the power of each ring can vary and are randomly obtained from loot boxes</li>
                 </ul>
                 </li>
                 <li><strong>(Lv. 140) [System] Item Update</strong> - Provides an explanation to Transposing after reaching San Commerci</li>
@@ -2340,11 +2335,10 @@ function ProgressionGuide() {
                     <li>You can also do this if you want the Balanced Fury or Crystal Ilbis Throwing Stars</li>
                 </ul>
                 </li>
-                <li><strong>(Lv. 200) </strong><strong>[Battle Content] Alien Visitors </strong>- A quest to get started with Alien Visitors PQ. Provides a quick explanation to Alien Visitor
+                <li><strong>(Lv. 200) [Tower of Oz] Tower Under the Sea </strong>- A quest to get started with the Tower of Oz. Provides a quick explanation and tutorial for Tower of Oz
                 <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/last-unwelcome-guest-necklace.png" alt="Eqp Last Unwelcome Guest Necklace"/> <img src="/images/equipment/last-unwelcome-guest-earrings.png" alt="Eqp Last Unwelcome Guest Earrings"/> <img src="/images/equipment/last-unwelcome-guest-belt.png" alt="Eqp Last Unwelcome Guest Belt"/> <img src="/images/equipment/rare-alien-fragment-helmet.png" alt="Eqp Rare Alien Fragment Helmet"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Alien_Fragment_Set">[Lv. 180 Alien Fragment Gear]</a>, <img src="/images/equipment/vip-bow.png" alt="Eqp VIP Bow"/> [Alien Fragment Weapons] can be obtained from <a href="https://maplestory.fandom.com/wiki/Category%3AAlien_Visitor" target="_blank" rel="noreferrer noopener">Alien Visitor</a>
-                    <li>Accessories are a decent substitute until you get Gollux accessories because they can be Star Forced to 25 stars and gain better potential lines</li>
-                    </li>
+                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/ring-of-restraint.png" alt="Eqp Ring of Restraint"/> <img src="/images/equipment/ultimatum-ring.png" alt="Eqp Ultimatum Ring"/> [Rings with Active Skills], <img src="/images/equipment/ryudes-sword.png" alt="Eqp Ryude's Sword"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1402224" target="_blank" rel="noreferrer noopener">[Ryude's Sword]</a>, <img src="/images/equipment/ocean-glow-earrings.png" alt="Eqp Ocean Glow Earrings"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032232" target="_blank" rel="noreferrer noopener">[Ocean Glow Earrings]</a>, <img src="/images/equipment/lightseeker.png" alt="Eqp Lightseeker"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1452229" target="_blank" rel="noreferrer noopener">[Lightseeker Bow]</a>, <img src="/images/equipment/alicias-mutated-staff.png" alt="Eqp Alicia's Mutated Staff"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1382234" target="_blank" rel="noreferrer noopener">[Alicia's Mutated Staff]</a>, <img src="/images/equipment/aquarius-crown.png" alt="Eqp Aquarius Crown"/>  <a href="https://maplestory.wiki/GMS/210.1.1/item/1004075" target="_blank" rel="noreferrer noopener">[Aquarius Crown]</a>, <img src="/images/items/alicias-damage-skin.png" alt="Use Alicia's Damage Skin"/> <img src="/images/items/dorothys-damage-skin.png" alt="Use Dorothy's Damage Skin"/> <img src="/images/items/basic-damage-skin.png" alt="Use Basic Damage Skin"/> [Damage Skins]</li>
+                    <li>Only the rings are valuable although they can be tedious to obtain because the power of each ring can vary and are randomly obtained from loot boxes</li>
                 </ul>
                 </li>
             </ul>
@@ -2395,11 +2389,6 @@ function ProgressionGuide() {
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/ariant-culture-expert.png" alt="Eqp Ariant Culture Expert"/> [Medal]</li>
                 </ul>
                 </li>
-                <li><strong>(Lv. 90) [Stellar Detectives] </strong><strong>The Erased Diary </strong>- The rewards that are not very worth obtaining. This is more for a fun activity or for item collecting rather than for training
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/i-really-like-tutu.png" alt="Eqp I really like Tutu"/> <img src="/images/equipment/i-really-like-nenne.png" alt="Eqp I really like Nenne"/> <img src="/images/equipment/i-really-like-lingling.png" alt="Eqp I really like Lingling"/> <img src="/images/equipment/i-really-like-jett.png" alt="Eqp I Really Like Jett"/> [Medal], <img src="/images/items/lingling-damage-skin.png" alt="Use Lingling Damage Skin"/> <img src="/images/items/tutu-damage-skin.png" alt="Use Tutu Damage Skin"/> <img src="/images/items/nenne-damage-skin.png" alt="Use Nenne Damage Skin"/> [Damage Skins]</li>
-                </ul>
-                </li>
                 <li><strong>(Lv. 105) [Evolution System] Suspicious Movement on the Path </strong>- Quest to get started with Evolution System. Consists of a few cutscenes and tutorial quests</li>
                 <li><strong>(Lv. 110) [Chryse] Find Xerxes </strong>- Quest to get started with the Chryse Party Quest</li>
                 <li><strong>(Lv. 110) [Ludibrium] Ludibrium Sheriff </strong>- Starts the Ludibrium area quests for the medal
@@ -2412,7 +2401,6 @@ function ProgressionGuide() {
                     <li>Separate from the actual Lion King's Castle Theme Dungeon</li>
                 </ul>
                 </li>
-                <li><strong>(Lv. 120) Princess Sakuno Beckons </strong>- A quest explaining the boss Mori Ranmaru although, it is not required to actually fight the boss</li>
                 <li><strong>(Lv. 120) Fly in the Sky! </strong>- A quest where completing it teaches you the skill "Soaring"
                 <ul>
                     <li>Soaring is used in the Dragon Rider PQ but is not required anymore since the removal of the Crusader Codex</li>
