@@ -1,4 +1,4 @@
-#  Updated: 2023-06-21 12:37:14
+#  Updated: 2023-07-03 16:03:20
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -34,12 +34,15 @@
 33across.com, 0015a00002oUk4aAAC, RESELLER, bbea06d9c4d2853c
 MANAGERDOMAIN=network-n.com
 OWNERDOMAIN=grandislibrary.com
+ad-generation.jp, 12474, RESELLER, 7f4ea9029ac04e53
 adagio.io, 1107, DIRECT
 adform.com, 2078, RESELLER
 adingo.jp, 24292, RESELLER
 adingo.jp, 27365, RESELLER
 admanmedia.com, 43, RESELLER
+admanmedia.com, 726, RESELLER, 
 admanmedia.com, 799, RESELLER
+adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
 amxrtb.com, 105199579, RESELLER
 amxrtb.com, 105199691, RESELLER
@@ -72,6 +75,7 @@ contextweb.com, 558355, RESELLER
 contextweb.com, 560606, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562258, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562377, DIRECT, 89ff185a4c4e857c
+contextweb.com, 562541, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562615, RESELLER, 89ff185a4c4e857c
 conversantmedia.com, 100232, RESELLER, 03113cd04947736d
 criteo.com, B-059206, RESELLER, 9fac4a4a87c2a44f
@@ -108,6 +112,7 @@ google.com, pub-6373315980741255, RESELLER, f08c47fec0942fa0
 google.com, pub-7269238500499280, RESELLER, f08c47fec0942fa0
 google.com, pub-7858377917172490, RESELLER, f08c47fec0942fa0
 gumgum.com, 13926, RESELLER, ffdef49475d318a9
+gumgum.com, 14141, RESELLER, ffdef49475d318a9
 gumgum.com, 14349, DIRECT, ffdef49475d318a9
 gumgum.com, 15609, DIRECT, ffdef49475d318a9
 hoopladigital.co.uk, 21751981256, DIRECT
@@ -124,6 +129,7 @@ indexexchange.com, 189345, DIRECT
 indexexchange.com, 191306, RESELLER
 indexexchange.com, 191503, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 192410, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 193657, DIRECT
 indexexchange.com, 193792, DIRECT
 indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc
@@ -133,11 +139,14 @@ indexexchange.com, 194648, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 195491, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 195924, RESELLER
 infolinks.com, 3355573, DIRECT
+inmobi.com, 17865bac25f44f51b8fd08b12e92072c, DIRECT, 83e75a7ae333ca9d
 inmobi.com, 8f261ace12c3486ba2e0d2011cd97976, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 9e311c7a68e94888aac7fbb4272381e2, RESELLER, 83e75a7ae333ca9d
 justpremium.com, 2776, DIRECT
+lijit.com, 240955, DIRECT, fafdf38b16bf6b2b
 lijit.com, 240955-eb, DIRECT, fafdf38b16bf6b2b
 lijit.com, 367236, RESELLER, fafdf38b16bf6b2b
+lijit.com, 375328, RESELLER, fafdf38b16bf6b2b
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
 media.net, 8CU6604U6, RESELLER
@@ -148,6 +157,7 @@ media.net, 8CUQ6928Q, RESELLER
 media.net, 8CUY6IX4H, RESELLER
 mintegral.com, 10043, RESELLER, 0aeed750c80d6423
 minutemedia.com, 01gerz67grgj, RESELLER
+minutemedia.com, 01gya4708ddm, RESELLER
 network-n.com, pa_ba2bc67e, DIRECT, f08c47fec0942fa0
 nextmillennium.io, 16312, DIRECT, 65bd090fa4a1e3d6
 nobid.io, 22856983634, DIRECT
@@ -278,7 +288,6 @@ sonobi.com, 649aabf138, DIRECT, d1a215d9eb5aee9e
 sonobi.com, 7ad1b9f952, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 7f5fa520f8, RESELLER, d1a215d9eb5aee9e
 sonobi.com, a015179bd7, DIRECT, d1a215d9eb5aee9e
-sovrn.com, 240955, DIRECT, fafdf38b16bf6b2b
 sovrn.com, 268479, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 273657, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 376385, RESELLER, fafdf38b16bf6b2b
@@ -287,6 +296,7 @@ spotx.tv, 268145, DIRECT, 7842df1d2fe2db34
 stroeer.com, 22739, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 themediagrid.com, GD57SQ, DIRECT, 35d5010d7789b49d
+themediagrid.com, JTQKMP, RESELLER, 35d5010d7789b49d
 themediagrid.com, PRLEZI, RESELLER, 35d5010d7789b49d
 themediagrid.com, TU8HG3, DIRECT, 35d5010d7789b49d
 themediagrid.com, V19ZSB, RESELLER, 35d5010d7789b49d
