@@ -105,6 +105,7 @@ function BossMatchmaking() {
             <li><strong>Main Rewards:</strong> <img src="/images/items/meso.png" alt="Meso"/> [Mesos]</li>
           </ul>
           <p>You must complete a quest in the Lightbulb icon called “[Ursus] Rumors of The Mighty” at Lv. 100 that is required to enter Ursus. The quest is short and explains what Ursus is</p>
+          <p>To enter Ursus, you are required daily to defeat 300 enemies near your level</p>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="magnus"><img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> Magnus</ArticleHeaderTwo>
           <p><strong>[Easy Lv. 115+][Normal Lv. 155+][Hard Lv.175+]</strong></p>

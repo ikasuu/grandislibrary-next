@@ -259,7 +259,7 @@ function UpgradeEquipment() {
                 </tbody>
             </table>
             <br/>
-            <p>If two Star Force attempts in a row result in failure, the next attempt will enter Chance Time and have a guaranteed success rate. Additionally, once a piece of equipment reaches 10, 15 and 20 Star Force respectively, they will not drop below that Star Force even if the attempt fails</p>
+            <p>If two Star Force attempts in a row result in failure, the next attempt will enter Chance Time and have a guaranteed success rate. Additionally, once a piece of equipment reaches 15 and 20 Star Force respectively, they will not drop below that Star Force even if the attempt fails</p>
             <p>If the equipment is destroyed while Star Forcing, you will gain an Equipment Trace. Equipment Traces can be applied to a new copy of the same item to restore all the stats, potentials and enhancements</p>
             <p><strong>[Star Force Maps]</strong>: There are special training maps that will require you to have a certain amount of Star Force to hunt efficiently on a map. These maps feature monsters with greater health but give much more EXP</p>
             <p>Star Force also contributes to the amount of damage your Legion Character does on the Legion Board</p>

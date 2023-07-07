@@ -640,7 +640,6 @@ function ProgressionGuide() {
                 <li><strong>[Lv. 180+] </strong> <img src="/images/equipment/cracked-gollux-earrings.png" alt="Eqp Cracked Gollux Earrings"/> <img src="/images/equipment/solid-gollux-ring.png" alt="Eqp Solid Gollux Ring"/> <img src="/images/equipment/reinforced-engraved-gollux-pendant.png" alt="Eqp Reinforced Engraved Gollux Pendant"/> <img src="/images/equipment/superior-engraved-gollux-belt.png" alt="Eqp Superior Engraved Gollux Belt"/> [<a href="https://maplestory.fandom.com/wiki/Equipment_Set/Cracked_Gollux_Set" target="_blank" rel="noreferrer noopener">Cracked</a> / <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Solid_Gollux_Set" target="_blank" rel="noreferrer noopener">Solid</a> / <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Reinforced_Gollux_Set" target="_blank" rel="noreferrer noopener">Reinforced</a> / <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Superior_Gollux_Set" target="_blank" rel="noreferrer noopener">Superior</a> Gollux Accessories] Obtained from defeating Gollux or bought with <img src="/images/items/gollux-coin.png" alt="Etc Gollux Coin"/> <a href="https://maplestory.fandom.com/wiki/Gollux_Coin">[Gollux Coins]</a> from <a href="https://maplestory.fandom.com/wiki/Lucia" target="_blank" rel="noreferrer noopener">Lucia</a>
                 </li>
                 <li><strong>[Lv. 180+] </strong> <img src="/images/equipment/root-abyss-master.png" alt="Setup Root Abyss Master"/> <a href="https://maplestory.fandom.com/wiki/Root_Abyss_Master" target="_blank" rel="noreferrer noopener">[Title]</a> Obtained by defeating each Chaos Root Abyss boss 10 times</li>
-                <li><strong>[Lv. 200]</strong> <img src="/images/equipment/last-unwelcome-guest-ring.png" alt="Eqp Last Unwelcome Guest Ring"/>  <img src="/images/equipment/last-unwelcome-guest-necklace.png" alt="Eqp Last Unwelcome Guest Necklace"/> <img src="/images/equipment/last-unwelcome-guest-earrings.png" alt="Eqp Last Unwelcome Guest Earrings"/> <img src="/images/equipment/last-unwelcome-guest-belt.png" alt="Eqp Last Unwelcome Guest Belt"/> <img src="/images/equipment/rare-alien-fragment-helmet.png" alt="Eqp Rare Alien Fragment Helmet"/> <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Alien_Fragment_Set">[Lv. 180 Alien Fragment Gear]</a>, <img src="/images/equipment/vip-bow.png" alt="Eqp VIP Bow"/> [Alien Fragment Weapons] can be obtained from <a href="https://maplestory.fandom.com/wiki/Category%3AAlien_Visitor" target="_blank" rel="noreferrer noopener">Alien Visitor</a></li>
                 <li><strong>[Lv. 200+] </strong> <img src="/images/equipment/ring-of-restraint.png" alt="Eqp Ring of Restraint"/> <img src="/images/equipment/ultimatum-ring.png" alt="Eqp Ultimatum Ring"/>  <img src="/images/equipment/limit-ring.png" alt="Eqp Limit Ring"/> <img src="/images/equipment/health-cut-ring.png" alt="Eqp Health Cut Ring"/> <a href="https://maplestory.fandom.com/wiki/Ring#Tower%20of%20Oz%20Rings" target="_blank" rel="noreferrer noopener">[Tower of Oz Rings]</a> Obtained from <img src="/images/items/alicias-ring-box.png" alt="Use Alicia's Ring Box"/> [Alica's Ring Boxes] from Tower of Oz</li>
             </ul>
             <h3>Boss Armor:</h3>
@@ -1633,12 +1632,12 @@ function ProgressionGuide() {
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Weekly] Arcane River - Vanishing Journey</a>: </strong>Completing the Vanishing Journey Daily twice each will reward you with Nodestones
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Weekly] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey Daily twice each will reward you with Nodestones
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">[Nodestones]</a></li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Erda_Spectrum" target="_blank" rel="noreferrer noopener">[Daily PQ] Erda Spectrum</a></strong>: Unlocked once you complete the Vanishing Journey storyline. Can be done in parties of 1 to 3. There are 2 stages and the objective to help Nina conduct research in several different areas
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestory.fandom.com/wiki/Category:Erda_Spectrum" target="_blank" rel="noreferrer noopener">[Weekly PQ] Erda Spectrum</a></strong>: Unlocked once you complete the Vanishing Journey storyline. Can be done in parties of 1 to 3. There are 2 stages and the objective to help Nina conduct research in several different areas
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
                     </ul>
@@ -1648,24 +1647,21 @@ function ProgressionGuide() {
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong> [Lv. 210+] <a href="https://maplestory.fandom.com/wiki/Category:Hungry_Muto" target="_blank" rel="noreferrer noopener">[Daily PQ] Hungry Muto</a></strong>: Unlocked once you complete the Chu Chu Island storyline. Can be done in parties of 1 to 4. The main objective is to collect ingredients from monsters to create dishes to feed Muto
+                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong> [Lv. 210+] <a href="https://maplestory.fandom.com/wiki/Category:Hungry_Muto" target="_blank" rel="noreferrer noopener">[Weekly PQ] Hungry Muto</a></strong>: Unlocked once you complete the Chu Chu Island storyline. Can be done in parties of 1 to 4. The main objective is to collect ingredients from monsters to create dishes to feed Muto
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong>[Lv. 220+] </strong><a href="https://maplestory.fandom.com/wiki/Category%3ALachelein" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Lachelein</strong></a>: Completing the storyline will unlock access to Dream Defender and Daily Quests for this area
+                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong>[Lv. 220+] </strong><a href="https://maplestory.fandom.com/wiki/Category%3ALachelein" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Lachelein</strong></a>: Completing the storyline will unlock access to Midnight Chaser and Daily Quests for this area
                     <ul>
                     <li><strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong>[Lv. 220+] <a href="https://maplestory.fandom.com/wiki/Category:Dream_Defender" target="_blank" rel="noreferrer noopener">[Daily] Dream Defender</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to protect Music Boxes from becoming corrupted. If they become corrupted, you must free them by attacking it
+                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong>[Lv. 220+] <a href="https://maplestory.fandom.com/wiki/Category:Dream_Defender" target="_blank" rel="noreferrer noopener">[Weekly] Midnight Chaser</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to locate objects scattered around a series of maps
                     <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/items/dream-coin.png" alt="Etc Dream Coin"/> <a href="https://maplestory.fandom.com/wiki/Dream_Coin" target="_blank" rel="noreferrer noopener">[Dream Coins]</a>
-                        <ul>
-                        <li><img src="/images/items/dream-coin.png" alt="Etc Dream Coin"/> can be exchanged for <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]</li>
-                        <li>Once you have completed all your runs of Dream Defender you can talk to the five ranking NPCs in Lachelein for extra <img src="/images/items/dream-coin.png" alt="Etc Dream Coin"/>[Dream Coins]</li>
-                        </ul>
-                    </li>
+                        <li>
+                            <strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]
+                        </li>
                     </ul>
                 </li>
                 <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong> [Lv. 225+] <a href="https://maplestory.fandom.com/wiki/Category:Arcana" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Arcana</a></strong>: Completing the storyline will unlock access to Spirit Savior and Daily Quests for this area
@@ -1673,10 +1669,9 @@ function ProgressionGuide() {
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-arcana.png" alt="Eqp Arcane Symbol Arcana"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong> [Lv. 225+] <a href="https://maplestory.fandom.com/wiki/Category:Spirit_Savior" target="_blank" rel="noreferrer noopener">[Daily] Spirit Savior</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to save Rock Spirits that have been kidnapped while avoiding an evil spirit that chases you
+                <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong> [Lv. 225+] <a href="https://maplestory.fandom.com/wiki/Category:Spirit_Savior" target="_blank" rel="noreferrer noopener">[Weekly] Spirit Savior</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to save Rock Spirits that have been kidnapped while avoiding an evil spirit that chases you
                     <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/items/spirit-coin.png" alt="Etc Spirit Coin"/> <a href="https://maplestory.fandom.com/wiki/Spirit_Coin" target="_blank" rel="noreferrer noopener">[Spirit Coins]</a></li>
-                    <li><img src="/images/items/spirit-coin.png" alt="Etc Spirit Coin"/> can be exchanged for <img src="/images/equipment/arcane-symbol-arcana.png" alt="Eqp Arcane Symbol Arcana"/> [Arcane Symbols]</li>
+                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-arcana.png" alt="Eqp Arcane Symbol Arcana"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
                 <li><img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong>[Lv. 230+] </strong><a href="https://maplestory.fandom.com/wiki/Category%3AMorass" target="_blank" rel="noreferrer noopener"><strong>[Daily] Morass</strong></a>: Completing the storyline here unlocks Daily Quests for this area
@@ -1684,7 +1679,7 @@ function ProgressionGuide() {
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-morass.png" alt="Eqp Arcane Symbol Morass"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong>[Lv. 230+] </strong><a href="https://maplestory.fandom.com/wiki/Ranheim_Defense_(Party_Quest)" target="_blank" rel="noreferrer noopener"><strong>[Daily] Ranheim Defense</strong></a>: This activity cannot be done in a party and must be done alone. The objective is to defend a pillar on the middle of the map by defeating enemies that appear
+                <li><img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong>[Lv. 230+] </strong><a href="https://maplestory.fandom.com/wiki/Ranheim_Defense_(Party_Quest)" target="_blank" rel="noreferrer noopener"><strong>[Weekly] Ranheim Defense</strong></a>: This activity cannot be done in a party and must be done alone. The objective is to defend a pillar on the middle of the map by defeating enemies that appear
                     <ul>
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-morass.png" alt="Eqp Arcane Symbol Morass"/> [Arcane Symbols]</li>
                     </ul>
@@ -1694,7 +1689,7 @@ function ProgressionGuide() {
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong>[Lv. 235+] <a href="https://maplestory.fandom.com/wiki/Esfera_Guardian_(Party_Quest)" target="_blank" rel="noreferrer noopener">[Daily] Esfera Guardian</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to destroy dimensional gates using a special turret to aim and shoot
+                <li><img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong>[Lv. 235+] <a href="https://maplestory.fandom.com/wiki/Esfera_Guardian_(Party_Quest)" target="_blank" rel="noreferrer noopener">[Weekly] Esfera Guardian</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to destroy dimensional gates using a special turret to aim and shoot
                     <ul>
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera"/> [Arcane Symbols]</li>
                     </ul>
