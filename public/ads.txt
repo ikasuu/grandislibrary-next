@@ -1,4 +1,4 @@
-#  Updated: 2023-07-10 12:36:08
+#  Updated: 2023-07-11 12:12:39
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -94,8 +94,6 @@ freewheel.tv, 1568041, RESELLER
 freewheel.tv, 1590601, RESELLER
 freewheel.tv, 19129, RESELLER, 74e8e47458f74754
 freewheel.tv, 19133, RESELLER, 74e8e47458f74754
-freewheel.tv,  1568036,  RESELLER
-freewheel.tv,  1568041,  RESELLER
 google.com, pub-1320774679920841, RESELLER, f08c47fec0942fa0
 google.com, pub-1386280613967939, RESELLER, f08c47fec0942fa0
 google.com, pub-1463455084986126, RESELLER, f08c47fec0942fa0
