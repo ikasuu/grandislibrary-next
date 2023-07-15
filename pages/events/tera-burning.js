@@ -9,8 +9,8 @@ function TeraBurning() {
     return (
         <EventPage>
             <Head>
-                <title>Tera Burning | Grandis Library</title>
-                <meta content={"An event where NEWLY created characters after level 10 gain 2 extra levels for every level up until level 200"} name="description"/>
+                <title>Tera Burning | MapleStory | Grandis Library</title>
+                <meta content={"Tera Burning is an event where NEWLY created characters after level 10 gain 2 extra levels for every level up until level 200. Additionally event Tera Burning characters receive gifts to assist them in training."} name="description"/>
             </Head>
             <ContentTitle>Tera Burning</ContentTitle>
             <StickyAd/>

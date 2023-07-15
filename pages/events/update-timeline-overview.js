@@ -12,8 +12,8 @@ function UpdateTimelineOverview() {
     return (
         <EventPage>
             <Head>
-                <title>Update Timeline Overview | Grandis Library</title>
-                <meta content={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"} name="description"/>
+                <title>Update Timeline Overview | MapleStory | Grandis Library</title>
+                <meta content={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update."} name="description"/>
             </Head>
             <ContentTitle>Update Timeline Overview</ContentTitle>
             <StickyAd/>

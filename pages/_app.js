@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
   return(
     <div id="container">
       <Head>
-        <title>Grandis Library</title>
+        <title>Grandis Library | MapleStory Resource for Beginners and Returning Players</title>
 
         <link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin></link>
 

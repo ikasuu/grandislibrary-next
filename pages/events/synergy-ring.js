@@ -10,8 +10,8 @@ function SynergyRing() {
     return (
         <EventPage>
             <Head>
-                <title>Synergy Ring | Grandis Library</title>
-                <meta content={"An event ring that gains increased stats depending on how many characters you have the ring equipped on the same world"} name="description"/>
+                <title>Synergy Ring | MapleStory | Grandis Library</title>
+                <meta content={"An event ring that gains increased stats depending on the number of characters you have with the ring equipped in the same world."} name="description"/>
             </Head>
             <ContentTitle>Synergy Ring</ContentTitle>
             <StickyAd/>

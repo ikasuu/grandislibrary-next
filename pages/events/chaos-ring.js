@@ -10,8 +10,8 @@ function ChaosRing() {
     return (
         <EventPage>
             <Head>
-                <title>Chaos Ring | Grandis Library</title>
-                <meta content={"An event ring that has allows you to reroll the ring’s stats and potential for free a fixed number of times each week"} name="description"/>
+                <title>Chaos Ring | MapleStory | Grandis Library</title>
+                <meta content={"An event ring that has allows you to reroll the ring’s stats and potential for free a fixed number of times each week up to Unique Potential. Rerolls function the same as using Hard Cubes."} name="description"/>
             </Head>
             <ContentTitle>Chaos Ring</ContentTitle>
             <StickyAd/>

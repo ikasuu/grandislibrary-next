@@ -12,8 +12,8 @@ function LinkSkills() {
     return (
       <ContentPage className="repository-md-container">
         <Head>
-            <title>Link Skill | Grandis Library</title>
-            <meta content={"An explanation of Link Skills and a list of all Link Skills and their effects"} name="description"/>
+            <title>Link Skills | MapleStory | Grandis Library</title>
+            <meta content={"An explanation of what Link Skills are, a list and explanation of how each classes' Link Skill functions, and several example of possible Link Skill builds for training, bossing, or both."} name="description"/>
         </Head>
         <ContentTitle>Link Skills</ContentTitle>
         <StickyAd/>

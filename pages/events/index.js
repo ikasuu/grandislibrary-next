@@ -17,7 +17,8 @@ function Events() {
     return (
         <div>
             <Head>
-                <title>Events | Grandis Library</title>
+                <title>Events | MapleStory | Grandis Library</title>
+                <meta content={"A collection of information related to events in MapleStory such as Burning Worlds, Mega Burning, Tera Burning, Maplehood Watch, Maple Relay, and more."} name="description"/>
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.fox}/>
             <Page.Title>Events</Page.Title>

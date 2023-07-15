@@ -9,8 +9,8 @@ function MaplehoodWatch() {
     return (
         <EventPage>
             <Head>
-                <title>Maplehood Watch | Grandis Library</title>
-                <meta content={"An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"} name="description"/>
+                <title>Maplehood Watch | MapleStory | Grandis Library</title>
+                <meta content={"Maplehood Watch is an event where players can earn free cash items with rotating gifts depending on the day. The event lasts for two weeks and each week has 3 special days with free gifts"} name="description"/>
             </Head>
             <ContentTitle>Maplehood Watch</ContentTitle>
             <StickyAd/>

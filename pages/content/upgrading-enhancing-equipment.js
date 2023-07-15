@@ -10,8 +10,8 @@ function UpgradeEquipment() {
     return (
       <ContentPage>
           <Head>
-            <title>Upgrading &amp; Enhancing Equipment | Grandis Library</title>
-            <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
+            <title>Upgrading &amp; Enhancing Equipment | MapleStory | Grandis Library</title>
+            <meta content={"An explanation on the different ways to upgrade and enhance your gear such as Spell Tracing in Regular Servers, Star Forcing, Pontentials, Cubes, Flames, Bonus Stats, and more."} name="description"/>
           </Head>
           <ContentTitle>Upgrading &amp; Enhancing Equipment</ContentTitle>
           <StickyAd/>

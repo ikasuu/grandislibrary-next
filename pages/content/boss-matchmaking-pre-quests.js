@@ -10,8 +10,8 @@ function BossMatchmaking() {
     return (
       <ContentPage>
         <Head>
-            <title>Boss Pre-Quests | Grandis Library</title>
-            <meta content={"An explanation on how to unlock access to each of the bosses in the Boss Matchmaking System"} name="description"/>
+            <title>Boss Pre-Quests | MapleStory | Grandis Library</title>
+            <meta content={"An explanation on how to unlock access to MapleStory bosses in the Boss Matchmaking System. As well, the guide covers information on clear limits, level requirements, and boss reward drops."} name="description"/>
         </Head>
         <ContentTitle>Boss Pre-Quests</ContentTitle>
         <StickyAd/>

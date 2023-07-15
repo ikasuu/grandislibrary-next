@@ -9,8 +9,8 @@ function MegaBurning() {
     return (
         <EventPage>
             <Head>
-                <title>Mega Burning | Grandis Library</title>
-                <meta content={"An event where created characters after level 10 gain 2 extra levels for every level up until level 150"} name="description"/>
+                <title>Mega Burning | MapleStory | Grandis Library</title>
+                <meta content={"Mega Burning is an event effect where created characters after level 10 gain 2 extra levels for every level up until level 150. Additionally event Mega Burning characters receive gifts to assist them in training."} name="description"/>
             </Head>
             <ContentTitle>Mega Burning</ContentTitle>
             <StickyAd/>

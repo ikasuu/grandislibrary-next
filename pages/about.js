@@ -75,7 +75,7 @@ function About(){
     return (
         <div>
             <Head>
-                <title>About | Grandis Library</title>
+                <title>About | MapleStory | Grandis Library</title>
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>

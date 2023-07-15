@@ -17,7 +17,8 @@ function Content() {
     return (
         <div>
             <Head>
-                <title>Content | Grandis Library</title>
+                <title>Content | MapleStory | Grandis Library</title>
+                <meta content={"A collection of information related to content in MapleStory such as boss pre-quests, attack speed, abnormal statuses, cash shop inventories, progression, and more."} name="description"/>
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.ristonia}/>
             <Page.Title>Content</Page.Title>

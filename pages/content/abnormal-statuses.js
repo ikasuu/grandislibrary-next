@@ -31,8 +31,8 @@ export default function AbnormalStatuses() {
   return (
     <ContentPage altAnchor={"#table"}>
         <Head>
-            <title>Abnormal Statuses | Grandis Library</title>
-            <meta content={"An explanation of what Abnormal Statuses are and what each one does"} name="description"/>
+            <title>Abnormal Statuses | MapleStory | Grandis Library</title>
+            <meta content={"An explanation of what Abnormal Statuses are in MapleStory that describes what each status does, which monsters apply them, and how to clear the effect."} name="description"/>
         </Head>
         <ContentTitle>Abnormal Statuses</ContentTitle>
         <StickyAd/>

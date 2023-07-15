@@ -9,8 +9,8 @@ function WhoToTeraBurn() {
     return (
         <EventPage>
             <Head>
-                <title>Who to Tera Burn | Grandis Library</title>
-                <meta content={"A guide to help you choose a character to Tera Burn based on good Link Skills and Legion bonuses"} name="description"/>
+                <title>Who to Tera Burn | MapleStory | Grandis Library</title>
+                <meta content={"A guide to help you choose a character to Tera Burn based on good Link Skills and Legion bonuses."} name="description"/>
             </Head>
             <ContentTitle>Who To Tera Burn</ContentTitle>
             <StickyAd/>

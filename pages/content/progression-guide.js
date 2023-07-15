@@ -58,8 +58,8 @@ function ProgressionGuide() {
     return (
         <ContentPage>
             <Head>
-                <title>Progression Guide | Grandis Library</title>
-                <meta content={"A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"} name="description"/>
+                <title>Progression Guide | MapleStory | Grandis Library</title>
+                <meta content={"A beginner-friendly guide that explains important content and concepts such as equipment, bosses, training maps, quests, 5th Job Advancement, and more."} name="description"/>
             </Head>
             <ContentTitle>Progression Guide</ContentTitle>
             <StickyAd/>

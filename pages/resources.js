@@ -84,7 +84,8 @@ function Resources() {
     return (
         <div>
             <Head>
-                <title>Resources | Grandis Library</title>
+                <title>Resources | MapleStory | Grandis Library</title>
+                <meta content={"A collection of resources for MapleStory such as useful websites, content creators, and a list of frequently asked questions."} name="description"/>
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.grandis}/>
             <Title>Resources</Title>

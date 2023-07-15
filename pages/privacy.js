@@ -37,7 +37,7 @@ function Privacy() {
     return (
         <div>
             <Head>
-                <title>Privacy Policy | Grandis Library</title>
+                <title>Privacy Policy | MapleStory | Grandis Library</title>
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>

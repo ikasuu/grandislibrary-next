@@ -19,7 +19,7 @@ function ClassOverview({post, slug}) {
     return (
         <div>
             <Head>
-              <title>{`${data.class} | Grandis Library`}</title>
+              <title>{`${data.class} Class Overview | MapleStory | GrandisLibrary`}</title>
               <meta content={data.meta} name="description"/>
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>

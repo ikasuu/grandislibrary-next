@@ -10,8 +10,8 @@ function ContentGuide() {
  return (
   <ContentPage>
     <Head>
-        <title>Level Content Guide | Grandis Library</title>
-        <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
+        <title>Level Content Guide | MapleStory | Grandis Library</title>
+        <meta content={"An in-depth explanation of all the content and notable training maps in MapleStory separated by each level all the way up until Lv. 250."} name="description"/>
     </Head>
     <ContentTitle>Level Content Guide</ContentTitle>
     <StickyAd/>

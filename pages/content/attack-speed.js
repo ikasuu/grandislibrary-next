@@ -9,8 +9,8 @@ function AttackSpeed() {
     return (
         <ContentPage>
             <Head>
-                <title>Attack Speed | Grandis Library</title>
-                <meta content={"An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"} name="description"/>
+                <title>Attack Speed | MapleStory | Grandis Library</title>
+                <meta content={"An explanation of Attack Speed in MapleStory that covers details on how it works, what Attack Speed each weapon is, and what the soft cap and hard cap is."} name="description"/>
             </Head>
             <ContentTitle>Attack Speed</ContentTitle>
             <StickyAd/>

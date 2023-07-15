@@ -9,8 +9,8 @@ function MapleRelay() {
     return (
         <EventPage>
             <Head>
-                <title>Maple Relay | Grandis Library</title>
-                <meta content={"Maple Relay is an event where you receive rewards for simply staying online. Obtain gifts daily and at each milestone"} name="description"/>
+                <title>Maple Relay | MapleStory | Grandis Library</title>
+                <meta content={"Maple Relay is an event where you receive rewards based on the number of hours you remain online. Obtain gifts daily and at each milestone."} name="description"/>
             </Head>
             <ContentTitle>Maple Relay</ContentTitle>
             <StickyAd/>

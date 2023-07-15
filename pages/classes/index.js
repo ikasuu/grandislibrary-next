@@ -17,7 +17,8 @@ function Classes() {
     return (
         <div>
             <Head>
-                <title>Classes | Grandis Library</title>
+                <title>Class Overviews | MapleStory | Grandis Library</title>
+                <meta content={"A collection of MapleStory class overviews that provide a basic preview to a class' animations, stats, skills, boost nodes, hyper skills, and more."} name="description"/>
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>

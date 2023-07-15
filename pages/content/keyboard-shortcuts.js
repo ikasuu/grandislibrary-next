@@ -10,8 +10,8 @@ function KeyboardShortcuts() {
     return (
         <ContentPage>
             <Head>
-                <title>Keyboard Shortcuts | Grandis Library</title>
-                <meta content={"An explanation on the all the different UIs accessible from the Keyboard Shortcuts"} name="description"/>
+                <title>Keyboard Shortcuts | MapleStory | Grandis Library</title>
+                <meta content={"An explanation of all the different UIs accessible from the Keyboard Shortcuts and how to access each one such as Quests, Skills, Inventory, Equipment, and more."} name="description"/>
             </Head>
             <ContentTitle>Keyboard Shortcuts</ContentTitle>
             <StickyAd/>

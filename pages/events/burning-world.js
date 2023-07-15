@@ -16,8 +16,8 @@ function BurningWorld() {
     return (
         <EventPage>
             <Head>
-                <title>Burning World | Grandis Library</title>
-                <meta content={"Burning World is a temporary world that has special benefits for all characters in this world"} name="description"/>
+                <title>Burning World | MapleStory | Grandis Library</title>
+                <meta content={"Burning World is a temporary event world that has special benefits and rewards for all characters in this world. At the end of this event, characters in this world can be transferred to a Non-Reboot world."} name="description"/>
             </Head>
             <ContentTitle>Burning World</ContentTitle>
             <StickyAd/>

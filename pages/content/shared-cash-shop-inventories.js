@@ -29,8 +29,8 @@ function SharedCashShopInventory() {
     return (
         <ContentPage>
             <Head>
-                <title>Shared Cash Shop Inventories | Grandis Library</title>
-                <meta content={"A list of all classes that share Cash Shop inventories"} name="description"/>
+                <title>Shared Cash Shop Inventories | MapleStory | Grandis Library</title>
+                <meta content={"A table chart of all classes and class groups that share Cash Shop inventories with each other."} name="description"/>
             </Head>
             <ContentTitle>Shared Cash Shop Inventories</ContentTitle>
             <StickyAd/>
