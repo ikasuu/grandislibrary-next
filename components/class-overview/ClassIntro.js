@@ -230,14 +230,15 @@ const StatTableData = styled.td`
 function ClassDetail({content}) {
     return (
         <Container>
-           {content.specialThanks && <em>{content.specialThanks}</em>}
+           {content.specialThanks && <p><em>{content.specialThanks}</em></p>}
+           {content.discord && <p><em>For more in-depth info, visit the Class Discord at <a href={content.discord} target='_blank' rel='noreferrer'>{content.discord}</a></em></p>}
             <BaseStatsWrapper md="auto">
-              <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>
-              <Table borderless>
-                <tbody>
-                    {content.baseStats[1].map((stat, index) => <tr key={index}><StatTableData>{parse(DOMPurify.sanitize(stat))}</StatTableData></tr>)}
-                </tbody>
-              </Table>
+                <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>
+                <Table borderless>
+                    <tbody>
+                        {content.baseStats[1].map((stat, index) => <tr key={index}><StatTableData>{parse(DOMPurify.sanitize(stat))}</StatTableData></tr>)}
+                    </tbody>
+                </Table>
             </BaseStatsWrapper>
             <BannerAdOne/>
             <StyledHeaderTwo>Example Skill Build Path</StyledHeaderTwo>

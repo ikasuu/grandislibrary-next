@@ -160,6 +160,10 @@ footer{
   margin-bottom: 2rem;
 }
 
+.bt-build-img{
+  max-width: 35rem;
+}
+
 /* 0-991 px */
 @media (max-width: 991px){
   .extra-content-image{

@@ -42,7 +42,7 @@ function ClassOverview({post, slug}) {
                 hyperSkillBuild={data.content.hyperBuild}
                 nodeInfo={data.content.nodeInfo}
                 slug={slug[0]}/>
-              <ClassOutro classGroup={data.content.classGroup} classTitle={data.class} moreInfo={data.content.moreInfo} credits={data.content.credits}/>
+              <ClassOutro classGroup={data.content.classGroup} classTitle={data.class} moreInfo={data.content.moreInfo} credits={data.content.credits} infographic={data.content.infographic}/>
             </Container>
         </div>
     );
