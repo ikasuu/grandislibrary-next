@@ -20,7 +20,7 @@ export function ClassOutro({classGroup, classTitle, moreInfo, credits, infograph
             <ClassMoreInfo classTitle={classTitle} moreInfo={moreInfo}/>
             <ClassSuggestions classTitle={classTitle} classGroup={classGroup}/>
             <ClassCredit credits={credits}/>
-            {infographic && <a href={`/class-infographic/${classTitle}.png`} target="_blank" rel="noreferrer noopener"><img class="extra-content-image" src={`/class-infographic/${classTitle}.png`} alt={`${classTitle} Infographic`}/></a>}
+            {infographic && <a href={`/class-infographic/${classTitle}.png`} target="_blank" rel="noreferrer noopener"><img class="extra-content-image class-infographic-image" src={`/class-infographic/${classTitle}.png`} alt={`${classTitle} Infographic`}/></a>}
         </div>
     );
 }
