@@ -1,4 +1,4 @@
-#  Updated: 2023-07-26 11:12:25
+#  Updated: 2023-08-03 09:54:47
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -172,7 +172,7 @@ loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11575, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
 media.net, 8CU4JTRF9, RESELLER
-media.net, 8CU6604U6, RESELLER
+media.net, 8CU6604U6, DIRECT
 media.net, 8CU695QH7, RESELLER
 media.net, 8CU7CYP46, DIRECT
 media.net, 8CUBNW5R6, DIRECT
