@@ -1,4 +1,4 @@
-#  Updated: 2023-08-03 09:54:47
+#  Updated: 2023-08-08 16:45:23
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -27,6 +27,7 @@
 #  you can email us at: info@publisher-collective.com
 #
 # -----------------------------------------------------
+152media.info, 152M5, RESELLER
 33across.com, 0010b00002CpYhEAAV, RESELLER, bbea06d9c4d2853c
 33across.com, 0010b00002EdWnZAAV, RESELLER, bbea06d9c4d2853c
 33across.com, 0010b00002ODU4HAAX, RESELLER, bbea06d9c4d2853c
@@ -142,6 +143,7 @@ indexexchange.com, 184349, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 189344, DIRECT
 indexexchange.com, 189345, DIRECT
 indexexchange.com, 189744, RESELLER
+indexexchange.com, 190243, RESELLER
 indexexchange.com, 191306, RESELLER
 indexexchange.com, 191503, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
@@ -164,10 +166,8 @@ kueez.com, 976f90e3f55c14d910a31bae495ca125, DIRECT
 lijit.com, 240955, DIRECT, fafdf38b16bf6b2b
 lijit.com, 240955-eb, DIRECT, fafdf38b16bf6b2b
 lijit.com, 367236, RESELLER, fafdf38b16bf6b2b
-lijit.com, 374814-eb, RESELLER, fafdf38b16bf6b2b
 lijit.com, 375328, RESELLER, fafdf38b16bf6b2b
 lijit.com, 407406, RESELLER, fafdf38b16bf6b2b
-limpid.tv, 920682, DIRECT
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11575, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
@@ -289,13 +289,14 @@ rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24364, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24434, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 9061, RESELLER, 0bfd66d529a55807
+sharethrough.com, 23830661, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5926d422, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5pFlvV45, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 8bab9627, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, OsQNsPHm, DIRECT, d53b998a7bd4ecd2
 sharethrough.com, UXUWG46h, RESELLER, d53b998a7bd4ecd2
-sharethrough.com, UvcAx8IL, DIRECT, d53b998a7bd4ecd2
+sharethrough.com, UvcAx8IL, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, flUyJowI, RESELLER
 sharethrough.com, n98xDzeL, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, uQoEabsG, DIRECT, d53b998a7bd4ecd2
@@ -330,13 +331,13 @@ sonobi.com, 4c4fba1717, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 649aabf138, DIRECT, d1a215d9eb5aee9e
 sonobi.com, 7ad1b9f952, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 7f5fa520f8, RESELLER, d1a215d9eb5aee9e
+sonobi.com, 8efb591506, RESELLER, d1a215d9eb5aee9e
 sonobi.com, a015179bd7, DIRECT, d1a215d9eb5aee9e
 sovrn.com, 268479, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 273657, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 374814, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 376385, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 378732, RESELLER, fafdf38b16bf6b2b
-sparcmedia.com, 320682, DIRECT
 spotx.tv, 268145, DIRECT, 7842df1d2fe2db34
 stroeer.com, 22739, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
@@ -354,6 +355,7 @@ triplelift.com, 12396, RESELLER, 6c33edb13117fd86
 triplelift.com, 12503, RESELLER, 6c33edb13117fd86
 triplelift.com, 13482, RESELLER, 6c33edb13117fd86
 triplelift.com, 8210, RESELLER, 6c33edb13117fd86
+triplelift.com, 8446, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332, DIRECT, 6c33edb13117fd86
 triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
 verve.com, 15503, RESELLER, 0c8f5958fc2d6270
