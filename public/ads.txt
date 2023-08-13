@@ -1,4 +1,4 @@
-#  Updated: 2023-08-10 12:28:41
+#  Updated: 2023-08-11 11:28:38
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -378,8 +378,6 @@ yahoo.com, 58723, RESELLER
 yahoo.com, 59100, DIRECT, e1a5b5b6e3255540
 yahoo.com, 59244, RESELLER, e1a5b5b6e3255540
 yahoo.com, 59260, RESELLER
-yahoo.com, 59261, RESELLER, e1a5b5b6e3255540
-yahoo.com, 59531, RESELLER, e1a5b5b6e3255540
 yahoo.com, 59885, RESELLER, e1a5b5b6e3255540
 yahoo.com, 59973, RESELLER, e1a5b5b6e3255540
 yieldmo.com, 2754490424016969782, RESELLER
