@@ -1,4 +1,4 @@
-#  Updated: 2023-08-15 14:46:18
+#  Updated: 2023-08-17 14:12:35
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -41,6 +41,7 @@ adagio.io, 1107, DIRECT
 adform.com, 2078, RESELLER
 adingo.jp, 24292, RESELLER
 adingo.jp, 27365, RESELLER
+admanmedia.com, 1061, RESELLER
 admanmedia.com, 43, RESELLER
 admanmedia.com, 726, RESELLER, 
 admanmedia.com, 799, RESELLER
@@ -93,6 +94,7 @@ conversantmedia.com, 100141, RESELLER
 conversantmedia.com, 100232, RESELLER, 03113cd04947736d
 criteo.com, B-059206, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068458, RESELLER, 9fac4a4a87c2a44f
+criteo.com, B-068503, RESELLER
 criteo.com, B-068585, DIRECT, 9fac4a4a87c2a44f
 disqus.com, 108, RESELLER
 disqus.com, 533, RESELLER
@@ -135,6 +137,7 @@ improvedigital.com, 1884, RESELLER
 improvedigital.com, 2016, RESELLER
 improvedigital.com, 2021, DIRECT
 improvedigital.com, 2050, RESELLER
+indexexchange.com, 183753, RESELLER
 indexexchange.com, 183875, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 184349, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 189344, DIRECT
@@ -167,6 +170,7 @@ lijit.com, 407406, RESELLER, fafdf38b16bf6b2b
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11575, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
+media.net, 8CU3BYI96, RESELLER
 media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
 media.net, 8CU695QH7, RESELLER
@@ -222,6 +226,7 @@ pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156325, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156423, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156439, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156512, RESELLER
 pubmatic.com, 156557, RESELLER
 pubmatic.com, 156595, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156631, RESELLER, 5d62403b186f2ace
@@ -340,6 +345,7 @@ supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
 themediagrid.com, GD57SQ, DIRECT, 35d5010d7789b49d
 themediagrid.com, JTQKMP, RESELLER, 35d5010d7789b49d
+themediagrid.com, N71MIF, RESELLER, 35d5010d7789b49d
 themediagrid.com, PRLEZI, RESELLER, 35d5010d7789b49d
 themediagrid.com, TU8HG3, DIRECT, 35d5010d7789b49d
 themediagrid.com, UOT45Z, RESELLER, 35d5010d7789b49d
