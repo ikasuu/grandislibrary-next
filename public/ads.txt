@@ -1,4 +1,4 @@
-#  Updated: 2023-08-24 12:24:14
+#  Updated: 2023-08-30 15:13:02
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -212,6 +212,7 @@ openx.com, 540886248, DIRECT, 6a698e2ec38604c6
 openx.com, 541031350, RESELLER, 6a698e2ec38604c6
 openx.com, 543174347, RESELLER, 6a698e2ec38604c6
 openx.com, 544096208, RESELLER, 6a698e2ec38604c6
+openx.com, 556532676, RESELLER, 6a698e2ec38604c6
 openx.com, 556543003, DIRECT, 6a698e2ec38604c6
 openx.com, 557564833, RESELLER, 6a698e2ec38604c6
 openx.com, 557739593, RESELLER, 6a698e2ec38604c6
@@ -287,6 +288,7 @@ rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23434, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23718, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 24078, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24364, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24434, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 9061, RESELLER, 0bfd66d529a55807
@@ -301,6 +303,7 @@ sharethrough.com, UvcAx8IL, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, flUyJowI, RESELLER
 sharethrough.com, n98xDzeL, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, uQoEabsG, DIRECT, d53b998a7bd4ecd2
+sharethrough.com, wGR7Zifp, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, zLsEa05k, RESELLER, d53b998a7bd4ecd2
 smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
 smaato.com, 1100044650, RESELLER, 07bcf65f187117b4
@@ -371,6 +374,7 @@ video.unrulymedia.com, 3350674472, RESELLER
 video.unrulymedia.com, 335119963, RESELLER
 video.unrulymedia.com, 3463482822, RESELLER
 video.unrulymedia.com, 3736557092, RESELLER
+video.unrulymedia.com, 5672421953199218469, RESELLER
 video.unrulymedia.com, 907951026, DIRECT
 visiblemeasures.com, 1052, RESELLER
 wunderkind.co, 6608, DIRECT
