@@ -283,7 +283,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Silent Crusade questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/1/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 90 to unlock access to Arkarium</p>
+          <p>You must complete a questline from the Lightbulb icon called “<a href="https://maplestory.fandom.com/wiki/Quests/1/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 140 to unlock access to Arkarium</p>
           <ul>
             <li>
                 <strong>Easy mode and Above Rewards:</strong> <img src=" /images/equipment/mechanator-pendant.png" alt="Eqp Mechanator Pendant"/> <a href="https://maplestory.fandom.com/wiki/Mechanator_Pendant" target="_blank" rel="noreferrer noopener">[Mechanator Pendant]</a>
@@ -292,7 +292,7 @@ function BossMatchmaking() {
                 , <img src=" /images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noreferrer noopener">[Primal Essence]</a>
                 , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                ,<img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coin]
+                ,<img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
             </li>
             <li>
                 <strong>Normal mode only Rewards:</strong> <img src=" /images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a href="https://maplestory.fandom.com/wiki/Dominator_Pendant" target="_blank" rel="noreferrer noopener">[Dominator Pendant]</a>
@@ -372,7 +372,7 @@ function BossMatchmaking() {
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestory.fandom.com/wiki/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Non-Reboot Only) Bonus Mystical Cube]</a>
             </li>
             <li>
@@ -412,7 +412,7 @@ function BossMatchmaking() {
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestory.fandom.com/wiki/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Bonus Mystical Cube]</a>
               , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
             </li>
             <li>
                 <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/damienroid.png"/> <a href="https://maplestory.fandom.com/wiki/Damienroid" target="_blank" rel="noreferrer noopener">[Damienroid Android]</a>
@@ -537,7 +537,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
                 , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-                , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+                , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
                 , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Non-Reboot Only) Bonus Mystical Cube]
             </li>
             <li>
@@ -576,7 +576,7 @@ function BossMatchmaking() {
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Non-Reboot Only) Bonus Mystical Cube]
               , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
             </li>
@@ -616,7 +616,7 @@ function BossMatchmaking() {
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Non-Reboot Only) Bonus Mystical Cube]
             </li>
             <li>
@@ -658,7 +658,7 @@ function BossMatchmaking() {
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Non-Reboot Only) Bonus Mystical Cube]
               , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
               , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
@@ -694,7 +694,7 @@ function BossMatchmaking() {
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Non-Reboot Only) Bonus Mystical Cube]
               , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
               , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
@@ -728,7 +728,7 @@ function BossMatchmaking() {
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
               , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-              , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+              , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Non-Reboot Only) Bonus Mystical Cube]
               , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
               , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
@@ -799,7 +799,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
                 , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
                 , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-                , <img src="/images/items/crusader-coin.png" alt="Etc Crusader Coins"/> [Crusader Coins]
+                , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
             </li>
             <li>
               <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/stone-cobweb-droplet.png"/> <a href="https://maplestory.fandom.com/wiki/Stone_Cobweb_Droplet" target="_blank" rel="noreferrer noopener">[Stone Cobweb Droplet]</a>

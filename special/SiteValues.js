@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 242; 
-export const versionName = "Savior"
+export const version = 244; 
+export const versionName = "Punch King Palooza"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
@@ -225,7 +225,7 @@ export const commonFifth = {
     },
     expThief: {
         "name": "Shadow Walker",
-        "shortDesc": "MP Cost: 850, Duration: 30 sec. Initiates a form of stealth that is not canceled by skills or attacks.\\nFinal Damage increased by 15% added on top of Advanced Dark Sight's Final Damage bonus.\\nCooldown: 195 sec",
+        "shortDesc": "MP Cost: 850, Duration: 30 sec. Initiates a form of stealth that is not canceled by skills or attacks.\\nFinal Damage increased by 13% added on top of Advanced Dark Sight's Final Damage bonus.\\nCooldown: 185 sec",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/shadow-walker.png"],
         "animations": ["https://media4.giphy.com/media/KZvjAfaZInF431yAcH/giphy.gif"],
@@ -303,7 +303,7 @@ export const commonFifth = {
     },
     defenderOfTheDemon:{
         "name": "Defender of the Demon",
-        "shortDesc": "Consumes 5% of Max HP to summon Mastema for 55 sec.\\nCooldown: 150 sec\\nMastema uses the following skills at her own discretion:\\nMastema's Claw - Max Enemies Hit: 8, Damage: 1000%, Number of Attacks: 8, Cooldown: 4 sec\\nMastema's Mark - Damage Taken: -22% (Including attacks inflicting damage proportional to Max HP), Max Uses: 2, Duration: 6 sec. Mastema's Mark vanishes when duration ends or max uses is reached. Cooldown: 10 sec",
+        "shortDesc": "Consumes 4% of Max HP to summon Mastema for 44 sec.\\nCooldown: 120 sec\\nMastema uses the following skills at her own discretion:\\nMastema's Claw - Max Enemies Hit: 8, Damage: 1000%, Number of Attacks: 8, Cooldown: 4 sec\\nMastema's Mark - Damage Taken: -22% (Including attacks inflicting damage proportional to Max HP), Max Uses: 2, Duration: 6 sec. Mastema's Mark vanishes when duration ends or max uses is reached. Cooldown: 10 sec",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/defender-of-the-demon.png"],
         "animations": ["https://media1.giphy.com/media/XGCkfDLecmgSCsBc4n/giphy.gif"],
@@ -475,14 +475,15 @@ export const commonFifth = {
     },
     conversionOverdrive:{
         "name": "Conversion Overdrive",
-        "shortDesc": "MP Cost: 15% of Max MP, Duration: 55 sec, Damage increases up to 45% depending on current MP proportions, Damage increase reset when Spell Storm occurs.\\nWhen using attack skill, activates a Spell Storm. Spell Storm MP Cost: additional 150 per 4 sec, Spell Storm Max Enemies Hit: 6, Spell Storm Damage: 1000%, Spell Storm Number of Attacks: 3\\nCooldown: 200 sec",
+        "shortDesc": "MP Cost: 12% of Max MP, Duration: 55 sec, Damage increases up to 40% depending on current MP proportions, Damage increase reset when Spell Storm occurs.\\nWhen using attack skill, activates a Spell Storm. Spell Storm MP Cost: additional 150 per 4 sec, Spell Storm Max Enemies Hit: 6, Spell Storm Damage: 1000%, Spell Storm Number of Attacks: 3\\nConversion Overdrive Prepared: every 180 sec, Max Number Prepared: 2\\nCooldown: 120 sec",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/conversion-overdrive.png"],
         "animations": ["https://media4.giphy.com/media/DTXNaMlNmJjsxBdspG/giphy.gif"],
         "type": "Buff",
         "desc": "Increases your %Damage in proportion to your current MP",
         "details": [
-            "When attacking, you will periodically trigger a Spell Storm damaging nearby enemies<ul><li>The %Damage buff will be recalculated every time Spell Storm is activated</li></ul>"
+            "When attacking, you will periodically trigger a Spell Storm damaging nearby enemies<ul><li>The %Damage buff will be recalculated every time Spell Storm is activated</li></ul>",
+            "Skill is prepared every 180 sec (up to 2 charges)"
         ]
     },
     transcendentRhinnePrayer:{
@@ -501,21 +502,24 @@ export const commonFifth = {
     },
     weaponAura:{
         "name": "Weapon Aura",
-        "shortDesc": "HP Cost: 10%, Ignores 15% Enemy DEF for 130 sec, Final Damage: +5%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1000% damage on up to 10 enemies 6 times.\\nCooldown: 180 Sec.",
+        "shortDesc": "HP Cost: 10%, Ignores 15% Enemy DEF for 130 sec, Final Damage: +5%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1000% damage on up to 10 enemies 6 times.\\nWeapon Aura Prepared: every 180 sec, Max Number Prepared: 2",
         "id": 400011000,
         "icons": ["/class-icons/5th-job/weapon-aura.png"],
         "animations": ["https://media4.giphy.com/media/flLOmhDE95Z0NDH1ug/giphy.gif"],
         "type": "Buff Attack",
-        "desc": "Causes your attacks to periodically create a damaging wave"
+        "desc": "Increases %Ignore DEF, %Final Damage and your attacks periodically create a damaging wave",
+        "details": [
+            "Skill is prepared every 180 sec (up to 2 charges)"
+        ]
     },
     impenetrableSkin:{
         "name": "Impenetrable Skin",
-        "shortDesc": "HP Cost: 5% of Max HP, Duration: 35 sec, Knockdown Immunity and Status Resistance: +75\\nDamage increases +3% when hit, Max Stack: 10 times\\nCooldown: 240 sec\\n[Passive Effects - STR: +25, Max HP: +1250]",
+        "shortDesc": "HP Cost: 3% of Max HP, Duration: 17 sec, Knockdown Immunity and Status Resistance: +75\\nDamage increases +6% when hit, Max Stack: 5 times\\nCooldown: 120 sec\\n[Passive Effects - STR: +25, Max HP: +1250]",
         "id": 400011066,
         "icons": ["/class-icons/5th-job/impenetrable-skin.png"],
         "animations": ["https://media3.giphy.com/media/jjMaS7mAgN1OvvY9JT/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, gain increased Abnormal Status Resistance and 100% Knockback Resistance. As well, when you are hit, gain a stacking %Damage buff"
+        "desc": "While active, gain increased Abnormal Status Resistance and cannot be knocked back at all (Super Knockback Resistance). As well, when you are hit, gain a stacking %Damage buff"
     },
     manaOverload:{
         "name": "Mana Overload",
@@ -606,7 +610,7 @@ export const commonFifth = {
     },
     overdrive: {
         "name": "Overdrive",
-        "shortDesc": "HP Cost: 1750, Duration: 30 sec, Attack Power: +70% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power\\nCooldown: 65 sec",
+        "shortDesc": "HP Cost: 1750, Duration: 28 sec, Attack Power: +70% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power\\nCooldown: 62 sec",
         "id": 400051033,
         "icons": ["/class-icons/5th-job/overdrive.png"],
         "animations": ["https://media2.giphy.com/media/rgc0CfIUzypN6jyNrL/giphy.gif"],

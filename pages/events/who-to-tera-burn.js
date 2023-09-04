@@ -188,7 +188,7 @@ function WhoToTeraBurn() {
             </ul>
             <h3>Notes:</h3>
             <hr/>
-            <p>Ignore DEF is calculated oddly; you basically want a few big singular sources as opposed to lots of small ones. With the Crusader Codex gone in GMS, however, the usual large chunks of IED are missing. You can get a maximum of 12% IED from Legion attacker bonuses but 40% IED from the actual Legion Board, but basically for beginners, Luminous IED {'>'} Legion IED</p>
+            <p>Ignore DEF is calculated oddly; you basically want a few big singular sources as opposed to lots of small ones. You can get a maximum of 12% IED from Legion attacker bonuses but 40% IED from the actual Legion Board, but basically for beginners, Luminous IED {'>'} Legion IED</p>
             <p>Hayato’s link and Evan’s legion are not considered good for endgame but can be useful for training mules</p>
             <p>Corsair Legion bonus is sometimes not considered useful as many summons have 100% uptime. Corsair Legion bonus also applies to soul weapon summons such as Lucid soul</p>
             <p>Explorer Thief Link Skill may not seem good at first but synergizes well with Explorer Mage (which applies a debuff to enemies including bosses)</p>
