@@ -1,4 +1,4 @@
-#  Updated: 2023-09-01 12:29:26
+#  Updated: 2023-09-06 09:54:27
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -60,7 +60,6 @@ appnexus.com, 12637, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12695, RESELLER, f5ab79cb980f11d1
 appnexus.com, 13099, RESELLER
 appnexus.com, 13162, RESELLER, f5ab79cb980f11d1
-appnexus.com, 14423, RESELLER, f5ab79cb980f11d1
 appnexus.com, 1908, RESELLER, f5ab79cb980f11d1
 appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3251, RESELLER
