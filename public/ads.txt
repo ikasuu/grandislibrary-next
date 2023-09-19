@@ -1,4 +1,4 @@
-#  Updated: 2023-09-14 15:40:00
+#  Updated: 2023-09-18 17:13:29
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -53,6 +53,7 @@ aniview.com, 641186cd15d2e834c809eb78, DIRECT, 78b21b97965ec3f8
 appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
 appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
 appnexus.com, 11440, DIRECT, f5ab79cb980f11d1
+appnexus.com, 11470, RESELLER
 appnexus.com, 11801, RESELLER
 appnexus.com, 12290, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12366, RESELLER, f5ab79cb980f11d1
@@ -174,6 +175,7 @@ minutemedia.com, 01gerz67grgj, RESELLER
 minutemedia.com, 01gya4708ddm, RESELLER
 network-n.com, pa_ba2bc67e, DIRECT, f08c47fec0942fa0
 nextmillennium.io, 16312, DIRECT, 65bd090fa4a1e3d6
+ogury.com, 7da4df59-1af0-42fa-9f27-5638fae7a75d, DIRECT
 onetag.com, 598ce3ddaee8c90, RESELLER
 onetag.com, 5d49f482552c9b6, RESELLER
 onetag.com, 694e68b73971b58, RESELLER
@@ -241,6 +243,7 @@ pubmatic.com, 161691, DIRECT, 5d62403b186f2ace
 pubmatic.com, 162110, RESELLER, 5d62403b186f2ace
 pubmatic.com, 162186, DIRECT, 5d62403b186f2ace
 pubmatic.com, 162672, DIRECT, 5d62403b186f2ace
+pubmatic.com, 163238, RESELLER, 5d62403b186f2ace
 pubmatic.com, 60809, RESELLER, 5d62403b186f2ace
 pubmatic.com, 81564, RESELLER, 5d62403b186f2ace
 pubnative.net, 1006576, RESELLER, d641df8625486a7b
@@ -276,6 +279,7 @@ rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24078, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24364, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24434, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 25198, RESELLER, 0bfd66d529a55807
 sharethrough.com, 23830661, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5926d422, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5pFlvV45, RESELLER, d53b998a7bd4ecd2
@@ -310,6 +314,7 @@ smartadserver.com, 4253, RESELLER
 smartadserver.com, 4255, RESELLER
 smartadserver.com, 4284, RESELLER
 smartadserver.com, 4342, RESELLER
+smartadserver.com, 4537, RESELLER, 060d053dcf45cbf3
 sonobi.com, 0e0a64d7d3, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 37dd19ad4a, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 42a06dc622, RESELLER, d1a215d9eb5aee9e
