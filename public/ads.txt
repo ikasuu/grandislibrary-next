@@ -1,4 +1,4 @@
-#  Updated: 2023-09-26 12:09:00
+#  Updated: 2023-09-27 15:56:06
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -42,8 +42,8 @@ adingo.jp, 24292, RESELLER
 adingo.jp, 27365, RESELLER
 admanmedia.com, 1061, RESELLER
 admanmedia.com, 43, RESELLER
-admanmedia.com, 726, RESELLER, 
-adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER, 
+admanmedia.com, 726, RESELLER
+adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
 adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER
 amxrtb.com, 105199514, RESELLER
@@ -63,7 +63,7 @@ appnexus.com, 6979, RESELLER
 appnexus.com, 8233, RESELLER
 appnexus.com, 8826, RESELLER, f5ab79cb980f11d1
 appnexus.com, 9284, RESELLER, f5ab79cb980f11d1
-aps.amazon.com, 26c60b4f-549a-4efd-8ae0-f00e07c46204, DIRECT, 
+aps.amazon.com, 26c60b4f-549a-4efd-8ae0-f00e07c46204, DIRECT
 aps.amazon.com, 968a0f5c-e5ed-4ba9-bf43-8be1f5b68988, DIRECT
 audienciad.com, 206822, DIRECT
 axonix.com, 57264, RESELLER
@@ -107,8 +107,8 @@ gumgum.com, 14141, RESELLER, ffdef49475d318a9
 hoopladigital.co.uk, 21751981256, DIRECT
 improvedigital.com, 1790, RESELLER
 improvedigital.com, 2016, RESELLER
-improvedigital.com, 2021, DIRECT, 
-improvedigital.com, 2050, RESELLER, 
+improvedigital.com, 2021, DIRECT
+improvedigital.com, 2050, RESELLER
 indexexchange.com, 183753, RESELLER
 indexexchange.com, 189344, DIRECT
 indexexchange.com, 189345, DIRECT
@@ -136,13 +136,13 @@ loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
 media.net, 8CU3BYI96, RESELLER
 media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
-media.net, 8CU695QH7, RESELLER, 
-media.net, 8CU7CYP46, DIRECT, 
-media.net, 8CUBNW5R6, DIRECT, 
+media.net, 8CU695QH7, RESELLER
+media.net, 8CU7CYP46, DIRECT
+media.net, 8CUBNW5R6, DIRECT
 media.net, 8CUQ6928Q, RESELLER
 media.net, 8CUY6IX4H, RESELLER
 mintegral.com, 10043, RESELLER, 0aeed750c80d6423
-minutemedia.com, 01gya4708ddm, RESELLER, 
+minutemedia.com, 01gya4708ddm, RESELLER
 network-n.com, pa_ba2bc67e, DIRECT, f08c47fec0942fa0
 nextmillennium.io, 16312, DIRECT, 65bd090fa4a1e3d6
 ogury.com, 7da4df59-1af0-42fa-9f27-5638fae7a75d, DIRECT
@@ -153,7 +153,7 @@ onetag.com, 6b859b96c564fbe, RESELLER
 onetag.com, 6e053d779444c00, RESELLER
 onetag.com, 75753f1ebcc343c, RESELLER
 onetag.com, 75804861b76a852, RESELLER
-onetag.com, 770a440e65869c2, RESELLER, 
+onetag.com, 770a440e65869c2, RESELLER
 onomagic.com, 206821, DIRECT
 openx.com, 537100188, RESELLER, 6a698e2ec38604c6
 openx.com, 537120563, RESELLER, 6a698e2ec38604c6
@@ -271,7 +271,7 @@ triplelift.com, 8446, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332, DIRECT, 6c33edb13117fd86
 triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
 verve.com, 15503, RESELLER, 0c8f5958fc2d6270
-video.unrulymedia.com, 1879993427, DIRECT, 
+video.unrulymedia.com, 1879993427 DIRECT, 
 video.unrulymedia.com, 2221906906, RESELLER
 video.unrulymedia.com, 2338962694, RESELLER
 video.unrulymedia.com, 2439829435, RESELLER
@@ -279,13 +279,13 @@ video.unrulymedia.com, 2564526802, RESELLER
 video.unrulymedia.com, 335119963, RESELLER
 video.unrulymedia.com, 3463482822, RESELLER
 video.unrulymedia.com, 5672421953199218469, RESELLER
-video.unrulymedia.com, 907951026, DIRECT, 
+video.unrulymedia.com, 907951026 DIRECT, 
 wunderkind.co., 6608, DIRECT
 xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
 xandr.com, 14082, RESELLER
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
 yieldmo.com, 2754490424016969782, RESELLER
 yieldmo.com, 2757543169808605705, RESELLER
-yieldmo.com, 2850174797239755356, RESELLER, 
-yieldmo.com, 2850176953179120222, DIRECT, 
+yieldmo.com, 2850174797239755356, RESELLER
+yieldmo.com, 2850176953179120222, DIRECT
 yieldmo.com, 3133660606033240149, RESELLER
