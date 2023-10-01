@@ -12,18 +12,12 @@ export const logo = "/logo.png";
 
 //Image paths for our page headers
 export const HeaderImageUrl = {
-    library: "/headers/erimos-1.png",
-    grandis: "/headers/erimos-2.png",
-    fox: "/headers/erimos-3.png",
-    verdel: "/headers/erimos-4.png",
-    ristonia: "/headers/erimos-5.png"
+    library: "/headers/grandis-library.png",
+    grandis: "/headers/borderless.png",
+    fox: "/headers/fox-valley.png",
+    verdel: "/headers/verdel.png",
+    ristonia: "/headers/ristonia.png"
 };
-
-// library: "/headers/grandis-library.png",
-// grandis: "/headers/borderless.png",
-// fox: "/headers/fox-valley.png",
-// verdel: "/headers/verdel.png",
-// ristonia: "/headers/ristonia.png"
 
 // Image paths for the home buttons
 export const HeaderBlockImageUrl = {

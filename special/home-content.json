@@ -18,6 +18,18 @@
     ],
     "recent": [
         {
+            "title": "V.244 Punch King Palooza",
+            "image": "/home-thumbnail/punch-king-palooza.jpg",
+            "link": "https://maplestory.nexon.net/news/85511/v-244-punch-king-palooza-patch-notes",
+            "subtitle": "August 29 2023"
+        },
+        {
+            "title": "V.243 Savior: Shangri-La & Kaling",
+            "image": "/home-thumbnail/shangri-la.jpg",
+            "link": "https://maplestory.nexon.net/news/84616/v-243-savior-shangri-la-kaling-patch-notes",
+            "subtitle": "July 18, 2023"
+        },
+        {
             "title": "V.242 Savior: Khali, Wind of Vengeance",
             "image": "/home-thumbnail/savior.jpg",
             "link": "https://maplestory.nexon.net/news/83731/v-242-savior-khali-wind-of-vengeance-patch-notes",
@@ -40,21 +52,15 @@
             "image": "/home-thumbnail/neo-tokyo.jpg",
             "link": "https://maplestory.nexon.net/news/80182/v-239-neo-tokyo-patch-notes",
             "subtitle": "February 7, 2023"
-        },
-        {
-            "title": "V.238 Ignition: Extreme",
-            "image": "/home-thumbnail/ignition-extreme.jpg",
-            "link": "https://maplestory.nexon.net/news/78591/v-238-ignition-extreme-patch-notes",
-            "subtitle": "December 14, 2022"
-        },
-        {
-            "title": "Ignition: Cygnus Knights Redux Patch Notes",
-            "image": "/home-thumbnail/cygnus-knights-redux.jpg",
-            "link": "https://maplestory.nexon.net/news/77917/v-237-ignition-cygnus-knights-redux-patch-notes",
-            "subtitle": "November 15, 2022"
         }
     ],
     "upcoming": [
+        {
+            "title": "Minar Autumn Picnic",
+            "image": "/home-thumbnail/minar-autumn-picnic.jpg",
+            "link": "https://orangemushroom.net/2023/09/22/kms-ver-1-2-382-minar-autumn-picnic/",
+            "subtitle": "September 22, 2023"
+        },
         {
             "title": "New Age: Identisk Island!",
             "image": "/home-thumbnail/new-age-identisk.jpg",
@@ -66,18 +72,6 @@
             "image": "/home-thumbnail/mapril.jpg",
             "link": "https://orangemushroom.net/2023/04/21/kms-1-2-376-maplestorys-20th-anniversary-mapril-island/",
             "subtitle": "April 21, 2023"
-        },
-        {
-            "title": "Savior: New Boss Kaling",
-            "image": "/home-thumbnail/kaling.jpg",
-            "link": "https://orangemushroom.net/2023/02/23/kms-ver-1-2-374-maplestory-savior-sinners-paradise-shangri-la-2023-maple-vision-talk/",
-            "subtitle": "February 23, 2023"
-        },
-        {
-            "title": "Savior: Khali, the Wind of Revenge!",
-            "image": "/home-thumbnail/khali.jpg",
-            "link": "https://orangemushroom.net/2023/01/19/kms-ver-1-2-373-maplestory-savior-khali-the-wind-of-revenge/",
-            "subtitle": "January 19, 2023"
         }
     ],
     "popularContent": [
