@@ -1,4 +1,4 @@
-#  Updated: 2023-10-18 15:24:29
+#  Updated: 2023-10-20 14:16:41
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -45,6 +45,7 @@ admanmedia.com, 1061, RESELLER
 admanmedia.com, 43, RESELLER
 admanmedia.com, 726, RESELLER
 admanmedia.com, 799, RESELLER
+adwmg.com, 100798, DIRECT, c9688a22012618e7
 adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
 adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER
@@ -124,6 +125,8 @@ google.com, pub-7094677798399606, RESELLER, f08c47fec0942fa0
 google.com, pub-7269238500499280, RESELLER, f08c47fec0942fa0
 google.com, pub-7734005103835923, RESELLER, f08c47fec0942fa0
 google.com, pub-7858377917172490, RESELLER, f08c47fec0942fa0
+google.com, pub-8309773808661346, RESELLER, f08c47fec0942fa0
+google.com, pub-8622186303703569, RESELLER, f08c47fec0942fa0
 gumgum.com, 14141, RESELLER, ffdef49475d318a9
 gumgum.com, 14349, DIRECT, ffdef49475d318a9
 gumgum.com, 15609, DIRECT, ffdef49475d318a9
@@ -267,6 +270,8 @@ rubiconproject.com, 18580, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 18694, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19116, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19396, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 19652, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 19654, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20406, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 20416, RESELLER, 0bfd66d529a55807
@@ -314,7 +319,7 @@ smartadserver.com, 4253, RESELLER
 smartadserver.com, 4255, RESELLER
 smartadserver.com, 4284, RESELLER
 smartadserver.com, 4342, RESELLER
-smartadserver.com, 4531, RESELLER, 060d053dcf45cbf3r
+smartadserver.com, 4531, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4537, RESELLER, 060d053dcf45cbf3
 sonobi.com, 0e0a64d7d3, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 37dd19ad4a, RESELLER, d1a215d9eb5aee9e
