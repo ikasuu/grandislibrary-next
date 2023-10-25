@@ -1,4 +1,4 @@
-#  Updated: 2023-10-20 14:16:41
+#  Updated: 2023-10-24 16:22:14
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -70,11 +70,9 @@ appnexus.com, 6979, RESELLER
 appnexus.com, 8173, RESELLER
 appnexus.com, 8233, RESELLER
 appnexus.com, 8826, RESELLER, f5ab79cb980f11d1
-appnexus.com, 9284, RESELLER, f5ab79cb980f11d1
 appnexus.com, 9382, RESELLER, f5ab79cb980f11d1
 aps.amazon.com, 26c60b4f-549a-4efd-8ae0-f00e07c46204, DIRECT
 aps.amazon.com, 968a0f5c-e5ed-4ba9-bf43-8be1f5b68988, DIRECT
-atlas5.co, 2213_3552, RESELLER
 audienciad.com, 206822, DIRECT
 axonix.com, 57264, RESELLER
 beachfront.com, 14804, RESELLER, e2541279e8e2ca4d
@@ -122,7 +120,6 @@ google.com, pub-6177961780147591, DIRECT, f08c47fec0942fa0
 google.com, pub-6346866704322274, RESELLER, f08c47fec0942fa0
 google.com, pub-6373315980741255, RESELLER, f08c47fec0942fa0
 google.com, pub-7094677798399606, RESELLER, f08c47fec0942fa0
-google.com, pub-7269238500499280, RESELLER, f08c47fec0942fa0
 google.com, pub-7734005103835923, RESELLER, f08c47fec0942fa0
 google.com, pub-7858377917172490, RESELLER, f08c47fec0942fa0
 google.com, pub-8309773808661346, RESELLER, f08c47fec0942fa0
@@ -139,7 +136,6 @@ improvedigital.com, 2050, RESELLER
 indexexchange.com, 183753, RESELLER
 indexexchange.com, 189344, DIRECT
 indexexchange.com, 189345, DIRECT
-indexexchange.com, 189744, RESELLER
 indexexchange.com, 190243, RESELLER
 indexexchange.com, 191306, RESELLER
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
@@ -150,7 +146,6 @@ indexexchange.com, 193792, DIRECT
 indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 194558, RESELLER
 indexexchange.com, 194590, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 194648, RESELLER, 50b1c356f2c5c8fc
 infolinks.com, 3355573, DIRECT
 inmobi.com, 17865bac25f44f51b8fd08b12e92072c, DIRECT, 83e75a7ae333ca9d
 justpremium.com, 2776, DIRECT
@@ -177,7 +172,6 @@ mintegral.com, 10043, RESELLER, 0aeed750c80d6423
 minutemedia.com, 01gya4708ddm, RESELLER
 network-n.com, 22750600967, DIRECT, f08c47fec0942fa0
 network-n.com, pa_ba2bc67e, DIRECT, f08c47fec0942fa0
-nextmillennium.io, 16312, DIRECT, 65bd090fa4a1e3d6
 ogury.com, 7da4df59-1af0-42fa-9f27-5638fae7a75d, DIRECT
 onetag.com, 598ce3ddaee8c90, RESELLER
 onetag.com, 5d49f482552c9b6, RESELLER
@@ -222,7 +216,6 @@ pubmatic.com, 156557, RESELLER
 pubmatic.com, 156595, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156631, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156872, RESELLER, 5d62403b186f2ace
-pubmatic.com, 157577, RESELLER, 5d62403b186f2ace
 pubmatic.com, 157897, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158540, DIRECT, 5d62403b186f2ace
 pubmatic.com, 158682, DIRECT, 5d62403b186f2ace
@@ -263,7 +256,6 @@ rubiconproject.com, 13918, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16920, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 17888, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 18020, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 18580, DIRECT, 0bfd66d529a55807
@@ -353,7 +345,6 @@ triplelift.com, 8210, RESELLER, 6c33edb13117fd86
 triplelift.com, 8446, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332, DIRECT, 6c33edb13117fd86
 triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
-vdo.ai, 2213_3552, RESELLER
 verve.com, 15503, RESELLER, 0c8f5958fc2d6270
 video.unrulymedia.com, 1879993427, DIRECT
 video.unrulymedia.com, 2221906906, RESELLER
@@ -366,12 +357,12 @@ video.unrulymedia.com, 3463482822, RESELLER
 video.unrulymedia.com, 5672421953199218469, RESELLER
 video.unrulymedia.com, 907951026, DIRECT
 walletcircle.co, 2213, RESELLER
+wunderkind.co, 6608, DIRECT
 wunderkind.co, 6800, DIRECT
-wunderkind.co, 6801, DIRECT
-wunderkind.co., 6608, DIRECT
 xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
 xandr.com, 14082, RESELLER
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
+yahoo.com, 59260, RESELLER
 yieldmo.com, 2754490424016969782, RESELLER
 yieldmo.com, 2757543169808605705, RESELLER
 yieldmo.com, 2850174797239755356, RESELLER
