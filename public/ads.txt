@@ -1,4 +1,4 @@
-#  Updated: 2023-10-27 12:15:57
+#  Updated: 2023-10-30 12:36:57
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -39,6 +39,7 @@ OWNERDOMAIN=grandislibrary.com
 ad-generation.jp, 12474, RESELLER, 7f4ea9029ac04e53
 adagio.io, 1107, DIRECT
 adform.com, 2078, RESELLER
+adform.com, 2708, RESELLER, 9f5210a2f0999e32
 adingo.jp, 24292, RESELLER
 adingo.jp, 27365, RESELLER
 admanmedia.com, 1061, RESELLER
@@ -49,6 +50,7 @@ adwmg.com, 100798, DIRECT, c9688a22012618e7
 adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
 adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER
+amitydigital.io, 493, RESELLER
 amxrtb.com, 105199514, RESELLER
 aniview.com, 641186cd15d2e834c809eb78, DIRECT, 78b21b97965ec3f8
 appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
@@ -56,12 +58,14 @@ appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
 appnexus.com, 11440, DIRECT, f5ab79cb980f11d1
 appnexus.com, 11470, RESELLER
 appnexus.com, 11801, RESELLER
+appnexus.com, 11924, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12290, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12366, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12637, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12695, RESELLER, f5ab79cb980f11d1
 appnexus.com, 13099, RESELLER
 appnexus.com, 13162, RESELLER, f5ab79cb980f11d1
+appnexus.com, 15127, RESELLER
 appnexus.com, 1922, RESELLER, f5ab79cb980f11d1
 appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3251, RESELLER
@@ -73,6 +77,7 @@ appnexus.com, 8826, RESELLER, f5ab79cb980f11d1
 appnexus.com, 9382, RESELLER, f5ab79cb980f11d1
 aps.amazon.com, 26c60b4f-549a-4efd-8ae0-f00e07c46204, DIRECT
 aps.amazon.com, 968a0f5c-e5ed-4ba9-bf43-8be1f5b68988, DIRECT
+aps.amazon.com, de948cab-9232-4f2a-90f5-794be75952c6, RESELLER
 audienciad.com, 206822, DIRECT
 axonix.com, 57264, RESELLER
 beachfront.com, 14804, RESELLER, e2541279e8e2ca4d
@@ -87,7 +92,9 @@ contextweb.com, 562541, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562615, RESELLER, 89ff185a4c4e857c
 conversantmedia.com, 100141, RESELLER
 conversantmedia.com, 100232, RESELLER, 03113cd04947736d
+conversantmedia.com, 41996, RESELLER, 03113cd04947736d
 criteo.com, B-059206, RESELLER, 9fac4a4a87c2a44f
+criteo.com, B-067384, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068458, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068503, RESELLER
 criteo.com, B-068585, DIRECT, 9fac4a4a87c2a44f
@@ -103,8 +110,11 @@ freewheel.tv, 1568036, RESELLER
 freewheel.tv, 1568041, RESELLER
 freewheel.tv, 1590601, RESELLER
 freewheel.tv, 1590606, RESELLER
+freewheel.tv, 1598755, RESELLER
+freewheel.tv, 1598756, RESELLER
 freewheel.tv, 19129, RESELLER, 74e8e47458f74754
 freewheel.tv, 19133, RESELLER, 74e8e47458f74754
+gamoshi.io, 267-b5549, RESELLER, 20e30b2ae1f670f2
 getmediamx.com, 1220682, DIRECT
 google.com, pub-1320774679920841, RESELLER, f08c47fec0942fa0
 google.com, pub-1386280613967939, RESELLER, f08c47fec0942fa0
@@ -165,9 +175,11 @@ media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
 media.net, 8CU695QH7, RESELLER
 media.net, 8CU7CYP46, DIRECT
+media.net, 8CUB46Z7R, RESELLER
 media.net, 8CUBNW5R6, DIRECT
 media.net, 8CUQ6928Q, RESELLER
 media.net, 8CUY6IX4H, RESELLER
+mgid.com, 43615, RESELLER, d4c29acad76ce94f
 mintegral.com, 10043, RESELLER, 0aeed750c80d6423
 minutemedia.com, 01gya4708ddm, RESELLER
 network-n.com, 22750600967, DIRECT, f08c47fec0942fa0
@@ -183,6 +195,7 @@ onetag.com, 74d276d460678b8-OB, DIRECT
 onetag.com, 75753f1ebcc343c, RESELLER
 onetag.com, 75804861b76a852, RESELLER
 onetag.com, 770a440e65869c2, RESELLER
+onlinemediasolutions.com, 20682, DIRECT
 onomagic.com, 206821, DIRECT
 openx.com, 537100188, RESELLER, 6a698e2ec38604c6
 openx.com, 537120563, RESELLER, 6a698e2ec38604c6
@@ -205,6 +218,7 @@ openx.com, 556543003, DIRECT, 6a698e2ec38604c6
 openx.com, 557564833, RESELLER, 6a698e2ec38604c6
 openx.com, 557739593, RESELLER, 6a698e2ec38604c6
 openx.com, 558899373, RESELLER, 6a698e2ec38604c6
+orangeclickmedia.com, C-1100, RESELLER
 primis.tech, 28588, DIRECT, b6b21d256ef43532
 pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
 pubmatic.com, 154037, RESELLER, 5d62403b186f2ace
@@ -240,6 +254,7 @@ pubmatic.com, 163238, RESELLER, 5d62403b186f2ace
 pubmatic.com, 60809, RESELLER, 5d62403b186f2ace
 pubmatic.com, 81564, RESELLER, 5d62403b186f2ace
 pubnative.net, 1006576, RESELLER, d641df8625486a7b
+qortex.ai, 194667, RESELLER
 revcontent.com, 11878, RESELLER
 rhythmone.com, 1059622079, RESELLER, a670c89d4a324e47
 rhythmone.com, 1654642120, RESELLER, a670c89d4a324e47
@@ -274,10 +289,13 @@ rubiconproject.com, 23434, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23718, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24078, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 24138, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24364, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24434, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24588, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 25198, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 9655, RESELLER, 0bfd66d529a55807
+sharethrough.com, 1SghQadK, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 23830661, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5926d422, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5pFlvV45, RESELLER, d53b998a7bd4ecd2
@@ -286,6 +304,7 @@ sharethrough.com, OsQNsPHm, DIRECT, d53b998a7bd4ecd2
 sharethrough.com, UXUWG46h, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, UvcAx8IL, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, flUyJowI, RESELLER
+sharethrough.com, lTiXlNiO, RESELLER
 sharethrough.com, n98xDzeL, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, uQoEabsG, DIRECT, d53b998a7bd4ecd2
 sharethrough.com, wGR7Zifp, RESELLER, d53b998a7bd4ecd2
@@ -330,6 +349,7 @@ stroeer.com, 22739, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
 themediagrid.com, GD57SQ, DIRECT, 35d5010d7789b49d
+themediagrid.com, IRK975, RESELLER, 35d5010d7789b49d
 themediagrid.com, JTQKMP, RESELLER, 35d5010d7789b49d
 themediagrid.com, N71MIF, RESELLER, 35d5010d7789b49d
 themediagrid.com, PRLEZI, RESELLER, 35d5010d7789b49d
@@ -367,4 +387,5 @@ yieldmo.com, 2754490424016969782, RESELLER
 yieldmo.com, 2757543169808605705, RESELLER
 yieldmo.com, 2850174797239755356, RESELLER
 yieldmo.com, 2850176953179120222, DIRECT
+yieldmo.com, 3117806966060032819, RESELLER
 yieldmo.com, 3133660606033240149, RESELLER
