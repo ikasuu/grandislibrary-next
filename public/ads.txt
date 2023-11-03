@@ -1,4 +1,4 @@
-#  Updated: 2023-10-31 15:46:52
+#  Updated: 2023-11-02 11:38:21
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -97,7 +97,7 @@ conversantmedia.com, 41996, RESELLER, 03113cd04947736d
 criteo.com, B-059206, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-067384, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068458, RESELLER, 9fac4a4a87c2a44f
-criteo.com, B-068503, RESELLER
+criteo.com, B-068503, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068585, DIRECT, 9fac4a4a87c2a44f
 disqus.com, 108, RESELLER
 disqus.com, 533, RESELLER
@@ -380,6 +380,7 @@ video.unrulymedia.com, 907951026, DIRECT
 walletcircle.co, 2213, RESELLER
 wunderkind.co, 6608, DIRECT
 wunderkind.co, 6800, DIRECT
+wunderkind.co, 6801, DIRECT
 xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
 xandr.com, 14082, RESELLER
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
