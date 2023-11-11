@@ -1,4 +1,4 @@
-#  Updated: 2023-11-08 15:01:39
+#  Updated: 2023-11-10 12:15:30
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -48,9 +48,9 @@ admanmedia.com, 43, RESELLER
 admanmedia.com, 726, RESELLER
 admanmedia.com, 799, RESELLER
 adwmg.com, 100798, DIRECT, c9688a22012618e7
-adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER
-adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER
-adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER
+adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER, 4ad745ead2958bf7
+adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER, 4ad745ead2958bf7
+adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER, 4ad745ead2958bf7
 amitydigital.io, 493, RESELLER
 amxrtb.com, 105199514, RESELLER
 amxrtb.com, 105199691, RESELLER
@@ -58,23 +58,23 @@ aniview.com, 641186cd15d2e834c809eb78, DIRECT, 78b21b97965ec3f8
 appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
 appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
 appnexus.com, 11440, DIRECT, f5ab79cb980f11d1
-appnexus.com, 11470, RESELLER
+appnexus.com, 11470, RESELLER, f5ab79cb980f11d1
 appnexus.com, 11801, RESELLER
 appnexus.com, 11924, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12290, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12366, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12637, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12695, RESELLER, f5ab79cb980f11d1
-appnexus.com, 13099, RESELLER
+appnexus.com, 13099, RESELLER, f5ab79cb980f11d1
 appnexus.com, 13162, RESELLER, f5ab79cb980f11d1
-appnexus.com, 15127, RESELLER
+appnexus.com, 15127, RESELLER, f5ab79cb980f11d1
 appnexus.com, 1922, RESELLER, f5ab79cb980f11d1
 appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
-appnexus.com, 3251, RESELLER
+appnexus.com, 3251, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
-appnexus.com, 6979, RESELLER
-appnexus.com, 8173, RESELLER
-appnexus.com, 8233, RESELLER
+appnexus.com, 6979, RESELLER, f5ab79cb980f11d1
+appnexus.com, 8173, RESELLER, f5ab79cb980f11d1
+appnexus.com, 8233, RESELLER, f5ab79cb980f11d1
 appnexus.com, 8826, RESELLER, f5ab79cb980f11d1
 appnexus.com, 9382, RESELLER, f5ab79cb980f11d1
 aps.amazon.com, 26c60b4f-549a-4efd-8ae0-f00e07c46204, DIRECT
@@ -85,7 +85,7 @@ axonix.com, 57264, RESELLER
 beachfront.com, 14804, RESELLER, e2541279e8e2ca4d
 blockthrough.com, 5684350990417920, DIRECT
 brightcom.com, 20682, DIRECT
-contextweb.com, 558355, RESELLER
+contextweb.com, 558355, RESELLER, 89ff185a4c4e857c
 contextweb.com, 560606, RESELLER, 89ff185a4c4e857c
 contextweb.com, 561516, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562001, RESELLER, 89ff185a4c4e857c
@@ -128,7 +128,6 @@ google.com, pub-4299156005397946, RESELLER, f08c47fec0942fa0
 google.com, pub-4586415728471297, RESELLER, f08c47fec0942fa0
 google.com, pub-5231479214411897, RESELLER, f08c47fec0942fa0
 google.com, pub-5717092533913515, RESELLER, f08c47fec0942fa0
-google.com, pub-6177961780147591, DIRECT, f08c47fec0942fa0
 google.com, pub-6346866704322274, RESELLER, f08c47fec0942fa0
 google.com, pub-6373315980741255, RESELLER, f08c47fec0942fa0
 google.com, pub-7094677798399606, RESELLER, f08c47fec0942fa0
@@ -145,18 +144,18 @@ improvedigital.com, 1884, RESELLER
 improvedigital.com, 2016, RESELLER
 improvedigital.com, 2021, DIRECT
 improvedigital.com, 2050, RESELLER
-indexexchange.com, 183753, RESELLER
-indexexchange.com, 189344, DIRECT
-indexexchange.com, 189345, DIRECT
-indexexchange.com, 190243, RESELLER
-indexexchange.com, 191306, RESELLER
+indexexchange.com, 183753, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 189344, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 189345, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 190243, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 191306, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191973, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 192410, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 193657, DIRECT
-indexexchange.com, 193792, DIRECT
+indexexchange.com, 193657, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 193792, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 194558, RESELLER
+indexexchange.com, 194558, RESELLER, 50b1c356f2c5c8fc
 infolinks.com, 3355573, DIRECT
 inmobi.com, 17865bac25f44f51b8fd08b12e92072c, DIRECT, 83e75a7ae333ca9d
 justpremium.com, 2776, DIRECT
@@ -226,8 +225,8 @@ pubmatic.com, 154037, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156423, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156439, RESELLER, 5d62403b186f2ace
-pubmatic.com, 156512, RESELLER
-pubmatic.com, 156557, RESELLER
+pubmatic.com, 156512, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156557, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156595, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156631, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156872, RESELLER, 5d62403b186f2ace
@@ -267,7 +266,7 @@ rubiconproject.com, 11006, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 12186, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 13510, RESELLER
+rubiconproject.com, 13510, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13918, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807
@@ -304,7 +303,7 @@ sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, OsQNsPHm, DIRECT, d53b998a7bd4ecd2
 sharethrough.com, UXUWG46h, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, UvcAx8IL, RESELLER, d53b998a7bd4ecd2
-sharethrough.com, flUyJowI, RESELLER
+sharethrough.com, flUyJowI, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, lTiXlNiO, RESELLER
 sharethrough.com, n98xDzeL, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, uQoEabsG, DIRECT, d53b998a7bd4ecd2
