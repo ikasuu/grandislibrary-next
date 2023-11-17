@@ -1,4 +1,4 @@
-#  Updated: 2023-11-14 17:23:27
+#  Updated: 2023-11-16 11:40:21
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -39,9 +39,9 @@ MANAGERDOMAIN=network-n.com
 OWNERDOMAIN=grandislibrary.com
 ad-generation.jp, 12474, RESELLER, 7f4ea9029ac04e53
 adagio.io, 1107, DIRECT
-adform.com, 2078, RESELLER
+adform.com, 2078, RESELLER, 9f5210a2f0999e32
 adform.com, 2708, RESELLER, 9f5210a2f0999e32
-adform.com, 3119, RESELLER, 9f5210a2f0999e3
+adform.com, 3119, RESELLER, 9f5210a2f0999e32
 adingo.jp, 24292, RESELLER
 adingo.jp, 27365, RESELLER
 admanmedia.com, 1061, RESELLER
