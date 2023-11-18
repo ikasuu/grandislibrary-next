@@ -65,7 +65,7 @@ function ContentGuide() {
     <h4>Recommended</h4>
     <hr/>
     <p><img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability UI"/></p>
-    <ul> <li>  <strong> [Lv. 50] <a href="https://strategywiki.org/wiki/MapleStory/Inner_Ability" target="_blank" rel="noreferrer noopener"><span style={{color: '#ff0000'}}>[Important]</span> Inner Ability</a> </strong> : These are bonuses that add extra stats to your character. They work similar to potentials and can be reset using <img src="/images/items/medal-of-honor.png" alt="Use Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Use Boss Medal of Honor"/> Honor EXP  <ul><li>Inner Ability is automatically unlocked at Lv. 50</li><li>For more info on Inner Ability check out: <a href="https://ayumilove.net/maplestory-inner-ability-guide/" target="_blank" rel="noreferrer noopener">https://ayumilove.net/maplestory-inner-ability-guide/</a></li>  </ul> </li>
+    <ul> <li>  <strong> [Lv. 50] <a href="https://strategywiki.org/wiki/MapleStory/Inner_Ability" target="_blank" rel="noreferrer noopener"><span style={{color: '#ff0000'}}>[Important]</span> Inner Ability</a> </strong> : These are bonuses that add extra stats to your character. They work similar to potentials and can be reset using <img src="/images/items/medal-of-honor.png" alt="Use Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Use Boss Medal of Honor"/> Honor EXP  <ul><li>Inner Ability is automatically unlocked at Lv. 50</li></ul> </li>
     </ul>
     <h4>Optional</h4>
     <h5>[Content here is less popular and are easily skippable when leveling up]</h5>
@@ -829,12 +829,12 @@ function ContentGuide() {
           <li><strong>Main Reward:</strong> <img src="/images/equipment/waiting-for-the-swords-owner.png" alt="Eqp Waiting for the Sword's Owner"/> [Medal], <img src="/images/equipment/sacred-symbol-cernium.png" alt="Eqp Sacred Power"/> [Sacred Symbol]</li>
         </ul>
       </li>
-      <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <strong>[Lv. 265] <a href="https://maplestory.fandom.com/wiki/Category:Burning_Cernium" target="_blank" rel="noreferrer noopener">[Area] Burning Cernium<br/></a></strong>
+      <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <strong>[Lv. 260] <a href="https://maplestory.fandom.com/wiki/Category:Burning_Cernium" target="_blank" rel="noreferrer noopener">[Area] Burning Cernium<br/></a></strong>
         <ul>
           <li><strong>Main Reward:</strong> <img src="/images/equipment/salvation-in-your-own-hands.png" alt="Eqp Salvation in Your Own Hands"/> [Medal], <img src="/images/equipment/sacred-symbol-cernium.png" alt="Eqp Sacred Power"/> [Sacred Symbol]</li>
         </ul>
       </li>
-      <li><img src="/images/map-icons/hotel-arcus.png"/> <strong>[Lv. 270] <a href="https://maplestory.fandom.com/wiki/Category:Hotel_Arcus" target="_blank" rel="noreferrer noopener">[Area] Hotel Arcus</a></strong>
+      <li><img src="/images/map-icons/hotel-arcus.png"/> <strong>[Lv. 265] <a href="https://maplestory.fandom.com/wiki/Category:Hotel_Arcus" target="_blank" rel="noreferrer noopener">[Area] Hotel Arcus</a></strong>
         <ul>
           <li><strong>Main Reward:</strong> <img src="/images/equipment/slow-and-steady.png" alt="Eqp Slow and Steady"/> [Medal], <img src="/images/equipment/sacred-symbol-arcus.png"/> [Sacred Symbol]</li>
         </ul>
@@ -938,7 +938,7 @@ function ContentGuide() {
             </li>
         </ul>
       </li>
-      <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <strong>[Lv. 265+] </strong> <a href="https://maplestory.fandom.com/wiki/Seren/Monster" target="_blank" rel="noreferrer noopener"> <strong>[Endgame Boss] Seren</strong></a>: Unlocked after completing the storyline in Burning Cernium<br/>
+      <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <strong>[Lv. 260+] </strong> <a href="https://maplestory.fandom.com/wiki/Seren/Monster" target="_blank" rel="noreferrer noopener"> <strong>[Endgame Boss] Seren</strong></a>: Unlocked after completing the storyline in Burning Cernium<br/>
         <ul>
           <li>
               <strong>Main Rewards:</strong> <img src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/> <a href="https://maplestory.fandom.com/wiki/Mitra%27s_Rage_Selection_Box" target="_blank" rel="noopener">[Mitra's Rage Selection Box]</a>
@@ -967,7 +967,7 @@ function ContentGuide() {
             </li>
         </ul>
       </li>
-      <li><img src="/images/map-icons/karote.png" alt="MapIcon Karote"/> <strong>[Lv. 270+] </strong> <a href="https://maplestory.fandom.com/wiki/Kalos/Monster" target="_blank" rel="noreferrer noopener"> <strong>[Endgame Boss] Karote</strong></a>: Unlocked after completing the <a href="https://maplestory.fandom.com/wiki/Quests/241/(Karote)_Kalos_the_Guardian" target="_blank" rel="noopener noreferrer">[Karote] Kalos the Guardian</a> questline and defeating Story Mode Kalos<br/>
+      <li><img src="/images/map-icons/karote.png" alt="MapIcon Karote"/> <strong>[Lv. 265+] </strong> <a href="https://maplestory.fandom.com/wiki/Kalos/Monster" target="_blank" rel="noreferrer noopener"> <strong>[Endgame Boss] Karote</strong></a>: Unlocked after completing the <a href="https://maplestory.fandom.com/wiki/Quests/241/(Karote)_Kalos_the_Guardian" target="_blank" rel="noopener noreferrer">[Karote] Kalos the Guardian</a> questline and defeating Story Mode Kalos<br/>
         <ul>
         <li>
               <strong>Main Rewards:</strong> <img src="/images/items/kalos-residual-determination.png" alt="Use Kalos's Residual Determination"/> <a href="https://maplestory.fandom.com/wiki/Kalos%27s_Residual_Determination" target="_blank" rel="noopener">[Kalos's Residual Determination]</a>

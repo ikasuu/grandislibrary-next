@@ -698,7 +698,7 @@ function ProgressionGuide() {
             <h3 id="spelltrace"> <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing in Regular Servers:</h3>
             <hr/>
             <p>For regular servers, be sure to upgrade all your gear with at least 70% Spell Tracing so that you can start Star Forcing your gear as well. On average, 70% Spell Tracing provides an optimal amount of stats compared to just 100% Spell Tracing your equipment</p>
-            <p>In Reboot Servers, Spell Traces are useless and can be sold to NPCs for extra Mesos</p>
+            <p>In Reboot Servers, Spell Traces are unused and can be sold to NPCs for Mesos</p>
             <img className="repository-image" src="/images/info/equipment-enchant-ui.png" alt="Equipment Enhance"/>
             <img className="repository-image" src="/images/info/equipment-enchant-button.png" alt="Enhance Button"/>
             <p>You can open the Equipment Enchant menu for Spell Tracing and Star Forcing by either pressing "O" by default or through your inventory by pressing the <strong>red button with a hammer</strong>

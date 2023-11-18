@@ -671,7 +671,7 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="seren"><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> Seren</ArticleHeaderTwo>
-          <p><strong>[Hard/Extreme Lv. 265+ 150SacP+]</strong></p>
+          <p><strong>[Hard/Extreme Lv. 260+ 150SacP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
@@ -706,7 +706,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           <ArticleHeaderTwo id="kalos"><img src="/images/map-icons/karote.png" alt="MapIcon Karote"/> Kalos</ArticleHeaderTwo>
-          <p><strong>[Chaos Lv. 270+ 250SacP+]</strong></p>
+          <p><strong>[Chaos Lv. 265+ 250SacP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>

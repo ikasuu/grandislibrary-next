@@ -18,6 +18,18 @@
     ],
     "recent": [
         {
+            "title": "V.246 New Age: 6th Job Patch Notes",
+            "image": "/home-thumbnail/6th-job.jpg",
+            "link": "https://maplestory.nexon.net/news/86907/v-246-new-age-6th-job-patch-notes",
+            "subtitle": "November 14 2023"
+        },
+        {
+            "title": "V.245 Midnight Carnival - Nautilus Patch Notes",
+            "image": "/home-thumbnail/midnight-carnival.jpg",
+            "link": "https://maplestory.nexon.net/news/86272/updated-11-8-v-245-midnight-carnival-nautilus-patch-notess",
+            "subtitle": "October 12 2023"
+        },
+        {
             "title": "V.244 Punch King Palooza",
             "image": "/home-thumbnail/punch-king-palooza.jpg",
             "link": "https://maplestory.nexon.net/news/85511/v-244-punch-king-palooza-patch-notes",
@@ -40,18 +52,6 @@
             "image": "/home-thumbnail/momentree.jpg",
             "link": "https://maplestory.nexon.net/news/82631/v-241-maple-momentree-patch-notes",
             "subtitle": "May 2, 2023"
-        },
-        {
-            "title": "V.240 Double Trouble Recharge",
-            "image": "/home-thumbnail/double-trouble-recharge.jpg",
-            "link": "https://maplestory.nexon.net/news/81361/v-240-double-trouble-recharge-patch-notes",
-            "subtitle": "March 22, 2023"
-        },
-        {
-            "title": "V.239 Neo Tokyo",
-            "image": "/home-thumbnail/neo-tokyo.jpg",
-            "link": "https://maplestory.nexon.net/news/80182/v-239-neo-tokyo-patch-notes",
-            "subtitle": "February 7, 2023"
         }
     ],
     "upcoming": [
@@ -60,12 +60,6 @@
             "image": "/home-thumbnail/minar-autumn-picnic.jpg",
             "link": "https://orangemushroom.net/2023/09/22/kms-ver-1-2-382-minar-autumn-picnic/",
             "subtitle": "September 22, 2023"
-        },
-        {
-            "title": "New Age: Identisk Island!",
-            "image": "/home-thumbnail/new-age-identisk.jpg",
-            "link": "https://orangemushroom.net/2023/06/16/kms-ver-1-2-378-maplestory-new-age-identisk-island/",
-            "subtitle": "June 16, 2023"
         },
         {
             "title": "20th Anniversary: Mapril Island",
