@@ -1,4 +1,4 @@
-#  Updated: 2023-11-16 11:40:21
+#  Updated: 2023-12-07 12:34:46
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -35,6 +35,7 @@
 33across.com, 0010b00002Xep0KAAR, DIRECT, bbea06d9c4d2853c
 33across.com, 0013300001kQj2HAAS, RESELLER, bbea06d9c4d2853c
 33across.com, 0015a00002oUk4aAAC, RESELLER, bbea06d9c4d2853c
+33across.com, 0015a00003HljHyAAJ, RESELLER
 MANAGERDOMAIN=network-n.com
 OWNERDOMAIN=grandislibrary.com
 ad-generation.jp, 12474, RESELLER, 7f4ea9029ac04e53
@@ -48,8 +49,10 @@ admanmedia.com, 1061, RESELLER
 admanmedia.com, 43, RESELLER
 admanmedia.com, 726, RESELLER
 admanmedia.com, 799, RESELLER
+admixer.net, 5e789729-1e92-41ca-8b4f-987c6edae9fe, RESELLER
 adwmg.com, 100798, DIRECT, c9688a22012618e7
 adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER, 4ad745ead2958bf7
+adyoulike.com, 9fd2b9007240771df3a999a8db601cd3, RESELLER
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER, 4ad745ead2958bf7
 adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER, 4ad745ead2958bf7
 amitydigital.io, 493, RESELLER
@@ -84,6 +87,7 @@ aps.amazon.com, de948cab-9232-4f2a-90f5-794be75952c6, RESELLER
 audienciad.com, 206822, DIRECT
 axonix.com, 57264, RESELLER
 beachfront.com, 14804, RESELLER, e2541279e8e2ca4d
+betweendigital.com, 44774, RESELLER
 blockthrough.com, 5684350990417920, DIRECT
 brightcom.com, 20682, DIRECT
 contextweb.com, 558355, RESELLER, 89ff185a4c4e857c
@@ -134,11 +138,13 @@ google.com, pub-6373315980741255, RESELLER, f08c47fec0942fa0
 google.com, pub-7094677798399606, RESELLER, f08c47fec0942fa0
 google.com, pub-7734005103835923, RESELLER, f08c47fec0942fa0
 google.com, pub-7858377917172490, RESELLER, f08c47fec0942fa0
+google.com, pub-7995104076770938, RESELLER, f08c47fec0942fa0
 google.com, pub-8309773808661346, RESELLER, f08c47fec0942fa0
 google.com, pub-8622186303703569, RESELLER, f08c47fec0942fa0
 gumgum.com, 14141, RESELLER, ffdef49475d318a9
 gumgum.com, 14349, DIRECT, ffdef49475d318a9
 gumgum.com, 15609, DIRECT, ffdef49475d318a9
+hcodemedia.com, 439, RESELLER
 hoopladigital.co.uk, 21751981256, DIRECT
 improvedigital.com, 1790, RESELLER
 improvedigital.com, 1884, RESELLER
@@ -168,7 +174,9 @@ lijit.com, 240955-eb, DIRECT, fafdf38b16bf6b2b
 lijit.com, 367236, RESELLER, fafdf38b16bf6b2b
 lijit.com, 375328, RESELLER, fafdf38b16bf6b2b
 lijit.com, 407406, RESELLER, fafdf38b16bf6b2b
+lijit.com, 408376, RESELLER, fafdf38b16bf6b2b
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11480, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11575, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
 media.net, 8CU3BYI96, RESELLER
@@ -183,6 +191,7 @@ media.net, 8CUY6IX4H, RESELLER
 mgid.com, 43615, RESELLER, d4c29acad76ce94f
 mintegral.com, 10043, RESELLER, 0aeed750c80d6423
 minutemedia.com, 01gya4708ddm, RESELLER
+nativo.com, 5848, RESELLER, 59521ca7cc5e9fee
 network-n.com, 22750600967, DIRECT, f08c47fec0942fa0
 network-n.com, pa_ba2bc67e, DIRECT, f08c47fec0942fa0
 ogury.com, 7da4df59-1af0-42fa-9f27-5638fae7a75d, DIRECT
@@ -196,6 +205,7 @@ onetag.com, 74d276d460678b8-OB, DIRECT
 onetag.com, 75753f1ebcc343c, RESELLER
 onetag.com, 75804861b76a852, RESELLER
 onetag.com, 770a440e65869c2, RESELLER
+onetag.com, 7a07370227fc000, RESELLER
 onlinemediasolutions.com, 20682, DIRECT
 onomagic.com, 206821, DIRECT
 openx.com, 537100188, RESELLER, 6a698e2ec38604c6
@@ -243,6 +253,7 @@ pubmatic.com, 160377, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160648, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160835, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160887, DIRECT, 5d62403b186f2ace
+pubmatic.com, 160925, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160993, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161332, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161335, RESELLER, 5d62403b186f2ace
@@ -283,6 +294,8 @@ rubiconproject.com, 19654, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20406, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 20416, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20736, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20986, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 21310, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23404, RESELLER, 0bfd66d529a55807
@@ -326,6 +339,7 @@ smartadserver.com, 4071, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4073, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4074, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4125, RESELLER, 060d053dcf45cbf3
+smartadserver.com, 4144, RESELLER
 smartadserver.com, 4247, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4253, RESELLER
 smartadserver.com, 4255, RESELLER
@@ -345,12 +359,14 @@ sonobi.com, a015179bd7, DIRECT, d1a215d9eb5aee9e
 sovrn.com, 268479, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 374814, RESELLER, fafdf38b16bf6b2b
 sovrn.com, 376385, RESELLER, fafdf38b16bf6b2b
+spotim.market, sp_AYL2022, RESELLER, 077e5f709d15bdbb
 spotx.tv, 268145, DIRECT, 7842df1d2fe2db34
 stroeer.com, 22739, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
 themediagrid.com, GD57SQ, DIRECT, 35d5010d7789b49d
 themediagrid.com, IRK975, RESELLER, 35d5010d7789b49d
+themediagrid.com, JF6C5Y, DIRECT, 35d5010d7789b49d
 themediagrid.com, JTQKMP, RESELLER, 35d5010d7789b49d
 themediagrid.com, N71MIF, RESELLER, 35d5010d7789b49d
 themediagrid.com, PRLEZI, RESELLER, 35d5010d7789b49d
@@ -372,6 +388,7 @@ video.unrulymedia.com, 2221906906, RESELLER
 video.unrulymedia.com, 2338962694, RESELLER
 video.unrulymedia.com, 2439829435, RESELLER
 video.unrulymedia.com, 2564526802, RESELLER
+video.unrulymedia.com, 297618916, RESELLER
 video.unrulymedia.com, 3350674472, RESELLER
 video.unrulymedia.com, 335119963, RESELLER
 video.unrulymedia.com, 3463482822, RESELLER
