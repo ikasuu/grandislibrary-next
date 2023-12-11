@@ -56,6 +56,12 @@
     ],
     "upcoming": [
         {
+            "title": "Angelic Buster’s Comeback!",
+            "image": "/home-thumbnail/ab-revamp.jpg",
+            "link": "https://orangemushroom.net/2023/11/23/kms-ver-1-2-384-angelic-busters-comeback/",
+            "subtitle": "November 23, 2023"
+        },
+        {
             "title": "Minar Autumn Picnic",
             "image": "/home-thumbnail/minar-autumn-picnic.jpg",
             "link": "https://orangemushroom.net/2023/09/22/kms-ver-1-2-382-minar-autumn-picnic/",
@@ -115,54 +121,54 @@
     ],
     "popularClasses": [
         {
-            "alt": "Dawn Warrior",
-            "class": "dawn-warrior",
-            "path": "cygnus-knights/dawn-warrior"
-        },
-        {
-            "alt": "Buccaneer",
-            "class": "buccaneer",
-            "path": "explorers/buccaneer"
-        },
-        {
             "alt": "Adele",
             "class": "adele",
             "path": "flora/adele"
         },
         {
-            "alt": "Hero",
-            "class": "hero",
-            "path": "explorers/hero"
+            "alt": "Kain",
+            "class": "kain",
+            "path": "nova/kain"
         },
         {
-            "alt": "Shadower",
-            "class": "shadower",
-            "path": "explorers/shadower"
+            "alt": "Xenon",
+            "class": "xenon",
+            "path": "resistance/xenon"
         },
         {
-            "alt": "Bishop",
-            "class": "bishop",
-            "path": "explorers/bishop"
+            "alt": "Demon Slayer",
+            "class": "demon-slayer",
+            "path": "resistance/demon-slayer"
         },
         {
-            "alt": "Dual Blade",
-            "class": "dual-blade",
-            "path": "explorers/dual-blade"
+            "alt": "Hayato",
+            "class": "hayato",
+            "path": "sengoku/hayato"
         },
         {
-            "alt": "Night Walker",
-            "class": "night-walker",
-            "path": "cygnus-knights/night-walker"
+            "alt": "Demon Avenger",
+            "class": "demon-avenger",
+            "path": "resistance/demon-avenger"
         },
         {
-            "alt": "Night Lord",
-            "class": "night-lord",
-            "path": "explorers/night-lord"
+            "alt": "Battle Mage",
+            "class": "battle-mage",
+            "path": "resistance/battle-mage"
         },
         {
-            "alt": "Wind Archer",
-            "class": "wind-archer",
-            "path": "cygnus-knights/wind-archer"
+            "alt": "Shade",
+            "class": "shade",
+            "path": "heroes/shade"
+        },
+        {
+            "alt": "Luminous",
+            "class": "luminous",
+            "path": "heroes/luminous"
+        },
+        {
+            "alt": "Aran",
+            "class": "aran",
+            "path": "heroes/aran"
         }
     ]
 }

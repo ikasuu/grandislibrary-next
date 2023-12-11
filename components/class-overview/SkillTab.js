@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import LazyLoad, { forceCheck } from 'react-lazyload';
 import storage from 'local-storage-fallback';
 
-import { SkillContainer, VSkillContainer } from './SkillContainer';
+import { SkillContainer, VSkillContainer, HexaSkillContainer } from './SkillContainer';
 import { commonFifth } from '../../special/SiteValues';
 import { QuickJump } from '../UtilityButtons';
 
@@ -40,7 +40,7 @@ const StyledHeaderThree = styled.h3`
     margin: 2rem 0 1.25rem 0;
 `;
 
-export function SkillTab({primary, fifth, hyper, slug}) {
+export function SkillTab({primary, fifth, sixth, hyper, slug}) {
 
   // Hook to store setting info to be used by UtilityButton (QuickJump), this is also where the button is stored
   // When changes are made to settings, we have a useEffect hook that auto-updates our storage version of setting
@@ -66,6 +66,7 @@ export function SkillTab({primary, fifth, hyper, slug}) {
                 <a href="#skill"><span className="jump-button-tabs"/></a>
               </LazyLoad>
             </Tab>
+            {sixth && <Tab eventKey="sixth" title="6th Job"><SixthJobTab sixth={sixth} settings={settings}/></Tab>}
             {hyper && <Tab eventKey="hyper" title="Hyper Skills">
               <LazyLoad height={2000} offset={100}>
                 <StyledHeaderThree>Passive Skills</StyledHeaderThree>
@@ -80,6 +81,21 @@ export function SkillTab({primary, fifth, hyper, slug}) {
       <QuickJump settings={settings} setSettings={setSettings} slug={slug}/> 
     </div>
   );
+}
+
+function SixthJobTab({sixth, settings}){
+  return(
+    <div>
+      <LazyLoad height={2000} offset={100}>
+      <StyledHeaderThree>Mastery Core Skills</StyledHeaderThree>
+        <HexaSkillContainer skillData={sixth.masteryCore} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
+        <StyledHeaderThree>Origin Skills</StyledHeaderThree>
+        <HexaSkillContainer skillData={sixth.originSkill} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
+      </LazyLoad>
+    </div>
+  )
 }
 
 // Retrieves settings from storage, if it does not exist, use default value (false & true)
