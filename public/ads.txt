@@ -1,4 +1,4 @@
-#  Updated: 2023-12-18 10:56:34
+#  Updated: 2023-12-22 15:34:56
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -299,7 +299,7 @@ rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20406, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 20416, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20736, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 20986, DIRECT, 0bfd66d529a55807
+rubiconproject.com, 20986, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 21310, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23404, RESELLER, 0bfd66d529a55807
