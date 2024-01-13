@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 244; 
-export const versionName = "Punch King Palooza"
+export const version = 247; 
+export const versionName = "New Age: Into the Abyss"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";

@@ -44,6 +44,7 @@ function BossMatchmaking() {
           <li><Link smooth href="#blackmage" scroll>Black Mage</Link></li>
           <li><Link smooth href="#seren" scroll>Seren</Link></li>
           <li><Link smooth href="#kalos" scroll>Kalos</Link></li>
+          <li><Link smooth href="#kaling" scroll>Kaling</Link></li>
           <li><Link smooth href="#ranmaru" scroll>Ranmaru</Link></li>
           <li><Link smooth href="#princessno" scroll>Princess No</Link></li>
           <li><Link smooth href="#will" scroll>Will</Link></li>
@@ -445,7 +446,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestory.fandom.com/wiki/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestory.fandom.com/wiki/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Bonus Mystical Cube]</a>
             </li>
             <li>
-                <strong>Chaos Mode Only Rewards: </strong> <img src="/images/items/guardian-angel-slime-fountain.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener">[Kalos Ceiling Fan]</a>
+                <strong>Chaos Mode Only Rewards: </strong> <img src="/images/items/guardian-angel-slime-fountain.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener">[Guardian Angel Slime Fountain]</a>
                 , <img src="/images/items/black-rebirth-flame.png" alt="Use Black Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[Black Rebirth Flame]</a>
                 , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
                 , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
@@ -671,7 +672,7 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="seren"><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> Seren</ArticleHeaderTwo>
-          <p><strong>[Hard/Extreme Lv. 260+ 150SacP+]</strong></p>
+          <p><strong>[Normal/Hard/Extreme Lv. 260+ 150SacP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
@@ -706,7 +707,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           <ArticleHeaderTwo id="kalos"><img src="/images/map-icons/karote.png" alt="MapIcon Karote"/> Kalos</ArticleHeaderTwo>
-          <p><strong>[Chaos Lv. 265+ 250SacP+]</strong></p>
+          <p><strong>[Easy/Normal/Chaos/Extreme Lv. 265+ 200SacP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
@@ -715,6 +716,39 @@ function BossMatchmaking() {
             <li>
               <strong>Main Rewards:</strong> <img src="/images/items/kalos-residual-determination.png" alt="Use Kalos's Residual Determination"/> <a href="https://maplestory.fandom.com/wiki/Kalos%27s_Residual_Determination" target="_blank" rel="noopener">[Kalos's Residual Determination]</a>
               , <img src="/images/items/kalos-ceiling-fan.png"/> <a href="https://maplestory.fandom.com/wiki/Home#Trophy" target="_blank" rel="noopener">[Kalos Ceiling Fan]</a>
+              , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+              , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+              , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+              , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestory.fandom.com/wiki/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+              , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+              , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+              , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+              , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestory.fandom.com/wiki/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+              , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestory.fandom.com/wiki/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+              , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+              , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
+              , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestory.fandom.com/wiki/50%25_Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
+              , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Non-Reboot Only) Bonus Mystical Cube]
+              , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Accessory Coupon]</a>
+              , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestory.fandom.com/wiki/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Premium Scroll - Pet Equipment Coupon]</a>
+              , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestory.fandom.com/wiki/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Magical Scroll - Weapon Coupon]</a>
+              , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestory.fandom.com/wiki/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Incredible Chaos Scroll of Goodness 60%]</a>
+              , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Flame]</a>
+              , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestory.fandom.com/wiki/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Non-Reboot Only) Forever Unrelenting Black Flame]</a>
+            </li>
+          </ul>
+          <ArticleHeaderTwo id="kaling"><img src="/images/map-icons/shangri-la.png" alt="MapIcon Shang-ri La"/> Kaling</ArticleHeaderTwo>
+          <p><strong>[Easy/Normal/Chaos/Extreme Lv. 275+ 230SacP+]</strong></p>
+          <ul>
+            <li><strong>Can clear</strong>: Weekly</li  >
+          </ul>
+          <p>You must complete the Shangri-La questline to unlock access to Kaling</p>
+          <ul>
+            <li>
+              <strong>Main Rewards:</strong> <img src="/images/items/ferocious-beast-entanglement-ring.png" alt="Use Ferocious Beast Entanglement Ring"/> <a href="https://maplestory.fandom.com/wiki/Ferocious_Beast_Entanglement_Ring" target="_blank" rel="noopener">[Ferocious Beast Entanglement Ring]</a>
               , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.fandom.com/wiki/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
               , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
               , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestory.fandom.com/wiki/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>

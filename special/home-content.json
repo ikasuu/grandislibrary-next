@@ -18,22 +18,28 @@
     ],
     "recent": [
         {
+            "title": "V.247 New Age: Into the Abyss Patch Notes",
+            "image": "/home-thumbnail/new-age-abyss.jpg",
+            "link": "https://maplestory.nexon.net/news/87688/v-247-new-age-into-the-abyss-patch-notes",
+            "subtitle": "December 12, 2023"
+        },
+        {
             "title": "V.246 New Age: 6th Job Patch Notes",
             "image": "/home-thumbnail/6th-job.jpg",
             "link": "https://maplestory.nexon.net/news/86907/v-246-new-age-6th-job-patch-notes",
-            "subtitle": "November 14 2023"
+            "subtitle": "November 14, 2023"
         },
         {
             "title": "V.245 Midnight Carnival - Nautilus Patch Notes",
             "image": "/home-thumbnail/midnight-carnival.jpg",
             "link": "https://maplestory.nexon.net/news/86272/updated-11-8-v-245-midnight-carnival-nautilus-patch-notess",
-            "subtitle": "October 12 2023"
+            "subtitle": "October 12, 2023"
         },
         {
             "title": "V.244 Punch King Palooza",
             "image": "/home-thumbnail/punch-king-palooza.jpg",
             "link": "https://maplestory.nexon.net/news/85511/v-244-punch-king-palooza-patch-notes",
-            "subtitle": "August 29 2023"
+            "subtitle": "August 29, 2023"
         },
         {
             "title": "V.243 Savior: Shangri-La & Kaling",
@@ -46,15 +52,15 @@
             "image": "/home-thumbnail/savior.jpg",
             "link": "https://maplestory.nexon.net/news/83731/v-242-savior-khali-wind-of-vengeance-patch-notes",
             "subtitle": "June 13, 2023"
-        },
-        {
-            "title": "V.241 Maple Momentree",
-            "image": "/home-thumbnail/momentree.jpg",
-            "link": "https://maplestory.nexon.net/news/82631/v-241-maple-momentree-patch-notes",
-            "subtitle": "May 2, 2023"
         }
     ],
     "upcoming": [
+        {
+            "title": "Dreamer: Lachelin in a Dream!",
+            "image": "/home-thumbnail/dreamer.jpg",
+            "link": "https://orangemushroom.net/2023/12/22/kms-ver-1-2-385-maplestory-dreamer-lacheln-in-a-dream/",
+            "subtitle": "December 16, 2023"
+        },
         {
             "title": "Angelic Buster’s Comeback!",
             "image": "/home-thumbnail/ab-revamp.jpg",
@@ -126,24 +132,14 @@
             "path": "flora/adele"
         },
         {
-            "alt": "Kain",
-            "class": "kain",
-            "path": "nova/kain"
-        },
-        {
-            "alt": "Xenon",
-            "class": "xenon",
-            "path": "resistance/xenon"
-        },
-        {
             "alt": "Demon Slayer",
             "class": "demon-slayer",
             "path": "resistance/demon-slayer"
         },
         {
-            "alt": "Hayato",
-            "class": "hayato",
-            "path": "sengoku/hayato"
+            "alt": "Kain",
+            "class": "kain",
+            "path": "nova/kain"
         },
         {
             "alt": "Demon Avenger",
@@ -156,19 +152,29 @@
             "path": "resistance/battle-mage"
         },
         {
-            "alt": "Shade",
-            "class": "shade",
-            "path": "heroes/shade"
-        },
-        {
             "alt": "Luminous",
             "class": "luminous",
             "path": "heroes/luminous"
         },
         {
-            "alt": "Aran",
-            "class": "aran",
-            "path": "heroes/aran"
+            "alt": "Shade",
+            "class": "shade",
+            "path": "heroes/shade"
+        },
+        {
+            "alt": "Xenon",
+            "class": "xenon",
+            "path": "resistance/xenon"
+        },
+        {
+            "alt": "Zero",
+            "class": "zero",
+            "path": "other/zero"
+        },
+        {
+            "alt": "Hayato",
+            "class": "hayato",
+            "path": "sengoku/hayato"
         }
     ]
 }
