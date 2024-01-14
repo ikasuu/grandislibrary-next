@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Tab, Tabs} from 'react-bootstrap';
-import Link from 'next/link';
+import { Card, Container, Tab, Tabs} from 'react-bootstrap';
 import styled from 'styled-components';
 import LazyLoad, { forceCheck } from 'react-lazyload';
 import storage from 'local-storage-fallback';
@@ -8,6 +7,7 @@ import storage from 'local-storage-fallback';
 import { SkillContainer, VSkillContainer, HexaSkillContainer } from './SkillContainer';
 import { commonFifth } from '../../special/SiteValues';
 import { QuickJump } from '../UtilityButtons';
+import { SkillCard } from './SkillInfo';
 
 /*
     Tab component in our class overviews, used to hold all the skill containers and switch between them
@@ -91,6 +91,7 @@ function SixthJobTab({sixth, settings}){
         <HexaSkillContainer skillData={sixth.masteryCore} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
         <StyledHeaderThree>Origin Skills</StyledHeaderThree>
+        <OriginSkillNote/>
         <HexaSkillContainer skillData={sixth.originSkill} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
       </LazyLoad>
@@ -102,6 +103,18 @@ function SixthJobTab({sixth, settings}){
 function getInitialClassSettings(){
   const savedSettings = storage.getItem('classSettings');
   return savedSettings ?  JSON.parse(savedSettings) : { offline: false, animations: true };
+}
+
+function OriginSkillNote(){
+  return(
+    <SkillCard>
+      <Card.Body>
+        <Card.Text>
+            All Origin Skills bind all hit enemies for 10 secs (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills
+        </Card.Text>
+      </Card.Body>
+    </SkillCard>
+  );
 }
 
 export default SkillTab;

@@ -11,7 +11,7 @@ import styled from 'styled-components';
 */
 
 // Main container/card
-const SkillCard = styled(Card)`
+export const SkillCard = styled(Card)`
     max-width: 40rem;
     margin: 1.5rem 0 1.5rem 0;
 `;

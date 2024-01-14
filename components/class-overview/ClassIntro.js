@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DOMPurify from 'isomorphic-dompurify';
 import parse from 'html-react-parser';
 import styled from 'styled-components';
-import { Col, Container, Image, Table, Row, Card } from 'react-bootstrap';
+import { Col, Container, Image, Table, Row, Card, Modal } from 'react-bootstrap';
 
 import { weapons, secondaryWeapons, weaponConsumable } from '../../special/SiteValues';
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
 import BannerAdOne, { BannerAdTwo, StickyAd, VideoAdClassOverview } from '../Ads';
+import { Chip } from '@material-ui/core';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -163,15 +164,56 @@ function ClassProperties({content}) {
     Created by: Ikasuu, Fall 2020
 */
 
-function PropertyBox({skills, classType}) {
+function PropertyBox({skills, infographics}) {
   return (
       <div style={{paddingLeft: '0.5rem'}}>
           <StyledHeaderFive>Skill Preview<InfoButton tooltip="Click the skill icon to view skill animation"/></StyledHeaderFive>
           { skills.map( skill => 
               <NotableSkill key={skill.name} skill={skill}/>
           )}
+          {
+            infographics ? 
+            <div>
+                <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
+                {
+                    infographics.map( image => 
+                    <ClassInfographic infographic={image.src} title={image.title}/>
+                )}
+            </div>
+            : <></>
+          }
       </div>
   );
+}
+
+/*
+    Displays the class infographics in the class properties section and handles modal logic
+    Created by: Ikasuu, Spring 2024
+*/
+
+export function ClassInfographic({ infographic, title }) {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+    return (
+        <span>
+            <Chip label={title} onClick={handleShow} clickable size="large"/>
+            <Modal centered show={show} onHide={handleClose} aria-labelledby="infographic-image" size="lg">
+                <Modal.Header closeButton>
+                    <Modal.Title id="infographic-image">
+                            {title}
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <a href={infographic} target="_blank" rel="noreferrer noopener">
+                        <Image src={infographic} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
+                    </a>
+                </Modal.Body>
+            </Modal>
+        </span>
+    );
 }
 
 /*
