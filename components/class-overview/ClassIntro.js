@@ -77,7 +77,7 @@ export function ClassIntro({data}) {
                 <Row>
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>
-                        <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
+                        <PropertyBox skills={data.skill.notable} infographics={data.content.infographics}/>
                         <LinkSkill linkSkill={data.content.linkSkill}/>
                         <VideoAdClassOverview/>
                     </PropertyContainer>
@@ -199,7 +199,7 @@ export function ClassInfographic({ infographic, title }) {
 
     return (
         <span>
-            <Chip label={title} onClick={handleShow} clickable size="large"/>
+            <Chip label={title} className="hvr-grow" onClick={handleShow} clickable size="large"/>
             <Modal centered show={show} onHide={handleClose} aria-labelledby="infographic-image" size="lg">
                 <Modal.Header closeButton>
                     <Modal.Title id="infographic-image">
@@ -207,8 +207,8 @@ export function ClassInfographic({ infographic, title }) {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <a href={infographic} target="_blank" rel="noreferrer noopener">
-                        <Image src={infographic} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
+                    <a href={`/class-infographic/${infographic}`} target="_blank" rel="noreferrer noopener">
+                        <Image src={`/class-infographic/${infographic}`} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
                     </a>
                 </Modal.Body>
             </Modal>

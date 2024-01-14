@@ -239,7 +239,7 @@ export const GlobalStyle = createGlobalStyle`
 
   //Modals related
   .close{
-    color: ${getForeground} !important;
+    color: ${getBackground} !important;
     opacity: 1 !important;
   }
 
@@ -274,10 +274,21 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.1rem !important;
   }
 
-  /* For Material UI fab primary color */
+  /* For Material UI fab button primary color */
   .MuiFab-primary{
     background-color: ${getMenuColor} !important;
   }
+
+  /* For Material UI chip buttons */
+  .MuiChip-clickable{
+    background-color: ${getMenuColor} !important;
+    transition: all 0.2s ease !important;
+  }
+  
+  .MuiChip-root{
+    color: ${getMenuSubColor} !important;
+  }
+  
 
   [data-tooltip]:before {
     content: attr(data-tooltip);
