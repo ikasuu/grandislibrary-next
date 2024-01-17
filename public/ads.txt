@@ -1,4 +1,4 @@
-#  Updated: 2024-01-13 05:40:30
+#  Updated: 2024-01-15 16:45:35
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -52,7 +52,7 @@ admixer.net, 5e789729-1e92-41ca-8b4f-987c6edae9fe, RESELLER
 admixer.net, b81743f7-b474-4c19-8479-8697021abdd2, RESELLER
 adwmg.com, 100798, DIRECT, c9688a22012618e7
 adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER, 4ad745ead2958bf7
-adyoulike.com, 9fd2b9007240771df3a999a8db601cd3, DIRECT
+adyoulike.com, 9fd2b9007240771df3a999a8db601cd3, RESELLER
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER, 4ad745ead2958bf7
 adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER, 4ad745ead2958bf7
 amitydigital.io, 493, RESELLER
@@ -101,7 +101,6 @@ contextweb.com, 562541, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562615, RESELLER, 89ff185a4c4e857c
 conversantmedia.com, 100141, RESELLER
 conversantmedia.com, 100232, RESELLER, 03113cd04947736d
-conversantmedia.com, 100316, RESELLER, 03113cd04947736d
 conversantmedia.com, 41996, RESELLER, 03113cd04947736d
 criteo.com, B-059206, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-067384, RESELLER, 9fac4a4a87c2a44f
@@ -228,6 +227,7 @@ openx.com, 540274407, RESELLER, 6a698e2ec38604c6
 openx.com, 540447791, RESELLER, 6a698e2ec38604c6
 openx.com, 540862677, RESELLER, 6a698e2ec38604c6
 openx.com, 540886248, DIRECT, 6a698e2ec38604c6
+openx.com, 541017750, RESELLER, 6a698e2ec38604c6
 openx.com, 541031350, RESELLER, 6a698e2ec38604c6
 openx.com, 543174347, RESELLER, 6a698e2ec38604c6
 openx.com, 556532676, RESELLER, 6a698e2ec38604c6
@@ -254,6 +254,7 @@ pubmatic.com, 158684, DIRECT, 5d62403b186f2ace
 pubmatic.com, 159110, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159463, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159477, RESELLER, 5d62403b186f2ace
+pubmatic.com, 159988, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160295, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160377, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160648, RESELLER, 5d62403b186f2ace
@@ -289,6 +290,7 @@ rubiconproject.com, 13918, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16920, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 17130, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 18020, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 18580, DIRECT, 0bfd66d529a55807
@@ -331,7 +333,7 @@ sharethrough.com, wGR7Zifp, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, zLsEa05k, RESELLER, d53b998a7bd4ecd2
 smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
 smaato.com, 1100044650, RESELLER, 07bcf65f187117b4
-smaato.com, 1100046863, RESELLER, 07bcf65f187117b4
+smaato.com, 1100046863, DIRECT, 07bcf65f187117b4
 smaato.com, 1100047713, RESELLER, 07bcf65f187117b4
 smartadserver.com, 3238, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3436, RESELLER, 060d053dcf45cbf3
@@ -389,7 +391,9 @@ triplelift.com, 8210, RESELLER, 6c33edb13117fd86
 triplelift.com, 8446, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332, DIRECT, 6c33edb13117fd86
 triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
+undertone.com, 4151, RESELLER
 verve.com, 15503, RESELLER, 0c8f5958fc2d6270
+vidazoo.com, 659e87c55f6c605c11d299d6, DIRECT, b6ada874b4d7d0b2
 video.unrulymedia.com, 1879993427, DIRECT
 video.unrulymedia.com, 2221906906, RESELLER
 video.unrulymedia.com, 2338962694, RESELLER
