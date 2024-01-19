@@ -169,7 +169,7 @@ function AttackSpeed() {
                 <li><img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <a href="https://maplestory.fandom.com/wiki/Extreme_Green_Potion" target="_blank" rel="noopener noreferrer">Extreme Green Potion</a> (+1 AS)</li>
                 <li><img src="/images/items/crimson-queen-soul.png" alt="Use Crimson Queen Soul"/> <a href="https://maplestory.fandom.com/wiki/Fickle_Queen" target="_blank" rel="noopener noreferrer">Crimson Queen soul's attack speed buff</a> (+1 AS)</li>
                 <li>Battle Mage's <img src="/class-icons/resistance/battle-mage/hasty-aura.png" alt="Skill Hasty Aura"/> <a href="https://maplestory.fandom.com/wiki/Hasty_Aura" target="_blank" rel="noopener noreferrer">Hasty Aura</a> (+2 AS)</li>
-                <li>Zero's <img src="/class-icons/other/zero/divine-speed.png" alt="Skill Divine Speed"/> <a href="https://maplestory.fandom.com/wiki/Divine_Speed" target="_blank" rel="noopener noreferrer">Divine Speed</a> (+1 AS)</li>
+                <li>Zero's <img src="/class-icons/other/zero/divine-aura.png" alt="Skill Divine Aura"/> <a href="https://maplestory.fandom.com/wiki/Divine_Aura" target="_blank" rel="noopener noreferrer">Divine Aura</a> (+1 AS)</li>
                 <li>Kaiser's <img src="/class-icons/nova/kaiser/kaisers-majesty.png" alt="Skill Kaiser's Majesty"/> <a href="https://maplestory.fandom.com/wiki/Kaiser's_Majesty" target="_blank" rel="noopener noreferrer">Kaiser's Majesty</a> (+1 AS)</li>
             </ul>
             <p>You will need only one of these Attack Speed boosts to break through the Soft Speed cap to be able to reach the Hard Speed cap</p>
