@@ -39,7 +39,7 @@ function AttackSpeed() {
             <p><strong>[Note]: </strong>All mage classes are not affected by their weapon's Attack Speed. Instead, all skill casts use a base cast speed of Average (Stage 4) regardless of weapon</p>
             <VideoAd/>
             <h2>Savior Update Change</h2>
-            <p>Prior to the Savior Update, Attack Speed referred to AS0 as the fastest and AS9 as the slowest. After the Savior Update, Stage 10 is the fastest and Stage 1 is the slowest. As well, the Weapon Speed "Normal" is now called "Average". For applicable regions, Stage 8 (AS2) is the Soft Cap and Stage 10 (AS0) is the Hard Cap.</p>
+            <p>Prior to the Savior Update, Attack Speed referred to AS0 as the fastest and AS9 as the slowest. After the Savior Update, Stage 10 is the fastest and Stage 1 is the slowest. As well, the Weapon Speed "Normal" is now called "Average". <strong>For applicable regions, Stage 8 (AS2) is the Soft Cap and Stage 10 (AS0) is the Hard Cap.</strong></p>
             <p>In short, the Attack Speed numbering now increases instead of decreasing. <strong>This page uses the Post-Savior formatting</strong></p>
             <p>Below is a reference for converting from the old format to the new format from slowest to fastest:</p>
             <ul>
@@ -54,6 +54,8 @@ function AttackSpeed() {
                 <li>AS1 -&gt; Stage 9</li>
                 <li>AS0 -&gt; Stage 10</li>
             </ul>
+            <img className="repository-image" src="/images/info/bonus-attack-speed.png" alt="Bonus Attack Speed Stat"/>
+            <p>In the Character Stats UI, the Attack Speed stat will visually display up to Stage 8. Hovering over the stat will reveal a tooltip with the current sources of Attack Speed. <strong>For applicable regions, when surpassing the Attack Speed cap, it will state "*Bonus Attack Speed is in effect"</strong></p>
             <h2>Weapon Attack Speeds</h2>
             <h3>Fast (6)</h3>
             <ul>

@@ -298,7 +298,7 @@ function ClassDetail({content}) {
             </ul>
             <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive>
             {parse(DOMPurify.sanitize(content.hyperBuild.recommended))}
-            <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
+            <StyledHeaderFive>Recommended Skills for Trio Boost Nodes</StyledHeaderFive>
             <Container>{parse(DOMPurify.sanitize(content.nodeInfo.recommended))}</Container>
             <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
             <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
