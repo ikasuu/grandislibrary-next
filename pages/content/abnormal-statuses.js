@@ -231,7 +231,7 @@ function Miss() {
                     </tr>
                     <tr>
                         <StatusTitle>Status</StatusTitle>
-                        <StyledTd>Character accuracy is reduced resulting is MISS attacks</StyledTd>
+                        <StyledTd>Character accuracy is reduced resulting in MISS attacks</StyledTd>
                     </tr>
                     <tr>
                         <StatusTitle>Cure</StatusTitle>

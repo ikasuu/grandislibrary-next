@@ -110,7 +110,7 @@ function OriginSkillNote(){
     <SkillCard>
       <Card.Body>
         <Card.Text>
-            All Origin Skills bind all hit enemies for 10 secs (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills
+            All Origin Skills bind all enemies hit for 10 secs (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills
         </Card.Text>
       </Card.Body>
     </SkillCard>
