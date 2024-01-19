@@ -87,7 +87,8 @@ function SixthJobTab({sixth, settings}){
   return(
     <div>
       <LazyLoad height={2000} offset={100}>
-      <StyledHeaderThree>Mastery Core Skills</StyledHeaderThree>
+      <StyledHeaderThree>Mastery Nodes</StyledHeaderThree>
+        <MasterySkillNote/>
         <HexaSkillContainer skillData={sixth.masteryCore} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
         <StyledHeaderThree>Origin Skills</StyledHeaderThree>
@@ -105,12 +106,29 @@ function getInitialClassSettings(){
   return savedSettings ?  JSON.parse(savedSettings) : { offline: false, animations: true };
 }
 
+function MasterySkillNote(){
+  return(
+    <SkillCard>
+      <Card.Body>
+        <Card.Text>
+            Mastery Nodes upgrade existing 4th job and lower skills. Mastery Nodes can be activated for the given skill once it has been enhanced with V Matrix above Lv. 40 (before Matrix Points)
+        </Card.Text>
+      </Card.Body>
+    </SkillCard>
+  );
+}
+
 function OriginSkillNote(){
   return(
     <SkillCard>
       <Card.Body>
         <Card.Text>
-            All Origin Skills bind all enemies hit for 10 secs (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills
+            <p>Origin Skills bind all enemies hit for 10 secs (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills</p>
+            <p>While casting, Origin Skills grant absolute invincibility that can defend against instant deaths like Kaling P3, Will P3, Guardian Angel Slime, Kalos P2-4</p>
+            <p>Origin Skills receive bonus stats when they reach Lv. 10/20/30:</p>
+            <p><strong>[Lv. 10]</strong> 20% Ignore DEF</p>
+            <p><strong>[Lv. 20]</strong> 20% Boss Damage</p>
+            <p><strong>[Lv. 30]</strong> 30% Ignore DEF & Boss Damage</p>
         </Card.Text>
       </Card.Body>
     </SkillCard>
