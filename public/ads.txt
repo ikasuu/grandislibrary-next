@@ -1,4 +1,4 @@
-#  Updated: 2024-01-24 10:25:35
+#  Updated: 2024-01-25 15:40:32
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -70,7 +70,6 @@ appnexus.com, 12290, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12366, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12637, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12695, RESELLER, f5ab79cb980f11d1
-appnexus.com, 13099, RESELLER, f5ab79cb980f11d1
 appnexus.com, 13162, RESELLER, f5ab79cb980f11d1
 appnexus.com, 15127, RESELLER, f5ab79cb980f11d1
 appnexus.com, 1922, RESELLER, f5ab79cb980f11d1
@@ -115,8 +114,6 @@ freewheel.tv, 1157665, RESELLER
 freewheel.tv, 1163521, RESELLER
 freewheel.tv, 1237631, DIRECT
 freewheel.tv, 1237711, DIRECT
-freewheel.tv, 1568036, RESELLER
-freewheel.tv, 1568041, RESELLER
 freewheel.tv, 1590601, RESELLER
 freewheel.tv, 1590606, RESELLER
 freewheel.tv, 1598755, RESELLER
@@ -229,7 +226,6 @@ openx.com, 540447791, RESELLER, 6a698e2ec38604c6
 openx.com, 540862677, RESELLER, 6a698e2ec38604c6
 openx.com, 540886248, DIRECT, 6a698e2ec38604c6
 openx.com, 541017750, RESELLER, 6a698e2ec38604c6
-openx.com, 541031350, RESELLER, 6a698e2ec38604c6
 openx.com, 543174347, RESELLER, 6a698e2ec38604c6
 openx.com, 556532676, RESELLER, 6a698e2ec38604c6
 openx.com, 556543003, DIRECT, 6a698e2ec38604c6
@@ -246,7 +242,6 @@ pubmatic.com, 156439, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156512, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156557, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156595, RESELLER, 5d62403b186f2ace
-pubmatic.com, 156631, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156872, RESELLER, 5d62403b186f2ace
 pubmatic.com, 157897, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158540, DIRECT, 5d62403b186f2ace
@@ -265,7 +260,6 @@ pubmatic.com, 160925, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160993, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161332, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161335, RESELLER, 5d62403b186f2ace
-pubmatic.com, 161593, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161691, DIRECT, 5d62403b186f2ace
 pubmatic.com, 162110, RESELLER, 5d62403b186f2ace
 pubmatic.com, 162186, DIRECT, 5d62403b186f2ace
@@ -282,10 +276,8 @@ rhythmone.com, 4116102010, RESELLER, a670c89d4a324e47
 richaudience.com, 1BTOoaD22a, RESELLER
 richaudience.com, 1ru8dKmJJV, RESELLER
 risecodes.com, 62cd4aab9766d400014b79de, DIRECT
-rubiconproject.com, 11006, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 12186, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13510, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13918, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
@@ -411,6 +403,7 @@ wunderkind.co, 6801, DIRECT
 xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
 xandr.com, 14082, RESELLER
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
+yahoo.com, 58723, RESELLER
 yahoo.com, 59260, RESELLER
 yieldmo.com, 2754490424016969782, RESELLER
 yieldmo.com, 2757543169808605705, RESELLER
