@@ -27,7 +27,7 @@
             "question": "How should I put my SP? Are there are Skill Builds?",
             "answer": [
                 "As of November 20, 2019, all classes are able to max all their skills except for Beast Tamer which has only enough SP to max out two Animal Skill Trees",
-                "Characters created prior to this date will need to buy a SP Reset Scroll with mesos from Matilda in Regular Servers or Cash Shop in Reboot Servers. You can also find them in Event Shops if there is one currently around",
+                "Characters created prior to this date will need to buy a SP Reset Scroll with mesos from Matilda in Interactive Worlds or Cash Shop in Heroic Worlds. You can also find them in Event Shops if there is one currently around",
                 "On guidance for how to allocate your SP, max out Passives first, then Buffs, then Attacks. Prioritize passives that either require few SP to max or provide damage increases"
             ],
             "tags": "sp skill build beast tamer class"
@@ -127,6 +127,21 @@
                 "Cash Shop Transfer events occur about 2 to 3 times per year and allows items to be moved between characters even if they do not belong to the same Class Group"
             ],
             "tags": "cash shop transfer event character"
+        },
+        {
+            "question": "What are Interactive and Heroic Worlds?",
+            "answer": [
+                "In Feb 2024, Non-Reboot Worlds like Bera and Scania were officially categorized as Interactive Worlds. Reboot Worlds were renamed to Kronos, Hyperion, Solis and categorized as Heroic Worlds",
+                "The functionality of the servers are unchanged, the only differences now is their names and how they are grouped"
+            ],
+            "tags": "reboot regular non-reboot servers worlds interactive heroic"
+        },
+        {
+            "question": "What happened to the class Jett?",
+            "answer": [
+                "In Feb 2024, Jett was removed as a playable character. All remaining Jetts were converted to Beginner (Explorers)"
+            ],
+            "tags": "jett class missing removed explorer gone"
         }
     ],
     "template": {

@@ -11,7 +11,7 @@ function UpgradeEquipment() {
       <ContentPage>
           <Head>
             <title>Upgrading &amp; Enhancing Equipment | MapleStory | Grandis Library</title>
-            <meta content={"An explanation on the different ways to upgrade and enhance your gear such as Spell Tracing in Regular Servers, Star Forcing, Pontentials, Cubes, Flames, Bonus Stats, and more."} name="description"/>
+            <meta content={"An explanation on the different ways to upgrade and enhance your gear such as Spell Tracing in Interactive Worlds, Star Forcing, Pontentials, Cubes, Flames, Bonus Stats, and more."} name="description"/>
           </Head>
           <ContentTitle>Upgrading &amp; Enhancing Equipment</ContentTitle>
           <StickyAd/>
@@ -30,11 +30,11 @@ function UpgradeEquipment() {
           <VideoAd/>
           <div className="repository-md-container">
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="scrolls">Scrolls in Regular Servers</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="scrolls">Scrolls in Interactive Worlds</ArticleHeaderTwo>
             <hr/>
             <p>Scrolls are one way of upgrading equipment, they are found in the USE tab. Scrolls are the traditional way of upgrading equipment and can be done by double-clicking it and dragging it on to an item. Most of regular scrolls nowadays are useless and have been replaced with an easier system called <a rel="noreferrer noopener" href="https://support-maplestory.nexon.net/hc/en-us/articles/204744535-What-are-Spell-Traces-" target="_blank">Spell Tracing</a> which will be explained later. For now, Spell Tracing provides the same function as scrolling and is much easier to obtain than scrolls</p>
             <p><strong>[Note]: </strong>Whenever you use a scroll, whether it fails or passes, an upgrade slot will be consumed</p>
-            <p><strong>[Note]: </strong>Scrolls and upgrade slots are used only on non-Reboot servers. Reboot servers only have star forcing/enhancing</p>
+            <p><strong>[Note]: </strong>Scrolls and upgrade slots are used only on Interactive Worlds. Heroic Worlds only have star forcing/enhancing</p>
             <hr/>
             <ul>
               <li>
@@ -214,7 +214,7 @@ function UpgradeEquipment() {
               </li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="spelltrace"><img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing in Regular Servers</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="spelltrace"><img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing in Interactive Worlds</ArticleHeaderTwo>
             <hr/>
             <p><img src="/images/info/spell-trace-tooltip.png" alt="Spell Trace"/></p>
             <p>Spell tracing involves using an item called <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/4001832" target="_blank">"Spell Trace"</a> to upgrade items instead of using scrolls. They also consume an upgrade slot upon success or fail. This is the main and most common way to upgrade equipment. Some common ways to get Spell Traces is to hunt monsters, Pollo Frito portals, and from events</p>
@@ -229,7 +229,7 @@ function UpgradeEquipment() {
             <ArticleHeaderTwo id="starforce">Star Forcing</ArticleHeaderTwo>
             <hr/>
             <p><img src="/images/info/starforce-tooltip.png" alt="Starforce Equipment"/></p>
-            <p>Once you have consumed all upgrade slots, you may star force/enhance your gear. In Reboot, there are no upgrade slots, so you just star force/enhance instead. Star Forcing costs mesos that grants increased stats on success</p>
+            <p>Once you have consumed all upgrade slots, you may star force/enhance your gear. In Heroic Worlds, there are no upgrade slots, so you just star force/enhance instead. Star Forcing costs mesos that grants increased stats on success</p>
             <p><img src="/images/info/equipment-enchant-button.png" alt="Starforce Red Button"/></p>
             <p><img src="/images/info/equipment-enchant-ui.png" alt="Equip Enhance UI"/><img src="/images/info/starforce-ui.png" alt="Starforce UI"/></p>
             <p>Like before, you can drag equipment into the Equipment Enchant UI like spell tracing to star force your gear</p>
@@ -270,7 +270,7 @@ function UpgradeEquipment() {
             <p><img className="repository-image" src="/images/info/transfer-hammer-ui.png" alt="Transfer Hammer UI"/></p>
             <p>Transfer Hammer is a system that allows you to transfer Star Force, Potentials, Bonus Potentials, and Soul Weapon from one equipment to another (with restrictions). The following will not be transferred, Scrolled Stats and Bonus Stats. Additionally you will lose one Star Force while transferring and any potentials above Epic will be dropped down to Epic Potential. You can only transfer equipment up to 10 levels apart of each other. For equipment below Lv. 119, you can transfer up to 20 levels apart</p>
             <p>Some requirements for Transfer Hammering is that the piece of equipment must have at least 1 Star Force, cannot be Superior Gear (such as Tyrants) and must be the same equipment type (regardless of job group). Overalls can be counted towards both as a top or bottom and vice versa</p>
-            <p>In regular servers, any remaining upgrade slots will be filled by 100% Spell Traces for free. You can choose which stat you want the upgrades to be. I recommend that you already Upgrade/Spell Trace the Transferring Item first if you do not want the 100% Spell Trace stats</p>
+            <p>In Interactive Worlds, any remaining upgrade slots will be filled by 100% Spell Traces for free. You can choose which stat you want the upgrades to be. I recommend that you already Upgrade/Spell Trace the Transferring Item first if you do not want the 100% Spell Trace stats</p>
             <p><img className="repository-image" src="/images/info/transfer-hammer-button.png" alt="Transfer Hammer Button"/></p>
             <p>To begin Transfer Hammering, you can access the UI from your Inventory by<strong> pressing the blue hammer icon</strong></p>
             <p>For more info on Transfer Hammer, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Transfer_Hammer" target="_blank">https://strategywiki.org/wiki/MapleStory/Transfer_Hammer</a></p>
@@ -381,7 +381,7 @@ function UpgradeEquipment() {
             <p><a href="https://strategywiki.org/wiki/MapleStory/Bonus_Stats" target="_blank" rel="noopener noreferrer">https://strategywiki.org/wiki/MapleStory/Bonus_Stats</a></p>
             <p>For more info on endgame gear, check out this neat video:</p>
             <p><a href="https://www.youtube.com/watch?v=qdyIWRqXOH0" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=qdyIWRqXOH0</a></p>
-            <p>For more info on Gear, check out this neat guide. It can also be applicable to Non-Reboot servers too even though it's curated for Reboot servers:</p>
+            <p>For more info on Gear, check out this neat guide. It can also be applicable to Interactive Worlds too although it is curated for Heroic Worlds:</p>
               <p><a href="https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p" target="_blank" rel="noopener noreferrer">
                   https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p
               </a></p>

@@ -17,13 +17,13 @@ function BurningWorld() {
         <EventPage>
             <Head>
                 <title>Burning World | MapleStory | Grandis Library</title>
-                <meta content={"Burning World is a temporary event world that has special benefits and rewards for all characters in this world. At the end of this event, characters in this world can be transferred to a Non-Reboot world."} name="description"/>
+                <meta content={"Burning World is a temporary event world that has special benefits and rewards for all characters in this world. At the end of this event, characters in this world can be transferred to Interactive Worlds."} name="description"/>
             </Head>
             <ContentTitle>Burning World</ContentTitle>
             <StickyAd/>
             <h2><img src="/images/info/burning-world.png" alt="WorldIcon Burning World"/> What is Burning World?</h2>
-            <p>Burning World is a temporary world that has special benefits for all characters in this world. Additionally, you are able to create multiple Mega Burning characters within this world. The main benefit is that at the end of the event, you are able to transfer your characters out of Burning World and into a Regular World (Non-Reboot World)</p>
-            <p>Burning World characters can be transferred into any Regular World. Burning World characters cannot be transferred into Reboot worlds. This may be because Burning World functions almost the same as a regular world and does not have any Reboot functionalities</p>
+            <p>Burning World is a temporary world that has special benefits for all characters in this world. Additionally, you are able to create multiple Mega Burning characters within this world. The main benefit is that at the end of the event, you are able to transfer your characters out of Burning World and into a Interactive Worlds</p>
+            <p>Burning World characters can be transferred to Interactive Worlds only. Burning World characters cannot be transferred to Heroic Worlds</p>
             <VideoAd/>
             <h3>Notes</h3>
             <hr/>
@@ -117,7 +117,7 @@ function BurningWorld() {
             <BannerAdTwo/>
             <h2>Transferring from Burning World</h2>
             <p><strong>To transfer first, your character must be at least Lv. 150</strong></p>
-            <p>Once the Burning World event ends, you can transfer your character to a Regular World (Non-Reboot world). You will not be able to train your characters in the Burning World during this period</p>
+            <p>Once the Burning World event ends, you can transfer your character to Interactive Worlds. You will not be able to train your characters in the Burning World during this period</p>
             <p>During the GMS Rise Burning World, transferring period will be available from September 17th, 2020 to October 7th, 2020. Some things to note, only a maximum of 6 characters can be transferred out of Burning World. You do not need an empty character slot on the destination world for your new character. Lastly, characters must leave or disband their Guild in order to transfer worlds</p>
             <p>Any characters that are not moved during the transferring period will be deleted along with their items and Cash Items. To keep Cash Items, make sure move them onto your characters before transferring them out of Burning World</p>
             <h2>Burning World Restrictions</h2>

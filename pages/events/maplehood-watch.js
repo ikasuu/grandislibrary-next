@@ -52,8 +52,8 @@ function MaplehoodWatch() {
                 <li><strong>Hunt 200 monsters within your level range</strong> (20 levels below and 20 levels above) to receive rewards!</li>
             </ul>
             <h3>Upon completion:</h3>
-            <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on non-Reboot worlds)</p>
-            <p><img src="/images/info/reboot.png" alt="WorldIcon Reboot"/> Receive one <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> [Glowing Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Reboot world only)</p>
+            <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Interactive Worlds)</p>
+            <p><img src="/images/info/reboot.png" alt="WorldIcon Heroic World"/> Receive one <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> [Glowing Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Heroic Worlds)</p>
             
             <h2>Gachapon Day</h2>
             <ul>
@@ -62,7 +62,7 @@ function MaplehoodWatch() {
             </ul>
             <p>Upon completion, receive 5 <img src="/images/items/maplehood-watch-gachapon.png" alt="Use Maplehood Watch Gachapon"/> [Maplehood Watch Gachapon] and 3 <img src="/images/items/maplehood-watch-avatar-box.png" alt="Cash Maplehood Watch Avatar Box"/> [Maplehood Watch Avatar Boxes]</p>
             <h3>Maplehood Watch Gachapon</h3>
-            <p><strong>[Note]</strong>: Remember, equipment in Reboot cannot be transferred through the bank! This applies to items that even say "Transferable Within Account" or "Can be traded once within account"</p>
+            <p><strong>[Note]</strong>: In Heroic Worlds equipment cannot be transferred through the bank. This applies to items that even say "Transferable Within Account" or "Can be traded once within account"</p>
             <p>Located in your <strong>USE tab</strong>, Double-click each one to receive one random item. Some examples of items included from August 2019 Maplehood Watch:</p>
             <p><img className="repository-image" src="/images/info/maplehood-watch-gacha-items-1.png" alt="Maplehood Gacha Items"/></p>
             <p>Dominator Pendant, Legendary Potential Scroll 50%, M-day Heart, X Weapon/Accessory/Pet Equipment Scrolls, and Gold and Silver Potential Stamps, not included in image but also Metamorph Potions, Trait Items, Restorative Potions, and 3 and 4 Star Enhancement Scrolls</p>

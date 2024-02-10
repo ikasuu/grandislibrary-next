@@ -60,9 +60,6 @@ function LinkSkills() {
         <p><strong>[Corsair, Buccaneer, and Cannoneer]</strong></p>
         <SingleSkill skillData={linkSkills.expPirate}/>
         <hr/>
-        <p><strong>[Jett]</strong></p>
-        <SingleSkill skillData={linkSkills.jett}/>
-        <hr/>
         {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
         <h2 id="cygnusknights">Cygnus Knights</h2>
         <hr/>

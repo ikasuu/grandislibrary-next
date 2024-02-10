@@ -1263,9 +1263,9 @@ function Destiny() {
                         , <img src="/images/items/sparkling-red-star-potion.png" alt="Use Sparkling Red Star Potion"/> Sparkling Red Star Potion
                         , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> Sparkling Blue Star Potion
                         , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> Small EXP Accumulation Potion
-                        , <img src="/images/items/black-rebirth-flame.png" alt="Use Black Rebirth Flame"/> (Non-Reboot Only) Black Rebirth Flame
-                        , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Coupon"/> (Non-Reboot Only) Premium Scroll Coupon
-                        , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll Coupon"/> (Non-Reboot Only) Magical Scroll Coupon</li>
+                        , <img src="/images/items/black-rebirth-flame.png" alt="Use Black Rebirth Flame"/> (Interactive Worlds Only) Black Rebirth Flame
+                        , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Coupon"/> (Interactive Worlds Only) Premium Scroll Coupon
+                        , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll Coupon"/> (Interactive Worlds Only) Magical Scroll Coupon</li>
                     </ul>
                 </li>
                 <li><strong>AbsoLab and Arcane Umbra equipment now drop as <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <img src="/images/items/arcane-umbra-box.png" alt="Use Arcane Umbra Box"/> boxes from hard bosses</strong></li>

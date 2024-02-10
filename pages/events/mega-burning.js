@@ -15,7 +15,7 @@ function MegaBurning() {
             <ContentTitle>Mega Burning</ContentTitle>
             <StickyAd/>
             <h2>What is Mega Burning?</h2>
-            <p>Mega Burning Project is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 150. </strong>That means you will get 3 levels for every level up! This event is open to <strong>ALL</strong> servers, both Reboot and non-Reboot worlds. Certain characters cannot be burned which includes <strong>Zero and any newly released classes if stated</strong></p>
+            <p>Mega Burning Project is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 150. </strong>That means you will get 3 levels for every level up! This event is open to both Interactive and Heroic Worlds. Certain characters cannot be burned which includes <strong>Zero and any newly released classes if stated</strong></p>
             <h3>Notes</h3>
             <hr/>
             <p>If you create an Illium character and select it as "Burning", you will need to complete your Illium questline first before teleporting out of the area. Otherwise you won't be able to get your 2nd job advancement properly</p>

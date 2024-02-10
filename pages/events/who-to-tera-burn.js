@@ -114,7 +114,7 @@ function WhoToTeraBurn() {
                     <img src="/class-icons/heroes/phantom/mille-aiguilles.png" alt="Skill Mille Aiguilles"/> Phantom - +20% crit rate
                     <ul>
                         <li>Good for classes with &lt; 100% Crit Rate</li>
-                        <li><strong>[Legion (Reboot-recommended)]</strong> - Meso obtained +4%</li>
+                        <li><strong>[Legion (Heroic World Recommended)]</strong> - Meso obtained +4%</li>
                     </ul>
                 </li>
             </ul>
@@ -150,7 +150,6 @@ function WhoToTeraBurn() {
                         <li><strong>[Link Skill]: </strong>+15 All Stat, +15 Attack &amp; Magic Attack</li>
                     </ul>
                 </li>
-                <li><img src="/class-icons/link-skills/core-aura.png" alt="Skill Core Aura"/> Jett - +5% Crit Damage</li>
                 <li><img src="/class-icons/explorers/marksman/snipe.png" alt="Skill Snipe"/> Marksman - +4% Crit Rate</li>
                 <li>
                     <img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech"/> Mechanic - +20% Buff Duration

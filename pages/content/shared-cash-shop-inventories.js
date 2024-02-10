@@ -73,14 +73,6 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}>Dual Blade</StyledTd>
                     <StyledTd style={{color: 'black'}}>Corsair</StyledTd>
                 </ClassBlock>
-                <ClassBlock color="#79ADDC">
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}>Jett</StyledTd>
-                </ClassBlock>
                 <ClassBlock>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>

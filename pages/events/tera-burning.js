@@ -15,7 +15,7 @@ function TeraBurning() {
             <ContentTitle>Tera Burning</ContentTitle>
             <StickyAd/>
             <h2>What is Tera Burning</h2>
-            <p>Tera Burning is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 200.</strong> That means you will get 3 levels for every level up! This event is open to servers, both Reboot and non-Reboot worlds. Certain characters cannot be burned which includes Zero and any newly released classes if stated</p>
+            <p>Tera Burning is an event where <span style={{color: '#ff0000'}}><strong>NEWLY </strong></span>created characters after level 10 <strong>gain 2 extra levels for every level up until level 200.</strong> That means you will get 3 levels for every level up! This event is open to both Interactive and Heroic Worlds. Certain characters cannot be burned which includes Zero and any newly released classes if stated</p>
             <VideoAd/>
             <h3>Notes</h3>
             <hr/>

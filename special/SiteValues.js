@@ -668,16 +668,6 @@ export const linkSkills = {
             "Useful for INCREASING DAMAGE and TRAINING characters pre-200 because of increased SURVIVABILITY"
         ]
     },
-    jett: {
-        "id":80001151,
-        "icons": ["/class-icons/link-skills/core-aura.png"],
-        "type": "Passive",
-        "desc": "Grants a random amount of STR, DEX, INT, LUK, Attack, and Magic Attack",
-        "details": [
-            "The stats change every day, there are items dropped from monsters or from the Cash Shop that help you reroll the stats. There is also an item in the Cash Shop that lock the stats preventing it from changing",
-            "NOT VERY USEFUL because requires CASH ITEMS to be good"
-        ]
-    },
     cygnusKnights: {
         "id": 80000055,
         "icons": ["/class-icons/link-skills/cygnus-blessing.png"],

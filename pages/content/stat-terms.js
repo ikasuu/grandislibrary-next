@@ -69,7 +69,6 @@ function StatTerms() {
          <p>"Atk% and Damage % are multipliers with each other.</p>
          <p>Easy way to think of it is to imagine your damage output is the area of a rectangle. To maximize this area (damage output), you want to increase the length (atk%) and width (damage%) of the rectangle as much as possible right? You also want to think about balancing the length (atk%) and width (damage%) to be as similar to each other as possible, in order to maximize the area.</p>
          <p>A 19"x1" rectangle only has 19 in<sup>2</sup> of area covered, but a 10"x10" square has 100 in<sup>2</sup> of area covered.</p>
-         <p>Since in Reboot you have a ton of % damage to start with, atk% is very valuable in order to balance out your ratio of atk% to damage% to maximize your damage output"</p>
          <p><a href="https://www.reddit.com/r/Maplestory/comments/45g9b0/attack_vs_damage/czxri0d?utm_source=share&amp;utm_medium=web2x" target="_blank" rel="noreferrer noopener">https://www.reddit.com/r/Maplestory/comments/45g9b0/attack_vs_damage/czxri0d</a></p>
          {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
          <h2 id="finaldamage">Final Damage</h2>
@@ -154,7 +153,7 @@ function StatTerms() {
          <h2 id="meso">Meso Rate</h2>
          <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Meso_Drop" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Meso_Drop</a></p>
          <p>A special stat that increases the amount of Meso dropped from defeating enemies. The increase is summed additively and has a max limit of +300%</p>
-         <p>The minimum Mesos dropped is <em>6 x Monster Level</em> and with the 300% Meso Rate increase, the maximum Mesos dropped is <em>9 x Monster Level</em>. However, in Reboot World, enemies drop 5x the amount compared to Regular Worlds (the values shown above)</p>
+         <p>The minimum Mesos dropped is <em>6 x Monster Level</em> and with the 300% Meso Rate increase, the maximum Mesos dropped is <em>9 x Monster Level</em>. However, in Reboot World, enemies drop 5x the amount compared to Interactive Worlds (the values shown above)</p>
          <br/><hr/>
          <h3>EXTRAS:</h3>
          <p>Stat Comparison Calculator: <a href="https://tiny.cc/maplestorycalculators" target="_blank" rel="noreferrer noopener">tiny.cc/maplestorycalculators</a></p>

@@ -372,7 +372,7 @@ function EnhanceEquipment(){
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="enhance">Enhance Equipment</h3>
             <img className="repository-image" src="/images/info/equipment-enchant-ui.png" alt="Enhance Equipment"/>
-            <p>Pressing the Key will open the UI for upgrading your equipment with Spell Traces (in Regular Servers) and for Star Forcing</p>
+            <p>Pressing the Key will open the UI for upgrading your equipment with Spell Traces (in Interactive Worlds) and for Star Forcing</p>
             <p>For more info on enhancing and upgrading your equipment, check out: <a href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a></p>
         </div>
     )
