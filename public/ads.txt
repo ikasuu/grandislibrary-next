@@ -1,4 +1,4 @@
-#  Updated: 2024-01-30 11:39:19
+#  Updated: 2024-02-08 09:49:30
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -51,7 +51,7 @@ admixer.net, 5e789729-1e92-41ca-8b4f-987c6edae9fe, RESELLER
 admixer.net, b81743f7-b474-4c19-8479-8697021abdd2, RESELLER
 adwmg.com, 100798, DIRECT, c9688a22012618e7
 adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER, 4ad745ead2958bf7
-adyoulike.com, 9fd2b9007240771df3a999a8db601cd3, RESELLER
+adyoulike.com, 9fd2b9007240771df3a999a8db601cd3, DIRECT
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER, 4ad745ead2958bf7
 adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER, 4ad745ead2958bf7
 amitydigital.io, 493, RESELLER
@@ -172,6 +172,8 @@ kueez.com, 976f90e3f55c14d910a31bae495ca125, DIRECT
 lijit.com, 222372, RESELLER, fafdf38b16bf6b2b
 lijit.com, 240955, DIRECT, fafdf38b16bf6b2b
 lijit.com, 240955-eb, DIRECT, fafdf38b16bf6b2b
+lijit.com, 251666, RESELLER, fafdf38b16bf6b2b
+lijit.com, 251666-eb, RESELLER, fafdf38b16bf6b2b
 lijit.com, 367236, RESELLER, fafdf38b16bf6b2b
 lijit.com, 375328, RESELLER, fafdf38b16bf6b2b
 lijit.com, 407406, RESELLER, fafdf38b16bf6b2b
@@ -332,11 +334,7 @@ smartadserver.com, 3554, RESELLER
 smartadserver.com, 3894, DIRECT, 060d053dcf45cbf3
 smartadserver.com, 3894-OB, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4005, RESELLER
-smartadserver.com, 4012, RESELLER
 smartadserver.com, 4016, RESELLER, 060d053dcf45cbf3
-smartadserver.com, 4071, RESELLER, 060d053dcf45cbf3
-smartadserver.com, 4073, RESELLER, 060d053dcf45cbf3
-smartadserver.com, 4074, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4125, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4144, RESELLER
 smartadserver.com, 4247, RESELLER, 060d053dcf45cbf3
@@ -405,5 +403,4 @@ yieldmo.com, 2754490424016969782, RESELLER
 yieldmo.com, 2757543169808605705, RESELLER
 yieldmo.com, 2850174797239755356, RESELLER
 yieldmo.com, 2850176953179120222, DIRECT
-yieldmo.com, 3117806966060032819, RESELLER
 yieldmo.com, 3133660606033240149, RESELLER
