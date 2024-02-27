@@ -1,4 +1,4 @@
-#  Updated: 2024-02-08 09:49:30
+#  Updated: 2024-02-26 15:07:51
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -40,6 +40,7 @@ ad-generation.jp, 12474, RESELLER, 7f4ea9029ac04e53
 adagio.io, 1107, DIRECT
 adform.com, 2078, RESELLER, 9f5210a2f0999e32
 adform.com, 2708, RESELLER, 9f5210a2f0999e32
+adform.com, 3083, RESELLER
 adform.com, 3119, RESELLER, 9f5210a2f0999e32
 adingo.jp, 24292, RESELLER
 adingo.jp, 27365, RESELLER
@@ -86,6 +87,8 @@ aps.amazon.com, 968a0f5c-e5ed-4ba9-bf43-8be1f5b68988, DIRECT
 aps.amazon.com, de948cab-9232-4f2a-90f5-794be75952c6, RESELLER
 audienciad.com, 206822, DIRECT
 axonix.com, 57264, RESELLER
+axonix.com, 59054, RESELLER, bc385f2b4a87b721
+axonix.com, 59151, RESELLER, bc385f2b4a87b721
 beachfront.com, 14804, RESELLER, e2541279e8e2ca4d
 betweendigital.com, 44774, RESELLER
 blockthrough.com, 5684350990417920, DIRECT
@@ -128,6 +131,7 @@ google.com, pub-1463455084986126, RESELLER, f08c47fec0942fa0
 google.com, pub-2145138345242651, DIRECT, f08c47fec0942fa0
 google.com, pub-2403018226404213, RESELLER, f08c47fec0942fa0
 google.com, pub-3565385483761681, RESELLER, f08c47fec0942fa0
+google.com, pub-4207323757133151, RESELLER, f08c47fec0942fa0
 google.com, pub-4299156005397946, RESELLER, f08c47fec0942fa0
 google.com, pub-4586415728471297, RESELLER, f08c47fec0942fa0
 google.com, pub-5231479214411897, RESELLER, f08c47fec0942fa0
@@ -153,6 +157,7 @@ improvedigital.com, 2050, RESELLER
 indexexchange.com, 183753, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 189344, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 189345, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 189744, RESELLER
 indexexchange.com, 190243, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191306, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
@@ -174,10 +179,12 @@ lijit.com, 240955, DIRECT, fafdf38b16bf6b2b
 lijit.com, 240955-eb, DIRECT, fafdf38b16bf6b2b
 lijit.com, 251666, RESELLER, fafdf38b16bf6b2b
 lijit.com, 251666-eb, RESELLER, fafdf38b16bf6b2b
+lijit.com, 270524, RESELLER, fafdf38b16bf6b2b
 lijit.com, 367236, RESELLER, fafdf38b16bf6b2b
 lijit.com, 375328, RESELLER, fafdf38b16bf6b2b
 lijit.com, 407406, RESELLER, fafdf38b16bf6b2b
 lijit.com, 408376, RESELLER, fafdf38b16bf6b2b
+limpid.tv, 920682, DIRECT
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11480, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
@@ -185,6 +192,7 @@ media.net, 8CU3BYI96, RESELLER
 media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
 media.net, 8CU695QH7, RESELLER
+media.net, 8CU6J5VH2, RESELLER
 media.net, 8CU7CYP46, DIRECT
 media.net, 8CUB46Z7R, RESELLER
 media.net, 8CUBNW5R6, DIRECT
@@ -196,6 +204,7 @@ minutemedia.com, 01gya4708ddm, RESELLER
 nativo.com, 5848, RESELLER, 59521ca7cc5e9fee
 network-n.com, 22750600967, DIRECT, f08c47fec0942fa0
 network-n.com, pa_ba2bc67e, DIRECT, f08c47fec0942fa0
+nobid.io, 22100091147, RESELLER
 ogury.com, 7da4df59-1af0-42fa-9f27-5638fae7a75d, DIRECT
 onetag.com, 598ce3ddaee8c90, RESELLER
 onetag.com, 5d49f482552c9b6, RESELLER
@@ -252,6 +261,7 @@ pubmatic.com, 159477, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159988, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160295, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160377, RESELLER, 5d62403b186f2ace
+pubmatic.com, 160453, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160648, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160835, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160887, DIRECT, 5d62403b186f2ace
@@ -295,6 +305,7 @@ rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20406, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 20416, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20736, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20986, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 21310, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807
@@ -330,6 +341,7 @@ smaato.com, 1100047713, RESELLER, 07bcf65f187117b4
 smartadserver.com, 3238, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3436, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3439, RESELLER
+smartadserver.com, 3503, RESELLER
 smartadserver.com, 3554, RESELLER
 smartadserver.com, 3894, DIRECT, 060d053dcf45cbf3
 smartadserver.com, 3894-OB, RESELLER, 060d053dcf45cbf3
@@ -385,10 +397,12 @@ video.unrulymedia.com, 1879993427, DIRECT
 video.unrulymedia.com, 2221906906, RESELLER
 video.unrulymedia.com, 2338962694, RESELLER
 video.unrulymedia.com, 2564526802, RESELLER
+video.unrulymedia.com, 3311815408, RESELLER
 video.unrulymedia.com, 3350674472, RESELLER
 video.unrulymedia.com, 335119963, RESELLER
 video.unrulymedia.com, 3463482822, RESELLER
 video.unrulymedia.com, 5672421953199218469, RESELLER
+video.unrulymedia.com, 6694405583287859332, RESELLER
 video.unrulymedia.com, 907951026, DIRECT
 walletcircle.co, 2213, RESELLER
 wunderkind.co, 6608, DIRECT
