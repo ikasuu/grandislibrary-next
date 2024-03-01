@@ -1,4 +1,4 @@
-#  Updated: 2024-02-27 12:57:05
+#  Updated: 2024-02-29 15:53:03
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -59,6 +59,7 @@ amitydigital.io, 493, RESELLER
 amxrtb.com, 105199514, RESELLER
 amxrtb.com, 105199691, RESELLER
 amxrtb.com, 105199704, RESELLER
+aniview.com, 603f65a2e291680ef30af9c7, RESELLER, 78b21b97965ec3f8
 aniview.com, 641186cd15d2e834c809eb78, DIRECT, 78b21b97965ec3f8
 appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
 appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
@@ -77,6 +78,7 @@ appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3251, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3663, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
+appnexus.com, 6849, RESELLER
 appnexus.com, 6979, RESELLER, f5ab79cb980f11d1
 appnexus.com, 8173, RESELLER, f5ab79cb980f11d1
 appnexus.com, 8233, RESELLER, f5ab79cb980f11d1
@@ -148,6 +150,7 @@ gumgum.com, 14349, DIRECT, ffdef49475d318a9
 gumgum.com, 15609, DIRECT, ffdef49475d318a9
 hcodemedia.com, 439, RESELLER
 hoopladigital.co.uk, 21751981256, DIRECT
+improvedigital.com, 1699, RESELLER
 improvedigital.com, 1790, RESELLER
 improvedigital.com, 1884, RESELLER
 improvedigital.com, 2016, RESELLER
@@ -187,6 +190,7 @@ limpid.tv, 920682, DIRECT
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11480, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 9718, RESELLER, 6c8d5f95897a5a3b
 media.net, 8CU3BYI96, RESELLER
 media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
@@ -233,6 +237,7 @@ openx.com, 540862677, RESELLER, 6a698e2ec38604c6
 openx.com, 540886248, DIRECT, 6a698e2ec38604c6
 openx.com, 541017750, RESELLER, 6a698e2ec38604c6
 openx.com, 543174347, RESELLER, 6a698e2ec38604c6
+openx.com, 543878511, RESELLER, 6a698e2ec38604c6
 openx.com, 556532676, RESELLER, 6a698e2ec38604c6
 openx.com, 556543003, DIRECT, 6a698e2ec38604c6
 openx.com, 557564833, RESELLER, 6a698e2ec38604c6
@@ -254,6 +259,7 @@ pubmatic.com, 158540, DIRECT, 5d62403b186f2ace
 pubmatic.com, 158682, DIRECT, 5d62403b186f2ace
 pubmatic.com, 158684, DIRECT, 5d62403b186f2ace
 pubmatic.com, 159110, RESELLER, 5d62403b186f2ace
+pubmatic.com, 159277, RESELLER
 pubmatic.com, 159463, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159477, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159988, RESELLER, 5d62403b186f2ace
@@ -265,6 +271,7 @@ pubmatic.com, 160835, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160887, DIRECT, 5d62403b186f2ace
 pubmatic.com, 160925, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160993, RESELLER, 5d62403b186f2ace
+pubmatic.com, 161058, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161332, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161335, RESELLER, 5d62403b186f2ace
 pubmatic.com, 161691, DIRECT, 5d62403b186f2ace
@@ -287,6 +294,7 @@ rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13510, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13918, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 15268, RESELLER
 rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16920, RESELLER, 0bfd66d529a55807
@@ -393,6 +401,7 @@ triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
 verve.com, 15503, RESELLER, 0c8f5958fc2d6270
 vidazoo.com, 659e87c55f6c605c11d299d6, DIRECT, b6ada874b4d7d0b2
 video.unrulymedia.com, 1879993427, DIRECT
+video.unrulymedia.com, 198725881, DIRECT
 video.unrulymedia.com, 2221906906, RESELLER
 video.unrulymedia.com, 2338962694, RESELLER
 video.unrulymedia.com, 2564526802, RESELLER
@@ -402,7 +411,6 @@ video.unrulymedia.com, 335119963, RESELLER
 video.unrulymedia.com, 3463482822, RESELLER
 video.unrulymedia.com, 5672421953199218469, RESELLER
 video.unrulymedia.com, 6694405583287859332, RESELLER
-video.unrulymedia.com, 907951026, DIRECT
 walletcircle.co, 2213, RESELLER
 wunderkind.co, 6608, DIRECT
 wunderkind.co, 6800, DIRECT
@@ -411,6 +419,7 @@ xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
 xandr.com, 14082, RESELLER
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
 yahoo.com, 58723, RESELLER
+yahoo.com, 59244, RESELLER
 yahoo.com, 59260, RESELLER
 yieldmo.com, 2754490424016969782, RESELLER
 yieldmo.com, 2757543169808605705, RESELLER
