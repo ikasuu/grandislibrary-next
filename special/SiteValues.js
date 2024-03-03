@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 247; 
-export const versionName = "New Age: Into the Abyss"
+export const version = 248; 
+export const versionName = "MapleStory X KONOSUBA"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
