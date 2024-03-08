@@ -18,6 +18,12 @@
     ],
     "recent": [
         {
+            "title": "V.248 MapleStory X KONOSUBA Patch Notes",
+            "image": "/home-thumbnail/konosuba.jpg",
+            "link": "https://maplestory.nexon.net/news/89340/v-248-maplestory-x-konosuba-patch-notes",
+            "subtitle": "February 22, 2023"
+        },
+        {
             "title": "V.247 New Age: Into the Abyss Patch Notes",
             "image": "/home-thumbnail/new-age-abyss.jpg",
             "link": "https://maplestory.nexon.net/news/87688/v-247-new-age-into-the-abyss-patch-notes",
@@ -46,12 +52,6 @@
             "image": "/home-thumbnail/shangri-la.jpg",
             "link": "https://maplestory.nexon.net/news/84616/v-243-savior-shangri-la-kaling-patch-notes",
             "subtitle": "July 18, 2023"
-        },
-        {
-            "title": "V.242 Savior: Khali, Wind of Vengeance",
-            "image": "/home-thumbnail/savior.jpg",
-            "link": "https://maplestory.nexon.net/news/83731/v-242-savior-khali-wind-of-vengeance-patch-notes",
-            "subtitle": "June 13, 2023"
         }
     ],
     "upcoming": [
