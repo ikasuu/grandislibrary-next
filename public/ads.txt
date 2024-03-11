@@ -1,4 +1,4 @@
-#  Updated: 2024-03-05 15:47:55
+#  Updated: 2024-03-08 10:58:32
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -390,7 +390,6 @@ themediagrid.com, TU8HG3, DIRECT, 35d5010d7789b49d
 themediagrid.com, UOT45Z, RESELLER, 35d5010d7789b49d
 themediagrid.com, V19ZSB, RESELLER, 35d5010d7789b49d
 themediagrid.com, VQ7WG4, DIRECT, 35d5010d7789b49d
-tremorhub.com, mb9eo-oqsbf, RESELLER, 1a4e959a1b50034a
 triplelift.com, 11582, RESELLER, 6c33edb13117fd86
 triplelift.com, 12503, RESELLER, 6c33edb13117fd86
 triplelift.com, 13482, RESELLER, 6c33edb13117fd86
