@@ -1,4 +1,4 @@
-#  Updated: 2024-03-15 14:23:30
+#  Updated: 2024-03-18 17:08:36
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -128,23 +128,18 @@ gamoshi.io, 267-b5549, RESELLER, 20e30b2ae1f670f2
 getmediamx.com, 1220682, DIRECT
 google.com, pub-1320774679920841, RESELLER, f08c47fec0942fa0
 google.com, pub-1386280613967939, RESELLER, f08c47fec0942fa0
-google.com, pub-1463455084986126, RESELLER, f08c47fec0942fa0
 google.com, pub-2145138345242651, DIRECT, f08c47fec0942fa0
 google.com, pub-2403018226404213, RESELLER, f08c47fec0942fa0
 google.com, pub-3565385483761681, RESELLER, f08c47fec0942fa0
 google.com, pub-4207323757133151, RESELLER, f08c47fec0942fa0
-google.com, pub-4299156005397946, RESELLER, f08c47fec0942fa0
 google.com, pub-4586415728471297, RESELLER, f08c47fec0942fa0
 google.com, pub-5231479214411897, RESELLER, f08c47fec0942fa0
 google.com, pub-5717092533913515, RESELLER, f08c47fec0942fa0
 google.com, pub-6346866704322274, RESELLER, f08c47fec0942fa0
-google.com, pub-6373315980741255, RESELLER, f08c47fec0942fa0
 google.com, pub-7094677798399606, RESELLER, f08c47fec0942fa0
 google.com, pub-7734005103835923, RESELLER, f08c47fec0942fa0
-google.com, pub-7858377917172490, RESELLER, f08c47fec0942fa0
 google.com, pub-7995104076770938, RESELLER, f08c47fec0942fa0
 google.com, pub-8309773808661346, RESELLER, f08c47fec0942fa0
-google.com, pub-8622186303703569, RESELLER, f08c47fec0942fa0
 gumgum.com, 14141, RESELLER, ffdef49475d318a9
 gumgum.com, 14349, DIRECT, ffdef49475d318a9
 gumgum.com, 15609, DIRECT, ffdef49475d318a9
@@ -195,7 +190,6 @@ media.net, 8CU3BYI96, RESELLER
 media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
 media.net, 8CU695QH7, RESELLER
-media.net, 8CU6J5VH2, RESELLER
 media.net, 8CU7CYP46, DIRECT
 media.net, 8CUB46Z7R, RESELLER
 media.net, 8CUBNW5R6, DIRECT
@@ -283,7 +277,6 @@ pubmatic.com, 60809, RESELLER, 5d62403b186f2ace
 pubmatic.com, 81564, RESELLER, 5d62403b186f2ace
 pubnative.net, 1006576, RESELLER, d641df8625486a7b
 qortex.ai, 194667, RESELLER
-revcontent.com, 11878, RESELLER
 rhythmone.com, 1059622079, RESELLER, a670c89d4a324e47
 rhythmone.com, 1654642120, RESELLER, a670c89d4a324e47
 rhythmone.com, 4116102010, RESELLER, a670c89d4a324e47
@@ -405,13 +398,11 @@ video.unrulymedia.com, 2221906906, RESELLER
 video.unrulymedia.com, 2338962694, RESELLER
 video.unrulymedia.com, 2564526802, RESELLER
 video.unrulymedia.com, 266978658, RESELLER
-video.unrulymedia.com, 3311815408, RESELLER
 video.unrulymedia.com, 3350674472, RESELLER
 video.unrulymedia.com, 335119963, RESELLER
 video.unrulymedia.com, 3463482822, RESELLER
 video.unrulymedia.com, 5672421953199218469, RESELLER
 video.unrulymedia.com, 6694405583287859332, RESELLER
-walletcircle.co, 2213, RESELLER
 wunderkind.co, 6608, DIRECT
 wunderkind.co, 6800, DIRECT
 wunderkind.co, 6801, DIRECT
