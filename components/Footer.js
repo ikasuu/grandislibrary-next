@@ -56,7 +56,8 @@ function Footer() {
                             <FooterButton variant="link"><a href="https://www.youtube.com/channel/UCPiNjGVt9P04a80vEBid3rA" target="_blank" rel="noreferrer noopener"><span className="youtube-button"/></a></FooterButton>
                             <FooterButton variant="link"><a href="https://github.com/ikasuu/grandislibrary-next/" target="_blank" rel="noreferrer noopener"><span className="github-button"/></a></FooterButton>
                         </FooterButtonContainer>
-                        <FooterText>GMS Ver. {version} [{versionName}]</FooterText>
+                        {/* <FooterText>GMS Ver. {version} [{versionName}]</FooterText> */}
+                        <FooterText>GMS Ver. 249 [Minar Picnic]</FooterText>
                         <FooterDisclaimer>Grandis Library is a fan-made resource and is in no way affiliated with Nexon</FooterDisclaimer>
                     </FooterCol>
                     <FooterCol md>
@@ -75,7 +76,7 @@ function Footer() {
                     <FooterCol md>
                         <h5><strong>USEFUL LINKS</strong></h5>
                         <FooterLink><a href="https://maplestory.nexon.net/" target="_blank" rel="noreferrer noopener" className="footer-link">Official MapleStory Site</a></FooterLink>
-                        <FooterLink><a href="https://maplestory.fandom.com/wiki/" target="_blank" rel="noreferrer noopener" className="footer-link">MapleWiki</a></FooterLink>
+                        <FooterLink><a href="https://maplestorywiki.net/" target="_blank" rel="noreferrer noopener" className="footer-link">MapleStory Wiki</a></FooterLink>
                         <FooterLink><a href="https://maplestory.nexon.net/news/59803/maple-guides" target="_blank" rel="noreferrer noopener" className="footer-link">Maple Guides</a></FooterLink>
                     </FooterCol>
                 </Row>

@@ -55,7 +55,8 @@ function AttackSpeed() {
                 <li>AS0 -&gt; Stage 10</li>
             </ul>
             <img className="repository-image" src="/images/info/bonus-attack-speed.png" alt="Bonus Attack Speed Stat"/>
-            <p>In the Character Stats UI, the Attack Speed stat will visually display up to Stage 8. Hovering over the stat will reveal a tooltip with the current sources of Attack Speed. <strong>For applicable regions, when surpassing the Attack Speed cap, it will state "*Bonus Attack Speed is in effect"</strong></p>
+            <p>In the Character Info UI, the Attack Speed stat will visually display up to Stage 8. Hovering over the stat will reveal a tooltip with the current sources of Attack Speed. <strong>For applicable regions, when surpassing the Attack Speed cap, it will state "*Bonus Attack Speed is in effect"</strong></p>
+            <p><strong>[Note]</strong>: As of Ver. 249 Minar Picnic, this tag is missing after the Character Stat/Info UI changes. The bonus Attack Speed is still in effect and this section will still be included in case it is fixed</p>
             <h2>Weapon Attack Speeds</h2>
             <h3>Fast (6)</h3>
             <ul>

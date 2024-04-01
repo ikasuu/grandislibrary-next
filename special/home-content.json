@@ -18,6 +18,12 @@
     ],
     "recent": [
         {
+            "title": "V.249 Minar Picnic Patch Notes",
+            "image": "/home-thumbnail/minar-picnic.jpg",
+            "link": "https://maplestory.nexon.net/news/90462/v-249-minar-picnic-patch-notes",
+            "subtitle": "March 19, 2023"
+        },
+        {
             "title": "V.248 MapleStory X KONOSUBA Patch Notes",
             "image": "/home-thumbnail/konosuba.jpg",
             "link": "https://maplestory.nexon.net/news/89340/v-248-maplestory-x-konosuba-patch-notes",
@@ -46,15 +52,15 @@
             "image": "/home-thumbnail/punch-king-palooza.jpg",
             "link": "https://maplestory.nexon.net/news/85511/v-244-punch-king-palooza-patch-notes",
             "subtitle": "August 29, 2023"
-        },
-        {
-            "title": "V.243 Savior: Shangri-La & Kaling",
-            "image": "/home-thumbnail/shangri-la.jpg",
-            "link": "https://maplestory.nexon.net/news/84616/v-243-savior-shangri-la-kaling-patch-notes",
-            "subtitle": "July 18, 2023"
         }
     ],
     "upcoming": [
+        {
+            "title": "Union Relay & Universe Star Pink Bean!",
+            "image": "/home-thumbnail/union-relay.jpg",
+            "link": "https://orangemushroom.net/2024/03/21/kms-ver-1-2-389-union-relay-universe-star-pink-bean/",
+            "subtitle": "March 21, 2023"
+        },
         {
             "title": "Dreamer: Lachelin in a Dream!",
             "image": "/home-thumbnail/dreamer.jpg",
@@ -66,12 +72,6 @@
             "image": "/home-thumbnail/ab-revamp.jpg",
             "link": "https://orangemushroom.net/2023/11/23/kms-ver-1-2-384-angelic-busters-comeback/",
             "subtitle": "November 23, 2023"
-        },
-        {
-            "title": "Minar Autumn Picnic",
-            "image": "/home-thumbnail/minar-autumn-picnic.jpg",
-            "link": "https://orangemushroom.net/2023/09/22/kms-ver-1-2-382-minar-autumn-picnic/",
-            "subtitle": "September 22, 2023"
         },
         {
             "title": "20th Anniversary: Mapril Island",

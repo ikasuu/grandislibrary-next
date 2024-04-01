@@ -12,7 +12,7 @@ export const content = {
         ["abnormal-statuses", "Abnormal Statuses", "An explanation of what Abnormal Statuses are and what each one does"]
     ],
     class: [ 
-        ["stat-terms", "Stat Terms", "An explanation of each stat in the Character Stat UI and other special stats"],
+        ["stat-terms", "Stat Terms", "An explanation of each stat in the Character Info UI and other special stats"],
         ["attack-speed", "Attack Speed", "An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"],
         ["link-skills", "Link Skills", "An explanation of Link Skills and a list of all Link Skills and their Master Levels and effects"]
     ],

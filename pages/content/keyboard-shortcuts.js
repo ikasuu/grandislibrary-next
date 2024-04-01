@@ -25,7 +25,7 @@ function KeyboardShortcuts() {
                 <li><Link smooth href="#item-pot" scroll>Item Pot</Link></li>
                 <li><Link smooth href="#maple-guide" scroll>Maple Guide</Link></li>
                 <li><Link smooth href="#inventory" scroll>Item Inventory</Link></li>
-                <li><Link smooth href="#character-stat" scroll>Character Stat</Link></li>
+                <li><Link smooth href="#char-info" scroll>Character Info</Link></li>
                 <li><Link smooth href="#guild" scroll>Guild</Link></li>
                 <li><Link smooth href="#whisper" scroll>Whisper</Link></li>
                 <li><Link smooth href="#skill" scroll>Skill</Link></li>
@@ -35,7 +35,6 @@ function KeyboardShortcuts() {
                 <li><Link smooth href="#events" scroll>Events</Link></li>
                 <li><Link smooth href="#professions" scroll>Professions</Link></li>
                 <li><Link smooth href="#minimap" scroll>Minimap</Link></li>
-                <li><Link smooth href="#char-info" scroll>Char Info</Link></li>
                 <li><Link smooth href="#soul-weapon" scroll>Soul Weapon</Link></li>
                 <li><Link smooth href="#battle-analysis" scroll>Battle Analysis</Link></li>
                 <li><Link smooth href="#enhance" scroll>Enhance Equipment</Link></li>
@@ -60,7 +59,7 @@ function KeyboardShortcuts() {
             <ItemPot/>
             <MapleGuide/>
             <Items/>
-            <CharacterStat/>
+            <CharInfo/>
             <BannerAdTwo/>
             <Guild/>
             <Whisper/>
@@ -72,7 +71,6 @@ function KeyboardShortcuts() {
             <Events/>
             <Professions/>
             <Minimap/>
-            <CharInfo/>
             <SoulWeapon/>
             <BattleAnalysis/>
             <EnhanceEquipment/>
@@ -218,18 +216,6 @@ function Items(){
     )
 }
 
-function CharacterStat(){
-    return(
-        <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <h3 id="character-stat">S - Character Stat</h3>
-            <img className="repository-image" src="/images/info/character-stat-ui.png" alt="Character Stat"/>
-            <p>Here you can manage all of your characters stats, allocate points for your Hyper Stats, and manage your Inner Ability</p>
-            <p>For more info on what each stat means, check out: <a href="https://www.grandislibrary.com/contents/stat-terms" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/contents/stat-terms</a></p>
-        </div>
-    )
-}
-
 function Guild(){
     return(
         <div>
@@ -260,7 +246,7 @@ function Skill(){
             <h3 id="skill">K - Skill</h3>
             <img className="repository-image" src="/images/info/skill-expanded-ui.png" alt="Skill UI"/>
             <p>Here you can manage all of your class' Skills. You can also drag Active Skills into an empty Key Slot in the Keyboard Shortcuts</p>
-            <p>On the bottom left, there is a button that opens up your Hyper Skills window but can only be used Lv. 140+. On the right-hand side, you will see a "Guild Skill" button which will bring up your Guild UI. There is also a "Mount" button that opens up your Character Info where your mounts are located. Lastly, there is the "Macro" button which opens up the Macro window. Here you can assign up to 3 skills to a Marco to be used consecutively. You can also name your Macro and make your character shout the Macro name</p>
+            <p>On the bottom left, there is a button that opens up your Hyper Skills window but can only be used Lv. 140+. On the right-hand side, you will see a "Guild Skill" button which will bring up your Guild UI. There is also a "Mount" button that opens up your mount collection. Lastly, there is the "Macro" button which opens up the Macro window. Here you can assign up to 3 skills to a Marco to be used consecutively. You can also name your Macro and make your character shout the Macro name</p>
         </div>
     )
 }
@@ -317,7 +303,7 @@ function Professions(){
             <h3 id="professions">B - Professions</h3>
             <img className="repository-image" src="/images/info/professions-ui.png" alt="Professions"/>
             <p>Pressing the Key will open the Profressions UI where you can view your Traits stats and any Professions you have. On the top right, you will also see a button called "Ardentmill" which will teleport you to the Professions town, Ardentmill. The skill can only be used Lv. 35+ and has a 30 min cooldown</p>
-            <p>In the Traits tab, you can see your current Fatigue and Mastery EXP &amp; Level on the left-hand side</p>
+            <p>In the "My Professions" tab, you can see your Traits, current Fatigue, Mastery EXP &amp; Level, and enemies required to defeat to enter the harvesting area</p>
         </div>
     )
 }
@@ -337,9 +323,10 @@ function CharInfo(){
     return(
         <div>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <h3 id="char-info">Char Info</h3>
+            <h3 id="char-info">S - Character Info</h3>
             <img className="repository-image" src="/images/info/character-info-ui.png" alt="Char Info"/>
-            <p>Pressing this button will open your Character Info which displays information about your character like what you have equipped, chairs, Traits stats, Medal collection, and Damage Skins. Additionally, you can double-click a character to view their Character Info</p>
+            <p>Upon opening the UI and pressing the "Detail" button displays a window to view and manage your character's stats, allocate points for your Hyper Stats, and manage your Inner Ability. Below "Combat Power" is an arrow button on the right-side that opens the Auto Assign AP window</p>
+            <p>Additionally, you can double-click a character to view their Character Info. When viewing other people's characters, information about their stat, equipment, skills, and cosmetics will be displayed</p>
         </div>
     )
 }

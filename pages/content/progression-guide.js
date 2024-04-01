@@ -158,7 +158,7 @@ function ProgressionGuide() {
             <ArticleHeaderTwo id="inner">Inner Ability:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability"/>
-            <p>Inner Ability is located under the Character Stat UI and is automatically unlocked at Lv. 50</p>
+            <p>Inner Ability can be found in the Character Info UI and is automatically unlocked at Lv. 50</p>
             <p>Inner Abilities are stat bonuses that work similar to Item Potentials but for your character. They can be reset using <img src="/images/items/medal-of-honor.png" alt="Item Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Boss Medal of Honor Item"/> Honor EXP</p>
             <p>Like Potentials, there are different tiers, Rare, Epic, Unique, and Legendary. You can tier up by using Honor EXP to reset your Inner Ability and resetting will not lower your tier</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
@@ -2042,7 +2042,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><strong>(Lv. 35) The Professional </strong>- A quest to start unlocking Professions, MapleStory's crafting system</li>
+                <li><strong>(Lv. 35) The Professional </strong>- A quest to start unlocking Professions, the crafting system</li>
                 <li><strong>(Lv. 70) [Link Skill] Teaching Link Skill </strong>- Explains Link Skills and unlocks your Link Skill for some classes</li>
                 <li><strong>(Lv. 90) To Pantheon </strong>- Completing this storyline unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestory.fandom.com/wiki/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestory.fandom.com/wiki/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> which can be used as currency for a <a href="https://maplestory.fandom.com/wiki/Mayala" target="_blank" rel="noreferrer noopener">special shop</a></li>
                 <li><strong>(Lv. 100) [Ursus] Rumors of The Mighty </strong>- Quest to get started with Ursus, an important boss in Heroic Worlds for Mesos. Provides a quick explanation to the boss

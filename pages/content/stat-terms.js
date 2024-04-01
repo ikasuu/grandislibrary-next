@@ -11,7 +11,7 @@ function StatTerms() {
       <ContentPage>
          <Head>
          <title>Stat Terms | MapleStory | Grandis Library</title>
-         <meta content={"An explanation of each stat in MapleStory in the Character Stat UI such as AP Stats, Damage, Boss Damage, Critical Damage, and other special stats such as EXP Rate and Item Drop Rate"} name="description"/>
+         <meta content={"An explanation of each stat in MapleStory in the Character Info UI such as AP Stats, Damage, Boss Damage, Critical Damage, and other special stats such as EXP Rate and Item Drop Rate"} name="description"/>
          </Head>
          <ContentTitle>Stat Terms</ContentTitle>
          <StickyAd/>
