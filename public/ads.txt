@@ -1,4 +1,4 @@
-#  Updated: 2024-04-02 10:31:30
+#  Updated: 2024-04-03 14:49:40
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -154,7 +154,7 @@ improvedigital.com, 2021, DIRECT
 improvedigital.com, 2050, RESELLER
 indexexchange.com, 183753, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 189344, DIRECT, 50b1c356f2c5c8fc
-indexexchange.com, 189345, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 189345, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 189744, RESELLER
 indexexchange.com, 190243, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191306, RESELLER, 50b1c356f2c5c8fc
@@ -191,7 +191,7 @@ media.net, 8CU3BYI96, RESELLER
 media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
 media.net, 8CU695QH7, RESELLER
-media.net, 8CU7CYP46, DIRECT
+media.net, 8CU7CYP46, RESELLER
 media.net, 8CUB46Z7R, RESELLER
 media.net, 8CUBNW5R6, DIRECT
 media.net, 8CUQ6928Q, RESELLER
@@ -251,7 +251,7 @@ pubmatic.com, 156557, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156595, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156872, RESELLER, 5d62403b186f2ace
 pubmatic.com, 157897, RESELLER, 5d62403b186f2ace
-pubmatic.com, 158540, DIRECT, 5d62403b186f2ace
+pubmatic.com, 158540, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158682, DIRECT, 5d62403b186f2ace
 pubmatic.com, 158684, DIRECT, 5d62403b186f2ace
 pubmatic.com, 159110, RESELLER, 5d62403b186f2ace
@@ -303,7 +303,7 @@ rubiconproject.com, 19396, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19652, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19654, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 20406, DIRECT, 0bfd66d529a55807
+rubiconproject.com, 20406, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20416, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20736, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
@@ -326,7 +326,7 @@ sharethrough.com, 23830661, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5926d422, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5pFlvV45, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
-sharethrough.com, OsQNsPHm, DIRECT, d53b998a7bd4ecd2
+sharethrough.com, OsQNsPHm, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, UXUWG46h, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, UvcAx8IL, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, Y9IINWZh, DIRECT, d53b998a7bd4ecd2
@@ -363,7 +363,7 @@ sonobi.com, 37dd19ad4a, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 42a06dc622, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 4a289cdd79, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 4c4fba1717, RESELLER, d1a215d9eb5aee9e
-sonobi.com, 649aabf138, DIRECT, d1a215d9eb5aee9e
+sonobi.com, 649aabf138, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 7f5fa520f8, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 8efb591506, RESELLER, d1a215d9eb5aee9e
 sonobi.com, a015179bd7, DIRECT, d1a215d9eb5aee9e
