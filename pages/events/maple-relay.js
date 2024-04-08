@@ -21,7 +21,7 @@ function MapleRelay() {
             <h2>How do I participate?</h2>
             <p>To participate, your account must meet at least 1 of the following requirements:</p>
             <ul>
-                <li>Completed <a href="https://maplestory.fandom.com/wiki/Blockbuster/Black_Heaven" target="_blank" rel="noreferrer noopener">Black Heaven</a> for Lotus Boss Entry</li>
+                <li>Completed <a href="https://maplestorywiki.net/w/Epic/Black_Heaven" target="_blank" rel="noreferrer noopener">Black Heaven</a> for Lotus Boss Entry</li>
                 <li>Have at least <a href="http://forums.maplestory.nexon.net/discussion/comment/36177" target="_blank" rel="noreferrer noopener">MVP Bronze</a></li>
                 <li>
                     Have at least 150 total <a href="https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force#Star_Force_Enhancement" target="_blank" rel="noreferrer noopener">Star Force</a>

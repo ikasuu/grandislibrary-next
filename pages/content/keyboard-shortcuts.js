@@ -183,7 +183,7 @@ function ItemPot(){
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="item-pot">Y - Item Pot</h3>
             <img className="repository-image" src="/images/info/item-pot-ui.png" alt="Item Pot"/>
-            <p>The <a href="https://strategywiki.org/wiki/MapleStory/Item_Pot" target="_blank" rel="noopener noreferrer">Item Pot</a> is a feature from the <a href="https://maplestory.fandom.com/wiki/MapleStory:_Chaos" target="_blank" rel="noopener noreferrer">Chaos Update</a> where you place a special item <img src="/images/items/gemstone-imp.png" alt="Use Gemstone Imp"/> <img src="/images/items/orange-imp.png" alt="Use Orange Imp"/> <img src="/images/items/alarm-clock.png" alt="Use Alarm Clock"/> <img src="/images/items/jukebox.png" alt="Use Jukebox"/> <img src="/images/items/pounding-heart.png" alt="Use Pounding Heart"/> <img src="/images/items/triangular-rice-ball.png" alt="Use Triangular Rice Ball"/> and let it grow and harvest for some rewards</p>
+            <p>The <a href="https://strategywiki.org/wiki/MapleStory/Item_Pot" target="_blank" rel="noopener noreferrer">Item Pot</a> is a feature from the <a href="https://maplestorywiki.net/w/MapleStory:_Chaos" target="_blank" rel="noopener noreferrer">Chaos Update</a> where you place a special item <img src="/images/items/gemstone-imp.png" alt="Use Gemstone Imp"/> <img src="/images/items/orange-imp.png" alt="Use Orange Imp"/> <img src="/images/items/alarm-clock.png" alt="Use Alarm Clock"/> <img src="/images/items/jukebox.png" alt="Use Jukebox"/> <img src="/images/items/pounding-heart.png" alt="Use Pounding Heart"/> <img src="/images/items/triangular-rice-ball.png" alt="Use Triangular Rice Ball"/> and let it grow and harvest for some rewards</p>
         </div>
     )
 }
@@ -382,7 +382,7 @@ function Legion(){
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="legion">Manage Legion</h3>
             <img className="repository-image" src="/images/info/legion-ui.png" alt="Legion"/>
-            <p>Pressing the Key will open a UI where you can manage your Legion System. To learn more about the Legion System, check out: <a href="https://maplestory.fandom.com/wiki/Legion_System" target="_blank" rel="noopener noreferrer">https://maplestory.fandom.com/wiki/Legion_System</a></p>
+            <p>Pressing the Key will open a UI where you can manage your Legion System. To learn more about the Legion System, check out: <a href="https://maplestorywiki.net/w/Legion_System" target="_blank" rel="noopener noreferrer">https://maplestorywiki.net/w/Legion_System</a></p>
         </div>
     )
 }

@@ -285,8 +285,7 @@ function LinkSkills() {
         <BannerAdThree/>
         <hr/>
         <p>For more info on Link Skills check out:</p>
-        <p><a href="https://maplestory.fandom.com/wiki/Link_Skill">https://maplestory.fandom.com/wiki/Link_Skill</a></p>
-        <p><a href="https://maplestory.aldu.tv/link-skills/">https://maplestory.aldu.tv/link-skills/</a></p>
+        <p><a href="https://maplestorywiki.net/w/Link_Skill">https://maplestorywiki.net/w/Link_Skill</a></p>
         <p>For help optimizing your Link Skills check out:</p>
         <p><a href="https://www.youtube.com/watch?v=zT1jX_tnQjM">https://www.youtube.com/watch?v=zT1jX_tnQjM</a></p>
         <h4>Credits:</h4>

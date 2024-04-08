@@ -26,7 +26,7 @@ function TeraBurning() {
             <hr/>
             <p>Need help choosing a class? Check out these resources:</p>
             <p><a href="https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/" target="_blank" rel="noopener noreferrer">https://www.reddit.com/r/Maplestory/comments/gxbffr/ultimate_who_should_i_tera_burn_guide/</a></p>
-            <p><a href="https://maplestory.fandom.com/wiki/Characters_and_Skills" target="_blank" rel="noopener noreferrer">https://maplestory.fandom.com/wiki/Characters_and_Skills</a></p>
+            <p><a href="https://maplestorywiki.net/w/Characters_and_Skills" target="_blank" rel="noopener noreferrer">https://maplestorywiki.net/w/Characters_and_Skills</a></p>
             <p><a href="https://www.reddit.com/r/Maplestory/comments/cf3re2/gms_dpm_chart_v205/" target="_blank" rel="noopener noreferrer">https://www.reddit.com/r/Maplestory/comments/ftxlhe/dpm_chart_gms_v212_and_kms_12332//</a></p>
             <p><strong>Note: DPM Charts are really bad indicators of if a class is good or not! These tests are performed under PERFECT CONDITIONS so does not translate directly to how much damage a class really does. As well, DPM ≠ Fun nor best class!! There are classes with better mobbing or better mobility or better bossing BUT no class has everything</strong></p>
             <hr/>
@@ -62,7 +62,7 @@ function TeraBurning() {
                     <img src="/images/items/legendary-cryptic-chest.png" alt="Use Legendary Cryptic Chest"/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
-                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat"/>
+                            Contains Lv. 100 <a href="https://maplestorywiki.net/w/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat"/>
                             <img src="/images/equipment/frozen-suit.png" alt="Eqp Onyx Maple Suit"/>
                             <img src="/images/equipment/frozen-cape.png" alt="Eqp Onyx Maple Cape"/> and <strong></strong>
                             <ul>
@@ -118,7 +118,7 @@ function TeraBurning() {
             <h3>Credits:</h3>
             <p>Image Credits:</p> 
             <p><a href="http://maplestory.nexon.net/">http://maplestory.nexon.net/</a></p>
-            <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
+            <p><a href="https://maplestorywiki.net/w/">https://maplestorywiki.net/w/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/54153/tera-burning-and-extreme-breakthrough-events" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/54153/tera-burning-and-extreme-breakthrough-events</a></p>
             <BannerAdThree/>

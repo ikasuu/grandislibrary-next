@@ -132,9 +132,9 @@ function Introduction(){
             <StyledHeaderThree>Where to Obtain <img src="/images/items/all-cure-potion.png" alt="Use All-Cure"/> All-Cure Potions</StyledHeaderThree>
             <p><img src="/images/items/all-cure-potion.png" alt="Use All-Cure"/> All-Cure Potions are dropped by Elite Monsters and Elite Bosses. They are also sold by the following NPCs:</p>
             <ul>
-                <li><a href="https://maplestory.fandom.com/wiki/Alcaster#El_Nath" target="_blank" rel="noreferrer noopener">Alcaster</a> in <a href="https://maplestory.fandom.com/wiki/El_Nath" target="_blank" rel="noreferrer noopener">El Nath</a> for 400 Mesos after completing a short questline</li>
-                <li><a href="https://maplestory.fandom.com/wiki/Johanna#Temple_of_Time" target="_blank" rel="noreferrer noopener">Johanna</a> in <a href="https://maplestory.fandom.com/wiki/Three_Doors" target="_blank" rel="noreferrer noopener">Temple of Time</a> for 8500 Mesos</li>
-                <li><a href="https://maplestory.fandom.com/wiki/Gugu" target="_blank" rel="noreferrer noopener">Gogu</a> in <a href="https://maplestory.fandom.com/wiki/Explorer_Base" target="_blank" rel="noreferrer noopener">Stone Colossus</a> for 8500 Mesos</li>
+                <li><a href="https://maplestorywiki.net/w/Alcaster#El_Nath" target="_blank" rel="noreferrer noopener">Alcaster</a> in <a href="https://maplestorywiki.net/w/El_Nath" target="_blank" rel="noreferrer noopener">El Nath</a> for 400 Mesos after completing a short questline</li>
+                <li><a href="https://maplestorywiki.net/w/Johanna#Temple_of_Time" target="_blank" rel="noreferrer noopener">Johanna</a> in <a href="https://maplestorywiki.net/w/Three_Doors" target="_blank" rel="noreferrer noopener">Temple of Time</a> for 8500 Mesos</li>
+                <li><a href="https://maplestorywiki.net/w/Gugu" target="_blank" rel="noreferrer noopener">Gogu</a> in <a href="https://maplestorywiki.net/w/Explorer_Base" target="_blank" rel="noreferrer noopener">Stone Colossus</a> for 8500 Mesos</li>
             </ul>
             <p>Check out this video for a guide to completing the <a href="https://www.youtube.com/watch?v=_lacmSy6ALE" target="_blank" rel="noreferrer noopener">Alcaster Questline</a></p>
         </div>
@@ -1019,7 +1019,7 @@ function HardSkin() {
                     </tr>
                 </tbody>
             </StatusTable>
-            <p>The most common caster is <a href="https://maplestory.fandom.com/wiki/Sinister_Steel_Mask" target="_blank" rel="noreferrer noopener">Sinister Steel Masks</a> from <a href="https://maplestory.fandom.com/wiki/Category:Twilight_Perion" target="_blank" rel="noreferrer noopener">Twilight Perion</a> thus can be an inconvenience to deal with</p>
+            <p>The most common caster is <a href="https://maplestorywiki.net/w/Sinister_Steel_Mask" target="_blank" rel="noreferrer noopener">Sinister Steel Masks</a> from <a href="https://maplestorywiki.net/w/Category:Twilight_Perion" target="_blank" rel="noreferrer noopener">Twilight Perion</a> thus can be an inconvenience to deal with</p>
         </LazyLoad>
     )
 };

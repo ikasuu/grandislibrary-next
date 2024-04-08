@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 248; 
-export const versionName = "MapleStory X KONOSUBA"
+export const version = 249; 
+export const versionName = "Minar Picnic"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";

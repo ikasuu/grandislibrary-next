@@ -56,7 +56,7 @@ function MegaBurning() {
                     <img src="/images/items/legendary-cryptic-chest.png" alt="Use Legendary Cryptic Chest"/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
-                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat"/>
+                            Contains Lv. 100 <a href="https://maplestorywiki.net/w/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="/images/equipment/frozen-hat.png" alt="Eqp Onyx Maple Hat"/>
                             <img src="/images/equipment/frozen-suit.png" alt="Eqp Onyx Maple Suit"/>
                             <img src="/images/equipment/frozen-cape.png" alt="Eqp Onyx Maple Cape"/> and <strong></strong>
                             <ul>
@@ -93,7 +93,7 @@ function MegaBurning() {
             <h3>Credits:</h3>
             <p>Image Credits:</p> 
             <p><a href="http://maplestory.nexon.net/">http://maplestory.nexon.net/</a></p>
-            <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
+            <p><a href="https://maplestorywiki.net/w/">https://maplestorywiki.net/w/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project</a></p>
             <BannerAdThree/>
