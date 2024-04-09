@@ -1,4 +1,4 @@
-#  Updated: 2024-04-03 14:49:40
+#  Updated: 2024-04-08 16:36:52
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -191,9 +191,9 @@ media.net, 8CU3BYI96, RESELLER
 media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
 media.net, 8CU695QH7, RESELLER
-media.net, 8CU7CYP46, RESELLER
+media.net, 8CU7CYP46, DIRECT
 media.net, 8CUB46Z7R, RESELLER
-media.net, 8CUBNW5R6, DIRECT
+media.net, 8CUBNW5R6, RESELLER
 media.net, 8CUQ6928Q, RESELLER
 media.net, 8CUY6IX4H, RESELLER
 mgid.com, 43615, RESELLER, d4c29acad76ce94f
@@ -340,6 +340,7 @@ smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
 smaato.com, 1100044650, RESELLER, 07bcf65f187117b4
 smaato.com, 1100046863, DIRECT, 07bcf65f187117b4
 smaato.com, 1100047713, RESELLER, 07bcf65f187117b4
+smaato.com, 1100056418, RESELLER, 07bcf65f187117b4
 smartadserver.com, 3238, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3436, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3439, RESELLER
@@ -409,6 +410,7 @@ wunderkind.co, 6608, DIRECT
 wunderkind.co, 6800, DIRECT
 wunderkind.co, 6801, DIRECT
 xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
+xandr.com, 14082, RESELLER
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
 yahoo.com, 58723, RESELLER
 yahoo.com, 59244, RESELLER
