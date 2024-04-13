@@ -1,4 +1,4 @@
-#  Updated: 2024-04-08 16:36:52
+#  Updated: 2024-04-12 09:46:46
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -159,7 +159,6 @@ indexexchange.com, 189744, RESELLER
 indexexchange.com, 190243, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191306, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 191973, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 192410, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 193657, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 193792, DIRECT, 50b1c356f2c5c8fc
@@ -180,6 +179,7 @@ lijit.com, 251666-eb, RESELLER, fafdf38b16bf6b2b
 lijit.com, 270524, RESELLER, fafdf38b16bf6b2b
 lijit.com, 367236, RESELLER, fafdf38b16bf6b2b
 lijit.com, 375328, RESELLER, fafdf38b16bf6b2b
+lijit.com, 405318, RESELLER, fafdf38b16bf6b2b
 lijit.com, 407406, RESELLER, fafdf38b16bf6b2b
 lijit.com, 408376, RESELLER, fafdf38b16bf6b2b
 limpid.tv, 920682, DIRECT
@@ -300,7 +300,6 @@ rubiconproject.com, 18580, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 18694, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19116, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19396, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 19652, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19654, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20406, RESELLER, 0bfd66d529a55807
@@ -347,7 +346,6 @@ smartadserver.com, 3439, RESELLER
 smartadserver.com, 3503, RESELLER
 smartadserver.com, 3554, RESELLER
 smartadserver.com, 3894, DIRECT, 060d053dcf45cbf3
-smartadserver.com, 3894-OB, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4005, RESELLER
 smartadserver.com, 4016, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4125, RESELLER, 060d053dcf45cbf3
