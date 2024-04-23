@@ -19,81 +19,11 @@ function ContentGuide() {
     <ul> <li><Link smooth href="#1">Lv. 1 - 29</Link></li> <li><Link smooth href="#30">Lv. 30-49</Link></li> <li><Link smooth href="#50">Lv. 50</Link></li> <li><Link smooth href="#60">Lv. 60</Link></li> <li><Link smooth href="#70">Lv. 70</Link></li> <li><Link smooth href="#80">Lv. 80</Link></li> <li><Link smooth href="#90">Lv. 90</Link></li> <li><Link smooth href="#100">Lv. 100</Link></li> <li><Link smooth href="#110">Lv. 110</Link></li> <li><Link smooth href="#120">Lv. 120</Link></li> <li><Link smooth href="#130">Lv. 130</Link></li> <li><Link smooth href="#140">Lv. 140</Link></li> <li><Link smooth href="#150">Lv. 150</Link></li> <li><Link smooth href="#160">Lv. 160</Link></li> <li><Link smooth href="#170">Lv. 170</Link></li> <li><Link smooth href="#180">Lv. 180</Link></li> <li><Link smooth href="#190">Lv. 190</Link></li> <li><Link smooth href="#200">Lv. 200</Link></li> <li><Link smooth href="#210">Lv. 210</Link></li> <li><Link smooth href="#220">Lv. 220</Link></li> <li><Link smooth href="#230">Lv. 230</Link></li> <li><Link smooth href="#240">Lv. 240</Link></li> <li><Link smooth href="#250">Lv. 250+</Link></li>
     </ul>
     <VideoAd/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <ArticleHeaderTwo id="1">Level 1 - 29</ArticleHeaderTwo>
-    <p>From these levels, follow your class' storyline. They will get you to level 30 and 2nd Job</p>
-    <p>If you are looking for equipment, monsters at your level will drop the equipment you are looking for. If you wish to buy your equipment, in the town that your character started in will have an NPC that sells Weapons and Equipment. If you are on Victoria Island you can find the following gear for your class here:</p>
-    <p><img className="repository-image" src="/images/info/npc-shop-ui.png" alt="Shop NPC"/></p>
-    <ul> <li> <img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestorywiki.net/w/Perion" target="_blank" rel="noreferrer noopener"><strong>Perion</strong></a>: Warrior Gear </li> <li> <img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <a href="https://maplestorywiki.net/w/Henesys" target="_blank" rel="noreferrer noopener"><strong>Henesys</strong></a>: Archer Gear </li> <li> <img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <strong> <a href="https://maplestorywiki.net/w/Ellinia" target="_blank" rel="noreferrer noopener">Ellinia</a></strong>: Mage Gear </li> <li> <img src="/images/map-icons/kerning-city.png" alt="MapIcon KerningCity"/> <strong><a href="https://maplestorywiki.net/w/Kerning_City" target="_blank" rel="noreferrer noopener">Kerning City</a></strong>: Thief Gear </li> <li> <img src="/images/map-icons/nautilus.png" alt="MapIcon Nautilus"/> <a href="https://maplestorywiki.net/w/Nautilus"><strong>Nautilus</strong></a>: Pirate Gear</li>
-    </ul>
-    <hr/>
-    <p>Some notable training maps if you do not want to follow your storyline are:</p>
-    <ul> <li> <img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/100040000" target="_blank" rel="noreferrer noopener">Henesys - Golem's Temple</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5150003" target="_blank" rel="noreferrer noopener">Flaming Mixed Golems</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5150000" target="_blank" rel="noreferrer noopener">Mixed Golems</a> </li> <li> <img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/101030000" target="_blank" rel="noreferrer noopener">Ellinia - North Forest</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2230100" target="_blank" rel="noreferrer noopener">Evil Eyes</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3230100" target="_blank" rel="noreferrer noopener">Curse Eyes</a>  <ul> <li>To find these maps open the World Map ("W" by default) and search for the monsters listed above</li>  </ul> </li>
-    </ul>
-    <hr/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <ArticleHeaderTwo id="30">Level 30 - 49</ArticleHeaderTwo>
-    <p><img className="repository-image" src="/images/info/maple-guide-expanded.png" alt="Maple Content Guide"/><img className="repository-image" src="/images/info/maple-guide-ui.png" alt="Content Guide Minimized"/></p>
-    <p>Upon reaching Lv. 30 you will have full access to the "Maple Guide". Here, you can begin your Job Advancement. You can do the same for 3rd, 4th, and 5th Job. To expand the UI press "U" by default. Expanding the UI allows you to see available content for all levels. You can teleport directly to different places once you have reached the recommended level. You can only teleport back to that area if you are less than 10 levels above the maximum recommended level. You can gain "Completion Stamp" by completing certain requirements to teleport back to that area regardless of your level</p>
-    <p><img src="/images/npc/dimensional-mirror.png" alt="NPC Dimensional Mirror"/><img className="repository-image" src="/images/info/dimensional-mirror-ui.png" alt="Dimensional Mirror UI"/></p>
-    <p>Additionally, a variety of content can be found by accessing the "Dimensional Mirror" in most towns, you can also find it in the "Quick Move" tab on the top left of the screen in towns</p>
-    <p><img className="repository-image" src="/images/info/quick-move.png" alt="Quick Move"/></p>
-    <hr/>
-    <p><img className="repository-image" src="/images/info/lightbulb-quest-ui.png" alt="Lightbulb Quest UI"/><img className="repository-image" src="/images/info/sidebar-icons.png" alt="Sidebar Icons"/></p>
-    <p>You will also be able to access a several available quests by clicking on the <img alt="Lightbulb Icon" src="/images/info/lightbulb.png"/> Lightbulb icon on the left-hand side of the screen. A majority of these areas can also be accessed again through the Dimensional Mirror once you have completed the initial quest. You can also access some of these areas from the Maple Guide too if you are within the level range</p>
-    <p>A recommendation is to use the "My Level Range" button on the bottom right to filter out low level quests. Additionally, the list of quests you'll see will be quite long but, you do not need to complete all these quests. The necessary ones will have a [Required] tag in red beside the quest</p>
-    <hr/>
-    <h3>Content Available:</h3>
-    <h4>Recommended</h4>
-    <h5>[Content here are based on what I personally do or are popular compared to the Optional content]</h5>
-    <hr/>
-    <p><img className="repository-image" src="/images/info/ardentmill.png" alt="Ardentmill"/></p>
-    <ul> <li> <img src="/images/map-icons/ardentmill.png" alt="MapIcon profession"/> <strong> [Lv. 35] <a href="https://strategywiki.org/wiki/MapleStory/Professions" target="_blank" rel="noreferrer noopener">Professions / Crafting</a></strong>: Professions are located in Ardentmill that you can access through every  town or clicking on "Quick Move" in town. To start, accept a quest in the Lightbulb icon called "The Professional"  <ul> <li> In Ardentmill you can unlock all Harvesting Professions: Mining and Herbalism and Crafting Professions: Alchemy, Smithing or Accessory Crafting<ul> </ul> </li> <li> By pressing "B" by default will open the Professions UI <ul>  <li><strong>[Traits Stats]: </strong>Here you can also find your <a href="https://strategywiki.org/wiki/MapleStory/Traits" target="_blank" rel="noreferrer noopener">Traits</a> that grant your character small bonuses</li> </ul> </li> <li>An in-depth guide to Professions: <a href="https://www.youtube.com/watch?v=3hfJoCd2utc" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=3hfJoCd2utc</a></li>  </ul> </li>
-    </ul>
-    <hr/>
-    <p><img className="repository-image" src="/images/info/annas-plea.png" alt="Anne's Plea"/></p>
-    <p>At Lv. 30 you will gain access to 4 Theme Dungeons that can be found within your Lightbulb icon. Theme Dungeons are areas with storylines where in the end you will gain rewards such as Medals and Equipment. The ones below have monsters that scale to your level from Lv. 30 to 59. The monsters are also instanced meaning that the monsters you hunt are different from the other's</p>
-    <ul> <li> <img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy"/> <strong>[Lv. 30 - 59] </strong> <a href="https://maplestorywiki.net/w/Category:Ellinel" target="_blank" rel="noreferrer noopener"><strong>Ellinel Fairy Academy</strong></a>: <strong></strong><img src="/images/items/meso.png" alt="Mesos Icon"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/ellinel-wings.png" alt="Eqp Ellinel Wings"/> <a href="https://maplestory.wiki/GMS/215/item/1102590" target="_blank" rel="noreferrer noopener">[Cape]</a>, <img src="/images/equipment/ellinel-bracelet.png" alt="Eqp Ellinel Bracelet"/>[Glove], <img src="/images/equipment/fairy-mark.png" alt="Eqp Fairy Mark"/> <a href="https://maplestory.wiki/GMS/215/item/1022254" target="_blank" rel="noreferrer noopener">[Eye Accessory]</a> and <img src="/images/equipment/honorary-fairy-professor.png" alt="Eqp Honorary Fairy Professor"/> [Medal] </li> <li> <img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener">Gold Beach Resort</a></strong>: <strong></strong><img src="/images/items/meso.png" alt="Mesos Icon"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces], <img src="/images/equipment/octopus-earrings.png" alt="Eqp Octopus Earrings"/> <a href="https://maplestory.wiki/GMS/215/item/1032254" target="_blank" rel="noreferrer noopener">[Earrings]</a> and <img src="/images/equipment/beach-bum.png" alt="Eqp Beach Bum"/> [Medal] </li> <li> <img src="/images/map-icons/riena-strait.png" alt="MapIcon glacierExplorer"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Riena_Strait" target="_blank" rel="noreferrer noopener">Riena Strait</a></strong>: <strong></strong> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces], <img src="/images/equipment/sailor-mask.png" alt="Eqp Sailor Mask"/> <a href="https://maplestory.wiki/GMS/215/item/1012389" target="_blank" rel="noreferrer noopener">[Face Accessory]</a>, <img src="/images/equipment/sailor-belt.png" alt="Eqp Sailor Belt"/> <a href="https://maplestory.wiki/GMS/215/item/1132292" target="_blank" rel="noreferrer noopener">[Belt]</a>, <img src="/images/equipment/deckhand.png" alt="Eqp Deckhand"/> [Medal] </li> <li> <img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong> [Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Elodin" target="_blank" rel="noreferrer noopener">Secret Forest of Elodin</a></strong>: <img src="/images/equipment/elodin-bird-dog.png" alt="Eqp Elodin Bird Dog"/> [Medal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces]  <ul> <li>Completing each Theme Dungeon will grant the rewards above and as well some provide a bit of Mesos too</li> <li>Doing 3 of the Theme Dungeons here should get you all the way to Lv. 60 and 3rd job!</li> <li>I recommend doing these if it is your first time playing or if you feel bored of just purely grinding mobs</li>  </ul> </li>
-    </ul>
-    <p>Some notable training maps are:</p>
-    <ul> <li> <img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach"/> <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener"><strong>Gold Beach Resort</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/3401003" target="_blank" rel="noreferrer noopener">Violet Clam Slime</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3401010" target="_blank" rel="noreferrer noopener">Seashell Octopus Slime</a> </li> <li> <img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong><a href="https://maplestorywiki.net/w/Category:Elodin" target="_blank" rel="noreferrer noopener">Elodin</a></strong>: <a href="https://maplestory.wiki/GMS/215/mob/3501106" target="_blank" rel="noreferrer noopener">Forest Glimmerfox</a> and <a href="https://maplestory.wiki/GMS/215/mob/3501107" target="_blank" rel="noreferrer noopener">Night Glimmerfox</a> </li>
-    </ul>
-    <hr/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <ArticleHeaderTwo id="50">Level 50</ArticleHeaderTwo>
-    <h3>Content Available:</h3>
-    <h4>Recommended</h4>
-    <hr/>
-    <p><img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability UI"/></p>
-    <ul> <li>  <strong> [Lv. 50] <a href="https://strategywiki.org/wiki/MapleStory/Inner_Ability" target="_blank" rel="noreferrer noopener"><span style={{color: '#ff0000'}}>[Important]</span> Inner Ability</a> </strong> : These are bonuses that add extra stats to your character. They work similar to potentials and can be reset using <img src="/images/items/medal-of-honor.png" alt="Use Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Use Boss Medal of Honor"/> Honor EXP  <ul><li>Inner Ability is automatically unlocked at Lv. 50</li></ul> </li>
-    </ul>
-    <h4>Optional</h4>
-    <h5>[Content here is less popular and are easily skippable when leveling up]</h5>
-    <hr/>
-    <ul> <li> <img src="/images/map-icons/dead-mine.png" alt="MapIcon Dead Mine"/> <strong>[Lv. 50+] <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener">[Boss] Easy Zakum</a></strong>: A boss located in El Nath. Initially, there is a quest in the Lightbulb icon called  "[Zakum] Statue of Dread" that will teleport you to <a href="https://maplestory.wiki/GMS/210.1.1/map/211000001" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a> where you talk to an NPC corresponding to your  job (Mage, Archer, Thief, etc.) to teleport to <a href="https://maplestory.wiki/GMS/210.1.1/map/211042300" target="_blank" rel="noreferrer noopener">Dead Mines - The Door to Zakum</a>  <ul> <li> This is usually skipped since it doesn't give much EXP and you will breeze through these levels. The only benefit to doing it is obtaining a <img src="/images/equipment/zakum-helmet.png" alt="Eqp Zakum Helmet"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1002357" target="_blank" rel="noreferrer noopener">[Zakum Helmet]</a> early for its stats </li> <li> <strong>Easy Mode and Above Rewards:</strong> <img src="/images/equipment/zakum-helmet.png" alt="Eqp Zakum Helmet"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1002357" target="_blank" rel="noreferrer noopener">[Zakum Helmet]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Soul Shard]</a>, <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a> </li>  </ul> </li>
-    </ul>
-    <hr/>
-    <p>Some notable training maps are:</p>
-    <ul> <li> <img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/102030000" target="_blank" rel="noreferrer noopener"><strong>Perion - Wild Boar Land</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2230102" target="_blank" rel="noreferrer noopener">Wild Boars</a> </li> <li> <img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/102040200" target="_blank" rel="noreferrer noopener">Perion - Excavation Site</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230125" target="_blank" rel="noreferrer noopener">Skeledogs</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230126" target="_blank" rel="noreferrer noopener">Mummydogs</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/7130103" target="_blank" rel="noreferrer noopener">Commander Soldier</a> </li>
-    </ul>
-    <hr/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+    <Level1To29/>
+    <Level30To49/>
+    <Level50/>
     <BannerAdOne/>
-    <ArticleHeaderTwo id="60">Level 60</ArticleHeaderTwo>
-    <p>Congratulations on level 60! Welcome to 3rd job!</p>
-    <p><img className="repository-image" src="/images/info/boss-queue.png" alt="Boss Matchmaking UI"/></p>
-    <p><strong>[Tip]</strong>: As you level up, you will reach the required level to more and more bosses. To instantly move to bosses for free after completing their pre-quests, you can access the "Boss Contents" UI. You can find it by assigning the "Boss Party" Key Slot to your Keyboard Shortcuts</p>
-    <h3>Content Available:</h3>
-    <h4>Optional</h4>
-    <h5>[Grinding is preferred at these levels as there isn't much to do]</h5>
-    <hr/>
-    <ul> <li> <img src="/images/map-icons/mushroom-castle.png" alt="MapIcon Mushroom Castle"/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Mushroom Kingdom</a>: </strong>Has lots of cutscenes compared to the previous Theme  Dungeons which is why most people skip this one  <ul> <li> <strong>Main Rewards:</strong> <strong></strong><img src="/images/items/meso.png" alt="Mesos Icon"/> [3 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces], <img src="/images/equipment/violettas-knight.png" alt="Eqp Violetta's Knight"/> [Medal], <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">[Heavy Violetta Cape]</a> <a href="https://maplestory.wiki/GMS/215/item/1142629" target="_blank" rel="noreferrer noopener">, </a> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">[Shackles of Love]</a> </li>  </ul> </li> <li> <img src="/images/map-icons/tangyoon.png" alt="MapIcon Tangyoon"/> <strong> [Lv. 60] <a href="https://maplestorywiki.net/w/Cooking_with_Tangyoon" target="_blank" rel="noreferrer noopener">[Party Quest] Cooking with Tangyoon</a></strong>: Can be done in parties of 1 to 3 party  members. The objective is to defeat monsters to help Tangyoon cook a dish. At the end you will be rewarded with EXP and <img src="/images/items/chef-certificate.png" alt="Etc Chief Certificate"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4033668" target="_blank" rel="noreferrer noopener">Chef Certificates</a>  <ul> <li>Can be a bit time consuming for the amount of EXP you get, I suggest just getting enough Chef Certificates to exchange for the outfit and then leave</li> <li>You can access this PQ through the Dimensional Mirror by clicking on <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> Party Quest Entry</li> <li>Depending on if the dish you created was successful or not, you will get Chef's Certificates to exchange for equipment</li> <li> <strong>Main Rewards</strong>: <img src="/images/equipment/good-cook.png" alt="Eqp Good Cook"/> [Medal], <img src="/images/equipment/tangyoons-chef-hat.png" alt="Eqp Tangyoon's Chef Hat"/> <a href="https://maplestory.wiki/GMS/205/item/1003762" target="_blank" rel="noreferrer noopener">[Tangyoon's Chef Hat]</a>, <img src="/images/equipment/tangyoons-chef-outfit.png" alt="Eqp Tangyoon's Chef Outfit"/> <a href="https://maplestory.wiki/GMS/205/item/1052578" target="_blank" rel="noreferrer noopener">[Tangyoon's Chef Outfit]</a> </li>  </ul> </li> <li> <img src="/images/map-icons/balrog.png" alt="MapIcon Balog"/> <strong>[Lv. 65] <a href="https://maplestorywiki.net/w/Balrog" target="_blank" rel="noreferrer noopener">[Boss] Lord Balrog</a></strong>: A boss located deep inside Sleepywood. You can get to Lord Balrog through the Maple  Guide or by traveling to <a href="https://maplestory.wiki/GMS/210.1.1/map/105100100" target="_blank" rel="noreferrer noopener">Sleepywood - Bottom of the Temple</a>. Lord Balrog is a bit of an outdated boss that not much people fight <ul> <li>An indepth guide to Lord Balrog: <a href="https://dexless.com/guides/balrog-bossing-guide.123/" target="_blank" rel="noreferrer noopener">https://dexless.com/guides/balrog-bossing-guide.123/</a></li> <li><strong>Main Rewards:</strong> <img src="/images/equipment/bain-wings.png" alt="Eqp Bain Wings"/>[Lv. 58 Bain Weapon], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Soul Shard]</a>, <img src="/images/items/balrog-horn-throne.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Balrog-Horn Throne]</a></li>  </ul> </li>
-    </ul>
-    <p>Some notable training maps are:</p>
-    <ul> <li> <img src="/images/map-icons/sleepywood.png" alt="MapIcon Dungeon"/> <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105010000" target="_blank">Sleepywood - Silent Swamp</a></strong> and <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105020000" target="_blank">Sunless Area</a></strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/4130100" target="_blank">Copper Drakes</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/2600224" target="_blank">Drakes</a> </li>
-    </ul>
-    <hr/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+    <Level60/>
     <ArticleHeaderTwo id="70">Level 70</ArticleHeaderTwo>
     <h3>Content Available:</h3>
     <h4>Recommended</h4>
@@ -1004,6 +934,152 @@ function ContentGuide() {
     </p>
   </ContentPage>
  );
-}
+};
+
+function Level1To29(){
+  return (
+    <div>
+      <ArticleHeaderTwo id="1">Level 1 - 29</ArticleHeaderTwo>
+      <p>Follow your class' storyline as these will get you to level 30 and 2nd Job. As well, certain class storylines may be required and provide unique rewards</p>
+      <p>If you are looking for equipment, monsters near your level will drop equipment or you may buy equipment from NPCs in towns. The follow towns on Victoria Island will have the following low-level gear:</p>
+      <ul>
+        <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestorywiki.net/w/Perion" target="_blank" rel="noreferrer noopener"><strong>Perion</strong></a>: Warrior Gear</li>
+        <li><img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <a href="https://maplestorywiki.net/w/Henesys" target="_blank" rel="noreferrer noopener"><strong>Henesys</strong></a>: Archer Gear</li>
+        <li><img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <a href="https://maplestorywiki.net/w/Ellinia" target="_blank" rel="noreferrer noopener"><strong>Ellinia</strong></a>: Mage Gear</li>
+        <li><img src="/images/map-icons/kerning-city.png" alt="MapIcon Kerning City"/><a href="https://maplestorywiki.net/w/Kerning_City" target="_blank" rel="noreferrer noopener"><strong>Kerning City</strong></a>: Thief Gear</li>
+        <li><img src="/images/map-icons/nautilus.png" alt="MapIcon Nautilus"/> <a href="https://maplestorywiki.net/w/Nautilus"><strong>Nautilus</strong></a>: Pirate Gear</li>
+      </ul>
+      <img className="repository-image" src="/images/info/npc-shop-ui.png" alt="Shop NPC"/>
+      <hr/>
+      <p>Some notable training maps if you do not want to follow your storyline are:</p>
+      <ul>
+        <li><img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/100040000" target="_blank" rel="noreferrer noopener"><strong>Henesys - Golem's Temple</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5150003" target="_blank" rel="noreferrer noopener">Flaming Mixed Golems</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5150000" target="_blank" rel="noreferrer noopener">Mixed Golems</a></li>
+        <li>
+          <img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/101030000" target="_blank" rel="noreferrer noopener"><strong>Ellinia - North Forest</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2230100" target="_blank" rel="noreferrer noopener">Evil Eyes</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3230100" target="_blank" rel="noreferrer noopener">Curse Eyes</a>
+          <ul><li>To find these maps open the World Map ("W" by default) and search for the monsters listed above</li></ul>
+        </li>
+      </ul>
+      <hr/>
+    </div>
+  );
+};
+
+function Level30To49(){
+  return(
+    <div>
+      <ArticleHeaderTwo id="30">Level 30 - 49</ArticleHeaderTwo>
+      <img className="repository-image" src="/images/info/maple-guide-expanded.png" alt="Maple Content Guide"/>
+      <img className="repository-image" src="/images/info/maple-guide-ui.png" alt="Content Guide Minimized"/>
+      <p>Reaching Lv. 30 unlocks the expanded "Maple Guide" that provides shortcut access to Job Advancement quests, instant teleport to training maps, and more. To expand the UI press "U" by default to see available content for all levels. You can only teleport to maps if you are lower than 10 levels above the maximum recommended level. However, gaining a "Completion Stamp" by completing specified requirements allows you to teleport back regardless of your level</p>
+      <img src="/images/npc/dimensional-mirror.png" alt="NPC Dimensional Mirror"/><img className="repository-image" src="/images/info/dimensional-mirror-ui.png" alt="Dimensional Mirror UI"/>
+      <p>In most towns, the "Dimensional Mirror" NPC grants access to a variety of content. When in town, the "Quick Move" button on the top left corner of the screen provides a shortcut to useful NPCs within the town like the Dimensional Mirror</p>
+      <img className="repository-image" src="/images/info/quick-move.png" alt="Quick Move"/>
+      <hr/>
+      <img className="repository-image" src="/images/info/lightbulb-quest-ui.png" alt="Lightbulb Quest UI"/><img className="repository-image" src="/images/info/sidebar-icons.png" alt="Sidebar Icons"/>
+      <p>Common quests can be accessed through the <img alt="Lightbulb Icon" src="/images/info/lightbulb.png"/> Lightbulb icon on the left-hand side of the screen. Quests found here are typically Job Advancements, class storylines, Theme Dungeons, and content pre-quests. As well, most areas can be returned to via the Dimensional Mirror or Maple Guide</p>
+      <p>Filtering the quests by clicking the "My Level Range" button on the bottom right is recommended. As well, the list of quests is quite long but, not all quests are required to be completed. The necessary ones will have a [Required] tag in red beside the quest</p>
+      <hr/>
+      <h3>Content Available:</h3>
+      <h4>Recommended</h4>
+      <h5>[Content here may unlock content or provide meaningful rewards]</h5>
+      <p><img className="repository-image" src="/images/info/ardentmill.png" alt="Ardentmill"/></p>
+      <ul>
+        <li><img src="/images/map-icons/ardentmill.png" alt="MapIcon profession"/> <strong>[Lv. 35] <a href="https://strategywiki.org/wiki/MapleStory/Professions" target="_blank" rel="noreferrer noopener">Professions / Crafting</a></strong>: Professions are located in Ardentmill that is accessible from town and "Quick Move". To start, accept the quest "The Professional in the Lightbulb icon"
+          <ul>
+            <li>In Ardentmill you can unlock all Harvesting Professions: Mining and Herbalism and Crafting Professions: Alchemy, Smithing or Accessory Crafting</li>
+            <li>Pressing "B" by default will open the Professions UI where you can view info on your Professions and remaining monsters before special flowers and veins can be harvested. As well, <a href="https://strategywiki.org/wiki/MapleStory/Traits" target="_blank" rel="noreferrer noopener">Traits</a> that provide small stat bonuses can be viewed.</li>
+            <li>An in-depth guide to Professions: <a href="https://www.youtube.com/watch?v=3hfJoCd2utc" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=3hfJoCd2utc</a></li>
+          </ul> 
+        </li>
+      </ul>
+      <hr/>
+      <p><img className="repository-image" src="/images/info/annas-plea.png" alt="Anne's Plea"/></p>
+      <p>4 Theme Dungeons storylines are unlocked at Lv. 30 that can be started through Lightbulb icon. Theme Dungeon storylines provide great EXP and have useful rewards like gear and mesos. The Theme Dungeons below have enemies that scale to your level from Lv. 30 to 59. The monsters are also instanced meaning that the monsters you hunt are different from other players</p>
+      <ul>
+        <li><img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Ellinel" target="_blank" rel="noreferrer noopener">Ellinel Fairy Academy</a></strong>: <img src="/images/items/meso.png" alt="Mesos Icon"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/ellinel-wings.png" alt="Eqp Ellinel Wings"/> <a href="https://maplestory.wiki/GMS/215/item/1102590" target="_blank" rel="noreferrer noopener">[Cape]</a>, <img src="/images/equipment/ellinel-bracelet.png" alt="Eqp Ellinel Bracelet"/>[Glove], <img src="/images/equipment/fairy-mark.png" alt="Eqp Fairy Mark"/> <a href="https://maplestory.wiki/GMS/215/item/1022254" target="_blank" rel="noreferrer noopener">[Eye Accessory]</a> and <img src="/images/equipment/honorary-fairy-professor.png" alt="Eqp Honorary Fairy Professor"/> [Medal]</li>
+        <li><img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener">Gold Beach Resort</a></strong>: <img src="/images/items/meso.png" alt="Mesos Icon"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces], <img src="/images/equipment/octopus-earrings.png" alt="Eqp Octopus Earrings"/> <a href="https://maplestory.wiki/GMS/215/item/1032254" target="_blank" rel="noreferrer noopener">[Earrings]</a> and <img src="/images/equipment/beach-bum.png" alt="Eqp Beach Bum"/> [Medal] </li>
+        <li><img src="/images/map-icons/riena-strait.png" alt="MapIcon glacierExplorer"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Riena_Strait" target="_blank" rel="noreferrer noopener">Riena Strait</a></strong>: <img src="/images/items/meso.png" alt="Mesos Icon"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces], <img src="/images/equipment/sailor-mask.png" alt="Eqp Sailor Mask"/> <a href="https://maplestory.wiki/GMS/215/item/1012389" target="_blank" rel="noreferrer noopener">[Face Accessory]</a>, <img src="/images/equipment/sailor-belt.png" alt="Eqp Sailor Belt"/> <a href="https://maplestory.wiki/GMS/215/item/1132292" target="_blank" rel="noreferrer noopener">[Belt]</a>, <img src="/images/equipment/deckhand.png" alt="Eqp Deckhand"/> [Medal]</li>
+        <li><img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Elodin" target="_blank" rel="noreferrer noopener">Secret Forest of Elodin</a></strong>: <img src="/images/equipment/elodin-bird-dog.png" alt="Eqp Elodin Bird Dog"/> [Medal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces]</li>
+      </ul>
+      <p>Some notable training maps are:</p>
+      <ul>
+        <li><img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach"/> <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener"><strong>Gold Beach Resort</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/3401003" target="_blank" rel="noreferrer noopener">Violet Clam Slime</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3401010" target="_blank" rel="noreferrer noopener">Seashell Octopus Slime</a></li>
+        <li><img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong><a href="https://maplestorywiki.net/w/Category:Elodin" target="_blank" rel="noreferrer noopener">Elodin</a></strong>: <a href="https://maplestory.wiki/GMS/215/mob/3501106" target="_blank" rel="noreferrer noopener">Forest Glimmerfox</a> and <a href="https://maplestory.wiki/GMS/215/mob/3501107" target="_blank" rel="noreferrer noopener">Night Glimmerfox</a></li>
+      </ul>
+      <hr/>
+    </div>
+  );
+};
+
+function Level50(){
+  return(
+    <div>
+      <ArticleHeaderTwo id="50">Level 50</ArticleHeaderTwo>
+      <h3>Content Available:</h3>
+      <h4>Recommended</h4>
+      <hr/>
+      <img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability UI"/>
+      <ul>
+        <li><strong>[Lv. 50] <a href="https://strategywiki.org/wiki/MapleStory/Inner_Ability" target="_blank" rel="noreferrer noopener"><span style={{color: '#ff0000'}}>[Important]</span> Inner Ability</a></strong>: Rerollable stats that are automatically unlocked at Lv. 50. They function similar to potentials with different tiers (Rare, Epic, Unique, Legendary) and can be rerolled using <img src="/images/items/medal-of-honor.png" alt="Use Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Use Boss Medal of Honor"/> Honor EXP or <img src="/images/items/miracle-circulator.png" alt="Use Miracle Circulator"/> Circulators</li>
+      </ul>
+      <h4>Optional</h4>
+      <h5>[Content here may not be useful compared to recommended content]</h5>
+      <hr/>
+      <ul>
+        <li><img src="/images/map-icons/dead-mine.png" alt="MapIcon Dead Mine"/> <strong>[Lv. 50+] <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener">[Boss] Easy Zakum</a></strong>: A boss located in El Nath. The quest "[Zakum] Statue of Dread" in the Lightbulb icon is not required and only teleports you to <a href="https://maplestory.wiki/GMS/210.1.1/map/211000001" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a> where you talk to an NPC corresponding to your job (Mage, Archer, Thief, etc.) to teleport to <a href="https://maplestory.wiki/GMS/210.1.1/map/211042300" target="_blank" rel="noreferrer noopener">Dead Mines - The Door to Zakum</a>
+          <ul><li><strong>Easy Mode and Above Rewards:</strong> <img src="/images/equipment/zakum-helmet.png" alt="Eqp Zakum Helmet"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1002357" target="_blank" rel="noreferrer noopener">[Zakum Helmet]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Soul Shard]</a>, <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li></ul>
+        </li>
+      </ul>
+      <hr/>
+      <p>Some notable training maps are:</p>
+      <ul>
+        <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/102030000" target="_blank" rel="noreferrer noopener">Perion - Wild Boar Land</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2230102" target="_blank" rel="noreferrer noopener">Wild Boars</a></li>
+        <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/102040200" target="_blank" rel="noreferrer noopener">Perion - Excavation Site</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230125" target="_blank" rel="noreferrer noopener">Skeledogs</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/4230126" target="_blank" rel="noreferrer noopener">Mummydogs</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/7130103" target="_blank" rel="noreferrer noopener">Commander Soldier</a> </li>
+      </ul>
+      <hr/>
+    </div>
+  );
+};
+
+function Level60(){
+  return(
+    <div>
+      <ArticleHeaderTwo id="60">Level 60</ArticleHeaderTwo>
+      <p>Congratulations on level 60! Welcome to 3rd job!</p>
+      <img className="repository-image" src="/images/info/boss-queue.png" alt="Boss Matchmaking UI"/>
+      <p>Using the "Boss Contents" UI provides an direct teleport to bosses after completing their pre-quests. The "Boss Party" Key can be assigned to a Key Slot through the "Keyboard Shortcuts" UI</p>
+      <p>Defeating monsters is recommended during these levels as there is no useful content to complete</p>
+      <h3>Content Available:</h3>
+      <h4>Optional</h4>
+      <hr/>
+      <ul>
+        <li>
+          <img src="/images/map-icons/mushroom-castle.png" alt="MapIcon Mushroom Castle"/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Mushroom Kingdom</a></strong>: Has lots of cutscenes compared to the previous Theme  Dungeons which is why most people skip this one
+          <ul><li><strong>Main Rewards:</strong> <img src="/images/items/meso.png" alt="Mesos Icon"/> [3 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces], <img src="/images/equipment/violettas-knight.png" alt="Eqp Violetta's Knight"/> [Medal], <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">[Heavy Violetta Cape]</a> <a href="https://maplestory.wiki/GMS/215/item/1142629" target="_blank" rel="noreferrer noopener">, </a> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">[Shackles of Love]</a></li></ul>
+        </li>
+        <li><img src="/images/map-icons/tangyoon.png" alt="MapIcon Tangyoon"/> <strong>[Lv. 60] <a href="https://maplestorywiki.net/w/Cooking_with_Tangyoon" target="_blank" rel="noreferrer noopener">[Party Quest] Cooking with Tangyoon</a></strong>: Can be done in parties of 1 to 3 party  members. The objective is to defeat monsters to help Tangyoon cook a dish. At the end you will be rewarded with EXP and <img src="/images/items/chef-certificate.png" alt="Etc Chief Certificate"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4033668" target="_blank" rel="noreferrer noopener">Chef Certificates</a>
+          <ul>
+            <li>Can be a bit time consuming for the amount of EXP you get, I suggest just getting enough Chef Certificates to exchange for the outfit and then leave</li>
+            <li>You can access this PQ through the Dimensional Mirror by clicking on <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> Party Quest Entry</li>
+            <li>Depending on if the dish you created was successful or not, you will get Chef's Certificates to exchange for equipment</li>
+            <li><strong>Main Rewards</strong>: <img src="/images/equipment/good-cook.png" alt="Eqp Good Cook"/> [Medal], <img src="/images/equipment/tangyoons-chef-hat.png" alt="Eqp Tangyoon's Chef Hat"/> <a href="https://maplestory.wiki/GMS/205/item/1003762" target="_blank" rel="noreferrer noopener">[Tangyoon's Chef Hat]</a>, <img src="/images/equipment/tangyoons-chef-outfit.png" alt="Eqp Tangyoon's Chef Outfit"/> <a href="https://maplestory.wiki/GMS/205/item/1052578" target="_blank" rel="noreferrer noopener">[Tangyoon's Chef Outfit]</a></li>
+          </ul>
+        </li>
+        <li>
+          <img src="/images/map-icons/balrog.png" alt="MapIcon Balog"/> <strong>[Lv. 65] <a href="https://maplestorywiki.net/w/Balrog" target="_blank" rel="noreferrer noopener">[Boss] Lord Balrog</a></strong>: A boss located deep inside Sleepywood. You can get to Lord Balrog through the Maple Guide or by traveling to <a href="https://maplestory.wiki/GMS/210.1.1/map/105100100" target="_blank" rel="noreferrer noopener">Sleepywood - Bottom of the Temple</a>. Lord Balrog is a bit of an outdated boss that not much people fight
+          <ul>
+            <li>An indepth guide to Lord Balrog: <a href="https://dexless.com/guides/balrog-bossing-guide.123/" target="_blank" rel="noreferrer noopener">https://dexless.com/guides/balrog-bossing-guide.123/</a></li>
+            <li><strong>Main Rewards:</strong> <img src="/images/equipment/bain-wings.png" alt="Eqp Bain Wings"/>[Lv. 58 Bain Weapon], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Soul Shard]</a>, <img src="/images/items/balrog-horn-throne.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Balrog-Horn Throne]</a></li>
+          </ul>
+        </li>
+      </ul>
+      <p>Some notable training maps are:</p>
+      <ul>
+        <li><img src="/images/map-icons/sleepywood.png" alt="MapIcon Dungeon"/> <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105010000" target="_blank">Sleepywood - Silent Swamp</a></strong> and <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105020000" target="_blank">Sunless Area</a></strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/4130100" target="_blank">Copper Drakes</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/2600224" target="_blank">Drakes</a></li>
+      </ul>
+      <hr/>
+    </div>
+  );
+};
 
 export default ContentGuide;
