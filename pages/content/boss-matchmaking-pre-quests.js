@@ -242,7 +242,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Lion King's Castle Theme Dungeon from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Quests/221/(Lion_King%27s_Castle)_Desolate_Castle">Desolate Castle</a>” at Lv. 115. The quest “<a href="https://maplestorywiki.net/w/Quests/221/The_Adventure_of_Jenn_the_Locksmith">The Adventure of Jenn the Locksmith</a>” is also required to unlock Von Leon - it is accessible from the Lightbulb icon</p>
+          <p>You must complete the Lion King's Castle Theme Dungeon from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/(Lion_King%27s_Castle)_Desolate_Castle">Desolate Castle</a>” at Lv. 115. The quest “<a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/The_Adventure_of_Jenn_the_Locksmith">The Adventure of Jenn the Locksmith</a>” is also required to unlock Von Leon - it is accessible from the Lightbulb icon</p>
           <ul>
             <li>
                 <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]

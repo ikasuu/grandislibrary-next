@@ -384,7 +384,7 @@ function ProgressionGuide() {
                     <li><strong>[Note]: </strong>If this is your first time playing, training in these areas may be difficult as they are a lot stronger than normal monsters! If you are up for the challenge, try training here. Be sure to be appropriately geared up though</li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Category:Monster_Park" target="_blank" rel="noreferrer noopener">Monster Park</a></strong>: Completing Monster Park will reward you with a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coin]</a> to use in a special shop
+                <li> <img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">Monster Park</a></strong>: Completing Monster Park will reward you with a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coin]</a> to use in a special shop
                 <ul>
                     <li>Great for early levels as you gain a lot of EXP</li>
                     <li>Special shop sells special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that are transferable within your account (given same World) that grant useful buffs for training</li>
@@ -484,7 +484,7 @@ function ProgressionGuide() {
                 </ul>
                 </li>
                 <li><strong>[Lv. 60] </strong> <img src="/images/equipment/tangyoons-chef-hat.png" alt="Eqp Tangyoon's Chef Hat"/>  <img src="/images/equipment/tangyoons-chef-outfit.png" alt="Eqp Tangyoon's Chef Outfit"/> [<a href="https://maplestory.wiki/GMS/205/item/1003762" target="_blank" rel="noreferrer noopener">Hat</a> / <a href="https://maplestory.wiki/GMS/205/item/1052578" target="_blank" rel="noreferrer noopener">Overall</a>] Cooking With Tangyoon Rewards</li>
-                <li><strong>[Lv. 65] </strong> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/>  <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> [<a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">Pendant</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">Cape</a>] <a href="https://maplestorywiki.net/w/Quests/91" target="_blank" rel="noreferrer noopener">Mushroom Castle</a> Theme Dungeon Rewards</li>
+                <li><strong>[Lv. 65] </strong> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/>  <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> [<a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">Pendant</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">Cape</a>] <a href="https://maplestorywiki.net/w/Category:Mushroom_Castle" target="_blank" rel="noreferrer noopener">Mushroom Castle</a> Theme Dungeon Rewards</li>
                 <li><strong>[Lv. 70] </strong> <img src="/images/equipment/beodog-figurine.png" alt="Eqp Beodog Figurine"/>  <img src="/images/equipment/billy-figurine.png" alt="Eqp Billy Figurine"/> <img src="/images/equipment/adler-figurine.png" alt="Eqp Adler Figurine"/>  <img src="/images/equipment/mansa-figurine.png" alt="Eqp Mansa Figurine"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Afterlands_Souvenir" target="_blank" rel="noreferrer noopener">[Totems]</a>  <a href="https://maplestorywiki.net/w/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">The Afterlands</a> Theme Dungeon Rewards
                 <ul>
                     <li>Theme Dungeon may be tedious and buggy</li>
@@ -543,7 +543,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><strong>[Lv. 120] </strong> <img src="/images/equipment/noble-ifias-ring.png" alt="Eqp Noble Ifia's Ring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1113282" target="_blank" rel="noreferrer noopener">[Ring]</a> Reward from Lion King's Castle - <a href="https://maplestorywiki.net/w/Quests/221" target="_blank" rel="noreferrer noopener">Rose Garden</a>
+                <li><strong>[Lv. 120] </strong> <img src="/images/equipment/noble-ifias-ring.png" alt="Eqp Noble Ifia's Ring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1113282" target="_blank" rel="noreferrer noopener">[Ring]</a> Reward from Lion King's Castle - <a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle" target="_blank" rel="noreferrer noopener">Rose Garden</a>
                 <ul>
                     <li>Part of the <a href="https://maplestorywiki.net/w/Equipment_Set/Boss_Accessory_Set" target="_blank" rel="noreferrer noopener">Boss Accessory Set</a>
                     </li>
@@ -644,7 +644,7 @@ function ProgressionGuide() {
                 <li><strong>[Papulatus <em>(Chaos Mode)</em>]</strong> <img src="/images/equipment/papulatus-mark.png" alt="Eqp Papulatus Mark"/> <a href="https://maplestorywiki.net/w/Papulatus_Mark" target="_blank" rel="noreferrer noopener">[ Lv. 145 Eye ]</a></li>
                 <li><strong>[Horntail]</strong> <img src="/images/equipment/dea-sidus-earrings.png" alt="Eqp Dea Sidus Earrings"/> <a href="https://maplestorywiki.net/w/Dea_Sidus_Earring" target="_blank" rel="noreferrer noopener">[ Lv. 130 Earrings ]</a></li>
                 <li><strong>[Horntail]</strong> <img src="/images/equipment/silver-blossom-ring.png" alt="Eqp Silver Blossom Ring"/> <a href="https://maplestorywiki.net/w/Silver_Blossom_Ring" target="_blank" rel="noreferrer noopener">[ Lv. 110 Ring ]</a></li>
-                <li><a href="https://maplestorywiki.net/w/Quests/221/Ifia%27s_Hope" target="_blank" rel="noreferrer noopener"><strong>[Ifia <em>(NPC)</em>]</strong></a> <img src="/images/equipment/noble-ifias-ring.png" alt="Eqp Noble Ifia's Ring"/> <a href="https://maplestorywiki.net/w/Noble_Ifia%27s_Ring" target="_blank" rel="noreferrer noopener">[ Lv. 120 Ring ]</a></li>
+                <li><a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/Ifia%27s_Hope" target="_blank" rel="noreferrer noopener"><strong>[Ifia <em>(NPC)</em>]</strong></a> <img src="/images/equipment/noble-ifias-ring.png" alt="Eqp Noble Ifia's Ring"/> <a href="https://maplestorywiki.net/w/Noble_Ifia%27s_Ring" target="_blank" rel="noreferrer noopener">[ Lv. 120 Ring ]</a></li>
                 <li><strong>[Guardian Angel Slime]</strong> <img src="/images/equipment/guardian-angel-ring.png" alt="Eqp Guardian Angel Ring"/> <a href="https://maplestorywiki.net/w/Guardian_Angel_Ring" target="_blank" rel="noreferrer noopener">[ Lv. 160 Ring ]</a></li>
                 <li><strong>[Horntail <em>(Easy / Normal Mode)</em>]</strong> <img src="/images/equipment/horntail-necklace.png" alt="Eqp Horntail Necklace"/> <a href="https://maplestorywiki.net/w/Horntail_Necklace" target="_blank" rel="noreferrer noopener">[ Lv. 120 Pendant ]</a></li>
                 <li><strong>[Horntail <em>(Chaos Mode)</em>]</strong> <img src="/images/equipment/chaos-horntail-necklace.png" alt="Eqp Horntail Necklace"/> <a href="https://maplestorywiki.net/w/Chaos_Horntail_Necklace" target="_blank" rel="noreferrer noopener">[ Lv. 120 Pendant ]</a></li>
@@ -1591,7 +1591,7 @@ function ProgressionGuide() {
                     </li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Category:Monster_Park" target="_blank" rel="noreferrer noopener">[Daily] Monster Park</a></strong>: Completing Monster Park will reward you with a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coins]</a> to use in a special shop
+                <li><img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">[Daily] Monster Park</a></strong>: Completing Monster Park will reward you with a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coins]</a> to use in a special shop
                     <ul>
                     <li>Great for early levels as you gain a lot of EXP</li>
                     <li>Special shop sells special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that are transferable within your account (given same World) that grant useful buffs for training</li>
@@ -1909,7 +1909,7 @@ function ProgressionGuide() {
                     <li><strong>Recommended Level</strong>: 10 - 19</li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <a href="https://maplestorywiki.net/w/Quests/26" target="_blank" rel="noreferrer noopener"><strong>Ellinia</strong></a>
+                <li> <img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Ellinia</strong></a>
                 <ul>
                     <li><strong>Recommended Level: </strong>25-30</li>
                 </ul>
