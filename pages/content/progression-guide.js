@@ -496,9 +496,6 @@ function ProgressionGuide() {
                 </ul>
                 </li>
                 <li><strong>[Lv. 90] </strong> <img src="/images/equipment/zakum-helmet.png" alt="Eqp Zakum Helmet"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1002357" target="_blank" rel="noreferrer noopener">[Lv. 50 Hat]</a> Dropped by <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener">Zakum</a>
-                <ul>
-                    <li>Fight Normal Zakum instead of Easy for extra EXP</li>
-                </ul>
                 </li>
                 <li><strong>[Lv. 100] </strong> <img src="/images/equipment/virtues-medallion.png" alt="Eqp Virtues Medallion"/> <img src="/images/equipment/blasted-feather.png" alt="Eqp Blasted Feather"/> <img src="/images/equipment/golden-fox-marble.png" alt="Eqp Golden Fox Marble"/> [Secondary Weapon] Can be bought from <a href="https://maplestorywiki.net/w/Neville" target="_blank" rel="noreferrer noopener">Neville</a>
                 <ul>
@@ -819,7 +816,7 @@ function ProgressionGuide() {
             <p>As well, it should be noted, a better, more general guide would be to consider which floor you can reach in Mu Lung Dojo although neither is perfectly accurate. The best way to check if you can defeat a boss is by trying, especially in Practice Mode when applicable</p>
             <p>To view bosses by Dojo floors, check out: <a href="https://i.imgur.com/9u2Z6vq.png" target="_blank" rel="noreferrer noopener">https://i.imgur.com/9u2Z6vq.png</a></p>
             <ul>
-                <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>Normal Zakum</strong></a>: Source of good EXP early game
+                <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>Normal Zakum</strong></a>
                 <ul>
                     <li><strong>Source of Mesos in Heroic Worlds from</strong>: <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/> <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a> that can be sold for Mesos</li>
                     <li>

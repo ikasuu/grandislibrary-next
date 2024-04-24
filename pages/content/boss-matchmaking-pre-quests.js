@@ -73,7 +73,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Easy/Normal</strong>: Daily</li>
             <li><strong>Can clear Chaos</strong>: Weekly</li>
           </ul>
-          <p>No pre-quests but, initially there is a quest in the Lightbulb icon called "[Zakum] Statue of Dread" at Lv. 50 that will teleport you to <a href="https://maplestory.wiki/GMS/210.1.1/map/211000001" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a> where you talk to an NPC corresponding to your job (Mage, Archer, Thief, etc.) to teleport to <a href="https://maplestory.wiki/GMS/210.1.1/map/211042300" target="_blank" rel="noreferrer noopener">Dead Mines - The Door to Zakum</a></p>
+          <p>No pre-quests but, initially there is a Lightbulb Quest called "[Zakum] Statue of Dread" at Lv. 50 that will teleport you to <a href="https://maplestory.wiki/GMS/210.1.1/map/211000001" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a> where you talk to an NPC corresponding to your job (Mage, Archer, Thief, etc.) to teleport to <a href="https://maplestory.wiki/GMS/210.1.1/map/211042300" target="_blank" rel="noreferrer noopener">Dead Mines - The Door to Zakum</a></p>
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong> <img src="/images/equipment/zakum-helmet.png" alt="Eqp Zakum Helmet"/>
@@ -105,7 +105,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: 3 times daily</li>
             <li><strong>Main Rewards:</strong> <img src="/images/items/meso.png" alt="Meso"/> [Mesos]</li>
           </ul>
-          <p>You must complete a quest in the Lightbulb icon called “[Ursus] Rumors of The Mighty” at Lv. 100 that is required to enter Ursus. The quest is short and explains what Ursus is</p>
+          <p>You must complete the Lightbulb Quest called “[Ursus] Rumors of The Mighty” at Lv. 100 that is required to enter Ursus. The quest is short and explains what Ursus is</p>
           <p>To enter Ursus, you are required daily to defeat 300 enemies near your level</p>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="magnus"><img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> Magnus</ArticleHeaderTwo>
@@ -114,7 +114,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Easy/Normal</strong>: Daily</li>
             <li><strong>Can clear Hard</strong>: Weekly</li>
           </ul>
-          <p>You must complete a questline from the Lightbulb icon called "<a href="https://maplestorywiki.net/w/Quests/21/To_Pantheon" target="_blank" rel="noreferrer noopener">To Pantheon</a>" at Lv. 90 until you gain access to the Tyrant's Castle</p>
+          <p>You must complete the questline from the Lightbulb Quest called "<a href="https://maplestorywiki.net/w/Quests/21/To_Pantheon" target="_blank" rel="noreferrer noopener">To Pantheon</a>" at Lv. 90 until you gain access to the Tyrant's Castle</p>
           <p><strong>[NOTE]: Angelic Buster, Kaiser and Cadena must complete their entire storyline to unlock access to Magnus</strong></p>
           <ul>
             <li>
@@ -174,7 +174,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Omega Sector Theme Dungeon to gain access to OMNI-CLN. To start the Theme Dungeon, accept the quest from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Quests/38/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
+          <p>You must complete the Omega Sector Theme Dungeon to gain access to OMNI-CLN. To start the Theme Dungeon, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/38/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
           <ul>
             <li>
                 <strong>Main Rewards: </strong><img src="/images/items/elixir.png"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/omni-cln-component.png" alt="Etc OMNI-CLN Component"/> <a href="https://maplestorywiki.net/w/OMNI-CLN_Component" target="_blank" rel="noreferrer noopener">[OMNI-CLN Component]</a>, <img src="/images/items/omni-cln-vacuum.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[OMNI-CLN Vacuum]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
@@ -187,7 +187,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Easy/Normal</strong>: Daily</li>
             <li><strong>Can clear Hard</strong>: Weekly</li>
           </ul>
-          <p>You must complete the questline from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Quests/36/(Papulatus)_The_Light_Of_Chaos" target="_blank" rel="noreferrer noopener">[Papulatus] The Light of Chaos</a>” at Lv. 115</p>
+          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/36/(Papulatus)_The_Light_Of_Chaos" target="_blank" rel="noreferrer noopener">[Papulatus] The Light of Chaos</a>” at Lv. 115</p>
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir]
@@ -211,7 +211,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear Normal</strong>: Daily</li>
           </ul>
-          <p>You must complete the questline from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Quests/62/(Root_Abyss)_An_Urgent_Summons">[Root Abyss] An Urgent Summon</a>” at Lv. 125. Once you've completed the questline, you get 5 free keys daily to access the bosses</p>
+          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/62/(Root_Abyss)_An_Urgent_Summons">[Root Abyss] An Urgent Summon</a>” at Lv. 125. Once you've completed the questline, you get 5 free keys daily to access the bosses</p>
           <p><strong>[Chaos Lv. 180+]</strong></p>
           <ul>
             <li><strong>Can clear Chaos</strong>: Weekly</li>
@@ -242,7 +242,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Lion King's Castle Theme Dungeon from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/(Lion_King%27s_Castle)_Desolate_Castle">Desolate Castle</a>” at Lv. 115. The quest “<a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/The_Adventure_of_Jenn_the_Locksmith">The Adventure of Jenn the Locksmith</a>” is also required to unlock Von Leon - it is accessible from the Lightbulb icon</p>
+          <p>You must complete the Lion King's Castle Theme Dungeon from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/(Lion_King%27s_Castle)_Desolate_Castle">Desolate Castle</a>” at Lv. 115. The quest “<a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/The_Adventure_of_Jenn_the_Locksmith">The Adventure of Jenn the Locksmith</a>” is also required to unlock Von Leon - it is accessible from the Lightbulb Quest</p>
           <ul>
             <li>
                 <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
@@ -284,7 +284,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete a questline from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Quests/1/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 140 to unlock access to Arkarium</p>
+          <p>You must complete a questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/1/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 140 to unlock access to Arkarium</p>
           <ul>
             <li>
                 <strong>Easy mode and Above Rewards:</strong> <img src=" /images/equipment/mechanator-pendant.png" alt="Eqp Mechanator Pendant"/> <a href="https://maplestorywiki.net/w/Mechanator_Pendant" target="_blank" rel="noreferrer noopener">[Mechanator Pendant]</a>
@@ -359,7 +359,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
-          <p>You must complete all Acts of Black Heaven Blockbuster from the Lightbulb icon called “<a href="https://maplestory.wiki/GMS/210.1.1/quest/33127" target="_blank" rel="noreferrer noopener">[Black Heaven] For Maple World</a>" at Lv. 120. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing the Blockbuster will unlock access for all of your other characters in the same world</p>
+          <p>You must complete all Acts of Black Heaven Blockbuster from the Lightbulb Quest called “<a href="https://maplestory.wiki/GMS/210.1.1/quest/33127" target="_blank" rel="noreferrer noopener">[Black Heaven] For Maple World</a>" at Lv. 120. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest Completing the Blockbuster will unlock access for all of your other characters in the same world</p>
           <ul>
             <li>
               <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/extraordinary-energy-core.png" alt="Etc Extraordinary Energy Core (Grade S)"/> [Extraordinary Energy Core (Grade S)]
@@ -397,7 +397,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
-          <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb icon called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest. Completing Act 4 will unlock access for all of your other characters in the same world</p>
+          <p>You must complete Act 4 of Heroes of Maple Blockbuster from the Lightbulb Quest called <a href="https://maplestory.wiki/GMS/210.1.1/quest/33916" target="_blank" rel="noreferrer noopener">“[Heroes] Feelings of Misfortune”</a> at Lv. 135. The Blockbuster can be accessible from the Dimensional Mirror as well after completing the quest. Completing Act 4 will unlock access for all of your other characters in the same world</p>
           <ul>
             <li>
               <strong>Normal Mode Rewards: </strong> , <img src="/images/equipment/ruin-force-shield.png" alt="Eqp Ruin Force Shield"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1099015" target="_blank" rel="noreferrer noopener">[(Demon-Class Exclusive) Ruin Force Shield]</a>
@@ -802,7 +802,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
-          <p>You must complete the Hieizan Temple storyline to gain access to Princess No. To start, accept the quest from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Quests/56/(Hieizan_Temple)_Regards,_Takeda_Shingen">[Hieizan Temple] Regards, Takeda Shingen</a>” at Lv. 140</p>
+          <p>You must complete the Hieizan Temple storyline to gain access to Princess No. To start, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/56/(Hieizan_Temple)_Regards,_Takeda_Shingen">[Hieizan Temple] Regards, Takeda Shingen</a>” at Lv. 140</p>
           <ul>
             <li>
                 <strong>Main Rewards:</strong> <img src="/images/items/captivating-fragment.png" alt="Use Captivating Fragment"/> <a href="https://maplestorywiki.net/w/Captivating_Fragment" target="_blank" rel="noopener noreferrer">[Secondary Weapon Fragment]</a>
@@ -859,7 +859,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong><strong>Can clear</strong>:</strong> Weekly</li>
           </ul>
-          <p>You must complete the Asura Crisis storyline starting with the quest from your Lightbulb icon called "[The Asura Crisis] Back to Momijigaoka" at Lv. 200</p>
+          <p>You must complete the Asura Crisis storyline starting with the Lightbulb Quest called "[The Asura Crisis] Back to Momijigaoka" at Lv. 200</p>
           <ul>
             <li>
               <strong>Main Rewards:</strong> <img src="/images/equipment/nimbus-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><img src="/images/equipment/weeping-spirit-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><a href="https://maplestorywiki.net/w/Equipment_Set/Amaterasu_Set" target="_blank" rel="noopener noreferrer">[Japanese Wolf Weapons]</a>
@@ -883,7 +883,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Daily</li>
             <li><strong>Location</strong>: <a href="https://maplestory.wiki/GMS/220/map/801040003" target="_blank" rel="noopener noreferrer">Showa Town: Parlor</a></li>
           </ul>
-          <p>You must complete a series of quest starting from "[Showa Town] Welcome to Showa Town!" from the Lightbulb icon at Lv. 160. The last quest you need to complete is "Investigating Fire Raccoon Finance"</p>
+          <p>You must complete the questline from the Lightbulb Quest called "[Showa Town] Welcome to Showa Town!". The last quest you need to complete is "Investigating Fire Raccoon Finance"</p>
           <ul>
             <li><strong>Main Rewards:</strong> <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/equipment/terminus-dominator.png" alt="Eqp Terminus Divider"/><img src="/images/equipment/terminus-executioner.png" alt="Eqp Terminus Executioner"/><img src="/images/equipment/terminus-defender.png" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="/images/items/showa-town-damage-skin.png" alt="Showa Town Damage Skin"/><img src="/images/items/fire-raccoon-damage-skin.png" alt="Fire Racoon Damage Skin"/> [Damage Skins]</li>
           </ul>

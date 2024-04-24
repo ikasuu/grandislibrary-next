@@ -24,93 +24,11 @@ function ContentGuide() {
     <Level50/>
     <BannerAdOne/>
     <Level60/>
-    <ArticleHeaderTwo id="70">Level 70</ArticleHeaderTwo>
-    <h3>Content Available:</h3>
-    <h4>Recommended</h4>
-    <hr/>
-    <ul> <li>  <strong>[Lv. 70] </strong> <a href="https://maplestorywiki.net/w/Link_Skill" target="_blank" rel="noreferrer noopener"> <strong><span style={{color: '#ff0000'}}>[Important]</span> Link Skills</strong></a>:  Skills located in your Beginner's Skill Tab by double-clicking on <img src="/class-icons/link-skills/link-manager.png" alt="Skill Link Manager"/> Link Manager. These skills can be linked to another  character. Most provide passive benefits but there are some active Link Skills such as <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/> Mihile's <a href="https://maplestorywiki.net/w/Knight%27s_Watch" target="_blank" rel="noreferrer noopener">Knight's Watch</a>  <ul> <li>A short guide and list of Link Skills: <a href="https://maplestorywiki.net/w/Link_Skill" target="_blank" rel="noreferrer noopener">https://maplestorywiki.net/w/Link_Skill</a></li>  </ul> </li>
-    </ul>
-    <h4>Optional</h4>
-    <h5>[Grinding is preferred at these levels as there isn't much to do]</h5>
-    <hr/>
-    <p><img className="repository-image" src="/images/info/party-quest-map.png" alt="Party Quests"/></p>
-    <ul> <li> <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> <strong>[Lv. 70] </strong> <a href="https://maplestorywiki.net/w/Party_Quest" target="_blank" rel="noreferrer noopener"><strong>Party Quests + Cross World Party Quests</strong></a>: Special activities that you can do with other players. On  completion, you will gain some EXP and rewards. Completing Cross World Party Quests will reward the player with Points which they can use to buy items from a special shop. Most items here are for cosmetic purposes  <ul> <li>Cross World Party Quests are Party Quests where players come from multiple Worlds.</li> <li>Party Quests are usually done nowadays for item collection reasons or just for fun</li> <li>You can access this PQ through the Dimensional Mirror by clicking on <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> Party Quest Entry</li> <li> Party quests available at Lv. 70 are: <ul>  <li>   <strong><a href="https://maplestorywiki.net/w/Moon_Bunny%27s_Rice_Cake" target="_blank" rel="noreferrer noopener">Moon Bunny's Rice Cake [Cross World]</a></strong>  </li>  <li>   <strong><a href="https://maplestorywiki.net/w/First_Time_Together" target="_blank" rel="noreferrer noopener">First Time Together [Cross World]</a></strong>  </li>  <li>   <strong><a href="https://maplestorywiki.net/w/Remnant_of_the_Goddess" target="_blank" rel="noreferrer noopener">Remnant of the Goddess [Cross World]</a></strong>  </li>  <li>   <strong><a href="https://maplestorywiki.net/w/Forest_of_Poison_Haze" target="_blank" rel="noreferrer noopener">Forest of Poison Haze [Cross World]</a></strong>  </li>  <li>   <strong><a href="https://maplestorywiki.net/w/Ariant_Coliseum" target="_blank" rel="noreferrer noopener">Ariant Coliseum [Cross World]</a></strong>  </li>  <li>   <strong></strong><a href="https://maplestorywiki.net/w/Romeo_and_Juliet" target="_blank" rel="noreferrer noopener"><strong>Romeo and Juliet [Party Quest]</strong></a>  </li> </ul> </li> <li>It will be hard finding other people to do Party Quests with plus the EXP is not that great which is why most people skip this</li>  </ul> </li> <li> <img src="/images/map-icons/afterlands.png" alt="MapIcon PL AfterLand"/> <strong>[Lv. 70] <a href="https://maplestorywiki.net/w/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">[Theme Dungeon] The Afterlands</a>:</strong> An easy way to obtain permanent totems that you can equip  for extra stats (maximum 3 totems)  <ul> <li> <strong>Main Rewards:</strong> <img src="/images/equipment/beodog-figurine.png" alt="Eqp Beodog Figurine"/> <img src="/images/equipment/billy-figurine.png" alt="Eqp Billy Figurine"/> <img src="/images/equipment/adler-figurine.png" alt="Eqp Adler Figurine"/> <img src="/images/equipment/mansa-figurine.png" alt="Eqp Mansa Figurine"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Afterlands_Souvenir" target="_blank" rel="noreferrer noopener">[Afterlands Totems]</a> </li> <li>This is more popular than the other activities but The Afterlands is known to be slightly buggy or frustrating to complete but provide some easy Totems</li> <li> Here is a guide: <a href="https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/" target="_blank" rel="noreferrer noopener">  https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/ </a> </li>  </ul> </li>
-    </ul>
-    <hr/>
-    <p>Some notable training maps are:</p>
-    <ul> <li> <img src="/images/map-icons/el-nath.png" alt="MapIcon ElNath"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/211040200" target="_blank" rel="noreferrer noopener">El Nath - Ice Valley II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5140000" target="_blank" rel="noreferrer noopener">White Fang</a> </li> <li> <img src="/images/map-icons/orbis.png" alt="MapIcon Orbis"/> <a href="https://maplestorywiki.net/w/Orbis" target="_blank" rel="noreferrer noopener"><strong>Orbis</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120000" target="_blank" rel="noreferrer noopener">Luster Pixie</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120001" target="_blank" rel="noreferrer noopener">Cellion</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120002" target="_blank" rel="noreferrer noopener">Lioner</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120003" target="_blank" rel="noreferrer noopener">Grupin</a> </li>
-    </ul>
-    <hr/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <ArticleHeaderTwo id="80">Level 80</ArticleHeaderTwo>
-    <h3>Content Available:</h3>
-    <h4>Optional</h4>
-    <h5>[Grinding is preferred at these levels as there isn't much to do]</h5>
-    <hr/>
-    <ul> <li> <img src="/images/map-icons/ariant.png" alt="MapIcon Ariant"/> <strong>[Lv. 80] </strong> <a href="https://maplestorywiki.net/w/Nett%27s_Pyramid_(Party_Quest)" target="_blank" rel="noreferrer noopener"><strong>[Party Quest] Nett's Pyramid</strong></a>: Requires 4 party members to enter. The objective is to defeat  monsters that come in waves  <ul> <li>You can access this PQ through the Dimensional Mirror by clicking on <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> Party Quest Entry</li> <li>Since it is difficult to gather 4 party members, most people prefer to just train/grind</li> <li> <strong>Main Rewards:</strong> <img src="/images/equipment/pharaoh-belt.png" alt="Eqp Pharaoh Belt"/> <a href="https://maplestory.wiki/GMS/212/item/1132013" target="_blank" rel="noreferrer noopener">[Immortal Pharaoh Belt]</a>, <img src="/images/equipment/the-immortal-pharaoh-shoes.png" alt="Eqp The Immortal Pharaoh Shoes"/> <a href="https://maplestory.wiki/GMS/205/item/1072619" target="_blank" rel="noreferrer noopener">[Immortal Pharaoh Shoes]</a>, <img src="/images/equipment/the-immortal-pharaoh-ring.png" alt="Eqp The Immortal Pharaoh Ring"/> <a href="https://maplestory.wiki/GMS/212/item/1112682" target="_blank" rel="noreferrer noopener">[Immortal Pharaoh Ring]</a> </li>  </ul> </li>
-    </ul>
-    <hr/>
-    <p>Some notable training maps are:</p>
-    <ul> <li> <img src="/images/map-icons/verne-mine.png" alt="MapIcon Verne Mine"/> <strong> <a href="https://maplestory.wiki/GMS/215/map/310050600" target="_blank" rel="noreferrer noopener">Verne Mine - Shaft 2</a> &amp; <a href="https://maplestory.wiki/GMS/215/map/310060300" target="_blank" rel="noreferrer noopener">Deep Shaft</a> </strong> : <a href="https://maplestory.wiki/GMS/215/mob/7150001" target="_blank" rel="noreferrer noopener">Big Spider</a> and <a href="https://maplestory.wiki/GMS/215/mob/8105005" target="_blank" rel="noreferrer noopener">Ore Muncher</a> </li> <li> <img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/260020600" target="_blank" rel="noreferrer noopener">Nihal Desert - Sahel 2</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110300" target="_blank" rel="noreferrer noopener">Sand Rat</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110301" target="_blank" rel="noreferrer noopener">Scorpion</a> </li> <li> <img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/260020610" target="_blank" rel="noreferrer noopener"><strong>Nihal Desert - The Desert of Serenity</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110300" target="_blank" rel="noreferrer noopener">Sand Rat</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3110301" target="_blank" rel="noreferrer noopener">Dark Sand Dwarf</a> </li>
-    </ul>
-    <hr/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-    <ArticleHeaderTwo id="90">Level 90</ArticleHeaderTwo>
-    <h3>Content Available:</h3>
-    <h4>Recommended</h4>
-    <hr/>
-    <ul>
-      <li><img src="/images/map-icons/dead-mine.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>[Recommended] <span style={{color: '#ff9900'}}>[Boss]</span></strong><strong> Normal &amp; Chaos Zakum</strong></a>: Both difficulties have much more HP and are more lethal
-        <ul>
-          <li>Defeating Normal Zakum will grant lots of EXP and is recommended to attempt fighting it at Lv. 100 or Lv. 90 if strong enough</li>
-          <li><strong>[Note]</strong>: Chaos Zakum should not be attempted until Lv. 200+ as it has 84bil+ HP</li>
-          <li>
-                <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/>
-                <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a>, <img src="/images/equipment/condensed-power-crystal.png" alt="Eqp Condensed Power Crystal"/>
-                <a href="https://maplestorywiki.net/w/Condensed_Power_Crystal">[</a><a href="https://maplestory.wiki/GMS/210.1.1/item/1012478" target="_blank" rel="noreferrer noopener">Condensed Power Crystal]</a>, <img src="/images/equipment/aquatic-letter-eye.png" alt="Eqp Aquatic Letter Eye Accessory"/>
-                <a href="https://maplestory.wiki/GMS/210.1.1/item/1022231" target="_blank" rel="noreferrer noopener">[Aquatic Letter Eye]</a>, <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/>
-                <a href="https://maplestorywiki.net/w/Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Lv. 110 Rebirth Flame]</a>
-            </li>
-            <li>
-              <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-zakum-helmet.png" alt="Eqp Chaos Zakum Helmet"/>
-              <a href="https://maplestorywiki.net/w/Chaos_Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Chaos Zakum Helmet]</a>, <img src="/images/equipment/enraged-zakum-helmet.png" alt="Eqp Enraged Zakum Helmet"/>
-              <a href="https://maplestorywiki.net/w/Enraged_Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Enraged Zakum Helmet]</a>, <img src="/images/equipment/enraged-zakum-cape.png" alt="Eqp Enraged Zakum Cape"/>
-              <a href="https://maplestorywiki.net/w/Enraged_Zakum_Cape" target="_blank" rel="noreferrer noopener">[Enraged Zakum Cape]</a>, <img src="/images/equipment/enraged-zakum-belt.png" alt="Eqp Enraged Zakum Belt"/>
-              <a href="https://maplestorywiki.net/w/Enraged_Zakum_Belt" target="_blank" rel="noreferrer noopener">[Enraged Zakum Belt]</a>, <img src="/images/items/zakum-hand-table.png"/>
-              <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Zakum Hand Table]</a>
-            </li>
-        </ul>
-      </li>
-    <li><img src="/images/map-icons/heliseum.png" alt="MapIcon Heliseum"/> <strong>[Lv. 90] </strong> <a href="https://maplestorywiki.net/w/Category:Heliseum" target="_blank" rel="noreferrer noopener"><strong>[Pre-Quest / Storyline] Heliseum</strong></a>: Completing this Storyline unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestorywiki.net/w/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> which can be used as currency for a <a href="https://maplestorywiki.net/w/Mayala" target="_blank" rel="noreferrer noopener">special shop</a>  <ul> <li>Normal and Hard Magnus cannot be fought until Lv. 155+</li> <li> <strong>Notable shop items:</strong> <img src="/images/equipment/elite-heliseum-cape.png" alt="Eqp Elite Heliseum Cape"/> <img src="/images/equipment/nova-hyades-cloak.png" alt="Eqp Nova Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Cape]</a>, <img src="/images/equipment/elite-heliseum-boots.png" alt="Eqp Elite Heliseum Boots"/> <img src="/images/equipment/nova-hyades-boots.png" alt="Eqp Nova Boots"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Shoe]</a>, <img src="/images/equipment/elite-heliseum-belt.png" alt="Eqp Elite Heliseum Belt"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>, <img src="/images/equipment/antique-root-gloves.png" alt="Eqp Antique Root Gloves"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1082688" target="_blank" rel="noreferrer noopener">[Antique Root Gloves]</a> <ul>  <li>These items are not recommended to get as they are tedious to obtain and upgrade while there are easier and more efficient gear to obtain</li>  <li>Superior equipment grant bonus stats when Starforcing but cost a lot more and has a higher chance to destroy an item on failure</li> </ul> </li> <li> Guide to the pre-quest: <a href="https://www.youtube.com/watch?v=E8cjZb2b2CI" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=E8cjZb2b2CI</a> <ul>  <li>Pre-quest for Nova characters may be slightly different</li> </ul> </li>  </ul> </li>
-    </ul>
-    <h4>Optional</h4>
-    <hr/>
-    <ul> <li> <img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon jipangu"/> <strong>[Lv. 90] </strong> <a href="https://maplestorywiki.net/w/Category:Mushroom_Shrine" target="_blank" rel="noreferrer noopener"><strong>[Theme Dungeon] Mushroom Shrine Tales</strong></a>: Accessible from the Dimensional Mirror and initially from a  quest in your Lightbulb icon  <ul> <li> Completing this storyline rewards you <img src="/images/equipment/wings-of-fate.png" alt="Eqp Wings of Fate"/> <a href="https://maplestorywiki.net/w/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Wings of Fate]</a> which give some pretty good stats but may be tedious to obtain since the story is quite long <ul>  <li>This cape may be useful for gear progression in Heroic Worlds if you do want to obtain it</li> </ul> </li>  </ul> </li> <li> <img src="/images/map-icons/ellin-forest.png" alt="MapIcon EilnForest"/> <strong>[Lv. 95] <a href="https://maplestorywiki.net/w/Category:Ellin_Forest" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Ellin Forest</a></strong>  <ul> <li> Main Rewards: <img src="/images/equipment/ephenias-ring.png" alt="Eqp Ephenia's Ring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1112683" target="_blank" rel="noreferrer noopener">[Ephenia's Ring]</a>, <img src="/images/equipment/ellin-forest-guardian.png" alt="Eqp Ellin Forest Guardian"/> [Medal] </li>  </ul> </li> <li> <img src="/images/map-icons/hyperspace-cube.png" alt="MapIcon MapleDetective"/> <strong>[Lv. 90] <a href="https://maplestorywiki.net/w/Stellar_Detectives" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Stellar Detectives</a></strong>: The rewards that are not very worth obtaining. This is more  for a fun activity or for item collecting rather than for training  <ul> <li> <strong>Main Rewards:</strong> <img src="/images/equipment/i-really-like-tutu.png" alt="Eqp I really like Tutu"/> <img src="/images/equipment/i-really-like-nenne.png" alt="Eqp I really like Nenne"/> <img src="/images/equipment/i-really-like-lingling.png" alt="Eqp I really like Lingling"/> <img src="/images/equipment/i-really-like-jett.png" alt="Eqp I Really Like Jett"/> [Medal], <img src="/images/items/lingling-damage-skin.png" alt="Use Lingling Damage Skin"/> <img src="/images/items/tutu-damage-skin.png" alt="Use Tutu Damage Skin"/> <img src="/images/items/nenne-damage-skin.png" alt="Use Nenne Damage Skin"/> [Damage Skins] </li>  </ul> </li>
-    </ul>
-    <hr/>
-    <p>Some notable training maps are:</p>
-    <ul> <li> <img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/261020300" target="_blank" rel="noreferrer noopener">Magatia - Lab Area C-1</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/map/261020400" target="_blank" rel="noreferrer noopener">Lab Area C-2</a> </strong> : <a href="https://maplestory.wiki/GMS/210.1.1/mob/5110301" target="_blank" rel="noreferrer noopener">Roid</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5110302" target="_blank" rel="noreferrer noopener">Neo Huroid</a> </li> <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240010600" target="_blank" rel="noreferrer noopener">[Star Force 5] Leafre - Sky Nest II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140003" target="_blank" rel="noreferrer noopener">Blood Harp</a> </li>
-    </ul>
-    <hr/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+    <Level70/>
+    <Level80/>
+    <Level90/>
     <BannerAdTwo/>
-    <ArticleHeaderTwo id="100">Level 100</ArticleHeaderTwo>
-    <p>Congratulations on level 100!! You are now halfway to level 200! Welcome to 4th job, you are almost there to 5th job!</p>
-    <h3>Content Available:</h3>
-    <h4>Recommended</h4>
-    <hr/>
-    <ul> <li>  <strong>[Training] Star Force Maps</strong>: Special maps that require you to have a certain amount of Star Force Enhancements on your equipment to deal damage to monsters. Monsters here have more HP but in return give more EXP  <ul> <li> <strong>[Note]: </strong>If this is your first time playing, training in these areas may be difficult as they are a lot stronger than normal monsters! If you are up for the challenge, try training here. Be sure to be appropriately geared up though </li> <li> For more info on Star Force and Enhancing check out: <a href="https://maplestorywiki.net/w/Enhancing" target="_blank" rel="noreferrer noopener">https://maplestorywiki.net/w/Enhancing</a> and <a href="https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force</a> </li>  </ul> </li> <li> <img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">[Recommended] Monster Park</a></strong>: Accessible through the Dimensional Mirror, this area consists of  dungeons that you can choose for your level. Each dungeon has multiple stages and completing the dungeons will grant a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> coins to  use in a special shop  <ul> <li>If you are starting out, Monster Park is great for early levels as you gain a lot of EXP</li> <li> Dungeons range from Lv. 105 to 210 and can be done 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points (not Maple Reward Points)</a> <ul>  <li>There is an item you can get from Event Shops that provide extra runs without Maple Points</li> </ul> </li> <li> In the special shop you can buy special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that can be shared within your account (given same World) that grant useful buffs for training </li> <li> Completing Monster Park 77 times for each day of the week will reward you a special <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Medal]</a> that gives +10% Ignore Enemy Defence </li>  </ul> </li> <li> <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> <strong>[Lv. 105] </strong>  <strong>[Recommended] </strong><strong>Maple Tour: </strong>Accessible through the Dimensional Mirror, Maple Tour is similar to Monster Park, completing runs here will reward you with Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] to buy special items at Maple Tour  <ul> <li> <strong><span style={{color: '#ff6600'}}>[Heroic World Important]</span>: </strong>In Heroic Worlds, the amount of Mesos rewarded is increased and is considered a main activity because of this! </li> <li>Provides some decent money to start out with and can be completed fairly quickly each day</li> <li>Mesos can be retrieved 7 days later for the full amount or if you retrieve them earlier you will only get 50% the amount only</li> <li> Can be done 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points (not Maple Reward Points)</a> <ul>  <li>There is an item you can get from Event Shops that provide extra runs without Maple Points</li> </ul> </li>  </ul> </li> <li> <img src="/images/map-icons/ursus.png" alt="Mobicon Ursus"/> <strong>[Lv. 100] </strong>  <strong><a href="https://maplestorywiki.net/w/Ursus" target="_blank" rel="noreferrer noopener">[Recommended] <span style={{color: '#ff9900'}}>[Boss]</span> Ursus</a></strong>: Accessible from the Dimensional Mirror, Ursus is a gigantic boss that is meant to be  fought in a large group of people. The main benefit of fighting Ursus is for Mesos and is mainly fought only in Heroic Worlds<ul> <li> <strong><span style={{color: '#ff6600'}}>[Heroic World Important]</span>: </strong>In Heroic Worlds, the amount of Mesos rewarded is increased and is considered a main activity because of this! </li> <li>You also get materials for defeating Ursus which can be used as currency in a special shop</li> <li>For more info on Ursus, check this out: <a href="https://strategywiki.org/wiki/MapleStory/Ursus" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Ursus</a></li>  </ul> </li>
-    </ul>
-    <h4>Optional</h4>
-    <hr/>
-    <ul> <li> <img src="/images/map-icons/mu-lung-dojo.png" alt="MapIcon Mu Lung Dojo"/> <strong>[Lv. 105] </strong> <a href="https://maplestorywiki.net/w/Mu_Lung_Dojo" target="_blank" rel="noreferrer noopener"> <strong><span style={{color: '#339966'}}>[Endgame/Midgame Content]</span> Mu Lung Dojo</strong></a>:  Accessible through the Dimensional Mirror, this area is meant to test a player's skills by continuously fighting bosses and traversing up the Dojo  <ul> <li> You will be given a rank based on your time spent in the Dojo and the highest floor you managed to reach <ul>  <li>   Rewards will be given based on your rank such as: <img src="/images/equipment/heros-gloves.png" alt="Eqp Hero's Gloves"/> <a href="https://maplestorywiki.net/w/Hero%27s_Gloves" target="_blank" rel="noreferrer noopener">Hero's Gloves [Glove]</a>, <img src="/images/equipment/one-with-300-years-of-inner-power.png" alt="Setup One with 300 Years of Inner Power"/> [Title]</li> </ul> </li> <li> Competing in the Dojo will give you points depending on the floors you clear which you can use in a special shop <ul>  <li>   <strong>Notable items:</strong> <img src="/images/items/mu-gongs-honor-exp-guarantee.png" alt="Use Mu Gong's Honor EXP Guarantee"/> [Honor EXP], <img src="/images/items/unity-training-center-entrance-charm-coupon.png" alt="Etc Unity Training Center Entrance Charm"/> [Passive EXP Zone Entry Coupon]</li> </ul> </li>  </ul> </li> <li> <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/> <strong>[Lv. 100] <a href="https://maplestorywiki.net/w/Category:Grand_Athenaeum" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Grand Anthenaeum</a></strong>: Accessible from the Dimensional Mirror, Grand  Anthenaeum is a story &amp; cutscene driven Theme Dungeon that explains Maple World's lore<ul> <li>Storyline can be quite long due to the number of cutscenes which is why not much people complete it</li> <li> <strong>Main Rewards:</strong> <img src="/images/equipment/scholarly-pendant.png" alt="Eqp Scholarly Pendant"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122263" target="_blank" rel="noreferrer noopener">[Scholarly Pendant]</a> for completing 3 stories </li>  </ul> </li> <li> <img src="/images/map-icons/friendstory.png" alt="MapIcon spinOff1"/> <strong>[Lv. 100] </strong> <a href="https://maplestorywiki.net/w/Category:Shinsoo_International_School" target="_blank" rel="noreferrer noopener"><strong>[Theme Dungeon] FriendStory</strong></a>: Accessible from the Dimensional Mirror and initially from  a quest in the Lightbulb icon. FriendStory is a storyline where you travel to another world where the characters of Maple World are students and teachers at a school  <ul> <li> <strong>Main Rewards: </strong> <img src="/images/items/regular-school-uniform-coupon-m.png" alt="Use Regular School Uniform Coupon (M)"/><img src="/images/items/regular-school-uniform-coupon-f.png" alt="Use Regular School Uniform Coupon (F)"/> <a href="https://maplestory.wiki/GMS/205/item/2432776" target="_blank" rel="noreferrer noopener">[Regular School Uniform Coupon]</a>, <img src="/images/equipment/shinsoo-school-badge.png" alt="Eqp Shinsoo School Badge"/> <a href="https://maplestory.wiki/GMS/205/item/1182079" target="_blank" rel="noreferrer noopener">[Shinsoo School Badge]</a>, <img src="/images/items/irenas-rock-chair.png" alt="Setup Irena's Rock Chair"/><img src="/images/items/francis-best-friend.png" alt="Setup Francis' Best Friend"/> [Chair] </li> <li>Storyline can be quite long due to the number of cutscenes which is why not much people complete it and the rewards are mostly cosmetics</li>  </ul> </li>
-    </ul>
-    <hr/>
-    <p>Some notable training maps are:</p>
-    <ul> <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/240010000" target="_blank" rel="noreferrer noopener">Leafre - West Leafre Forest</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2600003" target="_blank" rel="noreferrer noopener">Rash</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/2600004" target="_blank" rel="noreferrer noopener">Dark Rash</a> </li> <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240010600" target="_blank" rel="noreferrer noopener">[Star Force 5] Leafre - Sky Nest II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140003" target="_blank" rel="noreferrer noopener">Blood Harp</a> </li> <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240020200" target="_blank" rel="noreferrer noopener">[Star Force 15] Leafre - The Area of Black Kentaurus</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140104" target="_blank" rel="noreferrer noopener">Black Kentaurus</a> </li> <li> <img src="/images/map-icons/dead-mine.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"> <strong><span style={{color: '#ff9900'}}>[Boss]</span> Normal Zakum</strong></a>: Defeating Normal Zakum will grant lots of EXP and is recommended to attempt fighting it at Lv. 100 or Lv. 90 if strong enough</li>
-    </ul>
-    <hr/>
-    {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+    <Level100/>
     <ArticleHeaderTwo id="110">Level 110</ArticleHeaderTwo>
     <h3>Content Available:</h3>
     <h4>Recommended</h4>
@@ -1047,26 +965,26 @@ function Level60(){
       <ArticleHeaderTwo id="60">Level 60</ArticleHeaderTwo>
       <p>Congratulations on level 60! Welcome to 3rd job!</p>
       <img className="repository-image" src="/images/info/boss-queue.png" alt="Boss Matchmaking UI"/>
-      <p>Using the "Boss Contents" UI provides an direct teleport to bosses after completing their pre-quests. The "Boss Party" Key can be assigned to a Key Slot through the "Keyboard Shortcuts" UI</p>
+      <p>Using the "Boss Contents" UI provides a direct teleport to bosses after completing their pre-quests. The "Boss Party" Key can be assigned to a Key Slot through the "Keyboard Shortcuts" UI</p>
       <p>Defeating monsters is recommended during these levels as there is no useful content to complete</p>
       <h3>Content Available:</h3>
       <h4>Optional</h4>
+      <h5>[Grinding is preferred at these levels as there isn't much to do]</h5>
       <hr/>
       <ul>
         <li>
-          <img src="/images/map-icons/mushroom-castle.png" alt="MapIcon Mushroom Castle"/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Mushroom Kingdom</a></strong>: Has lots of cutscenes compared to the previous Theme  Dungeons which is why most people skip this one
+          <img src="/images/map-icons/mushroom-castle.png" alt="MapIcon Mushroom Castle"/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Mushroom Kingdom</a></strong>: Slower compared to previous Theme Dungeons due to lots of cutscenes
           <ul><li><strong>Main Rewards:</strong> <img src="/images/items/meso.png" alt="Mesos Icon"/> [3 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/>[Spell Traces], <img src="/images/equipment/violettas-knight.png" alt="Eqp Violetta's Knight"/> [Medal], <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">[Heavy Violetta Cape]</a> <a href="https://maplestory.wiki/GMS/215/item/1142629" target="_blank" rel="noreferrer noopener">, </a> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">[Shackles of Love]</a></li></ul>
         </li>
-        <li><img src="/images/map-icons/tangyoon.png" alt="MapIcon Tangyoon"/> <strong>[Lv. 60] <a href="https://maplestorywiki.net/w/Cooking_with_Tangyoon" target="_blank" rel="noreferrer noopener">[Party Quest] Cooking with Tangyoon</a></strong>: Can be done in parties of 1 to 3 party  members. The objective is to defeat monsters to help Tangyoon cook a dish. At the end you will be rewarded with EXP and <img src="/images/items/chef-certificate.png" alt="Etc Chief Certificate"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4033668" target="_blank" rel="noreferrer noopener">Chef Certificates</a>
+        <li><img src="/images/map-icons/tangyoon.png" alt="MapIcon Tangyoon"/> <strong>[Lv. 60] <a href="https://maplestorywiki.net/w/Cooking_with_Tangyoon" target="_blank" rel="noreferrer noopener">[Party Quest] Cooking with Tangyoon</a></strong>: Can be done in parties of 1-3 party members. The objective is to defeat monsters in a certain order to cook the correct dish
           <ul>
-            <li>Can be a bit time consuming for the amount of EXP you get, I suggest just getting enough Chef Certificates to exchange for the outfit and then leave</li>
-            <li>You can access this PQ through the Dimensional Mirror by clicking on <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> Party Quest Entry</li>
-            <li>Depending on if the dish you created was successful or not, you will get Chef's Certificates to exchange for equipment</li>
+            <li>Accessible through the Dimensional Mirror by clicking on <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> Party Quest Entry</li>
+            <li>Depending on if the dishes were successful or not, you will be rewarded <img src="/images/items/chef-certificate.png" alt="Etc Chief Certificate"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4033668" target="_blank" rel="noreferrer noopener">Chef Certificates</a> to exchange for equipment</li>
             <li><strong>Main Rewards</strong>: <img src="/images/equipment/good-cook.png" alt="Eqp Good Cook"/> [Medal], <img src="/images/equipment/tangyoons-chef-hat.png" alt="Eqp Tangyoon's Chef Hat"/> <a href="https://maplestory.wiki/GMS/205/item/1003762" target="_blank" rel="noreferrer noopener">[Tangyoon's Chef Hat]</a>, <img src="/images/equipment/tangyoons-chef-outfit.png" alt="Eqp Tangyoon's Chef Outfit"/> <a href="https://maplestory.wiki/GMS/205/item/1052578" target="_blank" rel="noreferrer noopener">[Tangyoon's Chef Outfit]</a></li>
           </ul>
         </li>
         <li>
-          <img src="/images/map-icons/balrog.png" alt="MapIcon Balog"/> <strong>[Lv. 65] <a href="https://maplestorywiki.net/w/Balrog" target="_blank" rel="noreferrer noopener">[Boss] Lord Balrog</a></strong>: A boss located deep inside Sleepywood. You can get to Lord Balrog through the Maple Guide or by traveling to <a href="https://maplestory.wiki/GMS/210.1.1/map/105100100" target="_blank" rel="noreferrer noopener">Sleepywood - Bottom of the Temple</a>. Lord Balrog is a bit of an outdated boss that not much people fight
+          <img src="/images/map-icons/balrog.png" alt="MapIcon Balog"/> <strong>[Lv. 65] <a href="https://maplestorywiki.net/w/Balrog" target="_blank" rel="noreferrer noopener">[Boss] Lord Balrog</a></strong>: A boss located within Sleepywood. You can get to Lord Balrog through the Maple Guide, Boss Contents UI, or by traveling to <a href="https://maplestory.wiki/GMS/210.1.1/map/105100100" target="_blank" rel="noreferrer noopener">Sleepywood - Bottom of the Temple</a>
           <ul>
             <li>An indepth guide to Lord Balrog: <a href="https://dexless.com/guides/balrog-bossing-guide.123/" target="_blank" rel="noreferrer noopener">https://dexless.com/guides/balrog-bossing-guide.123/</a></li>
             <li><strong>Main Rewards:</strong> <img src="/images/equipment/bain-wings.png" alt="Eqp Bain Wings"/>[Lv. 58 Bain Weapon], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Soul Shard]</a>, <img src="/images/items/balrog-horn-throne.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Balrog-Horn Throne]</a></li>
@@ -1076,6 +994,250 @@ function Level60(){
       <p>Some notable training maps are:</p>
       <ul>
         <li><img src="/images/map-icons/sleepywood.png" alt="MapIcon Dungeon"/> <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105010000" target="_blank">Sleepywood - Silent Swamp</a></strong> and <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105020000" target="_blank">Sunless Area</a></strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/4130100" target="_blank">Copper Drakes</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/2600224" target="_blank">Drakes</a></li>
+      </ul>
+      <hr/>
+    </div>
+  );
+};
+
+function Level70(){
+  return(
+    <div>
+      <ArticleHeaderTwo id="70">Level 70</ArticleHeaderTwo>
+      <h3>Content Available:</h3>
+      <h4>Recommended</h4>
+      <hr/>
+      <img className="repository-image" src="/images/info/link-skill-ui.png" alt="MapIcon Link Skill UI"/>
+      <ul>
+        <li>
+          <strong>[Lv. 70] <a href="https://maplestorywiki.net/w/Link_Skill" target="_blank" rel="noreferrer noopener"> <span style={{color: '#ff0000'}}>[Important]</span> Link Skills</a></strong>:  Class-specific skill that can be shared with another of your characters to both gain the skill. Link Skills are located in your Beginner's Skill Tab by double-clicking on <img src="/class-icons/link-skills/link-manager.png" alt="Skill Link Manager"/> Link Manager
+          <ul><li>For more info on Link Skills check out: <a href="https://maplestorywiki.net/w/Link_Skill" target="_blank" rel="noreferrer noopener">https://maplestorywiki.net/w/Link_Skill</a></li></ul>
+        </li>
+        <li>
+          <img src="/images/map-icons/afterlands.png" alt="MapIcon Afterlands"/> <strong>[Lv. 70] <a href="https://maplestorywiki.net/w/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">[Theme Dungeon] The Afterlands</a>:</strong> Provides an easy way to obtain permanent totem equipment however, it can be easy to get stuck without a guide
+          <ul> 
+            <li><strong>Main Rewards:</strong> <img src="/images/equipment/beodog-figurine.png" alt="Eqp Beodog Figurine"/> <img src="/images/equipment/billy-figurine.png" alt="Eqp Billy Figurine"/> <img src="/images/equipment/adler-figurine.png" alt="Eqp Adler Figurine"/> <img src="/images/equipment/mansa-figurine.png" alt="Eqp Mansa Figurine"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Afterlands_Souvenir" target="_blank" rel="noreferrer noopener">[Afterlands Totems]</a> </li>
+            <li>Here is a guide: <a href="https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/" target="_blank" rel="noreferrer noopener">  https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/</a></li>
+          </ul>
+        </li>
+      </ul>
+      <h4>Optional</h4>
+      <h5>[Grinding is preferred at these levels as there isn't much to do]</h5>
+      <hr/>
+      <p><img className="repository-image" src="/images/info/party-quest-map.png" alt="Party Quests"/></p>
+      <ul>
+        <li>
+          <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> <strong>[Lv. 70] </strong> <a href="https://maplestorywiki.net/w/Party_Quest" target="_blank" rel="noreferrer noopener"><strong>Party Quests + Cross World Party Quests</strong></a>: Content to be completed with other players
+          <ul>
+            <li>Completing Cross World Party Quests rewards Points that is used in a special shop consisting of mainly cosmetics</li>
+            <li>Accessible through the Dimensional Mirror by clicking on <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> Party Quest Entry</li>
+            <li>Party quests available at Lv. 70 are: 
+              <ul>
+                <li><strong><a href="https://maplestorywiki.net/w/Moon_Bunny%27s_Rice_Cake" target="_blank" rel="noreferrer noopener">Moon Bunny's Rice Cake [Cross World]</a></strong></li>
+                <li><strong><a href="https://maplestorywiki.net/w/First_Time_Together" target="_blank" rel="noreferrer noopener">First Time Together [Cross World]</a></strong></li>
+                <li><strong><a href="https://maplestorywiki.net/w/Remnant_of_the_Goddess" target="_blank" rel="noreferrer noopener">Remnant of the Goddess [Cross World]</a></strong></li>
+                <li><strong><a href="https://maplestorywiki.net/w/Forest_of_Poison_Haze" target="_blank" rel="noreferrer noopener">Forest of Poison Haze [Cross World]</a></strong></li>
+                <li><strong><a href="https://maplestorywiki.net/w/Ariant_Coliseum" target="_blank" rel="noreferrer noopener">Ariant Coliseum [Cross World]</a></strong></li>
+                <li><strong><a href="https://maplestorywiki.net/w/Romeo_and_Juliet" target="_blank" rel="noreferrer noopener">Romeo and Juliet [Party Quest]</a></strong></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr/>
+      <p>Some notable training maps are:</p>
+      <ul>
+        <li><img src="/images/map-icons/el-nath.png" alt="MapIcon ElNath"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/211040200" target="_blank" rel="noreferrer noopener">El Nath - Ice Valley II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5140000" target="_blank" rel="noreferrer noopener">White Fang</a></li>
+        <li><img src="/images/map-icons/orbis.png" alt="MapIcon Orbis"/> <a href="https://maplestorywiki.net/w/Orbis" target="_blank" rel="noreferrer noopener"><strong>Orbis</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120000" target="_blank" rel="noreferrer noopener">Luster Pixie</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120001" target="_blank" rel="noreferrer noopener">Cellion</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120002" target="_blank" rel="noreferrer noopener">Lioner</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120003" target="_blank" rel="noreferrer noopener">Grupin</a></li>
+      </ul>
+      <hr/>
+    </div>
+  );
+};
+
+function Level80(){
+  return(
+    <div>
+      <ArticleHeaderTwo id="80">Level 80</ArticleHeaderTwo>
+      <h3>Content Available:</h3>
+      <h4>Optional</h4>
+      <h5>[Grinding is preferred at these levels as there isn't much to do]</h5>
+      <hr/>
+      <ul>
+        <li>
+          <img src="/images/map-icons/ariant.png" alt="MapIcon Ariant"/> <strong>[Lv. 80] <a href="https://maplestorywiki.net/w/Nett%27s_Pyramid_(Party_Quest)" target="_blank" rel="noreferrer noopener">[Party Quest] Nett's Pyramid</a></strong>: Requires 4 party members to enter. The objective is to defeat waves of enemies
+          <ul>
+            <li>Accessible through the Dimensional Mirror by clicking on <img alt="Icon Party Quest" src="/images/info/party-quest-icon.png"/> Party Quest Entry</li>
+            <li><strong>Main Rewards:</strong> <img src="/images/equipment/pharaoh-belt.png" alt="Eqp Pharaoh Belt"/> <a href="https://maplestory.wiki/GMS/212/item/1132013" target="_blank" rel="noreferrer noopener">[Immortal Pharaoh Belt]</a>, <img src="/images/equipment/the-immortal-pharaoh-shoes.png" alt="Eqp The Immortal Pharaoh Shoes"/> <a href="https://maplestory.wiki/GMS/205/item/1072619" target="_blank" rel="noreferrer noopener">[Immortal Pharaoh Shoes]</a>, <img src="/images/equipment/the-immortal-pharaoh-ring.png" alt="Eqp The Immortal Pharaoh Ring"/> <a href="https://maplestory.wiki/GMS/212/item/1112682" target="_blank" rel="noreferrer noopener">[Immortal Pharaoh Ring]</a></li>
+          </ul>
+        </li>
+      </ul>
+      <hr/>
+      <p>Some notable training maps are:</p>
+      <ul>
+        <li><img src="/images/map-icons/verne-mine.png" alt="MapIcon Verne Mine"/> <strong> <a href="https://maplestory.wiki/GMS/215/map/310050600" target="_blank" rel="noreferrer noopener">Verne Mine - Shaft 2</a> &amp; <a href="https://maplestory.wiki/GMS/215/map/310060300" target="_blank" rel="noreferrer noopener">Deep Shaft</a> </strong> : <a href="https://maplestory.wiki/GMS/215/mob/7150001" target="_blank" rel="noreferrer noopener">Big Spider</a> and <a href="https://maplestory.wiki/GMS/215/mob/8105005" target="_blank" rel="noreferrer noopener">Ore Muncher</a></li>
+        <li><img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/260020600" target="_blank" rel="noreferrer noopener">Nihal Desert - Sahel 2</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110300" target="_blank" rel="noreferrer noopener">Sand Rat</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110301" target="_blank" rel="noreferrer noopener">Scorpion</a></li>
+        <li><img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/260020610" target="_blank" rel="noreferrer noopener"><strong>Nihal Desert - The Desert of Serenity</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2110300" target="_blank" rel="noreferrer noopener">Sand Rat</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/3110301" target="_blank" rel="noreferrer noopener">Dark Sand Dwarf</a></li>
+      </ul>
+      <hr/>
+    </div>
+  );
+};
+
+function Level90(){
+  return(
+    <div>
+      <ArticleHeaderTwo id="90">Level 90</ArticleHeaderTwo>
+      <h3>Content Available:</h3>
+      <h4>Recommended</h4>
+      <hr/>
+      <ul>
+        <li>
+          <img src="/images/map-icons/dead-mine.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>[Boss] Normal &amp; Chaos Zakum</strong></a>: Both difficulties have much more HP however, Chaos Mode should not be attempted until Lv. 200+
+          <ul>
+            <li>
+                  <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/>
+                  <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a>, <img src="/images/equipment/condensed-power-crystal.png" alt="Eqp Condensed Power Crystal"/>
+                  <a href="https://maplestorywiki.net/w/Condensed_Power_Crystal">[</a><a href="https://maplestory.wiki/GMS/210.1.1/item/1012478" target="_blank" rel="noreferrer noopener">Condensed Power Crystal]</a>, <img src="/images/equipment/aquatic-letter-eye.png" alt="Eqp Aquatic Letter Eye Accessory"/>
+                  <a href="https://maplestory.wiki/GMS/210.1.1/item/1022231" target="_blank" rel="noreferrer noopener">[Aquatic Letter Eye]</a>, <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/>
+                  <a href="https://maplestorywiki.net/w/Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Lv. 110 Rebirth Flame]</a>
+              </li>
+              <li>
+                <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-zakum-helmet.png" alt="Eqp Chaos Zakum Helmet"/>
+                <a href="https://maplestorywiki.net/w/Chaos_Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Chaos Zakum Helmet]</a>, <img src="/images/equipment/enraged-zakum-helmet.png" alt="Eqp Enraged Zakum Helmet"/>
+                <a href="https://maplestorywiki.net/w/Enraged_Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Enraged Zakum Helmet]</a>, <img src="/images/equipment/enraged-zakum-cape.png" alt="Eqp Enraged Zakum Cape"/>
+                <a href="https://maplestorywiki.net/w/Enraged_Zakum_Cape" target="_blank" rel="noreferrer noopener">[Enraged Zakum Cape]</a>, <img src="/images/equipment/enraged-zakum-belt.png" alt="Eqp Enraged Zakum Belt"/>
+                <a href="https://maplestorywiki.net/w/Enraged_Zakum_Belt" target="_blank" rel="noreferrer noopener">[Enraged Zakum Belt]</a>, <img src="/images/items/zakum-hand-table.png"/>
+                <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Zakum Hand Table]</a>
+              </li>
+          </ul>
+        </li>
+        <li>
+          <img src="/images/map-icons/heliseum.png" alt="MapIcon Heliseum"/> <strong>[Lv. 90] </strong> <a href="https://maplestorywiki.net/w/Category:Heliseum" target="_blank" rel="noreferrer noopener"><strong>[Pre-Quest / Storyline] Heliseum</strong></a>: Completing this Storyline unlocks access to the Lv. 155+ boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestorywiki.net/w/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> that are used to buy gear from <a href="https://maplestorywiki.net/w/Mayala" target="_blank" rel="noreferrer noopener">Mayala</a>
+          <ul>
+            <li><strong>Notable shop items:</strong> <img src="/images/equipment/elite-heliseum-cape.png" alt="Eqp Elite Heliseum Cape"/> <img src="/images/equipment/nova-hyades-cloak.png" alt="Eqp Nova Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Cape]</a>, <img src="/images/equipment/elite-heliseum-boots.png" alt="Eqp Elite Heliseum Boots"/> <img src="/images/equipment/nova-hyades-boots.png" alt="Eqp Nova Boots"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Shoe]</a>, <img src="/images/equipment/elite-heliseum-belt.png" alt="Eqp Elite Heliseum Belt"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>, <img src="/images/equipment/antique-root-gloves.png" alt="Eqp Antique Root Gloves"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1082688" target="_blank" rel="noreferrer noopener">[Antique Root Gloves]</a>
+              <ul>
+                <li>Superior equipment grant more stats when Starforcing but are expensive to Starforce and have a higher chance to destroy on failure</li>
+              </ul>
+            </li>
+            <li> Guide to the pre-quest: <a href="https://www.youtube.com/watch?v=E8cjZb2b2CI" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=E8cjZb2b2CI</a>
+              <ul><li>Pre-quest for Nova characters is slightly different</li></ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon jipangu"/> <strong>[Lv. 90] <a href="https://maplestorywiki.net/w/Category:Mushroom_Shrine" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Mushroom Shrine Tales</a></strong>: Accessible from the Dimensional Mirror and the storyline can be started from the Lightbulb Quests
+          <ul>
+            <li>Upon completing the storyline, the <img src="/images/equipment/wings-of-fate.png" alt="Eqp Wings of Fate"/> <a href="https://maplestorywiki.net/w/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Wings of Fate]</a> cape is rewarded with goods stats but it is tedious to obtain as the storyline is long
+              <ul>
+                <li>The cape can be freely reobtained again if discarded thus useful for rerolling bonus stats</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h4>Optional</h4>
+      <hr/>
+      <ul>
+        <li><img src="/images/map-icons/ellin-forest.png" alt="MapIcon Ellin Forest"/> <strong>[Lv. 95] <a href="https://maplestorywiki.net/w/Category:Ellin_Forest" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Ellin Forest</a></strong>
+          <ul><li>Main Rewards: <img src="/images/equipment/ephenias-ring.png" alt="Eqp Ephenia's Ring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1112683" target="_blank" rel="noreferrer noopener">[Ephenia's Ring]</a>, <img src="/images/equipment/ellin-forest-guardian.png" alt="Eqp Ellin Forest Guardian"/> [Medal]</li></ul>
+        </li>
+        <li>
+          <img src="/images/map-icons/hyperspace-cube.png" alt="MapIcon Maple Detective"/> <strong>[Lv. 90] <a href="https://maplestorywiki.net/w/Stellar_Detectives" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Stellar Detectives</a></strong>
+          <ul><li><strong>Main Rewards:</strong> <img src="/images/equipment/i-really-like-tutu.png" alt="Eqp I really like Tutu"/> <img src="/images/equipment/i-really-like-nenne.png" alt="Eqp I really like Nenne"/> <img src="/images/equipment/i-really-like-lingling.png" alt="Eqp I really like Lingling"/> <img src="/images/equipment/i-really-like-jett.png" alt="Eqp I Really Like Jett"/> [Medal], <img src="/images/items/lingling-damage-skin.png" alt="Use Lingling Damage Skin"/> <img src="/images/items/tutu-damage-skin.png" alt="Use Tutu Damage Skin"/> <img src="/images/items/nenne-damage-skin.png" alt="Use Nenne Damage Skin"/> [Damage Skins]</li></ul>
+        </li>
+      </ul>
+      <hr/>
+      <p>Some notable training maps are:</p>
+      <ul>
+        <li><img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/261020300" target="_blank" rel="noreferrer noopener">Magatia - Lab Area C-1</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/map/261020400" target="_blank" rel="noreferrer noopener">Lab Area C-2</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5110301" target="_blank" rel="noreferrer noopener">Roid</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5110302" target="_blank" rel="noreferrer noopener">Neo Huroid</a></li>
+        <li><img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240010600" target="_blank" rel="noreferrer noopener">[Star Force 5] Leafre - Sky Nest II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140003" target="_blank" rel="noreferrer noopener">Blood Harp</a></li>
+      </ul>
+      <hr/>
+    </div>
+  );
+};
+
+function Level100(){
+  return(
+    <div>
+      <ArticleHeaderTwo id="100">Level 100</ArticleHeaderTwo>
+      <p>Congratulations on level 100 and welcome to 4th Job! You are now halfway to level 200 and 5th job</p>
+      <h3>Content Available:</h3>
+      <h4>Recommended</h4>
+      <hr/>
+      <ul>
+        <li><strong>[Training] Star Force Maps</strong>: Special maps that require you to have a certain amount of Star Force Enhancements on your equipment to deal damage to monsters. Monsters here have more HP but in return give more EXP
+          <ul>
+            <li><strong>[Note]</strong>: If this is your first time playing, training in these areas may be difficult as they are a lot stronger than normal monsters! If you are up for the challenge, try training here. Be sure to be appropriately geared up though</li>
+            <li>For more info on Star Force and Enhancing check out: <a href="https://maplestorywiki.net/w/Enhancing" target="_blank" rel="noreferrer noopener">https://maplestorywiki.net/w/Enhancing</a> and <a href="https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force</a></li> 
+          </ul>
+        </li>
+        <li><img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">[Recommended] Monster Park</a></strong>: Accessible through the Dimensional Mirror, this area consists of  dungeons that you can choose for your level. Each dungeon has multiple stages and completing the dungeons will grant a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> coins to  use in a special shop
+          <ul>
+            <li>If you are starting out, Monster Park is great for early levels as you gain a lot of EXP</li>
+            <li>Dungeons range from Lv. 105 to 210 and can be done 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points (not Maple Reward Points)</a>
+              <ul><li>There is an item you can get from Event Shops that provide extra runs without Maple Points</li></ul>
+            </li>
+            <li>In the special shop you can buy special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that can be shared within your account (given same World) that grant useful buffs for training</li>
+            <li>Completing Monster Park 77 times for each day of the week will reward you a special <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Medal]</a> that gives +10% Ignore Enemy Defence</li>
+          </ul>
+        </li>
+        <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> <strong>[Lv. 105] [Recommended] Maple Tour</strong>: Accessible through the Dimensional Mirror, Maple Tour is similar to Monster Park, completing runs here will reward you with Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] to buy special items at Maple Tour
+          <ul>
+            <li><strong><span style={{color: '#ff6600'}}>[Heroic World Important]</span></strong>: In Heroic Worlds, the amount of Mesos rewarded is increased and is considered a main activity because of this!</li>
+            <li>Provides some decent money to start out with and can be completed fairly quickly each day</li>
+            <li>Mesos can be retrieved 7 days later for the full amount or if you retrieve them earlier you will only get 50% the amount only</li>
+            <li>Can be done 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points (not Maple Reward Points)</a>
+              <ul>
+                <li>There is an item you can get from Event Shops that provide extra runs without Maple Points</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><img src="/images/map-icons/ursus.png" alt="Mobicon Ursus"/> <strong>[Lv. 100] <a href="https://maplestorywiki.net/w/Ursus" target="_blank" rel="noreferrer noopener">[Recommended] <span style={{color: '#ff9900'}}>[Boss]</span> Ursus</a></strong>: Accessible from the Dimensional Mirror, Ursus is a gigantic boss that is meant to be  fought in a large group of people. The main benefit of fighting Ursus is for Mesos and is mainly fought only in Heroic Worlds
+          <ul>
+            <li><strong><span style={{color: '#ff6600'}}>[Heroic World Important]</span>: </strong>In Heroic Worlds, the amount of Mesos rewarded is increased and is considered a main activity because of this!</li>
+            <li>You also get materials for defeating Ursus which can be used as currency in a special shop</li>
+            <li>For more info on Ursus, check this out: <a href="https://strategywiki.org/wiki/MapleStory/Ursus" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Ursus</a></li>
+          </ul>
+        </li>
+      </ul>
+      <h4>Optional</h4>
+      <hr/>
+      <ul>
+        <li>
+          <img src="/images/map-icons/mu-lung-dojo.png" alt="MapIcon Mu Lung Dojo"/> <strong>[Lv. 105] </strong> <a href="https://maplestorywiki.net/w/Mu_Lung_Dojo" target="_blank" rel="noreferrer noopener"> <strong><span style={{color: '#339966'}}>[Endgame/Midgame Content]</span> Mu Lung Dojo</strong></a>:  Accessible through the Dimensional Mirror, this area is meant to test a player's skills by continuously fighting bosses and traversing up the Dojo
+          <ul>
+            <li>You will be given a rank based on your time spent in the Dojo and the highest floor you managed to reach
+              <ul>
+                <li>Rewards will be given based on your rank such as: <img src="/images/equipment/heros-gloves.png" alt="Eqp Hero's Gloves"/> <a href="https://maplestorywiki.net/w/Hero%27s_Gloves" target="_blank" rel="noreferrer noopener">Hero's Gloves [Glove]</a>, <img src="/images/equipment/one-with-300-years-of-inner-power.png" alt="Setup One with 300 Years of Inner Power"/> [Title]</li>
+              </ul>
+            </li>
+            <li>Competing in the Dojo will give you points depending on the floors you clear which you can use in a special shop
+              <ul><li><strong>Notable items:</strong> <img src="/images/items/mu-gongs-honor-exp-guarantee.png" alt="Use Mu Gong's Honor EXP Guarantee"/> [Honor EXP], <img src="/images/items/unity-training-center-entrance-charm-coupon.png" alt="Etc Unity Training Center Entrance Charm"/> [Passive EXP Zone Entry Coupon]</li></ul> 
+            </li>
+          </ul>
+        </li>
+        <li><img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/> <strong>[Lv. 100] <a href="https://maplestorywiki.net/w/Category:Grand_Athenaeum" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Grand Anthenaeum</a></strong>: Accessible from the Dimensional Mirror, Grand  Anthenaeum is a story &amp; cutscene driven Theme Dungeon that explains Maple World's lore
+          <ul>
+            <li>Storyline can be quite long due to the number of cutscenes which is why not much people complete it</li>
+            <li><strong>Main Rewards:</strong> <img src="/images/equipment/scholarly-pendant.png" alt="Eqp Scholarly Pendant"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122263" target="_blank" rel="noreferrer noopener">[Scholarly Pendant]</a> for completing 3 stories</li>
+          </ul>
+        </li>
+        <li> <img src="/images/map-icons/friendstory.png" alt="MapIcon spinOff1"/> <strong>[Lv. 100] <a href="https://maplestorywiki.net/w/Category:Shinsoo_International_School" target="_blank" rel="noreferrer noopener">[Theme Dungeon] FriendStory</a></strong>: Accessible from the Dimensional Mirror and initially from  a quest in the Lightbulb icon. FriendStory is a storyline where you travel to another world where the characters of Maple World are students and teachers at a school
+          <ul>
+            <li><strong>Main Rewards: </strong> <img src="/images/items/regular-school-uniform-coupon-m.png" alt="Use Regular School Uniform Coupon (M)"/><img src="/images/items/regular-school-uniform-coupon-f.png" alt="Use Regular School Uniform Coupon (F)"/> <a href="https://maplestory.wiki/GMS/205/item/2432776" target="_blank" rel="noreferrer noopener">[Regular School Uniform Coupon]</a>, <img src="/images/equipment/shinsoo-school-badge.png" alt="Eqp Shinsoo School Badge"/> <a href="https://maplestory.wiki/GMS/205/item/1182079" target="_blank" rel="noreferrer noopener">[Shinsoo School Badge]</a>, <img src="/images/items/irenas-rock-chair.png" alt="Setup Irena's Rock Chair"/><img src="/images/items/francis-best-friend.png" alt="Setup Francis' Best Friend"/> [Chair]</li>
+            <li>Storyline can be quite long due to the number of cutscenes which is why not much people complete it and the rewards are mostly cosmetics</li>
+          </ul> 
+        </li>
+      </ul>
+      <hr/>
+      <p>Some notable training maps are:</p>
+      <ul>
+        <li><img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong> <a href="https://maplestory.wiki/GMS/210.1.1/map/240010000" target="_blank" rel="noreferrer noopener">Leafre - West Leafre Forest</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/2600003" target="_blank" rel="noreferrer noopener">Rash</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/2600004" target="_blank" rel="noreferrer noopener">Dark Rash</a></li>
+        <li><img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240010600" target="_blank" rel="noreferrer noopener">[Star Force 5] Leafre - Sky Nest II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140003" target="_blank" rel="noreferrer noopener">Blood Harp</a></li>
+        <li><img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/240020200" target="_blank" rel="noreferrer noopener">[Star Force 15] Leafre - The Area of Black Kentaurus</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/8140104" target="_blank" rel="noreferrer noopener">Black Kentaurus</a></li>
       </ul>
       <hr/>
     </div>
