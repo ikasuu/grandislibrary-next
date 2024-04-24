@@ -1167,58 +1167,49 @@ function Level100(){
       <h4>Recommended</h4>
       <hr/>
       <ul>
-        <li><strong>[Training] Star Force Maps</strong>: Special maps that require you to have a certain amount of Star Force Enhancements on your equipment to deal damage to monsters. Monsters here have more HP but in return give more EXP
+        <li><strong>[Training] Star Force Maps</strong>: Training maps with stronger enemies that give more EXP but require a certain amount of Star Force Enhancements on your gear to deal damage to enemies
           <ul>
-            <li><strong>[Note]</strong>: If this is your first time playing, training in these areas may be difficult as they are a lot stronger than normal monsters! If you are up for the challenge, try training here. Be sure to be appropriately geared up though</li>
-            <li>For more info on Star Force and Enhancing check out: <a href="https://maplestorywiki.net/w/Enhancing" target="_blank" rel="noreferrer noopener">https://maplestorywiki.net/w/Enhancing</a> and <a href="https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force</a></li> 
+            <li>For more info on Star Force check out: <a href="https://maplestorywiki.net/w/Enhancing" target="_blank" rel="noreferrer noopener">https://maplestorywiki.net/w/Enhancing</a> and <a href="https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force</a></li> 
           </ul>
         </li>
-        <li><img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">[Recommended] Monster Park</a></strong>: Accessible through the Dimensional Mirror, this area consists of  dungeons that you can choose for your level. Each dungeon has multiple stages and completing the dungeons will grant a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> coins to  use in a special shop
+        <li><img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">[Recommended] Monster Park</a></strong>: Accessible through the Dimensional Mirror. Monster Park has level-based dungeons with stages of enemies and upon completion rewards a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> coins to use in a special shop
           <ul>
-            <li>If you are starting out, Monster Park is great for early levels as you gain a lot of EXP</li>
-            <li>Dungeons range from Lv. 105 to 210 and can be done 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points (not Maple Reward Points)</a>
-              <ul><li>There is an item you can get from Event Shops that provide extra runs without Maple Points</li></ul>
+            <li>Can be completed 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points</a>
+              <ul><li>There is an item that grants extra runs in the Cash Shop available with Reward Points (Interactive Worlds) or Mesos (Heroic Worlds)</li></ul>
             </li>
-            <li>In the special shop you can buy special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that can be shared within your account (given same World) that grant useful buffs for training</li>
-            <li>Completing Monster Park 77 times for each day of the week will reward you a special <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Medal]</a> that gives +10% Ignore Enemy Defence</li>
+            <li>The special shop sells potion buffs <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that can be stored in storage that are useful training and bossing</li>
+            <li>Completing Monster Park 77 times for each day of the week will reward a <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Medal]</a> that provides +10% Ignore Enemy Defence</li>
           </ul>
         </li>
-        <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> <strong>[Lv. 105] [Recommended] Maple Tour</strong>: Accessible through the Dimensional Mirror, Maple Tour is similar to Monster Park, completing runs here will reward you with Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] to buy special items at Maple Tour
+        <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> <strong>[Lv. 105] [Recommended] Maple Tour</strong>: Accessible through the Dimensional Mirror, Maple Tour is similar to Monster Park, completing runs instead reward Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] to buy special items
           <ul>
-            <li><strong><span style={{color: '#ff6600'}}>[Heroic World Important]</span></strong>: In Heroic Worlds, the amount of Mesos rewarded is increased and is considered a main activity because of this!</li>
-            <li>Provides some decent money to start out with and can be completed fairly quickly each day</li>
-            <li>Mesos can be retrieved 7 days later for the full amount or if you retrieve them earlier you will only get 50% the amount only</li>
-            <li>Can be done 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points (not Maple Reward Points)</a>
+            <li>Mesos can be retrieved 7 days later for the full amount or retrieved earlier but grant only 50% the amount instead</li>
+            <li>Can be completed 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points</a>
               <ul>
                 <li>There is an item you can get from Event Shops that provide extra runs without Maple Points</li>
               </ul>
             </li>
           </ul>
         </li>
-        <li><img src="/images/map-icons/ursus.png" alt="Mobicon Ursus"/> <strong>[Lv. 100] <a href="https://maplestorywiki.net/w/Ursus" target="_blank" rel="noreferrer noopener">[Recommended] <span style={{color: '#ff9900'}}>[Boss]</span> Ursus</a></strong>: Accessible from the Dimensional Mirror, Ursus is a gigantic boss that is meant to be  fought in a large group of people. The main benefit of fighting Ursus is for Mesos and is mainly fought only in Heroic Worlds
+        <li><img src="/images/map-icons/ursus.png" alt="Mobicon Ursus"/> <strong>[Lv. 100] <a href="https://maplestorywiki.net/w/Ursus" target="_blank" rel="noreferrer noopener">[Recommended] <span style={{color: '#ff9900'}}>[Boss]</span> Ursus</a></strong>: Accessible from the Dimensional Mirror. Ursus is a party boss that rewards Mesos
           <ul>
-            <li><strong><span style={{color: '#ff6600'}}>[Heroic World Important]</span>: </strong>In Heroic Worlds, the amount of Mesos rewarded is increased and is considered a main activity because of this!</li>
-            <li>You also get materials for defeating Ursus which can be used as currency in a special shop</li>
+            <li>Materials can be gained for defeating Ursus that are used to buy items from a special shop</li>
             <li>For more info on Ursus, check this out: <a href="https://strategywiki.org/wiki/MapleStory/Ursus" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Ursus</a></li>
+          </ul>
+        </li>
+        <li>
+          <img src="/images/map-icons/mu-lung-dojo.png" alt="MapIcon Mu Lung Dojo"/> <strong>[Lv. 105] </strong> <a href="https://maplestorywiki.net/w/Mu_Lung_Dojo" target="_blank" rel="noreferrer noopener"> <strong>Mu Lung Dojo</strong></a>:  Accessible through the Dimensional Mirror. Players fight a series of bosses to compete with other players based on time and floor reached
+          <ul>
+            <li>Rewards will be given based on your weekly ranking such as: <img src="/images/equipment/heros-gloves.png" alt="Eqp Hero's Gloves"/> <a href="https://maplestorywiki.net/w/Hero%27s_Gloves" target="_blank" rel="noreferrer noopener">Hero's Gloves [Glove]</a>, <img src="/images/equipment/one-with-300-years-of-inner-power.png" alt="Setup One with 300 Years of Inner Power"/> [Title]</li>
+            <li>Based on the floors cleared, points are rewarded to be used in a special shop
+              <ul><li><strong>Notable items:</strong> <img src="/images/items/mu-gongs-honor-exp-guarantee.png" alt="Use Mu Gong's Honor EXP Guarantee"/> [Honor EXP], <img src="/images/items/unity-training-center-entrance-charm-coupon.png" alt="Etc Unity Training Center Entrance Charm"/> [Passive EXP Zone Entry Coupon]</li></ul> 
+            </li>
           </ul>
         </li>
       </ul>
       <h4>Optional</h4>
       <hr/>
       <ul>
-        <li>
-          <img src="/images/map-icons/mu-lung-dojo.png" alt="MapIcon Mu Lung Dojo"/> <strong>[Lv. 105] </strong> <a href="https://maplestorywiki.net/w/Mu_Lung_Dojo" target="_blank" rel="noreferrer noopener"> <strong><span style={{color: '#339966'}}>[Endgame/Midgame Content]</span> Mu Lung Dojo</strong></a>:  Accessible through the Dimensional Mirror, this area is meant to test a player's skills by continuously fighting bosses and traversing up the Dojo
-          <ul>
-            <li>You will be given a rank based on your time spent in the Dojo and the highest floor you managed to reach
-              <ul>
-                <li>Rewards will be given based on your rank such as: <img src="/images/equipment/heros-gloves.png" alt="Eqp Hero's Gloves"/> <a href="https://maplestorywiki.net/w/Hero%27s_Gloves" target="_blank" rel="noreferrer noopener">Hero's Gloves [Glove]</a>, <img src="/images/equipment/one-with-300-years-of-inner-power.png" alt="Setup One with 300 Years of Inner Power"/> [Title]</li>
-              </ul>
-            </li>
-            <li>Competing in the Dojo will give you points depending on the floors you clear which you can use in a special shop
-              <ul><li><strong>Notable items:</strong> <img src="/images/items/mu-gongs-honor-exp-guarantee.png" alt="Use Mu Gong's Honor EXP Guarantee"/> [Honor EXP], <img src="/images/items/unity-training-center-entrance-charm-coupon.png" alt="Etc Unity Training Center Entrance Charm"/> [Passive EXP Zone Entry Coupon]</li></ul> 
-            </li>
-          </ul>
-        </li>
         <li><img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/> <strong>[Lv. 100] <a href="https://maplestorywiki.net/w/Category:Grand_Athenaeum" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Grand Anthenaeum</a></strong>: Accessible from the Dimensional Mirror, Grand  Anthenaeum is a story &amp; cutscene driven Theme Dungeon that explains Maple World's lore
           <ul>
             <li>Storyline can be quite long due to the number of cutscenes which is why not much people complete it</li>
