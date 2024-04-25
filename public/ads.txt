@@ -1,4 +1,4 @@
-#  Updated: 2024-04-18 15:03:43
+#  Updated: 2024-04-24 16:18:51
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -411,7 +411,6 @@ xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
 xandr.com, 14082, RESELLER
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
 yahoo.com, 58723, RESELLER
-yahoo.com, 59244, RESELLER
 yahoo.com, 59260, RESELLER
 yieldmo.com, 2754490424016969782, RESELLER
 yieldmo.com, 2757543169808605705, RESELLER
