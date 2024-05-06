@@ -132,7 +132,7 @@ function BossMatchmaking() {
                 , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
             </li>
             <li>
-                <strong>Hard Mode only Rewards:</strong>
+                <strong>Hard Mode Only Rewards:</strong>
                 <img src="/images/equipment/tyrant-hyades-cloak.png" alt="Eqp Tyrant Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Tyrant_Hyades_Cloak" target="_blank" rel="noreferrer noopener">[Superior Tyrant Cape]</a>
                 , <img src="/images/equipment/nova-hyades-boots.png"/> <a href="https://maplestorywiki.net/w/Nova_Hyades_Boots" target="_blank" rel="noreferrer noopener">[Superior Nova Boots]</a>
                 , <img src="/images/equipment/cursed-kaiserium.png" alt="Eqp Cursed Kaiserium"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1402179" target="_blank" rel="noreferrer noopener">[Cursed Kaiserium]</a>
@@ -169,7 +169,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="omnicln"><img src="/images/map-icons/omega-sector.png" alt="MapIcon OmegaSector"/> OMNI-CLN</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="omnicln"><img src="/images/map-icons/omega-sector.png" alt="MapIcon Omega Sector"/> OMNI-CLN</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 180+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
@@ -201,7 +201,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/papulatus-clock-chair.png"/> <a href="https://maplestorywiki.net/w/Papulatus_Clock_Chair" target="_blank" rel="noreferrer noopener">[Papulatus Clock Chair]</a>
             </li>
             <li>
-                <strong>Hard Mode only Rewards:</strong> <img src="/images/equipment/papulatus-mark.png" alt="Eqp Papulatus Mark"/> <a href="https://maplestorywiki.net/w/Papulatus_Mark" target="_blank" rel="noreferrer noopener">[Papulatus Mark]</a>
+                <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/papulatus-mark.png" alt="Eqp Papulatus Mark"/> <a href="https://maplestorywiki.net/w/Papulatus_Mark" target="_blank" rel="noreferrer noopener">[Papulatus Mark]</a>
                 , <img src="/images/items/papulatus-wall-clock.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Papulatus Wall Clock]</a>
             </li>
           </ul>
@@ -228,7 +228,7 @@ function BossMatchmaking() {
                 <img src="/images/items/vellum-rock-chair.png" alt="Setup Vellum Rock Chair"/>[Chair]
             </li>
             <li>
-                <strong>Chaos Mode only Rewards:</strong> <img src="/images/equipment/queens-tiara.png" alt="Eqp Queen's Tiara"/>
+                <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/queens-tiara.png" alt="Eqp Queen's Tiara"/>
                 <img src="/images/equipment/pierre-hat.png" alt="Eqp Pierre Hat"/>
                 <img src="/images/equipment/von-bon-helmet.png" alt="Eqp Von Bon Helmet"/>
                 <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Chaos Hat], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/piece-of-anguish.png" alt="Use Piece of Anguish"/><img src="/images/items/piece-of-mockery.png" alt="Use Piece of Mockery"/><img src="/images/items/piece-of-time.png" alt="Use Piece of Time"/><img src="/images/items/piece-of-destruction.png" alt="Use Piece of Destruction"/> [Chaos Root Abyss Gear Fragment], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src=" /images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/> [Chaos Yggdrasil Coin]
@@ -296,7 +296,7 @@ function BossMatchmaking() {
                 ,<img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
             </li>
             <li>
-                <strong>Normal mode only Rewards:</strong> <img src=" /images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a href="https://maplestorywiki.net/w/Dominator_Pendant" target="_blank" rel="noreferrer noopener">[Dominator Pendant]</a>
+                <strong>Normal mode Only Rewards:</strong> <img src=" /images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a href="https://maplestorywiki.net/w/Dominator_Pendant" target="_blank" rel="noreferrer noopener">[Dominator Pendant]</a>
                 , <img src="/images/items/arkarium-statue.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Arkarium Statue]</a>
                 , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
             </li>
@@ -347,7 +347,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
             </li>
             <li>
-                <strong>Normal Mode only Rewards:</strong> <img src="/images/equipment/lionheart-battle-shoulder.png" alt="Eqp Lionheart Battle Shoulder"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Empress Shoulder]</a>
+                <strong>Normal Mode Only Rewards:</strong> <img src="/images/equipment/lionheart-battle-shoulder.png" alt="Eqp Lionheart Battle Shoulder"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Empress Shoulder]</a>
                 , <img src=" /images/equipment/deimos-warrior-shield.png" alt="Eqp Deimos Sage Shield"/><img src=" /images/equipment/deimos-shadow-shield.png" alt="Eqp Deimos Shadow Shield"/><img src=" /images/equipment/deimos-sage-shield.png" alt="Eqp Deimos Warrior Shield"/> [Shield Recipes]
                 , <img src="/images/items/plush-cygnus-shelf.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Plush Cygnus Shelf]</a>
             </li>
@@ -791,13 +791,13 @@ function BossMatchmaking() {
                   , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[(Heroic World Only) Eternal Rebirth Flame]</a>
               </li>
               <li>
-                  <strong>Hard Mode only Rewards:</strong> , <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Amaterasu_Set" target="_blank" rel="noreferrer noopener">[Japanese Armor]</a>
+                  <strong>Hard Mode Only Rewards:</strong> , <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Amaterasu_Set" target="_blank" rel="noreferrer noopener">[Japanese Armor]</a>
                   , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
                   , <img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._120" target="_blank" rel="noreferrer noopener">[Lv. 130 Rebirth Flame]</a>
               </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="princessno"><img src="/images/map-icons/princess-no-boss.png" alt="MapIcon JP Nohime"/> Princess No</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="princessno"><img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> Princess No</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 140+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>

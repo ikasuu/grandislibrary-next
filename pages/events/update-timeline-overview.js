@@ -1051,7 +1051,7 @@ function Chaos() {
                 <li><a href="https://maplestorywiki.net/w/Traits" target="_blank" rel="noreferrer noopener">Traits system introduced</a></li>
                 <li>New equipment slot, Pocket Item</li>
                 <li>
-                    New area, <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon destructionTown"/>
+                    New area, <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon Henesys Ruins"/>
                     <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener">Gate to the Future</a>
                 </li>
                 <li>
@@ -1763,7 +1763,7 @@ function KerningCitySuperstars() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New Theme Dungeon, <img src="/images/map-icons/kerning-tower.png" alt="MapIcon KerningTower"/> <a href="https://maplestorywiki.net/w/Category%3AKerning_Tower" target="_blank" rel="noreferrer noopener">Kerning Tower</a> (Kerning Square Revamp)
+                    New Theme Dungeon, <img src="/images/map-icons/kerning-tower.png" alt="MapIcon Kerning Tower"/> <a href="https://maplestorywiki.net/w/Category%3AKerning_Tower" target="_blank" rel="noreferrer noopener">Kerning Tower</a> (Kerning Square Revamp)
                 </li>
                 <li>
                     <strong><a href="http://maplestory.nexon.net/news/21036/updated-introducing-the-maple-value-points-mvp-service" target="_blank" rel="noreferrer noopener">MVP System</a> introduced</strong>
@@ -2431,7 +2431,7 @@ function Override() {
                     <strong><a href="https://maplestorywiki.net/w/Legion_System" target="_blank" rel="noreferrer noopener">Legion System</a> introduced</strong>
                 </li>
                 <li>
-                    Theme dungeon revamp, <img src="/images/map-icons/omega-sector.png" alt="MapIcon OmegaSector"/> <a href="https://maplestorywiki.net/w/Category:Omega_Sector" target="_blank" rel="noreferrer noopener">Omega Sector</a>
+                    Theme dungeon revamp, <img src="/images/map-icons/omega-sector.png" alt="MapIcon Omega Sector"/> <a href="https://maplestorywiki.net/w/Category:Omega_Sector" target="_blank" rel="noreferrer noopener">Omega Sector</a>
                 </li>
                 <li>Jett ‘revamp’</li>
                 <li>New event, <a href="https://www.youtube.com/watch?v=vbyU_HMEn2Q" target="_blank" rel="noreferrer noopener">Eluna</a></li>
