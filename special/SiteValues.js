@@ -498,28 +498,28 @@ export const commonFifth = {
         "name": "Power of Destiny",
         "shortDesc": "MP Cost: 100. Uses the selected Power of Destiny\\n[Power of Destiny: Might] - Duration: 45 sec, Damage: +19%, Cooldown: 90 sec\\n[Power of Destiny: Perceive] - Duration: 60 sec, Ignore Defense: +25%, Cooldown: 180 sec\\n[Power of Destiny: Boon] - Duration: 60 sec, Attack Power & Magic ATT & All Stats: +25, Cooldown: 90 sec\\n[Power of Destiny: Journey] - Duration: 300 sec, Normal Enemy Damage: +25%, Cooldown: 600 sec",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png"],
+        "icons": ["/class-icons/5th-job/power-of-destiny.png"],
         "type": "Buff",
-        "desc": "Uses the memorized skill chosen from <span data-tooltip='Ring of Samsara (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/ring-of-samsara.png' alt='Skill Ring of Samsara'/></span>",
+        "desc": "Uses the memorized skill chosen from <span data-tooltip='Ring of Samsara (5th Job)'><img src='/class-icons/5th-job/ring-of-samsara.png' alt='Skill Ring of Samsara'/></span>",
         "details": [
-            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-might.png' alt='Skill Power of Destiny Might'/> <strong>[1 - Might]</strong>: Increases %Damage",
-            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-perceive.png' alt='Skill Power of Destiny Perceive'/> <strong>[2 - Perceive]</strong>: Increases %Ignore DEF",
-            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-boon.png' alt='Skill Power of Destiny Boon'/> <strong>[3 - Boon]</strong>: Grants flat Attack, Magic Attack, and All Stats",
-            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-journey.png' alt='Skill Power of Destiny Journey'/> <strong>[4 - Journey]</strong>: Increases %Damage to regular monsters"
+            "<img src='/class-icons/5th-job/power-of-destiny-might.png' alt='Skill Power of Destiny Might'/> <strong>[1 - Might]</strong>: Increases %Damage",
+            "<img src='/class-icons/5th-job/power-of-destiny-perceive.png' alt='Skill Power of Destiny Perceive'/> <strong>[2 - Perceive]</strong>: Increases %Ignore DEF",
+            "<img src='/class-icons/5th-job/power-of-destiny-boon.png' alt='Skill Power of Destiny Boon'/> <strong>[3 - Boon]</strong>: Grants flat Attack, Magic Attack, and All Stats",
+            "<img src='/class-icons/5th-job/power-of-destiny-journey.png' alt='Skill Power of Destiny Journey'/> <strong>[4 - Journey]</strong>: Increases %Damage to regular monsters"
         ]
     },
     ringOfSamsara:{
         "name": "Ring of Samsara",
         "shortDesc": "MP Cost: 150. Use the number keys to select an effect that can be activated with Power of Destiny. This skill is canceled if you fail to select spell within 5s sec, or if you press any other keys",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/ring-of-samsara.png"],
+        "icons": ["/class-icons/5th-job/ring-of-samsara.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3RtZGE3bTN2cXVlaWQ5aDBqNm5iZXhtbXV4YTlmM3dxZnE3b2MxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/znevSsvwnIjsxw8ZW0/giphy.gif"],
         "type": "Active",
-        "desc": "When used, allows you to select between 4 possible buffs using the Number Keys to be cast when using <span data-tooltip='Power of Destiny (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>",
+        "desc": "When used, allows you to select between 4 possible buffs using the Number Keys to be cast when using <span data-tooltip='Power of Destiny (5th Job)'><img src='/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>",
         "details": [
             "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
             "The selected skill is reset at 12:00 AM UTC<ul><li>During that time, the buff cannot be changed until after reset</li></ul>",
-            "This skill is gained alongside and shares SP with <span data-tooltip='Power of Destiny (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>"
+            "This skill is gained alongside and shares SP with <span data-tooltip='Power of Destiny (5th Job)'><img src='/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>"
         ]
     },
     weaponAura:{
