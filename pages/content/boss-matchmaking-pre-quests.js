@@ -302,7 +302,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="pinkbean"><img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon PinkBean"/> Pink Bean</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="pinkbean"><img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> Pink Bean</ArticleHeaderTwo>
           <p><strong>[Normal Lv. 160+] [Chaos Lv. 170+]</strong></p>
           <ul>
             <li><strong>Can clear Normal</strong>: Daily</li>
@@ -330,7 +330,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="cygnus"><img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Signus"/> Cygnus</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="cygnus"><img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> Cygnus</ArticleHeaderTwo>
           <p><strong>[Easy Lv. 140+] [Normal Lv. 170+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>

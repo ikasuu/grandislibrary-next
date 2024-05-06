@@ -1634,7 +1634,7 @@ function HieizanTemple() {
                     New equipment, <img src="/images/equipment/princess-nos-accursed-arrow.png" alt="Eqp Princess No's Accursed Arrow"/><img src="/images/equipment/princess-nos-feather.png" alt="Eqp Princess No's Feather"/><img src="/images/equipment/princess-no-path.png" alt="Eqp Princess No Path"/> <a href="https://maplestorywiki.net/w/Captivating_Fragment" target="_blank" rel="noreferrer noopener">P. No Secondaries</a>
                 </li>
                 <li>
-                    New area, <img src="/images/map-icons/kritias.png" alt="MapIcon critias"/> <a href="https://maplestorywiki.net/w/Category:Kritias" target="_blank" rel="noreferrer noopener">Kritias</a>
+                    New area, <img src="/images/map-icons/kritias.png" alt="MapIcon Kritias"/> <a href="https://maplestorywiki.net/w/Category:Kritias" target="_blank" rel="noreferrer noopener">Kritias</a>
                 </li>
                 <li>
                     New equipment, <img src="/images/equipment/inverse-jewel-earring.png" alt="Eqp Inverse Jewel Earring"/> <a href="https://maplestory.wiki/GMS/214/item/1032217" target="_blank" rel="noreferrer noopener">Inverse Jewel Earring</a>, <img src="/images/equipment/inverse-metal-shoulder.png" alt="Eqp Inverse Metal Shoulder"/> <a href="https://maplestory.wiki/GMS/214/item/1152156" target="_blank" rel="noreferrer noopener">Inverse Metal Shoulder</a>, <img src="/images/equipment/inverse-codex.png" alt="Eqp Inverse Codex"/> <a href="https://maplestory.wiki/GMS/214/item/1162018" target="_blank" rel="noreferrer noopener">Inverse Codex</a>, <img src="/images/equipment/tyrant-hyades-gloves.png" alt="Eqp Tyrant Hyades Gloves"/> Tyrant Gloves, <img src="/images/items/empress-reset-ticket.png" alt="Use Empress Reset Ticket"/><img src="/images/items/hard-magnus-reset-ticket.png" alt="Use Hard Magnus Reset Ticket"/><img src="/images/items/chaos-vellum-reset-ticket.png" alt="Use Chaos Vellum Reset Ticket"/> Boss Reset Tickets
@@ -2269,7 +2269,7 @@ function Nova() {
             <ul>
                 <li>New class, <a href="https://maplestorywiki.net/w/Cadena" target="_blank" rel="noreferrer noopener">Cadena</a>, <a href="https://maplestorywiki.net/w/Illium" target="_blank" rel="noreferrer noopener">Illium</a></li>
                 <li>
-                    New area, <img src="/images/map-icons/savage-terminal.png" alt="MapIcon SavageTerminal"/> <a href="https://maplestorywiki.net/w/Category%3ASavage_Terminal" target="_blank" rel="noreferrer noopener">Savage Terminal</a>
+                    New area, <img src="/images/map-icons/savage-terminal.png" alt="MapIcon Savage Terminal"/> <a href="https://maplestorywiki.net/w/Category%3ASavage_Terminal" target="_blank" rel="noreferrer noopener">Savage Terminal</a>
                 </li>
                 <li>
                     New area, <img src="/images/map-icons/sanctuary.png" alt="MapIcon Sanctuary"/> <a href="https://maplestorywiki.net/w/Category:Sanctuary" target="_blank" rel="noreferrer noopener">Sanctuary</a>

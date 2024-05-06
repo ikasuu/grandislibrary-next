@@ -440,8 +440,8 @@ function ProgressionGuide() {
                 </li>
                 <li> <img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Princess_No"><strong>Hieizan Temple</strong></a>: Completing this storyline will unlock access to the boss <img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> Princess No
                 </li>
-                <li> <img src="/images/map-icons/temple-of-time.png" alt="MapIcon Temple of Time"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:Temple_of_Time" target="_blank" rel="noreferrer noopener"><strong>Temple of Time</strong></a>: Completing storyline will unlock access to <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon PinkBean"/> Pink Bean</li>
-                <li> <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon Henesys Ruins"/> <img src="/images/map-icons/stronghold.png" alt="MapIcon Stronghold"/> <strong>[Lv. 160]</strong>  <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Gate to the Future</strong></a>: Completing questline will unlock access to <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Signus"/> Normal Cygnus</li>
+                <li> <img src="/images/map-icons/temple-of-time.png" alt="MapIcon Temple of Time"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:Temple_of_Time" target="_blank" rel="noreferrer noopener"><strong>Temple of Time</strong></a>: Completing storyline will unlock access to <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> Pink Bean</li>
+                <li> <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon Henesys Ruins"/> <img src="/images/map-icons/stronghold.png" alt="MapIcon Stronghold"/> <strong>[Lv. 160]</strong>  <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Gate to the Future</strong></a>: Completing questline will unlock access to <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> Normal Cygnus</li>
                 <li>
                 <img src="/images/map-icons/masteria-through-time.png" alt="MapIcon Masteria Through Time" /> <strong>[Lv. 160]</strong><strong> <a href="https://maplestorywiki.net/w/Epic/Masteria_Through_Time" target="_blank" rel="noreferrer noopener">[Blockbuster] Masteria Through Time</a></strong>: Completing blockbuster will reward you with <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1142962" target="_blank" rel="noreferrer noopener">[Best-in-slot Medal]</a>, <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662090" target="_blank" rel="noreferrer noopener">[Subani-Roid]</a> OR <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662091" target="_blank" rel="noreferrer noopener">[Dr. Jang-Roid]</a> androids with NPC Vendor</li>
                 <li>
@@ -961,7 +961,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon PinkBean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Normal Pink Bean</strong></a>
+                <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Normal Pink Bean</strong></a>
                 <ul>
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                     <li>
@@ -976,7 +976,7 @@ function ProgressionGuide() {
             <ArticleHeaderTwo id="bosses">[ &gt; 5k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
-                <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Signus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Cygnus</strong></a>
+                <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Cygnus</strong></a>
                 <ul>
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                     <li>
@@ -1016,7 +1016,7 @@ function ProgressionGuide() {
             <ArticleHeaderTwo>[ &gt; 8k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
-                <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Signus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Cygnus</strong></a>
+                <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Cygnus</strong></a>
                 <ul>
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                     <li>
@@ -1066,7 +1066,7 @@ function ProgressionGuide() {
             <ArticleHeaderTwo>[ &gt; 12k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
-                <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon PinkBean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Chaos Pink Bean</strong></a>
+                <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Chaos Pink Bean</strong></a>
                 <ul>
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                     <li>
@@ -1684,7 +1684,7 @@ function ProgressionGuide() {
                     <li>In Interactive Worlds, you can also do trade voyages to buy and sell the Sweetwater accessories for Mesos</li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/kritias.png" alt="MapIcon critias"/> <strong>[Lv. 170+]</strong>  <strong>[Weekly] Kritias</strong>: Unlocked after completing the Kritias storyline
+                <li> <img src="/images/map-icons/kritias.png" alt="MapIcon Kritias"/> <strong>[Lv. 170+]</strong>  <strong>[Weekly] Kritias</strong>: Unlocked after completing the Kritias storyline
                 <br/>
                 <ul>
                     <li>Weekly Quests reward you with <img src="/images/items/anti-magic-stone.png" alt="Etc Anti-magic Stone"/> <a href="https://maplestorywiki.net/w/Anti-magic_Stone" target="_blank" rel="noreferrer noopener">[Anti-magic Stone]</a> and <img src="/images/items/anti-magic-stone-piece.png" alt="Use Anti-magic Stone Piece"/> <a href="https://maplestorywiki.net/w/Anti-magic_Stone_Piece" target="_blank" rel="noreferrer noopener">[Anti-magic Stone Piece]</a> which are used to create <img src="/images/items/kritias-commemorative-coin.png" alt="Etc Kritias Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Keilbarren" target="_blank" rel="noreferrer noopener">[Kritias Commemorative Coins]</a> to buy <img src="/images/equipment/tyrant-hyades-gloves.png" alt="Eqp Tyrant Hyades Gloves"/> [Tyrant Gloves] and <img src="/images/items/hard-magnus-reset-ticket.png" alt="Use Hard Magnus Reset Ticket"/> <img src="/images/items/chaos-vellum-reset-ticket.png" alt="Use Chaos Vellum Reset Ticket"/> [Weekly Boss Reset Tickets]
@@ -1872,7 +1872,7 @@ function ProgressionGuide() {
                     <li><strong>Main Rewards:</strong> <img src="/images/equipment/white-m-forcer.png" alt="Eqp White M-Forcer"/> [Medal]</li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/savage-terminal.png" alt="MapIcon SavageTerminal"/> <strong>[Lv. 175] </strong><strong>Detective Rave's Case Notes: </strong>Accessible initially from accepting a quest in your Lightbulb icon or from <a href="https://maplestory.wiki/GMS/210.1.1/map/400000000" target="_blank" rel="noreferrer noopener">Pantheon</a>
+                <li> <img src="/images/map-icons/savage-terminal.png" alt="MapIcon Savage Terminal"/> <strong>[Lv. 175] </strong><strong>Detective Rave's Case Notes: </strong>Accessible initially from accepting a quest in your Lightbulb icon or from <a href="https://maplestory.wiki/GMS/210.1.1/map/400000000" target="_blank" rel="noreferrer noopener">Pantheon</a>
                 <ul>
                     <li><strong>Main Rewards</strong>: <img src="/images/equipment/detective-raves-honorary-assistant.png" alt="Eqp Detective Rave's Honorary Assistant"/> [Medal]</li>
                 </ul>
@@ -2006,7 +2006,7 @@ function ProgressionGuide() {
                     <li><strong>Quest Rewards:</strong> <img src="/images/equipment/rise-from-ruins.png" alt="Eqp Rise from Ruins"/> [Medal]</li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/kritias.png" alt="MapIcon critias"/> <strong><a href="https://maplestorywiki.net/w/Quests/81" target="_blank" rel="noreferrer noopener">Kritias</a></strong>
+                <li> <img src="/images/map-icons/kritias.png" alt="MapIcon Kritias"/> <strong><a href="https://maplestorywiki.net/w/Quests/81" target="_blank" rel="noreferrer noopener">Kritias</a></strong>
                 <ul>
                     <li><strong>Recommended Level: </strong>170 - 185</li>
                 </ul>
