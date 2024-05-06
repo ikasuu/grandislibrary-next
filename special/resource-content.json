@@ -26,11 +26,11 @@
         {
             "question": "How should I put my SP? Are there are Skill Builds?",
             "answer": [
-                "As of November 20, 2019, all classes are able to max all their skills except for Beast Tamer which has only enough SP to max out two Animal Skill Trees",
+                "As of November 20, 2019, all classes are able to max all their skills",
                 "Characters created prior to this date will need to buy a SP Reset Scroll with mesos from Matilda in Interactive Worlds or Cash Shop in Heroic Worlds. You can also find them in Event Shops if there is one currently around",
                 "On guidance for how to allocate your SP, max out Passives first, then Buffs, then Attacks. Prioritize passives that either require few SP to max or provide damage increases"
             ],
-            "tags": "sp skill build beast tamer class"
+            "tags": "sp skill build class"
         },
         {
             "question": "When is __ class coming out?",
@@ -141,7 +141,14 @@
             "answer": [
                 "In Feb 2024, Jett was removed as a playable character. All remaining Jetts were converted to Beginner (Explorers)"
             ],
-            "tags": "jett class missing removed explorer gone"
+            "tags": "jett class missing removed explorer gone delete"
+        },
+        {
+            "question": "What happened to the class Beast Tamer?",
+            "answer": [
+                "In Apr 2024, Beast Tamer was replaced with the new class Lynn. All Beast Tamers were converted to Lynn"
+            ],
+            "tags": "beast tamer class missing removed gone lynn delete"
         }
     ],
     "template": {

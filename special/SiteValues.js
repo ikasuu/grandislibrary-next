@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 249; 
-export const versionName = "Minar Picnic"
+export const version = 250; 
+export const versionName = "Mayple Island"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
@@ -35,7 +35,7 @@ export const classes = {
     nova: [["angelic-buster", "Angelic Buster"], ["kaiser", "Kaiser"], ["cadena", "Cadena"], ["kain", "Kain"]],
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
-    other: [["kinesis", "Kinesis"], ["zero", "Zero"], ["beast-tamer", "Beast Tamer"]],
+    other: [["kinesis", "Kinesis"], ["zero", "Zero"], ["lynn", "Lynn"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]]
 }
 
@@ -66,7 +66,7 @@ export const weapons = {
     desperado: [`https://maplestory.io/api/GMS/${version}/item/1232007/icon`, "Desperado"],
     katana: [`https://maplestory.io/api/GMS/${version}/item/1542040/icon`, "Katana"],
     fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552015/icon`, "Fan"],
-    scepter: [`https://maplestory.io/api/GMS/${version}/item/1252006/icon`, "Scepter"],
+    memorialStaff: [`https://maplestory.io/api/GMS/${version}/item/1252000/icon`, "Memorial Staff"],
     psyLimiter: [`https://maplestory.io/api/GMS/${version}/item/1262011/icon`, "Psy-limiter"],
     armCannon: [`https://maplestory.io/api/GMS/${version}/item/1582025/icon`, "Arm Cannon"],
     longSword: [`https://maplestory.io/api/GMS/${version}/item/1572007/icon`, "Alpha - Long Sword"],
@@ -76,7 +76,7 @@ export const weapons = {
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
     bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
     whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"],
-    chakram: [`https://maplestory.io/api/KMS/373/item/1404007/icon`, "Chakram"]
+    chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -120,7 +120,7 @@ export const secondaryWeapons = {
     soulRing: [`https://maplestory.io/api/GMS/${version}/item/1352604/icon`, "Soul Ring"],
     fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552009/icon`, "Haku Fan"],
     kodachi: [`https://maplestory.io/api/GMS/${version}/item/1352803/icon`, "Kodachi"],
-    whistle: [`https://maplestory.io/api/GMS/${version}/item/1352813/icon`, "Whistle"],
+    leaf: [`https://maplestory.io/api/GMS/${version}/item/1352812/icon`, "Leaf"],
     chessPiece: [`https://maplestory.io/api/GMS/${version}/item/1353203/icon`, "Chess Piece"],
     lucentWings: [`https://maplestory.io/api/GMS/${version}/item/1353502/icon`, "Lucent Wings"],
     abyssalPath: [`https://maplestory.io/api/GMS/${version}/item/1353603/icon`, "Abyssal Path"],
@@ -129,7 +129,7 @@ export const secondaryWeapons = {
     bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"],
     weaponBelt: [`https://maplestory.io/api/GMS/${version}/item/1354013/icon`, "Weapon Belt"],
     ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"],
-    hexSeeker: [`https://maplestory.io/api/KMS/373/item/1354032/icon`, "Hex Seeker"]
+    hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
@@ -187,7 +187,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/mind-delve.png"],
         "animations": ["https://media.giphy.com/media/pBcdQ9kl2OkOXJY95t/giphy.gif"],
         "type": "Active",
-        "desc": "When used, allows you select 3rd - 4th job skills using the Number Keys to be cast when using <span data-tooltip='Unreliable Memory (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>",
+        "desc": "When used, allows you to select 3rd - 4th job skills using the Number Keys to be cast when using <span data-tooltip='Unreliable Memory (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>",
         "details": [
             "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
             "Only skills with SP allocated can be chosen",
@@ -492,6 +492,34 @@ export const commonFifth = {
             "When used, applicable skill cooldowns are reset",
             "Additionally while active, <img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> and <img src='/class-icons/other/zero/immune-barrier.png' alt='Skill Immune Barrier'/> last for their maximum duration",
             "Prayer is prepared every 240 sec (up to 2 prayers)"
+        ]
+    },
+    powerOfDestiny:{
+        "name": "Power of Destiny",
+        "shortDesc": "MP Cost: 100. Uses the selected Power of Destiny\\n[Power of Destiny: Might] - Duration: 45 sec, Damage: +19%, Cooldown: 90 sec\\n[Power of Destiny: Perceive] - Duration: 60 sec, Ignore Defense: +25%, Cooldown: 180 sec\\n[Power of Destiny: Boon] - Duration: 60 sec, Attack Power & Magic ATT & All Stats: +25, Cooldown: 90 sec\\n[Power of Destiny: Journey] - Duration: 300 sec, Normal Enemy Damage: +25%, Cooldown: 600 sec",
+        "id": 400001013,
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png"],
+        "type": "Buff",
+        "desc": "Uses the memorized skill chosen from <span data-tooltip='Ring of Samsara (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/ring-of-samsara.png' alt='Skill Ring of Samsara'/></span>",
+        "details": [
+            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-might.png' alt='Skill Power of Destiny Might'/> <strong>[1 - Might]</strong>: Increases %Damage",
+            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-perceive.png' alt='Skill Power of Destiny Perceive'/> <strong>[2 - Perceive]</strong>: Increases %Ignore DEF",
+            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-boon.png' alt='Skill Power of Destiny Boon'/> <strong>[3 - Boon]</strong>: Grants flat Attack, Magic Attack, and All Stats",
+            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-journey.png' alt='Skill Power of Destiny Journey'/> <strong>[4 - Journey]</strong>: Increases %Damage to regular monsters"
+        ]
+    },
+    ringOfSamsara:{
+        "name": "Ring of Samsara",
+        "shortDesc": "MP Cost: 150. Use the number keys to select an effect that can be activated with Power of Destiny. This skill is canceled if you fail to select spell within 5s sec, or if you press any other keys",
+        "id": 400001013,
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/ring-of-samsara.png"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3RtZGE3bTN2cXVlaWQ5aDBqNm5iZXhtbXV4YTlmM3dxZnE3b2MxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/znevSsvwnIjsxw8ZW0/giphy.gif"],
+        "type": "Active",
+        "desc": "When used, allows you to select between 4 possible buffs using the Number Keys to be cast when using <span data-tooltip='Power of Destiny (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>",
+        "details": [
+            "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
+            "The selected skill is reset at 12:00 AM UTC<ul><li>During that time, the buff cannot be changed until after reset</li></ul>",
+            "This skill is gained alongside and shares SP with <span data-tooltip='Power of Destiny (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>"
         ]
     },
     weaponAura:{
@@ -872,7 +900,7 @@ export const linkSkills = {
     },
     beastTamer: {
         "id": 80010006,
-        "icons": ["/class-icons/link-skills/focus-spirit.png"],
+        "icons": ["/class-icons/link-skills/spirit-guide-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [

@@ -145,7 +145,7 @@ export function TopClassSwipe({classes}){
 function ClassSwipe({classTitle, classGroup}) {
     let name = classGroup
     
-    // Removes words like (Xenon) or (Beast Tamer) for Resistance and Other type classes when displaying <h5>
+    // Removes words like (Xenon) or (Lynn) for Resistance and Other type classes when displaying <h5>
     if(classGroup.includes("Resistance")){
         name = "Resistance";
     }else if(classGroup.includes("Other")){

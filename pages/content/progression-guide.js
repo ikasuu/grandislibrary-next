@@ -141,19 +141,17 @@ function ProgressionGuide() {
             <p>Most classes have Job Advancements at Lv. 10, 30, 60, 100, and 200 where new skills are gained. These are known as your 1st, 2nd, 3rd, 4th, and 5th Job Advancements</p>
             <p>To start your Job Advancement, open your Maple Guide, "U" by default, and click on the button that labelled as "Job Advancement Quest"</p>
             <p><strong>[Note]</strong>: Dual Blades have two additional Job Advancements at Lv. 20 and Lv. 45. They are an add-on to your 1st Job and 2nd Job Advancements</p>
-            <p><strong>[Note]</strong>: Beast Tamers do not have Job Advancements and instead unlock new skills by levelling up and allocating enough SP into an animal tree. A common build path is Bear/Hawk/Cat. For mobbing or Legion, you can use Bear/Leopard/Cat instead</p>
             <p><strong>[Note]</strong>: Zero does not have Job Advancements and instead unlock new skills by levelling up</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="apsp">SP and AP Distribution:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/skill-ui.png" alt="Skill UI"/>
             <img className="repository-image" src="/images/info/stat-ui.png" alt="SP UI"/>
-            <p>All newly created characters (except Beast Tamer) can max all of their 1st - 4th Job skills</p>
+            <p>All newly created characters can max all of their 1st - 4th Job skills</p>
             <p>A tip for allocating SP is to first put 1 point in everything and then start maxing skills by prioritizing skills that require the least SP to reach Master Level, then passives with useful stats like %Final Damage, %Damage, %Max HP, or %Damage Reduction, then buffs, and lastly attacks</p>
             <p>For AP, you gain 5 AP every level up and most classes gain 5 AP each Job Advancement from 1st to 4th. It is highly recommended to use Auto Assign for all your AP</p>
             <p><strong>[Note]</strong>: For Xenon, distribute your AP evenly between all 3 stats using Auto Assign. The game will let you know when you've reached the requirement for the Multilateral skills. Past Lv. 200, you continue to evenly distribute your AP</p>
             <p><strong>[Note]</strong>: For Explorer Pirates, you will have the choice between Auto Assigning to STR or DEX. Choose STR only if you are creating a Buccaneer and DEX only if you are creating a Corsair</p>
-            <p><strong>[Note]</strong>: For Beast Tamer, you will continue to gain SP up until Lv. 250</p>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="inner">Inner Ability:</ArticleHeaderTwo>
             <hr/>

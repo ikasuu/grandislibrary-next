@@ -57,7 +57,7 @@ function WhoToTeraBurn() {
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/other/beast-tamer/friend-launcher.png" alt="Class Beast Tamer"/> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
+                    <img src="/class-icons/other/lynn/source-flow.png" alt="Class Lynn"/> Lynn - +10% Crit Chance, +10% Boss Damage, +5%
                     Max HP/MP
                     <ul>
                         <li>Good if you require more %Crit Rate and %Boss Damage</li>
@@ -121,7 +121,7 @@ function WhoToTeraBurn() {
             <h3>Top 5 Tera Burns for Link Skills:</h3>
             <ul>
                 <li>
-                    <img src="/class-icons/link-skills/focus-spirit.png" alt="Skill Focus Spirit"/> Beast Tamer - +10% Crit Chance, +10% Boss Damage, +5%
+                    <img src="/class-icons/link-skills/spirit-guide-blessing.png" alt="Skill Spirit Guide Blessing"/> Lynn - +10% Crit Chance, +10% Boss Damage, +5%
                     Max HP/MP
                 </li>
                 <li><img src="/class-icons/link-skills/rune-persistence.png" alt="Skill Rune Persistence"/> Evan - Increased Rune EXP Duration by 70%</li>
