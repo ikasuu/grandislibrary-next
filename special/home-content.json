@@ -132,9 +132,9 @@
     ],
     "popularClasses": [
         {
-            "alt": "Adele",
-            "class": "adele",
-            "path": "flora/adele"
+            "alt": "Kain",
+            "class": "kain",
+            "path": "nova/kain"
         },
         {
             "alt": "Demon Slayer",
@@ -142,9 +142,14 @@
             "path": "resistance/demon-slayer"
         },
         {
-            "alt": "Kain",
-            "class": "kain",
-            "path": "nova/kain"
+            "alt": "Battle Mage",
+            "class": "battle-mage",
+            "path": "resistance/battle-mage"
+        },
+        {
+            "alt": "Adele",
+            "class": "adele",
+            "path": "flora/adele"
         },
         {
             "alt": "Demon Avenger",
@@ -152,9 +157,19 @@
             "path": "resistance/demon-avenger"
         },
         {
-            "alt": "Battle Mage",
-            "class": "battle-mage",
-            "path": "resistance/battle-mage"
+            "alt": "Shade",
+            "class": "shade",
+            "path": "heroes/shade"
+        },
+        {
+            "alt": "Aran",
+            "class": "aran",
+            "path": "heroes/aran"
+        },
+        {
+            "alt": "Kanna",
+            "class": "kanna",
+            "path": "sengoku/kanna"
         },
         {
             "alt": "Luminous",
@@ -162,24 +177,9 @@
             "path": "heroes/luminous"
         },
         {
-            "alt": "Shade",
-            "class": "shade",
-            "path": "heroes/shade"
-        },
-        {
-            "alt": "Xenon",
-            "class": "xenon",
-            "path": "resistance/xenon"
-        },
-        {
-            "alt": "Zero",
-            "class": "zero",
-            "path": "other/zero"
-        },
-        {
-            "alt": "Hayato",
-            "class": "hayato",
-            "path": "sengoku/hayato"
+            "alt": "Mercedes",
+            "class": "mercedes",
+            "path": "heroes/mercedes"
         }
     ]
 }
