@@ -1,6 +1,11 @@
 {
     "featured": [
         {
+            "image": "/home-thumbnail/lynn-overview.jpg",
+            "alt": "Lynn Class Overview",
+            "link": "https://grandislibrary.com/other/lynn"
+        },
+        {
             "image": "/home-thumbnail/khali-overview.jpg",
             "alt": "Khali Class Overview",
             "link": "https://grandislibrary.com/flora/khali"
@@ -17,6 +22,12 @@
         }
     ],
     "recent": [
+        {
+            "title": "V.250 Mayple Island Patch Notes",
+            "image": "/home-thumbnail/mayple-island.jpg",
+            "link": "https://maplestory.nexon.net/news/91576/v-250-mayple-island-patch-notes",
+            "subtitle": "May 1, 2023"
+        },
         {
             "title": "V.249 Minar Picnic Patch Notes",
             "image": "/home-thumbnail/minar-picnic.jpg",
@@ -46,15 +57,15 @@
             "image": "/home-thumbnail/midnight-carnival.jpg",
             "link": "https://maplestory.nexon.net/news/86272/updated-11-8-v-245-midnight-carnival-nautilus-patch-notess",
             "subtitle": "October 12, 2023"
-        },
-        {
-            "title": "V.244 Punch King Palooza",
-            "image": "/home-thumbnail/punch-king-palooza.jpg",
-            "link": "https://maplestory.nexon.net/news/85511/v-244-punch-king-palooza-patch-notes",
-            "subtitle": "August 29, 2023"
         }
     ],
     "upcoming": [
+        {
+            "title": "MapleStory 21st Anniversary: Victoria Cup!",
+            "image": "/home-thumbnail/21-anniversary.jpg",
+            "link": "https://orangemushroom.net/2024/04/18/kms-ver-1-2-390-maplestory-21st-anniversary-victoria-cup/",
+            "subtitle": "April 18, 2023"
+        },
         {
             "title": "Union Relay & Universe Star Pink Bean!",
             "image": "/home-thumbnail/union-relay.jpg",
@@ -72,20 +83,14 @@
             "image": "/home-thumbnail/ab-revamp.jpg",
             "link": "https://orangemushroom.net/2023/11/23/kms-ver-1-2-384-angelic-busters-comeback/",
             "subtitle": "November 23, 2023"
-        },
-        {
-            "title": "20th Anniversary: Mapril Island",
-            "image": "/home-thumbnail/mapril.jpg",
-            "link": "https://orangemushroom.net/2023/04/21/kms-1-2-376-maplestorys-20th-anniversary-mapril-island/",
-            "subtitle": "April 21, 2023"
         }
     ],
     "popularContent": [
         {
-            "title": "Khali Class Overview",
-            "image": "/home-thumbnail/erimos.jpg",
-            "link": "/flora/khali",
-            "subtitle": "Classes, Flora"
+            "title": "Lynn Class Overview",
+            "image": "/home-thumbnail/samsara.jpg",
+            "link": "/other/lynn",
+            "subtitle": "Classes, Other"
         },
         {
             "title": "Progression Guide",

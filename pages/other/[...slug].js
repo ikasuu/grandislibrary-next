@@ -31,7 +31,7 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
-              {BTFlag && <Alert variant="dark">As of April 2024, Beast Tamer has been replaced with the new class Lynn. For more info, please read Nexon's offical <a href="https://maplestory.nexon.net/news/88931/maple-memo-gms-roadmap-q1-2024" target="_blank" rel="noreferrer noopener">Maple Memo</a></Alert>}
+              {BTFlag && <Alert variant="dark">As of May 2024, Beast Tamer has been replaced with the new class Lynn. For more info, please read Nexon's offical <a href="https://maplestory.nexon.net/news/88931/maple-memo-gms-roadmap-q1-2024" target="_blank" rel="noreferrer noopener">Maple Memo</a></Alert>}
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
