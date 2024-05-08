@@ -420,7 +420,7 @@ function ProgressionGuide() {
                 </li>
                 <li> <img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon LionCastle"/> <strong>[Lv. 115] <a href="https://maplestorywiki.net/w/Category%3ALion_King's_Castle" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Lion King's Castle</a></strong>: Completing this Theme Dungeon grants access to the boss <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a>
                 </li>
-                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/> <strong>[Lv. 125] </strong><a href="https://maplestorywiki.net/w/Category:Root_Abyss" target="_blank" rel="noreferrer noopener"><strong>Root Abyss</strong></a>: Completing the storyline unlocks <img src="/images/items/gnarled-wooden-key.png" alt="Etc Gnarled Wooden Key"/> <a href="https://maplestorywiki.net/w/Gnarled_Wooden_Key" target="_blank" rel="noreferrer noopener">Daily Keys</a> for <img src="/images/map-icons/crimson-queen.png" alt="MapIcon BloodyQueen"/> Crimson Queen, <img src="/images/map-icons/pierre.png" alt="MapIcon Piere"/> Pierre, <img src="/images/map-icons/von-bon.png" alt="MapIcon BanBan"/> Von Bon, and <img src="/images/map-icons/vellum.png" alt="MapIcon Bellum"/> Vellum
+                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong>[Lv. 125] </strong><a href="https://maplestorywiki.net/w/Category:Root_Abyss" target="_blank" rel="noreferrer noopener"><strong>Root Abyss</strong></a>: Completing the storyline unlocks <img src="/images/items/gnarled-wooden-key.png" alt="Etc Gnarled Wooden Key"/> <a href="https://maplestorywiki.net/w/Gnarled_Wooden_Key" target="_blank" rel="noreferrer noopener">Daily Keys</a> for <img src="/images/map-icons/crimson-queen.png" alt="MapIcon BloodyQueen"/> Crimson Queen, <img src="/images/map-icons/pierre.png" alt="MapIcon Piere"/> Pierre, <img src="/images/map-icons/von-bon.png" alt="MapIcon BanBan"/> Von Bon, and <img src="/images/map-icons/vellum.png" alt="MapIcon Bellum"/> Vellum
                 <ul>
                     <li>Remember to defeat each Normal Mode 10 times to unlock their Chaos Mode</li>
                     <li><img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> <img src="/images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/> Coins dropped from the bosses can be used to buy useful <img src="/images/equipment/antique-leaf-shoulder.png" alt="Eqp Antique Leaf Shoulder"/> <img src="/images/equipment/antique-root-shoulder.png" alt="Eqp Antique Root Shoulder"/> equipment for Transfer Hammer</li>
@@ -899,7 +899,7 @@ function ProgressionGuide() {
                     <li>Gollux Pennies <img src="/images/items/gollux-penny.png" alt="Etc Gollux Penny"/> can be used to buy items from <a href="https://maplestorywiki.net/w/Randolf" target="_blank" rel="noreferrer noopener">Randolf</a> and <a href="https://maplestorywiki.net/w/Mountain_Mumur" target="_blank" rel="noreferrer noopener">Mountain Murmur</a></li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/> <strong><a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Normal Root Abyss</a></strong>:
+                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong><a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Normal Root Abyss</a></strong>:
                 <ul>
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
                     </li>
@@ -1106,7 +1106,7 @@ function ProgressionGuide() {
             <hr/>
             <p>Recommended to have at least &gt;%90 IED and &gt;200% Boss Damage for bosses beyond this point</p>
             <ul>
-                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/> <strong><a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Chaos Root Abyss</a></strong>:
+                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong><a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Chaos Root Abyss</a></strong>:
                 <ul>
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
                     </li>
@@ -2018,7 +2018,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/twilight-perion.png" alt="MapIcon destructionPerion"/> <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Twilight Perion</strong></a>
+                <li> <img src="/images/map-icons/twilight-perion.png" alt="MapIcon Twilight Perion"/> <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Twilight Perion</strong></a>
                 <ul>
                     <li><strong>Recommended Level: </strong>180 - 190</li>
                     <li><strong>Quest Rewards:</strong> <img src="/images/equipment/twilight-warrior.png" alt="Eqp Twilight Warrior"/> [Medal]</li>

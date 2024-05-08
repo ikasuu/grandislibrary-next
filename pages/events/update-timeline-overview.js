@@ -1969,7 +1969,7 @@ function MarkOfHonor() {
                     New area, <img src="/images/map-icons/momijigaoka.png" alt="MapIcon Momijigaoka"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/807000000">Momijigaoka</a>
                 </li>
                 <li>
-                    New area, <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/> <a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Root Abyss</a>
+                    New area, <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Root Abyss</a>
                 </li>
                 <li>
                     New equipment, <img src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/>
@@ -3207,11 +3207,11 @@ function Unleashed() {
                 <li>New equipment, Terminus, Sovereign, Fairy, Snowstorm</li>
                 <li><a href="https://maplestorywiki.net/w/Monster_Life" target="_blank" rel="noreferrer noopener">Monster Life</a> System introduced</li>
                 <li>
-                    New area, <img src="/images/map-icons/twilight-perion.png" alt="MapIcon destructionPerion"/>
+                    New area, <img src="/images/map-icons/twilight-perion.png" alt="MapIcon Twilight Perion"/>
                     <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener">Twilight Perion</a>
                 </li>
                 <li>
-                    New training ground, <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/>
+                    New training ground, <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/>
                     <a href="https://maplestory.wiki/GMS/214/map/105200900" target="_blank" rel="noreferrer noopener">Neglected Garden</a> within Root Abyss
                 </li>
                 <li>
