@@ -31,7 +31,7 @@ function BurningWorld() {
             <p>At the end of Burning World, during the transferring period, you will be automatically moved to the transferring map and cannot leave</p>
             <p>Any characters that are not moved during the transferring period will be deleted along with their items and Cash Items. To keep Cash Items, make sure to move them onto your characters before transferring them out of Burning World</p>
             <p>Characters must be at least Lv. 150 to transfer out of Burning World</p>
-            <p>Zero characters, when available, can be created however, they cannot be burned</p>
+            <p>Zero characters, can be created however but cannot be burned</p>
             <hr/>
             <BannerAdOne/>
             <h2>Benefits of Burning World</h2>
