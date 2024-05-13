@@ -208,43 +208,31 @@ function ProgressionGuide() {
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <ArticleHeaderTwo id="5th">5th Job Advancement &amp; Arcane River:</ArticleHeaderTwo>
             <hr/>
-            <p><strong>Mandatory Requirements to accept 5th Job Quest:</strong>
-            </p>
+            <p><strong>Mandatory Requirements to accept 5th Job Quest:</strong></p>
             <ul>
-                <li>100 Star Force minimum total</li>
+                <li>100 Star Force minimum accumulated total</li>
                 <li>10 Star Force on Primary Weapon</li>
             </ul>
-            <p><strong>Requirements to Job Advance:</strong> <img src="/images/npc/memory-keeper.png" alt="NPC Memory Keeper"/> <img src="/images/npc/temple-keeper.png" alt="NPC Temple Keeper"/>
-            </p>
+            <p><strong>Requirements to Job Advance:</strong> <img src="/images/npc/memory-keeper.png" alt="NPC Memory Keeper"/><img src="/images/npc/temple-keeper.png" alt="NPC Temple Keeper"/></p>
             <ul>
                 <li>After talking to the Memory Keeper and Temple Keeper, you'll receive a quest called <a href="https://maplestory.wiki/GMS/210.1.1/quest/1461" target="_blank" rel="noreferrer noopener">"5th Job: Blessing of the Goddess"</a>. Once you've talked to all the Goddesses and completed their challenge, you can job advanced to 5th Job</li>
                 <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/100000201" target="_blank" rel="noreferrer noopener">Henesys: Bowman Instructional School</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
-                <ul>
-                    <li>Talk to the "Goddess of Maple World" to complete the quest</li>
-                </ul>
+                <ul><li>Talk to "The Goddess of Maple World" to complete the quest</li></ul>
                 </li>
                 <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/105300000" target="_blank" rel="noreferrer noopener">Dark World Tree: Deserted Camp</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
-                <ul>
-                    <li>After talking to the "Goddess of Tynerum", defeat all enemies and a series of maps after being teleport</li>
-                </ul>
+                <ul><li>After talking to the "Goddess of Tynerum", defeat all enemies in a series of maps after being teleport</li></ul>
                 </li>
                 <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/400000001" target="_blank" rel="noreferrer noopener">Pantheon: Grand Temple Interior</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
-                <ul>
-                    <li>Talk to the "Goddess of Grandis" twice and defeat a weak version of Magnus after being teleported</li>
-                </ul>
+                <ul><li>Talk to the "Goddess of Grandis" twice and defeat a weakened version of Magnus after being teleported</li></ul>
                 </li>
-                <li>Each goddess will give you an <img src="/images/items/arcane-stone.png" alt="Use Arcane Stone"/> Arcane Stone which you can charge up by fighting monsters. Once the stone has been charged, you can use it again to gain some EXP
-                <ul>
-                    <li>You do not need to charge the stones up to Job Advance</li>
-                </ul>
-                </li>
+                <li>Each goddess will give you an <img src="/images/items/arcane-stone.png" alt='Skill Arcane Stone'/> Arcane Stone which you can charge up by fighting monsters. Once the stone has been charged, you can use it again to gain some EXP
+                <ul><li>You do not need to charge the stones up to Job Advance</li></ul></li>
             </ul>
-            <img className="repository-image" src="/images/info/arcane-force-ui.png" alt="Arcane Force UI"/>
-            <p><strong>After Advancement, obtaining an Arcane Symbol:</strong> To deal damage to monsters in the <a href="https://maplestorywiki.net/w/Category:Arcane_River" target="_blank" rel="noopener referrer">Arcane River</a> - the main region past Level 200, Arcane Power is required similar to Star Force which you gain from equipping <img src="/images/equipment/arcane-symbol.png" alt="Eqp Arcane Symbol"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Arcane_Symbols" target="_blank">Arcane Symbols</a></p>
+            <p><strong>After Advancement, obtaining an Arcane Symbol:</strong> To effectively damage monsters in the Arcane River, Arcane Power is required similar to Star Force which you gain from equipping <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Arcane_Symbols" target="_blank">Arcane Symbols</a></p>
             <ul>
-                <li>To obtain your first Arcane Symbol, you must complete the quest <a href="https://maplestory.wiki/GMS/210.1.1/quest/1466" target="_blank" rel="noreferrer noopener">"A Greater Power"</a> located in your Lightbulb icon. This quest is intentionally difficult as you have no Arcane Power yet</li>
-                <li><strong>[Note]</strong>: The symbol you obtain is not a real Arcane Symbol yet until you complete the Vanishing Journey storyline. In the meantime, you must complete the story with the limited Arcane Power you have</li>
-                <li><strong>[Tip]</strong> If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Power, allocate some points temporarily until you get enough Arcane Power</li>
+                <li>To obtain your Arcane Symbol, you must complete the quest <a href="https://maplestory.wiki/GMS/210.1.1/quest/1466" target="_blank" rel="noreferrer noopener">"A Greater Power"</a> located in your Lightbulb Quests. This quest is intentionally difficult as you have no Arcane Power</li>
+                <li>The initial symbol you obtain is not a real Arcane Symbol yet until you complete the Vanishing Journey storyline. In the meantime, you must complete the story with the limited Arcane Power you have</li>
+                <li><strong>[Tip]</strong>: If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Power, allocate some points temporarily until you get enough Arcane Power</li>
             </ul>
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <BannerAdTwo/>
