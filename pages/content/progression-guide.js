@@ -1223,7 +1223,7 @@ function ProgressionGuide() {
                         </li>
                     </ul>
                 </li>
-                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Easy Will</a></strong>
+                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Easy Will</a></strong>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1265,7 +1265,7 @@ function ProgressionGuide() {
                         </li>
                     </ul>
                 </li>
-                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Normal Will</a></strong>
+                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Normal Will</a></strong>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1274,7 +1274,7 @@ function ProgressionGuide() {
                         </li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Normal Gloom</a></strong>
+                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Normal Gloom</a></strong>
                     <ul>
                     <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                     <li>
@@ -1371,7 +1371,7 @@ function ProgressionGuide() {
                         </li>
                     </ul>
                 </li>
-                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Hard Will</a></strong>
+                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Hard Will</a></strong>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1388,7 +1388,7 @@ function ProgressionGuide() {
                         </li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> <strong><a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Normal Verus Hilla</a></strong>
+                <li><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> <strong><a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Normal Verus Hilla</a></strong>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1410,7 +1410,7 @@ function ProgressionGuide() {
             <ArticleHeaderTwo>Tier III Endgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
-                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Chaos Gloom</a></strong>
+                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Chaos Gloom</a></strong>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1427,7 +1427,7 @@ function ProgressionGuide() {
                         </li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> <strong><a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Hard Verus Hilla</a></strong>
+                <li><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> <strong><a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Hard Verus Hilla</a></strong>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1644,12 +1644,12 @@ function ProgressionGuide() {
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-morass.png" alt="Eqp Arcane Symbol Morass"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong>[Lv. 235+] <a href="https://maplestorywiki.net/w/Category:Esfera" target="_blank" rel="noreferrer noopener">[Daily] Esfera</a></strong>: Completing the storyline here unlocks Daily Quests for this area
+                <li><img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong>[Lv. 235+] <a href="https://maplestorywiki.net/w/Category:Esfera" target="_blank" rel="noreferrer noopener">[Daily] Esfera</a></strong>: Completing the storyline here unlocks Daily Quests for this area
                     <ul>
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> <strong>[Lv. 235+] <a href="https://maplestorywiki.net/w/Esfera_Guardian" target="_blank" rel="noreferrer noopener">[Weekly] Esfera Guardian</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to destroy dimensional gates using a special turret to aim and shoot
+                <li><img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong>[Lv. 235+] <a href="https://maplestorywiki.net/w/Esfera_Guardian" target="_blank" rel="noreferrer noopener">[Weekly] Esfera Guardian</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to destroy dimensional gates using a special turret to aim and shoot
                     <ul>
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera"/> [Arcane Symbols]</li>
                     </ul>

@@ -517,7 +517,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="gloom"><img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> Gloom</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="gloom"><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> Gloom</ArticleHeaderTwo>
           <p><strong>[Normal/Chaos Lv. 245+ &amp; 730ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -555,7 +555,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="verushilla"><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> Verus Hilla</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="verushilla"><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> Verus Hilla</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 250+ &amp; 900ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -706,7 +706,7 @@ function BossMatchmaking() {
               , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
             </li>
           </ul>
-          <ArticleHeaderTwo id="kalos"><img src="/images/map-icons/karote.png" alt="MapIcon Karote"/> Kalos</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="kalos"><img src="/images/map-icons/karote.png" alt="MapIcon Kalos"/> Kalos</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Chaos/Extreme Lv. 265+ 200SacP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -816,7 +816,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="will"><img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> Will</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="will"><img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> Will</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 235+ &amp; 760ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>

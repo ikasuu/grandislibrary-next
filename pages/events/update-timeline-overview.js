@@ -478,7 +478,7 @@ function Ark() {
                     New area, <img src="/images/map-icons/verdel.png" alt="MapIcon verdel"/> <a href="https://maplestorywiki.net/w/Category%3AVerdel" target="_blank" rel="noreferrer noopener">Verdel</a>
                 </li>
                 <li>
-                    New area, <img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/>
+                    New area, <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/>
                     <a href="https://maplestorywiki.net/w/Category%3AEsfera" target="_blank" rel="noreferrer noopener">Esfera: Origin Sea</a>
                 </li>
                 <li>New boss, <a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Will</a></li>
@@ -885,7 +885,7 @@ function BlackMage() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New areas, <img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> <a href="https://maplestorywiki.net/w/Category%3AMoonbridge" target="_blank" rel="noreferrer noopener">Moonbridge</a>, <img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> <a href="https://maplestorywiki.net/w/Category:Labyrinth_of_Suffering" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering</a>, and <img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a href="https://maplestorywiki.net/w/Category%3ALimina" target="_blank" rel="noreferrer noopener">Limina</a>
+                    New areas, <img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <a href="https://maplestorywiki.net/w/Category%3AMoonbridge" target="_blank" rel="noreferrer noopener">Moonbridge</a>, <img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> <a href="https://maplestorywiki.net/w/Category:Labyrinth_of_Suffering" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering</a>, and <img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a href="https://maplestorywiki.net/w/Category%3ALimina" target="_blank" rel="noreferrer noopener">Limina</a>
                 </li>
                 <li>
                     New boss: <a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Gloom</a>, <a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Verus Hilla</a>, <a href="https://maplestorywiki.net/w/Guard_Captain_Darknell" target="_blank" rel="noreferrer noopener">Guard Captain Darknell</a>, and <a href="https://maplestorywiki.net/w/Black_Mage" target="_blank" rel="noreferrer noopener">Black Mage</a>
