@@ -2421,7 +2421,7 @@ function Override() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New daily, <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <a href="https://maplestorywiki.net/w/Dream_Defender" target="_blank" rel="noreferrer noopener">Dream Defender</a>
+                    New daily, <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Dream_Defender" target="_blank" rel="noreferrer noopener">Dream Defender</a>
                 </li>
                 <li>
                     New area, <img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <a href="https://maplestorywiki.net/w/Category%3AArcana" target="_blank" rel="noreferrer noopener">Arcana</a>
@@ -3258,9 +3258,9 @@ function VUpate() {
                 <li><strong>5th Job Advancement introduced</strong></li>
                 <li><strong>Auction House System introduced</strong></li>
                 <li>
-                    New area, Arcane River (<img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/>
-                    <a href="https://maplestorywiki.net/w/Category%3AVanishing_Journey" target="_blank" rel="noreferrer noopener">Vanishing Journey</a>, <img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/>
-                    <a href="https://maplestorywiki.net/w/Category%3AChu_Chu_Island">Chu Chu Island</a>, <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/>
+                    New area, Arcane River (<img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/>
+                    <a href="https://maplestorywiki.net/w/Category%3AVanishing_Journey" target="_blank" rel="noreferrer noopener">Vanishing Journey</a>, <img src="/images/map-icons/chu-chu-island.png" alt="MapIcon Chu Chu Island"/>
+                    <a href="https://maplestorywiki.net/w/Category%3AChu_Chu_Island">Chu Chu Island</a>, <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/>
                     <a href="https://maplestorywiki.net/w/Category%3ALachelein" target="_blank" rel="noreferrer noopener">Lachelein</a>)
                 </li>
                 <li>New boss, <a href="https://maplestorywiki.net/w/Lucid" target="_blank" rel="noreferrer noopener">Lucid</a></li>

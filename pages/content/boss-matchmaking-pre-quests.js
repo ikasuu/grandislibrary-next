@@ -430,7 +430,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/map-icons/ramuramu.png" alt="MapIcon ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
           <p><strong>[Normal/Chaos Lv. 210+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -459,7 +459,7 @@ function BossMatchmaking() {
             </li>
           </ul> 
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="lucid"><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> Lucid</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="lucid"><img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> Lucid</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Hard Lv. 220+ &amp; 360ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -852,7 +852,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
             </li>
           </ul>
-          <ArticleHeaderTwo id="akechi"><img src="/images/map-icons/fort-asura.png" alt="Ritual Altar Icon"/> Akechi Mitsuhide</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="akechi"><img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> Akechi Mitsuhide</ArticleHeaderTwo>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <hr/>
           <p><strong>[Normal Level 200+]</strong></p>

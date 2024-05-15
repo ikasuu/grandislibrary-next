@@ -1119,7 +1119,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li><img src="/images/map-icons/fort-asura.png" alt="Ritual Altar Icon"/> <a href="https://maplestorywiki.net/w/Akechi_Mitsuhide/Monster" target="_blank" rel="noopener noreferrer"><strong>Akechi Mitsuhide</strong></a>:
+                <li><img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> <a href="https://maplestorywiki.net/w/Akechi_Mitsuhide/Monster" target="_blank" rel="noopener noreferrer"><strong>Akechi Mitsuhide</strong></a>:
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1207,7 +1207,7 @@ function ProgressionGuide() {
             <ArticleHeaderTwo>[ &gt; 28k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
             <hr/>
             <ul>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Lucid</strong></a>
+                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Lucid</strong></a>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
                         </li>
@@ -1239,7 +1239,7 @@ function ProgressionGuide() {
                     </ul>
                 </li>
                 <li>
-                    <img src="/images/map-icons/ramuramu.png" alt="MapIcon ramuramu"/> <strong><a href="https://maplestorywiki.net/w/Guardian_Angel_Slime" target="_blank" rel="noopener noreferrer">Normal Guardian Angel Slime</a></strong>
+                    <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong><a href="https://maplestorywiki.net/w/Guardian_Angel_Slime" target="_blank" rel="noopener noreferrer">Normal Guardian Angel Slime</a></strong>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1257,7 +1257,7 @@ function ProgressionGuide() {
             <hr/>
             <p>Bosses beyond this point are not meant to be soloable and are more party-oriented bosses. As well, beyond this point, bosses will be separated by tiers as there is no good recommended stat indicators for the reasons mentioned earlier.</p>
             <ul>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Lucid</strong></a>
+                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Lucid</strong></a>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li><strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/butterfly-droplet-stone.png"/> <a href="https://maplestorywiki.net/w/Butterfly_Droplet_Stone" target="_blank" rel="noreferrer noopener">[Butterfly Droplet Stone]</a>
@@ -1354,7 +1354,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Hard Lucid</strong></a>
+                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Hard Lucid</strong></a>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li>
@@ -1463,7 +1463,7 @@ function ProgressionGuide() {
                     </ul>
                 </li>
                 <li>
-                    <img src="/images/map-icons/ramuramu.png" alt="MapIcon ramuramu"/> <strong><a href="https://maplestorywiki.net/w/Guardian_Angel_Slime" target="_blank" rel="noopener noreferrer">Chaos Guardian Angel Slime</a></strong>
+                    <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong><a href="https://maplestorywiki.net/w/Guardian_Angel_Slime" target="_blank" rel="noopener noreferrer">Chaos Guardian Angel Slime</a></strong>
                     <ul>
                         <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
                         <li><strong>Main Rewards:</strong> <img src="/images/equipment/guardian-angel-ring.png" alt="Guardian Angel Ring"/><a href="https://maplestorywiki.net/w/Guardian_Angel_Ring" target="_blank" rel="noreferrer noopener">[Guardian Angel Ring]</a>, <img src="/images/items/black-rebirth-flame.png" alt="Use Black Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[Black Rebirth Flame]</a>, <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>, <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
@@ -1587,37 +1587,37 @@ function ProgressionGuide() {
                     <li><strong>Main Reward:</strong> <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Heroic Worlds only</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey storyline will unlock Daily Quests for this area
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey storyline will unlock Daily Quests for this area
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Weekly] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey Daily twice each will reward you with Nodestones
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Weekly] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey Daily twice each will reward you with Nodestones
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">[Nodestones]</a></li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Erda_Spectrum" target="_blank" rel="noreferrer noopener">[Weekly PQ] Erda Spectrum</a></strong>: Unlocked once you complete the Vanishing Journey storyline. Can be done in parties of 1 to 3. There are 2 stages and the objective to help Nina conduct research in several different areas
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Erda_Spectrum" target="_blank" rel="noreferrer noopener">[Weekly PQ] Erda Spectrum</a></strong>: Unlocked once you complete the Vanishing Journey storyline. Can be done in parties of 1 to 3. There are 2 stages and the objective to help Nina conduct research in several different areas
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong>[Lv. 210+]</strong> <a href="https://maplestorywiki.net/w/Category:Chu_Chu_Island" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Chu Chu Island</strong></a>: Completing storyline will unlock access to a Party Quest and Daily Quests for this area
+                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon Chu Chu Island"/> <strong>[Lv. 210+]</strong> <a href="https://maplestorywiki.net/w/Category:Chu_Chu_Island" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Chu Chu Island</strong></a>: Completing storyline will unlock access to a Party Quest and Daily Quests for this area
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/> <strong> [Lv. 210+] <a href="https://maplestorywiki.net/w/Category:Hungry_Muto" target="_blank" rel="noreferrer noopener">[Weekly PQ] Hungry Muto</a></strong>: Unlocked once you complete the Chu Chu Island storyline. Can be done in parties of 1 to 4. The main objective is to collect ingredients from monsters to create dishes to feed Muto
+                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon Chu Chu Island"/> <strong> [Lv. 210+] <a href="https://maplestorywiki.net/w/Category:Hungry_Muto" target="_blank" rel="noreferrer noopener">[Weekly PQ] Hungry Muto</a></strong>: Unlocked once you complete the Chu Chu Island storyline. Can be done in parties of 1 to 4. The main objective is to collect ingredients from monsters to create dishes to feed Muto
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong>[Lv. 220+] </strong><a href="https://maplestorywiki.net/w/Category%3ALachelein" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Lachelein</strong></a>: Completing the storyline will unlock access to Midnight Chaser and Daily Quests for this area
+                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <strong>[Lv. 220+] </strong><a href="https://maplestorywiki.net/w/Category%3ALachelein" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Lachelein</strong></a>: Completing the storyline will unlock access to Midnight Chaser and Daily Quests for this area
                     <ul>
                     <li><strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <strong>[Lv. 220+] <a href="https://maplestorywiki.net/w/Midnight_Chaser" target="_blank" rel="noreferrer noopener">[Weekly] Midnight Chaser</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to locate objects scattered around a series of maps
+                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <strong>[Lv. 220+] <a href="https://maplestorywiki.net/w/Midnight_Chaser" target="_blank" rel="noreferrer noopener">[Weekly] Midnight Chaser</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to locate objects scattered around a series of maps
                     <ul>
                         <li>
                             <strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]
