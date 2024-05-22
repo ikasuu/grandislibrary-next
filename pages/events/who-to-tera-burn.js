@@ -104,9 +104,9 @@ function WhoToTeraBurn() {
                     </ul>
                 </li>
                 <li>
-                    <img src="/class-icons/cygnus-knights/mihile/royal-guard.png" alt="Skill Royal Guard"/> Mihile - +100% Knockback Resistance 130s, 180s cooldown
+                    <img src="/class-icons/cygnus-knights/mihile/royal-guard.png" alt="Skill Royal Guard"/> Mihile - +100 Abnormal Status Resistance 20s, 120s cooldown
                     <ul>
-                        <li>Good for bossing for classes with &lt; 100% Knockback Resistance</li>
+                        <li>Good for bossing</li>
                         <li><strong>[Legion]</strong> - +2000 Max HP</li>
                     </ul>
                 </li>
@@ -129,7 +129,7 @@ function WhoToTeraBurn() {
                     <img src="/class-icons/link-skills/elven-blessing.png" alt="Skill Elven Blessing (Linked)"/> Mercedes - +20% EXP obtained
                 </li>
                 <li>
-                    <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/> Mihile - +100% Knockback Resistance 130s, 3 min
+                    <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/> Mihile - +100 Abnormal Status Resistance 20s, 2 min
                     cooldown
                 </li>
                 <li><img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> Phantom - +20% Crit Rate</li>
