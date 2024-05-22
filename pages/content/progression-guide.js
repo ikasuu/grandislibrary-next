@@ -65,7 +65,7 @@ function ProgressionGuide() {
             <StickyAd/>
             <p>This guide will cover useful content between Lv. 1 - 250. For more info on all the content between Lv. 1 - 250 in MapleStory, check out: <a href="https://www.grandislibrary.com/contents/level-content-guide" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/level-content-guide</a>
             </p>
-            <ArticleHeaderTwo id="top">Quick Jumps:</ArticleHeaderTwo>
+            <h3 id="top">Quick Jumps</h3>
             <ul>
                 <li className="quick-jump"><Link smooth href="#intro">Introduction</Link>
                 </li>
@@ -127,114 +127,18 @@ function ProgressionGuide() {
                 </li>
             </ul>
             <VideoAd/>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="intro">Introduction:</ArticleHeaderTwo>
-            <hr/>
-            <p>Some brief advice before starting, there is no need to worry about dailies and bosses until you've reached Lv. 200 and have obtained your 5th Job Advancement. Even past Lv. 200, focus on training, filling up your equipment slots, and completing pre-quests. Some bosses you could try and fight pre-200 are Normal Zakum, Normal Hilla, Easy Magnus, Root Abyss, Easy/Normal Horntail, Normal Ranmaru, and Ursus</p>
-            <p>All classes are going to be weak early on, especially if this is your first character. As you reach Lv. 200, enemies will hit harder and be more difficult to defeat. Past Lv. 200, it eventually gets easier but you'll need to fill up your equipment slots and start upgrading your equipment</p>
-            <p>Lastly, do not rely on DPM charts or look for the 'best' class as to reach that point where you are as strong as DPM charts suggest is a massive time sink. As well, DPM charts do not translate to the actual DPM in-game as they are created under very specific conditions. Choose a class that you enjoy or seems enticing and go from there</p>
-            <p>Good luck on your Maple journey!!</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="jobadv">Job Advancements:</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/job-advancement.png" alt="Job Advancement"/>
-            <p>Most classes have Job Advancements at Lv. 10, 30, 60, 100, and 200 where new skills are gained. These are known as your 1st, 2nd, 3rd, 4th, and 5th Job Advancements</p>
-            <p>To start your Job Advancement, open your Maple Guide, "U" by default, and click on the button that labelled as "Job Advancement Quest"</p>
-            <p><strong>[Note]</strong>: Dual Blades have two additional Job Advancements at Lv. 20 and Lv. 45. They are an add-on to your 1st Job and 2nd Job Advancements</p>
-            <p><strong>[Note]</strong>: Zero does not have Job Advancements and instead unlock new skills by levelling up</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="apsp">SP and AP Distribution:</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/skill-ui.png" alt="Skill UI"/>
-            <img className="repository-image" src="/images/info/stat-ui.png" alt="SP UI"/>
-            <p>All newly created characters can max all of their 1st - 4th Job skills</p>
-            <p>A tip for allocating SP is to first put 1 point in everything and then start maxing skills by prioritizing skills that require the least SP to reach Master Level, then passives with useful stats like %Final Damage, %Damage, %Max HP, or %Damage Reduction, then buffs, and lastly attacks</p>
-            <p>For AP, you gain 5 AP every level up and most classes gain 5 AP each Job Advancement from 1st to 4th. It is highly recommended to use Auto Assign for all your AP</p>
-            <p><strong>[Note]</strong>: For Xenon, distribute your AP evenly between all 3 stats using Auto Assign. The game will let you know when you've reached the requirement for the Multilateral skills. Past Lv. 200, you continue to evenly distribute your AP</p>
-            <p><strong>[Note]</strong>: For Explorer Pirates, you will have the choice between Auto Assigning to STR or DEX. Choose STR only if you are creating a Buccaneer and DEX only if you are creating a Corsair</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="inner">Inner Ability:</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability"/>
-            <p>Inner Ability can be found in the Character Info UI and is automatically unlocked at Lv. 50</p>
-            <p>Inner Abilities are stat bonuses that work similar to Item Potentials but for your character. They can be reset using <img src="/images/items/medal-of-honor.png" alt="Item Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Boss Medal of Honor Item"/> Honor EXP</p>
-            <p>Like Potentials, there are different tiers, Rare, Epic, Unique, and Legendary. You can tier up by using Honor EXP to reset your Inner Ability and resetting will not lower your tier</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <h3>Link Skills:</h3>
-            <hr/>
-            <img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager"/>
-            <p>Link Skills are unique to each class and can be shared to another character on the same World. Link Skills are mainly passives, however, there are a few buffs too. Upon reaching Lv. 70, a Link Skill can be shared with another character and both characters will gain the effect of the Link Skill. Some Link Skills may have different effects for the character with the linked version</p>
-            <p>Link Skills improve at Level 120 (Skill Level 2) and in GMS again at Level 210 (Skill Level 3). Explorer and Cygnus Knight Link Skills can stack to increase the strength of the Link Skill by linking multiple times from different characters of the same class group</p>
-            <p><strong>[Note]:</strong> If your Link Skill in the Link Manager is missing, you may have to accept a quest in the Lightbulb tab on the left-hand side of the screen. If you still do not see it, try relogging</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <Introduction/>
+            <JobAdvancement/>
+            <StatDistribution/>
+            <InnerAbility/>
+            <LinkSkills/>
             <BannerAdOne/>
-            <ArticleHeaderTwo id="pocket">Pocket Slot:</ArticleHeaderTwo>
-            <hr/>
-            <p>Pocket Slot is an additional equipment slot for equipping Pocket Items. The Pocket Slot can be unlocked at Lv. 30 Charm Trait in your Traits Stat located in the Professions UI, "B" by default</p>
-            <p>Traits are minor stats that provide small bonuses to your character once they reach certain levels. To learn more about Traits, check out: <a href="https://maplestorywiki.net/w/Traits" target="_blank" rel="noreferrer noopener">https://maplestorywiki.net/w/Traits</a></p>
-            <p>To increase your Charm, use <img src="/images/items/cologne.png" alt="Use Cologne"/> <img src="/images/items/premium-cologne.png" alt="Use Premium Cologne"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2022745" target="_blank">Cologne</a>, <img src="/images/items/trait-boost-potion.png" alt="Use Trait Boost Potion"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2430909" target="_blank">Trait Boost Potions</a> found in Event Shops, increasing your Fame level, wearing special equipment or Cash Items, or changing your hair</p>
-            <p>Upon reaching Lv. 30 Charm, a quest in your Star Event Tab on the left-hand side will appear called <a href="https://maplestorywiki.net/w/Quests/50/Excessively_Charming" rel="noreferrer noopener">Excessively Charming</a> that consists of a bit of dialogue</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="emblem">Gold Emblem + 4th Job</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/emblem-equip.png" alt="Emblem Item"/>
-            <p>At Lv. 100, a Gold Emblem can be received for free by accepting a quest in your Lightbulb tab on the left-hand side of the screen. Emblems are important and easy to obtain equipment that should be accepted right away. Emblems are special like Weapons and Secondary Weapons as they can obtain %Ignore DEF and %Attack lines as potentials which are important stats to have. <em>Emblems cannot obtain %Boss Damage</em></p>
-            <p>Upon reaching 4th Job, you should start upgrading your equipment and Star Force them to 10 - 5 stars. It does not matter if the gear will be replaced, this will help you to defeat enemies</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="powercrystal"> <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> Intense Power Crystals:</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/collector-ui.png" alt="Intense Power Crystal Shop"/>
-            <img className="repository-image" src="/images/info/quick-move.png" alt="Quick Move UI"/>
-            <p>Most bosses (excluding Gollux) drop <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestory.wiki/GMS/215/item/4001886" target="_blank" rel="noreferrer noopener">[Intense Power Crystals]</a> that can be sold for Mesos. The price of the Intense Power Crystal will vary based on how many players are in your party, the difficulty of the boss, and if the boss is daily or weekly</p>
-            <p>To sell your Intense Power Crystals, access the <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Collector" target="_blank">Collector</a> found by pressing the "Quick Move" button located below the minimap from any town. The Collector will accept 180 Intense Power Crystals a week per world and resets on Thursdays 12am UTC</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="hyper">Hyper Skills + Hyper Stats</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/hyper-skill-active-ui.png" alt="Hyper Active UI"/>
-            <img className="repository-image" src="/images/info/hyper-skill-passive-ui.png" alt="Hyper Passive UI"/>
-            <p>Hyper Skills and Hyper Stats is unlocked at Lv. 140. Hyper Skills have a passive and active category. Active Skills are unlocked at Lv. 140, 160, and 190. Passive Hyper Skills provide benefits typically to 4th Job skills. 1 SP is gained for your Passive Hyper Skills at Lv. 140, 150, 165, 180 and 190 (total of 5 SP)</p>
-            <img className="repository-image" src="/images/info/hyper-stat-ui.png" alt="Hyper Stats UI"/>
-            <p>Hyper Stats allow you to allocate points and gain stats for %Crit Rate, %Crit Damage, %Ignore DEF, %Damage, and %Boss Damage. As you level up a Hyper Stat, it will cost more to upgrade. Hyper Stat Points are gained every level up and the amount gained increase every 10 levels</p>
-            <p>Hyper Stats are for rounding out your character's stats and are dependent on your current needs, thus there is no optimal build. For example, are you optimizing for bossing or mobbing? Do you need more damage? Crit Rate? A useful tool for deciding where to allocate your points can be found here: <a rel="noreferrer noopener" href="https://brendonmay.github.io/" target="_blank">SuckHard's Maplestory Calculators</a></p>
-            <p>For more info on Hyper Stats, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Hyper_Stats" target="_blank">https://strategywiki.org/wiki/MapleStory/Hyper_Stats</a></p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id={140}>Level 140 and Beyond:</ArticleHeaderTwo>
-            <hr/>
-            <p>Upon reaching Lv. 140, a friendly reminder to fill up every equipment slot and Spell Trace if you are on Interactive Worlds. Be sure to Star Force as much as you can, with a bare minimum of 5 Stars and recommended 12 Stars. As well, reveal all the potentials on your equipment and try to use cubes to reroll for some %Main Stat or Epic Potential</p>
-            <p>Check out the <a href="https://www.grandislibrary.com/contents/progression-guide#equipment">Equipment Content</a> section of this guide for more info on available equipment</p>
-            <p>For more info on enhancing equipment, check out <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a></p>
-            <p>For extra mesos, equipment, and <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2711001" target="_blank">Mystical Cubes</a>, you may try to defeat bosses from the &lt; 2k Main Stat section of the <a href="https://www.grandislibrary.com/contents/progression-guide#bosses">Bosses</a></p>
-            <p>As well, be sure to complete <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> Maple Tour every day as the main reward is Mesos</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="5th">5th Job Advancement &amp; Arcane River:</ArticleHeaderTwo>
-            <hr/>
-            <p><strong>Mandatory Requirements to accept 5th Job Quest:</strong></p>
-            <ul>
-                <li>100 Star Force minimum accumulated total</li>
-                <li>10 Star Force on Primary Weapon</li>
-            </ul>
-            <p><strong>Requirements to Job Advance:</strong> <img src="/images/npc/memory-keeper.png" alt="NPC Memory Keeper"/><img src="/images/npc/temple-keeper.png" alt="NPC Temple Keeper"/></p>
-            <ul>
-                <li>After talking to the Memory Keeper and Temple Keeper, you'll receive a quest called <a href="https://maplestory.wiki/GMS/210.1.1/quest/1461" target="_blank" rel="noreferrer noopener">"5th Job: Blessing of the Goddess"</a>. Once you've talked to all the Goddesses and completed their challenge, you can job advanced to 5th Job</li>
-                <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/100000201" target="_blank" rel="noreferrer noopener">Henesys: Bowman Instructional School</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
-                <ul><li>Talk to "The Goddess of Maple World" to complete the quest</li></ul>
-                </li>
-                <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/105300000" target="_blank" rel="noreferrer noopener">Dark World Tree: Deserted Camp</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
-                <ul><li>After talking to the "Goddess of Tynerum", defeat all enemies in a series of maps after being teleport</li></ul>
-                </li>
-                <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/400000001" target="_blank" rel="noreferrer noopener">Pantheon: Grand Temple Interior</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
-                <ul><li>Talk to the "Goddess of Grandis" twice and defeat a weakened version of Magnus after being teleported</li></ul>
-                </li>
-                <li>Each goddess will give you an <img src="/images/items/arcane-stone.png" alt='Skill Arcane Stone'/> Arcane Stone which you can charge up by fighting monsters. Once the stone has been charged, you can use it again to gain some EXP
-                <ul><li>You do not need to charge the stones up to Job Advance</li></ul></li>
-            </ul>
-            <p><strong>After Advancement, obtaining an Arcane Symbol:</strong> To effectively damage monsters in the Arcane River, Arcane Power is required similar to Star Force which you gain from equipping <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Arcane_Symbols" target="_blank">Arcane Symbols</a></p>
-            <ul>
-                <li>To obtain your Arcane Symbol, you must complete the quest <a href="https://maplestory.wiki/GMS/210.1.1/quest/1466" target="_blank" rel="noreferrer noopener">"A Greater Power"</a> located in your Lightbulb Quests. This quest is intentionally difficult as you have no Arcane Power</li>
-                <li>The initial symbol you obtain is not a real Arcane Symbol yet until you complete the Vanishing Journey storyline. In the meantime, you must complete the story with the limited Arcane Power you have</li>
-                <li><strong>[Tip]</strong>: If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Power, allocate some points temporarily until you get enough Arcane Power</li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <PocketSlot/>
+            <FourthJob/>
+            <IntensePowerCrystal/>
+            <HyperSkills/>
+            <Level140Beyond/>
+            <FifthJob/>
             <BannerAdTwo/>
             <ArticleHeaderTwo id="matrix">5th Job V Matrix + Nodestones:</ArticleHeaderTwo>
             <hr/>
@@ -2372,6 +2276,181 @@ function ProgressionGuide() {
             </ul>
         </ContentPage>
     );
-}
+};
+
+function Introduction(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="intro">Introduction</ArticleHeaderTwo>
+            <hr/>
+            <p>This is not a step by step guide instead, a guide to useful content and systems for progressing in MapleStory</p>
+            <p>Some brief advice, don't worry about dailies and bosses until after Lv. 200 and 5th Job Advancement. Even past Lv. 200, focus on levelling up, filling all equipment slots, and completing pre-quests</p>
+            <p>All classes are weak early on, especially if this is your first character. As you reach Lv. 200 and beyond, enemies will be stronger and tougher but, it eventually becomes easier</p>
+            <p>Choose classes that you enjoy or looks enticing. Don't rely on DPM charts or look for the 'best' class since to become as strong as they are suggested is a massive time sink. As well, DPM charts do not translate to the actual DPM in-game as they are created under very specific conditions</p>
+            <p>Good luck on your Maple journey!!</p>
+        </div>
+    );
+};
+
+function JobAdvancement(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="jobadv">Job Advancements:</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/job-advancement.png" alt="Job Advancement"/>
+            <p>Most classes gain new skills through Job Advancements at Lv. 10, 30, 60, 100, 200, and 260. These are known as 1st, 2nd, 3rd, 4th, 5th, and 6th Job Advancements</p>
+            <p>5th Job and 6th Job both have unique skill systems that are different from your 1st - 4th Job Advancements</p>
+            <p>To start your Job Advancement, open your Maple Guide, "U" by default, and click on the button that labelled as "Job Advancement Quest"</p>
+            <p><strong>[Note]</strong>: Dual Blades have two additional Job Advancements at Lv. 20 and Lv. 45 that are an add-on to your 1st and 2nd Job</p>
+            <p><strong>[Note]</strong>: Zero do not have Job Advancements and instead unlock new skills by levelling up</p>
+        </div>
+    );
+};
+
+function StatDistribution(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="apsp">SP and AP Distribution:</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/skill-ui.png" alt="Skill UI"/>
+            <img className="repository-image" src="/images/info/stat-ui.png" alt="SP UI"/>
+            <p>All characters can max all 1st - 4th Job skills</p>
+            <p>A tip for allocating SP is to put 1 SP in each skill and then max skills that require the least SP to reach Master Level, then passives, buffs, and lastly attacks</p>
+            <p>AP can be assigned using "Auto Assign" in the Character Info UI. 5 AP is gained each level up and 5 AP each Job Advancement from 1st - 4th Job</p>
+            <p><strong>[Note]</strong>: For Xenon, distribute your AP evenly between all 3 stats using Auto Assign. The game will let you know when you've reached the requirement for the Multilateral skills. Past Lv. 200, you continue to evenly distribute your AP</p>
+            <p><strong>[Note]</strong>: For Explorer Pirates, choose STR only if you are creating a Buccaneer and DEX only if you are creating a Corsair</p>
+        </div>
+    );
+};
+
+function InnerAbility(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="inner">Inner Ability:</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability"/>
+            <p>Inner Ability is located in the Character Info UI and is automatically unlocked at Lv. 50</p>
+            <p>Inner Abilities are rereollable stats similar to Item Potentials but tied to each character. They can be rerolled using <img src="/images/items/medal-of-honor.png" alt="Item Medal of Honor"/> <img src="/images/items/special-medal-of-honor.png" alt="Boss Medal of Honor Item"/> Honor EXP</p>
+            <p>Similar to Potentials, there are Rare, Epic, Unique, and Legendary tier stats. You can tier up by using Honor EXP to reroll your Inner Ability and rerolling will not lower your tier</p>
+        </div>
+    );
+};
+
+function LinkSkills(){
+    return(
+        <div>
+            <h3>Link Skills:</h3>
+            <hr/>
+            <img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager"/>
+            <p>Upon reaching Lv. 70, each class has a Link Skill that can be shared with another character where both characters gain the effect of the Link Skill</p>
+            <p>Link Skills improve at Level 120 (Skill Level 2) and in GMS again at Level 210 (Skill Level 3)</p>
+            <p>Explorer and Cygnus Knights Link Skills can stack to increase the strength of the Link Skill by linking each unique class</p>
+        </div>
+    );
+};
+
+function PocketSlot(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="pocket">Pocket Slot:</ArticleHeaderTwo>
+            <hr/>
+            <p>Upon reaching Lv. 30 Charm Trait, the equipment slot for Pocket Items is automatically unlocked</p>
+            <p>Traits located in the Professions UI, "B" by default provide special bonuses upon reaching certain levels like unlocking Pocket Slot or increasing %Ignore DEF</p>
+            <p>To increase your Charm, use <img src="/images/items/cologne.png" alt="Use Cologne"/> <img src="/images/items/premium-cologne.png" alt="Use Premium Cologne"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2022745" target="_blank">Cologne</a>, <img src="/images/items/trait-boost-potion.png" alt="Use Trait Boost Potion"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2430909" target="_blank">Trait Boost Potions</a> found in Event Shops, increasing your Fame level, wearing special equipment or Cash Items, or changing your hair</p>
+            <p>To learn more about Traits, check out: <a href="https://maplestorywiki.net/w/Traits" target="_blank" rel="noreferrer noopener">https://maplestorywiki.net/w/Traits</a></p>
+        </div>
+    );
+};
+
+function FourthJob(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="emblem">Gold Emblem + 4th Job</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/emblem-equip.png" alt="Emblem Item"/>
+            <p>At Lv. 100, a free Gold Emblem is given by accepting a Lightbulb Quest on the left side of the screen. Emblems are important because like Weapons and Secondary Weapons, are the only equipment that can obtain %Ignore DEF and %Attack potential lines</p>
+            <p><em>Emblems cannot obtain %Boss Damage</em></p>
+            <p>Upon reaching 4th Job, you should upgrade all equipment and Star Force them to 10 stars if possible. It does not matter if the gear will be replaced, this will help you to defeat enemies</p>
+        </div>
+    );
+};
+
+function IntensePowerCrystal(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="powercrystal"> <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> Intense Power Crystals:</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/collector-ui.png" alt="Intense Power Crystal Shop"/>
+            <img className="repository-image" src="/images/info/quick-move.png" alt="Quick Move UI"/>
+            <p>Most bosses drop <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestory.wiki/GMS/215/item/4001886" target="_blank" rel="noreferrer noopener">[Intense Power Crystals]</a> that can be sold for Mesos. The price of the Intense Power Crystal is determined by the difficulty of the boss, if the boss is daily or weekly, and the number of party members when clearing</p>
+            <p>Intense Power Crystals are sold to <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Collector" target="_blank">Collector</a> located by pressing the "Quick Move" button found below the minimap from any town. The Collector accepts 180 crystals a week per world and resets on Thursdays 12am UTC</p>
+        </div>
+    );
+};
+
+function HyperSkills(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="hyper">Hyper Skills + Hyper Stats</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/hyper-skill-active-ui.png" alt="Hyper Active UI"/>
+            <img className="repository-image" src="/images/info/hyper-skill-passive-ui.png" alt="Hyper Passive UI"/>
+            <p>Upon reaching Lv. 140, Hyper Skills and Hyper Stats are unlocked. Hyper Skills have a passive and active category. Active Skills are unlocked at Lv. 140, 160, and 190. Passive Hyper Skills provide benefits typically to 4th Job skills. 1 SP is gained for your Passive Hyper Skills at Lv. 140, 150, 165, 180 and 190 (total of 5 SP)</p>
+            <img className="repository-image" src="/images/info/hyper-stat-ui.png" alt="Hyper Stats UI"/>
+            <p>Hyper Stats points are gained each level to allocate into stats like %Crit Rate, %Crit Damage, %Ignore DEF, %Damage, and %Boss Damage. As you level up a Hyper Stat, it will cost more to upgrade. The amount Hyper Stat points gained increases every 10 levels</p>
+            <p>Hyper Stats are dependent on your current needs, thus there is no optimal build. For example, are you optimizing for bossing or mobbing? Do you need more damage or crit rate?</p>
+            <p>A useful tool for deciding where to allocate your points can be found here: <a rel="noreferrer noopener" href="https://brendonmay.github.io/" target="_blank">SuckHard's Maplestory Calculators</a></p>
+            <p>For more info on Hyper Stats, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Hyper_Stats" target="_blank">https://strategywiki.org/wiki/MapleStory/Hyper_Stats</a></p>
+        </div>
+    );
+};
+
+function Level140Beyond(){
+    return(
+        <div>
+            <ArticleHeaderTwo id={140}>Level 140 and Beyond:</ArticleHeaderTwo>
+            <hr/>
+            <p>Upon reaching Lv. 140, remember to fill all equipment slots and Star Force each equipment to at least 12 Stars. As well, reveal all the potentials on your equipment and to use cubes to reroll for some %Main Stat or Epic Potential</p>
+            <p>For more info on enhancing equipment, check out <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a></p>
+            <p>For extra mesos, equipment, and <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2711001" target="_blank">Mystical Cubes</a>, try the following bosses from the &lt; 2k Main Stat section of the <a href="https://www.grandislibrary.com/contents/progression-guide#bosses">Bosses</a></p>
+            <p>As well, complete <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> Maple Tour every day for Mesos</p>
+        </div>
+    );
+};
+
+function FifthJob(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="5th">5th Job Advancement &amp; Arcane River:</ArticleHeaderTwo>
+            <hr/>
+            <p><strong>Mandatory Requirements to accept 5th Job Quest:</strong></p>
+            <ul>
+                <li>100 Star Force minimum accumulated total</li>
+                <li>10 Star Force on Primary Weapon</li>
+            </ul>
+            <p><strong>Requirements to Job Advance:</strong> <img src="/images/npc/memory-keeper.png" alt="NPC Memory Keeper"/><img src="/images/npc/temple-keeper.png" alt="NPC Temple Keeper"/></p>
+            <ul>
+                <li>After talking to the Memory Keeper and Temple Keeper, you'll receive a quest called <a href="https://maplestory.wiki/GMS/210.1.1/quest/1461" target="_blank" rel="noreferrer noopener">"5th Job: Blessing of the Goddess"</a>. Once you've talked to all the Goddesses and completed their challenge, you can job advanced to 5th Job</li>
+                <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/100000201" target="_blank" rel="noreferrer noopener">Henesys: Bowman Instructional School</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
+                <ul><li>Talk to "The Goddess of Maple World" to complete the quest</li></ul>
+                </li>
+                <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/105300000" target="_blank" rel="noreferrer noopener">Dark World Tree: Deserted Camp</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
+                <ul><li>After talking to the "Goddess of Tynerum", defeat all enemies in a series of maps after being teleport</li></ul>
+                </li>
+                <li>Visit <a href="https://maplestory.wiki/GMS/210.1.1/map/400000001" target="_blank" rel="noreferrer noopener">Pantheon: Grand Temple Interior</a> and press up on the <a href="https://maplestory.wiki/GMS/210.1.1/npc/1540941" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
+                <ul><li>Talk to the "Goddess of Grandis" twice and defeat a weakened version of Magnus after being teleported</li></ul>
+                </li>
+                <li>Each goddess will give you an <img src="/images/items/arcane-stone.png" alt='Skill Arcane Stone'/> Arcane Stone which you can charge up by fighting monsters. Once the stone has been charged, you can use it again to gain some EXP
+                <ul><li>You do not need to charge the stones up to Job Advance</li></ul></li>
+            </ul>
+            <p><strong>After Advancement, obtaining an Arcane Symbol:</strong> To effectively damage monsters in the Arcane River, Arcane Power is required similar to Star Force which you gain from equipping <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Arcane_Symbols" target="_blank">Arcane Symbols</a></p>
+            <ul>
+                <li>To obtain your Arcane Symbol, you must complete the quest <a href="https://maplestory.wiki/GMS/210.1.1/quest/1466" target="_blank" rel="noreferrer noopener">"A Greater Power"</a> located in your Lightbulb Quests. This quest is intentionally difficult as you have no Arcane Power</li>
+                <li>The initial symbol you obtain is not a real Arcane Symbol yet until you complete the Vanishing Journey storyline. In the meantime, you must complete the story with the limited Arcane Power you have</li>
+                <li><strong>[Tip]</strong>: If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Power, allocate some points temporarily until you get enough Arcane Power</li>
+            </ul>
+        </div>
+    );
+};
 
 export default ProgressionGuide;
