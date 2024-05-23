@@ -712,7 +712,7 @@ export const linkSkills = {
         "type": "Buff",
         "desc": "",
         "details": [
-            "Useful for BOSSING with CLASSES WITHOUT 100% KNOCKBACK RESISTANCE"
+            "Useful for BOSSING"
         ]
     },
     mercedes: {

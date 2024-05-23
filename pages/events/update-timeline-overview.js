@@ -478,7 +478,7 @@ function Ark() {
                     New area, <img src="/images/map-icons/verdel.png" alt="MapIcon verdel"/> <a href="https://maplestorywiki.net/w/Category%3AVerdel" target="_blank" rel="noreferrer noopener">Verdel</a>
                 </li>
                 <li>
-                    New area, <img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/>
+                    New area, <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/>
                     <a href="https://maplestorywiki.net/w/Category%3AEsfera" target="_blank" rel="noreferrer noopener">Esfera: Origin Sea</a>
                 </li>
                 <li>New boss, <a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Will</a></li>
@@ -885,7 +885,7 @@ function BlackMage() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New areas, <img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> <a href="https://maplestorywiki.net/w/Category%3AMoonbridge" target="_blank" rel="noreferrer noopener">Moonbridge</a>, <img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> <a href="https://maplestorywiki.net/w/Category:Labyrinth_of_Suffering" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering</a>, and <img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a href="https://maplestorywiki.net/w/Category%3ALimina" target="_blank" rel="noreferrer noopener">Limina</a>
+                    New areas, <img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <a href="https://maplestorywiki.net/w/Category%3AMoonbridge" target="_blank" rel="noreferrer noopener">Moonbridge</a>, <img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> <a href="https://maplestorywiki.net/w/Category:Labyrinth_of_Suffering" target="_blank" rel="noreferrer noopener">Labyrinth of Suffering</a>, and <img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a href="https://maplestorywiki.net/w/Category%3ALimina" target="_blank" rel="noreferrer noopener">Limina</a>
                 </li>
                 <li>
                     New boss: <a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Gloom</a>, <a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Verus Hilla</a>, <a href="https://maplestorywiki.net/w/Guard_Captain_Darknell" target="_blank" rel="noreferrer noopener">Guard Captain Darknell</a>, and <a href="https://maplestorywiki.net/w/Black_Mage" target="_blank" rel="noreferrer noopener">Black Mage</a>
@@ -1969,7 +1969,7 @@ function MarkOfHonor() {
                     New area, <img src="/images/map-icons/momijigaoka.png" alt="MapIcon Momijigaoka"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/807000000">Momijigaoka</a>
                 </li>
                 <li>
-                    New area, <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/> <a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Root Abyss</a>
+                    New area, <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Root Abyss</a>
                 </li>
                 <li>
                     New equipment, <img src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/>
@@ -2421,7 +2421,7 @@ function Override() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New daily, <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> <a href="https://maplestorywiki.net/w/Dream_Defender" target="_blank" rel="noreferrer noopener">Dream Defender</a>
+                    New daily, <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Dream_Defender" target="_blank" rel="noreferrer noopener">Dream Defender</a>
                 </li>
                 <li>
                     New area, <img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <a href="https://maplestorywiki.net/w/Category%3AArcana" target="_blank" rel="noreferrer noopener">Arcana</a>
@@ -3207,11 +3207,11 @@ function Unleashed() {
                 <li>New equipment, Terminus, Sovereign, Fairy, Snowstorm</li>
                 <li><a href="https://maplestorywiki.net/w/Monster_Life" target="_blank" rel="noreferrer noopener">Monster Life</a> System introduced</li>
                 <li>
-                    New area, <img src="/images/map-icons/twilight-perion.png" alt="MapIcon destructionPerion"/>
+                    New area, <img src="/images/map-icons/twilight-perion.png" alt="MapIcon Twilight Perion"/>
                     <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener">Twilight Perion</a>
                 </li>
                 <li>
-                    New training ground, <img src="/images/map-icons/root-abyss.png" alt="MapIcon rootabyss"/>
+                    New training ground, <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/>
                     <a href="https://maplestory.wiki/GMS/214/map/105200900" target="_blank" rel="noreferrer noopener">Neglected Garden</a> within Root Abyss
                 </li>
                 <li>
@@ -3258,9 +3258,9 @@ function VUpate() {
                 <li><strong>5th Job Advancement introduced</strong></li>
                 <li><strong>Auction House System introduced</strong></li>
                 <li>
-                    New area, Arcane River (<img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Road of Vanishing"/>
-                    <a href="https://maplestorywiki.net/w/Category%3AVanishing_Journey" target="_blank" rel="noreferrer noopener">Vanishing Journey</a>, <img src="/images/map-icons/chu-chu-island.png" alt="MapIcon ChewChew"/>
-                    <a href="https://maplestorywiki.net/w/Category%3AChu_Chu_Island">Chu Chu Island</a>, <img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/>
+                    New area, Arcane River (<img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/>
+                    <a href="https://maplestorywiki.net/w/Category%3AVanishing_Journey" target="_blank" rel="noreferrer noopener">Vanishing Journey</a>, <img src="/images/map-icons/chu-chu-island.png" alt="MapIcon Chu Chu Island"/>
+                    <a href="https://maplestorywiki.net/w/Category%3AChu_Chu_Island">Chu Chu Island</a>, <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/>
                     <a href="https://maplestorywiki.net/w/Category%3ALachelein" target="_blank" rel="noreferrer noopener">Lachelein</a>)
                 </li>
                 <li>New boss, <a href="https://maplestorywiki.net/w/Lucid" target="_blank" rel="noreferrer noopener">Lucid</a></li>

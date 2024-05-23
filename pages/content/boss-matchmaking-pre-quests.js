@@ -430,7 +430,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/map-icons/ramuramu.png" alt="MapIcon ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="guardian-angel-slime"><img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> Guardian Angel Slime</ArticleHeaderTwo>
           <p><strong>[Normal/Chaos Lv. 210+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -459,7 +459,7 @@ function BossMatchmaking() {
             </li>
           </ul> 
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="lucid"><img src="/images/map-icons/lachelein.png" alt="MapIcon Lacheln"/> Lucid</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="lucid"><img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> Lucid</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Hard Lv. 220+ &amp; 360ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -517,7 +517,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="gloom"><img src="/images/map-icons/moonbridge.png" alt="MapIcon moonBridge"/> Gloom</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="gloom"><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> Gloom</ArticleHeaderTwo>
           <p><strong>[Normal/Chaos Lv. 245+ &amp; 730ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -555,7 +555,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="verushilla"><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon TheLabyrinthOfSuffering"/> Verus Hilla</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="verushilla"><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> Verus Hilla</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 250+ &amp; 900ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -706,7 +706,7 @@ function BossMatchmaking() {
               , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
             </li>
           </ul>
-          <ArticleHeaderTwo id="kalos"><img src="/images/map-icons/karote.png" alt="MapIcon Karote"/> Kalos</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="kalos"><img src="/images/map-icons/karote.png" alt="MapIcon Kalos"/> Kalos</ArticleHeaderTwo>
           <p><strong>[Easy/Normal/Chaos/Extreme Lv. 265+ 200SacP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -816,7 +816,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="will"><img src="/images/map-icons/esfera.png" alt="MapIcon esfera"/> Will</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="will"><img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> Will</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 235+ &amp; 760ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -852,7 +852,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
             </li>
           </ul>
-          <ArticleHeaderTwo id="akechi"><img src="/images/map-icons/fort-asura.png" alt="Ritual Altar Icon"/> Akechi Mitsuhide</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="akechi"><img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> Akechi Mitsuhide</ArticleHeaderTwo>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <hr/>
           <p><strong>[Normal Level 200+]</strong></p>
