@@ -227,7 +227,6 @@ function ProgressionGuide() {
                 <li> <img src="/images/items/pet-snack.png" alt="Cash Pet Snack"/> <a href="https://maplestory.wiki/GMS/215/item/5460000" target="_blank" rel="noreferrer noopener">[Pet Snack] (Interactive Worlds only)</a>
                 </li>
                 <li> <img src="/images/items/etc-slot-coupon.png" alt="Use Etc Slot Coupon"/> [Etc/Set-up/Use/Equip/Storage Add 8 Inventory Slots] - Unlimited purchases (Interactive Worlds only)</li>
-                <li> <img src="/images/items/add-pendant-slots.png" alt="Use Add Pendant Slots"/> <a href="https://maplestory.wiki/GMS/215/item/2435909" target="_blank" rel="noreferrer noopener">[30-day Pendent Slot Expansion]</a> - Unlimited purchases (Interactive Worlds Only)</li>
                 <li> <img src="/images/items/shielding-ward.png" alt="Cash Shielding Ward"/> <a href="https://maplestory.wiki/GMS/215/item/5064000" target="_blank" rel="noreferrer noopener">[Shielding Ward]</a> (Interactive Worlds only)</li>
                 <li> <img src="/images/items/shield-scroll.png" alt="Cash Shield Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/5064100" target="_blank" rel="noreferrer noopener">[Shield Scroll]</a> (Interactive Worlds only)</li>
                 <li> <img src="/images/items/guardian-scroll.png" alt="Cash Guardian Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/5064300" target="_blank" rel="noreferrer noopener">[Guardian Scroll]</a> (Interactive Worlds only)</li>
@@ -2316,7 +2315,7 @@ function StatDistribution(){
             <img className="repository-image" src="/images/info/stat-ui.png" alt="SP UI"/>
             <p>All characters can max all 1st - 4th Job skills</p>
             <p>A tip for allocating SP is to put 1 SP in each skill and then max skills that require the least SP to reach Master Level, then passives, buffs, and lastly attacks</p>
-            <p>AP can be assigned using "Auto Assign" in the Character Info UI. 5 AP is gained each level up and 5 AP each Job Advancement from 1st - 4th Job</p>
+            <p>AP can be assigned using "Auto Assign" in the Character Info UI. 5 AP is gained each level up and 5 AP each Job Advancement from 3rd - 4th Job</p>
             <p><strong>[Note]</strong>: For Xenon, distribute your AP evenly between all 3 stats using Auto Assign. The game will let you know when you've reached the requirement for the Multilateral skills. Past Lv. 200, you continue to evenly distribute your AP</p>
             <p><strong>[Note]</strong>: For Explorer Pirates, choose STR only if you are creating a Buccaneer and DEX only if you are creating a Corsair</p>
         </div>
