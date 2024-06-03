@@ -30,7 +30,6 @@ function WhoToTeraBurn() {
                 <li><img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech"/> Mechanic</li>
                 <li><img src="/class-icons/heroes/mercedes/leap-tornado.png" alt="Skill Leap Tornado"/> Mercedes</li>
             </ul>
-            <p><strong>[Note]</strong>:Explorer classes can job change using a <img src="/images/items/job-advancement-coin.png" alt="Etc Job Advancement Coin"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4310086">[Job Advancement Coin]</a> to other Explorer classes within their job branch thus, you can level up a class with decent mobbing capabilities then job change to the desired class</p>
             <BannerAdOne/>
             <h3>Classes with Lv. 3 Link Skills / Good Legion Bonuses:</h3>
             <ul>
@@ -171,15 +170,7 @@ function WhoToTeraBurn() {
             </ul>
             <h3>Top 5 Tera Burns for Legion:</h3>
             <ul>
-                <li>
-                    <img src="/class-icons/explorers/corsair/rapid-fire.png" alt="Skill Rapid Fire"/> Corsair - +10% Summon Duration
-                    <ul>
-                        <li>
-                            Is an Explorer Pirate so you can train a Cannoneer to Lv. 200 and use a <img src="/images/items/job-advancement-coin.png" alt="Etc Job Advancement Coin"/>
-                            <a href="https://maplestory.wiki/GMS/210.1.1/item/4310086">[Job Advancement Coin]</a> to change to Corsair
-                        </li>
-                    </ul>
-                </li>
+                <li><img src="/class-icons/explorers/corsair/rapid-fire.png" alt="Skill Rapid Fire"/> Corsair - +10% Summon Duration</li>
                 <li><img src="/class-icons/sengoku/hayato/normal-stance.png" alt="Skill Normal Stance Bonus"/> Hayato - +5% Crit Damage</li>
                 <li><img src="/class-icons/resistance/mechanic/humanoid-mech.png" alt="Skill Humanoid Mech"/> Mechanic - +20% Buff Duration</li>
                 <li><img src="/class-icons/heroes/shade/spirit-bond-max.png" alt="Skill Spirit Bond Max"/> Shade - +5% Crit Damage</li>
