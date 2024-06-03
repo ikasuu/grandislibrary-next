@@ -140,110 +140,9 @@ function ProgressionGuide() {
             <Level140Beyond/>
             <FifthJob/>
             <BannerAdTwo/>
-            <ArticleHeaderTwo id="matrix">5th Job V Matrix + Nodestones:</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/v-matrix-ui.png" alt="V Matrix"/>
-            <p>In 5th Job, you do not gain skills normally like your previous Job Advancements. Instead, you have "Nodes" which contains a 5th Job Skill. You can equip these Nodes into your V Matrix to gain access to that skill. To gain Nodes, you need to open <img src="/images/items/nodestone.png" alt="Nodestone Item"/>Nodestones that are obtained from monsters in the Arcane River, Vanishing Journey Weekly Quest, Nodecrafting, and Event Shops</p>
-            <img className="repository-image" src="/images/info/v-matrix-button.png" alt="Skill UI"/>
-            <p>To view your V Matrix, open up your Skill UI, "K" by default, and click to the "V" tab and press the "V Matrix" button at the top</p>
-            <p>You will notice you have empty slots and locked slots. You gain additional slots as your character levels up which will allow you to equip more Nodes and in turn more 5th Job Skills. Additionally, you can pay Mesos to unlock slots early. To equip a Node, double-click or drag them into an empty slot</p>
-            <p>All classes have their Main 5th Job Skills that are exclusive to that class. There are also 5th Job Skills exclusive to a certain Class Group like Explorers or Cygnus Knights. Lastly, there are Common 5th Job skills that are available to all classes</p>
-            <img className="repository-image" src="/images/info/node-enhance.png" alt="Enhancing Node"/>
-            <img className="repository-image" src="/images/info/node-enhance-button.png" alt="Enhance Single Node"/>
-            <p>You do not gain SP normally like your previous Job Advancements to level up your skills. Instead, you will need to enhance your Nodes to increase a skill's level. Each Node will have a Rank and EXP associated with it. To enhance a Node, you will need copies of the same Node to gain enough EXP to rank up. Upgrading a Node's Rank will increase the associated skill's level</p>
-            <p>There are 3 types of Nodes:</p>
-            <p>
-                <img src="/images/info/skill-node.png" alt="Skill Node" /><strong> Skill Nodes</strong>: These contain the main 5th Job Skills themselves</p>
-            <ul>
-                <li>A Skill Node has a max Rank of 25 or Master Level of is 25 (30 with <em>Matrix Points</em>)</li>
-                <li>Only one copy of a Skill Node can be equipped at once</li>
-            </ul>
-            <p>
-                <img src="/images/info/boost-node.png" alt="Boost Node"/><strong>Boost Nodes</strong>: These are passives that increase the %Final Damage of your 1st - 4th Job Skills. They also provide different bonuses based on the Skill Level of the node such as extra %Crit Rate or %Ignore DEF</p>
-            <ul>
-                <li>Each Boost Node will enhance 3 different Skills. When you hover over a boost node in your V Matrix, the Main Skill that is used for leveling up a Boost Node will be the skill at the top. You will need multiple Boost Nodes with the same Main Skill to upgrade a Boost Node</li>
-                <li>Boost Nodes with the same Main Skill cannot be equipped together</li>
-                <li>Each Boost Node has a max Rank of 25 but each boosted skill can reach a Master Level of 50 (60 with <em>Matrix Points</em>) by equipping two Boost Nodes that boost the same skill</li>
-            </ul>
-            <p>
-                <img src="/images/info/special-node.png" alt="Special Node"/><strong> Special Nodes: </strong>These nodes provide a special effect that trigger once you've fulfilled a specific requirement</p>
-            <ul>
-                <li>They cannot be leveled up and have a timed duration and will disappear</li>
-                <li>It is best to disassemble these nodes for Node Shards that are used to craft new Nodes</li>
-            </ul>
-            <h3>Matrix Points</h3>
-            <img className="repository-image" src="/images/info/slot-enhancement-button.png" alt="Slot Enhancement Button"/>
-            <img className="repository-image" src="/images/info/matrix-points.png" alt="Matrix Points"/>
-            <p>Each time your character levels up, you gain a Matrix Point. Matrix Points are used to raise a Node's Rank but they are tied to the Node Slots themselves instead of the Node. Each slot can allocate up to 5 additional Ranks for a Node. This means each Skill Node or Boost Node can reach a max Rank of 30. You can assign your Matrix Points in the V Matrix by pressing the "Slot Enhancement" button</p>
-            <h3>Node Enhancing</h3>
-            <img className="repository-image" src="/images/info/node-crafting.png" alt="V Upgrade UI"/>
-            <p>To enhance your Nodes, right-click a Node you want to enhance. Using copies of the same Node you are trying to enhance, you consume the extra Nodes to the gain EXP required to level up a Node. As mentioned previously, to enhance Boost Nodes, you need Nodes with the same Main Skill. All Nodes have a max Rank of 25 meaning each Node provides 25 Skill Levels for a skill</p>
-            <p>To gain additional Nodes, you will need to open <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">Nodestones</a> which will give you a random Node for your class. You can obtain Nodestones from monster drops in the Arcane River, from the <a href="https://maplestory.wiki/GMS/215/quest/34151" target="_blank" rel="noreferrer noopener">Weekly Quest in Vanishing Journey</a>, Nodecrafting, and from Events</p>
-            <p>There are also special Nodestones called <img src="/images/items/exp-nodestone.png" alt="Use EXP Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2439279" target="_blank" rel="noreferrer noopener">[Experience Nodestone]</a> which when opened provides an EXP Node that can be used on any Node as EXP. These Nodestones are only obtainable from Events</p>
-            <h3>Node Disassembling</h3>
-            <img className="repository-image" src="/images/info/disassemble-node.png" alt="Disassemble Node"/>
-            <p>Nodes can be disassembled to gain Node Shards that are used to craft more Nodestones or a guaranteed Node. To disassemble Nodes, press on the "Disassemble Nodes" button beside the "Slot Enhancement" button</p>
-            <p>You can select multiple Nodes to disassemble at a time or right click to select to disassemble a single Node</p>
-            <h3>Nodecrafting</h3>
-            <img className="repository-image" src="/images/info/node-skill-craft.png" alt="Node Crafting"/>
-            <p>Specific Nodes can be crafted by pressing the "Nodecrafting" button. To craft Nodes, you will need Node Shards which are obtained from disassembling Nodes</p>
-            <p>In the Nodecrafting UI, select the Node you want to craft and then press the "Craft" button. Do not press the "Craft Nodestone" button as you will craft a Nodestone instead</p>
-            <p><strong>[Note]</strong>: When crafting Boost Nodes, you can choose the Main Skill for that Node by selecting the desired skill in the Nodecrafting UI</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="legion">Legion System</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/legion-ui.png" alt="Legion Board"/>
-            <img className="repository-image" src="/images/info/legion-legend.png" alt="Legion Legend"/>
-            <p>The Legion System is unlocked when you have either a total of 500 levels within your World from your characters or have reached Lv. 200 and completed the 5th Job Advancement. You can assign your characters onto a grid to provide bonus stats to all your characters in your World</p>
-            <p>The "Total Level" or "Legion Level" is based on your 42 highest level characters. The higher your Legion Level the more characters you can assign to your grid. To increase the amount of characters you can assign, <img src="/images/items/legion-coin.png" alt="Etc Legion Coin"/> <a href="https://maplestorywiki.net/w/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a> are given to <a href="https://maplestorywiki.net/w/Dame_Appropriation" target="_blank" rel="noreferrer noopener">Dame Appropriation</a> to upgrade your board. Legion Coins are gained passively based on your characters currently assigned to the grid</p>
-            <p>Legion Coins are also used to buy special items from <a href="https://maplestorywiki.net/w/Squire_Pancho_Sanza" target="_blank" rel="noreferrer noopener">Squire Pancho Sanza</a> such as:</p>
-            <ul>
-                <li><img src="/images/items/legion-expertise.png" alt="Use Legion's Expertise"/> [EXP Booster]</li>
-                <li><img src="/images/items/legion-luck.png" alt="Use Legion's Luck"/> [Drop Rate Booster]</li>
-                <li><img src="/images/items/legion-wealth.png" alt="Use Legion's Wealth"/> [Meso Rate Booster]</li>
-                <li><img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls]</li>
-                <li><img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> [Hard Cube]</li>
-                <li><img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/> [Bonus Potential Scrolls]</li>
-                <li><img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> [Powerful Rebirth Flames]</li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="rewardpoint">Reward Points + Maple Rewards Shop:</ArticleHeaderTwo>
-            <hr/>
-            <p><img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points are a special currency used in the Cash Shop at the Maple Rewards Shop or to apply a 30% discount to certain Cash Shop purchases</p>
-            <p>Reward Points expire at the end of the next month that the points were obtained. So if you obtained some Reward Points in August, the points would expire on September 30th</p>
-            <p>The Maple Rewards Shop contains a variety of Cash Shop items available for purchase with Reward Points. You can only buy a set amount of each item per month per account, and items restock every month</p>
-            <p>Some notable items in the shop are:</p>
-            <ul>
-                <li> <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Bright Cube]</a>
-                </li>
-                <li> <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> <a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Glowing Cube]</a>
-                </li>
-                <li> <img src="/images/items/exp-special-coupon.png" alt="Cash EXP Special Coupon"/> <a href="https://maplestory.wiki/GMS/215/item/5211046" target="_blank" rel="noreferrer noopener">[1-day 2x EXP Special Coupon]</a> (Interactive Worlds only)</li>
-                <li> <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> <a href="https://maplestory.wiki/GMS/215/item/5520001" target="_blank" rel="noreferrer noopener">[Platinum Scissors of Karma]</a> (Interactive Worlds only)</li>
-                <li> <img src="/images/items/premium-water-of-life.png" alt="Cash Premium Water of Life"/> <a href="https://maplestory.wiki/GMS/215/item/5689000" target="_blank" rel="noreferrer noopener">[Premium Water of Life]</a>
-                </li>
-                <li> <img src="/images/items/monster-park-additional-entry.png" alt="Cash Monster Park Additional Entry"/> <a href="https://maplestory.wiki/GMS/215/item/5252030" target="_blank" rel="noreferrer noopener">[Monster Park Additional Entry Ticket]</a>
-                </li>
-                <li> <img src="/images/items/pet-snack.png" alt="Cash Pet Snack"/> <a href="https://maplestory.wiki/GMS/215/item/5460000" target="_blank" rel="noreferrer noopener">[Pet Snack] (Interactive Worlds only)</a>
-                </li>
-                <li> <img src="/images/items/etc-slot-coupon.png" alt="Use Etc Slot Coupon"/> [Etc/Set-up/Use/Equip/Storage Add 8 Inventory Slots] - Unlimited purchases (Interactive Worlds only)</li>
-                <li> <img src="/images/items/shielding-ward.png" alt="Cash Shielding Ward"/> <a href="https://maplestory.wiki/GMS/215/item/5064000" target="_blank" rel="noreferrer noopener">[Shielding Ward]</a> (Interactive Worlds only)</li>
-                <li> <img src="/images/items/shield-scroll.png" alt="Cash Shield Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/5064100" target="_blank" rel="noreferrer noopener">[Shield Scroll]</a> (Interactive Worlds only)</li>
-                <li> <img src="/images/items/guardian-scroll.png" alt="Cash Guardian Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/5064300" target="_blank" rel="noreferrer noopener">[Guardian Scroll]</a> (Interactive Worlds only)</li>
-            </ul>
-            <p>Some ways to obtain <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points are:</p>
-            <ul>
-                <li>Defeating bosses and completing a quest in the pink giftbox tab on the left-hand side of the screen
-                <ul>
-                    <li>The giftbox should have stars on it and a "C" with a ribbon</li>
-                    <li>The quests are automatically accepted each day, you just need to remember to hand it in or else it will not reset</li>
-                </ul>
-                </li>
-                <li>Monster Collection Explorations</li>
-                <li>Playing MapleStory M, the mobile game</li>
-                <li>Fairy Bros Daily Gift Reward</li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <VMatrix/>
+            <LegionSystem/>
+            <RewardPoints/>
             <ArticleHeaderTwo id="auction">Auction House in Interactive Worlds:</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/auction-house.png" alt="Auction House"/>
@@ -2447,6 +2346,128 @@ function FifthJob(){
                 <li>To obtain your Arcane Symbol, you must complete the quest <a href="https://maplestory.wiki/GMS/210.1.1/quest/1466" target="_blank" rel="noreferrer noopener">"A Greater Power"</a> located in your Lightbulb Quests. This quest is intentionally difficult as you have no Arcane Power</li>
                 <li>The initial symbol you obtain is not a real Arcane Symbol yet until you complete the Vanishing Journey storyline. In the meantime, you must complete the story with the limited Arcane Power you have</li>
                 <li><strong>[Tip]</strong>: If you are struggling to defeat the monsters, there is a Hyper Stat for Arcane Power, allocate some points temporarily until you get enough Arcane Power</li>
+            </ul>
+        </div>
+    );
+};
+
+function VMatrix(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="matrix">5th Job V Matrix + Nodestones:</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/v-matrix-ui.png" alt="V Matrix"/>
+            <p>In 5th Job, you do not gain skills normally like your previous Job Advancements. Instead, you have "Nodes" which contains a 5th Job Skill. You can equip these Nodes into your V Matrix to gain access to that skill. To gain Nodes, you need to open <img src="/images/items/nodestone.png" alt="Nodestone Item"/>Nodestones that are obtained from monsters in the Arcane River, Vanishing Journey Weekly Quest, Nodecrafting, and Event Shops</p>
+            <img className="repository-image" src="/images/info/v-matrix-button.png" alt="Skill UI"/>
+            <p>To view your V Matrix, open up your Skill UI, "K" by default, and click to the "V" tab and press the "V Matrix" button at the top</p>
+            <p>You will notice you have empty slots and locked slots. You gain additional slots as your character levels up which will allow you to equip more Nodes and in turn more 5th Job Skills. Additionally, you can pay Mesos to unlock slots early. To equip a Node, double-click or drag them into an empty slot</p>
+            <p>All classes have their Main 5th Job Skills that are exclusive to that class. There are also 5th Job Skills exclusive to a certain Class Group like Explorers or Cygnus Knights. Lastly, there are Common 5th Job skills that are available to all classes</p>
+            <img className="repository-image" src="/images/info/node-enhance.png" alt="Enhancing Node"/>
+            <img className="repository-image" src="/images/info/node-enhance-button.png" alt="Enhance Single Node"/>
+            <p>You do not gain SP normally like your previous Job Advancements to level up your skills. Instead, you will need to enhance your Nodes to increase a skill's level. Each Node will have a Rank and EXP associated with it. To enhance a Node, you will need copies of the same Node to gain enough EXP to rank up. Upgrading a Node's Rank will increase the associated skill's level</p>
+            <p>There are 3 types of Nodes:</p>
+            <p>
+                <img src="/images/info/skill-node.png" alt="Skill Node" /><strong> Skill Nodes</strong>: These contain the main 5th Job Skills themselves</p>
+            <ul>
+                <li>A Skill Node has a max Rank of 25 or Master Level of is 25 (30 with <em>Matrix Points</em>)</li>
+                <li>Only one copy of a Skill Node can be equipped at once</li>
+            </ul>
+            <p>
+                <img src="/images/info/boost-node.png" alt="Boost Node"/><strong>Boost Nodes</strong>: These are passives that increase the %Final Damage of your 1st - 4th Job Skills. They also provide different bonuses based on the Skill Level of the node such as extra %Crit Rate or %Ignore DEF</p>
+            <ul>
+                <li>Each Boost Node will enhance 3 different Skills. When you hover over a boost node in your V Matrix, the Main Skill that is used for leveling up a Boost Node will be the skill at the top. You will need multiple Boost Nodes with the same Main Skill to upgrade a Boost Node</li>
+                <li>Boost Nodes with the same Main Skill cannot be equipped together</li>
+                <li>Each Boost Node has a max Rank of 25 but each boosted skill can reach a Master Level of 50 (60 with <em>Matrix Points</em>) by equipping two Boost Nodes that boost the same skill</li>
+            </ul>
+            <p>
+                <img src="/images/info/special-node.png" alt="Special Node"/><strong> Special Nodes: </strong>These nodes provide a special effect that trigger once you've fulfilled a specific requirement</p>
+            <ul>
+                <li>They cannot be leveled up and have a timed duration and will disappear</li>
+                <li>It is best to disassemble these nodes for Node Shards that are used to craft new Nodes</li>
+            </ul>
+            <h3>Matrix Points</h3>
+            <img className="repository-image" src="/images/info/slot-enhancement-button.png" alt="Slot Enhancement Button"/>
+            <img className="repository-image" src="/images/info/matrix-points.png" alt="Matrix Points"/>
+            <p>Each time your character levels up, you gain a Matrix Point. Matrix Points are used to raise a Node's Rank but they are tied to the Node Slots themselves instead of the Node. Each slot can allocate up to 5 additional Ranks for a Node. This means each Skill Node or Boost Node can reach a max Rank of 30. You can assign your Matrix Points in the V Matrix by pressing the "Slot Enhancement" button</p>
+            <h3>Node Enhancing</h3>
+            <img className="repository-image" src="/images/info/node-crafting.png" alt="V Upgrade UI"/>
+            <p>To enhance your Nodes, right-click a Node you want to enhance. Using copies of the same Node you are trying to enhance, you consume the extra Nodes to the gain EXP required to level up a Node. As mentioned previously, to enhance Boost Nodes, you need Nodes with the same Main Skill. All Nodes have a max Rank of 25 meaning each Node provides 25 Skill Levels for a skill</p>
+            <p>To gain additional Nodes, you will need to open <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">Nodestones</a> which will give you a random Node for your class. You can obtain Nodestones from monster drops in the Arcane River, from the <a href="https://maplestory.wiki/GMS/215/quest/34151" target="_blank" rel="noreferrer noopener">Weekly Quest in Vanishing Journey</a>, Nodecrafting, and from Events</p>
+            <p>There are also special Nodestones called <img src="/images/items/exp-nodestone.png" alt="Use EXP Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2439279" target="_blank" rel="noreferrer noopener">[Experience Nodestone]</a> which when opened provides an EXP Node that can be used on any Node as EXP. These Nodestones are only obtainable from Events</p>
+            <h3>Node Disassembling</h3>
+            <img className="repository-image" src="/images/info/disassemble-node.png" alt="Disassemble Node"/>
+            <p>Nodes can be disassembled to gain Node Shards that are used to craft more Nodestones or a guaranteed Node. To disassemble Nodes, press on the "Disassemble Nodes" button beside the "Slot Enhancement" button</p>
+            <p>You can select multiple Nodes to disassemble at a time or right click to select to disassemble a single Node</p>
+            <h3>Nodecrafting</h3>
+            <img className="repository-image" src="/images/info/node-skill-craft.png" alt="Node Crafting"/>
+            <p>Specific Nodes can be crafted by pressing the "Nodecrafting" button. To craft Nodes, you will need Node Shards which are obtained from disassembling Nodes</p>
+            <p>In the Nodecrafting UI, select the Node you want to craft and then press the "Craft" button. Do not press the "Craft Nodestone" button as you will craft a Nodestone instead</p>
+            <p><strong>[Note]</strong>: When crafting Boost Nodes, you can choose the Main Skill for that Node by selecting the desired skill in the Nodecrafting UI</p>
+        </div>
+    );
+};
+
+function LegionSystem(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="legion">Legion System</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/legion-ui.png" alt="Legion Board"/>
+            <img className="repository-image" src="/images/info/legion-legend.png" alt="Legion Legend"/>
+            <p>The Legion System is unlocked upon completing one of the following:</p>
+            <ul>
+                <li>Accumulated total of 500 levels within your World</li>
+                <li>Reached Lv. 200 and completed the 5th Job Advancement</li>
+            </ul>
+            <p>The Legion Board grid is divided by different stats. By assigning characters onto the grid, each character will provide a "Legion Bonus" effect and a stat bonus depending on where it is assigned</p>
+            <p>The "Total Level" or "Legion Level" is based on your 42 highest level characters. The higher your Legion Level the more characters you can assign to your grid. By using <img src="/images/items/legion-coin.png" alt="Etc Legion Coin"/> <a href="https://maplestorywiki.net/w/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a> your Legion Board can be upgraded by talking to <a href="https://maplestorywiki.net/w/Dame_Appropriation" target="_blank" rel="noreferrer noopener">Dame Appropriation</a> to upgrade your board. Legion Coins are gained passively based on your characters currently assigned to the grid</p>
+            <p>Legion Coins are used to exchange items from <a href="https://maplestorywiki.net/w/Squire_Pancho_Sanza" target="_blank" rel="noreferrer noopener">Squire Pancho Sanza</a> such as:</p>
+            <ul>
+                <li><img src="/images/items/legion-expertise.png" alt="Use Legion's Expertise"/> [EXP Booster]</li>
+                <li><img src="/images/items/legion-luck.png" alt="Use Legion's Luck"/> [Drop Rate Booster]</li>
+                <li><img src="/images/items/legion-wealth.png" alt="Use Legion's Wealth"/> [Meso Rate Booster]</li>
+                <li><img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls]</li>
+                <li><img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> [Hard Cube]</li>
+                <li><img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/> [Bonus Potential Scrolls]</li>
+                <li><img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> [Powerful Rebirth Flames]</li>
+            </ul>
+        </div>
+    );
+};
+
+function RewardPoints(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="rewardpoint">Reward Points + Maple Rewards Shop:</ArticleHeaderTwo>
+            <hr/>
+            <p><img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points are used in the Cash Shop at the Maple Rewards Shop or to apply a 30% discount to certain Cash Shop purchases</p>
+            <p>Reward Points expire at the end of the next month that the points were obtained. So if you obtained some Reward Points in August, the points would expire on September 30th</p>
+            <p>The Maple Rewards Shop contains a variety of Cash Shop items available for purchase with Reward Points. There is a purchase limit to each item per month per account, and items restock every month</p>
+            <p>Some notable items in the shop are:</p>
+            <ul>
+                <li><img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Bright Cube]</a></li>
+                <li><img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> <a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Glowing Cube]</a></li>
+                <li><img src="/images/items/premium-water-of-life.png" alt="Cash Premium Water of Life"/> <a href="https://maplestory.wiki/GMS/215/item/5689000" target="_blank" rel="noreferrer noopener">[Premium Water of Life]</a></li>
+                <li><img src="/images/items/monster-park-additional-entry.png" alt="Cash Monster Park Additional Entry"/> <a href="https://maplestory.wiki/GMS/215/item/5252030" target="_blank" rel="noreferrer noopener">[Monster Park Additional Entry Ticket]</a></li>
+                <li><img src="/images/items/pet-snack.png" alt="Cash Pet Snack"/> <a href="https://maplestory.wiki/GMS/215/item/5460000" target="_blank" rel="noreferrer noopener">[Pet Snack] (Interactive Worlds only)</a></li>
+                <li><img src="/images/items/etc-slot-coupon.png" alt="Use Etc Slot Coupon"/> [Etc/Set-up/Use/Equip/Storage Add 8 Inventory Slots] - Unlimited purchases (Interactive Worlds only)</li>
+                <li><img src="/images/items/shielding-ward.png" alt="Cash Shielding Ward"/> <a href="https://maplestory.wiki/GMS/215/item/5064000" target="_blank" rel="noreferrer noopener">[Shielding Ward]</a> (Interactive Worlds only)</li>
+                <li><img src="/images/items/shield-scroll.png" alt="Cash Shield Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/5064100" target="_blank" rel="noreferrer noopener">[Shield Scroll]</a> (Interactive Worlds only)</li>
+                <li><img src="/images/items/guardian-scroll.png" alt="Cash Guardian Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/5064300" target="_blank" rel="noreferrer noopener">[Guardian Scroll]</a> (Interactive Worlds only)</li>
+                <li><img src="/images/items/exp-special-coupon.png" alt="Cash EXP Special Coupon"/> <a href="https://maplestory.wiki/GMS/215/item/5211046" target="_blank" rel="noreferrer noopener">[1-day 2x EXP Special Coupon]</a> (Interactive Worlds only)</li>
+                <li><img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> <a href="https://maplestory.wiki/GMS/215/item/5520001" target="_blank" rel="noreferrer noopener">[Platinum Scissors of Karma]</a> (Interactive Worlds only)</li>
+            </ul>
+            <p>Some ways to obtain <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points are:</p>
+            <ul>
+                <li>Defeating bosses and completing a quest in the pink giftbox tab on the left-hand side of the screen
+                <ul>
+                    <li>The giftbox should have stars on it and a "C" with a ribbon</li>
+                    <li>The quests are automatically accepted each day, you just need to remember to hand it in or else it will not reset</li>
+                </ul>
+                </li>
+                <li>Monster Collection Explorations</li>
+                <li>Playing MapleStory M, the mobile game</li>
+                <li>Fairy Bros Daily Gift Reward</li>
             </ul>
         </div>
     );
