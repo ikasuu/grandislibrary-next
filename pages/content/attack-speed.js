@@ -65,16 +65,13 @@ function AttackSpeed() {
                         <li>Sweetwater is (Faster 7)</li>
                     </ul>
                 </li>
-                <li>Claw [2H] (Fast 6)
-                    <ul>
-                        <li>Genesis is (Fast 5)</li>
-                    </ul>
-                </li>
+                <li>Claw [2H] (Fast 6)</li>
                 <li>Chain [1H] (Fast 6)</li>
                 <li>Ritual Fan [1H] (Fast 6)</li>
                 <li>Bladecaster / Tuner [1H] (Fast 6)</li>
                 <li>Whispershot / Breath Shooter [1H] (Fast 6)</li>
                 <li>Chakram [2H] (Fast 6)</li>
+                <li>Memorial Staff [1H] (Fast 6)</li>
             </ul>
             <h3>Fast (5)</h3>
             <ul>
@@ -118,9 +115,8 @@ function AttackSpeed() {
                 <li>Crossbow [2H] (Average 4)</li>
                 <li>Dual Bowguns [2H] (Average 4)</li>
                 <li>Desperado [1H] (Average 4)</li>
-                <li>Scepter [1H] (Average 4)</li>
                 <li>Psy-limiter [1H] (Average 4)</li>
-                <li>Alpha Long Sword [1H] (Average 4)</li>
+                <li>Long Sword (Zero) [1H] (Average 4)</li>
                 <li>Lucent Gauntlet [1H] (Average 4)</li>
                 <li>Ancient Bow [1H] (Average 4)</li>
             </ul>
@@ -129,16 +125,15 @@ function AttackSpeed() {
                 <li>Staff [1H] (Slow 2)
                     <ul>
                         <li>Elemental Staves is (Fast 6)</li>
-                        <li>ACS Staff and Genesis is (Average 4)</li>
                     </ul>
                 </li>
                 <li>Hand Cannon [2H] (Slow 2)</li>
-                <li>Kanna Fan [2H] (Slow 2)
+                <li>Fan (Kanna) [2H] (Slow 2)
                     <ul>
                         <li>ACS and Genesis is (Average 4)</li>
                     </ul>
                 </li>
-                <li>Beta Heavy Sword [1H] (Slow 2)</li>
+                <li>Heavy Sword (Zero) [1H] (Slow 2)</li>
             </ul>
             <BannerAdOne/>
             <h2>Weapon Boosting Skills and Sources</h2>
@@ -169,7 +164,7 @@ function AttackSpeed() {
                 <li>Rune of Destruction (+1 AS)</li>
                 <li><img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <a href="https://maplestorywiki.net/w/Extreme_Green_Potion" target="_blank" rel="noopener noreferrer">Extreme Green Potion</a> (+1 AS)</li>
                 <li><img src="/images/items/crimson-queen-soul.png" alt="Use Crimson Queen Soul"/> <a href="https://maplestorywiki.net/w/Fickle_Queen" target="_blank" rel="noopener noreferrer">Crimson Queen soul's attack speed buff</a> (+1 AS)</li>
-                <li>Battle Mage's <img src="/class-icons/resistance/battle-mage/hasty-aura.png" alt="Skill Hasty Aura"/> <a href="https://maplestorywiki.net/w/Hasty_Aura" target="_blank" rel="noopener noreferrer">Hasty Aura</a> (+2 AS)</li>
+                <li>Battle Mage's <img src="/class-icons/resistance/battle-mage/hasty-aura.png" alt="Skill Hasty Aura"/> <a href="https://maplestorywiki.net/w/Hasty_Aura" target="_blank" rel="noopener noreferrer">Hasty Aura</a> (+1 AS)</li>
                 <li>Zero's <img src="/class-icons/other/zero/divine-aura.png" alt="Skill Divine Aura"/> <a href="https://maplestorywiki.net/w/Divine_Aura" target="_blank" rel="noopener noreferrer">Divine Aura</a> (+1 AS)</li>
                 <li>Kaiser's <img src="/class-icons/nova/kaiser/kaisers-majesty.png" alt="Skill Kaiser's Majesty"/> <a href="https://maplestorywiki.net/w/Kaiser's_Majesty" target="_blank" rel="noopener noreferrer">Kaiser's Majesty</a> (+1 AS)</li>
             </ul>
