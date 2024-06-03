@@ -302,17 +302,35 @@ function ClassDetail({content}) {
             <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
             <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
-            <ul>
-            {
-                content.innerAbility.map((ability, index) => 
-                    <li key={index}>{ability}</li>    
-                )
-            }
-            </ul>
+            <div>
+                {
+                    content.innerAbility.map((preset, index) => 
+                        <AbilityPreset key={index} name={preset.name} set={preset.abilities}/>
+                    )
+                }
+            </div>
             <BannerAdTwo/>
       </Container>
     );
 }
+
+/*
+    Displays the Inner Ability preset given from data
+    Created by: Ikasuu, Summer 2024
+*/
+function AbilityPreset({name, set}){
+    return(
+        <div>
+            <ul>
+                {
+                    set.map((ability, index) =>
+                        <li key={index}>{ability}</li>
+                    )
+                }
+            </ul>
+        </div>
+    );
+};
 
 /*
     Rendering How to create {Class Name} component of Class Overview
