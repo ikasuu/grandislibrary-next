@@ -23,7 +23,7 @@ function WhoToTeraBurn() {
             <h3>Notably difficult or annoying classes to level:</h3>
             <ul>
                 <li><img src="/class-icons/resistance/blaster/revolving-cannon-mastery.png" alt="Class Blaster"/> Blaster</li>
-                <li><img src="/class-icons/explorers/buccaneer/octopunch-1.png" alt="Skill Octopunch"/> Buccaneer</li>
+                <li><img src="/class-icons/explorers/buccaneer/sea-serpent-burst.png" alt="Skill Sea Serpent Burst"/> Buccaneer</li>
                 <li><img src="/class-icons/explorers/dual-blade/bloody-storm.png" alt="Skill Bloody Storm"/> Dual Blade</li>
                 <li><img src="/class-icons/explorers/hero/combo-attack.png" alt="Skill Combo Attack"/> Hero</li>
                 <li><img src="/class-icons/explorers/marksman/snipe.png" alt="Skill Snipe"/> Marksman</li>

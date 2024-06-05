@@ -199,7 +199,7 @@ export function ClassInfographic({ infographic, title }) {
 
     return (
         <span>
-            <Chip label={title} className="hvr-grow" onClick={handleShow} clickable size="large"/>
+            <Chip label={title} className="hvr-grow" onClick={handleShow} clickable size="large" style={{marginRight: '0.5rem'}}/>
             <Modal centered show={show} onHide={handleClose} aria-labelledby="infographic-image" size="lg">
                 <Modal.Header closeButton>
                     <Modal.Title id="infographic-image">
