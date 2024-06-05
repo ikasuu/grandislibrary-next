@@ -230,7 +230,7 @@ function ClassBuffs({content}) {
   return (
       <div>
         <BuffAndActivesWrapper md="auto">
-            <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order. Durations and cooldowns are based on their base value at Max Level. Does not include 6th Job."/></StyledHeaderTwo>
+            <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order. Durations and cooldowns are based on their base value at Max Level. Does not include Common 5th Job."/></StyledHeaderTwo>
             <Table size="sm">
             <tbody>
                 <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
