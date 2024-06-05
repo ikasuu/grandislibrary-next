@@ -1,4 +1,4 @@
-#  Updated: 2024-05-31 12:00:38
+#  Updated: 2024-06-03 11:36:57
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -27,7 +27,6 @@
 #  you can email us at: info@publisher-collective.com
 #
 # -----------------------------------------------------
-152media.info, 152M658, RESELLER
 33across.com, 0010b00001siQHqAAM, RESELLER, bbea06d9c4d2853c
 33across.com, 0010b00002CpYhEAAV, RESELLER, bbea06d9c4d2853c
 33across.com, 0010b00002ODU4HAAX, RESELLER, bbea06d9c4d2853c
@@ -49,13 +48,13 @@ admanmedia.com, 1061, RESELLER
 admanmedia.com, 43, RESELLER
 admanmedia.com, 726, RESELLER
 admanmedia.com, 799, RESELLER
-admixer.net, 5e789729-1e92-41ca-8b4f-987c6edae9fe, RESELLER
-admixer.net, b81743f7-b474-4c19-8479-8697021abdd2, RESELLER
+admixer.com, 5e789729-1e92-41ca-8b4f-987c6edae9fe, RESELLER
+admixer.com, b81743f7-b474-4c19-8479-8697021abdd2, RESELLER
 adwmg.com, 100798, DIRECT, c9688a22012618e7
-adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER, 4ad745ead2958bf8
-adyoulike.com, 9fd2b9007240771df3a999a8db601cd3, DIRECT
+adyoulike.com, 7463c359225e043c111036d7a29affa5, RESELLER, 4ad745ead2958bf7
+adyoulike.com, 9fd2b9007240771df3a999a8db601cd3, DIRECT, 4ad745ead2958bf7
 adyoulike.com, b4bf4fdd9b0b915f746f6747ff432bde, RESELLER, 4ad745ead2958bf7
-adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER, 4ad745ead2958bf9
+adyoulike.com, e102ab4faade732565927e57d62d6b8b, RESELLER, 4ad745ead2958bf7
 amitydigital.io, 493, RESELLER
 amxrtb.com, 105199514, RESELLER
 amxrtb.com, 105199691, RESELLER
@@ -80,7 +79,7 @@ appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3251, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3663, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
-appnexus.com, 6849, RESELLER
+appnexus.com, 6849, RESELLER, f5ab79cb980f11d1
 appnexus.com, 6979, RESELLER, f5ab79cb980f11d1
 appnexus.com, 8173, RESELLER, f5ab79cb980f11d1
 appnexus.com, 8826, RESELLER, f5ab79cb980f11d1
@@ -158,7 +157,7 @@ improvedigital.com, 2050, RESELLER
 indexexchange.com, 183753, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 189344, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 189345, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 189744, RESELLER
+indexexchange.com, 189744, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191306, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 192410, RESELLER, 50b1c356f2c5c8fc
@@ -260,7 +259,7 @@ pubmatic.com, 158540, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158682, DIRECT, 5d62403b186f2ace
 pubmatic.com, 158684, DIRECT, 5d62403b186f2ace
 pubmatic.com, 159110, RESELLER, 5d62403b186f2ace
-pubmatic.com, 159277, RESELLER
+pubmatic.com, 159277, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159463, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159477, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159988, RESELLER, 5d62403b186f2ace
@@ -292,7 +291,7 @@ rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13856, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13918, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 15268, RESELLER
+rubiconproject.com, 15268, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16920, RESELLER, 0bfd66d529a55807
