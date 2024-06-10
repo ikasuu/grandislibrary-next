@@ -143,61 +143,9 @@ function ProgressionGuide() {
             <VMatrix/>
             <LegionSystem/>
             <RewardPoints/>
-            <ArticleHeaderTwo id="auction">Auction House in Interactive Worlds:</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/auction-house.png" alt="Auction House"/>
-            <p>Auction House in Interactive Worlds allows you to buy and sell items to other players. You can buy anything from equipment, potions, to cosmetic items like chairs and cash clothing. As well, you can also buy <a rel="noreferrer noopener" href="https://maplestory.nexon.net/micro-site/53117" target="_blank">Wonderberry</a> pets here that pick up items for you</p>
-            <p><img className="repository-image" src="/images/info/auction-house-button.png" alt="Auction House Button"/></p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <AuctionHouse/>
             <BannerAdThree/>
-            <ArticleHeaderTwo id="content">Important Content:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li><strong>[Interactive Worlds] Spell Tracing: </strong>Using <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Traces, you can upgrade your gear to gain more stats
-                <ul>
-                    <li><strong style={{color: '#ff6600'}}>[Heroic Worlds]: </strong>Can be sold for Mesos</li>
-                </ul>
-                </li>
-                <li><strong>Star Forcing: </strong>Enhancements that provide bonus stats depending on the amount of Star Force that is on an item</li>
-                <li><strong>[Lv. 35] <a href="https://strategywiki.org/wiki/MapleStory/Professions" target="_blank" rel="noreferrer noopener">Professions / Crafting</a></strong>: Crafting may be important if you cannot find any new gear for your level. It is an easy and useful way to obtain equipment for your level
-                <ul>
-                    <li> <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <img src="/images/items/eternal-rebirth-flame.png" alt="Use Eternal Rebirth Flame"/> [Special Rebirth Flames] and <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> <img src="/images/items/solid-cube.png" alt="Use Solid Cube"/> [Special Cubes] can also be crafted using Professions</li>
-                    <li><strong>[Traits Stats]: </strong>You can also find your <a href="https://strategywiki.org/wiki/MapleStory/Traits" target="_blank" rel="noreferrer noopener">Traits</a> that grant your character small bonuses in your Professions UI</li>
-                </ul>
-                </li>
-                <li><strong>[Lv. 50] <a href="https://strategywiki.org/wiki/MapleStory/Inner_Ability" target="_blank" rel="noreferrer noopener">Inner Ability</a></strong>: Bonuses that add extra stats to your character. They work similar to potentials and can be reset using <img src="/images/items/medal-of-honor.png" alt="Use Medal of Honor"/>  <img src="/images/items/special-medal-of-honor.png" alt="Use Boss Medal of Honor"/> Honor EXP</li>
-                <li><strong>[Lv. 70] </strong><a href="https://maplestorywiki.net/w/Link_Skill" target="_blank" rel="noreferrer noopener"><strong>Link Skills</strong></a>: Class-Unique skill that can be shared with another character in your world</li>
-                <li><strong>[Lv. 100+] Star Force Maps</strong>: Special maps that require you to have a certain amount of Star Force Enhancements on your equipment to deal damage to monsters. Monsters here have more HP but in return give more EXP
-                <ul>
-                    <li><strong>[Note]: </strong>If this is your first time playing, training in these areas may be difficult as they are a lot stronger than normal monsters! If you are up for the challenge, try training here. Be sure to be appropriately geared up though</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">Monster Park</a></strong>: Completing Monster Park will reward you with a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coin]</a> to use in a special shop
-                <ul>
-                    <li>Great for early levels as you gain a lot of EXP</li>
-                    <li>Special shop sells special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that are transferable within your account (given same World) that grant useful buffs for training</li>
-                    <li>Completing Monster Park 77 times for each day of the week will reward you a special <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Medal]</a> that gives +10% Ignore Enemy Defence</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> <strong>[Lv. 105+] </strong><strong>Maple Tour: </strong>Completing Maple Tour will reward you with Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coins"/> [Maple Tour Coins] to buy special items at Maple Tour
-                <ul>
-                    <li><strong style={{color: '#ff6600'}}>[Heroic World Important]: </strong>In Heroic Worlds, the amount of Mesos rewarded is increased and is considered a main activity because of this!</li>
-                    <li>Provides some decent money to start out with and can be completed fairly quickly each day</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <strong> [Lv.125+] </strong><strong style={{color: '#ff6600'}}>[Heroic World] </strong><strong><a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a></strong>: <img src="/images/equipment/royal-von-leon-suit.png" alt="Eqp Marx Von Leon Battle Suit"/> Royal Von Leon equipment dropped by Von Leon is useful for Heroic World progression
-                <ul>
-                    <li>Equipment is considered a Boss Item, it will gain additional Bonus Stats compared to normal equipment</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/yu-garden.png" alt="MapIcon ShangHaiCN"/> <strong>[Lv. 140] <span style={{color: '#ff6600'}}>[Heroic World]</span><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener">The Far East (Yu Garden)</a></strong>: Provides an easy source to <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Heroic Worlds</li>
-                <li><strong>[SPECIAL] <a href="https://maplestorywiki.net/w/Legion_System" target="_blank" rel="noreferrer noopener">Legion System</a></strong>: A system that is unlocked when you have either a total of 500 levels within your World from your characters or have reached Lv. 200 and completed the 5th Job Advancement. You can assign your characters onto a grid to provide bonuses to all your characters in your World. Additionally, you will passively gain <img src="/images/items/legion-coin.png" alt="Etc Legion Coin"/> <a href="https://maplestorywiki.net/w/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a> to use to buy items from <a href="https://maplestorywiki.net/w/Squire_Pancho_Sanza" target="_blank" rel="noreferrer noopener">Squire Pancho Sanza</a>
-                <ul>
-                    <li><strong>Notable Items</strong>: <img src="/images/items/legion-expertise.png" alt="Use Legion's Expertise"/> [EXP Booster], <img src="/images/items/legion-luck.png" alt="Use Legion's Luck"/> [Drop Rate Booster], <img src="/images/items/legion-wealth.png" alt="Use Legion's Wealth"/> [Meso Rate Booster], <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls], <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> [Hard Cube], <img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/> [Bonus Potential Scrolls] and <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> [Powerful Rebirth Flames]</li>
-                </ul>
-                </li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <ImportantContent/>
             <ArticleHeaderTwo id="questlines">Important Questlines to Complete:</ArticleHeaderTwo>
             <hr/>
             <p>Questlines here unlock access to bosses or reward worthwhile equipment</p>
@@ -1383,8 +1331,8 @@ function ProgressionGuide() {
                     <li>Completing Monster Park 77 times for each day of the week will reward you a <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Best-in-Slot for Bossing Medal]</a> that gives +10% Ignore Enemy Defence</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> <strong>[Lv. 105+] [Daily] </strong><strong>Maple Tour: </strong>Completing Maple Tour will reward you with Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] to buy special items at Maple Tour</li>
-                <li><img src="/images/map-icons/yu-garden.png" alt="MapIcon ShangHaiCN"/> <strong>[Lv. 140+] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>[] [Daily] The Far East (Yu Garden)</strong></a>: Completing The Far East storyline will unlock Daily Quests
+                <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon Maple Tour"/> <strong>[Lv. 105+] [Daily] </strong><strong>Maple Tour: </strong>Completing Maple Tour will reward you with Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] to buy special items at Maple Tour</li>
+                <li><img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140+] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>[] [Daily] The Far East (Yu Garden)</strong></a>: Completing The Far East storyline will unlock Daily Quests
                     <ul>
                     <li><strong>Main Reward:</strong> <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Heroic Worlds only</li>
                     </ul>
@@ -1623,7 +1571,7 @@ function ProgressionGuide() {
                     <li><strong>Main Rewards: </strong> <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal]</li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/yu-garden.png" alt="MapIcon ShangHaiCN"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>The Far East (Yu Garden)</strong></a>: Accessible from <a href="https://maplestory.wiki/GMS/210.1.1/map/104020000" target="_blank" rel="noreferrer noopener">Six Path Crossway</a>
+                <li> <img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>The Far East (Yu Garden)</strong></a>: Accessible from <a href="https://maplestory.wiki/GMS/210.1.1/map/104020000" target="_blank" rel="noreferrer noopener">Six Path Crossway</a>
                 <ul>
                     <li>After completing the storyline here, there are daily quests that reward you <img src="/images/items/yu-garden-coin.png" alt="Etc Yu Garden Coin"/> [Yu Garden Coins] a special currency</li>
                     <li><strong>Main Rewards: </strong> <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [<em>(Heroic World Only)</em> Epic Potential Scroll], <img src="/images/equipment/horseback-riding-doll-totem.png" alt="Eqp Horseback Riding Doll Totem"/> <img src="/images/equipment/jade-kettle-totem.png" alt="Eqp Jade Kettle Totem"/> <img src="/images/equipment/bronze-incense-burner-totem.png" alt="Eqp Bronze Incense Burner Totem"/> [Totems],</li>
@@ -2311,7 +2259,7 @@ function Level140Beyond(){
             <p>Upon reaching Lv. 140, remember to fill all equipment slots and Star Force each equipment to at least 12 Stars. As well, reveal all the potentials on your equipment and to use cubes to reroll for some %Main Stat or Epic Potential</p>
             <p>For more info on enhancing equipment, check out <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a></p>
             <p>For extra mesos, equipment, and <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2711001" target="_blank">Mystical Cubes</a>, try the following bosses from the &lt; 2k Main Stat section of the <a href="https://www.grandislibrary.com/contents/progression-guide#bosses">Bosses</a></p>
-            <p>As well, complete <img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> Maple Tour every day for Mesos</p>
+            <p>As well, complete <img src="/images/map-icons/maple-tour.png" alt="MapIcon Maple Tour"/> Maple Tour every day for Mesos</p>
         </div>
     );
 };
@@ -2468,6 +2416,66 @@ function RewardPoints(){
                 <li>Monster Collection Explorations</li>
                 <li>Playing MapleStory M, the mobile game</li>
                 <li>Fairy Bros Daily Gift Reward</li>
+            </ul>
+        </div>
+    );
+};
+
+function AuctionHouse(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="auction">Auction House in Interactive Worlds:</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/auction-house.png" alt="Auction House"/>
+            <p>The Auction House is a system in Interactive Worlds to buy and sell items with other players. You can buy anything from equipment, consumables, or cosmetic items like chairs and cash clothing. As well, you can also buy <a rel="noreferrer noopener" href="https://maplestory.nexon.net/micro-site/53117" target="_blank">Wonderberry</a> pets here that pick up items for you</p>
+            <p><img className="repository-image" src="/images/info/auction-house-button.png" alt="Auction House Button"/></p>
+        </div>
+    );
+};
+
+function ImportantContent(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="content">Important Content:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li><strong>[Interactive Worlds] Spell Tracing</strong>: <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Traces are used for upgrading gear based on the number of "Remaining Enhancements" an equipment has
+                    <ul>
+                        <li><strong style={{color: '#ff6600'}}>[Heroic Worlds]</strong>: Can be sold for Mesos</li>
+                    </ul>
+                </li>
+                <li><strong>Star Forcing</strong>: Enhancements that provide stats based on the number of succssful Star Force on an item</li>
+                <li><strong>[Lv. 35] <a href="https://strategywiki.org/wiki/MapleStory/Professions" target="_blank" rel="noreferrer noopener">Professions / Crafting</a></strong>: Crafting may be useful if you cannot find new gear for earlier levels
+                    <ul>
+                        <li><img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <img src="/images/items/eternal-rebirth-flame.png" alt="Use Eternal Rebirth Flame"/> [Special Rebirth Flames] and <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> <img src="/images/items/solid-cube.png" alt="Use Solid Cube"/> [Special Cubes] can also be crafted using Professions</li>
+                        <li><strong>[Traits Stats]</strong>: <a href="https://strategywiki.org/wiki/MapleStory/Traits" target="_blank" rel="noreferrer noopener">Traits</a> are also found in the Professions UI that grant small bonuses</li>
+                    </ul>
+                </li>
+                <li><strong>[Lv. 50] <a href="https://strategywiki.org/wiki/MapleStory/Inner_Ability" target="_blank" rel="noreferrer noopener">Inner Ability</a></strong>: Rerollable stats similar to potentials but tied to your character that are rerolled using <img src="/images/items/medal-of-honor.png" alt="Use Medal of Honor"/>  <img src="/images/items/special-medal-of-honor.png" alt="Use Boss Medal of Honor"/> Honor EXP</li>
+                <li><strong>[Lv. 70] </strong><a href="https://maplestorywiki.net/w/Link_Skill" target="_blank" rel="noreferrer noopener"><strong>Link Skills</strong></a>: Class-Unique skill that can be shared with another character in your World</li>
+                <li><strong>[Lv. 100+] Star Force Maps</strong>: Training maps that require a set amount of Star Force Enhancements on your equipment to deal damage to monsters that have more HP but give more EXP</li>
+                <li> <img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">Monster Park</a></strong>: Stage-based dungeons that reward a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coin]</a> for exchanging items
+                    <ul>
+                        <li>Special shop sells special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that grant useful buffs</li>
+                        <li>Completing Monster Park 77 times for each day of the week rewards a <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Medal]</a> that gives +10% Ignore Enemy Defence</li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/maple-tour.png" alt="MapIcon Maple Tour"/> <strong>[Lv. 105+] </strong><strong>Maple Tour</strong>: Stage-based dungeons that reward Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coins"/> [Maple Tour Coins] for exchanging items
+                    <ul>
+                        <li>Mesos are accumulated and can be retrieved 7 days later for the full amount or retrieved earlier for half the amount</li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <strong>[Lv.125+]<span style={{color: '#ff6600'}}>[Heroic World]</span> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a></strong>: <img src="/images/equipment/royal-von-leon-suit.png" alt="Eqp Marx Von Leon Battle Suit"/> Royal Von Leon equipment dropped by Von Leon is useful for Heroic World progression
+                    <ul>
+                        <li>Equipment is considered a Boss Item and gains additional Bonus Stats compared to normal equipment</li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140] <span style={{color: '#ff6600'}}>[Heroic World]</span> <a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener">The Far East (Yu Garden)</a></strong>: Provides an easy source to <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Heroic Worlds</li>
+                <li><strong>[SPECIAL] <a href="https://maplestorywiki.net/w/Legion_System" target="_blank" rel="noreferrer noopener">Legion System</a></strong>: A system that provides important stats which is unlocked upon accumulating a total of 500 levels within your World or after reaching Lv. 200 and completing the 5th Job Advancement. By assigning characters onto a grid, bonus stats are given to all characters in the same World. Additionally, <img src="/images/items/legion-coin.png" alt="Etc Legion Coin"/> <a href="https://maplestorywiki.net/w/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a> are generated passively that can be exchanged for items
+                    <ul>
+                        <li><strong>Notable Items</strong>: <img src="/images/items/legion-expertise.png" alt="Use Legion's Expertise"/> [EXP Booster], <img src="/images/items/legion-luck.png" alt="Use Legion's Luck"/> [Drop Rate Booster], <img src="/images/items/legion-wealth.png" alt="Use Legion's Wealth"/> [Meso Rate Booster], <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls], <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> [Hard Cube], <img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/> [Bonus Potential Scrolls] and <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> [Powerful Rebirth Flames]</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     );

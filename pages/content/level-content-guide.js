@@ -388,7 +388,7 @@ function Level100(){
             <li>Completing Monster Park 77 times for each day of the week will reward a <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Medal]</a> that provides +10% Ignore Enemy Defense</li>
           </ul>
         </li>
-        <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon MTour"/> <strong>[Lv. 105] [Recommended] Maple Tour</strong>: Accessible through the Dimensional Mirror. Maple Tour is similar to Monster Park, but instead reward Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] that can be exchanged for items
+        <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon Maple Tour"/> <strong>[Lv. 105] [Recommended] Maple Tour</strong>: Accessible through the Dimensional Mirror. Maple Tour is similar to Monster Park, but instead reward Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] that can be exchanged for items
           <ul>
             <li>Mesos are accumulated and can be retrieved 7 days later for the full amount or retrieved earlier for half the amount</li>
             <li>Can be completed 2 times per day for free and extra runs will cost <a href="http://maplestory.nexon.net/game/beginners-guide/shop" target="_blank" rel="noreferrer noopener">Maple Points</a></li>
