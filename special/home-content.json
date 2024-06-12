@@ -23,22 +23,28 @@
     ],
     "recent": [
         {
+            "title": "V.251 GO WEST! Patch Notes",
+            "image": "/home-thumbnail/go-west.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/17541/v-251-go-west-patch-notes",
+            "subtitle": "June 11, 2024"
+        },
+        {
             "title": "V.250 Mayple Island Patch Notes",
             "image": "/home-thumbnail/mayple-island.jpg",
             "link": "https://maplestory.nexon.net/news/91576/v-250-mayple-island-patch-notes",
-            "subtitle": "May 1, 2023"
+            "subtitle": "May 1, 2024"
         },
         {
             "title": "V.249 Minar Picnic Patch Notes",
             "image": "/home-thumbnail/minar-picnic.jpg",
             "link": "https://maplestory.nexon.net/news/90462/v-249-minar-picnic-patch-notes",
-            "subtitle": "March 19, 2023"
+            "subtitle": "March 19, 2024"
         },
         {
             "title": "V.248 MapleStory X KONOSUBA Patch Notes",
             "image": "/home-thumbnail/konosuba.jpg",
             "link": "https://maplestory.nexon.net/news/89340/v-248-maplestory-x-konosuba-patch-notes",
-            "subtitle": "February 22, 2023"
+            "subtitle": "February 22, 2024"
         },
         {
             "title": "V.247 New Age: Into the Abyss Patch Notes",
@@ -51,12 +57,6 @@
             "image": "/home-thumbnail/6th-job.jpg",
             "link": "https://maplestory.nexon.net/news/86907/v-246-new-age-6th-job-patch-notes",
             "subtitle": "November 14, 2023"
-        },
-        {
-            "title": "V.245 Midnight Carnival - Nautilus Patch Notes",
-            "image": "/home-thumbnail/midnight-carnival.jpg",
-            "link": "https://maplestory.nexon.net/news/86272/updated-11-8-v-245-midnight-carnival-nautilus-patch-notess",
-            "subtitle": "October 12, 2023"
         }
     ],
     "upcoming": [
