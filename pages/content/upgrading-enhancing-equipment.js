@@ -334,7 +334,7 @@ function UpgradeEquipment() {
               <li>
                   <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062009">[Glowing Cube]</a>: </strong>Rerolls potential of items up to LEGENDARY
                   <ul>
-                      <li>Found in the Cash Shop, Reward Points Shop and from Fairy Bros' Daily Gift</li>
+                      <li>Found in the Cash Shop, Reward Points Shop and from MAPLE Daily Gift</li>
                       <li>Occasionally also found in Event Shops</li>
                   </ul>
               </li>
@@ -342,7 +342,7 @@ function UpgradeEquipment() {
                   <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062010" target="_blank" rel="noreferrer noopener">[Bright Cube]</a>: </strong>Rerolls potential of items
                   up to LEGENDARY. You also have the chance to choose which potential you want, your Current one or the New one
                   <ul>
-                      <li>Found in the Cash Shop, Reward Points Shop and from Fairy Bros' Daily Gift</li>
+                      <li>Found in the Cash Shop, Reward Points Shop and from MAPLE Daily Gift</li>
                       <li>Has a higher chance than Glowing Cubes to tier up equipment</li>
                       <li>Occasionally also found in Event Shops</li>
                   </ul>
@@ -351,7 +351,7 @@ function UpgradeEquipment() {
                   <img src="/images/items/bonus-glowing-cube.png" alt="Cash Bonus Glowing Cube"/> <strong><a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Bonus Potential Cube]</a>: </strong>Rerolls the
                   BONUS potential of items up to LEGENDARY
                   <ul>
-                      <li>Found in the Cash Shop and from Fairy Bros' Daily Gift</li>
+                      <li>Found in the Cash Shop and from MAPLE Daily Gift</li>
                   </ul>
               </li>
             </ul>
@@ -361,7 +361,7 @@ function UpgradeEquipment() {
             <p>To reroll Bonus Stats, you need to use items called "Rebirth Flames". Regular rebirth flames that have a "LV. X" attached to it can only reroll certain items up to that specified level and are dropped by Bosses. These regular flames yield lower tiers compared to special ones. You can identify which equipment can be flamed by hovering over them and checking the top left corner of the equipment icon. If there is a transparent dot, it can be flamed with regular rebirth flames. If there is a white dot, it can only be flamed with special rebirth flames</p>
             <p><img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/><img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/><img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/><img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/><img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> Regular Rebirth Flames: <a href="https://maplestory.wiki/GMS/210.1.1/item/2048700" target="_blank" rel="noreferrer noopener">[Lv. 110]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048701" target="_blank" rel="noreferrer noopener">[Lv. 120]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048702" target="_blank" rel="noreferrer noopener">[Lv. 130]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048703" target="_blank" rel="noreferrer noopener">[Lv. 140]</a>, and <a href="https://maplestory.wiki/GMS/214/item/2048704" target="_blank" rel="noreferrer noopener">[Lv. 150]</a></p>
             <p><img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/><img src="/images/items/eternal-rebirth-flame.png" alt="Use Eternal Rebirth Flame"/> Special Rebirth Flames: <a href="https://maplestory.wiki/GMS/214/item/2048716">[Powerful Rebirth Flame]</a> and <a href="https://maplestory.wiki/GMS/214/item/2048717" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a></p>
-            <p>Powerful Rebirth Flames and Eternal Rebirth Flames can reroll any equipment with Bonus Stats. They can also provide the best Bonus Stats possible. These special Rebirth Flames can be crafted, sold in Event Shops, given from Fairy Bros' Daily Gift or sometimes dropped by Elite Monsters and Bosses</p>
+            <p>Powerful Rebirth Flames and Eternal Rebirth Flames can reroll any equipment with Bonus Stats. They can also provide the best Bonus Stats possible. These special Rebirth Flames can be crafted, sold in Event Shops, given from MAPLE Daily Gift or sometimes dropped by Elite Monsters and Bosses</p>
             <p>Additionally, there is a special Rebirth Flame called the <img src="/images/items/black-rebirth-flame.png" alt="Black Rebirth Flame"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2048753" target="_blank">Black Rebirth Flame</a> that is only available from Event Shops which functions just like an Eternal Rebirth Flame but you can choose between your previous stats or the current ones similar to the <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5062010" target="_blank">Bright Cube</a> for Potentials</p>
             <h4>Item Dots <em>(refer to [04] on the top image)</em></h4>
             <p>On the top left corner of an equipment icon when hovering over it, there is a dot that indicates if a Regular Rebirth Flame can be applied to that equipment</p>

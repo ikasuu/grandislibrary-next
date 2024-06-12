@@ -164,16 +164,6 @@ function ProgressionGuide() {
                     <li><img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> <img src="/images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/> Coins dropped from the bosses can be used to buy useful <img src="/images/equipment/antique-leaf-shoulder.png" alt="Eqp Antique Leaf Shoulder"/> <img src="/images/equipment/antique-root-shoulder.png" alt="Eqp Antique Root Shoulder"/> equipment for Transfer Hammer</li>
                 </ul>
                 </li>
-                <li> <img src="/images/map-icons/blockbuster.png" alt="MapIcon BlockBuster"/> <strong>[Lv. 120] <a href="https://maplestorywiki.net/w/Epic/Black_Heaven" target="_blank" rel="noreferrer noopener">[Blockbuster] Black Heaven</a></strong>: Completing Black Heaven will unlock access to the boss <img src="/images/map-icons/lotus-boss.png" alt="Mobicon Lotus"/> Lotus
-                <ul>
-                    <li>Completing this on one character will unlock access for all your characters in the same world</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/blockbuster.png" alt="MapIcon BlockBuster"/> <strong>[Lv. 135] <a href="https://maplestorywiki.net/w/Epic/Heroes_of_Maple" target="_blank" rel="noreferrer noopener">[Blockbuster] Heroes of Maple</a></strong>: Completing Act 4 will unlock access to <img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> Damien
-                <ul>
-                    <li>Completing this on one character will unlock access for all your characters in the same world</li>
-                </ul>
-                </li>
                 <li> <img src="/images/map-icons/silent-crusade.png" alt="MapIcon CrossHunter"/> <strong> [Lv. 140] <a href="https://maplestorywiki.net/w/Quests/1/(Silent_Crusade)_A_Cry_for_Help" target="_blank" rel="noreferrer noopener">[Silent Crusade] A Cry for Help</a></strong>: Completing Silent Crusade unlocks access to <img src="/images/map-icons/arkarium.png" alt="MapIcon Akairum"/> <a href="https://maplestorywiki.net/w/Arkarium" target="_blank" rel="noreferrer noopener">Arkarium</a>
                 </li>
                 <li> <img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Princess_No"><strong>Hieizan Temple</strong></a>: Completing this storyline will unlock access to the boss <img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> Princess No
@@ -182,9 +172,6 @@ function ProgressionGuide() {
                 <li> <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon Henesys Ruins"/> <img src="/images/map-icons/stronghold.png" alt="MapIcon Stronghold"/> <strong>[Lv. 160]</strong>  <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Gate to the Future</strong></a>: Completing questline will unlock access to <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> Normal Cygnus</li>
                 <li>
                 <img src="/images/map-icons/masteria-through-time.png" alt="MapIcon Masteria Through Time" /> <strong>[Lv. 160]</strong><strong> <a href="https://maplestorywiki.net/w/Epic/Masteria_Through_Time" target="_blank" rel="noreferrer noopener">[Blockbuster] Masteria Through Time</a></strong>: Completing blockbuster will reward you with <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1142962" target="_blank" rel="noreferrer noopener">[Best-in-slot Medal]</a>, <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662090" target="_blank" rel="noreferrer noopener">[Subani-Roid]</a> OR <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662091" target="_blank" rel="noreferrer noopener">[Dr. Jang-Roid]</a> androids with NPC Vendor</li>
-                <li>
-                    <img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> <strong>[Lv. 200] <a href="https://maplestorywiki.net/w/Quests/137/(The_Asura_Crisis)_Back_to_Momijigaoka" target="_blank" rel="noreferrer noopener">The Asura Crisis</a></strong>: Completing the storyline will unlock access to the boss <img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> Akechi Mitsuhide
-                </li>
                 <li>
                     <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong>[Lv. 210] <a href="https://maplestorywiki.net/w/Quests/243/(Ramuramu)_Psych_Exam" target="_blank" rel="noreferrer noopener">Ramuramu</a></strong>: Completing the storyline will unlock access to the boss <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> Guardian Angel Slime
                 </li>
@@ -1313,11 +1300,11 @@ function ProgressionGuide() {
             <hr/>
             <p>A majority of Daily and Weekly Quests are mostly done at Lv. 200+. Characters pre-200 do not need to worry about these quests as much</p>
             <ul>
-                <li><img src="/images/map-icons/lil-wonky.png" alt="Lil Wonky Pet"/> <strong>[Lv. Any] [Daily] Fairy Bros Daily Gift</strong>: Defeat 300 enemies around you level each day to obtain a free check-in gift <br/>
+                <li><img src="/images/map-icons/lil-wonky.png" alt="Lil Wonky Pet"/> <strong>[Lv. Any] [Daily] MAPLE Daily Gift</strong>: Defeat 300 enemies around you level each day to obtain a free check-in gift <br/>
                     <ul>
                     <li>There are a total of 28 check-ins and your check-ins reset every month</li>
-                    <li>Once you've reached 300 enemies, a pop up will appear shortly, if not, you can try opening up the Fairy Bros UI</li>
-                    <li>To open the Fairy Bros UI, click on the green icon with a check mark on the bottom right and then click on "Daily Gift"
+                    <li>Once you've reached 300 enemies, a pop up will appear shortly, if not, you can try opening up the MAPLE Daily Gift UI</li>
+                    <li>To open the MAPLE Daily Gift UI, click on the green icon with a check mark on the bottom right and then click on "Daily Gift"
                         <ul>
                         <li>If you don't see the icons, try pressing "]" by default</li>
                         </ul>
@@ -1796,9 +1783,9 @@ function ProgressionGuide() {
                 <li><strong>(Lv. 105) [Monster Park] Monster Park Grand Re-opening</strong> - Quest to get started with Monster Park, a special dungeon area that provides EXP when completed</li>
                 <li><strong>(Lv. 115) [Papulatus] The Light of Chaos </strong>- Starts the pre-quests for the boss Papulatus</li>
                 <li><strong>(Lv. 120) [Ranmaru] Call of Princess Sakuno: Stop Mori Ranmaru! </strong>- Short dialogue quest that unlocks access to the boss Mori Ranmori</li>
-                <li><strong>(Lv. 120) [Black Heaven] For Maple World </strong>- A long storyline with multiple Acts. Completing Black Heaven will unlock access to the boss <img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> Lotus (but cannot be fought until Lv. 190)
+                <li><strong>(Lv. 120) [Black Heaven] For Maple World </strong>- A long storyline with multiple Acts
                 <ul>
-                    <li>Completing this on one character will unlock access to Lotus for all your characters in the same world</li>
+                    <li>Black Heaven is not required to unlock access to Lotus</li>
                     <li><strong>Act 2 Rewards:</strong> <img src="/images/equipment/ace-of-the-alliance.png" alt="Eqp Ace of the Alliance"/> [Medal], <img src="/images/items/hanging-with-neinheart-chair.png" alt="Setup Hanging with Neinheart Chair"/> <a href="https://maplestory.wiki/GMS/215/item/3015030" target="_blank" rel="noreferrer noopener">[Chair]</a>
                     </li>
                     <li><strong>Act 4 Rewards:</strong> <img src="/images/equipment/android-helmet.png" alt="Eqp Android Helmet"/> <a href="https://maplestory.wiki/GMS/215/item/1004392" target="_blank" rel="noreferrer noopener">[Hat]</a>
@@ -1806,14 +1793,9 @@ function ProgressionGuide() {
                     <li><strong>Act 6 Rewards:</strong> <img src="/images/equipment/maple-world-savior.png" alt="Eqp Maple World Savior"/> [Medal], <img src="/images/items/orchids-support-mount.png" alt="Skill Orchid's Support Mount"/> <img src="/images/items/athena-pierces-support-mount.png" alt="Skill Athena Pierce's Support Mount"/> [Choice of 1 mount (lasts 30 days)]</li>
                 </ul>
                 </li>
-                <li><strong>(Lv. 135) [Heroes] Feelings of Misfortune </strong>- A long storyline with multiple acts where you get to play as the five Heroes of Maple (Mercedes, Phantom, etc.)
+                <li><strong>(Lv. 135) [Heroes] Feelings of Misfortune </strong>- A storyline with multiple acts where you play as the five Heroes of Maple (Mercedes, Phantom, etc.)
                 <ul>
-                    <li>Completing Act 4 will unlock access to <img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> Damien (but cannot be fought until Lv. 190)
-                    <ul>
-                        <li>You do not need to do the other 3 acts</li>
-                        <li>Completing this on one character will unlock access to Damien for all your characters in the same world</li>
-                    </ul>
-                    </li>
+                    <li>Heroes of Maple is not required to unlock access to the boss Damien</li>
                     <li>Completing all Acts twice will grant <img src="/images/items/heroes-cube-chair-evan.png" alt="Setup Heroes Cube Chair - Evan"/> <a href="https://maplestory.wiki/GMS/215/item/3017016" target="_blank" rel="noreferrer noopener">[Chair]</a>
                     </li>
                     <li><strong>Act 1 Rewards: </strong> <img src="/images/items/heroes-cube-chair-aran.png" alt="Setup Heroes Cube Chair - Aran"/> <a href="https://maplestory.wiki/GMS/215/item/3017011" target="_blank" rel="noreferrer noopener">[Chair]</a>
@@ -1841,7 +1823,6 @@ function ProgressionGuide() {
                 <li><strong>(Lv. 180) [Gollux] The Cracks of Corruption </strong>- Short dialogue quest that unlocks access to the boss Gollux</li>
                 <li><strong>(Lv. 190) [Haven] A New Home </strong>- Pre-quests to unlock access to Weekly Quests in the Scrapyard</li>
                 <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain </strong>- Pre-quests to unlock access to Weekly Quests in the Dark World Tree</li>
-                <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- Pre-quests to unlocking access to the boss Akechi Mitsuhide</li>
                 <li><strong>(Lv. 210) [Ramuramu] Psych Exam </strong>- Pre-quests to unlocking access to the boss Guardian Angel Slime</li>
                 <li>
                     <strong>(Lv. 235) [Kao's Memory] The First Memory </strong>- Begins a storyline involving <a href="https://maplestorywiki.net/w/Kao" target="_blank" rel="noopener noreferrer">Kao</a> between Lv. 235 to 255
@@ -2119,6 +2100,7 @@ function ProgressionGuide() {
                     </li>
                 </ul>
                 </li>
+                <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- A quest to start the Asura Crisis storyline</li>
             </ul>
         </ContentPage>
     );
@@ -2415,7 +2397,7 @@ function RewardPoints(){
                 </li>
                 <li>Monster Collection Explorations</li>
                 <li>Playing MapleStory M, the mobile game</li>
-                <li>Fairy Bros Daily Gift Reward</li>
+                <li>MAPLE Daily Gift Reward</li>
             </ul>
         </div>
     );
