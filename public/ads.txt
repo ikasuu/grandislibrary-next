@@ -1,4 +1,4 @@
-#  Updated: 2024-06-12 15:15:18
+#  Updated: 2024-06-14 12:21:35
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -142,7 +142,6 @@ google.com, pub-7734005103835923, RESELLER, f08c47fec0942fa0
 google.com, pub-7995104076770938, RESELLER, f08c47fec0942fa0
 google.com, pub-8309773808661346, RESELLER, f08c47fec0942fa0
 gumgum.com, 14141, RESELLER, ffdef49475d318a9
-gumgum.com, 14349, DIRECT, ffdef49475d318a9
 gumgum.com, 15609, DIRECT, ffdef49475d318a9
 hcodemedia.com, 439, RESELLER
 hoopladigital.co.uk, 21751981256, DIRECT
@@ -186,7 +185,6 @@ lijit.com, 408376, RESELLER, fafdf38b16bf6b2b
 limpid.tv, 920682, DIRECT
 loopme.com, 11227, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
-loopme.com, 11480, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 12754, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 9718, RESELLER, 6c8d5f95897a5a3b
@@ -409,8 +407,6 @@ wunderkind.co, 6800, DIRECT
 wunderkind.co, 6801, DIRECT
 xad.com, 958, RESELLER, 81cbf0a75a5e0e9a
 xandr.com, 14082, RESELLER
-yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
-yahoo.com, 58723, RESELLER
 yahoo.com, 59260, RESELLER
 yieldmo.com, 2754490424016969782, RESELLER
 yieldmo.com, 2757543169808605705, RESELLER
