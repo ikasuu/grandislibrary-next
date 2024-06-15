@@ -1523,7 +1523,7 @@ function ProgressionGuide() {
                 <li><strong>(Lv. 120) [Ranmaru] Call of Princess Sakuno: Stop Mori Ranmaru! </strong>- Short dialogue quest that unlocks access to the boss Mori Ranmori</li>
                 <li><strong>(Lv. 120) [Black Heaven] For Maple World </strong>- A long storyline with multiple Acts
                 <ul>
-                    <li>Black Heaven is not required to unlock access to Lotus</li>
+                    <li>Black Heaven is not required to unlock access to Lotus or weekly quests</li>
                     <li><strong>Act 2 Rewards:</strong> <img src="/images/equipment/ace-of-the-alliance.png" alt="Eqp Ace of the Alliance"/> [Medal], <img src="/images/items/hanging-with-neinheart-chair.png" alt="Setup Hanging with Neinheart Chair"/> <a href="https://maplestory.wiki/GMS/215/item/3015030" target="_blank" rel="noreferrer noopener">[Chair]</a>
                     </li>
                     <li><strong>Act 4 Rewards:</strong> <img src="/images/equipment/android-helmet.png" alt="Eqp Android Helmet"/> <a href="https://maplestory.wiki/GMS/215/item/1004392" target="_blank" rel="noreferrer noopener">[Hat]</a>

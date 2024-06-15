@@ -500,7 +500,7 @@ function Level120(){
         </li>
         <li><img src="/images/map-icons/blockbuster.png" alt="MapIcon BlockBuster"/> <strong>[Lv. 120] <a href="https://maplestorywiki.net/w/Epic/Black_Heaven" target="_blank" rel="noreferrer noopener">[Blockbuster] Black Heaven</a></strong>: A storyline with multiple Acts
           <ul>
-            <li>Black Heaven is not required to unlock access to the boss Lotus</li>
+            <li>Black Heaven is not required to unlock access to the boss Lotus or weekly quests</li>
             <li>Can be started from the Lightbulb Quest "[Black Heaven] For Maple World" and accessible from the Dimensional Mirror by clicking on <img alt="MapIcon Ereve" src="/images/map-icons/ereve.png"/> Ereve Conference Pavillion</li>
             <li>Completing each Act rewards <img src="/images/items/special-medal-of-honor.png" alt="Use Boss Medal of Honor"/> [Honor EXP]</li>
             <li><strong>Act 2 Rewards:</strong> <img src="/images/equipment/ace-of-the-alliance.png" alt="Eqp Ace of the Alliance"/> [Medal], <img src="/images/items/hanging-with-neinheart-chair.png" alt="Setup Hanging with Neinheart Chair"/> [Chair]</li>
@@ -577,7 +577,7 @@ function Level130(){
         </li>
         <li><img src="/images/map-icons/blockbuster.png" alt="MapIcon BlockBuster"/> <strong>[Lv. 135] <a href="https://maplestorywiki.net/w/Epic/Heroes_of_Maple" target="_blank" rel="noreferrer noopener">[Blockbuster] Heroes of Maple</a></strong>: A storyline with multiple acts where you play as the five Heroes of Maple (Mercedes, Phantom, etc.)
           <ul>
-            <li>Heroes of Maple is not required to unlock acccess to the boss Damien</li>
+            <li>Heroes of Maple is not required to unlock acccess to the boss Damien or weekly quests</li>
             <li>Accessible by accepting the quest in the Lightbulb icon called "[Heroes] Feelings of Misfortune"
               <ul>
                 <li>Can also be accessed from Dimensional Mirror by clicking on <img alt="MapIcon Ereve" src="/images/map-icons/ereve.png"/> Ereve Conference Pavillion after accepting quest</li>

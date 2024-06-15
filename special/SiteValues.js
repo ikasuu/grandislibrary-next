@@ -482,7 +482,7 @@ export const commonFifth = {
     },
     transcendentRhinnePrayer:{
         "name": "Transcendent Rhinne's Prayer",
-        "shortDesc": "Time Force Cost: 30, resets cooldowns for all skills except the skills that are not affected by cooldown reset.\\nDuration: 42 sec, Attack Power: +85. When Doubletime stacks, gives a buff that creates additional attack with 250% damage and 5 additional attacks to enemies you attack with your skills.\\n Additional hit buff disappears when additional attacks occurs, or if Transcendent Rhinne's Prayer ends.\\nDoubletime and Immune Barrier last for their maximum duration.\\nRhinne's Prayer is ready every 240 sec, and can bless up to 2 times.",
+        "shortDesc": "Time Force Cost: 30. Resets cooldowns for all skills except the skills that are not affected by cooldown reset.\\nDuration: 42 sec, Attack Power: +85, Final Damage: +7%. When Doubletime stacks, gives a buff that creates additional attack with 330% damage and 5 additional attacks to enemies you attack with your skills.\\nAdditional hit buff disappears when additional attacks occurs, or if Transcendent Rhinne's Prayer ends.\\nDoubletime and Immune Barrier last for their maximum duration.\\nRhinne's Prayer is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/transcendent-rhinnes-prayer.png"],
         "animations": ["https://media1.giphy.com/media/1l2KreXVnPRTEZaj1k/giphy.gif"],
