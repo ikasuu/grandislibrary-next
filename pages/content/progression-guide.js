@@ -148,892 +148,23 @@ function ProgressionGuide() {
             <ImportantContent/>
             <ImportantQuestlines/>
             <EquipmentContent/>
-            <h3>Progression towards Midgame:</h3>
-            <hr/>
-            <p>For info on upgrading and enhancing gear check out: <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a>
-            </p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <h3 id="spelltrace"> <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing in Interactive Worlds:</h3>
-            <hr/>
-            <p>In Interactive Worlds, be sure to upgrade all your gear with at least 70% Spell Tracing so that you can start Star Forcing your gear as well. On average, 70% Spell Tracing provides an optimal amount of stats compared to just 100% Spell Tracing your equipment</p>
-            <p>In Heroic Worlds, Spell Traces are unused and can be sold to NPCs for Mesos</p>
-            <img className="repository-image" src="/images/info/equipment-enchant-ui.png" alt="Equipment Enhance"/>
-            <img className="repository-image" src="/images/info/equipment-enchant-button.png" alt="Enhance Button"/>
-            <p>You can open the Equipment Enchant menu for Spell Tracing and Star Forcing by either pressing "O" by default or through your inventory by pressing the <strong>red button with a hammer</strong>
-            </p>
-            <p>Some ways to obtain Spell Traces are:</p>
-            <ul>
-                <li>Monster and Boss drops</li>
-                <li>Inferno Wolf + Pollo/Frito Missions</li>
-            </ul>
-            <h5>Spell Trace Fever:</h5>
-            <img className="repository-image" src="/images/info/spell-trace-fever.png" alt="Spell Trace Fever"/>
-            <p>Occasionally on Interactive Worlds, there are special events that take place where Spell Trace enhancements have a higher success rate. These are the best times to upgrade equipment you plan to invest a lot of time into. Unless you are planning to perfect a piece of equipment, you do not need to wait for this event to start Spell Tracing</p>
-            <h5>50% Off Spell Tracing:</h5>
-            <p>Occasionally on Interactive Worlds, during Sunny Sundays, there are events where Spell Tracing will cost half the amount. This is a good time to use Spell Traces on (Ark) Innocence Scrolls or Clean Slates but, Spell Trace Fever is much better still because of the increased rates. Also, using regular 10% Clean Slates and 50% Innocence Scrolls will probably be more cost-effective than using the Spell Tracing versions</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <h3 id="starforce">Star Forcing:</h3>
-            <hr/>
-            <img className="repository-image" src="/images/info/starforce-tooltip.png" alt="Star Force Example"/>
-            <p>Once you have consumed all upgrade slots, you may star force/enhance your gear. In Heroic Worlds, there are no upgrade slots, so you just star force/enhance instead. Star Forcing costs Mesos that grants increased stats on success</p>
-            <p>A recommended amount of stars you want for each piece of equipment is around 10 - 12 stars early on but optimally all gear at 12 stars</p>
-            <p>Occasionally there are events with shops that sell <img src="/images/items/star-enhancement-scroll.png" alt="Use Star Enchancement Scroll"/>[Star Enhancement Scrolls] which sets an equipment's Star Force to the said amount. There is normally one that enhances your gear to 17-stars that are obtainable from events if you do not have enough Mesos to Star Force. Past 15 stars, equipment start to see a clear difference from equipment with fewer stars</p>
-            <h5>30% Star Force Discount:</h5>
-            <p>Occasionally on Sunny Sundays, there is an event where Star Forcing prices are discounted by 30%. These are the best times to Star Force if you are trying to reach above 15 stars. If you are just Star Forcing regularly to 12 stars, you do not need to wait for this to happen</p>
-            <h5>5/10/15 Star Force 100%:</h5>
-            <p>Occasionally on Sunny Sundays, there is an event where enhancing to 5, 10, or 15 Star Force, the success rate is guaranteed. This is also a good time to try reaching to 15 stars but is not necessary to start Star Forcing your gear</p>
-            <h5>1+1 Event:</h5>
-            <p>Occasionally on Sunny Sundays, there is an event where for every Star Force enhancement below 10 Stars, you gain 2 stars. This is also a good time to try reaching to 15 stars since you essentially only need to keep trying from 12 Stars, but is not necessary to start Star Forcing your gear</p>
-            <h5>Shining Star Force Event:</h5>
-            <p>Occasionally on Sunny Sundays, the 30% Discount and 5/10/15 Star event may overlap which provides the best opportunity to Star Force your gear especially to 17-star</p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <h3 id="additionalstats">Bonus Stats:</h3>
-            <hr/>
-            <p>For now you do not need to worry too much about Bonus Stats and Rebirth Flames. If you do obtain a special rebirth flame, feel free to use it on anything or on Interactive Worlds, you can sell them (if tradeable)</p>
-            <p>Some nice stats to reroll into is your Main Stat, %All Stat, %Boss Damage or Attack/Magic Attack</p>
-            <hr/>
-            <p><strong>Some reasons that make certain items better than others (or best-in-slot) include:</strong>
-            </p>
-            <ul>
-                <li>Level Requirement of gear, higher the level, the better
-                <ul>
-                    <li>Level also affects the scaling of Bonus Stats</li>
-                </ul>
-                </li>
-                <li>Base Attack value &amp; base stats
-                <ul>
-                    <li>Higher attack results in higher attack scaling on flames/bonus stats</li>
-                </ul>
-                </li>
-                <li>Amount of Star Force that can be obtained ( best being 25 stars)
-                <ul>
-                    <li>This is tied to the level requirement of the gear - higher level, more stars</li>
-                    <li>This is the most important factor</li>
-                </ul>
-                </li>
-                <li>Potential lines that can be obtained
-                <ul>
-                    <li>This is tied to the level requirement of the gear - higher level, better lines</li>
-                    <li>Ex. Higher level potentials provide more %Stat than lower level potentials</li>
-                </ul>
-                </li>
-                <li>Is a Boss Item / KMS Item
-                <ul>
-                    <li>These items can obtain higher tiers of Bonus Stats than non-KMS items</li>
-                </ul>
-                </li>
-                <li>Set bonus effect</li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <h3 id="transferhammer">Transfer Hammer:</h3>
-            <hr/>
-            <img className="repository-image" src="/images/info/transfer-hammer-ui.png" alt="Transfer Hammer UI"/>
-            <p>Transfer Hammer is a system that allows you to transfer Star Force, Potentials, Bonus Potentials, and Soul Weapon from one equipment to another (with restrictions). The following will not be transferred, Scrolled Stats and Bonus Stats. Additionally, you will lose one Star Force while transferring and any potentials above Epic will be dropped down to Epic Potential. You can only transfer equipment up to 10 levels apart of each other. For equipment below Lv. 119, you can transfer up to 20 levels apart</p>
-            <p>Some requirements for Transfer Hammering is that the piece of equipment must have at least 1 Star Force, cannot be Superior Gear (such as Tyrants) and must be the same equipment type (regardless of job group). Overalls can be counted towards both as a top or bottom and vice versa</p>
-            <p>In Interactive Worlds, any remaining upgrade slots will be filled by 100% Spell Traces for free. You can choose which stat you want the upgrades to be. I recommend that you already Upgrade/Spell Trace the Transferring Item first if you do not want the 100% Spell Trace stats</p>
-            <img className="repository-image" src="/images/info/transfer-hammer-button.png" alt="Transfer Hammer Button"/>
-            <p>To begin Transfer Hammering, you can access the UI from your Inventory by<strong> pressing the blue hammer icon</strong> For more info on Transfer Hammer, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Transfer_Hammer" target="_blank">https://strategywiki.org/wiki/MapleStory/Transfer_Hammer</a>
-            </p>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <h3 id="epicgear">Epic Potential Gear and so on:</h3>
-            <hr/>
-            <p>Early game you want to have all your gear at least 9% Main Stat and Epic Potential. You will also be wanting to be working towards Unique Potential gear. Your main focus for this would be to try and get your Weapon, Secondary Weapon, and Emblem to unique first as their potentials can provide special stats like %Attack/Magic Attack, %Ignore DEF and %Boss Damage unlike the rest of your gear. As a note, do not keep %Damage lines as they do not provide as much as a boost as the other potential lines do</p>
-            <p>Additionally, be sure all your equipment have 3 lines of potential instead of 2. Use <img src="/images/items/gold-potential-stamp.png" alt="Gold Potential Stamp"/> <a href="https://maplestory.wiki/GMS/215/item/2049500" target="_blank" rel="noreferrer noopener">[Gold Potential Stamp]</a> to unlock a 3rd line if needed</p>
-            <p>Do not be afraid to use expiring <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> <a href="https://maplestorywiki.net/w/Hard_Cube" target="_blank" rel="noreferrer noopener">[Hard Cubes]</a> as it's better to use them than waste it. As well, take that risk of rerolling your "okay" potentials for "great" potentials as they are easily replaceable (unless you have that 36% main stat)</p>
-            <p>Some ways to obtain Epic Potential Scrolls are:</p>
-            <ul>
-                <li><strong style={{color: '#ff6600'}}>[Heroic Worlds] </strong>Yu Garden shop</li>
-                <li><strong>[Interactive Worlds] </strong>Auction House</li>
-                <li>Event Shops</li>
-                <li>Elite Bosses</li>
-                <li>Pollo/Fritto Missions + Inferno Wolf</li>
-                <li>Legion System</li>
-            </ul>
-            <p>Some ways to obtain Gold Potential Stamps are:</p>
-            <ul>
-                <li><strong>[Interactive Worlds] </strong>Auction House
-                <ul>
-                    <li>Search for <img src="/images/items/gold-potential-stamp.png" alt="Perfect Potential Stamp"/> <a href="https://maplestory.wiki/GMS/215/item/2049506" target="_blank" rel="noreferrer noopener">[Perfect Potential Stamp]</a>
-                    </li>
-                </ul>
-                </li>
-                <li>Event Shops</li>
-                <li>Elite Bosses</li>
-                <li>Pollo/Fritto Missions + Inferno Wolf</li>
-                <li>Legion System</li>
-            </ul>
-            <p>Some ways to obtain Hard Cubes are:</p>
-            <ul>
-                <li>Crafting</li>
-                <li>Harvesting from Mysterious Veins / Herbs</li>
-                <li>Commerci Voyages</li>
-                <li>Bosses</li>
-                <li>Pollo/Frito Missions + Inferno Wolf</li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="bosses">[ &lt; 2k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <p>The amount of Main Stat listed is just a safe recommendation, your class may be able to defeat a boss with lower stat if you have the damage or the right mechanics</p>
-            <p>As well, it should be noted, a better, more general guide would be to consider which floor you can reach in Mu Lung Dojo although neither is perfectly accurate. The best way to check if you can defeat a boss is by trying, especially in Practice Mode when applicable</p>
-            <p>To view bosses by Dojo floors, check out: <a href="https://i.imgur.com/9u2Z6vq.png" target="_blank" rel="noreferrer noopener">https://i.imgur.com/9u2Z6vq.png</a></p>
-            <ul>
-                <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>Normal Zakum</strong></a>
-                <ul>
-                    <li><strong>Source of Mesos in Heroic Worlds from</strong>: <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/> <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a> that can be sold for Mesos</li>
-                    <li>
-                        Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Easy Mode and Above Rewards:</strong>
-                        <img src="/images/equipment/zakum-helmet.png" alt="Eqp Zakum Helmet"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1002357" target="_blank" rel="noreferrer noopener">[Zakum Helmet]</a>
-                    </li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong>
-                        <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/> <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a>
-                        , <img src="/images/equipment/condensed-power-crystal.png" alt="Eqp Condensed Power Crystal"/> <a href="https://maplestorywiki.net/w/Condensed_Power_Crystal">[</a><a href="https://maplestory.wiki/GMS/210.1.1/item/1012478" target="_blank" rel="noreferrer noopener">Condensed Power Crystal]</a>
-                        , <img src="/images/equipment/aquatic-letter-eye.png" alt="Eqp Aquatic Letter Eye Accessory"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022231" target="_blank" rel="noreferrer noopener">[Aquatic Letter Eye]</a>
-                        , <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Lv. 110 Rebirth Flame]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ursus.png" alt="MapIcon Ursus"/>  <strong><a href="https://maplestorywiki.net/w/Ursus" target="_blank" rel="noreferrer noopener">Ursus</a></strong>
-                <ul>
-                    <li><strong style={{color: '#ff6600'}}>[Heroic World Important]: </strong>In Heroic Worlds, the amount of Mesos rewarded is increased and is considered a main activity</li>
-                    <li>For more info on Ursus, check this out: <a href="https://strategywiki.org/wiki/MapleStory/Ursus" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Ursus</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> <a href="https://maplestorywiki.net/w/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Easy Papulatus</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Magnus</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Easy Mode and Above Rewards:</strong> <img src="/images/equipment/elite-heliseum-belt.png" alt="Eqp Elite Heliseum Belt"/> <a href="https://maplestorywiki.net/w/Elite_Heliseum_Warrior_Belt" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>
-                        , <img src="/images/equipment/elite-heliseum-cape.png"/> <a href="https://maplestorywiki.net/w/Elite_Heliseum_Warrior_Cape" target="_blank" rel="noreferrer noopener">[Superior Cape]</a>
-                        , <img src="/images/equipment/crystal-ventus-badge.png" alt="Eqp Crystal Ventus Badge"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1182087" target="_blank" rel="noreferrer noopener">[Crystal Ventus Badge]</a>
-                        , <img src="/images/equipment/royal-black-metal-shoulder.png" alt="Eqp Royal Black Metal Shoulder"/> <a href="https://maplestorywiki.net/w/Royal_Black_Metal_Shoulder" target="_blank" rel="noreferrer noopener">[Royal Black Metal Shoulder]</a>
-                        , <img src="/images/equipment/kaiserion.png" alt="Eqp Kaiserion"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1402205" target="_blank" rel="noreferrer noopener">[Kaiserion]</a>
-                        , <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Lv. 110 Rebirth Flame]</a>
-                        , <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestorywiki.net/w/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">[Shadowdealer Coin]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/hilla.png" alt="MapIcon Hilla"/> <a href="https://maplestorywiki.net/w/Hilla/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Hilla</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/stone-of-eternal-life.png" alt="Eqp Stone of Eternal Life"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162009" target="_blank" rel="noreferrer noopener">[Stone of Eternal Life]</a>
-                        , <img src="/images/equipment/necromancer-warrior-hat.png" alt="Eqp Necromancer Warrior Hat"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Necromancer_Warrior_Set" target="_blank" rel="noreferrer noopener">[Lv. 120 Necromancer Gear]</a>
-                        , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
-                        , <img src="/images/items/pet-box-blackheart.png" alt="Use (Pet Box) Blackheart"/> <a href="https://maplestorywiki.net/w/(Pet_Box)_Blackheart" target="_blank" rel="noreferrer noopener">[Pet Box]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/omega-sector.png"/> <a href="https://maplestorywiki.net/w/OMNI-CLN" target="_blank" rel="noreferrer noopener"><strong>OMNI-CLN</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Normal Mode Rewards:</strong> <img src="/images/items/omni-cln-component.png"/> <a href="https://maplestorywiki.net/w/OMNI-CLN_Component" target="_blank" rel="noreferrer noopener">[OMNI-CLN Component]</a>
-                        , <img src="/images/items/omni-cln-vacuum.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[OMNI-CLN Vacuum]</a>
-                        , <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Lv. 110 Rebirth Flame]</a>
-                    </li>
-                </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo id="bosses">[ &gt; 3k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li> <img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> <strong><a href="https://maplestorywiki.net/w/Gollux" target="_blank" rel="noreferrer noopener">Easy/Normal Gollux</a></strong>:
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, and <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
-                    </li>
-                    <li>
-                        <strong>Main Rewards:</strong> <img src="/images/items/gollux-penny.png" alt="Etc Gollux Penny"/> [Gollux Penny]
-                        , <img src="/images/equipment/cracked-gollux-earrings.png" alt="Eqp Cracked Gollux Earrings"/> <img src="/images/equipment/cracked-gollux-ring.png" alt="Eqp Cracked Gollux Ring"/> <img src="/images/equipment/cracked-gollux-engraved-pendant.png" alt="Eqp Cracked Engraved Gollux Pendant"/> <img src="/images/equipment/cracked-gollux-engraved-belt.png" alt="Eqp Cracked Engraved Gollux Belt"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Cracked_Gollux_Set" target="_blank" rel="noreferrer noopener">[Cracked Gollux Accessories]</a>
-                        , <img src="/images/equipment/solid-gollux-earrings.png" alt="Eqp Solid Gollux Earrings"/> <img src="/images/equipment/solid-gollux-ring.png" alt="Eqp Solid Gollux Ring"/> <img src="/images/equipment/solid-gollux-engraved-pendant.png" alt="Eqp Solid Engraved Gollux Pendant"/> <img src="/images/equipment/solid-gollux-engraved-belt.png" alt="Eqp Solid Engraved Gollux Belt"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Solid_Gollux_Set" target="_blank" rel="noreferrer noopener">[Solid Gollux Accessories (Normal and above)]</a>
-                    </li>
-                    <li>Gollux Pennies <img src="/images/items/gollux-penny.png" alt="Etc Gollux Penny"/> can be used to buy items from <a href="https://maplestorywiki.net/w/Randolf" target="_blank" rel="noreferrer noopener">Randolf</a> and <a href="https://maplestorywiki.net/w/Mountain_Mumur" target="_blank" rel="noreferrer noopener">Mountain Murmur</a></li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong><a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Normal Root Abyss</a></strong>:
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Normal mode and Above Rewards:</strong> <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/>[Yggdrasil Coin]
-                        , <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/><img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/><img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/><img src="/images/items/vellum-rock-chair.png" alt="Setup Vellum Rock Chair"/> [Chair]
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/horntail.png" alt="MapIcon Hontale"/> <a href="https://maplestorywiki.net/w/Horntail" target="_blank" rel="noreferrer noopener"><strong>Easy/Normal/Chaos Horntail</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[<em>(Chaos Only)</em> Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Easy Mode and Above Rewards: </strong> <img src="/images/equipment/silver-blossom-ring.png"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1113149" target="_blank" rel="noreferrer noopener">[Silver Blossom Ring]</a>, <img src="/images/equipment/dea-sidus-earrings.png" alt="Eqp Dea Sidus Earring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032241" target="_blank" rel="noreferrer noopener">[Dea Sidus Earrings]</a>
-                        , <img src="/images/equipment/horntail-necklace.png" alt="Eqp Horntail Necklace"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122000" target="_blank" rel="noreferrer noopener">[Horntail Necklace]</a>
-                        , <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
-                    </li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/potion-recipe.png"/> <a href="https://maplestorywiki.net/w/Wealth_Acquisition_Potion#Recipe" target="_blank" rel="noreferrer noopener">[Wealth Aquisition Potion Recipe]</a>
-                    </li>
-                    <li>
-                    <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-horntail-necklace.png" alt="Eqp Chaos Horntail Necklace"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122076" target="_blank" rel="noreferrer noopener">[Chaos Horntail Necklace]</a>
-                        , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
-                        , <img src="/images/items/horntail-fountain.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Horntail Fountain]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <strong> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Easy/Normal/Hard Von Leon</a></strong>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                        , <img src="/images/items/royal-lion-king-medal.png" alt="Etc Royal Lion King Medal"/> [Von Leon Gear Currency]
-                        , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-                    </li>
-                    <li>
-                        <strong>Hard Mode and Above Rewards:</strong> <img src="/images/equipment/royal-von-leon-suit.png"/><img src="/images/equipment/royal-von-leon-energy-chain.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Royal_Von_Leon_Warrior_Set" target="_blank" rel="noreferrer noopener">[Lv. 130 Von Leon Gear]</a>
-                        , <img src="/images/equipment/ifias-earrings.png"/><img src="/images/equipment/ifias-ring.png"/><img src="/images/equipment/ifias-necklace.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Ifia%27s_Treasure_Set" target="_blank" rel="noreferrer noopener">[Ifia Accessories]</a>
-                        , <img src="/images/items/lion-ice-sculpture.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Lion Ice Sculpture]</a>
-                    </li>
-                    <li> <img src="/images/items/royal-lion-king-medal.png" alt="Etc Royal Lion King Medal"/> exchange for <img src="/images/equipment/royal-von-leon-suit.png"/><img src="/images/equipment/royal-von-leon-energy-chain.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Lv. 130 Von Leon Gear]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ranmaru.png" alt="MapIcon Ranmaru"/> <strong> <a href="https://maplestorywiki.net/w/Mori_Ranmaru" target="_blank" rel="noreferrer noopener">Normal/Hard Mori Ranmaru</a></strong>
-                <ul>
-                    <li>Hard requires much more range than Normal (close to 10k Main Stat) however grants a lot of EXP when defeated</li>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[<em>(Hard Only)</em> Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/eclectic-fennel.png" alt="Eqp Eclectic Fennel"/> [Lv. 120 Gear]
-                        , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._120" target="_blank" rel="noreferrer noopener">[Lv. 120 Rebirth Flame]</a>
-                        , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[(Heroic World Only) Powerful Rebirth Flame]</a>
-                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[(Heroic World Only) Eternal Rebirth Flame]</a>
-                    </li>
-                    <li>
-                        <strong>Hard Mode Only Rewards:</strong> , <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Amaterasu_Set" target="_blank" rel="noreferrer noopener">[Japanese Armor]</a>
-                        , <img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._120" target="_blank" rel="noreferrer noopener">[Lv. 130 Rebirth Flame]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Normal Pink Bean</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/black-bean-mark.png" alt="Eqp Black Bean Mark"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022232" target="_blank" rel="noreferrer noopener">[Black Bean Mark]</a>
-                        , <img src=" /images/equipment/golden-clover-belt.png" alt="Eqp Golden Clover Belt"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1132272" target="_blank" rel="noreferrer noopener">[Golden Clover Belt]</a>
-                        , <img src=" /images/equipment/pink-holy-cup.png" alt="Eqp Pink Holy Cup"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162025" target="_blank" rel="noreferrer noopener">[Pink Holy Cup]</a>
-                        , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
-                    </li>
-                </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo id="bosses">[ &gt; 5k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Cygnus</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Easy Mode and Above Rewards:</strong> <img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/> [Lv. 140 Rebirth Flame]
-                        , <img src="/images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/><img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> [Empress Gear Fragment]
-                    </li>
-                    <li><img src="/images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/><img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> exchange for <img src="/images/equipment/lionheart-battle-helm.png" alt="Eqp Lionheart Battle Helm"/><img src="/images/equipment/lionheart-cutlass.png" alt="Eqp Lionheart Cutlass"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Lv. 140 Empress Gear]</a></li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/hilla.png" alt="MapIcon Hilla"/> <a href="https://maplestorywiki.net/w/Hilla/Monster" target="_blank" rel="noreferrer noopener"><strong>Hard Hilla</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/power-elixir.png"/> <a href="https://maplestorywiki.net/w/Power_Elixir" target="_blank" rel="noreferrer noopener">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Hard Mode Only Rewards:</strong>
-                        <img src="/images/equipment/will-o-the-wisps.png"/> <a href="https://maplestorywiki.net/w/Will_o%27_the_Wisps" target="_blank" rel="noreferrer noopener">[Will O' the Wisps]</a>
-                        , <img src="/images/items/hilla-obelisk-floor-lamp.png"/> <a href="https://maplestorywiki.net/w/Papulatus_Clock_Chair" target="_blank" rel="noreferrer noopener">[Hilla Obelisk Floor Lamp]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/arkarium.png" alt="MapIcon Akairum"/> <a href="https://maplestorywiki.net/w/Arkarium/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy/Normal Arkarium</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[<em>(Normal Only)</em> Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Easy mode and Above Rewards:</strong> <img src=" /images/equipment/mechanator-pendant.png" alt="Eqp Mechanator Pendant"/> <a href="https://maplestorywiki.net/w/Mechanator_Pendant" target="_blank" rel="noreferrer noopener">[Mechanator Pendant]</a>
-                        , <img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/> [Lv. 130 Rebirth Flame]
-                        , <img src=" /images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noreferrer noopener">[Primal Essence]</a>
-                    </li>
-                    <li>
-                        <strong>Normal mode Only Rewards:</strong> <img src=" /images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a href="https://maplestorywiki.net/w/Dominator_Pendant" target="_blank" rel="noreferrer noopener">[Dominator Pendant]</a>
-                        , <img src="/images/items/arkarium-statue.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Arkarium Statue]</a>
-                    </li>
-                    <li>Ability to clear Arkarium early game will depend on your class, for example, does your class have a bind or iFrame?</li>
-                </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>[ &gt; 8k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Cygnus</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Normal Mode Only Rewards:</strong> <img src="/images/equipment/lionheart-battle-shoulder.png" alt="Eqp Lionheart Battle Shoulder"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Empress Shoulder]</a>
-                        , <img src="/images/equipment/deimos-warrior-shield.png" alt="Eqp Deimos Sage Shield"/><img src=" /images/equipment/deimos-shadow-shield.png" alt="Eqp Deimos Shadow Shield"/><img src=" /images/equipment/deimos-sage-shield.png" alt="Eqp Deimos Warrior Shield"/> [Shield Recipes]
-                        , <img src="/images/items/plush-cygnus-shelf.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Plush Cygnus Shelf]</a>
-                    </li>
-                    <li><img src="/images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/><img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> exchange for <img src="/images/equipment/lionheart-battle-helm.png" alt="Eqp Lionheart Battle Helm"/><img src="/images/equipment/lionheart-cutlass.png" alt="Eqp Lionheart Cutlass"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Lv. 140 Empress Gear]</a></li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>Chaos Zakum</strong></a>
-                <ul>
-                    <li><strong>Source of Mesos in Heroic Worlds from</strong>: <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/> <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a> that can be sold for Mesos</li>
-                    <li>
-                        Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir" target="_blank" rel="noreferrer noopener">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-zakum-helmet.png" alt="Eqp Chaos Zakum Helmet"/>
-                        <a href="https://maplestorywiki.net/w/Chaos_Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Chaos Zakum Helmet]</a>, <img src="/images/equipment/enraged-zakum-helmet.png" alt="Eqp Enraged Zakum Helmet"/>
-                        <a href="https://maplestorywiki.net/w/Enraged_Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Enraged Zakum Helmet]</a>, <img src="/images/equipment/enraged-zakum-cape.png" alt="Eqp Enraged Zakum Cape"/>
-                        <a href="https://maplestorywiki.net/w/Enraged_Zakum_Cape" target="_blank" rel="noreferrer noopener">[Enraged Zakum Cape]</a>, <img src="/images/equipment/enraged-zakum-belt.png" alt="Eqp Enraged Zakum Belt"/>
-                        <a href="https://maplestorywiki.net/w/Enraged_Zakum_Belt" target="_blank" rel="noreferrer noopener">[Enraged Zakum Belt]</a>, <img src="/images/items/zakum-hand-table.png"/>
-                        <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Zakum Hand Table]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> <a href="https://maplestorywiki.net/w/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Normal Papulatus</strong></a>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                        </li>
-                        <li>
-                            <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/papulatus-clock-chair.png"/>
-                            <a href="https://maplestorywiki.net/w/Papulatus_Clock_Chair" target="_blank" rel="noreferrer noopener">[Papulatus Clock Chair]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Magnus</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/power-elixir.png"/> <a href="https://maplestorywiki.net/w/Power_Elixir" target="_blank" rel="noreferrer noopener">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/nova-hyades-cloak.png" alt="Eqp Nova Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Nova_Hyades_Cloak" target="_blank" rel="noreferrer noopener">[Superior Nova Cape]</a>
-                    </li>
-                </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>[ &gt; 12k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Chaos Pink Bean</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-pink-bean-hat.png"/><img src="/images/equipment/chaos-pink-bean-suit.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Chaos_Pink_Bean_Set_I" target="_blank" rel="noreferrer noopener">[Chaos Pink Bean Set]</a>
-                        , <img src="/images/equipment/black-bean-hat.png"/><img src="/images/equipment/black-bean-suit.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Black_Bean_Set" target="_blank" rel="noreferrer noopener">[Black Bean Set]</a>
-                        , <img src="/images/items/powerful-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                        , <img src="/images/items/eternal-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                        , <img src="/images/items/pink-bean-armchair.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Pink Bean Armchair]</a>
-                        </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> <strong><a href="https://maplestorywiki.net/w/Princess_No/Monster" target="_blank" rel="noreferrer noopener">Princess No</a></strong>:
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Main Rewards:</strong> <img src="/images/items/captivating-fragment.png" alt="Use Captivating Fragment"/> <a href="https://maplestorywiki.net/w/Captivating_Fragment" target="_blank" rel="noopener noreferrer">[Secondary Weapon Fragment]</a>
-                        , <img src="/images/equipment/hayatos-treasure.png" alt="Eqp Hayato's Treasure"/><img src="/images/equipment/kannas-treasure.png" alt="Eqp Kanna's Treasure"/><img src="/images/equipment/ayames-treasure.png" alt="Eqp Ayame's Treasure"/> [ <a href="https://maplestory.wiki/GMS/210.1.1/item/1152171" target="_blank" rel="noopener noreferrer">Shoulder</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1113155" target="_blank" rel="noopener noreferrer">Ring</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1132275" target="_blank" rel="noopener noreferrer">Belt</a> ]
-                        , <img src="/images/items/princess-no-chair.png" alt="Setup Princess No Chair"/> <a href="https://maplestorywiki.net/w/Princess_No_Chair" target="_blank" rel="noopener noreferrer">[Princess No Chair]</a>
-                        , <img src="/images/items/princess-no-effect-coupon.png" alt="Use Princess No Effect Coupon"/> <a href="https://maplestorywiki.net/w/Princess_No_Effect_Coupon" target="_blank" rel="noopener noreferrer">[Princess No Effect Coupon]</a>
-                        , <img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/> [Lv. 140 Rebirth Flame]
-                    </li>
-                    <li><img src=" /images/items/captivating-fragment.png" alt="Use Captivating Fragment"/> can be used to redeem the best <img src=" /images/equipment/princess-nos-accursed-shield.png" alt="Eqp Princess No's Accursed Shield"/> <img src="/images/equipment/princess-nos-fox-marble.png" alt="Eqp Princess No's Fox Marble"/> <a href="https://maplestorywiki.net/w/Captivating_Fragment" target="_blank" rel="noreferrer noopener">[Secondary Weapons]</a> in the game</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> <strong><a href="https://maplestorywiki.net/w/Gollux" target="_blank" rel="noreferrer noopener">Hard Gollux</a></strong>:
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, and <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
-                    </li>
-                    <li><strong>Main Rewards:</strong> <img src=" /images/items/gollux-coin.png" alt="Etc Gollux Coin"/> [Gollux Coins], <img src=" /images/equipment/reinforced-gollux-earrings.png" alt="Eqp Reinforced Gollux Earrings"/> <img src=" /images/equipment/reinforced-engraved-gollux-belt.png" alt="Eqp Reinforced Engraved Gollux Belt"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Reinforced_Gollux_Set" target="_blank" rel="noreferrer noopener">[Reinforced/Solid/Cracked Gollux Earrings &amp; Belt]</a>
-                    </li>
-                    <li>Gollux Coins <img src=" /images/items/gollux-coin.png" alt="Etc Gollux Coin"/> can be used to buy items from <a href="https://maplestorywiki.net/w/Randolf" target="_blank" rel="noreferrer noopener">Randolf</a> and <a href="https://maplestorywiki.net/w/Mountain_Mumur" target="_blank" rel="noreferrer noopener">Mountain Murmur</a></li>
-                </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>[ &gt; 14k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <p>Recommended to have at least &gt;%90 IED and &gt;200% Boss Damage for bosses beyond this point</p>
-            <ul>
-                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong><a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Chaos Root Abyss</a></strong>:
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li><strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/queens-tiara.png" alt="Eqp Queen's Tiara"/> <img src="/images/equipment/pierre-hat.png" alt="Eqp Pierre Hat"/> <img src="/images/equipment/von-bon-helmet.png" alt="Eqp Von Bon Helmet"/> <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Chaos Hat], <img src="/images/items/piece-of-anguish.png" alt="Use Piece of Anguish"/> <img src="/images/items/piece-of-mockery.png" alt="Use Piece of Mockery"/> <img src="/images/items/piece-of-time.png" alt="Use Piece of Time"/> <img src="/images/items/piece-of-destruction.png" alt="Use Piece of Destruction"/> [CRA Gear Fragment], <img src=" /images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/>[Chaos Yggdrasil Coin], <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/> <img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/> <img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/> <img src="/images/items/vellum-rock-chair.png" alt="Setup Vellum Rock Chair"/>[Chair]
-                    , <img src="/images/items/pierre-umbrella-stand.png"/><img src="/images/items/von-bon-windup-clock.png"/><img src="/images/items/crimson-queen-vanity-table.png"/><img src="/images/items/vellum-lava-bathtub.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Furniture]</a>
-                    </li>
-                    <li>These fragments <img src="/images/items/piece-of-anguish.png" alt="Use Piece of Anguish"/> <img src="/images/items/piece-of-mockery.png" alt="Use Piece of Mockery"/> <img src="/images/items/piece-of-time.png" alt="Use Piece of Time"/> <img src="/images/items/piece-of-destruction.png" alt="Use Piece of Destruction"/> exchange for <img src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/> <img src="/images/equipment/fafnir-mistilteinn.png" alt="Eqp Fafnir Mana Cradle"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Root_Abyss_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Lv. 150 Root Abyss Gear]</a></li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Hard Magnus</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/power-elixir.png"/> <a href="https://maplestorywiki.net/w/Power_Elixir" target="_blank" rel="noreferrer noopener">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Hard Mode Only Rewards:</strong>
-                        <img src="/images/equipment/tyrant-hyades-cloak.png" alt="Eqp Tyrant Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Tyrant_Hyades_Cloak" target="_blank" rel="noreferrer noopener">[Superior Tyrant Cape]</a>
-                        , <img src="/images/equipment/nova-hyades-boots.png"/> <a href="https://maplestorywiki.net/w/Nova_Hyades_Boots" target="_blank" rel="noreferrer noopener">[Superior Nova Boots]</a>
-                        , <img src="/images/equipment/cursed-kaiserium.png" alt="Eqp Cursed Kaiserium"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1402179" target="_blank" rel="noreferrer noopener">[Cursed Kaiserium]</a>
-                        , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                        , <img src="/images/items/magnus-coin.png" alt="Etc Magnus Coin"/> [Magnus Coin]
-                        , <img src="/images/items/magnus-horn-throne.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Magnus Horn Throne]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> <a href="https://maplestorywiki.net/w/Akechi_Mitsuhide/Monster" target="_blank" rel="noopener noreferrer"><strong>Akechi Mitsuhide</strong></a>:
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Main Rewards:</strong> <img src="/images/equipment/nimbus-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><img src="/images/equipment/weeping-spirit-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><a href="https://maplestorywiki.net/w/Equipment_Set/Amaterasu_Set" target="_blank" rel="noopener noreferrer">[Japanese Wolf Weapons]</a>
-                            , <img src="/images/items/mark-of-the-silver-wolf.png" alt="Mark of the Silver Wolf"/> <a href="https://maplestorywiki.net/w/Mark_of_the_Silver_Wolf" target="_blank" rel="noopener noreferrer">[Mark of the Silver Wolf]</a>
-                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                            , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/><a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>
-                            , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/><a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>
-                            , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                            , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/><a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
-                        </li>
-                        <li><img src="/images/items/mark-of-the-silver-wolf.png" alt="Mark of the Silver Wolf"/> Coin is usage to exchange for Japanese Wolf Weapons from <a href="https://maplestorywiki.net/w/Kobayakawa_Takakage" target="_blank" rel="noopener noreferrer">Kobayakawa Takakage</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>[ &gt; 20k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> <a href="https://maplestorywiki.net/w/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Chaos Papulatus</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                    </li>
-                    <li>
-                        <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/papulatus-mark.png" alt="Eqp Papulatus Mark"/> <a href="https://maplestorywiki.net/w/Papulatus_Mark" target="_blank" rel="noreferrer noopener">[Papulatus Mark]</a>
-                        , <img src="/images/items/papulatus-wall-clock.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Papulatus Wall Clock]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> <strong><a href="https://maplestorywiki.net/w/Lotus" target="_blank" rel="noreferrer noopener">Normal Lotus</a></strong>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/extraordinary-energy-core.png" alt="Etc Extraordinary Energy Core (Grade S)"/> [Extraordinary Energy Core (Grade S)]
-                        , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                        , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                        , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                        , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                        , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
-                        , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                        , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
-                        , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                        , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-                        , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
-                        , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> <a href="https://maplestorywiki.net/w/Damien" target="_blank" rel="noreferrer noopener"><strong>Normal Damien</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Normal Mode Rewards: </strong> , <img src="/images/equipment/ruin-force-shield.png" alt="Eqp Ruin Force Shield"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1099015" target="_blank" rel="noreferrer noopener">[(Demon-Class Exclusive) Ruin Force Shield]</a>
-                        , <img src="/images/items/twisted-stigma-spirit-stone.png" alt="Etc Twisted Stigma Spirit Stone"/> [Twisted Stigma Spirit Stone]
-                        , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                        , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                        , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                        , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                        , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
-                        , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                        , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
-                        , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                        , <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
-                        , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-                        , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
-                        </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> <strong><a href="https://maplestorywiki.net/w/Gollux" target="_blank" rel="noreferrer noopener">Hell Gollux (Hellux)</a></strong>
-                <ul>
-                <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, and <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]</li>
-                    <li><strong>Main Rewards:</strong> <img src=" /images/items/gollux-coin.png" alt="Etc Gollux Coin"/> [Gollux Coins]
-                    , <img src="/images/equipment/superior-gollux-earrings.png" alt="Eqp Superior Gollux Earrings"/> <img src="/images/equipment/superior-engraved-gollux-belt.png" alt="Eqp Superior Engraved Gollux Belt"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Superior_Gollux_Set" target="_blank" rel="noreferrer noopener">[Superior/Reinforced/Solid/Cracked Gollux Earrings &amp; Belt]</a>
-                    , <img src="/images/items/gollux-wood-bench.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Gollux Wood Bench]</a>
-                    </li>
-                    <li>Gollux Coins <img src=" /images/items/gollux-coin.png" alt="Etc Gollux Coin"/> can be used to buy items from <a href="https://maplestorywiki.net/w/Randolf" target="_blank" rel="noreferrer noopener">Randolf</a> and <a href="https://maplestorywiki.net/w/Mountain_Mumur" target="_blank" rel="noreferrer noopener">Mountain Murmur</a></li>
-                </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>[ &gt; 28k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Lucid</strong></a>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                        </li>
-                        <li>
-                            <strong>Easy Mode and Above Rewards:</strong> <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                            , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
-                        </li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Easy Will</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Easy Mode and Above Rewards: </strong> <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                            , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong><a href="https://maplestorywiki.net/w/Guardian_Angel_Slime" target="_blank" rel="noopener noreferrer">Normal Guardian Angel Slime</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Normal Mode and Above Rewards: </strong>
-                            <img src="/images/equipment/guardian-angel-ring.png" alt="Guardian Angel Ring"/><a href="https://maplestorywiki.net/w/Guardian_Angel_Ring" target="_blank" rel="noreferrer noopener">[Guardian Angel Ring]</a>, <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                            , <img src="/images/items/sparkling-red-star-potion.png" alt="Use Sparkling Red Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noopener noreferrer">[Sparkling Red Star Potion]</a>, <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>, <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._150" target="_blank" rel="noopener noreferrer">[Rebirth Flame Lv. 150]</a>
-                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>, <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                            , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>Tier I Endgame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <p>Bosses beyond this point are not meant to be soloable and are more party-oriented bosses. As well, beyond this point, bosses will be separated by tiers as there is no good recommended stat indicators for the reasons mentioned earlier.</p>
-            <ul>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Lucid</strong></a>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li><strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/butterfly-droplet-stone.png"/> <a href="https://maplestorywiki.net/w/Butterfly_Droplet_Stone" target="_blank" rel="noreferrer noopener">[Butterfly Droplet Stone]</a>
-                            , <img src="/images/equipment/twilight-mark.png"/> <a href="https://maplestorywiki.net/w/Twilight_Mark" target="_blank" rel="noreferrer noopener">[Twilight Mark]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Normal Will</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/stone-cobweb-droplet.png"/> <a href="https://maplestorywiki.net/w/Stone_Cobweb_Droplet" target="_blank" rel="noreferrer noopener">[Stone Cobweb Droplet]</a>
-                            , <img src="/images/equipment/twilight-mark.png"/> <a href="https://maplestorywiki.net/w/Twilight_Mark" target="_blank" rel="noreferrer noopener">[Twilight Mark]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Normal Gloom</a></strong>
-                    <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/estella-earrings.png" alt="Eqp Estella Earrings"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Estella_Earrings" target="_blank">[Estella Earrings]</a>
-                        , <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Spark_of_Determination" target="_blank">[Spark of Determination]</a>
-                        , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                        , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                        , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                        , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                        , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                        , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                    </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <strong><a href="https://maplestorywiki.net/w/Guard_Captain_Darknell" target="_blank" rel="noreferrer noopener">Normal Darknell</a></strong>
-                    <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/estella-earrings.png" alt="Eqp Estella Earrings"/> <a href="https://maplestorywiki.net/w/Daybreak_Pendant" target="_blank" rel="noreferrer noopener">[Estella Earrings]</a>
-                        , <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> [Spark of Determination]
-                        , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                        , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                        , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                        , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
-                        , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                        , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                        , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                        , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
-                        , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
-                        , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
-                        , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>Tier II Endgame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-            <li> <img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> <strong><a href="https://maplestorywiki.net/w/Lotus" target="_blank" rel="noreferrer noopener">Hard Lotus</a></strong>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Hard Mode Only Rewards: </strong> <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestorywiki.net/w/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>
-                        , <img src="/images/items/damaged-black-heart.png" alt="Etc Damaged Black Heart"/> <a href="https://maplestorywiki.net/w/Damaged_Black_Heart" target="_blank" rel="noreferrer noopener">[Damaged Black Heart]</a>
-                        , <img src="/images/equipment/android.png" alt="Eqp Deluxe Android (M)"/> <a href="https://maplestorywiki.net/w/Lotusroid" target="_blank" rel="noreferrer noopener">[Lotusroid Android]</a>
-                        , <img src="/images/equipment/berserked.png" alt="Eqp Berserked"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1012632">[Beserked Face Accessory]</a>
-                        , <img src="/images/items/orchids-plush-bunny.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Orchid's Plush Bunny]</a>
-                        , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                        , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                        , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestorywiki.net/w/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Scroll - Accessory Coupon]</a>
-                        , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                        , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                        , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> <a href="https://maplestorywiki.net/w/Damien" target="_blank" rel="noreferrer noopener"><strong>Hard Damien</strong></a>
-                <ul>
-                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                    <li>
-                        <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/damienroid.png"/> <a href="https://maplestorywiki.net/w/Damienroid" target="_blank" rel="noreferrer noopener">[Damienroid Android]</a>
-                        , <img src="/images/equipment/magic-eyepatch.png" alt="Eqp Magic Eyepatch"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022278" target="_blank" rel="noreferrer noopener">[Magic Eyepatch]</a>
-                        , <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestorywiki.net/w/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>
-                        , <img src="/images/items/damiens-sword.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Damien's Sword]</a>
-                        , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                        , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                        , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestorywiki.net/w/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Scroll - Accessory Coupon]</a>
-                        , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                        , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                        , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Hard Lucid</strong></a>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/lucidroid.png"/> <a href="https://maplestorywiki.net/w/Lucidroid" target="_blank" rel="noreferrer noopener">[Lucidroid]</a>
-                            , <img src="/images/equipment/dreamy-belt.png" alt="Eqp Dreamy Belt"/><a href="https://maplestory.wiki/GMS/210.1.1/item/1132308" target="_blank" rel="noreferrer noopener">[Dreamy Belt]</a>
-                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
-                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                            , <img src="/images/items/lucids-canopy-bed.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Lucid's Canopy Bed]</a>
-                            , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                            , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestorywiki.net/w/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Scroll - Accessory Coupon]</a>
-                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Hard Will</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Hard Mode Only Rewards: </strong> <img src="/images/items/wills-cursed-spellbook-selection-box.png"/> <a href="https://maplestorywiki.net/w/Will%27s_Cursed_Spellbook_Selection_Box" target="_blank" rel="noreferrer noopener">[Will's Cursed Spellbook Selection Box]</a>
-                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
-                            , <img src="/images/items/mirror-world-nodestone.png" alt="Use Mirror World Nodestone"/><a href="https://maplestorywiki.net/w/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>
-                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                            , <img src="/images/items/wills-web-swing-chair.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Will's Web Swing Chair]</a>
-                            , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                            , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestorywiki.net/w/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Scroll - Accessory Coupon]</a>
-                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> <strong><a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Normal Verus Hilla</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/daybreak-pendant.png" alt="Eqp Daybreak Pendant"/> <a href="https://maplestorywiki.net/w/Daybreak_Pendant" target="_blank" rel="noreferrer noopener">[Daybreak Pendant]</a>
-                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
-                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>Tier III Endgame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Chaos Gloom</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/endless-terror.png" alt="Eqp Endless Terror"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/218/item/1113306" target="_blank">[Endless Terror]</a>
-                            , <img src="/images/items/gloom-dark-bean-bag.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Gloom Dark Bean Bag]</a>
-                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
-                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
-                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
-                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
-                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> <strong><a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Hard Verus Hilla</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/source-of-suffering.png" alt="Eqp Source of Suffering"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122430" target="_blank" rel="noreferrer noopener">[Source of Suffering]</a>
-                            , <img src="/images/items/shadow-of-annihilation.png" alt="Etc Shadow of Annihilation"/> <a href="https://maplestorywiki.net/w/Shadow_of_Annihilation" target="_blank" rel="noreferrer noopener">[Shadow of Annihilation]</a>
-                            , <img src="/images/items/soul-candle.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Soul Candle]</a>
-                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
-                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
-                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
-                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
-                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <strong><a href="https://maplestorywiki.net/w/Guard_Captain_Darknell" target="_blank" rel="noreferrer noopener">Hard Darknell</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/commanding-force-earring.png" alt="Eqp Commanding Force Earrings"/> <a href="https://maplestory.wiki/GMS/218/item/1032316" target="_blank" rel="noreferrer noopener">[Commanding Force Earrings]</a>
-                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
-                            , <img src="/images/items/darknells-helmet-decoration.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Darknell's Helmet Decoration]</a>
-                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
-                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
-                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
-                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
-                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong><a href="https://maplestorywiki.net/w/Guardian_Angel_Slime" target="_blank" rel="noopener noreferrer">Chaos Guardian Angel Slime</a></strong>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li><strong>Main Rewards:</strong> <img src="/images/equipment/guardian-angel-ring.png" alt="Guardian Angel Ring"/><a href="https://maplestorywiki.net/w/Guardian_Angel_Ring" target="_blank" rel="noreferrer noopener">[Guardian Angel Ring]</a>, <img src="/images/items/black-rebirth-flame.png" alt="Use Black Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[Black Rebirth Flame]</a>, <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>, <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                        , <img src="/images/items/sparkling-red-star-potion.png" alt="Use Sparkling Red Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noopener noreferrer">[Sparkling Red Star Potion]</a>, <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>, <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._150" target="_blank" rel="noopener noreferrer">[Rebirth Flame Lv. 150]</a>
-                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>, <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>, <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ArticleHeaderTwo>Tier IV Endgame Bosses:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a href="https://maplestorywiki.net/w/Black_Mage/Monster" target="_blank" rel="noreferrer noopener"><strong>Black Mage</strong></a>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Main Rewards:</strong> <img src="/images/items/sealed-genesis-weapon-box.png" alt="Use Sealed Genesis Weapon Box"/> <a href="https://maplestorywiki.net/w/Sealed_Genesis_Weapon_Box" target="_blank" rel="noreferrer noopener">[Sealed Genesis Weapon Box]</a>
-                            , <img src="/images/equipment/genesis-badge.png" alt="Eqp Genesis Badge"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1182285" target="_blank" rel="noreferrer noopener">[Genesis Badge]</a>
-                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
-                            , <img src="/images/items/black-mages-mirror.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Black Mage's Mirror]</a>
-                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
-                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
-                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
-                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
-                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <a href="https://maplestorywiki.net/w/Seren/Monster" target="_blank" rel="noreferrer noopener"><strong>Seren</strong></a>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Main Rewards:</strong> <img src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/> <a href="https://maplestorywiki.net/w/Mitra%27s_Rage_Selection_Box" target="_blank" rel="noopener">[Mitra's Rage Selection Box]</a>
-                            , <img src="/images/items/mitras-nodestone.png"/> <a href="https://maplestorywiki.net/w/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a>
-                            , <img src="/images/equipment/daybreak-pendant.png" alt="Eqp Daybreak Pendant"/> <a href="https://maplestorywiki.net/w/Daybreak_Pendant" target="_blank" rel="noopener">[Daybreak Pendant]</a>
-                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
-                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
-                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
-                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
-                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/karote.png" alt="MapIcon Cernium"/> <a href="https://maplestorywiki.net/w/Kalos/Monster" target="_blank" rel="noreferrer noopener"><strong>Kalos</strong></a>
-                    <ul>
-                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
-                        <li>
-                            <strong>Main Rewards:</strong> <img src="/images/items/kalos-residual-determination.png" alt="Use Kalos's Residual Determination"/> <a href="https://maplestorywiki.net/w/Kalos%27s_Residual_Determination" target="_blank" rel="noopener">[Kalos's Residual Determination]</a>
-                            , <img src="/images/items/kalos-ceiling-fan.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener">[Kalos Ceiling Fan]</a>
-                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
-                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
-                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
-                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
-                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
-                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
-                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
-                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
-                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
-                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
-                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
-                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
-                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
-                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
-                        </li>
-                        <li>
-                            <img src="/images/items/kalos-residual-determination.png" alt="Use Kalos's Residual Determination"/> <a href="https://maplestorywiki.net/w/Kalos%27s_Residual_Determination" target="_blank" rel="noopener">[Kalos's Residual Determination]</a> is used to redeem <img src="/images/equipment/eternal-knight-helm.png" alt="Eqp Eternal Knight Helm"/> <img src="/images/equipment/eternal-knight-armor.png" alt="Eqp Eternal Knight Armor"/> <img src="/images/equipment/eternal-knight-pants.png" alt="Eqp Eternal Knight Pants"/> [Eternal Gear]
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <hr/>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <SpellTracing/>
+            <StarForcing/>
+            <BonusStats/>
+            <TransferHammer/>
+            <EpicPotentialGear/>
+            <EarlygameBossesOne/>
+            <EarlygameBossesTwo/>
+            <EarlygameBossesThree/>
+            <EarlygameBossesFour/>
+            <EarlygameBossesFive/>
+            <MidgameBossesOne/>
+            <MidgameBossesTwo/>
+            <MidgameBossesThree/>
+            <EndgameBossesOne/>
+            <EndgameBossesTwo/>
+            <EndgameBossesThree/>
+            <EndgameBossesFour/>
             <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests:</ArticleHeaderTwo>
             <hr/>
             <p>A majority of Daily and Weekly Quests are mostly done at Lv. 200+. Characters pre-200 do not need to worry about these quests as much</p>
@@ -2403,6 +1534,996 @@ function EquipmentContent(){
                 <li><strong>[Darknell]</strong> <img src="/images/equipment/commanding-force-earring.png" alt="Commanding Force Earring"/> <a href="https://maplestory.wiki/GMS/214/item/1032316" target="_blank" rel="noreferrer noopener">[ Lv. 200 Earrings]</a></li>
                 <li><strong>[Black Mage]</strong> <img src="/images/equipment/genesis-badge.png" alt="Eqp Genesis Badge"/> <a href="https://maplestory.wiki/GMS/218/item/1182285" target="_blank" rel="noreferrer noopener">[ Lv. 200 Badge ]</a></li>
             </ul>
+        </div>
+    );
+};
+
+function SpellTracing(){
+    return(
+        <div>
+            <h3>Progression towards Midgame:</h3>
+            <hr/>
+            <p>For info on upgrading and enhancing gear check out: <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a></p>
+            <h3 id="spelltrace"> <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing in Interactive Worlds:</h3>
+            <hr/>
+            <p>In Interactive Worlds, be sure to upgrade all your gear with at least 70% Spell Tracing so that you can start Star Forcing. On average, 70% Spell Tracing provides an optimal amount of stats compared to just 100% Spell Tracing your equipment</p>
+            <p>In Heroic Worlds, Spell Traces are unused and can be sold to NPCs for Mesos</p>
+            <img className="repository-image" src="/images/info/equipment-enchant-ui.png" alt="Equipment Enhance"/>
+            <img className="repository-image" src="/images/info/equipment-enchant-button.png" alt="Enhance Button"/>
+            <p>The Spell Trace and Star Force system is located in the Equipment Enchant UI by pressing "O" by default or through your inventory by pressing the <strong>red button with a hammer</strong>
+            </p>
+            <p>Some ways to obtain Spell Traces are:</p>
+            <ul>
+                <li>Monster and Boss drops</li>
+                <li>Inferno Wolf + Pollo/Frito Missions</li>
+            </ul>
+            <h5>Spell Trace Fever:</h5>
+            <img className="repository-image" src="/images/info/spell-trace-fever.png" alt="Spell Trace Fever"/>
+            <p>There are typically events where Spell Trace enhancements have an increased success rate. These are the best times to upgrade equipment you plan to invest a lot of time into. Unless you are planning to perfect a piece of equipment, you do not need to wait for this event to start Spell Tracing</p>
+            <h5>50% Off Spell Tracing:</h5>
+            <p>During Sunny Sundays, there are typically events where the number of Spell Traces required to upgrade is halved. This is a good time to use Spell Traces on Innocence Scrolls or Clean Slates</p>
+        </div>
+    );
+};
+
+function StarForcing(){
+    return(
+        <div>
+            <h3 id="starforce">Star Forcing:</h3>
+            <hr/>
+            <img className="repository-image" src="/images/info/starforce-tooltip.png" alt="Star Force Example"/>
+            <p>Star Force Enhancements cost Mesos and grants increased stats to an equipment upon success. On Interactive Worlds, before an equipment can be Star Force/enhance, all upgrade slots must be used. In Heroic Worlds, gear can be Star Forced/enhanced immediately since there are no upgrade slots</p>
+            <p>In early game, 12-stars on each item is suggested to keep at a comfortable pace. However, past 15 stars, equipment start to see a clear difference from equipment with fewer stars</p>
+            <p>During events, there are normally shops and rewards available to obtain <img src="/images/items/star-enhancement-scroll.png" alt="Use Star Enchancement Scroll"/> [Star Enhancement Scrolls] that sets an equipment's Star Force to a certain amount. For example, there are scrolls that upgrade an equipment immediately to 15 or 17 stars</p>
+            <h5>30% Star Force Discount:</h5>
+            <p>Occasionally on Sunny Sundays, Star Forcing is discounted by 30%. This is a good time to Star Force if you are trying to reach above 15-star. If you are just Star Forcing regularly to 12 stars, you do not need to wait for this to happen</p>
+            <h5>5/10/15 Star Force 100%:</h5>
+            <p>Occasionally on Sunny Sundays, Star Forcing to 5, 10, or 15 stars is a guaranteed success. This is a good time to reach 15-star but is not necessary to start Star Forcing your gear</p>
+            <h5>1+1 Event:</h5>
+            <p>Occasionally on Sunny Sundays, Star Forcing below 10 Stars grants 2 stars. This is useful for enhancing multiple items to 12-star, but is not necessary to start Star Forcing your gear</p>
+            <h5>Shining Star Force Event:</h5>
+            <p>Occasionally on Sunny Sundays, the 30% Discount and 5/10/15 Star event may overlap which provides the best opportunity to Star Force your gear especially to 17-star</p>
+        </div>
+    );
+};
+
+function BonusStats(){
+    return(
+        <div>
+            <h3 id="additionalstats">Bonus Stats/Flames:</h3>
+            <hr/>
+            <p>For now don't worry too much about Bonus Stats and Rebirth Flames. If you do obtain a special rebirth flame, feel free to use it on anything or on Interactive Worlds, you can sell them (if tradeable)</p>
+            <p>Some nice stats to reroll into is your Main Stat, %All Stat, %Boss Damage or Attack/Magic Attack</p>
+            <hr/>
+            <p><strong>Some reasons that make certain items better than others (or best-in-slot) include:</strong></p>
+            <ul>
+                <li>Level Requirement of gear, higher the level, the better
+                    <ul>
+                        <li>Level also affects the scaling of Bonus Stats</li>
+                    </ul>
+                </li>
+                <li>Base Attack value &amp; base stats
+                    <ul>
+                        <li>Higher attack results in higher attack scaling on flames/bonus stats</li>
+                    </ul>
+                </li>
+                <li>Amount of Star Force Enhancements (max. 25 stars)
+                <ul>
+                    <li>This is tied to the level requirement of the gear - higher level, more stars</li>
+                    <li>This is the most important factor</li>
+                </ul>
+                </li>
+                <li>Potential lines that can be obtained
+                <ul>
+                    <li>This is tied to the level requirement of the gear - higher level, better lines</li>
+                    <li>Ex. Higher level potentials provide more %Stat than lower level potentials</li>
+                </ul>
+                </li>
+                <li>Is a Boss Item or KMS Item
+                    <ul>
+                        <li>These items can obtain higher tiers of Bonus Stats than non-KMS items</li>
+                    </ul>
+                </li>
+                <li>Set bonus effect</li>
+            </ul>
+        </div>
+    )
+};
+
+function TransferHammer(){
+    return(
+        <div>
+            <h3 id="transferhammer">Transfer Hammer:</h3>
+            <hr/>
+            <img className="repository-image" src="/images/info/transfer-hammer-ui.png" alt="Transfer Hammer UI"/>
+            <p>Transfer Hammer is a system that allows you to transfer Star Force, Potentials, Bonus Potentials, and Soul Weapon from one equipment to another (with restrictions). The following will not be transferred, Scrolled Stats and Bonus Stats. Additionally, you will lose one Star Force while transferring and any potentials above Epic will be dropped down to Epic Potential. You can only transfer equipment up to 10 levels apart of each other. For equipment below Lv. 119, you can transfer up to 20 levels apart</p>
+            <p>Some requirements for Transfer Hammering is that the piece of equipment must have at least 1 Star Force, cannot be Superior Gear (such as Tyrants) and must be the same equipment type (regardless of job group). Overalls can be counted towards both as a top or bottom and vice versa</p>
+            <p>In Interactive Worlds, any remaining upgrade slots will be filled by 100% Spell Traces for free. You can choose which stat the upgrades will be. I recommend that you already Upgrade/Spell Trace the Transferring Item first if you do not want the 100% Spell Trace stats</p>
+            <img className="repository-image" src="/images/info/transfer-hammer-button.png" alt="Transfer Hammer Button"/>
+            <p>The Transfer Hammering UI is accessible from the Inventory UI by <strong>pressing the blue hammer icon</strong>. For more info on Transfer Hammer, check out: <a rel="noreferrer noopener" href="https://strategywiki.org/wiki/MapleStory/Transfer_Hammer" target="_blank">https://strategywiki.org/wiki/MapleStory/Transfer_Hammer</a></p>
+        </div>
+    );
+};
+
+function EpicPotentialGear(){
+    return(
+        <div>
+            <h3 id="epicgear">Epic Potential Gear and so on:</h3>
+            <hr/>
+            <p>In early game, all gear should be at least 9% Main Stat with Epic Potential. You will also want to working towards Unique Potential gear. Your main focus for this would be to try and get your Weapon, Secondary Weapon, and Emblem to unique first as their potentials can provide stats like %Attack/Magic Attack, %Ignore DEF and %Boss Damage unlike the rest of your gear. As a note, do not keep %Damage lines as they do not provide as much as a boost as the other potential lines do</p>
+            <p>As well, all equipment should have 3 lines of potential instead of 2. Otherwise, use <img src="/images/items/gold-potential-stamp.png" alt="Gold Potential Stamp"/> <a href="https://maplestory.wiki/GMS/215/item/2049500" target="_blank" rel="noreferrer noopener">[Gold Potential Stamp]</a> to unlock a 3rd line</p>
+            <p>Do not be afraid to use expiring <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> <a href="https://maplestorywiki.net/w/Hard_Cube" target="_blank" rel="noreferrer noopener">[Hard Cubes]</a> as it's better to use them than waste it. As well, take that risk of rerolling your "okay" potentials for "great" potentials as they are easily regained</p>
+            <p>Some ways to obtain Epic Potential Scrolls are:</p>
+            <ul>
+                <li><strong style={{color: '#ff6600'}}>[Heroic Worlds] </strong>Yu Garden shop</li>
+                <li><strong>[Interactive Worlds] </strong>Auction House</li>
+                <li>Event Shops</li>
+                <li>Elite Bosses</li>
+                <li>Pollo/Fritto Missions + Inferno Wolf</li>
+                <li>Legion System</li>
+            </ul>
+            <p>Some ways to obtain Gold Potential Stamps are:</p>
+            <ul>
+                <li><strong>[Interactive Worlds]</strong> Auction House
+                    <ul>
+                        <li>Search for <img src="/images/items/gold-potential-stamp.png" alt="Perfect Potential Stamp"/> <a href="https://maplestory.wiki/GMS/215/item/2049506" target="_blank" rel="noreferrer noopener">[Perfect Potential Stamp]</a></li>
+                    </ul>
+                </li>
+                <li>Event Shops</li>
+                <li>Elite Bosses</li>
+                <li>Pollo/Fritto Missions + Inferno Wolf</li>
+                <li>Legion System</li>
+            </ul>
+            <p>Some ways to obtain Hard Cubes are:</p>
+            <ul>
+                <li>Crafting</li>
+                <li>Harvesting from Mysterious Veins / Herbs</li>
+                <li>Commerci Voyages</li>
+                <li>Bosses</li>
+                <li>Pollo/Frito Missions + Inferno Wolf</li>
+            </ul>
+        </div>
+    );
+};
+
+function EarlygameBossesOne(){
+  return(
+    <div>
+        <ArticleHeaderTwo id="bosses">[ &lt; 2k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+        <hr/>
+        <p>The amount of Main Stat listed is just a safe recommendation, your class may be able to defeat a boss with lower stat since there many other ways to improve a character besides Main Stat like Boost Nodes, %Boss Damage, or %Ignore DEF</p>
+        <p>There are also better options to test boss readiness such as attempting Practice Mode on a boss or Battle Analysis with a training dummy</p>
+        <ul>
+            <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>Normal Zakum</strong></a>
+            <ul>
+                <li><strong>Source of Mesos in Heroic Worlds from</strong>: <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/> <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a> that can be sold for Mesos</li>
+                <li>
+                    Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                </li>
+                <li>
+                    <strong>Easy Mode and Above Rewards:</strong>
+                    <img src="/images/equipment/zakum-helmet.png" alt="Eqp Zakum Helmet"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1002357" target="_blank" rel="noreferrer noopener">[Zakum Helmet]</a>
+                </li>
+                <li>
+                    <strong>Normal Mode and Above Rewards:</strong>
+                    <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/> <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a>
+                    , <img src="/images/equipment/condensed-power-crystal.png" alt="Eqp Condensed Power Crystal"/> <a href="https://maplestorywiki.net/w/Condensed_Power_Crystal">[</a><a href="https://maplestory.wiki/GMS/210.1.1/item/1012478" target="_blank" rel="noreferrer noopener">Condensed Power Crystal]</a>
+                    , <img src="/images/equipment/aquatic-letter-eye.png" alt="Eqp Aquatic Letter Eye Accessory"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022231" target="_blank" rel="noreferrer noopener">[Aquatic Letter Eye]</a>
+                    , <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Lv. 110 Rebirth Flame]</a>
+                </li>
+            </ul>
+            </li>
+            <li> <img src="/images/map-icons/ursus.png" alt="MapIcon Ursus"/>  <strong><a href="https://maplestorywiki.net/w/Ursus" target="_blank" rel="noreferrer noopener">Ursus</a></strong>
+            <ul>
+                <li>Source of Mesos</li>
+                <li>For more info on Ursus, check this out: <a href="https://strategywiki.org/wiki/MapleStory/Ursus" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Ursus</a></li>
+            </ul>
+            </li>
+            <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> <a href="https://maplestorywiki.net/w/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Easy Papulatus</strong></a>
+            <ul>
+                <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+            </ul>
+            </li>
+            <li> <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Magnus</strong></a>
+            <ul>
+                <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                </li>
+                <li>
+                    <strong>Easy Mode and Above Rewards:</strong> <img src="/images/equipment/elite-heliseum-belt.png" alt="Eqp Elite Heliseum Belt"/> <a href="https://maplestorywiki.net/w/Elite_Heliseum_Warrior_Belt" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>
+                    , <img src="/images/equipment/elite-heliseum-cape.png"/> <a href="https://maplestorywiki.net/w/Elite_Heliseum_Warrior_Cape" target="_blank" rel="noreferrer noopener">[Superior Cape]</a>
+                    , <img src="/images/equipment/crystal-ventus-badge.png" alt="Eqp Crystal Ventus Badge"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1182087" target="_blank" rel="noreferrer noopener">[Crystal Ventus Badge]</a>
+                    , <img src="/images/equipment/royal-black-metal-shoulder.png" alt="Eqp Royal Black Metal Shoulder"/> <a href="https://maplestorywiki.net/w/Royal_Black_Metal_Shoulder" target="_blank" rel="noreferrer noopener">[Royal Black Metal Shoulder]</a>
+                    , <img src="/images/equipment/kaiserion.png" alt="Eqp Kaiserion"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1402205" target="_blank" rel="noreferrer noopener">[Kaiserion]</a>
+                    , <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Lv. 110 Rebirth Flame]</a>
+                    , <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestorywiki.net/w/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">[Shadowdealer Coin]</a>
+                </li>
+            </ul>
+            </li>
+            <li> <img src="/images/map-icons/hilla.png" alt="MapIcon Hilla"/> <a href="https://maplestorywiki.net/w/Hilla/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Hilla</strong></a>
+            <ul>
+                <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                </li>
+                <li>
+                    <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/stone-of-eternal-life.png" alt="Eqp Stone of Eternal Life"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162009" target="_blank" rel="noreferrer noopener">[Stone of Eternal Life]</a>
+                    , <img src="/images/equipment/necromancer-warrior-hat.png" alt="Eqp Necromancer Warrior Hat"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Necromancer_Warrior_Set" target="_blank" rel="noreferrer noopener">[Lv. 120 Necromancer Gear]</a>
+                    , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
+                    , <img src="/images/items/pet-box-blackheart.png" alt="Use (Pet Box) Blackheart"/> <a href="https://maplestorywiki.net/w/(Pet_Box)_Blackheart" target="_blank" rel="noreferrer noopener">[Pet Box]</a>
+                </li>
+            </ul>
+            </li>
+            <li> <img src="/images/map-icons/omega-sector.png"/> <a href="https://maplestorywiki.net/w/OMNI-CLN" target="_blank" rel="noreferrer noopener"><strong>OMNI-CLN</strong></a>
+            <ul>
+                <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                </li>
+                <li>
+                    <strong>Normal Mode Rewards:</strong> <img src="/images/items/omni-cln-component.png"/> <a href="https://maplestorywiki.net/w/OMNI-CLN_Component" target="_blank" rel="noreferrer noopener">[OMNI-CLN Component]</a>
+                    , <img src="/images/items/omni-cln-vacuum.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[OMNI-CLN Vacuum]</a>
+                    , <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Lv. 110 Rebirth Flame]</a>
+                </li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+  );  
+};
+
+function EarlygameBossesTwo(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="bosses">[ &gt; 3k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li> <img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> <strong><a href="https://maplestorywiki.net/w/Gollux" target="_blank" rel="noreferrer noopener">Easy/Normal Gollux</a></strong>:
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, and <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
+                    </li>
+                    <li>
+                        <strong>Main Rewards:</strong> <img src="/images/items/gollux-penny.png" alt="Etc Gollux Penny"/> [Gollux Penny]
+                        , <img src="/images/equipment/cracked-gollux-earrings.png" alt="Eqp Cracked Gollux Earrings"/> <img src="/images/equipment/cracked-gollux-ring.png" alt="Eqp Cracked Gollux Ring"/> <img src="/images/equipment/cracked-gollux-engraved-pendant.png" alt="Eqp Cracked Engraved Gollux Pendant"/> <img src="/images/equipment/cracked-gollux-engraved-belt.png" alt="Eqp Cracked Engraved Gollux Belt"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Cracked_Gollux_Set" target="_blank" rel="noreferrer noopener">[Cracked Gollux Accessories]</a>
+                        , <img src="/images/equipment/solid-gollux-earrings.png" alt="Eqp Solid Gollux Earrings"/> <img src="/images/equipment/solid-gollux-ring.png" alt="Eqp Solid Gollux Ring"/> <img src="/images/equipment/solid-gollux-engraved-pendant.png" alt="Eqp Solid Engraved Gollux Pendant"/> <img src="/images/equipment/solid-gollux-engraved-belt.png" alt="Eqp Solid Engraved Gollux Belt"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Solid_Gollux_Set" target="_blank" rel="noreferrer noopener">[Solid Gollux Accessories (Normal and above)]</a>
+                    </li>
+                    <li>Gollux Pennies <img src="/images/items/gollux-penny.png" alt="Etc Gollux Penny"/> can be used to buy items from <a href="https://maplestorywiki.net/w/Randolf" target="_blank" rel="noreferrer noopener">Randolf</a> and <a href="https://maplestorywiki.net/w/Mountain_Mumur" target="_blank" rel="noreferrer noopener">Mountain Murmur</a></li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong><a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Normal Root Abyss</a></strong>:
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                    </li>
+                    <li>
+                        <strong>Normal mode and Above Rewards:</strong> <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/>[Yggdrasil Coin]
+                        , <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/><img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/><img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/><img src="/images/items/vellum-rock-chair.png" alt="Setup Vellum Rock Chair"/> [Chair]
+                    </li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/horntail.png" alt="MapIcon Hontale"/> <a href="https://maplestorywiki.net/w/Horntail" target="_blank" rel="noreferrer noopener"><strong>Easy/Normal/Chaos Horntail</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[<em>(Chaos Only)</em> Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Easy Mode and Above Rewards: </strong> <img src="/images/equipment/silver-blossom-ring.png"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1113149" target="_blank" rel="noreferrer noopener">[Silver Blossom Ring]</a>, <img src="/images/equipment/dea-sidus-earrings.png" alt="Eqp Dea Sidus Earring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032241" target="_blank" rel="noreferrer noopener">[Dea Sidus Earrings]</a>
+                        , <img src="/images/equipment/horntail-necklace.png" alt="Eqp Horntail Necklace"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122000" target="_blank" rel="noreferrer noopener">[Horntail Necklace]</a>
+                        , <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
+                    </li>
+                    <li>
+                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/potion-recipe.png"/> <a href="https://maplestorywiki.net/w/Wealth_Acquisition_Potion#Recipe" target="_blank" rel="noreferrer noopener">[Wealth Aquisition Potion Recipe]</a>
+                    </li>
+                    <li>
+                    <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-horntail-necklace.png" alt="Eqp Chaos Horntail Necklace"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122076" target="_blank" rel="noreferrer noopener">[Chaos Horntail Necklace]</a>
+                        , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+                        , <img src="/images/items/horntail-fountain.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Horntail Fountain]</a>
+                    </li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <strong> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Easy/Normal/Hard Von Leon</a></strong>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                    </li>
+                    <li>
+                        <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
+                        , <img src="/images/items/royal-lion-king-medal.png" alt="Etc Royal Lion King Medal"/> [Von Leon Gear Currency]
+                        , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                    </li>
+                    <li>
+                        <strong>Hard Mode and Above Rewards:</strong> <img src="/images/equipment/royal-von-leon-suit.png"/><img src="/images/equipment/royal-von-leon-energy-chain.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Royal_Von_Leon_Warrior_Set" target="_blank" rel="noreferrer noopener">[Lv. 130 Von Leon Gear]</a>
+                        , <img src="/images/equipment/ifias-earrings.png"/><img src="/images/equipment/ifias-ring.png"/><img src="/images/equipment/ifias-necklace.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Ifia%27s_Treasure_Set" target="_blank" rel="noreferrer noopener">[Ifia Accessories]</a>
+                        , <img src="/images/items/lion-ice-sculpture.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Lion Ice Sculpture]</a>
+                    </li>
+                    <li> <img src="/images/items/royal-lion-king-medal.png" alt="Etc Royal Lion King Medal"/> exchange for <img src="/images/equipment/royal-von-leon-suit.png"/><img src="/images/equipment/royal-von-leon-energy-chain.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Lv. 130 Von Leon Gear]</a>
+                    </li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/ranmaru.png" alt="MapIcon Ranmaru"/> <strong> <a href="https://maplestorywiki.net/w/Mori_Ranmaru" target="_blank" rel="noreferrer noopener">Normal/Hard Mori Ranmaru</a></strong>
+                <ul>
+                    <li>Hard requires much more range than Normal (close to 10k Main Stat) however grants a lot of EXP when defeated</li>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[<em>(Hard Only)</em> Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/eclectic-fennel.png" alt="Eqp Eclectic Fennel"/> [Lv. 120 Gear]
+                        , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._120" target="_blank" rel="noreferrer noopener">[Lv. 120 Rebirth Flame]</a>
+                        , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[(Heroic World Only) Powerful Rebirth Flame]</a>
+                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[(Heroic World Only) Eternal Rebirth Flame]</a>
+                    </li>
+                    <li>
+                        <strong>Hard Mode Only Rewards:</strong> , <img src="/images/equipment/amaterasus-helm.png" alt="Eqp Amaterasu's Helm"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Amaterasu_Set" target="_blank" rel="noreferrer noopener">[Japanese Armor]</a>
+                        , <img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._120" target="_blank" rel="noreferrer noopener">[Lv. 130 Rebirth Flame]</a>
+                    </li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Normal Pink Bean</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/black-bean-mark.png" alt="Eqp Black Bean Mark"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022232" target="_blank" rel="noreferrer noopener">[Black Bean Mark]</a>
+                        , <img src=" /images/equipment/golden-clover-belt.png" alt="Eqp Golden Clover Belt"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1132272" target="_blank" rel="noreferrer noopener">[Golden Clover Belt]</a>
+                        , <img src=" /images/equipment/pink-holy-cup.png" alt="Eqp Pink Holy Cup"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1162025" target="_blank" rel="noreferrer noopener">[Pink Holy Cup]</a>
+                        , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
+                    </li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function EarlygameBossesThree(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="bosses">[ &gt; 5k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Cygnus</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Easy Mode and Above Rewards:</strong> <img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/> [Lv. 140 Rebirth Flame]
+                        , <img src="/images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/><img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> [Empress Gear Fragment]
+                    </li>
+                    <li><img src="/images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/><img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> exchange for <img src="/images/equipment/lionheart-battle-helm.png" alt="Eqp Lionheart Battle Helm"/><img src="/images/equipment/lionheart-cutlass.png" alt="Eqp Lionheart Cutlass"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Lv. 140 Empress Gear]</a></li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/hilla.png" alt="MapIcon Hilla"/> <a href="https://maplestorywiki.net/w/Hilla/Monster" target="_blank" rel="noreferrer noopener"><strong>Hard Hilla</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/power-elixir.png"/> <a href="https://maplestorywiki.net/w/Power_Elixir" target="_blank" rel="noreferrer noopener">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                    </li>
+                    <li>
+                        <strong>Hard Mode Only Rewards:</strong>
+                        <img src="/images/equipment/will-o-the-wisps.png"/> <a href="https://maplestorywiki.net/w/Will_o%27_the_Wisps" target="_blank" rel="noreferrer noopener">[Will O' the Wisps]</a>
+                        , <img src="/images/items/hilla-obelisk-floor-lamp.png"/> <a href="https://maplestorywiki.net/w/Papulatus_Clock_Chair" target="_blank" rel="noreferrer noopener">[Hilla Obelisk Floor Lamp]</a>
+                    </li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/arkarium.png" alt="MapIcon Akairum"/> <a href="https://maplestorywiki.net/w/Arkarium/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy/Normal Arkarium</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/elixir.png" alt="Use Elixir"/> <a href="https://maplestorywiki.net/w/Elixir" target="_blank" rel="noreferrer noopener">[Elixir]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[<em>(Normal Only)</em> Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Easy mode and Above Rewards:</strong> <img src=" /images/equipment/mechanator-pendant.png" alt="Eqp Mechanator Pendant"/> <a href="https://maplestorywiki.net/w/Mechanator_Pendant" target="_blank" rel="noreferrer noopener">[Mechanator Pendant]</a>
+                        , <img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/> [Lv. 130 Rebirth Flame]
+                        , <img src=" /images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noreferrer noopener">[Primal Essence]</a>
+                    </li>
+                    <li>
+                        <strong>Normal mode Only Rewards:</strong> <img src=" /images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a href="https://maplestorywiki.net/w/Dominator_Pendant" target="_blank" rel="noreferrer noopener">[Dominator Pendant]</a>
+                        , <img src="/images/items/arkarium-statue.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Arkarium Statue]</a>
+                    </li>
+                    <li>Ability to clear Arkarium early game will depend on your class, for example, does your class have a bind or iFrame?</li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function EarlygameBossesFour(){
+    return(
+        <div>
+            <ArticleHeaderTwo>[ &gt; 8k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Cygnus</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Normal Mode Only Rewards:</strong> <img src="/images/equipment/lionheart-battle-shoulder.png" alt="Eqp Lionheart Battle Shoulder"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Empress Shoulder]</a>
+                        , <img src="/images/equipment/deimos-warrior-shield.png" alt="Eqp Deimos Sage Shield"/><img src=" /images/equipment/deimos-shadow-shield.png" alt="Eqp Deimos Shadow Shield"/><img src=" /images/equipment/deimos-sage-shield.png" alt="Eqp Deimos Warrior Shield"/> [Shield Recipes]
+                        , <img src="/images/items/plush-cygnus-shelf.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Plush Cygnus Shelf]</a>
+                    </li>
+                    <li><img src="/images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/><img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> exchange for <img src="/images/equipment/lionheart-battle-helm.png" alt="Eqp Lionheart Battle Helm"/><img src="/images/equipment/lionheart-cutlass.png" alt="Eqp Lionheart Cutlass"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Lv. 140 Empress Gear]</a></li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>Chaos Zakum</strong></a>
+                <ul>
+                    <li><strong>Source of Mesos in Heroic Worlds from</strong>: <img src="/images/equipment/poisonic-sword.png" alt="Eqp Zakum's Poisonic Sword"/> <a href="https://maplestorywiki.net/w/Zakum%27s_Poisonic_Sword" target="_blank" rel="noreferrer noopener">[Poisonic Weapons]</a> that can be sold for Mesos</li>
+                    <li>
+                        Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir" target="_blank" rel="noreferrer noopener">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                    </li>
+                    <li>
+                        <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-zakum-helmet.png" alt="Eqp Chaos Zakum Helmet"/>
+                        <a href="https://maplestorywiki.net/w/Chaos_Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Chaos Zakum Helmet]</a>, <img src="/images/equipment/enraged-zakum-helmet.png" alt="Eqp Enraged Zakum Helmet"/>
+                        <a href="https://maplestorywiki.net/w/Enraged_Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Enraged Zakum Helmet]</a>, <img src="/images/equipment/enraged-zakum-cape.png" alt="Eqp Enraged Zakum Cape"/>
+                        <a href="https://maplestorywiki.net/w/Enraged_Zakum_Cape" target="_blank" rel="noreferrer noopener">[Enraged Zakum Cape]</a>, <img src="/images/equipment/enraged-zakum-belt.png" alt="Eqp Enraged Zakum Belt"/>
+                        <a href="https://maplestorywiki.net/w/Enraged_Zakum_Belt" target="_blank" rel="noreferrer noopener">[Enraged Zakum Belt]</a>, <img src="/images/items/zakum-hand-table.png"/>
+                        <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Zakum Hand Table]</a>
+                    </li>
+                </ul>
+                </li>
+                <li><img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> <a href="https://maplestorywiki.net/w/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Normal Papulatus</strong></a>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                        </li>
+                        <li>
+                            <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/papulatus-clock-chair.png"/>
+                            <a href="https://maplestorywiki.net/w/Papulatus_Clock_Chair" target="_blank" rel="noreferrer noopener">[Papulatus Clock Chair]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Magnus</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/power-elixir.png"/> <a href="https://maplestorywiki.net/w/Power_Elixir" target="_blank" rel="noreferrer noopener">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                    </li>
+                    <li>
+                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/nova-hyades-cloak.png" alt="Eqp Nova Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Nova_Hyades_Cloak" target="_blank" rel="noreferrer noopener">[Superior Nova Cape]</a>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function EarlygameBossesFive(){
+    return(
+        <div>
+            <ArticleHeaderTwo>[ &gt; 12k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Chaos Pink Bean</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-pink-bean-hat.png"/><img src="/images/equipment/chaos-pink-bean-suit.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Chaos_Pink_Bean_Set_I" target="_blank" rel="noreferrer noopener">[Chaos Pink Bean Set]</a>
+                        , <img src="/images/equipment/black-bean-hat.png"/><img src="/images/equipment/black-bean-suit.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Black_Bean_Set" target="_blank" rel="noreferrer noopener">[Black Bean Set]</a>
+                        , <img src="/images/items/powerful-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                        , <img src="/images/items/eternal-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                        , <img src="/images/items/pink-bean-armchair.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Pink Bean Armchair]</a>
+                        </li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> <strong><a href="https://maplestorywiki.net/w/Princess_No/Monster" target="_blank" rel="noreferrer noopener">Princess No</a></strong>:
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                    </li>
+                    <li>
+                        <strong>Main Rewards:</strong> <img src="/images/items/captivating-fragment.png" alt="Use Captivating Fragment"/> <a href="https://maplestorywiki.net/w/Captivating_Fragment" target="_blank" rel="noopener noreferrer">[Secondary Weapon Fragment]</a>
+                        , <img src="/images/equipment/hayatos-treasure.png" alt="Eqp Hayato's Treasure"/><img src="/images/equipment/kannas-treasure.png" alt="Eqp Kanna's Treasure"/><img src="/images/equipment/ayames-treasure.png" alt="Eqp Ayame's Treasure"/> [ <a href="https://maplestory.wiki/GMS/210.1.1/item/1152171" target="_blank" rel="noopener noreferrer">Shoulder</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1113155" target="_blank" rel="noopener noreferrer">Ring</a> / <a href="https://maplestory.wiki/GMS/210.1.1/item/1132275" target="_blank" rel="noopener noreferrer">Belt</a> ]
+                        , <img src="/images/items/princess-no-chair.png" alt="Setup Princess No Chair"/> <a href="https://maplestorywiki.net/w/Princess_No_Chair" target="_blank" rel="noopener noreferrer">[Princess No Chair]</a>
+                        , <img src="/images/items/princess-no-effect-coupon.png" alt="Use Princess No Effect Coupon"/> <a href="https://maplestorywiki.net/w/Princess_No_Effect_Coupon" target="_blank" rel="noopener noreferrer">[Princess No Effect Coupon]</a>
+                        , <img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/> [Lv. 140 Rebirth Flame]
+                    </li>
+                    <li><img src=" /images/items/captivating-fragment.png" alt="Use Captivating Fragment"/> can be used to redeem the best <img src=" /images/equipment/princess-nos-accursed-shield.png" alt="Eqp Princess No's Accursed Shield"/> <img src="/images/equipment/princess-nos-fox-marble.png" alt="Eqp Princess No's Fox Marble"/> <a href="https://maplestorywiki.net/w/Captivating_Fragment" target="_blank" rel="noreferrer noopener">[Secondary Weapons]</a> in the game</li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> <strong><a href="https://maplestorywiki.net/w/Gollux" target="_blank" rel="noreferrer noopener">Hard Gollux</a></strong>:
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, and <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
+                    </li>
+                    <li><strong>Main Rewards:</strong> <img src=" /images/items/gollux-coin.png" alt="Etc Gollux Coin"/> [Gollux Coins], <img src=" /images/equipment/reinforced-gollux-earrings.png" alt="Eqp Reinforced Gollux Earrings"/> <img src=" /images/equipment/reinforced-engraved-gollux-belt.png" alt="Eqp Reinforced Engraved Gollux Belt"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Reinforced_Gollux_Set" target="_blank" rel="noreferrer noopener">[Reinforced/Solid/Cracked Gollux Earrings &amp; Belt]</a>
+                    </li>
+                    <li>Gollux Coins <img src=" /images/items/gollux-coin.png" alt="Etc Gollux Coin"/> can be used to buy items from <a href="https://maplestorywiki.net/w/Randolf" target="_blank" rel="noreferrer noopener">Randolf</a> and <a href="https://maplestorywiki.net/w/Mountain_Mumur" target="_blank" rel="noreferrer noopener">Mountain Murmur</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function MidgameBossesOne(){
+    return(
+        <div>
+            <ArticleHeaderTwo>[ &gt; 14k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <p>Recommended to have at least &gt;%90 IED and &gt;200% Boss Damage for bosses beyond this point</p>
+            <ul>
+                <li> <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong><a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Chaos Root Abyss</a></strong>:
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                    </li>
+                    <li><strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/queens-tiara.png" alt="Eqp Queen's Tiara"/> <img src="/images/equipment/pierre-hat.png" alt="Eqp Pierre Hat"/> <img src="/images/equipment/von-bon-helmet.png" alt="Eqp Von Bon Helmet"/> <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Chaos Hat], <img src="/images/items/piece-of-anguish.png" alt="Use Piece of Anguish"/> <img src="/images/items/piece-of-mockery.png" alt="Use Piece of Mockery"/> <img src="/images/items/piece-of-time.png" alt="Use Piece of Time"/> <img src="/images/items/piece-of-destruction.png" alt="Use Piece of Destruction"/> [CRA Gear Fragment], <img src=" /images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/>[Chaos Yggdrasil Coin], <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/> <img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/> <img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/> <img src="/images/items/vellum-rock-chair.png" alt="Setup Vellum Rock Chair"/>[Chair]
+                    , <img src="/images/items/pierre-umbrella-stand.png"/><img src="/images/items/von-bon-windup-clock.png"/><img src="/images/items/crimson-queen-vanity-table.png"/><img src="/images/items/vellum-lava-bathtub.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Furniture]</a>
+                    </li>
+                    <li>These fragments <img src="/images/items/piece-of-anguish.png" alt="Use Piece of Anguish"/> <img src="/images/items/piece-of-mockery.png" alt="Use Piece of Mockery"/> <img src="/images/items/piece-of-time.png" alt="Use Piece of Time"/> <img src="/images/items/piece-of-destruction.png" alt="Use Piece of Destruction"/> exchange for <img src=" /images/equipment/royal-warrior-helm.png" alt="Eqp Royal Warrior Helm"/> <img src="/images/equipment/fafnir-mistilteinn.png" alt="Eqp Fafnir Mana Cradle"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Root_Abyss_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Lv. 150 Root Abyss Gear]</a></li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Hard Magnus</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/power-elixir.png"/> <a href="https://maplestorywiki.net/w/Power_Elixir" target="_blank" rel="noreferrer noopener">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                    </li>
+                    <li>
+                        <strong>Hard Mode Only Rewards:</strong>
+                        <img src="/images/equipment/tyrant-hyades-cloak.png" alt="Eqp Tyrant Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Tyrant_Hyades_Cloak" target="_blank" rel="noreferrer noopener">[Superior Tyrant Cape]</a>
+                        , <img src="/images/equipment/nova-hyades-boots.png"/> <a href="https://maplestorywiki.net/w/Nova_Hyades_Boots" target="_blank" rel="noreferrer noopener">[Superior Nova Boots]</a>
+                        , <img src="/images/equipment/cursed-kaiserium.png" alt="Eqp Cursed Kaiserium"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1402179" target="_blank" rel="noreferrer noopener">[Cursed Kaiserium]</a>
+                        , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                        , <img src="/images/items/magnus-coin.png" alt="Etc Magnus Coin"/> [Magnus Coin]
+                        , <img src="/images/items/magnus-horn-throne.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Magnus Horn Throne]</a>
+                    </li>
+                </ul>
+                </li>
+                <li><img src="/images/map-icons/fort-asura.png" alt="MapIcon Fort Asura"/> <a href="https://maplestorywiki.net/w/Akechi_Mitsuhide/Monster" target="_blank" rel="noopener noreferrer"><strong>Akechi Mitsuhide</strong></a>:
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Main Rewards:</strong> <img src="/images/equipment/nimbus-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><img src="/images/equipment/weeping-spirit-sword-of-the-wolf.png" alt="Eqp Wolf Weapon"/><a href="https://maplestorywiki.net/w/Equipment_Set/Amaterasu_Set" target="_blank" rel="noopener noreferrer">[Japanese Wolf Weapons]</a>
+                            , <img src="/images/items/mark-of-the-silver-wolf.png" alt="Mark of the Silver Wolf"/> <a href="https://maplestorywiki.net/w/Mark_of_the_Silver_Wolf" target="_blank" rel="noopener noreferrer">[Mark of the Silver Wolf]</a>
+                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                            , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/><a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>
+                            , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/><a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>
+                            , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                            , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/><a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
+                        </li>
+                        <li><img src="/images/items/mark-of-the-silver-wolf.png" alt="Mark of the Silver Wolf"/> Coin is usage to exchange for Japanese Wolf Weapons from <a href="https://maplestorywiki.net/w/Kobayakawa_Takakage" target="_blank" rel="noopener noreferrer">Kobayakawa Takakage</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function MidgameBossesTwo(){
+    <div>
+        <ArticleHeaderTwo>[ &gt; 20k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
+        <hr/>
+        <ul>
+            <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> <a href="https://maplestorywiki.net/w/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Chaos Papulatus</strong></a>
+            <ul>
+                <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                </li>
+                <li>
+                    <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/papulatus-mark.png" alt="Eqp Papulatus Mark"/> <a href="https://maplestorywiki.net/w/Papulatus_Mark" target="_blank" rel="noreferrer noopener">[Papulatus Mark]</a>
+                    , <img src="/images/items/papulatus-wall-clock.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Papulatus Wall Clock]</a>
+                </li>
+            </ul>
+            </li>
+            <li> <img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> <strong><a href="https://maplestorywiki.net/w/Lotus" target="_blank" rel="noreferrer noopener">Normal Lotus</a></strong>
+            <ul>
+                <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                <li>
+                    <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/extraordinary-energy-core.png" alt="Etc Extraordinary Energy Core (Grade S)"/> [Extraordinary Energy Core (Grade S)]
+                    , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                    , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                    , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                    , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                    , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                    , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+                    , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                    , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+                    , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
+                    , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                    , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
+                    , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
+                </li>
+            </ul>
+            </li>
+            <li> <img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> <a href="https://maplestorywiki.net/w/Damien" target="_blank" rel="noreferrer noopener"><strong>Normal Damien</strong></a>
+            <ul>
+                <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                <li>
+                    <strong>Normal Mode Rewards: </strong> , <img src="/images/equipment/ruin-force-shield.png" alt="Eqp Ruin Force Shield"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1099015" target="_blank" rel="noreferrer noopener">[(Demon-Class Exclusive) Ruin Force Shield]</a>
+                    , <img src="/images/items/twisted-stigma-spirit-stone.png" alt="Etc Twisted Stigma Spirit Stone"/> [Twisted Stigma Spirit Stone]
+                    , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                    , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                    , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                    , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                    , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                    , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+                    , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                    , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+                    , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
+                    , <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
+                    , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                    , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
+                    </li>
+            </ul>
+            </li>
+            <li> <img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> <strong><a href="https://maplestorywiki.net/w/Gollux" target="_blank" rel="noreferrer noopener">Hell Gollux (Hellux)</a></strong>
+            <ul>
+            <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, and <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]</li>
+                <li><strong>Main Rewards:</strong> <img src=" /images/items/gollux-coin.png" alt="Etc Gollux Coin"/> [Gollux Coins]
+                , <img src="/images/equipment/superior-gollux-earrings.png" alt="Eqp Superior Gollux Earrings"/> <img src="/images/equipment/superior-engraved-gollux-belt.png" alt="Eqp Superior Engraved Gollux Belt"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Superior_Gollux_Set" target="_blank" rel="noreferrer noopener">[Superior/Reinforced/Solid/Cracked Gollux Earrings &amp; Belt]</a>
+                , <img src="/images/items/gollux-wood-bench.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Gollux Wood Bench]</a>
+                </li>
+                <li>Gollux Coins <img src=" /images/items/gollux-coin.png" alt="Etc Gollux Coin"/> can be used to buy items from <a href="https://maplestorywiki.net/w/Randolf" target="_blank" rel="noreferrer noopener">Randolf</a> and <a href="https://maplestorywiki.net/w/Mountain_Mumur" target="_blank" rel="noreferrer noopener">Mountain Murmur</a></li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+};
+
+function MidgameBossesThree(){
+    return(
+        <div>
+            <ArticleHeaderTwo>[ &gt; 28k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Lucid</strong></a>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                        </li>
+                        <li>
+                            <strong>Easy Mode and Above Rewards:</strong> <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                            , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+                        </li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Easy Will</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Easy Mode and Above Rewards: </strong> <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                            , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong><a href="https://maplestorywiki.net/w/Guardian_Angel_Slime" target="_blank" rel="noopener noreferrer">Normal Guardian Angel Slime</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Normal Mode and Above Rewards: </strong>
+                            <img src="/images/equipment/guardian-angel-ring.png" alt="Guardian Angel Ring"/><a href="https://maplestorywiki.net/w/Guardian_Angel_Ring" target="_blank" rel="noreferrer noopener">[Guardian Angel Ring]</a>, <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                            , <img src="/images/items/sparkling-red-star-potion.png" alt="Use Sparkling Red Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noopener noreferrer">[Sparkling Red Star Potion]</a>, <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>, <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._150" target="_blank" rel="noopener noreferrer">[Rebirth Flame Lv. 150]</a>
+                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>, <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                            , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function EndgameBossesOne(){
+    return(
+        <div>
+            <ArticleHeaderTwo>Tier I Endgame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <p>Bosses beyond this point are not meant to be soloable and are more party-oriented bosses. As well, beyond this point, bosses will be separated by tiers as there is no good recommended stat indicators for the reasons mentioned earlier.</p>
+            <ul>
+                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Lucid</strong></a>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li><strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/butterfly-droplet-stone.png"/> <a href="https://maplestorywiki.net/w/Butterfly_Droplet_Stone" target="_blank" rel="noreferrer noopener">[Butterfly Droplet Stone]</a>
+                            , <img src="/images/equipment/twilight-mark.png"/> <a href="https://maplestorywiki.net/w/Twilight_Mark" target="_blank" rel="noreferrer noopener">[Twilight Mark]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Normal Will</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/stone-cobweb-droplet.png"/> <a href="https://maplestorywiki.net/w/Stone_Cobweb_Droplet" target="_blank" rel="noreferrer noopener">[Stone Cobweb Droplet]</a>
+                            , <img src="/images/equipment/twilight-mark.png"/> <a href="https://maplestorywiki.net/w/Twilight_Mark" target="_blank" rel="noreferrer noopener">[Twilight Mark]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Normal Gloom</a></strong>
+                    <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/estella-earrings.png" alt="Eqp Estella Earrings"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Estella_Earrings" target="_blank">[Estella Earrings]</a>
+                        , <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Spark_of_Determination" target="_blank">[Spark of Determination]</a>
+                        , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                        , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                        , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                        , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                        , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                        , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                    </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <strong><a href="https://maplestorywiki.net/w/Guard_Captain_Darknell" target="_blank" rel="noreferrer noopener">Normal Darknell</a></strong>
+                    <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/estella-earrings.png" alt="Eqp Estella Earrings"/> <a href="https://maplestorywiki.net/w/Daybreak_Pendant" target="_blank" rel="noreferrer noopener">[Estella Earrings]</a>
+                        , <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> [Spark of Determination]
+                        , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                        , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                        , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                        , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
+                        , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                        , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                        , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                        , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
+                        , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                        , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
+                        , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function EndgameBossesTwo(){
+    return(
+        <div>
+            <ArticleHeaderTwo>Tier II Endgame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+            <li> <img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> <strong><a href="https://maplestorywiki.net/w/Lotus" target="_blank" rel="noreferrer noopener">Hard Lotus</a></strong>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Hard Mode Only Rewards: </strong> <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestorywiki.net/w/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>
+                        , <img src="/images/items/damaged-black-heart.png" alt="Etc Damaged Black Heart"/> <a href="https://maplestorywiki.net/w/Damaged_Black_Heart" target="_blank" rel="noreferrer noopener">[Damaged Black Heart]</a>
+                        , <img src="/images/equipment/android.png" alt="Eqp Deluxe Android (M)"/> <a href="https://maplestorywiki.net/w/Lotusroid" target="_blank" rel="noreferrer noopener">[Lotusroid Android]</a>
+                        , <img src="/images/equipment/berserked.png" alt="Eqp Berserked"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1012632">[Beserked Face Accessory]</a>
+                        , <img src="/images/items/orchids-plush-bunny.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Orchid's Plush Bunny]</a>
+                        , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                        , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                        , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestorywiki.net/w/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Scroll - Accessory Coupon]</a>
+                        , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                        , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                        , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                    </li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/> <a href="https://maplestorywiki.net/w/Damien" target="_blank" rel="noreferrer noopener"><strong>Hard Damien</strong></a>
+                <ul>
+                    <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                    <li>
+                        <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/damienroid.png"/> <a href="https://maplestorywiki.net/w/Damienroid" target="_blank" rel="noreferrer noopener">[Damienroid Android]</a>
+                        , <img src="/images/equipment/magic-eyepatch.png" alt="Eqp Magic Eyepatch"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022278" target="_blank" rel="noreferrer noopener">[Magic Eyepatch]</a>
+                        , <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestorywiki.net/w/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>
+                        , <img src="/images/items/damiens-sword.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Damien's Sword]</a>
+                        , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                        , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                        , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                        , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestorywiki.net/w/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Scroll - Accessory Coupon]</a>
+                        , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                        , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                        , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                    </li>
+                </ul>
+                </li>
+                <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Hard Lucid</strong></a>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/lucidroid.png"/> <a href="https://maplestorywiki.net/w/Lucidroid" target="_blank" rel="noreferrer noopener">[Lucidroid]</a>
+                            , <img src="/images/equipment/dreamy-belt.png" alt="Eqp Dreamy Belt"/><a href="https://maplestory.wiki/GMS/210.1.1/item/1132308" target="_blank" rel="noreferrer noopener">[Dreamy Belt]</a>
+                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
+                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                            , <img src="/images/items/lucids-canopy-bed.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Lucid's Canopy Bed]</a>
+                            , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                            , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestorywiki.net/w/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Scroll - Accessory Coupon]</a>
+                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong><a href="https://maplestorywiki.net/w/Will" target="_blank" rel="noreferrer noopener">Hard Will</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Hard Mode Only Rewards: </strong> <img src="/images/items/wills-cursed-spellbook-selection-box.png"/> <a href="https://maplestorywiki.net/w/Will%27s_Cursed_Spellbook_Selection_Box" target="_blank" rel="noreferrer noopener">[Will's Cursed Spellbook Selection Box]</a>
+                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
+                            , <img src="/images/items/mirror-world-nodestone.png" alt="Use Mirror World Nodestone"/><a href="https://maplestorywiki.net/w/Mirror_World_Nodestone" target="_blank" rel="noreferrer noopener">[Mirror World Nodestone]</a>
+                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                            , <img src="/images/items/wills-web-swing-chair.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Will's Web Swing Chair]</a>
+                            , <img src="/images/items/chaos-scroll.png"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60%:_Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                            , <img src="/images/items/premium-scroll-accessory-coupon.png"/> <a href="https://maplestorywiki.net/w/Scroll_-_Accessory#Voucher" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Scroll - Accessory Coupon]</a>
+                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> <strong><a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Normal Verus Hilla</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/daybreak-pendant.png" alt="Eqp Daybreak Pendant"/> <a href="https://maplestorywiki.net/w/Daybreak_Pendant" target="_blank" rel="noreferrer noopener">[Daybreak Pendant]</a>
+                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
+                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function EndgameBossesThree(){
+    return(
+        <div>
+            <ArticleHeaderTwo>Tier III Endgame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Chaos Gloom</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a> and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/endless-terror.png" alt="Eqp Endless Terror"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/218/item/1113306" target="_blank">[Endless Terror]</a>
+                            , <img src="/images/items/gloom-dark-bean-bag.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Gloom Dark Bean Bag]</a>
+                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
+                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
+                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
+                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/labyrinth-of-suffering.png" alt="MapIcon Labyrinth of Suffering"/> <strong><a href="https://maplestorywiki.net/w/Hilla/Monster_(Reborn)" target="_blank" rel="noreferrer noopener">Hard Verus Hilla</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/source-of-suffering.png" alt="Eqp Source of Suffering"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122430" target="_blank" rel="noreferrer noopener">[Source of Suffering]</a>
+                            , <img src="/images/items/shadow-of-annihilation.png" alt="Etc Shadow of Annihilation"/> <a href="https://maplestorywiki.net/w/Shadow_of_Annihilation" target="_blank" rel="noreferrer noopener">[Shadow of Annihilation]</a>
+                            , <img src="/images/items/soul-candle.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Soul Candle]</a>
+                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
+                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
+                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
+                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <strong><a href="https://maplestorywiki.net/w/Guard_Captain_Darknell" target="_blank" rel="noreferrer noopener">Hard Darknell</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noopener noreferrer">[Soul Shard]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Hard Mode Only Rewards:</strong> <img src="/images/equipment/commanding-force-earring.png" alt="Eqp Commanding Force Earrings"/> <a href="https://maplestory.wiki/GMS/218/item/1032316" target="_blank" rel="noreferrer noopener">[Commanding Force Earrings]</a>
+                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
+                            , <img src="/images/items/darknells-helmet-decoration.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Darknell's Helmet Decoration]</a>
+                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
+                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
+                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
+                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong><a href="https://maplestorywiki.net/w/Guardian_Angel_Slime" target="_blank" rel="noopener noreferrer">Chaos Guardian Angel Slime</a></strong>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li><strong>Main Rewards:</strong> <img src="/images/equipment/guardian-angel-ring.png" alt="Guardian Angel Ring"/><a href="https://maplestorywiki.net/w/Guardian_Angel_Ring" target="_blank" rel="noreferrer noopener">[Guardian Angel Ring]</a>, <img src="/images/items/black-rebirth-flame.png" alt="Use Black Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[Black Rebirth Flame]</a>, <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>, <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                        , <img src="/images/items/sparkling-red-star-potion.png" alt="Use Sparkling Red Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noopener noreferrer">[Sparkling Red Star Potion]</a>, <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>, <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._150" target="_blank" rel="noopener noreferrer">[Rebirth Flame Lv. 150]</a>
+                        , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>, <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>, <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function EndgameBossesFour(){
+    return(
+        <div>
+            <ArticleHeaderTwo>Tier IV Endgame Bosses:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a href="https://maplestorywiki.net/w/Black_Mage/Monster" target="_blank" rel="noreferrer noopener"><strong>Black Mage</strong></a>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Main Rewards:</strong> <img src="/images/items/sealed-genesis-weapon-box.png" alt="Use Sealed Genesis Weapon Box"/> <a href="https://maplestorywiki.net/w/Sealed_Genesis_Weapon_Box" target="_blank" rel="noreferrer noopener">[Sealed Genesis Weapon Box]</a>
+                            , <img src="/images/equipment/genesis-badge.png" alt="Eqp Genesis Badge"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1182285" target="_blank" rel="noreferrer noopener">[Genesis Badge]</a>
+                            , <img src="/images/items/arcane-umbra-box.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Arcane_Umbra_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[Arcane Umbra Armor/Weapon Box]</a>
+                            , <img src="/images/items/black-mages-mirror.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener noreferrer">[Black Mage's Mirror]</a>
+                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
+                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
+                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
+                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/cernium.png" alt="MapIcon Cernium"/> <a href="https://maplestorywiki.net/w/Seren/Monster" target="_blank" rel="noreferrer noopener"><strong>Seren</strong></a>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Main Rewards:</strong> <img src="/images/items/mitras-rage-selection-box.png" alt="Use Mitra's Rage Selection Box"/> <a href="https://maplestorywiki.net/w/Mitra%27s_Rage_Selection_Box" target="_blank" rel="noopener">[Mitra's Rage Selection Box]</a>
+                            , <img src="/images/items/mitras-nodestone.png"/> <a href="https://maplestorywiki.net/w/Mitra%27s_Nodestone" target="_blank" rel="noopener">[Mitra's Nodestone]</a>
+                            , <img src="/images/equipment/daybreak-pendant.png" alt="Eqp Daybreak Pendant"/> <a href="https://maplestorywiki.net/w/Daybreak_Pendant" target="_blank" rel="noopener">[Daybreak Pendant]</a>
+                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
+                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
+                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
+                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/karote.png" alt="MapIcon Cernium"/> <a href="https://maplestorywiki.net/w/Kalos/Monster" target="_blank" rel="noreferrer noopener"><strong>Kalos</strong></a>
+                    <ul>
+                        <li>Source of <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points, <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>, <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> <a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>, <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace], and <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a></li>
+                        <li>
+                            <strong>Main Rewards:</strong> <img src="/images/items/kalos-residual-determination.png" alt="Use Kalos's Residual Determination"/> <a href="https://maplestorywiki.net/w/Kalos%27s_Residual_Determination" target="_blank" rel="noopener">[Kalos's Residual Determination]</a>
+                            , <img src="/images/items/kalos-ceiling-fan.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener">[Kalos Ceiling Fan]</a>
+                            , <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noopener noreferrer">[Primal Essence]</a>
+                            , <img src="/images/items/sparkling-blue-star-potion.png" alt="Use Sparkling Blue Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Blue_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Blue Star Potion]</a>
+                            , <img src="/images/items/sparkling-red-star-potion.png"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noreferrer noopener">[Sparkling Red Star Potion]</a>
+                            , <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>
+                            , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
+                            , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
+                            , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
+                            , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
+                            , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
+                            , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
+                            , <img src="/images/items/premium-scroll-pet-equipment-coupon.png" alt="Use Premium Scroll Pet Equipment Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Pet_Equipment#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Pet Equipment Coupon]</a>
+                            , <img src="/images/items/magical-scroll-weapon-coupon.png" alt="Use Magical Scroll - Weapon Coupon"/> <a href="https://maplestorywiki.net/w/Magical_Scroll#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Magical Scroll - Weapon Coupon]</a>
+                            , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
+                            , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
+                            , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+                        </li>
+                        <li>
+                            <img src="/images/items/kalos-residual-determination.png" alt="Use Kalos's Residual Determination"/> <a href="https://maplestorywiki.net/w/Kalos%27s_Residual_Determination" target="_blank" rel="noopener">[Kalos's Residual Determination]</a> is used to redeem <img src="/images/equipment/eternal-knight-helm.png" alt="Eqp Eternal Knight Helm"/> <img src="/images/equipment/eternal-knight-armor.png" alt="Eqp Eternal Knight Armor"/> <img src="/images/equipment/eternal-knight-pants.png" alt="Eqp Eternal Knight Pants"/> [Eternal Gear]
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <hr/>
         </div>
     );
 };
