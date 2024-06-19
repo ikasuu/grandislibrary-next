@@ -152,499 +152,8 @@ function ProgressionGuide() {
             <DailyWeekly/>
             <TrainingMaps/>
             <ThemeDungeons/>
-            <ArticleHeaderTwo id="quests">Quests:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li>Most of the pre-Lv. 100 quests here are outdated except the ones that reward medals and purely grinding is preferred</li>
-                <li><strong>Class Main Storyline</strong>
-                <ul>
-                    <li><strong>Recommended Level</strong>: 1 - 100</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <strong><a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener">Henesys</a></strong>
-                <ul>
-                    <li><strong>Recommended Level</strong>: 10 - 19</li>
-                    <li><strong>Quest Rewards: </strong> <img src="/images/equipment/amethyst-earrings.png" alt="Eqp Amethyst Earrings"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032003" target="_blank" rel="noreferrer noopener">[Amethyst Earrings]</a>, <img src="/images/equipment/yellow-square.png" alt="Eqp Yellow Square"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032009">[Yellow Square Earrings]</a>,</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <strong><a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener">Perion</a></strong>
-                <ul>
-                    <li><strong>Recommended Level</strong>: 10 - 19</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Ellinia</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>25-30</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/kerning-city.png" alt="MapIcon KerningCity"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Kerning City</strong></a>
-                <ul>
-                    <li><strong>Recommended Level</strong>: 43 - 50</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Perion</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>55 - 60</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Perion Excavation Site</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>60 - 70</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/sleepywood.png" alt="MapIcon Dungeon"/> <a href="https://maplestorywiki.net/w/Quests/31" target="_blank" rel="noreferrer noopener"><strong>Sleepywood</strong></a>
-                <ul>
-                    <li><strong>Recommened Level: </strong>60 - 70</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/orbis.png" alt="MapIcon Orbis"/> <a href="https://maplestorywiki.net/w/Quests/34" target="_blank" rel="noreferrer noopener"><strong>Orbis</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>70 - 75</li>
-                    <li><strong>Quest Rewards: </strong> <img src="/images/equipment/helper-in-the-clouds.png" alt="Eqp Helper in the Clouds"/> [Medal],</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/aqua-road.png" alt="MapIcon AquaRoad"/> <a href="https://maplestorywiki.net/w/Quests/35" target="_blank" rel="noreferrer noopener"><strong>Aqua Road</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>75 - 80</li>
-                    <li><strong>Quest Rewards: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/1102048" target="_blank" rel="noreferrer noopener">[Red Musketeer Cape]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/el-nath.png" alt="MapIcon ElNath"/> <a href="https://maplestorywiki.net/w/Quests/33" target="_blank" rel="noreferrer noopener"><strong>El Nath</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>75 - 80</li>
-                    <li><strong>Quest Rewards: </strong> <img src="/images/equipment/cape-of-warmness.png" alt="Eqp Cape of Warmness"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102109" target="_blank" rel="noreferrer noopener">[Cape of Warmness]</a>, <img src="/images/equipment/blue-justice-cape.png" alt="Eqp Blue Justice Cape"/> <img src="/images/equipment/red-justice-cape.png" alt="Eqp Red Justice Cape"/> <img src="/images/equipment/white-justice-cape.png" alt="Eqp White Justice Cape"/> <img src="/images/equipment/black-justice-cape.png" alt="Eqp Black Justice Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102011" target="_blank" rel="noreferrer noopener">[Justice Cape]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <a href="https://maplestorywiki.net/w/Quests/43" target="_blank" rel="noreferrer noopener"><strong>Magatia</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>90 - 100</li>
-                    <li><strong>Quest Rewards:</strong> <img src="/images/equipment/magatias-alchemist.png" alt="Eqp Magatia's Alchemist"/> [Medal], <img src="/images/equipment/zenumists-cape.png" alt="Eqp Zenumist's Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102139" target="_blank" rel="noreferrer noopener">[Zenumist's Cape]</a> OR <img src="/images/equipment/alcadnos-cape.png" alt="Eqp Alcadno's Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102140" target="_blank" rel="noreferrer noopener">[Alcadno's Cape]</a>, <img src="/images/equipment/strong-machine-gloves.png" alt="Eqp Strong Machine Gloves"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1082283" target="_blank" rel="noreferrer noopener">[Strong Machine Gloves]</a></li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/heliseum.png" alt="MapIcon Heliseum"/> <strong><a href="https://maplestorywiki.net/w/Quests/21" target="_blank" rel="noreferrer noopener">Heliseum</a></strong>
-                <ul>
-                    <li><strong>Recommended Level: </strong>90 - 110</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ellin-forest.png" alt="MapIcon EilnForest"/> <a href="https://maplestorywiki.net/w/Quests/39" target="_blank" rel="noreferrer noopener"><strong>Ellin Forest</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>95 - 100</li>
-                    <li><strong>Quest Rewards: </strong> <img src="/images/equipment/ellin-forest-guardian.png" alt="Eqp Ellin Forest Guardian"/> [Medal], <img src="/images/equipment/ephenias-ring.png" alt="Eqp Ephenia's Ring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1112683" target="_blank" rel="noreferrer noopener">[Ephenia's Ring]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <a href="https://maplestorywiki.net/w/Quests/41" target="_blank" rel="noreferrer noopener"><strong>Leafre</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>102 - 110</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Ludibrium"/> <strong><a href="https://maplestorywiki.net/w/Quests/36" target="_blank" rel="noreferrer noopener">Ludibrium</a></strong>
-                <ul>
-                    <li><strong>Recommended Level: </strong>95 - 115</li>
-                    <li><strong>Quest Rewards: </strong> <img src="/images/equipment/ludibrium-sheriff.png" alt="Eqp Ludibrium Sheriff"/> [Medal], <img src="/images/equipment/skull-earrings.png" alt="Eqp Skull Earrings"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032012" target="_blank" rel="noreferrer noopener">[Skull Earrings]</a>, <img src="/images/equipment/ludibrium-cape.png" alt="Eqp Ludibrium Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102057" target="_blank" rel="noreferrer noopener">[Ludibrium Cape]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/dead-mine.png" alt="MapIcon Dead Mines"/> <strong><a href="https://maplestorywiki.net/w/Quests/33" target="_blank" rel="noreferrer noopener">El Nath - Dead Mines</a></strong>
-                <ul>
-                    <li><strong>Recommended Level: </strong>115 - 120</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <a href="https://maplestorywiki.net/w/Quests/41" target="_blank" rel="noreferrer noopener"><strong>Leafre - Dragon Forest</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>120 - 130</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/mu-lung.png" alt="MapIcon Murueng"/> <img src="/images/map-icons/herb-town.png" alt="MapIcon WhiteHerb"/> <strong><a href="https://maplestorywiki.net/w/Quests/44">Mu Lung / Herb Town</a></strong>
-                <ul>
-                    <li><strong>Recommended Level: </strong>135 - 140</li>
-                    <li><strong>Quest Rewards: </strong> <img src="/images/equipment/sage-asceticism.png" alt="Eqp Sage Asceticism"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/temple-of-time.png" alt="MapIcon Temple of Time"/> <strong> <a href="https://maplestorywiki.net/w/Quests/46" target="_blank" rel="noreferrer noopener">Temple of Time</a></strong>
-                <ul>
-                    <li><strong>Recommended Level: </strong>140 - 155</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon Henesys Ruins"/> <img src="/images/map-icons/stronghold.png" alt="MapIcon Stronghold"/> <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Henesys Ruins / Knight Stronghold</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>160 - 185</li>
-                    <li><strong>Quest Rewards:</strong> <img src="/images/equipment/rise-from-ruins.png" alt="Eqp Rise from Ruins"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/kritias.png" alt="MapIcon Kritias"/> <strong><a href="https://maplestorywiki.net/w/Quests/81" target="_blank" rel="noreferrer noopener">Kritias</a></strong>
-                <ul>
-                    <li><strong>Recommended Level: </strong>170 - 185</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/nlc.png" alt="MapIcon NLC"/> <strong> <a href="https://maplestorywiki.net/w/Category:Masteria" target="_blank" rel="noreferrer noopener">New Leaf City</a></strong>
-                <ul>
-                    <li><strong>Recommended Level: </strong>170 - 200</li>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/nlc-commemorative-coin.png" alt="Etc NLC Commemorative Coin"/> <a href="https://maplestorywiki.net/w/NLC_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[NLC Commemorative Coin]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/twilight-perion.png" alt="MapIcon Twilight Perion"/> <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Twilight Perion</strong></a>
-                <ul>
-                    <li><strong>Recommended Level: </strong>180 - 190</li>
-                    <li><strong>Quest Rewards:</strong> <img src="/images/equipment/twilight-warrior.png" alt="Eqp Twilight Warrior"/> [Medal]</li>
-                </ul>
-                </li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="lightbulb">Lightbulb Quests:</ArticleHeaderTwo>
-            <hr/>
-            <p>The quests found in your "Maple Mailbox" or the Lightbulb icon on the left-hand side may be overwhelming with the number of quests available. Here will be a list of quests and which ones are more important compared to others. If you do not see a certain quest, it may be tied to your class' storyline. These can be skipped by most classes. But, Explorer classes, Hoyoung, and Adele gain special rewards though from their class' storyline so, it should not be skipped. Quests with the label <span style={{color: '#ff0000'}}>[Required]</span> should also be completed</p>
-            <h3>Recommended Quests:</h3>
-            <ul>
-                <li><strong>(Lv. 33) Have you learned about pets? </strong>- Tutorial quest explaining pets. Rewards you with a free 3-day pet
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/equipment/tots-badge.png" alt="Eqp Tot's Badge"/> <a href="https://maplestory.wiki/GMS/215/item/1182286" target="_blank" rel="noreferrer noopener">[Badge]</a>, <img src="/images/equipment/puffram.png" alt="Cash Puffram"/> <a href="https://maplestory.wiki/GMS/215/item/5000241" target="_blank" rel="noreferrer noopener">[Pet <em>(Cannot be revived)</em>]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 35) The Professional </strong>- A quest to start unlocking Professions, the crafting system</li>
-                <li><strong>(Lv. 70) [Link Skill] Teaching Link Skill </strong>- Explains Link Skills and unlocks your Link Skill for some classes</li>
-                <li><strong>(Lv. 90) To Pantheon </strong>- Completing this storyline unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestorywiki.net/w/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> which can be used as currency for a <a href="https://maplestorywiki.net/w/Mayala" target="_blank" rel="noreferrer noopener">special shop</a></li>
-                <li><strong>(Lv. 100) [Ursus] Rumors of The Mighty </strong>- Quest to get started with Ursus, an important boss in Heroic Worlds for Mesos. Provides a quick explanation to the boss
-                <ul>
-                    <li><strong>Main Reward: </strong><strong/>[Mesos]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 100) [Mushroom Shrine Tales] Kino Konoko's Request </strong>- Completing this storyline rewards you <img src="/images/equipment/wings-of-fate.png" alt="Eqp Wings of Fate"/> <a href="https://maplestorywiki.net/w/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Wings of Fate]</a> which give some pretty good stats but may be tedious to obtain since the story is quite long
-                <ul>
-                    <li>This cape may be useful for gear progression in Heroic Worlds</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 105) [Maple Tour] Lulu Spinel's Request </strong>- Quest to get started with Maple Tour, an important activity in Heroic Worlds for Mesos. Provides a quick explanation to Maple Tour
-                <ul>
-                    <li><strong>Main Reward: </strong><strong/>[Mesos]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 105) [Monster Park] Monster Park Grand Re-opening</strong> - Quest to get started with Monster Park, a special dungeon area that provides EXP when completed</li>
-                <li><strong>(Lv. 115) [Papulatus] The Light of Chaos </strong>- Starts the pre-quests for the boss Papulatus</li>
-                <li><strong>(Lv. 120) [Ranmaru] Call of Princess Sakuno: Stop Mori Ranmaru! </strong>- Short dialogue quest that unlocks access to the boss Mori Ranmori</li>
-                <li><strong>(Lv. 120) [Black Heaven] For Maple World </strong>- A long storyline with multiple Acts
-                <ul>
-                    <li>Black Heaven is not required to unlock access to Lotus or weekly quests</li>
-                    <li><strong>Act 2 Rewards:</strong> <img src="/images/equipment/ace-of-the-alliance.png" alt="Eqp Ace of the Alliance"/> [Medal], <img src="/images/items/hanging-with-neinheart-chair.png" alt="Setup Hanging with Neinheart Chair"/> <a href="https://maplestory.wiki/GMS/215/item/3015030" target="_blank" rel="noreferrer noopener">[Chair]</a>
-                    </li>
-                    <li><strong>Act 4 Rewards:</strong> <img src="/images/equipment/android-helmet.png" alt="Eqp Android Helmet"/> <a href="https://maplestory.wiki/GMS/215/item/1004392" target="_blank" rel="noreferrer noopener">[Hat]</a>
-                    </li>
-                    <li><strong>Act 6 Rewards:</strong> <img src="/images/equipment/maple-world-savior.png" alt="Eqp Maple World Savior"/> [Medal], <img src="/images/items/orchids-support-mount.png" alt="Skill Orchid's Support Mount"/> <img src="/images/items/athena-pierces-support-mount.png" alt="Skill Athena Pierce's Support Mount"/> [Choice of 1 mount (lasts 30 days)]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 135) [Heroes] Feelings of Misfortune </strong>- A storyline with multiple acts where you play as the five Heroes of Maple (Mercedes, Phantom, etc.)
-                <ul>
-                    <li>Heroes of Maple is not required to unlock access to the boss Damien</li>
-                    <li>Completing all Acts twice will grant <img src="/images/items/heroes-cube-chair-evan.png" alt="Setup Heroes Cube Chair - Evan"/> <a href="https://maplestory.wiki/GMS/215/item/3017016" target="_blank" rel="noreferrer noopener">[Chair]</a>
-                    </li>
-                    <li><strong>Act 1 Rewards: </strong> <img src="/images/items/heroes-cube-chair-aran.png" alt="Setup Heroes Cube Chair - Aran"/> <a href="https://maplestory.wiki/GMS/215/item/3017011" target="_blank" rel="noreferrer noopener">[Chair]</a>
-                    </li>
-                    <li><strong>Act 1.5 Rewards:</strong> <img src="/images/items/heroes-cube-chair-shade.png" alt="Setup Heroes Cube Chair - Shade"/> <a href="https://maplestory.wiki/GMS/215/item/3017012" target="_blank" rel="noreferrer noopener">[Chair]</a>
-                    </li>
-                    <li><strong>Act 2 Rewards:</strong> <img src="/images/items/heroes-cube-chair-phantom.png" alt="Setup Heroes Cube Chair - Phantom"/> <a href="https://maplestory.wiki/GMS/215/item/3017013" target="_blank" rel="noreferrer noopener">[Chair]</a>
-                    </li>
-                    <li><strong>Act 3 Rewards:</strong> <img src="/images/items/heroes-cube-chair-mercedes.png" alt="Setup Heroes Cube Chair - Mercedes"/> <a href="https://maplestory.wiki/GMS/215/item/3017014" target="_blank" rel="noreferrer noopener">[Chair]</a>
-                    </li>
-                    <li><strong>Act 4 Rewards:</strong> <img src="/images/items/heroes-cube-chair-luminous.png" alt="Setup Heroes Cube Chair - Luminous"/> <a href="https://maplestory.wiki/GMS/215/item/3017015" target="_blank" rel="noreferrer noopener">[Chair]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 140) [Hieizan Temple] Regards, Takeda Shingen </strong>- Pre-quests to unlocking access to the boss Princess No</li>
-                <li><strong>(Lv. 140) [Temple of Time] Path to the Past </strong>- Pre-quests to unlocking access to Pink Bean</li>
-                <li><strong>(Lv. 140) [Silent Crusade] A Cry for Help</strong> - Completing this storyline unlocks access to <img src="/images/map-icons/arkarium.png" alt="MapIcon Akairum"/> <a href="https://maplestorywiki.net/w/Arkarium" target="_blank" rel="noreferrer noopener">Arkarium</a></li>
-                <li><strong>(Lv. 160) [Masteria Epic] Lost Hero's Call - </strong>A long storyline with multiple acts where you learn the history behind Masteria's past. The storyline may be quite long but you get the best <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/>medal in the game currently as a reward
-                <ul>
-                    <li><strong>Act 4 Rewards: </strong> <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1142962" target="_blank" rel="noreferrer noopener">[Best-in-slot Medal]</a>, <img src="/images/equipment/subanis-pendant.png" alt="Eqp Subani's Pendant"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122352" target="_blank" rel="noreferrer noopener">[Subani's Pendant]</a>,</li>
-                    <li><strong>Depending on choice rewards:</strong> [ <img src="/images/items/crimsonwood-warrior.png" alt="Setup Crimsonwood Warrior"/> [Chair], <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662090" target="_blank" rel="noreferrer noopener">[Subani-Roid]</a> ] OR [ <img src="/images/items/dark-follower.png" alt="Setup Dark Follower"/> [Chair], <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1662091" target="_blank" rel="noreferrer noopener"> [Dr. Jang-Roid]</a> ]
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 180) [Gollux] The Cracks of Corruption </strong>- Short dialogue quest that unlocks access to the boss Gollux</li>
-                <li><strong>(Lv. 190) [Haven] A New Home </strong>- Pre-quests to unlock access to Weekly Quests in the Scrapyard</li>
-                <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain </strong>- Pre-quests to unlock access to Weekly Quests in the Dark World Tree</li>
-                <li><strong>(Lv. 210) [Ramuramu] Psych Exam </strong>- Pre-quests to unlocking access to the boss Guardian Angel Slime</li>
-                <li>
-                    <strong>(Lv. 235) [Kao's Memory] The First Memory </strong>- Begins a storyline involving <a href="https://maplestorywiki.net/w/Kao" target="_blank" rel="noopener noreferrer">Kao</a> between Lv. 235 to 255
-                    <ul>
-                        <li><strong>Main Reward</strong>: <img src="/images/equipment/kao-hood.png" alt="Eqp Kao Hood"/> <a href="https://maplestorywiki.net/w/Kao_Hood" target="_blank" rel="noopener noreferrer">[Kao Hood]</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <h3>Theme Dungeon Starting Quests:</h3>
-            <p>Quests labeled in orange are recommended, in green are optional, in white are skippable</p>
-            <p>The Lv. 30 Theme Dungeons are recommended as completing 2 and a half theme dungeons is enough to reach Lv. 60 to complete your 3rd Job Advancement. Theme Dungeons between Lv. 60 - 120 are completely optional (except for Lion King's Castle) as grinding is much faster and less tedious at these levels. They can be done if you dislike grinding but you will not gain as many levels compared to Lv. 30 - 60</p>
-            <ul>
-                <li><strong style={{color: '#ff6600'}}>(Lv. 30) [Riena Strait] Get it Strait</strong> - Theme Dungeon, provides good EXP for Lv. 30 - 59 with scaling monster levels
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/meso.png" alt="Meso"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/sailor-mask.png" alt="Eqp Sailor Mask"/> <a href="https://maplestory.wiki/GMS/215/item/1012389" target="_blank" rel="noreferrer noopener">[Face Accessory]</a>, <img src="/images/equipment/sailor-belt.png" alt="Eqp Sailor Belt"/> <a href="https://maplestory.wiki/GMS/215/item/1132292" target="_blank" rel="noreferrer noopener">[Belt]</a>, <img src="/images/equipment/deckhand.png" alt="Eqp Deckhand"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#ff6600'}}>(Lv. 30) [Theme Dungeon] Ellinel Fairy Academy</strong> - Theme Dungeon, provides good EXP for Lv. 30 - 59 with scaling monster levels
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/meso.png" alt="Meso"/> [1 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/ellinel-wings.png" alt="Eqp Ellinel Wings"/> <a href="https://maplestory.wiki/GMS/215/item/1102590" target="_blank" rel="noreferrer noopener">[Cape]</a>, <img src="/images/equipment/ellinel-bracelet.png" alt="Eqp Ellinel Bracelet"/>[Glove], <img src="/images/equipment/fairy-mark.png" alt="Eqp Fairy Mark"/> <a href="https://maplestory.wiki/GMS/215/item/1022254" target="_blank" rel="noreferrer noopener">[Eye Accessory]</a> and <img src="/images/equipment/honorary-fairy-professor.png" alt="Eqp Honorary Fairy Professor"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#ff6600'}}>(Lv. 30) [Gold Beach] A Golden Opportunity </strong>- Theme Dungeon, provides good EXP for Lv. 30 - 59 with scaling monster levels
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/meso.png" alt="Meso"/> [1 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/octopus-earrings.png" alt="Eqp Octopus Earrings"/> <a href="https://maplestory.wiki/GMS/215/item/1032254" target="_blank" rel="noreferrer noopener">[Earrings]</a> and <img src="/images/equipment/beach-bum.png" alt="Eqp Beach Bum"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#ff6600'}}>(Lv. 30) [Elodin] Anne's Plea for Help </strong>- Theme Dungeon, provides good EXP for Lv. 30 - 59 with scaling monster levels
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/elodin-bird-dog.png" alt="Eqp Elodin Bird Dog"/> [Medal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 60) [Mushroom Castle] Mushking's Summons</strong> - Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/meso.png" alt="Meso"/> [3 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/violettas-knight.png" alt="Eqp Violetta's Knight"/> [Medal], <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">[Heavy Violetta Cape]</a><a href="https://maplestory.wiki/GMS/215/item/1142629" target="_blank" rel="noreferrer noopener">, </a> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">[Shackles of Love]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#99cc00'}}>(Lv. 75) [The Afterlands] A Cry for Help </strong>- Theme Dungeon that provides free permanent totems useful for progression. The storyline, however, can be glitchy and tedious which is why it is left as optional
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/beodog-figurine.png" alt="Eqp Beodog Figurine"/> <img src="/images/equipment/billy-figurine.png" alt="Eqp Billy Figurine"/> <img src="/images/equipment/adler-figurine.png" alt="Eqp Adler Figurine"/> <img src="/images/equipment/mansa-figurine.png" alt="Eqp Mansa Figurine"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Afterlands_Souvenir" target="_blank" rel="noreferrer noopener">[Totems]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 95) [Ellin Forest] A Peculiar Book </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/ephenias-ring.png" alt="Eqp Ephenia's Ring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1112683" target="_blank" rel="noreferrer noopener">[Ephenia's Ring]</a>, <img src="/images/equipment/ellin-forest-guardian.png" alt="Eqp Ellin Forest Guardian"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#ff6600'}}>(Lv. 115) [Lion King's Castle] Desolate Castle </strong>- Theme Dungeon that also unlocks access to the boss Von Leon after completing it
-                <ul>
-                    <li><strong style={{color: '#ff6600'}}>[Heroic World Recommended] </strong>- Royal Von Leon equipment dropped by Von Leon is useful for Heroic World progression</li>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-of-a-lion.png" alt="Eqp Heart of a Lion"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 120) [Fantasy Theme World] Dylan's Story </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-bracelet.png" alt="Heart Bracelet"/> <a href="https://maplestory.wiki/GMS/205/item/1082719" target="_blank" rel="noreferrer noopener">[Heart Bracelet]</a>, <img src="/images/equipment/101st-times-the-charm.png" alt="101st Time's the Charm"/> [Medal], <img src="/images/equipment/ludi-targa-hat.png" alt="Ludi Targa Hat"/> <img src="/images/equipment/ludi-scarlion-hat.png" alt="Ludi Scarlion Hat"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003534">[Ludi Targa Hat]</a> &amp; <a href="https://maplestory.wiki/GMS/210.1.1/item/1003535">[Ludi Scarlion Hat]</a></li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#99cc00'}}>(Lv. 125) [Korean Folk Town] A Letter from the Library </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Rewards:</strong> <img src="/images/equipment/like-clouds-and-winds.png" alt="Eqp Like Clouds and Winds"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#99cc00'}}>(Lv. 130) [Crimsonheart] To Grendel's Library </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/crimsonheart-savior.png" alt="Eqp Crimsonheart Savior"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#99cc00'}}>(Lv. 130) [Golden Temple] Noi More Tourists </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/ravanas-golden-crown.png" alt="Eqp Ravana's Golden Crown"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003455" target="_blank" rel="noreferrer noopener">[Ravana's Golden Crown]</a>, <img src="/images/equipment/seeker-of-gilded-truth.png" alt="Eqp Seeker of Gilded Truth"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#99cc00'}}>(Lv. 135) [Partem Ruins] Dark Prophecy </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#ff6600'}}><em>[Heroic World Recommended] </em>(Lv. 140) Finding Tomo </strong>- Quest to get started with the Yu Garden (The Far East) Theme Dungeon
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls <em>(Heroic World Only)</em>]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#ff6600'}}>(Lv. 140) [Commerci Republic] Neinheart's Calls </strong>- Theme Dungeon that also unlocks access to Commerci Trade Voyages and Transposing after reaching San Commerci</li>
-                <li><strong>(Lv. 140) The Dragon and the Tiger </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards:</strong>  <img src="/images/equipment/gold-dragon-student.png" alt="Eqp Gold Dragon Student"/> <img src="/images/equipment/red-tiger-student.png" alt="Eqp Red Tiger Student"/>[Medal], <img src="/images/items/among-gold-dragons.png" alt="Setup Among Gold Dragons"/> <img src="/images/items/among-red-tigers.png" alt="Setup Among Red Tigers"/>[Chair], <img src="/images/items/special-potential-scroll.png" alt="Use Special Potential Scroll"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2049402" target="_blank" rel="noreferrer noopener">[Special Potential Scroll]</a>, <img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2048309" target="_blank" rel="noreferrer noopener">[Bonus Potential Scroll]</a>, <img src="/images/items/prototype-soul-enchanter.png" alt="Use Prototype Soul Enchanter"/> <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Prototype Soul Enchanter]</a>, <img src="/images/equipment/the-enlightened-one-dragon.png" alt="Setup The Enlightened One Dragon"/> <img src="/images/equipment/the-enlightened-one-tiger.png" alt="Setup The Enlightened One Tiger"/>[Title]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#99cc00'}}>(Lv. 145) [Kerning Tower] Kerning Tower Grand Opening </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/jackpot-entertainment-co-ceo.png" alt="Eqp Jackpot Entertainment Co-CEO"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 150) [Stone Colossus] A Giant of a Rumor </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/colossal.png" alt="Eqp Colossal"/> [Medal], <img src="/images/items/kupos-ride-coupon.png" alt="Use Kupo's Ride Coupon"/> [Mount], <img src="/images/equipment/halflinger-expedition-badge.png" alt="Eqp Halflinger Expedition Badge"/> [Badge]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#99cc00'}}>(Lv. 175) [Detective Rave's Case Notes] Free Luxury Tour! </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards</strong>: <img src="/images/equipment/detective-raves-honorary-assistant.png" alt="Eqp Detective Rave's Honorary Assistant"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong style={{color: '#99cc00'}}>(Lv. 185) [Fox Valley] Leaf Plane to Adventure </strong>- Theme Dungeon
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/fox-point-ranger.png" alt="Eqp Fox Point Ranger"/> [Medal]</li>
-                </ul>
-                </li>
-            </ul>
-            <h3>Optional Quests:</h3>
-            <ul>
-                <li><strong>(Lv. 10) Do you know about Maple Guide? </strong>- Tutorial quest explaining Maple Guide</li>
-                <li><strong>(Lv. 20) Do you know about Spell Enhancements? </strong>- Tutorial quest explaining <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing</li>
-                <li><strong>(Lv. 20) Do you know about Star Force Enhancements?</strong> Tutorial quest explaining Star Forcing</li>
-                <li><strong>(Interactive Worlds only) (Lv. 33) Mysterious Merchant Matilda </strong>- Tutorial quest explaining <a href="https://maplestorywiki.net/w/Matilda" target="_blank" rel="noreferrer noopener">Matilda</a>, an NPC that sells <img src="/images/items/ap-reset-scroll.png" alt="Use AP Reset Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/2501000" target="_blank" rel="noreferrer noopener">[AP Reset Scrolls]</a>, <img src="/images/items/sp-reset-scroll.png" alt="Use SP Reset Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/2500000" target="_blank" rel="noreferrer noopener">[SP Reset Scrolls]</a>, and <img src="/images/items/respawn-token.png" alt="Cash Respawn Token"/> <a href="https://maplestory.wiki/GMS/215/item/5510000" target="_blank" rel="noreferrer noopener">[Respawn Tokens]</a> for Mesos
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/safety-charm.png" alt="Cash Safety Charm"/> <a href="https://maplestory.wiki/GMS/215/item/4140003" target="_blank" rel="noreferrer noopener">[Safety Charms]</a>, <img src="/images/items/respawn-token.png" alt="Cash Respawn Token"/> <a href="https://maplestory.wiki/GMS/215/item/5510000" target="_blank" rel="noreferrer noopener">[Respawn Tokens]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 33) Trainer's Command </strong>- A special quest for unlocking the ability to have 3 pets out at once. Requires you to obtain a <img src="/images/items/pet-snack.png" alt="Cash Pet Snack"/> <a href="https://maplestory.wiki/GMS/215/item/5460000" target="_blank" rel="noreferrer noopener">[Pet Snack]</a> from the Cash Shop using NX or <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points</li>
-                <li><strong>(Lv. 50) [Boss Matchmaking] Fight Together! </strong>- Tutorial quest explaining the Boss Matchmaking system</li>
-                <li><strong>(Lv. 50) [Zakum] Statue of Dread </strong>- Quest that explains Zakum and teleports you to <a href="https://maplestorywiki.net/w/Chief%27s_Residence" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a>
-                <ul>
-                    <li>This is a one-time teleport, you can use it to get to Zakum quickly at Lv. 100 to fight it</li>
-                    <li>This quest is not required to fight Zakum</li>
-                    <li>Talking to your corresponding Job NPC (Warrior, Mage, Thief, etc.) will teleport you directly to the entrance of Zakum, this can be used an unlimited number of times</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 60) Have you learned about Potential? </strong>- Tutorial quest explaining equipment potentials
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/equipment/curbrocks-shoulder-accessory.png" alt="Eqp Curbrock's Shoulder Accessory"/> <a href="https://maplestory.wiki/GMS/215/item/1152207" target="_blank" rel="noreferrer noopener">[Curbrock's Shoulder Accessory]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 60) Have you learned about Bonus Stats? </strong>- Tutorial quest explaining equipment bonus stats
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/equipment/curbrocks-ring.png" alt="Eqp Curbrock's Ring"/> <a href="https://maplestory.wiki/GMS/215/item/1113018" target="_blank" rel="noreferrer noopener">[Curbrock's Ring]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 80) Use the Transfer Hammer! </strong>- Tutorial quest explaining Transfer Hammer</li>
-                <li><strong>(Lv. 90) [Stellar Detectives] </strong><strong>The Erased Diary </strong>- Storyline with useful but optional rings for bossing
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/items/hyperspace-box.png" alt="Use Hyperspace Box"/>[<a href="https://maplestorywiki.net/w/Hyperspace_Box" target="_blank" rel="noreferrer noopener">Hyperspace Box</a>] <img src="/images/equipment/i-really-like-tutu.png" alt="Eqp I really like Tutu"/> <img src="/images/equipment/i-really-like-nenne.png" alt="Eqp I really like Nenne"/> <img src="/images/equipment/i-really-like-lingling.png" alt="Eqp I really like Lingling"/> <img src="/images/equipment/i-really-like-jett.png" alt="Eqp I Really Like Jett"/> [Medal], <img src="/images/items/lingling-damage-skin.png" alt="Use Lingling Damage Skin"/> <img src="/images/items/tutu-damage-skin.png" alt="Use Tutu Damage Skin"/> <img src="/images/items/nenne-damage-skin.png" alt="Use Nenne Damage Skin"/> [Damage Skins]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 100) </strong><strong>[Grand Athenaeum] Visit the Grand Athenaeum </strong>- Cutscene heavy storyline that explains Maple World lore
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/scholarly-pendant.png" alt="Eqp Scholarly Pendant"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122263" target="_blank" rel="noreferrer noopener">[Scholarly Pendant]</a> for completing 3 stories</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 140) [System] Item Update</strong> - Provides an explanation to Transposing after reaching San Commerci</li>
-                <li><strong>(Lv. 145) [Shaolin Temple] Elder Jung's Summons </strong>- Storyline
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/demon-mask-mount.png" alt="Use Demon Mask Mount"/> <a href="https://maplestory.wiki/GMS/215/item/2434618" target="_blank" rel="noreferrer noopener">[Mount]</a>, <img src="/images/items/nine-tailed-fox-damage-skin.png" alt="Use Nine Tailed Fox Damage Skin"/> <a href="https://maplestory.wiki/GMS/215/item/2434619" target="_blank" rel="noreferrer noopener">[Damage Skin]</a>, <img src="/images/items/demon-jar-chair.png" alt="Setup Demon Jar Chair"/> <a href="https://maplestory.wiki/GMS/215/item/1182286" target="_blank" rel="noreferrer noopener">[Chair]</a>, <img src="/images/equipment/nine-tailed-fox-totem.png" alt="Eqp Nine Tailed Fox Totem"/> <a href="https://maplestory.wiki/GMS/215/item/1202200" target="_blank" rel="noreferrer noopener">[Totem]</a>
-                    </li>
-                    <li>Totem is permanent and adds an effect behind your character</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 160) [Showa Town] Welcome to Shawa Town!</strong> - Starts storyline for Showa Town which is required to unlock access to the boss Yakuza Boss</li>
-                <li><strong>(Lv. 170) [NLC] Welcome back to NLC! </strong>- Starts storyline for New Leaf City
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/treasure-hunter-jacks-scar.png" alt="Eqp Treasure Hunter Jack's Scar"/> <img src="/images/equipment/professor-foxwits-glasses.png" alt="Eqp Professor Foxwit's Glasses"/> <img src="/images/equipment/sheriff-litas-earrings.png" alt="Eqp Sheriff Lita's Earrings"/> <img src="/images/equipment/treasure-hunter-johns-ring.png" alt="Eqp Treasure Hunter John's Ring"/> <img src="/images/equipment/subanis-pendant.png" alt="Eqp Subani's Pendant"/> <img src="/images/equipment/elpams-belt.png" alt="Eqp Elpam's Belt"/> <img src="/images/equipment/lukans-pauldron.png" alt="Eqp Lukan's Pauldron"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Masteria_Explorer_Set" target="_blank" rel="noreferrer noopener">[Masteria Explorer Gear]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 170) [Kritias] Sudden Kingdom </strong>- Completing this storyline unlocks access to Invasions and Daily Quests within Kritias to gain <img src="/images/items/kritias-commemorative-coin.png" alt="Etc Kritias Commemorative Coin"/> [Kritias Commemorative Coins] to use in a special shop. You can travel to Kritias from <a href="https://maplestorywiki.net/w/Sky_Nest_I" target="_blank" rel="noreferrer noopener">Leafre</a>
-                <ul>
-                    <li><strong>Notable items: </strong> <img src="/images/equipment/tyrant-hyades-gloves.png" alt="Eqp Tyrant Hyades Gloves"/> <a href="https://maplestorywiki.net/w/Tyrant_Hyades_Gloves" target="_blank" rel="noreferrer noopener">[Superior Tyrant Glove]</a>, <img alt="Use Empress Reset Ticket" src="/images/items/empress-reset-ticket.png"/> [Boss Reset Tickets]
-                    <ul>
-                        <li>Only the Reset Tickets are valuable which give you an extra clear for a boss, you can try for these if you want to really min-max</li>
-                    </ul>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 180) [Phantom Forest] The Corrupted Forest </strong>- Completing the storyline for this area unlocks access to Daily Quests that reward <img src="/images/items/raven-ninja-coin.png" alt="Etc Raven Ninja Coin"/> <a href="https://maplestorywiki.net/w/Raven_Ninja_Coin" target="_blank" rel="noreferrer noopener">[Raven Ninja Coins]</a> and <img src="/images/items/shadowknight-coin.png" alt="Etc Shadowknight Coin"/> <a href="https://maplestorywiki.net/w/Shadowknight_Coin" target="_blank" rel="noreferrer noopener">[Shadowknight Coins]</a> to buy items from Mo and Fiona in the Phantom Forest
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/numenals-willpower.png" alt="Eqp Numenal's Willpower"/> <img src="/images/equipment/glonas-heart.png" alt="Eqp Glona's Heart"/> <img src="/images/equipment/legacy-of-light.png" alt="Eqp Legacy of Light"/> <img src="/images/equipment/legacy-of-darkness.png" alt="Eqp Legacy of Darkness"/> <img src="/images/equipment/delgrunds-honor.png" alt="Eqp Delgrund's Honor"/> <img src="/images/equipment/lirenis-wish.png" alt="Eqp Lireni's Wish"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Masteria%27s_Legacy" target="_blank" rel="noreferrer noopener">[Masteria's Legacy Gear]</a>, <img src="/images/equipment/white-identity.png" alt="Eqp White Identity"/> <img src="/images/equipment/crystal-leaf-earrings.png" alt="Eqp Crystal Leaf Earrings"/> <img src="/images/equipment/ravens-beak.png" alt="Eqp Raven's Beak"/> <a href="https://maplestorywiki.net/w/Mo" target="_blank" rel="noreferrer noopener">[iTCG Gear]</a>, <img src="/images/items/balanced-fury.png" alt="Use Balanced Fury"/> <a href="https://maplestorywiki.net/w/Balanced_Fury" target="_blank" rel="noreferrer noopener">[Balanced Fury]</a>, <img src="/images/items/crystal-ilbi.png" alt="Use Crystal Ilbi Throwing-Stars"/> <a href="https://maplestorywiki.net/w/Crystal_Ilbi_Throwing-Stars" target="_blank" rel="noreferrer noopener">[Crystal Ilbis]</a>
-                    </li>
-                    <li>Unless you are really trying to optimize your gear, the Phantom Forest is not necessary</li>
-                    <li>You can also do this if you want the Balanced Fury or Crystal Ilbis Throwing Stars</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 200) [Tower of Oz] Tower Under the Sea </strong>- A quest to get started with the Tower of Oz. Provides a quick explanation and tutorial for Tower of Oz
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/ring-of-restraint.png" alt="Eqp Ring of Restraint"/> <img src="/images/equipment/ultimatum-ring.png" alt="Eqp Ultimatum Ring"/> [Rings with Active Skills], <img src="/images/equipment/ryudes-sword.png" alt="Eqp Ryude's Sword"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1402224" target="_blank" rel="noreferrer noopener">[Ryude's Sword]</a>, <img src="/images/equipment/ocean-glow-earrings.png" alt="Eqp Ocean Glow Earrings"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032232" target="_blank" rel="noreferrer noopener">[Ocean Glow Earrings]</a>, <img src="/images/equipment/lightseeker.png" alt="Eqp Lightseeker"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1452229" target="_blank" rel="noreferrer noopener">[Lightseeker Bow]</a>, <img src="/images/equipment/alicias-mutated-staff.png" alt="Eqp Alicia's Mutated Staff"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1382234" target="_blank" rel="noreferrer noopener">[Alicia's Mutated Staff]</a>, <img src="/images/equipment/aquarius-crown.png" alt="Eqp Aquarius Crown"/>  <a href="https://maplestory.wiki/GMS/210.1.1/item/1004075" target="_blank" rel="noreferrer noopener">[Aquarius Crown]</a>, <img src="/images/items/alicias-damage-skin.png" alt="Use Alicia's Damage Skin"/> <img src="/images/items/dorothys-damage-skin.png" alt="Use Dorothy's Damage Skin"/> <img src="/images/items/basic-damage-skin.png" alt="Use Basic Damage Skin"/> [Damage Skins]</li>
-                    <li>Only the rings are valuable although they can be tedious to obtain because the power of each ring can vary and are randomly obtained from loot boxes</li>
-                </ul>
-                </li>
-            </ul>
-            <h3>Can Be Skipped:</h3>
-            <p><strong>[Note]: </strong>Quests above Lv. 140 can be done as they provide some equipment but are rarely done compared to the quests in Optional</p>
-            <ul>
-                <li><strong>(Lv. 33) Do you know about the Beauty Salon? </strong>- Tutorial quest explaining the Beauty Salon, a place to save your hair and face styles
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/hair-coupon.png" alt="Use Hair Coupon"/> <a href="https://maplestory.wiki/GMS/215/item/2543041" target="_blank" rel="noreferrer noopener">[Tutorial Hair Coupon]</a>, <img src="/images/items/hair-coupon.png" alt="Use Hair Coupon"/> <a href="https://maplestory.wiki/GMS/215/item/2432548" target="_blank" rel="noreferrer noopener">[Tutorial Face Coupon]</a>
-                    <ul>
-                        <li>DO NOT USE THESE, they will give you a really bad look
-                        <ul>
-                            <li>If you do, at least save your current style in the Beauty Salon first!</li>
-                        </ul>
-                        </li>
-                    </ul>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 45) [Kerning City] Dark Swamp Region </strong>- Starts the Kerning City area quests for the medal
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/equipment/swamp-region-troubleshooter.png" alt="Eqp Swamp Region Troubleshooter"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 55) [Perion] Rocky Mountain Hunter </strong>- Starts the Perion area quests for the medal
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/equipment/rocky-mountain-hunter.png" alt="Eqp Rocky Mountain Hunter"/>[Medal]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 65) [Sleepywood] Danger Seeker </strong>- Starts the Sleepywood area quests for the medal
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/equipment/danger-seeker.png" alt="Eqp Danger Seeker"/>[Medal]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 70) [Cross World Party Quest] The Old Book</strong>
-                </li>
-                <li><strong>(Lv. 70) [Cross World Party Quest] Old Letter</strong>
-                </li>
-                <li><strong>(Lv. 70) [Cross World Party Quest] Notes of the Goddess</strong>
-                </li>
-                <li><strong>(Lv. 77) [El Nath] Snowfield Explorer </strong>- Starts the El Nath area quests for the medal
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/equipment/snowfield-explorer.png" alt="Eqp Snowfield Explorer"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 85) [Ariant] Learning the Culture of Ariant </strong>- Starts the Ariant area quests for the medal
-                <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/ariant-culture-expert.png" alt="Eqp Ariant Culture Expert"/> [Medal]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 110) [Chryse] Find Xerxes </strong>- Quest to get started with the Chryse Party Quest</li>
-                <li><strong>(Lv. 110) [Ludibrium] Ludibrium Sheriff </strong>- Starts the Ludibrium area quests for the medal
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/equipment/ludibrium-sheriff.png" alt="Eqp Ludibrium Sheriff"/>[Medal]</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 115) [Lion King's Castle] </strong><strong>The Adventure of Jenn the Locksmith </strong>- Quest to get started with the Lion King's Castle Party Quest
-                <ul>
-                    <li>Separate from the actual Lion King's Castle Theme Dungeon</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 120) Fly in the Sky! </strong>- A quest where completing it teaches you the skill "Soaring" used in Dragon Rider PQ
-                <ul>
-                    <li><strong>Main Reward: </strong> <img src="/images/items/soaring.png" alt="Skill Soaring"/> <a href="https://maplestorywiki.net/w/Soaring" target="_blank" rel="noreferrer noopener">[Soaring Skill]</a></li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 120) [Hilla] The Mysterious Mystic </strong>- A quest explaining the boss Hilla although, it is not required to actually fight the boss</li>
-                <li><strong>(Lv. 125) [Ghost Park] Korean Folk Town's New Park</strong> - A quest explaining Ghost Park
-                <ul>
-                    <li>Most people prefer to train/grind which is why it is not a popular activity. Ghost Park can be somewhat difficult too for the amount of EXP you get</li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 150) The Dragon Rider's Identity 1 </strong>- Pre-quest for Dragon Rider PQ</li>
-                <li><strong>(Lv. 160) Rumors from the Castle</strong> - Storyline for Ninja Castle, not required to fight Gigatoad / False Daimyo</li>
-                <li><strong>(Lv. 180) [Twilight Perion] The Second Future </strong>- Storyline, it is not required to access Twilight Perion
-                <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/twilight-warrior.png" alt="Twilight Warrior"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1143125" target="_blank" rel="noreferrer noopener">[Medal]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 180) [Masteria] Glimmer Man's Call </strong>- Storyline
-                <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/naricains-revival.png" alt="Naricain's Revival"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1143192" target="_blank" rel="noreferrer noopener">[Medal]</a>
-                    </li>
-                </ul>
-                </li>
-                <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- A quest to start the Asura Crisis storyline</li>
-            </ul>
+            <QuestContent/>
+            <LightbulbQuests/>
         </ContentPage>
     );
 };
@@ -2509,6 +2018,281 @@ function ThemeDungeons(){
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/fox-point-ranger.png" alt="Eqp Fox Point Ranger"/> [Medal]</li>
                     </ul>
                 </li>
+            </ul>
+        </div>
+    );
+};
+
+function QuestContent(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="quests">Quest Content:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li>Grinding is preferred as most pre-Lv. 100 quests are outdated except the ones that reward medals</li>
+                <li><strong>Class Main Storyline</strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 1 - 200</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <strong><a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener">Henesys</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 10 - 19</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/amethyst-earrings.png" alt="Eqp Amethyst Earrings"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032003" target="_blank" rel="noreferrer noopener">[Amethyst Earrings]</a>, <img src="/images/equipment/yellow-square.png" alt="Eqp Yellow Square"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032009">[Yellow Square Earrings]</a>,</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <strong><a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener">Perion</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 10 - 19</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Ellinia</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 25-30</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/kerning-city.png" alt="MapIcon Kerning City"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Kerning City</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 43 - 50</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Perion</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 55 - 60</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Perion Excavation Site</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 60 - 70</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/sleepywood.png" alt="MapIcon Sleepywood"/> <a href="https://maplestorywiki.net/w/Quests/31" target="_blank" rel="noreferrer noopener"><strong>Sleepywood</strong></a>
+                    <ul>
+                        <li><strong>Recommened Level</strong>: 60 - 70</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/orbis.png" alt="MapIcon Orbis"/> <a href="https://maplestorywiki.net/w/Quests/34" target="_blank" rel="noreferrer noopener"><strong>Orbis</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 70 - 75</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/helper-in-the-clouds.png" alt="Eqp Helper in the Clouds"/> [Medal],</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/aqua-road.png" alt="MapIcon Aqua Road"/> <a href="https://maplestorywiki.net/w/Quests/35" target="_blank" rel="noreferrer noopener"><strong>Aqua Road</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 75 - 80</li>
+                        <li><strong>Quest Rewards</strong>: <a href="https://maplestory.wiki/GMS/210.1.1/item/1102048" target="_blank" rel="noreferrer noopener">[Red Musketeer Cape]</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/el-nath.png" alt="MapIcon El Nath"/> <a href="https://maplestorywiki.net/w/Quests/33" target="_blank" rel="noreferrer noopener"><strong>El Nath</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 75 - 80</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/cape-of-warmness.png" alt="Eqp Cape of Warmness"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102109" target="_blank" rel="noreferrer noopener">[Cape of Warmness]</a>, <img src="/images/equipment/blue-justice-cape.png" alt="Eqp Blue Justice Cape"/> <img src="/images/equipment/red-justice-cape.png" alt="Eqp Red Justice Cape"/> <img src="/images/equipment/white-justice-cape.png" alt="Eqp White Justice Cape"/> <img src="/images/equipment/black-justice-cape.png" alt="Eqp Black Justice Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102011" target="_blank" rel="noreferrer noopener">[Justice Cape]</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <a href="https://maplestorywiki.net/w/Quests/43" target="_blank" rel="noreferrer noopener"><strong>Magatia</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 90 - 100</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/magatias-alchemist.png" alt="Eqp Magatia's Alchemist"/> [Medal], <img src="/images/equipment/zenumists-cape.png" alt="Eqp Zenumist's Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102139" target="_blank" rel="noreferrer noopener">[Zenumist's Cape]</a> OR <img src="/images/equipment/alcadnos-cape.png" alt="Eqp Alcadno's Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102140" target="_blank" rel="noreferrer noopener">[Alcadno's Cape]</a>, <img src="/images/equipment/strong-machine-gloves.png" alt="Eqp Strong Machine Gloves"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1082283" target="_blank" rel="noreferrer noopener">[Strong Machine Gloves]</a></li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/heliseum.png" alt="MapIcon Heliseum"/> <strong><a href="https://maplestorywiki.net/w/Quests/21" target="_blank" rel="noreferrer noopener">Heliseum</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 90 - 110</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/ellin-forest.png" alt="MapIcon Ellin Forest"/> <a href="https://maplestorywiki.net/w/Quests/39" target="_blank" rel="noreferrer noopener"><strong>Ellin Forest</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 95 - 100</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/ellin-forest-guardian.png" alt="Eqp Ellin Forest Guardian"/> [Medal], <img src="/images/equipment/ephenias-ring.png" alt="Eqp Ephenia's Ring"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1112683" target="_blank" rel="noreferrer noopener">[Ephenia's Ring]</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <a href="https://maplestorywiki.net/w/Quests/41" target="_blank" rel="noreferrer noopener"><strong>Leafre</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 102 - 110</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/ludibrium.png" alt="MapIcon Ludibrium"/> <strong><a href="https://maplestorywiki.net/w/Quests/36" target="_blank" rel="noreferrer noopener">Ludibrium</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 95 - 115</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/ludibrium-sheriff.png" alt="Eqp Ludibrium Sheriff"/> [Medal], <img src="/images/equipment/skull-earrings.png" alt="Eqp Skull Earrings"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1032012" target="_blank" rel="noreferrer noopener">[Skull Earrings]</a>, <img src="/images/equipment/ludibrium-cape.png" alt="Eqp Ludibrium Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102057" target="_blank" rel="noreferrer noopener">[Ludibrium Cape]</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/dead-mine.png" alt="MapIcon Dead Mines"/> <strong><a href="https://maplestorywiki.net/w/Quests/33" target="_blank" rel="noreferrer noopener">El Nath - Dead Mines</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 115 - 120</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <a href="https://maplestorywiki.net/w/Quests/41" target="_blank" rel="noreferrer noopener"><strong>Leafre - Dragon Forest</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 120 - 130</li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/mu-lung.png" alt="MapIcon Mu Lung"/> <img src="/images/map-icons/herb-town.png" alt="MapIcon Herb Town"/> <strong><a href="https://maplestorywiki.net/w/Quests/44">Mu Lung / Herb Town</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 135 - 140</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/sage-asceticism.png" alt="Eqp Sage Asceticism"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/temple-of-time.png" alt="MapIcon Temple of Time"/> <strong> <a href="https://maplestorywiki.net/w/Quests/46" target="_blank" rel="noreferrer noopener">Temple of Time</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 140 - 155</li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon Henesys Ruins"/> <img src="/images/map-icons/stronghold.png" alt="MapIcon Stronghold"/> <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Henesys Ruins / Knight Stronghold</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 160 - 185</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/rise-from-ruins.png" alt="Eqp Rise from Ruins"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/kritias.png" alt="MapIcon Kritias"/> <strong><a href="https://maplestorywiki.net/w/Quests/81" target="_blank" rel="noreferrer noopener">Kritias</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 170 - 185</li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/nlc.png" alt="MapIcon NLC"/> <strong> <a href="https://maplestorywiki.net/w/Category:Masteria" target="_blank" rel="noreferrer noopener">New Leaf City</a></strong>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 170 - 200</li>
+                        <li><strong>Main Rewards</strong>: <img src="/images/items/nlc-commemorative-coin.png" alt="Etc NLC Commemorative Coin"/> <a href="https://maplestorywiki.net/w/NLC_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[NLC Commemorative Coin]</a></li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/twilight-perion.png" alt="MapIcon Twilight Perion"/> <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Twilight Perion</strong></a>
+                    <ul>
+                        <li><strong>Recommended Level</strong>: 180 - 190</li>
+                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/twilight-warrior.png" alt="Eqp Twilight Warrior"/> [Medal]</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    );
+};
+
+function LightbulbQuests(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="lightbulb">Lightbulb Quests:</ArticleHeaderTwo>
+            <hr/>
+            <p>Below is a list of quests in the "Maple Mailbox" or the Lightbulb icon on the left-hand side. If you do not see a certain quest, it may be tied to your class' storyline. These can be skipped by most classes. But, Explorer classes, Hoyoung, and Adele gain unique rewards though from their class' storyline so, it should not be skipped. Quests with the label <span style={{color: '#ff0000'}}>[Required]</span> should also be completed</p>
+            <p>As well, the list does not contain all quests as new quests are frequently added</p>
+            <h3>Recommended Quests:</h3>
+            <ul>
+                <li><strong>(Lv. 33) Have you learned about pets?</strong> - Tutorial quest explaining pets that rewards a 3-day pet (cannot be revived)</li>
+                <li><strong>(Lv. 35) The Professional</strong> - A quest to start Professions, the crafting system</li>
+                <li><strong>(Lv. 70) [Link Skill] Teaching Link Skill</strong> - An explanation to Link Skills
+                    <ul><li>Not required to unlock Link Skills</li></ul>
+                </li>
+                <li><strong>(Lv. 90) To Pantheon</strong> - Introduction quest to starting the Magnus boss pre-quest</li>
+                <li><strong>(Lv. 100) [Ursus] Rumors of The Mighty</strong> - Introduction quest to the boss Ursus</li>
+                <li><strong>(Lv. 100) [Mushroom Shrine Tales] Kino Konoko's Request</strong> - Introduction quest to the Mushroom Shrine Tales storyline</li>
+                <li><strong>(Lv. 105) [Maple Tour] Lulu Spinel's Request</strong> - Introduction quest to Maple Tour 
+                    <ul><li>Not required to enter Maple Tour</li></ul>
+                </li>
+                <li><strong>(Lv. 105) [Monster Park] Monster Park Grand Re-opening</strong> - Introduction quest to Monster Park
+                    <ul><li>Not required to enter Monster Park</li></ul>
+                </li>
+                <li><strong>(Lv. 115) [Papulatus] The Light of Chaos</strong> - Introduction quest to the Papulatus boss pre-quest</li>
+                <li><strong>(Lv. 120) [Ranmaru] Call of Princess Sakuno: Stop Mori Ranmaru!</strong> - Short dialogue quest to unlock access to the boss Mori Ranmori</li>
+                <li><strong>(Lv. 120) [Black Heaven] For Maple World</strong>  - Introduction quest to the Black Heaven blockbuster
+                    <ul>
+                        <li>Black Heaven is not required to unlock access to Lotus or weekly quests</li>
+                    </ul>
+                </li>
+                <li><strong>(Lv. 135) [Heroes] Feelings of Misfortune</strong> - Introduction quest to the Heroes of Maple blockbuster
+                    <ul>
+                        <li>Heroes of Maple is not required to unlock access to the boss Damien</li>
+                    </ul>
+                </li>
+                <li><strong>(Lv. 140) [Hieizan Temple] Regards, Takeda Shingen</strong> - Introduction quest to the Princess No boss pre-quest</li>
+                <li><strong>(Lv. 140) [Temple of Time] Path to the Past</strong> - Introduction quest to the Pink Bean boss pre-quest</li>
+                <li><strong>(Lv. 140) [Silent Crusade] A Cry for Help</strong> - Introduction quest to the Arkarium boss pre-quest</li>
+                <li><strong>(Lv. 160) [Masteria Epic] Lost Hero's Call</strong> - Introduction quest to the Masteria Through Time blockbuster</li>
+                <li><strong>(Lv. 180) [Gollux] The Cracks of Corruption</strong> - Short dialogue quest to unlock access to the boss Gollux</li>
+                <li><strong>(Lv. 190) [Haven] A New Home</strong> - Short dialogue quest to unlock access to Weekly Quests in the Scrapyard</li>
+                <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain</strong> - Short dialogue quest to unlock access to Weekly Quests in the Dark World Tree</li>
+                <li><strong>(Lv. 210) [Ramuramu] Psych Exam</strong> - Introduction quest to the Guardian Angel Slime boss pre-quest</li>
+                <li><strong>(Lv. 235) [Kao's Memory] The First Memory </strong>- Introduction quest to the storyline involving <a href="https://maplestorywiki.net/w/Kao" target="_blank" rel="noopener noreferrer">Kao</a> between Lv. 235 to 255</li>
+            </ul>
+            <h3>Theme Dungeon Starting Quests:</h3>
+            <p>Below is a list of Lightbulb Quests that are introduction quests to Theme Dungeons</p>
+            <ul>
+                <li><strong>(Lv. 30) [Riena Strait] Get it Strait</strong></li>
+                <li><strong>(Lv. 30) [Theme Dungeon] Ellinel Fairy Academy</strong></li>
+                <li><strong>(Lv. 30) [Gold Beach] A Golden Opportunity</strong></li>
+                <li><strong>(Lv. 30) [Elodin] Anne's Plea for Help </strong></li>
+                <li><strong>(Lv. 60) [Mushroom Castle] Mushking's Summons</strong></li>
+                <li><strong>(Lv. 75) [The Afterlands] A Cry for Help </strong></li>
+                <li><strong>(Lv. 90) [Stellar Detectives] The Erased Diary</strong></li>
+                <li><strong>(Lv. 95) [Ellin Forest] A Peculiar Book</strong></li>
+                <li><strong>(Lv. 100) [Grand Athenaeum] Visit the Grand Athenaeum</strong></li>
+                <li><strong>(Lv. 115) [Lion King's Castle] Desolate Castle</strong></li>
+                <li><strong>(Lv. 120) [Fantasy Theme World] Dylan's Story </strong></li>
+                <li><strong>(Lv. 125) [Korean Folk Town] A Letter from the Library</strong></li>
+                <li><strong>(Lv. 130) [Crimsonheart] To Grendel's Library</strong></li>
+                <li><strong>(Lv. 130) [Golden Temple] Noi More Tourists</strong></li>
+                <li><strong>(Lv. 135) [Partem Ruins] Dark Prophecy </strong></li>
+                <li><strong>(Lv. 140) Finding Tomo</strong> - Yu Garden</li>
+                <li><strong>(Lv. 140) [Commerci Republic] Neinheart's Calls</strong></li>
+                <li><strong>(Lv. 140) The Dragon and the Tiger</strong> - Beast of Fury</li>
+                <li><strong>(Lv. 145) [Kerning Tower] Kerning Tower Grand Opening</strong></li>
+                <li><strong>(Lv. 145) [Shaolin Temple] Elder Jung's Summons</strong></li>
+                <li><strong>(Lv. 150) [Stone Colossus] A Giant of a Rumor</strong></li>
+                <li><strong>(Lv. 160) [Showa Town] Welcome to Shawa Town!</strong></li>
+                <li><strong>(Lv. 170) [NLC] Welcome back to NLC!</strong></li>
+                <li><strong>(Lv. 170) [Kritias] Sudden Kingdom</strong></li>
+                <li><strong>(Lv. 175) [Detective Rave's Case Notes] Free Luxury Tour!</strong></li>
+                <li><strong>(Lv. 180) [Phantom Forest] The Corrupted Forest</strong></li>
+                <li><strong>(Lv. 185) [Fox Valley] Leaf Plane to Adventure</strong></li>
+            </ul>
+            <h3>Optional Quests:</h3>
+            <ul>
+                <li><strong>(Lv. 10) Do you know about Maple Guide?</strong> - Tutorial quest explaining Maple Guide</li>
+                <li><strong>(Lv. 20) Do you know about Spell Enhancements?</strong> - Tutorial quest explaining <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing</li>
+                <li><strong>(Lv. 20) Do you know about Star Force Enhancements?</strong> - Tutorial quest explaining Star Forcing</li>
+                <li><strong>(Interactive Worlds only) (Lv. 33) Mysterious Merchant Matilda</strong> - Tutorial quest explaining <a href="https://maplestorywiki.net/w/Matilda" target="_blank" rel="noreferrer noopener">Matilda</a>, an NPC that sells <img src="/images/items/ap-reset-scroll.png" alt="Use AP Reset Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/2501000" target="_blank" rel="noreferrer noopener">[AP Reset Scrolls]</a>, and <img src="/images/items/sp-reset-scroll.png" alt="Use SP Reset Scroll"/> <a href="https://maplestory.wiki/GMS/215/item/2500000" target="_blank" rel="noreferrer noopener">[SP Reset Scrolls]</a> for Mesos</li>
+                <li><strong>(Lv. 33) Trainer's Command</strong> - A special quest for unlocking the ability to have 3 pets out at once. Requires you to obtain a <img src="/images/items/pet-snack.png" alt="Cash Pet Snack"/> <a href="https://maplestory.wiki/GMS/215/item/5460000" target="_blank" rel="noreferrer noopener">[Pet Snack]</a> from the Cash Shop using NX or <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points</li>
+                <li><strong>(Lv. 50) [Boss Matchmaking] Fight Together!</strong> - Tutorial quest explaining the Boss Matchmaking system</li>
+                <li><strong>(Lv. 50) [Zakum] Statue of Dread</strong> - Quest that explains Zakum and teleports you to <a href="https://maplestorywiki.net/w/Chief%27s_Residence" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a>
+                    <ul>
+                        <li>Not required to enter the boss Zakum</li>
+                        <li>Talking to your corresponding Job NPC (Warrior, Mage, Thief, etc.) will teleport you to the entrance of Zakum</li>
+                    </ul>
+                </li>
+                <li><strong>(Lv. 60) Have you learned about Potential?</strong> - Tutorial quest explaining equipment potentials</li>
+                <li><strong>(Lv. 60) Have you learned about Bonus Stats?</strong> - Tutorial quest explaining equipment bonus stats</li>
+                <li><strong>(Lv. 80) Use the Transfer Hammer!</strong> - Tutorial quest explaining Transfer Hammer</li>
+                <li><strong>(Lv. 140) [System] Item Update</strong> - Provides an explanation to Transposing after reaching San Commerci</li>
+                <li><strong>(Lv. 200) [Tower of Oz] Tower Under the Sea</strong> - A quest to get started with the Tower of Oz. Provides a quick explanation and tutorial for Tower of Oz</li>
+            </ul>
+            <h3>Can Be Skipped:</h3>
+            <ul>
+                <li><strong>(Lv. 33) Do you know about the Beauty Salon?</strong> - Tutorial quest explaining the Beauty Salon, a place to save your hair and face styles
+                    <ul>
+                        <li><strong>Main Rewards: </strong> <img src="/images/items/hair-coupon.png" alt="Use Hair Coupon"/> <a href="https://maplestory.wiki/GMS/215/item/2543041" target="_blank" rel="noreferrer noopener">[Tutorial Hair Coupon]</a>, <img src="/images/items/hair-coupon.png" alt="Use Hair Coupon"/> <a href="https://maplestory.wiki/GMS/215/item/2432548" target="_blank" rel="noreferrer noopener">[Tutorial Face Coupon]</a>
+                            <ul>
+                                <li>DO NOT USE THESE, they will give you a really bad look</li>
+                                <li>If you do, at least save your current style in the Beauty Salon first!</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>(Lv. 45) [Kerning City] Dark Swamp Region</strong> - Starts the Kerning City area quests for the medal</li>
+                <li><strong>(Lv. 55) [Perion] Rocky Mountain Hunter</strong> - Starts the Perion area quests for the medal</li>
+                <li><strong>(Lv. 65) [Sleepywood] Danger Seeker </strong>- Starts the Sleepywood area quests for the medal</li>
+                <li><strong>(Lv. 70) [Cross World Party Quest] The Old Book</strong></li>
+                <li><strong>(Lv. 70) [Cross World Party Quest] Old Letter</strong></li>
+                <li><strong>(Lv. 70) [Cross World Party Quest] Notes of the Goddess</strong></li>
+                <li><strong>(Lv. 77) [El Nath] Snowfield Explorer</strong> - Starts the El Nath area quests for the medal</li>
+                <li><strong>(Lv. 85) [Ariant] Learning the Culture of Ariant</strong> - Starts the Ariant area quests for the medal</li>
+                <li><strong>(Lv. 110) [Chryse] Find Xerxes</strong> - Quest to get started with the Chryse Party Quest</li>
+                <li><strong>(Lv. 110) [Ludibrium] Ludibrium Sheriff</strong> - Starts the Ludibrium area quests for the medal</li>
+                <li><strong>(Lv. 115) [Lion King's Castle] The Adventure of Jenn the Locksmith</strong> - Quest to get started with the Lion King's Castle Party Quest</li>
+                <li><strong>(Lv. 120) Fly in the Sky!</strong> - A quest where completing it teaches you the skill "Soaring" used in Dragon Rider PQ</li>
+                <li><strong>(Lv. 120) [Hilla] The Mysterious Mystic</strong> - A quest explaining the boss Hilla although, it is not required to actually fight the boss</li>
+                <li><strong>(Lv. 125) [Ghost Park] Korean Folk Town's New Park</strong> - A quest explaining Ghost Park</li>
+                <li><strong>(Lv. 150) The Dragon Rider's Identity 1</strong> - Pre-quest for Dragon Rider PQ</li>
+                <li><strong>(Lv. 160) Rumors from the Castle</strong> - Storyline for Ninja Castle, not required to fight Gigatoad / False Daimyo</li>
+                <li><strong>(Lv. 180) [Twilight Perion] The Second Future</strong> - Storyline, it is not required to access Twilight Perion</li>
+                <li><strong>(Lv. 180) [Masteria] Glimmer Man's Call</strong> - Storyline</li>
+                <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- A quest to start the Asura Crisis storyline</li>
             </ul>
         </div>
     );

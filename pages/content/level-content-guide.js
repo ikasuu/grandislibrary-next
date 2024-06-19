@@ -200,7 +200,7 @@ function Level60(){
       </ul>
       <p>Some notable training maps are:</p>
       <ul>
-        <li><img src="/images/map-icons/sleepywood.png" alt="MapIcon Dungeon"/> <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105010000" target="_blank">Sleepywood - Silent Swamp</a></strong> and <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105020000" target="_blank">Sunless Area</a></strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/4130100" target="_blank">Copper Drakes</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/2600224" target="_blank">Drakes</a></li>
+        <li><img src="/images/map-icons/sleepywood.png" alt="MapIcon Sleepywood"/> <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105010000" target="_blank">Sleepywood - Silent Swamp</a></strong> and <strong><a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/map/105020000" target="_blank">Sunless Area</a></strong>: <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/4130100" target="_blank">Copper Drakes</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/mob/2600224" target="_blank">Drakes</a></li>
       </ul>
       <hr/>
     </div>
@@ -254,7 +254,7 @@ function Level70(){
       <hr/>
       <p>Some notable training maps are:</p>
       <ul>
-        <li><img src="/images/map-icons/el-nath.png" alt="MapIcon ElNath"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/211040200" target="_blank" rel="noreferrer noopener">El Nath - Ice Valley II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5140000" target="_blank" rel="noreferrer noopener">White Fang</a></li>
+        <li><img src="/images/map-icons/el-nath.png" alt="MapIcon El Nath"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/map/211040200" target="_blank" rel="noreferrer noopener">El Nath - Ice Valley II</a></strong>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5140000" target="_blank" rel="noreferrer noopener">White Fang</a></li>
         <li><img src="/images/map-icons/orbis.png" alt="MapIcon Orbis"/> <a href="https://maplestorywiki.net/w/Orbis" target="_blank" rel="noreferrer noopener"><strong>Orbis</strong></a>: <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120000" target="_blank" rel="noreferrer noopener">Luster Pixie</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120001" target="_blank" rel="noreferrer noopener">Cellion</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120002" target="_blank" rel="noreferrer noopener">Lioner</a> and <a href="https://maplestory.wiki/GMS/210.1.1/mob/5120003" target="_blank" rel="noreferrer noopener">Grupin</a></li>
       </ul>
       <hr/>
