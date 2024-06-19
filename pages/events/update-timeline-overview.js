@@ -1118,18 +1118,18 @@ function CyngusKnightsAwakening() {
             <ul>
                 <li>Class revamps, Thunder Breaker, Wind Archer, Dawn Warrior</li>
                 <li>
-                    New Theme Dungeon, <img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonwood"/>
+                    New Theme Dungeon, <img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonheart Castle"/>
                     <a href="https://strategywiki.org/wiki/MapleStory/Crimsonheart_Castle" target="_blank" rel="noreferrer noopener">Crimsonheart Castle</a>
                     <ul>
                         <li>New Party Quest, Crimsonwood Altar PQ</li>
                     </ul>
                 </li>
                 <li>
-                    New Theme Dungeon, <img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy"/>
+                    New Theme Dungeon, <img src="/images/map-icons/ellinel.png" alt="MapIcon Ellinel"/>
                     <a href="https://maplestorywiki.net/w/Category:Ellinel" target="_blank" rel="noreferrer noopener">Ellinel Fairy Academy</a>
                 </li>
                 <li>
-                    New Theme Dungeon, <img src="/images/map-icons/riena-strait.png" alt="MapIcon glacierExplorer"/>
+                    New Theme Dungeon, <img src="/images/map-icons/riena-strait.png" alt="MapIcon Riena Strait"/>
                     <a href="https://maplestorywiki.net/w/Category%3ARiena_Strait" target="_blank" rel="noreferrer noopener">Riena Strait</a>
                 </li>
                 <li>Maple Chat revamped (Current iteration)</li>
@@ -1194,7 +1194,7 @@ function Dawnveil() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New area, <img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonwood"/>
+                    New area, <img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonheart Castle"/>
                     <a href="https://maplestorywiki.net/w/Category%3ATynerum" target="_blank" rel="noreferrer noopener">Tynerum</a>
                 </li>
                 <li>New boss, <a href="https://maplestorywiki.net/w/Gollux" target="_blank" rel="noreferrer noopener">Gollux</a> (Original iteration)</li>
@@ -1689,7 +1689,7 @@ function HyperEvolution() {
                     New content, <img src="/images/map-icons/pantheon.png" alt="MapIcon Pantheon"/> <a href="https://maplestorywiki.net/w/Dimension_Invasion" target="_blank" rel="noreferrer noopener">Dimension Invasion</a>
                 </li>
                 <li>
-                    New Theme Dungeon, <img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach"/> <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener">Gold Beach</a>
+                    New Theme Dungeon, <img src="/images/map-icons/gold-beach.png" alt="MapIcon Gold Beach"/> <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener">Gold Beach</a>
                 </li>
                 <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=493605944" target="_blank" rel="noreferrer noopener">Monster Park Extreme</a> introduced</li>
                 <li><img src="/images/equipment/notable-earrings.png" alt="Eqp Notable Earrings"/><img src="/images/equipment/finding-your-roots.png" alt="Eqp Finding Your Roots"/> Kerning Square Revamp</li>
@@ -2082,7 +2082,7 @@ function MushroomShrineTales() {
                 <p><TabLink url="http://maplestory.nexon.net/news/16847/v-176-mushroom-shrine-tales-patch-notes"/></p>
             </div>
             <h3>New Content</h3>
-            <ul><li><img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon jipangu"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Category:Mushroom_Shrine" target="_blank">Mushroom Shrine</a> Revamped</li></ul>
+            <ul><li><img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon Mushroom Shrine"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Category:Mushroom_Shrine" target="_blank">Mushroom Shrine</a> Revamped</li></ul>
         </LazyLoad>
     )
 };
@@ -2484,9 +2484,9 @@ function Pathfinder() {
             <ul>
                 <li><strong>5th Job Advancement can now be done without Temple of Time quest completion and without accumulating EXP on Arcane Stones</strong></li>
                 <li>
-                    <img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy"/>
-                    <img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach"/>
-                    <img src="/images/map-icons/riena-strait.png" alt="MapIcon glacierExplorer"/>
+                    <img src="/images/map-icons/ellinel.png" alt="MapIcon Ellinel"/>
+                    <img src="/images/map-icons/gold-beach.png" alt="MapIcon Gold Beach"/>
+                    <img src="/images/map-icons/riena-strait.png" alt="MapIcon Riena Strait"/>
                     <img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/>
                     <strong> Lv. 30 - 59 Theme Dungeons revamped, areas are now proportional to your level up to Lv.59, monsters are instanced</strong>
                 </li>
@@ -3054,7 +3054,7 @@ function StrangeStories() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New area, <img src="/images/map-icons/afterlands.png" alt="MapIcon PL AfterLand"/>
+                    New area, <img src="/images/map-icons/afterlands.png" alt="MapIcon Afterlands"/>
                     <a href="https://maplestorywiki.net/w/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">The Afterlands</a>
                 </li>
                 <li>Fishing System introduced</li>

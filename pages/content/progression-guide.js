@@ -39,22 +39,6 @@ const TrainingMapSearchWrapper = styled.div`
 `;
 
 function ProgressionGuide() {
-    SwiperCore.use([Scrollbar, Mousewheel]);
-
-    // Create search query object that searches our data by looking at the question and tags
-    const fuse = new Fuse(maps, {keys: ["level", "mapName", "area"]});
-    // Used to store what's typed into search bar
-    const [searchTerm, setSearchTerm] = React.useState("");
-
-    // Custom filtering function, return original if search query returns nothing (len = 0)
-    const searchQuery = (term) => {
-        const results = fuse.search(term);
-        if(results.length){
-            return results;
-        }
-        return maps;
-    }
-
     return (
         <ContentPage>
             <Head>
@@ -165,319 +149,9 @@ function ProgressionGuide() {
             <EndgameBossesTwo/>
             <EndgameBossesThree/>
             <EndgameBossesFour/>
-            <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests:</ArticleHeaderTwo>
-            <hr/>
-            <p>A majority of Daily and Weekly Quests are mostly done at Lv. 200+. Characters pre-200 do not need to worry about these quests as much</p>
-            <ul>
-                <li><img src="/images/map-icons/lil-wonky.png" alt="Lil Wonky Pet"/> <strong>[Lv. Any] [Daily] MAPLE Daily Gift</strong>: Defeat 300 enemies around you level each day to obtain a free check-in gift <br/>
-                    <ul>
-                    <li>There are a total of 28 check-ins and your check-ins reset every month</li>
-                    <li>Once you've reached 300 enemies, a pop up will appear shortly, if not, you can try opening up the MAPLE Daily Gift UI</li>
-                    <li>To open the MAPLE Daily Gift UI, click on the green icon with a check mark on the bottom right and then click on "Daily Gift"
-                        <ul>
-                        <li>If you don't see the icons, try pressing "]" by default</li>
-                        </ul>
-                    </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">[Daily] Monster Park</a></strong>: Completing Monster Park will reward you with a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coins]</a> to use in a special shop
-                    <ul>
-                    <li>Great for early levels as you gain a lot of EXP</li>
-                    <li>Special shop sells special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that are transferable within your account (given same World) that grant useful buffs for training</li>
-                    <li>Completing Monster Park 77 times for each day of the week will reward you a <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Best-in-Slot for Bossing Medal]</a> that gives +10% Ignore Enemy Defence</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon Maple Tour"/> <strong>[Lv. 105+] [Daily] </strong><strong>Maple Tour: </strong>Completing Maple Tour will reward you with Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] to buy special items at Maple Tour</li>
-                <li><img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140+] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>[] [Daily] The Far East (Yu Garden)</strong></a>: Completing The Far East storyline will unlock Daily Quests
-                    <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Heroic Worlds only</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey storyline will unlock Daily Quests for this area
-                    <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">[Weekly] Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey Daily twice each will reward you with Nodestones
-                    <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">[Nodestones]</a></li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Erda_Spectrum" target="_blank" rel="noreferrer noopener">[Weekly PQ] Erda Spectrum</a></strong>: Unlocked once you complete the Vanishing Journey storyline. Can be done in parties of 1 to 3. There are 2 stages and the objective to help Nina conduct research in several different areas
-                    <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon Chu Chu Island"/> <strong>[Lv. 210+]</strong> <a href="https://maplestorywiki.net/w/Category:Chu_Chu_Island" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Chu Chu Island</strong></a>: Completing storyline will unlock access to a Party Quest and Daily Quests for this area
-                    <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon Chu Chu Island"/> <strong> [Lv. 210+] <a href="https://maplestorywiki.net/w/Category:Hungry_Muto" target="_blank" rel="noreferrer noopener">[Weekly PQ] Hungry Muto</a></strong>: Unlocked once you complete the Chu Chu Island storyline. Can be done in parties of 1 to 4. The main objective is to collect ingredients from monsters to create dishes to feed Muto
-                    <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <strong>[Lv. 220+] </strong><a href="https://maplestorywiki.net/w/Category%3ALachelein" target="_blank" rel="noreferrer noopener"><strong>[Daily] Arcane River - Lachelein</strong></a>: Completing the storyline will unlock access to Midnight Chaser and Daily Quests for this area
-                    <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <strong>[Lv. 220+] <a href="https://maplestorywiki.net/w/Midnight_Chaser" target="_blank" rel="noreferrer noopener">[Weekly] Midnight Chaser</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to locate objects scattered around a series of maps
-                    <ul>
-                        <li>
-                            <strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]
-                        </li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong> [Lv. 225+] <a href="https://maplestorywiki.net/w/Category:Arcana" target="_blank" rel="noreferrer noopener">[Daily] Arcane River - Arcana</a></strong>: Completing the storyline will unlock access to Spirit Savior and Daily Quests for this area
-                    <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-arcana.png" alt="Eqp Arcane Symbol Arcana"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong> [Lv. 225+] <a href="https://maplestorywiki.net/w/Spirit_Savior" target="_blank" rel="noreferrer noopener">[Weekly] Spirit Savior</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to save Rock Spirits that have been kidnapped while avoiding an evil spirit that chases you
-                    <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/arcane-symbol-arcana.png" alt="Eqp Arcane Symbol Arcana"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong>[Lv. 230+] </strong><a href="https://maplestorywiki.net/w/Category%3AMorass" target="_blank" rel="noreferrer noopener"><strong>[Daily] Morass</strong></a>: Completing the storyline here unlocks Daily Quests for this area
-                    <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-morass.png" alt="Eqp Arcane Symbol Morass"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong>[Lv. 230+] </strong><a href="https://maplestorywiki.net/w/Ranheim_Defense" target="_blank" rel="noreferrer noopener"><strong>[Weekly] Ranheim Defense</strong></a>: This activity cannot be done in a party and must be done alone. The objective is to defend a pillar on the middle of the map by defeating enemies that appear
-                    <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-morass.png" alt="Eqp Arcane Symbol Morass"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong>[Lv. 235+] <a href="https://maplestorywiki.net/w/Category:Esfera" target="_blank" rel="noreferrer noopener">[Daily] Esfera</a></strong>: Completing the storyline here unlocks Daily Quests for this area
-                    <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong>[Lv. 235+] <a href="https://maplestorywiki.net/w/Esfera_Guardian" target="_blank" rel="noreferrer noopener">[Weekly] Esfera Guardian</a></strong>: This activity cannot be done in a party and must be done alone. The objective is to destroy dimensional gates using a special turret to aim and shoot
-                    <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera"/> [Arcane Symbols]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong>[Lv. 245+] <a href="https://maplestorywiki.net/w/Quests/224/(Daily_Quest)_Tenebris_Research" target="_blank" rel="noreferrer noopener">[Daily] Tenebris</a></strong>: Completing the storyline in Moonbridge unlocks Daily Quests for this region
-                    <ul>
-                    <li>More daily quests are available once Labyrinth of Suffering and Limina storylines have been completed</li>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> [Spark of Determination]</li>
-                    </ul>
-                </li>
-            </ul>
-            <hr/>
-            <h3>Optional:</h3>
-            <ul>
-                <li><img src="/images/map-icons/commerci.png" alt="MapIcon Commerci"/> <strong>[Lv. 140+] <a href="https://strategywiki.org/wiki/MapleStory/Commerci_Trade_Voyages" target="_blank" rel="noreferrer noopener">[Daily] Commerci Voyages</a></strong>: Unlocked once you reach the town of San Commerci. Complete trade voyages where waves of enemies spawn to earn <img src="/images/items/commerci-denaro.png" alt="Etc Commerci Denaro"/> <a href="https://maplestorywiki.net/w/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaro]</a>
-                <ul>
-                    <li>Denaros are used to buy <strong/> <img src="/images/equipment/sweetwater-monocle.png" alt="Eqp Sweetwater Monocle"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1012438" target="_blank" rel="noreferrer noopener">[Sweetwater Monocle]</a> and <img src="/images/equipment/sweetwater-tattoo.png" alt="Eqp Sweetwater Tattoo"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022211" target="_blank" rel="noreferrer noopener">[Sweetwater Tattoo]</a> from <a href="https://maplestorywiki.net/w/Javert" target="_blank" rel="noreferrer noopener">Javert</a>
-                    </li>
-                    <li>Accessories are BIS but only if you can Star Force above 15 stars, so daily is optional until you can obtain 15+ stars</li>
-                    <li>In Interactive Worlds, you can also do trade voyages to buy and sell the Sweetwater accessories for Mesos</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/kritias.png" alt="MapIcon Kritias"/> <strong>[Lv. 170+]</strong>  <strong>[Weekly] Kritias</strong>: Unlocked after completing the Kritias storyline
-                <br/>
-                <ul>
-                    <li>Weekly Quests reward you with <img src="/images/items/anti-magic-stone.png" alt="Etc Anti-magic Stone"/> <a href="https://maplestorywiki.net/w/Anti-magic_Stone" target="_blank" rel="noreferrer noopener">[Anti-magic Stone]</a> and <img src="/images/items/anti-magic-stone-piece.png" alt="Use Anti-magic Stone Piece"/> <a href="https://maplestorywiki.net/w/Anti-magic_Stone_Piece" target="_blank" rel="noreferrer noopener">[Anti-magic Stone Piece]</a> which are used to create <img src="/images/items/kritias-commemorative-coin.png" alt="Etc Kritias Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Keilbarren" target="_blank" rel="noreferrer noopener">[Kritias Commemorative Coins]</a> to buy <img src="/images/equipment/tyrant-hyades-gloves.png" alt="Eqp Tyrant Hyades Gloves"/> [Tyrant Gloves] and <img src="/images/items/hard-magnus-reset-ticket.png" alt="Use Hard Magnus Reset Ticket"/> <img src="/images/items/chaos-vellum-reset-ticket.png" alt="Use Chaos Vellum Reset Ticket"/> [Weekly Boss Reset Tickets]
-                    <ul>
-                        <li>Due to the amount of time required to obtain some of these items, it is not worth the time and can be skipped</li>
-                        <li>For more info on Kritias, check out: <a href="https://dexless.com/guides/kritias-everything-you-need-to-know-about-it.217/" target="_blank" rel="noreferrer noopener">https://dexless.com/guides/kritias-everything-you-need-to-know-about-it.217/</a>
-                        </li>
-                    </ul>
-                    </li>
-                </ul>
-                </li>
-                <li><img src="/images/map-icons/haven.png" alt="MapIcon Scrapyard"/> <strong>[Lv. 190+] <a href="https://maplestorywiki.net/w/Category:Scrapyard" target="_blank" rel="noreferrer noopener">[Weekly] Scrapyard</a></strong>: Unlocked once you reach Lv. 190
-                <ul>
-                    <li>Weekly Quests reward you with <img src="/images/items/diffusion-line-energy-core.png" alt="Etc Diffusion-Line Energy Core (Grade A)"/> [Diffusion-Line Energy Core (Grade A)] which are used to create <img src="/images/items/absolab-coin.png" alt="Etc AbsoLab Coin"/> [AbsoLab Coins] to buy for <img src="/images/equipment/absolab-knight-shoes.png" alt="Eqp AbsoLab Knight Shoes"/> <img src="/images/equipment/absolab-knight-gloves.png" alt="Eqp AbsoLab Knight Gloves"/> <img src="/images/equipment/absolab-knight-cape.png" alt="Eqp AbsoLab Knight Cape"/> <img src="/images/equipment/absolab-saber.png" alt="Eqp AbsoLab Saber"/> [<em>(Shoe/Glove/Cape/Weapon)</em> AbsoLab Gear]
-                    <ul>
-                        <li>Can be skipped if you are not trying to get Absolab Gear</li>
-                        <li>Monsters in this area also drop <img src="/images/items/diffusion-line-energy-core.png" alt="Etc Diffusion-Line Energy Core (Grade A)"/> 
-                        </li>
-                    </ul>
-                    </li>
-                </ul>
-                </li>
-                <li><img src="/images/map-icons/dark-world-tree.png" alt="MapIcon Dark World Tree"/> <strong>[Lv. 190+] <a href="https://maplestorywiki.net/w/Category:Dark_World_Tree" target="_blank" rel="noreferrer noopener">[Weekly] Dark World Tree</a></strong>: Unlocked once you reach Lv. 190
-                <ul>
-                    <li>Weekly Quests reward you with <img src="/images/items/faint-stigma-spirit-stone.png" alt="Etc Faint Stigma Spirit Stone"/> [Faint Stigma Spirit Stone] which are used to create <img src="/images/items/stigma-coin.png" alt="Etc Stigma Coin"/> [Stigma Coins] to buy for <img src="/images/equipment/absolab-knight-helm.png" alt="Eqp AbsoLab Knight Helm"/> <img src="/images/equipment/absolab-knight-suit.png" alt="Eqp AbsoLab Knight Suit"/> <img src="/images/equipment/absolab-knight-shoulder.png" alt="Eqp AbsoLab Knight Shoulder"/> <img src="/images/equipment/absolab-saber.png" alt="Eqp AbsoLab Saber"/> [<em>(Hat/Overall/Shoulder/Weapon)</em> AbsoLab Gear]
-                    <ul>
-                        <li>Can be skipped if you are not trying to get Absolab Gear</li>
-                        <li>Monsters in this area also drop <img src="/images/items/faint-stigma-spirit-stone.png" alt="Etc Faint Stigma Spirit Stone"/>
-                        </li>
-                    </ul>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonwood"/> <strong>[Lv. 180+] </strong><a href="https://maplestorywiki.net/w/Category:Crimsonwood" target="_blank" rel="noreferrer noopener"><strong>[Daily] Crimsonwood - Phantom Forest</strong></a>: Completing the storyline for this area unlocks access to Daily Quests that reward <img src="/images/items/raven-ninja-coin.png" alt="Etc Raven Ninja Coin"/> <a href="https://maplestorywiki.net/w/Raven_Ninja_Coin" target="_blank" rel="noreferrer noopener">[Raven Ninja Coins]</a> and <img src="/images/items/shadowknight-coin.png" alt="Etc Shadowknight Coin"/> <a href="https://maplestorywiki.net/w/Shadowknight_Coin" target="_blank" rel="noreferrer noopener">[Shadowknight Coins]</a> to buy items from Mo and Fiona in the Phantom Forest
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/numenals-willpower.png" alt="Eqp Numenal's Willpower"/> <img src="/images/equipment/glonas-heart.png" alt="Eqp Glona's Heart"/> <img src="/images/equipment/legacy-of-light.png" alt="Eqp Legacy of Light"/> <img src="/images/equipment/legacy-of-darkness.png" alt="Eqp Legacy of Darkness"/> <img src="/images/equipment/delgrunds-honor.png" alt="Eqp Delgrund's Honor"/> <img src="/images/equipment/lirenis-wish.png" alt="Eqp Lireni's Wish"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Masteria%27s_Legacy" target="_blank" rel="noreferrer noopener">[Masteria's Legacy Gear]</a>, <img src="/images/equipment/white-identity.png" alt="Eqp White Identity"/> <img src="/images/equipment/crystal-leaf-earrings.png" alt="Eqp Crystal Leaf Earrings"/> <img src="/images/equipment/ravens-beak.png" alt="Eqp Raven's Beak"/> <a href="https://maplestorywiki.net/w/Mo" target="_blank" rel="noreferrer noopener">[iTCG Gear]</a>, <img src="/images/items/balanced-fury.png" alt="Use Balanced Fury"/> <a href="https://maplestorywiki.net/w/Balanced_Fury" target="_blank" rel="noreferrer noopener">[Balanced Fury]</a>, <img src="/images/items/crystal-ilbi.png" alt="Use Crystal Ilbi Throwing-Stars"/> <a href="https://maplestorywiki.net/w/Crystal_Ilbi_Throwing-Stars" target="_blank" rel="noreferrer noopener">[Crystal Ilbis]</a>
-                    </li>
-                    <li>Unless you are really trying to optimize your gear, the Phantom Forest is not necessary and can be skipped</li>
-                </ul>
-                </li>
-                <li><strong>[Daily] <a href="https://maplestorywiki.net/w/Legion_System" target="_blank" rel="noreferrer noopener">Legion System</a></strong>: Completing the quests will grant extra <img src="/images/items/legion-coin.png" alt="Etc Legion Coin"/> <a href="https://maplestorywiki.net/w/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a>
-                <ul>
-                    <li>Can be skipped</li>
-                </ul>
-                </li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="training">Training Maps:</ArticleHeaderTwo>
-            <hr/>
-            <img className="repository-image" src="/images/info/world-map-ui.png" alt="World Map"/>
-            <p>Below is a list of recommended training maps for grinding. To find out how to navigate to a specific map, open your World Map (W by default) and search for the desired map on the right-hand side. Clicking on the item you want will direct you to the map which will start blinking</p>
-            <p>Special thanks to Proof#8868 for the recommended training maps. Click <a href="https://docs.google.com/spreadsheets/d/1QqtsUcnB5WBMGplKvpJI3qZQYAR5HSKn7VdHsJvRTtg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here</a> for a Google Sheets version of the training maps</p>
-            <p><em>*Search function may not be 100% reliable</em></p>
-            <TrainingMapSearchWrapper><TrainingMapSearch className="faq-search" type="text" placeholder="Search" onChange={event => setSearchTerm((event.target.value))}></TrainingMapSearch></TrainingMapSearchWrapper>
-            <TrainingMapSwiper
-                scrollbar={{ draggable: true, hide: true }}
-                spaceBetween={10}
-                slidesPerView="auto"
-                direction="vertical"
-                freeMode
-                mousewheel
-                >
-                    {
-                        // Since fuse returns a slightly different object, we need to use a ternary to adjust based on if the original is returned or the filtered is returned
-                        searchQuery(searchTerm).map((map, index) =>
-                        <SwiperSlide key={index}>
-                            <TrainingMap level={map.level ? map.level : map.item.level} icon={map.icon ? map.icon : map.item.icon} mapName={`${map.area ? map.area : map.item.area} - ${map.mapName ? map.mapName : map.item.mapName}`} mapLink={map.mapLink ? map.mapLink : map.item.mapLink}/>
-                        </SwiperSlide>
-                        )
-                    }
-            </TrainingMapSwiper>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-            <ArticleHeaderTwo id="themedungeon">Theme Dungeons:</ArticleHeaderTwo>
-            <hr/>
-            <ul>
-                <li> <img src="/images/map-icons/ellinel.png" alt="MapIcon fairyAcademy"/> <strong>[Lv. 30 - 59] </strong><a href="https://maplestorywiki.net/w/Category:Ellinel" target="_blank" rel="noreferrer noopener"><strong>Ellinel Fairy Academy</strong></a>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
-                <ul>
-                    <li><strong>Main Rewards:</strong>  <img src="/images/items/meso.png" alt="Meso"/> [1 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/ellinel-wings.png" alt="Eqp Ellinel Wings"/> <a href="https://maplestory.wiki/GMS/215/item/1102590" target="_blank" rel="noreferrer noopener">[Cape]</a>, <img src="/images/equipment/ellinel-bracelet.png" alt="Eqp Ellinel Bracelet"/> [Glove], <img src="/images/equipment/fairy-mark.png" alt="Eqp Fairy Mark"/> <a href="https://maplestory.wiki/GMS/215/item/1022254" target="_blank" rel="noreferrer noopener">[Eye Accessory]</a> and <img src="/images/equipment/honorary-fairy-professor.png" alt="Eqp Honorary Fairy Professor"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/gold-beach.png" alt="MapIcon GoldBeach"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener">Gold Beach Resort</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
-                <ul>
-                    <li><strong>Main Rewards:</strong>  <img src="/images/items/meso.png" alt="Meso"/> [1 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/octopus-earrings.png" alt="Eqp Octopus Earrings"/> <a href="https://maplestory.wiki/GMS/215/item/1032254" target="_blank" rel="noreferrer noopener">[Earrings]</a> and <img src="/images/equipment/beach-bum.png" alt="Eqp Beach Bum"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/riena-strait.png" alt="MapIcon glacierExplorer"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Riena_Strait" target="_blank" rel="noreferrer noopener">Riena Strait</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
-                <ul>
-                    <li><strong>Main Rewards:</strong>  <img src="/images/items/meso.png" alt="Meso"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/sailor-mask.png" alt="Eqp Sailor Mask"/> <a href="https://maplestory.wiki/GMS/215/item/1012389" target="_blank" rel="noreferrer noopener">[Face Accessory]</a>, <img src="/images/equipment/sailor-belt.png" alt="Eqp Sailor Belt"/> <a href="https://maplestory.wiki/GMS/215/item/1132292" target="_blank" rel="noreferrer noopener">[Belt]</a>, <img src="/images/equipment/deckhand.png" alt="Eqp Deckhand"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong> [Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Elodin" target="_blank" rel="noreferrer noopener">Secret Forest of Elodin</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/elodin-bird-dog.png" alt="Eqp Elodin Bird Dog"/> [Medal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces]</li>
-                </ul>
-                </li>
-                <li>
-                <img src="/images/map-icons/mushroom-castle.png" alt="MS Mushroom Castle icon.png"/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">Mushroom Kingdom</a>: </strong>Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
-                <ul>
-                    <li>Has lots of cutscenes compared to the previous Theme Dungeons which is why most people skip this one</li>
-                    <li><strong>Main Rewards:</strong>  <img src="/images/items/meso.png" alt="Meso"/> [3 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/violettas-knight.png" alt="Eqp Violetta's Knight"/> [Medal], <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">[Heavy Violetta Cape]</a><a href="https://maplestory.wiki/GMS/215/item/1142629" target="_blank" rel="noreferrer noopener">, </a> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">[Shackles of Love]</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/afterlands.png" alt="MapIcon PL AfterLand"/> <strong>[Lv. 75] <a href="https://maplestorywiki.net/w/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">The Afterlands</a>: </strong>Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
-                <ul>
-                    <li>An easy way to obtain permanent totems that you can equip for extra stats (maximum 3 totems)</li>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/beodog-figurine.png" alt="Eqp Beodog Figurine"/> <img src="/images/equipment/billy-figurine.png" alt="Eqp Billy Figurine"/> <img src="/images/equipment/adler-figurine.png" alt="Eqp Adler Figurine"/> <img src="/images/equipment/mansa-figurine.png" alt="Eqp Mansa Figurine"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Afterlands_Souvenir" target="_blank" rel="noreferrer noopener">[Afterlands Totems]</a>
-                    </li>
-                    <li>This is not a mandatory activity if you find this Theme Dungeon too tedious
-                    <ul>
-                        <li>The Afterlands is known to be slightly buggy or frustrating to complete but provide some easy Totems</li>
-                    </ul>
-                    </li>
-                    <li>Here is a guide: <a href="https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/" target="_blank" rel="noreferrer noopener">https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon jipangu"/> <strong>[Lv. 100] </strong><a href="https://maplestorywiki.net/w/Category:Mushroom_Shrine" target="_blank" rel="noreferrer noopener"><strong>Mushroom Shrine Tales</strong></a>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
-                <ul>
-                    <li>Completing this storyline gives you <img src="/images/equipment/wings-of-fate.png" alt="Eqp Wings of Fate"/> <a href="https://maplestorywiki.net/w/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Wings of Fate]</a> which give some pretty good stats but may be tedious to obtain since the story is quite long</li>
-                    <li>This cape may be useful for gear progression in Heroic Worlds</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon Lion King's Castle"/> <strong>[Lv. 115] <a href="https://maplestorywiki.net/w/Category%3ALion_King's_Castle" target="_blank" rel="noreferrer noopener">[Pre-Quest] Lion King's Castle</a></strong>: Accessible from a quest in your Lightbulb tab and from traveling from <a href="https://maplestory.wiki/GMS/210.1.1/map/211040600" target="_blank" rel="noreferrer noopener">El Nath</a>, Completing this Theme Dungeon grants access to the boss <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a>
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/heart-of-a-lion.png" alt="Eqp Heart of a Lion"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/korean-folk-town.png" alt="MapIcon Folkvillige"/> <strong>[Lv. 130] <a href="https://maplestorywiki.net/w/Category:Korean_Folk_Town" target="_blank" rel="noreferrer noopener">Korean Folk Town</a>: </strong>Accessible by accepting a quest in your Lightbulb icon or by traveling from <a href="https://maplestorywiki.net/w/Helios_Tower_(100th_Floor)" target="_blank" rel="noreferrer noopener">Ludibrium</a> or <a href="https://maplestorywiki.net/w/The_Sharp_Unknown" target="_blank" rel="noreferrer noopener">Aqua Road</a>
-                <ul>
-                    <li><strong>Rewards:</strong> <img src="/images/equipment/like-clouds-and-winds.png" alt="Eqp Like Clouds and Winds"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/golden-temple.png" alt="MapIcon Golden Temple"/> <strong> [Lv. 130] <a href="https://maplestorywiki.net/w/Category:Golden_Temple" target="_blank" rel="noreferrer noopener">Golden Temple</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/ravanas-golden-crown.png" alt="Eqp Ravana's Golden Crown"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003455" target="_blank" rel="noreferrer noopener">[Ravana's Golden Crown]</a>, <img src="/images/equipment/seeker-of-gilded-truth.png" alt="Eqp Seeker of Gilded Truth"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonwood"/> <strong> [Lv. 130] <a href="https://maplestorywiki.net/w/Category:Tynerum" target="_blank" rel="noreferrer noopener">Crimsonheart Castle</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/crimsonheart-savior.png" alt="Eqp Crimsonheart Savior"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/partem-ruins.png" alt="MapIcon Partem"/> <strong>[Lv. 135] </strong><strong>Partem Ruins</strong>: Accessible initially from a quest in your Lightbulb icon and from Partem in <a href="https://maplestorywiki.net/w/Spore_Hill" target="_blank" rel="noreferrer noopener">Henesys</a>
-                <ul>
-                    <li><strong>Main Rewards: </strong> <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>The Far East (Yu Garden)</strong></a>: Accessible from <a href="https://maplestory.wiki/GMS/210.1.1/map/104020000" target="_blank" rel="noreferrer noopener">Six Path Crossway</a>
-                <ul>
-                    <li>After completing the storyline here, there are daily quests that reward you <img src="/images/items/yu-garden-coin.png" alt="Etc Yu Garden Coin"/> [Yu Garden Coins] a special currency</li>
-                    <li><strong>Main Rewards: </strong> <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [<em>(Heroic World Only)</em> Epic Potential Scroll], <img src="/images/equipment/horseback-riding-doll-totem.png" alt="Eqp Horseback Riding Doll Totem"/> <img src="/images/equipment/jade-kettle-totem.png" alt="Eqp Jade Kettle Totem"/> <img src="/images/equipment/bronze-incense-burner-totem.png" alt="Eqp Bronze Incense Burner Totem"/> [Totems],</li>
-                    <li><strong style={{color: '#ff6600'}}>[Heroic World Recommended + Important]:</strong> Provides an easy source to Epic Potential Scrolls in Heroic Worlds</li>
-                    <li>An in-depth guide to the Yu Garden dailies: <a href="https://www.reddit.com/r/Maplestory/comments/62tld2/guide_for_yu_garden_dailies_reboot_daily_epic_pot/" target="_blank" rel="noreferrer noopener">https://www.reddit.com/r/Maplestory/comments/62tld2/guide_for_yu_garden_dailies_reboot_daily_epic_pot/</a>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/commerci.png" alt="MapIcon Commerci"/> <strong>[Lv. 140] <a href="https://maplestorywiki.net/w/Category:Commerci_Republic" target="_blank" rel="noreferrer noopener">Commerci</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>  and Dimensional Mirror. Grants access to the Commerci Merchant Union PQ after a completing a series of quests here
-                <ul>
-                    <li>The PQ is where you obtain <img src="/images/equipment/sweetwater-sword.png" alt="Eqp Sweetwater Axe"/> <img src="/images/equipment/sweetwater-hat.png" alt="Eqp Sweetwater Hat"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Sweetwater_Set" target="_blank" rel="noreferrer noopener">[Sweetwater Gear]</a> and <img src="/images/equipment/sweetwater-tattoo.png" alt="Eqp Sweetwater Tattoo"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1012438" target="_blank" rel="noreferrer noopener">[Sweetwater Tattoo]</a>, <img src="/images/equipment/sweetwater-monocle.png" alt="Eqp Sweetwater Monocle"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022211" target="_blank" rel="noreferrer noopener">[Sweetwater Monocle]</a>
-                    </li>
-                    <li>A guide to the Commerci Pre-Quests: <a href="https://www.youtube.com/watch?v=OKIlC9I2ExM" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=OKIlC9I2ExM</a>
-                    </li>
-                    <li>An in-depth guide to Commerci: <a href="https://www.youtube.com/watch?v=UtW6Lldv7K8" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=UtW6Lldv7K8</a>
-                    </li>
-                    <li><strong>Main Rewards for Completing Storyline: </strong>[Medal], <img src="/images/equipment/commerci-hat.png" alt="Eqp Commerci Hat"/> <a href="https://maplestory.wiki/GMS/205/item/1003984" target="_blank" rel="noreferrer noopener">[Commerci Hat]</a>, <img src="/images/equipment/commerci-suit.png" alt="Eqp Commerci Suit"/> <a href="https://maplestory.wiki/GMS/205/item/1052673" target="_blank" rel="noreferrer noopener">[Commerci Suit]</a> <img src="/images/equipment/commerci-boots.png" alt="Eqp Commerci Boots"/> <a href="https://maplestory.wiki/GMS/205/item/1072874" target="_blank" rel="noreferrer noopener">[Commerci Boots]</a>, <img src="/images/equipment/commerci-gloves.png" alt="Eqp Commerci Gloves"/> <a href="https://maplestory.wiki/GMS/205/item/1082559">[Commerci Gloves]</a>, <img src="/images/equipment/commerci-cape.png" alt="Eqp Commerci Cape"/> <a href="https://maplestory.wiki/GMS/205/item/1102626">[Commerci Cape]</a>, <img src="/images/equipment/commerci-belt.png" alt="Eqp Commerci Belt"/> <a href="https://maplestory.wiki/GMS/205/item/1132248" target="_blank" rel="noreferrer noopener">[Commerci Belt]</a>, <img src="/images/equipment/commerci-shoulder.png" alt="Eqp Commerci Shoulder"/> <a href="https://maplestory.wiki/GMS/205/item/1152161" target="_blank" rel="noreferrer noopener">[Commerci Shoulder]</a>, <img src="/images/equipment/devils-sunrise.png" alt="Eqp Devil's Sunrise"/> [Commerci Weapon for your class]
-                    <ul>
-                        <li>Commerci gear is separate from Sweetwater gear</li>
-                    </ul>
-                    </li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/kerning-tower.png" alt="MapIcon Kerning Tower"/> <strong>[Lv. 145] <a href="https://maplestorywiki.net/w/Category:Kerning_Tower" target="_blank" rel="noreferrer noopener">Kerning Tower</a></strong>: Accessible by completing a quest in your Lightbulb icon and from <a href="https://maplestory.wiki/GMS/210.1.1/map/103000000" target="_blank" rel="noreferrer noopener">Kerning City</a>
-                <ul>
-                    <li><strong>Main Reward:</strong> <img src="/images/equipment/jackpot-entertainment-co-ceo.png" alt="Eqp Jackpot Entertainment Co-CEO"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/stone-colossus.png" alt="MapIcon Colossus"/> <strong>[Lv. 150]</strong>  <a href="https://maplestorywiki.net/w/Category:Stone_Colossus" target="_blank" rel="noreferrer noopener"><strong>Stone Colossus</strong></a>: Accessible from <a href="https://maplestorywiki.net/w/Forest_:_Crossroad" target="_blank" rel="noreferrer noopener">Leafre</a>
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/colossal.png" alt="Eqp Colossal"/> [Medal], <img src="/images/items/kupos-ride-coupon.png" alt="Use Kupo's Ride Coupon"/> [Mount], <img src="/images/equipment/halflinger-expedition-badge.png" alt="Eqp Halflinger Expedition Badge"/> [Badge]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/omega-sector.png" alt="MapIcon Omega Sector"/> <strong> [Lv. 165] <a href="https://maplestorywiki.net/w/Category:Omega_Sector" target="_blank" rel="noreferrer noopener">Omega Sector</a></strong>: Accessible initially by accepting a quest in the Lightbulb icon or from <a href="https://maplestory.wiki/GMS/210.1.1/map/220000400" target="_blank" rel="noreferrer noopener">Ludibrium Eos Tower</a>
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/white-m-forcer.png" alt="Eqp White M-Forcer"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/savage-terminal.png" alt="MapIcon Savage Terminal"/> <strong>[Lv. 175] </strong><strong>Detective Rave's Case Notes: </strong>Accessible initially from accepting a quest in your Lightbulb icon or from <a href="https://maplestory.wiki/GMS/210.1.1/map/400000000" target="_blank" rel="noreferrer noopener">Pantheon</a>
-                <ul>
-                    <li><strong>Main Rewards</strong>: <img src="/images/equipment/detective-raves-honorary-assistant.png" alt="Eqp Detective Rave's Honorary Assistant"/> [Medal]</li>
-                </ul>
-                </li>
-                <li> <img src="/images/map-icons/fox-valley.png" alt="MapIcon Fox Valley"/> <strong>[Lv. 185] </strong><a href="https://maplestorywiki.net/w/Category:Fox_Valley" target="_blank" rel="noreferrer noopener"><strong>Fox Valley</strong></a>: Accessible by accepting a quest in the Lightbulb icon and from <a href="https://maplestory.wiki/GMS/210.1.1/map/400000000" target="_blank" rel="noreferrer noopener">Pantheon</a>
-                <ul>
-                    <li><strong>Main Rewards:</strong> <img src="/images/equipment/fox-point-ranger.png" alt="Eqp Fox Point Ranger"/> [Medal]</li>
-                </ul>
-                </li>
-            </ul>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+            <DailyWeekly/>
+            <TrainingMaps/>
+            <ThemeDungeons/>
             <ArticleHeaderTwo id="quests">Quests:</ArticleHeaderTwo>
             <hr/>
             <ul>
@@ -2524,6 +2198,318 @@ function EndgameBossesFour(){
                 </li>
             </ul>
             <hr/>
+        </div>
+    );
+};
+
+function DailyWeekly(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests:</ArticleHeaderTwo>
+            <hr/>
+            <p>Daily and Weekly Quests are primarily unlocked after Lv. 200. Characters pre-200 should focus on levelling up first before worring about these quests</p>
+            <h3>Dailies</h3>
+            <ul>
+                <li><img src="/images/map-icons/lil-wonky.png" alt="Lil Wonky Pet"/> <strong>[Lv. Any] MAPLE Daily Gift</strong>: A free daily check-in gift available after defeating 300 enemies near your level 
+                    <ul>
+                        <li>There are a total of 28 check-ins and check-ins reset monthly</li>
+                        <li>Upon defeating 300 enemies, a notification will pop up, or you can open the MAPLE Daily Gift UI to claim gift</li>
+                        <li>To open the MAPLE Daily Gift UI, click the green icon with a check mark on the bottom right menu bar and then click on "Daily Gift"</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">Monster Park</a></strong>: Completing Monster Park rewards EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coins]</a> for exchanging items
+                    <ul>
+                        <li>The <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> coins can be exchanged for potion buffs <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that can be stored in storage which are useful training and bossing</li>
+                        <li>Completing Monster Park 77 times for each day of the week will reward a <img src="/images/equipment/seven-day-monster-parker.png" alt="Eqp Seven Day Monster Parker"/> <a href="https://maplestorywiki.net/w/Quests/87/(Monster_Park)_Daily_Medal_Challenge" target="_blank" rel="noreferrer noopener">[Medal]</a> that provides +10% Ignore Enemy Defense</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/maple-tour.png" alt="MapIcon Maple Tour"/> <strong>[Lv. 105+] Maple Tour</strong>: Completing Maple Tour rewards Mesos and <img src="/images/items/maple-tour-coin.png" alt="Etc Maple Tour Coin"/> [Maple Tour Coins] for exchanging items
+                    <ul>
+                        <li>Mesos are accumulated and can be retrieved 7 days later for the full amount or retrieved earlier for half the amount</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140+] <a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><span style={{color: '#ff6600'}}>[Heroic World]</span> The Far East (Yu Garden)</a></strong>: Completing The Far East storyline unlocks Daily Quests
+                    <ul>
+                        <li><strong>Main Reward</strong>: <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [Epic Potential Scrolls] in Heroic Worlds only</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey storyline unlocks Daily Quests
+                    <ul>
+                        <li><strong>Main Reward</strong>: <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon Chu Chu Island"/> <strong>[Lv. 210+] <a href="https://maplestorywiki.net/w/Category:Chu_Chu_Island" target="_blank" rel="noreferrer noopener">Arcane River - Chu Chu Island</a></strong>: Completing the Chu Chu Island storyline unlocks Daily Quests
+                    <ul>
+                        <li><strong>Main Reward</strong>: <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <strong>[Lv. 220+] <a href="https://maplestorywiki.net/w/Category%3ALachelein" target="_blank" rel="noreferrer noopener">Arcane River - Lachelein</a></strong>: Completing the Lachelein storyline unlocks Daily Quests
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong> [Lv. 225+] <a href="https://maplestorywiki.net/w/Category:Arcana" target="_blank" rel="noreferrer noopener">Arcane River - Arcana</a></strong>: Completing the Arcana storyline unlocks Daily Quests
+                    <ul>
+                        <li><strong>Main Rewards: </strong> <img src="/images/equipment/arcane-symbol-arcana.png" alt="Eqp Arcane Symbol Arcana"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong>[Lv. 230+] <a href="https://maplestorywiki.net/w/Category%3AMorass" target="_blank" rel="noreferrer noopener">Arcane River - Morass</a></strong>: Completing the Morass storyline unlocks Daily Quests
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/arcane-symbol-morass.png" alt="Eqp Arcane Symbol Morass"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong>[Lv. 235+] <a href="https://maplestorywiki.net/w/Category:Esfera" target="_blank" rel="noreferrer noopener">Arcane River - Esfera</a></strong>: Completing the Esfera storyline unlocks Daily Quests
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong>[Lv. 245+] <a href="https://maplestorywiki.net/w/Quests/224/(Daily_Quest)_Tenebris_Research" target="_blank" rel="noreferrer noopener">Tenebris - Moonbridge</a></strong>: Completing the Moonbridge storyline unlocks Daily Quests
+                    <ul>
+                        <li>More daily quests are available after completing the Labyrinth of Suffering and Limina storylines</li>
+                        <li><strong>Main Rewards</strong>: <img src="/images/items/spark-of-determination.png" alt="Etc Spark of Determination"/> [Spark of Determination]</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Weeklies</h3>
+            <ul>
+                <li><img src="/images/map-icons/haven.png" alt="MapIcon Scrapyard"/> <strong>[Lv. 190+] <a href="https://maplestorywiki.net/w/Category:Scrapyard" target="_blank" rel="noreferrer noopener">Scrapyard</a></strong>: No pre-quests
+                    <ul>
+                        <li>Weekly Quests reward <img src="/images/items/diffusion-line-energy-core.png" alt="Etc Diffusion-Line Energy Core (Grade A)"/> [Diffusion-Line Energy Core (Grade A)] that are used to create <img src="/images/items/absolab-coin.png" alt="Etc AbsoLab Coin"/> [AbsoLab Coins] to buy <img src="/images/equipment/absolab-knight-shoes.png" alt="Eqp AbsoLab Knight Shoes"/> <img src="/images/equipment/absolab-knight-gloves.png" alt="Eqp AbsoLab Knight Gloves"/> <img src="/images/equipment/absolab-knight-cape.png" alt="Eqp AbsoLab Knight Cape"/> <img src="/images/equipment/absolab-saber.png" alt="Eqp AbsoLab Saber"/> [<em>(Shoe/Glove/Cape/Weapon)</em> AbsoLab Gear]</li>
+                        <li>Enemies in this area also drop <img src="/images/items/diffusion-line-energy-core.png" alt="Etc Diffusion-Line Energy Core (Grade A)"/></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/dark-world-tree.png" alt="MapIcon Dark World Tree"/> <strong>[Lv. 190+] <a href="https://maplestorywiki.net/w/Category:Dark_World_Tree" target="_blank" rel="noreferrer noopener">Dark World Tree</a></strong>: No pre-quests
+                    <ul>
+                        <li>Weekly Quests reward <img src="/images/items/faint-stigma-spirit-stone.png" alt="Etc Faint Stigma Spirit Stone"/> [Faint Stigma Spirit Stone] that are used to create <img src="/images/items/stigma-coin.png" alt="Etc Stigma Coin"/> [Stigma Coins] to buy for <img src="/images/equipment/absolab-knight-helm.png" alt="Eqp AbsoLab Knight Helm"/> <img src="/images/equipment/absolab-knight-suit.png" alt="Eqp AbsoLab Knight Suit"/> <img src="/images/equipment/absolab-knight-shoulder.png" alt="Eqp AbsoLab Knight Shoulder"/> <img src="/images/equipment/absolab-saber.png" alt="Eqp AbsoLab Saber"/> [<em>(Hat/Overall/Shoulder/Weapon)</em> AbsoLab Gear]</li>
+                        <li>Monsters in this area also drop <img src="/images/items/faint-stigma-spirit-stone.png" alt="Etc Faint Stigma Spirit Stone"/></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Category:Vanishing_Journey" target="_blank" rel="noreferrer noopener">Arcane River - Vanishing Journey</a></strong>: Completing the Vanishing Journey Daily twice rewards Nodestones
+                    <ul>
+                        <li><strong>Main Reward</strong>: <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestory.wiki/GMS/215/item/2435719" target="_blank" rel="noreferrer noopener">[Nodestones]</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/vanishing-journey.png" alt="MapIcon Vanishing Journey"/> <strong>[Lv. 200+] <a href="https://maplestorywiki.net/w/Erda_Spectrum" target="_blank" rel="noreferrer noopener">[Party Quest] Erda Spectrum</a></strong>: Unlocked after completing the Vanishing Journey storyline. Requires 1-3 party members to enter. There are 2 stages and the objective to help Nina conduct research
+                    <ul>
+                        <li><strong>Main Reward</strong>: <img src="/images/equipment/arcane-symbol-vanishing-journey.png" alt="Eqp Arcane Symbol Vanishing Journey"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/chu-chu-island.png" alt="MapIcon Chu Chu Island"/> <strong>[Lv. 210+] <a href="https://maplestorywiki.net/w/Category:Hungry_Muto" target="_blank" rel="noreferrer noopener">[Party Quest] Hungry Muto</a></strong>: Unlocked after completing the Chu Chu Island storyline. Requires 1-4 party members to enter. The main objective is to gather ingredients from monsters to create dishes to feed Muto
+                    <ul>
+                        <li><strong>Main Reward</strong>: <img src="/images/equipment/arcane-symbol-chu-chu-island.png" alt="Eqp Arcane Symbol Chu Chu Island"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <strong>[Lv. 220+] <a href="https://maplestorywiki.net/w/Midnight_Chaser" target="_blank" rel="noreferrer noopener">Midnight Chaser</a></strong>: This activity can only be entered alone. The objective is to locate objects scattered around a series of maps
+                    <ul>
+                        <li>
+                            <strong>Main Rewards</strong>: <img src="/images/equipment/arcane-symbol-lachelein.png" alt="Eqp Arcane Symbol Lachelein"/> [Arcane Symbols]
+                        </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/arcana.png" alt="MapIcon Arcana"/> <strong>[Lv. 225+] <a href="https://maplestorywiki.net/w/Spirit_Savior" target="_blank" rel="noreferrer noopener">Spirit Savior</a></strong>: This activity can only be entered alone. The objective is to save Rock Spirits that have been kidnapped while avoiding an evil spirit that chases you
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/arcane-symbol-arcana.png" alt="Eqp Arcane Symbol Arcana"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/morass.png" alt="MapIcon Morass"/> <strong>[Lv. 230+] <a href="https://maplestorywiki.net/w/Ranheim_Defense" target="_blank" rel="noreferrer noopener">Ranheim Defense</a></strong>: This activity can only be entered alone. The objective is to defend a pillar on the middle of the map from invading enemies
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/arcane-symbol-morass.png" alt="Eqp Arcane Symbol Morass"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/esfera.png" alt="MapIcon Esfera"/> <strong>[Lv. 235+] <a href="https://maplestorywiki.net/w/Esfera_Guardian" target="_blank" rel="noreferrer noopener">Esfera Guardian</a></strong>: This activity can only be entered alone. The objective is to destroy dimensional gates using a turret to aim and shoot
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/arcane-symbol-esfera.png" alt="Eqp Arcane Symbol Esfera"/> [Arcane Symbols]</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr/>
+            <h3>Optional:</h3>
+            <p>Quests here have rewards that are not required for most players</p>
+            <ul>
+                <li><img src="/images/map-icons/commerci.png" alt="MapIcon Commerci"/> <strong>[Lv. 140+] <a href="https://strategywiki.org/wiki/MapleStory/Commerci_Trade_Voyages" target="_blank" rel="noreferrer noopener">[Daily] Commerci Voyages</a></strong>: Unlocked after reaching the town of San Commerci. Completing trade voyages reward <img src="/images/items/commerci-denaro.png" alt="Etc Commerci Denaro"/> <a href="https://maplestorywiki.net/w/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaro]</a>
+                    <ul>
+                        <li>Denaros are used to buy <img src="/images/equipment/sweetwater-monocle.png" alt="Eqp Sweetwater Monocle"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1012438" target="_blank" rel="noreferrer noopener">[Sweetwater Monocle]</a> and <img src="/images/equipment/sweetwater-tattoo.png" alt="Eqp Sweetwater Tattoo"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022211" target="_blank" rel="noreferrer noopener">[Sweetwater Tattoo]</a> from <a href="https://maplestorywiki.net/w/Javert" target="_blank" rel="noreferrer noopener">Javert</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/kritias.png" alt="MapIcon Kritias"/> <strong>[Lv. 170+] [Weekly] Kritias</strong>: Unlocked after completing the Kritias storyline
+                    <ul>
+                        <li>Weekly Quests reward <img src="/images/items/anti-magic-stone.png" alt="Etc Anti-magic Stone"/> <a href="https://maplestorywiki.net/w/Anti-magic_Stone" target="_blank" rel="noreferrer noopener">[Anti-magic Stone]</a> and <img src="/images/items/anti-magic-stone-piece.png" alt="Use Anti-magic Stone Piece"/> <a href="https://maplestorywiki.net/w/Anti-magic_Stone_Piece" target="_blank" rel="noreferrer noopener">[Anti-magic Stone Piece]</a> that are used to create <img src="/images/items/kritias-commemorative-coin.png" alt="Etc Kritias Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Keilbarren" target="_blank" rel="noreferrer noopener">[Kritias Commemorative Coins]</a> to buy <img src="/images/equipment/tyrant-hyades-gloves.png" alt="Eqp Tyrant Hyades Gloves"/> [Tyrant Gloves] and <img src="/images/items/hard-magnus-reset-ticket.png" alt="Use Hard Magnus Reset Ticket"/> <img src="/images/items/chaos-vellum-reset-ticket.png" alt="Use Chaos Vellum Reset Ticket"/> [Weekly Boss Reset Tickets]</li>
+                        <li>For more info on Kritias, check out: <a href="https://dexless.com/guides/kritias-everything-you-need-to-know-about-it.217/" target="_blank" rel="noreferrer noopener">https://dexless.com/guides/kritias-everything-you-need-to-know-about-it.217/</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonheart Castle"/> <strong>[Lv. 180+] <a href="https://maplestorywiki.net/w/Category:Crimsonwood" target="_blank" rel="noreferrer noopener">[Daily] Crimsonwood - Phantom Forest</a></strong>: Completing the Phantom Forest storyline unlocks Daily Quests that reward <img src="/images/items/raven-ninja-coin.png" alt="Etc Raven Ninja Coin"/> <a href="https://maplestorywiki.net/w/Raven_Ninja_Coin" target="_blank" rel="noreferrer noopener">[Raven Ninja Coins]</a> and <img src="/images/items/shadowknight-coin.png" alt="Etc Shadowknight Coin"/> <a href="https://maplestorywiki.net/w/Shadowknight_Coin" target="_blank" rel="noreferrer noopener">[Shadowknight Coins]</a> to buy items from Mo and Fiona in the Phantom Forest
+                    <ul>
+                        <li><strong>Main Rewards: </strong> <img src="/images/equipment/numenals-willpower.png" alt="Eqp Numenal's Willpower"/> <img src="/images/equipment/glonas-heart.png" alt="Eqp Glona's Heart"/> <img src="/images/equipment/legacy-of-light.png" alt="Eqp Legacy of Light"/> <img src="/images/equipment/legacy-of-darkness.png" alt="Eqp Legacy of Darkness"/> <img src="/images/equipment/delgrunds-honor.png" alt="Eqp Delgrund's Honor"/> <img src="/images/equipment/lirenis-wish.png" alt="Eqp Lireni's Wish"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Masteria%27s_Legacy" target="_blank" rel="noreferrer noopener">[Masteria's Legacy Gear]</a>, <img src="/images/equipment/white-identity.png" alt="Eqp White Identity"/> <img src="/images/equipment/crystal-leaf-earrings.png" alt="Eqp Crystal Leaf Earrings"/> <img src="/images/equipment/ravens-beak.png" alt="Eqp Raven's Beak"/> <a href="https://maplestorywiki.net/w/Mo" target="_blank" rel="noreferrer noopener">[iTCG Gear]</a>, <img src="/images/items/balanced-fury.png" alt="Use Balanced Fury"/> <a href="https://maplestorywiki.net/w/Balanced_Fury" target="_blank" rel="noreferrer noopener">[Balanced Fury]</a>, <img src="/images/items/crystal-ilbi.png" alt="Use Crystal Ilbi Throwing-Stars"/> <a href="https://maplestorywiki.net/w/Crystal_Ilbi_Throwing-Stars" target="_blank" rel="noreferrer noopener">[Crystal Ilbis]</a></li>
+                    </ul>
+                </li>
+                <li><strong>[Daily] <a href="https://maplestorywiki.net/w/Legion_System" target="_blank" rel="noreferrer noopener">Legion System</a></strong>: Completing quests reward <img src="/images/items/legion-coin.png" alt="Etc Legion Coin"/> <a href="https://maplestorywiki.net/w/Legion_Coin" target="_blank" rel="noreferrer noopener">[Legion Coins]</a></li>
+            </ul>
+        </div>
+    );
+};
+
+function TrainingMaps(){
+    SwiperCore.use([Scrollbar, Mousewheel]);
+
+    // Create search query object that searches our data by looking at the question and tags
+    const fuse = new Fuse(maps, {keys: ["level", "mapName", "area"]});
+    // Used to store what's typed into search bar
+    const [searchTerm, setSearchTerm] = React.useState("");
+
+    // Custom filtering function, return original if search query returns nothing (len = 0)
+    const searchQuery = (term) => {
+        const results = fuse.search(term);
+        if(results.length){
+            return results;
+        }
+        return maps;
+    }
+
+    return(
+        <div>
+            <ArticleHeaderTwo id="training">Training Maps:</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/world-map-ui.png" alt="World Map"/>
+            <p>Below is a list of suggested training maps. To find out how to navigate to a specific map, open your World Map (W by default) and search for the desired map on the right-hand side. Clicking on an entry will direct you to the map and start blinking</p>
+            <p>Special thanks to Proof#8868 for the list of training maps. Click <a href="https://docs.google.com/spreadsheets/d/1QqtsUcnB5WBMGplKvpJI3qZQYAR5HSKn7VdHsJvRTtg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here</a> for a Google Sheets version of the training maps</p>
+            <p><em>*Search function may not be 100% reliable</em></p>
+            <TrainingMapSearchWrapper><TrainingMapSearch className="faq-search" type="text" placeholder="Search" onChange={event => setSearchTerm((event.target.value))}></TrainingMapSearch></TrainingMapSearchWrapper>
+            <TrainingMapSwiper
+                scrollbar={{ draggable: true, hide: true }}
+                spaceBetween={10}
+                slidesPerView="auto"
+                direction="vertical"
+                freeMode
+                mousewheel
+                >
+                    {
+                        // Since fuse returns a slightly different object, we need to use a ternary to adjust based on if the original is returned or the filtered is returned
+                        searchQuery(searchTerm).map((map, index) =>
+                        <SwiperSlide key={index}>
+                            <TrainingMap level={map.level ? map.level : map.item.level} icon={map.icon ? map.icon : map.item.icon} mapName={`${map.area ? map.area : map.item.area} - ${map.mapName ? map.mapName : map.item.mapName}`} mapLink={map.mapLink ? map.mapLink : map.item.mapLink}/>
+                        </SwiperSlide>
+                        )
+                    }
+            </TrainingMapSwiper>
+        </div>
+    );
+};
+
+function ThemeDungeons(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="themedungeon">Theme Dungeons:</ArticleHeaderTwo>
+            <hr/>
+            <ul>
+                <li> <img src="/images/map-icons/ellinel.png" alt="MapIcon Ellinel"/> <strong>[Lv. 30 - 59] </strong><a href="https://maplestorywiki.net/w/Category:Ellinel" target="_blank" rel="noreferrer noopener"><strong>Ellinel Fairy Academy</strong></a>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                    <ul>
+                        <li><strong>Main Rewards</strong>:  <img src="/images/items/meso.png" alt="Meso"/> [1 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/ellinel-wings.png" alt="Eqp Ellinel Wings"/> <a href="https://maplestory.wiki/GMS/215/item/1102590" target="_blank" rel="noreferrer noopener">[Cape]</a>, <img src="/images/equipment/ellinel-bracelet.png" alt="Eqp Ellinel Bracelet"/> [Glove], <img src="/images/equipment/fairy-mark.png" alt="Eqp Fairy Mark"/> <a href="https://maplestory.wiki/GMS/215/item/1022254" target="_blank" rel="noreferrer noopener">[Eye Accessory]</a>, <img src="/images/equipment/honorary-fairy-professor.png" alt="Eqp Honorary Fairy Professor"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/gold-beach.png" alt="MapIcon Gold Beach"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener">Gold Beach Resort</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/items/meso.png" alt="Meso"/> [1 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/octopus-earrings.png" alt="Eqp Octopus Earrings"/> <a href="https://maplestory.wiki/GMS/215/item/1032254" target="_blank" rel="noreferrer noopener">[Earrings]</a>, <img src="/images/equipment/beach-bum.png" alt="Eqp Beach Bum"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/riena-strait.png" alt="MapIcon Riena Strait"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Riena_Strait" target="_blank" rel="noreferrer noopener">Riena Strait</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                    <ul>
+                        <li><strong>Main Rewards:</strong>  <img src="/images/items/meso.png" alt="Meso"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/sailor-mask.png" alt="Eqp Sailor Mask"/> <a href="https://maplestory.wiki/GMS/215/item/1012389" target="_blank" rel="noreferrer noopener">[Face Accessory]</a>, <img src="/images/equipment/sailor-belt.png" alt="Eqp Sailor Belt"/> <a href="https://maplestory.wiki/GMS/215/item/1132292" target="_blank" rel="noreferrer noopener">[Belt]</a>, <img src="/images/equipment/deckhand.png" alt="Eqp Deckhand"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong> [Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Elodin" target="_blank" rel="noreferrer noopener">Secret Forest of Elodin</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/elodin-bird-dog.png" alt="Eqp Elodin Bird Dog"/> [Medal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/mushroom-castle.png" alt="MapIcon Mushroom Castle"/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">Mushroom Kingdom</a>: </strong>Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/items/meso.png" alt="Meso"/> [3 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/violettas-knight.png" alt="Eqp Violetta's Knight"/> [Medal], <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1102689" target="_blank" rel="noreferrer noopener">[Heavy Violetta Cape]</a><a href="https://maplestory.wiki/GMS/215/item/1142629" target="_blank" rel="noreferrer noopener">, </a> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1122321" target="_blank" rel="noreferrer noopener">[Shackles of Love]</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/afterlands.png" alt="MapIcon Afterlands"/> <strong>[Lv. 75] <a href="https://maplestorywiki.net/w/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">The Afterlands</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
+                    <ul>
+                        <li>An easy way to obtain 3 permanent Totem equipment</li>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/beodog-figurine.png" alt="Eqp Beodog Figurine"/> <img src="/images/equipment/billy-figurine.png" alt="Eqp Billy Figurine"/> <img src="/images/equipment/adler-figurine.png" alt="Eqp Adler Figurine"/> <img src="/images/equipment/mansa-figurine.png" alt="Eqp Mansa Figurine"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Afterlands_Souvenir" target="_blank" rel="noreferrer noopener">[Afterlands Totems]</a></li>
+                        <li>The Afterlands is known to be slightly buggy or frustrating to complete but provide some easy Totems</li>
+                        <li>Here is a guide: <a href="https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/" target="_blank" rel="noreferrer noopener">https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/</a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon Mushroom Shrine"/> <strong>[Lv. 100] </strong><a href="https://maplestorywiki.net/w/Category:Mushroom_Shrine" target="_blank" rel="noreferrer noopener"><strong>Mushroom Shrine Tales</strong></a>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
+                    <ul>
+                        <li>Upon completing the storyline, the <img src="/images/equipment/wings-of-fate.png" alt="Eqp Wings of Fate"/> <a href="https://maplestorywiki.net/w/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Wings of Fate]</a> cape is rewarded with goods stats but it is tedious to obtain as the storyline is long
+                            <ul>
+                                <li>The cape can be reobtained at no cost if discarded thus useful for rerolling bonus stats</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon Lion King's Castle"/> <strong>[Lv. 115] <a href="https://maplestorywiki.net/w/Category%3ALion_King's_Castle" target="_blank" rel="noreferrer noopener">[Pre-Quest] Lion King's Castle</a></strong>: Accessible from a quest in your Lightbulb tab and from traveling from <a href="https://maplestory.wiki/GMS/210.1.1/map/211040600" target="_blank" rel="noreferrer noopener">El Nath</a>, Completing this Theme Dungeon grants access to the boss <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/heart-of-a-lion.png" alt="Eqp Heart of a Lion"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/korean-folk-town.png" alt="MapIcon Korean Folk Town"/> <strong>[Lv. 130] <a href="https://maplestorywiki.net/w/Category:Korean_Folk_Town" target="_blank" rel="noreferrer noopener">Korean Folk Town</a></strong>: Accessible by accepting a quest in your Lightbulb icon or by traveling from <a href="https://maplestorywiki.net/w/Helios_Tower_(100th_Floor)" target="_blank" rel="noreferrer noopener">Ludibrium</a> or <a href="https://maplestorywiki.net/w/The_Sharp_Unknown" target="_blank" rel="noreferrer noopener">Aqua Road</a>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/like-clouds-and-winds.png" alt="Eqp Like Clouds and Winds"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/golden-temple.png" alt="MapIcon Golden Temple"/> <strong> [Lv. 130] <a href="https://maplestorywiki.net/w/Category:Golden_Temple" target="_blank" rel="noreferrer noopener">Golden Temple</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/ravanas-golden-crown.png" alt="Eqp Ravana's Golden Crown"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1003455" target="_blank" rel="noreferrer noopener">[Ravana's Golden Crown]</a>, <img src="/images/equipment/seeker-of-gilded-truth.png" alt="Eqp Seeker of Gilded Truth"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonheart Castle"/> <strong> [Lv. 130] <a href="https://maplestorywiki.net/w/Category:Tynerum" target="_blank" rel="noreferrer noopener">Crimsonheart Castle</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/crimsonheart-savior.png" alt="Eqp Crimsonheart Savior"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/partem-ruins.png" alt="MapIcon Partem"/> <strong>[Lv. 135] </strong><strong>Partem Ruins</strong>: Accessible initially from a quest in your Lightbulb icon and from Partem in <a href="https://maplestorywiki.net/w/Spore_Hill" target="_blank" rel="noreferrer noopener">Henesys</a>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>The Far East (Yu Garden)</strong></a>: Accessible from <a href="https://maplestory.wiki/GMS/210.1.1/map/104020000" target="_blank" rel="noreferrer noopener">Six Path Crossway</a>
+                    <ul>
+                        <li>Completing the questline unlocks daily quests that reward <img src="/images/items/yu-garden-coin.png" alt="Etc Yu Garden Coin"/> [Yu Garden Coins] used to exchange items</li>
+                        <li><strong>Main Rewards</strong>: <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [<em>(Heroic World Only)</em> Epic Potential Scroll], <img src="/images/equipment/horseback-riding-doll-totem.png" alt="Eqp Horseback Riding Doll Totem"/> <img src="/images/equipment/jade-kettle-totem.png" alt="Eqp Jade Kettle Totem"/> <img src="/images/equipment/bronze-incense-burner-totem.png" alt="Eqp Bronze Incense Burner Totem"/> [Totems]</li>
+                        <li>An in-depth guide to the Yu Garden dailies: <a href="https://www.reddit.com/r/Maplestory/comments/62tld2/guide_for_yu_garden_dailies_reboot_daily_epic_pot/" target="_blank" rel="noreferrer noopener">  https://www.reddit.com/r/Maplestory/comments/62tld2/guide_for_yu_garden_dailies_reboot_daily_epic_pot/ </a></li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/commerci.png" alt="MapIcon Commerci"/> <strong>[Lv. 140] <a href="https://maplestorywiki.net/w/Category:Commerci_Republic" target="_blank" rel="noreferrer noopener">Commerci</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>  and Dimensional Mirror. Grants access to the Commerci Merchant Union PQ after a completing a series of quests here
+                    <ul>
+                        <li>Upon reaching the town of San Commerci, Trade Voyages is unlocked with rewards such as <img src="/images/equipment/sweetwater-sword.png" alt="Eqp Sweetwater Axe"/> <img src="/images/equipment/sweetwater-hat.png" alt="Eqp Sweetwater Hat"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Sweetwater_Set" target="_blank" rel="noreferrer noopener">[Sweetwater Gear]</a> and <img src="/images/equipment/sweetwater-tattoo.png" alt="Eqp Sweetwater Tattoo"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1012438" target="_blank" rel="noreferrer noopener">[Sweetwater Tattoo]</a>, <img src="/images/equipment/sweetwater-monocle.png" alt="Eqp Sweetwater Monocle"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/1022211" target="_blank" rel="noreferrer noopener">[Sweetwater Monocle]</a></li>
+                        <li>Additionally, in San Commerci, Transposing is unlocked
+                            <ul><li>For more info on Transposing, check out <a href="https://www.youtube.com/watch?v=oDXiz0x0hV0" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=oDXiz0x0hV0</a></li></ul>
+                        </li>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/commercis-forever-friend.png" alt="Eqp Commerci's Forever-Friend"/> [Medal], <img src="/images/equipment/commerci-hat.png" alt="Eqp Commerci Hat"/> <img src="/images/equipment/commerci-suit.png" alt="Eqp Commerci Suit"/> <img src="/images/equipment/commerci-boots.png" alt="Eqp Commerci Boots"/> <img src="/images/equipment/commerci-gloves.png" alt="Eqp Commerci Gloves"/> <img src="/images/equipment/commerci-cape.png" alt="Eqp Commerci Cape"/> <img src="/images/equipment/commerci-belt.png" alt="Eqp Commerci Belt"/> <img src="/images/equipment/commerci-shoulder.png" alt="Eqp Commerci Shoulder"/> <img src="/images/equipment/devils-sunrise.png" alt="Eqp Devil's Sunrise"/>[Commerci Equipment]</li>
+                    </ul>
+                </li>
+                <li> <img src="/images/map-icons/kerning-tower.png" alt="MapIcon Kerning Tower"/> <strong>[Lv. 145] <a href="https://maplestorywiki.net/w/Category:Kerning_Tower" target="_blank" rel="noreferrer noopener">Kerning Tower</a></strong>: Accessible by completing a quest in your Lightbulb icon and from <a href="https://maplestory.wiki/GMS/210.1.1/map/103000000" target="_blank" rel="noreferrer noopener">Kerning City</a>
+                    <ul>
+                        <li><strong>Main Reward</strong>: <img src="/images/equipment/jackpot-entertainment-co-ceo.png" alt="Eqp Jackpot Entertainment Co-CEO"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/stone-colossus.png" alt="MapIcon Stone Colossus"/> <strong>[Lv. 150]</strong>  <a href="https://maplestorywiki.net/w/Category:Stone_Colossus" target="_blank" rel="noreferrer noopener"><strong>Stone Colossus</strong></a>: Accessible from <a href="https://maplestorywiki.net/w/Forest_:_Crossroad" target="_blank" rel="noreferrer noopener">Leafre</a>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/colossal.png" alt="Eqp Colossal"/> [Medal], <img src="/images/items/kupos-ride-coupon.png" alt="Use Kupo's Ride Coupon"/> [Mount], <img src="/images/equipment/halflinger-expedition-badge.png" alt="Eqp Halflinger Expedition Badge"/> [Badge]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/omega-sector.png" alt="MapIcon Omega Sector"/> <strong> [Lv. 165] <a href="https://maplestorywiki.net/w/Category:Omega_Sector" target="_blank" rel="noreferrer noopener">Omega Sector</a></strong>: Accessible initially by accepting a quest in the Lightbulb icon or from <a href="https://maplestory.wiki/GMS/210.1.1/map/220000400" target="_blank" rel="noreferrer noopener">Ludibrium Eos Tower</a>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/white-m-forcer.png" alt="Eqp White M-Forcer"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/savage-terminal.png" alt="MapIcon Savage Terminal"/> <strong>[Lv. 175] </strong><strong>Detective Rave's Case Notes: </strong>Accessible initially from accepting a quest in your Lightbulb icon or from <a href="https://maplestory.wiki/GMS/210.1.1/map/400000000" target="_blank" rel="noreferrer noopener">Pantheon</a>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/detective-raves-honorary-assistant.png" alt="Eqp Detective Rave's Honorary Assistant"/> [Medal]</li>
+                    </ul>
+                </li>
+                <li><img src="/images/map-icons/fox-valley.png" alt="MapIcon Fox Valley"/> <strong>[Lv. 185] </strong><a href="https://maplestorywiki.net/w/Category:Fox_Valley" target="_blank" rel="noreferrer noopener"><strong>Fox Valley</strong></a>: Accessible by accepting a quest in the Lightbulb icon and from <a href="https://maplestory.wiki/GMS/210.1.1/map/400000000" target="_blank" rel="noreferrer noopener">Pantheon</a>
+                    <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/fox-point-ranger.png" alt="Eqp Fox Point Ranger"/> [Medal]</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     );
 };
