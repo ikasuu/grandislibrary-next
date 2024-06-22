@@ -33,7 +33,8 @@ export class SingleSkill extends Component {
         this._isMounted = true;
         axiosRetry(axios, { retries: 5 }); //Retries request up to 5 times if request fails
         //Execute call then store it in the state
-        axios.get(`https://maplestory.io/api/GMS/${version}/job/skill/${skillData.id}`)
+        if(!skillData.offline){
+            axios.get(`https://maplestory.io/api/GMS/${version}/job/skill/${skillData.id}`)
             .then(response => {
                 if(this._isMounted){
                     const skillData = [];
@@ -45,6 +46,11 @@ export class SingleSkill extends Component {
                 }
             })
             .catch(err => console.log(err));
+        }else{
+            this.setState({
+                loading: false
+            });
+        }
     }
 
     componentWillUnmount(){
@@ -53,17 +59,27 @@ export class SingleSkill extends Component {
     }
 
     render() {
-        const { loading, retrievedData } = this.state
+        const { loading, retrievedData, skillData } = this.state
         return (
             <div>
             {
                 loading ? <div style={{margin: '2rem 40% 2rem 40%'}}><Image src={loadingImage}/><div style={{paddingLeft: '0.5rem'}}>Loading!</div></div> : 
                 <div>
                 {
+                    skillData.offline ? 
+                    <div key={skillData.id}>
+                        <SkillInfo 
+                            skillData={skillData}
+                            name={skillData.name}
+                            desc={skillData.desc}
+                            shortDesc={skillData.shortDesc}
+                            properties={""} 
+                            maxLevel={skillData.maxLevel}/>
+                    </div> :
                     retrievedData.map((skill, index) => 
                         <div key={skill.description.id}>
                             <SkillInfo 
-                                skillData={this.state.skillData}
+                                skillData={skillData}
                                 name={skill.description.name}
                                 desc={skill.description.desc}
                                 shortDesc={skill.description.shortDesc}

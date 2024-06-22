@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 250; 
-export const versionName = "Mayple Island"
+export const version = 251; 
+export const versionName = "GO WEST!"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
@@ -808,6 +808,10 @@ export const linkSkills = {
     },
     angelicBuster: {
         "id": 80001155,
+        "offline": true,
+        "name": "Terms and Conditions",
+        "shortDesc": "Duration: 10 sec, Damage: +60%\\nCooldown: 60 sec",
+        "maxLevel": 3,
         "icons": ["/class-icons/link-skills/terms-and-conditions.png"],
         "type": "Buff",
         "desc": "",
