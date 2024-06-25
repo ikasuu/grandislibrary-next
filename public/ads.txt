@@ -1,4 +1,4 @@
-#  Updated: 2024-06-20 10:27:54
+#  Updated: 2024-06-24 15:46:25
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -228,9 +228,8 @@ openx.com, 538959099, RESELLER, 6a698e2ec38604c6
 openx.com, 539870614, DIRECT, 6a698e2ec38604c6
 openx.com, 540258065, RESELLER, 6a698e2ec38604c6
 openx.com, 540274407, RESELLER, 6a698e2ec38604c6
-openx.com, 540447791, RESELLER, 6a698e2ec38604c6
+openx.com, 540447791, DIRECT, 6a698e2ec38604c6
 openx.com, 540862677, RESELLER, 6a698e2ec38604c6
-openx.com, 540886248, DIRECT, 6a698e2ec38604c6
 openx.com, 541017750, RESELLER, 6a698e2ec38604c6
 openx.com, 543174347, RESELLER, 6a698e2ec38604c6
 openx.com, 543878511, RESELLER, 6a698e2ec38604c6
