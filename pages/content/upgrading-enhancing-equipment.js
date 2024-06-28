@@ -64,7 +64,7 @@ function UpgradeEquipment() {
                   <img src="/images/items/prime-scroll.png" alt="Use Prime Scroll"/> <strong>[9th Anniversary Prime Scrolls]: </strong>Grants +3 all stats and Weapon Prime Scrolls provide +10 Attack and Magic Attack. Has a 40% chance to
                   succeed and 30% to destroy item on failure. Scrolling with these scrolls is also referred to as <strong>Priming</strong>
                   <ul>
-                    <li> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2613042" target="_blank">One-Handed Weapon</a>, <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2612043" target="_blank">Two-Handed Weapon</a>, <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2615026" target="_blank">Accessory</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2616057" target="_blank">Armor</a>
+                    <li> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/251/item/2613042" target="_blank">One-Handed Weapon</a>, <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/251/item/2612043" target="_blank">Two-Handed Weapon</a>, <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/251/item/2615026" target="_blank">Accessory</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/251/item/2616057" target="_blank">Armor</a>
                     </li>
                     <li>Obtainable from Marvel Machine</li>
                   </ul>
@@ -76,10 +76,10 @@ function UpgradeEquipment() {
                   also Pet Equip scrolls that grant 5 to 7 Attack or Magic Attack
                   <ul>
                     <li>
-                        <strong>[Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2613050" target="_blank" rel="noreferrer noopener">One-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2612061" target="_blank" rel="noreferrer noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noreferrer noopener">Pet Equip</a>
+                        <strong>[Attack]: </strong><a href="https://maplestory.wiki/GMS/251/item/2613050" target="_blank" rel="noreferrer noopener">One-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/251/item/2612061" target="_blank" rel="noreferrer noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/251/item/2048817" target="_blank" rel="noreferrer noopener">Pet Equip</a>
                     </li>
                     <li>
-                        <strong>[Magic Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noreferrer noopener">One-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2612062" target="_blank" rel="noreferrer noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2048818" target="_blank" rel="noreferrer noopener">Pet Equip</a>
+                        <strong>[Magic Attack]: </strong><a href="https://maplestory.wiki/GMS/251/item/2048817" target="_blank" rel="noreferrer noopener">One-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/251/item/2612062" target="_blank" rel="noreferrer noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/251/item/2048818" target="_blank" rel="noreferrer noopener">Pet Equip</a>
                     </li>
                     <li>These scrolls are usually obtained from Marvel Machine and rarely from Maplehood Watch</li>
                   </ul>
@@ -112,13 +112,13 @@ function UpgradeEquipment() {
                   <img src="/images/items/potential-scroll.png" alt="Use Potential Scroll"/><img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/><img src="/images/items/unique-potential-scroll.png" alt="Use Unique Potential Scroll"/><img src="/images/items/legendary-potential-scroll.png" alt="Use Legendary Potential Scroll"/><img src="/images/items/bonus-potential-scroll.png" alt="Use Bonus Potential Scroll"/><strong>
                   [Potential Scrolls]: </strong>These scrolls provide a <strong> potential for gear</strong>. When used, if an item does not have a potential, it will gain one on success. Or, there are certain ones that give <strong>Epic, Unique, and Legendary potential</strong>. There is also one that provides <strong>Bonus Potential</strong> which is extra potential on top of your current potential on your item (refer to the top image [14]).
                   <ul>
-                      <li> <a href="https://maplestory.wiki/GMS/210.1.1/item/2049401" target="_blank" rel="noreferrer noopener">Regular Potential</a> and <a href="https://maplestory.wiki/GMS/210.1.1/item/2049705" target="_blank" rel="noreferrer noopener">Epic Potential</a> scrolls can be found normally in-game from hunting and in shops but <a href="https://maplestory.wiki/GMS/210.1.1/item/2049750" target="_blank" rel="noreferrer noopener">Unique Potential</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2049780" target="_blank" rel="noreferrer noopener">Legendary Potential</a>, and <a href="https://maplestory.wiki/GMS/210.1.1/item/2048308" target="_blank" rel="noreferrer noopener">Bonus Potential Scrolls</a> are found from things such as Gachapon, Marvel Machine, Philosopher Books or rarely from Events
+                      <li> <a href="https://maplestorywiki.net/w/Potential_Scroll" target="_blank" rel="noreferrer noopener">Regular Potential</a> and <a href="https://maplestory.wiki/GMS/251/item/2049705" target="_blank" rel="noreferrer noopener">Epic Potential</a> scrolls can be found normally in-game from hunting and in shops but <a href="https://maplestory.wiki/GMS/251/item/2049750" target="_blank" rel="noreferrer noopener">Unique Potential</a>, <a href="https://maplestory.wiki/GMS/251/item/2049780" target="_blank" rel="noreferrer noopener">Legendary Potential</a>, and <a href="https://maplestory.wiki/GMS/251/item/2048308" target="_blank" rel="noreferrer noopener">Bonus Potential Scrolls</a> are found from things such as Gachapon, Marvel Machine, Philosopher Books or rarely from Events
                       </li>
                       <li>
-                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2049407" target="_blank" rel="noreferrer noopener">Advanced Potential Scrolls</a> from <img src="/images/items/red-cube-fragment.png" alt="Use Glowing Cube Fragment"/> Glowing Cube Fragments (from using Glowing Cubes) that has a higher success rate than regular potential scrolls
+                        You can also obtain <a href="https://maplestory.wiki/GMS/251/item/2049407" target="_blank" rel="noreferrer noopener">Advanced Potential Scrolls</a> from <img src="/images/items/red-cube-fragment.png" alt="Use Glowing Cube Fragment"/> Glowing Cube Fragments (from using Glowing Cubes) that has a higher success rate than regular potential scrolls
                       </li>
                       <li>
-                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2048306" target="_blank" rel="noreferrer noopener">Special Bonus Potential Scrolls</a> from <img src="/images/items/black-cube-fragment.png" alt="Use Bright Cube Fragment"/> Bright Cube Fragments (from using Bright Cubes) that has a 100% chance to add a Bonus Potential
+                        You can also obtain <a href="https://maplestory.wiki/GMS/251/item/2048306" target="_blank" rel="noreferrer noopener">Special Bonus Potential Scrolls</a> from <img src="/images/items/black-cube-fragment.png" alt="Use Bright Cube Fragment"/> Bright Cube Fragments (from using Bright Cubes) that has a 100% chance to add a Bonus Potential
                       </li>
                   </ul>
               </li>
@@ -197,19 +197,19 @@ function UpgradeEquipment() {
             <p><strong>Note: The next few scrolls are obtained from the Cash Shop &amp; Maple Reward Shop but there are also a few that are obtainable from regular gameplay such as Elite Bosses</strong></p>
             <ul>
               <li>
-                  <img src="/images/items/protection-scroll.png" alt="Use Protection Scroll"/><strong> <a href="https://maplestory.wiki/GMS/210.1.1/item/5064000" target="_blank" rel="noreferrer noopener">[Shielding Ward]</a>: </strong>Prevents an item from
+                  <img src="/images/items/protection-scroll.png" alt="Use Protection Scroll"/><strong> <a href="https://maplestory.wiki/GMS/251/item/5064000" target="_blank" rel="noreferrer noopener">[Shielding Ward]</a>: </strong>Prevents an item from
                   being destroyed by a failed scroll (Safeguard)
               </li>
               <li>
-                  <img src="/images/items/shield-scroll.png" alt="Use Shield Scroll"/><strong> <a href="https://maplestory.wiki/GMS/210.1.1/item/5064100">[Shield Scroll]</a>: </strong>Prevents the upgrade count of an item from decreasing on a scroll
+                  <img src="/images/items/shield-scroll.png" alt="Use Shield Scroll"/><strong> <a href="https://maplestory.wiki/GMS/251/item/5064100">[Shield Scroll]</a>: </strong>Prevents the upgrade count of an item from decreasing on a scroll
                   fail
               </li>
               <li>
-                  <img src="/images/items/guardian-scroll.png" alt="Use Guardian Scroll"/><strong> <a href="https://maplestory.wiki/GMS/210.1.1/item/5064300" target="_blank" rel="noreferrer noopener">[Guardian Scroll]</a>: </strong>Prevents a scroll
+                  <img src="/images/items/guardian-scroll.png" alt="Use Guardian Scroll"/><strong> <a href="https://maplestory.wiki/GMS/251/item/5064300" target="_blank" rel="noreferrer noopener">[Guardian Scroll]</a>: </strong>Prevents a scroll
                   from being consumed if it were to fail. This is applied to equipment that can be upgraded
               </li>
               <li>
-                  <img src="/images/items/return-scroll.png" alt="Use Return Scroll"/><strong> <a href="https://maplestory.wiki/GMS/210.1.1/item/5064400">[Return Scroll]</a>: </strong>Allows you to choose between the before and after effects of a
+                  <img src="/images/items/return-scroll.png" alt="Use Return Scroll"/><strong> <a href="https://maplestory.wiki/GMS/251/item/5064400">[Return Scroll]</a>: </strong>Allows you to choose between the before and after effects of a
                   scroll when applied
               </li>
             </ul>
@@ -217,7 +217,7 @@ function UpgradeEquipment() {
             <ArticleHeaderTwo id="spelltrace"><img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing in Interactive Worlds</ArticleHeaderTwo>
             <hr/>
             <p><img src="/images/info/spell-trace-tooltip.png" alt="Spell Trace"/></p>
-            <p>Spell tracing involves using an item called <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/4001832" target="_blank">"Spell Trace"</a> to upgrade items instead of using scrolls. They also consume an upgrade slot upon success or fail. This is the main and most common way to upgrade equipment. Some common ways to get Spell Traces is to hunt monsters, Pollo Frito portals, and from events</p>
+            <p>Spell tracing involves using an item called <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Spell_Trace" target="_blank">"Spell Trace"</a> to upgrade items instead of using scrolls. They also consume an upgrade slot upon success or fail. This is the main and most common way to upgrade equipment. Some common ways to get Spell Traces is to hunt monsters, Pollo Frito portals, and from events</p>
             <p><img src="/images/info/equipment-enchant-ui.png" alt="Spell Trace UI"/><img src="/images/info/equipment-enchant-button.png" alt="Enhance a piece"/></p>
             <p>You can open the Equipment Enchant menu by either pressing "O" by default or through your inventory by pressing the <strong>red button with a hammer</strong></p>
             <p><img className="repository-image" src="/images/info/equipment-enchant-in-use.png" alt="Spell Trace in Use"/></p>
@@ -298,7 +298,7 @@ function UpgradeEquipment() {
             <p><img className="repository-image" src="/images/info/cube-chart.png" alt="Cube Chart"/></p>
             <ul>
               <li>
-                  <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2711000" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>: </strong>Rerolls potential of
+                  <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> <strong><a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>: </strong>Rerolls potential of
                   items up to EPIC
                   <ul>
                       <li>Drops from Bosses and are occasionally rewarded</li>
@@ -306,7 +306,7 @@ function UpgradeEquipment() {
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2730002" target="_blank" rel="noreferrer noopener">[Bonus Mystical Cube]</a>: </strong>Rerolls the BONUS
+                  <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <strong><a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Bonus Mystical Cube]</a>: </strong>Rerolls the BONUS
                   potential of items up to RARE
                   <ul>
                       <li>Dropped by Midgame/Lategame Bosses and also found in Event Shops</li>
@@ -314,7 +314,7 @@ function UpgradeEquipment() {
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710002" target="_blank" rel="noreferrer noopener">[Hard Cube]</a>: </strong>Rerolls
+                  <img src="/images/items/hard-cube.png" alt="Use Hard Cube"/> <strong><a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Hard Cube]</a>: </strong>Rerolls
                   potential of items up to UNIQUE
                   <ul>
                       <li>Can be crafted with Professions</li>
@@ -323,7 +323,7 @@ function UpgradeEquipment() {
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/solid-cube.png" alt="Use Solid Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710003" target="_blank" rel="noreferrer noopener">[Solid Cube]</a>: </strong>Rerolls potential of
+                  <img src="/images/items/solid-cube.png" alt="Use Solid Cube"/> <strong><a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Solid Cube]</a>: </strong>Rerolls potential of
                   items up to LEGENDARY
                   <ul>
                       <li>Can be crafted with Professions</li>
@@ -332,14 +332,14 @@ function UpgradeEquipment() {
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062009">[Glowing Cube]</a>: </strong>Rerolls potential of items up to LEGENDARY
+                  <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> <strong><a href="https://maplestorywiki.net/w/Cube">[Glowing Cube]</a>: </strong>Rerolls potential of items up to LEGENDARY
                   <ul>
                       <li>Found in the Cash Shop, Reward Points Shop and from MAPLE Daily Gift</li>
                       <li>Occasionally also found in Event Shops</li>
                   </ul>
               </li>
               <li>
-                  <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062010" target="_blank" rel="noreferrer noopener">[Bright Cube]</a>: </strong>Rerolls potential of items
+                  <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <strong><a href="https://maplestorywiki.net/w/Cube" target="_blank" rel="noreferrer noopener">[Bright Cube]</a>: </strong>Rerolls potential of items
                   up to LEGENDARY. You also have the chance to choose which potential you want, your Current one or the New one
                   <ul>
                       <li>Found in the Cash Shop, Reward Points Shop and from MAPLE Daily Gift</li>
@@ -359,10 +359,10 @@ function UpgradeEquipment() {
             <ArticleHeaderTwo id="bonus">Flames &amp; Bonus Stats</ArticleHeaderTwo>
             <p>Equipment can come with Bonus Stats. The stats can be categorized into Tiers. There are a total of 7 tiers with 7 being the highest and providing the most stat boosts. Boss Equipment & KMS equipment tends to have higher tiers of Bonus Stats compared to items outside of KMS (for example Gollux accessories & Sweetwater). More info can be found at the bottom of the page on Bonus Stats</p>
             <p>To reroll Bonus Stats, you need to use items called "Rebirth Flames". Regular rebirth flames that have a "LV. X" attached to it can only reroll certain items up to that specified level and are dropped by Bosses. These regular flames yield lower tiers compared to special ones. You can identify which equipment can be flamed by hovering over them and checking the top left corner of the equipment icon. If there is a transparent dot, it can be flamed with regular rebirth flames. If there is a white dot, it can only be flamed with special rebirth flames</p>
-            <p><img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/><img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/><img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/><img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/><img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> Regular Rebirth Flames: <a href="https://maplestory.wiki/GMS/210.1.1/item/2048700" target="_blank" rel="noreferrer noopener">[Lv. 110]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048701" target="_blank" rel="noreferrer noopener">[Lv. 120]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048702" target="_blank" rel="noreferrer noopener">[Lv. 130]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048703" target="_blank" rel="noreferrer noopener">[Lv. 140]</a>, and <a href="https://maplestory.wiki/GMS/214/item/2048704" target="_blank" rel="noreferrer noopener">[Lv. 150]</a></p>
-            <p><img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/><img src="/images/items/eternal-rebirth-flame.png" alt="Use Eternal Rebirth Flame"/> Special Rebirth Flames: <a href="https://maplestory.wiki/GMS/214/item/2048716">[Powerful Rebirth Flame]</a> and <a href="https://maplestory.wiki/GMS/214/item/2048717" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a></p>
+            <p><img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/><img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/><img src="/images/items/rebirth-flame-130.png" alt="Use Rebirth Flame Lv. 130"/><img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/><img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> Regular Rebirth Flames: <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._110" target="_blank" rel="noreferrer noopener">[Lv. 110]</a>, <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._120" target="_blank" rel="noreferrer noopener">[Lv. 120]</a>, <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._130" target="_blank" rel="noreferrer noopener">[Lv. 130]</a>, <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._140" target="_blank" rel="noreferrer noopener">[Lv. 140]</a>, and <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._150" target="_blank" rel="noreferrer noopener">[Lv. 150]</a></p>
+            <p><img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/><img src="/images/items/eternal-rebirth-flame.png" alt="Use Eternal Rebirth Flame"/> Special Rebirth Flames: <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame">[Powerful Rebirth Flame]</a> and <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a></p>
             <p>Powerful Rebirth Flames and Eternal Rebirth Flames can reroll any equipment with Bonus Stats. They can also provide the best Bonus Stats possible. These special Rebirth Flames can be crafted, sold in Event Shops, given from MAPLE Daily Gift or sometimes dropped by Elite Monsters and Bosses</p>
-            <p>Additionally, there is a special Rebirth Flame called the <img src="/images/items/black-rebirth-flame.png" alt="Black Rebirth Flame"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/2048753" target="_blank">Black Rebirth Flame</a> that is only available from Event Shops which functions just like an Eternal Rebirth Flame but you can choose between your previous stats or the current ones similar to the <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/214/item/5062010" target="_blank">Bright Cube</a> for Potentials</p>
+            <p>Additionally, there is a special Rebirth Flame called the <img src="/images/items/black-rebirth-flame.png" alt="Black Rebirth Flame"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Black_Rebirth_Flame" target="_blank">Black Rebirth Flame</a> that is only available from Event Shops which functions just like an Eternal Rebirth Flame but you can choose between your previous stats or the current ones similar to the <img src="/images/items/bright-cube.png" alt="Cash Bright Cube"/> <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Cube" target="_blank">Bright Cube</a> for Potentials</p>
             <h4>Item Dots <em>(refer to [04] on the top image)</em></h4>
             <p>On the top left corner of an equipment icon when hovering over it, there is a dot that indicates if a Regular Rebirth Flame can be applied to that equipment</p>
             <p><img src="/images/info/item-transparent-dot.png" alt="Transparent Dot"/></p>

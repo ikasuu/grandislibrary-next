@@ -391,7 +391,7 @@ function AllianceRising() {
                 <li>
                     Silent Crusade Revamp
                     <ul>
-                        <li>Located at <a href="https://maplestory.wiki/GMS/210.1.1/map/310000001" target="_blank" rel="noreferrer noopener">Edelstein City Hall</a> now</li>
+                        <li>Located at <a href="https://maplestory.wiki/GMS/251/map/310000001" target="_blank" rel="noreferrer noopener">Edelstein City Hall</a> now</li>
                         <li>Mystic Gates introduced (15 times a day entry)</li>
                         <li>Level 45 or above requirement</li>
                         <li>
@@ -631,7 +631,7 @@ function Asylum() {
                 <li>Feedback Survey system added when exiting game</li>
             </ul>
             <h3>New Cash Items</h3>
-            <ul><li><img src="/images/items/character-name-change-coupon.png" alt="Use Character Name Change Coupon"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/215/item/2436402" target="_blank">Character Name Change Coupon Voucher</a> allows users to change the name of their character</li></ul>
+            <ul><li><img src="/images/items/character-name-change-coupon.png" alt="Use Character Name Change Coupon"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/251/item/2436402" target="_blank">Character Name Change Coupon Voucher</a> allows users to change the name of their character</li></ul>
         </LazyLoad>
     )
 };
@@ -823,11 +823,11 @@ function BigBang() {
             <h3>New Cash Items</h3>
             <ul>
                 <li>
-                    <img src="/images/items/quest-deliverer-thomas.png" alt="Cash Quest Deliverer Thomas"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/5660000" target="_blank" rel="noreferrer noopener">Quest Deliverer Thomas</a> allows to remotely accept an
+                    <img src="/images/items/quest-deliverer-thomas.png" alt="Cash Quest Deliverer Thomas"/> <a href="https://maplestory.wiki/GMS/251/item/5660000" target="_blank" rel="noreferrer noopener">Quest Deliverer Thomas</a> allows to remotely accept an
                     available quest from anywhere
                 </li>
                 <li>
-                    <img src="/images/items/quest-completer-alice.png" alt="Cash Quest Completer Alice"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/5660001" target="_blank" rel="noreferrer noopener">Quest Completer Alice</a> allows you to complete quests to
+                    <img src="/images/items/quest-completer-alice.png" alt="Cash Quest Completer Alice"/> <a href="https://maplestory.wiki/GMS/251/item/5660001" target="_blank" rel="noreferrer noopener">Quest Completer Alice</a> allows you to complete quests to
                     NPCs from anywhere
                 </li>
             </ul>
@@ -1058,7 +1058,7 @@ function Chaos() {
                     New boss, <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/>
                     <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener">Empress Cygnus</a>
                 </li>
-                <li><img src="/images/items/secret-mastery-book.png" alt="Use Secret Mastery Book"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2430144" target="_blank" rel="noreferrer noopener">Secret Mystery Books</a> - receive a random mastery book</li>
+                <li><img src="/images/items/secret-mastery-book.png" alt="Use Secret Mastery Book"/> <a href="https://maplestory.wiki/GMS/251/item/2430144" target="_blank" rel="noreferrer noopener">Secret Mystery Books</a> - receive a random mastery book</li>
                 <li>
                     <a href="https://maplestorywiki.net/w/Battle_Square" target="_blank" rel="noreferrer noopener">Battle Mode</a> (PVP)
                     <ul>
@@ -1869,7 +1869,7 @@ function Legends() {
                         <li>Required mastery EXP decreased</li>
                         <li>Mastery EXP gained by crafting increased</li>
                         <li>
-                            New crafting items and crafting materials added such as <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4021022" target="_blank" rel="noreferrer noopener">Primal Essence</a>, <img src="/images/items/philosophers-stone.png" alt="Etc Philosopher's Stone"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/4021021" target="_blank" rel="noreferrer noopener">Philosopher’s Stone</a>
+                            New crafting items and crafting materials added such as <img src="/images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestory.wiki/GMS/251/item/4021022" target="_blank" rel="noreferrer noopener">Primal Essence</a>, <img src="/images/items/philosophers-stone.png" alt="Etc Philosopher's Stone"/> <a href="https://maplestory.wiki/GMS/251/item/4021021" target="_blank" rel="noreferrer noopener">Philosopher’s Stone</a>
                         </li>
                     </ul>
                 </li>
@@ -1966,7 +1966,7 @@ function MarkOfHonor() {
             <ul>
                 <li>New class, <a href="https://maplestorywiki.net/w/Kanna" target="_blank" rel="noreferrer noopener">Kanna</a>, <a href="https://maplestorywiki.net/w/Hayato" target="_blank" rel="noreferrer noopener">Hayato</a></li>
                 <li>
-                    New area, <img src="/images/map-icons/momijigaoka.png" alt="MapIcon Momijigaoka"/> <a href="https://maplestory.wiki/GMS/210.1.1/map/807000000">Momijigaoka</a>
+                    New area, <img src="/images/map-icons/momijigaoka.png" alt="MapIcon Momijigaoka"/> <a href="https://maplestorywiki.net/w/Momijigaoka">Momijigaoka</a>
                 </li>
                 <li>
                     New area, <img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <a href="https://maplestorywiki.net/w/Category%3ARoot_Abyss" target="_blank" rel="noreferrer noopener">Root Abyss</a>
@@ -2680,7 +2680,7 @@ function Red() {
                 <li>Open Job Advancement system introduced</li>
                 <li>
                     <img src="/images/items/master-craftsmans-cube.png" alt="Use Master Craftsman's Cube"/> <a href="https://maplestorywiki.net/w/Master_Craftsman's_Cube" target="_blank" rel="noreferrer noopener">Master Craftsman Cubes</a> +
-                    <img src="/images/items/meisters-cube.png" alt="Use Meister's Cube"/> <a href="https://maplestory.wiki/GMS/210.1.1/item/2711004" target="_blank" rel="noreferrer noopener">Meister Cubes</a> introduced
+                    <img src="/images/items/meisters-cube.png" alt="Use Meister's Cube"/> <a href="https://maplestory.wiki/GMS/251/item/2711004" target="_blank" rel="noreferrer noopener">Meister Cubes</a> introduced
                 </li>
                 <li><a href="https://maplestory.wiki/GMS/214/map/820000000" target="_blank" rel="noreferrer noopener">Event Hall</a> added</li>
                 <li><a href="https://youtu.be/3y_k7X4D31k" target="_blank" rel="noreferrer noopener">Smart Mounts</a> introduced (Autopilot mode)</li>
@@ -2923,7 +2923,7 @@ function RisingHeroesElite() {
                 </li>
             </ul>
             <h3>New Cash Items</h3>
-            <ul><li><img src="/class-icons/common/auto-all-cure-skill.png" alt="Auto All Cure Skill"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/5190009" target="_blank">Auto All Cure Skill</a></li></ul>
+            <ul><li><img src="/class-icons/common/auto-all-cure-skill.png" alt="Auto All Cure Skill"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/251/item/5190009" target="_blank">Auto All Cure Skill</a></li></ul>
         </LazyLoad>
     )
 };
@@ -3318,7 +3318,7 @@ function YearOfTheSnake() {
             <h3>New Cash Items</h3>
             <ul>
                 <li>
-                    <img src="/images/items/potion-pot.png" alt="Cash Potion Pot"/><img src="/images/items/rust-remover.png" alt="Cash Rust Remover"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/5820000" target="_blank">Potion Pot</a> introduced
+                    <img src="/images/items/potion-pot.png" alt="Cash Potion Pot"/><img src="/images/items/rust-remover.png" alt="Cash Rust Remover"/> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/251/item/5820000" target="_blank">Potion Pot</a> introduced
                 </li>
             </ul>
         </LazyLoad>
