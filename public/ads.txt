@@ -1,4 +1,4 @@
-#  Updated: 2024-07-04 10:09:30
+#  Updated: 2024-07-05 11:53:41
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -378,7 +378,6 @@ start.io, 123111883, RESELLER
 stroeer.com, 22739, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 tappx.com, 42536, DIRECT, 9f375a07da0318ec
-thebrave.io, 1234661, RESELLER, c25b2154543746ac
 themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
 themediagrid.com, GD57SQ, DIRECT, 35d5010d7789b49d
 themediagrid.com, IRK975, RESELLER, 35d5010d7789b49d
