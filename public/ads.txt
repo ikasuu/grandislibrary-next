@@ -1,4 +1,4 @@
-#  Updated: 2024-07-16 09:43:29
+#  Updated: 2024-07-18 11:04:40
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -48,6 +48,7 @@ admanmedia.com, 1061, RESELLER
 admanmedia.com, 43, RESELLER
 admanmedia.com, 726, RESELLER
 admanmedia.com, 799, RESELLER
+admatic.com.tr, adm-pub-2977111241, RESELLER, uufps1dh5stc6euk
 admixer.com, 5e789729-1e92-41ca-8b4f-987c6edae9fe, RESELLER
 admixer.com, b81743f7-b474-4c19-8479-8697021abdd2, RESELLER
 adwmg.com, 100798, DIRECT, c9688a22012618e7
