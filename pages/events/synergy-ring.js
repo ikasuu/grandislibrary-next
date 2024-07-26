@@ -32,7 +32,7 @@ function SynergyRing() {
             <hr/>
             <h3>Credits:</h3>
             <p><strong>Item Image from:</strong></p>
-            <p><a href="https://maplestory.wiki/GMS/210.1.1/item/1114302" target="_blank" rel="noopener noreferrer">https://maplestory.wiki/GMS/210.1.1/item/1114302</a></p>
+            <p><a href="https://maplestory.wiki/GMS/251/item/1114302" target="_blank" rel="noopener noreferrer">https://maplestory.wiki/GMS/251/item/1114302</a></p>
             <BannerAdOne/>
         </EventPage>
     )
