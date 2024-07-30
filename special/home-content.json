@@ -23,6 +23,12 @@
     ],
     "recent": [
         {
+            "title": "V.252 GO WEST! Patch Notes",
+            "image": "/home-thumbnail/go-west-2.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/17655/v-252-go-west-patch-notes",
+            "subtitle": "July 16, 2024"
+        },
+        {
             "title": "V.251 GO WEST! Patch Notes",
             "image": "/home-thumbnail/go-west.jpg",
             "link": "https://www.nexon.com/maplestory/news/update/17541/v-251-go-west-patch-notes",
@@ -51,15 +57,21 @@
             "image": "/home-thumbnail/new-age-abyss.jpg",
             "link": "https://maplestory.nexon.net/news/87688/v-247-new-age-into-the-abyss-patch-notes",
             "subtitle": "December 12, 2023"
-        },
-        {
-            "title": "V.246 New Age: 6th Job Patch Notes",
-            "image": "/home-thumbnail/6th-job.jpg",
-            "link": "https://maplestory.nexon.net/news/86907/v-246-new-age-6th-job-patch-notes",
-            "subtitle": "November 14, 2023"
         }
     ],
     "upcoming": [
+        {
+            "title": "MapleStory Milestone: Limbo!",
+            "image": "/home-thumbnail/limbo.jpg",
+            "link": "https://orangemushroom.net/2024/07/19/kms-ver-1-2-393-maplestory-milestone-limbo/",
+            "subtitle": "April 18, 2024"
+        },
+        {
+            "title": "MapleStory Milestone: Flowers Blooming in the Moonlight!",
+            "image": "/home-thumbnail/hero-remaster.jpg",
+            "link": "https://orangemushroom.net/2024/06/22/kms-ver-1-2-392-maplestory-milestone-flowers-blooming-in-the-moonlight/",
+            "subtitle": "June 22, 2024"
+        },
         {
             "title": "MapleStory 21st Anniversary: Victoria Cup!",
             "image": "/home-thumbnail/21-anniversary.jpg",
@@ -71,18 +83,6 @@
             "image": "/home-thumbnail/union-relay.jpg",
             "link": "https://orangemushroom.net/2024/03/21/kms-ver-1-2-389-union-relay-universe-star-pink-bean/",
             "subtitle": "March 21, 2023"
-        },
-        {
-            "title": "Dreamer: Lachelin in a Dream!",
-            "image": "/home-thumbnail/dreamer.jpg",
-            "link": "https://orangemushroom.net/2023/12/22/kms-ver-1-2-385-maplestory-dreamer-lacheln-in-a-dream/",
-            "subtitle": "December 16, 2023"
-        },
-        {
-            "title": "Angelic Buster’s Comeback!",
-            "image": "/home-thumbnail/ab-revamp.jpg",
-            "link": "https://orangemushroom.net/2023/11/23/kms-ver-1-2-384-angelic-busters-comeback/",
-            "subtitle": "November 23, 2023"
         }
     ],
     "popularContent": [

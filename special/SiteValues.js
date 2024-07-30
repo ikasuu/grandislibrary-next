@@ -4,7 +4,7 @@
 */
 
 //Latest version of GMS
-export const version = 251; 
+export const version = 252; 
 export const versionName = "GO WEST!"
 
 export const loadingImage = "/loading.gif";
@@ -455,7 +455,7 @@ export const commonFifth = {
     },
     princessSakunoBlessing:{
         "name": "Princess Sakuno's Blessing",
-        "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 13%\\nPeriodical Bonus Final Damage Increase: 3%\\nPrincess Sakuno's Blessing will increase final damage by up to 48%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nPrincess Sakuno's Blessing is ready every 240 sec, and can bless up to 2 times.",
+        "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 27%\\nPeriodical Bonus Final Damage Increase: 3%\\nPrincess Sakuno's Blessing will increase final damage by up to 48%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nPrincess Sakuno's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
         "icons": ["/class-icons/5th-job/princess-sakunos-blessing.png"],
         "animations": ["https://media1.giphy.com/media/5trU6eJgfy60uoDzH2/giphy.gif"],
