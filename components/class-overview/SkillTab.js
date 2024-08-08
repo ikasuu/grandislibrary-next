@@ -111,7 +111,7 @@ function MasterySkillNote(){
     <SkillCard>
       <Card.Body>
         <Card.Text>
-            Mastery Nodes upgrade existing 4th job and lower skills. Mastery Nodes can be activated for the given skill once it has been enhanced with V Matrix above Lv. 40 (before Matrix Points)
+            Mastery Nodes upgrade existing 4th job and lower skills. Mastery Nodes can be activated once all given skills are enhanced with V Matrix above Lv. 40 (before Matrix Points)
         </Card.Text>
       </Card.Body>
     </SkillCard>
