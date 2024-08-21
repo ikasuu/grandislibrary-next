@@ -1,4 +1,4 @@
-#  Updated: 2024-08-15 12:32:57
+#  Updated: 2024-08-20 17:23:15
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -38,6 +38,8 @@ MANAGERDOMAIN=network-n.com
 OWNERDOMAIN=grandislibrary.com
 ad-generation.jp, 12474, RESELLER, 7f4ea9029ac04e53
 adagio.io, 1107, DIRECT
+adbite.com, 202171, RESELLER
+adform.com, 1942, RESELLER
 adform.com, 2078, RESELLER, 9f5210a2f0999e32
 adform.com, 2708, RESELLER, 9f5210a2f0999e32
 adform.com, 3083, RESELLER
@@ -114,7 +116,6 @@ criteo.com, B-067384, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068458, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-068503, RESELLER
 criteo.com, B-068585, DIRECT, 9fac4a4a87c2a44f
-disqus.com, 108, RESELLER
 e-planning.net, 83c06e81531537f4, RESELLER, c1ba615865ed87b2
 e-planning.net, 901a809a65f984a4, RESELLER, c1ba615865ed87b2
 freewheel.tv, 1157665, RESELLER
@@ -192,7 +193,6 @@ loopme.com, 12754, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 9718, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 9724, RESELLER, 6c8d5f95897a5a3b
-media.net, 8CU3BYI96, RESELLER
 media.net, 8CU4JTRF9, RESELLER
 media.net, 8CU6604U6, DIRECT
 media.net, 8CU695QH7, RESELLER
@@ -289,6 +289,7 @@ pubnative.net, 1006576, RESELLER, d641df8625486a7b
 qortex.ai, 194667, RESELLER
 rhythmone.com, 1654642120, RESELLER, a670c89d4a324e47
 richaudience.com, 1ru8dKmJJV, RESELLER
+richaudience.com, JAHJ4YZq4O, RESELLER
 risecodes.com, 62cd4aab9766d400014b79de, DIRECT
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
@@ -343,11 +344,13 @@ sharethrough.com, r4ScMSsf, RESELLER
 sharethrough.com, uQoEabsG, DIRECT, d53b998a7bd4ecd2
 sharethrough.com, wGR7Zifp, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, zLsEa05k, RESELLER, d53b998a7bd4ecd2
+smaato.com, 1100004890, RESELLER, 07bcf65f187117b4
 smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
 smaato.com, 1100044650, RESELLER, 07bcf65f187117b4
 smaato.com, 1100046863, DIRECT, 07bcf65f187117b4
 smaato.com, 1100047713, RESELLER, 07bcf65f187117b4
 smaato.com, 1100056418, RESELLER, 07bcf65f187117b4
+smaato.com, 1100057444, RESELLER, 07bcf65f187117b4
 smartadserver.com, 1692, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3238, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 3436, RESELLER, 060d053dcf45cbf3
