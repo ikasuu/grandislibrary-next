@@ -1,4 +1,4 @@
-#  Updated: 2024-08-21 16:14:36
+#  Updated: 2024-08-23 11:25:09
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -50,7 +50,6 @@ admanmedia.com, 43, RESELLER
 admanmedia.com, 726, RESELLER
 admanmedia.com, 799, RESELLER
 admatic.com.tr, adm-pub-2977111241, RESELLER, uufps1dh5stc6euk
-admixer.com, 5e789729-1e92-41ca-8b4f-987c6edae9fe, RESELLER
 admixer.com, b81743f7-b474-4c19-8479-8697021abdd2, RESELLER
 adwmg.com, 100798, DIRECT, c9688a22012618e7
 adyoulike.com, 1f301d3bcd723f5c372070bdfd142940, RESELLER
@@ -309,7 +308,7 @@ rubiconproject.com, 19116, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19396, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19654, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 20406, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20406, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 20416, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20736, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
@@ -369,7 +368,7 @@ sonobi.com, 0e0a64d7d3, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 42a06dc622, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 4a289cdd79, RESELLER, d1a215d9eb5aee9e
 sonobi.com, 4c4fba1717, RESELLER, d1a215d9eb5aee9e
-sonobi.com, 649aabf138, RESELLER, d1a215d9eb5aee9e
+sonobi.com, 649aabf138, DIRECT, d1a215d9eb5aee9e
 sonobi.com, 7f5fa520f8, RESELLER, d1a215d9eb5aee9e
 sonobi.com, a015179bd7, DIRECT, d1a215d9eb5aee9e
 sovrn.com, 268479, RESELLER, fafdf38b16bf6b2b
