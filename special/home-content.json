@@ -23,6 +23,12 @@
     ],
     "recent": [
         {
+            "title": "v.253 MapleStory x BUGCAT CAPOO Patch Notes",
+            "image": "/home-thumbnail/bugcat-capoo.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/18317/v-253-maple-story-x-bugcat-capoo-patch-notes",
+            "subtitle": "August 26, 2024"
+        },
+        {
             "title": "V.252 GO WEST! Patch Notes",
             "image": "/home-thumbnail/go-west-2.jpg",
             "link": "https://www.nexon.com/maplestory/news/update/17655/v-252-go-west-patch-notes",
@@ -51,15 +57,21 @@
             "image": "/home-thumbnail/konosuba.jpg",
             "link": "https://maplestory.nexon.net/news/89340/v-248-maplestory-x-konosuba-patch-notes",
             "subtitle": "February 22, 2024"
-        },
-        {
-            "title": "V.247 New Age: Into the Abyss Patch Notes",
-            "image": "/home-thumbnail/new-age-abyss.jpg",
-            "link": "https://maplestory.nexon.net/news/87688/v-247-new-age-into-the-abyss-patch-notes",
-            "subtitle": "December 12, 2023"
         }
     ],
     "upcoming": [
+        {
+            "title": "Tomb of the Gods, Tallahart & Skill Balancing!",
+            "image": "/home-thumbnail/tallahart.jpg",
+            "link": "https://orangemushroom.net/2024/09/12/kms-ver-1-2-395-tomb-of-the-gods-tallahart-skill-balancing/",
+            "subtitle": "September 12, 2024"
+        },
+        {
+            "title": "Epic Dungeon – Angler Company!",
+            "image": "/home-thumbnail/angler-company.jpg",
+            "link": "https://orangemushroom.net/2024/08/14/kms-ver-1-2-394-fall-1st-update-epic-dungeon-angler-company/",
+            "subtitle": "August 14, 2024"
+        },
         {
             "title": "MapleStory Milestone: Limbo!",
             "image": "/home-thumbnail/limbo.jpg",
@@ -71,12 +83,6 @@
             "image": "/home-thumbnail/hero-remaster.jpg",
             "link": "https://orangemushroom.net/2024/06/22/kms-ver-1-2-392-maplestory-milestone-flowers-blooming-in-the-moonlight/",
             "subtitle": "June 22, 2024"
-        },
-        {
-            "title": "MapleStory 21st Anniversary: Victoria Cup!",
-            "image": "/home-thumbnail/21-anniversary.jpg",
-            "link": "https://orangemushroom.net/2024/04/18/kms-ver-1-2-390-maplestory-21st-anniversary-victoria-cup/",
-            "subtitle": "April 18, 2023"
         },
         {
             "title": "Union Relay & Universe Star Pink Bean!",
@@ -132,14 +138,14 @@
     ],
     "popularClasses": [
         {
-            "alt": "Kain",
-            "class": "kain",
-            "path": "nova/kain"
-        },
-        {
             "alt": "Demon Slayer",
             "class": "demon-slayer",
             "path": "resistance/demon-slayer"
+        },
+        {
+            "alt": "Kain",
+            "class": "kain",
+            "path": "nova/kain"
         },
         {
             "alt": "Battle Mage",
@@ -152,19 +158,9 @@
             "path": "flora/adele"
         },
         {
-            "alt": "Demon Avenger",
-            "class": "demon-avenger",
-            "path": "resistance/demon-avenger"
-        },
-        {
-            "alt": "Shade",
-            "class": "shade",
-            "path": "heroes/shade"
-        },
-        {
-            "alt": "Aran",
-            "class": "aran",
-            "path": "heroes/aran"
+            "alt": "Xenon",
+            "class": "xenon",
+            "path": "resistance/xenon"
         },
         {
             "alt": "Kanna",
@@ -172,14 +168,24 @@
             "path": "sengoku/kanna"
         },
         {
-            "alt": "Luminous",
-            "class": "luminous",
-            "path": "heroes/luminous"
-        },
-        {
             "alt": "Mercedes",
             "class": "mercedes",
             "path": "heroes/mercedes"
+        },
+        {
+            "alt": "Hayato",
+            "class": "hayato",
+            "path": "sengoku/hayato"
+        },
+        {
+            "alt": "Demon Avenger",
+            "class": "demon-avenger",
+            "path": "resistance/demon-avenger"
+        },
+        {
+            "alt": "Ark",
+            "class": "ark",
+            "path": "flora/ark"
         }
     ]
 }
