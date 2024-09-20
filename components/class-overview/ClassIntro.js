@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DOMPurify from 'isomorphic-dompurify';
 import parse from 'html-react-parser';
 import styled from 'styled-components';
-import { Col, Container, Image, Table, Row, Card, Modal } from 'react-bootstrap';
+import { Col, Container, Image, Table, Row, Card, Modal, CardDeck } from 'react-bootstrap';
 
 import { weapons, secondaryWeapons, weaponConsumable } from '../../special/SiteValues';
 import { LinkSkill, NotableSkill } from './SingleSkill';
@@ -302,13 +302,13 @@ function ClassDetail({content}) {
             <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
             <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
-            <div>
+            <CardDeck>
                 {
                     content.innerAbility.map((preset, index) => 
-                        <AbilityPreset key={index} name={preset.name} set={preset.abilities}/>
+                        <AbilityPreset key={index} name={preset.name} set={preset.abilities} notes={preset.notes}/>
                     )
                 }
-            </div>
+            </CardDeck>
             <BannerAdTwo/>
       </Container>
     );
@@ -318,17 +318,36 @@ function ClassDetail({content}) {
     Displays the Inner Ability preset given from data
     Created by: Ikasuu, Summer 2024
 */
-function AbilityPreset({name, set}){
+
+// Card to display inner ability preset
+const AbilityCard = styled(Card)`
+  max-width: 25rem;
+
+  /* For iPad so that the elements do not display as blocks */
+  @media (max-width: 991px){
+      max-width: 35rem;
+      flex: 1 1 auto !important;
+      margin-bottom: 15px !important;
+  }
+`; 
+
+function AbilityPreset({name, set, notes}){
     return(
-        <div>
-            <ul>
-                {
-                    set.map((ability, index) =>
-                        <li key={index}>{ability}</li>
-                    )
-                }
-            </ul>
-        </div>
+        <AbilityCard>
+            <Card.Body>
+                <Card.Title>
+                    {name}
+                    {notes ? <InfoButton tooltip={notes}/> : <></>}
+                </Card.Title>
+                <ul>
+                    {
+                        set.map((ability, index) =>
+                            <li key={index}>{ability}</li>
+                        )
+                    }
+                </ul>
+            </Card.Body>
+        </AbilityCard>
     );
 };
 
