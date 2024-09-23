@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 252; 
-export const versionName = "GO WEST!"
+export const version = 253; 
+export const versionName = "MapleStory x BUGCAT CAPOO"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";

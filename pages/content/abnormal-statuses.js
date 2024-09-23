@@ -126,7 +126,7 @@ function Introduction(){
             Shadow Shell (Luminous), <img src="/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png" alt="Skill Flame Barrier"/> Flame Barrier (Blaze Wizard), <img src="/class-icons/cygnus-knights/mihile/shield-of-light.png" alt="Skill Shield of Light"/> Shield of Light (Mihile), <img src="/class-icons/resistance/blaster/gatling-punch.png" alt="Skill Gatling Punch"/>
             Gatling Punch (Blaster), <img src="/class-icons/anima/lara/mountain-embrace.png" alt="Skill Mountain Embrace"/> Mountain Embrace (Lara)</p>
             <p><strong>The following statuses cannot be blocked:</strong></p>
-            <p>Boss Potion Lock, Bomb Disperse, Pierre's hat cap, Vellum's falling rocks, Papulatus' timer curse, Magnus' spider web and sleeping gas, Crimson Queen's seduce, Lotus' Phase 3 slow, Damien's Brand, Lucid's forced teleport, Gloom's Fear, Verus Hilla's bind, and Black Mage's Creation & Destruction Curses</p>
+            <p>Boss Potion Lock, Bomb Disperse, Pierre's hat cap, Vellum's falling rocks, Papulatus' timer curse, Magnus' spider web and sleeping gas, Crimson Queen's seduce, Damien's Brand, Lucid's forced teleport, Gloom's Fear, Verus Hilla's bind, and Black Mage's Creation & Destruction Curses</p>
             <p><strong>The following statuses are known to be blocked:</strong></p>
             <p>Poison, Undead, Confusion, Stun, Petrification, Seduce, Seal, and Miss</p>
             <StyledHeaderThree>Where to Obtain <img src="/images/items/all-cure-potion.png" alt="Use All-Cure"/> All-Cure Potions</StyledHeaderThree>
@@ -340,7 +340,7 @@ function Slow() {
                     </tr>
                     <tr>
                         <StatusTitle>Status</StatusTitle>
-                        <StyledTd><p>80% Movement Speed</p><p>In addition, the Spider Web Slow prevents the use of movement skills like double (triple) jumps, teleports, dashes, and forced airbornes</p></StyledTd>
+                        <StyledTd><p>Movement speed is fixed to 80% or less</p><p>In addition, the Spider Web Slow prevents the use of movement skills like double (triple) jumps, teleports, dashes, and forced airbornes</p></StyledTd>
                     </tr>
                     <tr>
                         <StatusTitle>Cure</StatusTitle>
@@ -469,7 +469,6 @@ function Confusion() {
                 </tbody>
             </StatusTable>
             <p>In order to jump in this state, you must jump downwards by pressing the Down Arrow Key and Jump Key together</p>
-            <p>In Phase 1 of Lotus, the green robot will apply the Confusion status if hit by the self destruction</p>
         </LazyLoad>
     )
 };

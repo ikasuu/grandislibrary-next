@@ -355,7 +355,7 @@ function BossMatchmaking() {
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <BannerAdThree/>
           <ArticleHeaderTwo id="lotus"><img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> Lotus</ArticleHeaderTwo>
-          <p><strong>[Normal/Hard Lv. 190+]</strong></p>
+          <p><strong>[Normal/Hard/Extreme Lv. 190+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
@@ -377,7 +377,7 @@ function BossMatchmaking() {
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
             </li>
             <li>
-                <strong>Hard Mode Only Rewards: </strong> <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestorywiki.net/w/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>
+                <strong>Hard Mode Only Rewards</strong>: <img src="/images/items/absolab-box.png" alt="Use AbsoLab Box"/> <a href="https://maplestorywiki.net/w/Equipment_Set/AbsoLab_Set_(Warrior)" target="_blank" rel="noreferrer noopener">[AbsoLab Armor/Weapon Box]</a>
                 , <img src="/images/items/damaged-black-heart.png" alt="Etc Damaged Black Heart"/> <a href="https://maplestorywiki.net/w/Damaged_Black_Heart" target="_blank" rel="noreferrer noopener">[Damaged Black Heart]</a>
                 , <img src="/images/equipment/android.png" alt="Eqp Deluxe Android (M)"/> <a href="https://maplestorywiki.net/w/Lotusroid" target="_blank" rel="noreferrer noopener">[Lotusroid Android]</a>
                 , <img src="/images/equipment/berserked.png" alt="Eqp Berserked"/> <a href="https://maplestorywiki.net/w/Berserked">[Beserked Face Accessory]</a>
@@ -389,6 +389,9 @@ function BossMatchmaking() {
                 , <img src="/images/items/unrelenting-flame.png" alt="Etc Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Unrelenting Flame]</a>
                 , <img src="/images/items/forever-unrelenting-flame.png" alt="Etc Forever Unrelenting Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Flame]</a>
                 , <img src="/images/items/forever-unrelenting-black-flame.png" alt="Etc Forever Unrelenting Black Flame"/> <a href="https://maplestorywiki.net/w/Forever_Unrelenting_Black_Flame" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Forever Unrelenting Black Flame]</a>
+            </li>
+            <li>
+              <strong>Extreme Mode Only Rewards</strong>: <img src="/images/equipment/total-control.png" alt="Eqp Total Control"/> <a href="https://maplestorywiki.net/w/Total_Control" target="_blank" rel="noreferrer noopener">[Total Control - Android Heart]</a>
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
