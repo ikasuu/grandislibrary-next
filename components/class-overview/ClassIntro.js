@@ -77,7 +77,7 @@ export function ClassIntro({data}) {
                 <Row>
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>
-                        <PropertyBox skills={data.skill.notable} infographics={data.content.infographics}/>
+                        <PropertyBox skills={data.skill.notable} infographics={data.content.infographics} resources={data.content.moreInfo}/>
                         <LinkSkill linkSkill={data.content.linkSkill}/>
                         <VideoAdClassOverview/>
                     </PropertyContainer>
@@ -164,26 +164,37 @@ function ClassProperties({content}) {
     Created by: Ikasuu, Fall 2020
 */
 
-function PropertyBox({skills, infographics}) {
+function PropertyBox({skills, infographics, resources}) {
   return (
       <div style={{paddingLeft: '0.5rem'}}>
           <StyledHeaderFive>Skill Preview<InfoButton tooltip="Click the skill icon to view skill animation"/></StyledHeaderFive>
           { skills.map( skill => 
               <NotableSkill key={skill.name} skill={skill}/>
           )}
-          {
+        {
             infographics ? 
-            <div>
-                <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
-                {
-                    infographics.map( image => 
-                    <ClassInfographic infographic={image.src} title={image.title}/>
-                )}
-            </div>
+            <InfographicBox data={infographics}/>
             : <></>
-          }
+        }
+        <ResourceBox data={resources}/>
       </div>
   );
+}
+
+/*
+    Box component to display Class Infographcis in Class Overviews
+    Created by: Ikasuu, Fall 2024
+*/
+function InfographicBox({data}){
+    return(
+        <div>
+            <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
+            {
+                data.map(image => 
+                <ClassInfographic key={image.title} infographic={image.src} title={image.title}/>
+            )}
+        </div>
+    )
 }
 
 /*
@@ -191,7 +202,7 @@ function PropertyBox({skills, infographics}) {
     Created by: Ikasuu, Spring 2024
 */
 
-export function ClassInfographic({ infographic, title }) {
+export function ClassInfographic({infographic, title}) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -199,7 +210,7 @@ export function ClassInfographic({ infographic, title }) {
 
     return (
         <span>
-            <Chip label={title} className="hvr-grow" onClick={handleShow} clickable size="large" style={{marginRight: '0.5rem'}}/>
+            <Chip label={title} className="hvr-grow" onClick={handleShow} clickable size="large" style={{marginRight: '0.5rem', marginBottom: '1rem'}}/>
             <Modal centered show={show} onHide={handleClose} aria-labelledby="infographic-image" size="lg">
                 <Modal.Header closeButton>
                     <Modal.Title id="infographic-image">
@@ -215,6 +226,37 @@ export function ClassInfographic({ infographic, title }) {
         </span>
     );
 }
+
+
+/*
+    Box component to display Resources in Class Overviews
+    Created by: Ikasuu, Fall 2024
+*/
+function ResourceBox({data}){
+    return(
+        <div>
+            <StyledHeaderFive>Other Resources<InfoButton tooltip="Click the chip to open an external link in a new tab"/></StyledHeaderFive>
+            {
+                data.map(resource => 
+                <ResourceLink key={resource.title} link={resource.link} title={resource.title}/>
+            )}
+        </div>
+    );
+}
+
+/*
+    Handles the logic for the resource links in the class properties section
+    Created by: Ikasuu, Fall 2024
+*/
+
+function ResourceLink({link, title}){
+    return(
+        <span>
+            <a href={link} target="_blank" rel="noreferrer noopener"><Chip deleteIcon={<span className="launch-button"/>} onDelete={()=>{}} label={title} className="hvr-grow" clickable size="large" style={{marginRight: '0.5rem', marginBottom: '1rem'}}/></a>
+        </span>
+    );
+}
+
 
 /*
     Buff component in our Class Overviews

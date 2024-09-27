@@ -157,6 +157,14 @@ export const GlobalStyle = createGlobalStyle`
     width: 2rem;
     display: inline-block;
   }
+
+  //Launch button, found in class overviews for "Other Resources" section
+  .launch-button{
+    background: url("${process.env.PUBLIC_URL}/icons/launch-${getMenuSubColor}-18dp.svg");
+    background-size: 1.5rem 1.5rem !important;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
   
   //Navbar links such as 'Home' and 'About'
   .nav-link-button{

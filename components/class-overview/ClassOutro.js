@@ -12,33 +12,14 @@ In this file you will find:
 -ClassCredits - renders the credits
 */
 
-export function ClassOutro({classGroup, classTitle, moreInfo, credits, infographic}) {
+export function ClassOutro({classGroup, classTitle, credits, infographic}) {
     return (
         <div>
             <BannerAdThree/>
             <hr/>
-            <ClassMoreInfo classTitle={classTitle} moreInfo={moreInfo}/>
             <ClassSuggestions classTitle={classTitle} classGroup={classGroup}/>
             <ClassCredit credits={credits}/>
             {infographic && <a href={`/class-infographic/${classTitle}.png`} target="_blank" rel="noreferrer noopener"><img class="extra-content-image class-infographic-image" src={`/class-infographic/${classTitle}.png`} alt={`${classTitle} Infographic`}/></a>}
-        </div>
-    );
-}
-
-/*
-    Rendering the links found in more info component in our class overviews
-    Created by: Ikasuu, Fall 2020
-*/
-
-const MoreInfoLink = styled.div`
-    margin: 1rem;
-`;
-
-function ClassMoreInfo({classTitle, moreInfo}) {
-    return (
-        <div>
-            <h5>For more information about {classTitle} check out:</h5>
-            {moreInfo.map(link => <MoreInfoLink key={link}><a href={link} target='_blank' rel="noopener noreferrer">{link}</a></MoreInfoLink>)}
         </div>
     );
 }
