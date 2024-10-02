@@ -33,10 +33,6 @@ const StyledHeaderTwo = styled.h2`
     margin: 1rem 0 1rem 0;
 `;
 
-const StyledHeaderThree = styled.h3`
-    margin: 1.5rem 0 1rem 0;
-`;
-
 const StyledHeaderFive = styled.h5`
     margin: 1.5rem 0 1rem 0;
 `;

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import Link from 'next/link';
 
 import SkillInfo from './SkillInfo'
-import { Card } from 'react-bootstrap';
 
 /*
     This file contains both SkillContainer and VSkillContainer (exclusively for 5th Job Skills), containers to hold a list of skills
@@ -35,7 +34,7 @@ export class SkillContainer extends Component {
     }
 
     // Re-renders component when settings change via UtilityButton (QuickJump)
-    componentDidUpdate(prevProps, prevState){
+    componentDidUpdate(prevProps){
         if(prevProps.settings !== this.props.settings){
             this.setState({settings: this.props.settings});
         };

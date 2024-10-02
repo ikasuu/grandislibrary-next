@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import Link from 'next/link';
 import Fab from '@material-ui/core/Fab';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -101,7 +100,7 @@ export function QuickJump({settings, setSettings}) {
                     <FormControlLabel
                         control={<Switch color="primary" checked={settings.animations} onChange={handleChange} name="animations"/>}
                         label="Skill Animations"
-                  />
+                    />
                 </FormGroup>
             </Menu>
         </div>

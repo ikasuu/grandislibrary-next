@@ -19,7 +19,6 @@ export function ClassOutro({classGroup, classTitle, credits, infographic}) {
             <hr/>
             <ClassSuggestions classTitle={classTitle} classGroup={classGroup}/>
             <ClassCredit credits={credits}/>
-            {infographic && <a href={`/class-infographic/${classTitle}.png`} target="_blank" rel="noreferrer noopener"><img class="extra-content-image class-infographic-image" src={`/class-infographic/${classTitle}.png`} alt={`${classTitle} Infographic`}/></a>}
         </div>
     );
 }

@@ -14,7 +14,13 @@ import { SkillCard } from './SkillInfo';
     Created by: Ikasuu, Fall 2020
 */
 
-//Used to create the pre-5th job tabs
+// Retrieves settings from storage, if it does not exist, use default value (false & true)
+function getInitialClassSettings(){
+  const savedSettings = storage.getItem('classSettings');
+  return savedSettings ?  JSON.parse(savedSettings) : { offline: false, animations: true };
+}
+
+//Renders the pre-5th job tabs
 function createSkillTabs(primary, settings){
   return primary.map((skilltree, index) => 
     <Tab eventKey={skilltree[0]} title={skilltree[0]} key={index}>
@@ -24,7 +30,7 @@ function createSkillTabs(primary, settings){
     </Tab>);
 }
 
-//Retrieves the common 5th job skills defined in our Values.js and returns it as an array
+//Converts common 5th job skills data from Values.js and returns it as an array
 function convertCommonVToArray(fifth){
   const skills = [];
   fifth.fifthCommon.forEach( it => skills.push(commonFifth[it]));
@@ -41,8 +47,7 @@ const StyledHeaderThree = styled.h3`
 `;
 
 export function SkillTab({primary, fifth, sixth, hyper, slug}) {
-
-  // Hook to store setting info to be used by UtilityButton (QuickJump), this is also where the button is stored
+  // Hook to store setting info used by UtilityButton (QuickJump), this is also where the button is stored
   // When changes are made to settings, we have a useEffect hook that auto-updates our storage version of setting
   const [settings, setSettings] = useState(getInitialClassSettings);
   useEffect(() => {
@@ -54,28 +59,7 @@ export function SkillTab({primary, fifth, sixth, hyper, slug}) {
       <LazyLoad height={2000} offset={100}>
         <Container>
           <StyledHeaderTwo>Skill Information</StyledHeaderTwo>
-          <Tabs onSelect={() => setTimeout(forceCheck, 0)}>
-            {createSkillTabs(primary, settings)}
-            <Tab eventKey="fifth" title="5th Job">
-              <LazyLoad height={2000} offset={100}>
-              <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
-                <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
-                <a href="#skill"><span className="jump-button-tabs"/></a>
-                <StyledHeaderThree>Common V Skills</StyledHeaderThree>
-                <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings}/>
-                <a href="#skill"><span className="jump-button-tabs"/></a>
-              </LazyLoad>
-            </Tab>
-            {sixth && <Tab eventKey="sixth" title="6th Job"><SixthJobTab sixth={sixth} settings={settings}/></Tab>}
-            {hyper && <Tab eventKey="hyper" title="Hyper Skills">
-              <LazyLoad height={2000} offset={100}>
-                <StyledHeaderThree>Passive Skills</StyledHeaderThree>
-                <SkillContainer skillData={hyper.hyperPassive} settings={settings}/>
-                <StyledHeaderThree>Active Skills</StyledHeaderThree>
-                <SkillContainer skillData={hyper.hyperActive} settings={settings}/>
-              </LazyLoad>
-            </Tab>}
-          </Tabs>
+          <SkillTabView primary={primary} fifth={fifth} sixth={sixth} hyper={hyper} settings={settings}/>
         </Container>
       </LazyLoad>
       <QuickJump settings={settings} setSettings={setSettings} slug={slug}/> 
@@ -83,11 +67,56 @@ export function SkillTab({primary, fifth, sixth, hyper, slug}) {
   );
 }
 
+//Component to display skills in a Tabs view
+function SkillTabView({primary, fifth, sixth, hyper, settings}){
+  return(
+    <div>
+      <Tabs onSelect={() => setTimeout(forceCheck, 0)}>
+        {createSkillTabs(primary, settings)}
+        <Tab eventKey="fifth" title="5th Job"><FifthJobTab fifth={fifth} settings={settings}/></Tab>
+        <Tab eventKey="sixth" title="6th Job"><SixthJobTab sixth={sixth} settings={settings}/></Tab>
+        {hyper && <Tab eventKey="hyper" title="Hyper Skills"><HyperSkillsTab hyper={hyper} settings={settings}/></Tab>}
+      </Tabs>
+    </div>
+  )
+}
+
+//Component to display Hyper Skills info
+function HyperSkillsTab({hyper, settings}){
+  return(
+    <div>
+      <LazyLoad height={2000} offset={100}>
+        <StyledHeaderThree>Passive Skills</StyledHeaderThree>
+        <SkillContainer skillData={hyper.hyperPassive} settings={settings}/>
+        <StyledHeaderThree>Active Skills</StyledHeaderThree>
+        <SkillContainer skillData={hyper.hyperActive} settings={settings}/>
+      </LazyLoad>
+    </div>
+  )
+}
+
+//Component to display 5th Job skills info
+function FifthJobTab({fifth, settings}){
+  return(
+    <div>
+      <LazyLoad height={2000} offset={100}>
+        <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
+        <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
+        <StyledHeaderThree>Common V Skills</StyledHeaderThree>
+        <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
+      </LazyLoad>
+    </div>
+  )
+}
+
+//Component to display 6th Job skills info
 function SixthJobTab({sixth, settings}){
   return(
     <div>
       <LazyLoad height={2000} offset={100}>
-      <StyledHeaderThree>Mastery Nodes</StyledHeaderThree>
+        <StyledHeaderThree>Mastery Nodes</StyledHeaderThree>
         <MasterySkillNote/>
         <HexaSkillContainer skillData={sixth.masteryCore} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
@@ -100,12 +129,7 @@ function SixthJobTab({sixth, settings}){
   )
 }
 
-// Retrieves settings from storage, if it does not exist, use default value (false & true)
-function getInitialClassSettings(){
-  const savedSettings = storage.getItem('classSettings');
-  return savedSettings ?  JSON.parse(savedSettings) : { offline: false, animations: true };
-}
-
+//Components for notes that are displayed in the 6th Job skill component
 function MasterySkillNote(){
   return(
     <SkillCard>
