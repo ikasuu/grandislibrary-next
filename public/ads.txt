@@ -1,4 +1,4 @@
-#  Updated: 2024-10-08 17:16:17
+#  Updated: 2024-10-16 18:04:24
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -160,7 +160,7 @@ improvedigital.com, 2021, RESELLER
 improvedigital.com, 2050, RESELLER
 indexexchange.com, 183753, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 189344, DIRECT, 50b1c356f2c5c8fc
-indexexchange.com, 189345, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 189345, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191306, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 192410, RESELLER, 50b1c356f2c5c8fc
