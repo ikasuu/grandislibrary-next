@@ -1,4 +1,4 @@
-#  Updated: 2024-11-18 16:33:18
+#  Updated: 2024-11-19 11:39:17
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -188,7 +188,9 @@ indexexchange.com, 196326, RESELLER
 infolinks.com, 3355573, DIRECT
 inmobi.com, 17865bac25f44f51b8fd08b12e92072c, DIRECT, 83e75a7ae333ca9d
 inmobi.com, b01aa06531c543d8a5fb9982f60afb00, RESELLER, 83e75a7ae333ca9d
+inmobi.com, b4821b1325c44dc581b04d743ca46575, RESELLER, 83e75a7ae333ca9d
 inmobi.com, ec6f6ceb8bb1440ba5455644ec96c275, RESELLER, 83e75a7ae333ca9d
+insticator.com, 0ef2eb4c-75f2-4cdf-9185-b61dbd344670, RESELLER, b3511ffcafb23a32
 insticator.com, 54cd3cd8-a633-45c0-a4b5-e794bd0d5622, RESELLER, b3511ffcafb23a32
 insticator.com, f01725e4-53f4-40e0-95bb-c4206ee0b577, RESELLER, b3511ffcafb23a32
 kargo.com, 8720, DIRECT
@@ -236,6 +238,7 @@ minutemedia.com, 01j6arbm5tne, RESELLER
 nativo.com, 5848, RESELLER, 59521ca7cc5e9fee
 network-n.com, pa_ba2bc67e, DIRECT, f08c47fec0942fa0
 ogury.com, 7da4df59-1af0-42fa-9f27-5638fae7a75d, DIRECT
+ogury.com, aa55d50a-3f3d-4a95-bd47-ad5c0b120481, RESELLER, 89744fa00d7520a6
 onetag.com, 598ce3ddaee8c90, RESELLER
 onetag.com, 5d49f482552c9b6, RESELLER
 onetag.com, 69f48c2160c8113, RESELLER
@@ -348,6 +351,7 @@ rubiconproject.com, 19116, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19396, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19654, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20322, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20406, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 20416, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20736, RESELLER, 0bfd66d529a55807
@@ -428,6 +432,7 @@ spotx.tv, 268145, DIRECT, 7842df1d2fe2db34
 start.io, 123111883, RESELLER
 stroeer.com, 22739, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
+supply.colossusssp.com, 818, RESELLER, 6c5b49d96ec1b458
 tappx.com, 42536, DIRECT, 9f375a07da0318ec
 teads.tv, 13367, DIRECT, 15a9c44f6d26cbe1
 themediagrid.com, 25XPU9, RESELLER, 35d5010d7789b49d
@@ -445,7 +450,6 @@ themediagrid.com, VQ7WG4, DIRECT, 35d5010d7789b49d
 triplelift.com, 11582, RESELLER, 6c33edb13117fd86
 triplelift.com, 11617, RESELLER, 6c33edb13117fd86
 triplelift.com, 12503, RESELLER, 6c33edb13117fd86
-triplelift.com, 13264, DIRECT, 6c33edb13117fd86
 triplelift.com, 13482, RESELLER, 6c33edb13117fd86
 triplelift.com, 8210, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332, DIRECT, 6c33edb13117fd86
@@ -483,6 +487,7 @@ yieldmo.com, 2757543169808605705, RESELLER
 yieldmo.com, 2850174797239755356, RESELLER
 yieldmo.com, 2850176953179120222, DIRECT
 yieldmo.com, 2954622693783052507, RESELLER
+yieldmo.com, 3078438591206989879, RESELLER
 yieldmo.com, 3133660606033240149, RESELLER
 yieldmo.com, 3377199372461613093, RESELLER
 zetaglobal.net, 533, RESELLER
