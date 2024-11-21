@@ -371,9 +371,10 @@ const BaseStatAccordion = styled(Accordion)`
 function BaseStatLegend(){
     return(
         <BaseStatAccordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon/>}><strong>Legend Info</strong></AccordionSummary>
+            <AccordionSummary expandIcon={<ExpandMoreIcon/>}><strong>Table Legend Info</strong></AccordionSummary>
             <AccordionDetails>
                 <Container>
+                    <p>Base Stats are calculated by values that are close to always available. Base Stats inside brackets () are the sum of stats provided from all skills of the current row of the table</p>
                     <div className="bs-data-vals">
                         <ul><li>PERM</li></ul>
                         <div>Stats that are always up or close to always up</div>
