@@ -176,6 +176,95 @@ footer{
   }
 }
 
+/* Styling for Base Stat table values */
+.bs-data-vals span{
+  font-weight: 300;
+  font-size: 1.05rem;
+}
+
+.bs-data-vals ul{
+  padding: 0;
+  margin: 0;
+  display: inline;
+  line-height: 2.5;
+}
+
+.bs-data-vals li{
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: .25rem;
+  display: inline-block;
+  vertical-align: bottom;
+  color: #fff;
+  background-color: #6C757D;
+  white-space: nowrap;
+}
+
+.bs-data-vals .bs-no-icon{
+  line-height: 2.5;
+}
+
+.bs-data-vals .bs-long-text div{
+  display: inline-block;
+  line-height: 1rem;
+}
+
+.bs-data-vals .bs-debuff-val li{
+  background-color: #5C9A3A;
+}
+
+.bs-data-vals .bs-toggle-val li{
+  background-color: #c65895;
+}
+
+.bs-data-vals .bs-temp-val li{
+  background-color: #2E94B6;
+}
+
+.bs-data-vals .bs-opt-val li{
+  background-color: #CC6A2A;
+}
+
+.bs-data-vals .bs-toggle-cross li{
+  background-color: #013A6B;
+  background-image: linear-gradient(120deg, #6C757D 50%, #c65895 50%);
+}
+
+.bs-data-vals .bs-temp-cross li{
+  background-color: #013A6B;
+  background-image: linear-gradient(120deg, #6C757D 50%, #2E94B6 50%);
+}
+
+.bs-data-vals .bs-opt-cross li{
+  background-color: #013A6B;
+  background-image: linear-gradient(120deg, #6C757D 50%, #CC6A2A 50%);
+}
+
+.bs-data-vals .bs-debuff-opt li{
+  background-color: #013A6B;
+  background-image: linear-gradient(120deg, #5C9A3A 50%, #CC6A2A 50%);
+}
+
+.bs-data-vals .bs-temp-opt li{
+  background-color: #013A6B;
+  background-image: linear-gradient(120deg, #2E94B6 50%, #CC6A2A 50%);
+}
+
+.bs-data-vals .bs-temp-toggle li{
+  background-color: #013A6B;
+  background-image: linear-gradient(120deg, #2E94B6 50%, #c65895 50%);
+}
+
+.bs-data-vals .bs-zero-alpha li{
+  background-color: #176BCB;
+}
+
+.bs-data-vals .bs-zero-beta li{
+  background-color: #D53F3F;
+}
+
 /* MUI CSS */
 
 /* Removing focus outline on Material UI Icon Button */

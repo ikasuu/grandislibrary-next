@@ -9,7 +9,8 @@ import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
 import BannerAdOne, { BannerAdTwo, StickyAd, VideoAdClassOverview } from '../Ads';
-import { Chip } from '@material-ui/core';
+import { Accordion, AccordionDetails, AccordionSummary, Chip } from '@material-ui/core';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -292,7 +293,7 @@ function ClassBuffs({content}) {
 
 // Wrapper for Base Stats table
 const BaseStatsWrapper = styled(Col)`
-  max-width: 32rem;
+  max-width: 68rem;
 `;
 
 const BaseStatTitle = styled(StyledHeaderTwo)`
@@ -312,10 +313,17 @@ function ClassDetail({content}) {
            {content.specialThanks && <p><em>{content.specialThanks}</em></p>}
            {content.discord && <p><em>For more in-depth info, visit the Class Discord at <a href={content.discord} target='_blank' rel='noreferrer'>{content.discord}</a></em></p>}
             <BaseStatsWrapper md="auto">
-                <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>
-                <Table borderless>
+                <BaseStatTitle>Base Stats (From Skills)</BaseStatTitle>
+                <BaseStatLegend/>
+                <Table responsive>
                     <tbody>
-                        {content.baseStats[1].map((stat, index) => <tr key={index}><StatTableData>{parse(DOMPurify.sanitize(stat))}</StatTableData></tr>)}
+                        {content.attackStats.map((stat, index) => 
+                            <tr key={index}>
+                                <StatTableData width='18%'><strong>{parse(DOMPurify.sanitize(stat.name))}</strong></StatTableData>
+                                <StatTableData width='18%'>{parse(DOMPurify.sanitize(stat.stat))}</StatTableData>
+                                <StatTableData className='bs-data-vals'>{parse(DOMPurify.sanitize(stat.detail))}</StatTableData>
+                            </tr>
+                        )}
                     </tbody>
                 </Table>
             </BaseStatsWrapper>
@@ -351,6 +359,46 @@ function ClassDetail({content}) {
       </Container>
     );
 }
+
+/* 
+    Displays the Base Stat Legend information and handles accordion logic
+    Created by: Ikasuu, Fall 2024
+*/
+const BaseStatAccordion = styled(Accordion)`
+    margin-bottom: 2rem !important;
+`;
+
+function BaseStatLegend(){
+    return(
+        <BaseStatAccordion>
+            <AccordionSummary expandIcon={<ExpandMoreIcon/>}><strong>Legend Info</strong></AccordionSummary>
+            <AccordionDetails>
+                <Container>
+                    <div className="bs-data-vals">
+                        <ul><li>PERM</li></ul>
+                        <div>Stats that are always up or close to always up</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-toggle-val"><li>TOGGLE</li></ul>
+                        <div>Stats that are gained while skill is toggled on</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-debuff-val"><li>DEBUFF</li></ul>
+                        <div>Stats that are gained from debuffing the enemy</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-temp-val"><li>TEMP</li></ul>
+                        <div>Stats that have a condition or cooldown to activate</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-opt-val"><li>UNLOCK</li></ul>
+                        <div>Stats that can be unlocked. These skills may also have a cooldown</div>
+                    </div>
+                </Container>
+            </AccordionDetails>
+        </BaseStatAccordion>
+    );
+};
 
 /*
     Displays the Inner Ability preset given from data

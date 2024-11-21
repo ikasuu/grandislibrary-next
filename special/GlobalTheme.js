@@ -320,6 +320,15 @@ export const GlobalStyle = createGlobalStyle`
   [data-tooltip]:not([data-tooltip-persistent]):before {
     pointer-events: none;
   }
+
+  .MuiAccordion-root{
+    background-color: ${props => props.theme.mode === 'dark' ? '#37363a' : '#FFF'} !important;
+    color: ${getForeground} !important;
+  }
+
+  .MuiSvgIcon-root{
+    color: ${getForeground} !important;
+  }
   `;
   
 //Get user's preferred site theme, if none, default is 'dark'
