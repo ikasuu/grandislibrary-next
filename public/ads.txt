@@ -1,4 +1,4 @@
-#  Updated: 2024-11-19 11:39:17
+#  Updated: 2024-12-02 11:44:46
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -282,6 +282,7 @@ orangeclickmedia.com, C-1100, RESELLER
 oveeo.com, 769945, RESELLER
 pmc.com, 1240739, RESELLER, 8dd52f825890bb44
 primis.tech, 28588, DIRECT, b6b21d256ef43532
+primis.tech, 28588r, DIRECT, b6b21d256ef43532
 pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
 pubmatic.com, 154037, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
