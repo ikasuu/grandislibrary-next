@@ -160,8 +160,6 @@ function AttackSpeed() {
             <p>The absolute fastest Attack Speed a player can achieve is Fastest (10), no exceptions. Fastest (10) is thus known as the Hard Speed Cap</p>
             <p>There are a handful of Attack Speed boost sources that can ignore the soft speed cap of Faster (8). These are the following:</p>
             <ul>
-                <li>Rune of Decay (+1 AS)</li>
-                <li>Rune of Destruction (+1 AS)</li>
                 <li><img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <a href="https://maplestorywiki.net/w/Extreme_Green_Potion" target="_blank" rel="noopener noreferrer">Extreme Green Potion</a> (+1 AS)</li>
                 <li><img src="/images/items/crimson-queen-soul.png" alt="Use Crimson Queen Soul"/> <a href="https://maplestorywiki.net/w/Fickle_Queen" target="_blank" rel="noopener noreferrer">Crimson Queen soul's attack speed buff</a> (+1 AS)</li>
                 <li>Battle Mage's <img src="/class-icons/resistance/battle-mage/hasty-aura.png" alt="Skill Hasty Aura"/> <a href="https://maplestorywiki.net/w/Hasty_Aura" target="_blank" rel="noopener noreferrer">Hasty Aura</a> (+1 AS)</li>
@@ -171,8 +169,7 @@ function AttackSpeed() {
             <p>You will need only one of these Attack Speed boosts to break through the Soft Speed cap to be able to reach the Hard Speed cap</p>
             <strong>Note:</strong> Depending on your server, you may have a Hard Speed Cap of Stage 8. GMS and MSEA has a Hard Speed Cap of Stage 10
             <h3>Example:</h3>
-            <p>An Aran with the <img src="/images/equipment/eviscerator.png" alt="Eqp Eviscerator"/> Eviscerator polearm, which is Slower (1). The Aran gets +2 AS from their <img src="/class-icons/heroes/aran/agile-polearms.png" alt="Skill Agile Polearms"/> Weapon Booster skill, +1 AS from <img src="/class-icons/heroes/aran/polearm-mastery.png" alt="Skill Polearm Mastery"/> Polearm Mastery skill, +1 AS from <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion, +1 from Inner Ability, and +1 from <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion (for a total of +6 AS). Thus, their attack speed would be: Slower (1) + (+6 AS) = Fastest (7)</p>
-            <p>Later, they find a Rune of Swiftness and uses it, granting them another +3 AS that can ignore the soft speed cap (for a total of +9 AS). Their final Attack Speed is Fastest (10)</p>
+            <p>An Aran with an <img src="/images/equipment/arcane-umbra-polearm.png" alt="Eqp Arcane Umbra Polearm"/> Arcane Umbra Polearm equipped has Fast (5) and receives +2 AS from their <img src="/class-icons/heroes/aran/agile-polearms.png" alt="Skill Agile Polearms"/> Weapon Booster skill and +1 AS from <img src="/class-icons/heroes/aran/polearm-mastery.png" alt="Skill Polearm Mastery"/> Polearm Mastery skill for a total of +8 AS. By using an <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> Extreme Green Potion, they break the Soft Speed Cap and reach +9 AS. Then, by also applying <img src="/class-icons/common/speed-infusion.png" alt="Skill Speed Infusion"/> Decent Speed Infusion, their final Attack Speed is Fastest (10) after breaking the Soft Speed Cap</p>
             <BannerAdThree/>
         </ContentPage>
     );

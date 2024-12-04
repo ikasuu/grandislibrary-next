@@ -23,6 +23,18 @@
     ],
     "recent": [
         {
+            "title": "v.255 The Dark Ride: Ride or Die Patch Notes",
+            "image": "/home-thumbnail/ride-or-die.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/21375/v-255-the-dark-ride-ride-or-die-patch-notes",
+            "subtitle": "November 19, 2024"
+        },
+        {
+            "title": "v.254 Midnight Carnival - Ludibrium Patch Notes",
+            "image": "/home-thumbnail/midnight-carnival.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/20934/v-254-midnight-carnival-ludibrium-patch-notes",
+            "subtitle": "October 2, 2024"
+        },
+        {
             "title": "v.253 MapleStory x BUGCAT CAPOO Patch Notes",
             "image": "/home-thumbnail/bugcat-capoo.jpg",
             "link": "https://www.nexon.com/maplestory/news/update/18317/v-253-maple-story-x-bugcat-capoo-patch-notes",
@@ -45,21 +57,21 @@
             "image": "/home-thumbnail/mayple-island.jpg",
             "link": "https://maplestory.nexon.net/news/91576/v-250-mayple-island-patch-notes",
             "subtitle": "May 1, 2024"
-        },
-        {
-            "title": "V.249 Minar Picnic Patch Notes",
-            "image": "/home-thumbnail/minar-picnic.jpg",
-            "link": "https://maplestory.nexon.net/news/90462/v-249-minar-picnic-patch-notes",
-            "subtitle": "March 19, 2024"
-        },
-        {
-            "title": "V.248 MapleStory X KONOSUBA Patch Notes",
-            "image": "/home-thumbnail/konosuba.jpg",
-            "link": "https://maplestory.nexon.net/news/89340/v-248-maplestory-x-konosuba-patch-notes",
-            "subtitle": "February 22, 2024"
         }
     ],
     "upcoming": [
+        {
+            "title": "MapleStory X Demon Slayer!",
+            "image": "/home-thumbnail/demon-slayer.jpg",
+            "link": "https://orangemushroom.net/2024/11/22/kms-ver-1-2-397-maplestory-x-demon-slayer/",
+            "subtitle": "November 22, 2024"
+        },
+        {
+            "title": "Azmoth Canyon & MapleStory X Dave the Diver!",
+            "image": "/home-thumbnail/azmoth.jpg",
+            "link": "https://orangemushroom.net/2024/10/17/kms-ver-1-2-396-azmoth-canyon-maplestory-x-dave-the-diver/",
+            "subtitle": "October 17, 2024"
+        },
         {
             "title": "Tomb of the Gods, Tallahart & Skill Balancing!",
             "image": "/home-thumbnail/tallahart.jpg",
@@ -77,18 +89,6 @@
             "image": "/home-thumbnail/limbo.jpg",
             "link": "https://orangemushroom.net/2024/07/19/kms-ver-1-2-393-maplestory-milestone-limbo/",
             "subtitle": "April 18, 2024"
-        },
-        {
-            "title": "MapleStory Milestone: Flowers Blooming in the Moonlight!",
-            "image": "/home-thumbnail/hero-remaster.jpg",
-            "link": "https://orangemushroom.net/2024/06/22/kms-ver-1-2-392-maplestory-milestone-flowers-blooming-in-the-moonlight/",
-            "subtitle": "June 22, 2024"
-        },
-        {
-            "title": "Union Relay & Universe Star Pink Bean!",
-            "image": "/home-thumbnail/union-relay.jpg",
-            "link": "https://orangemushroom.net/2024/03/21/kms-ver-1-2-389-union-relay-universe-star-pink-bean/",
-            "subtitle": "March 21, 2023"
         }
     ],
     "popularContent": [
@@ -138,6 +138,11 @@
     ],
     "popularClasses": [
         {
+            "alt": "Aran",
+            "class": "aran",
+            "path": "heroes/aran"
+        },
+        {
             "alt": "Demon Slayer",
             "class": "demon-slayer",
             "path": "resistance/demon-slayer"
@@ -148,9 +153,24 @@
             "path": "nova/kain"
         },
         {
-            "alt": "Battle Mage",
-            "class": "battle-mage",
-            "path": "resistance/battle-mage"
+            "alt": "Demon Avenger",
+            "class": "demon-avenger",
+            "path": "resistance/demon-avenger"
+        },
+        {
+            "alt": "Angelic Buster",
+            "class": "angelic-buster",
+            "path": "nova/angelic-buster"
+        },
+        {
+            "alt": "Hayato",
+            "class": "hayato",
+            "path": "sengoku/hayato"
+        },
+        {
+            "alt": "Kanna",
+            "class": "kanna",
+            "path": "sengoku/kanna"
         },
         {
             "alt": "Adele",
@@ -163,29 +183,9 @@
             "path": "resistance/xenon"
         },
         {
-            "alt": "Kanna",
-            "class": "kanna",
-            "path": "sengoku/kanna"
-        },
-        {
             "alt": "Mercedes",
             "class": "mercedes",
             "path": "heroes/mercedes"
-        },
-        {
-            "alt": "Hayato",
-            "class": "hayato",
-            "path": "sengoku/hayato"
-        },
-        {
-            "alt": "Demon Avenger",
-            "class": "demon-avenger",
-            "path": "resistance/demon-avenger"
-        },
-        {
-            "alt": "Ark",
-            "class": "ark",
-            "path": "flora/ark"
         }
     ]
 }
