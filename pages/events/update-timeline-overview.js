@@ -2299,7 +2299,7 @@ function Nova() {
                 <li>Mesos drops in Reboot world have been increased while hunting monsters within your level range</li>
                 <li>
                     <img src="/images/items/reindeer-milk.png" alt="Use Reindeer Milk"/> <img src="/images/items/sunrise-dew.png" alt="Use Sunrise Dew"/> <img src="/images/items/sunset-dew.png" alt="Use Sunset Dew"/> Boss Reward Changes (
-                    <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> Intense Power Crystal)
+                    <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> Intense Power Crystal)
                 </li>
                 <li>
                     <img src="/images/items/elixir.png" alt="Use Elixir"/> Potion rewards and mesos removed from boss rewards.
@@ -2494,7 +2494,7 @@ function Pathfinder() {
                 <li><strong>Kritias, Dark World Tree and Haven daily quests have been changed to weekly quests (Resets every Sunday)</strong></li>
                 <li><strong>Practice mode added for Weekly bosses</strong></li>
                 <li>Hard Hilla and Chaos Pink Bean changed to weekly bosses</li>
-                <li><img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> Weekly bosses Power Crystals’ price increased</li>
+                <li><img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> Weekly bosses Power Crystals’ price increased</li>
                 <li>Pink Bean’s battle pattern changed</li>
                 <li>Ranmaru is now a daily boss</li>
                 <li>Princess No is now a weekly boss, Lv.140 Secondary can be exchanged with <img src="/images/items/captivating-fragment.png" alt="Use Captivating Fragment"/> Captivating Fragments dropped by P. No</li>

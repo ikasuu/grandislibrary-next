@@ -115,8 +115,8 @@ function QuestLog(){
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="quest-log">Q - Quest Log</h3>
             <img className="repository-image" src="/images/info/quest-log.png" alt="Quest Log"/>
-            <p>Here you can view all Available, In Progress, and Completed Quests in the Quest Log</p>
-            <p>In the Available tab, there are two buttons, one to show quests for your current location and another to filter and display only quests within your level range. You can also search for quests at the top using a quest's name</p>
+            <p>In the Quest Log, all types of quests from Available, In Progress, and Completed quests can be viewed</p>
+            <p>When viewing quests in the Available tab, there are two buttons, one to show quests for your current location and another to filter and display only quests within your level range. You can also search for quests at the top using a quest's name</p>
         </div>
     )
 }

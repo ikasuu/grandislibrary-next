@@ -79,7 +79,7 @@ function BossMatchmaking() {
                 <strong>Easy Mode and Above Rewards:</strong> <img src="/images/equipment/zakum-helmet.png" alt="Eqp Zakum Helmet"/>
                 <a href="https://maplestorywiki.net/w/Zakum_Helmet" target="_blank" rel="noreferrer noopener">[Zakum Helmet]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/>
                 <a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>, <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/>
-                <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Soul Shard]</a>, <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/>
+                <a href="https://maplestorywiki.net/w/Soul_Weapon" target="_blank" rel="noreferrer noopener">[Soul Shard]</a>, <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/>
                 <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
             </li>
             <li>
@@ -124,7 +124,7 @@ function BossMatchmaking() {
                 , <img src="/images/equipment/crystal-ventus-badge.png" alt="Eqp Crystal Ventus Badge"/> <a href="https://maplestorywiki.net/w/Crystal_Ventus_Badge" target="_blank" rel="noreferrer noopener">[Crystal Ventus Badge]</a>
                 , <img src="/images/equipment/royal-black-metal-shoulder.png" alt="Eqp Royal Black Metal Shoulder"/> <a href="https://maplestorywiki.net/w/Royal_Black_Metal_Shoulder" target="_blank" rel="noreferrer noopener">[Royal Black Metal Shoulder]</a>
                 , <img src="/images/equipment/kaiserion.png" alt="Eqp Kaiserion"/> <a href="https://maplestorywiki.net/w/Kaiserion" target="_blank" rel="noreferrer noopener">[Kaiserion]</a>
-                , <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> [Shadowdealer Coin], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> [Shadowdealer Coin], <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
             <li>
                 <strong>Normal Mode and Above Rewards:</strong>
@@ -160,7 +160,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/pet-box-blackheart.png" alt="Use (Pet Box) Blackheart"/> <a href="https://maplestorywiki.net/w/(Pet_Box)_Blackheart" target="_blank" rel="noreferrer noopener">[Pet Box]</a>
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
                 , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
             <li>
               <strong>Hard Mode Only Rewards:</strong>
@@ -177,7 +177,7 @@ function BossMatchmaking() {
           <p>You must complete the Omega Sector Theme Dungeon to gain access to OMNI-CLN. To start the Theme Dungeon, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/38/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
           <ul>
             <li>
-                <strong>Main Rewards: </strong><img src="/images/items/elixir.png"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/omni-cln-component.png" alt="Etc OMNI-CLN Component"/> <a href="https://maplestorywiki.net/w/OMNI-CLN_Component" target="_blank" rel="noreferrer noopener">[OMNI-CLN Component]</a>, <img src="/images/items/omni-cln-vacuum.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[OMNI-CLN Vacuum]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                <strong>Main Rewards: </strong><img src="/images/items/elixir.png"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/omni-cln-component.png" alt="Etc OMNI-CLN Component"/> <a href="https://maplestorywiki.net/w/OMNI-CLN_Component" target="_blank" rel="noreferrer noopener">[OMNI-CLN Component]</a>, <img src="/images/items/omni-cln-vacuum.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[OMNI-CLN Vacuum]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
@@ -194,7 +194,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame]
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
                 , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
             <li>
                 <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
@@ -224,7 +224,7 @@ function BossMatchmaking() {
                 <img src="/images/equipment/pierre-hat.png" alt="Eqp Pierre Hat"/>
                 <img src="/images/equipment/von-bon-helmet.png" alt="Eqp Von Bon Helmet"/>
                 <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Root Abyss Hat], <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> [Yggdrasil Coin], <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/><img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/><img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/>
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal], <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> [Yggdrasil Coin], <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/><img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/><img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/>
                 <img src="/images/items/vellum-rock-chair.png" alt="Setup Vellum Rock Chair"/>[Chair]
             </li>
             <li>
@@ -247,7 +247,7 @@ function BossMatchmaking() {
             <li>
                 <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
                 , <img src="/images/items/royal-lion-king-medal.png" alt="Etc Royal Lion King Medal"/> [Von Leon Gear Currency]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
             <li>
               <strong>Hard Mode and Above Rewards:</strong> <img src="/images/equipment/royal-von-leon-suit.png"/><img src="/images/equipment/royal-von-leon-energy-chain.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Royal_Von_Leon_Warrior_Set" target="_blank" rel="noreferrer noopener">[Lv. 130 Von Leon Gear]</a>
@@ -267,7 +267,7 @@ function BossMatchmaking() {
                 , <img src="/images/equipment/horntail-necklace.png" alt="Eqp Horntail Necklace"/> <a href="https://maplestorywiki.net/w/Horntail_Necklace" target="_blank" rel="noreferrer noopener">[Horntail Necklace]</a>
                 , <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
             <li>
                 <strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/potion-recipe.png"/> <a href="https://maplestorywiki.net/w/Wealth_Acquisition_Potion#Recipe" target="_blank" rel="noreferrer noopener">[Wealth Aquisition Potion Recipe]</a>
@@ -293,7 +293,7 @@ function BossMatchmaking() {
                 , <img src=" /images/items/primal-essence.png" alt="Etc Primal Essence"/> <a href="https://maplestorywiki.net/w/Primal_Essence" target="_blank" rel="noreferrer noopener">[Primal Essence]</a>
                 , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                ,<img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
+                ,<img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
             </li>
             <li>
                 <strong>Normal mode Only Rewards:</strong> <img src=" /images/equipment/dominator-pendant.png" alt="Eqp Dominator Pendant"/> <a href="https://maplestorywiki.net/w/Dominator_Pendant" target="_blank" rel="noreferrer noopener">[Dominator Pendant]</a>
@@ -319,7 +319,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame]
                 , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
             <li>
               <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/chaos-pink-bean-hat.png"/><img src="/images/equipment/chaos-pink-bean-suit.png"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Chaos_Pink_Bean_Set_I" target="_blank" rel="noreferrer noopener">[Chaos Pink Bean Set]</a>
@@ -344,7 +344,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
                 , <img src=" /images/items/piece-of-ruin.png" alt="Use Piece of Ruin"/><img src=" /images/items/piece-of-darkness.png" alt="Use Piece of Darkness"/> [Empress Gear Fragment]
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
             <li>
                 <strong>Normal Mode Only Rewards:</strong> <img src="/images/equipment/lionheart-battle-shoulder.png" alt="Eqp Lionheart Battle Shoulder"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Lionheart_Set" target="_blank" rel="noreferrer noopener">[Empress Shoulder]</a>
@@ -372,7 +372,7 @@ function BossMatchmaking() {
               , <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame]
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
               , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
             </li>
@@ -415,7 +415,7 @@ function BossMatchmaking() {
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/bonus-mystical-cube.png"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
               , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
             </li>
             <li>
@@ -446,7 +446,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/sparkling-red-star-potion.png" alt="Use Sparkling Red Star Potion"/> <a href="https://maplestorywiki.net/w/Sparkling_Red_Star_Potion" target="_blank" rel="noopener noreferrer">[Sparkling Red Star Potion]</a>, <img src="/images/items/small-exp-accumulation-potion.png" alt="Use Small EXP Accumulation Potion"/> <a href="https://maplestorywiki.net/w/Small_EXP_Accumulation_Potion" target="_blank" rel="noopener noreferrer">[Small EXP Accumulation Potion]</a>, <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._150" target="_blank" rel="noopener noreferrer">[Rebirth Flame Lv. 150]</a>
                 , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>, <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
                 , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> <a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> <a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube#Tradable" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
             </li>
             <li>
                 <strong>Chaos Mode Only Rewards: </strong> <img src="/images/items/guardian-angel-slime-fountain.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noopener">[Guardian Angel Slime Fountain]</a>
@@ -480,7 +480,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
                 , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal],
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal],
                 , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
             </li>
             <li>
@@ -540,7 +540,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
                 , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
                 , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
                 , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
             </li>
@@ -579,7 +579,7 @@ function BossMatchmaking() {
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
               , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
               , <img src="/images/items/incredible-chaos-scroll-of-goodness.png" alt="Use Incredible Chaos Scroll of Goodness 60%"/> <a href="https://maplestorywiki.net/w/Incredible_Chaos_Scroll_of_Goodness#60.25:_Tradable.2C_Time_Limited" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Incredible Chaos Scroll of Goodness 60%]</a>
@@ -619,7 +619,7 @@ function BossMatchmaking() {
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
               , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
             </li>
@@ -661,7 +661,7 @@ function BossMatchmaking() {
               , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
               , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
               , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
@@ -697,7 +697,7 @@ function BossMatchmaking() {
               , <img src="/images/items/black-rebirth-flame.png"/> <a href="https://maplestorywiki.net/w/Black_Rebirth_Flame#Tradable,_Time_Limited" target="_blank" rel="noreferrer noopener">[Black Rebirth Flame]</a>
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
               , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
               , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
@@ -731,7 +731,7 @@ function BossMatchmaking() {
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
               , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
               , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
@@ -764,7 +764,7 @@ function BossMatchmaking() {
               , <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard]
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
               , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
               , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/> [(Interactive Worlds Only) Bonus Mystical Cube]
               , <img src="/images/items/premium-scroll-accessory-coupon.png" alt="Use Premium Scroll Accessory Coupon"/> <a href="https://maplestorywiki.net/w/Premium_Scroll_-_Accessory#Voucher" target="_blank" rel="noopener noreferrer">[(Interactive Worlds Only) Premium Scroll - Accessory Coupon]</a>
@@ -789,7 +789,7 @@ function BossMatchmaking() {
                   , <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir]
                   , <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> <a href="https://maplestorywiki.net/w/Rebirth_Flame_Lv._120" target="_blank" rel="noreferrer noopener">[Lv. 120 Rebirth Flame]</a>
                   , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                  , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                  , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
                   , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[(Heroic World Only) Powerful Rebirth Flame]</a>
                   , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[(Heroic World Only) Eternal Rebirth Flame]</a>
               </li>
@@ -815,7 +815,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
                 , <img src="/images/items/rebirth-flame-140.png" alt="Use Rebirth Flame Lv. 140"/> [Lv. 140 Rebirth Flame]
                 , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
@@ -835,7 +835,7 @@ function BossMatchmaking() {
                 , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
                 , <img src="/images/items/eternal-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Eternal_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Eternal Rebirth Flame]</a>
                 , <img src="/images/items/50-bonus-exp-coupon-voucher.png" alt="Use 50% Bonus EXP Coupon Voucher"/> <a href="https://maplestorywiki.net/w/Bonus_EXP_Coupon#Voucher" target="_blank" rel="noopener noreferrer">[50% EXP Coupon Voucher]</a>
-                , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/> [Intense Power Crystal]
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
                 , <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Trace]
             </li>
             <li>
@@ -874,7 +874,7 @@ function BossMatchmaking() {
               , <img src="/images/items/powerful-rebirth-flame.png" alt="Use Powerful Rebirth Flame"/> <a href="https://maplestorywiki.net/w/Powerful_Rebirth_Flame#Tradable.2C_Time_Limited" target="_blank" rel="noreferrer noopener">[Powerful Rebirth Flame]</a>
               , <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/><a href="https://maplestorywiki.net/w/Mystical_Cube" target="_blank" rel="noreferrer noopener">[Mystical Cube]</a>
               , <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/><a href="https://maplestorywiki.net/w/Power_Elixir">[Power Elixir]</a>
-              , <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
+              , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>
               , <img src="/images/items/bonus-mystical-cube.png" alt="Use Bonus Mystical Cube"/><a href="https://maplestorywiki.net/w/Bonus_Mystical_Cube" target="_blank" rel="noreferrer noopener">[(Interactive Worlds Only) Bonus Mystical Cube]</a>
             </li>
           </ul>
@@ -888,7 +888,7 @@ function BossMatchmaking() {
           </ul>
           <p>You must complete the questline from the Lightbulb Quest called "[Showa Town] Welcome to Showa Town!". The last quest you need to complete is "Investigating Fire Raccoon Finance"</p>
           <ul>
-            <li><strong>Main Rewards:</strong> <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/equipment/terminus-dominator.png" alt="Eqp Terminus Divider"/><img src="/images/equipment/terminus-executioner.png" alt="Eqp Terminus Executioner"/><img src="/images/equipment/terminus-defender.png" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="/images/items/showa-town-damage-skin.png" alt="Showa Town Damage Skin"/><img src="/images/items/fire-raccoon-damage-skin.png" alt="Fire Racoon Damage Skin"/> [Damage Skins]</li>
+            <li><strong>Main Rewards:</strong> <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/equipment/terminus-dominator.png" alt="Eqp Terminus Divider"/><img src="/images/equipment/terminus-executioner.png" alt="Eqp Terminus Executioner"/><img src="/images/equipment/terminus-defender.png" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="/images/items/showa-town-damage-skin.png" alt="Showa Town Damage Skin"/><img src="/images/items/fire-raccoon-damage-skin.png" alt="Fire Racoon Damage Skin"/> [Damage Skins]</li>
           </ul>
           <ArticleHeaderTwo id="gigatoad"><img src="/images/map-icons/mushroom-shrine.png" alt="Mushroom Shrine Icon"/> Gigatoad</ArticleHeaderTwo>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
@@ -900,7 +900,7 @@ function BossMatchmaking() {
           </ul>
           <p>No pre-quests</p>
           <ul>
-            <li><strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/intense-power-crystal.png" alt="Etc Intense Power Crystal"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/equipment/terminus-dominator.png" alt="Eqp Terminus Divider"/><img src="/images/equipment/terminus-executioner.png" alt="Eqp Terminus Executioner"/><img src="/images/equipment/terminus-defender.png" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="/images/equipment/elemental-staff-1.png" alt="Eqp Elemental Staff 1"/><img src="/images/equipment/elemental-staff-2.png" alt="Eqp Elemental Staff 2"/>[Elemental Staves], <img src="/images/items/toad-pet-coupon.png" alt="Toad Pet Coupon"/> [(30 Day) Toad Pet Coupon], <img src="/images/items/ninja-castle-damage-skin.png" alt="Ninja Castle Damage Skin"/> [Damage Skin]</li>
+            <li><strong>Normal Mode and Above Rewards:</strong> <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/><a href="https://maplestorywiki.net/w/Intense_Power_Crystal" target="_blank" rel="noreferrer noopener">[Intense Power Crystal]</a>, <img src="/images/equipment/terminus-dominator.png" alt="Eqp Terminus Divider"/><img src="/images/equipment/terminus-executioner.png" alt="Eqp Terminus Executioner"/><img src="/images/equipment/terminus-defender.png" alt="Eqp Terminus Defender"/>[Terminus Weapons], <img src="/images/equipment/elemental-staff-1.png" alt="Eqp Elemental Staff 1"/><img src="/images/equipment/elemental-staff-2.png" alt="Eqp Elemental Staff 2"/>[Elemental Staves], <img src="/images/items/toad-pet-coupon.png" alt="Toad Pet Coupon"/> [(30 Day) Toad Pet Coupon], <img src="/images/items/ninja-castle-damage-skin.png" alt="Ninja Castle Damage Skin"/> [Damage Skin]</li>
             <li><strong><strong>Frenzied Mode Only Rewards: </strong></strong><img src="/images/items/clean-slate-scroll.png" alt="Clean Slate Scroll"/>[Clean Slate Scroll], <img src="/images/items/potion-recipe.png" alt="Exp Accumulation Potion Recipe"/> [EXP Accumulation Potion Recipe], <img src="/images/items/potion-recipe.png" alt="Wealth Acquisition Potion Recipe"/> [Wealth Acquisition Potion Recipe], <img src="/images/items/soul-shard.png" alt="Soul Shard"/> [Soul Shard], <img src="/images/items/golden-toad-sculpture.png" alt="Golden Toad Sculpture"/> [Golden Toad Sculpture]</li>
           </ul>
         </div>
