@@ -52,8 +52,8 @@ function MaplehoodWatch() {
                 <li><strong>Hunt 200 monsters within your level range</strong> (20 levels below and 20 levels above) to receive rewards!</li>
             </ul>
             <h3>Upon completion:</h3>
-            <p>Receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Interactive Worlds)</p>
-            <p><img src="/images/info/reboot.png" alt="WorldIcon Heroic World"/> Receive one <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> [Glowing Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator] (on Heroic Worlds)</p>
+            <p>On Interactive Worlds, receive one <img src="/images/items/platinum-scissors.png" alt="Cash Platinum Scissors of Karma"/> [Platinum Scissors of Karma] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator]</p>
+            <p>On Heroic Worlds, receive one <img src="/images/items/glowing-cube.png" alt="Cash Glowing Cube"/> [Glowing Cube] and one <img src="/images/items/miracle-circulator.png" alt="Cash Miracle Circulator"/> [Miracle Circulator]</p>
             
             <h2>Gachapon Day</h2>
             <ul>

@@ -194,9 +194,9 @@ function MapleGuide(){
             {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="maple-guide">U - Maple Guide</h3>
             <p><img className="repository-image" src="/images/info/maple-guide-expanded.png" alt="Maple Guide Expanded"/><img className="repository-image" src="/images/info/maple-guide-ui.png" alt="Maple Guide"/></p>
-            <p>Here you can view Recommended Quests, Content and Hunting Zones for your level range. Pressing the Maple Guide Key while the Maple Guide is active will expand it into a bigger window</p>
-            <p>In the expanded window, you can see all the available content for all levels. You can teleport directly to different places once you have reached the recommended level. You can only teleport back to that area if you are less than 10 levels above the maximum recommended level. You can gain "Completion Stamp" by completing certain requirements to teleport back to that area regardless of your level. Beside some levels, there are objectives that can be completed to receive rewards once per World. Note, when viewing the "Main Rewards" listed when clicking into content are not guaranteed but instead show possible rewards</p>
-            <p>In the "Boss Content" tab, you will see all the bosses in the game. In the "Special Content" tab, you will see content for Story-type content, Progression-type content, Competitive-type content and lastly Arcane River related content</p>
+            <p>Unlocked at Lv. 30, the Maple Guide lists Recommended Quests, Content and Hunting Zones for your level range. Pressing the Maple Guide Key while the Maple Guide is open will expand it into a larger window</p>
+            <p>In the expanded window, all the available content for all levels are displayed. Upon reaching the level required or higher, the content listed can be teleported to directly. Note, the "Main Rewards" listed when clicking into content are not guaranteed but instead show possible rewards</p>
+            <p>In the "Boss Content" tab, major bosses are displayed. In the "Special Content" tab, content for Story-type content, Progression-type content, Competitive-type content and Arcane River are displayed</p>
         </div>
     )
 }

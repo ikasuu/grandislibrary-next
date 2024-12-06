@@ -95,7 +95,7 @@ function Level30To49(){
       <ArticleHeaderTwo id="30">Level 30 - 49</ArticleHeaderTwo>
       <img className="repository-image" src="/images/info/maple-guide-expanded.png" alt="Maple Content Guide"/>
       <img className="repository-image" src="/images/info/maple-guide-ui.png" alt="Content Guide Minimized"/>
-      <p>Reaching Lv. 30 unlocks the expanded "Maple Guide" that provides shortcut access to Job Advancement quests, instant teleport to training maps, and more. To expand the UI press "U" by default to see available content for all levels. You can only teleport to maps if you are lower than 10 levels above the maximum recommended level. However, gaining a "Completion Stamp" by completing specified requirements allows you to teleport back regardless of your level</p>
+      <p>Upon reaching Lv. 30, the "Maple Guide" is unlocked to provide shortcut access to main quests, instant teleports to training maps, and more. To expand the UI press "U" by default to see available content for all levels</p>
       <img src="/images/npc/dimensional-mirror.png" alt="NPC Dimensional Mirror"/><img className="repository-image" src="/images/info/dimensional-mirror-ui.png" alt="Dimensional Mirror UI"/>
       <p>In most towns, the "Dimensional Mirror" NPC grants access to a variety of content. When in town, the "Quick Move" button on the top left corner of the screen provides a shortcut to useful NPCs within the town like the Dimensional Mirror</p>
       <img className="repository-image" src="/images/info/quick-move.png" alt="Quick Move"/>
