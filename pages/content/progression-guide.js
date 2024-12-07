@@ -101,6 +101,8 @@ function ProgressionGuide() {
                 </li>
                 <li className="quick-jump"><Link smooth href="#dailyweekly">Daily and Weekly Quests</Link>
                 </li>
+                <li className="quick-jump"><Link smooth href="#mapleplanner">Maple Planner</Link>
+                </li>
                 <li className="quick-jump"><Link smooth href="#training">Training Maps</Link>
                 </li>
                 <li className="quick-jump"><Link smooth href="#themedungeon">Theme Dungeons</Link>
@@ -150,6 +152,7 @@ function ProgressionGuide() {
             <EndgameBossesThree/>
             <EndgameBossesFour/>
             <DailyWeekly/>
+            <MaplePlanner/>
             <TrainingMaps/>
             <ThemeDungeons/>
             <QuestContent/>
@@ -629,11 +632,8 @@ function EquipmentContent(){
                 </li>
                 <li><strong>[Lv. 150]</strong> <img src="/images/equipment/enraged-zakum-helmet.png" alt="Eqp Enraged Zakum Helmet"/> <img src="/images/equipment/enraged-zakum-cape.png" alt="Eqp Enraged Zakum Cape"/> <img src="/images/equipment/enraged-zakum-belt.png" alt="Eqp Enraged Zakum Belt"/> [ <a href="https://maplestorywiki.net/w/Enraged_Zakum_Helmet" target="_blank" rel="noreferrer noopener">Hat</a> / <a href="https://maplestorywiki.net/w/Enraged_Zakum_Cape" target="_blank" rel="noreferrer noopener">Cape</a> / <a href="https://maplestorywiki.net/w/Enraged_Zakum_Belt" target="_blank" rel="noreferrer noopener">Belt</a> ] Dropped by <a href="https://maplestorywiki.net/w/Zakum#Chaos" target="_blank" rel="noreferrer noopener">Chaos Zakum</a>
                 </li>
-                <li><strong>[Lv. 175+]</strong> <img src="/images/equipment/tyrant-hyades-cloak.png" alt="Eqp Tyrant Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Tyrant_Hyades_Cloak" target="_blank" rel="noreferrer noopener">[Lv. 150 Tyrant Capes]</a> Dropped by <a href="https://maplestorywiki.net/w/Magnus/Monster#Hard" target="_blank" rel="noreferrer noopener">Hard Magnus</a> and purchasable using <img src="/images/items/magnus-coin.png" alt="Etc Magnus Coin"/> <a href="https://maplestorywiki.net/w/Magnus_Coin" target="_blank" rel="noreferrer noopener">[Magnus Coins]</a> from <a href="https://maplestorywiki.net/w/Mayala" target="_blank" rel="noreferrer noopener">Mayala</a> who also sells <img src="/images/equipment/tyrant-hyades-belt.png" alt="Eqp Tyrant Hyades Belt"/> <a href="https://maplestorywiki.net/w/Tyrant_Hyades_Belt" target="_blank" rel="noreferrer noopener">[Lv. 150 Tyrant Belts]</a>
-                    <ul>
-                        <li>Not recommended because it is expensive to upgrade</li>
-                    </ul>
-                </li>
+                <li><strong>[Lv. 160]</strong> <img src="/images/equipment/amaterasus-lupine-storm.png" alt="Eqp Amaterasu's Lupine Storm"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Amaterasu_Set" target="_blank" rel="noreferrer noopener">[Lupine Japanese Gear]</a> Dropped by <a href="https://maplestorywiki.net/w/Akechi_
+                Mitsuhide/Monster" target="_blank" rel="noreferrer noopener">Akechi Mitsuhide</a> or exchanged with <img src="/images/items/mark-of-the-silver-wolf.png" alt="Etc Mark of the Silver Wolf"/> [Mark of the Silver Wolf] from <a href="https://maplestorywiki.net/w/Kobayakawa_Takakage" target="_blank" rel="noreferrer noopener">Kobayakawa Takakage</a></li>
                 <li><strong>[Lv. 160]</strong> <img src="/images/equipment/sweetwater-hat.png" alt="Eqp Sweetwater Hat"/>  <img src="/images/equipment/sweetwater-suit.png" alt="Eqp Sweetwater Suit"/> <img src="/images/equipment/commerci-boots.png" alt="Eqp Commerci Boots"/>  <img src="/images/equipment/commerci-gloves.png" alt="Eqp Commerci Gloves"/>  <img src="/images/equipment/commerci-cape.png" alt="Eqp Commerci Cape"/><strong/>  <a href="https://maplestorywiki.net/w/Equipment_Set/Sweetwater_Set" target="_blank" rel="noreferrer noopener">[Sweetwater Gear]</a> Dropped by Commerci Voyage Bosses</li>
                 <li><strong>[Lv. 160]</strong> <img src="/images/equipment/sweetwater-monocle.png" alt="Eqp Sweetwater Monocle"/>  <img src="/images/equipment/sweetwater-tattoo.png" alt="Eqp Sweetwater Tattoo"/> [ <a href="https://maplestorywiki.net/w/Sweetwater_Tattoo" target="_blank" rel="noreferrer noopener">Eye</a> / <a href="https://maplestorywiki.net/w/Sweetwater_Monocle" target="_blank" rel="noreferrer noopener">Face</a> ] Purchasable using <img src="/images/items/commerci-denaro.png" alt="Etc Commerci Denaro"/> <a href="https://maplestorywiki.net/w/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaro]</a> from <a href="https://maplestorywiki.net/w/Javert" target="_blank" rel="noreferrer noopener">Javert</a></li>
                 <li><strong>[Lv. 160]</strong> <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> [ <a href="https://maplestorywiki.net/w/Antellion_Guardian" target="_blank" rel="noreferrer noopener">Best-In-Slot Medal For Training</a> / <a href="https://maplestorywiki.net/w/Subani-Roid" target="_blank" rel="noreferrer noopener">Android</a> / <a href="https://maplestorywiki.net/w/Dr.Jang-Roid" target="_blank" rel="noreferrer noopener">Android</a> ] Rewarded for completing <a href="https://maplestorywiki.net/w/Epic/Masteria_Through_Time" target="_blank" rel="noopener noreferrer">Masteria Through Time Blockbuster</a>
@@ -643,6 +643,11 @@ function EquipmentContent(){
                     </ul>
                 </li>
                 <li><strong>[Lv. 170]</strong> <img src="/images/equipment/treasure-hunter-johns-ring.png" alt="Eqp Treasure Hunter John's Ring"/>  <img src="/images/equipment/treasure-hunter-jacks-scar.png" alt="Eqp Treasure Hunter Jack's Scar"/>  <img src="/images/equipment/subanis-pendant.png" alt="Eqp Subani's Pendant"/> <img src="/images/equipment/lukans-pauldron.png" alt="Eqp Lukan's Pauldron"/> <img src="/images/equipment/elpams-belt.png" alt="Eqp Elpam's Belt"/> <img src="/images/equipment/professor-foxwits-glasses.png" alt="Eqp Professor Foxwit's Glasses"/> <img src="/images/equipment/sheriff-litas-earrings.png" alt="Eqp Sheriff Lita's Earrings"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Masteria_Explorer_Set" target="_blank" rel="noreferrer noopener">[Lv. 125 Masteria Explorer Gear]</a> Purchasable using <img src="/images/items/nlc-commemorative-coin.png" alt="Etc NLC Commemorative Coin"/> <a href="https://maplestorywiki.net/w/NLC_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[NLC Commemorative Coins]</a> from <a href="https://maplestorywiki.net/w/Spindle#Merchant" target="_blank" rel="noreferrer noopener">Spindle</a></li>
+                <li><strong>[Lv. 175+]</strong> <img src="/images/equipment/tyrant-hyades-cloak.png" alt="Eqp Tyrant Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Tyrant_Hyades_Cloak" target="_blank" rel="noreferrer noopener">[Lv. 150 Tyrant Capes]</a> Dropped by <a href="https://maplestorywiki.net/w/Magnus/Monster#Hard" target="_blank" rel="noreferrer noopener">Hard Magnus</a> and purchasable using <img src="/images/items/magnus-coin.png" alt="Etc Magnus Coin"/> <a href="https://maplestorywiki.net/w/Magnus_Coin" target="_blank" rel="noreferrer noopener">[Magnus Coins]</a> from <a href="https://maplestorywiki.net/w/Mayala" target="_blank" rel="noreferrer noopener">Mayala</a> who also sells <img src="/images/equipment/tyrant-hyades-belt.png" alt="Eqp Tyrant Hyades Belt"/> <a href="https://maplestorywiki.net/w/Tyrant_Hyades_Belt" target="_blank" rel="noreferrer noopener">[Lv. 150 Tyrant Belts]</a>
+                    <ul>
+                        <li>Not recommended because it is expensive to upgrade</li>
+                    </ul>
+                </li>
                 <li><strong>[Lv. 180]</strong>  <img src="/images/equipment/glonas-heart.png" alt="Eqp Glona's Heart"/> <a href="https://maplestorywiki.net/w/Glona%27s_Heart" target="_blank" rel="noreferrer noopener">[Ring]</a> Purchasable using <img src="/images/items/shadowknight-coin.png" alt="Etc Shadowknight Coin"/> <a href="https://maplestorywiki.net/w/Shadowknight_Coin" target="_blank" rel="noreferrer noopener">[Shadowknight Coins]</a> and Mesos from <a href="https://maplestorywiki.net/w/Fiona" target="_blank" rel="noreferrer noopener">Fiona</a>
                     <ul>
                         <li>Not recommended because it is expensive to upgrade</li>
@@ -1861,6 +1866,18 @@ function DailyWeekly(){
         </div>
     );
 };
+
+function MaplePlanner(){
+    return(
+        <div>
+            <ArticleHeaderTwo id="mapleplanner">Maple Planner:</ArticleHeaderTwo>
+            <hr/>
+            <img className="repository-image" src="/images/info/maple-planner-ui.png" alt="Maple Planner"/>
+            <p>The Maple Planner provides a convenient way to organize your daily and weekly content. By pressing on the Gear icon beside each category, content can be added to the Maple Planner. Content that is added like bosses can be directly teleported. Content that is added like daily or weekly quests can be accepted and completed directly</p>
+            <p>The Maple Planner can be accessed by clicking the Book icon on the left-side of the screen or by assigning a Key Slot</p>
+        </div>
+    );
+}
 
 function TrainingMaps(){
     SwiperCore.use([Scrollbar, Mousewheel]);

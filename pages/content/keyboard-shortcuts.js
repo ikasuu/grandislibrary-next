@@ -24,6 +24,7 @@ function KeyboardShortcuts() {
                 <li><Link smooth href="#user-list" scroll>Friends, Party, Boss Party</Link></li>
                 <li><Link smooth href="#item-pot" scroll>Item Pot</Link></li>
                 <li><Link smooth href="#maple-guide" scroll>Maple Guide</Link></li>
+                <li><Link smooth href="#maple-planner" scroll>Maple Planner</Link></li>
                 <li><Link smooth href="#inventory" scroll>Item Inventory</Link></li>
                 <li><Link smooth href="#char-info" scroll>Character Info</Link></li>
                 <li><Link smooth href="#guild" scroll>Guild</Link></li>
@@ -58,6 +59,7 @@ function KeyboardShortcuts() {
             <FriendsPartyBoss/>
             <ItemPot/>
             <MapleGuide/>
+            <MaplePlanner/>
             <Items/>
             <CharInfo/>
             <BannerAdTwo/>
@@ -100,7 +102,6 @@ function IntroKeyboardShortcuts(){
 function ChangeQuickslots(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="quickslots">Change Quickslots</h3>
             <img className="repository-image" src="/images/info/quickslots.png" alt="Quickslots"/>
             <p>Pressing the "Change Quickslots" button on the bottom left, you can change the position of each Key Slot in the bottom right Quickslots</p>
@@ -112,7 +113,6 @@ function ChangeQuickslots(){
 function QuestLog(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="quest-log">Q - Quest Log</h3>
             <img className="repository-image" src="/images/info/quest-log.png" alt="Quest Log"/>
             <p>In the Quest Log, all types of quests from Available, In Progress, and Completed quests can be viewed</p>
@@ -124,7 +124,6 @@ function QuestLog(){
 function WorldMap(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="world-map">W - World Map</h3>
             <img className="repository-image" src="/images/info/world-map-ui.png" alt="World Map"/>
             <p>Here you can view all areas in the game that have world maps</p>
@@ -138,7 +137,6 @@ function WorldMap(){
 function Equipment(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="equipment">E - Equipment</h3>
             <img className="repository-image" src="/images/info/equipment-ui.png" alt="Equipment UI"/>
             <p>Here you can view and access the equipment you have equipped. As well, you can visually show/hide your Medal and Title that you have equipped by clicking the boxes at the bottom</p>
@@ -168,7 +166,6 @@ function Equipment(){
 function FriendsPartyBoss(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="user-list">R - Friends, P - Party, T - Boss Party</h3>
             <img className="repository-image" src="/images/info/friend-list-ui.png" alt="Friend Tab"/>
             <p>Pressing 'R', 'P', and 'T' will bring up the Maple User List UI where you can access your Friends List, Party, Boss Matchmaking System, and your Blacklist</p>
@@ -180,7 +177,6 @@ function FriendsPartyBoss(){
 function ItemPot(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="item-pot">Y - Item Pot</h3>
             <img className="repository-image" src="/images/info/item-pot-ui.png" alt="Item Pot"/>
             <p>The <a href="https://strategywiki.org/wiki/MapleStory/Item_Pot" target="_blank" rel="noopener noreferrer">Item Pot</a> is a feature from the <a href="https://maplestorywiki.net/w/MapleStory:_Chaos" target="_blank" rel="noopener noreferrer">Chaos Update</a> where you place a special item <img src="/images/items/gemstone-imp.png" alt="Use Gemstone Imp"/> <img src="/images/items/orange-imp.png" alt="Use Orange Imp"/> <img src="/images/items/alarm-clock.png" alt="Use Alarm Clock"/> <img src="/images/items/jukebox.png" alt="Use Jukebox"/> <img src="/images/items/pounding-heart.png" alt="Use Pounding Heart"/> <img src="/images/items/triangular-rice-ball.png" alt="Use Triangular Rice Ball"/> and let it grow and harvest for some rewards</p>
@@ -191,7 +187,6 @@ function ItemPot(){
 function MapleGuide(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="maple-guide">U - Maple Guide</h3>
             <p><img className="repository-image" src="/images/info/maple-guide-expanded.png" alt="Maple Guide Expanded"/><img className="repository-image" src="/images/info/maple-guide-ui.png" alt="Maple Guide"/></p>
             <p>Unlocked at Lv. 30, the Maple Guide lists Recommended Quests, Content and Hunting Zones for your level range. Pressing the Maple Guide Key while the Maple Guide is open will expand it into a larger window</p>
@@ -201,10 +196,20 @@ function MapleGuide(){
     )
 }
 
+function MaplePlanner(){
+    return(
+        <div>
+            <h3 id="maple-planner">Maple Guide</h3>
+            <img className="repository-image" src="/images/info/maple-planner-ui.png" alt="Maple Planner"/>
+            <p>The Maple Planner provides a convenient way to organize your daily and weekly content. By pressing on the Gear icon beside each category, content can be added to the Maple Planner. Content that is added like bosses can be directly teleported. Content that is added like daily or weekly quests can be accepted and completed directly</p>
+            <p>The Maple Planner can be accessed by clicking the Book icon on the left-side of the screen or by assigning a Key Slot</p>
+        </div>
+    )
+}
+
 function Items(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="inventory">I - Item Inventory</h3>
             <img className="repository-image" src="/images/info/inventory-expanded-ui.png" alt="Expanded Inventory"/>
             <p>Here you will see all the items you have obtained and as well as how much Mesos and Maple Points you have. Note, Maple Points are shared within your whole account.</p>
@@ -219,7 +224,6 @@ function Items(){
 function Guild(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="guild">G - Guild</h3>
             <img className="repository-image" src="/images/info/guild-ui.png" alt="Guild UI"/>
             <p>Here you can access and manage Guild features</p>
@@ -231,7 +235,6 @@ function Guild(){
 function Whisper(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="whisper">H - Whisper</h3>
             <img className="repository-image" src="/images/info/whisper-ui.png" alt="Whisper"/>
             <p>This will bring up a window where you can type in the name of a Character you would like to whisper. Whispering a player will privately message them</p>
@@ -242,7 +245,6 @@ function Whisper(){
 function Skill(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="skill">K - Skill</h3>
             <img className="repository-image" src="/images/info/skill-expanded-ui.png" alt="Skill UI"/>
             <p>Here you can manage all of your class' Skills. You can also drag Active Skills into an empty Key Slot in the Keyboard Shortcuts</p>
@@ -254,7 +256,6 @@ function Skill(){
 function Notifier(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="notifier">L - Notifier</h3>
             <img className="repository-image" src="/images/info/quest-helper.png" alt="Notifier"/>
             <p>Pressing this Key will toggle a window on screen that provides information on some currently active quests</p>
@@ -265,7 +266,6 @@ function Notifier(){
 function Medals(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="medals">; Medals</h3>
             <img className="repository-image" src="/images/info/medals-ui.png" alt="Medals"/>
             <p>Pressing this Key will open a UI to manage all of the Medals that you have obtained on your character. There are a few special Medals that do not get registered to the Medal UI but most are rare and unobtainable</p>
@@ -277,7 +277,6 @@ function Medals(){
 function MapleChat(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="maple-chat">C - Maple Chat</h3>
             <img className="repository-image" src="/images/info/maple-chat-ui.png" alt="Maple Chat"/>
             <p>Here you can invite players to chat with. There are also emotes available at the bottom left on the chat bar. For more info, you can press the '?' button on the top right. As well, you can minimize and expand the window by pressing the '+' and '-' buttons on the top right</p>
@@ -288,7 +287,6 @@ function MapleChat(){
 function Events(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="events">V - Events</h3>
             <img className="repository-image" src="/images/info/event-list-ui.png" alt="Events"/>
             <p>Pressing the Key will open a UI that displays all current and upcoming events and their start and end date times</p>
@@ -299,7 +297,6 @@ function Events(){
 function Professions(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="professions">B - Professions</h3>
             <img className="repository-image" src="/images/info/professions-ui.png" alt="Professions"/>
             <p>Pressing the Key will open the Profressions UI where you can view your Traits stats and any Professions you have. On the top right, you will also see a button called "Ardentmill" which will teleport you to the Professions town, Ardentmill. The skill can only be used Lv. 35+ and has a 30 min cooldown</p>
@@ -311,7 +308,6 @@ function Professions(){
 function Minimap(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="minimap">M - Minimap</h3>
             <img className="repository-image" src="/images/info/minimap.png" alt="Minimap"/>
             <p>Pressing this Key will adjust the size of your minimap</p>
@@ -322,7 +318,6 @@ function Minimap(){
 function CharInfo(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="char-info">S - Character Info</h3>
             <img className="repository-image" src="/images/info/character-info-ui.png" alt="Char Info"/>
             <p>Upon opening the UI and pressing the "Detail" button displays a window to view and manage your character's stats, allocate points for your Hyper Stats, and manage your Inner Ability. Below "Combat Power" is an arrow button on the right-side that opens the Auto Assign AP window</p>
@@ -334,7 +329,6 @@ function CharInfo(){
 function SoulWeapon(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="soul-weapon">Soul Weapon</h3>
             <img className="repository-image" src="/images/info/soul-weapon-ui.png" alt="Soul Weapon"/>
             <p>If you have a Soul Weapon equipped, this Key will toggle the Soul Weapon UI where you can manage Soul Weapon features</p>
@@ -345,7 +339,6 @@ function SoulWeapon(){
 function BattleAnalysis(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="battle-analysis">Battle Analysis</h3>
             <p><img className="repository-image" src="/images/info/battle-analysis-expanded-ui.png" alt="Battle Analysis Expanded"/><img className="repository-image" src="/images/info/battle-analysis-ui.png" alt="Battle Analysis"/></p>
             <p>Pressing the Key will display a small window where you can record battle information such as total damage dealt, EXP acquired, and other valuable details. Pressing the '+' button will expand the UI to display more detailed information</p>
@@ -356,7 +349,6 @@ function BattleAnalysis(){
 function EnhanceEquipment(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="enhance">Enhance Equipment</h3>
             <img className="repository-image" src="/images/info/equipment-enchant-ui.png" alt="Enhance Equipment"/>
             <p>Pressing the Key will open the UI for upgrading your equipment with Spell Traces (in Interactive Worlds) and for Star Forcing</p>
@@ -368,7 +360,6 @@ function EnhanceEquipment(){
 function MonsterCollection(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="monster-collection">Monster Collection</h3>
             <img className="repository-image" src="/images/info/monster-collection-ui.png" alt="Monster Collection"/>
             <p>Pressing the Key will open the Monster Collection window. Here you can see all the monsters you've registered so far. Defeating monsters have a very small chance of registering into your Monster Collection. Note, Monster Collection is different from Familiars</p>
@@ -379,7 +370,6 @@ function MonsterCollection(){
 function Legion(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="legion">Manage Legion</h3>
             <img className="repository-image" src="/images/info/legion-ui.png" alt="Legion"/>
             <p>Pressing the Key will open a UI where you can manage your Legion System. To learn more about the Legion System, check out: <a href="https://maplestorywiki.net/w/Legion_System" target="_blank" rel="noopener noreferrer">https://maplestorywiki.net/w/Legion_System</a></p>
@@ -390,7 +380,6 @@ function Legion(){
 function MapleNews(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="maple-news">Maple News</h3>
             <img className="repository-image" src="/images/info/maple-news-ui.png" alt="Maple News"/>
             <p>Pressing this Key will open a window that displays recent news. This window will also open whenever you log on to a character</p>
@@ -401,7 +390,6 @@ function MapleNews(){
 function PictureMode(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="picture-mode">Picture Mode</h3>
             <p>Pressing this Key will hide your UI. To make your UI appear again, you can press the ESC Key, Picture Mode Key, or by moving to another map</p>
         </div>
@@ -411,7 +399,6 @@ function PictureMode(){
 function Mute(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="mute">Mute</h3>
             <p>Pressing this Key will mute your game. Press the Key again to unmute</p>
         </div>
@@ -421,7 +408,6 @@ function Mute(){
 function MapleRelay(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="maple-relay">Maple Relay</h3>
             <img className="repository-image" src="/images/info/maple-relay-ui.png" alt="Maple Relay"/>
             <p>This Key is related to an event and can only be opened when the event is available. To learn more about Maple Relay, check out: <a href="https://www.grandislibrary.com/event/maple-relay" target="_blank" rel="noopener noreferrer">https://www.grandislibrary.com/event/maple-relay</a></p>
@@ -432,7 +418,6 @@ function MapleRelay(){
 function MapleAchievement(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="maple-achievement">Maple Achievement</h3>
             <img className="repository-image" src="/images/info/achievements-ui.png" alt="Maple Achievement"/>
             <p>Pressing this Key will open a UI to check out all your achievements you've made on your account</p>
@@ -443,7 +428,6 @@ function MapleAchievement(){
 function Familiar(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="familiar">Familiar</h3>
             <img className="repository-image" src="/images/info/familiar-ui.png" alt="Familiar"/>
             <p>Pressing this Key will open a UI to manage your <img src="/images/items/snail-familiar.png" alt="Use Snail Familiar"/><img src="/images/items/red-snail-familiar.png" alt="Use Red Snail Familiar"/> familiars that you've registered. Familiars are different from Monster Collection and instead can be summoned and provides bonus stats</p>
@@ -454,7 +438,6 @@ function Familiar(){
 function Emoticon(){
     return(
         <div>
-            {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
             <h3 id="emoticon">Emoticon</h3>
             <img className="repository-image" src="/images/info/emoticon-ui.png" alt="Emoticon"/>
             <p>Pressing the Key opens a window where you can view and use Emoticons. Emoticons are emotes that are displayed in speech bubbles above your character. Clicking into any of the icons on the top will show you all the possible Emoticons. You can also assign these Emoticons to a Key Slot</p>
