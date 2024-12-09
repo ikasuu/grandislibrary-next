@@ -47,7 +47,7 @@ function ProgressionGuide() {
             </Head>
             <ContentTitle>Progression Guide</ContentTitle>
             <StickyAd/>
-            <p>This guide will cover useful content between Lv. 1 - 250. For more info on all the content between Lv. 1 - 250 in MapleStory, check out: <a href="https://www.grandislibrary.com/contents/level-content-guide" target="_blank" rel="noreferrer noopener">https://www.grandislibrary.com/contents/level-content-guide</a>
+            <p>This guide will cover useful content for progression. This is not a step by step guide but instead a guide to help players get started. For info on all the content in MapleStory, check out the <a href="https://www.grandislibrary.com/contents/level-content-guide" target="_blank" rel="noreferrer noopener">Level Content Guide</a>
             </p>
             <h3 id="top">Quick Jumps</h3>
             <ul>
@@ -156,7 +156,6 @@ function ProgressionGuide() {
             <TrainingMaps/>
             <ThemeDungeons/>
             <QuestContent/>
-            <LightbulbQuests/>
         </ContentPage>
     );
 };
@@ -166,10 +165,9 @@ function Introduction(){
         <div>
             <ArticleHeaderTwo id="intro">Introduction</ArticleHeaderTwo>
             <hr/>
-            <p>This is not a step by step guide instead, a guide to useful content and systems for progressing in MapleStory</p>
             <p>Some brief advice, don't worry about dailies and bosses until after Lv. 200 and 5th Job Advancement. Even past Lv. 200, focus on levelling up, filling all equipment slots, and completing pre-quests</p>
-            <p>All classes are weak early on, especially if this is your first character. As you reach Lv. 200 and beyond, enemies will be stronger and tougher but, it eventually becomes easier</p>
-            <p>Choose classes that you enjoy or looks enticing. Don't rely on DPM charts or look for the 'best' class since to become as strong as they are suggested is a massive time sink. As well, DPM charts do not translate to the actual DPM in-game as they are created under very specific conditions</p>
+            <p>All classes are weak early on, especially if this is your first character. As you reach Lv. 200 and beyond, enemies get stronger and tougher but will become easier as you progress</p>
+            <p>Choose classes look enjoyable or interesting. Don't rely on DPM charts or look for the 'best' class since to become as strong as they are suggested because it is a massive time sink. As well, DPM charts do not translate to the actual DPM in-game as they are created under very specific conditions</p>
             <p>Good luck on your Maple journey!!</p>
         </div>
     );
@@ -178,7 +176,7 @@ function Introduction(){
 function JobAdvancement(){
     return(
         <div>
-            <ArticleHeaderTwo id="jobadv">Job Advancements:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="jobadv">Job Advancements</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/job-advancement.png" alt="Job Advancement"/>
             <p>Most classes gain new skills through Job Advancements at Lv. 10, 30, 60, 100, 200, and 260. These are known as 1st, 2nd, 3rd, 4th, 5th, and 6th Job Advancements</p>
@@ -193,7 +191,7 @@ function JobAdvancement(){
 function StatDistribution(){
     return(
         <div>
-            <ArticleHeaderTwo id="apsp">SP and AP Distribution:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="apsp">SP and AP Distribution</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/skill-ui.png" alt="Skill UI"/>
             <img className="repository-image" src="/images/info/stat-ui.png" alt="SP UI"/>
@@ -209,7 +207,7 @@ function StatDistribution(){
 function InnerAbility(){
     return(
         <div>
-            <ArticleHeaderTwo id="inner">Inner Ability:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="inner">Inner Ability</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/inner-ability.png" alt="Inner Ability"/>
             <p>Inner Ability is located in the Character Info UI and is automatically unlocked at Lv. 50</p>
@@ -222,7 +220,7 @@ function InnerAbility(){
 function LinkSkills(){
     return(
         <div>
-            <h3>Link Skills:</h3>
+            <h3>Link Skills</h3>
             <hr/>
             <img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager"/>
             <p>Upon reaching Lv. 70, each class has a Link Skill that can be shared with another character where both characters gain the effect of the Link Skill</p>
@@ -235,7 +233,7 @@ function LinkSkills(){
 function PocketSlot(){
     return(
         <div>
-            <ArticleHeaderTwo id="pocket">Pocket Slot:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="pocket">Pocket Slot</ArticleHeaderTwo>
             <hr/>
             <p>Upon reaching Lv. 30 Charm Trait, the equipment slot for Pocket Items is automatically unlocked</p>
             <p>Traits located in the Professions UI, "B" by default provide special bonuses upon reaching certain levels like unlocking Pocket Slot or increasing %Ignore DEF</p>
@@ -309,7 +307,7 @@ function Level140Beyond(){
 function FifthJob(){
     return(
         <div>
-            <ArticleHeaderTwo id="5th">5th Job Advancement &amp; Arcane River:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="5th">5th Job Advancement &amp; Arcane River</ArticleHeaderTwo>
             <hr/>
             <p><strong>Mandatory Requirements to accept 5th Job Quest:</strong></p>
             <ul>
@@ -344,7 +342,7 @@ function FifthJob(){
 function VMatrix(){
     return(
         <div>
-            <ArticleHeaderTwo id="matrix">5th Job V Matrix + Nodestones:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="matrix">5th Job V Matrix + Nodestones</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/v-matrix-ui.png" alt="V Matrix"/>
             <p>Unlike previous Job Advancements, in 5th Job, skills are gained from equipping "Nodes" into your V Matrix to unlock new skills and passive boosts to 1st - 4th Job skills. Nodes are gained by opening <img src="/images/items/nodestone.png" alt="Nodestone Item"/> Nodestones that are obtained from monsters in the Arcane River, Vanishing Journey Weekly Quest, Nodecrafting, and Event Shops</p>
@@ -428,7 +426,7 @@ function LegionSystem(){
 function RewardPoints(){
     return(
         <div>
-            <ArticleHeaderTwo id="rewardpoint">Reward Points + Maple Rewards Shop:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="rewardpoint">Reward Points + Maple Rewards Shop</ArticleHeaderTwo>
             <hr/>
             <p><img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points are used in the Cash Shop at the Maple Rewards Shop or to apply a 30% discount to certain Cash Shop purchases</p>
             <p>Reward Points expire at the end of the next month that the points were obtained. So if you obtained some Reward Points in August, the points would expire on September 30th</p>
@@ -478,7 +476,7 @@ function AuctionHouse(){
 function ImportantContent(){
     return(
         <div>
-            <ArticleHeaderTwo id="content">Important Content:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="content">Important Content</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li><strong>[Interactive Worlds] Spell Tracing</strong>: <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Traces are used for upgrading gear based on the number of "Remaining Enhancements" an equipment has
@@ -522,7 +520,7 @@ function ImportantContent(){
 function ImportantQuestlines(){
     return(
         <div>
-            <ArticleHeaderTwo id="questlines">Important Questlines to Complete:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="questlines">Important Questlines to Complete</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/heliseum.png" alt="MapIcon Heliseum"/> <strong>[Lv. 90] </strong><a href="https://maplestorywiki.net/w/Category:Heliseum" target="_blank" rel="noreferrer noopener"><strong>Heliseum</strong></a>: Unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestorywiki.net/w/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> use to exchange items from <a href="https://maplestorywiki.net/w/Mayala" target="_blank" rel="noreferrer noopener">Mayala</a>
@@ -552,7 +550,7 @@ function ImportantQuestlines(){
 function EquipmentContent(){
     return(
         <div>
-            <ArticleHeaderTwo id="equipment">Equipment Content:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="equipment">Equipment Content</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li>Level beside items are when they can be obtained or equipped</li>
@@ -734,7 +732,7 @@ function EquipmentContent(){
 function SpellTracing(){
     return(
         <div>
-            <h3>Progression towards Midgame:</h3>
+            <h3>Progression towards Midgame</h3>
             <hr/>
             <p>For info on upgrading and enhancing gear check out: <a rel="noreferrer noopener" href="https://www.grandislibrary.com/contents/upgrading-enhancing-equipment" target="_blank">https://www.grandislibrary.com/contents/upgrading-enhancing-equipment</a></p>
             <h3 id="spelltrace"> <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing in Interactive Worlds:</h3>
@@ -762,7 +760,7 @@ function SpellTracing(){
 function StarForcing(){
     return(
         <div>
-            <h3 id="starforce">Star Forcing:</h3>
+            <h3 id="starforce">Star Forcing</h3>
             <hr/>
             <img className="repository-image" src="/images/info/starforce-tooltip.png" alt="Star Force Example"/>
             <p>Star Force Enhancements cost Mesos and grants increased stats to an equipment upon success. On Interactive Worlds, before an equipment can be Star Force/enhance, all upgrade slots must be used. In Heroic Worlds, gear can be Star Forced/enhanced immediately since there are no upgrade slots</p>
@@ -783,7 +781,7 @@ function StarForcing(){
 function BonusStats(){
     return(
         <div>
-            <h3 id="additionalstats">Bonus Stats/Flames:</h3>
+            <h3 id="additionalstats">Bonus Stats/Flames</h3>
             <hr/>
             <p>For now don't worry too much about Bonus Stats and Rebirth Flames. If you do obtain a special rebirth flame, feel free to use it on anything or on Interactive Worlds, you can sell them (if tradeable)</p>
             <p>Some nice stats to reroll into is your Main Stat, %All Stat, %Boss Damage or Attack/Magic Attack</p>
@@ -826,7 +824,7 @@ function BonusStats(){
 function TransferHammer(){
     return(
         <div>
-            <h3 id="transferhammer">Transfer Hammer:</h3>
+            <h3 id="transferhammer">Transfer Hammer</h3>
             <hr/>
             <img className="repository-image" src="/images/info/transfer-hammer-ui.png" alt="Transfer Hammer UI"/>
             <p>Transfer Hammer is a system that allows you to transfer Star Force, Potentials, Bonus Potentials, and Soul Weapon from one equipment to another (with restrictions). The following will not be transferred, Scrolled Stats and Bonus Stats. Additionally, you will lose one Star Force while transferring and any potentials above Epic will be dropped down to Epic Potential. You can only transfer equipment up to 10 levels apart of each other. For equipment below Lv. 119, you can transfer up to 20 levels apart</p>
@@ -841,7 +839,7 @@ function TransferHammer(){
 function EpicPotentialGear(){
     return(
         <div>
-            <h3 id="epicgear">Epic Potential Gear and so on:</h3>
+            <h3 id="epicgear">Epic Potential Gear and so on</h3>
             <hr/>
             <p>In early game, all gear should be at least 9% Main Stat with Epic Potential. You will also want to working towards Unique Potential gear. Your main focus for this would be to try and get your Weapon, Secondary Weapon, and Emblem to unique first as their potentials can provide stats like %Attack/Magic Attack, %Ignore DEF and %Boss Damage unlike the rest of your gear. As a note, do not keep %Damage lines as they do not provide as much as a boost as the other potential lines do</p>
             <p>As well, all equipment should have 3 lines of potential instead of 2. Otherwise, use <img src="/images/items/gold-potential-stamp.png" alt="Gold Potential Stamp"/> <a href="https://maplestorywiki.net/w/Gold_Potential_Stamp" target="_blank" rel="noreferrer noopener">[Gold Potential Stamp]</a> to unlock a 3rd line</p>
@@ -860,6 +858,11 @@ function EpicPotentialGear(){
                 <li><strong>[Interactive Worlds]</strong> Auction House
                     <ul>
                         <li>Search for <img src="/images/items/gold-potential-stamp.png" alt="Perfect Potential Stamp"/> <a href="https://maplestorywiki.net/w/Perfect_Potential_Stamp" target="_blank" rel="noreferrer noopener">[Perfect Potential Stamp]</a></li>
+                    </ul>
+                </li>
+                <li><strong>[Heroic Worlds]</strong> General Merchant Stores
+                    <ul>
+                        <li>Sells <img src="/images/items/silver-potential-stamp.png" alt="Silver Potential Stamp"/> <a href="https://maplestorywiki.net/w/Silver_Potential_Stamp" target="_blank" rel="noreferrer noopener">[Silver Potential Stamp]</a> instead that has a lower chance of success</li>
                     </ul>
                 </li>
                 <li>Event Shops</li>
@@ -882,10 +885,11 @@ function EpicPotentialGear(){
 function EarlygameBossesOne(){
   return(
     <div>
-        <ArticleHeaderTwo id="bosses">[ &lt; 2k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+        <ArticleHeaderTwo id="bosses">[ &lt; 2k Main Stat] Earlygame Bosses</ArticleHeaderTwo>
         <hr/>
         <p>The amount of Main Stat listed is just a safe recommendation, your class may be able to defeat a boss with lower stat since there many other ways to improve a character besides Main Stat like Boost Nodes, %Boss Damage, or %Ignore DEF</p>
         <p>There are also better options to test boss readiness such as attempting Practice Mode on a boss or Battle Analysis with a training dummy</p>
+        <p>An alternative is also to compare with Combat Power like this <a href="https://docs.google.com/spreadsheets/d/1CVXdf29crUi0QH1Pw4JZfcfEys-i4NDcSE7oqhJG3N4" target="_blank" ref="noreferrer noopener">Google Doc</a></p>
         <ul>
             <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>Normal Zakum</strong></a>
             <ul>
@@ -963,7 +967,7 @@ function EarlygameBossesOne(){
 function EarlygameBossesTwo(){
     return(
         <div>
-            <ArticleHeaderTwo id="bosses">[ &gt; 3k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="bosses">[ &gt; 3k Main Stat] Earlygame Bosses</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/gollux.png" alt="MapIcon Gollux"/> <strong><a href="https://maplestorywiki.net/w/Gollux" target="_blank" rel="noreferrer noopener">Easy/Normal Gollux</a></strong>:
@@ -1059,7 +1063,7 @@ function EarlygameBossesTwo(){
 function EarlygameBossesThree(){
     return(
         <div>
-            <ArticleHeaderTwo id="bosses">[ &gt; 5k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="bosses">[ &gt; 5k Main Stat] Earlygame Bosses</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Cygnus</strong></a>
@@ -1106,7 +1110,7 @@ function EarlygameBossesThree(){
 function EarlygameBossesFour(){
     return(
         <div>
-            <ArticleHeaderTwo>[ &gt; 8k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>[ &gt; 8k Main Stat] Earlygame Bosses</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener"><strong>Normal Cygnus</strong></a>
@@ -1163,7 +1167,7 @@ function EarlygameBossesFour(){
 function EarlygameBossesFive(){
     return(
         <div>
-            <ArticleHeaderTwo>[ &gt; 12k Main Stat] Earlygame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>[ &gt; 12k Main Stat] Earlygame Bosses</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener"><strong>Chaos Pink Bean</strong></a>
@@ -1209,7 +1213,7 @@ function EarlygameBossesFive(){
 function MidgameBossesOne(){
     return(
         <div>
-            <ArticleHeaderTwo>[ &gt; 14k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>[ &gt; 14k Main Stat] Midgame Bosses</ArticleHeaderTwo>
             <hr/>
             <p>Recommended to have at least &gt;%90 IED and &gt;200% Boss Damage for bosses beyond this point</p>
             <ul>
@@ -1264,7 +1268,7 @@ function MidgameBossesOne(){
 
 function MidgameBossesTwo(){
     <div>
-        <ArticleHeaderTwo>[ &gt; 20k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
+        <ArticleHeaderTwo>[ &gt; 20k Main Stat] Midgame Bosses</ArticleHeaderTwo>
         <hr/>
         <ul>
             <li> <img src="/images/map-icons/ludibrium.png" alt="MapIcon Papulatus Clock"/> <a href="https://maplestorywiki.net/w/Papulatus" target="_blank" rel="noreferrer noopener"><strong>Chaos Papulatus</strong></a>
@@ -1335,7 +1339,7 @@ function MidgameBossesTwo(){
 function MidgameBossesThree(){
     return(
         <div>
-            <ArticleHeaderTwo>[ &gt; 28k Main Stat] Midgame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>[ &gt; 28k Main Stat] Midgame Bosses</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li> <img src="/images/map-icons/lachelein.png" alt="MapIcon Lachelein"/> <a href="https://maplestorywiki.net/w/Lucid/Monster" target="_blank" rel="noreferrer noopener"><strong>Easy Lucid</strong></a>
@@ -1391,7 +1395,7 @@ function MidgameBossesThree(){
 function EndgameBossesOne(){
     return(
         <div>
-            <ArticleHeaderTwo>Tier I Endgame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>Tier I Endgame Bosses</ArticleHeaderTwo>
             <hr/>
             <p>Bosses beyond this point are not meant to be soloable and are more party-oriented bosses. As well, beyond this point, bosses will be separated by tiers as there is no good recommended stat indicators for the reasons mentioned earlier.</p>
             <ul>
@@ -1459,7 +1463,7 @@ function EndgameBossesOne(){
 function EndgameBossesTwo(){
     return(
         <div>
-            <ArticleHeaderTwo>Tier II Endgame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>Tier II Endgame Bosses</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li><img src="/images/map-icons/haven.png" alt="MapIcon Haven"/> <strong><a href="https://maplestorywiki.net/w/Lotus" target="_blank" rel="noreferrer noopener">Hard Lotus</a></strong>
@@ -1559,7 +1563,7 @@ function EndgameBossesTwo(){
 function EndgameBossesThree(){
     return(
         <div>
-            <ArticleHeaderTwo>Tier III Endgame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>Tier III Endgame Bosses</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li><img src="/images/map-icons/moonbridge.png" alt="MapIcon Moonbridge"/> <strong><a href="https://maplestorywiki.net/w/Giant_Monster_Gloom" target="_blank" rel="noreferrer noopener">Chaos Gloom</a></strong>
@@ -1631,7 +1635,7 @@ function EndgameBossesThree(){
 function EndgameBossesFour(){
     return(
         <div>
-            <ArticleHeaderTwo>Tier IV Endgame Bosses:</ArticleHeaderTwo>
+            <ArticleHeaderTwo>Tier IV Endgame Bosses</ArticleHeaderTwo>
             <hr/>
             <ul>
                 <li><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> <a href="https://maplestorywiki.net/w/Black_Mage/Monster" target="_blank" rel="noreferrer noopener"><strong>Black Mage</strong></a>
@@ -1724,7 +1728,7 @@ function EndgameBossesFour(){
 function DailyWeekly(){
     return(
         <div>
-            <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="dailyweekly">Daily / Weekly Quests</ArticleHeaderTwo>
             <hr/>
             <p>Daily and Weekly Quests are primarily unlocked after Lv. 200. Characters pre-200 should focus on levelling up first before worring about these quests</p>
             <h3>Dailies</h3>
@@ -1870,7 +1874,7 @@ function DailyWeekly(){
 function MaplePlanner(){
     return(
         <div>
-            <ArticleHeaderTwo id="mapleplanner">Maple Planner:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="mapleplanner">Maple Planner</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/maple-planner-ui.png" alt="Maple Planner"/>
             <p>The Maple Planner provides a convenient way to organize your daily and weekly content. By pressing on the Gear icon beside each category, content can be added to the Maple Planner. Content that is added like bosses can be directly teleported. Content that is added like daily or weekly quests can be accepted and completed directly</p>
@@ -1898,7 +1902,7 @@ function TrainingMaps(){
 
     return(
         <div>
-            <ArticleHeaderTwo id="training">Training Maps:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="training">Training Maps</ArticleHeaderTwo>
             <hr/>
             <img className="repository-image" src="/images/info/world-map-ui.png" alt="World Map"/>
             <p>Below is a list of suggested training maps. To find out how to navigate to a specific map, open your World Map (W by default) and search for the desired map on the right-hand side. Clicking on an entry will direct you to the map and start blinking</p>
@@ -1929,43 +1933,44 @@ function TrainingMaps(){
 function ThemeDungeons(){
     return(
         <div>
-            <ArticleHeaderTwo id="themedungeon">Theme Dungeons:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="themedungeon">Theme Dungeons</ArticleHeaderTwo>
             <hr/>
+            <p>Theme Dungeons are storylines tied to areas below Lv. 200. Typcially, completing a theme dungeon rewards Mesos and equipment. In the next section, Quest Content, the starting quest for each theme dungeon will be listed</p>
+            <p>Above Lv. 200, area quests are referred to as simply storylines or questlines. The main story above Lv. 200 takes place in the Arcane River and continent of Grandis. Within these two areas are sub-areas with their own storylines and quests</p>
             <ul>
-                <li> <img src="/images/map-icons/ellinel.png" alt="MapIcon Ellinel"/> <strong>[Lv. 30 - 59] </strong><a href="https://maplestorywiki.net/w/Category:Ellinel" target="_blank" rel="noreferrer noopener"><strong>Ellinel Fairy Academy</strong></a>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                <li> <img src="/images/map-icons/ellinel.png" alt="MapIcon Ellinel"/> <strong>[Lv. 30 - 59] </strong><a href="https://maplestorywiki.net/w/Category:Ellinel" target="_blank" rel="noreferrer noopener"><strong>Ellinel Fairy Academy</strong></a>
                     <ul>
                         <li><strong>Main Rewards</strong>:  <img src="/images/items/meso.png" alt="Meso"/> [1 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/ellinel-wings.png" alt="Eqp Ellinel Wings"/> <a href="https://maplestorywiki.net/w/Ellinel_Wings" target="_blank" rel="noreferrer noopener">[Cape]</a>, <img src="/images/equipment/ellinel-bracelet.png" alt="Eqp Ellinel Bracelet"/> [Glove], <img src="/images/equipment/fairy-mark.png" alt="Eqp Fairy Mark"/> <a href="https://maplestorywiki.net/w/Fairy_Mark" target="_blank" rel="noreferrer noopener">[Eye Accessory]</a>, <img src="/images/equipment/honorary-fairy-professor.png" alt="Eqp Honorary Fairy Professor"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/gold-beach.png" alt="MapIcon Gold Beach"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener">Gold Beach Resort</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                <li><img src="/images/map-icons/gold-beach.png" alt="MapIcon Gold Beach"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category%3AGold_Beach" target="_blank" rel="noreferrer noopener">Gold Beach Resort</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/items/meso.png" alt="Meso"/> [1 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/octopus-earrings.png" alt="Eqp Octopus Earrings"/> <a href="https://maplestorywiki.net/w/Octopus_Earrings" target="_blank" rel="noreferrer noopener">[Earrings]</a>, <img src="/images/equipment/beach-bum.png" alt="Eqp Beach Bum"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/riena-strait.png" alt="MapIcon Riena Strait"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Riena_Strait" target="_blank" rel="noreferrer noopener">Riena Strait</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                <li><img src="/images/map-icons/riena-strait.png" alt="MapIcon Riena Strait"/> <strong>[Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Riena_Strait" target="_blank" rel="noreferrer noopener">Riena Strait</a></strong>
                     <ul>
                         <li><strong>Main Rewards:</strong>  <img src="/images/items/meso.png" alt="Meso"/> [2 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/sailor-mask.png" alt="Eqp Sailor Mask"/> <a href="https://maplestorywiki.net/w/Sailor_Mask" target="_blank" rel="noreferrer noopener">[Face Accessory]</a>, <img src="/images/equipment/sailor-belt.png" alt="Eqp Sailor Belt"/> <a href="https://maplestorywiki.net/w/Sailor_Belt" target="_blank" rel="noreferrer noopener">[Belt]</a>, <img src="/images/equipment/deckhand.png" alt="Eqp Deckhand"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong> [Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Elodin" target="_blank" rel="noreferrer noopener">Secret Forest of Elodin</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                <li><img src="/images/map-icons/elodin.png" alt="MapIcon Elodin"/> <strong> [Lv. 30 - 59] <a href="https://maplestorywiki.net/w/Category:Elodin" target="_blank" rel="noreferrer noopener">Secret Forest of Elodin</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/elodin-bird-dog.png" alt="Eqp Elodin Bird Dog"/> [Medal], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/mushroom-castle.png" alt="MapIcon Mushroom Castle"/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">Mushroom Kingdom</a>: </strong>Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>
+                <li><img src="/images/map-icons/mushroom-castle.png" alt="MapIcon Mushroom Castle"/> <strong>[Lv. 60] <a href="https://strategywiki.org/wiki/MapleStory/Mushroom_Castle" target="_blank" rel="noreferrer noopener">Mushroom Kingdom</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/items/meso.png" alt="Meso"/> [3 mil Mesos], <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> [Spell Traces], <img src="/images/equipment/violettas-knight.png" alt="Eqp Violetta's Knight"/> [Medal], <img src="/images/equipment/heavy-violetta-cape.png" alt="Eqp Heavy Violetta Cape"/> <a href="https://maplestorywiki.net/w/Heavy_Violetta_Cape" target="_blank" rel="noreferrer noopener">[Heavy Violetta Cape]</a><a href="https://maplestorywiki.net/w/Deckhand" target="_blank" rel="noreferrer noopener">, </a> <img src="/images/equipment/shackles-of-love.png" alt="Eqp Shackles of Love"/> <a href="https://maplestorywiki.net/w/Shackles_of_Love" target="_blank" rel="noreferrer noopener">[Shackles of Love]</a></li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/afterlands.png" alt="MapIcon Afterlands"/> <strong>[Lv. 75] <a href="https://maplestorywiki.net/w/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">The Afterlands</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
+                <li><img src="/images/map-icons/afterlands.png" alt="MapIcon Afterlands"/> <strong>[Lv. 75] <a href="https://maplestorywiki.net/w/Category:The_Afterlands" target="_blank" rel="noreferrer noopener">The Afterlands</a></strong>
                     <ul>
-                        <li>An easy way to obtain 3 permanent Totem equipment</li>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/beodog-figurine.png" alt="Eqp Beodog Figurine"/> <img src="/images/equipment/billy-figurine.png" alt="Eqp Billy Figurine"/> <img src="/images/equipment/adler-figurine.png" alt="Eqp Adler Figurine"/> <img src="/images/equipment/mansa-figurine.png" alt="Eqp Mansa Figurine"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Afterlands_Souvenir" target="_blank" rel="noreferrer noopener">[Afterlands Totems]</a></li>
-                        <li>The Afterlands is known to be slightly buggy or frustrating to complete but provide some easy Totems</li>
+                        <li>An easy way to obtain permanent Totem equipment but it is known to be slightly buggy and frustrating without a guide</li>
                         <li>Here is a guide: <a href="https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/" target="_blank" rel="noreferrer noopener">https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/</a></li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon Mushroom Shrine"/> <strong>[Lv. 100] </strong><a href="https://maplestorywiki.net/w/Category:Mushroom_Shrine" target="_blank" rel="noreferrer noopener"><strong>Mushroom Shrine Tales</strong></a>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
+                <li><img src="/images/map-icons/mushroom-shrine.png" alt="MapIcon Mushroom Shrine"/> <strong>[Lv. 100] </strong><a href="https://maplestorywiki.net/w/Category:Mushroom_Shrine" target="_blank" rel="noreferrer noopener"><strong>Mushroom Shrine Tales</strong></a>
                     <ul>
                         <li>Upon completing the storyline, the <img src="/images/equipment/wings-of-fate.png" alt="Eqp Wings of Fate"/> <a href="https://maplestorywiki.net/w/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Wings of Fate]</a> cape is rewarded with goods stats but it is tedious to obtain as the storyline is long
                             <ul>
@@ -1974,68 +1979,69 @@ function ThemeDungeons(){
                         </li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon Lion King's Castle"/> <strong>[Lv. 115] <a href="https://maplestorywiki.net/w/Category%3ALion_King's_Castle" target="_blank" rel="noreferrer noopener">[Pre-Quest] Lion King's Castle</a></strong>: Accessible from a quest in your Lightbulb tab and from traveling from <a href="https://maplestorywiki.net/w/Sharp_Cliff_4" target="_blank" rel="noreferrer noopener">El Nath</a>, Completing this Theme Dungeon grants access to the boss <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a>
+                <li><img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon Lion King's Castle"/> <strong>[Lv. 115] <a href="https://maplestorywiki.net/w/Category%3ALion_King's_Castle" target="_blank" rel="noreferrer noopener">[Pre-Quest] Lion King's Castle</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/heart-of-a-lion.png" alt="Eqp Heart of a Lion"/> [Medal]</li>
+                        <li>Completing this theme dungeon unlocks access to the boss <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a></li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/korean-folk-town.png" alt="MapIcon Korean Folk Town"/> <strong>[Lv. 130] <a href="https://maplestorywiki.net/w/Category:Korean_Folk_Town" target="_blank" rel="noreferrer noopener">Korean Folk Town</a></strong>: Accessible by accepting a quest in your Lightbulb icon or by traveling from <a href="https://maplestorywiki.net/w/Helios_Tower_(100th_Floor)" target="_blank" rel="noreferrer noopener">Ludibrium</a> or <a href="https://maplestorywiki.net/w/The_Sharp_Unknown" target="_blank" rel="noreferrer noopener">Aqua Road</a>
+                <li><img src="/images/map-icons/korean-folk-town.png" alt="MapIcon Korean Folk Town"/> <strong>[Lv. 130] <a href="https://maplestorywiki.net/w/Category:Korean_Folk_Town" target="_blank" rel="noreferrer noopener">Korean Folk Town</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/like-clouds-and-winds.png" alt="Eqp Like Clouds and Winds"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/golden-temple.png" alt="MapIcon Golden Temple"/> <strong> [Lv. 130] <a href="https://maplestorywiki.net/w/Category:Golden_Temple" target="_blank" rel="noreferrer noopener">Golden Temple</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
+                <li><img src="/images/map-icons/golden-temple.png" alt="MapIcon Golden Temple"/> <strong> [Lv. 130] <a href="https://maplestorywiki.net/w/Category:Golden_Temple" target="_blank" rel="noreferrer noopener">Golden Temple</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/ravanas-golden-crown.png" alt="Eqp Ravana's Golden Crown"/> <a href="https://maplestorywiki.net/w/Ravana%27s_Golden_Crown" target="_blank" rel="noreferrer noopener">[Ravana's Golden Crown]</a>, <img src="/images/equipment/seeker-of-gilded-truth.png" alt="Eqp Seeker of Gilded Truth"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonheart Castle"/> <strong> [Lv. 130] <a href="https://maplestorywiki.net/w/Category:Tynerum" target="_blank" rel="noreferrer noopener">Crimsonheart Castle</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/> and Dimensional Mirror
+                <li><img src="/images/map-icons/crimsonheart-castle.png" alt="MapIcon Crimsonheart Castle"/> <strong> [Lv. 130] <a href="https://maplestorywiki.net/w/Category:Tynerum" target="_blank" rel="noreferrer noopener">Crimsonheart Castle</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/crimsonheart-savior.png" alt="Eqp Crimsonheart Savior"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/partem-ruins.png" alt="MapIcon Partem"/> <strong>[Lv. 135] </strong><strong>Partem Ruins</strong>: Accessible initially from a quest in your Lightbulb icon and from Partem in <a href="https://maplestorywiki.net/w/Spore_Hill" target="_blank" rel="noreferrer noopener">Henesys</a>
+                <li><img src="/images/map-icons/partem-ruins.png" alt="MapIcon Partem"/> <strong>[Lv. 135] </strong><strong>Partem Ruins</strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/blazing-hot.png" alt="Eqp Blazing Hot"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>The Far East (Yu Garden)</strong></a>: Accessible from <a href="https://maplestorywiki.net/w/Six_Path_Crossway" target="_blank" rel="noreferrer noopener">Six Path Crossway</a>
+                <li><img src="/images/map-icons/yu-garden.png" alt="MapIcon Yu Garden"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:The_Far_East" target="_blank" rel="noreferrer noopener"><strong>The Far East (Yu Garden)</strong></a>
                     <ul>
-                        <li>Completing the questline unlocks daily quests that reward <img src="/images/items/yu-garden-coin.png" alt="Etc Yu Garden Coin"/> [Yu Garden Coins] used to exchange items</li>
                         <li><strong>Main Rewards</strong>: <img src="/images/items/epic-potential-scroll.png" alt="Use Epic Potential Scroll"/> [<em>(Heroic World Only)</em> Epic Potential Scroll], <img src="/images/equipment/horseback-riding-doll-totem.png" alt="Eqp Horseback Riding Doll Totem"/> <img src="/images/equipment/jade-kettle-totem.png" alt="Eqp Jade Kettle Totem"/> <img src="/images/equipment/bronze-incense-burner-totem.png" alt="Eqp Bronze Incense Burner Totem"/> [Totems]</li>
+                        <li>Completing the questline unlocks daily quests that reward <img src="/images/items/yu-garden-coin.png" alt="Etc Yu Garden Coin"/> [Yu Garden Coins] used to exchange items</li>
                         <li>An in-depth guide to the Yu Garden dailies: <a href="https://www.reddit.com/r/Maplestory/comments/62tld2/guide_for_yu_garden_dailies_reboot_daily_epic_pot/" target="_blank" rel="noreferrer noopener">  https://www.reddit.com/r/Maplestory/comments/62tld2/guide_for_yu_garden_dailies_reboot_daily_epic_pot/ </a></li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/commerci.png" alt="MapIcon Commerci"/> <strong>[Lv. 140] <a href="https://maplestorywiki.net/w/Category:Commerci_Republic" target="_blank" rel="noreferrer noopener">Commerci</a></strong>: Accessible from <img src="/images/info/lightbulb.png" alt="Lightbulb Icon"/>  and Dimensional Mirror. Grants access to the Commerci Merchant Union PQ after a completing a series of quests here
+                <li><img src="/images/map-icons/commerci.png" alt="MapIcon Commerci"/> <strong>[Lv. 140] <a href="https://maplestorywiki.net/w/Category:Commerci_Republic" target="_blank" rel="noreferrer noopener">Commerci</a></strong>
                     <ul>
+                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/commercis-forever-friend.png" alt="Eqp Commerci's Forever-Friend"/> [Medal], <img src="/images/equipment/commerci-hat.png" alt="Eqp Commerci Hat"/> <img src="/images/equipment/commerci-suit.png" alt="Eqp Commerci Suit"/> <img src="/images/equipment/commerci-boots.png" alt="Eqp Commerci Boots"/> <img src="/images/equipment/commerci-gloves.png" alt="Eqp Commerci Gloves"/> <img src="/images/equipment/commerci-cape.png" alt="Eqp Commerci Cape"/> <img src="/images/equipment/commerci-belt.png" alt="Eqp Commerci Belt"/> <img src="/images/equipment/commerci-shoulder.png" alt="Eqp Commerci Shoulder"/> <img src="/images/equipment/devils-sunrise.png" alt="Eqp Devil's Sunrise"/>[Commerci Equipment]</li>
                         <li>Upon reaching the town of San Commerci, Trade Voyages is unlocked with rewards such as <img src="/images/equipment/sweetwater-sword.png" alt="Eqp Sweetwater Axe"/> <img src="/images/equipment/sweetwater-hat.png" alt="Eqp Sweetwater Hat"/> <a href="https://maplestorywiki.net/w/Equipment_Set/Sweetwater_Set" target="_blank" rel="noreferrer noopener">[Sweetwater Gear]</a> and <img src="/images/equipment/sweetwater-tattoo.png" alt="Eqp Sweetwater Tattoo"/> <a href="https://maplestorywiki.net/w/Sweetwater_Tattoo" target="_blank" rel="noreferrer noopener">[Sweetwater Tattoo]</a>, <img src="/images/equipment/sweetwater-monocle.png" alt="Eqp Sweetwater Monocle"/> <a href="https://maplestorywiki.net/w/Sweetwater_Monocle" target="_blank" rel="noreferrer noopener">[Sweetwater Monocle]</a></li>
                         <li>Additionally, in San Commerci, Transposing is unlocked
                             <ul><li>For more info on Transposing, check out <a href="https://www.youtube.com/watch?v=oDXiz0x0hV0" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=oDXiz0x0hV0</a></li></ul>
                         </li>
-                        <li><strong>Main Rewards</strong>: <img src="/images/equipment/commercis-forever-friend.png" alt="Eqp Commerci's Forever-Friend"/> [Medal], <img src="/images/equipment/commerci-hat.png" alt="Eqp Commerci Hat"/> <img src="/images/equipment/commerci-suit.png" alt="Eqp Commerci Suit"/> <img src="/images/equipment/commerci-boots.png" alt="Eqp Commerci Boots"/> <img src="/images/equipment/commerci-gloves.png" alt="Eqp Commerci Gloves"/> <img src="/images/equipment/commerci-cape.png" alt="Eqp Commerci Cape"/> <img src="/images/equipment/commerci-belt.png" alt="Eqp Commerci Belt"/> <img src="/images/equipment/commerci-shoulder.png" alt="Eqp Commerci Shoulder"/> <img src="/images/equipment/devils-sunrise.png" alt="Eqp Devil's Sunrise"/>[Commerci Equipment]</li>
                     </ul>
                 </li>
-                <li> <img src="/images/map-icons/kerning-tower.png" alt="MapIcon Kerning Tower"/> <strong>[Lv. 145] <a href="https://maplestorywiki.net/w/Category:Kerning_Tower" target="_blank" rel="noreferrer noopener">Kerning Tower</a></strong>: Accessible by completing a quest in your Lightbulb icon and from <a href="https://maplestorywiki.net/w/Kerning_City" target="_blank" rel="noreferrer noopener">Kerning City</a>
+                <li> <img src="/images/map-icons/kerning-tower.png" alt="MapIcon Kerning Tower"/> <strong>[Lv. 145] <a href="https://maplestorywiki.net/w/Category:Kerning_Tower" target="_blank" rel="noreferrer noopener">Kerning Tower</a></strong>
                     <ul>
                         <li><strong>Main Reward</strong>: <img src="/images/equipment/jackpot-entertainment-co-ceo.png" alt="Eqp Jackpot Entertainment Co-CEO"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/stone-colossus.png" alt="MapIcon Stone Colossus"/> <strong>[Lv. 150]</strong>  <a href="https://maplestorywiki.net/w/Category:Stone_Colossus" target="_blank" rel="noreferrer noopener"><strong>Stone Colossus</strong></a>: Accessible from <a href="https://maplestorywiki.net/w/Forest_:_Crossroad" target="_blank" rel="noreferrer noopener">Leafre</a>
+                <li><img src="/images/map-icons/stone-colossus.png" alt="MapIcon Stone Colossus"/> <strong>[Lv. 150] <a href="https://maplestorywiki.net/w/Category:Stone_Colossus" target="_blank" rel="noreferrer noopener">Stone Colossus</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/colossal.png" alt="Eqp Colossal"/> [Medal], <img src="/images/items/kupos-ride-coupon.png" alt="Use Kupo's Ride Coupon"/> [Mount], <img src="/images/equipment/halflinger-expedition-badge.png" alt="Eqp Halflinger Expedition Badge"/> [Badge]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/omega-sector.png" alt="MapIcon Omega Sector"/> <strong> [Lv. 165] <a href="https://maplestorywiki.net/w/Category:Omega_Sector" target="_blank" rel="noreferrer noopener">Omega Sector</a></strong>: Accessible initially by accepting a quest in the Lightbulb icon or from <a href="https://maplestorywiki.net/w/Eos_Tower_Entrance" target="_blank" rel="noreferrer noopener">Ludibrium Eos Tower</a>
+                <li><img src="/images/map-icons/omega-sector.png" alt="MapIcon Omega Sector"/> <strong>[Lv. 165] <a href="https://maplestorywiki.net/w/Category:Omega_Sector" target="_blank" rel="noreferrer noopener">Omega Sector</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/white-m-forcer.png" alt="Eqp White M-Forcer"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/savage-terminal.png" alt="MapIcon Savage Terminal"/> <strong>[Lv. 175] </strong><strong>Detective Rave's Case Notes: </strong>Accessible initially from accepting a quest in your Lightbulb icon or from <a href="https://maplestorywiki.net/w/Pantheon" target="_blank" rel="noreferrer noopener">Pantheon</a>
+                <li><img src="/images/map-icons/savage-terminal.png" alt="MapIcon Savage Terminal"/> <strong>[Lv. 175] Detective Rave's Case Notes</strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/detective-raves-honorary-assistant.png" alt="Eqp Detective Rave's Honorary Assistant"/> [Medal]</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/fox-valley.png" alt="MapIcon Fox Valley"/> <strong>[Lv. 185] </strong><a href="https://maplestorywiki.net/w/Category:Fox_Valley" target="_blank" rel="noreferrer noopener"><strong>Fox Valley</strong></a>: Accessible by accepting a quest in the Lightbulb icon and from <a href="https://maplestorywiki.net/w/Pantheon" target="_blank" rel="noreferrer noopener">Pantheon</a>
+                <li><img src="/images/map-icons/fox-valley.png" alt="MapIcon Fox Valley"/> <strong>[Lv. 185] <a href="https://maplestorywiki.net/w/Category:Fox_Valley" target="_blank" rel="noreferrer noopener">Fox Valley</a></strong>
                     <ul>
                         <li><strong>Main Rewards</strong>: <img src="/images/equipment/fox-point-ranger.png" alt="Eqp Fox Point Ranger"/> [Medal]</li>
                     </ul>
@@ -2048,153 +2054,11 @@ function ThemeDungeons(){
 function QuestContent(){
     return(
         <div>
-            <ArticleHeaderTwo id="quests">Quest Content:</ArticleHeaderTwo>
+            <ArticleHeaderTwo id="quests">Quest Content</ArticleHeaderTwo>
             <hr/>
-            <ul>
-                <li>Grinding is preferred as most pre-Lv. 100 quests are outdated except the ones that reward medals</li>
-                <li><strong>Class Main Storyline</strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 1 - 200</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/henesys.png" alt="MapIcon Henesys"/> <strong><a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener">Henesys</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 10 - 19</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/amethyst-earrings.png" alt="Eqp Amethyst Earrings"/> <a href="https://maplestorywiki.net/w/Amethyst_Earrings" target="_blank" rel="noreferrer noopener">[Amethyst Earrings]</a>, <img src="/images/equipment/yellow-square.png" alt="Eqp Yellow Square"/> <a href="https://maplestorywiki.net/w/Yellow_Square">[Yellow Square Earrings]</a>,</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <strong><a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener">Perion</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 10 - 19</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/ellinia.png" alt="MapIcon Ellinia"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Ellinia</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 25-30</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/kerning-city.png" alt="MapIcon Kerning City"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Kerning City</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 43 - 50</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Perion</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 55 - 60</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/perion.png" alt="MapIcon Perion"/> <a href="https://maplestorywiki.net/w/Quests/30" target="_blank" rel="noreferrer noopener"><strong>Perion Excavation Site</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 60 - 70</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/sleepywood.png" alt="MapIcon Sleepywood"/> <a href="https://maplestorywiki.net/w/Quests/31" target="_blank" rel="noreferrer noopener"><strong>Sleepywood</strong></a>
-                    <ul>
-                        <li><strong>Recommened Level</strong>: 60 - 70</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/orbis.png" alt="MapIcon Orbis"/> <a href="https://maplestorywiki.net/w/Quests/34" target="_blank" rel="noreferrer noopener"><strong>Orbis</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 70 - 75</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/helper-in-the-clouds.png" alt="Eqp Helper in the Clouds"/> [Medal],</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/aqua-road.png" alt="MapIcon Aqua Road"/> <a href="https://maplestorywiki.net/w/Quests/35" target="_blank" rel="noreferrer noopener"><strong>Aqua Road</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 75 - 80</li>
-                        <li><strong>Quest Rewards</strong>: <a href="https://maplestorywiki.net/w/Red_Musketeer_Cape" target="_blank" rel="noreferrer noopener">[Red Musketeer Cape]</a></li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/el-nath.png" alt="MapIcon El Nath"/> <a href="https://maplestorywiki.net/w/Quests/33" target="_blank" rel="noreferrer noopener"><strong>El Nath</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 75 - 80</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/cape-of-warmness.png" alt="Eqp Cape of Warmness"/> <a href="https://maplestorywiki.net/w/Cape_of_Warmness" target="_blank" rel="noreferrer noopener">[Cape of Warmness]</a>, <img src="/images/equipment/blue-justice-cape.png" alt="Eqp Blue Justice Cape"/> <img src="/images/equipment/red-justice-cape.png" alt="Eqp Red Justice Cape"/> <img src="/images/equipment/white-justice-cape.png" alt="Eqp White Justice Cape"/> <img src="/images/equipment/black-justice-cape.png" alt="Eqp Black Justice Cape"/> <a href="https://maplestorywiki.net/w/Blue_Justice_Cape" target="_blank" rel="noreferrer noopener">[Justice Cape]</a></li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/magatia.png" alt="MapIcon Magatia"/> <a href="https://maplestorywiki.net/w/Quests/43" target="_blank" rel="noreferrer noopener"><strong>Magatia</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 90 - 100</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/magatias-alchemist.png" alt="Eqp Magatia's Alchemist"/> [Medal], <img src="/images/equipment/zenumists-cape.png" alt="Eqp Zenumist's Cape"/> <a href="https://maplestorywiki.net/w/Zenumist%27s_Cape" target="_blank" rel="noreferrer noopener">[Zenumist's Cape]</a> OR <img src="/images/equipment/alcadnos-cape.png" alt="Eqp Alcadno's Cape"/> <a href="https://maplestorywiki.net/w/Alcadno%27s_Cape" target="_blank" rel="noreferrer noopener">[Alcadno's Cape]</a>, <img src="/images/equipment/strong-machine-gloves.png" alt="Eqp Strong Machine Gloves"/> <a href="https://maplestorywiki.net/w/Strong_Machine_Gloves" target="_blank" rel="noreferrer noopener">[Strong Machine Gloves]</a></li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/heliseum.png" alt="MapIcon Heliseum"/> <strong><a href="https://maplestorywiki.net/w/Quests/21" target="_blank" rel="noreferrer noopener">Heliseum</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 90 - 110</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/ellin-forest.png" alt="MapIcon Ellin Forest"/> <a href="https://maplestorywiki.net/w/Quests/39" target="_blank" rel="noreferrer noopener"><strong>Ellin Forest</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 95 - 100</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/ellin-forest-guardian.png" alt="Eqp Ellin Forest Guardian"/> [Medal], <img src="/images/equipment/ephenias-ring.png" alt="Eqp Ephenia's Ring"/> <a href="https://maplestorywiki.net/w/Ephenia%27s_Ring" target="_blank" rel="noreferrer noopener">[Ephenia's Ring]</a></li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <a href="https://maplestorywiki.net/w/Quests/41" target="_blank" rel="noreferrer noopener"><strong>Leafre</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 102 - 110</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/ludibrium.png" alt="MapIcon Ludibrium"/> <strong><a href="https://maplestorywiki.net/w/Quests/36" target="_blank" rel="noreferrer noopener">Ludibrium</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 95 - 115</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/ludibrium-sheriff.png" alt="Eqp Ludibrium Sheriff"/> [Medal], <img src="/images/equipment/skull-earrings.png" alt="Eqp Skull Earrings"/> <a href="https://maplestorywiki.net/w/Skull_Earrings" target="_blank" rel="noreferrer noopener">[Skull Earrings]</a>, <img src="/images/equipment/ludibrium-cape.png" alt="Eqp Ludibrium Cape"/> <a href="https://maplestorywiki.net/w/Ludibrium_Cape" target="_blank" rel="noreferrer noopener">[Ludibrium Cape]</a></li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/dead-mine.png" alt="MapIcon Dead Mines"/> <strong><a href="https://maplestorywiki.net/w/Quests/33" target="_blank" rel="noreferrer noopener">El Nath - Dead Mines</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 115 - 120</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/leafre.png" alt="MapIcon Leafre"/> <a href="https://maplestorywiki.net/w/Quests/41" target="_blank" rel="noreferrer noopener"><strong>Leafre - Dragon Forest</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 120 - 130</li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/mu-lung.png" alt="MapIcon Mu Lung"/> <img src="/images/map-icons/herb-town.png" alt="MapIcon Herb Town"/> <strong><a href="https://maplestorywiki.net/w/Quests/44">Mu Lung / Herb Town</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 135 - 140</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/sage-asceticism.png" alt="Eqp Sage Asceticism"/> [Medal]</li>
-                    </ul>
-                </li>
-                <li><img src="/images/map-icons/temple-of-time.png" alt="MapIcon Temple of Time"/> <strong> <a href="https://maplestorywiki.net/w/Quests/46" target="_blank" rel="noreferrer noopener">Temple of Time</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 140 - 155</li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/henesys-ruins.png" alt="MapIcon Henesys Ruins"/> <img src="/images/map-icons/stronghold.png" alt="MapIcon Stronghold"/> <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Henesys Ruins / Knight Stronghold</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 160 - 185</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/rise-from-ruins.png" alt="Eqp Rise from Ruins"/> [Medal]</li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/kritias.png" alt="MapIcon Kritias"/> <strong><a href="https://maplestorywiki.net/w/Quests/81" target="_blank" rel="noreferrer noopener">Kritias</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 170 - 185</li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/nlc.png" alt="MapIcon NLC"/> <strong> <a href="https://maplestorywiki.net/w/Category:Masteria" target="_blank" rel="noreferrer noopener">New Leaf City</a></strong>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 170 - 200</li>
-                        <li><strong>Main Rewards</strong>: <img src="/images/items/nlc-commemorative-coin.png" alt="Etc NLC Commemorative Coin"/> <a href="https://maplestorywiki.net/w/NLC_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[NLC Commemorative Coin]</a></li>
-                    </ul>
-                </li>
-                <li> <img src="/images/map-icons/twilight-perion.png" alt="MapIcon Twilight Perion"/> <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Twilight Perion</strong></a>
-                    <ul>
-                        <li><strong>Recommended Level</strong>: 180 - 190</li>
-                        <li><strong>Quest Rewards</strong>: <img src="/images/equipment/twilight-warrior.png" alt="Eqp Twilight Warrior"/> [Medal]</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    );
-};
-
-function LightbulbQuests(){
-    return(
-        <div>
-            <ArticleHeaderTwo id="lightbulb">Lightbulb Quests:</ArticleHeaderTwo>
-            <hr/>
-            <p>Below is a list of quests in the "Maple Mailbox" or the Lightbulb icon on the left-hand side. If you do not see a certain quest, it may be tied to your class' storyline. These can be skipped by most classes. But, Explorer classes, Hoyoung, and Adele gain unique rewards though from their class' storyline so, it should not be skipped. Quests with the label <span style={{color: '#ff0000'}}>[Required]</span> should also be completed</p>
-            <p>As well, the list does not contain all quests as new quests are frequently added</p>
+            <p>Quests are categorized as Job Quests, Main Quests, and Normal Quests. For a full list of quests, check out the <a href="https://maplestorywiki.net/w/Quests" target="_blank" rel="noreferrer noopener">MapleStory Wiki</a></p>
+            <p>Below is a list of quests from the the Lightbulb icon on the left-hand side. Job Quests will not be listed below</p>
+            <p>The list may not contain all quests as new quests are frequently added</p>
             <h3>Recommended Quests:</h3>
             <ul>
                 <li><strong>(Lv. 33) Have you learned about pets?</strong> - Tutorial quest explaining pets that rewards a 3-day pet (cannot be revived)</li>
