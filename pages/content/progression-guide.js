@@ -51,66 +51,42 @@ function ProgressionGuide() {
             </p>
             <h3 id="top">Quick Jumps</h3>
             <ul>
-                <li className="quick-jump"><Link smooth href="#intro">Introduction</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#jobadv">Job Advancements</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#apsp">SP + AP Distribution</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#inner">Inner Ability</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#pocket">Pocket Slot</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#emblem">Gold Emblem + 4th Job</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#powercrystal">Intense Power Crystal</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#hyper">Hyper Skills + Hyper Stats</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#140">Lv. 140 and Beyond</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#5th">5th Job Advancement &amp; Arcane River</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#matrix">V Matrix + Nodestones</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#legion">Legion System</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#rewardpoint">Reward Points + Maple Rewards Shop</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#auction">Auction House in Interactive Worlds</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#content">Important Content</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#questlines">Important Questlines to Complete</Link>
-                </li>
+                <li className="quick-jump"><Link smooth href="#intro">Introduction</Link></li>
+                <li className="quick-jump"><Link smooth href="#jobadv">Job Advancements</Link></li>
+                <li className="quick-jump"><Link smooth href="#apsp">SP + AP Distribution</Link></li>
+                <li className="quick-jump"><Link smooth href="#inner">Inner Ability</Link></li>
+                <li className="quick-jump"><Link smooth href="#pocket">Pocket Slot</Link></li>
+                <li className="quick-jump"><Link smooth href="#emblem">Gold Emblem + 4th Job</Link></li>
+                <li className="quick-jump"><Link smooth href="#powercrystal">Intense Power Crystal</Link></li>
+                <li className="quick-jump"><Link smooth href="#hyper">Hyper Skills + Hyper Stats</Link></li>
+                <li className="quick-jump"><Link smooth href="#140">Lv. 140 and Beyond</Link></li>
+                <li className="quick-jump"><Link smooth href="#5th">5th Job Advancement &amp; Arcane River</Link></li>
+                <li className="quick-jump"><Link smooth href="#matrix">V Matrix + Nodestones</Link></li>
+                <li className="quick-jump"><Link smooth href="#legion">Legion System</Link></li>
+                <li className="quick-jump"><Link smooth href="#rewardpoint">Reward Points + Maple Rewards Shop</Link></li>
+                <li className="quick-jump"><Link smooth href="#auction">Auction House in Interactive Worlds</Link></li>
+                <li className="quick-jump"><Link smooth href="#content">Important Content</Link></li>
+                <li className="quick-jump"><Link smooth href="#questlines">Important Questlines to Complete</Link></li>
                 <li className="quick-jump"><Link smooth href="#equipment">Equipment Content</Link>
-                <ul>
-                    <li className="quick-jump"><Link smooth href="#spelltrace">Spell Tracing</Link>
-                    </li>
-                    <li className="quick-jump"><Link smooth href="#starforce">Star Forcing</Link>
-                    </li>
-                    <li className="quick-jump"><Link smooth href="#additionalstats">Bonus Stats</Link>
-                    </li>
-                    <li className="quick-jump"><Link smooth href="#transferhammer">Transfer Hammer</Link>
-                    </li>
-                    <li className="quick-jump"><Link smooth href="#epicgear">Epic Gear and so on</Link>
-                    </li>
-                </ul>
+                    <ul>
+                        <li className="quick-jump"><Link smooth href="#spelltrace">Spell Tracing</Link>
+                        </li>
+                        <li className="quick-jump"><Link smooth href="#starforce">Star Forcing</Link>
+                        </li>
+                        <li className="quick-jump"><Link smooth href="#additionalstats">Bonus Stats</Link>
+                        </li>
+                        <li className="quick-jump"><Link smooth href="#transferhammer">Transfer Hammer</Link>
+                        </li>
+                        <li className="quick-jump"><Link smooth href="#epicgear">Epic Gear and so on</Link>
+                        </li>
+                    </ul>
                 </li>
-                <li className="quick-jump"><Link smooth href="#bosses">Bosses</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#dailyweekly">Daily and Weekly Quests</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#mapleplanner">Maple Planner</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#training">Training Maps</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#themedungeon">Theme Dungeons</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#quests">Quests</Link>
-                </li>
-                <li className="quick-jump"><Link smooth href="#lightbulb">Lightbulb Quests</Link>
-                </li>
+                <li className="quick-jump"><Link smooth href="#bosses">Bosses</Link></li>
+                <li className="quick-jump"><Link smooth href="#dailyweekly">Daily and Weekly Quests</Link></li>
+                <li className="quick-jump"><Link smooth href="#mapleplanner">Maple Planner</Link></li>
+                <li className="quick-jump"><Link smooth href="#training">Training Maps</Link></li>
+                <li className="quick-jump"><Link smooth href="#themedungeon">Theme Dungeons</Link></li>
+                <li className="quick-jump"><Link smooth href="#quests">Quests</Link></li>
             </ul>
             <VideoAd/>
             <Introduction/>
@@ -269,7 +245,8 @@ function IntensePowerCrystal(){
                 <li><img src="/images/items/intense-power-crystal-weekly.png" alt="Etc Intense Power Crystal Weekly"/> Weekly</li>
                 <li><img src="/images/items/intense-power-crystal-monthly.png" alt="Etc Intense Power Crystal Monthly"/> Monthly</li>
             </ul>
-            <p>Intense Power Crystals are sold to the <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Collector" target="_blank">Collector</a> by pressing the "Quick Move" button below the minimap from any town. The Collector accepts 180 crystals a week per world and resets on Thursdays 12am UTC. However, the Collector will only accept 12 weekly crystals</p>
+            <p>Intense Power Crystals are sold to the <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Collector" target="_blank">Collector</a> by pressing the "Quick Move" button below the minimap from any town. 
+             accepts 180 crystals a week per world and resets on Thursdays 12am UTC. However, the Collector will only accept 12 weekly crystals</p>
         </div>
     );
 };
@@ -317,7 +294,7 @@ function FifthJob(){
             <p><strong>Requirements to Job Advance:</strong> <img src="/images/npc/memory-keeper.png" alt="NPC Memory Keeper"/><img src="/images/npc/temple-keeper.png" alt="NPC Temple Keeper"/></p>
             <ul>
                 <li>After talking to the Memory Keeper and Temple Keeper, you'll receive a quest called <a href="https://maplestory.wiki/GMS/251/quest/1461" target="_blank" rel="noreferrer noopener">"5th Job: Blessing of the Goddess"</a>. Once you've talked to all the Goddesses and completed their challenge, you can job advanced to 5th Job</li>
-                <li>Visit <a href="https://maplestorywiki.net/w/Bowman_Instructional_School" target="_blank" rel="noreferrer noopener">Henesys: Bowman Instructional School</a> and press up on the <a href="https://maplestorywiki.net/w/Horizon_Portal" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
+                <li>Visit <a href="https://maplestorywiki.net/w/Bowman_Instructional_School" target="_blank" rel="noreferrer noopener">: Bowman Instructional School</a> and press up on the <a href="https://maplestorywiki.net/w/Horizon_Portal" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
                 <ul><li>Talk to "The Goddess of Maple World" to complete the quest</li></ul>
                 </li>
                 <li>Visit <a href="https://maplestorywiki.net/w/Deserted_Camp" target="_blank" rel="noreferrer noopener">Dark World Tree: Deserted Camp</a> and press up on the <a href="https://maplestorywiki.net/w/Horizon_Portal" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
@@ -493,7 +470,7 @@ function ImportantContent(){
                 </li>
                 <li><strong>[Lv. 50] <a href="https://strategywiki.org/wiki/MapleStory/Inner_Ability" target="_blank" rel="noreferrer noopener">Inner Ability</a></strong>: Rerollable stats similar to potentials but tied to your character that are rerolled using <img src="/images/items/medal-of-honor.png" alt="Use Medal of Honor"/>  <img src="/images/items/special-medal-of-honor.png" alt="Use Boss Medal of Honor"/> Honor EXP</li>
                 <li><strong>[Lv. 70] </strong><a href="https://maplestorywiki.net/w/Link_Skill" target="_blank" rel="noreferrer noopener"><strong>Link Skills</strong></a>: Class-Unique skill that can be shared with another character in your World</li>
-                <li><strong>[Lv. 100+] Star Force Maps</strong>: Training maps that require a set amount of Star Force Enhancements on your equipment to deal damage to monsters that have more HP but give more EXP</li>
+                <li><strong>[Lv. 100+] Star Force Maps</strong>: Training maps that require a minimum amount of Star Force Enhancements on your equipment to deal damage to monsters that have more HP but give more EXP</li>
                 <li><img src="/images/map-icons/monster-park.png" alt="MapIcon MonsterPark"/> <strong>[Lv. 105+] <a href="https://maplestorywiki.net/w/Monster_Park" target="_blank" rel="noreferrer noopener">Monster Park</a></strong>: Stage-based dungeons that reward a considerable amount of EXP and <img src="/images/items/monster-park-coin.png" alt="Etc Monster Park Commemorative Coin"/> <a href="https://maplestorywiki.net/w/Monster_Park_Commemorative_Coin" target="_blank" rel="noreferrer noopener">[Monster Park Commemorative Coin]</a> for exchanging items
                     <ul>
                         <li>Special shop sells special potions <img src="/images/items/extreme-red-potion.png" alt="Use Extreme Red Potion"/> <img src="/images/items/extreme-green-potion.png" alt="Use Extreme Green Potion"/> <img src="/images/items/extreme-blue-potion.png" alt="Use Extreme Blue Potion"/> <img src="/images/items/extreme-gold-potion.png" alt="Use Extreme Gold Potion"/> that grant useful buffs</li>
@@ -523,25 +500,24 @@ function ImportantQuestlines(){
             <ArticleHeaderTwo id="questlines">Important Questlines to Complete</ArticleHeaderTwo>
             <hr/>
             <ul>
-                <li> <img src="/images/map-icons/heliseum.png" alt="MapIcon Heliseum"/> <strong>[Lv. 90] </strong><a href="https://maplestorywiki.net/w/Category:Heliseum" target="_blank" rel="noreferrer noopener"><strong>Heliseum</strong></a>: Unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestorywiki.net/w/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> use to exchange items from <a href="https://maplestorywiki.net/w/Mayala" target="_blank" rel="noreferrer noopener">Mayala</a>
+                <li> <img src="/images/map-icons/heliseum.png" alt="MapIcon Heliseum"/> <strong>[Lv. 100] </strong><a href="https://maplestorywiki.net/w/Quests/259" target="_blank" rel="noreferrer noopener"><strong>Heliseum</strong></a>: Unlocks access to the boss <img src="/images/map-icons/magnus.png" alt="MapIcon Magnus"/> <a href="https://maplestorywiki.net/w/Magnus" target="_blank" rel="noreferrer noopener">Magnus</a> and daily quests for <img src="/images/items/shadowdealer-coin.png" alt="Etc Shadowdealer Coin"/> <a href="https://maplestorywiki.net/w/Shadowdealer_Coin" target="_blank" rel="noreferrer noopener">Shadowdealer Coins</a> use to exchange items from <a href="https://maplestorywiki.net/w/Mayala" target="_blank" rel="noreferrer noopener">Mayala</a>
                     <ul>
                         <li><strong>Notable shop items:</strong> <img src="/images/equipment/elite-heliseum-cape.png" alt="Eqp Elite Heliseum Cape"/> <img src="/images/equipment/nova-hyades-cloak.png" alt="Eqp Nova Hyades Cloak"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Cape]</a>, <img src="/images/equipment/elite-heliseum-boots.png" alt="Eqp Elite Heliseum Boots"/> <img src="/images/equipment/nova-hyades-boots.png" alt="Eqp Nova Boots"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Shoe]</a>, <img src="/images/equipment/elite-heliseum-belt.png" alt="Eqp Elite Heliseum Belt"/> <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">[Superior Belt]</a>, <img src="/images/equipment/antique-root-gloves.png" alt="Eqp Antique Root Gloves"/> <a href="https://maplestorywiki.net/w/Antique_Root_Gloves" target="_blank" rel="noreferrer noopener">[Antique Root Gloves]</a> <img src="/images/equipment/antique-leaf-cape.png" alt="Eqp Antique Leaf Cape"/> <a href="https://maplestorywiki.net/w/Antique_Leaf_Cape" target="_blank" rel="noreferrer noopener">[Antique Leaf Cape]</a>
                         </li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon Lion King's Castle"/> <strong>[Lv. 115] <a href="https://maplestorywiki.net/w/Category%3ALion_King's_Castle" target="_blank" rel="noreferrer noopener">[Theme Dungeon] Lion King's Castle</a></strong>: Unlocks access to the boss <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a></li>
-                <li><img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong>[Lv. 125] </strong><a href="https://maplestorywiki.net/w/Category:Root_Abyss" target="_blank" rel="noreferrer noopener"><strong>Root Abyss</strong></a>: Unlocks access to the Normal difficulty of the bosses <img src="/images/map-icons/crimson-queen.png" alt="MapIcon BloodyQueen"/> Crimson Queen, <img src="/images/map-icons/pierre.png" alt="MapIcon Piere"/> Pierre, <img src="/images/map-icons/von-bon.png" alt="MapIcon BanBan"/> Von Bon, and <img src="/images/map-icons/vellum.png" alt="MapIcon Bellum"/> Vellum
+                <li><img src="/images/map-icons/lion-kings-castle.png" alt="MapIcon Lion King's Castle"/> <strong>[Lv. 120] <a href="https://maplestorywiki.net/w/Quests/260" target="_blank" rel="noreferrer noopener">Lion King's Castle</a></strong>: Unlocks access to the boss <img src="/images/map-icons/von-leon.png" alt="MapIcon VanLeon"/> <a href="https://maplestorywiki.net/w/Von_Leon/Monster" target="_blank" rel="noreferrer noopener">Von Leon</a></li>
+                <li><img src="/images/map-icons/root-abyss.png" alt="MapIcon Root Abyss"/> <strong>[Lv. 125] </strong><a href="https://maplestorywiki.net/w/Quests/261" target="_blank" rel="noreferrer noopener"><strong>Root Abyss</strong></a>: Unlocks access to the bosses <img src="/images/map-icons/crimson-queen.png" alt="MapIcon BloodyQueen"/> Crimson Queen, <img src="/images/map-icons/pierre.png" alt="MapIcon Piere"/> Pierre, <img src="/images/map-icons/von-bon.png" alt="MapIcon BanBan"/> Von Bon, and <img src="/images/map-icons/vellum.png" alt="MapIcon Bellum"/> Vellum
                     <ul>
-                        <li>Defeating each Normal difficulty 10 times to unlock their Chaos difficulty</li>
                         <li><img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> <img src="/images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/> Coins dropped from the bosses are used to exchange items like <img src="/images/equipment/antique-leaf-shoulder.png" alt="Eqp Antique Leaf Shoulder"/> <img src="/images/equipment/antique-root-shoulder.png" alt="Eqp Antique Root Shoulder"/> equipment for Transfer Hammer</li>
                     </ul>
                 </li>
-                <li><img src="/images/map-icons/silent-crusade.png" alt="MapIcon Silent Crusade"/> <strong>[Lv. 140] <a href="https://maplestorywiki.net/w/Quests/1/(Silent_Crusade)_A_Cry_for_Help" target="_blank" rel="noreferrer noopener">[Silent Crusade] A Cry for Help</a></strong>: Unlocks access to the boss <img src="/images/map-icons/arkarium.png" alt="MapIcon Akairum"/> <a href="https://maplestorywiki.net/w/Arkarium" target="_blank" rel="noreferrer noopener">Arkarium</a></li>
-                <li><img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Princess_No"><strong>Hieizan Temple</strong></a>: Unlocks access to the boss <img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> Princess No</li>
-                <li><img src="/images/map-icons/temple-of-time.png" alt="MapIcon Temple of Time"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Category:Temple_of_Time" target="_blank" rel="noreferrer noopener"><strong>Temple of Time</strong></a>: Unlocks access to the boss <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> Pink Bean</li>
-                <li><img src="/images/map-icons/henesys-ruins.png" alt="MapIcon Henesys Ruins"/> <img src="/images/map-icons/stronghold.png" alt="MapIcon Stronghold"/> <strong>[Lv. 160]</strong>  <a href="https://maplestorywiki.net/w/Category:Gate_to_the_Future" target="_blank" rel="noreferrer noopener"><strong>Gate to the Future</strong></a>: Unlocks access to the boss <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> Normal Cygnus</li>
-                <li><img src="/images/map-icons/masteria-through-time.png" alt="MapIcon Masteria Through Time" /> <strong>[Lv. 160]</strong><strong> <a href="https://maplestorywiki.net/w/Epic/Masteria_Through_Time" target="_blank" rel="noreferrer noopener">[Blockbuster] Masteria Through Time</a></strong>: Completing the blockbuster rewards <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <a href="https://maplestorywiki.net/w/Antellion_Guardian" target="_blank" rel="noreferrer noopener">[Best-in-slot Medal]</a>, <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <a href="https://maplestorywiki.net/w/Subani-Roid" target="_blank" rel="noreferrer noopener">[Subani-Roid]</a> OR <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> <a href="https://maplestorywiki.net/w/Dr.Jang-Roid" target="_blank" rel="noreferrer noopener">[Dr. Jang-Roid]</a> androids with NPC Vendor</li>
-                <li><img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong>[Lv. 210] <a href="https://maplestorywiki.net/w/Quests/243/(Ramuramu)_Psych_Exam" target="_blank" rel="noreferrer noopener">Ramuramu</a></strong>: Unlocks access to the boss <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> Guardian Angel Slime</li>
+                <li><img src="/images/map-icons/temple-of-time.png" alt="MapIcon Temple of Time"/> <strong>[Lv. 130] </strong><a href="https://maplestorywiki.net/w/Quests/263" target="_blank" rel="noreferrer noopener"><strong>Temple of Time</strong></a>: Unlocks access to the boss <img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> <a href="https://maplestorywiki.net/w/Pink_Bean" target="_blank" rel="noreferrer noopener">Pink Bean</a></li>
+                <li><img src="/images/map-icons/silent-crusade.png" alt="MapIcon Silent Crusade"/> <strong>[Lv. 140] <a href="https://maplestorywiki.net/w/Quests/264" target="_blank" rel="noreferrer noopener">[Silent Crusade] A Cry for Help</a></strong>: Unlocks access to the boss <img src="/images/map-icons/arkarium.png" alt="MapIcon Akairum"/> <a href="https://maplestorywiki.net/w/Arkarium" target="_blank" rel="noreferrer noopener">Arkarium</a></li>
+                <li><img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> <strong>[Lv. 140] </strong><a href="https://maplestorywiki.net/w/Quests/95"><strong>Hieizan Temple</strong></a>: Unlocks access to the boss <img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> <a href="https://maplestorywiki.net/w/Princess_No" target="_blank" rel="noreferrer noopener">Princess No</a></li>
+                <li><img src="/images/map-icons/stronghold.png" alt="MapIcon Stronghold"/> <strong>[Lv. 165]</strong>  <a href="https://maplestorywiki.net/w/Quests/266" target="_blank" rel="noreferrer noopener"><strong>Gate to the Future</strong></a>: Unlocks access to the boss <img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> <a href="https://maplestorywiki.net/w/Cygnus/Monster" target="_blank" rel="noreferrer noopener">Cygnus</a></li>
+                <li><img src="/images/map-icons/masteria-through-time.png" alt="MapIcon Masteria Through Time" /> <strong>[Lv. 160]</strong><strong> <a href="https://maplestorywiki.net/w/Epic/Masteria_Through_Time" target="_blank" rel="noreferrer noopener">[Masteria Epic] Lost Hero's Call</a></strong>: Completing the epic, Masteria Through Time rewards <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <a href="https://maplestorywiki.net/w/Antellion_Guardian" target="_blank" rel="noreferrer noopener">[Medal]</a>, <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <a href="https://maplestorywiki.net/w/Subani-Roid" target="_blank" rel="noreferrer noopener">[Subani-Roid]</a> OR <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> <a href="https://maplestorywiki.net/w/Dr.Jang-Roid" target="_blank" rel="noreferrer noopener">[Dr. Jang-Roid]</a> androids</li>
+                <li><img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> <strong>[Lv. 210] <a href="https://maplestorywiki.net/w/Quests/243" target="_blank" rel="noreferrer noopener">Ramuramu</a></strong>: Unlocks access to the boss <img src="/images/map-icons/ramuramu.png" alt="MapIcon Ramuramu"/> Guardian Angel Slime</li>
             </ul>
         </div>
     );
@@ -634,7 +610,7 @@ function EquipmentContent(){
                 Mitsuhide/Monster" target="_blank" rel="noreferrer noopener">Akechi Mitsuhide</a> or exchanged with <img src="/images/items/mark-of-the-silver-wolf.png" alt="Etc Mark of the Silver Wolf"/> [Mark of the Silver Wolf] from <a href="https://maplestorywiki.net/w/Kobayakawa_Takakage" target="_blank" rel="noreferrer noopener">Kobayakawa Takakage</a></li>
                 <li><strong>[Lv. 160]</strong> <img src="/images/equipment/sweetwater-hat.png" alt="Eqp Sweetwater Hat"/>  <img src="/images/equipment/sweetwater-suit.png" alt="Eqp Sweetwater Suit"/> <img src="/images/equipment/commerci-boots.png" alt="Eqp Commerci Boots"/>  <img src="/images/equipment/commerci-gloves.png" alt="Eqp Commerci Gloves"/>  <img src="/images/equipment/commerci-cape.png" alt="Eqp Commerci Cape"/><strong/>  <a href="https://maplestorywiki.net/w/Equipment_Set/Sweetwater_Set" target="_blank" rel="noreferrer noopener">[Sweetwater Gear]</a> Dropped by Commerci Voyage Bosses</li>
                 <li><strong>[Lv. 160]</strong> <img src="/images/equipment/sweetwater-monocle.png" alt="Eqp Sweetwater Monocle"/>  <img src="/images/equipment/sweetwater-tattoo.png" alt="Eqp Sweetwater Tattoo"/> [ <a href="https://maplestorywiki.net/w/Sweetwater_Tattoo" target="_blank" rel="noreferrer noopener">Eye</a> / <a href="https://maplestorywiki.net/w/Sweetwater_Monocle" target="_blank" rel="noreferrer noopener">Face</a> ] Purchasable using <img src="/images/items/commerci-denaro.png" alt="Etc Commerci Denaro"/> <a href="https://maplestorywiki.net/w/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaro]</a> from <a href="https://maplestorywiki.net/w/Javert" target="_blank" rel="noreferrer noopener">Javert</a></li>
-                <li><strong>[Lv. 160]</strong> <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> [ <a href="https://maplestorywiki.net/w/Antellion_Guardian" target="_blank" rel="noreferrer noopener">Best-In-Slot Medal For Training</a> / <a href="https://maplestorywiki.net/w/Subani-Roid" target="_blank" rel="noreferrer noopener">Android</a> / <a href="https://maplestorywiki.net/w/Dr.Jang-Roid" target="_blank" rel="noreferrer noopener">Android</a> ] Rewarded for completing <a href="https://maplestorywiki.net/w/Epic/Masteria_Through_Time" target="_blank" rel="noopener noreferrer">Masteria Through Time Blockbuster</a>
+                <li><strong>[Lv. 160]</strong> <img src="/images/equipment/antellion-guardian.png" alt="Eqp Antellion Guardian"/> <img src="/images/equipment/subani-roid.png" alt="Eqp Subani-Roid"/> <img src="/images/equipment/jang-roid.png" alt="Eqp Dr.Jang-Roid"/> [ <a href="https://maplestorywiki.net/w/Antellion_Guardian" target="_blank" rel="noreferrer noopener">Medal</a> / <a href="https://maplestorywiki.net/w/Subani-Roid" target="_blank" rel="noreferrer noopener">Android</a> / <a href="https://maplestorywiki.net/w/Dr.Jang-Roid" target="_blank" rel="noreferrer noopener">Android</a> ] Rewarded for completing <a href="https://maplestorywiki.net/w/Epic/Masteria_Through_Time" target="_blank" rel="noopener noreferrer">Masteria Through Time Blockbuster</a>
                     <ul>
                         <li>Android has an NPC Vendor function</li>
                         <li>Does not have a Heart provided</li>
@@ -2061,69 +2037,67 @@ function QuestContent(){
             <p>The list may not contain all quests as new quests are frequently added</p>
             <h3>Recommended Quests:</h3>
             <ul>
-                <li><strong>(Lv. 33) Have you learned about pets?</strong> - Tutorial quest explaining pets that rewards a 3-day pet (cannot be revived)</li>
+                <li><strong>(Lv. 33) Have you learned about pets?</strong> - Tutorial quest that rewards a 3-day pet (cannot be revived)</li>
+                <li><strong>(Lv. 33) Trainer's Command</strong> - A special quest for unlocking the ability to have 3 pets out at once. Requires you to obtain a <img src="/images/items/pet-snack.png" alt="Cash Pet Snack"/> <a href="https://maplestory.wiki/GMS/251/item/5460000" target="_blank" rel="noreferrer noopener">[Pet Snack]</a> from the Cash Shop using NX or <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points</li>
                 <li><strong>(Lv. 35) The Professional</strong> - A quest to start Professions, the crafting system</li>
                 <li><strong>(Lv. 70) [Link Skill] Teaching Link Skill</strong> - An explanation to Link Skills
                     <ul><li>Not required to unlock Link Skills</li></ul>
                 </li>
-                <li><strong>(Lv. 90) To Pantheon</strong> - Introduction quest to starting the Magnus boss pre-quest</li>
                 <li><strong>(Lv. 100) [Ursus] Rumors of The Mighty</strong> - Introduction quest to the boss Ursus</li>
-                <li><strong>(Lv. 100) [Mushroom Shrine Tales] Kino Konoko's Request</strong> - Introduction quest to the Mushroom Shrine Tales storyline</li>
-                <li><strong>(Lv. 105) [Maple Tour] Lulu Spinel's Request</strong> - Introduction quest to Maple Tour 
-                    <ul><li>Not required to enter Maple Tour</li></ul>
+                <li><strong>(Lv. 100) [Main][Heliseum]</strong> - Introduction quest to the Magnus boss pre-quest
+                    <ul><li>Starting quest name may be different depending on class</li></ul>
                 </li>
+                <li><strong>(Lv. 100) [Mushroom Shrine Tales] Kino Konoko's Request</strong> - Introduction quest to the Mushroom Shrine Tales storyline</li>
                 <li><strong>(Lv. 105) [Monster Park] Monster Park Grand Re-opening</strong> - Introduction quest to Monster Park
                     <ul><li>Not required to enter Monster Park</li></ul>
                 </li>
                 <li><strong>(Lv. 115) [Papulatus] The Light of Chaos</strong> - Introduction quest to the Papulatus boss pre-quest</li>
                 <li><strong>(Lv. 120) [Ranmaru] Call of Princess Sakuno: Stop Mori Ranmaru!</strong> - Short dialogue quest to unlock access to the boss Mori Ranmori</li>
-                <li><strong>(Lv. 120) [Black Heaven] For Maple World</strong>  - Introduction quest to the Black Heaven blockbuster
-                    <ul>
-                        <li>Black Heaven is not required to unlock access to Lotus or weekly quests</li>
-                    </ul>
+                <li><strong>(Lv. 125) [Main][Alliance]</strong> - Completing this questline grants a passive skill
+                    <ul><li>Starting quest name may be different depending on class</li></ul>
                 </li>
-                <li><strong>(Lv. 135) [Heroes] Feelings of Misfortune</strong> - Introduction quest to the Heroes of Maple blockbuster
-                    <ul>
-                        <li>Heroes of Maple is not required to unlock access to the boss Damien</li>
-                    </ul>
+                <li><strong>(Lv. 140) [Princess No] Regards, Takeda Shingen</strong> - Introduction quest to the Princess No boss pre-quest</li>
+                <li><strong>(Lv. 130) [Main][Temple of Time] Path to the Past</strong> - Introduction quest to the Pink Bean boss pre-quest</li>
+                <li><strong>(Lv. 140) [Main][Silent Crusade] A Cry for Help</strong> - Introduction quest to the Arkarium boss pre-quest
+                    <ul>There is also a Lv. 190 Silent Crusade quest however, it is not required for Arkarium</ul>
                 </li>
-                <li><strong>(Lv. 140) [Hieizan Temple] Regards, Takeda Shingen</strong> - Introduction quest to the Princess No boss pre-quest</li>
-                <li><strong>(Lv. 140) [Temple of Time] Path to the Past</strong> - Introduction quest to the Pink Bean boss pre-quest</li>
-                <li><strong>(Lv. 140) [Silent Crusade] A Cry for Help</strong> - Introduction quest to the Arkarium boss pre-quest</li>
-                <li><strong>(Lv. 160) [Masteria Epic] Lost Hero's Call</strong> - Introduction quest to the Masteria Through Time blockbuster</li>
+                <li><strong>(Lv. 165) [Main][Knight Stronghold] Scouting the Stronghold</strong> - Introduction quest to the Cygnus boss pre-quest</li>
                 <li><strong>(Lv. 180) [Gollux] The Cracks of Corruption</strong> - Short dialogue quest to unlock access to the boss Gollux</li>
                 <li><strong>(Lv. 190) [Haven] A New Home</strong> - Short dialogue quest to unlock access to Weekly Quests in the Scrapyard</li>
                 <li><strong>(Lv. 190) [Dark World Tree] Those Who Remain</strong> - Short dialogue quest to unlock access to Weekly Quests in the Dark World Tree</li>
                 <li><strong>(Lv. 210) [Ramuramu] Psych Exam</strong> - Introduction quest to the Guardian Angel Slime boss pre-quest</li>
+                <li><strong>(Lv. 200) [Collector's Request] In Search of the Legend </strong>- Quest required to purchase <img src="/images/items/sayrams-elixer.png" alt="Use Sayram's Elixer"/> <img src="/images/items/aurelias-elixer.png" alt="Use Aurelia's Elixer"/> potion buffs from the <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Collector" target="_blank">Collector</a></li>
                 <li><strong>(Lv. 235) [Kao's Memory] The First Memory </strong>- Introduction quest to the storyline involving <a href="https://maplestorywiki.net/w/Kao" target="_blank" rel="noopener noreferrer">Kao</a> between Lv. 235 to 255</li>
+                <li><strong>(Lv. 255) [Aftermath] After that Day & (Lv. 260) [Convergence] Under Ereve </strong>- Questline required for 6th Job Advancement</li>
+                <li><strong>(Lv. 260) [Epic Dungeon] High Mountain </strong>- Questline to unlock weekly activity</li>
             </ul>
             <h3>Theme Dungeon Starting Quests:</h3>
             <p>Below is a list of Lightbulb Quests that are introduction quests to Theme Dungeons</p>
             <ul>
-                <li><strong>(Lv. 30) [Riena Strait] Get it Strait</strong></li>
-                <li><strong>(Lv. 30) [Theme Dungeon] Ellinel Fairy Academy</strong></li>
-                <li><strong>(Lv. 30) [Gold Beach] A Golden Opportunity</strong></li>
                 <li><strong>(Lv. 30) [Elodin] Anne's Plea for Help </strong></li>
+                <li><strong>(Lv. 30) [Gold Beach] A Golden Opportunity</strong></li>
+                <li><strong>(Lv. 30) [Main][Riena Strait] Get it Strait</strong></li>
+                <li><strong>(Lv. 30) [Theme Dungeon] Ellinel Fairy Academy</strong></li>
                 <li><strong>(Lv. 60) [Mushroom Castle] Mushking's Summons</strong></li>
                 <li><strong>(Lv. 75) [The Afterlands] A Cry for Help </strong></li>
-                <li><strong>(Lv. 90) [Stellar Detectives] The Erased Diary</strong></li>
                 <li><strong>(Lv. 95) [Ellin Forest] A Peculiar Book</strong></li>
                 <li><strong>(Lv. 100) [Grand Athenaeum] Visit the Grand Athenaeum</strong></li>
-                <li><strong>(Lv. 115) [Lion King's Castle] Desolate Castle</strong></li>
+                <li><strong>(Lv. 115) [Main][Lion King's Castle] Among the Tundra</strong></li>
                 <li><strong>(Lv. 120) [Fantasy Theme World] Dylan's Story </strong></li>
                 <li><strong>(Lv. 125) [Korean Folk Town] A Letter from the Library</strong></li>
                 <li><strong>(Lv. 130) [Crimsonheart] To Grendel's Library</strong></li>
                 <li><strong>(Lv. 130) [Golden Temple] Noi More Tourists</strong></li>
                 <li><strong>(Lv. 135) [Partem Ruins] Dark Prophecy </strong></li>
                 <li><strong>(Lv. 140) Finding Tomo</strong> - Yu Garden</li>
-                <li><strong>(Lv. 140) [Commerci Republic] Neinheart's Calls</strong></li>
                 <li><strong>(Lv. 140) The Dragon and the Tiger</strong> - Beast of Fury</li>
-                <li><strong>(Lv. 145) [Kerning Tower] Kerning Tower Grand Opening</strong></li>
+                <li><strong>(Lv. 140) [Commerci Republic] Neinheart's Calls</strong></li>
                 <li><strong>(Lv. 145) [Shaolin Temple] Elder Jung's Summons</strong></li>
-                <li><strong>(Lv. 150) [Stone Colossus] A Giant of a Rumor</strong></li>
+                <li><strong>(Lv. 145) [Kerning Tower] Kerning Tower Grand Opening</strong></li>
+                <li><strong>(Lv. 150) [Main][Stone Colossus] A Giant of a Rumor</strong></li>
                 <li><strong>(Lv. 160) [Showa Town] Welcome to Shawa Town!</strong></li>
+                <li><strong>(Lv. 160) [Omega Sector] Dr. Kim's Call</strong></li>
                 <li><strong>(Lv. 170) [NLC] Welcome back to NLC!</strong></li>
-                <li><strong>(Lv. 170) [Kritias] Sudden Kingdom</strong></li>
+                <li><strong>(Lv. 170) [Main][Kritias] Sudden Kingdom</strong></li>
                 <li><strong>(Lv. 175) [Detective Rave's Case Notes] Free Luxury Tour!</strong></li>
                 <li><strong>(Lv. 180) [Phantom Forest] The Corrupted Forest</strong></li>
                 <li><strong>(Lv. 185) [Fox Valley] Leaf Plane to Adventure</strong></li>
@@ -2134,50 +2108,60 @@ function QuestContent(){
                 <li><strong>(Lv. 20) Do you know about Spell Enhancements?</strong> - Tutorial quest explaining <img src="/images/items/spell-trace.png" alt="Etc Spell Trace"/> Spell Tracing</li>
                 <li><strong>(Lv. 20) Do you know about Star Force Enhancements?</strong> - Tutorial quest explaining Star Forcing</li>
                 <li><strong>(Interactive Worlds only) (Lv. 33) Mysterious Merchant Matilda</strong> - Tutorial quest explaining <a href="https://maplestorywiki.net/w/Matilda" target="_blank" rel="noreferrer noopener">Matilda</a>, an NPC that sells <img src="/images/items/ap-reset-scroll.png" alt="Use AP Reset Scroll"/> <a href="https://maplestory.wiki/GMS/251/item/2501000" target="_blank" rel="noreferrer noopener">[AP Reset Scrolls]</a>, and <img src="/images/items/sp-reset-scroll.png" alt="Use SP Reset Scroll"/> <a href="https://maplestory.wiki/GMS/251/item/2500000" target="_blank" rel="noreferrer noopener">[SP Reset Scrolls]</a> for Mesos</li>
-                <li><strong>(Lv. 33) Trainer's Command</strong> - A special quest for unlocking the ability to have 3 pets out at once. Requires you to obtain a <img src="/images/items/pet-snack.png" alt="Cash Pet Snack"/> <a href="https://maplestory.wiki/GMS/251/item/5460000" target="_blank" rel="noreferrer noopener">[Pet Snack]</a> from the Cash Shop using NX or <img src="/images/items/reward-points.png" alt="Use Reward Points"/> Reward Points</li>
-                <li><strong>(Lv. 50) [Boss Matchmaking] Fight Together!</strong> - Tutorial quest explaining the Boss Matchmaking system</li>
+                <li><strong>(Lv. 60) Have you learned about Potential?</strong> - Tutorial quest explaining equipment potentials</li>
+                <li><strong>(Lv. 60) Have you learned about Bonus Stats?</strong> - Tutorial quest explaining equipment bonus stats</li>
+                <li><strong>(Lv. 80) Use the Transfer Hammer!</strong> - Tutorial quest explaining Transfer Hammer</li>
+                <li><strong>(Lv. 90) [Stellar Detectives] The Erased Diary</strong></li>
+                <li><strong>(Lv. 105) [Maple Tour] Lulu Spinel's Request</strong> - Introduction quest to Maple Tour 
+                    <ul><li>Not required to enter Maple Tour</li></ul>
+                </li>
+                <li><strong>(Lv. 160) [Masteria Epic] Lost Hero's Call</strong> - Introduction quest to the Masteria Through Time blockbuster</li>
+                <li><strong>(Lv. 190) [Main][Silent Crusade] Strange Letter </strong>- A questline related to Will and the Arcane River</li>
+                <li><strong>(Lv. 200) [Tower of Oz] Tower Under the Sea</strong> - A quest to get started with the Tower of Oz. Provides a quick explanation and tutorial for Tower of Oz</li>
+            </ul>
+            <h3>Can Be Skipped:</h3>
+            <ul>
+                <li><strong>(Lv. 33) Do you know about the Beauty Salon?</strong> - Tutorial quest explaining the Beauty Salon UI for saving hair and face styles
+                    <ul>
+                        <li><strong>Main Rewards: </strong> <img src="/images/items/hair-coupon.png" alt="Use Hair Coupon"/> <a href="https://maplestory.wiki/GMS/251/item/2543041" target="_blank" rel="noreferrer noopener">[Tutorial Hair Coupon]</a>, <img src="/images/items/hair-coupon.png" alt="Use Hair Coupon"/> <a href="https://maplestory.wiki/GMS/251/item/2432548" target="_blank" rel="noreferrer noopener">[Tutorial Face Coupon]</a>
+                            <ul>
+                                <li>DO NOT USE without saving your current style in the Beauty Salon as they will give you a really bad look</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>(Lv. 45) [Kerning City] Dark Swamp Region</strong> - Starts the Kerning City area quests for the medal</li>
                 <li><strong>(Lv. 50) [Zakum] Statue of Dread</strong> - Quest that explains Zakum and teleports you to <a href="https://maplestorywiki.net/w/Chief%27s_Residence" target="_blank" rel="noreferrer noopener">El Nath - Chief's Residence</a>
                     <ul>
                         <li>Not required to enter the boss Zakum</li>
                         <li>Talking to your corresponding Job NPC (Warrior, Mage, Thief, etc.) will teleport you to the entrance of Zakum</li>
                     </ul>
                 </li>
-                <li><strong>(Lv. 60) Have you learned about Potential?</strong> - Tutorial quest explaining equipment potentials</li>
-                <li><strong>(Lv. 60) Have you learned about Bonus Stats?</strong> - Tutorial quest explaining equipment bonus stats</li>
-                <li><strong>(Lv. 80) Use the Transfer Hammer!</strong> - Tutorial quest explaining Transfer Hammer</li>
-                <li><strong>(Lv. 140) [System] Item Update</strong> - Provides an explanation to Transposing after reaching San Commerci</li>
-                <li><strong>(Lv. 200) [Tower of Oz] Tower Under the Sea</strong> - A quest to get started with the Tower of Oz. Provides a quick explanation and tutorial for Tower of Oz</li>
-            </ul>
-            <h3>Can Be Skipped:</h3>
-            <ul>
-                <li><strong>(Lv. 33) Do you know about the Beauty Salon?</strong> - Tutorial quest explaining the Beauty Salon, a place to save your hair and face styles
-                    <ul>
-                        <li><strong>Main Rewards: </strong> <img src="/images/items/hair-coupon.png" alt="Use Hair Coupon"/> <a href="https://maplestory.wiki/GMS/251/item/2543041" target="_blank" rel="noreferrer noopener">[Tutorial Hair Coupon]</a>, <img src="/images/items/hair-coupon.png" alt="Use Hair Coupon"/> <a href="https://maplestory.wiki/GMS/251/item/2432548" target="_blank" rel="noreferrer noopener">[Tutorial Face Coupon]</a>
-                            <ul>
-                                <li>DO NOT USE THESE, they will give you a really bad look</li>
-                                <li>If you do, at least save your current style in the Beauty Salon first!</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><strong>(Lv. 45) [Kerning City] Dark Swamp Region</strong> - Starts the Kerning City area quests for the medal</li>
                 <li><strong>(Lv. 55) [Perion] Rocky Mountain Hunter</strong> - Starts the Perion area quests for the medal</li>
+                <li><strong>(Lv. 60) [Main][Verne Mine] Edelstein, the City of Iron</strong> - Starts the Verne Mine area quests</li>
                 <li><strong>(Lv. 65) [Sleepywood] Danger Seeker </strong>- Starts the Sleepywood area quests for the medal</li>
                 <li><strong>(Lv. 70) [Cross World Party Quest] The Old Book</strong></li>
                 <li><strong>(Lv. 70) [Cross World Party Quest] Old Letter</strong></li>
                 <li><strong>(Lv. 70) [Cross World Party Quest] Notes of the Goddess</strong></li>
-                <li><strong>(Lv. 77) [El Nath] Snowfield Explorer</strong> - Starts the El Nath area quests for the medal</li>
+                <li><strong>(Lv. 70) [Orbis] Helping the Orbis Locals</strong> - Starts the Orbis area quests for the medal</li>
+                <li><strong>(Lv. 75) [El Nath] Snowfield Explorer</strong> - Starts the El Nath area quests for the medal</li>
+                <li><strong>(Lv. 75) Shammos Awakening</strong> - Quest related to the Resurrection of the Hoblin King Party Quest</li>
+                <li><strong>(Lv. 80) [Main][Azwan] Alliance Mission</strong> - Starts the Azwan area quests</li>
                 <li><strong>(Lv. 85) [Ariant] Learning the Culture of Ariant</strong> - Starts the Ariant area quests for the medal</li>
-                <li><strong>(Lv. 110) [Chryse] Find Xerxes</strong> - Quest to get started with the Chryse Party Quest</li>
+                <li><strong>(Lv. 85) [Main][Magatia's Secret] A Deal with the Broker</strong> - Starts the Magatia area quests</li>
+                <li><strong>(Lv. 100) [FriendStory] Student From Another World</strong> - Storyline about an alternate world where characters are students at a school</li>
+                <li><strong>(Lv. 110) [Chryse] Find Xerxes</strong> - Quest related to the Chryse Party Quest</li>
                 <li><strong>(Lv. 110) [Ludibrium] Ludibrium Sheriff</strong> - Starts the Ludibrium area quests for the medal</li>
-                <li><strong>(Lv. 115) [Lion King's Castle] The Adventure of Jenn the Locksmith</strong> - Quest to get started with the Lion King's Castle Party Quest</li>
-                <li><strong>(Lv. 120) Fly in the Sky!</strong> - A quest where completing it teaches you the skill "Soaring" used in Dragon Rider PQ</li>
-                <li><strong>(Lv. 120) [Hilla] The Mysterious Mystic</strong> - A quest explaining the boss Hilla although, it is not required to actually fight the boss</li>
+                <li><strong>(Lv. 115) [Lion King's Castle] The Adventure of Jenn the Locksmith</strong> - Quest related to the Lion King's Castle Party Quest</li>
+                <li><strong>(Lv. 120) Fly in the Sky!</strong> - A quest to learn the skill "Soaring" used in Dragon Rider PQ</li>
                 <li><strong>(Lv. 125) [Ghost Park] Korean Folk Town's New Park</strong> - A quest explaining Ghost Park</li>
+                <li><strong>(Lv. 135) [Mu Lung Garden] How to Become a Sage</strong> - Starts the Mu Lung area quests for the medal</li>
+                <li><strong>(Lv. 150) [Masteria] Hungry for Adventure </strong> - Quest related to Masteria / NLC</li>
                 <li><strong>(Lv. 150) The Dragon Rider's Identity 1</strong> - Pre-quest for Dragon Rider PQ</li>
-                <li><strong>(Lv. 160) Rumors from the Castle</strong> - Storyline for Ninja Castle, not required to fight Gigatoad / False Daimyo</li>
+                <li><strong>(Lv. 160) [Ninja Castle] Rumors from the Castle</strong> - Storyline for Ninja Castle, not required to fight Gigatoad / False Daimyo</li>
+                <li><strong>(Lv. 160) [Main][Henesys Ruins] The Rumor</strong> - Starts the Henesys Ruins area quests for the medal</li>
                 <li><strong>(Lv. 180) [Twilight Perion] The Second Future</strong> - Storyline, it is not required to access Twilight Perion</li>
-                <li><strong>(Lv. 180) [Masteria] Glimmer Man's Call</strong> - Storyline</li>
+                <li><strong>(Lv. 190) [Masteria] Glimmer Man's Call</strong> - Quest related to Masteria / NLC</li>
                 <li><strong>(Lv. 200) [The Asura Crisis] Back to Momijigaoka </strong>- A quest to start the Asura Crisis storyline</li>
             </ul>
         </div>

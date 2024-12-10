@@ -114,8 +114,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Easy/Normal</strong>: Daily</li>
             <li><strong>Can clear Hard</strong>: Weekly</li>
           </ul>
-          <p>You must complete the questline from the Lightbulb Quest called "<a href="https://maplestorywiki.net/w/Quests/21/To_Pantheon" target="_blank" rel="noreferrer noopener">To Pantheon</a>" at Lv. 90 until you gain access to the Tyrant's Castle</p>
-          <p><strong>[NOTE]: Angelic Buster, Kaiser and Cadena must complete their entire storyline to unlock access to Magnus</strong></p>
+          <p>You must complete the questline from the Lightbulb Quest labelled with "<a href="https://maplestorywiki.net/w/Quests/259" target="_blank" rel="noreferrer noopener">[Heliseum]</a>" at Lv. 100</p>
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong>
@@ -207,16 +206,12 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="rootabyss"><img src="/images/map-icons/pierre.png" alt="MapIcon Piere"/><img src="/images/map-icons/von-bon.png" alt="MapIcon BanBan"/><img src="/images/map-icons/crimson-queen.png" alt="MapIcon BloodyQueen"/><img src="/images/map-icons/vellum.png" alt="MapIcon Bellum"/> Root Abyss</ArticleHeaderTwo>
-          <p><strong>[Normal Lv. 125+]</strong></p>
+          <p><strong>[Normal Lv. 125+] [Chaos Lv. 180+]</strong></p>
           <ul>
             <li><strong>Can clear Normal</strong>: Daily</li>
-          </ul>
-          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/62/(Root_Abyss)_An_Urgent_Summons">[Root Abyss] An Urgent Summon</a>” at Lv. 125. Once you've completed the questline, you get 5 free keys daily to access the bosses</p>
-          <p><strong>[Chaos Lv. 180+]</strong></p>
-          <ul>
             <li><strong>Can clear Chaos</strong>: Weekly</li>
           </ul>
-          <p>Unlocked by completing Normal Root Abyss 10 times for the corresponding boss</p>
+          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/62/(Root_Abyss)_An_Urgent_Summons">[Root Abyss] An Urgent Summon</a>” at Lv. 125</p>
           <ul>
             <li><strong>Normal mode and Above Rewards:</strong></li>
             <li>
