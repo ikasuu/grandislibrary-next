@@ -303,7 +303,7 @@ function FifthJob(){
                 <li>Visit <a href="https://maplestorywiki.net/w/Great_Temple_Interior" target="_blank" rel="noreferrer noopener">Pantheon: Grand Temple Interior</a> and press up on the <a href="https://maplestorywiki.net/w/Horizon_Portal" target="_blank" rel="noreferrer noopener">Horizon Portal</a>
                 <ul><li>Talk to the "Goddess of Grandis" twice and defeat a weakened version of Magnus after being teleported</li></ul>
                 </li>
-                <li>Each goddess will give you an <img src="/images/items/arcane-stone.png" alt='Skill Arcane Stone'/> Arcane Stone which you can charge up by fighting monsters. Once the stone has been charged, you can use it again to gain some EXP
+                <li>Each goddess will give you an <img src="/images/items/arcane-stone.png" alt="Skill Arcane Stone"/> Arcane Stone which you can charge up by fighting monsters. Once the stone has been charged, you can use it again to gain some EXP
                 <ul><li>You do not need to charge the stones up to Job Advance</li></ul></li>
             </ul>
             <p><strong>After Advancement, obtaining an Arcane Symbol:</strong> To effectively damage monsters in the Arcane River, Arcane Power is required similar to Star Force which you gain from equipping <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Arcane_Symbols" target="_blank">Arcane Symbols</a></p>
@@ -865,7 +865,7 @@ function EarlygameBossesOne(){
         <hr/>
         <p>The amount of Main Stat listed is just a safe recommendation, your class may be able to defeat a boss with lower stat since there many other ways to improve a character besides Main Stat like Boost Nodes, %Boss Damage, or %Ignore DEF</p>
         <p>There are also better options to test boss readiness such as attempting Practice Mode on a boss or Battle Analysis with a training dummy</p>
-        <p>An alternative is also to compare with Combat Power like this <a href="https://docs.google.com/spreadsheets/d/1CVXdf29crUi0QH1Pw4JZfcfEys-i4NDcSE7oqhJG3N4" target="_blank" ref="noreferrer noopener">Google Doc</a></p>
+        <p>An alternative is also to compare with Combat Power like this <a href="https://docs.google.com/spreadsheets/d/1CVXdf29crUi0QH1Pw4JZfcfEys-i4NDcSE7oqhJG3N4" target="_blank" rel="noreferrer noopener">Google Doc</a></p>
         <ul>
             <li> <img src="/images/map-icons/zakum.png" alt="ElNathDungeon icon"/> <a href="https://maplestorywiki.net/w/Zakum" target="_blank" rel="noreferrer noopener"><strong>Normal Zakum</strong></a>
             <ul>
