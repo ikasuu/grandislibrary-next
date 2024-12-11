@@ -355,19 +355,21 @@ function VMatrix(){
             <img className="repository-image" src="/images/info/matrix-points.png" alt="Matrix Points"/>
             <p>Each time your character levels up, you gain a Matrix Point. Matrix Points are used to raise a Node's Rank but they are tied to the Node Slots themselves instead of the Node. Each slot can allocate up to 5 additional Ranks for a Node. This means each Skill Node or Boost Node can reach a max Rank of 30. You can assign your Matrix Points in the V Matrix by pressing the "Slot Enhancement" button</p>
             <h3>Node Enhancing</h3>
-            <img className="repository-image" src="/images/info/node-crafting.png" alt="V Upgrade UI"/>
-            <p>To enhance your Nodes, right-click a Node you want to enhance. Using copies of the same Node you are trying to enhance, you consume the extra Nodes to the gain EXP required to level up a Node. As mentioned previously, to enhance Boost Nodes, you need Nodes with the same Main Skill. All Nodes have a max Rank of 25 meaning each Node provides 25 Skill Levels for a skill</p>
+            <img className="repository-image" src="/images/info/v-matrix-enhance.png" alt="V Upgrade UI"/>
+            <p>To enhance your Nodes, right-click a Node or press the "Enhance All" button to enhance multiple Nodes at once. Enhancing Nodes requires consuming multiple copies of the same Node to gain EXP to level up a Node. As mentioned previously, to enhance Boost Nodes, you need Nodes with the same Main Skill. All Nodes have a max Rank of 25 meaning each Node provides 25 Skill Levels for a skill</p>
             <p>To gain additional Nodes, you will need to open <img src="/images/items/nodestone.png" alt="Use Nodestone"/> <a href="https://maplestorywiki.net/w/Nodestone" target="_blank" rel="noreferrer noopener">Nodestones</a> which will give you a random Node for your class. You can obtain Nodestones from monster drops in the Arcane River, from the <a href="https://maplestorywiki.net/w/Quests/207/(Weekly_Quest)_Diligent_Research_Reward" target="_blank" rel="noreferrer noopener">Weekly Quest in Vanishing Journey</a>, Nodecrafting, and from Events</p>
             <p>There are also special Nodestones called <img src="/images/items/exp-nodestone.png" alt="Use EXP Nodestone"/> <a href="https://maplestorywiki.net/w/Experience_Nodestone" target="_blank" rel="noreferrer noopener">[Experience Nodestone]</a> which when opened provides an EXP Node that can be used on any Node as EXP. These Nodestones are only obtainable from Events</p>
             <h3>Node Disassembling</h3>
+            <img className="repository-image" src="/images/info/disassemble-node-button.png" alt="Disassemble Node Button"/>
             <img className="repository-image" src="/images/info/disassemble-node.png" alt="Disassemble Node"/>
             <p>Nodes can be disassembled to gain Node Shards that are used to craft more Nodestones or a guaranteed Node. To disassemble Nodes, press on the "Disassemble Nodes" button beside the "Slot Enhancement" button</p>
             <p>You can select multiple Nodes to disassemble at a time or right click to select to disassemble a single Node</p>
             <h3>Nodecrafting</h3>
             <img className="repository-image" src="/images/info/node-skill-craft.png" alt="Node Crafting"/>
-            <p>Specific Nodes can be crafted by pressing the "Nodecrafting" button. To craft Nodes, you will need Node Shards which are obtained from disassembling Nodes</p>
-            <p>In the Nodecrafting UI, select the Node you want to craft and then press the "Craft" button. Do not press the "Craft Nodestone" button as you will craft a Nodestone instead</p>
-            <p><strong>[Note]</strong>: When crafting Boost Nodes, you can choose the Main Skill for that Node by selecting the desired skill in the Nodecrafting UI</p>
+            <img className="repository-image" src="/images/info/custom-node-craft.png" alt="Custom Node Crafting"/>
+            <p>Nodes can also be crafted by pressing the "Nodecrafting" button. To craft Nodes, you will need Node Shards which are obtained from disassembling Nodes</p>
+            <p>In the Nodecrafting UI, select the skill you want to boost as the Main Skill on the Node and press the "Craft" button to get a Boost Node containing the specified Main Skill and 2 random skills. Do not press the "Craft Nodestone" button as you will craft a Nodestone instead</p>
+            <p>Additionally, a Boost Node with a given combination of 3 skills can be crafted by pressing the "Craft Custom Boost Node" button however, this will cost more Node Shards</p>
         </div>
     );
 };
