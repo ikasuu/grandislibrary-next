@@ -141,7 +141,8 @@ function Equipment(){
             <img className="repository-image" src="/images/info/equipment-ui.png" alt="Equipment UI"/>
             <p>Here you can view and access the equipment you have equipped. As well, you can visually show/hide your Medal and Title that you have equipped by clicking the boxes at the bottom</p>
             <p><img className="repository-image" src="/images/info/equipment-visual-effect.png" alt="Effect"/><img className="repository-image" src="/images/info/beauty-salon.png" alt="Beauty Salon"/></p>
-            <p>On the bottom left corner, there is a button labelled "Effect", here you can right-click equipment that has visual effects to toggle them ON/OFF. Beside the "Effect" button is the "Salon" button where you can manage all of your Hairstyles and Facestyles. In the Beauty Salon, you can save hair or face and change back to them later. To gain more slots you will need to buy <img src="/images/items/beauty-salon-hair-slot-coupon.png" alt="Cash Beauty Salon Hair Slot Coupon"/><img src="/images/items/beauty-salon-face-slot-coupon.png" alt="Cash Beauty Salon Face Slot Coupon"/> Beauty Salon Slot Coupons from the Rewards Point Shop (in the Cash Shop)</p>
+            <p>On the bottom left corner, there is a button labelled "Effect", here you can right-click equipment that has visual effects to toggle them ON/OFF. Beside the "Effect" button is the "Salon" button where you can manage all of your Hairstyles and Facestyles. In the Beauty Salon, you can save hair or face and change back to them later. To gain more slots you will need to buy <img src="/images/items/beauty-salon-hair-slot-coupon.png" alt="Cash Beauty Salon Hair Slot Coupon"/><img src="/images/items/beauty-salon-face-slot-coupon.png" alt="Cash Beauty Salon Face Slot Coupon"/> Beauty Salon Slot Coupons from the Rewards Point Shop (in the Cash Shop). In the Damage Skin window, damage skins can be saved and applied from here</p>
+            <p>Additionally, up to 3 equipment presets can be applied to efficiently swap between equipment</p>
             <h4>Equip Tab</h4>
             <p><img className="repository-image" src="/images/info/arcane-force-ui.png" alt="Arcane Power"/><img className="repository-image" src="/images/info/commerci-vessel-ui.png" alt="Vessel"/></p>
             <p>In the Equip Tab, you can see all the gear that provides stats to your character</p>
@@ -150,6 +151,7 @@ function Equipment(){
             <img className="repository-image" src="/images/info/equipment-cash-tab.png" alt="Cash Tab"/>
             <p>In the Cash Tab, you can see all Cash Item gear that covers over your character's regular equipment. Cash clothing are cosmetic items and do not alter the stats of your main equipment</p>
             <p>If you have a Cash Weapon equipped, you can change visually how the weapon is held at the bottom of the UI</p>
+            <p>Additionally, certain Cash equipment can provide stats however they may not match your style. Outfit Presets can be apply up to 3 outfits which override the appearance however keeps the stats of the Cash equipment currently equipped</p>
             <h4>Pet Tab</h4>
             <img className="repository-image" src="/images/info/equipment-pet-tab.png" alt="Pet Tab"/>
             <p>In the Pet Tab, you can manage all of your active pets. Here you can also manage your pet skills if your pet has any</p>

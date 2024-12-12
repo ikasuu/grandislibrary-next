@@ -143,7 +143,7 @@ function Introduction(){
             <hr/>
             <p>Some brief advice, don't worry about dailies and bosses until after Lv. 200 and 5th Job Advancement. Even past Lv. 200, focus on levelling up, filling all equipment slots, and completing pre-quests</p>
             <p>All classes are weak early on, especially if this is your first character. As you reach Lv. 200 and beyond, enemies get stronger and tougher but will become easier as you progress</p>
-            <p>Choose classes look enjoyable or interesting. Don't rely on DPM charts or look for the 'best' class since to become as strong as they are suggested because it is a massive time sink. As well, DPM charts do not translate to the actual DPM in-game as they are created under very specific conditions</p>
+            <p>Choose classes that look enjoyable or interesting. Don't rely on DPM charts or look for the 'best' class since to become as strong as they are suggested because it is a massive time sink. As well, DPM charts do not translate to the actual DPM in-game as they are created under very specific conditions</p>
             <p>Good luck on your Maple journey!!</p>
         </div>
     );
