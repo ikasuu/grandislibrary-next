@@ -370,6 +370,12 @@ function VMatrix(){
             <p>Nodes can also be crafted by pressing the "Nodecrafting" button. To craft Nodes, you will need Node Shards which are obtained from disassembling Nodes</p>
             <p>In the Nodecrafting UI, select the skill you want to boost as the Main Skill on the Node and press the "Craft" button to get a Boost Node containing the specified Main Skill and 2 random skills. Do not press the "Craft Nodestone" button as you will craft a Nodestone instead</p>
             <p>Additionally, a Boost Node with a given combination of 3 skills can be crafted by pressing the "Craft Custom Boost Node" button however, this will cost more Node Shards</p>
+            <h3>Other Functions</h3>
+            <img className="repository-image" src="/images/info/extend-special-node.png" alt="Extend Special Node"/><img className="repository-image" src="/images/info/boost-node-filter.png" alt="Boost Node Filter"/>
+            <h4>Extend Special Node</h4>
+            <p>Using Node Shards, the duration of Special Nodes can be extended by right-clicking the node. Expired Special Nodes can also be extended</p>
+            <h4>Boost Node Filter</h4>
+            <p>There is also a function to filter search for a specific Boost Node by pressing the "Boost Node Filter" button. This function will search for Boost Nodes with the given combination</p>
         </div>
     );
 };
