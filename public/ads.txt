@@ -1,4 +1,4 @@
-#  Updated: 2024-12-02 11:44:46
+#  Updated: 2024-12-17 10:07:44
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -82,6 +82,7 @@ appnexus.com, 12637, RESELLER, f5ab79cb980f11d1
 appnexus.com, 14538, RESELLER, f5ab79cb980f11d1
 appnexus.com, 15127, RESELLER, f5ab79cb980f11d1
 appnexus.com, 15629, RESELLER, f5ab79cb980f11d1
+appnexus.com, 15941, RESELLER
 appnexus.com, 16007, RESELLER, f5ab79cb980f11d1
 appnexus.com, 1922, RESELLER, f5ab79cb980f11d1
 appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
@@ -216,6 +217,7 @@ limpid.tv, 920682, DIRECT
 loopme.com, 11227, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11228, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11575, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11594, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 12754, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
@@ -333,6 +335,7 @@ risecodes.com, 62cd4aab9766d400014b79de, DIRECT
 rubiconproject.com, 10278, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 12186, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 12266, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13344, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13856, RESELLER, 0bfd66d529a55807
@@ -492,3 +495,4 @@ yieldmo.com, 3078438591206989879, RESELLER
 yieldmo.com, 3133660606033240149, RESELLER
 yieldmo.com, 3377199372461613093, RESELLER
 zetaglobal.net, 533, RESELLER
+zetaglobal.net, 891, RESELLER
