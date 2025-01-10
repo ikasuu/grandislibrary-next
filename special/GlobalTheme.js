@@ -299,26 +299,21 @@ export const GlobalStyle = createGlobalStyle`
   
 
   [data-tooltip]:before {
-    content: attr(data-tooltip);
-    position: absolute;
-    opacity: 0;
-    
-    transition: all 0.2s ease;
-    padding: 0.45rem;
-    color: white;
-    border-radius: 5px;
-    transform: translate(-40%, -50%);
-    margin-top: -2rem;
+    visibility: hidden;
+    background-color: rgb(0, 0, 0, 0.95);
     text-align: center;
+    border-radius: 6px;
+    padding: 0.5rem;
   }
 
   [data-tooltip]:hover:before {
-      opacity: 1;
-      background: rgba(0, 0, 0, 0.93);   
-  }
-
-  [data-tooltip]:not([data-tooltip-persistent]):before {
-    pointer-events: none;
+    content: attr(data-tooltip);
+    visibility: visible;
+    position: absolute;
+    
+    transition: all 0.2s ease;
+    transform: translate(-40%, -120%);
+    padding: 0.45rem;
   }
 
   .MuiAccordion-root{
