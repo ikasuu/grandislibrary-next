@@ -1,4 +1,4 @@
-#  Updated: 2024-12-02 11:44:46
+#  Updated: 2025-01-08 09:52:33
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -48,6 +48,7 @@ adform.com, 3083, RESELLER
 adform.com, 3119, RESELLER, 9f5210a2f0999e32
 adingo.jp, 27365, RESELLER
 admanmedia.com, 1061, RESELLER
+admanmedia.com, 2216, RESELLER
 admanmedia.com, 43, RESELLER
 admanmedia.com, 726, RESELLER
 admanmedia.com, 799, RESELLER
@@ -82,6 +83,7 @@ appnexus.com, 12637, RESELLER, f5ab79cb980f11d1
 appnexus.com, 14538, RESELLER, f5ab79cb980f11d1
 appnexus.com, 15127, RESELLER, f5ab79cb980f11d1
 appnexus.com, 15629, RESELLER, f5ab79cb980f11d1
+appnexus.com, 15941, RESELLER
 appnexus.com, 16007, RESELLER, f5ab79cb980f11d1
 appnexus.com, 1922, RESELLER, f5ab79cb980f11d1
 appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
@@ -107,6 +109,7 @@ betweendigital.com, 44774, RESELLER
 blis.com, 33, RESELLER, 61453ae19a4b73f4
 blockthrough.com, 5684350990417920, DIRECT
 chartboost.com, 5da62a1035b91e0aff190bf7, RESELLER
+connectad.io, 456, RESELLER, 85ac85a30c93b3e5
 contextweb.com, 558355, RESELLER, 89ff185a4c4e857c
 contextweb.com, 558511, RESELLER, 89ff185a4c4e857c
 contextweb.com, 560288, RESELLER, 89ff185a4c4e857c
@@ -216,6 +219,7 @@ limpid.tv, 920682, DIRECT
 loopme.com, 11227, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11228, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11575, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11594, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 12754, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 5679, RESELLER, 6c8d5f95897a5a3b
@@ -235,6 +239,7 @@ mintegral.com, 10043, RESELLER, 0aeed750c80d6423
 minutemedia.com, 01ggabkvtr5e, DIRECT
 minutemedia.com, 01gya4708ddm, RESELLER
 minutemedia.com, 01j6arbm5tne, RESELLER
+nativo.com, 5711, RESELLER, 59521ca7cc5e9fee
 nativo.com, 5848, RESELLER, 59521ca7cc5e9fee
 network-n.com, pa_ba2bc67e, DIRECT, f08c47fec0942fa0
 ogury.com, 7da4df59-1af0-42fa-9f27-5638fae7a75d, DIRECT
@@ -333,6 +338,7 @@ risecodes.com, 62cd4aab9766d400014b79de, DIRECT
 rubiconproject.com, 10278, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 12186, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 12266, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13344, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 13856, RESELLER, 0bfd66d529a55807
@@ -371,6 +377,7 @@ rubiconproject.com, 24434, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 25198, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 25322, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 26144, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 26800, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 9655, RESELLER, 0bfd66d529a55807
 sharethrough.com, 1SghQadK, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 249198ac, RESELLER, d53b998a7bd4ecd2
@@ -434,6 +441,7 @@ start.io, 123111883, RESELLER
 stroeer.com, 22739, RESELLER
 supply.colossusssp.com, 290, RESELLER, 6c5b49d96ec1b458
 supply.colossusssp.com, 818, RESELLER, 6c5b49d96ec1b458
+supply.colossusssp.com, 836, RESELLER, 6c5b49d96ec1b458
 tappx.com, 42536, DIRECT, 9f375a07da0318ec
 teads.tv, 13367, DIRECT, 15a9c44f6d26cbe1
 themediagrid.com, 25XPU9, RESELLER, 35d5010d7789b49d
@@ -456,6 +464,7 @@ triplelift.com, 8210, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332, DIRECT, 6c33edb13117fd86
 triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
 trustedstack.com, TS9V5HI46, RESELLER
+undertone.com, 4205, RESELLER, d954590d0cb265b9
 vidazoo.com, 659e87c55f6c605c11d299d6, DIRECT, b6ada874b4d7d0b2
 video.unrulymedia.com, 1879993427, DIRECT
 video.unrulymedia.com, 198725881, DIRECT
@@ -477,6 +486,7 @@ video.unrulymedia.com, 5672421953199218469, RESELLER
 video.unrulymedia.com, 6694405583287859332, RESELLER
 video.unrulymedia.com, 699546687, RESELLER
 video.unrulymedia.com, 776418614052335749, RESELLER
+visiblemeasures.com, 1052, RESELLER
 wunderkind.co, 6608, DIRECT
 wunderkind.co, 6800, DIRECT
 wunderkind.co, 6801, DIRECT
@@ -492,3 +502,4 @@ yieldmo.com, 3078438591206989879, RESELLER
 yieldmo.com, 3133660606033240149, RESELLER
 yieldmo.com, 3377199372461613093, RESELLER
 zetaglobal.net, 533, RESELLER
+zetaglobal.net, 891, RESELLER
