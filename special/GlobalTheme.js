@@ -310,10 +310,13 @@ export const GlobalStyle = createGlobalStyle`
     content: attr(data-tooltip);
     visibility: visible;
     position: absolute;
+    max-width: 15rem;
     
     transition: all 0.2s ease;
     transform: translate(-40%, -120%);
     padding: 0.45rem;
+    white-space: wrap;
+    line-height: 1.5;
   }
 
   .MuiAccordion-root{
