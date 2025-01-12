@@ -319,6 +319,10 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1.5;
   }
 
+  [data-tooltip]:not([data-tooltip-persistent]):before {
+    pointer-events: none;
+  }
+
   .MuiAccordion-root{
     background-color: ${props => props.theme.mode === 'dark' ? '#37363a' : '#FFF'} !important;
     color: ${getForeground} !important;
