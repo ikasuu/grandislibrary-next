@@ -1,4 +1,4 @@
-#  Updated: 2025-01-14 15:58:20
+#  Updated: 2025-01-15 11:45:14
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -70,7 +70,6 @@ amxrtb.com, 105199691, RESELLER
 amxrtb.com, 105199704, RESELLER
 amxrtb.com, 105199734, RESELLER
 aniview.com, 603f65a2e291680ef30af9c7, RESELLER, 78b21b97965ec3f8
-aniview.com, 641186cd15d2e834c809eb78, DIRECT, 78b21b97965ec3f8
 appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
 appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
 appnexus.com, 10824, RESELLER, f5ab79cb980f11d1
@@ -186,7 +185,6 @@ indexexchange.com, 192410, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 193657, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 193792, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 194558, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 196326, RESELLER
 infolinks.com, 3355573, DIRECT
 inmobi.com, 17865bac25f44f51b8fd08b12e92072c, DIRECT, 83e75a7ae333ca9d
@@ -357,7 +355,6 @@ rubiconproject.com, 18580, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 18694, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19116, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 19396, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 19654, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20130, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20322, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20406, DIRECT, 0bfd66d529a55807
@@ -371,7 +368,6 @@ rubiconproject.com, 23404, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23434, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23718, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 24078, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24138, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24364, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24434, RESELLER, 0bfd66d529a55807
