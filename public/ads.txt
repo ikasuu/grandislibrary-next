@@ -1,4 +1,4 @@
-#  Updated: 2025-01-30 10:23:21
+#  Updated: 2025-02-05 11:54:08
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -424,6 +424,7 @@ smartadserver.com, 4255, RESELLER
 smartadserver.com, 4284, RESELLER
 smartadserver.com, 4288, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4342, RESELLER
+smartadserver.com, 4483, RESELLER
 smartadserver.com, 4537, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4618, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4926, RESELLER, 060d053dcf45cbf3
