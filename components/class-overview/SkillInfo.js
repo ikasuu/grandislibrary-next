@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { Badge, Card, Image, Modal } from 'react-bootstrap';
 import { Parser } from 'expr-eval';
-import DOMPurify from 'isomorphic-dompurify';
-import parse from 'html-react-parser';
 import styled from 'styled-components';
+import formatSkillText from './ClassFormat';
 
 /*
     Skill component that creates a component to hold and render our skill info like name, desc, and properties 
@@ -77,8 +76,8 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel, animationS
                         {skillData.reqLev && <SkillBadge variant="secondary">Lv. {skillData.reqLev}</SkillBadge>}
                     </Card.Title>
                     <MasterLevel><em>Master Level: {maxLevel}</em></MasterLevel>
-                    {skillData.desc && <Card.Text>{parse(DOMPurify.sanitize(skillData.desc))}</Card.Text>}
-                    {skillData.details && <SkillDetails><ul>{skillData.details.map((detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></SkillDetails>}
+                    {skillData.desc && <Card.Text>{formatSkillText(skillData.desc)}</Card.Text>}
+                    {skillData.details && <SkillDetails><ul>{skillData.details.map((detail, index) => <li key={index}>{formatSkillText(detail)}</li>)}</ul></SkillDetails>}
                     {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
                     {/* Lastly, we split the string into multiple parts where new lines are needed */}
                     <div>{

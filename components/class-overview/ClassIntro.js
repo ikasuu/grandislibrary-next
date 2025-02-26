@@ -11,6 +11,7 @@ import InfoButton from '../UtilityButtons';
 import BannerAdOne, { BannerAdTwo, StickyAd, VideoAdClassOverview } from '../Ads';
 import { Accordion, AccordionDetails, AccordionSummary, Chip } from '@material-ui/core';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import formatSkillText, { formatActivesSection, formatBuildSection, formatExtraContentText, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -272,13 +273,13 @@ function ClassBuffs({content}) {
             <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order. Durations and cooldowns are based on their base value at Max Level. Does not include Common 5th Job."/></StyledHeaderTwo>
             <Table size="sm">
             <tbody>
-                <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
-                {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.toggles))}</StatTableData></tr>:<></>}
-                {content.buffInfo.summons ? <tr><th><strong>Summons &amp; Placables</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<tr><th><strong>Summons &amp; Placables</strong>:</th><td>None</td></tr>}
-                <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData></tr>
-                {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
-                {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
-                {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.damageReduce))}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
+                <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.active)}</StatTableData></tr>
+                {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.toggles)}</StatTableData></tr>:<></>}
+                {content.buffInfo.summons ? <tr><th><strong>Summons &amp; Placables</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.summons)}</StatTableData></tr>:<tr><th><strong>Summons &amp; Placables</strong>:</th><td>None</td></tr>}
+                <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.buffCd)}</StatTableData></tr>
+                {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.binds)}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
+                {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.iFrame)}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
+                {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.damageReduce)}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
             </tbody>
             </Table>
         </BuffAndActivesWrapper>
@@ -319,9 +320,9 @@ function ClassDetail({content}) {
                     <tbody>
                         {content.attackStats.map((stat, index) => 
                             <tr key={index}>
-                                <StatTableData width='18%'><strong>{parse(DOMPurify.sanitize(stat.name))}</strong></StatTableData>
-                                <StatTableData width='18%'>{parse(DOMPurify.sanitize(stat.stat))}</StatTableData>
-                                <StatTableData className='bs-data-vals'>{parse(DOMPurify.sanitize(stat.detail))}</StatTableData>
+                                <StatTableData width='18%'><strong>{stat.name}</strong></StatTableData>
+                                <StatTableData width='18%'>{formatSkillText(stat.stat)}</StatTableData>
+                                <StatTableData>{formatSkillBadge(stat.detail)}</StatTableData>
                             </tr>
                         )}
                     </tbody>
@@ -334,19 +335,34 @@ function ClassDetail({content}) {
                 {content.buildPath.build.map((build,index) => 
                 <tr key={index}>
                     <th>{build[0]}:</th>
-                    <StatTableData>{parse(DOMPurify.sanitize(build[1]))}</StatTableData>
+                    <StatTableData>{formatBuildSection(build[1])}</StatTableData>
                 </tr>)}
             </tbody>
             </Table>
             <ul>
                 {content.buildPath.details.map((detail,index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}
             </ul>
-            <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive>
-            {parse(DOMPurify.sanitize(content.hyperBuild.recommended))}
-            <StyledHeaderFive>Recommended Skills for Boost Node Trios</StyledHeaderFive>
-            <Container>{parse(DOMPurify.sanitize(content.nodeInfo.recommended))}</Container>
+            {
+                content.hyperBuild.recommended ? <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive> : <></>
+            }
+            {formatSkillText(content.hyperBuild.recommended)}
+            <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
+            {content.nodeInfo.recommended.nodes.map((nodes, index) => 
+                <span key={index}>
+                    <h6>{nodes[0]}</h6>
+                    <Container>{formatSkillTooltip(nodes[1])}</Container>
+                </span>
+            )}
+            <ul>
+                {content.nodeInfo.recommended.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
+            </ul>
             <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
-            <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
+            <Container>{formatSkillTooltip(content.nodeInfo.possible.nodes)}</Container>
+            { content.nodeInfo.possible.notes ? 
+                <ul>
+                    {content.nodeInfo.possible.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
+                </ul> : <></>
+            }
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
             <CardDeck>
                 {
