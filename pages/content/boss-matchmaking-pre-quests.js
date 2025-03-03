@@ -58,7 +58,7 @@ function BossMatchmaking() {
           <ArticleHeaderTwo id="balrog"><img src="/images/map-icons/balrog.png" alt="MapIcon Balog"/> Balrog</ArticleHeaderTwo>
           <p><strong>[Easy Lv. 65+]</strong></p>
           <ul>
-            <li><strong>Can clear</strong>: 7 times daily</li>
+            <li><strong>Can clear</strong>: Unlimited times daily</li>
           </ul>
           <p>No pre-quests</p>
           <ul>
@@ -68,7 +68,7 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="zakum"><img src="/images/map-icons/zakum.png" alt="MapIcon Zakum"/> Zakum</ArticleHeaderTwo>
-          <p><strong>[Easy Lv. 50+] [Normal/Chaos Lv. 100+]</strong></p>
+          <p><strong>[Easy Lv. 50+] [Normal/Chaos Lv. 90+]</strong></p>
           <ul>
             <li><strong>Can clear Easy/Normal</strong>: Daily</li>
             <li><strong>Can clear Chaos</strong>: Weekly</li>
@@ -143,7 +143,7 @@ function BossMatchmaking() {
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <BannerAdOne/>
           <ArticleHeaderTwo id="hilla"><img src="/images/map-icons/hilla.png" alt="MapIcon Hilla"/> Hilla</ArticleHeaderTwo>
-          <p><strong>[Normal Lv. 120+] [Hard Lv. 170+]</strong></p>
+          <p><strong>[Normal Lv. 85+] [Hard Lv. 170+]</strong></p>
           <ul>
             <li><strong>Can clear Normal</strong>: Daily</li>
             <li><strong>Can clear Hard</strong>: Weekly</li>
@@ -219,14 +219,14 @@ function BossMatchmaking() {
                 <img src="/images/equipment/pierre-hat.png" alt="Eqp Pierre Hat"/>
                 <img src="/images/equipment/von-bon-helmet.png" alt="Eqp Von Bon Helmet"/>
                 <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Root Abyss Hat], <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
-                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal], <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> [Yggdrasil Coin], <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/><img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/><img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/>
+                , <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal], <img src="/images/items/yggdrasil-rune.png" alt="Etc Yggdrasil Rune"/> [Yggdrasil Rune], <img src="/images/items/crimson-queens-throne.png" alt="Setup Crimson Queen's Throne"/><img src="/images/items/happy-pierre-chair.png" alt="Setup Happy Pierre Chair"/><img src="/images/items/von-bons-von-chair.png" alt="Setup Von Bon's Von Chair"/>
                 <img src="/images/items/vellum-rock-chair.png" alt="Setup Vellum Rock Chair"/>[Chair]
             </li>
             <li>
                 <strong>Chaos Mode Only Rewards:</strong> <img src="/images/equipment/queens-tiara.png" alt="Eqp Queen's Tiara"/>
                 <img src="/images/equipment/pierre-hat.png" alt="Eqp Pierre Hat"/>
                 <img src="/images/equipment/von-bon-helmet.png" alt="Eqp Von Bon Helmet"/>
-                <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Chaos Hat], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/piece-of-anguish.png" alt="Use Piece of Anguish"/><img src="/images/items/piece-of-mockery.png" alt="Use Piece of Mockery"/><img src="/images/items/piece-of-time.png" alt="Use Piece of Time"/><img src="/images/items/piece-of-destruction.png" alt="Use Piece of Destruction"/> [Chaos Root Abyss Gear Fragment], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src=" /images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/> [Chaos Yggdrasil Coin]
+                <img src="/images/equipment/vellums-helm.png" alt="Eqp Vellum's Helm"/> [Chaos Hat], <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir], <img src="/images/items/piece-of-anguish.png" alt="Use Piece of Anguish"/><img src="/images/items/piece-of-mockery.png" alt="Use Piece of Mockery"/><img src="/images/items/piece-of-time.png" alt="Use Piece of Time"/><img src="/images/items/piece-of-destruction.png" alt="Use Piece of Destruction"/> [Chaos Root Abyss Gear Fragment], <img src="/images/items/rebirth-flame-150.png" alt="Use Rebirth Flame Lv. 150"/> [Lv. 150 Rebirth Flame], <img src=" /images/items/chaos-yggdrasil-rune.png" alt="Etc Chaos Yggdrasil Rune"/> [Chaos Yggdrasil Rune]
                 , <img src="/images/items/pierre-umbrella-stand.png"/><img src="/images/items/von-bon-windup-clock.png"/><img src="/images/items/crimson-queen-vanity-table.png"/><img src="/images/items/vellum-lava-bathtub.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[Furniture]</a>
               </li>
           </ul>
@@ -237,7 +237,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Lion King's Castle Theme Dungeon from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/(Lion_King%27s_Castle)_Desolate_Castle">Desolate Castle</a>” at Lv. 115. The quest “<a href="https://maplestorywiki.net/w/Category:Lion_King%27s_Castle/The_Adventure_of_Jenn_the_Locksmith">The Adventure of Jenn the Locksmith</a>” is also required to unlock Von Leon - it is accessible from the Lightbulb Quest</p>
+          <p>You must complete the Lion King's Castle Main Quest from the <a href="https://maplestorywiki.net/w/Quests/260" target="_blank" rel="noreferrer noopener">Lightbulb Quest</a> at Lv. 120</p>
           <ul>
             <li>
                 <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
@@ -326,12 +326,12 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="cygnus"><img src="/images/map-icons/cygnus-boss.png" alt="MapIcon Cygnus"/> Cygnus</ArticleHeaderTwo>
-          <p><strong>[Easy Lv. 140+] [Normal Lv. 170+]</strong></p>
+          <p><strong>[Easy/Normal Lv. 165+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
           <p><img src="/images/npc/chief-alex.png" alt="NPC Chief Alex"/></p>
-          <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestorywiki.net/w/Quests/47/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestorywiki.net/w/Henesys_Ruins" target="_blank" rel="noreferrer noopener">Henesys Ruins</a></p>
+          <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestorywiki.net/w/Quests/47/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestorywiki.net/w/Henesys_Ruins_(Map)" target="_blank" rel="noreferrer noopener">Henesys Ruins</a></p>
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong> <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
