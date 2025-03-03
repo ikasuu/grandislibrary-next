@@ -237,7 +237,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Lion King's Castle Main Quest from the <a href="https://maplestorywiki.net/w/Quests/260" target="_blank" rel="noreferrer noopener">Lightbulb Quest</a> at Lv. 120</p>
+          <p>You must complete the Lion King's Castle Main Quest starting from the Lightbulb Quest called <a href="https://maplestorywiki.net/w/Quests/260/(Lion_King%27s_Castle)_Among_the_Tundra" target="_blank" rel="noreferrer noopener">"[Lion King's Castle] Among the Tundra"</a> at Lv. 120"</p>
           <ul>
             <li>
                 <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
