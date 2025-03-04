@@ -211,7 +211,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Normal</strong>: Daily</li>
             <li><strong>Can clear Chaos</strong>: Weekly</li>
           </ul>
-          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/62/(Root_Abyss)_An_Urgent_Summons">[Root Abyss] An Urgent Summon</a>” at Lv. 125</p>
+          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quest/(Root_Abyss)_An_Urgent_Summons" target="_blank" rel="noreferrer noopener">[Root Abyss] An Urgent Summons</a>” at Lv. 125</p>
           <ul>
             <li><strong>Normal mode and Above Rewards:</strong></li>
             <li>
@@ -237,7 +237,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Lion King's Castle Main Quest starting from the Lightbulb Quest called <a href="https://maplestorywiki.net/w/Quests/260/(Lion_King%27s_Castle)_Among_the_Tundra" target="_blank" rel="noreferrer noopener">"[Lion King's Castle] Among the Tundra"</a> at Lv. 120"</p>
+          <p>You must complete the Lion King's Castle Main Quest starting from the Lightbulb Quest called <a href="https://maplestorywiki.net/w/Quests/260/(Lion_King%27s_Castle)_Among_the_Tundra" target="_blank" rel="noreferrer noopener">"[Lion King's Castle] Among the Tundra"</a> at Lv. 120</p>
           <ul>
             <li>
                 <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
@@ -298,7 +298,7 @@ function BossMatchmaking() {
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
           <ArticleHeaderTwo id="pinkbean"><img src="/images/map-icons/pink-bean-boss.png" alt="MapIcon Pink Bean"/> Pink Bean</ArticleHeaderTwo>
-          <p><strong>[Normal Lv. 160+] [Chaos Lv. 170+]</strong></p>
+          <p><strong>[Normal Lv. 140+] [Chaos Lv. 170+]</strong></p>
           <ul>
             <li><strong>Can clear Normal</strong>: Daily</li>
             <li><strong>Can clear Chaos</strong>: Weekly</li>
@@ -800,7 +800,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
-          <p>You must complete the Hieizan Temple storyline to gain access to Princess No. To start, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/56/(Hieizan_Temple)_Regards,_Takeda_Shingen">[Hieizan Temple] Regards, Takeda Shingen</a>” at Lv. 140</p>
+          <p>You must complete the Hieizan storyline to gain access to Princess No. To start, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quest/(Princess_No)_Regards,_Takeda_Shingen" target="_blank" rel="noreferrer noopener">[Princess No] Regards, Takeda Shingen</a>” at Lv. 140</p>
           <ul>
             <li>
                 <strong>Main Rewards:</strong> <img src="/images/items/captivating-fragment.png" alt="Use Captivating Fragment"/> <a href="https://maplestorywiki.net/w/Captivating_Fragment" target="_blank" rel="noopener noreferrer">[Secondary Weapon Fragment]</a>

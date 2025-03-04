@@ -149,7 +149,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/maple-world-goddess-blessing.png"],
         "animations": ["https://media4.giphy.com/media/AV4drI0ly2fYImnP3H/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, increases %Damage and the stat bonuses of <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> and similar skills"
+        "desc": "While active, increases %Damage and the stat bonuses of <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)}> and similar skills"
     },
     expWarrior:{
         "name": "Blitz Shield",
@@ -158,9 +158,9 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/blitz-shield.png"],
         "animations": ["https://media2.giphy.com/media/0Rj4K4HNqYGsk63MyN/giphy.gif"],
         "type": "Buff",
-        "desc": "Creates a shield based on your %Max HP that blocks damage",
+        "desc": "Create a shield based on your %Max HP that blocks damage",
         "details": [
-            "When the shield expires or the Skill Key is pressed, the shield explodes damaging nearby enemies<ul><li>Shield must be active for at least 2 secs before it can be detonated</li></ul>"
+            "When the shield expires or the Skill Key is pressed, the shield explodes damaging nearby enemies<bp_Shield must be active for at least 2 secs before it can be detonated_>"
         ]
     },
     expMagician:{
@@ -170,11 +170,11 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/unreliable-memory.png"],
         "animations": ["https://media4.giphy.com/media/ncQEHsz4n9SUxkaU4l/giphy.gif"],
         "type": "Active",
-        "desc": "Uses the memorized skill chosen from <span data-tooltip='Mind Delve (5th Job)'><img src='/class-icons/5th-job/mind-delve.png' alt='Skill Mind Delve'/></span>",
+        "desc": "Use the memorized skill chosen from <tt src={/class-icons/5th-job/mind-delve.png} tip={Mind Delve (5th Job)}>",
         "details": [
-            "<strong>[Passive]</strong>: Grants flat INT",
+            "[Passive]: Grants flat INT",
             "Ignores MP cost and cooldowns",
-            "Cooldown of Unreliable Memory will be reduced based on the probabilities below:<ul><li>20% reduction (1% chance)</li><li>25% reduction (5% chance)</li><li>30% reduction (10% chance)</li><li>35% reduction (15% chance)</li><li>35% reduction (20% chance)</li><li>40% reduction (15% chance)</li><li>45% reduction (10% chance)</li><li>50% reduction (5% chance)</li><li>55% reduction (5% chance)</li><li>60% reduction (5% chance)</li><li>70% reduction (5% chance)</li><li>75% reduction (3% chance)</li><li>80% reduction (1% chance)</li></ul>"
+            "Cooldown of Unreliable Memory will be reduced based on the probabilities below:<bp_20% reduction (1% chance)_25% reduction (5% chance)_30% reduction (10% chance)_35% reduction (15% chance)_35% reduction (20% chance)_40% reduction (15% chance)_45% reduction (10% chance)_50% reduction (5% chance)_55% reduction (5% chance)_60% reduction (5% chance)_70% reduction (5% chance)_75% reduction (3% chance)_80% reduction (1% chance)_>"
         ]
     },
     mindDelve:{
@@ -184,11 +184,11 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/mind-delve.png"],
         "animations": ["https://media.giphy.com/media/pBcdQ9kl2OkOXJY95t/giphy.gif"],
         "type": "Active",
-        "desc": "When used, allows you to select 3rd - 4th job skills using the Number Keys to be cast when using <span data-tooltip='Unreliable Memory (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>",
+        "desc": "When used, allows you to select 3rd - 4th job skills using the Number Keys to be cast when using <tt src={/class-icons/5th-job/unreliable-memory.png} tip={Unreliable Memory (5th Job)}>",
         "details": [
             "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
             "Only skills with SP allocated can be chosen",
-            "This skill is gained alongside and shares SP with <span data-tooltip='Unreliable Memory (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>"
+            "This skill is gained alongside and shares SP with <tt src={/class-icons/5th-job/unreliable-memory.png} tip={Unreliable Memory (5th Job)}>"
         ]
     },
     expBowman: {
@@ -198,9 +198,9 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/fury-of-the-wild.png"],
         "animations": ["https://media3.giphy.com/media/llsZlPVsm7sAZFcb8i/giphy.gif"],
         "type": "Summon",
-        "desc": "Transforms Phoenix, Frostprey, or Shadow Raven into a more powerful form",
+        "desc": "Transform Phoenix, Frostprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix'/> <img class='icon' src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/> <img class='icon' src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/> is active"
+            "Can only be used when <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job - Bowmaster)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job - Marksman)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job - Pathfinder)}> is active"
         ]
     },
     expPBowman: {
@@ -209,9 +209,9 @@ export const commonFifth = {
         "id": 400001012,
         "icons": ["/class-icons/5th-job/fury-of-the-wild.png"],
         "animations": ["https://media0.giphy.com/media/ZlMeLcuyoa4oW2el4Z/giphy.gif"],
-        "desc": "Transforms Phoenix, Frostprey, or Shadow Raven into a more powerful form",
+        "desc": "Transform Phoenix, Frostprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix'/> <img class='icon' src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/> <img class='icon' src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/> is active"
+            "Can only be used when <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job - Bowmaster)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job - Marksman)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job - Pathfinder)}> is active"
         ]
     },
     expThief: {
@@ -221,9 +221,9 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/shadow-walker.png"],
         "animations": ["https://media4.giphy.com/media/KZvjAfaZInF431yAcH/giphy.gif"],
         "type": "Buff",
-        "desc": "Activates a special <img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'> where attacking will not cancel the buff",
+        "desc": "Activate a special <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> where attacking will not cancel the buff",
         "details": [
-            "Additionally increases %Final Damage added on top of <img src='/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'>"
+            "Additionally increases %Final Damage added on top of <tt src={/class-icons/common/advanced-dark-sight.png} tip={Advanced Dark Sight}>"
         ]
     },
     expPirate: {
@@ -246,7 +246,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/phalanx-charge.png"],
         "animations": ["https://media4.giphy.com/media/7y719ZfMh0lXsQW919/giphy.gif"],
         "type": "Summon",
-        "desc": "Summons Spearmen of Cygnus Knights to charge forward damaging enemies that collide with it",
+        "desc": "Summon Spearmen of Cygnus Knights to charge forward damaging enemies that collide with it",
         "details": [
             "The spearmen slow down upon touching an enemy",
             "Pressing the Skill Key again will change their direction of movement",
@@ -262,7 +262,7 @@ export const commonFifth = {
         "type": "Buff",
         "desc": "Grants a stacking %Damage buff (additive) and periodically restores %Max HP",
         "details": [
-            "Skill is enhanced after Lv. 245 becoming <img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus's Blessing'/> Transcendent Cygnus's Blessing and additionally reduces damage taken (including %Max HP attacks)"
+            "Skill is enhanced after Lv. 245 becoming <tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing}> Transcendent Cygnus's Blessing and additionally reduces damage taken (including %Max HP attacks)"
         ]
     },
     freudsWisdom:{
@@ -285,7 +285,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/resistance-infantry.png"],
         "animations": ["https://media1.giphy.com/media/8lnnh46r15qpe51QLL/giphy.gif"],
         "type": "Summon",
-        "desc": "A squad of Resistance infantry fires waves of bullets at enemies",
+        "desc": "Place down a squad of Resistance infantry that fires waves of bullets at enemies",
         "details": [
             "Unaffected by Damage Reflect"
         ]
@@ -297,9 +297,10 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/defender-of-the-demon.png"],
         "animations": ["https://media1.giphy.com/media/XGCkfDLecmgSCsBc4n/giphy.gif"],
         "type": "Summon",
-        "desc": "Summons Mastema to fight by your side",
+        "desc": "Summon Mastema to fight by your side",
         "details": [
-            "Mastema has two different skills:<ul><li><strong>[Mastema's Claw]</strong>: Mastema attacks by clawing forward</strong></li><li><strong>[Mastema's Mark]</strong>: Mastema grants a buff that increases %Damage Reduction (including %Max HP attacks)<ul><li>Blocks up to two attacks before disappearing</li><li>Buff disappears when duration ends or max uses is reached</li></li></ul>",
+            "Mastema has two different skills:<bp_[Mastema's Claw]: Mastema attacks by clawing forward_[Mastema's Mark]: Mastema grants a buff that increases %Damage Reduction (including %Max HP attacks)_>",
+            "The buff provided has the following properties:<bp_Blocks up to two attacks before disappearing_Buff disappears when duration ends or max uses is reached_>",
             "Unaffected by Damage Reflect"
         ]
     },
@@ -312,10 +313,10 @@ export const commonFifth = {
         "type": "Buff",
         "desc": "Increases your %Final Damage while periodically providing various buffs",
         "details": [
-            "<strong>[Blessing of Recovery]: </strong>Restores some %Max HP regardless of any effects preventing HP recovery",
-            "<strong>[Aegis Blessing]</strong>: Reduces damage taken once, including %Max HP damage but, triggers only once per buff",
-            "<strong>[Blessing of Fortitude]: </strong>Ignores one movement-restricting Abnormal Status",
-            "<strong>[Otherworldly Void]: </strong>Damages nearby enemies"
+            "[Blessing of Recovery]: Restores some %Max HP regardless of any effects preventing HP recovery",
+            "[Aegis Blessing]: Reduces damage taken once, including %Max HP damage but, triggers only once per buff",
+            "[Blessing of Fortitude]: Ignores one movement-restricting Abnormal Status",
+            "[Otherworldly Void]: Damages nearby enemies"
         ]
     },
     mightOfTheNova:{
@@ -325,9 +326,9 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/might-of-the-nova.png"],
         "animations": ["https://media1.giphy.com/media/eiYA7as3sG0mA6277y/giphy.gif"],
         "type": "Attack / Buff",
-        "desc": "Deals a massive attack to nearby enemies while granting a buff that prevents you from one fatal blow",
+        "desc": "Deal damage nearby enemies while granting a buff that prevents you from one fatal blow",
         "details": [
-            "Functions exactly the same as Bishop's <img src='/class-icons/explorers/bishop/heavens-door.png' alt='Skill Heaven's Door'> Heaven's Door"
+            "Functions exactly the same as Bishop's <tt src={/class-icons/explorers/bishop/heavens-door.png} tip={Heaven's Door}> Heaven's Door"
         ]
     },
     grandisGoddessBlessingNV:{
@@ -362,7 +363,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTI4YWJiM21vemt5MW5yNDRnM2hncWkzYXo3cWM0YzVqcGYwOGpweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1FUDtuDNiNos8qi01U/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, a percent of your equipment's Attack or Magic Attack will be converted to the one you use",
+        "desc": "While active, a percent of your equipment's Attack or Magic Attack is converted to the one you use",
         "details": [
             "Excludes your Primary Weapon and Set Bonus Effects",
             "Converted bonus cannot exceed 150% of your weapon's base Attack/Magic Attack"
@@ -384,7 +385,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, increases %Damage and %Final Damage bonus from <img src='/class-icons/anima/lara/dragon-vein-echo.png' alt='Skill Dragon Vein Echo'/>"
+        "desc": "While active, increases %Damage and %Final Damage bonus from <tt src={/class-icons/anima/lara/dragon-vein-echo.png} tip={Dragon Vein Echo (3rd Job)}>"
     },
     afterimageOfTheOtherworld:{
         "name": "Afterimage of the Otherworld",
@@ -393,9 +394,9 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/afterimage-of-the-otherworld.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXA2N294M3ozdm5ncHlkdDkxa2hyeTNvM3dpcjJxZTAzZXdqaGpnMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0WvCReMHp6vK0YgdOm/giphy.gif"],
         "type": "Summon",
-        "desc": "Places a portal applies a debuff to an enemy",
+        "desc": "Place a portal that applies a debuff to an enemy",
         "details": [
-            "<strong>[Debuff]</strong>: Attacking this enemy has a chance to restore %Max HP/MP<ul><li>Debuff application prioritizes bosses with the highest HP first</li></ul>",
+            "[Debuff]: Attacking this enemy has a chance to restore %Max HP/MP<bp_Debuff application prioritizes bosses with the highest HP first_>",
             "While the portal is active, increases %Crit Damage and all stats directly invested with AP"
         ]
     },
@@ -408,9 +409,9 @@ export const commonFifth = {
         "type": "Buff",
         "desc": "When used, applies 3 different buff effects",
         "details": [
-            "<strong>[Light Blessing]</strong>: Using attack skills creates a spear that strikes enemies and lingers briefly dealing continuous damage",
-            "<strong>[Life Blessing]</strong>: Increases %Final Damage and blocks up to 3 Critical Abnormal Statuses",
-            "<strong>[Time Blessing]</strong>: Using 4th Job or lower skills (excluding Beginner Skills) create afterimages that deals an additional attack<ul><li><strong>[Note]</strong>: In the case that more Transcendent classes are added, the 'skills that triggered Assist for Zero' implies that only Zero's skills that trigger the Assist effect create stronger afterimages</li><li>Afterimages can only be created once per skill</li></ul>"
+            "[Light Blessing]: Using attack skills creates a spear that strikes enemies and lingers briefly dealing continuous damage",
+            "[Life Blessing]: Increases %Final Damage and blocks up to 3 Critical Abnormal Statuses",
+            "[Time Blessing]: Using 4th Job or lower skills (excluding Beginner Skills) create afterimages that deals an additional attack<bp_[Note]: In the case that more Transcendent classes are added, \"skills that triggered Assist for Zero\" implies that only Zero's skills that trigger the Assist effect create stronger afterimages_Afterimages can only be created once per skill_>"
         ]
     },
     lotusFlower:{
@@ -432,12 +433,12 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/sengoku-force-assemble.png"],
         "animations": ["https://media2.giphy.com/media/hdOUEr0bUns5nRa0pR/giphy.gif"],
         "type": "Summon",
-        "desc": "Randomly summons two Sengoku heroes to fight alongside you while providing a buff",
+        "desc": "Randomly summon two Sengoku heroes that attack and provide a buff",
         "details": [
-            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9130005/icon'/>[Uesugi Kenshin]: </strong>Slashes her blade at nearby enemies<ul><li>Increases %Ignore DEF</li></ul>",
-            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9130007/icon'/>[Tsuchimikado Haruaki]: </strong>Swings his fan creating a wave of magic<ul><li>Increases %Damage Reduction (includes %Max HP attacks)</li></ul>",
-            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9000425/icon'/>[Ayame]: </strong>Shoots her rifle forward<ul><li>Increases %Crit Damage</li></ul>",
-            "<strong><img src='https://maplestory.io/api/GMS/210.1.1/npc/9000427/icon'/>[Takeda Shingen]: </strong>Flags strike down on nearby enemies<ul><li>Increases Attack and Magic Attack</li></ul>"
+            "[Uesugi Kenshin]: Slashes her blade at nearby enemies<bp_Increases %Ignore DEF_>",
+            "[Tsuchimikado Haruaki]: Swings his fan creating a wave of magic<bp_Increases %Damage Reduction (includes %Max HP attacks)_>",
+            "[Ayame]: Shoots her rifle forward<bp_Increases %Crit Damage_>",
+            "[Takeda Shingen]: Flags strike down on nearby enemies<bp_Increases Attack and Magic Attack_>"
         ]
     },
     princessSakunoBlessing:{
@@ -458,7 +459,7 @@ export const commonFifth = {
         "type": "Buff",
         "desc": "Increases your %Damage in proportion to your current MP",
         "details": [
-            "When attacking, you will periodically trigger a Spell Storm damaging nearby enemies<ul><li>The %Damage buff will be recalculated every time Spell Storm is activated</li></ul>"
+            "When attacking, you will periodically trigger a Spell Storm damaging nearby enemies<bp_The %Damage buff will be recalculated every time Spell Storm is activated_>"
         ]
     },
     transcendentRhinnePrayer:{
@@ -468,10 +469,10 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/transcendent-rhinnes-prayer.png"],
         "animations": ["https://media1.giphy.com/media/1l2KreXVnPRTEZaj1k/giphy.gif"],
         "type": "Buff",
-        "desc": "When <img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> stacks, your next attack creates an additional attack",
+        "desc": "While active, when <tt src={/class-icons/other/zero/doubletime.png} tip={Doubletime (Transcendent Skill)}> stacks, your next attack creates an additional attack",
         "details": [
             "When used, applicable skill cooldowns are reset",
-            "Additionally while active, <img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> and <img src='/class-icons/other/zero/immune-barrier.png' alt='Skill Immune Barrier'/> last for their maximum duration"
+            "Additionally while active, <tt src={/class-icons/other/zero/doubletime.png} tip={Doubletime (Transcendent Skill)}> and <tt src={/class-icons/other/zero/immune-barrier.png} tip={Immune Barrier (Beta, Lv. 165)}}> last for their maximum duration"
         ]
     },
     powerOfDestiny:{
@@ -480,12 +481,12 @@ export const commonFifth = {
         "id": 400001013,
         "icons": ["/class-icons/5th-job/power-of-destiny.png"],
         "type": "Buff",
-        "desc": "Uses the memorized skill chosen from <span data-tooltip='Ring of Samsara (5th Job)'><img src='/class-icons/5th-job/ring-of-samsara.png' alt='Skill Ring of Samsara'/></span>",
+        "desc": "Use the memorized skill chosen from <tt src={/class-icons/5th-job/ring-of-samsara.png} tip={Ring of Samsara (5th Job)}>",
         "details": [
-            "<img src='/class-icons/5th-job/power-of-destiny-might.png' alt='Skill Power of Destiny Might'/> <strong>[1 - Might]</strong>: Increases %Damage",
-            "<img src='/class-icons/5th-job/power-of-destiny-perceive.png' alt='Skill Power of Destiny Perceive'/> <strong>[2 - Perceive]</strong>: Increases %Ignore DEF",
-            "<img src='/class-icons/5th-job/power-of-destiny-boon.png' alt='Skill Power of Destiny Boon'/> <strong>[3 - Boon]</strong>: Grants flat Attack, Magic Attack, and All Stats",
-            "<img src='/class-icons/5th-job/power-of-destiny-journey.png' alt='Skill Power of Destiny Journey'/> <strong>[4 - Journey]</strong>: Increases %Damage to regular monsters"
+            "<tt src={/class-icons/5th-job/power-of-destiny-might.png} tip={Power of Destiny - Might}> [1 - Might]: Increases %Damage",
+            "<tt src={/class-icons/5th-job/power-of-destiny-perceive.png} tip={Power of Destiny - Perceive}> [2 - Perceive]: Increases %Ignore DEF",
+            "<tt src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny - Boon}> [3 - Boon]: Grants flat Attack, Magic Attack, and All Stats",
+            "<tt src={/class-icons/5th-job/power-of-destiny-journey.png} tip={Power of Destiny - Journey}> [4 - Journey]: Increases %Damage to regular monsters"
         ]
     },
     ringOfSamsara:{
@@ -495,11 +496,11 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/ring-of-samsara.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3RtZGE3bTN2cXVlaWQ5aDBqNm5iZXhtbXV4YTlmM3dxZnE3b2MxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/znevSsvwnIjsxw8ZW0/giphy.gif"],
         "type": "Active",
-        "desc": "When used, allows you to select between 4 possible buffs using the Number Keys to be cast when using <span data-tooltip='Power of Destiny (5th Job)'><img src='/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>",
+        "desc": "When used, allows you to select between 4 possible buffs using the Number Keys to be cast when using <tt src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)}>",
         "details": [
             "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
-            "The selected skill is reset at 12:00 AM UTC<ul><li>During that time, the buff cannot be changed until after reset</li></ul>",
-            "This skill is gained alongside and shares SP with <span data-tooltip='Power of Destiny (5th Job)'><img src='/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>"
+            "The selected skill is reset at 12:00 AM UTC<bp_During that time, the buff cannot be changed until after reset_>",
+            "This skill is gained alongside and shares SP with <tt src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)}>"
         ]
     },
     weaponAura:{
@@ -555,7 +556,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/guided-arrow.png"],
         "animations": ["https://media0.giphy.com/media/8fKfxe9zlHnmrXuXVJ/giphy.gif"],
         "type": "Toggle Summon",
-        "desc": "Summons an arrow that seeks and attacks nearby enemies",
+        "desc": "While toggled, an arrow is summoned that seeks and attacks nearby enemies",
         "details": [
             "Deals increased %Damage to regular monsters",
             "Unaffected by Damage Reflect"
@@ -579,8 +580,8 @@ export const commonFifth = {
         "type": "Attack",
         "desc": "Consumes all active Damage-over-Time stacks on nearby enemies to instantly deal the remaining damage plus an additional attack",
         "details": [
-            "When activated, the original DoT will spread to nearby enemies",
-            "<strong>[Passive]</strong>: Permanently adds a bonus chance to apply a DoT effect to enemies when attacking"
+            "[Passive]: Permanently adds a bonus chance to apply a DoT effect to enemies when attacking",
+            "When activated, the original DoT will spread to nearby enemies"
         ]
     },
     lastResort: {
@@ -590,11 +591,11 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/last-resort.png"],
         "animations": ["https://media1.giphy.com/media/H9sLPP1J2vVhs6Cmcl/giphy.gif"],
         "type": "Buff",
-        "desc": "Reduces your %Avoidability while increases %Final Damage and damage taken from enemy attacks (including %Max HP attacks)",
+        "desc": "While active, reduces your %Avoidability while increases %Final Damage and damage taken from enemy attacks (including %Max HP attacks)",
         "details": [
+            "[Passive]: Permanently grants flat Attack",
             "There are two stages of the buff, pressing the Skill Key again will enter second stage which increases the effects of both the debuff and buff portions of the skill",
-            "Activating the buff by pressing the Down Arrow Key and Skill Key together will immediately trigger Stage 2<ul><li>Right-clicking the skill will toggle ON/OFF this function</li></ul>",
-            "<strong>[Passive]</strong>: Permanently grants flat Attack"
+            "Activating the buff by pressing the Down Arrow Key and Skill Key together will immediately trigger Stage 2<bp_Right-clicking the skill will toggle ON/OFF this function_>"
         ]
     },
     loadedDice: {
@@ -604,10 +605,10 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/loaded-dice.png"],
         "animations": ["https://media0.giphy.com/media/3o34vbKGyVYywzT5tB/giphy.gif"],
         "type": "Buff",
-        "desc": "After casting this skill, the next time you use <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/> Roll of the Dice, you'll throw an additional dice of your choosing",
+        "desc": "After using this skill, the next time you use <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> Roll of the Dice, you'll throw an additional dice of your choosing",
         "details": [
-            "Classes without <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/> will be given a special skill to choose their desired number",
-            "<strong>[Passive]</strong>: Permanently grants flat Attack"
+            "[Passive]: Permanently grants flat Attack",
+            "Classes without <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> will be given a special skill to choose their desired number"
         ]
     },
     overdrive: {
@@ -638,7 +639,7 @@ export const linkSkills = {
         "type": "Passive",
         "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
         "details": [
-            "<strong>[Debuff]: </strong>Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
+            "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
             "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level",
             "Useful for BOSSING because of INCREASED DAMAGE and IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE"
         ]
@@ -672,7 +673,7 @@ export const linkSkills = {
         "details": [
             "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
             "The stats are affected by %Stat bonuses",
-            "<strong>[Note]: </strong>Link Skill has a togglable effect where you can swap STR + %STR into DEX + %DEX and vice versa<ul><li>Double-click the Link Skill to turn this effect on/off</li><li>The effect only applies to the original Link Skill, not the transferred version</li></ul>",
+            "[Note]: Link Skill has a togglable effect where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Double-click the Link Skill to turn this effect ON/OFF_The effect only applies to the original Link Skill, not the transferred version_Excludes Primary and Secondary Weapon, Totems, and Symbols_>",
             "Useful for INCREASING DAMAGE and TRAINING characters pre-200 because of increased SURVIVABILITY"
         ]
     },
@@ -683,7 +684,7 @@ export const linkSkills = {
         "desc": "",
         "details": [
             "Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level",
-            "Useful for INCREASING DAMAGE and REDUCING DURATION OF DEBUFFS<ul><li>Important in bosses like Chaos Pink Bean</li></ul>"
+            "Useful for INCREASING DAMAGE and REDUCING DURATION OF DEBUFFS<bp_Important in bosses like Chaos Pink Bean_>"
         ]
     },
     mihile: {
@@ -737,7 +738,7 @@ export const linkSkills = {
         "type": "Passive",
         "desc": "",
         "details": [
-            "Useful for TRAINING because of INCREASED EXP<ul><li>Runes provide a 2x EXP buff when active</li></ul>"
+            "Useful for TRAINING because of INCREASED EXP<bp_Runes provide a 2x EXP buff when active_>"
         ]
     },
     shade: {
@@ -925,7 +926,7 @@ export const linkSkills = {
         "desc": "",
         "details": [
             "This skill is leveled up by completing the Zero storyline",
-            "Useful for BOSSING because IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE<ul><li>Also useful for TRAINING pre-200 because of increased SURVIVABILITY</li></ul>"
+            "Useful for BOSSING because IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE<bp_Also useful for TRAINING pre-200 because of increased SURVIVABILITY_>"
         ]
     }
 }
