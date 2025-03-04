@@ -23,6 +23,18 @@
     ],
     "recent": [
         {
+            "title": "v.257 - Tallahart: Grave of the Gods Patch Notes",
+            "image": "/home-thumbnail/dark-ride-tallahart.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/23160/v-257-tallahart-grave-of-the-gods-patch-notes",
+            "subtitle": "February 11, 2025"
+        },
+        {
+            "title": "v.256 - The Dark Ride: Limbo Patch Notes",
+            "image": "/home-thumbnail/dark-ride-limbo.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/21376/v-256-the-dark-ride-limbo-patch-notes",
+            "subtitle": "December 16, 2024"
+        },
+        {
             "title": "v.255 The Dark Ride: Ride or Die Patch Notes",
             "image": "/home-thumbnail/ride-or-die.jpg",
             "link": "https://www.nexon.com/maplestory/news/update/21375/v-255-the-dark-ride-ride-or-die-patch-notes",
@@ -45,21 +57,27 @@
             "image": "/home-thumbnail/go-west-2.jpg",
             "link": "https://www.nexon.com/maplestory/news/update/17655/v-252-go-west-patch-notes",
             "subtitle": "July 16, 2024"
-        },
-        {
-            "title": "V.251 GO WEST! Patch Notes",
-            "image": "/home-thumbnail/go-west.jpg",
-            "link": "https://www.nexon.com/maplestory/news/update/17541/v-251-go-west-patch-notes",
-            "subtitle": "June 11, 2024"
-        },
-        {
-            "title": "V.250 Mayple Island Patch Notes",
-            "image": "/home-thumbnail/mayple-island.jpg",
-            "link": "https://maplestory.nexon.net/news/91576/v-250-mayple-island-patch-notes",
-            "subtitle": "May 1, 2024"
         }
     ],
     "upcoming": [
+        {
+            "title": "MapleStory NEXT: Sword of the God King, Baldrix!",
+            "image": "/home-thumbnail/next-baldrix.jpg",
+            "link": "https://orangemushroom.net/2025/02/20/kms-ver-1-2-400-maplestory-next-sword-of-the-god-king-baldrix/",
+            "subtitle": "February 20, 2025"
+        },
+        {
+            "title": "MapleStory NEXT: Union Champion!",
+            "image": "/home-thumbnail/next-union-champion.jpg",
+            "link": "https://orangemushroom.net/2025/01/16/kms-ver-1-2-399-maplestory-next-union-champion/",
+            "subtitle": "January 16, 2025"
+        },
+        {
+            "title": "MapleStory NEXT: 3rd & 4th Mastery Cores!",
+            "image": "/home-thumbnail/next-mastery-core.jpg",
+            "link": "https://orangemushroom.net/2024/12/19/kms-ver-1-2-398-maplestory-next-3rd-4th-mastery-cores/",
+            "subtitle": "December 19, 2024"
+        },
         {
             "title": "MapleStory X Demon Slayer!",
             "image": "/home-thumbnail/demon-slayer.jpg",
@@ -71,24 +89,6 @@
             "image": "/home-thumbnail/azmoth.jpg",
             "link": "https://orangemushroom.net/2024/10/17/kms-ver-1-2-396-azmoth-canyon-maplestory-x-dave-the-diver/",
             "subtitle": "October 17, 2024"
-        },
-        {
-            "title": "Tomb of the Gods, Tallahart & Skill Balancing!",
-            "image": "/home-thumbnail/tallahart.jpg",
-            "link": "https://orangemushroom.net/2024/09/12/kms-ver-1-2-395-tomb-of-the-gods-tallahart-skill-balancing/",
-            "subtitle": "September 12, 2024"
-        },
-        {
-            "title": "Epic Dungeon – Angler Company!",
-            "image": "/home-thumbnail/angler-company.jpg",
-            "link": "https://orangemushroom.net/2024/08/14/kms-ver-1-2-394-fall-1st-update-epic-dungeon-angler-company/",
-            "subtitle": "August 14, 2024"
-        },
-        {
-            "title": "MapleStory Milestone: Limbo!",
-            "image": "/home-thumbnail/limbo.jpg",
-            "link": "https://orangemushroom.net/2024/07/19/kms-ver-1-2-393-maplestory-milestone-limbo/",
-            "subtitle": "April 18, 2024"
         }
     ],
     "popularContent": [
