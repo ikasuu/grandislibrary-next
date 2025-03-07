@@ -1018,7 +1018,7 @@ function HardSkin() {
                     </tr>
                 </tbody>
             </StatusTable>
-            <p>The most common caster is <a href="https://maplestorywiki.net/w/Sinister_Steel_Mask" target="_blank" rel="noreferrer noopener">Sinister Steel Masks</a> from <a href="https://maplestorywiki.net/w/Category:Twilight_Perion" target="_blank" rel="noreferrer noopener">Twilight Perion</a> thus can be an inconvenience to deal with</p>
+            <p>The most common caster is <a href="https://maplestorywiki.net/w/Sinister_Steel_Mask" target="_blank" rel="noreferrer noopener">Sinister Steel Masks</a> from <a href="https://maplestorywiki.net/w/Twilight_Perion" target="_blank" rel="noreferrer noopener">Twilight Perion</a> thus can be an inconvenience to deal with</p>
         </LazyLoad>
     )
 };

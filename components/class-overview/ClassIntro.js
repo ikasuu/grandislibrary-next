@@ -312,7 +312,7 @@ function ClassDetail({content}) {
     return (
         <Container>
            {content.specialThanks && <p><em>{content.specialThanks}</em></p>}
-           {content.discord && <p><em>For more in-depth info, visit the Class Discord at <a href={content.discord} target='_blank' rel='noreferrer'>{content.discord}</a></em></p>}
+           {content.discord && <p><em>For more in-depth info, visit the Class Discord at <a href={content.discord} target='_blank' rel='noreferrer noopener'>{content.discord}</a></em></p>}
             <BaseStatsWrapper md="auto">
                 <BaseStatTitle>Base Stats (From Skills)</BaseStatTitle>
                 <BaseStatLegend/>

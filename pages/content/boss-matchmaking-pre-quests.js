@@ -593,7 +593,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="darknell"><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> Darknell</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="darknell"><img src="/images/map-icons/limina.png" alt="MapIcon Limina"/> Darknell</ArticleHeaderTwo>
           <p><strong>[Normal/Hard Lv. 255+ &amp; 850ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
@@ -633,7 +633,7 @@ function BossMatchmaking() {
             </li>
           </ul>
           {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-          <ArticleHeaderTwo id="blackmage"><img src="/images/map-icons/limina.png" alt="MapIcon Limen"/> Black Mage</ArticleHeaderTwo>
+          <ArticleHeaderTwo id="blackmage"><img src="/images/map-icons/limina.png" alt="MapIcon Limina"/> Black Mage</ArticleHeaderTwo>
           <p><strong>[Hard/Extreme Lv. 255+ 1320ArcP+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Monthly</li>
