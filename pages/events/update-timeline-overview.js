@@ -381,7 +381,7 @@ function AllianceRising() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New quest, <a href="https://maplestorywiki.net/w/Quests/60/The_Birth_of_an_Alliance" target="_blank" rel="noreferrer noopener">Birth of an Alliance</a>
+                    New quest, <a href="https://maplestorywiki.net/w/Quests/256/(Alliance)_The_Birth_of_an_Alliance" target="_blank" rel="noreferrer noopener">Birth of an Alliance</a>
                     <ul>
                         <li>
                             <img src="/class-icons/common/will-of-the-alliance.png" alt="Skill Will of the Alliance"/> <a href="https://maplestorywiki.net/w/Will_of_the_Alliance" target="_blank" rel="noreferrer noopener">Will of Alliance</a> passive skill introduced
@@ -493,7 +493,7 @@ function Ark() {
                     Grand Athenaeum: <img src="/images/map-icons/grand-athenaeum.png" alt="MapIcon Grand Athenaeum"/> <a href="https://www.youtube.com/watch?v=f4bzrRnN2Uk" target="_blank" rel="noreferrer noopener">Shadow Alchemist</a> story added
                 </li>
                 <li>New storyline, <a href="https://maplestorywiki.net/w/Captain_Vaga" target="_blank" rel="noreferrer noopener">Captain Vaga</a> (Stellar Detectives prequel)</li>
-                <li>New blockbuster: <a href="https://maplestorywiki.net/w/Epic/Monad" target="_blank" rel="noreferrer noopener">Monad</a></li>
+                <li>New blockbuster: <a href="https://maplestorywiki.net/w/Monad" target="_blank" rel="noreferrer noopener">Monad</a></li>
                 <li>
                     <strong>New item <a href="https://maplestory.wiki/GMS/214/item/2535000" target="_blank" rel="noreferrer noopener">Arcane Catalyst</a>, you will be able to transfer Arcane Symbols to other characters within the same world</strong>
                 </li>
@@ -846,7 +846,7 @@ function BlackHeaven() {
             <h3>New Content</h3>
             <ul>
                 <li>Class revamps, Battle Mage, Wild Hunter, Mechanic (Current iteration)</li>
-                <li>New blockbuster, <a href="https://maplestorywiki.net/w/Epic/Black_Heaven" target="_blank" rel="noreferrer noopener">Black Heaven</a></li>
+                <li>New blockbuster, <a href="https://maplestorywiki.net/w/Black_Heaven" target="_blank" rel="noreferrer noopener">Black Heaven</a></li>
                 <li>
                     New boss: <img src="/images/map-icons/blockbuster.png" alt="MapIcon BlockBuster"/> <a href="https://maplestorywiki.net/w/Lotus" target="_blank" rel="noreferrer noopener">Lotus</a>
                 </li>
@@ -1584,7 +1584,7 @@ function HeroesOfMaple() {
             <ul>
                 <li>New class, <a href="https://maplestorywiki.net/w/Blaster" target="_blank" rel="noreferrer noopener">Blaster</a></li>
                 <li>Class revamps, Evan and Aran (Current iteration)</li>
-                <li>New blockbuster, <a href="https://maplestorywiki.net/w/Epic/Heroes_of_Maple" target="_blank" rel="noreferrer noopener">Heroes of Maple</a></li>
+                <li>New blockbuster, <a href="https://maplestorywiki.net/w/Heroes_of_Maple" target="_blank" rel="noreferrer noopener">Heroes of Maple</a></li>
                 <li>New boss, <a href="https://maplestorywiki.net/w/Damien" target="_blank" rel="noreferrer noopener">Damien</a></li>
                 <li>
                     New area, <img src="/images/map-icons/dark-world-tree.png" alt="MapIcon fallenWorldTree"/>
@@ -1998,7 +1998,7 @@ function MasteriaThroughTime() {
             </div>
             <h3>New Content</h3>
             <ul>
-                <li>New blockbuster, <a href="https://maplestorywiki.net/w/Epic/Masteria_Through_Time" target="_blank" rel="noreferrer noopener">Masteria Through Time</a></li>
+                <li>New blockbuster, <a href="https://maplestorywiki.net/w/Masteria_Through_Time" target="_blank" rel="noreferrer noopener">Masteria Through Time</a></li>
                 <li>Masteria revamp, quest adjustments</li>
                 <li>New dungeon, Beasts of Fury 2, Shaolin Temple</li>
                 <li>
@@ -2794,7 +2794,7 @@ function Rise() {
                     New area, <img src="/images/map-icons/yum-yum-island.png" alt="MapIcon Yum Yum Island"/> <a href="https://maplestorywiki.net/w/Yum_Yum_Island" target="_blank" rel="noreferrer noopener">Yum Yum Island</a>
                 </li>
                 <li>
-                    Beast Tamer Revamp, new Lv. 190 Hyper Skill <img src="/class-icons/other/beast-tamer/all-together-critter-crossing.png" alt="Skill All Together! Critter Crossing!"/> <a href="https://maplestorywiki.net/w/All_Together!_Critter_Crossing!" target="_blank" rel="noreferrer noopener">All Together! Critter Crossing!</a>
+                    Beast Tamer Revamp, new Lv. 190 Hyper Skill <img src="/class-icons/other/beast-tamer/all-together-critter-crossing.png" alt="Skill All Together! Critter Crossing!"/> All Together! Critter Crossing!
                 </li>
                 <li><strong>Kanna Skill Revamp, Kishin Shoukan effectiveness reduced</strong></li>
                 <li>
