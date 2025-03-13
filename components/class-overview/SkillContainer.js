@@ -75,7 +75,7 @@ export class SkillContainer extends Component {
     Created by: Ikasuu, Fall 2020
 */
 
-export function VSkillContainer({skillData, settings}) {
+export function VSkillContainer({skillData, settings, level, matrixP}) {
     return (
         <div>
             {
@@ -86,7 +86,7 @@ export function VSkillContainer({skillData, settings}) {
                             name={skill.name}
                             properties={{}}
                             shortDesc={skill.shortDesc}
-                            maxLevel={"25 + 5"}
+                            maxLevel={`${level} + ${matrixP}`}
                             animationSetting={settings.animations}/>
                     </div>)
             }

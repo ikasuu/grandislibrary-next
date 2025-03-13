@@ -101,10 +101,14 @@ function FifthJobTab({fifth, settings}){
     <div>
       <LazyLoad height={2000} offset={100}>
         <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
-        <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
+        <VSkillContainer skillData={fifth.fifthMain} settings={settings} level={25} matrixP={5}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
         <StyledHeaderThree>Common V Skills</StyledHeaderThree>
-        <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings}/>
+        <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings} level={25} matrixP={5}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
+        <StyledHeaderThree>Boost Node Skills</StyledHeaderThree>
+        <BoostNodeSkillNote/>
+        <VSkillContainer skillData={fifth.fifthBoost} settings={settings} level={50} matrixP={10}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
       </LazyLoad>
     </div>
@@ -127,6 +131,21 @@ function SixthJobTab({sixth, settings}){
       </LazyLoad>
     </div>
   )
+}
+
+//Components for notes that are displayed in the 5th Job skill component
+function BoostNodeSkillNote(){
+  return(
+    <SkillCard>
+      <Card.Body>
+        <Card.Text>
+            <p>Boost Nodes provide a %Final Damage increase to 4th job and lower skills. Each Node contains 3 Boosts and can be enhanced up to Rank 25 (30 w/ Matrix Points)</p>
+            <p>Each Boost can be upgraded to Master Level 60 by equipping multiple Nodes. However, Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</p>
+            <p>Boosts gain extra bonuses upon reaching Lv. 20 & 40. Some Boosts may enhance multiple skills</p>
+        </Card.Text>
+      </Card.Body>
+    </SkillCard>
+  );
 }
 
 //Components for notes that are displayed in the 6th Job skill component
