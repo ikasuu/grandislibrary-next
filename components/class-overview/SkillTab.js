@@ -128,6 +128,10 @@ function SixthJobTab({sixth, settings}){
         <OriginSkillNote/>
         <HexaSkillContainer skillData={sixth.originSkill} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
+        <StyledHeaderThree>Boost Nodes</StyledHeaderThree>
+        <HexaBoostSkillNote/>
+        <HexaSkillContainer skillData={sixth.boostCore} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
       </LazyLoad>
     </div>
   )
@@ -172,6 +176,18 @@ function OriginSkillNote(){
             <p><strong>[Lv. 10]</strong> 20% Ignore DEF</p>
             <p><strong>[Lv. 20]</strong> 20% Boss Damage</p>
             <p><strong>[Lv. 30]</strong> 30% Ignore DEF & Boss Damage</p>
+        </Card.Text>
+      </Card.Body>
+    </SkillCard>
+  );
+}
+
+function HexaBoostSkillNote(){
+  return(
+    <SkillCard>
+      <Card.Body>
+        <Card.Text>
+            Boost Nodes provide a %Final Damage increase to 5th Job Skills. Boost Nodes can be activated once the given skill is enhanced with V Matrix at least Lv. 25 (before Matrix Points)
         </Card.Text>
       </Card.Body>
     </SkillCard>
