@@ -93,7 +93,7 @@ function IntroKeyboardShortcuts(){
     return(
         <div>
             <img className="repository-image" src="/images/info/keyboard-shortcuts.png" alt="Keyboard Shortcuts"/>
-            <p>By pressing ' \ ' by default will bring up the Keyboard Shortcuts. You can also press 'ESC' by default and going to "Key Bindings" to also access the Keyboard Shortcuts. Here you can move around and place your Skills and usable items into any of the open slots. You can also Right-Click Key Slots to remove an item from a Key Slot</p>
+            <p>By pressing 'F11' by default will bring up the Keyboard Shortcuts. It can also be accessed by pressing 'ESC' by default and navigating to "Key Bindings". Here you can move around and place your Skills and usable items into any of the open slots. You can also Right-Click Key Slots to remove an item from a Key Slot</p>
             <p>Up to 3 keyboard presets can be created and applied by pressing the buttons located in the top right corner</p>
         </div>
     )
