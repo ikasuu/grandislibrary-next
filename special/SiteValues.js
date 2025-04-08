@@ -596,6 +596,7 @@ export const commonFifth = {
         "name": "Decent Mystic Door",
         "shortDesc": "HP Cost: 5% of Max HP, Portal Duration: 80 sec\\nCooldown: 130 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/explorers/bishop/mystic-door.png"],
+        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHZlbDllNWFhNDFwdXRraDh1YWxrbGQwZjBpNW4ybG1tMzVoNGVpdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XZ5F67PgXtzcOKYbhv/giphy.gif"],
         "type": "Summon",
         "desc": "Create a portal that leads to the nearest town",
         "details": [
@@ -607,6 +608,7 @@ export const commonFifth = {
         "name": "Decent Sharp Eyes",
         "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, Critical Rate: +10%, Critical Damage: +8%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/common/sharp-eyes.png"],
+        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXM2M3cxY3B1ZXRjdmU4cmN6MzhlOGJxMHo4c3gydmpjbm5lOGNwaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WFncgZx8n974qsSZ2X/giphy.gif"],
         "type": "Buff",
         "desc": "",
         "details": [
@@ -617,6 +619,7 @@ export const commonFifth = {
         "name": "Decent Hyper Body",
         "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, Max HP: +40%, Max MP: +40%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/explorers/dark-knight/hyper-body.png"],
+        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXZzOWgwdWszdXNuZWdzNzRyczdqZWFneHF0aHAwMzhiZ213d212ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oKSKRlNwol8ikT3akU/giphy.gif"],
         "type": "Buff",
         "desc": "",
         "details": [
@@ -627,6 +630,7 @@ export const commonFifth = {
         "name": "Decent Combat Orders",
         "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, All Skills: +1\\nCooldown: 180 sec\\n[Passive Effect - Abnormal Status Resistance: +6]",
         "icons": ["/class-icons/explorers/paladin/combat-orders.png"],
+        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTZybWNoejU5Zmp3c2piNXBuYmxndjZ4ZWl6bDh2NXBiMTgzZWsxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xIYJZE21cbMifrMxD5/giphy.gif"],
         "type": "Buff",
         "desc": "Temporarily grants bonus skill levels to skills",
         "details": [
@@ -672,6 +676,7 @@ export const commonFifth = {
         "name": "Erda Nova",
         "shortDesc": "HP Cost: 15% of Max HP, Damage: 330%, Max Enemies Hit: 10, Number of Attacks: 5, Bind Duration: 10 sec.\\nBind Duration increases by up to 100% based on damage inflicted with Erda Nova.\\nCooldown: 100 sec.",
         "icons": ["/class-icons/5th-job/erda-nova.png"],
+        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTY1aTJqcnR4dzg3OTJ4N2VhNGFxZGYzd3NkbDdjZWx2a3ZoMmtlYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4wiWlBZ41UO6kkFNjJ/giphy.gif"],
         "type": "Bind Attack",
         "desc": "Bind enemies in a surrounding area",
         "details": [
@@ -682,6 +687,7 @@ export const commonFifth = {
         "name": "Will of Erda",
         "shortDesc": "HP Cost: 5% of Max HP, Cooldown: 330 sec",
         "icons": ["/class-icons/5th-job/will-of-erda.png"],
+        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmZ5enpsMzJjczZhb3dqYmswNXhmaTUycDNmN3lqdWRpYzBnN2xwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UuePNNimDkYhaqOHWV/giphy.gif"],
         "type": "Buff",
         "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs"
     },
@@ -689,6 +695,7 @@ export const commonFifth = {
         "name": "Decent Holy Symbol",
         "shortDesc": "HP Cost: 3400, Duration: 270 sec, EXP: +35%, Drop Rate: +24%\\nCooldown: 180 sec",
         "icons": ["/class-icons/explorers/bishop/holy-symbol.png"],
+        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExemNqMXpneGU4NHl5dzJua3k2YWcxdGpya2h5bHFjZjh0bGxwZWF4biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sn4y8zRnXsPNz2Xwhy/giphy.gif"],
         "type": "Buff",
         "desc": "Increases the amount of EXP gained from enemies",
         "details": [
@@ -699,6 +706,7 @@ export const commonFifth = {
         "name": "Decent Holy Fountain",
         "shortDesc": "HP Cost: 5% of max HP, Duration: 60 sec, restores 35% HP when used, able to use 20 times total.\\nIf it disappears before duration is up, Vestige of Divinity is created in the remaining time.\\nCooldown: 60 sec\\n[Passive Effect - All Stats +6]",
         "icons": ["/class-icons/explorers/bishop/holy-fountain.png"],
+        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHg1aWJmcm9uYnV3Mnp3MDRhbzM2YW1jaHlqbTBibXJqNTFpOGVhciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DaRTnIhgQdNDpTLUbu/giphy.gif"],
         "type": "Summon Heal",
         "desc": "Create a fountain which pressing the Up Arrow Key restores some %Max HP",
         "details": [
@@ -712,6 +720,7 @@ export const commonFifth = {
         "name": "Erda Shower",
         "shortDesc": "HP Cost: 3000\\nErdas Shower\\nMax Enemies Hit: 15, Damage: 900%, Number of Attacks: 6, Cooldown reduced by 2 sec per attacked enemy\\nCooldown: 40 sec\\nErda Founutain\\nObject Summon Duration: 60 sec. Every time enemies in a map with the summoned object are defeated, the Erda released from the enemies condenses around the object.\\nDefeating 12 or more will release the gathered Erda, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 4\\nCooldown: 60 sec\\nCooldown shared with Erdas Shower and Erda Fountain.",
         "icons": ["/class-icons/5th-job/erda-shower-2.png", "/class-icons/5th-job/erda-shower.png", "/class-icons/5th-job/erda-fountain.png"],
+        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjh5YW0zcDhrMTYxYzc0aXR2ZnU2NW43cm9tejg1cDl2eXV1Z2w4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1sY67cuY4cGePfilbh/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjBwNXllYXZubGJ0MG01d25vM3Iwejg3OHcxazQyYXJucWhoMWlkayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JvBRr5cck6443TRM7i/giphy.gif"],
         "type": "Attack/Summon",
         "desc": "The attack has two modes depending on the keys pressed",
         "details": [
@@ -725,6 +734,7 @@ export const commonFifth = {
         "name": "True Arachnid Reflection",
         "shortDesc": "HP Cost: 15% of Max HP\\nSpatial Collapse - Max Enemies Hit: 15, Damage: 1008%, Number of Attacks: 15, Once complete, summons True Arachnid Reflection.\\nTrue Arachnid Reflection - Duration: 50 sec, Goes into attack mode at set intervals. During attack mode, uses spider legs 10 times to deal 392% damage 8 times. If the spider legs attack one target 5 consecutive times, attack mode will end immediately. 3 sec cooldown after attack mode ends.\\nCooldown: 250 sec",
         "icons": ["/class-icons/5th-job/true-arachnid-reflection.png"],
+        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDIzMDk3ZTkxbG14ZHZ2aXQxNHFob250ZGZuYTF5c2w3NjZzOTNuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6UbqkAQUAgMLFTbePZ/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeml6bW40aHNlbTc4dHJzeGQ3aHVjMnZtN2Zrc3ZhYnFsYjBmZmZodCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MjY13NechoKxZeWUNc/giphy.gif"],
         "type": "Summon",
         "desc": "Release a large attack and place down a stationary summon that periodically attacks enemies",
         "details": [
@@ -737,6 +747,7 @@ export const commonFifth = {
         "name": "Solar Crest",
         "shortDesc": "HP Cost: 15% of Max HP\\nMitra's Fire: summons a Flame Emblem after dealing 1650% damage up to 15 enemeis 12 times.\\nFlame Emblem: deals 440% damage to up to 2 enemies 6 times every 2.1 sec for 51 sec. Deals 605% damage if striking a single enemy.\\nCooldown: 250 sec",
         "icons": ["/class-icons/5th-job/solar-crest.png"],
+        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmN2bjY5NWZ0bzdjdTd4NGw4aWlvdWdsNzduZ3U3emx2enNybzUyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DHBFk87CC7jR22CbFY/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2ZtdjR2eWRqdHYxN2IzOGtiZmZjcG82OGV1MmJ3eGUzODZucW56OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FKEHbH83ZXQOVjTGgT/giphy.gif"],
         "type": "Summon",
         "desc": "Release a large attack and summons an emblem that periodically attacks enemies",
         "details": [
