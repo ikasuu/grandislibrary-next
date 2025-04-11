@@ -758,6 +758,43 @@ export const commonFifth = {
     }
 };
 
+export const commonSixth = {
+    solJanus: {
+        "name": "Sol Janus",
+        "shortDesc": "HP Cost: 500, Select a form of Sol Janus\\nCooldown: 3 sec\\n[Passive Effect: :EXP Obtained: +100%]",
+        "icons": ["/class-icons/6th-job/sol-janus.png"],
+        "type": "Active",
+        "desc": "When used, using the Arrow Keys, switch between <tt src={/class-icons/6th-job/sol-janus-dusk.png} tip={Sol Janus: Dusk (6th Job)}> and <tt src={/class-icons/6th-job/sol-janus-dawn.png} tip={Sol Janus: Dawn (6th Job)}>",
+        "details": [
+            "[Passive]: Permanently increases %EXP Obtained from monsters",
+            "At Skill Level 30, both forms gain increased %Damage to regular monsters"
+        ]
+    },
+    solJanusDusk: {
+        "name": "Sol Janus: Dusk",
+        "shortDesc": "HP Cost: 1% of Max HP\\nAttacking enemies releases Sol Erda that creates 11 Primal Crystals.\\nPrimal Crystal - Damage: 1035%, Number of Attacks: 6\\nCooldown: 3 sec",
+        "icons": ["/class-icons/6th-job/sol-janus.png"],
+        "type": "Passive",
+        "desc": "Periodically, successful attacks trigger an additional attack that targets enemies in a large area",
+        "details": [
+            "Unaffected by Damage Reflect and Cooldown Reduction",
+            "Shares the same Skill Points (SP) with <tt src={/class-icons/6th-job/sol-janus.png} tip={Sol Janus: Dusk (6th Job)}> and Key Slot with <tt src={/class-icons/6th-job/sol-janus-dawn.png} tip={Sol Janus: Dawn (6th Job)}>"
+        ]
+    },
+    solJanusDawn: {
+        "name": "Sol Janus: Dawn",
+        "shortDesc": "HP Cost: 10% of Max HP\\nRing Duration: 120 sec, Max Number of Rings: 3\\nCyclic Ring - Max Enemies Hit: 10, Damage: 690%, Number of Attacks: 6\\nCooldown: 60 sec",
+        "icons": ["/class-icons/6th-job/sol-janus.png"],
+        "type": "Summon",
+        "desc": "Place down a stationary summon that damages nearby enemies",
+        "details": [
+            "Based on the Skill Level, up to 3 summons can be placed",
+            "Unaffected by Damage Reflect",
+            "Shares the same Skill Points (SP) with <tt src={/class-icons/6th-job/sol-janus.png} tip={Sol Janus: Dusk (6th Job)}> and Key Slot with <tt src={/class-icons/6th-job/sol-janus-dusk.png} tip={Sol Janus: Dusk (6th Job)}>"
+        ]
+    }
+};
+
 export const linkSkills = {
     expWarrior: {
         "id": 80002758,
