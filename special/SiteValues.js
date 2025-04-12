@@ -773,7 +773,7 @@ export const commonSixth = {
     solJanusDusk: {
         "name": "Sol Janus: Dusk",
         "shortDesc": "HP Cost: 1% of Max HP\\nAttacking enemies releases Sol Erda that creates 11 Primal Crystals.\\nPrimal Crystal - Damage: 1035%, Number of Attacks: 6\\nCooldown: 3 sec",
-        "icons": ["/class-icons/6th-job/sol-janus.png"],
+        "icons": ["/class-icons/6th-job/sol-janus-dusk.png"],
         "type": "Passive",
         "desc": "Periodically, successful attacks trigger an additional attack that targets enemies in a large area",
         "details": [
@@ -784,7 +784,7 @@ export const commonSixth = {
     solJanusDawn: {
         "name": "Sol Janus: Dawn",
         "shortDesc": "HP Cost: 10% of Max HP\\nRing Duration: 120 sec, Max Number of Rings: 3\\nCyclic Ring - Max Enemies Hit: 10, Damage: 690%, Number of Attacks: 6\\nCooldown: 60 sec",
-        "icons": ["/class-icons/6th-job/sol-janus.png"],
+        "icons": ["/class-icons/6th-job/sol-janus-dawn.png"],
         "type": "Summon",
         "desc": "Place down a stationary summon that damages nearby enemies",
         "details": [
