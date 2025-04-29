@@ -11,11 +11,10 @@ import SkillTab from '../../components/class-overview/SkillTab';
 
 function ClassOverview({post, slug}) {
     const [data, setData] = useState(post);
-    const [BTFlag, setBTFlag] = useState(false);
 
     useEffect(() => {
       setData(post);
-    },[slug])
+    },[slug]);
 
     return (
         <div>
@@ -46,7 +45,7 @@ function ClassOverview({post, slug}) {
 // This function gets called at build time
 export async function getStaticPaths() {
 
-  const paths = classes.other.map((job) => ({
+  const paths = classes.jianghu.map((job) => ({
     params: { slug: [job[0]] },
   }));
 
@@ -57,7 +56,7 @@ export async function getStaticPaths() {
 
 // This also gets called at build time
 export async function getStaticProps({ params }) {
-  const res = await fetch(`https://raw.githubusercontent.com/ikasuu/grandislibrary/master/public/data/other/${params.slug[0]}.json`);
+  const res = await fetch(`https://raw.githubusercontent.com/ikasuu/grandislibrary/master/public/data/jianghu/${params.slug[0]}.json`);
   const post = await res.json();
 
   // Pass post data to the page via props

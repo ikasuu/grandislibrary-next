@@ -6,7 +6,8 @@ import HeaderImage from '../../components/HeaderImage';
 import { ClassGroupContainer } from '../../components/ClassSwipers';
 import * as Page from '../../components/Page';
 import BannerAdOne, { BannerAdTwo, BannerAdThree, StickyAd } from '../../components/Ads';
-import { Container } from 'react-bootstrap';
+import { Alert, Container } from 'react-bootstrap';
+import Link from 'next/link';
 
 /*
     Classes page for navigating into each Class Overview
@@ -22,6 +23,9 @@ function Classes() {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
+                <Container>
+                    <Alert variant="dark">Mo Xuan Class Overview out now! Check it out <Link href="/jianghu/mo-xuan" target="_blank" rel="noreferrer noopener">here</Link></Alert>
+                </Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
                 <ClassGroupContainer classes={classes.explorers} classGroup="explorers"/>
@@ -45,6 +49,8 @@ function Classes() {
                 <ClassGroupContainer classes={classes.flora} classGroup="flora"/>
                 <Page.Subtitle>Anima</Page.Subtitle>
                 <ClassGroupContainer classes={classes.anima} classGroup="anima"/>
+                <Page.Subtitle>Jianghu</Page.Subtitle>
+                <ClassGroupContainer classes={classes.jianghu} classGroup="jianghu"/>
                 <Page.Subtitle>Other</Page.Subtitle>
                 <Page.Caption>Classes here only share Cash Shop Inventories with their own class - they do not share with each other</Page.Caption>
                 <ClassGroupContainer classes={classes.other} classGroup="other"/>

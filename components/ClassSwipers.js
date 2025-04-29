@@ -145,7 +145,7 @@ export function TopClassSwipe({classes}){
 function ClassSwipe({classTitle, classGroup}) {
     let name = classGroup
     
-    // Removes words like (Xenon) or (Lynn) for Resistance and Other type classes when displaying <h5>
+    // Removes words like (Xenon) or (Child of God) for Resistance and Other type classes when displaying <h5>
     if(classGroup.includes("Resistance")){
         name = "Resistance";
     }else if(classGroup.includes("Other")){
@@ -302,6 +302,21 @@ function renderSwitch(classGroup, classTitle){
                 classArr.map((job, index) => 
                     <SwiperSlide key={index}>
                         <Link href="/anima/[slug]" as={`/anima/${job[0]}`}>
+                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
+                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                                <Overlay/>
+                            </a>
+                        </Link>
+                    </SwiperSlide>
+                )
+            );
+
+        case "Jianghu":
+            var classArr = classes.jianghu.filter(job => job[1] != classTitle);
+            return(
+                classArr.map((job, index) => 
+                    <SwiperSlide key={index}>
+                        <Link href="/jianghu/[slug]" as={`/jianghu/${job[0]}`}>
                             <a className="hvr-float" target="_blank" rel="noreferrer noopener">
                                 <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                                 <Overlay/>

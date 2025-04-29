@@ -1,9 +1,14 @@
 {
     "featured": [
         {
+            "image": "/home-thumbnail/mo-xuan-overview.jpg",
+            "alt": "Mo Xuan Class Overview",
+            "link": "https://grandislibrary.com/jianghu/mo-xuan"
+        },
+        {
             "image": "/home-thumbnail/lynn-overview.jpg",
             "alt": "Lynn Class Overview",
-            "link": "https://grandislibrary.com/other/lynn"
+            "link": "https://grandislibrary.com/jianghu/lynn"
         },
         {
             "image": "/home-thumbnail/khali-overview.jpg",

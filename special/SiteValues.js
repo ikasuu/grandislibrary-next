@@ -35,8 +35,9 @@ export const classes = {
     nova: [["angelic-buster", "Angelic Buster"], ["kaiser", "Kaiser"], ["cadena", "Cadena"], ["kain", "Kain"]],
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
-    other: [["kinesis", "Kinesis"], ["zero", "Zero"], ["lynn", "Lynn"]],
-    anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]]
+    other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
+    anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]],
+    jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]]
 }
 
 //Weapons for class overviews, contains icon path and formatted name
@@ -76,7 +77,8 @@ export const weapons = {
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
     bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
     whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"],
-    chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"]
+    chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"],
+    martialBrace: [`/images/equipment/martial-brace.png`, "Martial Brace"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -129,7 +131,8 @@ export const secondaryWeapons = {
     bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"],
     weaponBelt: [`https://maplestory.io/api/GMS/${version}/item/1354013/icon`, "Weapon Belt"],
     ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"],
-    hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"]
+    hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"],
+    braceBand: [`/images/equipment/brace-band.png`, "Brace Band"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
@@ -1056,13 +1059,26 @@ export const linkSkills = {
             "Useful for SURVIVABILITY"
         ]
     },
-    beastTamer: {
+    lynn: {
         "id": 80010006,
         "icons": ["/class-icons/link-skills/spirit-guide-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE and for BOSSING"
+        ]
+    },
+    moxuan: {
+        "id": 80010006,
+        "offline": true,
+        "name": "Qi Cultivation",
+        "shortDesc": "Boss Damage: +4%. If the target is a boss, up to 2% increase for every successful attack. Max Stacks: 6, stack activates once every 2 sec.\\nDuration: 5 sec",
+        "icons": ["/class-icons/link-skills/qi-cultivation.png"],
+        "maxLevel": 2,
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING"
         ]
     },
     hoyoung: {

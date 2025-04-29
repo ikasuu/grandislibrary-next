@@ -36,6 +36,7 @@ function LinkSkills() {
           <li><Link smooth href="#sengoku" scroll>Sengoku</Link></li>
           <li><Link smooth href="#flora" scroll>Flora</Link></li>
           <li><Link smooth href="#anima" scroll>Anima</Link></li>
+          <li><Link smooth href="#jianghu" scroll>Jianghu</Link></li>
           <li><Link smooth href="#other" scroll>Other</Link></li>
           <li><Link smooth href="#notable" scroll>Notable Link Skills</Link></li>
           <li><Link smooth href="#builds" scroll>Examples of Link Skill Builds</Link></li>
@@ -152,11 +153,16 @@ function LinkSkills() {
         <p><strong>[Lara]</strong></p>
         <SingleSkill skillData={linkSkills.lara}/>
         <hr/>
-        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
-        <h2 id="other">Other</h2>
+        <h2 id="jianghu">Jianghu</h2>
         <hr/>
         <p><strong>[Lynn] </strong></p>
-        <SingleSkill skillData={linkSkills.beastTamer}/>
+        <SingleSkill skillData={linkSkills.lynn}/>
+        <hr/>
+        <p><strong>[Mo Xuan]</strong></p>
+        <SingleSkill skillData={linkSkills.moxuan}/>
+        <hr/>
+        {/*<div><Link smooth href="#top" scroll>Go to top</Link></div> */}
+        <h2 id="other">Other</h2>
         <hr/>
         <p><strong>[Kinesis]</strong></p>
         <SingleSkill skillData={linkSkills.kinesis}/>
@@ -195,12 +201,15 @@ function LinkSkills() {
               <strong>[Angelic Buster] </strong>- For Burst skills
           </li>
           <li>
-            <img src="/class-icons/link-skills/noble-fire.png" alt="Skill Terms and Conditions"/>
+            <img src="/class-icons/link-skills/noble-fire.png" alt="Skill Noble Fire"/>
             <strong>[Adele] </strong>- %Boss Damage
           </li>
           <li>
               <img src="/class-icons/link-skills/spirit-guide-blessing.png" alt="Skill Spirit Guide Blessing"/> <strong>[Lynn] </strong>- %Boss Damage, %Crit
               Rate and %Max HP/MP
+          </li>
+          <li>
+              <img src="/class-icons/link-skills/qi-cultivation.png" alt="Skill Qi Cultivation"/> <strong>[Mo Xuan] </strong>- %Boss Damage
           </li>
           <li>
               <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> <strong>[Cygnus Knights] </strong>- Useful for
@@ -273,10 +282,10 @@ function LinkSkills() {
         <p>Rationale: Increased EXP Gain, Damage, and Damage Reduction if required. If you feel that you do not need extra survivability, you can swap out some Link Skills for more damage or other stats like %Crit Rate</p>
         <p>Other options: <img src="/class-icons/link-skills/spirit-guide-blessing.png" alt="Skill Spirit Guide Blessing"/> (Crit Rate, Max HP/MP), <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> (Damage), <img src="/class-icons/link-skills/keen-edge.png" alt="Skill Keen Edge"/> (Damage), <img src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle"/> (Damage), <img src="/class-icons/link-skills/iron-will.png" alt="Skill Iron Will (Kaiser)"/> (Max HP), <img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/> (Crit Rate), <img src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic"/> (Damage) (Lynn, Cygnus Knights, Hayato, Illium, Kaiser, Phantom, and Xenon)</p>
         <h3>Bossing:</h3>
-        <p><img src="/class-icons/link-skills/terms-and-conditions.png" alt="Skill Terms and Conditions"/> <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> <img src="/class-icons/link-skills/spirit-guide-blessing.png" alt="Skill Spirit Guide Blessing"/> <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call"/> <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing"/> <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning"/> <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom"/> <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)"/> <img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash"/> <img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/></p>
-        <p>(Angelic Buster, Cygnus Knights, Lynn, Shade, Demon Slayer, Explorer Pirate, Explorer Mage, Explorer Thief, Resistance, Kinesis, Luminous, Phantom)</p>
+        <p><img src="/class-icons/link-skills/terms-and-conditions.png" alt="Skill Terms and Conditions"/> <img src="/class-icons/link-skills/qi-cultivation.png" alt="Skill Qi Cultivation"/> <img src="/class-icons/link-skills/spirit-guide-blessing.png" alt="Skill Spirit Guide Blessing"/> <img src="/class-icons/link-skills/close-call.png" alt="Skill Close Call"/> <img src="/class-icons/link-skills/fury-unleashed.png" alt="Skill Fury Unleashed"/> <img src="/class-icons/link-skills/pirate-blessing.png" alt="Skill Pirate Blessing"/> <img src="/class-icons/link-skills/empirical-knowledge.png" alt="Skill Empirical Knowledge"/> <img src="/class-icons/link-skills/thiefs-cunning.png" alt="Skill Thief's Cunning"/> <img src="/class-icons/link-skills/spirit-of-freedom.png" alt="Skill Spirit of Freedom"/> <img src="/class-icons/link-skills/judgment.png" alt="Skill Judgment (Kinesis)"/> <img src="/class-icons/link-skills/light-wash.png" alt="Skill Light Wash"/> <img src="/class-icons/link-skills/phantom-instinct.png" alt="Skill Phantom Instinct"/></p>
+        <p>(Angelic Buster, Mo Xuan, Lynn, Shade, Demon Slayer, Explorer Pirate, Explorer Mage, Explorer Thief, Resistance, Kinesis, Luminous, Phantom)</p>
         <p>Rationale: Increased damage, %Crit Rate (to get 100% if needed), and %Ignore DEF. Other Link Skills are used for survivability</p>
-        <p>Other options: <img src="/class-icons/link-skills/adventurers-curiosity.png" alt="Skill Adventurer's Curiosity"/> (Crit Rate), <img src="/class-icons/link-skills/solus.png" alt="Skill Solus"/> (Damage), <img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage"/> (Damage), <img src="/class-icons/link-skills/invincible-belief.png" alt="Skill Invincible Belief"/> (Damage), <img src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle"/> (Damage), <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/> (Abnormal Status Resistance), <img src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic"/> (Damage), <img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing"/> (%Ignore DEF) (Explorer Archer, Ark, Demon Avenger, Explorer Warrior, Illium, Mihile, Xenon, and Zero)</p>
+        <p>Other options: <img src="/class-icons/link-skills/adventurers-curiosity.png" alt="Skill Adventurer's Curiosity"/> (Crit Rate), <img src="/class-icons/link-skills/solus.png" alt="Skill Solus"/> (Damage), <img src="/class-icons/link-skills/wild-rage.png" alt="Skill Wild Rage"/> (Damage), <img src="/class-icons/link-skills/invincible-belief.png" alt="Skill Invincible Belief"/> (Damage), <img src="/class-icons/link-skills/tide-of-battle.png" alt="Skill Tide of Battle"/> (Damage), <img src="/class-icons/link-skills/knights-watch.png" alt="Skill Knight's Watch"/> (Abnormal Status Resistance), <img src="/class-icons/link-skills/hybrid-logic.png" alt="Skill Hybrid Logic"/> (Damage), <img src="/class-icons/link-skills/cygnus-blessing.png" alt="Skill Cygnus Blessing"/> (Damage), <img src="/class-icons/link-skills/rhinnes-blessing.png" alt="Skill Rhinne's Blessing"/> (%Ignore DEF) (Explorer Archer, Ark, Demon Avenger, Explorer Warrior, Illium, Mihile, Xenon, Cygnus Knights, and Zero)</p>
         <BannerAdThree/>
         <hr/>
         <p>For more info on Link Skills check out:</p>

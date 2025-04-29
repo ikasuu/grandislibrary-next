@@ -209,6 +209,38 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
+                <ClassBlock color="#2EC4B6">
+                    <StyledTd style={{color: 'black'}}><strong>Anima</strong></StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}>Lara</StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}>Hoyoung</StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                </ClassBlock>
+                <ClassBlock>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                </ClassBlock>
+                <ClassBlock color="#8B95C9">
+                    <StyledTd style={{color: 'black'}}><strong>Jianghu</strong></StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}>Lynn</StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}>Mo Xuan</StyledTd>
+                </ClassBlock>
+                <ClassBlock>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                </ClassBlock>
                 <ClassBlock color="#B2F7EF">
                     <StyledTd style={{color: 'black'}}><strong>FriendStory</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}/>
@@ -229,38 +261,6 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}><strong>Child of God<strong/></strong></StyledTd>
                     <StyledTd style={{color: 'black'}}>Zero</StyledTd>
                     <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                </ClassBlock>
-                <ClassBlock>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                </ClassBlock>
-                <ClassBlock color="#2EC4B6">
-                    <StyledTd style={{color: 'black'}}><strong>Anima</strong></StyledTd>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}>Lara</StyledTd>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}>Hoyoung</StyledTd>
-                    <StyledTd style={{color: 'black'}}/>
-                </ClassBlock>
-                <ClassBlock>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}/>
-                </ClassBlock>
-                <ClassBlock color="#8B95C9">
-                    <StyledTd style={{color: 'black'}}><strong>Forest Child</strong></StyledTd>
-                    <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}>Lynn</StyledTd>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
