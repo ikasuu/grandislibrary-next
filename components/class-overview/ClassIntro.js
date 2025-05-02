@@ -346,7 +346,7 @@ function ClassDetail({content}) {
                 content.hyperBuild.recommended ? <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive> : <></>
             }
             {formatSkillText(content.hyperBuild.recommended)}
-            <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
+            <StyledHeaderFive>Recommended Skills for Boost Nodes Trios</StyledHeaderFive>
             {content.nodeInfo.recommended.nodes.map((nodes, index) => 
                 <span key={index}>
                     <h6>{nodes[0]}</h6>
