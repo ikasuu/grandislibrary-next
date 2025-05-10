@@ -92,8 +92,8 @@ export function formatBulletPoint(content){
         return(
             <ul key={i}>
                 {points.map((item, j) => {
-                    let formatText = formatBoldText(item);
-                    formatText = formatSkillTooltip(formatText);
+                    let formatText = formatSkillTooltip(item);
+                    formatText = formatBoldText(formatText);
                     formatText = formatLinkText(formatText);
                     return(<li key={j}>{formatText}</li>)
                 })}
@@ -115,7 +115,7 @@ export function formatEmText(content){
     });
 };
 
-export function formatOverviewImage(content){
+function formatExtraContentImage(content){
     return reactStringReplace(content, /(?=<img)(.*?)(?<=>)/g, (text, i) => {
         let image = text.match(/(?<=src={)(.*?)(?=})/g);
         let altText = text.match(/(?<=alt={)(.*?)(?=})/g);
@@ -124,6 +124,21 @@ export function formatOverviewImage(content){
         );
     });
 };
+
+function formatDarkSightTable(content){
+    return reactStringReplace(content, /(?=dsTable)/g, (text, i) => {
+        return(
+            <div className={"ds-table"}>
+                <table>
+                    <thead><tr><th>Boss</th><th>Avoidable Attack</th></tr></thead>
+                    <tbody>
+                        <tr><td>All Enemies</td><td>Touch Damage</td></tr> <tr><td>Hilla</td><td>Lightning Bolt, Flame Breath</td></tr> <tr><td>Cygnus</td><td>All minions (including instructors) touch damage + attacks</td></tr> <tr><td>Ursus</td><td>Falling Debris</td></tr> <tr><td>Princess No</td><td>(Miroku/4F - All attacks except Infinite Flame), Butterfly Throw (except Black Butterfly Seduce), Sakura Shower</td></tr> <tr><td>Magnus</td><td>Immobilizing Gas, Falling Debris, Dash</td></tr> <tr><td>Papulatus</td><td>Hand Smash, Floor Rift, Timed Cursed/Seal (both cast + seal), Falling Debris</td></tr> <tr><td>Gollux</td><td>Reverse/99% Bomb</td></tr> <tr><td>Crimson Queen</td><td>Burn DoT (gain stacks but no damage taken)</td></tr> <tr><td>Pierre</td><td>Falling Hats, Fire Spin (Blue Form)</td></tr> <tr><td>Von Bon</td><td>Falling Debris</td></tr> <tr><td>Vellum</td><td>Falling Stun Rocks</td></tr> <tr><td>Pink Bean (Statuses)</td><td>All attacks except Laser, Poison Clouds, Mini Pink Beans</td></tr> <tr><td>Pink Bean</td><td>Blue ground attack, Big Bang, Mini Pink Beans</td></tr> <tr><td>Lotus</td><td>P2 Stun Debris</td></tr> <tr><td>Damien</td><td>Yellow(p1)/Red(p2) Falling Fireballs, Dash(p2), Thorn Bind (Can be done reactively when he disappears w/ Monster Silhouettes enabled in settings)</td></tr> <tr><td>Will</td><td>P1 (Segment Test) Red Meteors, P2 Web, P2 Dash</td></tr> <tr><td>Guardian Angel Slime</td><td>Slime Pool DoT, Slime minion touch damage (not their attacks, i.e. Pink Slime's seduce), Magma Slime touch + landing on head</td></tr> <tr><td>Verus Hilla</td><td>Corpse DoT</td></tr> <tr><td>Gloom</td><td>Falling Debris</td></tr> <tr><td>Darknell</td><td>Debris (Both Vertical + Horizontal), Small Minion touch damage (except sword swing)</td></tr> <tr><td>Black Mage</td><td>P1 Knights' Dash (still applies curse), P1 Red Lightning, Falling Debris (Vertical), Diagonal/Rolling Debris (only while midair), P3 Down FMA</td></tr> <tr><td>Seren</td><td>Dash, Falling Debris (P1, P2 Sunset); still adds sun gauge</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        );
+    });
+}
 
 //Component from the skill blocks that are used in the base stats section
 const SkillBlock = styled.span`
@@ -204,18 +219,6 @@ function SubBadge({content}){
     );
 };
 
-export function formatExtraContentText(content){
-    let returnString;
-    returnString = formatBulletPoint(content);
-    returnString = formatSkillTooltip(returnString);
-    returnString = formatOverviewImage(returnString);
-    returnString = formatBoldText(returnString);
-    returnString = formatEmText(returnString);
-    returnString = formatLinkText(returnString);
-
-    return returnString;
-};
-
 export function formatActivesSection(content){
     let returnString;
 
@@ -234,6 +237,20 @@ export function formatBuildSection(content){
 
     return returnString;
 };
+
+export function formatExtraContent(content){
+    let returnString;
+
+    returnString = formatBulletPoint(content);
+    returnString = formatSkillTooltip(returnString);
+    returnString = formatExtraContentImage(returnString);
+    returnString = formatBoldText(returnString);
+    returnString = formatEmText(returnString);
+    returnString = formatLinkText(returnString);
+    returnString = formatDarkSightTable(returnString);
+
+    return returnString;
+}
 
 // Stylizes the given text using the mark up within the text
 export default function formatSkillText(content){
