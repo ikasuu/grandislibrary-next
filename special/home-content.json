@@ -1,5 +1,10 @@
 {
     "featured": [
+                {
+            "image": "/home-thumbnail/sia-pre-release-overview.jpg",
+            "alt": "Sia Pre-Release Class Overview",
+            "link": "https://grandislibrary.com/star-guardian/sia"
+        },
         {
             "image": "/home-thumbnail/mo-xuan-overview.jpg",
             "alt": "Mo Xuan Class Overview",
@@ -28,6 +33,18 @@
     ],
     "recent": [
         {
+            "title": "v.259 - Victoria Cup: 20th Anniversary Patch Notes",
+            "image": "/home-thumbnail/20th-anni.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/26290/v-259-victoria-cup-20th-anniversary-patch-notes",
+            "subtitle": "April 28, 2025"
+        },
+        {
+            "title": "v.258 - MapleStory x Demon Slayer: Kimetsu no Yaiba Patch Notes",
+            "image": "/home-thumbnail/demon-slayer.jpg",
+            "link": "https://www.nexon.com/maplestory/news/update/23927/v-258-maple-story-x-demon-slayer-kimetsu-no-yaiba-patch-notes",
+            "subtitle": "March 18, 2025"
+        },
+        {
             "title": "v.257 - Tallahart: Grave of the Gods Patch Notes",
             "image": "/home-thumbnail/dark-ride-tallahart.jpg",
             "link": "https://www.nexon.com/maplestory/news/update/23160/v-257-tallahart-grave-of-the-gods-patch-notes",
@@ -50,21 +67,21 @@
             "image": "/home-thumbnail/midnight-carnival.jpg",
             "link": "https://www.nexon.com/maplestory/news/update/20934/v-254-midnight-carnival-ludibrium-patch-notes",
             "subtitle": "October 2, 2024"
-        },
-        {
-            "title": "v.253 MapleStory x BUGCAT CAPOO Patch Notes",
-            "image": "/home-thumbnail/bugcat-capoo.jpg",
-            "link": "https://www.nexon.com/maplestory/news/update/18317/v-253-maple-story-x-bugcat-capoo-patch-notes",
-            "subtitle": "August 26, 2024"
-        },
-        {
-            "title": "V.252 GO WEST! Patch Notes",
-            "image": "/home-thumbnail/go-west-2.jpg",
-            "link": "https://www.nexon.com/maplestory/news/update/17655/v-252-go-west-patch-notes",
-            "subtitle": "July 16, 2024"
         }
     ],
     "upcoming": [
+        {
+            "title": "MapleStory’s 22nd Anniversary: Maple University!",
+            "image": "/home-thumbnail/22nd-anni.jpg",
+            "link": "https://orangemushroom.net/2025/04/17/kms-ver-1-2-402-skill-ui-changes-maplestory-22nd-anniversary-maple-university/",
+            "subtitle": "April 17, 2025"
+        },
+        {
+            "title": "MapleStory NEXT: Destiny Weapon & Star Force Reorganization!",
+            "image": "/home-thumbnail/destiny-weapon.jpg",
+            "link": "https://orangemushroom.net/2025/03/20/kms-ver-1-2-401-maplestory-next-destiny-weapon-star-force-reorganization/",
+            "subtitle": "March 20, 2025"
+        },
         {
             "title": "MapleStory NEXT: Sword of the God King, Baldrix!",
             "image": "/home-thumbnail/next-baldrix.jpg",
@@ -82,12 +99,6 @@
             "image": "/home-thumbnail/next-mastery-core.jpg",
             "link": "https://orangemushroom.net/2024/12/19/kms-ver-1-2-398-maplestory-next-3rd-4th-mastery-cores/",
             "subtitle": "December 19, 2024"
-        },
-        {
-            "title": "MapleStory X Demon Slayer!",
-            "image": "/home-thumbnail/demon-slayer.jpg",
-            "link": "https://orangemushroom.net/2024/11/22/kms-ver-1-2-397-maplestory-x-demon-slayer/",
-            "subtitle": "November 22, 2024"
         },
         {
             "title": "Azmoth Canyon & MapleStory X Dave the Diver!",
