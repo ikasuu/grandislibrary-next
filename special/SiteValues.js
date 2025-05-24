@@ -37,7 +37,8 @@ export const classes = {
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
     other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]],
-    jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]]
+    jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
+    starGuardian: [["sia", "Sia"]]
 }
 
 //Weapons for class overviews, contains icon path and formatted name
@@ -78,7 +79,8 @@ export const weapons = {
     bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
     whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"],
     chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"],
-    martialBrace: [`/images/equipment/martial-brace.png`, "Martial Brace"]
+    martialBrace: [`/images/equipment/martial-brace.png`, "Martial Brace"],
+    celestialLight: [`/images/equipment/celestial-light.png`, "Celestial Light"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -132,7 +134,8 @@ export const secondaryWeapons = {
     weaponBelt: [`https://maplestory.io/api/GMS/${version}/item/1354013/icon`, "Weapon Belt"],
     ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"],
     hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"],
-    braceBand: [`/images/equipment/brace-band.png`, "Brace Band"]
+    braceBand: [`/images/equipment/brace-band.png`, "Brace Band"],
+    compass: [`/images/equipment/compass.png`, "Compass"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name

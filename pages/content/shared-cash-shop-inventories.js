@@ -105,7 +105,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
-                <ClassBlock color="#FFEE93">
+                <ClassBlock color="#01DCF8">
                     <StyledTd style={{color: 'black'}}><strong>Heroes</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}>Aran</StyledTd>
                     <StyledTd style={{color: 'black'}}>Luminous</StyledTd>
@@ -113,7 +113,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}>Phantom</StyledTd>
                     <StyledTd style={{color: 'black'}}>Shade</StyledTd>
                 </ClassBlock>
-                <ClassBlock color="#FFEE93">
+                <ClassBlock color="#01DCF8">
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}>Evan</StyledTd>
@@ -177,7 +177,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
-                <ClassBlock color="#B5D99C">
+                <ClassBlock color="#FEBDDF">
                     <StyledTd style={{color: 'black'}}><strong>Sengoku</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}>Hayato</StyledTd>
                     <StyledTd style={{color: 'black'}}>Kanna</StyledTd>
@@ -225,7 +225,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
-                <ClassBlock color="#8B95C9">
+                <ClassBlock color="#D2FCCC">
                     <StyledTd style={{color: 'black'}}><strong>Jianghu</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}>Lynn</StyledTd>
@@ -241,7 +241,23 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
-                <ClassBlock color="#B2F7EF">
+                <ClassBlock color="#7767EA">
+                    <StyledTd style={{color: 'black'}}><strong>Star Guardian</strong></StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}>Sia</StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                </ClassBlock>
+                <ClassBlock>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                </ClassBlock>
+                <ClassBlock color="#C7CFDA">
                     <StyledTd style={{color: 'black'}}><strong>FriendStory</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}>Kinesis</StyledTd>
@@ -257,7 +273,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
-                <ClassBlock color="#F7D6E0">
+                <ClassBlock color="#FADE8C">
                     <StyledTd style={{color: 'black'}}><strong>Child of God<strong/></strong></StyledTd>
                     <StyledTd style={{color: 'black'}}>Zero</StyledTd>
                     <StyledTd style={{color: 'black'}}/>
