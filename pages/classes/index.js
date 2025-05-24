@@ -50,7 +50,7 @@ function Classes() {
                 <Page.Subtitle>Anima</Page.Subtitle>
                 <ClassGroupContainer classes={classes.anima} classGroup="anima"/>
                 <Page.Subtitle>Jianghu</Page.Subtitle>
-                <ClassGroupContainer classes={classes.jianghu} classGroup="jianghu"/>,
+                <ClassGroupContainer classes={classes.jianghu} classGroup="jianghu"/>
                 <Page.Subtitle>Star Guardian</Page.Subtitle>
                 <Page.Caption>Unconfirmed faction name, subject to change. Will update in July</Page.Caption>
                 <ClassGroupContainer classes={classes.starGuardian} classGroup="star-guardian"/>
