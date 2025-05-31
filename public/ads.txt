@@ -1,4 +1,4 @@
-#  Updated: 2025-05-28 11:57:10
+#  Updated: 2025-05-30 16:15:47
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -52,6 +52,7 @@ adform.com, 3027, RESELLER
 adform.com, 3083, RESELLER
 adform.com, 3119, RESELLER, 9f5210a2f0999e32
 adingo.jp, 27365, RESELLER
+admanmedia.com, 1052, RESELLER
 admanmedia.com, 1061, RESELLER
 admanmedia.com, 2160, RESELLER
 admanmedia.com, 2216, RESELLER
@@ -99,7 +100,6 @@ appnexus.com, 16007, RESELLER, f5ab79cb980f11d1
 appnexus.com, 1922, RESELLER, f5ab79cb980f11d1
 appnexus.com, 2758, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3251, RESELLER, f5ab79cb980f11d1
-appnexus.com, 3663, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3703, RESELLER, f5ab79cb980f11d1
 appnexus.com, 6849, RESELLER, f5ab79cb980f11d1
 appnexus.com, 6979, RESELLER, f5ab79cb980f11d1
@@ -114,6 +114,7 @@ aps.amazon.com, 26c60b4f-549a-4efd-8ae0-f00e07c46204, DIRECT
 aps.amazon.com, 48266a61-b3d9-4cb7-b172-553abc6a42a4, RESELLER
 aps.amazon.com, 968a0f5c-e5ed-4ba9-bf43-8be1f5b68988, DIRECT
 aps.amazon.com, de948cab-9232-4f2a-90f5-794be75952c6, RESELLER
+aps.amazon.com, ec4e8edf-c46b-44a1-bcab-17b3a4420b9a, RESELLER
 audienciad.com, 206822, DIRECT
 axonix.com, 57264, RESELLER
 axonix.com, 59054, RESELLER, bc385f2b4a87b721
@@ -122,6 +123,7 @@ betweendigital.com, 44774, RESELLER
 blis.com, 33, RESELLER, 61453ae19a4b73f4
 blockthrough.com, 5684350990417920, DIRECT
 chartboost.com, 5da62a1035b91e0aff190bf7, RESELLER
+connectad.io, 455, RESELLER, 85ac85a30c93b3e5
 connectad.io, 456, RESELLER, 85ac85a30c93b3e5
 contextweb.com, 558355, RESELLER, 89ff185a4c4e857c
 contextweb.com, 558511, RESELLER, 89ff185a4c4e857c
@@ -135,6 +137,7 @@ conversantmedia.com, 100141, RESELLER
 conversantmedia.com, 100232, RESELLER, 03113cd04947736d
 conversantmedia.com, 20923, RESELLER
 conversantmedia.com, 40881, RESELLER, 03113cd04947736d
+copper6.com, 766118, RESELLER
 cpmstar.com, 54333, RESELLER, 1b929e6459dfc260
 criteo.com, B-059206, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-060926, RESELLER, 9fac4a4a87c2a44f
@@ -145,6 +148,7 @@ criteo.com, B-068503, RESELLER
 criteo.com, B-068585, DIRECT, 9fac4a4a87c2a44f
 e-planning.net, 83c06e81531537f4, RESELLER, c1ba615865ed87b2
 e-planning.net, 901a809a65f984a4, RESELLER, c1ba615865ed87b2
+emxdgt.com, 2009, RESELLER, 1e1d41537f7cad7f
 freewheel.tv, 1157665, RESELLER
 freewheel.tv, 1163521, RESELLER
 freewheel.tv, 1237631, DIRECT
@@ -184,6 +188,7 @@ hcodemedia.com, 439, RESELLER
 hoopladigital.co.uk, 21751981256, DIRECT
 iion.io, 10186, DIRECT, 013a29748465dc57
 imds.tv, 82604, RESELLER, ae6c32151e71f19d
+imds.tv, 82606, RESELLER, ae6c32151e71f19d
 improvedigital.com, 1469, RESELLER
 improvedigital.com, 1699, RESELLER
 improvedigital.com, 1790, RESELLER
@@ -199,7 +204,6 @@ indexexchange.com, 189344, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 189345, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191306, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 191923, RESELLER, 50b1c356f2c5c8fc
-indexexchange.com, 192410, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 193657, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 193792, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 194341, RESELLER, 50b1c356f2c5c8fc
@@ -217,7 +221,6 @@ insticator.com, 4ec3ed85-2830-4174-9f7f-f545620598b9, RESELLER
 insticator.com, 54cd3cd8-a633-45c0-a4b5-e794bd0d5622, RESELLER, b3511ffcafb23a32
 insticator.com, f01725e4-53f4-40e0-95bb-c4206ee0b577, RESELLER, b3511ffcafb23a32
 kargo.com, 8720, DIRECT
-kargo.com, 8824, RESELLER
 krushmedia.com, AJxF6R55a9M6CaTvK, RESELLER
 krushmedia.com, AJxF6R572a9M6CaTvK, RESELLER
 kueez.com, 976f90e3f55c14d910a31bae495ca125, DIRECT
@@ -231,7 +234,6 @@ lijit.com, 264726, RESELLER, fafdf38b16bf6b2b
 lijit.com, 270673, RESELLER, fafdf38b16bf6b2b
 lijit.com, 346012, RESELLER, fafdf38b16bf6b2b
 lijit.com, 367236, RESELLER, fafdf38b16bf6b2b
-lijit.com, 375328, RESELLER, fafdf38b16bf6b2b
 lijit.com, 396126, RESELLER, fafdf38b16bf6b2b
 lijit.com, 405318, RESELLER, fafdf38b16bf6b2b
 lijit.com, 407406, RESELLER, fafdf38b16bf6b2b
@@ -241,6 +243,7 @@ limpid.tv, 920682, DIRECT
 loopme.com, 11227, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11228, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11362, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11405, RESELLER
 loopme.com, 11575, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11594, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 12733, RESELLER, 6c8d5f95897a5a3b
@@ -257,6 +260,7 @@ media.net, 8CUB46Z7R, RESELLER
 media.net, 8CUBNW5R6, RESELLER
 media.net, 8CUQ6928Q, RESELLER
 media.net, 8CUY6IX4H, RESELLER
+mediago.io, 045ac24b888bcf59a09731e7f0f2084f, RESELLER
 mgid.com, 43615, RESELLER, d4c29acad76ce94f
 mintegral.com, 10043, RESELLER, 0aeed750c80d6423
 minutemedia.com, 01ggabkvtr5e, DIRECT
@@ -313,7 +317,8 @@ openx.com, 557739593, RESELLER, 6a698e2ec38604c6
 openx.com, 558899373, RESELLER, 6a698e2ec38604c6
 openx.com, 559680764, RESELLER
 openx.com, 559911747, RESELLER, 6a698e2ec38604c6
-optidigital.com, p368, DIRECT
+opera.com, pub12058951686464, RESELLER, 55a0c5fd61378de3
+optidigital.com, p380, DIRECT
 orangeclickmedia.com, C-1100, RESELLER
 ottadvisors.com, 122034096467, RESELLER
 oveeo.com, 769945, RESELLER
@@ -372,6 +377,7 @@ rhythmone.com, 1654642120, RESELLER, a670c89d4a324e47
 richaudience.com, 1ru8dKmJJV, RESELLER
 richaudience.com, 6InWSNO0Xo, RESELLER
 richaudience.com, JAHJ4YZq4O, RESELLER
+richaudience.com, MMuGgvZcVd, RESELLER
 risecodes.com, 62cd4aab9766d400014b79de, DIRECT
 rtbhouse.com, mSu1piUSmB9TF4AQDGk4, RESELLER
 rubiconproject.com, 10278, RESELLER, 0bfd66d529a55807
@@ -507,6 +513,7 @@ themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
 themediagrid.com, GD57SQ, DIRECT, 35d5010d7789b49d
 themediagrid.com, IRK975, RESELLER, 35d5010d7789b49d
 themediagrid.com, JF6C5Y, DIRECT, 35d5010d7789b49d
+themediagrid.com, JTQKMP, RESELLER, 35d5010d7789b49d
 themediagrid.com, N71MIF, RESELLER, 35d5010d7789b49d
 themediagrid.com, NF76LV, RESELLER, 35d5010d7789b49d
 themediagrid.com, PRLEZI, RESELLER, 35d5010d7789b49d
@@ -524,6 +531,7 @@ triplelift.com, 8210, RESELLER, 6c33edb13117fd86
 triplelift.com, 9332, DIRECT, 6c33edb13117fd86
 triplelift.com, 9332-EB, DIRECT, 6c33edb13117fd86
 trustedstack.com, TS9V5HI46, RESELLER
+uis.mobfox.com, 93308, RESELLER, 5529a3d1f59865be
 undertone.com, 4205, RESELLER, d954590d0cb265b9
 vidazoo.com, 659e87c55f6c605c11d299d6, DIRECT, b6ada874b4d7d0b2
 video.unrulymedia.com, 1767448067723954599, RESELLER
