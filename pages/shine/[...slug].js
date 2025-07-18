@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Alert, Container } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 import Head from 'next/head';
 
 import ClassIntro, { ClassCreation, ClassExtraContent } from '../../components/class-overview/ClassIntro';
@@ -23,10 +23,6 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
-              <Alert variant="danger">
-                <p>Pre-Release Sia Class Overview, info is subject to change. All information is unconfirmed and based on MapleStory M skill info. Currently on hiatus and will return in July to update Class Overview</p>
-                <p>[Update - May 28] Sia is officially stated to be focusing on offense in GMS in contrast to MSM where it is a mix of offensive and supportive. As such, Sia's party buffs are expected to be changed. More info can be found on the <a href="https://www.nexon.com/maplestory/news/general/27184/introducing-sia-astelle" target="_blank" rel="noreferrer noopener">official GMS preview</a></p>
-              </Alert>
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
@@ -48,7 +44,7 @@ function ClassOverview({post, slug}) {
 // This function gets called at build time
 export async function getStaticPaths() {
 
-  const paths = classes.starGuardian.map((job) => ({
+  const paths = classes.shine.map((job) => ({
     params: { slug: [job[0]] },
   }));
 
@@ -59,7 +55,7 @@ export async function getStaticPaths() {
 
 // This also gets called at build time
 export async function getStaticProps({ params }) {
-  const res = await fetch(`https://raw.githubusercontent.com/ikasuu/grandislibrary/master/public/data/star-guardian/${params.slug[0]}.json`);
+  const res = await fetch(`https://raw.githubusercontent.com/ikasuu/grandislibrary/master/public/data/shine/${params.slug[0]}.json`);
   const post = await res.json();
 
   // Pass post data to the page via props

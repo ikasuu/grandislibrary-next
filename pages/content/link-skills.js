@@ -36,6 +36,7 @@ function LinkSkills() {
           <li><Link smooth href="#sengoku" scroll>Sengoku</Link></li>
           <li><Link smooth href="#flora" scroll>Flora</Link></li>
           <li><Link smooth href="#anima" scroll>Anima</Link></li>
+          <li><Link smooth href="#shine" scroll>Shine</Link></li>
           <li><Link smooth href="#jianghu" scroll>Jianghu</Link></li>
           <li><Link smooth href="#other" scroll>Other</Link></li>
           <li><Link smooth href="#notable" scroll>Notable Link Skills</Link></li>
@@ -152,6 +153,11 @@ function LinkSkills() {
         <hr/>
         <p><strong>[Lara]</strong></p>
         <SingleSkill skillData={linkSkills.lara}/>
+        <hr/>
+        <h2 id="shine">Shine</h2>
+        <hr/>
+        <p><strong>[Sia Astelle] </strong></p>
+        <SingleSkill skillData={linkSkills.siaAstelle}/>
         <hr/>
         <h2 id="jianghu">Jianghu</h2>
         <hr/>

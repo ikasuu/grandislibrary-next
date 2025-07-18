@@ -1,4 +1,3 @@
-import React from 'react';
 import Head from 'next/head';
 
 import { HeaderImageUrl, classes } from '../../special/SiteValues';
@@ -24,7 +23,7 @@ function Classes() {
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
                 <Container>
-                    <Alert variant="dark">Pre-Release Sia Class Overview out now! Check it out <Link href="/star-guardian/sia" target="_blank" rel="noreferrer noopener">here</Link>! All information is unconfirmed and based on MapleStory M skill info. Currently on hiatus and will return in July to update Class Overview</Alert>
+                    <Alert variant="dark">Sia Astelle Class Overview is now updated! Check it out <Link href="/shine/sia" target="_blank" rel="noreferrer noopener">here</Link></Alert>
                 </Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
@@ -51,9 +50,8 @@ function Classes() {
                 <ClassGroupContainer classes={classes.anima} classGroup="anima"/>
                 <Page.Subtitle>Jianghu</Page.Subtitle>
                 <ClassGroupContainer classes={classes.jianghu} classGroup="jianghu"/>
-                <Page.Subtitle>Star Guardian</Page.Subtitle>
-                <Page.Caption>Unconfirmed faction name, subject to change. Will update in July</Page.Caption>
-                <ClassGroupContainer classes={classes.starGuardian} classGroup="star-guardian"/>
+                <Page.Subtitle>Shine</Page.Subtitle>
+                <ClassGroupContainer classes={classes.shine} classGroup="shine"/>
                 <Page.Subtitle>Other</Page.Subtitle>
                 <Page.Caption>Classes here only share Cash Shop Inventories with their own class - they do not share with each other</Page.Caption>
                 <ClassGroupContainer classes={classes.other} classGroup="other"/>

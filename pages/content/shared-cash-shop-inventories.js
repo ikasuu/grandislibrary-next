@@ -242,9 +242,9 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
                 <ClassBlock color="#7767EA">
-                    <StyledTd style={{color: 'black'}}><strong>Star Guardian</strong></StyledTd>
+                    <StyledTd style={{color: 'black'}}><strong>Shine</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}>Sia</StyledTd>
+                    <StyledTd style={{color: 'black'}}>Sia Astelle</StyledTd>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>

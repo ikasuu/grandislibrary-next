@@ -38,7 +38,7 @@ export const classes = {
     other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]],
     jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
-    starGuardian: [["sia", "Sia"]]
+    shine: [["sia-astelle", "Sia Astelle"]]
 }
 
 //Weapons for class overviews, contains icon path and formatted name
@@ -1120,7 +1120,20 @@ export const linkSkills = {
             "This skill is leveled up by completing the Zero storyline",
             "Useful for BOSSING because IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE<bp_Also useful for TRAINING pre-200 because of increased SURVIVABILITY_>"
         ]
-    }
+    },
+    siaAstelle: {
+        "id": 80010006,
+        "offline": true,
+        "name": "Tree of Stars",
+        "shortDesc": "Buff Duration: +10%, Critical Damage: +3%",
+        "icons": ["/class-icons/link-skills/tree-of-stars.png"],
+        "maxLevel": 3,
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING because BUFF DURATION is USEFUL FOR EXTENDING ANGELIC BUSTER'S LINK SKILL and CRIT DAMAGE for INCREASED DAMAGE"
+        ]
+    },
 }
 
 export default HeaderImageUrl;
