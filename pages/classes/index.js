@@ -23,7 +23,7 @@ function Classes() {
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
                 <Container>
-                    <Alert variant="dark">Sia Astelle Class Overview is now updated! Check it out <Link href="/shine/sia" target="_blank" rel="noreferrer noopener">here</Link></Alert>
+                    <Alert variant="dark">Sia Astelle Class Overview is now updated! Check it out <Link href="/shine/sia-astelle" target="_blank" rel="noreferrer noopener">here</Link></Alert>
                 </Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
