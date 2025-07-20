@@ -411,16 +411,17 @@ export const commonFifth = {
     },
     sengokuForce:{
         "name": "Sengoku Force, Assemble!",
-        "shortDesc": "MP Cost: 1000, Consumes HP for jobs that do not utilize MP. Summons two Sengoku warriors. Summon Duration: 45 sec, Cooldown: 120 sec.\\n[Uesugi Kenshin] Damage: 550%, Max Enemies Hit: 8, Number of Attacks: 4, Ignore Defense +22%\\n[Tsuchimikado Haruaki] Damage: 455%, Max Enemies Hit: 8, Number of Attacks: 5, Damage Taken -17%\\n[Ayame] Damage: 610%, Max Enemies Hit: 8, Number of Attacks: 4, Critical Damage +17%\\n[Takeda Shingen] Damage: 305%, Max Enemies Hit: 8, Number of Hits: 8, Attack Power +35, Magic ATT +35",
+        "shortDesc": "MP Cost: 1000, Consumes HP for jobs that do not utilize MP. Summons two Sengoku warriors. Summon Duration: 45 sec, Cooldown: 120 sec.\\n[Uesugi Kenshin] Damage: 550%, Max Enemies Hit: 8, Number of Attacks: 4\\n[Tsuchimikado Haruaki] Damage: 455%, Max Enemies Hit: 8, Number of Attacks: 5\\n[Ayame] Damage: 610%, Max Enemies Hit: 8, Number of Attacks: 4, Critical Damage +10%\\n[Takeda Shingen] Damage: 305%, Max Enemies Hit: 8, Number of Hits: 8, Attack Power +20, Magic ATT +20",
         "icons": ["/class-icons/5th-job/sengoku-force-assemble.png"],
         "animations": ["https://media2.giphy.com/media/hdOUEr0bUns5nRa0pR/giphy.gif"],
-        "type": "Summon",
-        "desc": "Randomly summon two Sengoku heroes that attack and provide a buff",
+        "type": "Summon / Buff",
+        "desc": "Grants a buff and summons two random heroes that attack nearby enemies",
         "details": [
-            "[Uesugi Kenshin]: Slashes her blade at nearby enemies<bp_Increases %Ignore DEF_>",
-            "[Tsuchimikado Haruaki]: Swings his fan creating a wave of magic<bp_Increases %Damage Reduction (includes %Max HP attacks)_>",
-            "[Ayame]: Shoots her rifle forward<bp_Increases %Crit Damage_>",
-            "[Takeda Shingen]: Flags strike down on nearby enemies<bp_Increases Attack and Magic Attack_>"
+            "[Buff]: Increases %Crit Damage and grants flat Attack and Magic Attack",
+            "[Uesugi Kenshin]: Slashes her blade at nearby enemies",
+            "[Tsuchimikado Haruaki]: Swings his fan creating a wave of magic",
+            "[Ayame]: Shoots her rifle forward",
+            "[Takeda Shingen]: Flags strike down on nearby enemies"
         ]
     },
     princessSakunoBlessing:{
