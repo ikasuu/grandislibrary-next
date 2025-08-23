@@ -1,4 +1,4 @@
-#  Updated: 2025-08-20 09:55:22
+#  Updated: 2025-08-22 10:00:29
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -229,6 +229,7 @@ kargo.com, 8720, DIRECT
 krushmedia.com, AJxF6R55a9M6CaTvK, RESELLER
 krushmedia.com, AJxF6R572a9M6CaTvK, RESELLER
 kueez.com, 976f90e3f55c14d910a31bae495ca125, DIRECT
+kueez.com, f3b3789cda3d7eb0e9fa1c41057da524, RESELLER
 lijit.com, 222372, RESELLER, fafdf38b16bf6b2b
 lijit.com, 240955, DIRECT, fafdf38b16bf6b2b
 lijit.com, 240955-eb, DIRECT, fafdf38b16bf6b2b
