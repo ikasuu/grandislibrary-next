@@ -1,4 +1,4 @@
-#  Updated: 2025-08-22 10:00:29
+#  Updated: 2025-08-26 16:05:35
 #  Website: GrandisLibrary (https://grandislibrary.com/)
 # _____________________________________________________
 #
@@ -179,7 +179,6 @@ google.com, pub-4299156005397946, RESELLER, f08c47fec0942fa0
 google.com, pub-4586415728471297, RESELLER, f08c47fec0942fa0
 google.com, pub-5231479214411897, RESELLER, f08c47fec0942fa0
 google.com, pub-5717092533913515, RESELLER, f08c47fec0942fa0
-google.com, pub-6346866704322274, RESELLER, f08c47fec0942fa0
 google.com, pub-6373315980741255, RESELLER, f08c47fec0942fa0
 google.com, pub-7094677798399606, RESELLER, f08c47fec0942fa0
 google.com, pub-7734005103835923, RESELLER, f08c47fec0942fa0
