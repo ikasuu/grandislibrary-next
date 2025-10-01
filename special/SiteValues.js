@@ -150,15 +150,18 @@ export const weaponConsumable = {
 export const commonFifth = {
     goddessBlessing: {
         "name": "Maple World Goddess's Blessing",
-        "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 400% for 60 sec, Damage: +20%\\nCooldown: 120 sec",
+        "shortDesc": "MP Cost: 500, Increases stat bonuses as Maple Warrior by 400% for 60 sec, Damage: +20%\\nCooldown: 120 sec",
         "icons": ["/class-icons/5th-job/maple-world-goddess-blessing.png"],
         "animations": ["https://media4.giphy.com/media/AV4drI0ly2fYImnP3H/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, increases %Damage and the stat bonuses of <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)}> and similar skills"
+        "desc": "While active, increases %Damage and the stat bonuses of <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)}> and similar skills",
+        "details": [
+            "Unaffected by cooldown reduction"
+        ]
     },
     expWarrior:{
         "name": "Blitz Shield",
-        "shortDesc": "HP Cost: 5% of Max HP, Creates a protective shield that blocks 21% of your Max HP as damage for 5 sec.\\nWhen the shield expires or the skill is activated again, it detonates and inflicts 1100% damage to 12 enemies 5 times.\\nYour shield must be active for at least 2 sec before it can be detonated.\\nCooldown: 15 sec",
+        "shortDesc": "HP Cost: 5% of Max HP, Creates a protective shield, absorbing damage up to 21% of your Max HP for 5 sec.\\nIf you activate this skill a second time, it detonates and inflicts 1100% damage to 12 enemies 5 times.\\nYour shield must be active for at least 2 sec before it can be detonated.\\nCooldown: 15 sec",
         "icons": ["/class-icons/5th-job/blitz-shield.png"],
         "animations": ["https://media2.giphy.com/media/0Rj4K4HNqYGsk63MyN/giphy.gif"],
         "type": "Buff",
@@ -216,7 +219,7 @@ export const commonFifth = {
     },
     expThief: {
         "name": "Shadow Walker",
-        "shortDesc": "MP Cost: 850, Duration: 30 sec. Initiates a form of stealth that is not canceled by skills or attacks.\\nFinal Damage increased by 14% added on top of Advanced Dark Sight's Final Damage bonus.\\nCooldown: 180 sec",
+        "shortDesc": "MP Cost: 850, Duration: 20 sec. Initiates a form of stealth that is not canceled by skills or attacks.\\nFinal Damage increased by 14% added on top of Advanced Dark Sight's Final Damage bonus.\\nCooldown: 120 sec",
         "icons": ["/class-icons/5th-job/shadow-walker.png"],
         "animations": ["https://media4.giphy.com/media/KZvjAfaZInF431yAcH/giphy.gif"],
         "type": "Buff",
@@ -227,12 +230,13 @@ export const commonFifth = {
     },
     expPirate: {
         "name": "Pirate's Banner",
-        "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec.\\nBoosts the stats of party members near the flag by 25% in any attribute they have assigned AP. Enemy DEF: -25%\\nCooldown: 30 sec",
+        "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec.\\nBoosts the stats of party members near the flag by 25% in any attribute they have assigned AP. You will receive the same effect even when outside of the field. Enemy Defense: -25%",
         "icons": ["/class-icons/5th-job/pirates-banner.png"],
         "animations": ["https://media2.giphy.com/media/4HkGIZpk9nhjknNRFb/giphy.gif"],
         "type": "Buff Zone",
         "desc": "Increases all stats assigned APs by a percentage of party members within the zone and reduces enemy %DEF inside the zone",
         "details": [
+            "You will receive the buff even when outside of the zone",
             "During the jump animation, you will not be knocked back at all (Super Knockback Resistance)",
             "Reduction to %DEF can be considered as %Ignore DEF"
         ]
@@ -483,18 +487,18 @@ export const commonFifth = {
     },
     weaponAura:{
         "name": "Weapon Aura",
-        "shortDesc": "HP Cost: 10%, Ignores 16% Enemy DEF for 140 sec, Final Damage: +6%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1100% damage on up to 10 enemies 6 times.\\nWeapon Aura Prepared: every 180 sec, Max Number Prepared: 2",
+        "shortDesc": "HP Cost: 10% of Max HP, Ignores 16% Enemy DEF for 94 sec, Final Damage: +6%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1100% damage on up to 10 enemies 6 times.\\nWeapon Aura Prepared: every 120 sec, Max Number Prepared: 2",
         "icons": ["/class-icons/5th-job/weapon-aura.png"],
         "animations": ["https://media4.giphy.com/media/flLOmhDE95Z0NDH1ug/giphy.gif"],
         "type": "Buff Attack",
-        "desc": "Increases %Ignore DEF, %Final Damage and your attacks periodically create a damaging wave",
+        "desc": "Increases %Ignore DEF, %Final Damage and attacks periodically release a damaging wave",
         "details": [
             "Skill is prepared every 180 sec (up to 2 charges)"
         ]
     },
     impenetrableSkin:{
         "name": "Impenetrable Skin",
-        "shortDesc": "HP Cost: 3% of Max HP, Duration: 18 sec, Knockdown Immunity and Status Resistance: +80\\nDamage increases +6% when hit, Max Stack: 5 times\\nCooldown: 120 sec\\n[Passive Effects - STR: +30, Max HP: +1500]",
+        "shortDesc": "HP Cost: 3% of Max HP, Duration: 18 sec, Knockdown Immunity and Status Resistance: +80\\nDamage increases +6% when hit, Max Stack: 6 times\\nCooldown: 120 sec\\n[Passive Effects - STR: +30, Max HP: +1500]",
         "icons": ["/class-icons/5th-job/impenetrable-skin.png"],
         "animations": ["https://media3.giphy.com/media/jjMaS7mAgN1OvvY9JT/giphy.gif"],
         "type": "Buff",
@@ -502,7 +506,7 @@ export const commonFifth = {
     },
     manaOverload:{
         "name": "Mana Overload",
-        "shortDesc": "Consumes 2% Max MP to increase the Final Damage of all your skills (excluding summons) by 8%\\nConsumes 0.3% Max HP for jobs without MP\\nCan be toggled On/Off\\nCooldown: 35 sec",
+        "shortDesc": "Consumes 2% Max MP to increase the Final Damage of all your skills (excluding summons) by 8%\\nConsumes 0.3% Max HP for jobs without MP\\nCan be toggled On/Off\\nCooldown: 30 sec",
         "icons": ["/class-icons/5th-job/mana-overload.png"],
         "animations": ["https://media1.giphy.com/media/uH12ABjyZFLcfbvjFH/giphy.gif"],
         "type": "Buff",
@@ -513,14 +517,14 @@ export const commonFifth = {
     },
     etherealForm:{
         "name": "Ethereal Form",
-        "shortDesc": "HP Cost: 1000, Duration: 3 sec, Grants Knockdown Immunity. Situations that would normally cause you to take damage instead reduce your MP by 7300.\\nIf you would reduce your MP below 0, you will instead take normal HP damage. If your job does not utilize MP, you will lose 1600 HP.\\nCooldown: 60 sec",
+        "shortDesc": "HP Cost: 1000, Invincibility Duration: 3 sec.\\nCooldown: 60 sec.",
         "icons": ["/class-icons/5th-job/ethereal-form.png"],
         "animations": ["https://media1.giphy.com/media/PoQHT9CkudFCPj6RBi/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, you will not be knocked back at all (Super Knockback Resistance) and lose a fixed amount of MP instead of taking HP damage",
+        "desc": "When used, briefly become invincible",
         "details": [
-            "When MP is 0 you take normal amount of HP damage",
-            "For classes that do not utilize MP, a fixed amount of HP damage is taken instead"
+            "While invincible, you cannot use other skills",
+            "Pressing the Skill Key again ends the buff early"
         ]
     },
     guidedArrow: {
@@ -545,7 +549,7 @@ export const commonFifth = {
     },
     venomBurst: {
         "name": "Venom Burst",
-        "shortDesc": "MP Cost: 300, Consumes all active Damage-over-Time stacks on up to 12 poisoned enemies in range and instantly inflicts 100% of their remaining damage plus an additional 1100% damage 6 times Additional damage is +15% per remaining second of consumed DoT stacks up to 5\\nAfterwards, spreads the original DoT damage to up to 10 nearby enemies\\nCooldown: 8 sec\\n[Passive Effects - Bonus DoT Chance: 50% to deal 340% damage every 1 sec for 8 sec]",
+        "shortDesc": "MP Cost: 300, Consumes all active Damage-over-Time stacks on up to 12 poisoned enemies in range and instantly inflicts 100% of their remaining damage plus an additional 1100% damage 6 times\\nAdditional damage is +15% per remaining second of consumed DoT stacks up to 5\\nAfterwards, spreads the original DoT damage to up to 10 nearby enemies\\nCooldown: 8 sec\\n[Passive Effects - Bonus DoT Chance: 50% to deal 340% damage every 1 sec for 8 sec]",
         "icons": ["/class-icons/5th-job/venom-burst.png"],
         "animations": ["https://media3.giphy.com/media/hk99simjA0L918EjM0/giphy.gif"],
         "type": "Attack",
@@ -557,7 +561,7 @@ export const commonFifth = {
     },
     lastResort: {
         "name": "Last Resort",
-        "shortDesc": "HP Cost: 10% of Max HP, reduces Avoidability (including Bonus Evasion) and increases Final Damage for 30 sec, Hit Damage increased if attacked within a certain percentage of your max HP. Enters 2nd Stage with remaining duration being reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage.\\n1st Stage - Avoidability: -20%, Hit Damage: +10%, Final Damage: +13%\\n2nd Stage - Avoidability: -90%, Hit Damage: +30%, Final Damage: +30%\\nCooldown: 75 sec\\n[Passive Effect - ATT Power: +30]",
+        "shortDesc": "HP Cost: 10% of Max HP, reduces Avoidability (including Bonus Evasion) and increases Final Damage for 30 sec, Hit Damage increased if attacked within a certain percentage of your max HP. Enters 2nd Stage with remaining duration being reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage.\\n1st Stage - Avoidability: -20%, Hit Damage: +10%, Final Damage: +10%\\n2nd Stage - Avoidability: -90%, Hit Damage: +20%, Final Damage: +24%\\nCooldown: 60 sec\\n[Passive Effect - ATT Power: +30]",
         "icons": ["/class-icons/5th-job/last-resort.png"],
         "animations": ["https://media1.giphy.com/media/H9sLPP1J2vVhs6Cmcl/giphy.gif"],
         "type": "Buff",
