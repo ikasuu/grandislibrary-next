@@ -268,7 +268,7 @@ export const commonFifth = {
     },
     freudsWisdom:{
         "name": "Freud's Wisdom",
-        "shortDesc": "MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Status Resistance: +25\\nStack 3 - All Stats: +55\\nStack 4 - Attack Power & Magic ATT: +25\\nStack 5 - Boss Damage: +25%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires (including character death) or max stack count is reached.",
+        "shortDesc": "MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Status Resistance: +25\\nStack 3 - All Stats: +55\\nStack 4 - Attack Power & Magic ATT: +25\\nStack 5 - Boss Damage: +25%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires or max stack count is reached.",
         "icons": ["/class-icons/5th-job/freuds-wisdom.png"],
         "animations": ["https://media0.giphy.com/media/qLHXWAJbWTXFxORQyS/giphy.gif"],
         "type": "Buff",
