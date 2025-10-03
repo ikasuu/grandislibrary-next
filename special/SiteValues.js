@@ -243,20 +243,21 @@ export const commonFifth = {
     },
     phalanxCharge:{
         "name": "Phalanx Charge",
-        "shortDesc": "MP Cost: 500, Damage: 990%, Number of Attacks: 70\\nSpearmen disappear when the number of attacks is reached, they move a certain distance, or after a certain duration. Activate the skill again to change their direction.\\nCooldown: 30 sec",
+        "shortDesc": "MP Cost: 500, Duration: Up to 22.5 sec.\\nPeriodically deals 990% damage up to 70 times.\\nCooldown: 30 sec",
         "icons": ["/class-icons/5th-job/phalanx-charge.png"],
         "animations": ["https://media4.giphy.com/media/7y719ZfMh0lXsQW919/giphy.gif"],
         "type": "Summon",
         "desc": "Summon Spearmen of Cygnus Knights to charge forward damaging enemies that collide with it",
         "details": [
-            "The spearmen slow down upon touching an enemy",
+            "The spearmen slow down upon colliding with an enemy",
             "Pressing the Skill Key again will change their direction of movement",
+            "Right-clicking the skill turns a function ON/OFF that summons stationary spearmen instead<bp_While summoned, pressing the Skill Key while the spearmen are not attacking will resume movement_>",
             "Unaffected by Damage Reflect"
         ]
     },
     cygnusBlessing:{
         "name": "Empress Cygnus's Blessing",
-        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +30%\\nPeriodically restores 4% HP and increases your damage by 5%.\\nThis damage bonus is additive and maxes out at 90%\\nCooldown: 120 sec.\\n--------\\nMP Cost: 500, Duration: 45 sec, Damage +30%, Damage Taken: -5% (Includes damage proportional to Max HP).\\nPeriodically restores 8% HP and increases your damage by 8%.\\nThis damage bonus is additive, and maxes out at 120%\\nCooldown: 120 sec.",
+        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +30%\\nPeriodically restores 4% HP and increases your damage by 6%.\\nThis damage bonus is additive and maxes out at 90%\\nCooldown: 120 sec.\\n--------\\nMP Cost: 500, Duration: 45 sec, Damage +30%, Damage Taken: -5% (Includes damage proportional to Max HP).\\nPeriodically restores 8% HP and increases your damage by 8%.\\nThis damage bonus is additive, and maxes out at 120%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/empress-cygnuss-blessing.png", "/class-icons/5th-job/transcendent-cygnuss-blessing.png"],
         "animations": ["https://media4.giphy.com/media/o4zWBHJ69l1pd4x9hf/giphy.gif", "https://media2.giphy.com/media/oHDJdfZZm1KEBCm9n7/giphy.gif"],
         "type": "Buff",
