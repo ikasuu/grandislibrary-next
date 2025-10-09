@@ -462,7 +462,7 @@ export const commonFifth = {
     },
     powerOfDestiny:{
         "name": "Power of Destiny",
-        "shortDesc": "MP Cost: 80   . Uses the selected Power of Destiny\\n[Power of Destiny: Might] - Duration: 45 sec, Damage: +20%, Cooldown: 90 sec\\n[Power of Destiny: Perceive] - Duration: 60 sec, Ignore Defense: +30%, Cooldown: 180 sec\\n[Power of Destiny: Boon] - Duration: 60 sec, Attack Power & Magic ATT & All Stats: +30, Cooldown: 90 sec\\n[Power of Destiny: Journey] - Duration: 300 sec, Normal Enemy Damage: +30%, Cooldown: 600 sec",
+        "shortDesc": "MP Cost: 80. Uses the selected Power of Destiny\\n[Power of Destiny: Might] - Duration: 60 sec, Damage: +20%, Cooldown: 120 sec\\n[Power of Destiny: Perceive] - Duration: 60 sec, Ignore Defense: +30%, Cooldown: 120 sec\\n[Power of Destiny: Boon] - Duration: 90 sec, Attack Power & Magic ATT & All Stats: +30, Cooldown: 120 sec\\n[Power of Destiny: Journey] - Duration: 240 sec, Normal Enemy Damage: +30%, Cooldown: 120 sec",
         "icons": ["/class-icons/5th-job/power-of-destiny.png"],
         "type": "Buff",
         "desc": "Use the memorized skill chosen from <tt src={/class-icons/5th-job/ring-of-samsara.png} tip={Ring of Samsara (5th Job)}>",
