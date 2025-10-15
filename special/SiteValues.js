@@ -36,7 +36,7 @@ export const classes = {
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
     other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
-    anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]],
+    anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"], ["len", "Len"]],
     jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
     shine: [["sia-astelle", "Sia Astelle"]]
 }
@@ -80,7 +80,8 @@ export const weapons = {
     whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"],
     chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"],
     martialBrace: [`/images/equipment/martial-brace.png`, "Martial Brace"],
-    celestialLight: [`/images/equipment/celestial-light.png`, "Celestial Light"]
+    celestialLight: [`/images/equipment/celestial-light.png`, "Celestial Light"],
+    lenLongSword: [`/images/equipment/long-sword.png`, "Long Sword"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -135,7 +136,8 @@ export const secondaryWeapons = {
     ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"],
     hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"],
     braceBand: [`/images/equipment/brace-band.png`, "Brace Band"],
-    compass: [`/images/equipment/compass.png`, "Compass"]
+    compass: [`/images/equipment/compass.png`, "Compass"],
+    wishGrantingJewel: [`/images/equipment/wish-granting-jewel.png`, "Wish-Granting Jewel"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
@@ -389,6 +391,14 @@ export const commonFifth = {
             "[Debuff]: Attacking this enemy has a chance to restore %Max HP/MP<bp_Debuff application prioritizes bosses with the highest HP first_>",
             "While the portal is active, increases %Crit Damage and all stats directly invested with AP"
         ]
+    },
+    grandisGoddessBlessingLEN:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo, Len: Plum Blossom Sword Ultimate, Lost Soul Sword Ultimate, and Sky Splitting Azure Dragon Sword Final Damage is increased by 15%.\\nCooldown: 120 sec.",
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
+        "type": "Buff",
+        "desc": "While active, increases %Damage and grants increased %Final Damage to skills labelled with \"Plum Blossom Sword Ultimate\", \"Lost Soul Sword Ultimate\", and \"Sky Splitting Azure Dragon Sword\""
     },
     transcendent:{
         "name": "Transcendent",
