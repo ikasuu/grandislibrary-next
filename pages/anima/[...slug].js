@@ -11,15 +11,15 @@ import SkillTab from '../../components/class-overview/SkillTab';
 
 function ClassOverview({post, slug}) {
     const [data, setData] = useState(post);
-    const [lenFlag, setLenFlag] = useState(false);
+    const [renFlag, setRenFlag] = useState(false);
 
     useEffect(() => {
       setData(post);
     },[slug]);
 
     useEffect(() => {
-      if(data.class === "Len"){
-        setLenFlag(true);
+      if(data.class === "Ren"){
+        setRenFlag(true);
       }
     }, data.class);
 
@@ -31,7 +31,7 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
-              {lenFlag && <Alert variant="danger">Pre-Release Len Class Overview, info is subject to change. Information is unconfirmed and based on KMS ver. <a href="https://orangemushroom.net/2025/06/20/kms-ver-1-2-404-maplestory-assemble-the-red-eyed-wanderer-len/" target="_blank" rel="noreferrer noopener">1.2.404</a></Alert>}
+              {renFlag && <Alert variant="danger">Pre-Release Ren Class Overview, info is subject to change. Information is unconfirmed and based on KMS ver. <a href="https://orangemushroom.net/2025/06/20/kms-ver-1-2-404-maplestory-assemble-the-red-eyed-wanderer-len/" target="_blank" rel="noreferrer noopener">1.2.404</a></Alert>}
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
