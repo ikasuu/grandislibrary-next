@@ -31,7 +31,7 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
-              {renFlag && <Alert variant="danger">Pre-Release Ren Class Overview, info is subject to change. Information is unconfirmed and based on KMS ver. <a href="https://orangemushroom.net/2025/06/20/kms-ver-1-2-404-maplestory-assemble-the-red-eyed-wanderer-len/" target="_blank" rel="noreferrer noopener">1.2.404</a></Alert>}
+              {renFlag && <Alert variant="danger">Pre-Release Ren Class Overview, info may be incorrect and is subject to change. Information is unconfirmed and based on KMS ver. <a href="https://orangemushroom.net/2025/06/20/kms-ver-1-2-404-maplestory-assemble-the-red-eyed-wanderer-len/" target="_blank" rel="noreferrer noopener">1.2.404</a> & <a href="https://orangemushroom.net/2025/07/17/kms-ver-1-2-405-maplestory-assemble-ascent-skills/#len" target="_blank" rel="noreferrer noopener">1.2.405</a></Alert>}
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
