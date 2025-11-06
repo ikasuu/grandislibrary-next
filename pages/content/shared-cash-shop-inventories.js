@@ -38,8 +38,6 @@ function SharedCashShopInventory() {
                 <p><em>November 5 12:00 AM UTC - November 12 2:00 PM UTC</em></p>
                 <p>For more info, check the MapleStory patch notes <a href="https://www.nexon.com/maplestory/news/update/31006/updated-10-22-v-263-carcion-octo-fest-patch-notes#CashShopTransfer" target="_blank" rel="noreferrer noopener">here</a></p>
                 <p>During this event, cash items can be transferred between any character and class. Outside of this event, cash items can only be transferred between classes within the same factions listed below</p>
-                <p>To transfer, click the "CASH TRANSFER" button at the top of the Cash Inventory and select the items to transfer then click the "Confirm" button</p>
-                <p>You will then be able to choose the character or class you want to receive the item through a dropdown menu and click the "OK" button to complete the transfer</p>
             </Alert>
             <ContentTitle>Shared Cash Shop Inventories</ContentTitle>
             <StickyAd/>
