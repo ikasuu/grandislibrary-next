@@ -241,7 +241,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   //Modals related
-  .modal-header{
+  .modal-header, .modal-footer{
     border-color: ${props => props.theme.mode === 'dark' ? '#37363a !important' : ''} ;
   }
 

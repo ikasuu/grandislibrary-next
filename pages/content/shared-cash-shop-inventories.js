@@ -5,7 +5,7 @@ import Head from 'next/head';
 import { ContentPage } from '../../components/repository/RepositoryPage';
 import { ContentTitle } from '../../components/Page';
 import BannerAdOne, { StickyAd } from '../../components/Ads';
-import { Alert } from 'react-bootstrap';
+// import { Alert } from 'react-bootstrap';
 
 const TableContainer = styled.div`
     overflow-x: auto;
@@ -33,12 +33,12 @@ function SharedCashShopInventory() {
                 <title>Shared Cash Shop Inventories | MapleStory | Grandis Library</title>
                 <meta content={"A table chart of all classes and class groups that share Cash Shop inventories with each other."} name="description"/>
             </Head>
-            <Alert variant="info">
+            {/* <Alert variant="info">
                 <p><strong>Cash Shop Transfer</strong></p>
                 <p><em>November 5 12:00 AM UTC - November 12 2:00 PM UTC</em></p>
                 <p>For more info, check the MapleStory patch notes <a href="https://www.nexon.com/maplestory/news/update/31006/updated-10-22-v-263-carcion-octo-fest-patch-notes#CashShopTransfer" target="_blank" rel="noreferrer noopener">here</a></p>
                 <p>During this event, cash items can be transferred between any character and class. Outside of this event, cash items can only be transferred between classes within the same factions listed below</p>
-            </Alert>
+            </Alert> */}
             <ContentTitle>Shared Cash Shop Inventories</ContentTitle>
             <StickyAd/>
             <img src="/images/info/cash-shop-inventory.png" alt="Cash Shop Inventory"/>

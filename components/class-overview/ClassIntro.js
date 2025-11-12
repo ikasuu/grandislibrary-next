@@ -189,7 +189,7 @@ function InfographicBox({data}){
             <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
             {
                 data.map(image => 
-                <ClassInfographic key={image.title} infographic={image.src} title={image.title}/>
+                <ClassInfographic key={image.title} infographic={image.src} title={image.title} credit={image.credit}/>
             )}
         </div>
     )
@@ -200,7 +200,11 @@ function InfographicBox({data}){
     Created by: Ikasuu, Spring 2024
 */
 
-export function ClassInfographic({infographic, title}) {
+const InfographicCredit = styled.em`
+    font-size: 0.9rem;
+`;
+
+export function ClassInfographic({infographic, title, credit}) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -212,7 +216,7 @@ export function ClassInfographic({infographic, title}) {
             <Modal centered show={show} onHide={handleClose} aria-labelledby="infographic-image" size="lg">
                 <Modal.Header closeButton>
                     <Modal.Title id="infographic-image">
-                            {title}
+                        {title}
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
@@ -220,6 +224,9 @@ export function ClassInfographic({infographic, title}) {
                         <Image src={`/class-infographic/${infographic}`} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
                     </a>
                 </Modal.Body>
+                <Modal.Footer>
+                    <InfographicCredit>Credits to {credit}</InfographicCredit>
+                </Modal.Footer>
             </Modal>
         </span>
     );
