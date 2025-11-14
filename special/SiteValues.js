@@ -12,11 +12,11 @@ export const logo = "/logo.png";
 
 //Image paths for our page headers
 export const HeaderImageUrl = {
-    library: "/headers/grandis-library.png",
-    grandis: "/headers/borderless.png",
-    fox: "/headers/fox-valley.png",
-    verdel: "/headers/verdel.png",
-    ristonia: "/headers/ristonia.png"
+    library: "/headers/monad-1.png",
+    grandis: "/headers/monad-2.png",
+    fox: "/headers/monad-3.png",
+    verdel: "/headers/monad-4.png",
+    ristonia: "/headers/monad-5.png"
 };
 
 // Image paths for the home buttons
@@ -331,7 +331,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingNV:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo.\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
@@ -342,7 +342,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingKAI:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo.\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
@@ -354,7 +354,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingFL:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo.\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTI4YWJiM21vemt5MW5yNDRnM2hncWkzYXo3cWM0YzVqcGYwOGpweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1FUDtuDNiNos8qi01U/giphy.gif"],
         "type": "Buff",
@@ -366,7 +366,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingHY:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo.\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
@@ -374,11 +374,19 @@ export const commonFifth = {
     },
     grandisGoddessBlessingLARA:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo.\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
         "desc": "While active, increases %Damage and %Final Damage bonus from <tt src={/class-icons/anima/lara/dragon-vein-echo.png} tip={Dragon Vein Echo (3rd Job)}>"
+    },
+    grandisGoddessBlessingLEN:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
+        "type": "Buff",
+        "desc": "While active, increases %Damage and grants increased %Final Damage to skills labelled with \"Final Plum Blossom Swords\", \"Final Amugi Spirit Swords\", and \"Rising Azure Dragon\""
     },
     afterimageOfTheOtherworld:{
         "name": "Afterimage of the Otherworld",
@@ -391,14 +399,6 @@ export const commonFifth = {
             "[Debuff]: Attacking this enemy has a chance to restore %Max HP/MP<bp_Debuff application prioritizes bosses with the highest HP first_>",
             "While the portal is active, increases %Crit Damage and all stats directly invested with AP"
         ]
-    },
-    grandisGoddessBlessingLEN:{
-        "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo, Ren: Plum Blossom Sword Ultimate, Lost Soul Sword Ultimate, and Sky Splitting Azure Dragon Sword Final Damage is increased by 15%.\\nCooldown: 120 sec.",
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
-        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
-        "type": "Buff",
-        "desc": "While active, increases %Damage and grants increased %Final Damage to skills labelled with \"Plum Blossom Sword Ultimate\", \"Lost Soul Sword Ultimate\", and \"Sky Splitting Azure Dragon Sword\""
     },
     transcendent:{
         "name": "Transcendent",
@@ -820,6 +820,10 @@ export const commonSixth = {
 export const linkSkills = {
     expWarrior: {
         "id": 80002758,
+        "offline": true,
+        "name": "Invincible Belief",
+        "maxLevel": 9,
+        "shortDesc": "Automatically activates when your health falls to 15% of your Max HP or below. Restores 44% of Max HP every 1 sec for 3 sec\\nCooldown: 90 sec.",
         "icons": ["/class-icons/link-skills/invincible-belief.png"],
         "type": "Passive",
         "desc": "",
@@ -830,6 +834,10 @@ export const linkSkills = {
     },
     expMage: {
         "id": 80002762,
+        "offline": true,
+        "name": "Empirical Knowledge",
+        "maxLevel": 9,
+        "shortDesc": "When attacking, has a 31% chance to identify the weakness of the enemy with the highest Max HP among those struck, granting you the following bonuses against them:\\nDamage per Stack: +5%, Enemy DEF Ignored per Stack: +5%\\nEffect Duration: 10 sec, Stacks up to 3 times",
         "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
         "type": "Passive",
         "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
@@ -841,6 +849,10 @@ export const linkSkills = {
     },
     expArcher: {
         "id":80002766,
+        "offline": true,
+        "name": "Adventurer's Curiosity",
+        "maxLevel": 9,
+        "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%",
         "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
         "type": "Passive",
         "desc": "",
@@ -852,6 +864,10 @@ export const linkSkills = {
     },
     expThief: {
         "id": 80002770,
+        "offline": true,
+        "name": "Thief's Cunning",
+        "maxLevel": 9,
+        "shortDesc": "Upon debuffing an enemy, Damage: +18%. Duration: 10 sec\\nCooldown: 20 sec.",
         "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
         "type": "Passive",
         "desc": "",
@@ -862,6 +878,10 @@ export const linkSkills = {
     },
     expPirate: {
         "id":80002774,
+        "offline": true,
+        "name": "Pirate's Blessing",
+        "maxLevel": 9,
+        "shortDesc": "STR: +100, DEX: +100, INT: +100, LUK: +100, Max HP: +1750, Max MP: +1750, Damage Taken: -21%",
         "icons": ["/class-icons/link-skills/pirate-blessing.png"],
         "type": "Passive",
         "desc": "",
@@ -874,12 +894,16 @@ export const linkSkills = {
     },
     cygnusKnights: {
         "id": 80000055,
+        "offline": true,
+        "name": "Cygnus Blessing",
+        "maxLevel": 15,
+        "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
         "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level",
-            "Useful for INCREASING DAMAGE and REDUCING DURATION OF DEBUFFS<bp_Important in bosses like Chaos Pink Bean_>"
+            "Useful for INCREASING DAMAGE and REDUCING DURATION OF DEBUFFS"
         ]
     },
     mihile: {
@@ -1098,6 +1122,18 @@ export const linkSkills = {
         "desc": "",
         "details": [
             "Useful for BOSSING"
+        ]
+    },
+    ren: {
+        "id": 80000609,
+        "offline": true,
+        "name": "Grounded Body",
+        "shortDesc": "Reduces damage taken by 4%, including attacks at a certain ratio of maximum HP",
+        "icons": ["/class-icons/link-skills/grounded.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING because of REDUCED DAMAGE TAKEN from %MAX HP ATTACKS"
         ]
     },
     hoyoung: {

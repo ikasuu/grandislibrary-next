@@ -23,7 +23,7 @@ function Classes() {
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
                 <Container>
-                    <Alert variant="dark">🐰 Ren Pre-Release Overview is now available! Check it out <Link href="/anima/ren" target="_blank" rel="noreferrer noopener">here</Link></Alert>
+                    <Alert variant="dark">🐰 Ren Overview is now updated! Check it out <Link href="/anima/ren" target="_blank" rel="noreferrer noopener">here</Link></Alert>
                 </Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>

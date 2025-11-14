@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Alert } from 'react-bootstrap';
-import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 import Head from 'next/head';
 
 import ClassIntro, { ClassCreation, ClassExtraContent } from '../../components/class-overview/ClassIntro';
@@ -11,17 +10,10 @@ import SkillTab from '../../components/class-overview/SkillTab';
 
 function ClassOverview({post, slug}) {
     const [data, setData] = useState(post);
-    const [renFlag, setRenFlag] = useState(false);
 
     useEffect(() => {
       setData(post);
     },[slug]);
-
-    useEffect(() => {
-      if(data.class === "Ren"){
-        setRenFlag(true);
-      }
-    }, data.class);
 
     return (
         <div>
@@ -31,7 +23,6 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
-              {renFlag && <Alert variant="danger">Pre-Release Ren Class Overview, info may be incorrect and is subject to change. Information is unconfirmed and based on KMS ver. <a href="https://orangemushroom.net/2025/06/20/kms-ver-1-2-404-maplestory-assemble-the-red-eyed-wanderer-len/" target="_blank" rel="noreferrer noopener">1.2.404</a> & <a href="https://orangemushroom.net/2025/07/17/kms-ver-1-2-405-maplestory-assemble-ascent-skills/#len" target="_blank" rel="noreferrer noopener">1.2.405</a></Alert>}
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
