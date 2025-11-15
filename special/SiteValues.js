@@ -616,7 +616,7 @@ export const commonFifth = {
     },
     dMysticDoor: {
         "name": "Decent Mystic Door",
-        "shortDesc": "HP Cost: 5% of Max HP, Portal Duration: 80 sec\\nCooldown: 130 sec\\n[Passive Effect - All Stats: +6]",
+        "shortDesc": "Portal Duration: 80 sec\\nCooldown: 130 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/explorers/bishop/mystic-door.png"],
         "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHZlbDllNWFhNDFwdXRraDh1YWxrbGQwZjBpNW4ybG1tMzVoNGVpdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XZ5F67PgXtzcOKYbhv/giphy.gif"],
         "type": "Summon",
@@ -628,7 +628,7 @@ export const commonFifth = {
     },
     dSharpEyes: {
         "name": "Decent Sharp Eyes",
-        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, Critical Rate: +10%, Critical Damage: +8%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
+        "shortDesc": "Duration: 270 sec, Critical Rate: +10%, Critical Damage: +8%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/common/sharp-eyes.png"],
         "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXM2M3cxY3B1ZXRjdmU4cmN6MzhlOGJxMHo4c3gydmpjbm5lOGNwaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WFncgZx8n974qsSZ2X/giphy.gif"],
         "type": "Buff",
@@ -639,7 +639,7 @@ export const commonFifth = {
     },
     dHyperBody: {
         "name": "Decent Hyper Body",
-        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, Max HP: +40%, Max MP: +40%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
+        "shortDesc": "Duration: 270 sec, Max HP: +40%, Max MP: +40%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/explorers/dark-knight/hyper-body.png"],
         "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXZzOWgwdWszdXNuZWdzNzRyczdqZWFneHF0aHAwMzhiZ213d212ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oKSKRlNwol8ikT3akU/giphy.gif"],
         "type": "Buff",
@@ -650,7 +650,7 @@ export const commonFifth = {
     },
     dCombatOrders: {
         "name": "Decent Combat Orders",
-        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, All Skills: +1\\nCooldown: 180 sec\\n[Passive Effect - Abnormal Status Resistance: +6]",
+        "shortDesc": "Duration: 270 sec, All Skills: +1\\nCooldown: 180 sec\\n[Passive Effect - Abnormal Status Resistance: +6]",
         "icons": ["/class-icons/explorers/paladin/combat-orders.png"],
         "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTZybWNoejU5Zmp3c2piNXBuYmxndjZ4ZWl6bDh2NXBiMTgzZWsxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xIYJZE21cbMifrMxD5/giphy.gif"],
         "type": "Buff",
@@ -715,7 +715,7 @@ export const commonFifth = {
     },
     dHolySymbol: {
         "name": "Decent Holy Symbol",
-        "shortDesc": "HP Cost: 3400, Duration: 270 sec, EXP: +35%, Drop Rate: +24%\\nCooldown: 180 sec",
+        "shortDesc": "Duration: 270 sec, EXP: +35%, Drop Rate: +24%\\nCooldown: 180 sec",
         "icons": ["/class-icons/explorers/bishop/holy-symbol.png"],
         "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExemNqMXpneGU4NHl5dzJua3k2YWcxdGpya2h5bHFjZjh0bGxwZWF4biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sn4y8zRnXsPNz2Xwhy/giphy.gif"],
         "type": "Buff",
@@ -726,7 +726,7 @@ export const commonFifth = {
     },
     dHolyFountain: {
         "name": "Decent Holy Fountain",
-        "shortDesc": "HP Cost: 5% of max HP, Duration: 60 sec, restores 35% HP when used, able to use 20 times total.\\nIf it disappears before duration is up, Vestige of Divinity is created in the remaining time.\\nCooldown: 60 sec\\n[Passive Effect - All Stats +6]",
+        "shortDesc": "Duration: 60 sec, restores 35% HP when used, able to use 20 times total.\\nIf it disappears before duration is up, Vestige of Divinity is created in the remaining time.\\nCooldown: 60 sec\\n[Passive Effect - All Stats +6]",
         "icons": ["/class-icons/explorers/bishop/holy-fountain.png"],
         "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHg1aWJmcm9uYnV3Mnp3MDRhbzM2YW1jaHlqbTBibXJqNTFpOGVhciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DaRTnIhgQdNDpTLUbu/giphy.gif"],
         "type": "Summon Heal",
@@ -962,6 +962,10 @@ export const linkSkills = {
     },
     shade: {
         "id":80000169,
+        "offline": true,
+        "name": "Close Call",
+        "maxLevel": 3,
+        "shortDesc": "Fatal Attack Survival Chance: 15%",
         "icons": ["/class-icons/link-skills/close-call.png"],
         "type": "Passive",
         "desc": "",
@@ -971,11 +975,15 @@ export const linkSkills = {
     },
     resistance: {
         "id": 80000329,
+        "offline": true,
+        "name": "Spirit of Freedom",
+        "maxLevel": 12,
+        "shortDesc": "Grants 12 seconds of invincibility after being revived. Removed upon moving to another map.",
         "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
         "type": "Passive",
         "desc": "",
         "details": [
-            "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level",
+            "Can be stacked up to 4 times, once for each unique Resistance character (excluding Demons and Xenon) to reach Master Level",
             "Useful for BOSSING because of increased UTILITY"
         ]
     },
@@ -999,6 +1007,10 @@ export const linkSkills = {
     },
     xenon: {
         "id": 80000047,
+        "offline": true,
+        "name": "Hybrid Logic",
+        "maxLevel": 3,
+        "shortDesc": "All Stats: +15%",
         "icons": ["/class-icons/link-skills/hybrid-logic.png"],
         "type": "Passive",
         "desc": "",
@@ -1021,12 +1033,16 @@ export const linkSkills = {
     },
     cadena: {
         "id": 80000261,
+        "offline": true,
+        "name": "Unfair Advantage",
+        "maxLevel": 3,
+        "shortDesc": "Attacks against weaker opponents deal +9% damage. Attacks against monsters afflicted by Abnormal Statuses deal +9% damage.",
         "icons": ["/class-icons/link-skills/unfair-advantage.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Weaker opponents refer to enemies lower level than you",
-            "Useful for TRAINING because of INCREASED DAMAGE"
+            "Useful for INCREASING DAMAGE"
         ]
     },
     kaiser: {
@@ -1040,6 +1056,10 @@ export const linkSkills = {
     },
     kain: {
         "id": 60030241,
+        "offline": true,
+        "name": "Time to Prepare",
+        "maxLevel": 3,
+        "shortDesc": "By defeating 8 enemies or attacking a boss 5 times, you gain 1 stack of Time to Prepare. At 5 stacks of Time to Prepare, your damage increases by 25% for 20 sec.\\nCooldown: 40 sec",
         "icons": ["/class-icons/link-skills/time-to-prepare.png"],
         "type": "Passive",
         "desc": "",
@@ -1049,6 +1069,10 @@ export const linkSkills = {
     },
     hayato: {
         "id": 80000003,
+        "offline": true,
+        "name": "Keen Edge",
+        "maxLevel": 3,
+        "shortDesc": "All Stats: 35, Attack Power Increase: 20, Magic Attack Power Increase: 20",
         "icons": ["/class-icons/link-skills/keen-edge.png"],
         "type": "Passive",
         "desc": "",
@@ -1058,6 +1082,10 @@ export const linkSkills = {
     },
     kanna: {
         "id": 80000004,
+        "offline": true,
+        "name": "Elementalism",
+        "maxLevel": 3,
+        "shortDesc": "Damage: +15%",
         "icons": ["/class-icons/link-skills/elementalism.png"],
         "type": "Passive",
         "desc": "",
@@ -1076,6 +1104,10 @@ export const linkSkills = {
     },
     illium: {
         "id": 80000268,
+        "offline": true,
+        "name": "Tide of Battle",
+        "maxLevel": 3,
+        "shortDesc": "Activated when moving a certain distance. Max number of stacks: 4 times, Duration: 15 sec, Damage per stack: +4%",
         "icons": ["/class-icons/link-skills/tide-of-battle.png"],
         "type": "Passive",
         "desc": "As you move around, you gain a stacking %Damage buff",
@@ -1085,6 +1117,10 @@ export const linkSkills = {
     },
     adele: {
         "id": 80002857,
+        "offline": true,
+        "name": "Noble Fire",
+        "maxLevel": 3,
+        "shortDesc": "Boss Damage: +6%\\nIncreases damage by 3% up to 12% for each party member, including yourself, on the same map.\\nIf you are not in a party, you will be considered to be in your own party.",
         "icons": ["/class-icons/link-skills/noble-fire.png"],
         "type": "Passive",
         "desc": "",
@@ -1094,6 +1130,10 @@ export const linkSkills = {
     },
     khali: {
         "id": 80003224,
+        "offline": true,
+        "name": "Innate Gift",
+        "maxLevel": 3,
+        "shortDesc": "Damage: +7%\\nUpon attacking, Recovery Chance: 100%, Recovery 3% of Max HP/MP per sec, Duration: 5 sec\\nCooldown: 30 sec",
         "icons": ["/class-icons/link-skills/innate-gift.png"],
         "type": "Passive",
         "desc": "",
@@ -1115,9 +1155,9 @@ export const linkSkills = {
         "id": 80010006,
         "offline": true,
         "name": "Qi Cultivation",
-        "shortDesc": "Boss Damage: +4%. If the target is a boss, up to 2% increase for every successful attack. Max Stacks: 6, stack activates once every 2 sec.\\nDuration: 5 sec",
+        "shortDesc": "Boss Damage: +6%. If the target is a boss, up to 3% increase for every successful attack. Max Stacks: 6, stack activates once every 2 sec.\\nDuration: 5 sec",
+        "maxLevel": 3,
         "icons": ["/class-icons/link-skills/qi-cultivation.png"],
-        "maxLevel": 2,
         "type": "Passive",
         "desc": "",
         "details": [
@@ -1128,8 +1168,9 @@ export const linkSkills = {
         "id": 80000609,
         "offline": true,
         "name": "Grounded Body",
+        "maxLevel": 3,
         "shortDesc": "Reduces damage taken by 4%, including attacks at a certain ratio of maximum HP",
-        "icons": ["/class-icons/link-skills/grounded.png"],
+        "icons": ["/class-icons/link-skills/grounded-body.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -1138,15 +1179,23 @@ export const linkSkills = {
     },
     hoyoung: {
         "id": 80000609,
+        "offline": true,
+        "name": "Bravado",
+        "maxLevel": 3,
+        "shortDesc": "Enemy DEF Ignored: +15%, Damage +19% against enemies with 100% HP",
         "icons": ["/class-icons/link-skills/bravado.png"],
         "type": "Passive",
         "desc": "",
         "details": [
-            "Useful for TRAINING because of INCREASED DAMAGE"
+            "Useful for INCREASING DAMAGE"
         ]
     },
     lara: {
         "id": 160010001,
+        "offline": true,
+        "name": "Nature's Friend",
+        "maxLevel": 3,
+        "shortDesc": "Damage: +7%\\nActivate nature's help upon defeating 20 normal monsters. Increases Damage Against Normal Monsters by 15% for 30 sec. when nature's help is active.\\nCooldown: 30 sec.",
         "icons": ["/class-icons/link-skills/natures-friend.png"],
         "type": "Passive",
         "desc": "",
@@ -1156,6 +1205,10 @@ export const linkSkills = {
     },
     kinesis: {
         "id": 80000188,
+        "offline": true,
+        "name": "Judgment",
+        "maxLevel": 3,
+        "shortDesc": "Critical Damage: +6%",
         "icons": ["/class-icons/link-skills/judgment.png"],
         "type": "Passive",
         "desc": "",
@@ -1165,6 +1218,10 @@ export const linkSkills = {
     },
     zero: {
         "id": 80000110,
+        "offline": true,
+        "name": "Rhinne's Blessing",
+        "maxLevel": 6,
+        "shortDesc": "Incoming damage reduced: 18%, defense ignored: 12%",
         "icons": ["/class-icons/link-skills/rhinnes-blessing.png"],
         "type": "Passive",
         "desc": "",

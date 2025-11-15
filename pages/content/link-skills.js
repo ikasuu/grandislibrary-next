@@ -16,13 +16,14 @@ function LinkSkills() {
         </Head>
         <ContentTitle>Link Skills</ContentTitle>
         <StickyAd/>
-        <p><img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager UI"/></p>
+        <div>
+            <img className="repository-image" src="/images/info/link-skill-ui.png" alt="Link Manager UI"/><img className="repository-image" src="/images/info/link-manager.png" alt="Link Manager Skill"/>
+        </div>
+        <p>To manage a character's Link Skills, open the Skills Tab UI and navigate to the Beginner skills tab and locate <img src="/class-icons/link-skills/link-manager.png" alt="Skill Link Manager"/> Link Manager</p>
         <p>Link Skills are generally a passive skill that is unique to each class and can be shared with all your other characters on the same World. There are also special cases where a class has an active Link Skill or the Link Skill has a different effect when shared</p>
         <p>Upon reaching Lv. 70, a Link Skill can be shared with all other characters. Link Skills grow stronger at Lv. 120 (Skill Lv. 2) and in GMS, Lv. 210 (Skill Lv. 3). For Explorers, Cygnus Knights, and Resistance classes, their Link Skills can stack to increase the strength of the Link Skill up to Lv. 9 for each unique class of the same Class Faction</p>
         <p>Each character can have up to 3 Presets of 12 Link Skills (13 if including themselves) at one time. There is no limit as to how many characters can share a Link Skill - they can be linked to as many characters as needed</p>
         <p>For advice on choosing Link Skills, choose skills that provide stats you need. For example, if I am trying to reach 100% Crit Chance, I try to get as many %Crit Chance Link Skills to help me reach that goal. There are also other essential stats that are useful for all classes such as %Damage, %Boss Damage or %Ignore DEF. Other important Link Skills include ones that increase the amount of EXP gained. For more curated advice, check class discords</p>
-        <p><img className="repository-image" src="/images/info/link-manager.png" alt="Link Manager Skill"/></p>
-        <p>To manage a character's Link Skills, open the Skills Tab UI, and click Beginner skills. Under Beginner skills is the Link Manager</p>
         <h3 id="top">Quick Jumps</h3>
         <ul>
           <li><Link smooth href="#explorers" scroll>Explorers</Link></li>
@@ -237,7 +238,7 @@ function LinkSkills() {
             <img src="/class-icons/link-skills/tree-of-stars.png" alt="Skill Tree of Stars"/> <strong>[Sia Astelle] </strong>- %Buff Duration and %Crit Damage
           </li>
           <li>
-            <img src="/class-icons/link-skills/grounded.png" alt="Skill Rigid Body"/> <strong>[Ren] </strong>- %Damage Reduction (against %Max HP attacks)
+            <img src="/class-icons/link-skills/grounded-body.png" alt="Skill Rigid Body"/> <strong>[Ren] </strong>- %Damage Reduction (against %Max HP attacks)
           </li>
         </ul>
         <h3>For Training:</h3>
