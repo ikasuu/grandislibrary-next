@@ -381,7 +381,7 @@ function AllianceRising() {
             <h3>New Content</h3>
             <ul>
                 <li>
-                    New quest, <a href="https://maplestorywiki.net/w/Quests/256/(Alliance)_The_Birth_of_an_Alliance" target="_blank" rel="noreferrer noopener">Birth of an Alliance</a>
+                    New quest, <a href="https://maplestorywiki.net/w/Quest/(Alliance)_The_Birth_of_an_Alliance" target="_blank" rel="noreferrer noopener">Birth of an Alliance</a>
                     <ul>
                         <li>
                             <img src="/class-icons/common/will-of-the-alliance.png" alt="Skill Will of the Alliance"/> <a href="https://maplestorywiki.net/w/Will_of_the_Alliance" target="_blank" rel="noreferrer noopener">Will of Alliance</a> passive skill introduced

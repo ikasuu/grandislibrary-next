@@ -112,7 +112,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Easy/Normal</strong>: Daily</li>
             <li><strong>Can clear Hard</strong>: Weekly</li>
           </ul>
-          <p>You must complete the questline from the Lightbulb Quest labelled with "<a href="https://maplestorywiki.net/w/Quests/259" target="_blank" rel="noreferrer noopener">[Heliseum]</a>" at Lv. 100</p>
+          <p>You must complete the questline from the Lightbulb Quest labelled with "<a href="https://maplestorywiki.net/w/Heliseum_Quests" target="_blank" rel="noreferrer noopener">[Heliseum]</a>" at Lv. 100</p>
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong>
@@ -168,7 +168,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Omega Sector Theme Dungeon to unlock OMNI-CLN. To start the Theme Dungeon, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/38/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
+          <p>You must complete the Omega Sector Theme Dungeon to unlock OMNI-CLN. To start the Theme Dungeon, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quest/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
           <ul>
             <li>
                 <strong>Main Rewards: </strong><img src="/images/items/elixir.png"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/omni-cln-component.png" alt="Etc OMNI-CLN Component"/> <a href="https://maplestorywiki.net/w/OMNI-CLN_Component" target="_blank" rel="noreferrer noopener">[OMNI-CLN Component]</a>, <img src="/images/items/omni-cln-vacuum.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[OMNI-CLN Vacuum]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
@@ -230,7 +230,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Lion King's Castle Main Quest starting from the Lightbulb Quest called <a href="https://maplestorywiki.net/w/Quests/260/(Lion_King%27s_Castle)_Among_the_Tundra" target="_blank" rel="noreferrer noopener">"[Lion King's Castle] Among the Tundra"</a> at Lv. 120</p>
+          <p>You must complete the Lion King's Castle Main Quest starting from the Lightbulb Quest called <a href="https://maplestorywiki.net/w/Quest/(Lion_King%27s_Castle)_Among_the_Tundra" target="_blank" rel="noreferrer noopener">"[Lion King's Castle] Among the Tundra"</a> at Lv. 120</p>
           <ul>
             <li>
                 <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
@@ -270,7 +270,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete a questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/264/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 140 to unlock access to Arkarium</p>
+          <p>You must complete a questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quest/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 140 to unlock access to Arkarium</p>
           <ul>
             <li>
                 <strong>Easy mode and Above Rewards:</strong> <img src=" /images/equipment/mechanator-pendant.png" alt="Eqp Mechanator Pendant"/> <a href="https://maplestorywiki.net/w/Mechanator_Pendant" target="_blank" rel="noreferrer noopener">[Mechanator Pendant]</a>
@@ -294,7 +294,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Chaos</strong>: Weekly</li>
           </ul>
           <p><img src="/images/npc/temple-keeper.png" alt="NPC Temple Keeper"/></p>
-          <p>You must complete the main Temple of Time questline to unlock access to Pink Bean. You can start the questline by accepting the quest “<a href="https://maplestorywiki.net/w/Quests/263/(Temple_of_Time)_Path_to_the_Past" target="_blank" rel="noreferrer noopener">Path to the Past</a>" from the Temple Keeper</p>
+          <p>You must complete the main Temple of Time questline to unlock access to Pink Bean. You can start the questline by accepting the quest “<a href="https://maplestorywiki.net/w/Quest/(Temple_of_Time)_Path_to_the_Past" target="_blank" rel="noreferrer noopener">Path to the Past</a>" from the Temple Keeper</p>
           <ul>
             <li>
                 <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/black-bean-mark.png" alt="Eqp Black Bean Mark"/> <a href="https://maplestorywiki.net/w/Black_Bean_Mark" target="_blank" rel="noreferrer noopener">[Black Bean Mark]</a>
@@ -320,7 +320,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
           <p><img src="/images/npc/chief-alex.png" alt="NPC Chief Alex"/></p>
-          <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestorywiki.net/w/Quests/266/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestorywiki.net/w/Henesys_Ruins_(Map)" target="_blank" rel="noreferrer noopener">Henesys Ruins</a></p>
+          <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestorywiki.net/w/Quest/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestorywiki.net/w/Henesys_Ruins_(Map)" target="_blank" rel="noreferrer noopener">Henesys Ruins</a></p>
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong> <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
@@ -706,7 +706,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
-          <p>You must complete the <a href="https://maplestorywiki.net/w/Quests/285/(Karote)_Kalos_the_Guardian" target="_blank" rel="noopener noreferrer">[Karote] Kalos the Guardian</a> questline and defeat Story Mode Kalos to unlock access to Kalos</p>
+          <p>You must complete the <a href="https://maplestorywiki.net/w/Quest/(Karote)_Kalos_the_Guardian" target="_blank" rel="noopener noreferrer">[Karote] Kalos the Guardian</a> questline and defeat Story Mode Kalos to unlock access to Kalos</p>
           <ul>
             <li>
               <strong>Main Rewards:</strong> <img src="/images/items/kalos-residual-determination.png" alt="Use Kalos's Residual Determination"/> <a href="https://maplestorywiki.net/w/Kalos%27s_Residual_Determination" target="_blank" rel="noopener">[Kalos's Residual Determination]</a>
