@@ -5,8 +5,7 @@ import HeaderImage from '../../components/HeaderImage';
 import { ClassGroupContainer } from '../../components/ClassSwipers';
 import * as Page from '../../components/Page';
 import BannerAdOne, { BannerAdTwo, BannerAdThree, StickyAd } from '../../components/Ads';
-import { Alert, Container } from 'react-bootstrap';
-import Link from 'next/link';
+import { Container } from 'react-bootstrap';
 
 /*
     Classes page for navigating into each Class Overview
@@ -22,9 +21,6 @@ function Classes() {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
-                <Container>
-                    <Alert variant="dark">🐰 Ren Overview is now updated! Check it out <Link href="/anima/ren" target="_blank" rel="noreferrer noopener">here</Link></Alert>
-                </Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
                 <ClassGroupContainer classes={classes.explorers} classGroup="explorers"/>

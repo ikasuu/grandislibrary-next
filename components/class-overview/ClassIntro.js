@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import DOMPurify from 'isomorphic-dompurify';
 import parse from 'html-react-parser';
 import styled from 'styled-components';

@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, Container, Tab, Tabs} from 'react-bootstrap';
 import styled from 'styled-components';
 import LazyLoad, { forceCheck } from 'react-lazyload';
 import storage from 'local-storage-fallback';
+import { Accordion, AccordionDetails, AccordionSummary } from '@material-ui/core';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import { SkillContainer, VSkillContainer, HexaSkillContainer } from './SkillContainer';
 import { commonFifth, commonSixth } from '../../special/SiteValues';
@@ -130,16 +132,14 @@ function SixthJobTab({sixth, settings}){
   return(
     <div>
       <LazyLoad height={2000} offset={100}>
+        <HexaJobInfo/>
         <StyledHeaderThree>Mastery Nodes</StyledHeaderThree>
-        <MasterySkillNote/>
         <HexaSkillContainer skillData={sixth.masteryCore} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
-        <StyledHeaderThree>Origin Skills</StyledHeaderThree>
-        <OriginSkillNote/>
-        <HexaSkillContainer skillData={sixth.originSkill} settings={settings}/>
+        <StyledHeaderThree>Skill Nodes</StyledHeaderThree>
+        <HexaSkillContainer skillData={sixth.skillCore} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
         <StyledHeaderThree>Boost Nodes</StyledHeaderThree>
-        <HexaBoostSkillNote/>
         <HexaSkillContainer skillData={sixth.boostCore} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
         <StyledHeaderThree>Common Skills</StyledHeaderThree>
@@ -166,44 +166,90 @@ function BoostNodeSkillNote(){
 }
 
 //Components for notes that are displayed in the 6th Job skill component
-function MasterySkillNote(){
+const HexaInfoAccordion = styled(Accordion)`
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  max-width: 40rem;
+`;
+
+const HexaInfoContainer = styled(Container)`
+  padding: 1rem;
+`;
+
+function HexaJobInfo(){
   return(
-    <SkillCard>
-      <Card.Body>
-        <Card.Text>
-            Mastery Nodes upgrade existing 4th job and lower skills. Mastery Nodes can be activated once all given skills are enhanced with V Matrix at least Lv. 40 (before Matrix Points)
-        </Card.Text>
-      </Card.Body>
-    </SkillCard>
+    <HexaInfoAccordion>
+      <AccordionSummary expandIcon={<ExpandMoreIcon/>}><strong>6th Job Info</strong></AccordionSummary>
+      <AccordionDetails>
+        <Container>
+          <Tabs onSelect={() => setTimeout(forceCheck, 0)}>
+            <Tab eventKey="mastery" title="Mastery Nodes">
+              <MasterySkillNote/>
+            </Tab>
+            <Tab eventKey="skill" title="Skill Nodes">
+              <HexaBoostSkillNote/>
+            </Tab>
+            <Tab eventKey="origin" title="Origin Skill">
+              <OriginSkillNote/>
+            </Tab>
+            <Tab eventKey="ascent" title="Ascent Skill">
+              <AscentSkillNote/>
+            </Tab>
+          </Tabs>
+        </Container>
+      </AccordionDetails>
+    </HexaInfoAccordion>
   );
 }
 
 function OriginSkillNote(){
   return(
-    <SkillCard>
-      <Card.Body>
-        <Card.Text>
-            <p>Origin Skills bind all enemies hit for 10 secs (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills</p>
-            <p>While casting, Origin Skills grant absolute invincibility that can defend against instant deaths like Kaling P3, Will P3, Guardian Angel Slime, Kalos P2-4</p>
-            <p>Origin Skills receive bonus stats when they reach Lv. 10/20/30:</p>
-            <p><strong>[Lv. 10]</strong> 20% Ignore DEF</p>
-            <p><strong>[Lv. 20]</strong> 20% Boss Damage</p>
-            <p><strong>[Lv. 30]</strong> 30% Ignore DEF & Boss Damage</p>
-        </Card.Text>
-      </Card.Body>
-    </SkillCard>
+    <HexaInfoContainer>
+      <p>Origin Skills bind all enemies hit for 10 secs (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills</p>
+      <p>While casting, Origin Skills grant absolute invincibility that can defend against instant deaths like Kaling P3, Will P3, Guardian Angel Slime, Kalos P2-4</p>
+      <p>Origin Skills receive bonus stats when they reach Lv. 10/20/30 (additive):</p>
+      <p><strong>[Lv. 10]</strong> 20% Ignore DEF</p>
+      <p><strong>[Lv. 20]</strong> 20% Boss Damage</p>
+      <p><strong>[Lv. 30]</strong> 30% Ignore DEF & Boss Damage</p>
+    </HexaInfoContainer>
+  );
+}
+
+function AscentSkillNote(){
+  return(
+    <HexaInfoContainer>
+      <p>Ascent Skills are powerful attacks that behave differently in and outside of boss battles. During boss battles, they can be used up to 3 times without cooldowns and only activates when a boss monster is targettable. Otherwise, they have a 240s cooldown and can always be activated</p>
+      <p>The attack is unaffected by damage reflect and damage ignore</p>
+      <p>The damage of Ascent Skills are unaffected by stat changes from the following sources:</p>
+      <ul>
+        <li>Equipment: Hat & Ring</li>
+        <li>Conditional passive skill effects</li>
+        <li>Effects from active skills</li>
+        <li>Enemy attributes</li>
+        <li>Enemy attack patterns and debuffs</li>
+        <li>Usable and Cash items with less than 30 min. duration</li>
+      </ul>
+      <p>Ascent Skills receive bonus stats when they reach Lv. 10/20/30 (additive):</p>
+      <p><strong>[Lv. 10]</strong> 10% Ignore DEF & Boss Damage</p>
+      <p><strong>[Lv. 20]</strong> 10% Ignore DEF & Boss Damage</p>
+      <p><strong>[Lv. 30]</strong> 20% Ignore DEF</p>
+    </HexaInfoContainer>
+  );
+}
+
+function MasterySkillNote(){
+  return(
+    <HexaInfoContainer>
+      <p>Mastery Nodes upgrade existing 4th job and lower skills. Mastery Nodes can be activated once all given skills are enhanced with V Matrix at least Lv. 40 (before Matrix Points)</p>
+    </HexaInfoContainer>
   );
 }
 
 function HexaBoostSkillNote(){
   return(
-    <SkillCard>
-      <Card.Body>
-        <Card.Text>
-            Boost Nodes provide a %Final Damage increase to 5th Job Skills. Boost Nodes can be activated once the given skill is enhanced with V Matrix at least Lv. 25 (before Matrix Points)
-        </Card.Text>
-      </Card.Body>
-    </SkillCard>
+    <HexaInfoContainer>
+      <p>Boost Nodes provide a %Final Damage increase to 5th Job Skills. Boost Nodes can be activated once the given skill is enhanced with V Matrix at least Lv. 25 (before Matrix Points)</p>
+    </HexaInfoContainer>
   );
 }
 
