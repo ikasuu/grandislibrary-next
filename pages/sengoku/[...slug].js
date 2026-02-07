@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Alert } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
@@ -24,6 +24,7 @@ function ClassOverview({post, slug}) {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
+              <Alert variant="info">Sengoku Class Overviews have not yet been updated with remaster changes. Please check back later for updates</Alert>
               <ClassIntro data={data}/>
               {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
               {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
