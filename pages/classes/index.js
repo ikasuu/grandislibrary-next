@@ -5,7 +5,7 @@ import HeaderImage from '../../components/HeaderImage';
 import { ClassGroupContainer } from '../../components/ClassSwipers';
 import * as Page from '../../components/Page';
 import BannerAdOne, { BannerAdTwo, BannerAdThree, StickyAd } from '../../components/Ads';
-import { Container } from 'react-bootstrap';
+import { Container, Alert } from 'react-bootstrap';
 
 /*
     Classes page for navigating into each Class Overview
@@ -21,6 +21,7 @@ function Classes() {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
+                <Container><Alert variant="info">Sengoku Class Overviews are now updated!</Alert></Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
                 <ClassGroupContainer classes={classes.explorers} classGroup="explorers"/>

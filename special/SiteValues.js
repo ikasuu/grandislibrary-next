@@ -4,20 +4,29 @@
 */
 
 //Latest version of GMS
-export const version = 255; 
-export const versionName = "Ride or Die Update"
+export const version = 266; 
+export const versionName = "Sengoku Warrior Reawakening Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
 
 //Image paths for our page headers
 export const HeaderImageUrl = {
-    library: "/headers/monad-1.png",
-    grandis: "/headers/monad-2.png",
-    fox: "/headers/monad-3.png",
-    verdel: "/headers/monad-4.png",
-    ristonia: "/headers/monad-5.png"
+    library: "/headers/grandis-library.png",
+    grandis: "/headers/borderless.png",
+    fox: "/headers/fox-valley.png",
+    verdel: "/headers/verdel.png",
+    ristonia: "/headers/ristonia.png"
 };
+
+//Winter headers
+// export const HeaderImageUrl = {
+//     library: "/headers/monad-1.png",
+//     grandis: "/headers/monad-2.png",
+//     fox: "/headers/monad-3.png",
+//     verdel: "/headers/monad-4.png",
+//     ristonia: "/headers/monad-5.png"
+// };
 
 // Image paths for the home buttons
 export const HeaderBlockImageUrl = {
@@ -66,8 +75,8 @@ export const weapons = {
     handCannon: [`https://maplestory.io/api/GMS/${version}/item/1532010/icon`, "Hand Cannon"],
     whipBlade: [`https://maplestory.io/api/GMS/${version}/item/1242010/icon`, "Whip Blade"],
     desperado: [`https://maplestory.io/api/GMS/${version}/item/1232007/icon`, "Desperado"],
-    katana: [`https://maplestory.io/api/GMS/${version}/item/1542040/icon`, "Katana"],
-    fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552015/icon`, "Fan"],
+    katana: [`http://localhost:3000/grandislibrary/images/equipment/tempered-steel-sword.png`, "Katana"],
+    fanKanna: [`http://localhost:3000/grandislibrary/images/equipment/metallic-fan.png`, "Fan"],
     memorialStaff: [`https://maplestory.io/api/GMS/${version}/item/1252000/icon`, "Memorial Staff"],
     psyLimiter: [`https://maplestory.io/api/GMS/${version}/item/1262011/icon`, "Psy-limiter"],
     armCannon: [`https://maplestory.io/api/GMS/${version}/item/1582025/icon`, "Arm Cannon"],
@@ -123,7 +132,7 @@ export const secondaryWeapons = {
     dragonEssence: [`https://maplestory.io/api/GMS/${version}/item/1352503/icon`, "Dragon Essence"],
     warpForge: [`https://maplestory.io/api/GMS/${version}/item/1353303/icon`, "Warp Forge"],
     soulRing: [`https://maplestory.io/api/GMS/${version}/item/1352604/icon`, "Soul Ring"],
-    fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552009/icon`, "Haku Fan"],
+    talisman: [`http://localhost:3000/grandislibrary/images/equipment/thousand-soul-talisman.png`, "Talisman"],
     kodachi: [`https://maplestory.io/api/GMS/${version}/item/1352803/icon`, "Kodachi"],
     leaf: [`https://maplestory.io/api/GMS/${version}/item/1352812/icon`, "Leaf"],
     chessPiece: [`https://maplestory.io/api/GMS/${version}/item/1353203/icon`, "Chess Piece"],
@@ -424,28 +433,19 @@ export const commonFifth = {
             "You are briefly invincible after reviving"
         ]
     },
-    sengokuForce:{
-        "name": "Sengoku Force, Assemble!",
-        "shortDesc": "MP Cost: 1000, Consumes HP for jobs that do not utilize MP. Summons two Sengoku warriors. Summon Duration: 45 sec, Cooldown: 120 sec.\\n[Uesugi Kenshin] Damage: 550%, Max Enemies Hit: 8, Number of Attacks: 4\\n[Tsuchimikado Haruaki] Damage: 455%, Max Enemies Hit: 8, Number of Attacks: 5\\n[Ayame] Damage: 610%, Max Enemies Hit: 8, Number of Attacks: 4, Critical Damage +10%\\n[Takeda Shingen] Damage: 305%, Max Enemies Hit: 8, Number of Hits: 8, Attack Power +20, Magic ATT +20",
-        "icons": ["/class-icons/5th-job/sengoku-force-assemble.png"],
-        "animations": ["https://media2.giphy.com/media/hdOUEr0bUns5nRa0pR/giphy.gif"],
-        "type": "Summon / Buff",
-        "desc": "Grants a buff and summons two random heroes that attack nearby enemies",
-        "details": [
-            "[Buff]: Increases %Crit Damage and grants flat Attack and Magic Attack",
-            "[Uesugi Kenshin]: Slashes her blade at nearby enemies",
-            "[Tsuchimikado Haruaki]: Swings his fan creating a wave of magic",
-            "[Ayame]: Shoots her rifle forward",
-            "[Takeda Shingen]: Flags strike down on nearby enemies"
-        ]
+    twilightBloom:{
+        "name": "Twilight Bloom",
+        "shortDesc": "MP Cost: 1000\\nDuration: 40 sec., Attack Power & Magic ATT: +50, Critical Damage: +15%, Damage Reduction (including attacks that deal a fixed percentage of damage): 20%\\nCooldown: 120 sec.",
+        "icons": ["/class-icons/5th-job/twilight-bloom.png"],
+        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2d0ZTQ0b3R4dmlwbml0eDRwNHRibnV5MG5yN3J4c2V5czIyd3V6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U4mA0Vlk2bw6msG5up/giphy.gif"],
+        "type": "Buff"
     },
     princessSakunoBlessing:{
         "name": "Princess Sakuno's Blessing",
-        "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 30%\\nPeriodical Bonus Final Damage Increase: 4%\\nPrincess Sakuno's Blessing will increase final damage by up to 50%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nCooldown: 120 sec",
+        "shortDesc": "MP Cost: 1000\\nDuration: 20 sec., Final Damage: +25%, Blockable Debilitating Status Conditions: 1\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/princess-sakunos-blessing.png"],
-        "animations": ["https://media1.giphy.com/media/5trU6eJgfy60uoDzH2/giphy.gif"],
-        "type": "Buff",
-        "desc": "Grants a stacking %Final Damage buff (additive) and blocks 1 Critical Abnormal Status"
+        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2RwcHpoa3dyYm01ajBmdGhudGlydTV6MWZkaGZxcWg0MDcxancxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VoP4AHlOdWURZjSsiG/giphy.gif"],
+        "type": "Buff"
     },
     conversionOverdrive:{
         "name": "Conversion Overdrive",
