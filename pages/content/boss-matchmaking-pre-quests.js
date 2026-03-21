@@ -168,7 +168,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Omega Sector Theme Dungeon to unlock OMNI-CLN. To start the Theme Dungeon, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quest/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
+          <p>You must complete the Omega Sector Theme Dungeon to unlock OMNI-CLN. To start the Theme Dungeon, accept the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
           <ul>
             <li>
                 <strong>Main Rewards: </strong><img src="/images/items/elixir.png"/> [Elixir], <img src="/images/items/rebirth-flame-110.png" alt="Use Rebirth Flame Lv. 110"/> [Lv. 110 Rebirth Flame], <img src="/images/items/omni-cln-component.png" alt="Etc OMNI-CLN Component"/> <a href="https://maplestorywiki.net/w/OMNI-CLN_Component" target="_blank" rel="noreferrer noopener">[OMNI-CLN Component]</a>, <img src="/images/items/omni-cln-vacuum.png"/> <a href="https://maplestorywiki.net/w/Home#Trophy" target="_blank" rel="noreferrer noopener">[OMNI-CLN Vacuum]</a>, <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube], <img src="/images/items/intense-power-crystal-daily.png" alt="Etc Intense Power Crystal Daily"/> [Intense Power Crystal]
@@ -180,7 +180,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Easy/Normal</strong>: Daily</li>
             <li><strong>Can clear Hard</strong>: Weekly</li>
           </ul>
-          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quests/36/(Papulatus)_The_Light_Of_Chaos" target="_blank" rel="noreferrer noopener">[Papulatus] The Light of Chaos</a>” at Lv. 115</p>
+          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/(Papulatus)_The_Light_Of_Chaos" target="_blank" rel="noreferrer noopener">[Papulatus] The Light of Chaos</a>” at Lv. 115</p>
           <p>To summon Papulatus, a <img src="/images/items/piece-of-cracked-dimension.png" alt="Etc Piece of Cracked Dimension"/> <a href="https://maplestorywiki.net/w/Piece_of_Cracked_Dimension" target="_blank" rel="noreferrer noopener">[Piece of Cracked Dimension]</a> is given upon entry that must be dropped on the glowing outline to summon the boss</p>
           <ul>
             <li>
@@ -205,7 +205,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Normal</strong>: Daily</li>
             <li><strong>Can clear Chaos</strong>: Weekly</li>
           </ul>
-          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quest/(Root_Abyss)_An_Urgent_Summons" target="_blank" rel="noreferrer noopener">[Root Abyss] An Urgent Summons</a>” at Lv. 125</p>
+          <p>You must complete the questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/(Root_Abyss)_An_Urgent_Summons" target="_blank" rel="noreferrer noopener">[Root Abyss] An Urgent Summons</a>” at Lv. 125</p>
           <ul>
             <li><strong>Normal mode and Above Rewards:</strong></li>
             <li>
@@ -230,7 +230,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete the Lion King's Castle Main Quest starting from the Lightbulb Quest called <a href="https://maplestorywiki.net/w/Quest/(Lion_King%27s_Castle)_Among_the_Tundra" target="_blank" rel="noreferrer noopener">"[Lion King's Castle] Among the Tundra"</a> at Lv. 120</p>
+          <p>You must complete the Lion King's Castle Main Quest starting from the Lightbulb Quest called <a href="https://maplestorywiki.net/w/(Lion_King%27s_Castle)_Among_the_Tundra" target="_blank" rel="noreferrer noopener">"[Lion King's Castle] Among the Tundra"</a> at Lv. 120</p>
           <ul>
             <li>
                 <strong>Easy/Normal Mode and Above Rewards:</strong> <img src="/images/items/elixir.png" alt="Use Elixir"/> [Elixir], <img src="/images/items/rebirth-flame-120.png" alt="Use Rebirth Flame Lv. 120"/> [Lv. 120 Rebirth Flame], <img src="/images/items/soul-shard.png" alt="Use Soul Shard"/> [Soul Shard], <img src="/images/items/mystical-cube.png" alt="Use Mystical Cube"/> [Mystical Cube]
@@ -270,7 +270,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Daily</li>
           </ul>
-          <p>You must complete a questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quest/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 140 to unlock access to Arkarium</p>
+          <p>You must complete a questline from the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/(Silent_Crusade)_A_Cry_for_Help">[Silent Crusade] A Cry for Help</a>” at Lv. 140 to unlock access to Arkarium</p>
           <ul>
             <li>
                 <strong>Easy mode and Above Rewards:</strong> <img src=" /images/equipment/mechanator-pendant.png" alt="Eqp Mechanator Pendant"/> <a href="https://maplestorywiki.net/w/Mechanator_Pendant" target="_blank" rel="noreferrer noopener">[Mechanator Pendant]</a>
@@ -294,7 +294,7 @@ function BossMatchmaking() {
             <li><strong>Can clear Chaos</strong>: Weekly</li>
           </ul>
           <p><img src="/images/npc/temple-keeper.png" alt="NPC Temple Keeper"/></p>
-          <p>You must complete the main Temple of Time questline to unlock access to Pink Bean. You can start the questline by accepting the quest “<a href="https://maplestorywiki.net/w/Quest/(Temple_of_Time)_Path_to_the_Past" target="_blank" rel="noreferrer noopener">Path to the Past</a>" from the Temple Keeper</p>
+          <p>You must complete the main Temple of Time questline to unlock access to Pink Bean. You can start the questline by accepting the quest “<a href="https://maplestorywiki.net/w/(Temple_of_Time)_Path_to_the_Past" target="_blank" rel="noreferrer noopener">[Temple of Time] Path to the Past</a>" from the Temple Keeper</p>
           <ul>
             <li>
                 <strong>Normal Mode and Above Rewards:</strong> <img src="/images/equipment/black-bean-mark.png" alt="Eqp Black Bean Mark"/> <a href="https://maplestorywiki.net/w/Black_Bean_Mark" target="_blank" rel="noreferrer noopener">[Black Bean Mark]</a>
@@ -320,7 +320,7 @@ function BossMatchmaking() {
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
           <p><img src="/images/npc/chief-alex.png" alt="NPC Chief Alex"/></p>
-          <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestorywiki.net/w/Quest/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestorywiki.net/w/Henesys_Ruins_(Map)" target="_blank" rel="noreferrer noopener">Henesys Ruins</a></p>
+          <p>You must complete the Knight Stronghold questline starting at “<a href="https://maplestorywiki.net/w/(Knight_Stronghold)_Scouting_the_Stronghold">[Knight Stronghold] Scouting the Stronghold</a>” at Lv. 165 from Chief Alex at <a href="https://maplestorywiki.net/w/Henesys_Ruins_(Map)" target="_blank" rel="noreferrer noopener">Henesys Ruins</a></p>
           <ul>
             <li>
                 <strong>Easy Mode and Above Rewards:</strong> <img src=" /images/items/power-elixir.png" alt="Use Power Elixir"/> [Power Elixir]
@@ -419,7 +419,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
-          <p>You must complete the quest <a href="https://maplestorywiki.net/w/Quest/(Ramuramu)_Psych_Exam" target="_blank" rel="noreferrer noopener">"[Ramuramu] Psych Exam"</a> that consists of a series of dialogue</p>
+          <p>You must complete the quest <a href="https://maplestorywiki.net/w/(Ramuramu)_Psych_Exam" target="_blank" rel="noreferrer noopener">"[Ramuramu] Psych Exam"</a> that consists of a series of dialogue</p>
           <ul>
             <li>
                 <strong>Normal Mode and Above Rewards: </strong>
@@ -706,7 +706,7 @@ function BossMatchmaking() {
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
-          <p>You must complete the <a href="https://maplestorywiki.net/w/Quest/(Karote)_Kalos_the_Guardian" target="_blank" rel="noopener noreferrer">[Karote] Kalos the Guardian</a> questline and defeat Story Mode Kalos to unlock access to Kalos</p>
+          <p>You must complete the <a href="https://maplestorywiki.net/w/(Karote)_Kalos_the_Guardian" target="_blank" rel="noopener noreferrer">[Karote] Kalos the Guardian</a> questline and defeat Story Mode Kalos to unlock access to Kalos</p>
           <ul>
             <li>
               <strong>Main Rewards:</strong> <img src="/images/items/kalos-residual-determination.png" alt="Use Kalos's Residual Determination"/> <a href="https://maplestorywiki.net/w/Kalos%27s_Residual_Determination" target="_blank" rel="noopener">[Kalos's Residual Determination]</a>
@@ -810,11 +810,11 @@ function BossMatchmaking() {
               </li>
           </ul>
           <ArticleHeaderTwo id="princessno"><img src="/images/map-icons/princess-no-boss.png" alt="MapIcon Princess No"/> Princess No</ArticleHeaderTwo>
-          <p><strong>[Normal Lv. 140+]</strong></p>
+          <p><strong>[Normal Lv. 180+]</strong></p>
           <ul>
             <li><strong>Can clear</strong>: Weekly</li>
           </ul>
-          <p>You must complete the Hieizan storyline starting with the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/Quest/(Princess_No)_Regards,_Takeda_Shingen" target="_blank" rel="noreferrer noopener">[Princess No] Regards, Takeda Shingen</a>” at Lv. 140</p>
+          <p>You must complete the Hieizan storyline starting with the Lightbulb Quest called “<a href="https://maplestorywiki.net/w/(Princess_No)_Regards,_Takeda_Shingen" target="_blank" rel="noreferrer noopener">[Princess No] Regards, Takeda Shingen</a>” at Lv. 180</p>
           <ul>
             <li>
                 <strong>Main Rewards:</strong> <img src="/images/items/captivating-fragment.png" alt="Use Captivating Fragment"/> <a href="https://maplestorywiki.net/w/Captivating_Fragment" target="_blank" rel="noopener noreferrer">[Secondary Weapon Fragment]</a>

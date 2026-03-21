@@ -229,6 +229,7 @@ function UpgradeEquipment() {
             <ArticleHeaderTwo id="starforce">Star Forcing</ArticleHeaderTwo>
             <hr/>
             <p><img src="/images/info/starforce-tooltip.png" alt="Starforce Equipment"/></p>
+            <p>For more info on Star Forcing, check out the MapleStory Wiki <a rel="noreferrer noopener" href="https://maplestorywiki.net/w/Star_Force_Enhancement" target="_blank">Star Force Enhancement</a> page</p>
             <p>Once you have consumed all upgrade slots, you may star force/enhance your gear. In Heroic Worlds, there are no upgrade slots, so you just star force/enhance instead. Star Forcing costs mesos that grants increased stats on success</p>
             <p><img src="/images/info/equipment-enchant-button.png" alt="Starforce Red Button"/></p>
             <p><img src="/images/info/equipment-enchant-ui.png" alt="Equip Enhance UI"/><img src="/images/info/starforce-ui.png" alt="Starforce UI"/></p>
