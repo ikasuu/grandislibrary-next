@@ -21,7 +21,7 @@ function Classes() {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
-                <Container><Alert variant="info">Sengoku Class Overviews are now updated!</Alert></Container>
+                {/* <Container><Alert variant="info">Sengoku Class Overviews are now updated!</Alert></Container> */}
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
                 <ClassGroupContainer classes={classes.explorers} classGroup="explorers"/>
