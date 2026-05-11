@@ -62,7 +62,6 @@ function Footer() {
                     <FooterCol md>
                         <h5><strong>ABOUT</strong></h5>
                         <FooterLink><a href="/privacy" className="footer-link">Privacy Policy</a></FooterLink>
-                        <FooterLink><a class="nn-cmp-show" style={{color: "white"}} href="#">Manage Cookie Settings</a></FooterLink>
                         <FooterLink><a href="https://maplestory.io/" target="_blank" rel="noreferrer noopener" className="footer-link">API Source</a></FooterLink>
                         <div><FooterButton variant="link"><a href="https://ko-fi.com/ikasuu" target="_blank" rel="noreferrer noopener"><KofiButton/></a></FooterButton></div>
                     </FooterCol>

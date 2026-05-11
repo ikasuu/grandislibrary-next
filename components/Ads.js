@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from 'styled-components';
 
+//2026-05-11 Ads are no longer in use at the moment
+
 /*
 This file contains the Adsense ad elements
 In this file you will find:
@@ -28,13 +30,13 @@ const AdRowWrapper = styled(Row)`
 `
 
 export function BannerAdOne(){
-  useEffect(() => {
-    try {
-      (window.reloadAdSlots());
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
+  // useEffect(() => {
+  //   try {
+  //     (window.reloadAdSlots());
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }, []);
 
   return(
     <AdWrapper>
@@ -45,13 +47,13 @@ export function BannerAdOne(){
 }
 
 export function BannerAdTwo(){
-  useEffect(() => {
-    try {
-      (window.reloadAdSlots());
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
+  // useEffect(() => {
+  //   try {
+  //     (window.reloadAdSlots());
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }, []);
 
   return(
     <AdWrapper>
@@ -62,13 +64,13 @@ export function BannerAdTwo(){
 }
 
 export function BannerAdThree(){
-  useEffect(() => {
-    try {
-      (window.reloadAdSlots());
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
+  // useEffect(() => {
+  //   try {
+  //     (window.reloadAdSlots());
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }, []);
 
   return(
     <AdWrapper>
@@ -78,13 +80,13 @@ export function BannerAdThree(){
 }
 
 export function StickyAd(){
-  useEffect(() => {
-    try {
-      (window.reloadAdSlots());
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
+  // useEffect(() => {
+  //   try {
+  //     (window.reloadAdSlots());
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }, []);
 
   return(
     <div>
@@ -96,13 +98,13 @@ export function StickyAd(){
 }
 
 export function VideoAdClassOverview(){
-  useEffect(() => {
-    try {
-      (window.reloadAdSlots());
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
+  // useEffect(() => {
+  //   try {
+  //     (window.reloadAdSlots());
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }, []);
 
   return(
     <div id="nn_player"></div>
@@ -110,13 +112,13 @@ export function VideoAdClassOverview(){
 }
 
 export function VideoAd(){
-  useEffect(() => {
-    try {
-      (window.reloadAdSlots());
-    } catch (err) {
-      console.log(err);
-    }
-  }, []);
+  // useEffect(() => {
+  //   try {
+  //     (window.reloadAdSlots());
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }, []);
 
   return(
     <Container>
