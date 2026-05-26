@@ -227,7 +227,7 @@ export function ClassInfographic({ infographic, title, credit, date }) {
                 </Modal.Header>
                 <Modal.Body>
                     <a href={`/class-infographic/${infographic}`} target="_blank" rel="noreferrer noopener">
-                        <Image src={`/grandislibrary/class-infographic/${infographic}`} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
+                        <Image src={`/class-infographic/${infographic}`} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
                     </a>
                 </Modal.Body>
                 <InfographicFooter>
