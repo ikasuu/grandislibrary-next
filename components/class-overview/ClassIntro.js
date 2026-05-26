@@ -189,7 +189,7 @@ function InfographicBox({data}){
             <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
             {
                 data.map(image => 
-                <ClassInfographic key={image.title} infographic={image.src} title={image.title} credit={image.credit}/>
+                <ClassInfographic key={image.title} infographic={image.src} title={image.title} credit={image.credit} date={image.date}/>
             )}
         </div>
     )
