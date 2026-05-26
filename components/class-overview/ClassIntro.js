@@ -200,11 +200,17 @@ function InfographicBox({data}){
     Created by: Ikasuu, Spring 2024
 */
 
-const InfographicCredit = styled.em`
+const InfographicFooterText = styled.em`
     font-size: 0.9rem;
 `;
 
-export function ClassInfographic({infographic, title, credit}) {
+const InfographicFooter = styled(Modal.Footer)`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`;
+
+export function ClassInfographic({ infographic, title, credit, date }) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -212,21 +218,22 @@ export function ClassInfographic({infographic, title, credit}) {
 
     return (
         <span>
-            <Chip label={title} className="hvr-grow" onClick={handleShow} clickable size="large" style={{marginRight: '0.5rem', marginBottom: '1rem'}}/>
+            <Chip label={title} className="hvr-grow" onClick={handleShow} clickable size="large"/>
             <Modal centered show={show} onHide={handleClose} aria-labelledby="infographic-image" size="lg">
                 <Modal.Header closeButton>
                     <Modal.Title id="infographic-image">
-                        {title}
+                            {title}
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <a href={`/class-infographic/${infographic}`} target="_blank" rel="noreferrer noopener">
-                        <Image src={`/class-infographic/${infographic}`} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
+                        <Image src={`/grandislibrary/class-infographic/${infographic}`} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
                     </a>
                 </Modal.Body>
-                <Modal.Footer>
-                    <InfographicCredit>Credits to {credit}</InfographicCredit>
-                </Modal.Footer>
+                <InfographicFooter>
+                    <InfographicFooterText>Last Checked: {date}</InfographicFooterText>
+                    <InfographicFooterText>Credits to {credit}</InfographicFooterText>
+                </InfographicFooter>
             </Modal>
         </span>
     );
