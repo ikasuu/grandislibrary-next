@@ -31,7 +31,14 @@ function MyApp({ Component, pageProps }) {
     <div id="container">
       <Head>
         <title>Grandis Library | MapleStory Resource for Beginners and Returning Players</title>
-        <script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}/>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZM3D6VHL"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-61ZM3D6VHL');
+        </script>
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>
