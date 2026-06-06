@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
+import ReactGA from 'react-ga4';
 import Head from 'next/head';
 
 import { getInitialTheme, GlobalStyle } from '../special/GlobalTheme';
@@ -27,12 +28,14 @@ function MyApp({ Component, pageProps }) {
     storage.setItem('theme', JSON.stringify(theme));
   },[theme]);
 
+  useEffect(() => {
+    ReactGA.initialize(process.env.NEXT_PUBLIC_GA_ID);
+  }, []);
+
   return(
     <div id="container">
       <Head>
         <title>Grandis Library | MapleStory Resource for Beginners and Returning Players</title>
-        <script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}/>
-
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>
       <ThemeProvider theme={theme}>
