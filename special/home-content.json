@@ -1,6 +1,11 @@
 {
     "featured": [
         {
+            "image": "/home-thumbnail/erel-light-overview.jpg",
+            "alt": "Erel Light Class Overview",
+            "link": "https://grandislibrary.com/shine/erel-light"
+        },
+        {
             "image": "/home-thumbnail/ren-pre-release.jpg",
             "alt": "Ren Class Overview",
             "link": "https://grandislibrary.com/anima/ren"

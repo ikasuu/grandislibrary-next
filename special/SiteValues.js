@@ -47,7 +47,7 @@ export const classes = {
     other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"], ["ren", "Ren"]],
     jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
-    shine: [["sia-astelle", "Sia Astelle"]]
+    shine: [["sia-astelle", "Sia Astelle"], ["erel-light", "Erel Light"]]
 }
 
 //Weapons for class overviews, contains icon path and formatted name
@@ -90,7 +90,8 @@ export const weapons = {
     chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"],
     martialBrace: [`/images/equipment/martial-brace.png`, "Martial Brace"],
     celestialLight: [`/images/equipment/celestial-light.png`, "Celestial Light"],
-    sword: [`/images/equipment/sword.png`, "Sword"]
+    sword: [`/images/equipment/sword.png`, "Sword"],
+    gram: [`/images/equipment/gram.png`, "Gram"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -146,7 +147,8 @@ export const secondaryWeapons = {
     hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"],
     braceBand: [`/images/equipment/brace-band.png`, "Brace Band"],
     compass: [`/images/equipment/compass.png`, "Compass"],
-    imugiGem: [`/images/equipment/imugi-gem.png`, "Imugi Gem"]
+    imugiGem: [`/images/equipment/imugi-gem.png`, "Imugi Gem"],
+    keir: [`/images/equipment/keir.png`, "Keir"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
