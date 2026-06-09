@@ -528,8 +528,7 @@ export const commonFifth = {
         "type": "Buff",
         "desc": "When used, briefly become invincible",
         "details": [
-            "While invincible, you cannot use other skills",
-            "Pressing the Skill Key again ends the buff early"
+            "Press the Skill Key again to end the buff early"
         ]
     },
     guidedArrow: {
