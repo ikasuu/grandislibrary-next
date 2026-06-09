@@ -184,30 +184,15 @@ export const commonFifth = {
         ]
     },
     expMagician:{
-        "name": "Unreliable Memory",
-        "shortDesc": "MP Cost: 80. Uses a memorized skill.\\nIgnores MP cost and cooldown of selected skill, and reduces cooldown of Unreliable Memory by a fixed amount according to set probability rates.\\nCooldown: 340 sec.\\n[Passive Effect: INT +30]",
-        "icons": ["/class-icons/5th-job/unreliable-memory.png"],
-        "animations": ["https://media4.giphy.com/media/ncQEHsz4n9SUxkaU4l/giphy.gif"],
-        "type": "Active",
-        "desc": "Use the memorized skill chosen from <tt src={/class-icons/5th-job/mind-delve.png} tip={Mind Delve (5th Job)}>",
+        "name": "Arcane Overdrive",
+        "shortDesc": "MP Cost: 500, Duration: 30 sec., Unlocks 3 stages of magical power\\nDamage: +7% for each stage, and stages decrease every 10 sec.\\nCooldown: 120 sec.",
+        "icons": ["/class-icons/5th-job/arcane-overdrive.png"],
+        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWlub29rM2RxdXl3aGZxNDJlcTVoanhmcHRncHl4MGhsZTByaXc4MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZDVNxgqenXDRmizEAX/giphy.gif"],
+        "type": "Buff",
+        "desc": "When used, grants a stacking %Final Damage buff",
         "details": [
-            "[Passive]: Grants flat INT",
-            "Ignores MP cost and cooldowns",
-            "Cooldown of Unreliable Memory will be reduced based on the probabilities below:<bp_20% reduction (1% chance)_25% reduction (5% chance)_30% reduction (10% chance)_35% reduction (15% chance)_35% reduction (20% chance)_40% reduction (15% chance)_45% reduction (10% chance)_50% reduction (5% chance)_55% reduction (5% chance)_60% reduction (5% chance)_70% reduction (5% chance)_75% reduction (3% chance)_80% reduction (1% chance)_>"
-        ]
-    },
-    mindDelve:{
-        "name": "Mind Delve",
-        "shortDesc": "MP Cost: 130. Use the number keys to select a spell that can be activated with Unreliable Memory. This skill is canceled if you fail to select a spell within 5 sec, or if you press any other keys.\\nCooldown: 4 sec.",
-        "icons": ["/class-icons/5th-job/mind-delve.png"],
-        "animations": ["https://media.giphy.com/media/pBcdQ9kl2OkOXJY95t/giphy.gif"],
-        "type": "Active",
-        "desc": "When used, allows you to select 3rd - 4th job skills using the Number Keys to be cast when using <tt src={/class-icons/5th-job/unreliable-memory.png} tip={Unreliable Memory (5th Job)}>",
-        "details": [
-            "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
-            "Only skills with SP allocated can be chosen",
-            "This skill is gained alongside and shares SP with <tt src={/class-icons/5th-job/unreliable-memory.png} tip={Unreliable Memory (5th Job)}>"
-        ]
+            "The buff starts at full stacks (max. 3) that slowly decreases"
+        ],
     },
     expBowman: {
         "name": "Fury of the Wild",
