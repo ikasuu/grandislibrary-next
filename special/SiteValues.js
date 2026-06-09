@@ -511,13 +511,13 @@ export const commonFifth = {
     },
     manaOverload:{
         "name": "Mana Overload",
-        "shortDesc": "Consumes 2% Max MP to increase the Final Damage of all your skills (excluding summons) by 8%\\nConsumes 0.3% Max HP for jobs without MP\\nCan be toggled On/Off\\nCooldown: 30 sec",
+        "shortDesc": "Consumes 2% Max MP to increase the Final Damage of all your skills (excluding summons) by 8%\\nConsumes 0.1% Max HP for jobs without MP.\\nCan be toggled on/off\\nCooldown: 30 sec",
         "icons": ["/class-icons/5th-job/mana-overload.png"],
         "animations": ["https://media1.giphy.com/media/uH12ABjyZFLcfbvjFH/giphy.gif"],
         "type": "Buff",
         "desc": "When toggled, increases the %Final Damage of all your skills (excluding summons)",
         "details": [
-            "While toggled, consumes %Max MP every second or %Max HP for classes without MP"
+            "Right-clicking the skill toggles ON/OFF the visual effect"
         ]
     },
     etherealForm:{
