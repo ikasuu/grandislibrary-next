@@ -322,6 +322,78 @@ const StatTableData = styled.td`
   padding: 0.3rem !important;
 `;
 
+//Component from the skill blocks that are used in the base stats section
+//WIP
+const SkillNodeBlock = styled.span`
+    /* Adjust the background from the properties */
+    background-image: ${props => props.color};
+    line-height: ${props => props.lineHeight};
+
+    padding: .25em .4em;
+    margin: .25rem 0;
+    font-size: 75%;
+    font-weight: 700;
+    border-radius: .25rem;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #fff;
+    white-space: nowrap;
+`;
+
+function buildBoostNodes(nodes, primary, secondary = [], other = []){
+    let orderedNodes = [];
+
+    orderedNodes = orderedNodes.concat(primary.map((node) => <SkillNodeBlock color="linear-gradient(120deg,#2E94B6 50%,#2E94B6 50%)" key={node} lineHeight="2rem" style={{margin: "0 0.5rem 0.5rem 0", padding: "0 0.25rem 0.25rem 0.25rem"}}><div style={{display: 'block'}}>Node {node+1}</div> {formatSkillTooltip(nodes[node])}</SkillNodeBlock>));
+    if(secondary.length > 0){
+        orderedNodes = orderedNodes.concat(secondary.map((node) => <SkillNodeBlock color="linear-gradient(120deg,#CC6A2A 50%,#CC6A2A 50%)" key={node} lineHeight="2rem" style={{margin: "0 0.5rem 0.5rem 0", padding: "0 0.25rem 0.25rem 0.25rem"}}><div style={{display: 'block'}}>Node {node+1}</div> {formatSkillTooltip(nodes[node])}</SkillNodeBlock>));
+    }
+    if(other.length > 0){
+        orderedNodes = orderedNodes.concat(other.map((node) => <SkillNodeBlock color="linear-gradient(120deg, #6C757D 50%, #6C757D 50%)" key={node} lineHeight="2rem" style={{margin: "0 0.5rem 0.5rem 0", padding: "0 0.25rem 0.25rem 0.25rem"}}><div style={{display: 'block'}}>Node {node+1}</div> {formatSkillTooltip(nodes[node])}</SkillNodeBlock>));
+    }
+
+    orderedNodes.sort((a,b) => {
+        if(a.key < b.key){
+            return -1;
+        }else if(a.key > b.key){
+            return 1;
+        }
+        return 0;
+    });
+
+    return orderedNodes;
+}
+
+const BoostNodeAccordion = styled(Accordion)`
+    margin-bottom: 2rem !important;
+`;
+
+function BoostNodeLegend(){
+    return(
+        <BoostNodeAccordion>
+            <AccordionSummary expandIcon={<ExpandMoreIcon/>}><strong>Boost Node Legend Info</strong></AccordionSummary>
+            <AccordionDetails>
+                <Container>
+                    <div>
+                        Each Boost Node provides a %Final Damage increase to the skills included in the node. Nodes categorized as Primary and Secondary are recommended to be upgraded
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-temp-val"><li>PRIMARY</li></ul>
+                        <div>Boost Nodes that unlock a 6th Job HEXA Mastery and are skills that are frequently used</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-opt-val"><li>SECONDARY</li></ul>
+                        <div>Boost Nodes that don't unlock a 6th Job HEXA Mastery but boosts skills that are still used</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul><li>OTHER</li></ul>
+                        <div>Boost Nodes that do not need to be upgraded</div>
+                    </div>
+                </Container>
+            </AccordionDetails>
+        </BoostNodeAccordion>
+    );
+};
+
 function ClassDetail({content}) {
     return (
         <Container>
@@ -360,23 +432,11 @@ function ClassDetail({content}) {
                 content.hyperBuild.recommended ? <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive> : <></>
             }
             {formatSkillText(content.hyperBuild.recommended)}
-            <StyledHeaderFive>Recommended Skills for Boost Nodes Trios</StyledHeaderFive>
-            {content.nodeInfo.recommended.nodes.map((nodes, index) => 
-                <span key={index}>
-                    <h6>{nodes[0]}</h6>
-                    <Container>{formatSkillTooltip(nodes[1])}</Container>
-                </span>
-            )}
-            <ul>
-                {content.nodeInfo.recommended.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
-            </ul>
-            <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
-            <Container>{formatSkillTooltip(content.nodeInfo.possible.nodes)}</Container>
-            { content.nodeInfo.possible.notes ? 
-                <ul>
-                    {content.nodeInfo.possible.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
-                </ul> : <></>
-            }
+            <StyledHeaderFive>Skills Boosted by Each Nodes</StyledHeaderFive>
+            <BoostNodeLegend/>
+            <Container>
+                {buildBoostNodes(content.nodeInfo.nodes, content.nodeInfo.primary, content.nodeInfo.secondary, content.nodeInfo.other)}
+            </Container>
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
             <CardDeck>
                 {
