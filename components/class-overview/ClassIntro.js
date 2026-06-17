@@ -382,7 +382,7 @@ function BoostNodeLegend(){
                     </div>
                     <div className="bs-data-vals">
                         <ul className="bs-opt-val"><li>SECONDARY</li></ul>
-                        <div>Boost Nodes that don't unlock a 6th Job HEXA Mastery but boosts skills that are still used</div>
+                        <div>Boost Nodes that don't unlock a 6th Job HEXA Mastery but are still used</div>
                     </div>
                     <div className="bs-data-vals">
                         <ul><li>OTHER</li></ul>
