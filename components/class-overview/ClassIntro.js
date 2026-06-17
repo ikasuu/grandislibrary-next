@@ -386,7 +386,7 @@ function BoostNodeLegend(){
                     </div>
                     <div className="bs-data-vals">
                         <ul><li>OTHER</li></ul>
-                        <div>Boost Nodes that do not need to be upgraded</div>
+                        <div>Boost Nodes that do not need to be upgraded or has least priority</div>
                     </div>
                 </Container>
             </AccordionDetails>
