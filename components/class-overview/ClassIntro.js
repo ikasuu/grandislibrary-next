@@ -394,6 +394,37 @@ function BoostNodeLegend(){
     );
 };
 
+function OldBoostNodeModal({nodeInfo}){
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+    return(
+        <div style={{marginTop: "1rem"}}>
+            <Chip label="View Pre-V.269 Boost Nodes" className="hvr-grow" onClick={handleShow} clickable size="large"/>
+            <Modal centered show={show} onHide={handleClose} aria-labelledby="prev-boost-nodes" size="lg">
+                <Modal.Header closeButton>
+                    <Modal.Title id="prev-boost-nodes">
+                            Pre-V.269 Boost Nodes
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    {nodeInfo.recommended.nodes.map((nodes, index) => 
+                        <span key={index}>
+                            <h6>{nodes[0]}</h6>
+                            <Container>{formatSkillTooltip(nodes[1])}</Container>
+                        </span>
+                    )}
+                    <ul>
+                        {nodeInfo.recommended.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
+                    </ul>
+                </Modal.Body>
+            </Modal>
+        </div>
+    );
+}
+
 function ClassDetail({content}) {
     return (
         <Container>
@@ -436,6 +467,7 @@ function ClassDetail({content}) {
             <BoostNodeLegend/>
             <Container>
                 {buildBoostNodes(content.nodeInfo.nodes, content.nodeInfo.primary, content.nodeInfo.secondary, content.nodeInfo.other)}
+                <OldBoostNodeModal nodeInfo={content.nodeInfo}/>
             </Container>
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
             <CardDeck>
