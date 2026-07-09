@@ -37,6 +37,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Grandis Library | MapleStory Resource for Beginners and Returning Players</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+
+        <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="//scripts.mediavine.com/tags/677e63f7-dda2-498d-949a-797dc60bdcf9.js"></script>
       </Head>
       <ThemeProvider theme={theme}>
         <>
