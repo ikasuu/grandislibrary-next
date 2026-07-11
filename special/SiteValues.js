@@ -5,7 +5,7 @@
 
 //Latest version of GMS
 export const version = 255; 
-export const versionName = "Sengoku Warrior Reawakening Update"
+export const versionName = "Ride the Lightning Update"
 
 export const loadingImage = "/loading.gif";
 export const logo = "/logo.png";
