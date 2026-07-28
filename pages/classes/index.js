@@ -22,7 +22,7 @@ function Classes() {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
-                <Container><Alert variant="secondary">Erel Light Class Overview is now out! <Link href="/shine/erel-light">Check it out now!</Link></Alert></Container>
+                <Container><Alert variant="secondary">Kinesis Class Overview is now updated! <Link href="/other/kinesis">Check it out now!</Link></Alert></Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
                 <ClassGroupContainer classes={classes.explorers} classGroup="explorers"/>
