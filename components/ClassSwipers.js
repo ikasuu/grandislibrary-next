@@ -63,27 +63,25 @@ const FilterTitle = styled.p`
 `;
 
 export function ClassGroupContainer({classes, classGroup}){
-    return(
+    return (
         <ClassContainer>
             {classes.map(job => <FilterTitle>{job[1]}</FilterTitle>)}
             <LazyLoad height={200} offset={100}>
                 {classes.map(job => 
-                    <Link href={`/${classGroup}/${job[0]}`} key={job}>
-                        <a className="hvr-float">
-                            <Figure>
-                                <ClassFigure
-                                    width={120}
-                                    height={176}
-                                    alt={job[1]}
-                                    src={`/class-portrait/${job[0]}.png`}/>
-                                <Overlay/>
-                            </Figure>
-                        </a>
+                    <Link href={`/${classGroup}/${job[0]}`} key={job} className="hvr-float">
+                        <Figure>
+                            <ClassFigure
+                                width={120}
+                                height={176}
+                                alt={job[1]}
+                                src={`/class-portrait/${job[0]}.png`}/>
+                            <Overlay/>
+                        </Figure>
                     </Link>
                 )}
             </LazyLoad>
         </ClassContainer>
-    )
+    );
 }
 
 /*
@@ -92,7 +90,7 @@ export function ClassGroupContainer({classes, classGroup}){
 */
 
 export function TopClassSwipe({classes}){
-    return(
+    return (
         <LazyLoad height={200} offset={100}>
             <Swiper
                 spaceBetween={10}
@@ -123,11 +121,9 @@ export function TopClassSwipe({classes}){
                 {
                     classes.map((content, index) => 
                     <SwiperSlide key={index}>
-                        <Link href={`/${content.path}`}>
-                            <a className="hvr-float">
-                                <Image src={`/class-portrait/${content.class}.png`} alt={content.alt} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <div className="class-overlay"/>
-                            </a>
+                        <Link href={`/${content.path}`} className="hvr-float">
+                            <Image src={`/class-portrait/${content.class}.png`} alt={content.alt} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                            <div className="class-overlay"/>
                         </Link>
                     </SwiperSlide>
                     )
@@ -193,183 +189,182 @@ function renderSwitch(classGroup, classTitle){
     switch (classGroup) {
         case "Explorers":
             var classArr = classes.explorers.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/explorers/[slug]" as={`/explorers/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/explorers/[slug]"
+                        as={`/explorers/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Cygnus Knights":
             var classArr = classes.cygnusKnights.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/cygnus-knights/[slug]" as={`/cygnus-knights/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 0 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/cygnus-knights/[slug]"
+                        as={`/cygnus-knights/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 0 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Heroes":
             var classArr = classes.heroes.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/heroes/[slug]" as={`/heroes/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/heroes/[slug]"
+                        as={`/heroes/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Resistance":
             var classArr = classes.resistance.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/resistance/[slug]" as={`/resistance/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/resistance/[slug]"
+                        as={`/resistance/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Nova":
             var classArr = classes.nova.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/nova/[slug]" as={`/nova/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/nova/[slug]"
+                        as={`/nova/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Sengoku":
             var classArr = classes.sengoku.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/sengoku/[slug]" as={`/sengoku/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/sengoku/[slug]"
+                        as={`/sengoku/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Flora":
             var classArr = classes.flora.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/flora/[slug]" as={`/flora/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/flora/[slug]"
+                        as={`/flora/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Anima":
             var classArr = classes.anima.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/anima/[slug]" as={`/anima/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/anima/[slug]"
+                        as={`/anima/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Jianghu":
             var classArr = classes.jianghu.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/jianghu/[slug]" as={`/jianghu/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/jianghu/[slug]"
+                        as={`/jianghu/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         case "Shine":
         var classArr = classes.shine.filter(job => job[1] != classTitle);
-        return(
-            classArr.map((job, index) => 
-                <SwiperSlide key={index}>
-                    <Link href="/shine/[slug]" as={`/shine/${job[0]}`}>
-                        <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                            <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <Overlay/>
-                        </a>
-                    </Link>
-                </SwiperSlide>
-            )
-        );
+        return (classArr.map((job, index) => 
+            <SwiperSlide key={index}>
+                <Link
+                    href="/shine/[slug]"
+                    as={`/shine/${job[0]}`}
+                    className="hvr-float"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                    <Overlay/>
+                </Link>
+            </SwiperSlide>));
 
         case "Other":
             var classArr = classes.other.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href="/other/[slug]" as={`/other/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href="/other/[slug]"
+                        as={`/other/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
 
         default:
             var classArr = classes.explorers.filter(job => job[1] != classTitle);
-            return(
-                classArr.map((job, index) => 
-                    <SwiperSlide key={index}>
-                        <Link href={`/explorers/${job[0]}`}>
-                            <a className="hvr-float" target="_blank" rel="noreferrer noopener">
-                                <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                                <Overlay/>
-                            </a>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
+            return (classArr.map((job, index) => 
+                <SwiperSlide key={index}>
+                    <Link
+                        href={`/explorers/${job[0]}`}
+                        className="hvr-float"
+                        target="_blank"
+                        rel="noreferrer noopener">
+                        <Image src={`/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <Overlay/>
+                    </Link>
+                </SwiperSlide>));
     }
 }
 

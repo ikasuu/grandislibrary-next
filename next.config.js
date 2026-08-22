@@ -6,5 +6,5 @@ module.exports = {
       styledComponents: true,
     },
     swcMinify: true,
+    output: 'export',
   }
-  

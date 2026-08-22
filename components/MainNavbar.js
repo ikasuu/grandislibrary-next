@@ -22,44 +22,41 @@ function MainNavbar(props) {
   const theme = props.theme;
 
   return (
-      <div>
-        <Navbar fixed="top" collapseOnSelect expand="lg" expanded={expanded}>
-          <Navbar.Brand>
-            <Link href="/">
-              <a className="site-title nav-props">
-                <img
-                    src={logo}
-                    width="42"
-                    height="42"
-                    className="d-inline-block align-text-top"
-                    alt="Grandis Library logo"
-                />{' '}
-                  Grandis Library
-              </a>
-            </Link>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <div className="mr-auto"/>
-            <Nav>
-              <div className="nav-button-container">
-                <NavButton variant="link" className="hvr-buzz-out"><a href="https://discord.gg/d4et8vt9kP" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></NavButton>
-                <NavButton variant="link" className="hvr-buzz-out"><a href="https://ko-fi.com/ikasuu" target='_blank' rel="noopener noreferrer"><span className="kofi-button"/></a></NavButton>
-              </div>
-              <DropdownNav setExpanded={setExpanded}/>
-              <ActiveLink activeClassName="underline" href="/about"><a className="nav-link-button nav-props"onClick={() => setExpanded(false)}>About</a></ActiveLink>
-              <ActiveLink activeClassName="underline" href="/"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Home</a></ActiveLink>
-            </Nav>
-            <NavButton variant="link" onClick={e=>
-                  setTheme(
-                    theme.mode === 'dark'
-                      ? {...theme, mode: 'light'}
-                      : {...theme, mode: 'dark'}) }>
-                <span className="toggle-mode"/>
-            </NavButton>
-            </Navbar.Collapse>
-        </Navbar>
-      </div>
+    <div>
+      <Navbar fixed="top" collapseOnSelect expand="lg" expanded={expanded}>
+        <Navbar.Brand>
+          <Link href="/" className="site-title nav-props">
+            <img
+                src={logo}
+                width="42"
+                height="42"
+                className="d-inline-block align-text-top"
+                alt="Grandis Library logo"
+            />{' '}Grandis Library 
+          </Link>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <div className="mr-auto"/>
+          <Nav>
+            <div className="nav-button-container">
+              <NavButton variant="link" className="hvr-buzz-out" href="https://discord.gg/d4et8vt9kP" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></NavButton>
+              <NavButton variant="link" className="hvr-buzz-out" href="https://ko-fi.com/ikasuu" target='_blank' rel="noopener noreferrer"><span className="kofi-button"/></NavButton>
+            </div>
+            <DropdownNav setExpanded={setExpanded}/>
+            <ActiveLink activeClassName="underline" href="/about" className="nav-link-button nav-props"onClick={() => setExpanded(false)}><span>About</span></ActiveLink>
+            <ActiveLink activeClassName="underline" href="/" className="nav-link-button nav-props" onClick={() => setExpanded(false)}><span>Home</span></ActiveLink>
+          </Nav>
+          <NavButton variant="link" onClick={e=>
+                setTheme(
+                  theme.mode === 'dark'
+                    ? {...theme, mode: 'light'}
+                    : {...theme, mode: 'dark'}) }>
+              <span className="toggle-mode"/>
+          </NavButton>
+          </Navbar.Collapse>
+      </Navbar>
+    </div>
   );
 }
 

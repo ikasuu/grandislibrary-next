@@ -13,16 +13,14 @@ function GridItem(props) {
     return (
         <div className={styles["grid-wrapper"]}>
             <Link href={props.linkTo}>
-                <a>
-                    <Image className={styles["grid-image"]} src={props.imageUrl}/>
-                    <div className={styles["grid-overlay"]}/>
-                    <div className={styles["grid-text"]}>
-                        <h3 className={styles["grid-title"]}>{props.text}</h3>
-                    </div>
-                </a>
+                <Image className={styles["grid-image"]} src={props.imageUrl}/>
+                <div className={styles["grid-overlay"]}/>
+                <div className={styles["grid-text"]}>
+                    <h3 className={styles["grid-title"]}>{props.text}</h3>
+                </div>
             </Link>
         </div>
-    )
+    );
 }
 
 export default GridItem;

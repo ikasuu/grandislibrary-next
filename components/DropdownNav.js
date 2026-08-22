@@ -13,10 +13,22 @@ function DropdownNav(props) {
         <div className="dropdown-menu-container">
             <Button className="nav-link-button nav-props" variant="link">Quick Links</Button>
             <div className="dropdown-menu">
-                <Link href="/content"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Content</a></Link>
-                <Link href="/classes"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Classes</a></Link>
-                <Link href="/events"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Events</a></Link>
-                <Link href="/resources"><a className="nav-link-button nav-props" onClick={() => setExpanded(false)}>Resources</a></Link>
+                <Link
+                    href="/content"
+                    className="nav-link-button nav-props"
+                    onClick={() => setExpanded(false)}>Content</Link>
+                <Link
+                    href="/classes"
+                    className="nav-link-button nav-props"
+                    onClick={() => setExpanded(false)}>Classes</Link>
+                <Link
+                    href="/events"
+                    className="nav-link-button nav-props"
+                    onClick={() => setExpanded(false)}>Events</Link>
+                <Link
+                    href="/resources"
+                    className="nav-link-button nav-props"
+                    onClick={() => setExpanded(false)}>Resources</Link>
             </div>
         </div>
     );
