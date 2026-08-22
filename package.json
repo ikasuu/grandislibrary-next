@@ -42,5 +42,6 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "next-sitemap": "^2.5.17"
-  }
+  },
+  "packageManager": "yarn@4.18.0"
 }
