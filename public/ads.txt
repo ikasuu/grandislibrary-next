@@ -1,4 +1,4 @@
-# Mediavine Ads.txt v20260825
+# Mediavine Ads.txt v20260904
 managerdomain=mediavine.com
 contact=sales@mediavine.com
 ownerdomain=grandislibrary.com
@@ -141,6 +141,7 @@ smartadserver.com, 3050, DIRECT
 rubiconproject.com, 17280, DIRECT, 0bfd66d529a55807
 pubmatic.com, 157743, DIRECT, 5d62403b186f2ace
 sharethrough.com, 3050, RESELLER, d53b998a7bd4ecd2
+rubiconproject.com, 28785, DIRECT, 0bfd66d529a55807
 inmobi.com, d7ada47670d044a69337cb48018d1d94, DIRECT, 83e75a7ae333ca9d
 ssp.cadent.com, 3695, DIRECT, 1e1d41537f7cad7f
 omni-dex.io, 100095, DIRECT
