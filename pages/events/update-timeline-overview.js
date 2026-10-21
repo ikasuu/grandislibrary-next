@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 import Head from 'next/head';

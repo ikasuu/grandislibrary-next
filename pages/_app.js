@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
 import ReactGA from 'react-ga4';
@@ -28,9 +28,9 @@ function MyApp({ Component, pageProps }) {
     storage.setItem('theme', JSON.stringify(theme));
   },[theme]);
 
-  useEffect(() => {
-    ReactGA.initialize(process.env.NEXT_PUBLIC_GA_ID);
-  }, []);
+  // useEffect(() => {
+  //   ReactGA.initialize(process.env.NEXT_PUBLIC_GA_ID);
+  // }, []);
 
   return(
     <div id="container">

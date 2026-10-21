@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import Head from 'next/head';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Mousewheel, Scrollbar } from 'swiper';
@@ -79,7 +79,7 @@ const searchQuery = (term) => {
 
 function Resources() {
     // Used to store what's typed into search bar
-    const [searchTerm, setSearchTerm] = React.useState("");
+    const [searchTerm, setSearchTerm] = useState("");
 
     return (
         <div>

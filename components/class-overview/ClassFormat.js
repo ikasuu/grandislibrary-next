@@ -1,4 +1,3 @@
-import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import reactStringReplace from 'react-string-replace';
 import styled from 'styled-components';

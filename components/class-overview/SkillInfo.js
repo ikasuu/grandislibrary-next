@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Badge, Card, Image, Modal } from 'react-bootstrap';
 import { Parser } from 'expr-eval';
 import styled from 'styled-components';

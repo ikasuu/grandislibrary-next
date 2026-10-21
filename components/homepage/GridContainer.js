@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { HeaderBlockImageUrl } from '../../special/SiteValues';
 import GridItem from './GridItem';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Badge, Card } from 'react-bootstrap';
 
 export default function TrainingMap({level, icon, mapName, mapLink, sf, arcP, sacP}) {

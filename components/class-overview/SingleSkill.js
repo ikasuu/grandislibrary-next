@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import { Component, useState } from 'react';
 import { Image, Modal } from 'react-bootstrap';
 import axios from 'axios';
 import axiosRetry from 'axios-retry';

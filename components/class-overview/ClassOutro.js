@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 import ClassSwipe from '../ClassSwipers';
@@ -12,7 +11,7 @@ In this file you will find:
 -ClassCredits - renders the credits
 */
 
-export function ClassOutro({classGroup, classTitle, credits, infographic}) {
+export function ClassOutro({classGroup, classTitle, credits}) {
     return (
         <div>
             <BannerAdThree/>

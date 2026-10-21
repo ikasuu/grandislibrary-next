@@ -1,4 +1,3 @@
-import React from 'react';
 import { Image, Figure } from 'react-bootstrap';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';

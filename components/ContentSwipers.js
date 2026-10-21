@@ -1,4 +1,3 @@
-import React from 'react';
 import { Image } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Autoplay, Navigation } from 'swiper';

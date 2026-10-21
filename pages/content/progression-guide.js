@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 
@@ -1865,7 +1865,7 @@ function TrainingMaps(){
     // Create search query object that searches our data by looking at the question and tags
     const fuse = new Fuse(maps, {keys: ["level", "mapName", "area"]});
     // Used to store what's typed into search bar
-    const [searchTerm, setSearchTerm] = React.useState("");
+    const [searchTerm, setSearchTerm] = useState("");
 
     // Custom filtering function, return original if search query returns nothing (len = 0)
     const searchQuery = (term) => {

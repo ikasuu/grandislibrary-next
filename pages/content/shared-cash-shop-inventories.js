@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components';
 import Head from 'next/head';
 
@@ -250,7 +249,7 @@ function SharedCashShopInventory() {
                 </ClassBlock>
                 <ClassBlock color="#7767EA">
                     <StyledTd style={{color: 'black'}}><strong>Shine</strong></StyledTd>
-                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}>Erel Light</StyledTd>
                     <StyledTd style={{color: 'black'}}>Sia Astelle</StyledTd>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>

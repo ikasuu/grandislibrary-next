@@ -1,5 +1,3 @@
-import React from 'react';
-
 import HeaderImage from '../HeaderImage';
 import HeaderImageUrl from '../../special/SiteValues';
 import {ScrollToTop} from '../UtilityButtons';
