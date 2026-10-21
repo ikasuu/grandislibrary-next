@@ -159,7 +159,6 @@ export const weaponConsumable = {
     bullet: [`https://maplestory.io/api/GMS/${version}/item/2330005/icon`, "Bullets"]
 };
 
-//Common 5th Job Skills
 export const commonFifth = {
     goddessBlessing: {
         "name": "Maple World Goddess's Blessing",
@@ -174,7 +173,7 @@ export const commonFifth = {
     },
     expWarrior:{
         "name": "Blitz Shield",
-        "shortDesc": "HP Cost: 5% of Max HP, Creates a protective shield, absorbing damage up to 21% of your Max HP for 5 sec.\\nIf you activate this skill a second time, it detonates and inflicts 1100% damage to 12 enemies 5 times.\\nYour shield must be active for at least 2 sec before it can be detonated.\\nCooldown: 15 sec",
+        "shortDesc": "HP Cost: 100, Creates a protective shield, absorbing damage up to 21% of your Max HP for 5 sec.\\nIf you activate this skill a second time, it detonates and inflicts 1100% damage to 12 enemies 5 times.\\nYour shield must be active for at least 2 sec before it can be detonated.\\nCooldown: 15 sec",
         "icons": ["/class-icons/5th-job/blitz-shield.png"],
         "animations": ["https://media2.giphy.com/media/0Rj4K4HNqYGsk63MyN/giphy.gif"],
         "type": "Buff",
@@ -228,20 +227,19 @@ export const commonFifth = {
     },
     expPirate: {
         "name": "Pirate's Banner",
-        "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec.\\nBoosts the stats of party members near the flag by 25% in any attribute they have assigned AP. You will receive the same effect even when outside of the field. Enemy Defense: -25%",
+        "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec.\\nBoosts the stats of party members near the flag by 25% in any attribute they have assigned AP. Also boosts Ignore Defense by 25%. You will receive the same effect even when outside of the field",
         "icons": ["/class-icons/5th-job/pirates-banner.png"],
         "animations": ["https://media2.giphy.com/media/4HkGIZpk9nhjknNRFb/giphy.gif"],
         "type": "Buff Zone",
-        "desc": "Increases all stats assigned APs by a percentage of party members within the zone and reduces enemy %DEF inside the zone",
+        "desc": "Place down a zone that increases %Ignore DEF and all stats assigned APs by a percentage",
         "details": [
             "You will receive the buff even when outside of the zone",
-            "During the jump animation, you will not be knocked back at all (Super Knockback Resistance)",
-            "Reduction to %DEF can be considered as %Ignore DEF"
+            "During the jump animation, you will not be knocked back at all (Super Knockback Resistance)"
         ]
     },
     phalanxCharge:{
         "name": "Phalanx Charge",
-        "shortDesc": "MP Cost: 500, Duration: Up to 22.5 sec.\\nPeriodically deals 990% damage up to 70 times.\\nCooldown: 30 sec",
+        "shortDesc": "MP Cost: 500, Duration: Up to 15 sec.\\nPeriodically deals 1485% damage up to 140 times.\\nCooldown: 60 sec.",
         "icons": ["/class-icons/5th-job/phalanx-charge.png"],
         "animations": ["https://media4.giphy.com/media/7y719ZfMh0lXsQW919/giphy.gif"],
         "type": "Summon",
@@ -249,6 +247,7 @@ export const commonFifth = {
         "details": [
             "The spearmen slow down upon colliding with an enemy",
             "Pressing the Skill Key again will change their direction of movement",
+            "Pressing the Down Arrow Key and Skill Key again will resummon the spearmen at your position",
             "Right-clicking the skill turns a function ON/OFF that summons stationary spearmen instead<bp_While summoned, pressing the Skill Key while the spearmen are not attacking will resume movement_>",
             "Unaffected by Damage Reflect"
         ]
@@ -278,18 +277,19 @@ export const commonFifth = {
     },
     resistanceInfantry:{
         "name": "Resistance Infantry",
-        "shortDesc": "MP Cost: 650, Duration: 10 sec, Damage: 455%, Number of Attacks: 9, Max Enemies Hit: 12\\nCooldown: 25 sec",
+        "shortDesc": "MP Cost: 650, summons a squad of Resistance infantry for 15 sec\\nMax Enemies Hit: 12, Damage: 683%, Number of Attacks: 9\\nResummons squad when skill is used again, Resummon Cooldown: 3 sec\\nCooldown: 60 sec",
         "icons": ["/class-icons/5th-job/resistance-infantry.png"],
         "animations": ["https://media1.giphy.com/media/8lnnh46r15qpe51QLL/giphy.gif"],
         "type": "Summon",
         "desc": "Place down a squad of Resistance infantry that fires waves of bullets at enemies",
         "details": [
+            "Pressing the Skill Key again will resummon the squad at your position",
             "Unaffected by Damage Reflect"
         ]
     },
     defenderOfTheDemon:{
         "name": "Defender of the Demon",
-        "shortDesc": "Consumes 4% of Max HP to summon Mastema for 48 sec.\\nCooldown: 120 sec\\nMastema uses the following skills at her own discretion:\\nMastema's Claw - Max Enemies Hit: 8, Damage: 1100%, Number of Attacks: 8, Cooldown: 4 sec\\nMastema's Mark - Damage Taken: -25% (Including attacks inflicting damage proportional to Max HP), Max Uses: 2, Duration: 6 sec. Mastema's Mark vanishes when duration ends or max uses is reached. Cooldown: 10 sec",
+        "shortDesc": "HP Cost: 100, Mastema Summon Duration: 48 sec.\\nCooldown: 120 sec\\nMastema uses the following skills at her own discretion:\\nMastema's Claw - Max Enemies Hit: 8, Damage: 1100%, Number of Attacks: 8, Cooldown: 4 sec\\nMastema's Mark - Damage Taken: -25% (Including attacks inflicting damage proportional to Max HP), Max Uses: 2, Duration: 6 sec. Mastema's Mark vanishes when duration ends or max uses is reached. Cooldown: 10 sec",
         "icons": ["/class-icons/5th-job/defender-of-the-demon.png"],
         "animations": ["https://media1.giphy.com/media/XGCkfDLecmgSCsBc4n/giphy.gif"],
         "type": "Summon",
@@ -302,7 +302,7 @@ export const commonFifth = {
     },
     otherworldGoddessBlessing:{
         "name": "Otherworld Goddess's Blessing",
-        "shortDesc": "HP Cost: 5% of Max HP, increases Final Damage by 11% for 40 sec. Periodically casts various blessings or attacks. Previous blessings disappear when a new blessing is cast.\\nBlessing of Recovery : Restores 30% of the your character's max DF/PP/HP. Heals through status effects that prevent health recovery, aside from in Ghost Park.\\nAegis Blessing: Damage Taken: -75% (Triggers once, includes damage proportional to Max HP.)\\nBlessing of Fortitude: Ignores one debilitating status effect.\\nOtherwordly Void: Max Enemies Hit: 12, Damage: 2640%, Number of Attacks: 12, Minimum Activations During Blessing Duration: 3 times\\nCooldown: 120 sec",
+        "shortDesc": "HP Cost: 100, increases Final Damage by 11% for 40 sec. Periodically casts various blessings or attacks. Previous blessings disappear when a new blessing is cast.\\nBlessing of Recovery : Restores 30% of the your character's max DF/PP/HP. Heals through status effects that prevent health recovery, aside from in Ghost Park.\\nAegis Blessing: Damage Taken: -75% (Triggers once, includes damage proportional to Max HP.)\\nBlessing of Fortitude: Ignores one debilitating status effect.\\nOtherwordly Void: Max Enemies Hit: 12, Damage: 2640%, Number of Attacks: 12, Minimum Activations During Blessing Duration: 3 times\\nCooldown: 120 sec",
         "icons": ["/class-icons/5th-job/otherworld-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/HBVTG6lGTAK9OLJ9qe/giphy.gif"],
         "type": "Buff",
@@ -316,7 +316,7 @@ export const commonFifth = {
     },
     mightOfTheNova:{
         "name": "Might of the Nova",
-        "shortDesc": "HP Cost: 20% of Max HP, Max Enemies Hit: 15, Damage: 4400%, Number of Attacks: 10\\nBuff: After use, you are protected from fatal blows for 960 sec.\\nCooldown: 1200 sec",
+        "shortDesc": "HP Cost: 100, Max Enemies Hit: 15, Damage: 4400%, Number of Attacks: 10\\nBuff: After use, you are protected from fatal blows for 960 sec.\\nCooldown: 1200 sec",
         "icons": ["/class-icons/5th-job/might-of-the-nova.png"],
         "animations": ["https://media1.giphy.com/media/eiYA7as3sG0mA6277y/giphy.gif"],
         "type": "Attack / Buff",
@@ -327,7 +327,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingNV:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 100, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
@@ -338,7 +338,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingKAI:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 100, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
@@ -350,7 +350,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingFL:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 100, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTI4YWJiM21vemt5MW5yNDRnM2hncWkzYXo3cWM0YzVqcGYwOGpweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1FUDtuDNiNos8qi01U/giphy.gif"],
         "type": "Buff",
@@ -362,7 +362,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingHY:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 100, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
@@ -370,7 +370,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingLARA:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 100, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 6 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power & Magic ATT, whichever you do not use, is converted to the one you do use. Any set effects do not apply. The converted bonus cannot exceed 150% of your weapon's base Attack Power or Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
@@ -378,7 +378,7 @@ export const commonFifth = {
     },
     grandisGoddessBlessingLEN:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
+        "shortDesc": "HP Cost: 100, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
@@ -386,7 +386,7 @@ export const commonFifth = {
     },
     afterimageOfTheOtherworld:{
         "name": "Afterimage of the Otherworld",
-        "shortDesc": "HP Cost: 5%, Afterimage of the Otherworld Duration: 50 sec\\nIncreases all stats that you invested AP into by 35% and increases Critical Damage by 5% when there is an Afterimage of the Otherworld within the same map\\n10% chance to restore 3% of Max HP and 3% of Max MP when attacking enemies created by Afterimage of the Otherworld\\nCooldown: 60 sec",
+        "shortDesc": "HP Cost: 100, Afterimage of the Otherworld Duration: 50 sec\\nIncreases all stats that you invested AP into by 35% and increases Critical Damage by 5% when there is an Afterimage of the Otherworld within the same map\\n10% chance to restore 3% of Max HP and 3% of Max MP when attacking enemies created by Afterimage of the Otherworld\\nCooldown: 60 sec",
         "icons": ["/class-icons/5th-job/afterimage-of-the-otherworld.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXA2N294M3ozdm5ncHlkdDkxa2hyeTNvM3dpcjJxZTAzZXdqaGpnMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0WvCReMHp6vK0YgdOm/giphy.gif"],
         "type": "Summon",
@@ -398,7 +398,7 @@ export const commonFifth = {
     },
     transcendent:{
         "name": "Transcendent",
-        "shortDesc": "HP Cost: 5%, Applies Light, Life, and Time Blessing\\nLight Blessing\\nDuration: 20 sec\\nCreates a spear of light when using the attack skill that flies toward enemies in front. Max Enemies Hit: 10, Damage: 550%, Number of Attacks: 4. Remains in place where it sticks, Enemies Hit: 10, Damage: 440%, Number of Attacks: 4, Max Continuous Attacks: 5\\nMax Spears of Light: 7, Spear of Light Cooldown: 2 sec\\nLife Blessing\\nDuration: 30 sec\\nFinal Damage: +5%, Number of Debilitating Status Conditions Blocked: 3\\nTime Blessing\\nDuration: 60 sec, 100% chance for afterimage of a previous time to remain when using 4th job or lower skills (excluding Beginner Skills), Max Enemies Hit: 10, Damage: 385%, Number of Attacks: 3\\nAfterimage of skills that triggered Assist for Zero deals 440% damage\\nAfterimage attack occurs only once per skill\\nCooldown: 120 sec",
+        "shortDesc": "HP Cost: 100, Applies Light, Life, and Time Blessing\\nLight Blessing\\nDuration: 20 sec\\nCreates a spear of light when using the attack skill that flies toward enemies in front. Max Enemies Hit: 10, Damage: 550%, Number of Attacks: 4. Remains in place where it sticks, Enemies Hit: 10, Damage: 440%, Number of Attacks: 4, Max Continuous Attacks: 5\\nMax Spears of Light: 7, Spear of Light Cooldown: 2 sec\\nLife Blessing\\nDuration: 30 sec\\nFinal Damage: +5%, Number of Debilitating Status Conditions Blocked: 3\\nTime Blessing\\nDuration: 60 sec, 100% chance for afterimage of a previous time to remain when using 4th job or lower skills (excluding Beginner Skills), Max Enemies Hit: 10, Damage: 385%, Number of Attacks: 3\\nAfterimage of skills that triggered Assist for Zero deals 440% damage\\nAfterimage attack occurs only once per skill\\nCooldown: 120 sec",
         "icons": ["/class-icons/5th-job/transcendent.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmVyem9wYXUzYWRkaG90andkeW03ZDlicG5nYjAxYThnNXZkcngxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a29UzvDhUSFQgmdnc0/giphy.gif"],
         "type": "Buff",
@@ -411,13 +411,14 @@ export const commonFifth = {
     },
     lotusFlower:{
         "name": "Lotus Flower",
-        "shortDesc": "MP Cost: 15% of Max MP, Lotus Summon Duration: 1800 sec.\\nInvincible for 3.5 sec. upon revival.\\nCooldown: 400 sec. Skill Cooldown upon successful revival: +1400 sec.",
+        "shortDesc": "MP Cost: 15% of Max MP, Lotus Summon Duration: 1800 sec.\\nInvincible for 4.5 sec. upon revival.\\nCooldown: 400 sec. Skill Cooldown upon successful revival: -1400 sec. If the Lotus disappears without granting its blessing, the cooldown resets.",
         "icons": ["/class-icons/5th-job/lotus-flower.png"],
         "animations": ["https://media.giphy.com/media/SGdhCXQpAHwCb1Fe8U/giphy.gif"],
-        "type": "Buff Revive",
-        "desc": "When hit by a fatal attack, you will not die but instead heal back a percentage of your HP back",
+        "type": "Summon Revive",
+        "desc": "Place down a lotus that when hit by a fatal attack, you will not die but instead teleport to the lotus and heal back a percentage of your HP back",
         "details": [
-            "You are briefly invincible after reviving"
+            "You are briefly invincible after reviving",
+            "Cooldown is refunded if the lotus expires"
         ]
     },
     twilightBloom:{
@@ -436,13 +437,13 @@ export const commonFifth = {
     },
     conversionOverdrive:{
         "name": "Conversion Overdrive",
-        "shortDesc": "MP Cost: 12% of Max MP, Duration: 60 sec, Damage increases up to 45% depending on current MP proportions, Damage increase reset when Spell Storm occurs.\\nWhen using attack skill, activates a Spell Storm. Spell Storm MP Cost: additional 150 per 4 sec, Spell Storm Max Enemies Hit: 6, Spell Storm Damage: 1100%, Spell Storm Number of Attacks: 3\\nCooldown: 120 sec",
+        "shortDesc": "MP Cost: 1000, Duration: 60 sec, Damage: +45%\\nUsing an attack skill activates a Spell Storm. Spell Storm MP Cost: additional 150 per 4 sec, Spell Storm Max Enemies Hit: 6, Spell Storm Damage: 1100%, Spell Storm Number of Attacks: 3\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/conversion-overdrive.png"],
         "animations": ["https://media4.giphy.com/media/DTXNaMlNmJjsxBdspG/giphy.gif"],
         "type": "Buff",
-        "desc": "Increases your %Damage in proportion to your current MP",
+        "desc": "While active, increases %Damage and successful attacks periodically trigger a [Spell Storm] attack",
         "details": [
-            "When attacking, you will periodically trigger a Spell Storm damaging nearby enemies<bp_The %Damage buff will be recalculated every time Spell Storm is activated_>"
+            "Unaffected by Damage Reflect"
         ]
     },
     transcendentRhinnePrayer:{
@@ -492,22 +493,19 @@ export const commonFifth = {
     },
     weaponAura:{
         "name": "Weapon Aura",
-        "shortDesc": "HP Cost: 10% of Max HP, Ignores 16% Enemy DEF for 94 sec, Final Damage: +6%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1100% damage on up to 10 enemies 6 times.\\nWeapon Aura Prepared: every 120 sec, Max Number Prepared: 2",
+        "shortDesc": "HP Cost: 100, Ignores 16% Enemy DEF for 130 sec, Final Damage: +6%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1100% damage on up to 10 enemies 6 times.\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/weapon-aura.png"],
         "animations": ["https://media4.giphy.com/media/flLOmhDE95Z0NDH1ug/giphy.gif"],
         "type": "Buff Attack",
-        "desc": "Increases %Ignore DEF, %Final Damage and attacks periodically release a damaging wave",
-        "details": [
-            "Skill is prepared every 180 sec (up to 2 charges)"
-        ]
+        "desc": "Increases %Ignore DEF, %Final Damage and attacks periodically release a damaging wave"
     },
     impenetrableSkin:{
         "name": "Impenetrable Skin",
-        "shortDesc": "HP Cost: 3% of Max HP, Duration: 18 sec, Knockdown Immunity and Status Resistance: +80\\nDamage increases +6% when hit, Max Stack: 6 times\\nCooldown: 120 sec\\n[Passive Effects - STR: +30, Max HP: +1500]",
+        "shortDesc": "HP Cost: 100, Duration: 18 sec, Knockdown Immunity and Status Resistance: +80\\nCooldown: 120 sec\\n[Passive Effects - STR: +30, Max HP: +1500]",
         "icons": ["/class-icons/5th-job/impenetrable-skin.png"],
         "animations": ["https://media3.giphy.com/media/jjMaS7mAgN1OvvY9JT/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, gain increased Abnormal Status Resistance and cannot be knocked back at all (Super Knockback Resistance). As well, when you are hit, gain a stacking %Damage buff"
+        "desc": "While active, gain increased Abnormal Status Resistance and cannot be knocked back at all (Super Knockback Resistance)"
     },
     manaOverload:{
         "name": "Mana Overload",
@@ -553,44 +551,45 @@ export const commonFifth = {
     },
     venomBurst: {
         "name": "Venom Burst",
-        "shortDesc": "MP Cost: 300, Consumes all active Damage-over-Time stacks on up to 12 poisoned enemies in range and instantly inflicts 100% of their remaining damage plus an additional 1100% damage 6 times\\nAdditional damage is +15% per remaining second of consumed DoT stacks up to 5\\nAfterwards, spreads the original DoT damage to up to 10 nearby enemies\\nCooldown: 8 sec\\n[Passive Effects - Bonus DoT Chance: 50% to deal 340% damage every 1 sec for 8 sec]",
+        "shortDesc": "Enemies hit by the attack are poisoned. Damage: 825%, Number of Attacks: 2, Duration: 30 sec.",
         "icons": ["/class-icons/5th-job/venom-burst.png"],
-        "animations": ["https://media3.giphy.com/media/hk99simjA0L918EjM0/giphy.gif"],
-        "type": "Attack",
-        "desc": "Consumes all active Damage-over-Time stacks on nearby enemies to instantly deal the remaining damage plus an additional attack",
-        "details": [
-            "[Passive]: Permanently adds a bonus chance to apply a DoT effect to enemies when attacking",
-            "When activated, the original DoT will spread to nearby enemies"
-        ]
+        "type": "Passive",
+        "desc": "Grants a chance for your attacks to apply a poisoning debuff",
     },
     lastResort: {
         "name": "Last Resort",
-        "shortDesc": "HP Cost: 10% of Max HP, reduces Avoidability (including Bonus Evasion) and increases Final Damage for 30 sec, Hit Damage increased if attacked within a certain percentage of your max HP. Enters 2nd Stage with remaining duration being reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage.\\n1st Stage - Avoidability: -20%, Hit Damage: +10%, Final Damage: +10%\\n2nd Stage - Avoidability: -90%, Hit Damage: +20%, Final Damage: +24%\\nCooldown: 60 sec\\n[Passive Effect - ATT Power: +30]",
+        "shortDesc": "HP Cost: 100, increases Final Damage for 30 sec.\\nEnters 2nd Stage with remaining duration reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage.\\n1st Stage - Final Damage: +10%\\n2nd Stage - Final Damage: +24%\\nCooldown: 60 sec.\\n[Passive Effect - ATT Power: +30]",
         "icons": ["/class-icons/5th-job/last-resort.png"],
         "animations": ["https://media1.giphy.com/media/H9sLPP1J2vVhs6Cmcl/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, reduces your %Avoidability while increases %Final Damage and damage taken from enemy attacks (including %Max HP attacks)",
+        "desc": "While active, increases %Final Damage",
         "details": [
             "[Passive]: Permanently grants flat Attack",
-            "There are two stages of the buff, pressing the Skill Key again will enter second stage which increases the effects of both the debuff and buff portions of the skill",
+            "There are two stages of the buff, pressing the Skill Key again will enter 2nd Stage which further increases %Final Damage however, the duration is halved",
             "Activating the buff by pressing the Down Arrow Key and Skill Key together will immediately trigger Stage 2<bp_Right-clicking the skill will toggle ON/OFF this function_>"
         ]
     },
     loadedDice: {
         "name": "Loaded Dice",
-        "shortDesc": "MP Cost: 1000, select your desired die roll.\\nIf a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%.\\nCooldown: 10 Sec.\\n[Passive Effect: Attack Power: +40]",
+        "shortDesc": "MP Cost: 1000, select your desired die roll.\\nIf a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%.\\nCooldown: 1 Sec.\\n[Passive Effect: Attack Power: +40]",
         "icons": ["/class-icons/5th-job/loaded-dice.png"],
         "animations": ["https://media0.giphy.com/media/3o34vbKGyVYywzT5tB/giphy.gif"],
         "type": "Buff",
         "desc": "After using this skill, the next time you use <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> Roll of the Dice, you'll throw an additional dice of your choosing",
         "details": [
             "[Passive]: Permanently grants flat Attack",
-            "Classes without <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> will be given a special skill to choose their desired number"
+            "Classes without <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> will be given a special skill to choose their desired number",
+            "[One]: Reduces cooldown of <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)}> by 50%",
+            "[Two]: Increases %DEF",
+            "[Three]: Increases Attack",
+            "[Four]: Increases %Crit Rate",
+            "[Five]: Increases %Damage",
+            "[Six]: Increases %EXP Rate"
         ]
     },
     overdrive: {
         "name": "Overdrive",
-        "shortDesc": "HP Cost: 1700, Duration: 28 sec, Attack Power: +80% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power\\nCooldown: 60 sec",
+        "shortDesc": "HP Cost: 100, Duration: 28 sec, Attack Power: +80% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power\\nCooldown: 60 sec",
         "icons": ["/class-icons/5th-job/overdrive.png"],
         "animations": ["https://media2.giphy.com/media/rgc0CfIUzypN6jyNrL/giphy.gif"],
         "type": "Buff",
@@ -678,7 +677,7 @@ export const commonFifth = {
     },
     blink: {
         "name": "Blink",
-        "shortDesc": "HP Cost: 3% of Max HP. Teleport to a random location on the map.\\nFloat for up to 5.0 sec. if you hold the key in the air\\nCooldown: 20 sec.\\n[Passive Effect - Attack Power & Magic ATT: +30]",
+        "shortDesc": "HP Cost: 100\\nTeleport to a random location on the map.\\nFloat for up to 5.0 sec. if you hold the key in the air\\nCooldown: 20 sec.\\n[Passive Effect - Attack Power & Magic ATT: +30]",
         "icons": ["/class-icons/5th-job/blink.png"],
         "type": "Active",
         "desc": "When used, teleport to a random location on the map",
@@ -689,7 +688,7 @@ export const commonFifth = {
     },
     erdaNova: {
         "name": "Erda Nova",
-        "shortDesc": "HP Cost: 15% of Max HP, Damage: 330%, Max Enemies Hit: 10, Number of Attacks: 5, Bind Duration: 10 sec.\\nBind Duration increases by up to 100% based on damage inflicted with Erda Nova.\\nCooldown: 100 sec.",
+        "shortDesc": "HP Cost: 100, Damage: 330%, Max Enemies Hit: 10, Number of Attacks: 5, Bind Duration: 10 sec.\\nBind Duration increases by up to 100% based on damage inflicted with Erda Nova.\\nCooldown: 100 sec.",
         "icons": ["/class-icons/5th-job/erda-nova.png"],
         "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTY1aTJqcnR4dzg3OTJ4N2VhNGFxZGYzd3NkbDdjZWx2a3ZoMmtlYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4wiWlBZ41UO6kkFNjJ/giphy.gif"],
         "type": "Bind Attack",
@@ -700,7 +699,7 @@ export const commonFifth = {
     },
     willOfErda: {
         "name": "Will of Erda",
-        "shortDesc": "HP Cost: 5% of Max HP, Cooldown: 330 sec",
+        "shortDesc": "HP Cost: 100, Cooldown: 330 sec",
         "icons": ["/class-icons/5th-job/will-of-erda.png"],
         "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmZ5enpsMzJjczZhb3dqYmswNXhmaTUycDNmN3lqdWRpYzBnN2xwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UuePNNimDkYhaqOHWV/giphy.gif"],
         "type": "Buff",
@@ -747,7 +746,7 @@ export const commonFifth = {
     },
     trueArachnidReflection: {
         "name": "True Arachnid Reflection",
-        "shortDesc": "HP Cost: 15% of Max HP\\nSpatial Collapse - Max Enemies Hit: 15, Damage: 1008%, Number of Attacks: 15, Once complete, summons True Arachnid Reflection.\\nTrue Arachnid Reflection - Duration: 50 sec, Goes into attack mode at set intervals. During attack mode, uses spider legs 10 times to deal 392% damage 8 times. If the spider legs attack one target 5 consecutive times, attack mode will end immediately. 3 sec cooldown after attack mode ends.\\nCooldown: 250 sec",
+        "shortDesc": "HP Cost: 100\\nSpatial Collapse - Max Enemies Hit: 15, Damage: 1008%, Number of Attacks: 15, Once complete, summons True Arachnid Reflection.\\nTrue Arachnid Reflection - Duration: 50 sec, Goes into attack mode at set intervals. During attack mode, uses spider legs 10 times to deal 392% damage 8 times. If the spider legs attack one target 5 consecutive times, attack mode will end immediately. 3 sec cooldown after attack mode ends.\\nCooldown: 230 sec",
         "icons": ["/class-icons/5th-job/true-arachnid-reflection.png"],
         "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDIzMDk3ZTkxbG14ZHZ2aXQxNHFob250ZGZuYTF5c2w3NjZzOTNuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6UbqkAQUAgMLFTbePZ/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeml6bW40aHNlbTc4dHJzeGQ3aHVjMnZtN2Zrc3ZhYnFsYjBmZmZodCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MjY13NechoKxZeWUNc/giphy.gif"],
         "type": "Summon",
@@ -760,7 +759,7 @@ export const commonFifth = {
     },
     solarCrest: {
         "name": "Solar Crest",
-        "shortDesc": "HP Cost: 15% of Max HP\\nMitra's Fire: summons a Flame Emblem after dealing 1650% damage up to 15 enemeis 12 times.\\nFlame Emblem: deals 440% damage to up to 2 enemies 6 times every 2.1 sec for 51 sec. Deals 605% damage if striking a single enemy.\\nCooldown: 250 sec",
+        "shortDesc": "HP Cost: 100\\nMitra's Fire: summons a Flame Emblem after dealing 1650% damage up to 15 enemeis 12 times.\\nFlame Emblem: deals 440% damage to up to 2 enemies 6 times every 2.1 sec for 51 sec. Deals 605% damage if striking a single enemy.\\nCooldown: 230 sec",
         "icons": ["/class-icons/5th-job/solar-crest.png"],
         "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmN2bjY5NWZ0bzdjdTd4NGw4aWlvdWdsNzduZ3U3emx2enNybzUyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DHBFk87CC7jR22CbFY/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2ZtdjR2eWRqdHYxN2IzOGtiZmZjcG82OGV1MmJ3eGUzODZucW56OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FKEHbH83ZXQOVjTGgT/giphy.gif"],
         "type": "Summon",
@@ -781,13 +780,12 @@ export const commonSixth = {
         "type": "Active",
         "desc": "When used, using the Arrow Keys, switch between <tt src={/class-icons/6th-job/sol-janus-dusk.png} tip={Sol Janus: Dusk (6th Job)}> and <tt src={/class-icons/6th-job/sol-janus-dawn.png} tip={Sol Janus: Dawn (6th Job)}>",
         "details": [
-            "[Passive]: Permanently increases %EXP Obtained from monsters",
-            "At Skill Level 30, both forms gain increased %Damage to regular monsters"
+            "[Passive]: Permanently increases %EXP Obtained from monsters"
         ]
     },
     solJanusDusk: {
         "name": "Sol Janus: Dusk",
-        "shortDesc": "HP Cost: 1% of Max HP\\nAttacking enemies releases Sol Erda that creates 11 Primal Crystals.\\nPrimal Crystal - Damage: 1035%, Number of Attacks: 6\\nCooldown: 3 sec",
+        "shortDesc": "HP Cost: 100\\nAttacking enemies releases Sol Erda that creates 11 Primal Crystals.\\nPrimal Crystal - Damage: 1035%, Number of Attacks: 6\\nCooldown: 3 sec",
         "icons": ["/class-icons/6th-job/sol-janus-dusk.png"],
         "type": "Passive",
         "desc": "Periodically, successful attacks trigger an additional attack that targets enemies in a large area",
@@ -798,7 +796,7 @@ export const commonSixth = {
     },
     solJanusDawn: {
         "name": "Sol Janus: Dawn",
-        "shortDesc": "HP Cost: 10% of Max HP\\nRing Duration: 120 sec, Max Number of Rings: 3\\nCyclic Ring - Max Enemies Hit: 10, Damage: 690%, Number of Attacks: 6\\nCooldown: 60 sec",
+        "shortDesc": "HP Cost: 100\\nRing Duration: 120 sec, Max Number of Rings: 3\\nCyclic Ring - Max Enemies Hit: 10, Damage: 690%, Number of Attacks: 6\\nCooldown: 60 sec",
         "icons": ["/class-icons/6th-job/sol-janus-dawn.png"],
         "type": "Summon",
         "desc": "Place down a stationary summon that damages nearby enemies",
