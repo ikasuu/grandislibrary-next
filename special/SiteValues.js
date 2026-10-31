@@ -193,26 +193,13 @@ export const commonFifth = {
             "The buff starts at full stacks (max. 3) that slowly decreases"
         ],
     },
-    expBowman: {
+    expArcher: {
         "name": "Fury of the Wild",
         "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 7\\nCooldown: 105 sec",
         "icons": ["/class-icons/5th-job/fury-of-the-wild.png"],
-        "animations": ["https://media3.giphy.com/media/llsZlPVsm7sAZFcb8i/giphy.gif"],
+        "animations": ["https://media3.giphy.com/media/llsZlPVsm7sAZFcb8i/giphy.gif", "https://media0.giphy.com/media/ZlMeLcuyoa4oW2el4Z/giphy.gif"],
         "type": "Summon",
-        "desc": "Transform Phoenix, Frostprey, or Shadow Raven into a more powerful form",
-        "details": [
-            "Can only be used when <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job - Bowmaster)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job - Marksman)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job - Pathfinder)}> is active"
-        ]
-    },
-    expPBowman: {
-        "name": "Fury of the Wild",
-        "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 7\\nCooldown: 105 sec",
-        "icons": ["/class-icons/5th-job/fury-of-the-wild.png"],
-        "animations": ["https://media0.giphy.com/media/ZlMeLcuyoa4oW2el4Z/giphy.gif"],
-        "desc": "Transform Phoenix, Frostprey, or Shadow Raven into a more powerful form",
-        "details": [
-            "Can only be used when <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job - Bowmaster)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job - Marksman)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job - Pathfinder)}> is active"
-        ]
+        "desc": "Transform <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job - Bowmaster)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job - Marksman)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job - Pathfinder)}> into a more powerful form",
     },
     expThief: {
         "name": "Shadow Walker",
@@ -411,14 +398,15 @@ export const commonFifth = {
     },
     lotusFlower:{
         "name": "Lotus Flower",
-        "shortDesc": "MP Cost: 15% of Max MP, Lotus Summon Duration: 1800 sec.\\nInvincible for 4.5 sec. upon revival.\\nCooldown: 400 sec. Skill Cooldown upon successful revival: -1400 sec. If the Lotus disappears without granting its blessing, the cooldown resets.",
+        "shortDesc": "MP Cost: 500, Lotus Summon Duration: 1800 sec\\nInvincible for 4.5 sec upon revival.\\nCooldown: 400 sec. Lotus can be summoned again upon reusing the skill. Re-summon Cooldown: 1 sec\\nCooldown: 400 sec, Skill Cooldown upon successful revival: -1400 sec. If the Lotus disappears without granting its blessing, the cooldown resets",
         "icons": ["/class-icons/5th-job/lotus-flower.png"],
         "animations": ["https://media.giphy.com/media/SGdhCXQpAHwCb1Fe8U/giphy.gif"],
         "type": "Summon Revive",
         "desc": "Place down a lotus that when hit by a fatal attack, you will not die but instead teleport to the lotus and heal back a percentage of your HP back",
         "details": [
             "You are briefly invincible after reviving",
-            "Cooldown is refunded if the lotus expires"
+            "While summoned, the lotus can be resummoned to your location by pressing the Skill Key again",
+            "Cooldown is refunded if the lotus expires<bp_Cooldown is reset is the lotus disappears without granting its effect_>"
         ]
     },
     twilightBloom:{
@@ -718,7 +706,7 @@ export const commonFifth = {
     },
     dHolyFountain: {
         "name": "Decent Holy Fountain",
-        "shortDesc": "Duration: 60 sec, restores 35% HP when used, able to use 20 times total.\\nIf it disappears before duration is up, Vestige of Divinity is created in the remaining time.\\nCooldown: 60 sec\\n[Passive Effect - All Stats +6]",
+        "shortDesc": "HP Cost: , Duration: 60 sec, restores 35% HP when used, able to use 20 times total.\\nIf it disappears before duration is up, Vestige of Divinity is created in the remaining time.\\nCooldown: 60 sec\\n[Passive Effect - All Stats +6]",
         "icons": ["/class-icons/explorers/bishop/holy-fountain.png"],
         "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHg1aWJmcm9uYnV3Mnp3MDRhbzM2YW1jaHlqbTBibXJqNTFpOGVhciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DaRTnIhgQdNDpTLUbu/giphy.gif"],
         "type": "Summon Heal",
@@ -726,7 +714,7 @@ export const commonFifth = {
         "details": [
             "[Passive]: Permanently grants flat All Stats",
             "Has a fixed number of uses before the fountain disappears",
-            "If the fountain disappears early, a Vestige of Divinity is created for the remaining duration that prevents another fountain from being summoned",
+            "If the fountain disappears early, a [Vestige of Divinity] is created for the remaining duration that prevents another fountain from being summoned",
             "Does not stack with <tt src={/class-icons/explorers/bishop/holy-fountain.png} tip={Holy Fountain (Bishop, 4th Job)}>"
         ]
     },
@@ -739,7 +727,7 @@ export const commonFifth = {
         "desc": "The attack has two modes depending on the keys pressed",
         "details": [
             "<tt src={/class-icons/5th-job/erda-fountain.png} tip={Erda Fountain (5th Job)}> [Erda Shower] - Releases a surrounding area attack<bp_Can be activated by pressing the Skill Key_The cooldown is slightly reduced upon defeating an enemy_>",
-            "<tt src={/class-icons/5th-job/erda-shower.png} tip={Erda Shower (5th Job)}> [Erda Fountain] - Places down a stationary summon that attacks whenever a fixed amount of enemies are defeated<bp_Can be activated by pressing the Down Arrow Key and Skill Key together_>",
+            "<tt src={/class-icons/5th-job/erda-shower.png} tip={Erda Shower (5th Job)}> [Erda Fountain] - Places down a stationary summon that attacks whenever a fixed amount of enemies are defeated<bp_Can be activated by pressing the Down Arrow Key and Skill Key together_While active, pressing the Skill Key again resummons the fountain at your location_>",
             "Both skills share the same cooldown",
             "Right-clicking the skill will toggle a function ON/OFF that swaps the activation command for <tt src={/class-icons/5th-job/erda-fountain.png} tip={Erda Fountain (5th Job)}> and <tt src={/class-icons/5th-job/erda-shower.png} tip={Erda Shower (5th Job)}>"
         ]

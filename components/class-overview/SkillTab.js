@@ -205,8 +205,9 @@ function HexaJobInfo(){
 function OriginSkillNote(){
   return(
     <HexaInfoContainer>
-      <p>Origin Skills bind all enemies hit for 10 secs (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills</p>
+      <p>Origin Skills bind all enemies hit for 10s (including enemies immune to binds). Origin Skill binds have a separate cooldown from regular bind skills</p>
       <p>While casting, Origin Skills grant absolute invincibility that can defend against instant deaths like Kaling P3, Will P3, Guardian Angel Slime, Kalos P2-4</p>
+      <p>Using an Origin Skill applies a cooldown acceleration effect for a set duration. While the effect is active, using a skill with a 60s/120s cooldown will decrease its cooldown by the cast animation duration of the Origin Skill</p>
       <p>Origin Skills receive bonus stats when they reach Lv. 10/20/30 (additive):</p>
       <p><strong>[Lv. 10]</strong> 20% Ignore DEF</p>
       <p><strong>[Lv. 20]</strong> 20% Boss Damage</p>

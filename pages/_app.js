@@ -28,9 +28,9 @@ function MyApp({ Component, pageProps }) {
     storage.setItem('theme', JSON.stringify(theme));
   },[theme]);
 
-  // useEffect(() => {
-  //   ReactGA.initialize(process.env.NEXT_PUBLIC_GA_ID);
-  // }, []);
+  useEffect(() => {
+    ReactGA.initialize(process.env.NEXT_PUBLIC_GA_ID);
+  }, []);
 
   return(
     <div id="container">
