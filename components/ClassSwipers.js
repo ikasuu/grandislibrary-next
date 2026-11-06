@@ -143,6 +143,8 @@ function ClassSwipe({classTitle, classGroup}) {
     // Removes words like (Xenon) or (Child of God) for Resistance and Other type classes when displaying <h5>
     if(classGroup.includes("Resistance")){
         name = "Resistance";
+    }else if(classGroup.includes("Demon")){
+        name = "Demon";
     }else if(classGroup.includes("Other")){
         name = "Other";
     }
@@ -305,6 +307,12 @@ function renderSwitch(classGroup, classTitle){
                         <Overlay/>
                     </Link>
                 </SwiperSlide>));
+
+        case "Demon":
+            var classArr = classes.demon.filter(job => job[1] != classTitle);
+            return (
+                <></>
+            );
 
         case "Jianghu":
             var classArr = classes.jianghu.filter(job => job[1] != classTitle);

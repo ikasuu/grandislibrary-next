@@ -46,6 +46,7 @@ export const classes = {
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
     other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"], ["ren", "Ren"]],
+    demon: [["lethe", "Lethe"]],
     jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
     shine: [["sia-astelle", "Sia Astelle"], ["erel-light", "Erel Light"]]
 }
@@ -91,7 +92,8 @@ export const weapons = {
     martialBrace: [`/images/equipment/martial-brace.png`, "Martial Brace"],
     celestialLight: [`/images/equipment/celestial-light.png`, "Celestial Light"],
     sword: [`/images/equipment/sword.png`, "Sword"],
-    gram: [`/images/equipment/gram.png`, "Gram"]
+    gram: [`/images/equipment/gram.png`, "Gram"],
+    dominium: [`/images/equipment/dominium.png`, "Dominium"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -148,7 +150,8 @@ export const secondaryWeapons = {
     braceBand: [`/images/equipment/brace-band.png`, "Brace Band"],
     compass: [`/images/equipment/compass.png`, "Compass"],
     imugiGem: [`/images/equipment/imugi-gem.png`, "Imugi Gem"],
-    keir: [`/images/equipment/keir.png`, "Keir"]
+    keir: [`/images/equipment/keir.png`, "Keir"],
+    quill: [`/images/equipment/quill.png`, "Quill"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
@@ -408,6 +411,14 @@ export const commonFifth = {
             "While summoned, the lotus can be resummoned to your location by pressing the Skill Key again",
             "Cooldown is refunded if the lotus expires<bp_Cooldown is reset is the lotus disappears without granting its effect_>"
         ]
+    },
+    demonicWroth:{
+        "name": "Demonic Wroth",
+        "shortDesc": "MP Cost: 500, Duration: 20 sec, Damage: +40%\nUpon landing 50 attacks, Buff Duration: +20 sec, up to 2 times\\nCooldown: 120 sec",
+        "icons": ["/class-icons/5th-job/demonic-wroth.png"],
+        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXk5aWRwc2p2OGh5ejNoc2RlM29qYTA4NGlvb2F0dzNwbzU4cHQ2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9s803IT612Cy7JLDi0/giphy.gif"],
+        "type": "Buff",
+        "desc": "While active, increases %Damage and upon landing a set amount of successful attacks, grants increased %Buff Damage (up to 2 times)"
     },
     twilightBloom:{
         "name": "Twilight Bloom",
@@ -1210,7 +1221,6 @@ export const linkSkills = {
         ]
     },
     siaAstelle: {
-        "id": 80010006,
         "offline": true,
         "name": "Tree of Stars",
         "shortDesc": "Buff Duration: +10%, Critical Damage: +3%",
@@ -1220,6 +1230,18 @@ export const linkSkills = {
         "desc": "",
         "details": [
             "Useful for BOSSING because BUFF DURATION is USEFUL FOR EXTENDING ANGELIC BUSTER'S LINK SKILL and CRIT DAMAGE for INCREASED DAMAGE"
+        ]
+    },
+    lethe: {
+        "offline": true,
+        "name": "Covenant",
+        "shortDesc": "Summoned Creature Damage: +12%",
+        "icons": ["/class-icons/link-skills/covenant.png"],
+        "maxLevel": 3,
+        "type": "Passive",
+        "desc": "While any summons are active, gain increased %Damage",
+        "details": [
+            "Useful for INCREASED DAMAGE"
         ]
     },
 }

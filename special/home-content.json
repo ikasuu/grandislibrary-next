@@ -1,14 +1,14 @@
 {
     "featured": [
         {
+            "image": "/home-thumbnail/lethe-overview.jpg",
+            "alt": "Lethe Class Overview",
+            "link": "https://grandislibrary.com/demon/lethe"
+        },
+        {
             "image": "/home-thumbnail/erel-light-overview.jpg",
             "alt": "Erel Light Class Overview",
             "link": "https://grandislibrary.com/shine/erel-light"
-        },
-        {
-            "image": "/home-thumbnail/ren-pre-release.jpg",
-            "alt": "Ren Class Overview",
-            "link": "https://grandislibrary.com/anima/ren"
         },
         {
             "image": "/home-thumbnail/sia-overview.jpg",
@@ -24,11 +24,6 @@
             "image": "/home-thumbnail/lynn-overview.jpg",
             "alt": "Lynn Class Overview",
             "link": "https://grandislibrary.com/jianghu/lynn"
-        },
-        {
-            "image": "/home-thumbnail/khali-overview.jpg",
-            "alt": "Khali Class Overview",
-            "link": "https://grandislibrary.com/flora/khali"
         },
         {
             "image": "/home-thumbnail/discord-invite.jpg",

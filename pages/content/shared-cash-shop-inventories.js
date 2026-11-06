@@ -231,6 +231,22 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
+                <ClassBlock color="#A770FF">
+                    <StyledTd style={{color: 'black'}}><strong>Demon</strong></StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}>Lethe</StyledTd>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                </ClassBlock>
+                <ClassBlock>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                    <StyledTd style={{color: 'black'}}/>
+                </ClassBlock>
                 <ClassBlock color="#D2FCCC">
                     <StyledTd style={{color: 'black'}}><strong>Jianghu</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}/>
@@ -247,7 +263,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                 </ClassBlock>
-                <ClassBlock color="#7767EA">
+                <ClassBlock color="#69C5FF">
                     <StyledTd style={{color: 'black'}}><strong>Shine</strong></StyledTd>
                     <StyledTd style={{color: 'black'}}>Erel Light</StyledTd>
                     <StyledTd style={{color: 'black'}}>Sia Astelle</StyledTd>

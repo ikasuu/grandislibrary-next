@@ -5,7 +5,7 @@ import HeaderImage from '../../components/HeaderImage';
 import { ClassGroupContainer } from '../../components/ClassSwipers';
 import * as Page from '../../components/Page';
 import BannerAdOne, { BannerAdTwo, BannerAdThree, StickyAd } from '../../components/Ads';
-import { Container, Alert } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import Link from 'next/link';
 
 /*
@@ -22,7 +22,9 @@ function Classes() {
             </Head>
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
-                <Container><Alert variant="secondary">Kinesis Class Overview is now updated! <Link href="/other/kinesis">Check it out now!</Link></Alert></Container>
+                <Container style={{marginBottom: '2rem'}}>
+                    <Link href="/demon/lethe"><Image fluid rounded src="/home-thumbnail/lethe-banner.jpg"/></Link>
+                </Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
                 <ClassGroupContainer classes={classes.explorers} classGroup="explorers"/>
@@ -46,6 +48,8 @@ function Classes() {
                 <ClassGroupContainer classes={classes.flora} classGroup="flora"/>
                 <Page.Subtitle>Anima</Page.Subtitle>
                 <ClassGroupContainer classes={classes.anima} classGroup="anima"/>
+                <Page.Subtitle>Demon</Page.Subtitle>
+                <ClassGroupContainer classes={classes.demon} classGroup="demon"/>
                 <Page.Subtitle>Jianghu</Page.Subtitle>
                 <ClassGroupContainer classes={classes.jianghu} classGroup="jianghu"/>
                 <Page.Subtitle>Shine</Page.Subtitle>
