@@ -23,7 +23,10 @@ function Classes() {
             <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
                 <Container style={{marginBottom: '2rem'}}>
-                    <Link href="/demon/lethe"><Image fluid rounded src="/home-thumbnail/lethe-banner.jpg"/></Link>
+                    <figure>
+                        <Link href="/demon/lethe"><Image fluid rounded src="/home-thumbnail/lethe-banner.jpg" alt="Check out the new Lethe Class Overview!"/></Link>
+                        <figcaption><strong>Check out the new <Link href="/demon/lethe">Lethe Class Overview!</Link></strong></figcaption>
+                    </figure>
                 </Container>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
