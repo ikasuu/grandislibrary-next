@@ -1,0 +1,1108 @@
+{
+    "class": "Mihile",
+    "content": {
+        "classGroup": "Cygnus Knights",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat Max HP",
+        "legionValue": "250/500/1000/2000/2500",
+        "equipment": [
+            {"weapon": ["oneHSword"]},
+            {"secondary": ["soulShield"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Attack +21"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.24x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/cygnus-knights/mihile/agile-swords.png} tip={Agile Swords (2nd Job)} val={+2}> <bg src={/class-icons/cygnus-knights/mihile/loyal-oath.png} tip={Loyal Oath (3rd Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/cygnus-knights/mihile/expert-sword-mastery.png} tip={Expert Sword Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+110(140) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/cygnus-knights/mihile/agile-swords.png} tip={Agile Swords (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/cygnus-knights/mihile/loyal-oath.png} tip={Loyal Oath (3rd Job)} val={+60}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+14% +110(155)(210 w/ HEXA upgrade)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/cygnus-knights/mihile/encourage.png} tip={Encourage (2nd Job)} val={+30}> <bg src={/class-icons/common/weapon-mastery-sword.png} tip={Sword Mastery (2nd Job)} val={+20}> <bg src={/class-icons/cygnus-knights/mihile/expert-sword-mastery.png} tip={Expert Sword Mastery (4th Job)} val={+30}> <bg src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack (4th Job)} val={+30}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/advanced-royal-guard.png} tip={Advanced Royal Guard (3rd Job)} val={up to +45} val={(up to +100 w/ HEXA upgrade)}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%(60%-100%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/cygnus-knights/mihile/loyal-oath.png} tip={Loyal Oath (3rd Job)} val={+20%}> <bg src={/class-icons/cygnus-knights/mihile/expert-sword-mastery.png} tip={Expert Sword Mastery (4th Job)} val={+15%}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/radiant-soul.png} tip={Radiant Soul (5th Job)} val={+100%}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png} tip={Advanced Righteous Indignation (3rd Job)} val={+20% to enemies with:} val={blind, stun, Offensive Defense, Charging Light}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+32%",
+                "detail": "<bg src={/class-icons/cygnus-knights/mihile/roiling-soul.png} tip={Roiling Soul (4th Job)} val={+10%}> <bg src={/class-icons/cygnus-knights/mihile/expert-sword-mastery.png} tip={Expert Sword Mastery (4th Job)} val={+22%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "[Party of 1] +8%(155% w/ Lv. 3 Link Skill)",
+                "detail": "<bg type={def} src={/class-icons/link-skills/knights-watch.png} tip={Knight's Watch (Link Skill)} val={+3% - Passive}> <bg type={def} sub={temp} src={/class-icons/cygnus-knights/mihile/soul-link.png} tip={Soul Link (3rd Job)} val={+5% per party member} val={(Max. +30%)}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/soul-majesty.png} tip={Soul Majesty (Hyper Skill)} val={+15%}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png} tip={Queen of Tomorrow (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/light-of-courage.png} tip={Light of Courage (5th Job)} val={+25%}> <bg type={temp} src={/class-icons/link-skills/knights-watch.png} tip={Knight's Watch (Link Skill)} val={Lv. 2: +20%} val={Lv. 3: +25%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+87.5%(263.46%)(266.20%-282.60% w/ 6th Job)",
+                "detail": "<bg src={/class-icons/common/weapon-mastery-sword.png} tip={Sword Mastery (2nd Job)} val={+20%}> × <bg src={/class-icons/cygnus-knights/mihile/loyal-oath.png} tip={Loyal Oath (3rd Job)} val={+25%}> × <bg src={/class-icons/cygnus-knights/mihile/roiling-soul.png} tip={Roiling Soul (4th Job)} val={+25%}> × <bg type={temp} src={/class-icons/cygnus-knights/mihile/radiant-soul.png} tip={Radiant Soul (5th Job)} val={+10%}>  × <bg type={temp} src={/class-icons/cygnus-knights/mihile/shield-of-light.png} tip={Shield of Light (5th Job)} val={+33%} val={(+34-40% instead w/ 6th Job)}> × <bg type={temp} src={/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png} tip={Advanced Righteous Indignation (3rd Job)} val={+25% to enemies with:} val={blind, stun, Offensive Defense, Charging Light}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+40%(49.6%-100%)",
+                "detail": "<bg src={/class-icons/cygnus-knights/mihile/combat-mastery.png} tip={Combat Mastery (4th Job)} val={+40%}> × <bg type={temp} src={/class-icons/cygnus-knights/mihile/radiant-soul.png} tip={Radiant Soul (5th Job)} val={+100%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/cygnus-knights/mihile/encourage.png} tip={Encourage (2nd Job)} dur={[180s]}>",
+            "toggles": "<tt src={/class-icons/cygnus-knights/mihile/roiling-soul.png} tip={Roiling Soul (4th Job)}>",
+            "summons": "<tt src={/class-icons/cygnus-knights/mihile/install-shield.png} tip={Install Shield (4th Job)} dur={[60s]}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[15s / 140 Attacks](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/link-skills/knights-watch.png} tip={Knight's Watch (Link Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/cygnus-knights/mihile/soul-majesty.png} tip={Soul Majesty (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png} tip={Queen of Tomorrow (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/mihile/shield-of-light.png} tip={Shield of Light (5th Job)} dur={[66s / 25s barrier](120s cd)}> <tt src={/class-icons/cygnus-knights/mihile/radiant-soul.png} tip={Radiant Soul (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/cygnus-knights/mihile/light-of-courage.png} tip={Light of Courage (5th Job)} dur={[20s / 12s barrier](60s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/cygnus-knights/mihile/durendal.png} tip={Durendal (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)} dur={[4s](6s cd)}> <tt src={/class-icons/cygnus-knights/mihile/durendal.png} tip={Durendal (6th Job)} dur={[360s cd]}>",
+            "damageReduce": "<tt src={/class-icons/link-skills/knights-watch.png} tip={Knight's Watch (Link Skill)} dur={[30s / 9 Attacks](-30% | 120s cd)}> <tt src={/class-icons/cygnus-knights/mihile/soul-asylum.png} tip={Soul Asylum (4th Job)}>[15s](-5%) - <em text={Additional -5% if}> <tt src={/class-icons/cygnus-knights/mihile/soul-majesty.png} tip={Soul Majesty (Hyper Skill)}> <em text={is active [25s Buff](180s cd)}> <tt src={/class-icons/cygnus-knights/mihile/shield-of-light.png} tip={Shield of Light (5th Job)} dur={[25s / 30 Attacks](-83% | 120s cd)}> <tt src={/class-icons/cygnus-knights/mihile/light-of-courage.png} tip={Light of Courage (5th Job)} dur={[12s](300% HP Barrier | 60s cd)}> <tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80001140,
+            "icons": ["/class-icons/link-skills/knights-watch.png"],
+            "type": "Buff"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/cygnus-knights/mihile/weightless-heart.png} tip={Weightless Heart}> -> <tt src={/class-icons/cygnus-knights/mihile/righteous-indignation.png} tip={Righteous Indignation}> -> <tt src={/class-icons/cygnus-knights/mihile/soul-devotion.png} tip={Soul Devotion}> -> <tt src={/class-icons/cygnus-knights/mihile/soul-shield.png} tip={Soul Shield}> -> <tt src={/class-icons/cygnus-knights/mihile/shining-pierce.png} tip={Shining Pierce}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/common/weapon-mastery-sword.png} tip={Sword Mastery}> -> <tt src={/class-icons/cygnus-knights/mihile/agile-swords.png} tip={Agile Swords}> -> <tt src={/class-icons/cygnus-knights/mihile/encourage.png} tip={Encourage}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack}> -> <tt src={/class-icons/cygnus-knights/mihile/four-point-assault.png} tip={Four-Point Assault}> -> <tt src={/class-icons/cygnus-knights/mihile/radiant-driver.png} tip={Radiant Driver}>"],
+                ["3rd Job", "<tt src={/class-icons/cygnus-knights/mihile/advanced-royal-guard.png} tip={Advanced Royal Guard}> -> <tt src={/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png} tip={Advanced Righteous Indignation}> -> <tt src={/class-icons/cygnus-knights/mihile/self-recovery.png} tip={Self Recovery}> -> <tt src={/class-icons/cygnus-knights/mihile/loyal-oath.png} tip={Loyal Oath}> -> <tt src={/class-icons/cygnus-knights/mihile/offensive-defense.png} tip={Offensive Defense}> -> <tt src={/class-icons/cygnus-knights/mihile/magic-crash.png} tip={Magic Crash}> -> <tt src={/class-icons/cygnus-knights/mihile/soul-link.png} tip={Soul Link}> -> <tt src={/class-icons/cygnus-knights/mihile/soul-release.png} tip={Soul Release}>"],
+                ["4th Job", "<tt src={/class-icons/cygnus-knights/mihile/soul-asylum.png} tip={Soul Asylum}> -> <tt src={/class-icons/cygnus-knights/mihile/advanced-offensive-defense.png} tip={Advanced Offensive Defense}> -> <tt src={/class-icons/cygnus-knights/mihile/combat-mastery.png} tip={Combat Mastery}> -> <tt src={/class-icons/cygnus-knights/mihile/expert-sword-mastery.png} tip={Expert Sword Mastery}> -> <tt src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack}> -> <tt src={/class-icons/cygnus-knights/mihile/radiant-cross.png} tip={Radiant Cross}> -> <tt src={/class-icons/common/power-stance.png} tip={Power Stance}> -> <tt src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus}> -> <tt src={/class-icons/cygnus-knights/mihile/install-shield.png} tip={Install Shield}> -> <tt src={/class-icons/cygnus-knights/mihile/roiling-soul.png} tip={Roiling Soul}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "[For Both]<bp_<tt src={/class-icons/cygnus-knights/mihile/radiant-cross-reinforce.png} tip={Radiant Cross - Reinforce}> <tt src={/class-icons/cygnus-knights/mihile/radiant-cross-guardbreak.png} tip={Radiant Cross - Guardbreak}> <tt src={/class-icons/cygnus-knights/mihile/radiant-cross-extra-strike.png} tip={Radiant Cross - Extra Strike}> Radiant Cross - Reinforce, Guardbreak, and Extra Strike_<tt src={/class-icons/cygnus-knights/mihile/install-shield-reinforce.png} tip={Install Shield - Reinforce}> Install Shield - Reinforce_> [For Bossing] <bp_<tt src={/class-icons/cygnus-knights/mihile/royal-guard-guardbreak.png} tip={Royal Guard - Guardbreak}> Royal Guard - Guardbreak_> [For Training] <bp_<tt src={/class-icons/cygnus-knights/mihile/install-shield-spread.png} tip={Install Shield - Spread}> Install Shield - Spread_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/cygnus-knights/mihile/radiant-cross.png} tip={Radiant Cross (4th Job)}> <tt src={/class-icons/cygnus-knights/mihile/install-shield.png} tip={Install Shield and Soul Majesty (4th Job / Hyper Skill)}> <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard and Offensive Defense (1st Job / 3rd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/cygnus-knights/mihile/charging-light.png} tip={Charging Light (Hyper Skill)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/cygnus-knights/mihile/radiant-driver.png} tip={Radiant Driver (2nd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4],
+            "other": [5],
+            "nodes": [
+                "<tt src={/class-icons/cygnus-knights/mihile/radiant-cross.png} tip={Radiant Cross (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}>",
+                "<tt src={/class-icons/cygnus-knights/mihile/charging-light.png} tip={Charging Light (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/mihile/install-shield.png} tip={Install Shield (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/mihile/offensive-defense.png} tip={Offensive Defense (3rd Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/cygnus-knights/mihile/soul-majesty.png} tip={Soul Majesty (Hyper Skill)}>",
+                "<tt src={/class-icons/cygnus-knights/mihile/radiant-driver.png} tip={Radiant Driver (2nd Job)}> <tt src={/class-icons/cygnus-knights/mihile/shining-pierce.png} tip={Shining Pierce (1st Job)}>",
+                "<tt src={/class-icons/cygnus-knights/mihile/four-point-assault.png} tip={Four-Point Assault (2nd Job)}> <tt src={/class-icons/cygnus-knights/mihile/soul-release.png} tip={Soul Release (3rd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Mihile"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%AF%B8%ED%95%98%EC%9D%BC(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/6SPVvZRWJM"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1PQKPlHGbvqT7dftm2-jk9i8SiBLRkaY5E0DpE0unK5I"}
+        ],
+        "infographics": [
+            {
+                "src": "mihile/mihile-overview.png",
+                "title": "Overview",
+                "credit": "Arcah & Mega",
+                "date": "2026-05-14"
+            },
+            {
+                "src": "mihile/mihile-6th-job.png",
+                "title": "6th Job",
+                "credit": "Mihile Discord",
+                "date": "2026-05-14"
+            }
+        ],
+        "discord": "https://discord.gg/6SPVvZRWJM",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["6th Job Skills Animations", "Drivron"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Radiant Soul Skills",
+            "content": [
+                "<img src={https://media.giphy.com/media/ZQqhn6yTpj1x1iLmxC/giphy.gif} alt={Skill Offensive Defense}>",
+                "Several of Mihile's attacks are labelled as 'Radiant Soul' skills which have an interaction with the 3rd Job skill <tt src={/class-icons/cygnus-knights/mihile/offensive-defense.png} tip={Offensive Defense (3rd Job)}> Offensive Defense that applies a debuff to enemies hit by <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> Royal Guard counterattack. Radiant Soul skills will consume the debuff and deal a shockwave attack. Below is a list of all Mihile's Radiant Soul skills:",
+                "<bp_<tt src={/class-icons/cygnus-knights/mihile/shining-pierce.png} tip={Shining Pierce (1st Job)}> Shining Pierce - 1st Job_<tt src={/class-icons/cygnus-knights/mihile/four-point-assault.png} tip={Four-Point Assault (2nd Job)}> Four-Point Assault - 2nd Job_<tt src={/class-icons/cygnus-knights/mihile/soul-release.png} tip={Soul Release (3rd Job)}> Soul Release - 3rd Job_<tt src={/class-icons/cygnus-knights/mihile/radiant-cross.png} tip={Radiant Cross (4th Job)}> Radiant Cross - 4th Job_<tt src={/class-icons/cygnus-knights/mihile/charging-light.png} tip={Charging Light (Hyper Skill)}> Charging Light - Hyper Skill_<tt src={/class-icons/cygnus-knights/mihile/sword-of-light.png} tip={Sword of Light (5th Job)}> Sword of Light - 5th Job_<tt src={/class-icons/cygnus-knights/mihile/radiant-soul.png} tip={Radiant Soul (5th Job)}> Radiant Soul - 5th Job_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Knight's Watch",
+                    "shortDesc": "Barrier Duration: 30 sec, Enemy Blows Blocked: 9, Damage: +25%\\nDamage -30% only for attacks that inflict at a certain ratio of the Max HP\\nCooldown: 120 sec.\\n[Passive Effect: Damage +3%]",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/knights-watch.png"],
+                    "type": "Buff",
+                    "details": [
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/fwJwmtdWlXIkW3z16Z/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/9zVpH9MGjJs5idcO9C/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/6IXMkQb9eItVYOJlgU/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/imperial-recall.png"],
+                    "animations": ["https://media.giphy.com/media/7CO8iMR4vjUJMP4Kuy/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Noble Mind",
+                    "shortDesc": "Increases Empress's Blessing max level by 6",
+                    "maxLevel": 6,
+                    "icons": ["/class-icons/cygnus-knights/noble-mind.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing quests from Neinheart after Lv. 125"
+                    ]
+                },
+                {
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-expert.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Knight's Watch",
+                    "shortDesc": "Barrier Duration: 30 sec, Enemy Blows Blocked: 9, Damage: +25%. Damage -30% only for attacks that inflict damage at a certain ratio of the Max HP\\nCooldown: 120 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/knights-watch.png"],
+                    "animations": ["https://media.giphy.com/media/aVovgULfgFOlLgj4qQ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases %Damage and creates a barrier that blocks a fixed number of attacks",
+                    "details": [
+                        "For %Max HP attacks, reduces the amount of damage taken",
+                        "Skill can be found within the <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}> Link Manager<bp_Skill is only applicable to Mihile, when linked, characters receive an Abnormal Status Resistance buff instead_>"
+                    ]
+                },
+                {
+                    "name": "Empress's Shout",
+                    "shortDesc": "Max HP and Max MP: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/empress-shout.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "reqLev": "Req. 100",
+                    "details": [
+                        "Gained from completing the quest <link href={https://maplestorywiki.net/w/Quests/13/The_Gift_for_the_Empress} title={\"The Gift for the Empress\"}> at Lv. 100"
+                    ]
+                },
+                {
+                    "name": "Empress's Prayer",
+                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 2 hours",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/empress-prayer.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2luOXpraWpidWYzNDFjNTM3ODVuY3Y5NXc3eHlwdDh0emlyeXVtZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p45uk044oIKXe1y34r/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 100",
+                    "details": [
+                        "Gained from completing the quest <link href={https://maplestorywiki.net/w/Quests/13/The_Gift_for_the_Empress} title={\"The Gift for the Empress\"}> at Lv. 100",
+                        "Affects all nearby players",
+                        "While active, ignores damage penalty from monster level difference",
+                        "Has a cooldown (1 day), unaffected by cooldown resets and buff duration increase"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZxOHNseG42MnV0NDdqdDhvazA0bGI1bG9keDZhdzdydGZlczA1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M0FJa7IR4zkW5UkfVO/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Gained from completing the quest <link href={https://maplestorywiki.net/w/Quests/13/Will_of_Light} title={\"Will of Light\"}> at Lv. 200",
+                        "Cannot be applied while <tt src={/class-icons/cygnus-knights/mihile/empress-prayer.png} tip={Empress's Prayer (Beginner Skill)}> is active",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Shining Pierce",
+                        "shortDesc": "MP Cost: 14, Max Enemies Hit: 5, Damage: 190%, Number of Attacks: 2\\nBlind Chance: 15%, Blind Duration: 10 sec, Accuracy: -30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/mihile/shining-pierce.png"],
+                        "animations": ["https://media.giphy.com/media/jZ1kFdqXcz4kpzuFwz/giphy.gif"],
+                        "type": "Radiant Soul Attack",
+                        "desc": "Strike foward with a chance to apply Blind debuff",
+                        "details": [
+                            "[Blind]: Reduces enemy %Accuracy"
+                        ]
+                    },
+                    {
+                        "name": "Royal Guard",
+                        "shortDesc": "MP Cost: 20, become invincible when attacked for 4 sec, nullifying attacks and counterattacking for a set time after use. Attack Power increases for 20 sec per counterattack.\\nIf you guard successfully while in Attack Power Increase buff state, counterattack damage, attack range, and Attack Power increases gradually, but the time for guarding decreases gradually.\\n[1st Time]: Max Number of Enemies: 6, Damage: 305%, Number of Attacks: 4, Attack Power: +10.\\n[2nd Time]: Max Number of Enemies: 7, Damage: 370%, Number of Attacks: 5, Attack Power: +15.\\n[3rd Time]: Max Number of Enemies: 8, Damage: 470%, Number of Attacks: 6, Attack Power: +20.\\nCooldown: 6 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/cygnus-knights/mihile/royal-guard.png"],
+                        "animations": ["https://media.giphy.com/media/3OPuJWmKlvsuSkcvz3/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Upon use, briefly enter a stance where if you are hit, the attack is nullified and you become invincible and release a counterattack",
+                        "details": [
+                            "Counterattack releases a shockwave that becomes stronger and larger for each successful counterattack (up to 3 stacks)",
+                            "Successful counterattacks also grants a flat Attack buff that grows stronger for each successful counterattack (up to 3 stacks)",
+                            "Can be used while casting another skill",
+                            "Ignores Damage Ignore and Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Weightless Heart",
+                        "shortDesc": "MP Cost: 20, allows you to jump a greater distance",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/mihile/weightless-heart.png"],
+                        "animations": ["https://media.giphy.com/media/DuNm22kzTYICjHRRbH/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
+                        ]
+                    },
+                    {
+                        "name": "Soul Shield",
+                        "shortDesc": "DEF: +200, Max HP: +20%, Knockback Resistance: +40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/mihile/soul-shield.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Soul Devotion",
+                        "shortDesc": "Speed: +25, Jump +20, Max Speed: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/mihile/soul-devotion.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Righteous Indignation",
+                        "shortDesc": "When attacking enemies with Blind, Final Damage: +10%, Critical Rate: +10%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/cygnus-knights/mihile/righteous-indignation.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [{
+                        "name": "Four-Point Assault",
+                        "shortDesc": "MP Cost: 18, Max Enemies Hit: 6, Damage: 145%, Number of Attacks: 6\\nBlind Chance: 20%, Blind Duration: 10 sec, Accuracy: -30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/mihile/four-point-assault.png"],
+                        "animations": ["https://media.giphy.com/media/loTdG9UBMwAd4FiX0P/giphy.gif"],
+                        "type": "Radiant Soul Attack",
+                        "desc": "Strike forward with multiple swords with a chance to apply Blind debuff",
+                        "details": [
+                            "[Blind]: Reduces enemy %Accuracy"
+                        ]
+                    },
+                    {
+                        "name": "Radiant Driver",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 400% while moving",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/cygnus-knights/mihile/radiant-driver.png"],
+                        "animations": ["https://media.giphy.com/media/flHrmgP8dN5SViJY4z/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing enemies back"
+                    },
+                    {
+                        "name": "Encourage",
+                        "shortDesc": "MP Cost: 20, Duration: 180 sec, Attack Power: +30\\n[Passive Effects: Royal Guard Lv. 1 - 3 Counterattack Damage: +70% points]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/mihile/encourage.png"],
+                        "animations": ["https://media.giphy.com/media/xv5aOtJHDUi0wzG106/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage of <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> counterattack (1 - 3 stacks) by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Agile Swords",
+                        "shortDesc": "Attack Speed: +2, STR: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/mihile/agile-swords.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Sword Mastery",
+                        "shortDesc": "One-Handed Sword Mastery: +50%, Attack Power: +20, Final Damage: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/weapon-mastery-sword.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Final Attack",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 50% Final Attack damage 3 time(s).",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/final-attack.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful attacks have a chance to deal an additional hit"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Soul Release",
+                        "shortDesc": "MP Cost: 19, Max Enemies Hit: 6, Damage: 460%, Number of Attacks: 3\\nBlind Chance: 30%, Blind Duration: 10 sec, Accuracy: -30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/mihile/soul-release.png"],
+                        "animations": ["https://media.giphy.com/media/QnYPa1FzpW28XmBfIm/giphy.gif"],
+                        "type": "Radiant Soul Attack",
+                        "desc": "Release a blast of light forward with a chance to apply Blind debuff",
+                        "details": [
+                            "[Blind]: Reduces enemy %Accuracy"
+                        ]
+                    },
+                    {
+                        "name": "Magic Crash",
+                        "shortDesc": "MP Cost: 15, 100% chance to remove enemies' buffs. For 22 sec, prevents 10 enemies from casting buffs.\\nCooldown: 60 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/mihile/magic-crash.png"],
+                        "animations": ["https://media.giphy.com/media/l9I3Q95gaOCZ2mvn8d/giphy.gif"],
+                        "type": "Active Debuff",
+                        "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs",
+                        "details": [
+                            "Enemies affected by Magic Crash cannot be affected again for a short period",
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Soul Link",
+                        "shortDesc": "[Mihile]: Damage: +5% per party member in the same map. If you are not in a party, you will be considered to be in a 1-person party.\\n[Party Member]: When Mihile succeeds with Royal Guard, creates a protective shield that is 10% of each party member's Max HP for 10.0 sec for party members in the Soul Link's range.\\nPeriodically for 8 sec, party members in the Soul Link's range receive a bonus to Attack and MAGIC ATT equal to 50% of the Attack Power bonus from Royal Guard. If Advanced Royal Guard is active, they will receive 20% of its Status Resistance and 30% of its DEF Bonus.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/mihile/soul-link.png"],
+                        "animations": ["https://media.giphy.com/media/qdJBDyXGIsQHIQF7RX/giphy.gif"],
+                        "type": "Party Passive",
+                        "desc": "Increases your %Damage for every party member within range",
+                        "details": [
+                            "If you are not in a party, you will be considered a 1-person party",
+                            "[Party Member]: Upon successful <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> counterattacks, party members gain a shield based on a percentage of their Max HP",
+                            "[Party Member]: Periodically party members within range will receive an Attack/Magic Attack buff equal to 50% of the Attack buff from <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> and 20% of Status Resistance and 30% of %DEF from <tt src={/class-icons/cygnus-knights/mihile/advanced-royal-guard.png} tip={Advanced Royal Guard (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Advanced Royal Guard",
+                        "shortDesc": "[4th Time]: Max Number of Enemies: 10, Damage: 580%, Number of Attacks: 7, Attack Power: +30.\\n[5th Time]: Max Number of Enemies: 15, Damage: 665%, Number of Attacks: 9, Attack Power: +45\\n[Passive Effect - Defense: +100%, Status Resistance: +60, Elemental Resistance: +60%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/mihile/advanced-royal-guard.png", "/class-icons/cygnus-knights/mihile/royal-guard.png"],
+                        "animations": ["https://media.giphy.com/media/0TYEjTUeyAvLTQDtQ5/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks to 5",
+                            "Now also permanently increases %DEF and Abnormal Status Resistance"
+                        ]
+                    },
+                    {
+                        "name": "Self Recovery",
+                        "shortDesc": "Restores 4% of Max HP and 4% of Max MP every 4 sec.",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/cygnus-knights/mihile/self-recovery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Loyal Oath",
+                        "shortDesc": "Strength: +60, Critical Rate: +20%, Final Damage: +25%, Attack Speed: +1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/mihile/loyal-oath.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Advanced Righteous Indignation",
+                        "shortDesc": "When attacking enemies with Blind, Stun, Offensive Defense debuff, or Charging Light debuff, Final Damage: +15%, Critical Rate: +10%\\nAdditive with effect that increases with Righteous Indignation",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png", "/class-icons/cygnus-knights/mihile/righteous-indignation.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases effects to also apply to attacking enemies with Blind, Stun, <tt src={/class-icons/cygnus-knights/mihile/offensive-defense.png} tip={Offensive Defense (3rd Job)}> debuff, or <tt src={/class-icons/cygnus-knights/mihile/charging-light.png} tip={Charging Light (Hyper Skill)}> debuff",
+                            "Increases %Final Damage and %Crit Rate provided (additively)"
+                        ]
+                    },
+                    {
+                        "name": "Offensive Defense",
+                        "shortDesc": "When Royal Guard's counterattack hits, give enemy Offensive Defense debuff for 60 sec\\nWhen Radiant Soul skill hits enemy with the debuff, a light shockwave is created centered on the enemy that was hit. The Offensive Defense debuff disappears when the enemy is hit by the light shockwave.\\nLight Shockwave - Damage: 350%, Number of Attacks: 5\\nCooldown: 12 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/mihile/offensive-defense.png"],
+                        "animations": ["https://media.giphy.com/media/ZQqhn6yTpj1x1iLmxC/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Enemies hit by <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> counterattack receive an [Offensive Defense] debuff",
+                        "details": [
+                            "[Offensive Defense]: Radiant Soul skills consume the debuff to deal a shockwave attack",
+                            "Shockwave will be centered on the boss with the highest Max HP or the closest enemy among those hit if there are no bosses nearby"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/call-of-cygnus.png"],
+                    "animations": ["https://media.giphy.com/media/MeUeEQJBfKf0KWHCEN/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Cygnus Knights' Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
+                    "animations": ["https://media.giphy.com/media/Qy5j9Z6EwRlnuRtgpR/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Radiant Cross",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 7, Damage: 530%, Number of Attacks: 4\\nBlind Chance: 30%, Blind Duration: 10 sec, Accuracy: -30%\\n------Radiant Cross - Assault------\\nMP Cost: 70, Max Enemies Hit: 12, Damage: 326%, Number of Attacks: 10\\nBlind Chance: 30%, Blind Duration: 10 sec, Accuracy: -30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/mihile/radiant-cross.png", "/class-icons/cygnus-knights/mihile/radiant-cross-assault.png"],
+                    "animations": ["https://media.giphy.com/media/1MCzDf85n4TzmJtkAt/giphy.gif", "https://media.giphy.com/media/RShe37P42CPjLWkKpI/giphy.gif"],
+                    "type": "Radiant Soul Attack",
+                    "desc": "Slash forward creating a small shockwave with a chance to apply Blind debuff",
+                    "details": [
+                        "[Blind]: Reduces enemy %Accuracy",
+                        "While <tt src={/class-icons/cygnus-knights/mihile/roiling-soul.png} tip={Roiling Soul (4th Job)}> is active, this skill is enhanced to <tt src={/class-icons/cygnus-knights/mihile/radiant-cross-assault.png} tip={Radiant Cross - Assault (4th Job)}> Radiant Cross - Assault, the 2nd animation"
+                    ]
+                },
+                {
+                    "name": "Roiling Soul",
+                    "shortDesc": "MP Cost: 50, Radiant Soul Blind Chance increased to 100%.\\n[Passive Effect - Final Damage: +25%, Critical Damage: +10%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/mihile/roiling-soul.png"],
+                    "animations": ["https://media.giphy.com/media/rbtORh91cKQ56TZfj8/giphy.gif"],
+                    "type": "Toggle Buff",
+                    "desc": "While toggled, all Radiant Soul skills have a guaranteed chance to apply Blind debuff",
+                    "details": [
+                        "[Passive]: Permanently increases %Final Damage and %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Install Shield",
+                    "shortDesc": "MP Cost: 80, Duration: 60 sec\\nPeriodically deals 225% damage 4 times to up to 6 enemies.\\nDamage Against Normal Enemies: +60%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/mihile/install-shield.png"],
+                    "animations": ["https://media.giphy.com/media/b3u3oNB1kftS25p9DF/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Place down a stationary shield that damages nearby enemies",
+                    "details": [
+                        "Deals increased %Damage to regular monsters",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Advanced Offensive Defense",
+                    "shortDesc": "Offensive Defense Light Shockwave Damage: +250% points\\nLight Shockwave cooldown decreases to 10 sec\\nRoyal Guard Counterattack Damage at All Levels: +200% points",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/cygnus-knights/mihile/advanced-offensive-defense.png", "/class-icons/cygnus-knights/mihile/offensive-defense.png", "/class-icons/cygnus-knights/mihile/royal-guard.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases the %Damage of <tt src={/class-icons/cygnus-knights/mihile/offensive-defense.png} tip={Offensive Defense (3rd Job)}> shockwave and <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> counterattack (all stacks) by a flat amount",
+                        "Reduces cooldown of <tt src={/class-icons/cygnus-knights/mihile/offensive-defense.png} tip={Offensive Defense (3rd Job)}> shockwave"
+                    ]
+                },
+                {
+                    "name": "Soul Asylum",
+                    "shortDesc": "When Royal Guard is successful, Damage -5% only for attacks that inflict damage at a certain ratio to max HP for 15 sec\\nDamage -10% permanently, Max HP: +20%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/cygnus-knights/mihile/soul-asylum.png"],
+                    "type": "Passive",
+                    "desc": "When <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> is successful, gain a %Damage Reduction buff against %Max HP attacks",
+                    "details": [
+                        "Additionally, permanently increases %Damage Reduction and %Max HP"
+                    ]
+                },
+                {
+                    "name": "Expert Sword Mastery",
+                    "shortDesc": "One-Handed Sword Mastery: +70%\\nAttack Power: +30, Critical Rate: 15%, Critical Damage: +22%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/mihile/expert-sword-mastery.png", "/class-icons/common/weapon-mastery-sword.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Rate and %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Advanced Final Attack",
+                    "shortDesc": "Attack Power: +30 permanently.\\n[Final Attack Skills] Final Attack Chance: 75%, Damage: 95%, Times Activated: 4.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/advanced-final-attack.png", "/class-icons/common/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation chance and %Damage",
+                        "Now grants flat Attack"
+                    ]
+                },
+                {
+                    "name": "Combat Mastery",
+                    "shortDesc": "40% enemy DEF ignored",
+                    "maxLevel": 15,
+                    "icons": ["/class-icons/cygnus-knights/mihile/combat-mastery.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Power Stance",
+                    "shortDesc": "Knockback Resistance: +60%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/power-stance.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Royal Guard - Enhance",
+                    "shortDesc": "Decrease the potentcy of attacks that inflict damage at a certain ratio to Max HP by an additional 5%, additive with Soul Asylum's effect",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/royal-guard-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Royal Guard - Guardbreak",
+                    "shortDesc": "Enemy Defense Ignored: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/royal-guard-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Royal Guard - Persist",
+                    "shortDesc": "Increases the damage reduction effect duration of attacks that inflict damage at a certain ratio to Max HP by 5 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/royal-guard-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Radiant Cross - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/radiant-cross-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Radiant Cross - Guardbreak",
+                    "shortDesc": "Enemy Defense Ignored: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/radiant-cross-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Radiant Cross - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/radiant-cross-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Install Shield - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/install-shield-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Install Shield - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/install-shield-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Install Shield - Persist",
+                    "shortDesc": "Duration: +10 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/install-shield-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Soul Majesty",
+                    "shortDesc": "MP Cost: 200, immediately resets Offensive Defense cooldown upon use.\\nDuration: 20 sec, Damage: +15%\\nWhen Soul Asylum's Royal Guard succeeds while active, damage reduction of the damage reduction effect increases by 5%. The increased damage reduction is additive with Soul Asylum's effect.\\nOffensive Defense debuff occurs due to the active Install Shield.\\nCooldown of Offensive Defense Light Shockwave decreases to 2 sec\\nWhen Offensive Defense's Light Shockwave occurs, Light Wave occurs as well\\nLight Wave - Max Enemies Hit: 8, Damage: 700%, Number of Attacks; 6\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/soul-majesty.png"],
+                    "animations": ["https://media.giphy.com/media/KyCzpxfEX0GT2hzGgF/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, increases %Damage and the %Damage Reduction provided from <tt src={/class-icons/cygnus-knights/mihile/soul-asylum.png} tip={Soul Asylum (4th Job)}>",
+                    "details": [
+                        "Upon use, the cooldown of <tt src={/class-icons/cygnus-knights/mihile/offensive-defense.png} tip={Offensive Defense (3rd Job)}> is reset and while active, the shockwave attack triggers an additional wave attack and <tt src={/class-icons/cygnus-knights/mihile/install-shield.png} tip={Install Shield (4th Job)}> can apply [Offensive Defense] debuff"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Charging Light",
+                    "shortDesc": "MP Cost: 300, Number of Enemies: 15, Damage: 825%, Number of Attacks: 10\\n10% more damage for party members including yourself for 60 sec\\nBlind Chance: 50%, Blind Duration: 10 sec, Accuracy: -30%\\nCooldown: 15 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/charging-light.png"],
+                    "animations": ["https://media.giphy.com/media/qcPaJdv1oXA4s6IOBV/giphy.gif"],
+                    "type": "Radiant Soul Attack",
+                    "desc": "Strike forward damaging and applying a debuff to enemies with a chance to apply Blind debuff",
+                    "details": [
+                        "[Debuff]: Enemy takes increased %Damage from all party members",
+                        "[Blind]: Reduces enemy %Accuracy"
+                    ]
+                },
+                {
+                    "name": "Queen of Tomorrow",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png"],
+                    "animations": ["https://media.giphy.com/media/6idy9QqgVOF0bYxNse/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["phalanxCharge", "cygnusBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Shield of Light",
+                    "shortDesc": "MP Cost: 1000, Duration: 66 sec, Final Damage: +33%\\nDamage Reduction (to you and party members inside shield): 83% (including Percentage HP attacks) for 25 sec, blocks debilitating status conditions\\nUpon successful blocking of the attack and status conditions, the shield has 3 layers, which can defend against 8, 8, and 14 attacks, respectively. Number of blocks decrease only once both status condition and attack are applied at the same time.\\nCooldow: 120 sec",
+                    "icons": ["/class-icons/cygnus-knights/mihile/shield-of-light.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2dydHFtcGRmZnN1bWZzOGdvcHpsOWh3cXc2cXZhMndocnp1M3plNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yYtM6jYywV8LR3Wmnf/giphy.gif"],
+                    "type": "Buff Zone",
+                    "desc": "While active, increases your %Final Damage and creates a shield that defends party members against attacks and Critical Abnormal Statuses, reducing the amount of damage dealt (including %Max HP attacks)",
+                    "details": [
+                        "The shield has 3 layers that can block 8/8/14 attacks/status each",
+                        "When an attack and status is applied at the same time, the shield is only decreased by 1"
+                    ]
+                },
+                {
+                    "name": "Sword of Light",
+                    "shortDesc": "MP Cost: 800, Max Enemies Hit: 12, Number of Attacks: 15\\nDamage increases based on Royal Guard's Attack Power buff's stack.\\n[3 Stacks or Lower] - Damage: 1595%\\n[4 Stacks] - Damage: 1815%\\n[5 Stacks] - Damage: 2200%\\n100% chance to Blind enemies for 10 sec, reducing their Accuracy by 30%\\nAfter use, Royal Guard's Attack Power Buff Duration: +6 sec, cannot exceed max stacks\\nCooldown: 12 sec",
+                    "icons": ["/class-icons/cygnus-knights/mihile/sword-of-light.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXQ4NjM2bnVtZHNoZ3IyNHl4MmU0b2pybDR0aWNwbzhwZ20xZnBkNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RYgCioLyI29iO0IiRZ/giphy.gif"],
+                    "type": "Radiant Soul Attack",
+                    "desc": "Shines a ray of light that damages and applies Blind debuff to nearby enemies",
+                    "details": [
+                        "[Blind]: Reduces enemy %Accuracy",
+                        "The size and damage of the attack becomes stronger based on how stacks of <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> are active",
+                        "Additionally, when Sword of Light is used, the duration of the Attack buff from <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> is increased but cannot exceed the max duration",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Radiant Soul",
+                    "shortDesc": "MP Cost: 1200\\nEquip a Sword of Light for 20 sec., empowering your attacks. Final Damage: +10%, Critical Rate: +100%, and Ignore Defense: +100%. Increases the duration of Royal Guard to a total of 0.5 sec.\\nWhile active, the afterimage of the sword periodically falls upon to 4 enemies, attacking 5 times for 1370% damage.\\nRadiant Soul Slash: [Radiant Soul Skill] MP Cost: 100, Max Enemies Hit: 8, Damage: 968%, Number of Attacks: 9\\nLight Force Rei: [Radiant Soul Skill] Max Enemies Hit: 8, Damage: 1370%, Number of Light Attacks: 15, Number of Light Attack Occurances: 7.\\nWhen Radiant Soul Slash and Light Force Rei hits, 50% chance to Blind for 10 sec and decrease Accuracy by 30%\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/cygnus-knights/mihile/radiant-soul.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWdiMHJpYjc5dTV1bDdzYzd2ODJiYzAzd3Q4MGVkdXA4djdsbXJ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i0AboThcxKsKusofMi/giphy-downsized-large.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, increases %Final Damage, %Crit Rate, and %Ignore DEF and nearby enemies are periodically damaged",
+                    "details": [
+                        "Upon use, grants full stacks of <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> and while the buff is active, the activation period is increased to 0.5 secs",
+                        "While active, the following 'Radiant Soul' attacks can be triggered:<bp_Pressing the Attack Key performs a slash attack_Pressing the Skill Key releases a one-time blast of light_>",
+                        "Right-clicking the skill will toggle a function ON/OFF while Radiant Soul is active to perform the slash attack using either the Attack Key or <tt src={/class-icons/cygnus-knights/mihile/radiant-cross.png} tip={Radiant Cross (4th Job)}>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Light of Courage",
+                    "shortDesc": "MP Cost: 1000, Duration: 20 sec, Damage: +25%.\\nParty Effect: Forms a protective shield that corresponds to 300% of your party's cumulative max HP. Protective Shield Duration: 12 sec., 7% of maxmium reduced every sec.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/cygnus-knights/mihile/light-of-courage.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2dpMnpoemI3cXJmbnFyNzlzNnM2eDZpMWJ6NHIzN2VmMjRkYmozMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IXqFJRVHMr5AQSPXyv/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "Increases your %Damage and forms a protective shield to party members",
+                    "details": [
+                        "[Party Effect]: Creates a decaying damage shield for each party member equal to a percentage of their Max HP"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Shining Pierce Boost",
+                    "shortDesc": "Shining Pierce Final Damage: +350%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/shining-pierce.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Royal Guard and Offensive Defense Boost",
+                    "shortDesc": "Royal Guard's Counterattack and Offensive Defense's Light Shockwave Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/royal-guard.png", "/class-icons/cygnus-knights/mihile/offensive-defense.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Four-Point Assault Boost",
+                    "shortDesc": "Four-Point Assault Final Damage: +300%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/four-point-assault.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Radiant Driver Boost",
+                    "shortDesc": "Radiant Driver Final Damage: +300%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/radiant-driver.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Soul Release Boost",
+                    "shortDesc": "Soul Release Final Damage: +180%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/soul-release.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Install Shield and Soul Majesty Boost",
+                    "shortDesc": "Install Shield and Soul Majesty's Light Wave Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/install-shield.png", "/class-icons/cygnus-knights/mihile/soul-majesty.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Radiant Cross Boost",
+                    "shortDesc": "Radiant Cross and Radiant Cross - Assault Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/radiant-cross.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Charging Light Boost",
+                    "shortDesc": "Charging Light Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/charging-light.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-radiant-cross-3.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/mihile/radiant-cross.png} tip={Radiant Cross (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Radiant Cross",
+                    "shortDesc": "MP Cost: 85, Max Enemies Hit: 8, Damage: 855%, Number of Attacks: 4\\nBlind Chance: 30%, Blind Duration: 10 sec, Accuracy: -30%\\n------Radiant Cross - Assault------\\nMP Cost: 85, Max Enemies Hit: 12, Damage: 429%, Number of Attacks: 10\\nBlind Chance: 30%, Blind Duration: 10 sec, Accuracy: -30%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-radiant-cross-1.png", "/class-icons/cygnus-knights/mihile/hexa-radiant-cross-2.png", "/class-icons/cygnus-knights/mihile/radiant-cross.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWZlOHVibDE1bmx6ZHY1NG5neWl6aHd1cmtzY3kwbWtjeDZxOW10MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pR9Edxpt3jMrWjirrz/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-royal-guard.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/mihile/royal-guard.png} tip={Royal Guard (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Royal Guard",
+                    "shortDesc": "MP Cost: 40, Become invincible when attacked for 4 sec, nullifying attacks and counterattacking for a set time after use. Attack Power increases for 20 sec per counterattack.\\nIf you guard successfully while in Attack Power Increase buff state, counterattack damage, attack range, and Attack Power increases gradually, but the time for guarding decreases gradually.\\n[1st Time]: Max Number of Enemies: 6, Damage: 1170%, Number of Attacks: 4, Attack Power: +20\\n[2nd Time]: Max Number of Enemies: 7, Damage: 1300%, Number of Attacks: 5, Attack Power: +40\\n[3rd Time]: Max Number of Enemies: 8, Damage: 1500%, Number of Attacks: 6, Attack Power: +60\\n[4th Time]: Max Number of Enemies: 10, Damage: 1570%, Number of Attacks: 7, Attack Power: +80\\n[5th Time]: Max Number of Enemies: 15, Damage: 1655%, Number of Attacks: 9, Attack Power: +100\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-royal-guard.png", "/class-icons/cygnus-knights/mihile/royal-guard.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2l6a2FyOXRnenkzZzkza3p6YzMzbHdnbnFhY2pxbWQ5eTNsYzc5YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YjVL2fSJzUYN5nY0p3/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-install-shield-charging-light.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/mihile/install-shield.png} tip={Install Shield (4th Job)}> <tt src={/class-icons/cygnus-knights/mihile/charging-light.png} tip={Charging Light (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Install Shield",
+                    "shortDesc": "MP Cost: 99, Duration: 61 sec\\nPeriodically deals 483% damage 4 times to up to 6 enemies.\\nDamage Against Normal Enemies: +60%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-install-shield.png", "/class-icons/cygnus-knights/mihile/install-shield.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHQwNDlzMXg3MmdhZGY2YTY5NjF1c3QxNWs5em91dm83NXl0anh3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xjYer2eKS033fwHFrA/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Charging Light",
+                    "shortDesc": "MP Cost: 330, Max Enemies Hit: 15, Damage: 1700%, Number of Attacks: 10\\nEnhances the next attack every 35 sec adding another blade\\nBlade - Max Enemies Hit: 15, Damage: 515%, Number of Attacks: 8, Number of Hits: 5\\n10% more damage for party members including yourself for 60 sec\\nBlind Chance: 50%, Blind Duration: 10 sec, Accuracy: -30%\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-charging-light.png", "/class-icons/cygnus-knights/mihile/hexa-charging-light-2.png", "/class-icons/cygnus-knights/mihile/charging-light.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWg0NzMzMG9vNDJzYWNjb2NpMWNtOW1vYWJmZWJ4NTRrb3VoYWVlMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7XP91BPBfYXt36kaF4/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGx5eTNwZW44c2R3ZHM0a2lhdXY5bHYxZG1odHE5NnlwaTR0bGRwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1tO2C7PcZaEcpmYo5N/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-offensive-defense-final-attack-soul-majesty.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/mihile/offensive-defense.png} tip={Offensive Defense (3rd Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/cygnus-knights/mihile/soul-majesty.png} tip={Soul Majesty (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Offensive Defense",
+                    "shortDesc": "When Royal Guard's counterattack hits, give enemy Offensive Defense debuff for 60 sec\\nWhen Radiant Soul skill hits enemy with the debuff, a light shockwave is created centered on the enemy that was hit. The Offensive Defense debuff disappears when the enemy is hit by the light shockwave.\\nLight Shockwave - Damage: 1365%, Number of Attacks: 5\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-offensive-defense.png", "/class-icons/cygnus-knights/mihile/offensive-defense.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjYzc28yY3c5ejJqa2V0MHZ4ZHgwZjFhemJxa3JpNGIyYjFoNGU4NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0Gxio7wJpcU7mfZskE/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Final Attack",
+                    "shortDesc": "[Final Attack Skill] When the attack lands, it has a 76% chance to deal 222% with a Final Attack that attacks 4 times.",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-final-attack.png", "/class-icons/common/final-attack.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDJ5NGRlYjFoZmlianJydG43b2JzcnZqdGZlamwxYTd0Znp2ZHRuYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WglRCBqTPGNyeE1CpX/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Soul Majesty",
+                    "shortDesc": "MP Cost: 230, immediately resets Offensive Defense cooldown upon use.\\nDuration: 20 sec, Damage: +15%\\nWhen Soul Asylum's Royal Guard succeeds while active, damage reduction of the damage reduction effect increases by 5%. The increased damage reduction is additive with Soul Asylum's effect.\\nOffensive Defense debuff occurs due to the active Install Shield.\\nCooldown of Offensive Defense Light Shockwave decreases to 2 sec\\nWhen Offensive Defense's Light Shockwave occurs, Light Wave occurs as well\\nLight Wave - Max Enemies Hit: 8, Damage: 1585%, Number of Attacks: 6\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/cygnus-knights/mihile/hexa-soul-majesty.png", "/class-icons/cygnus-knights/mihile/soul-majesty.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXl1emhscnUxb2duMTlyc2Zmb3dmaDQ5MXR2b3BvN2o5Z3ZrNncwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6BCSGfIPuHLB0th3sU/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Durendal",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nPowerfully stab the sword of light, Max Enemies Hit: 15, Damage: 1500%, Number of Attacks: 7, Chase Cuts: 6\\nThen light energy is released, Damage: 1350%, Number of Attacks: 6, Earth Waves: 30\\nLastly, Damage: 1375%, Number of Attacks: 14, Final Blows: 24\\nBlind Chance: 100%, Blind Duration: 10 sec, Accuracy: -30%\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/cygnus-knights/mihile/durendal.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGV4amJ3dGZ1dnNtN2oxMWs2MWo0MXg1bTE1MnUydTI5b2xwazhmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z0SQRhA4az3tjt1pVH/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Knights Immortal",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nRaises your sword, emitting 13 bursts of light that deal 6243% damage to up to 15 enemies 10 times. Then the Knights Immortal attack 16 times, dealing 6827% damage 15 times\\n100% chance to inflict an enemy with Darkness, Duration: 10 sec., Accuracy: -30%\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/knights-immortal.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDczM290aGd3Z3l0cHRxZjkxdzYxbXgzYnd3bmR1c3llZ2ZwbGo3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/glE3OuBJRXEqj0Dzmh/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Shield of Light Boost",
+                    "shortDesc": "Shield of Light Duration: 115 sec, Final Damage: +40%, Shield Duration: 40 sec, Damage Taken Reduction: 90%, Number of Blocks per Layer: +20, +20, +25",
+                    "icons": ["/class-icons/cygnus-knights/mihile/shield-of-light.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Sword of Light Boost",
+                    "shortDesc": "Sword of Light Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/sword-of-light.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Radiant Soul Boost",
+                    "shortDesc": "Radiant Soul Slash and Light Force Rei Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/radiant-soul.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Light of Courage Boost",
+                    "shortDesc": "Light of Courage Duration: 25 sec, Damage: +40%, Party Effect Protective Shield: +400% of Max HP\\nWhen skill is used again within 20 sec of first cast, Max Enemies Hit: 15, Damage: 1400%, Number of Attacks: 10, Light of Courage Activations: 8 times\\n50% chance of Blind, Blind Duration: 10 sec, Accuracy: -30%",
+                    "icons": ["/class-icons/cygnus-knights/mihile/light-of-courage.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Royal Guard - 1st Job",
+                "icons": ["/class-icons/cygnus-knights/mihile/royal-guard.png"],
+                "animations": ["https://media.giphy.com/media/0TYEjTUeyAvLTQDtQ5/giphy.gif"]
+            },
+            {
+                "name": "Install Shield - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/mihile/install-shield.png"],
+                "animations": ["https://media.giphy.com/media/b3u3oNB1kftS25p9DF/giphy.gif"]
+            },
+            {
+                "name": "Radiant Cross - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/mihile/radiant-cross.png"],
+                "animations": ["https://media.giphy.com/media/1MCzDf85n4TzmJtkAt/giphy.gif"]
+            },
+            {
+                "name": "Charging Light - Hyper Skill",
+                "icons": ["/class-icons/cygnus-knights/mihile/charging-light.png"],
+                "animations": ["https://media.giphy.com/media/qcPaJdv1oXA4s6IOBV/giphy.gif"]
+            },
+            {
+                "name": "Shield of Light - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/mihile/shield-of-light.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2dydHFtcGRmZnN1bWZzOGdvcHpsOWh3cXc2cXZhMndocnp1M3plNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yYtM6jYywV8LR3Wmnf/giphy.gif"]
+            },
+            {
+                "name": "Sword of Light - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/mihile/sword-of-light.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXQ4NjM2bnVtZHNoZ3IyNHl4MmU0b2pybDR0aWNwbzhwZ20xZnBkNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RYgCioLyI29iO0IiRZ/giphy.gif"]
+            },
+            {
+                "name": "Radiant Soul - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/mihile/radiant-soul.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWdiMHJpYjc5dTV1bDdzYzd2ODJiYzAzd3Q4MGVkdXA4djdsbXJ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i0AboThcxKsKusofMi/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "HEXA Radiant Cross - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/mihile/hexa-radiant-cross-1.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWZlOHVibDE1bmx6ZHY1NG5neWl6aHd1cmtzY3kwbWtjeDZxOW10MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pR9Edxpt3jMrWjirrz/giphy.gif"]
+            },
+            {
+                "name": "Durendal - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/mihile/durendal.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGV4amJ3dGZ1dnNtN2oxMWs2MWo0MXg1bTE1MnUydTI5b2xwazhmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z0SQRhA4az3tjt1pVH/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Mihile is a STR warrior class part of the Cygnus Knights. What makes Mihile unique is their special ability to parry enemy attacks to create a powerful damaging shockwave that also grants a powerful attack buff"
+}

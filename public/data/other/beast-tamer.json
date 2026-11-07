@@ -1,0 +1,1144 @@
+{
+    "class": "Beast Tamer",
+    "content": {
+        "classGroup": "Other (Beast Tamer)",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Ignore DEF",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["scepter"]},
+            {"secondary": ["whistle", "mageShield"]}
+        ],
+        "innerAbility": ["***First Line Options***", "Chance to Skip Cooldown +20%", "Boss Damage +20%", "Meso / Item Drop +20% (For Farming)", "***Second & Third Line Options***", "Boss Damage +10% (If not chosen as 1st line)", "Damage to monsters inflicted with Abnormal Status +8%", "Magic Attack +21", "Crit Rate +20%", "Meso Obtained +10% (If not chosen as 1st line)"],
+        "baseStats": [
+            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns. Stance stats below are based on if you max that Skill Tree and are only active when in that stance",
+            [
+                "<strong>Magic Attack</strong>: [<span data-tooltip='Growth Spurt (Beginner Skill, Lv. 60)'><img src='/class-icons/other/beast-tamer/growth-spurt.png' alt='Skill Growth Spurt'/></span> +5%]<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<span data-tooltip='Fort the Brave (Lv. 82 + 130 SP)'><img src='/class-icons/other/beast-tamer/fort-the-brave.png' alt='Skill Fort the Brave'/></span> +10%]</div><div style='text-indent: 40px'/><strong>[Leopard]</strong>: [<span data-tooltip='Leopard Reflexes (Lv. 108 + 149 SP)'><img src='/class-icons/other/beast-tamer/leopard-reflexes.png' alt='Skill Leopard Reflexes'/></span> +6%]</div>",
+                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Growth Spurt (Beginner Skill, Lv. 60)'><img src='/class-icons/other/beast-tamer/growth-spurt.png' alt='Skill Growth Spurt'/></span> +16%] [<span data-tooltip='Focus Spirit (Link Skill)'><img src='/class-icons/link-skills/focus-spirit.png'/></span> up to +10%]<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<span data-tooltip='Bear Strength (Lv. 63 + 93 SP)'><img src='/class-icons/other/beast-tamer/bear-strength.png' alt='Skill Bear Strength'/></span> +60%]</div><div style='text-indent: 40px'/><strong>[Hawk]</strong>: [<span data-tooltip='Feather Cloak (Lv. 72 + 71 SP)'><img src='/class-icons/other/beast-tamer/feather-cloak.png' alt='Skill Feather Cloak'/></span> +15%] [<span data-tooltip='Bird&#39;s-Eye View (Lv. 94 + 126 SP)'><img src='/class-icons/other/beast-tamer/birds-eye-view.png' alt='Skill Birds Eye View'/></span> +15%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<span data-tooltip='Cat&#39;s Claws (Lv. 75 + 60 SP)'><img src='/class-icons/other/beast-tamer/cats-claws.png' alt='Skill Cats Claws'/></span> +30%]</div>",
+                "<strong>Crit Damage</strong>: +0%<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<span data-tooltip='Bear Strength (Lv. 63 + 93 SP)'><img src='/class-icons/other/beast-tamer/bear-strength.png' alt='Skill Bear Strength'/></span> +40%] [<span data-tooltip='Bear Assault (Lv. 90 + 140 SP)'><img src='/class-icons/other/beast-tamer/bear-assault.png' alt='Skill Bear Assault'/></span> +10% while active]</div><div style='text-indent: 40px'/><strong>[Hawk]</strong>: [<span data-tooltip='Eka Express (Lv. 37 + 14 SP)'><img src='/class-icons/other/beast-tamer/eka-express.png' alt='Skill Eka Express'/></span> +10%] [<span data-tooltip='Feather Boots (Lv. 110 + 150 SP)'><img src='/class-icons/other/beast-tamer/feather-boots.png' alt='Skill Feather Boots'/></span> +15%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<span data-tooltip='Cat&#39;s Claws (Lv. 75 + 60 SP)'><img src='/class-icons/other/beast-tamer/cats-claws.png' alt='Skill Cats Claws'/></span> +10%]</div>",
+                "<strong>Damage</strong>: +0%<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<span data-tooltip='Bear Assault (Lv. 90 + 140 SP)'><img src='/class-icons/other/beast-tamer/bear-assault.png' alt='Skill Bear Assault'/></span> +35% while active]</div>",
+                "<strong>Final Damage</strong>: +0%<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<span data-tooltip='Bear Assault (Lv. 90 + 140 SP)'><img src='/class-icons/other/beast-tamer/bear-assault.png' alt='Skill Bear Assault'/></span> +20% while active]</div><div style='text-indent: 40px'/><strong>[Leopard]</strong>: [<span data-tooltip='Deadly Fangs (Lv. 85 + 129 SP)'><img src='/class-icons/other/beast-tamer/deadly-fangs.png' alt='Skill Deadly Fangs'/></span> +20%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<span data-tooltip='Cat&#39;s Cradle Blitzkrieg (Lv. 120 + 170 SP)'><img src='/class-icons/other/beast-tamer/cats-cradle-blitzkrieg.png' alt='Skill Cats Cradle Blitzkreig'/></span> +20% from debuff]</div>",
+                "<strong>Boss Damage</strong>: [<span data-tooltip='Growth Spurt (Beginner Skill, Lv. 60)'><img src='/class-icons/other/beast-tamer/growth-spurt.png' alt='Skill Growth Spurt'/></span> +11%] [<span data-tooltip='Focus Spirit (Link Skill)'><img src='/class-icons/link-skills/focus-spirit.png'/></span> up to +10%]",
+                "<strong>Attack Speed (Weapon)</strong>:<div style='text-indent: 40px'/><strong>[Bear]</strong>: Stage 6</div><div style='text-indent: 40px'/><strong>[Leopard]</strong>: Stage 6</div><div style='text-indent: 40px'/><strong>[Hawk]</strong>: Stage 6</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: Stage 4 (+2 with <span data-tooltip='Meow Card (Lv. 89 + 95 SP)'><img src='/class-icons/other/beast-tamer/meow-card.png' alt='Skill Meow Card'/></span> buff) </div>",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Growth Spurt (Beginner Skill, Lv. 60)'><img src='/class-icons/other/beast-tamer/growth-spurt.png' alt='Skill Growth Spurt'/></span> +100%]<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<span data-tooltip='Dumb Luck (Lv. 25 + 14 SP)'><img src='/class-icons/other/beast-tamer/dumb-luck.png' alt='Skill Dumb Luck'/> +95%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<span data-tooltip='Purr-Powered (Lv. 61 + 27 SP)'><img src='/class-icons/other/beast-tamer/purr-powered.png' alt='Skill Purr Powered'/></span> +30%]</div>",
+                "<strong>Ignore DEF</strong>: +0%<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<span data-tooltip='Defense Ignorance (Lv. 47 + 62 SP)'><img src='/class-icons/other/beast-tamer/defense-ignorance.png' alt='Skill Defense Ignorance'/></span> +30%] [<span data-tooltip='Bear Assault (Lv. 90 + 140 SP)'><img src='/class-icons/other/beast-tamer/bear-assault.png' alt='Skill Bear Assault'/></span> +20%]</div><div style='text-indent: 40px'/><strong>[Leopard]</strong>: [<span data-tooltip='Leopard Reflexes (Lv. 108 + 149 SP)'><img src='/class-icons/other/beast-tamer/leopard-reflexes.png' alt='Skill Leopard Reflexes'/></span> +60%]</div><div style='text-indent: 40px'/><strong>[Hawk]</strong>: [<span data-tooltip='Max Mobility (Lv. 52 + 40 SP)'><img src='/class-icons/other/beast-tamer/max-mobility.png' alt='Skill Max Mobility'/></span> +30%] [<span data-tooltip='Regroup (Lv. 78 + 81 SP)'><img src='/class-icons/other/beast-tamer/regroup.png' alt='Skill Regroup'/></span> +20%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<span data-tooltip='Mouser&#39;s Instinct (Lv. 97 + 113 SP)'><img src='/class-icons/other/beast-tamer/mousers-insight.png' alt='Skill Mousers Instinct'/></span> +20%] [<span data-tooltip='Fire Kitty! (Lv. 102 + 125 SP)'><img src='/class-icons/other/beast-tamer/fire-kitty.png' alt='Skill Fire Kitty'/> +40% from debuff]</span></div>",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Growth Spurt (Beginner Skill, Lv. 60)'><img src='/class-icons/other/beast-tamer/growth-spurt.png' alt='Skill Growth Spurt'/></span> 40]",
+                "<strong>Item Drop Rate</strong>: +0<div style='text-indent: 40px'/><strong>[Cat]</strong>: [<span data-tooltip='Sticky Paws (Lv. 66 + 39 SP)'><img src='/class-icons/other/beast-tamer/sticky-paws.png' alt='Skill Sticky Paws'/></span> +20%]</div>",
+                "<strong>EXP Rate (From Monsters)</strong>: +0<div style='text-indent: 40px'/><strong>[Cat]</strong>: [<span data-tooltip='Friends of Arby (Lv. 115 + 160 SP)'><img src='/class-icons/other/beast-tamer/friends-of-arby.png' alt='Skill Friends of Arby'/></span> +30%]</div>"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<div><span data-tooltip='Maple Guardian (Beginner Skill, Lv. 120)'><img src='/class-icons/other/beast-tamer/maple-guardian.png' alt='Skill Maple Guardian'/></span>[900s]</div> <div>[ <span data-tooltip='Bro Attack (Lv. 57 + 72 SP)'><img src='/class-icons/other/beast-tamer/bro-attack.png' alt='Skill Bro Attack'/></span>[180s] ]</div> <div>[ <span data-tooltip='Hawk Flock (Lv. 48 + 27 SP)'><img src='/class-icons/other/beast-tamer/hawk-flock.png' alt='Skill Hawk Flock'/></span>[180s] <span data-tooltip='Raptor Talons (Lv. 83 + 82 SP)'><img src='/class-icons/other/beast-tamer/raptor-talons.png' alt='Skill Raptor Talons'/></span>[180s] <span data-tooltip='Bird&#39;s-Eye View (Lv. 94 + 126 SP)'><img src='/class-icons/other/beast-tamer/birds-eye-view.png' alt='Skill Bird's-Eye View'/></span>[450s] <span data-tooltip='Razor Beak (Lv. 104 + 145 SP)'><img src='/class-icons/other/beast-tamer/razor-beak.png' alt='Skill Razor Beak'/></span>[180s] ]</div>",
+            "toggles": "[ <span data-tooltip='Bear Assault (Lv. 90 + 140 SP)'><img src='/class-icons/other/beast-tamer/bear-assault.png' alt='Skill Bear Assault'/></span> ] <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
+            "summons": "<div>[ <span data-tooltip='Lil Fort (Lv. 76 + 120 SP)'><img src='/class-icons/other/beast-tamer/lil-fort.png' alt='Skill Lil Fort'/></span>[60s] ]</div> <div>[ <span data-tooltip='Bro Attack (Lv. 57 + 72 SP)'><img src='/class-icons/other/beast-tamer/bro-attack.png' alt='Skill Bro Attack'/></span>[40s | 180s Buff] ]</div> <div>[ <span data-tooltip='Eka Express (Lv. 37 + 14 SP)'><img src='/class-icons/other/beast-tamer/eka-express.png' alt='Skill Eka Express'/></span>[200s](200s cd) ]</div> <div>[ <span data-tooltip='Purr Zone (Lv. 84 + 83 SP)'><img src='/class-icons/other/beast-tamer/purr-zone.png' alt='Skill Purr Zone'/></span>[22s](15s cd) <span data-tooltip='Cat&#39;s Cradle Blitzkrieg (Lv. 120 + 170 SP)'><img src='/class-icons/other/beast-tamer/cats-cradle-blitzkrieg.png' alt='Skill Cat&#39;s Cradle Blitzkrieg'/></span>[10s](180s cd) ]</div> <div><span data-tooltip='Champ Charge (5th Job)'><img src='/class-icons/other/beast-tamer/champ-charge.png' alt='Skill Champ Charge'/></span>[10s](Cat | 30s cd)</div> <div><span data-tooltip='Cub Cavalry (5th Job)'><img src='/class-icons/other/beast-tamer/cub-cavalry.png' alt='Skill Cub Cavalry'/></span>[10s](30s cd)</div>",
+            "buffCd": "<div>[ <span data-tooltip='Bear Reborn (Lv. 105 + 175 SP)'><img src='/class-icons/other/beast-tamer/bear-reborn.png' alt='Skill Bear Reborn'/></span>(1800s cd) ]</div> <div>[ <span data-tooltip='Meow Card (Lv. 89 + 95 SP)'><img src='/class-icons/other/beast-tamer/meow-card.png' alt='Skill Meow Card'/></span>[180s](30s cd) ]</div> <div><span data-tooltip='Team Roar (Hyper Skill)'><img src='/class-icons/other/beast-tamer/team-roar.png' alt='Skill Team Roar'/></span>[15s](180s cd)</div> <div><span data-tooltip='All Together! Critter Crossing! (Hyper Skill)'><img src='/class-icons/other/beast-tamer/all-together-critter-crossing.png' alt='Skill All Together Critter Crossing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Champ Charge (5th Job)'><img src='/class-icons/other/beast-tamer/champ-charge.png' alt='Skill Champ Charge'/></span>(30s cd)</div> <div><span data-tooltip='The Greatest Show on Maple World is Coming! (5th Job)'><img src='/class-icons/other/beast-tamer/the-greatest-show-on-maple-world-is-coming.png' alt='Skill Greatest Show'/></span>[60s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div>",
+            "iFrame": "<div>[ <span data-tooltip='Bear Reborn (Lv. 105 + 175 SP)'><img src='/class-icons/other/beast-tamer/bear-reborn.png' alt='Skill Bear Reborn'/></span>[10s](1800s cd revive) ]</div> <div><span data-tooltip='Team Roar (Hyper Skill)'><img src='/class-icons/other/beast-tamer/team-roar.png' alt='Skill Team Roar'/></span>[15s](180s cd)</div> <div><span data-tooltip='Group Bear Blaster (Hyper Skill)'><img src='/class-icons/other/beast-tamer/group-bear-blaster.png' alt='Skill Group Bear Blaster'/></span>(90s cd)</div> <div><span data-tooltip='Aerial Relief (5th Job)'><img src='/class-icons/other/beast-tamer/aerial-relief.png' alt='Skill Aerial Relief'/></span>(120s cd)</div>",
+            "damageReduce": "<div>[ <span data-tooltip='Furious Strikes (Lv. 54 + 73 SP)'><img src='/class-icons/other/beast-tamer/furious-strikes.png' alt='Skill Furious Strikes'/></span>(-20% while casting)]</div> <div><span data-tooltip='Champ Charge (5th Job)'><img src='/class-icons/other/beast-tamer/champ-charge.png' alt='Skill Champ Charge'/></span>(-50% Bear/-40% Cat | 30s cd)</div> <div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div>"
+        },
+        "linkSkill": {
+            "id": 80010006,
+            "icons": ["/class-icons/link-skills/focus-spirit.png"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["Below are example skill builds", "<p>Please visit the Beast Tamer Discord for in-depth information on how to allocate your SP and explanations to the builds below</p><p>Press the images below to expand them on a different page</p>"],
+                ["For Legion/Link Skill", "<p><strong>Example Hawk Build</strong></p><div><a href='/class-icons/other/beast-tamer/bt-mule-hawk.png' target='_blank' rel='noreferrer noopener'><img class='bt-build-img extra-content-image' src='/class-icons/other/beast-tamer/bt-mule-hawk.png' alt='Hawk Skill Build'/></a></div> <p><strong>Example Leopard Build</strong></p><div><a href='/class-icons/other/beast-tamer/bt-mule-leopard.png' target='_blank' rel='noreferrer noopener'><img class='bt-build-img extra-content-image' src='/class-icons/other/beast-tamer/bt-mule-leopard.png' alt='Leopard Skill Build'/></a></div>"],
+                ["For Maining", "<p>An example skill build that utilizes <span data-tooltip='Decent Combat Orders (5th Job)'><img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Decent Combat Orders'/></span>. For more example builds, please check out the Beast Tamer Discord</p><div><a href='/class-icons/other/beast-tamer/bt-main.png' target='_blank' rel='noreferrer noopener'><img class='bt-build-img extra-content-image' src='/class-icons/other/beast-tamer/bt-main.png' alt='Skill Beast Tamer Build'/></a></div>"]
+            ],
+            "details": [
+                "Beast Tamer unlocks new skills as you reach higher levels and allocate enough SP into that tree",
+                "Beast Tamer continues to gain Skill Points (SP) until Lv. 250",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='/class-icons/other/beast-tamer/furious-strikes-reinforce.png' alt='Skill Furious Strikes - Reinforce'/> <img src='/class-icons/other/beast-tamer/furious-strikes-extra-strike.png' alt='Skill Furious Strikes - Extra Strike'/> <img src='/class-icons/other/beast-tamer/furious-strikes-boss-rush.png' alt='Skill Furious Strikes - Boss Rush'/> Furious Strikes - Reinforce, Extra Strike and Boss Rush</li><li><img src='/class-icons/other/beast-tamer/formation-attack-reinforce.png' alt='Skill Formation Attack - Reinforce'/> <img src='/class-icons/other/beast-tamer/formation-attack-spread.png' alt='Skill Formation Attack - Spread'/> Formation Attack - Reinforce and Spread</li></ul><p>If investing in Leopard Mode instead of Hawk Mode, the following can be used instead</p><ul><li><img src='/class-icons/other/beast-tamer/three-point-pounce-reinforce.png' alt='Skill Three Point Pounce - Reinforce'/> <img src='/class-icons/other/beast-tamer/three-point-pounce-spread.png' alt='Skill Three Point Pounce - Spread'/> Three-Point Pounce - Reinforce and Spread</li></ul>" 
+        },
+        "nodeInfo": {
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Paw Swipe / Furious Strikes'><img src='/class-icons/other/beast-tamer/paw-swipe.png' alt='Skill Paw Swipe'/></span> <span data-tooltip='Lil Fort'><img src='/class-icons/other/beast-tamer/lil-fort.png' alt='Skill Lil Fort'/></span> <span data-tooltip='Tornado Flight'><img src='/class-icons/other/beast-tamer/tornado-flight.png' alt='Skill Tornado Flight'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Really Deep Breath / Fort Follow-up'><img src='/class-icons/other/beast-tamer/really-deep-breath.png' alt='Skill Really Deep Breath'/></span> <span data-tooltip='Formation Attack / Baby Bombers'><img src='/class-icons/other/beast-tamer/formation-attack.png' alt='Skill Formation Attack'/></span> [ <span data-tooltip='Fishy Slap'><img src='/class-icons/other/beast-tamer/fishy-slap.png' alt='Skill Fishy Slap'/></span> OR <span data-tooltip='Deep Breath / Majestic Trumpet'><img src='/class-icons/other/beast-tamer/deep-breath.png' alt='Skill Deep Breath'/></span> ] </div><h6>Leopard Mobbing Trio</h6><div><span data-tooltip='Leopard&#39;s Paw / Leopard&#39;s Roar'><img src='/class-icons/other/beast-tamer/leopards-paw.png' alt='Skill Leopard&#39;s Paw'/></span> <span data-tooltip='Macho Dance / Macho Slam / Macho Incarnate'><img src='/class-icons/other/beast-tamer/macho-dance.png' alt='Skill Macho Dance'/></span> <span data-tooltip='Three-Point Pounce'><img src='/class-icons/other/beast-tamer/three-point-pounce.png' alt='Skill Three-Point Pounce'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first and so on<ul><li>For convenience while training, <span data-tooltip='Tornado Flight'><img src='/class-icons/other/beast-tamer/tornado-flight.png' alt='Skill Tornado Flight'/></span> and <span data-tooltip='Formation Attack / Baby Bombers'><img src='/class-icons/other/beast-tamer/formation-attack.png' alt='Skill Formation Attack'/></span> can also be on the same Boost Node</li></ul></li><li><span data-tooltip='Fishy Slap'><img src='/class-icons/other/beast-tamer/fishy-slap.png' alt='Skill Fishy Slap'/></span> is useful for certain bossing situations and <span data-tooltip='Deep Breath / Majestic Trumpet'><img src='/class-icons/other/beast-tamer/deep-breath.png' alt='Skill Deep Breath'/></span> is useful for training with Bear Form</li></li><li>Leopard Mobbing Trio can be used if you use Leopard Form for training<ul></ul></li><li>4 (or 6) Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
+            "possible": "<span data-tooltip='Paw Swipe / Furious Strikes'><img src='/class-icons/other/beast-tamer/paw-swipe.png' alt='Skill Paw Swipe'/></span> <span data-tooltip='Deep Breath / Majestic Trumpet'><img src='/class-icons/other/beast-tamer/deep-breath.png' alt='Skill Deep Breath'/></span> <span data-tooltip='Really Deep Breath / Fort Follow-up'><img src='/class-icons/other/beast-tamer/really-deep-breath.png' alt='Skill Really Deep Breath'/></span> <span data-tooltip='Lil Fort'><img src='/class-icons/other/beast-tamer/lil-fort.png' alt='Skill Lil Fort'/></span> <span data-tooltip='Fishy Slap'><img src='/class-icons/other/beast-tamer/fishy-slap.png' alt='Skill Fishy Slap'/></span> <span data-tooltip='Table Flip'><img src='/class-icons/other/beast-tamer/table-flip.png' alt='Skill Table Flip'/></span> <span data-tooltip='Leopard&#39;s Paw / Leopard&#39;s Roar'><img src='/class-icons/other/beast-tamer/leopards-paw.png' alt='Skill Leopard&#39;s Paw'/></span> <span data-tooltip='Macho Dance / Macho Slam / Macho Incarnate'><img src='/class-icons/other/beast-tamer/macho-dance.png' alt='Skill Macho Dance'/></span> <span data-tooltip='Thunder Dash / Thunder Trail'><img src='/class-icons/other/beast-tamer/thunder-dash.png' alt='Skill Thunder Dash'/></span> <span data-tooltip='Three-Point Pounce'><img src='/class-icons/other/beast-tamer/three-point-pounce.png' alt='Skill Three-Point Pounce'/></span> <span data-tooltip='Party Time'><img src='/class-icons/other/beast-tamer/party-time.png' alt='Skill Party Time'/></span> <span data-tooltip='Formation Attack / Baby Bombers'><img src='/class-icons/other/beast-tamer/formation-attack.png' alt='Skill Formation Attack'/></span> <span data-tooltip='Tornado Flight / Defensive Formation'><img src='/class-icons/other/beast-tamer/tornado-flight.png' alt='Skill Tornado Flight'/></span> <span data-tooltip='Friend Launcher'><img src='/class-icons/other/beast-tamer/friend-launcher.png' alt='Skill Friend Launcher'/></span> <span data-tooltip='Fire Kitty!'><img src='/class-icons/other/beast-tamer/fire-kitty.png' alt='Skill Fire Kitty!'/></span> <span data-tooltip='Group Bear Blaster (Hyper Skill)'><img src='/class-icons/other/beast-tamer/group-bear-blaster.png' alt='Skill Group Bear Blaster'/></span>"
+        },
+        "moreInfo": [
+            "https://maplestorywiki.net/w/Beast_Tamer",
+            "https://discord.gg/czcga75tHQ"
+        ],
+        "specialThanks": "Special thanks to the members of the Beast Tamer Discord for their help in making this overview!",
+        "discord": "https://discord.gg/czcga75tHQ",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Class Infographic", "Schwarmeeze"],
+            ["Hyper Passive Build + Boost Nodes Build + Inner Ability + Skill Build Path", "Beast Tamer Discord"]
+        ],
+        "infographics": [
+            {
+                "src": "beast-tamer-overview.png",
+                "title": "Overview"
+            }
+        ],
+        "extraContent": {
+            "title": "Fort, Lai, Eka, and Arby",
+            "content": "<p><img class='extra-content-image' src='/class-icons/other/beast-tamer/stance-change.png' alt='Stance Change'/></p><p>Beast Tamers do not have 1st, 2nd, 3rd, and 4th Job Advancements. Instead they 4 different animal modes with their own separate skill trees. The skills can only be used while in the chosen mode. There is a Bear Mode, Leopard Mode, Hawk Mode, and Cat Mode. Bear Mode and Leopard Mode is available at Lv. 10. However, Hawk Mode is unlocked at Lv. 30 and Cat Mode is unlocked at Lv. 50</p><p><img class='extra-content-image' src='/class-icons/other/beast-tamer/animal-mastery.png' alt='Skill Tree'/></p><p>New skills are unlocked at certain levels and after allocating a set amount of Skill Points (SP) into that animal skill tree. However, you will not be able to max all your skills as there is not enough SP. Additionally, any skill effects such as passives and actives are only granted while in that particular animal mode</p><p><img class='extra-content-image' src='/class-icons/other/beast-tamer/extended-window-button.png' alt='Expand View'/></p><p>Click this button in the Skill UI to show the expanded Skill Tree</p>"
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Guardian Leap",
+                    "shortDesc": "MP Cost: 10, jumps further",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/guardian-leap.png"],
+                    "animations": ["https://media2.giphy.com/media/elJL1zvel3IsGljzcD/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice"
+                    ]
+                },
+                {
+                    "name": "Critter Select",
+                    "shortDesc": "Use your direction keys to select an animal mode.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/critter-select.png"],
+                    "animations": ["https://media2.giphy.com/media/AXcSprKuKeNk3OwHpB/giphy.gif"],
+                    "type": "Special Active",
+                    "desc": "Allows you to change between each animal mode"
+                },
+                {
+                    "name": "Homeward Bound",
+                    "shortDesc": "Returns to the Aboren Ferry when used.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/homeward-bound.png"],
+                    "animations": ["https://media1.giphy.com/media/JBCRFF1XsOiU99QssA/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Beast Scepter Mastery",
+                    "shortDesc": "Scepter Mastery: +70%, Magic ATT: +50",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/other/beast-tamer/beast-scepter-mastery.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Skill Level gradually increases as your character levels up"
+                    ],
+                    "reqLev": 40
+                },
+                {
+                    "name": "Growth Spurt",
+                    "shortDesc": "INT: +60 , LUK: +30, Critical Rate: +16%, Max HP: +40%, Max MP: +16%, Boss Damage: +11%, Magic ATT: +5%, DEF: +2000, All Abnormal Status and Elemental Resistance: +40%, Damage taken when hit by enemies: -40%, Knockback Resistance: +100%.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/beast-tamer/growth-spurt.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Skill Level gradually increases as your character levels up"
+                    ],
+                    "reqLev": 60
+                },
+                {
+                    "name": "Maple Guardian",
+                    "shortDesc": "MP Cost: 70, All Stats: +15%, Duration: 900 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/beast-tamer/maple-guardian.png"],
+                    "animations": ["https://media1.giphy.com/media/JhJzu7Fci6btFAuXKk/giphy.gif"],
+                    "type": "Party Buff",
+                    "reqLev": 120
+                },
+                {
+                    "name": "Beastly Resolve",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/other/beast-tamer/beastly-resolve.png"],
+                    "animations": ["https://media2.giphy.com/media/XCa9brFCddpmZfibwo/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
+                    "reqLev": 150
+                }]
+            ],
+            [
+                "Bear", [
+                    {
+                        "name": "Paw Swipe",
+                        "shortDesc": "First 3 Hits: Damage: 420%, Max Enemies Hit: 8, Max Hits: 1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/paw-swipe.png"],
+                        "animations": ["https://media0.giphy.com/media/L069vTxBGyofRZEf9D/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "Swipes forward 3 times consecutively",
+                        "details": [
+                            "You can move and jump while casting"
+                        ],
+                        "reqLev": 10
+                    },
+                    {
+                        "name": "Majestic Trumpet",
+                        "shortDesc": "MP Cost: 35, Damage: 210%, Max Enemies Hit: 10, Duration: 15 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/majestic-trumpet.png"],
+                        "animations": ["https://media0.giphy.com/media/RJIquD8nzOU9pqACyw/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Releases a lethal gas that leaves a lingering burning field",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ],
+                        "reqLev": "14 + 7 SP"
+                    },
+                    {
+                        "name": "Well Fed",
+                        "shortDesc": "Passive Effect: Max HP: +50%, INT: +50",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/well-fed.png"],
+                        "type": "Passive",
+                        "reqLev": "19 + 15 SP"
+                    },
+                    {
+                        "name": "Dumb Luck",
+                        "shortDesc": "Knockback Resistance: +95%, Defense: +200, Damage taken when hit by enemies: -30%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/dumb-luck.png"],
+                        "type": "Passive",
+                        "reqLev": "25 + 14 SP"
+                    },
+                    {
+                        "name": "Deep Breath",
+                        "shortDesc": "MP Cost: 30, Damage: 450%, Max Enemies Hit: 8.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/deep-breath.png"],
+                        "animations": ["https://media2.giphy.com/media/kdjS5yegT2NJ7WxLhF/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Inhales pulling in enemies in front of you",
+                        "reqLev": "31 + 39 SP"
+                    },
+                    {
+                        "name": "Fort Follow-Up",
+                        "shortDesc": "Additional Damage: 275%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/fort-follow-up.png"],
+                        "type": "Passive",
+                        "desc": "Every 4th attack, you deal an additional attack",
+                        "reqLev": "39 + 47 SP"
+                    },
+                    {
+                        "name": "Defense Ignorance",
+                        "shortDesc": "Passive Effect: Enemy DEF Ignored: 30%, Attack Speed: +2",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/defense-ignorance.png"],
+                        "type": "Passive",
+                        "reqLev": "47 + 62 SP"
+                    },
+                    {
+                        "name": "Furious Strikes",
+                        "shortDesc": "MP Cost: 10, Damage: 450%, Number of Attacks: 4, Max Enemies Hit: 8\\nExtra Paw Swipe Damage: +100%. While channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percent of damage) are reduced by 20%.",
+                        "maxLevel": 25,
+                        "icons": ["/class-icons/other/beast-tamer/furious-strikes.png"],
+                        "animations": ["https://media3.giphy.com/media/ZczWQtTYl9nfvWirfn/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Continuously slam hammers in front of you",
+                        "details": [
+                            "Activates when pressing Attack Key 4 times in a row",
+                            "To keep Furious Strikes going, you can hold onto or mash the Attack Key",
+                            "While casting, increases %Damage Reduction including %Max HP attacks",
+                            "You can move and jump while casting"
+                        ],
+                        "reqLev": "54 + 73 SP"
+                    },
+                    {
+                        "name": "Bear Strength",
+                        "shortDesc": "Passive Effect: Critical Rate: +60%, Critical Damage: +40%, Magic ATT: +15",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/bear-strength.png"],
+                        "type": "Passive",
+                        "reqLev": "63 + 93 SP"
+                    },
+                    {
+                        "name": "Really Deep Breath",
+                        "shortDesc": "MP Cost: 70, Damage: 670%, Max Enemies Hit: 10",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/really-deep-breath.png"],
+                        "animations": ["https://media3.giphy.com/media/PkL7zGfVE2ZR6CzLGk/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Inhales pulling in enemies on both sides of you",
+                        "details": [
+                            "Skill is separate from <span data-tooltip='Deep Breath (Lv. 31 + 39 SP)'><img src='/class-icons/other/beast-tamer/deep-breath.png' alt='Skill Deep Breath'/></span>"
+                        ],
+                        "reqLev": "70 + 105 SP"
+                    },
+                    {
+                        "name": "Lil Fort",
+                        "shortDesc": "MP Cost: 46\\n- Bear Damage: 475%, Number of Attacks: 4\\n- Bear Duration: 60 sec.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/lil-fort.png"],
+                        "animations": ["https://media2.giphy.com/media/Lnj309C7FFn2cgqMfo/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons Lil Fort to attack at a fixed location",
+                        "reqLev": "76 + 120 SP"
+                    },
+                    {
+                        "name": "Fort the Brave",
+                        "shortDesc": "Passive Effect: Magic ATT: +10%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/fort-the-brave.png"],
+                        "type": "Passive",
+                        "reqLev": "82 + 130 SP"
+                    },
+                    {
+                        "name": "Bear Assault",
+                        "shortDesc": "Active Effect - MP Cost: 62, Damage: +35%, Critical Damage: +10%, Final Damage: +20%\\nPassive Effects - Max HP: +20%, Max MP: +20%, DEF: +100%, Ignore Enemy DEF: +20%\\nReduce the maximum number of monsters that can be attacked, with all of the character's attack skills, to 1/3 (aside from some minions). Minimum number of monsters that can be attacked for multi-target skills: 1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/bear-assault.png"],
+                        "animations": ["https://media4.giphy.com/media/eRFtZQ6lqd9Zou0iaN/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "reqLev": "90 + 140 SP"
+                    },
+                    {
+                        "name": "Fishy Slap",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 8, Damage: 330%,\\nNumber of Attacks: 5, Skill Duration: 13 sec, Cooldown: 30 sec.",
+                        "maxLevel": 25,
+                        "icons": ["/class-icons/other/beast-tamer/fishy-slap.png"],
+                        "animations": ["https://media3.giphy.com/media/jruRkUqOtVZOmlsaPh/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Swings a giant fish that damages nearby enemies",
+                        "reqLev": "98 + 155 SP"
+                    },
+                    {
+                        "name": "Bear Reborn",
+                        "shortDesc": "Resurrection Cooldown: 1800 sec, Resurrection Invincibility: 10 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/bear-reborn.png"],
+                        "animations": ["https://media2.giphy.com/media/yYwqWuAYhkHEQm75nA/giphy.gif"],
+                        "type": "Passive Revive",
+                        "desc": "When hit by a fatal attack, you will be revived",
+                        "details": [
+                            "When revive activates, knock back and damage nearby enemies",
+                            "You are briefly invincible after reviving"
+                        ],
+                        "reqLev": "105 + 175 SP"
+                    },
+                    {
+                        "name": "Billowing Trumpet",
+                        "shortDesc": "Magic ATT: +30, Majestic Trumpet Damage over Time: +140%.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/billowing-trumpet.png", "/class-icons/other/beast-tamer/majestic-trumpet.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Additionally grants flat Magic Attack"
+                        ],
+                        "reqLev": "109 + 183 SP"
+                    },
+                    {
+                        "name": "Table Flip",
+                        "shortDesc": "MP Cost: 300, Damage: 560%, Max Enemies Hit: 15, Number of Attacks: 10\\nCooldown: 15 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/table-flip.png"],
+                        "animations": ["https://media1.giphy.com/media/gJo0RmPw3bwPpL5rpA/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Flips a table in front of you damaging nearby enemies",
+                        "reqLev": "114 + 190 SP"
+                    }]
+                ],
+                [
+                "Leopard", [
+                    {
+                        "name": "Leopard's Paw",
+                        "shortDesc": "Damage: 200% (first two hits), Max Enemies Hit: 8, Number of Attacks: 2.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/leopards-paw.png"],
+                        "animations": ["https://media1.giphy.com/media/StRjxvabv074VpB4Mf/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "Swipes forward 2 times",
+                        "reqLev": 10
+                    },
+                    {
+                        "name": "Thunder Dash",
+                        "shortDesc": "MP Cost: 10, Damage: 230%, Number of Attacks: 2, Max Enemies Hit: 8, Cooldown: 3 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/thunder-dash.png"],
+                        "animations": ["https://media0.giphy.com/media/IdmeTKvCeEv3Fo4Tjo/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swipes and dashes forward",
+                        "details": [
+                            "Can be linked with:<ul><li><img src='/class-icons/other/beast-tamer/leopards-paw.png' alt='Skill Leopard's Paw'/> Leopard's Paw</li><li><img src='/class-icons/other/beast-tamer/leopards-pounce.png' alt='Skill Leopard's Pounce'/> Leopard's Pounce</li><li><img src='/class-icons/other/beast-tamer/leopards-roar.png' alt='Skill Leopard's Roar'/> Leopard's Roar</li><li><img src='/class-icons/other/beast-tamer/macho-slam.png' alt='Skill Macho Slam'/> Macho Slam</li><li><img src='/class-icons/other/beast-tamer/three-point-pounce.png' alt='Skill Three-Point Pounce'/> Three-Point Pounce</li></ul>"
+                        ],
+                        "reqLev": "15 + 9 SP"
+                    },
+                    {
+                        "name": "Leopard Hide",
+                        "shortDesc": "Trigger Chance: 40%, Restores 8% of the finishing blow's damage dealt as HP",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/leopard-hide.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Maximum of 10% Max HP can be restored per attack"
+                        ],
+                        "reqLev": "21 + 18 SP"
+                    },
+                    {
+                        "name": "Leopard's Pounce",
+                        "shortDesc": "MP Cost: 0, Damage: 280%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/leopards-pounce.png"],
+                        "animations": ["https://media3.giphy.com/media/hW3yYE0iRioG1l0pqD/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pounces forward",
+                        "details": [
+                            "Automatically activated when pressing Attack Key 3 times in a row<ul><li>Can also be activated manually by pressing the Skill Key after the 2nd attack</li></ul>"
+                        ],
+                        "reqLev": "27 + 27 SP"
+                    },
+                    {
+                        "name": "Rippling Feline Muscles",
+                        "shortDesc": "Magic ATT: +35, INT: +35, Speed: +35, Jump: +6",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/rippling-feline-muscles.png"],
+                        "type": "Passive",
+                        "reqLev": "35 + 39 SP"
+                    },
+                    {
+                        "name": "Macho Dance",
+                        "shortDesc": "MP Cost: 20, Damage: 240%, Number of Attacks: 3, Max Enemies Hit: 8",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/macho-dance.png"],
+                        "animations": ["https://media1.giphy.com/media/j2w7AnNHDIqbQQKN7e/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swipes up into the air launching yourself up",
+                        "reqLev": "41 + 48 SP"
+                    },
+                    {
+                        "name": "Macho Slam",
+                        "shortDesc": "MP Cost: 20, Damage: 300%, Number of Attacks: 3, Max Enemies Hit: 8",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/macho-slam.png"],
+                        "animations": ["https://media2.giphy.com/media/cKcMAOZ6kEbRDBJyud/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pounces back down towards the ground",
+                        "details": [
+                            "Can only be used in the air"
+                        ],
+                        "reqLev": "49 + 60 SP"
+                    },
+                    {
+                        "name": "Bro Attack",
+                        "shortDesc": "MP Cost: 60, Summon Chance: 30%, Duration: 180 sec., Damage: 300%, Mini Snow Leopard Duration: 40 sec., Number of Attacks: 4, Max number of Mini Snow Leopards: 20.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/bro-attack.png"],
+                        "animations": ["https://media2.giphy.com/media/JsszZ9ZrJWjbJ34WUv/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "While active, grants a chance for your attacks to summon a baby Snow Leopard to attack alongside you",
+                        "reqLev": "57 + 72 SP"
+                    },
+                    {
+                        "name": "Leopard's Roar",
+                        "shortDesc": "MP Cost: 0, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 4\\nLeopard's Paw and Leopard's Pounce Damage: +20%, Max Enemies Hit: +3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/leopards-roar.png"],
+                        "animations": ["https://media3.giphy.com/media/SVStqs2vE9LfvxPIBv/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Roars forward sending out a damaging shockwave",
+                        "details": [
+                            "Automatically activated when pressing Attack Key after <span data-tooltip='Leopard&#39;s Pounce (Lv. 27 + 27 SP)'><img src='/class-icons/other/beast-tamer/leopards-pounce.png' alt='Skill Leopard&#39;s Pounce'/></span>",
+                            "Also permanently increases %Damage and max number of enemies hit for <span data-tooltip='Leopard&#39;s Paw (Lv. 10)'><img src='/class-icons/other/beast-tamer/leopards-paw.png' alt='Skill Leopard&#39;s Paw'/></span> and <span data-tooltip='Leopard&#39;s Pounce (Lv. 27 + 27 SP)'><img src='/class-icons/other/beast-tamer/leopards-pounce.png' alt='Skill Leopard&#39;s Pounce'/></span>",
+                            "Deals increased %Damage to regular monsters"
+                        ],
+                        "reqLev": "67 + 87 SP"
+                    },
+                    {
+                        "name": "Thunder Trail",
+                        "shortDesc": "Afterimage: Damage: 160%, Max Enemies Hit: 10, Duration: 4 sec., Number of Attacks: 3",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/thunder-trail.png"],
+                        "animations": ["/class-icons/other/beast-tamer/thunder-trail-preview.png"],
+                        "type": "Passive",
+                        "desc": "Leaves a damaging burning field after using <span data-tooltip='Thunder Dash (Lv. 15 + 9 SP)'><img src='/class-icons/other/beast-tamer/thunder-dash.png' alt='Skill Thunder Dash'/></span>",
+                        "reqLev": "73 + 96 SP"
+                    },
+                    {
+                        "name": "Macho Incarnate",
+                        "shortDesc": "Damage: 850%, Max Enemies Hit: 8, Duration: 4 sec., Number of Attacks: 1, Chance to Stun: 100%\\nNumber of mobs attacked with Macho Dance, Macho Slam: +3, Damage: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/macho-incarnate.png"],
+                        "animations": ["/class-icons/other/beast-tamer/macho-incarnate-preview.png"],
+                        "type": "Passive",
+                        "desc": "Releases a mighty roar that has a chance to stun enemies after using <span data-tooltip='Macho Slam (Lv. 49 + 60 SP)'><img src='/class-icons/other/beast-tamer/macho-slam.png' alt='Skill Macho Slam'/></span>",
+                        "details": [
+                            "<strong>[Passive]</strong>: Increases %Damage and max number of enemies hit for <span data-tooltip='Macho Dance (Lv. 41 + 48 SP)'><img src='/class-icons/other/beast-tamer/macho-dance.png' alt='Skill Macho Dance'/></span> and <span data-tooltip='Macho Slam (Lv. 49 + 60 SP)'><img src='/class-icons/other/beast-tamer/macho-slam.png' alt='Skill Macho Slam'/></span>"
+                        ],
+                        "reqLev": "80 + 107 SP"
+                    },
+                    {
+                        "name": "Three-Point Pounce",
+                        "shortDesc": "MP Cost: 130, Damage: 615%, Number of Attacks: 4, Max Enemies Hit: 10, Cooldown: 2 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/three-point-pounce.png"],
+                        "animations": ["https://media3.giphy.com/media/YmttNa9etD19MGEhGA/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pounces around 3 times while slashing at enemies",
+                        "reqLev": "86 + 116 SP"
+                    },
+                    {
+                        "name": "Advanced Thunder Dash",
+                        "shortDesc": "MP Cost: 112, Damage: 400%, Number of Attacks: 4, Max Enemies Hit: 10, Cooldown: 2 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/advanced-thunder-dash.png", "/class-icons/other/beast-tamer/thunder-dash.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and dash distance",
+                            "Reduces cooldown"
+                        ],
+                        "reqLev": "91 + 123 SP"
+                    },
+                    {
+                        "name": "Deadly Fangs",
+                        "shortDesc": "Magic ATT: +30, Final Damage: +20%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/deadly-fangs.png"],
+                        "type": "Passive",
+                        "reqLev": "85 + 129 SP"
+                    },
+                    {
+                        "name": "Lethal Lai",
+                        "shortDesc": "Leopard's Paw, Leopard's Pounce, Leopard's Roar, Macho Dance, Macho Slam and Thunder Dash Damage: +50%, Max Enemies Hit: +4, Enemy DEF Ignore: +30%, Damage Against Normal Enemies: +25%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/lethal-lai.png"],
+                        "type": "Passive",
+                        "reqLev": "101 + 138 SP"
+                    },
+                    {
+                        "name": "Leopard Reflexes",
+                        "shortDesc": "Attack Speed: +2 level(s), Magic ATT: +6%, Ignore Enemy Defense: 60%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/leopard-reflexes.png"],
+                        "type": "Passive",
+                        "reqLev": "108 + 149 SP"
+                    },
+                    {
+                        "name": "Party Time",
+                        "shortDesc": "MP Cost: 300, Damage: 650%, Number of Attacks: 8, Max Enemies Hit: 15, Cooldown: 15 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/party-time.png"],
+                        "animations": ["https://media2.giphy.com/media/d90xSUfc41yv32Qh9R/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Unleashes a deadly slash that damages a large area",
+                        "reqLev": "116 + 190 SP"
+                    }]
+            ],
+            [
+                "Hawk", [
+                    {
+                        "name": "Formation Attack",
+                        "shortDesc": "Damage: 110%, Max Enemies Hit: 3, Number of Attacks: 1. When enemies are hit, reduces Fly's cooldown by 0.5 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/formation-attack.png"],
+                        "animations": ["https://media1.giphy.com/media/Y4Dj3mN5oxGCgazgRv/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "While the Attack Key is held, fires out homing birds",
+                        "details": [
+                            "When the birds hit an enemy, the cooldown of <span data-tooltip='Fly (Lv. 43 + 20 SP)'><img src='/class-icons/other/beast-tamer/fly.png' alt='Skill Fly'/></span> is reduced slightly",
+                            "You can move while casting"
+                        ],
+                        "reqLev": 30
+                    },
+                    {
+                        "name": "Sky Walk",
+                        "shortDesc": "MP Cost: 13. Jump up to two more times in midair after your initial jump.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/other/beast-tamer/sky-walk.png"],
+                        "animations": ["https://media2.giphy.com/media/h2TFMtUBfgqLfWh0H8/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Increases the jump distance of <span data-tooltip='Guardian Leap (Beginner Skill)'><img src='/class-icons/other/beast-tamer/guardian-leap.png' alt='Skill Guardian Leap'/></span> and allows you to jump an extra time",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ],
+                        "reqLev": 30
+                    },
+                    {
+                        "name": "Vertical Draft",
+                        "shortDesc": "Jump: 1650",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/vertical-draft.png"],
+                        "animations": ["https://media0.giphy.com/media/Q790pKKav1I5H9qiKA/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Launches yourself up into the air",
+                        "details": [
+                            "Can also be activated by double-tapping the Up Arrow Key while in the air"
+                        ],
+                        "reqLev": "33 + 8 SP"
+                    },
+                    {
+                        "name": "Eka Express",
+                        "shortDesc": "MP Cost: 60, Portal Duration: 200 sec, Cooldown: 200 sec\\nPassive Effects - Critical Damage: +10%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/eka-express.png"],
+                        "animations": ["https://media2.giphy.com/media/YpTgcPgjCOwqVMpWUj/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Creates a portal that leads to the nearest town for your party members",
+                        "details": [
+                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage",
+                            "To use, press the Up Arrow Key"
+                        ],
+                        "reqLev": "37 + 14 SP"
+                    },
+                    {
+                        "name": "Fly",
+                        "shortDesc": "Flight Duration: 30 sec, Cooldown: 60 sec.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/beast-tamer/fly.png"],
+                        "animations": ["https://media3.giphy.com/media/YmUk2hJFTXW21cyqEq/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Allows you to fly which unlocks additional attacks",
+                        "details": [
+                            "Press and hold the Jump Key and Up Arrow Key to fly",
+                            "Press the Jump Key and Down Arrow Key to stop flying"
+                        ],
+                        "reqLev": "43 + 20 SP"
+                    },
+                    {
+                        "name": "Hawk Flock",
+                        "shortDesc": "MP Cost: 25, Duration: 180 sec, Speed: +30, Jump: +15\\nPassive Effects - Max Movement Speed: +15",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/hawk-flock.png"],
+                        "animations": ["https://media3.giphy.com/media/3C1ZHpBIdbkyV8lhxJ/giphy.gif"],
+                        "type": "Party Buff",
+                        "reqLev": "48 + 27 SP"
+                    },
+                    {
+                        "name": "Max Mobility",
+                        "shortDesc": "Magic ATT: +30, Attack Speed: +-2 level(s), Ignore Enemy Defense: 30%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/max-mobility.png"],
+                        "type": "Passive",
+                        "reqLev": "52 + 40 SP"
+                    },
+                    {
+                        "name": "Defensive Formation",
+                        "shortDesc": "Damage (Eka's friends): 150%, Max Hits: 2",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/beast-tamer/defensive-formation.png"],
+                        "animations": ["https://media0.giphy.com/media/dtIvsHDRBfZCnNssW5/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "While in <span data-tooltip='Fly (Lv. 43 + 20 SP)'><img src='/class-icons/other/beast-tamer/fly.png' alt='Skill Fly'/></span>, birds periodically spawn and attack nearby enemies",
+                        "reqLev": "62 + 50"
+                    },
+                    {
+                        "name": "Eka Glider",
+                        "shortDesc": "Glide: Hold Skill Key",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/other/beast-tamer/eka-glider.png"],
+                        "animations": ["https://media0.giphy.com/media/dv6sn3ccim6vp1qY9j/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While in the air, holding the Skill Key will allow you to glide",
+                        "reqLev": "65 + 70 SP"
+                    },
+                    {
+                        "name": "Feather Cloak",
+                        "shortDesc": "Jump: +4, Critical Rate: +15%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/feather-cloak.png"],
+                        "type": "Passive",
+                        "reqLev": "72 + 71 SP"
+                    },
+                    {
+                        "name": "Regroup",
+                        "shortDesc": "Summons party members. MP Cost: 60, Cooldown: 600 sec\\nPassive Effects - Ignore Enemy Defense: 20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/regroup.png"],
+                        "type": "Active",
+                        "desc": "Summons any party members on the same channel to your location",
+                        "details": [
+                            "<strong>[Passive]</strong>: Increases %Ignore DEF",
+                            "Characters have to be above Lv. 9"
+                        ],
+                        "reqLev": "78 + 81 SP"
+                    },
+                    {
+                        "name": "Raptor Talons",
+                        "shortDesc": "MP Cost: 50, Duration: 180 sec, Magic ATT: +60\\nPassive Effects: Bleed Chance: 100%, Bleed Damage: 340% per sec, Bleed Duration: 6 sec\\nCooldown: 0 sec",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/raptor-talons.png"],
+                        "animations": ["https://media3.giphy.com/media/lTOZDoTUzVO1SYLonG/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants flat Magic Attack and causes your attacks to apply a damaging bleeding debuff",
+                        "reqLev": "83 + 82 SP"
+                    },
+                    {
+                        "name": "Baby Bombers",
+                        "shortDesc": "MP Cost: 80, Damage: 525%, Number of Attacks: 4, Max Enemies Hit: 8\\nCooldown: 3 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/beast-tamer/baby-bombers.png"],
+                        "animations": ["https://media2.giphy.com/media/eIsjWXRKH5j0WlDhbl/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "While in <span data-tooltip='Fly (Lv. 43 + 20 SP)'><img src='/class-icons/other/beast-tamer/fly.png' alt='Skill Fly'/></span>, commands birds to slash around you, damaging nearby enemies",
+                        "reqLev": "88 + 103 SP"
+                    },
+                    {
+                        "name": "Bird's-Eye View",
+                        "shortDesc": "MP Cost: 30, Duration: 450 sec, Critical Rate: +15%, Defense: +900",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/birds-eye-view.png"],
+                        "animations": ["https://media1.giphy.com/media/ERTIcOB6qfqumpPbrm/giphy.gif"],
+                        "type": "Party Buff",
+                        "reqLev": "94 + 126 SP"
+                    },
+                    {
+                        "name": "Veteran Formation",
+                        "shortDesc": "Formation Attack, Defensive Formation, and Baby Bombers Damage: +150%, Formation Attack Count: +3",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/beast-tamer/veteran-formation.png"],
+                        "type": "Passive",
+                        "reqLev": "99 + 137 SP"
+                    },
+                    {
+                        "name": "Razor Beak",
+                        "shortDesc": "MP Cost: 22, Weapon ATT: +30, Magic ATT: +30, Duration: 180 sec",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/razor-beak.png"],
+                        "animations": ["https://media3.giphy.com/media/NFQKuPQn4IrvNUJZh9/giphy.gif"],
+                        "type": "Party Buff",
+                        "reqLev": "104 + 145 SP"
+                    },
+                    {
+                        "name": "Feather Boots",
+                        "shortDesc": "Movement Speed: +45, Critical Damage: +15%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/feather-boots.png"],
+                        "type": "Passive",
+                        "reqLev": "110 + 150 SP"
+                    },
+                    {
+                        "name": "Tornado Flight",
+                        "shortDesc": "MP Cost: 42, Max Enemies Hit: 8, Damage: 800%. Steer by holding the skill key and pressing Left, Right, Up, and Down. Max Range: 600, Cooldown: 25",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/tornado-flight.png"],
+                        "animations": ["https://media3.giphy.com/media/H4ydKagmfIAPgBNthn/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "While held during <span data-tooltip='Fly (Lv. 43 + 20 SP)'><img src='/class-icons/other/beast-tamer/fly.png' alt='Skill Fly'/></span>, creates a tornado that damages nearby enemies",
+                        "reqLev": "118 + 170 SP"
+                    }]
+            ],
+            [
+                "Cat", [
+                    {
+                        "name": "Friend Launcher",
+                        "shortDesc": "Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 4. On the 4th attack, delivers a final blow striking 8 enemies once and dealing 400% damage.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/friend-launcher.png"],
+                        "animations": ["https://media0.giphy.com/media/hTCDVwgj3Ao5V2Tm6j/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "Launches an animal forward that damages enemies it hits",
+                        "reqLev": 50
+                    },
+                    {
+                        "name": "Cat Wit",
+                        "shortDesc": "Passive Effect - INT: +100",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/cat-wit.png"],
+                        "type": "Passive",
+                        "reqLev": 50
+                    },
+                    {
+                        "name": "Kitty Battle Squad",
+                        "shortDesc": "Passive Effects: ATT/Magic ATT: +35",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/kitty-battle-squad.png"],
+                        "type": "Party Passive",
+                        "reqLev": "53 + 8 SP"
+                    },
+                    {
+                        "name": "Kitty Treats",
+                        "shortDesc": "Max HP: +625, Max MP: +625",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/kitty-treats.png"],
+                        "type": "Party Passive",
+                        "reqLev": "56 + 15 SP"
+                    },
+                    {
+                        "name": "Purr-Powered",
+                        "shortDesc": "Passive Effect - Stance Chance: +30%, HP Recovery: 100 per 4 seconds, MP Recovery: 100 per 4 seconds",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/purr-powered.png"],
+                        "type": "Passive",
+                        "reqLev": "61 + 27 SP"
+                    },
+                    {
+                        "name": "Sticky Paws",
+                        "shortDesc": "Passive Effect - Party Item Drop Chance: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/sticky-paws.png"],
+                        "type": "Party Passive",
+                        "reqLev": "66 + 39 SP"
+                    },
+                    {
+                        "name": "Meow Heal",
+                        "shortDesc": "MP Cost: 46, Max Number: 6, Recovered: 20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/meow-heal.png"],
+                        "animations": ["https://media2.giphy.com/media/VJ50AqBqWAO5aVaoLL/giphy.gif"],
+                        "type": "Party Heal",
+                        "desc": "Throws a yarn that heals any party members it hits",
+                        "reqLev": "71 + 51 SP"
+                    },
+                    {
+                        "name": "Cat's Claws",
+                        "shortDesc": "Passive Effects: Critical Rate: +30%, Critical Damage: +10%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/cats-claws.png"],
+                        "type": "Party Passive",
+                        "reqLev": "75 + 60 SP"
+                    },
+                    {
+                        "name": "Meow Cure",
+                        "shortDesc": "MP Cost: 10, Chance to nullify magic effects and remove abnormal status: 100%, Cooldown: 5 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/meow-cure.png"],
+                        "animations": ["https://media0.giphy.com/media/UAUQfTOOmtjzQBuTut/giphy.gif"],
+                        "type": "Party Active",
+                        "desc": "Cures party members of Abnormal Statuses",
+                        "reqLev": "79 + 70 SP"
+                    },
+                    {
+                        "name": "Purr Zone",
+                        "shortDesc": "MP Cost: MP 115, Max Targets Affected: 8, Damage: 1000%, Friends Healed: 550, Duration: 22 sec, Cooldown: 15 sec",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/purr-zone.png"],
+                        "animations": ["https://media1.giphy.com/media/YPhQotP9lxxOdovkYh/giphy.gif"],
+                        "type": "Party Heal / Attack",
+                        "desc": "Creates a zone that heals party members and damages enemies within it ",
+                        "reqLev": "84 + 83 SP"
+                    },
+                    {
+                        "name": "Meow Card",
+                        "shortDesc": "MP Cost: 0,\\nRed Card - Damage: +40%\\nBlue Card - DEF: +200, Max HP/MP: +25%\\nYellow Card - Attack Speed: +-2, Speed: +20\\nDuration: 180 sec, Cooldown: 30 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/meow-card.png"],
+                        "animations": ["https://media2.giphy.com/media/D5gD2rQDHmEOQYcYQL/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Provides a random buff based on a card chosen",
+                        "details": [
+                            "<img src='/class-icons/other/beast-tamer/red-card.png'/> <strong>[Red Card]</strong>: Increases %Damage",
+                            "<img src='/class-icons/other/beast-tamer/blue-card.png'/> <strong>[Blue Card]</strong>:<strong> </strong>Increases %Max HP/MP and grants flat DEF",
+                            "<img src='/class-icons/other/beast-tamer/green-card.png'/> <strong>[Green Card]:</strong> Increases Attack Speed (by 2 stages) and Movement Speed"
+                        ],
+                        "reqLev": "89 + 95 SP"
+                    },
+                    {
+                        "name": "Friend Launcher - Enhance",
+                        "shortDesc": "Friend Launcher Damage: +100%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/friend-launcher-enhance.png", "/class-icons/other/beast-tamer/friend-launcher.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ],
+                        "reqLev": "93 + 104 SP"
+                    },
+                    {
+                        "name": "Mouser's Insight",
+                        "shortDesc": "DEF Ignored: 20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/mousers-insight.png"],
+                        "type": "Party Passive",
+                        "reqLev": "97 + 113 SP"
+                    },
+                    {
+                        "name": "Fire Kitty!",
+                        "shortDesc": "MP Cost: 46, Damage: 800%, Number of Attacks: 3, Max Enemies Hit: 8, Enemy DEF: -40%, Cooldown: 3 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/fire-kitty.png "],
+                        "animations": ["https://media2.giphy.com/media/ft5asfPY9CZJCjp3DH/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a kitty forward that debuffs enemies hit",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemy has reduced %DEF<ul><li>Reduction to %DEF can be considered as %Ignore DEF</li></ul>"
+                        ],
+                        "reqLev": "102 + 125 SP"
+                    },
+                    {
+                        "name": "Meow Revive",
+                        "shortDesc": "MP Cost: 75, Revives KO'd party member within range, Cooldown: 750 sec",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/meow-revive.png"],
+                        "animations": ["https://media2.giphy.com/media/S8WyeSjOMCIuK3qk1j/giphy.gif"],
+                        "type": "Party Revive",
+                        "desc": "Revives all KO'd party members within range",
+                        "details": [
+                            "Still consumes a Death Count for bosses even if revived but buffs are kept"
+                        ],
+                        "reqLev": "107 + 137 SP"
+                    },
+                    {
+                        "name": "Meow Gold Card",
+                        "shortDesc": "MP Cost: 75, Passive Effect: Gold Card Chance: 100%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/beast-tamer/meow-gold-card.png"],
+                        "type": "Passive",
+                        "desc": "Grants a chance to draw the Gold Card when using <span data-tooltip='Meow Card (Lv. 89 + 95 SP)'><img src='/class-icons/other/beast-tamer/meow-card.png' alt='Skill Meow Card'/></span> that provides the effects of all 3 cards",
+                        "reqLev": "111 + 147 SP"
+                    },
+                    {
+                        "name": "Friends of Arby",
+                        "shortDesc": "Passive Effect: Party EXP: +30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/beast-tamer/friends-of-arby.png"],
+                        "type": "Party Passive",
+                        "desc": "",
+                        "details": [
+                            "When stacked with <img src='/class-icons/explorers/bishop/holy-symbol.png' alt='Skill Holy Symbol'/> Holy Symbol, only the highest EXP bonus will take effect"
+                        ],
+                        "reqLev": "115 + 160 SP"
+                    },
+                    {
+                        "name": "Cat's Cradle Blitzkrieg",
+                        "shortDesc": "MP Cost: 300, Cat's Cradle Blitzkreig Duration: 10 sec., Max Enemies Hit: 8, Damage: 1000%, Number of Attacks: 1. Final Damage +20%, on enemies hit by Cat's Cradle, for 20 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/beast-tamer/cats-cradle-blitzkrieg.png"],
+                        "animations": ["https://media0.giphy.com/media/ibczXOhxAyWahErmSv/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Creates a zone where enemies within are damaged and applied a debuff",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemies take increased %Final Damage"
+                        ],
+                        "reqLev": "120 + 170 SP"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Furious Strikes - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/furious-strikes-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Furious Strikes - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/furious-strikes-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Furious Strikes - Boss Rush",
+                    "shortDesc": "+20% damage to bosses",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/furious-strikes-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Three-Point Pounce - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/three-point-pounce-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                },
+                {
+                    "name": "Three-Point Pounce - Spread",
+                    "shortDesc": "Monsters Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/three-point-pounce-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Three-Point Pounce - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/three-point-pounce-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Formation Attack - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/formation-attack-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Formation Attack - Spread",
+                    "shortDesc": "Monsters Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/formation-attack-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Formation Attack - Guardbreak",
+                    "shortDesc": "DEF Ignored: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/formation-attack-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Friend Launcher - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/friend-launcher-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Friend Launcher - Spread",
+                    "shortDesc": "Monsters Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/friend-launcher-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Friend Launcher - Range",
+                    "shortDesc": "Range: 350",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/friend-launcher-range.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Team Roar",
+                    "shortDesc": "MP Cost: 1000, Invincibility Duration: 15 sec, Damage Boost: +30%\\nCooldown: 180 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/team-roar.png"],
+                    "animations": ["https://media3.giphy.com/media/pRhbNGAeQY1Mdsd2TS/giphy.gif"],
+                    "type": "Buff / Party Buff",
+                    "desc": "While active, grants invincibility to yourself and increases %Damage for your party",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Group Bear Blaster",
+                    "shortDesc": "MP Cost: 500, Damage: 540%, Number of Attacks: 15, Max Enemies Hit: 15, Cooldown: 90 sec, Invincible while casting",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/group-bear-blaster.png"],
+                    "animations": ["https://media.giphy.com/media/iGXHPM4NUBBIZ7mEj6/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launches Fort at enemies around you",
+                    "details": [
+                        "You are invincible while casting"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "All Together! Critter Crossing!",
+                    "shortDesc": "MP Cost: 1000, Duration: 60, applies all of the passive and buff skills with a few exceptions, regardless of the mode.\\nHowever, only skills with SP invested will be maintained, and buffs will disappear regardless of the remaining duration when this buff ends.\\nCooldown: 180 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/beast-tamer/all-together-critter-crossing.png"],
+                    "animations": ["https://media.giphy.com/media/gvDQmniey29Fg8tURy/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, applies all your passive and buff effects, regardless of the mode you are in",
+                    "details": [
+                        "Only passives and buffs you have allocated Skill Points (SP) into are affected"
+                    ],
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Champ Charge",
+                    "shortDesc": "MP Cost: 1000\\nBear - picks up a big drum to attack 10 enemies 20 times, dealing 1200% damage.\\nSnow Leopard - uses powerful claws to attack 12 enemies 20 times, dealing 1000% damage. Thunder Trail effect applies.\\nHawk - shoots feathers in a wide arc to attack 15 enemies 15 times, dealing 900% damage.\\nCat - periodically attacks 10 enemies 5 times, dealing 600% damage. Creates a tree for 10 sec., which decreases damage taken by allies within range by 40%.\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/other/beast-tamer/champ-charge.png"],
+                    "animations": ["https://media.giphy.com/media/EDGEj5b50UBlkoNsTR/giphy.gif", "https://media.giphy.com/media/VgesDpyLedeV0Po6QQ/giphy.gif", "https://media.giphy.com/media/sji4OFzvquOgOQwutx/giphy.gif", "https://media.giphy.com/media/Qo3KsKOwpBjTB2tmJi/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Based on your current animal mode, release a powerful attack and grants a buff for that mode",
+                    "details": [
+                        "<strong>[Bear]</strong>: Increases %Damage Reduction including %Max HP attacks",
+                        "<strong>[Hawk]</strong>: Increases %Crit Damage",
+                        "<strong>[Snow Leopard]</strong>: <span data-tooltip='Thunder Trail (Lv. 73 + 96 SP)'><img src='/class-icons/other/beast-tamer/thunder-trail.png' alt='Skll Thunder Trail'/></span> effect applies to the attack",
+                        "<strong>[Cat]</strong>: Creates a tree that increases %Damage Reduction including %Max HP attacks to party members within range"
+                    ]
+                },
+                {
+                    "name": "Cub Cavalry",
+                    "shortDesc": "MP Cost: 1000, Summon Duration: 10 sec. Summons between 4 and at most 8 groups of critter cubs, depending on the number of enemies within range.\\nCubs periodically attack 3 times dealing 600% damage.\\nWhen time runs out the cubs attack, dealing 1500% damage to as many as 8 enemies 8 times\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/other/beast-tamer/cub-cavalry.png"],
+                    "animations": ["https://media.giphy.com/media/bi6KY3MDMRgRitVWvr/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a group of critters that travel around while damaging enemies in its path",
+                    "details": [
+                        "Pressing the Down Arrow Key and Skill Key together will summon the critters at your position in the direction you are facing",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Aerial Relief",
+                    "shortDesc": "MP Cost: 1500, periodically attacks 34 times, Max Enemies Hit: 15, Damage: 630%, Number of Attacks: 12\\nRecovers 1250 HP for you and nearby allies and ignores abnormal status.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/other/beast-tamer/aerial-relief.png"],
+                    "animations": ["https://media.giphy.com/media/iIguAfB0rxnb7esOuh/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Your animal friends get on an airplane and launches forward ",
+                    "details": [
+                        "Unaffected by Damage Reflect",
+                        "Using the skill will restore some HP and cure Abnormal Statuses to nearby party members"
+                    ]
+                },
+                {
+                    "name": "The Greatest Show on Maple World is Coming!",
+                    "shortDesc": "MP Cost: 1000, Duration: 55 sec. Forms an area of effect that attacks up to 5 enemies for 1000% damage, 10 time(s), every 4 sec. If the mode changes during buff duration, it activates a tag attack that attacks up to 10 enemies, for 1275% damage, 12 time(s). Tag Attack Cooldown: 5 sec\\nCooldown: 180 sec",
+                    "icons": ["/class-icons/other/beast-tamer/the-greatest-show-on-maple-world-is-coming.png"],
+                    "animations": ["https://media.giphy.com/media/Djr8pXe15fRxebMXIC/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Your animal friends surround you, periodically damaging nearby enemies",
+                    "details": [
+                        "While active, changing animal modes <img src='/class-icons/other/beast-tamer/critter-select.png' alt='Skill Critter Select'/> will activate a special attack",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Majestic Trumpet - Bear Mode",
+                "icons": ["/class-icons/other/beast-tamer/majestic-trumpet.png"],
+                "animations": ["https://media0.giphy.com/media/RJIquD8nzOU9pqACyw/giphy.gif"]
+            },
+            {
+                "name": "Furious Strikes - Bear Mode",
+                "icons": ["/class-icons/other/beast-tamer/furious-strikes.png"],
+                "animations": ["https://media3.giphy.com/media/ZczWQtTYl9nfvWirfn/giphy.gif"]
+            },
+            {
+                "name": "Leopard's Roar - Leopard Mode",
+                "icons": ["/class-icons/other/beast-tamer/leopards-roar.png"],
+                "animations": ["https://media3.giphy.com/media/SVStqs2vE9LfvxPIBv/giphy.gif"]
+            },
+            {
+                "name": "Party Time - Leopard Mode",
+                "icons": ["/class-icons/other/beast-tamer/party-time.png"],
+                "animations": ["https://media2.giphy.com/media/d90xSUfc41yv32Qh9R/giphy.gif"]
+            },
+            {
+                "name": "Formation Attack - Hawk Mode",
+                "icons": ["/class-icons/other/beast-tamer/formation-attack.png"],
+                "animations": ["https://media1.giphy.com/media/Y4Dj3mN5oxGCgazgRv/giphy.gif"]
+            },
+            {
+                "name": "Defensive Formation - Hawk Mode",
+                "icons": ["/class-icons/other/beast-tamer/defensive-formation.png"],
+                "animations": ["https://media0.giphy.com/media/dtIvsHDRBfZCnNssW5/giphy.gif"]
+            },
+            {
+                "name": "Cat's Cradle Blitzkrieg - Cat Mode",
+                "icons": ["/class-icons/other/beast-tamer/cats-cradle-blitzkrieg.png"],
+                "animations": ["https://media0.giphy.com/media/ibczXOhxAyWahErmSv/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Beast Tamer is an INT mage class part of its own Beast Tamer class group. What is special about Beast Tamers is that they do not have regular 1st, 2nd, 3rd, and 4th Job Advancements. Instead they 4 different animal stances with their own separate skill trees. The skills can only be used while in that specified stance. There is a Bear stance, Leopard stance, Hawk stance, and Cat stance"
+}

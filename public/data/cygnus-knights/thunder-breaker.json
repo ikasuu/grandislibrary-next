@@ -1,0 +1,1106 @@
+{
+    "class": "Thunder Breaker",
+    "content": {
+        "classGroup": "Cygnus Knights",
+        "jobGroup": "Pirate",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["knuckle"]},
+            {"secondary": ["jewel"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20% / Passive Skills +1", "Buff Duration +38% / Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.7x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/cygnus-knights/thunder-breaker/agile-knuckles.png} tip={Agile Knuckles (2nd Job)} val={+2}> <bg src={/class-icons/common/speed-infusion.png} tip={Speed Infusion (4th Job)} val={+2, does not break soft cap}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+60 +1 per 2 levels & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/cygnus-knights/thunder-breaker/gains.png} tip={Gains (2nd Job)} val={+60}> <bg src={/class-icons/cygnus-knights/elemental-harmony.png} tip={Elemental Harmony (Beginner Skill)} val={+1 per 2 levels}> <bg src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+14% +170(210)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+55}> <bg src={/class-icons/cygnus-knights/thunder-breaker/lightning-boost.png} tip={Lightning Boost (2nd Job)} val={+25}> <bg src={/class-icons/cygnus-knights/thunder-breaker/lightning-lord.png} tip={Lightning Lord (3rd Job)} val={+30}> <bg src={/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+60}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/cygnus-knights/thunder-breaker/gains.png} tip={Gains (2nd Job)} val={+15%}> <bg src={/class-icons/cygnus-knights/thunder-breaker/ironclad.png} tip={Ironclad (3rd Job)} val={+10%}> <bg src={/class-icons/cygnus-knights/thunder-breaker/thunder-god.png} tip={Thunder God (4th Job)} val={+10%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%",
+                "detail": "<bg src={/class-icons/cygnus-knights/thunder-breaker/gains.png} tip={Gains (2nd Job)} val={+5%}> <bg src={/class-icons/cygnus-knights/thunder-breaker/lightning-lord.png} tip={Lightning Lord (3rd Job)} val={+10%}> <bg src={/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+15%}> <bg src={/class-icons/cygnus-knights/thunder-breaker/thunder-god.png} tip={Thunder God (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+40%(122%)",
+                "detail": "<bg src={/class-icons/cygnus-knights/thunder-breaker/ironclad.png} tip={Ironclad (3rd Job)} val={+5%}> <bg src={/class-icons/cygnus-knights/thunder-breaker/typhoon.png} tip={Typhoon (4th Job)} val={+3% per Lightning Charge used} val={(Max. +15%)}> <bg src={/class-icons/cygnus-knights/thunder-breaker/lightning-lord.png} tip={Lightning Lord (3rd Job)} val={+4% per stack} val={(Max. +20%)}> <bg type={temp} src={/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+48.99%(89.21%)",
+                "detail": "<bg src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery (2nd Job)} val={+7%}> × <bg src={/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+18%}> × <bg src={/class-icons/cygnus-knights/thunder-breaker/link-mastery.png} tip={Link Mastery (3rd Job)} val={+6% per successful linked attack} val={(Max. +18%)}> × <bg type={temp} src={/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png} tip={Lightning Cascade (5th Job)} val={+27%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+45%(50%)",
+                "detail": "<bg type={def} sub={temp} src={/class-icons/cygnus-knights/thunder-breaker/thunder-god.png} tip={Thunder God (4th Job)} val={+9% per stack} val={(Max. +45%)} subSrc={/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png} subTip={Primal Bolt (Hyper Skill)} subVal={when used, up to 50% instead}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/common/speed-infusion.png} tip={Speed Infusion (4th Job)} dur={[300s]}>",
+            "summons": "<tt src={/class-icons/cygnus-knights/thunder-breaker/sea-wave.png} tip={Sea Wave (2nd Job)} dur={[24 Attacks or 2700 Distance](12s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[15s / 140 Attacks](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/cygnus-knights/thunder-breaker/typhoon.png} tip={Typhoon (4th Job)} dur={[90s](12s cd)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png} tip={Primal Bolt (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png} tip={Lightning Cascade (5th Job)} dur={[52s](120s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>[1s cd](180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png} tip={Thunder Wall Sea Wave (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/cygnus-knights/thunder-breaker/deep-rising.png} tip={Deep Rising (Hyper Skill)} dur={(45s cd)} > <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png} tip={Thunder Wall Sea Wave (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/deep-reinforcement.png} tip={Deep Reinforcement (6th Job)} dur={[2s](Up to 15% HP | Barrier)}>"
+        },        
+        "linkSkill": {
+            "id": 80000055,
+            "offline": true,
+            "name": "Cygnus Blessing",
+            "maxLevel": 15,
+            "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
+            "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level"]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png} tip={Lightning Elemental}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/electrified.png} tip={Electrified}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-punch.png} tip={Lightning Punch}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/flash.png} tip={Flash}>"],
+                ["2nd Job", "<tt src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/agile-knuckles.png} tip={Agile Knuckles}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-boost.png} tip={Lightning Boost}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/gains.png} tip={Gains}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/shark-sweep.png} tip={Shark Sweep}>"],
+                ["3rd Job", "<tt src={/class-icons/cygnus-knights/thunder-breaker/ironclad.png} tip={Ironclad}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/link-mastery.png} tip={Link Mastery}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-lord.png} tip={Lightning Lord}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/seawall.png} tip={Seawall}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/gale.png} tip={Gale}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/ascension.png} tip={Ascension}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder}>"],
+                ["4th Job", "<tt src={/class-icons/cygnus-knights/thunder-breaker/electrify.png} tip={Electrify}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png} tip={Knuckle Expert}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder-god.png} tip={Thunder God}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/arc-charger.png} tip={Arc Charger}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png} tip={Thunderbolt}> -> <tt src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus}> -> <tt src={/class-icons/common/speed-infusion.png} tip={Speed Infusion}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/typhoon.png} tip={Typhoon}> -> <tt src={/class-icons/cygnus-knights/thunder-breaker/annihilate.png} tip={Annihilate}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/cygnus-knights/thunder-breaker/gale-reinforce.png} tip={Gale - Reinforce}> <tt src={/class-icons/cygnus-knights/thunder-breaker/gale-extra-strike.png} tip={Gale - Extra Strike}> Gale - Reinforce and Extra Strike_<tt src={/class-icons/cygnus-knights/thunder-breaker/thunderbolt-extra-strike.png} tip={Thunderbolt - Extra Strike}> Thunderbolt - Extra Strike_<tt src={/class-icons/cygnus-knights/thunder-breaker/annihilate-reinforce.png} tip={Annihilate - Reinforce}> <tt src={/class-icons/cygnus-knights/thunder-breaker/annihilate-boss-rush.png} tip={Annihilate - Boss Rush}> Annihilate - Reinforce and Boss Rush_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png} tip={Thunderbolt (4th Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/annihilate.png} tip={Annihilate (4th Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/gale.png} tip={Gale and Typhoon (3rd Job / 4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/cygnus-knights/thunder-breaker/ascension.png} tip={Ascension (3rd Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/deep-rising.png} tip={Deep Rising (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash and Sea Wave (2nd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/cygnus-knights/thunder-breaker/annihilate.png} tip={Annihilate (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png} tip={Thunderbolt (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/thunder-breaker/gale.png} tip={Gale(3rd Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/typhoon.png} tip={Typhoon (4th Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/deep-rising.png} tip={Deep Rising (Hyper Skill)}>",
+                "<tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/sea-wave.png} tip={Sea Wave (2nd Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/shark-sweep.png} tip={Shark Sweep (2nd Job)}>",
+                "<tt src={/class-icons/cygnus-knights/thunder-breaker/ascension.png} tip={Ascension (3rd Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}>",
+                "<tt src={/class-icons/cygnus-knights/thunder-breaker/flash.png} tip={Flash (1st Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-punch.png} tip={Lightning Punch (1st Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Thunder_Breaker"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EC%BB%A4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "http://discord.gg/ewyWwFQ"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/149bORdBFd99UJSFbza52zv5AJw4VfB4kvqC5p4K-97g"}
+        ],
+        "infographics": [
+            {
+                "src": "thunder-breaker/thunder-breaker-6th-job-fragments.png",
+                "title": "6th Job (Fragments Efficient)",
+                "credit": "Thunder Breaker Discord",
+                "date": "2026-09-04"
+            },
+            {
+                "src": "thunder-breaker/thunder-breaker-6th-job-energy.png",
+                "title": "6th Job (Energy Efficient)",
+                "credit": "Thunder Breaker Discord",
+                "date": "2026-09-04"
+            }
+        ],
+        "discord": "http://discord.gg/ewyWwFQ",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Thunder Breaker Discord"],
+            ["5th Job Skills Animations", "KyoWantsCute"],
+            ["Gale Animation", "Owltakuu"]
+        ],
+        "extraContent": {
+            "title": "Linking & Link Mastery Skills",
+            "content": [
+                "<img src={https://media.giphy.com/media/hTrbborKBU8fXTGFTv/giphy-downsized-large.gif} alt={Skill Linking skills}>",
+                "Thunder Breaker's attacks can link with one another to decrease the cast action delays between each skill. Successfully linking skills will also provide buffs such as <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png} tip={Lightning Elemental (1st Job)}> Lightning Elemental (1st Job) that provide provings a stacking %Ignore DEF and %Damage buff. In 3rd Job, <tt src={/class-icons/cygnus-knights/thunder-breaker/link-mastery.png} tip={Link Mastery (3rd Job)}> Link Mastery is unlocked that provides a stacking %Final Damage buff upon linking skills",
+                "Additionally, certain skills are labelled as 'Link Mastery' skills which are attacks that have cooldowns. Several of these skills consume stacks of <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png} tip={Lightning Elemental (1st Job)}> Lightning Elemental. Primarily, these skills are affected by the buff <tt src={/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png} tip={Primal Bolt (Hyper Skill)}> Primal Bolt (Hyper Skill) which allows Link Mastery skills to not consume any <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png} tip={Lightning Elemental (1st Job)}> Lightning Elemental stacks and linking skills will reduce the cooldown of these skills. Below is a list of all Link Mastery skills:",
+                "<bp_<tt src={/class-icons/cygnus-knights/thunder-breaker/sea-wave.png} tip={Sea Wave (2nd Job)}> Sea Wave - 2nd Job_<tt src={/class-icons/cygnus-knights/thunder-breaker/gale.png} tip={Gale (3rd Job)}> Gale - 3rd Job_<tt src={/class-icons/cygnus-knights/thunder-breaker/shark-torpedo.png} tip={Shark Torpedo (5th Job)}> Shark Torpedo - 5th Job_<tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-god-spear-strike.png} tip={Lightning God Spear Strike (5th Job)}> Lightning God Spear Strike - 5th Job_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Cygnus Blessing",
+                    "maxLevel": 15,
+                    "shortDesc": "Attack Power and Magic ATT: +55, Status Resistance: +22, Elemental Resistance: +22%",
+                    "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Elemental Slash",
+                    "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-slash.png"],
+                    "animations": ["https://media.giphy.com/media/4Nd7PuL7LFVXrc4HKZ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike forward damaging multiple enemies"
+                },
+                {
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/imperial-recall.png"],
+                    "animations": ["https://media.giphy.com/media/4rqW7RkNFvYFJcmhNP/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Noble Mind",
+                    "shortDesc": "Increases Empress's Blessing max level by 6",
+                    "maxLevel": 6,
+                    "icons": ["/class-icons/cygnus-knights/noble-mind.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing quests from Neinheart after Lv. 125"
+                    ]
+                },
+                {
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Strength increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-harmony.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-expert.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-shift.png"],
+                    "animations": ["https://media.giphy.com/media/GA1HOFCDrp7XBMosiy/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be activated by pressing jump twice",
+                        "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Lightning Punch",
+                        "shortDesc": "MP Cost: 21, Max Enemies Hit: 4, Damage: 160%, Number of Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-punch.png"],
+                        "animations": ["https://media.giphy.com/media/i5xCcbMZiPUukiXz9J/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Punch forward",
+                        "details": [
+                            "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Flash",
+                        "shortDesc": "MP Cost: 9, Max Enemies Hit: 4 Damage: 310%, Number of Attacks: 1\\nWhen no enemies are around, you'll be teleported forward 300.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/flash.png"],
+                        "animations": ["https://media.giphy.com/media/v8sR2ogzD4E8r6qlRv/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Teleport to the nearest enemy and damages surrounding enemies",
+                        "details": [
+                            "If there are no enemies, teleports forward a short distance",
+                            "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}>",
+                            "Cast action cannot be cancelled when linked to <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> while mid-air"
+                        ]
+                    },
+                    {
+                        "name": "Lightning Elemental",
+                        "shortDesc": "Lightning Elemental Channeling\\n[Passive Effect: Chance to create Lightning Charge: 10%, Buff Duration: 30 sec. Same chance to create 2 Lightning Charge when linking skill\\nMax Lightning Charge Stacks: 2\\nIgnore Enemy Defense: 5% per Lightning Charge\\nConsuming Lightning Charge temporarily applies adjusted buff for 10 sec that increases the same amount of stats as those increased by the consumed Lightning Charge\\nWhile adjusted buff is active, adjusted buff stacks decrease when Lightning Charge is obtained\\nAll stats increased by Lightning Charge and adjusted buff are additive.]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png"],
+                        "animations": ["https://media.giphy.com/media/yDycHd2HVzOohfSsR5/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "Successful attacks have a chance to grant a stack of [Lightning Charge]",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation",
+                            "[Lightning Charge]: For each stack, increases %Ignore DEF (additive)",
+                            "Linking skills has a chance to provide 2 stacks of Lightning Charge",
+                            "When stacks of Lightning Charge are consumed, a temporary buff is applied that provides the same amount of bonus stats provided from the Lightning Charges consumed<bp_While active, the amount of bonus stats provided will be adjusted as Lightning Charges are regained_>"
+                        ]
+                    },
+                    {
+                        "name": "Electrified",
+                        "shortDesc": "Chance to create Lightning Charge: +20%\\nSpeed: +40, Jump: +20, Max Speed: +20.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/electrified.png", "/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png"],
+                        "animations": ["https://media.giphy.com/media/GA1HOFCDrp7XBMosiy/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to gain Lightning Charges",
+                            "Now increases Movement Speed, Jump and Max Movement Speed",
+                            "Additionally modifies the appearance of <tt src={/class-icons/cygnus-knights/elemental-shift.png} tip={Elemental Shift (Beginner Skill)}>"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [{
+                        "name": "Shark Sweep",
+                        "shortDesc": "MP Cost: 31, Damage: 155%, Number of Attacks: 4, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/shark-sweep.png"],
+                        "animations": ["https://media.giphy.com/media/Sc3z6V33wUbIbRZXk4/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Sweep upwards damaging enemies around you",
+                        "details": [
+                            "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Tidal Crash",
+                        "shortDesc": "MP Cost: 20, Max Monsters Hit: 8, Damage: 255%, Number of Attacks: 2 while moving forward",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png"],
+                        "animations": ["https://media.giphy.com/media/GvaR75ut9Ju5dLYuWP/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing enemies back",
+                        "details": [
+                            "Does not generate Lightning Charges",
+                            "While dashing, pressing the Down Arrow Key will cancel the dash early",
+                            "Right-clicking the skill will toggle a lock ON/OFF to prevent it from cancelling with the Arrow Keys<bp_Instead, pressing the Skill Key again will cancel the dash early_>",
+                            "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}><bp_Certain skills can link to Tidal Crash faster_Can be used to cancel cast actions when used after a skill while mid-air_>"
+                        ]
+                    },
+                    {
+                        "name": "Sea Wave",
+                        "shortDesc": "MP Cost: 50, created when linking skill and not under cooldown\\nFlows in a fixed direction, Max Enemies Hit: 5, Damage: 190%, Number of Attacks: 4\\nDisappears when moving a distance of 2700 or the number of enemies attacked is 24\\nMax Attack on Single Enemy: 1\\nCooldown: 12 sec",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/sea-wave.png"],
+                        "animations": ["https://media.giphy.com/media/nIWYLsFzIazVJxCIbn/giphy.gif"],
+                        "type": "Link Mastery Passive Summon",
+                        "desc": "When linking skills, periodically creates a rolling wave that damages enemies it collides with",
+                        "details": [
+                            "The wave will disappear after travelling a fixed distance or after a number of attacks",
+                            "Right-clicking the skill will toggle activation ON/OFF to prevent Sea Wave from activating",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Agile Knuckles",
+                        "shortDesc": "Strenght: +20, Knuckle Attack Speed: +2",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/agile-knuckles.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +50%, Final Damage: +7%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/knuckle-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Gains",
+                        "shortDesc": "Strength: +60, Critical Rate: +15%, Critical Damage: +5%",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/gains.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Lightning Boost",
+                        "shortDesc": "Attack Power: +25\\nLightning Charge Chance: +20%, Max Stacks: +1\\nDamage: +2% per Lightning Charge, damage increased from Lightning Charge is additive",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-boost.png", "/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to gain Lightning Charges",
+                            "Increases max stacks of Lightning Charges (up to 3)",
+                            "Lightning Charge now grants %Damage for each stack",
+                            "Grants flat Attack"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Ascension",
+                        "shortDesc": "MP Cost: 41, Max Enemies Hit: 6, Damage: 225%, Number of Attacks: 5",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/ascension.png"],
+                        "animations": ["https://media.giphy.com/media/E84mvhpR4OENYSGBOd/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap upwards damaging enemies in front of you",
+                        "details": [
+                            "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Thunder",
+                        "shortDesc": "MP Cost: 37, Max Enemies Hit: 6, Damage: 170%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder.png"],
+                        "animations": ["https://media.giphy.com/media/Oj0lNoV4E39O1i4yp2/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dive diagonally downwards towards the ground",
+                        "details": [
+                            "Can only be used in the air or after <tt src={/class-icons/cygnus-knights/thunder-breaker/ascension.png} tip={Ascension (3rd Job)}>",
+                            "When used first, can be linked with all skills",
+                            "Cast action cannot be cancelled when linked into <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> while mid-air"
+                        ]
+                    },
+                    {
+                        "name": "Gale",
+                        "shortDesc": "MP Cost: 65, can be used when Lightning Charge stack is 3\\nUses all Lightning Charge stacks, Max Enemies Hit: 6, Damage: 381%, Number of Attacks: 3. When used at max Lightning Charge stacks, Damage: +40% points\\nDamage: +2% per Lightning Charge used, Buff Duration: 60 sec\\nHowever, this skill doesn't generate Lightning Charges.\\nCooldown: 20 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/gale.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJzeW16YXRxZmNma3M4ZTdjMzhnZWY3bjQycTRnOG1wMTV4MDRtbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/izBSL4HV6Qj1oeCqt2/giphy.gif"],
+                        "type": "Link Mastery Attack",
+                        "desc": "Release a powerful whirlwind forward",
+                        "details": [
+                            "Consumes all stacks of Lightning Charge<bp_Can only be used when you have 3 or more stacks_If attack consumed max stacks of Lightning Charge, the attack deals increased %p Damage_Attack does not generate stacks of Lightning Charge_>",
+                            "Grants a %Damage buff based on how many stacks of Lightning Charge were consumed",
+                            "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}>",
+                            "Cast action cannot be cancelled when linked into <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> while mid-air"
+                        ]
+                    },
+                    {
+                        "name": "Seawall",
+                        "shortDesc": "Abnormal Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/seawall.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Ironclad",
+                        "shortDesc": "Damage: +5%, Critical Rate: +10%\\nDamage Taken: -10%, Knockback Resistance: +40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/ironclad.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Link Mastery",
+                        "shortDesc": "When linked skill hits, increases Final Damage by 6% for 30 sec. Link Mastery stacks up to 3 times and the Final Damage increase from Link Mastery is additive",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/link-mastery.png"],
+                        "type": "Passive",
+                        "desc": "Successfully linking skills provides a stacking %Final Damage buff (additive)"
+                    },
+                    {
+                        "name": "Lightning Lord",
+                        "shortDesc": "Attack Power: +30, Critical Damage: +10%\\nLightning Charge Chance: +30%, Max Charges: +1\\nDamage: +4% per Lightning Charge, damage increased from Lightning Charge is additive.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-lord.png", "/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to gain Lightning Charges",
+                            "Increases amount of %Damage provided per each stack of Lightning Charge",
+                            "Increases max stacks of buff (up to 4)",
+                            "Grants flat Attack and now increases %Crit Damage"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/call-of-cygnus.png"],
+                    "animations": ["https://media.giphy.com/media/TBfo3VfE68xaywLTqO/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Cygnus Knights' Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
+                    "animations": ["https://media.giphy.com/media/O6vogC8JMFTF9weAuO/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Annihilate",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 1, Damage: 335%, Number of Attacks: 7",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/annihilate.png"],
+                    "animations": ["https://media.giphy.com/media/X7hzkWuPU51tG4vxwV/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a shark that lunges forward at one enemy",
+                    "details": [
+                        "Attack does not generate stacks of Lightning Charge",
+                        "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}><bp_Links to <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> more quickly_>",
+                        "Cast action cannot be cancelled when linked into <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> while mid-air"
+                    ]
+                },
+                {
+                    "name": "Thunderbolt",
+                    "shortDesc": "MP Cost: 75, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 5",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png"],
+                    "animations": ["https://media.giphy.com/media/D85xfWLLUko0S571tZ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slam down with an anchor on enemies in front of you",
+                    "details": [
+                        "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}><bp_Links to <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> more quickly_>"
+                    ]
+                },
+                {
+                    "name": "Typhoon",
+                    "shortDesc": "MP Cost: 49, can be used when Lightning Charge stack is 2\\nUses all Lightning Charge stacks, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 5. When used at max Lightning Charge stacks, Damage: +100% points\\nDamage: +3% per Lightning Charge used, Buff Duration: 90 sec\\nHowever, this skill doesn't generate Lightning Charges.\\nCooldown: 12 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/typhoon.png", "/class-icons/cygnus-knights/thunder-breaker/gale.png"],
+                    "animations": ["https://media.giphy.com/media/8JB8uAJZuLHhwzbE11/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Now requires 2 or more stacks to activate",
+                        "Increases %Damage, Number of Attacks, and Max Enemies Hit of attack",
+                        "Increases %p Damage bonus when used at max stacks of Lightning Charges",
+                        "Increases %Damage provided from buff per Lightning Charge",
+                        "Now able to link with <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> more quickly",
+                        "Cooldown of attack is reduced"
+                    ]
+                },
+                {
+                    "name": "Arc Charger",
+                    "shortDesc": "Makes an additional hit that is 70% of the final damage for all attacks",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/arc-charger.png"],
+                    "type": "Passive",
+                    "desc": "Each hit deals an additional strike with reduced %Final Damage",
+                    "details": [
+                        "Does not apply to summoning skills and 5th Job Common Skills"
+                    ]
+                },
+                {
+                    "name": "Speed Infusion",
+                    "shortDesc": "HP Cost: 40, MP Cost: 40, Duration: 300 sec, Attack Speed: +2\\n[Passive Effect: Sea Wave Damage: +100% points]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/speed-infusion.png"],
+                    "animations": ["https://media.giphy.com/media/TXaZYaZsxYxjqsDn7R/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "Increases Attack Speed (by 2 stages)",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/cygnus-knights/thunder-breaker/sea-wave.png} tip={Sea Wave (2nd Job)}> by a flat amount"
+                    ]
+                },
+                {
+                    "name": "Knuckle Expert",
+                    "shortDesc": "Knuckle Mastery: +70%. Attack Power: +30\\nFinal Damage: +18%, Critical Damage: +15%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png", "/class-icons/common/knuckle-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Final Damage and %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Electrify",
+                    "shortDesc": "Max HP: 20%, Avoidability: +20%, Knockback Resistance: +60%, Damage Intake: -20%",
+                    "maxLevel": 15,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/electrify.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Thunder God",
+                    "shortDesc": "Lightning Charge Chance: +30%, Max Stacks: 1\\nIgnore Enemy Defense: +9% per Lightning Charge\\nCritical Rate: +10%, Critical Damage: +15%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder-god.png", "/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases chance to gain Lightning Charges",
+                        "Increases max stacks of Lightning Charges (up to 5)",
+                        "Increases amount of %Ignore DEF provided from each stack of Lightning Charge",
+                        "Increases %Crit Damage and now increases %Crit Rate"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Gale - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/gale-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Gale - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/gale-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Gale - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/gale-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Thunderbolt - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunderbolt-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Thunderbolt - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunderbolt-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Thunderbolt - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunderbolt-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Annihilate - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/annihilate-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Annihilate - Guardbreak",
+                    "shortDesc": "Monster DEF ignored increased 20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/annihilate-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Annihilate - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/annihilate-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Primal Bolt",
+                    "shortDesc": "MP Cost: 200, Duration: 30 sec, skill doesn't consume MP while active\\nFor every Lightning Charge, Damage: +4%, Ignore Enemy Defense: +10%\\nWhen using Link Mastery skill, ignores required Lightning Charges and doesn't consume Lightning Charges, and Gale's cooldown isn't applied.\\nDecreases Link Mastery skill's cooldown when linking skill while active\\nSea Wave: Decreases 1.5 sec each up to 9 sec when linking\\nShark Torpedo: Decreases 0.5 sec each up to 2 sec when linking\\nLightning God Spear Strike: Decreases 0.5 sec each up to 3 sec when linking\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png"],
+                    "animations": ["https://media.giphy.com/media/dmNEGVF47ca9QswJjk/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, skills do not consume MP and Link Mastery skills can be used while ignoring required stacks of Lightning Charge to activate",
+                    "details": [
+                        "Stacks of Lightning Charge will not be consumed when Link Mastery skills are used",
+                        "Cooldown will not be applied when using <tt src={/class-icons/cygnus-knights/thunder-breaker/typhoon.png} tip={Typhoon (4th Job)}>",
+                        "Each stack of Lightning Charge will provide increased %Ignore DEF",
+                        "Linking skills will reduce the cooldowns of <tt src={/class-icons/cygnus-knights/thunder-breaker/sea-wave.png} tip={Sea Wave (2nd Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/shark-torpedo.png} tip={Shark Torpedo (5th Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/lightning-god-spear-strike.png} tip={Lightning God Spear Strike (5th Job)}>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Deep Rising",
+                    "shortDesc": "MP Cost: 350, Max Enemies Hit: 15, Damage: 860%, Number of Attacks: 7, invincible during casting motion\\nCooldown: 45 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/deep-rising.png"],
+                    "animations": ["https://media.giphy.com/media/7BBUcJBXS0rqgG3Aag/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release the king of the sea to crash down on enemies",
+                    "details": [
+                        "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}><bp_Links to <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> more quickly_>",
+                        "You are invincible while casting",
+                        "Unaffected by cooldown reduction"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png"],
+                    "animations": ["https://media.giphy.com/media/xSjwiakfADiAJyO89b/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["phalanxCharge", "cygnusBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Lightning Cascade",
+                    "shortDesc": "MP Cost: 1000, Grants Final Damage +27% for 52 sec. Initial Damage: 650%, Max Enemies Hit: 5, Number of Attacks: 6. Send forth a lightning bolt.\\nThe damage it deals decreases with each enemy it attacks, and it can hit up to 4 nearby enemies in a row\\nWhen only one bolt triggers, it becomes a more powerful version, dealing 880% damage 7 times.\\nLightning Spawn Cooldown: 3 sec\\nPassive Effect: when you attack when the active effect of Lightning Cascade isn't active, 1 lightning bolt activates if there are normal monsters nearby. Cooldown: 6 sec. Active and Passive Effects cannot trigger simultaneously.\\nSkill Cooldown: 120 sec",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png"],
+                    "animations": ["https://media.giphy.com/media/yb0wjFEtReo4LsDmph/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, increases %Final Damage and your attacks creates a chain of lightning that bounces to nearby enemies",
+                    "details": [
+                        "[Passive]: While buff is not active, attacks will periodically activate a lightning bolt to strike if there are normal monsters nearby",
+                        "The lightning damage is reduced for each enemy it spreads to",
+                        "Deals increased %Damage if only one enemy is hit",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Shark Torpedo",
+                    "shortDesc": "MP Cost: 500, Consumes 2 Lightning Charges.\\nFires a deadly spirit-shark that deals 2420% damage 7 times to up to 15 enemies.\\nWhen Lightning Charge is at max stacks, Damage: +200% points\\nCooldown: 8 sec",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/shark-torpedo.png"],
+                    "animations": ["https://media3.giphy.com/media/EprWwmMl2jpUFAwLXt/giphy.gif"],
+                    "type": "Link Mastery Attack",
+                    "desc": "Release a shark that rips through enemies in front of you",
+                    "details": [
+                        "Consumes 2 stacks of Lightning Charge<bp_When used at max stacks, attack deals increased %Damage by a flat amount_>",
+                        "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Lightning God Spear Strike",
+                    "shortDesc": "MP Cost: 500\\nA divine trident is summoned after 8 linked attacks land successfully.\\nMax Enemies Hit: 8, Damage: 330%, Number of Attacks: 6\\nAfterwards, activates Lightning at set intervals 4 times, which hits up to 8 enemies for 440% damage 7 times.\\nCooldown: 7 sec",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-god-spear-strike.png"],
+                    "animations": ["https://media1.giphy.com/media/2JiaR3rUyriiIADRLc/giphy.gif"],
+                    "type": "Link Mastery Attack",
+                    "desc": "Launch a trident to strike nearby enemies",
+                    "details": [
+                        "Trident is prepared and can be used after linking 8 skills once off cooldown",
+                        "The trident deals damage as it launches up and after it launches up",
+                        "Right-clicking the skill will toggle Auto Use ON/OFF that automatically launches a trident when it is not on cooldown",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Lightning Spear Multistrike",
+                    "shortDesc": "MP Cost: 1000, Duration: 60 sec, Max Combo Attacks: 12\\nCombo Attack: Max Enemies Hit: 4, Damage: 1430%, Number of Attacks: 5. When hit, Max Lightnings: 3, Max Enemies Hit: 3, Damage: 1555%, Number of Attacks: 4. Multiple lightning bolt flash.\\nFinal combo attacks up to 7 enemies with 1990% damage 7 times. When hit, activates large lightning bolts 3 times, attacking up to 8 enemies with 2145% damage 6 times.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-spear-multistrike.png"],
+                    "animations": ["https://media4.giphy.com/media/VdStVzbYIK5yp4dcUx/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike violently around you and causes lightning to strike from above",
+                    "details": [
+                        "Can be used up to 12 times before going on cooldown",
+                        "The final strike deals increased %Damage",
+                        "When used first, can be linked with all skills except <tt src={/class-icons/cygnus-knights/thunder-breaker/thunder.png} tip={Thunder (3rd Job)}>",
+                        "Cast action cannot be cancelled when linked into <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash (2nd Job)}> while mid-air",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Lightning Punch Boost",
+                    "shortDesc": "Lightning Punch Final Damage: +350%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-punch.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Flash Boost",
+                    "shortDesc": "Flash Final Damage: +350%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/flash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shark Sweep Boost",
+                    "shortDesc": "Shark Sweep Final Damage: +300%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/shark-sweep.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Tidal Crash and Sea Wave Boost",
+                    "shortDesc": "Tidal Crash and Sea Wave Final Damage: +300%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png", "/class-icons/cygnus-knights/thunder-breaker/sea-wave.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ascension Boost",
+                    "shortDesc": "Ascension Final Damage: +180%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/ascension.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Thunder Boost",
+                    "shortDesc": "Thunder Final Damage: +180%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gale Boost",
+                    "shortDesc": "Gale and Typhoon Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/gale.png", "/class-icons/cygnus-knights/thunder-breaker/typhoon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Annihilate Boost",
+                    "shortDesc": "Annihilate Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/annihilate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Thunderbolt Boost",
+                    "shortDesc": "Thunderbolt Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Deep Rising Boost",
+                    "shortDesc": "Deep Rising Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/deep-rising.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-annihilate.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzN0a2U0NHA4YWhvZ3JkMTU0aWtha2t3Nm4wb2E5dDdzYzJlZnpqbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ThHvPHkwGa1augr97/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/thunder-breaker/annihilate.png} tip={Annihilate (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Annihilate",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 3, Damage: 500%, Number of Attacks: 7\\nCreate a Lightning Brand on enemies hit that lasts 90 sec.",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-annihilate.png", "/class-icons/cygnus-knights/thunder-breaker/annihilate.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzB5cXI4ZDQ0ZjhtY2J3dnNram1pZ2h2N2swZWU3OHRrcXFhanp4diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jA0F2uLAVEVp6a58Lh/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Thunder Bolt",
+                    "shortDesc": "When attacking Lightning Brand marked enemies with a direct attack skill (excluding HEXA Annihilate and Tidal Crash), Lightning Strike hits the enemy. Damage: 395%, Number of Attacks: 3\\nCreate a massive thunderbolt instead when using linked skills (excluding Sea Wave, Lightning Spear Multistrike's linked attack, and Thunder Wall Sea Wave). Damage: 340%, Number of Attacks: 5\\nBoss Damage: +40%, Ignore Defense: +20%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder-bolt.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzY3czRrMjBmZ2FzbnQ5YXJhMjJnMGwxbDl4eGFhZjFqaWpheXU5YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3dJREsT3dMmZp0eNBy/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-thunderbolt-1.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGwzamc2cDh2ODNzOHk3OG9raXE0cXR1d2Zqa20wcmZzYjN6OHpkcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9EkXl0TxGClEncGbkb/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png} tip={Thunderbolt (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Thunderbolt",
+                    "shortDesc": "MP Cost: 84, Max Enemies Hit: 8, Damage: 515%, Number of Attacks: 5\\nThunder Slash: MP Cost: 90, Max Enemies Hit: 12, Damage: 545%, Number of Attacks: 5\\nCreates a Sea Wave in the direction that the character is facing. Sea Waves created by Thunder Slash are unaffected by cooldowns.\\nCooldown: 6 sec\\n[Passive Effect: Lightning Strike's Massive Thunderbolt Damage: +396% points]",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-thunderbolt-1.png", "/class-icons/cygnus-knights/thunder-breaker/hexa-thunderbolt-2.png", "/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExejc3M2doam03NHN5N2xjenRobmczdWZ6ZWxyazRrY2VuZGxzazE0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6jgZx2C4UVKgFd0y5c/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW9kM2xuZ3lza2xqZnNwemlueTlxMjYwaHpocDl1aGFqdWt0bWphYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OQXQWhcGs2kXF8tlTL/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-typhoon-deep-rising.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/thunder-breaker/gale.png} tip={Gale and Typhoon (3rd Job / 4th Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/deep-rising.png} tip={Deep Rising (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Typhoon",
+                    "shortDesc": "MP Cost: 59, Can be used when Lightning Charge stack is 2\\nUses all Lightning Charge stacks, Max Enemies Hit: 8, Damage: 859%, Number of Attacks: 5. When used at max Lightning Charge stacks, Damage: +250% points\\nDamage: +3% per Lightning Charge used, Buff Duration: 95 sec\\nHowever, this skill doesn't generate Lightning Charges.\\ncooldown: 12 sec.",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-typhoon.png", "/class-icons/cygnus-knights/thunder-breaker/typhoon.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnVkZzJ5YmVweGRmZnZhZmc4NnFqdHRzOWJvanZsM2ZyNjBrdHpmbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BfCl5MMxixWuIcBw7f/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Deep Rising",
+                    "shortDesc": "MP Cost: 410, Max Enemies Hit: 15, Damage: 1380%, Number of Attacks: 7, Invincible during casting\\nCooldown: 45 sec.",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-deep-rising.png", "/class-icons/cygnus-knights/thunder-breaker/deep-rising.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3ZsY2N3azdkNGd4d25xbGsxYjBwYzQyOTZnaXVneTBveGFhYnYzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TKWsKiHN5y2isPnulx/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-sea-wave-deep-reinforcement.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash and Sea Wave (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Sea Wave",
+                    "shortDesc": "MP Cost: 95, created when linking skill and not under cooldown\\nFlows in a fixed direction, Max Enemies Hit: 5, Damage: 1040%, Number of Attacks: 5\\nDisappears when moving a distance of 2700 or the number of enemies attacked is 24\\nMax Attack on Single Enemy: 1\\nCooldown: 12 sec.\\n[Passive Effect: HEXA Annihilate Damage: +67% points]",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-sea-wave.png", "/class-icons/cygnus-knights/thunder-breaker/sea-wave.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBzcWFqdGc0M3d5NW05cmUzeG9oOWtybm04eXoyaDA1d3pnZ2p2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CpDbNTR5F3qwszjgPu/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+{
+                    "name": "Deep Reinforcement",
+                    "shortDesc": "Creates a shield that blocks up to 4% of Max HP for 2 sec. upon landing linked skill.\\nThe shield stacks up to 15% of Max HP and dissipates by 25% + 50 every second",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/deep-reinforcement.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnY1OWJuMm16cXZmeHZlZWZyMzJ4Y2hzcjJnMDkybGVuank4d2ExcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3sIqaiHhpJqJNaMtpe/giphy.gif"],
+                    "type": "Passive Buff",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Thunder Wall Sea Wave",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nShock Wave that attacks up to 15 enemies with 1390% damage 5 times is triggered 32 times,\\nthen Shock Wave that attacks with 1370% damage 7 times is triggered 62 times\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm9xczlpZXFwNXR5Y2FjaWg0aGdld3hjeG4xamhpNTVobjNmY3Z5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QrnWvp0witiOso8Bge/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Annihilating Rush",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nRushes enemies 11 times, dealing 6160% damage to up to 15 enemies 12 times.\\nThen throws a punch in front that lets loose 18 waves, dealing 6510% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/annihilating-rush.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXhzdHloazg3bm5icjRoeGFyZWM5Znk1OG92bzF6bXU4ZmFpNjJ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t6HlEzvqGgfqXd9vyP/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Lightning Cascade Boost",
+                    "shortDesc": "Lightning Cascade Final Damage: +60%, Duration: 62 sec, Final Damage: +32%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Shark Torpedo Boost",
+                    "shortDesc": "Shark Torpedo Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/shark-torpedo.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Lightning God Spear Strike Boost",
+                    "shortDesc": "Lightning God Spear Strike Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-god-spear-strike.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Lightning Spear Multistrike Boost",
+                    "shortDesc": "Lightning Spear Multistrike Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-spear-multistrike.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Annihilate - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/annihilate.png"],
+                "animations": ["https://media.giphy.com/media/X7hzkWuPU51tG4vxwV/giphy.gif"]
+            },
+            {
+                "name": "Thunderbolt - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png"],
+                "animations": ["https://media.giphy.com/media/D85xfWLLUko0S571tZ/giphy.gif"]
+            },
+            {
+                "name": "Typhoon - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/typhoon.png"],
+                "animations": ["https://media.giphy.com/media/8JB8uAJZuLHhwzbE11/giphy.gif"]
+            },
+            {
+                "name": "Arc Charger - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/arc-charger.png"],
+                "animations": ["https://media.giphy.com/media/yjJsPfTuxJOfvvawy6/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Deep Rising - Hyper Skill",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/deep-rising.png"],
+                "animations": ["https://media.giphy.com/media/7BBUcJBXS0rqgG3Aag/giphy.gif"]
+            },
+            {
+                "name": "Shark Torpedo - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/shark-torpedo.png"],
+                "animations": ["https://media3.giphy.com/media/EprWwmMl2jpUFAwLXt/giphy.gif"]
+            },
+            {
+                "name": "Lightning God Spear Strike - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-god-spear-strike.png"],
+                "animations": ["https://media1.giphy.com/media/2JiaR3rUyriiIADRLc/giphy.gif"]
+            },
+            {
+                "name": "Thunder Wall Sea Wave - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm9xczlpZXFwNXR5Y2FjaWg0aGdld3hjeG4xamhpNTVobjNmY3Z5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QrnWvp0witiOso8Bge/giphy.gif"]
+            },
+            {
+                "name": "Annihilating Rush - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/thunder-breaker/annihilating-rush.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXhzdHloazg3bm5icjRoeGFyZWM5Znk1OG92bzF6bXU4ZmFpNjJ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t6HlEzvqGgfqXd9vyP/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Thunder Breaker is STR warrior class part of the Cygnus Knights. Thunder Breakers are known for their unique combo attack playstyle"
+}

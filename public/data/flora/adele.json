@@ -1,0 +1,1193 @@
+{
+    "class": "Adele",
+    "content": {
+        "classGroup": "Flora",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["bladecaster"]},
+            {"secondary": ["bladebinder"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing (Option 1)",
+                "abilities": ["Boss Damage +20%", "Buff Duration +38%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Bossing (Option 2)",
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Buff Duration +38%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/flora/adele/weave-infusion.png} tip={Weave Infusion (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/flora/adele/bladecaster-expertise.png} tip={Bladecaster Expertise (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+60(90) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Elite Training (2nd Job)} val={+60}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg src={/class-icons/flora/adele/hero-of-the-flora.png} tip={Hero of the Flora (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+14% +150",
+                "detail": "<bg src={/class-icons/flora/adele/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg src={/class-icons/flora/adele/recalling-greatness.png} tip={Recalling Greatness (Beginner Skill)} val={+10%}> <bg src={/class-icons/flora/adele/martial-discipline.png} tip={Martial Discipline (1st Job)} val={+30}> <bg src={/class-icons/flora/adele/bladecaster-control.png} tip={Bladecaster Control (2nd Job)} val={+30}> <bg src={/class-icons/flora/adele/ascent.png} tip={Ascent (3rd Job)} val={+30}> <bg src={/class-icons/flora/adele/bladecaster-expertise.png} tip={Bladecaster Expertise (4th Job)} val={+30}> <bg src={/class-icons/flora/adele/strive.png} tip={Strive (4th Job)} val={+30}> <bg src={/class-icons/flora/magic-conversion.png} tip={Magic Conversion (Beginner Skill)} val={35% of Magic Attack from equipment - excluding weapon} val={Cannot exceed 15% of weapon's base Magic Attack}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+100 & 100% of Magic Attack from equipment - excluding weapon} val={Cannot exceed 150% of weapon's base Magic Attack}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+45%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/flora/adele/ascent.png} tip={Ascent (3rd Job)} val={+20%}> <bg src={/class-icons/flora/adele/strive.png} tip={Strive (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+21%",
+                "detail": "<bg src={/class-icons/flora/adele/recalling-greatness.png} tip={Recalling Greatness (Beginner Skill)} val={+10%}> <bg src={/class-icons/flora/adele/bladecaster-control.png} tip={Bladecaster Control (2nd Job)} val={+11%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "[Party of 1] +36%(106%)",
+                "detail": "<bg src={/class-icons/flora/adele/bladecaster-expertise.png} tip={Bladecaster Expertise (4th Job)} val={+20%}> <bg src={/class-icons/flora/adele/strive.png} tip={Strive (4th Job)} val={+13%}> <bg src={/class-icons/link-skills/noble-fire.png} tip={Noble Fire (Link Skill)} val={+3% per party member} val={(Max. +12%)}> <bg type={temp} src={/class-icons/flora/adele/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/flora/adele/legacy-restoration.png} tip={Legacy Restoration (5th Job)} val={+45%}> <bg type={opt} src={/class-icons/flora/adele/true-nobility-shield-reinforce.png} tip={True Nobility - Shield Reinforce (Hyper Skill)} val={+15%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+6%",
+                "detail": "<bg src={/class-icons/link-skills/noble-fire.png} tip={Noble Fire (Link Skill)} val={+6%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+67.31%(77.35%)",
+                "detail": "<bg src={/class-icons/flora/adele/will-to-live.png} tip={Will to Live (2nd Job)} val={+10%}> × <bg src={/class-icons/flora/adele/ascent.png} tip={Ascent (3rd Job)} val={+17%}> × <bg src={/class-icons/flora/adele/ruination.png} tip={Ruination (4th Job)} val={+30%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+41.68%(51.01%)",
+                "detail": "<bg src={/class-icons/flora/adele/will-to-live.png} tip={Will to Live (2nd Job)} val={+10%}> × <bg src={/class-icons/flora/adele/tolerance.png} tip={Tolerance (3rd Job)} val={+10%}> × <bg src={/class-icons/flora/adele/ruination.png} tip={Ruination (4th Job)} val={+20%}> × <bg type={debuff} src={/class-icons/flora/adele/grave-proclamation.png} tip={Grave Proclamation (4th Job)} val={+10%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/flora/adele/weave-infusion.png} tip={Weave Infusion (2nd Job)} dur={[200s]}>",
+            "summons": "<tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)} dur={[40s]}> <tt src={/class-icons/flora/adele/reign-of-destruction.png} tip={Reign of Destruction (3rd Job)} dur={[7s](30s cd)}> <tt src={/class-icons/flora/adele/infinity-blade.png} tip={Infinity Blade (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/flora/adele/storm.png} tip={Storm (5th Job)} dur={[14s](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/flora/adele/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/adele/legacy-restoration.png} tip={Legacy Restoration (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/flora/adele/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/flora/adele/blade-torrent.png} tip={Blade Torrent (Hyper Skill)} dur={[10s](120s cd)}> <tt src={/class-icons/flora/adele/maestro.png} tip={Maestro (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/flora/adele/aether-guard.png} tip={Aether Guard (4th Job)} dur={[1s](60 - 35.5s cd based on remaining duration)}> <tt src={/class-icons/flora/adele/infinity-blade.png} tip={Infinity Blade (5th Job)} dur={(120s cd)}> <tt src={/class-icons/flora/adele/maestro.png} tip={Maestro (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/flora/adele/true-nobility.png} tip={True Nobility (3rd Job)} dur={[20s](HP Barrier | 120s cd)}> <tt src={/class-icons/flora/adele/aether-guard.png} tip={Aether Guard (4th Job)} dur={[Up to 8s](-40% when held / -55% when held if parried attack | 60 - 35.5s cd based on remaining duration)}>"
+        },        
+        "linkSkill": {
+            "id": 80002857,
+            "offline": true,
+            "name": "Noble Fire",
+            "maxLevel": 3,
+            "shortDesc": "Boss Damage: +6%\\nIncreases damage by 3% up to 12% for each party member, including yourself, on the same map.\\nIf you are not in a party, you will be considered to be in your own party.",
+            "icons": ["/class-icons/link-skills/noble-fire.png"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/flora/adele/jaunt.png} tip={Vault}> -> <tt src={/class-icons/flora/adele/martial-discipline.png} tip={Martial Discipline}> -> <tt src={/class-icons/flora/adele/blade-of-will.png} tip={Blade of Will}> -> <tt src={/class-icons/flora/adele/magic-dispatch.png} tip={Magic Dispatch}> -> <tt src={/class-icons/flora/adele/glint.png} tip={Glint}> -> <tt src={/class-icons/flora/adele/high-rise.png} tip={High Rise}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Elite Training}> -> <tt src={/class-icons/flora/adele/will-to-live.png} tip={Will to Live}> -> <tt src={/class-icons/flora/adele/bladecaster-control.png} tip={Bladecaster Control}> -> <tt src={/class-icons/flora/adele/weave-infusion.png} tip={Weave Infusion}> -> <tt src={/class-icons/flora/adele/aetherial-arms.png} tip={Aetherial Arms}> -> <tt src={/class-icons/flora/adele/aether-forge.png} tip={Aether Forge}> -> <tt src={/class-icons/flora/adele/resonance-rush.png} tip={Resonance Rush}> -> <tt src={/class-icons/flora/adele/impale.png} tip={Impale}> -> <tt src={/class-icons/flora/adele/skewering.png} tip={Skewering}>"],
+                ["3rd Job", "<tt src={/class-icons/flora/adele/feather-float.png} tip={Feather Float}> -> <tt src={/class-icons/flora/adele/tolerance.png} tip={Tolerance}> -> <tt src={/class-icons/flora/adele/true-nobility.png} tip={True Nobility}> -> <tt src={/class-icons/flora/adele/ascent.png} tip={Ascent}> -> <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree}> -> <tt src={/class-icons/flora/adele/eviscerate.png} tip={Eviscerate}> -> <tt src={/class-icons/flora/adele/noble-summons.png} tip={Noble Summons}> -> <tt src={/class-icons/flora/adele/reign-of-destruction.png} tip={Reign of Destruction}>"],
+                ["4th Job", "<tt src={/class-icons/flora/adele/ruination.png} tip={Ruination}> -> <tt src={/class-icons/flora/adele/strive.png} tip={Strive}> -> <tt src={/class-icons/flora/adele/perfection.png} tip={Perfection}> -> <tt src={/class-icons/flora/adele/bladecaster-expertise.png} tip={Bladecaster Expertise}> -> <tt src={/class-icons/flora/adele/cleave.png} tip={Cleave}> -> <tt src={/class-icons/flora/adele/hero-of-the-flora.png} tip={Hero of the Flora}> -> <tt src={/class-icons/flora/adele/aether-bloom.png} tip={Aether Bloom}> -> <tt src={/class-icons/flora/adele/aether-guard.png} tip={Aether Guard}> -> <tt src={/class-icons/flora/adele/plummet.png} tip={Plummet}> -> <tt src={/class-icons/flora/adele/grave-proclamation.png} tip={Grave Proclamation}> -> <tt src={/class-icons/flora/adele/floran-heros-will.png} tip={Floran Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/flora/adele/trigger-reinforce.png} tip={Trigger - Reinforce}> Trigger - Reinforce_<tt src={/class-icons/flora/adele/reign-of-destruction-persist.png} tip={Reign of Destruction - Persist}> Reign of Destruction - Persist_<tt src={/class-icons/flora/adele/aether-bloom-cooldown-cutter.png} tip={Aether Bloom - Cooldown Cutter}> Aether Blossom - Cooldown Cutter_<tt src={/class-icons/flora/adele/true-nobility-shield-reinforce.png} tip={True Nobility - Shield Reinforce}> True Nobility - Shield Reinforce_<tt src={/class-icons/flora/adele/aether-guard-persist.png} tip={Aether Guard - Persist}> Aether Guard - Persist_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/flora/adele/magic-dispatch.png} tip={Magic Dispatch and Aetherial Arms (1st Job / 2nd Job)}> <tt src={/class-icons/flora/adele/impale.png} tip={Impale, Resonance Rush, and Shardbreaker (2nd Job / Hyper Skill)}> <tt src={/class-icons/flora/adele/aether-forge-boost.png} tip={Aether Forge and Noble Summons (2nd Job / 3rd Job)}>"],
+                    ["", "<tt src={/class-icons/flora/adele/reign-of-destruction.png} tip={Reign of Destruction and Plummet (3rd Job / 4th Job)}> <tt src={/class-icons/flora/adele/cleave.png} tip={Cleave (4th Job)}> <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree and Grave Proclamation (3rd Job / 4th Job)}>"],
+                    ["", "<tt src={/class-icons/flora/adele/aether-bloom.png} tip={Aether Bloom and Blade Torrent (4th Job / Hyper Skill)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good",
+                    "5 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4],
+            "other": [5],
+            "nodes": [
+                "<tt src={/class-icons/flora/adele/cleave.png} tip={Cleave (4th Job)}> <tt src={/class-icons/flora/adele/magic-dispatch.png} tip={Magic Dispatch (1st Job)}> <tt src={/class-icons/flora/adele/aetherial-arms.png} tip={Aetherial Arms (2nd Job)}>",
+                "<tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> <tt src={/class-icons/flora/adele/plummet.png} tip={Plummet (4th Job)}> <tt src={/class-icons/flora/adele/grave-proclamation.png} tip={Grave Proclamation (4th Job)}>",
+                "<tt src={/class-icons/flora/adele/impale.png} tip={Impale (2nd Job)}> <tt src={/class-icons/flora/adele/resonance-rush.png} tip={Resonance Rush (2nd Job)}> <tt src={/class-icons/flora/adele/noble-summons.png} tip={Noble Summons (3rd Job)}> <tt src={/class-icons/flora/adele/aether-bloom.png} tip={Aether Bloom (4th Job)}>",
+                "<tt src={/class-icons/flora/adele/aether-forge-boost.png} tip={Aether Forge (2nd Job)}> <tt src={/class-icons/flora/adele/reign-of-destruction.png} tip={Reign of Destruction (3rd Job)}> <tt src={/class-icons/flora/adele/shardbreaker.png} tip={Shardbreaker (Hyper Skill)}> <tt src={/class-icons/flora/adele/blade-torrent.png} tip={Blade Torrent (Hyper Skill)}>",
+                "<tt src={/class-icons/flora/adele/blade-of-will.png} tip={Blade of Will (1st Job)}> <tt src={/class-icons/flora/adele/glint.png} tip={Glint (1st Job)}>",
+                "<tt src={/class-icons/flora/adele/skewering.png} tip={Skewering (2nd Job)}> <tt src={/class-icons/flora/adele/eviscerate.png} tip={Eviscerate (3rd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Adele"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%95%84%EB%8D%B8(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/q7tYdfT"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1kSlKPqFvBQr11qMzMJ1QyUjvLI0Oc8XLs_udUCTtG1k"}
+        ],
+        "discord": "https://discord.gg/q7tYdfT",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Skill Passives + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Aether Weaving",
+            "content": [
+                "<img src={https://media0.giphy.com/media/Y1Gx3pWfHGnDCHaxR8/giphy.gif} alt={Aether Resource}>",
+                "Adele has a secondary resource (unlocked in 2nd Job) called <tt src={/class-icons/flora/adele/aether-weaving.png} tip={Aether Weaving (2nd Job)}> Aether Weaving that is used to activate certain skills and create \"Aether Swords\" that can be commanded. Aether Weaving is generated passively and successful attacks with \"Trigger\" skills",
+                "<bp_Every 100 \"Aether Weaving\", an Aether Sword is prepared_When a sword is prepared, you can summon it using <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> Hunting Decree (3rd Job)_These swords are used primarily for <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> and cannot be used before 3rd Job_Each sword represents 100 AE which skills that consume AE can use_In 2nd Job, you can hold up to 2 Swords (200 AE) at a time and 3 Swords (300 AE) in 4th Job+_Note, if you use any skill that consumes AE, your Aether Sword will disappear and be consumed as AE_>",
+                "Below is a list of all Trigger skills:",
+                "<bp_<tt src={/class-icons/flora/adele/skewering.png} tip={Skewering (2nd Job)}> Skewering [2nd Job]_<tt src={/class-icons/flora/adele/eviscerate.png} tip={Eviscerate (3rd Job)}> Eviscerate [3rd Job]_<tt src={/class-icons/flora/adele/cleave.png} tip={Cleave (4th Job)}> Cleave [4th Job]_<tt src={/class-icons/flora/adele/plummet.png} tip={Plummet (4th Job)}> Plummet [4th Job]_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Noble Fire",
+                    "maxLevel": 3,
+                    "shortDesc": "Boss Damage: +6%\\nIncreases damage by 3% up to 12% for each party member, including yourself, on the same map.\\nIf you are not in a party, you will be considered to be in your own party.",
+                    "icons": ["/class-icons/link-skills/noble-fire.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Artistic Recall",
+                    "shortDesc": "MP Cost: 30, you move to Ristonia.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/artistic-recall.png"],
+                    "animations": ["https://media2.giphy.com/media/sRkG6Jc68nIwwy4IRQ/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Magic Conversion",
+                    "shortDesc": "35% of your equipment's Magic ATT is converted to Attack Power, excluding your weapon. Any set effects do not apply. Only converts up to 15% of your weapon's base Attack Power.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/magic-conversion.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Recalling Greatness",
+                    "shortDesc": "Critical Damage: +10%, Attack Power: +10%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/flora/adele/recalling-greatness.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is gained and leveled up by completing the Adele storyline<bp_The storyline spans all the way up to Lv. 200_>"
+                    ]
+                },
+                {
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power & Magic ATT: +4%\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/exclusive-spell.png"],
+                    "animations": ["https://media0.giphy.com/media/wIeX9ADXDixIsaZYuA/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete Adele's storyline and the quest <link href={https://maplestorywiki.net/w/Quests/235/Final_Sword%27s_Calling_3} title={\"Final Sword's Calling 3\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Blade of Will",
+                        "shortDesc": "MP Cost: 12, Damage: 85%, Number of Attacks: 4, Max Enemies Hit: 5",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/blade-of-will.png"],
+                        "animations": ["https://media3.giphy.com/media/KCYmBs6F31WlMPOfla/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swing forward"
+                    },
+                    {
+                        "name": "Magic Dispatch",
+                        "shortDesc": "MP Cost: 20, Damage: 80%, Number of Attacks: 3, Magical Shards: 5\\nCooldown: 6 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/adele/magic-dispatch.png"],
+                        "animations": ["https://media0.giphy.com/media/j5QcQlY3GIABEePCaN/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Create shards that seek out nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Glint",
+                        "shortDesc": "MP Cost: 11, Damage: 160%, Max Enemies Pushed: 4",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/glint.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGE5bW94NHM5aXp4MnpuMm5iejhiaDhodzlwNHM1MjJ3ZmpmNjJlZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NOZ8qdVxBCPcswTaYf/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies"
+                    },
+                    {
+                        "name": "Jaunt",
+                        "shortDesc": "MP Cost: 5, allows you to jump a greater distance",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/flora/adele/jaunt.png"],
+                        "animations": ["https://media2.giphy.com/media/LrFzfgMEZDKRqSKJ6k/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
+                        ]
+                    },
+                    {
+                        "name": "High Rise",
+                        "shortDesc": "MP Cost: 20, allows you to remain in the air for a short time",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/adele/high-rise.png"],
+                        "animations": ["https://media0.giphy.com/media/MxGIjq9jUhbOii86oY/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While in the air, press the Skill Key or press the Up Arrow Key twice to float for a short period of time",
+                        "details": [
+                            "Using the skill again or using <tt src={/class-icons/flora/adele/jaunt.png} tip={Jaunt (1st Job)}> will stop the skill",
+                            "Right-clicking the skill will toggle a lock to prevent it from activating with the Arrow Keys",
+                            "To unlock this skill, you need to complete Adele's storyline"
+                        ]
+                    },
+                    {
+                        "name": "Martial Discipline",
+                        "shortDesc": "Attack Power: +30, Defense: +200, Max HP: +1000\\nSpeed: +17, Jump: +10, Max Speed: 10, Knockback Resistance: +60%\\nDamage Taken: -10%",
+                        "maxLevel": 19,
+                        "icons": ["/class-icons/flora/adele/martial-discipline.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Aether Weaving",
+                        "shortDesc": "Obtain 5 aether at regular intervals, obtain 12 aether when Trigger skill hits, obtain 3 aether based on on the number of defeated normal enemies. Up to 300 aether can be obtained.\\nWhen Aether Forge is active, every 100 aether can create 2 aether swords. Up to 4 aether swords can be created at a time.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/adele/aether-weaving.png"],
+                        "type": "Passive",
+                        "desc": "[Aether] resource used for skills is generated passively, upon successful [Trigger] skills, and when defeating regular monsters"
+                    },
+                    {
+                        "name": "Aether Crystal",
+                        "shortDesc": "Duration: 30 sec, up to 7 can exist on the map.\\nIf the max limit is reached and another one is created, the crystal with the lowest duration vanishes.\\nThe crystal cannot be created near another crystal, or near certain platforms such as those that cannot be reached.\\nCooldown: 4 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/adele/aether-crystal.png"],
+                        "animations": ["https://media1.giphy.com/media/o4AI27UyJjfawQuhRl/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Successful Aether Sword attacks have a chance to leave behind a crystal",
+                        "details": [
+                            "Using <tt src={/class-icons/flora/adele/resonance-rush.png} tip={Resonance Rush (2nd Job)}> will dash towards the crystals consuming it",
+                            "Up to 7 crystals can be active at a time<bp_Creating a new crystal will cause the oldest crystal to expire if there are already 7 crystals active_>"
+                        ]
+                    },
+                    {
+                        "name": "Skewering",
+                        "shortDesc": "MP Cost: 25, Damage: 80%, Number of Attacks: 8, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/adele/skewering.png"],
+                        "animations": ["https://media2.giphy.com/media/m9v3zQx70hN8q97VC0/giphy.gif"],
+                        "type": "Trigger Attack",
+                        "desc": "Launch multiple swords forward"
+                    },
+                    {
+                        "name": "Impale",
+                        "shortDesc": "MP Cost: 45, Aether Cost: 15\\nMax Enemies Hit: 6, Damage: 85%, Number of Attacks: 6\\nCooldown: 7 sec ",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/impale.png"],
+                        "animations": ["https://media0.giphy.com/media/lqGR4b8YYKzIVIbsYp/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launch forward an Aether Sword that leaves behind a <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}>",
+                        "details": [
+                            "Using the Arrow Keys will guide the direction the Aether Sword is launched",
+                            "Can be linked with <tt src={/class-icons/flora/adele/resonance-rush.png} tip={Resonance Rush (2nd Job)}> to quickly dash but no <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}> crystal will be created"
+                        ]
+                    },
+                    {
+                        "name": "Resonance Rush",
+                        "shortDesc": "Aether Crystal consumed through Resonance Rush\\nMax Enemies Hit: 6, Damage: 105%, Number of Attacks: 6",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/resonance-rush.png"],
+                        "animations": ["https://media2.giphy.com/media/kZKSgUf3uY4YmAbPc9/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward towards an <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}> Aether Crystal and consume it",
+                        "details": [
+                            "Can only be used when there is a nearby <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}> or when linked with <tt src={/class-icons/flora/adele/impale.png} tip={Impale (2nd Job)}>",
+                            "Pressing together with an Arrow Keys controls the direction you dash"
+                        ]
+                    },
+                    {
+                        "name": "Weave Infusion",
+                        "shortDesc": "MP Cost: 10, Increases attack speed of Bladecaster for 200 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/weave-infusion.png"],
+                        "animations": ["https://media2.giphy.com/media/DZi5vzjx0sme1X2ras/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "name": "Aether Forge",
+                        "shortDesc": "When Trigger Skill hits, deal 200% damage to up to 10 enemies every 9.5 sec Reaching your 3rd and 4th job will reduce attack cooldown by 4 sec each.\\nAttack 1 times per aether sword.\\nEach successful attack has a 30% chance to create an aether crystal.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/aether-forge.png"],
+                        "animations": ["https://media0.giphy.com/media/JpeOY13y5dwUGakDam/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "Successful [Trigger] skill attacks activate Aether Swords to slash forward and has a chance to leave behind a <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}>",
+                        "details": [
+                            "The size of the attack changes based on the amount of Aether Energy you have currently",
+                            "Cooldown of the attack is reduced each Job Advancement",
+                            "Right-clicking the skill will toggle ON/OFF the visual effect behind your character",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Aetherial Arms",
+                        "shortDesc": "When Trigger Skill hits, creates shard every 8 sec, consume 25 MP upon creation.\\nMagic Dispatch and Aetherial Arms Damage: +30% (additive)",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/aetherial-arms.png"],
+                        "animations": ["https://media4.giphy.com/media/NFOjX0MtHhU97JVvBd/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "Successful [Trigger] skill attacks periodically activates <tt src={/class-icons/flora/adele/magic-dispatch.png} tip={Magic Dispatch (1st Job)}>",
+                        "details": [
+                            "Also permanently increases %Damage of <tt src={/class-icons/flora/adele/magic-dispatch.png} tip={Magic Dispatch (1st Job)}> by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Bladecaster Control",
+                        "shortDesc": "Bladecaster Mastery: +50%\\nAttack Power: +30\\nCritical Damage: +11%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/bladecaster-control.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Will to Live",
+                        "shortDesc": "Restores 4% of Max HP/MP every 5 sec., even in combat.\\nFinal Damage: +10%, Ignore Defense: +10%",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/flora/adele/will-to-live.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Elite Training",
+                        "shortDesc": "STR +60",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Eviscerate",
+                        "shortDesc": "MP Cost: 35, Damage: 220%, Number of Attacks: 6, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/adele/eviscerate.png"],
+                        "animations": ["https://media0.giphy.com/media/jQQVcydQzj7SzHDJQ2/giphy.gif"],
+                        "type": "Trigger Attack",
+                        "desc": "Slash forward"
+                    },
+                    {
+                        "name": "Hunting Decree",
+                        "shortDesc": "MP Cost: 40, Aether Cost: 100\\nFor each aether sword, Duration: 40 sec, Damage: 240%, Number of Attacks: 2\\nCan command up to 4 swords. When you exceed the max number and a command is given, the aether sword with the least duration left vanishes.\\nWhen attack hits, 15% chance to create aether crystal.\\nCooldown: 0.5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/adele/hunting-decree.png"],
+                        "animations": ["https://media3.giphy.com/media/IeWNTGLo1AYPYiwxmb/giphy.gif"],
+                        "type": "Aether Sword Summon",
+                        "desc": "Summon Aether Swords that seek out and attack nearby enemies",
+                        "details": [
+                            "Up to 4 Aether Swords can be active at a time (in 3rd Job)<bp_The oldest Aether Swords will be replaced if the maximum is already active_>",
+                            "Can only be activated when <tt src={/class-icons/flora/adele/aether-forge.png} tip={Aether Forge (2nd Job)}> is toggled on",
+                            "Attack has a chance to create a <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Noble Summons",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 10, Damage: 260%, Number of Attacks: 4\\n40% chance to generate an aether crystal when attack hits.\\nCooldown: 12 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/adele/noble-summons.png"],
+                        "animations": ["https://media3.giphy.com/media/d8Qb3kHdw5L65gIHDI/giphy.gif"],
+                        "type": "Aether Sword Attack",
+                        "desc": "Command all <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> swords to return to you while damaging and debuffing enemies in its path",
+                        "details": [
+                            "Attack has a chance to create a <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}>",
+                            "Right-clicking the skill toggled ON/OFF [Targeting Mode] where if an enemy is marked by <tt src={/class-icons/flora/adele/grave-proclamation.png} tip={Grave Proclamation (4th Job)}>, the swords will instead travel towards the marked enemy",
+                            "Unaffected by Damage Reflect and cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Reign of Destruction",
+                        "shortDesc": "MP Cost: 120, Territory Duration: 7 sec, Max Enemies Hit: 8, Damage: 100%, Number of Attacks: 4\\nThe sword turns when duration ends, attacking an additional 12 times dealing 550% damage up to 12 enemies.\\nCooldown: 30 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/adele/reign-of-destruction.png"],
+                        "animations": ["https://media2.giphy.com/media/eN51yOocvvxWIp72Dm/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Place down a zone of swords that damages enemies within",
+                        "details": [
+                            "At the end of the duration, the attack explodes damaging nearby enemies",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "True Nobility",
+                        "shortDesc": "MP Cost: 200, Creates a spirit field for 20 sec.\\nReceive 30% of the damage dealt to party members inside the field and create a shield equal to 80% of that damage. If you take more damage than your remaining HP, you cannot receive that extra damage.\\nCooldown: 120 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/true-nobility.png"],
+                        "animations": ["https://media1.giphy.com/media/dXudUeSk8EMEcX8umt/giphy.gif"],
+                        "type": "Buff Zone",
+                        "desc": "Create a barrier around you where party members redirect some of the damage taken to you by creating a shield for you",
+                        "details": [
+                            "Pressing the Skill Key again will cancel the shield"
+                        ]
+                    },
+                    {
+                        "name": "Feather Float",
+                        "shortDesc": "MP Cost: 46, Aether Cost: 30\\nMove back a short distance.\\nCooldown: 8 sec\\n[Passive Effect: Speed: +5, Jump: +10, Max Speed: +10]",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/flora/adele/feather-float.png"],
+                        "animations": ["https://media1.giphy.com/media/TFNLyNO41OJDr3BYoB/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash backwards",
+                        "details": [
+                            "[Passive]: Permanently increases Movement Speed, Jump and Max Movement Speed",
+                            "Can be used while using a \"Trigger\" skill"
+                        ]
+                    },
+                    {
+                        "name": "Ascent",
+                        "shortDesc": "Attack Power: +30, Final Damage: +17%, Critical Rate: +20%\\nMagic Dispatch and Aetherial Arms Damage: +10% points\\nAether Forge Damage: +240% points\\nImpale Damage: +100% points\\nResonance Rush Damage: +115% points",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/adele/ascent.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Tolerance",
+                        "shortDesc": "Knockback Resistance: +40%, Max HP: +10%, Status Resistance: +30, Elemental Resistance: +30%, Ignore Defense: +10%\\nDamage Taken: -20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/adele/tolerance.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "name": "Aether Mastery",
+                    "shortDesc": "Obtain up to 400 aether.\\nIncreases max aether swords that can be created with Aether Forge, and commanded with Hunting Decree, to 6.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/aether-mastery.png", "/class-icons/flora/adele/aether-weaving.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max Aether and amount of <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> swords creatable from 4 to 6"
+                    ]
+                },
+                {
+                    "name": "Cleave",
+                    "shortDesc": "MP Cost: 40, Damage: 375%, Number of Attacks: 6, Max Enemies Hit: 7",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/adele/cleave.png"],
+                    "animations": ["https://media2.giphy.com/media/SYXJ1sTWR7jEVLpSpp/giphy.gif"],
+                    "type": "Trigger Attack",
+                    "desc": "Cut forward"
+                },
+                {
+                    "name": "Aether Bloom",
+                    "shortDesc": "MP Cost: 80. For each aether sword, Max Enemies Hit: 8, Damage: 650%, Number of Attacks: 8\\nIf one enemy gets hit by Aether Bloom multiple times, the skill's final damage on that enemy is reduced by 25%.\\nWhen attack hits, 50% chance to create aether crystal.\\nCooldown: 20 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/adele/aether-bloom.png"],
+                    "animations": ["https://media0.giphy.com/media/Ig3C6I9G733sNEgX8G/giphy.gif"],
+                    "type": "Aether Sword Attack",
+                    "desc": "Command all <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> swords to spin damaging nearby enemies",
+                    "details": [
+                        "Duration of Aether Swords will not go down when attack is active",
+                        "Attack has a chance to create a <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}> crystal",
+                        "If an enemy is hit by multiple Aether Swords, each additional sword deals reduced %Final Damage",
+                        "Unaffected by Damage Reflect and cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Grave Proclamation",
+                    "shortDesc": "MP Cost: 150, Enemies Hit: 1, Damage: 220%, Number of Attacks: 10\\nIgnores additional 10% defense rate of enemies with mark of death.\\nIf there is an enemy with the mark within attack range of aether swords commanded by Hunting Decree, or aether swords, Magic Dispatch, or Shardbreaker created by Infinity Blade, the attack will focus on that enemy.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/adele/grave-proclamation.png"],
+                    "animations": ["https://media1.giphy.com/media/RHCpLWle8DraSrvQBW/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Mark an enemy with a debuff that causes all <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> swords and <tt src={/class-icons/flora/adele/magic-dispatch.png} tip={Magic Dispatch (1st Job)}> to target them",
+                    "details": [
+                        "[Debuff]: Attacks towards this enemy deals increased %Ignore Def",
+                        "Pressing the Skill Key again will move to the mark to another target if there is a mark active",
+                        "Prioritizes enemy with the highest Max HP",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Aether Guard",
+                    "shortDesc": "MP Cost: 150. Key can be held up to 8 sec. Damage taken while key is held, including attacks that deal damage in proportion to Max HP, is reduced by 40%.\\nBecome invincible for 1 sec. upon casting. If you use this skill the moment you are attacked, reduce an additional 55% from any further attacks while you're holding the key.\\nWhen the skill ends, cooldown is reduced by 3.5 sec for each sec remaining from holding the key.\\nCooldown: 60 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/adele/aether-guard.png"],
+                    "animations": ["https://media2.giphy.com/media/RsNUW30Yhczac2feSx/giphy.gif"],
+                    "type": "Key-down Active",
+                    "desc": "While held, damage taken including %Max HP attacks is reduced",
+                    "details": [
+                        "Upon using, you are briefly invincible",
+                        "Pressing the Skill Key the moment you are attacked, the damage taken is reduced even further while holding the Skill Key",
+                        "Can be used while using Trigger skills except for <tt src={/class-icons/flora/adele/plummet.png} tip={Plummet (4th Job)}>",
+                        "Cooldown is reduced based on the duration the skill was held",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Plummet",
+                    "shortDesc": "MP Cost: 45. Max Enemies Hit: 6, Damage: 550%, Number of Attacks: 6\\nCooldown: 1.5 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/adele/plummet.png"],
+                    "animations": ["https://media1.giphy.com/media/271gIbmLOpDvPqsgr2/giphy.gif"],
+                    "type": "Trigger Attack",
+                    "desc": "Dive downward damaging enemies in your path",
+                    "details": [
+                        "Can only be used in the air"
+                    ]
+                },
+                {
+                    "name": "Hero of the Flora",
+                    "shortDesc": "MP Cost: 70, creates a Flora emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/adele/hero-of-the-flora.png"],
+                    "animations": ["https://media1.giphy.com/media/KkPrlAtPfT6W4njPcf/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Floran Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/flora/adele/floran-heros-will.png"],
+                    "animations": ["https://media3.giphy.com/media/Tq9EsWm6lB7MlhjXwh/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Bladecaster Expertise",
+                    "shortDesc": "Bladecaster Mastery: +70%, Attack Power: +30, Damage: +20%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/adele/bladecaster-expertise.png", "/class-icons/flora/adele/bladecaster-control.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery and Attack provided"
+                    ]
+                },
+                {
+                    "name": "Perfection",
+                    "shortDesc": "Magic Dispatch and Aetherial Arms Damage: +10% points\\nAether Forge Damage: +270% points\\nImpale Damage: +122% points\\nResonance Rush Damage: +120% points\\nHunting Decree Damage: +120% points\\nNoble Summons Damage: +300% points\\nReign of Destruction Damage: +300% points",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/adele/perfection.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Ruination",
+                    "shortDesc": "Final Damage: +30%, Enemy DEF Ignored: +20%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/adele/ruination.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Strive",
+                    "shortDesc": "Attack Power: +30, Damage: +13%, Critical Rate: +20%, Max HP: +15%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/adele/strive.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Trigger - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/trigger-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of all Trigger skills"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Trigger - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/trigger-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of all Trigger skills"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Trigger - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/trigger-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of all Trigger skills"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Resonance Rush - Efficiency",
+                    "shortDesc": "Obtain 20 aether when aether crystal is used for Resonance Rush. Does not consume aether when using Impale.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/resonance-rush-efficiency.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Reign of Destruction - Persist",
+                    "shortDesc": "Duration: +4 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/reign-of-destruction-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Aether Bloom - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/aether-bloom-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Will to Live - Aura Reinforce",
+                    "shortDesc": "Recovery Ratio: +3%, additive to existing recovery.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/will-to-live-aura-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "True Nobility - Shield Reinforce",
+                    "shortDesc": "Damage : +15%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/true-nobility-shield-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage while shield is active"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Aether Guard - Persist",
+                    "shortDesc": "Max Key-Down Time: +2 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/aether-guard-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Shardbreaker",
+                    "shortDesc": "MP Cost: 250, creates a shard in the location of up to 7 enemies.\\nFor each shard that is created and shattered, Max Enemies Hit: 7, Damage: 2000%, Number of Attacks: 6\\nIf total enemies struck is lower than the max, creates up to 7 shards in random locations.\\nWhen attacking enemies marked by Grave Proclamation, creates half the shards and hits up to 7 enemies for 2500% damage 6 times.\\nAfter shards shatter, creates up to 7 aether crystals.\\nCooldown: 60 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/shardbreaker.png"],
+                    "animations": ["https://media1.giphy.com/media/h2a2hDKzqycExpYwuz/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates shards at the location of enemies that explode",
+                    "details": [
+                        "When attacking enemies marked with <tt src={/class-icons/flora/adele/grave-proclamation.png} tip={Grave Proclamation (4th Job)}>, the attack deals increase damage but fewer shards are created",
+                        "Creates <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}> at the location of the explosion (up to 7 crystals)<bp_If the number of enemies hit is less than the max, crystals will be created in random locations_>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Blade Torrent",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 6, Damage: 700%, Number of Attacks: 12\\nStun Duration: 10 sec\\nStun Duration: +100% depending on damage inflicted with Blade Torrent.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/blade-torrent.png"],
+                    "animations": ["https://media3.giphy.com/media/bKeQs54oZJ1F0ZAZcA/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Launch swords that bind nearby enemies",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Divine Wrath",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Flora class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/adele/divine-wrath.png"],
+                    "animations": ["https://media0.giphy.com/media/gp7a45r7WcS6ztfvCM/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["conversionOverdrive", "grandisGoddessBlessingFL", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Ruin",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15\\nAn attack that deals 1012% damage 6 times when summoned and activates 12 times.\\nAfter it's summoned, an additional sword pierce deals 1485% damage 9 times and activates 8 times.\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/flora/adele/ruin.png"],
+                    "animations": ["https://media1.giphy.com/media/mEggpFiv8PoTIVA7LS/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "A giant sword falls down from the sky dealing during the fall and after it lands",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Infinity Blade",
+                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament\\nDuration: 20 sec, creates 18 aether swords that attack 2 times with 770% damage\\nOn successful hits, 5% chance to create an aether crystal.\\nCooldown 120 sec",
+                    "icons": ["/class-icons/flora/adele/infinity-blade.png"],
+                    "animations": ["https://media3.giphy.com/media/SYjfpPWRpR4JE20qqQ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Create special Aether Swords that seek out and attack nearby enemies like <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}>",
+                    "details": [
+                        "Infinity Blade Aether Swords are only affected by <tt src={/class-icons/flora/adele/grave-proclamation.png} tip={Grave Proclamation (4th Job)}> and cannot trigger <tt src={/class-icons/flora/adele/noble-summons.png} tip={Noble Summons (3rd Job)}> <tt src={/class-icons/flora/adele/aether-bloom.png} tip={Aether Bloom (4th Job)}>",
+                        "Has a small chance to create a <tt src={/class-icons/flora/adele/aether-crystal.png} tip={Aether Crystal (2nd Job)}> crystal",
+                        "You are invincible at the initial cast and at the end of the skill",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Legacy Restoration",
+                    "shortDesc": "2% max MP will be consumed every sec while casting and after casting\\nDuration: 20 sec, Damage: 45%, Aether obtained: 80%, +2 aether swords that can be commanded with Hunting Decree. When casting, immediately commands 2 aether swords regardless of your current aether swords.\\nPeriodically spreads enchanted wings to attack 6 mobs with 1980% damage 3 times and restores 10.5% of max HP for you and your party members.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/flora/adele/legacy-restoration.png"],
+                    "animations": ["https://media0.giphy.com/media/L4NVP0IEzjlCm67dl3/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases %Damage, Aether generation rate, and the maximum number of swords commanded by <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}>",
+                    "details": [
+                        "Upon casting, also summons <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> swords",
+                        "Periodically, your wings flap dealing damage to nearby enemies and healing nearby party members and yourself"
+                    ]
+                },
+                {
+                    "name": "Storm",
+                    "shortDesc": "MP Cost: 500, Duration: 14 sec. Automatically attacks up to 7 nearby enemies periodically, for 869% damage 2 time(s).\\nUpon casting, once more than 2 aether swords have been commanded, the skill's attack count is increased by 2 for each pair of aether swords beyond those first two.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/flora/adele/storm.png"],
+                    "animations": ["https://media4.giphy.com/media/dbhParw91q0UXfrqO7/giphy.gif"],
+                    "type": "Aether Sword Attack",
+                    "desc": "Create a storm of swords to gather and surround yourself",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> swords to be active to use",
+                        "When more than 1 pair of <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> swords are active, the attack count is increased by 2 for each pair of swords beyond the first pair",
+                        "Pressing the Skill Key again will end the skill early",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Blade of Will Boost",
+                    "shortDesc": "Blade of Will Final Damage: +420%",
+                    "icons": ["/class-icons/flora/adele/blade-of-will.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Magic Dispatch and Aetherial Arms Boost",
+                    "shortDesc": "Magic Dispatch and Aetherial Arms Final Damage: +120%",
+                    "icons": ["/class-icons/flora/adele/magic-dispatch.png", "/class-icons/flora/adele/aetherial-arms.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Skewering Boost",
+                    "shortDesc": "Skewering Final Damage: +300%",
+                    "icons": ["/class-icons/flora/adele/skewering.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Impale, Resonance Rush, and Shardbreaker Boost",
+                    "shortDesc": "Impale, Resonance Rush, and Shardbreaker Final Damage: +120%",
+                    "icons": ["/class-icons/flora/adele/impale.png", "/class-icons/flora/adele/resonance-rush.png", "/class-icons/flora/adele/shardbreaker.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Aether Forge and Noble Summons Boost",
+                    "shortDesc": "Aether Forge and Noble Summons Final Damage: +120%",
+                    "icons": ["/class-icons/flora/adele/aether-forge-boost.png", "/class-icons/flora/adele/aether-forge.png", "/class-icons/flora/adele/noble-summons.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Eviscerate Boost",
+                    "shortDesc": "Eviscerate Final Damage: +180%",
+                    "icons": ["/class-icons/flora/adele/eviscerate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Reign of Destruction and Plummet Boost",
+                    "shortDesc": "Reign of Destruction and Plummet Final Damage: +120%",
+                    "icons": ["/class-icons/flora/adele/reign-of-destruction.png", "/class-icons/flora/adele/plummet.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Cleave Boost",
+                    "shortDesc": "Cleave Final Damage: +120%",
+                    "icons": ["/class-icons/flora/adele/cleave.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hunting Decree and Grave Proclamation Boost",
+                    "shortDesc": "Hunting Decree and Grave Proclamation Final Damage: +120%",
+                    "icons": ["/class-icons/flora/adele/hunting-decree.png", "/class-icons/flora/adele/grave-proclamation.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Aether Bloom/Blade Torrent Boost",
+                    "shortDesc": "Aether Bloom and Blade Torrent Final Damage: +120%",
+                    "icons": ["/class-icons/flora/adele/aether-bloom.png", "/class-icons/flora/adele/blade-torrent.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/adele/hexa-cleave-magic-dispatch-aetherial-arms.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/adele/cleave.png} tip={Cleave (4th Job)}> <tt src={/class-icons/flora/adele/magic-dispatch.png} tip={Magic Dispatch and Aetherial Arms (1st Job / 2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Cleave",
+                    "shortDesc": "MP Cost: 55, Max Enemies Hit: 7, Damage: 834%, Number of Attacks: 6\\nEvery 6 seconds, the next attack is replaced with enhanced Cleave\\n[Enhanced Cleave]: 3 Chase Cuts occur which attack up to 8 enemies with 620% damage 7 times",
+                    "icons": ["/class-icons/flora/adele/hexa-cleave-1.png", "/class-icons/flora/adele/hexa-cleave-2.png", "/class-icons/flora/adele/cleave.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJpczEyMDgxdXdrczhsdXNkbnQ2bng3NjgxajkwcGFmNjJiM3l5NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VIWiQy6Vos96Y3dvLt/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Magic Dispatch",
+                    "shortDesc": "MP Cost: 30, Damage: 320%, Number of Attacks: 3, Magical Shards: 5\\nCooldown: 6 sec.",
+                    "icons": ["/class-icons/flora/adele/hexa-magic-dispatch.png", "/class-icons/flora/adele/magic-dispatch.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2VoMjBiNmp5cHVyMnZ5bjhiMWJuZWFnbDRtNTgyZHhzOGU1d2FvcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CblcJWpTkthq71UbB6/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Aetherial Arms",
+                    "shortDesc": "When Trigger Skill hits, creates shard every 6 sec, consume 30 MP upon creation.",
+                    "icons": ["/class-icons/flora/adele/hexa-aetherial-arms.png", "/class-icons/flora/adele/aetherial-arms.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/adele/hexa-hunting-decree-plummet.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/adele/hunting-decree.png} tip={Hunting Decree (3rd Job)}> <tt src={/class-icons/flora/adele/plummet.png} tip={Plummet (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Hunting Decree",
+                    "shortDesc": "MP Cost: MP 52, Aether Cost: 100\\nFor each aether sword, Duration: 60 sec, Damage: 800%, Number of Attacks: 2\\nCan command up to 6 swords. When you exceed the max number and a command is given, the aether sword with the least duration left vanishes.\\nWhen the attack hits, 15% chance to create aether crystal.\\nCooldown: 0.5 sec",
+                    "icons": ["/class-icons/flora/adele/hexa-hunting-decree.png", "/class-icons/flora/adele/hunting-decree.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWE5d2dmd3oyZ2pkbWx6djJudDJsZ2M3YWNxanNnOG50bHdxeWZpNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D16LgtIajXSPZnEzpn/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Plummet",
+                    "shortDesc": "MP Cost: 62\\nMax Enemies Hit: 6, Damage: 815%, Number of Attacks: 6\\nCooldown: 1.5 sec",
+                    "icons": ["/class-icons/flora/adele/hexa-plummet.png", "/class-icons/flora/adele/plummet.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3czamxrcTd4ejBsbWI1enNvb3JzYTZldGE2ZjZvZXQ4c2FuZG1teiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F4M3tPlKgWCQTAl0lb/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/adele/hexa-impale-resonance-rush-noble-summons-aether-bloom.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/adele/impale.png} tip={Impale, Resonance Rush, and Shardbreaker (2nd Job / Hyper Skill)}> <tt src={/class-icons/flora/adele/noble-summons.png} tip={Noble Summons (3rd Job)}> <tt src={/class-icons/flora/adele/aether-bloom.png} tip={Aether Bloom (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Impale",
+                    "shortDesc": "MP Cost: 50, Aether Cost: 15\\nMax Enemies Hit: 6, Damage: 600%, Number of Attacks: 6\\nCooldown: 7 sec.",
+                    "icons": ["/class-icons/flora/adele/hexa-impale.png", "/class-icons/flora/adele/impale.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd20yajFkM3lhZGdjbzRoazBmMWI0Y3o0eDMxbDMxa2hvNHh2czRkdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fnF7Kn0OYFn71pHABO/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Resonance Rush",
+                    "shortDesc": "Aether crystal consumed through Resonance Rush\\nMax Enemies Hit: 6, Damage: 717%, Number of Attacks: 6\\n[Passive Effect: HEXA Cleave Damage: +40% (additive)]",
+                    "icons": ["/class-icons/flora/adele/hexa-resonance-rush.png", "/class-icons/flora/adele/resonance-rush.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajk2M2E0eG56ejR5Y3owcHI2dnVkcXE0OTJ5em1tMGQwZ2F4cnkwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZBMEVrx9IfEM85BHT3/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Noble Summons",
+                    "shortDesc": "MP Cost: 57, Max Enemies Hit: 10, Damage: 1190%, Number of Attacks: 4\\n40% chance to generate an Aether Crystal when attack hits\\nCooldown: 12 sec.",
+                    "icons": ["/class-icons/flora/adele/hexa-noble-summons.png", "/class-icons/flora/adele/noble-summons.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Aether Bloom",
+                    "shortDesc": "MP Cost: 91. For each aether sword, Max Enemies Hit: 8, Damage: 1270%, Number of Attacks: 8\\nIf one enemy gets hit by Aether Bloom multiple times, the skill's final damage on that enemy is reduced by 25%.\\nWhen attack hits, 50% chance to create aether crystal.\\nCooldown: 20 sec.",
+                    "icons": ["/class-icons/flora/adele/hexa-aether-bloom.png", "/class-icons/flora/adele/aether-bloom.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHR1NGg4OW8zeXBuanU2ZDIxOGR5bzZ0bGQ2ajIydXNyNGNld2d5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/njcfGbGllEpKMz7csw/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/adele/hexa-aether-forge-reign-shardbreaker.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/adele/aether-forge.png} tip={Aether Forge (2nd Job)}> <tt src={/class-icons/flora/adele/reign-of-destruction.png} tip={Reign of Destruction (3rd Job)}> <tt src={/class-icons/flora/adele/impale.png} tip={Impale, Resonance Rush, and Shardbreaker (2nd Job / Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Aether Forge",
+                    "shortDesc": "When Trigger Skill hits, deal 1020% damage to up to 10 enemies every 1.5 sec.\\nAttack 1 times per aether sword.\\nEach successful attack has a 30% chance to create an aether crystal.",
+                    "icons": ["/class-icons/flora/adele/hexa-aether-forge.png", "/class-icons/flora/adele/aether-forge.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXI4dnhkMmJieGkwazZpNXoyN2Z5b2owa2Z0MG9leGFxbXFsNTJ6aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3cU8JBM1XBYd9PUsVv/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWg0N21iaG9yeWIwMHFudWltNXp2eXY1YzY0eXYzY3J6NWE3cG5pNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2yP3ZiFdaZhufZZBuD/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Reign of Destruction",
+                    "shortDesc": "MP Cost: 135, Area Duration: 7 sec., Max Enemies Hit: 8, Damage: 700%, Number of Attacks: 4\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/flora/adele/hexa-reign-of-destruction.png", "/class-icons/flora/adele/reign-of-destruction.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW9ycGhwbHhtNWU5Y2I3MG45MXBhcGRmZWJsNGVhZTFrZXFuMnNjdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ANP9Z207BLxguET2bx/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Shardbreaker",
+                    "shortDesc": "MP Cost: 280, creates a shard in the location of up to 7 enemies.\\nFor each shard that is created and shattered, Max Enemies Hit: 7, Damage: 2900%, Number of Attacks: 6\\nIf total enemies struck is lower than the max, creates up to 7 shards in random locations.\\nWhen attacking enemies marked by Grave Proclamation, creates half the shards and hits up to 7 enemies for 3625% damage 6 times.\\nAfter shards shatter, creates up to 7 aether crystals.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/flora/adele/hexa-shardbreaker.png", "/class-icons/flora/adele/shardbreaker.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWl0NXppODU1MHJtOGRrOG52ZXFqMmk0eDdtcHl5ancxc2dxNnM3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xHvjQSvfI6TpFWh3xW/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Maestro",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nSummons aether sword and 29 Chase Cuts occur which attack up to 15 enemies with 1370% damage 10 times\\nFinally, by controlling the aether sword, 57 final blows attack up to 15 enemies with 1370% damage 14 times\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/flora/adele/maestro.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd205aHhmZ3R2NjU0bGp0dXA3ZHdqNm1wNnUzOTVqeDl3aTg2MHB0OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZysUxel01mt2XVstnE/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Einheit",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nCarves the battlefield with aether swords 22 times, dealing 7910% damage to up to 15 enemies 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/flora/adele/einheit.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTExbHVvOTdtMDhvY3E2eWcyZzcwMmJ4OWg5cGRrZHMxbTh6a3UwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mqQxzhj6n2iks8il4q/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Ruin Boost",
+                    "shortDesc": "Ruin Final Damage: +60%",
+                    "icons": ["/class-icons/flora/adele/ruin.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Infinity Blade Boost",
+                    "shortDesc": "Infinity Blade Final Damage: +60%",
+                    "icons": ["/class-icons/flora/adele/infinity-blade.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Legacy Restoration Boost",
+                    "shortDesc": "Legacy Restoration Final Damage: +60%. While active, Final Damage: +10%.",
+                    "icons": ["/class-icons/flora/adele/legacy-restoration.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Storm Boost",
+                    "shortDesc": "Storm Final Damage: +60%",
+                    "icons": ["/class-icons/flora/adele/storm.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Aether Forge - 2nd Job",
+                "icons": ["/class-icons/flora/adele/aether-forge.png"],
+                "animations": ["https://media0.giphy.com/media/JpeOY13y5dwUGakDam/giphy.gif"]
+            },
+            {
+                "name": "Hunting Decree - 3rd Job",
+                "icons": ["/class-icons/flora/adele/hunting-decree.png"],
+                "animations": ["https://media3.giphy.com/media/IeWNTGLo1AYPYiwxmb/giphy.gif"]
+            },
+            {
+                "name": "Noble Summons - 3rd Job",
+                "icons": ["/class-icons/flora/adele/noble-summons.png"],
+                "animations": ["https://media3.giphy.com/media/d8Qb3kHdw5L65gIHDI/giphy.gif"]
+            },
+            {
+                "name": "Cleave - 4th Job",
+                "icons": ["/class-icons/flora/adele/cleave.png"],
+                "animations": ["https://media2.giphy.com/media/SYXJ1sTWR7jEVLpSpp/giphy.gif"]
+            },
+            {
+                "name": "Aether Bloom - 4th Job",
+                "icons": ["/class-icons/flora/adele/aether-bloom.png"],
+                "animations": ["https://media0.giphy.com/media/Ig3C6I9G733sNEgX8G/giphy.gif"]
+            },
+            {
+                "name": "Ruin - 5th Job",
+                "icons": ["/class-icons/flora/adele/ruin.png"],
+                "animations": ["https://media1.giphy.com/media/mEggpFiv8PoTIVA7LS/giphy.gif"]
+            },
+            {
+                "name": "Infinity Blade - 5th Job",
+                "icons": ["/class-icons/flora/adele/infinity-blade.png"],
+                "animations": ["https://media3.giphy.com/media/SYjfpPWRpR4JE20qqQ/giphy.gif"]
+            },
+            {
+                "name": "Maestro - 6th Job",
+                "icons": ["/class-icons/flora/adele/maestro.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd205aHhmZ3R2NjU0bGp0dXA3ZHdqNm1wNnUzOTVqeDl3aTg2MHB0OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZysUxel01mt2XVstnE/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Einheit - 6th Job",
+                "icons": ["/class-icons/flora/adele/einheit.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTExbHVvOTdtMDhvY3E2eWcyZzcwMmJ4OWg5cGRrZHMxbTh6a3UwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mqQxzhj6n2iks8il4q/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Adele is a STR warrior class part of the Flora class group. Adele has a secondary resource (unlocked in 2nd Job) that is used to create 'Aether Swords' that can be commanded"
+}

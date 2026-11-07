@@ -1,0 +1,1034 @@
+{
+    "class": "Kinesis",
+    "content": {
+        "classGroup": "Other (FriendStory)",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["psyLimiter"]},
+            {"secondary": ["chessPiece"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing (Option 1)",
+                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Bossing (Option 2)",
+                "abilities": ["Boss Damage +20%", "Magic Attack +21", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/other/kinesis/esp-booster.png} tip={ESP Booster (1st Job)} val={+2}> <bg src={/class-icons/other/kinesis/pure-power.png} tip={Pure Power (2nd Job)} val={+1}>"
+              },
+              {
+                "name": "Weapon Mastery",
+                "stat": "93%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/other/kinesis/esp-expert.png} tip={ESP Expert (4th Job)} val={+73%}>"
+              },
+              {
+                "name": "INT",
+                "stat": "+40 & +15%(50%) to assigned AP",
+                "detail": "<bg src={/class-icons/other/kinesis/esp-mastery.png} tip={ESP Mastery (2nd Job)} val={+40}> <bg type={def} sub={opt} src={/class-icons/other/kinesis/presidents-orders.png} tip={President's Orders (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/afterimage-of-the-otherworld.png} subTip={Afterimage of the Otherworld (5th Job)} subVal={extra +35%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+13% +153",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/other/kinesis/awakening.png} tip={Awakening (4th Job)} val={+9%}> <bg src={/class-icons/other/kinesis/esp-mastery.png} tip={ESP Mastery (2nd Job)} val={+30}> <bg src={/class-icons/other/kinesis/psychic-reinforcement.png} tip={Psychic Reinforcement (3rd Job)} val={+20}> <bg src={/class-icons/other/kinesis/transcendence.png} tip={Transcendence (3rd Job)} val={+30}> <bg src={/class-icons/other/kinesis/esp-expert.png} tip={ESP Expert (4th Job)} val={+73}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+45%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/other/kinesis/esp.png} tip={ESP (Beginner Skill)} val={+10%}> <bg src={/class-icons/other/kinesis/mental-fortitude.png} tip={Mental Fortitude (1st Job)} val={+15%}> <bg src={/class-icons/other/kinesis/pure-power.png} tip={Pure Power (2nd Job)} val={+15%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+41%(46%)",
+                "detail": "<bg src={/class-icons/link-skills/judgment.png} tip={Judgment (Link Skill)} val={Lv 2: +4%} val={Lv 3: +6%}> <bg src={/class-icons/other/kinesis/transcendence.png} tip={Transcendence (3rd Job)} val={+10%}> <bg src={/class-icons/other/kinesis/awakening.png} tip={Awakening (4th Job)} val={+15%}> <bg src={/class-icons/other/kinesis/critical-rush.png} tip={Critical Rush (4th Job)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/afterimage-of-the-otherworld.png} tip={Afterimage of the Otherworld (5th Job)} val={+5%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+26%",
+                "detail": "<bg src={/class-icons/other/kinesis/pure-power.png} tip={Pure Power (2nd Job)} val={+10%}> <bg src={/class-icons/other/kinesis/psychic-reinforcement.png} tip={Psychic Reinforcement (3rd Job)} val={+16%}> "
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+148.27%(197.62%)(233.34% to Ultimate skills)",
+                "detail": "<bg src={/class-icons/other/kinesis/mental-strength.png} tip={Mental Strength (2nd Job)} val={+10%}> × <bg src={/class-icons/other/kinesis/psychic-reinforcement.png} tip={Psychic Reinforcement (3rd Job)} val={+15%}> × <bg src={/class-icons/other/kinesis/esp-expert.png} tip={ESP Expert (4th Job)} val={+10%}> × <bg src={/class-icons/other/kinesis/awakening.png} tip={Awakening (4th Job)} val={+26%}> × <bg src={/class-icons/other/kinesis/concentration.png} tip={Concentration (4th Job)} val={+18%}> × <bg src={/class-icons/other/kinesis/critical-rush.png} tip={Critical Rush (4th Job)} val={+20%}> × <bg type={temp} src={/class-icons/other/kinesis/breakthrough.png} tip={Breakthrough (4th Job)} val={+12% to Ultimate skills}> × <bg type={opt} src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} val={+11%}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+49%",
+                "detail": "<bg src={/class-icons/other/kinesis/critical-rush.png} tip={Critical Rush (4th Job)} val={+40%}> × <bg type={debuff} src={/class-icons/other/kinesis/psychic-smash.png} tip={Psychic Smash (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Buff Duration",
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/other/kinesis/concentration.png} tip={Concentration (4th Job)} val={+20%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/other/kinesis/esp-booster.png} tip={ESP Booster (1st Job)} dur={[180s]}>",
+            "toggles": "<tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
+            "summons": "<tt src={/class-icons/5th-job/afterimage-of-the-otherworld.png} tip={Afterimage of the Otherworld (5th Job)} dur={[50s](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/other/kinesis/breakthrough.png} tip={Breakthrough (4th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/other/kinesis/mental-overdrive.png} tip={Mental Overdrive (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/other/kinesis/mental-shock.png} tip={Mental Shock (Hyper Skill)} dur={[10s](120s cd)}> <tt src={/class-icons/other/kinesis/from-another-realm.png} tip={From Another Realm (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/other/kinesis/mental-tempest.png} tip={Mental Tempest (Hyper Skill)} dur={[10s](120s cd)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/other/kinesis/from-another-realm.png} tip={From Another Realm (6th Job)} dur={(360s cd)}> <tt src={/class-icons/other/kinesis/fractal-horizon.png} tip={Fractal Horizon (6th Job)} dur={(3 Uses Per Boss / 240s cd)}>",
+            "damageReduce": "<tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s, triggers once](-75% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000188,
+            "offline": true,
+            "name": "Judgment",
+            "maxLevel": 3,
+            "shortDesc": "Critical Damage: +6%",
+            "icons": ["/class-icons/link-skills/judgment.png"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/other/kinesis/kinetic-step.png} tip={Kinetic Step}> -> <tt src={/class-icons/other/kinesis/defend.png} tip={Defend}> -> <tt src={/class-icons/other/kinesis/esp-booster.png} tip={ESP Booster}> -> <tt src={/class-icons/other/kinesis/mental-fortitude.png} tip={Mental Fortitude}> -> <tt src={/class-icons/other/kinesis/psychic-force.png} tip={Psychic Force}>"],
+                ["2nd Job", "<tt src={/class-icons/other/kinesis/mental-strength.png} tip={Mental Strength}> -> <tt src={/class-icons/other/kinesis/esp-mastery.png} tip={ESP Mastery}> -> <tt src={/class-icons/other/kinesis/pure-power.png} tip={Pure Power}> -> <tt src={/class-icons/other/kinesis/psychic-rise.png} tip={Psychic Rise}> -> <tt src={/class-icons/other/kinesis/ultimate-pressure.png} tip={Ultimate: Pressure}> -> <tt src={/class-icons/other/kinesis/psychic-sprint.png} tip={Psychic Sprint}>"],
+                ["3rd Job", "<tt src={/class-icons/other/kinesis/psychic-reinforcement.png} tip={Psychic Reinforcement}> -> <tt src={/class-icons/other/kinesis/transcendence.png} tip={Transcendence}> -> <tt src={/class-icons/other/kinesis/kinetic-combo.png} tip={Kinetic Combo}> -> <tt src={/class-icons/other/kinesis/mitigation.png} tip={Mitigation}> -> <tt src={/class-icons/other/kinesis/psychic-fall.png} tip={Psychic Fall}> -> <tt src={/class-icons/other/kinesis/ultimate-opening.png} tip={Ultimate: Opening}> -> <tt src={/class-icons/other/kinesis/kinetic-jaunt.png} tip={Kinetic Jaunt}> -> <tt src={/class-icons/other/kinesis/warp.png} tip={Warp}>"],
+                ["4th Job", "<tt src={/class-icons/other/kinesis/concentration.png} tip={Concentration}> -> <tt src={/class-icons/other/kinesis/awakening.png} tip={Awakening}> -> <tt src={/class-icons/other/kinesis/esp-expert.png} tip={ESP Expert}> -> <tt src={/class-icons/other/kinesis/critical-rush.png} tip={Critical Rush}> -> <tt src={/class-icons/other/kinesis/presidents-orders.png} tip={President's Orders}> -> <tt src={/class-icons/other/kinesis/psychic-smash.png} tip={Psychic Smash}> -> <tt src={/class-icons/other/kinesis/ultimate-gambit.png} tip={Ultimate: Gambit}> -> <tt src={/class-icons/other/kinesis/ultimate-check.png} tip={Ultimate: Check}> -> <tt src={/class-icons/other/kinesis/breakthrough.png} tip={Breakthrough}> -> <tt src={/class-icons/other/kinesis/clear-mind.png} tip={Clear Mind}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/other/kinesis/psychic-smash-reinforce.png} tip={Psychic Smash - Reinforce}> Psychic Smash - Reinforce_<tt src={/class-icons/other/kinesis/ultimate-reinforce.png} tip={Ultimate - Reinforce}> <tt src={/class-icons/other/kinesis/ultimate-guardbreak.png} tip={Ultimate - Guardbreak}> <tt src={/class-icons/other/kinesis/ultimate-boss-rush.png} tip={Ultimate - Boss Rush}> Ultimate - Reinforce, Guardbreak, and Boss Rush_<tt src={/class-icons/other/kinesis/kinetic-combo-reinforce.png} tip={Kinetic Combo - Reinforce}> Kinetic Combo - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/other/kinesis/psychic-grab.png} tip={Psychic Grab (3rd Job)}> <tt src={/class-icons/other/kinesis/ultimate-metal-press.png} tip={Ultimate: Metal Press (1st Job)}> <tt src={/class-icons/other/kinesis/ultimate-trainwreck.png} tip={Ultimate: Trainwreck (3rd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/other/kinesis/ultimate-bpm.png} tip={Ultimate: B.P.M. (4th Job)}> <tt src={/class-icons/other/kinesis/kinetic-combo-2.png} tip={Kinetic Combo (3rd Job)}> <tt src={/class-icons/other/kinesis/psychic-drain.png} tip={Psychic Drain (2nd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [1,2,3,4],
+            "secondary": [5],
+            "other": [0],
+            "nodes": [
+                "<tt src={/class-icons/other/kinesis/psychic-force.png} tip={Psychic Force (1st Job)}> <tt src={/class-icons/other/kinesis/psychic-rise.png} tip={Psychic Rise (2nd Job)}> <tt src={/class-icons/other/kinesis/psychic-fall.png} tip={Psychic Fall (3rd Job)}>",
+                "<tt src={/class-icons/other/kinesis/ultimate-pressure.png} tip={Ultimate: Pressure (2nd Job)}> <tt src={/class-icons/other/kinesis/ultimate-gambit.png} tip={Ultimate: Gambit (4th Job)}>",
+                "<tt src={/class-icons/other/kinesis/psychic-smash.png} tip={Psychic Smash (4th Job)}>",
+                "<tt src={/class-icons/other/kinesis/ultimate-opening.png} tip={Ultimate: Opening (3rd Job)}> <tt src={/class-icons/other/kinesis/ultimate-check.png} tip={Ultimate: Check (4th Job)}>",
+                "<tt src={/class-icons/other/kinesis/kinetic-combo.png} tip={Kinetic Combo (3rd Job)}>",
+                "<tt src={/class-icons/other/kinesis/mental-shock.png} tip={Mental Shock (Hyper Skill)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Kinesis"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%ED%82%A4%EB%84%A4%EC%8B%9C%EC%8A%A4"},
+            {"title": "Class Discord", "link": "https://discord.gg/yua4VdQWFw"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1mm0aLMLtWTNOo2VmtQazM5iO-J773Y9_kCeyO9Pmx3E"},
+            {"title": "SupImJay's Guide", "link": "https://www.youtube.com/watch?v=DoH_nz1AFVU"}
+        ],
+        "infographics": [
+            {
+                "src": "kinesis/kinesis-overview.png",
+                "title": "Overview",
+                "credit": "SupImJay",
+                "date": "2026-07-28"
+            },
+            {
+                "src": "kinesis/kinesis-6th-job.png",
+                "title": "6th Job",
+                "credit": "SupImJay",
+                "date": "2026-07-28"
+            }
+        ],
+        "specialThanks": "Special thanks to the members of the Kinesis Discord for their help in making this overview!",
+        "discord": "https://discord.gg/yua4VdQWFw",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Infographics", "SupImJay"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Judgment",
+                    "maxLevel": 3,
+                    "shortDesc": "Critical Damage: +6%",
+                    "icons": ["/class-icons/link-skills/judgment.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Psychic Attack",
+                    "shortDesc": "MP Cost: 5, Max Enemies Hit: 3, Damage: 100%, Number of Attacks: 2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/psychic-attack.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExanBkZzlqOG16dmJhZTM4N2R1M3hsNzk1a3dyYmd2dzBiNGVvODR5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jqDLtbI42W09L1pJOi/giphy.gif"],
+                    "type": "Basic Attack Modifier",
+                    "desc": "Release psychic energy forward",
+                    "details": [
+                        "Can also be assigned a Key Slot"
+                    ]
+                },
+                {
+                    "name": "Return",
+                    "shortDesc": "Returns to Kinesis's Hideout.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/return.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExams1cnY0YTVyOHJnZXpjM2ZuZDdmdzZpb3o3azBqZ2pjZzN1aW42biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9Vf1UE1fDAJSDsLW67/giphy.gif"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "To obtain this skill, complete the Lv. 28 quest \"Heading Home\""
+                    ]
+                },
+                {
+                    "name": "ESP",
+                    "shortDesc": "Critical Rate: 10%, Avoidability: 12%, Speed: +10",
+                    "maxLevel": 6,
+                    "icons": ["/class-icons/other/kinesis/esp.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Upon completing the tutorial, 6 SP are given that can all be allocated to this skill"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "Increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc25lN2x1ZGNwejZ0cnF4Nm05Z24zeDc5YTRxOW02OTV4N2dmd21vayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5c5ilBpQ6wPuYWnPkx/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/112/King:_Master_of_Space_and_Time} title={\"King: Master of Space and Time\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Psychic Force",
+                        "shortDesc": "MP Cost: 10, Max Enemies Hit: 5, Damage: 110%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/psychic-force.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNvaW81Yng0djl4bjg3YW8xYWNwbXc4dTNtMzgxeHZkZjN4Z3cyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tuB3SL70ZkTsLkwa7U/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast a psychic attack forward that pushes enemies back",
+                        "details": [
+                            "Pressing the Down Arrow Key and Skill Key together performs an attack that knocks enemies downwards<bp_Can be resisted by some enemies_>"
+                        ]
+                    },
+                    {
+                        "name": "ESP Booster",
+                        "shortDesc": "MP Cost: 20, Duration: 180 sec, Attack Speed: +2",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/kinesis/esp-booster.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzNtd2tvbXQxajhpOW5oMWU5ZHpiNjAyamlsb2doNDA1ZjI3ZThxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GIPZR8hOa6YR6nTPek/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Kinetic Step",
+                        "shortDesc": "MP Cost: 5. Allows you to jump a greater distance.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/other/kinesis/kinetic-step.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajF2ZHVmbjNzOW8weW54YWl0bGF2ajI2bGFlM21zbzMyenY0M290byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7HGFtig9om3wRSWDGg/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "While in the air, you can press the Up Key and Jump Key together to perform a vertical jump<bp_Horizontal jump can be used once after jumping_>",
+                            "Horizontal jump can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "name": "Defend",
+                        "shortDesc": "Max HP: +20%, Max MP: +30%, DEF: +500, Damage Taken: -75%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/kinesis/defend.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Mental Fortitude",
+                        "shortDesc": "Speed: +20, Max Speed: +20, Jump: +20, Critical Rate: +15%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/mental-fortitude.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Psychic Rise",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 6, Damage: 220%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/psychic-rise.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmZxcGFib2UxOWZnYWVlZ3RvM3h1MnhtM2M5OTFoa25nYThpdjB6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/htd1SwFVjRqwfd8QHe/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast a psychic attack forward that lifts enemies"
+                    },
+                    {
+                        "name": "Ultimate: Pressure",
+                        "shortDesc": "When using a direct attack skill (excluding common skills), chance to activate a micro black hole at the location of enemies within a set area: 100%\\nMicro Black Hole: Max Enemies Hit: 8, Damage: 210%, Number of Attacks: 4, Gravitational Waves: 6, Max Attacks on a Single Enemy: 4\\nCooldown: 6 sec\\nBreakthrough Cooldown: 2 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/ultimate-pressure.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3pxaGRyMnR6ZHo4Z2lrYW1yZHJpd3A1Z2J5ZmQ2MWlyYnIwNTIyciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qBBz6YJMoEzPKKRNu8/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "Periodically, successful direct attack skills trigger a damaging black hole at the location of enemies",
+                        "details": [
+                            "Activation location prioritizes bosses with the highest Max HP",
+                            "While <tt src={/class-icons/other/kinesis/breakthrough.png} tip={Breakthrough (4th Job)}> is active, this skill's cooldown is reduced",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Sprint",
+                        "shortDesc": "MP Cost: 100. Allows you to charge a set distance.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/other/kinesis/psychic-sprint.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmd3cHZmbGlsY29oM2xpZjMzOWRsd3psYmVicXg0aGx2MGcwbjd6aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OEOmPIQ8zid4fmSCJP/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash forward"
+                    },
+                    {
+                        "name": "ESP Mastery",
+                        "shortDesc": "Psy-limiter Mastery: +50%, INT: +40, Magic ATT: +30",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/esp-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Pure Power",
+                        "shortDesc": "Attack Speed: +1, Damage: +10%, Critical Rate: +15%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/pure-power.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Mental Strength",
+                        "shortDesc": "Final Damage: +10%, Knockback Resistance: +50%",
+                        "maxLevel": 13,
+                        "icons": ["/class-icons/other/kinesis/mental-strength.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Psychic Fall",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 6, Damage: 300%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/psychic-fall.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnp6dzlrbDA1b3djZXd0YWMxeWZlNG1lODV5bzd5M3c1cDFyd3pxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uKpq66xlHf6PHPc8Nm/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast a psychic attack forward that lifts enemies and slams them"
+                    },
+                    {
+                        "name": "Ultimate: Opening",
+                        "shortDesc": "MP Cost: 200, Max Enemies Hit: 1, Damage: 260%, Number of Attacks: 6, Debuff Duration: 7 sec\\nGravitational fields pull objects towards debuffed enemies, attacking up to 8 enemies for 260% damage 6 times. Maximum gravitational fields: 2.\\nWhen the debuff duration ends, an explosion hits debuffed enemies for 390% damage 12 times.\\nWhen using on an enemy with an active debuff from Opening, the previous debuff ends immediately, triggering an explosion and performing additional attacks equal to the remaining number of gravitational field attacks.\\nCooldown: 30 sec.\\nBreakthrough Cooldown: 10 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/ultimate-opening.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGVrMzJ5dm43bjd4bGV6ZGc0eDNpeW9jcmFpMXg4MW41M3h4bXVxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6YNEy1bCJaiGXn39j0/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "When used, debuff a single enemy that causes debris to continously strike the enemy and nearby enemies",
+                        "details": [
+                            "While active, pressing the Skill Key again ends the debuff early and detonates an explosion that deals damage based on the remaining number of attacks left",
+                            "While <tt src={/class-icons/other/kinesis/breakthrough.png} tip={Breakthrough (4th Job)}> is active, this skill's cooldown is reduced",
+                            "Unaffected by Damage Reflect (except first attack) and cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Kinetic Jaunt",
+                        "shortDesc": "MP Cost: 100, Temporarily gain the power to fly.\\nCooldown: 2 sec.",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/other/kinesis/kinetic-jaunt.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWVqZG8xZzZyZDVoYzZscmkxenh1dmNuMDlkNHJoemo2bHdnZ2piYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nBLkz6Hy7lw7lA2Zd5/giphy.gif"],
+                        "type": "Key-down Active",
+                        "desc": "While held, hover and move in the air using the Arrow Keys",
+                        "details": [
+                            "When no Arrow Keys are pressed, hover in place",
+                            "Skill can be used in all directions except downwards (Down Arrow Key)",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Warp",
+                        "shortDesc": "MP Cost: 55. Uses 1 Condensed Psychokinesis.\\nTeleport horizontally a distance of 570, or vertically a distance of 320\\n1 Condensed Psychokinesis is recharged everry 10 sec, and you can hold up to 3 at a time.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/other/kinesis/warp.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHhpaWRnMDE2emM1eDlnbGJ3bTl0eXRsczRrZ2l0cTQxb3B4dWFvYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JAdHnkZgpa4A5NPXiP/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleport in a given direction using Arrow Keys to a nearby platform",
+                        "details": [
+                            "Skill uses a special resource called [Condensed Psychokinesis] which are prepared every 10 seconds (Max. 3)"
+                        ]
+                    },
+                    {
+                        "name": "Kinetic Combo",
+                        "shortDesc": "Upon landing a direct attack skill (excluding common skills), 50% chance to create 3 energy bombs. For Ultimate skills, 40% chance.\\nEnergy Bomb: Damage: 110%, Number of Attacks: 3",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/other/kinesis/kinetic-combo.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2Nyejg1Z24yM3I2c2MwaTUzbmozcTNvMzd4b3ViYnZpa3JxM203cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rQvoKyZpica67e9yEm/giphy.gif"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful attacks have a chance to create an additional attack that seek and attack a nearby enemy",
+                        "details": [
+                            "Successful attacks from Ultimate skills have a lower chance to activate",
+                            "Prioritizes bosses with the highest Max HP",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Reinforcement",
+                        "shortDesc": "Magic ATT: +20, Damage: +16%, Final Damage: +15%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/psychic-reinforcement.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Transcendence",
+                        "shortDesc": "Magic ATT: +30, Critical Damage: +10%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/transcendence.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Mitigation",
+                        "shortDesc": "Status Resistance: +20, Elemental Resistance: +30%, Knockback Resistance: +50%, Max HP: +30%\\nAvoidability: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/kinesis/mitigation.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "name": "Psychic Smash",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 451%, Number of Attacks: 5\\nFor 60 sec, Hit Enemies Defense: -15%, Speed: -30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/kinesis/psychic-smash.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3hqcjFtN2ppaGdvOWlvcjRpZjA4enhnOWdvNnV4MWtkYjQwYzZhYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8rdnjdp4K0Wf2eMUu5/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Smash psychic objects forward that damages and debuffs enemies",
+                    "details": [
+                        "[Debuff]: Reduces %DEF and %Speed<bp_Reduction to %DEF can be considered as %Ignore DEF_>"
+                    ]
+                },
+                {
+                    "name": "Ultimate: Gambit",
+                    "shortDesc": "MP Cost: 200, Damage: 147%, Number of Attacks: 9, Max Enemies Hit: 12, Number of Hits: 9\\nCooldown: 30 sec.\\nCooldown: 10 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/kinesis/ultimate-gambit.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJ2dm1qd2IwamJnNWNlazF4OWZidG80ZXlzbm9rM3EzZDUyaGFldSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uTyLq4FmQV174D8scx/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a train that smashes down on an area",
+                    "details": [
+                        "While <tt src={/class-icons/other/kinesis/breakthrough.png} tip={Breakthrough (4th Job)}> is active, this skill's cooldown is reduced",
+                        "Unaffected by Damage Reflect and cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Ultimate: Check",
+                    "shortDesc": "MP Cost: 200, Damage: 687%, Number of Attacks: 7, Max Enemies Hit: 8, Energy Orbs: 5\\nAgainst a single enemy, energy orbs are combined to attack a maximum of 3 times.\\nCooldown: 30 sec.\\nCooldown: 10 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/kinesis/ultimate-check.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDQ5Zml1cXM3MTRreWFyNWJlaXowd2o4bmR0ZnNlcWVxM2RuZGJ3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BbHKl3m1Uy4z7Yzdjn/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throw psychic orbs forward in a cone",
+                    "details": [
+                        "Up to 3 orbs can hit a single enemy",
+                        "While <tt src={/class-icons/other/kinesis/breakthrough.png} tip={Breakthrough (4th Job)}> is active, this skill's cooldown is reduced",
+                        "Unaffected by Damage Reflect and cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Breakthrough",
+                    "shortDesc": "Immediately resets cooldown of Ultimate skills on use.\\nUltimate Skill Final Damage: +12% for 30 sec, Breakthrough cooldowns used for Ultimate skills.\\nCooldown: 120 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/kinesis/breakthrough.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWE1YzJ1emRieG1xMngweHljbTd0cnJsZnVtMHVjaDdsNDcweWFsZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ykn9cfsYSbn57JJ1tP/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, resets cooldown of Ultimate skills and grants a buff for Ultimate skills that increases %Final Damage and reduces cooldowns",
+                    "details": [
+                        "Unaffected by cooldown resets and %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "President's Orders",
+                    "shortDesc": "MP Cost: 70, Goddess of the Otherworld appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/kinesis/presidents-orders.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG1zYmVwZ3A2OTJ1M2tqMnNlZXhoYWp4Y3JwanFpNWVvZno5ZzlxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8TmrVtY0Tk8PLMcT1E/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Clear Mind",
+                    "shortDesc": "MP Cost: 30, Cooldown: 180 sec.\\n[Passive Effect - Abnormal Status Resistance: +21]",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/other/kinesis/clear-mind.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd29heTJ6NnR4NTZhMnZubWlmYWs2ZTg1YjVjOHg3MjNjMXF2aTNrbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DHxz52qhCRtYD9rbTu/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
+                    "details": [
+                        "[Passive]: Permanently increases Abnormal Status Resistance",
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "ESP Expert",
+                    "shortDesc": "Weapon Mastery: +73%, Magic ATT: +73, Final Damage: +10%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/kinesis/esp-expert.png", "/class-icons/other/kinesis/esp-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now increases %Final Damage and grants flat Magic Attack"
+                    ]
+                },
+                {
+                    "name": "Awakening",
+                    "shortDesc": "Magic ATT: +9%, Final Damage: +26%, Critical Damage: +15%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/other/kinesis/awakening.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Concentration",
+                    "shortDesc": "Buff Duration: +20%, Final Damage: +18%\\nMP Absorb Chance: 20%, Amount Absorbed: 5% of Max MP, Amount Absorbed: 3% of the boss's Max MP",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/other/kinesis/concentration.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Critical Rush",
+                    "shortDesc": "Final Damage: +20%, Critical Damage: +10%, Ignore Defense: +40%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/kinesis/critical-rush.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Psychic Smash - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/psychic-smash-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Psychic Grab - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/psychic-smash-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Psychic Grab - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/psychic-smash-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Ultimate - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/ultimate-reinforce.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Increases %Damage of all Ultimate skills"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Ultimate - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/ultimate-guardbreak.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Increases %Ignore DEF of all Ultimate skills"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Ultimate - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/ultimate-boss-rush.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Increases %Boss Damage of all Ultimate skills"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Kinetic Combo - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/kinetic-combo-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Kinetic Combo - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/kinetic-combo-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Kinetic Combo - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/kinetic-combo-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Mental Tempest",
+                    "shortDesc": "MP Cost: 150, Invincibility Duration: 10 sec\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/mental-tempest.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXhmZzI5dHgyMDhsZnYyZnBnaGtqZHc4anY4ZjluZTZ5MWF5bmpodCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OAoeV3Xg8Gf0rRvBNU/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, briefly become invincible",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Mental Shock",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 700%, Number of Attacks: 6\\nStun Duration: 10 sec\\nStun duration increase: up to 100% based on damage inflicted with the attack.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/mental-shock.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTBjbzNrMWc5dHQ0bGN1MGFpcDB6ZXg4N3d0ajJ1ZDIzMXVpYjNpdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6D3JzjCRyqpl9IKK2k/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Unleash a shockwave that binds nearby enemies",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Mental Overdrive",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/kinesis/mental-overdrive.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamZtc3Z3NnhjNHE5ZGtjbTZxMzdwbjhub20zbXd3cDNmMGdocTE1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4tClmeeXN3z4BoemCq/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["otherworldGoddessBlessing", "afterimageOfTheOtherworld", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Psychic Shockwave",
+                    "shortDesc": "MP Cost: 300\\nMax Enemies Hit: 15, Damage: 200%, Number of Attacks: 11\\nNormal Enemy Damage: +415% (additive)",
+                    "icons": ["/class-icons/other/kinesis/psychic-shockwave.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2R6MWR2dTZhanU5bm56NHd1bzduNWd2aHd4ZmZldHk5bDI0bmZqaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qyghWFXWgTTBig58Rm/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Cast forward a large psychic shockwave",
+                    "details": [
+                        "Deals increased %Damage to regular monsters by a flat amount"
+                    ]
+                },
+                {
+                    "name": "Psychic Nova",
+                    "shortDesc": "MP Cost: 1000\\nMax Enemies Hit: 15, Damage: 1635%, Number of Attacks: 7, Compressions: 12\\nMental energy waves - Enemies Hit: 15, Damage: 1720%, Number of Attacks: 14, Shock Waves: 5\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/other/kinesis/psychic-nova.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHNxMnRrYnRqdjRkNnFlZGxlZzU1NmtkbW1uYXZpMTFvaWkzcGNqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G90ixxW6o1LCf9p6XH/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a psychic cube that damages enemies and explodes",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                    
+                },
+                {
+                    "name": "Ultimate: Checkmate",
+                    "shortDesc": "MP Cost: 500\\nMax Enemies Hit: 12, Damage: 437%, Number of Attacks: 7, Chess Pieces: 3\\nThe chess piece ricochets off enemies up to 5 times\\nIf Breakthrough is active when the attack hits, it resets the cooldown of Ultimate skills.\\nCooldown: 30 sec\\nBreakthrough Cooldown: 5 sec",
+                    "icons": ["/class-icons/other/kinesis/ultimate-checkmate.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG54OHJzdmJsMTRpNmNrY3B5dmxtc3NqeXZ4ZHAwajdxMjEwMTZ5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3eUGpxeioq1NKv9KE0/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Send several chess pieces bouncing around the screen that damages in a large area",
+                    "details": [
+                        "While <tt src={/class-icons/other/kinesis/breakthrough.png} tip={Breakthrough (4th Job)}> is active, this skill's cooldown is reduced<bp_Additionally, if the skill successfully hits enemies, the cooldown of other Ultimate skills are reset_>",
+                        "Prioritizes bosses with the highest Max HP",
+                        "Unaffected by Damage Reflect and cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Psychic Castle",
+                    "shortDesc": "MP Cost: 1000\\nCreate a giant game of chess - Max Enemies Designated as King: 15, Duration: 20 sec\\nWhile active, a pincer occasionally triggers for 5 sec\\nWhen the attack hits, it increases the pincer trigger duration by 5 sec every 1 sec. When the pincer trigger duration ends, pincers cannot trigger even if the buff is active.\\nUpon landing active Ultimate skills or From Another Realm 75 times, the game ends and triggers Endgame, where the king is dealt an additional attack.\\nAny remaining pincer triggers will be dealt as additional Endgame hits.\\nPincer - Max Enemies Hit: 15, Damage: 1540%, Number of Attacks: 7, Max Triggers: 28\\nEndgame - King Enemy Damage: 1800%, Number of Attacks: 11, Ending: 5\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/other/kinesis/psychic-castle.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGMyaHgxc3R4dXVnN3EwbGJiN2pxMmNlanY4Z284cHEwYTBsaW83aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6sdk7Y7lbWwee13oEH/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "When used, enemies are designated as [Kings] that upon dealing a set amount of successful hits from Ultimate skills or <tt src={/class-icons/other/kinesis/from-another-realm.png} tip={From Another Realm (6th Job)}> will trigger a final attack [Endgame] on marked enemies",
+                    "details": [
+                        "While active, successful hits triggers an additional attack [Pincers]<bp_Successful hits increases the duration of [Pincers]_>",
+                        "Right-clicking the skill toggles ON/OFF the background visual effect",
+                        "Prioritizes bosses with the highest Max HP",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Psychic Force Boost",
+                    "shortDesc": "Psychic Force Final Damage: +180%",
+                    "icons": ["/class-icons/other/kinesis/psychic-force.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Psychic Rise Boost",
+                    "shortDesc": "Psychic Rise Final Damage: +180%",
+                    "icons": ["/class-icons/other/kinesis/psychic-rise.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Psychic Fall Boost",
+                    "shortDesc": "Psychic Fall Final Damage: +180%",
+                    "icons": ["/class-icons/other/kinesis/psychic-fall.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ultimate: Pressure Boost",
+                    "shortDesc": "Ultimate: Pressure Final Damage: +120%",
+                    "icons": ["/class-icons/other/kinesis/ultimate-pressure.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ultimate: Gambit Boost",
+                    "shortDesc": "Ultimate: Gambit Final Damage: +120%",
+                    "icons": ["/class-icons/other/kinesis/ultimate-gambit.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Psychic Smash Boost",
+                    "shortDesc": "Psychic Smash Final Damage: +120%",
+                    "icons": ["/class-icons/other/kinesis/psychic-smash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ultimate: Check Boost",
+                    "shortDesc": "Ultimate: Check Final Damage: +120%",
+                    "icons": ["/class-icons/other/kinesis/ultimate-check.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ultimate: Opening Boost",
+                    "shortDesc": "Ultimate: Opening Final Damage: +120%",
+                    "icons": ["/class-icons/other/kinesis/ultimate-opening.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Kinetic Combo Boost",
+                    "shortDesc": "Kinetic Combo Final Damage: +180%",
+                    "icons": ["/class-icons/other/kinesis/kinetic-combo.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Mental Shock Boost",
+                    "shortDesc": "Mental Shock Final Damage: +120%",
+                    "icons": ["/class-icons/other/kinesis/mental-shock.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/other/kinesis/hexa-pressure-check.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/other/kinesis/ultimate-pressure.png} tip={Ultimate: Pressure (2nd Job)}> <tt src={/class-icons/other/kinesis/ultimate-check.png} tip={Ultimate: Check (4th Job)}> enhanced with V Matrix at least Lv. 40 to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Ultimate: Pressure",
+                    "shortDesc": "When using a direct attack skill (excluding common skills), chance to activate a micro black hole at the locaion of enemies within a set area: 100%\\nMicro Black Hole Max Enemies Hit: 8, Damage: 428%, Number of Attacks: 4, Gravitational Waves: 6, Max Attacks on a Single Enemy: 4\\nCooldown: 6 sec\\nBreakthrough Cooldown: 2 sec",
+                    "icons": ["/class-icons/other/kinesis/hexa-ultimate-pressure.png", "/class-icons/other/kinesis/ultimate-pressure.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTZkY2ltenA2eTI0cWxxczliazBiNjF2Zm5jcmRsdXk3aWt6ODl6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c4pE1nmIHmq9qgbZyH/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Ultimate: Check",
+                    "shortDesc": "MP Cost: 10, Damage: 1175%, Number of Attacks: 7, Max Enemies Hit: 8, Energy Orbs: 5\\nAgainst a single enemy, energy orbs are combined to attack a maximum of 3 times.\\nCooldown: 30 sec.\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/other/kinesis/hexa-ultimate-check.png", "/class-icons/other/kinesis/ultimate-check.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHQ3YmljOHpvbGxpMzkxa2FsbnJmcGQzd3psMWx3OTJpODQ0bWd4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QhseCX9OlOORfMpOma/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/other/kinesis/hexa-psychic-smash.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/other/kinesis/psychic-smash.png} tip={Psychic Smash (4th Job)}> enhanced with V Matrix at least Lv. 40 to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Psychic Smash",
+                    "shortDesc": "MP Cost: 50, Max Enemies Hit: 8, Damage: 785%, Number of Attacks: 5\\nFor 60 sec, Hit Enemies Defense: -15%, Speed: -30%",
+                    "icons": ["/class-icons/other/kinesis/hexa-psychic-smash.png", "/class-icons/other/kinesis/psychic-smash.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTZheWt5cmUzdXh4MWh2bDBuY2hxaTY4ajc4OHI4NHA5ZW5sNGc4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qrmCKpV2eVMZAX7jIF/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/other/kinesis/hexa-opening-gambit.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/other/kinesis/ultimate-opening.png} tip={Ultimate: Opening (3rd Job)}> <tt src={/class-icons/other/kinesis/ultimate-gambit.png} tip={Ultimate: Gambit (4th Job)}> enhanced with V Matrix at least Lv. 40 to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Ultimate: Opening",
+                    "shortDesc": "MP Cost: 1, Max Enemies Hit: 1, Damage: 530%, Number of Attacks: 6, Debuff Duration: 7 sec\\nGravitational fields pull objects towards debuffed enemies, attacking up to 8 enemies for 530% damage 6 times. Maximum gravitational fields: 2.\\nWhen the debuff duration ends, an explosion hits debuffed enemies for 796% damage 12 times.\\nWhen using on an enemy with an active debuff from Opening, the previous debuff ends immediately, triggering an explosion and performing additional attacks equal to the remaining number of gravitational field attacks.\\nCooldown: 30 sec.\\nBreakthrough Cooldown: 10 sec",
+                    "icons": ["/class-icons/other/kinesis/hexa-ultimate-opening.png", "/class-icons/other/kinesis/ultimate-opening.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWNycW8yandtY2hrdnh5bHdmYjB3bWppc2dmZTd1aHAycjBkajBpbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OUQ5hBIl6cedcJKHGR/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Ultimate: Gambit",
+                    "shortDesc": "MP Cost: 100, Damage: 281%, Number of Attacks: 9, Max Enemies Hit: 12, Number of Hits: 9\\nCooldown: 30 sec.\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/other/kinesis/hexa-ultimate-gambit.png", "/class-icons/other/kinesis/ultimate-gambit.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExejIzZ2picTQ0ajZiaTB0enA0dTFlazlvYzBsMW81emZ6bmhoaGEzZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Qgmdfq9ZCfEjZmCm10/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/other/kinesis/hexa-kinetic-combo.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/other/kinesis/kinetic-combo.png} tip={Kinetic Combo (3rd Job)}> enhanced with V Matrix at least Lv. 40 to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Kinetic Combo",
+                    "shortDesc": "Upon landing a direct skill attack (excluding common skills), 50% chance to create 3 energy bombs. For Ultimate skills, 40% chance.\\nEnergy Bomb: Damage: 208%, Number of Attacks: 3\\n[Passive Effect: HEXA Psychic Smash Damage: +251% (additive)]",
+                    "icons": ["/class-icons/other/kinesis/hexa-kinetic-combo.png", "/class-icons/other/kinesis/kinetic-combo.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHNxeDE4a3ZqN3RhMGljdG1jNnBvbHVzMmF4dnd4cWR5YjRqbDcwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CQ7AaXhVlqKummsXb2/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "From Another Realm",
+                    "shortDesc": "MP Cost: 1500, invincible during casting\\nWhile Breakthrough is active, Skill Final Damage: +8%\\nNumber of Fissures: 32, Fissure Damage: 1103%, Fissure Max Enemies Hit: 15, Number of Fissure Attacks: 12.\\nAfterward, 44 explosions occur that deal 1063% damage 13 times.\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/other/kinesis/from-another-realm.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHJleDluYThocm5wbzc5Zjk3eWZrb20yemxoY2UwdXplNnA4bmxweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gdEAkWfWPHePFyK73k/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Fractal Horizon",
+                    "shortDesc": "MP Cost: 1000, invincible during casting\\nLaunches the fractal matter 75 times, dealing 1540% damage to up to 15 enemies 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/other/kinesis/fractal-horizon.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWU3cnRjN254MmlsaDVxdDZxanljM3UxeTE2OWM4bTNoc3l5OG82MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uKgqN80JRj4kLDx2m6/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Psychic Shockwave Boost",
+                    "shortDesc": "Psychic Tornado Final Damage: +60%",
+                    "icons": ["/class-icons/other/kinesis/psychic-shockwave.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Psychic Nova Boost",
+                    "shortDesc": "Psychic Nova Final Damage: +60%",
+                    "icons": ["/class-icons/other/kinesis/psychic-nova.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Ultimate: Checkmate Boost",
+                    "shortDesc": "Ultimate: Checkmate Final Damage: +60%",
+                    "icons": ["/class-icons/other/kinesis/ultimate-checkmate.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Psychic Castle Boost",
+                    "shortDesc": "Psychic Castle Final Damage: +60%",
+                    "icons": ["/class-icons/other/kinesis/psychic-castle.png"],
+                    "type": "Upgraded Passive"
+                }
+                
+            ]
+        },
+        "notable": [
+            {
+                "name": "Ultimate: Opening - 3rd Job",
+                "icons": ["/class-icons/other/kinesis/ultimate-opening.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeno5ZWU5a3N4cnZ6ajRsNDZ0ajBtcHR2dmVtdTE2cWI4ZXR3Z3dpaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sx4Y3e08HjVWDRfgqd/giphy.gif"]
+            },
+            {
+                "name": "Psychic Smash - 4th Job",
+                "icons": ["/class-icons/other/kinesis/psychic-smash.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnRuM3huNWM4Yzk5dnVhZG1wZXhxcmxrc2trOG5ocm5sNTZoOTd6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GDUf83g0T6Ba8uwMzj/giphy.gif"]
+            },
+            {
+                "name": "Ultimate: Gambit - 4th Job",
+                "icons": ["/class-icons/other/kinesis/ultimate-gambit.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2pwNDM2N2R3cXBoa2Zwd3EyZjBoODc4YmJvbGgyM2JycncxM3gweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vdlO7t2exEIesHphnU/giphy.gif"]
+            },
+            {
+                "name": "Ultimate: Check - 4th Job",
+                "icons": ["/class-icons/other/kinesis/ultimate-check.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHMxdmRxNDI5MGRwYXA5bjA3ZG1ta3I2bTdiZncxZnJ3amdmbXYwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ykmW8KW0VrYueyjggS/giphy.gif"]
+            },
+            {
+                "name": "Psychic Shockwave - 5th Job",
+                "icons": ["/class-icons/other/kinesis/psychic-shockwave.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHZoZWkxZTR6dDd4cmVyeGd6M3hoNnZydTJmMnQ1em9veDQ1cG95dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q50R4jfSxcvzklbc32/giphy.gif"]
+            },
+            {
+                "name": "Psychic Nova - 5th Job",
+                "icons": ["/class-icons/other/kinesis/psychic-nova.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnZveTkzcGdzZ2NvN3lxOHgxajNhYnhwazN2czJkendxbTZ4ZmViMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AdnyhkpsdDvXXsFRvE/giphy.gif"]
+            },
+            {
+                "name": "Psychic Castle - 5th Job",
+                "icons": ["/class-icons/other/kinesis/psychic-castle.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21jNTU1aDVlM3l2aG40YWZrdXNvcnZkd2NrdWhxd2pqbHlvOXdxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iD0xvDKkGORLcVGs7v/giphy.gif"]
+            },
+            {
+                "name": "From Another Realm - 6th Job",
+                "icons": ["/class-icons/other/kinesis/from-another-realm.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHJleDluYThocm5wbzc5Zjk3eWZrb20yemxoY2UwdXplNnA4bmxweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gdEAkWfWPHePFyK73k/giphy.gif"]
+            },
+            {
+                "name": "Fractal Horizon - 6th Job",
+                "icons": ["/class-icons/other/kinesis/fractal-horizon.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjk5YWI1OWN4MGhlN2Z3bzNwYzRiZWc2cXp6dXBmaXA1ZnJrenhmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uKgqN80JRj4kLDx2m6/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Kinesis is an INT mage class part of the FriendStory class group. Kinesis utilize Psy-limiter as their primary weapons. For their secondary weapon, Kinesis can equip Chess Piece"
+}

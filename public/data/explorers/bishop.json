@@ -1,0 +1,1199 @@
+{
+    "class": "Bishop",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["wand", "staff"]},
+            {"secondary": ["mageShield", "magicBookB"]}
+        ],
+        "innerAbility": [
+            {
+                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost (1st Job)} val={+1}> <bg src={/class-icons/explorers/bishop/agile-magic.png} tip={Agile Magic (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/explorers/bishop/holy-focus.png} tip={Holy Focus (3rd Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+60(63-150 w/ 6th Job) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/bishop/agile-magic.png} tip={Agile Magic (2nd Job)} val={+20}> <bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={opt} src={/class-icons/explorers/bishop/benediction.png} tip={Benediction Boost - Passive (6th Job)} val={+3-90 from 6th Job}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+4% +120(140)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/bishop/advanced-blessing.png} tip={Advanced Blessing (4th Job)} val={+30}> <bg src={/class-icons/explorers/bishop/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+10}> <bg src={/class-icons/explorers/bishop/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+30}> <bg src={/class-icons/explorers/bishop/righteously-indignant.png} tip={Righteously Indignant - Passive (Hyper Skill)} val={+50}> <bg type={opt} src={/class-icons/explorers/bishop/advanced-blessing-ferocity.png} tip={Advanced Blessing - Ferocity (Hyper Skill)} val={+20}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+75%(80%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/bishop/arcane-overdrive.png} tip={Arcane Overdrive (3rd Job)} val={+30%}> <bg src={/class-icons/explorers/bishop/holy-focus.png} tip={Holy Focus (3rd Job)} val={+40%}> <bg type={opt} src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost (1st Job)} val={+5% if Wand is equipped}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+16%",
+                "detail": "<bg src={/class-icons/explorers/bishop/arcane-overdrive.png} tip={Arcane Overdrive (3rd Job)} val={+16%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+40%(207%)",
+                "detail": "<bg src={/class-icons/explorers/bishop/arcane-aim.png} tip={Arcane Aim (4th Job)} val={+8% per successful attack} val={(Max. +40%)}> <bg type={debuff} src={/class-icons/link-skills/empirical-knowledge.png} tip={Empirical Knowledge (Link Skill)} val={+3% per stack} val={(Max. +9%)}> <bg type={temp} src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/bishop/angel-of-balance.png} tip={Angel of Balance - Vengeance (5th Job)} val={+100%}> <bg type={temp} src={/class-icons/explorers/bishop/peacemaker.png} tip={Peacemaker - Holy Light (5th Job)} val={+23%}> <bg type={temp} src={/class-icons/explorers/bishop/resurrection.png} tip={Resurrection (4th Job)} val={+5% & +1% per 2500 INT (up to +25%)} val={after reviving party members}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "(+10%)",
+                "detail": "<bg type={opt} src={/class-icons/explorers/bishop/advanced-blessing-boss-rush.png} tip={Advanced Blessing - Boss Rush (4th Job)} val={+10%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+227.43%(557.73%) [6th Job](567.18%-641.31%)",
+                "detail": "<bg src={/class-icons/explorers/bishop/blessed-ensemble.png} tip={Blessed Harmony (4th Job)} val={+10%}> × <bg src={/class-icons/explorers/mage/infinity.png} tip={Infinity (4th Job)} val={+91%}> × <bg src={/class-icons/explorers/bishop/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+11%}> × <bg src={/class-icons/explorers/bishop/righteously-indignant.png} tip={Righteously Indignant - Passive (Hyper Skill)} val={+30%}> × <bg type={debuff} src={/class-icons/explorers/bishop/angel-of-balance.png} tip={Angel of Balance - Benevolence (5th Job)} val={+10% for holy attacks}> × <bg type={temp} src={/class-icons/explorers/bishop/blood-of-the-divine.png} tip={Blood of the Divine (4th Job)} val={+8%}> × <bg type={temp} src={/class-icons/explorers/bishop/holy-advent.png} tip={Holy Advent (6th Job)} val={+5%}> × <bg type={temp} src={/class-icons/explorers/bishop/benediction.png} tip={Benediction (5th Job)} val={+33%} val={(+2%-17% from 6th Job, based on Skill Level)}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}> × <bg type={opt} src={/class-icons/5th-job/arcane-overdrive.png} tip={Arcane Overdrive (5th Job)} val={+21%} val={(-7% every 10s)}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+67.39%",
+                "detail": "<bg src={/class-icons/explorers/bishop/arcane-aim.png} tip={Arcane Aim (4th Job)} val={+20%}> × <bg src={/class-icons/explorers/bishop/righteously-indignant.png} tip={Righteously Indignant - Passive (Hyper Skill)} val={+20%}> × <bg type={debuff} src={/class-icons/explorers/bishop/angelic-wrath.png} tip={Angelic Wrath (2nd Job)} val={+44%}> × <bg type={debuff} src={/class-icons/link-skills/empirical-knowledge.png} tip={Empirical Knowledge (Link Skill)} val={+3% per stack} val={(Max. +9%)}>"
+            },
+            {
+                "name": "Ignore Elemental Resistance",
+                "stat": "+10%",
+                "detail": "<bg src={/class-icons/explorers/bishop/righteously-indignant.png} tip={Righteously Indignant - Passive (Hyper Skill)} val={+10%}>"
+            },
+            {
+                "name": "Buff Duration",
+                "stat": "+50%",
+                "detail": "<bg src={/class-icons/explorers/bishop/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+50%}>"
+            }
+        ],
+        "buffInfo": {
+            "auto": "<bg src={/class-icons/explorers/bishop/holy-symbol.png} tip={Holy Symbol (3rd Job)} val={240s}> <bg src={/class-icons/explorers/bishop/advanced-blessing.png} tip={Advanced Blessing (4th Job)} val={240s}>",
+            "toggles": "<bg src={/class-icons/explorers/bishop/teleport-mastery.png} tip={Teleport Mastery (3rd Job)} val={}> <bg src={/class-icons/explorers/bishop/righteously-indignant.png} tip={Righteously Indignant (Hyper Skill)} val={[B] or [V]} val={Skill Switch}> <bg src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={}>",
+            "summons": "<bg src={/class-icons/explorers/bishop/bahamut.png} tip={Bahamut (4th Job)} val={600s}> <bg src={/class-icons/explorers/bishop/angel-of-balance.png} tip={Angel of Balance (5th Job)} val={30s} val={120s cd}> <bg src={/class-icons/explorers/bishop/holy-fountain.png} tip={Holy Fountain (3rd Job)} val={60s [B]} val={60s cd}> <bg src={/class-icons/explorers/bishop/holy-water.png} tip={Holy Water (4th Job)} val={5s [B]} val={10s cd}> <bg src={/class-icons/explorers/bishop/fountain-of-vengeance.png} tip={Fountain of Venegeance (3rd Job)} val={60s [V]}>",
+            "mini": "",
+            "full": "<bg src={/class-icons/explorers/bishop/blood-of-the-divine.png} tip={Blood of the Divine (4th Job)} val={10s [V]}> <bg src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={60s}> <bg src={/class-icons/explorers/bishop/benediction.png} tip={Benediction (5th Job)} val={30s}> <bg src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={60s}>",
+            "etcCooldown": "<bg src={/class-icons/explorers/bishop/divine-protection.png} tip={Divine Protection (3rd Job)} val={5 Abnormal Statuses} val={80s cd}> <bg src={/class-icons/explorers/bishop/triumph-feather.png} tip={Triumph Feather (3rd Job)} val={120s} val={60s cd [V]}> <bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={Hero's Echo}>",
+            "binds": "<bg src={/class-icons/explorers/bishop/holy-advent.png} tip={Holy Advent (6th Job)} val={10s} val={Origin Skill}>",
+            "iFrame": "<bg src={/class-icons/explorers/bishop/heavens-door.png} tip={Heaven's Door (Hyper Skill)} val={60s cd, Revive} val={Cannot receive buff again for 600s}> <bg src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} val={3s} val={60s cd}> <bg src={/class-icons/explorers/bishop/holy-advent.png} tip={Holy Advent (6th Job)} val={Origin Skill}> <bg src={/class-icons/explorers/bishop/commandment-of-heaven.png} tip={Commandment of Heaven (6th Job)} val={Ascent Skill}>",
+            "damageReduce": "<bg src={/class-icons/explorers/bishop/holy-magic-shell.png} tip={Holy Magic Shell (3rd Job)} val={15s/15 hits, -10%} val={90s cd}> <bg src={/class-icons/explorers/bishop/divine-punishment.png} tip={Divine Punishment (5th Job)} val={While casting, -50%} val={1.5s cd, 11s recharge - up to 5 charges}>"
+        },
+        "linkSkill": {
+            "id": 80002762,
+            "offline": true,
+            "name": "Empirical Knowledge",
+            "maxLevel": 9,
+            "shortDesc": "When attacking, has a 31% chance to identify an enemy's weakness, granting you the following bonuses against them:\\nDamage per Stack: +5%, Enemy DEF Ignored per Stack: +5%\\nEffect Duration: 10 sec, Stacks up to 3 times",
+            "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
+            "type": "Passive",
+            "desc": "Successful attacks have a chance to debuff enemies",
+            "details": [
+                "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacks up to 3 times)",
+                "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/mage/mana-wave.png} tip={Mana Wave}> -> <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport}> -> <tt src={/class-icons/explorers/mage/magic-guard.png} tip={Magic Guard}> -> <tt src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost}> -> <tt src={/class-icons/explorers/mage/magic-armor.png} tip={Magic Armor}> -> <tt src={/class-icons/explorers/mage/energy-bolt.png} tip={Energy Bolt}>"],  
+                ["2nd Job", "<tt src={/class-icons/explorers/bishop/spell-mastery.png} tip={Spell Mastery}> -> <tt src={/class-icons/common/high-wisdom.png} tip={High Wisdom}> -> <tt src={/class-icons/explorers/bishop/agile-magic.png} tip={Agile Magic}> -> <tt src={/class-icons/explorers/bishop/invincible.png} tip={Invincible}> -> <tt src={/class-icons/explorers/bishop/mp-eater.png} tip={MP Eater}> -> <tt src={/class-icons/explorers/bishop/bless.png} tip={Bless}> -> <tt src={/class-icons/explorers/bishop/heal.png} tip={Heal/Angelic Wrath}> -> <tt src={/class-icons/explorers/bishop/holy-arrow.png} tip={Holy Arrow}>"],  
+                ["3rd Job", "<tt src={/class-icons/explorers/bishop/teleport-boost.png} tip={Teleport Boost}> -> <tt src={/class-icons/explorers/bishop/holy-focus.png} tip={Holy Focus}> -> <tt src={/class-icons/explorers/bishop/arcane-overdrive.png} tip={Arcane Overdrive}> -> <tt src={/class-icons/explorers/bishop/teleport-mastery.png} tip={Teleport Mastery}> -> <tt src={/class-icons/explorers/bishop/holy-symbol.png} tip={Holy Symbol}> -> <tt src={/class-icons/explorers/bishop/holy-fountain.png} tip={Holy Fountain/Fountain of Vengeance}> -> <tt src={/class-icons/explorers/bishop/mystic-door.png} tip={Mystic Door}> -> <tt src={/class-icons/explorers/bishop/dispel.png} tip={Dispel/Triumph Feather}> -> <tt src={/class-icons/explorers/bishop/shining-ray.png} tip={Shining Ray}> -> <tt src={/class-icons/explorers/bishop/divine-protection.png} tip={Divine Protection}> -> <tt src={/class-icons/explorers/bishop/holy-magic-shell.png} tip={Holy Magic Shell}>"],  
+                ["4th Job", "<tt src={/class-icons/explorers/bishop/buff-mastery.png} tip={Buff Mastery}> -> <tt src={/class-icons/explorers/bishop/advanced-blessing.png} tip={Advanced Blessing}> -> <tt src={/class-icons/explorers/bishop/big-bang.png} tip={Big Bang}> -> <tt src={/class-icons/explorers/bishop/bahamut.png} tip={Bahamut}> -> <tt src={/class-icons/explorers/bishop/arcane-aim.png} tip={Arcane Aim}> -> <tt src={/class-icons/explorers/bishop/holy-water.png} tip={Holy Water/Blood of the Divine}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/mage/infinity.png} tip={Infinity}> -> <tt src={/class-icons/explorers/bishop/angel-ray.png} tip={Angel Ray}> -> <tt src={/class-icons/explorers/bishop/genesis.png} tip={Genesis}> -> <tt src={/class-icons/explorers/bishop/resurrection.png} tip={Resurrection}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]  
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/explorers/bishop/holy-symbol-item-drop.png} tip={Holy Symbol - Item Drop}> <tt src={/class-icons/explorers/bishop/holy-symbol-experience.png} tip={Holy Symbol - Experience}> Holy Symbol - Item Drop and Experience_<tt src={/class-icons/explorers/bishop/advanced-blessing-ferocity.png} tip={Advanced Blessing - Ferocity}> <tt src={/class-icons/explorers/bishop/advanced-blessing-boss-rush.png} tip={Advanced Blessing - Boss Rush}> Advanced Blessing - Ferocity and Boss Rush_>[Choose 1]<bp_<tt src={/class-icons/explorers/bishop/holy-magic-shell-enhance.png} tip={Holy Magic Shell - Enhance}> Holy Magic Shell - Enhance_<tt src={/class-icons/explorers/bishop/holy-magic-shell-enhance.png} tip={Holy Magic Shell - Enhance}> Holy Magic Shell - Persist_<tt src={/class-icons/explorers/bishop/holy-symbol-preparation.png} tip={Holy Symbol - Preparation}> Holy Symbol - Preparation_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "  <tt src={/class-icons/explorers/bishop/angel-ray.png} tip={Angel Ray (4th Job)}> <tt src={/class-icons/explorers/bishop/genesis.png} tip={Genesis/Triumph Feather (4th/3rd Job)}> <tt src={/class-icons/explorers/bishop/heavens-door.png} tip={Heaven's Door/Fountain of Vengeance (Hyper Skill/3rd Job)}> "],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/bishop/heal.png} tip={Heal/Angelic Wrath (2nd Job)}> <tt src={/class-icons/explorers/bishop/big-bang.png} tip={Big Bang (4th Job)}> <tt src={/class-icons/explorers/bishop/bahamut.png} tip={Bahamut (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/bishop/angel-ray.png} tip={Angel Ray (4th Job)}>",
+                "<tt src={/class-icons/explorers/bishop/big-bang.png} tip={Big Bang (4th Job)}> <tt src={/class-icons/explorers/bishop/triumph-feather.png} tip={Triumph Feather (3rd Job)}>",
+                "<tt src={/class-icons/explorers/bishop/angelic-wrath.png} tip={Angelic Wrath (2nd Job)}> <tt src={/class-icons/explorers/bishop/fountain-of-vengeance.png} tip={Fountain of Vengeance (3rd Job)}> <tt src={/class-icons/explorers/bishop/bahamut.png} tip={Bahamut (4th Job)}>",
+                "<tt src={/class-icons/explorers/bishop/genesis.png} tip={Genesis (4th Job)}> <tt src={/class-icons/explorers/bishop/heavens-door.png} tip={Heaven's Door (Hyper Skill)}>",
+                "<tt src={/class-icons/explorers/bishop/shining-ray.png} tip={Shining Ray (3rd Job)}>",
+                "<tt src={/class-icons/explorers/bishop/holy-arrow.png} tip={Holy Arrow (2nd Job)}> <tt src={/class-icons/explorers/bishop/heal.png} tip={Heal (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Bishop"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%B9%84%EC%88%8D(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/PX2v4BV3Qp"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/14nUOAEBN2M5hc8EK7-mQH72twwCarXJmSSvCfYl3V3A"}
+        ],
+        "infographics": [
+            {
+                "src": "/bishop/bishop-overview.png",
+                "title": "Overview",
+                "credit": "Zeni",
+                "date": "2026-05-15"
+            },
+            {
+                "src": "/bishop/bishop-6th-job.png",
+                "title": "6th Job",
+                "credit": "Explorer Mage Discord",
+                "date": "2026-06-25"
+            }
+        ],
+        "specialThanks": "Special thanks to bel and the members of the Explorer Mage Discord for their help in making this overview!",
+        "discord": "https://discord.gg/PX2v4BV3Qp",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Benevolence and Vengeance",
+            "content": [
+                "At Lv. 140, you unlock the Hyper Skill, <tt src={/class-icons/explorers/bishop/righteously-indignant.png} tip={Righteously Indignant (Hyper Skill)}> Righteously Indignant that allows you to swap between Benevolence skills and Venegeance skills",
+                "Benevolence skills provide supportive abilities like party heals and utility while Venegeance skills provide offensive abilities like attacks and self-buffs. Benevolence and Venegeance skills share the same Key Slot and Skill Points (SP)",
+                "Below are a list of all Benevolence and Venegeance skills:",
+                "<bp_<tt src={/class-icons/explorers/bishop/heal.png} tip={Heal (2nd Job)}> / <tt src={/class-icons/explorers/bishop/angelic-wrath.png} tip={Angelic Wrath (2nd Job)}> Heal & Angelic Wrath (2nd Job)_<tt src={/class-icons/explorers/bishop/holy-fountain.png} tip={Holy Fountain (3rd Job)}> / <tt src={/class-icons/explorers/bishop/fountain-of-vengeance.png} tip={Fountain of Venegeance (3rd Job)}> Holy Fountain & Fountain of Venegeance (3rd Job)_<tt src={/class-icons/explorers/bishop/dispel.png} tip={Dispel (3rd Job)}> / <tt src={/class-icons/explorers/bishop/triumph-feather.png} tip={Triumph Feather (3rd Job)}> Dispel & Triumph Feather (3rd Job)_<tt src={/class-icons/explorers/bishop/holy-water.png} tip={Holy Water (4th Job)}> / <tt src={/class-icons/explorers/bishop/blood-of-the-divine.png} tip={Blood of the Divine (4th Job)}> Holy Water & Blood of the Divine (4th Job)_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Empirical Knowledge",
+                    "maxLevel": 9,
+                    "shortDesc": "When attacking, has a 31% chance to identify an enemy's weakness, granting you the following bonuses against them:\\nDamage per Stack: +5%, Enemy DEF Ignored per Stack: +5%\\nEffect Duration: 10 sec, Stacks up to 3 times",
+                    "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
+                    "type": "Passive",
+                    "desc": "Successful attacks have a chance to debuff enemies",
+                    "details": [
+                        "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacks up to 3 times)",
+                        "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/4CfD1bQtU38fQjpwoL/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/iVhZDyL4MkBarSDLOj/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/vjUXNx23bOyNcgyyCI/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/i6f5LhAOInr9WOOgSF/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHZmNGJlNm8xaXl4dG1nZjh4ank3Z3hyMmd4ODBkeDNnOGhheWlodSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tYiXQPOPRh1LqaxxLZ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Energy Bolt",
+                        "shortDesc": "MP Cost: 24, Damage: 78%, Number of Attacks: 4 Max Enemies Hit: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/mage/energy-bolt.png"],
+                        "animations": ["https://media.giphy.com/media/uha0zBDu5MyAUXxgQ9/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Casts an explosive orb forward"
+                    },
+                    {
+                        "name": "Magic Guard",
+                        "shortDesc": "Damage Taken: -10%, Damage Displaced: 85% of damage received",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/mage/magic-guard.png"],
+                        "type": "Passive",
+                        "desc": "Reduces damage taken (against regular monsters) and a portion of your damage taken will be redirected towards your MP"
+                    },
+                    {
+                        "name": "Teleport",
+                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 190, and up and down with 295\\n[Passive Effects: Speed: +22, Max Speed: +20]",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/mage/teleport.png"],
+                        "animations": ["https://media.giphy.com/media/GZTa40Z4mo9xQHxcNS/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "name": "Mana Wave",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.\\nHold the Jump key after using to spend 20 MP to descent slowly for up to 5 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/mage/mana-wave.png"],
+                        "animations": ["https://media.giphy.com/media/B6H6Uts0SWTRPRnJbC/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
+                            "After using, holding the Jump Key will allow you to slowly float down<bp_You can move while floating_>"
+                        ]
+                    },
+                    {
+                        "name": "Magic Armor",
+                        "shortDesc": "Defense: +90",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/mage/magic-armor.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "MP Boost",
+                        "shortDesc": "Max MP: +20%, Attack Speed: +1, MP increases by 120 per level\\nCritical Rate: +5% when equipped with a Wand",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/mage/mp-boost.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Holy Arrow",
+                        "shortDesc": "MP Cost: 36, Damage: 185%, Number of Attacks: 3, Max Enemies Hit: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bishop/holy-arrow.png"],
+                        "animations": ["https://media.giphy.com/media/Nto4RJVtmCSqaIkcn9/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a blast of holy arrows forward",
+                        "details": [
+                            "Deals increased damage to Undead and Devil type monsters"
+                        ]
+                    },
+                    {
+                        "name": "Blessed Ensemble",
+                        "shortDesc": "Final Damage: +3%\\n20% bonus EXP for each Cleric in the party.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/bishop/blessed-ensemble.png"],
+                        "type": "Passive",
+                        "desc": "Increases your %Final Damage and grants increased %EXP from enemies for each Cleric in your party (up to 60%)"
+                    },
+                    {
+                        "name": "Heal",
+                        "shortDesc": "MP Cost: 24, Recovery: 300%, Heal's Cooldown per Party Member Healed: -2 sec\\nCooldown: 4 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bishop/heal.png"],
+                        "animations": ["https://media.giphy.com/media/BpVSmNKSWKdqTZG3gj/giphy.gif"],
+                        "type": "Benevolence Party Heal",
+                        "desc": "Heals nearby party members",
+                        "details": [
+                            "Cooldown is reduced based on the number of members in your party",
+                            "Deals damage to Undead type monsters"
+                        ]
+                    },
+                    {
+                        "name": "Angelic Wrath",
+                        "shortDesc": "MP Cost: 24, Max Enemies Hit: 6, Damage: 350%, Number of Attacks: 5.\\nEnemies stuck have their Defense reduced by 44% for 60 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bishop/angelic-wrath.png"],
+                        "animations": ["https://media.giphy.com/media/kafuSdaggxFPS4fRH2/giphy.gif"],
+                        "type": "Vengeance Attack",
+                        "desc": "Call an angel to strike forward and debuff enemies hit",
+                        "details": [
+                            "[Debuff]: Reduces %DEF<bp_Reduction to %DEF can be considered as %Ignore DEF_>"
+                        ]
+                    },
+                    {
+                        "name": "Bless",
+                        "shortDesc": "MP Cost: 20, Attack Power: +15, Magic ATT: +15, DEF: +300, Duration: 240 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/bless.png"],
+                        "animations": ["https://media.giphy.com/media/WRY9J5hYgwh9DPTPCZ/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "name": "Agile Magic",
+                        "shortDesc": "Attack Speed: +2, INT: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/agile-magic.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Invincible",
+                        "shortDesc": "Damage Taken: -25%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/invincible.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: 50%, Magic ATT: +10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/spell-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/high-wisdom.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "MP Eater",
+                        "shortDesc": "MP Absorb Chance: 20%, Amount Absorbed: 10% of Max MP\\nAmount Absorbed: 5% of the boss's Max MP",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/bishop/mp-eater.png"],
+                        "type": "Passive",
+                        "desc": "Your attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Effectiveness is reduced for bosses"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Shining Ray",
+                        "shortDesc": "MP Cost: 45, Damage: 254%, Number of Attacks: 4, Max Monsters Hit: 6, Stun Chance: 60%, Stun Duration: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bishop/shining-ray.png"],
+                        "animations": ["https://media.giphy.com/media/KyhQUAgOvuFR36in4p/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Shines a ray of light that damages nearby enemies and has a chance to stun",
+                        "details": [
+                            "Deals increased damage to Undead and Devil type monsters"
+                        ]
+                    },
+                    {
+                        "name": "Holy Fountain",
+                        "shortDesc": "MP Cost: 40, Duration: 60 sec, restores 40% HP when used, able to use 20 times total.\\nCooldown: 60 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/holy-fountain.png"],
+                        "animations": ["https://media.giphy.com/media/uXG3a8p5iPUmFSSpWv/giphy.gif"],
+                        "type": "Benevolence Summon Heal",
+                        "desc": "Place down a fountain that party members can press the Up Arrow Key to restore some %Max HP",
+                        "details": [
+                            "Has a fixed number of uses before the fountain disappears",
+                            "Cannot be placed when there is another fountain active (Bishop, Decent, or 5th Job variants)",
+                            "Unaffected by cooldown resets and %Buff Duration"
+                        ]
+                    },
+                    {
+                        "name": "Fountain of Vengeance",
+                        "shortDesc": "MP Cost: 40, Duration: 60 sec.\\nPeriodically deals 180% damage 5 times to up to 8 enemies.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/fountain-of-vengeance.png"],
+                        "animations": ["https://media.giphy.com/media/28UYQHib38wQF6PI8f/giphy.gif"],
+                        "type": "Vengeance Summon",
+                        "desc": "Place down a stationary fountain that periodically damages nearby enemies"
+                    },
+                    {
+                        "name": "Divine Protection",
+                        "shortDesc": "MP Cost: 80, Number of Debilitating Status Condition Resistances: 5\\nCooldown: 80 sec\\n[Passive Effect: Increases Abnormal Status and all Elemental Resistance by 40]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/divine-protection.png"],
+                        "animations": ["https://media.giphy.com/media/F0Sed4L6cz9Ekp5oDW/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a barrier that blocks up to 5 Critical Abnormal Statuses",
+                        "details": [
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
+                            "Cooldown is reduced for each party member cured by <tt src={/class-icons/explorers/bishop/dispel.png} tip={Dispel (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Mystic Door",
+                        "shortDesc": "MP 60, Portal Duration: 200 sec",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/bishop/mystic-door.png"],
+                        "animations": ["https://media.giphy.com/media/LxJAtiBH4eo9iS4wXp/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place down a portal that leads to the nearest town for your party members",
+                        "details": [
+                            "To use, press the Up Arrow Key"
+                        ]
+                    },
+                    {
+                        "name": "Dispel",
+                        "shortDesc": "MP Cost: 10, after nullifying magic and curing Abnormal Status at 100% chance, Dispel's cooldown reduced by 4 sec and Divine Protection's cooldown reduced by 6 sec for each party member cured\\nCooldown: 8 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/dispel.png"],
+                        "animations": ["https://media.giphy.com/media/i3xvtcOxU5mj9aRBrh/giphy.gif"],
+                        "type": "Benevolence Party Active",
+                        "desc": "Cures party members of Abnormal Statuses",
+                        "details": [
+                            "If a party member is cured, the cooldown of Dispel and <tt src={/class-icons/explorers/bishop/divine-protection.png} tip={Divine Protection (3rd Job)}> are reduced",
+                            "Right-clicking the skill will toggle ON/OFF skill effect transparency to party members' debuffs"
+                        ]
+                    },
+                    {
+                        "name": "Triumph Feather",
+                        "shortDesc": "MP Cost: 150, Duration: 120 sec. Upon striking an enemy with an attack skill, creates 4 angel feathers every 4 sec that seek enemies and deal 230% damage 4 times.\\nAngel Feather Cooldown: 3 sec\\nCooldown: 60 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/triumph-feather.png"],
+                        "animations": ["https://media.giphy.com/media/PCe8s2zt6NmoV7JRvc/giphy.gif"],
+                        "type": "Venegeance Buff Attack",
+                        "desc": "While active, periodically, successful attacks create feathers that seek out and attack enemies"
+                    },
+                    {
+                        "name": "Holy Symbol",
+                        "shortDesc": "MP Cost: 300, EXP Bonus: 50%, Duration: 240 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bishop/holy-symbol.png"],
+                        "animations": ["https://media.giphy.com/media/pIgZziKBLEg4XdkFzD/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Increases the amount of EXP gained from enemies for all party members nearby ",
+                        "details": [
+                            "If party members go too far, the effects of Holy Symbol are reduced"
+                        ]
+                    },
+                    {
+                        "name": "Teleport Mastery",
+                        "shortDesc": "Additional MP Cost: 20, Max Monsters Hit: 6, Damage: 340%, Stun Chance: 80%, Stun Duration: 4 sec.\\n[Passive Effect: Knockback Resistance: +40%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/teleport-mastery.png"],
+                        "animations": ["https://media.giphy.com/media/mNLdILBMkBCa4PeCnA/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, using <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}> will damage nearby enemies",
+                        "details": [
+                            "[Passive]: Permanently increases %Knockback Resistance",
+                            "Has a chance to stun enemies"
+                        ]
+                    },
+                    {
+                        "name": "Teleport Boost",
+                        "shortDesc": "Teleport Distance: Horizontal +65, Vertical +25.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/bishop/teleport-boost.png"],
+                        "type": "Passive",
+                        "desc": "Increases the teleport distance of <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}>"
+                    },
+                    {
+                        "name": "Holy Magic Shell",
+                        "shortDesc": "MP Cost: 70, HP Recovered: 50% of max HP, Duration: 15 sec, Max Number of Attacks Blocked: 15, Damage: -10% for attacks that do a certain percentage of your Max HP.\\nCannot trigger Holy Magic for 80 sec Cooldown: 90 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bishop/holy-magic-shell.png"],
+                        "animations": ["https://media.giphy.com/media/DoYoKdcU5cYndmeHW2/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Restores %Max HP to nearby party members and grants them a shield",
+                        "details": [
+                            "The shield will absorb a set number of attacks before disappearing<bp_If the attack was a %Max HP attack, you will take reduced damage instead_>",
+                            "After receiving a Holy Magic Shell, you may not receive another one for a short amount of time"
+                        ]
+                    },
+                    {
+                        "name": "Arcane Overdrive",
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +16%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bishop/arcane-overdrive.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Holy Focus",
+                        "shortDesc": "For all attacks and the Heal skill, Critical Rate: +40%, Magic Mastery: +70%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/explorers/bishop/holy-focus.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Angel Ray",
+                    "shortDesc": "MP Cost: 56, Max Enemies Hit: 1, Damage: 225%, Number of Attacks: 14. Restores 8% of your Max HP for you and your party members.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/bishop/angel-ray.png"],
+                    "animations": ["https://media.giphy.com/media/2rjr2yp7WOT2TmoY1V/giphy.gif"],
+                    "type": "Attack / Party Heal",
+                    "desc": "Fire a holy sword forward that damages a single enemy",
+                    "details": [
+                        "Heals party members that holy sword passes through including those affected by the \"Undead\" debuff"
+                    ]
+                },
+                {
+                    "name": "Genesis",
+                    "shortDesc": "MP Cost: 300, Damage: 324%, Max Enemies Hit: 15, Number of Attacks: 10, Crit Rate: +20%,\\nCooldown: 30 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/bishop/genesis.png"],
+                    "animations": ["https://media.giphy.com/media/RaZfZjvD0XaHzBRpjl/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash rays of holy light that damage a large area",
+                    "details": [
+                        "Attack has increased %Crit Rate"
+                    ]
+                },
+                {
+                    "name": "Big Bang",
+                    "shortDesc": "MP Cost: 50, Damage: 480%, Number of Attacks: 4, Max Enemies Hit: 10\\nDamage Against Normal Enemies: +50%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/bishop/big-bang.png"],
+                    "animations": ["https://media.giphy.com/media/DuDM8hiwiieAzI1sLK/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a burst of holy explosions damaging multiple enemies",
+                    "details": [
+                        "Deals increased %Damage to regular monsters"
+                    ]
+                },
+                {
+                    "name": "Blessed Harmony",
+                    "shortDesc": "Final Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/blessed-ensemble.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Final Damage provided"
+                    ]
+                },
+                {
+                    "name": "Holy Water",
+                    "shortDesc": "Passive Effect: Hitting enemies 7 times with Angel Ray generates 1 Holy Water. You can carry up to 5 Holy Water at one time.\\nActive Effect: MP Cost: 100. Requires at least 1 Holy Water. Consume all Holy Water in your possession to summon chalices of Holy Water nearby. If there is not enough space, only some of the chalices will be summoned.\\nChalice Duration: 5 sec, +5 sec per 2500 INT you possess. Party members recover 5% of HP upon using the Holy Water. Their HP Recovery is increased by 5% per 2500 INT you possess (this bonus is additive).\\nIf the Holy Water disappears even though the duration remains, you get as much as 50% of Holy Water as the number of Holy Water that disappeared.\\nCooldown 10 sec",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/bishop/holy-water.png"],
+                    "animations": ["https://media.giphy.com/media/eaIF9TG64npl7Ye9F4/giphy.gif"],
+                    "type": "Benevolence Summon Heal",
+                    "desc": "",
+                    "details": [
+                        "[Passive]: Successfully landing <tt src={/class-icons/explorers/bishop/angel-ray.png} tip={Angel Ray (4th Job}> 7 times will generate 1 Holy Water (up to 5)",
+                        "[Active]: Consumes all Holy Water to summon chalices you and your party members can consume to heal<bp_Press the Up Arrow Key while standing on top of a chalice to heal_The duration and amount healed per chalice is increased (additively) based on your INT stat, +5 sec & +5% recovery for every 2500 INT_If the active ends early, up to 50% of Holy Water is returned_>"
+                    ]
+                },
+                {
+                    "name": "Blood of the Divine",
+                    "shortDesc": "MP Cost: 300, Duration: 10 sec., Final Damage: +8%\\nCooldown: 120 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/bishop/blood-of-the-divine.png"],
+                    "animations": ["https://media.giphy.com/media/qt9ZRRGSc8QTHjAlNg/giphy.gif"],
+                    "type": "Vengeance Buff",
+                    "desc": "",
+                    "details": [
+                        "While active, pressing the Skill Key will cancel the buff"
+                    ]
+                },
+                {
+                    "name": "Resurrection",
+                    "shortDesc": "MP Cost: 150. Revives all KO'd party members within range and makes them invincible for 8 sec.\\nWhen revived by Resurrection on a map that has a death count, the party member who revived with Bishop will have 5% increased damage for 30 sec. The damage increase will grow by 1% greater for every 2500 points of INT, up to a maximum of 25%.\\nThis increase doesn't count INT granted by Special Skill Rings.\\nCooldown: 300 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/bishop/resurrection.png"],
+                    "animations": ["https://media.giphy.com/media/43MwhoENikSYOLeOiJ/giphy.gif"],
+                    "type": "Party Revive",
+                    "desc": "Revives all party members within range",
+                    "details": [
+                        "Revived party members are briefly invincible and gain increased %Damage<bp_Increases amount of %Damage provided based on your INT stat, +1% for every 2500 INT (up to +25%)_Scaling does not include INT granted by Special Skill Rings._>",
+                        "Consumes a Death Count for bosses",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Infinity",
+                    "shortDesc": "Every 5 seconds, restores 10%5 HP/MP\\nFinal Damage: +91%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/mage/infinity.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Bahamut",
+                    "shortDesc": "MP Cost: 120, Bahamut Summon Duration: 600 sec\\nDamage: 170%, Number of Attacks: 3, Max Enemies Hit: 3",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/bishop/bahamut.png"],
+                    "animations": ["https://media.giphy.com/media/fxtgBJNHATVEHdvkIB/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a dragon that attacks nearby enemies",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Advanced Blessing",
+                    "shortDesc": "MP Cost: 52, Attack Power: +30, Magic ATT: +30, DEF: +550, Max HP: +750, Max MP: +750, MP Consumption: -20%, Duration: 240 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/bishop/advanced-blessing.png"],
+                    "animations": ["https://media.giphy.com/media/qFTgG3q613OxOgckzo/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "",
+                    "details": [
+                        "Does not stack with <tt src={/class-icons/explorers/bishop/bless.png} tip={Bless (2nd Job)}>"
+                    ]
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/mOdWJpwOZxaJvpfGyj/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/W1nqUvkv86mGHixTTi/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Buff Mastery",
+                    "shortDesc": "Permanently increased Magic ATT: +30, Final Damage: +11%, Buff Duration: +50%, Knockback Resistance: +60%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/bishop/buff-mastery.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Arcane Aim",
+                    "shortDesc": "Ignores 20% of enemy DEF. Successful attacks have a 100% chance to increase your damage by 8% for 5 sec (excludes minion damage).\\nThis effect stacks up to 5 times.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/bishop/arcane-aim.png"],
+                    "type": "Passive",
+                    "desc": "Successfully damaging an enemy grants a stacking %Damage buff (up to 5 times)",
+                    "details": [
+                        "Summon attacks cannot trigger this effect",
+                        "Additionally increases %Ignore DEF"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Holy Magic Shell - Extra Guard",
+                    "shortDesc": "2 additional guards",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/holy-magic-shell-extra-guard.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Holy Magic Shell - Persist",
+                    "shortDesc": "Duration: +5 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/holy-magic-shell-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Holy Magic Shell - Enhance",
+                    "shortDesc": "Increases damage reduction by 5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/holy-magic-shell-enhance.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Includes %Max HP attacks"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Holy Symbol - Experience",
+                    "shortDesc": "20% additional EXP for only self",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/holy-symbol-experience.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Holy Symbol - Preparation",
+                    "shortDesc": "Abnormal Status Resistance and Elemental Resistance: +10%\\n[Passive Effects - Abnormal Status Resistance: +10, Elemental Resistance: +10%]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/holy-symbol-preparation.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Holy Symbol - Item Drop",
+                    "shortDesc": "30% additional drop rate",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/holy-symbol-item-drop.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Advanced Blessing - Ferocity",
+                    "shortDesc": "Attack Power and Magic ATT: +20",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/advanced-blessing-ferocity.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Advanced Blessing - Boss Rush",
+                    "shortDesc": "Boss Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/advanced-blessing-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Advanced Blessing - Extra Point",
+                    "shortDesc": "1000 additional Max HP & MP",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/advanced-blessing-extra-point.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Righteously Indignant",
+                    "shortDesc": "Convert Heal, Dispel, Holy Fountain, and Holy Water to Angelic Wrath, Triumph Feather, Fountain of Vengeance, and Blood of the Divine.\\nCooldown: 0.5 sec\\n[Passive Effects] Magic ATT: +50, Final Damage: +30%, Ignore Defense: +20%, Enemy Elemental Resistance: -10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/righteously-indignant.png"],
+                    "animations": ["https://media.giphy.com/media/WEzrvGchroC3dVlXDp/giphy.gif"],
+                    "type": "Toggle Active",
+                    "desc": "Switches between Benevolence skills and Vengeance skills",
+                    "details": [
+                        "[Passive]: Permanently increases %Final Damage, %Ignore DEF, %Elemental Resistance, and grants Magic Attack"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Heaven's Door",
+                    "shortDesc": "MP Cost: 500, Enemies Hit: 15, Damage: 670%, Number of Attacks: 8, Protects party members from one KO.\\nCooldown: 60 sec\\nParty members that receive Heaven's Door cannot receive it again for 600 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bishop/heavens-door.png"],
+                    "animations": ["https://media.giphy.com/media/lI31Kx9JJiHvlMD6nF/giphy.gif"],
+                    "type": "Party Buff / Attack",
+                    "desc": "Damages nearby enemies while granting a buff to nearby party members",
+                    "details": [
+                        "[Buff]: Protects allies from one KO",
+                        "After receiving a Heaven's Door's buff, you may not receive another one for a short amount of time"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/mage/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/L3SWOQ62uYlFQh5CCD/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expMagician", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Benediction",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec, Final Damage: +33% in the zone\\nParty members other than yourself periodically recover 1% of max HP/MP, clear certain statuses, and have their Attack Speed increased.\\nParty Final Damage: +1% per 3000 INT, based on the number of party members (min: 6%, max: 33%).\\nHP/MP Recovery: +1% per 2000 INT (up to +10% max)\\nAttack Speed: +1 per 10000 INT (up to +3 max)\\nThese increases don't count INT granted by Special Skill Rings.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/explorers/bishop/benediction.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWpqbWo2emphdjYyZWNsdTZpaG9pMjBsOGNhbzhxZHUzNDd5d3dyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CXGHicqPIF66MUrvTo/giphy.gif"],
+                    "type": "Buff Zone",
+                    "desc": "Create an aura around your character that increases %Final Damage for all party members within and grants a buff",
+                    "details": [
+                        "[Buff]: Party members other than yourself gain Attack Speed while periodically restoring %Max HP/MP and clearing certain Abnormal Statuses",
+                        "The amount of %Final Damage provided is divided among nearby party members",
+                        "Effects scale off of your INT stat:<bp_[Final Damage]: +1% for every 3000 INT (up to +33%, divided between party members)_[HP/MP Recovery]: +1% for every 2000 INT (up to +10%)_[Attack Speed]: +1% for every 10000 INT (up to +3)_Scaling unaffected by Special Skill Rings_>"
+                    ]
+                },
+                {
+                    "name": "Angel of Balance",
+                    "shortDesc": "MP Cost: 1000, Summon Duration: 30 sec\\nAngel of Benevolence: Grants a buff that recovers 16% of party members' Max HP every 5 sec. For 4 sec., increases your damage by 100% and party member damage by 5% plus 1% per 1250 INT up to 40%.\\nThis increase doesn't count INT granted by Special Skill Rings.\\nAvenging Angel: Attacks up to 12 enemies dealing 1100% damage 10 times. Attacked enemies are marked for 60 sec. Holy damage dealt to marked enemies by you and party members consumes the mark and grants the attack Final Damage: +10%.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/bishop/angel-of-balance.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXZscGl5eGplb3N4aHQyYnZvZnUwY3Y0bjI2MnMwN2MyZDAybW1icCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SHgbURaANlbRzDvUNK/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon two angels that attack nearby enemies and buff party members",
+                    "details": [
+                        "[Angel of Vengeance]: Grants a buff to nearby party members that periodically restores %Max HP and increases their %Damage<bp_Damage increase scales off of your INT stat, +1% for every 1250 INT (up to +40%)_Scaling unaffected by Special Skill Rings_>",
+                        "[Avenging Angel]: Attacks nearby enemies and applies a debuff where Holy-attribute attacks deal increased %Final Damage and consume the debuff",
+                        "Upon summoning, <tt src={/class-icons/explorers/bishop/bahamut.png} tip={Bahamut (4th Job)}> Bahamut will despawn and then respawn once the summon expires",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Peacemaker",
+                    "shortDesc": "MP Cost: 350, deals 770% damage to up to 6 enemies 4 time(s) at every interval, or restores 45% of the Bishop's max HP for you and your party members that come into contact with the object.\\nMax Contact Count: 6. Only recovery consumes the contact count.\\nHoly Light: Max Enemies Hit: 15, Damage: 770%, Number of Attacks: 12. The Bishop and party members that come into contact with the light will gain a buff that increases damage by 23% for 12 sec.\\nCooldown: 10 sec.",
+                    "icons": ["/class-icons/explorers/bishop/peacemaker.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhweDNuamFlY3cxZzVnZ25ramFxbW5wemU4YWF4bnlqbjd5ZG1wMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i0xoyGZlc8MaiwBEsH/giphy.gif"],
+                    "type": "Attack / Heal",
+                    "desc": "Send an angel forward that damages enemies and heals party members it passes through",
+                    "details": [
+                        "At the end of its range or when the Skill Key is pressed again, the angel expands dealing damage and buffing party members<bp_[Buff]: Increases %Damage_>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Divine Punishment",
+                    "shortDesc": "MP Cost per Attack: 40, Consumes 1 holy light per sec.\\nAttacks up to 6 enemies to the front, for 715% damage, 10 times.\\n1 holy light is prepared every 11 sec, and you can hold up to 5 at a time.\\nDamage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 1.5 sec.",
+                    "icons": ["/class-icons/explorers/bishop/divine-punishment.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmw2d3o5cnB1cHN5ZHhvZWJicGc3YTAyZGg1NThpZmZwcXVxNXN2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S4CszukejidtRhIrD3/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, rain down angelic arrows from above",
+                    "details": [
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "This skill uses a special resource called Holy Light which are prepared every 11 seconds (Max. 5)<bp_Costs 1 Holy Light per second to cast_>",
+                        "The direction of the attack can be changed by pressing the Left or Right Arrow Keys"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Heal/Angelic Wrath Boost",
+                    "shortDesc": "Heal/Angelic Wrath Final Damage: +240%",
+                    "icons": ["/class-icons/explorers/bishop/heal.png", "/class-icons/explorers/bishop/angelic-wrath.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Holy Arrow Boost",
+                    "shortDesc": "Holy Arrow Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/bishop/holy-arrow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shining Ray Boost",
+                    "shortDesc": "Shining Ray Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/bishop/shining-ray.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Big Bang Boost",
+                    "shortDesc": "Big Bang Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bishop/big-bang.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Bahamut Boost Boost",
+                    "shortDesc": "Bahamut Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bishop/bahamut.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Angel Ray Boost",
+                    "shortDesc": "Angel Ray Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bishop/angel-ray.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Genesis/Triumph Feather Boost",
+                    "shortDesc": "Genesis/Triumph Feather Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bishop/genesis.png", "/class-icons/explorers/bishop/triumph-feather.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Heaven's Door/Fountain of Vengeance Boost",
+                    "shortDesc": "Heaven's Door/Fountain of Vengeance Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bishop/heavens-door.png", "/class-icons/explorers/bishop/fountain-of-vengeance.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/bishop/hexa-angel-ray.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/bishop/angel-ray.png} tip={Angel Ray (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Angel Ray",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 4, Damage: 334%, Number of Attacks: 14, HP Recovery: 8% of Max HP of party members including yourself\\nWhen the holy sword hits 12 times, the angel of judgment appears to unleash an additional attack.\\nAngel of Judgment - Max Enemies Hit: 15, Damage: 822%, Number of Attacks: 10",
+                    "icons": ["/class-icons/explorers/bishop/hexa-angel-ray.png", "/class-icons/explorers/bishop/angel-ray.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjN4dnZ4bnMyM3QxeGk2NW1zdjg4cm0yM2JrcGx4bTNncWNpbHg1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GwKtlQlTFJajskSpu0/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/bishop/hexa-big-bang-triumph-feather.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/bishop/big-bang.png} tip={Big Bang (4th Job)}/> <tt src={/class-icons/explorers/bishop/triumph-feather.png} tip={Triumph Feather (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Big Bang",
+                    "shortDesc": "MP Cost: 115, Max Enemies Hit: 10, Damage: 820%, Number of Attacks: 4\\nHoly Explosion: MP Cost: 125, Max Enemies Hit: 12, Damage: 715%, Number of Attacks: 6\\nCooldown: 6 sec\\nBig Bang and Holy Explosion Normal Enemy Damage: +50%",
+                    "icons": ["/class-icons/explorers/bishop/hexa-big-bang-1.png", "/class-icons/explorers/bishop/hexa-big-bang-2.png", "/class-icons/explorers/bishop/big-bang.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJneG56Nm50Z2x3bWQxMDJ3d2lqdDF6ZXdueWpjeGEzbWh4MmVndCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O4mWi8Lt2Ql08VRAGm/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem93Zjg4YThobW5jd2I3OWhtYjl5Y3pzcjdsdjYwOTJnaXpkbHFkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sgpHFzZb8GQNx6bTNB/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Triumph Feather",
+                    "shortDesc": "MP Cost: 110, Duration: 180 sec\\nUpon striking an enemy with an attack skill, creates 6 angel feathers every 4 sec that seek enemies and deal 684% damage 4 times.\\nEach subsequent feather to hit the same enemy deals 50% less Final Damage.\\nAngel Feather Cooldown: 3 sec\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/explorers/bishop/hexa-triumph-feather.png", "/class-icons/explorers/bishop/triumph-feather.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTV0Z2Nyb3k1M3huanQxeGp5cTdmZmthejg4enZ1ZzljYTMyeWlrbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XGcO9IikEWgo1YeGDa/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/bishop/hexa-angelic-wrath-fountain-bahamut.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/bishop/angelic-wrath.png} tip={Angelic Wrath (2nd Job)}> <tt src={/class-icons/explorers/bishop/fountain-of-vengeance.png} tip={Fountain of Vengeance (3rd Job)}> <tt src={/class-icons/explorers/bishop/bahamut.png} tip={Bahamut (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Angelic Wrath",
+                    "shortDesc": "MP Cost: 27, Max Enemies Hit: 6, Damage: 450%, Number of Attacks: 7.\\nEnemies struck have their Defense reduced by 44% for 60 sec.\\nA relic is created in the spot attacked by the angel\\nRelic - Duration: 90 sec, Max Enemies Hit: 10, Duration of Debuff Equal of Angelic Wrath: 10 sec, does not stack with Angelic Wrath debuff",
+                    "icons": ["/class-icons/explorers/bishop/hexa-angelic-wrath.png", "/class-icons/explorers/bishop/angelic-wrath.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzM3MHBpdmxtM3Z3MjhleXFqNjVzNDFoa3d0OTJ3NTB1Zzd3NWJ5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BdSJNoSCsapkKKJ7d8/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Fountain of Vengeance",
+                    "shortDesc": "MP Cost: 45, Duration: 60 sec.\\nPeriodically deals 310% damage 5 times to up to 8 enemies.",
+                    "icons": ["/class-icons/explorers/bishop/hexa-fountain-of-vengeance.png", "/class-icons/explorers/bishop/fountain-of-vengeance.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2dheTJrc3F2aTdoeXRqODJsNG8ydW9rbGJzeTZuazYzenJ0dWxsZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ob2icd7jVZJytwKu4N/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Bahamut",
+                    "shortDesc": "MP Cost: 135, Bahamut Summon Duration: 600 sec.\\nDamage: 372%, Number of Attacks: 3, Max Enemies Hit: 5\\n[Passive Effect: HEXA Angel Ray Damage: +20% points, HEXA Angel Ray Angel of Judgment Damage: +35% points, Required Holy Sword Hit Count to Activate HEXA Angel Ray Angel of Judgment -4]",
+                    "icons": ["/class-icons/explorers/bishop/hexa-bahamut.png", "/class-icons/explorers/bishop/bahamut.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGJnbmxldW5tNXB2anJqa2hndzE2Nnhua3podGN0aXZqN2s3ZThjMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n0GfHyeDNYeUjFxxkT/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/bishop/hexa-genesis-heavens-door.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/bishop/genesis.png} tip={Genesis (4th Job)}> <tt src={/class-icons/explorers/bishop/heavens-door.png} tip={Heaven's Door (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Genesis",
+                    "shortDesc": "MP Cost: 330, Max Enemies Hit: 15, Damage: 990%, Number of Attacks: 10, Critical Rate: +20%\\nCooldown: 30 sec.\\n[Passive Effect: [Final Attack] Your direct attack skills can activate Angel's Punishment that has a 65% chance to deal 405% damage.]",
+                    "icons": ["/class-icons/explorers/bishop/hexa-genesis.png", "/class-icons/explorers/bishop/genesis.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpqZW40ejJoYms0NTNzYWE5c3cycmljZnBud3YyOHFxdWowdDl2cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gnGfErXOaSbaMx3vHJ/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG1naXRsaHozZHFvcXQwc3lscWpjbDF4dzVobzh1Z3o1ZmVtZDJseiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P2RNNOpqOs2NliafZ7/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Heaven's Door",
+                    "shortDesc": "MP Cost: 560, Max Enemies Hit: 15, Damage: 805%, Number of Attacks: 10, Grants a buff that protects party members from KO once.\\nCooldown: 60 sec\\nParty members that receive Heaven's Door cannot receive it again for 600 sec.",
+                    "icons": ["/class-icons/explorers/bishop/hexa-heavens-door.png", "/class-icons/explorers/bishop/heavens-door.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjB5aTZicjhud3JzMGdyc2FjMWluZzNpdDBpbTBhaW9vcmg0bnBwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8H0dgWNBj99e02yy9Z/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Holy Advent",
+                    "shortDesc": "MP Cost: 1500, invincible during casting\\nArchangels descend, Max Enemies Hit: 15, Damage: 570%, Number of Attacks: 8, Number of Chase Cuts: 25. Damage: 475%, Number of Attacks: 12, Number of Chase Cuts: 35\\nDuration: 60 sec, Final Damage: +5%, manifests the Avenging Archangel, Archangel of Balance, and Archangel of Benevolence\\nMax Enemies Hit: 12, Advent Cooldown: 3 sec\\nArchangel of Balance - Damage: 515%, Number of Attacks: 14, every 3 sec\\nAvenging Archangel - Damage: 500%, Number of Attacks: 12, every 5 sec\\nArchangel of Benevolence - Damage: 600%, Number of Attacks: 12, every 4 sec\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/bishop/holy-advent.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2s0anNwdDByY3A5c2MwcGV6bHZvYTR5eGZ4b3Mydm91NGo5MHR5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4htXOSMEOz1G6BYDrk/giphy.gif"],
+                    "type": "Summon Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Commandment of Heaven",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe angel of compassion and vengeance shines 14 times, dealing 3996% damage to up to 15 enemies 12 times. Then the Angel's Judgment is pronounced 13 times, dealing 4928% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/bishop/commandment-of-heaven.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTlqdDN3OTczOGVnYjU3YmVpNHRsbHhtbHlzemRucWVnOW9sbmV4aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AIrN819QJrL94UlBQf/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Benediction Boost",
+                    "shortDesc": "Additionally increases Bishop's Final Damage by 17% when using Benediction, other Final Damage increase effects due to Benediction are addictive\\n[Passive Effect - All Stats: +90]",
+                    "icons": ["/class-icons/explorers/bishop/benediction.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Angel of Balance Boost",
+                    "shortDesc": "Angel of Balance Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/bishop/angel-of-balance.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Peacemaker Boost",
+                    "shortDesc": "Peacemaker Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/bishop/peacemaker.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Divine Punishment Boost",
+                    "shortDesc": "Divine Punishment Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/bishop/divine-punishment.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Angel Ray - 4th Job",
+                "icons": ["/class-icons/explorers/bishop/angel-ray.png"],
+                "animations": ["https://media.giphy.com/media/2rjr2yp7WOT2TmoY1V/giphy.gif"]
+            },
+            {
+                "name": "Genesis - 4th Job",
+                "icons": ["/class-icons/explorers/bishop/genesis.png"],
+                "animations": ["https://media.giphy.com/media/RaZfZjvD0XaHzBRpjl/giphy.gif"]
+            },
+            {
+                "name": "Big Bang - 4th Job",
+                "icons": ["/class-icons/explorers/bishop/big-bang.png"],
+                "animations": ["https://media.giphy.com/media/DuDM8hiwiieAzI1sLK/giphy.gif"]
+            },
+            {
+                "name": "Bahamut - 4th Job",
+                "icons": ["/class-icons/explorers/bishop/bahamut.png"],
+                "animations": ["https://media.giphy.com/media/fxtgBJNHATVEHdvkIB/giphy.gif"]
+            },
+            {
+                "name": "Heaven's Door - Hyper Skill",
+                "icons": ["/class-icons/explorers/bishop/heavens-door.png"],
+                "animations": ["https://media.giphy.com/media/lI31Kx9JJiHvlMD6nF/giphy.gif"]
+            },
+            {
+                "name": "Benediction - 5th Job",
+                "icons": ["/class-icons/explorers/bishop/benediction.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWpqbWo2emphdjYyZWNsdTZpaG9pMjBsOGNhbzhxZHUzNDd5d3dyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CXGHicqPIF66MUrvTo/giphy.gif"]
+            },
+            {
+                "name": "Peacemaker - 5th Job",
+                "icons": ["/class-icons/explorers/bishop/peacemaker.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhweDNuamFlY3cxZzVnZ25ramFxbW5wemU4YWF4bnlqbjd5ZG1wMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i0xoyGZlc8MaiwBEsH/giphy.gif"]
+            },
+            {
+                "name": "HEXA Angel Ray - 6th Job",
+                "icons": ["/class-icons/explorers/bishop/hexa-angel-ray.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjN4dnZ4bnMyM3QxeGk2NW1zdjg4cm0yM2JrcGx4bTNncWNpbHg1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GwKtlQlTFJajskSpu0/giphy.gif"]
+            },
+            {
+                "name": "Holy Advent - 6th Job",
+                "icons": ["/class-icons/explorers/bishop/holy-advent.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2s0anNwdDByY3A5c2MwcGV6bHZvYTR5eGZ4b3Mydm91NGo5MHR5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4htXOSMEOz1G6BYDrk/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Bishop is an INT mage class part of the Explorers. Bishop utilize both Staves and Wands as their primary weapons. For their secondary weapon, Bishop can equip Magic Books and Shields"
+}

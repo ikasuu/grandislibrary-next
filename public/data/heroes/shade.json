@@ -1,0 +1,1129 @@
+{
+    "class": "Shade",
+    "content": {
+        "classGroup": "Heroes",
+        "jobGroup": "Pirate",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Crit Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["knuckle"]},
+            {"secondary": ["foxMarble"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "1st Line Options",
+                "abilities": ["Boss Damage +20%"]
+            },
+            {
+                "name": "2nd & 3rd Line Options",
+                "abilities": ["Attack +21", "Buff Duration +38%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.7x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/heroes/shade/spirit-bond-2.png} tip={Spirit Bond 2 (2nd Job)} val={+2}> <bg src={/class-icons/heroes/shade/fox-gods-favor.png} tip={Fox God's Favor (1st Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/heroes/shade/advanced-knuckle-mastery.png} tip={Advanced Knuckle Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+60(115) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Strength Training (2nd Job)} val={+60}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+55}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +40(105)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/heroes/shade/fox-gods-favor.png} tip={Fox God's Favor - Passive (1st Job)} val={+20}> <bg src={/class-icons/heroes/shade/total-harmony.png} tip={Total Harmony (3rd Job)} val={+20}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/heroes/shade/foxy-courage.png} tip={Foxy Courage (2nd Job)} val={+15%}> <bg src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery (2nd Job)} val={+10%}> <bg src={/class-icons/heroes/shade/critical-insight.png} tip={Critical Insight (4th Job)} val={+10%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+32%(42%)",
+                "detail": "<bg src={/class-icons/heroes/shade/total-harmony.png} tip={Total Harmony (3rd Job)} val={+14%}> <bg src={/class-icons/heroes/shade/critical-insight.png} tip={Critical Insight (4th Job)} val={+18%}> <bg type={debuff} src={/class-icons/heroes/shade/spiritgate.png} tip={Spiritgate (5th Job)} val={+10%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+65%(95%)",
+                "detail": "<bg src={/class-icons/link-skills/close-call.png} tip={Close Call (Link Skill)} val={+5%}> <bg src={/class-icons/heroes/shade/fox-gods-favor.png} tip={Fox God's Favor - Passive (1st Job)} val={+10%}> <bg src={/class-icons/heroes/shade/foxy-courage.png} tip={Foxy Courage (2nd Job)} val={+10%}> <bg src={/class-icons/heroes/shade/total-harmony.png} tip={Total Harmony (3rd Job)} val={+20%}> <bg type={debuff} src={/class-icons/heroes/shade/weaken.png} tip={Weaken (3rd Job)} val={+20%}> <bg type={temp} src={/class-icons/heroes/shade/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+50%(75%)",
+                "detail": "<bg src={/class-icons/heroes/shade/spirit-bond-3.png} tip={Spirit Bond 3 (3rd Job)} val={+20%}> <bg src={/class-icons/heroes/shade/spirit-bond-4.png} tip={Spirit Bond 4 (4th Job)} val={+30%}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+84.01%(102.41%)",
+                "detail": "<bg src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery (2nd Job)} val={+10%}> × <bg src={/class-icons/heroes/shade/spirit-bond-3.png} tip={Spirit Bond 3 (3rd Job)} val={+15%}> × <bg src={/class-icons/heroes/shade/advanced-knuckle-mastery.png} tip={Advanced Knuckle Mastery (4th Job)} val={+16%}> × <bg src={/class-icons/heroes/shade/critical-insight.png} tip={Critical Insight (4th Job)} val={+10%}> × <bg src={/class-icons/heroes/shade/skulk-solidarity.png} tip={Skulk Solidarity (4th Job)} val={+14%}> × <bg type={temp} src={/class-icons/heroes/shade/fox-god-flash.png} tip={Fox God Flash (5th Job)} val={+10%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+44%",
+                "detail": "<bg src={/class-icons/heroes/shade/weaken.png} tip={Weaken (3rd Job)} val={+20%}> × <bg src={/class-icons/heroes/shade/spirit-bond-4.png} tip={Spirit Bond 4 (4th Job)} val={+30%}>"
+            },
+            {
+                "name": "Summon Duration",
+                "stat": "+5%",
+                "detail": "<bg src={/class-icons/common/spirit-affinity.png} tip={Spirit Affinity (Beginner)} val={+5%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/heroes/shade/fox-gods-favor.png} tip={Fox God's Favor (1st Job)} dur={[200s]}>",
+            "toggles": "<tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}> <tt src={/class-icons/heroes/shade/summon-other-spirit.png} tip={Summon Other Spirit (3rd Job)}>",
+            "summons": "<tt src={/class-icons/heroes/shade/spirit-frenzy.png} tip={Spirit Frenzy (3rd Job)} dur={[60s]}>",
+            "buffCd": "<tt src={/class-icons/heroes/shade/spirit-ward.png} tip={Spirit Ward (4th Job)} dur={[30s / 3 Debuffs](60s cd)}> <tt src={/class-icons/heroes/shade/fox-marble-fusion.png} tip={Fox Marble Fusion (Hyper Skill)} dur={[20s](60s cd)}> <tt src={/class-icons/heroes/shade/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/heroes/shade/fox-god-flash.png} tip={Fox God Flash (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s per stack](240s cd, 25s cd between each stack)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>[1s cd](180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/heroes/shade/spirit-trap.png} tip={Spirit Trap (3rd Job)} dur={[10s](120s cd)}> <tt src={/class-icons/heroes/shade/advent-of-the-fox.png} tip={Advent of the Fox (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/heroes/shade/summon-other-spirit.png} tip={Summon Other Spirit (3rd Job)} dur={[3s](1800s cd revive)}> <tt src={/class-icons/heroes/shade/spirit-incarnation.png} tip={Spirit Incarnation (Hyper Skill)} dur={[Up to 8s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s](240s cd)}> <tt src={/class-icons/heroes/shade/advent-of-the-fox.png} tip={Advent of the Fox (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/heroes/shade/smashing-multipunch.png} tip={Smashing Multipunch (5th Job)} dur={[Up to 1.8s](-50% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id":80000169,
+            "offline": true,
+            "name": "Close Call",
+            "maxLevel": 3,
+            "shortDesc": "Fatal Attack Survival Chance: 15%",
+            "icons": ["/class-icons/link-skills/close-call.png"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/heroes/shade/vulpes-leap.png} tip={Vulpes Leap}> -> <tt src={/class-icons/heroes/shade/fox-gods-favor.png} tip={Fox God's Favor}> -> <tt src={/class-icons/heroes/shade/cosmic-balance.png} tip={Cosmic Balance}> -> <tt src={/class-icons/heroes/shade/flash-fist.png} tip={Flash Fist}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/heroes/shade/spirit-bond-2.png} tip={Spirit Bond 2}> -> <tt src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery}> -> <tt src={/class-icons/heroes/shade/foxy-courage.png} tip={Foxy Courage}> -> <tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirit Mastery}> -> <tt src={/class-icons/heroes/shade/blade-imp-forward-slash.png} tip={Blade Imp - Forward Slash}> -> <tt src={/class-icons/heroes/shade/back-step.png} tip={Back Step}> -> <tt src={/class-icons/heroes/shade/ground-pound.png} tip={Ground Pound}>"],
+                ["3rd Job", "<tt src={/class-icons/heroes/shade/total-harmony.png} tip={Total Harmony}> -> <tt src={/class-icons/heroes/shade/harmonious-defense.png} tip={Harmonious Defense}> -> <tt src={/class-icons/heroes/shade/summon-other-spirit.png} tip={Summon Other Spirit}> -> <tt src={/class-icons/heroes/shade/spirit-bond-3.png} tip={Spirit Bond 3}> -> <tt src={/class-icons/heroes/shade/weaken.png} tip={Weaken}> -> <tt src={/class-icons/heroes/shade/blade-imp-spin-slash.png} tip={Blade Imp - Spin Slash}> -> <tt src={/class-icons/heroes/shade/spirit-trap.png} tip={Spirit Trap}> -> <tt src={/class-icons/heroes/shade/spirit-frenzy.png} tip={Spirit Frenzy}> -> <tt src={/class-icons/heroes/shade/shockwave-punch.png} tip={Shockwave Punch}>"],
+                ["4th Job", "<tt src={/class-icons/heroes/shade/advanced-knuckle-mastery.png} tip={Advanced Knuckle Mastery}> -> <tt src={/class-icons/heroes/shade/critical-insight.png} tip={Critical Insight}> -> <tt src={/class-icons/heroes/shade/skulk-solidarity.png} tip={Skulk Solidarity}> -> <tt src={/class-icons/heroes/shade/spirit-bond-4.png} tip={Spirit Bond 4}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/heroes/shade/heartfelt-communion.png} tip={Heartfelt Communion}> -> <tt src={/class-icons/heroes/shade/bomb-punch.png} tip={Bomb Punch}> -> <tt src={/class-icons/heroes/shade/spirit-ward.png} tip={Spirit Ward}> -> <tt src={/class-icons/heroes/shade/death-mark.png} tip={Death Mark}> -> <tt src={/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "[For Bossing]<bp_<tt src={/class-icons/heroes/shade/spirit-claw-reinforce.png} tip={Spirit Claw - Reinforce}> <tt src={/class-icons/heroes/shade/spirit-claw-boss-rush.png} tip={Spirit Claw - Boss Rush}> <tt src={/class-icons/heroes/shade/spirit-claw-extra-strike.png} tip={Spirit Claw - Extra Strike}> Spirit Claw - Reinforce, Boss Rush, and Extra Strike_<tt src={/class-icons/heroes/shade/fox-spirits-repeated-attack-bonus.png} tip={Fox Spirits - Repeated Attack Bonus}> <tt src={/class-icons/heroes/shade/fox-spirits-summon-chance.png} tip={Fire Fox Spirits - Summon Chance}> Fox Spirits - Repeated Attack Bonus and Summon Chance_>[For Training]<bp_<tt src={/class-icons/heroes/shade/bomb-punch-reinforce.png} tip={Bomb Punch - Reinforce}> Bomb Punch - Reinforce_<tt src={/class-icons/heroes/shade/bomb-punch-spread.png} tip={Bomb Punch - Spread}> Bomb Punch - Spread OR <tt src={/class-icons/heroes/shade/bomb-punch-critical-chance.png} tip={Bomb Punch - Critical Chance}> Bomb Punch - Critical Chance_<tt src={/class-icons/heroes/shade/fox-spirits-reinforce.png} tip={Fox Spirits - Reinforce}> <tt src={/class-icons/heroes/shade/fox-spirits-repeated-attack-bonus.png} tip={Fox Spirits - Repeated Attack Bonus}> <tt src={/class-icons/heroes/shade/fox-spirits-summon-chance.png} tip={Fire Fox Spirits - Summon Chance}> Fox Spirits - Reinforce, Repeated Attack Bonus, and Summon Chance_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Bossing Trio", "<tt src={/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}> <tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}> <tt src={/class-icons/heroes/shade/spirit-frenzy.png} tip={Spirit Frenzy (3rd Job)}>"],
+                    ["Mobbing Trio", "<tt src={/class-icons/heroes/shade/bomb-punch.png} tip={Bomb Punch (4th Job)}> <tt src={/class-icons/heroes/shade/death-mark.png} tip={Death Mark (4th Job)}> <tt src={/class-icons/heroes/shade/spirit-incarnation.png} tip={Spirit Incarnation (Hyper Skill)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}>",
+                "<tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}>",
+                "<tt src={/class-icons/heroes/shade/bomb-punch.png} tip={Bomb Punch (4th Job)}> <tt src={/class-icons/heroes/shade/death-mark.png} tip={Death Mark (4th Job)}>",
+                "<tt src={/class-icons/heroes/shade/spirit-frenzy.png} tip={Spirit Frenzy (3rd Job)}> <tt src={/class-icons/heroes/shade/spirit-trap.png} tip={Spirit Trap (3rd Job)}>",
+                "<tt src={/class-icons/heroes/shade/spirit-incarnation.png} tip={Spirit Incarnation (Hyper Skill)}> <tt src={/class-icons/heroes/shade/blade-imp-forward-slash.png} tip={Blade Imp (2nd Job)}> <tt src={/class-icons/heroes/shade/summon-other-spirit.png} tip={Summon Other Spirit (3rd Job)}>",
+                "<tt src={/class-icons/heroes/shade/flash-fist.png} tip={Flash Fist (1st Job)}> <tt src={/class-icons/heroes/shade/ground-pound.png} tip={Ground Pound (2nd Job)}> <tt src={/class-icons/heroes/shade/shockwave-punch.png} tip={Shockwave Punch (3rd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Shade"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%9D%80%EC%9B%94"},
+            {"title": "Class Discord", "link": "https://discord.gg/G86EwxDbv6"}
+        ],
+        "specialThanks": "Special thanks to the members of the Shade Discord for their help in making this overview!",
+        "discord": "https://discord.gg/G86EwxDbv6",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build + Infographic", "Shade Discord"]
+        ],
+        "infographics": [
+            {
+                "src": "shade/shade-6th-job.png",
+                "title": "6th Job",
+                "credit": "Audio",
+                "date": "2026-09-04"
+            }
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Close Call",
+                    "shortDesc": "Fatal Attack Survival Chance: 15%\\n[Passive Effect: Damage +5%]",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/close-call.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Fox Trot",
+                    "shortDesc": "MP Cost: 20. Teleports you to the furthest enemy in range.\\nWhen no enemies are around, you'll be teleported forward 300.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/fox-trot.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmN0ZXdwbmViYjh1ZDR3bjBwdXVzcmg1eW1pdnVzcHU0bmwwb2ljcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fj3rbTZOayNhE7HrGZ/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Teleport to the nearest enemy within range",
+                    "details": [
+                        "If no enemies within range, teleports forward",
+                        "Can be used while casting other skills"
+                    ]
+                },
+                {
+                    "name": "Spirit Bond 1",
+                    "shortDesc": "Recovers 1% HP on direct skill attacks.\\nKnockback Resistance: 100%, Damage Taken: -30%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/spirit-bond-1.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Spirit Affinity",
+                    "shortDesc": "Minion Duration +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/spirit-affinity.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Heart Grown Fonder",
+                    "shortDesc": "MP Cost: 10, summon Shade's guardian spirit.\\nCooldown: 5 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/heart-grown-fonder.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTd2em9ob3Rjb29pcGNqMnY3ODJxdml1MnA4dDJxbmkxaTlyMXlhZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T5yNkMDPjn0IaG54jf/giphy.gif"],
+                    "type": "Toggle Active",
+                    "desc": "Allows you to hide/show the guardian spirit visual effect",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/86/Even_If_You_Forget_Me} title={\"Even If You Forget Me\"}>"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXpxZWJnbzNtdTAzaTBzMmF2NzBtYmpicjBocHFsM210MzRocjBkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FV1ZNftjwLglBhRJLM/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/86/Even_If_You_Forget_Me} title={\"Even If You Forget Me\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Swift Strike",
+                        "shortDesc": "MP Cost: 9, Max Enemies Hit: 4, Damage: 205%, Number of Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/swift-strike.png", "/class-icons/heroes/shade/flash-fist.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnk4cnUxaGl6ZHVkengyZHFndHpkdTRiNzU4emZrdWw4ejNrNzJ2NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wp5xTob2FPrflqbrJL/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward consecutively up to two times",
+                        "details": [
+                            "Completing the Shade storyline upgrades the skill to <tt src={/class-icons/heroes/shade/flash-fist.png} tip={Flash Fist (1st Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Flash Fist",
+                        "shortDesc": "MP Cost: 11, Max Enemies Hit: 4, Damage: 138%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/flash-fist.png"],
+                        "type": "Attack"
+                    },
+                    {
+                        "name": "Vulpes Leap",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/shade/vulpes-leap.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTY4dTV0OGl3NjBlbXNxMW82M3RiZnVzZmVnM3prY2ZuODkzbTN5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oaNqx50AjqPHTfepvZ/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
+                        ]
+                    },
+                    {
+                        "name": "Fox God's Favor",
+                        "shortDesc": "MP Cost: 15, Duration: 200 sec, Attack Speed: +1\\n[Passive Effect: Attack Power: +20, Damage: +10%]",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/heroes/shade/fox-gods-favor.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXo4emw2ZTE0dWlhOHg2cXllcXB6b3N0andveG4wbjR0NXk2dHR5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5ipIObpRbCY7rlEhrL/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Cosmic Balance",
+                        "shortDesc": "Defense: +500, Max HP: +20%,  Max MP: +20%.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/cosmic-balance.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Ground Pound",
+                        "shortDesc": "MP Cost: 18, Max Enemies Hit: 6, Damage: 360%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/ground-pound.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDA5bTNnbzZvaHdhdGRrMDM4bWk0b2s0bm4ycWhvMjJwenkyd3JnZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5sSQxBN8DGsuYD55SX/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward"
+                    },
+                    {
+                        "name": "Fox Spirits",
+                        "shortDesc": "MP Cost: 15, 40% chance to summon Fox Spirits when landing direct skill attacks.\\n10% summon chance when hitting a boss with Bomb Punch.\\nDamage: 120%, Number of Attacks: 2\\nThe spirits disappear after attacking up to 2 times.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/shade/fox-spirits.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm0yY29yam5rNDB1ZHkyZjl0ZTQ2endsbTY1NTM4Yzh0YmRoejZrNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CuWi6uCqceH3n1AhcY/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, successful direct attacks have a chance to create Fox Spirits that seek and attack enemies up to 2 times",
+                        "details": [
+                            "Reduced chance to create Fox Spirits when attacking bosses with <tt src={/class-icons/heroes/shade/bomb-punch.png} tip={Bomb Punch (4th Job)}>",
+                            "Prioritizes bosses with the highest Max HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Blade Imp - Direct",
+                        "shortDesc": "MP Cost: 10, determines Blade Imp's direction\\nCooldown: 2 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/shade/blade-imp-direct.png", "/class-icons/heroes/shade/blade-imp-downward-slash.png", "/class-icons/heroes/shade/blade-imp-forward-slash.png", "/class-icons/heroes/shade/blade-imp-spin-slash.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDF5cWIxb3RxYmE5cTMwa3lmdHF6eW1ueGJxYm1zazFmNWFheGgzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8PKSzTqxyYYhx1WHhY/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Using the Arrow Keys, choose between 3 types of Blade Imp attacks",
+                        "details": [
+                            "[Left - Forward] <tt src={/class-icons/heroes/shade/blade-imp-forward-slash.png} tip={Blade Imp - Forward Slash (2nd Job)}>",
+                            "[Right - Downward] <tt src={/class-icons/heroes/shade/blade-imp-downward-slash.png} tip={Blade Imp - Downward Slash (2nd Job)}>",
+                            "[Up - Spin] <tt src={/class-icons/heroes/shade/blade-imp-spin-slash.png} tip={Blade Imp - Spin Slash (2nd Job)}>",
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/shade/blade-imp-forward-slash.png} tip={Blade Imp - Forward Slash}>"
+                        ]
+                    },
+                    {
+                        "name": "Blade Imp - Forward Slash",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 8, Damage: 155%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/blade-imp-forward-slash.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5ob3Z4ZGwyamZkb2RjeG9ocTltNXAzNmRubGFmMjV4cDRhODJ6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WebNpqFLelgZ9N1g19/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pull enemies in front of you towards you",
+                        "details": [
+                            "All Blade Imp skills share the same Skill Points (SP) and Key Slot"
+                        ]
+                    },
+                    {
+                        "name": "Blade Imp - Downward Slash",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 8, Damage: 155%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/blade-imp-forward-slash.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWswZzRwOG5ncmN0OHphem42em8wNTg4NnI2dTdwbHJ5aTUzcTAwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4CHjAigSDdjbkWf34u/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pull enemies above you down to your platform",
+                        "details": [
+                            "All Blade Imp skills share the same Skill Points (SP) and Key Slot"
+                        ]
+                    },
+                    {
+                        "name": "Blade Imp - Spin Slash",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 8, Damage: 155%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/blade-imp-spin-slash.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGUybGhuYmEwdzJqY2NxdDJqOHc5YmVhOXY5ejBmb2QwaTJwbDZ4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kIqRXZoZQYAeuNmJEz/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Spin to pull surrounding enemies to in front of you",
+                        "details": [
+                            "All Blade Imp skills share the same Skill Points (SP) and Key Slot"
+                        ]
+                    },
+                    {
+                        "name": "Back Step",
+                        "shortDesc": "MP Cost: 10. Moves a certain distance backward.\\n[Passive Effect: Avoidability: +15%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/shade/back-step.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGY3czloZTNjZHV4Ync1MjZidGptMXc2enpkanpkNDVsYmQ1NTRsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2HiZ21eNnhK0BLr0E9/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash backwards",
+                        "details": [
+                            "[Passive]: Permanently increases %Avoidability"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Bond 2",
+                        "shortDesc": "Attack Speed: +2, Speed: +22, Max Speed: +20",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/heroes/shade/spirit-bond-2.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Foxy Courage",
+                        "shortDesc": "Damage: +10%, Critical Rate: +15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/shade/foxy-courage.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +50%, Final Damage: +10%, Critical Rate: +10%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/knuckle-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Strength Training",
+                        "shortDesc": "STR: +60",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Shockwave Punch",
+                        "shortDesc": "MP Cost: 20 per hit\\nHit 1 - Max Enemies Hit: 6, Damage: 350%, Number of Attacks: 4\\nHit 2 - Max Enemies Hit: 8, Damage: 396%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/shockwave-punch.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExems2eng0Nzd3bGh1am04ZjFheDVzczh0eTlsNjQ0c2E5ajY4aWt6MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/75lPpj2zVw9riQgrJJ/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward twice"
+                    },
+                    {
+                        "name": "Spirit Frenzy",
+                        "shortDesc": "MP Cost: 30, summons Spirit Frenzy for 60 sec and periodically deals damage\\nDamage: 210%, Max Enemies Hit: 10, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/spirit-frenzy.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXhidnhvZnNxMnN4amx1ZnZ1aGdkcjE1eGVoZmtnOThpYmJhZWdjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/05SwnhP3pkBiNdGp7P/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a wall of spirits that damage enemies within it",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Trap",
+                        "shortDesc": "MP Cost: 65, creates a trap that lasts for 10 seconds and reguarly deals damage.\\nMax Enemies Hit: 15, Damage: 700%, Number of Attacks: 3\\nAttacked enemies are stunned.\\nStun Duration: +100%, depending on damage inflicted with Spirit Trap.\\nCooldown: 120 sec.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/heroes/shade/spirit-trap.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTdwbHZrcmhuOWJsNnIxZmdhZm1lb3B5cW9sa29pcG12cjJic3d4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vpmpy3eEi71Pa0IxZQ/giphy.gif"],
+                        "type": "Bind Attack",
+                        "desc": "Deploy a trap that binds enemies caught in it"
+                    },
+                    {
+                        "name": "Summon Other Spirit",
+                        "shortDesc": "MP Cost: 150. When hit by an attack that would prove fatal, consumes the buff to deal 450% damage up to 15 enemies 4 times and make you invincible for 3 sec\\nCooldown: 1800 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/shade/summon-other-spirit.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHN2dmJjODJqM3prc2tncmpyZHRoaGNraGt4OWhkcXpmYXNsZTd2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/id54gOxrfviAg6Jqpv/giphy.gif"],
+                        "type": "Toggle Revive Buff",
+                        "desc": "While toggled, when hit by a fatal attack, revive and damage nearby enemies",
+                        "details": [
+                            "You are briefly invincible after reviving",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Bond 3",
+                        "shortDesc": "Final Damage: +15%, Boss Damage: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/spirit-bond-3.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Weaken",
+                        "shortDesc": "Ignore Defense: +20%\\n10% chance for an enervating spirit to possess enemies hit by attacks for 30 seconds.\\nDamage increases by 20% when attacking an enemy possessed by an enervating spirit",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/weaken.png"],
+                        "type": "Passive",
+                        "desc": "Increases %Ignore DEF and grants successful attacks a chance to debuff enemies",
+                        "details": [
+                            "[Debuff]: Enemy takes increased %Damage"
+                        ]
+                    },
+                    {
+                        "name": "Total Harmony",
+                        "shortDesc": "Attack Power: +20, Damage: +20%, Critical Damage: +14%",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/heroes/shade/total-harmony.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Harmonious Defense",
+                        "shortDesc": "Defense: +1500, Status Resistance: +40, Elemental Resistance: +40%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/shade/harmonious-defense.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "Bomb Punch",
+                        "shortDesc": "MP Cost: 20 per hit\\nHit 1 - Max Enemies Hit: 8, Damage 225%, Number of Attacks: 4\\nHit 2 - Max Enemies Hit: 8, Damage: 225%, Number of Attacks: 4\\nHit 3 - Max Enemies Hit: 8, Damage: 225%, Number of Attacks: 4, Stun chance: 100%, Stun Duration: 2 sec\\nAll attacks increases Damage Against Normal Enemies by 192% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/shade/bomb-punch.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjUzdjJobjByZDEyZ2ljeGVkemluajN0dDU1b3lxYW5uZWQ5Ymd1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eM1jae8GtTJaMMF4xq/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Punch forward dealing an explosive attack",
+                        "details": [
+                            "Can be used three times in a row<bp_The third attack stuns enemies hit_>",
+                            "Attack deals increased %Damage against regular monsters by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Claw",
+                        "shortDesc": "MP Cost: 80, Damage: 265%, Number of Attacks: 12, Max Enemies Hit: 3",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/shade/spirit-claw.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHF0a2c4NTl0aW55djJpcnk5a21ucjI5bXRranozNXRleTB2emQ0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jThgWlovjH6PwEB14z/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash forward damaging enemies"
+                    },
+                    {
+                        "name": "Death Mark",
+                        "shortDesc": "MP Cost: 100, Max Enemies Hit: 10, Damage: 600%, Number of Critical Hits: 8\\nDeath Mark: Damage Over Time: 250% damage every 1 sec for 15 sec\\nHP Absorb Amount: 1% of damage dealt\\nCooldown: 60 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/death-mark.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExajJiMjB6Mnl3Z3lxbjc5NGlzd2J0dzAxMm1pYXljMGJibnN0OWtxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RZxYQVAWwwXtgwRogS/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward damaging and debuffing enemies",
+                        "details": [
+                            "[Debuff]: Target takes damage over time and grants HP based on damage dealt by the debuff",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Ward",
+                        "shortDesc": "MP Cost: 55, summons 3 guardian spirits for 30 seconds and creates a barrier.\\nConsumes 1 guardian spirit to nullify a debuff.\\nCooldown: 60 sec\\n[Passive Effect: Activates Spirit Ward again when there are fewer than the maximum of guardian spirits, Cooldown: 100 sec]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/shade/spirit-ward.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWI5bTJwdm10ZmRjeWY4NHM3Z2M1dHBpNDZrbzIxZ3F0eWhyZGNiOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WqYwrxCevyANyaCe0g/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Summons three guardian spirits that block debuffs",
+                        "details": [
+                            "[Passive]: When there are fewer than the maximum guardian spirits, the skill will automatically activate (on a separate cooldown)<bp_Unaffected by cooldown resets_>",
+                            "One guardian spirit is consumed after blocking a debuff"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3ZuZDNkcmloaW1vajZqaDZqa3RsOHRtM250ZnQ3bTkwNDN6YTRyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U7HIjrd6CYjZgvhsSr/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHg5NWd2NHFvbGZ1a3g4c2VyMXp4bHYzcGF0bWpvY2xjZTlmNjcyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZnHJBZeGwYavLJzVgP/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Bond 4",
+                        "shortDesc": "Ignore Defense: +30%, Boss Damage: +30%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/shade/spirit-bond-4.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Heartfelt Communion",
+                        "shortDesc": "Increases Spirit Frenzy attack range, dealing damage periodically. Max Enemies Hit: 10, Damage: 360%, Number of Attacks: 8\\nFox Spirits Damage: +75% points, Max Number of Attacks: +1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/heartfelt-communion.png", "/class-icons/heroes/shade/spirit-frenzy.png", "/class-icons/heroes/shade/fox-spirits.png"],
+                        "animations": [
+                            "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm5rMWVzYTNsc2hkdjhnMm15emJsYWx6ZjdyaXFpb2E1OXRzcGxkbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zpMxijyHBvV4A1W18Y/giphy.gif"
+                        ],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases the attack range and %Damage of <tt src={/class-icons/heroes/shade/spirit-frenzy.png} tip={Spirit Frenzy (3rd Job)}>",
+                            "Increases the %Damage by a flat amount and number of attacks of <tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Advanced Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +70%, Final Damage: +16%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/shade/advanced-knuckle-mastery.png", "/class-icons/common/knuckle-mastery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now increases %Final Damage"
+                        ]
+                    },
+                    {
+                        "name": "Critical Insight",
+                        "shortDesc": "Critical Rate: +10%, Critical Damage: +18%, Final Damage: +10%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/shade/critical-insight.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Skulk Solidarity",
+                        "shortDesc": "Final Damage: +14%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/shade/skulk-solidarity.png"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Spirit Claw - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/spirit-claw-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <tt src={/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}> and <tt src={/class-icons/heroes/shade/true-spirit-claw.png} tip={True Spirit Claw (5th Job)}>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Spirit Claw - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/spirit-claw-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <tt src={/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}> and <tt src={/class-icons/heroes/shade/true-spirit-claw.png} tip={True Spirit Claw (5th Job)}>"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Spirit Claw - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/spirit-claw-extra-strike.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <tt src={/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}> and <tt src={/class-icons/heroes/shade/true-spirit-claw.png} tip={True Spirit Claw (5th Job)}>"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Bomb Punch - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/bomb-punch-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Bomb Punch - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/bomb-punch-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Bomb Punch - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/bomb-punch-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Fox Spirits - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/fox-spirits-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}> and <tt src={/class-icons/heroes/shade/fox-marble-fusion.png} tip={Fox Marble Fusion (Hyper Skill)}>"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Fox Spirits - Repeated Attack Bonus",
+                    "shortDesc": "Repeated Attack Count: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/fox-spirits-repeated-attack-bonus.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}> and <tt src={/class-icons/heroes/shade/fox-marble-fusion.png} tip={Fox Marble Fusion (Hyper Skill)}>"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Fox Spirits - Summon Chance",
+                    "shortDesc": "Summon Chance: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/fox-spirits-summon-chance.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}> and <tt src={/class-icons/heroes/shade/fox-marble-fusion.png} tip={Fox Marble Fusion (Hyper Skill)}>"
+                    ],
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Fox Marble Fusion",
+                    "shortDesc": "MP Cost: 200\\n25% chance to summon 3 Fox Spirits Orbs when landing direct skill attacks for 20 seconds.\\n5% summon chance when hitting a boss with Bomb Punch.\\nSpirit Ward will be automatically activated one time if there are fewer than the maximum number of guardian spirits.\\nFox Spirits Orb: Damage: 158%, Number of Attacks: 2, Disappears after a maximum of 3 attacks\\nFinal Damage reduces by 20% when attack the same enemy multiple times\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/fox-marble-fusion.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXlpdHhsdjUybDA3NWs5cmhyc2V0bngzaTZha3p6YXB4cDI0NGJzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fpRL7QiKrRZ1NQvocZ/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, successful direct attack skills create 3 Fox Spirits Orbs that that seek and attack enemies up to 3 times",
+                    "details": [
+                        "Reduced chance to create Fox Spirits when attacking bosses with <tt src={/class-icons/heroes/shade/bomb-punch.png} tip={Bomb Punch (4th Job)}>",
+                        "Enemies hit by multiple Fox Spirits Orbs take reduced %Final Damage after the first orb",
+                        "When used, grants <tt src={/class-icons/heroes/shade/spirit-ward.png} tip={Spirit Ward (4th Job)}> when there are less than the maximum guardian spirits"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Spirit Incarnation",
+                    "shortDesc": "MP Cost per attack: 50, Can hold key down for up to 8 sec, invincible during casting\\nMax enemies Hit: 15, Damage: 100%, Number of Attacks: 7\\nReduces Cooldown by 5 seconds for every 1 seconds of remaining key hold-down time when the skill ends.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/spirit-incarnation.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjJxN2Y3b2FybDZnaW14Z3JmbDhnMWdsa2ZkcDgzcHJqYWF0cGhhOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SNT6wY0UqEIfB6u8Wk/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, grants invincibility and slash enemies in a large area",
+                    "details": [
+                        "Based on how long the skill was held, the cooldown will be shorter"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to hero classes within the party\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/shade/heroic-memories.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmpvb3hwcHYycHN6MGFtbjVzMHR6NWgxMW4xdjhkanJjeDhobngyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/liRbKCNOEoWEbbB3mr/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["freudsWisdom", "goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Fox God Flash",
+                    "shortDesc": "MP Cost: 1000\\nIncreases Final Damage by 10% for 30 seconds, recovers 100% of max HP every 1 seconds\\nFoxlights activate regularly for 4 seconds while the buff lasts.\\nOnce every 1 seconds, landing an attack will increase the Foxlight activation time by 4 seconds. Foxlights won't activate once their duration expires, even if the buff is ongoing.\\nFoxlight: Max Enemies Hit: 15, Damage: 440%, Number of Attacks: 10\\nCan be activated up to 60 times\\nSkill ends immediately upon recast or using up all remaining Foxlight to activate an attack with Max Enemies Hit: 15, Damage: 330%, Number of attacks: 7, Number of Waves: 4.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/heroes/shade/fox-god-flash.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExajVrdG40Yjg4OWwyOGY1OHdlN3lyamlheXU4NGFkMWgwcm14ODltaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8Xhcz29Sk8vF99MmjN/giphy-downsized-large.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, increases %Final Damage and periodically restores HP and triggers Foxlight attack",
+                    "details": [
+                        "Foxlight only activates for a short period that can be extended by landing successful attacks while active<bp_When the duration ends, Foxlight will stop activating, even if the buff is still active_>",
+                        "Pressing the Skill Key again or upon using all Foxlight will activate a final attack",
+                        "Upon use, resets all skill cooldowns",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Spiritgate",
+                    "shortDesc": "MP Cost: 1000\\nOpens the Spiritgate. Max Enemies Hit: 15, Damage: 275%, Number of Attacks: 10, Energy Explosion Count: 5. Enemies hit by the energy are afflicted by a debuff for 45 seconds.\\nAttacking an enemy afflicted with the debuff increases Critical Damage by 10%.\\nAfterwards, 30 Spirits of Darkness appear to pursue and attack enemies.\\nSpirit of Darkness: Damage: 935%, Number of Attacks: 5\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/heroes/shade/spiritgate.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGV6MDZ4OTNpcXAzbGF2cG92aHZhN2hnMmtpYzgzaTlwbTQzc3luaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rHKMGozUwS81W7nt2V/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash an explosion that debuffs enemies and releases Spirits of Darkness that seek and damage enemies",
+                    "details": [
+                        "[Debuff]: Enemy takes increased %Crit Damage",
+                        "Spirits of Darkness prioritizes bosses with the highest HP in range first",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "True Spirit Claw",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 10, Damage: 880%, Number of Attacks: 12\\nIgnore Defense: +50%, activates when Spirit Claw is used\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/heroes/shade/true-spirit-claw.png", "/class-icons/heroes/shade/spirit-claw.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExajJiZGFnMTZpZm1hNHpocGNjNTY5YmNnbmc4eDNjcnY5eHBvOWJ2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XDTbLyxmIdI6VJY37p/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "Periodically enhances the next <tt src={/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}>",
+                    "details": [
+                        "Enhanced attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Smashing Multipunch",
+                    "shortDesc": "MP Cost: 60 per attack. Can hold key down for up to 1.8 seconds.\\nPeriodically attack up to 10 enemies for 900% damage 10 times.\\nMake 14 shockwave attacks when the key is released, dealing 1760% damage to up to 10 enemies 8 times.\\nDamage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%, Fox Spirit have a 50% chance to appear upon each hit.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/heroes/shade/smashing-multipunch.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFjb2d5MHE0cnBhaGZ0NW44N2NjcGI2enp3b2tmOG5vZ3JmcmlhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cNPff9Bl0OfsD87c0p/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, rapidly punch forward and then unleash a final attack",
+                    "details": [
+                        "Successful punches have a chance to summon <tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}>",
+                        "While casting, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Flash Fist Boost",
+                    "shortDesc": "Flash Fist Final Damage: +420%",
+                    "icons": ["/class-icons/heroes/shade/flash-fist.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ground Pound Boost",
+                    "shortDesc": "Ground Pound Final Damage: +300%",
+                    "icons": ["/class-icons/heroes/shade/ground-pound.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blade Imp Boost",
+                    "shortDesc": "Blade Imp Final Damage: +300%",
+                    "icons": ["/class-icons/heroes/shade/blade-imp-forward-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Fox Spirits Boost",
+                    "shortDesc": "Fox Spirits and Fox Spirits Orb Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/shade/fox-spirits.png", "/class-icons/heroes/shade/fox-marble-fusion.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shockwave Punch Boost",
+                    "shortDesc": "Shockwave Punch Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/shade/shockwave-punch.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spirit Frenzy Boost",
+                    "shortDesc": "Spirit Frenzy Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/shade/spirit-frenzy.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spirit Trap Boost",
+                    "shortDesc": "Spirit Trap Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/shade/spirit-trap.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spirit Redemption Boost",
+                    "shortDesc": "Spirit Redemption's Spirit Guardian Attack Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/shade/summon-other-spirit.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Bomb Punch Boost",
+                    "shortDesc": "Bomb Punch Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/shade/bomb-punch.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spirit Claw Boost",
+                    "shortDesc": "Spirit Claw Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/shade/spirit-claw.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Death Mark Boost",
+                    "shortDesc": "Death Mark Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/shade/death-mark.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spirit Incarnation Boost",
+                    "shortDesc": "Spirit Incarnation Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/shade/spirit-incarnation.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/shade/hexa-spirit-claw.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Spirit Claw",
+                    "shortDesc": "MP Cost: 86, Max Enemies Hit: 4, Damage: 427%, Number of Attacks: 12",
+                    "icons": ["/class-icons/heroes/shade/hexa-spirit-claw.png", "/class-icons/heroes/shade/spirit-claw.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmZhNWxvNWxoYTV0azJpNGI0d2RobmRmdDF1bWdlOHQ5dXl4ZTFkdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H7QW83VQzCy5wWgH6M/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/shade/hexa-fox-spirits.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Fox Spirits",
+                    "shortDesc": "MP Cost: 20, 45% chance to summon Fox Spirits when landing direct skill attacks.\\n10% summon chance when landing a Bomb Punch on a Boss.\\nDamage: 352%, Number of Attacks: 2\\nDisappears after a maximum of 3 attacks.\\n[Passive Effect: HEXA Spirit Claw Damage: +40% points, Fox Marble Fusion Damage: +70% points]",
+                    "icons": ["/class-icons/heroes/shade/hexa-fox-spirits.png", "/class-icons/heroes/shade/fox-spirits.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjZvM3B6eTE1ZmlwaWxqNHMyYW83eGVjcDEwYXJnczRndGptN2c1bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YBAFDFgZnwuVyzTDb5/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/shade/hexa-bomb-punch-death-mark-dusk-blow.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/shade/bomb-punch.png} tip={Bomb Punch (4th Job)}> <tt src={/class-icons/heroes/shade/death-mark.png} tip={Death Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Bomb Punch",
+                    "shortDesc": "MP Cost: 30 per hit\\nHit 1 - Max Enemies Hit: 8, Damage: 401%, Number of Attacks: 4\\nHit 2 - Max Enemies Hit: 8, Damage: 401%, Number of Attacks: 4\\nHit 3 - Max Enemies Hit: 8, Damage: 401%, Number of Attacks: 4, Stun Chance: 100%, Stun Duration: 3 sec.\\nAll attacks increase Damage Against Normal Enemies by 360% points",
+                    "icons": ["/class-icons/heroes/shade/hexa-bomb-punch.png", "/class-icons/heroes/shade/bomb-punch.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTI2anpvNDZsNXFmMjVleXY3NmphbTVhanlqeGFyNXRzOWtqaW9jdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3nvkRtPUuZI9V2mYPR/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Death Mark",
+                    "shortDesc": "MP Cost: 150, Max Enemies Hit: 10, Damage: 1228%, Number of Critical Hits: 8\\nDeath Mark: Damage Over Tiem: 484% damage every 1 sec. for 15 sec.\\nHP Absorb Amount: 1% of damage dealt\\nCooldown: 54 sec.",
+                    "icons": ["/class-icons/heroes/shade/hexa-death-mark.png", "/class-icons/heroes/shade/death-mark.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDRyeW8yMWNkdzUzeGgyeHZvdHB6Z210cjI0dnV4aDRlYml5NHNxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XkNdiR4Rxi7lJFxJMI/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Dusk Blow",
+                    "shortDesc": "MP Cost: 90 per hit, attack up to 3 times by tapping the skill key\\nHit 1 - Max Enemies Hit: 12, Damage: 2230%, Number of Attacks: 10\\nHit 2 - Max Enemies Hit: 12, Damage: 2230%, Number of Attacks: 10\\nHit 3 - Max Enemies Hit: 15, Damage: 605%, Number of Attacks: 11, Number of Strikes: 8\\nWhen Fox Marble Fusion is active, Dusk Blow's cooldown is bypassed 2 times\\nCooldown: 20 sec",
+                    "icons": ["/class-icons/heroes/shade/dusk-blow.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2U0N3ZoaWJiODE1ZXQ3MHl4Mm4xdGdxenN6a3JkazJtYW4yN29ncCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EpH1irLZcGQF6latjH/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/shade/hexa-spirit-frenzy.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/shade/spirit-frenzy.png} tip={Spirit Frenzy (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Spirit Frenzy",
+                    "shortDesc": "MP Cost: 45, summons Spirit Frenzy for 60 sec. and periodically deals damage.\\nDamage: 557%, Max enemies Hit: 10, Number of Attacks: 8\\n[Passive Effect: Spirit Incarnation Damage: 90% (additive), HEXA Spirit Claw Damage: +104% (additive)]",
+                    "icons": ["/class-icons/heroes/shade/hexa-spirit-frenzy.png", "/class-icons/heroes/shade/spirit-frenzy.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm5nZ3hmZTBvNnh1YnYwZWxnbmhpMWZ2djR1N3VnM3F3Ynl2dWQ1diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n6WFGcecJU9qALRZOH/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Advent of the Fox",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15, Damage: 600%, Number of Attacks: 11, Times Attacking Light Appears: 28\\nAfterwards the spirit power explodes outward in 28 shockwaves, dealing 780% damage 13 times.\\n30 Final Blows deal 840% damage with 14 attacks.\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/heroes/shade/advent-of-the-fox.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExazQ2NnB4cGZrNGlwM21yMGVwa2R1MzhoaXh1NWhjeDRtdHo1MTNqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZZf1puR9QRI156JOaS/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Promise Unbroken",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe power of the spirit world seeps through 30 times, dealing 2219% damage to up to 15 enemies 12 times. Then periodically calls upon the spirits to chastise up to 15 enemies.\\nSpirits' Rebuke - Elemental spirits attack 10 times, dealing 1897% damage to up to 8 enemies 10 times\\nThe spirits' rebuke only occurs once per enemy hit.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/heroes/shade/promise-unbroken.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTI4eWZyNGY3eTFwNWpyb3V3bzZuZ2d3N210Nmw2am51ZnU4eGJ2cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FnFJzUMJ982u69I01M/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Fox God Flash Boost",
+                    "shortDesc": "Fox God Flash Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/shade/fox-god-flash.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Spiritgate Boost",
+                    "shortDesc": "Spiritgate Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/shade/spiritgate.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "True Spirit Claw Boost",
+                    "shortDesc": "True Spirit Claw Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/shade/true-spirit-claw.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Smashing Multipunch Boost",
+                    "shortDesc": "Smashing Multipunch Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/shade/smashing-multipunch.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Spirit Frenzy - 3rd Job",
+                "icons": ["/class-icons/heroes/shade/spirit-frenzy.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm5rMWVzYTNsc2hkdjhnMm15emJsYWx6ZjdyaXFpb2E1OXRzcGxkbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zpMxijyHBvV4A1W18Y/giphy.gif"]
+            },
+            {
+                "name": "Bomb Punch - 4th Job",
+                "icons": ["/class-icons/heroes/shade/bomb-punch.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjUzdjJobjByZDEyZ2ljeGVkemluajN0dDU1b3lxYW5uZWQ5Ymd1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eM1jae8GtTJaMMF4xq/giphy.gif"]
+            },
+            {
+                "name": "Spirit Claw - 4th Job",
+                "icons": ["/class-icons/heroes/shade/spirit-claw.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHF0a2c4NTl0aW55djJpcnk5a21ucjI5bXRranozNXRleTB2emQ0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jThgWlovjH6PwEB14z/giphy.gif"]
+            },
+            {
+                "name": "Spirit Incarnation - Hyper Skill",
+                "icons": ["/class-icons/heroes/shade/spirit-incarnation.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjJxN2Y3b2FybDZnaW14Z3JmbDhnMWdsa2ZkcDgzcHJqYWF0cGhhOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SNT6wY0UqEIfB6u8Wk/giphy.gif"]
+            },
+            {
+                "name": "Fox God Flash - 5th Job",
+                "icons": ["/class-icons/heroes/shade/fox-god-flash.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExajVrdG40Yjg4OWwyOGY1OHdlN3lyamlheXU4NGFkMWgwcm14ODltaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8Xhcz29Sk8vF99MmjN/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Spiritgate - 5th Job",
+                "icons": ["/class-icons/heroes/shade/spiritgate.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGV6MDZ4OTNpcXAzbGF2cG92aHZhN2hnMmtpYzgzaTlwbTQzc3luaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rHKMGozUwS81W7nt2V/giphy.gif"]
+            },
+            {
+                "name": "Smashing Multipunch - 5th Job",
+                "icons": ["/class-icons/heroes/shade/smashing-multipunch.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFjb2d5MHE0cnBhaGZ0NW44N2NjcGI2enp3b2tmOG5vZ3JmcmlhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cNPff9Bl0OfsD87c0p/giphy.gif"]
+            },
+            {
+                "name": "Advent of the Fox - 6th Job",
+                "icons": ["/class-icons/heroes/shade/advent-of-the-fox.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExazQ2NnB4cGZrNGlwM21yMGVwa2R1MzhoaXh1NWhjeDRtdHo1MTNqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZZf1puR9QRI156JOaS/giphy.gif"]
+            },
+            {
+                "name": "Promise Unbroken - 6th Job",
+                "icons": ["/class-icons/heroes/shade/promise-unbroken.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTI4eWZyNGY3eTFwNWpyb3V3bzZuZ2d3N210Nmw2am51ZnU4eGJ2cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FnFJzUMJ982u69I01M/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Shade is a STR pirate class part of the Heroes class group. Shade utilize Knuckles as their primary weapons. For their secondary weapon, Shade can equip Fox Marbles"
+}

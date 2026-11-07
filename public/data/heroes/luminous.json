@@ -1,0 +1,1135 @@
+{
+    "class": "Luminous",
+    "content": {
+        "classGroup": "Heroes",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["shiningRod"]},
+            {"secondary": ["orb"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Chance to Skip Cooldown +10% / Boss Damage +10%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Number of enemies hit by multi-target skills +1", "Meso Obtained +15%", "Item Drop Rate +15%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/heroes/luminous/agile-magic.png} tip={Agile Magic (2nd Job)} val={+2}> <bg src={/class-icons/heroes/luminous/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/heroes/luminous/magic-mastery.png} tip={Magic Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+80(135) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/heroes/luminous/inner-light.png} tip={Inner Light (Beginner Skill)} val={+20}> <bg src={/class-icons/heroes/luminous/agile-magic.png} tip={Agile Magic (2nd Job)} val={+20}> <bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+55}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+4% +110(135)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/heroes/luminous/black-blessing.png} tip={Black Blessing (2nd Job)} val={+30}> <bg src={/class-icons/heroes/luminous/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+10}> <bg src={/class-icons/heroes/luminous/photic-meditation.png} tip={Photic Meditation (3rd Job)} val={+40}> <bg src={/class-icons/heroes/luminous/magic-mastery.png} tip={Magic Mastery (4th Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/heroes/luminous/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+20%}> <bg src={/class-icons/heroes/luminous/magic-mastery.png} tip={Magic Mastery (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+18%",
+                "detail": "<bg src={/class-icons/heroes/luminous/magic-mastery.png} tip={Magic Mastery (4th Job)} val={+18%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+59%(89%)",
+                "detail": "<bg src={/class-icons/link-skills/light-wash.png} tip={Light Wash (Link Skill)} val={+4%}> <bg src={/class-icons/heroes/luminous/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+15%}> <bg  src={/class-icons/heroes/luminous/dark-crescendo.png} tip={Dark Crescendo (4th Job)} val={+8% per stack} val={(Max. +40%)}> <bg type={temp} src={/class-icons/heroes/luminous/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+15%(40%)",
+                "detail": "<bg src={/class-icons/heroes/luminous/twilight-nova-1.png} tip={Twilight Nova - Passive (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+86.2%(111.15%)",
+                "detail": "<bg src={/class-icons/heroes/luminous/twilight-nova-1.png} tip={Twilight Nova - Passive (4th Job)} val={+33%}> × <bg src={/class-icons/heroes/luminous/arcane-pitch.png} tip={Arcane Pitch - Passive (4th Job)} val={+40%}> × <bg type={temp} src={/class-icons/heroes/luminous/light-affinity.png} tip={Light Affinity (1st Job)} src={/class-icons/heroes/luminous/dark-affinity.png} tip={Dark Affinity (1st Job)} val={+5% to light or dark magic} val={based on choice made}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "[Lv. 2 Link Skill]: +49% [Lv. 3 Link Skill]: +52%",
+                "detail": "<bg src={/class-icons/heroes/luminous/arcane-pitch.png} tip={Arcane Pitch - Passive (4th Job)} val={+40%}> × <bg  src={/class-icons/link-skills/light-wash.png} tip={Light Wash (Link Skill)} val={Lv. 2: +15%} val={Lv. 3: +20%}>"
+            },
+            {
+                "name": "Ignore Elemental Resistance",
+                "stat": "+10%",
+                "detail": "<bg src={/class-icons/heroes/luminous/arcane-pitch.png} tip={Arcane Pitch (4th Job)} val={+10%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/heroes/luminous/photic-meditation.png} tip={Photic Meditation (3rd Job)} dur={[180s]}> <tt src={/class-icons/heroes/luminous/arcane-pitch.png} tip={Arcane Pitch (4th Job)} dur={[180s]}>",
+            "toggles": "<tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
+            "summons": "<tt src={/class-icons/heroes/luminous/gate-of-light.png} tip={Gate of Light (5th Job)} dur={[30s](Usable only in Equilibrium)}> <tt src={/class-icons/heroes/luminous/liberation-orb.png} tip={Liberation Orb (5th Job)} dur={[40s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/heroes/luminous/equilibrium-liberation.png} tip={Equilibrium Liberation (2nd Job)} dur={[30s](60s cd)}> <tt src={/class-icons/heroes/luminous/shadow-shell.png} tip={Shadow Shell (3rd Job)} dur={[7 Critical Abnormal Statuses](240s cd)}> <tt src={/class-icons/heroes/luminous/equalize.png} tip={Equalize (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/heroes/luminous/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s per stack](240s cd, 25s cd between each stack)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/heroes/luminous/armageddon.png} tip={Armageddon (Hyper Skill)} dur={[10s](120s cd)}> <tt src={/class-icons/heroes/luminous/harmonic-paradox.png} tip={Harmonic Paradox (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/heroes/luminous/lights-umbra.png} tip={Light's Umbra (3rd Job)} dur={[3s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s](240s cd)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/heroes/luminous/harmonic-paradox.png} tip={Harmonic Paradox (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/heroes/luminous/aether-conduit.png} tip={Aether Conduit (5th Job)} dur={[1s / 41 Attacks](-50% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id":80000005,
+            "icons": ["/class-icons/link-skills/light-wash.png"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/heroes/luminous/standard-magic-guard.png} tip={Standard Magic Guard}> -> <tt src={/class-icons/heroes/luminous/light-speed.png} tip={Light Speed}> -> <tt src={/class-icons/heroes/luminous/mana-well.png} tip={Mana Well}> -> <tt src={/class-icons/heroes/luminous/flash-shower.png} tip={Flash Shower}> -> <tt src={/class-icons/heroes/luminous/abyssal-drop.png} tip={Abyssal Drop}>"],
+                ["2nd Job", "<tt src={/class-icons/common/high-wisdom.png} tip={High Wisdom}> -> <tt src={/class-icons/heroes/luminous/spell-mastery.png} tip={Spell Mastery}> -> <tt src={/class-icons/heroes/luminous/agile-magic.png} tip={Agile Magic}> -> <tt src={/class-icons/heroes/luminous/black-blessing.png} tip={Black Blessing}> -> <tt src={/class-icons/heroes/luminous/sylvan-lance.png} tip={Sylvan Lance}> -> <tt src={/class-icons/heroes/luminous/pressure-void.png} tip={Pressure Void}> -> <tt src={/class-icons/heroes/luminous/blinding-pillar.png} tip={Blinding Pillar}>"],
+                ["3rd Job", "<tt src={/class-icons/heroes/luminous/self-recovery.png} tip={Self Recovery}> -> <tt src={/class-icons/heroes/luminous/dusk-guard.png} tip={Dusk Guard}> -> <tt src={/class-icons/heroes/luminous/shadow-shell.png} tip={Shadow Shell}> -> <tt src={/class-icons/heroes/luminous/photic-meditation.png} tip={Photic Meditation}> -> <tt src={/class-icons/heroes/luminous/spectral-light.png} tip={Spectral Light}> -> <tt src={/class-icons/heroes/luminous/moonlight-spear.png} tip={Moonlight Spear}> -> <tt src={/class-icons/heroes/luminous/death-scythe.png} tip={Death Scythe}> -> <tt src={/class-icons/heroes/luminous/ray-of-redemption.png} tip={Ray of Redemption}> -> <tt src={/class-icons/heroes/luminous/lights-umbra.png} tip={Light's Umbra}>"],
+                ["4th Job", "<tt src={/class-icons/heroes/luminous/darkness-mastery.png} tip={Darkness Mastery}> -> <tt src={/class-icons/heroes/luminous/magic-mastery.png} tip={Magic Mastery}> -> <tt src={/class-icons/heroes/luminous/arcane-pitch.png} tip={Arcane Pitch}> -> <tt src={/class-icons/heroes/luminous/twilight-nova-1.png} tip={Twilight Nova}> -> <tt src={/class-icons/heroes/luminous/dark-crescendo.png} tip={Dark Crescendo}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/heroes/luminous/reflection.png} tip={Reflection}> -> <tt src={/class-icons/heroes/luminous/apocalypse.png} tip={Apocalypse}> -> <tt src={/class-icons/heroes/luminous/ender.png} tip={Ender}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/heroes/luminous/reflection-spread.png} tip={Reflection - Reinforce}> <tt src={/class-icons/heroes/luminous/reflection-range-up.png} tip={Reflection - Reinforce}> Reflection - Spread and Range Up_<tt src={/class-icons/heroes/luminous/apocalypse-reinforce.png} tip={Apocalypse - Reinforce}> Apocalypse - Reinforce_<tt src={/class-icons/heroes/luminous/ender-reinforce.png} tip={Ender - Reinforce}> <tt src={/class-icons/heroes/luminous/ender-range-up.png} tip={Ender - Range Up}> Ender - Reinforce and Range Up_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/heroes/luminous/reflection.png} tip={Reflection (4th Job)}> <tt src={/class-icons/heroes/luminous/twilight-nova-1.png} tip={Twilight Nova (4th Job)}> <tt src={/class-icons/heroes/luminous/apocalypse.png} tip={Apocalypse (4th Job)}> <tt src={/class-icons/heroes/luminous/ender.png} tip={Ender (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good",
+                    "3 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/heroes/luminous/ender.png} tip={Ender (4th Job)}> <tt src={/class-icons/heroes/luminous/death-scythe.png} tip={Death Scythe (3rd Job)}>",
+                "<tt src={/class-icons/heroes/luminous/reflection.png} tip={Reflection (4th Job)}>",
+                "<tt src={/class-icons/heroes/luminous/apocalypse.png} tip={Apocalypse (4th Job)}>",
+                "<tt src={/class-icons/heroes/luminous/twilight-nova-1.png} tip={Twilight Nova (4th Job)}> <tt src={/class-icons/heroes/luminous/ray-of-redemption.png} tip={Ray of Redemption (3rd Job)}> <tt src={/class-icons/heroes/luminous/armageddon.png} tip={Armageddon (Hyper Skill)}>",
+                "<tt src={/class-icons/heroes/luminous/flash-shower.png} tip={Flash Shower (1st Job)}> <tt src={/class-icons/heroes/luminous/abyssal-drop.png} tip={Abyssal Drop (1st Job)}> <tt src={/class-icons/heroes/luminous/spectral-light.png} tip={Spectral Light (3rd Job)}> <tt src={/class-icons/heroes/luminous/moonlight-spear.png} tip={Moonlight Spear (3rd Job)}>",
+                "<tt src={/class-icons/heroes/luminous/pressure-void.png} tip={Pressure Void (2nd Job)}> <tt src={/class-icons/heroes/luminous/sylvan-lance.png} tip={Sylvan Lance (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Luminous"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%A3%A8%EB%AF%B8%EB%84%88%EC%8A%A4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/KBpPTtae6P"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1g4C1Sw5Xfdc0QD_w9gkyZN_EvW3n4_j_1Whq8z-iNEY"}
+        ],
+        "infographics": [
+            {
+                "src": "luminous/luminous-overview.png",
+                "title": "Overview",
+                "credit": "EbonSol",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "luminous/luminous-6th-job.png",
+                "title": "6th Job",
+                "credit": "Luminous Discord",
+                "date": "2026-06-25"
+            }
+        ],
+        "discord": "https://discord.gg/KBpPTtae6P",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Luminous Discord"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Equilibrium",
+            "content": [
+                "Luminous has two types of states and skills, Light and Dark. When Luminous uses skills matching the state, the skills are empowered. The state is indicated by <tt src={/class-icons/heroes/luminous/sunfire.png} tip={Sunfire (Beginner Skill)}> Light and <tt src={/class-icons/heroes/luminous/eclipse.png} tip={Eclipse (Beginner Skill)}> Dark",
+                "In 2nd Job, using <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}> Equilibrium Liberation temporarily enters Equilibrium state that grants effects of Light and Dark state and can use Equilibrium skills with no cooldowns",
+                "<bp_During <tt src={/class-icons/heroes/luminous/sunfire.png} tip={Sunfire (Beginner Skill)}> Light mode, Light skills deal additional hits per attack and restore some %Max HP_During <tt src={/class-icons/heroes/luminous/eclipse.png} tip={Eclipse (Beginner Skill)}> Dark mode, Dark skills deal additional hits per attack and cost 0 MP_>",
+                "<tt src={/class-icons/heroes/luminous/light-affinity.png} tip={Light Affinity (1st Job)}> <tt src={/class-icons/heroes/luminous/dark-affinity.png} tip={Dark Affinity (1st Job)}> [Light and Dark Affinity]",
+                "Based on a choice you make, you can choose between Light or Dark magic to gain a passive %Final Damage boost. If you skip the beginning cutscenes, you will automatically receive <tt src={/class-icons/heroes/luminous/dark-affinity.png} tip={Dark Affinity (1st Job)}> Dark Affinity",
+                "In 4th Job, you will gain a special skill called <tt src={/class-icons/heroes/luminous/the-crossroads-of-destiny.png} tip={The Crossroads of Destiny (4th Job)}> The Crossroads of Destiny that allows you to switch between Light and Dark Affinity but has a long cooldown"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Light Wash",
+                    "shortDesc": "Ignore Defense: +20%, Damage: +4%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/light-wash.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Sunfire",
+                    "shortDesc": "Light skills deal an additional hit dealing 50% of Final Damage and restoring 1% of your base HP per cast.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/sunfire.png"],
+                    "type": "Light Passive",
+                    "desc": "",
+                    "details": [
+                        "Available only in Light mode"
+                    ]
+                },
+                {
+                    "name": "Eclipse",
+                    "shortDesc": "Dark skills deal an additional hit proportional to the number of attacks that is 50% of final damage and use 0 MP.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/eclipse.png"],
+                    "type": "Dark Passive",
+                    "desc": "",
+                    "details": [
+                        "Available only in Dark mode",
+                        "Right-clicking the skill will toggle the visual effect ON/OFF"
+                    ]
+                },
+                {
+                    "name": "Equilibrium",
+                    "shortDesc": "Knockback Resistance +100% for 20 sec.\\nWhen using light and dark spells, delivers an additional attack inflicting 50% of Final Damage for each hit.\\nWhen Equilibrium is active, delivers an additional attack inflicting 100% of Final Damage for each hit. Ignores all cooldowns.\\nDark spells cost 0 MP. Light spells restore 1% of HP.\\nThe total number of hits cannot exceed 15 for both Light and Dark attacks.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/equilibrium.png"],
+                    "type": "Passive",
+                    "desc": "While in Equilibrium mode, receive only 1 HP damage from non-fixed damage attacks and gain 100% Knockback Resistance",
+                    "details": [
+                        "Additionally, gain both the effects of <tt src={/class-icons/heroes/luminous/sunfire.png} tip={Sunfire (Beginner Skill)}> and <tt src={/class-icons/heroes/luminous/eclipse.png} tip={Eclipse (Beginner Skill)}><bp_Equilibrium skills have no cooldown and deal additional hits per attack_>",
+                        "Unaffected by %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "Inner Light",
+                    "shortDesc": "Willpower Lv. 20, Insight Lv. 20, INT +20, more MP increased from leveling, permanent immunity to the Darkness status.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/inner-light.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Flash Blink",
+                    "shortDesc": "MP Cost: 40. Teleport to a random location on the field.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/flash-blink.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY21oYXVxcmpsbHVld3hxcmpzMnhvNW1wZ25namVwenZpaHJnYmlqNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r0fGBrIAg9OU0xniux/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHdoeTR6enFwZnZ3bmxzZnA0OWNjZmZqNW14NXpwODYxYjRiODlyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHhyt6no91NPrvjazZ/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Teleports to a random location on the map",
+                    "details": [
+                        "If there is an enemy nearby, teleport to the nearest enemy"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmpneWZrZHk4azFmaGZoZnI1YTZhM2J0NmU2ZGwxN2Vib3Rkajg1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qMLJPlDg74M9LgE9CZ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/12/Lania%27s_Distress} title={\"Lania's Distress\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Flash Shower",
+                        "shortDesc": "MP Cost: 21. Max Enemies Hit: 5, Damage: 280%.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/flash-shower.png"],
+                        "animations": ["https://media2.giphy.com/media/Q7v5rUthVnh6g9ipgb/giphy.gif"],
+                        "type": "Light Attack",
+                        "desc": "Cast a piercing projectile forward"
+                    },
+                    {
+                        "name": "Abyssal Drop",
+                        "shortDesc": "MP Cost: 22, Damage: 107%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/abyssal-drop.png"],
+                        "animations": ["https://media1.giphy.com/media/lRYO2jpGdodihUKtwq/giphy.gif"],
+                        "type": "Dark Attack",
+                        "desc": "Cast crystals that drop in front of you"
+                    },
+                    {
+                        "name": "Light Speed",
+                        "shortDesc": "Light Speed: MP Cost: 20, Horizontal Teleport: 190, Vertical Teleport: 320\\nLight Leap: Consume 25 MP to jump up. Can be linked with Light Speed 1 time without a platform before landing. After learning Darkness Mastery, can also be linked during Equilibrium.\\n[Passive Effects: Speed: +22, Jump: +10, Max Speed: +20]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/light-speed.png"],
+                        "animations": ["https://media2.giphy.com/media/Q7X0aJa40GBMJ84KvY/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleport in the direction you are moving with your Arrow Keys",
+                        "details": [
+                            "[Passive]: Increases Movement Speed and Jump",
+                            "Pressing the Up Arrow Key and Jump Key together in the air will perform an Up Jump<bp_This skill can be used without a platform once before landing_>",
+                            "You are briefly immune to touch damage after teleporting",
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "name": "Standard Magic Guard",
+                        "shortDesc": "85% of damage affects MP instead of HP. If your MP reaches 0, your HP takes full damage.\\nDefense: +150",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/standard-magic-guard.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Mana Well",
+                        "shortDesc": "Max MP: +30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/mana-well.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Light Affinity",
+                        "shortDesc": "Increase light magic's final damage by 5%",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/heroes/luminous/light-affinity.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "You will receive either the Light or Dark version depending on your decision"
+                        ]
+                    },
+                    {
+                        "name": "Dark Affinity",
+                        "shortDesc": "Increase dark magic's final damage by 5%",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/heroes/luminous/dark-affinity.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "You will receive either the Light or Dark version depending on your decision"
+                        ]
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Equilibrium Liberation",
+                        "shortDesc": "Equilibrium status begins.\\nCooldown: 60 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/luminous/equilibrium-liberation.png"],
+                        "type": "Active",
+                        "desc": "Activate Equilibrium state",
+                        "details": [
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Sylvan Lance",
+                        "shortDesc": "MP Cost: 31. Max Enemies Hit: 8, Damage: 115%, Number of Attacks: 4.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/sylvan-lance.png"],
+                        "animations": ["https://media0.giphy.com/media/gfleBGkbBLtf6PtszN/giphy.gif"],
+                        "type": "Light Attack",
+                        "desc": "Fire several homing projectiles forward"
+                    },
+                    {
+                        "name": "Blinding Pillar",
+                        "shortDesc": "MP Cost: 15, Max Enemies Hit: 10, Distance: 350, Knockback Chance: 100%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/blinding-pillar.png"],
+                        "animations": ["https://media2.giphy.com/media/Qsa01Q7EEWyhM43TG6/giphy.gif"],
+                        "type": "Light Active",
+                        "desc": "Create a pillars of light around you that pushes enemies back and has a chance to stun"
+                    },
+                    {
+                        "name": "Pressure Void",
+                        "shortDesc": "MP Cost per attack: 15, Attack 8 enemies for 168% damage. Steer by holding the skill key and moving left and right. Maximum range of 350 to the left and right.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/pressure-void.png"],
+                        "animations": ["https://media1.giphy.com/media/XGgGnMmdb2ib31yt5u/giphy.gif"],
+                        "type": "Key-down Dark Attack",
+                        "desc": "Whild held, creates an orb that damages nearby enemies",
+                        "details": [
+                            "Can be directed by pressing the Left or Right Arrow Keys"
+                        ]
+                    },
+                    {
+                        "name": "Black Blessing",
+                        "shortDesc": "Magic ATT: +30, Damage Taken: -50%.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/black-blessing.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Agile Magic",
+                        "shortDesc": "Attack Speed: +2, INT: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/agile-magic.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: 50%, Magic ATT: +10, Damage: +15%, Critical Rate: +20%, Attack Speed: +1",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/spell-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/common/high-wisdom.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Light Speed Boost",
+                        "shortDesc": "Light Speed Horizontal Movement +65",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/luminous/light-speed-boost.png"],
+                        "type": "Passive",
+                        "desc": "Increases the horizontal teleport distance of <tt src={/class-icons/heroes/luminous/light-speed.png} tip={Light Speed (1st Job)}>"
+                    },
+                    {
+                        "name": "Light's Umbra",
+                        "shortDesc": "MP Cost: 50, Invincibility Duration: 3 sec.\\nCooldown: 120 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/lights-umbra.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2J0bG5la3ZrOHU1d3gydHBtM3lqczVucTZhYWI4d2lobmQzeXo3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lxYZ4XXiMaCNxkOQ6e/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When used, briefly become invincible",
+                        "details": [
+                            "Unaffected by cooldown resets and %Buff Duration"
+                        ]
+                    },
+                    {
+                        "name": "Spectral Light",
+                        "shortDesc": "MP Cost per attack: 20. Max Enemies Hit: 8, Damage: 121%, Number of Attacks: 4.\\nSteer the beams by holding the skill key and pressing Up or Down.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/spectral-light.png"],
+                        "animations": ["https://media2.giphy.com/media/Vh2w21nbnKEnTUGTSZ/giphy.gif"],
+                        "type": "Key-down Light Attack",
+                        "desc": "Whild held, fire a controllable beam of light",
+                        "details": [
+                            "Can be directed by pressing the Up or Down Arrow Keys",
+                            "Pressing Left or Right will change the direction you fire"
+                        ]
+                    },
+                    {
+                        "name": "Ray of Redemption",
+                        "shortDesc": "MP Cost: 41, Damage: 180%, Number of Attacks: 3, Max Enemies Hit: 6, Recovery: 800%\\nCooldown: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/ray-of-redemption.png"],
+                        "animations": ["https://media2.giphy.com/media/UWWFIHo24QnP7X4IoD/giphy.gif"],
+                        "type": "Light Attack / Heal",
+                        "desc": "Shine a light in front of you that damages enemies and heals nearby party members"
+                    },
+                    {
+                        "name": "Moonlight Spear",
+                        "shortDesc": "MP Cost: 75, Damage: 371%, Number of Attacks: 2, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/moonlight-spear.png"],
+                        "animations": ["https://media3.giphy.com/media/WQ0woueuBbLT8MVmAB/giphy.gif"],
+                        "type": "Dark Attack",
+                        "desc": "Launch spears beneath nearby enemies"
+                    },
+                    {
+                        "name": "Death Scythe",
+                        "shortDesc": "MP Cost: 120, Damage: 230%, Number of Attacks: 6, Max Enemies Hit: 10\\nCooldown: 24 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/luminous/death-scythe.png"],
+                        "animations": ["https://media2.giphy.com/media/XI7qHV82pEcZXBSoiF/giphy.gif"],
+                        "type": "Equilibrium Attack",
+                        "desc": "Cast two reapers from opposite sides that dash towards each other",
+                        "details": [
+                            "During <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, skill has no cooldown"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Shell",
+                        "shortDesc": "MP Cost: 200. Ignore debilitating status conditions 7 times. Cooldown: 240 sec when broken.\\n[Passive Effect: Increases Elemental Resistance by 40% and Abnormal Status Resistance by 40, Knockback Resistance: +40%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/shadow-shell.png"],
+                        "animations": ["https://media0.giphy.com/media/pEGDbQn2Ap5KUXaOXX/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a shell that blocks up to 7 Critical Abnormal Statuses",
+                        "details": [
+                            "[Passive]: Increases Abnormal Status Resistance, %Elemental Resistance, and Knockback Resistance"
+                        ]
+                    },
+                    {
+                        "name": "Photic Meditation",
+                        "shortDesc": "MP Cost: 55. Duration: 180 sec. Increases you and your party members' Magic ATT by 40.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/photic-meditation.png"],
+                        "animations": ["https://media3.giphy.com/media/FlnqMz4CshbDh3b9aM/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "name": "Dusk Guard",
+                        "shortDesc": "DEF: +300, Ignore Damage Chance: 20%\\nKnockback Resistance: +40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/dusk-guard.png"],
+                        "type": "Passive",
+                        "desc": "Increases %Knockback Resistance, grants flat DEF, and a chance to ignore an enemy attack"
+                    },
+                    {
+                        "name": "Self Recovery",
+                        "shortDesc": "Recovers 2.0% of Max HP and Max MP periodically.\\nMP Absorb Chance: 30%, Amount Absorbed: 5% of Max MP\\nAmount Absorbed: 3% of the boss's Max MP",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/heroes/luminous/self-recovery.png"],
+                        "type": "Passive",
+                        "desc": "Periodically restores %Max HP/MP and grants a chance for attacks to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Effectiveness is reduced for bosses"
+                        ]
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "The Crossroads of Destiny",
+                        "shortDesc": "Cooldown: 6 hrs",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/luminous/the-crossroads-of-destiny.png"],
+                        "type": "Light Attack",
+                        "desc": "Allows you to swap between <tt src={/class-icons/heroes/luminous/light-affinity.png} tip={Light Affinity (1st Job)}> and <tt src={/class-icons/heroes/luminous/dark-affinity.png} tip={Dark Affinity (1st Job)}>"
+                    },
+                    {
+                        "name": "Reflection",
+                        "shortDesc": "MP Cost: 81, Damage: 650%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/luminous/reflection.png"],
+                        "animations": ["https://media2.giphy.com/media/fX2ByunZXtlJpm0ObT/giphy.gif"],
+                        "type": "Light Attack",
+                        "desc": "Release a beam of light that bounces to nearby enemies",
+                        "details": [
+                            "Damage is reduced per each bounce of the beam"
+                        ]
+                    },
+                    {
+                        "name": "Apocalypse",
+                        "shortDesc": "MP Cost: 100, Max Enemies Hit: 8, Number of Attacks: 7, Damage: 340%.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/luminous/apocalypse.png"],
+                        "animations": ["https://media1.giphy.com/media/eiMKUGCwyyP0bUNx9t/giphy.gif"],
+                        "type": "Dark Attack",
+                        "desc": "Unleash a burst of void energy in front of you"
+                    },
+                    {
+                        "name": "Ender",
+                        "shortDesc": "MP Cost: 49, Max Enemies Hit: 2. Damage: 455%, Number of Attacks: 7\\nAdditional Critical rate: 100%, Additional DEF ignored: 40%\\nCooldown: 12 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/luminous/ender.png"],
+                        "animations": ["https://media3.giphy.com/media/U50b0uz6IPnKuI7nyl/giphy.gif"],
+                        "type": "Equilibrium Attack",
+                        "desc": "Strike down with a giant blade on up to 2 enemies",
+                        "details": [
+                            "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
+                            "During <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, skill has no cooldown"
+                        ]
+                    },
+                    {
+                        "name": "Twilight Nova",
+                        "shortDesc": "MP Cost: 80, Max Enemies Hit: 8\\nSunfire - Damage: 1200%, Number of Attacks: 7\\nEclipse - Damage: 1200%, Number of Attacks: 7\\nEquilibrium - Damage: 450%, Number of Attacks: 6, Number of Explosions: 3\\nCooldown: 15 sec\\n[Passive Effect: Final Damage +33%, Boss Damage: +15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/luminous/twilight-nova-1.png", "/class-icons/heroes/luminous/twilight-nova-2.png", "/class-icons/heroes/luminous/twilight-nova-3.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJzMHdsdW12N3g3OGpibTJ3YmFjNGFoczV4bHhqbHlvbTdoM3N2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pkQsm9yqUVb1SThYXm/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5jOTFrYmQ2cWV1ZXlncGxrZWUzY2wxeHp2dng1MWM3NHA2MTdpNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BsdzGOgPGvWqLTpW2B/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm9ydHlrc2tybjNyNXRlMnQ3bjZoY2U1bmY5ZjEyOXhyNWE1Z25ucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CKgMpNXa5y9mR0Pr6w/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Release an explosion that damages surrounding enemies",
+                        "details": [
+                            "[Passive]: Permanently increases %Final Damage and %Boss Damage",
+                            "Based on current mode, attack will have Light, Dark, or Equilibrium affinity<bp_Skill will still have a cooldown during <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}> Equilibrium mode_>",
+                            "Can be used without a casting animation during <tt src={/class-icons/heroes/luminous/aether-conduit.png} tip={Aether Conduit (5th Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Arcane Pitch",
+                        "shortDesc": "MP Cost: 85, Ignored Monster Elemental Resistance 10%, Duration: 180 sec\\n[Passive: Final damage +40%, Ignore Defense: 40%, Knockback Resistance: +60%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/luminous/arcane-pitch.png"],
+                        "animations": ["https://media0.giphy.com/media/MRVVpHe45agKIOOq6t/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Dark Crescendo",
+                        "shortDesc": "When direct skill attacks hit, there is a 80% chance to increase damage by 8% for 30 secs. Can stack up to 5 times",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/luminous/dark-crescendo.png"],
+                        "type": "Passive",
+                        "desc": "Successful direct skill attacks have a chance to grant a stacking %Damage buff"
+                    },
+                    {
+                        "name": "Magic Mastery",
+                        "shortDesc": "Mastery: +70%\\nMagic ATT: +30, Critical Rate: +15%, Critical Damage: +18%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/luminous/magic-mastery.png", "/class-icons/heroes/luminous/spell-mastery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants Magic Attack and increases %Crit Rate and %Crit Damage"
+                        ]
+                    },
+                    {
+                        "name": "Darkness Mastery",
+                        "shortDesc": "Equilibrium Duration: +10 sec.\\nCan use Light Speed up to 2 times in the air while Equilibrium is active.\\nDeath Scythe Damage: +100%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/luminous/darkness-mastery.png"],
+                        "type": "Passive",
+                        "desc": "Increases the duration of <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}> Equilibrium mode",
+                        "details": [
+                            "During <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, you can use <tt src={/class-icons/heroes/luminous/light-speed.png} tip={Light Speed (1st Job)}> up to 2 times in the air",
+                            "Additionally increases %Damage of <tt src={/class-icons/heroes/luminous/death-scythe.png} tip={Death Scythe (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/3GNbc7FaL6VoudaYbK/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/H5NvhhbSGxTAPtHOYA/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Reflection - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/reflection-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Reflection - Spread",
+                    "shortDesc": "Increases split damage reduction rate to 0%.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/reflection-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Reflection - Range Up",
+                    "shortDesc": "Range +50",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/reflection-range-up.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Apocalypse - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/apocalypse-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Apocalypse - Critical Rate",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/apocalypse-critical-rate.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Apocalypse - Extra Target",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/apocalypse-extra-target.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Ender - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/ender-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Ender - Extra Target",
+                    "shortDesc": "Max Enemies Hit: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/ender-extra-target.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Ender - Range Up",
+                    "shortDesc": "Range 40",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/ender-range-up.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Equalize",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec. While the skill is active, upon landing a direct attack, 50% chance to trigger a Torrent of Fate with Damage: 950%, Number of Attacks: 8\\nDuring Equilbrium, chance of triggering a Torrent of Fate: 100%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/equalize.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWJlb3o2dGhtamM5ajk4NDh1MGI5NTVpMjM3ajR4Y2czdGZ1bXMzcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vikz1Acen4iNurIsY7/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, successful direct attacks have a chance to trigger an additional attack",
+                    "details": [
+                        "During <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, successful direct attacks will always trigger the additional attack"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Armageddon",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 1000%, Number of Attacks: 3, Stun Duration: 10 sec.\\nStun Duration: up to +100% depending on damage inflicted with Armageddon.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/armageddon.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWdoZXhwbTd6bHAwbG55empjZHk0OG8yazhqeDJlZWdoY25hc2dhbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MaG0QyhR7sTC8gdOcV/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Unleash an explosion that binds nearby enemies",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to hero classes within the party\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/luminous/heroic-memories.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWRjbGJtZTQwZDl0dDlpaGhib2Z0eHQ3a25hY2U3NW8wb2FxZnJ6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/38uNpYrlDoeOIaCbHD/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["freudsWisdom", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Gate of Light",
+                    "shortDesc": "MP Cost: 1000, Periodically summons a Gate of Light with Max Enemies Hit: 12, Damage: 990%, Number of Attacks: 10, Duration: 30 sec\\nCan be used while Equilibrium is active",
+                    "icons": ["/class-icons/heroes/luminous/gate-of-light.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHR6dHV5MHByaWN0cTE0OGhjZHdjaTJidmtveGpqNWp1eXN3ZjYzeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qIqWYOJaY1sVCVFNQy/giphy.gif"],
+                    "type": "Equilibrium Summon",
+                    "desc": "Place down a gate that damages nearby enemies",
+                    "details": [
+                        "Can only be used only once while in <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}><bp_While summoned, pressing the Skill Key again will resummon the gate at your location_>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Aether Conduit",
+                    "shortDesc": "MP Cost: 1000, Max Duration: 1 sec., Max Enemies Hit: 10, Damage: 650%, Number of Attacks: 12\\nCan move and jump while using the skill. Damage taken while attacking, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 30 sec.\\nWhen enhanced, attacks up to 41 time(s). Enters cooldown after Enhanced Aether Conduit ends.",
+                    "icons": ["/class-icons/heroes/luminous/aether-conduit.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTEydjN2OXRkMW52bmN3ZzB4eTR6OWthNjR5cHVtc2J0cmhnMW13MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FZS39F07ZD6tU7lMSH/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzF1ZG11bGU0bjg4M2RpbWV6bzh2MXQ1Yzd6OG02OGluZXQyZzl4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LkwOWRauv3AIEG18f0/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire forward a stream of magic arrows",
+                    "details": [
+                        "While active, pressing the Skill Key again, ends the attack early",
+                        "While active, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "While <tt src={/class-icons/heroes/luminous/equalize.png}  tip={Equalize (Hyper Skill)}> is active during <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, the attack is enhanced and will attack longer<bp_During the enhanced attack, pressing the Skill Key will toggle the attack ON/OFF while there are remaining attacks_Successful attacks reduces the cooldown of <tt src={/class-icons/heroes/luminous/baptism-of-light-and-darkness.png} tip={Baptism of Light and Darkness (4th Job)}>_>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Baptism of Light and Darkness",
+                    "shortDesc": "MP Cost: 2000, activates the Baptism of Light and Darkness 13 times consecutively. Damage: 660%, Number of Attacks: 7\\nBonus Critical Rate: +100%, Additional Monster DEF Ignored: +100%\\nCooldown: 30 sec\\nIf an Equilibrium skill hits while Equilibrium is active, Baptism of Light and Darkness Cooldown: -2 sec\\nLanding Aether Conduit 3 time(s) is considered 1 hit\\nWhen Equilibrium is activated, the cooldown of Baptism of Light and Darkness is reset once.",
+                    "icons": ["/class-icons/heroes/luminous/baptism-of-light-and-darkness.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHQzb2tyMGpld3oyeDZwbnkwaHlnajQ3NG9yN29ubHliOWRwbDJwayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OCZdcjfYRM96LKmZR6/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Create several swords that strike down on one enemy",
+                    "details": [
+                        "During <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, successful Equilbrium attacks reduces the skill's cooldown<bp_3 Successful attacks from <tt src={/class-icons/heroes/luminous/aether-conduit.png} tip={Aether Conduit (5th Job)}> is considered 1 hit/attack_>",
+                        "Upon entering <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, the cooldown of this skill is reset",
+                        "Can be used without a casting animation during <tt src={/class-icons/heroes/luminous/aether-conduit.png} tip={Aether Conduit (5th Job)}>",
+                        "Attack has increased %100 Ignore DEF and is a guaranteed Critical Hit",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Liberation Orb",
+                    "shortDesc": "MP Cost: 1200, Giant Orb Duration: 30 sec.\\nCreates 6 Magic Orb(s) over time. Each time a direct skill lands, an additional 1 Orb(s) are created. During Equilibrium, 2x Orbs are created.\\nMagic Orb: Max Enemies Hit: 1, Damage: 770%, Number of Attacks: 4\\nMax Orbs Created: 180\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/heroes/luminous/liberation-orb.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY24wZGd4ZmRjcTg5ZHhvamt4b25ycHJqZDRvZ2E0YjE0dDI0b2NjcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hPwsVBQccPl288xXlo/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a magic orb that fires orbs at a single enemy upon successful attack",
+                    "details": [
+                        "Successful direct skill attacks create an additional orb<bp_During <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, the number of orbs created is doubled_>",
+                        "Orbs prioritize bosses with the highest Max HP",
+                        "Maximum of 180 orbs can be created",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Flash Shower/Abyssal Drop Boost",
+                    "shortDesc": "Flash Shower/Abyssal Drop Final Damage: +420%",
+                    "icons": ["/class-icons/heroes/luminous/flash-shower.png", "/class-icons/heroes/luminous/abyssal-drop.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sylvan Lance Boost",
+                    "shortDesc": "Sylvan Lance Final Damage: +300%",
+                    "icons": ["/class-icons/heroes/luminous/sylvan-lance.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Pressure Void Boost",
+                    "shortDesc": "Pressure Void Final Damage: +300%",
+                    "icons": ["/class-icons/heroes/luminous/pressure-void.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spectral Light Boost",
+                    "shortDesc": "Spectral Light Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/luminous/spectral-light.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ray of Redemption Boost",
+                    "shortDesc": "Ray of Redemption Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/luminous/ray-of-redemption.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Moonlight Spear Boost",
+                    "shortDesc": "Moonlight Spear Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/luminous/moonlight-spear.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Doom Scythe Boost",
+                    "shortDesc": "Doom Scythe Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/luminous/death-scythe.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Reflection Boost",
+                    "shortDesc": "Reflection Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/luminous/reflection.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Twilight Nova Boost",
+                    "shortDesc": "Twilight Nova Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/luminous/twilight-nova-1.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Apocalypse Boost",
+                    "shortDesc": "Apocalypse Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/luminous/apocalypse.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ender Boost",
+                    "shortDesc": "Ender Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/luminous/ender.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Armageddon Boost",
+                    "shortDesc": "Armageddon Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/luminous/armageddon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/luminous/hexa-ender.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/luminous/ender.png} tip={Ender (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Ender",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 3, Swords of light and darkness fall and deal 675% damage up to 3 enemies 7 times.\\nCollision occurs up to 1 time for an enemy struck with a sword.\\nCritical Rate: +100%, Ignore Defense: +45%\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/heroes/luminous/hexa-ender.png", "/class-icons/heroes/luminous/ender.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1jZjRhaWd6Z3hsZHNoYzRieDV0Z2F6aGZvNmNybjdneHh2NXVhZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qLaxkMz0ZzlAU1IKBf/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/luminous/hexa-reflection.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/luminous/reflection.png} tip={Reflection (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Reflection",
+                    "shortDesc": "MP Cost: 93, Max Enemies Hit: 8, Damage: 1160%, Number of Attacks: 4",
+                    "icons": ["/class-icons/heroes/luminous/hexa-reflection.png", "/class-icons/heroes/luminous/reflection.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHB5Yjd6YTEzenhzaWk1Z2Mwc3F5MDBhbzRmOWptZzJ3N3lwamE1cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qS0aQLi37aJbYyiXzw/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Endless Darkness",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 6, Damage: 1580%, Number of Attacks: 5\\nCooldown: 2 sec\\n[Passive Effect: HEXA Ender Damage: +130% points]",
+                    "icons": ["/class-icons/heroes/luminous/endless-darkness.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzY1dDYyYTJtNzJmMHRtNjBwcXE1NzF3d3YxbmpoOXhrb3ppcHF4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wow8kp7SQW5jEXn3Ub/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Successful Dark or Equilibrium attacks while in <tt src={/class-icons/heroes/luminous/eclipse.png} tip={Eclipse (Beginner Skill)}> or <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}> periodically triggers an additional attack",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node",
+                        "Shares a cooldown with <tt src={/class-icons/heroes/luminous/eternal-light.png} tip={Eternal Light (6th Job)}>"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/luminous/hexa-apocalypse-eternal-light.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/luminous/apocalypse.png} tip={Apocalypse (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Apocalypse",
+                    "shortDesc": "MP Cost: 118, Max Enemies Hit: 8, Damage: 768%, Number of Attacks: 7",
+                    "icons": ["/class-icons/heroes/luminous/hexa-apocalypse.png", "/class-icons/heroes/luminous/apocalypse.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXQxZ2dnb2p2bnU0NHBkMW8xOHAyZG5xdnpreWI1eWZ6Z2dzbnhudCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nbqXJBqNASqxcFZVa9/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Eternal Light",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 6, Damage: 1355%, Number of Attacks: 7\\nCooldown: 2 sec",
+                    "icons": ["/class-icons/heroes/luminous/eternal-light.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJqcWVudDV6Y3liNWlzbXFnb3JmeTh1ZXc3dGd4bDR2MzQydnhjNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hUEnvBxrxTaohxs2Vq/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Successful Light or Equilibrium attacks while in <tt src={/class-icons/heroes/luminous/sunfire.png} tip={Sunfire (Beginner Skill)}> or <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}> periodically triggers an additional attack",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node",
+                        "Shares a cooldown with <tt src={/class-icons/heroes/luminous/endless-darkness.png} tip={Endless Darkness (6th Job)}>"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/luminous/hexa-twilight-nova.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/luminous/twilight-nova-1.png} tip={Twilight Nova (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Twilight Nova",
+                    "shortDesc": "MP Cost: 91, Max Enemies Hit: 8\\nSunfire - Damage: 1530%, Number of Attacks: 7, Number of Explosions: 3\\nEclipse - Damage: 1530%, Number of Attacks: 7, Number of Explosions: 3\\nEquilibrium - Damage: 1055%, Number of Attacks: 7, Number of Explosions: 4\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/heroes/luminous/hexa-twilight-nova.png", "/class-icons/heroes/luminous/hexa-twilight-nova-2.png", "/class-icons/heroes/luminous/hexa-twilight-nova-3.png", "/class-icons/heroes/luminous/twilight-nova-1.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHo5NXhzZnM3YzRiaHJ3dnhuZWwwazVpdnY1aTFoc3RsOG9maW15MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtLGU8sC3VdYBFBGdj/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Z1bnB2Ym13bmgzNWJiZnAyZTQ5aDU3dGNxd3JybnZmZXhjaTA1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bF6C4nY7OGjgvisgA5/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJhcWVmNHdsNm5vbjFrem95eW0zbXJva3h2bDY4YTQ2cTB4bWt4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A0GOUjU3HqVy2TRXLp/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Harmonic Paradox",
+                    "shortDesc": "MP Cost: 3000, Invincible during casting\\nMax Key-Down Duration: 3.5 sec, Max Enemies Hit: 15, Damage: 3000%, Number of Attacks: 7, summons entity of harmony\\nThe power of the harmonious being is released when key-down ends, bringing forth the absolute authority of truth that creates 39 explosions dealing 1538% damage to 15 enemies 7 times.\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/heroes/luminous/harmonic-paradox.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnFkd21xZnRrd2QyeG9lZjllNnB0aDJpcHcydGZwODU1YXI2NmdubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rC7PjCSYqR5tnoI1wV/giphy-downsized-large.gif"],
+                    "type": "Key-down Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Lustrous Orb",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nDarkness shrouds the world 19 times, dealing 5320% damage to up to 15 enemies 13 times. Then the power of light explodes 19 times, dealing 5320% damage 13 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/heroes/luminous/lustrous-orb.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzh5ejRzeWVyeWU2enY0d3B4MWtmcXY1a243dW4wa2R4ajhuMjcyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YfY6KDBMzQBoGZ1ceW/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Gate of Light Boost",
+                    "shortDesc": "Gate of Light Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/luminous/gate-of-light.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Aether Conduit Boost",
+                    "shortDesc": "Aether Conduit Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/luminous/aether-conduit.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Baptism of Light and Darkness Boost",
+                    "shortDesc": "Baptism of Light and Darkness Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/luminous/baptism-of-light-and-darkness.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Liberation Orb Boost",
+                    "shortDesc": "Liberation Orb Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/luminous/liberation-orb.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Death Scythe - 3rd Job",
+                "icons": ["/class-icons/heroes/luminous/death-scythe.png"],
+                "animations": ["https://media2.giphy.com/media/XI7qHV82pEcZXBSoiF/giphy.gif"]
+            },
+            {
+                "name": "Reflection - 4th Job",
+                "icons": ["/class-icons/heroes/luminous/reflection.png"],
+                "animations": ["https://media2.giphy.com/media/fX2ByunZXtlJpm0ObT/giphy.gif"]
+            },
+            {
+                "name": "Apocalypse - 4th Job",
+                "icons": ["/class-icons/heroes/luminous/apocalypse.png"],
+                "animations": ["https://media1.giphy.com/media/eiMKUGCwyyP0bUNx9t/giphy.gif"]
+            },
+            {
+                "name": "Ender - 4th Job",
+                "icons": ["/class-icons/heroes/luminous/ender.png"],
+                "animations": ["https://media3.giphy.com/media/U50b0uz6IPnKuI7nyl/giphy.gif"]
+            },
+            {
+                "name": "Gate of Light - 5th Job",
+                "icons": ["/class-icons/heroes/luminous/gate-of-light.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHR6dHV5MHByaWN0cTE0OGhjZHdjaTJidmtveGpqNWp1eXN3ZjYzeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qIqWYOJaY1sVCVFNQy/giphy.gif"]
+            },
+            {
+                "name": "Aether Conduit - 5th Job",
+                "icons": ["/class-icons/heroes/luminous/aether-conduit.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzF1ZG11bGU0bjg4M2RpbWV6bzh2MXQ1Yzd6OG02OGluZXQyZzl4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LkwOWRauv3AIEG18f0/giphy.gif"]
+            },
+            {
+                "name": "Baptsim of Light and Darkness - 5th Job",
+                "icons": ["/class-icons/heroes/luminous/baptism-of-light-and-darkness.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHQzb2tyMGpld3oyeDZwbnkwaHlnajQ3NG9yN29ubHliOWRwbDJwayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OCZdcjfYRM96LKmZR6/giphy.gif"]
+            },
+            {
+                "name": "HEXA Ender - 6th Job",
+                "icons": ["/class-icons/heroes/luminous/hexa-ender.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1jZjRhaWd6Z3hsZHNoYzRieDV0Z2F6aGZvNmNybjdneHh2NXVhZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qLaxkMz0ZzlAU1IKBf/giphy.gif"]
+            },
+            {
+                "name": "Harmonic Paradox - 6th Job",
+                "icons": ["/class-icons/heroes/luminous/harmonic-paradox.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnFkd21xZnRrd2QyeG9lZjllNnB0aDJpcHcydGZwODU1YXI2NmdubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rC7PjCSYqR5tnoI1wV/giphy-downsized-large.gif"]
+            }
+        ]
+    },
+    "meta": "Luminous is an INT mage class part of the Heroes class group. What is unique about Luminous is their ability to control both Light and Dark magic. The strength of Luminous' magic will shift between Light and Dark thus requiring you to alternate between both"
+}

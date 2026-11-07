@@ -1,0 +1,1129 @@
+{
+    "class": "Mercedes",
+    "content": {
+        "classGroup": "Heroes",
+        "jobGroup": "Archer",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Reduces skill cooldowns",
+        "legionValue": "2/3/4/5/6% [max. -5 sec]",
+        "equipment": [
+            {"weapon": ["dualBowguns"]},
+            {"secondary": ["magicArrow"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/heroes/mercedes/elven-grace.png} tip={Elven Grace (Beginner Skill)} val={+1}> <bg src={/class-icons/heroes/mercedes/agile-bowguns.png} tip={Agile Bowguns (2nd Job)} val={+2}> <bg type={temp} src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar (3rd Job)} val={+1 after linking skills}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/heroes/mercedes/dual-bowguns-expert.png} tip={Dual Bowguns Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "DEX",
+                "stat": "+50(105) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/heroes/mercedes/agile-bowguns.png} tip={Agile Bowguns (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+55}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+34%(54%) +170(195)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/heroes/mercedes/ancient-warding.png} tip={Ancient Warding (4th Job)} val={+30%}> <bg type={temp} src={/class-icons/heroes/mercedes/sylvidias-flight.png} tip={Sylvidia's Flight (5th Job)} val={+20%}> <bg src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar - Passive (3rd Job)} val={+40}> <bg src={/class-icons/heroes/mercedes/dual-bowguns-expert.png} tip={Dual Bowguns Expert (4th Job)} val={+30}> <bg src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack (4th Job)} val={+20}> <bg src={/class-icons/heroes/mercedes/elvish-blessing.png} tip={Elvish Blessing (Hyper Skill)} val={+80}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+60%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/heroes/mercedes/sharp-aim.png} tip={Sharp Aim (1st Job)} val={+40%}> <bg src={/class-icons/heroes/mercedes/spirit-surge.png} tip={Spirit Surge (2nd Job)} val={+15%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+25%",
+                "detail": "<bg src={/class-icons/heroes/mercedes/dual-bowguns-expert.png} tip={Dual Bowguns Expert (4th Job)} val={+10%}> <bg src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} val={+50% of Crit Rate}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+75%(105%)",
+                "detail": "<bg src={/class-icons/link-skills/elven-blessing.png} tip={Elven Blessing (Link Skill)} val={+5%}> <bg src={/class-icons/heroes/mercedes/potential-power.png} tip={Potential Power (1st Job)} val={+20%}> <bg src={/class-icons/heroes/mercedes/spirit-surge.png} tip={Spirit Surge (1st Job)} val={+20%}> <bg type={debuff} src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)} val={+30%}> <bg type={temp} src={/class-icons/heroes/mercedes/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+20%(45%)",
+                "detail": "<bg src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break (4th Job)} val={+20%}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+48.82%(78.59%)",
+                "detail": "<bg src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar - Passive (3rd Job)} val={+17% passive}> × <bg src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break (4th Job)} val={+20%}> × <bg src={/class-icons/heroes/mercedes/elvish-blessing.png} tip={Elvish Blessing - Passive (Hyper Skill)} val={+6%}> × <bg type={temp} src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar (3rd Job)} val={+4% per linked skill} val={(Max. +20%)}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+47.5%",
+                "detail": "<bg src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break (4th Job)} val={+25%}> × <bg type={debuff} src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)} val={+30%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/heroes/mercedes/ancient-warding.png} tip={Ancient Warding (4th Job)} dur={[200s]}> <tt src={/class-icons/heroes/mercedes/elvish-blessing.png} tip={Elvish Blessing (Hyper Skill)} dur={[120s]}>",
+            "summons": "<tt src={/class-icons/heroes/mercedes/elemental-knights.png} tip={Elemental Knights (3rd Job)} dur={[210s](120s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "buffCd": "<tt src={/class-icons/heroes/mercedes/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/heroes/mercedes/spirit-of-elluel.png} tip={Spirit of Elluel (5th Job)} dur={[50s](120s cd)}> <tt src={/class-icons/heroes/mercedes/royal-knights.png} tip={Royal Knights (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s per stack](240s cd, 25s cd between each stack)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/heroes/mercedes/unfading-glory.png} tip={Unfading Glory (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/heroes/mercedes/water-shield.png} tip={Water Shield (3rd Job)} dur={[2s](60s cd)}> <tt src={/class-icons/heroes/mercedes/royal-knights.png} tip={Royal Knights (5th Job)} dur={(180s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s](240s cd)}> <tt src={/class-icons/heroes/mercedes/unfading-glory.png} tip={Unfading Glory (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/heroes/mercedes/irkallas-wrath.png} tip={Irkalla's Wrath (5th Job)} dur={[Up to 4s](-50% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id":80001040,
+            "offline": true,
+            "name": "Elven Blessing",
+            "shortDesc": "Returns you to Elluel\\nCooldown: 1800 sec.\\n[Passive Effect: EXP Obtained: +20%]",
+            "icons": ["/class-icons/link-skills/elven-blessing.png"],
+            "type": "Active",
+            "desc": "When used, teleports to Elluel, Mercedes's hometown",
+            "details": [
+                "[Passive]: Permanently increases %EXP Obtained"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/heroes/mercedes/spirit-jump.png} tip={Spirit Jump}> -> <tt src={/class-icons/heroes/mercedes/potential-power.png} tip={Potential Power}> -> <tt src={/class-icons/heroes/mercedes/sharp-aim.png} tip={Sharp Aim}> -> <tt src={/class-icons/heroes/mercedes/swift-dual-shot.png} tip={Swift Dual Shot}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/heroes/mercedes/dual-bowguns-mastery.png} tip={Dual Bowguns Mastery}> -> <tt src={/class-icons/heroes/mercedes/agile-bowguns.png} tip={Agile Bowguns}> -> <tt src={/class-icons/heroes/mercedes/spirit-surge.png} tip={Spirit Surge}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack: Dual Bowguns}> -> <tt src={/class-icons/heroes/mercedes/parting-shot.png} tip={Parting Shot}> -> <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush}> -> <tt src={/class-icons/heroes/mercedes/piercing-storm.png} tip={Piercing Storm}>"],
+                ["3rd Job", "<tt src={/class-icons/heroes/mercedes/aerial-barrage.png} tip={Aerial Barrage}> -> <tt src={/class-icons/heroes/mercedes/elemental-knights.png} tip={Elemental Knights}> -> <tt src={/class-icons/heroes/mercedes/water-shield.png} tip={Water Shield}> -> <tt src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar}> -> <tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike}> -> <tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado}> -> <tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes}> -> <tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive}>"],
+                ["4th Job", "<tt src={/class-icons/heroes/mercedes/staggering-strikes.png} tip={Staggering Strikes}> -> <tt src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break}> -> <tt src={/class-icons/heroes/mercedes/dual-bowguns-expert.png} tip={Dual Bowguns Expert}> -> <tt src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/heroes/mercedes/ancient-warding.png} tip={Ancient Warding}> -> <tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale}> -> <tt src={/class-icons/heroes/mercedes/rolling-moonsault.png} tip={Rolling Moonsault}> -> <tt src={/class-icons/heroes/mercedes/ishtars-ring.png} tip={Ishtar's Ring}> -> <tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/heroes/mercedes/ishtars-ring-reinforce.png} tip={Ishtar's Ring - Reinforce}> <tt src={/class-icons/heroes/mercedes/ishtars-ring-guardbreak.png} tip={Ishtar's Ring - Guardbreak}> <tt src={/class-icons/heroes/mercedes/ishtars-ring-boss-rush.png} tip={Ishtar's Ring - Boss Rush}> Ishtar's Ring - Reinforce, Guardbreak and Boss Rush_<tt src={/class-icons/heroes/mercedes/spikes-royale-armorbreak.png} tip={Spikes Royale - Armorbreak}> Spikes Royale - Armorbreak_> [Pick 1] <bp_<tt src={/class-icons/heroes/mercedes/spikes-royale-temper-link.png} tip={Spikes Royale - Temper Link}> Spikes Royale - Temper Link_<tt src={/class-icons/heroes/mercedes/spikes-royale-reinforce.png} tip={Spikes Royale - Reinforce}> Spikes Royale - Reinforce_<tt src={/class-icons/heroes/mercedes/water-shield-true-immunity-1.png} tip={Water Shield - True Immunity 1}> Water Shield - True Immunity 1_<tt src={/class-icons/heroes/mercedes/water-shield-reinforce.png} tip={Water Shield - Reinforce}> Water Shield - Reinforce if you are struggling while training between Lv. 160 - 200_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["For Bossing", "<tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> <tt src={/class-icons/heroes/mercedes/ishtars-ring.png} tip={Ishtar's Ring (4th Job)}> <tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes and Final Attack (2nd Job / 3rd Job)}>"],
+                    ["For Training", "<tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado and Gust Dive (3rd Job)}> <tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> <tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}>"],
+                    ["For Both", "<tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush, Parting Shot, Aerial Barrage, and Rolling Moonsault (2nd/3rd/4th Job)}> <tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> <tt src={/class-icons/heroes/mercedes/elemental-knights.png} tip={Elemental Knights (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category to match bossing and training priorities",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/heroes/mercedes/ishtars-ring.png} tip={Ishtar's Ring (4th Job)}>",
+                "<tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> <tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> <tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}>",
+                "<tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes (3rd Job)}> <tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> <tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive (3rd Job)}>",
+                "<tt src={/class-icons/heroes/mercedes/elemental-knights.png} tip={Elemental Knights (3rd Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack: Dual Bowguns (2nd Job)}>",
+                "<tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> <tt src={/class-icons/heroes/mercedes/swift-dual-shot.png} tip={Swift Dual Shot (1st Job)}> <tt src={/class-icons/heroes/mercedes/piercing-storm.png} tip={Piercing Storm (2nd Job)}>",
+                "<tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush  (2nd Job)}> <tt src={/class-icons/heroes/mercedes/parting-shot.png} tip={Parting Shot (2nd Job)}> <tt src={/class-icons/heroes/mercedes/aerial-barrage.png} tip={Aerial Barrage (3rd Job)}> <tt src={/class-icons/heroes/mercedes/rolling-moonsault.png} tip={Rolling Moonsault (4th Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Mercedes"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/tJWfMrdFBJ"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1Sz5rdODR3cgaw3WcfjjVN_OBQV2298vc_kVyFOfdh_8"}
+        ],
+        "infographics": [
+            {
+                "src": "/mercedes/mercedes-6th-job-main.png",
+                "title": "6th Job (Main/Legion Champ)",
+                "credit": "Mercedes Discord, based on (3 origin cycles, ~18 min)",
+                "date": "2026-05-25"
+            },
+            {
+                "src": "/mercedes/mercedes-6th-job-mule.png",
+                "title": "6th Job (Mule)",
+                "credit": "Mercedes Discord, based on (1 origin cycle, <6 min)",
+                "date": "2026-05-25"
+            }
+        ],
+        "specialThanks": "merc best class",
+        "discord": "https://discord.gg/tJWfMrdFBJ",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Ignis Roar",
+            "content": [
+                "Several of Mercedes' attacks can be linked together to reduce the casting delay between skills. In 2nd Job, the attack <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> Rising Rush is used to combo with another skill for a follow up attack",
+                "Below is all the skills that combo with Rising Rush:",
+                "<bp_<tt src={/class-icons/heroes/mercedes/parting-shot.png} tip={Parting Shot (2nd Job)}> Parting Shot (2nd Job)_<tt src={/class-icons/heroes/mercedes/aerial-barrage.png} tip={Aerial Barrage (3rd Job)}> Aerial Barrage (3rd Job)_<tt src={/class-icons/heroes/mercedes/rolling-moonsault.png} tip={Rolling Moonsault (4th Job)}> Rolling Moonsault (4th Job) - Can be used without Rising Rush_>",
+                "In 3rd Job, the passive <tt src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar (3rd Job)}> Ignis Roar, upon successfully linking an attack, you gain a stacking %Final Damage buff"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Elven Blessing",
+                    "shortDesc": "Returns you to Elluel\\nCooldown: 600 sec\\n[Passive Effect: EXP Obtained: +20%, Damage: +5%]",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/elven-blessing.png"],
+                    "type": "Active",
+                    "desc": "When used, teleports to Elluel, Mercedes's hometown",
+                    "details": [
+                        "[Passive]: Permanently increases %EXP Obtained and %Damage",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Elven Healing",
+                    "shortDesc": "Recovers HP and MP by 5% of Max HP and MP every 4 seconds.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/elven-healing.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Updraft",
+                    "shortDesc": "Can be used on ladders or ropes.\\n[Command: Up + Jump ]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/updraft.png"],
+                    "animations": ["https://media2.giphy.com/media/5CXXY7dNRYKLvCPzXQ/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "When climbing ladders, ascend quickly by pressing the Up Arrow Key and Jump key together"
+                },
+                {
+                    "name": "Elven Grace",
+                    "shortDesc": "Permanently increases Attack Speed 1 level. Speed: +10, Jump: +20, Damage Against Normal Monsters: 10%, Charm: +30",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/elven-grace.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elven Blessing",
+                    "shortDesc": "Returns you to Elluel\\nCooldown: 600 sec\\nAdditional Effect: Permanently receive 20% additional EXP",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/elven-blessing.png"],
+                    "type": "Active / Passive",
+                    "desc": "",
+                    "details": [
+                        "Mercedes has a shorter cooldown for active part of the skill compared to the linked version",
+                        "Can be found in the <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}> Link Manager"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExajRvYmV3YWl3NWwxeDl0bTk4ODR0dWdicHltZTQ3eTQ5bXhrdDdiaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pczWx3WafJSXh2niOH/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/8/The_Unfinished_Battle} title={\"The Unfinished Battle\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Swift Dual Shot",
+                        "shortDesc": "MP Cost: 14, Arrows Fired: 3, Damage: 125%, Max Monsters Hit: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/swift-dual-shot.png"],
+                        "animations": ["https://media.giphy.com/media/eg4OqI9FhCMA74PHzp/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire multiple arrows forward that hit several enemies"
+                    },
+                    {
+                        "name": "Potential Power",
+                        "shortDesc": "Speed: +30, Max Speed increased to +165, Damage: +20%, Enemy Attack Avoidance Rate: 20%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/heroes/mercedes/potential-power.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Spirit Jump",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/mercedes/spirit-jump.png"],
+                        "animations": ["https://media.giphy.com/media/24c4cL7Wiqnr2h6jCY/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
+                        ]
+                    },
+                    {
+                        "name": "Sharp Aim",
+                        "shortDesc": "Critical Rate: +40%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/sharp-aim.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Piercing Storm",
+                        "shortDesc": "MP Cost: 24, Damage: 120%, Max Monsters Hit: 6, Number of Penetration Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/piercing-storm.png"],
+                        "animations": ["https://media.giphy.com/media/SvWJ9wNxQwt5qKwzSz/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire arrows forward that pierces through enemies"
+                    },
+                    {
+                        "name": "Rising Rush",
+                        "shortDesc": "MP Cost: 25, Damage: 250%, Launch Damage: 250%, Number of Attacks: 2 times, Max Enemies Hit: 8, Damage when Attacking Airborne Enemies: +30% points",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/mercedes/rising-rush.png"],
+                        "animations": ["https://media.giphy.com/media/kemLCwoJGIuEe2Yj0B/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing enemies and launching them into the air",
+                        "details": [
+                            "Pressing the Down Arrow Key and Skill Key together will launch enemies up without dashing forward",
+                            "Deals increased %Damage (by a flat amount) to enemies in the air",
+                            "The launch attack can be combined with other skills for a combo attack such as:<bp_<tt src={/class-icons/heroes/mercedes/parting-shot.png} tip={Parting Shot (2nd Job)}> Parting Shot (2nd Job)_<tt src={/class-icons/heroes/mercedes/aerial-barrage.png} tip={Aerial Barrage (3rd Job)}> Aerial Barrage (3rd Job)_<tt src={/class-icons/heroes/mercedes/rolling-moonsault.png} tip={Rolling Moonsault (4th Job)}> Rolling Moonsault (4th Job)_>"
+                        ]
+                    },
+                    {
+                        "name": "Parting Shot",
+                        "shortDesc": "MP Cost: 16, Damage: 85%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/heroes/mercedes/parting-shot.png"],
+                        "animations": ["https://media.giphy.com/media/eJcWKpo8eaD4xv2bOb/giphy.gif"],
+                        "type": "Combo Attack",
+                        "desc": "Fire arrows at enemies launched by <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}>",
+                        "details": [
+                            "Pressing the Attack key during the <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> launch attack will also activate the attack"
+                        ]
+                    },
+                    {
+                        "name": "Agile Bowguns",
+                        "shortDesc": "Attack Speed: +2, DEX: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/mercedes/agile-bowguns.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Spirit Surge",
+                        "shortDesc": "Damage: +20%, Critical Rate: +15%",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/heroes/mercedes/spirit-surge.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dual Bowguns Mastery",
+                        "shortDesc": "Dual Bowguns Mastery: +50%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/mercedes/dual-bowguns-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Final Attack: Dual Bowguns",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 75% with a Final Attack that attacks 2 times.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/final-attack.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful attacks have a chance to deal an additional hit"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Stunning Strikes",
+                        "shortDesc": "MP Cost: 35, Max Monsters Hit: 5, Damage: 260%, Number of Arrows: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/stunning-strikes.png"],
+                        "animations": ["https://media.giphy.com/media/JsQYdSY5LXxxJ4Pg54/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire piercing arrows forward",
+                        "details": [
+                            "Attack can be used in the air and linked when used first with:<bp_<tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> Rising Rush (2nd Job)_<tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> Unicorn Spike (3rd Job)_<tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> Spikes Royale (4th Job)_<tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> Lightning Edge (4th Job)_<tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}> Wrath of Enlil (Hyper Skill)_>"
+                        ]
+                    },
+                    {
+                        "name": "Leap Tornado",
+                        "shortDesc": "MP Cost: 45, Damage: 260%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/leap-tornado.png"],
+                        "animations": ["https://media.giphy.com/media/frBg7UnxTlwjuPnou1/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Rain arrows down up enemies below you",
+                        "details": [
+                            "Can only be used while in the air",
+                            "Can be held as soon as you jump or put in a macro to use skill twice per jump<bp_Results are more consistent with more Attack Speed_>",
+                            "Can be used along with <tt src={/class-icons/heroes/mercedes/spirit-jump.png} tip={Spirit Jump (1st Job)}> to increase jump distance",
+                            "This attack can be linked when used first with:<bp_<tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive (3rd Job)}> Gust Dive (3rd Job)_<tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> Spikes Royale (4th Job)_<tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}> Wrath of Enlil (Hyper Skill)_>"
+                        ]
+                    },
+                    {
+                        "name": "Unicorn Spike",
+                        "shortDesc": "MP Cost: 62, Damage: 345%, Max Enemies Hit: 8, Number of Critical Attacks: 6, Additional Damage Debuff Chance: 100%, Additional Damage Debuff Duration: 30 sec, Additional Damage: 30%\\nCooldown: 9 sec\\nUsing link skills reduces cooldown by 1 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/unicorn-spike.png"],
+                        "animations": ["https://media.giphy.com/media/MZFFwyUCINQsTVG3Bx/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Release unicorns that dash forward and debuffs enemies",
+                        "details": [
+                            "[Debuff]: Enemy takes increased %Damage",
+                            "Using link skills (combos) will reduce the cooldown by 1 sec"
+                        ]
+                    },
+                    {
+                        "name": "Gust Dive",
+                        "shortDesc": "MP Cost: 45, Max Enemies Hit: 6, Damage: 280%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/gust-dive.png"],
+                        "animations": ["https://media1.giphy.com/media/jsfYkQ30qelkw5IFh8/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "While in the air, dash diagonally towards the ground",
+                        "details": [
+                            "This attack can be linked when used first with:<bp_<tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes (3rd Job)}> Stunning Strikes (3rd Job)_<tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> Leap Tornado (3rd Job)_<tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> Spikes Royale (4th Job)_<tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> Lightning Edge (4th Job)_<tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}> Wrath of Enlil (Hyper Skill)_>",
+                            "Using a non-macroed <tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> during the animation of Gust Dive removes the end delay allowing you to move immediately afterwards<bp_Allows Gust Dive to be spammed_If you cannot get it to work, try spamming both <tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> and <tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive (3rd Job)}> together until you get the hang of it_>"
+                        ]
+                    },
+                    {
+                        "name": "Water Shield",
+                        "shortDesc": "MP Cost: 5%, Invincibility Duration: 2 sec.\\nCooldown: 60 sec\\n[Passive Effects]: Damage Taken: -30%, Status Resistance: +25, Elemental Resistance: +25%, Knockback Resistance: +40%]",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/heroes/mercedes/water-shield.png"],
+                        "animations": ["https://media4.giphy.com/media/jKI9Dju6eXshZDcWot/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Upon use, grants brief invincibility",
+                        "details": [
+                            "[Passive] : Permanently increases %Damage Reduction, Status Resistance, and %Knockback Resistance"
+                        ]
+                    },
+                    {
+                        "name": "Aerial Barrage",
+                        "shortDesc": "MP Cost: 28, Damage: 105%, Max Enemies Hit: 8, Number of Attacks: 6\\n[Passive Effects - Rising Rush Damage: +100% points]",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/heroes/mercedes/aerial-barrage.png"],
+                        "animations": ["https://media.giphy.com/media/hX7Psd17Gqxp9swQZU/giphy.gif"],
+                        "type": "Combo Attack",
+                        "desc": "Strikes enemies when linked with <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}>",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> by a flat amount",
+                            "Can also be activated by pressing the Up Arrow Key and Attack key during <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> launch attack",
+                            "While casting, you will not be knocked back at all (Super Knockback Resistance)",
+                            "This attack can be linked when used first with:<bp_<tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> Leap Tornado (3rd Job)_<tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive (3rd Job)}> Gust Dive (3rd Job)_<tt src={/class-icons/heroes/mercedes/rolling-moonsault.png} tip={Rolling Moonsault (4th Job)}> Rolling Moonsault (4th Job)_<tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> Spikes Royale (4th Job)_<tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}> Wrath of Enlil (Hyper Skill)_>",
+                            "Skill is considered a teleport and can be used to dodge boss attacks<bp_Usually executed by using it after Down Arrow Key + <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}>_>"
+                        ]
+                    },
+                    {
+                        "name": "Elemental Knights",
+                        "shortDesc": "Upon landing an attack, MP Cost: 60, Summons 1 Spirit for 210 sec, can summon up to 2 Spirits.\\nIce Spirit - Damage: 435%, Freeze Chance: 90%, Freeze Duration: 5 sec\\nFire Spirit - Damage: 435%, Damage over time: 110% damage every 1 sec for 5 sec\\nShadow Spirit - Damage: 548%\\nCooldown: 120 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/mercedes/elemental-knights.png"],
+                        "animations": ["https://media1.giphy.com/media/vps8eo1J5lerGP7pzD/giphy.gif"],
+                        "type": "Toggle Summon",
+                        "desc": "While toggled, successful attacks summon an Elemental Knight to fight by your side",
+                        "details": [
+                            "There are 3 possible spirits that can be summoned<bp_[Ice Spirit]: Has a chance to freeze enemies_[Fire Spirit]: Attacks apply a burn effect to enemies_[Shadow Spirit]: Attacks deal increased damage_>",
+                            "When triggered, a cooldown will occur before another spirit can be summoned",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Ignis Roar",
+                        "shortDesc": "Final damage increased by 4% and Attack Speed by 1 when using linked skills. Final damage increase due to linked skill usage can stack up to 5 times, lasts for 45 sec, damage is stacked additively.\\n[Passive Effects - Avoidability +20%, Final Damage +17%, ATT: +40]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/ignis-roar.png"],
+                        "type": "Passive",
+                        "desc": "Upon successfully linking skills together, gain an Attack Speed (+1 stage) and a stacking %Final Damage (additive) buff",
+                        "details": [
+                            "Also permanently increases %Avoidability, %Final Damage and grants flat Attack"
+                        ]
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "Ishtar's Ring",
+                        "shortDesc": "MP Cost per attack: 10, Damage: 316%, Number of Attacks: 2\\nWhen hit, Ignis Roar Duration: +0.1 sec\\n[Passive Effect: Unicorn Spikes Damage: +100% points]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/mercedes/ishtars-ring.png"],
+                        "animations": ["https://media.giphy.com/media/YqQG5R8b9b3WPSbaqU/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "When held, rapidly fire foward at a single enemy",
+                        "details": [
+                            "You can move while casting",
+                            "Successful hits briefly increases the duration of <tt src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar (3rd Job)}>",
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Spikes Royale",
+                        "shortDesc": "MP Cost: 60. Delivers a Critical attack. Damage: 640%, Max Enemies Hit: 12, Number of Attacks: 4\\nEnemy DEF: -30%, Duration: 60 sec\\nCooldown: 5 sec\\nCooldown reduced by 1 second each time a linked skill is used.\\n[Passive Effect - Leap Tornado Damage: +210% points, doesn't apply to HEXA Leaf Tornado]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/spikes-royale.png"],
+                        "animations": ["https://media.giphy.com/media/Lkl5wa3RK14BV3QyoV/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap up into the air and rain down spears on enemies while debuffing them",
+                        "details": [
+                            "[Debuff]: Reduces %DEF<bp_Reduction to %DEF can be considered as %Ignore DEF_>",
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> by a flat amount",
+                            "While casting, you will not be knocked back at all (Super Knockback Resistance)",
+                            "Using link skills (combos) will reduce the cooldown by 1 sec"
+                        ]
+                    },
+                    {
+                        "name": "Lightning Edge",
+                        "shortDesc": "MP Cost: 74, Max Enemies Hit: 8, Damage: 420%, Number of Attacks: 3, and dash forward\\n[Passive Effect: Gust Dive Damage: +245% points]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/mercedes/lightning-edge.png"],
+                        "animations": ["https://media.giphy.com/media/MFt51FftwLBCmGcELL/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward damaging enemies in your path",
+                        "details": [
+                            "[Passive]: Increases the %Damage of <tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive (3rd Job)}> by a flat amount",
+                            "This attack can be linked when used first with:<bp_<tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> Rising Rush (2nd Job)_<tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes (3rd Job)}> Stunning Strikes (3rd Job)_<tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> Unicorn Spike (3rd Job)_<tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> Spikes Royale (4th Job)_<tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}> Wrath of Enlil (Hyper Skill)_>",
+                            "Using a non-macroed <tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> during the animation of Lightning Edge removes the end delay allowing you to move immediately afterwards<bp_Allows Lightning Edge to be spammed_If you cannot get it to work, try spamming both <tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> and <tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> together until you get the hang of it_>"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Rolling Moonsault",
+                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 8, Damage: 360%, Number of Attacks: 6\\nSpirit Jump is reset after use. However, using Rolling Moonsault after an upward jump does not reset Spirit Jump.\\nCooldown: 4 sec.\\n[Passive Effects - Rising Rush, Aerial Barrage Damage: +195% points]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/rolling-moonsault.png"],
+                        "animations": ["https://media.giphy.com/media/kD0AM4tUlPb6L15f7O/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "While in the air, spin and damage nearby enemies",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> and <tt src={/class-icons/heroes/mercedes/aerial-barrage.png} tip={Aerial Barrage (3rd Job)}> by a flat amount",
+                            "Can be used without <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}>",
+                            "Can also be activated by pressing the Down Arrow Key and Attack key during the <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> launch attack",
+                            "After casting, <tt src={/class-icons/heroes/mercedes/spirit-jump.png} tip={Spirit Jump (1st Job)}> can be used again unless the vertical jump was used",
+                            "Casting after using <tt src={/class-icons/heroes/mercedes/aerial-barrage.png} tip={Aerial Barrage (3rd Job)}> grants additional airborne height compared to using it on its own",
+                            "This attack can be linked when used first with:<bp_<tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> Leap Tornado (3rd Job)_<tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive (3rd Job)}> Gust Dive (3rd Job)_<tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> Spikes Royale (4th Job)_<tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}> Wrath of Enlil (Hyper Skill)_>"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Nimble Flight",
+                        "shortDesc": "MP Cost: 250, cancels your current skill and move in the desired direction by using any arrow key while Mercedes is performing a skill mid-air.\\nCooldown: 6 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/mercedes/spirit-nimble-flight.png"],
+                        "animations": ["https://media.giphy.com/media/JOdQMiz8KxE4qTob1M/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While attacking in the air, dash in a given direction while cancelling the attack and animation of the previous skill",
+                        "details": [
+                            "To activate, click on any Arrow Key and the Skill Key together while attacking",
+                            "Can be used mid-dash during <tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> and <tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive (3rd Job)}><bp_Keeps momentum of original skill, allowing for some unique movement_>"
+                        ]
+                    },
+                    {
+                        "name": "Ancient Warding",
+                        "shortDesc": "MP Cost: 80, For 200 seconds, Attack Power +30%, HP: +1500\\n[Passive Effect: Ignis Roar's Avoidability Chance: +20%, Knockback Resistance: +60%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/mercedes/ancient-warding.png"],
+                        "animations": ["https://media1.giphy.com/media/XKt7QRviolDvZxwSoj/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Staggering Strikes",
+                        "shortDesc": "MP Cost: 35, Max Monsters Hit: 8, Damage: 456%, Number of Arrows: 4",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/mercedes/staggering-strikes.png", "/class-icons/heroes/mercedes/stunning-strikes.png"],
+                        "animations": ["https://media.giphy.com/media/JsQYdSY5LXxxJ4Pg54/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and max enemies hit",
+                            "Color of arrows are changed to red from green"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/xsgZjA1nWjldc5VcWJ/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/9zy7n1JCuxhkVjO9OR/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Dual Bowguns Expert",
+                        "shortDesc": "Dual Bowguns Mastery: +70%. Attack Power: +30, Critical Damage: +10%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/mercedes/dual-bowguns-expert.png", "/class-icons/heroes/mercedes/dual-bowguns-mastery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Crit Damage"
+                        ]
+                    },
+                    {
+                        "name": "Defense Break",
+                        "shortDesc": "Ignored Enemy DEF: 25%, Final Damage +20%, When Attacking Boss Monsters - Damage: +20%, Critical Damage: +15%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/mercedes/defense-break.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Advanced Final Attack",
+                        "shortDesc": "Attack Power: +20 permanently.\\n[Final Attack Skills] Final Attack Chance: 75%, Damage: 120%, Final Attack Count: 2",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/advanced-final-attack.png", "/class-icons/common/final-attack.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage",
+                            "Now grants flat Attack"
+                        ]
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Ishtar's Ring - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/ishtars-ring-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Ishtar's Ring - Guardbreak",
+                    "shortDesc": "Monster DEF ignored increased 20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/ishtars-ring-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Ishtar's Ring - Boss Rush",
+                    "shortDesc": "When attacking Boss Monsters with Ishtar's Ring - Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/ishtars-ring-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Water Shield - Reinforce",
+                    "shortDesc": "Damage Reduction: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/water-shield-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Water Shield - True Immunity 1",
+                    "shortDesc": "Abnormal Status Resistance: +10",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/water-shield-true-immunity-1.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Water Shield - True Immunity 2",
+                    "shortDesc": "Elemental Resistance +10% in addition",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/water-shield-true-immunity-2.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Spikes Royale - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/spikes-royale-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Spikes Royale - Armorbreak",
+                    "shortDesc": "Defense Reduction: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/spikes-royale-armorbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Spikes Royale - Temper Link",
+                    "shortDesc": "Damage: +30% in addition",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/spikes-royale-temper-link.png"],
+                    "type": "Passive",
+                    "desc": "Increases the passive %Damage increase to <tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> and <tt src={/class-icons/heroes/mercedes/hexa-leaf-tornado.png} tip={HEXA Leaf Tornado (6th Job)}>",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Elvish Blessing",
+                    "shortDesc": "MP Cost: 300, Duration: 120 sec, Attack Power: +80\\n[Passive Effect: Final Damage: +6%]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/elvish-blessing.png"],
+                    "animations": ["https://media1.giphy.com/media/EfIjLLQTEbCYqAviat/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Wrath of Enlil",
+                    "shortDesc": "MP Cost: 200, Enemies Hit: 10, Damage: 520%, Number of Attacks: 10\\nAttacking a boss grants a debuff that ignores collision with that boss for 60 sec\\nCooldown: 8 sec\\nCooldown reduced by 1 sec when a Link skill is used.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/wrath-of-enlil.png"],
+                    "animations": ["https://media.giphy.com/media/cP93iwxHIXVgxnqHJO/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes a furious attack in front of you",
+                    "details": [
+                        "Bosses damaged by this attack receive a debuff that prevents touch damage",
+                        "This attack can be linked when used first with:<bp_<tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush (2nd Job)}> Rising Rush (2nd Job)_<tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes (3rd Job)}> Stunning Strikes (3rd Job)_<tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> Unicorn Spike (3rd Job)_<tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> Spikes Royale (4th Job)_<tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> Lightning Edge (4th Job)_>",
+                        "Using link skills (combos) will reduce the cooldown by 1 sec"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to hero classes within the party\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/mercedes/heroic-memories.png"],
+                    "animations": ["https://media.giphy.com/media/zxRE6fC7l77jOyd7KG/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["freudsWisdom", "goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthMain": [
+                {
+                    "name": "Spirit of Elluel",
+                    "shortDesc": "MP Cost: 1000, Duration: 50 sec., your afterimages may mimic the skills you use up to 3 time each\\nAfterimage Final Damage: 45%\\nIshtar's Ring and Irkalla's Afterimage Final Damage: 22%\\nAfterimage Skill Mimic Chance: 100% (-10% per successful mimic)\\nElluel's Form - Deal 900% damage 10 times on up to 10 enemies for 10 sec, cooldown decreases by 1 sec after using a linked skill\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/heroes/mercedes/spirit-of-elluel.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGlubGpnZ3drcGdqcW93eGo1amZxOXUwY3lsd21xbm9ycmoyczlkYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ntDcFfBqlPbeFD6ALQ/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, attacks have a chance to create afterimages that mimic your skills and periodically, a giant tree that deals damage appears",
+                    "details": [
+                        "The chance to mimic your skills slowly decreases with each successful mimic",
+                        "Using link skills (combos) will reduce the cooldown of the giant tree by 1 sec"
+                    ]
+                },
+                {
+                    "name": "Sylvidia's Flight",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 1650%, Number of Attacks: 13, Number of Charge Attacks: 9\\nAfterwards, Max Enemies Hit: 8, Damage: 1320%, Number of Attacks: 4, Number of Afterimages: 14\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/heroes/mercedes/sylvidias-flight.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWZ4ajFqdmU1aWhhenM1a3ZtZmRjbnExbmtieWhxZHV0bWh3MDBmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aT3VLzNehLDuANirIJ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Call Sylvidia to release an attack that damages enemies in a large area",
+                    "details": [
+                        "After the initial attack, Sylvidia releases afterimages that target nearby enemies<bp_Afterimages prioritize bosses with the highest HP first_Unaffected by Damage Reflect_>"
+                    ]
+                },
+                {
+                    "name": "Irkalla's Wrath",
+                    "shortDesc": "MP Cost: 50, can press the key down for up to 4 sec, attacks up to 10 enemies to deal 770% damage 11 times, Max Attacks: 34. The effect will end immediately once all attacks have been made.\\nWhen the attack hits, Ignis Roar Duration: +0.3 sec.\\nYou can use it while walking backward and can change direction by pressing the direction key twice.\\nDamage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/heroes/mercedes/irkallas-wrath.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzR5enN3ZWZ1c2RoZ2E4MG1qN2NnMG4zcmFhcXp1NjF6cTl4cWU1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a32Ybx6uoHraBDrw0a/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, unleash a barrage of arrows forward",
+                    "details": [
+                        "Successful hits briefly increases the duration of <tt src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar (3rd Job)}>",
+                        "While held, you can move but only walk backwards and cannot jump<bp_To change directions, press the Arrow Key of the direction you want to face twice_>",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "The attack immediately ends upon attacking 34 times"
+                    ]
+                },
+                {
+                    "name": "Royal Knights",
+                    "shortDesc": "MP Cost: 1200, invincible during casting and disarmament\\nDuration: 20 sec, up to 4 knights appear when attack by Mercedes hits, each dealing 1540% damage 4 times, Cooldown: 1.4 sec\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/heroes/mercedes/royal-knights.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenZwbWJ4dG1iMDEwNTdkMDJpN3dvcGJ2b2VpYmFnMXJwdzJhNjFsYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NAFNjKwJAxENtoliFN/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, successful attacks cause knights to appear and damage nearby enemies",
+                    "details": [
+                        "You are invincible during the initial cast and ending of the skill",
+                        "Pressing the Skill Key again will end the buff early",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Swift Dual Shot/Piercing Storm Boost",
+                    "shortDesc": "Swift Dual Shot/Piercing Storm Final Damage: +420%",
+                    "icons": ["/class-icons/heroes/mercedes/swift-dual-shot.png", "/class-icons/heroes/mercedes/piercing-storm.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Rising Rush/Parting Shot/Aerial Barrage/Rolling Moonsault Boost",
+                    "shortDesc": "Rising Rush/Parting Shot/Aerial Barrage/Rolling Moonsault Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/mercedes/rising-rush.png", "/class-icons/heroes/mercedes/parting-shot.png", "/class-icons/heroes/mercedes/aerial-barrage.png", "/class-icons/heroes/mercedes/rolling-moonsault.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Stunning Strikes/Final Attack Boost",
+                    "shortDesc": "Stunning Strikes/Staggering Strikes and Final Attack: Dual Bowguns and Advanced Final Attack Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/mercedes/stunning-strikes.png", "/class-icons/common/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Leaf Tornado/Gust Dive Boost",
+                    "shortDesc": "Leaf Tornado/Gust Dive Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/mercedes/leap-tornado.png", "/class-icons/heroes/mercedes/gust-dive.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Unicorn Spike Boost",
+                    "shortDesc": "Unicorn Spike Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/mercedes/unicorn-spike.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Elemental Knights Boost",
+                    "shortDesc": "Elemental Knights Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/mercedes/elemental-knights.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ishtar's Ring Boost",
+                    "shortDesc": "Ishtar's Ring Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/mercedes/ishtars-ring.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spikes Royale Boost",
+                    "shortDesc": "Spikes Royale Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/mercedes/spikes-royale.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Lightning Edge Boost",
+                    "shortDesc": "Lightning Edge Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/mercedes/lightning-edge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Wrath of Enlil Boost",
+                    "shortDesc": "Wrath of Enlil Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/mercedes/wrath-of-enlil.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-ishtars-ring.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/mercedes/ishtars-ring.png} tip={Ishtar's Ring (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Ishtar's Ring",
+                    "shortDesc": "MP Cost per attack: 12, Max Enemies Hit: 4, Damage: 525%, Number of Attacks: 2\\nWhen attack hits, Ignis Roar Duration: +0.1 sec\\nWhen attack hits, enemy is branded with Ishtar's Mark for 90 sec.\\nIshtar's Mark: Increases when direct skill attack hits 6 times, increases HEXA Ishtar's Ring and Irkalla's Wrath hits 24 times\\nEvery time mark is filled up, Damage: 530%, Number of Additional Attacks: 3\\nWhen mark is complete, Damage: 660%, Number of Additional Attacks: 8",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-ishtars-ring.png", "/class-icons/heroes/mercedes/ishtars-ring.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExam56emw0cTdhN3Fpb2NuYWo4NTk5am1sajd1eTNqcmY1ODZ5NXkweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hn2BbSStYrutodwUCB/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-leaf-tornado-2.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExemRzNGNybG51aWh4bjFjeWh2enQ3eWo4aTdscjBzcjU2ZXgzbTIyMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2GM122ZxCYYUOAbc53/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado (3rd Job)}> <tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> <tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Wrath of Enlil",
+                    "shortDesc": "MP Cost: 230, Max Enemies Hit: 10, Damage: 920%, Number of Attacks: 10\\nAttacking a boss grants a debuff that ignores collision with that boss for 60 sec\\nCooldown: 8 sec\\nCooldown reduced by 1 sec when a Link skill is used.\\nEnhances to HEXA Wrath of Enlil: Spirit Enchant every 12 sec.\\n[Passive Effect: Ishtar's Mark Creation Damage: +205% points, Ishtar's Mark Completion Damage: +220% points]\\n------Spirit Enchant------\\nMP Cost: 230, Max Enemies Hit: 12, Damage: 1010%, Number of Attacks: 10\\nAttacking a boss grants a debuff that ignores collision with that boss for 60 sec, Debuff doesn't stack with Wrath of Enlil.\\nCooldown: 12 sec",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-wrath-of-enlil-1.png", "/class-icons/heroes/mercedes/hexa-wrath-of-enlil-2.png", "/class-icons/heroes/mercedes/wrath-of-enlil.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGg4Ynczdzc3czRpcTFyYzlxdG5vODlrMTV4emd6N2pwdjc4aWxjYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FurKDM3bNVbYxx9uHj/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjkxdWZmaTg0aXhvdThmMGxxMnp0NGlrYnNjaG50anl1ODhwMTA4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oUdJkU2PFNszt9UmJj/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Spikes Royale",
+                    "shortDesc": "MP Cost: 70. Delivers a Critical attack. Damage: 1120%, Max Enemies Hit: 12, Number of Attacks: 4\\nEnemy DEF: -35%, Duration: 60 sec\\nCooldown: 5 sec\\nCooldown reduced by 1 second each time a Linked Skill is used.\\nEnhances to HEXA Spikes Royale: Spirit Enchant every 12 sec.\\n------Spirit Enchant------\\nMP Cost: 70. Delivers a Critical attack. Max Enemies Hit: 12, Damage: 1230%, Number of Attacks: 4\\nEnemy DEF: -35%, Duration: 60 sec, Debuff doesn't stack with Spikes Royale.\\nCooldown: 12 sec",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-spikes-royale-1.png", "/class-icons/heroes/mercedes/hexa-spikes-royale-2.png", "/class-icons/heroes/mercedes/spikes-royale.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjdjbHExMGExdG96aGszbDhvNWhvZWp5YnZqZ2lzdHFzc2JhYzdocCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GCTwFmd7epDW6ZAbCx/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3RpazRwdXR2dmk2dWZpc2J5MW1xM2Voaml6eDZuamN5MGxldHp6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2INyzb9NNo6bGFhqre/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Leaf Tornado",
+                    "shortDesc": "MP Cost: 51, Max Enemies Hit: 8, Damage: 845%, Number of Attacks: 4\\nEnhances to HEXA Leaf Tornado: Spirit Enchant every 6 sec.\\n------Spirit Enchant------\\nMP Cost: 51, Max Enemies Hit: 12, Damage: 930%, Number of Attacks: 4\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-leaf-tornado-1.png", "/class-icons/heroes/mercedes/hexa-leaf-tornado-3.png", "/class-icons/heroes/mercedes/leap-tornado.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa285eGEweWJxOGNkNzhjYzI2NHh6azR5czE4ZDVjZXFwaHhoZzFudSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QjSZFn89Jwmf6sUwez/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXo0dGV6b3gyNDN4MXFjaG01Y2wycmo5a3NyMDE0dDd5Zng3aXgwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hCFPvkQkZ0sDuFR7gX/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-unicorn-spike-gust-dive-stunning-strikes.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> <tt src={/class-icons/heroes/mercedes/gust-dive.png} tip={Gust Dive (3rd Job)}> <tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Unicorn Spike",
+                    "shortDesc": "MP Cost: 70, Damage: 1000%, Max Enemies Hit: 8, Number of Critical Attacks: 6, Additional Damage Debuff Chance: 100%, Additional Damage Debuff Duration: 60 sec, Additional Damage: 30%\\nCooldown: 9 sec\\nUsing link skills reduces cooldown by 1 sec",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-unicorn-spike.png", "/class-icons/heroes/mercedes/unicorn-spike.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjNyZTQzd24zNXU1bDdmM3g5MzJnYnQyMjdpYWd3d3pybDExOGx4cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NX33qJB8Lerj4KJ6Qg/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Gust Dive",
+                    "shortDesc": "MP Cost: 51, Max Enemies Hit: 6, Damage: 800%, Number of Attacks: 4",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-gust-dive.png", "/class-icons/heroes/mercedes/gust-dive.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWRlaXFtc3FjeHFvZW5kZDF5d3piYTR6YWhlejV6NHRtdGNzdTY4cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KDMKNJE4BPFBVo9va2/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Stunning Strikes",
+                    "shortDesc": "MP Cost: 45, Damage: 950%, Max Enemies Hit: 8, Number of Attacks: 4\\n[Passive Effect - HEXA Ishtar's Ring Damage: +20% points]",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-stunning-strikes.png", "/class-icons/heroes/mercedes/stunning-strikes.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzd2YXRwZ2Z4dzN3ZXRsdHJyYjFlYTVzcXA2MXB5N2g2ZWs3Mm4xYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ihGlr9yVmg21zv5fAH/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-elemental-knights-final-attack.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/mercedes/elemental-knights.png} tip={Elemental Knights (3rd Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack: Dual Bowguns (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Elemental Knights",
+                    "shortDesc": "Upon landing an attack, MP Cost: 60, Summons 1 Spirit for 210 sec, can summon up to 3 Spirits.\\nSummoned Spirit - Damage: 325% every 2 sec, Number of Attacks: 2\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-elemental-knights.png", "/class-icons/heroes/mercedes/elemental-knights.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXM1ZDZ3azlkejZldGY0aGZybHdwNmh4a2E5d2o3Y3JleWNlZ3JkZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KjEKqcNxw8Ca0VDXtM/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWJldndheG40djMyaGV0YjJjazQ5dzFhdWYzemY0cng3Njg1NXY3cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n09jWKmfXSU0mjlVmK/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDJwNDU5cnR3cTV1ZnZxNTM1NWJxaHU0dTZ2ODM3cWdzZXZuMTE1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0xKZxeLrRtRomUl4JG/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Final Attack",
+                    "shortDesc": "[Final Attack Skill] Has a 76% chance to deal 315% with a Final Attack that attacks 2 times.",
+                    "icons": ["/class-icons/heroes/mercedes/hexa-final-attack.png", "/class-icons/common/final-attack.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjN3bzlkbnZ6a3ZzdHFwbG1rZXN3eWd2ejY0cnV1MmI4bDI3eWtibyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QyDbbiWPaGeI2lq9Ej/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Unfading Glory",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nShockwave and Crash final damage increases 18% while Spirit of Elluel is active\\nShockwave Max Enemies Hit: 15, Damage: 707%, Number of Attacks: 10, Number of Crashes: 36, Releases the power of the Great Spirit and Ancient Spirit King on the weapon, Damage: 760%, Number of Attacks: 15, Number of Crashses: 28\\nThe spirit power makes the Spirit King form and summons for 40 sec, Summon Cooldown: 3 sec\\nSpirit King Form - Max Enemies Hit: 12, Damage: 2700%, Number of Attacks: 15\\nWhen Ishtar's Mark is complete, the power of Ishtar is added making the next attack an enhanced attack.\\nEnhanced Attack - Damage: 1800%, Number of Attacks: 15, Number of Shockwaves: 4, Cooldown: 2 sec\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/heroes/mercedes/unfading-glory.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXQwOWdmNHl3cGU0dG11Z2Nrd3NsemdqYmk2azU1NG5jdDNsdDBqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hX3CCisgaG30SbQuWo/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Primeval Spirits",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nRains 25 flurries of arrows upon the battlefield, dealing 8785% damage to up to 15 enemies 14 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/heroes/mercedes/primeval-spirits.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm1ncHQ2d2l4YjNpajNtN3Aza2FrMDh0MTFxcmo5OTI1cXV5aDJveCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dugdqaTJMkzqIcseaJ/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Spirit of Elluel Boost",
+                    "shortDesc": "Spirit of Elluel Final Damage: +60%, Spirits Final Damage: +60%, Ishtar's Ring and Irkalla's Wrath Afterimage Final Damage: +30%.",
+                    "icons": ["/class-icons/heroes/mercedes/spirit-of-elluel.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Sylvidia's Flight Boost",
+                    "shortDesc": "Sylvidia's Flight Final Damage: +60%. While active, Final Damage: +5%",
+                    "icons": ["/class-icons/heroes/mercedes/sylvidias-flight.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Irkalla's Wrath Boost",
+                    "shortDesc": "Irkalla's Wrath Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/mercedes/irkallas-wrath.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Royal Knights Boost",
+                    "shortDesc": "Royal Knights Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/mercedes/royal-knights.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Leap Tornado - 3rd Job",
+                "icons": ["/class-icons/heroes/mercedes/leap-tornado.png"],
+                "animations": ["https://media.giphy.com/media/frBg7UnxTlwjuPnou1/giphy.gif"]
+            },
+            {
+                "name": "Unicorn Spike - 3rd Job",
+                "icons": ["/class-icons/heroes/mercedes/unicorn-spike.png"],
+                "animations": ["https://media.giphy.com/media/MZFFwyUCINQsTVG3Bx/giphy.gif"]
+            },
+            {
+                "name": "Ishtar's Ring - 4th Job",
+                "icons": ["/class-icons/heroes/mercedes/ishtars-ring.png"],
+                "animations": ["https://media.giphy.com/media/YqQG5R8b9b3WPSbaqU/giphy.gif"]
+            },
+            {
+                "name": "Spikes Royale - 4th Job",
+                "icons": ["/class-icons/heroes/mercedes/spikes-royale.png"],
+                "animations": ["https://media.giphy.com/media/Lkl5wa3RK14BV3QyoV/giphy.gif"]
+            },
+            {
+                "name": "Wrath of Enlil - Hyper Skill",
+                "icons": ["/class-icons/heroes/mercedes/wrath-of-enlil.png"],
+                "animations": ["https://media.giphy.com/media/cP93iwxHIXVgxnqHJO/giphy.gif"]
+            },
+            {
+                "name": "Sylvidia's Flight - 5th Job",
+                "icons": ["/class-icons/heroes/mercedes/sylvidias-flight.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWZ4ajFqdmU1aWhhenM1a3ZtZmRjbnExbmtieWhxZHV0bWh3MDBmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aT3VLzNehLDuANirIJ/giphy.gif"]
+            },
+            {
+                "name": "Irkalla's Wrath - 5th Job",
+                "icons": ["/class-icons/heroes/mercedes/irkallas-wrath.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzR5enN3ZWZ1c2RoZ2E4MG1qN2NnMG4zcmFhcXp1NjF6cTl4cWU1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a32Ybx6uoHraBDrw0a/giphy.gif"]
+            },
+            {
+                "name": "Unfading Glory - 6th Job",
+                "icons": ["/class-icons/heroes/mercedes/unfading-glory.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXQwOWdmNHl3cGU0dG11Z2Nrd3NsemdqYmk2azU1NG5jdDNsdDBqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hX3CCisgaG30SbQuWo/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Primeval Spirits - 6th Job",
+                "icons": ["/class-icons/heroes/mercedes/primeval-spirits.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm1ncHQ2d2l4YjNpajNtN3Aza2FrMDh0MTFxcmo5OTI1cXV5aDJveCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dugdqaTJMkzqIcseaJ/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Mercedes is a DEX archer class part of the Heroes. Mercedes is known for their quick mobility and ability to link attacks together"
+}

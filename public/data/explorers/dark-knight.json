@@ -1,0 +1,1090 @@
+{
+    "class": "Dark Knight",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Max HP",
+        "legionValue": "2/3/4/5/6%",
+        "equipment": [
+            {"weapon": ["spear", "polearm"]},
+            {"secondary": ["ironChain"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["(1st Line, AS10 Regions) Attack Speed +1", "(1st Line, AS8 Regions) Boss Damage +20%", "Buff Duration +38%", "Boss Damage +10% / Damage to monsters inflicted with Abnormal Status +8% / Attack +21"]
+            },
+            {
+                "name": "Training Options (Heroic)",
+                "abilities": ["(1st Line) Meso Obtained +20%", "(1st Line) Item Drop Rate +20%", "(1st Line) Damage to Regular Monsters +10%", "(1st Line) Attack Speed +1", "(If not 1st Line) Meso Obtained +15% / Item Drop Rate +15%", "Buff Duration +38%", "Attack +21"]
+            },
+            {
+                "name": "Training Options (Interactive)",
+                "abilities": ["(1st Line) Number of enemies hit by multi-target skill +1", "(1st Line) Attack Speed +1", "Chance to Skip Cooldown +10%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.49x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 7",
+                "detail": "<bg val={Stage 5 for Polearm / Stage 4 for Spear}> <bg src={/class-icons/explorers/dark-knight/agile-arms.png} tip={Agile Arms (2nd Job)} val={+2}> <bg type={opt} src={/class-icons/explorers/dark-knight/weapon-mastery.png} tip={Weapon Mastery (2nd Job)} val={+1 if Spear is equipped}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "91~94%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/explorers/dark-knight/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+50(80) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/dark-knight/agile-arms.png} tip={Agile Arms (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +100(150)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png} tip={Hex of the Evil Eye (3rd Job)} val={+40}> <bg src={/class-icons/explorers/dark-knight/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+30}> <bg type={temp} src={/class-icons/explorers/dark-knight/dark-thirst.png} tip={Dark Thirst (Hyper Skill)} val={+50}> <bg type={opt} src={/class-icons/explorers/dark-knight/evil-eye-hex-reinforce.png} tip={Evil Eye - Hex Reinforce (Hyper Skill)} val={+30}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+75%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png} tip={Hex of the Evil Eye (3rd Job)} val={+10%}> <bg src={/class-icons/explorers/dark-knight/lord-of-darkness.png} tip={Lord of Darkness (3rd Job)} val={+30%}> <bg type={def} sub={opt} src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact (4th Job)} val={+10%} subSrc={/class-icons/explorers/dark-knight/final-pact-critical-chance.png} subTip={Final Pact - Critical Chance (Hyper Skill)} subVal={extra +20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+38%",
+                "detail": "<bg src={/class-icons/explorers/dark-knight/lord-of-darkness.png} tip={Lord of Darkness (3rd Job)} val={+8%}> <bg src={/class-icons/explorers/dark-knight/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+15%}> <bg src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+6%(36-41%)",
+                "detail": "<bg src={/class-icons/link-skills/invincible-belief.png} tip={Invincible Belief (Link Skill)} val={+6%}> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/explorers/dark-knight/weapon-mastery.png} tip={Weapon Mastery (2nd Job)} val={+5% if Spear is equipped}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "(+15%)",
+                "detail": "<bg type={temp} src={/class-icons/explorers/dark-knight/dark-resonance.png} tip={Dark Resonance (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+134%(178.19%)",
+                "detail": "<bg src={/class-icons/explorers/dark-knight/cross-surge.png} tip={Cross Surge (3rd Job)} val={+50% passive}> × <bg src={/class-icons/explorers/dark-knight/cross-surge.png} tip={Cross Surge (3rd Job)} val={+20% buff}> × <bg type={def} sub={opt} src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact (4th Job)} val={+30%} subSrc={/class-icons/explorers/dark-knight/final-pact-damage.png} subTip={Final Pact - Damage (Hyper Skill)} subVal={extra +5%}> × <bg type={temp} src={/class-icons/explorers/dark-knight/dark-resonance.png} tip={Dark Resonance (4th Job)} val={+8%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+30%(47.08%)",
+                "detail": "<bg src={/class-icons/explorers/dark-knight/dark-resonance.png} tip={Dark Resonance - Passive (4th Job)} val={+30% passive}> × <bg type={temp} src={/class-icons/explorers/dark-knight/dark-resonance.png} tip={Dark Resonance (4th Job)} val={+10%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "defenseStats": [
+            {
+                "name": "Abnormal Status Resistance",
+                "stat": "+20(100)",
+                "detail": "<bg src={/class-icons/explorers/dark-knight/endure.png} tip={Endure (3rd Job) val={+20}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+80}>"
+            },
+            {
+                "name": "Knockback Resistance",
+                "stat": "+100%",
+                "detail": "<bg src={/class-icons/explorers/warrior/warrior-mastery.png} tip={Warrior Mastery (1st Job)} val={+40%}> <bg src={/class-icons/common/power-stance.png tip={Power Stance (4th Job)} val={+60%}>"
+            },
+            {
+                "name": "Defense",
+                "stat": "+970",
+                "detail": "<bg src={/class-icons/explorers/warrior/iron-body.png} tip={Iron Body (1st Job)} val={+200}> <bg src={/class-icons/explorers/dark-knight/iron-will.png} tip={Iron Will (2nd Job) val={+270}> <bg src={/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png} tip={Hex of the Evil Eye (3rd Job)} val={+500}>"
+            },
+            {
+                "name": "Damage Reduction (Non-Max HP)",
+                "stat": "-10%(30%) -8% of missing HP (max 4000)",
+                "detail": "<bg src={/class-icons/explorers/warrior/iron-body.png} tip={Iron Body (1st Job)} val={-10%}> <bg src='/class-icons/explorers/dark-knight/cross-surge.png} tip={Cross Surge (3rd Job)} val={-8% of missing HP (max 4000)}> <bg type={temp} src={/class-icons/explorers/dark-knight/spear-of-darkness.png} tip={Spear of Darkness (5th Job) val={-10% while casting}> <bg type={temp} src={/class-icons/explorers/dark-knight/darkness-aura.png} tip={Darkness Aura (5th Job)} val={-10%}>}"
+            }
+        ],
+        "movementStats": [
+        ],
+        "secondaryAttacks": [
+        ],
+        "utilityStats": [
+        ],
+        "buffInfo": {
+            "auto": "<bg src={/class-icons/explorers/dark-knight/hyper-body.png} tip={Hyper Body (2nd Job)} val={200s}> <bg src={/class-icons/explorers/dark-knight/cross-surge.png} tip={Cross Surge (3rd Job)} val={200s}>",
+            "summons": "<bg src={/class-icons/explorers/dark-knight/evil-eye.png} tip={Evil Eye (2nd Job)} val={Toggle}> <bg src={/class-icons/explorers/dark-knight/radiant-evil.png} tip={Radiant Evil (5th Job)} val={3s} val={20s cd}>",
+            "other": "<bg src={/class-icons/explorers/dark-knight/accept-final-pact.png} tip={Accept Final Pact (4th Job)} val={Skill Select}>",
+            "mini": "<bg src={/class-icons/explorers/dark-knight/dark-resonance.png} tip={Dark Resonance (4th Job)} val={[30s](70s cd)}> <bg src={/class-icons/explorers/dark-knight/dark-thirst.png} tip={Dark Thirst (Hyper Skill)} val={20s}>",
+            "full": "<bg src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={60s}> <bg src={/class-icons/explorers/dark-knight/darkness-aura.png} tip={Darkness Aura (5th Job)} val={40s}> <bg src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={130s}> <bg src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={60s}> <bg src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={18s}>",
+            "etcCooldown": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={Hero's Echo}>",
+            "binds": "<bg src={/class-icons/explorers/dark-knight/dead-space.png} tip={Dead Space (6th Job)} val={10s} val={Origin Skill}>",
+            "iFrame": "<bg type={finalpact} src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact (4th Job)} val={Cooldown is reduced if enemies are defeated} val={or bosses are hit a certain number of times}> <bg type={finalpact} src={/class-icons/explorers/dark-knight/lesser-pact.png} tip={Final Pact - Lesser (4th Job)} val={2s, Final Pact} val={180s/110s cd}> <bg type={finalpact} src={/class-icons/explorers/dark-knight/moderate-pact.png} tip={Final Pact - Moderate (4th Job)} val={8s, Final Pact} val={260s/180s cd}> <bg type={finalpact} src={/class-icons/explorers/dark-knight/greater-pact.png} tip={Final Pact - Greater (4th Job)} val={40s, Final Pact} val={900s/600s cd}> <bg type={finalpact} src={/class-icons/explorers/dark-knight/final-pact-alter.png} tip={Final Pact Alter (4th Job)} val={2s, Final Pact} val={70s cd - cannot be reduced}> <bg src={/class-icons/explorers/dark-knight/dead-space.png} tip={Dead Space (6th Job)} val={Origin Skill}> <bg src={http://localhost:3000/class-icons/explorers/dark-knight/dark-halidom.png} tip={Dark Halidom (6th Job)} val={Ascent Skill}>",
+            "damageReduce": "<bg src={/class-icons/explorers/dark-knight/spear-of-darkness.png} tip={Spear of Darkness (5th Job)} val={-10% while casting} val={10s cd}> <bg src={/class-icons/explorers/dark-knight/calamitous-cyclone.png} tip={Calamitous Cyclone (5th Job)} val={Max. 4s, -50%} val={120s cd}> <bg src={/class-icons/explorers/dark-knight/darkness-aura.png} tip={Darkness Aura (5th Job)} val={40s, -10% & Max. 30% HP Barrier} val={120s cd}> <bg src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} val={5s, 21% HP Barrier} val={15s cd}>",
+            "knockback": "<bg src={/class-icons/explorers/dark-knight/rush.png} tip={Rush (3rd Job)}> <bg src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={[18s](120s cd)}>"
+        },
+        "linkSkill": {
+            "id": 80002758,
+            "offline": true,
+            "name": "Invincible Belief",
+            "maxLevel": 9,
+            "shortDesc": "Automatically activates when your health falls to 15% of your Max HP or below. Restores 44% of Max HP every 1 sec for 3 sec\\nCooldown: 90 sec.",
+            "icons": ["/class-icons/link-skills/invincible-belief.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/warrior/war-leap-1.png} tip={War Leap}> -> <tt src={/class-icons/explorers/warrior/iron-body.png} tip={Iron Body}> -> <tt src={/class-icons/explorers/warrior/warrior-mastery.png} tip={Warrior Mastery}> -> <tt src={/class-icons/explorers/warrior/slash-blast.png} tip={Slash Blast}>"],  
+                ["2nd Job", "<tt src={/class-icons/explorers/dark-knight/weapon-mastery.png} tip={Weapon Mastery}> -> <tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/dark-knight/agile-arms.png} tip={Agile Arms}> -> <tt src={/class-icons/explorers/dark-knight/hyper-body.png} tip={Hyper Body}> -> <tt src={/class-icons/explorers/dark-knight/iron-will.png} tip={Iron Will}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack}> -> <tt src={/class-icons/explorers/dark-knight/spear-sweep.png} tip={Spear Sweep}> -> <tt src={/class-icons/explorers/dark-knight/evil-eye-shock.png} tip={Evil Eye Shock}>"],  
+                ["3rd Job", "<tt src={/class-icons/explorers/dark-knight/cross-surge.png} tip={Cross Surge}> -> <tt src={/class-icons/explorers/dark-knight/lord-of-darkness.png} tip={Lord of Darkness}> -> <tt src={/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png} tip={Hex of the Evil Eye}> -> <tt src={/class-icons/explorers/dark-knight/endure.png} tip={Endure}> -> <tt src={/class-icons/explorers/dark-knight/evil-eye-of-domination.png} tip={Evil Eye of Domination}> -> <tt src={/class-icons/explorers/dark-knight/evil-eye-shock-ii.png} tip={Evil Eye Shock II}> -> <tt src={/class-icons/explorers/dark-knight/la-mancha-spear.png} tip={La Mancha Spear}> -> <tt src={/class-icons/explorers/dark-knight/rush.png} tip={Rush}>"],  
+                ["4th Job", "<tt src={/class-icons/explorers/dark-knight/barricade-mastery.png} tip={Barricade Mastery}> -> <tt src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact}> -> <tt src={/class-icons/explorers/dark-knight/revenge-of-the-evil-eye.png} tip={Revenge of the Evil Eye}> -> <tt src={/class-icons/common/power-stance.png} tip={Power Stance}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/dark-knight/dark-impale.png} tip={Dark Impale}> -> <tt src={/class-icons/explorers/dark-knight/gungnirs-descent.png} tip={Gungnir's Descent}> -> <tt src={/class-icons/explorers/dark-knight/magic-crash.png} tip={Magic Crash}> -> <tt src={/class-icons/explorers/dark-knight/dark-resonance.png} tip={Dark Resonance}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]  
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/explorers/dark-knight/evil-eye-reinforce.png} tip={Evil Eye - Reinforce}> <tt src={/class-icons/explorers/dark-knight/evil-eye-hex-reinforce.png} tip={Evil Eye - Hex Reinforce}> Evil Eye - Reinforce and Hex Reinforce_<tt src={/class-icons/explorers/dark-knight/final-pact-damage.png} tip={Final Pact - Damage}> <tt src={/class-icons/explorers/dark-knight/final-pact-critical-chance.png} tip={Final Pact - Critical Chance}> Final Pact - Damage and Critical Chance_<tt src={/class-icons/explorers/dark-knight/gungnirs-descent-reinforce.png} tip={Gungnir's Descent - Reinforce}> Gungnir's Descent - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/dark-knight/gungnirs-descent.png} tip={Gungnir's Descent (4th Job)}> <tt src={/class-icons/explorers/dark-knight/evil-eye.png} tip={Evil Eye (2nd Job)}> <tt src={/class-icons/explorers/dark-knight/nightshade-explosion.png} tip={Nightshade Explosion (Hyper Skill)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/dark-knight/dark-impale.png} tip={Dark Impale (4th Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/explorers/dark-knight/rush.png} tip={Leap Attack / Rush (1st Job / 3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4],
+            "other": [5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/dark-knight/gungnirs-descent.png} tip={Gungnir's Descent (4th Job)}>",
+                "<tt src={/class-icons/explorers/dark-knight/dark-impale.png} tip={Dark Impale (4th Job)}>",
+                "<tt src={/class-icons/explorers/dark-knight/evil-eye.png} tip={Evil Eye (2nd Job)}>",
+                "<tt src={/class-icons/explorers/dark-knight/nightshade-explosion.png} tip={Nightshade Explosion (Hyper Skill)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}>",
+                "<tt src={/class-icons/explorers/warrior/leap-attack.png} tip={Leap Attack (1st Job)}> <tt src={/class-icons/explorers/dark-knight/rush.png} tip={Rush (3rd Job)}>",
+                "<tt src={/class-icons/explorers/dark-knight/la-mancha-spear.png} tip={La Mancha Spear (3rd Job)}> <tt src={/class-icons/explorers/dark-knight/spear-sweep.png} tip={Spear Sweep (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Dark_Knight"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%8B%A4%ED%81%AC%EB%82%98%EC%9D%B4%ED%8A%B8(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"}, 
+            {"title": "Class Discord", "link": "https://discord.gg/N36cqyAVfa"}
+        ],
+        "infographics": [
+            {
+                "src": "/dark-knight/dark-knight-6th-job-fragments.png",
+                "title": "6th Job (Fragments Efficient)",
+                "credit": "LazyVista (XseedGames)",
+                "date": "2026-07-18"
+            },
+            {
+                "src": "/dark-knight/dark-knight-6th-job-energy.png",
+                "title": "6th Job (Energy Efficient)",
+                "credit": "LazyVista (XseedGames)",
+                "date": "2026-07-18"
+            }
+        ],
+        "specialThanks": "Special thanks to DiXiMaN, Moobs, and the Dark Knight Discord for their help in making this overview!",
+        "discord": "https://discord.gg/N36cqyAVfa",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Dark Knight Discord"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Invincible Belief",
+                    "maxLevel": 9,
+                    "shortDesc": "Automatically activates when your health falls to 15% of your Max HP or below. Restores 44% of Max HP every 1 sec for 3 sec\\nCooldown: 90 sec.\\n[Passive Effect: Damage +6%]",
+                    "icons": ["/class-icons/link-skills/invincible-belief.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "For Explorer Warriors, also permanently increases %Damage",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/zPVNn0IwOYmKhShXyD/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/5Y4VlZIxZu4zAQ4lFv/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/rm4LpdhNZRX10qzvH3/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/PjZs94wzzok79uQyE3/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJoeDNvcG9sajhpZGY3c3hpd2s2NHJuNGJldTl5bmhpejJ6M3psbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bpXigK01eXV6vcdLvJ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Slash Blast",
+                        "shortDesc": "MP Cost: 6, Damage: 335%, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/warrior/slash-blast.png"],
+                        "animations": ["https://media.giphy.com/media/fE7F39JK9gV3f3NXrS/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash forward at multiple enemies"
+                    },
+                    {
+                        "name": "War Leap",
+                        "shortDesc": "MP Cost: 11, allows you to jump a greater distance",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/warrior/war-leap-1.png", "/class-icons/explorers/warrior/war-leap-3.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnUzMDBtZ21zOXU3dXc0N21mYmZqbTVjcG15ZmZtdmQ5enJ6ejdjYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HEdFmggKZ8rsUGqaDA/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "name": "Leap Attack",
+                        "shortDesc": "MP Cost: 5, Damage: 90%, Number of Attacks: 2, Max Enemies Hit: 4",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/warrior/leap-attack.png"],
+                        "animations": ["https://media.giphy.com/media/JF8yk8bC7hMJjQiU6h/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Dive downwards towards nearby platforms below",
+                        "details": [
+                            "Can only be used while in the air",
+                            "Use the Left or Right Arrow Keys to dive towards the given direction",
+                            "Can also be activated by pressing the Down, Left, or Right Arrow Key and Attack Key together"
+                        ]
+                    },
+                    {
+                        "name": "Iron Body",
+                        "shortDesc": "DEF: +200, Max HP: +20%, Damage Taken: -10%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/warrior/iron-body.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Warrior Mastery",
+                        "shortDesc": "Speed: 22, Jump: 10, Max Speed: 20, Max HP Per Level: 20, Knockback Resistance: +40%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/warrior/warrior-mastery.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Spear Sweep",
+                        "shortDesc": "MP Cost: 20, Damage: 105%, Max Enemies Hit: 8, Number of Hits: 4\\nHit enemies are pulled and stunned.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dark-knight/spear-sweep.png"],
+                        "animations": ["https://media.giphy.com/media/HTM3DaEmlDcOZbbRWh/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward while pulling in enemies and stunning them"
+                    },
+                    {
+                        "name": "Evil Eye",
+                        "shortDesc": "Casts heal that restores 20 HP every 24 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/dark-knight/evil-eye.png"],
+                        "animations": ["https://media.giphy.com/media/tKoYtoPRNOLN1RjpMe/giphy.gif"],
+                        "type": "Toggle Summon",
+                        "desc": "While toggled, summons an Evil Eye that regularly heals you"
+                    },
+                    {
+                        "name": "Evil Eye Shock",
+                        "shortDesc": "The Evil Eye appears in front of you, attacking up to 10 enemies 6 times, dealing 150% damage with a 45% chance of stunning targets for 5 sec.\\nCooldown: 12 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dark-knight/evil-eye-shock.png"],
+                        "animations": ["https://media.giphy.com/media/PNKTZ4cL7yY6zXMgR7/giphy.gif"],
+                        "type": "Evil Eye Attack",
+                        "desc": "Evil Eye releases a shock in front of you that has a chance to stun enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Hyper Body",
+                        "shortDesc": "MP Cost: 40, Max HP and Max MP: +60%, Duration: 200 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dark-knight/hyper-body.png"],
+                        "animations": ["https://media.giphy.com/media/swzq5akoX3HdruF2sc/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Iron Will",
+                        "shortDesc": "DEF: +270",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/dark-knight/iron-will.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Weapon Mastery",
+                        "shortDesc": "Spear and Polearm Mastery: +50%\\nAttack Speed +1, Damage +5% when equipped with a Spear.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dark-knight/weapon-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Agile Arms",
+                        "shortDesc": "Attack Speed +2, STR: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dark-knight/agile-arms.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Final Attack",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 80% Final Attack damage 2 time(s).",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/final-attack.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful attacks have a chance to deal an additional hit"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "La Mancha Spear",
+                        "shortDesc": "MP Cost: 29, Damage: 185%, Number of Attacks: 4, Max Enemies Hit: 10",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dark-knight/la-mancha-spear.png"],
+                        "animations": ["https://media.giphy.com/media/e0sbnOZzqY7snSt5j8/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward"
+                    },
+                    {
+                        "name": "Rush",
+                        "shortDesc": "MP Cost: 20, Damage: 305%, Max Enemies Pushed: 12",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dark-knight/rush.png"],
+                        "animations": ["https://media.giphy.com/media/Hc4BbvMVoK3oB1Dpse/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing back enemies",
+                        "details": [
+                            "While dashing, you will not be knocked back at all (Super Knockback Resistance)"
+                        ]
+                    },
+                    {
+                        "name": "Cross Surge",
+                        "shortDesc": "MP Cost: 20, Increases Final Damage by up to 20% for 200 sec.\\nYour Damage Taken is reduced by 8% of your missing HP, up to a maximum of 4000.\\n[Passive Effect] - Final Damage: +50%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dark-knight/cross-surge.png"],
+                        "animations": ["https://media.giphy.com/media/NYO1bv7kKuVofDRMxG/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "While active, Increases %Final Damage and increases %Damage Reduction based on your missing HP (up to 4000)",
+                        "details": [
+                            "[Passive]: Permanently increases %Final Damage"
+                        ]
+                    },
+                    {
+                        "name": "Evil Eye of Domination",
+                        "shortDesc": "An Evil Eye roams around freely, attacking nearby enemies with 210% damage.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dark-knight/evil-eye-of-domination.png"],
+                        "type": "Evil Eye Passive Attack",
+                        "desc": "Evil Eye periodically attacks a nearby enemy",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Evil Eye Shock II",
+                        "shortDesc": "The Evil Eye appears in front of you, attacking up to 10 enemies 6 times, dealing 215% damage with a 90% chance to stun targets for 5 sec.\\nCooldown: 12 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dark-knight/evil-eye-shock-ii.png", "/class-icons/explorers/dark-knight/evil-eye-shock.png"],
+                        "animations": ["https://media.giphy.com/media/39mJb4UA47z6uqQ65H/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Increases the chance to stun enemies hit"
+                        ]
+                    },
+                    {
+                        "name": "Hex of the Evil Eye",
+                        "shortDesc": "Frequency: every 4 sec, Attack Power and Magic ATT: +40, DEF: +500, Critical Rate: +10%. Buff Duration: 100 sec\\nBuff effects are halved for party members",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png"],
+                        "type": "Evil Eye Passive Party Buff",
+                        "desc": "Evil Eye periodically buffs you and party members granting flat Attack and DEF and increasing %Crit Rate",
+                        "details": [
+                            "Effects are halved for party members"
+                        ]
+                    },
+                    {
+                        "name": "Lord of Darkness",
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +8%\\n100% chance to recover 2% of Max HP during the attack.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dark-knight/lord-of-darkness.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Endure",
+                        "shortDesc": "Abnormal Status Resistance: +20, Elemental Resistance: +20%",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/explorers/dark-knight/endure.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Gungnir's Descent",
+                    "shortDesc": "MP Cost: 49, Damage: 225%, Max Enemies Hit: 3, Number of Attacks: 12.\\nWhen Attacking: Damage increases by 110% of Max HP for every attack, Enemy Defense Ignored: 30%.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dark-knight/gungnirs-descent.png"],
+                    "animations": ["https://media.giphy.com/media/jWty7Pgk3JwJeeXw41/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Casts giant spears to strike down on enemies",
+                    "details": [
+                        "Attack has increased %Ignore DEF and deals increased %Damage based on your Max HP"
+                    ]
+                },
+                {
+                    "name": "Dark Impale",
+                    "shortDesc": "MP Cost: 50, Damage: 280%, Number of Attacks: 6, Max Enemies Hit: 8",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dark-knight/dark-impale.png"],
+                    "animations": ["https://media.giphy.com/media/locEfYOba5iJndu0Hm/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike forward consecutively damaging multiple enemies"
+                },
+                {
+                    "name": "Accept Final Pact",
+                    "shortDesc": "Use the arrows key within 5 sec. of using this skill to select the type of pact you want to accept.\\nCooldown: 1 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/accept-final-pact.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcThlaDZreXd3a25qbjcwOXVhYTFiczE3aHl3a296dDlpeThuM3g0ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rnuOazLJ4tzJdbCwBe/giphy.gif"],
+                    "type": "Toggle Buff",
+                    "desc": "While toggled, upon reaching 0 HP, <tt src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact (4th Job)}> activates based on the chosen pact",
+                    "details": [
+                        "Upon pressing the Skill Key, 4 choices can be chosen by pressing the corresponding Arrow Key",
+                        "Choices allow for a shorter or longer invincibility duration however, the conditions to reduce cooldown and the cooldown itself will differ<bp_Pressing the Down Arrow Key instead allows <tt src={/class-icons/explorers/dark-knight/final-pact-alter.png} tip={Final Pact Alter (4th Job)}> to be used that provides invincibility on a fixed cooldown that cannot be reduced_>"
+                    ]
+                },
+                {
+                    "name": "Final Pact",
+                    "shortDesc": "Fully restores your HP and MP when the effect activates. Invincibility effect activates based on the type selected in Accept Final Pact.\\nLesser Pact: Invincibility Duration: 2 sec. Cooldown will shorten by 70 sec. if you defeat 24 enemies or attack a boss during the 10 sec. after invincibility activates.\\nCooldown: 180 sec.\\nModerate Pact: Invincibility Duration: 8 sec. Cooldown will shorten by 80 sec. if you defeat 44 enemies or attack a boss during the 20 sec. after invincibility activates.\\nCooldown: 260 sec.\\nGreater Pact: Invincibility Duration: 40 sec. Cooldown will shorten by 300 sec. if you defeat 52 enemies or attack a boss during the 40 sec. after invincibility activates.\\nCooldown: 900 sec.\\nFinal Pact Alter: Grants invincibility for 2 sec.\\nCooldown: 70 sec\\n[Passive Effects: Final Damage: +30%, Speed: +20, Critical Rate: +10%, Critical Damage: +15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dark-knight/final-pact.png", "/class-icons/explorers/dark-knight/lesser-pact.png", "/class-icons/explorers/dark-knight/moderate-pact.png", "/class-icons/explorers/dark-knight/greater-pact.png"],
+                    "type": "Passive Buff Revive",
+                    "desc": "When your HP reaches 0, fully restores HP and MP while granting invinciblity and your attacks ignore Attack Ignore and Damage Reflect",
+                    "details": [
+                        "[Passive]: Permanently increases %Final Damage, %Crit Rate, %Crit Damage and grants flat Movement Speed",
+                        "Defeating a set amount of enemies or attacking a boss a set number of times within a set duration will reduce the skill's cooldown",
+                        "Based on the chosen Pact, the duration of the buff and the conditions to reduce the cooldown and the cooldown itself will differ"
+                    ]
+                },
+                                {
+                    "name": "Final Pact Alter",
+                    "shortDesc": "MP Cost: 130, Invincibility Duration: 2 sec\\nCooldown: 70 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dark-knight/final-pact-alter.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXBiZHBvZ2IweDN3aTNuZmNzY3djbWJqdWFlaTZ1aHozdGR4aTdrbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xdToKrNRSMzxZkhEL1/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, briefly become invincible",
+                    "details": [
+                        "Skill can only be used after selecting from <tt src={/class-icons/explorers/dark-knight/accept-final-pact.png} tip={Accept Final Pact (4th Job)}>",
+                        "Shares the same Skill Points (SP) with <tt src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact (4th Job)}>",
+                        "Unaffected by cooldown resets and %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "Dark Resonance",
+                    "shortDesc": "MP Cost: 85, Duration: 30 sec., restores 100% of Max HP immediately upon casting, Final Damage: +8%, Ignore Defense: +10%, Boss Damage: +15%\\nCooldown: 70 sec., direct skill attacks reduce cooldown by 0.35 sec.\\n[Passive Effect: Ignore Defense: +30%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dark-knight/dark-resonance.png"],
+                    "animations": ["https://media.giphy.com/media/c5EET8fXpO9fRzCI2a/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Restores %Max HP and increases %Final Damage, %Ignore DEF and %Boss Damage",
+                    "details": [
+                        "[Passive]: Permanently increases %Ignore DEF",
+                        "Direct skill attacks will reduce the cooldown slightly"
+                    ]
+                },
+                {
+                    "name": "Magic Crash",
+                    "shortDesc": "MP Cost: 15, Success Rate: 100%, Buff Block Duration: 22 sec\\nCooldown: 60 sec",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/dark-knight/magic-crash.png"],
+                    "animations": ["https://media.giphy.com/media/NNH216Mxlf1mhC0RJc/giphy.gif"],
+                    "type": "Active Debuff",
+                    "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs",
+                    "details": [
+                        "Enemies affected by Magic Crash cannot be affected again for a short period",
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/pSl0wvINN5TDdVqB5t/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/Tb7N861tQootGGBpol/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Revenge of the Evil Eye",
+                    "shortDesc": "When the Dark Knight personally attacks, Damage: 309%, Max Enemies Hit: 10, Number of Attacks: 5\\nCooldown: 5 sec\\nEvil Eye Shock III: Damage: 630%, Max Enemies Hit: 10, Number of Attacks: 7. After the attacks, unleash 4 condensed auras of darkness, which deal 423% damage up to 3 enemies 5 times.\\nCooldown: 10 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dark-knight/revenge-of-the-evil-eye.png"],
+                    "animations": ["https://media.giphy.com/media/zBiF5TyzMBd31eTpD8/giphy.gif", "https://media.giphy.com/media/GogtlCxfaR5lGPk2Db/giphy.gif"],
+                    "type": "Evil Eye Passive Attack",
+                    "desc": "Periodically, direct successful attacks will cause Evil Eye to also attack the enemies",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/explorers/dark-knight/evil-eye-shock.png} tip={Evil Eye Shock (2nd Job)}> and the attack will now fire out 4 damaging shockwaves",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Barricade Mastery",
+                    "shortDesc": "Spear and Polearm Mastery: +70%, Attack Power: +30, Critical Damage: +15%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dark-knight/barricade-mastery.png", "/class-icons/explorers/dark-knight/weapon-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Power Stance",
+                    "shortDesc": "Knockback Resistance: +60%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/power-stance.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Evil Eye - Reinforce",
+                    "shortDesc": "Damage: +150%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/evil-eye-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Damage to <tt src={/class-icons/explorers/dark-knight/evil-eye-shock.png} tip={Evil Eye Shock (2nd Job)}> <tt src={/class-icons/explorers/dark-knight/evil-eye-of-domination.png} tip={Evil Eye of Domination (3rd Job)}> <tt src={/class-icons/explorers/dark-knight/revenge-of-the-evil-eye.png} tip={Revenge of the Evil Eye (4th Job)}> <tt src={/class-icons/explorers/dark-knight/radiant-evil.png} tip={Radiant Evil (5th Job)}>",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Evil Eye - Hex Reinforce",
+                    "shortDesc": "Attack Power and Magic ATT: +30",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/evil-eye-hex-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "Increases amount of Attack and Magic Attack provided by <tt src={/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png} tip={Hex of the Evil Eye (3rd Job)}>",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Evil Eye - Aura Reinforce",
+                    "shortDesc": "Recovery Amount: +10% of Max HP",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/evil-eye-aura-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "Increases amount of HP healed by <tt src={/class-icons/explorers/dark-knight/evil-eye.png} tip={Evil Eye (2nd Job)}>",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Final Pact - Damage",
+                    "shortDesc": "Final Damage: +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/final-pact-damage.png"],
+                    "type": "Passive",
+                    "desc": "Increases bonus passive %Final Damage from <tt src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact (4th Job)}>",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Final Pact - Reduce Target",
+                    "shortDesc": "Enemies to defeat to reduce cooldown: -30%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/final-pact-reduce-target.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Final Pact - Critical Chance",
+                    "shortDesc": "20% bonus critical chance",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/final-pact-critical-chance.png"],
+                    "type": "Passive",
+                    "desc": "Increases bonus passive %Crit Rate from <tt src={/class-icons/explorers/dark-knight/final-pact.png} tip={Final Pact (4th Job)}>",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Gungnir's Descent - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/gungnirs-descent-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Gungnir's Descent - Guardbreak",
+                    "shortDesc": "Bonus 20% monster DEF ignored",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/gungnirs-descent-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Gungnir's Descent - Boss Rush",
+                    "shortDesc": "Boss Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/gungnirs-descent-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Dark Thrist",
+                    "shortDesc": "MP Cost: 300, Duration: 20 sec, Attack Power: +50, Recover 9% of Max HP when attacking.\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/dark-thirst.png"],
+                    "animations": ["https://media.giphy.com/media/edkupY3Pwof347tlYX/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Nightshade Explosion",
+                    "shortDesc": "MP Cost: 200, Damage: 400%, Number of Attacks: 10, Enemies Hit: 10\\nCooldown: 10 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dark-knight/nightshade-explosion.png"],
+                    "animations": ["https://media.giphy.com/media/iPmgqeJFplNlW4DcFl/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleashes an explosion around you that damages nearby enemies",
+                    "details": [
+                        "Can use used without casting animation when used during <tt src={/class-icons/explorers/dark-knight/spear-of-darkness.png} tip={Spear of Darkness (5th Job)}>"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/warrior/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXA0aTNlaDQ5Z3F1bHAwZzg5aHdzbnk1ZzFxeGpkZDB0NTMyM2g3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j2lTL2z6yske3u801L/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expWarrior", "goddessBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Spear of Darkness",
+                    "shortDesc": "MP Cost: 350. A summoned spear deals 875% damage 7 times on up to 12 enemies. For attacks that inflict damage at a certain ratio of the target's Max HP, Damage -10% (while you're preparing to throw the spear).\\nAttacks only one enemy up to 9 times.\\nCritical Rate: +100%. Ignores 50% Enemy DEF.\\nCooldown: 10 sec.",
+                    "icons": ["/class-icons/explorers/dark-knight/spear-of-darkness.png"],
+                    "animations": ["https://media.giphy.com/media/iHcjku8wyuumlBp6ag/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Hurls a spear forward that pierces through enemies",
+                    "details": [
+                        "While casting, gain increased %Damage Reduction against %Max HP attacks",
+                        "The spear can be directed using the Up and Down Arrow Keys",
+                        "Attack has increased Ignore DEF and is a guaranteed Critical Hit",
+                        "Attack can only hit a single enemy up to 9 times",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Radiant Evil",
+                    "shortDesc": "MP Cost: 1000, An Evil Eye appears in front of you, attacking up to 10 enemies 6 times, dealing 260% damage for 3 sec, and ignoring 20% additional enemy Defense.\\nCooldown: 20 sec.",
+                    "icons": ["/class-icons/explorers/dark-knight/radiant-evil.png"],
+                    "animations": ["https://media.giphy.com/media/EuiqmppgXVXmIOv15A/giphy.gif"],
+                    "type": "Evil Eye Summon",
+                    "desc": "Evil Eye transforms into a giant eye that pulsates damaging nearby enemies",
+                    "details": [
+                        "Only usable while Evil Eye is summoned",
+                        "Attack has increased %Ignore DEF",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Calamitous Cyclone",
+                    "shortDesc": "MP Cost: 100. Deals 583% damage 8 times consecutively on up to 12 enemies for up to 4 sec. Recover 1% of max HP for every attack that lands. Attacks up to 26 times.\\nWhen key is released, activates a shockwave 8 times that deals 15 final attack(s) with 1254% damage to a max of 12 enemies. Recover 10% of max HP for every final attack that lands.\\nAll Calamitous Cyclone hits receive Additional Critical Rate: +100%, and Addition Monster Def Ignored: +50%\\nDamage Taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/dark-knight/calamitous-cyclone.png"],
+                    "animations": ["https://media.giphy.com/media/vC2Fu4TbFBDZlwwxJb/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, unleash a flurry of strikes forward",
+                    "details": [
+                        "At the end of the attack, launch a final spear that deals heavy damage<bp_Attack is unaffected by Attack Ignore and Damage Reflect_>",
+                        "While held, reduces damage taken including %Max HP attacks",
+                        "Attack has increased %Ignore DEF and is a guaranteed Critical Hit"
+                    ]
+                },
+                {
+                    "name": "Darkness Aura",
+                    "shortDesc": "MP Cost: 1000. Periodically attack up to 3 enemies with 590% damage 5 times over 40 sec. Recover 3% of Max HP per attack. If HP recovery exceeds Max HP, gain an HP shield amounting to 75% of the recovery amount. Max Shield: 30% of Max HP. Periodically generates a maximum-strength shield. Damage Taken -10% (includes damage proportional to Max HP).\\nReusing this skill will trigger a dark slash that strikes 8 enemies for 900% damage 13 times.The recovery and shield generation effects remain active even after the slash is triggered\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/explorers/dark-knight/darkness-aura.png"],
+                    "animations": ["https://media.giphy.com/media/aXgariVUq4XWkJz3YG/giphy-downsized-large.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, periodically attack enemies which recovers %Max HP",
+                    "details": [
+                        "If HP is full, the HP recovery instead grants an HP shield based on the amount that was supposed to be recovered<bp_Periodically also grants a maximum-strength shield_>",
+                        "While active, increases %Damage Reduction including %Max HP attack",
+                        "Pressing the Skill Key again unleashes a one-time attack<bp_Attack has no casting animation when used during <tt src={/class-icons/explorers/dark-knight/gungnirs-descent.png} tip={Gungnir's Descent (4th Job)}> <tt src={/class-icons/explorers/dark-knight/nightshade-explosion.png} tip={Nightshade Explosion (Hyper Skill)}> <tt src={/class-icons/explorers/dark-knight/calamitous-cyclone.png} tip={Calamitous Cyclone (5th Job)}>_>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Final Attack Boost",
+                    "shortDesc": "Final Attack Final Damage: +240%",
+                    "icons": ["/class-icons/common/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spear Sweep Boost",
+                    "shortDesc": "Spear Sweep Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/dark-knight/spear-sweep.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "La Mancha Spear Boost",
+                    "shortDesc": "La Mancha Spear Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/dark-knight/la-mancha-spear.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Leap Attack/Rush Boost",
+                    "shortDesc": "Leap Attack/Rush Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/warrior/leap-attack.png", "/class-icons/explorers/dark-knight/rush.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Evil Eye Boost",
+                    "shortDesc": "Evil Eye Domination, Evil Eye Shock, Revenge of the Eye and Radiant Evil Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/dark-knight/evil-eye-of-domination.png", "/class-icons/explorers/dark-knight/evil-eye-shock.png", "/class-icons/explorers/dark-knight/revenge-of-the-evil-eye.png", "/class-icons/explorers/dark-knight/radiant-evil.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dark Impale Boost",
+                    "shortDesc": "Dark Impale Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dark-knight/dark-impale.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gungnir's Descent Boost",
+                    "shortDesc": "Gungnir's Descent Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dark-knight/gungnirs-descent.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Nightshade Explosion Boost",
+                    "shortDesc": "Nightshade Explosion Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dark-knight/nightshade-explosion.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-gungnirs-descent.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/dark-knight/gungnirs-descent.png} tip={Gungnir's Descent (4th Job)}}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Gungnir's Descent",
+                    "shortDesc": "MP Cost: 70, Damage: 353%, Max Enemies Hit: 4, Number of Attacks: 12\\nWhen Attacking: Damage increases by 120% of Max HP for every attack, Enemy Defense Ignored: 40%.",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-gungnirs-descent.png", "/class-icons/explorers/dark-knight/gungnirs-descent.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWlpNGpiOWtoeXczbjkzYzRkcmptOGxrcnpjaXdqNmsxYzh4ODl1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YsUkbmVTnKHVLySohl/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-dark-impale-nightshade-explosion.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/dark-knight/dark-impale.png} tip={Dark Impale (4th Job)}> <tt src={/class-icons/explorers/dark-knight/nightshade-explosion.png} tip={Nightshade Explosion (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Dark Impale",
+                    "shortDesc": "MP Cost: 55, Damage: 568%, Number of Attacks: 6, Max Enemies Hit: 8\\nDark Bident is available every 6 sec.\\n------Dark Bident------\\nMP Cost: 57, Damage: 586%, Number of Attacks: 7, Max Enemies Hit: 12\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-dark-impale.png", "/class-icons/explorers/dark-knight/dark-bident.png", "/class-icons/explorers/dark-knight/dark-impale.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHBrNjN0bzB0azVqOGk0MjQ0cTgyOW5idWxyMXE2OTkxdnN6bnNqOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/toIGuiYF1P1ocTC6KH/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzJ2OWZodnFocTZucGtxNXkwZzRndzhrZDhzOHh1MmsxNmhrNGVwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HJ5luz2B7jdRwoOBrd/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Nightshade Explosion",
+                    "shortDesc": "MP Cost: 220, Max Enemies Hit: 12, Damage: 775%, Attack: 12\\nIgnore Defense: 60%, Boss Damage: +30%\\nCooldown: 10 sec.\\n[Passive Effect: HEXA Gungnir's Descent Damage: +120% points]",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-nightshade-explosion.png", "/class-icons/explorers/dark-knight/nightshade-explosion.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTg5ZzRyOXR1ZHJ2dW5lMmFueXc1c21nc3FpbHZuOGJrbG1yYWU3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zYVApgmzYhhPoYvA6H/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-final-attack-revenge-of-the-evil-eye.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/explorers/dark-knight/evil-eye.png} tip={Evil Eye (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Final Attack",
+                    "shortDesc": "[Final Attack Skill] Has a 65% chance to deal 117% with a Final Attack that attacks 2 times.",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-final-attack.png", "/class-icons/common/final-attack.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWJncTNkMDdiN2dzMWFqOHpidmc3azRjZWI0eWxzY2phZnNha250cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/byiW2GC95nhrgcALCU/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Revenge of the Evil Eye",
+                    "shortDesc": "When the Dark Knight lands a direct skill attack, Max Enemies Hit: 10, Damage: 148%, Number of Attacks: 5, Vengeful Brand Chance: 60% when landing 2 times\\nWith 3 Vengeful Brands, Consumes Vengeful Brands to Activate Evil Eye's Punishment\\nEvil Eye's Punishment: Damage: 223%, Number of Attacks: 5",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-revenge-of-the-evil-eye.png", "/class-icons/explorers/dark-knight/revenge-of-the-evil-eye.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDc5YWdzcHl2MHZ4NmxtbmxmaDJzZDBkY3h5NHJrazM0OWcxbDQ5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ryFYCNapQW4FSjReIw/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-evil-eye-shock.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/dark-knight/evil-eye.png} tip={Evil Eye (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Evil Eye Shock",
+                    "shortDesc": "The Evil Eye appears in front of you, attacking up to 10 enemies 7 times, and dealing 1344% damage. Hit enemies have a 90% chance to be stunned for 5 sec.\\nLaunches 4 spectral shadows that deal 860% damage 5 times to up to 3 enemies.\\nCooldown: 10 sec.\\n[HEXA Nightshade Explosion] Damage: +307% points\\n[HEXA Revenge of the Evil Eye] Damage: +37% points\\n[Evil Eye's Punishment] Damage: +55% points",
+                    "icons": ["/class-icons/explorers/dark-knight/hexa-evil-eye-shock.png", "/class-icons/explorers/dark-knight/evil-eye-shock.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajhndmkwMnNqODFrejZ2a3ozcWhhYWNidDc0NDdlaWU5NWx0Y2FmMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UBMg86H84NFswvJf8J/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Dead Space",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nChase Cuts occur 6 times which attack up to 15 enemies with 1200% damage 6 times, after that 58 Gate(s) of Darkness are released to attack up to 15 enemies with 1035% damage 14 times\\nCooldown: 360 seconds",
+                    "icons": ["/class-icons/explorers/dark-knight/dead-space.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmloZndiazA3MW9iajVqNWlhNGcxend0OGg2bTI5MHZ2MXZ6YjFpeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2IGtZUsVHgXjeB3GE1/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Dark Halidom",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThrows a spear imbued with the dark contract that pierces 12 times, dealing 4115% damage up to 15 enemies 12 times.\\nThen grabs and sweeps with the spear, striking 16 times and dealing 5534% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/dark-knight/dark-halidom.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGNqZ3psMDNsN2l4N3g1Mng3MDIzZmFvaGU5ZnBwYzYwNDRidmgxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KRmfTfZAbyd3wlo7Yo/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Spear of Darkness Boost",
+                    "shortDesc": "Spear of Darkness Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/dark-knight/spear-of-darkness.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Radiant Evil Boost",
+                    "shortDesc": "Radiant Evil Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/dark-knight/radiant-evil.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Calamitous Cyclone Boost",
+                    "shortDesc": "Calamitous Cyclone Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/dark-knight/calamitous-cyclone.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Darkness Aura Boost",
+                    "shortDesc": "Darkness Aura Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/dark-knight/darkness-aura.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Evil Eye Shock - 2nd Job",
+                "icons": ["/class-icons/explorers/dark-knight/evil-eye-shock.png"],
+                "animations": ["https://media.giphy.com/media/zBiF5TyzMBd31eTpD8/giphy.gif"]
+            },
+            {
+                "name": "Gungnir's Descent - 4th Job",
+                "icons": ["/class-icons/explorers/dark-knight/gungnirs-descent.png"],
+                "animations": ["https://media.giphy.com/media/jWty7Pgk3JwJeeXw41/giphy.gif"]
+            },
+            {
+                "name": "Dark Impale - 4th Job",
+                "icons": ["/class-icons/explorers/dark-knight/dark-impale.png"],
+                "animations": ["https://media.giphy.com/media/locEfYOba5iJndu0Hm/giphy.gif"]
+            },
+            {
+                "name": "Nightshade Explosion - Hyper Skill",
+                "icons": ["/class-icons/explorers/dark-knight/nightshade-explosion.png"],
+                "animations": ["https://media.giphy.com/media/iPmgqeJFplNlW4DcFl/giphy.gif"]
+            },
+            {
+                "name": "Radiant Evil - 5th Job",
+                "icons": ["/class-icons/explorers/dark-knight/radiant-evil.png"],
+                "animations": ["https://media.giphy.com/media/EuiqmppgXVXmIOv15A/giphy.gif"]
+            },
+            {
+                "name": "Calamitous Cyclone - 5th Job",
+                "icons": ["/class-icons/explorers/dark-knight/calamitous-cyclone.png"],
+                "animations": ["https://media.giphy.com/media/vC2Fu4TbFBDZlwwxJb/giphy.gif"]
+            },
+            {
+                "name": "Darkness Aura - 5th Job",
+                "icons": ["/class-icons/explorers/dark-knight/darkness-aura.png"],
+                "animations": ["https://media.giphy.com/media/aXgariVUq4XWkJz3YG/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Dead Space - 6th Job",
+                "icons": ["/class-icons/explorers/dark-knight/dead-space.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmloZndiazA3MW9iajVqNWlhNGcxend0OGg2bTI5MHZ2MXZ6YjFpeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2IGtZUsVHgXjeB3GE1/giphy.gif"]
+            },
+            {
+                "name": "Dark Halidom - 6th Job",
+                "icons": ["/class-icons/explorers/dark-knight/dark-halidom.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGNqZ3psMDNsN2l4N3g1Mng3MDIzZmFvaGU5ZnBwYzYwNDRidmgxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KRmfTfZAbyd3wlo7Yo/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Dark Knight is a STR warrior class part of the Explorers. Dark Knight utilizes Spears and Polearms as their primary weapons. For their secondary weapon, Dark Knight can equip Iron Chains"
+}

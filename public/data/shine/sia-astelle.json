@@ -1,0 +1,1147 @@
+{
+    "class": "Sia Astelle",
+    "content": {
+        "classGroup": "Shine",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "%Abnormal Status Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["celestialLight"]},
+            {"secondary": ["compass"]}
+        ],
+        "innerAbility": [
+            {
+                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/shine/sia-astelle/oort-wave.png} tip={Oort Wave (2nd Job)} val={+1}> <bg src={/class-icons/shine/sia-astelle/astral-force.png} tip={Astral Force (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/shine/sia-astelle/astral-assimilation.png} tip={Astral Assimilation (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+40 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/shine/sia-astelle/oort-wave.png} tip={Oort Wave (2nd Job)} val={+20}> <bg src={/class-icons/shine/sia-astelle/astral-force.png} tip={Astral Force (2nd Job)} val={+20}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+14% +100(160)",
+                "detail": "<bg src={/class-icons/shine/stellar-equalize.png} tip={Stellar Equalize (Beginner Skill)} val={+4%}> <bg src={/class-icons/shine/sia-astelle/astral-elements.png} tip={Astral Elements (3rd Job)} val={+10%}> <bg src={/class-icons/shine/sia-astelle/astral-movement.png} tip={Astral Movement (1st Job)} val={+20}> <bg src={/class-icons/shine/sia-astelle/astral-force.png} tip={Astral Force (2nd Job)} val={+30}> <bg src={/class-icons/shine/sia-astelle/astral-assimilation.png} tip={Astral Assimilation (4th Job)} val={+50}> <bg type={temp} src={/class-icons/shine/sia-astelle/stellar-iii-alchiba.png} tip={Stellar III - Alchiba (3rd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/tree-of-stars.png} tip={Tree of Stars (5th Job)} val={+30}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+35%(45%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/shine/sia-astelle/astral-elements.png} tip={Astral Elements (3rd Job)} val={+10%}> <bg src={/class-icons/shine/sia-astelle/astral-assimilation.png} tip={Astral Assimilation (4th Job)} val={+20%}> <bg type={temp} src={/class-icons/shine/sia-astelle/stellar-x-capella.png} tip={Stellar X - Capella (Hyper Skill)} val={+10%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+36%(66%)",
+                "detail": "<bg src={/class-icons/link-skills/guiding-stars.png} tip={Guiding Stars (Link Skill)} val={+6%}> <bg src={/class-icons/shine/sia-astelle/celestial-alignment.png} tip={Celestial Alignment (2nd Job)} val={+10%}> <bg src={/class-icons/shine/sia-astelle/astral-elements.png} tip={Astral Elements (3rd Job)} val={+10%}> <bg src={/class-icons/shine/sia-astelle/astral-assimilation.png} tip={Astral Assimilation (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/shine/sia-astelle/stellar-x-capella.png} tip={Stellar X - Capella (Hyper Skill)} val={+20%} val={+10% extra w/ Stellagram}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+45%(105%)",
+                "detail": "<bg src={/class-icons/shine/sia-astelle/oort-wave.png} tip={Oort Wave (2nd Job)} val={+15%}> <bg src={/class-icons/shine/sia-astelle/astral-infinity.png} tip={Astral Infinity (4th Job)} val={+30%}> <bg type={temp} src={/class-icons/shine/sia-astelle/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix (3rd Job)} val={+10%}> <bg type={temp} src={/class-icons/shine/sia-astelle/observe.png} tip={Observe (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/tree-of-stars.png} tip={Tree of Stars (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+20%(40%)",
+                "detail": "<bg src={/class-icons/shine/sia-astelle/astral-infinity.png} tip={Astral Infinity (4th Job)} val={+20%}> <bg type={temp} src={/class-icons/shine/sia-astelle/saviors-circle.png} tip={Savior's Circle (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+68.75%(118.70%)",
+                "detail": "<bg src={/class-icons/shine/sia-astelle/stellar-enhancement-i.png} tip={Stellar Enhancement I (3rd Job)} val={+25%}> × <bg src={/class-icons/shine/sia-astelle/stellar-enhancement-ii.png} tip={Stellar Enhancement II (4th Job)} val={+35%}> × <bg type={temp} sub={opt} src={/class-icons/shine/sia-astelle/appear.png} tip={Appear (4th Job)} val={+10%} subSrc={/class-icons/shine/sia-astelle/appear-enhance.png} subTip={Appear - Enhance (Hyper Skill)} subVal={extra +10%}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+30%(43.3%)",
+                "detail": "<bg src={/class-icons/shine/sia-astelle/astral-infinity.png} tip={Astral Infinity (4th Job)} val={+30%}> × <bg type={temp} src={/class-icons/shine/sia-astelle/stellar-iii-alchiba.png} tip={Stellar III - Alchiba (3rd Job)} val={+10%}> × <bg type={temp} src={/class-icons/shine/sia-astelle/stellar-xi-sirius.png} tip={Stellar XI - Sirius (5th Job)} val={+10%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/shine/sia-astelle/celestial-alignment.png} tip={Celestial Alignment (2nd Job)} dur={[80s]}>",
+            "toggles": "<tt src={/class-icons/shine/sia-astelle/starlight.png} tip={Starlight (1st Job)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>[30s cd]",
+            "summons": "<tt src={/class-icons/shine/sia-astelle/stellar-i-antares.png} tip={Stellar I - Antares (1st Job)} dur={[6/14s](10s recharge - up to 4)}> <tt src={/class-icons/shine/sia-astelle/stellar-ii-algol.png} tip={Stellar II - Algol (2nd Job)} dur={[60/120s](45s cd)}> <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)} dur={[10s](2s cd)}> <tt src={/class-icons/shine/sia-astelle/stellar-ix-canopus.png} tip={Stellar IX - Canopus (Hyper Skill)} dur={[12/30s](60s cd)}> <tt src={/class-icons/shine/sia-astelle/stellar-xi-sirius.png} tip={Stellar XI - Sirius (5th Job)} dur={[12s](60s cd)}> <tt src={/class-icons/shine/sia-astelle/stellar-xii-sadalsuud.png} tip={Stellar XII - Sadalsuud (5th Job)} dur={[20s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/shine/sia-astelle/stellar-iii-alchiba.png} tip={Stellar III - Alchiba (3rd Job)} dur={[30s](60s cd)}> <tt src={/class-icons/shine/sia-astelle/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix (3rd Job)} dur={[30s](60s cd)}> <tt src={/class-icons/shine/sia-astelle/appear.png} tip={Appear (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/shine/sia-astelle/stellar-x-capella.png} tip={Stellar X - Capella (Hyper Skill)} dur={[20s](60s cd)}> <tt src={/class-icons/shine/sia-astelle/observe.png} tip={Observe (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/shine/sia-astelle/shine.png} tip={Shine (5th Job)} dur={[25s](60s cd)}> <tt src={/class-icons/shine/sia-astelle/stellar-xi-sirius.png} tip={Stellar XI - Sirius (5th Job)} dur={[10/22s](60s cd)}> <tt src={/class-icons/shine/sia-astelle/saviors-circle.png} tip={Savior's Circle (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/tree-of-stars.png} tip={Tree of Stars (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/shine/stellar-equalize.png} tip={Stellar Equalize (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/shine/sia-astelle/time-binder.png} tip={Time Binder (5th Job)} dur={[13s](120s cd)}> <tt src={/class-icons/shine/sia-astelle/celestial-design.png} tip={Primal Asterism (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/shine/sia-astelle/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={[2/3s](90s cd)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/shine/sia-astelle/celestial-design.png} tip={Primal Asterism (6th Job)} dur={[360s cd]}>",
+            "damageReduce": "<tt src={/class-icons/shine/sia-astelle/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={[12s](-20% | 90s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 180000001,
+            "offline": true,
+            "name": "Guiding Stars",
+            "shortDesc": "Buff Duration: +19%, Critical Damage: +6%",
+            "icons": ["/class-icons/link-skills/guiding-stars.png"],
+            "maxLevel": 6,
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 2 times for each unique Shine class to reach Master Level"
+            ]
+        },
+        "howToCreate": {
+            "image": ["/class-icons/shine/how-to-create-sia-astelle.png",[499,374]],
+            "npc": [
+                ["",""]
+
+            ],
+            "info": [
+                "Sia Astelle is only available for creation in Global MapleStory"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/shine/sia-astelle/starry-flow.png} tip={Starry Flow}> -> <tt src={/class-icons/shine/sia-astelle/starry-leap.png} tip={Starry Leap}> -> <tt src={/class-icons/shine/sia-astelle/starlight.png} tip={Starlight}> -> <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray}> -> <tt src={/class-icons/shine/sia-astelle/stellar-i-antares.png} tip={Stellar I - Antares}> -> <tt src={/class-icons/shine/sia-astelle/astral-movement.png} tip={Astral Movement}> -> <tt src={/class-icons/shine/sia-astelle/astral-magic-guard.png} tip={Astral Magic Guard}>"],
+                ["2nd Job", "<tt src={/class-icons/shine/sia-astelle/celestial-alignment.png} tip={Celestial Alignment}> -> <tt src={/class-icons/shine/sia-astelle/astral-force.png} tip={Astral Force}> -> <tt src={/class-icons/shine/sia-astelle/astral-energy.png} tip={Astral Energy}> -> <tt src={/class-icons/shine/sia-astelle/starlight-enhancement-i.png} tip={Starlight Enhancement I}> -> <tt src={/class-icons/shine/sia-astelle/oort-wave.png} tip={Oort Wave}> -> <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom}> -> <tt src={/class-icons/shine/sia-astelle/stellar-ii-algol.png} tip={Stellar II - Algol}>"],
+                ["3rd Job", "<tt src={/class-icons/shine/sia-astelle/starry-boost.png} tip={Starry Boost}> -> <tt src={/class-icons/shine/sia-astelle/astral-elements.png} tip={Astral Elements}> -> <tt src={/class-icons/shine/sia-astelle/astral-invincibility.png} tip={Astral Invincibility}> -> <tt src={/class-icons/shine/sia-astelle/stellar-enhancement-i.png} tip={Stellar Enhancement I}> -> <tt src={/class-icons/shine/sia-astelle/starlight-enhancement-ii.png} tip={Starlight Enhancement II}> -> <tt src={/class-icons/shine/sia-astelle/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix}> -> <tt src={/class-icons/shine/sia-astelle/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut}> -> <tt src={/class-icons/shine/sia-astelle/stellar-iii-alchiba.png} tip={Stellar III - Alchiba}> -> <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole}>"],
+                ["4th Job", "<tt src={/class-icons/shine/sia-astelle/astral-assimilation.png} tip={Astral Assimilation}> -> <tt src={/class-icons/shine/sia-astelle/astral-infinity.png} tip={Astral Infinity}> -> <tt src={/class-icons/shine/sia-astelle/stellar-enhancement-ii.png} tip={Stellar Enhancement II}> -> <tt src={/class-icons/shine/sia-astelle/starlight-enhancement-iii.png} tip={Starlight Enhancement III}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/shine/sia-astelle/stellar-vi-izar.png} tip={Stellar VI - Izar}> -> <tt src={/class-icons/shine/sia-astelle/stellar-vii-vega.png} tip={Stellar VII - Vega}> -> <tt src={/class-icons/shine/sia-astelle/link.png} tip={Link}> -> <tt src={/class-icons/shine/sia-astelle/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik}> -> <tt src={/class-icons/shine/sia-astelle/appear.png} tip={Appear}> -> <tt src={/class-icons/shine/sia-astelle/pulse.png} tip={Pulsing}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/shine/sia-astelle/marking-reinforce.png} tip={Marking - Reinforce}> <tt src={/class-icons/shine/sia-astelle/marking-extra-strike.png} tip={Marking - Extra Strike}> Marking - Reinforce and Extra Strike_<tt src={/class-icons/shine/sia-astelle/stellar-marking-reinforce-duration.png} tip={Stellar Marking - Reinforce Duration}> Stellar Marking - Reinforce Duration_<tt src={/class-icons/shine/sia-astelle/appear-enhance.png} tip={Appear - Enhance}> <tt src={/class-icons/shine/sia-astelle/appear-persist.png} tip={Appear - Persist}> Appear - Enhance and Persist_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}>"],
+                    ["", "<tt src={/class-icons/shine/sia-astelle/starlight.png} tip={Starlight (1st Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-i-antares.png} tip={Stellar I - Antares (1st Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-ii-algol.png} tip={Stellar II - Algol (2nd Job)}>"],
+                    ["", "<tt src={/class-icons/shine/sia-astelle/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut (3rd Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-vi-izar.png} tip={Stellar VI - Izar (4th Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-vii-vega.png} tip={Stellar VII - Vega (4th Job)}>"],
+                    ["", "<tt src={/class-icons/shine/sia-astelle/stellar-ix-canopus.png} tip={Stellar IX - Canopus (Hyper Skill)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "7 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [1,2,3],
+            "secondary": [0,4,5],
+            "nodes": [
+                "<tt src={/class-icons/shine/sia-astelle/starlight.png} tip={Starlight (1st Job)}>",
+                "<tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-i-antares.png} tip={Stellar I - Antares (1st Job)}>",
+                "<tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-ii-algol.png} tip={Stellar II - Algol (2nd Job)}>",
+                "<tt src={/class-icons/shine/sia-astelle/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut (3rd Job)}> <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}>",
+                "<tt src={/class-icons/shine/sia-astelle/stellar-vi-izar.png} tip={Stellar VI - Izar (4th Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-vii-vega.png} tip={Stellar VII - Vega (4th Job)}>",
+                "<tt src={/class-icons/shine/sia-astelle/stellar-ix-canopus.png} tip={Stellar IX - Canopus (Hyper Skill)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Sia_Astelle"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%8B%9C%EC%95%84%20%EC%95%84%EC%8A%A4%ED%85%94"},
+            {"title": "Class Discord", "link": "http://discord.gg/9pUBfTsntS"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1l4anp8MVMuIAMpcGj9WLQgMRhpjTIgKbMlNj9KHx2CI"},
+            {"title": "Erda Link Progression", "link": "https://docs.google.com/spreadsheets/d/1BDsJwMWZPjoNdV22_KSYxoLBQxcZ9Ls-WIXg5AzpO4E"}
+        ],
+        "infographics": [
+            {
+                "src": "sia-astelle/sia-astelle-overview.png",
+                "title": "Overview",
+                "credit": "Sia Astelle Discord",
+                "date": "2026-06-04"
+            },
+            {
+                "src": "sia-astelle/sia-astelle-6th-job.png",
+                "title": "6th Job",
+                "credit": "Sia Astelle Discord",
+                "date": "2026-09-04"
+            },
+            {
+                "src": "sia-astelle/stellar-marking.png",
+                "title": "Stellar Marking",
+                "credit": "MapleStory M",
+                "date": "N/A"
+            },
+            {
+                "src": "sia-astelle/stellar-overview.png",
+                "title": "Constellation Fusion",
+                "credit": "MapleStory M",
+                "date": "N/A"
+            }
+        ],
+        "specialThanks": "Special thanks to the members of the Sia Astelle Discord for their help in making this overview!",
+        "discord": "http://discord.gg/9pUBfTsntS",
+        "credits": [
+            ["Skill Icons + Animations, ", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Sia Astelle Discord"],
+            ["Infographic", "Sia Astelle Discord & MapleStory M"]
+        ],
+        "extraContent": {
+            "title": "Stellagram Fusion",
+            "content": [
+                "<img src={https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG8wbnRya2M3YTFnaGtoZTFrY3c1Z2syZnM2N3MzYWYxNzRjbTc4biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SzEFKJyUoOFCylDI6j/giphy.gif} alt={Stellagram Fusion}>",
+                "Sia's skills can be categorized as \"Marking Skills\" and \"Constellation Skills\". Upon using a \"Marking Skill\", it is recorded onto <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill)}> the Stellagram gauge. When a matching combination (in any order) is recorded onto the gauge, a [Stellagram Fusion] is triggered and a matching \"Constellation Skill\" is activated",
+                "\"Constellation Skills\" can also be assigned a Key Slot and used without a [Stellagram Fusion]. However, \"Constellation Skills\" activated using [Stellagram Fusion] gain a bonus effect",
+                "In 5th Job, using <tt src={/class-icons/shine/sia-astelle/shine.png} tip={Shine (5th Job)}> grants a buff where the bonus effect is always granted even without [Stellagram Fusion]",
+                "The <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill)}> Stellagram gauge can be reset by using <tt src={/class-icons/shine/sia-astelle/stellar-reset.png} tip={Stellar Reset (Beginner Skill)}> or by pressing the Down Arrow Key and <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> together. As well, each \"Constellation Skill\" can be locked by right-clicking the skill to prevent it from activating from [Stellagram Fusion]"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [
+                    {
+                        "name": "Guiding Stars",
+                        "shortDesc": "Buff Duration: +19%, Critical Damage: +6%",
+                        "icons": ["/class-icons/link-skills/guiding-stars.png"],
+                        "maxLevel": 6,
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Can be stacked up to 2 times for each unique Shine class to reach Master Level",
+                            "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                        ]
+                    },
+                    {
+                        "name": "Return to Oort",
+                        "shortDesc": "MP Cost: 30\\nCooldown: 600 sec.",
+                        "maxLevel": "1",
+                        "icons": ["/class-icons/shine/sia-astelle/return-to-oort.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmxwZjBkc3pscXdkMjQ3c3Z0eTFqbDhrZjh4cnh4NDJ1bWlxYmpuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VXyd0noff69L9Rpvns/giphy.gif"],
+                        "type": "Active",
+                        "desc": "When used, teleports to Oort, Sia's hometown",
+                        "details": [
+                            "This skill is gained by completing the Sia storyline"
+                        ]
+                    },
+                    {
+                        "name": "Starry Wave",
+                        "shortDesc": "MP Cost: 20",
+                        "maxLevel": "1",
+                        "icons": ["/class-icons/shine/sia-astelle/starry-wave.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTFuNnF4ZzhvMGNocnFsOWtsczA0dGVidHk0aTh0cWMybHAxZnY1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VbnCWRT65pRCFmgOOD/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While in the air, hold the Skill Key or the Jump Key to slowly glide",
+                        "details": [
+                            "Right-clicking the skill will toggle ON/OFF the Jump Key activation"
+                        ]
+                    },
+                    {
+                        "name": "Stellar Reset",
+                        "shortDesc": "Removes all marks recorded in the Stellagram",
+                        "maxLevel": "1",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-reset.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmxwZjBkc3pscXdkMjQ3c3Z0eTFqbDhrZjh4cnh4NDJ1bWlxYmpuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VXyd0noff69L9Rpvns/giphy.gif"],
+                        "type": "Active"
+                    },
+                    {
+                        "name": "Stellar Marking",
+                        "shortDesc": "When cast, Marking Skills will be recorded on the Stellagram. Once four skills are recorded on the Stellagram, the Constellation Skill that corresponds to the recorded combination will be triggered",
+                        "maxLevel": "1",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-marking.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "The order of the Marking Skills recorded does not matter"
+                        ]
+                    },
+                    {
+                        "name": "Stellar Equalize",
+                        "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power & Magic ATT: +4%\\nCooldown: 300 sec.",
+                        "maxLevel": "1",
+                        "icons": ["/class-icons/shine/stellar-equalize.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXZmNmd6cmd4OWVpOTVmOGFsbGlwbGd4bGF5MWRxcjh4eGI3Mml1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G6hYGF17g5sdNtsYaX/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "",
+                        "reqLev": "Req. 200",
+                        "details": [
+                            "Affects all nearby players",
+                            "This skill is gained by completing the Sia storyline"
+                        ]
+                    }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Ray",
+                        "shortDesc": "MP Cost: 24, Max Enemies Hit: 4, Damage: 90%, Number of Attacks: 4, Records Ray on the Stellagram",
+                        "maxLevel": "20",
+                        "icons": ["/class-icons/shine/sia-astelle/ray.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWVjaWVnOHc0azB1MzdoajNzYWF6ejNibmJjNWFhaGhuOHRrZG0wOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/svwNng6xWbFBlvdAw7/giphy.gif"],
+                        "type": "Marking Attack",
+                        "desc": "Fire a lance of starlight forward",
+                        "details": [
+                            "When used, skill is recorded on the Stellagram",
+                            "Pressing the Skill Key and Down Arrow Key together will reset the Stellagram record"
+                        ]
+                    },
+                    {
+                        "name": "Stellar I - Antares",
+                        "shortDesc": "MP Cost: 32, Summons a rabbit hole that periodically deals 160% collision damage 3 times to up to 6 enemies for 6 sec., Max Summons: 4\\nRabbit holes recharge every 10 sec., and you can have up to 4\\n[Stellagram Fusion] Rabbit Hole Duration: +8 sec.",
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTdsZXNjcHd1Zjd1aTI5dTQ4OWtsZTlkaWtrNmhyZ3hoM2E3ODUycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x7U6zhpgpuNuYsP1Tu/giphy.gif"],
+                        "maxLevel": "20",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-i-antares.png"],
+                        "type": "Constellation Summon",
+                        "desc": "Summon a rabbit hole that periodically pulls in and damages enemies within",
+                        "details": [
+                            "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}><bp_Grants increased summon duration_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>",
+                            "Up to 4 rabbit holes can be active at a time",
+                            "Skill can hold up to 4 rabbit holes and recharges every 10 sec",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Starlight",
+                        "shortDesc": "Upon attacking or activating a Constellation Skill, deals 90% damage 2 times and releases a travelling ray of starlight up to 3 times\\nThe ray of starlight attacks until it disappears or reaches the max number of attacks. When the starlight disappears, it attacks an enemy that was previously attacked an additional 1 times",
+                        "maxLevel": "5",
+                        "icons": ["/class-icons/shine/sia-astelle/starlight.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTB1ajZpOWEyazl3OHJxZ2h1Y2FtMTRzdDR6YjR3NnpneXI0d3U2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKILgpyIT4jsQ68aOk/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, using the Attack Key or Constellation Skill releases a damaging ray that bounces to nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Starry Flow",
+                        "shortDesc": "MP Cost: 20, Teleport Horizontal Range: 190, Teleport Vertical Range: 295",
+                        "maxLevel": "5",
+                        "icons": ["/class-icons/shine/sia-astelle/starry-flow.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjNrOGNybWgyaGs0YWw2b2tjbDl0cnZjMHJrcnJ0NzY1eDZha3YyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SVnGRtw1QnhX9AKtar/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "name": "Starry Leap",
+                        "shortDesc": "MP Cost: 25, Allows you to jump a greater distance",
+                        "maxLevel": "5",
+                        "icons": ["/class-icons/shine/sia-astelle/starry-leap.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWp4enl1azR4Nmp5b2ZsMnRnZzFyeHM3dGZ3ZWxsa3NnMmltYW8zYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9uRQdxKuxzrxdMjh70/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air"
+                        ]
+                    },
+                    {
+                        "name": "Astral Magic Guard",
+                        "shortDesc": "Damage Taken: -20%, 85% of damage taken goes to MP instead, Defense: +100, MP: +120 per level",
+                        "maxLevel": "5",
+                        "icons": ["/class-icons/shine/sia-astelle/astral-magic-guard.png"],
+                        "type": "Passive",
+                        "desc": "Reduces damage taken and a portion of your damage taken will be redirected towards your MP",
+                        "details": [
+                            "Additionally increases DEF",
+                            "Excludes attacks that deal %Max HP damage",
+                            "Will not work if you have 0 MP"
+                        ]
+                    },
+                    {
+                        "name": "Astral Movement",
+                        "shortDesc": "Magic ATT: +20, Speed: +22, Max Speed: +20, Jump: +20",
+                        "maxLevel": "5",
+                        "icons": ["/class-icons/shine/sia-astelle/astral-movement.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Boom",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 6, Damage: 210%, Number of Attacks: 3, Records Boom on the Stellagram",
+                        "maxLevel": "20",
+                        "icons": ["/class-icons/shine/sia-astelle/boom.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGY0anRlN3ZvNXlkMnkybGpwa3MyNHl4dnh2OXY5a3IzcDdhYTEzbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8rYaw51KL6HPJVTJ9B/giphy.gif"],
+                        "type": "Marking Attack",
+                        "desc": "Explode starlight in the surrounding area",
+                        "details": [
+                            "When used, skill is recorded on the Stellagram"
+                        ]
+                    },
+                    {
+                        "name": "Stellar II - Algol",
+                        "shortDesc": "MP Cost: 46, Summons Algol as a lizard that deals 210% damage to up to 8 enemies 4 times for 60 sec.\\n[Stellagram Fusion] Lizard Duration: +60 sec\\nCooldown: 45 sec.",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-ii-algol.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzl3cGZ4cmxkcDlxM3FzMzZ4dTRrcmJrdnVhb3F0aGFpdmZsMHU5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VzLz0pWpa7LySkqqJi/giphy.gif"],
+                        "maxLevel": "20",
+                        "type": "Constellation Summon",
+                        "desc": "Summons a lizard that periodically charges towards nearby enemies",
+                        "details": [
+                            "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}><bp_Grants increased summon duration_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>",
+                            "Targets bosses with the highest Max HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Celestial Alignment",
+                        "shortDesc": "MP Cost: 40, Duration: 80 sec., Critical Damage: +10%",
+                        "maxLevel": "10",
+                        "icons": ["/class-icons/shine/sia-astelle/celestial-alignment.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJoa2VtNzFmbWRxOWhrZWE5N3kzbGJpbWp4aXNwMXhjajBlYTJnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/X2sNXZY29wW7UvJQoJ/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Oort Wave",
+                        "shortDesc": "INT: +20, Damage: +15%, Attack Speed: +1",
+                        "maxLevel": "10",
+                        "icons": ["/class-icons/shine/sia-astelle/oort-wave.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Starlight Enhancement I",
+                        "shortDesc": "Starlight Damage: +100% points",
+                        "maxLevel": "10",
+                        "icons": ["/class-icons/shine/sia-astelle/starlight-enhancement-i.png", "/class-icons/shine/sia-astelle/starlight.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack by a flat amount",
+                            "Also applies to attack triggered by <tt src={/class-icons/shine/sia-astelle/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Astral Force",
+                        "shortDesc": "Magic Mastery: +50%, Magic ATT: +30, INT: +20, Attack Speed: +2",
+                        "maxLevel": "10",
+                        "icons": ["/class-icons/shine/sia-astelle/astral-force.png"],
+                        "type": "Passive"
+                    },
+                                    {
+                        "name": "Astral Energy",
+                        "shortDesc": "Max MP: +30%\\nMP Absorb Chance: 30%, Amount Absorbed: 5% of Max MP, Amount Absorbed: 3% of the boss's Max MP",
+                        "maxLevel": "14",
+                        "icons": ["/class-icons/shine/sia-astelle/astral-energy.png"],
+                        "type": "Passive",
+                        "desc": "Increases %Max MP and your attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Effectiveness is reduced for bosses"
+                        ]
+                    }]
+            ],
+            [
+                "3rd Job", [
+                    {
+                        "name": "Pole",
+                        "shortDesc": "MP Cost: 50, Summons starlight that deals 520% damage to up to 5 enemies 3 times for 10 sec., Records Pole on the Stellagram\\nCooldown: 2 sec.",
+                        "maxLevel": "20",
+                        "icons": ["/class-icons/shine/sia-astelle/pole.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWdrMWJtZ3oxbXRtaHB1NHhzdWpydG9scmltYzJ0eTBzcHFjdmVwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/COyKKZqXRocYBjV4C4/giphy.gif"],
+                        "type": "Marking Summon",
+                        "desc": "Place down a starlight that damages within it",
+                        "details": [
+                            "When used, skill is recorded on the Stellagram"
+                        ]
+                    },
+                    {
+                        "name": "Stellar III - Alchiba",
+                        "shortDesc": "MP Cost: 46, Duration: 30 sec., Ignore Defense: +10%\\n[Stellagram Fusion] Magic ATT: +30\\nCooldown: 60 sec.",
+                        "maxLevel": "20",
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG1vM3o5MWZ3ZHI2c3Bmcms3ZnVwaGgxdDQ1Y3Nic2FzOWZqODhiciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t5g2eC4qYerDco5bkk/giphy.gif"],
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-iii-alchiba.png"],
+                        "type": "Constellation Buff",
+                        "desc": "",
+                        "details": [
+                            "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}><bp_Grants Magic ATT_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>"
+                        ]
+                    },
+                    {
+                        "name": "Stellar IV - Bellatrix",
+                        "shortDesc": "MP Cost: 90, Duration: 30 sec., Damage: +10%, Activates Starlight Link at set intervals\\n[Stellagram Fusion] Number of Starlight Link attacks: +1\\nCooldown: 60 sec.",
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHBocndwcGthYmdwZ2I0NWcweTJkNzA5bTU3ZmIycjk1aThjb3lhdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UeRAO3sjswnRITR2pL/giphy.gif"],
+                        "maxLevel": "20",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-iv-bellatrix.png"],
+                        "type": "Constellation Buff",
+                        "desc": "Increases %Damage and periodically activates <tt src={/class-icons/shine/sia-astelle/starlight.png} tip={Starlight (1st Job)}>",
+                        "details": [
+                            "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}><bp_Grants an extra hit with triggered <tt src={/class-icons/shine/sia-astelle/starlight.png} tip={Starlight (1st Job)}>_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>"
+                        ]
+                    },
+                    {
+                        "name": "Stellar V - Fomalhaut",
+                        "shortDesc": "MP Cost: 90, Duration: 12, Max Enemies Hit: 8, Damage: 410%, Number of Attacks: 4, Horned Conches Created: 4\\n[Stellagram Fusion] Upon attacking, summons 4 Horned Conches that automatically pursue and attack nearby enemies.\\nConches deal 410% damage 2 times until the max number of attacks is reached or they disappear\\nAttacks up to 2 times, then disappears in 10 sec.\\nCooldown: 30 sec.",
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXA0bWh6OXkwNXJiYjY3ZDR3ZHp0aHh1ZTNnM2p4cjI3OWxrb3Y0NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pfYBnlpK8pipRU1Tkh/giphy.gif"],
+                        "maxLevel": "20",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-v-fomalhaut.png"],
+                        "type": "Constellation Attack",
+                        "desc": "Summon horned conches that spin around you and damages nearby enemies",
+                        "details": [
+                            "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}><bp_Creates additional horned conches that seek out and damage enemies_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Starry Boost",
+                        "shortDesc": "Horizontal Teleport Distance: +65, Vertical: +25",
+                        "maxLevel": "1",
+                        "icons": ["/class-icons/shine/sia-astelle/starry-boost.png"],
+                        "type": "Passive",
+                        "desc": "Permanently increases the teleport distance of <tt src={/class-icons/shine/sia-astelle/starry-flow.png} tip={Starry Flow (1st Job)}>"
+                    },
+                    {
+                        "name": "Stellar Enhancement I",
+                        "shortDesc": "Final Damage: +25%\\nRay - Enemies Hit: +1, Number of Attacks: +2, Damage: +200% points\\nBoom - Enemies Hit: +2, Number of Attacks: +1, Damage: +150% points\\nStellar I - Antares Damage: +250% points\\nStellar II - Algol Damage: +250% points",
+                        "maxLevel": "10",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-enhancement-i.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Permanently increases %Final Damage",
+                            "Increases the Number of Attacks and Enemies Hit for the following skills: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}>",
+                            "Increases %Damage by a flat amount for the following skills: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-i-antares.png} tip={Stellar I - Antares (1st Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-ii-algol.png} tip={Stellar II - Algol (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Starlight Enhancement II",
+                        "shortDesc": "Starlight Damage: +200% points",
+                        "maxLevel": "10",
+                        "icons": ["/class-icons/shine/sia-astelle/starlight-enhancement-ii.png", "/class-icons/shine/sia-astelle/starlight.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack by a flat amount",
+                            "Also applies to attack triggered by <tt src={/class-icons/shine/sia-astelle/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Astral Elements",
+                        "shortDesc": "Magic ATT: +10%, Critical Rate: +10%, Critical Damage: +10%",
+                        "maxLevel": "19",
+                        "icons": ["/class-icons/shine/sia-astelle/astral-elements.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Astral Invincibility",
+                        "shortDesc": "Knockback Resistance: +40%, Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": "4",
+                        "icons": ["/class-icons/shine/sia-astelle/astral-invincibility.png"],
+                        "type": "Passive"
+                    }]
+            ],
+            [
+                "4th Job", [
+                    {
+                        "name": "Link",
+                        "shortDesc": "MP Cost: 40, Restores 10% of Max HP, Records Link on the Stellagram\\nBonus HP Recovery While Enhanced: 5%\\nCooldown: 10 sec.",
+                        "maxLevel": "30",
+                        "icons": ["/class-icons/shine/sia-astelle/link.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHJ4bGR6bzBnanBmZ2hqandzMG82MjF2OWVncG4xMjFsNnhpczg5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eThWg0DRSqeUHGiYtd/giphy.gif"],
+                        "type": "Marking Heal",
+                        "desc": "When used, restores %Max HP",
+                        "details": [
+                            "While <tt src={/class-icons/shine/sia-astelle/appear.png} tip={Appear (4th Job)}> is active, the healing is increased",
+                            "When used, skill is recorded on the Stellagram"
+                        ]
+                    },
+                    {
+                        "name": "Stellar VI - Izar",
+                        "shortDesc": "MP Cost: 100, Blade Created: 3\\nEach blade deals 470% damage 3 times and disappear when they reach their maximum attack count\\nAttacks up to 8 times, then disappears\\n[Stellagram Fusion] +2 blade(s)\\nCooldown: 40 sec",
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFrdXhpd2sxMmVwbmhlYmJ3a2EweG1lMmJsdmIya3YwbnAxYTlxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EGqqVcph23ZWOeNznM/giphy.gif"],
+                        "maxLevel": "30",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-vi-izar.png"],
+                        "type": "Constellation Attack",
+                        "desc": "Create blades that seek out and damage nearby enemies",
+                        "details": [
+                            "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}> - <tt src={/class-icons/shine/sia-astelle/link.png} tip={Link (4th Job)}><bp_Creates additional blades_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>",
+                            "Targets bosses with the highest Max HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Stellar VII - Vega",
+                        "shortDesc": "MP Cost: 100, Unleashes a Starlit Gust that deals 700% damage to up to 15 enemies 10 times\\nAlso grants the Starlight Wings buff, which deals 700% damage to up to 5 enemies 3 times at set intervals for 8 sec.\\n[Stellagram Fusion] Starlight Wings Buff Duration: +6 sec.\\nCooldown: 30 sec.",
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjV6c3BmN2oydDI2dTU1MmxyN2R6b3FwaGtkcjVtZHN2MGltaXY1YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O6RCCzFfKZP3SAKQas/giphy.gif"],
+                        "maxLevel": "30",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-vii-vega.png"],
+                        "type": "Constellation Attack",
+                        "desc": "Release a gust that damages nearby enemies and grants the buff \"Starlight Wings\"",
+                        "details": [
+                            "[Starlight Wings]: Surrounds the character with a damaging zone",
+                            "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/link.png} tip={Link (4th Job)}><bp_Increases duration of Starlight Wings buff_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>"
+                        ]
+                    },
+                    {
+                        "name": "Stellar VIII - Sadalmelik",
+                        "shortDesc": "MP Cost: 40, Invincible for 2 sec. after casting\\nDamage taken is reduced by 20% for 12 sec., including proportional to max HP\\n[Stellagram Fusion] Invincibility Duration: +1 sec.\\nCooldown: 90 sec.",
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2xlNXRzeDZpNmxzamd1bHA2Nzk3NHFrOHF2M2ZndGFwdm4xaDVraiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/shbbW5XSyWm6hoiSgR/giphy.gif"],
+                        "maxLevel": "30",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-viii-sadalmelik.png"],
+                        "type": "Constellation Buff",
+                        "desc": "",
+                        "details": [
+                            "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/link.png} tip={Link (4th Job)}><bp_Grants increased invincibility duration_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Appear",
+                        "shortDesc": "MP Cost: 120, Duration: 10 sec., Final Damage: +10%\\nCooldown: 120 sec.",
+                        "maxLevel": "20",
+                        "icons": ["/class-icons/shine/sia-astelle/appear.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDRzdHBxOGZwYmxocTc1d2x6ejZ1dnVxbzF4ZWZibmx1NHlocmF4cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LDypOqj4xBlkpwwmoE/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "",
+                        "details": [
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHJ2NGljeXA5Z3V0dzZ0Zmxvbmw0Z2xreGFlMm91d2t4NDl5MTVlbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Bqp1qEweCxqM9fLzyF/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Pulse",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": "5",
+                        "icons": ["/class-icons/shine/sia-astelle/pulse.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXdlbG5tMjFrYmt2NXRvODMxbmh6cG96aXNocWJkMzQ4ZDgxOHJlZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/E5vAHk50r5UopxM0Gf/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs"
+                    },
+                    {
+                        "name": "Empowered Ray",
+                        "shortDesc": "MP Cost: 24, Max enemies Hit: 4, Damage: 90%, Number of Attacks: 4, Records Ray on the Stellagram",
+                        "maxLevel": "30",
+                        "icons": ["/class-icons/shine/sia-astelle/empowered-ray.png", "/class-icons/shine/sia-astelle/ray.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDVrMDR1Mzh1b3dsZzZzdHpoYjBxajVodXRmOGZzd2g0MXZ6MDJsMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hhdUbssLalLsCV8RLg/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "While <tt src={/class-icons/shine/sia-astelle/appear.png} tip={Appear (4th Job)}> is active, <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> is empowered and deals more damage and is larger",
+                        "details": [
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/shine/sia-astelle/stellar-enhancement-ii.png} tip={Stellar Enhancement II (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Enhanced Boom",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 6, Damage: 230%, Number of Attacks: 3, Records Boom on the Stellagram",
+                        "maxLevel": "30",
+                        "icons": ["/class-icons/shine/sia-astelle/enhanced-boom.png", "/class-icons/shine/sia-astelle/boom.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTI5djV0ZXJ1eG94eGVheTB3cHlkcG14M2p6NDFqYjgzMnQwcTlreCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Oltn9BKC9zibA9Goop/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "While <tt src={/class-icons/shine/sia-astelle/appear.png} tip={Appear (4th Job)}> is active, <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> is empowered and deals more damage and is larger",
+                        "details": [
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/shine/sia-astelle/stellar-enhancement-ii.png} tip={Stellar Enhancement II (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Stellar Enhancement II",
+                        "shortDesc": "Final Damage: +35%\\nRay - Enemies Hit: +1, Number of Attacks: +2, Damage: +70% points\\nBoom - Enemies Hit: +2, Number of Attacks: +1, Damage: +30% points\\nPole - Enemies Hit: +1, Number of Attacks: +1, Damage: +100% points\\nStellar I - Antares Damage: +470% points\\nStellar II - Algol Damage: +420% points\\nStellar V - Fomalhaut Damage: +370% points",
+                        "maxLevel": "30",
+                        "icons": ["/class-icons/shine/sia-astelle/stellar-enhancement-ii.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXI0aHdvbDJlMWs5c3ZnMWg1bHNraXh1M3A0NHZ5MGhnNmhoaXl1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7mFFvRrujx7wjlONqO/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGlyMnFrZWxiYW91b2h2aTJpa2tqN2t4eW5pMDdxOWpnczl0ZjA5YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a4bGwAHOdtq3B7TAAX/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Permanently increases %Final Damage",
+                            "Increases the Number of Attacks and Enemies Hit for the following skills: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}>",
+                            "Increases %Damage by a flat amount for the following skills: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-i-antares.png} tip={Stellar I - Antares (1st Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-ii-algol.png} tip={Stellar II - Algol (2nd Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut (3rd Job)}>",
+                            "Also changes the visual effect of <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Starlight Enhancement III",
+                        "shortDesc": "Starlight Damage: +300% points",
+                        "maxLevel": "30",
+                        "icons": ["/class-icons/shine/sia-astelle/starlight-enhancement-iii.png", "/class-icons/shine/sia-astelle/starlight.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack by a flat amount",
+                            "Also applies to attack triggered by <tt src={/class-icons/shine/sia-astelle/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Astral Assimilation",
+                        "shortDesc": "Magic Mastery: +70%, Magic ATT: +50, Critical Rate: +20%, Critical Damage: +10%",
+                        "maxLevel": "10",
+                        "icons": ["/class-icons/shine/sia-astelle/astral-assimilation.png", "/class-icons/shine/sia-astelle/astral-force.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Magic Mastery provided",
+                            "Now grants flat Magic Attack and increases %Crit Rate and %Crit Damage"
+                        ]
+                    },
+                    {
+                        "name": "Astral Infinity",
+                        "shortDesc": "Permanently Gain Damage: +30%, Boss Damage: +20%, Ignore Defense: +30%, Knockback Resistance: +60%",
+                        "maxLevel": "10",
+                        "icons": ["/class-icons/shine/sia-astelle/astral-infinity.png"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Marking - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/marking-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Marking - Extra Strike",
+                    "shortDesc": "Number of Marking Skill Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/marking-extra-strike.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Marking - Persist",
+                    "shortDesc": "Pole Duration: +3 sec.\\nLink HP Recovery: +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/marking-persist.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Stellar Marking - Enhance",
+                    "shortDesc": "Additional Starlight Link Activation: 1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-marking-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Stellar Marking - Reinforce Duration",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-marking-reinforce-duration.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Stellar - Harden",
+                    "shortDesc": "Permanently reduces damage taken by 10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-harden.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Appear - Enhance",
+                    "shortDesc": "Final Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/appear-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Appear - Persist",
+                    "shortDesc": "Duration: +10 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/appear-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Appear - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/appear-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Stellar IX - Canopus",
+                    "shortDesc": "MP Cost: 100, Summons Canopus as an anchor that deals 600% damage to up to 15 enemies 12 times for 12 sec.\\nCooldown: 60 sec.\\n[Stellagram Fusion] Canopus Duration: +18 sec.",
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3AxODh4cmxyanV3OHF5bTVyajRlaXZrNHJtc3Z0MW5ibW1uYmtoOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D1KzoZdhH5yD8fqoTJ/giphy.gif"],
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-ix-canopus.png"],
+                    "type": "Constellation Summon",
+                    "desc": "Summons an anchor that damages enemies within",
+                    "details": [
+                        "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}> - <tt src={/class-icons/shine/sia-astelle/link.png} tip={Link (4th Job)}><bp_Grants increased summon duration_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>",
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Stellar X - Capella",
+                    "shortDesc": "MP Cost: 150, Duration: 20 sec., Critical Rate: +10%, Critical Damage: +20%\\n[Stellagram Fusion] Critical Damage: +10%\\nCooldown: 60 sec.",
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3VvYjc2MWt4MHdhd3Y0ZmJ4N3g1aWw3MTBkbXFqZDF4OWhhdDYwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a2gkZqXnanGDaKeX55/giphy.gif"],
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-x-capella.png"],
+                    "type": "Constellation Buff",
+                    "desc": "",
+                    "details": [
+                        "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/link.png} tip={Link (4th Job)}><bp_Grants increased %Crit Damage_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Observe",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec., Damage: +10%\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/shine/sia-astelle/observe.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTloejFuNWt6ajZqODR6ejQ1b2ltM2prYjBvbHFvZjAwYXZoZXlybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/edJ4eVxsYNSW91FSkD/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["treeOfStars", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Shine",
+                    "shortDesc": "MP Cost: 400, Stellagram fusion effects will always activate upon completing a Constellation Skill for 25 sec., Records Shine on the Stellagram\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/shine.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb293Z3YwOXZ6d3RzM3RwaHFnc3IyaG9taDB4OWtmd2ZscmNrbWc0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gBJGV9uYHFA89PlUbA/giphy.gif"],
+                    "type": "Marking Buff",
+                    "desc": "While active, all Constellation Skills used gain the Stellagram Fusion bonus effect",
+                    "details": [
+                        "When used, skill is recorded on the Stellagram"
+                    ]
+                },
+                {
+                    "name": "Stellar XI - Sirius",
+                    "shortDesc": "MP Cost: 600, Summons Sirius as a wolf that deals 870% damage to up to 15 enemies 10 times for 12 sec.\\nThe wolf will howl before he disappears increasing Ignore Defense 10% for 10 sec.\\n[Stellagram Fusion] Grants the Howl buff while the wolf is active\\nCooldown: 60 sec.",
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHp1eXJuNXp2ZHgxdGVoZzEwdnE3Mmw1eXFydzVnenhldHJxenZqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fONMwYsSZVq49ihRDb/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGlhemZnem1leDVxMWsyZDIxYW5samZ1Z2NvN2ZpeDdsMTdiMWpzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7d6N2MlUPZaCSsPMmO/giphy.gif"],
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-xi-sirius.png"],
+                    "type": "Constellation Summon",
+                    "desc": "Summons a stationary wolf that attacks nearby enemies and grants a buff when it disappears",
+                    "details": [
+                        "[Buff]: Increases %Ignore DEF",
+                        "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> - <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> - <tt src={/class-icons/shine/sia-astelle/pole.png} tip={Pole (3rd Job)}> - <tt src={/class-icons/shine/sia-astelle/shine.png} tip={Shine (5th Job)}><bp_Additionally grants buff while wolf is summoned_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Stellar XII - Sadalsuud",
+                    "shortDesc": "MP Cost: 600, After 20 sec. or when used again after summoning, Max Enemies Hit: 9, Damage: 1130%, Number of Attacks: 15, Explosions: 10\\nThe hourglass can be enhanced by attacking the enemy with a constellation skill, increasing Final Damage by 100%\\n[Stellagram Fusion] Explosion Count: +4\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-xii-sadalsuud.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHU1eHB4NTAyY3A4eXh0M2NiMGVoeWlqdHF2eGwzNnQxZ2JvYmt6MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LN7E3Ld6TKdm5dYZ94/giphy.gif"],
+                    "type": "Constellation Summon",
+                    "desc": "Summons an hourglass that deals damage after a short period or when the Skill Key is pressed again",
+                    "details": [
+                        "[Stellagram]: <tt src={/class-icons/shine/sia-astelle/shine.png} tip={Shine (5th Job)}><bp_Grants increased number of explosions_Right-clicking the skill will toggle a lock ON/OFF preventing the skill from activating with <tt src={/class-icons/shine/sia-astelle/stellar-marking.png} tip={Stellar Marking (Beginner Skill}>_>",
+                        "While summoned, the hourglass gains %Final Damage based on enemies attacked by Constellation Skills"
+                    ]
+                },
+                {
+                    "name": "Time Binder",
+                    "shortDesc": "MP Cost: 65, Max Enemies Hit: 9, Stun Duration for Attacked Enemies: 13 sec.\\nStun Duration: +100%, depending on damage inflcited with Time Binder.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/time-binder.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzgwdXl4bHJmdXc2ZXR5OGk4M2EyZnhqcWtsendqbWI5MmtrYjZxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9fACzgRZ9H2JNVLlsf/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Bind nearby surrounding enemies"
+                },
+                {
+                    "name": "Savior's Circle",
+                    "shortDesc": "MP Cost: 450, Duration: 30 sec.\\nBoss Damage: +20%\\nStellar I - Antares Hits: +3\\nStellar II - Algol Hits: +2\\nStellar XI - Sirius Hits: +1\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/saviors-circle.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXlzc2ptaW5pcnR4enNrbzY0bzhxcWczNDBhb3g0eXJncWhwMWQ4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ay0goEmlQjfizIC7pa/giphy.gif"],
+                    "type": "Buff"
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Ray Boost",
+                    "shortDesc": "Ray Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/ray.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Boom Boost",
+                    "shortDesc": "Boom Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/boom.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Pole Boost",
+                    "shortDesc": "Pole Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/pole.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Starlight Boost",
+                    "shortDesc": "Starlight Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/starlight.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Stellar I - Antares Boost",
+                    "shortDesc": "Stellar I - Antares Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-i-antares.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Stellar II - Algol Boost",
+                    "shortDesc": "Stellar II - Algol Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-ii-algol.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Stellar V - Fomalhaut Boost",
+                    "shortDesc": "Stellar V - Fomalhaut Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-v-fomalhaut.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Stellar VI - Izar Boost",
+                    "shortDesc": "Stellar VI - Izar Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-vi-izar.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Stellar VII - Vega Boost",
+                    "shortDesc": "Stellar VII - Vega Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-vii-vega.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Stellar IX - Canopus Boost",
+                    "shortDesc": "Stellar IX - Canopus Final Damage: +120%",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-ix-canopus.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/shine/sia-astelle/shine-ray-antares.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/shine/sia-astelle/ray.png} tip={Ray (1st Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-i-antares.png} tip={Stellar I - Antares (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "SHINE Ray",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 5, Damage: 480%, Number of Attacks: 4, Records Ray on the Stellagram",
+                    "icons": ["/class-icons/shine/sia-astelle/shine-ray.png", "/class-icons/shine/sia-astelle/ray.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmpkOWEwNDl3bTI5MXRnYTN4emE1OHl4dHpodjZvN3dnaHB3c2cxbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a1rrWhCoOndSvXlDE8/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG9oOW1qN3duMTNzczdnaGg2b3ozYXBiZDZwczh3ZHprZWlvM3BucCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B50PDK43TAZ0qCnwfU/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "SHINE Stellar I - Antares",
+                    "shortDesc": "MP Cost: 64, Summons a rabbit hole that periodically deals 790% collision damage 4 times to up to 6 enemies for 6 sec., Max Summons: 4\\nRabbit holes recharge every 10 sec., and you can have up to 4\\n[Stellagram Fusion] Rabbit Hole Duration: +8 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/shine-antares.png", "/class-icons/shine/sia-astelle/stellar-i-antares.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTBuZmY2aXZ1emRscDhwYTh4OG15M2Z2NHVqemt1YWRkeDVoazE3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MwRSQKqpIXfraecYeK/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/shine/sia-astelle/shine-boom-algol-fomalhaut.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/shine/sia-astelle/boom.png} tip={Boom (2nd Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-ii-algol.png} tip={Stellar II - Algol (2nd Job)}> <tt src={/class-icons/shine/sia-astelle/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "SHINE Boom",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 6, Daamage: 510%, Number of Attacks: 4, Records Boom on the Stellagram",
+                    "icons": ["/class-icons/shine/sia-astelle/shine-boom.png", "/class-icons/shine/sia-astelle/boom.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDJwNDgxZ3hlNTQ1MTU3dzVpbjlod285cjc0OWpuNDhqenpiZWdtNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ElOKNLVbVJOvOLy8kd/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2hycmo4NWx5cnZocHA1OTBhNTQ3a2M1cXN3YjJ6bDl4NnFzdzV1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oKIZFnqYevd2QR6l0h/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "SHINE Stellar II - Algol",
+                    "shortDesc": "MP Cost: 96, Summons Algol as a lizard that deals 940% damage to up to 8 enemies 5 times for 60 sec.\\n[Stellagram Fusion] Algol Duration: +60 sec\\n[Surprise Attack] When attacking with Ray or Boom, Algol's afterimage deals 1060% damage to up to 8 enemies 7 times every 8 sec.\\nCooldown: 45 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/shine-algol.png", "/class-icons/shine/sia-astelle/stellar-ii-algol.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTRxaTJ6Nmx1bHpncDU1MHlmbHFtY2Y2bnoxcmN2dGNjbHhpcGk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BwziCCE7q6swR6VOH1/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzJ3emgzejdjNDk3NmF4YzZtZmJubXo0b2kxM2JnNmVoNW96Z2N0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RGUT7HpZ9ktdGsG61u/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "SHINE Stellar V - Fomalhaut",
+                    "shortDesc": "MP Cost: 140, Duration: 12, Max Enemies Hit: 8, Damage: 780%, Number of Attacks: 6, Horned Conches Created: 4\\n[Stellagram Fusion] Upon attacking, summons 4 Horned Conches that automatically pursue and attack nearby enemies.\\nConches deal 1360% daamage 2 t imes until the max number of attacks is reached or they disappear\\nAttacks up to 2 times, then disappears in 10 sec.\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/shine-fomalhaut.png", "/class-icons/shine/sia-astelle/stellar-v-fomalhaut.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXJxMWVibjFsODdzbGMzdWszbWg5eWk5anYxaTB6YnkzcTJqczltaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yUBFmMA3NcuZaTqSx6/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Celestial Design",
+                    "shortDesc": "MP Cost: 1500, invincible during casting\\nMax Enemies Hit: 15, Damage: 840%, Number of Attacks: 8, Starlight Explosion: 50\\nAfterwards, Damage: 1340%, Number of Attacks: 12, Starlight Explosion: 40\\nCooldown: 360 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/celestial-design.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWJvbzR2NTMwejMyeXJjbDFhaHEzZms1NTRzOXc1ZGc5eDN4ZGthaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ruMcRU0s7Lg4fkWJDG/giphy.gif"],
+                    "type": "Origin Skill"
+                },
+                {
+                    "name": "Starlit Cosmos",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nReceive the energy of the star flowers, Max Enemies Hit: 15, Damage: 7120%, Number of Attacks: 12, Starlight Flows: 6\\nAfterwards, Damage: 7300%, Number of Attacks: 15,  Shining Star Power: 21\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/shine/sia-astelle/starlit-cosmos.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXB2eGoxOWtsbWEwZzMwemdldmhoa3NyczZjNmdtbzBoMHJ6aW96biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IraayfNINH3FxPD7jp/giphy.gif"],
+                    "type": "Ascent Skill"
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Shine Boost",
+                    "shortDesc": "Shine Duration: 15 sec.",
+                    "icons": ["/class-icons/shine/sia-astelle/shine.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Stellar XI - Sirius Boost",
+                    "shortDesc": "Stellar XI - Sirius Final Damage: +60%",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-xi-sirius.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Stellar XII - Sadalsuud Boost",
+                    "shortDesc": "Stellar XII - Sadalsuud Final Damage: +60%",
+                    "icons": ["/class-icons/shine/sia-astelle/stellar-xii-sadalsuud.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Savior's Circle Boost",
+                    "shortDesc": "Spirit'S Circle Boss Damage: +40%",
+                    "icons": ["/class-icons/shine/sia-astelle/saviors-circle.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Stellar I - Antares - 1st Job",
+                "icons": ["/class-icons/shine/sia-astelle/stellar-i-antares.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTdsZXNjcHd1Zjd1aTI5dTQ4OWtsZTlkaWtrNmhyZ3hoM2E3ODUycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x7U6zhpgpuNuYsP1Tu/giphy.gif"]
+            },
+            {
+                "name": "Stellar II - Algol - 2nd Job",
+                "icons": ["/class-icons/shine/sia-astelle/stellar-ii-algol.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzl3cGZ4cmxkcDlxM3FzMzZ4dTRrcmJrdnVhb3F0aGFpdmZsMHU5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VzLz0pWpa7LySkqqJi/giphy.gif"]
+            },
+            {
+                "name": "Stellar III - Alchiba - 3rd Job",
+                "icons": ["/class-icons/shine/sia-astelle/stellar-iii-alchiba.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG1vM3o5MWZ3ZHI2c3Bmcms3ZnVwaGgxdDQ1Y3Nic2FzOWZqODhiciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t5g2eC4qYerDco5bkk/giphy.gif"]
+            },
+            {
+                "name": "Stellar VI - Izar - 4th Job",
+                "icons": ["/class-icons/shine/sia-astelle/stellar-vi-izar.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFrdXhpd2sxMmVwbmhlYmJ3a2EweG1lMmJsdmIya3YwbnAxYTlxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EGqqVcph23ZWOeNznM/giphy.gif"]
+            },
+            {
+                "name": "Stellar VII - Vega - 4th Job",
+                "icons": ["/class-icons/shine/sia-astelle/stellar-vii-vega.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjV6c3BmN2oydDI2dTU1MmxyN2R6b3FwaGtkcjVtZHN2MGltaXY1YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O6RCCzFfKZP3SAKQas/giphy.gif"]
+            },
+            {
+                "name": "Stellar IX - Canopus - Hyper Skill",
+                "icons": ["/class-icons/shine/sia-astelle/stellar-ix-canopus.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3AxODh4cmxyanV3OHF5bTVyajRlaXZrNHJtc3Z0MW5ibW1uYmtoOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D1KzoZdhH5yD8fqoTJ/giphy.gif"]
+            },
+            {
+                "name": "Stellar XI - Sirius - 5th Job",
+                "icons": ["/class-icons/shine/sia-astelle/stellar-xi-sirius.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHp1eXJuNXp2ZHgxdGVoZzEwdnE3Mmw1eXFydzVnenhldHJxenZqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fONMwYsSZVq49ihRDb/giphy.gif"]
+            },
+            {
+                "name": "Primal Asterism - 6th Job ",
+                "icons": ["/class-icons/shine/sia-astelle/celestial-design.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWJvbzR2NTMwejMyeXJjbDFhaHEzZms1NTRzOXc1ZGc5eDN4ZGthaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ruMcRU0s7Lg4fkWJDG/giphy.gif"]
+            },
+            {
+                "name": "Starlit Cosmos - 6th Job",
+                "icons": ["/class-icons/shine/sia-astelle/starlit-cosmos.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXB2eGoxOWtsbWEwZzMwemdldmhoa3NyczZjNmdtbzBoMHJ6aW96biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IraayfNINH3FxPD7jp/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Sia Astelle is an INT mage class part of the Shine. Sia Astelle utilize Celestial Light as their primary weapons. For their secondary weapon, Sia Astelle can equip Compasses"
+}

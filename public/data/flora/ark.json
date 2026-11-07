@@ -1,0 +1,1272 @@
+{
+    "class": "Ark",
+    "content": {
+        "classGroup": "Flora",
+        "jobGroup": "Pirate",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["knuckle"]},
+            {"secondary": ["abyssalPath"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Buff Duration +38% / Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Culvert",
+                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Chance to Skip Cooldown +10%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.7x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/flora/ark/knuckle-booster.png} tip={Knuckle Booster (2nd Job)} val={+2}> <bg src={/class-icons/flora/ark/gust-buff.png} tip={Gust Charge Drive - Spell Bullet (3rd Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/flora/ark/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+60 & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+60}> <bg src={/class-icons/flora/ark/hero-of-the-flora.png} tip={Hero of the Flora (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +140(240)",
+                "detail": "<bg src={/class-icons/flora/ark/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg src={/class-icons/flora/ark/mystic-arts-mastery.png} tip={Mystic Arts Mastery (1st Job)} val={+20}> <bg src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery (2nd Job)} val={+20}> <bg src={/class-icons/flora/ark/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+30}> <bg src={/class-icons/flora/ark/complete-fusion.png} tip={Complete Fusion (4th Job)} val={+40}> <bg type={def} sub={temp} src={/class-icons/flora/ark/scarlet-buff.png} tip={Scarlet Charge Drive - Spell Bullet (2nd Job)} val={+30} subSrc={/class-icons/flora/ark/charge-spell-amplifier.png} subTip={Charge Spell Amplifier (Hyper Skill)} subVal={doubled while active}> <bg src={/class-icons/flora/magic-conversion.png} tip={Magic Conversion (Beginner Skill)} val={25% of Magic Attack from equipment - excluding weapon} val={Cannot exceed 10% of weapon's base Magic Attack}> <bg type={temp} src={/class-icons/flora/ark/master-corruption.png} tip={Master Corruption (2nd Job)} val={+30 in Specter Mode}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+100 & 100% of Magic Attack from equipment - excluding weapon} val={Cannot exceed 150% of weapon's base Magic Attack}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+60%(80%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/flora/ark/initiate-fusion.png} tip={Initiate Fusion (2nd Job)} val={+5%}> <bg src={/class-icons/flora/ark/advanced-fusion.png} tip={Advanced Fusion (3rd Job)} val={+20%}> <bg src={/class-icons/flora/ark/complete-fusion.png} tip={Complete Fusion (4th Job)} val={+10%}> <bg type={def} sub={temp} src={/class-icons/flora/ark/scarlet-buff.png} tip={Scarlet Charge Drive - Spell Bullet (2nd Job)} val={+20%} subSrc={/class-icons/flora/ark/charge-spell-amplifier.png} subTip={Charge Spell Amplifier (Hyper Skill)} subVal={doubled while active}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%",
+                "detail": "<bg src={/class-icons/flora/ark/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+30%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "[Lv. 2 Link Skill]: +31%(106%) [Lv. 3 Link Skill]: +36%(111%)",
+                "detail": "<bg src={/class-icons/link-skills/solus.png} tip={Solus (Link Skill)} val={Lv. 2: +2% per stack (Max. +11%)} val={Lv. 3: +3% per stack (Max. +16%)}> <bg type={def} sub={temp} src={/class-icons/flora/ark/abyssal-buff.png} tip={Abyssal Charge Drive - Spell Bullet (4th Job)} val={+20%} subSrc={/class-icons/flora/ark/charge-spell-amplifier.png} subTip={Charge Spell Amplifier (Hyper Skill)} subVal={doubled while active}> <bg type={temp} src={/class-icons/flora/ark/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} val={+45%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+42%(72%)",
+                "detail": "<bg src={/class-icons/flora/ark/complete-fusion.png} tip={Complete Fusion (4th Job)} val={+12%}> <bg type={def} sub={temp} src={/class-icons/flora/ark/abyssal-buff.png} tip={Abyssal Charge Drive - Spell Bullet (4th Job)} val={+30%} subSrc={/class-icons/flora/ark/charge-spell-amplifier.png} subTip={Charge Spell Amplifier (Hyper Skill)} subVal={doubled while active}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+41.12%",
+                "detail": "<bg src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery (2nd Job)} val={+5%}> × <bg src={/class-icons/flora/ark/advanced-fusion.png} tip={Advanced Fusion (3rd Job)} val={+12%}> × <bg src={/class-icons/flora/ark/battle-frenzy.png} tip={Battle Frenzy (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+44%(58%)",
+                "detail": "<bg src={/class-icons/flora/ark/complete-fusion.png} tip={Complete Fusion (4th Job)} val={+30%}> × <bg type={def} sub={temp} src={/class-icons/flora/ark/abyssal-buff.png} tip={Abyssal Charge Drive - Spell Bullet (4th Job)} val={+20%} subSrc={/class-icons/flora/ark/charge-spell-amplifier.png} subTip={Charge Spell Amplifier (Hyper Skill)} subVal={doubled while active}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/flora/ark/knuckle-booster.png} tip={Knuckle Booster (2nd Job)} dur={[200s]}> <tt src={/class-icons/flora/ark/master-corruption.png} tip={Master Corruption (2nd Job)}>(Transform) | <bold text={[Spell Bullets]}> <tt src={/class-icons/flora/ark/basic-buff.png} tip={Basic Charge Drive (1st Job)}> <tt src={/class-icons/flora/ark/scarlet-buff.png} tip={Scarlet Charge Drive (2nd Job)}> <tt src={/class-icons/flora/ark/gust-buff.png} tip={Gust Charge Drive (3rd Job)}> <tt src={/class-icons/flora/ark/abyssal-buff.png} tip={Abyssal Charge Drive (4th Job)}> [60s each]",
+            "summons": "<tt src={/class-icons/flora/ark/endlessly-starving-beast.png} tip={Endlessly Starving Beast (5th Job)} dur={(120s cd)}>",
+            "buffCd": "<tt src={/class-icons/flora/ark/contact-caravan.png} tip={Contact Caravan (Beginner Skill)} dur={[300s](600s cd)}> <tt src={/class-icons/flora/ark/unending-hatred.png} tip={Unending Hatred (4th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/flora/ark/charge-spell-amplifier.png} tip={Charge Spell Amplifier (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/ark/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/ark/infinity-spell.png} tip={Infinity Spell (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>[1s cd](180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/flora/ark/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/flora/ark/blissful-restraint.png} tip={Blissful Restraint (4th Job)} dur={[9s](120s cd)}> <tt src={/class-icons/flora/ark/primordial-abyss.png} tip={Primordial Abyss (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/flora/ark/creeping-terror.png} tip={Creeping Terror (3rd Job)} dur={[Up to 5s](60s cd)}> <tt src={/class-icons/flora/ark/abyssal-recall.png} tip={Abyssal Recall (5th Job)} dur={(120s cd)}> <tt src={/class-icons/flora/ark/primordial-abyss.png} tip={Primordial Abyss (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/flora/ark/endless-agony.png} tip={Endless Agony (Hyper Skill)} dur={[Up to 3s](-50% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000514,
+            "icons": ["/class-icons/link-skills/solus.png"],
+            "type": "Passive",
+            "desc": "While in combat state, gain a stacking %Damage buff"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/flora/ark/mystic-leap.png} tip={Mystic Leap}> -> <tt src={/class-icons/flora/ark/mystic-arts-mastery.png} tip={Mystic Arts Mastery}> -> <tt src={/class-icons/flora/ark/spell-bullets.png} tip={Spell Bullets}> -> <tt src={/class-icons/flora/ark/basic-charge-drive.png} tip={Basic Charge Drive}> -> <tt src={/class-icons/flora/ark/ominous-nightmare.png} tip={Ominous Nightmare}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/flora/ark/initiate-fusion.png} tip={Initiate Fusion}> -> <tt src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery}> -> <tt src={/class-icons/flora/ark/knuckle-booster.png} tip={Knuckle Booster}> -> <tt src={/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive}> -> <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death}> -> <tt src={/class-icons/flora/ark/unstoppable-impulse.png} tip={Unstoppable Impulse}>"],
+                ["3rd Job", "<tt src={/class-icons/flora/ark/advanced-fusion.png} tip={Advanced Fusion}> -> <tt src={/class-icons/flora/ark/mystic-arts-training.png} tip={Mystic Arts Training}> -> <tt src={/class-icons/flora/ark/innate-arts-training.png} tip={Innate Arts Training}> -> <tt src={/class-icons/flora/ark/vivid-nightmare.png} tip={Vivid Nightmare}> -> <tt src={/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive}> -> <tt src={/class-icons/flora/ark/vengeful-hate.png} tip={Vengeful Hate}> -> <tt src={/class-icons/flora/ark/creeping-terror.png} tip={Creeping Terror}>"],
+                ["4th Job", "<tt src={/class-icons/flora/ark/battle-frenzy.png} tip={Battle Frenzy}> -> <tt src={/class-icons/flora/ark/complete-fusion.png} tip={Complete Fusion}> -> <tt src={/class-icons/flora/ark/advanced-mystic-arts.png} tip={Advanced Mystic Arts}> -> <tt src={/class-icons/flora/ark/advanced-innate-arts.png} tip={Advanced Innate Arts}> -> <tt src={/class-icons/flora/ark/knuckle-expert.png} tip={Knuckle Expert}> -> <tt src={/class-icons/flora/ark/hero-of-the-flora.png} tip={Hero of the Flora}> -> <tt src={/class-icons/flora/ark/endless-nightmare.png} tip={Endless Nightmare}> -> <tt src={/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive}> -> <tt src={/class-icons/flora/ark/blissful-restraint.png} tip={Blissful Restraint}> -> <tt src={/class-icons/flora/ark/floran-heros-will.png} tip={Floran Hero's Will}> -> <tt src={/class-icons/flora/ark/unending-hatred.png} tip={Unending Hatred}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/flora/ark/reinforced-battle-arts.png} tip={Reinforced Battle Arts}> <tt src={/class-icons/flora/ark/boss-rush-arts.png} tip={Boss Rush Arts}> Reinforced Battle Arts and Boss Rush Arts_<tt src={/class-icons/flora/ark/enhanced-spectra-healing.png} tip={Enhanced Spectra Healing}> <tt src={/class-icons/flora/ark/enhanced-specter-state.png} tip={Enhanced Specter State}> Enhanced Specter Healing and Enhanced Specter State_<tt src={/class-icons/flora/ark/euphoric-restraint.png} tip={Euphoric Restraint}> Euphoric Restraint OR <tt src={/class-icons/flora/ark/swift-creeping-terror.png} tip={Swift Creeping Terror}> Swift Creeping Terror_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/flora/ark/basic-charge-drive.png} tip={Overcharge Drive (Basic Charge Drive) (1st Job)}> <tt src={/class-icons/flora/ark/ominous-nightmare.png} tip={Ominous Nightmare/Dream (1st Job)}> <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death and Vengeful Hate (3rd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive and Unbridled Chaos (4th Job)}> <tt src={/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive and Insatiable Hunger (3rd Job)}> <tt src={/class-icons/flora/ark/endless-agony.png} tip={Creeping Terror, Blissful Restraint, and Endless Agony (3rd Job / 4th Job / Hyper Skill)}>"],
+                    ["Tertiary Trio", "<tt src={/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive and Grievous Wound (2nd Job)}> <tt src={/class-icons/flora/ark/unstoppable-impulse.png} tip={Unstoppable Impulse and Tenacious Instinct (2nd Job)}> *"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "The last skill from the Tertiary Trio can be any skill as Ark only has 8 skills to boost",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3,4,5],
+            "nodes": [
+                "<tt src={/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive (4th Job)}> <tt src={/class-icons/flora/ark/unbridled-chaos.png} tip={Unbridled Chaos (4th Job)}>",
+                "<tt src={/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive (3rd Job)}> <tt src={/class-icons/flora/ark/insatiable-hunger.png} tip={Insatiable Hunger (3rd Job)}>",
+                "<tt src={/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive (2nd Job)}> <tt src={/class-icons/flora/ark/grievous-wound.png} tip={Grievous Wound (2nd Job)}>",
+                "<tt src={/class-icons/flora/ark/basic-charge-drive.png} tip={Basic Charge Drive (1st Job)}> <tt src={/class-icons/flora/ark/creeping-terror.png} tip={Creeping Terror (3rd Job)}> <tt src={/class-icons/flora/ark/blissful-restraint.png} tip={Blissful Restraint (4th Job)}> <tt src={/class-icons/flora/ark/endless-agony.png} tip={Endless Agony (Hyper Skill)}>",
+                "<tt src={/class-icons/flora/ark/ominous-nightmare.png} tip={Ominous Nightmare/Dream (1st Job)}> <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}> <tt src={/class-icons/flora/ark/vengeful-hate.png} tip={Vengeful Hate (3rd Job)}>",
+                "<tt src={/class-icons/flora/ark/unstoppable-impulse.png} tip={Unstoppable Impulse and Tenacious Instinct (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Ark"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%95%84%ED%81%AC(,%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/ZvPTz6v"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1fA0jEOp5pUikqDUht0GadFPTzhxYTWZTVO_rNkz9erQ"}
+        ],
+        "infographics": [
+            {
+                "src": "ark/ark-6th-job.png",
+                "title": "6th Job",
+                "credit": "Ark Discord",
+                "date": "2026-06-03"
+            }
+        ],
+        "discord": "https://discord.gg/ZvPTz6v",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Specter Form & Skill Linking",
+            "content": [
+                "[Specter Form]",
+                "<img src={https://media2.giphy.com/media/dWIgcQBdaiVjkw33Lb/giphy.gif} alt={Specter Gauge}>",
+                "Ark has two forms, Lef Form and Specter Form which they can freely transform between. However, in 1st Job, you will have no control over when you transform. As you progress the story and reach 2nd Job, you unlock the skill <tt src={/class-icons/flora/ark/master-corruption.png} tip={Master Corruption (2nd Job)}> Master Corruption that allows you to switch between forms",
+                "Specter Form is temporary and Ark has a gauge that indicates how long you can stay in Specter Form. This gauge slowly regenerates while in Lef Form. While in Specter Form, certain skills are swapped. These skills will share Skill Points (SP) and the same Key Slot. Below is a list of all Lef and Specter skill counterparts:",
+                "<bp_<tt src={/class-icons/flora/ark/mystic-leap.png} tip={Mystic Leap (1st Job)}> / <tt src={/class-icons/flora/ark/instinctual-leap.png} tip={Instinctual Leap (1st Job)}> Mystic Leap & Instinctual Leap [1st Job]_<tt src={/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive (2nd Job)}> / <tt src={/class-icons/flora/ark/grievous-wound.png} tip={Grievous Wound (2nd Job)}> Scarlet Charge Drive & Grievous Wound [2nd Job]_<tt src={/class-icons/flora/ark/unstoppable-impulse.png} tip={Unstoppable Impulse (2nd Job)}> Unstoppable Impulse & Tenacious Instinct [2nd Job]_<tt src={/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive (3rd Job)}> / <tt src={/class-icons/flora/ark/insatiable-hunger.png} tip={Insatiable Hunger (3rd Job)}> Gust Charge Drive & Insatiable Hunger [3rd Job]_<tt src={/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive (4th Job)}> / <tt src={/class-icons/flora/ark/unbridled-chaos.png} tip={Unbridled Chaos (4th Job)}> Abyssal Charge Drive & Unbridled Chaos [4th Job]_>",
+                "[Skill Linking]",
+                "<img src={https://media0.giphy.com/media/KFfoPaqa1CJTvB9TPJ/giphy.gif} tip={Linking Skills}>",
+                "Ark can link any attack to <tt src={/class-icons/flora/ark/basic-charge-drive.png} tip={Basic Charge Drive (1st Job)}> Basic Charge Drive or <tt src={/class-icons/flora/ark/ominous-nightmare.png} tip={Ominous Nightmare (1st Job)}> Endless Dream, in their given forms. Linking attacks reduces the end animation delays and prevents the linked attack from displacing you"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Solus",
+                    "shortDesc": "Activates when the combat state continues for 5 sec. Can be stacked a max of 5 times. Duration: 5 sec\\nWhen activated, damage increases by 1%, and damage increases an extra 3% per stack",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/solus.png"],
+                    "type": "Passive",
+                    "desc": "While in combat state, gain a stacking %Damage buff",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Contact Caravan",
+                    "shortDesc": "MP Cost: 100, gains a buff for 300 sec\\nFerret: Active Cooldowns shortened by 10% (except skills that ignore cooldown resets)\\nSalvo: Damage increases by 8%\\nMar: EXP +4%\\nZippy: Applies Ferret, Salvo, and Mar's buffs at the same time at half strength\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/contact-caravan.png"],
+                    "animations": ["https://media2.giphy.com/media/4Zi1fJR52tKJXlVFPg/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, receive 1 of 4 possible buffs",
+                    "details": [
+                        "<tt src={/class-icons/flora/ark/contact-caravan-ferret.png} tip={Contact Caravan - Ferret (Beginner Skill)}> [Ferret]: Reduces any active cooldowns by a short amount",
+                        "<tt src={/class-icons/flora/ark/contact-caravan-salvo.png} tip={Contact Caravan - Salvo (Beginner Skill)}> [Salvo]: Increases your %Damage",
+                        "<tt src={/class-icons/flora/ark/contact-caravan-mar.png} tip={Contact Caravan - Mar (Beginner Skill)}> [Mar]: Increases %EXP gained",
+                        "<tt src={/class-icons/flora/ark/contact-caravan-zippy.png} tip={Contact Caravan - Zippy (Beginner Skill)}> [Zippy]: Applies all the buffs at the same time at half strength",
+                        "Right-clicking the skill will toggle ON/OFF the message pop-up when casting",
+                        "Unlocked from completing Ark Storyline",
+                        "Unaffected by cooldown resets and %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "Magic Conversion",
+                    "shortDesc": "25% of your equipment's Magic ATT is converted to Attack Power, excluding your weapon. Any set effects do not apply. Only converts up to 10% of your weapon's base Attack Power.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/magic-conversion.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power & Magic ATT: +4%\\nCooldown: 300 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/exclusive-spell.png"],
+                    "animations": ["https://media2.giphy.com/media/QRGLd9CCY2tVu8LHXi/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/219/Who%27s_the_true_victor%3F} title={\"Who's the true victor?\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Specter State",
+                        "shortDesc": "Activate Specter State after using Specter skills multiple times.\\nIf you use the last of your Spectra to maintain Specter State, you won't be able to recover it for 20 sec, even in Flora State\\nSpecter State\\nSkills: changed and enhanced, Attack Power: +30, Knockback Resistance: +100%",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/ark/specter-state.png"],
+                        "animations": ["https://media0.giphy.com/media/H5Ke6z1fvUIYT97mNf/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "After using enough Specter skills, you will be forced into Specter Mode",
+                        "details": [
+                            "While in Specter Mode, gain 100% Knockback Resistance and flat Attack",
+                            "In 2nd Job, completing the Ark Storyline unlocks a skill that allows you to freely transform",
+                            "When your Specter gauge fully depletes, you will not be able to regenerate it for a few seconds"
+                        ]
+                    },
+                    {
+                        "name": "Ominous Nightmare",
+                        "shortDesc": "HP Cost: 30, Damage: 90%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 2 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/ominous-nightmare.png"],
+                        "animations": ["https://media2.giphy.com/media/fqzaYix4q3syMqhY6Y/giphy.gif"],
+                        "type": "Lef | Attack",
+                        "desc": "Swipe forward with your specter arm"
+                    },
+                    {
+                        "name": "Ominous Dream",
+                        "shortDesc": "Damage: 120%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/ominous-dream.png"],
+                        "animations": ["https://media3.giphy.com/media/cmYkvo2YVa3s5TQMAY/giphy.gif"],
+                        "type": "Specter | Attack",
+                        "desc": "Swipe forward with your specter arm",
+                        "details": [
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/flora/ark/ominous-nightmare.png} tip={Ominous Nightmare (1st Job)}>",
+                            "Restores some %Max HP if attack hits"
+                        ]
+                    },
+                    {
+                        "name": "Basic Charge Drive",
+                        "shortDesc": "MP Cost: 16, Damage: 100%, Max Enemies Hit: 6, Number of Attacks: 3\\nBasic Cast: Damage: 50%, Number of Basic Casts: 2, Number of Attacks: 1\\nBasic Buff : Speed: + 20 when Basic Cast hits, Knockback Resistance: +50% when Basic Cast hits, Duration: 60 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/basic-charge-drive.png"],
+                        "animations": ["https://media0.giphy.com/media/WQBQ8L3rDdT5PxkZqO/giphy.gif"],
+                        "type": "Lef | Attack",
+                        "desc": "Swipe forward and charge a Spell Bullet",
+                        "details": [
+                            "[Spell Bullet]: Fires a homing bullet",
+                            "<tt src={/class-icons/flora/ark/basic-buff.png} tip={Basic Cast (1st Job)}> [Spell Bullet Buff]: Provides Movement Speed and %Knockback Resistance buff"
+                        ]
+                    },
+                    {
+                        "name": "Spell Bullets",
+                        "shortDesc": "MP Cost: 10, Shoot all charged spells at once like bullets.\\nDamage +5% for every extra bullet\\nMax Bullets: 5",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/ark/spell-bullets.png"],
+                        "animations": ["https://media1.giphy.com/media/qmPMA3vFyTqM3vhIDk/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire all Spell Bullets created from \"Charge Drive\" skills",
+                        "details": [
+                            "Each time a \"Charge Drive\" skill hits an enemy, it charges one Spell Bullet with a unique effect<bp_Bullets are displayed as small diamonds on the Specter gauge_>",
+                            "If a bullet hits an enemy, gain a buff depending on the \"Charge Drive\" skill",
+                            "Right-clicking the skill will toggle Auto Use ON/OFF"
+                        ]
+                    },
+                    {
+                        "name": "Mystic Leap",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/flora/ark/mystic-leap.png"],
+                        "animations": ["https://media2.giphy.com/media/PnChaj1vieuE932VW7/giphy.gif"],
+                        "type": "Lef | Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
+                        ]
+                    },
+                    {
+                        "name": "Instinctual Leap",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/flora/ark/instinctual-leap.png"],
+                        "animations": ["https://media2.giphy.com/media/Swg8DkSlnYoQ6srAEp/giphy.gif"],
+                        "type": "Specter | Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>",
+                            "Holding the Down Arrow Key while in the air allows you to fly slowly<bp_Right-clicking the skill will toggle ON/OFF this function_>",
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/flora/ark/mystic-leap.png} tip={Mystic Leap (1st Job)}>",
+                            "Horizontal jump can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "name": "Mystic Arts Mastery",
+                        "shortDesc": "Attack Power: +20, Speed: +27, Max Speed: +25, Jump: +20, Knockback Resistance: +50%, Defense: +250",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/ark/mystic-arts-mastery.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Master Corruption",
+                        "shortDesc": "Switch to Specter State\\nCooldown: 3 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/ark/master-corruption.png"],
+                        "animations": ["https://media3.giphy.com/media/0S9YOS3PEB47PHegmZ/giphy.gif"],
+                        "type": "Active Transform",
+                        "desc": "Transform into <tt src={/class-icons/flora/ark/specter-state.png} tip={Specter State (1st Job)}> Specter Mode",
+                        "details": [
+                            "The Specter gauge is slowly consumed while in Specter mode and slowly regenerates in Lef mode",
+                            "Unlocked by completing Ark storyline"
+                        ]
+                    },
+                    {
+                        "name": "Scarlet Charge Drive",
+                        "shortDesc": "MP Cost: 25, Damage: 80%, Max Enemies Hit: 6, Number of Attacks: 3\\nGenerates flames upon charging. Damage: 80%, Max Enemies Hit: 6, Number of Attacks: 3\\nCooldown: 3 sec\\nScarlet Cast: Damage: 90% Max Enemies Hit: 8, Number of Attacks: 5\\nScarlet Buff: Attack Power: +30 and Critical Rate +20% when Scarlet Buff hits. Duration: 60 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/scarlet-charge-drive.png"],
+                        "animations": ["https://media0.giphy.com/media/Y34wl7XtiiySMUoo4t/giphy.gif"],
+                        "type": "Lef | Attack",
+                        "desc": "Dash forward leaving behind a trail of fire and charges a Spell Bullet",
+                        "details": [
+                            "[Spell Bullet]: Fire a bullet that damages enemies in an area",
+                            "<tt src={/class-icons/flora/ark/scarlet-buff.png} tip={Scarlet Cast (2nd Job)}> [Spell Bullet Buff]: Increases %Crit Rate and grants flat Attack"
+                        ]
+                    },
+                    {
+                        "name": "Grievous Wound",
+                        "shortDesc": "Damage: 150%, Max Enemies Hit: 8, Number of Attacks: 6\\nRecovers 2% of Max HP when the attack hits\\nCooldown: 3 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/grievous-wound.png"],
+                        "animations": ["https://media0.giphy.com/media/MXzkgPLiYo02ZFc3Db/giphy.gif"],
+                        "type": "Specter | Attack",
+                        "desc": "Dash forward damaging enemies you pass through",
+                        "details": [
+                            "Restores some %Max HP if attack hits",
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Unstoppable Impulse",
+                        "shortDesc": "HP Cost: 70, Damage: 110%, Number of Attacks: 5, Max Enemies Hit: 6, Max Consecutive Use: 2 times\\nCooldown: 6 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/unstoppable-impulse.png"],
+                        "animations": ["https://media2.giphy.com/media/ZeF3EfB4RVnah0QkPG/giphy.gif"],
+                        "type": "Lef | Attack",
+                        "desc": "Dash diagonally damaging enemies you pass through",
+                        "details": [
+                            "Pressing the Down Arrow Key and Skill Key together will cause you to dash downwards",
+                            "Can be used twice in a row",
+                            "If linked, the skill will activate horizontally instead without dashing"
+                        ]
+                    },
+                    {
+                        "name": "Tenacious Instinct",
+                        "shortDesc": "Damage: 135%, Number of Attacks: 6, Max Enemies Hit: 6, Max Consecutive Use: 2 times\\nCooldown: 6 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/unstoppable-impulse.png"],
+                        "animations": ["https://media1.giphy.com/media/j04Hm7H8igPfw8lxaB/giphy.gif"],
+                        "type": "Specter | Attack",
+                        "desc": "Dash diagonally damaging enemies you pass through",
+                        "details": [
+                            "Pressing the Down Arrow Key and Skill Key together will cause you to dash downwards",
+                            "Can be used twice in a row",
+                            "If linked, the skill will activate horizontally instead without dashing",
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/flora/ark/unstoppable-impulse.png} tip={Unstoppable Impulse (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Impending Death",
+                        "shortDesc": "Generates Abyssal Aura when attacking. Damage: 190%, Number of Attacks: 2, Max Abyssal Aura: 6\\nThe strength of the Abyssal Aura is based on the number of enemies nearby.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/impending-death.png"],
+                        "animations": ["https://media0.giphy.com/media/Izim3k9QCQYDojhy57/giphy.gif"],
+                        "type": "Specter | Passive Attack",
+                        "desc": "Successful attacks create homing orbs in Specter Mode",
+                        "details": [
+                            "Prioritizes bosses with the highest HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Knuckle Booster",
+                        "shortDesc": "MP Cost: 10, Knuckle Attack Speed increased for 200 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/ark/knuckle-booster.png"],
+                        "animations": ["https://media3.giphy.com/media/YF7Dgi8JRHzqPsYySR/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "name": "Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +50%, Attack Power +20, Final Damage: +5%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/knuckle-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Initiate Fusion",
+                        "shortDesc": "Max HP: +20%, Max MP: +20%, Critical Rate: +5%\\nDamage Taken: -30%",
+                        "maxLevel": 8,
+                        "icons": ["/class-icons/flora/ark/initiate-fusion.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "STR +60",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Vivid Nightmare",
+                        "shortDesc": "HP Cost: 50, Damage: 270%, Number of Attacks: 6, Enemies Hit: 6\\nCooldown: 2 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/vivid-nightmare.png", "/class-icons/flora/ark/ominous-nightmare.png"],
+                        "type": "Lef | Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "Vivid Dream",
+                        "shortDesc": "Damage: 280%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/vivid-dream.png", "/class-icons/flora/ark/ominous-dream.png"],
+                        "type": "Specter | Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/flora/ark/vivid-nightmare.png} tip={Vivid Nightmare (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Gust Charge Drive",
+                        "shortDesc": "MP Cost: 40, Damage: 205%, Max Enemies Hit: 6, Number of Attacks: 6\\nCooldown: 5 sec\\nGust Cast: Pulls enemies nearby and does 200% damage. Max Enemies Hit: 12, Number of Attacks: 4\\nGust Buff: Duration: 60 sec. when Gust Cast hits, Attack Speed: +1, Avoidability: +25%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/gust-charge-drive.png"],
+                        "animations": ["https://media1.giphy.com/media/MFPYje0PKhfsq4dYws/giphy.gif"],
+                        "type": "Lef | Attack",
+                        "desc": "Dive downwards and charges a Spell Bullet",
+                        "details": [
+                            "Can only be used in the air or on the ground by linking with <tt src={/class-icons/flora/ark/basic-charge-drive.png} tip={Basic Charge Drive (1st Job)}>",
+                            "[Spell Bullet]: Fire a bullet that pulls in nearby enemies",
+                            "<tt src={/class-icons/flora/ark/gust-buff.png} tip={Gust Cast (3rd Job)}> [Spell Bullet Buff]: Increases Attack Speed (by 1 stage) and %Avoidability"
+                        ]
+                    },
+                    {
+                        "name": "Insatiable Hunger",
+                        "shortDesc": "Damage: 300%, Max Enemies Hit: 8, Number of Attacks: 7\\nRecovers 5% of Max HP when the attack hits\\nCooldown: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/insatiable-hunger.png"],
+                        "animations": ["https://media1.giphy.com/media/Zb0TsAv4co18cMvLRd/giphy.gif"],
+                        "type": "Specter | Attack",
+                        "desc": "Leap forward damaging enemies in front of you",
+                        "details": [
+                            "Restores some %Max HP if attack hits",
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Creeping Terror",
+                        "shortDesc": "MP Cost: 200 Max HP per 0.5 sec while holding the key, Max Duration: 5 sec, Invincible while holding down the key\\nBoundless Horror\\nDamage: 400%, Max Enemies Hit: 12, Number of Attacks: 15\\nCooldown: 60 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/creeping-terror.png"],
+                        "animations": ["https://media1.giphy.com/media/WQUYmWnkWxu7CrgOiV/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Burrow into the ground and emerge as a gigantic Specter",
+                        "details": [
+                            "While held, you will remain invincible and burrowed",
+                            "Upon emerging, you will be shifted into Specter Form",
+                            "Ignores Attack Ignore and Damage Reflect",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Vengeful Hate",
+                        "shortDesc": "20% chance to leave Abyssal Mark when Impending Death hits. Activates marks within a set range, dealing 370% damage to up to 8 enemies 6 times for every activated mark. Attack can activate 1 time\\nMax Mark Creation: 12, Max Duration: 20 sec\\nMax Mark Activation Limit for Auto Mode: 8\\nCooldown: 12 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/vengeful-hate.png"],
+                        "animations": ["https://media4.giphy.com/media/6T9Zdru5HreMK11lJM/giphy.gif"],
+                        "type": "Specter | Attack",
+                        "desc": "Successful attacks from <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}> have a chance to create blades that fly towards you while damaging enemies when skill is used",
+                        "details": [
+                            "Unaffected by Damage Reflect and cooldown resets",
+                            "Right-clicking the skill will toggle Auto Use ON/OFF"
+                        ]
+                    },
+                    {
+                        "name": "Mystic Arts Training",
+                        "shortDesc": "Basic Charge Drive Damage: +260% points, Basic Cast Damage: +160% points, Scarlet Charge Drive and Flame Damage: +100% points, Scarlet Cast Damage: +90% points",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/mystic-arts-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Innate Arts Training",
+                        "shortDesc": "Grievous Wound: +160% points, Unstoppable Impulse / Tenacious Instinct Damage: +150% points, Impending Death Damage: +145% points",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/ark/innate-arts-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Advanced Fusion",
+                        "shortDesc": "Final Damage: +12%, Critical Rate: +20%, Status Resistance: +40, All Elemental Resistance: +16%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/flora/ark/advanced-fusion.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "name": "Endless Nightmare",
+                    "shortDesc": "HP Cost: 85, Damage: 480%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 2 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/endless-nightmare.png", "/class-icons/flora/ark/ominous-nightmare.png"],
+                    "type": "Lef | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of attack"
+                    ]
+                },
+                {
+                    "name": "Endless Dream",
+                    "shortDesc": "Damage: 485%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/endless-dream.png", "/class-icons/flora/ark/ominous-dream.png"],
+                    "type": "Specter | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of attack",
+                        "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/flora/ark/endless-nightmare.png} tip={Endless Nightmare (4th Job)}>"
+                    ]
+                },
+                {
+                    "name": "Abyssal Charge Drive",
+                    "shortDesc": "HP Cost: 95, MP Cost: 65\\nDamage: 340%, Max Enemies Hit: 8, Number of Attacks: 4, Abyssal Magic: 650%, Abyssal Magic Max Enemies Hit: 8, Abyssal Magic Number of Attacks: 6\\nCooldown: 9 sec\\nAbyssal Cast: Creates Abyssal Cast when used. Abyssal Cast Duration: 3 sec, Abyssal Cast Max Enemies Hit: 8, Abyssal Cast Damage: 70%, Abyssal Cast Number of Attacks: 2\\nAbyssal Buff: Activates when Abyssal Cast hits. Duration: 60 sec. Damage: 20%, Boss Damage: +30%, Ignore Defense +20%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/abyssal-charge-drive.png"],
+                    "animations": ["https://media0.giphy.com/media/WmuCAIC260RcsKDDvS/giphy.gif"],
+                    "type": "Lef | Attack",
+                    "desc": "A giant specter hand slams into the ground damaging nearby enemies and charges a Spell Bullet",
+                    "details": [
+                        "While casting, you cannot be knocked back",
+                        "[Spell Bullet]: Fire a bullet that leaves a lingering damaging field",
+                        "<tt src={/class-icons/flora/ark/abyssal-buff.png} tip={Abyssal Cast (4th Job)}> [Spell Bullet Buff]: Increases %Damage, %Boss Damage, and %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Unbridled Chaos",
+                    "shortDesc": "Damage: 820%, Max Enemies Hit: 12, Number of Attacks: 12\\nRecovers 3% of Max HP when the attack hits\\nCooldown: 9 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/unbridled-chaos.png"],
+                    "animations": ["https://media1.giphy.com/media/iggX7D7dkuSNUIExRG/giphy.gif"],
+                    "type": "Specter | Attack",
+                    "desc": "Violently dash forward dealing damage to enemies",
+                    "details": [
+                        "Restores some %Max HP if attack hits",
+                        "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive (4th Job)}>"
+                    ]
+                },
+                {
+                    "name": "Blissful Restraint",
+                    "shortDesc": "HP Cost: 1100, Damage: 600%, Max Enemies Hit: 1, Number of Attacks: 6. Bind Duration: 10 sec, Bind duration can increase up to 100% based on the damage inflicted with this skill.\\nAfterward\\nDuration: 9 sec, Max Enemies Hit: 12, Damage: 400%, Number of Attacks: 3\\nWhen the skill ends:\\nDamage: 1000%, Max Enemies Hit: 12, Number of Additional Attacks: 8\\nCooldown: 120 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/blissful-restraint.png"],
+                    "animations": ["https://media3.giphy.com/media/h3oIXOQgxmzM14fKFC/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Dash towards a nearby enemy and bind them",
+                    "details": [
+                        "Attack prioritizes enemy with the highest Max HP",
+                        "When used, you will be shifted into Specter Form",
+                        "Right-clicking the skill toggles ON/OFF the dash movement when casting",
+                        "Unaffected by Damage Reflect, cooldown resets, and does not trigger <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}>"
+                    ]
+                },
+                {
+                    "name": "Unending Hatred",
+                    "shortDesc": "MP Cost: 100, Duration: 30\\nWhen Impending Death lands during the buff, Abyssal Mark Chance: 100%, Max Marrk Creation: 15, Max Mark Activation Limit for Auto Mode: 10\\nCooldown: 120 sec.",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/flora/ark/unending-hatred.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTlqMTV5ZDEyYmxhbGVjZWlkbzM0eG5pbWE4NnAwamk4MWdvbGt4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SUVJKRPoDsPeJRBG1A/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, successful attacks from <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}> always creates <tt src={/class-icons/flora/ark/vengeful-hate.png} tip={Vengeful Hate (3rd Job)}> marks and increases the max number of marks that can be created and activated",
+                    "details": [
+                        "Unaffected by cooldown reset, %Buff Duration, and <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Hero of the Flora",
+                    "shortDesc": "MP Cost: 70, creates a Flora emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/hero-of-the-flora.png"],
+                    "animations": ["https://media0.giphy.com/media/OHI7iswR11WGft9NVg/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Floran Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/flora/ark/floran-heros-will.png"],
+                    "animations": ["https://media1.giphy.com/media/2qpEVaM8y61HcNSEmJ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Knuckle Expert",
+                    "shortDesc": "Knuckle Mastery: +70%. Attack Power: +30, Critical Damage: +30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/knuckle-expert.png", "/class-icons/common/knuckle-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery and Attack provided",
+                        "Now increases %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Advanced Mystic Arts",
+                    "shortDesc": "Basic Charge Drive Damage: +372% points, Basic Cast Damage: +160% points, Scarlet Charge Drive and Flame Damage: +170% points, Scarlet Cast Damage: +40% points, Gust Charge Drive Damage: +365% points, Gust Cast Damage: +30% points",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/advanced-mystic-arts.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Advanced Innate Arts",
+                    "shortDesc": "Grievous Wound: +180% points, Unstoppable Impulse/Tenacious Instinct Damage: +175% points, Impending Death Damage: +115% points, Insatiable Hunger Damage: +500% points, Boundless Horror Damage: +890% points, Vengeful Hate Damage: +110% points",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/advanced-innate-arts.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Complete Fusion",
+                    "shortDesc": "Attack Power: +40, Critical Rate: +10%, Ignore Defense: +30%, Boss Damage: +12%\\nDamage Taken: -20%, Knockback Resistance: +50%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/ark/complete-fusion.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Battle Frenzy",
+                    "shortDesc": "Basic Charge Drive and Endless Dream Skill Link Speed and Final Damage: +20%",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/flora/ark/battle-frenzy.png"],
+                    "type": "Passive",
+                    "desc": "Increases Link Speed for <tt src={/class-icons/flora/ark/basic-charge-drive.png} tip={Basic Charge Drive (1st Job)}> or <tt src={/class-icons/flora/ark/ominous-dream.png} tip={Ominous Dream (4th Job)}> which makes it easier to further link skills",
+                    "details": [
+                        "Additionally, permanently increases %Final Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Reinforced Battle Arts",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/reinforced-battle-arts.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases pre-5th job attack's %Damage (except for <tt src={/class-icons/flora/ark/spell-bullets.png} tip={Spell Bullets (1st Job)}> <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}> <tt src={/class-icons/flora/ark/vengeful-hate.png} tip={Vengeful Hate (3rd Job)}>)"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Guardbreak Arts",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/guardbreak-arts.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases pre-5th job attack's %Ignore DEF (except for <tt src={/class-icons/flora/ark/spell-bullets.png} tip={Spell Bullets (1st Job)}> <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}> <tt src={/class-icons/flora/ark/vengeful-hate.png} tip={Vengeful Hate (3rd Job)}>)"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Boss Rush Arts",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/boss-rush-arts.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases pre-5th job attack's %Boss Damage (except for <tt src={/class-icons/flora/ark/spell-bullets.png} tip={Spell Bullets (1st Job)}> <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}> <tt src={/class-icons/flora/ark/vengeful-hate.png} tip={Vengeful Hate (3rd Job)}>)"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Incredibly Tenacious Instinct",
+                    "shortDesc": "Repeat Count: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/incredibly-tenacious-instinct.png"],
+                    "desc": "",
+                    "details": [
+                        "Increases the number of times <tt src={/class-icons/flora/ark/unstoppable-impulse.png} tip={Unstoppable Impulse (2nd Job)}> can be used"
+                    ],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Euphoric Restraint",
+                    "shortDesc": "Damage: +60%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/euphoric-restraint.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Swift Creeping Terror",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/swift-creeping-terror.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Enhanced Spectra Healing",
+                    "shortDesc": "Spectra Recovery Speed: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/enhanced-spectra-healing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases the rate at which your Specter gauge regenerates"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Enhanced Specter State",
+                    "shortDesc": "",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/enhanced-specter-state.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "You will be completely immune to knockbacks in Specter Form"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Advanced Specter State",
+                    "shortDesc": "",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/advanced-specter-state.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Using <tt src={/class-icons/flora/ark/master-corruption.png} tip={Master Corruption (2nd Job)}> during an attack will cancel that attack and shift you into Specter Form"
+                    ],
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Charge Spell Amplifier",
+                    "shortDesc": "MP Cost: 500, Duration: 60 sec\\nCharge Spell buff applied to party members who are within range when it activates. Charge Spell duration is the remaining time of Charge Spell Amplification.\\nEffect is doubled for yourself while Charge Spell Amplification lasts.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/charge-spell-amplifier.png"],
+                    "animations": ["https://media3.giphy.com/media/vZXDFW63oFrpXaI2g5/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "While active, Bullet Spell buffs are also applied to party members and doubled effects for yourself",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Endless Agony",
+                    "shortDesc": "Hold the key for max 3 sec.\\nMax Enemies Hit: 5, Damage: 360%, Number of Attacks: 6 for set intervals. An Abyssal Guard is summoned when the key is released or when the skill ends.\\nWhile the key is held, damage taken including attacks that deal damage in proportion to Max HP: -50%\\nAbyssal Guard: Activates Chase Cut 5 times, dealing 420% damage 12 times to 12 enemies, HP Recovery when the attack hits: 20% of Max HP\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/endless-agony.png"],
+                    "animations": ["https://media3.giphy.com/media/cn3rv2MxPo6xdV5L7p/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, launch a barrage of spears forward before dealing a final attack",
+                    "details": [
+                        "When used, you will be shifted into Specter Form",
+                        "Final attack restores some %Max HP and ignores Attack Ignore and Damage Reflect",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "Unaffected by Damage Reflect and cooldown resets"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Divine Wrath",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Flora class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/ark/divine-wrath.png"],
+                    "animations": ["https://media2.giphy.com/media/MY3bOY5o0IQMnYBQMJ/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["conversionOverdrive", "grandisGoddessBlessingFL", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Abyssal Recall",
+                    "shortDesc": "You link with the Abyssal Source the moment the skill is activated. You don't consume Spectra for 18 sec while in Specter State.\\nWhile the Abyssal is active, Max Enemies Hit: 10, Damage: 880%, Number of Attacks: 6, Invincible while attacking\\nWhen attack ends, Max Enemies Hit: 15, Damage: 1815%, Number of Attacks: 12, Number of Explosions: 6, recovers 6% of Max HP upon landing an explosion\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/flora/ark/abyssal-recall.png"],
+                    "animations": ["https://media2.giphy.com/media/J6Dd7zwMoE6rur9I7X/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Shift into Specter Form and unleash a devastating attack before dealing an explosive final attack",
+                    "details": [
+                        "Pressing the Skill Key again while the attack is active, cancels the attack early and activates the final attack<bp_Restores some %Max HP if attack hits_>",
+                        "After the attack, you will not consume any Specter resource for a short period",
+                        "You are invincible while the attack is active",
+                        "Does not trigger <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}>",
+                        "Ignores Attack Ignore and Damage Reflect",
+                        "[Note]: Female Arks do not have a cutscene animation, just the attack animation"
+                    ]
+                },
+                {
+                    "name": "Infinity Spell",
+                    "shortDesc": "HP Cost: 8% of Max HP\\nDuration: 30 sec\\nFlora State: When spell is charged, Basic Cast is charged as much as the remaining max spell charge limit.\\nSpecter State: When Impending Death activates, an additional 3 Abyssal Auras are created\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/flora/ark/infinity-spell.png"],
+                    "animations": ["https://media1.giphy.com/media/jrovIn9aSAT75PxlCs/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, automatically grants max charges of <tt src={/class-icons/flora/ark/basic-buff.png} tip={Basic Charge Drive (1st Job)}> Basic Spell Bullet when attacking and creates more <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}> orbs",
+                    "details": [
+                        "Prioritizes bosses with the highest HP first"
+                    ]
+                },
+                {
+                    "name": "Devious Nightmare",
+                    "shortDesc": "Activates a spectral energy when Endless Nightmare is used. Max Enemies Hit: 10, Damage: 1550%, Number of Attacks: 14.\\nCooldown: 10 sec\\nWhen Charge Drive skills (with the exception of Basic Charge Drive) land successfully, the cooldown is reduced by 1 sec, an effect that is applied only once per skill.",
+                    "icons": ["/class-icons/flora/ark/devious-nightmare.png"],
+                    "animations": ["https://media1.giphy.com/media/QuZVHDkT9R6PotNLiV/giphy.gif"],
+                    "type": "Lef | Passive Attack",
+                    "desc": "Periodically, when using <tt src={/class-icons/flora/ark/endless-nightmare.png} tip={Endless Nightmare (4th Job)}>, a giant Specter claw lashes out",
+                    "details": [
+                        "Upon landing a successful Charge Drive skill (except <tt src={/class-icons/flora/ark/basic-charge-drive.png} tip={Basic Charge Drive (1st Job)}> and only once per skill), the cooldown is reduced",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Devious Dream",
+                    "shortDesc": "Activates a spectral energy when Endless Dream is used. Max Enemies Hit: 12, Damage: 1850%, Number of Attacks: 14\\nCooldown: 10 sec\\nWhen Grievous Wound/Tenacious Instinct/Insatiable Hunger/Boundless Horror/Unbridled Chaos land successfully, the cooldown is reduced by 1 sec, an effect that is applied only once per skill.",
+                    "icons": ["/class-icons/flora/ark/devious-dream.png"],
+                    "animations": ["https://media2.giphy.com/media/k3vLvXlzUU0nJTjV1h/giphy.gif"],
+                    "type": "Specter | Passive Attack",
+                    "desc": "Periodically, when using <tt src={/class-icons/flora/ark/endless-dream.png} tip={Endless Dream (4th Job)}>, a giant Specter claw lashes out",
+                    "details": [
+                        "Upon landing a successful Specter Form attack (only once per skill), the cooldown is reduced",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Endlessly Starving Beast",
+                    "shortDesc": "HP Cost: 500. Initiates a countdown to the Beast's rampage, each strike in which hits up to 12 enemies, for 1045% damage, 12 time(s). The Beast strikes 20 time(s) in all.\\nIf an attack skill that utilizes Specter's Force hit successfully, the Beast's rampage will begin 0.6 sec sooner. Only 30% applied for consecutive-type skills, or for certain other skills.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/flora/ark/endlessly-starving-beast.png"],
+                    "animations": ["https://media4.giphy.com/media/Y38beiIaVZf9EIKFrL/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a giant specter that burrows in the ground before launching up for a giant attack",
+                    "details": [
+                        "Using a Specter attack will increase the speed at which the specter erupts from the ground",
+                        "When used, you will be shifted into Specter Form",
+                        "Unaffected by Attack Ignore and Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Overcharge Drive",
+                    "shortDesc": "Basic Charge Drive/Basic Cast Final Damage: +120%",
+                    "icons": ["/class-icons/flora/ark/basic-charge-drive.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Basic Charge Drive Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ominous Nightmare/Dream Boost",
+                    "shortDesc": "Ominous Nightmare/Dream, Vivid Nightmare Dream, and Endless Nightmare/Dream Final Damage: +120%",
+                    "icons": ["/class-icons/flora/ark/ominous-nightmare.png", "/class-icons/flora/ark/ominous-dream.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Scarlet Charge Drive/Grievous Wound Boost",
+                    "shortDesc": "Scarlet Charge Drive/Scarlet Cast/Grievous Wound Final Damage: +120%",
+                    "icons": ["/class-icons/flora/ark/scarlet-charge-drive.png", "/class-icons/flora/ark/grievous-wound.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Unstoppable Impulse/Tenacious Instinct Boost",
+                    "shortDesc": "Unstoppable Impulse/Tenacious Instinct Final Damage: +120%",
+                    "icons": ["/class-icons/flora/ark/unstoppable-impulse.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Impending Death/Vengeful Hate Boost",
+                    "shortDesc": "Impending Death/Vengeful Hate Final Damage: +120%",
+                    "icons": ["/class-icons/flora/ark/impending-death.png", "/class-icons/flora/ark/vengeful-hate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gust Charge Drive/Insatiable Hunger Boost",
+                    "shortDesc": "Gust Charge Drive/Gust Cast/Insatiable Hunger Final Damage: +120%",
+                    "icons": ["/class-icons/flora/ark/gust-charge-drive.png", "/class-icons/flora/ark/insatiable-hunger.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Abyssal Charge Drive/Unbridled Chaos Boost",
+                    "shortDesc": "Abyssal Charge Drive/Abyssal Cast/Unbridled Chaos Final Damage: +120%",
+                    "icons": ["/class-icons/flora/ark/abyssal-charge-drive.png", "/class-icons/flora/ark/unbridled-chaos.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Creeping Terror/Blissful Restraint/Endless Agony Boost",
+                    "shortDesc": "Creeping Terror/Blissful Restraint/Endless Agony Final Damage: +120%",
+                    "icons": ["/class-icons/flora/ark/endless-agony.png", "/class-icons/flora/ark/creeping-terror.png", "/class-icons/flora/ark/blissful-restraint.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/ark/hexa-charge.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanpubGY2ODF6cGdyOTl2NW8zYjZoNGtlZ2wwMTl0NG8yaGEwZDg3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zs5kajWicABMoQiHGO/giphy-downsized-large.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/ark/basic-charge-drive.png} tip={Overcharge Drive (Basic Charge Drive) (1st Job)}> <tt src={/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive and Grievous Wound (2nd Job)}> <tt src={/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive and Insatiable Hunger (3rd Job)}> <tt src={/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive and Unbridled Chaos (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Basic Charge Drive",
+                    "shortDesc": "MP Cost: 30, Damage: 1205%, Max Enemies Hit: 7, Number of Attacks: 4\\nBasic Cast: Damage: 805%, Number of Basic Casts: 2, Number of Attacks: 1\\nBasic Buff: Speed: + 20 when Basic Cast hits, Knockback Resistance: +50% when Basic Cast hits, Duration: 60 sec",
+                    "icons": ["/class-icons/flora/ark/hexa-basic-charge-drive.png", "/class-icons/flora/ark/basic-charge-drive.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3czdjE4NXoxanpsYThpbHpvMG1uNTd0MHpwcjhjOXRsZHVodmVnMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HlnxqVaPzlWWI9afuu/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Scarlet Charge Drive",
+                    "shortDesc": "MP Cost: 45, Damage: 755%, Max Enemies Hit: 7, Number of Attacks: 3\\nGenerates flames upon charging. Damage: 755%, Max Enemies Hit: 7, Number of Attacks: 3\\nCooldown: 3 sec\\nScarlet Cast: Damage: 475% Max Enemies Hit: 8, Number of Attacks: 5\\nScarlet Buff: Attack Power: +30 and Critical Rate +20% when Scarlet Buff hits. Duration: 60 sec",
+                    "icons": ["/class-icons/flora/ark/hexa-scarlet-charge-drive.png", "/class-icons/flora/ark/scarlet-charge-drive.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHh0cWhzengxNzJ0amNsbDFxcXdvN3NnZGFucGljNTJtamt6YTNyaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OAtDN4AfTGKWl7mX45/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Gust Charge Drive",
+                    "shortDesc": "MP Cost: 45, Damage: 920%, Max Enemies Hit: 7, Number of Attacks: 8\\nCooldown: 5 sec\\nGust Cast: Pulls enemies nearby and does 495% damage. Max Enemies Hit: 12, Number of Attacks: 4\\nGust Buff\\nDuration: 60 sec when Gust Cast hits, Attack Speed: +1, Avoidability: +25%",
+                    "icons": ["/class-icons/flora/ark/hexa-gust-charge-drive.png", "/class-icons/flora/ark/gust-charge-drive.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzAycmtiY2htOWs0MHZyOWIyMDhtdGtrdGwyM2tyaDZkdHRndmZ1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/81lEp1ubhFaenS0KKq/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Abyssal Charge Drive",
+                    "shortDesc": "HP Cost: 110, MP Cost: 85\\nDamage: 742%, Max Enemies Hit: 8, Number of Attacks: 4, Abyssal Magic: 950%, Abyssal Magic Max Enemies Hit: 8, Abyssal Magic Number of Attacks: 6\\nCooldown: 9 sec\\nAbyssal Cast: Creates Abyssal Cast when used. Abyssal Cast Duration: 3 sec, Abyssal Cast Max Enemies Hit: 8, Abyssal Cast Damage: 151%, Abyssal Cast Number of Attacks: 2\\nAbyssal Buff: Activates when Abyssal Cast hits. Duration: 60 sec. Damage: 20%, Boss Damage: +35%, Ignore Defense +20%",
+                    "icons": ["/class-icons/flora/ark/hexa-abyssal-charge-drive.png", "/class-icons/flora/ark/abyssal-charge-drive.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRmeDF1bDF6ZHJ2MWJlNWswN3AwbXRwYnJidmkzM2lmYmtsM3d4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T5gFxWsfkqALduyWZt/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Awakened Abyss",
+                    "shortDesc": "Creates 10 spectral energy when you combo Basic Charge Drive with another skill to attack the enemy. When an attack hits in Specter State, the energy is consumed to create an abyssal blade that deals 1520% damage 3 times to all enemies that are hit.\\nMax Spectral Energy Limit: 300\\nWhen using Infinity Spell or Primordial Abyss, Additional Spectral Energy: 300",
+                    "icons": ["/class-icons/flora/ark/awakened-abyss.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDd4M21lNzg0end4MWw2cGs4ejZ5aWYwaWsyN2hidHc4NDZ6cTBtaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c6XHnEN2Uhnxfs8Etm/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/ark/hexa-specter.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmo4MTR4bmludmEzeGE2enN4Y2I2aWV4eGV5NTFuZnF3aHFrc2JkdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ngy6PlB7eJCfce3Asn/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive and Grievous Wound (2nd Job)}> <tt src={/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive and Insatiable Hunger (3rd Job)}> <tt src={/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive and Unbridled Chaos (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Grievous Wound",
+                    "shortDesc": "Damage: 1340%, Max Enemies Hit: 8, Number of Attacks: 6\\nRecovers 2% of Max HP when the attack hits\\nCooldown: 3 sec\\n[Passive Effect: Vengeful Hate Damage: +250% points, HEXA Vengeful Hate Damage: +60% points]",
+                    "icons": ["/class-icons/flora/ark/hexa-grievous-wound.png", "/class-icons/flora/ark/grievous-wound.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExemQydTg5dTRiOG8zOHVkbjFmaGIxOGpqbDFybWhxbzljejNkMW83diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zyoXkvcXUX2IwJlXmd/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Insatiable Hunger",
+                    "shortDesc": "Damage: 1860%, Max Enemies Hit: 8, Number of Attacks: 12\\nRecovers 5% of Max HP when the attack hits\\nCooldown: 5 sec\\n[Passive Effect: Unstoppable Impulse, Tenacious Instinct Damage: +490% points]",
+                    "icons": ["/class-icons/flora/ark/hexa-insatiable-hunger.png", "/class-icons/flora/ark/insatiable-hunger.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenBhNG45d3o4bDJuZDRyZnNrN3loOXkwYmVtMDdnajB5aHI0bzVyaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HuYMkEVpbLfan8eMKJ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Unbridled Chaos",
+                    "shortDesc": "Damage: 2340%, Max Enemies Hit: 12, Number of Attack: 15\\nRecovers 3% of Max HP when the attack hits\\nCooldown: 9 sec",
+                    "icons": ["/class-icons/flora/ark/hexa-unbridled-chaos.png", "/class-icons/flora/ark/unbridled-chaos.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG5iMzh5eWc0cDhwcWJyMG80dmk5ZXIwcng4NDZsamM3bmRoOTVxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MCgKc2qjezWDQzml4y/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/ark/hexa-vengeful-hate-blissful-restraint-endless-agony.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death and Vengeful Hate (3rd Job)}> <tt src={/class-icons/flora/ark/endless-agony.png} tip={Creeping Terror, Blissful Restraint, and Endless Agony (3rd Job / 4th Job / Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Vengeful Hate",
+                    "shortDesc": "20% chance to leave Abyssal Mark when Impending Death hits. Activates marks within a set range, dealing 760% damage to up to 8 enemies 8 times for every activated mark.\\nMax Mark Creation: 12, Max Duration: 20 sec.\\nMax Mark Activation Limit for Auto Mode: 8\\nCooldown: 12 sec.",
+                    "icons": ["/class-icons/flora/ark/hexa-vengeful-hate.png", "/class-icons/flora/ark/vengeful-hate.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTg1M2Rpc2VpNHpocmNjYnhnNXJjYThsN2VnM2RuMDRhM3B2emxrNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BIRyjxpqPmOn6adrCR/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Blissful Restraint",
+                    "shortDesc": "HP Cost: 1250, Damage: 1200%, Max Enemies Hit: 1, Number of Attacks: 6. Bind Duration: 10 sec., Bind duration can increase up to 100% based on the damage inflicted with this skill.\\nAfterward\\nDuration: 8.1 sec., Max Enemies Hit: 12, Damage: 900%, Number of Attacks: 3\\nWhen the skill ends:\\nNumber of Explosions: 7, Damage: 375%, Max Enemies Hit: 12, Number of Additional Attacks: 8\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/flora/ark/hexa-blissful-restraint.png", "/class-icons/flora/ark/blissful-restraint.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGgyZmwyN3MxNnhqYjd2NmZmamxxNXVzNzFkd2dpNHhpNHNmY2ZvcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1AhrmJgfh3aVaDGuMg/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Endless Agony",
+                    "shortDesc": "Hold the key for max 3 sec.\\nMax Enemies Hit: 5, Damage: 576%, Number of Attacks: 6 for set intervals. An Abyssal Guard is summoned when the key is released or when the skill ends.\\nWhile the key is held, damage taken including attacks that deal damage in proportion to Max HP: -50%\\nAbyssal Guard: Activates Chase Cut 7 times, dealing 672% damage 12 time to 12 enemies, HP Recovery when the attack hits: 20% of Max HP\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/flora/ark/hexa-endless-agony.png", "/class-icons/flora/ark/endless-agony.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3JtNHdjdDIxYnJ5Ymt0bGRrc2hvbnpudXpodWZzNnNjczNwdjVlYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dUOGHIGQp17stLI8bp/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWpvYmVsb3ZzM3NwY2E3Y2U5MjU3cWdrNjZ4dzZuNmVwZ3RxdnZveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wxSTlECbF0kxfh0qM7/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/ark/hexa-ominous-nightmare-dream.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/ark/ominous-nightmare.png} tip={Ominous Nightmare/Dream (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Ominous Nightmare",
+                    "shortDesc": "HP Cost: 85, Damage: 1260%, Number of Attacks: 7, Max Enemies Hit: 6\\nCooldown: 2 sec.\\n[Passive Effect: Impending Death Damage: +60% points]",
+                    "icons": ["/class-icons/flora/ark/hexa-ominous-nightmare.png", "/class-icons/flora/ark/ominous-nightmare.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG92ZnBmcDVxZ3Z3NHZhOG02aWcyMGtmY2NlNjRwZ2Jwd2lqOWwyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3l8FdhEcGq3vBeJUJO/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Ominous Dream",
+                    "shortDesc": "Damage: 1280%, Max Enemies Hit: 6, Number of Attacks: 7\\nRecovers 1% of Max HP when attack hits",
+                    "icons": ["/class-icons/flora/ark/hexa-ominous-dream.png", "/class-icons/flora/ark/ominous-dream.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGpsYmwydWR6N3Q3emwxYjMyYW9zNnlpNXV6cTd2Z2ptcTgzcmxnZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CEcYQGwOOu3h4Y7FO0/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Primordial Abyss",
+                    "shortDesc": "MP Cost: 1500, invincible during casting\\nNumber of Source Erosions: 68, Max Enemies Hit: 15, Damage: 1101%, Number of Attacks: 14. Number of Abyssal Grips: 15, Max Enemies Hit: 15, Damage: 1730%, Duration: 30 sec\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/flora/ark/primordial-abyss.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazE4ZGZrNW42ZWc0OGhlZTVqZmxtb2xmejU3eXlqcjdkdXdlanl5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/chJhTtXYADXwiFxjb6/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Whisper of Deepest Abyss",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nCalls forth the Abyss 23 times, dealing 5565% damage to up to 15 enemies 10 times. Then an abyssal blade is summoned 13 times, dealing 6965% damage 14 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/flora/ark/whisper-of-deepest-abyss.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemV0ZDNvd21pNXE5bW1keTBqcXJub3VkczFveHI2dzF0cHZ1NDN2aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r4DcOKGNc8jcXSzBrF/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Abyssal Recall Boost",
+                    "shortDesc": "Abyssal Recall Final Damage: +60%",
+                    "icons": ["/class-icons/flora/ark/abyssal-recall.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Infinity Spell Boost",
+                    "shortDesc": "Impending Death Damage During Infinity Spell: +210% points",
+                    "icons": ["/class-icons/flora/ark/infinity-spell.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Devious Nightmare/Devious Dream Boost",
+                    "shortDesc": "Devious Nightmare and Devious Dream Final Damage: +60%",
+                    "icons": ["/class-icons/flora/ark/devious-nightmare.png", "/class-icons/flora/ark/devious-dream.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Endlessly Starving Beast Boost",
+                    "shortDesc": "Endlessly Starving Beast Final Damage: +60%",
+                    "icons": ["/class-icons/flora/ark/endlessly-starving-beast.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Ominous Dream - 1st Job",
+                "icons": ["/class-icons/flora/ark/ominous-dream.png"],
+                "animations": ["https://media3.giphy.com/media/cmYkvo2YVa3s5TQMAY/giphy.gif"]
+            },
+            {
+                "name": "Basic Charge Drive - 1st Job",
+                "icons": ["/class-icons/flora/ark/basic-charge-drive.png"],
+                "animations": ["https://media0.giphy.com/media/WQBQ8L3rDdT5PxkZqO/giphy.gif"]
+            },
+            {
+                "name": "Gust Charge Drive - 3rd Job",
+                "icons": ["/class-icons/flora/ark/gust-charge-drive.png"],
+                "animations": ["https://media1.giphy.com/media/MFPYje0PKhfsq4dYws/giphy.gif"]
+            },
+            {
+                "name": "Insatiable Hunger - 3rd Job",
+                "icons": ["/class-icons/flora/ark/insatiable-hunger.png"],
+                "animations": ["https://media1.giphy.com/media/Zb0TsAv4co18cMvLRd/giphy.gif"]
+            },
+            {
+                "name": "Creeping Terror - 3rd Job",
+                "icons": ["/class-icons/flora/ark/creeping-terror.png"],
+                "animations": ["https://media1.giphy.com/media/WQUYmWnkWxu7CrgOiV/giphy.gif"]
+            },
+            {
+                "name": "Abyssal Charge Drive - 4th Job",
+                "icons": ["/class-icons/flora/ark/abyssal-charge-drive.png"],
+                "animations": ["https://media0.giphy.com/media/WmuCAIC260RcsKDDvS/giphy.gif"]
+            },
+            {
+                "name": "Abyssal Recall - 5th Job",
+                "icons": ["/class-icons/flora/ark/abyssal-recall.png"],
+                "animations": ["https://media2.giphy.com/media/J6Dd7zwMoE6rur9I7X/giphy.gif"]
+            },
+            {
+                "name": "Primordial Abyss - 6th Job",
+                "icons": ["/class-icons/flora/ark/primordial-abyss.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazE4ZGZrNW42ZWc0OGhlZTVqZmxtb2xmejU3eXlqcjdkdXdlanl5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/chJhTtXYADXwiFxjb6/giphy.gif"]
+            },
+            {
+                "name": "Whisper of Deepest Abyss - 6th Job",
+                "icons": ["/class-icons/flora/ark/whisper-of-deepest-abyss.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemV0ZDNvd21pNXE5bW1keTBqcXJub3VkczFveHI2dzF0cHZ1NDN2aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r4DcOKGNc8jcXSzBrF/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Ark is a STR pirate class part of the Flora class group. He uses his Specter arm combined with Lef martial arts to defeat enemies. Ark can transform into a Specter at will for a short period to dish out high damage with high mobility. He has REALLY strong mobbing potential. His bossing capabilities are just as good but require a bit of mechanics"
+}

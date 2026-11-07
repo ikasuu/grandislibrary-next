@@ -1,0 +1,1086 @@
+{
+    "class": "Demon Avenger",
+    "content": {
+        "classGroup": "Resistance (Demon)",
+        "jobGroup": "Warrior",
+        "mainStat": "HP",
+        "secondaryStat": "STR",
+        "legion": "Increases %Boss Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["desperado"]},
+            {"secondary": ["demonAegis"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "Regions w/ AS10 Cap",
+                "abilities": ["Attack Speed +1", "Chance to Skip Cooldown +10%", "Boss Damage +10%"]
+            },
+            {
+                "name": "Regions w/ AS8 Cap",
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Chance to Skip Cooldown +10%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/resistance/demon-avenger/agile-demon.png} tip={Agile Demon (2nd Job)} val={+2}> <bg src={/class-icons/resistance/demon-avenger/overwhelming-power.png} tip={Overwhelming Power (4th Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png} tip={Advanced Desperado Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "HP",
+                "stat": "+40% +1000(2500) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/resistance/demon-avenger/diabolic-recovery.png} tip={Diabolic Recovery (3rd Job)} val={+25%}> <bg src={/class-icons/resistance/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg src={/class-icons/resistance/demon-avenger/agile-demon.png} tip={Agile Demon (2nd Job)} val={+400}> <bg src={/class-icons/resistance/demon-avenger/rage-within.png} tip={Rage Within (2nd Job)} val={+600}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+1500}> <bg src={/class-icons/resistance/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +90",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/demon-avenger/abyssal-connection.png} tip={Abyssal Connection (2nd Job)} val={+40}> <bg src={/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png} tip={Advanced Desperado Mastery (4th Job)} val={+50}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/resistance/demon-avenger/demonic-veracity.png} tip={Demonic Veracity (1st Job)} val={+15%}> <bg src={/class-icons/resistance/demon-avenger/abyssal-connection.png} tip={Abyssal Connection (2nd Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+8%",
+                "detail": "<bg src={/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png} tip={Advanced Desperado Mastery (4th Job)} val={+8%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+45%(65%)(85% for Exceed skills) w/ Lv. 3 Link Skill",
+                "detail": "<bg src={/class-icons/resistance/demon-avenger/overwhelming-power.png} tip={Overwhelming Power (4th Job)} val={+30%}> <bg src={/class-icons/link-skills/wild-rage.png} tip={Wild Rage (Link Skill)} val={Lv. 2: +10%} val={Lv. 3: +15%}> <bg type={temp} src={/class-icons/resistance/demon-avenger/forbidden-contract.png} tip={Forbidden Contract (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/resistance/demon-avenger/demonic-fortitude.png} tip={Demonic Fortitude (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/resistance/demon-avenger/pain-dampener.png} tip={Pain Dampener (3rd Job)} val={+20% to Exceed skills}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+65.11%(94.27%)",
+                "detail": "<bg src={/class-icons/resistance/demon-avenger/overload-release.png} tip={Overload Release (1st Job)} val={+25%}> × <bg src={/class-icons/resistance/demon-avenger/overwhelming-power.png} tip={Overwhelming Power (4th Job)} val={+19%}> × <bg type={toggle} src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)} val={+1% per 2% Max HP consumed} val={(Max. +11%)}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}> × <bg type={opt} src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} val={+11%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+51%(58.84%)",
+                "detail": "<bg src={/class-icons/resistance/demon-avenger/overwhelming-power.png} tip={Overwhelming Power (4th Job)} val={+30%}> × <bg type={debuff} src={/class-icons/resistance/demon-avenger/nether-slice.png} tip={Nether Slice (4th Job)} val={+30%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/resistance/demon-avenger/overload-release.png} tip={Overload Release (1st Job)} dur={[90s]}> <tt src={/class-icons/resistance/demon-avenger/diabolic-recovery.png} tip={Diabolic Recovery (3rd Job)} dur={[180s]}>",
+            "toggles": "<tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)}>",
+            "summons": "<tt src={/class-icons/resistance/demon-avenger/bat-swarm.png} tip={Bat Swarm (2nd Job)} dur={[40 Attacks / Distance Based]}> <tt src={/class-icons/resistance/demon-avenger/nether-shield.png} tip={Nether Shield (4th Job)} dur={[8 Attacks](6s cd)}> <tt src={/class-icons/resistance/demon-avenger/dimensional-sword.png} tip={Dimensional Sword (5th Job)} dur={[40s, 1/5 duration if reactivated](120s cd)}> <tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[48s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/resistance/demon-avenger/limits-surpassed.png} tip={Limits Surpassed (4th Job)} dur={[24s](60s cd)}> <tt src={/class-icons/resistance/demon-avenger/forbidden-contract.png} tip={Forbidden Contract (Hyper Skill)} dur={[24s](60s cd)}> <tt src={/class-icons/resistance/demonic-fortitude.png} tip={Demonic Fortitude (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/demon-avenger/revenant.png} tip={Revenant (5th Job)} dur={[15s](120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/resistance/demon-avenger/blood-prison.png} tip={Blood Prison (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/resistance/demon-avenger/requiem.png} tip={Requiem (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/resistance/demon-avenger/shield-of-blood.png} tip={Shield of Blood (3rd Job)} dur={[3s](120s cd)}> <tt src={/class-icons/resistance/demon-avenger/revenant.png} tip={Revenant (5th Job)} dur={[15s](120s cd, HP cannot go below 1)}> <tt src={/class-icons/resistance/demon-avenger/requiem.png} tip={Requiem (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)} dur={[While active](-30%)}> <tt src={/class-icons/resistance/demon-avenger/demonic-blast.png} tip={Demonic Blast (5th Job)} dur={[1s](-30% | 12s cd)}> <tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[6s, 2 attacks](-25% | 10s cd buff, 120s cd summon)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s, triggers once](-75% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000050,
+            "icons": ["/class-icons/link-skills/wild-rage.png"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/resistance/demon-avenger/life-sap.png} tip={Life Sap}> -> <tt src={/class-icons/resistance/demon-avenger/demonic-veracity.png} tip={Demonic Veracity}> -> <tt src={/class-icons/resistance/demon-avenger/overload-release.png} tip={Overload Release}> -> <tt src={/class-icons/resistance/demon-avenger/exceed-double-slash.png} tip={Exceed: Double Slash}>"],
+                ["2nd Job", "<tt src={/class-icons/resistance/demon-avenger/rage-within.png} tip={Rage Within}> -> <tt src={/class-icons/resistance/demon-avenger/unbreakable-steel.png} tip={Unbreakable Steel}> -> <tt src={/class-icons/resistance/demon-avenger/desperado-mastery.png} tip={Desperado Mastery}> -> <tt src={/class-icons/resistance/demon-avenger/agile-demon.png} tip={Agile Demon}> -> <tt src={/class-icons/resistance/demon-avenger/abyssal-connection.png} tip={Abyssal Connection}> -> <tt src={/class-icons/resistance/demon-avenger/exceed-demon-strike.png} tip={Exceed: Demon Strike}> -> <tt src={/class-icons/resistance/demon-avenger/bat-swarm.png} tip={Bat Swarm}>"],
+                ["3rd Job", "<tt src={/class-icons/resistance/demon-avenger/advanced-life-sap.png} tip={Advanced Life Sap}> -> <tt src={/class-icons/resistance/demon-avenger/pain-dampener.png} tip={Pain Dampener}> -> <tt src={/class-icons/resistance/demon-avenger/diabolic-recovery.png} tip={Diabolic Recovery}> -> <tt src={/class-icons/resistance/demon-avenger/ward-evil.png} tip={Ward Evil}> -> <tt src={/class-icons/resistance/demon-avenger/exceed-lunar-slash.png} tip={Exceed: Lunar Slash}> -> <tt src={/class-icons/resistance/demon-avenger/vitality-veil.png} tip={Vitality Veil}> -> <tt src={/class-icons/resistance/demon-avenger/shield-charge.png} tip={Shield Charge}> -> <tt src={/class-icons/resistance/demon-avenger/shield-of-blood.png} tip={Shield of Blood}>"],
+                ["4th Job", "<tt src={/class-icons/resistance/demon-avenger/infernal-exceed.png} tip={Infernal Exceed}> -> <tt src={/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png} tip={Advanced Desperado Mastery}> -> <tt src={/class-icons/resistance/demon-avenger/overwhelming-power.png} tip={Overwhelming Power}> -> <tt src={/class-icons/resistance/demon-avenger/defense-expertise.png} tip={Defense Expertise}> -> <tt src={/class-icons/resistance/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/resistance/demon-avenger/nether-shield.png} tip={Nether Shield}> -> <tt src={/class-icons/resistance/demon-avenger/exceed-execution.png} tip={Exceed: Execution}> -> <tt src={/class-icons/resistance/demon-avenger/blood-prison.png} tip={Blood Prison}> -> <tt src={/class-icons/resistance/demon-avenger/nether-slice.png} tip={Nether Slice}> -> <tt src={/class-icons/resistance/demon-avenger/limits-surpassed.png} tip={Limits Surpassed}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/resistance/demon-avenger/exceed-reinforce.png} tip={Exceed - Reinforce}> <tt src={/class-icons/resistance/demon-avenger/exceed-reduce-overload.png} tip={Exceed - Reduce Overload}> <tt src={/class-icons/resistance/demon-avenger/exceed-opportunity.png} tip={Exceed - Opportunity}> Exceed - Reinforce, Reduce Overload, and Opportunity_<tt src={/class-icons/resistance/demon-avenger/nether-shield-reinforce.png} tip={Nether Shield - Reinforce}> <tt src={/class-icons/resistance/demon-avenger/nether-shield-spread.png} tip={Nether Shield - Spread}> Nether Shield - Reinforce and Spread_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/resistance/demon-avenger/exceed-execution.png} tip={Exceed: Execution (4th Job)}> <tt src={/class-icons/resistance/demon-avenger/nether-shield.png} tip={Nether Shield (4th Job)}> <tt src={/class-icons/resistance/demon-avenger/infernal-exceed.png} tip={Infernal Exceed (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/resistance/demon-avenger/exceed-lunar-slash.png} tip={Exceed: Lunar Slash (3rd Job)}> <tt src={/class-icons/resistance/demon-avenger/thousand-swords.png} tip={Thousand Swords (Hyper Skill)}> <tt src={/class-icons/resistance/demon-avenger/bat-swarm.png} tip={Bat Swarm (2nd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/resistance/demon-avenger/nether-shield.png} tip={Nether Shield (4th Job)}> <tt src={/class-icons/resistance/demon-avenger/bat-swarm.png} tip={Bat Swarm (2nd Job)}>",
+                "<tt src={/class-icons/resistance/demon-avenger/exceed-execution.png} tip={Exceed: Execution (4th Job)}> <tt src={/class-icons/resistance/demon-avenger/exceed-double-slash.png} tip={Exceed: Double Slash (1st Job)}>",
+                "<tt src={/class-icons/resistance/demon-avenger/exceed-lunar-slash.png} tip={Exceed: Lunar Slash (3rd Job)}> <tt src={/class-icons/resistance/demon-avenger/exceed-demon-strike.png} tip={Exceed: Demon Strike (2nd Job)}>",
+                "<tt src={/class-icons/resistance/demon-avenger/thousand-swords.png} tip={Thousand Swords (Hyper Skill)}> <tt src={/class-icons/resistance/demon-avenger/infernal-exceed.png} tip={Infernal Exceed (4th Job)}>",
+                "<tt src={/class-icons/resistance/demon-avenger/vitality-veil.png} tip={Vitality Veil (3rd Job)}> <tt src={/class-icons/resistance/demon-avenger/shield-charge.png} tip={Shield Charge (3rd Job)}>",
+                "<tt src={/class-icons/resistance/demon-avenger/blood-prison.png} tip={Blood Prison (4th Job)}> <tt src={/class-icons/resistance/demon-avenger/nether-slice.png} tip={Nether Slice (4th Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Demon_Avenger"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%8D%B0%EB%AA%AC%20%EC%96%B4%EB%B2%A4%EC%A0%B8"},
+            {"title": "Class Discord", "link": "https://discord.gg/aTByagnDjd"}
+        ],
+        "specialThanks": "Special thanks to Kerkerseele and the members of the Demon Avenger Discord for their help in making this overview!",
+        "discord": "https://discord.gg/aTByagnDjd",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["5th & 6th Job Skills Animations", "Kerkerseele"],
+            ["Infographic", "Izzy"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Demon Avenger Discord"]
+        ],
+        "infographics": [
+            {
+                "src": "demon-avenger/demon-avenger-6th-job-fragments.png",
+                "title": "6th Job (Fragments Efficient)",
+                "credit": "Demon Avenger Discord",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "demon-avenger/demon-avenger-6th-job-energy.png",
+                "title": "6th Job (Energy Efficient)",
+                "credit": "Demon Avenger Discord",
+                "date": "2026-06-25"
+            }
+        ],
+        "extraContent": {
+            "title": "Exceed Mechanic",
+            "content": [
+                "<img src={/class-icons/resistance/demon-avenger/da-hp.png} alt={Demon Avenger HP}>",
+                "Demon Avengers use HP for their attacks and do not have an MP resource. As well, instead of scaling off of STR like regular warriors, Demon Avengers' damage scales off of HP",
+                "<tt src={/class-icons/resistance/demon-avenger/exceed.png} tip={Exceed (Beginner Skill)}> [Exceed]",
+                "Using attacks labelled with 'Exceed' grants a stacking debuff called Overload (up to 20 stacks). At max stacks and for every 2 stacks, <tt src={/class-icons/resistance/demon-avenger/life-sap.png} tip={Life Sap (1st Job)}> Life Sap (1st Job) effectiveness will be reduced",
+                "<img src={https://media1.giphy.com/media/PjlMgkevEbwmviR4A9/giphy.gif} alt={Exceed Attack}>",
+                "Additionally, repeatedly using Exceed attacks in quick succession will result in entering 'Exceed Mode', increasing the Attack Speed and HP Cost of the Exceed skills. Some skills also gain increased range or increased number of hits per attack",
+                "<img src={https://media0.giphy.com/media/nanBFh3x9RF8syBtuz/giphy.gif} alt={Overload Release UI}>",
+                "To reset your Overload stacks, you can use <tt src={/class-icons/resistance/demon-avenger/overload-release.png} tip={Overload Release (1st Job)}> Overload Release (1st Job) to restore your HP and increase your %Final Damage based on the number of Overload stacks consumed"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Wild Rage",
+                    "shortDesc": "Damage: +15%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/wild-rage.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Dark Winds",
+                    "shortDesc": "High Jump: Press the up arrow key twice during a jump\\nJag Jump: Press the right or left arrow key twice during a jump\\nGlide: Jump Key (Maintain Press)",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/dark-winds.png"],
+                    "animations": ["https://media1.giphy.com/media/8lW5qs5NkB7xRnwwf2/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Right-click the skill to toggle gliding<bp_When on, you can perform a double jump but pressing the Jump Key twice instead_>"
+                    ]
+                },
+                {
+                    "name": "Demonic Blood",
+                    "shortDesc": "Willpower: Lv. 20, Ambition: Lv. 20, Knockback Resistance: +100%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demonic-blood.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Exceed",
+                    "shortDesc": "Life Sap -1% for every 20 Exceed Overload cap and 2 Overload stacks.\\nOverload +1 when another Exceed skill is used while Exceed skill is in use.\\nUsing Overload Release reduces the Exceed levels to half.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed.png"],
+                    "type": "Passive",
+                    "desc": "Using an Exceed attack applies a stacking self-debuff called \"Overload\" (up to 20 stacks). Repeatedly using Exceed attacks will cause you to enter Exceed Mode",
+                    "details": [
+                        "[Overload]: At max stacks and for every 2 stacks, <tt src={/class-icons/resistance/demon-avenger/life-sap.png} tip={Life Sap (1st Job)}> effectiveness will be reduced",
+                        "[Exceed Mode]: Using Exceed attacks up to 5 times in quick succession will increase the Attack Speed and HP Cost of the Exceed skills<bp_Additionally for your 1st - 3rd Job Exceed attacks, it also increases their range_For your 4th Job Exceed attack, increases the number of hits per attack_Upon using <tt src={/class-icons/resistance/demon-avenger/overload-release.png} tip={Overload Release (1st Job)}>, Exceed levels will reduced by half_>"
+                    ]
+                },
+                {
+                    "name": "Hyper Potion Mastery",
+                    "shortDesc": "Potion Recovery Rate: +200%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/hyper-potion-mastery.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Affects percentage recovery-based items too"
+                    ]
+                },
+                {
+                    "name": "Star Force Conversion",
+                    "shortDesc": "Max HP increases proportional to the Star Force on your equipped items",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/star-force-conversion.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Blood Pact",
+                    "shortDesc": "Damage Range calculated based on Max HP.\\nOnly a set percentage of Bonus HP from Equipment items are applied.\\nBase HP confers a greater damage bonus than HP bonuses from equipment and items.\\nAllows you to ignore stat requirements on Warrior and Demon Avenger equipment.\\nIn situations where HP cannot be recovered, HP consumed by the 1st through 4th tier job skills will be reduced by 90%.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/blood-pact.png"],
+                    "type": "Passive",
+                    "desc": "Your damage is calculated based on your Max HP",
+                    "details": [
+                        "You also ignore the stat requirements of Warrior equipment",
+                        "Base HP increases damage more than HP bonuses from equipment and items",
+                        "HP consumption of 1st to 4th Job skills are reduced when HP cannot be recovered<bp_For example, bosses that prevent HP recovery and potion use_>"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "Increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcno0djFxbHM3YWEwazc2bnprbnkwdXl4Mzc3Nm52ZWs4emRxanEzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EprGzghQ1fJYVly0Jj/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/16/Love_Lost,_but_not_Forgotten} title={\"Love Lost, but not Forgotten\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Exceed: Double Slash",
+                        "shortDesc": "HP Cost: 1%, Damage: 200%, Number of Attacks: 2, Max Enemies Hit: 8",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/exceed-double-slash.png"],
+                        "animations": ["https://media4.giphy.com/media/XQdU7YYcz9YQGYY7CL/giphy.gif", "https://media3.giphy.com/media/duRXF4CZaQnVAnKX4h/giphy.gif"],
+                        "type": "Exceed Attack",
+                        "desc": "Slash forward twice"
+                    },
+                    {
+                        "name": "Overload Release",
+                        "shortDesc": "Resets Overload to 0\\nMax HP Restored: 100%, Duration: 90 sec, Final damage: +15%\\n20% of overall HP restored even when under the effect of certain statuses (not including the recovery reductions from Demonic Frenzy or the ones within Ghost Park).",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/overload-release.png"],
+                        "animations": ["https://media3.giphy.com/media/6vQcemPIeHMEzrLzSZ/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Release all stacks of <tt src={/class-icons/resistance/demon-avenger/exceed.png} tip={Exceed (Beginner Skill)}> Overload and restores %Max HP while granting a %Final Damage buff",
+                        "details": [
+                            "HP restore is reduced when under recovery restriction statuses (not including <tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)}> or in Ghost Park)"
+                        ]
+                    },
+                    {
+                        "name": "Life Sap",
+                        "shortDesc": "100% chance to recover 5% HP on hit",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/demon-avenger/life-sap.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Demonic Veracity",
+                        "shortDesc": "Speed: +45, Max Speed: +20, Jump: +20, Critical Rate: +15%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/demon-avenger/demonic-veracity.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Exceed: Demon Strike",
+                        "shortDesc": "HP Cost: 1%, Damage: 125%, Number of Attacks: 4, Max Enemies Hit: 10",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/exceed-demon-strike.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnZrb3Zybndvcmk5a2lwNXhoNXRsbGRna2tnNHF2enc0bWZ5dHRnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DrnorFCNeJ7lK1rN1k/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTBkYm93YnA1M3VsaHZodzdzM216eWlndW5yeWs5bjdvNDg2ZnVyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pJfYiNhUoWRHOpyxdS/giphy.gif"],
+                        "type": "Exceed Attack",
+                        "desc": "Dash forward while slicing through enemies"
+                    },
+                    {
+                        "name": "Bat Swarm",
+                        "shortDesc": "HP Cost: 1% of Max HP, Damage: 200%, Number of Attacks: 40.\\nThe cloud expires once you finish attacking, move a certain distance, or its timer runs out. Press the skill key again to change direction.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/bat-swarm.png"],
+                        "animations": ["https://media3.giphy.com/media/MXJO9lhBz04ldl4RCS/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Summon a swarm of bats that damages enemies it passes through",
+                        "details": [
+                            "Pressing the Skill Key changes the directions of the bat's movement",
+                            "Bats expire once it moves a certain distance, or its timer runs out"
+                        ]
+                    },
+                    {
+                        "name": "Agile Demon",
+                        "shortDesc": "Attack Speed: +2, Max HP: +400",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/demon-avenger/agile-demon.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Abyssal Connection",
+                        "shortDesc": "ATT: +40, Critical Rate: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/abyssal-connection.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Unbreakable Steel",
+                        "shortDesc": "Permanently increases Defense by 100%.",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/resistance/demon-avenger/unbreakable-steel.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Desperado Mastery",
+                        "shortDesc": "Permanently increases Desperado Mastery by 50%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/demon-avenger/desperado-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Rage Within",
+                        "shortDesc": "Permanently increases Max HP by 600 and Defense by 500",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/resistance/demon-avenger/rage-within.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Exceed: Lunar Slash",
+                        "shortDesc": "HP Cost: 3%, Damage: 300%, Number of Attacks: 3, Max Enemies Hit: 10",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/exceed-lunar-slash.png"],
+                        "animations": ["https://media2.giphy.com/media/imCZxTtl6qjsUyoF7I/giphy.gif", "https://media0.giphy.com/media/LyyjHuZzkfjaAFQnR2/giphy.gif"],
+                        "type": "Exceed Attack",
+                        "desc": "Slash around yourself"
+                    },
+                    {
+                        "name": "Vitality Veil",
+                        "shortDesc": "HP Cost per attack: 100, Enemies hit with key-down: 12, Damage: 300%, HP Restored: 10%.\\nExplosion Damage on key release: 1000%\\nCooldown: 12 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/vitality-veil.png"],
+                        "animations": ["https://media1.giphy.com/media/bftQrOn3UFEPzuJI82/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "When held, continuously damage nearby enemies around you",
+                        "details": [
+                            "At the end of the attack, the skill explodes"
+                        ]
+                    },
+                    {
+                        "name": "Shield Charge",
+                        "shortDesc": "HP Cost: 2% of Max HP, Enemies Hit: 12, Damage: 200%, Number of Attacks: 2.\\nEnemies Hit After Charge: 12, Damage After Charge: 200%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/shield-charge.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNW5iaGUzOTdqazM0aGN0OXN1bzFlczU2ZDAycnd0YWgzY2p5cTlzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hV7x77E4KdjNDWyqsi/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward and push enemies along with you",
+                        "details": [
+                            "Has a chance to stun enemies"
+                        ]
+                    },
+                    {
+                        "name": "Shield of Blood",
+                        "shortDesc": "HP Cost: 100, Invincibility Duration: 3 sec.\\nCooldown: 120 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/demon-avenger/shield-of-blood.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjF2dG44YjRqY2Z4dGExYTBoZGc3djZwa2JwdWZ0Z2g0dW9lZ3VhbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wQPp65yJINyNUn8CQC/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When used, briefly become invincible",
+                        "details": [
+                            "Unaffected by cooldown resets and %Buff Duration"
+                        ]
+                    },
+                    {
+                        "name": "Ward Evil",
+                        "shortDesc": "Elemental Resistance: +50%, Status Resistance: +50\\nnDamage Taken: -30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/ward-evil.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Diabolic Recovery",
+                        "shortDesc": "HP Cost: 900, Duration: 180 sec, Max HP: +25%. Restores 5% of Max HP every 4 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/demon-avenger/diabolic-recovery.png"],
+                        "animations": ["https://media0.giphy.com/media/owGc7zD89dwo6qjMR1/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Pain Dampener",
+                        "shortDesc": "Exceed Overload HP Absorption Penalty: -2%, Exceed Damage: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/demon-avenger/pain-dampener.png"],
+                        "type": "Passive",
+                        "desc": "Reduces the penalty to <tt src={/class-icons/resistance/demon-avenger/life-sap.png} tip={Life Sap (1st Job)}> from <tt src={/class-icons/resistance/demon-avenger/exceed.png} tip={Exceed (Beginner Skill)}> and increases the %Damage of Exceed Skills"
+                    },
+                    {
+                        "name": "Advanced Life Sap",
+                        "shortDesc": "Increases Life Sap's absorption amount boosted to 10% of Max HP, Overload Release's final damage increase amount boosted to 25%.",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/resistance/demon-avenger/advanced-life-sap.png"],
+                        "type": "Passive",
+                        "desc": "Increases the healing from <tt src={/class-icons/resistance/demon-avenger/life-sap.png} tip={Life Sap (1st Job)}> and increases the %Final Damage provided from <tt src={/class-icons/resistance/demon-avenger/overload-release.png} tip={Overload Release (1st Job)}>"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Exceed: Execution",
+                    "shortDesc": "HP Cost: 4%, Damage: 540%, Number of Attacks: 4, Max Enemies Hit: 2\\nEnemy DEF Ignored: 30%.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed-execution.png"],
+                    "animations": ["https://media2.giphy.com/media/S5kTVrsVULE6lNojVT/giphy.gif", "https://media2.giphy.com/media/D2EIpVJsYBaQKp6Ooj/giphy.gif"],
+                    "type": "Exceed Attack",
+                    "desc": "Slash forwarda at up to 2 enemies",
+                    "details": [
+                        "Attack also have increases %Ignore DEF",
+                        "Exceed Mode increases number of hits per attack (by 2)"
+                    ]
+                },
+                {
+                    "name": "Nether Shield",
+                    "shortDesc": "HP Cost: 8% of Max HP, Shields: 2, Damage: 500%, Number of Attacks: 2, Attacks per Shield: 8.\\nCooldown: 6 sec\\n[Passive Effect: Exceed: Lunar Slash Damage: +330% (additive)]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/demon-avenger/nether-shield.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3NibGtnYXp5NGVkZmVjZDRmZWhnampyODFsZnZwbGZmN3lqNW9qNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/82T6qxL4NxajFsQOob/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launch homing shields that seek and attack enemies",
+                    "details": [
+                        "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/resistance/demon-avenger/exceed-lunar-slash.png} tip={Exceed: Lunar Slash (3rd Job)}> by a flat amount",
+                        "Prioritizes bosses with the highest HP first",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Nether Slice",
+                    "shortDesc": "HP Cost: 1000, Enemies Hit: 12, Damage: 350%, Number of Attacks: 4, Debuff Duration: 60 sec, Enemy DEF: -30%\\n[Passive Effect: Exceed: Demon Strike Damage: +155% (additive)]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/demon-avenger/nether-slice.png"],
+                    "animations": ["https://media4.giphy.com/media/D2XyircJ05OMDaGdpK/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slice forward debuffing enemies hit",
+                    "details": [
+                        "[Debuff]: Reduces %DEF<bp_Reduction to %DEF can be considered as %Ignore DEF_>",
+                        "[Passive]: Increases the %Damage of <tt src={/class-icons/resistance/demon-avenger/exceed-demon-strike.png} tip={Exceed: Demon Strike (2nd Job)}> by a flat amount"
+                    ]
+                },
+                {
+                    "name": "Blood Prison",
+                    "shortDesc": "HP Cost: 5000, Max Enemies Hit: 14, Damage: 800%, Number of Attacks: 3\\nWhen Hit, Stun Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Blood Prison.\\nCooldown: 120 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/demon-avenger/blood-prison.png"],
+                    "animations": ["https://media4.giphy.com/media/qOiAPrNw1tvgF6w0ll/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Unleash an attack that binds nearby enemies"
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "HP Cost: 1000, Goddess of Tynerum appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%, Max HP: +15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/maple-warrior.png"],
+                    "animations": ["https://media3.giphy.com/media/K9RIwd9SI6DugjHTd9/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "The Demon's Will",
+                    "shortDesc": "HP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/the-demons-will.png"],
+                    "animations": ["https://media.giphy.com/media/4rkqvvmh0bxbAqdeoO/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Limits Surpassed",
+                    "shortDesc": "HP Cost: 1000, Duration: 24 sec, Skill HP Consumption: 0\\nCooldown: 60 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/resistance/demon-avenger/limits-surpassed.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3FtdWJuYzIyNXQxdGxyNWh3NTExNWN2MXdid2k2YXdlaHlsa3NsZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uz80Lc8ojs33vysFFW/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Overwhelming Power",
+                    "shortDesc": "Final Damage: +19%, Damage: +30%, Ignore Defense: +30%, Attack Speed: +1",
+                    "maxLevel": 25,
+                    "icons": ["/class-icons/resistance/demon-avenger/overwhelming-power.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Defense Expertise",
+                    "shortDesc": "Shield Charge and Nether Shield Damage: +20%, Ignore Defense: +30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/demon-avenger/defense-expertise.png", "/class-icons/resistance/demon-avenger/shield-charge.png", "/class-icons/resistance/demon-avenger/nether-shield.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage and %Ignore DEF of attacks"
+                    ]
+                },
+                {
+                    "name": "Advanced Desperado Mastery",
+                    "shortDesc": "Desperado Mastery: +70%\\nAttack Power: +50, Critical Damage: +8%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png", "/class-icons/resistance/demon-avenger/desperado-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Infernal Exceed",
+                    "shortDesc": "[Final Attack Skills] Chance to deliver an extra attack after Exceed: 70%, Damage: 200%, Bonus Number of Attacks: 2, Max Enemies Hit: 2",
+                    "maxLevel": 15,
+                    "icons": ["/class-icons/resistance/demon-avenger/infernal-exceed.png"],
+                    "type": "Final Attack Passive",
+                    "desc": "Using <tt src={/class-icons/resistance/demon-avenger/exceed.png} tip={Exceed (Beginner Skill)}> Exceed Skills have a chance to deal an additional attack"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Exceed - Reinforce",
+                    "shortDesc": "Exceed Skills Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Damage of all Exceed skills",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Exceed - Reduce Overload",
+                    "shortDesc": "Exceed Overload: -2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed-reduce-overload.png"],
+                    "type": "Passive",
+                    "desc": "Reduces max Overload stacks from 20 to 18",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Exceed - Opportunity",
+                    "shortDesc": "Bonus Exceed Attack Chance: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed-opportunity.png"],
+                    "type": "Passive",
+                    "desc": "Increases the chance for <tt src={/class-icons/resistance/demon-avenger/infernal-exceed.png} tip={Infernal Exceed (4th Job)}> to activate",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Ward Evil - Harden",
+                    "shortDesc": "Damage Intake: -10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/ward-evil-harden.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Ward Evil - Immunity Enhance 1",
+                    "shortDesc": "Status Resistance: +10",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/ward-evil-immunity-enhance-1.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Ward Evil - Immunity Enhance 2",
+                    "shortDesc": "Elemental Resistance: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/ward-evil-immunity-enhance-2.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Nether Shield - Reinforce",
+                    "shortDesc": "Nether Shield Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/nether-shield-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Nether Shield - Spread",
+                    "shortDesc": "Permanently increases the max number of attacks per Nether Shield by 2.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/nether-shield-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Nether Shield - Range",
+                    "shortDesc": "Nether Shield Range: +50",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/nether-shield-range.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Forbidden Contract",
+                    "shortDesc": "HP Cost: 5000, Duration: 24 sec, Damage: +10%\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/forbidden-contract.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm1vNGU3djB1YjdoZXJ5cXh1eGMxemh3N29xMXlhY3d4N3hhOGlhNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o0bW6yUwwcCTYfI1ZM/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Thousand Swords",
+                    "shortDesc": "Max HP Cost: 15%, Exceed Overload: +5, Damage: 500%, Number of Attacks: 8, Max Enemies Hit: 14\\nCooldown: 8 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demon-avenger/thousand-swords.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTluZWZtZWduODJhNmZzaHcwZ3Q0cDUyYjBkb2o4MTFvOGQ4cXA2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qXAdYcd7OxzF5skvvY/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHprM3BsOW5zajQ5c29hdzEwc25xd2s3NDZzYjlmMng1Zms2djl2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8uLZYGIF8bWe5ogf0B/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a flurry of attacks around you",
+                    "details": [
+                        "Upon use, increases <tt src={/class-icons/resistance/demon-avenger/exceed.png} tip={Exceed (Beginner Skill)}> Overload stacks"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Demonic Fortitude",
+                    "shortDesc": "HP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/demonic-fortitude.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Zkd3NmMmVhanlidXRtYmVwZ21jMW92OGE2aWFib3l6NHF1N3VuciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3l0MLGxcYXO0WXGZg/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["defenderOfTheDemon", "otherworldGoddessBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Demonic Frenzy",
+                    "shortDesc": "HP Cost: 20% of Max HP. Consumes 6000 HP per sec, Healing Restriction: Items and skills can only heal 1% of Max HP. Hit Damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 11% per 2% HP consumed. Your demonic blood, burning with vengeance, lingers in the area, periodically dealing 740% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 1 sec",
+                    "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
+                    "animations": ["https://media.giphy.com/media/FHWtnSun6sL2Z6n162/giphy.gif"],
+                    "type": "Toggle Buff",
+                    "desc": "While toggled, gain increased %Final Damage and create a damaging aura around you",
+                    "details": [
+                        "Costs HP to activate and drains HP each sec while active",
+                        "Items and skills can only recover 1% Max HP but you take reduced damage (including %Max HP attacks)",
+                        "Upon falling below 30% HP, HP will no longer drain and healing is no longer restricted",
+                        "Pressing the Skill Key again ends the skill early"
+                    ]
+                },
+                {
+                    "name": "Frenzy Break",
+                    "shortDesc": "Consumes 6000 HP per sec. Healing Restriction: Items and skills can only heal 2% of Max HP. Hit Damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 11% per 2% HP consumed. Your demonic blood, burning with vengeance, lingers in the area, periodically dealing 740% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Frenzy Break will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.",
+                    "icons": ["/class-icons/resistance/demon-avenger/frenzy-break.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG05a3VlYXI2MTV6cmp1OWRweTV1eGk3ejVjZW51bXdlaTNsN2libSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UXhyA7oxXmPbXM3rpa/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Using this skill while <tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)}> is active, switches the mode to <tt src={/class-icons/resistance/demon-avenger/frenzy-break.png} tip={Frenzy Break (5th Job)}> and the Items and skills recovery amount increases from 1% to 2% Max HP",
+                    "details": [
+                        "Shares Skill Points (SP) with <tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)}> and is unlocked together"
+                    ]
+                },
+                {
+                    "name": "Demonic Blast",
+                    "shortDesc": "HP Cost: 3% of Max HP, Max Enemies Hit: 8, Damage: 1595%, Number of Attacks: 12. For attacks that inflict damage at a certain ratio of the target's Max HP, Damage -30%, Duration: 1 sec.\\nHP Recovery: 25% of Max HP, Additional Critical Rate: 100%, Additional Ignore Defense: 100%\\nCooldown: 12 sec.",
+                    "icons": ["/class-icons/resistance/demon-avenger/demonic-blast.png"],
+                    "animations": ["https://media.giphy.com/media/dkj41MelAKdjHBu5AV/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release an explosion that damages nearby enemies",
+                    "details": [
+                        "If the attack defeats an enemy or hits a boss, restore some %Max HP<bp_HP recovered is not affected by <tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)}> or Ghost Park_>",
+                        "Upon casting, briefly increases %Damage Reduction including %Max HP attacks",
+                        "The attack is a guaranteed Critical Hit and will have 100% Ignore DEF",
+                        "Can be used while using other skills"
+                    ]
+                },
+                {
+                    "name": "Dimensional Sword",
+                    "shortDesc": "HP Cost: 20% of Max HP. Summon a magic sword for 40 sec every 3 sec. Max Enemies Hit: 8, Damage: 2915%, Number of Attacks: 15\\nThe skill duration becomes 1/5 if the skill is used again while summoning, but the magic sword will spin quickly and deal 1265% damage to 8 enemies 10 times.\\nAll Dimensional Sword hits receive Defense Ignored: +100%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/resistance/demon-avenger/dimensional-sword.png"],
+                    "animations": ["https://media.giphy.com/media/D6V4AHh4BhxhYMap6A/giphy.gif", "https://media.giphy.com/media/w9YlX5uKzz8R5K0wzL/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon swords that hover above you and periodically slashes forward at nearby enemies",
+                    "details": [
+                        "While active, pressing the Skill Key again will reduce the summon duration but the swords will continuously spin around you dealing damage to nearby enemies",
+                        "Attack has 100% Ignore DEF",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Revenant",
+                    "shortDesc": "HP Cost: 50% of Current HP, Duration: 15 sec\\nWhen using the Exceed skill, activates Thorn of Fury, which damages 5 enemies with 935% damage 12 time(s). Additional Monster DEF Ignored: +30%, Cooldown: 4 sec\\nSaves Damage Taken, up to 100% of Max HP, as Fury, and reduces cooldown in proportion to amount saved. Your current Fury amount decreases by 7% periodically.\\nAfter the skill ends, any saved Fury, plus 1% of max HP will come back to you as damage 25 time(s). This damage cannot kill you by itself.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/resistance/demon-avenger/revenant.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Rlbnhnc3YwYnNjY21vZnAzYW51Mm11dnQ4dHlmOXZwYXR4OTB2MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xXFqPq6ZoeNv29mdaW/giphy-downsized-large.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjBqc3RpYzM3aW91MDB6dHVkMXhhOXByYTk5MGxkazNnY2VjZ21xeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3NqsIBxHcOHp8q69FO/giphy-downsized-large.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, you cannot go below 1 HP and upon using an Exceed attack, an additional attack appears",
+                    "details": [
+                        "All damage taken will be stored as \"Rage\" (up to 100% of Max HP)<bp_Rage will slowly decay while the skill is active_Cooldown of the additional attack is reduced based on your Rage_At the end of the skill, you will take damage equal to the Rage stored but it cannot kill you_>",
+                        "Additional attack has increased %Ignore DEF and ignores Damage Reflect",
+                        "Pressing the Skill Key again will cancel the skill early",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Exceed: Double Slash Boost",
+                    "shortDesc": "Exceed: Double Slash Final Damage: +420%",
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed-double-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Exceed: Demon Strike Boost",
+                    "shortDesc": "Exceed: Demon Strike Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed-demon-strike.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Bat Swarm Boost",
+                    "shortDesc": "Bat Swarm Final Damage: +300%",
+                    "icons": ["/class-icons/resistance/demon-avenger/bat-swarm.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Exceed: Lunar Slash Boost",
+                    "shortDesc": "Exceed: Lunar Slash Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed-lunar-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Vitality Veil Boost",
+                    "shortDesc": "Vitality Veil Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/demon-avenger/vitality-veil.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shield Charge Boost",
+                    "shortDesc": "Shield Charge Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/demon-avenger/shield-charge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Exceed: Execution Boost",
+                    "shortDesc": "Exceed: Execution Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/demon-avenger/exceed-execution.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Nether Shield Boost",
+                    "shortDesc": "Nether Shield Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/demon-avenger/nether-shield.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Nether Slice Boost",
+                    "shortDesc": "Nether Slice Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/demon-avenger/nether-slice.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blood Prison Boost",
+                    "shortDesc": "Blood Prison Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/demon-avenger/blood-prison.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Infernal Exceed Boost",
+                    "shortDesc": "Infernal Exceed Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/demon-avenger/infernal-exceed.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Thousand Swords Boost",
+                    "shortDesc": "Thousand Swords Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/demon-avenger/thousand-swords.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-nether-shield.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/demon-avenger/nether-shield.png} tip={Nether Shield (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Nether Shield",
+                    "shortDesc": "HP Cost: 8% of Max HP, Number of Shields: 3, Damage: 840%, Number of Attacks: 2\\nMax Number of Attacks: 8 per shield\\nWhen a single boss monster is hit repeatedly, Final Damage: -30%\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-nether-shield.png", "/class-icons/resistance/demon-avenger/nether-shield.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejk1emwwdDQ2czRyb2g2dGdnZzI2cjViOGRqbjU3bGxpbXRqbWJ0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3f5IeXXoHFxL3QI4LL/giphy-downsized-large.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-exceed-execution.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/demon-avenger/exceed-execution.png} tip={Exceed: Execution (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Exceed: Execution",
+                    "shortDesc": "HP Cost: 4%, Damage: 980%, Number of Attacks: 4, Max Enemies Hit: 4\\nEnemy DEF Ignored: 35%.",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-exceed-execution.png", "/class-icons/resistance/demon-avenger/exceed-execution.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2oweWFsaG9zMmkyZmpud210cmlkdWN6MTBwNHh6OHQzaGl0cGQ0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2sFcrevLNui8L8i4jW/giphy.gif", "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNiMTA1YjFkMGJia3o0eGh5eW9rN280YTN5anZxcmxsbHoyYXI4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vOIieNuEeK20iPHB7m/giphy.gif", "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWFnN2o3a3JnbHR2dnk2dWRycDRwNDdhcTN5NXNucHo2OWkwdXlleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EfYcfLHu4X0McwHwuH/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-lunar-slash-maximal-exceed.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/demon-avenger/exceed-lunar-slash.png} tip={Exceed: Lunar Slash (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Exceed: Lunar Slash",
+                    "shortDesc": "HP Cost: 3%, Damage: 1143%, Number of Attacks: 3, Max Enemies Hit: 10",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-exceed-lunar-slash.png", "/class-icons/resistance/demon-avenger/exceed-lunar-slash.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTg0bzAxaW9ybDI5NHRsdjBlaWdqcWRzZDVmamY0bWRpZDJhemcyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L5HRWBo33ZSOsQNdgD/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Maximal Exceed",
+                    "shortDesc": "Desperado is created for every enemy Exceed lands on. Damage: 2415%, Number of Attacks: 8\\nCooldown decreases 0.3 sec when current HP is higher than 10% and lower than 75% of max HP, or decreases 4 sec when current HP is lower than 10% of max HP\\nCooldown doesn't decrease to below 1 sec\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/resistance/demon-avenger/maximal-exceed.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2kxaWh2N2l0Y3M4ZzYyZ3NjMzBrcG5nOTRuN2p3dWM1eDJ1eG9lMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oaNVlmlBqyiryhaGYs/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTluOGJreHBlYTNpMzdsZno2dHYxbm4zdWM0cXhvMHJkamlvdGR0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fTJltQnDckdiHKLK1w/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-thousand-swords-infernal-exceed.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/demon-avenger/infernal-exceed.png} tip={Infernal Exceed (4th Job)}> <tt src={/class-icons/resistance/demon-avenger/thousand-swords.png} tip={Thousand Swords (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Thousand Swords",
+                    "shortDesc": "Max HP Cost: 15%, Exceed Overload: +5\\nDamage: 900%, Number of Attacks: 8, Max Enemies Hit: 14\\nCooldown: 8 sec.\\n[Passive Effect: HEXA Exceed: Execution Damage: +295% points]",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-thousand-swords.png", "/class-icons/resistance/demon-avenger/thousand-swords.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTZuZzBldnY4NDBucDA2ZDVubjhmc25rNWZpeW02NWFnNWZpZTdzNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G4gOFOZ54jI7qb8XzV/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Infernal Exceed",
+                    "shortDesc": "[Final Attack Skills] Chance to deliver an extra attack when Exceed lands: 80%, Damage: 405%, Bonus Number of Attacks: 2, Max Enemies Hit: 2",
+                    "icons": ["/class-icons/resistance/demon-avenger/hexa-infernal-exceed.png", "/class-icons/resistance/demon-avenger/infernal-exceed.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndvbTdqeWZuZTNlNHBpaTE4ZDAzeDZjaGlqM3R3cThycmY1ODJxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K7U1UIWPwHNj5iciWT/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Requiem",
+                    "shortDesc": "HP Cost: 15% of Max HP, invincible during casting\\nMax Enemies Hit: 15, Damage: 1200%, Number of Attacks: 10, Chase Cuts: 50, then summons Demon Requiem Sword\\nDemon Requiem Sword - Duration: 15 sec, Max Enemies Hit: 15, Damage: 2270%, Number of Attacks: 12\\nUsing skill again after 4 sec of summoning, Max Enemies Hit: 15, Damage: 1255%, Number of Attacks: 14, Demon Sword Roar Activations: 46, invincible and ignores status effects during casting of Demon Sword Roar\\nDemon Sword summon and roar activate Infernal Exceed, Revenant's Thorn of Fury, and Maximal Exceed.\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/resistance/demon-avenger/requiem.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzc2YmE4MGk1OGNycHhyZGtyejI4aWVoemk4ZGFsY25ydXUzYWI0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q1ascbZh60pJz8X6AT/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Rageborne Devil",
+                    "shortDesc": "After creating rifts of wrath, use the skill again within 30 sec. to activate Red Annihilation. Invincible during casting, the HP recovery from Life Sap and Advanced Life Sap will not apply when Demonic Frenzy is applied to skills that activate while you're invincible.\\nRifts of Wrath - HP Cost: 100. Your wrath strikes out 19 times, dealing 7280% damage to up to 15 enemies 11 times. The rifts open for 30 sec.\\nRed Annihilation - HP Cost: 100. Use the skill again while the rifts are open to unleash 14 slashes, dealing 7385% damage to up to 15 enemies 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/resistance/demon-avenger/rageborne-devil.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzZibXN0aG90bDBmN3N2cDd1b3FicGJxNjR4ejJlMm41OWNlM2ZvZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ebwRGZiHCTKDCQrTpv/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Demonic Frenzy Boost",
+                    "shortDesc": "Demonic Frenzy Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Demonic Blast Boost",
+                    "shortDesc": "Demonic Blast Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/demon-avenger/demonic-blast.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Dimensional Sword Boost",
+                    "shortDesc": "Dimensional Sword Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/demon-avenger/dimensional-sword.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Revenant Boost",
+                    "shortDesc": "Revenant Final Damage: +60%, Duration: increased to 18 sec., decreases max savable Fury and Fury to decrease Thorn of Fury cooldown by 60%",
+                    "icons": ["/class-icons/resistance/demon-avenger/revenant.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Exceed: Lunar Slash - 3rd Job",
+                "icons": ["/class-icons/resistance/demon-avenger/exceed-lunar-slash.png"],
+                "animations": ["https://media0.giphy.com/media/LyyjHuZzkfjaAFQnR2/giphy.gif"]
+            },
+            {
+                "name": "Exceed: Execution - 4th Job",
+                "icons": ["/class-icons/resistance/demon-avenger/exceed-execution.png"],
+                "animations": ["https://media2.giphy.com/media/D2EIpVJsYBaQKp6Ooj/giphy.gif"]
+            },
+            {
+                "name": "Nether Shield - 4th Job",
+                "icons": ["/class-icons/resistance/demon-avenger/nether-shield.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3NibGtnYXp5NGVkZmVjZDRmZWhnampyODFsZnZwbGZmN3lqNW9qNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/82T6qxL4NxajFsQOob/giphy.gif"]
+            },
+            {
+                "name": "Thousand Swords - Hyper Skill",
+                "icons": ["/class-icons/resistance/demon-avenger/thousand-swords.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTluZWZtZWduODJhNmZzaHcwZ3Q0cDUyYjBkb2o4MTFvOGQ4cXA2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qXAdYcd7OxzF5skvvY/giphy.gif"]
+            },
+            {
+                "name": "Demonic Frenzy - 5th Job",
+                "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
+                "animations": ["https://media.giphy.com/media/FHWtnSun6sL2Z6n162/giphy.gif"]
+            },
+            {
+                "name": "Dimensional Sword - 5th Job",
+                "icons": ["/class-icons/resistance/demon-avenger/dimensional-sword.png"],
+                "animations": ["https://media.giphy.com/media/D6V4AHh4BhxhYMap6A/giphy.gif"]
+            },
+            {
+                "name": "Revenant - 5th Job",
+                "icons": ["/class-icons/resistance/demon-avenger/revenant.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Rlbnhnc3YwYnNjY21vZnAzYW51Mm11dnQ4dHlmOXZwYXR4OTB2MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xXFqPq6ZoeNv29mdaW/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "HEXA Nether Shield - 6th Job",
+                "icons": ["/class-icons/resistance/demon-avenger/hexa-nether-shield.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejk1emwwdDQ2czRyb2g2dGdnZzI2cjViOGRqbjU3bGxpbXRqbWJ0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3f5IeXXoHFxL3QI4LL/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Requiem - 6th Job",
+                "icons": ["/class-icons/resistance/demon-avenger/requiem.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGZpZGY0YjExdjVlZmkwOWk1ejUzYnZzNTBmdWY3bzd2aDV0d2RuYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0Vhs3deDfT9b56cs3M/giphy-downsized-large.gif"]
+            }
+        ]
+    },
+    "meta": "Demon Avenger is HP warrior class part of the Demons & Resistance class group. Demon Avengers use HP for their attacks and do not have an MP resource. As well, instead of scaling off of STR like regular warriors, Demon Avengers' damage scales off of HP"
+}

@@ -1,0 +1,1197 @@
+{
+    "class": "Mechanic",
+    "content": {
+        "classGroup": "Resistance",
+        "jobGroup": "Pirate",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Increases %Buff Duration",
+        "legionValue": "5/10/15/20/25%",
+        "equipment": [
+            {"weapon": ["gun"]},
+            {"secondary": ["magnum"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "If Lv.260 or below (w/o 6th Job)",
+                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "If above Lv.260 & working on 6th job",
+                "abilities": ["Boss Damage +20%", "Attack +21 / Buff Duration +38%", "Damage to monsters inflicted with Abnormal Status +8%"],
+                "notes": "6th Job Homing Beacon missiles are increased to 12 missiles and unaffected by all +1 skills"
+            },
+            {
+                "name": "For Farming",
+                "abilities": ["Meso Obtained +20% / Item Drop Rate +20%", "Meso Obtained +15% / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "1st Line is based on preference whether 5% extra Meso/Drop is preferred - whichever is not chosen can be the 2nd/3rd Line. Damage to Normal Monster and Abnormal Status are equivalent given the debuff from Support Unit: H-EX when active"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.5x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/resistance/mechanic/mechanic-rage.png} tip={Mechanic Rage (2nd Job)} val={+2}> <bg src={/class-icons/resistance/mechanic/battle-program.png} tip={Battle Program (3rd Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/resistance/mechanic/extreme-mech.png} tip={Extreme Mech (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+30 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +115(155)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/mechanic/humanoid-mech.png} tip={Humanoid Mech (1st Job)} val={+40}> <bg src={/class-icons/resistance/mechanic/mechanic-mastery.png} tip={Mechanic Mastery (2nd Job)} val={+20}> <bg src={/class-icons/resistance/mechanic/extreme-mech.png} tip={Extreme Mech (4th Job)} val={+55}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={15% of base weapon power while on cooldown}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%(70%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/resistance/mechanic/mechanic-mastery.png} tip={Mechanic Mastery (2nd Job)} val={+15%}> <bg src={/class-icons/resistance/mechanic/overclock.png} tip={Overclock (3rd Job)} val={+20%}> <bg type={temp} src={/class-icons/resistance/mechanic/tank-mech.png} tip={Tank Mech (3rd Job)} val={+30% in tank form}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+8%",
+                "detail": "<bg src={/class-icons/resistance/mechanic/mechanic-mastery.png} tip={Mechanic Mastery (2nd Job)} val={+8%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+60%(90%)",
+                "detail": "<bg src={/class-icons/link-skills/spirit-of-freedom.png} tip={Spirit of Freedom (Link Skill)} val={+5%}> <bg src={/class-icons/resistance/mechanic/hidden-peace.png} tip={Hidden Peace (Beginner Skill)} val={+10%}> <bg src={/class-icons/resistance/mechanic/robot-mastery.png} tip={Robot Mastery (4th Job)} val={+45%}> <bg type={temp} src={/class-icons/resistance/for-liberty.png} tip={For Liberty (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+51.94%(54.78%)",
+                "detail": "<bg src={/class-icons/resistance/mechanic/overclock.png} tip={Overclock (3rd Job)} val={+42%}> × <bg type={temp} sub={opt} src={/class-icons/resistance/mechanic/enhanced-support-unit.png} tip={Enhanced Support Unit (4th Job)} val={+7% while nearby} subSrc={/class-icons/resistance/mechanic/support-unit-h-ex-party-reinforce.png} subTip={Support Unit - Party Reinforce (Hyper Skill)} subVal={extra +2%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+37%",
+                "detail": "<bg src={/class-icons/resistance/mechanic/overclock.png} tip={Overclock (3rd Job)} val={+30%}> × <bg type={debuff} src={/class-icons/resistance/mechanic/support-unit-h-ex.png} tip={Support Unit: H-EX (3rd Job)} val={+10%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "[ <tt src={/class-icons/resistance/mechanic/humanoid-mech.png} tip={Humanoid Mech (1st Job)}> / <tt src={/class-icons/resistance/mechanic/tank-mech.png} tip={Tank Mech (3rd Job)}> ](Mount) <tt src={/class-icons/resistance/mechanic/mechanic-rage.png} tip={Mechanic Rage (2nd Job)} dur={[180s]}>",
+            "summons": "<tt src={/class-icons/resistance/mechanic/open-portal-gx-9.png} tip={Open Portal: GX-9 (2nd Job)} dur={[300s]}> <tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/support-unit-h-ex.png} tip={Support Unit: H-EX (3rd Job)} dur={[80s]}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/distortion-bomb.png} tip={Distortion Bomb (Hyper Skill)} dur={[4s](8s cd)}> <tt src={/class-icons/resistance/mechanic/doomsday-device.png} tip={Doomsday Device (5th Job)} dur={[100s](120s cd)}> <tt src={/class-icons/resistance/mechanic/mecha-carrier.png} tip={Mecha Carrier (5th Job)} dur={[50s](120s cd)}> <tt src={/class-icons/5th-job/resistance-infantry.png} tip={Resistance Infantry (5th Job)} dur={[15s](60s cd)}> <tt src={/class-icons/resistance/mechanic/robo-conversion-cb-p1.png} tip={Robo Conversion: CB-P1 (6th Job)} dur={(Toggle)}>",
+            "buffCd": "<tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)} dur={[180s](180s cd / 90s cd if 1)}> <tt src={/class-icons/resistance/mechanic/full-spread.png} tip={Full Spread (Hyper Skill)} dur={[10s](60s cd)}> <tt src={/class-icons/resistance/for-liberty.png} tip={For Liberty (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/resistance/mechanic/ground-zero.png} tip={Ground Zero (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/resistance/mechanic/giant-robot-sg-88.png} tip={Giant Robot SG-88 (4th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/resistance/mechanic/full-metal-barrage.png} tip={Full Metal Barrage (5th Job)} dur={[Up to 10s](120s cd)}> <tt src={/class-icons/resistance/mechanic/ground-zero.png} tip={Ground Zero (6th Job)} dur={(360s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000329,
+            "offline": true,
+            "name": "Spirit of Freedom",
+            "maxLevel": 12,
+            "shortDesc": "Grants 12 seconds of invincibility after being revived. Removed upon moving to another map.",
+            "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/resistance/mechanic/rocket-booster.png} tip={Rocket Booster}> -> <tt src={/class-icons/resistance/mechanic/me-07-drillhands.png} tip={ME-07 Drillhands}> -> <tt src={/class-icons/resistance/mechanic/gatling-gun.png} tip={Gatling Gun}> -> <tt src={/class-icons/resistance/mechanic/humanoid-mech.png} tip={Humanoid Mech}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/resistance/mechanic/open-portal-gx-9.png} tip={Open Portal: GX-9}> -> <tt src={/class-icons/resistance/mechanic/mechanic-mastery.png} tip={Mechanic Mastery}> -> <tt src={/class-icons/resistance/mechanic/mechanic-rage.png} tip={Mechanic Rage}> -> <tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7}> -> <tt src={/class-icons/resistance/mechanic/homing-beacon.png} tip={Homing Beacon}> -> <tt src={/class-icons/resistance/mechanic/heavy-gatling-gun.png} tip={Heavy Gatling Gun}> -> <tt src={/class-icons/resistance/mechanic/perfect-armor.png} tip={Perfect Armor}>"],
+                ["3rd Job", "<tt src={/class-icons/resistance/mechanic/overclock.png} tip={Overclock}> -> <tt src={/class-icons/resistance/mechanic/mechanized-defense-system.png} tip={Mechanized Defense System}> -> <tt src={/class-icons/resistance/mechanic/advanced-homing-beacon.png} tip={Advanced Homing Beacon}> -> <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> -> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock}> -> <tt src={/class-icons/resistance/mechanic/support-unit-h-ex.png} tip={Support Unit: H-EX}> -> <tt src={/class-icons/resistance/mechanic/heavy-salvo.png} tip={Heavy Salvo}> -> <tt src={/class-icons/resistance/mechanic/punch-launcher.png} tip={Punch Launcher}>"],
+                ["4th Job", "<tt src={/class-icons/resistance/mechanic/homing-beacon-research.png} tip={Homing Beacon Research}> -> <tt src={/class-icons/common/double-down.png} tip={Double Down}> -> <tt src={/class-icons/resistance/mechanic/extreme-mech.png} tip={Extreme Mech}> -> <tt src={/class-icons/resistance/mechanic/robot-mastery.png} tip={Robot Mastery}> -> <tt src={/class-icons/resistance/mechanic/heavy-salvo-plus.png} tip={Heavy Salvo Plus}> -> <tt src={/class-icons/resistance/mechanic/mech-alloy-research.png} tip={Mech Alloy Research}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/resistance/mechanic/enhanced-support-unit.png} tip={Enhanced Support Unit}> -> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots}> -> <tt src={/class-icons/resistance/mechanic/giant-robot-sg-88.png} tip={Giant Robot SG-88}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/resistance/mechanic/rock-n-shock-reinforce.png} tip={Rock 'n Shock - Reinforce}> <tt src={/class-icons/resistance/mechanic/rock-n-shock-guardbreak.png} tip={Rock 'n Shock - Guardbreak}> Rock 'n Shock - Persist and Guardbreak_<tt src={/class-icons/resistance/mechanic/support-unit-h-ex-party-reinforce.png} tip={Support Unit H-EX - Party Reinforce}> Support Unit - H-EX - Party Reinforce_<tt src={/class-icons/resistance/mechanic/heavy-salvo-reinforce.png} tip={Heavy Salvo - Reinforce}> <tt src={/class-icons/resistance/mechanic/ap-salvo-plus-extra-strike.png} tip={AP Salvo Plus - Extra Strike}> Heavy Salvo - Reinforce and AP Salvo Plus - Extra Strike_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Bossing Trio", "<tt src={/class-icons/resistance/mechanic/homing-beacon.png} tip={Homing Beacon (2nd Job)}> <tt src={/class-icons/resistance/mechanic/heavy-salvo-plus.png} tip={Heavy Salvo Plus and AP Salvo Plus (4th Job)}> <tt src={/class-icons/resistance/mechanic/distortion-bomb.png} tip={Distortion Bomb (Hyper Skill)}>"],
+                    ["Mobbing Trio", "<tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)}>"]
+                ],
+                "notes": [
+                    "Either categories can be maxed first based on if you prioritize bossing or mobbing",
+                    "Any combination of these skills are good but preferred from same category so that the skills boosted match your priorities",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/resistance/mechanic/heavy-salvo.png} tip={Heavy Salvo (3rd Job)}> <tt src={/class-icons/resistance/mechanic/ap-salvo.png} tip={AP Salvo (3rd Job)}> <tt src={/class-icons/resistance/mechanic/heavy-salvo-plus.png} tip={Heavy Salvo Plus (4th Job)}> <tt src={/class-icons/resistance/mechanic/ap-salvo-plus.png} tip={AP Salvo Plus (4th Job)}>",
+                "<tt src={/class-icons/resistance/mechanic/homing-beacon.png} tip={Homing Beacon (2nd Job)}>",
+                "<tt src={/class-icons/resistance/mechanic/distortion-bomb.png} tip={Distortion Bomb (Hyper Skill)}> <tt src={/class-icons/resistance/mechanic/support-unit-h-ex.png} tip={Support Unit: H-EX (3rd Job)}> <tt src={/class-icons/resistance/mechanic/giant-robot-sg-88.png} tip={Giant Robot SG-88 (4th Job)}>",
+                "<tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)}>",
+                "<tt src={/class-icons/resistance/mechanic/heavy-gatling-gun.png} tip={Heavy Gatling Gun (2nd Job)}> <tt src={/class-icons/resistance/mechanic/punch-launcher.png} tip={Punch Launcher (3rd Job)}>",
+                "<tt src={/class-icons/resistance/mechanic/me-07-drillhands.png} tip={ME-07 Drillhands (1st Job)}> <tt src={/class-icons/resistance/mechanic/gatling-gun.png} tip={Gatling Gun (1st Job)}> <tt src={/class-icons/resistance/mechanic/rocket-booster.png} tip={Rocket Booster (1st Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Mechanic"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%A9%94%EC%B9%B4%EB%8B%89(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/JenpnsgHBc"}
+        ],
+        "infographics": [
+            {
+                "src": "mechanic/mechanic-6th-job.png",
+                "title": "6th Job",
+                "credit": "Mechanic Discord",
+                "date": "2026-06-25"
+            }
+        ],
+        "discord": "https://discord.gg/JenpnsgHBc",
+        "specialThanks": "Special thanks to Gboy, fuegobagel, and the members of the Mechanic Discord for their help in making this overview!",
+        "credits": [
+            ["Special Thanks", "Gboy and fuegobagel"],
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Skills + Boost Nodes Build + Infographic", "Mechanic Discord"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Spirit of Freedom",
+                    "maxLevel": 12,
+                    "shortDesc": "Invincible for 12 sec after being revived. Removed upon moving to another map.\\n[Passive Effect: Damage +5%]",
+                    "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Crystal Throw",
+                    "shortDesc": "MP Cost: 7, Damage: 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/crystal-throw.png"],
+                    "animations": ["https://media4.giphy.com/media/gZK814lYZ6cZ7UjIFW/giphy.gif"],
+                    "type": "Attacks",
+                    "desc": "Throws a rock that deals fixed damage"
+                },
+                {
+                    "name": "Infiltrate",
+                    "shortDesc": "MP Cost: 15, Hide for 30 sec, Movement Speed: +15",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/infiltrate.png"],
+                    "animations": ["https://media1.giphy.com/media/Ln54groTrGh8Hu6Lfg/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Turn invisible preventing touch damage"
+                },
+                {
+                    "name": "Potion Mastery",
+                    "shortDesc": "Recovery Rate: +115%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/potion-mastery.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Secret Assembly",
+                    "shortDesc": "MP Cost: 100, you move to the Resistance Secret Plaza\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/secret-assembly.png"],
+                    "animations": ["https://media1.giphy.com/media/TcXR7RRgE4VFZJEigG/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Jet Booster",
+                    "shortDesc": "Booster Max: 100, All Skill Activation MP Cost: 8\\nDouble Acceleration: While in the air, press the jump or skill key to perform a mid-air jump. Use with the up arrow key to jump upward. Consumes 25 of the booster. Can be used even when not mounted on the Mech, in which case it does not consume any of the booster.\\nBooster Deployment: While in the air, press the Down key, together with the jump or skill key, to hover in the air at a cost of 25 of the booster per sec.\\nMechanic Dash: Press Left twice, Right twice, or, if on the ground, Left/Right plus the skill key to dash in a straight line. If used in the air, consumes 25 of the booster. Cooldown: 0.3 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/jet-booster.png"],
+                    "animations": ["https://media2.giphy.com/media/daNgACMllVbRVYSSci/giphy.gif"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "[Double Jump]: Can be assigned a Key Slot or activated by pressing jump twice<bp_If combined with the Up Arrow Key, you will perform a vertical jump_Can be used while unmmounted_>",
+                        "[Jet Boosters]: While in the air, holding the Down Arrow Key and the Jump Key or Skill Key together will allow you to hover briefly<bp_You can move while hovering as long you hold onto the Jump Key or Skill Key_>",
+                        "[Mechanic Dash]: Double-tap the Left or Right Arrow Keys to dash forward<bp_Can be used in the air_>",
+                        "Right-clicking the skill will toggle a lock to prevent it from activating with the Arrow Keys"
+                    ]
+                },
+                {
+                    "name": "Hidden Peace",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/hidden-peace.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/16/End_of_Special_Training} title={\"End of Special Training\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Humanoid Mech",
+                        "shortDesc": "MP Cost: 50, Max Speed When Mounted: 20, Attack Power: 40, Defense: +300\\nPermanently increases Max HP and Max MP by 1500",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/resistance/mechanic/humanoid-mech.png"],
+                        "animations": ["https://media1.giphy.com/media/fwFNadvsn6j3jePKd3/giphy.gif"],
+                        "type": "Active Mount",
+                        "desc": "Mount onto your Humanoid Mech",
+                        "details": [
+                            "[Passive]: Permanently grants flat Max HP/MP",
+                            "While mounted, gain increased 100% Knockback Resistance, Attack, DEF and Max Movement Speed"
+                        ]
+                    },
+                    {
+                        "name": "Gatling Gun",
+                        "shortDesc": "MP Cost: 10, Damage: 90%, Max Enemies Hit: 4, Number of projectiles: 4",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/mechanic/gatling-gun.png"],
+                        "animations": ["https://media3.giphy.com/media/J6J8BLjDxpcKxsaAAv/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire several bullets that pierces through enemies"
+                    },
+                    {
+                        "name": "ME-07 Drillhands",
+                        "shortDesc": "MP Cost: 31, Max Enemies Hit: 10, Damage: 150% to knocked back enemies.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/mechanic/me-07-drillhands.png"],
+                        "animations": ["https://media0.giphy.com/media/QsOYV2ezYRwijCrotj/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward and push back enemies hit"
+                    },
+                    {
+                        "name": "Rocket Booster",
+                        "shortDesc": "MP Cost: 50 each (launch and land), Damage: 300%, Max Enemies Hit (upon landing): 6\\n[Passive Effect - Movement Speed: +22, Max Movement Speed: +20]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/mechanic/rocket-booster.png"],
+                        "animations": ["https://media1.giphy.com/media/0MJWO5mVSpEqWKAEfz/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Launch upwards before falling back down",
+                        "details": [
+                            "Can be used to propel up to platforms above you",
+                            "Can also be activated by pressing the Up Arrow Key and Attack Key together",
+                            "Right-clicking the skill will toggle a lock to prevent it from activating with the Arrow Keys"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Heavy Gatling Gun",
+                        "shortDesc": "MP Cost: 15, Damage: 160%, Max Enemies Hit: 6, Number of projectiles: 6",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/mechanic/heavy-gatling-gun.png"],
+                        "animations": ["https://media1.giphy.com/media/U77I8NGjvl3j634hEV/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire several bullets that pierces through enemies"
+                    },
+                    {
+                        "name": "Homing Beacon",
+                        "shortDesc": "MP Cost: 65, Damage: 210%, Max Enemy Hit: 4 at once",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/mechanic/homing-beacon.png"],
+                        "animations": ["https://media1.giphy.com/media/j52DA25qU3ngm8MANl/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "While held, launches homing missiles that seek out nearby enemies",
+                        "details": [
+                            "Right-clicking the skill toggles the smoke visual effect ON/OFF",
+                            "Prioritizes bosses with the highest HP first",
+                            "Can be used while using other skills",
+                            "Unaffected by Damage Reflect"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Open Portal: GX-9",
+                        "shortDesc": "MP Cost: 50, Portal Duration: 300 sec, cannot be used for 2 seconds after use.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/resistance/mechanic/open-portal-gx-9.png"],
+                        "animations": ["https://media1.giphy.com/media/QWX3xWrjgeLHCN4S8v/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place down a portal that allows you and your party members to freely move between",
+                        "details": [
+                            "2 portals within range of each other must be placed for them to function",
+                            "There is a brief cooldown after using a portal before they can be used again",
+                            "Right-clicking the skill toggles party member use ON/OFF"
+                        ]
+                    },
+                    {
+                        "name": "Mechanic Rage",
+                        "shortDesc": "MP Cost: 21, Attack Speed increased for 180 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/mechanic/mechanic-rage.png"],
+                        "animations": ["https://media3.giphy.com/media/fna70iy24S66uZ75r6/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "name": "Robo Launcher RM7",
+                        "shortDesc": "MP Cost: 45, Robo Launcher Duration: 70 sec\\nDamage: 250%, After duration is exceeded - Max Enemies Hit: 6, Self-Destruct Damage: 400%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/mechanic/robo-launcher-rm7.png"],
+                        "animations": ["https://media2.giphy.com/media/IgSIWKAhBddmQvxaCe/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a stationary sentry that attacks enemies in front of it",
+                        "details": [
+                            "At the end of the duration, the sentry explodes dealing damage to nearby enemies",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Perfect Armor",
+                        "shortDesc": "While mounting your mech, it has a 20% chance to guard against attacks.\\nReflects 500% damage back to enemies",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/mechanic/perfect-armor.png"],
+                        "type": "Passive",
+                        "desc": "Reflects damage back when taking damage and grants a chance to dodge attacks when mounted on your mech"
+                    },
+                    {
+                        "name": "Mechanic Mastery",
+                        "shortDesc": "Attack Power: +20, Weapon Mastery: +50%, Critical Rate: +15%, Critical Damage: +8%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/mechanic/mechanic-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Tank Mech",
+                        "shortDesc": "Tank Mode MP Cost: 50 plus 10 MP every 5 sec, Regular Attack: 100%, Regular Attack Critical Rate: +30%",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/resistance/mechanic/tank-mech.png"],
+                        "animations": ["https://media2.giphy.com/media/S6kcepai5zfqDihj4o/giphy.gif"],
+                        "type": "Active Mount",
+                        "desc": "Mount onto your Tank Mech that gains increased %Crit Rate"
+                    },
+                    {
+                        "name": "Heavy Salvo",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/mechanic/heavy-salvo.png"],
+                        "animations": ["https://media0.giphy.com/media/hsClKcQ0xMPtx7rewG/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a barrage of bullets forward",
+                        "details": [
+                            "Usable only in <tt src={/class-icons/resistance/mechanic/humanoid-mech.png} tip={Humanoid Mech (1st Job)}> Humanoid Mode",
+                            "Shares the same SP and Key Slot as <tt src={/class-icons/resistance/mechanic/ap-salvo.png} tip={AP Salvo (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "AP Salvo",
+                        "shortDesc": "MP Cost: 35, Damage: 250%, Number of Attacks: 6, Enemies Hit: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/mechanic/ap-salvo.png"],
+                        "animations": ["https://media3.giphy.com/media/gLzPjnVOtdvwISJdcF/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a concentrated bullet that pierces enemies",
+                        "details": [
+                            "Usable only in <tt src={/class-icons/resistance/mechanic/tank-mech.png} tip={Tank Mech (3rd Job)}> Tank Mode",
+                            "Shares the same SP and Key Slot as <tt src={/class-icons/resistance/mechanic/heavy-salvo.png} tip={Heavy Salvo (3rd Job)}>",
+                            "Prioritizes bosses with the highest HP first"
+                        ]
+                    },
+                    {
+                        "name": "Support Unit: H-EX",
+                        "shortDesc": "MP Cost: 100, Deploys H-EX and reduces Defense of monsters on the map by -10% for 80 sec. Restores 8% of HP for you and nearby party members every 5 sec, but party members must be near the Support Unit. After skill duration ends, self-destructs inflicting 500% damage on up to 6 enemies.\\n[Passive Effects - Status Resistance: +40, Elemental Resistance: +40%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/mechanic/support-unit-h-ex.png"],
+                        "animations": ["https://media3.giphy.com/media/hrWmekYs2Jh2jWRIP6/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place down a stationary robot that debuffs all enemies and restores %Max HP to nearby allies every few seconds",
+                        "details": [
+                            "[Debuff]: Reduces %DEF<bp_Reduction to %DEF can be considered as %Ignore DEF_>",
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
+                            "The caster does not need to in range to receive the healing effect",
+                            "At the end of the duration, the robot explodes dealing damage to nearby enemies"
+                        ]
+                    },
+                    {
+                        "name": "Punch Launcher",
+                        "shortDesc": "MP Cost: 45, Damage: 200%, Number of Attacks: 1, Enemies Hit with Knock-back Attack: 10.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/mechanic/punch-launcher.png"],
+                        "animations": ["https://media1.giphy.com/media/ehJoZvl32ldJgekKVB/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launch a fist forward that pushes enemies back"
+                    },
+                    {
+                        "name": "Roll of the Dice",
+                        "shortDesc": "MP Cost: 60, Dice Buff Duration: 180.\\n1: Roll of the Dice Cooldown: -50%\\n2: Defense +30%\\n3: Attack +15\\n4: Critical Rate: +15%\\n5: Damage +20%\\n6: EXP Obtained +30%\\nCooldown: 200 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/roll-of-the-dice.png"],
+                        "animations": ["https://media.giphy.com/media/Ly5tPg5BvJDhApDKql/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants a buff depending on the number rolled"
+                    },
+                    {
+                        "name": "Rock 'n Shock",
+                        "shortDesc": "MP Cost: 75, When 3 coils are placed - Tesla Coil Duration: 70 sec\\nDamage: 200%, Max Monsters Hit Near Your Level Hit: 10, Stuns when attack lands, After duration is exceeded - Max Enemies Hit: 6, Self-Destruct Damage: 550%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/mechanic/rock-n-shock.png"],
+                        "animations": ["https://media2.giphy.com/media/j6q5kUf9QDr5hWM7Iw/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place down 3 robots that continuously attack and stun enemies",
+                        "details":[
+                            "At the end of the duration, the robots explode dealing damage to nearby enemies",
+                            "If no robots are active, pressing the Down Arrow Key with the Skill Key will place 3 robots at once",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Overclock",
+                        "shortDesc": "Final Damage: 42%, Critical Rate: 20%, Enemy DEF Ignored: +30%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/mechanic/overclock.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Advanced Homing Beacon",
+                        "shortDesc": "Homing Beacon Damage: +300%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/mechanic/advanced-homing-beacon.png", "/class-icons/resistance/mechanic/homing-beacon.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "Mechanized Defense System",
+                        "shortDesc": "Max HP: +30%, Max MP: +30%, DEF: +750, Damage Ignored: 15%",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/resistance/mechanic/mechanized-defense-system.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Battle Program",
+                        "shortDesc": "Increases Humanoid Mech's Attack Speed by 1, Movement Speed by 10.\\nDecreases Rocket Booster Recoil Distance and increases Mechanic Dash Movement Range",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/resistance/mechanic/battle-program.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Heavy Salvo Plus",
+                    "shortDesc": " MP Cost: 70, Max Enemies Hit: 8, Damage: 390%, Number of Attacks: 4",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/mechanic/heavy-salvo-plus.png"],
+                    "animations": ["https://media.giphy.com/media/SAAhPmSmcmxMfhK7C9/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire an explosive blast forward",
+                    "details": [
+                        "Usable only in <tt src={/class-icons/resistance/mechanic/humanoid-mech.png} tip={Humanoid Mech (1st Job)}> Humanoid Mode",
+                        "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/resistance/mechanic/ap-salvo-plus.png} tip={AP Salvo Plus (4th Job)}>"
+                    ]  
+                },
+                {
+                    "name": "AP Salvo Plus",
+                    "shortDesc": "MP Cost: 90, First Hit has Damage: 285%, Number of Attacks: 6, Enemies Hit: 6.\\n2nd Explosion: Enemies Hit: 4, Damage: 350%, Number of Attacks: 1",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/mechanic/ap-salvo-plus.png"],
+                    "animations": ["https://media3.giphy.com/media/dB6htq3szbz927lrR6/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire an explosive bullet that pierces enemies",
+                    "details": [
+                        "Usable only in <tt src={/class-icons/resistance/mechanic/tank-mech.png} tip={Tank Mech (3rd Job)}> Tank Mode",
+                        "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/resistance/mechanic/heavy-salvo-plus.png} tip={Heavy Salvo Plus (4th Job)}>",
+                        "Upon hitting an enemy, the bullet explodes damaging nearby enemies",
+                        "Prioritizes bosses with the highest HP first"
+                    ]  
+                },
+                {
+                    "name": "Giant Robot SG-88",
+                    "shortDesc": "MP Cost: 400, Max Enemies Hit: 15, Damage: 500%, Number of Attacks: 8. Damage to Nearby Enemies: 1300% per sec, Number of Attacks: 2. Invincible for 3 sec after using the skill.\\nCooldown: 60 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/mechanic/giant-robot-sg-88.png"],
+                    "animations": ["https://media1.giphy.com/media/KENbYpeoYGttd5vGsu/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Tap the Attack Key to charge up and release a devastating attack",
+                    "details": [
+                        "Charging will increase the %Damage dealt",
+                        "While charging, you are invincible",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Bots 'n Tots",
+                    "shortDesc": "MP Cost: 100, Robot Factory Duration: 70 sec\\nSelf-Destruct Damage: 500%, Max enemies Hit: 4, Max Toy Robots Summoned: 3, Summon Interval: Every 3 sec, After duration is exceeded - Self-Destruct Damage: 1000%, Max Enemies Hit: 6",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/mechanic/bots-n-tots.png"],
+                    "animations": ["https://media2.giphy.com/media/jUt5WJsFRCOCQJma0p/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Place down a robot factory that deploys robots that chase enemies and self-destructs",
+                    "details": [
+                        "At the end of the duration, the robot factory explodes dealing damage to nearby enemies",
+                        "Unaffected by Damage Reflect"
+                    ]  
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/sr5hrgudCdeKyUd7kq/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/mOZMhF1QzkNwLmX2ZE/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Enhanced Support Unit",
+                    "shortDesc": "+7% Final Damage for yourself and all your party members near the Support Unit, self-destruction damage increased to 1100%, HP recovery range increased.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/mechanic/enhanced-support-unit.png", "/class-icons/resistance/mechanic/support-unit-h-ex.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Now grants %Final Damage to you and your party members and the auto-recovery ranged has been increased<bp_The caster does not need to in range to receive the buff_>",
+                        "%Damage of self-destruct has also been increased"
+                    ]  
+                },
+                {
+                    "name": "Homing Beacon Research",
+                    "shortDesc": "Bonus Homing Beacon missiles: +5",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/resistance/mechanic/homing-beacon-research.png", "/class-icons/resistance/mechanic/homing-beacon.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases the number of <tt src={/class-icons/resistance/mechanic/homing-beacon.png} tip={Homing Beacon (2nd Job)}> homing missiles fired"
+                    ]
+                },
+                {
+                    "name": "Extreme Mech",
+                    "shortDesc": "Hop on your Humanoid Mech for these effects. Attack Power: +55, Defense: +600\\nWeapon Mastery: +70%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/mechanic/extreme-mech.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Robot Mastery",
+                    "shortDesc": "Damage: +45%.\\nRobot's Final Damage and Final Self-Destruct Damage: +105%\\nSummon Duration for skills aside from 5th skills: +40%.\\n<Robo Launcher RM7> Damage: +135% points.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/mechanic/robot-mastery.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Right-clicking the skill will toggle a function ON/OFF that allows skill effect transparency to apply to robot skills affected by Robot Mastery"
+                    ]
+                },
+                {
+                    "name": "Double Down",
+                    "shortDesc": "MP Cost: 60, Dice Buff Duration: 180 sec.\\n50% chance of rolling a Double Down.\\nEnhances the following effects by 10 or 10% (additive) if the dice results are the same, excluding 1.\\n1: Roll of the Dice Cooldown: -50%\\n2: Defense +30%\\n3: Attack +15\\n4: Critical Rate: +15%\\n5: Damage +20%\\n6: EXP Obtained +30%\\nCooldown: 180 sec.",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/double-down.png", "/class-icons/common/roll-of-the-dice.png"],
+                    "animations": ["https://media1.giphy.com/media/9mezG4kZBRtqkBxdJB/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Grants a chance to roll two dices at once"
+                    ]
+                },
+                {
+                    "name": "Mech Alloy Research",
+                    "shortDesc": "Dodge Chance: 15%, Damage Taken -30% upon failure to dodge\\nThis skill permanently increases Max HP by 40% and Max MP by 10%.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/mechanic/mech-alloy-research.png"],
+                    "animations": ["https://media3.giphy.com/media/NuoBZboVIahQDQcdAw/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Grants a dodge chance and increases %Damage Reduction",
+                    "details": [
+                        "Additionally, permanently increases %Max HP/MP"
+                    ]  
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Rock 'n Shock - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/rock-n-shock-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Rock 'n Shock - Persist",
+                    "shortDesc": "Duration: +10 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/rock-n-shock-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Rock 'n Shock - Guardbreak",
+                    "shortDesc": "Enemy Defense Ignored: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/rock-n-shock-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Support Unit: H-EX - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/support-unit-h-ex-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "Increases self-destruct explosion %Damage",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Support Unit: H-EX - Party Reinforce",
+                    "shortDesc": "Party member final damage: +2%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/support-unit-h-ex-party-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Support Unit: H-EX - Persist",
+                    "shortDesc": "Duration: +10 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/support-unit-h-ex-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Heavy Salvo - Reinforce",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/heavy-salvo-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "Increases the %Damage of <tt src={/class-icons/resistance/mechanic/heavy-salvo-plus.png} tip={Heavy Salvo Plus (4th Job)}> and <tt src={/class-icons/resistance/mechanic/ap-salvo-plus.png} tip={AP Salvo Plus (4th Job)}>",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Heavy Salvo Plus - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/heavy-salvo-plus-spread.png"],
+                    "type": "Passive",
+                    "desc": "Increases the number of enemies hit by <tt src={/class-icons/resistance/mechanic/heavy-salvo-plus.png} tip={Heavy Salvo Plus (4th Job)}>",
+                    "reqLev": 165
+                },
+                {
+                    "name": "AP Salvo Plus - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/ap-salvo-plus-extra-strike.png"],
+                    "type": "Passive",
+                    "desc": "Increases the number of hits per attack of <tt src={/class-icons/resistance/mechanic/ap-salvo-plus.png} tip={AP Salvo Plus (4th Job)}>",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Full Spread",
+                    "shortDesc": "MP Cost: 200, Duration: 10 sec, Additional Missiles: 6\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/full-spread.png"],
+                    "animations": ["https://media0.giphy.com/media/JTJ9Rqr4173kldWdc6/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases the number of <tt src={/class-icons/resistance/mechanic/homing-beacon.png} tip={Homing Beacon (2nd Job)}> homing missiles fired",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Distortion Bomb",
+                    "shortDesc": "MP Cost: 250, Duration: 4 sec., Max Enemies Hit: 8, Damage: 350%, Number of Attacks: 2\\nCooldown: 8 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/mechanic/distortion-bomb.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExanlpY3B1MnBldzJocHBvcThkY2t4bDBqOWpmcXcxMndzejN5cDN3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EHWMhGyBQsY3hgTK0K/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Deploy a bomb that continuously damages enemies in an area",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "For Liberty",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to Demon, Resistance, and Xenon party members.\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/for-liberty.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHZoamR4bHF0Zm84cTBqYmdkdWV0NDdxNnVlYnhxZjB3ODliZnFrYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ABpQl5NXS1CVwwgdKp/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["resistanceInfantry", "goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Doomsday Device",
+                    "shortDesc": "MP Cost: 750, summoned machine lasts 100 sec and arsenal includes Gatling guns and missiles\\nGatling Gun - Max Enemies Hit: 8, Damage: 440%, Number of Attacks: 6, Cooldown: 1.5 sec\\nMissiles - Fires 2 missiles to hit up to 12 enemies, Damage: 650%, Number of Attacks: 3, Cooldown: 8 sec\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/resistance/mechanic/doomsday-device.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2NtN25rbWIxenh2OG1iODIwNTlpOWRwaTl0amxmZGEwM2p4MDBydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZMrZjuvL2AEbl32pqV/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a machine that follows you and attacks nearby enemies",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Mobile Missile Battery",
+                    "shortDesc": "MP Cost: 1000, Launches a battery that fires 40 micro missiles at up to 15 enemies.\\nMicro missiles deal 935% damage 5 times.\\nCooldown: 25 sec",
+                    "icons": ["/class-icons/resistance/mechanic/mobile-missile-battery.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjhoamhuZnRrYnppNDVhYTBpc20zNzFxeTE0MjFodW03bGdieXpwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HdmYdppaSqYWjel00d/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a canister of missiles that unloads on nearby enemies",
+                    "details": [
+                        "Prioritize bosses with the highest HP first"
+                    ]
+                },
+                {
+                    "name": "Full Metal Barrage",
+                    "shortDesc": "MP Cost: 1500, Can hold key down for up to 8 sec, Max Enemies Hit: 15, Damage: 880%, Number of Attacks: 12.\\nWhen Homing Beacon is used during casting, 7 additional Beacons are fired, can be stacked with Full Spread. Final Damage: +67%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/resistance/mechanic/full-metal-barrage.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzk4eXZyYnhmbDl3eWJzZ3VjYWkweTZtdXZzM3BnZW56NWJsMTloeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mBzGvDR8VL4KGwzLWS/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, violently fire at enemies in front of you",
+                    "details": [
+                        "You are invincible while casting but you cannot move or change directions",
+                        "Can fire <tt src={/class-icons/resistance/mechanic/homing-beacon.png} tip={Homing Beacon (2nd Job)}> while casting<bp_Increases %Final Damage of homing missiles and fires additional missiles while active_>"
+                    ]
+                },
+                {
+                    "name": "Mecha Carrier",
+                    "shortDesc": "MP Cost: 1250. Summons a Mecha Carrier for 50 sec.\\n16 carrier-based aircraft(s) attack at set intervals.\\nCarrier-Based Aircraft: Attacks the targets 4 time(s) with 486% damage, then returns.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/resistance/mechanic/mecha-carrier.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJxZ2V4YXAybHNzdmQ4MGp2Y3lkcjczZzFuYWc4cXBzdHI1aTRzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7M1nR1ErllF25PxLoG/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a stationary air carrier above you that fires homing aircrafts at enemies",
+                    "details": [
+                        "If you move too far, the air carrier will teleport to your location",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "ME-07 Drillhands Boost",
+                    "shortDesc": "ME-07 Drillhands Final Damage: +420%",
+                    "icons": ["/class-icons/resistance/mechanic/me-07-drillhands.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gatling Gun Boost",
+                    "shortDesc": "Gatling Gun Final Damage: +420%",
+                    "icons": ["/class-icons/resistance/mechanic/gatling-gun.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Rocket Booster Boost",
+                    "shortDesc": "Rocket Booster Final Damage: +420%",
+                    "icons": ["/class-icons/resistance/mechanic/rocket-booster.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Heavy Gatling Gun Boost",
+                    "shortDesc": "Heavy Gatling Gun Final Damage: +300%",
+                    "icons": ["/class-icons/resistance/mechanic/heavy-gatling-gun.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Homing Beacon Boost",
+                    "shortDesc": "Homing Beacon and Advanced Homing Beacon Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/mechanic/homing-beacon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Robo Launcher RM7 Boost",
+                    "shortDesc": "Robo Launcher RM7 Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/mechanic/robo-launcher-rm7.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Punch Launcher Boost",
+                    "shortDesc": "Punch Launcher Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/mechanic/punch-launcher.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Rock 'n Shock Boost",
+                    "shortDesc": "Rock 'n Shock Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/mechanic/rock-n-shock.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Heavy and AP Salvo Boost",
+                    "shortDesc": "Heavy and AP Salvo Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/mechanic/heavy-salvo.png", "/class-icons/resistance/mechanic/ap-salvo.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Support Unit: HE-X Boost",
+                    "shortDesc": "Support Unit: H-EX Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/mechanic/support-unit-h-ex.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Giant Robot SG-88 Boost",
+                    "shortDesc": "Giant Robot SG-88 Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/mechanic/giant-robot-sg-88.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Bots 'n Tots Boost",
+                    "shortDesc": "Bots 'n Tots Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/mechanic/bots-n-tots.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Heavy and AP Salvo Plus Boost",
+                    "shortDesc": "Heavy and AP Salvo Plus Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/mechanic/heavy-salvo-plus.png", "/class-icons/resistance/mechanic/ap-salvo-plus.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Distortion Bomb Boost",
+                    "shortDesc": "Distortion Bomb Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/mechanic/distortion-bomb.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-heavy-salvo-plus-ap-salvo-plus.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/mechanic/heavy-salvo-plus.png} tip={Heavy Salvo Plus and AP Salvo Plus (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Heavy Salvo Plus",
+                    "shortDesc": "MP Cost: 90, Max Enemies Hit: 8, Damage: 745%, Number of Attacks: 4",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-heavy-salvo-plus.png", "/class-icons/resistance/mechanic/heavy-salvo-plus.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2w5aGFlYnFlNmE3Y2E2OGpha280aWdhY3pibnJsOHF4ODNpOWd2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gbCZxac8TLSMgeDprW/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA AP Salvo Plus",
+                    "shortDesc": "MP Cost: 105, fires armor-piercing shells\\n1st hit - Max Enemies Hit: 7, Piercing Damage: 570%, Number of Attacks: 6\\n2nd explosion - Max Enemies Hit: 7, Damage: 390%, Number of Attacks: 3",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-ap-salvo-plus.png", "/class-icons/resistance/mechanic/ap-salvo-plus.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWp4dmVyYTBtYWgwYTA5aXh1cmk4aDFhdGZtMnNpOWFhOTI3d3BodiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wf5XAteIvyrnJvQGrs/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-homing-beacon.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/mechanic/homing-beacon.png} tip={Homing Beacon (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Homing Beacon",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 12, Damage: 561% at once",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-homing-beacon.png", "/class-icons/resistance/mechanic/homing-beacon.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTBzcGYzb2g1aXVuMXJwbTBvZ2djYmpqc25rd2dnMWZ2am5wamg1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qGUmvrOHfItgCTcDlj/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-distortion-bomb.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/mechanic/distortion-bomb.png} tip={Distortion Bomb (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Distortion Bomb",
+                    "shortDesc": "MP Cost: 280, Duration: 4 sec, Max Enemies Hit: 8, Damage: 720%, Number of Attacks: 2\\nCooldown: 8 sec\\nEnhance with Distortion Bomb 25 sec\\nIntense Distortion Bomb: MP Cost: 300, Duration: 2 sec, Max Enemies Hit: 8, Damage: 1240%, Number of Attacks: 3, then explodes to attack up to 8 enemies 15 times to inflict 1990% damage",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-distortion-bomb.png", "/class-icons/resistance/mechanic/hexa-distortion-bomb-2.png", "/class-icons/resistance/mechanic/distortion-bomb.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHFraTlkamRudWp0NmR6aDJmNGk0ZndlaTU2bmlhaTFwNG5hYjFldyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vzlOQvgOG2XN978sLv/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTlxNTF2anl5aWc1MjdqNGY2bDBrcWt1c3ViYnhzZ2VwODhpaGdhaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bU3YAc9Kf5CtuXOSCi/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-robo-launcher-rock-shock-bots-tots.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Robo Launcher RM7",
+                    "shortDesc": "MP Cost: 54, Robo Launcher Duration: 98 sec\\nDamage: 605%, Max Enemies Hit: 2, After duration is exceeded - Max Enemies Hit: 6, Self-Destruct Damage: 825%, Number of Attacks: 3",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-robo-launcher-rm7.png", "/class-icons/resistance/mechanic/robo-launcher-rm7.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXFyeTVpdjE3ZTAzOWpwdjJpZ3RidDdtZXM1dXZ0MDk3YW02M2ljMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QpKeWfvaUecKm68Rf1/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Rock 'n Shock",
+                    "shortDesc": "MP Cost: 90, When 3 coils are placed - Tesla Coil Duration: 98 sec.\\nDamage: 1095%, Max Enemies Near Your Level Hit: 10, Stuns when attack lands, After duration is exceeded - Max Enemies Hit: 6, Self-Destruct Damage: 1006%, Number of Attacks: 3\\n[Passive Effect - HEXA AP Salvo Plus's 2nd Explosive Attack Damage: +160% points]",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-rock-n-shock.png", "/class-icons/resistance/mechanic/rock-n-shock.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjV1cHloMjlocDBpaHFvcnZ4N2oydnFvMzE5d2s2YW9pdWpmempldSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wJEJBEAox8ttWOE6e8/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGgydjF3ODV6YzV3enQzNDZ1OXpkN2cxNjNhZTNybGZ5YzBuMXlqbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pCYGWI7gEDlL6F012h/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Bots 'n Tots",
+                    "shortDesc": "MP Cost: 125, Robot Factory Duration: 98 sec\\nSelf-Destruct Damage: 825%, Max Enemies Hit: 4, Number of Attacks: 3, Toy Robots Summoned: 3, Summon Interval: Every 3 sec, After duration is exceeded - Self-Destruct Damage: 930%, Max Enemies Hit: 6, Number of Attacks: 5",
+                    "icons": ["/class-icons/resistance/mechanic/hexa-bots-n-tots.png", "/class-icons/resistance/mechanic/bots-n-tots.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXl4ajhuaHh1a3B1ZDdkc2Y3eGswMHBqbDhxdnI0Y25zaDZlbzhpdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4LKz4E3ZzFCQgbyjZo/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWMwZDZmNzlhbjk2Y2ZlZWlibGwzaGJxbTMzc2t1NmlwY3NuMnJsZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KhMjVWPN24oArXHhX6/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Robo Conversion: CB-P1",
+                    "shortDesc": "MP Cost: 54, summons a nodebot that deals 1230% damage 8 times to up to 8 enemies at set intervals",
+                    "icons": ["/class-icons/resistance/mechanic/robo-conversion-cb-p1.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm5zc2ZwNzh0MjJocWYxMDlsOHF2cW50bXpwNndtMWNpeTdidDQ1bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7dbpr3sbTx9hBlQc7F/giphy.gif"],
+                    "type": "Toggle Summon",
+                    "desc": "While toggled, summons a robot that fights alongside you",
+                    "details": [
+                        "While the robot is summoned, the following skills cannot be used: <tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)}>",
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Ground Zero",
+                    "shortDesc": "MP Cost: 1800, invincible during casting\\nMax Enemies Hit: 15, Damage: 2040%, Number of Attacks: 8, Number of Earthquakes: 10, then Max Enemies Hit: 15, Damage: 1980%, Number of Attacks: 15, Number of Explosions: 32\\nMassive Bombardment - Duration: 30 sec, Max Enemies Hit: 15, Bombardment Damage: 2888%, Number of Attacks: 15\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/resistance/mechanic/ground-zero.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Nhd3hhMXJ5MjVocWI1OHRqOXJ4d2IwcDJ4eXJ2cWNtcDQ3cGNobiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gEjS52c3RAYARgMWpl/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Mechanized Extinction",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe mech launches 25 bombardments, dealing 8331% damage to up to 15 enemies 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/resistance/mechanic/mechanized-extinction.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJzem5zbWM3NHZwd3B3ZnFlZzMzNWd3cWk5dTRveHFkcnNocnB5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/m0ryrYZ1aEJdXpX3L0/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Doomsday Device Boost",
+                    "shortDesc": "Doomsday Device Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/mechanic/doomsday-device.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Mobile Missile Battery Boost",
+                    "shortDesc": "Mobile Missile Battery Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/mechanic/mobile-missile-battery.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Full Metal Barrage Boost",
+                    "shortDesc": "Full Metal Barrage Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/mechanic/full-metal-barrage.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Mecha Carrier Boost",
+                    "shortDesc": "Mecha Carrier Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/mechanic/mecha-carrier.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Homing Beacon - 2nd Job",
+                "icons": ["/class-icons/resistance/mechanic/homing-beacon.png"],
+                "animations": ["https://media1.giphy.com/media/j52DA25qU3ngm8MANl/giphy.gif"]
+            },
+            {
+                "name": "Rock 'n Shock - 3rd Job",
+                "icons": ["/class-icons/resistance/mechanic/rock-n-shock.png"],
+                "animations": ["https://media2.giphy.com/media/j6q5kUf9QDr5hWM7Iw/giphy.gif"]
+            },
+            {
+                "name": "Heavy Salvo Plus - 4th Job",
+                "icons": ["/class-icons/resistance/mechanic/heavy-salvo-plus.png"],
+                "animations": ["https://media.giphy.com/media/SAAhPmSmcmxMfhK7C9/giphy.gif"]
+            },
+            {
+                "name": "AP Salvo Plus - 4th Job",
+                "icons": ["/class-icons/resistance/mechanic/ap-salvo-plus.png"],
+                "animations": ["https://media3.giphy.com/media/dB6htq3szbz927lrR6/giphy.gif"]
+            },
+            {
+                "name": "Giant Robot SG-88 - 4th Job",
+                "icons": ["/class-icons/resistance/mechanic/giant-robot-sg-88.png"],
+                "animations": ["https://media1.giphy.com/media/KENbYpeoYGttd5vGsu/giphy.gif"]
+            },
+            {
+                "name": "Bots 'n Tots - 4th Job",
+                "icons": ["/class-icons/resistance/mechanic/bots-n-tots.png"],
+                "animations": ["https://media2.giphy.com/media/jUt5WJsFRCOCQJma0p/giphy.gif"]
+            },
+            {
+                "name": "Full Metal Barrage - 5th Job",
+                "icons": ["/class-icons/resistance/mechanic/full-metal-barrage.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzk4eXZyYnhmbDl3eWJzZ3VjYWkweTZtdXZzM3BnZW56NWJsMTloeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mBzGvDR8VL4KGwzLWS/giphy.gif"]
+            },
+            {
+                "name": "Ground Zero - 6th Job",
+                "icons": ["/class-icons/resistance/mechanic/ground-zero.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Nhd3hhMXJ5MjVocWI1OHRqOXJ4d2IwcDJ4eXJ2cWNtcDQ3cGNobiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gEjS52c3RAYARgMWpl/giphy.gif"]
+            },
+            {
+                "name": "Mechanized Extinction - 6th Job",
+                "icons": ["/class-icons/resistance/mechanic/mechanized-extinction.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJzem5zbWM3NHZwd3B3ZnFlZzMzNWd3cWk5dTRveHFkcnNocnB5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/m0ryrYZ1aEJdXpX3L0/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Mechanic is a DEX pirate class part of the Resistance class group. What makes Mechanics unique is their ability to ride and attack on their mech and deploy different kinds of utility"
+}

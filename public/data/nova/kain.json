@@ -1,0 +1,1329 @@
+{
+    "class": "Kain",
+    "content": {
+        "classGroup": "Nova",
+        "jobGroup": "Archer",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Grants flat DEX",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["whispershot"]},
+            {"secondary": ["weaponBelt"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/nova/kain/whispershot-booster.png} tip={Whispershot Booster (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/nova/kain/whispershot-mastery-2.png} tip={Whispershot Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "DEX",
+                "stat": "+60 & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+60}> <bg src={/class-icons/nova/kain/nova-warrior.png} tip={Nova Warrior (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4%(+19%) +190",
+                "detail": "<bg src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg type={temp} src={/class-icons/nova/kain/incarnation.png} tip={Incarnation (Hyper Skill)} val={+15%}> <bg src={/class-icons/nova/kain/assassin.png} tip={Assassin (1st Job)} val={+40}> <bg src={/class-icons/nova/kain/whispershot-mastery-1.png} tip={Whispershot Mastery (2nd Job)} val={+40}> <bg src={/class-icons/nova/kain/natural-born-instinct.png} tip={Natural Born Instinct (3rd Job)} val={+40}> <bg src={/class-icons/nova/kain/grinding-ii.png} tip={Grinding II (4th Job)} val={+35}> <bg src={/class-icons/nova/kain/whispershot-mastery-2.png} tip={Whispershot Expert (4th Job)} val={+35}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+60%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/nova/kain/assassin.png} tip={Assassin (1st Job)} val={+35%}> <bg src={/class-icons/nova/kain/natural-born-instinct.png} tip={Natural Born Instinct (3rd Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+45%",
+                "detail": "<bg src={/class-icons/nova/kain/dogma.png} tip={Dogma (4th Job)} val={+25%}> <bg src={/class-icons/nova/kain/whispershot-mastery-2.png} tip={Whispershot Expert (4th Job)} val={+20%}> <bg type={opt} src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} val={+50% of Crit Rate}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+25%(125%)",
+                "detail": "<bg src={/class-icons/nova/kain/adapt-to-death.png} tip={Adapt to Death (4th Job)} val={+25%}> <bg type={temp} src={/class-icons/link-skills/time-to-prepare.png} tip={Time to Prepare (Link Skill)} val={+17%}> <bg type={temp} src={/class-icons/nova/kain/incarnation.png} tip={Incarnation (Hyper Skill)} val={+15%}> <bg type={temp} src={/class-icons/nova/kain/thanatos-descent.png} tip={Thanatos Descent (5th Job)} val={+45%}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+35%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+15%",
+                "detail": "<bg src={/class-icons/nova/kain/adapt-to-death.png} tip={Adapt to Death (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+122.63%",
+                "detail": "<bg src={/class-icons/nova/kain/natural-born-instinct.png} tip={Natural Born Instinct (3rd Job)} val={+25%}> × <bg src={/class-icons/nova/kain/dogma.png} tip={Dogma (4th Job)} val={+30%}> × <bg src={/class-icons/nova/kain/whispershot-mastery-2.png} tip={Whispershot Expert (4th Job)} val={+37%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+37%",
+                "detail": "<bg src={/class-icons/nova/kain/natural-born-instinct.png} tip={Natural Born Instinct (3rd Job)} val={+10%}> × <bg src={/class-icons/nova/kain/dogma.png} tip={Dogma (4th Job)} val={+30%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/nova/kain/whispershot-booster.png} tip={Whispershot Booster (2nd Job)} dur={[200s]}>",
+            "summons": "<tt src={/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang (2nd Job)} dur={[40s](Toggle)}> <tt src={/class-icons/nova/kain/lasting-grudge.png} tip={Lasting Grudge (3rd Job)} dur={(Toggle)}> <tt src={/class-icons/nova/kain/grip-of-agony.png} tip={Grip of Agony (5th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "buffCd": "<tt src={/class-icons/nova/kain/incarnation.png} tip={Incarnation (Hyper Skill)} dur={[35s](120s cd)}> <tt src={/class-icons/nova/kain/thanatos-descent.png} tip={Thanatos Descent (5th Job)} dur={[35s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/nova/kain/total-annihilation.png} tip={Total Annihilation (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/nova/kain/dragon-scale.png} tip={Dragon Scale (4th Job)} dur={[Up to 3.4s](40s cd)}> <tt src={/class-icons/nova/kain/thanatos-descent.png} tip={Thanatos Descent (5th Job)} dur={(120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s Buff](1200s cd blocks 1 death)}> <tt src={/class-icons/nova/kain/total-annihilation.png} tip={Total Annihilation (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/nova/kain/possess-dragon-burst.png} tip={[Possess] Dragon Burst (5th Job)} dur={[Up to 5s](-50% | 60s cd)}> <tt src={/class-icons/nova/kain/execute-fatal-blitz.png} tip={[Execute] Fatal Blitz (5th Job)} dur={[Up to 2s](-50% | 60s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80003015,
+            "offline": true,
+            "name": "Time to Prepare",
+            "maxLevel": 3,
+            "shortDesc": "By defeating 8 enemies or attacking a boss 5 times, you gain 1 stack of Time to Prepare. At 5 stacks of Time to Prepare, your damage increases by 25% for 20 sec.\\nCooldown: 40 sec",
+            "icons": ["/class-icons/link-skills/time-to-prepare.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Defeating 8 enemies or attacking a boss 5 times grants a stack of \"Time to Prepare\"",
+                "Upon gaining 5 stacks, gain a %Damage buff"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/nova/kain/shadow-swiftness.png} tip={Shadow Swiftness}> -> <tt src={/class-icons/nova/kain/assassin.png} tip={Assassin}> -> <tt src={/class-icons/nova/kain/ghost-walk.png} tip={Ghost Walk}> -> <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step}> -> <tt src={/class-icons/nova/kain/grappling-wire.png} tip={Grappling Wire}> -> <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow}> -> <tt src={/class-icons/nova/kain/dread-bolt.png} tip={Dread Bolt}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/nova/kain/whispershot-booster.png} tip={Whispershot Booster}> -> <tt src={/class-icons/nova/kain/whispershot-mastery-1.png} tip={Whispershot Mastery}> -> <tt src={/class-icons/nova/kain/strike-arrow-ii.png} tip={Strike Arrow II}> -> <tt src={/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot}> -> <tt src={/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang}>"],
+                ["3rd Job", "<tt src={/class-icons/nova/kain/grinding.png} tip={Grinding}> -> <tt src={/class-icons/nova/kain/natural-born-instinct.png} tip={Natural Born Instinct}> -> <tt src={/class-icons/nova/kain/lasting-grudge.png} tip={Lasting Grudge}> -> <tt src={/class-icons/nova/kain/execute-phantom-blade.png} tip={[Execute] Phantom Blade}> -> <tt src={/class-icons/nova/kain/execute-tearing-knife.png} tip={[Execute] Tearing Knife}> -> <tt src={/class-icons/nova/kain/shaft-break.png} tip={Shaft Break}> -> <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing}>"],
+                ["4th Job", "<tt src={/class-icons/nova/kain/advanced-deaths-blessing.png} tip={Advanced Death's Blessing}> -> <tt src={/class-icons/nova/kain/dogma.png} tip={Dogma}> -> <tt src={/class-icons/nova/kain/adapt-to-death.png} tip={Adapt to Death}> -> <tt src={/class-icons/nova/kain/grinding-ii.png} tip={Grinding II}> -> <tt src={/class-icons/nova/kain/whispershot-mastery-2.png} tip={Whispershot Mastery}> -> <tt src={/class-icons/nova/kain/execute-chain-sickle.png} tip={[Execute] Chain Sickle}> -> <tt src={/class-icons/nova/kain/nova-warrior.png} tip={Nova Warrior}> -> <tt src={/class-icons/nova/kain/dragon-scale.png} tip={Dragon Scale}> -> <tt src={/class-icons/nova/kain/falling-dust.png} tip={Falling Dust}> -> <tt src={/class-icons/nova/kain/execute-poison-needle.png} tip={[Execute] Poison Needle}> -> <tt src={/class-icons/nova/nova-temperance.png} tip={Nova Temperance}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/nova/kain/whispershot-guardbreak.png} tip={Whispershot - Guardbreak}> <tt src={/class-icons/nova/kain/whispershot-reinforce.png} tip={Whispershot - Reinforce}> <tt src={/class-icons/nova/kain/whispershot-boss-rush.png} tip={Whispershot - Boss Rush}> Whispershot - Guardbreak, Reinforce, and Boss Rush_<tt src={/class-icons/nova/kain/execute-reinforce.png} tip={Execute - Reinforce}> Execute - Reinforce_<tt src={/class-icons/nova/kain/lasting-grudge-reinforce.png} tip={Lasting Grudge - Reinforce}> Lasting Grudge - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow and Chasing Shot (1st Job / Hyper Skill)}> <tt src={/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang and Lasting Grudge (2nd Job / 3rd Job)}> <tt src={/class-icons/nova/kain/deaths-blessing-node.png} tip={Death's Blessing and Unseen Sniper (3rd Job / Hyper Skill)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> <tt src={/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> <tt src={/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}>"],
+                    ["Tertiary (Bossing) Trio", "<tt src={/class-icons/nova/kain/execute-chain-sickle.png} tip={Chain Sickle and Poison Needle (4th Job)}> <tt src={/class-icons/nova/kain/execute-phantom-blade.png} tip={Phantom Blade and Tearing Knife (3rd Job)}> *"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "The last skill from the Tertiary Trio can be any skill as Kain only has 8 skills to boost",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3,4],
+            "other": [5],
+            "nodes": [
+                "<tt src={/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> <tt src={/class-icons/nova/kain/execute-poison-needle.png} tip={[Execute] Poison Needle (4th Job)}>",
+                "<tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> <tt src={/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}>",
+                "<tt src={/class-icons/nova/kain/execute-chain-sickle.png} tip={[Execute] Chain Sickle (4th Job)}> <tt src={/class-icons/nova/kain/execute-tearing-knife.png} tip={[Execute] Tearing Knife (3rd Job)}>",
+                "<tt src={/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> <tt src={/class-icons/nova/kain/execute-phantom-blade.png} tip={[Execute] Phantom Blade (3rd Job)}> <tt src={/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang (2nd Job)}> <tt src={/class-icons/nova/kain/lasting-grudge.png} tip={Lasting Grudge (3rd Job)}>",
+                "<tt src={/class-icons/nova/kain/deaths-blessing-node.png} tip={Death's Blessing (3rd Job)}> <tt src={/class-icons/nova/kain/chasing-shot.png} tip={Chasing Shot (Hyper Skill)}> <tt src={/class-icons/nova/kain/unseen-sniper.png} tip={Unseen Sniper (Hyper Skill)}>",
+                "<tt src={/class-icons/nova/kain/dread-bolt.png} tip={Dread Bolt (1st Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Kain"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%B9%B4%EC%9D%B8(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/Udtx9E9QYr"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1WURQPvP93aUH33wQHeOVQ5CGiEWmx-uKYgSM5pLIA-s"}
+        ],
+        "infographics": [
+            {
+                "src": "kain/kain-overview.png",
+                "title": "Overview",
+                "credit": "Akefia",
+                "date": "2026-06-03"
+            },
+            {
+                "src": "kain/kain-6th-job.png",
+                "title": "6th Job",
+                "credit": "Kain Discord",
+                "date": "2026-06-24"
+            },
+            {
+                "src": "kain/kain-culvert.png",
+                "title": "Culvert",
+                "credit": "Kain Discord",
+                "date": "2026-06-03"
+            }
+        ],
+        "discord": "https://discord.gg/Udtx9E9QYr",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Skill Passives + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Possess and Execute Skills & Dark Sight",
+            "content": [
+                "[Possess and Execute Skills]",
+                "<img src={https://media.giphy.com/media/XKjb5OwY2nLEtRcdMU/giphy.gif} alt={Malice Gauge}>",
+                "In 2nd Job, you gain access to your special resource gauge, <tt src={/class-icons/nova/kain/possession.png} tip={Possession (2nd Job)}> Possess that utilizes Malice. Malice is gained periodically and from attacking enemies with Whispershot skills like <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> Strike Arrow. Every 100 Malice, you gain a Malice Stone that is used to enter Possess state. In Possess state, enhances one attack granting it special effects. Possess skills share the same Skill Key and Skill Points (SP) as their regular version. Possess skills also have their own independent cooldowns from the regular skill",
+                "<bp_20 Malice is generated periodically in 2nd Job, it is increased to 30 in 4th Job_13 Malice is generated when landing a Whispershot skill, it is increased to 18 in 4th Job_>",
+                "Below is all skills that have a Possess form:",
+                "<bp_<tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> <tt src={/class-icons/nova/kain/possess-strike-arrow.png} tip={[Possess] Strike Arrow (1st Job)}> Strike Arrow [1st Job]_<tt src={/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}> <tt src={/class-icons/nova/kain/possess-scattering-shot.png} tip={[Possess] Scattering Shot (2nd Job)}> Scattering Shot [2nd Job]_<tt src={/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> <tt src={/class-icons/nova/kain/possess-shaft-break.png} tip={[Possess] Shaft Break (3rd Job)}> Shaft Break [3rd Job]_<tt src={/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> <tt src={/class-icons/nova/kain/possess-falling-dust.png} tip={[Possess] Falling Dust (4th Job)}> Falling Dust [4th Job]_<tt src={/class-icons/nova/kain/unseen-sniper.png} tip={Unseen Sniper (Hyper Skill)}> <tt src={/class-icons/nova/kain/possess-execute-unseen-sniper.png} tip={[Possess/Execute] Unseen Sniper (Hyper Skill)}> Unseen Sniper [Hyper Skill]_<tt src={/class-icons/nova/kain/possess-dragon-burst.png} tip={[Possess] Dragon Burst (5th Job)}> Dragon Burst [5th Job] - Always usable_>",
+                "Additionally, in 3rd Job, you gain a passive called <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing (3rd Job)}> Death's Blessing. Possess skills add stacks of Death's Blessing which new Execute skills will detonate one stack for an additional attack. Detonating Death's Blessing also grants a %Final Damage buff to Death's Blessing and Execute skills",
+                "Upon defeating an enemy with an Execute skills or detonating a stack of Death's Blessing, the cooldown of <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step (1st Job)}> Shadow Step (1st Job) is reset",
+                "Below is all your Execute skills:",
+                "<bp_<tt src={/class-icons/nova/kain/execute-phantom-blade.png} tip={[Execute] Phantom Blade (3rd Job)}> Phantom Blade [3rd Job] - Does not reset dash_<tt src={/class-icons/nova/kain/execute-tearing-knife.png} tip={[Execute] Tearing Knife (3rd Job)}> Tearing Knife [3rd Job]_<tt src={/class-icons/nova/kain/execute-chain-sickle.png} tip={[Execute] Chain Sickle (4th Job)}> Chain Sickle [4th Job]_<tt src={/class-icons/nova/kain/execute-poison-needle.png} tip={[Execute] Poison Needle (4th Job)}> Poison Needle [4th Job]_<tt src={/class-icons/nova/kain/possess-execute-unseen-sniper.png} tip={[Possess/Execute] Unseen Sniper (Hyper Skill)}> Unseen Sniper [Hyper Skill]_<tt src={/class-icons/nova/kain/execute-fatal-blitz.png} tip={[Execute] Fatal Blitz (5th Job)}> Fatal Blitz [5th Job]_>",
+                "Lastly, several skills have a recharging cartridge system where you have a set amount of ammo which recharges over time. Below is a list of all cartridge system skills:",
+                "<bp_<tt src={/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}> Scattering Shot [2nd Job] - 3 Charges, 6 sec recharge_<tt src={/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> Shaft Break [3rd Job] - 3 Charges, 8 sec recharge_<tt src={/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> Falling Dust [4th Job] - 2 Charges, 10 sec recharge_>",
+                "[Dark Sight]",
+                "<em text={Credits to the Night Walker Discord for the list of attacks avoidable with Dark Sight. For an actively maintained version, please check out the Night Walker Discord}>",
+                "In 1st Job, using <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step (1st Job)}> Shadow Step grants brief <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state. Below is a list of avoidable attacks that have been tested:",
+                " dsTable "
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [
+                {
+                    "name": "Time to Prepare",
+                    "shortDesc": "By defeating 8 enemies or attacking a boss 5 times, you gain 1 stack of Time to Prepare. At 5 stacks of Time to Prepare, your damage increases by 25% for 20 sec.\\nCooldown: 40 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/time-to-prepare.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Defeating 8 enemies or attacking a boss 5 times grants a stack of \"Time to Prepare\"",
+                        "Upon gaining 5 stacks, gain a %Damage buff",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Facing the Past",
+                    "shortDesc": "MP Cost: 30. Move back to Toolen City.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/facing-the-past.png"],
+                    "animations": ["https://media.giphy.com/media/MkGeSlSNYJkInUvJrZ/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/exclusive-spell.png"],
+                    "animations": ["https://media.giphy.com/media/Zm6YppMpai3pmKpH0g/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/240/Reunion} title={\"Reunion\"}>", 
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Strike Arrow",
+                        "shortDesc": "MP Cost: 14, Max Enemies Hit: 6, Damage: 70%, Number of Attacks: 5\\nArrow Fragment: Attack up to 2 enemies near your initial target 5 times, dealing 55% damage.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/strike-arrow.png", "/class-icons/nova/kain/possess-strike-arrow.png"],
+                        "animations": ["https://media.giphy.com/media/dd2qVypgKDnegwPp11/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire several arrows forward",
+                        "details":[
+                            "Upon successful attack, fragments are created that seek out enemies that were not hit by the arrows",
+                            "Periodically enhances into <tt src={/class-icons/nova/kain/possess-strike-arrow.png} tip={Strike Arrow Enhanced (1st Job)}> Possess form, only in 1st Job"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Step",
+                        "shortDesc": "MP Cost: 30\\nCooldown: 7 sec\\n[Passive Effect]: Speed: +10",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/nova/kain/shadow-step.png"],
+                        "animations": ["https://media.giphy.com/media/s32pRju8jupWY8aOPV/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash in a given direction",
+                        "details": [
+                            "[Passive]: Increases Movement Speed",
+                            "Can be used to dash in all four directions using the Arrow Keys",
+                            "Can be used while casting certain skills",
+                            "When dashing you enter a <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state<bp_When using this skill on the ground, pressing the Skill Key again will cancel the dash immediately_>"
+                        ]
+                    },
+                    {
+                        "name": "Grappling Wire",
+                        "shortDesc": "MP Cost: 21, shoot a wire onto a platform, then use the skill again to move along the wire\\n[Passive Effect]: Jump: +10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kain/grappling-wire.png"],
+                        "animations": ["https://media.giphy.com/media/r2ApdWOP5lhO51zEKC/giphy.gif"],
+                        "type": "Key-down Active",
+                        "desc": "On initial use, fire a grapple that can attach to terrain",
+                        "details": [
+                            "After attaching, re-using the skill by holding down the Skill Key will move you towards the grapple<bp_Pressing the Skill Key again while moving along the wire will cancel the skill_>",
+                            "Pressing the Skill Key and an Arrow Key together will direct the wire<bp_This results in either a straight shot or 45 degrees upwards/downwards depending on direction_>",
+                            "Using the skill in the air causes you to hover briefly"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Swiftness",
+                        "shortDesc": "MP Cost 10, Allows you to jump a greater distance.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/nova/kain/shadow-swiftness.png"],
+                        "animations": ["https://media.giphy.com/media/wTkbPq7NIhYDK2nsP0/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
+                        ]
+                    },
+                    {
+                        "name": "Dread Bolt",
+                        "shortDesc": "MP Cost: 15, Max Enemies Hit: 6, Damage: 125%, Number of Attacks: 2 while moving",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/nova/kain/dread-bolt.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmZ2dDBkenM1MDhkYXhvcHBya29waDZydXY2bWM0eDN4a2ljN3EyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OctUpISns91las9DyP/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash forward and damage enemies in your path"
+                    },
+                    {
+                        "name": "Assassin",
+                        "shortDesc": "Attack Power +40, Critical Rate +35%, Knockback Resistance +50%, Max HP +15%, Defense +200, Damage Taken -15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kain/assassin.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Ghost Walk",
+                        "shortDesc": "Avoidability +25%, Speed +20, Max Speed +20, Jump +10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kain/ghost-walk.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Possession",
+                        "shortDesc": "Create 13 Malice when Whispershot skills hit, with more Malice created periodically.\\nGather 100 Malice to obtain a Malice Stone. You can carry up to 2 Malice Stones.\\nUpon using this skill, consume either 1 Malice Stone or 100 Malice to enter a Possessed state for 15 sec.\\n Cooldown: 0.3 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/nova/kain/possession.png"],
+                        "animations": ["https://media.giphy.com/media/874S4ikrAYXZT8gj1o/giphy.gif"],
+                        "type": "Active",
+                        "desc": "A special resource called \"Malice\" that generates passively and whenever you attack an enemy",
+                        "details": [
+                            "Each time 100 Malice is generated, gain a Malice Stone (max. 2 in 2nd Job)<bp_Consuming a Malice Stone will cause you to enter Possess state which causes your next attack to be in enhanced Possess form_>"
+                        ]
+                    },
+                    {
+                        "name": "Dragon Fang",
+                        "shortDesc": "Summon Duration: 40 seconds.\\nKain's direct skill attacks activate Dragon Fang, which moves towards the enemy and deals 120% damage 4 times. After activating, this skill casts Dragon Fang up to 7 times before returning. Damage Against Normal Monsters: +50%\\nMax Summon: 3\\nAttack Mode Cooldown: 3 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/dragon-fang.png"],
+                        "animations": ["https://media.giphy.com/media/uAF6Dpo5fI9D8wIi9q/giphy-downsized-large.gif"],
+                        "type": "Toggle Summon",
+                        "desc": "When toggled, successful direct skill attacks summon Dragon Fangs that attack nearby enemies whenever you attack",
+                        "details": [
+                            "Up to 3 can be active at a time",
+                            "Deals increased %Damage to regular monsters",
+                            "Unaffected by Damage Reflect"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Strike Arrow II",
+                        "shortDesc": "MP Cost: 14, Damage: 160%, Max Enemies Hit: 6, Number of Attacks: 5\\n[Passive Effect: Strike Arrow Damage: +89% points, Arrow Fragment Damage: +85% points]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/strike-arrow-ii.png"],
+                        "animations": ["https://media.giphy.com/media/4hVqfMOYRacay6F13Q/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "After using <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}>, press the Skill Key again to fire another barrage of arrows forward",
+                        "details": [
+                            "Shares a Key Slot with <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> and can only be used after it",
+                            "Also creates Arrow Fragments",
+                            "Additionally, permanently increases %Damage of <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> by a flat amount (including Arrow Fragments)"
+                        ]
+                    },
+                    {
+                        "name": "[Possess] Strike Arrow",
+                        "shortDesc": "MP Cost: 14, Max Enemies Hit: 6, Damage: 220%, Number of Attacks: 8\\nCooldown: 1 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/possess-strike-arrow.png", "/class-icons/nova/kain/strike-arrow.png"],
+                        "animations": ["https://media.giphy.com/media/KuDBeeC2JbBi01HXLN/giphy.gif"],
+                        "type": "Possess Attack",
+                        "desc": "",
+                        "details": [
+                            "Possess version of attacks are only usable in <tt src={/class-icons/nova/kain/possession.png} tip={Possession (2nd Job)}> Possess state",
+                            "Shares the same Skill Points (SP) as <tt src={/class-icons/nova/kain/strike-arrow-ii.png} tip={Strike Arrow II (2nd Job)}> and the same Key Slot as <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Scattering Shot",
+                        "shortDesc": "MP Cost: 35, Damage: 120%, Number of Attacks: 4, Arrows Shot: 5, each arrow can attack up to 2 enemies. Normal Enemy Damage: +30%\\nEach subsequent arrow to hit the same enemy deals 50% less Final Damage.\\n1 Scattering Shot cartridge is prepared every 6 seconds, and you can carry up to 3.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/scattering-shot.png"],
+                        "animations": ["https://media.giphy.com/media/pU02HIRIy0evA4ZBnh/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a spread of arrows forward",
+                        "details": [
+                            "Uses a special resource called \"Scattering Shot Cartridge\"<bp_Gain one cartridge every 6 secs (up to 3)_>",
+                            "If an enemy is hit by more than one arrow, each additional arrow deals reduced %Final Damage",
+                            "Deals increased %Damage to regular monsters"
+                        ]
+                    },
+                    {
+                        "name": "[Possess] Scattering Shot",
+                        "shortDesc": "MP Cost: 35, Damage: 155%, Number of Attacks: 4, Arrows Shot: 6, Normal Enemy Damage: +30%\\nEach subsequent arrow to hit the same enemy deals 50% less Final Damage.\\nCooldown: 6 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/possess-scattering-shot.png", "/class-icons/nova/kain/scattering-shot.png"],
+                        "animations": ["https://media.giphy.com/media/aKUuzGqGKCvP1hib9g/giphy.gif"],
+                        "type": "Possess Attack",
+                        "desc": "",
+                        "details": [
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}>",
+                            "Arrows will seek out enemies starting with the highest Max HP",
+                            "Enemies hit repeatedly take reduced %Final Damage from the attack",
+                            "Deals increased %Damage to regular monsters",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Whispershot Booster",
+                        "shortDesc": "MP Cost: 20, Increases attack speed of Whispershot for 200 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kain/whispershot-booster.png"],
+                        "animations": ["https://media.giphy.com/media/USv3rhZgnrBvcxUnV6/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "name": "Whispershot Mastery",
+                        "shortDesc": "Whispershot Mastery: +50%\\nAttack Power: +40",
+                        "maxLevel": 19,
+                        "icons": ["/class-icons/nova/kain/whispershot-mastery-1.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase DEX 60",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Strike Arrow III",
+                        "shortDesc": "MP Cost: 10, Max Enemies Hit: 6, Damage: 240%, Number of Attacks: 5\\n[Passive Effect: Strike Arrow Damage: +79% points, Strike Arrow II Damage: +79% points, [Possess] Strike Arrow Damage: +120% points, Arrow Fragment Damage: +60% points]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kain/strike-arrow-iii.png", "/class-icons/nova/kain/strike-arrow-ii.png"],
+                        "animations": ["https://media.giphy.com/media/qSIwJtxB9uuL7LPhdJ/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "After using <tt src={/class-icons/nova/kain/strike-arrow-ii.png} tip={Strike Arrow II (2nd Job)}>, fire another barrage arrows forward by pressing the Skill Key again",
+                        "details": [
+                            "Shares a Key Slot with <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> and can only be used after <tt src={/class-icons/nova/kain/strike-arrow-ii.png} tip={Strike Arrow II (2nd Job)}>",
+                            "Also creates Arrow Fragments",
+                            "Additionally, permanently increases %Damage by a flat amount for the following skills: <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> (including Arrow Fragments) <tt src={/class-icons/nova/kain/strike-arrow-ii.png} tip={Strike Arrow II (2nd Job)}> <tt src={/class-icons/nova/kain/possess-strike-arrow.png} tip={[Possess] Strike Arrow (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Death's Blessing",
+                        "shortDesc": "Max Duration: 90 seconds, Max Stack: 15\\nBlessing Materialization: Consume Death's Blessing to attack 10 times with 135% damage and obtain merit buff.\\nMerit buff: For 5 seconds, increase Final Damage of Death's Blessing/Execute skills by 10% and create 10 Malice when Execute skills that can materialize Blessing hit.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/deaths-blessing.png"],
+                        "animations": ["https://media4.giphy.com/media/UoANcy2ZPAIe8VB2A4/giphy.gif", "https://media2.giphy.com/media/9F6pDlUZemqukhBaPA/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Possess attacks apply a stacking debuff onto enemies that \"Execute\" skills can consume to damage an enemy",
+                        "details": [
+                            "[Debuff]: Execute skills consumes one stack of the debuff and damages the enemy<bp_Additionally grants a buff that increases by a flat amount the %Final Damage of Death's Blessing and Execute Skills briefly and generates Malice when Death's Blessing is triggered_>",
+                            "When the debuff is consumed, the cooldown of <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step (1st Job)}> is reset",
+                            "Ignores Attack Ignore and Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Shaft Break",
+                        "shortDesc": "MP Cost: 67, Max Enemies Hit: 3, Damage: 184%, Number of Piercing Attacks: 3\\nUpon collapsing, pulls 7 enemies and explodes. Explosion attacks 10 enemies 10 times, dealing 140% damage.\\n1 Shaft Break cartridge is prepared every 8 seconds and you can carry up to 3.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/shaft-break.png"],
+                        "animations": ["https://media.giphy.com/media/3SiiS85N0STMYvBiNI/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire an arrow forward that pulls in enemies and explodes",
+                        "details": [
+                            "Uses a special resource called \"Shaft Break Cartridge\"<bp_You gain one cartridge every 8 secs (up to 3)_>",
+                            "Arrow starts pulling in enemies once it hits an enemy or reaches max distance",
+                            "Explosion is unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "[Possess] Shaft Break",
+                        "shortDesc": "MP Cost: 67, Max Enemies Hit: 3, Damage: 216%, Number of Piercing Attacks: 3\\nPulls in up to 7 enemies. The explosion attacks up to 10 enemies 10 times, dealing 270% damage.\\nThe whirlwind attacks up to 10 enemies 3 times, dealing 55% damage continuously.\\nCooldown: 11 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/possess-shaft-break.png", "/class-icons/nova/kain/shaft-break.png"],
+                        "animations": ["https://media.giphy.com/media/Jduwbgp8C0JR6YGUUe/giphy.gif"],
+                        "type": "Possess Attack",
+                        "desc": "",
+                        "details": [
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}>",
+                            "Now additionally leaves a lingering cyclone briefly after exploding<bp_Unaffected by Damage Reflect_>"
+                        ]
+                    },
+                    {
+                        "name": "[Execute] Phantom Blade",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 4, Damage: 180%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/execute-phantom-blade.png"],
+                        "animations": ["https://media.giphy.com/media/wUT1NbxRnTCzsxjDzu/giphy.gif"],
+                        "type": "Execute Attack",
+                        "desc": "Slash forward",
+                        "details": [
+                            "If the attack hits an enemy with <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing (3rd Job)}> debuff, the debuff is consumed"
+                        ]
+                    },
+                    {
+                        "name": "[Execute] Tearing Knife",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 4, Damage: 230%, Number of Attacks: 7\\nCooldown: 4.5 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/execute-tearing-knife.png"],
+                        "animations": ["https://media.giphy.com/media/YemFUhuu1NFUkku6fx/giphy.gif"],
+                        "type": "Execute Attack",
+                        "desc": "Stab forward",
+                        "details": [
+                            "If the attack hits an enemy with <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing (3rd Job)}> debuff, the debuff is consumed",
+                            "If the enemy is defeated with Tearing Knife, the cooldown of <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step (1st Job)}> is reset"
+                        ]
+                    },
+                    {
+                        "name": "Lasting Grudge",
+                        "shortDesc": "Upon using a Possess Skill or activating the death domain from Thanatos Descent, create crystals that remain for 10 seconds. The quantity created changes based on the skill used.\\nEach crystal upon activation, Max Enemies Hit: 1, Number of Attacks: 4, Damage: 130%, Damage Against Normal Monsters: +100%\\nCooldown: 0.3 sec.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/nova/kain/lasting-grudge.png"],
+                        "animations": ["https://media.giphy.com/media/slac0BlaqmWoh4nTfx/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, when a Possess skill or <tt src={/class-icons/nova/kain/thanatos-descent.png} tip={Thanatos Descent (5th Job)}> hits an enemy, crystals are created that seek out and damage nearby enemies",
+                        "details": [
+                            "Crystals activate whenever you attack near a crystal",
+                            "Deals increased %Damage to regular monsters"
+                        ]
+                    },
+                    {
+                        "name": "Natural Born Instinct",
+                        "shortDesc": "Final Damage: +25%, Attack Power: +40, Critical Rate: +20%, Enemy DEF Ignore: +10%, Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kain/natural-born-instinct.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Grinding",
+                        "shortDesc": "Max MP: +20%, Defense: +20%\\nScattering Shot Damage: +75% points\\n[Possess] Scattering Shot Damage: +120% points\\nDragon Fang Damage: +70% points",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/nova/kain/grinding.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                    {
+                        "name": "Possession II",
+                        "shortDesc": "Increases Malice created periodically by 30, increases Malice created when Whispershot skills hit by 18, and increases max Malice Stones you carry by 4.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/nova/kain/possession-ii.png", "/class-icons/nova/kain/possession.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Malice gain rate",
+                            "Can now carry up to 4 Malice Stones"
+                        ]
+                    },
+                    {
+                        "name": "Advanced Death's Blessing",
+                        "shortDesc": "Upon defeating 50 enemies, recover 5% max HP.\\nUpon materializing Death's Blessing on a boss, recover 3% max HP.\\nDeath's Blessing Damage: +150% points\\nMerit buff: Death's Blessing/Execute Skills Final Damage: +18% points, increases Malice created by 2 when Execute SKill that can materialize blessing hits.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kain/advanced-deaths-blessing.png", "/class-icons/nova/kain/deaths-blessing.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Now restores %Max HP whenever you defeat a certain amount of enemies or when Death's Blessing activates on a boss",
+                            "Increases %Damage of attack by a flat amount",
+                            "Increases %Final Damage buff provided from Merit buff by a flat amount",
+                            "While Merit buff is active, gain more Malice when Death's Blessing activates"
+                        ]
+                    },
+                    {
+                        "name": "Falling Dust",
+                        "shortDesc": "MP Cost: 95, Max Enemies Hit: 12, Damage: 451%, Number of Attacks: 8\\n1 Falling Dust cartridge is prepared every 10 seconds and you can carry up to 2",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/nova/kain/falling-dust.png"],
+                        "animations": ["https://media.giphy.com/media/FpLdg1IpAYbSGIbvpg/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap into the air and fire arrows down at an angle",
+                        "details": [
+                            "Uses a special resource called \"Falling Dust Cartridge\"<bp_You gain one cartridge every 10 secs (up to 2)_>",
+                            "When used in the air, you will not leap up"
+                        ]
+                    },
+                    {
+                        "name": "[Possess] Falling Dust",
+                        "shortDesc": "MP Cost: 95. Shockwave Attack: Max Enemies Hit: 12, Damage: 515%, Number of Attacks: 10. Malice Follow-Up Attack: Max Enemies Hit: 15, Damage: 370%, Number of Attacks: 15\\nCooldown: 14 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/nova/kain/possess-falling-dust.png", "/class-icons/nova/kain/falling-dust.png"],
+                        "animations": ["https://media.giphy.com/media/92yRxDhdBaby3s4Rwo/giphy.gif"],
+                        "type": "Possess Attack",
+                        "desc": "",
+                        "details": [
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}>",
+                            "Now creates a lingering dragon attack where the arrows landed",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "[Execute] Chain Sickle",
+                        "shortDesc": "MP Cost: 95. Max Enemies Hit: 5, Damage: 290%, Number of Attacks: 6. Finishing Blow: Max Enemies Hit: 5, Damage: 315%, Number of Attacks: 12\\nCooldown: 7 sec.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/nova/kain/execute-chain-sickle.png"],
+                        "animations": ["https://media.giphy.com/media/P3uRUxEVYVgTFk152H/giphy.gif"],
+                        "type": "Execute Attack",
+                        "desc": "Swing a chain sickle forward and then slams it into the ground",
+                        "details": [
+                            "If the attack hits an enemy with <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing (3rd Job)}> debuff, the debuff is consumed",
+                            "If the enemy is defeated with Chain Sickle, the cooldown of <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step (1st Job)}> is reset"
+                        ]
+                    },
+                    {
+                        "name": "[Execute] Poison Needle",
+                        "shortDesc": "MP Cost: 105, Max Enemies Hit: 6, Damage: 360%, Number of Attacks: 8. Afterwards, Max Enemies Hit: 6, Damage: 272%, Number of Consecutive Attacks: 8. Continuous attacks deal 290% damage for 12 seconds.\\nCooldown: 15 sec.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/nova/kain/execute-poison-needle.png"],
+                        "animations": ["https://media.giphy.com/media/mx9fNOhNzvItRN2yFH/giphy.gif"],
+                        "type": "Execute Attack",
+                        "desc": "Slash around before surrounding yourself in poisonous needles that apply a damaging debuff to enemies hit",
+                        "details": [
+                            "When used in the air, you will float",
+                            "Unaffected by Attack Speed increases",
+                            "If the attack hits an enemy with <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing (3rd Job)}> debuff, the debuff is consumed",
+                            "If the enemy is defeated with Poison Needle, the cooldown of <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step (1st Job)}> is reset"
+                        ]
+                    },
+                    {
+                        "name": "Dragon Scale",
+                        "shortDesc": "Consumes 8% of Max MP per second. Hold the key down to maintain invincibility for up to 3.4 seconds\\nCooldown: 40 seconds\\n[Passive Effect: Bonus Avoidability: +30%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/dragon-scale.png"],
+                        "animations": ["https://media.giphy.com/media/BcI30jj3AOZxqVFtzJ/giphy.gif"],
+                        "type": "Key-down Active",
+                        "desc": "When held, become invincible briefly",
+                        "details": [
+                            "[Passive]: Grants an additional chance to dodge attacks",
+                            "While active, you can move around",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Nova Warrior",
+                        "shortDesc": "MP Cost: 70, Grandis Goddess appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/nova/kain/nova-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/pF87aZA1y6gUka428g/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Nova Temperance",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/nova/nova-temperance.png"],
+                        "animations": ["https://media.giphy.com/media/A7gn7Jc6pUWA5vioWH/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Grinding II",
+                        "shortDesc": "Attack Power: +35\\nStrike Arrow, Strike Arrow II, Strike Arrow III, and Arrow Fragment Damage: +134% points\\n[Possess] Strike Arrow Damage: +220% points\\nScattering Shot Damage: +102% points\\n[Possess] Scattering Shot Damage: +180% points\\nDragon Fang Damage: +100% points\\nShaft Break Arrow and Explosion Damage: +80% points\\n[Possess] Shaft Break Arrow and Explosion Damage: +205% points, Whirlwind Attack Damage: +30% points\\n[Execute] Phantom Blade Damage: +207% points\\n[Execute] Tearing Knife Damage: +238% points\\nLasting Grudge Damage: +120% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/nova/kain/grinding-ii.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dogma",
+                        "shortDesc": "Final Damage: +30%, Critical Damage: +25%, Enemy DEF Ignored: +30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/dogma.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Whispershot Mastery",
+                        "shortDesc": "Whispershot Mastery: +70%\\nFinal Damage: +37%, Attack Power: +35, Critical Damage: +20%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/nova/kain/whispershot-mastery-2.png", "/class-icons/nova/kain/whispershot-mastery-1.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Final Damage and %Crit Damage"
+                        ]
+                    },
+                    {
+                        "name": "Adapt to Death",
+                        "shortDesc": "Damage: +25%, Boss Damage: +15%, Max HP: +20%\\nDamage Taken: -15%, Knockback Resistance: +50%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kain/adapt-to-death.png"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Whispershot - Guardbreak",
+                    "shortDesc": "Ignore Defense: +15%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/whispershot-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of Whispershot skills"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Whispershot - Reinforce",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/whispershot-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of Whispershot skills"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Whispershot - Boss Rush",
+                    "shortDesc": "Boss Damage: +15%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/whispershot-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of Whispershot skills"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Execute - Guardbreak",
+                    "shortDesc": "Ignore Defense: +25%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/execute-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of Execute skills"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Execute - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/execute-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of Execute skills"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Execute - Enhance",
+                    "shortDesc": "If you use Execute Skill during Death's Blessing's Final Damage increase, no attack will push you back until the effect ends.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/execute-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                },
+                {
+                    "name": "Lasting Grudge - Reinforce",
+                    "shortDesc": "Damage: +50%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/lasting-grudge-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Dragon Fang - Range",
+                    "shortDesc": "Dragon Fang Enemy Search Range: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/dragon-fang-range.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Dragon Scale - Efficiency",
+                    "shortDesc": "Recover 7% of Max HP per second during key down",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/dragon-scale-efficiency.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Chasing Shot",
+                    "shortDesc": "MP Cost: 300, Max Enemies Chased: 8, Damage: 352%, Number of Attacks: 6, Number of Arrows Shot: 3, Damage Against Normal Monsters: +30%\\nCooldown: 25 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/chasing-shot.png"],
+                    "animations": ["https://media.giphy.com/media/N0LkwVT2riHZmYYQ7a/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire arrows that ricochet around one or more enemies",
+                    "details": [
+                        "If there are no enemies, no arrows will appear",
+                        "Deals increased %Damage to regular monsters"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Unseen Sniper",
+                    "shortDesc": "MP Cost: 350, Max Key-down Duration: 1.4 seconds, Max Enemies Hit: 12, Damage: 193%, Number of Attacks: 10, Number of Shocks: 5\\nCooldown: 40 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/unseen-sniper.png"],
+                    "animations": ["https://media.giphy.com/media/oWheJXAq3oPq96TXCC/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, charge to unleash a barrage of shockwaves forward",
+                    "details": [
+                        "Holding the Skill Key will extend the range of the shockwave up to a max distance",
+                        "While holding, gain 100% Knockback Resistance",
+                        "Unaffected by Attack Speed increases"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "[Possess/Execute] Unseen Sniper",
+                    "shortDesc": "MP Cost: 350, Max Key-down Duration: 1.6, Max Enemies Hit: 12, Damage: 287%, Number of Attacks: 12, Number of Shockwaves: 5\\nCooldown: 60 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/possess-execute-unseen-sniper.png", "/class-icons/nova/kain/unseen-sniper.png"],
+                    "animations": ["https://media.giphy.com/media/G33ZVFSREU9aJ7Pd2y/giphy.gif"],
+                    "type": "Possess / Execute Attack",
+                    "desc": "",
+                    "details": [
+                        "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/nova/kain/unseen-sniper.png} tip={Unseen Sniper (Hyper Skill)}>",
+                        "If the attack hits an enemy with <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing (3rd Job)}> debuff, the debuff is consumed but is unaffected by the Merit Buff",
+                        "If the enemy is defeated with Sneaky Sniper, the cooldown of <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step (1st Job)}> is reset",
+                        "Unaffected by cooldown resets"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Incarnation",
+                    "shortDesc": "MP Cost: 500, Duration: 35 seconds, Damage: +15%, Attack Power: +15%\\nIncreases Death's Blessing effect of Death's Blessing-related attacks by 13.\\nWhen other party members within Kain's aura attack, the aura causes 6 Death's Blessing attacks, dealing 150% damage. Blessing of Death cooldown: 3 sec.\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kain/incarnation.png"],
+                    "animations": ["https://media.giphy.com/media/nFr5muSNZGKycXpxKu/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases %Damage and %Attack",
+                    "details": [
+                        "While active, increases the number of hits per attack of <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing (3rd Job)}>",
+                        "While active, party members can trigger an additional attack while attacking near Kain<bp_Unaffected by Damage Reflect_>"
+                    ],
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["mightOfTheNova", "grandisGoddessBlessingNV", "guidedArrow", "viciousShot"],
+            "fifthMain": [
+                {
+                    "name": "[Possess] Dragon Burst",
+                    "shortDesc": "MP Cost: 750, Max Key-down Duration: 5 seconds, Max Enemies Hit: 12, Damage: 835%, Number of Consecutive Attacks: 12, Max Attacks: 15. The effect ends immediately once all attacks have been made. Once the direction is changed, 0.5 sec. must pass before the skill can change direction again.\\nDamage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/nova/kain/possess-dragon-burst.png"],
+                    "animations": ["https://media.giphy.com/media/r0fpGq2zW1FezQy2CS/giphy.gif"],
+                    "type": "Possess Key-down Attack",
+                    "desc": "When held, fire a blast of arrows forward",
+                    "details": [
+                        "You can change directions and move left and right while casting",
+                        "You do not need to be in Possess state to use and will not consume Possess state to use",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses"
+                    ]
+                },
+                {
+                    "name": "[Execute] Fatal Blitz",
+                    "shortDesc": "MP Cost: 750, Duration: 2 seconds, Max Enemies Hit: 8, Damage: 550%, Number of Consecutive Attacks: 12, Max Attacks: 14. The effect ends immediately once all attacks have been made.\\nDamage taken while attacking, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/nova/kain/execute-fatal-blitz.png"],
+                    "animations": ["https://media.giphy.com/media/0olqIQeWH6YCXGhrat/giphy.gif"],
+                    "type": "Execute Key-down Attack",
+                    "desc": "Release a barrage of slashes forward",
+                    "details": [
+                        "If the attack hits an enemy with <tt src={/class-icons/nova/kain/deaths-blessing.png} tip={Death's Blessing (3rd Job)}> debuff, the debuff is consumed",
+                        "If the enemy is defeated with Fatal Blitz, the cooldown of <tt src={/class-icons/nova/kain/shadow-step.png} tip={Shadow Step (1st Job)}> is reset",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses"
+                    ]
+                },
+                {
+                    "name": "Thanatos Descent",
+                    "shortDesc": "MP Cost: 1000, Duration: 35 sec., Damage: +45%, 2 times of the damage increase effect applied to Death Domain\\nMalice created periodically increases by 40. Malice created when Whispershot skill hits increases by 35.\\nIf your attack skill hits, Damage: 495%, Number of Attacks: 3, Number of Arrows of Death: 6, Damage Against Normal Monsters: +25%, Cooldown: 3 sec.\\nUsing the skill again ends the effect immediately, while also activating Death Domain, which attacks 15 consecutive times, dealing 955% damage to up to 15 enemies. While casting Death Domain, you are invincible.\\nWhile Death Domain is active, the damage increase buff is maintained as much as Thanatos Descent's remaining duration.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/nova/kain/thanatos-descent.png"],
+                    "animations": ["https://media.giphy.com/media/28vp9u0ah049AbFeK4/giphy.gif"],
+                    "type": "Buff Attack / Attack",
+                    "desc": "While active, increases %Damage and increases Malice gain rate",
+                    "details": [
+                        "Periodically, upon successful attacks, deal an additional attack<bp_Deals increased %Damage to regular monsters_>",
+                        "At the end of the skill or when the Skill Key is pressed again to cast \"Death Domain\" attack<bp_While casting, you are invincible_If Death Domain is casted early, the %Damage buff will be maintained for the original duration of the buff_>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Grip of Agony",
+                    "shortDesc": "MP Cost: 600, Summons Hand of Agony with Duration: 10 sec., Max Enemies Hit: 12, Damage: 1480%, Number of Consecutive Attacks: 8\\nMax Attack Activations: 27. When all of the attack activation is consumed, the effect ends immediately.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/nova/kain/grip-of-agony.png"],
+                    "animations": ["https://media.giphy.com/media/E7m0nSnj0haBCIvhy5/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Place down a [Hand of Agony] that damages enemies within",
+                    "details": [
+                        "The [Hand of Agony] can attack up to 27 times and ends once all attacks are triggered",
+                        "Ignores Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Strike Arrow/Chasing Shot Boost",
+                    "shortDesc": "Strike Arrow and Chasing Shot Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kain/strike-arrow.png", "/class-icons/nova/kain/chasing-shot.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Scattering Shot Boost",
+                    "shortDesc": "Scattering Shot Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kain/scattering-shot.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Fang/Lasting Grudge Boost",
+                    "shortDesc": "Dragon Fang and Lasting Grudge Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kain/dragon-fang.png", "/class-icons/nova/kain/lasting-grudge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shaft Break Boost",
+                    "shortDesc": "Shaft Break Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kain/shaft-break.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Phantom Blade/Tearing Knife Boost",
+                    "shortDesc": "Phantom Blade and Tearing Knife Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kain/execute-phantom-blade.png", "/class-icons/nova/kain/execute-tearing-knife.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Death's Blessing/Unseen Sniper Boost",
+                    "shortDesc": "Death's  Blessing and Unseen Sniper Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kain/deaths-blessing-node.png", "/class-icons/nova/kain/unseen-sniper.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Falling Dust Boost",
+                    "shortDesc": "Falling Dust Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kain/falling-dust.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Chain Sickle/Poison Needle Boost",
+                    "shortDesc": "Chain Sickle and Poison Needle Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kain/execute-chain-sickle.png", "/class-icons/nova/kain/execute-poison-needle.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/kain/hexa-falling-dust-poison-needle.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> <tt src={/class-icons/nova/kain/execute-poison-needle.png} tip={[Execute] Poison Needle (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Falling Dust",
+                    "shortDesc": "MP Cost: 125, Max Enemies Hit: 12, Damage: 910%, Number of Attacks: 8\\n1 Falling Dust cartridge is prepared every 10 seconds and you can carry up to 2",
+                    "icons": ["/class-icons/nova/kain/hexa-falling-dust.png", "/class-icons/nova/kain/falling-dust.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajZqczVqMTNpdXd3eXMybGlqb212eTVwbnJrYzA0bHg5ZG9vYXdteiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JtAP8mxrmBzgzCgzLv/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "[Possess] HEXA Falling Dust",
+                    "shortDesc": "MP Cost: 125, Shockwave Attack: Max Enemies Hit: 12, Damage: 1030%, Number of Attacks: 10. Malice Follow-Up Attack: Max Enemies Hit: 15, Damage: 755%, Number of Attacks: 15\\nCooldown: 14 sec",
+                    "icons": ["/class-icons/nova/kain/hexa-possess-falling-dust.png", "/class-icons/nova/kain/possess-falling-dust.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTNneW1sMWU2ZzlzdGcwajc5dnZ3OWR0YjBibmZnbTYzdTU0Nm93cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2s5WVtFIpmzHC3Yzyz/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "[Execute] HEXA Posion Needle",
+                    "shortDesc": "MP Cost: 140, Max Enemies Hit: 6, Damage: 710%, Number of Attacks: 8. Afterwards, Max Enemies Hit: 6, Damage: 550%, Number of Consecutive Attacks: 8. Enemies hit by the consecutive attack, Damage Over Time: 620% damage every sec for 12 sec\\nWhen consecutive attack ends, Max Enemies Hit: 6, Final Blow Damage: 460%, Number of Attacks: 10\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/nova/kain/hexa-execute-poison-needle.png", "/class-icons/nova/kain/execute-poison-needle.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGRlZnFpcG9pMnI4c21zaGo5eDJiYTg0aWNlcmk4M2dybGRjYXI4biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y3rY04gNpbnEt9dvdr/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/kain/hexa-strike-arrow.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> <tt src={/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}> <tt src={/class-icons/nova/kain/execute-phantom-blade.png} tip={[Execute] Phantom Blade (3rd Job)}> <tt src={/class-icons/nova/kain/execute-chain-sickle.png} tip={[Execute] Chain Sickle (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Strike Arrow",
+                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 670%, Number of Attacks: 5\\nArrow Fragment: Attack up to 2 enemies near your initial target 5 times, dealing 570% damage.",
+                    "icons": ["/class-icons/nova/kain/hexa-strike-arrow-1.png", "/class-icons/nova/kain/hexa-strike-arrow-2.png", "/class-icons/nova/kain/hexa-strike-arrow-3.png", "/class-icons/nova/kain/strike-arrow.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmNsZ3ZwN3M0bTlyYjUydzdmNWk0cWt4ZnpnYWFhZWF2YWowd3l4dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hXmcsSyV45DSn6BRXI/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Possess] Strike Arrow",
+                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 1020%, Number of Attacks: 8\\nCooldown: 1 sec.",
+                    "icons": ["/class-icons/nova/kain/hexa-possess-strike-arrow.png", "/class-icons/nova/kain/possess-strike-arrow.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWx1Y3diOHM5dDRlNzlqeDBkZnV5amlyaGkwOTRvcHEyYTU3emQyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hfOcYvBNX2TZLPVcbv/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Scattering Shot",
+                    "shortDesc": "MP Cost: 55, Damage: 448%, Number of Attacks: 4, Arrows Shot: 6\\nEach arrow can attack up to 2 enemies. Damage Against Normal Monsters: +30%\\nEach subsequent arrow to hit the same enemy deals 50% less Final Damage.\\n1 Scattering Shot cartridge is prepared every 6 sec, and you can carry up to 3.",
+                    "icons": ["/class-icons/nova/kain/hexa-scattering-shot.png", "/class-icons/nova/kain/scattering-shot.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWw0d3hpMzNjZXQ5cXVvenh1NXprZGFhZTl3M290dzliNG1nNGFvciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XjtnKGOTFgcMITiq5u/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Possess] Scattering Shot",
+                    "shortDesc": "MP Cost: 55, Damage: 750%, Number of Attacks: 4, Arrows Shot: 7\\nNormal Enemy Damage: +30%\\nEach subsequent arrow to hit the same enemy deals 50% less Final Damage.\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/nova/kain/hexa-possess-scattering-shot.png", "/class-icons/nova/kain/possess-scattering-shot.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTc1NmJnYmIzY21oZzMzNXA5a21mZDgycHkyemRuMWtkOW1haHY2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/esqq7vCW6GymRE64on/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Execute] Tearing Knife",
+                    "shortDesc": "MP Cost: 57, Max Enemies Hit: 4, Damage: 890%, Number of Attacks: 7\\nCooldown: 4.5 sec",
+                    "icons": ["/class-icons/nova/kain/hexa-execute-tearing-knife.png", "/class-icons/nova/kain/execute-tearing-knife.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2Rsc2Y1ejZzcm5zeDh2Z2x4eXh1ZHJwY210eXAwazdnOWdlNGRtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gny0YxHKKzK8Vltcgn/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Execute] Chain Sickle",
+                    "shortDesc": "MP Cost: 106, Max Enemies Hit: 5, Damage: 525%, Number of Attacks: 6.\\nFinishing Blow: Max Enemies Hit: 5, Damage: 523%, Number of Attacks: 14\\nCooldown: 7 sec.",
+                    "icons": ["/class-icons/nova/kain/hexa-execute-chain-sickle.png", "/class-icons/nova/kain/execute-chain-sickle.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZnNGVrajYydzd0MG9zam4yYWcxZm9xMzZpYW5ydXRuMTg3ZnVjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iZ0mw1LOW8VTjS85wr/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/kain/hexa-dragon-fang-shaft-break-phantom-blade-lasting-grudge.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang and Lasting Grudge (2nd Job / 3rd Job)}> <tt src={/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> <tt src={/class-icons/nova/kain/execute-phantom-blade.png} tip={[Execute] Phantom Blade (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Dragon Fang",
+                    "shortDesc": "Summon Duration: 60 sec\\nKain's direct skill attacks activate Dragon Fang which moves towards the enemy and deals 524% damage 4 times. After activating this skill casts Dragon Fang up to 7 times before returning\\nDamage Against Normal Monsters: +80%\\nMax Summons: 3\\nAttack Mode Cooldown: 3 sec",
+                    "icons": ["/class-icons/nova/kain/hexa-dragon-fang.png", "/class-icons/nova/kain/dragon-fang.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2c5dDB2c3VpNWYycTR6YmFxejQ3ZjQzZ3AwaGRlM3ljZnhidzMzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jqu7szqx7MX41lhmmp/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Shaft Break",
+                    "shortDesc": "MP Cost: 77, Max Enemies Hit: 3, Damage: 435%, Number of Piercing Attacks: 3\\nUpon collapsing, pulls in up to 7 enemies and explodes. Explosion attacks 10 enemies 10 times, dealing 385% damage.\\n1 Shaft Break cartridge is prepared every 8 sec, and you can carry up to 3.",
+                    "icons": ["/class-icons/nova/kain/hexa-shaft-break.png", "/class-icons/nova/kain/shaft-break.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGRkOTZlemR0YnB3c3ZyaHFod2YxZ3B4cnpoZmU0czc3YmFmYnVhaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SS62xzHjMHvaBOu5ek/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Possess] Shaft Break",
+                    "shortDesc": "MP Cost: 77, Max Enemies Hit: 3, Damage: 782%, Number of Piercing Attacks: 3\\nPulls in up to 7 enemies. The explosion attacks up to 10 enemies 10 times, dealing 870% damage.\\nThe whirlwind attacks up to 10 enemies 3 times, dealing 151% damage, continuously.\\nCooldown: 11 sec.",
+                    "icons": ["/class-icons/nova/kain/hexa-possess-shaft-break.png", "/class-icons/nova/kain/possess-shaft-break.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmNhYjE2OXZyejQ1bmtwNWkwcGxzbXJlaTc2OWhnN3pnbGk0dzU3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CH4L4RxFJfk9Kn51tr/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Execute] Phantom Blade",
+                    "shortDesc": "MP Cost: 36, MAx Enemies Hit: 4, Damage: 745%, Number of Attacks: 6",
+                    "icons": ["/class-icons/nova/kain/hexa-execute-phantom-blade.png", "/class-icons/nova/kain/execute-phantom-blade.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW9rYWRjazMxdnQ0aWU1eXZqYTdkMzh3Z2E4bTQ1NXhyc3lybjJwcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JpXgoxg35SeFYgX4ev/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Lasting Grudge",
+                    "shortDesc": "Upon using a Possess Skill or activating the death domain from Thanatos Descent, create crystals that remain for 10 sec. The quantity created changes based on the skill used.\\nEach crystal upon activation, Enemies Hit: 1, Number of Attacks: 4, Damage: 420%. Damage Against Normal Monsters: +160%\\nCooldown: 0.3 sec.",
+                    "icons": ["/class-icons/nova/kain/hexa-lasting-grudge.png", "/class-icons/nova/kain/lasting-grudge.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3c4bWVjM3VscjU1bjM1N2d3eXBlcmd2b2hwNzhrZ3hsMWQ4b2JvaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u6KLGidWE9zNN8hFgD/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/kain/hexa-deaths-blessing-chasing-shot-unseen-sniper.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/kain/chasing-shot.png} tip={Chasing Shot (Hyper Skill)}> <tt src={/class-icons/nova/kain/deaths-blessing-node.png} tip={Death's Blessing and Unseen Sniper (3rd Job / Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Death's Blessing",
+                    "shortDesc": "Upon defeating 50 enemies, recover 5% max HP\\nUpon materializing Death's Blessing on a boss, recover 3% max HP\\nMax Duration: 90 sec., Max Stacks: 15\\nBlessing Materialization: Consume Death's Blessing to attack 10 times with 610% damage and obtain merit buff.\\nMerit Buff: For 5 sec., increases Final Damage of Death's Blessing/Execute Skills by 28%, and creates 12 Malice when Execute Skills that can materialize Blessing hit.\\n[Passive Effect - Death's Blessing damage increases by 210% points while Total Annihilation Malice's Territory is active]",
+                    "icons": ["/class-icons/nova/kain/hexa-deaths-blessing.png", "/class-icons/nova/kain/deaths-blessing.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzBjMmpiZTZ5a2pkaDVrZHc4ZmY0MXRjb3BxZWZ2NWtreXE5YmN4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8lF5f7plu38wYs8S1E/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Chasing Shot",
+                    "shortDesc": "MP Cost: 330, Max Enemies Chased: 8, Damage: 676%, Number of Attacks: 6, Number of Arrows Shot: 3. Damage Against Normal Monsters: +30%\\nCooldown: 15 sec.",
+                    "icons": ["/class-icons/nova/kain/hexa-chasing-shot.png", "/class-icons/nova/kain/chasing-shot.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWhxaGh4amdpeXRpanNnaHB5aW9vZGcwNWVuZnZiOThsbW90YzRlOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xICKG6r3gb8323G8H6/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Unseen Sniper",
+                    "shortDesc": "MP Cost: 410, Max Key-down Duration: 1.4 sec., Max Enemies Hit: 12, Damage: 385%, Number of Attacks: 10, Number of Shocks: 5\\nCooldown: 40 sec.",
+                    "icons": ["/class-icons/nova/kain/hexa-unseen-sniper.png", "/class-icons/nova/kain/unseen-sniper.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Possess/Execute] Unseen Sniper",
+                    "shortDesc": "MP Cost: 410, Max Key-down Duration: 1.6 sec, Max Enemies Hit: 12, Damage 548%, Number of Attacks: 12, Number of Shockwaves: 5\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/nova/kain/hexa-possess-execute-unseen-sniper.png", "/class-icons/nova/kain/possess-execute-unseen-sniper.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW56OW44MXJsM3NqNGtwMzd4ZzhyeTJuOHdkMHliaGk4MWg0eWx6diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8iFJh8K5IJgfbjgV0b/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnEzdWVocnd2eWQ2NDl0eHY1cTQ3enNmYjN4ZnlsaXZqbGJzaXhycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/baGxNjkVT4mS2T0INy/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Total Annihilation",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nUnleash the power of the Black Nova. Shockwave Max Enemies Hit: 15, Damage: 600%, Number of Attacks: 8, Number of Shockwaves: 26, Chase Cut Damage: 720%, Number of Attacks: 14, Chase Cuts: 12\\nMalice's Territory - Duration: 30 sec, Death's Blessing Damage Enhancement: 675%, if Incarnation is applied, Damage: 705%, Number of Attacks: 15\\nDeath's Blessing Max Stack Limit: 20, periodically deals Death's Blessing to up to 10 enemies nearby.\\nWhen Death's Blessing activates, Max Enemies Hit: 3, Damage: 900%, Number of Attacks: 15, Number of Devil Dragon's Breath: 2, Devil Dragon's Breath Cooldown: 0.2 sec\\nWhen Devil Dragon's Breath activates, Execute Skill Cooldown: -1 sec\\nCooldown: 360 sec.",
+                    "icons": ["/class-icons/nova/kain/total-annihilation.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDUxNXYxNmswemxxZTQ5aHh1bHNiMGFhdWk5bHd3Nmg2enZyZDZjOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MSwEGuox69E7BLLGRw/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "[Possess/Execute] Churning Malice",
+                    "shortDesc": "When Possess is used again within 30 sec. after casting, Execute can be activated\\nPossess - MP Cost: 500, Invinicible during casting\\nReleases your malice 14 times, dealing 3500% damage to up to 15   enemies 10 times\\nEnemies hit by your malice receive the Blessing of the End, which lasts for up to 90 sec. and stacks up to 30 times\\nExecute - MP Cost: 500, Invincible and ignore status effects during casting\\nLashes out 16 times, dealing 3815% damage to up to 15 enemies 12 times\\nBlessing of the End - Max Damage: 4480%, Number of Attacks: 10\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/nova/kain/churning-malice.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGpvMXIxa3lnOG5xeXExcmFuZXg0ZXhtb3BhMmRsZ3poOTlieGppaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/owKex9acZRivvlsvtg/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Dragon Burst Boost",
+                    "shortDesc": "Dragon Burst Final Damage: +60%",
+                    "icons": ["/class-icons/nova/kain/possess-dragon-burst.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Fatal Blitz Boost",
+                    "shortDesc": "Fatal Blitz Final Damage: +60%",
+                    "icons": ["/class-icons/nova/kain/fatal-blitz.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Thanatos Descent Boost",
+                    "shortDesc": "Thanatos Descent Final Damage: +60%",
+                    "icons": ["/class-icons/nova/kain/thanatos-descent.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Grip of Agony Boost",
+                    "shortDesc": "Grip of Agony Final Damage: +60%",
+                    "icons": ["/class-icons/nova/kain/grip-of-agony.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Strike Arrow - 1st Job",
+                "icons": ["/class-icons/nova/kain/strike-arrow.png"],
+                "animations": ["https://media.giphy.com/media/dd2qVypgKDnegwPp11/giphy.gif"]
+            }, 
+            {
+                "name": "[Possess] Falling Dust - 4th Job",
+                "icons": ["/class-icons/nova/kain/possess-falling-dust.png"],
+                "animations": ["https://media.giphy.com/media/92yRxDhdBaby3s4Rwo/giphy.gif"]
+            },
+            {
+                "name": "[Execute] Chain Sickle - 4th Job",
+                "icons": ["/class-icons/nova/kain/execute-chain-sickle.png"],
+                "animations": ["https://media.giphy.com/media/P3uRUxEVYVgTFk152H/giphy.gif"]
+            },
+            {
+                "name": "[Possess / Execute] Unseen Sniper - Hyper Skill",
+                "icons": ["/class-icons/nova/kain/possess-execute-unseen-sniper.png"],
+                "animations": ["https://media.giphy.com/media/G33ZVFSREU9aJ7Pd2y/giphy.gif"]
+            },
+            {
+                "name": "[Possess] Dragon Burst - 5th Job",
+                "icons": ["/class-icons/nova/kain/possess-dragon-burst.png"],
+                "animations": ["https://media.giphy.com/media/r0fpGq2zW1FezQy2CS/giphy.gif"]
+            },
+            {
+                "name": "[Execute] Fatal Blitz - 5th Job",
+                "icons": ["/class-icons/nova/kain/execute-fatal-blitz.png"],
+                "animations": ["https://media.giphy.com/media/0olqIQeWH6YCXGhrat/giphy.gif"]
+            },
+            {
+                "name": "Thanatos Descent - 5th Job",
+                "icons": ["/class-icons/nova/kain/thanatos-descent.png"],
+                "animations": ["https://media.giphy.com/media/28vp9u0ah049AbFeK4/giphy.gif"]
+            },
+            {
+                "name": "Total Annihilation - 6th Job",
+                "icons": ["/class-icons/nova/kain/total-annihilation.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDUxNXYxNmswemxxZTQ5aHh1bHNiMGFhdWk5bHd3Nmg2enZyZDZjOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MSwEGuox69E7BLLGRw/giphy.gif"]
+            },
+            {
+                "name": "[Possess/Execute] Churning Malice - 6th Job",
+                "icons": ["/class-icons/nova/kain/churning-malice.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGpvMXIxa3lnOG5xeXExcmFuZXg0ZXhtb3BhMmRsZ3poOTlieGppaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/owKex9acZRivvlsvtg/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Kain is a DEX archer class part of the Nova. Kain utilize Whispershots as their primary weapons. For their secondary weapon, Kain can equip Weapon Belts"
+}

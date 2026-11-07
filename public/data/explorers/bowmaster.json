@@ -1,0 +1,1109 @@
+{
+    "class": "Bowmaster",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Archer",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Grants flat DEX",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["bow"]},
+            {"secondary": ["arrowFletching"]},
+            {"ammo": "arrowB"}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/explorers/archer/archery-mastery.png} tip={Archery Mastery (1st Job)} val={+1}> <bg src={/class-icons/common/agile-bows.png} tip={Agile Bows (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/explorers/bowmaster/bow-expert.png} tip={Bow Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "DEX",
+                "stat": "+130 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/common/agile-bows.png} tip={Agile Bows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/bowmaster/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+29%(49%) +150(200)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/bowmaster/marksmanship.png} tip={Marksmanship (3rd Job)} val={+25%}> <bg type={temp} src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} val={+20%}> <bg src={/class-icons/explorers/bowmaster/soul-arrow.png} tip={Soul Arrow: Bow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow (3rd Job)} val={+40}> <bg src={/class-icons/explorers/bowmaster/bow-expert.png} tip={Bow Expert (4th Job)} val={+60}> <bg src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack (4th Job)} val={+20}> <bg type={temp} src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} val={+50}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+75%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/link-skills/adventurers-curiosity.png} tip={Adventurer's Curiosity (Link Skill)} val={+10%}> <bg src={/class-icons/explorers/archer/critical-shot.png} tip={Critical Shot (1st Job)} val={+40%}> <bg src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+31%",
+                "detail": "<bg src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} val={+15%}> <bg src={/class-icons/explorers/bowmaster/bow-expert.png} tip={Bow Expert (4th Job)} val={+16%}> <bg type={opt} src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} val={+50% of Crit Rate}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+6%(101%)",
+                "detail": "<bg src={/class-icons/link-skills/adventurers-curiosity.png} tip={Adventurer's Curiosity (Link Skill)} val={+6%}> <bg type={temp} src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/bowmaster/storm-of-arrows.png} tip={Storm of Arrows (5th Job)} val={+30%}> <bg type={temp} src={/class-icons/explorers/bowmaster/mortal-blow.png} tip={Mortal Blow (3rd Job)} val={+35% after 30 successful attacks}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "(20%)",
+                "detail": "<bg type={temp} src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} val={+20%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+55.71%(83.83%)",
+                "detail": "<bg src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow (3rd Job)} val={+30%}> × <bg src={/class-icons/explorers/bowmaster/enchanted-quiver.png} tip={Enchanted Quiver (4th Job)} val={+6%}> × <bg src={/class-icons/explorers/bowmaster/armor-break.png} tip={Armor Break (4th Job)} val={+16%}> × <bg type={temp} src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} val={+15%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+59.85%(57.25%)",
+                "detail": "<bg src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship (3rd Job)} val={+25%}> × <bg src={/class-icons/explorers/bowmaster/armor-break.png} tip={Armor Break (4th Job)} val={+40%}> × <bg type={opt} src={/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak (Hyper Skill)} val={+5%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
+            "toggles": "<tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)} dur={(Special)}> <tt src={/class-icons/explorers/bowmaster/speed-mirage.png} tip={Speed Mirage (3rd Job)}> <tt src={/class-icons/explorers/bowmaster/silhouette-mirage.png} tip={Silhouette Mirage (5th Job)}>",
+            "summons": "<tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job)} dur={[600s]}> <tt src={/class-icons/explorers/bowmaster/blink-shot.png} tip={Blink Shot (3rd Job)} dur={[120s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "buffCd": "<tt src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/storm-of-arrows.png} tip={Storm of Arrows (5th Job)} dur={[70s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/inhuman-speed.png} tip={Inhuman Speed (5th Job)} dur={[3-30s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/bowmaster/zephyr-shield.png} tip={Zephyr Shield (3rd Job)} dur={[3s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/explorers/bowmaster/silhouette-mirage.png} tip={Silhouette Mirage (5th Job)} dur={(-90% | 50s recharge (max 2), 7.5s cd on block)}>[<em text={Only blocks attacks that deal more than 50% Max HP}>]"
+        },              
+        "linkSkill": {
+            "id":80002766,
+            "offline": true,
+            "name": "Adventurer's Curiosity",
+            "maxLevel": 9,
+            "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%",
+            "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/archer/double-jump-1.png} tip={Double Jump}> -> <tt src={/class-icons/explorers/archer/archery-mastery.png} tip={Archery Mastery}> -> <tt src={/class-icons/explorers/archer/critical-shot.png} tip={Critical Shot}> -> <tt src={/class-icons/explorers/archer/arrow-blow.png} tip={Arrow Blow}>"],
+                ["2nd Job", "<tt src={/class-icons/explorers/bowmaster/bow-mastery.png} tip={Bow Mastery}> -> <tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/common/agile-bows.png} tip={Agile Bows}> -> <tt src={/class-icons/explorers/bowmaster/soul-arrow.png} tip={Soul Arrow}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack}> -> <tt src={/class-icons/explorers/bowmaster/wind-arrow.png} tip={Wind Arrow}> -> <tt src={/class-icons/explorers/bowmaster/covering-fire.png} tip={Covering Fire}> -> <tt src={/class-icons/explorers/bowmaster/swift-surge.png} tip={Swift Surge}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow}> -> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix}> -> <tt src={/class-icons/explorers/bowmaster/evasion-boost.png} tip={Evasion Boost}> -> <tt src={/class-icons/explorers/bowmaster/marksmanship.png} tip={Marksmanship}> -> <tt src={/class-icons/explorers/bowmaster/blink-shot.png} tip={Blink Shot}> -> <tt src={/class-icons/explorers/bowmaster/speed-mirage.png} tip={Speed Mirage}> -> <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster}> -> <tt src={/class-icons/explorers/bowmaster/mortal-blow.png} tip={Mortal Blow}> -> <tt src={/class-icons/explorers/bowmaster/focused-fury.png} tip={Focused Fury}> -> <tt src={/class-icons/explorers/bowmaster/zephyr-shield.png} tip={Zephyr Shield}>"],
+                ["4th Job", "<tt src={/class-icons/explorers/bowmaster/armor-break.png} tip={Armor Break}> -> <tt src={/class-icons/explorers/bowmaster/bow-expert.png} tip={Bow Expert}> -> <tt src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack}> -> <tt src={/class-icons/explorers/bowmaster/arrow-stream.png} tip={Arrow Stream}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes}> -> <tt src={/class-icons/explorers/bowmaster/illusion-step.png} tip={Illusion Step}> -> <tt src={/class-icons/explorers/bowmaster/enchanted-quiver.png} tip={Enchanted Quiver}> -> <tt src={/class-icons/explorers/bowmaster/hurricane.png} tip={Hurricane}> -> <tt src={/class-icons/explorers/bowmaster/speed-mirage-ii.png} tip={Speed Mirage II}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak}> <tt src={/class-icons/explorers/bowmaster/sharp-eyes-critical-chance.png} tip={Sharp Eyes - Critical Chance}> Sharp Eyes - Guardbreak and Critical Chance_<tt src={/class-icons/explorers/bowmaster/hurricane-reinforce.png} tip={Hurricane - Reinforce}> <tt src={/class-icons/explorers/bowmaster/hurricane-boss-rush.png} tip={Hurricane - Boss Rush}> <tt src={/class-icons/explorers/bowmaster/hurricane-split-attack.png} tip={Hurricane - Split Attack}> Hurricane - Reinforce, Boss Rush, and Split Attack_>[For Training]<bp_<tt src={/class-icons/explorers/bowmaster/arrow-stream-reinforce.png} tip={Arrow Stream - Reinforce}> <tt src={/class-icons/explorers/bowmaster/arrow-stream-extra-strike.png} tip={Arrow Stream - Extra Strike}> Arrow Stream - Reinforce and Extra Strike can be used when training with <tt src={/class-icons/explorers/bowmaster/arrow-stream.png} tip={Arrow Stream (4th Job)}> instead of <tt src={/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak}> <tt src={/class-icons/explorers/bowmaster/sharp-eyes-critical-chance.png} tip={Sharp Eyes - Critical Chance}>_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/explorers/bowmaster/hurricane.png} tip={Hurricane (4th Job)}> <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster/Speed Mirage (3rd Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack: Bow (2nd Job)}>"],
+                    ["", "<tt src={/class-icons/explorers/bowmaster/arrow-stream.png} tip={Arrow Stream (4th Job)}> <tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)}> <tt src={/class-icons/explorers/bowmaster/gritty-gust.png} tip={Gritty Gust (Hyper Skill)}>"],
+                    ["", "<tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good",
+                    "5 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4],
+            "other": [5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/bowmaster/hurricane.png} tip={Hurricane (4th Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack: Bow (2nd Job)}>",
+                "<tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)}> <tt src={/class-icons/explorers/bowmaster/arrow-stream.png} tip={Arrow Stream (4th Job)}>",
+                "<tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)}> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job)}>",
+                "<tt src={/class-icons/explorers/bowmaster/gritty-gust.png} tip={Gritty Gust (Hyper Skill)}> <tt src={/class-icons/explorers/bowmaster/speed-mirage.png} tip={Speed Mirage (3rd Job)}>",
+                "<tt src={/class-icons/explorers/bowmaster/covering-fire.png} tip={Covering Fire (2nd Job)}> <tt src={/class-icons/explorers/bowmaster/swift-surge.png} tip={Swift Surge (2nd Job)}>",
+                "<tt src={/class-icons/explorers/bowmaster/wind-arrow.png} tip={Wind Arrow (2nd Job)}> <tt src={/class-icons/explorers/archer/arrow-blow.png} tip={Arrow Blow (1st Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Bowmaster"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%B3%B4%EC%9A%B0%EB%A7%88%EC%8A%A4%ED%84%B0"},
+            {"title": "Class Discord", "link": "https://discord.gg/YJqyRYxWV3"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/14Ob3MKysPnv7aQ31uLm0SkBLpKZSSjKRuwh_2nn28HE"},
+            {"title": "Sky's Guide", "link": "https://dexless.com/guides/bowmaster-in-depth-job-guide.137/"}
+        ],
+        "infographics": [
+            {
+                "src": "/bowmaster/bowmaster-6th-job-main-min.png",
+                "title": "6th Job (Main/Min-Clear)",
+                "credit": "Bowmaster Discord",
+                "date": "2026-06-26"
+            },
+            {
+                "src": "/bowmaster/bowmaster-6th-job-legion-champ.png",
+                "title": "6th Job (Legion Champ)",
+                "credit": "Bowmaster Discord",
+                "date": "2026-06-26"
+            },
+            {
+                "src": "/bowmaster/bowmaster-6th-job-mule-culvert.png",
+                "title": "6th Job (Mule/Culvert)",
+                "credit": "Bowmaster Discord",
+                "date": "2026-06-26"
+            }
+        ],
+        "specialThanks": "Special thanks to Mouse and the members of the Bowmaster Discord for their help in making this overview!",
+        "discord": "https://discord.gg/YJqyRYxWV3",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
+            ["5th Job Skill Animations", "KyoWantsCute"],
+            ["Quiver Barrage + Silhouette Mirage Animation", "Owltakuu"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Adventurer's Curiosity",
+                    "maxLevel": 9,
+                    "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%, Damage: +6%",
+                    "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "For Explorer Archers, also permanently increases %Damage",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/OpEOjKILSeLX6YfS1Y/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/IbdUgYKjD334v2kCSg/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/OIafuaFhPiB6iNusEC/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/QcZbPgCgUbYqS7imWS/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzAyYTkyN2ViMXU5dGFrY2ltMm5uaDZpOXAzaHpnanE3amhiaHo3cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pfJigAUN8CMzOEiS53/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Arrow Blow",
+                        "shortDesc": "MP Cost: 11, Damage: 160%, Max Enemies Hit: 5, Arrows Fired: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/archer/arrow-blow.png"],
+                        "animations": ["https://media.giphy.com/media/MwKhq3cnlPDObFva1X/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires several piercing arrows forward"
+                    },
+                    {
+                        "name": "Double Jump",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/archer/double-jump-1.png", "/class-icons/explorers/archer/double-jump-2.png"],
+                        "animations": ["https://media.giphy.com/media/oDL0cyZJDtOJCbcJFS/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "While in the air, double-tapping the Up/Down Arrow Key will perform an Up Jump or Down Jump<bp_Right-clicking the skill will toggle a function ON/OFF to perform the jump by pressing Up/Down Arrow Key + Jump Key instead_>"
+                        ]
+                    },
+                    {
+                        "name": "Critical Shot",
+                        "shortDesc": "Critical Rate: +40%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/archer/critical-shot.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Archery Mastery",
+                        "shortDesc": "Range +120, Speed +30, Attack Speed: +1.\\nMax Speed Increased to 160",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/archer/archery-mastery.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Wind Arrow",
+                        "shortDesc": "MP Cost: 15, Max Monsters Hit: 6, Damage: 178%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bowmaster/wind-arrow.png"],
+                        "animations": ["https://media.giphy.com/media/5DA1GqcXzKL3WYXPjt/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a flurry of arrows that damage multiple enemies"
+                    },
+                    {
+                        "name": "Covering Fire",
+                        "shortDesc": "MP Cost: 5, if you press and hold the skill key after jumping a certain distance backward, you will attack enemies at up to 105% of damage for 2 sec while in mid-air",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/bowmaster/covering-fire.png"],
+                        "animations": ["https://media.giphy.com/media/mXHtxd7vnOfg7P7Bpa/giphy.gif"],
+                        "type": "Key-down Leap Attack",
+                        "desc": "Leap backwards into the air and fire a stream of arrows",
+                        "details": [
+                            "While casting, you will not be knocked back at all (Super Knockback Resistance)"
+                        ]
+                    },
+                    {
+                        "name": "Swift Surge",
+                        "shortDesc": "MP Cost: 8, Max Enemies Hit: 6, Damage: 105%, Number of Attacks: 3 while moving",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/swift-surge.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2F5M2k2YXpxNzZkbzN3YWd1ajBvMmcyYnE2bG9lazhkeHA2OGhsYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/awbnKbiKjDeBSxVHvE/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies"
+                    },
+                    {
+                        "name": "Quiver Cartridge",
+                        "shortDesc": "30% chance to fire a magic arrow that deals 220% damage.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/bowmaster/quiver-cartridge.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3ZzdWh1eGc3cjhtczVqd2g4cXppMng0YmplM2Y2eGVvaTFlcnU2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pw5LDwSljDEwn6OfNH/giphy.gif"],
+                        "type": "Active",
+                        "desc": "While active, successful attacks have a chance to create a homing arrow",
+                        "details": [
+                            "In 4th Job, you gain an additional arrow type, pressing the Skill Key will allow you to swap between two types of arrow types"
+                        ]
+                    },
+                    {
+                        "name": "Agile Bows",
+                        "shortDesc": "Attack Speed: +2, DEX: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/agile-bows.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Soul Arrow: Bow",
+                        "shortDesc": "Attack Power: +30. Allows you to attack without consuming arrows.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/soul-arrow.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Uses the arrow with the highest Attack to calculate your damage"
+                        ]
+                    },
+                    {
+                        "name": "Bow Mastery",
+                        "shortDesc": "Bow Mastery: +50%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/bow-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Final Attack : Bow",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 150% Final Attack damage.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/final-attack.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful attacks have a chance to deal an additional hit"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Arrow Blaster",
+                        "shortDesc": "MP Cost: 7, Max Enemies Hit: 4, Damage: 181%.\\nWhile casting, use the Interact/Harvest key to set up Arrow Blaster, firing arrows that deal 85% damage for 60 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bowmaster/arrow-blaster.png"],
+                        "animations": ["https://media.giphy.com/media/f1XC6dZv0uaFXelObS/giphy.gif"],
+                        "type": "Key-down Attack / Summon",
+                        "desc": "Fires a stream of arrows at a chosen angle",
+                        "details": [
+                            "While casting, press the Up and Down Arrow Keys to change the angle of firing",
+                            "While casting, press the \"Interact / Harvest\" key to set up an Arrow Blaster at your location<bp_You can change the key to the Attack Key instead by right-clicking the skill_Unaffected by Damage Reflect_>"
+                        ]
+                    },
+                    {
+                        "name": "Speed Mirage",
+                        "shortDesc": "MP Cost: 90. After successfully striking enemies 12 times with arrow-based attacks, creates 3 afterimages that fire an arrow towards an enemy ahead of them.\\nEvery 7 hits with Arrow Blaster, Hurricane, Silhouette Mirage, Inhuman Speed, Quiver Barrage, and Storm of Arrows count as 1 successful strike.\\nFired arrows pierce up to 5 enemies and deal 420% damage 4 times on the way to its intended target.\\nCooldown: 1 sec\\n[Passive Effect] Increases Wind Arrow's Range and Damage by 70% points.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bowmaster/speed-mirage.png"],
+                        "animations": ["https://media.giphy.com/media/gtgkxgzbxUWDOUcHZE/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, every 12 successful arrow-based attacks, afterimages are created that fire piercing arrows towards an enemy",
+                        "details": [
+                            "[Passive]: Permanently increases the range and %Damage of <tt src={/class-icons/explorers/bowmaster/wind-arrow.png} tip={Wind Arrow (2nd Job)}> by a flat amount",
+                            "Every 7 hits from the following attacks count as 1 successful arrow-based attack, <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)}> <tt src={/class-icons/explorers/bowmaster/hurricane.png} tip={Hurricane (4th Job)}> <tt src={/class-icons/explorers/bowmaster/silhouette-mirage.png} tip={Silhouette Mirage (5th Job)}> <tt src={/class-icons/explorers/bowmaster/inhuman-speed.png} tip={Inhuman Speed (5th Job)}> <tt src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)}> <tt src={/class-icons/explorers/bowmaster/storm-of-arrows.png} tip={Storm of Arrows (5th Job)}><bp_Stationary attacks from <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)}> don't count towards the successful strikes_>"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Zephyr Shield",
+                        "shortDesc": "MP Cost: 100, Invincibility Duration: 3 sec.\\nCooldown: 120 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/zephyr-shield.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmw1Nm80dW51dnB4eTd2NjQ5eHhubzZiY3A3eWhseGY5cnRpN2JmaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1Meak8EmpoOZoP9QYP/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When used, briefly become invincible",
+                        "details": [
+                            "Unaffected by cooldown resets and %Buff Duration"
+                        ]
+                    },
+                    {
+                        "name": "Phoenix",
+                        "shortDesc": "MP Cost: 70, summon Phoenix for 600 sec.\\nAttack up to 4 enemies with 390% damage. 95% chance to Stun\\n[Passive Effects: Defense +30%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/phoenix.png"],
+                        "animations": ["https://media.giphy.com/media/GgLtO2aZcStjhq04U9/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a Phoenix that fights alongside you",
+                        "details": [
+                            "[Passive]: Permanently increases %DEF",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Blink Shot",
+                        "shortDesc": "MP Cost: 28. Places a marker that lasts 120 sec.\\nUse skill again to teleport to the marker's location. Teleport Cooldown: 2 sec.\\nUse the skill again while holding the Down Arrow key to replace your previous marker. Marker Placement Cooldown: 1 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/blink-shot.png"],
+                        "animations": ["https://media.giphy.com/media/ECnfQdCUY11OhRGQJX/giphy.gif"],
+                        "type": "Active Utility",
+                        "desc": "Place down a marker that allows you to teleport back to it freely while summoned",
+                        "details": [
+                            "Pressing the Skill Key again allows you to teleport to the marker",
+                            "Pressing the Down Arrow Key and Skill Key together allows you to move the marker to your position"
+                        ]
+                    },
+                    {
+                        "name": "Reckless Hunt: Bow",
+                        "shortDesc": "DEF: -25%, Attack Power: +40, Final Damage: +30%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/reckless-hunt.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Mortal Blow",
+                        "shortDesc": "If the direct skill attacks hit 30 times, damage increases by 35% for 5 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/mortal-blow.png"],
+                        "type": "Passive",
+                        "desc": "After landing a number of successful attacks, gain a buff that increases %Damage briefly"
+                    },
+                    {
+                        "name": "Focused Fury",
+                        "shortDesc": "While attacking, Status Resistance will increase by 5 per hit up to 100 for 90 sec. Resets when an Abnormal Status is received.\\n[Passive Effects: Increases Status Resistance by 20 and Elemental Resistance by 20%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bowmaster/focused-fury.png"],
+                        "type": "Passive",
+                        "desc": "While attacking, you periodically gain Abnormal Status Resistance",
+                        "details": [
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
+                            "Resets when an Abnormal Status is received"
+                        ]
+                    },
+                    {
+                        "name": "Evasion Boost",
+                        "shortDesc": "Dodge Chance: 30%, all attacks following a successful dodge for 1 sec will be criticals, Knockback Resistance: +40%, Max HP: +40%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/explorers/bowmaster/evasion-boost.png"],
+                        "type": "Passive",
+                        "desc": "Grants a chance to dodge attacks",
+                        "details": [
+                            "Dodging an attack, causes all your attacks to be Critical Hits briefly",
+                            "Also permanently increases %Knockback Resistance and %Max HP"
+                        ]
+                    },
+                    {
+                        "name": "Marksmanship",
+                        "shortDesc": "When attacking, ignores 25% of monster's Weapon DEF. Attack Power: +25%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/marksmanship.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "Hurricane",
+                        "shortDesc": "MP Cost: 9, Damage per Arrow: 350%\\n[Passive Effect: Increases damage for Arrow Stream by 50% points]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/bowmaster/hurricane.png"],
+                        "animations": ["https://media.giphy.com/media/FofiRjSq3YM3XiC1sQ/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "While held, fire a stream of arrows at a single enemy",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage of <tt src={/class-icons/explorers/bowmaster/arrow-stream.png} tip={Arrow Stream (4th Job)}> by a flat amount",
+                            "You can move and jump while firing",
+                            "Prioritizes the target with the highest HP first"
+                        ]
+                    },
+                    {
+                        "name": "Arrow Stream",
+                        "shortDesc": "MP Cost: 32, attack up to 8 enemies with 350% damage 5 times.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/bowmaster/arrow-stream.png"],
+                        "animations": ["https://media.giphy.com/media/7mTJAxj6HGERzyDfvD/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a barrage of arrows forward"
+                    },
+                    {
+                        "name": "Speed Mirage II",
+                        "shortDesc": "Reduces the number of successful arrow strikes required to activate Speed Mirage to 7.\\nIncreases number of afterimages created to 4.\\nAfterimage Arrow Damage: +120% points.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/bowmaster/speed-mirage-ii.png", "/class-icons/explorers/bowmaster/speed-mirage.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Reduces the number of successful arrow-based attacks required to activate attack to 7",
+                            "Increases the %p Damage and number of afterimages created of the attack"
+                        ]
+                    },
+                    {
+                        "name": "Enchanted Quiver",
+                        "shortDesc": "Magic Arrows: Increases Magic Arrows' activation chance to 60% and its Damage to 260%.\\nBlood Arrows: Your arrows have a 60% chance to restore 1.8% of Max HP.\\n[Passive Effect: Final Damage: +6%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/enchanted-quiver.png", "/class-icons/explorers/bowmaster/quiver-cartridge.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases the %Damage and activation chance of the homing arrows",
+                            "Adds a new arrow type, Blood Arrows, that have a chance to recover %Max HP<bp_Swap between arrow types by pressing <tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)}>_>",
+                            "Also permanently increases your %Final Damage"
+                        ]
+                    },
+                    {
+                        "name": "Sharp Eyes",
+                        "shortDesc": "MP Cost: 45, Critical Rate: 20%, Critical Damage: +15%, Duration: 300 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/sharp-eyes.png"],
+                        "animations": ["https://media.giphy.com/media/MNP16O4uu1guijoE0P/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/6jidTWfWGZzvq9Od53/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/NPnBlzyQCVDAQCcbsY/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Bow Expert",
+                        "shortDesc": "Bow Mastery: +70%. Attack Power: +60, Critical Damage: +16%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/bowmaster/bow-expert.png", "/class-icons/explorers/bowmaster/bow-mastery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Crit Damage",
+                            "Allows you to deploy <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)}> at the highest and lowest angle by holding the Down / Up Arrow Key while deploying"
+                        ]
+                    },
+                    {
+                        "name": "Illusion Step",
+                        "shortDesc": "DEX: +80, Bonus Avoidability Chance: 30%, Damage Taken: -20%, Knockback Resistance: +60%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/bowmaster/illusion-step.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Advanced Final Attack",
+                        "shortDesc": "Attack Power: +20 permanently.\\n[Final Attack Skills] Final Attack Chance: 70%, Damage: 210%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/advanced-final-attack.png", "/class-icons/common/final-attack.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage",
+                            "Now grants flat Attack"
+                        ]
+                    },
+                    {
+                        "name": "Armor Break",
+                        "shortDesc": "Ignore Defense: +40%, Final Damage: +16%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/armor-break.png"],
+                        "type": "Passive"
+                    }
+                ]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Sharp Eyes - Persist",
+                    "shortDesc": "Duration: +30 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/sharp-eyes-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Sharp Eyes - Guardbreak",
+                    "shortDesc": "Enemy DEF Ignored: +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Sharp Eyes - Critical Chance",
+                    "shortDesc": "Critical Rate: +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/sharp-eyes-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Arrow Stream - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/arrow-stream-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Arrow Stream - Spread",
+                    "shortDesc": "Max Enemies Hit: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/arrow-stream-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Arrow Stream - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/arrow-stream-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Hurricane - Reinforce",
+                    "shortDesc": "Damage: +30%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/hurricane-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)}> and <tt src={/class-icons/explorers/bowmaster/hurricane.png} tip={Hurricane (4th Job)}>"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Hurricane - Boss Rush",
+                    "shortDesc": "Boss Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/hurricane-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Hurricane - Split Attack",
+                    "shortDesc": "Number of Attacks: +1, reduces Damage to 75% of the original Damage",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/hurricane-split-attack.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Concentration",
+                    "shortDesc": "MP Cost: 300, Duration: 40 sec, Attack Power: +50, Boss Damage: +20%\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/concentration.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2F1d29zcW91dGpzazR6aWoydWF0aGpkMWhqeWptY2Q1MGpycXk3bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/etjHcHMKVBT9oBc9uj/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Gritty Gust",
+                    "shortDesc": "MP Cost: 200, Enemies Hit: 12, Damage: 335%, Number of Attacks: 12\\nReduces Speed of hit enemies by -30 for 20 sec.\\nCooldown: 15 sec\\n[Passive Effects: Increases damage of Arrow Blaster and Arrow Blaster turrets by 90% points]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/bowmaster/gritty-gust.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWRqODNtNHZneTVsZTA4bnYzb2kwbWJubmM5ZDd2eGFwYXJuYTZvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mwGX9003tdS6ZMMZRH/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a gust of wind that damages and applies a slowing debuff",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)}> by a flat amount"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/archer/epic-adventure.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjA1d2V3cGFiczNrMmZuamxraWRsMWZ1aDBxeGtpeHh2aXp0bnFjeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aTPyNmZxQ65KltlzVI/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expArcher", "goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthMain": [
+                {
+                    "name": "Storm of Arrows",
+                    "shortDesc": "MP Cost: 1000, Damage: +30%, Duration: 70 sec. Arrows rain down every 5 sec for 2.5 sec when you attack with your own skills. Up to 6 of these zones can be created, but they cannot overlap.\\nThe falling arrows deal 1650% damage on up to 10 enemies 7 times. If currently attacking more than one enemy, the number of attacks increases by 2 for each additional enemy, for up to 8 additional attacks.\\nHas 2x more of a chance than Quiver Cartridge does to activate Magic Arrow on attacks in this area.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/explorers/bowmaster/storm-of-arrows.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTJwZGc2MTh1dTlpcm80cDVsZ3docWticjh5dTh1a3Q2YWxvcXd3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D5GtndRaRCVBvMTE9R/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, increases %Damage and arrows periodically rain from the sky on to enemies",
+                    "details": [
+                        "If attacking more than one enemy, the arrows gain increased number of attacks for each additional enemy",
+                        "Magic Arrows from <tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)}> have an increased chance to activate where arrows rain down",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Inhuman Speed",
+                    "shortDesc": "MP Cost: 800, Max Duration: 30 sec. Fires arrows at set intervals dealing 880% 3 times to enemies within range of your afterimages, for 3 sec., during the buff.\\nWhen the attack hits, Afterimage Attack Duration: +3 sec every 1 sec.\\nWhen the attack duration ends, afterimages stop attacking.\\nCooldown: 120 sec.\\n[Passive Effect: Every 10 attacks performed while the active effect of this skill isn't active, an afterimage is created that lasts 1 sec and periodically attacks enemies within its range for 880% damage 3 times.]\\nActive and Passive Effects cannot trigger simultaneously.",
+                    "icons": ["/class-icons/explorers/bowmaster/inhuman-speed.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm56bDVoeGtjY3RudTlrNmVzcHNwbnVvandtZmVrejJ1c3o0Y21qZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCmg3PAjgjFxXkwpPR/giphy.gif"],
+                    "type": "Passive / Buff Attack",
+                    "desc": "While active, afterimages fire arrows at nearby enemies",
+                    "details": [
+                        "While active, if you land successful attacks for 1 sec, the duration of the attack increases by 3 sec (up to 30 sec)",
+                        "While the skill is not active, every few attacks will activate a brief afterimage to fire arrows"
+                    ]
+                },
+                {
+                    "name": "Quiver Barrage",
+                    "shortDesc": "MP Cost: 1000, Duration: 40 sec. Final Damage: +15%. Attack Power: +20%. Fire every type of arrowhead at once, including a flaming arrowhead.\\nFlaming Arrow: Launches 6 flaming arrows consecutively. Duration: 5 sec., Enemies Hit: 6, Damage: 550%, Number of Attacks: 9, fires 6 flaming arrows up to 18 times. The attack won't activate if the buff remains when all the prepared flaming arrows are consumed. Cooldown: 2 sec.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/bowmaster/quiver-barrage.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGwwNTYxb2VrMnQ5Ym9obzZ2Zmx3ZzR5ZXMxbXp3MzZhZ2FwMGk4MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rFBrG2jv9A6iW61dCb/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, increases %Final Damage and %Attack and uses every <tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)}> arrow type at once",
+                    "details": [
+                        "While active, temporarily adds a new arrow type, Flaming Arrows that explodes damaging nearby enemies",
+                        "There is a limited amount of Flaming Arrows that can be fired",
+                        "Flaming Arrows prioritize bosses with the highest HP",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Silhouette Mirage",
+                    "shortDesc": "Creates up to 2 illusory doubles every 50 sec.\\nWhen you either receive damage that is at least 50% of your Max HP or you receive damage that leads to death, 1 illusory double disappears and that damage reduces by 90%\\nIf you have even 1 illusory double, and there is an enemy to attack nearby, when using an attack skill, 5 illusory bullets will deal 1670% damage 3 times. MP Cost: 80, Cooldown: 7.5 sec\\nCooldown: 1.5 sec",
+                    "icons": ["/class-icons/explorers/bowmaster/silhouette-mirage.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNxMWFvY21qMWRlYm13ZXZ0d3JnMjZ4ZjBuMm9ndnkxc250a2tiMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xaHGicdkx12bTH4FPY/giphy.gif"],
+                    "type": "Toggle Buff",
+                    "desc": "When toggled, upon taking damage greater than or equal to 50% of your Max HP, a mirage (if available) will be consumed and the damage taken will be reduced",
+                    "details": [
+                        "If you have a mirage active, successful attacks periodically trigger an additional attack",
+                        "Gain 1 mirage every 50 secs (up to 2 max)",
+                        "Right-clicking the skill will turn the mirage visual effect on/off",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Final Attack: Bow Boost",
+                    "shortDesc": "Final Attack: Bow and Advanced Final Attack Final Damage: +120%",
+                    "icons": ["/class-icons/common/final-attack.png", "/class-icons/common/advanced-final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Wind Arrow Boost",
+                    "shortDesc": "Wind Arrow Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/bowmaster/wind-arrow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Arrow Blow Boost",
+                    "shortDesc": "Arrow Blow Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/archer/arrow-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Phoenix Boost",
+                    "shortDesc": "Phoenix Damage: +150%",
+                    "icons": ["/class-icons/explorers/bowmaster/phoenix.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Covering Fire Boost",
+                    "shortDesc": "Covering Fire Damage: +150%",
+                    "icons": ["/class-icons/explorers/bowmaster/covering-fire.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Arrow Blaster/Speed Mirage Boost",
+                    "shortDesc": "Arrow Blaser/Speed Mirage Damage: +100%",
+                    "icons": ["/class-icons/explorers/bowmaster/arrow-blaster.png", "/class-icons/explorers/bowmaster/speed-mirage.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hurricane Boost",
+                    "shortDesc": "Hurricane Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bowmaster/hurricane.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Arrow Stream Boost",
+                    "shortDesc": "Arrow Stream Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bowmaster/arrow-stream.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Quiver Cartridge Boost",
+                    "shortDesc": "Magic Arrow Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bowmaster/quiver-cartridge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gritty Gust Boost",
+                    "shortDesc": "Gritty Gust Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/bowmaster/gritty-gust.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-hurricane-1.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/bowmaster/hurricane.png} tip={Hurricane (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Hurricane",
+                    "shortDesc": "MP Cost: 12, Damage: 575% per shot\\nObtain 1 special arrowhead when attack hits, Max Special Arrowheads Obtained: 75\\nWhen you obtain 40 special arrowheads, you can switch to Shootout Mode\\nShootout Mode - MP Cost: 12, consumes 1 special arrowhead when attack hits to fire even more arrows at once, Damage: 750% per shot",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-hurricane-1.png", "/class-icons/explorers/bowmaster/hexa-hurricane-2.png", "/class-icons/explorers/bowmaster/hurricane.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmlycmRoaWpzeGdrNnVxcWZjdW9uM3ppb3N5OHVsZ3RpYm5kbXdjYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lB30UgYNBTVut0Ee83/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-arrow-blaster-arrow-stream.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/bowmaster/arrow-stream.png} tip={Arrow Stream (4th Job)}> <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Arrow Stream",
+                    "shortDesc": "MP Cost: 37, Max Enemies Hit: 8, Damage: 610%, Number of Attacks: 5\\nEnhanced Arrow Stream: MP Cost: 42, Max Enemies Hit: 12, Damage: 650%, Number of Attacks: 5\\nCooldown: 6 sec\\n[Passive Effect: Advanced Final Attack Damage: +378% points]",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-arrow-stream-1.png", "/class-icons/explorers/bowmaster/hexa-arrow-stream-2.png", "/class-icons/explorers/bowmaster/arrow-stream.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWJ3OG9keHh3NGo0ZHZmcm1taWlrc2RtN3V0cTU2bHl2ZnltdTdiYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nygyDy51XdoNqF1kTR/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHl1YXh4d3RubWUzeThzaWkxMDNlNzJveWZ0dWdnMWtiZW1rdDZ4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WE0SZ90R6abwYwNu4g/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Arrow Blaster",
+                    "shortDesc": "MP Cost: 10, Max Enemies Hit: 4, Damage: 530%.\\nWhile casting, use the Interact/Harvest key to set up Arrow Blaster, firing arrows that deal 440% damage for 60 sec.",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-arrow-blaster.png", "/class-icons/explorers/bowmaster/arrow-blaster.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjhhOHF3bzNjeDB0M2c5d3B0MGg1M3J6dmZocmd0ZWwzZG5sZ2I5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cssnutt2vbKZ6NcEco/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-quiver-cartridge-phoenix.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)}> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Quiver Cartridge",
+                    "shortDesc": "Magic Arrows: 60% chance to shoot Magic Arrows that deal 442% Damage.\\nBlood Arrows: Your arrows have a 60% chance to restore 1.8% of Max HP.",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-quiver-cartridge.png", "/class-icons/explorers/bowmaster/quiver-cartridge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Phoenix",
+                    "shortDesc": "MP Cost: 85, summon Phoenix for 600 sec.\\nAttack up to 6 enemies with 975% damage. 95% chance to Stun",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-phoenix.png", "/class-icons/explorers/bowmaster/phoenix.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWhwajg3eDBuMDI1NnJhNnE2em9tNjVvdmQ0NHc1aGt1OTd2cDBpdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9avBIfP5TyeZZPgh1U/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Extra Quiver Cartridge",
+                    "shortDesc": "MP Cost: 120, uses additional special arrowheads over 30 sec, and automatically ends when all arrowheads are used\\nMagic Arrows - Damage: 240%\\nBlood Arrows: 2910%\\nMax Loads Per Quiver: 50\\nIn Auto Mode, Extra Quiver Cartridges are auto triggered when the total loaded arrows in each cartridge exceeds 50\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/explorers/bowmaster/extra-quiver-cartridge.png", "/class-icons/explorers/bowmaster/extra-quiver-cartridge-magic-arrows.png", "/class-icons/explorers/bowmaster/extra-quiver-cartridge-blood-arrows.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajViazR0d3Nmd2Q3Ync4aWRzN2J4eW9hc3VkZDNtcjRiN3Zia2k5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Aukw5Z32UoSpuH8d4T/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node",
+                        "Right-clicking the skill will toggle ON/OFF Auto Mode"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-speed-mirage-gritty-gust.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/bowmaster/speed-mirage.png} tip={Speed Mirage (3rd Job)}> <tt src={/class-icons/explorers/bowmaster/gritty-gust.png} tip={Gritty Gust (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Speed Mirage",
+                    "shortDesc": "MP Cost: 105. After successfully striking enemies 7 times with arrow-based attacks, creates 4 afterimages that fire an arrow towards an enemy ahead of them.\\nEvery 7 hits with Arrow blaster, Hurricane, Silhouette Mirage, Inhuman Speed, Quiver Barrage, and Storm of Arrows count as 1 successful arrow-based strike.\\nFired arrows pierce up to 5 enemies and deal 1245% damage 4 times on the way to its intended target.\\nCooldown: 1 sec",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-speed-mirage.png", "/class-icons/explorers/bowmaster/speed-mirage.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczN3bmZ0aWk4a3VmYW9ldDd0NjA4aHQ1bXJhczdkMm0xaGd4dnlmZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G0sQNzhfgowqrIDi1l/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDB6Y2l6aW82Y29lZjdmc2ludXh3cHR2b3QyNDY1cnNnOHBua2cwOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jFWMOoKyo79YmfSMKR/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Gritty Gust",
+                    "shortDesc": "MP Cost: 230, Damage: 570%, Number of Attacks: 12, Max Enemies Hit: 12\\nSpeed decreases by -30 over 20 sec\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/explorers/bowmaster/hexa-gritty-gust.png", "/class-icons/explorers/bowmaster/gritty-gust.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXdpeDV4bGVkbWtvMWY0eHJ3eWN6ejN0a214NnI3dWxoZWJrOHd1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oodQQtedVLPLV7s7M5/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Ascendant Shadow",
+                    "shortDesc": "MP Cost: 1000, invincible during casting\\nMax Enemies Hit: 15, Damage: 1425%, Number of Attacks: 14, Arrow Flurries: 39\\nWhen the attack hits after the last arrow flurry, Duration: every 3 sec for 30 sec, Max Enemies Hit: 15, Damage: 1543%, Number of Attacks: 8, Arrow Flurries: 7\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/bowmaster/ascendant-shadow.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWd5ZzNncXkwaWczanZsM214bXN0bW8wM3Jmcjd6ZzF4YnpyY3QzYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/obuALKsUYP6IKzhc8l/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Flashpoint",
+                    "shortDesc": "After using the flashpoint arrows, using the skill again within 30 sec. will redirect them into a flashpoint explosion\\nFlashpoint Arrows - MP Cost: 500, Invincible during casting\\nFire 16 arrow storms, dealing 7590% damage to up to 15 enemies 10 times\\nFlashpoint Explosion - MP Cost: 500, Invincible during casting\\nThe fired arrows return to a single point and explode 16 times, dealing 7905% damage to up to 15 enemies 13 times. Ignore status effects while casting the flashpoint explosion.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/bowmaster/flashpoint.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhrZGVnbDRtNnU5aG13azA1dDVhMXJnamlvdjMwbGpsZDgzZWk1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/27X1Mxm5SRsiYJ4oIR/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Storm of Arrows Boost",
+                    "shortDesc": "Storm of Arrows Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/bowmaster/storm-of-arrows.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Inhuman Speed Boost",
+                    "shortDesc": "Inhuman Speed Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/bowmaster/inhuman-speed.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Quiver Barrage Boost",
+                    "shortDesc": "Quiver Barrage Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/bowmaster/quiver-barrage.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Silhouette Mirage Boost",
+                    "shortDesc": "Silhouette Mirage Final Damage: +60%, increases damage reduction by 95% when illusory double disappears, triggers illusory arrows even if no double is created",
+                    "icons": ["/class-icons/explorers/bowmaster/silhouette-mirage.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Arrow Blaster - 3rd Job",
+                "icons": ["/class-icons/explorers/bowmaster/arrow-blaster.png"],
+                "animations": ["https://media.giphy.com/media/f1XC6dZv0uaFXelObS/giphy.gif"]
+            },
+            {
+                "name": "Phoenix - 3rd Job",
+                "icons": ["/class-icons/explorers/bowmaster/phoenix.png"],
+                "animations": ["https://media.giphy.com/media/GgLtO2aZcStjhq04U9/giphy.gif"]
+            },
+            {
+                "name": "Speed Mirage - 3rd Job",
+                "icons": ["/class-icons/explorers/bowmaster/speed-mirage.png"],
+                "animations": ["https://media.giphy.com/media/gtgkxgzbxUWDOUcHZE/giphy.gif"]
+            },
+            {
+                "name": "Hurricane - 4th Job",
+                "icons": ["/class-icons/explorers/bowmaster/hurricane.png"],
+                "animations": ["https://media.giphy.com/media/FofiRjSq3YM3XiC1sQ/giphy.gif"]
+            },
+            {
+                "name": "Arrow Stream - 4th Job",
+                "icons": ["/class-icons/explorers/bowmaster/arrow-stream.png"],
+                "animations": ["https://media.giphy.com/media/7mTJAxj6HGERzyDfvD/giphy.gif"]
+            },
+            {
+                "name": "Storm of Arrows - 5th Job",
+                "icons": ["/class-icons/explorers/bowmaster/storm-of-arrows.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTJwZGc2MTh1dTlpcm80cDVsZ3docWticjh5dTh1a3Q2YWxvcXd3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D5GtndRaRCVBvMTE9R/giphy.gif"]
+            },
+            {
+                "name": "Quiver Barrage - 5th Job",
+                "icons": ["/class-icons/explorers/bowmaster/quiver-barrage.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGwwNTYxb2VrMnQ5Ym9obzZ2Zmx3ZzR5ZXMxbXp3MzZhZ2FwMGk4MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rFBrG2jv9A6iW61dCb/giphy.gif"]
+            },
+            {
+                "name": "Ascendant Shadow - 6th Job",
+                "icons": ["/class-icons/explorers/bowmaster/ascendant-shadow.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWd5ZzNncXkwaWczanZsM214bXN0bW8wM3Jmcjd6ZzF4YnpyY3QzYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/obuALKsUYP6IKzhc8l/giphy.gif"]
+            },
+            {
+                "name": "Flashpoint - 6th Job",
+                "icons": ["/class-icons/explorers/bowmaster/flashpoint.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhrZGVnbDRtNnU5aG13azA1dDVhMXJnamlvdjMwbGpsZDgzZWk1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/27X1Mxm5SRsiYJ4oIR/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Bowmaster is a DEX archer class part of the Explorers. Bowmaster utilize Bows as their primary weapons. For their secondary weapon, Bowmaster can equip Arrow Fletchings"
+}

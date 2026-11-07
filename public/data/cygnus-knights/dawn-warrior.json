@@ -1,0 +1,1147 @@
+{
+    "class": "Dawn Warrior",
+    "content": {
+        "classGroup": "Cygnus Knights",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat Max HP",
+        "legionValue": "250/500/1000/2000/2500",
+        "equipment": [
+            {"weapon": ["oneHSword", "twoHSword"]},
+            {"secondary": ["jewel", "warShield"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Buff Duration +38%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "[1H] 1.24x [2H] 1.34x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "[1H] 9 [2H] 8",
+                "detail": "<bg val={Stage 5 for 1H / Stage 4 for 2H}> <bg src={/class-icons/cygnus-knights/dawn-warrior/soul-speed.png} tip={Soul Speed (2nd Job)} val={+2}> <bg src={/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png} tip={Master of the Sword (4th Job)} val={+2, bypasses soft cap}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png} tip={Student of the Blade (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+130(160) +1 per 2 levels & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/soul-speed.png} tip={Soul Speed (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+40}> <bg src={/class-icons/cygnus-knights/dawn-warrior/inner-voice.png} tip={Inner Voice (3rd Job)} val={+40}> <bg src={/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png} tip={Soul Pledge (4th Job)} val={+30}> <bg src={/class-icons/cygnus-knights/elemental-harmony.png} tip={Elemental Harmony (Beginner Skill)} val={+1 per 2 levels}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+14% +205",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+55}> <bg src={/class-icons/cygnus-knights/dawn-warrior/soul-element.png} tip={Soul Element (1st Job)} val={+20}> <bg src={/class-icons/cygnus-knights/dawn-warrior/soul-blessing.png} tip={Soul Blessing (2nd Job)} val={+15}> <bg src={/class-icons/cygnus-knights/dawn-warrior/divine-hand.png} tip={Divine Hand (2nd Job)} val={+20}> <bg src={/class-icons/cygnus-knights/dawn-warrior/soul-blessing-ii.png} tip={Soul Blessing II (3rd Job)} val={+15}> <bg src={/class-icons/cygnus-knights/dawn-warrior/inner-voice.png} tip={Inner Voice (3rd Job)} val={+30}> <bg src={/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png} tip={Student of the Blade (4th Job)} val={+50}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+50%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png} tip={Soul Pledge (4th Job)} val={+10%}> <bg src={/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png} tip={Master of the Sword (4th Job)} val={+35%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+23%",
+                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png} tip={Student of the Blade (4th Job)} val={+23%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "(+72%)",
+                "detail": "<bg type={temp} src={/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/unpredictable.png} tip={Unpredictable (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+68.19%(78.28%)",
+                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/soul-blessing-iii.png} tip={Soul Blessing III (4th Job)} val={+17%}> × <bg src={/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png} tip={Master of the Sword (4th Job)} val={+25%}> × <bg type={debuff} sub={opt} src={/class-icons/cygnus-knights/dawn-warrior/true-sight.png} tip={True Sight (3rd Job)} val={+5%} subSrc={/class-icons/cygnus-knights/dawn-warrior/true-sight-enhance.png} subTip={True Sight - Enhance (Hyper Skill)} subVal={extra +10%}}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+43.3%(57.66%)",
+                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/soul-element.png} tip={Soul Element (1st Job)} val={+10%}> × <bg src={/class-icons/cygnus-knights/dawn-warrior/unpredictable.png} tip={Unpredictable (2nd Job)} val={+30%}> × <bg type={debuff} sub={opt} src={/class-icons/cygnus-knights/dawn-warrior/true-sight.png} tip={True Sight (3rd Job)} val={+10%} subSrc={/class-icons/cygnus-knights/dawn-warrior/true-sight-guardbreak.png} subTip={True Sight - Guardbreak (Hyper Skill)} subVal={extra +10%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "None",
+            "summons": "<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tip={Cosmic Shower (3rd Job)} dur={[60s]}> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmos.png} tip={Cosmos (5th Job)} dur={[15s](60s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png} tip={Soul Eclipse (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[15s / 140 Attacks](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-forge.png} tip={Cosmic Forge (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tip={Rift of Damnation (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/cygnus-knights/dawn-warrior/impaling-rays.png} tip={Impaling Rays (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/astral-blitz.png} tip={Astral Blitz (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "[ <tt src={/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png} tip={Blazing Assault (Hyper Skill)}> / <tt src={/class-icons/cygnus-knights/dawn-warrior/luster-charge.png} tip={Luster Charge (Hyper Skill)}}> ][1.8s each](45s cd) <tt src={/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png} tip={Soul Eclipse (5th Job)} dur={(180s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/astral-blitz.png} tip={Astral Blitz (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000055,
+            "offline": true,
+            "name": "Cygnus Blessing",
+            "maxLevel": 15,
+            "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
+            "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level"]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/cygnus-knights/dawn-warrior/soul-element.png} tip={Soul Element}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/inner-voice.png} tip={Inner Voice}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/soul-of-the-guardian.png} tip={Soul of the Guardian}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tip={Rising Sun}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash}>"],
+                ["2nd Job", "<tt src={/class-icons/cygnus-knights/dawn-warrior/soul-blessing.png} tip={Soul Blessing}> -> <tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/sword-mastery.png} tip={Sword Mastery}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/soul-speed.png} tip={Soul Speed}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/divine-hand.png} tip={Divine Hand}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tip={Equinox Cycle}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/celestial-vision.png} tip={Celestial Vision}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-matter.png} tip={Cosmic Matter}>"],
+                ["3rd Job", "<tt src={/class-icons/cygnus-knights/dawn-warrior/soul-blessing-ii.png} tip={Soul Blessing II}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/inner-voice-2.png} tip={Inner Voice}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-mastery.png} tip={Equinox Mastery}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/will-of-steel.png} tip={Will of Steel}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/bluster.png} tip={Bluster}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tip={Cosmic Shower}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/celestial-vision-ii.png} tip={Celestial Vision II}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/true-sight.png} tip={True Sight}>"],
+                ["4th Job", "<tt src={/class-icons/cygnus-knights/dawn-warrior/soul-blessing-iii.png} tip={Soul Blessing III}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png} tip={Master of the Sword}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png} tip={Soul Pledge}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png} tip={Student of the Blade}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/unpredictable.png} tip={Unpredictable}> -> <tt src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/celestial-vision-iii.png} tip={Celestial Vision III}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png} tip={Cosmic Burst}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-slash.png} tip={Equinox Slash}> -> <tt src={/class-icons/cygnus-knights/dawn-warrior/impaling-rays.png} tip={Impaling Rays}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/cygnus-knights/dawn-warrior/true-sight-persist.png} tip={True Sight - Persist}> <tt src={/class-icons/cygnus-knights/dawn-warrior/true-sight-enhance.png} tip={True Sight - Enhance}> <tt src={/class-icons/cygnus-knights/dawn-warrior/true-sight-guardbreak.png} tip={True Sight - Guardbreak}> True Sight - Persist, Enhance, and Guardbreak_<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower-burst-reinforce.png} tip={Cosmic Shower/Burst - Reinforce}> Cosmic Shower/Burst - Reinforce_<tt src={/class-icons/cygnus-knights/dawn-warrior/divide-and-slash-reinforce.png} tip={Divide and Slash - Reinforce}> Divide and Slash - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash and Luna Divide (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tip={Cosmic Shower (3rd Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png} tip={Cosmic Burst (4th Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-slash.png} tip={Equinox Slash (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good",
+                    "3 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}>",
+                "<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tip={Cosmic Shower (3rd Job)}>",
+                "<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png} tip={Cosmic Burst (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-slash.png} tip={Equinox Slash (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/dawn-warrior/bluster.png} tip={Bluster (3rd Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/flicker.png} tip={Flicker (3rd Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png} tip={Blazing Assault (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/luster-charge.png} tip={Luster Charge (Hyper Skill)}>",
+                "<tt src={/class-icons/cygnus-knights/dawn-warrior/impaling-rays.png} tip={Impaling Rays (4th Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-matter.png} tip={Cosmic Matter (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Dawn_Warrior"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%86%8C%EC%9A%B8%EB%A7%88%EC%8A%A4%ED%84%B0"},
+            {"title": "Class Discord", "link": "https://discord.gg/WMGahCmmWT"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1iQfiF7q78bmZtBujnLcAkDNDjqiHqm7iZ2QjUfKRd-g"}
+
+        ],
+        "infographics": [
+            {
+                "src": "dawn-warrior/dawn-warrior-overview.png",
+                "title": "Overview",
+                "credit": "JusticeDawn",
+                "date": "2026-05-14"
+            },
+            {
+                "src": "dawn-warrior/dawn-warrior-6th-job-fragments.png",
+                "title": "6th Job (Fragments)",
+                "credit": "JusticeDawn",
+                "date": "2026-06-24"
+            },
+            {
+                "src": "dawn-warrior/dawn-warrior-6th-job-energy.png",
+                "title": "6th Job (Energy)",
+                "credit": "JusticeDawn",
+                "date": "2026-06-24"
+            }
+        ],
+        "discord": "https://discord.gg/WMGahCmmWT",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Solar/Luna Stances",
+            "content": [
+                "<img src={https://media.giphy.com/media/GmRIPLpKLQi6ra81KW/giphy.gif} alt={Skill Equinox Cycle}>",
+                "Dawn Warrior has 2 stances - Solar and Luna. Both stances are unlocked in 1st Job and have separate skill sets. In 2nd Job, <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tip={Equinox Cycle (2nd Job)}> Equinox Cycle is unlocked that automatically alternates between Solar and Luna stances while using attacks from each stance",
+                "<tt src={/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tip={Rising Sun (1st Job)}> [Rising Sun - Solar Stance]: Increases %Final Damage and Attack Speed",
+                "<tt src={/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tip={Falling Moon (1st Job)}> [Falling Moon - Luna Stance]: Increases %Crit Rate and doubles number of attacks dealt, but deals reduced %Final Damage",
+                "<bp_In 4th Job, the effects from both stances are applied together_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Cygnus Blessing",
+                    "maxLevel": 15,
+                    "shortDesc": "Attack Power and Magic ATT: +55, Status Resistance: +22, Elemental Resistance: +22%",
+                    "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Elemental Slash",
+                    "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-slash.png"],
+                    "animations": ["https://media.giphy.com/media/aKafOWSq4WgHqUL9yF/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike forward damaging multiple enemies"
+                },
+                {
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/imperial-recall.png"],
+                    "animations": ["https://media.giphy.com/media/d0Vk9z4B8RqdxFeNK9/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Noble Mind",
+                    "shortDesc": "Increases Empress's Blessing max level by 6",
+                    "maxLevel": 6,
+                    "icons": ["/class-icons/cygnus-knights/noble-mind.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing quests from Neinheart after Lv. 125"
+                    ]
+                },
+                {
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Strength increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-harmony.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-expert.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-shift.png"],
+                    "animations": ["https://media.giphy.com/media/UHJH3GwfCFidQohct9/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be activated by pressing jump twice",
+                        "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm1vNHZqNXcyaDAyM3JiZXBneXQ5bWw0NXg4dzZlOGhidnYzdHJmdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/egSu4g31ZqewEeKhUp/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Rising Sun",
+                        "shortDesc": "Final Damage: +10%, Attack Speed: +1\\nCannot be used at the same time as Falling Moon.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/rising-sun.png"],
+                        "animations": ["https://media.giphy.com/media/Tk23BZFHmmedf8ZoDF/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "While toggled, increases %Final Damage and Attack Speed (by 1 stage)",
+                        "details": [
+                            "Cannot be used at the same time as <tt src={/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tip={Falling Moon (1st Job)}>",
+                            "Right-clicking the skill will toggle ON/OFF the character visual stance for both Solar and Luna stance"
+                        ]
+                    },
+                    {
+                        "name": "Falling Moon",
+                        "shortDesc": "Critical Rate: +10%\\nNumber of Attacks for Skills: x2, Final Damage is decreased to 55%\\nNumber of attacks cannot exceed 15.\\nCannot be used at the same time as Rising Sun.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/falling-moon.png"],
+                        "animations": ["https://media.giphy.com/media/0Y35jEmOtbql6gB2HH/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "While toggled, increases %Crit Rate and doubles the number of attacks for your skills, however reduces your %Final Damage",
+                        "details": [
+                            "Cannot be used at the same time as <tt src={/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tip={Rising Sun (1st Job)}>",
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tip={Rising Sun (1st Job)}>",
+                            "Number of attacks cannot exceed 15 hits"
+                        ]
+                    },
+                    {
+                        "name": "Solar Slash",
+                        "shortDesc": "MP Cost: 12, Max Enemies Hit: 5, Damage: 150%, Number of Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/solar-slash.png"],
+                        "animations": ["https://media.giphy.com/media/9quHmaUXmZY2wSJFkt/giphy.gif"],
+                        "type": "Solar Attack",
+                        "desc": "Cleave forward at multiple enemies",
+                        "details": [
+                            "Solar attacks can only be used during <tt src={/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tip={Rising Sun (1st Job)}> Solar Stance"
+                        ]
+                    },
+                    {
+                        "name": "Luna Divide",
+                        "shortDesc": "MP Cost: 12, Max Enemies Hit: 5, Moon Fragment Damage: 300%, Number of Attacks: 1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/luna-divide.png"],
+                        "animations": ["https://media.giphy.com/media/NU8xBKnZ4rW3fLvOHg/giphy.gif"],
+                        "type": "Luna Attack",
+                        "desc": "Fire homing projectiles at nearby enemies",
+                        "details": [
+                            "Luna attacks can only be used during <tt src={/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tip={Falling Moon (1st Job)}> Luna Stance",
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Soul Element",
+                        "shortDesc": "Channel a lightning elemental.\\n[Passive Effect - Attack Power: 20, Ignore Defense: +10%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-element.png"],
+                        "animations": ["https://media.giphy.com/media/Xk7O8LDDqNkSGTGrFt/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Soul of the Guardian",
+                        "shortDesc": "Max HP: +1500, Defense: +750, Knockback Resistance: +40%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-of-the-guardian.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Inner Voice",
+                        "shortDesc": "Speed: +40, Jump: +20, Max Speed: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/inner-voice.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Soul Leap",
+                        "shortDesc": "MP Cost: 5. Allows you to jump a greater distance.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-leap.png", "/class-icons/cygnus-knights/elemental-shift.png"],
+                        "animations": ["https://media.giphy.com/media/UHJH3GwfCFidQohct9/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Modifies the appearance of <tt src={/class-icons/cygnus-knights/elemental-shift.png} tip={Elemental Shift (Beginner Skill)}>"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Celestial Vision",
+                        "shortDesc": "Solar Slash - MP Cost: 14, Max Enemies Hit: 6, Damage: 150%, Number of Attacks: 4\\nLuna Divide - MP Cost: 14, Max Enemies Hit: 6, Moon Fragment Damage: 190%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/celestial-vision.png", "/class-icons/cygnus-knights/dawn-warrior/solar-slash.png", "/class-icons/cygnus-knights/dawn-warrior/luna-divide.png"],
+                        "animations": ["https://media.giphy.com/media/KV5c3mTvNCJAPqFRJF/giphy.gif", "https://media.giphy.com/media/6Gz6Wpi16Ia9qTyiFf/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "<tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}>: Increases Max Enemies Hit and Number of Attacks",
+                            "<tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}>: Increases Max Enemies Hit and Number of Attacks, but damage per missile is reduced"
+                        ]
+                    },
+                    {
+                        "name": "Cosmic Matter",
+                        "shortDesc": "MP Cost: 25, launches a dark matter.\\nDark Matter - Max Enemies Pierced: 8, Damage: 220%, Number of Attacks: 2. Upon exploding, Max Enemies Hit: 8, Damage: 310%, Number of Attacks: 3\\nCooldown: 15 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-matter.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGlybWFpeXpmd2Vkdmt0N2NxMXdxNXg4a3BlaG9oZW14b3h3amxuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5qKL0VqzaDlXwLEjFj/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launch an orb forward that damages enemies that it passes through before exploding"
+                    },
+                    {
+                        "name": "Equinox Cycle",
+                        "shortDesc": "Changes stance every time Solar/Luna skills are used\\nRising Sun - Final Damage: +15%, Attack Speed: +1\\nFalling Moon - Critical Rate: +15%, Number of Attacks: x2, Final Damage is decreased to 60%\\nNumber of attacks cannot exceed 15.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png"],
+                        "animations": ["https://media.giphy.com/media/GmRIPLpKLQi6ra81KW/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Skill grants the following effects:",
+                        "details": [
+                            "Automatically change stances every time a Solar/Luna attack is used",
+                            "Increases the amount of stats provided by each stance",
+                            "Right-clicking the skill will toggle the visual effect ON/OFF"
+                        ]
+                    },
+                    {
+                        "name": "Soul Blessing",
+                        "shortDesc": "Attack Power: +15",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-blessing.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Soul Speed",
+                        "shortDesc": "Attack Speed: +2, STR: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-speed.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Divine Hand",
+                        "shortDesc": "Attack +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/divine-hand.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Sword Mastery",
+                        "shortDesc": "One-Handed and Two-Handed Sword Mastery: +50%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/sword-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 40 and DEX by 20.",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Celestial Vision II",
+                        "shortDesc": "Solar Slash - MP Cost: 19, Max Enemies Hit: 6, Damage: 225%, Number of Attacks: 5\\nLuna Divide - MP Cost: 19, Max Enemies Hit: 6, Moon Fragment Damage: 180%, Number of Attacks: 5",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/celestial-vision-ii.png", "/class-icons/cygnus-knights/dawn-warrior/solar-slash.png", "/class-icons/cygnus-knights/dawn-warrior/luna-divide.png"],
+                        "animations": ["https://media.giphy.com/media/BL9t0mNApdlE73zSiD/giphy.gif", "https://media.giphy.com/media/tORmAqaEsOOcWaT5v8/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "<tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}>: Increases %Damage and Number of Attacks",
+                            "<tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}>: Increases Number of Attacks, but damage per missile is reduced"
+                        ]
+                    },
+                    {
+                        "name": "Cosmic Shower",
+                        "shortDesc": "MP Cost: 45, creates meteor shower zone\\nMeteor Shower Zone - Duration: 60 sec, Max Enemies Hit: 6, Damage: 210%, Number of Attacks: 3\\nDamage Against Normal Enemies: +50%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXRueDRyNng3a3E5Zzh5bzR1NGJwYnNoZXd5a3FnYnpoZGl0cmI0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bV5Jq7itJLKiSxe9OV/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Create a zone that damages enemies within it",
+                        "details": [
+                            "Cast animation is removed when used during <tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tip={Rift of Damnation - Styx Crossing (5th Job)}>",
+                            "Deals increased %Damage to regular monsters",
+                            "Unaffected by %Summon Duration and Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Bluster",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 7, Damage: 170%, Number of Attacks: 2 while moving",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/bluster.png"],
+                        "animations": ["https://media.giphy.com/media/JoOyhsEz4JXZIIg36Y/giphy.gif"],
+                        "type": "Solar Attack",
+                        "desc": "Dash forward pushing and damaging enemies in your path"
+                    },
+                    {
+                        "name": "Flicker",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 7, Damage: 170%, Number of Attacks: 2 while moving",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/flicker.png"],
+                        "animations": ["https://media.giphy.com/media/f9BvSjOpRG3SaHTw56/giphy.gif"],
+                        "type": "Luna Attack",
+                        "desc": "Dash forward pushing and damaging enemies in your path",
+                        "details": [
+                            "Shares the same Skill Points (SP) and Key Slot as <tt src={/class-icons/cygnus-knights/dawn-warrior/bluster.png} tip={Bluster (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "True Sight",
+                        "shortDesc": "MP Cost: 50, Success Rate: 100%, Enemy DEF in Range: -10%, Max Enemies Hit: 10, Duration: 60 sec, final damage the enemy receives increased by 5%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/true-sight.png"],
+                        "animations": ["https://media.giphy.com/media/iH6ejFTriSZPoUZZJg/giphy.gif"],
+                        "type": "Active Debuff",
+                        "desc": "Apply a debuff to nearby enemies that reduces %DEF and increases %Final Damage taken",
+                        "details": [
+                            "Reduction to %DEF can be considered as %Ignore DEF"
+                        ]
+                    },
+                    {
+                        "name": "Soul Blessing II",
+                        "shortDesc": "Attack Power: +15",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-blessing-ii.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Equinox Mastery",
+                        "shortDesc": "Rising Sun - Final Damage: +20%, Attack Speed: +1\\nFalling Moon - Critical Rate: +20%, Number of Attacks for Skills: x2, Final Damage is decreased to 75%\\nNumber of attacks cannot exceed 15.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/equinox-mastery.png", "/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png"],
+                        "type": "Upgraded Passive",
+                        "details": [
+                            "<tt src={/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tip={Rising Sun (1st Job)}>: Increases %Final Damage provided",
+                            "<tt src={/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tip={Falling Moon (1st Job)}>: Increases %Crit Rate provided and reduces %Final Damage reduction amount"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Will of Steel",
+                        "shortDesc": "Abnormal Status Resistance: +30, Elemental Resistance: +30%, Damage Intake: -25%, Recovers 5% of your Max HP every 4 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/will-of-steel.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Inner Voice",
+                        "shortDesc": "Attack Power: +30, STR: +40",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/cygnus-knights/dawn-warrior/inner-voice-2.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/call-of-cygnus.png"],
+                    "animations": ["https://media.giphy.com/media/Z0hYdCiataNqD5q7Po/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Cygnus Knights' Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
+                    "animations": ["https://media.giphy.com/media/Da1Y0zavxCxMZKz8ig/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Celestial Vision III",
+                    "shortDesc": "Solar Slash - MP Cost: 24, Max Enemies Hit: 7, Damage: 485%, Number of Attacks: 6\\nLuna Divide - MP Cost: 24, Max Enemies Hit: 7, Moon Fragment Damage: 485%, Number of Attacks: 6",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/celestial-vision-iii.png", "/class-icons/cygnus-knights/dawn-warrior/solar-slash.png", "/class-icons/cygnus-knights/dawn-warrior/luna-divide.png"],
+                    "animations": ["https://media.giphy.com/media/xWJt7OCkXCGHw7EFe7/giphy.gif", "https://media.giphy.com/media/8NxqzBfMBnHu5GkDdx/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "<tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}>: Increases %Damage, Max Enemies Hit, and Number of Attacks",
+                        "<tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}>: Increases %Damage, Max Enemies Hit, and Number of Attacks"
+                    ]
+                },
+                {
+                    "name": "Cosmic Burst",
+                    "shortDesc": "MP Cost: 50, release 5 cosmic orbs\\nEach of the released cosmic orbs targets 1 enemy, Damage: 450%, Number of Attacks: 4\\nIf a single enemy gets hit with several cosmic orbs, Final Damage is decreased by 30% starting with the second orb.\\nCooldown: 10 sec\\n[Passive Effect: Cosmic Shower Damage: +60% points (additive)]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzZpNm93MGIxZ3BwcXZzcXdtNXF1aGMwc3B0bGRxNTVnMGF4ajhoZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vBOPqZhsoMBFmQtuvz/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launch orbs that seek out and damage nearby enemies",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tip={Cosmic Shower (3rd Job)}> by a flat amount",
+                        "Enemies hit by multiple orbs take reduced %Final Damage after the first orb",
+                        "Cast animation is removed when used during <tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tip={Rift of Damnation - Styx Crossing (5th Job)}>",
+                        "Right-clicking the skill will toggle Auto Use ON/OFF allowing <tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tip={Rift of Damnation - Styx Crossing (5th Job)}> to activate the skill when it is off cooldown",
+                        "Prioritize bosses with the highest HP first",
+                        "Unaffected by Damage Reflect, cooldown resets, and cooldown reduction"
+                    ]
+                },
+                {
+                    "name": "Equinox Slash",
+                    "shortDesc": "MP Cost: 100, Damage: 240%, Number of Attacks: 6, Max Enemies Hit: 7\\nCooldown: 5 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/equinox-slash.png"],
+                    "animations": ["https://media.giphy.com/media/wWWweiHVBbmZQjExGe/giphy.gif"],
+                    "type": "Equinox Attack",
+                    "desc": "Dash forward while damaging enemies in your path",
+                    "details": [
+                        "Can only be used while <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tip={Equinox Cycle (2nd Job)}> is active",
+                        "Can be used while using other skills"
+                    ]
+                },
+                {
+                    "name": "Impaling Rays",
+                    "shortDesc": "MP Cost: 100, Max Enemies Hit: 15, Damage: 335%, Number of Attacks: 3, Chance to Incapacitate: 100%, Incapacitate Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Impaling Rays.\\nAfter debuff, Bonus Damage: 202%, Number of Attacks: 3\\nCooldown: 120 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/impaling-rays.png"],
+                    "animations": ["https://media.giphy.com/media/DUCVtldDpAVlf6Iozo/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Impales nearby enemies causing them to be binded",
+                    "details": [
+                        "Deals an additional hit to enemies after bind duration ends"
+                    ]
+                },
+                {
+                    "name": "Soul Blessing III",
+                    "shortDesc": "Final Damage: +17%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-blessing-iii.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Soul Pledge",
+                    "shortDesc": "All Stats: +30, Critical Rate: +10%, Power Stance Chance: +60%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Student of the Blade",
+                    "shortDesc": "One-Handed and Two-Handed Sword Mastery: +70%, Attack Power: +50, Critical Damage: +23%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png", "/class-icons/cygnus-knights/dawn-warrior/sword-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Unpredictable",
+                    "shortDesc": "Monster DEF ignored: 30%, When attacking Boss Monster - Damage: +20%",
+                    "maxLevel": 15,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/unpredictable.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Master of the Sword",
+                    "shortDesc": "Applies the effect of Rising Sun and Falling Moon at the same time during Equinox Cycle.\\nRising Sun - Final Damage: +25%, Attack Speed: +2\\nFalling Moon - Critical Rate: +35%, Number of Attacks for Skills: x2, Final Damage is decreased to 90%\\nNumber of attacks cannot exceed 15.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png", "/class-icons/cygnus-knights/dawn-warrior/falling-moon.png", "/class-icons/cygnus-knights/dawn-warrior/rising-sun.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Bonus effects from both stances are now applied at the same time while <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tip={Equinox Cycle (2nd Job)}> is active",
+                        "<tt src={/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tip={Rising Sun (1st Job)}>: Increases %Final Damage and now increases Attack Speed by 2",
+                        "<tt src={/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tip={Falling Moon (1st Job)}>: Increases %Crit Rate provided and reduces %Final Damage reduction amount"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "True Sight - Persist",
+                    "shortDesc": "Duration: +20 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/true-sight-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "True Sight - Enhance",
+                    "shortDesc": "Final Damage: +10%\\nCombined with the final damage increase of True Sight.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/true-sight-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "True Sight - Guardbreak",
+                    "shortDesc": "Defense: Additional -10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/true-sight-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Cosmic Shower/Burst - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-shower-burst-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Cosmic Burst - Guardbreak",
+                    "shortDesc": "Enemy Defense Ignored: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-burst-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Cosmic Shower - Persist",
+                    "shortDesc": "Duration: +10 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-shower-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Divide and Slash - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/divide-and-slash-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Divide and Slash - Spread",
+                    "shortDesc": "Max Enemies Hit: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/divide-and-slash-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Divide and Slash - Guardbreak",
+                    "shortDesc": "Enemy Defense Ignored: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/divide-and-slash-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Cosmic Forge",
+                    "shortDesc": "MP Cost: 150, Duration: 30 sec, Damage: +10%, Cosmic Burst's cosmic orb count: +5, Cooldown: -5 sec.\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-forge.png"],
+                    "animations": ["https://media.giphy.com/media/zyWs4WYngIuCgIUgwM/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases %Damage and increases the amount of orbs launched from <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png} tip={Cosmic Burst (4th Job)}> while reducing the skill's cooldown",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Blazing Assault",
+                    "shortDesc": "MP Cost: 100, Max Enemies Hit: 10, Damage: 400%, Number of Attacks: 6\\nAfter casting, Invincibility Duration: 1.8 sec, can link with Luster Charge within 5 sec\\nCooldown: 45 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png"],
+                    "animations": ["https://media.giphy.com/media/IuV3DGwWPQK07eW703/giphy.gif"],
+                    "type": "Solar Attack",
+                    "desc": "Dash forward damaging enemies in your path",
+                    "details": [
+                        "Upon casting, you are briefly invincible",
+                        "After casting, you can briefly use <tt src={/class-icons/cygnus-knights/dawn-warrior/luster-charge.png} tip={Luster Charge (Hyper Skill)}> once regardless of your stance",
+                        "Unaffected by cooldown reduction"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Luster Charge",
+                    "shortDesc": "MP Cost: 100, Max Enemies Hit: 10, Damage: 400%, Number of Attacks: 6\\nAfter casting, Invincibility Duration: 1.8 sec, can link with Blazing Assault within 5 sec\\nCooldown: 45 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/luster-charge.png"],
+                    "animations": ["https://media.giphy.com/media/nshTWcFzTvAVOhNeXX/giphy.gif"],
+                    "type": "Luna Attack",
+                    "desc": "Dash forward damaging enemies in your path",
+                    "details": [
+                        "Upon casting, you are briefly invincible",
+                        "After casting, you can briefly use <tt src={/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png} tip={Blazing Assault (Hyper Skill)}> once regardless of your stance",
+                        "Shares the same Skill Points (SP), Key Slot, and cooldown as <tt src={/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png} tip={Blazing Assault (Hyper Skill)}>",
+                        "Unaffected by cooldown reduction"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnh5NzR5Mm8yMjQ1dWxyZGc0bHc5NDgwNXg4ZnFsd3M1eWdmbzk1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A5mwE0rWekChkClmaV/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["phalanxCharge", "cygnusBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Cosmos",
+                    "shortDesc": "MP Cost: 500 to unleash the galaxy\\nGalaxy Unleash: perdiocally deals 1210% damage 5 times up to 12 enemies for 15 sec.\\nAttack interval decreases. during Cosmic Forge\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmos.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3MxZnB1aHV6YTNtenVjMWhwM2pxOHNjbG1hMWs5MXI0bXp5OHYxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mxyAHGC7d2Aclnt3py/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Surround yourself in a galaxy that damages enemies within it",
+                    "details": [
+                        "While <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-forge.png} tip={Cosmic Forge (Hyper Skill)}> is active, the interval between attacks decreases",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Rift of Damnation",
+                    "shortDesc": "MP Cost: 1000, Styx Crossing can be used 30 times for 30 sec.\\nStyx Crossing - Max Enemies Hit: 15, Damage: 750%, Number of Attacks: 5, Number of Chase Cuts: 5. Additional Ignore Enemy Defense: +20%, changes stance with Equinox Cycle\\nAttacking with Styx Crossing cuts space to leave a rift for 10 sec\\nRift - Gradually grows when it's attacked by Styx Crossing and in the end, Max Enemies Hit: 15, Damage: 710%, Number of Attacks: 6, Number of Explosions: 5\\nRifts can be created again 1 sec after creation, and up to 10 can be created. Rifts disappear and explode immediately when duration ends, but damage is decreased to 330%.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWN2MXFkenMwZW16MDk4bGk3bWowd3pqMDlrdmNqZzdydjJzbmkwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T5VTu7FWDdw5gvKfM5/giphy-downsized-large.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, allows the usage of [Styx Crossing] attack (up to 30 times)",
+                    "details": [
+                        "[Styx Crossing] can be used by pressing <tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}> / <tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}><bp_Right-clicking the skill will toggle a function ON/OFF allowing Styx Crossing to activate by using the Attack Key instead_>",
+                        "Upon using Styx Crossing, your stance will automatically switch",
+                        "Continuously attacking the same area with [Styx Crossing] creates a [Rift] that eventually explodes<bp_Up to 10 rifts can be created_Has a cooldown (1 secs) after shattering before another [Rift] can be created_All existing [Rifts] will explode when the duration of the skill ends, however deals reduced damage_>",
+                        "Styx Crossing has increased %Ignore DEF and ignores Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Soul Eclipse",
+                    "shortDesc": "MP Cost: 1000, creates an eclipse, attacking up to 15 enemies 7 time(s), dealing 635% damage 20 times consecutively. Invincible during casting.\\nEquinox Divide: The eclipse dissipates, triggering explosions 5 time(s) at a certain interval. Max Enemies Hit: 15, Damage: 1980%, Number of Attacks: 15. Invincible while casting. If you use in the air, you can use it while using an attack skill in mid-air\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjUxMDgyY3Fkd3d2ZzJ4dWJhNDMyazR2M21udGRpdTJtYnNvM295YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RP5qkXI1joaocjQ8r6/giphy-downsized-large.gif"],
+                    "type": "Attack",
+                    "desc": "An eclipse to occurs that deals damage to enemies on the map",
+                    "details": [
+                        "You are initially invincible during casting",
+                        "Pressing the Skill Key again will cause the eclipse to disappear and cause a massive explode damaging nearby enemies<bp_You can invincible during this attack_Can be activated while using <tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tip={Rift of Damnation - Styx Crossing (5th Job)}>_>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Flare Slash",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 10, Damage: 1320%, Number of Attacks: 7\\nCooldown: 12 sec, reduced by 0.8 sec when changing stance with Equinox Cycle and and reduced by 1.5x when Styx Crossing hits.",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/flare-slash.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdvMTV6NnJrMXFlZTBsM2Ixb3RlN21vZDJjaWo0OTY4M3c2MXliaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p7c3t5kBiF0PIdaVPL/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Periodically release an explosive attack upon successful attacks while Solar/Luna stance is active",
+                    "details": [
+                        "Whenever your stance changes during <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tip={Equinox Cycle (2nd Job)}>, the cooldown is reduced",
+                        "When <tt src={/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tip={Rift of Damnation - Styx Crossing (5th Job)}> damages an enemy, the cooldown is reduced even further",
+                        "Unaffected by Damage Reflect and cooldown reduction"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Bluster and Flicker Boost",
+                    "shortDesc": "Bluster and Flicker Final Damage: +300%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/bluster.png", "/class-icons/cygnus-knights/dawn-warrior/flicker.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Cosmic Matter Boost",
+                    "shortDesc": "Cosmic Matter Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-matter.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blazing Assault and Luster Charge Boost",
+                    "shortDesc": "Blazing Assault and Luster Charge Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png", "/class-icons/cygnus-knights/dawn-warrior/luster-charge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Cosmic Burst Boost",
+                    "shortDesc": "Cosmic Burst Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Solar Slash and Luna Divide Boost",
+                    "shortDesc": "Solar Slash and Luna Divide Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/solar-slash.png", "/class-icons/cygnus-knights/dawn-warrior/luna-divide.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Impaling Rays Boost",
+                    "shortDesc": "Impaling Rays Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/impaling-rays.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Cosmic Shower Boost",
+                    "shortDesc": "Cosmic Shower Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Equinox Slash Boost",
+                    "shortDesc": "Equinox Slash Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/equinox-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-solar-slash-luna-divide.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmNjaHJ1eXcxeDc0dW42Y3FhdThuOWZhbDk3bWlzZHhjODlzZGtjeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TC6WUKXRJAvcmo9zEU/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tip={Solar Slash (1st Job)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tip={Luna Divide (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Luna Divide",
+                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 8, Damage: 913%, Number of Attacks: 6",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-luna-divide.png", "/class-icons/cygnus-knights/dawn-warrior/luna-divide.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Solar Slash",
+                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 8, Damage: 913%, Number of Attacks: 6",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-solar-slash.png", "/class-icons/cygnus-knights/dawn-warrior/solar-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-cosmic-shower-2.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tip={Cosmic Shower (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Cosmic Shower",
+                    "shortDesc": "MP Cost: 45, creates meteor shower zone\\nMeteor Shower Zone - Duration: 60 sec, Max Enemies Hit: 6, Damage: 740%, Number of Attacks: 3\\nDamage Against Normal Enemies: +50%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-cosmic-shower-1.png", "/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlsdWoyYjVhaHJjNWs3d20xZ21qb2M3Mjl6b2lkZXpmZHFpaTVtYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vh6MyJ6ifH8DqSVtla/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Equinox Power",
+                    "shortDesc": "MP Cost: 60, automatically activate solar and lunar blades consecutively.\\nDamage: 6500%, Number of Attacks: 5, Max Enemies Hit: 8\\nCooldown: 20 sec",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/equinox-power.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGcwMnh5dmpvY3Ryb2E3eGE3YmpvcDZ0cGxqZmx4dWg4aGluNHA2cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eKdzpDwe7YAIlJU1lV/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHVrODcwN3VrY2U3eGY3bjR5NHcyeW5kbmRvOGRmNWg4M3ZjMWp1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/21OjBOcJO3OTTRWffp/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-cosmic-burst.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png} tip={Cosmic Burst (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Cosmic Burst",
+                    "shortDesc": "MP Cost: 60, releases 5 cosmic orbs\\nEach released cosmic orb targets 1 enemy, Damage: 1080%, Number of Attacks: 4\\nIf a single enemy gets hit with multiple cosmic orbs, Final Damage is decreased by 30% starting with the second orb.\\nCooldown: 10 sec.",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-cosmic-burst.png", "/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFwMHc0MWJ1dDdtYWhmZTgyeGZtZWYxeW05MGt1NjZveDVtdG1mMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XYJze2yNomIG1lR2aH/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-equinox-slash-equinox-power-ii.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-slash.png} tip={Equinox Slash (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Equinox Slash",
+                    "shortDesc": "MP Cost: 117, Max Enemies Hit: 7, Damage: 470%, Number of Attacks: 6\\nCooldown: 5 sec.\\n[Passive Effect: HEXA Cosmic Shower Damage: +70% points, HEXA Cosmic Burst Damage: +105% points]",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/hexa-equinox-slash.png", "/class-icons/cygnus-knights/dawn-warrior/equinox-slash.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc25ic242b3lsdzYxb3duZjljNGwzcWg5YXdwd3B3eHcwemN2aWRsYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kVSNty3BRI1WITL3nI/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Equinox Power II",
+                    "shortDesc": "After activating the sword energy of sun rays and moonlight, Max Enemies Hit: 8, Damage: 870%, Number of Attacks: 5, Celestial Explosion: 12\\nCooldown: 20 sec",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/equinox-power-ii.png", "/class-icons/cygnus-knights/dawn-warrior/equinox-power.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDlhZGxhNHloYTBjeG9sMm1sd3d4cm1zYWdxMjJ5ZGZvOHg1aWdiOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/paiuZjoBirEXFk458O/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Astral Blitz",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nChase Cut occurs 48 times which attack up to 15 enemies with 2100% damage 5 times\\nAfter that, trigger 24 Big Bang that attack up to 15 enemies for 2062% damage 7 times.\\nIncreases final damage by 10% for 20 seconds when used\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/astral-blitz.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjR1cHdhdHdnc3JxdzhsamwwNzZ4cmtzaGd2dHA3N3N3Njc4cXh0NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HYuifAQrPuv38i9Ixa/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Totality",
+                    "shortDesc": "MP Cost: 500 per hit, Invincible during casting\\nUnited Power: Your soul resonates 25 times, dealing 4942% damage to up to 15 enemies 12 times. Then a soul aura will activate for up to 30 sec.\\nSoul Explosion: Use the skill again while the soul aura is active to explode with cosmic power 25 times, dealing 5440% damage to up to 15 enemies 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/totality.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3czdm12eWlseTlmZncxdXhzZXkycGFmbjRiZzd6d2V4cTFxemhuMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RJ5OAra2BpwBtKwVOJ/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Cosmos Boost",
+                    "shortDesc": "Cosmos Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmos.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Rift of Damnation Boost",
+                    "shortDesc": "Rift of Damnation Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Soul Eclipse Boost",
+                    "shortDesc": "Soul Eclipse Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Flare Slash Boost",
+                    "shortDesc": "Flare Slash Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/dawn-warrior/flare-slash.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Equinox Cycle - 2nd Job",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png"],
+                "animations": ["https://media.giphy.com/media/GmRIPLpKLQi6ra81KW/giphy.gif"]
+            },
+            {
+                "name": "Cosmic Shower - 3rd Job",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXRueDRyNng3a3E5Zzh5bzR1NGJwYnNoZXd5a3FnYnpoZGl0cmI0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bV5Jq7itJLKiSxe9OV/giphy.gif"]
+            },
+            {
+                "name": "Cosmic Burst - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmic-burst.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzZpNm93MGIxZ3BwcXZzcXdtNXF1aGMwc3B0bGRxNTVnMGF4ajhoZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vBOPqZhsoMBFmQtuvz/giphy.gif"]
+            },
+            {
+                "name": "Blazing Assault / Luster Charge - Hyper Skill",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png"],
+                "animations": ["https://media.giphy.com/media/IuV3DGwWPQK07eW703/giphy.gif"]
+            },
+            {
+                "name": "Cosmos - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmos.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3MxZnB1aHV6YTNtenVjMWhwM2pxOHNjbG1hMWs5MXI0bXp5OHYxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mxyAHGC7d2Aclnt3py/giphy.gif"]
+            },
+            {
+                "name": "Rift of Damnation - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWN2MXFkenMwZW16MDk4bGk3bWowd3pqMDlrdmNqZzdydjJzbmkwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T5VTu7FWDdw5gvKfM5/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Soul Eclipse - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjUxMDgyY3Fkd3d2ZzJ4dWJhNDMyazR2M21udGRpdTJtYnNvM295YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RP5qkXI1joaocjQ8r6/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Astral Blitz - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/astral-blitz.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjR1cHdhdHdnc3JxdzhsamwwNzZ4cmtzaGd2dHA3N3N3Njc4cXh0NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HYuifAQrPuv38i9Ixa/giphy.gif"]
+            },
+            {
+                "name": "Totality - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/dawn-warrior/totality.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3czdm12eWlseTlmZncxdXhzZXkycGFmbjRiZzd6d2V4cTFxemhuMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RJ5OAra2BpwBtKwVOJ/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Dawn Warrior is a STR warrior class part of the Cygnus Knights. What's unique about Dawn Warriors is that they have two separate stances that they use for attacking. In 4th Job, you will gain a skill that automatically swaps between forms while attacking"
+}

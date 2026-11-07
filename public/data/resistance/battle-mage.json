@@ -1,0 +1,1065 @@
+{
+    "class": "Battle Mage",
+    "content": {
+        "classGroup": "Resistance",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["staff"]},
+            {"secondary": ["mageShield", "magicMarble"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Magic Attack +21 / Buff Duration +38%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/resistance/battle-mage/staff-boost.png} tip={Staff Boost (2nd Job)} val={+2}> <bg type={def} sub={toggle} src={/class-icons/resistance/battle-mage/hasty-aura.png} tip={Hasty Aura (1st Job)} val={+2, +1 while toggled, does not break soft cap}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/resistance/battle-mage/staff-expert.png} tip={Staff Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+40 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+21% +80(140)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/battle-mage/dark-aura.png} tip={Dark Aura - Passive (4th Job)} val={+7%}> <bg src={/class-icons/resistance/battle-mage/spell-boost.png} tip={Spell Boost (4th Job)} val={+10%}> <bg src={/class-icons/resistance/battle-mage/staff-artist.png} tip={Staff Artist (1st Job)} val={+20}> <bg src={/class-icons/resistance/battle-mage/staff-mastery.png} tip={Staff Mastery (2nd Job)} val={+30}> <bg src={/class-icons/resistance/battle-mage/staff-expert.png} tip={Staff Expert (4th Job)} val={+30}> <bg type={temp} src={/class-icons/resistance/battle-mage/aura-scythe.png} tip={Aura Scythe (5th Job)} val={+60}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+60%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/resistance/battle-mage/staff-artist.png} tip={Staff Artist (1st Job)} val={+15%}> <bg src={/class-icons/resistance/battle-mage/staff-mastery.png} tip={Staff Mastery (2nd Job)} val={+20%}> <bg src={/class-icons/resistance/battle-mage/battle-rage.png} tip={Battle Rage (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+40%",
+                "detail": "<bg src={/class-icons/resistance/battle-mage/battle-mastery.png} tip={Battle Mastery (3rd Job)} val={+10%}> <bg src={/class-icons/resistance/battle-mage/staff-expert.png} tip={Staff Expert (4th Job)} val={+20%}> <bg src={/class-icons/resistance/battle-mage/battle-rage.png} tip={Battle Rage (4th Job)} val={+10%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+36%(76%)",
+                "detail": "<bg src={/class-icons/link-skills/spirit-of-freedom.png} tip={Spirit of Freedom (Link Skill)} val={+5%}> <bg src={/class-icons/resistance/battle-mage/spell-boost.png} tip={Spell Boost (4th Job)} val={+6%}> <bg src={/class-icons/resistance/battle-mage/battle-rage.png} tip={Battle Rage (4th Job)} val={+25%}> <bg type={toggle} src={/class-icons/resistance/battle-mage/dark-aura.png} tip={Dark Aura (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/resistance/for-liberty.png} tip={For Liberty (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "(+5%)",
+                "detail": "<bg type={opt} src={/class-icons/resistance/battle-mage/dark-aura-boss-rush.png} tip={Dark Aura - Boss Rush (Hyper Skill)} val={+5%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+58.6%(79.85%)",
+                "detail": "<bg src={/class-icons/resistance/battle-mage/battle-mastery.png} tip={Battle Mastery (3rd Job)} val={+30%}> × <bg src={/class-icons/resistance/battle-mage/spell-boost.png} tip={Spell Boost (4th Job)} val={+22%}> × <bg type={opt} src={/class-icons/resistance/battle-mage/weakening-aura-enhance.png} tip={Weakening Aura - Enhance (Hyper Skill)} val={+5%}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+44%",
+                "detail": "<bg src={/class-icons/resistance/battle-mage/spell-boost.png} tip={Spell Boost (4th Job)} val={+30%}> × <bg type={debuff} src={/class-icons/resistance/battle-mage/weakening-aura.png} tip={Weakening Aura (4th Job)} val={+20%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/resistance/battle-mage/staff-boost.png} tip={Staff Boost (2nd Job)} dur={[200s]}>",
+            "toggles": "<tt src={/class-icons/resistance/battle-mage/condemnation.png} tip={Condemnation (1st Job)}> <tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock (3rd Job)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd) | <bold text={Auras}> [ <tt src={/class-icons/resistance/battle-mage/hasty-aura.png} tip={Hasty Aura (1st Job)}> / <tt src={/class-icons/resistance/battle-mage/draining-aura.png} tip={Draining Aura (2nd Job)}> / <tt src={/class-icons/resistance/battle-mage/blue-aura.png} tip={Blue Aura (3rd Job)}> / <tt src={/class-icons/resistance/battle-mage/dark-aura.png} tip={Dark Aura (4th Job)}> / <tt src={/class-icons/resistance/battle-mage/weakening-aura.png} tip={Weakening Aura (4th Job)}> ]",
+            "summons": "<tt src={/class-icons/resistance/battle-mage/altar-of-annihilation.png} tip={Altar of Annihilation (5th Job)} dur={[40s](0.3s cd)}> <tt src={/class-icons/resistance/battle-mage/grim-harvest.png} tip={Grim Harvest (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/resistance-infantry.png} tip={Resistance Infantry (5th Job)} dur={[15s](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/resistance/battle-mage/master-of-death.png} tip={Master of Death (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/resistance/for-liberty.png} tip={For Liberty (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/battle-mage/aura-scythe.png} tip={Aura Scythe (5th Job)} dur={[25s](60s cd)}> <tt src={/class-icons/resistance/battle-mage/abyssal-lightning.png} tip={Abyssal Lightning (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/resistance/battle-mage/crimson-pact.png} tip={Crimson Pact (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/resistance/battle-mage/abyssal-lightning.png} tip={Abyssal Lightning (5th Job)} dur={(120s cd)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/resistance/battle-mage/crimson-pact.png} tip={Crimson Pact (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/resistance/battle-mage/party-shield.png} tip={Party Shield (4th Job)} dur={[30s](-10% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000329,
+            "offline": true,
+            "name": "Spirit of Freedom",
+            "maxLevel": 12,
+            "shortDesc": "Grants 12 seconds of invincibility after being revived. Removed upon moving to another map.",
+            "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/resistance/battle-mage/combat-teleport.png} tip={Combat Teleport}> -> <tt src={/class-icons/resistance/battle-mage/staff-artist.png} tip={Staff Artist}> -> <tt src={/class-icons/resistance/battle-mage/hasty-aura.png} tip={Hasty Aura}> -> <tt src={/class-icons/resistance/battle-mage/triple-blow.png} tip={Triple Blow}>"],
+                ["2nd Job", "<tt src={/class-icons/common/high-wisdom.png} tip={High Wisdom}> -> <tt src={/class-icons/resistance/battle-mage/ordinary-conversion.png} tip={Ordinary Conversion}> -> <tt src={/class-icons/resistance/battle-mage/staff-mastery.png} tip={Staff Mastery}> -> <tt src={/class-icons/resistance/battle-mage/staff-boost.png} tip={Staff Boost}> -> <tt src={/class-icons/resistance/battle-mage/draining-aura.png} tip={Draining Aura}> -> <tt src={/class-icons/resistance/battle-mage/quad-blow.png} tip={Quad Blow}> -> <tt src={/class-icons/resistance/battle-mage/dark-chain.png} tip={Dark Chain}>"],
+                ["3rd Job", "<tt src={/class-icons/common/power-stance.png} tip={Power Stance}> -> <tt src={/class-icons/resistance/battle-mage/dark-conditioning.png} tip={Dark Conditioning}> -> <tt src={/class-icons/resistance/battle-mage/battle-mastery.png} tip={Battle Mastery}> -> <tt src={/class-icons/resistance/battle-mage/blue-aura.png} tip={Blue Aura}> -> <tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock}> -> <tt src={/class-icons/resistance/battle-mage/quintuple-blow.png} tip={Quintuple Blow}> -> <tt src={/class-icons/resistance/battle-mage/battle-burst.png} tip={Battle Burst}>"],
+                ["4th Job", "<tt src={/class-icons/resistance/battle-mage/staff-expert.png} tip={Staff Expert}> -> <tt src={/class-icons/resistance/battle-mage/spell-boost.png} tip={Spell Boost}> -> <tt src={/class-icons/resistance/battle-mage/finishing-blow.png} tip={Finishing Blow}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/resistance/battle-mage/dark-aura.png} tip={Dark Aura}> -> <tt src={/class-icons/resistance/battle-mage/weakening-aura.png} tip={Weakening Aura}> -> <tt src={/class-icons/resistance/battle-mage/party-shield.png} tip={Party Shield}> -> <tt src={/class-icons/resistance/battle-mage/battle-rage.png} tip={Battle Rage}> -> <tt src={/class-icons/resistance/battle-mage/dark-genesis.png} tip={Dark Genesis}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_Battle Mage Hyper Skill Passives are flexible, refer to the Class Doc for more info_>[Training]<bp_<tt src={/class-icons/resistance/battle-mage/dark-genesis-cooldown-cutter.png} tip={Dark Genesis - Cooldown Cutter}> <tt src={/class-icons/resistance/battle-mage/dark-genesis-reinforce.png} tip={Dark Genesis - Reinforce}> <tt src={/class-icons/resistance/battle-mage/dark-genesis-additional-reinforce.png} tip={Dark Genesis - Additional Reinforce}> Dark Genesis - Cooldown Cutter, Reinforce and Additional Reinforce_<tt src={/class-icons/resistance/battle-mage/weakening-aura-enhance.png} tip={Weakening Aura - Enhance}> Weakening Aura - Enhance_<tt src={/class-icons/resistance/battle-mage/dark-aura-boss-rush.png} tip={Dark Aura - Boss Rush}> Dark Aura - Boss Rush_>[Bossing]<bp_<tt src={/class-icons/resistance/battle-mage/dark-genesis-reinforce.png} tip={Dark Genesis - Reinforce}> Dark Genesis - Reinforce_<tt src={/class-icons/resistance/battle-mage/dark-aura-boss-rush.png} tip={Dark Aura - Boss Rush}> Dark Aura - Boss Rush_<tt src={/class-icons/resistance/battle-mage/weakening-aura-enhance.png} tip={Weakening Aura - Enhance}> Weakening Aura - Enhance_<tt src={/class-icons/resistance/battle-mage/party-shield-persist.png} tip={Party Shield - Persist}> <tt src={/class-icons/resistance/battle-mage/party-shield-enhance.png} tip={Party Shield - Enhance}> Party Shield - Persist and Enhance_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/resistance/battle-mage/finishing-blow.png} tip={Finishing Blow and Aura Scythe - Ambassador Scythe (4th Job / 5th Job)}> <tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock (3rd Job)}> <tt src={/class-icons/resistance/battle-mage/condemnation.png} tip={Condemnation (1st Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/resistance/battle-mage/sweeping-staff.png} tip={Sweeping Staff (Hyper Skill)}> <tt src={/class-icons/resistance/battle-mage/dark-genesis.png} tip={Dark Genesis (4th Job)}> <tt src={/class-icons/resistance/battle-mage/battle-burst.png} tip={Battle Burst (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4],
+            "other": [5],
+            "nodes": [
+                "<tt src={/class-icons/resistance/battle-mage/condemnation.png} tip={Condemnation (1st Job)}>",
+                "<tt src={/class-icons/resistance/battle-mage/finishing-blow.png} tip={Finishing Blow (4th Job)}> <tt src={/class-icons/resistance/battle-mage/sweeping-staff.png} tip={Sweeping Staff (Hyper Skill)}>",
+                "<tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock (3rd Job)}>",
+                "<tt src={/class-icons/resistance/battle-mage/dark-genesis.png} tip={Dark Genesis (4th Job)}>",
+                "<tt src={/class-icons/resistance/battle-mage/dark-chain.png} tip={Dark Chain (2nd Job)}> <tt src={/class-icons/resistance/battle-mage/battle-burst.png} tip={Battle Burst (3rd Job)}>",
+                "<tt src={/class-icons/resistance/battle-mage/triple-blow.png} tip={Triple Blow (1st Job)}> <tt src={/class-icons/resistance/battle-mage/quad-blow.png} tip={Quad Blow (2nd Job)}> <tt src={/class-icons/resistance/battle-mage/quintuple-blow.png} tip={Quintuple Blow (3rd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Battle_Mage"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%B0%B0%ED%8B%80%EB%A9%94%EC%9D%B4%EC%A7%80(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/HsTgS8svrf"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1GSP16fN2SZC0f7StnHpyzxk_90NjTL337LkwbC_9yfM"}
+        ],
+        "infographics": [
+            {
+                "src": "battle-mage/battle-mage-6th-job.png",
+                "title": "6th Job",
+                "credit": "Battle Mage Discord",
+                "date": "2026-05-27"
+            }
+        ],
+        "discord": "https://discord.gg/HsTgS8svrf",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Spirit of Freedom",
+                    "maxLevel": 12,
+                    "shortDesc": "Invincible for 12 sec after being revived. Removed upon moving to another map.\\n[Passive Effect: Damage +5%]",
+                    "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Crystal Throw",
+                    "shortDesc": "MP Cost: 7, Damage: 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/crystal-throw.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGpzdWQ1bjVlczUwZno5d29tYWFwaTYxcnp3ejlwYThtaTY5aTgydCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rdg4ynD0XGmqOXxCQW/giphy.gif"],
+                    "type": "Attacks",
+                    "desc": "Throws a rock that deals fixed damage"
+                },
+                {
+                    "name": "Infiltrate",
+                    "shortDesc": "MP Cost: 15, Hide for 30 sec, Movement Speed: +15",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/infiltrate.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmp1cDh1bHBvYWJmMWNxMjFhbHRicXlndW9oNmkyb2p2enk2b2FlaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qO0FB3FiApe8JfQcV5/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Turn invisible preventing touch damage"
+                },
+                {
+                    "name": "Potion Mastery",
+                    "shortDesc": "Recovery Rate: +115%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/potion-mastery.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Secret Assembly",
+                    "shortDesc": "MP Cost: 100, you move to the Resistance Secret Plaza\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/secret-assembly.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnJvNXpyYWJpNXk4MmdwZmNhOWR3b215b2wyd240YXVleGZrcnJzaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xt1H0tqGHpJIjXRBjD/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd203MjQ0cGd3Njh4bDVzb3pkMGo4bDdtYThkOHhvc21oaXVyeTFidiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9yRpxVsRfkf8Ek6O1G/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/16/End_of_Special_Training} title={\"End of Special Training\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Triple Blow",
+                        "shortDesc": "MP Cost: 20, Damage: 170%, Max Monsters Hit: 5, Number of Attacks: 3\\n[Passive Effect - Condemnation Damage: +60% points]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/triple-blow.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3U4bXBpZmt3Z2k4bXVhNnU2Z29wa3BqNXFjdWVlamR6eG1vdWRrbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FtAhhTCozc7I9K3GTy/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward 3 times with your staff",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/resistance/battle-mage/condemnation.png} tip={Condemnation (1st Job)}> by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Combat Teleport",
+                        "shortDesc": "MP Cost: 20, Horizontal range: 210, Vertical range: 290\\nBlink Jump: Consume 25 MP to jump up a certain distance. Can be linked with Teleport 1 time(s) before landing, reduces the delay between Teleports when linking with Teleport consecutively after Blink Jump.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/resistance/battle-mage/combat-teleport.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDhsOXF3amwwb3lwNjZ2aWRteWs0dnY2aGkxa3MzYjc3YjVhMDJkcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/soufTnMN72YeO7bfD0/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Pressing the Up Arrow Key and Jump Key together in the air will perform an Up Jump<bp_Teleport can be used without a platform once before landing_>",
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "name": "Hasty Aura",
+                        "shortDesc": "MP Cost per sec: 8, Speed: +10, Attack Speed +1 level, Combat Teleport Range: +80, Vertical Range: +40\\nCooldown: 3 sec\\n[Passive Effect: Speed: 30, Max Speed: 20, Jump: 20, Attack Speed +2 levels, Avoidability: +15%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/hasty-aura.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ28ya2Yzc3VvcGJobDV2ZW9pMWtsM3FtYmpleGRtcmNtNGgya2FrZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pIAffRNH62bGwGVA3p/giphy.gif"],
+                        "type": "Party Aura",
+                        "desc": "",
+                        "details": [
+                            "After <tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock (3rd Job)}> is learned, <tt src={/class-icons/resistance/battle-mage/combat-teleport.png} tip={Combat Teleport (1st Job)}> teleport range is increased<bp_This function can be toggled ON/OFF by right-clicking the skill_>"
+                        ]
+                    },
+                    {
+                        "name": "Condemnation",
+                        "shortDesc": "After defeating 10 enemies, inflicts damage to 7 enemies on your next attack. Damage: 185%, Number of Attacks: 7\\nAttacking a boss 2 times will count as defeating 1 enemy.\\nOnce activated, it cannot activate again until 9 sec have passed.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/resistance/battle-mage/condemnation.png"],
+                        "animations": ["https://media1.giphy.com/media/FI0abs9kD2KHliZEOg/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, after defeating 10 enemies, a dark spirit will unleash an attack",
+                        "details": [
+                            "Attacking a boss twice will count as defeating 1 enemy",
+                            "Ignores Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Staff Artist",
+                        "shortDesc": "Magic ATT: +20, Critical Rate: +15%, DEF: +150",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/staff-artist.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Quad Blow",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 5 Damage: 220%, Number of Attacks: 4\\n[Passive Effect - Grim Contract Damage: +80% points, does not stack with the passive effect of Triple Blow",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/quad-blow.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNmeGxsenB0c3NtZjcyOWFwMTNmbWJhc21jOHNoYXphaTJqZWp4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AGOctbCkvawLkhbIVg/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward 4 times with your staff",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/resistance/battle-mage/grim-contract.png} tip={Grim Contract (2nd Job)}> by a flat amount<bp_Replaces the passive effect of <tt src={/class-icons/resistance/battle-mage/triple-blow.png} tip={Triple Blow (1st Job)}>_>"
+                        ]
+                    },
+                    {
+                        "name": "Dark Chain",
+                        "shortDesc": "MP Cost: 45, Damage: 600%, Max Monsters Hit: 8, Knock Down Duration: 8 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/dark-chain.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnpjNXV5djZ6MmJwN3VzZHNuMzR3d2cxYm1waDc2dG5wc2kzajJxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gk81bocmaQzr7rDn3A/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Create a chain that pulls in and stuns enemies",
+                        "details": [
+                            "Can be linked with any Blow-type skills"
+                        ]
+                    },
+                    {
+                        "name": "Draining Aura",
+                        "shortDesc": "MP Cost per sec: 28, Recovers HP for 1% of damage dealt. Cannot recover again for 5 sec after a recovery takes place. Damage dealt by Battle Mage also heals any party members within the range of Draining Aura.\\nCooldown: 3 sec\\n[Passive Effect: Max HP recovery every 4 sec: 2% + 1000, Max HP recovery every time you eliminate an enemy: 1%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/draining-aura.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3lsMDdtbmp1M2hnZ3dyMWhvbDJuNGtucTNvNnd0emphM2NpN3hmNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZvXscEImtNU4XnvLhE/giphy.gif"],
+                        "type": "Party Aura",
+                        "desc": "While active, successful attacks restore HP based on damage dealt",
+                        "details": [
+                            "[Passive]: Permanently restores HP every few seconds and restores %Max HP upon defeating an enemy",
+                            "Damage dealt by caster also restores HP to nearby party members",
+                            "Recovery amount cannot exceed 20% of your Max HP"
+                        ]
+                    },
+                    {
+                        "name": "Staff Boost",
+                        "shortDesc": "MP Cost: 40, Attack Speed increased for 200 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/battle-mage/staff-boost.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWducjA0dmx4bzNpamVnbmxpbDA4OThocjViMmluM2ZhOHVzczBzbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ra6udPnMDKtzYn4Sh/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "name": "Staff Mastery",
+                        "shortDesc": "Staff Mastery: +50%, Magic ATT: +30, Critical Hit Rate: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/battle-mage/staff-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/high-wisdom.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Ordinary Conversion",
+                        "shortDesc": "Max HP: +150%\\nMP Absorb Chance: 20%, Amount Absorbed: 5% of Max MP\\nAmount Absorbed: 3% of the boss's Max MP",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/resistance/battle-mage/ordinary-conversion.png"],
+                        "type": "Passive",
+                        "desc": "Increases %Max HP and grants a chance for attacks to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Effectiveness is reduced for bosses"
+                        ]
+                    },
+                    {
+                        "name": "Grim Contract",
+                        "shortDesc": "After defeating 8 enemies, inflicts damage to 8 enemies on your next attack. Damage: 245%, Number of Attacks: 8\\nOnce activated, it cannot activate again until 8 sec have passed.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/resistance/battle-mage/grim-contract.png", "/class-icons/resistance/battle-mage/condemnation.png"],
+                        "animations": ["https://media3.giphy.com/media/zWjsJfCQwHOq5Ksabq/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Reduces number of enemies required to activate to 8 and time between activations to 8 secs",
+                            "Increases %Damage, Number of Hits, and Max Enemies Hit"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Quintuple Blow",
+                        "shortDesc": "MP Cost: 42, Max Enemies Hit: 6, Damage: 235%, Number of Attacks: 5\\n[Passive Effect - Grim Contract II Damage: +100% points, does not stack with the passive effect of Triple Blow and Quad Blow]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/quintuple-blow.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazdwZHpsYTEyaXlhZ280dWR3M3E2dzFnc2c5bGd3OTNhYWM2NmttcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A0xH2l5FTrtebcMBtw/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward 5 times with your staff",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/resistance/battle-mage/grim-contract-ii.png} tip={Grim Contract II (3rd Job)}> by a flat amount<bp_Replaces the passive effect of <tt src={/class-icons/resistance/battle-mage/triple-blow.png} tip={Triple Blow (1st Job)}> and <tt src={/class-icons/resistance/battle-mage/quad-blow.png} tip={Quad Blow (2nd Job)}>_>"
+                        ]
+                    },
+                    {
+                        "name": "Battle Burst",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 8, Damage: 900%.\\n[Passive Effect: Dark Chain's Damage: +50%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/battle-burst.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGt4aHF4dTJzZDVoczJuN2FxN3VhaWx4N24yMnVpYWppbTdtMm1xNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iJshjWhiWIpP7Zr23W/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward and pull enemies you pass through",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/battle-mage/dark-chain.png} tip={Dark Chain (2nd Job)}>",
+                            "Can be linked with any Blow-type skills"
+                        ]
+                    },
+                    {
+                        "name": "Blue Aura",
+                        "shortDesc": "MP Cost: 12 per sec, Abnormal Status Resistance: +20, Damage Taken: -15%.\\nCooldown: 3 sec\\n[Passive Effects - Abnormal Status Resistance: +30, Elemental Resistance: +30%, DEF: +150%, Damage Taken: -25%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/blue-aura.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWlqdGk0Y3Y0cXVvNGo5ajZuYWNxOHlodDM0NHg4MWdxdWZvb3o1dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U6EOpBAEJIld6BM82J/giphy.gif"],
+                        "type": "Party Aura"
+                    },
+                    {
+                        "name": "Dark Shock",
+                        "shortDesc": "Increases the MP Cost of Combat Teleport by 15. Teleporting creates a streak of black lightning between your start and end positions. [Black Lightning] Max Enemies Hit: 8, Damage: 100%, Number of Attacks: 4, Damage Against Normal Enemies: +150% points. Afflicts enemies with Dark Brand for 30 sec. If you attack enemies with Dark Brand, the brand activates and deals an additional 400% damage 4 number of times. Brand activated attacks deal 20% bonus damage against bosses. Brand is consumed upon attacking 15 times.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/dark-shock.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGk3MGJudGprOXJzdnlpeWV5YmpwNGxjc3I2eDJtZzdyeW5hY3k2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hpstcANuqzQNt4NugD/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, using <tt src={/class-icons/resistance/battle-mage/combat-teleport.png} tip={Combat Teleport (1st Job)}> creates a shock attack that applies a [Dark Brand] debuff",
+                        "details": [
+                            "[Dark Brand]: Attacking this enemy deals an additional attack<bp_The debuff is consumed upon attacking the enemy 15 times_Attack deals increased %Damage to bosses_>",
+                            "Shock attack deals increased %Damage to regular monsters by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Teleport Boost",
+                        "shortDesc": "MP Cost: 20, Combat Teleport Horizontal Range: +65, Combat Teleport Vertical Range: +30",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/resistance/battle-mage/teleport-boost.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmQ5eWE4OWUxbGo4aHdrdTJzam5tMXllN3FscnB2cGl0b201dG80MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/478VKJJnSTacGesRlv/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, increases the teleport distance of <tt src={/class-icons/resistance/battle-mage/combat-teleport.png} tip={Combat Teleport (1st Job)}>"
+                    },
+                    {
+                        "name": "Battle Mastery",
+                        "shortDesc": "Final Damage: +30%, Critical Damage: +10%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/battle-mage/battle-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Power Stance",
+                        "shortDesc": "Knockback Resistance: +100%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/power-stance.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dark Conditioning",
+                        "shortDesc": "Avoidability: 25%, Speed: 30, Max Speed: 10",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/resistance/battle-mage/dark-conditioning.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Grim Contract II",
+                        "shortDesc": "After defeating 6 enemies, inflicts damage to up to 8 enemies on your next attack. Damage: 325%, Number of Attacks: 10\\nOnce activated, it cannot activate again until 6 sec have passed.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/resistance/battle-mage/grim-contract-ii.png", "/class-icons/resistance/battle-mage/condemnation.png"],
+                        "animations": ["https://media0.giphy.com/media/gvdSoUyBhAJFQ5qnNM/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Reduces number of enemies required to activate to 6 and time between activations to 6 secs",
+                            "Increases %Damage and number of hits"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Finishing Blow",
+                    "shortDesc": "MP Cost: 60, Damage: 330%, Number of Attacks: 6, Max Enemies Hit: 6, Stun Chance: 90%, Stun Duration: 4 sec, Crit Rate: +25%, Ignore DEF: 20%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/battle-mage/finishing-blow.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWpib2JoNGttYjc5MmJtNHhuNG9pbnJ5bGw0bmZ2YjU1cXBjOWtzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LEgDMwYof0cxBJMevE/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike forward with a chance to stun enemies",
+                    "details": [
+                        "Attack has increased %Crit Rate and %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Dark Genesis",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 520%, Number of Attacks: 8\\nStun Duration: 4 sec\\nCooldown: 30 sec\\n[Passive Effects: [Final Attack Skills] Your attack skills have a 60% chance to hit a single enemy with lightning, dealing 250% damage, and +60% damage on Dark Chain, Battle Burst, and Dark Shock]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/battle-mage/dark-genesis.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnYzeG52eGFmYWtjYmQzNTJyMWplNzh0ajBoODg1OW8ydGU2OGl1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U8of36Pf5sXkOrk4Wr/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a shockwave around you",
+                    "details": [
+                        "[Final Attack]: Your attacks have a chance to create a lightning strike that damages a single enemy",
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/battle-mage/dark-chain.png} tip={Dark Chain (2nd Job)}> <tt src={/class-icons/resistance/battle-mage/battle-burst.png} tip={Battle Burst (3rd Job)}> <tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock (3rd Job)}>",
+                        "Ignores Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Dark Aura",
+                    "shortDesc": "MP Cost per sec: 16, Damage: +10%\\nCooldown: 3 sec\\n[Passive Effect: Magic ATT +7%]",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/resistance/battle-mage/dark-aura.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2ZyYjlmOXliNGxxNHY1dmhxbXVnZzRwZ2MwMXNhaTMwdGZiaDB1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lBEaR6MoM24ulKU7Lw/giphy.gif"],
+                    "type": "Party Aura",
+                    "desc": "",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Weakening Aura",
+                    "shortDesc": "MP Cost per sec: 26, Enemy DEF: -20%. Requires 2 sec to apply but will be in effect 60 sec after aura deactivation.\\nCooldown: 3 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/resistance/battle-mage/weakening-aura.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWEyMXozYWZkcnc0dG1mNHR2cmNucms1eHloZnVtYndmOWRxOGplbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RC634qIwEusMEvMneZ/giphy.gif"],
+                    "type": "Party Aura",
+                    "desc": "",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Party Shield",
+                    "shortDesc": "MP Cost: 150, Duration 30 sec, -10% damage when hit with an attack that inflicts damage of a certain proportion of Max HP.\\nCooldown: 120 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/battle-mage/party-shield.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTVpd2w0N3BicXU3dnFuaGczMTg0MzExeHpmYm00dm4wYXZ3NHJkdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ygD8KHmCfjdmljBQPI/giphy.gif"],
+                    "type": "Buff Zone",
+                    "desc": "Place down a shield that reduces damage taken including %Max HP attacks"
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHc2bWlqNjV2eTd1dDJzOGxsNG8wOG11M2Q0YnhzaWNhZW1zZDZ5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c8nM84SpH1qcOJ5BfP/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30\\nCooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW5rdGdqcTYzbzMwZm91MWlkZnE0c2VmaXpkcTEycWlpZWZ5OHFtMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WQRBZkimfhXGR8HHTl/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Battle Rage",
+                    "shortDesc": "Damage: +25%, Critical Rate: +20%, Critical Damage: +10%, Max HP: +30%, Max MP: +30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/battle-mage/battle-rage.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Staff Expert",
+                    "shortDesc": "Staff Mastery: +70%. Magic ATT: +30, Critical Damage: +20%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/battle-mage/staff-expert.png", "/class-icons/resistance/battle-mage/staff-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Magic Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Spell Boost",
+                    "shortDesc": "Final Damage: +22%, Magic ATT: +10%, Damage: +6%, Ignore Defense: +30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/battle-mage/spell-boost.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Grim Contract III",
+                    "shortDesc": "After defeating 6 enemies, inflicts damage to 10 enemies on your next attack. Damage: 500%, Number of Attacks: 12\\nOnce activated, it cannot activate again until 5 sec have passed.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/grim-contract-iii.png", "/class-icons/resistance/battle-mage/condemnation.png"],
+                    "animations": ["https://media0.giphy.com/media/gvdSoUyBhAJFQ5qnNM/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Reduces time between activations to 5 secs",
+                        "Increases %Damage, number of hits, and max enemies hit"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Dark Genesis - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -40%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/dark-genesis-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Dark Genesis - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/dark-genesis-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Dark Genesis - Additional Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/dark-genesis-additional-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Damage to the Final Attack lightning strike",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Dark Aura - Boss Rush",
+                    "shortDesc": "When attacking Boss Monster - Damage: +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/dark-aura-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Weakening Aura - Enhance",
+                    "shortDesc": "Increases Final Damage enemies receive by 5%.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/weakening-aura-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Blue Aura - Dispel Magic",
+                    "shortDesc": "Clears Status on party members every 5 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/blue-aura-dispel-magic.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Party Shield - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -8%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/party-shield-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Party Shield - Persist",
+                    "shortDesc": "Duration +11 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/party-shield-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Party Shield - Enhance",
+                    "shortDesc": "Damage reduction rate on attacks by ratio of max HP +10%.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/party-shield-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Master of Death",
+                    "shortDesc": "MP Cost: 300, Duration: 20 sec, Number of Attacks Blow skill: +1\\nnumber of required souls reduced to 1, Condemnation Final Damage: +50%, Reduces Condemnation cooldown by 0.5 sec every time you successfully use a dark-attribute attack (besides Condemnation).\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/master-of-death.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDkyN3hjaDZxbjA3Y3c4aWR4MnFpbzNoanJzeXJjc3p5enAwdHRkeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EB0ZZabJwBcSheGu6x/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases the number of hits per attack for Blow-type skills and provides bonus effects to <tt src={/class-icons/resistance/battle-mage/condemnation.png} tip={Condemnation (1st Job)}>",
+                    "details": [
+                        "While active, <tt src={/class-icons/resistance/battle-mage/condemnation.png} tip={Condemnation (1st Job)}> gains the following effects:<bp_Reduced number of enemies required to activate_Attack has increased %Final Damage_Cooldown is slightly reduced upon successfully landing a Dark-attribute attack_>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Sweeping Staff",
+                    "shortDesc": "MP Cost: 80, Damage: 1080%, Number of Attacks: 7, Max Enemies Hit: 8\\nCooldown: 13 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/battle-mage/sweeping-staff.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHU1NHYxYmFzYm54MHlyeHZtYXV3Mmc1aXBycXZydW96dmxraWVxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dqciGpavfh2wnTZfRl/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Swing a giant staff and smashes it into the ground",
+                    "reqLev": 160
+                },
+                {
+                    "name": "For Liberty",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to Demon, Resistance, and Xenon party members.\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/for-liberty.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGNoa2p4ZWZlZXZ1M2F0bHM2ZnF2ZmNzOTJieW9hMndjcW82eHlkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7mTeq15pExshUVb9PK/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["resistanceInfantry", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Aura Scythe",
+                    "shortDesc": "MP Cost: 100 per sec, Duration: 25 sec, grants the effect of all your auras. Additional Magic ATT increase by 60 for the self.\\nThe Aura Scythe enhances your Blow skills. MP Cost: 75, Max Enemies Hit: 10, Damage: 300%, Number of Attacks: 12. Additional Critical Rate: +50%, Enemy DEF Ignored: +50%.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/resistance/battle-mage/aura-scythe.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanlyemhhemx5MWhma2JsbDF2aGN0Nmd2MnBvdWlkZ3k5aWVmaXVqeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/py1rEgvazlsFq3cpCL/giphy.gif"],
+                    "type": "Party Aura / Buff Attack",
+                    "desc": "When used, grants the effects from all auras and enhances Blow-type skills into a slashing attack",
+                    "details": [
+                        "While active, grants increased Magic Attack for yourself",
+                        "While active, aura type skills cannot be used except for <tt src={/class-icons/resistance/battle-mage/weakening-aura.png} tip={Weakening Aura (4th Job)}> and Aura Scythe can be used<bp_When the skill ends, the previously applied aura will be applied again_>"
+                    ]
+                },
+                {
+                    "name": "Altar of Annihilation",
+                    "shortDesc": "MP Cost: 500, Altar Duration: 40 sec\\nAltar - Releases 16 curses that periodically attack up to 1 enemies with 990% damage 6 times.\\nMax Release Count: 19 times\\nUp to 3 curses can be applied to an enemy for each round of curses.\\nCooldown: 0.3 sec.",
+                    "icons": ["/class-icons/resistance/battle-mage/altar-of-annihilation.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzduZ2t4N3c4N2czdXBscjZneHo2bWc5NjJtbmRrZm1zMHhnbWN1cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6l7l51wUidejphWHIE/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a stationary altar that periodically releases orbs in a large area that damages enemies they collide with",
+                    "details": [
+                        "Orbs disappear upon colliding with an enemy",
+                        "Each enemy can only be hit by up to 3 orbs per activation",
+                        "Unaffected Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Grim Harvest",
+                    "shortDesc": "MP Cost: 1000. Summons the Grim Harvest, which attacks for 30 sec every 4 sec. Max Enemies Hit: 12, Damage: 1870%, Number of Attacks: 12\\nUse the skill again to re-summon near you. Can be used once every 3 sec.\\nIf the Grim Harvest defeats an enemy, its duration increases by 0.2 sec per enemy. If it hits a boss, its duration increases by 2 sec. Duration increased to up to 3 sec for each attack.\\nAttack interval becomes 50% with the Master of Death applied, but attacks do not increase the skill's duration in that case.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/resistance/battle-mage/grim-harvest.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmJ3MmtyNHAzeTl0NW1ndW51ZTEya3pmZHJ1YmR5ZHNhd2RqanNhYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wZLlVHhRYRi7k3cHtN/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a stationary reaper that attacks nearby enemies",
+                    "details": [
+                        "Using the Skill again will re-summoned near you",
+                        "If Grim Harvest defeats an enemy, the duration is increased slightly<bp_If the enemy is a boss instead, the duration is increased whenever the summon hits it_>",
+                        "If <tt src={/class-icons/resistance/battle-mage/master-of-death.png} tip={Master of Death (Hyper Skill)}> is active, the time between attacks is reduced but attacks from the reaper will not increase the duration of the summon",
+                        "Ignores Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Abyssal Lightning",
+                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament.\\nDuration: 30 sec., Normal Monster Damage: +30%. Periodically creates 2 netherworld passages, the passages remain for 15 sec, and up to 6 can exist in the map. Dark Brand attacks must be activated 45 times to consume the brand.\\nNetherworld Lightning: Max Enemies Hit: 8, Damage: 1650%, Number of Attacks: 6, Additional Critical Rate: +100%, Ignores additional 20% Enemy DEF, Cooldown: 0.48 sec.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/resistance/battle-mage/abyssal-lightning.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGdxaDRoNW50ZmtpNGpsbDZra2JhMHBpZTV0MWpwOHJqYTBoZWFvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e0zvmlqTX6qgxrX3u5/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, periodically creates passageways can be teleported to",
+                    "details": [
+                        "To teleport to a passage, press the Skill Key and any Arrow Key together to move to the nearest passage<bp_Up to 6 passageways can exist at a time_Using a passageway will activate <tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock (3rd Job)}>_>",
+                        "While active, [Dark Brand] debuff will only be consumed after activating 30 times",
+                        "When <tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock (3rd Job)}> or the [Dark Brand] debuff activates, lightning will strike near you damaging nearby enemies<bp_The attack is a guaranteed Critical Hit and has increased %Ignore DEF_>",
+                        "You are invincible during the initial cast and ending of the skill",
+                        "Deals increased %Damage to regular monsters"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Triple Blow Boost",
+                    "shortDesc": "Triple Blow Final Damage: +420%",
+                    "icons": ["/class-icons/resistance/battle-mage/triple-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Condemnation Boost",
+                    "shortDesc": "Condemnation Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/battle-mage/condemnation.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Quad Blow Boost",
+                    "shortDesc": "Quad Blow Final Damage: +300%",
+                    "icons": ["/class-icons/resistance/battle-mage/quad-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dark Chain Boost",
+                    "shortDesc": "Dark Chain Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/battle-mage/dark-chain.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Quintuple Blow Boost",
+                    "shortDesc": "Quintuple Blow Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/battle-mage/quintuple-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Battle Burst Boost",
+                    "shortDesc": "Battle Burst Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/battle-mage/battle-burst.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dark Shock Boost",
+                    "shortDesc": "Dark Shock Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/battle-mage/dark-shock.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Finishing Blow Boost",
+                    "shortDesc": "Finishing Blow's and Aura Scythe's Ambassador Scythe Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/battle-mage/finishing-blow.png", "/class-icons/resistance/battle-mage/aura-scythe.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dark Genesis Boost",
+                    "shortDesc": "Dark Genesis Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/battle-mage/dark-genesis.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sweeping Staff Boost",
+                    "shortDesc": "Sweeping Staff Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/battle-mage/sweeping-staff.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-condemnation.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/battle-mage/condemnation.png} tip={Condemnation (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Condemnation",
+                    "shortDesc": "The dark spirit appears with the next attack after defeating 6 enemies, Max Enemies Hit: 10, Damage: 930%, Number of Attacks: 12. Attacking a boss 2 times will count as defeating 1 enemy.\\nCollect 1 soul upon defeating 4 enemies with Condemnation or attacking a boss\\nCollect 1 soul upon defeating 12 enemies with Ambassador Scythe or attacking a boss 3 times.\\nThe power of the dark spirit is enhanced when Condemnation activates while having 4 souls, Max Enemies Hit: 12, Damage: 1475%, Number of Attacks: 14\\nOnce the dark spirit's final attack activates, it cannot activate again until 4 sec have passed.",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-condemnation.png", "/class-icons/resistance/battle-mage/grim-contract-iii.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDhtcjR1bzlxYzV3bjRnYWpsaDcyeHp4cXFzbDY3ZDZma3IwbW44cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VJQ2wC5H81aB7sIdkz/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-finishing-blow-sweeping-staff.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnZ4MXBycGxnd201YnVoZTBob2FrbDN3dWhsaXkxZjU1NzR2MTZtZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rozUmyAkftthR1S17M/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/battle-mage/finishing-blow.png} tip={Finishing Blow and Aura Scythe - Ambassador Scythe (4th Job / 5th Job)}> <tt src={/class-icons/resistance/battle-mage/sweeping-staff.png} tip={Sweeping Staff (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Finishing Blow",
+                    "shortDesc": "MP Cost: 66, Max Enemies Hit: 6, Damage: 666%, Number of Attacks: 6, Stun Chance: 92%, Stun Duration: 5 sec, Critical Rate: +26%, Ignore Defense: +22%\\n[Passive Effect: Ambassador Scythe Damage: +50% points]",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-finishing-blow.png", "/class-icons/resistance/battle-mage/finishing-blow.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN291b3hkYmY3Nm12MjhxN2xoeHptNzZ0dDQ5aGZ3OTQ2dGFwYjB3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dd8Xm1VZ0uqJvTe158/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM29hcnJ0NG5lN3dzcGtjNmkzODg2ZGF2cXZscWFya2NqODJ3dnI3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p346gplBo13P1AEQRq/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Sweeping Staff",
+                    "shortDesc": "MP Cost: 88, Max Enemies Hit: 8, Damage: 690%, Number of Attacks: 5, Magic Explosion Damage: 555%, Number of Attacks: 5, Number of Magic Explosions: 4\\nCooldown: 13 sec",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-sweeping-staff.png", "/class-icons/resistance/battle-mage/sweeping-staff.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjN0bmwwOXBzaG1lNHNva2R3ZWM1Z3NpbWxlanplMGZqbzN4MHV5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LMZm40mKJjYa4GH8D5/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-dark-shock.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/battle-mage/dark-shock.png} tip={Dark Shock (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Dark Shock",
+                    "shortDesc": "Increases the MP Cost of Teleport by 17.\\nBetween your Teleport starting and ending positions, Max Enemies Hit: 8, Damage: 200%, Number of Attacks: 4, Normal Enemy Damage: +170% points\\nEnemies hit are marked with a Dark Brand for 30 sec.\\nMark is triggered when enemies with the Dark Brand are attacked.\\nDamage: 540%, Number of Attacks: 4, triggers additional Dark Pentacles every time the mark is triggered 15 times\\nDark Pentacle - Damage: 900%, Number of Attacks: 6\\nWhen Dark Brand and Dark Pentacle Boss Damage: +20%\\nBrand is consumed when attacked 30 times",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-dark-shock.png", "/class-icons/resistance/battle-mage/dark-shock.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN203cnVneHpoZ3E0NTNlYXdtNXEyNTRoeWV0bGVycWtzamY1aWR1MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lZ8ephmhkPERTmp9wh/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-dark-genesis.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/battle-mage/dark-genesis.png} tip={Dark Genesis (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Dark Genesis",
+                    "shortDesc": "MP Cost: 220, Max Enemies Hit: 15, Damage: 890%, Number of Attacks: 8\\nStun Duration: 4 sec.\\nEnhances to HEXA Dark Genesis: Death Whip every 30 sec.\\nHEXA Dark Genesis: Death Whip - Max Enemies Hit: 15, Damage: 250%, Number of Attacks: 10, Specter of Death Slash Count: 6, Stun Duration: 4 sec.\\nCooldown: 30 sec.\\n[Passive Effect: [Final Attack] When landing direct skill attacks, there's a 80% chance to deal 430% damage with Lightning Attack. HEXA Dark Shock's Dark Brand Damage: +30% points]",
+                    "icons": ["/class-icons/resistance/battle-mage/hexa-dark-genesis.png", "/class-icons/resistance/battle-mage/hexa-dark-genesis-2.png", "/class-icons/resistance/battle-mage/dark-genesis.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnp6bXpoazNmc3ljOWVyOTViOGZwNXgzY2pkdzRtanRkbHFzMTI5eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ax7Zl2rvzv9JbyAE4k/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDdxNjFlcHd6cmdiN2t0MGQ2ZTlmNDBvcGtjejEzdXh5MmxiYm13ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ekvLycPpD1pukjXz7M/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Crimson Pact",
+                    "shortDesc": "MP Cost: 1500, invincible during casting\\nThe dark spirit releases its true power, Max Enemies Hit: 15, Damage: 1772%, Number of Attacks: 11, Chase Cuts: 48\\nThe dark spirit reveals its true appearance after the pact is complete and devours all life, Damage: 2863%, Number of Attacks: 14, Chase Cuts: 22\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/resistance/battle-mage/crimson-pact.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGdvOTMwMDAybzVncXg0YjhkdHJqcXR1NnhsbXEzY3QxNmVzOTNrNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d1h0cejQZX6468umFJ/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Duskbound Aura",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe duskbound aura pulses 14 times, dealing 6300% damage to up to 15 enemies 14 times. Then the tenebrous energy exlodes 11 times dealing 7945% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/resistance/battle-mage/duskbound-aura.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDFncmxyZHd4c29laGZ5eWwzMmx1M3lkcGJ5cm5zZXN2cDYybjJvdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KmEVTmCCTZYbE3CsYX/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Aura Scythe Boost",
+                    "shortDesc": "Ambassador Scythe Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/battle-mage/aura-scythe.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Altar of Annihilation Boost",
+                    "shortDesc": "Altar of Annihilation Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/battle-mage/altar-of-annihilation.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Grim Harvest Boost",
+                    "shortDesc": "Grim Harvest Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/battle-mage/grim-harvest.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Abyssal Lightning Boost",
+                    "shortDesc": "Abyssal Lightning Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/battle-mage/abyssal-lightning.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Condemnation - 1st Job",
+                "icons": ["/class-icons/resistance/battle-mage/condemnation.png"],
+                "animations": ["https://media2.giphy.com/media/qdbsRTyuW3O9fhmAhG/giphy.gif"]
+            },
+            {
+                "name": "Dark Shock - 3rd Job",
+                "icons": ["/class-icons/resistance/battle-mage/dark-shock.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGk3MGJudGprOXJzdnlpeWV5YmpwNGxjc3I2eDJtZzdyeW5hY3k2cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hpstcANuqzQNt4NugD/giphy.gif"]
+            },
+            {
+                "name": "Finishing Blow - 4th Job",
+                "icons": ["/class-icons/resistance/battle-mage/finishing-blow.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWpib2JoNGttYjc5MmJtNHhuNG9pbnJ5bGw0bmZ2YjU1cXBjOWtzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LEgDMwYof0cxBJMevE/giphy.gif"]
+            },
+            {
+                "name": "Dark Genesis - 4th Job",
+                "icons": ["/class-icons/resistance/battle-mage/dark-genesis.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnYzeG52eGFmYWtjYmQzNTJyMWplNzh0ajBoODg1OW8ydGU2OGl1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U8of36Pf5sXkOrk4Wr/giphy.gif"]
+            },
+            {
+                "name": "Aura Scythe - 5th Job",
+                "icons": ["/class-icons/resistance/battle-mage/aura-scythe.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanlyemhhemx5MWhma2JsbDF2aGN0Nmd2MnBvdWlkZ3k5aWVmaXVqeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/py1rEgvazlsFq3cpCL/giphy.gif"]
+            },
+            {
+                "name": "Altar of Annihilation - 5th Job",
+                "icons": ["/class-icons/resistance/battle-mage/altar-of-annihilation.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzduZ2t4N3c4N2czdXBscjZneHo2bWc5NjJtbmRrZm1zMHhnbWN1cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6l7l51wUidejphWHIE/giphy.gif"]
+            },
+            {
+                "name": "Grim Harvester - 5th Job",
+                "icons": ["/class-icons/resistance/battle-mage/grim-harvest.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmJ3MmtyNHAzeTl0NW1ndW51ZTEya3pmZHJ1YmR5ZHNhd2RqanNhYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wZLlVHhRYRi7k3cHtN/giphy.gif"]
+            },
+            {
+                "name": "Crimson Pact - 6th Job",
+                "icons": ["/class-icons/resistance/battle-mage/crimson-pact.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGdvOTMwMDAybzVncXg0YjhkdHJqcXR1NnhsbXEzY3QxNmVzOTNrNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d1h0cejQZX6468umFJ/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Duskbound Aura - 6th Job",
+                "icons": ["/class-icons/resistance/battle-mage/duskbound-aura.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDFncmxyZHd4c29laGZ5eWwzMmx1M3lkcGJ5cm5zZXN2cDYybjJvdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KmEVTmCCTZYbE3CsYX/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Battle Mage is an INT mage class part of the Resistance. What's special about Battle Mages is that they have special aura buffs that affect party members as well. There are some useful buffs such as %Boss Damage and Attack Speed boosts. As well, Battle Mages has a dark spirit that follows them around and periodically attacks alongside you"
+}

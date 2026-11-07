@@ -1,0 +1,1034 @@
+{
+    "class": "Lethe",
+    "content": {
+        "classGroup": "Other (Demon)",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat All Stat & Max HP",
+        "legionValue": "10 +500/20 1000/30 1500/40 2000/50 2500",
+        "equipment": [
+            {"weapon": ["dominium"]},
+            {"secondary": ["quill"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/demon/lethe/celerity.png} tip={Celerity (1st Job)} val={+1}> <bg src={/class-icons/demon/lethe/arcane-dominion.png} tip={Arcane Dominion (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/demon/lethe/ratify.png} tip={Ratify (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+60 & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+60}> <bg src={/class-icons/demon/lethe/warlord-of-tynerum.png} tip={Warlord of Tynerum (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+4% +100",
+                "detail": "<bg src={/class-icons/demon/lethe/ever-burning-ember.png} tip={Ever-Burning Ember (Beginner Skill)} val={+4%}> <bg src={/class-icons/demon/lethe/fealty.png} tip={Fealty (2nd Job)} val={+20}> <bg src={/class-icons/demon/lethe/resolution.png} tip={Resolution (2nd Job)} val={+30}> <bg src={/class-icons/demon/lethe/ratify.png} tip={Ratify (4th Job)} val={+50}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+45%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/demon/lethe/spur.png} tip={Spur (2nd Job)} val={+10%}> <bg src={/class-icons/demon/lethe/resolution.png} tip={Resolution (2nd Job)} val={+10%}> <bg src={/class-icons/demon/lethe/lordly-wisdom.png} tip={Lordly Wisdom (3rd Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+8%",
+                "detail": "<bg src={/class-icons/demon/lethe/royal-prerogative.png} tip={Royal Prerogative (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "[Lv. 3 Link Skill]: +22%(82%)",
+                "detail": "<bg src={/class-icons/link-skills/covenant.png} tip={Covenant (Link Skill)} val={Lv. 2: +8%} val={Lv. 3: +12%}> <bg src={/class-icons/demon/lethe/poise.png} tip={Poise (2nd Job)} val={+10%}> <bg type={temp} src={/class-icons/demon/lethe/tyneran-grit.png} tip={Tyneran Grit (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/demon/lethe/chains-of-command.png} tip={Chains of Command (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/demonic-wroth.png} tip={Demonic Wroth (5th Job)} val={+40%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+160.64%(212.45%)",
+                "detail": "<bg src={/class-icons/demon/lethe/poise.png} tip={Poise (2nd Job)} val={+10%}> × <bg src={/class-icons/demon/lethe/lordly-wisdom.png} tip={Lordly Wisdom (3rd Job)} val={+10%}> × <bg src={/class-icons/demon/lethe/majeure.png} tip={Majeure (4th Job)} val={+15%}> × <bg src={/class-icons/demon/lethe/fidelity.png} tip={Fidelity (4th Job)} val={+20%}> × <bg src={/class-icons/demon/lethe/ratify.png} tip={Ratify (4th Job)} val={+10%}> × <bg src={/class-icons/demon/lethe/royal-prerogative.png} tip={Royal Prerogative (4th Job)} val={+10%}> × <bg src={/class-icons/demon/lethe/sovereign-supremacy.png} tip={Sovereign Supremacy (4th Job)} val={+29%}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}> × <bg type={opt} src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} val={+11%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+40.5%",
+                "detail": "<bg src={/class-icons/demon/lethe/royal-prerogative.png} tip={Royal Prerogative (4th Job)} val={+30%}> × <bg src={/class-icons/demon/lethe/sovereign-supremacy.png} tip={Sovereign Supremacy (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Buff Duration",
+                "stat": "+20-40%",
+                "detail": "<bg type={opt} src={/class-icons/5th-job/demonic-wroth.png} tip={Demonic Wroth (5th Job)} val={+20-40%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/demon/lethe/arcane-dominion.png} tip={Arcane Dominion (2nd Job)} dur={[200s]}>",
+            "toggles": "<tt src={/class-icons/demon/lethe/halt.png} tip={Halt/Forward (2nd Job)}> <tt src={/class-icons/demon/lethe/sally.png} tip={Sally (3rd Job)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>",
+            "summons": "<tt src={/class-icons/demon/lethe/beckon-vargr.png} tip={Beckon: Vargr (2nd Job)} dur={[20-180s]}> <tt src={/class-icons/demon/lethe/beckon-dread-knight.png} tip={Beckon: Dread Knight (3rd Job)} dur={[20-180s]}> <tt src={/class-icons/demon/lethe/dominus-azrath.png} tip={Dominus: Azrath (5th Job)} dur={[3s](120s cd)}> <tt src={/class-icons/demon/lethe/chains-of-command.png} tip={Chains of Command (5th Job)} dur={[30s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/demon/lethe/fortify.png} tip={Fortify (3rd Job)} dur={[10 Critical Abnormal Statuses](240s cd)}> <tt src={/class-icons/demon/lethe/dominus-fel-tempest.png} tip={Dominus: Fel Tempest (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/demon/lethe/tyneran-grit.png} tip={Tyneran Grit (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/demonic-wroth.png} tip={Demonic Wroth (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/demon/lethe/ever-burning-ember.png} tip={Ever-Burning Ember (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/demon/lethe/nullification.png} tip={Nullification (Hyper Skill)} dur={[10s](120s cd)}> <tt src={/class-icons/demon/lethe/dominus-eye-of-eternity.png} tip={Dominus: Eye of Eternity (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/demon/lethe/dominus-eye-of-eternity.png} tip={Dominus: Eye of Eternity (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s, triggers once](-75% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "offline": true,
+            "name": "Covenant",
+            "shortDesc": "Summoned Creature Damage: +12%",
+            "icons": ["/class-icons/link-skills/covenant.png"],
+            "maxLevel": 3,
+            "type": "Passive",
+            "desc": "While any summons are active, gain increased %Damage"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/demon/lethe/teleport.png} tip={Teleport}> -> <tt src={/class-icons/demon/lethe/celerity.png} tip={Celerity}> -> <tt src={/class-icons/demon/lethe/resilience.png} tip={Resilience}> -> <tt src={/class-icons/demon/lethe/beckon-fel.png} tip={Beckon: Fel}> -> <tt src={/class-icons/demon/lethe/surfeit.png} tip={Surfeit}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/demon/lethe/fealty.png} tip={Fealty}> -> <tt src={/class-icons/demon/lethe/arcane-dominion.png} tip={Arcane Dominion}> -> <tt src={/class-icons/demon/lethe/resolution.png} tip={Resolution}> -> <tt src={/class-icons/demon/lethe/poise.png} tip={Poise}> -> <tt src={/class-icons/demon/lethe/beckon-vargr.png} tip={Beckon: Vargr}> -> <tt src={/class-icons/demon/lethe/spur.png} tip={Spur}>"],
+                ["3rd Job", "<tt src={/class-icons/demon/lethe/lordly-wisdom.png} tip={Lordly Wisdom}> -> <tt src={/class-icons/demon/lethe/arcane-tribute.png} tip={Arcane Tribute}> -> <tt src={/class-icons/demon/lethe/beckon-dread-knight.png} tip={Beckon: Dread Knight}> -> <tt src={/class-icons/demon/lethe/assize.png} tip={Assize}> -> <tt src={/class-icons/demon/lethe/edict-fel-storm.png} tip={Edict: Fel Storm}> -> <tt src={/class-icons/demon/lethe/fortify.png} tip={Fortify}>"],
+                ["4th Job", "<tt src={/class-icons/demon/lethe/ratify.png} tip={Ratify}> -> <tt src={/class-icons/demon/lethe/sovereign-supremacy.png} tip={Sovereign Supremacy}> -> <tt src={/class-icons/demon/lethe/royal-prerogative.png} tip={Royal Prerogative}> -> <tt src={/class-icons/demon/lethe/fidelity.png} tip={Fidelity}> -> <tt src={/class-icons/demon/lethe/warlord-of-tynerum.png} tip={Warlord of Tynerum}> -> <tt src={/class-icons/demon/lethe/beckon-dread-knight-ii.png} tip={Beckon: Dread Knight II}> -> <tt src={/class-icons/demon/lethe/majeure.png} tip={Majeure}> -> <tt src={/class-icons/demon/lethe/edict-dread-advance.png} tip={Edict: Dread Advance}> -> <tt src={/class-icons/demon/lethe/edict-rampage.png} tip={Edict: Rampage}> -> <tt src={/class-icons/demon/lethe/demons-will.png} tip={Demon's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/demon/lethe/beckon-vargr-reinforce.png} tip={Beckon: Vargr - Reinforce}> Beckon: Vargr - Reinforce_<tt src={/class-icons/demon/lethe/beckon-dread-knight-reinforce.png} tip={Beckon: Dread Knight - Reinforce}> Beckon: Dread Knight - Reinforce_<tt src={/class-icons/demon/lethe/edict-reinforce.png} tip={Edict - Reinforce}> <tt src={/class-icons/demon/lethe/edict-guardbreak.png} tip={Edict - Guardbreak}> <tt src={/class-icons/demon/lethe/edict-boss-rush.png} tip={Edict - Boss Rush}> Edict - Reinforce, Guardbreak, and Boss Rush_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["", ""]
+                ],
+                "notes": [
+                    "N/A"
+                ]
+            },
+            "primary": [0,1,2,3,4,5],
+            "nodes": [
+                "<tt src={/class-icons/demon/lethe/beckon-fel.png} tip={Beckon: Fel (1st Job)}> <tt src={/class-icons/demon/lethe/assize.png} tip={Assize (3rd Job)}>",
+                "<tt src={/class-icons/demon/lethe/beckon-vargr.png} tip={Beckon: Vargr (2nd Job)}>",
+                "<tt src={/class-icons/demon/lethe/beckon-dread-knight.png} tip={Beckon: Dread Knight (3rd Job)}>",
+                "<tt src={/class-icons/demon/lethe/edict-fel-storm.png} tip={Edict: Fel Storm (3rd Job)}> <tt src={/class-icons/demon/lethe/nullification.png} tip={Nullification (Hyper Skill)}>",
+                "<tt src={/class-icons/demon/lethe/edict-rampage.png} tip={Edict: Rampage (4th Job)}>",
+                "<tt src={/class-icons/demon/lethe/edict-dread-advance.png} tip={Edict: Dread Advance (4th Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Lethe"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%A0%88%ED%85%8C(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/ZRwzfub4vV"}
+        ],
+        "discord": "https://discord.gg/ZRwzfub4vV",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "NamuWiki"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Covenant",
+                    "shortDesc": "Summoned Creature Damage: +12%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/covenant.png"],
+                    "type": "Passive",
+                    "desc": "While any summons are active, gain increased %Damage",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Seneschal's Summons",
+                    "shortDesc": "MP Cost: 5, move to Lethe's Mansion\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/seneschals-summons.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWN0OTRjanM1eDJ0OWd4azNoZm56ZHB1YjFma3hiMmtheDcxN29saiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BjyEZnYXcQ5BvL2wHX/giphy.gif"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "This skill is obtained from the Lethe storyline"
+                    ]
+                },
+                {
+                    "name": "Ever-Burning Ember",
+                    "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power, Magic ATT: +#4%\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/ever-burning-ember.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnY5MGo5ZGx4Y3NidnE4MmkxZzcwNG9vcDVtYWYwdGZtZTNtZXY2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MCgJ8TAd21VPLAWsRz/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "This skill is obtained from the Lethe storyline",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Beckon: Fel",
+                        "shortDesc": "MP Cost: 15, Duration: 10 sec, Number of Imps Summoned: 3\\nImps: Max Enemies Hit: 2, Damage: 130%, Number of Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/beckon-fel.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG5jdnhpeHZiNzI2Yjl0OGhrbDZoc21xNmRwamF1MWs1ZzNpbnJ4OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YHrhVcpXS3yLoAq51L/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon small imps that attack nearby enemies",
+                        "details": [
+                            "Imps priortize bosses with the higest Max HP first",
+                            "Unaffected by %Summon Duration",
+                            "[<tt src={/class-icons/demon/lethe/assize.png} tip={Assize (3rd Job)}>]: In 3rd Job, this skill becomes a passive skill and imps are automatically summoned"
+                        ]
+                    },
+                    {
+                        "name": "Surfeit",
+                        "shortDesc": "MP Cost: 15, Summon Duration of Nearby Vassals: +5 sec\nMax Summon Duration: 60 sec. Even if only one vassal is close enough to receive the magic, the duration increase applies to all vassals\\n[Passive Effect: Max MP: +20%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/demon/lethe/surfeit.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5pamNuNHhlbzFpMHhrd2Y4cHRmd2RwNW1wbGw3OTg1azRjaThtZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MdXZxf4HM2IZlm4UcA/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Casts a spell that increases the duration of nearby [Beckon] summons",
+                        "details": [
+                            "[Passive]: Permanently increases %Max MP"
+                        ]
+                    },
+                    {
+                        "name": "Teleport",
+                        "shortDesc": "MP Cost: 20, Teleport horizontally a distance of 255 or vertically a distance of 320",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/demon/lethe/teleport.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm8yOTFqdDJyNmk0azlxM2V2d2ZnMG83MGV6Z3pxMHg2Yjh6ZjBtZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vlNbnvcX0tvPSQDZNq/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "name": "Ascend",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/demon/lethe/ascend.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2M1dThuYW9rdGFpODJ2bG5lbzdnazhzbGp2eDNxNjN3dXFlMmVncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8BHML4vgfQ3bgEYPy3/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Vertical jump skill",
+                        "details": [
+                            "Can be assigned to a Key Slot or activate by pressing the Up Key and Jump Key together"
+                        ]
+                    },
+                    {
+                        "name": "Celerity",
+                        "shortDesc": "Speed: +22, Max Speed: +20, Jump: +20, Attack Speed: +1",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/demon/lethe/celerity.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Resilience",
+                        "shortDesc": "Damage Taken: -85%, Defense: +100",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/resilience.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Beckon: Vargr",
+                        "shortDesc": "MP Cost: 30, Vargr Summon Duration: 20 sec\\nVargr: Max Enemies Hit: 3, Damage: 204%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/beckon-vargr.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHFxM2d3ajgxb3VqdDZvM2Jna2NzMGR2aGtka2lmYzZycGdhMWpvNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5ulnY6eJ35n258lKNE/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon wolves that attack nearby enemies",
+                        "details": [
+                            "Wolves priortize bosses with the higest Max HP first",
+                            "Unaffected by Damage Reflect and %Summon Duration"
+                        ]
+                    },
+                    {
+                        "name": "Spur",
+                        "shortDesc": "MP Cost: 30, Increases the Attack Speed of nearby vassals for 5 sec\\nEven if only one vassal is close enough to receive the magic, the Attack Speed increase applies to all vassals\\n[Passive Effect: Critical Rate: +10%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/demon/lethe/spur.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm5mMXlrbW9uZGcybmpnMnR0M3MzYzBqOXd6bXRmNGs2dHBqd2V2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lcrgcoBvSMQIGuYGFQ/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Casts a spell that increases the Attack Speed of nearby [Beckon] summons",
+                        "details": [
+                            "All [Beckon] summons receive the effect upon a single summon receiving the effect",
+                            "[Passive]: Permanently increases %Crit Rate"
+                        ]
+                    },
+                    {
+                        "name": "Halt / Forward",
+                        "shortDesc": "-------Halt-------\\nMP Cost: 70, Your vassals cease combat\\nCooldown: 0.5 sec\\n-----Forward-----\\nMP Cost: 70, Your vassals enter combat\\nCooldown: 0.5 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/demon/lethe/halt.png", "/class-icons/demon/lethe/forward.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXdsdWhuMjc5Y3dqeTU0b2NvZDdrYW01OXg3aGkyM2R5N3o0d2c4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KV8ijFNEnh6tOiXJR3/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "desc": "Command all [Beckon] summons to stop or continue attacking",
+                        "details": [
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Arcane Dominion",
+                        "shortDesc": "MP Cost: 10, Dominium Attack Speed: +2, Duration: 200 sec",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/demon/lethe/arcane-dominion.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHp2bmtxajU4enNmM3JieGQxbXE1aTZhMGJvZ2VueGdqdndzdWRkeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BvOSMb3AvbZPNNMbAq/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Fealty",
+                        "shortDesc": "Dominium Mastery: +50%, Magic ATT: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/demon/lethe/fealty.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Intelligence: +60",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Resolution",
+                        "shortDesc": "Magic ATT: +30, Critical Rate: +10%, Knockback Resistance: +40%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/resolution.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Poise",
+                        "shortDesc": "Damage: +10%, Final Damage: +10%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/poise.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Beckon: Dread Knight",
+                        "shortDesc": "MP Cost: 50, Warden Summon Duration: 20 sec\\nDread Knights: Max Enemies Hit: 3, Damage: 105%, Number of Attacks: 4, Total Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/beckon-dread-knight.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVsb2wxMXUwejAwZzcxeW5td2Fsa2hqamZhMHI5cWJvMjI0cnVucyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A7JTTWWsmz41MlMCLH/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a knight that attacks nearby enemies",
+                        "details": [
+                            "Knights priortize bosses with the higest Max HP first",
+                            "Unaffected by Damage Reflect and %Summon Duration"
+                        ]
+                    },
+                    {
+                        "name": "Assize",
+                        "shortDesc": "Beckon: Fel becomes unavailable\\nEach time a vassal attacks an enemy, they mark the enemy with their magic. The magical mark does not stack and changes when a different vassal attacks.\\nMagical marks from a vassal's Edict and Dominus skills stack. Edict and Dominus marks can only be consumed by another vassal's Edict or Dominus skills.\\nEach time an attack lands, there is a 10% chance for 1 imp to appear.\\nWhen a magical mark changes or marks are stacked, Assize has a 50% chance to activate and beckon 1 imp to charge and attack the enemy.\\nBeckoned Imp: Duration: 10 sec, Max Enemies Hit: 2, Damage: 190%, Number of Attacks: 2, disappears after 3 hits, Max Number of Imps: 10\\nCharging Imp: Damage: 160%, Number of Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/assize.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbThqcmRuZWxud3E4NDBzcHA2bXZnOGY4MndhNW1neXd3aXR2YjFrZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CZmHlnDQy5QWam5D5E/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnE2b2FzajdyOTUzbWxocjM1MWthc2tzNmZ2eHFxOXJuZW1tczM4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Fv2FySLAe6YywjzHnK/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Enemies are marked when attacked by a [Beckon] summon or their [Edict] and [Dominus] skills",
+                        "details": [
+                            "Each [Beckon] summon applies a separate magic mark<bp_Marks applied from [Edict] and [Dominus] skills can only be consumed by another [Beckon] summon's [Edict] or [Dominus] skill_The marks stack and changes based on the [Beckon] summon who applied them_>",
+                            "Upon successful attacks, there is a chance to summon an <tt src={/class-icons/demon/lethe/beckon-fel.png} tip={Beckon: Fel (1st Job)}> imp",
+                            "When the mark changes or stacks, there is a chance that a summoned <tt src={/class-icons/demon/lethe/beckon-fel.png} tip={Beckon: Fel (1st Job)}> imp will charge towards the enemy and a mark is consumed",
+                            "[<tt src={/class-icons/demon/lethe/beckon-fel.png} tip={Beckon: Fel (1st Job)}>]: This skill becomes a passive skill and imps are automatically summoned"
+                        ]
+                    },
+                    {
+                        "name": "Edict: Fel Storm",
+                        "shortDesc": "Automatically triggers on enemies within range if there are 30 imps that have been beckoned by Assize.\\nMP Cost: 100, Creates 4 Imp Waves, Max Enemies Hit: 6, Damage: 383%, Number of Attacks: 5\\nAssize Imp Normal Enemy Damage: +60% (additive)",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/edict-fel-storm.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDMxbG84enpmNTl4enRrYWwyOGN3MDM2dmhrY3AzNHczcDcxdDNmcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4B7Sh1VBJbAsfXCJR0/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "When <tt src={/class-icons/demon/lethe/assize.png} tip={Assize (3rd Job)}> summons a set amount of <tt src={/class-icons/demon/lethe/beckon-fel.png} tip={Beckon: Fel (1st Job)}> imps, an additional attack is triggered",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage to regular monsters of <tt src={/class-icons/demon/lethe/assize.png} tip={Assize (3rd Job)}> imps by a flat amount",
+                            "The additional attack prioritizes bosses with the higest Max HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Proscribe",
+                        "shortDesc": "MP Cost: 70, Condemns an enemy within a set range as a priority target\\nUpon condemning an enemy, your vassals teleport to the enemy's location and attack\\nYour vassals' search range increases when you proscribe an enemy. If they find no target within range, they will search for enemies around Lethe. The vassals' autonomous combat range from Lethe also increases.\\nIf the Proscribed enemy leaves your vassals' search range, they will attack a different target. If the Proscribed enemy comes back into range, your vassals will target the enemy once more.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/demon/lethe/proscribe.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTM5NzRldjNhNWUwcXFqeXY2eWo5YnUyMXNsZmlmb3ZsMjM0eHJ0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3WUDXUW9haTeqwa9Aj/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Applies a debuff to an enemy that causes [Beckon] summons to teleport and target that enemy",
+                        "details": [
+                            "Debuff prioritizes bosses and enemies closest to the character",
+                            "While debuff is applied, [Beckon] summon attack search range is increased",
+                            "If the debuffed enemy leaves the [Beckon] summon's search range, summons will attack a different target"
+                        ]
+                    },
+                    {
+                        "name": "Sally",
+                        "shortDesc": "MP Cost: 70, Vassals advance in every direction to attack enemies\\nWhen you activate Sally is activated, your vassals stop targeting individual enemies and attack any enemy they can reach in range\\nAlso, enemies targeted with Proscribe will be attacked last\\nCooldown: 0.5 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/demon/lethe/sally.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzliejljdGRudmR6NWNidGZhY2hjeWplOWVoMWswN3ZiMHdkMXY4biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3WUDXUW9haTeqwa9Aj/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, [Beckon] summons will scatter and attack in a large area",
+                        "details": [
+                            "While toggled, [Beckon] summons will stop targeting individual enemies<bp_Marked <tt src={/class-icons/demon/lethe/proscribe.png} tip={Proscribe (3rd Job)}> enemies will be attacked last_>",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Sovereign Step",
+                        "shortDesc": "MP Cost: 20, Teleport in the direction of the directional input made",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/demon/lethe/sovereign-step.png", "/class-icons/demon/lethe/teleport.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3QwcnBqZno4b3dvdnZiNTB1eDZjZ252a2F4YnI0bHRyenRxNzhhdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5z0wtdcE1s2EzL6dh6/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "details": [
+                            "Allows teleporting diagonally by pressing two Arrow Keys",
+                            "Can also be used even when there are no platforms"
+                        ]
+                    },
+                    {
+                        "name": "Levitate",
+                        "shortDesc": "MP Cost: 20, Reduce falling speed to a near-hover for a short time\\nCan be used in the air up to 3 times.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/demon/lethe/levitate.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnBzMXd0MTNobHg5ejltYnJ4YnMyYjg2Z3l2Mjd6ajh5cXlpNTRxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NrTNw5GuQ99BkdjADd/giphy.gif"],
+                        "type": "Active",
+                        "desc": "When used, leap up and briefly hover",
+                        "details": [
+                            "Can only be used in the air up to 3 times"
+                        ]
+                    },
+                    {
+                        "name": "Fortify",
+                        "shortDesc": "MP Cost: 50, Activates Fortify\\nConsumes 1% of Max MP, Debilitating Status Protection Chance: 100%, Max Statuses Blocked: 10\\nCooldown: 240 sec\\n[Passive Effect: Status Resistance: +20, Elemental Resistance: +20%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/fortify.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3J1OTF1NDJrMzFqcTdkbGYxZm9qOWIwMmJ5MGQwMmZsa2N4NHF3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eAy6UTOXIIeL92gWNR/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a barrier that blocks up to 10 Critical Abnormal Statuses",
+                        "details": [
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                        ]
+                    },
+                    {
+                        "name": "Lordly Wisdom",
+                        "shortDesc": "Final Damage: +10%, Critical Rate: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/lordly-wisdom.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Arcane Tribute",
+                        "shortDesc": "10% chance to recover MP upon hit, Recovers 2% of Max MP. Recovers 1% from bosses\\nMax MP: +10%, Knockback Resistance: +60%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/demon/lethe/arcane-tribute.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks have a chance to restore %Max MP",
+                        "details": [
+                            "Recovery is reduced against bosses",
+                            "Also increases %Max MP and %Knockback Resistance"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Beckon: Dread Knight II",
+                    "shortDesc": "When using Beckon: Dread Knight, Lancer and Slayer Summon Duration: 20 sec\\nDread Knights: Max Enemies Hit: 3, Damage: 105%, Number of Attacks: 4, Total Attacks: 2\\nWarden, Lancer, and Slayer Normal Enemy Damage: +95% (additive)",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/demon/lethe/beckon-dread-knight-ii.png", "/class-icons/demon/lethe/beckon-dread-knight.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHJlNm51aTVkOWwwZjQwc2oxZjJzMmdsOWx1dnF0Y3p6ZTVsMmdpNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NE3EerrsrLuuU0Osa4/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Upon summoning, three knights will appear and attack nearby enemies",
+                        "Now increases %Damage to regular monsters by a flat amount",
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Majeure",
+                    "shortDesc": "MP Cost: 70\\nSummon Duration of Nearby Vassals: +8 sec, Attack Speed Increase Duration: 8 sec\\nMax Summon Duration: 180, Even if only one vassal is close enough to receive the magic, the duration increase applies to all vassals\\n[Passive Effect: Final Damage: +15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/demon/lethe/majeure.png", "/class-icons/demon/lethe/spur.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjI2NDIxZm1iNHhyb21hcWZmMDFxbTNoandnenk3ODE4bGJmOWhtdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RsCLbzmPW3eECJLxbe/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "When casting, now applies the effect of <tt src={/class-icons/demon/lethe/surfeit.png} tip={Surfeit (1st Job)}> and <tt src={/class-icons/demon/lethe/spur.png} tip={Spur (2nd Job)}> together",
+                        "All [Beckon] summons receive the effect upon a single summon receiving the effect",
+                        "Also permanently increases %Final Damage",
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Edict: Dread Advance",
+                    "shortDesc": "MP Cost: 100, Each dread knight attacks upon receiving the command\\nSlashes 3 times, Max Enemies Hit: 10, Damage: 405%, Number of Attacks: 5\\nCooldown: 20 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/demon/lethe/edict-dread-advance.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmdtbTNkaDM0N3htaGJkYjF6YXl6bWdqbzI0cGoxbXdpMzZveDVjcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y8DDpItQOPVTFFYZqY/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Command all <tt src={/class-icons/demon/lethe/beckon-dread-knight.png} tip={Beckon: Dread Knight (3rd Job)}> to slash forward"
+                },
+                {
+                    "name": "Edict: Rampage",
+                    "shortDesc": "MP Cost: 100, Each vargr attacks upon receiving the command\\nInitiates 3 onslaughts, Max Enemies Hit: 10, Damage: 505%, Number of Attacks: 3\\nCooldown: 20 sec\\n[Passive Effect: Vargr's Normal Enemy Damage: +210% (additive)]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/demon/lethe/edict-rampage.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG9zOXljYnI1Z3hhNGcyNmhtbHk1M2N5bmJmNjN2MGo5c2txeTN3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtKVYA6BSyroaCio8J/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Command all <tt src={/class-icons/demon/lethe/beckon-vargr.png} tip={Beckon: Vargr (2nd Job)}> to bite forward",
+                    "details": [
+                        "[Passive]: Permanently increases the %Damage to regular monsters of <tt src={/class-icons/demon/lethe/beckon-vargr.png} tip={Beckon: Vargr (2nd Job)}> by a flat amount"
+                    ]
+                },
+                {
+                    "name": "Fidelity",
+                    "shortDesc": "Edict Skill Cooldown Reset Chance (Excluding Fel Storm): +15%\\nThe cooldown reset chance effect from Fidelity is applied in addition to other stats\\nFinal Damage: +20%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/demon/lethe/fidelity.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Warlord of Tynerum",
+                    "shortDesc": "MP Cost: 70, Goddess of Tynerum appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/demon/lethe/warlord-of-tynerum.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmwzZnp3MGhneWJ2eWZjam84czlua3FkeWt5cWdhdW1idTNpYTBkZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hx0SCoqemSEtgviYUC/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Demon's Will",
+                    "shortDesc": "HP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/demon/lethe/demons-will.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGxrMHJ2c3N3amhvYXVuYmpmYzl4a2Q3bjhieDJzYXZkeDdkYXp0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9epvqsHbFivYvbkKrI/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Can be used while casting other skills",
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Ratify",
+                    "shortDesc": "Dominium Mastery: 70%\\nMagic ATT: +50, Final Damage: +10%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/demon/lethe/ratify.png", "/class-icons/demon/lethe/fealty.png"],
+                    "type": "Upgraded Passive",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Additionally, grants flat Magic Attack and increases %Final Damage"
+                    ]
+                },
+                {
+                    "name": "Royal Prerogative",
+                    "shortDesc": "Final Damage: +10%, Critical Damage: +15%, Ignore Defense: +30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/demon/lethe/royal-prerogative.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Sovereign Supremacy",
+                    "shortDesc": "Final Damage: +29%, Ignore Defense: +15%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/demon/lethe/sovereign-supremacy.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Beckon: Vargr - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/beckon-vargr-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Beckon: Vargr - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/beckon-vargr-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Beckon: Vargr - Spread",
+                    "shortDesc": "Max Enemies Hit: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/beckon-vargr-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Beckon: Dread Knight - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/beckon-dread-knight-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Beckon: Dread Knight - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/beckon-dread-knight-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Beckon: Dread Knight - Spread",
+                    "shortDesc": "Max Enemies Hit: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/beckon-dread-knight-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Edict - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/edict-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Damage of all [Edict] skills",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Edict - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/edict-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Ignore Defense of all [Edict] skills",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Edict - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/edict-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Boss Damage of all [Edict] skills",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Nullification",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 780%, Number of Attacks: 12\\nStun Duration for Hit Enemies: 10 sec, Stun Duration Based on Damage Dealt by Nullification: Up to +100%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/nullification.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG81bWNramp1aTh6cDNkcXhob29neGNodDk5bzN1czFnY3Q2bGJhdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9H76B1HdFZwEwjC6wf/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Release a powerful attack that binds enemies",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Dominus: Fel Tempest",
+                    "shortDesc": "MP Cost: 200, Duration: 20 sec\\nImp Summon Chance from Assize: +15%, in addition to the Assize summon chance\\nBeckons an additional 2 imps each time a charging imp appears\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/dominus-fel-tempest.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDdnZmttdG9lYzk2aHRsbGE5bnkzdjFvcXlzbzV3c2trbThlazBseiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j3qbMIYNFLZG1XTxEO/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, increases the chance of summoning imps from <tt src={/class-icons/demon/lethe/assize.png} tip={Assize (3rd Job)}> and summons additional imps",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Tyneran Grit",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/demon/lethe/tyneran-grit.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2lzaXE4dG9tMXhhcm5lbnJiMjVoeG5yYWR0NzRtdG96Z3g5Y3V6aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GbHYgMTxm6Mp8Ouyil/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["demonicWroth", "otherworldGoddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Dominus: Dread Onslaught",
+                    "shortDesc": "MP Cost: 500\\nEach dread knight returns to Lethe's location and makes 17 coordinated attacks, Max Enemies Hit: 12, Damage: 900%, Number of Attacks: 7\\nAdditional Ignore Defense: 30%\\nEdict: Dread Advance is unavailable for 1.8 sec after using this skill. Majeure is automatically applied while the Dominus command is active\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/demon/lethe/dominus-dread-onslaught.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXlyMGZvams3NjEwN2xqb3g4NmQ0NGpleHY2bjM1enV3aWRnMGRsOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hb5XWC7vXhUZSFpWXN/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Command all <tt src={/class-icons/demon/lethe/beckon-dread-knight.png} tip={Beckon: Dread Knight (3rd Job)}> to continuously slash forward violently",
+                    "details": [
+                        "Attack has increased %Ignore DEF",
+                        "While casting, <tt src={/class-icons/demon/lethe/edict-dread-advance.png} tip={Edict: Dread Advance (4th Job)}> will not be usable",
+                        "Upon use, <tt src={/class-icons/demon/lethe/majeure.png} tip={Majeure (4th Job)}> is automatically applied"
+                    ]
+                },
+                {
+                    "name": "Dominus: Pack United",
+                    "shortDesc": "MP Cost: 500\\nEach vargr returns to Lethe's location and unleashes 10 magical explosions, Max Enemies Hit: 12, Damage: 1500%, Number of Attacks: 6\\nAdditional Ignore Defense: 30%\\nEdict: Rampage is unavailable for 1.8 sec after using this skill. Majeure is automatically applied while the Dominus command is active\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/demon/lethe/dominus-pack-united.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXVidWswY3NpMnhyN2UyOHZqMTd3aTZqM2RyN2JsOWtyZm81ZnN6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wXkJby5Wvj8SAdKiwf/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Command all <tt src={/class-icons/demon/lethe/beckon-vargr.png} tip={Beckon: Vargr (2nd Job)}> to release an explosion forward",
+                    "details": [
+                        "Attack has increased %Ignore DEF",
+                        "While casting, <tt src={/class-icons/demon/lethe/edict-rampage.png} tip={Edict: Rampage (4th Job)}> will not be usable",
+                        "Upon use, <tt src={/class-icons/demon/lethe/majeure.png} tip={Majeure (4th Job)}> is automatically applied"
+                    ]
+                },
+                {
+                    "name": "Dominus: Azrath",
+                    "shortDesc": "MP Cost: 500\\nCreates 12 magical horns. Max Enemies Hit: 12, Damage: 1000%, Number of Hits: 6. Afterwards, slams the ground, creating 6 magical eruptions. Damage: 1500%, Number of Attacks: 10\\nAdditional Ignore Defense: 30%\\nMajeure is automatically applied while the Dominus command is active\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/demon/lethe/dominus-azrath.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWY2OXRia2p5MWptNmNybHBxemFjbHIzNXE0MGdlam9rczdtdzA0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DXzm0FyNVhoYzJmTzU/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a beast that continuously slams forward",
+                    "details": [
+                        "Summon has increased %Ignore DEF",
+                        "Upon use, <tt src={/class-icons/demon/lethe/majeure.png} tip={Majeure (4th Job)}> is automatically applied"
+                    ]
+                },
+                {
+                    "name": "Chains of Command",
+                    "shortDesc": "MP Cost: 1000, Oath Manifestation Duration: 30 sec, Damage: +10%\\nWhen using a level 5 Dominus skill or lower, the oath will be completed one step at a time until 3 steps are complete, increasing the Final Damage of all Dominus skills by 15%\\nWhen the final oath is complete the cooldowns of Edict skills are reset instantly. For 30 sec after the reset, they have their cooldowns reduced by 40% sec. Cooldown reset chance is increased by 12%, and the increased chance is added to Fidelity.\\nThe completed oath attacks up to 12 enemies.\\nCompleted Oath: Triggers 3 magic waves. Damage: 1575%, Number of Attacks: 11\\nFinal Oath Completion: Triggers 7 magic waves. Damage: 1100%, Number of Attacks: 12\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/demon/lethe/chains-of-command.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGxtdzZ6ZHh6ZXA2MG81ZXJ0amNmdjRwdWg4OGdiZml4bmkwdmM2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/St9o9Fho5yrdCFHIRa/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGt3eGJiajc2bDRxbWI5ZGp3cDFhajlmemE0YzJkczZscXFnOGxmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a2sA1zzciwyJjMw06j/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon an incomplete oath that increases %Damage and %Final Damage of [Dominus] skills",
+                    "details": [
+                        "Using 5th Job or lower skill will complete the oath (up to 3 times)<bp_Upon completing the oath, nearby enemies are damaged_The final oath deals increased damage_>",
+                        "Upon completing the final oath, [Edict] skills are reset and their cooldowns are reduced and the reset chance of <tt src={/class-icons/demon/lethe/fidelity.png} tip={Fidelity (4th Job)}> is increased",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Beckon: Fel/Assize Boost",
+                    "shortDesc": "Beckon: Fel/Assize Final Damage: +180%",
+                    "icons": ["/class-icons/demon/lethe/beckon-fel.png", "/class-icons/demon/lethe/assize.png"],
+                    "type": "Upgraded Passive",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Beckon: Vargr Boost",
+                    "shortDesc": "Beckon: Vargr Final Damage: +180%",
+                    "icons": ["/class-icons/demon/lethe/beckon-vargr.png"],
+                    "type": "Upgraded Passive",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Beckon: Dread Knight Boost",
+                    "shortDesc": "Beckon: Dread Knight Final Damage: +120%",
+                    "icons": ["/class-icons/demon/lethe/beckon-dread-knight.png"],
+                    "type": "Upgraded Passive",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Edict: Fell Storm/Nullification Boost",
+                    "shortDesc": "Edict: Fell Storm/Nullification Final Damage: +120%",
+                    "icons": ["/class-icons/demon/lethe/edict-fel-storm.png", "/class-icons/demon/lethe/nullification.png"],
+                    "type": "Upgraded Passive",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Edict: Rampage Boost",
+                    "shortDesc": "Edict: Rampage Final Damage: +120%",
+                    "icons": ["/class-icons/demon/lethe/edict-rampage.png"],
+                    "type": "Upgraded Passive",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Edict: Dread Advance Boost",
+                    "shortDesc": "Edict: Dread Advance Final Damage: +120%",
+                    "icons": ["/class-icons/demon/lethe/edict-dread-advance.png"],
+                    "type": "Upgraded Passive",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/demon/lethe/hexa-assize-fell-storm.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/demon/lethe/beckon-fel.png} tip={Beckon: Fel (1st Job)}> <tt src={/class-icons/demon/lethe/assize.png} tip={Assize (3rd Job)}> enhanced with V Matrix at least Lv. 40 to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Assize",
+                    "shortDesc": "Each time a vassal attacks an enemy, they mark the enemy with their magic. The magical mark does not stack and changes when a different vassal attacks.\\nMagical marks from a vassal's Edict and Dominus skills stack. Edit and Dominus marks can only be consumed by another vassal's Edict or Dominus skills.\\nEach time an attack lands, there is a 10% chance for 1 imp to appear\\nWhen a magical mark changes or marks are stacked, Assize has a 50% chance to activate and beckon 1 imp to charge and attack the enemy. Stacked marks are consumed upon activation\\nBeckoned Imp: Duration: 10 sec, Max Enemies Hit: 2, Damage: 350%, Number of Attacks: 2, disappears after 3 hits, Max Number of Imps: 10, Normal Enemy Damage: +51% (additive)\\nCharging Imp: Damage: 237%, Number of Attacks: 2",
+                    "icons": ["/class-icons/demon/lethe/hexa-assize.png", "/class-icons/demon/lethe/assize.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzhtbTk2dTVyaW00c2ZyNWkyZWlyank2bm1qZjdlNmk4MTA4aTkxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NYyze3SMX7VdgRlRe0/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2E2aHAzYzBjOTZuanZ1OWtnb28wbTd4djBndjBrY2VpMTB3bXN6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rYJeWFoU7XXpMT0oDJ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Edict: Fell Storm",
+                    "shortDesc": "Automatically triggers on enemies within range if there are 30 imps that have been beckoned by Assize\\nMP Cost: 110, Creates 4 Imp Waves, Max Enemies Hit: 6, Damage: 712%, Number of Attacks: 5",
+                    "icons": ["/class-icons/demon/lethe/hexa-edict-fell-storm.png", "/class-icons/demon/lethe/edict-fel-storm.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnNyNHVzMHFhNDRvMmRvbXhxdGNtemZlcncxNGRoNXYya3l4bnBubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4KADE1EZ4cD1X380WN/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/demon/lethe/hexa-vargr-rampage.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/demon/lethe/beckon-vargr.png} tip={Beckon: Vargr (2nd Job)}> <tt src={/class-icons/demon/lethe/edict-rampage.png} tip={Edict: Rampage (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Beckon: Vargr",
+                    "shortDesc": "MP Cost: 70, Vargr Skoll, Freki, and Hati Summon Duration: 20 sec\\nVargr Max Enemies Hit: 3, Damage: 346%, Number of Attacks: 3\\nNormal Enemy Damage: +491% (additive)",
+                    "icons": ["/class-icons/demon/lethe/hexa-beckon-vargr.png", "/class-icons/demon/lethe/beckon-vargr.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExamd3Z3FndWxpNnMyZDNxNnYyZXhpc2g0dzhiNzZsYTRid2dqd2toYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rOVwxcCZ7EykL9fKJd/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmVla2ozOWxtZ3I5ZzZ2NTN6dHU2dnl2OGxxZGh1NWNkOTllamp6YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kdQo3V6QfdVWLJ3JsG/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Edict: Rampage",
+                    "shortDesc": "MP Cost: 120, Each vargr attacks upon receiving the command\\nInitiates 3 onslaughts, Max Enemies Hit: 10, Damage: 760%, Number of Attacks: 4\\nCooldown: 20 sec",
+                    "icons": ["/class-icons/demon/lethe/hexa-edict-rampage.png", "/class-icons/demon/lethe/edict-rampage.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenk1ZjY4eHN1czM3emdqbXBzc3p4aHFsd2xjZzFudjRtb25wMWl2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uy5ThjmqtBw4qwAFYg/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/demon/lethe/hexa-knight-advance.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/demon/lethe/beckon-dread-knight.png} tip={Beckon: Dread Knight (3rd Job)}> <tt src={/class-icons/demon/lethe/edict-dread-advance.png} tip={Edict: Dread Advance (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Beckon: Dread Knight",
+                    "shortDesc": "MP Cost: 70, Dread Knight Warden, Lancer, and Slayer Summon Duration: 20 sec\\nDread Knights: Max Enemies Hit: 3, Damage: 175%, Number of Attack: 4, Total Attacks: 2\\nNormal Enemy Damage: +225% (additive)",
+                    "icons": ["/class-icons/demon/lethe/hexa-beckon-dread-knight.png", "/class-icons/demon/lethe/beckon-dread-knight.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTY4Y3h6YWMxYnN4cXpheDJrZ2FhbW5wcGpwMXJsZnMzZ3NtYXVyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FBMTVpm5ZJzMViGHWS/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXYxZzk3NHlvOGFqcXJ0cDQ0d2ZzYWkwbHR4OG14OXN1cTkxbzJhbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PGYrYEFpOjORlQjz7X/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Edict: Dread Advance",
+                    "shortDesc": "MP Cost: 120, Each dread knight attacks upon receiving the command\\nSlashes 3 times, Max Enemies Hit: 10, Damage: 764%, Number of Attacks: 5\\nCooldown: 20 sec",
+                    "icons": ["/class-icons/demon/lethe/hexa-edict-dread-advance.png", "/class-icons/demon/lethe/edict-dread-advance.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVoaXJrMnV1bDhydmYxNGRiNjltc3JoYnJ5OHB3Y2E2YXp0YXhvaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7BJZWjWAmYfNtOPhoz/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/demon/lethe/hexa-majeure-oath.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "No V Matrix enhancement is required to unlock this node"
+                    ]
+                },
+                {
+                    "name": "HEXA Majeure",
+                    "shortDesc": "MP Cost: 80\\nSummon Duration of Nearby Vassals: +8 sec, Attack Speed Increase Duration: 8 sec\\nMax Summon Duration: 180, Even if only one vassal is close enough to receive the magic, the duration increase applies to all vassals",
+                    "icons": ["/class-icons/demon/lethe/hexa-majeure.png", "/class-icons/demon/lethe/majeure.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDE1Nmt4MndnNXRjNnhwbXUyYmp4M2o3MmxsaDJscWlia3Z3ZjR1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JErLMNJbd8omctvZQF/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Oath Incarnate",
+                    "shortDesc": "Using Majeure on a vassal grants them a magical aura for 18 sec. Even if only one vassal is close enough to receive the magic, all vassals rare granted a magical aura\\nMagical Aura: Max Enemies Hit: 5, Damage: 184%, Number of Attacks: 4\\nCooldown: 30 sec. The cooldown is applied separately for each vassal",
+                    "icons": ["/class-icons/demon/lethe/oath-incarnate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }  
+            ],
+            "skillCore": [
+                {
+                    "name": "Dominus: Eye of Eternity",
+                    "shortDesc": "MP Cost: 1200, Invincible during casting\\nAutomatically activates Majeure for all vassals. Attack Acceleration Effect Duration: 10 sec\\nAutomatically activates Oath Incarnate if it is not on cooldown\\nAnanke's appearance opens a dimensional rift, triggering 25 shockwaves. Max Enemies Hit: 15 Damage: 907%, Number of Attacks: 14\\nAnanke's Power manifests 48 times. Damage: 951%, Number of Attacks: 15\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/demon/lethe/dominus-eye-of-eternity.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnZrcTVndXI2YnFkOHZ6dWRrMTR1aXdtb2t2eG9uMHlnMnE1bXgxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qO33PkcBENFvYbKio2/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Sovereign Everlasting",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe power of Lethe's oaths is unleashed, creating 11 magical chains. Max Enemies Hit: 15, Damage: 4340%, Number of Attacks: 12. Afterwards, Ananke's Embrace reaches out 11 times. Damage: 4760%, Number of Attacks: 15\\nAdditional Ignore Defense: 60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/demon/lethe/sovereign-everlasting.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzJqdzNta2c4MmJxajY1NnkyNG4wdzNvZXJwM3lya2h1cnJhcHNhaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1mV53uPw5eveMVxLKF/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "HEXA Demonic Wroth",
+                    "shortDesc": "MP Cost: 500, Duration: 20 sec, Damage: +50%\\nUpon landing 50 attacks, Buff Duration: +20 sec, up to 2 times\\nWhen duration increases, creates 5 fighting spirit, Max Enemies Hit: 12, Damage: 900%, Number of Attacks: 5. When increased 2 times, creates 7 fighting spirit, Damage: 1100%, Number of Attacks: 8\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/6th-job/hexa-demonic-wroth.png", "/class-icons/5th-job/demonic-wroth.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnkxNDk3dWNxM3JzMHNqanRscGhwdGcxMzZ6cHV6ZW9sbW02ZWVxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qn4IDOblzrk28Fjkbx/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczkxbGgyNmRpcXFzdDJ6MDl1MnM1ZmhpbmFtZW9iM2JqcTUwdjJkOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jqnKymxnSt9PbSBiiu/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Dominus: Dread Onslaught Boost",
+                    "shortDesc": "Dominus: Dread Onslaught Final Damage: +60%",
+                    "icons": ["/class-icons/demon/lethe/dominus-dread-onslaught.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Dominus: Pack United Boost",
+                    "shortDesc": "Dominus: Pack United Final Damage: +60%",
+                    "icons": ["/class-icons/demon/lethe/dominus-pack-united.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Dominus: Azrath Boost",
+                    "shortDesc": "Dominus: Azrath Final Damage: +60%",
+                    "icons": ["/class-icons/demon/lethe/dominus-azrath.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Chains of Command Boost",
+                    "shortDesc": "Increases damage boost to 25% when the oath is manifested\\nIncreases Dominus Skill Final Damage boost to 21%\\nCompleted Oath Final Damage: +60%",
+                    "icons": ["/class-icons/demon/lethe/chains-of-command.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "HEXA Beckon: Vargr - 6th Job",
+                "icons": ["/class-icons/demon/lethe/hexa-beckon-vargr.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExamd3Z3FndWxpNnMyZDNxNnYyZXhpc2g0dzhiNzZsYTRid2dqd2toYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rOVwxcCZ7EykL9fKJd/giphy.gif"]
+            },
+            {
+                "name": "HEXA Beckon: Dread Knight - 6th Job",
+                "icons": ["/class-icons/demon/lethe/hexa-beckon-dread-knight.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTY4Y3h6YWMxYnN4cXpheDJrZ2FhbW5wcGpwMXJsZnMzZ3NtYXVyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FBMTVpm5ZJzMViGHWS/giphy.gif"]
+            },
+            {
+                "name": "HEXA Assize - 6th Job",
+                "icons": ["/class-icons/demon/lethe/hexa-assize.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzhtbTk2dTVyaW00c2ZyNWkyZWlyank2bm1qZjdlNmk4MTA4aTkxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NYyze3SMX7VdgRlRe0/giphy.gif"]
+            },
+            {
+                "name": "Dominus: Dread Onslaught - 5th Job",
+                "icons": ["/class-icons/demon/lethe/dominus-dread-onslaught.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXYxZzk3NHlvOGFqcXJ0cDQ0d2ZzYWkwbHR4OG14OXN1cTkxbzJhbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PGYrYEFpOjORlQjz7X/giphy.gif"]
+            },
+            {
+                "name": "Dominus: Pack United - 5th Job",
+                "icons": ["/class-icons/demon/lethe/dominus-pack-united.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmVla2ozOWxtZ3I5ZzZ2NTN6dHU2dnl2OGxxZGh1NWNkOTllamp6YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kdQo3V6QfdVWLJ3JsG/giphy.gif"]
+            },
+            {
+                "name": "Dominus: Azrath - 5th Job",
+                "icons": ["/class-icons/demon/lethe/dominus-azrath.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWY2OXRia2p5MWptNmNybHBxemFjbHIzNXE0MGdlam9rczdtdzA0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DXzm0FyNVhoYzJmTzU/giphy.gif"]
+            },
+            {
+                "name": "Chains of Command - 5th Job",
+                "icons": ["/class-icons/demon/lethe/chains-of-command.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGt3eGJiajc2bDRxbWI5ZGp3cDFhajlmemE0YzJkczZscXFnOGxmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a2sA1zzciwyJjMw06j/giphy.gif"]
+            },
+            {
+                "name": "Dominus: Eye of Eternity - 6th Job",
+                "icons": ["/class-icons/demon/lethe/dominus-eye-of-eternity.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnZrcTVndXI2YnFkOHZ6dWRrMTR1aXdtb2t2eG9uMHlnMnE1bXgxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qO33PkcBENFvYbKio2/giphy.gif"]
+            },
+            {
+                "name": "Sovereign Everlasting - 6th Job",
+                "icons": ["/class-icons/demon/lethe/sovereign-everlasting.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzJqdzNta2c4MmJxajY1NnkyNG4wdzNvZXJwM3lya2h1cnJhcHNhaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1mV53uPw5eveMVxLKF/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Lethe is an INT magician class part of a separate Demons class group. Lethe uses Dominiums as their primary weapons. For their secondary weapon, Lethe can equip Quills"
+}

@@ -1,0 +1,1125 @@
+{
+    "class": "Night Lord",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Crit Rate",
+        "legionValue": "1/2/3/4/5%",
+        "equipment": [
+            {"weapon": ["claw"]},
+            {"secondary": ["charm"]},
+            {"ammo": "throwingStar"}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Attack +21", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.75x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/explorers/night-lord/agile-claws.png} tip={Agile Claws (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/explorers/night-lord/claw-expert.png} tip={Claw Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "LUK",
+                "stat": "+70 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/thief/nimble-body.png} tip={Nimble Body (1st Job)} val={+20}> <bg src={/class-icons/explorers/night-lord/agile-claws.png} tip={Agile Claws (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +110(140)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/night-lord/spirit-of-the-star.png} tip={Spirit of the Star (3rd Job)} val={+10}> <bg src={/class-icons/explorers/night-lord/dark-harmony.png} tip={Dark Harmony (4th Job)} val={+20}> <bg src={/class-icons/explorers/night-lord/claw-expert.png} tip={Claw Expert (4th Job)} val={+30}> <bg src={/class-icons/explorers/night-lord/bleed-dart.png} tip={Bleed Dart (Hyper Skill)} val={+50}> <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+30}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+75%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/night-lord/critical-throw.png} tip={Critical Throw (2nd Job)} val={+50%}> <bg src={/class-icons/explorers/night-lord/expert-throwing-star-handling.png} tip={Expert Throwing Star Handling (3rd Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+25%",
+                "detail": "<bg src={/class-icons/explorers/night-lord/critical-throw.png} tip={Critical Throw (2nd Job)} val={+5%}> <bg src={/class-icons/explorers/night-lord/alchemic-adrenaline.png} tip={Alchemic Adrenaline (3rd Job)} val={+10%}> <bg src={/class-icons/explorers/night-lord/claw-expert.png} tip={Claw Expert (4th Job)} val={+10%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "(+48%)",
+                "detail": "<bg type={temp} src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/link-skills/thiefs-cunning.png} tip={Thief's Cunning (Link Skill)} val={+18% upon debuffing enemy}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+30%",
+                "detail": "<bg src={/class-icons/explorers/night-lord/spirit-of-the-star.png} tip={Spirit of the Star (3rd Job)} val={+10%}> <bg src={/class-icons/explorers/night-lord/frailty-curse.png} tip={Frailty Curse (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+48.35%(109.71%)",
+                "detail": "<bg src={/class-icons/explorers/night-lord/expert-throwing-star-handling.png} tip={Expert Throwing Star Handling (3rd Job)} val={+29%}> × <bg src={/class-icons/explorers/night-lord/dark-harmony.png} tip={Dark Harmony (4th Job)} val={+15%}> × <bg type={opt} src={/class-icons/5th-job/shadow-walker.png} tip={Shadow Walk (5th Job)} val={+14% while in Dark Sight}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+51%(58%)",
+                "detail": "<bg src={/class-icons/explorers/night-lord/dark-harmony.png} tip={Dark Harmony (4th Job)} val={+30%}> × <bg type={debuff} sub={opt} src={/class-icons/explorers/night-lord/frailty-curse.png} tip={Frailty Curse (4th Job)} val={+30% within zone} subSrc={/class-icons/explorers/night-lord/frailty-curse-enhance.png} subTip={Frailty Curse - Enhance (Hyper Skill)} subVal={extra +10%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/common/shadow-partner.png} tip={Shadow Partner (3rd Job)} dur={[200s]}> <tt src={/class-icons/explorers/night-lord/bleed-dart.png} tip={Bleed Dart (Hyper Skill)} dur={[90s]}>",
+            "summons": "<tt src={/class-icons/explorers/night-lord/dark-flare.png} tip={Dark Flare (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/night-lord/frailty-curse.png} tip={Frailty Curse (4th Job)} dur={[40s]}> <tt src={/class-icons/explorers/night-lord/dark-lords-omen.png} tip={Dark Lord's Omen (5th Job)} dur={[12s](60s)}>",
+            "buffCd": "<tt src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/night-lord/throwing-star-barrage.png} tip={Throwing Star Barrage (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/night-lord/throw-blasting.png} tip={Throw Blasting (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/shadow-walker.png} tip={Shadow Walker (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/night-lord/life-and-death.png} tip={Life and Death (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)} dur={[200s](Special, 0 - 15s cd)}> <tt src={/class-icons/explorers/night-lord/nightfall-signet.png} tip={Nightfall Signet (4th Job)} dur={[2s](60s cd)}> <tt src={/class-icons/explorers/night-lord/life-and-death.png} tip={Life and Death (6th Job)} dur={(360s cd)}>"
+        },
+        "linkSkill": {
+            "id": 80002770,
+            "offline": true,
+            "name": "Thief's Cunning",
+            "maxLevel": 9,
+            "shortDesc": "Upon debuffing an enemy, Damage: +18%. Duration: 10 sec\\nCooldown: 20 sec.",
+            "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 3 times, once for each unique Explorer Thief to reach Master Level"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump}> -> <tt src={/class-icons/explorers/thief/nimble-body.png} tip={Nimble Body}> -> <tt src={/class-icons/explorers/thief/haste.png} tip={Haste}> -> <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> -> <tt src={/class-icons/explorers/thief/double-stab.png} tip={Double Stab}> -> <tt src={/class-icons/explorers/thief/lucky-seven.png} tip={Lucky Seven}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/night-lord/claw-mastery.png} tip={Claw Mastery}> -> <tt src={/class-icons/explorers/night-lord/agile-claws.png} tip={Agile Claws}> -> <tt src={/class-icons/explorers/night-lord/critical-throw.png} tip={Critical Throw}> -> <tt src={/class-icons/explorers/night-lord/gust-charm.png} tip={Gust Charm}> -> <tt src={/class-icons/explorers/night-lord/shuriken-burst.png} tip={Shuriken Burst}> -> <tt src={/class-icons/explorers/night-lord/shadow-leap.png} tip={Shadow Leap}> -> <tt src={/class-icons/explorers/night-lord/shadow-surge.png} tip={Shadow Surge}> -> <tt src={/class-icons/explorers/night-lord/shadow-blink.png} tip={Shadow Blink}>"],
+                ["3rd Job", "<tt src={/class-icons/common/enveloping-darkness.png} tip={Enveloping Darkness}> -> <tt src={/class-icons/explorers/night-lord/expert-throwing-star-handling.png} tip={Expert Throwing Star Handling}> -> <tt src={/class-icons/explorers/night-lord/alchemic-adrenaline.png} tip={Alchemic Adrenaline}> -> <tt src={/class-icons/explorers/night-lord/spirit-of-the-star.png} tip={Spirit of the Star}> -> <tt src={/class-icons/explorers/night-lord/venom.png} tip={Venom}> -> <tt src={/class-icons/common/shadow-partner.png} tip={Shadow Partner}> -> <tt src={/class-icons/explorers/night-lord/dark-flare.png} tip={Dark Flare}> -> <tt src={/class-icons/explorers/night-lord/shuriken-challenge.png} tip={Shuriken Challenge}> -> <tt src={/class-icons/explorers/night-lord/triple-throw.png} tip={Triple Throw}>"],
+                ["4th Job", "<tt src={/class-icons/explorers/night-lord/night-lords-mark.png} tip={Night Lord's Mark}> -> <tt src={/class-icons/explorers/night-lord/claw-expert.png} tip={Claw Expert}> -> <tt src={/class-icons/explorers/night-lord/showdown.png} tip={Showdown}> -> <tt src={/class-icons/explorers/night-lord/shadow-shifter.png} tip={Shadow Shifter}> -> <tt src={/class-icons/explorers/night-lord/dark-harmony.png} tip={Dark Harmony}> -> <tt src={/class-icons/explorers/night-lord/toxic-venom.png} tip={Toxic Venom}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/night-lord/sudden-raid.png} tip={Sudden Raid}> -> <tt src={/class-icons/explorers/night-lord/quad-star.png} tip={Quad Star}> -> <tt src={/class-icons/explorers/night-lord/frailty-curse.png} tip={Frailty Curse}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}> -> <tt src={/class-icons/explorers/night-lord/nightfall-signet.png} tip={Nightfall Signet}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "[Hybrid]<bp_<tt src={/class-icons/explorers/night-lord/showdown-enhance.png} tip={Showdown - Enhance}> Showdown - Enhance_<tt src={/class-icons/explorers/night-lord/frailty-curse-boss-rush.png} tip={Frailty Curse - Boss Rush}> Frailty Curse - Boss Rush_<tt src={/class-icons/explorers/night-lord/quad-star-reinforce.png} tip={Quad Star - Reinforce}> <tt src={/class-icons/explorers/night-lord/quad-star-boss-rush.png} tip={Quad Star - Boss Rush}> <tt src={/class-icons/explorers/night-lord/quad-star-extra-strike.png} tip={Quad Star - Extra Strike}> Quad Star - Reinforce, Boss Rush, and Extra Strike_>[Bossing]<bp_<tt src={/class-icons/explorers/night-lord/frailty-curse-enhance.png} tip={Frailty Curse - Enhance}> <tt src={/class-icons/explorers/night-lord/frailty-curse-boss-rush.png} tip={Frailty Curse - Boss Rush}> Frailty Curse - Enhance and Boss Rush_<tt src={/class-icons/explorers/night-lord/quad-star-reinforce.png} tip={Quad Star - Reinforce}> <tt src={/class-icons/explorers/night-lord/quad-star-boss-rush.png} tip={Quad Star - Boss Rush}> <tt src={/class-icons/explorers/night-lord/quad-star-extra-strike.png} tip={Quad Star - Extra Strike}> Quad Star - Reinforce, Boss Rush, and Extra Strike_>[Training]<bp_<tt src={/class-icons/explorers/night-lord/showdown-reinforce.png} tip={Showdown - Reinforce}> <tt src={/class-icons/explorers/night-lord/showdown-spread.png} tip={Showdown - Spread}> <tt src={/class-icons/explorers/night-lord/showdown-enhance.png} tip={Showdown - Enhance}> Showdown - Reinforce, Spread, and Enhance_<tt src={/class-icons/explorers/night-lord/quad-star-reinforce.png} tip={Quad Star - Reinforce}> <tt src={/class-icons/explorers/night-lord/quad-star-extra-strike.png} tip={Quad Star - Extra Strike}> Quad Star - Reinforce and Extra Strike_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/night-lord/showdown.png} tip={Showdown (4th Job)}> <tt src={/class-icons/explorers/night-lord/quad-star.png} tip={Quad Star (4th Job)}> <tt src={/class-icons/explorers/night-lord/assassins-mark.png} tip={Assassin's Mark (2nd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/night-lord/sudden-raid.png} tip={Sudden Raid (4th Job)}> <tt src={/class-icons/explorers/night-lord/death-star.png} tip={Death Star (Hyper Skill)}> <tt src={/class-icons/explorers/night-lord/dark-flare.png} tip={Dark Flare (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/night-lord/quad-star.png} tip={Quad Star (4th Job)}>",
+                "<tt src={/class-icons/explorers/night-lord/assassins-mark.png} tip={Assassin's Mark (2nd Job)}>",
+                "<tt src={/class-icons/explorers/night-lord/showdown.png} tip={Showdown (4th Job)}> <tt src={/class-icons/explorers/night-lord/dark-flare.png} tip={Dark Flare (3rd Job)}>",
+                "<tt src={/class-icons/explorers/night-lord/death-star.png} tip={Death Star (Hyper Skill)}> <tt src={/class-icons/explorers/night-lord/sudden-raid.png} tip={Sudden Raid (4th Job)}>",
+                "<tt src={/class-icons/explorers/night-lord/triple-throw.png} tip={Triple Throw (3rd Job)}> <tt src={/class-icons/explorers/night-lord/shuriken-challenge.png} tip={Shuriken Challenge (3rd Job)}>",
+                "<tt src={/class-icons/explorers/night-lord/gust-charm.png} tip={Gust Charm (2nd Job)}> <tt src={/class-icons/explorers/night-lord/shuriken-burst.png} tip={Shuriken Burst (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Night_Lord"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%82%98%EC%9D%B4%ED%8A%B8%EB%A1%9C%EB%93%9C"},
+            {"title": "Class Discord", "link": "https://discord.gg/AvP8wq4"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/16GI6FLwcS3aunYHqXsOEuqQIZ3g5N8V3SHc--RyW8X8"}
+        ],
+        "specialThanks": "Special thanks to spicedcuttlefish and the members of the Night Lord Discord for their help in making this overview!",
+        "discord": "https://discord.gg/AvP8wq4",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Dark Sight",
+            "content": [
+                "<em text={Credits to the Night Walker Discord for the list of attacks avoidable with Dark Sight. For an actively maintained version, please check out the Night Walker Discord}>",
+                "In 1st Job, <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> Dark Sight is unlocked that allows you to dodge certain attacks. Below is a list of avoidable attacks that have been tested:",
+                " dsTable "
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Thief's Cunning",
+                    "maxLevel": 9,
+                    "shortDesc": "Upon debuffing an enemy, Damage: +18%. Duration: 10 sec\\nCooldown: 20 sec.",
+                    "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 3 times, once for each unique Explorer Thief to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/jn39f6xNE6P6pfjJjn/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/mfiUw50RbW3FLOpGlZ/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/jRiHhqLufGNmtc6qQJ/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/yq9n0ti76qVcDfIFvv/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXFsdng5OHZkcDMxdmNsbnl6YWd0eWwyZHZsYTNvZXNpeWh0ejByMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6rpKjIxAYmYDZDNgcB/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Double Stab",
+                        "shortDesc": "MP Cost: 14, Damage: 165%, Number of Attacks: 2, Enemies Hit: 5",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/thief/double-stab.png"],
+                        "animations": ["https://media.giphy.com/media/KiMOMWMPU8Eg6knSMk/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Stab inplace damaging enemies around you",
+                        "details": [
+                            "Only usable when equipped with a Dagger"
+                        ]
+                    },
+                    {
+                        "name": "Lucky Seven",
+                        "shortDesc": "MP Cost: 14, Throwing Star Cost: 2, Damage: 110%, Enemies Hit: 5, Number of Attacks: 3",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/thief/lucky-seven.png"],
+                        "animations": ["https://media.giphy.com/media/CVoGe3DpFCtDq8fCDK/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throw a barrage of stars forward",
+                        "details": [
+                            "Only usable when equipped with a Claw"
+                        ]
+                    },
+                    {
+                        "name": "Haste",
+                        "shortDesc": "Speed: +40, Jump: +20, Max Speed: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/thief/haste.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dark Sight",
+                        "shortDesc": "MP Cost: 5, hides in the shadows for 200 seconds.\\nWhen Dark Sight is deactivated, cooldown increased per attack dodged: 3 seconds. Stacks up to 5 times.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/dark-sight.png"],
+                        "animations": ["https://media.giphy.com/media/t83cInZm13DwBTM7nS/giphy.gif"],
+                        "type": "Active / Utility",
+                        "desc": "While active, you cannot hit or be hit by enemies",
+                        "details": [
+                            "While active, pressing the Skill Key again or using an attack will cancel Dark Sight",
+                            "You can use <tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump (1st Job)}> while in Dark Sight",
+                            "Has a cooldown (3 secs, stacks up to 5 times) per attack dodged"
+                        ]
+                    },
+                    {
+                        "name": "Flash Jump",
+                        "shortDesc": "MP Cost: 12, jumps further, able to use 2 times consecutively.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/thief/flash-jump.png"],
+                        "animations": ["https://media.giphy.com/media/sQakEPCseGu8HVd7Ru/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "name": "Nimble Body",
+                        "shortDesc": "Permanently increases LUK by 20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/thief/nimble-body.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Shuriken Burst",
+                        "shortDesc": "MP Cost: 18 and 3 Throwing Stars. Deals 560% damage to up to 1 enemies. Upon striking an enemy, detonates in place dealing 105% damage 6 times to up to 6 enemies.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/night-lord/shuriken-burst.png"],
+                        "animations": ["https://media.giphy.com/media/53f2MWncVh8lkAZz3V/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throw exploding shurikens forward that damage nearby enemies"
+                    },
+                    {
+                        "name": "Gust Charm",
+                        "shortDesc": "MP Cost: 17 and 2 throwing stars, Damage: 245%, Max Enemies Hit: 6, Knockback Range: 350",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/night-lord/gust-charm.png"],
+                        "animations": ["https://media.giphy.com/media/k2mQIg0DlwcWQvD4LD/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Create a gust of wind that pushes enemies back"
+                    },
+                    {
+                        "name": "Assassin's Mark",
+                        "shortDesc": "Grants a 40% chance to leave a mark on attack. Attacking again will produce 2 Throwing Stars to deal 150% damage",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/night-lord/assassins-mark.png"],
+                        "animations": ["https://media.giphy.com/media/bKfbUtOTN9l2KyWtcG/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "Successful attacks have a chance to create homing throwing stars",
+                        "details": [
+                            "Throwing stars will prioritize enemies with highest HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Surge",
+                        "shortDesc": "MP Cost: 35. Dashes forward a set distance while under the effect of Dark Sight.\\nCooldown: 5 sec\\nEach attack against an enemy with Assassin's Mark or Night Lord's Mark reduces cooldown: by 1 sec.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/night-lord/shadow-surge.png"],
+                        "animations": ["https://media.giphy.com/media/wJIon9ShkAGKgJAft5/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash forward",
+                        "details": [
+                            "After dashing, briefly grants the effects of <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}>",
+                            "Triggering <tt src={/class-icons/explorers/night-lord/assassins-mark.png} tip={Assassin's Mark (2nd Job)}> will reduce the cooldown of Shadow Surge",
+                            "Can be used while casting other skills"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Leap",
+                        "shortDesc": "MP Cost: 16. Allows you to leap a greater distance.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/night-lord/shadow-leap.png"],
+                        "animations": ["https://media.giphy.com/media/WqaACRqqknIjDktdtu/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Up jump skill"
+                    },
+                    {
+                        "name": "Shadow Blink",
+                        "shortDesc": "MP Cost: 20, travel a set distance",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/night-lord/shadow-blink.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjE4aHk5M25kNnR6NmRjZWoxZm5rajQxanlmb2FyN3hleHo0eHhicyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9rAqyKLQm9zCXLntQI/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash forward"
+                    },
+                    {
+                        "name": "Claw Mastery",
+                        "shortDesc": "Claw Mastery: +50%, Throwing Stars: +200",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/night-lord/claw-mastery.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Additionally increases the max number of charges each Throwing Star slot can hold"
+                        ]
+                    },
+                    {
+                        "name": "Agile Claws",
+                        "shortDesc": "Attack Speed: +2, Luck: +20",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/night-lord/agile-claws.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Critical Throw",
+                        "shortDesc": "Critical Rate: +50%, Critical Damage: +5%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/night-lord/critical-throw.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increases LUK by 30 and DEX by 30",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Triple Throw",
+                        "shortDesc": "MP Cost: 20, Throwing Stars Cost: 3, Damage: 290%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/night-lord/triple-throw.png"],
+                        "animations": ["https://media.giphy.com/media/iUxnMnUD8RvsNTJSFx/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throw 3 throwing stars at a single enemy",
+                        "details": [
+                            "Prioritizes enemy with highest HP first"
+                        ]
+                    },
+                    {
+                        "name": "Shuriken Challenge",
+                        "shortDesc": "MP Cost: 30 and 2 throwing stars. Damage: 260%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/night-lord/shuriken-challenge.png"],
+                        "animations": ["https://media.giphy.com/media/Q94XGTzzq1231dzwEI/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Hurl a giant shuriken forward"
+                    },
+                    {
+                        "name": "Dark Flare",
+                        "shortDesc": "MP Cost: 100, Large Shuriken Summon Duration: 60 sec.\\nMax Enemies Hit: 3, Damage: 360%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/night-lord/dark-flare.png"],
+                        "animations": ["https://media.giphy.com/media/KQtSdA7bxdCnIKazDB/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place down a stationary shuriken that damages nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Partner",
+                        "shortDesc": "MP Cost: 64, summons a shadow that makes an additional hit that is 70% of the final damage for all attacks for 200 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/shadow-partner.png"],
+                        "animations": ["https://media.giphy.com/media/2mmhDeSPbgqIHc8zFp/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Create a clone that mimics your attacks to deal an additional hit each hit",
+                        "details": [
+                            "The clone's attack deals reduced %Final Damage",
+                            "Does not mimic summoning skills and 5th Job Common Skills"
+                        ]
+                    },
+                    {
+                        "name": "Spirit of the Star",
+                        "shortDesc": "Attack Power: +30, Boss Damage: +10%. Enables the use of skills without consuming Throwing Stars.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/night-lord/spirit-of-the-star.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Uses the Throwing Star with the highest Attack to calculate your damage",
+                            "Not usable if there are no Throwing Stars in your inventory"
+                        ]
+                    },
+                    {
+                        "name": "Enveloping Darkness",
+                        "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/common/enveloping-darkness.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Venom",
+                        "shortDesc": "Status Chance: 30%, Damage Over Time: 90% damage every 1 sec for 6 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/night-lord/venom.png"],
+                        "type": "Passive",
+                        "desc": "Grants a chance for your attacks to apply a poisoning debuff"
+                    },
+                    {
+                        "name": "Expert Throwing Star Handling",
+                        "shortDesc": "Final Damage: +29%, Critical Rate: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/night-lord/expert-throwing-star-handling.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Alchemic Adrenaline",
+                        "shortDesc": "Recovery Amount: +170%, Critical Damage: +10%, Knockback Resistance: +40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/night-lord/alchemic-adrenaline.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Quad Star",
+                    "shortDesc": "MP Cost: 26, Throwing Stars Cost: 4, Damage: 443%, Number of Attacks: 4",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/night-lord/quad-star.png"],
+                    "animations": ["https://media.giphy.com/media/brHkY3CSigmwqmKoie/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws 4 throwing stars at a single enemy",
+                    "details": [
+                        "Prioritizes enemy with highest HP first"
+                    ]
+                },
+                {
+                    "name": "Showdown",
+                    "shortDesc": "MP 50, Stars Consumed: 3.\\nAttack up to 6 enemies with 605% damage 2 times, then provoke.\\nThe provoked enemies become untouchable for 140 sec., acquired EXP and Item Drop Rate increase by 5%, effect halved for bosses.\\n6 Shurikens that attack 6 times for 24% damage are created. If a single enemy is hit by several shurikens at the same time, Final Damage decreases by 50%, starting with the second shuriken. Normal Enemies Damage: +200%\\nShuriken Cooldown: 5 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/night-lord/showdown.png"],
+                    "animations": ["https://media.giphy.com/media/IpN2YmR67yeGp3xYnO/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throw an exploding dagger forward that debuffs enemies",
+                    "details": [
+                        "[Debuff]: Increases %EXP and Item Drop Rate against this enemy and the enemy cannot deal touch damage<bp_Effect is halved for bosses_>",
+                        "Periodically, the attack will create homing shurikens<bp_Deals increased %Damage to regular monsters_Enemies hit by multiple shurikens take reduced %Final Damage after the first shuriken_Unaffected by Damage Reflect_>"
+                    ]
+                },
+                {
+                    "name": "Night Lord's Mark",
+                    "shortDesc": "Grants a 60% chance to leave a mark on attack. Attacking again will produce 3 Throwing Stars to deal 255% damage.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/night-lord/night-lords-mark.png", "/class-icons/explorers/night-lord/assassins-mark.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation chance, number of Throwing Stars created, and %Damage"
+                    ]
+                },
+                {
+                    "name": "Sudden Raid",
+                    "shortDesc": "MP Cost: 290, Throwing Stars Cost: 1, Damage: 494%, Max Enemies Hit: 15, Number of Attacks: 7\\nDamage Over Time: 210% damage every 1 sec for 10 sec\\nCooldown: 30 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/night-lord/sudden-raid.png"],
+                    "animations": ["https://media.giphy.com/media/zlqvgSB12TSFEcl2aw/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a devastating large attack that applies a damaging debuff",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Frailty Curse",
+                    "shortDesc": "MP Cost: 41, lasts for 40 sec. Reduces Attack Power and Defense by 30% and Movement Speed by -60 for enemies, excluding Boss Monsters.\\n[Passive Effect: Boss Damage +20%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/night-lord/frailty-curse.png"],
+                    "animations": ["https://media.giphy.com/media/LN3PoiRMs6hb3W5uyo/giphy.gif"],
+                    "type": "Debuff Zone",
+                    "desc": "Create a debuff zone that reduces enemy %Attack, %DEF, and Movement Speed",
+                    "details": [
+                        "[Passive]: Permanently increases %Boss Damage",
+                        "Does not apply to bosses (except with Hyper Skill passive <tt src={/class-icons/explorers/night-lord/frailty-curse-boss-rush.png} tip={Frailty Curse - Boss Rush (Hyper Skill)}>)",
+                        "Reduction to %DEF can be considered as %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Nightfall Signet",
+                    "shortDesc": "MP Cost: 100, Invincibility Duration: 2 sec.\\nCooldown: 60 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/night-lord/nightfall-signet.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTN2YjRxODlibTBlenY1NnhlN3lxemUzY2E4cDQ1ZmVxcGUweHVlaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N9IB7Vv56F13i73aIn/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, briefly become invincible",
+                    "details": [
+                        "While active, only the following skills can be used: <tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump (1st Job)}> <tt src={/class-icons/explorers/night-lord/shadow-surge.png} tip={Shadow Surge (2nd Job)}> <tt src={/class-icons/explorers/night-lord/shadow-leap.png} tip={Shadow Leap (2nd Job)}>",
+                        "Pressing the Skill Key again will end the buff early",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/lNxtKJdL7rrUPUP00E/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/VUV1eTK1sKyuuvzJSe/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Dark Harmony",
+                    "shortDesc": "Attack Power: +20, Ignore Defense: +30%, Final Damage: +15%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/night-lord/dark-harmony.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Shadow Shifter",
+                    "shortDesc": "Dodge Chance: 45%, Knockback Resistance: +60%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/night-lord/shadow-shifter.png"],
+                    "animations": ["https://media.giphy.com/media/HH8k9kAocJvWVMEggS/giphy.gif"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Toxic Venom",
+                    "shortDesc": "Poison Chance: 50%, 160% damage every 1 sec for 8 sec., can be stacked 3 times",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/night-lord/toxic-venom.png", "/class-icons/explorers/night-lord/venom.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases debuff chance, duration, and %Damage",
+                        "Can now be stacked (up to 3 times)"
+                    ]
+                },
+                {
+                    "name": "Claw Expert",
+                    "shortDesc": "Claw Mastery: +70%. Attack Power: +30, Critical Damage: +10%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/night-lord/claw-expert.png", "/class-icons/explorers/night-lord/claw-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Showdown - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/showdown-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Does not apply to homing shurikens created"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Showdown - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/showdown-spread.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Does not apply to homing shurikens created"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Showdown - Enhance",
+                    "shortDesc": "EXP Obtained and Item Drop Rate: +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/showdown-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Frailty Curse - Enhance",
+                    "shortDesc": "Additional 10% Attack Power and Defense reduction.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/frailty-curse-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Frailty Curse - Slow",
+                    "shortDesc": "Additional 10 Speed reduced",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/frailty-curse-slow.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Frailty Curse - Boss Rush",
+                    "shortDesc": "Frailty Curse is applied to bosses.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/frailty-curse-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Quad Star - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/quad-star-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Quad Star - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/quad-star-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Quad Star - Extra Strike",
+                    "shortDesc": "1 additional attack(s)",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/quad-star-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Bleed Dart",
+                    "shortDesc": "MP Cost: 200, Duration: 90 sec, Attack Power: +50.\\nBleed Chance: 100%, Bleed Damage: 2000% damage every sec, Bleed Duration: 3 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/bleed-dart.png"],
+                    "animations": ["https://media.giphy.com/media/imHZH2YaQeXZyNWrd7/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Grants flat Attack and causes your attacks to apply a damaging debuff",
+                    "details": [
+                        "Right-clicking the skill will toggle the visual effect ON/OFF"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Death Star",
+                    "shortDesc": "MP Cost: 300, Throwing Stars Cost: 1, Damage: 358%, Number of Attacks: 7, Max Enemies Hit: 8\\nCooldown: 14 sec.\\n[Passive Effect - Night Lord's Mark Damage: +100% points]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/night-lord/death-star.png"],
+                    "animations": ["https://media.giphy.com/media/ZweswW4OYG820iyNjN/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Create a giant shuriken that damages nearby enemies",
+                    "details": [
+                        "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/explorers/night-lord/night-lords-mark.png} tip={Night Lord's Mark (4th Job)}> by a flat amount",
+                        "Right-clicking the skill will toggle the visual effect ON/OFF"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/thief/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3JteDg4NXlidTJuc3FibmdtenN2aHZ3aWwybnpkanRkNzlpOXk5aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RRIIOfLS9YBaPa2KYe/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expThief", "goddessBlessing", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Throwing Star Barrage",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec. Throwing skills gain extra spread.\\nTriple Throw attacks in 4 extra directions, with extra projectiles dealing 290% damage on up to 4 enemies\\nQuad Star attacks in 3 extra directions, with extra projectiles dealing 379% damage on up to 4 enemies\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/night-lord/throwing-star-barrage.png"],
+                    "animations": ["https://media.giphy.com/media/cUkc0zgM769dfFoL9i/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, using <tt src={/class-icons/explorers/night-lord/triple-throw.png} tip={Triple Throw (3rd Job)}> <tt src={/class-icons/explorers/night-lord/quad-star.png} tip={Quad Star (4th Job)}> will throw additional throwing stars in a spread",
+                    "details": [
+                        "Does not apply to <tt src={/class-icons/common/shadow-partner.png} tip={Shadow Partner (3rd Job)}>"
+                    ]
+                },
+                {
+                    "name": "Shurrikane",
+                    "shortDesc": "MP Cost: 800. Throwing Stars Cost: 1, Max Enemies Hit: 6, Damage: 615%, Number of Attacks: 7\\nA huge shuriken flies forward striking foes, then spins in place, dealing additional damage for 2 sec before disappearing. Using the skill again while the shuriken is flying will stop it immediately at its current location\\n40% of normal chance to trigger Assassin's Mark.\\nCooldown: 25 sec.",
+                    "icons": ["/class-icons/explorers/night-lord/shurrikane.png"],
+                    "animations": ["https://media.giphy.com/media/14j7c3hNKbFmJVFKXi/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throw forward a giant shuriken that continuously spins in place before disappearing",
+                    "details": [
+                        "Pressing the Skill Key again while the shuriken is active will stop it immediately at its current location",
+                        "Has a reduced chance to trigger <tt src={/class-icons/explorers/night-lord/assassins-mark.png} tip={Assassin's Mark (2nd Job)}>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Dark Lord's Omen",
+                    "shortDesc": "MP Cost: 1000, shoot 6 Throwing Star(s) per 1 enemy for 12 sec, dealing 1510% damage to max 7 enemies\\n7 additional Throwing Stars are launched regardless of the number of enemies.\\nBoss Damage: +30%\\nThe scroll explodes when the skill duration ends, dealing 3430% damage with 12 additional attacks. Max Enemies Hit: 12\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/explorers/night-lord/dark-lords-omen.png"],
+                    "animations": ["https://media.giphy.com/media/RQGlcRw75eKcso90Je/giphy-downsized-large.gif"],
+                    "type": "Summon",
+                    "desc": "Creates a giant orb that periodically launches out throwing stars",
+                    "details": [
+                        "At the end of the Skill, the orb explodes dealing damage to nearby enemies",
+                        "Attack has increased %Boss Damage",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Throw Blasting",
+                    "shortDesc": "Explosive Charm: Throws explosive-rigged shurikens at up to 6 enemies, dealing 1045% damage 5 times.\\nPassive Effect: 1 explosive charm is prepared every 10 sec and activates. Active and Passive Effects cannot trigger simultaneously.\\nActive Effect: MP Cost: 1000, Duration: 60 sec, Usable Explosive Charms: 46, uses min 2 and max 4 charms per attack skill, consumes throwing stars up to the number of charms used. Cooldown: 120 sec",
+                    "icons": ["/class-icons/explorers/night-lord/throw-blasting.png"],
+                    "animations": ["https://media.giphy.com/media/XWe1GYRejXwyUtIDIv/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Throwing Star attacks gain Explosive Talismans that explode and damage nearby enemies",
+                    "details": [
+                        "[Passive]: Prepares 1 Explosive Talisman for use every 10 seconds",
+                        "When Active Effect is used, gain multiple Explosive Talismans for the duration of the buff<bp_Each attack can consume a min. of 2 and max. of 4 Explosive Talismans_>",
+                        "Passive and Active Effect cannot be active at the same time",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Shuriken Burst Boost",
+                    "shortDesc": "Shuriken Burst Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/night-lord/shuriken-burst.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gust Charm Boost",
+                    "shortDesc": "Gust Charm Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/night-lord/gust-charm.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Assassin's Mark/Night Lord's Mark Boost",
+                    "shortDesc": "Assassin's Mark and Night Lord's Mark Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/night-lord/assassins-mark.png", "/class-icons/explorers/night-lord/night-lords-mark.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dark Flare Boost",
+                    "shortDesc": "Dark Flare Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/night-lord/dark-flare.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Triple Throw Boost",
+                    "shortDesc": "Triple Throw Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/night-lord/triple-throw.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shuriken Challenge Boost",
+                    "shortDesc": "Shuriken Challenge Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/night-lord/shuriken-challenge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Quad Star Boost",
+                    "shortDesc": "Quad Star Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/night-lord/quad-star.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sudden Raid Boost",
+                    "shortDesc": "Sudden Raid Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/night-lord/sudden-raid.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Showdown Boost",
+                    "shortDesc": "Showdown Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/night-lord/showdown.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Death Star Boost",
+                    "shortDesc": "Death Star Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/night-lord/death-star.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-quad-star-1.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/night-lord/quad-star.png} tip={Quad Star (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Quad Star",
+                    "shortDesc": "MP Cost: 35, Throwing Stars Cost: 4, Max Enemies Hit: 4, Damage: 670%, Number of Attacks: 4. When 3 attacks land, the next attack triggers an enhanced HEXA Quad Star.\\n------Enhanced HEXA Quad Star------\\nMP Cost: 35, Max Enemies Hit: 6, Damage: 890%, Number of Attacks: 4",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-quad-star-1.png", "/class-icons/explorers/night-lord/hexa-quad-star-2.png", "/class-icons/explorers/night-lord/quad-star.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm55ZDFrenpqODNtdnh5MDFxYTgyOG5namh5ZTB4MnhibXc1cDFqYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n6Xx84iYPyLhJjGREu/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-assassins-mark.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/night-lord/assassins-mark.png} tip={Assassin's Mark (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Assassin's Mark",
+                    "shortDesc": "Grants a 65% chance to leave a mark on attack. Attacking again will produce 3 Throwing Stars to deal 520% damage.",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-assassins-mark.png", "/class-icons/explorers/night-lord/assassins-mark.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmpneWVjbzJ0ejhkbDJ2bWhrdGNqMTJkMDRmZ2J4a3djODh2OWNqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kmicHkcttlVKBANy4m/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-dark-flare-showdown-darkness-shuriken.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/night-lord/dark-flare.png} tip={Dark Flare (3rd Job)}> <tt src={/class-icons/explorers/night-lord/showdown.png} tip={Showdown (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Dark Flare",
+                    "shortDesc": "MP Cost: 130, Large Shuriken Summon Duration: 60 sec.\\nMax Enemies Hit: 5, Damage: 815%\\n[Passive Effect - HEXA Quad Star Damage: +60% points (additive)]",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-dark-flare.png", "/class-icons/explorers/night-lord/dark-flare.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWc2YTY5bHU0YXN6eHl6cXE2anFhemExaXNyenpmeWFhdmY4eGFhcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sbhGsbbRhxeNn0LDgO/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Showdown",
+                    "shortDesc": "MP 55, Stars Consumed: 3\\nAttack up to 6 enemies with 980% damage 2 times, then provoke.\\nThe provoked enemies become untouchable for 140 sec., acquired EXP and Item Drop Rate increases by 6%, effect halved for bosses.\\n6 Shurikens that attack 6 times for 57% damage are created.\\nIf a single enemy is hit by several shurikens at the same time, Final Damage decreases by 50%, starting with the second shuriken. Normal Enemy Damage: +200%\\nShuriken Cooldown: 5 sec",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-showdown.png", "/class-icons/explorers/night-lord/showdown.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBrYmt0c3R5MWxicTFzbzNwdXN3bDhpZXdidXc5bnVyMXN6eTc5eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d2vPk0UNAHyxCSoVIS/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Darkness Shuriken",
+                    "shortDesc": "When a direct skill attack lands, throwing stars of darkness are created that last 10 sec\\nThese deal 1420% damage to nearby enemies 6 times, up to 30 times.\\nWhen a direct skill attack lands every 5 sec, duration increases by 7 sec\\nDuraion can increase up to 60 sec\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/explorers/night-lord/darkness-shuriken.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZml2eHpiY2lqNWMzbzE0dHV3NXY0c20xb2hxMXk5OWl6ZGhjeGxwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8JOSEcFMzWNs4bzBnu/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-sudden-raid-death-star.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/night-lord/sudden-raid.png} tip={Sudden Raid (4th Job)}> <tt src={/class-icons/explorers/night-lord/death-star.png} tip={Death Star (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Sudden Raid",
+                    "shortDesc": "MP Cost: 320, Stars Consumed: 1, Damage: 820%, Max Enemies Hit: 15, Number of Attacks: 7\\nDamage Over Time: 355% damage every 1 sec. for 10 sec.\\nCooldown: 14 sec.\\n[Passive Effect- HEXA Assassin's Mark Damage: +60% points]",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-sudden-raid.png", "/class-icons/explorers/night-lord/sudden-raid.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTM2djNud3M4ajE1M3ZyamprcDExbnJrazd5bGQweXdycm1hM3JlNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A69SbzmS52aDSNDwKK/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Death Star",
+                    "shortDesc": "MP Cost: 330, Stars Consumed: 1, Max Enemies Hit: 8, Damage: 940%, Number of Attacks: 7\\nAfter the skill lands 1 times, the next attack enhances to HEXA Death Star: Rampant\\nHEXA Death Star: Rampant - Max Enemies Hit: 8, Damage: 838%, Number of Attacks: 7\\nTriggers Annihilate 6 times that attacks 6 times with 709% damage\\nCooldown: 14 sec",
+                    "icons": ["/class-icons/explorers/night-lord/hexa-death-star.png", "/class-icons/explorers/night-lord/hexa-death-star-rampant.png", "/class-icons/explorers/night-lord/death-star.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmFnNXFvNHcwZHFmY3o5b3ZyOWJobjQ2a3JvemV3ODZxNjVkbDd4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CgPUaJiKoVd7E6mlgh/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmFnNXFvNHcwZHFmY3o5b3ZyOWJobjQ2a3JvemV3ODZxNjVkbDd4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CgPUaJiKoVd7E6mlgh/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Life and Death",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15, Damage: 1180%, Number of Attacks: 7, Number of Chase Cuts: 33\\nGoes in a random path, Duration: 60 sec, Damage: 1158%, Max Enemies Hit: 15, Number of Attacks: 7, Large Throwing Stars Created: 5\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/night-lord/life-and-death.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajFlMDljcWUxb2s3bnN4NW05aG42ZjZhMm1xYXJoemRiZHV5M2g2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D6Etqgh4SOJejuZ6Lf/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Deep Strike",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nReleases 10 shockwaves, dealing 7325% damage to up to 15 enemies 13 times\\nThen explodes 12 times, dealing 8167% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/night-lord/deep-strike.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlydzZvZWhheXBxeTBvN2Y1Nzg3ZHJxNzNheGRyNjFrcGllMG1pbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OLITq7svBb6156e8d2/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Throwing Star Barrage Boost",
+                    "shortDesc": "Throwing Star Barrage Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/night-lord/throwing-star-barrage.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Shurrikane Boost",
+                    "shortDesc": "Shurrikane Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/night-lord/shurrikane.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Dark Lord's Omen Boost",
+                    "shortDesc": "Dark Lord's Omen Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/night-lord/dark-lords-omen.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Throw Blasting Boost",
+                    "shortDesc": "Throw Blasting Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/night-lord/throw-blasting.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Shadow Partner - 3rd Job",
+                "icons": ["/class-icons/common/shadow-partner.png"],
+                "animations": ["https://media.giphy.com/media/2mmhDeSPbgqIHc8zFp/giphy.gif"]
+            },
+            {
+                "name": "Quad Star - 4th Job",
+                "icons": ["/class-icons/explorers/night-lord/quad-star.png"],
+                "animations": ["https://media.giphy.com/media/brHkY3CSigmwqmKoie/giphy.gif"]
+            },
+            {
+                "name": "Showdown - 4th Job",
+                "icons": ["/class-icons/explorers/night-lord/showdown.png"],
+                "animations": ["https://media.giphy.com/media/IpN2YmR67yeGp3xYnO/giphy.gif"]
+            },
+            {
+                "name": "Death Star - Hyper Skill",
+                "icons": ["/class-icons/explorers/night-lord/death-star.png"],
+                "animations": ["https://media.giphy.com/media/ZweswW4OYG820iyNjN/giphy.gif"]
+            },
+            {
+                "name": "Throwing Star Barrage - 5th Job",
+                "icons": ["/class-icons/explorers/night-lord/throwing-star-barrage.png"],
+                "animations": ["https://media.giphy.com/media/cUkc0zgM769dfFoL9i/giphy.gif"]
+            },
+            {
+                "name": "Shurrikane - 5th Job",
+                "icons": ["/class-icons/explorers/night-lord/shurrikane.png"],
+                "animations": ["https://media.giphy.com/media/14j7c3hNKbFmJVFKXi/giphy.gif"]
+            },
+            {
+                "name": "Dark Lord's Omen - 5th Job",
+                "icons": ["/class-icons/explorers/night-lord/dark-lords-omen.png"],
+                "animations": ["https://media.giphy.com/media/RQGlcRw75eKcso90Je/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Life and Death - 6th Job",
+                "icons": ["/class-icons/explorers/night-lord/life-and-death.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajFlMDljcWUxb2s3bnN4NW05aG42ZjZhMm1xYXJoemRiZHV5M2g2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D6Etqgh4SOJejuZ6Lf/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Deep Strike - 6th Job",
+                "icons": ["/class-icons/explorers/night-lord/deep-strike.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlydzZvZWhheXBxeTBvN2Y1Nzg3ZHJxNzNheGRyNjFrcGllMG1pbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OLITq7svBb6156e8d2/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Night Lord is a LUK thief class part of the Explorers. Night Lord utilize Claws as their primary weapons. For their secondary weapon, Night Lord can equip Charms"
+}

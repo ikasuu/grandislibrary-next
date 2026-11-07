@@ -1,0 +1,1031 @@
+{
+    "class": "Marksman",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Archer",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Increases %Crit Rate",
+        "legionValue": "1/2/3/4/5%",
+        "equipment": [
+            {"weapon": ["crossbow"]},
+            {"secondary": ["bowThimble"]},
+            {"ammo": "arrowC"}
+        ],
+        "innerAbility": [
+            {
+                "abilities": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.35x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/explorers/archer/archery-mastery.png} tip={Archery Mastery (1st Job)} val={+1}> <bg src={/class-icons/explorers/marksman/agile-crossbows.png} tip={Agile Crossbows (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "DEX",
+                "stat": "+130 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/marksman/agile-crossbows.png} tip={Agile Crossbows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +70",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/marksman/soul-arrow.png} tip={Soul Arrow: Crossbow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+40}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+75%(95% excl. <tt src={/class-icons/explorers/pathfinder/evasion-boost.png} tip={Evasion Boost (3rd Job)}>)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/link-skills/adventurers-curiosity.png} tip={Adventurer's Curiosity (Link Skill)} val={+10%}> <bg src={/class-icons/explorers/archer/critical-shot.png} tip={Critical Shot (1st Job)} val={+40%}> <bg src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} val={+20%}> <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+20%}> <bg type={temp} src={/class-icons/explorers/marksman/evasion-boost.png} tip={Evasion Boost (3rd Job)} val={+100% upon activating}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+50%(60%)",
+                "detail": "<bg src={/class-icons/explorers/marksman/reckless-hunt.png} tip={Reckless Hunt: Crossbow (3rd Job)} val={+20%}> <bg src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} val={+15%}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+15%}> <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} val={+50% of Crit Rate}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+27%(97%)",
+                "detail": "<bg src={/class-icons/link-skills/adventurers-curiosity.png} tip={Adventurer's Curiosity (Link Skill)} val={+6%}> <bg src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship (3rd Job)} val={+21%}> <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+20%}> <bg type={temp} src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/marksman/mortal-blow.png} tip={Mortal Blow (3rd Job)} val={+20% with 10% chance}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+68.42%(75.15%)",
+                "detail": "<bg src={/class-icons/explorers/marksman/crossbow-mastery.png} tip={Crossbow Mastery (2nd Job)} val={+20%}> × <bg src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+8%}> × <bg src={/class-icons/explorers/marksman/bolt-surplus.png} tip={Bolt Surplus (4th Job)} val={+15%}> × <bg src={/class-icons/explorers/marksman/last-man-standing.png} tip={Last Man Standing (4th Job)} val={+13%}> × <bg type={temp} src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+4% from buff}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+58%(70.77%)",
+                "detail": "<bg src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship (3rd Job)} val={+25%}> × <bg src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+20%}> × <bg src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion (4th Job)} val={+30%}> × <bg type={temp} src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+13% from buff}> × <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+20%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
+            "summons": "<tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job)} dur={[600s]}> <tt src={/class-icons/explorers/marksman/blink-bolt.png} tip={Blink Bolt (3rd Job)} dur={[120s]}> <tt src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion (4th Job)} dur={[30s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "buffCd": "<tt src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/marksman/final-aim.png} tip={Final Aim (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/marksman/pain-killer.png} tip={Pain Killer (3rd Job)} dur={[3s](75s cd)}> <tt src={/class-icons/explorers/marksman/perfect-shot.png} tip={Perfect Shot (5th Job)} dur={[Up to 2s while casting & 1s after casting](60s cd)}> <tt src={/class-icons/explorers/marksman/final-aim.png} tip={Final Aim (6th Job)} dur={[360s cd]}>"
+        },    
+        "linkSkill": {
+            "id":80002766,
+            "offline": true,
+            "name": "Adventurer's Curiosity",
+            "maxLevel": 9,
+            "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%",
+            "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/archer/double-jump-1.png} tip={Double Jump}> -> <tt src={/class-icons/explorers/archer/archery-mastery.png} tip={Archery Mastery}> -> <tt src={/class-icons/explorers/archer/critical-shot.png} tip={Critical Shot}> -> <tt src={/class-icons/explorers/archer/arrow-blow.png} tip={Arrow Blow}>"],
+                ["2nd Job", "<tt src={/class-icons/explorers/marksman/crossbow-mastery.png} tip={Crossbow Mastery}> -> <tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/marksman/agile-crossbows.png} tip={Agile Crossbows}> -> <tt src={/class-icons/explorers/marksman/soul-arrow.png} tip={Soul Arrow}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack}> -> <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow}> -> <tt src={/class-icons/explorers/marksman/covering-fire.png} tip={Covering Fire}> -> <tt src={/class-icons/explorers/marksman/swift-surge.png} tip={Swift Surge}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/marksman/reckless-hunt.png} tip={Reckless Hunt: Crossbow}> -> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey}> -> <tt src={/class-icons/explorers/marksman/evasion-boost.png} tip={Evasion Boost}> -> <tt src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship}> -> <tt src={/class-icons/explorers/marksman/aggressive-resistance.png} tip={Aggressive Resistance}> -> <tt src={/class-icons/explorers/marksman/blink-bolt.png} tip={Blink Bolt}> -> <tt src={/class-icons/explorers/marksman/empowered-arrows.png} tip={Empowered Arrows}> -> <tt src={/class-icons/explorers/marksman/bolt-burst.png} tip={Bolt Burst}> -> <tt src={/class-icons/explorers/marksman/mortal-blow.png} tip={Mortal Blow}> -> <tt src={/class-icons/explorers/marksman/pain-killer.png} tip={Pain Killer}>"],
+                ["4th Job", "<tt src={/class-icons/explorers/marksman/bolt-surplus.png} tip={Bolt Surplus}> -> <tt src={/class-icons/explorers/marksman/last-man-standing.png} tip={Last Man Standing}> -> <tt src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert}> -> <tt src={/class-icons/explorers/marksman/piercing-arrow-ii.png} tip={Piercing Arrow II}> -> <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes}> -> <tt src={/class-icons/explorers/marksman/illusion-step.png} tip={Illusion Step}> -> <tt src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion}> -> <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "[For Training]<bp_<tt src={/class-icons/explorers/marksman/piercing-arrow-reinforce.png} tip={Piercing Arrow - Reinforce}> <tt src={/class-icons/explorers/marksman/piercing-arrow-spread.png} tip={Piercing Arrow - Spread}> <tt src={/class-icons/explorers/marksman/piercing-arrow-extra-strike.png} tip={Piercing Arrow - Extra Strike}> Piercing Arrow - Reinforce, Spread, and Extra Strike_<tt src={/class-icons/explorers/marksman/snipe-extra-strike.png} tip={Snipe - Extra Strike}> <tt src={/class-icons/explorers/marksman/snipe-reinforce.png} tip={Snipe - Reinforce}> Snipe - Extra Strike and Reinforce_>[For Bossing]<bp_<tt src={/class-icons/explorers/marksman/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak}> <tt src={/class-icons/explorers/marksman/sharp-eyes-critical-chance.png} tip={Sharp Eyes - Critical Chance}> Sharp Eyes - Guardbreak and Critical Strike_<tt src={/class-icons/explorers/marksman/snipe-extra-strike.png} tip={Snipe - Extra Strike}> <tt src={/class-icons/explorers/marksman/snipe-reinforce.png} tip={Snipe - Reinforce}> <tt src={/class-icons/explorers/marksman/snipe-boss-rush.png} tip={Snipe - Boss Rush}> Snipe - Extra Strike, Reinforce, and Boss Rush_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe/Empowered Snipe (4th Job)}> <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow/Empowered Piercing Arrow (2nd Job)}> <tt src={/class-icons/explorers/marksman/bolt-burst.png} tip={Bolt Burst/Frostprey (3rd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/marksman/high-speed-shot.png} tip={High Speed Shot / Arrow Illusion (Hyper Skill / 3rd Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack: Crossbow (2nd Job)}> <tt src={/class-icons/explorers/marksman/covering-fire.png} tip={Covering Fire (2nd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}>",
+                "<tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}>",
+                "<tt src={/class-icons/explorers/marksman/bolt-burst.png} tip={Bolt Burst (3rd Job)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job)}>",
+                "<tt src={/class-icons/common/final-attack.png} tip={Final Attack: Crossbow (2nd Job)}> <tt src={/class-icons/explorers/marksman/high-speed-shot.png} tip={High Speed Shot (Hyper Skill)}>",
+                "<tt src={/class-icons/explorers/marksman/covering-fire.png} tip={Covering Fire (2nd Job)}> <tt src={/class-icons/explorers/marksman/swift-surge.png} tip={Swift Surge (2nd Job)}>",
+                "<tt src={/class-icons/explorers/archer/arrow-blow.png} tip={Arrow Blow (1st Job)}> <tt src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion (4th Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Marksman"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%8B%A0%EA%B6%81(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/BYvnXkz9cv"}
+        ],
+        "infographics": [
+            {
+                "src": "/marksman/marksman-overview.png",
+                "title": "Overview",
+                "credit": "LoliFox",
+                "date": "2026-05-15"
+            },
+            {
+                "src": "/marksman/marksman-6th-job-fragments.png",
+                "title": "6th Job (Fragments Efficient)",
+                "credit": "Marksman Discord",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "/marksman/marksman-6th-job-energy.png",
+                "title": "6th Job (Energy Efficient)",
+                "credit": "Marksman Discord",
+                "date": "2026-06-25"
+            }
+        ],
+        "specialThanks": "Special thanks to Auroa, Daxisla, and the members of the Marksman Discord for their help in making this overview!",
+        "discord": "https://discord.gg/BYvnXkz9cv",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Marksman Discord"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Adventurer's Curiosity",
+                    "maxLevel": 9,
+                    "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%, Damage: +6%",
+                    "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "For Explorer Archers, also permanently increases %Damage",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/zhPxKtKNgZFuKI3FGG/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/9wh1mRFRVComhZnbqF/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/JoV0TLzbuk9X8FU6I9/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/pjGlS4y2K7VnXZx6xb/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmo1MHJ3aDRkYWlmM2FlczkyeGk5Mzl3djN3M2RmbWl0YzU3dmRubSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ccsMwjhwn4rwnaz2Po/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Arrow Blow",
+                        "shortDesc": "MP Cost: 11, Damage: 160%, Max Enemies Hit: 5, Arrows Fired: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/archer/arrow-blow.png"],
+                        "animations": ["https://media.giphy.com/media/XWOgS9qKfamgSphC9o/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires several piercing arrows forward"
+                    },
+                    {
+                        "name": "Double Jump",
+                        "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/archer/double-jump-1.png"],
+                        "animations": ["https://media.giphy.com/media/UQiC6GNFroT9H9SQYC/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "While in the air, double-tapping the Up/Down Arrow Key will perform an Up Jump or Down Jump<bp_Right-clicking the skill will toggle a function ON/OFF to perform the jump by pressing Up/Down Arrow Key + Jump Key instead_>"
+                        ]
+                    },
+                    {
+                        "name": "Critical Shot",
+                        "shortDesc": "Critical Rate: +40%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/archer/critical-shot.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Archery Mastery",
+                        "shortDesc": "Range +120, Speed +30, Attack Speed: +1.\\nMax Speed Increased to 160",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/archer/archery-mastery.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Piercing Arrow",
+                        "shortDesc": "MP Cost: 36, Damage: 130%, Max Enemies Pierced: 6, Number of Attacks: 4.\\nFinal Damage increases by 15% with each enemy pierced, and damage is doubled.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/marksman/piercing-arrow.png"],
+                        "animations": ["https://media.giphy.com/media/Va4dED7NiunVlgmOjM/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires an arrow that pierces through enemies",
+                        "details": [
+                            "Gains increased %Final Damage (multiplicatively) with each enemy pierced"
+                        ]
+                    },
+                    {
+                        "name": "Covering Fire",
+                        "shortDesc": "MP Cost: 5, if you press and hold the skill key after jumping a certain distance backward, you will attack enemies at up to 105% of damage for 2 sec while in mid-air",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/marksman/covering-fire.png"],
+                        "animations": ["https://media.giphy.com/media/EsgB5I7dqnZ8rDn7JQ/giphy.gif"],
+                        "type": "Key-down Leap Attack",
+                        "desc": "Leap backwards into the air and fire a stream of arrows",
+                        "details": [
+                            "While casting, you will not be knocked back at all (Super Knockback Resistance)"
+                        ]
+                    },
+                    {
+                        "name": "Swift Surge",
+                        "shortDesc": "MP Cost: 8, Max Enemies Hit: 6, Damage: 105%, Number of Attacks: 3 while moving",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/swift-surge.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJlamJqdXJqOXk4bm1zZGxmdmd0NjdjNDR0dmEwcndmdDlnOGUyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MEi1g3rY0BJpfMVibE/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies"
+                    },
+                    {
+                        "name": "Agile Crossbows",
+                        "shortDesc": "Attack Speed: +2, DEX: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/agile-crossbows.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Soul Arrow: Crossbow",
+                        "shortDesc": "Attack Power: +30. Allows you to attack without consuming arrows.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/soul-arrow.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Uses the arrow with the highest Attack to calculate your damage"
+                        ]
+                    },
+                    {
+                        "name": "Crossbow Mastery",
+                        "shortDesc": "Crossbow Mastery: +50%, Final Damage: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/crossbow-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Final Attack : Crossbow",
+                        "shortDesc": "[Final Attack Skill] Has a 40% chance to deal a final attack that deals 150% damage.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/final-attack.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful direct attacks have a chance to deal an additional hit"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Empowered Arrows",
+                        "shortDesc": "After striking enemies with Piercing Arrows 3 times, your next Piercing Arrow will be upgraded to an Empowered Piercing Arrow.\\nEmpowered Piercing Arrow - MP Cost: 30, Damage: 230%, Max Enemies Pierced: 8, Number of Attacks: 6\\n[Passive Effects - Piercing Arrow Damage: +140% points]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/empowered-arrows.png"],
+                        "animations": ["https://media.giphy.com/media/vKi397hzZ1cPS0QuI6/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "After striking enemies with <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> a set number of times, the next <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> will be empowered",
+                        "details": [
+                            "Also permanently increases %Damage of <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Frostprey",
+                        "shortDesc": "MP Cost: 70, Frostprey Summon Duration: 600 sec.\\nDamage: 390%, Max Enemies Hit: 4, Freeze Duration: 3 sec.\\n[Passive Effects - Defense: +30%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/frostprey.png"],
+                        "animations": ["https://media.giphy.com/media/sWI9uhmePRbGpdUp12/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a Frostprey that fights alongside you",
+                        "details": [
+                            "[Passive]: Permanently increases %DEF",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Bolt Burst",
+                        "shortDesc": "MP Cost: 90, Damage: 300%, Number of Attacks: 6, Max Enemies Hit: 8\\nCooldown: 7 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/marksman/bolt-burst.png"],
+                        "animations": ["https://media.giphy.com/media/wUJcRrEb7TkawV4M8C/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Release a burst of arrows around you"
+                    },
+                    {
+                        "name": "Blink Bolt",
+                        "shortDesc": "MP Cost: 28. Places a marker that lasts 120 sec.\\nUse skill again to teleport to the marker's location. Teleport Cooldown: 2 sec.\\nUse the skill again while holding the Down Arrow key to replace your previous marker. Marker Placement Cooldown: 1 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/blink-bolt.png"],
+                        "animations": ["https://media.giphy.com/media/peJoPVeYiQPyxwisWq/giphy.gif"],
+                        "type": "Active Utility",
+                        "desc": "Place down a marker that allows you to teleport back to it freely while summoned",
+                        "details": [
+                            "Pressing the Skill Key again allows you to teleport to the marker",
+                            "Pressing the Down Arrow Key and Skill Key together allows you to move the marker to your position"
+                        ]
+                    },
+                    {
+                        "name": "Pain Killer",
+                        "shortDesc": "MP Cost: makes you invincible for 3 sec.\\nCooldown: 75 sec.\\n[Passive Effect: Increases Status Resistance by 20 and Elemental Resistance by 20%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/marksman/pain-killer.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3N3Y2t3bGQ2MGF2bTRhc3MzMG43Y3g5bjZoZDZzMGI2dWVqNng3dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yozGbTq8w880DDAf2f/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When used, briefly become invincible",
+                        "details": [
+                            "[Passive]: Permanently increases Status Resistance and %Elemental Resistance",
+                            "While active, only the following skills can be used: <tt src={/class-icons/explorers/archer/double-jump-1.png} tip={Double Jump (1st Job)}> <tt src={/class-icons/explorers/marksman/blink-bolt.png} tip={Blink Bolt (3rd Job)}>",
+                            "Pressing the Skill Key again will end the buff early",
+                            "Unaffected by cooldown resets"
+                    ]
+                    },
+                    {
+                        "name": "Reckless Hunt: Crossbow",
+                        "shortDesc": "Reduces Avoidability. Critical Damage: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/reckless-hunt.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Mortal Blow",
+                        "shortDesc": "Grants a 10% chance when attacking to deal 20% increased damage to an enemy. 1% Max HP & MP recovered when triggered.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/mortal-blow.png"],
+                        "type": "Passive",
+                        "desc": "Grants a chance for your attack to gain increased %Damage",
+                        "details": [
+                            "Restores some %Max HP/MP when the effect is triggered"
+                        ]
+                    },
+                    {
+                        "name": "Aggressive Resistance",
+                        "shortDesc": "When attacking, for 8 sec, 20% of damage dealt will be converted into a barrier. Reduces 60% of damage taken. Able to reduce damage up to 65% of Max HP",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/aggressive-resistance.png"],
+                        "type": "Passive",
+                        "desc": "When attacking, you create a shield based on a portion of your damage dealt that absorbs a portion of incoming damage"
+                    },
+                    {
+                        "name": "Evasion Boost",
+                        "shortDesc": "Dodge Chance: 30%, all attacks following a successful dodge for 1 sec will be criticals, Knockback Resistance: +40%, Max HP: +40%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/explorers/marksman/evasion-boost.png"],
+                        "type": "Passive",
+                        "desc": "Grants a chance to dodge attacks",
+                        "details": [
+                            "Dodging an attack, causes all your attacks to be Critical Hits briefly",
+                            "Also permanently increases %Knockback Resistance and %Max HP"
+                        ]
+                    },
+                    {
+                        "name": "Marksmanship",
+                        "shortDesc": "Monster DEF Ignored: 25%, Damage: +21%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/marksman/marksmanship.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "Piercing Arrow II",
+                        "shortDesc": "MP Cost: 42, Damage: 343%, Max Enemies Pierced: 8, Number of Attacks: 5\\nWhen piercing multiple enemies, each pierced enemy takes 15% more Final Damage than the previous one.\\nArrow Fragment bounces off the first enemy hit, dealing 350% damage 4 times up to 2 enemies.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/marksman/piercing-arrow-ii.png", "/class-icons/explorers/marksman/piercing-arrow.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage, Max Enemies Pierced, and Number of Attacks of attack",
+                            "Now creates fragments off the first enemy hit that damages nearby enemies previously not hit by Piercing Arrow"
+                        ]
+                    },
+                    {
+                        "name": "Snipe",
+                        "shortDesc": "MP Cost: 50, Damage: 440%, Number of Attacks: 9\\nIgnore Defense: 25%, Bonus Critical Rate: 100%\\nEnemies struck are marked and using Empowered Snipe on them deals 296% additional damage 5 times.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/marksman/snipe.png"],
+                        "animations": ["https://media.giphy.com/media/7hZHwy9vChFFsfSXHI/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a powerful arrow at one enemy and marks them",
+                        "details": [
+                            "Marked enemies hit by an <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)}> Empowered Snipe are dealt an additional attack",
+                            "Attack is a guaranteed Critical Hit and has increased %Ignore DEF",
+                            "Prioritizes enemy with highest max HP within range first"
+                        ]
+                    },
+                    {
+                        "name": "Greater Empowered Arrows",
+                        "shortDesc": "When Piercing Arrow hits 3 times, Empowered Piercing Arrow II can be activated.\\nWhen Snipe hits 3 times, Empowered Snipe can be activated.\\nEmpowered Piercing Arrow II: MP Cost: 87. Pierces up to 10 enemies, dealing 427% damage 6 times. Explodes at end trajectory, dealing 280% damage 10 times to up to 10 enemies.\\nEmpowered Snipe: MP Cost: 105. Deals 494% damage 10 times with +25% Ignore DEF and +100% Critical Rate. Striking an enemy marked by Snipe deals 296% additional damage 10 times.\\nMarked Target: Final Damage +4% for 30 sec, Ignore Monster DEF: +13%.\\n[Passive Effect] Final Damage +8%, Ignore DEF: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/marksman/greater-empowered-arrows.png", "/class-icons/explorers/marksman/empowered-arrows.png"],
+                        "animations": ["https://media.giphy.com/media/oZuLKhz2cau77eqju2/giphy.gif", "https://media.giphy.com/media/tVnArmNaS8ZAU4FZVD/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage, Max Enemies Pierced, and Number of Attacks of empowered attack",
+                            "Empowered attack now explodes at the end, damaging nearby enemies",
+                            "<tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> will now also be empowered by using <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> a set number of times<bp_Enemies hit with empowered <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> are dealt an additional attack_>",
+                            "All Empowered attacks grant a buff upon successful attacks<bp_[Buff]: Increases %Final Damage and %Ignore DEF_>",
+                            "Also permanently increases your %Final Damage and %Ignore DEF"
+                        ]
+                    },
+                    {
+                        "name": "Arrow Illusion",
+                        "shortDesc": "MP Cost: 70, summon Arrow Illusion with 100000 HP for 30 sec\\nArrow Illusion periodically deals 200% damage and pulls in enemies. 70% chance to stun hit enemies for 4 sec.\\nWhen Arrow Illusion takes damage, reflect 1200% of damage.\\n[Passive Effects - Ignore Defense: 30%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/marksman/arrow-illusion.png"],
+                        "animations": ["https://media.giphy.com/media/pwHqrlYWIXXyRcFznn/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place an arrow that pulls in and damages nearby enemies",
+                        "details": [
+                            "[Passive]: Permanently increases %Ignore DEF",
+                            "Enemies hit have a chance to be stunned",
+                            "When the Arrow Illusion is hit, it will deal a counterattack",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Sharp Eyes",
+                        "shortDesc": "MP Cost: 45, Critical Rate: +20%, Critical Damage: +15%, Duration: 300 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/sharp-eyes.png"],
+                        "animations": ["https://media.giphy.com/media/arSXrluYWYc6XgCsjL/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/8K2X6DqmJuyY4CTxKm/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/3AZZ1uxk00W7MtxdIA/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Crossbow Expert",
+                        "shortDesc": "Crossbow Mastery: +70%. Attack Power: +40, Critical Damage: +15%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/marksman/crossbow-expert.png", "/class-icons/explorers/marksman/crossbow-mastery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Crit Damage"
+                        ]
+                    },
+                    {
+                        "name": "Illusion Step",
+                        "shortDesc": "DEX: +80, Bonus Avoidability Chance: 30% chance, Damage Taken: -20%, Knockback Resistance: +60%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/marksman/illusion-step.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Bolt Surplus",
+                        "shortDesc": "Increases the number of attacks for all multi-hit skills by 1.\\nFinal damage increases by 15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/bolt-surplus.png"],
+                        "type": "Passive",
+                        "desc": "Increases the number of hits per attack of multi-hit skills (by +1) and increases %Final Damage",
+                        "details": [
+                            "Multi-hit skills does not include summons and 5th Job Common Skills"
+                        ]
+                    },
+                    {
+                        "name": "Last Man Standing",
+                        "shortDesc": "Final Damage: +13%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/marksman/last-man-standing.png"],
+                        "type": "Passive"
+                    }
+                ]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Sharp Eyes - Persist",
+                    "shortDesc": "Duration: +30 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/sharp-eyes-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Sharp Eyes - Guardbreak",
+                    "shortDesc": "Enemy DEF Ignored: +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/sharp-eyes-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Sharp Eyes - Critical Chance",
+                    "shortDesc": "Critical Rate: +5%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/sharp-eyes-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Piercing Arrow - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/piercing-arrow-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Piercing Arrow - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/piercing-arrow-spread.png"],
+                    "desc": "",
+                    "details": [
+                        "Does not apply to arrow fragments created"
+                    ],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Piercing Arrow - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/piercing-arrow-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Snipe - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/snipe-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Snipe - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/snipe-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Snipe - Boss Rush",
+                    "shortDesc": "Boss Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/snipe-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Bullseye Shot",
+                    "shortDesc": "MP Cost: 200, Duration: 40 sec, Critical Rate: +20%, Critical Damage: +10%, Monster DEF Ignored: +20%, Damage: +20%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/bullseye-shot.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnY1dDViNnJnYXVqeDAwMWwzaXhzbjlyMmwwZXNnMWdwYTljdDR5bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WqfdhjmlAhOU2o174R/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "name": "High Speed Shot",
+                    "shortDesc": "MP Cost: 300, Damage: 450%, Number of Attacks: 9, Enemies Hit: 12\\nCooldown: 15 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/marksman/high-speed-shot.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXY4bGhvaG81aHVkNWVmczR1bzNla2IwZjBsOXJlbmh1azFnYTRuaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/chDfVQh7s2XjflWtQ1/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire a barrage of arrows at enemies in range",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/archer/epic-adventure.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjQ0bG5tazB6bHE0emNheHJrZWUyNzRqd3U1bThiMjh2cXQ1M2ZweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yX4sVdl8T6a2PLvGmT/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expArcher", "goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthMain": [
+                {
+                    "name": "Perfect Shot",
+                    "shortDesc": "MP Cost: 1000. Shooting once, Max Enemies Hit: 12, Damage: 2090%, Number of Attacks: 14, Multiple Critical Shot Count: 6\\nDamage: +100%, Ignore Defense: 100%\\nDuration: 2 sec. Invincible for 1 sec. after skill ends.\\nSuccessful hits grant Marked Target for 30 sec.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/explorers/marksman/perfect-shot.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3N3YTgyNm00M3VtMnBjeW56OHE5Y25jbXNycDNvNGx2aDU2NHF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTSMPrKQjiJxiW8Cnh/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Allows you to aim and fire an arrow at enemies using your mouse",
+                    "details": [
+                        "Attack has increased %Damage and 100% Ignore DEF",
+                        "Use the Left Mouse Button to attack and Right Mouse Button to cancel the Skill",
+                        "You are invincible while in casting and briefly after the skill ends",
+                        "Provides the buff from <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)}> on successful attacks",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Split Shot",
+                    "shortDesc": "MP Cost: 800, Duration: 72 sec. Landing a hit with Full Burst Shot after using Piercing Arrow, Snipe, Empowered Piercing Arrow, Empowered Snipe, Ultimate Piercing, Ultimate Snipe, Final Aim, or Repeating Crossbow Cartridge causes your arrow to split and attack up to 10 enemies, dealing 1302% damage 5 times.\\nIgnore Defense: 25%\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/marksman/split-shot.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW9iNWtwcXB5ampma29udmtmcHdobnlpNG12NTk0Z2FuZG4xbW5yNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CicYcmyNPYbTuOOF6r/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, successful attacks from <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> <tt src={/class-icons/explorers/marksman/repeating-crossbow-cartridge.png} tip={Repeating Crossbow Cartridge (5th Job)}> <tt src={/class-icons/explorers/marksman/hexa-snipe-3.png} tip={Ultimate Snipe (6th Job)}> <tt src={/class-icons/explorers/marksman/hexa-piercing-arrow-3.png} tip={Ultimate Piercing Arrow (6th Job)}/> releases a burst of arrows forward",
+                    "details": [
+                        "Attack deals increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Surge Bolt",
+                    "shortDesc": "MP Cost: 750, Max Enemies Hit: 10, Damage: 1925%, Number of Attacks: 12, Strike Count: 2\\n Bonus Ignore Defense: 50%, Additional Critical Rate: +100%\\nCooldown: 20 sec",
+                    "icons": ["/class-icons/explorers/marksman/surge-bolt.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmVxbzR0Y3c3N2k4dzhnbHBkeThrY3RvbmoweXUxcDBvbnk3ZnF6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2saTLGjCOLwBAAg1lS/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire forward a powerful piercing arrow",
+                    "details": [
+                        "Can be used while casting <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job}> <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> <tt src={/class-icons/explorers/marksman/high-speed-shot.png} tip={High Speed Shot (Hyper Skill)}> <tt src={/class-icons/explorers/marksman/repeating-crossbow-cartridge.png} tip={Repeating Crossbow Cartridge (5th Job)}>",
+                        "Attack is a guaranteed Critical Hit and has increased %Ignore DEF",
+                        "Upon successfully hitting, grants the buff from <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)}>"
+                    ]
+                },
+                {
+                    "name": "Repeating Crossbow Cartridge",
+                    "shortDesc": "MP Cost: 750, Duration: 60 sec, Usable Cartridges: 8\\nFull Burst Shot: MP Cost: 150, Cartridge Used: 1, Damage: 1100%, Number of Arrow Attacks: 9, Arrows Fired: 4, Ignore Defense: 25%, Critical Rate: 100%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/explorers/marksman/repeating-crossbow-cartridge.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGFyOW96aTJzZDdyOGgzd2N5dnk3NW5lMDNyd2RjcjZzbzA5YnVwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UaztPImMHeYuWfOHjK/giphy.gif"],
+                    "type": "Attack / Buff",
+                    "desc": "While active, pressing the Skill Key fires a special arrow forward",
+                    "details": [
+                        "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
+                        "There is a limited amount of arrows that can be fired",
+                        "Prioritizes bosses with the highest HP first",
+                        "Provides the buff from <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)}> on successful attacks"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Final Attack: Crossbow Boost",
+                    "shortDesc": "Final Attack: Crossbow Final Damage: +240%",
+                    "icons": ["/class-icons/common/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Bolt Burst/Frostprey Boost",
+                    "shortDesc": "Bolt Burst/Frostprey Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/marksman/bolt-burst.png", "/class-icons/explorers/marksman/frostprey.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Arrow Blow Boost",
+                    "shortDesc": "Arrow Blow Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/archer/arrow-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Covering Fire Boost",
+                    "shortDesc": "Covering Fire Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/marksman/covering-fire.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Piercing Arrow/Empowered Piercing Arrow Boost",
+                    "shortDesc": "Piercing Arrow/Empowered Piercing Arrow Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/marksman/piercing-arrow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Snipe/Empowered Snipe Boost",
+                    "shortDesc": "Snipe/Empowered Snipe Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/marksman/snipe.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Boost High Speed Shot / Arrow Illusion",
+                    "shortDesc": "High Speed Shot / Arrow Illusion Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/marksman/high-speed-shot.png", "/class-icons/explorers/marksman/arrow-illusion.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/marksman/hexa-snipe-1.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Snipe",
+                    "shortDesc": "MP Cost: 70, Damage: 617%, Number of Attacks: 9\\nEnemies struck are marked.\\nEmpowered Snipe - MP Cost: 140, Damage: 590%, Number of Attacks: 10\\nWhen striking a marked enemy, Damage: 380%, Number of Additional Attacks: 5\\nUltimate Snipe - MP Cost: 140\\nDamage: 325%, Number of Attacks: 10, Number of Arrows: 2\\nWhen striking a marked enemy, Damage: 385%, Number of Additional Attacks: 5\\nSnipe, Empowered Snipe, and Ultimate Snipe - Ignore Defense: 40%, Bonus Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/marksman/hexa-snipe-1.png", "/class-icons/explorers/marksman/hexa-snipe-2.png", "/class-icons/explorers/marksman/hexa-snipe-3.png", "/class-icons/explorers/marksman/snipe.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXpsNGFyZnZ6NHdocmlqNTM0cXVqNjB4Nnp4cnFrbG96czdtbWJhMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/s4pp9HBuIiCsjehAhQ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/marksman/hexa-piercing-arrow-1.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Piercing Arrow",
+                    "shortDesc": "Piercing Arrow: MP Cost: 65, Max Enemies Penetrated: 8, Damage: 555%, Number of Attacks: 5\\nFinal Damage for Each Enemy Penetrated: +15% (increase occurs between hits)\\nArrow Fragments bounce off the first enemy penetrated, dealing 595% damage 4 times to up to 3 enemies\\nEmpowered Piercing Arrow: MP Cost: 110, Max Enemies Hit: 10, Damage: 670%, Number of Attacks: 10\\nUltimate Piercing Arrow: MP Cost: 110, Max Enemies Hit: 10, Damage: 680%, Number of Attacks: 6. The arrow explodes at the point where it disappears, dealing 440% damage, 10 times, to up to 10 enemies.\\n[Passive Effect: HEXA Snipe Damage: +90% points, HEXA Empowered Snipe Damage: +132% points, Bonus HEXA Empowered Snipe Damage: +60% points, HEXA Ultimate Snipe: +60% points, Bonus HEXA Ultimate Snipe Damage: +60% points]",
+                    "icons": ["/class-icons/explorers/marksman/hexa-piercing-arrow-1.png", "/class-icons/explorers/marksman/hexa-piercing-arrow-2.png", "/class-icons/explorers/marksman/hexa-piercing-arrow-3.png", "/class-icons/explorers/marksman/piercing-arrow.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGxjejYyYzF3NDFvMjhmN2RobTg4dHY4M3IwbXZqcm96a2F4M3BmdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HAxcLBWOi8RU1MSSna/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/marksman/hexa-frostprey-bolt-burst.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/marksman/bolt-burst.png} tip={Bolt Burst (3rd Job)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Frostprey",
+                    "shortDesc": "MP Cost: 90, Frostprey Summon Duration: 600 sec.\\nDamage: 480%, Max Enemies Hit: 6, Number of Attacks: 3\\nEnemies Freeze for 3 sec.\\n[Passive Effect: HEXA Snipe Damage: +102% points, HEXA Empowered Snipe Damage: +90% points, HEXA Empowered Snipe Additional Hit Damage: +100% points, HEXA Ultimate Snipe Damage: +65% points, HEXA Ultimate Snipe Additonal Hit Damage: +60% points]",
+                    "icons": ["/class-icons/explorers/marksman/hexa-frostprey.png", "/class-icons/explorers/marksman/frostprey.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5qOG9wd2dveW81ZGgxbmd1dGxjMTRpenM4azF6eDE4d3ZwdndmbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fSc408XhMpC4Yasp3h/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Bolt Burst",
+                    "shortDesc": "MP Cost: 110, Damage: 680%, Number of Attacks: 7, Max Enemies Hit: 8\\nCooldown: 7 sec",
+                    "icons": ["/class-icons/explorers/marksman/hexa-bolt-burst.png", "/class-icons/explorers/marksman/bolt-burst.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY296dGV0OTR5NzkwNnBxcGJqdmh2NjllYTdxazl6M2hhcnhhaHk1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TyDBSWJFgefQOWrNVl/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/marksman/hexa-final-attack-high-speed-shot.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/common/final-attack.png} tip={Final Attack: Crossbow (2nd Job)}> <tt src={/class-icons/explorers/marksman/high-speed-shot.png} tip={High Speed Shot (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Final Attack",
+                    "shortDesc": "[Final Attack Skill] Chance to Trigger Final Attack: 60%, Damage: 340%\\n[Passive Effect: HEXA Snipe Damage: +30% (additive), HEXA Empowered Snipe Damage: +30% (additive), HEXA Empowered Snipe Additional Hit Damage: +30% (additive), HEXA Ultimate Snipe Damage: +30% (additive), HEXA Ultimate Snipe Additional Hit Damage: +30% (additive)]",
+                    "icons": ["/class-icons/explorers/marksman/hexa-final-attack.png", "/class-icons/common/final-attack.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGV0aDg4OHBuZGMybjVkZnpmNnl1MXpvYnFtZGY2ZWh3bnk5YzJwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dW6zhh0qlspIlW7FVc/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA High Speed Shot",
+                    "shortDesc": "MP Cost: 360, Damage: 552%, Number of Attacks: 9, Max Enemies Hit: 12, Number of Hits: 6\\nCooldown: 40 sec",
+                    "icons": ["/class-icons/explorers/marksman/hexa-high-speed-shot.png", "/class-icons/explorers/marksman/high-speed-shot.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWFtMjU4ZnhpNGUwMnoycDlmeXh3cWxydjZsd3J5Nmtnem03bzRiciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZlSixTKt0Fbj89kr2Q/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Final Aim",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nShockwave Max Enemies Hit: 15, Damage: 1560%, Number of Attacks: 7, Number of Shockwaves: 35\\nAfterwards, Max Enemies Hit: 15, Damage: 1710%, Number of Attacks: 13, Number of Arrows: 35\\nSplit Shot is triggered up to 13 times upon landing Final Aim.\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/marksman/final-aim.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXNua3RyZ3QxMHZtMHF1NzR3azR4cmgybnN0aTNvem9ncHN6Mzc2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iJcNwo6vDXkhHwRKpU/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Fatal Trigger",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe first arrow ruptures enemies 12 times, dealing 7953% damage to up to 15 enemies 11 times\\nThe second arrow strikes enemies 12 times, dealing 8134% damage 14 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/marksman/fatal-trigger.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d6dzBwOHNubjdwMmhqOXhvazlpY3ZuajgwYndoZDRidHJoMXpqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cfdcodk2CeU3USls7m/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Perfect Shot Boost",
+                    "shortDesc": "Perfect Shot Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/marksman/perfect-shot.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Split Shot Boost",
+                    "shortDesc": "Split Shot Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/marksman/split-shot.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Surge Bolt Boost",
+                    "shortDesc": "Surge Bolt Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/marksman/surge-bolt.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Repeating Crossbow Cartridge Boost",
+                    "shortDesc": "Repeating Crossbow Cartridge Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/marksman/repeating-crossbow-cartridge.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Piercing Arrow - 2nd Job",
+                "icons": ["/class-icons/explorers/marksman/piercing-arrow.png"],
+                "animations": ["https://media.giphy.com/media/Va4dED7NiunVlgmOjM/giphy.gif"]
+            },
+            {
+                "name": "Frostprey - 3rd Job",
+                "icons": ["/class-icons/explorers/marksman/frostprey.png"],
+                "animations": ["https://media.giphy.com/media/sWI9uhmePRbGpdUp12/giphy.gif"]
+            },
+            {
+                "name": "Bolt Burst - 3rd Job",
+                "icons": ["/class-icons/explorers/marksman/bolt-burst.png"],
+                "animations": ["https://media.giphy.com/media/wUJcRrEb7TkawV4M8C/giphy.gif"]
+            },
+            {
+                "name": "Snipe - 4th Job",
+                "icons": ["/class-icons/explorers/marksman/snipe.png"],
+                "animations": ["https://media.giphy.com/media/7hZHwy9vChFFsfSXHI/giphy.gif"]
+            },
+            {
+                "name": "Perfect Shot - 5th Job",
+                "icons": ["/class-icons/explorers/marksman/perfect-shot.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3N3YTgyNm00M3VtMnBjeW56OHE5Y25jbXNycDNvNGx2aDU2NHF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTSMPrKQjiJxiW8Cnh/giphy.gif"]
+            },
+            {
+                "name": "Split Shot - 5th Job",
+                "icons": ["/class-icons/explorers/marksman/split-shot.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW9iNWtwcXB5ampma29udmtmcHdobnlpNG12NTk0Z2FuZG4xbW5yNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CicYcmyNPYbTuOOF6r/giphy.gif"]
+            },
+            {
+                "name": "Surge Bolt - 5th Job",
+                "icons": ["/class-icons/explorers/marksman/surge-bolt.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmVxbzR0Y3c3N2k4dzhnbHBkeThrY3RvbmoweXUxcDBvbnk3ZnF6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2saTLGjCOLwBAAg1lS/giphy.gif"]
+            },
+            {
+                "name": "Final Snipe - 6th Job",
+                "icons": ["/class-icons/explorers/marksman/final-aim.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXNua3RyZ3QxMHZtMHF1NzR3azR4cmgybnN0aTNvem9ncHN6Mzc2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iJcNwo6vDXkhHwRKpU/giphy.gif"]
+            },
+            {
+                "name": "Fatal Trigger - 6th Job",
+                "icons": ["/class-icons/explorers/marksman/fatal-trigger.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d6dzBwOHNubjdwMmhqOXhvazlpY3ZuajgwYndoZDRidHJoMXpqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cfdcodk2CeU3USls7m/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Marksman is a DEX archer class part of the Explorers. Marksman utilize Crossbows as their primary weapons. For their secondary weapon, Marksman can equip Bow Thimbles"
+}

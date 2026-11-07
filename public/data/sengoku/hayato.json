@@ -1,0 +1,1014 @@
+{
+    "class": "Hayato",
+    "content": {
+        "classGroup": "Sengoku",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Crit Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["katana"]},
+            {"secondary": ["kodachi"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Attack +21 / Buff Duration +38%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.25x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/sengoku/hayato/mushin.png} tip={Mushin (2nd Job)} val={+2}> <bg src={/class-icons/sengoku/hayato/noble-sword.png} tip={Noble Sword (4th Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "99%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/sengoku/hayato/natural-talent.png} tip={Natural Talent (Beginner Skill)} val={+80%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+30(60) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/sengoku/hayato/indomitable-vanguard.png} tip={Imdomitable Vanguard (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg src={/class-icons/sengoku/hayato/akatsuki-warrior.png} tip={Akatsuki Warrior (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+9% +15(115)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/sengoku/hayato/noble-sword.png} tip={Noble Sword (4th Job)} val={+5%}> <bg src={/class-icons/sengoku/hayato/polished-form.png} tip={Polished Form (2nd Job)} val={+15}> <bg type={temp} src={/class-icons/sengoku/hayato/bushido.png} tip={Bushido (Hyper Skill)} val={+50}> <bg type={opt} src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} val={+50}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+45%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/sengoku/hayato/identify-weakness.png} tip={Identify Weakness (2nd Job)} val={+40%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%(65-67%)",
+                "detail": "<bg src={/class-icons/sengoku/hayato/identify-weakness.png} tip={Identify Weakness (2nd Job)} val={+30%}> <bg type={temp} src={/class-icons/sengoku/hayato/bushido.png} tip={Bushido (Hyper Skill)} val={+15%}> <bg type={temp} src={/class-icons/link-skills/moonlit-blade-learnings.png} tip={Moonlit Blade Learnings (Link Skill)} val={Lv 2: +5%, Lv 3: +7%} val={When Crit Rate above 100%}> <bg type={opt} src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} val={+15%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+70%(80%)",
+                "detail": "<bg src={/class-icons/sengoku/hayato/indomitable-vanguard.png} tip={Imdomitable Vanguard (2nd Job)} val={+20%}> <bg src={/class-icons/sengoku/hayato/hitokiri-hundred-strike-legacy.png} tip={Hitokiri Hundred Strike Legacy (3rd Job)} val={+20%}> <bg src={/class-icons/sengoku/hayato/cleaver.png} tip={Cleaver (4th Job)} val={+30%}> <bg type={temp} src={/class-icons/sengoku/akatsuki-blessing.png} tip={Akatsuki Blessing (Hyper Skill)} val={+10%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "(+20%)",
+                "detail": "<bg type={temp} src={/class-icons/sengoku/hayato/bushido.png} tip={Bushido (Hyper Skill)} val={+20%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+72.5%(204.75% / 206.27-219.99% in 6th Job) (814.25% w/ <tt src={/class-icons/sengoku/hayato/noto.png} tip={Noto (4th Job)}> / 818.82-859.96% in 6th Job)",
+                "detail": "<bg src={/class-icons/sengoku/hayato/endless-rain.png} tip={Endless Rain (3rd Job)} val={+15%}> × <bg type={temp} src={/class-icons/sengoku/hayato/akatsuki-samurai.png} tip={Akatsuki Samurai (2nd Job)} src={/class-icons/sengoku/hayato/shogetsu-form.png} tip={Shogetsu Form (5th Job)} val={[During Akatsuki] +50%} val={[During Shogetsu] +100% (101-110% in 6th Job)}> × <bg type={temp} src={/class-icons/sengoku/hayato/noto.png} tip={Noto (4th Job)} val={+200% to next Battou Skill}> × <bg type={opt} src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} val={+25%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+48%(72.7%)",
+                "detail": "<bg src={/class-icons/sengoku/hayato/cleaver.png} tip={Cleaver (4th Job)} val={+35%}> × <bg type={temp} src={/class-icons/sengoku/hayato/akatsuki-samurai.png} tip={Akatsuki Samurai (2nd Job)} src={/class-icons/sengoku/hayato/shogetsu-form.png} tip={Shogetsu Form (5th Job)} val={[During Akatsuki] +20%} val={[During Shogetsu] +50% (51-80% in 6th Job)}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/sengoku/hayato/mushin.png} tip={Mushin (2nd Job)} dur={[200s]}>",
+            "buffCd": "<tt src={/class-icons/sengoku/hayato/noto.png} tip={Noto (4th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/sengoku/hayato/bushido.png} tip={Bushido (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/sengoku/akatsuki-blessing.png} tip={Akatsuki Blessing (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/sengoku/hayato/shogetsu-form.png} tip={Shogetsu Form (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/sengoku/hayato/shin-quick-draw.png} tip={Shin Quick Draw (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/sengoku/hayato/reactive-focus.png} tip={Reactive Focus (3rd Job)} dur={[2s upon parry](30s cd)}> <tt src={/class-icons/sengoku/hayato/battou-wailing-heavens-1.png} tip={[Battou] Wailing Heavens (5th Job)} dur={[3s](120s cd)}> <tt src={/class-icons/sengoku/hayato/shin-quick-draw.png} tip={Shin Quick Draw (6th Job)} dur={(360s cd)}> <tt src={/class-icons/sengoku/hayato/fleeting-breath.png} tip={Fleeting Breath (6th Job)} dur={(240s cd | 3 uses during boss)}>",
+            "damageReduce": "<tt src={/class-icons/sengoku/hayato/deflection.png} tip={Deflection (4th Job)} dur={[3s](-50% | 20% to activate when hit, 15s cd)}> <tt src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} dur={[40s](-20% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000003,
+            "offline": true,
+            "name": "Moonlit Blade Learnings",
+            "maxLevel": 3,
+            "shortDesc": "If Critical Rate: 100%+ and Critical Damage: 50%, Critical Damage: +7%",
+            "icons": ["/class-icons/link-skills/moonlit-blade-learnings.png"],
+            "type": "Passive"
+        },
+        "howToCreate": {
+            "image": ["/class-icons/sengoku/how-to-create-hayato.png",[499,374]],
+            "npc": [
+                ["",""]
+
+            ],
+            "info": [
+                "Hayato is only available for creation in Japan, China, Global, SEA, and Taiwan versions of MapleStory"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/sengoku/hayato/battoujutsu-dash.png} tip={Battoujutsu Dash}> -> <tt src={/class-icons/sengoku/hayato/aoryu.png} tip={Aoryu}> -> <tt src={/class-icons/sengoku/hayato/shinsoku-mist-slash.png} tip={[Shinsoku] Mist Slash}> -> <tt src={/class-icons/sengoku/hayato/shinsoku-grazing-cut.png} tip={[Shinsoku] Grazing Cut}>"],
+                ["2nd Job", "<tt src={/class-icons/sengoku/hayato/polished-form.png} tip={Polished Form}> -> <tt src={/class-icons/sengoku/hayato/mushin.png} tip={Mushin}> -> <tt src={/class-icons/sengoku/hayato/identify-weakness.png} tip={Identify Weakness}> -> <tt src={/class-icons/sengoku/hayato/akatsuki-samurai.png} tip={Akatsuki Samurai}> -> <tt src={/class-icons/sengoku/hayato/indomitable-vanguard.png} tip={Indomitable Vanguard}> -> <tt src={/class-icons/sengoku/hayato/mist-slash-mastery.png} tip={Mist Slash Mastery}> -> <tt src={/class-icons/sengoku/hayato/battou-crossing-draw-1.png} tip={[Battou] Crossing Draw}> -> <tt src={/class-icons/sengoku/hayato/shinsoku-countercurrent-slash.png} tip={[Shinsoku] Countercurrent Slash}>"],
+                ["3rd Job", "<tt src={/class-icons/sengoku/hayato/endless-rain.png} tip={Endless Rain}> -> <tt src={/class-icons/sengoku/hayato/hitokiri-hundred-strike-legacy.png} tip={Hitokiri Hundred Strike Legacy}> -> <tt src={/class-icons/sengoku/hayato/warriors-heart.png} tip={Warrior's Heart}> -> <tt src={/class-icons/sengoku/hayato/mist-slash-mastery-ii.png} tip={Mist Slash Mastery II}> -> <tt src={/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png} tip={[Battou] Dark Moon Cut}> -> <tt src={/class-icons/sengoku/hayato/shinsoku-crescent-moon-cut.png} tip={[Shinsoku] Crescent Moon Cut}> -> <tt src={/class-icons/sengoku/hayato/shinsoku-stormcloud-splitter.png} tip={[Shinsoku] Stormcloud Splitter}> -> <tt src={/class-icons/sengoku/hayato/reactive-focus.png} tip={Reactive Focus}>"],
+                ["4th Job", "<tt src={/class-icons/sengoku/hayato/cleaver.png} tip={Cleaver}> -> <tt src={/class-icons/sengoku/hayato/noble-sword.png} tip={Noble Sword}> -> <tt src={/class-icons/sengoku/hayato/akatsuki-warrior.png} tip={Akatsuki Warrior}> -> <tt src={/class-icons/sengoku/hayato/mist-slash-mastery-iii.png} tip={Mist Slash Mastery III}> -> <tt src={/class-icons/sengoku/hayato/deflection.png} tip={Deflection}> -> <tt src={/class-icons/sengoku/hayato/noto.png} tip={Noto}> -> <tt src={/class-icons/sengoku/hayato/battou-full-moons-rage-1.png} tip={[Battou] Full Moon's Rage}> -> <tt src={/class-icons/sengoku/hayato/shinsoku-afterimage-slash.png} tip={[Shinsoku] Afterimage Slash}> -> <tt src={/class-icons/sengoku/hayato/steel-resolve.png} tip={Steel Resolve}> -> <tt src={/class-icons/sengoku/hayato/akatsuki-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/sengoku/hayato/shinsoku-reinforce.png} tip={Shinsoku - Reinforce}> <tt src={/class-icons/sengoku/hayato/shinsoku-boss-rush.png} tip={Shinsoku - Boss Rush}> Shinsoku - Reinforce and Boss Rush_<tt src={/class-icons/sengoku/hayato/battou-reinforce.png} tip={Battou - Reinforce}> <tt src={/class-icons/sengoku/hayato/battou-boss-rush.png} tip={Battou - Boss Rush}> Battou - Reinforce and Boss Rush_<tt src={/class-icons/sengoku/hayato/reactive-focus-cooldown-cutter.png} tip={Reactive Focus - Cooldown Cutter}> Reactive Focus - Cooldown Cutter_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/sengoku/hayato/shinsoku-mist-slash-iv.png} tip={[Shinsoku] Mist Slash (1st Job)}> <tt src={/class-icons/sengoku/hayato/battou-full-moons-rage-1.png} tip={[Battou] Full Moon's Rage (4th Job)}> <tt src={/class-icons/sengoku/hayato/shinsoku-afterimage-slash.png} tip={[Shinsoku] Afterimage Slash (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/sengoku/hayato/shinsoku-silent-arc.png} tip={[Shinsoku] Silent Arc (Hyper Skill)}> <tt src={/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png} tip={[Shinsoku] Crescent Moon Cut / [Battou] Dark Moon Cut (3rd Job)}> <tt src={/class-icons/sengoku/hayato/shinsoku-grazing-cut.png} tip={[Shinsoku] Grazing Cut / [Shinsoku] Stormcloud Splitter (1st Job / 3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,2,3,4,5],
+            "secondary": [1],
+            "nodes": [
+                "<tt src={/class-icons/sengoku/hayato/shinsoku-mist-slash-iv.png} tip={[Shinsoku] Mist Slash (1st Job)}>",
+                "<tt src={/class-icons/sengoku/hayato/shinsoku-grazing-cut.png} tip={[Shinsoku] Grazing Cut (1st Job)}> <tt src={/class-icons/sengoku/hayato/reactive-focus.png} tip={Reactive Focus (3rd Job)}>",
+                "<tt src={/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png} tip={[Battou] Dark Moon Cut (3rd Job)}>",
+                "<tt src={/class-icons/sengoku/hayato/shinsoku-afterimage-slash.png} tip={[Shinsoku] Afterimage Slash (4th Job)}>",
+                "<tt src={/class-icons/sengoku/hayato/battou-full-moons-rage-1.png} tip={[Battou] Full Moon's Rage (4th Job)}>",
+                "<tt src={/class-icons/sengoku/hayato/shinsoku-silent-arc.png} tip={[Shinsoku] Silent Arc (Hyper Skill)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Hayato"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%ED%95%98%EC%95%BC%ED%86%A0(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/EAkfmrx"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1P4mBaIAc-YgycrtemcaUmuo13YRkbA0FP-MbJb1fzIo"}
+        ],
+        "infographics": [
+            {
+                "src": "hayato/hayato-overview.png",
+                "title": "Overview",
+                "credit": "Hayato Discord",
+                "date": "2026-06-03"
+            },
+            {
+                "src": "hayato/hayato-6th-job-heroic.png",
+                "title": "6th Job (Heroic)",
+                "credit": "Hayato Discord",
+                "date": "2026-06-03"
+            },
+            {
+                "src": "hayato/hayato-6th-job-interactive.png",
+                "title": "6th Job (Interactive)",
+                "credit": "Hayato Discord",
+                "date": "2026-06-03"
+            }
+        ],
+        "specialThanks": "Special thanks to the Hayato Discord for their help in making this overview!",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes", "Hayato Discord"]
+        ],
+        "extraContent": {
+            "title": "Akatsuki, Shogetsu, and Noto States",
+            "content": [
+                "[Shinsoku and Battou Skills]",
+                "Hayato's attacks are categorized as [Shinsoku] or [Battou]. [Shinsoku] skills are swift while [Battou] skills are slow and powerful that can be empowered by other skills",
+                "[Akatsuki & Shogetsu State]",
+                "<img src={https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWV1MHB6am0yMmIzbnRuMTJ4Y2VlNGlud3RxYXpnYmQ2dTl0c3h5YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QkkGLnwL8H7v6YzoZL/giphy.gif} alt={Hayato Gauge}>",
+                "In 2nd Job, <tt src={/class-icons/sengoku/hayato/akatsuki-samurai.png} tip={Akatsuki Samurai (2nd Job)}> Akatsuki Samurai grants a %Final Damage and %Ignore DEF upon using a [Battou] skill",
+                "In 5th Job, <tt src={/class-icons/sengoku/hayato/shogetsu-form.png} tip={Shogetsu Form (5th Job)}> Shogetsu Form is a temporary buff that grants an enhanced version of <tt src={/class-icons/sengoku/hayato/akatsuki-samurai.png} tip={Akatsuki Samurai (2nd Job)}> which provides more %Final Damage and %Ignore DEF and also prevents all knockbacks (Super Knockback Resistance), and enhances all Battou Skills <tt src={/class-icons/sengoku/hayato/battou-crossing-draw-2.png} tip={[Battou] Crossing Draw (2nd Job)}> <tt src={/class-icons/sengoku/hayato/battou-dark-moon-cut-2.png} tip={[Battou] Dark Moon Cut (3rd Job)}> <tt src={/class-icons/sengoku/hayato/battou-full-moons-rage-2.png} tip={[Battou] Full Moon's Rage (4th Job)}> <tt src={/class-icons/sengoku/hayato/battou-wailing-heavens-2.png} tip={[Battou] Wailing Heavens (5th Job)}>",
+                "Below is a list of skills and how much they increase the buff's duration by:<bp_<tt src={/class-icons/sengoku/hayato/battou-crossing-draw-1.png} tip={[Battou] Crossing Draw (2nd Job)}> Crossing Draw (2nd Job) - 5 secs_<tt src={/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png} tip={[Battou] Dark Moon Cut (3rd Job)}> Dark Moon Cut (3rd Job) - 10 secs_<tt src={/class-icons/sengoku/hayato/battou-full-moons-rage-1.png} tip={[Battou] Full Moon's Rage (4th Job)}> Full Moon's Rage (4th Job) - 15 secs_<tt src={/class-icons/sengoku/hayato/battou-wailing-heavens-1.png} tip={[Battou] Wailing Heavens (5th Job)}> Wailing Heavens (5th Job)- 40 secs_>",
+                "[Noto State]",
+                "In 4th Job, <tt src={/class-icons/sengoku/hayato/noto.png} tip={Noto (4th Job)}> Noto is a short buff that empowers the next [Battou] skill used. This skill can be used while casting another skill to cancel the casting delay of the previous skill"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Moonlit Blade Learnings",
+                    "shortDesc": "If Critical Rate: 100%+ and Critical Damage: 50%, Critical Damage: +7%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/moonlit-blade-learnings.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Natural Talent",
+                    "shortDesc": "Permanently increases Speed by 20, Max Speed by 25, Jump by 10, Katana Mastery by 80%, and Willpower by 30.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/natural-talent.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Return of the Five Planets",
+                    "shortDesc": "Return to Momijigaoka\\nCooldown 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/return-of-the-five-planets.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTlvNWc1dzdkbnM1eHR4amw5dTlhMGM1c2htZGUwOGE1NzBzbGluNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BxaTB3GT9cupigJLdq/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHB1d2l1a3prNXV2aXB3Zmc5d3FyeXhiM2Fpajk0amNpemI0cTNmeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZHaRxPXhdQGr9vZwWE/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/57/A_God_Among_Horses} title={\"A God Among Horses\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "[Shinsoku] Mist Slash",
+                        "shortDesc": "MP Cost: 10\\nMax Enemies Hit: 4, Damage: 30%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/shinsoku-mist-slash.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjR4Z3FvZTM4dXJqanpxYnZldDVpN29uemVic2ZndWJ6M2U3OGI3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OhwDvI6YzlxvruLQM2/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swiftly slash forward"
+                    },
+                    {
+                        "name": "[Shinsoku] Grazing Cut",
+                        "shortDesc": "MP Cost: 15\\nMove quickly in the direction pressed, Max Enemies Hit: 4, Damage: 40%, Number of Attacks: 5\\nCan be used 1 time per 1 sec., up to 5 times.\\nCan be used consecutively up to 5 times in the air.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/shinsoku-grazing-cut.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhobnZzcGd4NHlldWd6c2V0endtaGx1Yml0bmh6OHZyMjQydHJrbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q4MNnrwPytUPSGAmHW/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward",
+                        "details": [
+                            "Pressing an Arrow Key and Skill Key together will dash in the given direction",
+                            "Skill is prepared every 1 sec (up to 5 charges)",
+                            "Can be used consecutively up to 5 times"
+                        ]
+                    },
+                    {
+                        "name": "Battoujutsu Dash",
+                        "shortDesc": "MP Cost: 10\\nAllows you to jump a greater distance.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/sengoku/hayato/battoujutsu-dash.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmt6ZjBkYzZybXlmNWxyY2Z4OTFrM2RwOHE1aTlpNzQ3azU4ZHFkNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8SHqyRz4OhHQMxariq/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
+                        ]
+                    },
+                    {
+                        "name": "Aoryu",
+                        "shortDesc": "When attacking normal enemies with Shinsoku skills, Final Damage: +100%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/aoryu.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Mist Slash Mastery",
+                        "shortDesc": "Shinsoku Mist Slash MP Cost: 15\\nMax Enemies Hit: 6, Damage: 55%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/mist-slash-mastery.png", "/class-icons/sengoku/hayato/shinsoku-mist-slash-ii.png", "/class-icons/sengoku/hayato/shinsoku-mist-slash.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG8xcnJ6MTBpdTRrNXRybGkzNHB2ZzRyYmt5eGY5em1kb3praXk4OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ErV6aYcrhxE7kLjSZr/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Max Enemies Hit and %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "[Shinsoku] Countercurrent Slash",
+                        "shortDesc": "MP Cost: 20\\nMax Enemies Hit: 6, Damage: 140%, Number of Attacks: 6\\nCooldown: 7 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/hayato/shinsoku-countercurrent-slash.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnd4YXRhb29tcWZmdmpmZGdwNmJ1MGNhdGFrcmJvMDlpYmxsaXhycCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2Z44bipNNKPVsSI20v/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash in place upwards"
+                    },
+                    {
+                        "name": "[Battou] Crossing Draw",
+                        "shortDesc": "MP Cost: 30\\nMax Enemies Hit: 7, Damage: 180%, Number of Attacks: 6, Chase Cuts: 2\\nCooldown: 20 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/battou-crossing-draw-1.png", "/class-icons/sengoku/hayato/battou-crossing-draw-2.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnpyazVxaTRwdDVjNmhrMmJ3aW00dTZodmMwNWt2Nzlhd29la3ljbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SplQJV4wtodN0u5CHU/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash forward",
+                        "details": [
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Mushin",
+                        "shortDesc": "MP Cost: 20\\nDuration: 200 sec., Attack Speed: +2",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/hayato/mushin.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXBwOWxqZ24yMzdreGRwdDN4YncxdzNtbHZpMm9yZHM1dXBvODc3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ICJyNbyanWM0vW19MS/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Akatsuki Samurai",
+                        "shortDesc": "Akatsuki: Final Damage: +50%, Ignore Defense: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/hayato/akatsuki-samurai.png"],
+                        "type": "Passive Buff",
+                        "desc": "Upon using a Battou Skill, enter [Akatsuki] state that grants a %Final Damage and %Ignore DEF buff",
+                        "details": [
+                            "Duration of buff increases (up to 60s) upon using a Battou Skill",
+                            "Right-clicking the skill will toggle the UI visual effect ON/OFF"
+                        ]
+                    },
+                    {
+                        "name": "Indomitable Vanguard",
+                        "shortDesc": "Knockback Resistance: +100%, Damage: +20%, STR: +30, DEX: +30",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/hayato/indomitable-vanguard.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Identify Weakness",
+                        "shortDesc": "Critical Rate: +40%, Critical Damage: +30%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/hayato/identify-weakness.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Polished Form",
+                        "shortDesc": "Max HP: +20%, Max MP: +20%, Speed: +20, Jump: +10, Attack Power: +15",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/sengoku/hayato/polished-form.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Mist Slash Mastery II",
+                        "shortDesc": "Shinsoku Mist Slash MP Cost: 20\\nMax Enemies Hit: 7, Damage: 90%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/mist-slash-mastery-ii.png", "/class-icons/sengoku/hayato/shinsoku-mist-slash-iii.png", "/class-icons/sengoku/hayato/shinsoku-mist-slash.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3c1cDUyZW1ld2k5YXE2ZTgyeDM1MWliMXBvY293NGVxMWp5aHRleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hc8dpLr3Aa8dCZROk2/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Max Enemies Hit and %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "Reactive Focus",
+                        "shortDesc": "MP Cost: 50\\nShuchu Duration: 0.6 sec, Upon getting hit in Shuchu state, Max Enemies Hit: 8, Damage: 130%, Number of Attacks: 8, Invincibility Duration: 2 sec.\\nCooldown: 30 sec.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/sengoku/hayato/reactive-focus.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHdiM2plNHU1dmJzMDNxaTV0YmRjdXRvMW80MGR5ajhrbjhpODhhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bJJTZGhN81Kfs8LKjJ/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTV3dTA5ZWZxZ2Z3cWlxY2N2ZGk1cG0weWtieHZicnRtMXdraGh4aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F0wPGVthZ085Chfjyd/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Upon use, briefly enter [Shuchu] state where if you are hit, the attack is nullified and you become invincible and release a counterattack",
+                        "details": [
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "[Battou] Dark Moon Cut",
+                        "shortDesc": "MP Cost: 40\\nMax Enemies Hit: 8, Damage: 240%, Number of Attacks: 8, Chase Cuts: 5\\nCooldown: 20 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png", "/class-icons/sengoku/hayato/battou-dark-moon-cut-2.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDgwMG5mMDdrdjNwZnEzcXN6cjdkOTQ5NnNjZXYzNjFlaTVrcHFweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HGvhTMQDrT6YfCZjLi/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Release a powerful slash forward",
+                        "details": [
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "[Shinsoku] Crescent Moon Cut",
+                        "shortDesc": "MP Cost: 30\\nMax Enemies Hit: 8, Damage: 310%, Number of Attacks: 8\\nCooldown: 12 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/shinsoku-crescent-moon-cut.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNoYTM5MW0wMTk1cWd6dHdrbTBydzJwZng1NWJyeTgxcXNtbW93cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y1Tz16CjsqvVekosgE/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzI2bWVpamI2eWFubTJoNXh0NDR6amQyaG1hNHpuNDMxdTlscWJtNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OQfU0qxr6wbzfFK9GC/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash and slash in the direction of the Arrow Key pressed",
+                        "details": [
+                            "If no Arrow Key is pressed, slash in place"
+                        ]
+                    },
+                    {
+                        "name": "[Shinsoku] Stormcloud Splitter",
+                        "shortDesc": "MP Cost: 19\\nMax Enemies Hit: 6, Damage: 108%, Number of Attacks: 6\\nCooldown: 3 sec",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/sengoku/hayato/shinsoku-stormcloud-splitter.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3BsaHBuaXM1OWlxaGlxY2M3d2Q1cW9kOXV1MTBscjhxbnh5NDI5MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2s7qO34eozWIw99OW/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash and slash upwards"
+                    },
+                    {
+                        "name": "Hitokiri Hundred Strike Legacy",
+                        "shortDesc": "Damage: +20%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/sengoku/hayato/hitokiri-hundred-strike-legacy.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Endless Rain",
+                        "shortDesc": "Final Damage: +15%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/sengoku/hayato/endless-rain.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Warrior's Heart",
+                        "shortDesc": "Upon triggering a critical hit, Recovery Chance: 40%, Recovery: 4% of Max HP",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/sengoku/hayato/warriors-heart.png"],
+                        "type": "Passive",
+                        "desc": "Critical hits have a chance to recover %Max HP"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "name": "Mist Slash Mastery III",
+                    "shortDesc": "Shinsoku Mist Slash MP Cost: 25\\nMax Enemies Hit: 8, Damage: 150%, Number of Attacks: 6",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/hayato/mist-slash-mastery-iii.png", "/class-icons/sengoku/hayato/shinsoku-mist-slash-iv.png", "/class-icons/sengoku/hayato/shinsoku-mist-slash.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczY0dXpiODlnOGs5eHMxZmxlaWFpbGVoaHR3dHF5cWJqbW9yazRxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tlronboWYkIKY8oCZM/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases Max Enemies Hit and %Damage of attack"
+                    ]
+                },
+                {
+                    "name": "Noto",
+                    "shortDesc": "MP Cost: 80\\nNoto Duration: 3 sec. When using a Battou skill while in Noto, cancel Noto, Battou Skill Final Damage: +200%\\nCooldown: 60 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/hayato/noto.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2NhNXUzMW5ldGI2bHJ4Z3F6NHYwbDgxOXM5bGxndTQ1OXRjemR3aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8b91MHwkGLyny44sCM/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Upon use, briefly enter [Noto] state where the next Battou skill used gains increased %Final Damage and consumes the buff",
+                    "details": [
+                        "Can be used while casting another skill to cancel the casting delay of the previous skill",
+                        "Unaffected by cooldown resets and %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "[Shinsoku] Afterimage Slash",
+                    "shortDesc": "MP Cost: 80\\nCharge Attack - Max Enemies Hit: 12, Damage: 370%, Number of Attacks: 8\\nSlash Attack - Max Enemies Hit: 10, Damage: 470%, Number of Attacks: 10\\nCooldown: 12 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-afterimage-slash.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3BzMzVlbngwaGZsenljempwOGpmdXRjbDIweXA3ZHA4NnY5cGNzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Svw8sU8GHxeo1YHN3B/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmp4cjIyaHA2bm83Zzhmc3g3MXB3ZGoxZm4xbmthcmx2NG9sbWlmOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GJ4G1SQLOMgaQuqRfJ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Dash and slash in the direction of the Arrow Key pressed while leaving behind an [Afterimage]",
+                    "details": [
+                        "While the [Afterimage] is active and within range, pressing the Skill Key again will teleport back to its location and slash nearby enemies",
+                        "If no Arrow Key is pressed, slash in place"
+                    ]
+                },
+                {
+                    "name": "Akatsuki Will",
+                    "shortDesc": "MP Cost: 30, Removes all abnormal status effects\\nCooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/sengoku/hayato/akatsuki-will.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHZpYnJweGZwYmJrand2NGdoMWlrbThlbGd6bXo4N25vdWVqbTFoeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IxRaNqmSdZaYMmnio9/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "name": "Akatsuki Warrior",
+                    "shortDesc": "MP Cost: 70, creates a Sengoku Warrior emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/hayato/akatsuki-warrior.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjN1NWFkYnltZTY2N3YyOXU4eTBsbjk1ZHFubXVjejZnb2wwODFmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t5FXQ1FSclfzVYNhYS/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "[Battou] Full Moon's Rage",
+                    "shortDesc": "MP Cost: 70\\nMax Enemies Hit: 12, Damage: 370%, Number of Attacks: 10, Chase Cuts: 8\\nCooldown: 60 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/hayato/battou-full-moons-rage-1.png", "/class-icons/sengoku/hayato/battou-full-moons-rage-2.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGNkbzkwYTU0Y3lhaDFiNW5yb3BtaDN4OGoyMXJ3eTdzY2U1c3I3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uBvhSW5eRCzXFTaNZt/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a powerful slash in an arc",
+                    "details": [
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Noble Sword",
+                    "shortDesc": "Attack Speed: +1, Attack Power & Magic ATT: +5%, Max HP & MP: +25%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/hayato/noble-sword.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Steel Resolve",
+                    "shortDesc": "Abnormal Status Resistance: +50, Elemental Resistance: +50%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/sengoku/hayato/steel-resolve.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Cleaver",
+                    "shortDesc": "Ignore Defense: +35%, Damage: +30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/hayato/cleaver.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Deflection",
+                    "shortDesc": "20% chance to activate upon getting hit.\\nDuration: 3 sec. Damage Reduction (including attacks that deal a fixed percentage of damage): 50%, Effect Cooldown: 15 sec.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/sengoku/hayato/deflection.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTd2eWxoYXRteXZ4eWRuMHU5MzQ1eTd1a3oyeWlqaHJ2dDBkMHVxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8Ohi4qjzThOtpIOO7k/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Upon taking damage, there is a chance to gain a buff that reduces damage taken including %Max HP attacks"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Shinsoku - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of all Shinsoku skills"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Shinsoku - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of all Shinsoku skills"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Shinsoku - Spread",
+                    "shortDesc": "Max Enemies Hit: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-spread.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases Max Enemies Hit of all Shinsoku skills"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Shinsoku - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of all Shinsoku skills"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Battou - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/battou-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of all Battou skills"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Battou - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/battou-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of all Battou skills"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Battou - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/battou-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of all Battou skills"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Reactive Focus - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -30%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/reactive-focus-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Reactive Focus - Enhance",
+                    "shortDesc": "Duration: +1 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/reactive-focus-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Bushido",
+                    "shortDesc": "MP Cost: 150, Duration: 30 sec., Attack Power: +50, Status Resistance: +50, Elemental Resistance: +50%, Critical Damage: +15%, Boss Damage: +20%\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/bushido.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG5vNGYxbnoya2Rmd29pN29jbzdhbW14cTM0dDU3eW8xeGtxdHBwOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ehxZPRT5ykEBvqBmSx/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "details": [
+                        "Unaffected by cooldown resets"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "[Shinsoku] Silent Arc",
+                    "shortDesc": "MP Cost: 100\\nMax Enemies Hit: 15, Damage: 205%, Number of Attacks: 10, Chase Cuts: 5\\nCooldown: 20 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-silent-arc.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2JjMGMzc3E2YXh3dWN3ZTQ3b2d2YTVrcGxjZWp3d3FqeXFleTcyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Avh85xhLhkMnuYM7jp/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a slash that damages enemies in a large area",
+                    "details": [
+                        "Unaffected by cooldown resets"
+                    ],
+                    "reqLev": 160
+                },
+                                {
+                    "name": "Akatsuki Blessing",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: 10%\\nApplies to any Sengoku Warrior class in the party.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/akatsuki-blessing.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDB0ZjFsaDJkbDBjemt1bXd2Y28zbnY4aHF5MzhjNjh4Z2ppcnMxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yNDOJt19ulOqxvr2Hu/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["twilightBloom", "princessSakunoBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Shogetsu Form",
+                    "shortDesc": "MP Cost: 1000, enter Noto state for 20 sec. Shogetsu Duration: 30 sec., no enemy attack can knock you back while active, Final Damage: +100%, Ignore Defense: +50%, increases attack activations of Battou skills.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/sengoku/hayato/shogetsu-form.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDM5bjdhcWpqNGtwZ2U2ZGlyeHRidnE1aWdremZzaWo1c3RmMmlvOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qQEdc4mFckQ4dAAAuz/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, enter <tt src={/class-icons/sengoku/hayato/noto.png} tip={Noto (4th Job)}> [Noto] state and enhances <tt src={/class-icons/sengoku/hayato/akatsuki-samurai.png} tip={Akatsuki Samurai (2nd Job)}> [Akatsuki] state into [Shogetsu] state that increases %Final Damage, %Ignore DEF, prevents all knockbacks (Super Knockback Resistance), and enhances all Battou Skills",
+                    "details": [
+                        "Enhanced Battou Skills gain increased attack activations (Chase Cuts)"
+                    ]
+                },
+                {
+                    "name": "[Shinsoku] Crashing Tide",
+                    "shortDesc": "MP Cost: 600\\nMax Enemies Hit: 12, Damage: 740%, Number of Attacks: 9, Chase Cuts: 15\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-crashing-tide.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGZqZHprM211N3M2NDhmbnI3azJtbzNuMWNvNHRyamVoaHdoaHpibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZhdehjUX11rWwN4KUg/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slash in a wide circle"
+                },
+                {
+                    "name": "[Shinsoku] Light Cutter",
+                    "shortDesc": "MP Cost: 400\\nMax Enemies Hit: 8, Damage: 600%, Number of Attacks: 8, Chase Cuts: 4\\nGain 1 use every 15 seconds, can be used up to 3 times in a row.",
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-light-cutter.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTVsd2RqZGJxNXpva3dqM2MwNzA2b3ByZXZuOW11ZTE4c3gycjFmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mpjhwjl6GgdshMeeEh/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExanY0ZzdncGNjMjA1MnIxY2N1bTlhd2N2ajRncmVwaXRqOTk4YjltOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gwqd0Sk54F2tBm8q7T/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Dash and slash in the direction of the Arrow Key pressed",
+                    "details": [
+                        "If no Arrow Key is pressed, slash in place",
+                        "Skill is prepared every 15 sec (up to 3 charges)",
+                        "Can be used consecutively up to 3 times"
+                    ] 
+                },
+                {
+                    "name": "[Battou] Wailing Heavens",
+                    "shortDesc": "MP Cost: 1000\\nMax Enemies Hit: 15, Damage: 550%, Number of Attacks: 14, Chase Cuts: 30, invincible for a short period\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/sengoku/hayato/battou-wailing-heavens-1.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb25lYmFmbTB2OG9lNDVxa3JrcGpvbXkzNmpqOXp1ZTZnZzdwcmpsNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jfN77kI5GQp3bpIuMd/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a devastating attack in a large area",
+                    "details": [
+                        "While casting, you are invincible"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "[Shinsoku] Mist Slash Boost",
+                    "shortDesc": "[Shinsoku] Mist Slash Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-mist-slash-iv.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Shinsoku] Grazing Cut/[Shinsoku] Stormcloud Splitter Boost",
+                    "shortDesc": "[Shinsoku] Grazing Cut/[Shinsoku] Stormcloud Splitter Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-grazing-cut.png", "/class-icons/sengoku/hayato/shinsoku-stormcloud-splitter.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Reactive Focus Boost",
+                    "shortDesc": "Reactive Focus Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/hayato/reactive-focus.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Shinsoku] Crescent Moon Cut/[Battou] Dark Moon Cut Boost",
+                    "shortDesc": "[Shinsoku] Crescent Moon Cut/[Battou] Dark Moon Cut Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png", "/class-icons/sengoku/hayato/shinsoku-crescent-moon-cut.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Shinsoku] Afterimage Slash Boost",
+                    "shortDesc": "[Shinsoku] Afterimage Slash Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-afterimage-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Battou] Full Moon's Rage Boost",
+                    "shortDesc": "[Battou] Full Moon's Rage Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/hayato/battou-full-moons-rage-1.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Shinsoku] Silent Arc Boost",
+                    "shortDesc": "[Shinsoku] Silent Arc Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-silent-arc.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-mist-slash-afterimage-slash.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/sengoku/hayato/shinsoku-mist-slash-iv.png} tip={[Shinsoku] Mist Slash (1st Job)}> <tt src={/class-icons/sengoku/hayato/shinsoku-afterimage-slash.png} tip={[Shinsoku] Afterimage Slash (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA [Shinsoku] Mist Slash",
+                    "shortDesc": "MP Cost: 55\\nMax Enemies Hit: 8, Damage: 340%, Number of Attacks: 6\\n[Passive Effect - [Shinsoku] Grazing Cut and [Shinsoku] Stormcloud Splitter Normal Enemy Damage: +120% (additive)]",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-shinsoku-mist-slash.png", "/class-icons/sengoku/hayato/shinsoku-mist-slash.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmpmdnI3aTNpbTZjcnM1ZzJwc2ptZTdybTdyeWU4eG5jbnVxdzl5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4nseWbNRG9c51J7XY6/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Shinsoku] Afterimage Slash",
+                    "shortDesc": "MP Cost: 70\\nCharge Attack - Max Enemies Hit: 12, Damage: 730%, Number of Attacks: 10\\nSlash Attack - Max Enemies Hit: 12, Damage: 850%, Number of Attacks: 12\\nCooldown: 12 sec.",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-shinsoku-afterimage-slash.png", "/class-icons/sengoku/hayato/shinsoku-afterimage-slash.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW92ZjA1OWx6eGo4bjkxdW42cWV4ajd3dWFkMmJzYzZzOWdycndtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rwpV4WBxP3gCz1WPWs/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-crescent-moon-silent-arc.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png} tip={[Shinsoku] Crescent Moon Cut/[Battou] Dark Moon Cut (3rd Job)}> <tt src={/class-icons/sengoku/hayato/shinsoku-silent-arc.png} tip={[Shinsoku] Silent Arc (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA [Shinsoku] Crescent Moon Cut",
+                    "shortDesc": "MP Cost: 70\\nMax Enemies Hit: 10, Damage: 850%, Number of Attacks: 10\\nCooldown: 12 sec",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-shinsoku-crescent-moon-cut.png", "/class-icons/sengoku/hayato/shinsoku-crescent-moon-cut.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNjbHVzYzc3MGRjNnhrdmp2c240aGpqaWx6M3hhdHMzYjhueXN6biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NAug6MGxbZU2Cjz6hi/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Shinsoku] Silent Arc",
+                    "shortDesc": "MP Cost: 120\\nMax Enemies Hit: 15, Damage: 390%, Number of Attacks: 10, Chase Cuts: 5\\nCooldown: 20 sec.",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-shinsoku-silent-arc.png", "/class-icons/sengoku/hayato/shinsoku-silent-arc.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExem0xdXQybW80b3B3aHcyM2ZnZHF2YzU1MW52MGdrdmhydDVwZXA1YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oNtZZ75N1XqtHkWIvP/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-battou-dark-moon-cut-1.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png} tip={[Shinsoku] Crescent Moon Cut/[Battou] Dark Moon Cut (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA [Battou] Dark Moon Cut",
+                    "shortDesc": "MP Cost: 100\\nMax Enemies Hit: 10, Damage: 650%, Number of Attacks: 10, Chase Cuts: 10\\nCooldown: 20 sec.",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-battou-dark-moon-cut-1.png", "/class-icons/sengoku/hayato/hexa-battou-dark-moon-cut-2.png", "/class-icons/sengoku/hayato/battou-dark-moon-cut-1.png", "/class-icons/sengoku/hayato/battou-dark-moon-cut-2.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ4aXRjamJreXhuZ3N4OWh0NmFsZTNpa2Y4NTNpcDZvZmtzNnM3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Jf7TKn9jadHmAcLnmE/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-battou-full-moons-rage-1.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/sengoku/hayato/battou-full-moons-rage-1.png} tip={[Battou] Full Moon's Rage (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA [Battou] Full Moon's Rage",
+                    "shortDesc": "MP Cost: 120\\n Max Enemies Hit: 12, Damage: 610%, Number of Attacks: 12, Chase Cuts: 16\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/sengoku/hayato/hexa-battou-full-moons-rage-1.png", "/class-icons/sengoku/hayato/hexa-battou-full-moons-rage-2.png", "/class-icons/sengoku/hayato/battou-full-moons-rage-1.png", "/class-icons/sengoku/hayato/battou-full-moons-rage-2.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejl2bTFiYjk1bngyMHJpNmxkMTNzdDVicHVidWowbWJwZ2p3cnJrciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7YH7OP7eTCgf1LUfIk/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Shin Quick Draw",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nActivates 15 Chase Cuts that deal 720% damage to up to 15 enemies 15 times, then applies the Shin Quick Draw buff for up to 10 seconds. Grants Noto state and increases Final Damage by 10% while buff is active.\\n1st/2nd/3rd Strike: Activates 10 Chase Cuts dealing 620% damage to up to 15 enemies 12 times.\\nFinal Strike: Activates 60 Chase Cuts that deal 800% damage to nearby enemies 15 times, invincible during casting.\\nCooldown: 360 sec.",
+                    "icons": ["/class-icons/sengoku/hayato/shin-quick-draw.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWhhOHg2c2k3eHNwNnpldDJ0eTlpNjY2OXdiMm5vaTRmbDM2YTBvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LsI39WqpPswEf9H1gI/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Fleeting Breath",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nReleases 10 blades, dealing 5180% damage to up to 15 enemies 12 times\\nAfterwards, the blade cuts enemies 30 times, dealing 6125% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/sengoku/hayato/fleeting-breath.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHptNWEyeG43OXkyYzZ4MDI0NmYzZzNibGR4eXFrOTg5bTF5a2IzeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OfJ3uUKmAHUlJ1BnHx/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Shogetsu Form Boost",
+                    "shortDesc": "Duration increased to 40 sec., Final Damage increased by 110%, Ignore Defense Rate increased by 80%",
+                    "icons": ["/class-icons/sengoku/hayato/shogetsu-form.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "[Shinsoku] Crashing Tide Boost",
+                    "shortDesc": "[Shinsoku] Crashing Tide Final Damage: +60%",
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-crashing-tide.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "[Shinsoku] Light Cutter Boost",
+                    "shortDesc": "[Shinsoku] Light Cutter Final Damage Final Damage: +60%",
+                    "icons": ["/class-icons/sengoku/hayato/shinsoku-light-cutter.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "[Battou] Wailing Heavens Boost",
+                    "shortDesc": "[Battou] Wailing Heavens Final Damage: +60%",
+                    "icons": ["/class-icons/sengoku/hayato/battou-wailing-heavens-1.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "[Shinsoku] Mist Slash - 1st Job",
+                "icons": ["/class-icons/sengoku/hayato/shinsoku-mist-slash-iv.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczY0dXpiODlnOGs5eHMxZmxlaWFpbGVoaHR3dHF5cWJqbW9yazRxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tlronboWYkIKY8oCZM/giphy.gif"]
+            },
+            {
+                "name": "[Shinsoku] Grazing Cut - 1st Job",
+                "icons": ["/class-icons/sengoku/hayato/shinsoku-grazing-cut.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhobnZzcGd4NHlldWd6c2V0endtaGx1Yml0bmh6OHZyMjQydHJrbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q4MNnrwPytUPSGAmHW/giphy.gif"]
+            },
+            {
+                "name": "Reactive Focus - 3rd Job",
+                "icons": ["/class-icons/sengoku/hayato/reactive-focus.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTV3dTA5ZWZxZ2Z3cWlxY2N2ZGk1cG0weWtieHZicnRtMXdraGh4aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F0wPGVthZ085Chfjyd/giphy.gif"]
+            },
+            {
+                "name": "[Battou] Full Moon's Rage - 4th Job",
+                "icons": ["/class-icons/sengoku/hayato/battou-full-moons-rage-1.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGNkbzkwYTU0Y3lhaDFiNW5yb3BtaDN4OGoyMXJ3eTdzY2U1c3I3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uBvhSW5eRCzXFTaNZt/giphy.gif"]
+            },
+            {
+                "name": "[Shinsoku] Silent Arc - Hyper Skill",
+                "icons": ["/class-icons/sengoku/hayato/shinsoku-silent-arc.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2JjMGMzc3E2YXh3dWN3ZTQ3b2d2YTVrcGxjZWp3d3FqeXFleTcyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Avh85xhLhkMnuYM7jp/giphy.gif"]
+            },
+            {
+                "name": "[Shinsoku] Light Cutter - 5th Job",
+                "icons": ["/class-icons/sengoku/hayato/shinsoku-light-cutter.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTVsd2RqZGJxNXpva3dqM2MwNzA2b3ByZXZuOW11ZTE4c3gycjFmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mpjhwjl6GgdshMeeEh/giphy.gif"]
+            },
+            {
+                "name": "[Battou] Wailing Heavens - 5th Job",
+                "icons": ["/class-icons/sengoku/hayato/battou-wailing-heavens-1.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb25lYmFmbTB2OG9lNDVxa3JrcGpvbXkzNmpqOXp1ZTZnZzdwcmpsNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jfN77kI5GQp3bpIuMd/giphy.gif"]
+            },
+            {
+                "name": "Shin Quick Draw - 6th Job",
+                "icons": ["/class-icons/sengoku/hayato/shin-quick-draw.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWhhOHg2c2k3eHNwNnpldDJ0eTlpNjY2OXdiMm5vaTRmbDM2YTBvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LsI39WqpPswEf9H1gI/giphy.gif"]
+            },
+            {
+                "name": "Fleeting Breath - 6th Job",
+                "icons": ["/class-icons/sengoku/hayato/fleeting-breath.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHptNWEyeG43OXkyYzZ4MDI0NmYzZzNibGR4eXFrOTg5bTF5a2IzeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OfJ3uUKmAHUlJ1BnHx/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Hayato is a STR warrior class part of the Sengoku class group. Hayato uses Katanas as their primary weapons. For their secondary weapon, Hayato can equip Kodachis"
+}

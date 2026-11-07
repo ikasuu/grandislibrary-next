@@ -1,0 +1,1073 @@
+{
+    "class": "Wind Archer",
+    "content": {
+        "classGroup": "Cygnus Knights",
+        "jobGroup": "Archer",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Grants flat DEX",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["bow"]},
+            {"secondary": ["jewel"]},
+            {"ammo": "arrowB"}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/cygnus-knights/wind-archer/agile-bows.png} tip={Agile Bows (2nd Job)} val={+2}> <bg src={/class-icons/cygnus-knights/wind-archer/albatross-max.png} tip={Albatross Max (4th Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/cygnus-knights/wind-archer/bow-expert.png} tip={Bow Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "DEX",
+                "stat": "+15% +50 +1 per 2 levels & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/cygnus-knights/wind-archer/touch-of-the-wind.png} tip={Touch of the Wind (4th Job)} val={+15%}> <bg src={/class-icons/common/agile-bows.png} tip={Agile Bows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/cygnus-knights/elemental-harmony.png} tip={Elemental Harmony (Beginner Skill)} val={+1 per 2 levels}> <bg src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+24% +170",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/cygnus-knights/wind-archer/touch-of-the-wind.png} tip={Touch of the Wind (4th Job)} val={+10%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+55}> <bg src={/class-icons/cygnus-knights/wind-archer/whispers-of-the-wind.png} tip={Whispers of the Wind (1st Job)} val={+20}> <bg src={/class-icons/cygnus-knights/wind-archer/sylvan-aid.png} tip={Sylvan Aid (2nd Job)} val={+20}> <bg src={/class-icons/cygnus-knights/wind-archer/second-wind.png} tip={Second Wind (3rd Job)} val={+15}> <bg src={/class-icons/cygnus-knights/wind-archer/bow-expert.png} tip={Bow Expert (4th Job)} val={+30}> <bg src={/class-icons/cygnus-knights/wind-archer/albatross-max.png} tip={Albatross Max (4th Job)} val={+30}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+60%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/cygnus-knights/wind-archer/sylvan-aid.png} tip={Sylvan Aid (2nd Job)} val={+10%}> <bg src={/class-icons/cygnus-knights/wind-archer/albatross-max.png} tip={Albatross Max (4th Job)} val={+25%}> <bg src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+36%",
+                "detail": "<bg src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} val={+15%}> <bg src={/class-icons/cygnus-knights/wind-archer/bow-expert.png} tip={Bow Expert (4th Job)} val={+21%}> <bg type={opt} src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} val={+50% of Crit Rate}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+50%(132%)",
+                "detail": "<bg src={/class-icons/cygnus-knights/wind-archer/storm-elemental.png} tip={Storm Elemental (1st Job)} val={+10%}> <bg src={/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png} tip={Pinpoint Pierce (3rd Job)} val={+15%}> <bg src={/class-icons/cygnus-knights/wind-archer/albatross-max.png} tip={Albatross Max (4th Job)} val={+25%}> <bg type={temp} src={/class-icons/cygnus-knights/wind-archer/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+40%",
+                "detail": "<bg src={/class-icons/cygnus-knights/wind-archer/bow-expert.png} tip={Bow Expert (4th Job)} val={+40%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+66.32%",
+                "detail": "<bg src={/class-icons/cygnus-knights/wind-archer/bow-mastery.png} tip={Bow Mastery (2nd Job)} val={+10%}> × <bg src={/class-icons/cygnus-knights/wind-archer/eagle-eye.png} tip={Eagle Eye (3rd Job)} val={+12%}> × <bg src={/class-icons/cygnus-knights/wind-archer/bow-expert.png} tip={Bow Expert (4th Job)} val={+35%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+34.98%",
+                "detail": "<bg src={/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png} tip={Pinpoint Pierce (3rd Job)} val={+15%}> × <bg src={/class-icons/cygnus-knights/wind-archer/albatross-max.png} tip={Albatross Max (4th Job)} val={+15%}> × <bg type={debuff} src={/class-icons/cygnus-knights/wind-archer/emerald-dust.png} tip={Emerald Dust (4th Job)} val={+10%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/cygnus-knights/wind-archer/storm-bringer.png} tip={Storm Bringer (4th Job)} dur={[200s]}> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
+            "toggles": "<tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png} tip={Trifling Wind I (2nd Job)}>",
+            "summons": "<tt src={/class-icons/cygnus-knights/wind-archer/emerald-flower.png} tip={Emerald Flower (3rd Job)} dur={[60s]}> <tt src={/class-icons/cygnus-knights/wind-archer/howling-gale.png} tip={Howling Gale (5th Job)} dur={[10s](20-60s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/vortex-sphere.png} tip={Vortex Sphere (5th Job)} dur={(30s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[15s / 140 Attacks](60s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}> <tt src={/class-icons/cygnus-knights/wind-archer/anemoi.png} tip={Anemoi (6th Job)} dur={[20s](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/cygnus-knights/wind-archer/storm-whim.png} tip={Storm Whim (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/gale-barrier.png} tip={Gale Barrier (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/cygnus-knights/wind-archer/mistral-spring.png} tip={Mistral Spring (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/cygnus-knights/wind-archer/monsoon.png} tip={Monsoon (Hyper Skill)} dur={[3s](120s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/mistral-spring.png} tip={Mistral Spring (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/cygnus-knights/wind-archer/gale-barrier.png} tip={Gale Barrier (5th Job)} dur={[45s](Special Barrier | 90s cd)}> <tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000055,
+            "offline": true,
+            "name": "Cygnus Blessing",
+            "maxLevel": 15,
+            "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
+            "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level"]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/cygnus-knights/wind-archer/storm-elemental.png} tip={Storm Elemental}> -> <tt src={/class-icons/cygnus-knights/wind-archer/wind-walk.png} tip={Wind Walk}> -> <tt src={/class-icons/cygnus-knights/wind-archer/whispers-of-the-wind.png} tip={Whispers of the Wind}> -> <tt src={/class-icons/cygnus-knights/wind-archer/breeze-arrow.png} tip={Breeze Arrow}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/cygnus-knights/wind-archer/bow-mastery.png} tip={Bow Mastery}> -> <tt src={/class-icons/cygnus-knights/wind-archer/sylvan-aid.png} tip={Sylvan Aid}> -> <tt src={/class-icons/common/agile-bows.png} tip={Bow Booster}> -> <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png} tip={Trifling Wind I}> -> <tt src={/class-icons/cygnus-knights/wind-archer/spiraling-vortex.png} tip={Spiraling Vortex}> -> <tt src={/class-icons/cygnus-knights/wind-archer/gust-shot.png} tip={Gust Shot}>"],
+                ["3rd Job", "<tt src={/class-icons/cygnus-knights/wind-archer/emerald-flower.png} tip={Emerald Flower}> -> <tt src={/class-icons/cygnus-knights/wind-archer/second-wind.png} tip={Second Wind}> -> <tt src={/class-icons/cygnus-knights/wind-archer/eagle-eye.png} tip={Eagle Eye}> -> <tt src={/class-icons/cygnus-knights/wind-archer/featherweight.png} tip={Featherweight}> -> <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-ii.png} tip={Trifling Wind II}> -> <tt src={/class-icons/cygnus-knights/wind-archer/sentient-arrow.png} tip={Sentient Arrow}> -> <tt src={/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png} tip={Pinpoint Pierce}>"],
+                ["4th Job", "<tt src={/class-icons/cygnus-knights/wind-archer/emerald-dust.png} tip={Emerald Dust}> -> <tt src={/class-icons/cygnus-knights/wind-archer/bow-expert.png} tip={Bow Expert}> -> <tt src={/class-icons/cygnus-knights/wind-archer/albatross-max.png} tip={Albatross Max}> -> <tt src={/class-icons/cygnus-knights/wind-archer/touch-of-the-wind.png} tip={Touch of the Wind}> -> <tt src={/class-icons/cygnus-knights/wind-archer/fairy-spiral.png} tip={Fairy Spiral}> -> <tt src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus}> -> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes}> -> <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-iii.png} tip={Trifling Wind III}> -> <tt src={/class-icons/cygnus-knights/wind-archer/storm-bringer.png} tip={Storm Bringer}> -> <tt src={/class-icons/cygnus-knights/wind-archer/song-of-heaven.png} tip={Song of Heaven}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "[For Bossing]<bp_<tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-reinforce.png} tip={Trifling Wind - Reinforce}> <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-enhance.png} tip={Trifling Wind - Enhance}> <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-double-chance.png} tip={Trifling Wind - Double Chance}> Trifling Wind - Reinforce, Enhance and Double Chance_<tt src={/class-icons/cygnus-knights/wind-archer/song-of-heaven-reinforce.png} tip={Song of Heaven - Reinforce}> <tt src={/class-icons/cygnus-knights/wind-archer/song-of-heaven-boss-rush.png} tip={Song of Heaven - Boss Rush}> Song of Heaven - Reinforce and Boss Rush_>[For Training]<bp_<tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-reinforce.png} tip={Trifling Wind - Reinforce}> <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-enhance.png} tip={Trifling Wind - Enhance}> <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-double-chance.png} tip={Trifling Wind - Double Chance}> Trifling Wind - Reinforce, Enhance and Double Chance_<tt src={/class-icons/cygnus-knights/wind-archer/fairy-spiral-spread.png} tip={Fairy Spiral - Spread}> <tt src={/class-icons/cygnus-knights/wind-archer/fairy-spiral-extra-strike.png} tip={Fairy Spiral - Extra Strike}> Fairy Spiral - Extra Strike and Spread_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png} tip={Trifling Wind and Storm Whim (2nd Job / Hyper Skill)}> <tt src={/class-icons/cygnus-knights/wind-archer/song-of-heaven.png} tip={Song of Heaven (4th Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/storm-bringer.png} tip={Storm Bringer (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/cygnus-knights/wind-archer/fairy-spiral.png} tip={Fairy Spiral (4th Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/monsoon.png} tip={Monsoon (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png} tip={Pinpoint Pierce (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/cygnus-knights/wind-archer/song-of-heaven.png} tip={Song of Heaven (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png} tip={Trifling Wind (2nd Job)}>",
+                "<tt src={/class-icons/cygnus-knights/wind-archer/fairy-spiral.png} tip={Fairy Spiral (4th Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/storm-bringer.png} tip={Storm Bringer (4th Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/monsoon.png} tip={Monsoon (Hyper Skill)}>",
+                "<tt src={/class-icons/cygnus-knights/wind-archer/storm-whim.png} tip={Storm Whim (Hyper Skill)}>",
+                "<tt src={/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png} tip={Pinpoint Pierce (3rd Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/sentient-arrow.png} tip={Sentient Arrow (3rd Job)}>",
+                "<tt src={/class-icons/cygnus-knights/wind-archer/gust-shot.png} tip={Gust Shot (2nd Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/spiraling-vortex.png} tip={Spiraling Vortex (2nd Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/breeze-arrow.png} tip={Breeze Arrow (1st Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Wind_Archer"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%9C%88%EB%93%9C%EB%B8%8C%EB%A0%88%EC%9D%B4%EC%BB%A4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/4pbZMeThgP"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1oqZegwzp5pzOArQ_NKYpoYZTxkV_8kq_3W_EQ8SzSDc"},
+            {"title": "HEXA Tracker", "link": "https://docs.google.com/spreadsheets/d/1c6M-TLl04h_9-eZUwT1dBBrAZrs_e4ZZehOi6bECGS8"}
+        ],
+        "infographics": [
+            {
+                "src": "wind-archer/wind-archer-6th-job.png",
+                "title": "6th Job",
+                "credit": "Wind Archer Discord",
+                "date": "2026-09-04"
+            }
+        ],
+        "discord": "https://discord.gg/4pbZMeThgP",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Cygnus Blessing",
+                    "maxLevel": 15,
+                    "shortDesc": "Attack Power and Magic ATT: +55, Status Resistance: +22, Elemental Resistance: +22%",
+                    "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Elemental Slash",
+                    "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-slash.png"],
+                    "animations": ["https://media.giphy.com/media/kQaVNRmVy5z5KA8njN/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike forward damaging multiple enemies"
+                },
+                {
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/imperial-recall.png"],
+                    "animations": ["https://media.giphy.com/media/PeSyHqYAC6AcCmiBzR/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Noble Mind",
+                    "shortDesc": "Increases Empress's Blessing max level by 6",
+                    "maxLevel": 6,
+                    "icons": ["/class-icons/cygnus-knights/noble-mind.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing quests from Neinheart after Lv. 125"
+                    ]
+                },
+                {
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Dexterity increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-harmony.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-expert.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-shift.png"],
+                    "animations": ["https://media.giphy.com/media/tyK3xGBbq63zPoMzHO/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be activated by pressing jump twice",
+                        "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXdsenh6NWRxZmVoaXNkN3V2NWo0ZGFpZngzZm03dTlnbHl3dWNmeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OYtR4F4vsE9akrBhAf/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Breeze Arrow",
+                        "shortDesc": "MP Cost: 22, Max Enemies Hit: 5, Damage: 120%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/breeze-arrow.png"],
+                        "animations": ["https://media.giphy.com/media/yCqMxxTqa7sYXTLDKa/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire arrows forward"
+                    },
+                    {
+                        "name": "Wind Walk",
+                        "shortDesc": "MP Cost: 10, Moves along the platform on the ground and stops at the end of the platform. Can be used with Gust Swift in the air.\\nPassive Effect: Speed: +35, Jump: +15, Max Speed: +20",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/wind-walk.png"],
+                        "animations": ["https://media.giphy.com/media/HOml6TP4Rpj5D4HhVj/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash through enemies without taking any touch damage",
+                        "details": [
+                            "[Passive]: Permanently increases Movement Speed, Jump and Max Movement Speed",
+                            "Can be used in the air"
+                        ]
+                    },
+                    {
+                        "name": "Gust Swift",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/gust-swift.png", "/class-icons/cygnus-knights/elemental-shift.png"],
+                        "animations": ["https://media.giphy.com/media/tyK3xGBbq63zPoMzHO/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Modifies the appearance of <tt src={/class-icons/cygnus-knights/elemental-shift.png} tip={Elemental Shift (Beginner Skill)}>"
+                        ]
+                    },
+                    {
+                        "name": "Storm Elemental",
+                        "shortDesc": "Wind Elemental Channeling\\n[Passive Effect: Damage: +10%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/storm-elemental.png"],
+                        "animations": ["https://media.giphy.com/media/jMJO8zqehFYpa8UQxD/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Whispers of the Wind",
+                        "shortDesc": "Attack Power: +20, Range: +160",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/whispers-of-the-wind.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Gust Shot",
+                        "shortDesc": "MP Cost: 20, Max Monsters Hit: 6, Damage: 520%, Number of Attacks: 1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/gust-shot.png"],
+                        "animations": ["https://media.giphy.com/media/P07jFks2L7hb96CiM2/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire arrows at several enemies",
+                        "details": [
+                            "Each arrow hits only one enemy"
+                        ]
+                    },
+                    {
+                        "name": "Spiraling Vortex",
+                        "shortDesc": "MP Cost: 31, Max Enemies Pushed Back: 6, Damage: 175%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/spiraling-vortex.png"],
+                        "animations": ["https://media.giphy.com/media/5qIv67BDdOLJyKK4wW/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire an arrow that pushes enemies back"
+                    },
+                    {
+                        "name": "Trifling Wind I",
+                        "shortDesc": "Max soul energy created: 3, Chance to create energy: 30%, Random enemies damaged: 170%, Chance to create enhanced soul energy: 5%, Damage of enhanced soul energy: 210%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png"],
+                        "animations": ["https://media.giphy.com/media/TsSxk30gHEgMiy4L35/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, successful attacks have a chance to create homing arrows",
+                        "details": [
+                            "There is a small chance to create an enhanced homing arrow that deals increased damage",
+                            "Homing arrows prioritizes bosses with the highest HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Sylvan Aid",
+                        "shortDesc": "Allows you to use your skills without consuming arrows. ATT: +20, Critical Rate: +10%",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/sylvan-aid.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Uses the arrow with the highest Attack to calculate your damage"
+                        ]
+                    },
+                    {
+                        "name": "Agile Bows",
+                        "shortDesc": "Attack Speed: +2, DEX: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/agile-bows.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Bow Mastery",
+                        "shortDesc": "Bow Mastery: +50%, Final Damage: +10%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/bow-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Sentient Arrow",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 6, Damage: 190%, Number of Attacks: 5",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/sentient-arrow.png"],
+                        "animations": ["https://media.giphy.com/media/xKNKcxzqojpW4wSA0G/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Release a burst of gust around you that damaging enemies caught within"
+                    },
+                    {
+                        "name": "Pinpoint Pierce",
+                        "shortDesc": "MP Cost: 37, Damage: 340%, Max Enemies Hit: 1, Number of Attacks: 2.\\n[Passive Effects: Damage: +15%, Ignore Defense: +15%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png"],
+                        "animations": ["https://media.giphy.com/media/edksth1CpZa35yjxba/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire two arrows towards one enemy",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage and %Ignore DEF"
+                        ]
+                    },
+                    {
+                        "name": "Trifling Wind II",
+                        "shortDesc": "Max soul energy created: 4, Chance to create energy: 40%, Random enemies damaged: 215%, Chance to create enhanced soul energy: 10%, Damage of enhanced soul energy: 270%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-ii.png", "/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details":[
+                            "Increases activation chance and %Damage"
+                        ]
+                    },
+                    {
+                        "name": "Eagle Eye",
+                        "shortDesc": "Attack Power: +20, Final Damage: 12%, Max HP: +1500, Critical Rate: +10%, Attack Speed: +1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/eagle-eye.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Emerald Flower",
+                        "shortDesc": "MP Cost: 60, Duration: 60 sec. Crystal Flower HP: 20000, apply Seduce and Slow Abnormal Status to nearby enemies.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/emerald-flower.png"],
+                        "animations": ["https://media.giphy.com/media/8mdrBm8qIgQJFhaMKP/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place down a green crystal that attracts nearby enemies and takes aggression",
+                        "details": [
+                            "Enemies nearby are also slowed"
+                        ]
+                    },
+                    {
+                        "name": "Featherweight",
+                        "shortDesc": "Damage Taken: -30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%, Knockback Resistance: +40%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/featherweight.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Second Wind",
+                        "shortDesc": "Avoidability Chance: +30%, Defense: +1000, Attack Power: +15",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/cygnus-knights/wind-archer/second-wind.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/call-of-cygnus.png"],
+                    "animations": ["https://media.giphy.com/media/WaB0Y9p9PEm3Dc134d/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Cygnus Knights' Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
+                    "animations": ["https://media.giphy.com/media/0enXJpz2AWOU0Syy9J/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Fairy Spiral",
+                    "shortDesc": "MP Cost: 36, Max Enemies Pushed Back: 6, Damage: 380%, Number of Attacks: 5\\n[Passive Effect: Sentient Arrow Damage: +100% points]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/fairy-spiral.png"],
+                    "animations": ["https://media.giphy.com/media/hzNhyRDgrymBvonYyK/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Sweep enemies knocking them back",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/cygnus-knights/wind-archer/sentient-arrow.png} tip={Sentient Arrow (3rd Job)}> by a flat amount"
+                    ]
+                },
+                {
+                    "name": "Song of Heaven",
+                    "shortDesc": "MP Cost per attack: 8, Max Enemies Hit: 4, Damage: 470%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/song-of-heaven.png"],
+                    "animations": ["https://media.giphy.com/media/Jq0YVdCAMActr6F36N/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Fire a stream of arrows forward",
+                    "details": [
+                        "You can move while casting"
+                    ]
+                },
+                {
+                    "name": "Trifling Wind III",
+                    "shortDesc": "Max soul energy created: 5, Chance to create energy: 50%, Random enemies damaged: 290%, Chance to create enhanced soul energy: 20%, Damage of enhanced soul energy: 390%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-iii.png", "/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details":[
+                        "Increases activation chance and %Damage"
+                    ]
+                },
+                {
+                    "name": "Storm Bringer",
+                    "shortDesc": "MP Cost: 70, Duration: 200 sec., Chance to summon a large arrow on attack: 45%, Additional Damage from Arrow: 620%",
+                    "maxLevel": 15,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/storm-bringer.png"],
+                    "animations": ["https://media.giphy.com/media/VK7lUToMuv06Aksmgl/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, successful attacks have a chance to create large homing arrows",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Sharp Eyes",
+                    "shortDesc": "MP Cost: 45, Critical Rate: +20%, Critical Damage: +15%, Duration: 300 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/sharp-eyes.png"],
+                    "animations": ["https://media.giphy.com/media/A9IShmHsBZgMYSqamE/giphy.gif"],
+                    "type": "Party Buff"
+                },
+                {
+                    "name": "Touch of the Wind",
+                    "shortDesc": "Attack Power: +10%, Dexterity: +15%, Max HP: +20%, Additional Avoidability: +30%, Knockback Resistance: +60%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/touch-of-the-wind.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Bow Expert",
+                    "shortDesc": "Bow Mastery: +70%. Attack Power: +30, Final Damage: +35%, Critical Damage: +21%, Damage Against Bosses: +40%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/bow-expert.png", "/class-icons/cygnus-knights/wind-archer/bow-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Final Damage, %Crit Damage, and %Boss Damage"
+                    ]
+                },
+                {
+                    "name": "Emerald Dust",
+                    "shortDesc": "Increases Crystal Flower's Max HP to 40000, Monster DEF: -10%, Damage Intake: -20%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/emerald-dust.png", "/class-icons/cygnus-knights/wind-archer/emerald-flower.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "Increases the Max HP of summon and now grants reduces nearby enemy %DEF and increases %Damage Reduction while active",
+                    "details": [
+                        "Reduction to %DEF can be considered as %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Albatross Max",
+                    "shortDesc": "Attack Power: +30, Damage: +25%, Ignore Enemy Defense: +15%, Critical Rate: +15%, Status Resistance: +15, Elemental Resistance: +15%, Attack Speed: +1",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/albatross-max.png", "/class-icons/cygnus-knights/wind-archer/eagle-eye.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Effects below are added additively to <tt src={/class-icons/cygnus-knights/wind-archer/eagle-eye.png} tip={Eagle Eye (3rd Job)}>",
+                        "Increases Attack and %Crit Rate provided and increases Attack Speed (by 2 stages)",
+                        "Now increases %Damage, %Ignore DEF, Abnormal Status Resistance, and %Elemental Resistance"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Trifling Wind - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Trifling Wind - Enhance",
+                    "shortDesc": "Activation Chance: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Trifling Wind - Double Chance",
+                    "shortDesc": "Soul energy fires twice and can hit a target twice",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-double-chance.png"],
+                    "type": "Passive",
+                    "desc": "Doubles amount of homing arrows created from successful attacks",
+                    "details": [
+                        "Homing arrows won't be created beyond the max limit",
+                        "If the max number of enemies that can be attacked is exceeded, homing arrows will target the same enemy"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Fairy Spiral - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/fairy-spiral-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Fairy Spiral - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/fairy-spiral-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Fairy Spiral - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/fairy-spiral-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Song of Heaven - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/song-of-heaven-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Song of Heaven - Guardbreak",
+                    "shortDesc": "Monster DEF ignored increased 20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/song-of-heaven-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Song of Heaven - Boss Rush",
+                    "shortDesc": "Boss Damage: +30%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/song-of-heaven-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Storm Whim",
+                    "shortDesc": "MP Cost: 200, Duration: 30 sec., Strong Spirit Arrow Chance: 30%, Damage: 560%\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/storm-whim.png"],
+                    "animations": ["https://media.giphy.com/media/b4sduPQQz03tCGPO1b/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Successful attacks have a chance to create powerful homing arrows",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Monsoon",
+                    "shortDesc": "MP Cost: 350, Invincibility Duration: 3 sec\\nDamage: 430%, Max Enemies Hit: 15, Number of Attacks: 12. Damage Over Time: 200% every 1 sec for 30 sec.\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/monsoon.png"],
+                    "animations": ["https://media.giphy.com/media/lAjnUyjkEUY5AJ6Ler/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a giant monsoon that damages enemies in a large area",
+                    "details": [
+                        "Enemies hit receive a damaging debuff",
+                        "When used, grants brief invincibility"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/glory-of-the-guardians.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHoxdzVpbjl0NzIxYzZiZDRrNXFhOG1lejk3NWQ5M3pzbnc5ajZrZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lkSZY9bpRlqlR4aemK/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["phalanxCharge", "cygnusBlessing", "guidedArrow", "viciousShot"],
+            "fifthMain": [
+                {
+                    "name": "Howling Gale",
+                    "shortDesc": "MP Cost: 500, consumes wind energy to summon a gust for 10 sec\\nThe power of the summoned gust varies based on the amount of wind energy\\n1 - Max Enemies Hit: 10, Damage: 640%, Number of Attacks: 3, Gust Summoned: 1\\n2 - Max Enemies Hit: 15, Damage: 1715%, Number of Attacks: 3, Gust Summoned: 1\\n3 - Max Enemies Hit: 15, Gust Damage: 1715%, Number of Attacks: 3, Gust Summoned: 1. Max Enemies Hit: 15, Gust Damage: 945%, Number of Attacks: 3, Gust Summoned: 1\\nWind energy increases by 1 every 20 sec and you can hold up to 3.\\nCooldown reduction effects are applied while the wind energy is being prepared.\\nGust Resummon Cooldown: 0.3 sec.",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/howling-gale.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q3cGNldW9hdmRkcjhsMDN5aHl2dXV0djRzN2JraGJxM2VjNnQ5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J6o5azRRKSVMm4ij6q/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemo2emR2emVram0ycnYxMWVha29vb2FhZTdmZXl2N3F2YXoxbWlscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cu8QzRb4A1ZUXO6wKr/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a giant vortex that moves forward and pushes enemies back",
+                    "details": [
+                        "This skill uses a special resource called 'Wind Energy' where 1 Wind Energy every 20 secs (up to 3)<bp_Affected by cooldown reduction_>",
+                        "[Consume 1 Wind Energy]: Creates a smaller vortex that is quicker but deals less damage",
+                        "[Consume 2 Wind Energy]: Pressing the Down Arrow Key and Skill Key together creates a giant vortex that is slower but deals more damage",
+                        "[Consume 3 Wind Energy]: Pressing the Up Arrow Key and Skill Key together creates two giant vortexes, one deals more damage than the other",
+                        "Right-clicking the skill will toggle Speed Reduction Mode ON/OFF causing the gale to slow down when it collides with an enemy",
+                        "While summoned, pressing the Skill Key will resummon the vortex to your location",
+                        "Prioritizes bosses with the highest HP first",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Merciless Winds",
+                    "shortDesc": "MP Cost: 500, Duration: 8 sec. Creates 10 enemy-seeking Spirit Arrows that deal 925% damage 5 times.\\nIf more than one Spirit Arrow strikes the same enemy, the Final Damage of each additional arrow is reduced by 15%.\\nEnemies hit by Spirit Arrows take 1100% damage every 1 sec for 9 sec\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/merciless-winds.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJ5cWpmNnFybHlnbGFjeXhzdmVpeGlieTdtY2d4bjN5MzJ0MTZhYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/46ALCfLORlc5i7WUmN/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Create homing arrows that seek out nearby enemies that damage and apply a damaging debuff",
+                    "details": [
+                        "Can be used while casting <tt src={/class-icons/cygnus-knights/wind-archer/song-of-heaven.png} tip={Song of Heaven (4th Job)}>",
+                        "Enemies hit by multiple arrows will take reduced %Final Damage after the first",
+                        "Prioritizes bosses with the highest HP first",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Gale Barrier",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec, creates a wind barrier with the 300 Elemental\\nDamage is nullified when the 1 Elemental is used for damage equal to 1% of max HP when hit. Also applies to attacks that deal damage proportional to the max HP.\\nCooldown: 60 sec\\n[Passive Effect: Launches 3 whirlwind(s) that deal(s) 850% damage 5 time(s) every 2 sec upon attack. Decreases the Final Damage of the whirlwind by 50% if multiple whirlwinds attack 1 enemy.]",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/gale-barrier.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXFxbjhxNGg5YmhhbG0xZ3UyNGtoN2Z4eGw0OG14eGgyMW5yZXh2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CZK7HrIOFMtSknyPQS/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Create a barrier that protects you from enemy attacks",
+                    "details": [
+                        "[Passive]: Successful attacks periodically deal an additional whirlwind attack<bp_Enemies hit by multiple whirlwinds take reduced %Final Damage after the first whirlwind_>",
+                        "The barrier uses [Elemental] where 1 [Elemental] blocks 1% Max HP (including %Max HP attacks)",
+                        "The amount of [Elemental] the barrier has increases with Skill Level",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Vortex Sphere",
+                    "shortDesc": "MP Cost: 750. Creates a Vortex Sphere, which moves on a collision course with the enemy. The sphere periodically attacks up to 10 enemies, for 960% damage, 8 times.\\nDecreases Vortex Sphere's speed by 50% for 1 sec if a Boss Monster is attacked.\\nCollision occurs up to 15 times for each enemy.\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/vortex-sphere.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWlzNXF1NjB3ZXI1cDlyaWhuZWtheng4ZXoyMXdjYmlsdnlodWxncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lTkYFwGCdUDQg5AWUN/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire a damaging orb that slowly travels forward while pulling in enemies",
+                    "details": [
+                        "Attack slows down if it damages a boss",
+                        "Each enemy can only be hit up to 15 times by the orb",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Breeze Arrow Boost",
+                    "shortDesc": "Breeze Arrow Final Damage: +350%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/breeze-arrow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Fairy Spiral Boost",
+                    "shortDesc": "Fairy Sprial Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/fairy-spiral.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gust Shot Boost",
+                    "shortDesc": "Gust Shot Final Damage: +300%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/gust-shot.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Trifling Wind and Storm Whim Boost",
+                    "shortDesc": "Trifling Wind I - III and Storm Whim Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png", "/class-icons/cygnus-knights/wind-archer/storm-whim.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sentient Arrow Boost",
+                    "shortDesc": "Sentient Arrow Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/sentient-arrow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Pinpoint Pierce Boost",
+                    "shortDesc": "Pinpoint Pierce Final Damage: +180%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Song of Heaven Boost",
+                    "shortDesc": "Song of Heaven Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/song-of-heaven.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Spiraling Vortex Boost",
+                    "shortDesc": "Spiraling Vortex Final Damage: +300%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/spiraling-vortex.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Monsoon Boost",
+                    "shortDesc": "Monsoon Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/monsoon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Storm Bringer Boost",
+                    "shortDesc": "Storm Bringer Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/storm-bringer.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-song-of-heaven.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/wind-archer/song-of-heaven.png} tip={Song of Heaven (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Song of Heaven",
+                    "shortDesc": "MP Cost per attack: 11, Max Enemies Hit: 4, Damage: 1095%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-song-of-heaven.png", "/class-icons/cygnus-knights/wind-archer/song-of-heaven.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGhiaDg5NGV1dWd2OHA5ZmFpeTJydmI2cG9pZHA2NDhvajRwOG8zayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7oGQl1U76DWsCoKYAR/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-trifling-wind.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png} tip={Trifling Wind (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Trifling Wind",
+                    "shortDesc": "Max soul energy created: 5, Chance to create energy: 50%, Random enemies damaged: 420%\\nChance to create enhanced soul energy: 20%, Damage of enhanced soul energy: 675%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-trifling-wind.png", "/class-icons/cygnus-knights/wind-archer/trifling-wind-iii.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzloN3JnaTRydjR3N2NocjN5dmlobTJiOG10YnhidnM3MnBianZweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C8fQCCjDcjI8sIAueP/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-fairy-spiral-storm-bringer-monsoon.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/wind-archer/fairy-spiral.png} tip={Fairy Spiral (4th Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/storm-bringer.png} tip={Storm Bringer (4th Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/monsoon.png} tip={Monsoon (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Fairy Spiral",
+                    "shortDesc": "MP Cost: 42, Damage: 625%, Number of Attacks: 5, Max Enemies Pushed Back: 7.",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-fairy-spiral.png", "/class-icons/cygnus-knights/wind-archer/fairy-spiral.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGVxOGd1amszYjJsb2wzYXB0YTUycDRubjlzOHR4dXAxYmFlZndqcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0lwaoaM6pQaCNhYyzo/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Storm Bringer",
+                    "shortDesc": "MP Cost: 80, Duration: 200 sec., Chance to summon large arrow on attack: 45%, Additional Arrow Damage: 938%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-storm-bringer.png", "/class-icons/cygnus-knights/wind-archer/storm-bringer.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2R3Y28xanFidHVidnQ0a3U5ZG84eWNpcTRrdTBqZ3Ntbnd1c2FoeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mOHJcvUrMUICvGip3W/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Monsoon",
+                    "shortDesc": "MP Cost: 410, Invincibility Duration: 3 sec\\nDamage: 705%, Max Enemies Hit: 15, Number of Attacks: 12, Damage Over Time: 336%, damage every 1 sec. for 30 sec\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-monsoon.png", "/class-icons/cygnus-knights/wind-archer/monsoon.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXYyZzc3Yml6eTVpY2ZlYW1yemQ0ZWs3YTdwNXZtNmN5NW1remE1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CZncfJ9XBftGlysDLr/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-storm-whim-anemoi.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/wind-archer/storm-whim.png} tip={Storm Whim (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Storm Whim",
+                    "shortDesc": "MP Cost: 230, Duration: 30 sec., Strong Spirit Arrow Chance: 30%, Damage: 890%\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-storm-whim.png", "/class-icons/cygnus-knights/wind-archer/storm-whim.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDdrZDN1eGJ4ZzFoZGdmYTR0czlyYW9zNjRjemh1amxhaDF4a2F2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qmdmwzSJKPYf8pKBHV/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Anemoi",
+                    "shortDesc": "MP Cost: 41, Anemoi Appearance: Max Enemies Hit: 12, Damage: 1733%, Number of Attacks: 15. Afterwards, Deals Damage: 1879%, Max Enemies Hit: 10, Number of Attacks: 10 at Set Intervals\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/anemoi.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamJsdzRjYnh0MW9ieXg1ZDRoYWN0dGkydHhldHV6dnpwdDQyaWcxbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d82CH9mbpRzKzCJuYD/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExajRpZDVxbzA4cnN1bzNkcWhvZnF6d3Nsamh5ZnUxeXFvN2J5MGxqayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7HRdB9Gw0ZSpx0264n/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node",
+                        "Unaffected by Damage Reflect",
+                        "Right-clicking the skill will toggle ON/OFF a transparency effect to the summon"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Mistral Spring",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nCreates 13 Wind Blades that attack up to 15 enemies with 1670% damage 10 times with the Spirit Arrows from the emerald.\\nAfter the attack ends, a wind spring creates Spirit Arrows to attack the enemy for 20 seconds\\nReplacement Cooldown: 3 seconds\\nSpirit Arrows: creates 13 Spirit Arrows that attack with 1320% damage 5 times\\nExcited Spirit Arrows: creates 5 Excited Spirit Arrows that attack with 1440% damage 6 times\\nStrong Spirit Arrows: creates 3 Strong Spirit Arrows that attack with 1275% damage 7 times\\nCooldown: 360 seconds",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/mistral-spring.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWV1dTRiYXc3ZHd6aXRkdWNrOTh2cWR4bDRqaGt6djU3ZDhpb2l0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8Edz1YIE2NoegYKAmP/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Elemental Tempest",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe tempest whirls 11 times, dealing 8027% damage to up to 15 enemies 12 times. Then Irena's bow fires a storm of arrows  11 times, dealing 8204% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/elemental-tempest.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHoyNHhpanViYjg4MnBrbXhnMG5xbXBnajI2d3JhbDN6YncwM3N0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IsTGpCGmNEtjIvQyRs/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Howling Gale Boost",
+                    "shortDesc": "Howling Gale Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/howling-gale.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Merciless Winds Boost",
+                    "shortDesc": "Merciless Winds Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/merciless-winds.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Gale Barrier Boost",
+                    "shortDesc": "Gale Barrier Final Damage: +60%, Duration increased to 40 sec",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/gale-barrier.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Vortex Sphere Boost",
+                    "shortDesc": "Vortex Sphere Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/wind-archer/vortex-sphere.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Trifling Wind I - 2nd Job",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png"],
+                "animations": ["https://media.giphy.com/media/TsSxk30gHEgMiy4L35/giphy.gif"]
+            },
+            {
+                "name": "Fairy Spiral - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/fairy-spiral.png"],
+                "animations": ["https://media.giphy.com/media/hzNhyRDgrymBvonYyK/giphy.gif"]
+            },
+            {
+                "name": "Song of Heaven - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/song-of-heaven.png"],
+                "animations": ["https://media.giphy.com/media/Jq0YVdCAMActr6F36N/giphy.gif"]
+            },
+            {
+                "name": "Storm Whim - Hyper Skill",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/storm-whim.png"],
+                "animations": ["https://media.giphy.com/media/b4sduPQQz03tCGPO1b/giphy.gif"]
+            },
+            {
+                "name": "Monsoon - Hyper Skill",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/monsoon.png"],
+                "animations": ["https://media.giphy.com/media/lAjnUyjkEUY5AJ6Ler/giphy.gif"]
+            },
+            {
+                "name": "Howling Gale - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/howling-gale.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemo2emR2emVram0ycnYxMWVha29vb2FhZTdmZXl2N3F2YXoxbWlscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cu8QzRb4A1ZUXO6wKr/giphy.gif"]
+            },
+            {
+                "name": "Merciless Wind - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/merciless-winds.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJ5cWpmNnFybHlnbGFjeXhzdmVpeGlieTdtY2d4bjN5MzJ0MTZhYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/46ALCfLORlc5i7WUmN/giphy.gif"]
+            },
+            {
+                "name": "Mistral Spring - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/mistral-spring.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWV1dTRiYXc3ZHd6aXRkdWNrOTh2cWR4bDRqaGt6djU3ZDhpb2l0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8Edz1YIE2NoegYKAmP/giphy.gif"]
+            },
+            {
+                "name": "Elemental Tempest - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/wind-archer/elemental-tempest.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHoyNHhpanViYjg4MnBrbXhnMG5xbXBnajI2d3JhbDN6YncwM3N0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IsTGpCGmNEtjIvQyRs/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Wind Archer is a DEX archer class part of the Cygnus Knights. Wind Archers are known for their evasive playstyle and beautiful attacks"
+}

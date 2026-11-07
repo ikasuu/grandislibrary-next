@@ -1,0 +1,1216 @@
+{
+    "class": "Kaiser",
+    "content": {
+        "classGroup": "Nova",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["twoHSword"]},
+            {"secondary": ["dragonEssence"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Buff Duration +38%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Buff Duration +38%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.34x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/nova/kaiser/blaze-on.png} tip={Blaze On (2nd Job)} val={+2}> <bg src={/class-icons/nova/kaiser/sword-mastery.png} tip={Sword Mastery (2nd Job)} val={+1}>"
+              },
+              {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/nova/kaiser/expert-sword-mastery.png} tip={Expert Sword Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+50(80) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/nova/kaiser/inner-blaze.png} tip={Inner Blaze (2nd Job)} val={+20}> <bg src={/class-icons/nova/kaiser/advanced-inner-blaze.png} tip={Advanced Inner Blaze (3rd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg src={/class-icons/nova/kaiser/nova-warrior.png} tip={Nova Warrior (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+34% +115",
+                "detail": "<bg src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg src={/class-icons/nova/kaiser/catalyze.png} tip={Catalyze (3rd Job)} val={+30%}> <bg src={/class-icons/nova/kaiser/blaze-on.png} tip={Blaze On (2nd Job)} val={+20}> <bg src={/class-icons/nova/kaiser/advanced-tempest-blades.png} tip={Advanced Tempest Blades (4th Job)} val={+20}> <bg src={/class-icons/nova/kaiser/expert-sword-mastery.png} tip={Expert Sword Mastery (4th Job)} val={+30}> <bg type={toggle} src={/class-icons/nova/kaiser/realign-attacker-mode.png} tip={Realign: Attacker Mode (Beginner Skill)} val={+45}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+65%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/nova/kaiser/catalyze.png} tip={Catalyze (3rd Job)} val={+20%}> <bg src={/class-icons/nova/kaiser/expert-sword-mastery.png} tip={Expert Sword Mastery (4th Job)} val={+20%}> <bg type={toggle} src={/class-icons/nova/kaiser/realign-attacker-mode.png} tip={Realign: Attacker Mode (Beginner Skill)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+23%",
+                "detail": "<bg src={/class-icons/nova/kaiser/unbreakable-will.png} tip={Unbreakable Will (4th Job)} val={+8%}> <bg src={/class-icons/nova/kaiser/expert-sword-mastery.png} tip={Expert Sword Mastery (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "[Lv. 3 Link Skill] (80%)",
+                "detail": "<bg type={temp} src={/class-icons/link-skills/iron-will.png} tip={Iron Will (Link Skill)} val={+3%/+4% per Morph Gauge} val={(Max. Lv. 2: +9% / Lv.3: +12%)}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+35% & +11% per Morph Gauge} val={(Max. +33% from stacks)}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+18%(28%)",
+                "detail": "<bg type={toggle} src={/class-icons/nova/kaiser/realign-attacker-mode.png} tip={Realign: Attacker Mode (Beginner Skill)} val={+18%}> <bg type={temp} src={/class-icons/nova/kaiser/defender-mode-iii.png} tip={Attacker Mode III (4th Job)} val={+10% while transformed}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+33%(52.26%)(91.31% during <tt src={/class-icons/nova/kaiser/final-form.png} tip={Final Form (3rd Job)}>) - Excl. <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>",
+                "detail": "<bg src={/class-icons/nova/kaiser/catalyze.png} tip={Catalyze (3rd Job)} val={+33%}> × <bg type={temp} src={/class-icons/nova/kaiser/final-form.png} tip={Final Form (3rd Job)} val={+15% while transformed}> × <bg type={temp} src={/class-icons/nova/kaiser/cursebite.png} tip={Cursebite (3rd Job)} val={+8% to enemies with Abnormal Statuses} val={(+18% instead, when transformed)}> × <bg type={temp} sub={toggle} src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)} val={+15% when using Attack Commands} subSrc={/class-icons/nova/kaiser/realign-attacker-mode.png} subTip={Realign: Attacker Mode (Beginner Skill)} subVal={extra +5%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+40%(49.6%)",
+                "detail": "<bg src={/class-icons/nova/kaiser/unbreakable-will.png} tip={Unbreakable Will (4th Job)} val={+40%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/nova/kaiser/blaze-on.png} tip={Blaze On (2nd Job)} dur={[240s]}> <tt src={/class-icons/nova/kaiser/cursebite.png} tip={Cursebite (3rd Job)} dur={[240s]}>",
+            "toggles": "[ <tt src={/class-icons/nova/kaiser/realign-defender-mode.png} tip={Realign: Defender Mode (Beginner Skill)}> / <tt src={/class-icons/nova/kaiser/realign-attacker-mode.png} tip={Realign: Attacker Mode (Beginner Skill)}> ] <tt src={/class-icons/nova/kaiser/tempest-blades.png} tip={Tempest Blades (2nd Job)}>",
+            "summons": "<tt src={/class-icons/nova/kaiser/wing-beat.png} tip={Wing Beat (3rd Job)} dur={[15s]}> <tt src={/class-icons/nova/kaiser/stone-dragon.png} tip={Stone Dragon (3rd Job)} dur={[60s]}> <tt src={/class-icons/nova/kaiser/nova-guardians.png} tip={Nova Guardians (5th Job)} dur={[45s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/nova/kaiser/final-form.png} tip={Final Form (3rd Job)} dur={[60s](Transform, Full Morph Gauge)}> <tt src={/class-icons/nova/kaiser/grand-armor.png} tip={Grand Armor (4th Job)} dur={[15s](120s cd)}> <tt src={/class-icons/nova/kaiser/kaisers-majesty.png} tip={Kaiser's Majesty (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/nova/kaiser/final-trance.png} tip={Final Trance (Hyper Skill)} dur={(240s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/nova/kaiser/nova-triumphant.png} tip={Nova Triumphant (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/nova/kaiser/draconic-aegis.png} tip={Draconic Aegis (4th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s Buff](1200s cd blocks 1 death)}> <tt src={/class-icons/nova/kaiser/nova-triumphant.png} tip={Nova Triumphant (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/nova/kaiser/grand-armor.png} tip={Grand Armor (4th Job)} dur={[15s](-12% | 120s cd)}> <tt src={/class-icons/nova/kaiser/defender-mode-iii.png} tip={Defender Mode III (4th Job)} dur={(-5% | Transform)}>"
+        },        
+        "linkSkill": {
+            "id": 80000006,
+            "icons": ["/class-icons/link-skills/iron-will.png"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/nova/kaiser/scale-skin.png} tip={Scale Skin}> -> <tt src={/class-icons/nova/kaiser/air-lift.png} tip={Air Lift}> -> <tt src={/class-icons/nova/kaiser/dragon-slash.png} tip={Dragon Slash}> -> <tt src={/class-icons/nova/kaiser/flame-surge.png} tip={Flame Surge}>"],
+                ["2nd Job", "<tt src={/class-icons/nova/kaiser/defender-mode-i.png} tip={Attacker Mode I}> -> <tt src={/class-icons/nova/kaiser/defender-mode-i.png} tip={Defender Mode I}> -> <tt src={/class-icons/nova/kaiser/dragon-slash-i.png} tip={Dragon Slash I}> -> <tt src={/class-icons/nova/kaiser/inner-blaze.png} tip={Inner Blaze}> -> <tt src={/class-icons/nova/kaiser/sword-mastery.png} tip={Sword Mastery}> -> <tt src={/class-icons/nova/kaiser/blaze-on.png} tip={Blaze On}> -> <tt src={/class-icons/nova/kaiser/tempest-blades.png} tip={Tempest Blades}> -> <tt src={/class-icons/nova/kaiser/impact-wave.png} tip={Impact Wave}> -> <tt src={/class-icons/nova/kaiser/piercing-blaze.png} tip={Piercing Blaze}>"],
+                ["3rd Job", "<tt src={/class-icons/nova/kaiser/defender-mode-ii.png} tip={Attacker Mode II}> -> <tt src={/class-icons/nova/kaiser/defender-mode-ii.png} tip={Defender Mode II}> -> <tt src={/class-icons/nova/kaiser/dragon-slash-ii.png} tip={Dragon Slash II}> -> <tt src={/class-icons/nova/kaiser/self-recovery.png} tip={Self Recovery}> -> <tt src={/class-icons/nova/kaiser/advanced-inner-blaze.png} tip={Advanced Inner Blaze}> -> <tt src={/class-icons/nova/kaiser/final-form.png} tip={Final Form}> -> <tt src={/class-icons/nova/kaiser/catalyze.png} tip={Catalyze}> -> <tt src={/class-icons/nova/kaiser/cursebite.png} tip={Cursebite}> -> <tt src={/class-icons/nova/kaiser/stone-dragon.png} tip={Stone Dragon}> -> <tt src={/class-icons/nova/kaiser/pressure-chain.png} tip={Pressure Chain}> -> <tt src={/class-icons/nova/kaiser/wing-beat.png} tip={Wing Beat}>"],
+                ["4th Job", "<tt src={/class-icons/nova/kaiser/defender-mode-iii.png} tip={Attacker Mode III}> -> <tt src={/class-icons/nova/kaiser/defender-mode-iii.png} tip={Defender Mode III}> -> <tt src={/class-icons/nova/kaiser/dragon-slash-iii.png} tip={Dragon Slash III}> -> <tt src={/class-icons/nova/kaiser/expert-sword-mastery.png} tip={Expert Sword Mastery}> -> <tt src={/class-icons/nova/kaiser/blade-burst.png} tip={Blade Burst}> -> <tt src={/class-icons/nova/kaiser/nova-warrior.png} tip={Nova Warrior}> -> <tt src={/class-icons/nova/kaiser/grand-armor.png} tip={Grand Armor}> -> <tt src={/class-icons/nova/kaiser/unbreakable-will.png} tip={Unbreakable Will}> -> <tt src={/class-icons/nova/kaiser/inferno-breath.png} tip={Inferno Breath}> -> <tt src={/class-icons/nova/kaiser/gigas-wave.png} tip={Gigas Wave}> -> <tt src={/class-icons/nova/kaiser/advanced-tempest-blades.png} tip={Advanced Tempest Blades}> -> <tt src={/class-icons/nova/kaiser/dragon-barrage.png} tip={Dragon Barrage}> -> <tt src={/class-icons/nova/nova-temperance.png} tip={Nova Temperance}> -> <tt src={/class-icons/nova/kaiser/draconic-aegis.png} tip={Draconic Aegis}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/nova/kaiser/gigas-wave-reinforce.png} tip={Gigas Wave - Reinforce}> <tt src={/class-icons/nova/kaiser/gigas-wave-bonus-attack.png} tip={Gigas Wave - Bonus Attack}> Gigas Wave - Reinforce and Bonus Attack_<tt src={/class-icons/nova/kaiser/inferno-breath-reinforce.png} tip={Inferno Breath - Reinforce}> <tt src={/class-icons/nova/kaiser/inferno-breath-boss-rush.png} tip={Inferno Breath - Boss Rush}> Inferno Breath - Reinforce and Boss Rush_<tt src={/class-icons/nova/kaiser/wing-beat-reinforce.png} tip={Wing Beat - Reinforce}> Wing Beat - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/nova/kaiser/gigas-wave.png} tip={Gigas Wave and Draco Surge (4th Job)}> <tt src={/class-icons/nova/kaiser/tempest-blades.png} tip={Tempest Blades (2nd Job)}> <tt src={/class-icons/nova/kaiser/blade-burst.png} tip={Blade Burst (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/nova/kaiser/stone-dragon.png} tip={Stone Dragon (3rd Job)}> <tt src={/class-icons/nova/kaiser/wing-beat.png} tip={Wing Beat (3rd Job)}> <tt src={/class-icons/nova/kaiser/inferno-breath.png} tip={Inferno Breath (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/nova/kaiser/gigas-wave.png} tip={Gigas Wave and Draco Surge (4th Job)}> <tt src={/class-icons/nova/kaiser/dragon-slash.png} tip={Dragon Slash (1st Job)}>",
+                "<tt src={/class-icons/nova/kaiser/blade-burst.png} tip={Blade Burst (4th Job)}> <tt src={/class-icons/nova/kaiser/tempest-blades.png} tip={Tempest Blades (2nd Job)}>",
+                "<tt src={/class-icons/nova/kaiser/inferno-breath.png} tip={Inferno Breath (4th Job)}>",
+                "<tt src={/class-icons/nova/kaiser/stone-dragon.png} tip={Stone Dragon (3rd Job)}> <tt src={/class-icons/nova/kaiser/wing-beat.png} tip={Wing Beat (3rd Job)}> <tt src={/class-icons/nova/kaiser/pressure-chain.png} tip={Pressure Chain (3rd Job)}>",
+                " <tt src={/class-icons/nova/kaiser/flame-surge.png} tip={Flame Surge (1st Job)}> <tt src={/class-icons/nova/kaiser/impact-wave.png} tip={Impact Wave (2nd Job)}> <tt src={/class-icons/nova/kaiser/piercing-blaze.png} tip={Piercing Blaze (2nd Job)}>",
+                "<tt src={/class-icons/nova/kaiser/dragon-barrage.png} tip={Dragon Barrage (4th Job)}> <tt src={/class-icons/nova/kaiser/ancestral-prominence.png} tip={Ancestral Prominence (Hyper Skill)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Kaiser"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%B9%B4%EC%9D%B4%EC%A0%80(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.com/invite/DGHZJ8s"},
+            {"title": "Class Doc", "link": "https://tinyurl.com/RebootKaiserGuide"}
+        ],
+        "discord": "https://discord.com/invite/DGHZJ8s",
+        "specialThanks": "Special thanks to the authors of the Heroic Kaiser Guide for their help in making this overview!",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build + Infographic", "Heroic Kaiser Guide"]
+        ],
+        "infographics": [
+            {
+                "src": "kaiser/kaiser-overview.png",
+                "title": "Overview",
+                "credit": "authors of the Heroic Kaiser Guide",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "kaiser/kaiser-6th-job.png",
+                "title": "6th Job",
+                "credit": "authors of the Heroic Kaiser Guide",
+                "date": "2026-06-25"
+            }
+        ],
+        "extraContent": {
+            "title": "Morph Gauge",
+            "content": [
+                "<img src={/class-icons/nova/kaiser/morph-gauge.png} alt={Morph Gauge}>",
+                "Kaiser has a gauge called the Morph Gauge that when fully filled, Kaiser can transform into their ultimate form (starting from 3rd Job). The gauge can be charged by attacking enemies",
+                "As well, Kaiser's attacks can be activated by command inputs using <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}> Dragon Link. Using command input skills will charge the Morph Gauge faster and the attack will deal more damage. Below is a list of all commands:",
+                "<bp_<tt src={/class-icons/nova/kaiser/flame-surge.png} tip={Flame Surge (1st Job)}> Flame Surge (1st Job): [Attack] -> <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>_<tt src={/class-icons/nova/kaiser/impact-wave.png} tip={Impact Wave (2nd Job)}> Impact Wave (2nd Job): [Attack] -> [↑] + <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>_<tt src={/class-icons/nova/kaiser/wing-beat.png} tip={Wing Beat (3rd Job)}> Wing Beat (3rd Job): [Attack] -> [Jump] + <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>_<tt src={/class-icons/nova/kaiser/gigas-wave.png} tip={Gigas Wave (4th Job)}> Gigas Wave (4th Job): [Attack] -> <tt src={/class-icons/nova/kaiser/gigas-wave.png} tip={Gigas Wave (4th Job)}>_<tt src={/class-icons/nova/kaiser/dragon-barrage.png} tip={Dragon Barrage (4th Job)}> Dragon Barrage (4th Job): [Attack] -> [→ or ←] + <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>_<tt src={/class-icons/nova/kaiser/blade-burst.png} tip={Blade Burst (4th Job)}> Blade Burst (4th Job): [Attack] -> [↓] + <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Iron Will",
+                    "shortDesc": "Max HP: +15%, Damage increase per Morph Gauge Stage: +5%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/iron-will.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Realign: Defender Mode",
+                    "shortDesc": "Defense: +200",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/realign-defender-mode.png"],
+                    "type": "Toggle Buff",
+                    "desc": "",
+                    "details": [
+                        "Cannot be combined with <tt src={/class-icons/nova/kaiser/realign-attacker-mode.png} tip={Realign: Attacker Mode (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Realign: Attacker Mode",
+                    "shortDesc": "Attack Power: +5, Critical Rate: +3%, Boss Damage: +3%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/realign-attacker-mode.png"],
+                    "type": "Toggle Buff",
+                    "desc": "",
+                    "details": [
+                        "Cannot be combined with <tt src={/class-icons/nova/kaiser/realign-defender-mode.png} tip={Realign: Defender Mode (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Vertical Grapple",
+                    "shortDesc": "Press the skill key while you're climbing to cancel.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/vertical-grapple.png"],
+                    "animations": ["https://media4.giphy.com/media/43UIrafIm5vfJUptKK/giphy.gif"],
+                    "desc": "Grapple onto a platform above and launch towards it",
+                    "details": [
+                        "Pressing the Jump Key while launching up will cancel the grapple early"
+                    ],
+                    "type": "Active"
+                },
+                {
+                    "name": "Transfiguration",
+                    "shortDesc": "Movement Speed +10, Jump +20, Knockback Resistance +40%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/transfiguration.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Dragon Link",
+                    "shortDesc": "Morph Gauge fills faster, and the Dragon Link skill and the Kaiser attack skill that follows will have their final damage increased by 15%. Once used, any buff that increases the final damage of following attack will disappear regardless of the skill. Does not apply to Wing Beat.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/dragon-link.png"],
+                    "type": "Special Active",
+                    "desc": "Allows you to use Attack Commands by combining this Skill Key with a unique combination of Keys",
+                    "details": [
+                        "Activating skills using Attack Commands will charge the Morph Gauge faster and the attack will deal more damage"
+                    ]
+                },
+                {
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/exclusive-spell.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhscWR1ODFnOXV1dHM4bmUydDUwM2R5NjQybGl4b2V5Z24waTEyaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xfv8TRmxNe6nhO5NTA/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/22/Grand_Kaiser} title={\"Grand Kaiser\"}>",
+                        "Affects all nearby players"
+                    ]
+                },
+                {
+                    "name": "Guardian's Return",
+                    "shortDesc": "MP Cost: 100\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/guardians-return.png"],
+                    "animations": ["https://media2.giphy.com/media/MtDluVIABhtbqOcoGY/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Returns you to Pantheon, Kaiser's hometown"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Dragon Slash",
+                        "shortDesc": "1-hit: Attack up to 8 enemies for 70% damage 3 times\\n2-hit: Up to 6 enemies attack for 50% damage 5 times\\n3-hit: Up to 6 enemies attack for 60% damage 5 times\\nFinal Form: Up to 8 enemies attack for 160% damage 5 times, Up to 10 enemies attack 6 times after 4th job",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/dragon-slash.png"],
+                        "animations": ["https://media.giphy.com/media/SsHs6FaASxUfjk2Jta/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "Attack forward consecutively up to 3 times"
+                    },
+                    {
+                        "name": "Flame Surge",
+                        "shortDesc": "MP Cost: 10, Damage: 170%, Number of Attacks: 2, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/flame-surge.png"],
+                        "animations": ["https://media.giphy.com/media/ZEr8nWXKfiaMKZJGAc/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launch fireballs forward at nearby enemies",
+                        "details": [
+                            "[Combo]: Attack (then) -> <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>"
+                        ]
+                    },
+                    {
+                        "name": "Air Lift",
+                        "shortDesc": "MP Cost: 10, Set Jump Distance, Max Speed: +20, Speed: +20",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/nova/kaiser/air-lift.png"],
+                        "animations": ["https://media.giphy.com/media/Yqt9wvIGanCoETbOJv/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
+                        ]
+                    },
+                    {
+                        "name": "Scale Skin",
+                        "shortDesc": "DEF: +200, Knockback Resistance: +40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kaiser/scale-skin.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Dragon Slash I",
+                        "shortDesc": "Additional 40% bonus to Dragon Slash damage",
+                        "maxLevel": 2,
+                        "icons": ["/class-icons/nova/kaiser/dragon-slash-i.png", "/class-icons/nova/kaiser/dragon-slash.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "Impact Wave",
+                        "shortDesc": "MP Cost: 17, Damage: 270%, Mobs Hit: 8, Number of Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/impact-wave.png"],
+                        "animations": ["https://media.giphy.com/media/chmthJBWxZ1gA4yP3Q/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a shockwave forward",
+                        "details": [
+                            "[Combo]: Attack -> Up Arrow (together) + <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>"
+                        ]
+                    },
+                    {
+                        "name": "Piercing Blaze",
+                        "shortDesc": "MP Cost: 20, Monsters Hit: 12, Damage: 250%, Stun Chance: 80%, Stun Duration: 2 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kaiser/piercing-blaze.png"],
+                        "animations": ["https://media.giphy.com/media/Q8VF9KTaIXhcw75sCR/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing enemies back",
+                        "details": [
+                            "Has a chance to stun enemies"
+                        ]
+                    },
+                    {
+                        "name": "Tempest Blades",
+                        "shortDesc": "MP Cost: 30, Swords Summoned: 3 per 0.3 sec\\nUse Tempest Blades: Charge after summoning to send the swords at the enemy and deal 300% damage with 3 attacks.\\nFinal Form: Number of Attacks: +1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/tempest-blades.png"],
+                        "animations": ["https://media4.giphy.com/media/1LA9MUMwL0tK8ZBg7M/giphy.gif"],
+                        "type": "Toggle Summon",
+                        "desc": "While toggled, periodically summon swords that upon activating, will seek out and strike nearby enemies",
+                        "details": [
+                            "Pressing <tt src={/class-icons/nova/kaiser/tempest-blades-charge.png} tip={Tempest Blades: Charge (2nd Job)}> will activate the swords to strike",
+                            "During <tt src={/class-icons/nova/kaiser/final-form.png} tip={Final Form (3rd Job)}>, swords will gain 1 additional number of attacks",
+                            "Prioritizes enemies with the highest Max HP first"
+                        ]
+                    },
+                    {
+                        "name": "Tempest Blades: Charge",
+                        "shortDesc": "MP Cost: 30, Discharges the swords summoned by Tempest Blades.\\nCooldown: 10 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/nova/kaiser/tempest-blades-charge.png"],
+                        "type": "Active",
+                        "desc": "Activate swords summoned by <tt src={/class-icons/nova/kaiser/tempest-blades.png} tip={Tempest Blades (2nd Job)}> to seek out nearby enemies",
+                        "details": [
+                            "Can be used while casting other skills"
+                        ]
+                    },
+                    {
+                        "name": "Blaze On",
+                        "shortDesc": "MP Cost: 30, Duration: 240 sec, Attack Power: +20, Attack Speed: +2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/blaze-on.png"],
+                        "animations": ["https://media2.giphy.com/media/Xf7QogrkqzI36ivNjx/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages) and grants flat Attack"
+                    },
+                    {
+                        "name": "Sword Mastery",
+                        "shortDesc": "Two-Handed Sword Mastery: +50%, Attack Speed: +1",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kaiser/sword-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Inner Blaze",
+                        "shortDesc": "STR: +20, HP: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kaiser/inner-blaze.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Defender Mode I",
+                        "shortDesc": "Defense: Additional +200",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/nova/kaiser/defender-mode-i.png", "/class-icons/nova/kaiser/realign-defender-mode.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases DEF provided"
+                        ]
+                    },
+                    {
+                        "name": "Attacker Mode I",
+                        "shortDesc": "Attack Power: +10, Critical Rate: +2%, Boss Damage: +5%",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/nova/kaiser/defender-mode-i.png", "/class-icons/nova/kaiser/realign-attacker-mode.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Attack, %Crit Rate, and %Boss Damage provided"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Dragon Slash II",
+                        "shortDesc": "Additional 70% bonus to Dragon Slash damage",
+                        "maxLevel": 2,
+                        "icons": ["/class-icons/nova/kaiser/dragon-slash-ii.png", "/class-icons/nova/kaiser/dragon-slash.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "Wing Beat",
+                        "shortDesc": "MP Cost: 35, Summon Duration: 15 sec, Max Enemies Hit: 8, Damage: 200%, Max Number of Attacks: 40\\nSlow Chance: 40%, Slow Duration: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/wing-beat.png"],
+                        "animations": ["https://media.giphy.com/media/JNxvdTpydxnjeRRzK3/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a moving whirlwind that damages enemies it collides with",
+                        "details": [
+                            "[Combo]: Attack -> Jump + <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>",
+                            "Up to 2 whirlwinds can be active at once",
+                            "The whirlwind will disappear after a set distance or has attacked enemies a set number of times",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Pressure Chain",
+                        "shortDesc": "MP Cost: 30, Penetrates then pulls 8 enemies dealing 280% damage 2 times, Stun Chance: 95%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/pressure-chain.png"],
+                        "animations": ["https://media.giphy.com/media/Teymdfasnw9rTJWvng/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike forward while pulling in enemies with a chance to stun"
+                    },
+                    {
+                        "name": "Final Form",
+                        "shortDesc": "MP Cost: 40, Duration: 60, Final Damage: +10%, Power Stance Chance: +100%. Ignores enemies' attack-ignoring and attack-reflecting effects.\\nAfter 4th Job Advancement: Final Damage: +15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kaiser/final-form.png"],
+                        "animations": ["https://media.giphy.com/media/YRV9WjMrXTvI6Xjhko/giphy.gif"],
+                        "type": "Active Transform",
+                        "desc": "Transform into your true form",
+                        "details": [
+                            "Attacks are enhanced and you gain increased %Final Damage and 100% Knockback Resistance<bp_In 4th Job, the %Final Damage bonus is increased_>",
+                            "While transformed, attacks ignore Attack Ignore and Damage Reflect",
+                            "You can teleport a short distance by the Skill Key and an Arrow Key for the direction you want to go together"
+                        ]
+                    },
+                    {
+                        "name": "Stone Dragon",
+                        "shortDesc": "MP Cost: 35, Duration: 60 sec, Max Enemies Hit: 8, Damage: 400%\\nSummons a dragon statue that attacks 3 times\\nwith a 75% chance to Slow enemies, excluding Boss Monsters, for 3 sec\\nDamage increases 50% when attacking normal enemies",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/nova/kaiser/stone-dragon.png"],
+                        "animations": ["https://media.giphy.com/media/WPv39R4DsuzoKmsurS/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a stationary statue that attacks and pulls in nearby enemies",
+                        "details": [
+                            "Also has a chance to slow enemies hit (excluding boss monsters)",
+                            "Deals increased %Damage to regular monsters",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Cursebite",
+                        "shortDesc": "MP Cost: 40, Duration: 240 sec, Abnormal Status Resistance: +60, Elemental Resistance: +60%\\nWhen attacking a monster with a status ailment, final damage +8%\\nFinal damage increase when attacking a monster with a status ailment boosted to 18% during Final Form.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/cursebite.png"],
+                        "animations": ["https://media1.giphy.com/media/fZ26qxlsTkxJZ75CoZ/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Abnormal Status Resistance, %Elemental Resistance, and %Final Damage to enemies with Abnormal Statuses",
+                        "details": [
+                            "When transformed, the %Final Damage increase is boosted"
+                        ]
+                    },
+                    {
+                        "name": "Catalyze",
+                        "shortDesc": "Attack Power: +30%, Critical Rate: +20%, Final Damage: +33%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/kaiser/catalyze.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Self Recovery",
+                        "shortDesc": "Every 4 sec, restores 5% HP and MP even in combat.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/nova/kaiser/self-recovery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Advanced Inner Blaze",
+                        "shortDesc": "STR: +30, HP: +30%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/kaiser/advanced-inner-blaze.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Defender Mode II",
+                        "shortDesc": "Defense: Additional +200\\n3% of max HP restored when using Dragon Link skills.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/nova/kaiser/defender-mode-ii.png", "/class-icons/nova/kaiser/realign-defender-mode.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases DEF provided",
+                            "Now when toggled, attacks activated using <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}> will restore some %Max HP"
+                        ]
+                    },
+                    {
+                        "name": "Attacker Mode II",
+                        "shortDesc": "Attack Power: +15, Critical Rate: +5%, Boss Damage: +5%\\nFinal Damage additionally increased by 5% when using Dragon Link skills.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/nova/kaiser/defender-mode-ii.png", "/class-icons/nova/kaiser/realign-attacker-mode.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Attack, %Crit Rate, and %Boss Damage provided",
+                            "Now when toggled, attacks activated using <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}> gain increased %Final Damage"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Dragon Slash III",
+                    "shortDesc": "Additional 90% bonus to Dragon Slash damage",
+                    "maxLevel": 6,
+                    "icons": ["/class-icons/nova/kaiser/dragon-slash-iii.png", "/class-icons/nova/kaiser/dragon-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of attack"
+                    ]
+                },
+                {
+                    "name": "Gigas Wave",
+                    "shortDesc": "MP Cost: 50, Enemies Hit: 1, Damage: 330%, Number of Attacks: 9\\nFinal Form: MP Cost: 60, Enemies Hit: 3, Damage: 330%, Number of Attacks: 11",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/kaiser/gigas-wave.png"],
+                    "animations": ["https://media.giphy.com/media/cP5XFUcr3vkzW0e8m8/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slash forward several times at a single enemy",
+                    "details": [
+                        "[Combo]: Attack -> <tt src={/class-icons/nova/kaiser/gigas-wave.png} tip={Gigas Wave (4th Job)}>",
+                        "Enemies hit are slowed"
+                    ]
+                },
+                {
+                    "name": "Dragon Barrage",
+                    "shortDesc": "MP Cost: 50, Max Enemies Hit: 12, Damage: 550%, Number of Attacks: 7\\nFinal Form: MP Cost: 60, Enemies Hit: 12, Damage: 550%, Number of Attacks: 9.\\nCooldown: 5 sec.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/nova/kaiser/dragon-barrage.png"],
+                    "animations": ["https://media.giphy.com/media/cIDaNCkmfZno9R9Z44/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Dash forward leaving behind an exploding trail",
+                    "details": [
+                        "[Combo]: Attack -> Left Arrow/Right Arrow + <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}><bp_Arrow Key you press is the opposite of the direction you are facing_>"
+                    ]
+                },
+                {
+                    "name": "Blade Burst",
+                    "shortDesc": "MP Cost: 45, Damage: 480%, Number of Attacks: 5, Max Enemies Hit: 12",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/nova/kaiser/blade-burst.png"],
+                    "animations": ["https://media.giphy.com/media/zc6Y4imVlGCmcof4OM/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike down with exploding swords",
+                    "details": [
+                        "[Combo]: Attack -> Down Arrow + <tt src={/class-icons/nova/kaiser/dragon-link.png} tip={Dragon Link (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Inferno Breath",
+                    "shortDesc": "MP Cost: 70, Damage: 970%, Number of Attacks: 14, Max Enemies Hit: 15. Creates several fire trails afterwards.\\nFire trail periodically inflicts 240% damage up to 6 enemies for 20 sec.\\nCooldown: 20 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/nova/kaiser/inferno-breath.png"],
+                    "animations": ["https://media.giphy.com/media/JsL3JFTPTGBlqyeRBb/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summon a dragon that breaths fire on enemies and leaves a lingering trail of fire that damages enemies",
+                    "details": [
+                        "Ignores Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Advanced Tempest Blades",
+                    "shortDesc": "MP Cost: 60, Swords Summoned: 5 per 0.3 sec\\nUse Tempest Blades: Charge after summoning to send the swords at the enemy and deal 450% damage with 4 attacks.\\nPermanently Attack Power: +20\\nFinal Form: Number of Attacks: +1",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/kaiser/advanced-tempest-blades.png", "/class-icons/nova/kaiser/tempest-blades.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage, Number of Hits, and number of swords summoned",
+                        "Now grants flat Attack"
+                    ]
+                },
+                {
+                    "name": "Grand Armor",
+                    "shortDesc": "MP Cost: MP 10% of Max MP, Duration: 15 sec. Damage taken, including attacks that deal damage in proportion to Max HP, is reduced by 12%.\\nCooldown: 120 sec.\\n[Passive Effect - Damage Taken: -20%, Knockback Resistance: +60%]",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/nova/kaiser/grand-armor.png"],
+                    "animations": ["https://media0.giphy.com/media/cIKW4al99NOXpwvxtH/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases %Damage Reduction including %Max HP attacks",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage Reduction (Regular Monsters) and %Knockback Resistance"
+                    ]
+                },
+                {
+                    "name": "Draconic Aegis",
+                    "shortDesc": "MP Cost: 250, Invincibility Duration: 3 sec.\\nCooldown: 60 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/nova/kaiser/draconic-aegis.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Q2bGxtcjA4d2VoYjcxdjc1MGJzaTd3emMzcTd6YmswNGYyNDFneSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/txRgDY2hRqJCVhhcMg/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, briefly become invincible",
+                    "details": [
+                        "Pressing the Skill Key again will end the buff early",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Unbreakable Will",
+                    "shortDesc": "Ignore Defense: 40%, Critical Damage: +8%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/kaiser/unbreakable-will.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Expert Sword Mastery",
+                    "shortDesc": "Two-Handed Sword Mastery: +70%, Attack Power: +30, Critical Rate: +20%, Critical Damage: +15%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/kaiser/expert-sword-mastery.png", "/class-icons/nova/kaiser/sword-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack, %Crit Rate, and %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Nova Warrior",
+                    "shortDesc": "MP Cost: 70, Grandis Goddess appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/kaiser/nova-warrior.png"],
+                    "animations": ["https://media3.giphy.com/media/AvN8Xla6VPprOB8pXS/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Nova Temperance",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/nova/nova-temperance.png"],
+                    "animations": ["https://media2.giphy.com/media/vo6UGpCKG27VWiR297/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Defender Mode III",
+                    "shortDesc": "Defense: Additional +200\\nDamage Reduction During Final Form: 5% (including Percentage HP attacks)",
+                    "maxLevel": 2,
+                    "icons": ["/class-icons/nova/kaiser/defender-mode-iii.png", "/class-icons/nova/kaiser/realign-defender-mode.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases DEF provided",
+                        "Now when toggled during <tt src={/class-icons/nova/kaiser/final-form.png} tip={Final Form (3rd Job)}>, gain increased %Damage Reduction (including %Max HP attacks)"
+                    ]
+                },
+                {
+                    "name": "Attacker Mode III",
+                    "shortDesc": "Attack Power: +15, Critical Rate: +10%, Boss Damage: +5%\\nDamage additionally increased by 10% when attacking Boss Monsters in Final Form mode.",
+                    "maxLevel": 2,
+                    "icons": ["/class-icons/nova/kaiser/defender-mode-iii.png", "/class-icons/nova/kaiser/realign-attacker-mode.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases Attack, %Crit Rate, and %Boss Damage provided",
+                        "Now when toggled during <tt src={/class-icons/nova/kaiser/final-form.png} tip={Final Form (3rd Job)}>, gain increased %Boss Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Gigas Wave - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/gigas-wave-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Gigas Wave - Burden",
+                    "shortDesc": "Duration +5 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/gigas-wave-burden.png"],
+                    "type": "Passive",
+                    "desc": "Increases duration of slow",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Gigas Wave - Bonus Attack",
+                    "shortDesc": "Number of Hits +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/gigas-wave-bonus-attack.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Inferno Breath - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/inferno-breath-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Inferno Breath - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/inferno-breath-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Inferno Breath - Boss Rush",
+                    "shortDesc": "Boss Damage +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/inferno-breath-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Wing Beat - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/wing-beat-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Wing Beat - Pummel",
+                    "shortDesc": "Duration +5 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/wing-beat-pummel.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Wing Beat - Extra Attack",
+                    "shortDesc": "Number of Hits +8",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/wing-beat-extra-attack.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Kaiser's Majesty",
+                    "shortDesc": "MP Cost: 300, Duration: 30 sec, Reduces cooldown of 4th job or below skills by 50%, excluding some skills.\\Cooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/kaisers-majesty.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJkNDJoMWFwbXdhdDR4eDY5cjUyaTIzMnZqdTFvOG0xNXNpbnFzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zvYom40SW1PtZ61FQe/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, reduces cooldown of 4th Job and below skills (for skills that can be affected) and attacks ignore Attack Ignore and Damage Reflect effects",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Ancestral Prominence",
+                    "shortDesc": "MP Cost: 300, Damage: 1000%, Number of Attacks: 15, Max Enemies Hit: 15\\nCooldown: 60 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/ancestral-prominence.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHhybDU0YnZ3NXZtaGFzbzF3MzdreW9lY2RkaHQ3em95N25pMnV2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q6J6iaNpYmRYQpGhc9/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash an explosion that damages a wide area",
+                    "details": [
+                        "Unaffected by cooldown reduction"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Final Trance",
+                    "shortDesc": "MP Cost: 300, Transforms into Final Form for 60 sec.\\nCooldown: 240 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/kaiser/final-trance.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJ0ZGF6dTJqdGtsdWQxbmQybGphZ2Zlank3dXEwN2xkY3JiaWJmbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F1RPVjWDYKC8vXSUgs/giphy.gif"],
+                    "type": "Buff / Transform",
+                    "desc": "Immediately transform into <tt src={/class-icons/nova/kaiser/final-form.png} tip={Final Form (3rd Job)}>",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["mightOfTheNova", "grandisGoddessBlessingKAI", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Nova Guardians",
+                    "shortDesc": "MP Cost: 1000, Duration: 45 sec. Summons 3 Kaisers with limited movement range. After Kaisers are summoned, use the skill again to bring them to your location. Can be used once every 3 seconds.\\nKaiser VI - Attacks up to 10 enemies for 900% damage 4 times\\nKaiser XV - Attacks up to 10 enemies for 660% damage 6 times\\nKaiser XXVII - Attacks up to 10 enemies for 1980% damage 2 times\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/nova/kaiser/nova-guardians.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHc0MzI5dGVhbjM0eWZ2MXczNmJlN3RrcHJiOG8xbHBzNGl2amhrbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P11iZbeOihr3pl3GlX/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon previous Kaiser knights to fight by your side",
+                    "details": [
+                        "While active, pressing the Skill Key will resummon them to your location",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Bladefall",
+                    "shortDesc": "MP Cost: 1000, each blade strikes for 1100% damage 4 times and creates a pool of magma where it lands after 2 sec.\\nThe magma hits up to 12 enemies dealing 1540% damage 6 times and increases up to 2200% in proportion to the time the blade remained in the ground after landing.\\nIgnores Draco Surge's cooldown 3 time(s).\\nCooldown: 30 sec\\nFinal Form: Tempest Blades and magma's attack counts increase by 1.",
+                    "icons": ["/class-icons/nova/kaiser/bladefall.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmhubTFqYzZ3NTJiejdxN2tlY2liNDRmeGExc3d1dmJiNWx0NGU4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ODlFYYsBvAMJ0QQz07/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "When used, <tt src={/class-icons/nova/kaiser/tempest-blades.png} tip={Tempest Blades (2nd Job)}> Tempest Blades seek out enemies and slam into the ground at their location",
+                    "details": [
+                        "<tt src={/class-icons/nova/kaiser/tempest-blades.png} tip={Tempest Blades (2nd Job)}> must be active in order to use skill",
+                        "Pressing the skill key again will release the swords causing an explosion<bp_The explosion will deal more damage the longer it stays in the ground_>",
+                        "Resets <tt src={/class-icons/nova/kaiser/draco-surge.png} tip={Draco Surge (5th Job)}> cooldown (up to 3 times)",
+                        "Prioritizes bosses with the highest HP first",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Draco Surge",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 8, Damage: 740%, Number of Attacks: 10. After that, launches the Dragon Warrant, Damage: 740%, Number of Attacks: 6, Max Enemies Hit: 8. Additional Critical rate: +100%, Additional Monster DEF Ignored: +50%\\nFinal Form: Increases Draco Wave's attack count by 2\\nActivates upon using Gigas Wave\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/nova/kaiser/draco-surge.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Ryb2IwNXAxcjZyajUyYXN3YjF4OGVlMGUydjBhc3hhZ2ZzeTJ4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1HkJzLikIIL24dYNYO/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Periodically enhances <tt src={/class-icons/nova/kaiser/gigas-wave.png} tip={Gigas Wave (4th Job)}> that launches an additional attack",
+                    "details": [
+                        "Has increased %Ignore DEF and is a guaranteed Critical Hit",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Dragonflare",
+                    "shortDesc": "MP Cost: 1000, Deal automatic attacks to up to 8 surrounding enemies for 990% damage 6 times periodically for 20 sec.\\nFire Energy: Maintained 5 sec. Upon detonation, the Fire Energy and surroundings near Kaiser will attack up to 10 enemies for 990% damage 6 time(s). Explosion Cooldown: 3.6 sec\\nFire Orb: 6 Forms Fire Orb(s) that attack for 770% damage 3 time(s). Re-creation Cooldown: 10 sec\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/nova/kaiser/dragonflare.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2V2NHp0d2Y4amQxbnJzZ3RtNmlpd2ZyZWxqZzAzNDEzYXZyNXlyZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fai0bu5WlvfiwilxTC/giphy-downsized-large.gif"],
+                    "type": "Attack",
+                    "desc": "Flames surround you that damages enemies caught in it",
+                    "details": [
+                        "[Passive]: While skill is not active, successful attacks create homing fireballs<bp_Right-clicking the skill will turn the fireballs ON/OFF_>",
+                        "While active, a haze is left at places you pass through<bp_Attacks in these haze cause it to explode, damaging nearby enemies_>",
+                        "Pressing the Skill Key again will cancel the skill",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Dragon Slash Boost",
+                    "shortDesc": "Dragon Slash Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kaiser/dragon-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Flame Surge Boost",
+                    "shortDesc": "Flame Surge Final Damage: +420%",
+                    "icons": ["/class-icons/nova/kaiser/flame-surge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Impact Wave Boost",
+                    "shortDesc": "Impact Wave Final Damage: +300%",
+                    "icons": ["/class-icons/nova/kaiser/impact-wave.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Piercing Blaze Boost",
+                    "shortDesc": "Piercing Blaze Final Damage: +300%",
+                    "icons": ["/class-icons/nova/kaiser/piercing-blaze.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Tempest Blades Boost",
+                    "shortDesc": "Tempest Blades and Advanced Tempest Blades Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kaiser/tempest-blades.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Wing Beat Boost",
+                    "shortDesc": "Wing Beat Final Damage: +180%",
+                    "icons": ["/class-icons/nova/kaiser/wing-beat.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Pressure Chain Boost",
+                    "shortDesc": "Pressure Chain Final Damage: +180%",
+                    "icons": ["/class-icons/nova/kaiser/pressure-chain.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Stone Dragon Boost",
+                    "shortDesc": "Stone Dragon Final Damage: +180%",
+                    "icons": ["/class-icons/nova/kaiser/stone-dragon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gigas Wave Boost",
+                    "shortDesc": "Gigas Wave and Draco Surge Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kaiser/gigas-wave.png", "/class-icons/nova/kaiser/draco-surge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Barrage Boost",
+                    "shortDesc": "Dragon Barrage Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kaiser/dragon-barrage.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blade Burst Boost",
+                    "shortDesc": "Blade Burst Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kaiser/blade-burst.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Inferno Breath Boost",
+                    "shortDesc": "Inferno Breath Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kaiser/inferno-breath.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ancestral Prominence Boost",
+                    "shortDesc": "Ancestral Prominence Final Damage: +120%",
+                    "icons": ["/class-icons/nova/kaiser/ancestral-prominence.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/kaiser/hexa-gigas-wave.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/kaiser/gigas-wave.png} tip={Gigas Wave and Draco Surge (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Gigas Wave",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 3, Damage: 560%, Number of Attacks: 9\\nFinal Form: MP Cost: 80, Enemies Hit: 4, Damage: 560%, Number of Attacks: 11",
+                    "icons": ["/class-icons/nova/kaiser/hexa-gigas-wave.png", "/class-icons/nova/kaiser/gigas-wave.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVvN2w0dmluaDJuZzNmMTV5NDR4ZTdraDN2a3Zvd3liYmdpbjUyZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NX4chiMQkfIc83BXnh/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/kaiser/hexa-blade-burst-tempest-blades.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/kaiser/blade-burst.png} tip={Blade Burst (4th Job)}> <tt src={/class-icons/nova/kaiser/tempest-blades.png} tip={Tempest Blades (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Blade Burst",
+                    "shortDesc": "MP Cost: 67, Max Enemies Hit: 12, Damage: 830%, Number of Attacks: 5",
+                    "icons": ["/class-icons/nova/kaiser/hexa-blade-burst.png", "/class-icons/nova/kaiser/blade-burst.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmR0dXVlMDFkZ3lvYjNteDFya2VoaXQ0Nmd0azQzOXcwZ2h0MzExaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lPm0Ug7FWYdbICToAk/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Tempest Blades",
+                    "shortDesc": "MP Cost: 77, Swords Summoned: 5 per 0.3 sec\\nUse Tempest Blades: Charge after summoning to send the swords at the enemy and deal 775% damage with 4 attacks, Final Form: Number of Attacks: +1\\n[Dragon Blow] - Additional Attacks: Damage: 3800%, Number of Attacks: 10",
+                    "icons": ["/class-icons/nova/kaiser/hexa-tempest-blades.png", "/class-icons/nova/kaiser/tempest-blades.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExazMwbWhzZjBxcHRhcW91MDA3aGVub2E0MzYzNGJhbGhqajl1ejN0dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ajAczsifukIlfR0iRb/giphy-downsized-large.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/kaiser/hexa-inferno-breath.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/kaiser/inferno-breath.png} tip={Inferno Breath (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Inferno Breath",
+                    "shortDesc": "MP Cost: 82, Max Enemies Hit: 15, Damage: 3180%, Number of Attacks: 14\\nUsing Inferno Breath 2 times enhances the next attack\\nUltimate Inferno Breath - Max Enemies Hit: 15, Damage: 2060%, Number of Attacks: 8, Breath Count :4\\nCooldown: 19 sec",
+                    "icons": ["/class-icons/nova/kaiser/hexa-inferno-breath.png", "/class-icons/nova/kaiser/hexa-inferno-breath-2.png", "/class-icons/nova/kaiser/inferno-breath.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnY2azlrd3l5cWZsYTV5YjBvMDB1cTBycm5jejlsZHluYmQzbW03dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6uH6YLx450z3VvDuRR/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2hmN3RqbTVodW9tZTYzMmwzajc0MmpnM2Vqdmo3MnJ0NGl5c3lzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wcAgIO2w6cHOOdb2Ti/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/kaiser/hexa-wing-beat-stone-dragon.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/kaiser/wing-beat.png} tip={Wing Beat (3rd Job)}> <tt src={/class-icons/nova/kaiser/stone-dragon.png} tip={Stone Dragon (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Wing Beat",
+                    "shortDesc": "MP Cost: 42, Summon Duration: 15 sec., Max Enemies Hit: 8, Damage: 394%, Max Number of Attacks: 40\\nSlow Chance: 40%, Slow Duration: 5 sec.\\n[Passive Effect - HEXA Gigas Wave Damage: +75% points, Draco Surge Damage: +110% points]",
+                    "icons": ["/class-icons/nova/kaiser/hexa-wing-beat.png", "/class-icons/nova/kaiser/wing-beat.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGF1bnhseDlnN29meW16ZjNpNnpqcGdrdzlzMzU2bjJ2YjduZXRjeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j6RcskhPUPEO6WZPnu/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHkzYm90dWRmYjE0cWFkMGNyeXYybHFveHR1NDE1MWx5bHBuZTAyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ubwbjINPYjk3KgJtPM/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Stone Dragon",
+                    "shortDesc": "MP Cost: 42, Duration: 60 sec, Max Enemies Hit: 8, Damage: 730%\\nSummons a dragon statue that attacks 3 times with a 75% chance to Slokw enemies, excluding Boss Monsters, for 3 sec\\nDamage increases 50% when attacking normal enemies",
+                    "icons": ["/class-icons/nova/kaiser/hexa-stone-dragon.png", "/class-icons/nova/kaiser/stone-dragon.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhlZWVnMHFtdGpuMzZ4enJqcnl4Y293YTNsczR3ejFpMXpkNXNmYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ABbcbQ51lr1dxY49KH/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Nova Triumphant",
+                    "shortDesc": "MP Cost: 1200, invincible during casting, Active Final Form Duration: +10 sec\\nSkill Final Damage increases 20% during Kaiser's Majesty\\nCarry out the will of the guardians, Max Enemies Hit: 15, Damage: 1981%, Number of Attacks: 8, Chase Cuts: 14\\nAfterwards, Max Enemies Hit: 15, Damage: 1666%, Number of Attacks: 13, Final Blows: 47\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/nova/kaiser/nova-triumphant.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2JrOHV5MHM5c3Jzb2Rya3hyeWVucDNudDRlbWV2d2RyYndwcWJ2eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zLhm6LdC1isXjtWamo/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Pyroclastic Instinct",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nFires 24 magmatic flames, dealing 10325% damage to up to 15 enemies 13 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/nova/kaiser/pyroclastic-instinct.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Y1amhveG1wcHBxYzlhNWJ6OTV0Ym1sM2JsM3pleWQ0N2p1ank3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6qouhQ1MdEFQtflHlo/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Nova Guardians Boost",
+                    "shortDesc": "Nova Guardians Final Damage: +60%",
+                    "icons": ["/class-icons/nova/kaiser/nova-guardians.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Bladefall Boost",
+                    "shortDesc": "Bladefall Final Damage: +60%",
+                    "icons": ["/class-icons/nova/kaiser/bladefall.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Draco Surge Boost",
+                    "shortDesc": "Draco Surge Final Damage: +60%",
+                    "icons": ["/class-icons/nova/kaiser/draco-surge.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Dragonflare Boost",
+                    "shortDesc": "Dragonflare Final Damage: +60%",
+                    "icons": ["/class-icons/nova/kaiser/dragonflare.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Tempest Blades - 2nd Job",
+                "icons": ["/class-icons/nova/kaiser/tempest-blades.png"],
+                "animations": ["https://media.giphy.com/media/H6KAojpDTUO36oSGO7/giphy.gif"]
+            },
+            {
+                "name": "Final Form - 3rd Job",
+                "icons": ["/class-icons/nova/kaiser/final-form.png"],
+                "animations": ["https://media.giphy.com/media/YRV9WjMrXTvI6Xjhko/giphy.gif"]
+            },
+            {
+                "name": "Gigas Wave - 4th Job",
+                "icons": ["/class-icons/nova/kaiser/gigas-wave.png"],
+                "animations": ["https://media.giphy.com/media/cP5XFUcr3vkzW0e8m8/giphy.gif"]
+            },
+            {
+                "name": "Blade Burst - 4th Job",
+                "icons": ["/class-icons/nova/kaiser/blade-burst.png"],
+                "animations": ["https://media.giphy.com/media/zc6Y4imVlGCmcof4OM/giphy.gif"]
+            },
+            {
+                "name": "Bladefall - 5th Job",
+                "icons": ["/class-icons/nova/kaiser/bladefall.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmhubTFqYzZ3NTJiejdxN2tlY2liNDRmeGExc3d1dmJiNWx0NGU4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ODlFYYsBvAMJ0QQz07/giphy.gif"]
+            },
+            {
+                "name": "Draco Surge - 5th Job",
+                "icons": ["/class-icons/nova/kaiser/draco-surge.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Ryb2IwNXAxcjZyajUyYXN3YjF4OGVlMGUydjBhc3hhZ2ZzeTJ4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1HkJzLikIIL24dYNYO/giphy.gif"]
+            },
+            {
+                "name": "Dragonflare - 5th Job",
+                "icons": ["/class-icons/nova/kaiser/dragonflare.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2V2NHp0d2Y4amQxbnJzZ3RtNmlpd2ZyZWxqZzAzNDEzYXZyNXlyZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fai0bu5WlvfiwilxTC/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Nova Triumphant - 6th Job",
+                "icons": ["/class-icons/nova/kaiser/nova-triumphant.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2JrOHV5MHM5c3Jzb2Rya3hyeWVucDNudDRlbWV2d2RyYndwcWJ2eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zLhm6LdC1isXjtWamo/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Pyroclastic Instinct - 6th Job",
+                "icons": ["/class-icons/nova/kaiser/pyroclastic-instinct.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Y1amhveG1wcHBxYzlhNWJ6OTV0Ym1sM2JsM3pleWQ0N2p1ank3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6qouhQ1MdEFQtflHlo/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Kaiser is a STR warrior class part of the Nova class group. Kaisers have a special gauge called Morph Gauge that grants special bonus stats. When the gauge is fully filled, Kaiser can transform into his ultimate form (in 3rd Job and 4th Job). Kaiser's Morph Gauge charges up as he attacks"
+}

@@ -1,0 +1,1175 @@
+{
+    "class": "Mo Xuan",
+    "content": {
+        "classGroup": "Jianghu",
+        "jobGroup": "Pirate",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Increases %Critical Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["martialBrace"]},
+            {"secondary": ["braceBand"]}
+        ],
+        "innerAbility": [
+            {
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Buff Duration +38% / Damage to monsters inflicted with Abnormal Status +8%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.75x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/jianghu/mo-xuan/secret-art-fists-of-fury.png} tip={Secret Art: Fists of Fury (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/jianghu/mo-xuan/boundless.png} tip={Boundless (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "DEX",
+                "stat": "+80(110) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/jianghu/mo-xuan/physical-training.png} tip={Physical Training (1st Job)} val={+30}> <bg src={/class-icons/jianghu/mo-xuan/secret-art-fists-of-fury.png} tip={Secret Art: Fists of Fury (2nd Job)} val={+20}> <bg src={/class-icons/jianghu/mo-xuan/high-intensity-training.png} tip={High-Intensity Training (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)} src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny - Boon (5th Job)} val={+30, based on skill chosen}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +150(220)",
+                "detail": "<bg src={/class-icons/jianghu/mo-xuan/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/jianghu/mo-xuan/awaken.png} tip={Awaken (1st Job)} val={+50}> <bg src={/class-icons/jianghu/mo-xuan/physical-training.png} tip={Physical Training (1st Job)} val={+20}> <bg src={/class-icons/jianghu/mo-xuan/martial-mastery.png} tip={Martial Mastery (2nd Job)} val={+30}> <bg src={/class-icons/jianghu/mo-xuan/qi-within.png} tip={Qi Within (3rd Job)} val={+20}> <bg src={/class-icons/jianghu/mo-xuan/boundless.png} tip={Boundless (4th Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)} src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny - Boon (5th Job)} val={+30, based on skill chosen}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+55%(100%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/jianghu/mo-xuan/awaken.png} tip={Awaken (1st Job)} val={+30%}> <bg src={/class-icons/jianghu/mo-xuan/martial-discipline.png} tip={Martial Discipline (3rd Job)} val={+20%}> <bg type={temp} src={/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png} tip={Soul Art: The Opened Gate (5th Job)} val={+100%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+25%(40%)(45% w/ 6th Job Lv. 30)",
+                "detail": "<bg src={/class-icons/jianghu/mo-xuan/xuanshan-spirit.png} tip={Xuanshan Spirit (Beginner Skill)} val={+10%}> <bg src={/class-icons/jianghu/mo-xuan/qi-within.png} tip={Qi Within (3rd Job)} val={+10%}> <bg src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples - Passive (4th Job)} val={+5%}> <bg type={temp} src={/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png} tip={Soul Art: The Opened Gate (5th Job)} val={+15%} val={(+20% instead w/ 6th Job Lv. 30)}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+30%(80%)",
+                "detail": "<bg src={/class-icons/jianghu/mo-xuan/qi-within.png} tip={Qi Within (3rd Job)} val={+30%}> <bg type={temp} src={/class-icons/jianghu/aura-of-destiny.png} tip={Aura of Destiny (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)} src={/class-icons/5th-job/power-of-destiny-might.png} tip={Power of Destiny - Might (5th Job)} val={+20%, based on skill chosen}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+36%",
+                "detail": "<bg src={/class-icons/jianghu/mo-xuan/aura.png} tip={Aura (4th Job)} val={+20%}> <bg src={/class-icons/link-skills/qi-cultivation.png} tip={Qi Cultivation (Link Skill)} val={+4% & +2% per stack} val={(Max. +12% from stacks)}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+81.5%(172.25%-263% w/ <tt src={/class-icons/jianghu/mo-xuan/the-holy-mountain.png} tip={The Holy Mountain (3rd Job)}>)(308.38%-444.5% w/ <tt src={/class-icons/jianghu/mo-xuan/heir-of-the-divine.png} tip={Heir of the Divine (4th Job)}>)",
+                "detail": "<bg src={/class-icons/jianghu/mo-xuan/xuanshan-spirit.png} tip={Xuanshan Spirit (Beginner Skill)} val={+10%}> × <bg src={/class-icons/jianghu/mo-xuan/secret-art-strength-within.png} tip={Secret Art: Strength Within (Hyper Skill)} val={+10%}> × <bg src={/class-icons/jianghu/mo-xuan/heir-of-the-divine.png} tip={Heir of the Divine (4th Job)} val={+10% per stack} val={(Max. +50%)}> × <bg type={temp} src={/class-icons/jianghu/mo-xuan/the-holy-mountain.png} tip={The Holy Mountain (3rd Job)} val={+50%/100% from Link Form} val={(Divine Art skills only)}> <bg type={temp} src={/class-icons/jianghu/mo-xuan/heir-of-the-divine.png} tip={The Holy Mountain (3rd Job)} val={+50% from Reincarnation} val={(Divine Art skills only)}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+44%(60.8%)",
+                "detail": "<bg src={/class-icons/jianghu/mo-xuan/aura.png} tip={Aura (4th Job)} val={+30%}> × <bg src={/class-icons/jianghu/mo-xuan/boundless.png} tip={Boundless (4th Job)} val={+20%}> × <bg type={opt} src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)} src={/class-icons/5th-job/power-of-destiny-perceive.png} tip={Power of Destiny - Perceive (5th Job)} val={+30%, based on skill chosen}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "None",
+            "toggles": "<tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection (3rd Job)}>",
+            "summons": "",
+            "buffCd": "<tt src={/class-icons/jianghu/mo-xuan/secret-art-strength-within.png} tip={Secret Art: Strength Within (Hyper Skill)} dur={(60s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-the-conquered-self.png} tip={Soul Art: The Conquered Self (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png} tip={Soul Art: The Opened Gate (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>[1s cd](180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/jianghu/mo-xuan/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}> <tt src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples (4th Job)} dur={[20s, Party Members only](120s cd)}> [<tt src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)}> <bold text={Power of Destiny}>: <tt src={/class-icons/5th-job/power-of-destiny-might.png} tip={Power of Destiny: Might (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-perceive.png} tip={Power of Destiny: Perceive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny: Boon (5th Job)} dur={[90s](120s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-journey.png} tip={Power of Destiny: Journey (5th Job)} dur={[240s](120s cd)}> <em text={(One effect can be chosen at a time, resets at 12:00 AM UTC)}>]",
+            "binds": "<tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder (3rd Job)} dur={[3s](45s cd)}> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png} tip={Secret Art: Qi Disruption (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-jianghu-dragon.png} tip={Soul Art: Jianghu Dragon (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png} tip={Secret Art: Qi Disruption (4th Job)} dur={[1.1s](120s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-black-wind.png} tip={Soul Art: Black Wind (Hyper Skill)} dur={[1.2s](60s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-beneath-heaven.png} tip={Soul Art: Beneath Heaven (5th Job)} dur={[3s](120s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-jianghu-dragon.png} tip={Soul Art: Jianghu Dragon (6th Job)} dur={[7.3s](360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png} tip={Divine Art: Howling Storm (4th Job)} dur={[Up to 3s](-50% | 120s cd)}> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-shield.png} tip={Secret Art: Qi Shield (4th Job)} dur={[15s](-100% to -20%, each hit taken reduces amount by 15%/10% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 170010241,
+            "offline": true,
+            "name": "Qi Cultivation",
+            "shortDesc": "Boss Damage: +6%. If the target is a boss, up to 3% increase for every successful attack. Max Stacks: 6, stack activates once every 2 sec.\\nDuration: 5 sec",
+            "maxLevel": 3,
+            "icons": ["/class-icons/link-skills/qi-cultivation.png"],
+            "type": "Passive",
+            "desc": "Increases %Boss Damage and grants a stacking %Boss Damage buff per successful attack"
+        },
+        "howToCreate": {
+            "image": ["/class-icons/jianghu/how-to-create-mo-xuan.png",[499,374]],
+            "npc": [
+                ["",""]
+
+            ],
+            "info": [
+                "Mo Xuan is only available for creation in China, Global, SEA, and Taiwan versions of MapleStory"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/jianghu/mo-xuan/secret-art-dancing-leap.png} tip={Secret Art: Dancing Leap}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-air-weaving.png} tip={Secret Art: Air Weaving}> -> <tt src={/class-icons/jianghu/mo-xuan/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-tian.png} tip={Xuanshan Strike [Tian]}> -> <tt src={/class-icons/jianghu/mo-xuan/awaken.png} tip={Awaken}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame}>"],
+                ["2nd Job", "<tt src={/class-icons/jianghu/mo-xuan/martial-mastery.png} tip={Martial Mastery}> -> <tt src={/class-icons/jianghu/mo-xuan/high-intensity-training.png} tip={High-Intensity Training}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-fists-of-fury.png} tip={Secret Art: Fists of Fury}> -> <tt src={/class-icons/jianghu/mo-xuan/agility-training.png} tip={Agility Training}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-di.png} tip={Xuanshan Strike [Di]}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-arrow-flight.png} tip={Secret Art: Arrow Flight}>"],
+                ["3rd Job", "<tt src={/class-icons/jianghu/mo-xuan/qi-within.png} tip={Qi Within}> -> <tt src={/class-icons/jianghu/mo-xuan/martial-discipline.png} tip={Martial Discipline}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-training-i.png} tip={Divine Art Training I}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png} tip={Divine Art: Swirling Tide}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-flash-step.png} tip={Secret Art: Flash Step}>"],
+                ["4th Job", "<tt src={/class-icons/jianghu/mo-xuan/boundless.png} tip={Boundless}> -> <tt src={/class-icons/jianghu/mo-xuan/aura.png} tip={Aura}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-cross-tian.png} tip={Xuanshan Cross [Tian]}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-cross-di.png} tip={Xuanshan Cross [Di]}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-training-ii.png} tip={Divine Art Training II}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png} tip={Divine Art: Howling Storm}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-shield.png} tip={Secret Art: Qi Shield}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png} tip={Secret Art: Qi Disruption}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/jianghu/mo-xuan/xuanshan-forms-reinforce.png} tip={Xuanshan Forms - Reinforce}> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-forms-boss-rush.png} tip={Xuanshan Forms - Boss Rush}> Xuanshan Forms - Reinforce and Boss Rush_<tt src={/class-icons/jianghu/mo-xuan/divine-arts-reinforce.png} tip={Divine Arts - Reinforce}> <tt src={/class-icons/jianghu/mo-xuan/divine-arts-enhance.png} tip={Divine Arts - Enhance}> Divine Arts - Reinforce and Enhance_<tt src={/class-icons/jianghu/mo-xuan/qi-shield-shield-reinforce.png} tip={Qi Shield - Shield Reinforce}> Qi Shield - Shield Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png} tip={Divine Art: Howling Storm (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind (2nd Job)}> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-black-wind.png} tip={Soul Art: Black Wind (Hyper Skill)}>"],
+                    ["Tertiary Trio", "<tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png} tip={Divine Art: Swirling Tide (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3,4,5],
+            "nodes": [
+                "<tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}>",
+                "<tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder (3rd Job)}>",
+                "<tt src={/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png} tip={Divine Art: Swirling Tide (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind (2nd Job)}>",
+                "<tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png} tip={Secret Art: Qi Disruption (4th Job)}>",
+                "<tt src={/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png} tip={Divine Art: Howling Storm (4th Job)}>",
+                "<tt src={/class-icons/jianghu/mo-xuan/soul-art-black-wind.png} tip={Soul Art: Black Wind (Hyper Skill)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Mo_Xuan"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%AC%B5%ED%98%84"},
+            {"title": "Class Discord", "link": "https://discord.gg/a3z6JYmHbt"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1-NDXtiC_skCkx56yWHqvqu7EPNeFcHW68tWF67W1Odg"}
+        ],
+        "infographics": [
+            {
+                "src": "mo-xuan/mo-xuan-overview.png",
+                "title": "Overview",
+                "credit": "Drakkinnite",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "mo-xuan/mo-xuan-6th-job-heroic.png",
+                "title": "6th Job (Heroic)",
+                "credit": "Drakkinnite",
+                "date": "2026-06-04"
+            },
+            {
+                "src": "mo-xuan/mo-xuan-6th-job-interactive.png",
+                "title": "6th Job (Interactive)",
+                "credit": "Mo Xuan Discord",
+                "date": "2026-06-04"
+            },
+            {
+                "src": "mo-xuan/mo-xuan-burst-rotation.png",
+                "title": "Burst Rotation",
+                "credit": "Drakkinnite",
+                "date": "2026-06-04"
+            },
+            {
+                "src": "mo-xuan/mo-xuan-combo-samples.png",
+                "title": "Combo Samples",
+                "credit": "Drakkinnite",
+                "date": "2026-06-04"
+            }
+        ],
+        "specialThanks": "Special thanks to Drakkinnite, Lantic, Gon, and the members of the Mo Xuan Discord for their help in making this overview!",
+        "discord": "https://discord.gg/a3z6JYmHbt",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Infographic", "Drakkinnite"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Mo Xuan Discord"]
+        ],
+        "extraContent": {
+            "title": "Heir of the Divine",
+            "content": [
+                "Mo Xuan has two main attacks where pressing the Skill Key alternates between [Strike] and [Cross] (unlocked in 4th Job) by using:",
+                "<bp_<tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> Xuanshan Arts [Tian] (1st Job)_<tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}> Xuanshan Arts [Di] (2nd Job)_>",
+                "Additionally, skills labelled \"Divine Art\" interact with these attacks. These skills also have [Tian] and [Di] alignments that correspond with the two main attacks",
+                "In 3rd Job, <tt src={/class-icons/jianghu/mo-xuan/the-holy-mountain.png} tip={The Holy Mountain (3rd Job)}> The Holy Mountain grants the following effects when a \"Divine Art\" skills with the same alignment are used after casting <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> or <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}>:",
+                "<bp_[Form Link]: \"Divine Art\" skill deals increased %Final Damage_[Divine Fist]: Grants a stacking %Final Damage buff (additive)_>",
+                "In 4th Job, <tt src={/class-icons/jianghu/mo-xuan/heir-of-the-divine.png} tip={Heir of the Divine (4th Job)}> Heir of the Divine adds another effect:",
+                "<bp_[Reincarnation]: After using a \"Divine Art\" skill, the next \"Divine Art\" skill is empowered. If the alignments are the same, the cooldown of the skill is reduced. If the alignments are different, the attack deals increased %Final Damage_>",
+                "<img src={/class-icons/jianghu/mo-xuan/xuanshan-gauge.png} alt={Xuanshan Gauge}>",
+                "In 3rd Job, Mo Xuan's gauge serves as an indicator for which alignment and attack is currently active. As well, Skill Keys will glow when they are empowered by [Form Link]. Upon triggering [Form Link] or [Reincarnation] the gauge will reset",
+                "Below are the skills that trigger [Form Link] using [Strike]:",
+                "<bp_<tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame (1st Job)}> Divine Art: Erupting Flame [1st Job]_<tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind (2nd Job)}> Divine Art: Tearing Wind [2nd Job]_<tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder (3rd Job)}> Divine Art: Righteous Thunder [3rd Job]_<tt src={/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png} tip={Divine Art: Swirling Tide (3rd Job)}> Divine Art: Swirling Tide [3rd Job]_>",
+                "Below are the skills that trigger [Form Link] using [Cross]:",
+                "<bp_<tt src={/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png} tip={Divine Art: Howling Storm (4th Job)}> Divine Art: Howling Storm [4th Job]_<tt src={/class-icons/jianghu/mo-xuan/divine-art-crashing-earth.png} tip={Divine Art: Crashing Earth (5th Job)}> Divine Art: Crashing Earth [5th Job]_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Qi Cultivation",
+                    "shortDesc": "Boss Damage: +6%. If the target is a boss, up to 3% increase for every successful attack. Max Stacks: 6, stack activates once every 2 sec.\\nDuration: 5 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/qi-cultivation.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Boss Damage and grants a stacking %Boss Damage buff per successful attack",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Return to Xuanshan",
+                    "shortDesc": "Returns you to the Xuanshan School.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/return-to-xuanshan.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzQydHBnd3FqeGN1N3dyemUxNjdpNTAydmQ5b2x0eGhqdTVoYTFycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MQMYDrjNwQZYdiVAIg/giphy.gif"],
+                    "type": "Active",
+                    "details": [
+                        "To obtain this skill, complete the Mo Xuan storyline"
+                    ]
+                },
+                {
+                    "name": "Xuanshan Spirit",
+                    "shortDesc": "Final Damage: +10%, Critical Damage: +10%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-spirit.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is gained and leveled up by completing the Mo Xuan storyline"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power & Magic ATT: +4%\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/heros-echo.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1rbnpqNTVjejk1OXY4a3M5bG4xOHIxNHJrNTFhcGI0MDY2amFjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ICRJblLfw7xVT6DQCZ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the Mo Xuan storyline",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Xuanshan Arts [Tian]",
+                        "shortDesc": "Activates [Tian] Xuanshan forms upon use.\\nActivates 1 hit after learning Xuanshan Strike [Tian].\\nActivates up to 2 hits after learning Xuanshan Cross [Tian].",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png"],
+                        "type": "Attack",
+                        "desc": "Using this skill activates <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-tian.png} tip={Xuanshan Strike [Tian] (1st Job)}> [Strike]",
+                        "details": [
+                            "Upon learning <tt src={/class-icons/jianghu/mo-xuan/xuanshan-cross-tian.png} tip={Xuanshan Cross [Tian] (4th Job)}> [Cross] in 4th Job, pressing the Skill Key again will activate the attack",
+                            "Skills labelled as \"Divine Art\" gain bonus effects from <tt src={/class-icons/jianghu/mo-xuan/the-holy-mountain.png} tip={The Holy Mountain (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/heir-of-the-divine.png} tip={Heir of the Divine (4th Job)}> upon using after [Strike] or [Cross]"
+                        ]
+                    },
+                    {
+                        "name": "Xuanshan Strike [Tian]",
+                        "shortDesc": "MP Cost: 10\\nXuanshan Strike [Tian] - Max Enemies Hit: 4, Damage: 60%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-strike-tian.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG4xbGJzMnp2MnE2cHQ3cnFta3I3YTE2OXA0dGx0NXh2eGNxaHEwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AmmWp2l9uTei4q9cKY/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Punch forward",
+                        "details": [
+                            "Skill is activated by using <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Divine Art: Erupting Flame",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 8, Damage: 260%, Number of Attacks: 6\\n[Form Link] Final Damage: +50%\\nCooldown: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemQ3MWVjazlzcmQyeTg1NGlmM3RicXBmeDJwY3JhdmE0b2Rud2lhaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BApIwFxo6V6cSZhxju/giphy.gif"],
+                        "type": "[Tian] Attack",
+                        "desc": "Punch forward releasing a blast of energy",
+                        "details": [
+                            "To obtain this skill, complete the Mo Xuan storyline",
+                            "After 3rd Job, deals increased %Final Damage when used after <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> [Strike]"
+                        ]
+                    },
+                    {
+                        "name": "Secret Art: Air Weaving",
+                        "shortDesc": "MP Cost: 5, allows you to jump a greater distance",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-air-weaving.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazRib3lkNTZuMmwzMnhscXBkcXN4dWozYWp2YXRyNzhnbXQ0c3h6NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ytToBTAdcNJ1d521Fa/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "name": "Secret Art: Dancing Leap",
+                        "shortDesc": "MP Cost: 5, jump upward a certain distance",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-dancing-leap.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3k1dXd1c3pxaWI1dGMyeHg1b2JuN3YxNzkwcXJ5bWFyeTJ1OXlqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kjgqTeYxpdEfIra5jE/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air"
+                        ]
+                    },
+                    {
+                        "name": "Awaken",
+                        "shortDesc": "Critical Rate: +30%, Attack Power: +50\\nRestores 3% of Max HP/MP every 3 sec, even in combat.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/mo-xuan/awaken.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "To obtain this skill, complete the Mo Xuan storyline"
+                        ]
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "DEX: +30, Attack Power: +20",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/jianghu/mo-xuan/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Xuanshan Arts [Di]",
+                        "shortDesc": "Activates [Di] Xuanshan forms upon use.\\nActivates 1 hit after learning Xuanshan Strike [Di].\\nActivates up to 2 hits upon learning Xuanshan Cross [Di].",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png"],
+                        "type": "Attack",
+                        "desc": "Using this skill activates <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-di.png} tip={Xuanshan Strike [Di] (2nd Job)}> [Strike]",
+                        "details": [
+                            "Upon learning <tt src={/class-icons/jianghu/mo-xuan/xuanshan-cross-di.png} tip={Xuanshan Cross [Di] (4th Job)}> [Cross] in 4th Job, pressing the Skill Key again will activate the attack",
+                            "Skills labelled as \"Divine Art\" gain bonus effects from <tt src={/class-icons/jianghu/mo-xuan/the-holy-mountain.png} tip={The Holy Mountain (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/heir-of-the-divine.png} tip={Heir of the Divine (4th Job)}> upon using after [Strike] or [Cross]"
+                        ]
+                    },
+                    {
+                        "name": "Xuanshan Strike [Di]",
+                        "shortDesc": "MP Cost: 22\nXuanshan Strike [Di] - Max Enemies Hit: 8, Damage: 110%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-strike-di.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjhtaTZ4ZW1laTU2d3Nqc25hbnN0M3I3NDMyNWtkajJheTc2YnpuNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UFvRxi2Y29EAwSi1qV/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Kick forward",
+                        "details": [
+                            "Skill is activated by using <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (1st Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Divine Art: Tearing Wind",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 9\\n[Form Link] Final Damage: +50%\\nCooldown: 8 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXlqaDcyaGRvcWU1M3hkNHgyZWl0ZDQ5YTVxY2s1NWlpbDJxNnIwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qhHAfIwRrBXX45fnpP/giphy.gif"],
+                        "type": "[Di] Attack",
+                        "desc": "Kick forward releasing a blast of energy",
+                        "details": [
+                            "After 3rd Job, deals increased %Final Damage when used after <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}> [Strike]"
+                        ]
+                    },
+                    {
+                        "name": "Secret Art: Fists of Fury",
+                        "shortDesc": "Attack Speed: +2, DEX: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-fists-of-fury.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Agility Training",
+                        "shortDesc": "Speed: +50, Jump: +20, Max Speed: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/mo-xuan/agility-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "High-Intensity Training",
+                        "shortDesc": "DEX: +30, Defense: +300, Max HP: +20%\\nDamage Taken: -10%, Knockback Resistance: +40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/mo-xuan/high-intensity-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Martial Mastery",
+                        "shortDesc": "Martial Brace Mastery: +50%\\nAttack Power: +30",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/martial-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Secret Art: Arrow Flight",
+                        "shortDesc": "MP Cost: 40, quickly move forward.\\nCharged once every 4 sec, Max Consecutive Uses: 5",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-arrow-flight.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHR1d3hrc2UxeTZsbzA1b2g5MzVlZ2w4OWM4OGp3YXh0ZXlhYXV5eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/63FWTIKD4T2poEGzNI/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash forward or in the direction of the Arrow Key pressed",
+                        "details": [
+                            "Skill is prepared every 4 sec (up to 5 dashes)<bp_Dashes can be used consecutively up to 5 times_>"
+                        ]
+                    }]
+            ],
+            [
+                "3rd Job", [
+                    {
+                        "name": "The Holy Mountain",
+                        "shortDesc": "After linking a Divine Art with an appropriate form, you gain both the Form Link effect and the Divine Fist effect, which can be stacked up to 3 times. Lasts 45 sec for each stack of Divine Fist, Final Damage: +3%",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/jianghu/mo-xuan/the-holy-mountain.png"],
+                        "type": "Passive",
+                        "desc": "Upon successfully linking a skill by using a \"Divine Art\" skill after casting <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> or <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}>, gain the following effects:",
+                        "details": [
+                            "[Form Link]: The linked \"Divine Art\" skill deals increased %Final Damage",
+                            "[Divine Link]: Grants a stacking %Final Damage buff (additive)",
+                            "Certain \"Divine Art\" skills will only link with [Strike] or [Cross]",
+                            "Upon linking, <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}> reset back to [Strike] next attack"
+                        ]
+                    },
+                    {
+                        "name": "Divine Art: Righteous Thunder",
+                        "shortDesc": "MP Cost: 45, Max Enemies Hit: 3, Damage: 350%, Number of Attacks: 9\\n[Form Link] Final Damage: +100%\\nIncapacitates hit enemies for 3 sec\\nIncapacitated enemies will be immune to Divine Art: Righteous Thunder and HEXA Divine Art: Righteous Thunder for 45 sec\\nCooldown: 45 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmdoYzRrODEwaHh5NXgyZm15dDM0aHFpM2RnM3lpZ2N1NTc5aGdxbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CvuoQKfmLNkMM46d9x/giphy.gif"],
+                        "type": "[Tian] Bind Attack",
+                        "desc": "Punch forward binding enemies struck",
+                        "details": [
+                            "Bind effect has a separate cooldown from other bind skills",
+                            "Deals increased %Final Damage when used after <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> [Strike]"
+                        ]
+                    },
+                    {
+                        "name": "Divine Art: Swirling Tide",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 430%, Number of Attacks: 9\\n[Form Link] Final Damage: +100%\\nCooldown: 15 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWJoanJ1Mm52NGYzdnF1em52YWQydmx6cDdkczdybGNvanEzZ3h4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tKp4HfJ1nKZKKwTeeQ/giphy.gif"],
+                        "type": "[Di] Attack",
+                        "desc": "Kick forward consecutively up to two times by pressing the Skill Key",
+                        "details": [
+                            "Deals increased %Final Damage when used after <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}> [Strike]"
+                        ]
+                    },
+                    {
+                        "name": "Secret Art: Qi Projection",
+                        "shortDesc": "When the effect is active, activate up to 4 afterimages that deal 300% damage 4 times.\\nAfterimages attack every 1.5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmJ3ZXBxMWx4YzBoOWx6MTdlamRsMTZ3dW5pbnlpZnl3MzcxMmcxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JPy0lxaBRm3rZxZebd/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While active, afterimages periodically attack nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Divine Art Training I",
+                        "shortDesc": "Divine Art: Erupting Flame - Damage: +160% points\\nDivine Art: Tearing Wind - Damage: +60% points",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/divine-art-training-i.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of <tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind (2nd Job)}> by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Secret Art: Flash Step",
+                        "shortDesc": "MP Cost: 40, moves back a short distance\\nCooldown: 6 sec\\n[Passive Effect - Avoidability: +20%]",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-flash-step.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzN1eTkzMzZmdnc0Z2M3cG04bnVvYTF3dTlyMDgwZWVjMTY4aWc0aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wdhm3Tc48nrLHgBoXh/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash backwards",
+                        "details": [
+                            "[Passive]: Permanently increases %Avoidability"
+                        ]
+                    },
+                    {
+                        "name": "Martial Discipline",
+                        "shortDesc": "Critical Rate: +20%, Status Resistance: +30, Elemental Resistance: +30%, Defense: +50%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/martial-discipline.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Qi Within",
+                        "shortDesc": "Critical Damage: +10%, Damage: +30%, Attack Power: +20",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/qi-within.png"],
+                        "type": "Passive"
+                    }]
+            ],
+            [
+                "4th Job", [
+                    {
+                        "name": "Heir of the Divine",
+                        "shortDesc": "[Reincarnation] Cooldown Reduction: 25%, Final Damage: +50%\\n[Divine Fist] Increases max stacks to 5. For each stack of Divine Fist, increases duration to 60 sec and Final Damage by 10%.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/jianghu/mo-xuan/heir-of-the-divine.png", "/class-icons/jianghu/mo-xuan/the-holy-mountain.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "Enhances [Divine Fist] and now grants [Reincarnation] when a \"Divine Art\" is used while [Reincarnation] is not active",
+                        "details": [
+                            "[Reincarnation]: After using a \"Divine Art\" skill, based on their alignment [Tian] or [Di], the next \"Divine Art\" skill used has different effects:<bp_[Same Alignment]: The cooldown of the skill is reduced_[Different Alignment]: The attack deals increased %Final Damage_>",
+                            "[Divine Fist]: Increases max stacks from 3 to 5 and increases duration and %Final Damage gained per stack"
+                        ]
+                    },
+                    {
+                        "name": "Xuanshan Cross [Tian]",
+                        "shortDesc": "MP Cost: 40\\nXuanshan Cross [Tian] - Max Enemies Hit: 4, Damage: 300%, Number of Attacks: 6\\nXuanshan Strike [Tian] Damage: +240% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-cross-tian.png", "/class-icons/jianghu/mo-xuan/xuanshan-strike-tian.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2hpdmV6ODdzeDY1NWh0b3I0dDdwMjd0amhndnY5N3htbmtoeThlaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RGzYpo8zgDIYUndgHE/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "Using <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}>, punch forward [Cross] after <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-tian.png} tip={Xuanshan Strike [Tian] (1st Job)}> [Strike]",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-tian.png} tip={Xuanshan Strike [Tian] (1st Job)}> by a flat amount",
+                            "Attack has two different animations that it alternates between"
+                        ]
+                    },
+                    {
+                        "name": "Xuanshan Cross [Di]",
+                        "shortDesc": "MP Cost: 40\\nXuanshan Cross [Di] - Max Enemies Hit: 8, Damage: 270%, Number of Attacks: 6\\nXuanshan Strike [Di] Damage: +160% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-cross-di.png", "/class-icons/jianghu/mo-xuan/xuanshan-strike-di.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTMyc3hxajJ1cjlqZ3Z6MWp3ZDcxYXdja3Bmd3JpdHRpZmtmNXI4cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XEeDH3ctcTFfqRLn5j/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "Using <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}>, kick forward [Cross] after <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-di.png} tip={Xuanshan Strike [Di] (2nd Job)}> [Strike]",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-di.png} tip={Xuanshan Strike [Di] (2nd Job)}> by a flat amount",
+                            "Attack has two different animations that it alternates between"
+                        ]
+                    },
+                    {
+                        "name": "Divine Art Training II",
+                        "shortDesc": "Divine Art: Erupting Flame - Damage: +60% points\\nDivine Art: Tearing Wind - Damage: +30% points\\nDivine Art: Righteous Thunder - Damage: +350% points\\nDivine Art: Swirling Tide - Damage: +140% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/jianghu/mo-xuan/divine-art-training-ii.png"],
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of <tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind (2nd Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png} tip={Divine Art: Swirling Tide (3rd Job)}> by a flat amount"
+                        ],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "name": "Divine Art: Howling Storm",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 6, Damage: 380%, Number of Attacks: 5 while the key is held, Duration: every 0.2 sec up to 3 sec\\nUpon releasing the key or after the attack finishes, triggers a finishing blow dealing 430% damage to 8 enemies 12 times. Super Knockback Resistance is applied while the key is held.\\n[Form Link] Final Damage: +100%\\nCooldown: 60 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdqemxsN2F2NDNrcHRscDA5a2NveXFnN3E0MzRjeWhnb3d4YTZlbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zreHKZEglA3gIR1dMq/giphy.gif"],
+                        "type": "[Tian] Key-down Attack",
+                        "desc": "While held, release a flurry of punches foward",
+                        "details": [
+                            "At the end of the attack, deal a finishing blow",
+                            "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                            "Deals increased %Final Damage when used after <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> [Cross]"
+                        ]
+                    },
+                    {
+                        "name": "Secret Art: Qi Disruption",
+                        "shortDesc": "MP Cost: 90, deal 360% damage 12 times to enemy with the highest Max HP within range, incapacitate the attack enemy for 10 sec\\nIncreases incapacitation duration up to 100% based on the damage dealt with Secret Art: Qi Distruption.\\nCooldown: 120 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzMxdWJ2dWdvZnIwZ25kZTBzeGttMnYya3dmbDVzdHRyc3M0bHJ0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/csentPRYMXee2dnzvF/giphy.gif"],
+                        "type": "Bind Attack",
+                        "desc": "Kick forward binding enemies struck",
+                        "details": [
+                            "You are invincible while casting",
+                            "Prioritizes enemies with the highest Max HP"
+                        ]
+                    },
+                    {
+                        "name": "Secret Art: Divine Fist Disciples",
+                        "shortDesc": "Increases Critical Damage of nearby party members by 8% for 20 sec.\\nIf Mo Xuan has a max stack of Divine Fist when casting, the effect will increase the Critical Damage of nearby party members by an additional 2%.\\nCooldown: 120 sec\\n[Passive Effect - Critical Damage: +5%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXY1cGhnMTV1YW5vZ2o0dTRodThjMnRpeWJ5c29yMmMxcWRobTM2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PeoDZTRnvcL5ozGo2K/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "When used, grants party members increased %Crit Damage (excluding Mo Xuan)",
+                        "details": [
+                            "[Passive]: Permanently increases %Crit Damage",
+                            "While [Divine Fist] is at max stacks, the %Crit Damage provided is increased",
+                            "Mo Xuan cannot receive the active effect"
+                        ]
+                    },
+                    {
+                        "name": "Secret Art: Qi Shield",
+                        "shortDesc": "MP Cost: 150, creates a protective shield that blocks enemy attacks for 20 sec\\nReduces damage taken from the first attack after casting by 100%, including attacks based on Max HP. Afterwards, reduces efficiency by 15% for every hit, with a minimum of 20%\\nCooldown: 180 sec\\n[Passive Effect - Damage Taken: -20%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/secret-art-qi-shield.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamppZXh0NG9wZm01cnp0aGJhZnFiZ2tyb2sxY3lyY3VtOTh6NTUzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uoc236iAkdHMe9PfQ1/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When used, grants a shield that reduces damage taken including %Max HP attacks",
+                        "details": [
+                            "[Passive]: Permanently reduces %Damage Taken (not including %Max HP attacks)",
+                            "While active, the amount of damage blocked starts at 100% and is reduced per attack taken by 15% (Min. 20%)",
+                            "Unaffected by %Buff Duration"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemJmanI3NDdpNDFwMHQ1anYyeG5hMmRpYzh3eDM4YjJjejByM3cwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NRczIQ09XfZ62B8mbL/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30\\nCooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmM0azdsNW15c2tsbDQ3eTE2amd1czUyMDZsemozODd2bXVvaTJheCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bswLPPgxAi3GrAiokN/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs"
+                    },
+                    {
+                        "name": "Aura",
+                        "shortDesc": "Boss Damage: +20%, Ignore Defense: +30%, Knockback Resistance: +60%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/aura.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Boundless",
+                        "shortDesc": "Martial Brace Mastery: +70%\\nAttack Power: +30, Ignore Defense: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/mo-xuan/boundless.png", "/class-icons/jianghu/mo-xuan/martial-mastery.png"],
+                        "type": "Upgraded Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Xuanshan Forms - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-forms-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Xuanshan Forms - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-forms-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}>"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Xuanshan Forms - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-forms-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}>"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Divine Arts - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-arts-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Divine Arts - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-arts-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Divine Arts - Enhance",
+                    "shortDesc": "Reincarnation Cooldown Reduction Enhancement: 5%, Reincarnation Final Damage Enhancement: 20%\\n(Enhancement value is cumulative)",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-arts-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Awaken - Efficiency",
+                    "shortDesc": "Recovery Ratio: +3% on top of existing recovery.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/awaken-efficiency.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Qi Shield - Shield Reinforce",
+                    "shortDesc": "Reduces the efficiency reduction when hit by 10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/qi-shield-shield-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Divine Fist - Persist",
+                    "shortDesc": "Divine Fist Duration: +30 sec on top of existing duration",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-fist-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Secret Art: Strength Within",
+                    "shortDesc": "Instantly obtain the maximum amount of Divine Fist upon use.\\nCooldown: 60 sec\\n[Passive Effect - Final Damage: +10%]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/secret-art-strength-within.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2JqZm1wb2doaDZ2Mmd3ZmszbTQ4cmIwbHR5bjEzYW53N2xqYWF4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lQFgVSj9MRl80QInTY/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "details": [
+                        "[Passive]: Permanently increases %Final Damage"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Soul Art: Black Wind",
+                    "shortDesc": "MP Cost: 350, Max Enemies Hit: 12, Damage: 450%, Number of Attacks: 12, Explosions: 10, invincible during casting\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-black-wind.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3RsaXNrbXJodWRtMzM5YW83aGxpcTN3cjNpbWt0aXUzNHNpMjJlZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rldbXu15XVkTXnXIjz/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Kick forward releasing a whirlwind",
+                    "details": [
+                        "You are invincible while casting",
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Aura of Destiny",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Jianghu jobs in the party.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/aura-of-destiny.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnlpdXNwNXZ4cDMzZ2N4bXBzbHl6ZnJoajBlNWR2Nm04cWJtaXN3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BdYrfQTVca7smEi4Rm/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["powerOfDestiny", "ringOfSamsara", "goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Soul Art: Beneath Heaven",
+                    "shortDesc": "MP Cost: 1200, Max Enemies Hit: 15, Damage: 540%, Number of Attacks: 12, Explosions: 24, Invinciblity Duration: 3 sec\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-beneath-heaven.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHR3dXRsM3Z3MWduM2F5b3d4NTBjNnlsN2V6bzlvODRvZHBsN3dlcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tiVZrDQ8OnKl6gchZZ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release an attack that damages enemies in a large area",
+                    "details": [
+                        "You are invincible while casting"
+                    ]
+                },
+                {
+                    "name": "Soul Art: The Conquered Self",
+                    "shortDesc": "MP Cost: 900, Duration: 20 sec, Temporarily enhances Qi Projection into The Conquered Self, Damage: +55% (additive), Number of Afterimage Attacks: 4, Max Afterimages: 8\\nAfterimage attacks every 1.5 sec\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-the-conquered-self.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGQ3MHRna3JmZm5iMmJnajV2dGdmZXh4cm1sejBhZzJrc2J4OGliNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ek3P2KwnbVYMzLcJlZ/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, enhances <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection (3rd Job)}> resulting in a stronger attack and more afterimages created",
+                    "details": [
+                        "Afterimages from <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection (3rd Job)}> will not activate while this skill is active<bp_When this skill ends, <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection (3rd Job)}> will be reactivated_>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Soul Art: The Opened Gate",
+                    "shortDesc": "MP Cost: 650, all attacks are critical for 20 sec, Critical Damage: +15%\\nIncreases Xuanshan Form and Divine Art damage by 350% while active, Number of Attacks: +2 (the extra attacks from Soul Art: The Opened Gate cannot exceed 15)\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3I4YjVzZTk5ZDk4MHoxYTNxOTY1dnhlcHI3MWszOWxheDFlOWw5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0pbS6TczwiINUhjF59/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, gain the following effects:",
+                    "details": [
+                        "All attacks are guaranteed Critical Hits and gain increased %Crit Damage",
+                        "\"Xuanshan Form\" and \"Divine Art\" attacks gain increased %Damage by a flat amount and increased Number of Attacks (cannot exceed 15 attacks)"
+                    ]
+                },
+                {
+                    "name": "Divine Art: Crashing Earth",
+                    "shortDesc": "MP Cost: 75, Max Enemies Hit: 12, Damage: 355%, Number of Attacks: 9, Shock Waves: 10\\n[Form Link] Final Damage: +100%\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-art-crashing-earth.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3pjbGFzenVoY2o4NGVmb3Foc3Bhb29uZ3JodnBtYzdxYnFvenZraCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/beh3zjaQcaQwmAM1Fh/giphy.gif"],
+                    "type": "[Di] Attack",
+                    "desc": "Smash downward releasing a shockwave",
+                    "details": [
+                        "Deals increased %Final Damage when used while casting <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}> [Cross]"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Xuanshan Arts [Tian] Boost",
+                    "shortDesc": "[Tian] Xuanshan Forms Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Divine Art: Erupting Flame Boost",
+                    "shortDesc": "Divine Art: Erupting Flame Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Xuanshan Arts [Di] Boost",
+                    "shortDesc": "[Di] Xuanshan Forms Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Divine Art: Tearing Wind Boost",
+                    "shortDesc": "Divine Art: Tearing Wind Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Divine Art: Righteous Thunder Boost",
+                    "shortDesc": "Divine Art: Righteous Thunder Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Divine Art: Swirling Tide Boost",
+                    "shortDesc": "Divine Art: Swirling Tide Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Secret Art: Qi Projection Boost",
+                    "shortDesc": "Secret Art: Qi Projection Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Divine Art: Howling Storm Boost",
+                    "shortDesc": "Divine Art: Howling Storm Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Secret Art: Qi Disruption Boost",
+                    "shortDesc": "Secret Art: Qi Disruption Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Soul Art: Black Wind Boost",
+                    "shortDesc": "Soul Art: Black Wind Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-black-wind.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-xuanshan-arts.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png} tip={Xuanshan Arts [Di] (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Xuanshan Arts [Tian]",
+                    "shortDesc": "MP Cost: 55\\nHEXA Xuanshan Strike [Tian] - Max Enemies Hit: 4, Damage: 325%, Number of Attacks: 12\\nHEXA Xuanshan Cross [Tian] - Max Enemies Hit: 4, Damage: 325%, Number of Attacks: 12",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-xuanshan-arts-tian.png", "/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXpzc2o0eDI4eWs5d3B2MGVqMHkwYXR0azQ2dG94cXI2ejZkdzY2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K1Z34ki0tXDV5tyUAz/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Xuanshan Arts [Di]",
+                    "shortDesc": "MP Cost: 55\\nHEXA Xuanshan Strike [Di] - Max Enemies Hit: 9, Damage: 295%, Number of Attacks: 12\\nHEXA Xuanshan Cross [Di] - Max Enemies Hit: 4, Damage: 295%, Number of Attacks: 12",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-xuanshan-arts-di.png", "/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnZlN2U5NnFiemFjeXgwZGNxa2ZrMWJzMHlpMXRlajg1bGEzZWZtcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/61bm7nHLucpY2Hh24B/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-howling-erupting-righteous.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame (1st Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png} tip={Divine Art: Howling Storm (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Divine Art: Howling Storm",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 6, Damage: 340%, Number of Attacks: 12 while the key is held, Duration: every 0.2 sec up to 2 sec\\nUpon releasing the key or after the attack finishes, triggers a finishing blow dealing 415% damage to 8 enemies 12 times with 2 shock waves. Super Knockback Resistance is applied while the key is held.\\n[Form Link] Final Damage: +100%\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-divine-art-howling-storm.png", "/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDE1MG1ubGQ0bTM4N3hleXVnbGxqZTR2b2QxaTh2MGhiejdvcHRrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pnrnxLNa8nUZGwx7Qh/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Divine Art: Erupting Flame",
+                    "shortDesc": "MP Cost: 55, Max Enemies Hit: 8, Damage: 490%, Number of Attacks: 6, Shock Waves: 2\\n[Form Link] Final Damage: +50%\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-divine-art-erupting-flame.png", "/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmZncXM5MzE2Y2dldmRhZGtjZnR6c3huNG15bmlreWJnNXdhYnlnaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XCBJc9Sf0lrVGHa06C/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Divine Art: Righteous Thunder",
+                    "shortDesc": "MP Cost: 65, Max Enemies Hit: 3, Damage: 675%, Number of Attacks: 9, Shock Waves: 2\\n[Form Link] Final Damage: +100%\\nIncapacitates hit enemies for 3 sec.\\nIncapacitated enemies will be immune to Divine Art: Righteous Thunder and HEXA Divine Art: Righteous Thunder for 45 sec.\\nCooldown: 45 sec.",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-divine-art-righteous-thunder.png", "/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnFpb3h2aGU4ZGFwYmQ1ajRzbTludHlrcGliNDdtZGFtaHMxcnk2ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WqxnG0CVIWAX71jDJY/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-swirling-black-tearing.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind (2nd Job)}> <tt src={/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png} tip={Divine Art: Swirling Tide (3rd Job)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-black-wind.png} tip={Soul Art: Black Wind (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Divine Art: Swirling Tide",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 8, Damage: 600%, Number of Attacks: 9, Shock Waves: 2\\n[Form Link] Final Damage: +100%\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-divine-art-swirling-tide.png", "/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2ZmZXNoM3U5dHc4bTJ2c3o0a215djVjbjA0eDhobGM0M3Nxdjg3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sP1ReB8d1ud4GkZXir/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Divine Art: Tearing Wind",
+                    "shortDesc": "MP Cost: 50, Max Enemies Hit: 8, Damage: 410%, Number of Attacks: 9, Chase Cuts: 2\\n[Form Link] Final Damage: +50%\\nCooldown: 8 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-divine-art-tearing-wind.png", "/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTRjZzIyamJnZHB6Nm5nb2wzeXljbTYzOHJ2Yzc4em16eXdrdDZybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oQsV9TZQ29nicsBgHp/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Soul Art: Black Wind",
+                    "shortDesc": "MP Cost: 380, Max Enemies Hit: 12, Damage: 1000%, Number of Attacks: 12, Explosions: 10, invincible during casting\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-soul-art-black-wind.png", "/class-icons/jianghu/mo-xuan/soul-art-black-wind.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWx2b3Z0ZjE3bmh2MDRid3FoOTcwcXIzZ2JkZXl3ZmFveW9iYnE1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TZbJjbwG16CZ7dLErd/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-secret-art-qi-projection.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Secret Art: Qi Projection",
+                    "shortDesc": "When the effect is active, activate up to 4 afterimages that deal 420% damage 4 times.\\nAfterimages attack every 1.5 sec\\nOnce afterimages attack enemies 10 times, deal an additional attack to 1 enemy for 930% damage 12 times.",
+                    "icons": ["/class-icons/jianghu/mo-xuan/hexa-secret-art-qi-projection.png", "/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTg0MTNsa3pxbm8yc2xjZmhlMjliYzZmMTEzMXRjMTgybDgwMXpudyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z5sPWJILAAUod6HZhQ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Soul Art: Jianghu Dragon",
+                    "shortDesc": "MP Cost: 1200, Max Enemies Hit: 15, Damage: 620%, Number of Attacks: 15, Chase Cuts: 62. Afterwards, Damage: 670%, Number of Attacks: 15, Finishing Blows: 68\\nAfter the finishing blow, Divine Fist does not decrease for 120 sec\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-jianghu-dragon.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjBpdHkzdG5sZmY0czh5bGlscXcwdjFlZjZuZzBscHBrdjJhbDFkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TFVe8Q8p39SiflyZ0B/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtnc2J6ejV3emtodzAzeHkzcDZvMzN0MDJldmZ6MW9xcnZwZGVsciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bRYOna0RRJKC9hJjQS/giphy.gif"],
+                    "type": "Origin Skill"
+                },
+                {
+                    "name": "Soul Art: Where Destiny Falls",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nReleases 20 shockwaves, dealing 3535% damage to up to 15 enemies 12 times\\nAfterwards, 25 shockwaves damage enemies, dealing 4375% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-where-destiny-falls.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWs3cWUxZWlsMWQ0N3hkcXdwOWh4eTZ6ZGQ2amIybWozd3l6em5odCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jmAQiaipNtKbxqujp6/giphy.gif"],
+                    "type": "Ascent Skill"
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Soul Art: Beneath Heaven Boost",
+                    "shortDesc": "Soul Art: Beneath Heaven Final Damage: +60%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-beneath-heaven.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Soul Art: The Conquered Self Boost",
+                    "shortDesc": "Soul Art: The Conquered Self Final Damage: +60%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-the-conquered-self.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Soul Art: The Opened Gate Boost",
+                    "shortDesc": "Soul Art: The Opened Gate Critical Damage: +20%, Duration: 23 sec, increases damage of Xuanshan Forms and Divine Arts by 550% points while active",
+                    "icons": ["/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Divine Art: Crashing Earth Boost",
+                    "shortDesc": "Divine Art: Crashing Earth Final Damage: +60%",
+                    "icons": ["/class-icons/jianghu/mo-xuan/divine-art-crashing-earth.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Xuanshan Strike [Tian] - 1st/4th Job",
+                "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2hpdmV6ODdzeDY1NWh0b3I0dDdwMjd0amhndnY5N3htbmtoeThlaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RGzYpo8zgDIYUndgHE/giphy.gif"]
+            },
+            {
+                "name": "Xuanshan Strike [Di] - 2nd/4th Job",
+                "icons": ["/class-icons/jianghu/mo-xuan/xuanshan-arts-di.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTMyc3hxajJ1cjlqZ3Z6MWp3ZDcxYXdja3Bmd3JpdHRpZmtmNXI4cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XEeDH3ctcTFfqRLn5j/giphy.gif"]
+            },
+            {
+                "name": "Divine Art: Erupting Flame - 1st Job",
+                "icons": ["/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemQ3MWVjazlzcmQyeTg1NGlmM3RicXBmeDJwY3JhdmE0b2Rud2lhaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BApIwFxo6V6cSZhxju/giphy.gif"]
+            },
+            {
+                "name": "Divine Art: Tearing Wind - 2nd Job",
+                "icons": ["/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXlqaDcyaGRvcWU1M3hkNHgyZWl0ZDQ5YTVxY2s1NWlpbDJxNnIwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qhHAfIwRrBXX45fnpP/giphy.gif"]
+            },
+            {
+                "name": "Divine Art: Howling Storm - 4th Job ",
+                "icons": ["/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdqemxsN2F2NDNrcHRscDA5a2NveXFnN3E0MzRjeWhnb3d4YTZlbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zreHKZEglA3gIR1dMq/giphy.gif"]
+            },
+            {
+                "name": "Soul Art: Black Wind - Hyper Skill",
+                "icons": ["/class-icons/jianghu/mo-xuan/soul-art-black-wind.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3RsaXNrbXJodWRtMzM5YW83aGxpcTN3cjNpbWt0aXUzNHNpMjJlZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rldbXu15XVkTXnXIjz/giphy.gif"]
+            },
+            {
+                "name": "Soul Art: Beneath Heaven - 5th Job",
+                "icons": ["/class-icons/jianghu/mo-xuan/soul-art-beneath-heaven.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHR3dXRsM3Z3MWduM2F5b3d4NTBjNnlsN2V6bzlvODRvZHBsN3dlcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tiVZrDQ8OnKl6gchZZ/giphy.gif"]
+            },
+            {
+                "name": "Divine Art: Crashing Earth - 5th Job",
+                "icons": ["/class-icons/jianghu/mo-xuan/divine-art-crashing-earth.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3pjbGFzenVoY2o4NGVmb3Foc3Bhb29uZ3JodnBtYzdxYnFvenZraCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/beh3zjaQcaQwmAM1Fh/giphy.gif"]
+            },
+            {
+                "name": "Soul Art: Jianghu Dragon - 6th Job",
+                "icons": ["/class-icons/jianghu/mo-xuan/soul-art-jianghu-dragon.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjBpdHkzdG5sZmY0czh5bGlscXcwdjFlZjZuZzBscHBrdjJhbDFkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TFVe8Q8p39SiflyZ0B/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Mo Xuan is a DEX pirate class part of the Jianghu. Mo Xuan utilize Martial Braces as their primary weapons. For their secondary weapon, Mo Xuan can equip Brace Bands"
+}

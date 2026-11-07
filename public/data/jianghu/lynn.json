@@ -1,0 +1,1114 @@
+{
+    "class": "Lynn",
+    "content": {
+        "classGroup": "Jianghu",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Increases %Ignore DEF",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["memorialStaff"]},
+            {"secondary": ["leaf", "mageShield"]}
+        ],
+        "innerAbility": [
+            {
+                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Buff Duration +38% / Damage to monsters inflicted with Abnormal Status +8%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.34x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/jianghu/lynn/forest-wind.png} tip={Forest Wind (2nd Job)} val={+2}> <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon (3rd Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/jianghu/lynn/forest-power-iv.png} tip={Forest Power IV (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+90(120) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/jianghu/lynn/forest-power-i.png} tip={Forest Power I (1st Job)} val={+10}> <bg src={/class-icons/jianghu/lynn/forest-power-ii.png} tip={Forest Power II (2nd Job)} val={+20}> <bg src={/class-icons/jianghu/lynn/forest-wind.png} tip={Forest Wind (2nd Job)} val={+10}> <bg src={/class-icons/jianghu/lynn/forest-power-iii.png} tip={Forest Power III (3rd Job)} val={+20}> <bg src={/class-icons/jianghu/lynn/forest-power-iv.png} tip={Forest Power IV (4th Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)} src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny - Boon (5th Job)} val={+30, based on skill chosen}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+4% +105(145)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/jianghu/lynn/forest-power-i.png} tip={Forest Power I (1st Job)} val={+5}> <bg src={/class-icons/jianghu/lynn/forest-power-ii.png} tip={Forest Power II (2nd Job)} val={+10}> <bg src={/class-icons/jianghu/lynn/forest-power-iii.png} tip={Forest Power III (3rd Job)} val={+10}> <bg src={/class-icons/jianghu/lynn/forest-power-iv.png} tip={Forest Power IV (4th Job)} val={+30}> <bg src={/class-icons/jianghu/lynn/commune.png} tip={Commune (4th Job)} val={+50}> <bg type={temp} src={/class-icons/jianghu/lynn/focus-heal-boost.png} tip={[Focus] Heal Boost (4th Job)} val={+10 if Focal Target}> <bg type={opt} src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)} src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny - Boon (5th Job)} val={+30, based on skill chosen}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+85%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/link-skills/spirit-guide-blessing.png} tip={Spirit Guide Blessing (Link Skill)} val={+10%}> <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-penni.png} tip={Spirit Guide Unity: Penni (2nd Job)} val={+20%}> <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon (3rd Job)} val={+50%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%",
+                "detail": "<bg src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon (3rd Job)} val={+30%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+40%(90%)",
+                "detail": "<bg src={/class-icons/jianghu/lynn/commune.png} tip={Commune (4th Job)} val={+30%}> <bg type={debuff} src={/class-icons/jianghu/lynn/predators-blow.png} tip={Predator's Blow (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/jianghu/aura-of-destiny.png} tip={Aura of Destiny (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)} src={/class-icons/5th-job/power-of-destiny-might.png} tip={Power of Destiny - Might (5th Job)} val={+20%, based on skill chosen}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+46%",
+                "detail": "<bg src={/class-icons/link-skills/spirit-guide-blessing.png} tip={Spirit Guide Blessing (Link Skill)} val={+11%}> <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon (3rd Job)} val={+35%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+143.34% w/ <tt src={/class-icons/jianghu/lynn/focus-awaken.png} tip={[Focus] Awaken (5th Job)}> [+60%/+30%] (320.49%/241.65%)",
+                "detail": "<bg src={/class-icons/jianghu/lynn/guardians-signet.png} tip={Guardian's Signet (4th Job)} val={+60%}> × <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-pan.png} tip={Spirit Guide Unity: Pan (1st Job)} val={+5% per successful Pan skill} val={(Max. +15%)}> × <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-penni.png} tip={Spirit Guide Unity: Penni (2nd Job)} val={+5% per successful Penni skill} val={(Max. +15%)}> × <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon (3rd Job)} val={+5% per successful Paeon skill} val={(Max. +15%)}> × <bg type={temp} src={/class-icons/jianghu/lynn/focus-awaken.png} tip={[Focus] Awaken (5th Job)} val={2+ party members: +10%, up to +60%} val={otherwise/resonant: +5%/+10%, up to 30%}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+37%(55.9%)",
+                "detail": "<bg src={/class-icons/jianghu/lynn/spirit-guide-unity-pan.png} tip={Spirit Guide Unity: Pan (1st Job)} val={+10%}> × <bg src={/class-icons/jianghu/lynn/natures-providence.png} tip={Nature's Providence (3rd Job)} val={+30%}> × <bg type={opt} src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)} src={/class-icons/5th-job/power-of-destiny-perceive.png} tip={Power of Destiny - Perceive (5th Job)} val={+30%, based on skill chosen}>"
+            },
+            {
+                "name": "Buff Duration",
+                "stat": "+50%",
+                "detail": "<bg src={/class-icons/jianghu/lynn/commune.png} tip={Commune (4th Job)} val={+50%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/jianghu/lynn/natures-providence.png} tip={Nature's Providence (3rd Job)} dur={[90s]}>",
+            "toggles": "<tt src={/class-icons/jianghu/lynn/focus.png} tip={[Focus] (Beginner Skill)}>(Special) <tt src={/class-icons/jianghu/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
+            "summons": "<tt src={/class-icons/jianghu/lynn/peck-1.png} tip={Peck (2nd Job)} dur={(Toggle)}> <tt src={/class-icons/jianghu/lynn/earth-pulverization.png} tip={Earth Pulverization (3rd Job)} dur={[30s](30s cd)}> <tt src={/class-icons/jianghu/lynn/beasts-rage.png} tip={Beast's Rage (5th Job)} dur={[6s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/jianghu/lynn/purify.png} tip={Purify (3rd Job)} dur={[20s](30s cd)}> <tt src={/class-icons/jianghu/lynn/mother-natures-touch.png} tip={Mother Nature's Touch (4th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/jianghu/aura-of-destiny.png} tip={Aura of Destiny (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/jianghu/lynn/beak-strike.png} tip={Beak Strike (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}> [<tt src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)}> <bold text={Power of Destiny}>: <tt src={/class-icons/5th-job/power-of-destiny-might.png} tip={Power of Destiny: Might (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-perceive.png} tip={Power of Destiny: Perceive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny: Boon (5th Job)} dur={[90s](120s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-journey.png} tip={Power of Destiny: Journey (5th Job)} dur={[240s](120s cd)}> <em text={(One effect can be chosen at a time, resets at 12:00 AM UTC)}>] | <bold text={Focus Skills}> <tt src={/class-icons/jianghu/lynn/focus-heal.png} tip={[Focus] Heal (1st Job)} dur={[40s](60s cd)}> <tt src={/class-icons/jianghu/lynn/focus-awaken.png} tip={[Focus] Awaken (5th Job)} dur={[20s](120s cd)}>",
+            "binds": "<tt src={/class-icons/jianghu/lynn/source-flow.png} tip={Source Flow (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/jianghu/lynn/source-flow.png} tip={Source Flow (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/jianghu/lynn/focus-forest-protection.png} tip={[Focus] Forest Protection (Hyper Skill)} dur={[40s](-30% & blocks 1 death | 300s cd)}> <tt src={/class-icons/jianghu/lynn/natures-grace.png} tip={Nature's Grace (5th Job)} dur={[20s](Up to 100% HP Barrier | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 170010241,
+            "offline": true,
+            "name": "Spirit Guide Blessing",
+            "shortDesc": "Boss Damage: 11%\\nCritical Rate: 10%\\nMax HP: 5%\\nMax MP: 5%",
+            "maxLevel": 3,
+            "icons": ["/class-icons/link-skills/spirit-guide-blessing.png"],
+            "type": "Passive"
+        },
+        "howToCreate": {
+            "image": ["/class-icons/jianghu/how-to-create-lynn.png",[499,374]],
+            "npc": [
+                ["",""]
+
+            ],
+            "info": [
+                "Lynn is only available for creation in Japan, China, Global, and Taiwan versions of MapleStory"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/jianghu/lynn/light-steps.png} tip={Light Steps}> -> <tt src={/class-icons/jianghu/lynn/forest-power-i.png} tip={Forest Power I}> -> <tt src={/class-icons/jianghu/lynn/spirit-guide-unity-pan.png} tip={Spirit Guide Unity: Pan}> -> <tt src={/class-icons/jianghu/lynn/focus-heal.png} tip={[Focus] Heal}> -> <tt src={/class-icons/jianghu/lynn/strike-1.png} tip={Strike}>"],
+                ["2nd Job", "<tt src={/class-icons/jianghu/lynn/light-leap.png} tip={Light Leap}> -> <tt src={/class-icons/jianghu/lynn/spirit-guide-unity-penni.png} tip={Spirit Guide Unity: Penni}> -> <tt src={/class-icons/jianghu/lynn/forest-power-ii.png} tip={Forest Power II}> -> <tt src={/class-icons/jianghu/lynn/forest-wind.png} tip={Forest Wind}> -> <tt src={/class-icons/jianghu/lynn/strike-2.png} tip={Strike}> -> <tt src={/class-icons/jianghu/lynn/peck-1.png} tip={Peck}> -> <tt src={/class-icons/jianghu/lynn/sweep.png} tip={Sweep}>"],
+                ["3rd Job", "<tt src={/class-icons/jianghu/lynn/vitality-affinity.png} tip={Vitality Affinity}> -> <tt src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon}> -> <tt src={/class-icons/jianghu/lynn/forest-power-iii.png} tip={Forest Power III}> -> <tt src={/class-icons/jianghu/lynn/natures-providence.png} tip={Nature's Providence}> -> <tt src={/class-icons/jianghu/lynn/strike-3.png} tip={Strike}> -> <tt src={/class-icons/jianghu/lynn/earth-pulverization.png} tip={Earth Pulverization}> -> <tt src={/class-icons/jianghu/lynn/peck-2.png} tip={Peck}> -> <tt src={/class-icons/jianghu/lynn/sneak-attack.png} tip={Sneak Attack}> -> <tt src={/class-icons/jianghu/lynn/focus-support-flight.png} tip={[Focus] Support Flight}> -> <tt src={/class-icons/jianghu/lynn/purify.png} tip={Purify}>"],
+                ["4th Job", "<tt src={/class-icons/jianghu/lynn/commune.png} tip={Commune}> -> <tt src={/class-icons/jianghu/lynn/guardians-signet.png} tip={Guardian's Signet}> -> <tt src={/class-icons/jianghu/lynn/forest-power-iv.png} tip={Forest Power IV}> -> <tt src={/class-icons/jianghu/lynn/focus-heal-boost.png} tip={[Focus] Heal Boost}> -> <tt src={/class-icons/jianghu/lynn/natures-providence-boost.png} tip={Nature's Providence Boost}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/jianghu/lynn/strike-4.png} tip={Strike}> -> <tt src={/class-icons/jianghu/lynn/roar.png} tip={Roar}> -> <tt src={/class-icons/jianghu/lynn/peck-3.png} tip={Peck}> -> <tt src={/class-icons/jianghu/lynn/predators-blow.png} tip={Predator's Blow}> -> <tt src={/class-icons/jianghu/lynn/whirlwind.png} tip={Whirlwind}> -> <tt src={/class-icons/jianghu/lynn/mother-natures-touch.png} tip={Mother Nature's Touch}> -> <tt src={/class-icons/jianghu/lynn/support-flight.png} tip={Support Flight}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/jianghu/lynn/strike-reinforce.png} tip={Strike - Reinforce}> <tt src={/class-icons/jianghu/lynn/strike-extra-strike.png} tip={Strike - Extra Strike}> Strike - Reinforce and Extra Strike_<tt src={/class-icons/jianghu/lynn/peck-reinforce.png} tip={Peck - Reinforce}> Peck - Reinforce_<tt src={/class-icons/jianghu/lynn/sneak-attack-reinforce.png} tip={Sneak Attack - Reinforce}> <tt src={/class-icons/jianghu/lynn/sneak-attack-extra-strike.png} tip={Sneak Attack - Extra Strike}> Sneak Attack - Reinforce and Extra Strike_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/jianghu/lynn/strike-4.png} tip={Strike (1st Job)}> <tt src={/class-icons/jianghu/lynn/peck-3.png} tip={Peck (2nd Job)}> <tt src={/class-icons/jianghu/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/jianghu/lynn/earth-pulverization.png} tip={Earth Pulverization and Roar (3rd Job / 4th Job)}> <tt src={/class-icons/jianghu/lynn/sweep.png} tip={Sweep and Whirlwind (2nd Job / 4th Job)}> <tt src={/class-icons/jianghu/lynn/predators-blow.png} tip={Predator's Blow and Raid (4th Job / Hyper Skill)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,5],
+            "secondary": [3,4],
+            "nodes": [
+                "<tt src={/class-icons/jianghu/lynn/strike-4.png} tip={Strike (1st Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/peck-3.png} tip={Peck (2nd Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/earth-pulverization.png} tip={Earth Pulverization (3rd Job)}> <tt src={/class-icons/jianghu/lynn/roar.png} tip={Roar (4th Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/sweep.png} tip={Sweep (2nd Job)}> <tt src={/class-icons/jianghu/lynn/whirlwind.png} tip={Whirlwind (4th Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/predators-blow.png} tip={Predator's Blow (4th Job)}> <tt src={/class-icons/jianghu/lynn/raid.png} tip={Raid (Hyper Skill)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Lynn"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%A6%B0(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/czcga75tHQ"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1jklP4eFm2ZL7UldT-NrmzGNwQekJOfRH54EAAlBWDUg"}
+        ],
+        "infographics": [
+            {
+                "src": "lynn/lynn-overview.png",
+                "title": "Overview",
+                "credit": "Nanabelle",
+                "date": "2026-06-04"
+            },
+            {
+                "src": "lynn/lynn-6th-job.png",
+                "title": "6th Job",
+                "credit": "Lynn Discord",
+                "date": "2026-06-04"
+            }
+        ],
+        "specialThanks": "Special thanks to the members of the Lynn Discord for their help in making this overview!",
+        "discord": "https://discord.gg/czcga75tHQ",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Lynn Discord"]
+        ],
+        "extraContent": {
+            "title": "Focus Skills & Spirit Guide Skills",
+            "content": [
+                "[Focus Skills]",
+                "<img src={https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd295enB2b280aHViMXoydnFvbzlsdXUzeW4ydmg1emZ3Z2pkanE1cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h72YKLlkaPDHMlyuOw/giphy.gif} tip={Focus UI}>",
+                "While Lynn is in a party, they can select a party member as a \"Focal Target\" which skills labelled as [Focus] will affect. If Lynn is not in a party or is in a party by themselves, they will be the Focal Target. Using the Beginner Skill <tt src={/class-icons/jianghu/lynn/focus.png} tip={[Focus] (Beginner Skill)}> [Focus], Lynn can choose who the Focal Target is",
+                "Below is a list of all Focus Skills:",
+                "<bp_<tt src={/class-icons/jianghu/lynn/focus-heal.png} tip={[Focus] Heal (1st Job)}> Heal [1st Job]_<tt src={/class-icons/jianghu/lynn/focus-support-flight.png} tip={[Focus] Support Flight (3rd Job)}> Support Flight [3rd Job]_<tt src={/class-icons/jianghu/lynn/focus-forest-protection.png} tip={[Focus] Forest Protection (Hyper Skill)}> Forest Protection  [Hyper Skill]_<tt src={/class-icons/jianghu/lynn/focus-awaken.png} tip={[Focus] Awaken (5th Job)}> Awaken [5th Job]_>",
+                "<em text={Focal Target cannot be yourself for}> <tt src={/class-icons/jianghu/lynn/focus-support-flight.png} tip={[Focus] Support Flight (3rd Job)}>",
+                "[Spirit Guide Skills]",
+                "Lynn's attacks can be categorized by their Spirit Guides, Pan, Penni, and Paeon. Each Spirit Guide provides a stacking %Final Damage (additively) buff whenever their attacks successfully hit an enemy",
+                "Below is a list of all <tt src={/class-icons/jianghu/lynn/spirit-guide-unity-pan.png} tip={Spirit Guide Unity: Pan (1st Job)}> Pan attacks:",
+                "<bp_<tt src={/class-icons/jianghu/lynn/strike-4.png} tip={Strike (1st Job)}> Strike [1st Job]_<tt src={/class-icons/jianghu/lynn/earth-pulverization.png} tip={Earth Pulverization (3rd Job)}> Earth Pulverization [3rd Job]_<tt src={/class-icons/jianghu/lynn/roar.png} tip={Roar (4th Job)}> Roar [4th Job]_>",
+                "Below is a list of all <tt src={/class-icons/jianghu/lynn/spirit-guide-unity-penni.png} tip={Spirit Guide Unity: Penni (2nd Job)}> Penni attacks:",
+                "<bp_<tt src={/class-icons/jianghu/lynn/peck-3.png} tip={Peck (2nd Job)}> Peck [2nd Job]_<tt src={/class-icons/jianghu/lynn/sweep.png} tip={Sweep (2nd Job)}> Sweep [2nd Job]_<tt src={/class-icons/jianghu/lynn/whirlwind.png} tip={Whirlwind (4th Job)}> Whirlwind [4th Job]_>",
+                "Below is a list of all <tt src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon (3rd Job)}> Paeon attacks:",
+                "<bp_<tt src={/class-icons/jianghu/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}> Sneak Attack [3rd Job]_<tt src={/class-icons/jianghu/lynn/predators-blow.png} tip={Predator's Blow (4th Job)}> Predator's Blow [4th Job]_<tt src={/class-icons/jianghu/lynn/raid.png} tip={Raid (Hyper Skill)}> Raid [Hyper Skill]_<tt src={/class-icons/jianghu/lynn/beasts-rage.png} tip={Beast's Rage (5th Job)}> Beast's Rage [5th Job]_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Spirit Guide Blessing",
+                    "shortDesc": "Boss Damage: 11%\\nCritical Rate: 10%\\nMax HP: 5%\\nMax MP: 5%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/spirit-guide-blessing.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Forest Kiss",
+                    "shortDesc": "MP Cost: 5, Move back to the Forest Spring.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/forest-kiss.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVpaGk5YXd0aGxxMmJqZjA1eDVzNm0xa3F2c29tZnk0aGFyOXJ3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qLmuVT7FAKTQHXKNxo/giphy.gif"],
+                    "type": "Active",
+                    "details": [
+                        "To obtain this skill, complete the Lynn storyline"
+                    ]
+                },
+                {
+                    "name": "[Focus]",
+                    "shortDesc": "Each use of Focus cycles the Focal Target to the next party member.\\nHolding the Down key while using Focus will cycle the Focal Target to the previous party member instead.\\nWhen not in a party, you are always the Focal Target",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/focus.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2E3dWRiMW9nbm5nY3ZyZGdwem50bG03N3FncW9jZTUzZXVmemU2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fIYXktsi8imqIvc7Q8/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Select a Focal Target that Focus Skills will affect",
+                    "details": [
+                        "[Skill Key]: Selects the next party member as the Focal Target",
+                        "[Down Arrow Key + Skill Key]: Selects the previous party member as the Focal Target",
+                        "When not in a party, you are the Focal Target"
+                    ]
+                },
+                {
+                    "name": "Accompany",
+                    "shortDesc": "Hides the appearance of the current Spirit Guides following Lynn.\\nCooldown: 10 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/accompany.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWo0cGZsMDM4N3JieTVhMjNodzYwM3JvdWYwZ2dvaG8zNXpjNmxtdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1IwI4D4J5aEVp8yU0l/giphy.gif"],
+                    "type": "Toggle"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHdwd3Q4dHdheDB5eDNocDljMnZha241djJoNm85Nm5td2Q4bzFqdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rd7U8s5FnBX0eqNamZ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the Lynn storyline",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Strike",
+                        "shortDesc": "MP Cost: 12, Max Enemies Hit: 5, Damage: 85%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/strike-1.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG01ZWEwamFrdXV5NXVhaDQxaDVybmhtcHpld284YmprZXdhNzhseiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9Egp852Ud74Qfr9uWL/giphy.gif"],
+                        "type": "Pan Attack",
+                        "desc": "Pan swings forward"
+                    },
+                    {
+                        "name": "[Focus] Heal",
+                        "shortDesc": "MP Cost: 18, the current Focal Target recovers 20% of Max HP every second for 40 sec\\nResonant: You gain Resonant: Heal when the skill is used on the Focal Target.\\nResonant: Heal: Recovers 15% of Max HP every second for 30 sec\\nCooldown: 60 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/focus-heal.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3VneHhtZ3h6eTIzM2IyYTA2YTVoaG1rOTVjaW85dHpkM2lvMXNubCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xthE1nvlmXrdAMN81r/giphy.gif"],
+                        "type": "Focus Heal Buff",
+                        "desc": "Provide a periodic healing buff to the Focal Target",
+                        "details": [
+                            "[Resonant: Heal]: When Focal Target is not self, grants yourself a weaker periodic healing buff"
+                        ]
+                    },
+                    {
+                        "name": "Light Steps",
+                        "shortDesc": "MP Cost: 5. Allows you to jump a greater distance",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/jianghu/lynn/light-steps.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWxtMjB2eGwyMXJuYnN0cHZtcXM0ZnI0bXVzY3JxaGVndDZka2hlNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/snKS7SigTlTffBdVtE/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "name": "Forest Power I",
+                        "shortDesc": "Magic Mastery: +20%, INT: +10, Magic ATT: +5\\n85% of damage taken drains MP instead of HP.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/forest-power-i.png"],
+                        "type": "Passive",
+                        "desc": "A portion of your damage taken will be redirected towards your MP (excluding %Max HP damage)",
+                        "details": [
+                            "Additionally, increases %Weapon Mastery and grants flat INT and Magic Attack"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Guide Unity: Pan",
+                        "shortDesc": "Defense: +100, Ignore Defense: +10%\\nDamage Taken: -15%\\nUpon using a Pan skill on an enemy - Final Damage: +5%, Max Stacks: 3, Duration: 30 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/spirit-guide-unity-pan.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks using Pan skills grants a stacking %Final Damage buff (max 3 stacks, additively)",
+                        "details": [
+                            "Additionally, grants flat Defense, increases %Ignore Defense, and reduces damage taken (excluding %Max HP damage)"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Strike",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 6, Damage: 150%, Number of Attacks: 5",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/strike-2.png", "/class-icons/jianghu/lynn/strike-1.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmZkbWtlbHo0cHhudjFyNWt5aGI0czVxYzB5dXVoaG01aTY3N3d1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vt3i9OAtad95N202q6/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "This version replaces the 1st Job version",
+                            "Increases Max Enemies Hit, %Damage, and Number of Attacks"
+                        ]
+                    },
+                    {
+                        "name": "Sweep",
+                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 5, Damage: 60%, Number of Attacks: 3, moves in the designated direction.\\nExpends 1 charge upon use, gain 1 charge every 5.0 sec, Max Charges: 5",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/sweep.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenR4ejN4OGdnbzd0emNubTd3azVkaHdrNzhwYmx0c3ZpcjFoMG55MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PHLY7eJ5jhpdonbTcU/giphy-downsized-large.gif"],
+                        "type": "Penni Attack",
+                        "desc": "Dash forward damaging enemies in your path",
+                        "details": [
+                            "Pressing the Up or Down Arrow Keys and Skill Key together will dash diagonally in the given direction",
+                            "Skill is prepared every 5 sec (up to 5 charges)"
+                        ]
+                    },
+                    {
+                        "name": "Peck",
+                        "shortDesc": "MP Cost: 350, Penni automatically attacks enemies - Damage: 270%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/peck-1.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejNhdWIycDIwMHZoNWp4aTExeThtaXF6ZmlvMzYxOXNid3oyNGVmYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YaIY2LkW2KOHO3mGtk/giphy.gif"],
+                        "type": "Penni Toggle Summon",
+                        "desc": "While toggled, Penni seeks and attacks nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Light Leap",
+                        "shortDesc": "MP Cost: 7. Allows you to jump a greater distance",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/jianghu/lynn/light-leap.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN5eWhqMDAwbXB5d2lqNW80emxuZGhqZjNreml1aXgxMHlmenNxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K2X4RjZm56Xiq4a9X9/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Vertical jump skill",
+                        "details": [
+                            "Can be assigned to a Key Slot or activated while on the ground by pressing the Up Key and Jump Key together"
+                        ]
+                    },
+                    {
+                        "name": "Forest Power II",
+                        "shortDesc": "Magic Mastery: +50%, INT: +20, Magic ATT: +10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/forest-power-ii.png", "/class-icons/jianghu/lynn/forest-power-i.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Grants flat INT and Magic Attack"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Guide Unity: Penni",
+                        "shortDesc": "Critical Rate: +20%, Speed: +20, Max Speed: +15, Jump: +20\\nUpon using a Penni skill on an enemy - Final Damage: +5%, Max Stacks: 3, Duration: 30 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/spirit-guide-unity-penni.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks using Penni skills grants a stacking %Final Damage buff (max 3 stacks, additively)",
+                        "details": [
+                            "Additionally, increases %Crit Rate and grants flat Speed, Max Speed, and Jump"
+                        ]
+                    },
+                    {
+                        "name": "Forest Wind",
+                        "shortDesc": "Attack Speed: +2, INT: +10, MP: +120 per level, Max MP: +20%\\nPassive Effects: Upon using a magic attack - 24% chance to absorb 8% of Max MP\\nAbsorb 5% of Max MP from bosses",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/forest-wind.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Additionally, increases Attack Speed (by 2 stages), %Max MP, and grants flat INT and MP per character level",
+                            "Effectiveness is reduced for bosses"
+                        ]
+                    }]
+            ],
+            [
+                "3rd Job", [
+                    {
+                        "name": "Strike",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 220%, Number of Attacks: 5",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/strike-3.png", "/class-icons/jianghu/lynn/strike-1.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXR3cDdwZ2t5OW5pc2k5eHNnbGkxd21nanR4aHB5aWhldG5xdnFuMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QBi4W0qfTrTMaOSwlb/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "This version replaces the 2nd Job version",
+                            "Increases %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "Earth Pulverization",
+                        "shortDesc": "MP Cost: 300, Max enemies Hit: 8, Damage: 320%, Number of Attacks: 12\\nAfter attacking, a burning fissure is created at the attack location for 30 sec. Max Enemies Hit: 6, Damage: 10%, Number of Attacks: 5, Duration: every 1 sec\\nCooldown: 30 sec\\nBurning Fissure - Normal Monster Damage: +1250% (additive)",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/jianghu/lynn/earth-pulverization.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNteDhsZjR6d2Y0NXVzamFmbDY0NDZxb3hhMmJhNHZ4aGswNHZ3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sBwXzmnqnfimGeHEud/giphy-downsized-large.gif"],
+                        "type": "Pan Attack",
+                        "desc": "Pan smashes the ground creating a lingering Burning Fissure that damages enemies within it",
+                        "details": [
+                            "Burning Fissure deals increased damage to regular monsters",
+                            "Burning Fissure is unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Peck",
+                        "shortDesc": "MP Cost: 350, Automatically overwritten when a better version is learned via Job Advancement. Damage: 360%, Number of Attacks: 5\\nCan be toggled On/Off",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/peck-2.png", "/class-icons/jianghu/lynn/peck-1.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXEwMWtnbnRxMTd2cHBpcmVsZW8wbmI1cnl2a3RoZHA1bmk1dDgxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZG6bmIlPnk6dhBTJqQ/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "This version replaces the 2nd Job version",
+                            "Increases %Damage and Number of Attacks"
+                        ]
+                    },
+                    {
+                        "name": "[Focus] Support Flight",
+                        "shortDesc": "MP Cost: 50, Cooldown: 20 sec\\nInstantly moves you to the current Focal Target's location or vice versa.\\nCannot use if the Focal Target is too far away",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/jianghu/lynn/focus-support-flight.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGZtYmRoY3F3OWkwbWc1M3JvYzRuZXFrN2ZldGZhcDg5dDJ6OWZldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qW7J1eTt6s3oZGeLlo/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWVlZHhsa2I4amFwaG9xNmQ3dHBnbTBjY202cjRyZnJnOGt3cTA5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GsRvjHisuChhV8FRjh/giphy.gif"],
+                        "type": "Focus Active",
+                        "desc": "",
+                        "details": [
+                            "[Skill Key]: Teleport to Focal Target",
+                            "[Down Arrow Key + Skill Key]: Teleport the Focal Target to your location",
+                            "Focal Target cannot be yourself",
+                            "Cannot be used if Focal Target is too far away"
+                        ]
+                    },
+                    {
+                        "name": "Sneak Attack",
+                        "shortDesc": "MP Cost: 140. Upon skill use, Paeon prepares to attack. Then, if another Spirit Guide skill damages an enemy, Paeon will attack the same enemy. Max Enemies Hit: 4, Damage: 680%, Number of Follow-up Attacks: 8\\nCooldown: 2 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/sneak-attack.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVxeXNvMHUxMDhuc2syZnFldzBpeTZ3eTh6Y3BjdG5kNGllZ3lmdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/V1tXu5cYociC9YOPmN/giphy.gif"],
+                        "type": "Paeon Toggle Attack",
+                        "desc": "While toggled, upon successful Pan or Penni attacks, Paeon deals an additional attack to the same target",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Purify",
+                        "shortDesc": "MP Cost: 60. Purifies nearby allies for 20 sec.\\nPurified allies lose 1 harmful effect every 2 sec, up to 5 total effects.\\nCooldown: 30 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/purify.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW12Z2Q1d3JvdHlyYThwa3RudGloNW40a2pqdzQ0ZTR6amRpYmQxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bkfZl2LyS2TxsK7I6P/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Cast a buff that periodically cures affected party members of Abnormal Statuses (up to 5 statuses)"
+                    },
+                    {
+                        "name": "Nature's Providence",
+                        "shortDesc": "MP Cost: 60, Duration: 90 sec. All party members - Ignore Defense: +30%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/natures-providence.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTd6cXlnMDNyOHU5MXh4Z2U5eHM4ZW5zZGQ0djB6emQ0ZGoybGZrMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZuUfcK95PJ9gi86K1Y/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "name": "Forest Power III",
+                        "shortDesc": "Magic Mastery: +60%, INT: +20, Magic Attack: +10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/forest-power-iii.png", "/class-icons/jianghu/lynn/forest-power-i.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Grants flat INT and Magic Attack"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Guide Unity: Paeon",
+                        "shortDesc": "Critical Rate: +50%, Critical Damage: +30%, Boss Damage: +35%, Attack Speed: +1\\nUpon using a Paeon skill on an enemy - Final Damage: +5%, Max Stacks: 3, Duration: 30 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks using Paeon skills grants a stacking %Final Damage buff (max 3 stacks, additively)",
+                        "details": [
+                            "Additionally, increases %Crit Rate, %Crit Damage, %Boss Damage, and Attack Speed (by 1 stage)"
+                        ]
+                    },
+                    {
+                        "name": "Vitality Affinity",
+                        "shortDesc": "Status Resistance: +16, Elemental Resistance: +16%, Defense: +320, Knockback Resistance: +50%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/jianghu/lynn/vitality-affinity.png"],
+                        "type": "Passive"
+                    }]
+            ],
+            [
+                "4th Job", [
+                    {
+                        "name": "Strike",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 7, Damage: 315%, Number of Attacks: 6",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/jianghu/lynn/strike-4.png", "/class-icons/jianghu/lynn/strike-1.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdlMHJpaDA2OGhnYWl4N3pyeHJwOHBvcTMzMXl1M3Y2bWI2aTdrdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f9bPbiFiOdwEqNdDsX/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "This version replaces the 3rd Job version",
+                            "Increases Max Enemies Hit, %Damage, and Number of Attacks"
+                        ]
+                    },
+                    {
+                        "name": "Roar",
+                        "shortDesc": "MP Cost: 200, Max Enemies Hit: 12, Damage: 520%, Number of Attacks: 10, Cooldown: 30 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/roar.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExem5qYzdkbHBiYmdlbTg2NHA1YzNtMGk1enpsdnE4OGd6c3RtOGFocCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boh6UnlXXKnqGEGfpL/giphy.gif"],
+                        "type": "Pan Attack",
+                        "desc": "Pan roars damaging nearby enemies"
+                    },
+                    {
+                        "name": "Peck",
+                        "shortDesc": "MP Cost: 450, Penni automatically attacks enemies - Damage: 818%, Number of attacks: 6",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/jianghu/lynn/peck-3.png", "/class-icons/jianghu/lynn/peck-1.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFmNTM2N2htanZ6Ynd5c3l3ZWpkM2V3dWxkaTVtYWY2bWgycnpteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iRYvsdJ4Pq2Velz7lc/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "This version replaces the 3rd Job version",
+                            "Increases %Damage and Number of Attacks"
+                        ]
+                    },
+                    {
+                        "name": "Whirlwind",
+                        "shortDesc": "MP Cost: 60. You move back, and deal 580% damage to up to 12 enemies in front of you 4 times. Holding the skill allows you to float for up to 3 sec\\nCooldown: 15 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/jianghu/lynn/whirlwind.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3I2a3U2NWtlN2dmY3JlMHRydno0ZmwxaXhreThkY3F0N2N2eWc4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/my0yOJ7mZSmQEaI9Ye/giphy.gif"],
+                        "type": "Penni Attack",
+                        "desc": "Teleport backwards and releases a gust of wind forward damaging enemies",
+                        "details": [
+                            "Holding down the Skill Key will cause you to float briefly"
+                        ]
+                    },
+                    {
+                        "name": "Support Flight",
+                        "shortDesc": "MP Cost: 300. Teleports all party members on the current map to your location\\nCooldown: 30 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/jianghu/lynn/support-flight.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFycjhpODg5OHh4YXRoOHhpMjFzeGEzN3pqMjUweDZuMW02Z3BjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jo82XCgMDr3PYIyUHv/giphy.gif"],
+                        "type": "Party Active"
+                    },
+                    {
+                        "name": "Predator's Blow",
+                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 8, Damage: 1050%, Number of Attacks: 7.\\nEnemies hit take 10% additional damage for 40 sec\\nCooldown: 30 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/jianghu/lynn/predators-blow.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXRocHlieHZtMTkxOG1wMWw5d2N3NmlxaWJ4MDB4cm55amNyZTM1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h6rxriyQsqKJGFsNuh/giphy.gif"],
+                        "type": "Paeon Attack",
+                        "desc": "Paeon pounces at nearby targets dealing damage and applying a debuff",
+                        "details": [
+                            "[Debuff]: Enemy takes increased %Damage",
+                            "Can only be used when enemies are nearby",
+                            "Prioritizes enemies with the highest Max HP"
+                        ]
+                    },
+                    {
+                        "name": "Mother Nature's Touch",
+                        "shortDesc": "MP Cost: 200. Affects all party members on the same map - Removes all harmful effects, immediately restores 100% of Max HP, heals 10% HP every second for 30 sec\\nCooldown: 60 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/mother-natures-touch.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWZldDF1dHA1dTJvZzc5ZmlpdHo2OTg1N256bGNhZ3Q3eGg0eGFmZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LGqnHlu0RZ4QpnTaEo/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Upon casting, cures all party members of Abnormal Statuses and restores %Max HP",
+                        "details": [
+                            "After casting, grants party members a buff that periodically restores %Max HP"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3RrYWg1Z2o1ZXp6N2xicGRhbXF3czdpeHJyNXF6N2Ewdmc3YzYxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8F5ydUYDaLpf3LZPlo/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejB1amdpdHM0YXBibG94NHZxY3k4cXdzaXc0YmVueDRhdzE5OGoydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rAUpNIwHlaUhMos4vP/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs"
+                    },
+                    {
+                        "name": "Forest Power IV",
+                        "shortDesc": "Magic Mastery: +70%, INT: +30, Magic ATT: +30",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/forest-power-iv.png", "/class-icons/jianghu/lynn/forest-power-i.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Grants flat INT and Magic Attack"
+                        ]
+                    },
+                    {
+                        "name": "[Focus] Heal Boost",
+                        "shortDesc": "Focal Target - Increased healing: +10%, Attack Power: +10, Magic ATT: +10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/focus-heal-boost.png", "/class-icons/jianghu/lynn/focus-heal.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases amount healed",
+                            "Now grants affected Focal Target flat Attack and Magic Attack"
+                        ]
+                    },
+                    {
+                        "name": "Nature's Providence Boost",
+                        "shortDesc": "Nature's Providence - Item Drop Rate +10%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/natures-providence-boost.png", "/class-icons/jianghu/lynn/natures-providence.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Now additionally increases %Item Drop Rate"
+                        ]
+                    },
+                    {
+                        "name": "Guardian's Signet",
+                        "shortDesc": "Final Damage: +60%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/guardians-signet.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Commune",
+                        "shortDesc": "Permanently increases Magic ATT by 50, Buff Duration by 50%, Knockback Resistance by 50%, and Damage by 30%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/jianghu/lynn/commune.png"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Strike - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/strike-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Strike - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/strike-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Strike - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/strike-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Peck - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/peck-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Peck - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/peck-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Peck - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/peck-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Sneak Attack - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/sneak-attack-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Sneak Attack - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/sneak-attack-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Sneak Attack - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/sneak-attack-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "[Focus] Forest Protection",
+                    "shortDesc": "MP Cost: 600. Creates a protective zone at the location of the current Focal Target for 40 sec, grants a Damage Reduction and Fatal Damage Negation buff to all party members within the protective zone\\nDamage Reduction: Reduces damage taken by 30% (including percentage HP attacks)\\nFatal Damage Negation: Protects from one KO\\nParty members that receive Fatal Damage Negation cannot receive it again for 300 sec.\\nResonant: You gain Resonant: Heal when the skill is used on the Focal Target.\\nResonant: Forest Protection: Reduces damage taken, including from attacks based on Max HP, by 20% for 20 sec\\n(The damage taken reduction does not stack with Forest Protection's damage taken reduction. Only the higher value between the two effects will apply.)\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/focus-forest-protection.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDlmNmh5Nzk2azc1OGhrcTE5OWpsZ2NlemMzaXFscW8xM3A0M3k3aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wMc9BhihGXmj8wgN9z/giphy.gif"],
+                    "type": "Focus Buff Zone",
+                    "desc": "Create a protective barrier at the location of the Focal Target where party members inside it gain a buff",
+                    "details": [
+                        "[Buff]: Reduces damage taken including %Max HP attacks and protects allies from one KO<bp_After the Fatal Damage Negation buff, you may not receive another one for a short amount of time_>",
+                        "[Resonant: Forest Protection]: When Focal Target is not self, grants yourself [Resonant: Heal] and a weaker version of the damage reduction buff<bp_The barrier's damage taken reduction is prioritized over Resonant version_>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Raid",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 8, Damage: 1780%, Number of Attacks: 12\\nCooldown: 30 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/lynn/raid.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3hjNWtrbnYwY3hud2E4a2R4Ym45cWlvM3hjcDBsc3hxNm9qMTJmZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IjJnHDEBqNW3N9tRb4/giphy.gif"],
+                    "type": "Paeon Attack",
+                    "desc": "Paeon dashes forward leaving behind a trail of slashes",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Aura of Destiny",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Jianghu jobs in the party.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/jianghu/aura-of-destiny.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzN1czN3N3FiZjhxN3g4aGY2amZ3ZjN3NTdncnJwcW03dDYxMXBlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cZAE6Hf7FF8Ii7AEnO/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["powerOfDestiny", "ringOfSamsara", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Beast's Rage",
+                    "shortDesc": "MP Cost: 1000. Summons Paeon in front of you. Paeon Activations: 10, Max Enemies Hit: 15, Damage: 1920%, Number of Attacks: 12, Duration: 6 sec, Cooldown: 120 sec",
+                    "icons": ["/class-icons/jianghu/lynn/beasts-rage.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzlsZGMzdnl3b2VyMGIzM3dhcGMxOTJ3OHF0eXZoanU2NXhsbHZtNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tCQyy2jwJcMvNIY57w/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon Paeon creating a large damaging field of slashing attacks",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Beak Strike",
+                    "shortDesc": "MP Cost: 400, Duration: 20 sec, Peck becomes Beak Strike, increasaing attack interval for 0.4 sec, increasing damage by 115% (additive), and can attack up to 12 enemies 7 times, Cooldown: 120 sec.",
+                    "icons": ["/class-icons/jianghu/lynn/beak-strike.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHlvOTczdXp0MTlqMnF4bzVoYWN3b21jb2R2MGM5b2s3bXRkdHB1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bYZwwW6ADstW0UotZm/giphy-downsized-large.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, enhances <tt src={/class-icons/jianghu/lynn/peck-1.png} tip={Peck (2nd Job)}> resulting in a stronger attack that damages nearby enemies",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "[Focus] Awaken",
+                    "shortDesc": "MP Cost: 1300, grants +10% Final Damage to the Focal Target for 20 sec, which scales based on your INT stat.\\nHowever, if there are less than 2 party members (including yourself), the Final Damage increase is halved by 50%.\\n(Final Damage increases by 1% per 2000 INT, up to 60%)\\nResonant: When used on the Focal Target, you gain the Resonant Awaken effect.\\nResonant Awaken: Increase your Final Damage by 10%, which scales based on your INT stat.\\n(Final Damage increases by 1% per 2000 INT, up to 30%)\\nAfter using the skill, all party members gain Exhaust for 20 sec.\\nExhaust: Prevents the use of Awaken if you or the Focal Target have the Exhaust effect\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/jianghu/lynn/focus-awaken.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWxrc2VkMWVrbXpvemcweXAxaG11NmV2M2VxOHNxejhucDF0dm9jYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dz37hAFGeVj2sO7fmG/giphy.gif"],
+                    "type": "Focus Buff",
+                    "desc": "When used, grants a %Final Damage (increases by +1% for every 2000 INT, up to 60%) buff to Focal Target and \"Exhaust\" to all party members",
+                    "details": [
+                        "Skill has different effects depending on:<bp_[Two or more party members]: When Focal Target is not yourself, grants you [Resonant: Awaken] that increases %Final Damage (increases by 1% per 2000 INT, up to 30%)_[One or fewer party members]: Reduces amount of %Final Damage granted by skill by 50%_>",
+                        "[Exhaust]: Cannot receive the effects of Awaken again for a set time",
+                        "Does not stack with Bishop's <tt src={/class-icons/explorers/bishop/benediction.png} tip={Benediction (5th Job, Bishop)}> Benediction<bp_Awaken's effects are always prioritized_>"
+                    ]
+                },
+                {
+                    "name": "Nature's Grace",
+                    "shortDesc": "MP Cost: 500. Immediately restores 100% of Max HP to all party members, grants you the [Excess Healing] effect for 20 sec\\n[Excess Healing]: Your healing can now restore up to 200% of Max HP instead of the usual 100%, helaing that exceeds the usual 100% amount becomes a shield\\nThe shield disappears when the [Excess Healing] effect ends\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/jianghu/lynn/natures-grace.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGV0d293d3ZneHAxMGYwYzJlemNmaG9tYzRhdnRqZGM4MmZseWlveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DZ1nwm4ZDG177gbPDr/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "When used, restores %Max HP and grants all party members the buff 'Excess Healing'",
+                    "details": [
+                        "[Excess Healing]: Healing from caster that exceeds Max HP becomes a shield"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Strike Boost",
+                    "shortDesc": "Strike Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/lynn/strike-4.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Peck Boost",
+                    "shortDesc": "Peck Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/lynn/peck-3.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sneak Boost",
+                    "shortDesc": "Sneak Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/lynn/sneak-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Earth Pulverization and Roar Boost",
+                    "shortDesc": "Earth Pulverization and Roar Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/lynn/earth-pulverization.png", "/class-icons/jianghu/lynn/roar.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sweep and Whirlwind Boost",
+                    "shortDesc": "Sweep and Whirlwind Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/lynn/sweep.png", "/class-icons/jianghu/lynn/whirlwind.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Predator's Blow and Raid Boost",
+                    "shortDesc": "Predator's Blow and Raid Final Damage: +120%",
+                    "icons": ["/class-icons/jianghu/lynn/predators-blow.png", "/class-icons/jianghu/lynn/raid.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-strike.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/jianghu/lynn/strike-1.png} tip={Strike (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Strike",
+                    "shortDesc": "MP Cost: 55, Max Enemies Hit: 7, Damage: 485%, Number of Attacks: 6",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-strike.png", "/class-icons/jianghu/lynn/strike-1.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tjM21sZ2F1cnJuZ3o5MmUzamt5OWVjNHR6bDdqeTFvZDlpenQwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GEZey2xlxDHq9e4amZ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-sneak-attack-raid.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/jianghu/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}> <tt src={/class-icons/jianghu/lynn/predators-blow.png} tip={Predator's Blow and Raid (4th Job / Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Sneak Attack",
+                    "shortDesc": "MP Cost: 170, Spirit Guide [Paeon] prepares a powerful sneak attack. If another Spirit Guide skill deals damage to the enemy, Spirit Guide [Paeon] uses his sneak attack on that enemy to deal 1280% damage to up to 6 enemies nearby, an additional 8 times.\\nHEXA Sneak Attack Cooldown: 2 sec.",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-sneak-attack.png", "/class-icons/jianghu/lynn/sneak-attack.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTUyNGV5M3JmbDA2djJxNm9pem5qcGpyZTQ2NjNzdzV1bndiZ2x2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t3d1FXWtB19t1hPcyJ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Raid",
+                    "shortDesc": "MP Cost: 260, Max Enemies Hit: 8, Damage: 2880%, Number of Attacks: 15\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-raid.png", "/class-icons/jianghu/lynn/raid.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMThmYWUxYzBoZ25pZjI4dnc2bXZtdXdzcXlhMHp3MnZ4b3Y4NGx2ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P2LlwbpjlelYWJ9PpO/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-peck.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/jianghu/lynn/peck-3.png} tip={Peck (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Peck",
+                    "shortDesc": "MP Cost: 510, Penni automatically attacks enemies - Damage: 1600%, Number of Attacks: 6",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-peck.png", "/class-icons/jianghu/lynn/peck-1.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWMxMmt3YzM0Mmt2dGk2bG81MmEwbm9md2sxM2hxc3BtdzR3aHZhZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g4scm4H8CefOxINHsT/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-heal-forest-protection-mother-natures.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "No V Matrix requirements are needed to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA [Focus] Heal",
+                    "shortDesc": "MP Cost: 35, the current Focal Target recovers 20% of Max HP every second for 70 sec\\nResonant: You gain Resonant: HEXA Heal when the skill is used on the Focal Target.\\nResonant: HEXA Heal: Recovers 15% of Max HP every second for 50 sec\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-focus-heal.png", "/class-icons/jianghu/lynn/focus-heal.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGE0YzF4ajZmeW55YzlyeDI2enlvMmQybnI4dWVmNTltdXUyNWZkYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NWxc9D6MBSrS3ATmyo/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Focus] Forest Protection",
+                    "shortDesc": "MP Cost: 690. Creates a protective zone at the location of the current Focal Target for 40 sec, grants a damage reduction and Fatal Damage Negation buff to all party members within the protective zone\\nDamage Reduction: Reduces damage taken by 35% (including percentage HP attacks)\\nFatal Damage Negation: Protects from one KO\\nParty Members that receive Fatal Damage Negation cannot receive it again for 240 sec.\\nResonant: You gain Resonant: HEXA Forest Protection when the skill is used on the Focal Target.\\nResonant: HEXA Forest Protection: Damage taken, including attacks that deal damage proportional to Max HP, is reduced by 25% for 20 sec\\n(The damage taken reduction does not stack with Forest Protection's damage taken reduction. Only the higher value between the two effects will apply.)\\nCooldown: 240 sec",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-focus-forest-protection.png", "/class-icons/jianghu/lynn/focus-forest-protection.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG8zbzNmeXJvNHU2NWxxanM1ZzJieWVxdDFsdTc0czB1NXhlN2xmNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MaONigtvIEJMa9H9QN/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Mother Nature's Touch",
+                    "shortDesc": "MP Cost: 260. Affects all party members on the same map - Removes all harmful effects, immediately restores 100% of Max HP, heals 10% HP every second for 30 sec, grants Damage Reduction.\\nDamage Reduction: Reduces damage taken by 10% (including percentage HP attacks)\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/jianghu/lynn/hexa-mother-natures-touch.png", "/class-icons/jianghu/lynn/mother-natures-touch.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJwOWtrd2MyaWtidjNsNTdxc2lxMWVvdnRidDh4enBkd2NzaGI5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B79zFqM1KxfELBmoQB/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Source Flow",
+                    "shortDesc": "MP Cost: 1500, Invincible during casting\\nMax Enemies Hit: 15, Damage: 1080%, Number of Attacks: 12, Spirit Guide Activations: 54\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/jianghu/lynn/source-flow.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnRtanFuZ2xhMWd4OGN6dXh1Y3V3cGJ3d3N5ZGtkNWxoeWNvbjAzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qTmQLDMVY9Oh06P1YB/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Wild Hunt",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nReleases 12 chase cuts, dealing 3815% damage to up to 15 enemies 12 times\\nAfterwards, attacks enemies with 23 final strikes, dealing 4655% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/jianghu/lynn/wild-hunt.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2JycjUxaHlpcnM2NDJiNjRocHhxd3VlOWFpMzZmMDZ4dnIxMnQ1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZMbEknMsUwwVdMVanw/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Beast's Rage Boost",
+                    "shortDesc": "Beast's Rage Final Damage: +60%",
+                    "icons": ["/class-icons/jianghu/lynn/beasts-rage.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Beak Strike Boost",
+                    "shortDesc": "Beak Strike Final Damage: +60%",
+                    "icons": ["/class-icons/jianghu/lynn/beak-strike.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "[Focus] Awaken Boost",
+                    "shortDesc": "Using [Focus] Awaken increases the Focal Target's Final Damage by an additional 15%, increases Resonant: Awaken Final Damage by an additional 15%\\nPassive Effect - All Stats: +90",
+                    "icons": ["/class-icons/jianghu/lynn/focus-awaken.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Nature's Grace Boost",
+                    "shortDesc": "Immediate Healing increased to 110%, [Excess Healing] increased to 210% of Max HP, Duration increased to 25 sec\\nPassive Effect - All Stats: +90",
+                    "icons": ["/class-icons/jianghu/lynn/natures-grace.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Strike - 1st Job",
+                "icons": ["/class-icons/jianghu/lynn/strike-4.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdlMHJpaDA2OGhnYWl4N3pyeHJwOHBvcTMzMXl1M3Y2bWI2aTdrdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f9bPbiFiOdwEqNdDsX/giphy.gif"]
+            },
+            {
+                "name": "Peck - 2nd Job",
+                "icons": ["/class-icons/jianghu/lynn/peck-3.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFmNTM2N2htanZ6Ynd5c3l3ZWpkM2V3dWxkaTVtYWY2bWgycnpteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iRYvsdJ4Pq2Velz7lc/giphy.gif"]
+            },
+            {
+                "name": "Earth Pulverization - 3rd Job",
+                "icons": ["/class-icons/jianghu/lynn/earth-pulverization.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNteDhsZjR6d2Y0NXVzamFmbDY0NDZxb3hhMmJhNHZ4aGswNHZ3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sBwXzmnqnfimGeHEud/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Sneak Attack - 3rd Job",
+                "icons": ["/class-icons/jianghu/lynn/sneak-attack.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVxeXNvMHUxMDhuc2syZnFldzBpeTZ3eTh6Y3BjdG5kNGllZ3lmdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/V1tXu5cYociC9YOPmN/giphy.gif"]
+            },
+            {
+                "name": "Roar - 4th Job ",
+                "icons": ["/class-icons/jianghu/lynn/roar.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExem5qYzdkbHBiYmdlbTg2NHA1YzNtMGk1enpsdnE4OGd6c3RtOGFocCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/boh6UnlXXKnqGEGfpL/giphy.gif"]
+            },
+            {
+                "name": "Raid - Hyper Skill",
+                "icons": ["/class-icons/jianghu/lynn/raid.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3hjNWtrbnYwY3hud2E4a2R4Ym45cWlvM3hjcDBsc3hxNm9qMTJmZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IjJnHDEBqNW3N9tRb4/giphy.gif"]
+            },
+            {
+                "name": "Beast's Rage - 5th Job",
+                "icons": ["/class-icons/jianghu/lynn/beasts-rage.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzlsZGMzdnl3b2VyMGIzM3dhcGMxOTJ3OHF0eXZoanU2NXhsbHZtNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tCQyy2jwJcMvNIY57w/giphy.gif"]
+            },
+            {
+                "name": "Beak Strike - 5th Job",
+                "icons": ["/class-icons/jianghu/lynn/beak-strike.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHlvOTczdXp0MTlqMnF4bzVoYWN3b21jb2R2MGM5b2s3bXRkdHB1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bYZwwW6ADstW0UotZm/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Source Flow - 6th Job",
+                "icons": ["/class-icons/jianghu/lynn/source-flow.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnRtanFuZ2xhMWd4OGN6dXh1Y3V3cGJ3d3N5ZGtkNWxoeWNvbjAzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qTmQLDMVY9Oh06P1YB/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Lynn is an INT mage class part of the Jianghu. Lynn utilize Memorial Staff as their primary weapons. For their secondary weapon, Lynn can equip Leaves and Shields"
+}

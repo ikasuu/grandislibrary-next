@@ -1,0 +1,1375 @@
+{
+    "class": "Evan",
+    "content": {
+        "classGroup": "Heroes",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Chance to recover %Max MP while attacking (10s cd)",
+        "legionValue": "2/4/6/8/10% - 70% Chance",
+        "equipment": [
+            {"weapon": ["wand", "staff"]},
+            {"secondary": ["mageShield", "document"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Chance to Skip Cooldown +10%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "6(7)",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/heroes/evan/agile-magic.png} tip={Agile Magic (2nd Job)} val={+2}> <bg type={temp} src={/class-icons/heroes/evan/return-dive.png} tip={Return Dive (3rd Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/heroes/evan/magic-mastery.png} tip={Magic Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+70(125) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/heroes/evan/inherited-will.png} tip={Inherited Will (Beginner Skill)} val={+10}> <bg src={/class-icons/heroes/evan/agile-magic.png} tip={Agile Magic (2nd Job)} val={+20}> <bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+55}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+29% +160(185)",
+                "detail": "<bg src={/class-icons/heroes/evan/dragon-fury.png} tip={Dragon Fury (4th Job)} val={+25%}> <bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/heroes/evan/inherited-will.png} tip={Inherited Will (Beginner Skill)} val={+10}> <bg src={/class-icons/heroes/evan/magic-link.png} tip={Magic Link (1st Job)} val={+20}> <bg src={/class-icons/heroes/evan/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+10}> <bg src={/class-icons/heroes/evan/blessing-of-the-onyx.png} tip={Blessing of the Onyx (4th Job)} val={+40}> <bg src={/class-icons/heroes/evan/magic-mastery.png} tip={Magic Mastery (4th Job)} val={+45}> <bg src={/class-icons/heroes/evan/spiral-of-mana.png} tip={Spiral of Mana - Passive (5th Job)} val={+35}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+50%(55%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/heroes/evan/critical-magic.png} tip={Critical Magic (3rd Job)} val={+30%}> <bg type={def} sub={opt} src={/class-icons/heroes/evan/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+15% & +5% when wand is equipped}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+37%",
+                "detail": "<bg src={/class-icons/heroes/evan/critical-magic.png} tip={Critical Magic (3rd Job)} val={+17%}> <bg src={/class-icons/heroes/evan/magic-mastery.png} tip={Magic Mastery (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+5%(55%)",
+                "detail": "<bg src={/class-icons/link-skills/rune-persistence.png} tip={Rune Persistence (Link Skill)} val={+5%}> <bg type={temp} src={/class-icons/heroes/evan/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/heroes/evan/partners.png} tip={Partners (2nd Job)} val={+20% while Mir is attacking}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+19%(44%)",
+                "detail": "<bg src={/class-icons/heroes/evan/high-dragon-potential.png} tip={High Dragon Potential (4th Job)} val={+19%}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+68.74%(118.69%)",
+                "detail": "<bg src={/class-icons/heroes/evan/elemental-decrease.png} tip={Elemental Decrease - Final Damage (3rd Job)} val={+18%}> × <bg src={/class-icons/heroes/evan/magic-amplification.png} tip={Magic Amplification (3rd Job)} val={+30%}> × <bg type={debuff} src={/class-icons/heroes/evan/return-flash.png} tip={Return Flash (2nd Job)} val={+10%}> × <bg type={temp} src={/class-icons/heroes/evan/elemental-barrage.png} tip={Elemental Barrage (5th Job)} val={+5% per element cycled} val={(Max. +20%)}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/heroes/evan/dragon-potential.png} tip={Dragon Potential (3rd Job)} val={+20%}>"
+            },
+            {
+                "name": "Ignore Elemental Resistance",
+                "stat": "+10%",
+                "detail": "<bg src={/class-icons/heroes/evan/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+10%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/heroes/evan/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} dur={[180s]}> <tt src={/class-icons/heroes/evan/blessing-of-the-onyx.png} tip={Blessing of the Onyx (4th Job)} dur={[180s]}> <tt src={/class-icons/heroes/evan/return-dive.png} tip={Return Dive (3rd Job)} dur={[60s]}>",  
+            "toggles": "<tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",  
+            "summons": "<tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Mir Fusion Skills} dur={(Mir Fusion Skills)}> <tt src={/class-icons/heroes/evan/summon-onyx-dragon.png} tip={Summon Onyx Dragon (Hyper Skill)} dur={[30s](60s cd)}> <tt src={/class-icons/heroes/evan/elemental-radiance.png} tip={Elemental Radiance (5th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/heroes/evan/spiral-of-mana.png} tip={Spiral of Mana (5th Job)} dur={[20s]}>",  
+            "buffCd": "<tt src={/class-icons/heroes/evan/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s per stack](240s cd, 25s cd between each stack)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",  
+            "binds": "<tt src={/class-icons/heroes/evan/zodiac-burst.png} tip={Zodiac Burst (6th Job)} dur={[10s](360s cd)}>",  
+            "iFrame": "<tt src={/class-icons/heroes/evan/dragon-master.png} tip={Dragon Master (Hyper Skill)} dur={[Up to 10s & 1s after skill end](240 - 80s cd based on remaining duration)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s](240s cd)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/heroes/evan/zodiac-burst.png} tip={Zodiac Burst (6th Job)} dur={(360s cd)}>"
+        },        
+        "linkSkill": {
+            "id":80000369,
+            "icons": ["/class-icons/link-skills/rune-persistence.png"],
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/heroes/evan/magic-guard.png} tip={Magic Guard}> -> <tt src={/class-icons/heroes/evan/teleport.png} tip={Teleport}> -> <tt src={/class-icons/heroes/evan/dragon-spark.png} tip={Dragon Spark}> -> <tt src={/class-icons/heroes/evan/dragon-soul.png} tip={Dragon Soul}> -> <tt src={/class-icons/heroes/evan/magic-link.png} tip={Magic Link}> -> <tt src={/class-icons/heroes/evan/mana-burst-i.png} tip={Mana Burst I}>"],
+                ["2nd Job", "<tt src={/class-icons/common/high-wisdom.png} tip={High Wisdom}> -> <tt src={/class-icons/heroes/evan/wind-jump.png} tip={Wind Jump}> -> <tt src={/class-icons/heroes/evan/spell-mastery.png} tip={Spell Mastery}> -> <tt src={/class-icons/heroes/evan/agile-magic.png} tip={Agile Magic}> -> <tt src={/class-icons/heroes/evan/mana-burst-ii.png} tip={Mana Burst II}> -> <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash}> -> <tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Circle}>"],
+                ["3rd Job", "<tt src={/class-icons/heroes/evan/magic-amplification.png} tip={Magic Amplification}> -> <tt src={/class-icons/heroes/evan/magic-resistance.png} tip={Magic Resistance}> -> <tt src={/class-icons/heroes/evan/critical-magic.png} tip={Critical Magic}> -> <tt src={/class-icons/heroes/evan/elemental-decrease.png} tip={Elemental Decrease}> -> <tt src={/class-icons/heroes/evan/dragon-potential.png} tip={Dragon Potential}> -> <tt src={/class-icons/heroes/evan/mana-burst-iii.png} tip={Mana Burst III}> -> <tt src={/class-icons/heroes/evan/dragon-dive.png} tip={Dragon Dive}> -> <tt src={/class-icons/heroes/evan/thunder-circle.png} tip={Thunder Circle}> -> <tt src={/class-icons/heroes/evan/magic-debris.png} tip={Magic Debris}>"],
+                ["4th Job", "<tt src={/class-icons/heroes/evan/dark-fog.png} tip={Dark Fog}> -> <tt src={/class-icons/heroes/evan/magic-mastery.png} tip={Magic Mastery}> -> <tt src={/class-icons/heroes/evan/dragon-fury.png} tip={Dragon Fury}> -> <tt src={/class-icons/heroes/evan/onyx-will.png} tip={Onyx Will}> -> <tt src={/class-icons/heroes/evan/high-dragon-potential.png} tip={High Dragon Potential}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/heroes/evan/blessing-of-the-onyx.png} tip={Blessing of the Onyx}> -> <tt src={/class-icons/heroes/evan/mana-burst-iv.png} tip={Mana Burst IV}> -> <tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath}> -> <tt src={/class-icons/heroes/evan/earth-circle.png} tip={Earth Circle}> -> <tt src={/class-icons/heroes/evan/enhanced-magic-debris.png} tip={Enhanced Magic Debris}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "[For Both]<bp_<tt src={/class-icons/heroes/evan/speedy-dragon-flash.png} tip={Speedy Dragon Flash}> Speedy Dragon Flash_<tt src={/class-icons/heroes/evan/speedy-dragon-dive.png} tip={Speedy Dragon Dive}> Speedy Dragon Dive_<tt src={/class-icons/heroes/evan/speedy-dragon-breath.png} tip={Speedy Dragon Breath}> Speedy Dragon Breath_>[For Bossing]<bp_<tt src={/class-icons/heroes/evan/rolling-thunder.png} tip={Rolling Thunder}> Rolling Thunder_<tt src={/class-icons/heroes/evan/earth-shattering-dive.png} tip={Earth-Shattering Dive}> Earth-Shattering Dive_>[For Training]<bp_<tt src={/class-icons/heroes/evan/howling-wind.png} tip={Howling Wind}> Howling Wind_<tt src={/class-icons/heroes/evan/lungs-of-stone.png} tip={Lungs of Stone}> Lungs of Stone_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Circle, Wind Flash, and Wind Breath (2nd Job)}> <tt src={/class-icons/heroes/evan/earth-circle.png} tip={Earth Circle, Earth Breath, and Earth Dive (4th Job)}> <tt src={/class-icons/heroes/evan/thunder-circle.png} tip={Thunder Circle, Thunder Flash, and Thunder Dive (3rd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/heroes/evan/mana-burst-i.png} tip={Mana Burst (1st - 4th Job)}> <tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath and Return Flame (4th Job)}> <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}>"],
+                    ["Tertiary Trio", "<tt src={/class-icons/heroes/evan/dragon-spark.png} tip={Dragon Spark (1st Job)}> <tt src={/class-icons/heroes/evan/dragon-dive.png} tip={Dragon Dive (3rd Job)}> <tt src={/class-icons/heroes/evan/magic-debris.png} tip={Magic Debris (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3,4,5],
+            "nodes": [
+                "<tt src={/class-icons/heroes/evan/mana-burst-i.png} tip={Mana Burst (1st - 4th Job)}>",
+                "<tt src={/class-icons/heroes/evan/thunder-circle.png} tip={Thunder Circle, Thunder Flash, and Thunder Dive (3rd Job)}>",
+                "<tt src={/class-icons/heroes/evan/earth-circle.png} tip={Earth Circle, Earth Breath, and Earth Dive (4th Job)}>",
+                "<tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Circle, Wind Flash, and Wind Breath (2nd Job)}>",
+                "<tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath and Return Flame (4th Job)}> <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}> <tt src={/class-icons/heroes/evan/dragon-dive.png} tip={Dragon Dive (3rd Job)}> <tt src={/class-icons/heroes/evan/dragon-master.png} tip={Dragon Master (Hyper Skill)}>",
+                "<tt src={/class-icons/heroes/evan/summon-onyx-dragon.png} tip={Summon Onyx Dragon (Hyper Skill)}> <tt src={/class-icons/heroes/evan/dark-fog.png} tip={Dark Fog (4th Job)}> <tt src={/class-icons/heroes/evan/magic-debris.png} tip={Magic Debris (3rd Job)}> <tt src={/class-icons/heroes/evan/dragon-spark.png} tip={Dragon Spark (1st Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Evan"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%97%90%EB%B0%98(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/5BfVGGD"},
+            {"title": "Class Doc", "link": "https://sites.google.com/view/evanandmir"}
+        ],
+        "specialThanks": "Special thanks to Evanovation for their help in making this overview!",
+        "discord": "https://discord.gg/5BfVGGD",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build + Infographic", "Evanovation"]
+        ],
+        "infographics": [
+            {
+                "src": "evan/evan-overview.png",
+                "title": "Overview",
+                "credit": "Evanovation",
+                "date": "2026-05-25"
+            },
+            {
+                "src": "evan/evan-6th-job.png",
+                "title": "6th Job",
+                "credit": "Evan Discord",
+                "date": "2026-06-25"
+            }
+        ],
+        "extraContent": {
+            "title": "Fusion Skills",
+            "content": [
+                "Fusion Skills are passive attacks that trigger whenever you combine your attack with Mir's attack. Additionally, Mir's Skills and Fusion Attacks are not affected by Attack Speed increases and will not trigger Damage Reflect.",
+                "Below is a list of skills that will trigger Fusion Skills:",
+                "<tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}> Dragon Flash (2nd Job) +",
+                "<bp_<tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Circle (2nd Job)}> Wind Circle (2nd Job) = <tt src={/class-icons/heroes/evan/wind-flash.png} tip={Wind Flash (2nd Job)}> Wind Slash (2nd Job)_<tt src={/class-icons/heroes/evan/thunder-circle.png} tip={Thunder Circle (3rd Job)}> Thunder Circle (3rd Job) = <tt src={/class-icons/heroes/evan/thunder-flash.png} tip={Thunder Flash (3rd Job)}> Thunder Flash (3rd Job)_<tt src={/class-icons/heroes/evan/return.png} tip={Return! (2nd Job)}> Return! effect: <tt src={/class-icons/heroes/evan/return-flash.png} tip={Return Flash (2nd Job)}> Return Flash (2nd Job)_>",
+                "<tt src={/class-icons/heroes/evan/dragon-dive.png} tip={Dragon Dive (3rd Job)}> Dragon Dive (3rd Job) +",
+                "<bp_<tt src={/class-icons/heroes/evan/thunder-circle.png} tip={Thunder Circle (3rd Job)}> Thunder Circle (3rd Job) = <tt src={/class-icons/heroes/evan/thunder-dive.png} tip={Thunder Dive (3rd Job)}> Thunder Dive (3rd Job)_<tt src={/class-icons/heroes/evan/earth-circle.png} tip={Earth Circle (4th Job)}> Earth Circle (4th Job) = <tt src={/class-icons/heroes/evan/earth-dive.png} tip={Earth Dive (4th Job)}> Earth Dive (4th Job)_<tt src={/class-icons/heroes/evan/return.png} tip={Return! (2nd Job)}}> Return! effect: <tt src={/class-icons/heroes/evan/return-dive.png} tip={Return Dive (3rd Job)}> Return Dive (3rd Job)_>",
+                "<tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath (4th Job)}> Dragon Breath (4th Job) +",
+                "<bp_<tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Circle (2nd Job)}> Wind Circle (2nd Job) = <tt src={/class-icons/heroes/evan/earth-circle.png} tip={Wind Breath (4th Job)}> Wind Breath (4th Job)_<tt src={/class-icons/heroes/evan/earth-circle.png} tip={Earth Circle (4th Job)}> Earth Circle (4th Job) = <tt src={/class-icons/heroes/evan/earth-breath.png} tip={Earth Breath (4th Job)}> Earth Breath (4th Job)_<tt src={/class-icons/heroes/evan/return.png} tip={Return! (2nd Job)}> Return! effect: <tt src={/class-icons/heroes/evan/return-dive.png} tip={Return Flame (4th Job)}> Return Flame (4th Job)_>",
+                "<tt src={/class-icons/heroes/evan/dragon-slam.png} tip={Dragon Slam (5th Job)}> Dragon Slam (5th Job) +",
+                "<bp_<tt src={/class-icons/heroes/evan/elemental-barrage.png} tip={Elemental Barrage (5th Job)}> Elemental Barrage (5th Job) = <tt src={/class-icons/heroes/evan/wyrmkings-breath.png} tip={Wyrmking's Breath (5th Job)}> Wyrmking's Breath (5th Job)_<tt src={/class-icons/heroes/evan/return.png} tip={Return! (2nd Job)}> Return! effect: <tt src={/class-icons/heroes/evan/ludicrous-speed.png} tip={Ludicrous Speed (5th Job)}> Ludicrous Speed (5th Job)_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Rune Persistence",
+                    "shortDesc": "Liberated Rune Power Duration: +70%, Damage: +5%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/rune-persistence.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/2RjyULQZ95a71xtxnJ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/yOt9Pd51ZRxYBF752b/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/We72ZXxzE2nbiB030s/giphy.gif"],
+                    "type": "Buff"
+                },    
+                {
+                    "name": "Inherited Will",
+                    "shortDesc": "Permanently increases Magic ATT by 10 and All Stats by 10",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/inherited-will.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Gained from completing Arkarium storyline/pre-quests"
+                    ]
+                },
+                {
+                    "name": "Back to Nature",
+                    "shortDesc": "MP Cost: 100, Moves you to your Front Yard.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/back-to-nature.png"],
+                    "animations": ["https://media3.giphy.com/media/6nKp3gkjf3ZjTEz4Aj/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1hZTBhdzB3ZWkyamhhYmt5Nzl6OXJ5dTlydW96bW0xazE2YmtiYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1P3wpuLn6LXRB0oalZ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/7/Hero%27s_Succession} title={\"Hero's Succession\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Mana Burst I",
+                        "shortDesc": "MP Cost: 24, Damage: 150%, Number of Attacks: 2, Max Enemies Hit: 4",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/mana-burst-i.png"],
+                        "animations": ["https://media.giphy.com/media/Qu6hb2NMh8JFWb6SLq/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a burst of magic in front of you"
+                    },
+                    {
+                        "name": "Teleport",
+                        "shortDesc": "MP Cost: 22, Teleport Horizontal Range: 275, Teleport Vertical Range: 320",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/teleport.png"],
+                        "animations": ["https://media.giphy.com/media/RkbLonl1kvGDtiB6RO/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleport in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "name": "Magic Guard",
+                        "shortDesc": "MP Cost: 30, Damage Taken (while active): -10%, Damage Displaced: 85% of your MP",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/magic-guard.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dragon Soul",
+                        "shortDesc": "Permanently increases DEF by 145 and Speed by 22, and Max Speed by 20.\\nMP Absorb Chance: 15%, Amount Absorbed: 5% of Max MP, Amount Absorbed: 3% of the boss's Max MP",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/dragon-soul.png"],
+                        "type": "Passive",
+                        "desc": "Grants DEF, Movement Speed, and a chance for attacks to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Effectiveness is reduced for bosses"
+                        ]
+                    },
+                    {
+                        "name": "Magic Link",
+                        "shortDesc": "Permanently increases Max MP: +20%, MP increases by 120 per level, Magic ATT: +20",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/heroes/evan/magic-link.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dragon Spark",
+                        "shortDesc": "[Final Attack Skills] Chance: 40%, Damage: 100%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/dragon-spark.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Whenever you attack, Mir has a chance to deal an additional attack as well"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Mana Burst II",
+                        "shortDesc": "MP Cost: 30, Damage: 130%, Number of Attacks: 3, Max Enemies Hit: 5",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/mana-burst-ii.png", "/class-icons/heroes/evan/mana-burst-i.png"],
+                        "animations": ["https://media.giphy.com/media/J67nsNvyqxbLgBqz5O/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage, number of hits, and max enemies hit"
+                        ]
+                    },
+                    {
+                        "name": "Wind Circle",
+                        "shortDesc": "MP Cost: 40. Knocks back up to 6 enemies, dealing 108% damage 5 times\\nCasting Wind Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Wind Circle, or casting Wind Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/wind-circle.png"],
+                        "animations": ["https://media.giphy.com/media/f7Aic4eTu558RcZxJX/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast a gust of wind that pushes enemies"
+                    },
+                    {
+                        "name": "Dragon Flash",
+                        "shortDesc": "MP Cost: 60, Damage: 95%, Number of Attacks: 4, Max Enemies Hit: 8, Duration: 3.5 sec\\nCooldown: 8 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/dragon-flash.png"],
+                        "animations": ["https://media.giphy.com/media/jsGtNZGTxAkKrownNx/giphy.gif"],
+                        "type": "Mir Attack",
+                        "desc": "Mir dashes back and forth damaging enemies that pass through",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Return Flash",
+                        "shortDesc": "Max Monsters Cursed: 8, amplifies Final Damage of magic attack skills by 10%, Duration 60 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/return-flash.png"],
+                        "animations": ["https://media.giphy.com/media/kfFtxflavhbBfiI4Dz/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Debuffs nearby enemies",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}>",
+                            "[Debuff]: Enemy takes increased %Final Damage from magic attacks"
+                        ]
+                    },
+                    {
+                        "name": "Wind Flash",
+                        "shortDesc": "MP Cost: 60, Max Enemies Hit: 3, Damage: 55%, Number of Attacks: 2, Number of Wind Blades: 3, Duration: 3.5 sec\\nNormal Enemy Damage: +75% points\\nWhen many wind blades hit 1 enemy, final damage of wind blade is reduced by 35%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/wind-flash.png"],
+                        "animations": ["https://media.giphy.com/media/f61j8J7JnzwCbzkAth/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Mir creates blades of wind that seek and attack nearby enemies",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}>",
+                            "Deals increased %Damage to Regular Monsters by a flat amount",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Return!",
+                        "shortDesc": "Immediately calls Mir, mid-fight.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/evan/return.png"],
+                        "type": "Active",
+                        "desc": "Command Mir to immediately return if Mir is actively attacking",
+                        "details": [
+                            "Grants a special effect depending on what skill Mir was using"
+                        ]
+                    },
+                    {
+                        "name": "Agile Magic",
+                        "shortDesc": "Attack Speed: +2, INT: +20",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/agile-magic.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Wind Jump",
+                        "shortDesc": "MP Cost: 18, jump in mid-air to go farther.\\nCan teleport once without a platform before landing.",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/heroes/evan/wind-jump.png"],
+                        "animations": ["https://media.giphy.com/media/KEAC9vsbKCpcw1LtRu/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Jumps upwards",
+                        "details": [
+                            "Can be activated by pressing the Up Arrow Key and Jump Key while in the air",
+                            "After using the skill, you can cast <tt src={/class-icons/heroes/evan/teleport.png} tip={Teleport (1st Job)}> once before landing"
+                        ]
+                    },
+                    {
+                        "name": "High Wisdom",
+                        "shortDesc": "INT: +40",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/high-wisdom.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Partners",
+                        "shortDesc": "When using Mir skills, Duration: 5 sec, Evan's Damage: +20%\\n[Passive Effect: Knockback Resistance +30%]",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/evan/partners.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: +50%, Critical Rate: +15%, Magic ATT: +10, Critical Rate (wand equipped): 5%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/spell-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Advanced Dragon Spark",
+                        "shortDesc": "[Final Attack Skills] Chance: 100%, Damage: 150%",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/evan/advanced-dragon-spark.png", "/class-icons/heroes/evan/dragon-spark.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage"
+                        ]
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Mana Burst III",
+                        "shortDesc": "MP Cost: 37, Damage: 150%, Number of Attacks: 4, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/mana-burst-iii.png", "/class-icons/heroes/evan/mana-burst-i.png"],
+                        "animations": ["https://media.giphy.com/media/UqYkZXtnFskBOF6yrb/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage, number of hits, and max enemies hit"
+                        ]
+                    },
+                    {
+                        "name": "Thunder Circle",
+                        "shortDesc": "MP Cost: 48, Max Enemies Hit: 8, Damage: 170%, Number of Attacks: 5\\nCasting Thunder Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Thunder Circle, or casting Thunder Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/thunder-circle.png"],
+                        "animations": ["https://media.giphy.com/media/VdL6ASb87JJSYljaIr/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast a spark of lightning around your character"
+                    },
+                    {
+                        "name": "Dragon Dive",
+                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 6, Damage: 130%, Number of Attacks: 3, Duration: 3.5 sec\\nCooldown: 8 sec\\n[Wind Circle] Damage: +62% points\\n[Dragon Flash] Damage: +50% points\\n[Wind Flash] Damage: +30% points\\n[Thunder Flash] Damage: +150% points",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/dragon-dive.png"],
+                        "animations": ["https://media.giphy.com/media/jOnKcyC7EXviHV0sxq/giphy.gif"],
+                        "type": "Mir Attack",
+                        "desc": "Mir dives to the ground and creates a shockwave around themselves",
+                        "details": [
+                            "[Passive]: Increases %Damage by a flat amount for the following skills: <tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Cirlce (2nd Job)}> <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}> <tt src={/class-icons/heroes/evan/wind-flash.png} tip={Wind Flash (2nd Job)}> <tt src={/class-icons/heroes/evan/thunder-flash.png} tip={Thunder Flash (3rd Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Return Dive",
+                        "shortDesc": "Duration: 60 sec, Attack Speed of you and nearby party members: +1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/return-dive.png"],
+                        "animations": ["https://media.giphy.com/media/S5W5W1IhxTWRoSXl4P/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Grants nearby party members increased Attack Speed (by 1 stage)",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-dive.png} tip={Dragon Dive (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Thunder Flash",
+                        "shortDesc": "MP Cost: 70, Damage (per Crash): 400%, Number of Attacks: 9, Max Enemies Hit: 8\\nFinal Damage of crash decreases by 60% every time the same enemy is attacked repeatedly",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/thunder-flash.png"],
+                        "animations": ["https://media.giphy.com/media/KB2HAjZRxaU4azHUZ8/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Mir dashes multiple times in the shape of a star",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}>",
+                            "Enemies attacked repeatedly take reduced %Final Damage from the attack",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Thunder Dive",
+                        "shortDesc": "MP Cost: 70, Creates orbs that attack in set intervals. Duration: 4 sec., Damage: 135%, Number of Orbs: 4\\nOrbs disappear after hitting enemies or after a set time",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/thunder-dive.png"],
+                        "animations": ["https://media.giphy.com/media/U1h23UNqPFOybeNEyW/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Dragon Dive now instead creates orbs of lightning that damages enemies",
+                        "details": [
+                            "Orbs disappear upon hitting an enemy or after a set time",
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-dive.png} tip={Dragon Dive (3rd Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Elemental Decrease",
+                        "shortDesc": "MP Cost: 53, Elemental Attribute Resistance: -10%, Duration: 180 sec\\n[Passive : Final damage +18%]",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/heroes/evan/elemental-decrease.png"],
+                        "animations": ["https://media1.giphy.com/media/DxotdC17AUlNPCqNR9/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Magic Debris",
+                        "shortDesc": "Amount of Debris Created: 1, Debris Formation Cooldown: 0.6 sec, Maximum Debris Limit: 15, MP Cost: 100, Maximum Enemies Hit: 15, Damage: 70%, Number of Hits: 1, Damage: +40% points (for every 5 debris), unactivated debris disappears after a set time\\nIn Auto Mode, it is activated whenever 10 Magic Debris are created.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/magic-debris.png"],
+                        "animations": ["https://media1.giphy.com/media/yD3zBI5OmhMV3oE9sQ/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Enemies hit by Fusion Skills create [Magic Debris]",
+                        "details": [
+                            "Pressing the Skill Key activates the [Magic Debris] to seek and attack nearby enemies",
+                            "Unused [Magic Debris] disappear over time",
+                            "Right-clicking the skill will toggle ON/OFF Auto Mode where [Magic Debris] automatically activates upon creating a set number of [Magic Debris]"
+                        ]
+                    },
+                    {
+                        "name": "Critical Magic",
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +17%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/critical-magic.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Magic Resistance",
+                        "shortDesc": "Permanently increases Abnormal Status Resistance by 20 and Elemental Resistance by 25%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/magic-resistance.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Magic Amplification",
+                        "shortDesc": "MP Cost: +130%, Final Damage of Magic ATT: +30%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/magic-amplification.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dragon Potential",
+                        "shortDesc": "DEF Ignored Permanently: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/dragon-potential.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "Mana Burst IV",
+                        "shortDesc": "MP Cost: 42\\n[1st hit] Damage: 273%, Number of Attacks: 4, Max Enemies Hit: 8\\n[2nd hit] Max Enemies Hit: 8, Damage: 298%, Number of Attacks: 4",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/evan/mana-burst-iv.png", "/class-icons/heroes/evan/mana-burst-i.png"],
+                        "animations": ["https://media.giphy.com/media/TdEXJC2h2IDZabVZM1/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage, number of hits, and max enemies hit"
+                        ]
+                    },
+                    {
+                        "name": "Earth Circle",
+                        "shortDesc": "MP Cost: 58, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 5\\nCasting Earth Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Earth Circle, or casting Earth Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/earth-circle.png"],
+                        "animations": ["https://media.giphy.com/media/efDXDj43zAhxmzjo1X/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launch an earth pillar in front of you"
+                    },
+                    {
+                        "name": "Dragon Breath",
+                        "shortDesc": "MP Cost: 80, Max Enemies Hit: 8, Damage: 240%, Number of Attacks: 5, Duration: 3 sec\\nCooldown: 10 sec\\n[Wind Circle] Damage: +212% points\\n[Dragon Flash] Damage: +320% points\\n[Wind Flash] Damage: +160% points\\n[Thunder Flash] Damage: +745% points\\n[Thunder Circle] Damage: +150% points\\n[Dragon Dive] Damage: +195% points\\n[Thunder Dive] Damage: +210% points\\n[Earth Dive] Damage: +620% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/evan/dragon-breath.png"],
+                        "animations": ["https://media.giphy.com/media/VDAndH9bqmwK3k9A6J/giphy.gif"],
+                        "type": "Mir Attack",
+                        "desc": "Mir releases a breath of fire forward",
+                        "details": [
+                            "Unaffected by Damage Reflect",
+                            "Increases %Damage by a flat amount for the following skills: <tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Circle (2nd Job)}> <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}> <tt src={/class-icons/heroes/evan/wind-flash.png} tip={Wind Flash (2nd Job)}> <tt src={/class-icons/heroes/evan/thunder-flash.png} tip={Thunder Flash (3rd Job)}> <tt src={/class-icons/heroes/evan/thunder-circle.png} tip={Thunder Circle (3rd Job)}> <tt src={/class-icons/heroes/evan/dragon-dive.png} tip={Dragon Dive (3rd Job)}> <tt src={/class-icons/heroes/evan/thunder-dive.png} tip={Thunder Dive (3rd Job)}> <tt src={/class-icons/heroes/evan/earth-dive.png} tip={Earth Dive (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Return Flame",
+                        "shortDesc": "Max Enemies Hit: 8, Damage: 150%, Duration: 30",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/evan/return-flame.png"],
+                        "animations": ["https://media.giphy.com/media/dYrU5hr58GHo30dikW/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Scorches the ground below you damaging enemies that step in it",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath (4th Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Earth Breath",
+                        "shortDesc": "MP Cost: 80, Max Enemies Hit: 4, Damage: 280%, Number of Attacks: 6",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/evan/earth-breath.png"],
+                        "animations": ["https://media.giphy.com/media/XdPREOI3kProanvgNL/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Mir creates beams of fire that tethers onto enemies and damages them ",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath (4th Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Wind Breath",
+                        "shortDesc": "MP Cost: 80, Damage: 215%, Number of Attacks: 6, Max Enemies Hit: 8, Duration: 3.5 sec, Damage (enemies less than 30% health): +65% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/evan/wind-breath.png"],
+                        "animations": ["https://media.giphy.com/media/QBqM6hSmN3Lo2x8MZy/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Mir's breath becomes even stronger and deals additional %p Damage to enemies with less HP",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath (4th Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Earth Dive",
+                        "shortDesc": "MP Cost: 70, Forms rocks and 3 Crashes, Damage (per crash): 370%, Number of Attacks: 10, Max Enemies Hit: 6\\nFinal Damage of crash decreases by 50% every time the same enemy is attacked repeatedly.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/evan/earth-dive.png"],
+                        "animations": ["https://media.giphy.com/media/U2RHgGs8llSv3un08i/giphy.gif"],
+                        "type": "Fusion Skill",
+                        "desc": "Mir crashes into pieces of earth that shatter",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}>",
+                            "Enemies attacked repeatedly take reduced %Final Damage from the attack",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Dark Fog",
+                        "shortDesc": "MP Cost: 400, Damage: 400%, Max Enemies Hit: 15, Number of Attacks: 6, Crit Rate: +20%, Cooldown: 40 sec\\n[Passive Effect - Magic Debris Damage: +20%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/evan/dark-fog.png"],
+                        "animations": ["https://media.giphy.com/media/TH6YwhLotPaLCfs7NG/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dark clouds strike thunder down on enemies around you",
+                        "details": [
+                            "Attack has increased %Crit Rate",
+                            "[Passive]: Permanently increases %Damage of <tt src={/class-icons/heroes/evan/magic-debris.png} tip={Magic Debris (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Blessing of the Onyx",
+                        "shortDesc": "MP Cost: 48, DEF: +600, Magic ATT: +40, Duration: 180 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/evan/blessing-of-the-onyx.png"],
+                        "animations": ["https://media2.giphy.com/media/Gm6uGjQMT6sPjyB4G0/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "",
+                        "details": [
+                            "Does not stack with Luminous' <tt src={/class-icons/heroes/luminous/photic-meditation.png} tip={Photic Meditation (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/rGkfrBYDUAjjh78IpH/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/hcH1dScSQUwxuARcxW/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Enhanced Magic Debris",
+                        "shortDesc": "Amount of Debris Created: 1, Debris Formation Cooldown: 0.4 sec, Maximum Debris Limit: 15, MP Cost: 140, Maximum Enemies Hit: 15, Damage: 120%, Number of Hits: 1, Damage: +100% points (for every 5 debris), unactivated debris disappears after a set time",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/enhanced-magic-debris.png", "/class-icons/heroes/evan/magic-debris.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage (by a flat amount) and maximum number of debris",
+                            "Reduces the cooldown between each debris created"
+                        ]
+                    },
+                    {
+                        "name": "Magic Mastery",
+                        "shortDesc": "Magic Mastery: +70%. Magic ATT: +45, Critical Damage: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/magic-mastery.png", "/class-icons/heroes/evan/spell-mastery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Magic Attack and increases %Crit Damage"
+                        ]
+                    },
+                    {
+                        "name": "Onyx Will",
+                        "shortDesc": "Damage Taken: -20%, Knockback Resistance: +70% (permanently)",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/onyx-will.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dragon Fury",
+                        "shortDesc": "Magic ATT: +25%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/dragon-fury.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "High Dragon Potential",
+                        "shortDesc": "Boss Damage: +19% permanently",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/evan/high-dragon-potential.png"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Speedy Dragon Flash",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/speedy-dragon-flash.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Howling Wind",
+                    "shortDesc": "Wind Blades: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/howling-wind.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Rolling Thunder",
+                    "shortDesc": "Attacks (per area): +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/rolling-thunder.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Speedy Dragon Dive",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/speedy-dragon-dive.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Thunder Overload",
+                    "shortDesc": "Orbs: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/thunder-overlord.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Earth-Shattering Dive",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/earth-shattering-dive.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Speedy Dragon Breath",
+                    "shortDesc": "Cooldown: -25%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/speedy-dragon-breath.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Lungs of Stone",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/lungs-of-stone.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Cyclone Breath",
+                    "shortDesc": "Target's minimum HP range: +5%, Additional Damage: +85% points",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/cyclone-breath.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Summon Onyx Dragon",
+                    "shortDesc": "MP Cost: 600, Duration: 30 sec, Damage: 550%, Enemies Hit: 8, Number of Attacks: 2, Abnormal Status Resistance (while Onyx Dragon is present): +80\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/summon-onyx-dragon.png"],
+                    "animations": ["https://media2.giphy.com/media/McNAppCfN9plmhYK49/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon the Onyx Dragon to attacks nearby enemies",
+                    "details": [
+                        "Increases Abnormal Status Resistance while Onyx Dragon is present",
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Dragon Master",
+                    "shortDesc": "MP Cost: 10%, Mount Duration: 10 sec, Invincible while mounted\\nDuration: 0.3 sec. Enemies Hit: 10, Damage: 450%, Number of Attacks: 7\\nWhen skill ends, invincible for 1 sec. Reduces cooldown by 18 sec for every 1 sec of the remaining key-down time, can be reduced as much as 160 sec\\nCooldown: 240 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/dragon-master.png"],
+                    "animations": ["https://media.giphy.com/media/ebxZfRQzgCT0nX0YdM/giphy-downsized-large.gif"],
+                    "type": "Mount Attack",
+                    "desc": "Mount onto Mir to freely fly around and unleash a breath of fire",
+                    "details": [
+                        "Holding the Skill Key releases a breath of fire forward<bp_Releasing the Skill Key will immediately dismount Mir and end the skill_>",
+                        "For each remaining 1 sec key-down time, the skill cooldown is reduced by 18 sec (up to 160 sec)",
+                        "You are invincible while mounted and briefly after the skill ends"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Heroic Memories",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to hero classes within the party\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/heroes/evan/heroic-memories.png"],
+                    "animations": ["https://media.giphy.com/media/eYFXhb58DAz47kD9Tg/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["freudsWisdom", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Elemental Barrage",
+                    "shortDesc": "MP Cost: 1000, uses magic 4 times in a row, Max Enemies Hit: 15, Damage: 1705%, Number of Attacks: 8, Critical Rate: +100%\\nEach element increases Final Damage by 5% for 10 sec\\nCooldown: 60 sec\\nCasting Elemental Barrage after a Mir skill will instead trigger a fusion skill. Casting Elemental Barrage while lying down will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 2.",
+                    "icons": ["/class-icons/heroes/evan/elemental-barrage.png"],
+                    "animations": ["https://media.giphy.com/media/7FyWpwTT6dgzBrVkcd/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash an elemental attack forward",
+                    "details": [
+                        "For each successful element attack (4 elements), gain a stacking %Final Damage buff",
+                        "While Mir is casting <tt src={/class-icons/heroes/evan/dragon-slam.png} tip={Dragon Slam (5th Job)}>, pressing the Down Arrow Key and Skill Key together will cast the Fusion Skill with increased MP cost without activating this attack",
+                        "Attack is a guaranteed Critical Hit",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Dragon Slam",
+                    "shortDesc": "MP Cost: 1000, Damage: 1909%, Number of Attacks: 8, Max Enemies Hit: 12, Duration: 2.5 sec\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/heroes/evan/dragon-slam.png"],
+                    "animations": ["https://media.giphy.com/media/Gv32Ak66lq9UIl4Joa/giphy.gif"],
+                    "type": "Mir Skill",
+                    "desc": "Mir dives to the ground and creates a shockwave around themselves",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Wyrmking's Breath",
+                    "shortDesc": "Max Enemies Hit: 12, Damage: 1760%, Number of Attacks: 7, Duration: 3 sec",
+                    "icons": ["/class-icons/heroes/evan/wyrmkings-breath.png"],
+                    "animations": ["https://media.giphy.com/media/Hm7O5Qo0lEtziyVEN0/giphy.gif"],
+                    "type": "Fusion Skill",
+                    "desc": "Mir unleashes a powerful blast of elemental energy",
+                    "details": [
+                        "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-slam.png} tip={Dragon Slam (5th Job)}> and is unlocked together",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Ludicrous Speed",
+                    "shortDesc": "Max Enemies Hit: 12, Damage: 594%, Number of Attacks: 3, Duration: 3 sec",
+                    "icons": ["/class-icons/heroes/evan/ludicrous-speed.png"],
+                    "animations": ["https://media.giphy.com/media/l9fyBOmF7WeAlEjXiS/giphy.gif"],
+                    "type": "Fusion Skill",
+                    "desc": "Creates a damaging vortex at your location",
+                    "details": [
+                        "Shares Skill Points (SP) with <tt src={/class-icons/heroes/evan/dragon-slam.png} tip={Dragon Slam (5th Job)}> and is unlocked together",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Elemental Radiance",
+                    "shortDesc": "MP Cost: 1000, sets up a magic pentacle for 12 sec. Liberation starts when Magic ATT reaches 25, Duration: 10 sec, Max Enemies Hit: 12, Damage: 1062%, Number of Attacks: 8 times consecutively, Additional Monster DEF Ignored: +100%\\n3 Magic ATT will be charged if a skill with an attribute hits a target, but it will only be charged once per skill. Charges 1 Magic ATT when a skill with no attribute hits a target, and there is no charge limit\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/heroes/evan/elemental-radiance.png"],
+                    "animations": ["https://media.giphy.com/media/eZL40dxgLTHChyW07t/giphy-downsized-large.gif"],
+                    "type": "Summon",
+                    "desc": "Create a magical pentacle that charges up as you attack enemies",
+                    "details": [
+                        "Successful attacks will charge the pentacle (max 25)<bp_Skills with an attribute grant 3 charges but can only charge once per pentacle cast_Skills with no attribute grant 1 charge_>",
+                        "Upon reaching max charges, release a blast of elemental energy",
+                        "Attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Spiral of Mana",
+                    "shortDesc": "MP Cost: 240, Duration: 20 sec, Max Enemies Hit: 6, Damage: 159%, Number of Attacks: 6, Max Number of Attacks: 49\\n[Passive Effect: Magic ATT: +35]",
+                    "icons": ["/class-icons/heroes/evan/spiral-of-mana.png"],
+                    "animations": ["https://media.giphy.com/media/Zc5KInBOXqB7w2hEHs/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a magic circle that continuously fires a barrage of magic forward",
+                    "details": [
+                        "[Passive]: Grants flat Magic Attack",
+                        "Right-clicking the skill will toggle ON/OFF a function to activate the skill by pressing Down Arrow Key and <tt src={/class-icons/heroes/evan/mana-burst-i.png} tip={Mana Burst I (1st Job)}> together only if it hits an enemy",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Mana Burst Boost",
+                    "shortDesc": "Mana Burst I - IV and Spiral of Mana Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/mana-burst-i.png", "/class-icons/heroes/evan/spiral-of-mana.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Spark Boost",
+                    "shortDesc": "Dragon Spark and Advanced Dragon Spark Final Damage: +180%",
+                    "icons": ["/class-icons/heroes/evan/dragon-spark.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Wind Circle Boost",
+                    "shortDesc": "Wind Circle, Wind Flash, and Wind Breath Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/wind-circle.png", "/class-icons/heroes/evan/wind-flash.png", "/class-icons/heroes/evan/wind-breath.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1 (excludes <tt src={/class-icons/heroes/evan/wind-flash.png} tip={Wind Flash (2nd Job)}>)",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Flash Boost",
+                    "shortDesc": "Dragon Flash Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/dragon-flash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Thunder Circle Boost",
+                    "shortDesc": "Thunder Circle, Thunder Flash, and Thunder Dive Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/thunder-circle.png", "/class-icons/heroes/evan/thunder-flash.png", "/class-icons/heroes/evan/thunder-dive.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Dive Boost",
+                    "shortDesc": "Dragon Dive Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/dragon-dive.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Magic Debris Boost",
+                    "shortDesc": "Magic Debris and Enhanced Magic Debris Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/magic-debris.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Earth Circle Boost",
+                    "shortDesc": "Earth Circle, Earth Breath, and Earth Dive Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/earth-circle.png", "/class-icons/heroes/evan/earth-breath.png", "/class-icons/heroes/evan/earth-dive.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Breath Boost",
+                    "shortDesc": "Dragon Breath and Return Flame Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/dragon-breath.png", "/class-icons/heroes/evan/return-flame.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1 (only for <tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath (4th Job)}>)",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dark Fog Boost",
+                    "shortDesc": "Dark Fog Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/dark-fog.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Master Boost",
+                    "shortDesc": "Dragon Master Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/dragon-master.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Onyx Dragon Boost",
+                    "shortDesc": "Summon Onyx Dragon Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/evan/summon-onyx-dragon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/evan/hexa-mana-burst.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/evan/mana-burst-i.png} tip={Mana Burst (1st - 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Mana Burst",
+                    "shortDesc": "MP Cost: 52\\n[1st hit] Damage: 446%, Number of Attacks: 4, Max Enemies Hit: 8\\n[2nd hit] Max Enemies Hit: 8, Damage: 502%, Number of Attacks: 4",
+                    "icons": ["/class-icons/heroes/evan/hexa-mana-burst.png", "/class-icons/heroes/evan/mana-burst-iv.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamhkanFxMWZkZjJodjZiZDFhcTIxZTY1enp4N2VqZGJhb3d2Y3kyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zSDcgpL7TBVXiPzBDf/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/evan/hexa-dragon-flash-2.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXNzaHRmc2hjazBoYXd0dHRncG14NnoxeTc4dTFtb2U5eWFqY3E4aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iQnb52ygof3u3O48Ls/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/evan/dragon-flash.png} tip={Dragon Flash (2nd Job)}> <tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Circle, Wind Flash, and Wind Breath (2nd Job)}> <tt src={/class-icons/heroes/evan/thunder-circle.png} tip={Thunder Circle, Thunder Flash, and Thunder Dive (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Thunder Circle",
+                    "shortDesc": "MP Cost: 87, Max Enemies Hit: 8, Damage: 657%, Number of Attacks: 5\\nCasting Thunder Circle after a Mir skill will instead trigger a fusion skill.\\nCasting Mana Burst before Thunder Circle, or casting Thunder Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
+                    "icons": ["/class-icons/heroes/evan/hexa-thunder-circle.png", "/class-icons/heroes/evan/thunder-circle.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem03d2tuNTN3cG5peWF5bnZodnR5emQ0N2RjN3ZrbGdwZ3cwb25ieSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3uQ3MZxhEHDbbWbf0p/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Dragon Flash",
+                    "shortDesc": "MP Cost: 90, Damage: 790%, Number of Attacks: 4, Max Enemies Hit: 8, Duration: 3.5 sec\\nCooldown: 8 sec",
+                    "icons": ["/class-icons/heroes/evan/hexa-dragon-flash-1.png", "/class-icons/heroes/evan/dragon-flash.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWZsbWVleXYybW96NGc2eGVxZmRxbWN0dXlndnJ0eWUwZnV5bzM3eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f8DmJaK6yWOtBNFAY8/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Thunder Flash",
+                    "shortDesc": "MP Cost: 80, Damage (per chance): 2300%, Number of Attacks: 9, Max Enemies Hit: 8\\nFinal Damage of crash decreases by 60% every time the same enemy is attacked repeatedly.",
+                    "icons": ["/class-icons/heroes/evan/hexa-thunder-flash.png", "/class-icons/heroes/evan/thunder-flash.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWE2N2Jodzd2Y3NmdjA0djF2MGl5a2dsbmd5MTd4cDU2Mm1wcGRqOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/V1QOQ9beulZwNvldy6/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Wind Flash",
+                    "shortDesc": "MP Cost: 66, Max Enemies Hit: 5, Damage: 700%, Number of Attacks: 2, Number of Wind Blades: 5, Duration: 3.5 sec\\nNormal Enemy Damage: +75% points\\nWhen many wind blades hit 1 enemy, final damage of wind blade is reduced by 35%.",
+                    "icons": ["/class-icons/heroes/evan/hexa-wind-flash.png", "/class-icons/heroes/evan/wind-flash.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzRrODR2aDZrODh3aTV2ZG0yZ3JvYTh6eGp2N2EwMHpyczk2Nmd5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MSR9OKHa7ZAX0RDOUx/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmp2YjlncXJtZG8ycnk1ZW95c2MxdTdhd2twaWVkbWYybGgyMnk4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XPRWoK321HQ2FbWjVw/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/evan/hexa-dive.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/evan/dragon-dive.png} tip={Dragon Dive (3rd Job)}> <tt src={/class-icons/heroes/evan/thunder-circle.png} tip={Thunder Circle, Thunder Flash, and Thunder Dive (3rd Job)}> <tt src={/class-icons/heroes/evan/earth-circle.png} tip={Earth Circle, Earth Breath, and Earth Dive (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Earth Circle",
+                    "shortDesc": "MP Cost: 68, Max Enemies Hit: 8, Damage: 657%, Number of Attacks: 5\\nCasting Earth Circle after a Mir skill will instead trigger a fusion skill.\\nCasting Mana Burst before Earth Circle, or casting Earth Circle while lying down, will not prevent the fusion skill from triggering. However, MP Cost will be multiplied by 3.",
+                    "icons": ["/class-icons/heroes/evan/hexa-earth-circle.png", "/class-icons/heroes/evan/earth-circle.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWl1YWZkdzh4MmxoNWV3bTh4bmE1dG92Y2J3eWJucXJ0cG9rZ2lhbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v5SakpLfnZ62WKkEKZ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Dragon Dive",
+                    "shortDesc": "MP Cost: 80, Damage: 682%, Number of Attacks: 3, Max Enemies Hit: 6, Duration: 3.5 sec.\\nCooldown: 8 sec.",
+                    "icons": ["/class-icons/heroes/evan/hexa-dragon-dive.png", "/class-icons/heroes/evan/dragon-dive.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmF0dHhwa29jb2lkZWIyODVraWRhZjdwYWVhdnQzNmtxemRtdDVsbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0kmaP70UhubHnS28d/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Earth Dive",
+                    "shortDesc": "MP Cost: 80, Forms Rocks and 3 Crashes, Damage (Per Crash): 2100%, Number of Attacks: 10, Max Enemies Hit: 6\\nFinal Damage of crashes decreases by 50% every time the same enemy is attacked repeatedly.",
+                    "icons": ["/class-icons/heroes/evan/hexa-earth-dive.png", "/class-icons/heroes/evan/earth-dive.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHNrZDJlaXkzNTc4Y2FicTk3NGF5MjI5NG9pb3d0YjRmejh3d2ZpNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0CX4u29yoOH7ONAa8h/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Thunder Dive",
+                    "shortDesc": "MP Cost: 80, Creates orbs that attack in set intervals. Duration: 4 sec., Damage: 586%, Number of Orbs: 4\\nOrbs disappear after hitting enemies or after a set time",
+                    "icons": ["/class-icons/heroes/evan/hexa-thunder-dive.png", "/class-icons/heroes/evan/thunder-dive.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHAxbXF6dWRsb2s0aXFuM2Q1YTlxYzQ1ZzJzOWxoZXgwZWs0Y2JnNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7UmuvmDxhnGcyYhqBk/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDc4ZXR2eDB0c3FtcXcxcWdja3l3ZG96aW91OW5uN3BreDh5c3dqbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UQnaKCBJ9AvsQsMK3M/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/evan/hexa-wind-circle-spark-debris-breath.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/evan/dragon-spark.png} tip={Dragon Spark (1st Job)}> <tt src={/class-icons/heroes/evan/wind-circle.png} tip={Wind Circle, Wind Flash, and Wind Breath (2nd Job)}> <tt src={/class-icons/heroes/evan/magic-debris.png} tip={Magic Debris (3rd Job)}> <tt src={/class-icons/heroes/evan/earth-circle.png} tip={Earth Circle, Earth Breath, and Earth Dive (4th Job)}> <tt src={/class-icons/heroes/evan/dragon-breath.png} tip={Dragon Breath and Return Flame (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Wind Circle",
+                    "shortDesc": "MP Cost: 46. Knocks back up to 6 enemies, dealing 657% damage 5 times\\nCasting Wind Circle after a Mir skill will instead trigger a fusion skill.\\nCasting Mana Burst before Wind Circle, or casting Wind Circle while lying down, will not prevent the fusion skill from triggering. However, MP Cost will be multiplied by 3.",
+                    "icons": ["/class-icons/heroes/evan/hexa-wind-circle.png", "/class-icons/heroes/evan/wind-circle.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGkycGozaHU2ZGN0bDJ1MjNpeDFpcHQ2cHE1aTA5Z2I1azZ4cTA2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9el5Xizz9o9G8BvxQP/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Dragon Breath",
+                    "shortDesc": "MP Cost: 90, Damage: 505%, Number of Attacks: 5, Max Enemies Hit: 8, Duration: 3 sec.\\nCooldown: 10 sec.",
+                    "icons": ["/class-icons/heroes/evan/hexa-dragon-breath.png", "/class-icons/heroes/evan/dragon-breath.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmd4YTZud3dmY3d5ZDVqZGNtYWl5ejNmdTJvZzd5OWs0cDJxOWJxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDVeZpwuGhPWip4lcX/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Earth Breath",
+                    "shortDesc": "MP Cost: 90, Max Enemies Hit: 4, Damage: 477%, Number of Attacks: 6",
+                    "icons": ["/class-icons/heroes/evan/hexa-earth-breath.png", "/class-icons/heroes/evan/earth-breath.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzl3a2g1c2wyYnZqNWhmd2thdTU3cWtkcXVuOW1jenp6ZG1xbWF4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ifmwdBgKOTAC3nhaMq/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExem4xN2FseGF3YmNjNTJpZTIzMjVmM3JzaDB5MGZ2MTI4Y3M1aDhscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CjYg419nOY7XXRzZQE/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Wind Breath",
+                    "shortDesc": "MP Cost: 90, Damage: 583%, Number of Attacks: 6, Max Enemies Hit: 8, Duration: 3.5 sec.\\nDamage to Enemies with Less Than 30% HP: +65% points",
+                    "icons": ["/class-icons/heroes/evan/hexa-wind-breath.png", "/class-icons/heroes/evan/wind-breath.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnQ4MG1mZnUwOW9vMTZiZXF3MThnZ2E3amQ5ZG14aHp4dTd3eWFieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g1ZU1epNAuIf4vQyn1/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Magic Debris",
+                    "shortDesc": "Amount of Debris Created from Strong Magic: 1, Debris Formation Cooldown: 0.4 sec., Maximum Debris Limit: 15, MP Cost: 166\\nMaximum Enemies Hit: 15, Damage: 555%, Number of Hits: 1, Damage: +458% (additive) (for every 5 debris formations), unactivated debris disappears after a set time",
+                    "icons": ["/class-icons/heroes/evan/hexa-magic-debris.png", "/class-icons/heroes/evan/magic-debris.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWozeTZjbjZ3ZjlpbzlzczgwMGlmOG9jcXU3MGhleG92eXJxMDBieSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Raz1TqPQZXY7h8klEg/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Dragon Spark",
+                    "shortDesc": "[Final Attack Skill] Dragon Spark Chance: 100%, Damage: 615%",
+                    "icons": ["/class-icons/heroes/evan/hexa-dragon-spark.png", "/class-icons/heroes/evan/dragon-spark.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3owc2ltcnh5cjdmYm52NW9yNDk1MmpkbXB3djVvZTA4eWF4eGNreCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Yd1HFADuppvCl347q0/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Zodiac Burst",
+                    "shortDesc": "MP Cost: 1500, invincible during casting\\nMax Enemies Hit: 15, Magic Power Damage: 1120%, Number of Attacks: 15, Number of Magic Powers: 24\\nWhen attack skill hits, Max Enemies Hit: 15, Meteor Shower Damage: 1080%,\\nNumber of Attacks: 8, Number of Meteor Showers: 9, Duration: 45 sec\\nMeteor Shower Cooldown: 3 sec\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/heroes/evan/zodiac-burst.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlnZ245aTNzMjVtMWw3dDE3ZWdrMGt3OGYybWRtOW16NnZldGVzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MXdRlJ8WqIoID8UebX/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "United Horizons",
+                    "shortDesc": "MP Cost: 769, Invincible during casting\\nMir and Evan's magic bursts out 5 times, dealing 7621% damage to up to 15 enemies 12 times\\nAfterwards, a resonance wave pulses 17 times, dealing 8298% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/heroes/evan/united-horizons.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXluZTgzcnFza2F4bTd1anYzenluazIzcmVjOWtuYmhzcWZodGNwNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TixfElKUF6LJrGUwCi/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Elemental Barrage Boost",
+                    "shortDesc": "Elemental Barrage Final Damage: +60%, cooldown is reduced to 40 sec.",
+                    "icons": ["/class-icons/heroes/evan/elemental-barrage.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Dragon Slam Boost",
+                    "shortDesc": "Dragon Slam, Wyrmking's Breath, and Ludicrous Speed Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/evan/dragon-slam.png", "/class-icons/heroes/evan/wyrmkings-breath.png", "/class-icons/heroes/evan/ludicrous-speed.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Elemental Radiance Boost",
+                    "shortDesc": "Elemental Radiance Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/evan/elemental-radiance.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Spiral of Mana Boost",
+                    "shortDesc": "Spiral of Mana Final Damage: +60%",
+                    "icons": ["/class-icons/heroes/evan/spiral-of-mana.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Mana Burst - 1st/2nd/3rd/4th Job",
+                "icons": ["/class-icons/heroes/evan/mana-burst-i.png"],
+                "animations": ["https://media.giphy.com/media/TdEXJC2h2IDZabVZM1/giphy.gif"]
+            },
+            {
+                "name": "Dragon Flash - 2nd Job",
+                "icons": ["/class-icons/heroes/evan/dragon-flash.png"],
+                "animations": ["https://media.giphy.com/media/jsGtNZGTxAkKrownNx/giphy.gif"]
+            },
+            {
+                "name": "Thunder Flash - 3rd Job",
+                "icons": ["/class-icons/heroes/evan/thunder-flash.png"],
+                "animations": ["https://media.giphy.com/media/KB2HAjZRxaU4azHUZ8/giphy.gif"]
+            },
+            {
+                "name": "Dragon Breath - 4th Job",
+                "icons": ["/class-icons/heroes/evan/dragon-breath.png"],
+                "animations": ["https://media.giphy.com/media/VDAndH9bqmwK3k9A6J/giphy.gif"]
+            },
+            {
+                "name": "Earth Breath - 4th Job",
+                "icons": ["/class-icons/heroes/evan/earth-breath.png"],
+                "animations": ["https://media.giphy.com/media/XdPREOI3kProanvgNL/giphy.gif"]
+            },
+            {
+                "name": "Elemental Barrage - 5th Job",
+                "icons": ["/class-icons/heroes/evan/elemental-barrage.png"],
+                "animations": ["https://media.giphy.com/media/7FyWpwTT6dgzBrVkcd/giphy.gif"]
+            },
+            {
+                "name": "Elemental Radiance - 5th Job",
+                "icons": ["/class-icons/heroes/evan/elemental-radiance.png"],
+                "animations": ["https://media.giphy.com/media/eZL40dxgLTHChyW07t/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Zodiac Burst - 6th Job",
+                "icons": ["/class-icons/heroes/evan/zodiac-burst.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlnZ245aTNzMjVtMWw3dDE3ZWdrMGt3OGYybWRtOW16NnZldGVzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MXdRlJ8WqIoID8UebX/giphy.gif"]
+            },
+            {
+                "name": "United Horizons - 6th Job",
+                "icons": ["/class-icons/heroes/evan/united-horizons.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXluZTgzcnFza2F4bTd1anYzenluazIzcmVjOWtuYmhzcWZodGNwNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TixfElKUF6LJrGUwCi/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Evan is an INT mage class part of the Heroes class group. What is unique about Evan is that he has a dragon that fights alongside you. Your dragon, Mir can attack on its own independant of your attacks. You can combine your attacks together to create a fusion attack"
+}

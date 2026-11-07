@@ -1,0 +1,1251 @@
+{
+    "class": "Illium",
+    "content": {
+        "classGroup": "Flora",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["lucentGauntlet"]},
+            {"secondary": ["lucentWings"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Chance to Skip Cooldown +10%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/flora/illium/gauntlet-frenzy.png} tip={Gauntlet Frenzy (2nd Job)} val={+2}> <bg src={/class-icons/flora/illium/wisdom-of-the-crystal.png} tip={Wisdom of the Crystal (4th Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/flora/illium/wisdom-of-the-crystal.png} tip={Wisdom of the Crystal (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+40(43-130 w/ 6th Job) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/flora/illium/tenacity.png} tip={Tenacity (3rd Job)} val={+40}> <bg type={opt} src={/class-icons/flora/illium/crystalline-spirit.png} tip={Crystalline Spirit Boost - Passive (6th Job)} val={+3-90 w/ 6th Job}> <bg src={/class-icons/flora/illium/hero-of-the-flora.png} tip={Hero of the Flora (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+14% +161(162-191 w/ 6th Job)",
+                "detail": "<bg src={/class-icons/flora/illium/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg src={/class-icons/flora/illium/tenacity.png} tip={Tenacity (3rd Job)} val={+10%}> <bg src={/class-icons/flora/illium/endless-research.png} tip={Endless Research (3rd Job)} val={+50}> <bg src={/class-icons/flora/illium/lucent-brand-iii.png} tip={Lucent Brand III (4th Job)} val={up to +46}> <bg src={/class-icons/flora/illium/crystal-gate.png} tip={Crystal Gate (5th Job)} val={+65} val={(instead +66-95 w/ 6th Job)}> <bg val={50% of Attack from equipment - excluding weapon} subVal={Cannot exceed 20% of weapon's base Attack} src={/class-icons/flora/magic-conversion.png} tip={Magic Conversion (Beginner Skill)}> <bg type={opt} val={+100 & 100% of Attack from equipment - excluding weapon} val={Cannot exceed 150% of weapon's base Attack} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+45%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/flora/illium/lucent-gauntlet-mastery.png} tip={Lucent Gauntlet Mastery (1st Job)} val={+20%}> <bg src={/class-icons/flora/illium/endless-research.png} tip={Endless Research (3rd Job)} val={+20%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%",
+                "detail": "<bg src={/class-icons/flora/illium/endless-research.png} tip={Endless Research (3rd Job)} val={+30%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+61%(186%)(216% w/ 6th Job Lv. 30)",
+                "detail": "<bg src={/class-icons/flora/illium/lucent-brand.png} tip={Lucent Brand (1st Job)} val={+10%}> <bg src={/class-icons/flora/illium/might-of-the-flora.png} tip={Might of the Flora (3rd Job)} val={+15%}> <bg src={/class-icons/link-skills/tide-of-battle.png} tip={Tide of Battle (Link Skill)} val={+4% per stack} val={(Max. +16%)}> <bg type={debuff} src={/class-icons/flora/illium/umbral-brand.png} tip={Umbral Brand (2nd Job)} val={+20%}> <bg type={temp} src={/class-icons/flora/illium/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/flora/illium/crystalline-spirit.png} tip={Crystalline Spirit (5th Job)} src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)} val={up to +70% when transforming while active} val={(up to +100% with 6th Job upgrade)}> <bg type={opt} src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} val={+45%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+30%(60%)",
+                "detail": "<bg src={/class-icons/flora/illium/wisdom-of-the-crystal.png} tip={Wisdom of the Crystal (4th Job)} val={+30%}> <bg type={temp} src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)} val={+30%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+47%(103.21%)",
+                "detail": "<bg src={/class-icons/flora/illium/wisdom-of-the-crystal.png} tip={Wisdom of the Crystal (4th Job)} val={+47%}> x <bg type={temp} src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)} val={+28%}> x <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+25%(40%)",
+                "detail": "<bg src={/class-icons/flora/illium/wisdom-of-the-crystal.png} tip={Wisdom of the Crystal (4th Job)} val={+25%}> x <bg type={debuff} src={/class-icons/flora/illium/umbral-brand-iii.png} tip={Umbral Brand III (4th Job)} val={up to +20%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/flora/illium/gauntlet-frenzy.png} tip={Gauntlet Frenzy (2nd Job)} dur={[300s]}>",
+            "toggles": "<tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
+            "summons": "<tt src={/class-icons/flora/illium/ex.png} tip={Ex (1st Job)} dur={[180s]}> <tt src={/class-icons/flora/illium/deploy-crystal.png} tip={Deploy Crystal (2nd Job)}> <tt src={/class-icons/flora/illium/machina.png} tip={Machina (2nd Job)} dur={[180s]}> <tt src={/class-icons/flora/illium/crystal-skill-deus.png} tip={Crystal Skill - Deus (4th Job)} dur={[15s](90 Charges)}> <tt src={/class-icons/flora/illium/templar-knight.png} tip={Templar Knight (5th Job)} dur={[12s](120s cd)}> <tt src={/class-icons/flora/illium/crystalline-spirit.png} tip={Crystalline Spirit (5th Job)} dur={[65s]}> <tt src={/class-icons/flora/illium/crystal-gate.png} tip={Crystal Gate (5th Job)} dur={[110s](120 - 60s cd based on remaining duration)}>",
+            "buffCd": "<tt src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)} dur={[15s](150 Charges)}> <tt src={/class-icons/flora/illium/flash-crystal-battery.png} tip={Flash Crystal Battery (4th Job)} dur={(121s cd)}> <tt src={/class-icons/flora/illium/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/illium/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/flora/illium/mytocrystal-expanse.png} tip={Mytocrystal Expanse (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/flora/illium/crystalline-bulwark.png} tip={Crystalline Bulwark (Hyper Skill)} dur={[2.5-6.5s based on Lucent Brand stacks](120s cd)}> <tt src={/class-icons/flora/illium/longinus-zone.png} tip={Longinus Zone (Hyper Skill)} dur={(120s cd)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/flora/illium/mytocrystal-expanse.png} tip={Mytocrystal Expanse (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/flora/illium/crystal-ignition.png} tip={Crystal Ignition (5th Job)} dur={[Up to 6s](-50% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000268,
+            "offline": true,
+            "name": "Tide of Battle",
+            "maxLevel": 3,
+            "shortDesc": "Activated when moving a certain distance. Max number of stacks: 4 times, Duration: 10 sec, Damage per stack: +4%",
+            "icons": ["/class-icons/link-skills/tide-of-battle.png"],
+            "type": "Passive",
+            "desc": "Moving around grants a stacking %Damage buff",
+            "details": [
+                "On other characters, the Link Skill has reduced duration"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/flora/illium/crystalline-wings.png} tip={Crystalline Wings}> -> <tt src={/class-icons/flora/illium/lucent-gauntlet-mastery.png} tip={Lucent Gauntlet Mastery}> -> <tt src={/class-icons/flora/illium/lucent-brand.png} tip={Lucent Brand}> -> <tt src={/class-icons/flora/illium/ex.png} tip={Ex}> -> <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin}> -> <tt src={/class-icons/flora/illium/radiant-orb.png} tip={Radiant Orb}>"],
+                ["2nd Job", "<tt src={/class-icons/flora/illium/aegis-of-light.png} tip={Aegis of Light}> -> <tt src={/class-icons/flora/illium/umbral-brand.png} tip={Umbral Brand}> -> <tt src={/class-icons/flora/illium/gauntlet-frenzy.png} tip={Gauntlet Frenzy}> -> <tt src={/class-icons/flora/illium/crystal-skill-vortex-of-light.png} tip={Crystal Skill - Vortex of Light}> -> <tt src={/class-icons/flora/illium/machina.png} tip={Machina}> -> <tt src={/class-icons/flora/illium/reaction-destruction.png} tip={Reaction - Destruction}>"],
+                ["3rd Job", "<tt src={/class-icons/flora/illium/endless-research.png} tip={Endless Research}> -> <tt src={/class-icons/flora/illium/might-of-the-flora.png} tip={Might of the Flora}> -> <tt src={/class-icons/flora/illium/tenacity.png} tip={Tenacity}> -> <tt src={/class-icons/flora/illium/lucent-brand-ii.png} tip={Lucent Brand II}> -> <tt src={/class-icons/flora/illium/umbral-brand-ii.png} tip={Umbral Brand II}> -> <tt src={/class-icons/flora/illium/reaction-destruction-ii.png} tip={Reaction - Destruction II}> -> <tt src={/class-icons/flora/illium/crystal-skill-resonance.png} tip={Crystal Skill - Resonance}> -> <tt src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory}>"],
+                ["4th Job", "<tt src={/class-icons/flora/illium/lucent-brand-iii.png} tip={Lucent Brand III}> -> <tt src={/class-icons/flora/illium/umbral-brand-iii.png} tip={Umbral Brand III}> -> <tt src={/class-icons/flora/illium/wisdom-of-the-crystal.png} tip={Wisdom of the Crystal}> -> <tt src={/class-icons/flora/illium/resonance-wings.png} tip={Resonance Wings}> -> <tt src={/class-icons/flora/illium/longinus-spear.png} tip={Longinus Spear}> -> <tt src={/class-icons/flora/illium/radiant-javelin-ii.png} tip={Radiant Javelin II}> -> <tt src={/class-icons/flora/illium/flash-crystal-battery.png} tip={Flash Crystal Battery}> -> <tt src={/class-icons/flora/illium/hero-of-the-flora.png} tip={Hero of the Flora}> -> <tt src={/class-icons/flora/illium/crystal-skill-deus.png} tip={Crystal Skill - Deus}> -> <tt src={/class-icons/flora/illium/vortex-wings.png} tip={Vortex Wings}> -> <tt src={/class-icons/flora/illium/floran-heros-will.png} tip={Floran Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/flora/illium/javelin-reinforce.png} tip={Javelin - Reinforce}> <tt src={/class-icons/flora/illium/javelin-extra-strike.png} tip={Javelin - Extra Strike}> <tt src={/class-icons/flora/illium/javelin-boss-rush.png} tip={Javelin - Boss Rush}> Javelin - Reinforce, Extra Strike and Boss Rush_<tt src={/class-icons/flora/illium/longinus-cooldown-cutter.png} tip={Longinus - Cooldown Cutter}> Longinus - Cooldown Cutter_<tt src={/class-icons/flora/illium/deus-extra-strike.png} tip={Deus - Extra Strike}> Deus - Extra Strike_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/flora/illium/radiant-javelin-ii.png} tip={Radiant Javelin and Winged Javelin (1st Job / 3rd Job)}> <tt src={/class-icons/flora/illium/reaction-destruction-ii.png} tip={Reaction - Destruction II (3rd Job)}> <tt src={/class-icons/flora/illium/machina.png} tip={Machina and Reaction - Domination II (2nd Job / 3rd Job)}>"],
+                    ["", "<tt src={/class-icons/flora/illium/crystal-skill-deus.png} tip={Deus and Ex (4th Job / 1st Job)}> <tt src={/class-icons/flora/illium/umbral-brand-iii.png} tip={Umbral Brand III (4th Job)}> <tt src={/class-icons/flora/illium/vortex-wings.png} tip={Vortex Wings and Crystal Skill - Vortex of Light (3rd Job)}>"],
+                    ["", "<tt src={/class-icons/flora/illium/longinus-zone.png} tip={Longinus Zone (Hyper Skill)}> <tt src={/class-icons/flora/illium/longinus-spear.png} tip={Longinus Spear (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
+                ]
+            },
+            "primary": [0,1,2,3,4,5],
+            "nodes": [
+                "<tt src={/class-icons/flora/illium/radiant-javelin-ii.png} tip={Radiant Javelin (1st Job)}> <tt src={/class-icons/flora/illium/winged-javelin.png} tip={Winged Javelin (3rd Job)}>",
+                "<tt src={/class-icons/flora/illium/reaction-domination-ii.png} tip={Reaction - Domination II (3rd Job)}> <tt src={/class-icons/flora/illium/reaction-destruction-ii.png} tip={Reaction - Destruction II (3rd Job)}>",
+                "<tt src={/class-icons/flora/illium/vortex-wings.png} tip={Vortex Wings (3rd Job)}> <tt src={/class-icons/flora/illium/crystal-skill-vortex-of-light.png} tip={Crystal Skill - Vortex of Light (3rd Job)}>",
+                "<tt src={/class-icons/flora/illium/crystal-skill-deus.png} tip={Crystal Skill - Deus (4th Job)}> <tt src={/class-icons/flora/illium/ex.png} tip={Ex (1st Job)}>",
+                "<tt src={/class-icons/flora/illium/machina.png} tip={Machina (2nd Job)}> <tt src={/class-icons/flora/illium/umbral-brand-iii.png} tip={Umbral Brand III (4th Job)}>",
+                "<tt src={/class-icons/flora/illium/longinus-spear.png} tip={Longinus Spear (4th Job)}> <tt src={/class-icons/flora/illium/longinus-zone.png} tip={Longinus Zone (Hyper Skill)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Illium"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%9D%BC%EB%A6%AC%EC%9B%80"},
+            {"title": "Class Discord", "link": "https://discord.gg/KxJ3DGuBsf"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1yRtTynFk6jNthJlBwCSTeM4rcV3taEnwx9DOJ9MzBds"}
+        ],
+        "infographics": [
+            {
+                "src": "illium/illium-overview.png",
+                "title": "Overview",
+                "credit": "Luxuriously",
+                "date": "2026-06-03"
+            },
+            {
+                "src": "illium/illium-6th-job.png",
+                "title": "6th Job",
+                "credit": "Illium Discord",
+                "date": "2026-06-03"
+            }
+        ],
+        "discord": "https://discord.gg/KxJ3DGuBsf",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Crystal Battery",
+            "content": [
+                "<img src={https://media.giphy.com/media/efV9JUKwE7dxXNmJ0c/giphy.gif} alt={Illium Orb}> <img src={/class-icons/flora/illium/crystal-gauge.png} alt={Crystal Gauge}>",
+                "In 2nd Job, after completing your storyline, Illium gains access to <tt src={/class-icons/flora/illium/deploy-crystal.png} tip={Deploy Crystal (2nd Job)}> an orb that you control and interact with. The orb has a special resource called \"Charges\" that is generated passively",
+                "<img src={https://media.giphy.com/media/H1RgKtsYaZkisQcmmi/giphy.gif} tip={Crystal Skill}>",
+                "Additionally, skills labelled as \"Crystal Skills\" can be used once you reach a certain amount of Charges. Crystal Skills do not consume Charges, instead they reset every time you hit the max amount of Charges. Crystal Skills can only be used one time until your Charges are reset",
+                "Below are all your Crystal Skills:",
+                "<bp_<tt src={/class-icons/flora/illium/crystal-skill-vortex-of-light.png} tip={Crystal Skill - Vortex of Light (2nd Job)}> Crystal Skill - Vortex of Light [2nd Job] - 30 Charges_<tt src={/class-icons/flora/illium/crystal-skill-resonance.png} tip={Crystal Skill - Resonance (3rd Job)}> Crystal Skill - Resonance [3rd Job] - 60 Charges_<tt src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)}> Crystal Skill - Wings of Glory [3rd Job] - 150 Charges_<tt src={/class-icons/flora/illium/crystal-skill-deus.png} tip={Crystal Skill - Deus (4th Job)}> Crystal Skill - Deus [4th Job] - 90 Charges_>",
+                "Additionally, whenever <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> Radiant Javelin, <tt src={/class-icons/flora/illium/radiant-orb.png} tip={Radiant Orb (1st Job)}> Radiant Orb, and <tt src={/class-icons/flora/illium/longinus-spear.png} tip={Longinus Spear (4th Job)}> Longinus Spear hits the orb, it triggers an attack from the orb. <tt src={/class-icons/flora/illium/reaction-destruction.png} tip={Reaction - Destruction (2nd Job)}> Reaction - Destruction triggers when <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}}> or <tt src={/class-icons/flora/illium/longinus-spear.png} tip={Longinus Spear (4th Job)}> hits the orb and <tt src={/class-icons/flora/illium/reaction-domination.png} tip={Reaction - Domination (2nd Job)}> Reaction - Domination triggers when <tt src={/class-icons/flora/illium/radiant-orb.png} tip={Radiant Orb (1st Job)}> hits the orb"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Tide of Battle",
+                    "shortDesc": "Activated when moving a certain distance. Max number of stacks: 4 times, Duration: 25 sec, Damage per stack: +4%\\nWhen used as a Link Skill, the duration is reduced to 10 seconds.",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/tide-of-battle.png"],
+                    "type": "Passive",
+                    "desc": "Moving around grants a stacking %Damage buff",
+                    "details": [
+                        "On other characters, the Link Skill has reduced duration",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Shelter Return",
+                    "shortDesc": "MP Cost: 100\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/shelter-return.png"],
+                    "animations": ["https://media4.giphy.com/media/49msk5vNCYY2eyVNog/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Teleports to Illium's hideout"
+                },
+                {
+                    "name": "Magic Conversion",
+                    "shortDesc": "50% of your equipment's Attack Power is converted to Magic ATT, excluding your weapon. Any set effects do not apply. Only converts up to 20% of your weapon's base attack power.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/magic-conversion.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power & Magic ATT: +4%\\nCooldown: 300 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/exclusive-spell.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGxub3ZiMGZqbmx4eWNtaGJvZTgyaWZtdXN2d2V6c2hxejFxengzaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XvcvJ6368PjR4cphZS/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/215/Exclusive_Spell} title={\"Exclusive Spell\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Radiant Javelin",
+                        "shortDesc": "MP Cost: 24, Damage: 100%, Number of Attacks: 2, Max Enemies Hit: 4\\nDamage against normal monsters: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/radiant-javelin.png"],
+                        "animations": ["https://media.giphy.com/media/Th4ptvatxz2ypCqqsx/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launch a javelin that bounces between enemies",
+                        "details": [
+                            "Attack can hit the same enemy multiple times",
+                            "Javelins can also bounce off of the <tt src={/class-icons/flora/illium/deploy-crystal.png} tip={Deploy Crystal (2nd Job)}> orb",
+                            "Deals increased %Damage to regular monsters",
+                            "Prioritizes bosses with the highest HP first"
+                        ]
+                    },
+                    {
+                        "name": "Radiant Orb",
+                        "shortDesc": "MP Cost: 15. Max Enemies Hit: 3, Damage: 50%, Number of Attacks: 1. Radiant Javelin Damage: +15% for 2 sec. after use, doesn't apply to HEXA Radiant Javelin.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/radiant-orb.png"],
+                        "animations": ["https://media.giphy.com/media/QTlS7dIrtSEaBDSghG/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast an orb forward that passes through and damages enemies",
+                        "details": [
+                            "<tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> briefly deals increased %Damage after using Radiant Orb",
+                            "Shares the same Skill Points (SP) as <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Ex",
+                        "shortDesc": "MP Cost: 90, Duration: 180 sec.\\nMoves to the target and attacks for a short time. Damage: 140%, Attack ends after 40 hits.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/ex.png"],
+                        "animations": ["https://media.giphy.com/media/QVsM09QPdpPQahNpRv/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a robot that attaches to a target and deals damage",
+                        "details": [
+                            "Attacks a target up to 40 times",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Crystalline Wings",
+                        "shortDesc": "MP Cost: 20, Teleport horizontally a distance of 195, or vertically a distance of 275\\nCannot jump after flight.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/flora/illium/crystalline-wings.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWxkc2N5aXYwajh2M3MzYmN6d2FidHNxeW9lN2FiZGFidmF3amxrMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PAYrZZ37giaAq6XsxE/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleport in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used while on ladders",
+                            "While in the air, if you hold down the Skill Key, you can fly around",
+                            "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump<bp_Cannot be used after flying_>"
+                        ]
+                    },
+                    {
+                        "name": "Lucent Gauntlet Mastery",
+                        "shortDesc": "Lucent Gauntlet Mastery: +40%, Critical Rate: +20%, Damage Taken: -40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/lucent-gauntlet-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Lucent Brand",
+                        "shortDesc": "Max Stacks: 3, Duration: 20 sec\\nAttack Power & Magic ATT +2 per stack\\n[Passive Effects - Max HP & Max MP: +10%, Damage: +10%, DEF: +100]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/lucent-brand.png"],
+                        "animations": ["https://media4.giphy.com/media/P1ITMDOgDZvbwc0bWi/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "When <tt src={/class-icons/flora/illium/radiant-orb.png} tip={Radiant Orb (1st Job)}> hits an enemy, you gain a stacking Attack and Magic Attack buff",
+                        "details": [
+                            "Also permanently increases %Max HP/MP, %Damage and grants flat DEF"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Crystal Battery",
+                        "shortDesc": "Max Crystal Charges: 30\\nCharge 1 magical power every 1 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/illium/crystal-battery.png"],
+                        "type": "Passive",
+                        "desc": "A special resource for using Crystal Skills that generates passively",
+                        "details": [
+                            "In 2nd job, the orb only holds 30 Charges<bp_Once your orb reaches max Charges, it will reset back to 0_Using a Crystal Skill does not consume Charges instead, you can only use a Crystal Skill once per Charge reset_>"
+                        ]
+                    },
+                    {
+                        "name": "Deploy Crystal",
+                        "shortDesc": "Your Crystal Battery will reset 300 sec after reaching the max Crystal Charge count.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/illium/deploy-crystal.png"],
+                        "animations": ["https://media.giphy.com/media/efV9JUKwE7dxXNmJ0c/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Upon use, summons an orb (that will not expire)",
+                        "details": [
+                            "Pressing the Skill Key again will move it in front of you",
+                            "Pressing the Up Arrow Key and Skill Key together teleports the orb to your location",
+                            "Pressing the Down Arrow Key and Skill Key together teleports the orb forward a fixed distance"
+                        ]
+                    },
+                    {
+                        "name": "Reaction - Destruction",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 9 , Damage: 400%, Number of Attacks: 4\\nCooldown: 6 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/reaction-destruction.png"],
+                        "animations": ["https://media.giphy.com/media/VDMXzcROJgaEwWIVaE/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "When <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> hits the orb, a destructive blast is released from the orb",
+                        "details": [
+                            "Using <tt src={/class-icons/flora/illium/longinus-spear.png} tip={Longinus Spear (4th Job)}> also triggers this attack"
+                        ]
+                    },
+                    {
+                        "name": "Reaction - Domination",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 9 , Damage: 400%, Number of Attacks: 1\\nCooldown: 6 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/reaction-domination.png"],
+                        "animations": ["https://media.giphy.com/media/Ma1jYbagnXxeXSkF2j/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "When <tt src={/class-icons/flora/illium/radiant-orb.png} tip={Radiant Orb (1st Job)}> hits the orb, a radiant blast is released from the orb",
+                        "details": [
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/flora/illium/reaction-destruction.png} tip={Reaction - Destruction (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Crystal Skill - Vortex of Light",
+                        "shortDesc": "Crystal Charge Cost: 30, MP Cost: 80, Max Enemies Hit: 12, Damage: 500%, Number of Attacks: 10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/crystal-skill-vortex-of-light.png"],
+                        "animations": ["https://media.giphy.com/media/Lkr0Y1nJE2zQTrjlM5/giphy.gif"],
+                        "type": "Crystal Attack",
+                        "desc": "Beams of light spin around your orb damaging nearby enemies",
+                        "details": [
+                            "Requires a minimum of 30 Charges to use"
+                        ]
+                    },
+                    {
+                        "name": "Gauntlet Frenzy",
+                        "shortDesc": "MP Cost: 12, Duration: 300 sec, Lucent Gauntlet Attack Speed: +2",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/gauntlet-frenzy.png"],
+                        "animations": ["https://media0.giphy.com/media/OV1wDNSi6MhYZwAO2g/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Machina",
+                        "shortDesc": "MP Cost: 100, Duration: 180 sec\\nDamage: 250%, Number of Attacks: 4, Enemies Hit: 5",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/machina.png"],
+                        "animations": ["https://media.giphy.com/media/jR5uMmQB4Hqfnj44Ha/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a robot that hovers over your <tt src={/class-icons/flora/illium/deploy-crystal.png} tip={Deploy Crystal (2nd Job)}> orb and attacks nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Aegis of Light",
+                        "shortDesc": "Damage Taken: -70%\\nMP Absorb Chance: 20%, Amount Absorbed: 5% of Max MP\\nAmount Absorbed from Boss: 3% of Max MP",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/flora/illium/aegis-of-light.png"],
+                        "type": "Passive",
+                        "desc": "Reduce damage taken (excludes %Max HP attacks) and your attacks have a chance to steal a portion of the enemy's %Max MP",
+                        "details": [
+                            "MP absorption effectiveness is reduced for bosses"
+                        ]
+                    },
+                    {
+                        "name": "Umbral Brand",
+                        "shortDesc": "Duration: 20 sec, DEF: 4%\\nIllium's attacks inflict 20% bonus damage against Umbral Branded targets.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/umbral-brand.png"],
+                        "animations": ["https://media1.giphy.com/media/1ODeEPsV4WwiuUoFdg/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Enemies hit by <tt src={/class-icons/flora/illium/reaction-domination.png} tip={Reaction - Destruction (2nd Job)}> gain a stacking debuff",
+                        "details": [
+                            "[Debuff]: Enemy has reduced %DEF and takes increased %Damage from Illium (except from <tt src={/class-icons/flora/illium/radiant-orb.png} tip={Radiant Orb (1st Job)}>)<bp_Reduction to %DEF can be considered as %Ignore DEF_>"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Crystal Battery II",
+                        "shortDesc": "Max Crystal Charges: 150\\nCharge 1 magical power every 1 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/illium/crystal-battery-ii.png", "/class-icons/flora/illium/crystal-battery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max Crystal Charge from 30 to 150"
+                        ]
+                    },
+                    {
+                        "name": "Reaction - Destruction II",
+                        "shortDesc": "MP Cost: 130, Max Enemies Hit: 9, Damage: 610%, Number of Attacks: 4, Detonations: 2, Boss Damage: +20%\\nCooldown: 4 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/reaction-destruction-ii.png", "/class-icons/flora/illium/reaction-destruction.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Now activates twice in a row and has increased %Boss Damage"
+                        ]
+                    },
+                    {
+                        "name": "Reaction - Domination II",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 12 , Damage: 610%, Number of Attacks: 2\\nCooldown: 4 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/reaction-domination-ii.png", "/class-icons/flora/illium/reaction-domination.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits",
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/flora/illium/reaction-destruction-ii.png} tip={Reaction - Destruction II (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Crystal Skill - Wings of Glory",
+                        "shortDesc": "Duration: 15 sec., Upon casting, immune to debilitating abnormal status effects for 3 sec.\\nFinal Damage: +28%, Knockback Resistance: +100%, Boss Damage: +30%\\nWinged Javelin: Explodes on contact, Max Enemies Hit: 5, Damage: 500%, Number of Attacks: 6, Normal Enemy Damage: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/crystal-skill-wings-of-glory.png"],
+                        "animations": ["https://media.giphy.com/media/J6Dd8eNulGBGxQ80nD/giphy.gif"],
+                        "type": "Crystal Buff",
+                        "desc": "Upon use, enter a flying state that grants %Final Damage, %Boss Damage, and 100% Knockback Resistance, and empowers <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> into <tt src={/class-icons/flora/illium/winged-javelin.png} tip={Winged Javelin (3rd Job)}>",
+                        "details": [
+                            "Requires a minimum of 150 Charges to use",
+                            "Upon casting, briefly grants immunity to Critical Abnormal Statuses",
+                            "While active, <tt src={/class-icons/flora/illium/crystalline-wings.png} tip={Crystalline Wings (1st Job)}> can be used in the air",
+                            "<tt src={/class-icons/flora/illium/winged-javelin.png} tip={Winged Javelin (3rd Job)}> deals increased %Damage to regular monsters and prioritizes bosses with the highest HP",
+                            "Pressing the Skill Key again will end the skill early",
+                            "Right-clicking the skill toggles a function ON/OFF that prevents flight and you will stay grounded",
+                            "Unaffected by %Buff Duration"
+                        ]
+                    },
+                    {
+                        "name": "Crystal Skill - Resonance",
+                        "shortDesc": "Crystal Charge Cost: 60, MP Cost: 200, Resonance Cycles: 15, Effect: Grants Lucent Brand, Restores 10% of Max HP\\n[Passive Effects - Abnormal Status Resistance: +30, Elemental Resistance: +30%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/illium/crystal-skill-resonance.png"],
+                        "animations": ["https://media.giphy.com/media/H1RgKtsYaZkisQcmmi/giphy.gif"],
+                        "type": "Crystal Active",
+                        "desc": "Create a tether between you and the orb that inflicts <tt src={/class-icons/flora/illium/umbral-brand.png} tip={Umbral Brand (2nd Job)}> to enemies it touches",
+                        "details": [
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
+                            "Requires a minimum of 60 Charges to use",
+                            "This skill also heals some %Max HP and grants <tt src={/class-icons/flora/illium/lucent-brand.png} tip={Lucent Brand (1st Job)}> upon contact with Illium or a party member"
+                        ]
+                    },
+                    {
+                        "name": "Crystalline Wings - Boost",
+                        "shortDesc": "Crystalline Wings Distance: Horizontal +60, Vertical +45.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/illium/crystalline-wings-boost.png"],
+                        "type": "Passive",
+                        "desc": "Permanently increases the teleport distance of <tt src={/class-icons/flora/illium/crystalline-wings.png} tip={Crystalline Wings (1st Job)}>"
+                    },
+                    {
+                        "name": "Lucent Brand II",
+                        "shortDesc": "Max Stacks: 6, Duration: 20 sec\\n[Stack Bonuses] 1-3 Stacks: Attack Power & Magic ATT +2\\n4 - 6 Stacks: Attack Power & Magic ATT +4\\n[Passive Effects - Radiant Javelin Damage +200% points]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/lucent-brand-ii.png", "/class-icons/flora/illium/lucent-brand.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks from 3 to 6",
+                            "Also permanently increases %Damage of <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> by a flat amount"
+                        ]
+                    },
+                    {
+                        "name": "Umbral Brand II",
+                        "shortDesc": "Max Stacks: 3 times, Duration: 20 sec\\nReduces enemy Defense based on stack count.\\n[Stack Bonuses]1 Stack: DEF -4%\\n2-3 Stacks: DEF -4%\\nIllium's attacks aginst Umbral Branded enemies inflict an additional hit dealing 30%. The bonus hit's damage is multiplied up to 3x based on the number of Stacks.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/umbral-brand-ii.png", "/class-icons/flora/illium/umbral-brand.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks from 1 to 3",
+                            "Now when attacking, deal an additional attack that increases in damage based on the number of stacks"
+                        ]
+                    },
+                    {
+                        "name": "Might of the Flora",
+                        "shortDesc": "Max HP & MP: +20%\\nDamage: +15%\\nJump: +10, Speed: +22, Max Movement Speed: +20\\nKnockback Resistance: +40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/might-of-the-flora.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Tenacity",
+                        "shortDesc": "Intelligence: +40, Magic ATT: +10%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/illium/tenacity.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Endless Research",
+                        "shortDesc": "Magic ATT: +50, Critical Damage: +30%, Critical Rate: +20%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/flora/illium/endless-research.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "name": "Crystal Battery III",
+                    "shortDesc": "Max Crystal Charges: 150\\nCharge 3 magical power every 1 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/crystal-battery-iii.png", "/class-icons/flora/illium/crystal-battery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases amount of Charges gained passively"
+                    ]
+                },
+                {
+                    "name": "Radiant Javelin II",
+                    "shortDesc": "MP Cost: 6, Max Enemies Hit: 1, Damage: 95% points, Number of Attacks: 1\\nOn Hit: Creates 2 shards that each inflict 130% damage. Upon using Winged Javelin: Creates 3 additional projectiles instead of shards which pursue enemies and strike for 250% damage 3 times.\\n[Passive Effects - Increases Winged Javelin's damage by 200%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/illium/radiant-javelin-ii.png", "/class-icons/flora/illium/radiant-javelin.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "When <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> hits an enemy, create shards that seek and attack nearby enemies<bp_<tt src={/class-icons/flora/illium/winged-javelin.png} tip={Winged Javelin (3rd Job)}> also fires extra projectiles that seek out enemies_>",
+                        "Also permanently increases %Damage of <tt src={/class-icons/flora/illium/winged-javelin.png} tip={Winged Javelin (3rd Job)}>"
+                    ]
+                },
+                {
+                    "name": "Radiant Orb II",
+                    "shortDesc": "MP Cost: 15, Max Enemies Hit: 2, Damage: +260% points",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/illium/radiant-orb-ii.png", "/class-icons/flora/illium/radiant-orb.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of attack by a flat amount",
+                        "Shares the same Skill Points (SP) with <tt src={/class-icons/flora/illium/radiant-javelin-ii.png} tip={Radiant Javelin II (4th Job)}>"
+                    ]
+                },
+                {
+                    "name": "Longinus Spear",
+                    "shortDesc": "MP Cost: 150, Max Enemies Hit: 10, Damage: 950%, Number of Attacks: 8\\nBoss Damage: +20%, Bonus Critical Rate: 100%\\nCooldown: 15 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/illium/longinus-spear.png"],
+                    "animations": ["https://media.giphy.com/media/VHYIRowDfkkbMZi2y3/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throw a spear in the direction of your <tt src={/class-icons/flora/illium/deploy-crystal.png} tip={Deploy Crystal (2nd Job)}> orb",
+                    "details": [
+                        "Deals increased %Boss Damage and is a guaranteed Critical Hit",
+                        "Also triggers <tt src={/class-icons/flora/illium/reaction-destruction.png} tip={Reaction - Destruction (2nd Job)}>",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Crystal Skill - Deus",
+                    "shortDesc": "MP Cost: 300, Duration: 15 sec\\nDamage: 1580%, Number of Attacks: 5, Enemies Hit: 10, a single enemy can be attack up to 4 time(s)\\nSatellites: Max Number of Summons: 5, Damage: 430% of continuous attack, Number of Attacks per Satellite: 25, a single enemy can be attacked up to 25 time(s).\\n[Passive Effects - Ex Damage: +100% (additive)]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/illium/crystal-skill-deus.png"],
+                    "animations": ["https://media.giphy.com/media/J2JVvNTRXiixWVATs0/giphy.gif"],
+                    "type": "Crystal Summon",
+                    "desc": "Combine <tt src={/class-icons/flora/illium/ex.png} tip={Ex (1st Job)}> and <tt src={/class-icons/flora/illium/machina.png} tip={Machina (2nd Job)}> to summon a giant robot that fights alongside you",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/flora/illium/ex.png} tip={Ex (1st Job)}> by a flat amount",
+                        "Requires a minimum of 90 Charges to summon",
+                        "Each enemy can only be hit a certain number of times by the summon",
+                        "Unaffected by Damage Reflect and %Summon Duration"
+                    ]
+                },
+                {
+                    "name": "Vortex Wings",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 12, Damage: 1070%, Number of Attacks: 15\\nOn struck enemies, Umbral Brand Stacks: 5\\n[Passive Effects: Increases damage for Reaction - Destruction II and Reaction - Domination II by 135% points]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/illium/vortex-wings.png"],
+                    "animations": ["https://media.giphy.com/media/fST0LkWwyHcNnJGlIZ/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Create a shockwave that deals damage to nearby enemies and applies max stacks of <tt src={/class-icons/flora/illium/umbral-brand.png} tip={Umbral Brand (2nd Job)}>",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage by a flat amount for the following skills: <tt src={/class-icons/flora/illium/reaction-destruction-ii.png} tip={Reaction - Destruction II (4th Job)}> <tt src={/class-icons/flora/illium/reaction-domination-ii.png} tip={Reaction - Domination II (4th Job)}>",
+                        "Can only be used during <tt src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)}> and only one time"
+                    ]
+                },
+                {
+                    "name": "Resonance Wings",
+                    "shortDesc": "Places Umbral Brands on enemies and Lucent Brands on allies, up to 12 targets.\\n[Passive Effects - Crystal Skill - Increases Vortex of Light's damage by +100%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/illium/resonance-wings.png"],
+                    "type": "Passive",
+                    "desc": "While in <tt src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)}>, create projectiles that applies <tt src={/class-icons/flora/illium/umbral-brand.png} tip={Umbral Brand (2nd Job)}> to nearby enemies and <tt src={/class-icons/flora/illium/lucent-brand.png} tip={Lucent Brand (1st Job)}> to nearby party members",
+                    "details": [
+                        "Also permanently increases %Damage of <tt src={/class-icons/flora/illium/crystal-skill-vortex-of-light.png} tip={Crystal Skill - Vortex of Light (2nd Job)}>"
+                    ]
+                },
+                {
+                    "name": "Hero of the Flora",
+                    "shortDesc": "MP Cost: 70, creates a Flora emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/illium/hero-of-the-flora.png"],
+                    "animations": ["https://media0.giphy.com/media/4YdIGXeYJYG0BVSC0o/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Floran Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/flora/illium/floran-heros-will.png"],
+                    "animations": ["https://media0.giphy.com/media/qqemDDp2c9kDdHAlbO/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Flash Crystal Battery",
+                    "shortDesc": "MP Cost: 100, immediately fully charges Crystal.\\nCooldown: 121 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/illium/flash-crystal-battery.png"],
+                    "animations": ["https://media.giphy.com/media/X3gi4W7LBLn8SRoWGl/giphy.gif"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Lucent Brand III",
+                    "shortDesc": "Max Stacks: 10, Duration: 20 sec\\n[Stack Bonuses]\\n1-3 Stacks: Attack Power & Magic ATT +2\\n4-6 Stacks: Attack Power & Magic ATT +4\\n7-9 Stacks: Attack Power & Magic ATT +6\\n10 Stacks: Attack Power & Magic ATT +10\\n[Passive Effects - Machina Damage: +100% points]",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/flora/illium/lucent-brand-iii.png", "/class-icons/flora/illium/lucent-brand.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max stacks from 6 to 10",
+                        "Also permanently increases %Damage of <tt src={/class-icons/flora/illium/machina.png} tip={Machina (2nd Job)}> by a flat amount"
+                    ]
+                },
+                {
+                    "name": "Umbral Brand III",
+                    "shortDesc": "Max Stacks: 5, Duration: 20 sec\\n[Stack Bonuses]\\n1 Stack: DEF: -4%\\n2-3 Stack: DEF: -4%\\n4-5 Stack: DEF: -4%\\nIllium's attacks against Umbral Branded enemies inflict an additional hit dealing 40%. The bonus hit's damage is multiplied up to 5x based on the number of Stacks.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/flora/illium/umbral-brand-iii.png", "/class-icons/flora/illium/umbral-brand.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max stacks from 3 to 5",
+                        "Increases %Damage of additional attack"
+                    ]
+                },
+                {
+                    "name": "Wisdom of the Crystal",
+                    "shortDesc": "Lucent Gauntlet Mastery: +70%\\nAttack Speed: +1, Knockback Resistance: +60%\\nBoss Damage: +30%, Ignore DEF: +25%, Final Damage: +50%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/illium/wisdom-of-the-crystal.png", "/class-icons/flora/illium/lucent-gauntlet-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now increases Attack Speed (by 1 stage), %Boss Damage, %Ignore DEF, and %Final Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Javelin - Reinforce",
+                    "shortDesc": "Radiant Javelin Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/javelin-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Javelin - Extra Strike",
+                    "shortDesc": "Radiant Javelin Attack Count: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/javelin-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Javelin - Boss Rush",
+                    "shortDesc": "Radiant Javelin Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/javelin-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Longinus - Reinforce",
+                    "shortDesc": "Longinus Spear Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/longinus-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Longinus - Extra Strike",
+                    "shortDesc": "Longinus Spear Attack Count: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/longinus-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Longinus - Cooldown Cutter",
+                    "shortDesc": "Longinus Spear Cooldown: -20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/longinus-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Deus - Reinforce",
+                    "shortDesc": "Crystal Skill - Deus & Satellite Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/deus-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Deus - Extra Strike",
+                    "shortDesc": "Crystal Skill - Deus & Satellite Attack Counts: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/deus-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Deus - Boss Rush",
+                    "shortDesc": "Crystal Skill - Deus & Satellite Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/deus-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Crystalline Bulwark",
+                    "shortDesc": "MP Cost: 100, Invincibility: 2.5 sec., +0.4 sec per Lucent Brand stack\\nCooldown: 120 sec ",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/crystalline-bulwark.png"],
+                    "animations": ["https://media4.giphy.com/media/en9dkbhs7VcF3BN302/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "Grants you and party members invincibility based on the number of Lucent Brand stacks currently active",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Longinus Zone",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 12, Damage: 1500%, Number of Attacks: 3, Explosions: 4\\nInvulnerable while casting\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/longinus-zone.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWRmMmRibjA3ZWZocW5yNmNhdXc0b3J4Ymx0cW43cWdwZzB1Y2dnNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zHPsl4CyRtsN396pjn/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Launch spears in a zone",
+                    "details": [
+                        "You are invincible while casting"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Divine Wrath",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Flora class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/illium/divine-wrath.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTBob25lZ2N4bDM5dGd2cXl1b2RpeGI5MHNocHd2MzczZTllNDZlaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PHx4bFSaJI9NEvoaLs/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["conversionOverdrive", "grandisGoddessBlessingFL", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Crystal Ignition",
+                    "shortDesc": "MP Cost per Attack: 30, Max Key-Down Duration: 6 sec, DoT: 1715%, Number of Attacks: 6, Max Enemies Hit: 15. Damage increased by 20% when attacking a boss.\\nYou can use the skill while walking backward and can change directions by pressing the direction key twice\\nDamage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/flora/illium/crystal-ignition.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDdzNjU2cDRsZzZvejVzd3YzYjY0cHV2OGs4NmF1dHNsaDlpanZociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LM4VKqB11ZCTeKIgUy/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, fire a beam of light forward",
+                    "details": [
+                        "Deals increased %Boss Damage",
+                        "Refreshes stacks of <tt src={/class-icons/flora/illium/umbral-brand.png} tip={Umbral Brand (2nd Job)}> on enemies",
+                        "While held, you can move but only walk backwards and cannot jump<bp_To change directions, press the Arrow Key of the direction you want to face twice_>",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses"
+                    ]
+                },
+                {
+                    "name": "Reaction - Spectral Blast",
+                    "shortDesc": "Max Enemies Hit: 15, Damage: 1645%, Boss Damage: +20%, Number of Attacks: 15\\nCooldown: 1 sec",
+                    "icons": ["/class-icons/flora/illium/reaction-spectral-blast.png"],
+                    "type": "Passive Attack",
+                    "desc": "When <tt src={/class-icons/flora/illium/crystal-ignition.png} tip={Crystal Ignition (5th Job)}> hits your <tt src={/class-icons/flora/illium/deploy-crystal.png} tip={Deploy Crystal (2nd Job)}> orb, it splits forward into beams of light",
+                    "details": [
+                        "Shares the same Skill Points (SP) as <tt src={/class-icons/flora/illium/crystal-ignition.png} tip={Crystal Ignition (5th Job)}> and is unlocked together"
+                    ]
+                },
+                {
+                    "name": "Templar Knight",
+                    "shortDesc": "MP Cost: 200, Duration: 12 sec, Disappears after 29 attacks.\\nMax Enemies Hit: 12, Damage: 1220%, Number of Attacks: 15\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/flora/illium/templar-knight.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2ZmMnJtN2U3eDZ6aHBudHJkYnEwdWo4MjljcHZ2cTlvdHhqNzBjNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eBu5w8IfHFXeONSrcH/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a stationary robot that continuously pulsates and damages enemies within the attack",
+                    "details": [
+                        "The summon disappears immediately upon attacking 29 times",
+                        "Ignores by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Crystalline Spirit",
+                    "shortDesc": "MP Cost: 500, A crystalline spirit forms near the mytocrystal for 65 sec.\\nOnly 80% of Final Damage for React skill the spirit activates is applied, but if its the 5th skill, 100% is applied. Reaction skills activated by Crystalline Spirit are not affected by cooldown reset.",
+                    "icons": ["/class-icons/flora/illium/crystalline-spirit.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXd6dWlpdW82dzE4eng4Y20wZnZ5aTJtcjBsdGZ1MGRlN3cydWpoMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YEu0P49OeKjsrSXV1R/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a stationary [Crystalline Spirit] at the position of the <tt src={/class-icons/flora/illium/deploy-crystal.png} tip={Deploy Crystal (2nd Job)}> that can also trigger Reaction skills and interact with <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> and <tt src={/class-icons/flora/illium/radiant-orb.png} tip={Radiant Orb (1st Job)}>",
+                    "details": [
+                        "Reaction skills triggered by the [Crystalline Spirit] deals reduced %Final Damage based<bp_5th Job Reaction skills deal full damage_>",
+                        "Reaction skills triggered by the [Crystalline Spirit] are unaffected by cooldown resets",
+                        "Does not reduce the number of enemies that can be attacked when interacting with <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}>",
+                        "Cannot be used during <tt src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)}>"
+                    ]
+                },
+                {
+                    "name": "Crystal Attunement",
+                    "shortDesc": "MP Cost: 120, Modifies the mytocrystal.\\nCooldown: 3 sec.",
+                    "icons": ["/class-icons/flora/illium/crystal-attunement.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDUybTUya293dWFiZXQ3aDBsMndhcmFoMHBmYzB0a3RrNnVwb3U2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A0pKWQZHRA9eXU79N1/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Using the Arrow Keys, choose between <tt src={/class-icons/flora/illium/crystalline-spirit.png} tip={Crystalline Spirit (5th Job)}> and <tt src={/class-icons/flora/illium/crystalline-essence.png} tip={Crystalline Essence (5th Job)}>",
+                    "details": [
+                        "Shares the same Skill Points (SP) as <tt src={/class-icons/flora/illium/crystalline-spirit.png} tip={Crystalline Spirit (5th Job)}> and is unlocked together"
+                    ]
+                },
+                {
+                    "name": "Crystalline Essence",
+                    "shortDesc": "When the Reaction skill is activated, an imitation Reaction skill will automatically activate as well.\\nThe imitation Reaction skill only has 80% of the original skill's Final Damage.\\nHowever, if the Reaction skill is a 5th skill, the imitation will have 100% instead.\\nThe imitation Reaction skill is not affected by cooldown reset effects.",
+                    "icons": ["/class-icons/flora/illium/crystalline-essence.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWl0bDVrdmJqaHNlYWtqcXpzNmdvbGVwNm5iMWJmaDkxZDBlcXE1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WDNjfEcmlwq5BHNx8X/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "When a Reaction skill is activated, an imitation Reaction skill is also activated",
+                    "details": [
+                        "Imitation Reaction skill deals reduced %Final Damage based on the original skill's %Final Damage<bp_5th Job Reaction skills deal full damage_>",
+                        "Imitation Reaction skills are unaffected by cooldown resets",
+                        "Does not activate during <tt src={/class-icons/flora/illium/crystal-skill-wings-of-glory.png} tip={Crystal Skill - Wings of Glory (3rd Job)}>",
+                        "Shares the same Skill Points (SP) as <tt src={/class-icons/flora/illium/crystalline-spirit.png} tip={Crystalline Spirit (5th Job)}> and is unlocked together"
+                    ]
+                },
+                {
+                    "name": "Crystal Gate",
+                    "shortDesc": "MP Cost: 500, Duration: 110 sec, Max Crystal Gates: 3\\nCrystal Gate activates after setting up at least 2, setup time and duration are the same.\\nAfter using it once, all Crystal Gates cannot be used for 2 sec and Crystal Gates you activated cannot be used for 5 sec.\\nDirect skill attacks that hit during the buff will bombard 5 times through the Crystal Gate up to 3 enemies with 990% damage. Cooldown: 1.5 sec\\nCooldown: 120 sec. Cooldown is reduced as much as 50% of the remaining cooldown if it ends before the Crystal Gate's duration.\\n[Passive Effect: Magic ATT: +65]",
+                    "icons": ["/class-icons/flora/illium/crystal-gate.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTRlejdncHM3ZGl6dm9mcHJ6Y2FyZjZwM2ZjOTJwc2NtNjFxaTV0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mFdzAAtprcK2VhNtra/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Place down a portal that allows you to travel back and forth between portals",
+                    "details": [
+                        "[Passive]: Permanently grants flat Magic Attack",
+                        "To use the portal, press the Up Arrow Key on the portal<bp_Has a cooldown (2 secs) between teleports and the portal used also has a cooldown (5 secs)_>",
+                        "While active, successful direct skill attacks create explosions that damage nearby enemies",
+                        "Using a portal can activate <tt src={/class-icons/link-skills/tide-of-battle.png} tip={Tide of Battle (Link Skill)}>",
+                        "If the skill ends early, a portion of the cooldown is refunded based on the remaining duration"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Radiant Javelin & Winged Javelin Boost",
+                    "shortDesc": "Radiant Javelin & Winged Javelin Final Damage: +120%",
+                    "icons": ["/class-icons/flora/illium/radiant-javelin-ii.png", "/class-icons/flora/illium/winged-javelin.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Umbral Brand III Boost",
+                    "shortDesc": "Umbral Brand III Final Damage: +120%",
+                    "icons": ["/class-icons/flora/illium/umbral-brand-iii.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Reaction - Destruction II Boost",
+                    "shortDesc": "Reaction - Destruction II Final Damage: +120%",
+                    "icons": ["/class-icons/flora/illium/reaction-destruction-ii.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Machina & Reaction - Domination II Boost",
+                    "shortDesc": "Machina & Reaction - Domination II Final Damage: +120%",
+                    "icons": ["/class-icons/flora/illium/machina.png", "/class-icons/flora/illium/reaction-domination-ii.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Vortex Wings & Crystal Skill - Vortex of Light Boost",
+                    "shortDesc": "Vortex Wings & Crystal Skill - Vortex of Light Final Damage: +120%",
+                    "icons": ["/class-icons/flora/illium/vortex-wings.png", "/class-icons/flora/illium/crystal-skill-vortex-of-light.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Longinus Spear Boost",
+                    "shortDesc": "Longinus Spear Final Damage: +120%",
+                    "icons": ["/class-icons/flora/illium/longinus-spear.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Longinus Zone Boost",
+                    "shortDesc": "Longinus Zone Final Damage: +120%",
+                    "icons": ["/class-icons/flora/illium/longinus-zone.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Deus & Ex Boost",
+                    "shortDesc": "Deus & Ex Final Damage: +120%",
+                    "icons": ["/class-icons/flora/illium/crystal-skill-deus.png", "/class-icons/flora/illium/ex.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/illium/hexa-radiant-javelin-winged-javelin.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/illium/radiant-javelin-ii.png} tip={Radiant Javelin and Winged Javelin (1st Job / 3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Radiant Javelin",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 5, Damage: 551%, Number of Attacks: 3\\nWhen a javelin hits: Creates 2 shards that each inflict 190% damage\\nWhen hitting a mytocrystal or an enemy with a javelin, 1 mytocrystal shard are obtained, and up to one mytocrystal shard can be obtained per javelin\\nAfter obtaining 30 mytocrystal shards, the next javelin becomes an Enchanted Javelin\\nEnchanted Javelin: throws 3 javelins at once\\nIf the Javelin Shard created by the Enchanted Javelin hit a single enemy, the final damage from the second Javelin Shard is reduced by 50%",
+                    "icons": ["/class-icons/flora/illium/hexa-radiant-javelin-1.png", "/class-icons/flora/illium/hexa-radiant-javelin-2.png", "/class-icons/flora/illium/radiant-javelin-ii.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmRiYzA3cm1rajU4NHJ6cXdxZnk1N24xZWwzYmJoM3duaXgzOTZ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dY2BhtZ3HXMIdhNNsX/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Winged Javelin",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 5, Damage: 879%, Number of Attacks: 6\\nWhen a javelin hits: Creates 3 magic missiles that attack 3 times with 356% damage\\nWhen a javelin hits, one glory mytocrystal shard is obtained, and up to one glory mytocrystal shard can be obtained per javelin\\nAfter obtaining 10 mytocrystal shards, the next javelin becomes an Enchanted Javelin\\nEnchanted Javelin: throws 3 javelins at once\\nIf the magic missile created by the Enchanted Javelin hits a single enemy, the final damage from the second magic missile is reduced by 50%",
+                    "icons": ["/class-icons/flora/illium/hexa-winged-javelin-1.png", "/class-icons/flora/illium/hexa-winged-javelin-2.png", "/class-icons/flora/illium/winged-javelin.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3R1b29rbzA4ZTlnaWIwYjBnOGZvY3o2eGxsemtwNWp6OG16MnJvNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UbEDToYdgzznDpev88/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/illium/hexa-reaction-vortex-wings.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3RmbWtqbmJ4YmFrYXc1ejYybzZ4N3RmZHM4YWV3Z3I2YzRsN3J4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LG5x92xPHUBXr3hSSK/giphy-downsized-large.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/illium/reaction-destruction-ii.png} tip={Reaction - Destruction II (3rd Job)}> <tt src={/class-icons/flora/illium/reaction-domination-ii.png} tip={Reaction - Domination II (3rd Job)}> <tt src={/class-icons/flora/illium/vortex-wings.png} tip={Vortex Wings (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Reaction - Destruction",
+                    "shortDesc": "MP Cost: 205, Max Enemies Hit: 10, Damage: 1145%, Number of Attacks: 6, Detonations: 2, Boss Damage: +20%\\nCooldown: 4 sec",
+                    "icons": ["/class-icons/flora/illium/hexa-reaction-destruction.png", "/class-icons/flora/illium/reaction-destruction-ii.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDNvcmc2ZHE1NzFzbnMycHJtMW55M3B5dzA0aG1mNDFkczg4Nmx0MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TPp55N3viz2EYXVIdJ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Reaction - Domination",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 12, Damage: 915%, Number of Attacks: 5\\nCooldown: 4 sec",
+                    "icons": ["/class-icons/flora/illium/hexa-reaction-domination.png", "/class-icons/flora/illium/reaction-domination-ii.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3llNnhpNWcyMTZjemZldzFnd3NyMG5ibHgwOWJ0ZnRmdDNwMGZnZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9ttPIqgaHFjcRlxwyX/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Vortex Wings",
+                    "shortDesc": "MP Cost: 200, Damage: 2200%, Max Enemies Hit: 15, Number of Attacks: 15, Spell Storms: 5\\n[Passive Effect: Enchanted Javelin Damage: +170% points]",
+                    "icons": ["/class-icons/flora/illium/hexa-vortex-wings.png", "/class-icons/flora/illium/vortex-wings.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3FmaXQyd3h3bGhlOXM4MnQ0MTB2enpob3Qya29lbjF0ajE4N2NyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mNsgYebMLOYbtz2GDZ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/illium/hexa-ex-machina-deus.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/illium/machina.png} tip={Machina (2nd Job)}> <tt src={/class-icons/flora/illium/crystal-skill-deus.png} tip={Deus and Ex (4th Job / 1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Ex",
+                    "shortDesc": "MP Cost: 105, Duration: 270 sec. Moves to the target and attacks for a short time. Damage: 504%, Attack ends after 40 hits.",
+                    "icons": ["/class-icons/flora/illium/hexa-ex.png", "/class-icons/flora/illium/ex.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmRnajUzNWZndWduNWlrMDdzdjA1ZGZhaWx6NjMwYmFqdnBldjJmNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VM0ro6aA0DTZqvGoGN/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Machina",
+                    "shortDesc": "MP Cost: 115, Duration: 270 sec.\\nDamage: 735%, Number of Attacks: 4, Max Enemies Hit: 5\\nNumber of Attacks on Enemies in Crystal's Path: 1",
+                    "icons": ["/class-icons/flora/illium/hexa-machina.png", "/class-icons/flora/illium/machina.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXZjamVnMTZnMnFpeDlidG16am9ocHhqamhpZmowZWo4cXdjOXNteSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IEzIpriDNVIU3TpUmm/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Crystal Skill - Deus",
+                    "shortDesc": "MP Cost: 345, Duration: 15 sec.\\nDeus Damage: 1890%, Number of Attacks: 10, Max Enemies Hit: 10, a single enemy can be attacked up to 4 time(s)\\nSatellite: Max Number of Summons: 5, Max Number of Satellites per Enemy: 3, Damage: 500% of continuous attack, Number of Attacks per Satellite: 25, a single enemy can be attacked up to 75 time(s)",
+                    "icons": ["/class-icons/flora/illium/hexa-crystal-skill-deus.png", "/class-icons/flora/illium/crystal-skill-deus.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2s1Zjh2aWZocGJnOTN3N3EzNGx5ZG52b2ZrdjF3aHZwc2drcjI1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Tfe8PFj109UQuR6wyV/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/illium/hexa-longinus-umbral-brand-iii.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/illium/vortex-wings.png} tip={Vortex Wings and Crystal Skill - Vortex of Light (3rd Job)}> <tt src={/class-icons/flora/illium/umbral-brand-iii.png} tip={Umbral Brand III (4th Job)}> <tt src={/class-icons/flora/illium/longinus-zone.png} tip={Longinus Zone (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Longinus Spear",
+                    "shortDesc": "MP Cost: 180, Max Enemies Hit: 10, Damage: 2400%, Number of Attacks: 14\\nNumber of HEXA Radiant Javelin Mytocrystal Shards when Hitting Enemies or Crystal: 2, Number of HEXA Winged Javelin Glory Mytocrystal Shards: 3, Mytocrystal Charge: 20\\nBoss Damage: +20%, Bonus Critical Rate: 100%\\nBoss Damage During Crystal Skill - Wings of Glory: +20%\\nCooldown: 13 sec.",
+                    "icons": ["/class-icons/flora/illium/hexa-longinus-spear.png", "/class-icons/flora/illium/longinus-spear.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHF4dTRjbnJ5ZzJ4MHZjZnpqYnI0eG9ubXpvZzR2bTV6Z2piYmk0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UISbE7BntiyhAw8TFR/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21zcHYyMGEzYnUyaGIxcXJkdHpoMXI2emI1dzRrZXJmajMxZWtzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NnsBrJ7xu4gUI0lWrj/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Umbral Brand III",
+                    "shortDesc": "Attacks against enemies with Umbral Brand deal 800% of additional hard regardless of Umbral Brand stacks.\\n[Passive Effect: HEXA Radiant Javelin, Radiant Enhanced Javelin Damage: +30% points]",
+                    "icons": ["/class-icons/flora/illium/hexa-umbral-brand-iii.png", "/class-icons/flora/illium/umbral-brand-iii.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjZ1ajc4b2U1NXp4cnJqYWh3Y2FqMTEwOHF2ODF1b3dieGw2bmxjNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WW88Pdp2CjRuvdHjm0/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Longinus Zone",
+                    "shortDesc": "MP Cost: 245, Max Enemies Hit: 12, Damage: 1530%, Number of Attacks: 5, Explosions: 4\\nInvincible during casting\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/flora/illium/hexa-longinus-zone.png", "/class-icons/flora/illium/longinus-zone.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG1pd240bno3Z3pjazRraHQ4NzBobm1ndGhuNDJiZndxeDh1MGVkMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kJlnZZ2LiiO3G7eKf7/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Mytocrystal Expanse",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nWhen used while Wings of Glory is active, increases Wings of Glory duration by 5 sec\\nMax Enemies Hit: 15, Damage: 1200%, Number of Attacks: 8, Number of Magic Explosions: 12.\\nDamage: 1330%, Number of attacks: 10, Number of Magic Explosions: 13.\\nDamage: 1500%, Number of Attacks: 15, Number of Magic Explosions: 16\\nSummons infinite mytocrystals for 20 sec\\nWhen there is a reaction from the mytocrystal, it resonates to deal 1920% damage up to 15 enemies 15 times. Resonate Cooldown: 1 sec\\nAfter 3 resonates, Mytocrystal Crystals Created: 25, Damage: 1200%, Number of Attacks: 2, Mytocrystal Crystal Cooldown: 2 sec\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/flora/illium/mytocrystal-expanse.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWswbXg2am56bWppbmwydTN5Y3d5cnM4MDducjdkdXViamxxaTFhdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j3Zilqk6DNCRj8foew/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Excidium",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nExcidium fire 5 waves, dealing 6895% damage to up to 15 enemies 12 times.\\nThen Excidium's bombardment explodes 23 times, dealing 7245% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/flora/illium/excidium.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzVzbjY3OTJtNXI4c2ppdG1zdG5nYm5lamY1YXp3YnY4dmM4NXI4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3UV6fAuvxreIVA6YQA/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Crystal Ignition Boost",
+                    "shortDesc": "Crystal Ignition and Reaction - Spectral Blast Final Damage: +60%",
+                    "icons": ["/class-icons/flora/illium/crystal-ignition.png", "/class-icons/flora/illium/reaction-spectral-blast.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Templar Knight Boost",
+                    "shortDesc": "Templar Knight Final Damage: +60%",
+                    "icons": ["/class-icons/flora/illium/templar-knight.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Crystalline Spirit Boost",
+                    "shortDesc": "Crystalline Spirit Reaction Skill Final Damage: 90%\\n[Passive Effect - All Stats: +90]",
+                    "icons": ["/class-icons/flora/illium/crystalline-spirit.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Crystal Gate Boost",
+                    "shortDesc": "Crystal Gate Final Damage: +60%, Duration: 130 sec, Buff Magic ATT: +95",
+                    "icons": ["/class-icons/flora/illium/crystal-gate.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Radiant Javelin - 1st Job",
+                "icons": ["/class-icons/flora/illium/radiant-javelin.png"],
+                "animations": ["https://media.giphy.com/media/Th4ptvatxz2ypCqqsx/giphy.gif"]
+            },
+            {
+                "name": "Reaction - Destruction - 2nd Job",
+                "icons": ["/class-icons/flora/illium/reaction-destruction.png"],
+                "animations": ["https://media.giphy.com/media/VDMXzcROJgaEwWIVaE/giphy.gif"]
+            },
+            {
+                "name": "Reaction - Domination - 2nd Job",
+                "icons": ["/class-icons/flora/illium/reaction-domination.png"],
+                "animations": ["https://media.giphy.com/media/Ma1jYbagnXxeXSkF2j/giphy.gif"]
+            },
+            {
+                "name": "Crystal Skill - Wings of Glory - 3rd Job",
+                "icons": ["/class-icons/flora/illium/crystal-skill-wings-of-glory.png"],
+                "animations": ["https://media.giphy.com/media/J6Dd8eNulGBGxQ80nD/giphy.gif"]
+            },
+            {
+                "name": "Crystal Skill - Deus - 4th Job",
+                "icons": ["/class-icons/flora/illium/crystal-skill-deus.png"],
+                "animations": ["https://media.giphy.com/media/J2JVvNTRXiixWVATs0/giphy.gif"]
+            },
+            {
+                "name": "Crystal Ignition - 5th Job",
+                "icons": ["/class-icons/flora/illium/crystal-ignition.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDdzNjU2cDRsZzZvejVzd3YzYjY0cHV2OGs4NmF1dHNsaDlpanZociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LM4VKqB11ZCTeKIgUy/giphy.gif"]
+            },
+            {
+                "name": "Templar Knight - 5th Job",
+                "icons": ["/class-icons/flora/illium/templar-knight.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2ZmMnJtN2U3eDZ6aHBudHJkYnEwdWo4MjljcHZ2cTlvdHhqNzBjNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eBu5w8IfHFXeONSrcH/giphy.gif"]
+            },
+            {
+                "name": "Mytocrystal Expanse - 5th Job",
+                "icons": ["/class-icons/flora/illium/mytocrystal-expanse.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWswbXg2am56bWppbmwydTN5Y3d5cnM4MDducjdkdXViamxxaTFhdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j3Zilqk6DNCRj8foew/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Excidium - 6th Job",
+                "icons": ["/class-icons/flora/illium/excidium.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzVzbjY3OTJtNXI4c2ppdG1zdG5nYm5lamY1YXp3YnY4dmM4NXI4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3UV6fAuvxreIVA6YQA/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Illium is primary stat is INT and uses a new weapon called Magic Gauntlet and secondary weapons Lucent Wings. Illium revolves around the controlling a magical orb. You can move the orb around and attack with that orb which requires charging the orb and interacting with it"
+}

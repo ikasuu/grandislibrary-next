@@ -1,0 +1,1180 @@
+{
+    "class": "Kanna",
+    "content": {
+        "classGroup": "Sengoku",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Increases %Boss Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["fanKanna"]},
+            {"secondary": ["talisman"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.35x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/sengoku/kanna/peacocks-plumage.png} tip={Peacock's Plumage (2nd Job)} val={+2}> <bg src={/class-icons/sengoku/kanna/kasen.png} tip={Kasen (4th Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/sengoku/kanna/kasen.png} tip={Kasen (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+40 & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/sengoku/kanna/spiritual-enlightenment.png} tip={Spiritual Enlightenment (1st Job)} val={+40}> <bg src={/class-icons/sengoku/kanna/akatsuki-warrior.png} tip={Akatsuki Warrior (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+4% +30(80)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/sengoku/kanna/spirit-path.png} tip={Spirit Path (3rd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} val={+50}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+45%(60%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/sengoku/kanna/spirit-path.png} tip={Spirit Path (3rd Job)} val={+40%}> <bg type={temp} src={/class-icons/sengoku/kanna/call-of-unity.png} tip={Call of Unity (4th Job)} val={+5% per summoned Shikigami} val={(Max. +15%)}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+20%(35%)",
+                "detail": "<bg src={/class-icons/sengoku/kanna/spirit-path.png} tip={Spirit Path (3rd Job)} val={+20%}> <bg type={opt} src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} val={+15%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+30%(96%)(116% for Shikigami)",
+                "detail": "<bg src={/class-icons/sengoku/kanna/kasen.png} tip={Kasen (4th Job)} val={+30%}> <bg type={debuff} src={/class-icons/sengoku/kanna/heart-wreck-talisman.png} tip={Heart-Wreck Talisman (4th Job)} val={+20% for Shikigami}> <bg type={temp} src={/class-icons/sengoku/akatsuki-blessing.png} tip={Akatsuki Blessing (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/link-skills/elementalism.png} tip={Elementalism (Link Skill)} val={+20% after using 40 attack skills}> <bg type={temp} src={/class-icons/sengoku/kanna/call-of-unity.png} tip={Call of Unity (4th Job)} val={+12% per summoned Shikigami} val={(Max. +36%)}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "(+30-40% for Shikigami)",
+                "detail": "<bg type={temp} sub={temp} src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)} val={+30% for Shikigami} subSrc={/class-icons/sengoku/kanna/true-name-revelation.png} subTip={True Name Revelation (Hyper Skill)} subVal={extra +10% while active}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "(+35%)(75.5-82.25% for Shikigami)",
+                "detail": "<bg type={temp} sub={temp} src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)} val={+30% for Shikigami} subSrc={/class-icons/sengoku/kanna/true-name-revelation.png} subTip={True Name Revelation (Hyper Skill)} subVal={extra +5% while active}> × <bg type={opt} src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} val={+25%}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "(+30-40% for Shikigami)",
+                "detail": "<bg type={temp} sub={temp} src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)} val={+30% for Shikigami} subSrc={/class-icons/sengoku/kanna/true-name-revelation.png} subTip={True Name Revelation (Hyper Skill)} subVal={extra +10% while active}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/sengoku/kanna/peacocks-plumage.png} tip={Peacock's Plumage (2nd Job)} dur={[200s]}>",
+            "toggles": "<tt src={/class-icons/sengoku/kanna/order-standby.png} tip={[Order] Standby (3rd Job)}>(1s cd) <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
+            "summons": "<tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)} dur={[55s](60s cd)}> <tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)} dur={[25s](60s cd)}> <tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)} dur={[25s](120s cd)}> <tt src={/class-icons/sengoku/kanna/barrier-spirit-chains.png} tip={Barrier: Spirit Chains (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/sengoku/kanna/heart-wreck-talisman.png} tip={Heart-Wreck Talisman (4th Job)}dur={[3s](30s cd)}> <tt src={/class-icons/sengoku/kanna/spirit-hakumenkonmou-juubi.png} tip={[Spirit] Hakumenkonmou Juubi (5th Job)} dur={[15s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/sengoku/kanna/call-of-unity.png} tip={Call of Unity (4th Job)} dur={[20s](60s cd)}> <tt src={/class-icons/sengoku/kanna/true-name-revelation.png} tip={True Name Revelation (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/sengoku/akatsuki-blessing.png} tip={Akatsuki Blessing (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/sengoku/kanna/spirit-unleash-the-radiant-flame.png} tip={[Spirit] Unleash the Radiant Flame (5th Job)} dur={[30s](120s)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/sengoku/kanna/barrier-spirit-chains.png} tip={Barrier: Spirit Chains (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/sengoku/kanna/divine-will-advent-of-crimson.png} tip={[Divine Will] Advent of Crimson (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/sengoku/kanna/barrier-curse-ward.png} tip={Barrier: Curse Ward (3rd Job)} dur={[3s](60s cd)}> <tt src={/class-icons/sengoku/kanna/spirit-hakumenkonmou-juubi-final-blow.png} tip={[Spirit] Hakumenkonmou Juubi - Finishing Blow (5th Job)} dur={[4s](120s cd)}> <tt src={/class-icons/sengoku/kanna/divine-will-advent-of-crimson.png} tip={[Divine Will] Advent of Crimson (6th Job)} dur={(360s cd)}> <tt src={/class-icons/sengoku/kanna/divine-will-final-rest.png} tip={[Divine Will] Final Rest} dur={(240s cd | 3 uses during boss)}>",
+            "damageReduce": "<tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)} dur={[25s](-30% to -35% | 120s cd)}> <tt src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} dur={[40s](-20% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000004,
+            "offline": true,
+            "name": "Elementalism",
+            "maxLevel": 3,
+            "shortDesc": "Activate an attack skill 40 times to meet the conditions.\\n[Elementalism]: Damage: +20% Duration: 12 sec.",
+            "icons": ["/class-icons/link-skills/elementalism.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Unaffected by %Buff Duration"
+            ]
+        },
+        "howToCreate": {
+            "image": ["/class-icons/sengoku/how-to-create-kanna.png",[499,374]],
+            "npc": [
+                ["",""]
+
+            ],
+            "info": [
+                "Kanna is only available for creation in Japan, China, Global, SEA, and Taiwan versions of MapleStory"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/sengoku/kanna/leap-talisman.png} tip={Leap Talisman}> -> <tt src={/class-icons/sengoku/kanna/clear-mind.png} tip={Clear Mind}> -> <tt src={/class-icons/sengoku/kanna/eternal-bonds.png} tip={Eternal Bonds}> -> <tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni}> -> <tt src={/class-icons/sengoku/kanna/spiritual-enlightenment.png} tip={Spiritual Enlightenment}> -> <tt src={/class-icons/sengoku/kanna/crimson-covenant.png} tip={Crimson Convenant}> -> <tt src={/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png} tip={Soul-Shatter Talisman: Scores}>"],
+                ["2nd Job", "<tt src={/class-icons/sengoku/kanna/ayanokouji-bloodline.png} tip={Ayanokouji Bloodline}> -> <tt src={/class-icons/sengoku/kanna/peacocks-plumage.png} tip={Peacock's Plumage}> -> <tt src={/class-icons/sengoku/kanna/crimson-covenant-ii.png} tip={Crimson Convenant II}> -> <tt src={/class-icons/sengoku/kanna/order-spinning-strike.png} tip={[Order] Spinning Strike}> -> <tt src={/class-icons/sengoku/kanna/soul-shatter-talisman-icon.png} tip={Soul-Shatter Talisman: Icon}> -> <tt src={/class-icons/sengoku/kanna/evils-end-talisman.png} tip={Evil's End Talisman}>"],
+                ["3rd Job", "<tt src={/class-icons/sengoku/kanna/shikigami-charm.png} tip={Shikigami Charm}> -> <tt src={/class-icons/sengoku/kanna/unshakeable-faith.png} tip={Unshakeable Faith}> -> <tt src={/class-icons/sengoku/kanna/spirit-path.png} tip={Spirit Path}> -> <tt src={/class-icons/sengoku/kanna/crimson-covenant-iii.png} tip={Crimson Convenant III}> -> <tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu}> -> <tt src={/class-icons/sengoku/kanna/soul-shatter-talisman-spirit.png} tip={Soul-Shatter Talisman: Spirit}> -> <tt src={/class-icons/sengoku/kanna/obsidian-feather.png} tip={Obsidian Feather}> -> <tt src={/class-icons/sengoku/kanna/barrier-curse-ward.png} tip={Barrier: Curse Ward}>"],
+                ["4th Job", "<tt src={/class-icons/sengoku/kanna/kasen.png} tip={Kasen}> -> <tt src={/class-icons/sengoku/kanna/crimson-covenant-iv.png} tip={Crimson Covenant IV}> -> <tt src={/class-icons/sengoku/kanna/obsidian-feather-ii.png} tip={Obsidian Feather II}> -> <tt src={/class-icons/sengoku/kanna/ivory-fang.png} tip={Ivory Fang}> -> <tt src={/class-icons/sengoku/kanna/shikigami-master.png} tip={Shikigami Master}> -> <tt src={/class-icons/sengoku/kanna/akatsuki-warrior.png} tip={Akatsuki Warrior}> -> <tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi}> -> <tt src={/class-icons/sengoku/kanna/order-shade-fletched-arrow.png} tip={[Order] Shade-Fletched Arrow}> -> <tt src={/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png} tip={Soul-Shatter Talisman: Dance}> -> <tt src={/class-icons/sengoku/kanna/heart-wreck-talisman.png} tip={Heart-Wreck Talisman}> -> <tt src={/class-icons/sengoku/kanna/barrier-spirit-chains.png} tip={Barrier: Spirit Chains}> -> <tt src={/class-icons/sengoku/kanna/order-execute.png} tip={[Order] Execute}> -> <tt src={/class-icons/sengoku/kanna/call-of-unity.png} tip={Call of Unity}> -> <tt src={/class-icons/sengoku/kanna/akatsuki-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/sengoku/kanna/pulverizing-strike-reinforce.png} tip={Pulverizing Strike - Reinforce}> <tt src={/class-icons/sengoku/kanna/pulverizing-strike-guardbreak.png} tip={Pulverizing Strike - Guardbreak}> Pulverizing Strike - Reinforce and Guardbreak_<tt src={/class-icons/sengoku/kanna/shade-fletched-arrow-reinforce.png} tip={Shade-Fletched Arrow - Reinforce}> <tt src={/class-icons/sengoku/kanna/shade-fletched-arrow-boss-rush.png} tip={Shade-Fletched Arrow - Boss Rush}> Shade-Fletched Arrow - Reinforce and Boss Rush_<tt src={/class-icons/sengoku/kanna/execute-reinforce.png} tip={Execute - Reinforce}> Execute - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> <tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> <tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/sengoku/kanna/order-pulverizing-strike.png} tip={[Order] Pulverizing Strike (Hyper Skill)}> <tt src={/class-icons/sengoku/kanna/order-execute.png} tip={[Order] Execute (4th Job)}> <tt src={/class-icons/sengoku/kanna/order-shade-fletched-arrow.png} tip={[Order] Shade-Fletched Arrow (4th Job)}>"],
+                    ["Tertiary Trio", "<tt src={/class-icons/sengoku/kanna/order-spinning-strike.png} tip={[Order] Spinning Strike (2nd Job)}> <tt src={/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png} tip={Soul-Shatter Talisman (1st Job)}> <tt src={/class-icons/sengoku/kanna/heart-wreck-talisman.png} tip={Heart-Wreck Talisman (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3,4,5],
+            "nodes": [
+                "<tt src={/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png} tip={Soul-Shatter Talisman (1st Job)}> <tt src={/class-icons/sengoku/kanna/heart-wreck-talisman.png} tip={Heart-Wreck Talisman (4th Job)}>",
+                "<tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}>",
+                "<tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}>",
+                "<tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}>",
+                "<tt src={/class-icons/sengoku/kanna/order-spinning-strike.png} tip={[Order] Spinning Strike (2nd Job)}> <tt src={/class-icons/sengoku/kanna/order-pulverizing-strike.png} tip={[Order] Pulverizing Strike (Hyper Skill)}>",
+                "<tt src={/class-icons/sengoku/kanna/order-execute.png} tip={[Order] Execute (4th Job)}> <tt src={/class-icons/sengoku/kanna/order-shade-fletched-arrow.png} tip={[Order] Shade-Fletched Arrow (4th Job)}> "
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Kanna"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%B9%B8%EB%82%98(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/zbH8e2xC7H"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1Xp7JD_YEDGyZD613QT7BGXO1kOtF2ze1E2hUDSkuxSc"}
+        ],
+        "infographics": [
+            {
+                "src": "kanna/kanna-overview.png",
+                "title": "Overview",
+                "credit": "Mishilax",
+                "date": "2026-06-03"
+            },
+            {
+                "src": "kanna/kanna-6th-job.png",
+                "title": "6th Job",
+                "credit": "lostara and brendon",
+                "date": "2026-06-25"
+            }
+        ],
+        "discord": "https://discord.gg/zbH8e2xC7H",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Hyper Passive Build + Inner Ability + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Shikigami",
+            "content": [
+                "<img src={https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXVhOW9pazNmb3ZxeW1zNTdreHVmZ2NzdHJhM3FiOXJnczNzd2Y1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UIJdESlCBiwvf2z0ZR/giphy.gif} alt={Kanna Gauge}>",
+                "Kanna uses summons called Shikigami that attack enemies on their own. Kanna can use [Order] or [Spirit] skills to command the Shikigami to use an attack from their position. Pressing the Down Arrow Key and Skill Key together will instead cast the attack from your position",
+                "Each Shikigami have a set of attack skills and passive effects called Traits that either empower Kanna or other Shikigami",
+                "[Resonance]",
+                "When a Shikigami activates a skill, there is a chance to grant [Resonance] to another Shikigami that allows an [Order] skill to be used regardless if the Shikigami is summoned. This resonated [Order] skill will not trigger a cooldown",
+                "The following Shikigami grant [Resonance] for the following Shikigami:<bp_<tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni grants to <tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu_<tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu grants to <tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi_<tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi grants to <tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni_>",
+                "Kanna's gauge will display each Shikigami's remaining duration and displays a glowing icon when [Resonance] is available"
+                ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Elementalism",
+                    "shortDesc": "Activate an attack skill 40 times to meet the conditions.\\n[Elementalism]: Damage: +20% Duration: 12 sec.",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/elementalism.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Unaffected by %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "Blessing of the Five Elements",
+                    "shortDesc": "Permanently increases Max HP by 15%, Max MP by 15%, and decreases Damage Taken by 30%.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/blessing-of-the-five-elements.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Hand of Fate",
+                    "shortDesc": "Spirit Walker Fan Mastery: +40%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/hand-of-fate.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Return of the Five Planets",
+                    "shortDesc": "Returns you to Momijigaoka\\nCooldown 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/return-of-the-five-planets.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDJwc3ozcHJiOWJid2ZnMWgzMWNkMGU3NXk5cnJ2ZW5nYjE3amwxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b7BVEm0a61PImZuQF2/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Haku the Familiar",
+                    "shortDesc": "The first use summons Haku as a fox. Subsequent uses transforms Haku into human form, then dismisses the summon.\\nCooldown: 3 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/haku-the-familiar.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHphbmJ1czdwajFuMWJtNXVpODQ3bnV2bzNzY282dHF1bWNhMXlpOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TGen06JJPP6cjWmFXe/giphy.gif"],
+                    "type": "Toggle Active",
+                    "desc": "Allows you to hide/show Haku visual effect",
+                    "details": [
+                        "Using the skill will cycle between fox form, human form, and dismissing Haku"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "Increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGNjbnN1NXg5eXJ2emNzY3RhNmR1aXhhOTI1ZjYzOGU3d3pqdzE5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C4UNkYK5kdCiA5nfW3/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/58/Spiritual_Release} title={\"Spiritual Release\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Soul-Shatter Talisman: Scores",
+                        "shortDesc": "MP Cost: 10\\nMax Enemies Hit: 4, Damage: 40%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmhmaHZyb25maWw3NXg3YWcydmZzam5vajl4ODJxbHJ1NmphbjVxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hMbTCj4aQs8T5kZ4yk/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast forward damaging charms"
+                    },
+                    {
+                        "name": "Commune",
+                        "shortDesc": "MP Cost: 20\\nEnters Commune mode.\\nCooldown: 180 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/sengoku/kanna/commune.png"],
+                        "type": "Active",
+                        "desc": "When used, displays a short conversation with a chosen Shikigami",
+                        "details": [
+                            "Can only be used in town"
+                        ]
+                    },
+                    {
+                        "name": "Leap Talisman",
+                        "shortDesc": "MP Cost: 20, Teleport horizontally a distance of 300, or vertically a distance of 400\\n[Passive Effects]: Speed: +22, Max Speed: +20",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/sengoku/kanna/leap-talisman.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdno3M3docG5qd29kdHR4cHd2OW91b2Z6bHN3a3RyeG4zZWtqaG00MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PTsDp0zm6tX0GPv2BI/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleport in the direction you are moving using the Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders",
+                            "When in town, pressing the Skill Key without any Arrow Keys teleports you to a random location within the map"
+                        ]
+                    },
+                    {
+                        "name": "Summon Oni",
+                        "shortDesc": "MP Cost: 40, Summon Duration: 55 sec.\\nCelestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 45%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down on the target location. Max Enemies Hit: 6, Damage: 100%, Number of Attacks: 6\\nCooldown:  60 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/kanna/summon-oni.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnU0ZWRvcDR1cnpuamgxa2x5MnN4bzRmcTBiMHFpejZ3ZnBseHh3NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TTWaGiOlA5mo9GDRfM/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon Oni to attack nearby enemies using a club",
+                        "details": [
+                            "Oni will periodically use the following attacks:<bp_[Celestial Strike]: Oni swings forward_[Leaping Strike]: Oni leaps to nearby enemies and strikes downwards_>",
+                            "Unaffected by Damage Reflect, cooldown resets, and %Summon Duration",
+                            "Right-clicking the skill will toggle ON/OFF the <tt src={/class-icons/sengoku/kanna/shikigami-master.png} tip={Shikigami Master (4th Job)}> Resonance visual effect"
+                        ]
+                    },
+                    {
+                        "name": "Crimson Covenant",
+                        "shortDesc": "Blessing of Recovery: While Oni is summoned, restores 3% of your Max HP/MP every 3 seconds. Grants a 60% chance to recover 3% of your Max HP/MP when any Shikigami lands an attack on an enemy.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/kanna/crimson-covenant.png", "/class-icons/sengoku/kanna/summon-oni.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Oni now gains the following skills:<bp_[Blessing of Recovery]: While summoned, periodically restore %Max HP/MP and successful attacks from any Shikigami will restore %Max HP/MP_>"
+                        ]
+                    },
+                    {
+                        "name": "Clear Mind",
+                        "shortDesc": "Knockback Resistance: +30%, Damage Taken: -70%",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/sengoku/kanna/clear-mind.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Eternal Bonds",
+                        "shortDesc": "Speed: +20, LUK: +30\\nMP Absorb Chance: 20%, Amount Absorbed: 5% of Max MP, Amount Absorbed: 3% of the boss's Max MP (including Shikigami attacks)",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/sengoku/kanna/eternal-bonds.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Effectiveness is reduced for bosses"
+                        ]
+                    },
+                    {
+                        "name": "Spiritual Enlightenment",
+                        "shortDesc": "INT: +40, DEF: +400, Max MP: +20%, MP increases by 120 per level",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/kanna/spiritual-enlightenment.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Soul-Shatter Talisman: Icon",
+                        "shortDesc": "MP Cost: 20\\nMax Enemies Hit: 6, Damage: 75%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/soul-shatter-talisman-icon.png", "/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExemZhY2d1cjF6MHdsZ2V6Z21jOGVqb2Q5Z25kZml2Z284OTZvbm05diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NXFXTajMF7BDQi4sPN/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Max Enemies Hit and %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "Evil's End Talisman",
+                        "shortDesc": "MP Cost: 25\\nMax Enemies Hit: 7, Damage: 180%, Number of Attacks: 6\\nCooldown: 8 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/evils-end-talisman.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm56dzAydThuaGYwcXhqMWM4am54YXM5dmp3dnA1cDczYTcxNmR4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hnSPSeBUiEbaYag8Ku/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Release a circle of talisman around yourself"
+                    },
+                    {
+                        "name": "[Order] Spinning Strike",
+                        "shortDesc": "MP Cost: 30\\nSpinning Strike: Take a step forward and, at the same time, spin a massive club 2 times in a row. Max Enemies Hit: 12, Damage: 170%, Number of Attacks: 8, Strike Activations: 3\\nCooldown: 12 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/order-spinning-strike.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTYxanVrZHYyeTlsMWI2ODJiNDQyOGU1Zms2eGdxejkzMDlhNGlxdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xI1sxSTs0TJRKguug9/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "While summoned, command <tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni to swing forward",
+                        "details": [
+                            "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you",
+                            "Unaffected by cooldown resets and cooldown reduction"
+                        ]
+                    },
+                    {
+                        "name": "Peacock's Plumage",
+                        "shortDesc": "MP Cost: 20\\nDuration: 200 sec., Attack Speed: +2",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/kanna/peacocks-plumage.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGd1aXZlaThuOGg2Y2xjZGlnOG0wNHVpanRqNGpxYWFucGYwbnN5eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZDjNeHJ5lReaqu3uyk/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Crimson Covenant II",
+                        "shortDesc": "Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 70%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 6, Damage: 130%, Number of Attacks: 6\\nCrimson Flame: While Oni is summoned, Normal Enemy Damage of All Shikigami: +60%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/crimson-covenant-ii.png", "/class-icons/sengoku/kanna/summon-oni.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of [Celestial Strike] and [Leaping Strike]",
+                            "Oni now gains the following skills:<bp_[Crimson Flame]: While summoned, increases %Damage to regular monsters for all Shikigami_>"
+                        ]
+                    },
+                    {
+                        "name": "Ayanokouji Bloodline",
+                        "shortDesc": "Permanently increases EXP by 10%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/sengoku/kanna/ayanokouji-bloodline.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Soul-Shatter Talisman: Spirit",
+                        "shortDesc": "MP Cost: 30\\nMax Enemies Hit: 7, Damage: 120%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/soul-shatter-talisman-spirit.png", "/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Max Enemies Hit and %Damage of attack"
+                        ]
+                    },
+                    {
+                        "name": "Summon Tengu",
+                        "shortDesc": "MP Cost: 50, Summon Duration: 25 sec.\\nKnown Skills\\nPiercing Shot: Fires an arrow in the direction of the target that penetrates enemies in its path. Max Enemies Hit: 10, Damage: 560%, Number of Attacks: 10\\nTraits\\nIntense Gaze: All of Tengu's attacks ignore 100% of the enemy's defense.\\nWhile Tengu is on the battlefield, all Shikigami attacks ignore an addtional 30% of the enemy's defense.\\nCooldown: 60 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/summon-tengu.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXNzcm5rYnE3M3R0dndsdDdpbzAyYzNsOGY1NmFqOWE1MnZ5bTg3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fYLC95Ith5ECPDjkTw/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon Tengu to attack nearby enemies using a bow",
+                        "details": [
+                            "Tengu will periodically use the following attack:<bp_[Piercing Shot]: Fire an arrow at a target that damages all enemies in its path_>",
+                            "While summoned, Tengu grants the following effects:<bp_[Intense Gaze]: Tengu's attacks have 100% Ignore DEF and all Shikigami attacks gain increased %Ignore DEF_>",
+                            "Unaffected by Damage Reflect, cooldown resets, and %Summon Duration",
+                            "Right-clicking the skill will toggle ON/OFF the <tt src={/class-icons/sengoku/kanna/shikigami-master.png} tip={Shikigami Master (4th Job)}> Resonance visual effect"
+                        ]
+                    },
+                    {
+                        "name": "Shikigami Charm",
+                        "shortDesc": "MP Cost: 20, jump in mid-air to go farther.\\nCan use Leap Talisman once without a platform before landing",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/sengoku/kanna/shikigami-charm.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJ6dGRudDN4MnBqb2hvNXAxZ3h4NjYyN2tzZ29lZ3FybjVlZXRwNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sLuaWhSx1zcm8HlQ0q/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Pressing the Up Arrow Key and Jump Key together in the air will perform an Up Jump<bp_Teleport can be used without a platform once before landing_>"
+                        ]
+                    },
+                    {
+                        "name": "Barrier: Curse Ward",
+                        "shortDesc": "MP Cost: 40\\nInvincibility: 3 sec.\\nCooldown: 60 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/kanna/barrier-curse-ward.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFtcWZ6ODc1cmIxZXVyYnUxaXdxenMyc2swcXhpd2UzbzU0NWljOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ZYtZ1fWw8nKObgpD1/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When used, briefly become invincible",
+                        "details": [
+                            "Unaffected by cooldown reset and %Buff Duration"
+                        ]
+                    },
+                    {
+                        "name": "[Order] Standby",
+                        "shortDesc": "MP Cost: 30\\nPlace all Shikigami on standby\\nCooldown: 1 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/sengoku/kanna/order-standby.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjdod3lvMXdkMTk0ZXZuaDltempvaHd6N3Y2b3poZDRmaXp0bW5pOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M33uXAOkIG5tpUQQL3/giphy.gif"],
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, all Shikigami enter Standby mode and will not attack",
+                        "details": [
+                            "Using an [Order] or [Spirit] Skill will turn off Standby mode",
+                            "Right-clicking the skill will toggle ON/OFF the visual effect"
+                        ]
+                    },
+                    {
+                        "name": "Crimson Covenant III",
+                        "shortDesc": "Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 130%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 6, Damage: 230%, Number of Attacks: 6\\nExplosive Soul: Charge the enemy with explosive power. Max Enemies Hit: 6, Damage: 230%, Number of Attacks: 6\\nBerserk: Grants 10 stacks when Oni is summoned. Oni gains +2% Final Damage per stack. 1 stack is removed every 5 seconds when on standby. Gain stacks when attacking the enemy. (Max Berserk Stacks: 10)",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/crimson-covenant-iii.png", "/class-icons/sengoku/kanna/summon-oni.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW54aGM5dTlyaDZ4dmVhcmZ3dHpjaHo4aThydWd6eWFoeWl5cndmcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ByvEPwJHybgoPHzyUj/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of [Celestial Strike] and [Leaping Strike]",
+                            "Oni now gains the following skills:<bp_[Explosive Soul]: Oni periodically dashes towards and attack nearby enemies_[Berserk]: Oni gains a stacking %Final Damage buff (up to 10) that slowly decreases while in Standby mode and increases on successful Oni attacks_Upon summoning, Oni gains full stacks of [Berserk]_>"
+                        ]
+                    },
+                    {
+                        "name": "Obsidian Feather",
+                        "shortDesc": "Keen Hunter: While Tengu is summoned, all Shikigami Boss Damage increases by 30%.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/obsidian-feather.png", "/class-icons/sengoku/kanna/summon-tengu.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Tengu now gains the following skill:<bp_[Keen Hunter]: While summoned, increases %Boss Damage of all Shikigami_>"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Path",
+                        "shortDesc": "Magic ATT: +30, Critical Rate: +40%, Critical Damage: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/kanna/spirit-path.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Unshakeable Faith",
+                        "shortDesc": "Status Resistance: +30, Knockback Resistance: +70%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/sengoku/kanna/unshakeable-faith.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "name": "Soul-Shatter Talisman: Dance",
+                    "shortDesc": "MP Cost: 40\\nMax Enemies Hit: 8, Damage: 200%, Number of Attacks: 6",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png", "/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHFtdHA1dmFpdmowdWF0YTA5emU4ZDk5czBjazRlaHhuZmQwcWY4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MR6wWHbwQ8NWP8tM9V/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases Max Enemies Hit and %Damage of attack"
+                    ]
+                },
+                {
+                    "name": "Barrier: Spirit Chains",
+                    "shortDesc": "MP Cost: 100\\nDamage: 140%, Max Enemies Hit: 1, Number of Attacks: 6. Stun Duration: 10 sec., Stun duration can increase up to 100% based on the damage inflicted by the skill.\\nAfterward\\nDuration: 10 sec., Damage: 140%, Max Enemies Hit: 8, Number of Attacks: 6\\nCooldown: 120 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/sengoku/kanna/barrier-spirit-chains.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanh1YmgxMDc0cXVwY3d0eTJmdzdkdmhodzBmOWNjOW1ib2IwM2IxaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DFZlJqU8XUz7VTdMpr/giphy.gif"],
+                    "type": "Bind Summon",
+                    "desc": "Cast a bind on a single enemy and place down a talisman that damages enemies within",
+                    "details": [
+                        "Skill only activates when a target is nearby and targets the enemy with the highest Max HP",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Heart-Wreck Talisman",
+                    "shortDesc": "MP Cost: 60\\nDuration: 3 sec., Damage: 240%, Max Enemies Hit: 12, Number of Attacks: 6 within area.\\nApplies a debuff to hit enemies that increases damage taken from Shikigami by 20% for 60 sec.\\nCooldown: 30 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/sengoku/kanna/heart-wreck-talisman.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWN4cHc0eG1wb2JnbDBicHlpejkwdHlucWptdGVkYXF0ZGpvYTJ2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EhCEPo8jKhxrSyCyxR/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Cast forward an expanding talisman that damages and debuffs enemies within it",
+                    "details": [
+                        "[Debuff]: Enemy takes increased %Damage from Shikigami"
+                    ]
+                },
+                {
+                    "name": "Summon Orochi",
+                    "shortDesc": "MP Cost: 80, Summon Duration: 25 sec.\\nKnown Skills\\nDance of Poison: Max Enemies Hit:  6, Damage: 380%, Number of Attacks: 12. Applies Poison to hit enemies. Poison Damage: 75%, Damage Interval: 1 sec., Bonus Damage to Normal Enemies: +50% (additive)\\nShadow Cleave: Max Enemies Hit: 7, Damage: 440%, Number of Attacks: 8. Applies Poison to hit enemies.\\nTraits\\nDignity: While Orochi is summoned, decreases your damage taken from attacks by 30%, including damage based on your Max HP ratio.\\nPoison Shift: While Orochi is summoned, poison enemies spread Poison to up to 3 other targets within range at a set interval.\\nCooldown: 120 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/kanna/summon-orochi.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW93dHB0YmtrdDdmZTR0Zzk5dGEwOG1taGR6NGN4MGpiODNwOTMwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/znOLrBtr09pWwLkWf6/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon Orochi to attack nearby enemies using chained scythes that apply a stacking damaging [Poison] debuff (up to 10)",
+                    "details": [
+                        "Orochi will periodically use the following attack:<bp_[Dance of Poison]: Orochi cleaves forward_[Shadow Cleave]: Orochi strikes forward in a large area_>",
+                        "While summoned, Orochi grants the following effects:<bp_[Dignity]: Reduces damage taken including %Max HP attacks_[Poison Shift]: Enemies inflicted with [Poison] periodically spread the debuff to nearby enemies_>",
+                        "Unaffected by Damage Reflect, cooldown resets, and %Summon Duration",
+                        "Right-clicking the skill will toggle ON/OFF the <tt src={/class-icons/sengoku/kanna/shikigami-master.png} tip={Shikigami Master (4th Job)}> Resonance visual effect"
+                    ]
+                },
+                {
+                    "name": "Akatsuki Warrior",
+                    "shortDesc": "MP Cost: 70, creates a Sengoku Warrior emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/kanna/akatsuki-warrior.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2UzNGFiOG9iaXNpeTR5eWdhMTk5MDJkb214ZmZkaDY2dWRyeDNhbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wDAfpjkJ184Sq7JjnB/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Removes all abnormal status effects.\\nCooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/sengoku/kanna/akatsuki-will.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDk2OTFwOWo1OTk0bDBuaDBwdHc2NzEwZHRycmM3YnE1cHA0MDByMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DMh0L5jFTkqPW9Nfab/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                },
+                {
+                    "name": "Call of Unity",
+                    "shortDesc": "MP Cost: 60\\nCall of Unity Duration: 20 sec., Critical Rate: +5% per stack, Damage: +12% per stack.\\nCooldown: 60 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/sengoku/kanna/call-of-unity.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGdyanFja3duamhpb2hoemRmcGh4anY2dm12OHB1OXdwaDI2bmpqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c49CM52ftVEAkmXTxH/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, grants a stacking %Crit Rate and %Damage buff for each summoned Shikigami (up to 3)",
+                    "details": [
+                        "Unaffected by cooldwon resets and %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "[Order] Execute",
+                    "shortDesc": "MP Cost: 100\\nExecute: Move above the target's head and let chained scythes fall like a guillotine. Max Enemies Hit: 6, Damage: 550%, Number of Attacks: 12, Chase Cuts: 10\\nDamage to Targets with 10 Poison Stacks: +30%\\nCooldown: 30 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/kanna/order-execute.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzBjc2xlbGJrNHNydmJkdzgyM3F0em94bzZrZzZqd2djNGQwMXc0aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sax2mtHoyxLlCL6zmw/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "While summoned, command <tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi to move toward a target and strike downwards",
+                    "details": [
+                        "Deals increased %Damage if the target has 10 stacks of [Poison]",
+                        "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you",
+                        "Unaffected by cooldown resets and cooldown reduction"
+                    ]
+                },
+                {
+                    "name": "[Order] Shade-Fletched Arrow",
+                    "shortDesc": "MP Cost: 100\\nShade-Fletched Arrow: Aim at an enemy. While aiming, obsidian feathers gather at the arrowhead, and fly when the arrow is released. Max Enemies Hit: 12, Damage: 230%, Number of Attacks: 8, Activates 6 Black Shockwaves\\nFinal Damage To Target: +50%\\nCooldown: 30 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/sengoku/kanna/order-shade-fletched-arrow.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3lsOWJwYW9vOWZ5dWZidjBtZ2NqZW92ZG1pdmc0c3pyYW02Mjk5OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6R8QXUzhYVk0mT3ZZg/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "While summoned, command <tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu to aim and fire an arrow towards a targetted enemy that damages enemies in its path",
+                    "details": [
+                        "Deals increased %Final Damage towards targetted enemy",
+                        "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you",
+                        "Unaffected by cooldown resets and cooldown reduction"
+                    ]
+                },
+                {
+                    "name": "Ivory Fang",
+                    "shortDesc": "Lofty View: While Orochi is summoned, Kanna enters the Lofty stance.\\nOverwhelming Force: While Orochi is summoned, the Final Damage of all Shikigami increases by 30%.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/sengoku/kanna/ivory-fang.png", "/class-icons/sengoku/kanna/summon-orochi.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Orochi now gains the following skill:<bp_[Lofty View]: While summoned, enter [Lofty] stance where you will not be knocked back at all (Super Knockback Resistance)_[Overwhelming Force]: While summoned, increases %Final Damage of all Shikigami_>"
+                    ]
+                },
+                {
+                    "name": "Obsidian Feather II",
+                    "shortDesc": "Piercing Shot: Fires an arrow in the direction of the target that pierces through enemies in its path. Max Enemies Hit: 10, Damage: 800%, Number of Attacks: 10\\nSteady Aim: Increases the cooldown of Tengu's skills by 5 sec., but also increases Order skill Final Damage by 100%.\\nRain of Darkness: When Tengu is summoned, she gains 1 stack of Rain of Darkness. Stacks can be consumed to immediately use Tengu's skills that are on cooldown.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/sengoku/kanna/obsidian-feather-ii.png", "/class-icons/sengoku/kanna/summon-tengu.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of [Piercing Shot]",
+                        "Tengu now gains the following skill:<bp_[Steady Aim]:  Increases the cooldown of Tengu's skills but also increases %Final Damage of Tengu [Order] Skills_[Rain of Darkness]: Upon summon, grants a stack of [Rain of Darkness] that can be consumed to use a Tengu [Order] skill that is on cooldown_>"
+                    ]
+                },
+                {
+                    "name": "Crimson Covenant IV",
+                    "shortDesc": "Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 250%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 6, Damage: 380%, Number of Attacks: 6\\nExplosive Soul: Charge the enemy with explosive power. Max Enemies Hit: 6, Damage: 380%, Number of Attacks: 6\\nStrongarm: Decreases the cooldown of Oni's Order skills by 1 sec. each time she uses an Order skill.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/sengoku/kanna/crimson-covenant-iv.png", "/class-icons/sengoku/kanna/summon-oni.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of [Celestial Strike], [Leaping Strike], and [Explosive Soul]",
+                        "Oni now gains the following skill:<bp_[Strongarm]: Upon using an Oni [Order] Skill, decreases the cooldown of Oni [Order] Skills_>"
+                    ]
+                },
+                {
+                    "name": "Shikigami Master",
+                    "shortDesc": "When Oni activates a skill, Tengu has a chance to Resonate.\\nWhen Tengu activates a skill, Orochi has a chance to Resonate.\\nWhen Orochi activates a skill, Oni has a chance to Resonate.\\nResonance: Shikigami that Resonate will be able to use one of their Order skills, whether or not they are summoned. Order skills that are activated with the Resonance effect are treated as different skills than their default versions and don't have a cooldown.\\nEach Shikigami can have up to 2 stacks of Resonance.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/sengoku/kanna/shikigami-master.png"],
+                    "type": "Passive",
+                    "desc": "When a Shikigami activates a skill, there is a chance to grant [Resonance] to another Shikigami",
+                    "details": [
+                        "[Resonance]: Allows an [Order] Skill to be used regardless if Shikigami is summoned<bp_Using a Resonated [Order] Skill will not trigger a cooldown_Each Shikigami can have up to 2 stacks of [Resonance]_>",
+                        "The following Shikigami grant [Resonance] for the following Shikigami:<bp_<tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni grants to <tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu_<tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu grants to <tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi_<tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi grants to <tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni_>"
+                    ]
+                },
+                {
+                    "name": "Kasen",
+                    "shortDesc": "Attack Speed: +1, Damage: +30%, Sprit Walker Fan Mastery: +70%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/sengoku/kanna/kasen.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Pulverizing Strike - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/pulverizing-strike-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Pulverizing Strike - Critical Chance",
+                    "shortDesc": "Critical Rate: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/pulverizing-strike-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Pulverizing Strike - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/pulverizing-strike-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Shade-Fletched Arrow - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/shade-fletched-arrow-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Shade-Fletched Arrow - Critical Chance",
+                    "shortDesc": "Critical Rate: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/shade-fletched-arrow-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Shade-Fletched Arrow - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/shade-fletched-arrow-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Execute - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/execute-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Execute - Critical Chance",
+                    "shortDesc": "Critical Rate: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/execute-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Execute - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/execute-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "True Name Revelation",
+                    "shortDesc": "MP Cost: 150, Duration of All Shikigami Trait Enhancements: 30 sec.\\nRakuya, Crimson Queen\\nWhile Rakuya is summoned, her traits are enhanced.\\nBlessing of Recovery: 100% chance to restore your HP/MP each time a Shikigami attack lands.\\nCrimson Flame: +20% Normal Enemy Damage\\nBerserk: +1% Final Damage per Berserk Stack\\nStrongarm: Additional 0.5 sec. Cooldown Reduction\\nHaneka, Storm Princess\\nWhile Haneka is summoned, her traits are enhanced.\\nIntense Gaze: +10% Ignore Defense for other Shikigami.\\nKeen Hunter: +10% Boss Damage for other Shikigami.\\nSteady Aim: +10% Final Damage Effect\\nBack Rain: +1 Black Rain Stack Immediately\\nYuina, Empress of Calamity\\nWhile Yuina is summoned, her traits are enhanced.\\nDignity: +5% Damage Taken Reduction\\nPoison Shift: -1 sec. Poison Shift Interval\\nLofty View: Also defends against debilitating status conditions.\\nOverwhelming Force: +5% Final Damage to all Shikigami\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/true-name-revelation.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm5iZmkyNm9xaGVzaTZkdWxvMjE5YnQwdnB5NjlkZzJpbXIxaTVsaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hNvmlwN0CMLBPI8pYD/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140,
+                    "desc": "While active, enhances the Traits of each Shikigami",
+                    "details": [
+                        "<tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> [Oni - Rakuya]:<bp_[Blessing of Recovery]: Guaranteed chance to restore %Max HP/MP on successful Shikigami attack_[Crimson Flame]: Increase %Damage to regular monsters provided_[Berserk]: Increases %Final Damage provided per stack_[Strongarm]: Increases cooldown reduction provided_>",
+                        "<tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> [Haneka - Tengu]:<bp_[Intense Gaze]: Increases %Ignore DEF provided for other Shikigami_[Keen Hunter]: Increases %Boss Damage provided for other Shikigami_[Steady Aim]: Increases amount of %Final Damage provided_[Rain of Darkness]: Grants additional stack_>",
+                        "<tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> [Yuina - Orochi]:<bp_[Dignity]: Increases damage reduction provided_[Poison Shift]: Reduces the interval when [Poison] is spread_[Lofty View]: Now also blocks debilitating status conditions_[Overwhelming Force]: Increases %Final Damage provided to all Shikigami_>",
+                        "Unaffected by cooldown resets and %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "[Order] Pulverizing Strike",
+                    "shortDesc": "MP Cost: 300\\nPulverizing Strike: Lift the club high over the head and swing downwards with force. Max Enemies Hit: 14, Damage: 500%, Number of Attacks: 10, Strike Activations: 10\\nCooldown: 30 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/kanna/order-pulverizing-strike.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnBncHMybWJhY3pwOXZwaml4aHV6aWJ4bnFzeGgyYzhobWt3emllaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/46lnCXBmQIJP2NP3pf/giphy.gif"],
+                    "type": "Attack",
+                    "reqLev": 160,
+                    "desc": "While summoned, command <tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni to slam forward and damage a large area",
+                    "details": [
+                        "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you",
+                        "Unaffected by cooldown resets and cooldown reduction"
+                    ]
+                },
+                {
+                    "name": "Akatsuki Blessing",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: 10%\\nApplies to any Sengoku Warrior class in the party.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/sengoku/akatsuki-blessing.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXN6ZzJrbXBncHZrcm4xdDMxemgxY3I1ZzBqMXFuOXcyNTY0a3M3cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vjSVBoDwuzfaBfJuf2/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["twilightBloom", "princessSakunoBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "[Spirit] Hakumenkonmou Juubi",
+                    "shortDesc": "MP Cost: 1000, Haku Awakening Duration: 15 sec., Max Enemies Hit: 12, Damage: 710%, Number of Attacks: 12, Light Shockwave Max Enemies Hit: 8, Damage: 700%, Number of Attacks: 10, Finishing Blow Max Enemies Hit: 14, Damage: 830%, Number of Attacks: 14, Light Shockwaves: 32\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/spirit-hakumenkonmou-juubi.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGl5dTd5cWI0dDRrYmp1am8yZGlicjFhc3l2NzV6N2JkaXFyajI0aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wfug14UYiOqNSZKw0N/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon Haku to release light shockwaves at enemies in a large area before releasing a finishing blow",
+                    "details": [
+                        "<tt src={/class-icons/sengoku/kanna/spirit-hakumenkonmou-juubi-final-blow.png} tip={[Spirit] Hakumenkonmou Juubi - Finishing Blow (5th Job)}> [Finishing Blow]: Release an explosive final attack<bp_Attack activates when the summon expires or when the Skill Key is pressed again_Invincible while casting_>",
+                        "While summoned, Shikigami summon duration does not decrease"
+                    ]
+                },
+                {
+                    "name": "[Spirit] Unleash the Radiant Flame",
+                    "shortDesc": "MP Cost: 1000\\nDuration: 30 sec., Oni Final Damage: +30%, Oni Order Skill Cooldown: -20%\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/spirit-unleash-the-radiant-flame.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmh3Yng0Z2FmYmRmeHRhNm1wMGRnZXk1cHg2dDNwYjR6cTl0d2JteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZRWpe8WiW5VUmpSYpS/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "[Spirit] Unleash Black-Winged Destruction",
+                    "shortDesc": "MP Cost: 1000\\nBlack-Winged Destruction: Unfurl wings and aim at an enemy. While aiming, obsidian feathers gather at the arrowhead, and fly when the arrow is released. Max Enemies Hit: 12, Damage: 810%, Number of Attacks: 12, Black Shockwaves: 22\\nFinal Damage to Target: +50%\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/spirit-unleash-black-winged-destruction.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2g1NmZtc2VmeTZwaHhnYmVwNHlzdGlmc2lpbDliNHY2MzNpNWV6ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lUIi6FQq01PquUlHp1/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "While summoned, command <tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu to aim and fire an arrow towards a targetted enemy that damages enemies in its path",
+                    "details": [
+                        "Deals increased %Final Damage towards targetted enemy",
+                        "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you"
+                    ]
+                },
+                {
+                    "name": "[Spirit] Unleash Soul-Searing Venom",
+                    "shortDesc": "MP Cost: 1000\\nSoul-Searing Venom: From the shadows, with scythes in each hand, Orochi leaps upon the enemy like a snake upon its prey. Max Enemies Hit: 8, Damage: 920%, Number of Attacks: 14, Slices Activated: 36\\nApplies 10 Poison stacks to the target.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/spirit-unleash-soul-searing-venom.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG04bWUyZHRxbG16a2hudHNvNGgxcnI3MHljZHEyYTIzMGYyd3gyaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VwOR9k1brmMMXbHTAf/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "While summoned, command <tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi to move toward a target and strike downwards",
+                    "details": [
+                        "Attack applies 10 stacks of [Poison]",
+                        "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Soul-Shatter Talisman Boost",
+                    "shortDesc": "Soul-Shatter Talisman Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Oni Boost",
+                    "shortDesc": "Summon Oni Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/summon-oni.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Order] Spinning Strike Boost",
+                    "shortDesc": "[Order] Spinning Strike Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/order-spinning-strike.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Tengu Boost",
+                    "shortDesc": "Summon Tengu Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/summon-tengu.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Heart-Wreck Talisman Boost",
+                    "shortDesc": "Heart-Wreck Talisman Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/heart-wreck-talisman.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Orochi Boost",
+                    "shortDesc": "Summon Orochi Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/summon-orochi.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Order] Execute Boost",
+                    "shortDesc": "[Order] Execute Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/order-execute.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Order] Shade-Fletched Arrow Boost",
+                    "shortDesc": "[Order] Shade-Fletched Arrow Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/order-shade-fletched-arrow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "[Order] Pulverizing Strike Boost",
+                    "shortDesc": "[Order] Pulverizing Strike Final Damage: +120%",
+                    "icons": ["/class-icons/sengoku/kanna/order-pulverizing-strike.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-soul-shatter-heart-wreck.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png} tip={Soul-Shatter Talisman (1st Job)}> <tt src={/class-icons/sengoku/kanna/heart-wreck-talisman.png} tip={Heart-Wreck Talisman (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Soul-Shatter Talisman: Dance",
+                    "shortDesc": "MP Cost: 50\\nMax Enemies Hit: 8, Damage: 400%, Number of Attacks: 6",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-soul-shatter-talisman-dance.png", "/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnUzcDNxYmhmeGQ1enpvYWQydHFiNHFjbHNpbXlncHRhdXRvcms0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sejsIhilEFh8jjV2u8/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Heart-Wreck Talisman",
+                    "shortDesc": "MP Cost: 110\\nDuration: 3 sec., Damage: 460%, Number of Attacks: 6 within area.\\nApplies a debuff to hit enemies that increases damage taken from Shikigami by 30% for 60 sec.\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-heart-wreck-talisman.png", "/class-icons/sengoku/kanna/heart-wreck-talisman.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWJuZDB1eTA3ZmM3Z3Jvb3A5Ym8zNzd4aHZxZWtncWM1eHN2eW1tMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P8N9ODgwOBCQRgIAV7/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-oni-spinning-pulverize.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> <tt src={/class-icons/sengoku/kanna/order-spinning-strike.png} tip={[Order] Spinning Strike (2nd Job)}> <tt src={/class-icons/sengoku/kanna/order-pulverizing-strike.png} tip={[Order] Pulverizing Strike (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Oni",
+                    "shortDesc": "MP Cost: 60, Summon Duration: 55 sec.\\nKnown Skills\\nHEXA Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 8, Damage: 380%, Number of Attacks: 6\\nHEXA Leaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 8, Damage: 900%, Number of Attacks: 6\\nHEXA Explosive Soul: Charge the enemy with explosive power. Max Enemies Hit: 8, Damage: 900%, Number of Attacks: 6\\nTraits\\nBlessing of Recovery: While Oni is summoned, restores 3% of your Max HP/MP every 3 seconds. Grants 60% chance to recover 3% of your Max HP/MP when any Shikigami lands an attack on an enemy.\\nCrimson Flame: While Oni is summoned, Normal Enemy Damage of All Shikigami: +60%\\nBerserk: Gain 10 stacks when Oni is summoned to the battlefield. Oni gains +2% Final Damage per stack, and 1 stack is removed every 5 seconds when on standby. Gain stacks when attacking the enemy. (Stacks up to 10 times.)\\nStrongarm: Decreases cooldown of all of Oni's Order skills by 1 sec. each time Oni uses an Order skill.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-summon-oni.png", "/class-icons/sengoku/kanna/summon-oni.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDZyOGVzeDM1bHM4eW5oaHM2YzhuZTluMGVjdjQ0am5mNTluZ3B3NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Fqr3jOLZLMWLJPbUTX/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Order] Spinning Strike",
+                    "shortDesc": "MP Cost: 60\\nHEXA Spinning Strike: Take a step forward and, at the same time, spin a massive club 2 times in a row. Max Enemies Hit: 12, Damage: 550%,  Number of Attacks: 8, Strike Activations: 6\\nCooldown: 12 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-order-spinning-strike.png", "/class-icons/sengoku/kanna/order-spinning-strike.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZ6dzQwOTJheWRwM3dhZTA1NHBhZWJwOHVkZzY0bDRkZ2htdjY4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4lv8xrYsrEr7BNSS5G/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Order] Pulverizing Strike",
+                    "shortDesc": "MP Cost: 300\\nHEXA Pulverizing Strike: Lift the club high over the head and swing downwards with force. Max Enemies Hit: 14, Damage: 850%, Number of Attacks: 12, Strike Activations: 12\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-order-pulverizing-strike.png", "/class-icons/sengoku/kanna/order-pulverizing-strike.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXo4ZTVtbHFqdHRhbW5wbGNxZjI3emhqcHR4aW1vczFodjhwdHBwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SKyo2B8mFvseruR19l/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-tengu-shade-fletched-arrow.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> <tt src={/class-icons/sengoku/kanna/order-shade-fletched-arrow.png} tip={[Order] Shade-Fletched Arrow (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Tengu",
+                    "shortDesc": "MP Cost: 80, Summon Duration: 25 sec.\\nKnown Skills\\nHEXA Piercing Shot: Fires an arrow in the direction that penetrates enemies in its path. Max Enemies Hit: 12, Damage: 1270%, Number of Attacks: 12\\nTraits\\nIntense Gaze: All of Tengu's attacks ignore 100% of the enemy's defense. While Tengu is on the battlefield, all Shikigami attacks ignore an additional 30% of the enemy's defense.\\nKeen Hunter: While Tengu is on the battle field, all Shikigami Boss Damage increases by 30%\\nSteady Aim: Increases the cooldown of all Tengu's skills by 5 sec. but increases Order skill Final Damage by 100%\\nRain of Darkness: When Tengu is summoned, she gains 1 stack of Rain of Darkness. Stack can be consumed to immediately use Tengu's Order skills that are on cooldown.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-summon-tengu.png", "/class-icons/sengoku/kanna/summon-tengu.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmE5MGtuaXZhY3ljOHc3dHZheGxkb2Rrb2E3MDZ3Nmxxc3hxejZrcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c2KFmq4cLAp7JcryFO/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Order] Shade-Fletched Arrow",
+                    "shortDesc": "MP Cost: 110\\nHEXA Shade-Fletched Arrow: Aim at an enemy. While aiming, obsidian feathers gather at the arrowhead, and fly when the arrow is released. Max Enemies Hit: 12, Damage: 370%, Number of Attacks: 8, Activates 6 Black Shockwaves\\nFinal Damage to Target: +50%\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-order-shade-fletched-arrow.png", "/class-icons/sengoku/kanna/order-shade-fletched-arrow.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmkweGZ4cTBpd254aWU1dzN5MjRjZWlrN2JlY3kxenZvNWF3ZmhuMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S8gIWoKLsbafJuxvgk/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-orochi-execute.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> <tt src={/class-icons/sengoku/kanna/order-execute.png} tip={[Order] Execute (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Orochi",
+                    "shortDesc": "MP Cost: 90, Summon Duration: 25 sec.\\nKnown Skills\\nHEXA Dance of Poison: Swing poison-coated chained scythes. Max Enemies Hit: 7, Damage: 700%, Number of Attacks: 12. Applies HEXA Poison stacks to hit enemies. HEXA Poison: Damage: 120%, Damage Interval: 1 sec., Bonus Damage to Normal Enemies: +50% (additive)\\nHEXA Shadow Cleave: Slip through shadows to appear behind an enemy, and cut them down with chained scythes. Max Enemies Hit: 8, Damage: 950%, Number of Attacks: 8. Applies Poison stacks to hit enemies.\\nTraits\\nDignity: While Orochi is summoned, decreases your damage taken from attacks including damage based on your Max HP ratio, by 30%.\\nPoison Shift: While Orochi is summoned, enemies with Poison spread Poison to up to 3 other targets within range at a set interval.\\nLofty View: While Orochi is summoned, Kanna enters the Lofty stance.\\nOverwhelming Force: While Orochi is summoned, the Final Damage of all Shikigami is increased by 30%.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-summon-orochi.png", "/class-icons/sengoku/kanna/summon-orochi.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWZiYmptOHMzbGE4d2k0azdxZjlwa3BoaHI1Y3pvajk1aWxoYjhxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VKPWm88f1wgOhnVeno/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA [Order] Execute",
+                    "shortDesc": "MP Cost: 110\\nHEXA Execute: Move above the target's head and let chained scythes fall like a guillotine. Max Enemies Hit: 7, Damage: 740%, Number of Attacks: 14, Chase Cuts: 12\\nFinal Damage to Targets with 10 Poison Stacks: +30%\\nCooldown: 30 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/hexa-order-execute.png", "/class-icons/sengoku/kanna/order-execute.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbno4b205OWpzeWMyd2VpZ2ZkZDQ4andyNHg4azB0ODI2czJ2YWFmNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ui6zuFgPOtF8ftJ0BO/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "[Divine Will] Advent of Crimson",
+                    "shortDesc": "MP Cost: 1000, invincible during casting\\nQueen Rakuya is summoned to the mortal realm. Max Enemies Hit: 15, Damage: 870%, Number of Attacks: 15, Red Flame Strikes: 48\\nAfterwards, Max Enemies Hit: 15, Damage: 870%, Number of Attacks: 15, Number of Strikes: 67\\nCooldown: 360 sec.",
+                    "icons": ["/class-icons/sengoku/kanna/divine-will-advent-of-crimson.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTU0d2R5czB1cjk5MzZtYzZtMHo1ZzJwdHBwYmFzend0eGt6OTg2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JcONza38RRVQeDL0S9/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "[Divine Will] Final Rest",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nViper Strike - Max Enemies Hit: 15, Damage: 6440%, Number of Attacks: 12, Strikes Activated: 12, Finishing Blow Max Enemies Hit: 15, Damage: 8085%, Number of Attacks: 15, Finishing Blows: 24\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/sengoku/kanna/divine-will-final-rest.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3E5Y3l5NHYwc29oZjlhY2J1dGNrdjMwaW12aDBqYWc4N3hycWVlMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y1lVTVuKK7v51PlgYI/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "[Spirit] Hakumenkonmou Juubi Boost",
+                    "shortDesc": "[Spirit] Hakumenkonmou Juubi Final Damage: +60%",
+                    "icons": ["/class-icons/sengoku/kanna/spirit-hakumenkonmou-juubi.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "[Spirit] Unleash the Radiant Flame Boost",
+                    "shortDesc": "Duration increased to 40 sec. and Final Damage boost increased to 35%",
+                    "icons": ["/class-icons/sengoku/kanna/spirit-unleash-the-radiant-flame.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "[Spirit] Unleash Black-Winged Destruction Boost",
+                    "shortDesc": "[Spirit] Unleash Black-Winged Destruction Final Damage: +60%",
+                    "icons": ["/class-icons/sengoku/kanna/spirit-unleash-black-winged-destruction.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "[Spirit] Unleash Soul-Searing Venom Boost",
+                    "shortDesc": "[Spirit] Unleash Soul-Searing Venom Final Damage: +60%",
+                    "icons": ["/class-icons/sengoku/kanna/spirit-unleash-soul-searing-venom.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Soul-Shatter Talisman - 1st Job",
+                "icons": ["/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHFtdHA1dmFpdmowdWF0YTA5emU4ZDk5czBjazRlaHhuZmQwcWY4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MR6wWHbwQ8NWP8tM9V/giphy.gif"]
+            },
+            {
+                "name": "Summon Oni - 1st Job",
+                "icons": ["/class-icons/sengoku/kanna/summon-oni.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnU0ZWRvcDR1cnpuamgxa2x5MnN4bzRmcTBiMHFpejZ3ZnBseHh3NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TTWaGiOlA5mo9GDRfM/giphy.gif"]
+            },
+            {
+                "name": "Summon Tengu - 3rd Job",
+                "icons": ["/class-icons/sengoku/kanna/summon-tengu.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXNzcm5rYnE3M3R0dndsdDdpbzAyYzNsOGY1NmFqOWE1MnZ5bTg3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fYLC95Ith5ECPDjkTw/giphy.gif"]
+            },
+            {
+                "name": "Summon Orochi - 4th Job",
+                "icons": ["/class-icons/sengoku/kanna/summon-orochi.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW93dHB0YmtrdDdmZTR0Zzk5dGEwOG1taGR6NGN4MGpiODNwOTMwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/znOLrBtr09pWwLkWf6/giphy.gif"]
+            },
+            {
+                "name": "[Order] Pulverizing Strike - 5th Job",
+                "icons": ["/class-icons/sengoku/kanna/order-pulverizing-strike.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnBncHMybWJhY3pwOXZwaml4aHV6aWJ4bnFzeGgyYzhobWt3emllaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/46lnCXBmQIJP2NP3pf/giphy.gif"]
+            },
+            {
+                "name": "[Spirit] Hakumenkonmou Juubi - 5th Job",
+                "icons": ["/class-icons/sengoku/kanna/spirit-hakumenkonmou-juubi.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGl5dTd5cWI0dDRrYmp1am8yZGlicjFhc3l2NzV6N2JkaXFyajI0aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wfug14UYiOqNSZKw0N/giphy.gif"]
+            },
+            {
+                "name": "[Spirit] Unleash Soul-Searing Venom - 4th Job",
+                "icons": ["/class-icons/sengoku/kanna/spirit-unleash-soul-searing-venom.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG04bWUyZHRxbG16a2hudHNvNGgxcnI3MHljZHEyYTIzMGYyd3gyaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VwOR9k1brmMMXbHTAf/giphy.gif"]
+            },
+            {
+                "name": "[Divine Will] Advent of Crimson - 6th Job",
+                "icons": ["/class-icons/sengoku/kanna/divine-will-advent-of-crimson.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTU0d2R5czB1cjk5MzZtYzZtMHo1ZzJwdHBwYmFzend0eGt6OTg2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JcONza38RRVQeDL0S9/giphy.gif"]
+            },
+            {
+                "name": "[Divine Will] Final Rest - 6th Job",
+                "icons": ["/class-icons/sengoku/kanna/divine-will-final-rest.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3E5Y3l5NHYwc29oZjlhY2J1dGNrdjMwaW12aDBqYWc4N3hycWVlMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y1lVTVuKK7v51PlgYI/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Kanna is a INT mage class part of the Sengoku class group. Kanna uses Fans as their primary weapons. For their secondary weapon, Kanna can equip Talismans"
+}

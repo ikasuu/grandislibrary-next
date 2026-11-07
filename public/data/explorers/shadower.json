@@ -1,0 +1,1147 @@
+{
+    "class": "Shadower",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX + STR",
+        "legion": "Grants flat LUK",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["dagger"]},
+            {"secondary": ["scabbard", "thiefShield"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "1st Line Options",
+                "abilities": ["Boss Damage +20%", "Meso Obtained +20%", "Item Drop Rate +20%"]
+            },
+            {
+                "name": "2nd & 3rd Line Options",
+                "abilities": ["Meso / Item Drop / Boss Dmg (if not 1st Line)", "Attack +21", "Damage to monsters inflicted with Abnormal Status +8%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/explorers/shadower/agile-daggers.png} tip={Agile Daggers (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/explorers/shadower/dagger-expert.png} tip={Dagger Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "LUK",
+                "stat": "+80 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/thief/nimble-body.png} tip={Nimble Body (1st Job)} val={+20}> <bg src={/class-icons/explorers/shadower/agile-daggers.png} tip={Agile Daggers (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/shadower/blood-money.png} tip={Blood Money (4th Job)} val={+10}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +155(215)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/shadower/channel-karma.png} tip={Channel Karma (2nd Job)} val={+30}> <bg src={/class-icons/explorers/shadower/shield-mastery.png} tip={Shield Mastery (2nd Job)} val={+20}> <bg src={/class-icons/explorers/shadower/meso-mastery.png} tip={Meso Mastery (3rd Job)} val={+20}> <bg src={/class-icons/explorers/shadower/shadower-instinct.png} tip={Shadower Instinct (4th Job)} val={+45}> <bg src={/class-icons/explorers/shadower/dagger-expert.png} tip={Dagger Expert (4th Job)} val={+40}> <bg type={temp} src={/class-icons/explorers/shadower/steal.png} tip={Steal (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+30}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+55%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/shadower/critical-edge.png} tip={Critical Edge (2nd Job)} val={+25%}> <bg src={/class-icons/explorers/shadower/flip-of-the-coin.png} tip={Flip of the Coin (Hyper Skill)} val={+25%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+40%(60%)",
+                "detail": "<bg src={/class-icons/explorers/shadower/critical-edge.png} tip={Critical Edge (2nd Job)} val={+5%}> <bg src={/class-icons/explorers/shadower/blood-money.png} tip={Blood Money (4th Job)} val={+20%}> <bg src={/class-icons/explorers/shadower/dagger-expert.png} tip={Dagger Expert (4th Job)} val={+15%}> <bg type={temp} src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen (4th Job)} val={+20% to enemies within zone}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+25%(73%)",
+                "detail": "<bg src={/class-icons/explorers/shadower/flip-of-the-coin.png} tip={Flip of the Coin (Hyper Skill)} val={+25%}> <bg type={temp} src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/link-skills/thiefs-cunning.png} tip={Thief's Cunning (Link Skill)} val={+18% upon debuffing enemy}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+56.79%(144.96%)",
+                "detail": "<bg src={/class-icons/explorers/shadower/dagger-mastery.png} tip={Dagger Mastery (2nd Job)} val={+9%}> × <bg src={/class-icons/explorers/shadower/cruel-stab.png} tip={Cruel Stab (4th Job)} val={+24%}> × <bg src={/class-icons/explorers/shadower/shadower-instinct.png} tip={Shadower Instinct (4th Job)} val={+16%}> × <bg type={temp} sub={opt} src={/class-icons/common/advanced-dark-sight.png} tip={Advanced Dark Sight (3rd Job)} val={+12% while in Dark Sight} subSrc={/class-icons/5th-job/shadow-walker.png} subTip={Shadow Walker (5th Job)} subVal={extra +14% while active}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/explorers/shadower/shadower-instinct.png} tip={Shadower Instinct (4th Job)} val={+20%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/common/shadow-partner.png} tip={Shadow Partner (3rd Job)} dur={[200s]}>",
+            "toggles": "[<tt src={/class-icons/explorers/shadower/pick-pocket.png} tip={Pick Pocket (3rd Job)}> / <tt src={/class-icons/explorers/shadower/blood-money.png} tip={Blood Money (4th Job)}>]",
+            "summons": "<tt src={/class-icons/explorers/shadower/dark-flare.png} tip={Dark Flare (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen (4th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/shadower/shadow-veil.png} tip={Shadow Veil (Hyper Skill)} dur={[12s](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/shadow-walker.png} tip={Shadow Walker (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/shadower/halve-cut.png} tip={Halve Cut (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)} dur={[200s](Special, 0 - 15s cd)}> <tt src={/class-icons/explorers/shadower/trickblade.png} tip={Trickblade (5th Job)} dur={[1.8s](20s cd)}> <tt src={/class-icons/explorers/shadower/halve-cut.png} tip={Halve Cut (6th Job)} dur={[360s cd]}>",
+            "damageReduce": "<tt src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen (4th Job)} dur={[30s](-10% | 150s cd)}> <tt src={/class-icons/explorers/shadower/sonic-blow.png} tip={Sonic Blow (5th Job)} dur={[2s](-50% | 60s cd)}>"
+        },
+        "linkSkill": {
+            "id": 80002770,
+            "offline": true,
+            "name": "Thief's Cunning",
+            "maxLevel": 9,
+            "shortDesc": "Upon debuffing an enemy, Damage: +18%. Duration: 10 sec\\nCooldown: 20 sec.",
+            "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 3 times, once for each unique Explorer Thief to reach Master Level"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump}> -> <tt src={/class-icons/explorers/thief/nimble-body.png} tip={Nimble Body}> -> <tt src={/class-icons/explorers/thief/haste.png} tip={Haste}> -> <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> -> <tt src={/class-icons/explorers/thief/double-stab.png} tip={Double Stab}> -> <tt src={/class-icons/explorers/thief/lucky-seven.png} tip={Lucky Seven}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/shadower/dagger-mastery.png} tip={Dagger Mastery}> -> <tt src={/class-icons/explorers/shadower/agile-daggers.png} tip={Agile Daggers}> -> <tt src={/class-icons/explorers/shadower/critical-edge.png} tip={Critical Edge}> -> <tt src={/class-icons/explorers/shadower/shield-mastery.png} tip={Shield Mastery}> -> <tt src={/class-icons/explorers/shadower/channel-karma.png} tip={Channel Karma}> -> <tt src={/class-icons/explorers/shadower/savage-blow.png} tip={Savage Blow}> -> <tt src={/class-icons/explorers/shadower/steal.png} tip={Steal}>"],
+                ["3rd Job", "<tt src={/class-icons/common/enveloping-darkness.png} tip={Enveloping Darkness}> -> <tt src={/class-icons/explorers/shadower/meso-mastery.png} tip={Meso Mastery}> -> <tt src={/class-icons/explorers/shadower/pick-pocket.png} tip={Pick Pocket}> -> <tt src={/class-icons/explorers/shadower/venom.png} tip={Venom}> -> <tt src={/class-icons/common/shadow-partner.png} tip={Shadow Partner}> -> <tt src={/class-icons/explorers/shadower/dark-flare.png} tip={Dark Flare}> -> <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion}> -> <tt src={/class-icons/explorers/shadower/phase-dash.png} tip={Phase Dash}> -> <tt src={/class-icons/explorers/shadower/midnight-carnival.png} tip={Midnight Carnival}>"],
+                ["4th Job", "<tt src={/class-icons/explorers/shadower/toxic-venom.png} tip={Toxic Venom}> -> <tt src={/class-icons/explorers/shadower/shadower-instinct.png} tip={Shadower Instinct}> -> <tt src={/class-icons/explorers/shadower/dagger-expert.png} tip={Dagger Expert}> -> <tt src={/class-icons/explorers/shadower/cruel-stab.png} tip={Cruel Stab}> -> <tt src={/class-icons/explorers/shadower/blood-money.png} tip={Blood Money}> -> <tt src={/class-icons/explorers/shadower/shadow-shifter.png} tip={Shadow Shifter}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/shadower/sudden-raid.png} tip={Sudden Raid}> -> <tt src={/class-icons/explorers/shadower/assassinate.png} tip={Assassinate}> -> <tt src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],                           
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/explorers/shadower/meso-explosion-reinforce.png} tip={Meso Explosion - Reinforce}> <tt src={/class-icons/explorers/shadower/meso-explosion-enhance.png} tip={Meso Explosion - Enhance}> Meso Explosion - Reinforce and Enhance_<tt src={/class-icons/explorers/shadower/assassinate-reinforce.png} tip={Assassinate - Reinforce}> <tt src={/class-icons/explorers/shadower/assassinate-boss-rush.png} tip={Assassinate - Boss Rush}> <tt src={/class-icons/explorers/shadower/assassinate-guardbreak.png} tip={Assassinate - Guardbreak}> Assassinate - Reinforce, Boss Rush, and Guardbreak_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Bossing Trio", "<tt src={/class-icons/explorers/shadower/assassinate.png} tip={Assassinate (4th Job)}> <tt src={/class-icons/explorers/shadower/shadow-veil.png} tip={Shadow Veil (Hyper Skill)}> <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}>"],
+                    ["Mobbing Trio", "<tt src={/class-icons/explorers/shadower/sudden-raid.png} tip={Sudden Raid (4th Job)}> <tt src={/class-icons/explorers/shadower/dark-flare.png} tip={Dark Flare (3rd Job)}> <tt src={/class-icons/explorers/shadower/cruel-stab.png} tip={Cruel Stab (4th Job)}>"]
+                ],
+                "notes": [
+                    "Either categories can be maxed first based on if you prioritize bossing or mobbing",
+                    "Any combination of these skills are good but preferred from same category so that the skills boosted match your priorities",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/shadower/assassinate.png} tip={Assassinate (4th Job)}>",
+                "<tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}>",
+                "<tt src={/class-icons/explorers/shadower/dark-flare.png} tip={Dark Flare (3rd Job)}> <tt src={/class-icons/explorers/shadower/cruel-stab.png} tip={Cruel Stab (4th Job)}>",
+                "<tt src={/class-icons/explorers/shadower/sudden-raid.png} tip={Sudden Raid (4th Job)}> <tt src={/class-icons/explorers/shadower/shadow-veil.png} tip={Shadow Veil (Hyper Skill)}>",
+                "<tt src={/class-icons/explorers/shadower/phase-dash.png} tip={Phase Dash (3rd Job)}>",
+                "<tt src={/class-icons/explorers/shadower/midnight-carnival.png} tip={Midnight Carnival (3rd Job)}> <tt src={/class-icons/explorers/shadower/savage-blow.png} tip={Savage Blow (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Shadower"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%84%80%EB%8F%84%EC%96%B4"},
+            {"title": "Class Discord", "link": "https://discord.gg/3NKFYxR2T3"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1NKBCWe9a2P2RKo8jScEv5EjAj4hVWsBu-9DW9dZMTvI"}
+        ],
+        "infographics": [
+            {
+                "src": "/shadower/shadower-overview.png",
+                "title": "Overview",
+                "credit": "FewStabs",
+                "date": "2026-05-15"
+            },
+            {
+                "src": "/shadower/shadower-6th-job.png",
+                "title": "6th Job",
+                "credit": "Shadower Discord",
+                "date": "2026-09-04"
+            }
+        ],
+        "specialThanks": "Special thanks to Poro and the members of the Shadower Discord for their help in making this overview!",
+        "discord": "https://discord.gg/3NKFYxR2T3",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Dark Sight",
+            "content": [
+                "<em text={Credits to the Night Walker Discord for the list of attacks avoidable with Dark Sight. For an actively maintained version, please check out the Night Walker Discord}>",
+                "In 1st Job, <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> Dark Sight is unlocked that allows you to dodge certain attacks. Below is a list of avoidable attacks that have been tested:",
+                " dsTable "
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Thief's Cunning",
+                    "maxLevel": 9,
+                    "shortDesc": "Upon debuffing an enemy, Damage: +18%. Duration: 10 sec\\nCooldown: 20 sec.",
+                    "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 3 times, once for each unique Explorer Thief to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/MJFKBMPNxfWukjuOWG/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/FjAdyW2PaPoxGQ7d4C/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/jtTOlJEIKO8ZlJ8owC/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/WDEusDBggfsHNR6mTe/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHp2ZzhqZ3Z1Ym4zZDFkZmJvZ3FsdXg3aTIybmhwd3dvZWRhcjl2OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PXc6yub1GPTn5001qT/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Double Stab",
+                        "shortDesc": "MP Cost: 14, Damage: 165%, Number of Attacks: 2, Enemies Hit: 5",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/thief/double-stab.png"],
+                        "animations": ["https://media.giphy.com/media/sCcksxBXrLbaSr4Eyz/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Stab inplace damaging enemies around you",
+                        "details": [
+                            "Only usable when equipped with a Dagger"
+                        ]
+                    },
+                    {
+                        "name": "Lucky Seven",
+                        "shortDesc": "MP Cost: 14, Throwing Star Cost: 2, Damage: 110%, Enemies Hit: 5, Number of Attacks: 3",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/thief/lucky-seven.png"],
+                        "animations": ["https://media.giphy.com/media/RdrMPQetljNlRNLqYd/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throw a barrage of stars forward",
+                        "details": [
+                            "Only usable when equipped with a Claw"
+                        ]
+                    },
+                    {
+                        "name": "Haste",
+                        "shortDesc": "Speed: +40, Jump: +20, Max Speed: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/thief/haste.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dark Sight",
+                        "shortDesc": "MP Cost: 5, hides in the shadows for 200 seconds.\\nWhen Dark Sight is deactivated, cooldown increased per attack dodged: 3 seconds. Stacks up to 5 times.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/dark-sight.png"],
+                        "animations": ["https://media.giphy.com/media/QBRgAFQ3cDZd7DKMK3/giphy.gif"],
+                        "type": "Active / Utility",
+                        "desc": "While active, you cannot hit or be hit by enemies",
+                        "details": [
+                            "While active, pressing the Skill Key again or using an attack will cancel Dark Sight",
+                            "You can use <tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump (1st Job)}> while in Dark Sight",
+                            "Has a cooldown (3 secs, stacks up to 5 times) per attack dodged"
+                        ]
+                    },
+                    {
+                        "name": "Flash Jump",
+                        "shortDesc": "MP Cost: 12, jumps further, able to use 2 times consecutively.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/thief/flash-jump.png"],
+                        "animations": ["https://media.giphy.com/media/mfLHVJFQqnEa7rh4Ie/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "name": "Nimble Body",
+                        "shortDesc": "Permanently increases LUK by 20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/thief/nimble-body.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Savage Blow",
+                        "shortDesc": "MP Cost: 30, attack 6 enemies with 210% damage 3 times.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/shadower/savage-blow.png"],
+                        "animations": ["https://media.giphy.com/media/JR84ZnxoWD3coTBUff/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash forward several times"
+                    },
+                    {
+                        "name": "Critical Edge",
+                        "shortDesc": "Critical Rate: +25%, Critical Damage: +5%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/shadower/critical-edge.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Steal",
+                        "shortDesc": "Grants attack skills a 10% chance to steal a potion that instantly restores HP or MP. Consuming a potion that was stolen from a boss fully restores both HP and MP, and grants you a buff that increases your Attack Power by 30 for 3 minutes.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/shadower/steal.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks have chance to drop a potion that restores HP or MP",
+                        "details": [
+                            "If the effect activates on a boss, the potion restores HP and MP and grants a flat Attack buff",
+                            "Can only trigger this effect once per enemy"
+                        ]
+                    },
+                    {
+                        "name": "Agile Daggers",
+                        "shortDesc": "Attack Speed: +2, Luck: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/shadower/agile-daggers.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Channel Karma",
+                        "shortDesc": "Attack +30, Knockback Resistance: +40%",
+                        "maxLevel": 19,
+                        "icons": ["/class-icons/explorers/shadower/channel-karma.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dagger Mastery",
+                        "shortDesc": "Dagger Mastery: +50%, Final Damage: +9%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/shadower/dagger-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increases LUK by 30 and DEX by 30",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Shield Mastery",
+                        "shortDesc": "When shield or dagger scabbard is equipped, DEF: +110%, Avoidability: +20%, Attack Power: +20, Damage Taken: -60%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/shadower/shield-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Bandit's Agility",
+                        "shortDesc": "Allows you to Flash Jump upwards",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/thief/bandits-agility.png"],
+                        "animations": ["https://media.giphy.com/media/wFgK5bC97q3i4Ryo1D/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Can be activated in the air while pressing the Up Arrow Key and Jump Key together"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Midnight Carnival",
+                        "shortDesc": "MP Cost: 26, attack 8 enemies with 190% damage 4 times",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/shadower/midnight-carnival.png"],
+                        "animations": ["https://media.giphy.com/media/9HVH6CUu9c8Og0Qgtz/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Release a barrage of slashes forward"
+                    },
+                    {
+                        "name": "Phase Dash",
+                        "shortDesc": "MP Cost: 45, attack 8 enemies with 420% damage 2 times",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/shadower/phase-dash.png"],
+                        "animations": ["https://media.giphy.com/media/OVQQAzN2U33JK7fyYg/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing back enemies"
+                    },
+                    {
+                        "name": "Meso Explosion",
+                        "shortDesc": "MP Cost: 30, Damage: 100% and Number of Attacks: 2 per Meso per enemy, Normal Enemy Damage: 5% (additive)\\nMax Enemies Hit: 10, Max Number of Projectiles: 15",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/shadower/meso-explosion.png"],
+                        "animations": ["https://media.giphy.com/media/fZLn8ERItz6ePNtPzs/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Activate Mesos dropped by <tt src={/class-icons/explorers/shadower/pick-pocket.png} tip={Pick Pocket (3rd Job)}> to seek out and damage nearby enemies",
+                        "details": [
+                            "Deals increased %Damage to regular monsters"
+                        ]
+                    },
+                    {
+                        "name": "Dark Flare",
+                        "shortDesc": "MP Cost: 100, Large Dagger Summon Duration: 60 sec.\\nMax Enemies Hit: 3, Damage: 360%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/shadower/dark-flare.png"],
+                        "animations": ["https://media.giphy.com/media/qcBr8yfDPfxzpYZ5a5/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Place down a stationary dagger that damages nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Pick Pocket",
+                        "shortDesc": "Has a 30% chance to drop Mesos, up to a maximum of 15 Mesos.\\nMesos do not drop from Venom or Sudden Raid, which do damage over time.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/shadower/pick-pocket.png"],
+                        "animations": ["https://media.giphy.com/media/H5qOYrEX1R01JF8Y0N/giphy.gif"],
+                        "type": "Toggle",
+                        "desc": "While toggled, successful attacks have a chance to drop Mesos that are used by <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}>",
+                        "details": [
+                            "Mesos do not drop from <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}>, <tt src={/class-icons/explorers/shadower/venom.png} tip={Venom (3rd Job)}> <tt src={/class-icons/explorers/shadower/sudden-raid.png} tip={Sudden Raid (4th Job)}> (DoT), 1st Job Skills, 5th Job Common Skills, and summons",
+                            "Cannot be used at the same time as <tt src={/class-icons/explorers/shadower/blood-money.png} tip={Blood Money (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Partner",
+                        "shortDesc": "MP Cost: 64, summons a shadow that makes an additional hit that is 70% of the final damage for all attacks for 200 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/shadow-partner.png"],
+                        "animations": ["https://media.giphy.com/media/MMSQoekK9EotAaPDln/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Create a clone that mimics your attacks to deal an additional hit each hit",
+                        "details": [
+                            "The clone's attack deals reduced %Final Damage",
+                            "Does not mimic <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}>, summoning skills, and 5th Job Common Skills"
+                        ]
+                    },
+                    {
+                        "name": "Advanced Dark Sight",
+                        "shortDesc": "15% chance to maintain Dark Sight on attacking. When inside your own Smokescreen or Shadow Veil, this increases to 100%.\\n15% chance to auto-trigger Dark Sight when attacked. Final Damage +12% when attacking during Dark Sight.\\nIf you dodge an attack that deals damage proportional to Max HP, using the Dark Sight that activates when you are hit, the Dark Sight's remaining time will be reduced by 20% of its maximum.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/common/advanced-dark-sight.png"],
+                        "type": "Passive",
+                        "desc": "While <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> is active, gain increased %Final Damage and attacks have a chance to not deactivate the buff",
+                        "details": [
+                            "Additionally, upon getting hit, there is a chance to automatically activate <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}>",
+                            "While within the following skills, attacking during <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> will not deactivate the buff: <tt src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen (4th Job)}> <tt src={/class-icons/explorers/shadower/shadow-veil.png} tip={Shadow Veil (Hyper Skill)}>",
+                            "When the automatic version of <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> activates, dodging an attack that deals %Max HP will slightly reduce the duration but does not apply a cooldown"
+                        ]
+                    },
+                    {
+                        "name": "Into Darkness",
+                        "shortDesc": "MP Cost: 20. Teleport to an enemy within range and go into Dark Sight. Cooldown shared with Dark Sight.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/shadower/into-darkness.png"],
+                        "animations": ["https://media.giphy.com/media/xdJtoFZNe6jCkIyiVJ/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleport to an enemy within range and activate <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}>",
+                        "details": [
+                            "Prioritizes enemies with the highest HP first",
+                            "Shares cooldown with <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Venom",
+                        "shortDesc": "Status Chance: 30%, Damage Over Time: 90% damage every 1 sec for 6 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/shadower/venom.png"],
+                        "type": "Passive",
+                        "desc": "Grants a chance for your attacks to apply a poisoning debuff"
+                    },
+                    {
+                        "name": "Meso Mastery",
+                        "shortDesc": "Attack Power: +20, Enemy Meso Drop Rate: +20%\\nMeso Explosion Damage (per shot): +20% points",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/shadower/meso-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Enveloping Darkness",
+                        "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/common/enveloping-darkness.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Assassinate",
+                    "shortDesc": "MP Cost: 44, Damage: 270%, Number of Consecutive Attacks: 6, Press the skill key once more to deal 490% damage 6 times as the final blow.\\nFinal Damage increases by 50% when using a final blow that consumes the Murderous Intent buff.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/shadower/assassinate.png"],
+                    "animations": ["https://media.giphy.com/media/9awdr7B8fwPjKrSv41/giphy.gif", "https://media.giphy.com/media/iVWDYgy4Cd82gg9bxK/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike an enemy several times before unleashing a devastating attack",
+                    "details": [
+                        "Pressing the Skill Key activates the initial strike and pressing the Skill Key again will activate the final blow",
+                        "While casting, you are immune to being knocked back at all (Super Knockback Resistance)",
+                        "Final blow deals increased %Final Damage when <tt src={/class-icons/explorers/shadower/blood-money.png} tip={Blood Money (4th Job)}> \"Murderous Intent\" is active and consumes the buff"
+                    ]
+                },
+                {
+                    "name": "Cruel Stab",
+                    "shortDesc": "MP Cost: 40, Damage: 250%, Max Enemies Hit: 8, Number of Attacks: 6\\n[Passive Effect: Final Damage: +24%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/shadower/cruel-stab.png"],
+                    "animations": ["https://media.giphy.com/media/dNJ9IyuyCbaKrA7tn7/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Stab forward",
+                    "details": [
+                        "[Passive]: Permanently increases %Final Damage",
+                        "Has a reduced chance to drop Mesos from <tt src={/class-icons/explorers/shadower/pick-pocket.png} tip={Pick Pocket (3rd Job)}>"
+                    ]
+                },
+                {
+                    "name": "Blood Money",
+                    "shortDesc": "Your attacks have a 30% chance of dropping coins. A total of 15 coins can be in play at any one time.\\nDamage-over-time effects from Venom and Sudden Raid do not generate coins.\\nCasting Meso Explosion while Blood Money is active grants the Muderous Intent buff. Meso Explosion deals 30% additional damage against bosses.\\n[Passive Effects] Luck +10, Critical Damage: +20%.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/shadower/blood-money.png"],
+                    "animations": ["https://media.giphy.com/media/Pi34jaePxOEEZ9hZPA/giphy.gif", "https://media.giphy.com/media/W75bGTvkZoUcmL4YgD/giphy.gif"],
+                    "type": "Toggle",
+                    "desc": "While toggled, successful attacks have a chance to drop red coins that are used by <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}>",
+                    "details": [
+                        "[Passive]: Permanently increases %Crit Damage and grants flat LUK",
+                        "While active, <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}> grants the \"Murderous Intent\" buff and deals increased %Boss Damage<bp_Targets bosses first with the highest HP_>",
+                        "Coins do not drop from <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}>, <tt src={/class-icons/explorers/shadower/venom.png} tip={Venom (3rd Job)}> <tt src={/class-icons/explorers/shadower/sudden-raid.png} tip={Sudden Raid (4th Job)}> (DoT), 1st Job Skills, 5th Job Common Skills, and summons",
+                        "Cannot be used at the same time as <tt src={/class-icons/explorers/shadower/pick-pocket.png} tip={Pick Pocket (3rd Job)}>",
+                        "Right-clicking the skill will toggle the visual effect ON/OFF",
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Sudden Raid",
+                    "shortDesc": "MP Cost: 290, Damage: 494%, Max Enemies Hit: 15, Number of Attacks: 7, Damage Over Time: 210% damage every 1 sec for 10 sec\\nCooldown: 30 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/shadower/sudden-raid.png"],
+                    "animations": ["https://media.giphy.com/media/QbADQ6sL7SdliDLY7H/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a devastating large attack that applies a damaging debuff",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/00wgvMiGJowfCTojUV/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Smokescreen",
+                    "shortDesc": "MP Cost: 46, Critical Damage within the Smokescreen: +20%, Damage Taken in Proportion to Max HP: -10%,\\nDuration: 30 sec, Cooldown: 120 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/shadower/smokescreen.png"],
+                    "animations": ["https://media.giphy.com/media/7O3TXjCsNl9mr632Hv/giphy.gif"],
+                    "type": "Buff Zone",
+                    "desc": "Create a smokescreen where party members cannot be hit by enemy attacks",
+                    "details": [
+                        "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> will not deactivate while attacking within the smokescreen",
+                        "Increased chance for <tt src={/class-icons/common/advanced-dark-sight.png} tip={Advanced Dark Sight (3rd Job)}> to activate while within the smokescreen",
+                        "For attacks that deal %Max HP damage, the damage will be reduced<bp_Smokescreen can also block certain key boss attacks such as Will's screen crack_>",
+                        "Enemies within the smokescreen take increased %Crit Damage",
+                        "While casting, you are immune to being knocked back at all (Super Knockback Resistance)"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/uW0zaQOJSP63PE99At/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Shadower Instinct",
+                    "shortDesc": "Attack Power: +45, Final Damage: +16%, Ignore DEF: +20%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/shadower/shadower-instinct.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Shadow Shifter",
+                    "shortDesc": "Dodge Chance: 45%, Knockback Resistance: +60%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/shadower/shadow-shifter.png"],
+                    "animations": ["https://media.giphy.com/media/gSHHkQJBR1s1lFxYB7/giphy.gif"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Toxic Venom",
+                    "shortDesc": "Poison Chance: 50%, 160% damage every 1 sec for 8 sec, can be stacked 3 times",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/shadower/toxic-venom.png", "/class-icons/explorers/shadower/venom.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases debuff chance, duration, and %Damage",
+                        "Can now be stacked (up to 3 times)"
+                    ]
+                },
+                {
+                    "name": "Dagger Expert",
+                    "shortDesc": "Dagger Mastery: +70%, Attack Power: +40, Critical Damage: +15%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/shadower/dagger-expert.png", "/class-icons/explorers/shadower/dagger-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Meso Explosion - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/meso-explosion-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Meso Explosion - Guardbreak",
+                    "shortDesc": "Ignore Defense: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/meso-explosion-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Meso Explosion - Enhance",
+                    "shortDesc": "Max number of usable Mesos dropped from Pick Pocket and Blood Money: 5. Chance for Mesos to drop from Pick Pocket and Blood Money: +10%.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/meso-explosion-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Cruel Stab - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/cruel-stab-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Cruel Stab - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/cruel-stab-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Cruel Stab - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/cruel-stab-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Assassinate - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/assassinate-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Assassinate - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/assassinate-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Assassinate - Guardbreak",
+                    "shortDesc": "Enemy DEF Ignored: 10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/assassinate-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Flip of the Coin",
+                    "shortDesc": "Throws a lucky coin.\\n[Passive Effects - Critical Rate: +25%, Damage: +24%]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/flip-of-the-coin.png"],
+                    "animations": ["https://media.giphy.com/media/QdCgYPbAeH33edDCHR/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Shadow Veil",
+                    "shortDesc": "MP Cost: 300, Duration: 12 sec, Max Enemies Hit: 15, Damage: 800%\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/shadower/shadow-veil.png"],
+                    "animations": ["https://media.giphy.com/media/a3nNyJuOqjKlYYdIHg/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Create a large damaging veil of slashing blades",
+                    "details": [
+                        "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> will not deactivate while attacking within the veil",
+                        "Increased chance for <tt src={/class-icons/common/advanced-dark-sight.png} tip={Advanced Dark Sight (3rd Job)}> to activate while within the veil"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/thief/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/ZKBduZQJkuAgBZi19c/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expThief", "goddessBlessing", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Shadow Assault",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 12, Rush Damage: 1320%, Number of Attacks: 6, Critical Rate: +25%, Enemy DEF Ignored: +100%\\nAttacks up to 4 times in the direction of your choice\\nCan be used 2-4 times, with a 60 sec cooldown beginning after the first hit",
+                    "icons": ["/class-icons/explorers/shadower/shadow-assault.png"],
+                    "animations": ["https://media1.giphy.com/media/d9CnK13CqpyZqm6fK1/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Dash towards a chosen direction while damaging enemies in your path",
+                    "details": [
+                        "Attack has increased %Crit Rate and 100% Ignore DEF",
+                        "Pressing the desired Arrow Keys along with the Skill Key will dash towards that direction, including diagonal directions",
+                        "Can be used up to 4 times and the cooldown starts after the initial cast<bp_If the skill is off cooldown and is casted again before all the charges are used, you regain maximum charges and the cooldown is applied again_>"
+                    ]
+                },
+                {
+                    "name": "Trickblade",
+                    "shortDesc": "Passive Effect: The enemy hit with Assassinate's last attack and Sonic Blow receives a wound debuff, for 10 sec., that can stack up to 3 times. Only 1 enemy can receive the wound debuff. If the debuff is given to a new enemy, the previous debuff disappears.\\nActive Effect - MP Cost: 650. Summons your hidden friends to deal 1485% damage up to 10 enemies 5 times. Cooldown: 14 sec.\\nIf one of the enemies has the wound debuff at max stack, you can use it by linking from Assassinate and Sonic Blow to move behind that enemy, then activate Chase Cut 5 times, dealing 1815% damage 7 times with Critical Rate +100% and ignoring 100% additional Defense. Invincible for 1.8 sec. after the attack, which also applies 20 sec. of cooldown.",
+                    "icons": ["/class-icons/explorers/shadower/trickblade.png"],
+                    "animations": ["https://media2.giphy.com/media/jQVTs2dkMWLJwb56ao/giphy.gif", "https://media3.giphy.com/media/kyoIG72OULvtOk7CKq/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slash nearby enemies several times",
+                    "details": [
+                        "[Passive]: Enemies hit by the final attack of <tt src={/class-icons/explorers/shadower/assassinate.png} tip={Assassinate (4th Job)}> or <tt src={/class-icons/explorers/shadower/sonic-blow.png} tip={Sonic Blow (5th Job)}> receive a stacking debuff (up to 3 times) that is consumed by <tt src={/class-icons/explorers/shadower/trickblade.png} tip={Trickblade (5th Job)}><bp_Only 1 enemy can receive the debuff at a time_>",
+                        "If an enemy has the debuff at max stack, you can link <tt src={/class-icons/explorers/shadower/assassinate.png} tip={Assassinate (4th Job)}> or <tt src={/class-icons/explorers/shadower/sonic-blow.png} tip={Sonic Blow (5th Job)}> together with Trick Blade to dash behind that enemy and deal a devastating attack<bp_The attack instead deals heavy damage to that one target and gains 100% Crit Rate and 100% Ignore DEF_You are also briefly invincible after the attack however the skill has a longer cooldown_Unaffected by Attack Ignore and Damage Reflect_>"
+                    ]
+                },
+                {
+                    "name": "Sonic Blow",
+                    "shortDesc": "MP Cost: 1000, Duration: 2 sec., Damage: 1470%, Max Enemies Hit: 8, Number of Attacks: 7, Ignore Defense: +100%\\nEach Sonic Blow attack inflicts the highest Max HP enemy that was hit with 3 wound debuffs.\\nDamage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 60 sec.\\nAttack can be canceled by using Trickblade if there is an enemy with max wound stacks. Reduces cooldown by 2.5 sec. for every remaining number of attacks.",
+                    "icons": ["/class-icons/explorers/shadower/sonic-blow.png"],
+                    "animations": ["https://media3.giphy.com/media/fYY03ozM65PWVOHuKo/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a barrage of slashes in front of you",
+                    "details": [
+                        "Attack has 100% Ignore DEF and applies max stacks of <tt src={/class-icons/explorers/shadower/trickblade.png} tip={Skill Trickblade (5th Job)}> wound debuff to the enemy with the highest Max HP",
+                        "Attack can be cancelled using <tt src={/class-icons/explorers/shadower/shadow-assault.png} tip={Shadow Assault (5th Job)}> or <tt src={/class-icons/explorers/shadower/trickblade.png} tip={Trickblade (5th Job)}><bp_Cooldown will be reduced based on how many number of attacks remain_>",
+                        "While casting, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses"
+                    ]
+                },
+                {
+                    "name": "Slash Shadow Formation",
+                    "shortDesc": "MP Cost: 1200, Max Enemies Hit: 6, Damage: 1545%, Number of Attacks: 11. Allies appear 9 times, then the leader appears. Additional DEF Ignored: 100%\\nLeader: Chase Cut Activation: 8, Max Enemies Hit: 8, Damage: 1690%, Number of Attacks: 15\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/shadower/slash-shadow-formation.png"],
+                    "animations": ["https://media1.giphy.com/media/IaLZHK8ig8wVvOQVTa/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Shadows appear and slashes through enemies around you before dealing a devastating final blow",
+                    "details": [
+                        "Attack has 100% Ignore DEF",
+                        "When used with <tt src={/class-icons/explorers/shadower/assassinate.png} tip={Assassinate (4th Job)}> or <tt src={/class-icons/explorers/shadower/cruel-stab.png} tip={Cruel Stab (4th Job)}>, there is no casting animation and can be used at the same time",
+                        "While active, pressing the Skill Key again will end the attack early and deal the devastating final blow",
+                        "Unaffected by Damage Reflect and <tt src={/class-icons/common/shadow-partner.png} tip={Shadow Partner (3rd Job)}>"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Savage Blow Boost",
+                    "shortDesc": "Savage Blow Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/shadower/savage-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Phase Dash Boost",
+                    "shortDesc": "Phase Dash Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/shadower/phase-dash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Meso Explosion Boost",
+                    "shortDesc": "Meso Explosion Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/shadower/meso-explosion.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Midnight Carnival Boost",
+                    "shortDesc": "Midnight Carnival Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/shadower/midnight-carnival.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dark Flare Boost",
+                    "shortDesc": "Dark Flare Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/shadower/dark-flare.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Assassinate Boost",
+                    "shortDesc": "Assassinate Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/shadower/assassinate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Cruel Stab Boost",
+                    "shortDesc": "Cruel Stab Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/shadower/cruel-stab.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sudden Raid Boost",
+                    "shortDesc": "Sudden Raid Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/shadower/sudden-raid.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shadow Veil Boost",
+                    "shortDesc": "Shadow Veil Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/shadower/shadow-veil.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/shadower/hexa-assassinate.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHA1dWJ5dnhvNzUzZDZkcW5paHA4N21kMzQ1OXpoMm1hM3VkbWplcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bfzrumApammZ3HBUUi/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/shadower/assassinate.png} tip={Assassinate (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Assassinate",
+                    "shortDesc": "MP Cost: 57, Damage: 395%, Number of Consecutive Attacks: 6, Press the skill key once more to deal 690% damage 6 times as the final blow.\\nFinal Damage increases by 50% when using a final blow that consumes the Murderous Intent buff.\\nEnhances to HEXA Pulverize every 10 sec.",
+                    "icons": ["/class-icons/explorers/shadower/hexa-assassinate.png", "/class-icons/explorers/shadower/assassinate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Pulverize",
+                    "shortDesc": "MP Cost: 57, Damage: 480%, Number of Consecutive Attacks: 6, Press the skill key once more to deal 835% damage 6 times as the final blow.\\nFinal Damage increases by 50% when using a final blow that consumes the Murderous Intent buff.\\nUpon use, Dark Sight Duration: 6 sec\\nCooldown: 10 sec\\nUsing Shadow Veil increases the number of uses by 2, using Smokescreen increases the number of uses by 3, maintaining for 3 sec within Smokescreen charges the number of uses by 1, Max Number of Charges: 5",
+                    "icons": ["/class-icons/explorers/shadower/hexa-pulverize.png", "/class-icons/explorers/shadower/assassinate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/shadower/hexa-meso-explosion-1.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHFrZjg0dWh0M2Y1OWczYmp6eGJ0MHFydzRycmd1czRsd2V4a2d6OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HyHvKXTpNoofherMu2/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/shadower/meso-explosion.png} tip={Meso Explosion (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Meso Explosion",
+                    "shortDesc": "MP Cost: 35, Damage: 300% and Number of Attacks: 2 per Meso per enemy, Normal Enemy Damage: 15% (additive)\\nMax Enemies Hit: 10, Max Number of Projectiles: 15",
+                    "icons": ["/class-icons/explorers/shadower/hexa-meso-explosion-1.png", "/class-icons/explorers/shadower/meso-explosion.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Meso Explosion",
+                    "shortDesc": "MP Cost: 35, Damage: 300% and Number of Attacks: 2 per Meso per enemy, Normal Enemy Damage: 15% (additive)\\nMax Enemies Hit: 10, Max Number of Projectiles: 15\\nBoss Damage: +40%\\nGrants the Murderous Intent buff.",
+                    "icons": ["/class-icons/explorers/shadower/hexa-meso-explosion-2.png", "/class-icons/explorers/shadower/blood-money.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/shadower/hexa-dark-flare-cruel-stab.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/shadower/dark-flare.png} tip={Dark Flare (3rd Job)}> <tt src={/class-icons/explorers/shadower/cruel-stab.png} tip={Cruel Stab (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Dark Flare",
+                    "shortDesc": "MP Cost: 120, Large Dagger Summon Duration: 60 sec\\nMax Enemies Hit: 5, Damage: 580%",
+                    "icons": ["/class-icons/explorers/shadower/hexa-dark-flare.png", "/class-icons/explorers/shadower/dark-flare.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3FpcnA2Zjc5NzJpdWI3aXl3dXM4dXRwbWd4eWpoZnJzd2Z2cG1sMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a4al18qdvuL6iUiQj9/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Cruel Stab",
+                    "shortDesc": "MP Cost: 48, Damage: 460%, Max Enemies Hit: 8, Number of Attacks: 6\\n[Passive Effect - HEXA Assassinate Damage: +100% points, HEXA Assassinate Final Blow Damage: +100% points, HEXA Pulverize Damage: +100% points, HEXA Pulverize Final Blow Damage: +100% points]",
+                    "icons": ["/class-icons/explorers/shadower/hexa-cruel-stab.png", "/class-icons/explorers/shadower/cruel-stab.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGlnd2FqbHYzMjYwbzV0YmRrdTJtcnZtMnJoajhoejNqNzllM24zbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XFjiSfKJtriScZA0bf/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/shadower/hexa-sudden-raid-shadow-veil-covert-edge.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/shadower/sudden-raid.png} tip={Sudden Raid (4th Job)}> <tt src={/class-icons/explorers/shadower/shadow-veil.png} tip={Shadow Veil (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Sudden Raid",
+                    "shortDesc": "MP Cost: 330, Damage: 800%, Max Enemies Hit: 15, Number of Attacks: 7, Damage Over Time: 245% damage for every 1 sec for 10 sec\\nCooldown: 14 sec",
+                    "icons": ["/class-icons/explorers/shadower/hexa-sudden-raid.png", "/class-icons/explorers/shadower/sudden-raid.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHhoZW04dm1hNnBuYzl0MnJxdDM1NnAybTg1dG9sZGx5emQ2bHhwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ptf4RHR6x3pvq7QpZ3/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Shadow Veil",
+                    "shortDesc": "MP Cost: 360, Duration: 12 sec, Max Enemies Hit: 15, Damage: 1280%\\nCooldown: 60 sec\\n[Passive Effect: When HEXA Assassinate lands, there's a 20% chance to use recharge the number of times HEXA Pulverize can be used 1 times]",
+                    "icons": ["/class-icons/explorers/shadower/hexa-shadow-veil.png", "/class-icons/explorers/shadower/shadow-veil.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXQ1aW93emh6NDljMWNpNXNuaGdhNncxYTN5ajl0ZHB4azFzb3dxMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/s39NVdcxJ1YMytl9Xo/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Covert Edge",
+                    "shortDesc": "When a direct skill attack lands, there's a 60% chance of additional hits that attack 2 times with 150% damage. Enhances to Shadow Edge when Dark Sight lasts more than 9 sec\\nShadow Edge: Lasts 3 sec., 100% chance to deal a Lethal Strike that inflicts 160% damage when a direct skill attack lands. Immediately applied as Shadow Edge when a direct skill attack first lands during Dark Sight if within smokescreen",
+                    "icons": ["/class-icons/explorers/shadower/covert-edge.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWIycHR6MHltbjZpYWFkdzMwMGk2Yzc2YmwwOWpvemxhcXkyNG00ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gStdjVnARe7HVrL2NY/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Halve Cut",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15, Damage: 960%, Number of Attacks: 6, Chase Cuts: 23. Damage: 782%, Number of Attacks: 6, Chase Cuts: 32. Damage: 850%, Number of Attacks: 7, Finishing Blows: 55\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/shadower/halve-cut.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG5rdms5a2N0a2Q0OGgzdHFtZW84ZnhjMzl5ZXIyMzc2MGxiZ2xpYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a9rjqeYE1ZRWDp8dTS/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Covetous Darkness",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nSlashes 12 times, dealing 7165% damage to up to 15 enemies 13 times\\nAfter a delay, the covetous gold explodes 12 times, dealing 8295% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/shadower/covetous-darkness.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVhZ3V6bTNqMm4xazc1OGR5Zzc1a3hvdmlhYmt2aXlmb2JrcGdvZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wfLphuhSgevqgLgE3V/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Shadow Assault Boost",
+                    "shortDesc": "Shadow Assault Final Damage: +60%, Consecutive Uses: increased to 6, Cooldown: decreased to 50 sec",
+                    "icons": ["/class-icons/explorers/shadower/shadow-assault.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Trickblade Boost",
+                    "shortDesc": "Trickblade Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/shadower/trickblade.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Sonic Blow Boost",
+                    "shortDesc": "Sonic Blow Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/shadower/sonic-blow.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Slash Shadow Formation Boost",
+                    "shortDesc": "Slash Shadow Formation Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/shadower/slash-shadow-formation.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Shadow Partner - 3rd Job",
+                "icons": ["/class-icons/common/shadow-partner.png"],
+                "animations": ["https://media.giphy.com/media/MMSQoekK9EotAaPDln/giphy.gif"]
+            },
+            {
+                "name": "Meso Explosion - 3rd Job",
+                "icons": ["/class-icons/explorers/shadower/meso-explosion.png"],
+                "animations": ["https://media.giphy.com/media/fZLn8ERItz6ePNtPzs/giphy.gif"]
+            },
+            {
+                "name": "Assassinate - 4th Job",
+                "icons": ["/class-icons/explorers/shadower/assassinate.png"],
+                "animations": ["https://media.giphy.com/media/9awdr7B8fwPjKrSv41/giphy.gif"]
+            },
+            {
+                "name": "Cruel Stab - 4th Job",
+                "icons": ["/class-icons/explorers/shadower/cruel-stab.png"],
+                "animations": ["https://media.giphy.com/media/dNJ9IyuyCbaKrA7tn7/giphy.gif"]
+            },
+            {
+                "name": "Shadow Assault - 5th Job",
+                "icons": ["/class-icons/explorers/shadower/shadow-assault.png"],
+                "animations": ["https://media1.giphy.com/media/d9CnK13CqpyZqm6fK1/giphy.gif"]
+            },
+            {
+                "name": "Trickblade - 5th Job",
+                "icons": ["/class-icons/explorers/shadower/trickblade.png"],
+                "animations": ["https://media2.giphy.com/media/jQVTs2dkMWLJwb56ao/giphy.gif"]
+            },
+            {
+                "name": "Sonic Blow - 5th Job",
+                "icons": ["/class-icons/explorers/shadower/sonic-blow.png"],
+                "animations": ["https://media3.giphy.com/media/fYY03ozM65PWVOHuKo/giphy.gif"]
+            },
+            {
+                "name": "Halve Cut - 6th Job",
+                "icons": ["/class-icons/explorers/shadower/halve-cut.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG5rdms5a2N0a2Q0OGgzdHFtZW84ZnhjMzl5ZXIyMzc2MGxiZ2xpYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a9rjqeYE1ZRWDp8dTS/giphy.gif"]
+            },
+            {
+                "name": "Covetous Darkness - 6th Job",
+                "icons": ["/class-icons/explorers/shadower/covetous-darkness.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVhZ3V6bTNqMm4xazc1OGR5Zzc1a3hvdmlhYmt2aXlmb2JrcGdvZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wfLphuhSgevqgLgE3V/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Shadower is a LUK thief class part of the Explorers. Shadower utilize Daggers as their primary weapons. For their secondary weapon, Dual Blade can equip Dagger Scabbards and Shields"
+}

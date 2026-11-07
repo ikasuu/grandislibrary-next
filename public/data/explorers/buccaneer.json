@@ -1,0 +1,1164 @@
+{
+    "class": "Buccaneer",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Pirate",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["knuckle"]},
+            {"secondary": ["wristband"]}
+        ],
+        "innerAbility": [
+            {
+                "abilities": ["Boss Damage +20%", "Buff Duration +38%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.7x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 8",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/explorers/buccaneer/agile-knuckles.png} tip={Agile Knuckles (2nd Job)} val={+2}> <bg src={/class-icons/common/speed-infusion.png} tip={Speed Infusion (4th Job)} val={+2, does not break soft cap}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+180 & +15%(440%) to assigned AP",
+                "detail": "<bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+130}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/buccaneer/agile-knuckles.png} tip={Agile Knuckles (2nd Job)} val={+20}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% (AP)}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+19% +90(130)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones (4th Job)} val={+15%}> <bg src={/class-icons/explorers/buccaneer/dark-clarity.png} tip={Dark Clarity (2nd Job)} val={+30}> <bg src={/class-icons/explorers/buccaneer/precision-strikes.png} tip={Precision Strikes (3rd Job)} val={+30}> <bg src={/class-icons/explorers/buccaneer/typhoon-crush.png} tip={Typhoon Crush (4th Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40% (60% for bosses) (100% for debuffed)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart (1st Job)} val={+20%}> <bg src={/class-icons/explorers/buccaneer/precision-strikes.png} tip={Precision Strikes (3rd Job)} val={+15% & +20% against bosses}> <bg type={temp} src={/class-icons/explorers/buccaneer/groggy-mastery.png} tip={Groggy Mastery (3rd Job)} val={+60% to debuffed}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%(45%)",
+                "detail": "<bg src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart (1st Job)} val={+5%}> <bg src={/class-icons/explorers/buccaneer/precision-strikes.png} tip={Precision Strikes (3rd Job)} val={+10%}> <bg src={/class-icons/explorers/buccaneer/serpent-spirit.png} tip={Serpent Spirit (Hyper Skill)} val={+15%}> <bg type={temp} src={/class-icons/explorers/buccaneer/groggy-mastery.png} tip={Groggy Mastery (3rd Job)} val={+15% to debuffed}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+25%(75%)",
+                "detail": "<bg src={/class-icons/explorers/buccaneer/aggressive-stance.png} tip={Aggressive Stance (4th Job)} val={+25%}> <bg type={temp} src={/class-icons/explorers/buccaneer/stimulating-conversation.png} tip={Stimulating Conversation (Hyper Skill)} val={+20%}> <bg type={temp} src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/explorers/buccaneer/stimulating-conversation.png} tip={Stimulating Conversation - Passive (Hyper Skill)} val={+20%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+24.3%(87.94%)",
+                "detail": "<bg src={/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png} tip={Greater Sea Serpent II (4th Job)} val={+10%}> × <bg src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones (4th Job)} val={+13%}> × <bg src={/class-icons/explorers/buccaneer/typhoon-crush.png} tip={Typhoon Crush (4th Job)} val={+10%}> × <bg type={debuff} src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)} val={+10%}> × <bg type={temp} src={/class-icons/explorers/buccaneer/lightning-form.png} tip={Lightning Form (5th Job)} val={+26%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+40%(55%)",
+                "detail": "<bg src={/class-icons/explorers/buccaneer/typhoon-crush.png} tip={Typhoon Crush (4th Job)} val={+40%}> × <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones (4th Job)} dur={[180s]}> <tt src={/class-icons/common/speed-infusion.png} tip={Speed Infusion (4th Job)} dur={[180s]}>",
+            "summons": "<tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)} dur={[5s](Assault Mode)}> <tt src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} dur={[30s]}>",
+            "buffCd": "<tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)} dur={[180s](180s cd / 90s cd if 1)}> <tt src={/class-icons/explorers/buccaneer/time-leap.png} tip={Time Leap (4th Job)} dur={(120s cd)}> <tt src={/class-icons/explorers/buccaneer/stimulating-conversation.png} tip={Stimulating Conversation (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/buccaneer/lightning-form.png} tip={Lightning Form (5th Job)} dur={[55s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/buccaneer/unleash-neptunus.png} tip={Unleash Neptunus (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/buccaneer/lightning-form.png} tip={Lightning Form (5th Job)} dur={[Up to 3.6s](180s cd, during Energy Orb cast)}> <tt src={/class-icons/explorers/buccaneer/howling-fist.png} tip={Howling Fist (5th Job)} dur={(While punching)(60s cd)}> <tt src={/class-icons/explorers/buccaneer/unleash-neptunus.png} tip={Unleash Neptunus (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/explorers/buccaneer/defensive-stance.png} tip={Defensive Stance (4th Job)} dur={[4s](-25% | 4s cd)}> <tt src={/class-icons/explorers/buccaneer/howling-fist.png} tip={Howling Fist (5th Job)} dur={[While casting](-50% | 60s cd)}>"
+        },        
+        "linkSkill": {
+            "id":80002774,
+            "offline": true,
+            "name": "Pirate's Blessing",
+            "maxLevel": 9,
+            "shortDesc": "STR: +100, DEX: +100, INT: +100, LUK: +100, Max HP: +1750, Max MP: +1750, Damage Taken: -21%",
+            "icons": ["/class-icons/link-skills/pirate-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+                "Stats provided are affected by %Stat effects",
+                "For Pirate Explorers, double-clicking this skill turns ON/OFF a toggle where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/pirate/pirate-leap.png} tip={Pirate Leap}> -> <tt src={/class-icons/explorers/pirate/bullet-time.png} tip={Bullet Time}> -> <tt src={/class-icons/explorers/pirate/dash.png} tip={Dash}> -> <tt src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart}> -> <tt src={/class-icons/explorers/pirate/sommersault-kick.png} tip={Sommersault Kick}> -> <tt src={/class-icons/explorers/pirate/double-shot.png} tip={Double Shot}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/buccaneer/perseverance.png} tip={Perseverance}> -> <tt src={/class-icons/explorers/buccaneer/hp-boost.png} tip={HP Boost}> -> <tt src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery}> -> <tt src={/class-icons/explorers/buccaneer/agile-knuckles.png} tip={Agile Knuckles}> -> <tt src={/class-icons/explorers/buccaneer/dark-clarity.png} tip={Dark Clarity}> -> <tt src={/class-icons/explorers/buccaneer/static-thumper.png} tip={Static Thumper}> -> <tt src={/class-icons/explorers/buccaneer/sea-serpent.png} tip={Sea Serpent}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/buccaneer/admirals-wings.png} tip={Admiral's Wings}> -> <tt src={/class-icons/explorers/buccaneer/precision-strikes.png} tip={Precision Strikes}> -> <tt src={/class-icons/explorers/buccaneer/groggy-mastery.png} tip={Groggy Mastery}> -> <tt src={/class-icons/explorers/buccaneer/greater-sea-serpent-i.png} tip={Greater Sea Serpent I}> -> <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> -> <tt src={/class-icons/explorers/buccaneer/turning-kick.png} tip={Turning Kick}> -> <tt src={/class-icons/explorers/buccaneer/serpent-scale.png} tip={Serpent Scale}> -> <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow}>"],
+                ["4th Job", "<tt src={/class-icons/common/double-down.png} tip={Double Down}> -> <tt src={/class-icons/explorers/buccaneer/aggressive-stance.png} tip={Aggressive Stance}> -> <tt src={/class-icons/explorers/buccaneer/defensive-stance.png} tip={Defensive Stance}> -> <tt src={/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png} tip={Greater Sea Serpent II}> -> <tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault}> -> <tt src={/class-icons/explorers/buccaneer/typhoon-crush.png} tip={Typhoon Crush}> -> <tt src={/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/common/speed-infusion.png} tip={Speed Infusion}> -> <tt src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones}> -> <tt src={/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike}> -> <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}> -> <tt src={/class-icons/explorers/buccaneer/time-leap.png} tip={Time Leap}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "[Bossing]<bp_<tt src={/class-icons/explorers/buccaneer/double-down-saving-grace.png} tip={Double Down - Saving Grace}> <tt src={/class-icons/explorers/buccaneer/double-down-enhance.png} tip={Double Down - Enhance}> Double Down - Saving Grace and Enhance_<tt src={/class-icons/explorers/buccaneer/octopunch-reinforce.png} tip={Octopunch - Reinforce}> <tt src={/class-icons/explorers/buccaneer/octopunch-boss-rush.png} tip={Octopunch - Boss Rush}> <tt src={/class-icons/explorers/buccaneer/octopunch-extra-strike.png} tip={Octopunch - Extra Strike}> Octopunch - Reinforce, Boss Rush, and Extra Strike_>[Mobbing]<bp_<tt src={/class-icons/explorers/buccaneer/double-down-saving-grace.png} tip={Double Down - Saving Grace}> <tt src={/class-icons/explorers/buccaneer/double-down-enhance.png} tip={Double Down - Enhance}> Double Down - Saving Grace and Enhance_<tt src={/class-icons/explorers/buccaneer/hook-bomber-reinforce.png} tip={Hook Bomber - Reinforce}> <tt src={/class-icons/explorers/buccaneer/hook-bomber-spread.png} tip={Hook Bomber - Spread}> <tt src={/class-icons/explorers/buccaneer/hook-bomber-extra-strike.png} tip={Hook Bomber - Extra Strike}> Hook Bomber - Reinforce, Spread, and Extra Strike_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage/Raging Serpent Assault (4th Job)}> <tt src={/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)}> <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>",
+                "<tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> <tt src={/class-icons/explorers/buccaneer/serpent-assault.png} tip={Serpent Assault (3rd Job)}>",
+                "<tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> <tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)}> <tt src={/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}>",
+                "<tt src={/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}>",
+                "<tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}> <tt src={/class-icons/explorers/buccaneer/turning-kick.png} tip={Turning Kick (3rd Job)}>",
+                "<tt src={/class-icons/explorers/buccaneer/static-thumper.png} tip={Static Thumper (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Buccaneer"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%B0%94%EC%9D%B4%ED%8D%BC(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/EPxuyRy"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1M1jTSVxLkmXLbt1Dpwh9yP3D7yO7SIL5FWD6HCFweAo"}
+        ],
+        "infographics": [
+            {
+                "src": "/buccaneer/buccaneer-overview.png",
+                "title": "Overview",
+                "credit": "Buccaneer Discord",
+                "date": "2026-05-15"
+            },
+            {
+                "src": "/buccaneer/buccaneer-6th-job.png",
+                "title": "6th Job",
+                "credit": "Horfius",
+                "date": "2026-06-25"
+            }
+        ],
+        "specialThanks": "Special thanks to Subluxe and the members of the Buccaneer Discord for their help in making this overview!",
+        "discord": "https://discord.gg/EPxuyRy",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Fighting, Sea Serpent, and Assault Skills",
+            "content": [
+                "In 2nd Job, Fighting and Sea Serpent skills are introduced. When using a Fighting skill, Sea Serpent skills will automatically activate. Below is a list of all Fighting skills:",
+                "<bp_<tt src={/class-icons/explorers/buccaneer/static-thumper.png} tip={Static Thumper (2nd Job)}> Static Thumper - 2nd Job_<tt src={/class-icons/explorers/buccaneer/turning-kick.png} tip={Turning Kick (3rd Job)}> Turning Kick - 3rd Job_<tt src={/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}> Hook Bomber - 4th Job_<tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> Octopunch - 4th Job (Can only trigger <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpents Rage (4th Job)}> and <tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)}>)_>",
+                "Sea Serpent skills are only activated by using Fighting skills and cannot be used on their own. Below is a list of all Sea Serpent skills:",
+                "<bp_<tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> Sea Serpent Burst - 2nd Job_<tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> Sea Serpent's Rage - 4th Job (Only activated by <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>)_>",
+                "In 3rd Job, Assault skills and Assault Mode are introduced. While in Assault Mode, using a Fighting skill will trigger an Assault skill and end Assault Mode",
+                "To enter Assault Mode, a special resource called 'Serpent Scales' is generated by triggering Sea Serpent skills. Upon gaining 5 Serpent Scales, use <tt src={/class-icons/explorers/buccaneer/serpent-scale.png} tip={Serpent Scale (3rd Job)}> Serpent Scale to activate Assault Mode",
+                "While in Assault Mode, Sea Serpent skills will not trigger. Assault skills are only activated by Fighting skills and cannot be used on their own",
+                "Below is a list of all your Assault skills:",
+                "<bp_<tt src={/class-icons/explorers/buccaneer/serpent-assault.png} tip={Serpent Assault (3rd Job)}> Serpent Assault - 3rd Job_<tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)}> Raging Serpent Assault - 4th Job (Only activated by <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>)_>"
+
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Pirate's Blessing",
+                    "maxLevel": 9,
+                    "shortDesc": "STR: +130, DEX: +130, INT: +130, LUK: +130, Max HP: +1750, Max MP: +1750, Damage Taken: -21%\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/link-skills/pirate-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Stats provided are affected by %Stat effects",
+                        "For Explorer Pirates, double-clicking this skill turns ON/OFF a toggle where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/u0DcanUIj77thoKfyu/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/nts6dtLV6BFruiPMmA/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/tb7wSjoRE9DG3SqqcP/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/f4n0YEzFjREm9RJReb/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Master of Swimming",
+                    "shortDesc": "Permanently increases swimming speed and prevents HP loss when swimming.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/master-of-swimming.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Master of Organization",
+                    "shortDesc": "Permanently expands Equip, Use, Set-up, and Etc. Inventory.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/master-of-organization.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXp4bzJ6ZzhzcHo1ZzRkb2twYWV6YnBoZDdta2d0cTU0MHFoejhhaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gPoQmellQRSnvi6P1t/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                    "name": "Sommersault Kick",
+                    "shortDesc": "MP Cost: 16, Damage: 155%, Max Enemies Hit: 6, Number of Attacks: 2",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/pirate/sommersault-kick.png"],
+                    "animations": ["https://media.giphy.com/media/q8LoeneY0C3skuXiJj/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Kick forward damaging enemies",
+                    "details": [
+                        "Only usable when equipped with Knuckles"
+                    ]
+                },
+                {
+                    "name": "Double Shot",
+                    "shortDesc": "MP Cost: 7, Bullet Cost: 2, fire 2 shots dealing 260% damage. At point of impact, Explosion Damage: 260%, Max Enemies Hit: 6, Max Range: 380",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/pirate/double-shot.png"],
+                    "animations": ["https://media.giphy.com/media/siuLiAhvl1OoWKuxxO/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires two bullets that explode on impact damaging nearby enemies",
+                    "details": [
+                        "Only usable when equipped with a Gun"
+                    ]
+                },
+                {
+                    "name": "Pirate Leap",
+                    "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/explorers/pirate/pirate-leap.png"],
+                    "animations": ["https://media.giphy.com/media/jv9U7bLR7z2kpblZTF/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice"
+                    ]
+                },
+                {
+                    "name": "Dash",
+                    "shortDesc": "Dash, MP Cost: 1, Duration: Up to 10 sec., Movement Speed: +50, Jump: +20, Knockback Resistance: +100%",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/explorers/pirate/dash.png"],
+                    "animations": ["https://media.giphy.com/media/MZdGcyNntPk1LzdZnK/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Double-tap the Left or Right Arrow Keys to start sprinting to increase Movement Speed and Jump",
+                    "details": [
+                        "Right-clicking the skill will toggle a lock to prevent it from activating with the Arrow Keys",
+                        "While sprinting, gain 100% Knockback Resistance"
+                    ]
+                },
+                {
+                    "name": "Shadow Heart",
+                    "shortDesc": "Critical Rate: +20%, Critical Damage: +5%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/pirate/shadow-heart.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Bullet Time",
+                    "shortDesc": "Speed: +22, Jump: +10, Max Speed: +20",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/explorers/pirate/bullet-time.png"],
+                    "type": "Passive"
+                }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Static Thumper",
+                        "shortDesc": "MP Cost: 24, Max Enemies Hit: 6, Damage: 370%, Number of Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/static-thumper.png"],
+                        "animations": ["https://media.giphy.com/media/eWdF9uv7otYi5fk0GF/giphy.gif"],
+                        "type": "Fighting Attack",
+                        "desc": "Release a shockwave in front of you"
+                    },
+                    {
+                        "name": "Vortex Jump",
+                        "shortDesc": "MP Cost: 5. Allows you to jump a greater distance.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/buccaneer/vortex-jump.png"],
+                        "animations": ["https://media.giphy.com/media/yYQ6Fm51mxW98POeOg/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Can be activated in the air while pressing the Up Arrow Key and Jump Key together"
+                        ]
+                    },
+                    {
+                        "name": "Sea Serpent",
+                        "shortDesc": "Your fighting skills trigger Sea Serpent skills. When a Sea Serpent skill triggers, 40 MP is consumed. Sea Serpent skills share a cooldown and cannot trigger while that cooldown is active.\\nCooldown: 3 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/sea-serpent.png"],
+                        "type": "Passive",
+                        "desc": "Using Fighting skills automatically activate Sea Serpent skills",
+                        "details": [
+                            "Sea Serpent skills share cooldown with each other"
+                        ]
+                    },
+                    {
+                        "name": "Sea Serpent Burst",
+                        "shortDesc": "Max Enemies Hit: 6, Damage: 111%, Number of Attacks: 4\\nCooldown: 11 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/sea-serpent-burst.png"],
+                        "animations": ["https://media.giphy.com/media/CRgfWwdi9DSwS2RyFL/giphy.gif"],
+                        "type": "Sea Serpent Attack",
+                        "desc": "A Sea Serpent appears forward damaging enemies in its path",
+                        "details": [
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/explorers/buccaneer/sea-serpent.png} tip={Sea Serpent (2nd Job)}>",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Advanced Dash",
+                        "shortDesc": "MP Cost: 1, Travel a short distance. Speed: + 50, Jump: +20, Duration: Up to 10 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/buccaneer/advanced-dash.png", "/class-icons/explorers/pirate/dash.png"],
+                        "animations": ["https://media.giphy.com/media/o9zj9IXC09hOnLBins/giphy.gif"],
+                        "type": "Upgraded Passive / Active",
+                        "desc": "Using <tt src={/class-icons/explorers/pirate/dash.png} tip={Dash (1st Job)}> now propels you forward",
+                        "details": [
+                            "Additionally increases the effects of <tt src={/class-icons/explorers/pirate/dash.png} tip={Dash (1st Job)}>",
+                            "Can be assigned a Key Slot to perform the dash and propel"
+                        ]
+                    },
+                                        {
+                        "name": "Agile Knuckles",
+                        "shortDesc": "Attack Speed: +2, STR: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/buccaneer/agile-knuckles.png"],
+                        "type": "Passive"
+                    },
+                                        {
+                        "name": "Knuckle Mastery",
+                        "shortDesc": "Knuckle Mastery: +50%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/knuckle-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Dark Clarity",
+                        "shortDesc": "Attack Power: +30",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/buccaneer/dark-clarity.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "HP Boost",
+                        "shortDesc": "Max HP: +20%, Knockback Resistance: +100%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/buccaneer/hp-boost.png"],
+                        "type": "Passive"
+                    },
+                                        {
+                        "name": "Perseverance",
+                        "shortDesc": "Recover 5% HP/MP every 5 sec.",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/buccaneer/perseverance.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Corkscrew Blow",
+                        "shortDesc": "MP Cost: 34, Max Enemies Hit: 8, Damage: 337%, Number of Attacks: 2\\nWhile using other skills, Cooldown: 4 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/corkscrew-blow.png"],
+                        "animations": ["https://media.giphy.com/media/fia69yQLZvirquKhbi/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies",
+                        "details": [
+                            "Can be linked with other attacks however the skill will go on cooldown<bp_Using the skill on its own will not put it on cooldown_>",
+                            "When this skill is used first and is linked into <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>, you will teleport forward to the nearest enemy, if any, and the skill will not go on cooldown"
+                        ]
+                    },
+                    {
+                        "name": "Turning Kick",
+                        "shortDesc": "MP Cost: 27, Max Enemies Hit: 8, Damage: 433%, Number of Attacks: 4, Stun Chance: 50%, Stun Duration: 7 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/turning-kick.png"],
+                        "animations": ["https://media.giphy.com/media/k7nHQJIrIEpTk3SYMK/giphy.gif"],
+                        "type": "Fighting Attack",
+                        "desc": "Release a burst of energy around you",
+                        "details": [
+                            "Attack has a chance to stun enemies"
+                        ]
+                    },
+                    {
+                        "name": "Greater Sea Serpent I",
+                        "shortDesc": "Max Enemies Hit: 8, Damage: 173%, Number of Attacks: 6\\nCooldown: 9 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/greater-sea-serpent-i.png", "/class-icons/explorers/buccaneer/sea-serpent-burst.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and Number of Attacks of attack",
+                            "Reduces cooldown of attack"
+                        ]
+                    },
+                    {
+                        "name": "Roll of the Dice",
+                        "shortDesc": "MP Cost: 60, Dice Buff Duration: 180.\\n1: Roll of the Dice Cooldown: -50%\\n2: Defense +30%\\n3: Attack +15\\n4: Critical Rate: +15%\\n5: Damage +20%\\n6: EXP Obtained +30%\\nCooldown: 180 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/roll-of-the-dice.png"],
+                        "animations": ["https://media.giphy.com/media/wyOdKnCuNfLXFNsrIu/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants a buff depending on the number rolled"
+                    },
+                    {
+                        "name": "Serpent Scale",
+                        "shortDesc": "Consume 5 Serpent Scales and be able to use assault skills for 15 sec.\\nGet 1 Serpent Scale on each Serpent Skill use. Max Serpent Scales: 5.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/serpent-scale.png"],
+                        "animations": ["https://media.giphy.com/media/3yitri4Re2tY9uQ29F/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Consumes 5 Serpent Scales to enter Assault Mode",
+                        "details": [
+                            "Serpent Scales are gained upon using a Sea Serpent Skill (up to 5 scales)",
+                            "In Assault Mode, Fighting skills will trigger Assault skills instead of Sea Serpent skills<bp_Upon activating one Assault skill, Assault Mode will end_>",
+                            "Right-clicking the skill will toggle Auto Use ON/OFF automatically activating Assault Mode upon collecting 5 Serpent Scales"
+                        ]
+                    },
+                    {
+                        "name": "Serpent Assault",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 12, Damage: 423%, Number of Attacks: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/serpent-assault.png"],
+                        "animations": ["https://media.giphy.com/media/co2vQDEDgdGiXHUOtP/giphy.gif"],
+                        "type": "Assault Attack",
+                        "desc": "A Sea Serpent erupts from the ground damaging enemies in a large area",
+                        "details": [
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/explorers/buccaneer/serpent-scale.png} tip={Serpent Scale (3rd Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Admiral's Wings",
+                        "shortDesc": "Damage Taken: -20%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/explorers/buccaneer/admirals-wings.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Precision Strikes",
+                        "shortDesc": "Attack Power: +30, Critical Rate: +15%, Critical Damage: +10%\\nAdditional Critical Rate on Bosses: 20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/buccaneer/precision-strikes.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Groggy Mastery",
+                        "shortDesc": "Abnormal Status Resistance for stuns increases by an additional 35%. Stun Rate: 20%\\nWhen attacking enemies affected by abnormal statuses, Critical Rate: +60%, Critical Damage: +15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/buccaneer/groggy-mastery.png"],
+                        "type": "Passive",
+                        "desc": "Reduces stun duration when affected by stuns and grants your attacks a chance to stun enemies",
+                        "details": [
+                            "Additionally, attacks against enemies affected by debuffs gain increased %Crit Rate and %Crit Damage"
+                        ]
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "Octopunch",
+                        "shortDesc": "MP Cost: 32, Max Enemies Hit: 3, Damage: 280%, Number of Attacks: 10",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/buccaneer/octopunch.png"],
+                        "animations": ["https://media.giphy.com/media/49PrG0OyTkjUmNROy2/giphy.gif"],
+                        "type": "Fighting Attack",
+                        "desc": "Punches forward multiple times",
+                        "details": [
+                            "Can only trigger <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> and <tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Hook Bomber",
+                        "shortDesc": "MP Cost: 46, Max Enemies Hit: 7, Damage: 565%, Number of Attacks: 4",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/buccaneer/hook-bomber.png"],
+                        "animations": ["https://media.giphy.com/media/NAwEwHJ1OvOx6lTmGP/giphy.gif"],
+                        "type": "Fighting Attack",
+                        "desc": "Swing forward creating a blast of energy"
+                    },
+                    {
+                        "name": "Greater Sea Serpent II",
+                        "shortDesc": "Enhances Sea Serpent Burst I to Sea Serpent Burst II. Unlocks Sea Serpent's Rage.\\n[Passive Effect: Final Damage: +10%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png", "/class-icons/explorers/buccaneer/sea-serpent-burst.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "Enhances <tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> further and unlocks <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}>",
+                        "details": [
+                            "Grants both skills Skill Points (SP)",
+                            "Also permanently increases %Final Damage"
+                        ]
+                    },
+                    {
+                        "name": "Sea Serpent Burst II",
+                        "shortDesc": "Max Enemies Hit: 8, Damage: 425%, Number of Attacks: 8\\nCooldown: 7 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/sea-serpent-burst-ii.png", "/class-icons/explorers/buccaneer/sea-serpent-burst.png"],
+                        "animations": ["https://media.giphy.com/media/hIQ4iWPxa3lljXdXQs/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and Number of Attacks of attack",
+                            "Reduces cooldown of attack"
+                        ]
+                    },
+                    {
+                        "name": "Sea Serpent's Rage",
+                        "shortDesc": "Max Enemies Hit: 6, Damage: 430%, Number of Attacks: 6\\nYour attack skills deal +10% Final Damage against enemies afflicted with Serpent's Mark for 30 sec\\nCooldown: 4 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/sea-serpents-rage.png"],
+                        "animations": ["https://media.giphy.com/media/oDdVOfZP3zjJoqtCX4/giphy.gif"],
+                        "type": "Sea Serpent Attack",
+                        "desc": "A Sea Serpent appears and releases a bite forward that debuffs enemies hit",
+                        "details": [
+                            "[Debuff - Serpent's Mark]: Enemy takes increased %Final Damage",
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png} tip={Greater Sea Serpent II (4th Job)}>",
+                            "Triggers only when using <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Raging Serpent Assault",
+                        "shortDesc": "MP Cost: 50, Water Dragon Summon Duration: 5 sec\\nWater Dragon attacks 6 enemies 4 times with 420% damage in intervals.\\nIf one enemy is attacked 15 times, it's annihilated\\n[Passive Effect - Serpent Assault Damage: +100%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/buccaneer/raging-serpent-assault.png"],
+                        "animations": ["https://media.giphy.com/media/msdg30Mx80OWgyCzb4/giphy.gif"],
+                        "type": "Assault Attack",
+                        "desc": "Summons a stationary Water Dragon that continuously damages enemies for a few seconds",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/explorers/buccaneer/serpent-assault.png} tip={Serpent Assault (3rd Job)}>",
+                            "Water Dragon also expires after attacking a single enemy 15 times",
+                            "Triggers only when using <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Nautilus Strike",
+                        "shortDesc": "MP Cost: 350, Damage: 440%, Max Enemies Hit: 15, Number of Attacks: 7\\n[Final Attack Skills] 100% chance to strike 2 additional times for 165% damage. Duration: 165% when attacking with Somersault Kick, Corkscrew Blow, Octopunch, Serpent Vortex, Howling Fist, or Release Neptunus. Does not trigger with Neptunus Enrage.\\nCooldown: 60 sec.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/buccaneer/nautilus-strike.png"],
+                        "animations": ["https://media.giphy.com/media/NuxqrotmR78pu5NAKu/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launch a massive attack that damages a large area",
+                        "details": [
+                            "[Final Attack]: Permanently when using <tt src={/class-icons/explorers/pirate/sommersault-kick.png} tip={Sommersault Kick (1st Job)}> <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Bolt (3rd Job)}> <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> <tt src={/class-icons/explorers/buccaneer/serpent-vortex.png} tip={Serpent Vortex (5th Job)}> <tt src={/class-icons/explorers/buccaneer/howling-fist.png} tip={Howling Fist (5th Job)}> <tt src={/class-icons/explorers/buccaneer/unleash-neptunus.png} tip={Unleash Neptunus (6th Job)}> (does not trigger Neptunus Enrage) will deal an additional attack",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Crossbones",
+                        "shortDesc": "MP Cost: 45, Duration: 180 sec, Attack Power: +15%.\\n[Passive Effect - Knuckle Mastery: +70%, Final Damage: +13%, Abnormal Status Resistance: +30, Elemental Resistance: +30%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/buccaneer/crossbones.png"],
+                        "animations": ["https://media.giphy.com/media/hyWWQmTYSMqIY6Xn8b/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Time Leap",
+                        "shortDesc": "MP Cost: 405, Cooldown: 120 sec\\nParty members that received the effect cannot receive Time Leap's effect again for 100 sec.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/buccaneer/time-leap.png"],
+                        "animations": ["https://media.giphy.com/media/fvmvhn9914jAv7jCzv/giphy.gif"],
+                        "type": "Party Active",
+                        "desc": "Resets the cooldown of all skills below 5th Job (including Beginner skills) unless stated otherwise",
+                        "details": [
+                            "Excludes Hyper Skills and skills provided from items like Firestarter Ring, Breath of Divinity, or Lucid Earrings",
+                            "Party members who received Time Leap's effects previously have a cooldown before the effects can be applied again",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Speed Infusion",
+                        "shortDesc": "HP Cost: 40, MP Cost: 40, Attack Speed Increase Duration: 180 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/speed-infusion.png"],
+                        "animations": ["https://media.giphy.com/media/HeuDcTcs2MlYxn7sEI/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/2017H9BZLQ1pt9LJeK/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/bSi7KKmLUaUIwR2Xwq/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Double Down",
+                        "shortDesc": "MP Cost: 60, Dice Buff Duration: 180 sec.\\n50% chance of rolling a Double Down.\\nEnhances the following effects by 10 or 10% (additive) if the dice results are the same, excluding 1.\\n1: Roll of the Dice Cooldown: -50%\\n2: Defense +30%\\n3: Attack +15\\n4: Critical Rate: +15%\\n5: Damage +20%\\n6: EXP Obtained +30%\\nCooldown: 180 sec.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/double-down.png", "/class-icons/common/roll-of-the-dice.png"],
+                        "animations": ["https://media.giphy.com/media/N7c5QR5EEyN55qYSSN/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Grants a chance to roll two dices at once"
+                        ]
+                    },
+                    {
+                        "name": "Defensive Stance",
+                        "shortDesc": "When sea serpent or assault skills hit, generates a protective shield for 3 sec that takes 25% damage (includes damage proportional to Max HP).\\nUnable to recreate Protective Shield for 4 sec when activated.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/buccaneer/defensive-stance.png"],
+                        "type": "Passive",
+                        "desc": "Upon landing a successful Sea Serpent or Assault skill, create a barrier that reduces damage taken (including %Max HP attacks)"
+                    },
+                    {
+                        "name": "Aggressive Stance",
+                        "shortDesc": "When one of your attack skills hits an enemy, grants a buff that increases your damage by 25% for 10 sec. Striking a foe while the buff is active will refresh its duration.\\n[Passive Effects] Corkscrew Blow Damage: +100%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/buccaneer/aggressive-stance.png"],
+                        "type": "Passive",
+                        "desc": "Successfully landing attacks grant a %Damage buff",
+                        "details": [
+                            "Also permanently increases %Damage of <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Typhoon Crush",
+                        "shortDesc": "Ignore Defense: 40%, Final Damage: +10%, Attack Power: +30",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/buccaneer/typhoon-crush.png"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Double Down - Saving Grace",
+                    "shortDesc": "When Double Down does not activate, there is a 40% chance for the cooldown to not apply. The next cast after this will activate Double Down with 4 or above.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/double-down-saving-grace.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Double Down - Addition",
+                    "shortDesc": "Lucky number 7 added to Double Down",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/double-down-addition.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "When rolled, increases %Ignore DEF"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Double Down - Enhance",
+                    "shortDesc": "Increases the chances of rolling a 4, 5, or 6 in Roll of the Dice.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/double-down-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Octopunch - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/octopunch-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Octopunch - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/octopunch-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Octopunch - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/octopunch-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Hook Bomber - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/hook-bomber-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Hook Bomber - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/hook-bomber-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Hook Bomber - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/hook-bomber-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Stimulating Conversation",
+                    "shortDesc": "MP Cost: 300 Duration: 60 sec, Damage: +20%\\nWhile active, Sea Serpent Burst, Sea Serpent's Rage, and Lord of the Deep Cooldown: -50%\\nCooldown: 120 sec\\n[Passive Effect: Boss Damage: +20%]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/stimulating-conversation.png"],
+                    "animations": ["https://media.giphy.com/media/mbEzsszh0brnHcvtgw/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, increases %Damage and reduces the cooldown of the following skills by half: <tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> <tt src={/class-icons/explorers/buccaneer/lord-of-the-deep.png} tip={Lord of the Deep (5th Job)}>",
+                    "details": [
+                        "[Passive]: Permanently increases %Boss Damage"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Serpent Spirit",
+                    "shortDesc": "MP Cost: 50, manifests Sea Serpent's soul\\n[Passive Effect - Critical Damage: +15%]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/buccaneer/serpent-spirit.png"],
+                    "animations": ["https://media.giphy.com/media/PIlc4wyjY4klhNOyjl/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/pirate/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/jXVgUL6i42IgAzQwUJ/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expPirate", "goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Lightning Form",
+                    "shortDesc": "MP Cost: 1000, Duration: 55 sec, Final Damage: +26%.\\nCan use up to 3 energy orbs\\nEnergy orb will periodically deal 924% damage 10 times on up to 10 enemies, 1 orb can attack a single enemy up to 14 times\\nCritical Rate: +50%, Ignore Defense: +50%\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/buccaneer/lightning-form.png"],
+                    "animations": ["https://media.giphy.com/media/loGknU0C6bEvPEyerd/giphy-downsized-large.gif"],
+                    "type": "Transform + Attack",
+                    "desc": "Transform into a special form where you gain increased %Final Damage",
+                    "details": [
+                        "While transformed, press the Skill Key to release an energy orb (up to 3 orbs)<bp_Energy orb has increased %Crit Rate and %Ignore DEF_Energy orb is unaffected by Damage Reflect_Each orb can only attack a single enemy up to 14 times_While casting, you are invincible_>",
+                        "While transformed, tapping an Arrow Key twice will teleport you in that direction"
+                    ]
+                },
+                {
+                    "name": "Lord of the Deep",
+                    "shortDesc": "MP Cost: 300, When activated, can attack 100 times. When attacking boss monster, counts 1 time while attacking 3 times.\\nAutomatically attacks up to 10 enemies dealing 780% damage 3 time(s).\\nReduces cooldown by 10 sec. for every 40 normal enemies defeated. When skill ends, reduces cooldown by 6 sec. for every 10 remaining number of attacks.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/explorers/buccaneer/lord-of-the-deep.png"],
+                    "animations": ["https://media.giphy.com/media/duqnc3rbfHV7JYA9wG/giphy.gif"],
+                    "type": "Toggle Attack",
+                    "desc": "While toggled, a Sea Serpent rotates around you that damages enemies it touches",
+                    "details": [
+                        "The attack can only hit 100 times before disappearing<bp_Attacking a boss 3 times counts as 1 attack towards this_>",
+                        "The cooldown is reduced for every 40 enemies you defeat",
+                        "The cooldown is reduced for every 10 attacks that remain when the skill ends",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Serpent Vortex",
+                    "shortDesc": "MP Cost: 350, Uses 1 Ocean Force\\nMax Enemies Hit: 8, Damage: 1320%, Number of Attacks: 10, damage increased by 30% when attacking a boss\\n1 Ocean Force is recharged every 8 sec, and you can hold up to 6 at a time.\\nCooldown: 0.5 sec",
+                    "icons": ["/class-icons/explorers/buccaneer/serpent-vortex.png"],
+                    "animations": ["https://media.giphy.com/media/4gGAh7yZ0t5tk4Bk1H/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Dash towards a chosen direction while damaging enemies in your path",
+                    "details": [
+                        "Uses a special resource called \"Ocean Force\" that is gained every 8 secs (up to 6 charges)",
+                        "Deals increased %Damage to bosses",
+                        "Right-clicking the skill will toggle a function ON/OFF to consume all available 'Ocean Force' when skill is used to trigger all attacks in one attack"
+                    ]
+                },
+                {
+                    "name": "Howling Fist",
+                    "shortDesc": "MP Cost: 1200\\nBy collecting power, periodically attack up to 8 enemies, for 625% damage, 6 time(s)\\nThe strike will activate a series of additional shocks, attacking 15 enemies, for 1005% damage, 14 time(s) per shock. 14 shock(s) will occur in total.\\nDamage taken while the skill is active, including attacks that deal damage in proportion to Max HP -50%\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/explorers/buccaneer/howling-fist.png"],
+                    "animations": ["https://media.giphy.com/media/d4c0c1XADQ5RrA34B1/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slowly charges for a devastating punch attack",
+                    "details": [
+                        "While casting, pressing the Skill Key again will release the punch early",
+                        "While casting, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "During the punch attack, you are invincible"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Sea Serpent Burst/Serpent Assault Boost",
+                    "shortDesc": "Sea Serpent Burst/Serpent Assault Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/buccaneer/sea-serpent-burst.png", "/class-icons/explorers/buccaneer/serpent-assault.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Static Thumper Boost",
+                    "shortDesc": "Static Thumper Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/buccaneer/static-thumper.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Turning Kick Boost",
+                    "shortDesc": "Turning Kick Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/buccaneer/turning-kick.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Corkscrew Blow Boost",
+                    "shortDesc": "Corkscrew Blow Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/buccaneer/corkscrew-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sea Serpent's Rage/Raging Serpent Assault",
+                    "shortDesc": "Sea Serpent's Rage/Raging Serpent Assault Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/buccaneer/sea-serpents-rage.png", "/class-icons/explorers/buccaneer/raging-serpent-assault.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Octopunch Boost",
+                    "shortDesc": "Octopunch Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/buccaneer/octopunch.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Nautilus Strike Boost",
+                    "shortDesc": "Nautilus Strike Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/buccaneer/nautilus-strike.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hook Bomber Boost",
+                    "shortDesc": "Hook Bomber Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/buccaneer/hook-bomber.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-octopunch.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Octopunch",
+                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 4, Damage: 450%, Number of Attacks: 10.\\nWhen Raging Serpent Assault activates, Super Octopunch Duration: 10 sec\\nSuper Octopunch - MP Cost: 52, Max Enemies Hit: 4, Damage: 270%, Number of Attacks: 3. Afterwards, Max Enemies Hit: 4, Shock Wave Damage: 420%, Number of Attacks: 10",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-octopunch.png", "/class-icons/explorers/buccaneer/hexa-super-octopunch.png", "/class-icons/explorers/buccaneer/octopunch.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjcyd2FrNGlqaTdleTZsZzhwNTJiYnNxdGw4eGduMW5yaWlsYXUyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RCZ7DvA4XnnJrHzIPK/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-sea-serpent-2.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> <tt src={/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Sea Serpent",
+                    "shortDesc": "MP Cost per Serpent Skill: 44\\nHEXA Sea Serpent Burst\\nMax Enemies Hit: 8, Damage: 860%, Number of Attacks: 8\\nCooldown: 6 sec\\nHEXA Sea Serpent's Rage\\nMP Cost: 44, Max Enemies Hit: 6, Damage: 970%, Number of Attacks: 8\\nYour attack skills deal +10% Final Damage against enemies afflicted with Serpent's Mark for 30 sec\\nCooldown: 4 sec",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-sea-serpent-1.png", "/class-icons/explorers/buccaneer/hexa-sea-serpent-burst.png", "/class-icons/explorers/buccaneer/hexa-sea-serpents-rage.png", "/class-icons/explorers/buccaneer/sea-serpent-burst.png", "/class-icons/explorers/buccaneer/sea-serpents-rage.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajR5M2k2b3M1MDdtNWF3b2Nia2RzMzU0aTUxODlvcDFtbWxsbTNxOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nPf4T3uTBfICqUKhh8/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhkbnB4aXFkZDk2NzB0MmR3cmN0cjl4cGNyeGV5eWJ6a2h0cmdqNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q2Vjr4engcaICL8pEX/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Nautilus Strike",
+                    "shortDesc": "MP Cost: 385, Max Enemies Hit: 15, Damage: 888%, Number of Attacks: 7\\n[Final Attack Skills] 100% chance to strike 2 additional times for 535% damage when attacking with Somersault Kick, Corkscrew Blow, Octopunch, Serpent Vortex, Howling Fist, or Unleash Neptunus.\\nDoes not trigger with Neptunus Enrage.\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-nautilus-strike.png", "/class-icons/explorers/buccaneer/nautilus-strike.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXh1eGVidTJ2dmJmMTg0NnE5bGN2eGc5NnoxbGszaXJ0MGRsdXAzbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RKyTrytkZnnpqZCwvy/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-serpent-scale.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/buccaneer/serpent-assault.png} tip={Serpent Assault (3rd Job)}> <tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Serpent Scale",
+                    "shortDesc": "Consume 5 Serpent Scales and be able to use assault skills for 15 sec.\\nGet 1 Serpent Stone on each Serpent Skill use. Max Serpent Stones: 5.\\nHEXA Serpent Assault\\nMP Cost: 60, Max Enemies Hit: 15, Damage: 705%, Number of Attacks: 6\\nHEXA Raging Serpent Assault\\nMP Cost: 60, Water Dragon Summon Duration: 5 sec.\\nWater Dragon attacks up to 6 enemies 6 times with 853% damage in intervals. If one enemy is attacked 10 times, its annihilated\\n[Passive Effect - HEXA Sea Serpent's Rage Damage: +340% points]",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-serpent-scale.png", "/class-icons/explorers/buccaneer/hexa-serpent-assault.png", "/class-icons/explorers/buccaneer/hexa-raging-serpent-assault.png", "/class-icons/explorers/buccaneer/serpent-scale.png", "/class-icons/explorers/buccaneer/serpent-assault.png", "/class-icons/explorers/buccaneer/raging-serpent-assault.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2xlbGFhYnMwOTR3M3Aya2RmMWo0cjRpcWtoYjdmOXRha2lpZW1uaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ccrdFmjii1L3s53yFx/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm1mcWRtNzBzNjdrYjgxOXBoenA0M2hoZTgzbzRsOHd5YTBtM3dxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QuKu8FBZisTfn9wz6T/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-hook-bomber.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Hook Bomber",
+                    "shortDesc": "MP Cost: 56, Max Enemies Hit: 8, Damage: 946%, Number of Attacks: 4\\n[Passive Effect - HEXA Octopunch Damage: +75% points, Super Octopunch Damage: +75% points, Super Octopunch Shockwave Damage: +128% points]",
+                    "icons": ["/class-icons/explorers/buccaneer/hexa-hook-bomber.png", "/class-icons/explorers/buccaneer/hook-bomber.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmc0dmY5dGFkcTZqdGJkajZpbzZxaThmNXZ5a3pkdXR3dXh1eWNzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4I4iJ4IIXWTgdyL2DY/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Unleash Neptunus",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nNeptunus the original sea serpent awakens, Max Enemies Hit: 15, Damage: 1380%, Number of Attacks: 13, Waves: 4. Afterwards, Damage: 1140%, Number of Attacks: 15, Ocean Fury: 22\\nWhen using 5th job skills (excluding Lord of the Deep and fighting skills), Neptunus Enrage activates for 30 sec.\\nNeptunus Enrage - Cooldown: 2 sec., Can be activated up to 8 times\\n1st hit - Max Enemies Hit: 10, Damage: 1680%, Number of Attacks: 12\\n2nd hit - Max Enemies Hit: 10, Damage: 1800%, Number of Attacks: 13\\n3rd hit - Max Enemies Hit: 10, Damage: 1920%, Number of Attacks: 15\\n4th hit - Max Enemies Hit: 10, Damage: 1920%, Number of Attacks: 15\\n5th hit - Max Enemies Hit: 10, Damage: 2180%, Number of Attacks: 15\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/buccaneer/unleash-neptunus.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnZlZnBtaXRvYW4xY2s2Mm9uazAxNTJldW1nOTJzZHI0dzdoa2gzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ponU2IGeZwMGu2eFi6/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Haymaker",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThrows an unstoppable punch, dealing 6055% damage to up to 15 enemies. The punch creates 10 afterimages which attack 12 times. The punch is immediately followed by an axe kick that unleashes 19 critical hits, each dealing 6510% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/buccaneer/haymaker.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTJnZHJid2ZhcDNoODIwZ2xobmhrc21zZjRhMG05YmpicWZscGtjeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4upi25RaJV5rGM98Ki/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Lightning Form Boost",
+                    "shortDesc": "Lightning Form Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/buccaneer/lightning-form.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Lord of the Deep Boost",
+                    "shortDesc": "Lord of the Deep Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/buccaneer/lord-of-the-deep.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Serpent Vortex Boost",
+                    "shortDesc": "Serpent Vortex Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/buccaneer/serpent-vortex.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Howling Fist Boost",
+                    "shortDesc": "Howling Fist Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/buccaneer/howling-fist.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Sea Serpent Burst - 2nd Job",
+                "icons": ["/class-icons/explorers/buccaneer/sea-serpent-burst.png"],
+                "animations": ["https://media.giphy.com/media/hIQ4iWPxa3lljXdXQs/giphy.gif"]
+            },
+            {
+                "name": "Sea Serpent Assault - 3rd Job",
+                "icons": ["/class-icons/explorers/buccaneer/serpent-assault.png"],
+                "animations": ["https://media.giphy.com/media/co2vQDEDgdGiXHUOtP/giphy.gif"]
+            },
+            {
+                "name": "Octopunch - 4th Job",
+                "icons": ["/class-icons/explorers/buccaneer/octopunch.png"],
+                "animations": ["https://media.giphy.com/media/49PrG0OyTkjUmNROy2/giphy.gif"]
+            },
+            {
+                "name": "Hook Bomber - 4th Job",
+                "icons": ["/class-icons/explorers/buccaneer/hook-bomber.png"],
+                "animations": ["https://media.giphy.com/media/NAwEwHJ1OvOx6lTmGP/giphy.gif"]
+            },
+            {
+                "name": "Lightning Form - 5th Job",
+                "icons": ["/class-icons/explorers/buccaneer/lightning-form.png"],
+                "animations": ["https://media.giphy.com/media/loGknU0C6bEvPEyerd/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Lord of the Deep - 5th Job",
+                "icons": ["/class-icons/explorers/buccaneer/lord-of-the-deep.png"],
+                "animations": ["https://media.giphy.com/media/duqnc3rbfHV7JYA9wG/giphy.gif"]
+            },
+            {
+                "name": "Howling Fist - 5th Job",
+                "icons": ["/class-icons/explorers/buccaneer/howling-fist.png"],
+                "animations": ["https://media.giphy.com/media/d4c0c1XADQ5RrA34B1/giphy.gif"]
+            },
+            {
+                "name": "Unleash Neptunus - 6th Job",
+                "icons": ["/class-icons/explorers/buccaneer/unleash-neptunus.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnZlZnBtaXRvYW4xY2s2Mm9uazAxNTJldW1nOTJzZHI0dzdoa2gzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ponU2IGeZwMGu2eFi6/giphy.gif"]
+            },
+            {
+                "name": "Haymaker - 6th Job",
+                "icons": ["/class-icons/explorers/buccaneer/haymaker.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTJnZHJid2ZhcDNoODIwZ2xobmhrc21zZjRhMG05YmpicWZscGtjeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4upi25RaJV5rGM98Ki/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Buccaneer is a STR pirate class part of the Explorers. Buccaneer utilize Knuckles as their primary weapons. For their secondary weapon, Buccaneer can equip Wrist Bands"
+}

@@ -1,0 +1,1339 @@
+{
+    "class": "Zero",
+    "content": {
+        "classGroup": "Other (Child of God)",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Increases %EXP Obtained from monsters",
+        "legionValue": "4/6/8/10/12%",
+        "equipment": [
+            {"weapon": ["longSword"]},
+            {"secondary": ["heavySword"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "1st Line Options",
+                "abilities": ["Boss Damage +20%", "Attack Speed +1", "Chance to Skip Cooldown +20%"]
+            },
+            {
+                "name": "2nd & 3rd Line Options",
+                "abilities": ["Boss Damage +10% (if not 1st Line)", "Damage to monsters inflicted with Abnormal Status +8%", "Chance to Skip Cooldown +10% (if not 1st Line)", "Attack +21"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "[Alpha] 1.34x [Beta] 1.49x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "[Alpha] 8 [Beta] 7(8)",
+                "detail": "<bg val={Stage 4 for Alpha / Stage 2 for Beta}> <bg src={/class-icons/other/zero/resolution-time.png} tip={Resolution Time (Transcendent Skill)} val={+1}> <bg src={/class-icons/other/zero/divine-aura.png} tip={Divine Aura (Transcendent Skill)} val={+1}> <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+3}> <bg type={temp} src={/class-icons/other/zero/chrono-break.png} tip={Chrono Break (5th Job)} val={+2}> <bg type={temp} src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion (Transcendent Skill)} val={+1 within zone}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+50(80)(85-130 w/ 6th Job) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/other/zero/resolution-time.png} tip={Resolution Time (Transcendent Skill)} val={+50}> <bg src={/class-icons/other/zero/infinite-resonance.png} tip={Infinite Resonance (6th Job)} val={+5-50 w/ 6th Job}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg src={/class-icons/other/zero/rhinnes-protection.png} tip={Rhinne's Protection (Transcendent Skill)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "[Alpha] +4% +60(160) [Beta] +4% +100(200)",
+                "detail": "<bg src={/class-icons/other/zero/focused-time.png} tip={Focused Time (Transcendent Skill)} val={+4%}> <bg src={/class-icons/other/zero/divine-aura.png} tip={Divine Aura (Transcendent Skill)} val={+20}> <bg type={opt} src={/class-icons/5th-job/transcendent-rhinnes-prayer.png} tip={Transcendent Rhinne's Prayer (5th Job)} val={+100}> <bg type={alpha} val={Alpha}> <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} val={+40}> <bg type={beta} val={Beta}> <bg src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+80}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "[Alpha] +55%(85%) [Beta] +55%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/other/zero/resolution-time.png} tip={Resolution Time (Transcendent Skill)} val={+20%}> <bg type={alpha} val={Alpha}> <bg src={/class-icons/other/zero/reinforce-body.png} tip={Reinforce Body (Lv. 130)} val={+30%}> <bg type={temp} src={/class-icons/other/zero/critical-bind.png} tip={Critical Bind (Lv. 185, Beta)} val={+30% to enemies with Critical Bind}> <bg type={beta} val={Beta}> <bg src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+30%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "[Alpha] +50%(70%) [Beta] +0%",
+                "detail": "<bg type={alpha} val={Alpha}> <bg src={/class-icons/other/zero/divine-leer.png} tip={Divine Leer (Lv. 160)} val={+50%}> <bg type={temp} src={/class-icons/other/zero/critical-bind.png} tip={Critical Bind (Lv. 185, Beta)} val={+20% to enemies with Critical Bind}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "[Alpha] +14%(49%)% [Beta] +64%(99%)",
+                "detail": "<bg src={/class-icons/link-skills/rhinnes-blessing.png} tip={Rhinne's Blessing (Link Skill)} val={+4%}> <bg src={/class-icons/other/zero/doubletime.png} tip={Doubletime (Transcendent Skill)} val={up to +10%}> <bg type={debuff} src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion (Transcendent Skill)} val={+25% within zone}> <bg type={temp} src={/class-icons/other/zero/time-holding.png} tip={Time Holding (Transcendent Skill)} val={+10%}> <bg type={beta} val={Beta  }> <bg src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+50%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "[Alpha] (+30%) [Beta] +30%(+60%)",
+                "detail": "<bg type={opt} src={/images/equipment/lapis-type-9.png} tip={Lapis Type 9 (Equipment)} src={/images/equipment/lazuli-type-9.png} tip={Lazuli Type 9 (Equipment)} val={+30%}> <bg type={beta} val={Beta  }> <bg src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+30%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "[Both] +47.42%(141%)(158.72% w/ 6th Job Lv. 30)",
+                "detail": "<bg src={/class-icons/other/zero/resolution-time.png} tip={Resolution Time (Transcendent Skill)} val={+17%}> × <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+26%}> × <bg type={temp} src={/class-icons/other/zero/chrono-break.png} tip={Chrono Break (5th Job)} val={+36%} val={(+46% instead w/ 6th Job upgrade)}> × <bg type={opt} src={/class-icons/5th-job/transcendent-rhinnes-prayer.png} tip={Transcendent Rhinne's Prayer (5th Job)} val={+8%}> × <bg type={opt} src={/class-icons/5th-job/transcendent.png} tip={Transcendent (5th Job)} val={+5%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "[Alpha] +70.25%(82.51%) [Beta] +57.5%(75.01%)",
+                "detail": "<bg src={/class-icons/link-skills/rhinnes-blessing.png} tip={Rhinne's Blessing (Link Skill)} val={+15%}> × <bg type={debuff} src={/class-icons/other/zero/armor-split.png} tip={Armor Split (Lv. 130, Beta)} val={+10% per stack} val={Max. +50%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}> × <bg type={opt} src={/images/equipment/lapis-type-9.png} tip={Lapis Type 9 (Equipment)} src={/images/equipment/lazuli-type-9.png} tip={Lazuli Type 9 (Equipment)} val={+30%}> <bg type={alpha} val={Alpha}> × <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} val={+30%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "None",
+            "summons": "<tt src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion (Transcendent, Lv. 110)} dur={[30s](240s cd)}>",
+            "buffCd": "<tt src={/class-icons/other/zero/time-holding.png} tip={Time Holding (Transcendent, Lv. 120)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/transcendent-rhinnes-prayer.png} tip={Transcendent Rhinne's Prayer (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/transcendent.png} tip={Transcendent (5th Job)} dur={[20s/30s/60s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/other/zero/focused-time.png} tip={Focused Time (Transcendent, Lv. 200)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/other/zero/critical-bind.png} tip={Critical Bind (Beta, Lv. 185)} dur={[4s](10% chance, 35s cd)}> <tt src={/class-icons/other/zero/chrono-break.png} tip={Chrono Break (5th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/other/zero/end-time.png} tip={End Time (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/other/zero/time-holding.png} tip={Time Holding (Transcendent, Lv. 110)} dur={[10s](120s cd)}> <tt src={/class-icons/other/zero/rewind.png} tip={Rewind (Transcendent, Lv. 140)} dur={[2s](1800s cd revive)}> <tt src={/class-icons/other/zero/immune-barrier.png} tip={Immune Barrier (Beta, Lv. 165)} dur={(25% chance)}> <tt src={/class-icons/other/zero/twin-blades-of-time.png} tip={Twin Blades of Time (5th Job)} dur={(120s cd)}> <tt src={/class-icons/other/zero/end-time.png} tip={End Time (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/other/zero/immune-barrier.png} tip={Immune Barrier (Beta, Lv. 165)} dur={[5s](50% HP | Barrier, 25% chance)}>"
+        },        
+        "linkSkill": {
+            "id": 80000110,
+            "offline": true,
+            "name": "Rhinne's Blessing",
+            "maxLevel": 6,
+            "shortDesc": "Damage Taken: -20%, Ignore Defense: +15%",
+            "icons": ["/class-icons/link-skills/rhinnes-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "This skill is leveled up by completing the Zero storyline"
+            ]
+        },
+        "howToCreate": {
+            "image": ["/class-icons/other/how-to-create-zero.png",[499,374]],
+            "npc": [
+                ["",""]
+
+            ],
+            "info": [
+                "To create a Zero character, you must have a character that is above Lv. 100 on the same World",
+                "<em>As of May 2024, Zero can be created at anytime given the requirement above is met</em>"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["Alpha & Beta", "[Lv. 100] <tt src={/class-icons/other/zero/moon-strike.png} tip={Moon Strike}> <tt src={/class-icons/other/zero/piercing-thrust.png} tip={Piercing Thrust}> <tt src={/class-icons/other/zero/shadow-strike.png} tip={Shadow Strike}> <tt src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery}> <tt src={/class-icons/other/zero/rising-slash.png} tip={Rising Slash}> <tt src={/class-icons/other/zero/air-raid.png} tip={Air Raid}> <tt src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery}> <br> [Lv. 105] <tt src={/class-icons/other/zero/flash-cut.png} tip={Flash Cut}> <br> [Lv. 110] <tt src={/class-icons/other/zero/flash-assault.png} tip={Flash Assault}> <tt src={/class-icons/other/zero/time-generator.png} tip={Time Generator}> <tt src={/class-icons/other/zero/throwing-weapon.png} tip={Throwing Weapon}> <tt src={/class-icons/other/zero/solid-body.png} tip={Solid Body}> <tt src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion}> <br> [Lv. 115] <tt src={/class-icons/other/zero/blade-ring.png} tip={Blade Ring}> <tt src={/class-icons/other/zero/spin-driver.png} tip={Spin Driver}> <br> [Lv. 120] <tt src={/class-icons/other/zero/rolling-cross.png} tip={Rolling Cross}> <tt src={/class-icons/other/zero/time-holding.png} tip={Time Holding}> <br> [Lv. 125] <tt src={/class-icons/other/zero/wheel-wind.png} tip={Wheel Wind}> <br> [Lv. 130] <tt src={/class-icons/other/zero/rolling-assault.png} tip={Rolling Assault}> <tt src={/class-icons/other/zero/reinforce-body.png} tip={Reinforce Body}> <tt src={/class-icons/other/zero/armor-split.png} tip={Armor Split}> <br> [Lv. 135] <tt src={/class-icons/other/zero/giga-crash.png} tip={Giga Crash}> <br> [Lv. 140] <tt src={/class-icons/other/zero/wind-cutter.png} tip={Wind Cutter}> <tt src={/class-icons/other/zero/falling-star.png} tip={Falling Star}> <tt src={/class-icons/other/zero/rewind.png} tip={Rewind}> <br> [Lv. 145] <tt src={/class-icons/other/zero/wind-striker.png} tip={Wind Striker}> <tt src={/class-icons/other/zero/groundbreaker.png} tip={Earth Break}> <br> [Lv. 150] <tt src={/class-icons/other/zero/storm-break.png} tip={Storm Break}> <tt src={/class-icons/other/zero/advanced-blade-ring.png} tip={Advanced Blade Ring}> <tt src={/class-icons/other/zero/air-riot.png} tip={Air Riot}> <br> [Lv. 155] <tt src={/class-icons/other/zero/advanced-throwing-weapon.png} tip={Advanced Throwing Weapon}> <br> [Lv. 160] <tt src={/class-icons/other/zero/grand-rolling-cross.png} tip={Grand Rolling Cross}> <tt src={/class-icons/other/zero/divine-leer.png} tip={Divine Leer}> <tt src={/class-icons/other/zero/shadow-rain.png} tip={Shadow Rain}> <br> [Lv. 165] <tt src={/class-icons/other/zero/advanced-wheel-wind.png} tip={Advanced Wheel Wind}> <tt src={/class-icons/other/zero/immune-barrier.png} tip={Immune Barrier}> <br> [Lv. 170] <tt src={/class-icons/other/zero/advanced-rolling-assault.png} tip={Advanced Rolling Assault}> <tt src={/class-icons/other/zero/mega-groundbreaker.png} tip={Advanced Earth Break}> <br> [Lv. 180] <tt src={/class-icons/other/zero/advanced-storm-break.png} tip={Advanced Storm Break}> <br> [Lv. 185] <tt src={/class-icons/other/zero/critical-bind.png} tip={Critical Bind}> <br> [Lv. 200] <tt src={/class-icons/other/zero/focused-time.png} tip={Focused Time}>"]
+            ],
+            "details": [
+                "Zero unlocks new skills as you level up and will be able to max everything",
+                "Zero continues to gain Skill Points (SP) until Lv. 200",
+                "Put one SP into each skill first that is available",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/other/zero/moon-strike.png} tip={Moon Strike / Shadow Strike / Rising Slash}> <tt src={/class-icons/other/zero/piercing-thrust.png} tip={Piercing Thrust / Air Raid}> <tt src={/class-icons/other/zero/flash-assault.png} tip={Flash Assault / Flash Cut}> "],
+                    ["", "<tt src={/class-icons/other/zero/blade-ring.png} tip={Blade Ring / Throwing Weapon}> <tt src={/class-icons/other/zero/rolling-cross.png} tip={Rolling Cross / Spin Driver}> <tt src={/class-icons/other/zero/rolling-assault.png} tip={Rolling Assault / Blade Tempest}> "],
+                    ["", "<tt src={/class-icons/other/zero/wind-cutter.png} tip={Wind Cutter / Giga Crash}> <tt src={/class-icons/other/zero/wind-striker.png} tip={Wind Striker / Falling Star}> <tt src={/class-icons/other/zero/storm-break.png} tip={Storm Break / Groundbreaker}>"],
+                    ["", "<tt src={/class-icons/other/zero/shadow-rain.png} tip={Shadow Rain}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good",
+                    "7 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
+                ]
+            },
+            "primary": [0,1,2,3,4,5],
+            "nodes": [
+                "<tt src={/class-icons/other/zero/wind-cutter.png} tip={Wind Cutter (Lv. 140)}> <tt src={/class-icons/other/zero/wind-striker.png} tip={Wind Striker (Lv. 145)}> <tt src={/class-icons/other/zero/storm-break.png} tip={Storm Break (Lv. 150)}> ",
+                "<tt src={/class-icons/other/zero/giga-crash.png} tip={Giga Crash (Lv. 135)}> <tt src={/class-icons/other/zero/falling-star.png} tip={Falling Star (Lv. 140)}> <tt src={/class-icons/other/zero/groundbreaker.png} tip={Groundbreaker (Lv. 145)}> ",
+                "<tt src={/class-icons/other/zero/spin-driver.png} tip={Spin Driver (Lv. 115)}> <tt src={/class-icons/other/zero/wheel-wind.png} tip={Wheel Wind (Lv. 125)}> <tt src={/class-icons/other/zero/rolling-cross.png} tip={Rolling Cross (Lv. 120)}> <tt src={/class-icons/other/zero/rolling-assault.png} tip={Rolling Assault (Lv. 130)}>",
+                "<tt src={/class-icons/other/zero/flash-cut.png} tip={Flash Cut (Lv. 105)}> <tt src={/class-icons/other/zero/throwing-weapon.png} tip={Throwing Weapon (Lv. 110)}> <tt src={/class-icons/other/zero/flash-assault.png} tip={Flash Assault (Lv. 110)}> <tt src={/class-icons/other/zero/blade-ring.png} tip={Blade Ring (Lv. 115)}>",
+                "<tt src={/class-icons/other/zero/rising-slash.png} tip={Rising Slash (Lv. 100)}> <tt src={/class-icons/other/zero/air-raid.png} tip={Air Raid (Lv. 100)}> <tt src={/class-icons/other/zero/moon-strike.png} tip={Moon Strike (Lv. 100)}> <tt src={/class-icons/other/zero/piercing-thrust.png} tip={Piercing Thrust (Lv. 100)}> <tt src={/class-icons/other/zero/shadow-strike.png} tip={Shadow Strike (Lv. 100)}>",
+                "<tt src={/class-icons/other/zero/shadow-rain.png} tip={Shadow Rain (Transcendent, Lv. 160)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Zero"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%A0%9C%EB%A1%9C(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/wFAHprps3Z"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1ygEhU_gZjm6tY8ngi0hzZ6ZduNoGuZqdcPsiMV1pdf8"}
+        ],
+        "infographics": [
+            {
+                "src": "zero/zero-overview.png",
+                "title": "Overview",
+                "credit": "Zero Discord",
+                "date": "2026-09-04"
+            },
+            {
+                "src": "zero/zero-6th-job-fragments.png",
+                "title": "6th Job (Fragments Efficient)",
+                "credit": "Zero Discord",
+                "date": "2026-09-04"
+            },
+            {
+                "src": "zero/zero-6th-job-energy.png",
+                "title": "6th Job (Energy Efficient)",
+                "credit": "Zero Discord",
+                "date": "2026-09-04"
+            }
+        ],
+        "discord": "https://discord.gg/wFAHprps3Z",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Alpha and Beta",
+            "content": [
+                "Zero starts at Level 100 and does not use MP and instead use Time Force (TF) which quickly regenerates",
+                "<img src={/class-icons/other/zero/zero-dual-system.png} alt={Zero HP and TF}> <img src={/class-icons/other/zero/zero-cosmetic.png} alt={Zero Cosmetics}>",
+                "With Zero, you control two characters Alpha and Beta. Both Alpha and Beta have their own HP and TF. Using attacks of the opposite character will swap you between Alpha and Beta. While the other is not active, they will slowly regenerate HP and TF. As well, both characters can be decorated differently and wear clothing specific to their gender. Non-gender specific clothing can be equipped by both at the same time if desired",
+                "<img src={/class-icons/other/zero/zero-equipment.png} alt={Zero Equipment}>",
+                "Zero's weapon is also special in which it upgrades for free every 10 levels up to Lv. 170. Within the Mirror World, monsters drop Weapon Points (WP) are used to reroll a weapon's Bonus Stats and Potential"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Transcendent", [{
+                    "name": "Rhinne's Blessing",
+                    "maxLevel": 6,
+                    "shortDesc": "Damage Taken: -20%, Ignore Defense: +15%, Damage: +4%",
+                    "icons": ["/class-icons/link-skills/rhinnes-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing the Zero storyline",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Dual Combat",
+                    "shortDesc": "[Tag]: While on standby, use Zero's skills to switch attackers\\nCooldown: 3 sec\\n[Assist]: After using Tag to switch, for up to 3 seconds, use Assist for fire support. Cannot be activated while using the previous Assist skill.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/dual-combat.png"],
+                    "animations": ["https://media1.giphy.com/media/pqqy1wpuAUnRlEeNTj/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "[Tag]: To switch between Alpha and Beta, use skills for the corresponding character",
+                        "[Assist]: After using Tag to switch, for up to 3 seconds, the other character will assist you by attacking when you attack",
+                        "Right-clicking the skill will toggle Forward Tag ON/OFF preventing you from moving forward when activating Tag"
+                    ]
+                },
+                {
+                    "name": "Resolution Time",
+                    "shortDesc": "Permanently increases Final Damage by 17%, Critical Rate by 20%, Attack Speed by 1, Strength by 50, Max HP by 15%, and Max Speed by 20",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/other/zero/resolution-time.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing the Zero storyline"
+                    ]
+                },
+                {
+                    "name": "Temple Recall",
+                    "shortDesc": "Time Force Cost: 10, returns to Zero's Temple\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/temple-recall.png"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Divine Aura",
+                    "shortDesc": "Attack Power: +20, Magic ATT: +20, Attack Speed: +1, Speed: +20, Jump: +10, Defense: +500, Elemental Resistance: +10%, and Status Resistance: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/divine-aura.png"],
+                    "type": "Party Passive"
+                },
+                {
+                    "name": "Burst Jump",
+                    "shortDesc": "Time Force Cost: 5, while jumping, use the jump key to jump certain distance\\nCan be linked with Burst Step",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/burst-jump.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmdnd3N2NWo3b3h5c2N2eTU4NnA2Zjl5azZ5d2hrOGx6MnkwaWE1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e9GCjS4tjyCMJFuuMQ/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice",
+                        "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump",
+                        "Upon using vertical jump, <tt src={/class-icons/other/zero/burst-step.png} tip={Burst Step (Transcendent Skill)}> vertical dash cannot be used before landing"
+                    ]
+                },
+                {
+                    "name": "Burst Step",
+                    "shortDesc": "Time Force Cost: 5, press arrow key and then use the skill to move in the corresponding direction\\nDouble-tap an arrow key to move in that direction\\nUpward Burst Step can't be used immediately after using upward Burst Jump.\\nCan be used on a ladder or rope. Can be linked with Burst Jump",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/burst-step.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2pqZDM4MjhhdGlsajg2d2Zrc2hxbjFnYmI5d3lzYTV3YmlobWp2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xwLAXOpS9avIqr1GYZ/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Pressing any directional Arrow Key twice will dash towards that direction",
+                    "details": [
+                        "Can be assigned a Key Slot, pressing the Skill Key plus an Arrow Key will activate Burst Step",
+                        "Can be used on ladders and links with <tt src={/class-icons/other/zero/burst-jump.png} tip={Burst Jump (Transcendent Skill)}> except the vertical jump",
+                        "Upon using, <tt src={/class-icons/other/zero/burst-jump.png} tip={Burst Jump (Transcendent Skill)}> vertical jump cannot be used before landing",
+                        "Right-clicking the skill will toggle a lock to prevent it from activating with the Arrow Keys"
+                    ]
+                },
+                {
+                    "name": "Rhinne's Protection",
+                    "shortDesc": "Time Force Cost: 10, Goddess Rhinne appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/rhinnes-protection.png"],
+                    "animations": ["https://media3.giphy.com/media/rY0rlNstyrD4Ja9b56/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Doubletime",
+                    "shortDesc": "Reduces Zero's attack skill cooldown by 4 seconds (excluding used skill, Transcendent skill, 5th Job skills, and some 6th job skills).\\n[Detect]: When Alpha attacks, damage increases by 1% for 20 seconds. Can stack up to 5 times.\\n[Strength]: When Beta attacks, damage increases by 1% for 20 seconds. Can stack up to 5 times\\nEffect for [Detect] and [Strength] remains even when tagged.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/doubletime.png"],
+                    "type": "Passive",
+                    "desc": "Successful attacks reduce the cooldown of other attack skills and grants a stacking buff",
+                    "details": [
+                        "<tt src={/class-icons/other/zero/doubletime-recon.png} tip={Doubletime - Recon (Transcendent Skill)}> [Alpha - Detect]: Increases %Damage",
+                        "<tt src={/class-icons/other/zero/doubletime-strength.png} tip={Doubletime - Strength (Transcendent Skill)}> [Beta - Strength]: Increases %Damage",
+                        "Excludes Transcendent, 5th Job, and some 6th Job skills",
+                        "Effects persist even when tagged"
+                    ]
+                },
+                {
+                    "name": "Time Distortion",
+                    "shortDesc": "Time Force Cost: 30, Area of Time created for 30 sec.\\n[Enemies within the area]: Every 4 sec., buff cancels and stuns normal monsters\\n[Party members within the area]: Every 4 sec., nullifies magic and removes Abnormal Status, Attack Speed: +1, Damage: +25%\\nYou will receive the same effect even when outside of the field, party only receives effect when inside the field.\\nCooldown: 240 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/time-distortion.png"],
+                    "animations": ["https://media4.giphy.com/media/qBCifRdEjhAOBCo4vD/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Create a zone that affects enemies and party members",
+                    "details": [
+                        "[Enemy]: Periodically cancels enemy's buffs and stuns regular monsters",
+                        "[Party Member]: Increases Attack Speed (by 1 stage) and %Damage and periodically removes Abnormal Statuses<bp_You will always receive the effect even outside the zone_>"
+                    ],
+                    "reqLev": 110
+                },
+                {
+                    "name": "Time Holding",
+                    "shortDesc": "Time Force Cost: 10, Invincible for 10 sec, resets cooldowns for all skills.\\nIncreases damage by 10% for 60 seconds when Zero is Level 200 or above.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/time-holding.png"],
+                    "animations": ["https://media3.giphy.com/media/TkTlgcafuT15aXEoLq/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Resets skill cooldowns for all applicable skills and grants invincibility and unlimited Time Force while buff is active",
+                    "details": [
+                        "Increases %Damage when Lv. 200 or above"
+                    ],
+                    "reqLev": 120
+                },
+                {
+                    "name": "Rewind",
+                    "shortDesc": "Time Force Cost: 10, when you get knocked out you use up the buff instead, restoring all HP and becoming invincible for 2 seconds\\nCooldown: 1800 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/rewind.png"],
+                    "animations": ["https://media2.giphy.com/media/kA3JJMkQqvZQAGJMH0/giphy.gif"],
+                    "type": "Buff Revive",
+                    "desc": "While active, when hit with a fatal attack, you are revived",
+                    "details": [
+                        "Restores all your HP and makes you invincible for a few seconds"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "The Transcendents' Will",
+                    "shortDesc": "HP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/the-transcendents-will.png"],
+                    "animations": ["https://media.giphy.com/media/A65e103spKjw9ztZiq/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Shadow Rain",
+                    "shortDesc": "Time Force Cost: 50,\\n[Beta]: Damage: 1600%, Max Enemies Hit: 15, Max Hits: 7\\n[Alpha]: Damage: 1600%, Max Enemies Hit: 15, Max Hits: 7\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/shadow-rain.png"],
+                    "animations": ["https://media.giphy.com/media/eJjat8MraHdbnwUv6S/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Alpha and Beta combine forces to unleash an ultimate attack",
+                    "details": [
+                        "Applies <tt src={/class-icons/other/zero/critical-bind.png} tip={Critical Bind (Beta, Lv. 185)}> to targets hit",
+                        "Right-clicking the skill will toggle stationary mode ON/OFF where the skill will be used without moving and pressing the Down Arrow Key and Skill Key together will activate the skill normally"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Focused Time",
+                    "shortDesc": "Time Force Cost: 10, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/other/zero/focused-time.png"],
+                    "animations": ["https://media.giphy.com/media/mN2wpjqguFF7Pjxtcn/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": 200,
+                    "details": [
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "Alpha", [
+                    {
+                        "name": "Moon Strike",
+                        "shortDesc": "Time Force Cost: 3, Damage: 120%, Number of Attacks: 6, Max Enemies Hit: 8",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/moon-strike.png", "/class-icons/other/zero/piercing-thrust.png", "/class-icons/other/zero/shadow-strike.png"],
+                        "animations": ["https://media3.giphy.com/media/6N0WtQ9l2CJSqWMibM/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pull in enemies while dealing damage",
+                        "details": [
+                            "Follow-up Attacks occur when you press the same button consecutively, for example <tt src={/class-icons/other/zero/moon-strike.png} tip={Moon Strike (Alpha, Lv. 100)}><bp_Follow-up Attacks share the same key as its Active Attack_>"
+                        ],
+                        "reqLev": 100
+                    },
+                    {
+                        "name": "Piercing Thrust",
+                        "shortDesc": "Time Force Cost: 5, Damage: 170%, Number of Attacks: 6, Max Enemies Hit: 8",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/piercing-thrust.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Push enemies back while dealing damage",
+                        "reqLev": 100
+                    },
+                    {
+                        "name": "Shadow Strike",
+                        "shortDesc": "Time Force Cost: 7, Damage: 195%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Blade]: Max Enemies Hit: 8, Damage: 310%, Number of Attacks: 1.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/shadow-strike.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Teleport to the nearest enemy and strike nearby enemies in the direction of a pressed Arrow Key",
+                        "details": [
+                            "If there is no enemy in sight, will teleport a short distance",
+                            "If no Arrow Key is pressed, you will not be teleported",
+                            "Sends out a blade that pierces through enemies<bp_Unaffected by Damage Reflect_>"
+                        ],
+                        "reqLev": 100
+                    },
+                    {
+                        "name": "Flash Assault",
+                        "shortDesc": "Time Force Cost: 9, Damage: 125%, Number of Attacks: 7, Max Enemies Hit: 8\\nCooldown: 5 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/flash-assault.png", "/class-icons/other/zero/blade-ring.png"],
+                        "animations": ["https://media1.giphy.com/media/ZRQrEku25svZwlqzeX/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while damaging enemies",
+                        "reqLev": 110
+                    },
+                    {
+                        "name": "Blade Ring",
+                        "shortDesc": "Time Force Cost: 11, Damage: 180%, Number of Attacks: 8, Max Enemies Hit: 8",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/blade-ring.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Swirl in place to damage surrounding enemies",
+                        "reqLev": 115
+                    },
+                    {
+                        "name": "Advanced Blade Ring",
+                        "shortDesc": "Time Force Cost: 11, Max Enemies Hit: 8, Damage: 260%, Number of Attacks: 9.\\n[Blade]: Max Enemies Hit: 8, Damage: 130%, Number of Attacks: 3, Damage Against Normal Enemies: +100% points",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/advanced-blade-ring.png", "/class-icons/other/zero/blade-ring.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits",
+                            "Now creates blades that pierces through enemies<bp_Deals increased %Damage to regular monsters by a flat amountc_Unaffected by Damage Reflect_>"
+                        ],
+                        "reqLev": 150
+                    },
+                    {
+                        "name": "Rolling Cross",
+                        "shortDesc": "Time Force Cost: 13, Damage: 215%, Number of Attacks: 9, Max Enemies Hit: 8\\nCooldown: 10 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/rolling-cross.png", "/class-icons/other/zero/rolling-assault.png"],
+                        "animations": ["https://media.giphy.com/media/Qu2DeSBnbAPk3No5ke/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap up while spinning your sword",
+                        "reqLev": 120
+                    },
+                    {
+                        "name": "Rolling Assault",
+                        "shortDesc": "Time Force Cost: 15, Damage: 275%, Number of Attacks: 10, Max Enemies Hit: 8",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/rolling-assault.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Spin back down while pushing enemies back",
+                        "reqLev": 130
+                    },
+                    {
+                        "name": "Grand Rolling Cross",
+                        "shortDesc": "Time Force Cost: 13, Max Enemies Hit: 8, Damage: 350%, Number of Attacks: 9.\\nAttack with 3 blades 2 times\\n[Blade]: Max Enemies Hit: 8, Damage: 350%, Number of Attacks: 2, Normal Enemy Damage: +110% points.\\nCooldown: 10 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/zero/grand-rolling-cross.png", "/class-icons/other/zero/rolling-cross.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Now creates blades that pierces through enemies<bp_Deals increased %Damage to regular monsters by a flat amountc_Unaffected by Damage Reflect_>"
+                        ],
+                        "reqLev": 160
+                    },
+                    {
+                        "name": "Advanced Rolling Assault",
+                        "shortDesc": "Time Force Cost: 15, Max Enemies Hit: 8, Damage: 375%, Number of Attacks: 12.\\nAttack with 3 Blades 2 times\\n[Blade]: Max Enemies Hit: 8, Damage: 250%, Number of Attacks: 3, Normal Enemy Damage: +60% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/zero/advanced-rolling-assault.png", "/class-icons/other/zero/rolling-assault.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits",
+                            "Now creates blades that pierces through enemies<bp_Deals increased %Damage to regular monsters by a flat amountc_Unaffected by Damage Reflect_>"
+                        ],
+                        "reqLev": 170
+                    },
+                    {
+                        "name": "Wind Cutter",
+                        "shortDesc": "Time Force Cost: 17, Damage: 165%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 110% per 0.5 sec, Number of Attacks: 3, Duration: 3 sec.\\nCooldown: 15 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/wind-cutter.png", "/class-icons/other/zero/wind-striker.png", "/class-icons/other/zero/storm-break.png"],
+                        "animations": ["https://media.giphy.com/media/YSTcLqynWbfTN6eijA/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash forward creating vortexes on enemies hit",
+                        "reqLev": 140
+                    },
+                    {
+                        "name": "Wind Striker",
+                        "shortDesc": "Time Force Cost: 16, Damage: 250%, Number of Attacks: 8, Max Enemies Hit: 8",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/wind-striker.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Slash forward again to send any vortexes flying",
+                        "reqLev": 145
+                    },
+                    {
+                        "name": "Storm Break",
+                        "shortDesc": "Time Force Cost: 18, Damage: 215%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 215% per 0.5 sec, Number of Attacks: 4, Duration: 3 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/storm-break.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Deal a final slash that creates another vortex that pushes enemies away",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ],
+                        "reqLev": 150
+                    },
+                    {
+                        "name": "Advanced Storm Break",
+                        "shortDesc": "Time Force Cost: 18, Damage: 335%, Max Enemies Hit: 8, Max Hits: 10\\n[Vortex]: Max Enemies Hit: 8, Damage: 300% per 0.5 sec, Number of Attacks: 4, Duration of Vortex: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 3, Damage Over Time: 195% damage per 1 sec, Normal Enemy Damage: +220% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/zero/advanced-storm-break.png", "/class-icons/other/zero/storm-break.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Vortex now leaves a lingering Shock Field that continuously damages enemies within it<bp_Deals increased %Damage to regular monsters by a flat amount_Unaffected by Damage Reflect_>"
+                        ],
+                        "reqLev": 180
+                    },
+                    {
+                        "name": "Long Sword Mastery",
+                        "shortDesc": "Permanent Long Sword Mastery Bonus: 70%, Attack Power: +40, Final Damage: +26%, Speed: +30, Jump: +20, Attack Speed: +3 step, Ignores 30% of enemy defense.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/long-sword-mastery.png"],
+                        "type": "Passive",
+                        "reqLev": 100
+                    },
+                    {
+                        "name": "Time Generator",
+                        "shortDesc": "Permanent Increases to Alpha's Time Force Recovery Rate: + 30%, 25% Chance of recovering 10 Time Force when attacking.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/time-generator.png"],
+                        "type": "Passive",
+                        "reqLev": 110
+                    },
+                    {
+                        "name": "Reinforce Body",
+                        "shortDesc": "Permanently Increases Alpha's HP: +30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%, Knockback Resistance: +100%, Max Time Force: +30%, Critical Rate: +30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/reinforce-body.png"],
+                        "type": "Passive",
+                        "reqLev": 130
+                    },
+                    {
+                        "name": "Divine Leer",
+                        "shortDesc": "Alpha's Critical Damage: +50% permanently\\nDamage Over Time: 200% damage every 1 sec for 10 sec at 15% chance, and replenishing 5% of max HP",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/divine-leer.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks have a chance to apply a damaging debuff and recover %Max HP",
+                        "details": [
+                            "Also permanently increases %Crit Damage"
+                        ],
+                        "reqLev": 160
+                    }]
+                ],
+                [
+                "Beta", [
+                    {
+                        "name": "Rising Slash",
+                        "shortDesc": "Time Force Cost: 3, Damage: 210%, Number of Attacks: 6, Max Enemies Hit: 6",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/rising-slash.png", "/class-icons/other/zero/air-raid.png"],
+                        "animations": ["https://media.giphy.com/media/clojInLGMkuxvuLPaD/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swing your sword upwards to launch enemies up",
+                        "details": [
+                            "Follow-up Attacks occur when you press the same button consecutively, for example <tt src={/class-icons/other/zero/rising-slash.png} tip={Rising Slash (Beta, Lv. 100)}><bp_Follow-up Attacks share the same key as its Active Attack_>"
+                        ],
+                        "reqLev": 100
+                    },
+                    {
+                        "name": "Air Raid",
+                        "shortDesc": "Time Force Cost: 5, Damage: 230%, Number of Attacks: 6, Max Enemies Hit: 6",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/air-raid.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Swing your sword downward to bring enemies in the air back down",
+                        "reqLev": 100
+                    },
+                    {
+                        "name": "Air Riot",
+                        "shortDesc": "Time Force Cost: 5, Damage: 330%, Number of Attacks: 9, Max Enemies Hit: 6.\\n[Shock Wave]: Damage: 330%, Number of Attacks: 9, Max Enemies Hit: 6. Chance of Stun: 100%, Duration: 3 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/air-riot.png", "/class-icons/other/zero/air-raid.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increased %Damage of attack",
+                            "Now causes an exploding shockwave where attack landed<bp_Unaffected by Damage Reflect_>"
+                        ],
+                        "reqLev": 150
+                    },
+                    {
+                        "name": "Flash Cut",
+                        "shortDesc": "Time Force Cost: 7, Damage: 205%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 5 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/flash-cut.png", "/class-icons/other/zero/throwing-weapon.png"],
+                        "animations": ["https://media.giphy.com/media/QytyPWUaf9pWeoNxj1/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Swing your sword forward dealing damage to enemies",
+                        "reqLev": 105
+                    },
+                    {
+                        "name": "Throwing Weapon",
+                        "shortDesc": "Time Force Cost: 9, Damage: 380%, Number of Attacks: 2, Max Enemies Hit: 6\\nFinal Damage as Assist -40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/throwing-weapon.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Throw your sword forward at an angle towards the ground",
+                        "details": [
+                            "Assist version deals reduced %Final Damage"
+                        ],
+                        "reqLev": 110
+                    },
+                    {
+                        "name": "Advanced Throwing Weapon",
+                        "shortDesc": "Time Force Cost: 9, Damage: 370% every 0.3 sec, Number of Attacks: 1, Max Enemies Hit: 6, Duration: 4 sec.\\nFinal Damage as Assist -40%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/advanced-throwing-weapon.png", "/class-icons/other/zero/throwing-weapon.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Modifies the attack where the sword will now slowly spin forward damaging and push enemies back<bp_Unaffected by Damage Reflect_>",
+                            "Assist version deals reduced %Final Damage"
+                        ],
+                        "reqLev": 155
+                    },
+                    {
+                        "name": "Spin Driver",
+                        "shortDesc": "Time Force Cost: 11, Damage: 260%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 10 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/spin-driver.png", "/class-icons/other/zero/wheel-wind.png"],
+                        "animations": ["https://media.giphy.com/media/dw3R6tfROqbVScJo27/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Twirl your sword while pulling enemies in",
+                        "reqLev": 115
+                    },
+                    {
+                        "name": "Wheel Wind",
+                        "shortDesc": "Time Force Cost: 13 per 1 sec, Damage: 120% per 0.1 sec, Max Enemies Hit: 6, Attack count: 2, Duration: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/wheel-wind.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Continuously spin around dealing damage to enemies in the area",
+                        "details": [
+                            "You can move while spinning",
+                            "Attack is cancelled when another attack is used"
+                        ],
+                        "reqLev": 125
+                    },
+                    {
+                        "name": "Advanced Wheel Wind",
+                        "shortDesc": "Time Force Cost: 13 per 1 sec, Damage: 200%, Max Enemies Hit: 6, Attack count: 2, Duration: 7 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/zero/advanced-wheel-wind.png", "/class-icons/other/zero/wheel-wind.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and duration",
+                            "Attack will also pull in nearby enemies"
+                        ],
+                        "reqLev": 165
+                    },
+                    {
+                        "name": "Giga Crash",
+                        "shortDesc": "Time Force Cost: 10, Damage: 250%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 15 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/giga-crash.png", "/class-icons/other/zero/falling-star.png", "/class-icons/other/zero/groundbreaker.png"],
+                        "animations": ["https://media.giphy.com/media/LMDT8qhmuuBqdAt2G7/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slam down on the ground damaging nearby enemies",
+                        "reqLev": 135
+                    },
+                    {
+                        "name": "Falling Star",
+                        "shortDesc": "Time Force Cost: 12, Damage: 225%, Number of Attacks: 6, Max Enemies Hit: 6.\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 225%, Number of Attacks: 3.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/falling-star.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Jump upwards and slam down again damaging nearby enemies",
+                        "details": [
+                            "Unaffected by Damage Reflect"
+                        ],
+                        "reqLev": 140
+                    },
+                    {
+                        "name": "Groundbreaker",
+                        "shortDesc": "Time Force Cost: 13, Damage: 260%, Number of Attacks: 8, Max Enemies Hit: 6.\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 260%, Number of Attacks: 8.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/groundbreaker.png"],
+                        "type": "Follow-up Attack",
+                        "desc": "Jump upwards a final time to slam a gigantic sword onto enemies",
+                        "details": [
+                            "Creates a shockwave on impact that deals additional damage<bp_Unaffected by Damage Reflect_>"
+                        ],
+                        "reqLev": 145
+                    },
+                    {
+                        "name": "Mega Groundbreaker",
+                        "shortDesc": "Time Force Cost: 13, Damage: 380%, Max Enemies Hit: 6, Max Hits: 10\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 285%, Number of Attacks: 10\\n[Shock Field]: Max Enemies Hit: 6, Duration: 5 sec, Damage Over Time: 310% damage per 1 sec, Normal Enemy Damage: +210% points",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/other/zero/mega-groundbreaker.png", "/class-icons/other/zero/groundbreaker.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits but, reduces max enemies hit",
+                            "Now creates a lingering Shock Field that continuously damages to enemies within it<bp_Field deals increased %Damage to regular enemies by a flat amount, Unaffected by Damage Reflect_>"
+                        ],
+                        "reqLev": 170
+                    },
+                    {
+                        "name": "Heavy Sword Mastery",
+                        "shortDesc": "Permanently adds Heavy Sword Mastery Bonus: +70%, Critical Rate: +30%, Damage: +50%, Boss Damage: +30%, Attack Power: +80, Final Damage: +26%, Attack Speed: +3",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/zero/heavy-sword-mastery.png"],
+                        "type": "Passive",
+                        "reqLev": 100
+                    },
+                    {
+                        "name": "Solid Body",
+                        "shortDesc": "Permanently Increases Beta's stats. Defense: +2000, Abnormal Status Resistance: +40, Elemental Resistance: +40%, Knockback Resistance: +100%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/solid-body.png"],
+                        "type": "Passive",
+                        "reqLev": 110
+                    },
+                    {
+                        "name": "Armor Split",
+                        "shortDesc": "When Beta attacks there is a 20% chance of dropping the target's defense rate by 10% for the 20 sec\\nCan be stacked up to 5 times",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/armor-split.png"],
+                        "type": "Passive",
+                        "desc": "Beta's attacks has a chance to apply a stacking debuff that reduces an enemy's DEF",
+                        "reqLev": 130
+                    },
+                    {
+                        "name": "Immune Barrier",
+                        "shortDesc": "Respond to enemy attacks with a 25% chance of creating a barrier that blocks up to 50% Max HP for 5 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/immune-barrier.png"],
+                        "type": "Passive",
+                        "desc": "After being hit by an attack, there is a chance to generate a barrier that blocks damage",
+                        "details": [
+                            "You are invincible at the time the barrier is created"
+                        ],
+                        "reqLev": 165
+                    },
+                    {
+                        "name": "Critical Bind",
+                        "shortDesc": "Beta's Attack Bind Chance: 10%, Duration: 4 sec Targets who are not stunned, including normal monsters, will be debuffed for the same amount of time.\\nAlpha's attacks gain +30% Critical Rate and +20% Critical Damage against targets who are stunned by Critical Bind.\\nThe Bind effect will expire after inflicting damage proportional to the remaining effect duration.\\nStunned enemies will resist Critical Bind, and be immune to stunning, for 35 sec. afterwards.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/other/zero/critical-bind.png"],
+                        "type": "Passive Bind",
+                        "desc": "Beta's attacks have a chance to apply a debuff that binds enemies and makes them more vulnerable to Alpha's attacks",
+                        "details": [
+                            "Alpha's attack gain %Crit Rate and %Crit Damage towards that enemy",
+                            "There is a cooldown (35 secs) before an enemy can be binded again using Critical Bind"
+                        ],
+                        "reqLev": 185
+                    }]
+            ]
+        ],
+        "fifth": {
+            "fifthCommon": ["transcendentRhinnePrayer", "transcendent", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Chrono Break",
+                    "shortDesc": "Time Force Cost: 50, Max Enemies Hit: 15, Damage: 450%, Number of Attacks: 5, Bind Duration: 10 sec\\nBind Duration: Increases up to 100%, based on initial damage done\\nFor 24 sec - Skill Cooldowns: -260% (Excludes skills not affected by cooldown reduction), Attack Speed: +2, Final Damage: +36%, slows nearby enemies.\\nAdditional shock dealt 6 times, dealing 825% damage 12 times to up to 15 enemies when the skill ends. Shock prioritizes enemies hit by the attack and boss monsters with the highest max HP.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/other/zero/chrono-break.png"],
+                    "animations": ["https://media.giphy.com/media/pVMPnBDdC9w1U7kT4l/giphy-downsized-large.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Unleash a massive attack that binds nearby enemies",
+                    "details": [
+                        "While active, nearby enemies are slowed, skills have reduced cooldowns and gain increased Attack Speed (by 2 stages), %Final Damage",
+                        "When the skill ends, deal a final attack that prioritizes binded enemies and bosses with the highest Max HP first",
+                        "Right-clicking the skill will toggle ON/OFF Break Mode where enemies are binded at the end of the attack<bp_Activating the skill by pressing the Down Arrow Key and Skill Key together will trigger the opposite mode_>",
+                        "Unaffected by Attack Ignore and Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Twin Blades of Time",
+                    "shortDesc": "Time Force Cost: 50, Max Enemies Hit: 12, Invulnerable while casting skill\\n[Beta Link]\\n1st Hit: Deals 2200% damage 8 times\\n2nd Hit: Deals 2090% damage 12 times\\n3rd Hit: Deals 2640% damage 13 times\\n[Alpha Link]\\n1st Hit: Deals 2200% damage 8 times\\n2nd Hit: Deals 2090% damage 12 times\\n3rd Hit: deal 2640% damage 13 times\\n[Joint Attack]: Triggers an explosion 3 time(s), which deals 2420% damage 15 times. Triggers additional explosion for every 2 remaining linked attacks. Max Explosions: 5. Ignores Defense: +100%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/other/zero/twin-blades-of-time.png"],
+                    "animations": ["https://media.giphy.com/media/uoJbWezsBAd5vtQEMC/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, perform a joint attack with Alpha and Beta before unleashing a final attack",
+                    "details": [
+                        "If the attack is ended early, the final attack deals additional explosions for every 2 remaining linked attacks<bp_Final attack has 100% Ignore DEF_>",
+                        "Invincible while casting"
+                    ]
+                },
+                {
+                    "name": "Shadow Flash",
+                    "shortDesc": "Time Force Cost: 10, creates a sanctuary that lasts during cooldown. Max Enemies Hit: 8\\nAlpha: Deals Damage: 1430%, Number of Attacks: 6\\nBeta: Deals Damage: 1860%, Number of Attacks: 5\\nSkill Cooldown: Consumes 25 Time Force to destroy the sanctuary, move to the location, and attack up to 15 enemies.\\nAlpha: Activates a sword attack 3 time(s), Damage: 1145%, Number of Attacks: 15\\nBeta: Activates a sword attack 3 time(s). Damage: 1670%, Number of Attacks: 12\\nCooldown: 40 sec",
+                    "icons": ["/class-icons/other/zero/shadow-flash-alpha.png", "/class-icons/other/zero/shadow-flash-beta.png"],
+                    "animations": ["https://media.giphy.com/media/ZUTqmI9Y0x7XiCixyI/giphy-downsized-large.gif"],
+                    "type": "Attack",
+                    "desc": "Place down a sanctuary on the ground that can be teleported back to which destroys the sanctuary and deals a devastating attack",
+                    "details": [
+                        "Alpha and Beta's Shadow Flash function separately"
+                    ]
+                },
+                {
+                    "name": "Ego Weapon",
+                    "shortDesc": "Alpha: Lazuli forms 9 blade(s), attacking 6 time(s) for 550% damage.\\nBeta: Lapis forms 3 Heavy Swords, unleashing 2 shock(s) for 550% damage to 4 enemies\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/other/zero/ego-weapon-alpha.png", "/class-icons/other/zero/ego-weapon-beta.png"],
+                    "animations": ["https://media.giphy.com/media/kh54fxm9FLcI2R5pSG/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Periodically, additional attacks appear for both Alpha and Beta while attacking",
+                    "details": [
+                        "[Alpha]: Swords spin towards enemies dealing damage to enemies it collides with until it reaches the target",
+                        "[Beta]: Swords strike down onto enemies dealing damage to surrounding enemies",
+                        "Cooldowns are separate for Alpha and Beta",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Moon Strike/Shadow Strike/Rising Slash Boost",
+                    "shortDesc": "Moon Strike/Shadow Strike/Rising Slash Final Damage: +180%",
+                    "icons": ["/class-icons/other/zero/moon-strike.png", "/class-icons/other/zero/shadow-strike.png", "/class-icons/other/zero/rising-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Piercing Thrust/Air Raid Boost",
+                    "shortDesc": "Piercing Thrust/Air Raid Final Damage: +180%",
+                    "icons": ["/class-icons/other/zero/piercing-thrust.png", "/class-icons/other/zero/air-raid.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Flash Assault/Flash Cut Boost",
+                    "shortDesc": "Flash Assault/Flash Cut Final Damage: +120%",
+                    "icons": ["/class-icons/other/zero/flash-assault.png", "/class-icons/other/zero/flash-cut.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blade Ring/Throwing Weapon Boost",
+                    "shortDesc": "Blade Ring/Throwing Weapon Final Damage: +120%",
+                    "icons": ["/class-icons/other/zero/blade-ring.png", "/class-icons/other/zero/throwing-weapon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Blade Ring Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Rolling Cross/Spin Driver Boost",
+                    "shortDesc": "Rolling Cross/Spin Driver Final Damage: +120%",
+                    "icons": ["/class-icons/other/zero/rolling-cross.png", "/class-icons/other/zero/spin-driver.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Rolling Assault/Wheel Wind Boost",
+                    "shortDesc": "Rolling Assault/Wheel Wind Final Damage: +120%",
+                    "icons": ["/class-icons/other/zero/rolling-assault.png", "/class-icons/other/zero/wheel-wind.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Wind Cutter/Giga Crash Boost",
+                    "shortDesc": "Wind Cutter/Giga Crash Final Damage: +120%",
+                    "icons": ["/class-icons/other/zero/wind-cutter.png", "/class-icons/other/zero/giga-crash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Wind Striker/Falling Star Boost",
+                    "shortDesc": "Wind Striker/Falling Star Final Damage: +120%",
+                    "icons": ["/class-icons/other/zero/wind-striker.png", "/class-icons/other/zero/falling-star.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Storm Break/Groundbreaker Boost",
+                    "shortDesc": "Storm Break/Groundbreaker Final Damage: +120%",
+                    "icons": ["/class-icons/other/zero/storm-break.png", "/class-icons/other/zero/groundbreaker.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shadow Rain Boost",
+                    "shortDesc": "Shadow Rain Final Damage: +120%",
+                    "icons": ["/class-icons/other/zero/shadow-rain.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/other/zero/hexa-wind-cutter-giga-crash.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDdtcDB3NzV3YTJ6NjdvYW83M25lemV4Z2tqazBrZW9pZnJ1dGFxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/St05RMSQGll5MlPRyt/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa29vNm8zeXIza3hxZGh3eDJoeGQxcm5seDYzMzdremI1ejFjbm0yNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q6TpvoeaTWvuNiUXWT/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/other/zero/wind-cutter.png} tip={Wind Cutter / Giga Crash}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "Time Piece",
+                    "shortDesc": "Creates 3 Traces of Time when Assist hits 4 times.\\nUp to 10 Traces of Time can exist on one map, and are activated by Time Crystal when the opposite Zero's attack hits.\\nTrace recreation cooldown: 2 seconds\\nTime Crystal: attacks 4 times with 1440% damage",
+                    "icons": ["/class-icons/other/zero/time-piece.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHZnMGg4ZnhjZHZ1MHdiOTBnd2xqeDRqdG01b2E5b29kcXR6eGt5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eKvRnHZByEomTrnVDS/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Wind Cutter",
+                    "shortDesc": "Time Force Cost: 14, Damage: 265%, Number of Attacks: 7, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 175% per 0.5 sec, Number of Attacks: 2, Duration: 3 sec.\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/other/zero/hexa-wind-cutter.png", "/class-icons/other/zero/wind-cutter.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG9lZXh5b3dvNzBycTdmc3ZqajcyMXBzcWxjY3FibWd1emVsZHV0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vd6RpFJ35NGrZIZEAg/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemoweWx2eWhjb2gxZTIwY3VpbGszamloMWNucnplN3o1M3Rmbm10NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WV3rVRCClhqk0edujI/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Wind Striker",
+                    "shortDesc": "Time Force Cost: 16, Damage: 355%, Number of Attacks: 8, Max Enemies Hit: 8",
+                    "icons": ["/class-icons/other/zero/hexa-wind-striker.png", "/class-icons/other/zero/wind-striker.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWw3ZXc4Z29zZ3QwN2s2OTZzOGJ5eGh1eHA3OTVqYWU2ZjJ6NmtobiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/59cINeFoFuEw14QjnE/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Storm Break",
+                    "shortDesc": "Time Force Cost: 18, Damage: 475%, Max Enemies Hit: 8, Max Hits: 10\\n[Vortex]: Max Enemies Hit: 8, Damage: 475% per 0.5 sec, Number of Attacks: 4, Duration of Vortex: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 4 sec, Damage Over Time: 330% damage per 1 sec, Normal Enemy Damage: +330% points",
+                    "icons": ["/class-icons/other/zero/hexa-storm-break.png", "/class-icons/other/zero/advanced-storm-break.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWU0eWhnOHVvMmh4ejkzdWhrbmQwaWpuejRidG9zOWN5NndwNXI2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7zWVHNAKkH3hPXf1Xi/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzcxaXljM2V6enB0bmt5bWVzY3EydWZhNXBvd3hpaWQxajc3eTVtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SFr31QhslRJh0XuWU0/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Giga Crash",
+                    "shortDesc": "Time Force Cost: 10, Damage: 360%, Number of Attacks: 6, Max Enemies Hit: 7\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/other/zero/hexa-giga-crash.png", "/class-icons/other/zero/giga-crash.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtpOW50MWh4eTY3MTNwd2U3dTl6Z3ppODRreWlkendteWYyczQzYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pLRI3TcdiLanPjLbJi/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Falling Star",
+                    "shortDesc": "Time Force Cost: 12, Damage: 320%, Number of Attacks: 6, Max Enemies Hit: 7.\\n[Shock Wave]: Max Enemies Hit: 7, Damage: 320%, Number of Attacks: 3.",
+                    "icons": ["/class-icons/other/zero/hexa-falling-star.png", "/class-icons/other/zero/falling-star.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWl6dW01cjJwc2FsYWlpcjVtOTdxMXd3MXEyaHpobzY1a2hydzJxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lcKisdaujWoDnJRpKR/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Groundbreaker",
+                    "shortDesc": "Time Force Cost: 13, Damage: 545%, Max Enemies Hit: 7, Max Hits: 10\\n[Shock Wave]: Max Enemies Hit: 7, Damage: 405%, Number of Attacks: 10\\n[Shock Field]: Max Enemies Hit: 7 Duration: 5 sec, Damage Over Time: 485% damage per 1 sec, Normal Enemy Damage: +340% points",
+                    "icons": ["/class-icons/other/zero/hexa-groundbreaker.png", "/class-icons/other/zero/mega-groundbreaker.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjBkbHc1YTF3dG5zMGx1M2F4eHR2Z3prdmV4MXE4dGNzc3R1eDQxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HWW2S4vV7KsDUul4e8/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/other/zero/hexa-spin-driver-rolling-cross.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHJsZDNudm82YXF6ZmxiaTI0czF6MTU5b2ZocGw5NmZiZjQ5djJ2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J88QexY2ldmWE8g6tD/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHJlNnlkcjFhbGliaDc0NmF3eXBodDQ0azZ5MnEyMW9tdzN5OWw5YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iLz0Q6GUZdg5iCi7ho/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/other/zero/rolling-cross.png} tip={Rolling Cross / Spin Driver}> <tt src={/class-icons/other/zero/rolling-assault.png} tip={Rolling Assault / Blade Tempest (Wheel Wind)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Spin Driver",
+                    "shortDesc": "Time Force Cost: 11, Damage: 465%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 10 sec\\n[Passive Effects - Time Piece Traces of Time Created: +1, Trace of Time Limit on Map: +3]",
+                    "icons": ["/class-icons/other/zero/hexa-spin-driver.png", "/class-icons/other/zero/spin-driver.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXN2M2E3cW5vdWRvbzNjMzl3YmZkNmxhZTA5cHZqazl4bm03ZnN4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/s7Pt7rinwBeAEUfkvk/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Wheel Wind",
+                    "shortDesc": "Time Force Cost: 13 per 1 sec, Damage: 365%, Max Enemies Hit: 6, Number of Attacks: 2, Duration: 7 sec",
+                    "icons": ["/class-icons/other/zero/hexa-wheel-wind.png", "/class-icons/other/zero/wheel-wind.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2llOXlycWFhZXdocXh3OHRvOGp6a3BicjZhODRraGs3a2MwaTJjYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZoxLK1XTq9opXwoUHa/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Rolling Cross",
+                    "shortDesc": "Time Force Cost: 13, Max Enemies Hit: 8, Damage: 600%, Number of Attacks: 11\\nAttacks with 3 blades 2 times\\n[Blade]: Max Enemies Hit: 8, Damage: 750%, Number of Attacks: 3\\nWhen several blades land on a single enemy, Final Damage: -70% starting with the second blade\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/other/zero/hexa-rolling-cross.png", "/class-icons/other/zero/rolling-cross.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXB0NTZ4N3VmcjdtZTZybnJma3VlZmpudXNyaW80ZnpkOHdqdzA2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0Qme2Z3XwbY8AWke2m/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Rolling Assault",
+                    "shortDesc": "Time Force Cost: 15, Max Enemies Hit: 8, Damage: 555%, Number of Attacks: 12\\nAttacks with 3 blades 2 times\\n[Blade]: Max Enemies Hit: 8, Damage: 885%, Number of Attacks: 4\\nWhen several blades land on a single enemy, Final Damage: -70% starting with the second blade",
+                    "icons": ["/class-icons/other/zero/hexa-rolling-assault.png", "/class-icons/other/zero/rolling-assault.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDF2M3MybnJtYm5hdXVzYjBndXBkZHJlb2puaDd1eGppZTE4bHJ2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1ERpvlsBblY2yNBDjx/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/other/zero/hexa-flash-assault-blade-ring-flash-cut-throwing-weapon.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjB2NzdqamRkcGFxYjUzNHA1OHY4aTlpeTJ0eTB2anY1dm5mamYwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mN6VMdeInpsU6EnoCp/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm1jdmtuNzZjNGdma2RwdDc4OTlqYzk3b2MzbXl5YzB4cXNxN3NjeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QJH9GVJ2qvSukG2Woz/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/other/zero/flash-assault.png} tip={Flash Assault / Flash Cut}> <tt src={/class-icons/other/zero/blade-ring.png} tip={Blade Ring / Throwing Weapon}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Flash Assault",
+                    "shortDesc": "Time Force Cost: 9, Damage: 250%, Number of Attacks: 5, Max Enemies Hit: 8\\nCooldown: 5 sec.",
+                    "icons": ["/class-icons/other/zero/hexa-flash-assault.png", "/class-icons/other/zero/flash-assault.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1paDduejR5MnZ1OGhnaTY1b2FwcGc2dHo2eXZiMzB1dXpzd2szZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kYxtv5DnkE7Mih2z0j/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Blade Ring",
+                    "shortDesc": "Time Force Cost: 11, Max Enemies Hit: 8, Damage: 435%, Number of Attacks: 9.\\n[Blade]: Max Enemies Hit: 8, Damage: 210%, Number of Attacks: 4, Damage Against Normal Enemies: +132% points",
+                    "icons": ["/class-icons/other/zero/hexa-blade-ring.png", "/class-icons/other/zero/blade-ring.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnFpc21rY2lwb2JwbWRybGF0ZDVpeDNiajhoNmN4cGxzcjZuNm14aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/18RlBKzEKQ8Gl7E6aC/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Flash Cut",
+                    "shortDesc": "Time Force Cost: 7, Damage: 346%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 5 sec.",
+                    "icons": ["/class-icons/other/zero/hexa-flash-cut.png", "/class-icons/other/zero/flash-cut.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHd0a2x0cnRpaHVuZzJucmNyNGlldW1tbmRwdTZidjQzcXpoa3VwOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DQOBlsH9zsmmekgoH2/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Throwing Weapon",
+                    "shortDesc": "Time Force Cost: 9, Damage: 560%, Number of Attacks: 4, Max Enemies Hit: 6. Up to 3 collisions occur for each enemy.\\nFinal Damage as Assist -40%",
+                    "icons": ["/class-icons/other/zero/hexa-throwing-weapon.png", "/class-icons/other/zero/throwing-weapon.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmE3dml5Z2VpaTRkcWt3Y2YxY2Iwb2JjaG5uaGFieXl1YjlvMmV3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7Gu1EQZNozZWXduU78/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmFkNjZrN3YzbjhmMDAyNHkybmxsZXg3MWg0NGFmOHJqOGRwcmV3bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QdNt8pNs9jgPMa892a/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/other/zero/hexa-moon-strike-rising-slash-shadow-rain-infinite-resonance.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDQ1ZWp3YnkyeDRqcWEzZzYxcXUwaXI4MHNkcTV5aXE5a2txNTRrYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x9tfkvZag6oBV9b60u/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjY2OTJxOG1ibWl5dmxoZHgxdGpsZGJsaGJ6eDRrNmhldGx0dnR5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xWoVS735vcFjmqa4pZ/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/other/zero/moon-strike.png} tip={Moon Strike / Shadow Strike / Rising Slash}> <tt src={/class-icons/other/zero/piercing-thrust.png} tip={Piercing Thrust / Air Raid}> <tt src={/class-icons/other/zero/shadow-rain.png} tip={Shadow Rain}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Moon Strike",
+                    "shortDesc": "Time Force Cost: 3, Max Enemies Hit: 8, Damage: 191%, Number of Attacks: 6.\\n[Passive Effect: HEXA Wind Cutter Damage: +70% points, HEXA Wind Cutter Swirling Damage: +40% points, Wind Striker Damage: +60% points, HEXA Storm Break Damage: +60% points, HEXA Storm Break Swirling Damage: +60% points, HEXA Storm Break Shock Field Damage: +60% points]",
+                    "icons": ["/class-icons/other/zero/hexa-moon-strike.png", "/class-icons/other/zero/moon-strike.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWNxNnlyOGwwaW55M3R6cDl2dDQ0dHMxajhwamNnMnJicnNtMHEycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZVoKPbMznzqUb6vBLK/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Piercing Thrust",
+                    "shortDesc": "Time Force Cost: 5, Damage: 275%, Number of Attacks: 6, Max Enemies Hit: 8",
+                    "icons": ["/class-icons/other/zero/hexa-piercing-thrust.png", "/class-icons/other/zero/piercing-thrust.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHk3ODM0dG9uZDZkenV0amsxMXhtNjhuYTBidDQ5MzFsaWc1eHBhYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B7wUxOJzvBoAY2SGke/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Shadow Strike",
+                    "shortDesc": "Time Force Cost: 7, Damage: 331%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Blade]: Max Enemies Hit: 8, Damage: 514%, Number of Attacks: 1.",
+                    "icons": ["/class-icons/other/zero/hexa-shadow-strike.png", "/class-icons/other/zero/shadow-strike.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3VhMGloem5ydmQ3ZWVvdHljM2xuN2s2dWpsbm9qdnphcHU2MTBvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zHxO1WK8HKrV3cZzFQ/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Rising Slash",
+                    "shortDesc": "Time Force Cost: 3, Max Enemies Hit: 6, Damage: 307%, Number of Attacks: 6.\\n[Passive Effect: HEXA Giga Crash Damage: +60% (additive), HEXA Falling Star Damage: +60% (additive), HEXA Falling Star Shockwave Damage: +60% (additive), HEXA Groundbreaker Damage: +60% (additive), HEXA Groundbreaker Shock Wave Damage: +60% (additive), HEXA Groundbreaker Shock Field Damage: +60% (additive)]",
+                    "icons": ["/class-icons/other/zero/hexa-rising-slash.png", "/class-icons/other/zero/rising-slash.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzNxajJmenNicTN5d21vY3ZteGY0NW4zNmZ3bmgzNWkyZTRrcmF3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/s0zBekfcApblnJvKVi/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Air Raid",
+                    "shortDesc": "Time Force Cost: 5, Damage: 432%, Number of Attacks: 9, Max Enemies Hit: 6.\\n[Shock Wave] Damage: 432%, Number of Attacks: 9, Max Enemies Hit: 6, Stun Chance: 100%, Duration: 3 sec.",
+                    "icons": ["/class-icons/other/zero/hexa-air-raid.png", "/class-icons/other/zero/air-raid.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHMwaTVnanQ2Nm1zcDd6b3VxMG1laWw1ZXMxc3V2djFnMW1wZHA1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9BG4OK3wFCehh1ihJh/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Shadow Rain",
+                    "shortDesc": "Time Force Cost: 50,\\n[Beta]: Damage: 1625%, Max Enemies Hit: 15, Max Hits: 14\\n[Alpha]: Damage: 1625%, Max Enemies Hit: 15, Max Hits: 14\\nCooldown: 300 sec.",
+                    "icons": ["/class-icons/other/zero/hexa-shadow-rain.png", "/class-icons/other/zero/shadow-rain.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExampqejJ6d3d0MnQ5d290Z2pweWp5MHA4aWlhcjF5dndwMmZvc3k1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q67YNilNt6ppm3GHjE/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Infinite Resonance",
+                    "shortDesc": "When direct skill attacks hit, increases Attack Power by 50 for 30 secs.",
+                    "icons": ["/class-icons/other/zero/infinite-resonance.png"],
+                    "type": "Passive Buff",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "End Time",
+                    "shortDesc": "Time Force Cost: 40, invincible during casting\\nGrants the Detect and Strength effects at max stack\\nThe mirror of illusion shatters, causing 17 Chase Cuts that attack 15 enemies with 1400% damage 6 times\\nAwakens the power of the transcendent, causing 22 time distortion(s) that attack up to 15 enemies with 1400% damage 8 time(s)\\nAfter that, a final blow that attacks up to 15 enemies with 1430% damage 14 times erupts 32 times.\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/other/zero/end-time.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDQxczd2a3FhaG1mZjVlM2pienZqem5ucGhwZ2Q3MXY0MTIza21xcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2kb4p9OazR0rad1UY/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Bitemporis",
+                    "shortDesc": "Time Force Cost: 10, Invincible during casting\\nAwakens 12 times, dealing 5460% damage to up to 15 enemies 9 times\\nThen constricts the temporal flow 10 times, dealing 5880% damage 12 times\\nAfterwards, attacks 15 times, dealing 6160% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/other/zero/bitemporis.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGkwM3BpcnFmbWlibmpnY3U1cHd1OW1sYm1hYWQ3YmM2eXgwaHZtZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIROouzYwLLC70SGK1/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Chrono Break Boost",
+                    "shortDesc": "Chrono Break Final Damage: +60%, Duration: 30 sec, Final Damage: +46%",
+                    "icons": ["/class-icons/other/zero/chrono-break.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Twin Blades of Time Boost",
+                    "shortDesc": "Twin Blades of Time Final Damage: +60%",
+                    "icons": ["/class-icons/other/zero/twin-blades-of-time.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Shadow Flash Boost",
+                    "shortDesc": "Shadow Flash Final Damage: +60%",
+                    "icons": ["/class-icons/other/zero/shadow-flash-alpha.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Ego Weapon Boost",
+                    "shortDesc": "Ego Weapon Final Damage: +60%",
+                    "icons": ["/class-icons/other/zero/ego-weapon-alpha.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Shadow Rain - Transcendent",
+                "icons": ["/class-icons/other/zero/shadow-rain.png"],
+                "animations": ["https://media.giphy.com/media/eJjat8MraHdbnwUv6S/giphy.gif"]
+            },
+            {
+                "name": "Rolling Cross - Alpha",
+                "icons": ["/class-icons/other/zero/rolling-cross.png"],
+                "animations": ["https://media.giphy.com/media/Qu2DeSBnbAPk3No5ke/giphy.gif"]
+            },
+            {
+                "name": "Wind Cutter - Alpha",
+                "icons": ["/class-icons/other/zero/wind-cutter.png"],
+                "animations": ["https://media.giphy.com/media/YSTcLqynWbfTN6eijA/giphy.gif"]
+            },
+            {
+                "name": "Flash Cut - Beta",
+                "icons": ["/class-icons/other/zero/flash-cut.png"],
+                "animations": ["https://media.giphy.com/media/QytyPWUaf9pWeoNxj1/giphy.gif"]
+            },
+            {
+                "name": "Giga Crash - Beta",
+                "icons": ["/class-icons/other/zero/giga-crash.png"],
+                "animations": ["https://media.giphy.com/media/LMDT8qhmuuBqdAt2G7/giphy.gif"]
+            },
+            {
+                "name": "Chrono Break - 5th Job",
+                "icons": ["/class-icons/other/zero/chrono-break.png"],
+                "animations": ["https://media.giphy.com/media/pVMPnBDdC9w1U7kT4l/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Twin Blades of Time - 5th Job",
+                "icons": ["/class-icons/other/zero/twin-blades-of-time.png"],
+                "animations": ["https://media.giphy.com/media/uoJbWezsBAd5vtQEMC/giphy.gif"]
+            },
+            {
+                "name": "End Time - 6th Job",
+                "icons": ["/class-icons/other/zero/end-time.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDQxczd2a3FhaG1mZjVlM2pienZqem5ucGhwZ2Q3MXY0MTIza21xcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2kb4p9OazR0rad1UY/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Bitemporis - 6th Job",
+                "icons": ["/class-icons/other/zero/bitemporis.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGkwM3BpcnFmbWlibmpnY3U1cHd1OW1sYm1hYWQ3YmM2eXgwaHZtZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIROouzYwLLC70SGK1/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Zero is a STR warrior class that is not part of any class grouping. With Zero, you control two characters Alpha and Beta. Using different attacks will swap you between Alpha and Beta"
+}

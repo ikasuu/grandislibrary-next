@@ -1,0 +1,617 @@
+{
+    "class": "Jett",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Pirate",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Increases %Crit Damage",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["gun"]},
+            {"secondary": ["fist"]}
+        ],
+        "innerAbility": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"],
+        "baseStats": [
+            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
+            [
+                "<strong>Attack</strong>: [<span data-tooltip='Blaster Overdrive (3rd Job)'><img src='/class-icons/explorers/jett/blaster-overdrive.png' alt='Skill Blaster Overdrive'/></span> +25%]",
+                "<strong>DEX</strong>: [<span data-tooltip='Slipstream Suit (3rd Job)'><img src='/class-icons/explorers/jett/slipstream-suit.png' alt='Skill Slipstream Suit'/></span> +45%]",
+                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Bounty Chaser (2nd Job)'><img src='/class-icons/explorers/jett/bounty-chaser.png' alt='Skill Bounty Chaser'/></span> +20%] [<span data-tooltip='Blaster Overdrive (3rd Job)'><img src='/class-icons/explorers/jett/blaster-overdrive.png' alt='Skill Blaster Overdrive'/></span> +15%] [<span data-tooltip='Gravity Booster (4th Job)'><img src='/class-icons/explorers/jett/gravity-booster.png' alt='Skill Gravity Booster'/></span> +20%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Giga Blaster (4th Job)'><img src='/class-icons/explorers/jett/giga-blaster.png' alt='Skill Giga Blaster'/></span> +30%]",
+                "<strong>Damage</strong>: [<span data-tooltip='Bounty Chaser (2nd Job)'><img src='/class-icons/explorers/jett/bounty-chaser.png' alt='Skill Bounty Chaser'/></span> +25%] [<span data-tooltip='Clairvoyant (3rd Job)'><img src='/class-icons/explorers/jett/clairvoyant.png' alt='Skill Clairvoyant'/></span> +15%] [<span data-tooltip='Invincibility (4th Job)'><img src='/class-icons/explorers/jett/invincibility.png' alt='Skill Invincibility'/></span> +11%]",
+                "<strong>Boss Damage</strong>: [<span data-tooltip='Gravity Booster (4th Job)'><img src='/class-icons/explorers/jett/gravity-booster.png' alt='Skill Gravity Booster'/></span> +20%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Slipstream Suit (3rd Job)'><img src='/class-icons/explorers/jett/slipstream-suit.png' alt='Skill Slipstream Suit'/></span> +20%] [<span data-tooltip='Jett Supreme Enhancement (4th Job)'><img src='/class-icons/explorers/jett/jett-supreme-enhancement.png' alt='Skill Jett Supreme Enhancement'/></span> +10%] [<span data-tooltip='Stellar Impact (2nd Job)'><img src='/class-icons/explorers/jett/stellar-impact.png' alt='Skill Stellar Impact'/></span> +25% from debuff]",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Cosmic Shield (2nd Job)'><img src='/class-icons/explorers/jett/cosmic-shield.png' alt='Skill Cosmic Shield'/></span> +50%] [<span data-tooltip='Gravity Booster (4th Job)'><img src='/class-icons/explorers/jett/gravity-booster.png' alt='Skill Gravity Booster'/></span> +50%]",
+                "<strong>Attack Speed (Weapon)</strong>: Stage 7",
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Clairvoyant (3rd Job)'><img src='/class-icons/explorers/jett/clairvoyant.png' alt='Skill Clairvoyant'/></span> +25%]",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Invincibility (4th Job)'><img src='/class-icons/explorers/jett/invincibility.png' alt='Skill Invincibility'/></span> 20]"
+            ]
+        ],
+        "buffInfo": {
+            "active": "<div><span data-tooltip='Galactic Might (1st Job)'><img src='/class-icons/explorers/jett/galactic-might.png' alt='Skill Galactic Might'/></span>[180s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
+            "summons": "<div><span data-tooltip='Turret Deployment (3rd Job)'><img src='/class-icons/explorers/jett/turret-deployment.png' alt='Skill Turret Deployment'/></span>[30s](10s cd)</div> <div><span data-tooltip='Gravity Crush (5th Job)'><img src='/class-icons/explorers/jett/gravity-crush.png' alt='Skill Gravity Crush'/></span>[10s](120s cd)</div> <div><span data-tooltip='Suborbital Strike (5th Job)'><img src='/class-icons/explorers/jett/suborbital-strike.png' alt='Skill Suborbital Strike'/></span>[90s](180s cd)</div> <div><span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span>[30s](30s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Bionic Resilience (Hyper Skill)'><img src='/class-icons/explorers/jett/bionic-resilience.png' alt='Skill Bionic Resilience'/></span>[30s](180s cd)</div> <div><span data-tooltip='Rising Cosmos (Hyper Skill)'><img src='/class-icons/explorers/jett/rising-cosmos.png' alt='Skill Rising Cosmos'/></span>[60s](120s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[30s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
+            "damageReduce": "<div><span data-tooltip='Anti-Gravity Cycle SFF-X Summon (5th Job)'><img src='/class-icons/explorers/jett/anti-gravity-cycle.png' alt='Skill Anti-Gravity Cycle SFF-X Summon'/></span>[45s](Special Barrier | 180s cd)</div>"
+        },
+        "linkSkill": {
+                "id":80001151,
+                "icons": ["/class-icons/link-skills/core-aura.png"],
+                "type": "Passive",
+                "desc": "Grants a random amount of STR, DEX, INT, LUK, Attack, and Magic Attack",
+                "details": [
+                    "The stats change every day, there are items dropped from monsters or from the Cash Shop that help you reroll the stats. There is also an item in the Cash Shop that lock the stats preventing it from changing"
+                ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<span data-tooltip='Space Walk'><img src='/class-icons/explorers/jett/space-walk.png' alt='Skill Space Walk'/></span> -> <span data-tooltip='Seasoned Hunter'><img src='/class-icons/explorers/jett/seasoned-hunter.png' alt='Skill Seasoned Hunter'/></span> -> <span data-tooltip='Galactic Might'><img src='/class-icons/explorers/jett/galactic-might.png' alt='Skill Galactic Might'/></span> -> <span data-tooltip='Starline One'><img src='/class-icons/explorers/jett/starline-one.png' alt='Skill Starline One'/></span> -> <span data-tooltip='Blaster Barrage'><img src='/class-icons/explorers/jett/blaster-barrage.png' alt='Skill Blaster Barrage'/></span>"],
+                ["2nd Job", "<span data-tooltip='Cosmic Shield'><img src='/class-icons/explorers/jett/cosmic-shield.png' alt='Skill Cosmic Shield'/></span> -> <span data-tooltip='Gun Mastery'><img src='/class-icons/explorers/jett/gun-mastery.png' alt='Skill Gun Mastery'/></span> -> <span data-tooltip='Bounty Chaser'><img src='/class-icons/explorers/jett/bounty-chaser.png' alt='Skill Bounty Chaser'/></span> -> <span data-tooltip='Starline Two'><img src='/class-icons/explorers/jett/starline-two.png' alt='Skill Starline Two'/></span> -> <span data-tooltip='Vortex Cross'><img src='/class-icons/explorers/jett/vortex-cross.png' alt='Skill Vortex Cross'/></span> -> <span data-tooltip='Stellar Impact'><img src='/class-icons/explorers/jett/stellar-impact.png' alt='Skill Stellar Impact'/></span>"],
+                ["3rd Job", "<span data-tooltip='Clairvoyant'><img src='/class-icons/explorers/jett/clairvoyant.png' alt='Skill Clairvoyant'/></span> -> <span data-tooltip='Slipstream Suit'><img src='/class-icons/explorers/jett/slipstream-suit.png' alt='Skill Slipstream Suit'/></span> -> <span data-tooltip='Blaster Overdrive'><img src='/class-icons/explorers/jett/blaster-overdrive.png' alt='Skill Blaster Overdrive'/></span> -> <span data-tooltip='Turret Deployment'><img src='/class-icons/explorers/jett/turret-deployment.png' alt='Skill Turret Deployment'/></span> -> <span data-tooltip='Cosmic Upheaval'><img src='/class-icons/explorers/jett/cosmic-upheaval.png' alt='Skill Cosmic Upheaval'/></span> -> <span data-tooltip='Spatial Shift'><img src='/class-icons/explorers/jett/spatial-shift.png' alt='Skill Spatial Shift'/></span> -> <span data-tooltip='Starline Three'><img src='/class-icons/explorers/jett/starline-three.png' alt='Skill Starline Three'/></span> -> <span data-tooltip='Falling Stars'><img src='/class-icons/explorers/jett/falling-stars.png' alt='Skill Falling Stars'/></span>"],
+                ["4th Job", "<span data-tooltip='Invincibility'><img src='/class-icons/explorers/jett/invincibility.png' alt='Skill Invincibility'/></span> -> <span data-tooltip='Giga Blaster'><img src='/class-icons/explorers/jett/giga-blaster.png' alt='Skill Giga Blaster'/></span> -> <span data-tooltip='Jett Supreme Enhancement'><img src='/class-icons/explorers/jett/jett-supreme-enhancement.png' alt='Skill Jett Supreme Enhancement'/></span> -> <span data-tooltip='Strikeforce Showdown'><img src='/class-icons/explorers/jett/strikeforce-showdown.png' alt='Skill Strikeforce Showdown'/></span> -> <span data-tooltip='Planet Buster'><img src='/class-icons/explorers/jett/planet-buster.png' alt='Skill Planet Buster'/></span> -> <span data-tooltip='Gravity Booster'><img src='/class-icons/explorers/jett/gravity-booster.png' alt='Skill Gravity Booster'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Starfall'><img src='/class-icons/explorers/jett/starfall.png' alt='Skill Starfall'/></span> -> <span data-tooltip='Starforce Salvo'><img src='/class-icons/explorers/jett/starforce-salvo.png' alt='Skill Starforce Salvo'/></span> -> <span data-tooltip='Backup Beatdown'><img src='/class-icons/explorers/jett/backup-beatdown.png' alt='Skill Backup Beatdown'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
+            ],
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<ul><li><img src='/class-icons/explorers/jett/planet-buster-reinforce.png' alt='Skill Planet Buster - Reinforce'/> <img src='/class-icons/explorers/jett/planet-buster-extra-strike.png' alt='Skill Planet Buster - Extra Strike'/> Planet Buster - Reinforce and Extra Strike</li><li><img src='/class-icons/explorers/jett/starforce-salvo-reinforce.png' alt='Skill Starforce Salvo - Reinforce'/> <img src='/class-icons/explorers/jett/starforce-salvo-range.png' alt='Skill Starforce Salvo - Range'/> <img src='/class-icons/explorers/jett/starforce-salvo-boss-rush.png' alt='Skill Starforce Salvo - Boss Rush'/> Starforce Salvo - Reinforce, Range, and Boss Rush</li></ul>"
+        },
+        "nodeInfo": {
+            "recommended": "<span data-tooltip='Backup Beatdown/Starfall (4th Job)'><img src='/class-icons/explorers/jett/backup-beatdown.png' alt='Skill Backup Beatdown'/></span> <span data-tooltip='Starforce Salvo/Strikeforce Showdown (4th Job)'><img src='/class-icons/explorers/jett/starforce-salvo.png' alt='Skill Starforce Salvo'/></span> <span data-tooltip='Singularity Shock (Hyper Skill)'><img src='/class-icons/explorers/jett/singularity-shock.png' alt='Skill Singularity Shock'/></span> <span data-tooltip='Planet Buster (4th Job)'><img src='/class-icons/explorers/jett/planet-buster.png' alt='Skill Planet Buster'/></span> <span data-tooltip='Vortex Cross (2nd Job)'><img src='/class-icons/explorers/jett/vortex-cross.png' alt='Skill Vortex Cross'/></span> <span data-tooltip='Falling Stars/Turret Deployment (3rd Job)'><img src='/class-icons/explorers/jett/falling-stars.png' alt='Skill Falling Stars'/></span>",
+            "possible": "<span data-tooltip='Starline One (1st Job)'><img src='/class-icons/explorers/jett/starline-one.png' alt='Skill Starline One'/></span> <span data-tooltip='Blaster Barrage (1st Job)'><img src='/class-icons/explorers/jett/blaster-barrage.png' alt='Skill Blaster Barrage'/></span> <span data-tooltip='Starline Two (2nd Job)'><img src='/class-icons/explorers/jett/starline-two.png' alt='Skill Starline Two'/></span> <span data-tooltip='Stellar Impact (2nd Job)'><img src='/class-icons/explorers/jett/stellar-impact.png' alt='Skill Stellar Impact'/></span> <span data-tooltip='Vortex Cross (2nd Job)'><img src='/class-icons/explorers/jett/vortex-cross.png' alt='Skill Vortex Cross'/></span> <span data-tooltip='Falling Stars (3rd Job)'><img src='/class-icons/explorers/jett/falling-stars.png' alt='Skill Falling Stars'/></span> <span data-tooltip='Starline Three (3rd Job)'><img src='/class-icons/explorers/jett/starline-three.png' alt='Skill Starline Three'/></span> <span data-tooltip='Cosmic Upheaval (3rd Job)'><img src='/class-icons/explorers/jett/cosmic-upheaval.png' alt='Skill Cosmic Upheaval'/></span> <span data-tooltip='Starforce Salvo (4th Job)'><img src='/class-icons/explorers/jett/starforce-salvo.png' alt='Skill Starforce Salvo'/></span> <span data-tooltip='Backup Beatdown (4th Job)'><img src='/class-icons/explorers/jett/backup-beatdown.png' alt='Skill Backup Beatdown'/></span> <span data-tooltip='Planet Buster (4th Job)'><img src='/class-icons/explorers/jett/planet-buster.png' alt='Skill Planet Buster'/></span> <span data-tooltip='Singularity Shock (Hyper Skill)'><img src='/class-icons/explorers/jett/singularity-shock.png' alt='Skill Singularity Shock'/></span>"
+        },
+        "moreInfo": [
+            "https://maplestorywiki.net/w/Jett"
+        ],
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability", "Maple Central"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/J6Wfj8CdD4nwIYLUTL/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/VayRNXpTWkvAKU1krJ/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/VNmkiRcq9E6ldOhyv1/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Return to Spaceship",
+                    "shortDesc": "Move to Jett's spaceship when used.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/return-to-spaceship.png"],
+                    "animations": ["https://media0.giphy.com/media/tCX7FnYC1DoSyoFduP/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Starline One",
+                        "shortDesc": "MP Cost: 16, Max Enemies Hit: 6, Damage: 135%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/starline-one.png"],
+                        "animations": ["https://media1.giphy.com/media/Lo0ytWbtRAnkaPb8Vt/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Punches forward several times"
+                    },
+                    {
+                        "name": "Blaster Barrage",
+                        "shortDesc": "MP Cost: 5, Damage: 170%, Range: 380",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/jett/blaster-barrage.png"],
+                        "animations": ["https://media3.giphy.com/media/H27AsK5LJq6ONKrqZg/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Continuously fires a barrage of bullets",
+                        "details": [
+                            "You can move while casting"
+                        ]
+                    },
+                    {
+                        "name": "Space Walk",
+                        "shortDesc": "MP Cost: 5, Jump distance increases with level. Press the jump and any arrow key in the air to jump again.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/jett/space-walk.png"],
+                        "animations": ["https://media1.giphy.com/media/UUsOr8sO0wQVvYpc0a/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "name": "Seasoned Hunter",
+                        "shortDesc": "Range: +80, Attack Power: +20, Jump: +20, Speed: +40, Max Speed increased by 20.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/jett/seasoned-hunter.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Galactic Might",
+                        "shortDesc": "MP Cost: 35, Attack Speed: +2, Duration: 180 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/galactic-might.png"],
+                        "animations": ["https://media0.giphy.com/media/gaU3aR9a90je8DqJj8/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Starline Two",
+                        "shortDesc": "MP Cost: 16, Max Enemies Hit: 8, Damage: 200%, Stun Chance: 50%, Stun Duration: 3 sec, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/starline-two.png"],
+                        "animations": ["https://media0.giphy.com/media/Vzf022N4LEgFyvxhQK/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a laser forward that has a chance to stun enemies"
+                    },
+                    {
+                        "name": "Stellar Impact",
+                        "shortDesc": "MP Cost: 55, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 4, Enemies that are hit will be launched in the air, where upon attacking them will increase Final Damage by 25% for 30 sec.\\nCooldown: 8 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/jett/stellar-impact.png"],
+                        "animations": ["https://media0.giphy.com/media/QWAcD8VxtMyDDubtzn/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Smashes the ground creating shockwaves that damages and debuffs enemies hit",
+                        "details": [
+                            "<strong>[Debuff]</strong>: Enemies take increased %Final Damage"
+                        ]
+                    },
+                    {
+                        "name": "Vortex Cross",
+                        "shortDesc": "MP Cost: 25, Damage: 100%, Number of Attacks: 1, Max Enemies Hit: 6\\nYou will move upwards while pressing the Up arrow key.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/jett/vortex-cross.png"],
+                        "animations": ["https://media2.giphy.com/media/RIGuq4PoPS2DDfr1Xk/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while dealing damage",
+                        "details": [
+                            "Holding the Up Arrow Key while casting will move you upwards"
+                        ]
+                    },
+                    {
+                        "name": "Bounty Chaser",
+                        "shortDesc": "Critical Rate: +20%, Damage: +25%, STR: +40, DEX: +40",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/bounty-chaser.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Gun Mastery",
+                        "shortDesc": "Gun Mastery: 60%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/gun-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Cosmic Shield",
+                        "shortDesc": "Permanently increase STR: +50, DEX: +50, Knockback Resistance: +50%, Max HP: +50%, Max MP: +50%",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/explorers/jett/cosmic-shield.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Starline Three",
+                        "shortDesc": "MP Cost: 45, Max Enemies Hit: 8, Damage: 270%, Number of Attacks: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/starline-three.png"],
+                        "animations": ["https://media0.giphy.com/media/QyWBdUQLmGKs6Hq8by/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dashes forward while pushing enemies along with you"
+                    },
+                    {
+                        "name": "Falling Stars",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 350%, Number of Attacks: 5.\\nCooldown: 8 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/falling-stars.png"],
+                        "animations": ["https://media2.giphy.com/media/jtipy41TYAlywMTgi5/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap into the air and fire a barrage of bullets in front of you"
+                    },
+                    {
+                        "name": "Turret Deployment",
+                        "shortDesc": "MP Cost: 18, Max Enemies Hit: 1, Turret Damage: 300%, Summon Duration: 30 sec, Cooldown: 10 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/jett/turret-deployment.png"],
+                        "animations": ["https://media1.giphy.com/media/XuRFM3OvHLkHOrx1dk/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons a stationary turret that attacks nearby enemies "
+                    },
+                    {
+                        "name": "Cosmic Upheaval",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 10, Damage: 100%, Number of Attacks: 3, Number of Enemies Pulled After Attack: 10\\nCooldown: 3 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/jett/cosmic-upheaval.png"],
+                        "animations": ["https://media2.giphy.com/media/Ihz7Lq5Iewb6jcZ0UY/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls in and damages nearby enemies"
+                    },
+                    {
+                        "name": "Slipstream Suit",
+                        "shortDesc": "DEX: +45%, Final Damage: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/slipstream-suit.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Spatial Shift",
+                        "shortDesc": "MP Cost: 32, Max Enemies Hit: 8, Damage: 140%, Number of Attacks: 2.\\nPress the Up arrow key to move forward+upward, and press the Down arrow key to move to the forward+downward.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/jett/spatial-shift.png", "/class-icons/explorers/jett/vortex-cross.png"],
+                        "animations": ["https://media2.giphy.com/media/LrREWxb9hBA4ZMCLC7/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack",
+                            "Can now be used in the air",
+                            "You can move upwards and downwards in the air by pressing the Up or Down Arrow Keys and Skill Key together"
+                        ]
+                    },
+                    {
+                        "name": "Blaster Overdrive",
+                        "shortDesc": "Critical Rate: +15%, Weapon ATT: +25%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/blaster-overdrive.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Clairvoyant",
+                        "shortDesc": "Enemy Defense Ignored: 25%, Damage: +15%",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/explorers/jett/clairvoyant.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "Starforce Salvo",
+                        "shortDesc": "MP Cost: 18, Damage per Shot: 300%.\\nWhile pressing the skill key, use the arrow keys to move",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/jett/starforce-salvo.png"],
+                        "animations": ["https://media0.giphy.com/media/Rki3Xk2cIbnV2DmYb3/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "Continuously fires a barrage of bullets",
+                        "details": [
+                            "You can move and jump while casting"
+                        ]
+                    },
+                    {
+                        "name": "Backup Beatdown",
+                        "shortDesc": "MP Cost: 12, Max Enemies Hit: 8, Damage: 450%, Number of Attacks: 4\\nWhile pressing the skill key, use the arrow keys to move.\\nWhen the duration ends or when the key is released, bonus attacks with 1200% damage will be activated automatically.\\nCooldown: 60 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/jett/backup-beatdown.png"],
+                        "animations": ["https://media1.giphy.com/media/KzbcztbQ69j7PK7gEq/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "While held, unleashes a flurry of attacks around your character",
+                        "details": [
+                            "At the end of the attack, you deal a final punch attack",
+                            "You can move and jump while casting"
+                        ]
+                    },
+                    {
+                        "name": "Planet Buster",
+                        "shortDesc": "MP Cost: 50, Damage: 470%, Number of Attacks: 5, Max Enemies Hit: 10",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/jett/planet-buster.png"],
+                        "animations": ["https://media1.giphy.com/media/YMH7ChethcIwHvLb1c/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Creates a powerful explosion in front of you"
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media4.giphy.com/media/6LUD5S4gyYuxivRWxj/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    },
+                    {
+                        "name": "Starfall",
+                        "shortDesc": "MP Cost: 650, Damage: 425%, Max Enemies Hit: 15, Number of Attacks: 10\\nCooldown: 30 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/jett/starfall.png"],
+                        "animations": ["https://media2.giphy.com/media/gJiB7wNjAcZRP1035P/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launches a massive attack that hits a large area"
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media1.giphy.com/media/QPXjFDIQcjMJyf9DHt/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "name": "Gravity Booster",
+                        "shortDesc": "All Stats: +25, Critical Rate: +20%, Knockback Resistance: +50%, Boss Damage: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/gravity-booster.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Strikeforce Showdown",
+                        "shortDesc": "Activation chance during Starforce Salvo and Backup Beatdown: 10%, Damage: 450%, Number of Additional Attacks: 10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/jett/strikeforce-showdown.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Upon striking an enemy with <span data-tooltip='Starforce Salvo (4th Job)'><img src='/class-icons/explorers/jett/starforce-salvo.png' alt='Skill Starforce Salvo'/></span> or <span data-tooltip='Backup Beatdown (4th Job)'><img src='/class-icons/explorers/jett/backup-beatdown.png' alt='Skill Backup Beatdown'/></span>, there is a chance to deal an additional attack"
+                    },
+                    {
+                        "name": "Giga Blaster",
+                        "shortDesc": "Mastery: +70%, Critical Damage: +30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/giga-blaster.png", "/class-icons/explorers/jett/gun-mastery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now increases %Crit Damage"
+                        ]
+                    },
+                    {
+                        "name": "Invincibility",
+                        "shortDesc": "Damage: +11%, Max HP: +40%, DEF: +25%, Abnormal Status Resistance: +20%, All Elemental Resistances: +20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/jett/invincibility.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Jett Supreme Enhancement",
+                        "shortDesc": "Permanently increase Attack Power: +30, Final Damage: +10%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/jett/jett-supreme-enhancement.png"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Backup Beatdown - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/backup-beatdown-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Backup Beatdown - Spread",
+                    "shortDesc": "Monsters Hit: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/backup-beatdown-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Backup Beatdown - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/backup-beatdown-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Starforce Salvo - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/starforce-salvo-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Starforce Salvo - Range",
+                    "shortDesc": "Increases range to 50",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/starforce-salvo-range.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Starforce Salvo - Boss Rush",
+                    "shortDesc": "20% additional damage against bosses",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/starforce-salvo-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Planet Buster - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/planet-buster-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                },
+                {
+                    "name": "Planet Buster - Guardbreak",
+                    "shortDesc": "Ignore Enemy Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/planet-buster-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Planet Buster - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/planet-buster-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Bionic Resilience",
+                    "shortDesc": "MP Cost: 300, Duration: 30 sec., Status Resistance: +100, Elemental Resistance: +100%, Attack Power: +50, Strikeforce Showdown Activation Rate: +10%\\nCooldown: 180 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/bionic-resilience.png"],
+                    "animations": ["https://media0.giphy.com/media/mR5DVAIgueV48kZ0xv/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "details": [
+                        "While active, <span data-tooltip='Strikeforce Showdown (4th Job)'><img src='/class-icons/explorers/jett/strikeforce-showdown.png' alt='Skill Strikeforce Showdown'/></span> has an increased chance to activate"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Singularity Shock",
+                    "shortDesc": "MP Cost: 300, Damage: 300%, Number of Attacks: 15, Number of Activation(s): 5, Max Enemies Hit: 1, Stun Chance: 80%, Stun Duration: 3 sec. Last Hit: Attack 10 enemies with 500% damage 5 times.\\nCooldown: 30 sec., Additional Critical Rate: 100%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/singularity-shock.png"],
+                    "animations": ["https://media.giphy.com/media/zp587ivHlGljUVKhBg/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Creates a massive explosion that damages nearby enemies and inflicts a damaging debuff",
+                    "details": ["Attack is a guaranteed Critical Hit and has a chance to stun enemies"],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Rising Cosmos",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/jett/rising-cosmos.png"],
+                    "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
+                    "type": "Party Buff",
+                    "desc": "",
+                    "details": ["Affects all party members"],
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expPirate", "goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Gravity Crush",
+                    "shortDesc": "MP Cost: 1000, Draw in up to 8 enemies in range, stunning them, and create a singularity which periodically deals 505% damage. Number of attacks: 10.\\nSingularity Duration: 10 sec. When the skill duration ends or the skill is used again, the singularity explodes dealing 680% AoE damage across a wide area 4 time(s).",
+                    "icons": ["/class-icons/explorers/jett/gravity-crush.png"],
+                    "animations": ["https://media3.giphy.com/media/f3okH4r3DiUWx30CzA/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Creates a vortex that pulls in and damages nearby enemies",
+                    "details": [
+                        "Pressing the Skill Key again will end the skill early",
+                        "At the end of the skill, the vortex will explode dealing massive damage",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Suborbital Strike",
+                    "shortDesc": "MP Cost: 1000, Summons drones for 90 sec. The drones have two modes of operation, and you can switch between them every 3 sec. Drone attacks prioritize the enemy with the highest Max HP within range.\\n[Beam Splitter] The drones hover above 4 targets within range, and fire downward periodically dealing 450% damage to up to 8 enemies 4 times.\\n[Beam Amplifier] Drone hovers over 1 target within range and blasts downward periodically dealing 365% damage to up to 10 enemies 10 times.\\nCooldown: 180 sec",
+                    "icons": ["/class-icons/explorers/jett/suborbital-strike.png"],
+                    "animations": ["https://media2.giphy.com/media/Ma52Bv2nronccH2FMD/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons drones above your character that damages nearby enemies",
+                    "details": [
+                        "The drones has two modes that can be switched between using the Skill Key<ul><li><strong>[Beam Splitter]</strong>: Drones hover above several enemies and damages them</li><li><strong>[Beam Aplifier]</strong>: Drones hover over a single target and damages them</li></ul>",
+                        "The drones will prioritize enemies with the highest max HP",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Allied Fury",
+                    "shortDesc": "MP Cost: 60, summons fellow bounty hunters to attack enemies and mark any enemies that are not defeated, Max Enemies Hit: 15, Damage: 500%, Number of Attacks: 10.\\nAttacks marked enemies with an airship for 600% damage 8 times.\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/explorers/jett/allied-fury.png"],
+                    "animations": ["https://media3.giphy.com/media/cnivIQg0T3sIkCPuwU/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Allies appear to strike down enemies before an airship comes to deliver a final attack",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Anti-Gravity Cycle SFF-X Summon",
+                    "shortDesc": "MP Cost: 1000, Forms a protective shield, equivalent to 900% of max HP and immune to knockback, for 42 sec. Final Damage: +14%\\nIf you press the skill key again, you will launch an All-Out Barrage, attacking up to 15 enemies for 900% damage 10 time(s) per volley, numbering 3 volley(s) in total. All-Out Barrage Cooldown: 5 sec\\nCooldown: 180 sec",
+                    "icons": ["/class-icons/explorers/jett/anti-gravity-cycle.png"],
+                    "animations": ["https://media0.giphy.com/media/sr9I4YvXzQwC6IChX8/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summons a flying vehicle allowing you to fly around and fire lasers at enemies",
+                    "details": [
+                        "While active, gain increased %Final Damage, 100% Knockback Resistance, and a damage shield based on your %Max HP",
+                        "While riding, only certain skills can be used like <span data-tooltip='Starforce Salvo (4th Job)'><img src='/class-icons/explorers/jett/starforce-salvo.png' alt='Skill Starforce Salvo'/></span> and <span data-tooltip='Planet Buster (4th Job)'><img src='/class-icons/explorers/jett/planet-buster.png' alt='Skill Planet Buster'/></span>",
+                        "Pressing the Skill Key will fire a barrage of lasers forward"
+                    ]
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Space Walk - 1st Job",
+                "icons": ["/class-icons/explorers/jett/space-walk.png"],
+                "animations": ["https://media1.giphy.com/media/UUsOr8sO0wQVvYpc0a/giphy.gif"]
+            },
+            {
+                "name": "Backup Beatdown - 4th Job",
+                "icons": ["/class-icons/explorers/jett/backup-beatdown.png"],
+                "animations": ["https://media1.giphy.com/media/KzbcztbQ69j7PK7gEq/giphy.gif"]
+            },
+            {
+                "name": "Starline Salvo - 4th Job",
+                "icons": ["/class-icons/explorers/jett/starforce-salvo.png"],
+                "animations": ["https://media0.giphy.com/media/Rki3Xk2cIbnV2DmYb3/giphy.gif"]
+            },
+            {
+                "name": "Planet Buster - 4th Job",
+                "icons": ["/class-icons/explorers/jett/planet-buster.png"],
+                "animations": ["https://media1.giphy.com/media/YMH7ChethcIwHvLb1c/giphy.gif"]
+            },
+            {
+                "name": "Singularity Shock - Hyper Skill",
+                "icons": ["/class-icons/explorers/jett/singularity-shock.png"],
+                "animations": ["https://media.giphy.com/media/zp587ivHlGljUVKhBg/giphy.gif"]
+            },
+            {
+                "name": "Gravity Crush - 5th Job",
+                "icons": ["/class-icons/explorers/jett/gravity-crush.png"],
+                "animations": ["https://media3.giphy.com/media/f3okH4r3DiUWx30CzA/giphy.gif"]
+            },
+            {
+                "name": "Allied Fury - 5th Job",
+                "icons": ["/class-icons/explorers/jett/allied-fury.png"],
+                "animations": ["https://media3.giphy.com/media/cnivIQg0T3sIkCPuwU/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Jett is a DEX pirate class part of the Explorers class group. Although Jetts are categorized with Explorers, Jetts are not connected to Explorer classes at all and cannot Job Change to an Explorer Pirate. They do, however, share Cash Shop Inventories with Explorer classes"
+}

@@ -1,0 +1,1098 @@
+{
+    "class": "Paladin",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat STR",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["oneHSword", "twoHSword", "oneHBlunt", "twoHBlunt"]},
+            {"secondary": ["rosary", "warShield"]}
+        ],
+        "innerAbility": [
+            {
+                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "[1H] 1.24x [2H] 1.34x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "[1H] 8 [2H] 7",
+                "detail": "<bg val={Stage 5 for 1H / Stage 4 for 2H}> <bg src={/class-icons/explorers/paladin/agile-arms.png} tip={Agile Arms (2nd Job)} val={+2}> <bg src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "91-94%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/explorers/paladin/high-paladin.png} tip={High Paladin (4th Job)} val={+71% (+3% if [1H] Sword is equipped)}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+50(80) & +16%(416%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/paladin/agile-arms.png} tip={Agile Arms (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+16% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +120",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/paladin/parashock-guard.png} tip={Parashock Guard (3rd Job)} val={+20}> <bg src={/class-icons/explorers/paladin/shield-mastery.png} tip={Shield Mastery (3rd Job)} val={+20}> <bg src={/class-icons/explorers/paladin/divine-shield.png} tip={Divine Shield (3rd Job)} val={+20}> <bg src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light (4th Job)} val={+60}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+47%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/paladin/high-paladin.png} tip={High Paladin (4th Job)} val={+42%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+22-23%",
+                "detail": "<bg src={/class-icons/explorers/paladin/high-paladin.png} tip={High Paladin (4th Job)} val={+17% & (+6% if [1H] Sword is equipped) / (+5% if [2H] Sword or Blunt Weapon is equipped)}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+31%(61%)",
+                "detail": "<bg src={/class-icons/link-skills/invincible-belief.png} tip={Invincible Belief (Link Skill)} val={+6%}> <bg src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light (4th Job)} val={+25%}--> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+65.77%(207.50%)",
+                "detail": "<bg src={/class-icons/explorers/paladin/divine-blessing.png} tip={Divine Blessing (4th Job)} val={+21%}> × <bg src={/class-icons/explorers/paladin/high-paladin.png} tip={High Paladin (4th Job)} val={+37%}> × <bg type={temp} src={/class-icons/explorers/paladin/divine-echo.png} tip={Divine Echo (5th Job)} val={+75%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+31%(71.02%)(73.92% w/ Blunt Weapon)",
+                "detail": "<bg src={/class-icons/explorers/paladin/high-paladin.png} tip={High Paladin (4th Job)} val={+31% ( × +10% if Blunt Weapon equipped)}> × <bg type={debuff} src={/class-icons/explorers/paladin/noble-demand.png} tip={Noble Demand (3rd Job)} val={+50%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "defenseStats": [
+            {
+                "name": "Abnormal Status Resistance",
+                "stat": "+50(~130)",
+                "detail": "<bg src={/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)} val={+2 per stack up to +10}> <bg src={/class-icons/explorers/paladin/shield-mastery.png} tip={Shield Mastery (3rd Job) val={+40}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+80}>"
+            },
+            {
+                "name": "Knockback Resistance",
+                "stat": "+100%",
+                "detail": "<bg src={/class-icons/explorers/warrior/warrior-mastery.png} tip={Warrior Mastery (1st Job)} val={+40%}> <bg src={/class-icons/common/power-stance.png tip={Power Stance (4th Job)} val={+60%}>"
+            },
+            {
+                "name": "Defense",
+                "stat": "+250% +620",
+                "detail": "<bg src={/class-icons/explorers/paladin/shield-mastery.png} tip={Shield Mastery (3rd Job)} val={+250%}> <bg src={/class-icons/explorers/warrior/iron-body.png} tip={Iron Body (1st Job)} val={+200}> <bg src={/class-icons/explorers/paladin/high-paladin.png} val={Shield Mastery (3rd Job)} val={+420}>"
+            },
+            {
+                "name": "Damage Reduction (Non-Max HP)",
+                "stat": "-50%(~100%)",
+                "detail": "<bg src={/class-icons/explorers/warrior/iron-body.png} tip={Iron Body (1st Job)} val={-10%}> <bg src={/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)} val={-2% per stack up to -10%}> <bg src={/class-icons/explorers/paladin/achilles.png} tip={Achilles (3rd Job) val={-30%}> <bg type={temp} src={/class-icons/explorers/paladin/grand-guardian.png} tip={Grand Guardian (5th Job)} val={-50%}>"
+            }
+        ],
+        "movementStats": [
+        ],
+        "secondaryAttacks": [
+        ],
+        "utilityStats": [
+            {
+                "name": "Buff Disable & Cancel",
+                "detail": "<bg type={temp} src={/class-icons/explorers/paladin/magic-crash.png} tip={Magic Crash (4th Job)} val={Limits monster buff effects for 22 secs}>"
+            }
+        ],
+        "buffInfo": {
+            "auto": "<bg src={/class-icons/explorers/paladin/combat-orders.png} tip={Combat Orders (3rd Job)} val={200s}> <bg src={/class-icons/explorers/paladin/divine-blessing.png} tip={Divine Blessing (4th Job)} val={200s}>",
+            "debuffs": "<bg src={/class-icons/explorers/paladin/noble-demand.png} tip={Noble Demand (3rd Job)} val={80s}>",
+            "other": "<bg src={/class-icons/explorers/paladin/hp-recovery.png} tip={HP Recovery (3rd Job)} val={Self-Heal}>",
+            "mini": "<bg src={/class-icons/explorers/paladin/divine-echo.png} tip={Divine Echo (5th Job)} val={30s}>",
+            "full": "<bg src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={60s}> <bg src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={130s}> <bg src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={60s}> <bg src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={18s}>",
+            "etcCooldown": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={Hero's Echo}> <bg src={/class-icons/common/heros-will.png} tip={Hero's Will (4th Job)} val={Hero's Will}>",
+            "binds": "<bg src={/class-icons/explorers/paladin/smite-shield.png} tip={Smite Shield (Hyper Skill)} val={10s} val={Class Bind}> <bg src={/class-icons/explorers/paladin/sacred-bastion.png} tip={Sacred Bastion (6th Job)} val={10s} val={Origin Skill}>",
+            "iFrame": "<bg src={/class-icons/explorers/paladin/guardian.png} tip={Guardian (4th Job)} val={10s upon reviving party member} val={600s cd}> <bg src={/class-icons/explorers/paladin/sacrosanctity.png} tip={Sacrosanctity (Hyper Skill)} val={30s} val={300-75s cd based on remaining duration}> <bg src={/class-icons/explorers/paladin/sacred-bastion.png} tip={Sacred Bastion (6th Job)} val={Origin Skill}> <bg src={https://grandislibrary.com/class-icons/explorers/paladin/dominus-oblivion.png} tip={Dominus Oblivion (6th Job)} val={Ascent Skill}>",
+            "damageReduce": "<bg src={/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)} val={While active, -10%}> <bg src={/class-icons/explorers/paladin/divine-shield.png} tip={Divine Shield (3rd Job)} val={90s/10 hits, -25%} val={30s cd}> <bg src={/class-icons/explorers/paladin/grand-guardian.png} tip={Grand Guardian (5th Job)} val={Max. 4s, -50%} val={120s cd}> <bg src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} val={5s, 21% HP Barrier} val={15s cd}>",
+            "knockback": "<bg src={/class-icons/explorers/paladin/rush.png} tip={Rush (3rd Job)}> <bg src={/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)} val={(15s cd)}> <bg src={/class-icons/explorers/paladin/grand-guardian.png} tip={Grand Guardian (5th Job)} val={(120s cd)}> <bg src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={[18s](120s cd)}>"
+        },
+        "linkSkill": {
+            "offline": true,
+            "name": "Invincible Belief",
+            "maxLevel": 9,
+            "shortDesc": "Automatically activates when your health falls to 15% of your Max HP or below. Restores 44% of Max HP every 1 sec for 3 sec\\nCooldown: 90 sec.",
+            "icons": ["/class-icons/link-skills/invincible-belief.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/warrior/war-leap-1.png} tip={War Leap}> -> <tt src={/class-icons/explorers/warrior/iron-body.png} tip={Iron Body}> -> <tt src={/class-icons/explorers/warrior/warrior-mastery.png} tip={Warrior Mastery}> -> <tt src={/class-icons/explorers/warrior/slash-blast.png} tip={Slash Blast}>"],  
+                ["2nd Job", "<tt src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery}> -> <tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/paladin/agile-arms.png} tip={Agile Arms}> -> <tt src={/class-icons/explorers/paladin/divine-swing.png} tip={Divine Swing}> -> <tt src={/class-icons/common/power-stance.png} tip={Knockback Resistance}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack}> -> <tt src={/class-icons/explorers/paladin/close-combat.png} tip={Close Combat}>"],  
+                ["3rd Job", "<tt src={/class-icons/explorers/paladin/divine-shield.png} tip={Divine Shield}> -> <tt src={/class-icons/explorers/paladin/achilles.png} tip={Achilles}> -> <tt src={/class-icons/explorers/paladin/shield-mastery.png} tip={Shield Mastery}> -> <tt src={/class-icons/explorers/paladin/parashock-guard.png} tip={Parashock Guard}> -> <tt src={/class-icons/explorers/paladin/hp-recovery.png} tip={HP Recovery}> -> <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Combat Orders}> -> <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge}> -> <tt src={/class-icons/explorers/paladin/rush.png} tip={Rush}> -> <tt src={/class-icons/explorers/paladin/noble-demand.png} tip={Noble Demand}>"],  
+                ["4th Job", "<tt src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light}> -> <tt src={/class-icons/explorers/paladin/high-paladin.png} tip={High Paladin}> -> <tt src={/class-icons/explorers/paladin/divine-blessing.png} tip={Divine Blessing}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment}> -> <tt src={/class-icons/explorers/paladin/divine-mark.png} tip={Divine Mark}> -> <tt src={/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer}> -> <tt src={/class-icons/explorers/paladin/blast.png} tip={Blast}> -> <tt src={/class-icons/explorers/paladin/magic-crash.png} tip={Magic Crash}> -> <tt src={/class-icons/explorers/paladin/guardian.png} tip={Guardian}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/explorers/paladin/blast-reinforce.png} tip={Blast - Reinforce}> <tt src={/class-icons/explorers/paladin/blast-extra-strike.png} tip={Blast - Extra Strike}> Blast - Reinforce and Extra Strike_<tt src={/class-icons/explorers/paladin/heavens-hammer-reinforce.png} tip={Heaven's Hammer - Reinforce}> <tt src={/class-icons/explorers/paladin/heavens-hammer-cooldown-cutter.png} tip={Heaven's Hammer - Cooldown Cutter}> <tt src={/class-icons/explorers/paladin/heavens-hammer-extra-strike.png} tip={Heaven's Hammer - Extra Strike}> Heaven's Hammer - Reinforce, Cooldown Cutter, and Extra Strike_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> <tt src={/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment (4th Job) / Divine Mark (4th Job)}> <tt src={/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)}> "],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/explorers/paladin/smite-shield.png} tip={Smite Shield (Hyper Skill)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4, 5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> <tt src={/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment (4th Job)}>",
+                "<tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> <tt src={/class-icons/explorers/paladin/divine-mark.png} tip={Divine Mark (4th Job)}>",
+                "<tt src={/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)}>",
+                "<tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/explorers/paladin/smite-shield.png} tip={Smite Shield (Hyper Skill)}>",
+                "<tt src={/class-icons/explorers/warrior/leap-attack.png} tip={Leap Attack (1st Job)}> <tt src={/class-icons/explorers/paladin/rush.png} tip={Rush (3rd Job)}>",
+                "<tt src={/class-icons/explorers/paladin/divine-swing.png} tip={Divine Swing (2nd Job)}> <tt src={/class-icons/explorers/paladin/close-combat.png} tip={Close Combat (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Paladin"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%ED%8C%94%EB%9D%BC%EB%94%98(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"}, 
+            {"title": "Class Discord", "link": "https://discord.gg/7qyGfmtRt2"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1aAQV9QGR4UywDGhQq1O3X7blXADPGDMvgDIAKfCmrH8"}
+        ],
+        "infographics": [
+            {
+                "src": "/paladin/paladin-overview.png",
+                "title": "Overview",
+                "credit": "Paladin Discord",
+                "date": "2026-09-08"
+            },
+            {
+                "src": "/paladin/paladin-6th-job.png",
+                "title": "6th Job",
+                "credit": "Paladin Discord",
+                "date": "2026-09-04"
+            },
+            {
+                "src": "/paladin/paladin-link-skills.png",
+                "title": "Link Skills",
+                "credit": "Paladin Discord",
+                "date": "2026-09-04"
+            }
+        ],
+        "specialThanks": "In honor of 5mayday/UltimateNPC and special thanks to Vaiur, Rorik, and the Paladin Discord for their help in making this overview!",
+        "discord": "https://discord.gg/7qyGfmtRt2",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
+            ["5th Job Skills Animation", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Vessel of Light",
+            "content": [
+                "In 2nd Job, you unlock the passive, <tt src={/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)}> Vessel of Light, that provides a stacking buff each time a 'Holy Power' skill is used",
+                "Below are a list of all 'Holy Power' skills:",
+                "<bp_<tt src={/class-icons/explorers/paladin/divine-swing.png} tip={Divine Swing (2nd Job)}> Divine Swing (2nd Job)_<tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Swing (3rd Job}> Divine Charge (3rd Job)_<tt src={/class-icons/explorers/paladin/divine-mark.png} tip={Divine Mark (4th Job)}> Divine Mark (4th Job)_<tt src={/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> Blast (4th Job)_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Invincible Belief",
+                    "maxLevel": 9,
+                    "shortDesc": "Automatically activates when your health falls to 15% of your Max HP or below. Restores 44% of Max HP every 1 sec for 3 sec\\nCooldown: 90 sec.\\n[Passive Effect: Damage +6%]",
+                    "icons": ["/class-icons/link-skills/invincible-belief.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "For Explorer Warriors, also permanently increases %Damage",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/QATzK4sHCS9Yfc8N8O/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/1m1wKmKLteSkc1QMWb/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/PlLfjB1cD0nZJLwvm7/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/p8EhEWYhXpEDBsPZnz/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnE4ZHg1YjZncDM3MTl1MWRrdm1pczR2eWJhcm4xbTQzZWh6cmt3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bNO6l2T53vJmrKPGyn/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                    "name": "Slash Blast",
+                    "shortDesc": "MP Cost: 6, Damage: 335%, Max Enemies Hit: 6",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/warrior/slash-blast.png"],
+                    "animations": ["https://media.giphy.com/media/YPlEazYypAhlFaf6Ta/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slash forward at multiple enemies"
+                },
+                {
+                    "name": "War Leap",
+                    "shortDesc": "MP Cost: 11, allows you to jump a greater distance",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/explorers/warrior/war-leap-1.png", "/class-icons/explorers/warrior/war-leap-2.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGM0ZjB0ZWowMmc5bHo3czVycHlpZnIxOW9tZnNlZHFqdXhqOGF6YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SYk0oNpUfGmwqNj4lQ/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice"
+                    ]
+                },
+                {
+                    "name": "Leap Attack",
+                    "shortDesc": "MP Cost: 5, Damage: 90%, Number of Attacks: 2, Max Enemies Hit: 4",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/warrior/leap-attack.png"],
+                    "animations": ["https://media.giphy.com/media/0UrHcm9WJ7WO7l0jtz/giphy.gif"],
+                    "type": "Attack / Utility",
+                    "desc": "Dive downwards towards nearby platforms below",
+                    "details": [
+                        "Can only be used while in the air",
+                        "Use the Left or Right Arrow Keys to dive towards the given direction",
+                        "Can also be activated by pressing the Down, Left, or Right Arrow Key and Attack Key together"
+                    ]
+                },
+                {
+                    "name": "Iron Body",
+                    "shortDesc": "DEF: +200, Max HP: +20%, Damage Taken: -10%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/warrior/iron-body.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Warrior Mastery",
+                    "shortDesc": "Speed: 22, Jump: 10, Max Speed: 20, Max HP Per Level: 20, Knockback Resistance: +40%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/warrior/warrior-mastery.png"],
+                    "type": "Passive"
+                }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Divine Swing",
+                        "shortDesc": "MP Cost: 30, Damage: 160%, Number of Attacks: 4, Max Enemies Hit: 6, Stun Chance: 90%, Stun Duration: 6 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/paladin/divine-swing.png"],
+                        "animations": ["https://media.giphy.com/media/go2j5fxKj5ERoPW7Bc/giphy.gif"],
+                        "type": "Holy Power Attack",
+                        "desc": "Swing forward with a chance to stun enemies hit"
+                    },
+                    {
+                        "name": "Vessel of Light",
+                        "shortDesc": "Whenever you use a Holy Power skill, Damage and HP Recovery: +10% (excludes healing from potions), Attack Power: +40, Status Resistance: +10, Damage Taken: -10% (includes damage proportional to Max HP).",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/paladin/vessel-of-light.png"],
+                        "type": "Passive",
+                        "desc": "Using a Holy Power attacks grants a buff",
+                        "details": [
+                            "[Buff]: Grants flat Attack and increases %Damage and %HP Recovery (excluding potions), Abnormal Status Resistance, and %Damage Reduction including %Max HP attacks"
+                        ]
+                    },
+                    {
+                        "name": "Close Combat",
+                        "shortDesc": "MP Cost: 20. Max Enemies Hit: 8, Damage: 125%, Number of Attacks: 2. 80% chance to stun enemies for 4 sec., and Speed -20 for 6 sec., after drawing them toward you.",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/paladin/close-combat.png"],
+                        "animations": ["https://media.giphy.com/media/N2eiRRuozdnFxhdCcu/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls in enemies from both left and right with a chance to stun and slow enemies"
+                    },
+                    {
+                        "name": "Agile Arms",
+                        "shortDesc": "Attack Speed: +2, STR: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/paladin/agile-arms.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Knockback Resistance",
+                        "shortDesc": "Knockback Resistance: +60%.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/power-stance.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Weapon Mastery",
+                        "shortDesc": "Sword and Blunt Weapon Mastery: +50%, Attack Speed: +1",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/weapon-mastery-sword.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Final Attack",
+                        "shortDesc": "[Final Attack Skills] Grant a 40% chance to deal 80% Final Attack damage 2 time(s).",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/final-attack.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful attacks have a chance to deal an additional hit"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Divine Charge",
+                        "shortDesc": "MP Cost: 35. Max Enemies Hit: 8, Damage: 310%, Number of Attacks: 4, Silence Chance: 100%, Silence Duration: 10 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/paladin/divine-charge.png"],
+                        "animations": ["https://media.giphy.com/media/3r7I0xVxQX7W8V7JiH/giphy.gif"],
+                        "type": "Holy Power Attack",
+                        "desc": "Slam forward while silencing enemies hit"
+                    },
+                    {
+                        "name": "HP Recovery",
+                        "shortDesc": "MP Cost: 40. Instantly recovers 50% of Max HP. If used repeatedly within 15 sec, recovery amount decreases by 10%, Minimum HP recovery amount 10%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/paladin/hp-recovery.png"],
+                        "animations": ["https://media.giphy.com/media/ZRo2ruCLSXY1iEzrit/giphy.gif"],
+                        "type": "Active Heal",
+                        "desc": "",
+                        "details": [
+                            "When used repeatedly within a short period, each cast will recover less HP (min. 10%)"
+                        ]
+                    },
+                    {
+                        "name": "Rush",
+                        "shortDesc": "MP Cost: 20, Damage: 305%, Max Enemies Pushed: 12",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/paladin/rush.png"],
+                        "animations": ["https://media.giphy.com/media/D8a6IdsLzfGUf67BSa/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing enemies back",
+                        "details": [
+                            "While dashing, you will not be knocked back at all (Super Knockback Resistance)"
+                        ]
+                    },
+                    {
+                        "name": "Noble Demand",
+                        "shortDesc": "MP Cost: 24, Success Rate: 100%, Duration: 80 sec. Max Number of Enemies: 6, Enemy Attack and Defense: -50%, Accuracy: -50%, Duration (Accuracy): 8 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/paladin/noble-demand.png"],
+                        "animations": ["https://media.giphy.com/media/TmO2tNABdC3vx7iAms/giphy.gif"],
+                        "type": "Active Debuff",
+                        "desc": "Debuffs nearby enemies by reducing their %Attack, %DEF and %Accuracy",
+                        "details": [
+                            "Reduction to %DEF can be considered as %Ignore DEF"
+                        ]
+                    },
+                    {
+                        "name": "Parashock Guard",
+                        "shortDesc": "When nearby party members are hit (except yourself): Damage -20% and Guard Chance +20% , your Attack Power +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/paladin/parashock-guard.png"],
+                        "type": "Passive",
+                        "desc": "Grants flat Attack for self and nearby party members (excluding self) gain increased %Damage Reduction (against regular monsters) and a chance to guard"
+                    },
+                    {
+                        "name": "Combat Orders",
+                        "shortDesc": "MP Cost: 36, All Skills: +2 Levels, Duration: 200 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/paladin/combat-orders.png"],
+                        "animations": ["https://media.giphy.com/media/dnK15sq8OYBFRXSTeT/giphy.gif"],
+                        "type": "Party Buff",
+                        "desc": "Temporarily grants bonus skill levels to skills for all party members",
+                        "details": [
+                            "4th Job Skills can be raised past their Master Level",
+                            "[Exception]: Beginner skills, Combat Orders, Hyper Skills, 5th Job, and 6th Job Skills"
+                        ]
+                    },
+                    {
+                        "name": "Shield Mastery",
+                        "shortDesc": "When shield or rosary is equipped - Abnormal Status Resistance: +40, Elemental Resistance: +40%, Defense: +250%, Attack Power: +20, Guard Chance: 40%, Stun Chance on Guard: 60%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/paladin/shield-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Achilles",
+                        "shortDesc": "Damage Taken: -30%",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/explorers/paladin/achilles.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Divine Shield",
+                        "shortDesc": "Shield Chance (when hit): 100%, For 90 sec, Attack Power: +20, Enemy Blows Blocked: 10, Damage -25% only for attacks that inflict damage at a certain ratio of the max HP,\\nUnable to recreate Protective Shield for 30 sec once activated.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/paladin/divine-shield.png"],
+                        "type": "Passive",
+                        "desc": "When hit, create a shield that blocks attacks and grants flat Attack",
+                        "details": [
+                            "For attacks that deal %Max HP damage, reduces amount taken by a percentage",
+                            "Right-clicking the skill will toggle the visual effect on/off"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Divine Mark",
+                    "shortDesc": "Divine Mark MP Cost: 55. Cooldown: 7 sec. Max Enemies Hit: 10. Damage: 420%. Number of Attacks: 7. Leaves behind a divine brand of light at the target location, which explodes after a set duration, with a 100% chance to silence enemies for 10 sec.\\nDivine Mark Explosion: Deals 290% damage 5 times to up to 10 enemies. Deals 30% additional damage to normal enemies.\\n[Passive Effects: Divine Charge +100% points, Increases Range]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/paladin/divine-mark.png"],
+                    "animations": ["https://media.giphy.com/media/sEzVUqEwC8BAFGz6c2/giphy.gif", "https://media.giphy.com/media/jFSUOzBUJgfxIJ2CmN/giphy.gif"],
+                    "type": "Holy Power Passive",
+                    "desc": "Periodically enhances the next <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> to trigger a special attack that explodes shortly after",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage by a flat amount and range of <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}>",
+                        "Party members affected by <tt src={/class-icons/explorers/paladin/divine-echo.png} tip={Divine Echo (5th Job)}> can trigger the special attack however it will not explode",
+                        "Explosion deals increased %Damage to regular monsters",
+                        "Enemies hit are silence debuffed"
+                    ]
+                },
+                {
+                    "name": "Blast",
+                    "shortDesc": "MP Cost: 24, Damage: 340%, Number of Attacks: 10, Max Enemies Hit: 3",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/paladin/blast.png"],
+                    "animations": ["https://media.giphy.com/media/XVTJ3Z7fGoVnEQ1esM/giphy.gif"],
+                    "type": "Holy Power Attack",
+                    "desc": "Strike forward dealing a powerful blow"
+                },
+                {
+                    "name": "Divine Judgment",
+                    "shortDesc": "Each time an enemy is struck by your Blast skill, they receive a stack of Divine Brand.\\nDivine Brand Max Duration: 30 sec. When Divine Brand stacks 5 times, an explosion deals 622% damage 10 times to up to 1 enemies.\\nExplosion damage receives Ignore Defense +20%.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/paladin/divine-judgment.png"],
+                    "type": "Passive",
+                    "desc": "Enemies hit with <tt src={/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> receive a stacking debuff (up to 5 times)",
+                    "details": [
+                        "Party members affected by <tt src={/class-icons/explorers/paladin/divine-echo.png} tip={Divine Echo (5th Job)}> will not grant additional stacks",
+                        "Upon reaching 5 stacks, the debuff is consumed and deals damage to the enemy",
+                        "The attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Magic Crash",
+                    "shortDesc": "MP Cost: 15, 100% chance to remove enemies' buffs. Buff Block Duration: 22 sec\\nCooldown: 60 sec",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/paladin/magic-crash.png"],
+                    "animations": ["https://media.giphy.com/media/oGqoEaxLy9dk9bu0uG/giphy.gif"],
+                    "type": "Active Debuff",
+                    "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs",
+                    "details": [
+                        "Enemies affected by Magic Crash cannot be affected again for a short period",
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Heaven's Hammer",
+                    "shortDesc": "MP Cost: 60, Damage: 620%, Number of Attacks: 8, Max Enemies Hit: 15, Boss Damage: +30%\\nCooldown: 15 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/paladin/heavens-hammer.png"],
+                    "animations": ["https://media.giphy.com/media/ycBc2nKhR3EEx1XshM/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slam a hammer that damages enemies in a large area",
+                    "details": [
+                        "While casting, you will not be knocked back at all (Super Knockback Resistance)",
+                        "Deals increased %Damage towards bosses"
+                    ]
+                },
+                {
+                    "name": "Divine Blessing",
+                    "shortDesc": "MP Cost: 30, Final Damage: +20%, Duration: 200 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/paladin/divine-blessing.png"],
+                    "animations": ["https://media.giphy.com/media/YMUqz15f5bQajSPJ1h/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/4HVYKmaeuzwTEScebr/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/qMynVOfjiBaCuROCQU/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Guardian",
+                    "shortDesc": "Consumes 50 MP to revive your closest party member, then grant both of you invincibility for 10 sec.\\nCooldown: 600 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/paladin/guardian.png"],
+                    "animations": ["https://media.giphy.com/media/IqWFmEgoHjj1PE9FCO/giphy.gif"],
+                    "type": "Party Revive",
+                    "desc": "Revives one party member closest to you and grants both of you invincibility for a short time",
+                    "details": [
+                        "Consumes a Death Count for bosses"
+                    ]
+                },
+                {
+                    "name": "High Paladin",
+                    "shortDesc": "Mastery: +70%, DEF: +400, Critical Rate: +40%, Critical Damage: +17%, DEF Ignored: +30%, Final Damage: +35%\\nCritical Damage +6% and Mastery +3% when equipped with a One-Handed Sword\\nCritical Damage +5% when equipped with a Two-Handed Sword\\nCritical Damage +5%, DEF Ignored +10%, and Mastery +3% when equipped with a One-Handed Blunt weapon\\nCritical Damage +5% and DEF Ignored +10% when equipped with a Two-Handed Blunt weapon",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/paladin/high-paladin.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Weapon Mastery, %Crit Rate, %Crit Damage, %Ignore DEF, and %Final Damage and grants flat DEF",
+                    "details": [
+                        "Depending on the weapon equipped, gain additional %Crit Damage, %Ignore DEF and %Weapon Mastery"
+                    ]
+                },
+                {
+                    "name": "Greater Vessel of Light",
+                    "shortDesc": "Increases Divine Charge's max number of targets by 2. Increases Attack Count of Blast and Divine Charge by +1.\\nHoly Power Skill Damage and HP Recovery +25% (excludes healing from potions), Attack Power: +60, Status Resistance +10, Damage Taken -10% (includes damage proportional to Max HP).",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/paladin/greater-vessel-of-light.png", "/class-icons/explorers/paladin/vessel-of-light.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage and HP Recovery and Attack provided",
+                        "Additionally, permanently increases the max number of enemies hit by <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> and the number of attacks of <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> and <tt src={/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}>"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Divine Charge - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/divine-charge-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Divine Charge - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/divine-charge-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Divine Charge - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/divine-charge-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Blast - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/blast-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Blast - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/blast-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Blast - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/blast-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Heaven's Hammer - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/heavens-hammer-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Heaven's Hammer - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -30%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/heavens-hammer-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Heaven's Hammer - Extra Strike",
+                    "shortDesc": "Number of Attacks: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/heavens-hammer-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Sacrosanctity",
+                    "shortDesc": "MP Cost: 600, Invincibility Duration: 30 sec. When the skill ends, its cooldown is reduced by 45 sec. for every 5 sec. of remaining duration.\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/sacrosanctity.png"],
+                    "animations": ["https://media.giphy.com/media/V2CKYcrV2VxQ9SswkH/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "details": [
+                        "Pressing the Skill Key again will end the buff early<bp_The cooldown is reduced depending on the remaining duration_>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Smite Shield",
+                    "shortDesc": "MP Cost: 400, Enemies Hit: 15, Damage: 500%, Number of Attacks: 6, Stun Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Smite Shield.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/paladin/smite-shield.png"],
+                    "animations": ["https://media.giphy.com/media/MQamOIWofNBotLUhbl/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Binds nearby enemies and removes buffs to enemies hit",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/warrior/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/s6hZmWTGQ4UxELYZro/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expWarrior", "goddessBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Divine Echo",
+                    "shortDesc": "MP Cost: MP 1000, Duration: 30 sec., Final Damage: +75%\\nEchoing Party Member - Upon using an offensive skill, the affected party member mimics you for 40% of Final Damage. Buff Duration on Party Member: 65% + 1% for every 1000 Strength (up to 100%)\\nFinal Damage increases by 15% when Divine Blessing is used on a party member that is echoing.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/explorers/paladin/divine-echo.png"],
+                    "animations": ["https://media0.giphy.com/media/XI03PVFtwCXH1KDwoE/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "Targets a party member in range who will duplicate any attack skills and certain buffs you use",
+                    "details": [
+                        "Increases %Final Damage while buff is active",
+                        "Buffs gained from Divine Echo on party member have a shorter duration<bp_The duration is based on a fixed amount + 1% for every 1000 STR up to 100%_Echo party members receive a smaller %Final Damage buff from <tt src={/class-icons/explorers/paladin/divine-blessing.png} tip={Divine Blessing (4th Job)}>_>",
+                        "Pressing the Down Arrow Key along with the Skill Key while the skill is active, you can select a party member to echo by pressing the corresponding number key (with regard to the party UI)"
+                    ]
+                },
+                {
+                    "name": "Hammers of the Righteous",
+                    "shortDesc": "[Passive Effects] Creates 1 spiraling hammer around you whenever you generate a Light Charge. Up to 5 hammers can be active at once, and their duration is shared with Vessel of Light.\\n\\n[Active Effects] MP Cost: 1000. Hammers automatically attack up to 8 enemies 4 times dealing 1155% damage over 30 sec. Attack speed increases with the number of hammers.\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/explorers/paladin/hammers-of-the-righteous.png"],
+                    "animations": ["https://media.giphy.com/media/jONSLgsZ35AlIiUNKF/giphy-downsized-large.gif"],
+                    "type": "Attack",
+                    "desc": "Passively creates hammers whenever you gain a Light Charge (up to 5 hammers)",
+                    "details": [
+                        "[Active]: Causes the hammers to grow and damage enemies around you and will gain attack speed based on the number of hammers active",
+                        "While active, pressing the Skill Key again will end the attack early",
+                        "Duration of the hammers is shared with <tt src={/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)}>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Grand Guardian",
+                    "shortDesc": "MP Cost: 1000. Deals 515% damage 12 times consecutively on up to 12 enemies while holding the key down.\\nAfter some time passes, the cross gets bigger, which will increase attack speed and deal 1040% damage.\\nMax Key-down Time: 4 sec, Additional Critical Rate: +100%, Additional Monster DEF Ignored: +100%\\nDamage Reduction During Key-down: 50% (including Percentage HP attacks)\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/paladin/grand-guardian.png"],
+                    "animations": ["https://media.giphy.com/media/YmSRdgNe8g6GKZ3ASL/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, create a damaging cross that slowly expands and increases in attack speed and damage",
+                    "details": [
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "Attack has 100% Ignore DEF and is a guaranteed Critical Hit"
+                    ]
+                },
+                {
+                    "name": "Mighty Mjolnir",
+                    "shortDesc": "MP Cost: 500, sets 1 enemy as the target and deals 535% damage 6 time(s). Additional Critical Rate: 50%. Tracks down a total of 4 enemies as targets, including the first attack.\\nA shockwave occurs after attacking the tracked target, dealing additional attacks up to 6 enemies, with 605% damage, 9 time(s).\\n1 Hammer will be prepared every 12 sec, and you can hold up to 3.\\nCooldown: 2.5 sec",
+                    "icons": ["/class-icons/explorers/paladin/mighty-mjolnir.png"],
+                    "animations": ["https://media.giphy.com/media/rSSm6GZthLv5LId2SY/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a mighty hammer that travels towards enemies while targeting the enemy with the highest Max HP",
+                    "details": [
+                        "The hammer has increased %Crit Chance and creates a shockwave when it hits a target that damages nearby enemies",
+                        "The direction of where the hammer is thrown can be controlled by pressing the Skill Key and any Arrow Key",
+                        "Pressing the Attack Key and Skill Key together will throw all available hammers<bp_Right-clicking the skill will toggle a function ON/OFF that automatically throws all available hammers using only the Skill Key_>",
+                        "Gain 1 hammer every 12 secs (up to 3 at a time)",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Final Attack Boost",
+                    "shortDesc": "Final Attack Final Damage: +240%",
+                    "icons": ["/class-icons/common/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Divine Swing Boost",
+                    "shortDesc": "Divine Swing Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/paladin/divine-swing.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Close Combat Boost",
+                    "shortDesc": "Close Combat Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/paladin/close-combat.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Divine Judgment/Divine Mark Boost",
+                    "shortDesc": "Divine Judgment/Divine Mark Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/paladin/divine-judgment.png", "/class-icons/explorers/paladin/divine-mark.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Leap Attack/Rush Boost",
+                    "shortDesc": "Leap Attack/Rush Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/warrior/leap-attack.png", "/class-icons/explorers/paladin/rush.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Divine Charge Boost",
+                    "shortDesc": "Divine Charge Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/paladin/divine-charge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blast Boost",
+                    "shortDesc": "Blast Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/paladin/blast.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Heaven's Hammer Boost",
+                    "shortDesc": "Heaven's Hammer Damage: +100%",
+                    "icons": ["/class-icons/explorers/paladin/heavens-hammer.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Smite Shield Boost",
+                    "shortDesc": "Smite Shield Damage: +100%",
+                    "icons": ["/class-icons/explorers/paladin/smite-shield.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/paladin/hexa-blast-divine-judgment.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> <tt src={/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Blast",
+                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 4, Damage: 547%, Number of Attacks: 10",
+                    "icons": ["/class-icons/explorers/paladin/hexa-blast.png", "/class-icons/explorers/paladin/blast.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzJxc2hlczNlZXdjMmNrNmx5YXB6eWdqZ3BhcTk3dDM1NXJ1MDVndyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VHPDBItj9lcrHpNQoc/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Divine Judgment",
+                    "shortDesc": "Each time an enemy is struck by your Blast skill, they receive a stack of Divine Brand.\\nDivine Brand Max Duration: 30 sec. When Divine Brand stacks 5 times, an explosion deals 1009% damage 10 times to up to 1 enemies. Explosion damage receives Ignore Defense +20%.",
+                    "icons": ["/class-icons/explorers/paladin/hexa-divine-judgment.png", "/class-icons/explorers/paladin/divine-judgment.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXBwa3o0Ym9sZzRuYW55dGV6a3V5bGIwazhjanM4ZHI3YmtvbjQybCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YHxRB5YB77qj2qvh0B/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/paladin/hexa-divine-charge-divine-mark.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> <tt src={/class-icons/explorers/paladin/divine-mark.png} tip={Divine Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Divine Charge",
+                    "shortDesc": "MP Cost: 40. Max Enemies Hit: 11, Damage: 724%, Number of Attacks: 4, Silence Chance: 100%, Silence Duration: 10 sec.\\nHEXA Divine Mark - MP Cost: 60, Max Enemies Hit: 13, Damage: 749%, Number of Attacks: 7, Cooldown: 6 sec",
+                    "icons": ["/class-icons/explorers/paladin/hexa-divine-charge.png", "/class-icons/explorers/paladin/hexa-divine-mark.png", "/class-icons/explorers/paladin/divine-charge.png", "/class-icons/explorers/paladin/divine-mark.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzg3bTJ6eGpoaWNnOTJ2dGY1eDk5MHhnM294d3QzZ2ptNHBrZ3BuaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ovvYzZcaQW1cUFIbpg/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Falling Justice",
+                    "shortDesc": "Summon down a hammer of judgment upon landing a Paladin skill (excluding common skills). Hammer Duration: 2.52 sec, Max Enemies Hit: 8, Damage: 1491%, Number of Attacks: 6\\nMax Attack on a Single Enemy: 15\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/explorers/paladin/falling-justice.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHI5bDV5N2I0a2xoZHVtODJ0dzZwa2FmY3M1eDZ5cHA3dnYzMzZqZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kQF6puvSr2ogcUD7mU/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/paladin/hexa-heavens-hammer.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Heaven's Hammer",
+                    "shortDesc": "MP Cost: 90, Max Enemies Hit: 15, Damage: 237%, Number of Attacks: 8, Shock: 4\\nBoss Damage: +30%\\nCooldown: 14 sec.\\n[Passive Effect: HEXA Blast Damage: +80% points, HEXA Divine Judgment Damage: +357% points]",
+                    "icons": ["/class-icons/explorers/paladin/hexa-heavens-hammer.png", "/class-icons/explorers/paladin/heavens-hammer.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVsaG04M3I1ejQ2M3RjMTZ1OTU3eWs4emwzZWh3amN6dHF4eDBsOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M3VjQBwpRRxSd1Hjk7/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmY1cGJhZjVyaGRyeHp3NDhzN3RtdmtucDluNXk4MThyZmM1MnZ6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11waaQFEl6uiE059cf/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/paladin/hexa-final-attack-rising-justice.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Final Attack",
+                    "shortDesc": "[Final Attack Skills] Chance to deal an extra attack when attack lands: 65%, Damage: 160%, Bonus Number of Attacks: 2",
+                    "icons": ["/class-icons/explorers/paladin/hexa-final-attack.png", "/class-icons/common/final-attack.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2F1NTVycWh3bW5pbjN6bm85ZmlsNzh2Y2xkZXNnajdpZ3A1MXAyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h5GehTiOInFGk1Kmti/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Rising Justice",
+                    "shortDesc": "Upon activating Falling Justice, Create 4 Shard of Justice from 5 light trails\\nShard Damage: 1060%, Number of Attacks: 6",
+                    "icons": ["/class-icons/explorers/paladin/rising-justice.png", "/class-icons/explorers/paladin/falling-justice.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJ3eTltYjFrb3FiZW1penQyN2JxOWx0czhjZ2hsNnJvaXpvbjBjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oAzZR5Kxs2fokeD09t/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Sacred Bastion",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nShock Wave that attacks up to 15 enemies with 787% damage 9 times is triggered 28 times, then Shock Wave that attacks with 895% damage 14 times is triggered 17 times.\\nCreates a sanctuary for 30 seconds, activates Light of Judgment to attack up to 5 enemies with 1200% damage 13 times when Paladin attacks within the sanctuary, Light of Judgment marks Divine Brand on enemies, Cooldown: 0.5 seconds\\nSkill Cooldown: 360 seconds",
+                    "icons": ["/class-icons/explorers/paladin/sacred-bastion.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGNvZzdjeXluMGp2bTJ4cGFocjA4a2dxN285NG9lZ2tmNmQ1d3Z3MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/383YQSllNNMHvvqaq1/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Dominus Oblivion",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nReleases 11 aftershocks, dealing 10924% damage to up to 15 enemies 10 times\\nAfterwards, the light judges enemies 16 times, dealing 10908% damage 13 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/paladin/dominus-oblivion.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemVhYjQ4dmVleXVnY3pyMXlkcDhrdnlhbW50dW50ZzVpZ2M3ZW9ncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W7RDtWSrihrV829v45/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Divine Echo Boost",
+                    "shortDesc": "Divine Echo Final Damage: +90%, Attack Skill Final Damage Cast on Echo Target: +60%",
+                    "icons": ["/class-icons/explorers/paladin/divine-echo.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Hammers of the Righteous Boost",
+                    "shortDesc": "Hammers of the Righteous Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/paladin/hammers-of-the-righteous.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Grand Guardian Boost",
+                    "shortDesc": "Grand Guardian Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/paladin/grand-guardian.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Mighty Mjolnir Boost",
+                    "shortDesc": "Mighty Mjolnir Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/paladin/mighty-mjolnir.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Divine Charge - 3rd Job",
+                "icons": ["/class-icons/explorers/paladin/divine-charge.png"],
+                "animations": ["https://media.giphy.com/media/sEzVUqEwC8BAFGz6c2/giphy.gif"]
+            },
+            {
+                "name": "Blast - 4th Job",
+                "icons": ["/class-icons/explorers/paladin/blast.png"],
+                "animations": ["https://media.giphy.com/media/XVTJ3Z7fGoVnEQ1esM/giphy.gif"]
+            },
+            {
+                "name": "Sacrosanctity - Hyper Skill",
+                "icons": ["/class-icons/explorers/paladin/sacrosanctity.png"],
+                "animations": ["https://media.giphy.com/media/V2CKYcrV2VxQ9SswkH/giphy.gif"]
+            },
+            {
+                "name": "Divine Echo - 5th Job",
+                "icons": ["/class-icons/explorers/paladin/divine-echo.png"],
+                "animations": ["https://media0.giphy.com/media/XI03PVFtwCXH1KDwoE/giphy.gif"]
+            },
+            {
+                "name": "Hammers of the Righteous - 5th Job",
+                "icons": ["/class-icons/explorers/paladin/hammers-of-the-righteous.png"],
+                "animations": ["https://media.giphy.com/media/jONSLgsZ35AlIiUNKF/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Grand Guardian - 5th Job",
+                "icons": ["/class-icons/explorers/paladin/grand-guardian.png"],
+                "animations": ["https://media.giphy.com/media/YmSRdgNe8g6GKZ3ASL/giphy.gif"]
+            },
+            {
+                "name": "Mighty Mjolnir - 5th Job",
+                "icons": ["/class-icons/explorers/paladin/mighty-mjolnir.png"],
+                "animations": ["https://media.giphy.com/media/rSSm6GZthLv5LId2SY/giphy.gif"]
+            },
+            {
+                "name": "Sacred Bastion - 6th Job",
+                "icons": ["/class-icons/explorers/paladin/sacred-bastion.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGNvZzdjeXluMGp2bTJ4cGFocjA4a2dxN285NG9lZ2tmNmQ1d3Z3MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/383YQSllNNMHvvqaq1/giphy.gif"]
+            },
+            {
+                "name": "Dominus Oblivion - 6th Job",
+                "icons": ["/class-icons/explorers/paladin/dominus-oblivion.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemVhYjQ4dmVleXVnY3pyMXlkcDhrdnlhbW50dW50ZzVpZ2M3ZW9ncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W7RDtWSrihrV829v45/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Paladin is a STR warrior class part of the Explorers. Paladin utilize both One-Handed and Two-Handed Swords and Blunt Weapons as their primary weapons. For their secondary weapon, Paladin can equip Rosaries and Shields"
+}

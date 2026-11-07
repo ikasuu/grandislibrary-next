@@ -1,0 +1,1218 @@
+{
+    "class": "Blaster",
+    "content": {
+        "classGroup": "Resistance",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Increases %Ignore DEF",
+        "legionValue": "1/2/3/5/6%",
+        "equipment": [
+            {"weapon": ["armCannon"]},
+            {"secondary": ["charge"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Attack +21"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.7x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/resistance/blaster/arm-cannon-booster.png} tip={Arm Cannon Boost (2nd Job)} val={+2}> <bg src={/class-icons/resistance/blaster/combo-training.png} tip={Combo Training (3rd Job)} val={+1}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+70%}>"
+              },
+              {
+                "name": "STR",
+                "stat": "+30(60) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+19% +68",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/blaster/combo-training.png} tip={Combo Training (3rd Job)} val={+15%}> <bg src={/class-icons/resistance/blaster/arm-cannon-mastery.png} tip={Arm Cannon Mastery (2nd Job)} val={+28}> <bg src={/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II (4th Job)} val={+40}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+60%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/resistance/blaster/arm-cannon-mastery.png} tip={Arm Cannon Mastery (2nd Job)} val={+30%}> <bg src={/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II (4th Job)} val={+25%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+14%",
+                "detail": "<bg src={/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+14%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+20%(55%)",
+                "detail": "<bg src={/class-icons/link-skills/spirit-of-freedom.png} tip={Spirit of Freedom (Link Skill)} val={+5%}> <bg src={/class-icons/resistance/blaster/charge-mastery.png} tip={Charge Mastery (2nd Job)} val={+20%}> <bg type={temp} src={/class-icons/resistance/for-liberty.png} tip={For Liberty (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+10%",
+                "detail": "<bg src={/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+10%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+87%(98.22%)",
+                "detail": "<bg src={/class-icons/resistance/blaster/shield-training.png} tip={Shield Training (3rd Job)} val={+10%}> × <bg src={/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II (4th Job)} val={+70%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+35%(45.4%)",
+                "detail": "<bg src={/class-icons/resistance/blaster/advanced-charge-mastery.png} tip={Advanced Charge Mastery (4th Job)} val={+35%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/resistance/blaster/arm-cannon-booster.png} tip={Arm Cannon Boost (2nd Job)} dur={[200s]}>",
+            "summons": "<tt src={/class-icons/5th-job/resistance-infantry.png} tip={Resistance Infantry (5th Job)} dur={[15s](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/resistance/blaster/cannon-overdrive.png} tip={Cannon Overdrive (Hyper Skill)} dur={[50s](120s cd)}> <tt src={/class-icons/resistance/for-liberty.png} tip={For Liberty (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/blaster/rocket-punch.png} tip={Rocket Punch (5th Job)} dur={[50s](120s cd)}> <tt src={/class-icons/resistance/blaster/afterimage-shock.png} tip={Afterimage Shock (5th Job)} dur={[100s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/resistance/blaster/revolving-blast.png} tip={Revolving Blast (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/resistance/blaster/final-destroyer.png} tip={Final Destroyer (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/resistance/blaster/defensive-overdrive.png} tip={Defensive Overdrive (4th Job)} dur={[3s](120s cd)}> <tt src={/class-icons/resistance/blaster/hyper-magnum-punch.png} tip={Hyper Magnum Punch (Hyper Skill)} dur={[2s](120s cd)}> <tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)} dur={(60s cd)}> <tt src={/class-icons/resistance/blaster/final-destroyer.png} tip={Final Destroyer (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/resistance/blaster/blast-shield.png} tip={Blast Shield (1st Job)} dur={[Slowly dissipates](Up to 100% HP | Barrier)}> <tt src={/class-icons/resistance/blaster/advanced-charge-mastery.png} tip={Advanced Charge Mastery (4th Job)} dur={[While casting Charge Skill](-35%)}> <tt src={/class-icons/resistance/blaster/vitality-shield.png} tip={Vitality Shield (4th Job)} dur={[15s](-35% | 120s cd)}> <tt src={/class-icons/resistance/blaster/hyper-magnum-punch.png} tip={Hyper Magnum Punch (Hyper Skill)} dur={[Up to 4s](-35% | 120s cd)}> <tt src={/class-icons/resistance/blaster/gatling-punch.png} tip={Gatling Punch (5th Job)} dur={[Up to 2s](-50% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000329,
+            "offline": true,
+            "name": "Spirit of Freedom",
+            "maxLevel": 12,
+            "shortDesc": "Grants 12 seconds of invincibility after being revived. Removed upon moving to another map.",
+            "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/resistance/blaster/revolving-cannon-mastery.png} tip={Revolving Cannon Mastery}> -> <tt src={/class-icons/resistance/blaster/blast-shield.png} tip={Blast Shield}> -> <tt src={/class-icons/resistance/blaster/double-jump.png} tip={Double Jump}> -> <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion}> -> <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch}> -> <tt src={/class-icons/resistance/blaster/detonate.png} tip={Detonate}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/resistance/blaster/arm-cannon-mastery.png} tip={Arm Cannon Mastery}> -> <tt src={/class-icons/resistance/blaster/arm-cannon-booster.png} tip={Arm Cannon Boost}> -> <tt src={/class-icons/resistance/blaster/charge-mastery.png} tip={Charge Mastery}> -> <tt src={/class-icons/resistance/blaster/revolving-cannon-plus.png} tip={Revolving Cannon Plus}> -> <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast}> -> <tt src={/class-icons/resistance/blaster/bobbing.png} tip={Bobbing}>"],
+                ["3rd Job", "<tt src={/class-icons/resistance/blaster/combo-training.png} tip={Combo Training}> -> <tt src={/class-icons/resistance/blaster/shield-training.png} tip={Shield Training}> -> <tt src={/class-icons/resistance/blaster/revolving-cannon-plus-ii.png} tip={Revolving Cannon Plus II}> -> <tt src={/class-icons/resistance/blaster/rocket-rush.png} tip={Rocket Rush}> -> <tt src={/class-icons/resistance/blaster/magnum-cannon.png} tip={Magnum Cannon}> -> <tt src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash}> -> <tt src={/class-icons/resistance/blaster/weaving.png} tip={Weaving}>"],
+                ["4th Job", "<tt src={/class-icons/resistance/blaster/advanced-charge-mastery.png} tip={Advanced Charge Mastery}> -> <tt src={/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II}> -> <tt src={/class-icons/resistance/blaster/shield-training-ii.png} tip={Shield Training II}> -> <tt src={/class-icons/resistance/blaster/revolving-cannon-plus-iii.png} tip={Revolving Cannon Plus III}> -> <tt src={/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert}> -> <tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch}> -> <tt src={/class-icons/resistance/blaster/vitality-shield.png} tip={Vitality Shield}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/resistance/blaster/ballistic-hurricane.png} tip={Ballistic Hurricane}> -> <tt src={/class-icons/resistance/blaster/revolving-blast.png} tip={Revolving Blast}> -> <tt src={/class-icons/resistance/blaster/muzzle-flash.png} tip={Muzzle Flash}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}> -> <tt src={/class-icons/resistance/blaster/defensive-overdrive.png} tip={Defensive Overdrive}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/resistance/blaster/punching-extra-strike.png} tip={Punching Extra Strike}> <tt src={/class-icons/resistance/blaster/power-punch.png} tip={Power Punch}> <tt src={/class-icons/resistance/blaster/piercing-punch.png} tip={Piercing Punch}> Punching Extra Strike, Power Punch, Piercing Punch_<tt src={/class-icons/resistance/blaster/improved-bunker-explosion.png} tip={Improved Bunker Explosion}> <tt src={/class-icons/resistance/blaster/improved-bunker-shockwave.png} tip={Improved Bunker Shockwave}> Improved Bunker Explosion and Improved Bunker Shockwave_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon / Revolving Cannon Mastery (1st Job)}> <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}>"],
+                    ["", "<tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}> <tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch (4th Job)}>"],
+                    ["", "<tt src={/class-icons/resistance/blaster/ballistic-hurricane.png} tip={Ballistic Hurricane (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "5 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}>",
+                "<tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}>",
+                "<tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch (4th Job)}> <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}> <tt src={/class-icons/resistance/blaster/revolving-cannon-mastery.png} tip={Revolving Cannon Mastery (1st Job)}>",
+                "<tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> <tt src={/class-icons/resistance/blaster/ballistic-hurricane.png} tip={Ballistic Hurricane (4th Job)}>",
+                "<tt src={/class-icons/resistance/blaster/hyper-magnum-punch.png} tip={Hyper Magnum Punch (Hyper Skill)}> <tt src={/class-icons/resistance/blaster/detonate.png} tip={Detonate (1st Job)}> <tt src={/class-icons/resistance/blaster/muzzle-flash.png} tip={Muzzle Flash (4th Job)}>",
+                "<tt src={/class-icons/resistance/blaster/revolving-blast.png} tip={Revolving Blast (4th Job)}> <tt src={/class-icons/resistance/blaster/rocket-rush.png} tip={Rocket Rush (3rd Job)}> <tt src={/class-icons/resistance/blaster/magnum-cannon.png} tip={Magnum Cannon (3rd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Blaster"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%B8%94%EB%9E%98%EC%8A%A4%ED%84%B0(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/QXvbNp8zqu"}
+        ],
+        "infographics": [
+            {
+                "src": "blaster/blaster-overview.png",
+                "title": "Overview",
+                "credit": "yis",
+                "date": "2026-05-27"
+            },
+            {
+                "src": "blaster/blaster-6th-job.png",
+                "title": "6th Job",
+                "credit": "Blaster Discord",
+                "date": "2026-05-27"
+            }
+        ],
+        "discord": ["https://discord.gg/QXvbNp8zqu"],
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Blaster Discord"],
+            ["5th Job Skills Animations", "KyoWantsCute"]
+        ],
+        "extraContent": {
+            "title": "Gauge and Combo Mechanics",
+            "content": [
+                "<em text={Referenced from}> <link href={https://dexless.com/guides/blaster-guide.276/} title={Repentant}>",
+                "[Ammo Resource]",
+                "<img src={/class-icons/resistance/blaster/ammo-gauge.png} alt={Ammo Gauge}>",
+                "A resource required to use <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> Revolving Cannon (1st Job), <tt src={/class-icons/resistance/blaster/detonate.png} tip={Detonate (1st Job)}> Detonate (1st Job), and <tt src={/class-icons/resistance/blaster/magnum-cannon.png} tip={Magnum Cannon (3rd Job)}> Magnum Cannon (3rd Job). Once your Ammo resource is depleted, you will need to reload which is done automatically when your Ammo is empty",
+                "[Dynamo Gauge]",
+                "<img src={/class-icons/resistance/blaster/dynamo-gauge.png} alt={Dynamo Gauge}>",
+                "This resource is exclusively used to activate <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}> Bunker Buster Explosion. You gain one Dynamo Gauge bar whenever you use <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> Revolving Cannon. Once <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}> is used, you enter an Overheat state where your gauge is set to max but you cannot charge the Dynamo Gauge or use <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}>",
+                "[Charge Skills]",
+                "Skills with a 'C' on the Skill Icon are Charge Skills. These skills can be held and charged while using other skills. When fully charged, releasing these Charge Skills while using other skills will cancel that skill and instead activate the Charge Skill and create an additional shockwave attack. This is used for Animation Canceling. Below are the following Charge Skills:",
+                "<bp_<tt src={/class-icons/resistance/blaster/bobbing.png} tip={Bobbing (2nd Job)}> Bobbing [2nd Job]_<tt src={/class-icons/resistance/blaster/weaving.png} tip={Weaving (3rd Job)}> Weaving [3rd Job]_<tt src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)}> Hammer Smash [3rd Job]_<tt src={/class-icons/resistance/blaster/hyper-magnum-punch.png} tip={Hyper Magnum Punch (Hyper Skill)}> Hyper Magnum Punch [Hyper Skill]_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Spirit of Freedom",
+                    "maxLevel": 12,
+                    "shortDesc": "Invincible for 12 sec after being revived. Removed upon moving to another map.\\n[Passive Effect: Damage +5%]",
+                    "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Crystal Throw",
+                    "shortDesc": "MP Cost: 7, Damage: 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/crystal-throw.png"],
+                    "animations": ["https://media3.giphy.com/media/1c1qBgqtJNKp8u0UzW/giphy.gif"],
+                    "type": "Attacks",
+                    "desc": "Throws a rock that deals fixed damage"
+                },
+                {
+                    "name": "Infiltrate",
+                    "shortDesc": "MP Cost: 15, Hide for 30 sec, Movement Speed: +15",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/infiltrate.png"],
+                    "animations": ["https://media2.giphy.com/media/OAqAR4PlE8MOEjfLwH/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Turn invisible preventing touch damage"
+                },
+                {
+                    "name": "Potion Mastery",
+                    "shortDesc": "Recovery Rate: +115%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/resistance/potion-mastery.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Secret Assembly",
+                    "shortDesc": "MP Cost: 100, you move to the Resistance Secret Plaza\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/secret-assembly.png"],
+                    "animations": ["https://media1.giphy.com/media/EOAPVrGaUNzjyNfV6G/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm9ubmhzMnB2ZnR6b3V3dGZxdXFnYnoybzRidzVkbDRid2JwOTl5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mhb0Uqiu4SjEjTIuzQ/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/16/End_of_Special_Training} title={\"End of Special Training\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Magnum Punch",
+                        "shortDesc": "MP Cost: 12, Enemies Hit: 6, Damage: 100%, Number of Attacks: 3.\\nRevolving Cannon triggers automatically while using Magnum Punch and will additionally attack the same number of enemies for 60% damage 4 times.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/blaster/magnum-punch.png"],
+                        "animations": ["https://media1.giphy.com/media/cZd0BV1765HxUxQlAo/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Punch forward and automatically use <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}>",
+                        "details": [
+                            "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> Double Blast (2nd Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
+                        ]
+                    },
+                    {
+                        "name": "Revolving Cannon",
+                        "shortDesc": "Uses 1 Ammo, and your Ammo is reloaded if used as a key-down skill",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/resistance/blaster/revolving-cannon.png"],
+                        "animations": ["https://media2.giphy.com/media/RBnVeiAtsYtAsED7TS/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Consume 1 Ammo to create an additional explosive attack when used with other skills",
+                        "details": [
+                            "Automatically used when casting: <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}>",
+                            "Holding down the Skill Key will manually reload your Ammo",
+                            "Upon use, charges Dynamo Gauge by 1"
+                        ]
+                    },
+                    {
+                        "name": "Bunker Buster Explosion",
+                        "shortDesc": "Requires 3 or more Dynamo Gauge bars. Attack up to 10 enemies for 100% damage 8 times. Melee hits ignore 80% of enemy Defense Rate.\\nReleases Shockwave 1, attacking up to 10 enemies for 50% damage 6 times.\\nAfter use, you will Overheat for 7 sec. While Overheated, the Dynamo Gauge is set to max, and you cannot charge the Dynamo Gauge or use Bunker Buster Explosion. On ending, depletes the Dynamo Gauge.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/blaster/bunker-buster-explosion.png"],
+                        "animations": ["https://media1.giphy.com/media/Fz4hwcnk9gDi7uXiBi/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Deplete the Dynamo Gauge to release an explosion attack",
+                        "details": [
+                            "Requires 3 or more Dynamo Guage bars to use",
+                            "Attack has increased %Ignore DEF",
+                            "After using, you will Overheat briefly which sets your Dynamax Gauge to max but you cannot charge the Dynamo Gauge or use <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}>",
+                            "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)}/> Hammer Smash (3rd Job)_>"
+                        ]
+                    },
+                    {
+                        "name": "Double Jump",
+                        "shortDesc": "MP Cost: 5, allows you to jump a greater distance",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/blaster/double-jump.png"],
+                        "animations": ["https://media2.giphy.com/media/dv8pn1OVdMHzkuazIq/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "name": "Detonate",
+                        "shortDesc": "Ammo Cost: 1, Max Enemies Hit: 6, Damage: 155%, Number of Attacks: 2",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/blaster/detonate.png"],
+                        "animations": ["https://media4.giphy.com/media/SwL9qy3PMmZltjpsXp/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Consume 1 Ammo to fire your cannon and recoil backwards",
+                        "details": [
+                            "While in the air, pressing the Up Arrow Key and Skill Key together will propel you upwards",
+                            "Skill cannot be used while reloading",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Blast Shield",
+                        "shortDesc": "When hit, converts 30% of your damage taken into a protective shield. 40% + 50 of the shield dissipates every second. The maximum strength of the shield is equal to your Max HP.\\nKnockback Resistance increases by 100% while using Blaster skills.\\nPermanently increases Knockback Resistance by 40%, DEF by 200, and Max HP by 20%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/blaster/blast-shield.png"],
+                        "animations": ["https://media2.giphy.com/media/t2krSCY1W46O8AqlpW/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "When hit, convert a portion of the damage taken into a shield that slowly disappears",
+                        "details": [
+                            "[Passive]: Permanently increases %Knockback Resistance, %Max HP and grants flat DEF",
+                            "Additionally, when using Blaster skills, you gain 100% Knockback Resistance"
+                        ]
+                    },
+                    {
+                        "name": "Revolving Cannon Mastery",
+                        "shortDesc": "[Final Attack Type Skill] Direct attacks from the Arm Cannon trigger additional attacks which deal 120% on up to 6 enemies 1 times.\\nPermanently increases Movement Speed by 30, Jump Power by 15, and Max Movement Speed by 20.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/resistance/blaster/revolving-cannon-mastery.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful Arm Cannon attacks trigger an additional attack",
+                        "details": [
+                            "[Passive]: Permanently increases Movement Speed, Jump and Max Movement Speed"
+                        ]
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Double Blast",
+                        "shortDesc": "MP Cost: 20, Enemies Hit: 6, Damage: 150%, Number of Attacks: 4.\\nRevolving Cannon triggers automatically while using Double Blast and will additionally attack the same number of enemies for 100% damage 4 times.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/blaster/double-blast.png"],
+                        "animations": ["https://media4.giphy.com/media/SEFD5UUCZ26Sa0BJei/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Punch forward twice and automatically use <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}>",
+                        "details": [
+                            "Pressing <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> twice will also trigger this skill",
+                            "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/bobbing.png} tip={Bobbing (2nd Job)}> Bobbing (2nd Job)_<tt src={/class-icons/resistance/blaster/weaving.png} tip={Weaving (3rd Job)}> Weaving (3rd Job)_<tt src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)}/> Hammer Smash (3rd Job)_<tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch (4th Job)}> Shotgun Punch (4th Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
+                            
+                        ]
+                    },
+                    {
+                        "name": "Bobbing",
+                        "shortDesc": "MP Cost: 9, Bonus Avoidability 35% applied for 1.5 sec after activation.\\n[Passive Effect - Magnum Punch damage +100% points]",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/blaster/bobbing.png"],
+                        "animations": ["https://media2.giphy.com/media/6El6oGzdxhFHt7keQv/giphy.gif"],
+                        "type": "Charge Active",
+                        "desc": "Dash forward while avoiding enemy attacks and gain increased %Avoidability after dashing",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> by a flat amount",
+                            "Jumping will cancel the dash",
+                            "Right-clicking the skill will toggle a function ON/OFF to cancel the dash upon pressing the Skill Key again",
+                            "Upon activating after charging, any skill that was already activated will be immediately canceled and you will dash forward",
+                            "Can be linked with the following skills:<bp_<tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> Magnum Punch (1st Job)_<tt src={/class-icons/resistance/blaster/rocket-rush.png} tip={Rocket Rush (3rd Job)}> Rocket Rush (3rd Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
+                        ]
+                    },
+                    {
+                        "name": "Arm Cannon Boost",
+                        "shortDesc": "MP Cost: 11, Duration: 200 sec, Weapon Attack Speed: +2",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/blaster/arm-cannon-booster.png"],
+                        "animations": ["https://media2.giphy.com/media/gkh6Av8xWjVtP6zj7x/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "name": "Arm Cannon Mastery",
+                        "shortDesc": "Mastery +50%, Critical Rate +30%, Attack Power +28",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/resistance/blaster/arm-cannon-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Charge Mastery",
+                        "shortDesc": "Decreases the charge time for all charge skills by 15%. Using a charge skill or Hammer Smash Blast reloads 1 Ammo immediately but will not interrupt an auto-reload.\\nAt the start of charged Bobbing, Weaving, Hammer Smash, or Hammer Smash Blast, all damage taken is briefly reduced by 20%, including attacks that deal damage based on your Max HP.\\nPermanently increases damage by 15%.",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/resistance/blaster/charge-mastery.png"],
+                        "type": "Passive",
+                        "desc": "Decreases the charge time required for all Charge Skills (marked by a 'C' on icon)",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage",
+                            "Using a Charge Skill or <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}> will also reload 1 Ammo immediately but will not interrupt auto-reload",
+                            "Upon casting any Charge Skill, briefly gain increased %Damage Reduction (including %Max HP attacks)"
+                        ]
+                    },
+                    {
+                        "name": "Revolving Cannon Plus",
+                        "shortDesc": "Bunker Buster Explosion damage +20% points, Shockwave 1 damage +40% points\\nAdditional attack damage due to overheating +32% points\\n Revolving Cannon damage triggered during Magnum Punch +40% points\\nMaximum Dynamo Gauge capacity expanded to 4 bars, maximum number of Ammo increased to 4.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 4 bars or higher increases damage by 40% points and will generate Shockwave 2, which attacks up to 10 enemies for 100% damage 6 times.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/blaster/revolving-cannon-plus.png"],
+                        "animations": ["https://media1.giphy.com/media/XCR3lWGgVJLF0bvRqa/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Increases the %Damage by a flat amount for the following skills: <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}>, <tt src={/class-icons/resistance/blaster/revolving-cannon-mastery.png} tip={Revolving Cannon Mastery (1st Job)}>, and <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> during <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}>",
+                        "details": [
+                            "Additionally increases the capacity of your Ammo and Dynamo Gauge<bp_Using <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}> at 4 bars or higher will increase the %Damage of the skill and create a more powerful attack_>"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Hammer Smash",
+                        "shortDesc": "MP Cost: 25\\nEnhanced to Hammer Smash Blast while Cannon Overdrive's cylinder gauge overheat reduction is active\\nHammer Smash Blast - MP Cost: 25, attacks up to 8 enemies 10 times for 96% damage\\n[Passive Effect - Double Blast Damage: +130% (additive)]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/blaster/hammer-smash.png", "/class-icons/resistance/blaster/hammer-smash-blast.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGpxbWw4dHQ5bDRvMHZjZGgwcXdtdDZoc2Y0dnJ6NWxsb25uemxkaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lGnayLK9oP56Zmyjeu/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZramR3a3dkczhnNGNybmdndnI3aml6MzhsY3gwYTViMm1lcm9tZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kLK2cePs2ycmumH9ml/giphy.gif"],
+                        "type": "Charge Active / Attack",
+                        "desc": "While held, enemy attacks will not knock you back. Upon releasing, any skill that was already activated will be immediately canceled",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> by a flat amount",
+                            "[Hammer Smash Blast]: While <tt src={/class-icons/resistance/blaster/cannon-overdrive.png} tip={Cannon Overdrive (Hyper Skill)}> Dynamo Gauge Overheat Reduction effect is active, this skill is changed into <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}>: Strike the ground damaging nearby enemies",
+                            "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> Magnum Punch (1st Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
+                        ]
+                    },
+                    {
+                        "name": "Weaving",
+                        "shortDesc": "MP Cost: 9, Bonus Avoidability 35% applied for 1.5 sec after activation.\\n[Passive Effect - Magnum Punch damage +130% points]",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/resistance/blaster/weaving.png"],
+                        "animations": ["https://media4.giphy.com/media/o2Ieuk4fluIiVzlA82/giphy.gif"],
+                        "type": "Charge Active",
+                        "desc": "Dash backwards while avoiding enemy attacks and gain increased %Avoidability after dashing",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> by a flat amount",
+                            "Jumping will cancel the dash",
+                            "Right-clicking the skill will toggle a function ON/OFF to cancel the dash upon pressing the Skill Key again",
+                            "Upon activating after charging, any skill that was already activated will be immediately canceled and you will dash backwards",
+                            "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/rocket-rush.png} tip={Rocket Rush (3rd Job)}> Rocket Rush (3rd Job)_<tt src={/class-icons/resistance/blaster/muzzle-flash.png} tip={Muzzle Flash (3rd Job)}> Muzzle Flash (3rd Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
+                        ]
+                    },
+                    {
+                        "name": "Rocket Rush",
+                        "shortDesc": "MP cost: 28, Damage: 100%, Number of Enemies: 1. If there are enemies in the skill's path, Max Enemies Hit: 7, Damage: 250%, Number of Attacks: 4, Damage Against Normal Enemies: +20%.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/blaster/rocket-rush.png"],
+                        "animations": ["https://media.giphy.com/media/xTWH6OK7QUpz3S7MqT/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Grab a nearby enemy and dash forward along with them damaging enemies in your path",
+                        "details": [
+                            "Deals increased %Damage to regular monsters"
+                        ]
+                    },
+                    {
+                        "name": "Magnum Cannon",
+                        "shortDesc": "MP Cost: 60, Consumed Bullets: 1\\nMax Enemies Hit: 6, Damage: 250%, Number of Attacks: 4, Damage Against Normal Monsters: +20%\\nCooldown: 4 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/blaster/magnum-cannon.png"],
+                        "animations": ["https://media.giphy.com/media/ytt0EZPf1cIeZtMAlZ/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Consume 1 Ammo to fire a giant bullet forward damaging enemies it passes through",
+                        "details": [
+                            "Deals increased %Damage to regular monsters"
+                        ]
+                    },
+                    {
+                        "name": "Revolving Cannon Plus II",
+                        "shortDesc": "Bunker Buster Explosion damage +60% points, Shockwave 1 damage +80% points, and Shockwave 2 damage +40% points\\nAdditional attack damage due to overheating +96% points, Revolving Cannon damage during Magnum Punch +60% points\\nRevolving Cannon damage during Double Blast +20% points\\nMaximum Dynamo Gauge capacity expanded to 5 slots, maximum number of Bullets increased to 5.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 5 slots or higher increases its damage by 80% points and will generate Shockwave 3, which attacks up to 10 enemies for 180% damage 6 times.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/blaster/revolving-cannon-plus-ii.png", "/class-icons/resistance/blaster/revolving-cannon-plus.png"],
+                        "animations": ["https://media2.giphy.com/media/4aqPxsWY0qRzvKvVEL/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage by a flat amount for the following skills: <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}>, <tt src={/class-icons/resistance/blaster/revolving-cannon-mastery.png} tip={Revolving Cannon Mastery (1st Job)}>, <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> during <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}>, and <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}>",
+                            "Capacity of your Ammo and Dynamo Gauge is increased once more<bp_Using <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}> at 5 bars or higher will increase the %Damage of the skill and create a more powerful attack_>"
+                        ]
+                    },
+                    {
+                        "name": "Shield Training",
+                        "shortDesc": "When hit, convert 40% of damage taken into a protective shield. 40% + 50 of the shield dissipates each second. The maximum potential for the shield is equal to your Max HP.\\nPermanently increases Abnormal Status Resistance by 20 and Elemental Resistance by 20%, and Final Damage by 10%.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/blaster/shield-training.png", "/class-icons/resistance/blaster/blast-shield.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases amount of damage converted into shield",
+                            "Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                        ]
+                    },
+                    {
+                        "name": "Combo Training",
+                        "shortDesc": "Attack Speed: +1, Skill Link Speed: +1, Final Damage: +30%, Attack Power: +15%",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/resistance/blaster/combo-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Shotgun Punch",
+                    "shortDesc": "MP Cost: 70, Damage: 180%, Number of Attacks: 6, Max Enemies Hit: 8\\nNormal Enemy Damage: +210%\\n[Passive Effect - Double Blast Damage: +180% points]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/blaster/shotgun-punch.png"],
+                    "animations": ["https://media3.giphy.com/media/a7jT1jL4Q1DHFSy1zp/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Punch forward creating a shockwave",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> by a flat amount",
+                        "Deals increased %Damage to regular monsters",
+                        "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/bobbing.png} tip={Bobbing (2nd Job)}> Bobbing (2nd Job)_<tt src={/class-icons/resistance/blaster/weaving.png} tip={Weaving (3rd Job)}> Weaving (3rd Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
+                    ]
+                },
+                {
+                    "name": "Muzzle Flash",
+                    "shortDesc": "MP Cost: 25, Damage: 500%, Max Enemies Hit: 6, Number of Attacks: 3\\n[Passive Effect - Magnum Punch damage +216% points]",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/resistance/blaster/muzzle-flash.png"],
+                    "animations": ["https://media1.giphy.com/media/hsX8Uo04RjZjjJ1Oeu/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Instantly dash to a nearby enemy while using <tt src={/class-icons/resistance/blaster/weaving.png} tip={Weaving (3rd Job)}>",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}>",
+                        "Can only be used during <tt src={/class-icons/resistance/blaster/weaving.png} tip={Weaving (3rd Job)}><bp_Pressing <tt src={/class-icons/resistance/blaster/weaving.png} tip={Weaving (3rd Job)}> while dashing will activate Muzzle Flash_Right-clicking this skill will toggle this function ON/OFF_>",
+                        "Will not activate if there are no enemies in range",
+                        "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> Magnum Punch (1st Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
+                    ]
+                },
+                {
+                    "name": "Ballistic Hurricane",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 12, Damage: 1250%, Number of Attacks: 5\\nCooldown: 15 sec\\n[Passive Effect - Hammer Smash Blast Damage: +150% (additive)]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/blaster/ballistic-hurricane.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTB5bTFqZGh6b2V3Yjl5YWFwcW52dXZpdGJ3NW55eWxiYTdwMjFqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gfoBdB7O7Adji8tIl0/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Release a cyclone forward",
+                    "details": [
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}> by a flat amount"
+                    ]
+                },
+                {
+                    "name": "Revolving Blast",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 230%, Number of Attacks: 2\\nStun Duration: 10 sec. Stun Duration: +100% depending on damage inflicted with Revolving Blast.\\nCooldown: 120 sec.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/resistance/blaster/revolving-blast.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWE3dWpxcjk3c2JkMmh5c3VjaHc5ejRicHVzb29sYmZ6bG9va2FqYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oCEAlgM8p6ygdwCFrT/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Dash toward an enemy with the highest Max HP and binds them",
+                    "details": [
+                        "When used, fully reloads your Ammo"
+                    ]
+                },
+                {
+                    "name": "Vitality Shield",
+                    "shortDesc": "MP Cost: 100, recovers HP equal to the sum of the dissipated Blast Shield and 50% of your Max HP. The extended defense period lasts for 15 sec.\\nKnockback attack of Rocket Rush and Magnum Cannon damage increased by 100% points.\\nCooldown: 120 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/resistance/blaster/vitality-shield.png"],
+                    "animations": ["https://media2.giphy.com/media/G3KTdLGMJSdUo6kBk6/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Converts your active <tt src={/class-icons/resistance/blaster/blast-shield.png} tip={Blast Shield (1st Job)}> into HP",
+                    "details": [
+                        "Cannot be used if there is no <tt src={/class-icons/resistance/blaster/blast-shield.png} tip={Blast Shield (1st Job)}> or if your HP is full",
+                        "After casting, you take reduced damage, including %Max HP damage<bp_Amount reduced is based on <tt src={/class-icons/resistance/blaster/advanced-charge-mastery.png} tip={Advanced Charge Mastery (4th Job)}> (-35%)_>",
+                        "[Passive]: Permanently increases %Damage by a flat amount for the following skills: <tt src={/class-icons/resistance/blaster/rocket-rush.png} tip={Rocket Rush (3rd Job)}> <tt src={/class-icons/resistance/blaster/magnum-cannon.png} tip={Magnum Cannon (3rd Job)}>",
+                        "Unaffected by %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "Defensive Overdrive",
+                    "shortDesc": "MP Cost: 100, Invincibility Duration: 3 sec.\\nCooldown: 120 sec.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/resistance/blaster/defensive-overdrive.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmo4aWJodzg1em5va2V3dTNyOHZnZThncXJmbDBrcWNlMjlucTF3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Er3PsptKrQDnlOXLAz/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, briefly become invincible",
+                    "details": [
+                        "Pressing the Skill Key again ends the buff early",
+                        "Unaffected by cooldown resets and %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/Ug4aOKhz0FMX48r61I/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/6OrYzPZUUBss4wqMPW/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Revolving Cannon Plus III",
+                    "shortDesc": "Bunker Buster Explosion damage +160% points, Shockwave 1 damage +225% points, Shockwave 2 damage +185% points, and Shockwave 3 damage +155% points.\\nAdditional attack damage due to overheating +224% points\\nRevolving Cannon damage triggered during Magnum Punch +210% points, Revolving Cannon damage during Double Blast +170% points.\\nMaximum Dynamo Gauge capacity expanded to 6 slots, maximum number of Bullets increased to 6.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 6 slots or higher increases its damage by 200% points and will generate Shockwave 4, which attacks up to 10 enemies for 400% damage 6 times.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/resistance/blaster/revolving-cannon-plus-iii.png", "/class-icons/resistance/blaster/revolving-cannon-plus.png"],
+                    "animations": ["https://media3.giphy.com/media/zwG3eFSpYT20Q3nN1L/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage by a flat amount for the following skills: <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}>, <tt src={/class-icons/resistance/blaster/revolving-cannon-mastery.png} tip={Revolving Cannon Mastery (1st Job)}>, <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> during <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}>, and <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}>",
+                        "Capacity of your Ammo and Dynamo Gauge is increased once more<bp_Using <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}> at 6 bars or higher will increase the %Damage of the skill and create a more powerful attack_>"
+                    ]
+                },
+                {
+                    "name": "Shield Training II",
+                    "shortDesc": "When hit, convert 50% of damage taken into a protective shield. 40% + 50 of the shield dissipates each second. The maximum potential for the shield is equal to your Max HP.\\nPermanently increases Abnormal Status Resistance by 20% and Elemental Resistance by 20%, and Knockback Resistance by 60%.\\nKnockback attack of Rocket Rush and Magnum Cannon damage +80% (additive).",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/resistance/blaster/shield-training-ii.png", "/class-icons/resistance/blaster/blast-shield.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases amount of damage converted",
+                        "Increases Abnormal Status and %Elemental Resistance provided",
+                        "Now increases %Knockback Resistance",
+                        "Now increases %Damage of <tt src={/class-icons/resistance/blaster/rocket-rush.png} tip={Rocket Rush (3rd Job)}> <tt src={/class-icons/resistance/blaster/magnum-cannon.png} tip={Magnum Cannon (3rd Job)}> by a flat amount"
+                    ]
+                },
+                {
+                    "name": "Gauntlet Expert",
+                    "shortDesc": "Mastery: +70%, Critical Damage: +14%, Boss Damage: +10%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/blaster/gauntlet-expert.png", "/class-icons/resistance/blaster/arm-cannon-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now increases %Crit Damage and %Boss Damage"
+                    ]
+                },
+                {
+                    "name": "Advanced Charge Mastery",
+                    "shortDesc": "Decreases the charge time for all charge skills by 40%. Using a charge skill or Hammer Smash Blast reloads 2 Ammo immediately but will not interrupt an auto-reload.\\nAt the start of charged Bobbing, Weaving, Hammer Smash, or Hammer Smash Blast, all damage taken is briefly reduced by 35%, including attacks that deal damage based on your Max HP.\\nPermanently ignore 35% of enemies' Defense, and damage taken is reduced by 15%.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/resistance/blaster/advanced-charge-mastery.png", "/class-icons/resistance/blaster/charge-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases the amount of charge time decreased and amount of Ammo reloaded from 1 to 2",
+                        "Increases amount of damage reduced after using charged skills",
+                        "Now increases %Ignore DEF and %Damage Reduction"
+                    ]
+                },
+                {
+                    "name": "Combo Training II",
+                    "shortDesc": "Skill Link Speed: +2 level(s), Final Damage: +70%, Critical Rate: +25%, Attack Power: +40",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/resistance/blaster/combo-training-ii.png", "/class-icons/resistance/blaster/combo-training.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Final Damage and Skill Link Speed provided",
+                        "Now also increases %Crit Rate and grants flat Attack Power"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Punching Extra Strike",
+                    "shortDesc": "Number of Attacks: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/punching-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 140,
+                    "desc": "Increases the Number of Attacks of <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}> <tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch (4th Job)}>"
+                },
+                {
+                    "name": "Power Punch",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/power-punch.png"],
+                    "type": "Passive",
+                    "desc": "Increases the %Damage of <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}> <tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch (4th Job)}> <tt src={/class-icons/resistance/blaster/muzzle-flash.png} tip={Muzzle Flash (4th Job)}> <tt src={/class-icons/resistance/blaster/ballistic-hurricane.png} tip={Ballistic Hurricane (4th Job)}>",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Piercing Punch",
+                    "shortDesc": "Monster DEF Ignored: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/piercing-punch.png"],
+                    "type": "Passive",
+                    "desc": "Increases the %Ignore DEF of <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}> <tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch (4th Job)}> <tt src={/class-icons/resistance/blaster/muzzle-flash.png} tip={Muzzle Flash (4th Job)}> <tt src={/class-icons/resistance/blaster/ballistic-hurricane.png} tip={Ballistic Hurricane (4th Job)}>",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Improved Bunker Explosion",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/improved-bunker-explosion.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Damage of the initial hit",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Improved Bunker Shockwave",
+                    "shortDesc": "Damage: +15%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/improved-bunker-shockwave.png"],
+                    "type": "Passive",
+                    "desc": "Increases %Damage of the explosion after the initial hit",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Bunker Buster Explosion - Guard Bonus",
+                    "shortDesc": "Guard bonus during Bunker Buster Explosion. Damage reduction rate follows the rates in Charge Mastery.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/bunker-buster-explosion-guard-bonus.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Blast Shield Recovery",
+                    "shortDesc": "Recover 50% of the dissipating Blast Shield as HP.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/blast-shield-recovery.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Ballistic Hurricane - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/ballistic-hurricane-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Speedy Vitality Shield",
+                    "shortDesc": "Cooldown: -20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/speedy-vitality-shield.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Cannon Overdrive",
+                    "shortDesc": "MP Cost: 200. Duration: 50 sec. Increases damage for skills that use Ammo by 35%. Ammo auto-reload time decreased by 70%. The Dynamo Gauge Overheat duration for Bunker Buster Explosion is reduced to 1 second up to 20 time(s). While Dynamo Gauge Overheat Reduction is active, Hammer Smash becomes Hammer Smash Blast and can be used up to 38 time(s)\\nCooldown : 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/cannon-overdrive.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG5hcjBxZm1xdGl3ZTRtNGV1dm5qNDY1aGNmb3c0ZHlmZWJmbTdpbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CrxFTeyQm0l0oOgnT3/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Increases the %Damage of skills that use Ammo and reduces the Ammo auto-reload time",
+                    "details": [
+                        "While active, duration of the Dynamo Gauge Overheat is also reduced slightly (up to 20 times)<bp_While this effect is active, <tt src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)}> is changed to <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)> (up to 38 times)_>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Hyper Magnum Punch",
+                    "shortDesc": "MP Cost: 400, Invincibility for 2 sec.\\nAttacks up to 15 enemies for 500% 15 times.\\nGenerates a shockwave that attacks for 250% damage 8 times.\\nCan be enhanced up to 3 levels by charging, and each level of enhancement generates an additional shockwave that deals 350%, 450%, 550% damage 8 times.\\nWhile charging, the defense boosts from Charge Mastery are applied, and Abnormal Status Resistance increases by 100.\\nEach time you get hit while charging, the final damage increases by 5%, up to 50%.\\nCan be charged for up to 4 sec.\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/blaster/hyper-magnum-punch.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHg0aW1neG5vemQ1ZTNneHJ4MjIwNmxtNG41M3Z4Znd3MjZ2bzYyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CC6z7Vwtq4r3zDsH0r/giphy.gif"],
+                    "type": "Charge Attack",
+                    "desc": "Unleash an explosive punch forward",
+                    "details": [
+                        "Upon use, become briefly invincible",
+                        "Depending on the duration the Skill Key is held, attack generates more shockwaves",
+                        "While charging, the effects of <tt src={/class-icons/resistance/blaster/charge-mastery.png} tip={Charge Mastery (2nd Job)}> are activated and you gain increased Abnormal Status Resistance",
+                        "While charging, you gain increased %Final Damage whenever you are hit and cannot be stunned or knocked back"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "For Liberty",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to Demon, Resistance, and Xenon party members.\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/for-liberty.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjhvczBsdjNmeGs2b2thbXhpaTZiZXBic2txN2NnaTh3ZDhlN3ltYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9ZJEMW0L5QsWQRalLL/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["resistanceInfantry", "goddessBlessing", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Rocket Punch",
+                    "shortDesc": "MP Cost: 1000, Duration: 50 sec. Using your arm cannon while active triggers Revolving Cannon Boost, which uses special ammunition.\\nMax Enemies Hit: 10, Damage: 485%, Number of Attacks: 8, Enemy DEF Ignored: 100%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/resistance/blaster/rocket-punch.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3ptMGl0dWM3NmN1bTFnYXQxdjR3dzgxamtpZGhwbmtrNXpyOHN4MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Uxy9TcU5WP23s1Imbd/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, your attacks trigger additional explosions",
+                    "details": [
+                        "<tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> will be replaced while this skill is active",
+                        "The explosion consumes 1 Ammo",
+                        "Attack has 100% Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Gatling Punch",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 10, Damage: 1925%, Number of Attacks: 15. Deals 1485% damage 12 times consecutively for up to 2 sec. and activates Revolving Cannon Mastery 2 times while the key is held.\\nMax Attacks: 30. The effect ends immediately once all attacks have been made.\\nGrants max stacks of the Enhanced Guard effects of Charge Mastery. Damage taken, including attacks that deal damage in proportion to Max HP, is reduced by 50%\\nReduces more damage when stacked with Enhanced Guard.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/resistance/blaster/gatling-punch.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDVwbGNpMm1mYW82N2N6NmowNHA2OHBoMjE2cnU2Mzh4N2duZmk3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AxyEWf04oGe9181EVU/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, rapidly punch forward",
+                    "details": [
+                        "When used, grants max stacks of <tt src={/class-icons/resistance/blaster/advanced-charge-mastery.png} tip={Advanced Charge Mastery (4th Job)}>",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "Activates <tt src={/class-icons/resistance/blaster/revolving-cannon-mastery.png} tip={Revolving Cannon Mastery (1st Job)}> (up to 2 times)"
+                    ]
+                },
+                {
+                    "name": "Bullet Blast",
+                    "shortDesc": "MP Cost: 1000, Ammo Cost: 1 after reloading bullets upon casting\\nCan prepare for up to 5 sec, adds up to 5 bullets by using the Revolving Cannon\\nLaunches an explosion in proportion to the number of bullets used after Charge when the key is released. Skill can be used again during Charge to launch an immediate explosion.\\nInvincible during preparation and Charge. Invincible for 1 sec upon immediate explosion.\\nCharge: Max Enemies Hit: 12, Damage: 1980%, Number of Attacks: 15\\nExplosion: Max Enemies Hit: 12, Damage: 1925%, Number of Attacks: 15\\nAll hits receive Additional Critical Rate: +100% and Additional Monster DEF Ignored: +100%\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/resistance/blaster/bullet-blast.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmh5MDU0N3RlajBqa3Z6MWMza3hjYnp0MzVhb201OXA2aTY3bTlrdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UOaqcfSeSBVmLkO3nh/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, prepare to charge forward and release a massive explosion behind you upon charging",
+                    "details": [
+                        "Reloads Ammo and consumes 1 Ammo",
+                        "While Skill Key is held, using <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> will consume Ammo (up to 5) to release a more powerful explosion<bp_You are invincible while preparing and charging_>",
+                        "Pressing the Down Arrow Key when you release the Skill Key, you will attack in place instead of charging forward",
+                        "Upon charging, pressing the Skill Key again will release the explosion immediately",
+                        "Attack is a guaranteed Critical Hit and has increased 100% Ignore DEF",
+                        "Ignores Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Afterimage Shock",
+                    "shortDesc": "Active Effect: MP Cost: 1000. Upon successful hits with Arm Cannon's direct attacks and Bunker Buster Explosion, this skill creates afterimages that deal 5 additional attacks with 990% damage for 100 seconds. Afterimages can be created up to 49 time(s). Reoccurrence Cooldown: 0.1 second\\n Passive Effect: While the active effect of Afterimage Shock's isn't active, upon successful hits with the Arm Cannon, this skill creates afterimages, which attack up to 10 enemies that have not been hit with 1100% damage up to 3 times. Active and Passive Effects cannot trigger simultaneously.\\nReoccurrence Cooldown: 4 seconds\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/resistance/blaster/afterimage-shock.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHU0ZWt1ajlzcXRla3hubmk2Z3QyMjVtMTk2N3Vid2Y4YjhzemlqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zgDEXwrCPKq0mNcRwA/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb28xdHptN20ycjdjZm83cjdoNnkyeGhnOXd4MGJ6ZXJzN3JxejZzayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ADgYy8vjREc0BIJz5Q/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, upon successful Gauntlet Revolver attacks or <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}> explosions, an additional attack is dealt",
+                    "details": [
+                        "[Passive]: While the active effect is inactive, successful Gauntlet Revolver attacks create a different additional attack that damages nearby enemies",
+                        "Additional attack can only appear up to 49 times",
+                        "Pressing the Skill Key again will end the skill early",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Magnum Punch Boost",
+                    "shortDesc": "Magnum Punch Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/magnum-punch.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Revolving Cannon/Revolving Cannon Mastery Boost",
+                    "shortDesc": "Revolving Cannon/Revolving Cannon Mastery Overheat Extra Hit Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/revolving-cannon.png", "/class-icons/resistance/blaster/revolving-cannon-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Bunker Buster Explosion Boost",
+                    "shortDesc": "Bunker Buster Explosion and Shock Wave Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/bunker-buster-explosion.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Detonate Boost",
+                    "shortDesc": "Detonate Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/detonate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Double Blast Boost",
+                    "shortDesc": "Double Blast Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/double-blast.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hammer Smash Blast Boost",
+                    "shortDesc": "Hammer Smash Blast Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/hammer-smash-blast.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Boost Rocket Rush / Magnum Cannon",
+                    "shortDesc": "Rocket Rush / Magnum Cannon Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/rocket-rush.png", "/class-icons/resistance/blaster/magnum-cannon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shotgun Punch Boost",
+                    "shortDesc": "Shotgun Punch Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/shotgun-punch.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Muzzle Flash Boost",
+                    "shortDesc": "Muzzle Flash Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/muzzle-flash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ballistic Hurricane Boost",
+                    "shortDesc": "Ballistic Hurricane Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/ballistic-hurricane.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Revolving Blast Boost",
+                    "shortDesc": "Revolving Blast Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/revolving-blast.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hyper Magnum Punch Boost",
+                    "shortDesc": "Hyper Magnum Punch Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/blaster/hyper-magnum-punch.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/blaster/hexa-magnum-punch-double-blast.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3RoenJmMGJ3ZHdlMGg5Z2Q3NnU2eWo5YWp0eDZ6OWZydzlhZ3B5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y1AGxuSs8cqswTVR1q/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Magnum Punch",
+                    "shortDesc": "MP Cost: 21, Max Enemies Hit: 7, Damage: 800%, Number of Attacks: 3\\nRevolving Cannon triggers automatically while using HEXA Magnum Punch.",
+                    "icons": ["/class-icons/resistance/blaster/hexa-magnum-punch.png", "/class-icons/resistance/blaster/magnum-punch.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWpkbnI3Y2ZnMjBkY2Nsa2F1N2c3dTVoOWNldmhydGF5MGppYm4weiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cBis8VhDYrTdN0oakE/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Double Blast",
+                    "shortDesc": "MP Cost: 27, Max Enemies Hit: 6, Damage: 680%, Number of Attacks: 4\\nRevolving Cannon triggers automatically while using HEXA Double Blast.",
+                    "icons": ["/class-icons/resistance/blaster/hexa-double-blast.png", "/class-icons/resistance/blaster/double-blast.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDU3YXBlbGo1bHprbnl0MjRqaml6eDZ4YnJ3bGVudzB0emJtbWQ2aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PR072Wb6XFAnJdOA3l/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/blaster/hexa-bunker-buster-explosion.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm54dHUzbGxqcTV0d212c3AwZm1ydm94emJrbGYzYWFldjh4bml2cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0Up4GcM4Ih4LHpprTN/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/blaster/bunker-buster-explosion.png} tip={Bunker Buster Explosion (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Bunker Buster Explosion",
+                    "shortDesc": "Direct Attack Max Enemies Hit: 10, Number of Attacks: 8\\nCreate a shockwave that attacks up to 10 enemies 6 times\\nDirect Attack damage and number of shockwaves depend on Dynamo Gauge\\nBurst Pile Bunker becomes available after using Bunker Buster Explosion 5 times\\n[3 Dynamo Gauge Bars] Direct Attack Damage: 520%\\nShockwave 1 Damage: 580%\\n[4 Dynamo Gauge Bars] Direct Attack Damage 595%\\nShockwave 2 Damage: 530% after shockwave 1\\n[5 Dynamo Gauge Bars] Direct Attack Damage: 740%\\nShockwave 3 Damage: 540% after shockwave 1 and 2\\n[6 Dynamo Gauge Bars] Direct Attack Damage: 1160%\\nShockwave 4 Damage: 730% after shockwave 1, 2, and 3\\nAfter use, you will Overheat for 7 sec. While Overheated, the Dynamo Gauge is set to max, and you cannot charge the Dynamo Gauge or use Bunker Buster Explosion, and the Dynamo Gauge is depleted.\\n-------Burst Pile Bunker-------\\nRequires 6 or more Dynamo Gauge bars\\nMax Enemies Hit: 10, Trigger 6 explosions that deal 790% damage 10 times\\nBurst Pile Bunker doesn't trigger a shockwave\\nAfter use, you will Overheat for 7 sec. While Overheated, the Dynamo Gauge is set to max, and you cannot charge the Dynamo Gauge or use Bunker Buster Explosion, and the Dynamo Gauge is depleted.",
+                    "icons": ["/class-icons/resistance/blaster/hexa-bunker-buster-explosion.png", "/class-icons/resistance/blaster/burst-pile-bunker.png", "/class-icons/resistance/blaster/bunker-buster-explosion.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2dvc3JmcDNlenZsam55OTJhZnlpcmJ5YmJ4Y3ZybDk5NjdvajQwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eljJm7u839uYrMF6f7/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/blaster/hexa-revolving-cannon-mastery-hammer-smash-shotgun-punch.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/blaster/revolving-cannon-mastery.png} tip={Revolving Cannon Mastery (1st Job)}> <tt src={/class-icons/resistance/blaster/hammer-smash-blast.png} tip={Hammer Smash Blast (3rd Job)}> <tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Revolving Cannon Mastery",
+                    "shortDesc": "[Final Attack Skill] When a direct attack from the Arm Cannon lands, it triggers additional attacks which deal 700% on up to 6 enemies.",
+                    "icons": ["/class-icons/resistance/blaster/hexa-revolving-cannon-mastery.png", "/class-icons/resistance/blaster/revolving-cannon-mastery.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazc4MHhiZ21yZGd4cHJmZXJ1cmx5bndmaDhsbnllOGJ4dTVuNGMydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FrVQU3LHuSPyys8yqf/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Hammer Smash",
+                    "shortDesc": "MP Cost: 30\\nWhile Cannon Overdrive's cylinder gauge overheat reduction is active, conerted into HEXA Hammer Smash Blast\\nHEXA Hammer Smash Blast - MP Cost: 30, attacks up to 8 enemies 10 times for 360% damage\\n[Passive Effect - HEXA Magnum Punch Damage: +85% (additive), HEXA Double Blast Damage: +70% (additive)]",
+                    "icons": ["/class-icons/resistance/blaster/hexa-hammer-smash.png", "/class-icons/resistance/blaster/hexa-hammer-smash-blast.png", "/class-icons/resistance/blaster/hammer-smash.png", "/class-icons/resistance/blaster/hammer-smash-blast.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG45dnZhbXE2MTlwNXZqdGczMWpjMzdzaDhkeTFnYWtheHg1YjFqZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C30pXSkFennrjLJtBc/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N2aDd0ZHl5dHE3NXFtZjFsMGljOG9kM3BnYjA0NDZleDRtZHM2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hyyV22uJGiOwfMPVAR/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Shotgun Punch",
+                    "shortDesc": "MP Cost: 81, Max Enemies Hit: 8, Damage: 315%, Number of Attacks: 6\\nNormal Enemy Damage: +380%",
+                    "icons": ["/class-icons/resistance/blaster/hexa-shotgun-punch.png", "/class-icons/resistance/blaster/shotgun-punch.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3pibnE5enVqMHE0MzcydWdtaDNkankwZWN0dHZ6amR4N3h1cnRmaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YSNWP4T81yhKD4rYgS/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/blaster/hexa-revolving-cannon-ballistic-hurricane.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/resistance/blaster/revolving-cannon.png} tip={Revolving Cannon (1st Job)}> <tt src={/class-icons/resistance/blaster/ballistic-hurricane.png} tip={Ballistic Hurricane (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Revolving Cannon",
+                    "shortDesc": "Ammo Cost: 1, Ammo is reloaded if used as a key-down skill\\nRevolving Cannon is auto-triggered when Magnum Punch and Double Blast are used. Max Enemies Hit: 6, Damage: 675%, Number of Attacks: 4",
+                    "icons": ["/class-icons/resistance/blaster/hexa-revolving-cannon.png", "/class-icons/resistance/blaster/revolving-cannon.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmYwbmxpcGZtOGt5NW1kN3M3aWZqNjV1ZGNmMHNrejNrYWdqdDdjbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RDm2oSOrn2RZcLXI7E/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVxcWNxdzlvMG10b2IwMGpyOThnZDMzNGs5MTJlMHg1NDI4YTZrdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CR9PNpnTPqDxL8Qfqb/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Ballistic Hurricane",
+                    "shortDesc": "MP Cost: 71, Max Enemies Hit: 12, Damage: 2520%, Number of Attacks: 5\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/resistance/blaster/hexa-ballistic-hurricane.png", "/class-icons/resistance/blaster/ballistic-hurricane.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDhjdDl3b292ODcxd2d5bXl1a205Yng1cm9yZHd1eWF5ZXJqb2wybCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/m9narFlSwXBrJK4Ifz/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Final Destroyer",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15, Damage: 1500%, Number of Attacks: 10, Number of Heat: 43\\nAfterwards, Max Enemies Hit: 15, Damage: 1550%, Number of Attacks: 14, Number of Explosions: 30\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/resistance/blaster/final-destroyer.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWd6cHloMDN1emh5anBtemhqNGM5OW52NW1xMHZlOXJ0MTMzZTV1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HjjBGOs6GY78q5hQ6c/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Vanguard Strike",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nCauses 20 shockwaves, dealing 3045% damage to up to 15 enemies 14 times\\nAfterwards, releases burning fuel 20 times, dealing 4375% damage 12 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/resistance/blaster/vanguard-strike.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3ZnZGNrbzF2bnMxZTYwaTY0eHlob3gyd3RmYjl5MTd5cTJ1Ym85diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K1cmtSMQQtIqxrWKXJ/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Rocket Punch Boost",
+                    "shortDesc": "Rocket Punch Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/blaster/rocket-punch.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Gatling Punch Boost",
+                    "shortDesc": "Gatling Punch Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/blaster/gatling-punch.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Bullet Blast Boost",
+                    "shortDesc": "Bullet Blast Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/blaster/bullet-blast.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Afterimage Shock Boost",
+                    "shortDesc": "Afterimage Shock Final Damage: +60%",
+                    "icons": ["/class-icons/resistance/blaster/afterimage-shock.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Magnum Punch - 1st Job",
+                "icons": ["/class-icons/resistance/blaster/magnum-punch.png"],
+                "animations": ["https://media1.giphy.com/media/cZd0BV1765HxUxQlAo/giphy.gif"]
+            },
+            {
+                "name": "Bunker Buster Explosion - 1st Job",
+                "icons": ["/class-icons/resistance/blaster/bunker-buster-explosion.png"],
+                "animations": ["https://media3.giphy.com/media/zwG3eFSpYT20Q3nN1L/giphy.gif"]
+            },
+            {
+                "name": "Shotgun Punch - 4th Job",
+                "icons": ["/class-icons/resistance/blaster/shotgun-punch.png"],
+                "animations": ["https://media3.giphy.com/media/a7jT1jL4Q1DHFSy1zp/giphy.gif"]
+            },
+            {
+                "name": "Hyper Magnum Punch - Hyper Skill",
+                "icons": ["/class-icons/resistance/blaster/hyper-magnum-punch.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHg0aW1neG5vemQ1ZTNneHJ4MjIwNmxtNG41M3Z4Znd3MjZ2bzYyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CC6z7Vwtq4r3zDsH0r/giphy.gif"]
+            },
+            {
+                "name": "Gatling Punch - 5th Job",
+                "icons": ["/class-icons/resistance/blaster/gatling-punch.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDVwbGNpMm1mYW82N2N6NmowNHA2OHBoMjE2cnU2Mzh4N2duZmk3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AxyEWf04oGe9181EVU/giphy.gif"]
+            },
+            {
+                "name": "Bullet Blast - 5th Job",
+                "icons": ["/class-icons/resistance/blaster/bullet-blast.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmh5MDU0N3RlajBqa3Z6MWMza3hjYnp0MzVhb201OXA2aTY3bTlrdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UOaqcfSeSBVmLkO3nh/giphy.gif"]
+            },
+            {
+                "name": "Final Destroyer - 6th Job",
+                "icons": ["/class-icons/resistance/blaster/final-destroyer.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWd6cHloMDN1emh5anBtemhqNGM5OW52NW1xMHZlOXJ0MTMzZTV1cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HjjBGOs6GY78q5hQ6c/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Vanguard Strike - 6th Job",
+                "icons": ["/class-icons/resistance/blaster/vanguard-strike.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3ZnZGNrbzF2bnMxZTYwaTY0eHlob3gyd3RmYjl5MTd5cTJ1Ym85diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K1cmtSMQQtIqxrWKXJ/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Blaster is a STR warrior class part of the Resistance class group. Blasters are known to be high-APM compared to other classes and have a big learning curve. Additionally, Blasters have two additional types of resources, Ammo and a Dynamo Gauge. Certain skills will consume Ammo to use and charge up your Dynamo Gauge to unleash powerful attacks"
+}

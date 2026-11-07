@@ -1,0 +1,1180 @@
+{
+    "class": "Cadena",
+    "content": {
+        "classGroup": "Nova",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX + STR",
+        "legion": "Grants flat LUK",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["chain"]},
+            {"secondary": ["warpForge"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/nova/cadena/weapon-booster.png} tip={Weapon Booster (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/nova/cadena/weapons-expert.png} tip={Weapons Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "LUK",
+                "stat": "+80 & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/nova/cadena/uncanny-luck.png} tip={Uncanny Luck (1st Job)} val={+50}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/nova/cadena/nova-warrior.png} tip={Nova Warrior (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +60(90)",
+                "detail": "<bg src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg src={/class-icons/nova/cadena/wisdom-of-shadows.png} tip={Wisdom of Shadows (2nd Job)} val={+10}> <bg src={/class-icons/nova/cadena/weapons-expert.png} tip={Weapons Expert (4th Job)} val={+50}> <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+30}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+55%(79%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/nova/cadena/wisdom-of-shadows.png} tip={Wisdom of Shadows (2nd Job)} val={+10%}> <bg src={/class-icons/nova/cadena/weapons-expert.png} tip={Weapons Expert (4th Job)} val={+30%}> <bg src={/class-icons/nova/cadena/wisdom-of-shadows-ii.png} tip={Wisdom of Shadows II (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/nova/cadena/shadowdealers-elixir.png} tip={Shadowdealer's Elixir (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/nova/cadena/cheap-shot-ii.png} tip={Cheap Shot II (4th Job)} val={+2% per debuff on enemy} val={(Max. +14%)}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%(100%)",
+                "detail": "<bg src={/class-icons/nova/cadena/wisdom-of-shadows.png} tip={Wisdom of Shadows (2nd Job)} val={+5%}> <bg src={/class-icons/nova/cadena/weapons-expert.png} tip={Weapons Expert (4th Job)} val={+15%}> <bg src={/class-icons/nova/cadena/wisdom-of-shadows-ii.png} tip={Wisdom of Shadows II (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/nova/cadena/cheap-shot-ii.png} tip={Cheap Shot II (4th Job)} val={+10% per debuff on enemy} val={(Max. +70%)}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+20%(71-77%)",
+                "detail": "<bg src={/class-icons/nova/cadena/keen-eye.png} tip={Keen Eye (3rd Job)} val={+20%}> <bg type={temp} src={/class-icons/nova/cadena/shadowdealers-elixir.png} tip={Shadowdealer's Elixir (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/link-skills/unfair-advantage.png} tip={Unfair Advantage (Link Skill)} val={+6% to lower level enemies} val={+6% to debuffed}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th)} val={+35%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/nova/cadena/wisdom-of-shadows-ii.png} tip={Wisdom of Shadows II (4th Job)} val={+20%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+87.2%(285.59%)",
+                "detail": "<bg src={/class-icons/nova/cadena/keen-eye.png} tip={Keen Eye (3rd Job)} val={+4%}> × <bg type={def} sub={temp} src={/class-icons/nova/cadena/muscle-memory-iii.png} tip={Muscle Memory III (4th Job)} val={+10% per unique weapon used} val={(Max. +80%)} subSrc={/class-icons/nova/cadena/veteran-shadowdealer.png} subTip={Veteran Shadowdealer (Hyper Skill)} subVal={doubled when active}> × <bg type={temp} sub={opt} src={/class-icons/nova/cadena/chain-arts-thrash.png} tip={Chain Arts: Thrash (1st Job)} val={+10% to skills after 1st attack} subSrc={/class-icons/nova/cadena/chain-arts-thrash-linked-attack-reinforce.png} subTip={Chain Arts: Thrash - Linked Attack Reinforce (Hyper Skill)} subVal={extra +5%}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+44%",
+                "detail": "<bg src={/class-icons/nova/cadena/keen-eye.png} tip={Keen Eye (3rd Job)} val={+20%}> × <bg type={debuff} src={/class-icons/nova/cadena/summon-daggers.png} tip={Summon Daggers (3rd Job)} val={+30%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/nova/cadena/weapon-booster.png} tip={Weapon Booster (2nd Job)} dur={[200s]}>",
+            "summons": "<tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken (2nd Job)} dur={[7s](10s cd)}> <tt src={/class-icons/nova/cadena/apocalypse-cannon.png} tip={Apocalypse Cannon (5th Job)} dur={[15s](25s cd)}> <tt src={/class-icons/nova/cadena/chain-arts-maelstrom.png} tip={Chain Arts: Maelstrom (5th Job)} dur={[15s]}>",
+            "buffCd": "<tt src={/class-icons/nova/cadena/shadowdealers-elixir.png} tip={Shadowdealer's Elixir (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/nova/cadena/veteran-shadowdealer.png} tip={Veteran Shadowdealer (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/nova/cadena/chain-arts-void-strike.png} tip={Chain Arts: Void Strike (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/nova/cadena/chain-arts-beatdown.png} tip={Chain Arts: Beatdown (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/nova/cadena/chain-arts-grand-arsenal.png} tip={Chain Arts: Grand Arsenal (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tip={Chain Arts: Reign of Chains (4th Job)} dur={[2s](45s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s Buff](1200s cd blocks 1 death)}> <tt src={/class-icons/nova/cadena/chain-arts-grand-arsenal.png} tip={Chain Arts: Grand Arsenal (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/nova/cadena/muscle-memory-iii.png} tip={Muscle Memory III (4th Job)} dur={[Slowly dissipates](Up to 25% HP | Barrier)}>"
+        },        
+        "linkSkill": {
+            "id": 80000261,
+            "offline": true,
+            "name": "Unfair Advantage",
+            "maxLevel": 3,
+            "shortDesc": "Attacks against weaker opponents deal +9% damage. Attacks against monsters afflicted by Abnormal Statuses deal +9% damage.",
+            "icons": ["/class-icons/link-skills/unfair-advantage.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Weaker opponents refer to enemies lower level than you"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/nova/cadena/shadowstep.png} tip={Shadowstep}> -> <tt src={/class-icons/nova/cadena/uncanny-luck.png} tip={Uncanny Luck}> -> <tt src={/class-icons/nova/cadena/the-way-of-shadows.png} tip={The Way of Shadows}> -> <tt src={/class-icons/nova/cadena/chain-arts-thrash.png} tip={Chain Arts: Thrash}> -> <tt src={/class-icons/nova/cadena/summon-scimitar.png} tip={Summon Scimitar}> -> <tt src={/class-icons/nova/cadena/chain-arts-pursuit.png} tip={Chain Arts: Pursuit}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/nova/cadena/weapon-mastery.png} tip={Weapon Mastery}> -> <tt src={/class-icons/nova/cadena/weapon-booster.png} tip={Weapon Booster}> -> <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory}> -> <tt src={/class-icons/nova/cadena/chain-arts-thrash-ii.png} tip={Chain Arts: Thrash II}> -> <tt src={/class-icons/nova/cadena/wisdom-of-shadows.png} tip={Wisdom of Shadows}> -> <tt src={/class-icons/nova/cadena/summon-claw.png} tip={Summon Claw}> -> <tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken}> -> <tt src={/class-icons/nova/cadena/chain-yank.png} tip={Chain Yank}>"],
+                ["3rd Job", "<tt src={/class-icons/nova/cadena/muscle-memory-ii.png} tip={Muscle Memory II}> -> <tt src={/class-icons/nova/cadena/chain-arts-thrash-iii.png} tip={Chain Arts: Thrash III}> -> <tt src={/class-icons/nova/cadena/determination.png} tip={Determination}> -> <tt src={/class-icons/nova/cadena/cheap-shot.png} tip={Cheap Shot}> -> <tt src={/class-icons/nova/cadena/keen-eye.png} tip={Keen Eye}> -> <tt src={/class-icons/nova/cadena/summon-decoy-bomb.png} tip={Summon Decoy Bomb}> -> <tt src={/class-icons/nova/cadena/summon-daggers.png} tip={Summon Daggers}> -> <tt src={/class-icons/nova/cadena/summon-shotgun.png} tip={Summon Shotgun}>"],
+                ["4th Job", "<tt src={/class-icons/nova/cadena/muscle-memory-iii.png} tip={Muscle Memory III}> -> <tt src={/class-icons/nova/cadena/chain-arts-thrash-iv.png} tip={Chain Arts: Thrash IV}> -> <tt src={/class-icons/nova/cadena/weapons-expert.png} tip={Weapons Expert}> -> <tt src={/class-icons/nova/cadena/cheap-shot-ii.png} tip={Cheap Shot II}> -> <tt src={/class-icons/nova/cadena/wisdom-of-shadows-ii.png} tip={Wisdom of Shadows II}> -> <tt src={/class-icons/nova/cadena/nova-warrior.png} tip={Nova Warrior}> -> <tt src={/class-icons/nova/cadena/summon-spiked-bat.png} tip={Summon Spiked Bat}> -> <tt src={/class-icons/nova/cadena/summon-brick.png} tip={Summon Brick}> -> <tt src={/class-icons/nova/cadena/chain-arts-beatdown.png} tip={Chain Arts: Beatdown}> -> <tt src={/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tip={Chain Arts: Reign of Chains}> -> <tt src={/class-icons/nova/nova-temperance.png} tip={Nova Temperance}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/nova/cadena/chain-less-arts-reinforce.png} tip={Chain-less Arts - Reinforce}> <tt src={/class-icons/nova/cadena/chain-less-arts-boss-rush.png} tip={Chain-less Arts - Boss Rush}> Chain-less Arts - Reinforce and Boss Rush_<tt src={/class-icons/nova/cadena/chain-arts-thrash-reinforce.png} tip={Chain Arts: Thrash - Reinforce}> <tt src={/class-icons/nova/cadena/chain-arts-thrash-linked-attack-reinforce.png} tip={Chain Arts Thrash - Linked Attack Reinforce}> Chain Arts: Thrash - Reinforce and Linked Attack Reinforce_<tt src={/class-icons/nova/cadena/chain-arts-beatdown-cooldown-cutter.png} tip={Chain Arts: Beatdown - Cooldown Cutter}> Chain Arts: Beatdown - Cooldown Cutter_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/nova/cadena/summon-brick.png} tip={Summon Brick (4th Job)}> <tt src={/class-icons/nova/cadena/summon-spiked-bat.png} tip={Summon Spiked Bat (4th Job)}> <tt src={/class-icons/nova/cadena/summon-daggers.png} tip={Summon Daggers and Summon Shuriken (3rd Job / 2nd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/nova/cadena/summon-shotgun.png} tip={Summon Shotgun and Summon Decoy Bomb (3rd Job)}> <tt src={/class-icons/nova/cadena/summon-scimitar.png} tip={Summon Scimitar and Summon Claw (1st Job / 2nd Job)}> <tt src={/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tip={Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)}>"],
+                    ["Tertiary Trio", "<tt src={/class-icons/nova/cadena/chain-arts-beatdown.png} tip={Chain Arts: Beatdown (4th Job)}> <tt src={/class-icons/nova/cadena/veteran-shadowdealer.png} tip={Crush and Veteran Shadowdealer (Hyper Skill)}> *"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "The last skill from the Tertiary Trio can be any skill as Cadena only has 8 skills to boost",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/nova/cadena/chain-arts-thrash.png} tip={Chain Arts: Thrash (1st Job)}> <tt src={/class-icons/nova/cadena/chain-arts-crush.png} tip={Chain Arts: Crush (Hyper Skill)}> <tt src={/class-icons/nova/cadena/chain-arts-beatdown.png} tip={Chain Arts: Beatdown (4th Job)}>",
+                "<tt src={/class-icons/nova/cadena/summon-spiked-bat.png} tip={Summon Spiked Bat (4th Job)}> <tt src={/class-icons/nova/cadena/summon-scimitar.png} tip={Summon Scimitar (1st Job)}> <tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken (2nd Job)}> <tt src={/class-icons/nova/cadena/summon-claw.png} tip={Summon Claw (2nd Job)}>",
+                "<tt src={/class-icons/nova/cadena/veteran-shadowdealer.png} tip={Veteran Shadowdealer (Hyper Skill)}> <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}>",
+                "<tt src={/class-icons/nova/cadena/summon-shotgun.png} tip={Summon Shotgun (3rd Job)}> <tt src={/class-icons/nova/cadena/summon-brick.png} tip={Summon Brick (4th Job)}> <tt src={/class-icons/nova/cadena/summon-daggers.png} tip={Summon Daggers (3rd Job)}> <tt src={/class-icons/nova/cadena/summon-decoy-bomb.png} tip={Summon Decoy Bomb (3rd Job)}>",
+                "<tt src={/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tip={Chain Arts: Reign of Chains (4th Job)}>", 
+                "<tt src={/class-icons/nova/cadena/chain-yank.png} tip={Chain Yank (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Cadena"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%B9%B4%EB%8D%B0%EB%82%98"},
+            {"title": "Class Discord", "link": "https://discord.gg/5rKRYYCA4v"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1mpmXgE5pWITvp3OHlV0LTmekFiXoZr4Zdb8X_Kv2i14"},
+            {"title": "Class Website", "link": "https://www.mapledocs.info/classes/cadena"},
+            {"title": "Combo Practice", "link": "https://www.mapledocs.info/practice/cadena"}
+        ],
+        "infographics": [
+            {
+                "src": "cadena/cadena-6th-job.png",
+                "title": "6th Job",
+                "credit": "Cadena Class Doc",
+                "date": "2026-09-04"
+            }
+        ],
+        "discord": "https://discord.gg/5rKRYYCA4v",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
+            ["6th Job Skills Animations", "baubaueh"]
+        ],
+        "specialThanks": "Special thanks to baubaueh and SgtPickles for their help in making this overview!",
+        "extraContent": {
+            "title": "Muscle Memory & Dark Sight",
+            "content": [
+                "[Muscle Memory]",
+                "Cadena's skills utilize different weapons to defeat enemies. After 2nd Job, each time a unique weapon is used, gain a stack of <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> Muscle Memory buff. For each stack, gain increased %Final Damage (additively). Below is a list of skills that trigger <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> Muscle Memory:",
+                "<bp_<tt src={/class-icons/nova/cadena/summon-scimitar.png} tip={Summon Scimitar (1st Job)}> Summon Scimitar [1st Job]_<tt src={/class-icons/nova/cadena/summon-claw.png} tip={Summon Claw (2nd Job)}> Summon Claw [2nd Job]_<tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken (2nd Job)}> Summon Shuriken [2nd Job]_<tt src={/class-icons/nova/cadena/summon-shotgun.png} tip={Summon Shotgun (3rd Job)}> Summon Shotgun [3rd Job]_<tt src={/class-icons/nova/cadena/summon-daggers.png} tip={Summon Daggers (3rd Job)}> Summon Daggers [3rd Job]_<tt src={/class-icons/nova/cadena/summon-decoy-bomb.png} tip={Summon Decoy Bomb (3rd Job)}> Summon Decoy Bombs [3rd Job]_<tt src={/class-icons/nova/cadena/summon-brick.png} tip={Summon Brick (4th Job)}> Summon Brick [4th Job]_<tt src={/class-icons/nova/cadena/summon-spiked-bat.png} tip={Summon Spiked Bat (4th Job)}> Summon Spiked Bat [4th Job]_<tt src={/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tip={Chain Arts: Reign of Chains (4th Job)}}> Chain Arts: Reign of Chains [4th Job] refreshes Muscle Memory but does not add a stack_<tt src={/class-icons/nova/cadena/chain-arts-beatdown.png} tip={Chain Arts: Beatdown (4th Job)}> Chain Arts: Beatdown [4th Job] grants a full stack of Muscle Memory_>",
+                "[Dark Sight]",
+                "<em text={Credits to the Night Walker Discord for the list of attacks avoidable with Dark Sight. For an actively maintained version, please check out the Night Walker Discord}>",
+                "In 1st Job, using <tt src={/class-icons/nova/cadena/chain-arts-pursuit.png} tip={Chain Arts: Pursuit (1st Job)}> Chain Arts: Pursuit grants <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state. As well, in 4th Job, activating the additional chain attack from <tt src={/class-icons/nova/cadena/muscle-memory-iii.png} tip={Muscle Memory III (4th Job)}> Muscle Memory III also grants <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state. Below is a list of avoidable attacks that have been tested:",
+                " dsTable "
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Unfair Advantage",
+                    "maxLevel": 3,
+                    "shortDesc": "Attacks against weaker opponents deal +9% damage. Attacks against monsters afflicted by Abnormal Statuses deal +9% damage.",
+                    "icons": ["/class-icons/link-skills/unfair-advantage.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Weaker opponents refer to enemies lower level than you",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Haggle",
+                    "shortDesc": "Purchase items 4% cheaper at shops. Does not apply if the purchase cost is above 70% of the sales cost.\\nWhen stacked with the Merchandising guild skill, the higher figure is applied first.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/haggle.png"],
+                    "type": "Passive",
+                    "desc": "Items in shops are discounted",
+                    "details": [
+                        "When stacked with Guild Skill <tt src={/class-icons/nova/cadena/merchandising.png} tip={Merchandising (Guild Skill)}> Merchandising, the higher discount will be applied first"
+                    ]
+                },
+                {
+                    "name": "Back to HQ",
+                    "shortDesc": "MP Cost: 100, Moves you to the Shadowdealers Hideout.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/back-to-hq.png"],
+                    "animations": ["https://media.giphy.com/media/mmZCqbG1ilD7EWNuHA/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/exclusive-spell.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2R0b2ZscTc0aTNoOTRoZ3NuczIycjZ2dmM3NnU1aGlwMGkzMzBqZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f1VQv3ZNkSudYr2jZc/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/214/Pioneer_of_Destiny} title={\"Pioneer of Destiny\"}>", 
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Chain Arts: Pursuit",
+                        "shortDesc": "MP Cost: 10, Max Enemies Hit: 1, Damage: 100%, Number of Attacks: 1.\\n100% chance to slow enemies for 5 sec. Enables Dark Sight state.\\nCannot be hit for 2 sec. after you start moving.\\nWhen you move, if you dodge an attack that deals damage proportional to Max HP by using Dark Sight, Dark Sight's remaining time will be reduced by 20% of its maximum.\\nCooldown: 0.2 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/chain-arts-pursuit.png"],
+                        "animations": ["https://media.giphy.com/media/BNwW4KXYVOhAdfQV5Q/giphy.gif"],
+                        "type": "Attack / Utility",
+                        "desc": "Fire a grapple that can attach to enemies or terrain",
+                        "details": [
+                            "Pressing an Arrow Key and Skill Key together allows you to direct the chain at a 45° angle upwards/downwards or straight if no Arrow Key is pressed",
+                            "Upon use, the chain will attach to the target and apply a slow debuff if it is an enemy<bp_Pressing again will move you towards the target_While moving, you temporarily enter a <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state and cannot be hit_While in the <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state, if you dodge an attack that deals %Max HP, the duration is reduced slightly_>",
+                            "Based on how long the Skill Key is held, the grapple distance will increase",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Chain Arts: Thrash",
+                        "shortDesc": "MP Cost: 13,\\n[1st Hit] Damage: 150%, Max Enemies Hit: 4, Number of Attacks: 2\\n[2nd Hit] Damage: 150%, Max Enemies Hit: 6, Number of Attacks: 2, 100% chance of slowing enemies for 5 sec.\\nSkills used immediately after 1st hit gain +10% Final Damage (Excludes Chain Arts: Thrash).",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/chain-arts-thrash.png"],
+                        "animations": ["https://media.giphy.com/media/DncVgjv7flzKuKOpeP/giphy.gif"],
+                        "type": "Basic Attack Modifier",
+                        "desc": "Lash your whip forward that applies a slow debuff to enemies hit",
+                        "details": [
+                            "The attack consists of two parts, the initial lash and the returning lash",
+                            "Other skills can be used between the initial lash and returning lash<bp_Skills used immediately after the initial lash will deal increased %Final Damage (excluding returning lash)_>",
+                            "The returning lash will push back enemies"
+                        ]
+                    },
+                    {
+                        "name": "Summon Scimitar",
+                        "shortDesc": "MP Cost: 15, Damage: 125%, Max Enemies Hit: 6, Number of Attacks: 5\\nCooldown: 4 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/cadena/summon-scimitar.png"],
+                        "animations": ["https://media.giphy.com/media/oH9DfGYzWyNxvuskoo/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while slicing through enemies",
+                        "details": [
+                            "While casting, you cannot be knocked back at all (Super Knockback Resistance)"
+                        ]
+                    },
+                    {
+                        "name": "Shadowstep",
+                        "shortDesc": "MP Cost: 5, allows you to jump a greater distance",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/nova/cadena/shadowstep.png"],
+                        "animations": ["https://media.giphy.com/media/7woYVuMokFwm9RPXsa/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>",
+                            "Horizontal jump can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "name": "The Way of Shadows",
+                        "shortDesc": "Speed: +40, Jump: +20, Max Speed: +20, Avoidability: +15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/the-way-of-shadows.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Uncanny Luck",
+                        "shortDesc": "Permanently increases LUK by 50",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/uncanny-luck.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Chain Arts: Thrash II",
+                        "shortDesc": "Chain Arts: Thrash 2nd Hit Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 3",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/chain-arts-thrash-ii.png", "/class-icons/nova/cadena/chain-arts-thrash.png"],
+                        "animations": ["https://media.giphy.com/media/CGmUT7oAie9cMKF0IX/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and number of hits of 2nd hit"
+                        ]
+                    },
+                    {
+                        "name": "Summon Claw",
+                        "shortDesc": "MP Cost: 20, Damage: 235%, Max Enemies Hit: 10, Number of Attacks: 4\\nCooldown: 3 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/cadena/summon-claw.png"],
+                        "animations": ["https://media.giphy.com/media/69IIsf9Uw36C4YyOqd/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash downwards to the platform below",
+                        "details": [
+                            "While casting, you cannot be knocked back at all (Super Knockback Resistance)",
+                            "Can only be used while in the air"
+                        ]
+                    },
+                    {
+                        "name": "Summon Shuriken",
+                        "shortDesc": "Summons a Shuriken, MP Cost: 28, Duration: 7 sec, Enemies Hit: 1, Damage: 205%\\nNumber of Attacks: 1\\nAutomatically explodes after 7 sec. Press the skill key again to manually detonate\\nExplosion deals 450% damage to up to 8 enemies 3 times\\nCooldown: 10 sec",
+                        "maxLevel": 19,
+                        "icons": ["/class-icons/nova/cadena/summon-shuriken.png"],
+                        "animations": ["https://media.giphy.com/media/IdVcewaXvgU4Tiy3uD/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Summon a moving shuriken that pushes enemies",
+                        "details": [
+                            "Upon expiring or pressing the Skill Key again, the shuriken will explode damaging nearby enemies",
+                            "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state will not be deactivated when using this skill or by the explosion attack",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Chain Yank",
+                        "shortDesc": "MP Cost: 20, Damage: 300%, Max Enemies Pushed: 5",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/nova/cadena/chain-yank.png"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWc2anBzNXBud3o0NDRhZGFibTJ6NDN4NjM3Z3hoNDd5MXZiYTQ0dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xEYqIePAQwP5Ni92FW/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies"
+                    },
+                    {
+                        "name": "Weapon Booster",
+                        "shortDesc": "MP Cost: 10, Increases attack speed of all weapons for 200 sec.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/nova/cadena/weapon-booster.png"],
+                        "animations": ["https://media.giphy.com/media/qvyA7iSJ2w9MH64qlY/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Increases Attack Speed (by 2 stages)"
+                    },
+                    {
+                        "name": "Muscle Memory",
+                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +3% per stack, for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing this buff stack inflicts additional hits. [Bonus Hits] Damage: 100%, Max Enemies Hit: 5, Number of Attacks: 2, Cooldown: 0.2 sec.\\n[Passive Effect: Damage for Scimitar +80% points]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/muscle-memory.png"],
+                        "animations": ["https://media.giphy.com/media/bLpUBIdHNSRK3TgWJa/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Whenever a new Summon weapon skill is used, an additional attack will activate damaging nearby enemies",
+                        "details": [
+                            "For each unique Summon weapon skill used, gain a stacking %Final Damage buff<bp_Each activation will refresh the buff duration_>",
+                            "Additionally, permanently increases %Damage of <tt src={/class-icons/nova/cadena/summon-scimitar.png} tip={Summon Scimitar (1st Job)}> by a flat amount",
+                            "Unaffected by %Buff Duration and cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Weapon Mastery",
+                        "shortDesc": "Mastery with Chain, and all Summoned Weapons increased by 50%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/weapon-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increases LUK by 30 and DEX by 30.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Wisdom of Shadows",
+                        "shortDesc": "Attack Power: +10, Critical Damage: +5%, Critical Rate: +10%, Avoidability: +20%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/wisdom-of-shadows.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Chain Arts: Thrash III",
+                        "shortDesc": "Chain Arts: Thrash 2nd Hit Damage: 300%, Max Enemies Hit: 7, Number of Attacks: 4",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/chain-arts-thrash-iii.png", "/class-icons/nova/cadena/chain-arts-thrash.png"],
+                        "animations": ["https://media.giphy.com/media/ESqFKfXxw1br3x3bnu/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of 2nd hit",
+                            "Increases number of hits and max enemies hit"
+                        ]
+                    },
+                    {
+                        "name": "Summon Shotgun",
+                        "shortDesc": "MP Cost: 30\\nClose-Range Max Enemies Hit: 6, Damage: 390%, Number of Attacks: 7\\nMid-Range Max Enemies Hit: 6, Damage: 320%, Number of Attacks: 7\\nLong-Range Max Enemies Hit: 6, Damage: 275%, Number of Attacks: 7\\nCooldown: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/cadena/summon-shotgun.png"],
+                        "animations": ["https://media.giphy.com/media/W2hGcuRmHfi9RtlGwc/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a shotgun forward damaging enemies and recoiling you backwards",
+                        "details": [
+                            "The damage of the attack will vary based on the distance the enemy is to the attack",
+                            "While casting, you cannot be knocked back at all (Super Knockback Resistance)"
+                        ]
+                    },
+                    {
+                        "name": "Summon Daggers",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 4, Damage: 315%, Number of Attacks: 8, Terror Chance: 100%, Duration: 30 sec, Enemy DEF -30%\\nCooldown: 10 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/cadena/summon-daggers.png"],
+                        "animations": ["https://media.giphy.com/media/LhpYBy45Nxu7vWhjo0/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash upwards in place that damages enemies and applies a debuff",
+                        "details": [
+                            "[Debuff]: Reduces %DEF<bp_Reduction to %DEF can be considered as %Ignore DEF_>"
+                        ]
+                    },
+                    {
+                        "name": "Summon Decoy Bomb",
+                        "shortDesc": "MP Cost: 40, setting up a bomb that detonates after 1 sec, Max Enemies Hit: 8, Damage: 415%, Number of Attacks: 6\\nCooldown: 8 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/cadena/summon-decoy-bomb.png"],
+                        "animations": ["https://media.giphy.com/media/yFMfZD22K9vGfxMNKO/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap backwards and throw bombs that explode after a delay",
+                        "details": [
+                            "While casting, you cannot be knocked back at all (Super Knockback Resistance)",
+                            "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state will not be deactivated when using this skill or by the explosion attack",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Muscle Memory II",
+                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +7% per stack, for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 3\\nCooldown for Bonus Hits: 0.2 sec\\n[Passive Effects - Damage for Summon Scimitar, Claw, Shuriken +100% points]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/muscle-memory-ii.png", "/class-icons/nova/cadena/muscle-memory.png"],
+                        "animations": ["https://media.giphy.com/media/bYI1072L6mF3i9x5Uk/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Final Damage provided per stack",
+                            "Increases %Damage, number of hits, and max enemies hit",
+                            "Additionally, permanently increases the %Damage by a flat amount for the following skills: <tt src={/class-icons/nova/cadena/summon-scimitar.png} tip={Summon Scimitar (1st Job)}> <tt src={/class-icons/nova/cadena/summon-claw.png} tip={Summon Claw (2nd Job)}> <tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Determination",
+                        "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%, Knockback Resistance: +40%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/nova/cadena/determination.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Cheap Shot",
+                        "shortDesc": "Your attacks against enemies affected by Abnormal Statuses gain Critical Rate: +1%, Critical Damage +5%, Applies up to 5 Abnormal Statuses.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/nova/cadena/cheap-shot.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Keen Eye",
+                        "shortDesc": "Ignore DEF: +20%, Damage: +20%, Final Damage: +4%, Avoidability: +40%",
+                        "maxLevel": 19,
+                        "icons": ["/class-icons/nova/cadena/keen-eye.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "name": "Chain Arts: Thrash IV",
+                    "shortDesc": "Chain Arts: Thrash 2nd Hit Damage: 400%, Max Enemies Hit: 7, Number of Attacks: 5",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-thrash-iv.png", "/class-icons/nova/cadena/chain-arts-thrash.png"],
+                    "animations": ["https://media.giphy.com/media/4iN0p3L5cLbhb0o0CN/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage and number of hits of 2nd hit"
+                    ]
+                },
+                {
+                    "name": "Summon Brick",
+                    "shortDesc": "MP Cost: 45, Damage: 535%, Max Enemies Hit: 7, Number of Attacks: 7\\nCooldown: 8 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/cadena/summon-brick.png"],
+                    "animations": ["https://media.giphy.com/media/D3YHtyOyDfJZS6eK83/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Leap forward and launch a brick",
+                    "details": [
+                        "Pressing the Up Arrow Key and Skill Key together performs a higher leap",
+                        "While casting, you cannot be knocked back at all (Super Knockback Resistance)"
+                    ]
+                },
+                {
+                    "name": "Summon Spiked Bat",
+                    "shortDesc": "MP Cost: 40\\n1st Hit - Damage: 330%, Max Enemies Hit: 8, Number of Attacks: 12\\n2nd Hit - Damage: 443%, Max Enemies Hit: 8, Number of Attacks: 13\\n3rd Hit - Damage: 653%, Max Enemies Hit: 10, Number of Attacks: 14\\nEnemies struck have a 100% chance to be confused for 30 sec, Enemy Attack: -20%\\nCooldown: 12 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/cadena/summon-spiked-bat.png"],
+                    "animations": ["https://media.giphy.com/media/wx06aYncVQJCuvuYlj/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slam a bat forward consecutively up to 3 times that inflicts a debuff",
+                    "details": [
+                        "[Debuff]: Reduces %Attack",
+                        "Each consecutive strike deals increased damage",
+                        "If another skill is used before the last hit, the skill will go on cooldown and the remaining hits cannot be utilized"
+                    ]
+                },
+                {
+                    "name": "Chain Arts: Reign of Chains",
+                    "shortDesc": "MP Cost per attack: 25, Invincibility Duration: 2 sec\\nDamage: 600%, Max Enemies Hit: 12, Number of Attacks: 2, Attack Duration: 6 sec,\\nCan use directional keys to move while holding the skill key.\\nCooldown: 45 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-reign-of-chains.png"],
+                    "animations": ["https://media.giphy.com/media/Sx92dxcSS5cuAC7K4a/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, swing your chain to pull enemies in",
+                    "details": [
+                        "Attack refreshes the <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> Muscle Memory buff but does not count as a stack",
+                        "Upon casting, you are briefly invincible",
+                        "You can move while casting",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Chain Arts: Beatdown",
+                    "shortDesc": "MP Cost: 255, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 2, Stun Duration: 10 sec\\nIncreases stun duration up to 100% based on damage inflicted with Chain Arts: Beatdown.\\nAfter casting, Strike occurs if 5 additional hits are activated by Muscle Memory.\\nAfter Strike occurrs, max Muscle Memory stacks are kept for 4.5 sec.\\nStrike: Attacks up to 10 enemies in their grouped location with 990% damage 15 times(s)\\nDuring the strike, activates a shockwave that attacks up to 10 enemies with 600% damage 4 time(s). Additional DEF Ignored: +80%.\\nCooldown: 120 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-beatdown.png"],
+                    "animations": ["https://media.giphy.com/media/uVtmb3AGZXL6CnqeHe/giphy-downsized-large.gif"],
+                    "type": "Bind Attack",
+                    "desc": "Bind nearby enemies and release a [Strike] attack",
+                    "details": [
+                        "The [Strike] attack is triggered upon activating <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> a set number of times",
+                        "Upon triggering the [Strike] attack, a short buff of max stacks of <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> Muscle Memory is granted",
+                        "Attack targets the enemy with the highest Max HP first and has increased %Ignore DEF",
+                        "Right-clicking the skill toggles a function ON/OFF to disable the enemy bind effect",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Nova Warrior",
+                    "shortDesc": "MP Cost: 70, Grandis Goddess appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/cadena/nova-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/9UMXu9pzF9Vh0h1TxN/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Nova Temperance",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/nova/nova-temperance.png"],
+                    "animations": ["https://media.giphy.com/media/lTxkvM3hr7o2hsrdSM/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Muscle Memory III",
+                    "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +10% for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 350%, Max Enemies Hit: 7, Number of Attacks: 4, Cooldown: 0.2 sec\\nWhen bonus hit triggers, Dark Sight Duration: 2 sec, Protective Shield: blocks 7% of Max HP\\nProtective Shield can accumulate as much as 25% of Max HP, and consumes 30% + 50 of the current Protective Shield per sec\\n[Passive Effect: Damage for Summon Scimitar, Claw, Shuriken, Shotgun, Daggers, and Decoy Bomb are all increased by +170% points]",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/nova/cadena/muscle-memory-iii.png", "/class-icons/nova/cadena/muscle-memory.png"],
+                    "animations": ["https://media.giphy.com/media/wgbOXaLLZCdN3Gy0Md/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Final Damage provided per stack",
+                        "Increases %Damage, number of hits, and max enemies hit",
+                        "Upon activating the additional chain attack, now enters <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state and grants a stacking %Max HP barrier that decays over time",
+                        "Additionally, permanently increases the %Damage by a flat amount for the following skills: <tt src={/class-icons/nova/cadena/summon-scimitar.png} tip={Summon Scimitar (1st Job)}> <tt src={/class-icons/nova/cadena/summon-claw.png} tip={Summon Claw (2nd Job)}> <tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken (2nd Job)}> <tt src={/class-icons/nova/cadena/summon-shotgun.png} tip={Summon Shotgun (3rd Job)}> <tt src={/class-icons/nova/cadena/summon-daggers.png} tip={Summon Daggers (3rd Job)}> <tt src={/class-icons/nova/cadena/summon-decoy-bomb.png} tip={Summon Decoy Bombs (3rd Job)}>"
+                    ]
+                },
+                {
+                    "name": "Cheap Shot II",
+                    "shortDesc": "Damage Against Normal Monsters: +10%\\nYour attacks against enemies affected by Abnormal Statuses gain Critical Rate +2% and Critical Damage +10%. Applies up to 7 Abnormal Statuses\\nBleed Chance: 50%, Bleed Duration: 30 sec, Bleed Damage: 110% over 1 sec.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/nova/cadena/cheap-shot-ii.png", "/class-icons/nova/cadena/cheap-shot.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Crit Rate and %Crit Damage gained towards enemies affected by Abnormal Statuses",
+                        "Increases max debuff stacks counted towards an enemy (from 5 to 7)",
+                        "Now increases %Damage against regular monsters",
+                        "Now grants successful attacks a chance to inflict a damaging debuff"
+                    ]
+                },
+                {
+                    "name": "Weapons Expert",
+                    "shortDesc": "For chain and all Summoned Weapons - Mastery: +70%, Attack Power: +50, Critical Rate: +30%, Critical Damage: +15%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/cadena/weapons-expert.png", "/class-icons/nova/cadena/weapon-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Rate and %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Wisdom of Shadows II",
+                    "shortDesc": "Attack Power: +30, Critical Damage: +10%, Critical Rate: +10%, Boss Damage: +20%, Avoidability: +15%, Knockback Resistance: +60%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/cadena/wisdom-of-shadows-ii.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Chain-less Arts: Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-less-arts-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of summoned weapon attacks"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Chain-less Arts: Critical Chance",
+                    "shortDesc": "Critical Rate +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-less-arts-critical-chance.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Crit Rate of summoned weapon attacks"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Chain-less Arts: Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-less-arts-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of summoned weapon attacks"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Chain Arts: Thrash - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-thrash-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Chain Arts: Thrash - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-thrash-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Chain Arts: Thrash - Linked Attack Reinforce",
+                    "shortDesc": "Final Damage of skills used immediately after 1 hit of Chain Arts: Thrash +5% (Excludes Chain Arts: Thrash).",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-thrash-linked-attack-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Chain Arts: Beatdown - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-beatdown-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Chain Arts: Beatdown - Shockwave Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-beatdown-shockwave-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of the shockwaves triggered by the secondary attack"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Chain Arts: Beatdown - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -50%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-beatdown-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Veteran Shadowdealer",
+                    "shortDesc": "MP Cost: 500, Duration: 20 sec, Multiplies the effects of Muscle Memory by 2\\nCreates an explosion that attacks up to 6 enemies with 220% damage 3 times upon landing\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/veteran-shadowdealer.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2pza3JoanhnbGpiMzd6a2h6MG12aW1vZjcyYmIxODJjMnh1MWpxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ydg5oPry7hKKGtxw3i/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Doubles the effects of <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> Muscle Memory buff and successful attacks deal an additional attack",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Chain Arts: Crush",
+                    "shortDesc": "MP Cost: 300, Damage: 510%, Max Enemies Hit: 15, Number of Attacks: 15\\nMuscle Memory at max stacks on hit, Duration: 15 sec\\nCooldown: 30 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/chain-arts-crush.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTE3Y3lsMmxjbHozbjB5em01bzEwYTI3ZXV4YWtuZHF1dnNzdWZ6aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fqIdnhStWMPGqtydOo/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Create chains that strike from above",
+                    "details": [
+                        "Upon successful hit, grants max stacks of <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> Muscle Memory buff that lasts a shorter duration"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Shadowdealer's Elixir",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%, Critical Rate: +10%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/cadena/shadowdealers-elixir.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDB6bzRpYXJjYm1ibWpkcHVzaWxkb3c1azVxOGxmbmRjY3k1dGpybCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4vOZKLhRdXU1WrQa1S/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["mightOfTheNova", "grandisGoddessBlessingKAI", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Chain Arts: Void Strike",
+                    "shortDesc": "MP Cost: 1000, Duration: 40 sec. Creates giant chains that travel along an arbitrary path inflicting 1045% damage 6 times to up to 10 enemies.\\nChain Cooldown: 0.6 sec\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/nova/cadena/chain-arts-void-strike.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXkyZmJ2NmhnOWlwYmRhMGdhczhsb2tkbGZ2dG53cWE0MXFqdDNqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3vw32T2cm1d7dKWNIt/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, chains lash across the map damaging enemies in its path",
+                    "details": [
+                        "Right-clicking the skill toggles the visual gray background ON/OFF",
+                        "Unaffected by Damage Ignore and Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Apocalypse Cannon",
+                    "shortDesc": "MP Cost: 1000. Max Duration: 15 sec.\\nThe cannon gathers energy for 10 sec., periodically inflicting 495% damage 5 times to up to 8 enemies at set intervals.\\nAmasses up to 38 times, and increases the cannon's duration if it's not fully amassed.\\nCan be resummoned by pressing the skill key again.\\nAfter amassing enough energy, it creates a supernova that deals 1650% damage 8 times to up to 15 enemies.\\nCooldown: 25 sec.",
+                    "icons": ["/class-icons/nova/cadena/apocalypse-cannon.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGtqcDU4NHFrNDhsZnRxMTBoZTVrdGRlOWE0YzNocTM2NGw0YnhwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JWcSj7nP0rr9nfPChI/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG5kOGN1M2xpOHZ6a2E1cnRyMm05NXVzYXZubjIybnV3Mjgya2NjMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tOGw1IK6pdBINnc4xn/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Place down a stationary cannon that charges up to fire an energy ball",
+                    "details": [
+                        "While charging, enemies that collide with the cannon are damaged<bp_Upon reaching maximum charge time or attacking 38 times, the cannon fires_>",
+                        "While summoned, pressing the Skill Key again will resummon the cannon to your position",
+                        "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state will not be deactivated when using this skill or by the cannon's attacks",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Chain Arts: Maelstrom",
+                    "shortDesc": "MP Cost: 250, Duration: 15 sec, Max Enemies Hit: 8, Damage: 275%\\nNumber of Attacks: 2, Slow Chance: 100%, Slow Duration: 15 sec",
+                    "icons": ["/class-icons/nova/cadena/chain-arts-maelstrom.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTA0Zmw5Y2R6cTJodWw2MXZ0ZmR1aDczNGJudG1hdXNlZW4xejFzayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/48GccNUfuYmUkEWaDp/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Place down a maelstrom of chains that continuously damages enemies within and applies a slow debuff",
+                    "details": [
+                        "Can only be used as a combo after using 2 Thrash hits or by pressing Down Arrow Key and Attack Key",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Muscle Memory Finale",
+                    "shortDesc": "MP Cost: 450, activates in location of nearby enemies upon hitting Muscle Memory additional hit 4 times\\nAdditional Hit Activation: 4, Max Enemies Hit: 7, Damage: 660%, Number of Attacks: 7\\nMuscle Memory Finale is prepared 1 each per 11 sec up to 3\\nPreparation time reduces by 2 sec when Chain Arts: Reign of Chains/Chain Arts: Beatdown/Chain Arts: Crush hits, reduces by 1 sec when Chain Arts: Void Strike hits",
+                    "icons": ["/class-icons/nova/cadena/muscle-memory-finale.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG5kYjF0MzE2bmszMHJsbTlxMTRrNWRvbzliMXliM2I3bG5kNmc2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W3SrTKi6BydEYHmf6q/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Every 4 times <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> activates, chains will strike down onto enemies",
+                    "details": [
+                        "Does not have a cooldown, instead stores charges (up to 3) and periodically prepares a charge",
+                        "Using the following skills will decrease the charge time: <tt src={/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tip={Chain Arts: Reign of Chains (4th Job)}> <tt src={/class-icons/nova/cadena/chain-arts-beatdown.png} tip={Chain Arts: Beatdown (4th Job)}> <tt src={/class-icons/nova/cadena/chain-arts-crush.png} tip={Chain Arts: Crush (Hyper Skill)}> <tt src={/class-icons/nova/cadena/chain-arts-void-strike.png} tip={Chain Arts: Void Strike (5th Job)}>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Thrash, Muscle Memory & Reign of Chains Boost",
+                    "shortDesc": "Chain Arts: Thrash, Muscle Memory & Chain Arts: Reign of Chains Final Damage: +120%",
+                    "icons": ["/class-icons/nova/cadena/chain-arts-reign-of-chains.png", "/class-icons/nova/cadena/chain-arts-thrash.png", "/class-icons/nova/cadena/muscle-memory-iii.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Scimitar & Claw Boost",
+                    "shortDesc": "Summon Scimitar & Claw Final Damage: +120%",
+                    "icons": ["/class-icons/nova/cadena/summon-scimitar.png", "/class-icons/nova/cadena/summon-claw.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Daggers & Shuriken Boost",
+                    "shortDesc": "Summon Daggers & Shuriken Final Damage: +120%",
+                    "icons": ["/class-icons/nova/cadena/summon-daggers.png", "/class-icons/nova/cadena/summon-shuriken.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Shotgun & Decoy Bomb Boost",
+                    "shortDesc": "Summon Shotgun & Summon Decoy Bomb Final Damage: +120%",
+                    "icons": ["/class-icons/nova/cadena/summon-shotgun.png", "/class-icons/nova/cadena/summon-decoy-bomb.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Brick Boost",
+                    "shortDesc": "Summon Brick Final Damage: +120%",
+                    "icons": ["/class-icons/nova/cadena/summon-brick.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Chain Arts: Beatdown Boost",
+                    "shortDesc": "Chain Arts: Beatdown Final Damage: +120%",
+                    "icons": ["/class-icons/nova/cadena/chain-arts-beatdown.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Final Attack and Shock Wave Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Spiked Bat Boost",
+                    "shortDesc": "Summon Spiked Bat Final Damage: +120%",
+                    "icons": ["/class-icons/nova/cadena/summon-spiked-bat.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Crush & Veteran Shadowdealer Boost",
+                    "shortDesc": "Chain Arts: Crush & Veteran Shadowdealer Final Damage: +120%",
+                    "icons": ["/class-icons/nova/cadena/veteran-shadowdealer.png", "/class-icons/nova/cadena/chain-arts-crush.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/cadena/hexa-chain-arts-thrash.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/cadena/chain-arts-thrash.png} tip={Chain Arts: Thrash (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Chain Arts: Thrash",
+                    "shortDesc": "MP Cost: 20\\n1st hit - Max Enemies Hit: 4, Damage: 300%, Number of Attacks: 2\\n2nd hit - Max Enemies Hit: 8, Damage: 560%, Number of Attacks: 5, Slow Chance: 100%, Slow Duration: 5 sec\\nEnhanced 2nd hit - Preparation Duration: every 10 sec, Max uses: 3\\nMax Enemies Hit: 8, Damage: 560%, Number of Attacks: 5, Shockwave Damage: 990%, Number of Shockwave Attacks: 10\\nSkills used immediately after 1st hit gain +25% Final Damage (Excludes Chain Arts: Thrash).",
+                    "icons": ["/class-icons/nova/cadena/hexa-chain-arts-thrash.png", "/class-icons/nova/cadena/chain-arts-thrash-iv.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW43b3NpZ2N1amNoN2Y0dmR0cmx3MmUwbzB3bGQxdmk1cjJmYXhsZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6ExbP4jpKqvBLbwmzh/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/cadena/hexa-muscle-memory.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Muscle Memory",
+                    "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage: +11% for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chains Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 660%, Max Enemies Hit: 7, Number of Attacks: 4, Cooldown: 0.2 sec\\nWhen bonus hit triggers, Dark Sight Duration: 2 sec, Protective Shield: blocks 7% of Max HP\\nProtective Shield can accumulate as much as 25% of Max HP, and consumes 30% + 50 of the current Protective Shield per stack",
+                    "icons": ["/class-icons/nova/cadena/hexa-muscle-memory.png", "/class-icons/nova/cadena/muscle-memory-iii.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWhnamZ4NDh0YmlueG1qcHpqMHozdTc5YTI2bWhuODByano0eGN4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZHXCwT60fIpKp8jt0a/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/cadena/hexa-scimitar-claw-shuriken-spiked-bat-crush.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/cadena/summon-scimitar.png} tip={Summon Scimitar (1st Job)}> <tt src={/class-icons/nova/cadena/summon-claw.png} tip={Summon Claw (2nd Job)}> <tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken (2nd Job)}> <tt src={/class-icons/nova/cadena/summon-spiked-bat.png} tip={Summon Spiked Bat (4th Job)}> <tt src={/class-icons/nova/cadena/chain-arts-crush.png} tip={Chain Arts: Crush (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Scimitar",
+                    "shortDesc": "MP Cost: 20, Damage: 849%, Number of Attacks: 5, Max Enemies Hit: 6\\nCooldown: 4 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-summon-scimitar.png", "/class-icons/nova/cadena/summon-scimitar.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW0wYjliY3pucWw1dmI2anNpY29oMmVwMGMxejVmOWtqdGhkMWxmdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y8wBDyRAi0n8F8gIuw/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Claw",
+                    "shortDesc": "MP Cost: 25, Damage: 880%, Number of Attacks: 4, Max Enemies Hit: 10\\nCooldown: 3 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-summon-claw.png", "/class-icons/nova/cadena/summon-claw.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2o3cDh0YjV4OWhrMTE3NXF1eTczemZ4eDliMDEyMzk2MzJ5N25nMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/swU3IWzE9wAmO7Lyna/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Shuriken",
+                    "shortDesc": "Summons a Shuriken, MP Cost: 33, Duration: 7 sec, Enemies Hit: 1, Damage: 849%\\nNumber of Attacks: 1\\nAutomatically explodes after 7 sec. Press the skill key again to manually detonate\\nExplosion deals 1293% damage to up to 8 enemies 3 times\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-summon-shuriken.png", "/class-icons/nova/cadena/summon-shuriken.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Spiked Bat",
+                    "shortDesc": "MP Cost: 47\\n1st Hit - Damage: 568%, Max Enemies Hit: 8, Number of Attacks: 12\\n2nd Hit - Damage: 783%, Max Enemies Hit: 8, Number of Attacks: 13\\n3rd Hit - Damage 1160%, Max Enemies Hit: 10, Number of Attacks: 14\\nEnemies struck have a 100% chance to be confused for 30 sec, Enemy Attack: -20%\\nCooldown: 12 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-summon-spiked-bat.png", "/class-icons/nova/cadena/summon-spiked-bat.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2ltZzZtOTVpOWY5MnJmanRuNTlvdXFqdTRpenQ4am83ZDM0cHNydCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fkONIUAV9YqVINP8w4/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Chain Arts: Crush",
+                    "shortDesc": "MP Cost: 330, Damage: 967%, Max Enemies Hit: 15, Number of Attacks: 15\\nMuscle Memory at max stacks upon landing, Duration: 15 sec\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-chain-arts-crush.png", "/class-icons/nova/cadena/chain-arts-crush.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGtianA5b3E5YjI5NzIxdW0xaHF0cXkzanVtcGF4enNnM3dmOGs0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CFRsPgmcNtBc4Bdmks/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/nova/cadena/hexa-shotgun-daggers-decoy-bomb-brick-beatdown-veteran-shadowdealer.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/nova/cadena/summon-shotgun.png} tip={Summon Shotgun (3rd Job)}> <tt src={/class-icons/nova/cadena/summon-decoy-bomb.png} tip={Summon Decoy Bomb (3rd Job)}> <tt src={/class-icons/nova/cadena/summon-daggers.png} tip={Summon Daggers (3rd Job)}> <tt src={/class-icons/nova/cadena/summon-brick.png} tip={Summon Brick (4th Job)}> <tt src={/class-icons/nova/cadena/chain-arts-beatdown.png} tip={Chain Arts: Beatdown (4th Job)}> <tt src={/class-icons/nova/cadena/veteran-shadowdealer.png} tip={Veteran Shadowdealer (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Shotgun",
+                    "shortDesc": "MP Cost: 35\\nClose-Range Max Enemies Hit: 6, Damage: 940%, Number of Attacks: 7\\nMid-Range Max Enemies Hit: 6, Damage: 837%, Number of Attacks: 7\\nLong-Range Max Enemies Hit: 6, Damage: 758%, Number of Attacks: 7\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-summon-shotgun.png", "/class-icons/nova/cadena/summon-shotgun.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjVsMHk4NXp3djNjMXVlOGthZWs4OTVpdGQ5eGZ0ZG11eHE5MjVldiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vo9EZZwMaT3vBBiv0L/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Daggers",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 4, Damage: 802%, Number of Attacks: 8, Terror Chance: 100%, Duration: 30 sec, Enemy DEF -30%\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-summon-daggers.png", "/class-icons/nova/cadena/summon-daggers.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW4xeXpvNGpiOGo5aWw0ODZrN3RwaDh2NmVpNzQ5ZDB0ZXN0NGRhdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rgoj7W4HBoMN6HmzNe/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Decoy Bomb",
+                    "shortDesc": "MP Cost: 45, setting up a bomb that detonates after 1 sec, Max Enemies Hit: 8, Damage: 1000%, Number of Attacks: 6\\nCooldown: 8 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-summon-decoy-bomb.png", "/class-icons/nova/cadena/summon-decoy-bomb.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazZ4MjdlazlhbHQ0YWVwM3ExNGo0eHEyOGJmOXZnbWRuam1neHVrNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zpjRVICMq1BiVYEvZR/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Summon Brick",
+                    "shortDesc": "MP Cost: 52, Damage: 915%, Number of Attacks: 7, Max Enemies Hit: 7\\nCooldown: 8 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-summon-brick.png", "/class-icons/nova/cadena/summon-brick.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjdpZzA4ajc5cm1qaTRvc2szam5hc2J3amxzanhydTRkMGFubTM2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9Ch7EoVUjSlZxMLWqd/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnp4cG9taWF3YWxvM2hkbHBoeXYxMGRyOHk0NmExMW9wcjUyMmsxbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xsds5ZGG6TqqvLtc8J/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Chain Arts: Beatdown",
+                    "shortDesc": "MP Cost: 282, Max Enemies Hit: 8, Damage: 508%, Number of Attacks: 2\\nStun Duration: 10 sec\\nAfter casting, Strike occurs if 5 additional hits are activated by Muscle Memorry.\\nAfter Strike, max Muscle Memory stacks are kept for 4.5 sec.\\nStrike: Attacks up to 10 enemies in their grouped location with 1710% damage 15 time(s)\\nDuring the strike, activates a shockwave that attacks up to 10 enemies with 1015% damage 4 time(s).\\nAdditional DEF ignored: +80%.\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-chain-arts-beatdown.png", "/class-icons/nova/cadena/chain-arts-beatdown.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm03b2NlamZ6bmI4NzljNmlsODN5dW5kbnBiNzIwcWYxbmUybDhzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2JWQXPJxSlP2t6qfFW/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGNtNnNrNDdhbDZmeDNxMGdjMnN1NGdrNWZyNXFpZmdxeXk1NTd2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/39uEwB7Uuj46EIuOH3/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Veteran Shadowdealer",
+                    "shortDesc": "MP Cost: 590, Duration: 20 sec, Multiplies the effects of Muscle Memory by 2\\nCreates an explosion that attacks up to 6 enemies with 360% damage 3 times upon landing\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/nova/cadena/hexa-veteran-shadowdealer.png", "/class-icons/nova/cadena/veteran-shadowdealer.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWUyem1kajVuYTY4bWg0eGN0OXR1ODQ1ZjMxZjFlaTVxcWRudnJzZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rtW7thEJEGBleiUxRl/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Chain Arts: Grand Arsenal",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15\\n1st linked attack - Damage: 700%, Number of Attacks: 8, Chase Cuts: 54\\n2nd linked attack - Damage: 730%, Number of Attacks: 9, Chase Cuts: 17\\n3rd linked attack - Damage: 780%, Number of Attacks: 14, Explosions: 60\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/nova/cadena/chain-arts-grand-arsenal.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHkzMnJteW5ybzkyenczM21mZHN2aHR3ancydzB2a2pwbjNjazk5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YgoLE5TbJt7HB9Pwtb/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Brutal Rampage",
+                    "shortDesc": "Press the skill key again within 30 sec. after casting to summon the crushing axe\\nFirst Attack - MP Cost: 500, Invincible during casting\\nBinds the battlefield in weapons that attack 14 times, dealing 11620% damage to up to 15 enemies 8 times\\nCrushing Axe - MP Cost: 500, Invincible during casting\\nThe axe crashes down upon the battlefield 19 times, dealing 11830% damage to up to 15 enemies 13 times. Ignore status effects while casting\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/nova/cadena/brutal-rampage.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTBqYWtmMHJ2NGxzcjZidW53eTI0d2l4Mjk3OXZraDd3M3E1aXBuaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QkJWvdAPe3a3OnfNLx/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Chain Arts: Void Strike Boost",
+                    "shortDesc": "Chain Arts: Void Strike Final Damage: +60%",
+                    "icons": ["/class-icons/nova/cadena/chain-arts-void-strike.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Apocalypse Cannon Boost",
+                    "shortDesc": "Apocalypse Cannon Final Damage: +60%",
+                    "icons": ["/class-icons/nova/cadena/apocalypse-cannon.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Chain Arts: Maelstrom Boost",
+                    "shortDesc": "Chain Arts: Maelstrom Final Damage: +60%",
+                    "icons": ["/class-icons/nova/cadena/chain-arts-maelstrom.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Muscle Memory Finale Boost",
+                    "shortDesc": "Muscle Memory Finale Final Damage: +60%",
+                    "icons": ["/class-icons/nova/cadena/muscle-memory-finale.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Chain Arts: Thrash - 1st/2nd/3rd/4th Job",
+                "icons": ["/class-icons/nova/cadena/chain-arts-thrash.png"],
+                "animations": ["https://media.giphy.com/media/4iN0p3L5cLbhb0o0CN/giphy.gif"]
+            },
+            {
+                "name": "Muscle Memory - 2nd/3rd/4th Job",
+                "icons": ["/class-icons/nova/cadena/muscle-memory-iii.png"],
+                "animations": ["https://media.giphy.com/media/wgbOXaLLZCdN3Gy0Md/giphy.gif"]
+            },
+            {
+                "name": "Summon Shotgun - 3rd Job",
+                "icons": ["/class-icons/nova/cadena/summon-shotgun.png"],
+                "animations": ["https://media.giphy.com/media/W2hGcuRmHfi9RtlGwc/giphy.gif"]
+            },
+            {
+                "name": "Summon Daggers - 3rd Job",
+                "icons": ["/class-icons/nova/cadena/summon-daggers.png"],
+                "animations": ["https://media.giphy.com/media/LhpYBy45Nxu7vWhjo0/giphy.gif"]
+            },
+            {
+                "name": "Chain Arts: Beatdown - 4th Job",
+                "icons": ["/class-icons/nova/cadena/chain-arts-beatdown.png"],
+                "animations": ["https://media.giphy.com/media/uVtmb3AGZXL6CnqeHe/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Chain Arts: Void Strike - 5th Job",
+                "icons": ["/class-icons/nova/cadena/chain-arts-void-strike.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXkyZmJ2NmhnOWlwYmRhMGdhczhsb2tkbGZ2dG53cWE0MXFqdDNqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3vw32T2cm1d7dKWNIt/giphy.gif"]
+            },
+            {
+                "name": "Chain Arts: Maelstrom - 5th Job",
+                "icons": ["/class-icons/nova/cadena/chain-arts-maelstrom.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTA0Zmw5Y2R6cTJodWw2MXZ0ZmR1aDczNGJudG1hdXNlZW4xejFzayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/48GccNUfuYmUkEWaDp/giphy.gif"]
+            },
+            {
+                "name": "Chain Arts: Grand Arsenal - 6th Job",
+                "icons": ["/class-icons/nova/cadena/chain-arts-grand-arsenal.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHkzMnJteW5ybzkyenczM21mZHN2aHR3ancydzB2a2pwbjNjazk5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YgoLE5TbJt7HB9Pwtb/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Brutal Rampage - 6th Job",
+                "icons": ["/class-icons/nova/cadena/brutal-rampage.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTBqYWtmMHJ2NGxzcjZidW53eTI0d2l4Mjk3OXZraDd3M3E1aXBuaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QkJWvdAPe3a3OnfNLx/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Cadena is a fun and mobile class that utilizes a variety of weapons to create a combination of attacks. She is strong at mobbing but still has the skills to make this class exceptionally well at bossing. Skills that you gain in 1st job to 3rd job, you will still utilize in 4th job"
+}

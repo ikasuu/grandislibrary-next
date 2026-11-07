@@ -1,0 +1,1197 @@
+{
+    "class": "Dual Blade",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX + STR",
+        "legion": "Grants flat LUK",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["dagger"]},
+            {"secondary": ["katara"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "1st Line Options",
+                "abilities": ["Boss Damage +20%", "Chance to Skip Cooldown +20%"],
+                "notes": "Chance to Skip Cooldown is an option mainly in Heroic where there is more access to %Boss Damage"
+            },
+            {
+                "name": "2nd & 3rd Line Options",
+                "abilities": ["(2nd Line) Buff Duration +38%", "(2nd Line) Attack +21", "(3rd Line) Damage to monsters inflicted with Abnormal Status +8%"],
+                "notes": "Choose Buff Duration when %Buff Duration < 100%, otherwise choose Attack"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/explorers/dual-blade/katara-booster.png} tip={Katara Booster (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/explorers/dual-blade/katara-expert.png} tip={Katara Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "LUK",
+                "stat": "+50 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/dual-blade/katara-booster.png} tip={Katara Booster (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +90(135)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/dual-blade/channel-karma.png} tip={Channel Karma (2nd Job)} val={+30}> <bg src={/class-icons/explorers/dual-blade/katara-expert.png} tip={Katara Expert (4th Job)} val={+30}> <bg src={/class-icons/explorers/dual-blade/thorns.png} tip={Thorns (4th Job)} val={+30}> <bg type={temp} src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld (3rd Job)} val={+15 upon activating}> <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+30}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%(100%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/dual-blade/sharpness.png} tip={Sharpness (4th Job)} val={+35%}> <bg type={temp} src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld (3rd Job)} val={+100% upon activating}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld (3rd Job)} val={+5%}> <bg src={/class-icons/explorers/dual-blade/sharpness.png} tip={Sharpness (4th Job)} val={+15%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+20%(68%)",
+                "detail": "<bg src={/class-icons/explorers/dual-blade/flashbang.png} tip={Flashbang (2nd Job+)} val={+10%}> <bg src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/link-skills/thiefs-cunning.png} tip={Thief's Cunning (Link Skill)} val={+18% upon debuffing enemy}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+5%",
+                "detail": "<bg src={/class-icons/explorers/dual-blade/life-drain.png} tip={Life Drain (3rd Job)} val={+5%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+41.26%(228.61%)",
+                "detail": "<bg src={/class-icons/explorers/dual-blade/venom.png} tip={Venom (2nd Job+)} val={+9%}> × <bg src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld (3rd Job)} val={+8%}> × <bg src={/class-icons/explorers/dual-blade/katara-expert.png} tip={Katara Expert (4th Job)} val={+20%}> × <bg type={temp} src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)} val={+40%}> × <bg type={temp} sub={opt} src={/class-icons/common/advanced-dark-sight.png} tip={Advanced Dark Sight (3rd Job)} val={+20% while in Dark Sight} subSrc={/class-icons/5th-job/shadow-walker.png} subTip={Shadow Walker (5th Job)} subVal={extra +14% while active}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+0%",
+                "detail": ""
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/explorers/dual-blade/mirror-image.png} tip={Mirror Image (3rd Job)} dur={[200s]}> <tt src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)} dur={[90s]}>",
+            "summons": "<tt src={/class-icons/explorers/dual-blade/mirrored-target.png} tip={Mirrored Target (4th Job)} dur={[90s]}>",
+            "buffCd": "<tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)} dur={[60s](63s cd)}> <tt src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/shadow-walker.png} tip={Shadow Walker (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/dual-blade/karma-blade.png} tip={Karma Blade (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)} dur={[200s](Special, 0 - 15s cd)}> <tt src={/class-icons/explorers/dual-blade/chains-of-hell.png} tip={Chains of Hell (3rd Job)} dur={[1.5s](45s cd)}> <tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)} dur={[3s](90s cd)}> <tt src={/class-icons/explorers/dual-blade/karma-blade.png} tip={Karma Blade (6th Job)} dur={[360s cd]}>",
+            "damageReduce": "<tt src={/class-icons/explorers/dual-blade/asuras-anger.png} tip={Asura's Anger (Hyper Skill)} dur={[Up to 3s](-50% | 60s cd)}> <tt src={/class-icons/explorers/dual-blade/blade-storm.png} tip={Blade Storm (5th Job)} dur={[Up to 2s](-50% | 60s cd)}>"
+        },
+        "linkSkill": {
+            "id": 80002770,
+            "offline": true,
+            "name": "Thief's Cunning",
+            "maxLevel": 9,
+            "shortDesc": "Upon debuffing an enemy, Damage: +18%. Duration: 10 sec\\nCooldown: 20 sec.",
+            "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 3 times, once for each unique Explorer Thief to reach Master Level"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump}> -> <tt src={/class-icons/explorers/dual-blade/side-step.png} tip={Side Step}> -> <tt src={/class-icons/explorers/dual-blade/bandit-slash.png} tip={Bandit Slash}> -> <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}>"],
+                ["1st Job+", "<tt src={/class-icons/explorers/dual-blade/katara-mastery.png} tip={Katara Mastery}> -> <tt src={/class-icons/explorers/dual-blade/bandit-slash-boost.png} tip={Bandit Slash Boost}> -> <tt src={/class-icons/explorers/dual-blade/self-haste.png} tip={Self Haste}> -> <tt src={/class-icons/explorers/dual-blade/tornado-spin.png} tip={Tornado Spin}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/dual-blade/katara-booster.png} tip={Katara Booster}> -> <tt src={/class-icons/explorers/dual-blade/channel-karma.png} tip={Channel Karma}> -> <tt src={/class-icons/explorers/dual-blade/slash-storm.png} tip={Slash Storm}> -> <tt src={/class-icons/explorers/dual-blade/fatal-blow.png} tip={Fatal Blow}>"],
+                ["2nd Job+", "<tt src={/class-icons/explorers/dual-blade/venom.png} tip={Venom}> -> <tt src={/class-icons/explorers/dual-blade/flashbang.png} tip={Flashbang}> -> <tt src={/class-icons/explorers/dual-blade/slash-storm-boost.png} tip={Slash Storm Boost}> -> <tt src={/class-icons/explorers/dual-blade/flying-assaulter.png} tip={Flying Assaulter}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/dual-blade/life-drain.png} tip={Life Drain}> -> <tt src={/class-icons/common/advanced-dark-sight.png} tip={Advanced Dark Sight}> -> <tt src={/class-icons/common/enveloping-darkness.png} tip={Enveloping Darkness}> -> <tt src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld}> -> <tt src={/class-icons/explorers/dual-blade/mirror-image.png} tip={Mirror Image}> -> <tt src={/class-icons/explorers/dual-blade/bloody-storm.png} tip={Bloody Storm}> -> <tt src={/class-icons/explorers/dual-blade/blade-ascension.png} tip={Blade Ascension}> -> <tt src={/class-icons/explorers/dual-blade/chains-of-hell.png} tip={Chains of Hell}>"],
+                ["4th Job", "<tt src={/class-icons/explorers/dual-blade/sharpness.png} tip={Sharpness}> -> <tt src={/class-icons/explorers/dual-blade/toxic-venom.png} tip={Toxic Venom}> -> <tt src={/class-icons/explorers/dual-blade/katara-expert.png} tip={Katara Expert}> -> <tt src={/class-icons/explorers/dual-blade/thorns.png} tip={Thorns}> -> <tt src={/class-icons/explorers/dual-blade/blade-fury.png} tip={Blade Fury}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/dual-blade/mirrored-target.png} tip={Mirrored Target}> -> <tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut}> -> <tt src={/class-icons/explorers/dual-blade/sudden-raid.png} tip={Sudden Raid}> -> <tt src={/class-icons/explorers/dual-blade/phantom-blow.png} tip={Phantom Blow}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path",
+                "Dual Blades have two additional Job Advancements at Lv. 20 and Lv. 45"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/explorers/dual-blade/phantom-blow-reinforce.png} tip={Phantom Blow - Reinforce}> <tt src={/class-icons/explorers/dual-blade/phantom-blow-guardbreak.png} tip={Phantom Blow - Guardbreak}> <tt src={/class-icons/explorers/dual-blade/phantom-blow-extra-strike.png} tip={Phantom Blow - Extra Strike}> Phantom Blow - Reinforce, Guardbreak, and Extra Strike_<tt src={/class-icons/explorers/dual-blade/blade-fury-reinforce.png} tip={Blade Fury - Reinforce}> Blade Fury - Reinforce_>[Choose 1]<bp_<tt src={/class-icons/explorers/dual-blade/blade-fury-spread.png} tip={Blade Fury - Spread}> Blade Fury - Spread_<tt src={/class-icons/explorers/dual-blade/blade-ascension-reinforce.png} tip={Blade Ascension - Reinforce}> Blade Ascension - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Bossing Trio", "<tt src={/class-icons/explorers/dual-blade/phantom-blow.png} tip={Phantom Blow (4th Job)}> <tt src={/class-icons/explorers/dual-blade/asuras-anger.png} tip={Asura's Anger (Hyper Skill)}> <tt src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)}>"],
+                    ["Mobbing Trio", "<tt src={/class-icons/explorers/dual-blade/blade-fury.png} tip={Blade Fury (4th Job)}> <tt src={/class-icons/explorers/dual-blade/sudden-raid.png} tip={Sudden Raid (4th Job)}> <tt src={/class-icons/explorers/dual-blade/blade-ascension.png} tip={Blade Ascension (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Either categories can be maxed first based on if you prioritize bossing or mobbing",
+                    "Any combination of these skills are good but preferred from same category so that the skills boosted match your priorities",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/dual-blade/phantom-blow.png} tip={Phantom Blow (4th Job)}> <tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)}>",
+                "<tt src={/class-icons/explorers/dual-blade/asuras-anger.png} tip={Asura's Anger (Hyper Skill)}>",
+                "<tt src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)}>",
+                "<tt src={/class-icons/explorers/dual-blade/blade-fury.png} tip={Blade Fury (4th Job)}> <tt src={/class-icons/explorers/dual-blade/sudden-raid.png} tip={Sudden Raid (4th Job)}>",
+                "<tt src={/class-icons/explorers/dual-blade/flying-assaulter.png} tip={Flying Assaulter (2nd Job+)}> <tt src={/class-icons/explorers/dual-blade/bloody-storm.png} tip={Bloody Storm (3rd Job)}> <tt src={/class-icons/explorers/dual-blade/chains-of-hell.png} tip={Chains of Hell (3rd Job)}> <tt src={/class-icons/explorers/dual-blade/blade-ascension.png} tip={Blade Ascension (3rd Job)}>",
+                "<tt src={/class-icons/explorers/dual-blade/bandit-slash.png} tip={Bandit Slash (1st Job)}> <tt src={/class-icons/explorers/dual-blade/tornado-spin.png} tip={Tornado Spin (1st Job+)}> <tt src={/class-icons/explorers/dual-blade/fatal-blow.png} tip={Fatal Blow (2nd Job)}> <tt src={/class-icons/explorers/dual-blade/slash-storm.png} tip={Slash Storm (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Dual_Blade"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%93%80%EC%96%BC%EB%B8%94%EB%A0%88%EC%9D%B4%EB%93%9C"},
+            {"title": "Class Discord", "link": "https://discord.gg/sv8JuUqBGQ"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1f78Z3TIWvvkngspH04SiZkZzd_NG777v3YHkuDcMA3o"}
+        ],
+        "infographics": [
+            {
+                "src": "/dual-blade/dual-blade-6th-job.png",
+                "title": "6th Job",
+                "credit": "Dual Blade Class Doc",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "/dual-blade/dual-blade-skill-sequence.png",
+                "title": "Skill Sequence",
+                "credit": "Dual Blade Class Doc",
+                "date": "2026-05-15"
+            }
+        ],
+        "specialThanks": "Special thanks to Dres, TMoney, and the members of the Dual Blade Discord for their help in making this overview!",
+        "discord": "https://discord.gg/sv8JuUqBGQ",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Dual Blade Discord & Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Dark Sight",
+            "content": [
+                "<em text={Credits to the Night Walker Discord for the list of attacks avoidable with Dark Sight. For an actively maintained version, please check out the Night Walker Discord}>",
+                "In 1st Job, <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> Dark Sight is unlocked that allows you to dodge certain attacks. Below is a list of avoidable attacks that have been tested:",
+                " dsTable "
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Thief's Cunning",
+                    "maxLevel": 9,
+                    "shortDesc": "Upon debuffing an enemy, Damage: +18%. Duration: 10 sec\\nCooldown: 20 sec.",
+                    "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 3 times, once for each unique Explorer Thief to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/AbhHZZcT99j5zjlxwR/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/CULJ5FWJwu5MLwFKzK/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/AhRnOaWuvITehu2Nor/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Return",
+                    "shortDesc": "Returns you to Kerning City Back Alley when used.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/return.png"],
+                    "animations": ["https://media4.giphy.com/media/9HP4VAweLNLzKK9Xc1/giphy.gif"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "Gained from completing the quest 'Return to the Secret Garden' Lady Syl at Lv. 20"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGF4Z2owcGt5eHhtNmM1NHZmNmxwdTdpYmdoYzdvaDgyZTZsNGJ3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jhPx7rlXVnCZdOCnsf/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Dark Sight",
+                        "shortDesc": "MP Cost: 5, hides in the shadows for 200 seconds.\\nWhen Dark Sight is deactivated, cooldown increased per attack dodged: 3 seconds. Stacks up to 5 times.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/dark-sight.png"],
+                        "animations": ["https://media.giphy.com/media/bWBqVgNxjuOjkuT8Nu/giphy.gif"],
+                        "type": "Active / Utility",
+                        "desc": "While active, you cannot hit or be hit by enemies",
+                        "details": [
+                            "While active, pressing the Skill Key again or using an attack will cancel Dark Sight",
+                            "You can use <tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump (1st Job)}> while in Dark Sight",
+                            "Has a cooldown (3s, stacks up to 5 times) per attack dodged"
+                        ]
+                    },
+                    {
+                        "name": "Flash Jump",
+                        "shortDesc": "MP Cost: 22, jumps further. Able to use 2 times consecutively.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/thief/flash-jump.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm1tczA0dm5wNzRjYmJscjg3ZzBvMXdlemUwaTIxMnE3Z3RhY2FvZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qm8EPDkWSpEkAxnz8C/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>",
+                            "Horizontal jump can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "name": "Side Step",
+                        "shortDesc": "Avoidability +15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dual-blade/side-step.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Bandit Slash",
+                        "shortDesc": "MP Cost: 13, Damage: 90%, Number of Attacks: 3, Max Enemies Hit: 3",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dual-blade/bandit-slash.png"],
+                        "animations": ["https://media.giphy.com/media/HfYZzK0CS7Y8t8EmBP/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Lash forward with crossing blades"
+                    }]
+                ],
+                [
+                    "1st Job+", [
+                        {
+                            "name": "Bandit Slash Boost",
+                            "shortDesc": "MP Cost: 11, Damage: 120, Max Enemies Hit: 4, Number of Attacks: 3",
+                            "maxLevel": 5,
+                            "icons": ["/class-icons/explorers/dual-blade/bandit-slash-boost.png", "/class-icons/explorers/dual-blade/bandit-slash.png"],
+                            "animations": ["https://media.giphy.com/media/dcSdvhKCGBtyzgXQVg/giphy.gif"],
+                            "type": "Upgraded Passive",
+                            "desc": "",
+                            "details": [
+                                "Increases %Damage and Max Enemies Hit of attack"
+                            ]
+                        },
+                        {
+                            "name": "Tornado Spin",
+                            "shortDesc": "MP Cost: 36, Damage: 380%, Max Enemies Hit: 6",
+                            "maxLevel": 15,
+                            "icons": ["/class-icons/explorers/dual-blade/tornado-spin.png"],
+                            "animations": ["https://media.giphy.com/media/jX5k8SgvXbTRZp1f7D/giphy.gif"],
+                            "type": "Attack",
+                            "desc": "Dash forward while pushing enemies back",
+                            "details": [
+                                "Can be linked to <tt src={/class-icons/explorers/dual-blade/blade-ascension.png} tip={Blade Ascension (3rd Job)}>"
+                            ]
+                        },
+                        {
+                            "name": "Katara Mastery",
+                            "shortDesc": "Dagger and Katara Mastery: +50%",
+                            "maxLevel": 10,
+                            "icons": ["/class-icons/explorers/dual-blade/katara-mastery.png"],
+                            "type": "Passive"
+                        },
+                        {
+                            "name": "Self Haste",
+                            "shortDesc": "Permanently increases Speed by 40, Jump by 23, and Max Speed by 20.",
+                            "maxLevel": 5,
+                            "icons": ["/class-icons/explorers/dual-blade/self-haste.png"],
+                            "type": "Passive"
+                        },
+                        {
+                            "name": "Recruit's Agility",
+                            "shortDesc": "Allows you to Flash Jump upwards",
+                            "maxLevel": 1,
+                            "icons": ["/class-icons/explorers/dual-blade/recruits-agility.png", "/class-icons/explorers/thief/flash-jump.png"],
+                            "type": "Upgraded Passive",
+                            "desc": "Up jump skill",
+                            "details": [
+                                "Can be activated by pressing the Up Arrow Key and Jump Key while in the air"
+                            ]
+                        }]
+                    ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Fatal Blow",
+                        "shortDesc": "MP Cost: 30, Number of Attacks: 7, Damage: 108%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dual-blade/fatal-blow.png"],
+                        "animations": ["https://media.giphy.com/media/GWotNWTV4punga9K2l/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Strike one enemy with a barrage of attacks"
+                    },
+                    {
+                        "name": "Slash Storm",
+                        "shortDesc": "MP Cost: 24, Damage: 190%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dual-blade/slash-storm.png"],
+                        "animations": ["https://media.giphy.com/media/vijFY7oE4y40XkADjA/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash forward at multiple enemies"
+                    },
+                    {
+                        "name": "Katara Booster",
+                        "shortDesc": "Attack Speed: +2, Luck: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/dual-blade/katara-booster.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Channel Karma",
+                        "shortDesc": "Attack +30, Knockback Resistance: +40%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dual-blade/channel-karma.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increases LUK by 30 and DEX by 30",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "2nd Job+", [
+                        {
+                            "name": "Slash Storm Boost",
+                            "shortDesc": "MP Cost: 18, Damage: 220%, Max Enemies Hit: 6, Number of Attacks: 3",
+                            "maxLevel": 10,
+                            "icons": ["/class-icons/explorers/dual-blade/slash-storm-boost.png", "/class-icons/explorers/dual-blade/slash-storm.png"],
+                            "animations": ["https://media.giphy.com/media/Tn28OvhhjViMrx3ZDS/giphy.gif"],
+                            "type": "Upgraded Passive",
+                            "desc": "",
+                            "details": [
+                                "Increases %Damage of attack"
+                            ]
+                        },
+                        {
+                            "name": "Flying Assaulter",
+                            "shortDesc": "MP Cost: 44, Damage: 165%, Number of Attacks: 4, Max Monsters Hit: 8, Stun Chance: 20%, Stun Duration: 6 sec",
+                            "maxLevel": 20,
+                            "icons": ["/class-icons/explorers/dual-blade/flying-assaulter.png"],
+                            "animations": ["https://media.giphy.com/media/HN7uw493ihC6OYJPkg/giphy.gif"],
+                            "type": "Attack",
+                            "desc": "Dive down diagonally from the air",
+                            "details": [
+                                "Attack has a chance to stun enemies",
+                                "Can only be used in the air",
+                                "Can be linked with <tt src={/class-icons/explorers/dual-blade/tornado-spin.png} tip={Tornado Spin (2nd Job)}> and <tt src={/class-icons/explorers/dual-blade/bloody-storm.png} tip={Bloody Storm (3rd Job)}>"
+                            ]
+                        },
+                        {
+                            "name": "Flashbang",
+                            "shortDesc": "Damage: +10%",
+                            "maxLevel": 5,
+                            "icons": ["/class-icons/explorers/dual-blade/flashbang.png"],
+                            "type": "Passive"
+                        },
+                        {
+                            "name": "Venom",
+                            "shortDesc": "Status Chance: 30%, Damage Over Time: 90% damage every 1 sec for 6 sec\\nFinal Damage: +9%",
+                            "maxLevel": 20,
+                            "icons": ["/class-icons/explorers/dual-blade/venom.png"],
+                            "type": "Passive",
+                            "desc": "Permanently increases %Final Damage and grants a chance for attacks to apply a poison debuff"
+                        }]
+                    ],
+                [
+                "3rd Job", [{
+                        "name": "Bloody Storm",
+                        "shortDesc": "MP Cost: 50, Damage: 265%, Max Enemies Hit: 8, Number of Attacks: 3\\n[Passive Effect: Increases damage of Tornado Spin and Flying Assaulter by 20%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dual-blade/bloody-storm.png"],
+                        "animations": ["https://media.giphy.com/media/Bieos8TXWJ5OKDh0dY/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash furiously around you",
+                        "details": [
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/explorers/dual-blade/tornado-spin.png} tip={Tornado Spin (2nd Job)}> and <tt src={/class-icons/explorers/dual-blade/flying-assaulter.png} tip={Flying Assualter (2nd Job+)}>",
+                            "Can be linked with <tt src={/class-icons/explorers/dual-blade/tornado-spin.png} tip={Tornado Spin (2nd Job)}> and <tt src={/class-icons/explorers/dual-blade/flying-assaulter.png} tip={Flying Assualter (2nd Job+)}>"
+                        ]
+                    },
+                    {
+                        "name": "Blade Ascension",
+                        "shortDesc": "Lifts you into the air. MP Cost: 41, Damage: 175% Max Enemies Hit: 6, Number of Attacks: 3\\nCan only be used once after making an upward Flash Jump\\nCannot use Flash Jump upward after using Blade Ascension",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dual-blade/blade-ascension.png"],
+                        "animations": ["https://media.giphy.com/media/UjNgHKA7IScapuXYnf/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Slash upward launching up into the air",
+                        "details": [
+                            "Pressing the Up Arrow Key and Skill Key together will boost you up higher",
+                            "Can be linked with <tt src={/class-icons/explorers/dual-blade/flying-assaulter.png} tip={Flying Assualter (2nd Job+)}>",
+                            "The following limitations are applied to this skill:<bp_Can only be used one-time when used after an <tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump (1st Job)}> upward double jump_When casting this skill first, <tt src={/class-icons/explorers/thief/flash-jump.png} tip={Flash Jump (1st Job)}> upward double jump cannot be used_>"
+                        ]
+                    },
+                    {
+                        "name": "Chains of Hell",
+                        "shortDesc": "MP Cost: 75, Invincibility Duration: 1.5 sec\\nEnemy hit by chain, Damage: 150%, Number of Attacks: 1. Consecutive attack afterwards, Damage: 150%, Number of Attacks: 7, Stun Chance: 10%, Stun Duration: 4., Additional Critical Rate: 100%, Invincible during attack\\nCooldown: 45 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dual-blade/chains-of-hell.png"],
+                        "animations": ["https://media.giphy.com/media/uGn2Ga95FaYGorEhJ5/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Pulls an enemy close and deals a deadly barrage of attacks",
+                        "details": [
+                            "Attack is a guaranteed Critical Hit and has a chance to stun the enemy",
+                            "You are invincible while casting and during the attack",
+                            "The skill can be used while other skills are being used"
+                        ]
+                    },
+                    {
+                        "name": "Mirror Image",
+                        "shortDesc": "MP Cost: 67, summons a shadow that makes an additional hit that is 70% of the final damage for all attacks for 200 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dual-blade/mirror-image.png"],
+                        "animations": ["https://media.giphy.com/media/wbsa8pxBrye0lc7pat/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Create a clone that mimics your attacks to deal an additional hit each hit",
+                        "details": [
+                            "The clone's attack deals reduced %Final Damage",
+                            "Does not mimic summoning skills, and 5th Job Common Skills"
+                        ]
+                    },
+                    {
+                        "name": "Advanced Dark Sight",
+                        "shortDesc": "49% chance to maintain Dark Sight on attacking.\\n20% chance to auto-trigger Dark Sight\\nFinal Damage +20% when attacking during Dark Sight.\\nIf you dodge an attack that deals damage proportional to Max HP, using the Dark Sight that activates when you are hit, the Dark Sight's remaining time will be reduced by 20% of its maximum",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/advanced-dark-sight.png"],
+                        "type": "Passive",
+                        "desc": "While <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> is active, gain increased %Final Damage and attacks have a chance to not deactivate the buff",
+                        "details": [
+                            "Additionally, upon getting hit, there is a chance to automatically activate <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}>",
+                            "When the automatic version of <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)}> activates, dodging an attack that deals %Max HP will slightly reduce the duration but does not apply a cooldown"
+                        ]
+                    },
+                    {
+                        "name": "Life Drain",
+                        "shortDesc": "10% chance to recover 20% HP on hit.\\n[Passive Effect: Boss Damage: +5%]",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/dual-blade/life-drain.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Enveloping Darkness",
+                        "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/common/enveloping-darkness.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Shadow Meld",
+                        "shortDesc": "Dodge Chance: 30%, Upon successful dodge, Attack Power +15 and all attacks performed afterwards will be Critical Hits for 7 sec. Cooldown upon successful dodge: 5 sec.\\nFinal Damage: +8%, Critical Damage: +5%.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/dual-blade/shadow-meld.png"],
+                        "type": "Passive",
+                        "desc": "Grants a chance to dodge incoming attacks and grants a buff on successful dodges",
+                        "details": [
+                            "[Buff]: All your attacks are guaranteed Critical Hits and grants flat Attack",
+                            "Also permanently increases %Final Damage and %Crit Damage"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Blade Fury",
+                    "shortDesc": "MP Cost: 65, Max Enemies Hit: 8, Damage: 250%, Number of Attacks: 5, Ignore Defense: 20%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dual-blade/blade-fury.png"],
+                    "animations": ["https://media.giphy.com/media/304UgKkjlcyARhx13F/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Spin violently damaging nearby enemies",
+                    "details": [
+                        "Attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Phantom Blow",
+                    "shortDesc": "MP Cost: 42, Damage: 330%, Enemies Hit: 3, Number of Attacks: 6, Ignore Defense: 30%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dual-blade/phantom-blow.png"],
+                    "animations": ["https://media.giphy.com/media/MVlxY9TG1mBzbwcrpW/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Deals a flurry of piercing attacks forward",
+                    "details": [
+                        "Attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Final Cut",
+                    "shortDesc": "MP Cost: 400, Damage: 2000%, Max Enemies Hit: 8.\\nSkill damage will be reduced if the charge time is too short\\nFinal Damage: +40%, Duration: 60 sec., 3 sec. invincibility after usage.\\nCooldown: 63 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dual-blade/final-cut.png"],
+                    "animations": ["https://media.giphy.com/media/5m6EfyEEg9ByN39Std/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Stab forward dealing devastating damage and provides a buff",
+                    "details": [
+                        "[Buff]: Increases %Final Damage",
+                        "Holding the Skill Key will increase the damage of the attack",
+                        "You are briefly invincible after using Final Cut"
+                    ]
+                },
+                {
+                    "name": "Sudden Raid",
+                    "shortDesc": "MP Cost: 290, Damage: 494%, Max Enemies Hit: 15, Number of Attacks: 7, Damage Over Time: 210% damage every 1 sec for 10 sec\\nCooldown: 30 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dual-blade/sudden-raid.png"],
+                    "animations": ["https://media.giphy.com/media/erom77ZOlEOdjDywf1/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a devastating large attack that applies a damaging debuff",
+                    "details": [
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media2.giphy.com/media/a9Wey0bjlLoE53PRZF/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/sajVelUi0qKvCB6yHu/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Mirrored Target",
+                    "shortDesc": "Active Effects - MP Cost: 135, Dummy HP: 19000, Dummy Duration: 90 sec, damage taken is reduced by 20% while the dummy is summoned, Shadow Meld occurs when the dummy is hit.\\nDummy does not take damage from some attacks.\\n[Passive Effect - Avoidability: 25%, Defense: +60%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dual-blade/mirrored-target.png"],
+                    "animations": ["https://media.giphy.com/media/ibWSkZzF9Vkg5nYjht/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Creates a dummy that draws in enemy aggression",
+                    "details": [
+                        "[Passive]: Permanently increases %Avoidability and %DEF",
+                        "Can only be used while <tt src={/class-icons/explorers/dual-blade/mirror-image.png} tip={Mirror Image (3rd Job)}> is active",
+                        "When the dummy is attacked, <tt src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld (3rd Job)}> will be triggered",
+                        "While summoned, damage taken is reduced (excludes %Max HP attacks)",
+                        "Dummy has a fixed amount of HP"
+                    ]
+                },
+                {
+                    "name": "Thorns",
+                    "shortDesc": "Attack Power: +30, Knockback Resistance: +60%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/dual-blade/thorns.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Sharpness",
+                    "shortDesc": "Critical Rate: +35%, Critical Damage: +15%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/dual-blade/sharpness.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Toxic Venom",
+                    "shortDesc": "Poison Chance: 50%, 160% damage every 1 sec for 8 sec, can be stacked 3 times",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/dual-blade/toxic-venom.png", "/class-icons/explorers/dual-blade/venom.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases debuff chance, duration, and %Damage",
+                        "Can now be stacked (up to 3 times)"
+                    ]
+                },
+                {
+                    "name": "Katara Expert",
+                    "shortDesc": "Dagger and Katara Mastery: +70%, Attack Power: +30, Final Damage: +20%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/dual-blade/katara-expert.png", "/class-icons/explorers/dual-blade/katara-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Final Damage"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Blade Fury - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/blade-fury-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Blade Fury - Guardbreak",
+                    "shortDesc": "DEF Ignored: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/blade-fury-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Blade Fury - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/blade-fury-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                },
+                {
+                    "name": "Phantom Blow - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/phantom-blow-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Phantom Blow - Guardbreak",
+                    "shortDesc": "20% additional DEF ignored",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/phantom-blow-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Phantom Blow - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/phantom-blow-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Blade Ascension - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/blade-ascension-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Blade Ascension - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/blade-ascension-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Blade Ascension - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/blade-ascension-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Blade Clone",
+                    "shortDesc": "MP Cost: 200, Damage: +10%\\n[Final Attack Skills] Duration: 90 sec, Extra Attack Chance for Direct Skills: 100%, Bonus Damage: 240%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/blade-clone.png"],
+                    "animations": ["https://media.giphy.com/media/Q9nfvEtFHc9exHZOty/giphy.gif"],
+                    "type": "Final Attack Buff",
+                    "desc": "Increases %Damage and direct successful attacks deal an additional attack",
+                    "details": [
+                        "Right-clicking the skill will toggle the visual effect ON/OFF"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Asura's Anger",
+                    "shortDesc": "MP Cost: 300, Duration: 3 sec, Max Enemies Hit: 10, Damage: 560%, Number of Attacks: 6, Max Attacks: 11. The effect ends immediately once all attacks have been made.\\nEnemy Defense Ignored: 100%\\nCan move and jump while using the skill. Damage taken while attacking, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 60 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/dual-blade/asuras-anger.png"],
+                    "animations": ["https://media.giphy.com/media/ekxSfhXGSMiWxQv7PM/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a torrent of slashes around you",
+                    "details": [
+                        "While casting, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "You can move and jump while using Asura's Anger",
+                        "Attack has 100% Ignore DEF",
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/thief/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/fzzADYEvt6qdxf0Esv/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expThief", "goddessBlessing", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Blade Storm",
+                    "shortDesc": "MP Cost: 20 per attack. Attack up to 10 enemies, with 1270% damage, 7 times, then deals 570% damage to up to 10 enemies 7 times for 2 sec., ignoring 100% additional Enemy DEF.\\nDamage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 60 sec",
+                    "icons": ["/class-icons/explorers/dual-blade/blade-storm.png"],
+                    "animations": ["https://media2.giphy.com/media/jQElPxklrTLfYHBWQP/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, unleash a barrage of slashes forward",
+                    "details": [
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "Attack has 100% Ignore DEF",
+                        "You can move while attacking"
+                    ]
+                },
+                {
+                    "name": "Blades of Destiny",
+                    "shortDesc": "MP Cost: 500, Damage: 880%, Number of Attacks: 7, Chase Cut Activation Count: 5, Max Enemies Hit: 12, Enemy DEF Ignored: 30%\\nCooldown: 10 sec",
+                    "icons": ["/class-icons/explorers/dual-blade/blades-of-destiny.png"],
+                    "animations": ["https://media3.giphy.com/media/kydAlZsgvhwBHoGeST/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Releas a flurry of blades all around",
+                    "details": [
+                        "Attack has increased %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Blade Tornado",
+                    "shortDesc": "MP Cost: 750, Max Enemies Hit: 10, Damage: 1320%, Number of Attacks: 7\\nAt intervals, Typhoon activates whirldwind dealing Damage: 880%, Max Enemies Hit: 10, Number of Attacks: 6. Activates whirlwind up to 6 times on 1 enemy.\\nFor Spinning Attack and Typhoon, Additional Monster DEF Ignored: +100%\\nCooldown: 12 sec",
+                    "icons": ["/class-icons/explorers/dual-blade/blade-tornado.png"],
+                    "animations": ["https://media3.giphy.com/media/PnJKvB3a326I2AWIr4/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Send forward a tornado that damages enemies it passes through",
+                    "details": [
+                        "Attack has 100% Ignore DEF",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Haunted Edge",
+                    "shortDesc": "MP Cost: 750, Cooldown: 12 sec, all attacks of Haunted Edge ignores 30% of enemy defense\\nHaunted Edge-Asura: Max Enemies Hit: 8, Damage: 1045%, Number of Attacks: 6, Max Sword Winds: 6, Sword Wind Damage: 1100%, Number of Sword Wind Attacks: 3, Final Damage of sword wind reduces by 50% when one enemy is hit by several sword winds\\nHaunted Edge-Yaksa: Chase Cut Activation: 5, Max Enemies Hit: 2, Damage: 945%, Number of Attacks: 4",
+                    "icons": ["/class-icons/explorers/dual-blade/haunted-edge.png"],
+                    "animations": ["https://media4.giphy.com/media/J6HLpBWTus9GdmFFJ7/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Periodically, when using <tt src={/class-icons/explorers/dual-blade/blade-fury.png} tip={Blade Fury (4th Job)}> or <tt src={/class-icons/explorers/dual-blade/phantom-blow.png} tip={Phantom Blow (4th Job)}>, an additional attack will trigger",
+                    "details": [
+                        "<tt src={/class-icons/explorers/dual-blade/blade-fury.png} tip={Blade Fury (4th Job)}> [Sura]:Slashes around you and creates homing blade winds<bp_Blade winds are unaffected by <tt src={/class-icons/explorers/dual-blade/mirror-image.png} tip={Mirror Image (3rd Job)}>_Enemies hit by multiple Sword Winds, each additional Sword Wind deals reduced %Final Damage_>",
+                        "<tt src={/class-icons/explorers/dual-blade/phantom-blow.png} tip={Phantom Blow (4th Job)}> [Yaksa]: Slashes violently forward",
+                        "Attacks has increased %Ignore DEF",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Bandit Slash Boost",
+                    "shortDesc": "Bandit Slash Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/dual-blade/bandit-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Tornado Spin Boost",
+                    "shortDesc": "Tornado Spin Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/dual-blade/tornado-spin.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Fatal Blow Boost",
+                    "shortDesc": "Fatal Blow Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/dual-blade/fatal-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Slash Storm Boost",
+                    "shortDesc": "Slash Storm Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/dual-blade/slash-storm.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Flashbang Boost",
+                    "shortDesc": "Flashbang Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/dual-blade/flashbang.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blade Ascension Boost",
+                    "shortDesc": "Blade Ascension Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/dual-blade/blade-ascension.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Flying Assaulter Boost",
+                    "shortDesc": "Flying Assaulter Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/dual-blade/flying-assaulter.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Bloody Storm Boost",
+                    "shortDesc": "Bloody Storm Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/dual-blade/bloody-storm.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Chains of Hell Boost",
+                    "shortDesc": "Chains of Hell Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/dual-blade/chains-of-hell.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Final Cut Boost",
+                    "shortDesc": "Final Cut Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dual-blade/final-cut.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blade Fury Boost",
+                    "shortDesc": "Blade Fury Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dual-blade/blade-fury.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Phantom Blow Boost",
+                    "shortDesc": "Phantom Blow Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dual-blade/phantom-blow.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sudden Raid Boost",
+                    "shortDesc": "Sudden Raid Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dual-blade/sudden-raid.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Asura's Anger Boost",
+                    "shortDesc": "Asura's Anger Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dual-blade/asuras-anger.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Critical Rate: +5%"
+                    ]
+                },
+                {
+                    "name": "Blade Clone Boost",
+                    "shortDesc": "Blade Clone Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/dual-blade/blade-clone.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-phantom-blow.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/dual-blade/phantom-blow.png} tip={Phantom Blow (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Phantom Blow",
+                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 4, Damage: 485%, Number of Attacks: 6, Ignore Defense: 40%",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-phantom-blow.png", "/class-icons/explorers/dual-blade/phantom-blow.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDRjZTFkZXN4Zzl6MmdrdTY3MHFvajB6MGtucWU3N21neG0wOHQ4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y1x0OxluFgCiDpv7jT/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-asuras-anger.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/dual-blade/asuras-anger.png} tip={Asura's Anger (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Asura's Anger",
+                    "shortDesc": "MP Cost: 330, Max Duration: 3 sec., Max Enemies Hit: 10, Damage: 1110%, Number of Attacks: 6, Max Attacks: 11. The effect ends immediately once all attacks have been made.\\nMonster DEF Ignored: 100%\\nCan move and jump while using the skill. Damage taken while attacking, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 60 sec.\\n[Passive Effect: HEXA Phantom Blow Damage: +75% (additive)]",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-asuras-anger.png", "/class-icons/explorers/dual-blade/asuras-anger.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExejZiZDhtemQ5MHZ1ZWJoY3BmOHhqMjB6cDMyNGFqODRuc2s5cGNpeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gBBZwgwNn78YL5ln1S/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-blade-clone-mortality.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Blade Clone",
+                    "shortDesc": "MP Cost: 230, Damage: +10%\\n[Final Attack Skill] Duration: 90 sec, Extra Attack Chance for Direct Skills: 100%, Bonus Damage: 480%",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-blade-clone.png", "/class-icons/explorers/dual-blade/blade-clone.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnFkMHAwdHI3c2p0ZWk5d2h2Z3B3bjJqMjcxNHh0c25rbnhxY2d5byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8WQGu7xlOVZG77y1z8/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjk4Mmh4bXp0OW54MGRtc3pqYW5nOWRwazVjZTVpYnR0OXZxc2ZmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XatZDpERkj6h5utGDe/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnB4MXJlM3VhOXRyMm93aGFsbWZmbnV0azAwcDhzbjR4dWdmemxqMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GV5Pl5broKW33pOfoN/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Mortality",
+                    "shortDesc": "MP Cost: 67. When a direct skill attack other than a common skill lands 15 times, Max Enemies Hit: 8, Damage: 425%, Number of Attacks: 6, Yaksha's Slash Count: 4 times\\nDirect skill hits that count towards summoning Yaksha stack up to 60\\nCooldown: 1 sec",
+                    "icons": ["/class-icons/explorers/dual-blade/mortality.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGo5dzJ6c29ncWViY2lhbjg5aHRrejliZnBxMmZvbDF5aDB3OG1heCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DegirvDoXi3UQ2g70O/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-blade-fury-sudden-raid.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/dual-blade/blade-fury.png} tip={Blade Fury (4th Job)}> <tt src={/class-icons/explorers/dual-blade/sudden-raid.png} tip={Sudden Raid (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Blade Fury",
+                    "shortDesc": "MP Cost: 76, Max Enemies Hit: 8, Damage: 580%, Number of Attacks: 5\\nEnhances to Fury Jet every 6 sec.\\nFury Jet - MP Cost: 84, Max Enemies Hit: 12, Damage: 590%, Number of Attacks: 6\\n[Passive Effect - HEXA Phantom Blow Damage: +42% points]",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-blade-fury.png", "/class-icons/explorers/dual-blade/fury-jet.png", "/class-icons/explorers/dual-blade/blade-fury.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGd0YjZnbzY3MXd6Z3hxODlwM2JqYmh3Zjg0bGFsaDR1enE5MzFoZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gAdp6Dv7ZN0dX411AO/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzBsN2V5OHRxd2VwZmMwODVzamRjOWhmb2RoaTE5ajVtYmcxOWd6NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/deLC4dQJQLu22FaXHo/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Sudden Raid",
+                    "shortDesc": "MP Cost: 340, Damage: 1020%, Max Enemies Hit: 15, Number of Attacks: 7, Damage Over Time: 590% damage for every 1 sec. for 10 sec.\\nCooldown: 14 sec.\\n[Passive Effect - Mortality Damage: +400% points]",
+                    "icons": ["/class-icons/explorers/dual-blade/hexa-sudden-raid.png", "/class-icons/explorers/dual-blade/sudden-raid.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGF2M2pmZHN2MWphYXBiYWc2OGNrN2Jpc2twd3EzMGRtam5tMDFsdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Yo8kv3fpYSBiJQWWHz/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Karma Blade",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nThe God of Hellfire descends, Max Enemies Hit: 15, Damage: 960%, Number of Attacks: 5, Chase Cuts: 6. Afterwards, Damage: 900%, Number of Attacks: 7, Chase Cuts: 20\\nWhen attack hits for 20 sec, 1 Karma Blade use is consumed for an additional attack, Max Enemies Hit: 3, Damage: 1715%, Number of Attacks: 7, Cooldown: 0.1 sec\\nKarma Blade Uses: 25\\nThe God of Hellfire manifests when the Karma Blade is completely consumed or its duration ends, Enemies Hit: 15, Damage: 1100%, Number of Attacks: 7, Chase Cuts: 30\\nWhen the God of Hellfire manifests, invincible and ignores status effects for 1 sec.\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/dual-blade/karma-blade.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHU0MTE0dHZhb3FhbzFxMmNlc2t1dm9paHVtemg3aDlrOXpyODYyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/twgvrGlycJsOAzE6yD/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Yama's Decree",
+                    "shortDesc": "MP Cost: 500, Invincible during casting\\nPronounces punishment 14 times, dealing 5779% damage to up to 15 enemies 11 times\\nUsing the skill again within 30 sec. will activate Just Punishment\\nJust Punishment - MP Cost: 500, Ignore status effects while casting\\nSlashes enemies 14 times, dealing 7683% damage to 15 enemies 13 times\\nAfterwards the judgment activates 4 times, dealing 10495% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/dual-blade/yamas-decree.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnFzYnh3ZHp1cTdrc2JvbzVkdG02aDNnZTF3MzFjbDY4NHNicGYyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hOBtjCTgmlBUDs4484/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Blade Storm Boost",
+                    "shortDesc": "Blade Storm Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/dual-blade/blade-storm.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Blades of Destiny Boost",
+                    "shortDesc": "Blades of Destiny Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/dual-blade/blades-of-destiny.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Blade Tornado Boost",
+                    "shortDesc": "Blade Tornado Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/dual-blade/blade-tornado.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Haunted Edge Boost",
+                    "shortDesc": "Haunted Edge Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/dual-blade/haunted-edge.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Mirror Image - 3rd Job",
+                "icons": ["/class-icons/explorers/dual-blade/mirror-image.png"],
+                "animations": ["https://media.giphy.com/media/wbsa8pxBrye0lc7pat/giphy.gif"]
+            },
+            {
+                "name": "Blade Fury - 4th Job",
+                "icons": ["/class-icons/explorers/dual-blade/blade-fury.png"],
+                "animations": ["https://media.giphy.com/media/304UgKkjlcyARhx13F/giphy.gif"]
+            },
+            {
+                "name": "Phantom Blow - 4th Job",
+                "icons": ["/class-icons/explorers/dual-blade/phantom-blow.png"],
+                "animations": ["https://media.giphy.com/media/MVlxY9TG1mBzbwcrpW/giphy.gif"]
+            },
+            {
+                "name": "Final Cut - 4th Job",
+                "icons": ["/class-icons/explorers/dual-blade/final-cut.png"],
+                "animations": ["https://media.giphy.com/media/5m6EfyEEg9ByN39Std/giphy.gif"]
+            },
+            {
+                "name": "Asura's Anger - Hyper Skill",
+                "icons": ["/class-icons/explorers/dual-blade/asuras-anger.png"],
+                "animations": ["https://media.giphy.com/media/ekxSfhXGSMiWxQv7PM/giphy.gif"]
+            },
+            {
+                "name": "Blade Storm - 5th Job",
+                "icons": ["/class-icons/explorers/dual-blade/blade-storm.png"],
+                "animations": ["https://media2.giphy.com/media/jQElPxklrTLfYHBWQP/giphy.gif"]
+            },
+            {
+                "name": "Blade Tornado - 5th Job",
+                "icons": ["/class-icons/explorers/dual-blade/blade-tornado.png"],
+                "animations": ["https://media3.giphy.com/media/PnJKvB3a326I2AWIr4/giphy.gif"]
+            },
+            {
+                "name": "Karma Blade - 6th Job",
+                "icons": ["/class-icons/explorers/dual-blade/karma-blade.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHU0MTE0dHZhb3FhbzFxMmNlc2t1dm9paHVtemg3aDlrOXpyODYyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/twgvrGlycJsOAzE6yD/giphy.gif"]
+            },
+            {
+                "name": "Yama's Decree - 6th Job",
+                "icons": ["/class-icons/explorers/dual-blade/yamas-decree.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnFzYnh3ZHp1cTdrc2JvbzVkdG02aDNnZTF3MzFjbDY4NHNicGYyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hOBtjCTgmlBUDs4484/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Dual Blade is a LUK thief class part of the Explorers. Dual Blade utilize Daggers as their primary weapons. For their secondary weapon, Dual Blade can equip Kataras"
+}

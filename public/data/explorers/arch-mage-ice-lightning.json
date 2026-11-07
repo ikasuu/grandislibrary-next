@@ -1,0 +1,1139 @@
+{
+    "class": "Arch Mage (Ice, Lightning)",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "Grants flat INT",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["wand", "staff"]},
+            {"secondary": ["mageShield", "magicBookI"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Attack Speed +1", "Boss Damage +10%" , "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 7",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost (1st Job)} val={+1}> <bg src={/class-icons/explorers/ice-lightning/agile-magic.png} tip={Agile Magic (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "+60 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/agile-magic.png} tip={Agile Magic (2nd Job)} val={+20}> <bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+4% +90(130)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation (2nd Job)} val={+30}> <bg src={/class-icons/explorers/ice-lightning/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+30}> <bg src={/class-icons/explorers/ice-lightning/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+30}> <bg type={temp} src={/class-icons/explorers/ice-lightning/frost-clutch.png} src={/class-icons/explorers/ice-lightning/glacial-fury.png} tip={Freezing Crush (2nd Job)} tip={Glacial Fury (Hyper Skill)} val={+5 per successful Ice-attribute attack} val={(Max. +40 to Ice-attribute attacks)}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%(45%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/ice-lightning/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+5%}> <bg src={/class-icons/explorers/ice-lightning/arcane-overdrive.png} tip={Arcane Overdrive (3rd Job)} val={+30%}> <bg type={opt} src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost (1st Job)} val={+5% if Wand is equipped}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+15%(25-31%)",
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/arcane-overdrive.png} tip={Arcane Overdrive (3rd Job)} val={+15%}> <bg type={debuff} sub={temp} src={/class-icons/explorers/ice-lightning/frost-clutch.png} tip={Frost Clutch (4th Job)} val={+2% per successful Ice-attribute attack} val={(Max. +10% to Lightning-attribute attacks)} subSrc={/class-icons/explorers/ice-lightning/glacial-fury.png} subTip={Glacial Fury (Hyper Skill) subVal={While active, Max. +16%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+90%(189%)",
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/element-amplification.png} tip={Element Amplification (3rd Job)} val={+50%}> <bg src={/class-icons/explorers/ice-lightning/arcane-aim.png} tip={Arcane Aim (4th Job)} val={+8% per successful attack} val={(Max. +40%)}> <bg type={debuff} src={/class-icons/link-skills/empirical-knowledge.png} tip={Empirical Knowledge (Link Skill)} val={+3% per stack} val={(Max. +9%)}> <bg type={temp} src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+188.79%(407.22%)",
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+40%}> × <bg src={/class-icons/explorers/mage/infinity.png} tip={Infinity (4th Job)} val={+91%}> × <bg type={debuff} src={/class-icons/explorers/ice-lightning/jupiter-thunder.png} tip={Jupiter Thunder (5th Job)} val={+12% to Lightning-attribute attacks}> × <bg type={debuff} sub={temp} src={/class-icons/explorers/ice-lightning/frost-clutch.png} tip={Frost Clutch (4th Job)} val={+1% per successful Ice-attribute attack} val={(Max. +5% to Lightning-attribute attacks)} subSrc={/class-icons/explorers/ice-lightning/glacial-fury.png} subTip={Glacial Fury (Hyper Skill) subVal={While active, Max. +8%}> ×<bg type={temp} src={/class-icons/explorers/ice-lightning/storm-magic.png} tip={Storm Magic (3rd Job)} val={+20% to enemies with:} val={DoT, stun, freeze, darkness, paralysis}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}> × <bg type={opt} src={/class-icons/5th-job/arcane-overdrive.png} tip={Arcane Overdrive (5th Job)} val={+21%} val={(-7% every 10s)}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+20%(54.14%)",
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/arcane-aim.png} tip={Arcane Aim (4th Job)} val={+20%}> × <bg type={debuff} src={/class-icons/link-skills/empirical-knowledge.png} tip={Empirical Knowledge (Link Skill)} val={+3% per stack} val={(Max. +9%)}> × <bg type={debuff} src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath (4th Job)} val={+30% MDR} val={+15% PDR}> × <bg type={temp} src={/class-icons/explorers/ice-lightning/shatter.png} tip={Shatter (3rd Job)} val={+2% per Frost Clutch stack} val={(Max. +10% to frozen enemies)}>"
+              },
+              {
+                "name": "Ignore Elemental Resistance",
+                "stat": "+10%",
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+10%}>"
+              },
+              {
+                "name": "Buff Duration",
+                "stat": "+50%",
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+50%}>"
+              }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation (2nd Job)} dur={[240s]}>",
+            "toggles": "<tt src={/class-icons/explorers/ice-lightning/absolute-zero-aura.png} tip={Absolute Zero Aura (2nd Job)}> <tt src={/class-icons/explorers/ice-lightning/teleport-mastery.png} tip={Teleport Mastery (3rd Job)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} dur={[30s cd]}>",
+            "summons": "<tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)} dur={[120s/60s]}> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)} dur={[600s]}> <tt src={/class-icons/explorers/ice-lightning/frost-ark.png} tip={Frost Ark (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/explorers/ice-lightning/spirit-of-snow.png} tip={Spirit of Snow (5th Job)} dur={[30s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/ice-lightning/elemental-adaptation.png} tip={Elemental Adaptation (3rd Job)} dur={[7 Critical Abnormal Statuses](240s cd)}> <tt src={/class-icons/explorers/ice-lightning/glacial-fury.png} tip={Glacial Fury (Hyper Skill)} dur={[20s](60s cd)}> <tt src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath (4th Job)} dur={[13s](120s cd)}> <tt src={/class-icons/explorers/ice-lightning/frozen-lightning.png} tip={Frozen Lightning (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath (4th Job)} dur={[Up to 10s](120s cd)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/explorers/ice-lightning/frozen-lightning.png} tip={Frozen Lightning (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/explorers/ice-lightning/lightning-orb.png} tip={Lighting Orb (Hyper Skill)} dur={[Up to 2s](-50% | 60s cd)}>"
+        },
+        "linkSkill": {
+            "id": 80002762,
+            "offline": true,
+            "name": "Empirical Knowledge",
+            "maxLevel": 9,
+            "shortDesc": "When attacking, has a 31% chance to identify an enemy's weakness, granting you the following bonuses against them:\\nDamage per Stack: +5%, Enemy DEF Ignored per Stack: +5%\\nEffect Duration: 10 sec, Stacks up to 3 times",
+            "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
+            "type": "Passive",
+            "desc": "Successful attacks have a chance to debuff enemies",
+            "details": [
+                "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacks up to 3 times)",
+                "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/mage/mana-wave.png} tip={Mana Wave}> -> <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport}> -> <tt src={/class-icons/explorers/mage/magic-guard.png} tip={Magic Guard}> -> <tt src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost}> -> <tt src={/class-icons/explorers/mage/magic-armor.png} tip={Magic Armor}> -> <tt src={/class-icons/explorers/mage/energy-bolt.png} tip={Energy Bolt}>"],  
+                ["2nd Job", "<tt src={/class-icons/explorers/ice-lightning/spell-mastery.png} tip={Spell Mastery}> -> <tt src={/class-icons/common/high-wisdom.png} tip={High Wisdom}> -> <tt src={/class-icons/explorers/ice-lightning/agile-magic.png} tip={Agile Magic}> -> <tt src={/class-icons/explorers/ice-lightning/absolute-zero-aura.png} tip={Absolute Zero Aura}> -> <tt src={/class-icons/explorers/ice-lightning/mp-eater.png} tip={MP Eater}> -> <tt src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation}> -> <tt src={/class-icons/explorers/ice-lightning/thunder-bolt.png} tip={Thunder Bolt}> -> <tt src={/class-icons/explorers/ice-lightning/cold-beam.png} tip={Cold Beam}>"],  
+                ["3rd Job", "<tt src={/class-icons/explorers/ice-lightning/teleport-boost.png} tip={Teleport Boost}> -> <tt src={/class-icons/explorers/ice-lightning/shatter.png} tip={Shatter}> -> <tt src={/class-icons/explorers/ice-lightning/element-amplification.png} tip={Element Amplification}> -> <tt src={/class-icons/explorers/ice-lightning/storm-magic.png} tip={Storm Magic}> -> <tt src={/class-icons/explorers/ice-lightning/arcane-overdrive.png} tip={Arcane Overdrive}> -> <tt src={/class-icons/explorers/ice-lightning/elemental-decrease.png} tip={Elemental Decrease}> -> <tt src={/class-icons/explorers/ice-lightning/teleport-mastery.png} tip={Teleport Mastery}> -> <tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere}> -> <tt src={/class-icons/explorers/ice-lightning/ice-strike.png} tip={Ice Strike}> -> <tt src={/class-icons/explorers/ice-lightning/frost-ward.png} tip={Frost Ward}> -> <tt src={/class-icons/explorers/ice-lightning/elemental-adaptation.png} tip={Elemental Adaptation (Ice, Lightning)}>"],  
+                ["4th Job", "<tt src={/class-icons/explorers/ice-lightning/buff-mastery.png} tip={Buff Mastery}> -> <tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning}> -> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines}> -> <tt src={/class-icons/explorers/ice-lightning/arcane-aim.png} tip={Arcane Aim}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/mage/infinity.png} tip={Infinity}> -> <tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard}> -> <tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb}> -> <tt src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/explorers/ice-lightning/teleport-mastery-range.png} tip={Teleport Mastery - Range}> Teleport Mastery - Range_<tt src={/class-icons/explorers/ice-lightning/chain-lightning-reinforce.png} tip={Chain Lightning - Reinforce}> <tt src={/class-icons/explorers/ice-lightning/chain-lightning-spread.png} tip={Chain Lightning - Spread}> <tt src={/class-icons/explorers/ice-lightning/chain-lightning-extra-strike.png} tip={Chain Lightning - Extra Strike}> Chain Lightning - Reinforce, Spread and Extra Strike_<tt src={/class-icons/explorers/ice-lightning/frozen-orb-reinforce.png} tip={Frozen Orb - Reinforce}> Frozen Orb - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/lightning-orb.png} tip={Lightning Orb (Hyper Skill)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "secondary": [4],
+            "other": [5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning (4th Job)}>",
+                "<tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard (4th Job)}>",
+                "<tt src={/class-icons/explorers/ice-lightning/lightning-orb.png} tip={Lightning Orb (Hyper Skill)}>",
+                "<tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)}>",
+                "<tt src={/class-icons/explorers/ice-lightning/frost-ward.png} tip={Frost Ward (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/ice-strike.png} tip={Ice Strike (3rd Job)}>",
+                "<tt src={/class-icons/explorers/ice-lightning/thunder-bolt.png} tip={Thunder Bolt (2nd Job)}> <tt src={/class-icons/explorers/ice-lightning/cold-beam.png} tip={Cold Beam (2nd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Arch_Mage_(Ice,_Lightning)"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%95%84%ED%81%AC%EB%A9%94%EC%9D%B4%EC%A7%80(%EC%8D%AC%2C%EC%BD%9C)"},
+            {"title": "Class Discord", "link": "https://discord.gg/PX2v4BV3Qp"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1fVI8tdEwBDigRD9HTcVIYtoFhm1ggXzsJMlIG_9_lAk"}
+        ],
+        "infographics": [
+            {
+                "src": "/ice-lightning/ice-lightning-overview.png",
+                "title": "Overview",
+                "credit": "PommeCuite",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "/ice-lightning/ice-lightning-6th-job.png",
+                "title": "6th Job",
+                "credit": "Ebola",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "/ice-lightning/ice-lightning-culvert.png",
+                "title": "Culvert",
+                "credit": "PommeCuite, Vivilion, and 강한모험",
+                "date": "2026-06-25"
+            }
+        ],
+        "specialThanks": "Special thanks to splashos49, bel, and the members of the Explorer Mage Discord for their help in making this overview!",
+        "discord": "https://discord.gg/PX2v4BV3Qp",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ],
+        "extraContent": {
+            "title": "Freezing Crush",
+            "content": [
+                "In 2nd Job, you unlock the passive <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}> Freezing Crush which causes your Ice-attributed attacks to apply a stacking debuff that increases the %Crit Damage and %Final Damage of your Lighting-attribute attacks. Lightning-attribute attacks will consume a stack of the debuff",
+                "In 3rd Job, you unlock the passive called <tt src={/class-icons/explorers/ice-lightning/shatter.png} tip={Shatter (3rd Job)}> Shatter that causes your attacks to gain increased %Ignore DEF per Freezing Crush stack",
+                "Below is a list of your Ice-attribute skills:",
+                "<bp_<tt src={/class-icons/explorers/ice-lightning/cold-beam.png} tip={Cold Beam}> Cold Beam (2nd Job)_<tt src={/class-icons/explorers/ice-lightning/absolute-zero-aura.png} tip={Absolute Zero Aura (2nd Job)}> Absolute Zero Aura (2nd Job)_<tt src={/class-icons/explorers/ice-lightning/ice-strike.png} tip={Ice Strike (3rd Job)}> Ice Strike (3rd Job)_<tt src={/class-icons/explorers/ice-lightning/frost-ward.png} tip={Frost Ward (3rd Job)}> Frost Ward (3rd Job)_<tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard (4th Job)}> Blizzard (4th Job)_<tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb (4th Job)}> Frozen Orb (4th Job)_<tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)}> Elquines (4th Job)_<tt src={/class-icons/explorers/ice-lightning/spirit-of-snow.png} tip={Spirit of Snow (5th Job)}> Spirit of Snow (5th Job)_>",
+                "Below is a list of your Lightning-attribute skills:",
+                "<bp_<tt src={/class-icons/explorers/ice-lightning/thunder-bolt.png} tip={Thunder Bolt (2nd Job)}> Thunder Bolt (2nd Job)_<tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)}> Thunder Sphere - Does not consume (3rd Job)_<tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning (4th Job)}> Chain Lightning (4th Job)_<tt src={/class-icons/explorers/ice-lightning/lightning-orb.png} tip={Lightning Orb (Hyper Skill)}> Lightning Orb (Hyper Skill)_<tt src={/class-icons/explorers/ice-lightning/bolt-barrage.png} tip={Bolt Barrage (5th Job)}> Bolt Barrage (5th Job)_<tt src={/class-icons/explorers/ice-lightning/jupiter-thunder.png} tip={Juptier Thunder (5th Job)}> Jupiter Thunder (5th Job)_>"
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Empirical Knowledge",
+                    "maxLevel": 9,
+                    "shortDesc": "When attacking, has a 31% chance to identify an enemy's weakness, granting you the following bonuses against them:\\nDamage per Stack: +5%, Enemy DEF Ignored per Stack: +5%\\nEffect Duration: 10 sec, Stacks up to 3 times",
+                    "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
+                    "type": "Passive",
+                    "desc": "Successful attacks have a chance to debuff enemies",
+                    "details": [
+                        "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacks up to 3 times)",
+                        "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/Ib4beuINWGzyhzcuiy/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/6wwTzh9mSENJ1ySUGK/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/Xao9J2lD9GGtxA5rb6/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/x0jJCHx2wUXO0ctIoV/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2k4Z21odnQ4enhlOGI4bTlkOXlhMWh4ZWoxMnFjeXZxMzdhZzZnaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pBxPthMZAk860ZKyRt/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Energy Bolt",
+                        "shortDesc": "MP Cost: 24, Damage: 78%, Number of Attacks: 4 Max Enemies Hit: 4",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/mage/energy-bolt.png"],
+                        "animations": ["https://media.giphy.com/media/KaCvNDsX2jvR5FWDam/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Casts an explosive orb forward"
+                    },
+                    {
+                        "name": "Magic Guard",
+                        "shortDesc": "Damage Taken: -10%, Damage Displaced: 85% of damage received",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/mage/magic-guard.png"],
+                        "type": "Passive",
+                        "desc": "Reduces damage taken (against regular monsters) and a portion of your damage taken will be redirected towards your MP"
+                    },
+                    {
+                        "name": "Teleport",
+                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 190, and up and down with 295\\n[Passive Effects: Speed: +22, Max Speed: +20]",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/mage/teleport.png"],
+                        "animations": ["https://media.giphy.com/media/J9uQbGcZisqz9682KJ/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "details": [
+                            "Can be used in the air and on ladders"
+                        ]
+                    },
+                    {
+                        "name": "Mana Wave",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.\\nHold the Jump key after using to spend 20 MP to descent slowly for up to 5 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/mage/mana-wave.png"],
+                        "animations": ["https://media.giphy.com/media/XoznlDX2nWDUPJR43N/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
+                            "After using, holding the Jump Key will allow you to slowly float down<bp_You can move while floating_>"
+                        ]
+                    },
+                    {
+                        "name": "Magic Armor",
+                        "shortDesc": "Defense: +90",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/mage/magic-armor.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "MP Boost",
+                        "shortDesc": "Max MP: +20%, Attack Speed: +1, MP increases by 120 per level\\nCritical Rate: +5% when equipped with a Wand",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/mage/mp-boost.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Cold Beam",
+                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 27, Max Enemies Hit: 6, Damage: 199%, Number of Attacks: 3, Freeze Duration: 8",
+                        "icons": ["/class-icons/explorers/ice-lightning/cold-beam.png"],
+                        "animations": ["https://media.giphy.com/media/XZvNNYXu9jTHsasXAp/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast an erupting ice shard forward",
+                        "details": [
+                            "Enemies that are hit will freeze and be slowed down",
+                            "Deals increased damage to Fire type monsters"
+                        ]
+                    },
+                    {
+                        "name": "Freezing Crush",
+                        "shortDesc": "Grants Critical Damage: +1% per stack when attacking a Frozen enemy. Lightning-based skills consume ice stacks, granting Final Damage: +1% per stack.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/ice-lightning/freezing-crush.png"],
+                        "type": "Passive",
+                        "desc": "Attacking enemies with Ice-Attribute attacks will provide a stacking debuff",
+                        "details": [
+                            "[Debuff]: For each stack, receives increased %Crit Damage and additional %Final Damage for Lightning-Attribute attacks",
+                            "Using Lightning-Attribute attacks will consume a stack"
+                        ]
+                    },
+                    {
+                        "name": "Thunder Bolt",
+                        "shortDesc": "MP Cost: 30, Damage: 210%, Number of Attacks: 3, Max Enemies Hit: 6",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/ice-lightning/thunder-bolt.png"],
+                        "animations": ["https://media.giphy.com/media/1PwO7YWO8mlNQVZ0ac/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Lightning bolts strike down on nearby enemies"
+                    },
+                    {
+                        "name": "Absolute Zero Aura",
+                        "shortDesc": "MP Cost: 60 per second, Grants Status Resistance: +20, Elemental Resistance: +20%, and Damage Taken: -20% to you and nearby party members.\\nFreezes up to 15 enemies periodically",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/ice-lightning/absolute-zero-aura.png"],
+                        "animations": ["https://media.giphy.com/media/yg6S3u35djAsZgz9u8/giphy.gif"],
+                        "type": "Party Toggle Buff",
+                        "desc": "While toggled, increases Status Resistance and %Damage Reduction (against regular monsters)",
+                        "details": [
+                            "Nearby enemies periodically gain stacks of <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Meditation",
+                        "shortDesc": "MP Cost: 16, Party Member Magic ATT: +30, Duration: 240 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/ice-lightning/meditation.png"],
+                        "animations": ["https://media.giphy.com/media/Eu8Qj6jp38g09brN2e/giphy.gif"],
+                        "type": "Party Buff"
+                    },
+                    {
+                        "name": "Agile Magic",
+                        "shortDesc": "Attack Speed: +2, INT: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/ice-lightning/agile-magic.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Spell Mastery",
+                        "shortDesc": "Magic Mastery: 50%, Magic ATT: +30, Critical Rate: +5%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/ice-lightning/spell-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "High Wisdom",
+                        "shortDesc": "Permanently increase INT by 40",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/high-wisdom.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "MP Eater",
+                        "shortDesc": "MP Absorb Chance: 20%, Amount Absorbed: 10% of Max MP\\nAmount Absorbed: 5% of the boss's Max MP",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/ice-lightning/mp-eater.png"],
+                        "type": "Passive",
+                        "desc": "Your attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Effectiveness is reduced for bosses"
+                        ]
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Ice Strike",
+                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 90, Damage: 335% Number of Attacks: 4, Max Monsters Hit: 8, Freeze Duration: 8 sec",
+                        "icons": ["/class-icons/explorers/ice-lightning/ice-strike.png"],
+                        "animations": ["https://media.giphy.com/media/EBcH3R4D8XL6zjyqlK/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Icicles strike down from above damaging and freezing nearby enemies"
+                    },
+                    {
+                        "name": "Elemental Adaptation (Ice, Lightning)",
+                        "shortDesc": "MP Cost: 190, activates Elemental Adaptation.\\nConsumes 2% of Max MP for a 100% chance to block debilitating status conditions, and regenerate the barrier up to 7 times.\\nCooldown: 240 sec.\\n[Passive Effect: Elemental and Status Resistances +20%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/ice-lightning/elemental-adaptation.png"],
+                        "animations": ["https://media.giphy.com/media/4PMYQWdgriegOGa6Jg/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Creates a barrier that blocks up to 7 Critical Abnormal Statuses",
+                        "details": [
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                        ]
+                    },
+                    {
+                        "name": "Frost Ward",
+                        "maxLevel": 10,
+                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 8, Damage: 255%, Number of Attacks: 4",
+                        "icons": ["/class-icons/explorers/ice-lightning/frost-ward.png"],
+                        "animations": ["https://media.giphy.com/media/qPdFS6ZOhp1CX2ouKq/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Cast a blast of ice pushes enemies and freezes and slows enemies hit",
+                        "details": [
+                            "Deals increased damage to Fire-attribute monsters"
+                        ]
+                    },
+                    {
+                        "name": "Thunder Sphere",
+                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 55, Lightning Orb Summon Duration: 120 sec., Damage: 296%, Max Enemies Hit: 6, Number of Attacks: 3\\nUsing the skill again with the down arrow key fixes the orb in place for 60 sec. Fixed Orb Damage: 296%, Max Enemies Hit: 6, Number of Attacks: 3\\nDamage Against Normal Enemies: +170% (additive)",
+                        "icons": ["/class-icons/explorers/ice-lightning/thunder-sphere.png"],
+                        "animations": ["https://media.giphy.com/media/nQeHYXs8iVS5tZq81Q/giphy.gif", "https://media.giphy.com/media/oIIeJPJQ5Wh21ZH2Cl/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon an orb that strikes nearby enemies and follows you around",
+                        "details": [
+                            "While active, pressing the Down Arrow Key and Skill Key together will fix the orb's position and attack in a wider range<bp_Right-clicking the skill will toggle ON/OFF the ability to fix the position by pressing the Skill Key without the Down Arrow Key_>",
+                            "Deals increased %Damage to regular monsters by a flat amount",
+                            "Does not consume <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job}> freezing stacks"
+                        ]
+                    },
+                    {
+                        "name": "Teleport Mastery",
+                        "shortDesc": "Additional MP Cost: 20, Max Monsters Hit: 6, Damage: 340%, Stun Chance: 80%, Stun Duration: 4 sec.\\n[Passive Effect: Knockback Resistance: +40%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/ice-lightning/teleport-mastery.png"],
+                        "animations": ["https://media.giphy.com/media/UZS4IQSaM371c0pUxT/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, using <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}> will damage nearby enemies",
+                        "details": [
+                            "[Passive]: Permanently increases %Knockback Resistance",
+                            "Has a chance to stun enemies"
+                        ]
+                    },
+                    {
+                        "name": "Teleport Boost",
+                        "shortDesc": "Teleport Distance: Horizontal +65, Vertical +25.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/ice-lightning/teleport-boost.png"],
+                        "type": "Passive",
+                        "desc": "Increases the teleport distance of <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}>",
+                        "details": [
+                            "Cannot be used at the same time as <tt src={/class-icons/explorers/ice-lightning/teleport-mastery-range.png} tip={Teleport Mastery - Range (Hyper Skill)}>"
+                        ]
+                    },
+                    {
+                        "name": "Shatter",
+                        "maxLevel": 4,
+                        "shortDesc": "Attack frozen enemies with a 100% chance to ignore 2% DEF for each stack",
+                        "icons": ["/class-icons/explorers/ice-lightning/shatter.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Elemental Decrease",
+                        "maxLevel": 9,
+                        "shortDesc": "Elemental Attribute Resistance: -10%, Final Damage: +40%",
+                        "icons": ["/class-icons/explorers/ice-lightning/elemental-decrease.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Arcane Overdrive",
+                        "maxLevel": 10,
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +15%",
+                        "icons": ["/class-icons/explorers/ice-lightning/arcane-overdrive.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Storm Magic",
+                        "maxLevel": 10,
+                        "shortDesc": "Deals 20% extra final damage against enemies with the following effects: Damage Over Time, Freeze, Stun, Darkness, or Paralysis",
+                        "icons": ["/class-icons/explorers/ice-lightning/storm-magic.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Element Amplifcation",
+                        "shortDesc": "MP Cost: +50%, Damage: +50%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/ice-lightning/element-amplification.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Chain Lightning",
+                    "shortDesc": "MP Cost: 44, Damage: 220%, Number of Attacks: 10, Max Monsters Hit: 6, Stun Chance: 90%, Stun Duration: 4 sec, Additional Critical Rate: 25%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/ice-lightning/chain-lightning.png"],
+                    "animations": ["https://media.giphy.com/media/gGumMGH72aWdIc8Ekl/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Casts a lightning that bounces to nearby enemies",
+                    "details": [
+                        "Attack has increased %Crit Rate and a chance to stun enemies"
+                    ]
+                },
+                {
+                    "name": "Freezing Breath",
+                    "shortDesc": "MP Cost: 22, makes you invincible. Stun up to 8 enemies and inflicts 80% damage 4 times for 13 sec. Reduces enemy Magic DEF by -30% and Weapon DEF by -15%.\\nStun Duration: +100% depending on damage inflicted with Freezing Breath.\\nOnly inflicts damage to stunned enemies.\\nThis effect lasts as long as the key is held, up to 10 sec.\\nCooldown: 120 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/ice-lightning/freezing-breath.png"],
+                    "animations": ["https://media.giphy.com/media/YNi12uQSAddvvzgexF/giphy.gif"],
+                    "type": "Key-down Bind Attack",
+                    "desc": "Binds enemies hit by the breath while also reducing their %DEF",
+                    "details": [
+                        "You are invincible while casting but you cannot move",
+                        "Reduction to %DEF can be considered as %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Blizzard",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 15, Damage: 301%, Number of Attacks: 12, Cooldown: 45 sec.\\n[Passive Effect: [Final Attack] Your attack skills have a 60% chance to strike a single enemy with a Blizzard, dealing 220% damage.]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/ice-lightning/blizzard.png"],
+                    "animations": ["https://media.giphy.com/media/fxhc74byENFDPE9Z1e/giphy.gif"],
+                    "type": "Attack / Final Attack",
+                    "desc": "Create a shower of icicles",
+                    "details": [
+                        "[Final Attack]: Your attacks have a chance to create an icicle that strikes a single enemy"
+                    ]
+                },
+                {
+                    "name": "Frozen Orb",
+                    "shortDesc": "MP Cost: 50, create a Frozen Orb that deals 220% damage with ice shards to up to 8 enemies\\nCooldown: 5 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/ice-lightning/frozen-orb.png"],
+                    "animations": ["https://media.giphy.com/media/OMou1Tk6YiurzhWgWY/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Casts a frozen orb that travels forward that damages enemies in its path",
+                    "details": [
+                        "The orb slows down when it encounters an enemy",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Infinity",
+                    "shortDesc": "Every 5 seconds, restores 10% HP/MP\\nFinal Damage: +91%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/mage/infinity.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elquines",
+                    "shortDesc": "MP Cost: 120, Summon Elquines Duration: 600 sec.\\nDamage: 127%, Max Enemies Hit: 3, Number of Attacks: 3.\\nPermanently increases Mastery by 70%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/ice-lightning/elquines.png"],
+                    "animations": ["https://media.giphy.com/media/rqCSXyiLvCxXIwaTnH/giphy-downsized-large.gif"],
+                    "type": "Summon",
+                    "desc": "Summon Elquines that attacks nearby enemies",
+                    "details": [
+                        "[Passive]: Permanently increases %Weapon Mastery",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Maple Warrior",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/Z2x002JNKVe0CiBS9b/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/common/heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/mITBd3s9GD4GjcVBWF/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Buff Mastery",
+                    "shortDesc": "Permanently increased Magic ATT: +30, Buff Duration: +50%, Knockback Resistance: +60%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/ice-lightning/buff-mastery.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Arcane Aim",
+                    "shortDesc": "Ignores 20% of enemy DEF. Successful attacks have a 100% chance to increase your damage by 8% for 5 sec (excludes minion damage).\\nThis effect stacks up to 5 times.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/ice-lightning/arcane-aim.png"],
+                    "type": "Passive",
+                    "desc": "Successfully damaging an enemy grants a stacking %Damage buff (up to 5 times)",
+                    "details": [
+                        "Summon attacks cannot trigger this effect",
+                        "Additionally increases %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Frost Clutch",
+                    "shortDesc": "Grants Critical Damage: +2% per stack when attacking a Frozen enemy. Lightning-based skills consume ice stacks, granting Final Damage +1% per stack.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/freezing-crush.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Crit Damage provided per stack"
+                    ]
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Teleport Mastery - Reinforce",
+                    "shortDesc": "Damage: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/teleport-mastery-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Teleport Mastery - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/teleport-mastery-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Teleport Mastery - Range",
+                    "shortDesc": "100 bonus distance",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/teleport-mastery-range.png"],
+                    "type": "Toggle Passive",
+                    "desc": "",
+                    "details": [
+                        "While toggled, increases teleport distance"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Chain Lightning - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/chain-lightning-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Chain Lightning - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/chain-lightning-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Chain Lightning - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/chain-lightning-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Frozen Orb - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/frozen-orb-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Frozen Orb - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/frozen-orb-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Frozen Orb - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/frozen-orb-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Glacial Fury",
+                    "shortDesc": "MP Cost: 200, Duration: 20\\nWhile buff is active, increase max Freeze Stacks: 8. Ice Attribute Magic ATT per Freeze Stack: +5\\nCooldown: 60 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/glacial-fury.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGlucHR4ZDd6bHVjemF2emZzc3d4d2I4NWQ2dnFyengyeGxyNWxxdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1QBtfz3sVoRa8GHU5I/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "While active, increases max stacks of <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}> (from 5 to 8) and grants Ice Attribute skills increased flat Magic Attack per stack",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Lightning Orb",
+                    "shortDesc": "This is a continuous channeled skill. MP Cost per atttack: 30, Max Enemies Hit: 15, Damage: 135%, Number of Attacks: 15, Max Hold Duration: 2 sec., Final attack deals up to 702% damage 15 times.\\nWhile the key is held, damage taken (including attakcs that deal damage in proportion to Max HP): -50%\\nCooldown: 60 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/ice-lightning/lightning-orb.png"],
+                    "animations": ["https://media.giphy.com/media/YszsHbi9eX9KNfdirG/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "While held, create a large zone that continuously damages enemies within it",
+                    "details": [
+                        "At the end of the skill, deals a final attack",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "The direction of the attack can be changed by pressing the Left or Right Arrow Keys",
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/mage/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/AjvoAie6tyYiN6nZdG/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expMagician", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "Frost Ark",
+                    "shortDesc": "MP Cost: 1000, summons a magical structure for 20 sec.\\nWhen hit by lightning, the structure releases an electric shock that attacks up to 15 enemies 5 times for 385% damage. Reactivation cooldown: 0.1 sec.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/ice-lightning/frost-ark.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc24xaDZjbzN5ZTJlZGRpbHE3bWttOXE5Z2h1Mnp2cGk5NHN0YzFuayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/koV22HrF9UZFJkEx0L/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summon a magical structure that releases an electric shock when it's hit by a Lightning-attribute attack"
+                },
+                {
+                    "name": "Bolt Barrage",
+                    "shortDesc": "MP Cost: 1000\\nConjure 8 lightning bolts that attack up to 12 enemies, dealing 860% damage 15 times.\\nThe lightning moves forward as it strikes, but will continue to strike the same place if its path is blocked. While the lightning is in motion, the skill can be used again to lock it to that location.\\nCooldown: 40 sec",
+                    "icons": ["/class-icons/explorers/ice-lightning/bolt-barrage.png"],
+                    "animations": ["https://media.giphy.com/media/JlI0pAfrTEDDMB9yXP/giphy-downsized-large.gif"],
+                    "type": "Attack",
+                    "desc": "Create a wall of lightning that pulses forward",
+                    "details": [
+                        "Strikes the same location if the path is blocked or if the Skill Key is pressed again",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Spirit of Snow",
+                    "shortDesc": "MP Cost: 1000, stacks Freeze, Max Enemies Hit: 10, Number of Attacks: 10, Damage: 1715%, Attack Duration: 30 sec\\nWhen attacking 1 enemy, Freeze Stacks: 3\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/explorers/ice-lightning/spirit-of-snow.png"],
+                    "animations": ["https://media.giphy.com/media/KFi2458O0ZRxQXH3AL/giphy-downsized-large.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a spirit of snow to attack nearby enemies and applies stacks of <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}>",
+                    "details": [
+                        "When attacking a single enemy, applies 3 stacks instead",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Jupiter Thunder",
+                    "shortDesc": "MP Cost: 1000. Enemies touched by orb is stunned 8 times, for 871% damage, at fixed intervals. Max Number of Shocks: 30, reduces Freeze stacks for every 5 stuns.\\nShocked enemies receive 12% increased Final Damage from lightning attribute attacks except Jupiter Thunder and Frozen Lightning.\\nElectric current flows around shocked enemy, periodically attacking 2 enemies 4 times with 513% damage.\\nCooldown: 120 sec, cooldown reduced by 3.4 sec for every number of shocks that didn't activate.",
+                    "icons": ["/class-icons/explorers/ice-lightning/jupiter-thunder.png"],
+                    "animations": ["https://media.giphy.com/media/4b9qAOwOLwAyqgO1si/giphy-downsized-large.gif"],
+                    "type": "Attack",
+                    "desc": "Fire a lightning orb that expands when it collides with a target and continuously damages nearby enemies",
+                    "details": [
+                        "The orb continues to travel again if the current target is defeated",
+                        "The orb has a fixed number of shocks before it disappears<bp_Cooldown of skill is reduced based on the amount of unused shocks_>",
+                        "Reduces <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}> stacks each time an enemy is shocked 5 times by the orb",
+                        "Enemies hit by the attack receive increased %Final Damage from Lightning-attribute attacks except <tt src={/class-icons/explorers/ice-lightning/jupiter-thunder.png} tip={Jupiter Thunder (5th Job)}> <tt src={/class-icons/explorers/ice-lightning/frozen-lightning.png} tip={Frozen Lightning (6th Job)}>",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Thunder Bolt Boost",
+                    "shortDesc": "Thunder Bolt Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/ice-lightning/thunder-bolt.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Cold Beam Boost",
+                    "shortDesc": "Cold Beam Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/ice-lightning/cold-beam.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ice Strike Boost",
+                    "shortDesc": "Ice Strike Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/ice-lightning/ice-strike.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Frost Ward Boost",
+                    "shortDesc": "Frost Ward Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/ice-lightning/frost-ward.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Thunder Sphere Boost",
+                    "shortDesc": "Thunder Sphere Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/ice-lightning/thunder-sphere.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Elquines Boost",
+                    "shortDesc": "Elquines Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/ice-lightning/elquines.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Chain Lightning Boost",
+                    "shortDesc": "Chain Lightning Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/ice-lightning/chain-lightning.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blizzard Boost",
+                    "shortDesc": "Blizzard Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/ice-lightning/blizzard.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Frozen Orb Boost",
+                    "shortDesc": "Frozen Orb Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/ice-lightning/frozen-orb.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Lightning Orb Boost",
+                    "shortDesc": "Lightning Orb Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/ice-lightning/lightning-orb.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-chain-lightning.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Chain Lightning",
+                    "shortDesc": "MP Cost: 57, Max Monsters Hit: 7, Damage: 302%, Number of Attacks: 10, Stun Chance: 100%, Stun Duration: 5 sec, Critical Rate: +30%\\nWhen the attack hits the enemy: 35% chance to create current zone at the location of the enemy within range.\\n100% chance to create current zone every 7 sec.\\nCurrent Zone - Duration: 4 sec, Max Enemies Hit: 6, Damage: 140%, Number of Attacks: 2\\nMax Number of Attacks: 4 per current zone, vanishes when reaching max number of attacks\\nMax Current Zones: 4 created within map",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-chain-lightning.png", "/class-icons/explorers/ice-lightning/chain-lightning.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2R4eXFmbzFiaWczc2Y3ZDF0YzE1cjBpcTZiNHNqc3c2cDF1NTZ4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZgTb3DEoi6siokN6KX/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-frozen-orb-blizzard.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Frozen Orb",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 8, Frozen Orb Damage: 474%\\nMax Hits per Enemy: 20\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-frozen-orb.png", "/class-icons/explorers/ice-lightning/frozen-orb.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmM2Y2FtaHM5em5sNnZ5OGJndWtobnowejRoejZwMGwyMWFvejR0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rmMPxhvD5URvIMe1mV/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Blizzard",
+                    "shortDesc": "MP Cost: 328, Damage: 630%, Number of Attacks: 12, Max Enemies Hit: 15\\nCooldown: 45 sec\\nPassive Effect\\n[Final Attack]: Your direct attacking skills have a 70% chance to strike a single enemy with Blizzard, dealing 400% damage.\\nLightning Orb Damage Over Time: +26% (additive), Finishing Attack Damage: +133% (additive)",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-blizzard.png", "/class-icons/explorers/ice-lightning/blizzard.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajBxN3pjOTJub2JvOHJnZjBnaTY1NWUyaDg3NWxncjE5aWU2eWt3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/olOQrTLqiIEgYRtEge/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-lightning-orb-cryo-shock.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/ice-lightning/lightning-orb.png} tip={Lightning Orb (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Lightning Orb",
+                    "shortDesc": "This is a continuous channeled skill. MP Cost per Attack: 36, Max Enemies Hit: 15, Damage: 228%, Number of Attacks: 15, Max Hold Duration: 2 sec., 5 final attack deal up to 359% damage 15 times\\nWhile the key is held, damage taken (including attacks that deal damage in proportion to Max HP): -50%\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-lightning-orb.png", "/class-icons/explorers/ice-lightning/lightning-orb.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTV6cjVrbXVreGw3MTh1dWtpOXVwMHF2eTdhMXN1MjJycGZ2a3d6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CSJQN7D9sLW7s9LYEW/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Cryo Shock",
+                    "shortDesc": "MP Cost: 50, Reduces Freeze Stacks by 10, Deals 602% Shock Damage, Number of Attacks: 15",
+                    "icons": ["/class-icons/explorers/ice-lightning/cryo-shock.png"],
+                    "type": "Passive Attack",
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXh3YzIxcHF3enhkZTd4MHU3Nm1mYWRvc3NyN2JwNXM1aGI1MGoxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mABXPdKjETqFnAAuM0/giphy.gif"],
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-thunder-sphere-elquines.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Thunder Sphere",
+                    "shortDesc": "MP Cost: 65, Lightning Orb Summon Duration: 120 sec., Damage: 469%, Max Enemies Hit: 6, Number of Attacks: 3\\nUsing the skill again with the down arrow key fixes the orb in place for 60 sec. Fixed Orb Damage: 469%, Max Enemies Hit: 6, Number of Attacks: 3\\nNormal Enemy Damage: +180% (additive)\\n[Passive Effect: Cryo Shock Damage: +687% (additive)]",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-thunder-sphere.png", "/class-icons/explorers/ice-lightning/thunder-sphere.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbml6MW0yYmVieDRwMTM2bm8zd2JraXdnOTZ5cjc5OGkwc251eWY2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rzo1Orday6htIRLGiN/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDBqM2N5ajkxYnp2YXJ3dmloM2JuZzc2NmptejQ1OGM0d2hkb3R3MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kK1KKYCwWjbAZJsjyG/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Elquines",
+                    "shortDesc": "MP Cost: 7, Elquines Summon Duration: 600 sec\\nDamage: 230%, Number of Attacks: 3, Max Enemies Hit: 5",
+                    "icons": ["/class-icons/explorers/ice-lightning/hexa-elquines.png", "/class-icons/explorers/ice-lightning/elquines.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazd1Z2ZidWQ3M3pndjdrdW9iMWsxeWh0MHExZXE3amQwdHV3d2drYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UZMk7ObbA77MgpTR39/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Frozen Lightning",
+                    "shortDesc": "MP Cost: 1500, invincible during casting\\nIce and lightning fusion magic, Max Enemies Hit: 15, Damage: 720%, Number of Attacks: 7, Shockwaves: 32. Afterwards, Damage: 780%, Number of Attacks: 12, Shockwaves: 24\\nCreates a frozen land where lightning flows for 30 sec.\\nThe magic power of the ice and lightning within the frozen land that spread in the enemy's body bloom every 2 sec to deal additional damage to the enemy.\\nMagic Power Bloom - Max Enemies Hit: 15, Damage: 1560%, Number of Attacks: 15\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/ice-lightning/frozen-lightning.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXB1ODZoeWVwYXNiajY3cHU3cjBjZmQ5ZHQ0NXlncjQ0dTZjbzFsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lsfVqv3xRAF1oewVc5/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Parabolic Bolt",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe primordial lightning discharges 13 times, dealing 4712% damage to up to 15 enemies 15 times\\nAfterwards, 8 swift sparks are created on up to 4 bosses within range and begin tracking enemies\\nSwift sparks deal 2079% damage 5 times, bounce off enemies up to 10 times, and vanish immediately when their tracked enemy is defeated\\nFor both the primordial lightning and swift sparks, Ignore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/ice-lightning/parabolic-bolt.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXk1enc1MTdqMGE3amVmZ2thNXJ6OXQ4czZweGZocmE2bHd0cHliayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nOshHwRLQFcNkZQYyh/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Frost Ark Boost",
+                    "shortDesc": "Frost Ark Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/ice-lightning/frost-ark.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Bolt Barrage Boost",
+                    "shortDesc": "Bolt Barrage Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/ice-lightning/bolt-barrage.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Spirit of Snow Boost",
+                    "shortDesc": "Spirit of Snow Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/ice-lightning/spirit-of-snow.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Jupiter Thunder Boost",
+                    "shortDesc": "Jupiter Thunder Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/ice-lightning/jupiter-thunder.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Chain Lightning - 4th Job",
+                "icons": ["/class-icons/explorers/ice-lightning/chain-lightning.png"],
+                "animations": ["https://media.giphy.com/media/gGumMGH72aWdIc8Ekl/giphy.gif"]
+            },
+            {
+                "name": "Frozen Orb - 4th Job",
+                "icons": ["/class-icons/explorers/ice-lightning/frozen-orb.png"],
+                "animations": ["https://media.giphy.com/media/OMou1Tk6YiurzhWgWY/giphy.gif"]
+            },
+            {
+                "name": "Blizzard - 4th Job",
+                "icons": ["/class-icons/explorers/ice-lightning/blizzard.png"],
+                "animations": ["https://media.giphy.com/media/fxhc74byENFDPE9Z1e/giphy.gif"]
+            },
+            {
+                "name": "Lightning Orb - Hyper Skill",
+                "icons": ["/class-icons/explorers/ice-lightning/lightning-orb.png"],
+                "animations": ["https://media.giphy.com/media/YszsHbi9eX9KNfdirG/giphy.gif"]
+            },
+            {
+                "name": "Frost Ark - 5th Job",
+                "icons": ["/class-icons/explorers/ice-lightning/frost-ark.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc24xaDZjbzN5ZTJlZGRpbHE3bWttOXE5Z2h1Mnp2cGk5NHN0YzFuayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/koV22HrF9UZFJkEx0L/giphy.gif"]
+            },
+            {
+                "name": "Bolt Barrage - 5th Job",
+                "icons": ["/class-icons/explorers/ice-lightning/bolt-barrage.png"],
+                "animations": ["https://media.giphy.com/media/JlI0pAfrTEDDMB9yXP/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Spirit of Snow - 5th Job",
+                "icons": ["/class-icons/explorers/ice-lightning/spirit-of-snow.png"],
+                "animations": ["https://media.giphy.com/media/KFi2458O0ZRxQXH3AL/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Frozen Lightning - 6th Job",
+                "icons": ["/class-icons/explorers/ice-lightning/frozen-lightning.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXB1ODZoeWVwYXNiajY3cHU3cjBjZmQ5ZHQ0NXlncjQ0dTZjbzFsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lsfVqv3xRAF1oewVc5/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Parabolic Bolt - 6th Job",
+                "icons": ["/class-icons/explorers/ice-lightning/parabolic-bolt.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXk1enc1MTdqMGE3amVmZ2thNXJ6OXQ4czZweGZocmE2bHd0cHliayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nOshHwRLQFcNkZQYyh/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Arch Mage (Ice, Lightning) is an INT mage class part of the Explorers. Arch Mage (Ice, Lightning) utilize both Staves and Wands as their primary weapons. For their secondary weapon, Arch Mage (Ice, Lightning) can equip Magic Books and Shields"
+}

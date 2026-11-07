@@ -1,0 +1,1252 @@
+{
+    "class": "Corsair",
+    "content": {
+        "classGroup": "Explorers",
+        "jobGroup": "Pirate",
+        "mainStat": "DEX",
+        "secondaryStat": "STR",
+        "legion": "Increases %Summon Duration",
+        "legionValue": "4/6/8/10/12%",
+        "equipment": [
+            {"weapon": ["gun"]},
+            {"secondary": ["farsight"]},
+            {"ammo": "bullet"}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing (GMS & CMS Only)",
+                "abilities": ["Number of enemies hit by multi-target skill +1", "Chance to Skip Cooldown +10%", "Boss Damage +10%"],
+                "notes": "According to the Corsair Class Doc, In GMS & CMS, \"it adds an extra bullet to the Dual Pistol Crew from Scurvy Summons, and the game treats it like an extra mob hit on a single target.\""
+            },
+            {
+                "name": "For Bossing (KMS, MSEA & TMS / Alternative)",
+                "abilities": ["Boss Damage +20% / Chance to Skip Cooldown +20%", "Boss Damage +10% / Chance to Skip Cooldown +10%", "Damage to monsters inflicted with Abnormal Status +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.5x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "Stage 7",
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/explorers/corsair/agile-guns.png} tip={Agile Guns (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "DEX",
+                "stat": "+180 & +15%(440%) to assigned AP",
+                "detail": "<bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+130}> <bg src={/class-icons/explorers/corsair/agile-guns.png} tip={Agile Guns (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% (AP)}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+24% +100(185)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/corsair/jolly-roger.png} tip={Jolly Roger (4th Job)} val={+20%}> <bg src={/class-icons/explorers/corsair/infinity-blast.png} tip={Infinity Blast (2nd Job)} val={+10}> <bg src={/class-icons/explorers/corsair/cross-cut-blast.png} tip={Cross Cut Blast (3rd Job)} val={+60}> <bg src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence (4th Job)} val={+30}> <bg type={temp} src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys (4th Job)} src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)} val={+45 while summoned}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+65%(75%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart (1st Job)} val={+20%}> <bg src={/class-icons/explorers/corsair/gun-mastery.png} tip={Gun Mastery (2nd Job)} val={+10%}> <bg src={/class-icons/explorers/corsair/fullmetal-jacket.png} tip={Fullmetal Jacket (3rd Job)} val={+30%}> <bg type={temp} src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys (4th Job)} src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)} val={+10% while summoned}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+50%(55%)",
+                "detail": "<bg src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart (1st Job)} val={+5%}> <bg src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting (4th Job)} val={+20%}> <bg type={def} sub={temp} src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys (4th Job)} val={+25%} subSrc={/class-icons/explorers/corsair/scurvy-summons.png} subTip={Scurvy Summons (2nd Job)} subVal={extra +5% while summoned}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+15%(45%)",
+                "detail": "<bg src={/class-icons/explorers/corsair/aggressive-stance.png} tip={Aggressive Stance (4th Job)} val={+15%}> <bg type={temp} src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+62%",
+                "detail": "<bg src={/class-icons/explorers/corsair/fullmetal-jacket.png} tip={Fullmetal Jacket (3rd Job)} val={+20%}> × <bg src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting (4th Job)} val={+25%}> × <bg src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence (4th Job)} val={+8%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+20%(40%)",
+                "detail": "<bg src={/class-icons/explorers/corsair/fullmetal-jacket.png} tip={Fullmetal Jacket (3rd Job)} val={+20%}> × <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/explorers/corsair/jolly-roger.png} tip={Jolly Roger (4th Job)} dur={[180s]}>",
+            "toggles": "<tt src={/class-icons/explorers/corsair/tempest-bombardment.png} tip={Tempest Bombardment (4th Job)}>",
+            "summons": "<tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)} dur={[120s](45s cd)}> <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)} dur={[60s]}> <tt src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} dur={[30s]}>",
+            "buffCd": "<tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)} dur={[180s](60s cd / 30s cd if 1)}> <tt src={/class-icons/explorers/corsair/whalers-potion.png} tip={Whaler's Potion (Hyper Skill)} dur={[20s](60s cd)}> <tt src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/corsair/the-dreadnought.png} tip={The Dreadnought (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/corsair/target-lock.png} tip={Target Lock (5th Job)} dur={(30s cd)}> <tt src={/class-icons/explorers/corsair/nautilus-assault.png} tip={Nautilus Assault (5th Job)} dur={(120s cd)}> <tt src={/class-icons/explorers/corsair/the-dreadnought.png} tip={The Dreadnought (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/explorers/corsair/bullet-barrage.png} tip={Bullet Barrage (5th Job)} dur={[Up to 3s](-50% | 60s cd)}>"
+        },        
+        "linkSkill": {
+            "id":80002774,
+            "offline": true,
+            "name": "Pirate's Blessing",
+            "maxLevel": 9,
+            "shortDesc": "STR: +100, DEX: +100, INT: +100, LUK: +100, Max HP: +1750, Max MP: +1750, Damage Taken: -21%",
+            "icons": ["/class-icons/link-skills/pirate-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+                "Stats provided are affected by %Stat effects",
+                "For Explorer Pirates, double-clicking this skill turns ON/OFF a toggle where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/explorers/pirate/pirate-leap.png} tip={Pirate Leap}> -> <tt src={/class-icons/explorers/pirate/bullet-time.png} tip={Bullet Time}> -> <tt src={/class-icons/explorers/pirate/dash.png} tip={Dash}> -> <tt src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart}> -> <tt src={/class-icons/explorers/pirate/sommersault-kick.png} tip={Sommersault Kick}> -> <tt src={/class-icons/explorers/pirate/double-shot.png} tip={Double Shot}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/corsair/infinity-blast.png} tip={Infinity Blast}> -> <tt src={/class-icons/explorers/corsair/wings.png} tip={Wings}> -> <tt src={/class-icons/explorers/corsair/gun-mastery.png} tip={Gun Mastery}> -> <tt src={/class-icons/explorers/corsair/agile-guns.png} tip={Agile Guns}> -> <tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons}> -> <tt src={/class-icons/explorers/corsair/rapid-blast.png} tip={Rapid Blast}> -> <tt src={/class-icons/explorers/corsair/swift-fire.png} tip={Swift Fire}> -> <tt src={/class-icons/explorers/corsair/recoil-shot.png} tip={Recoil Shot}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/corsair/outlaws-code.png} tip={Outlaw's Code}> -> <tt src={/class-icons/explorers/corsair/all-aboard.png} tip={All Aboard}> -> <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber}> -> <tt src={/class-icons/explorers/corsair/fullmetal-jacket.png} tip={Fullmetal Jacket}> -> <tt src={/class-icons/explorers/corsair/cross-cut-blast.png} tip={Cross Cut Blast}> -> <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> -> <tt src={/class-icons/explorers/corsair/blunderbuster.png} tip={Blunderbuster}> -> <tt src={/class-icons/explorers/corsair/blackboot-bill.png} tip={Blackboot Bill}> -> <tt src={/class-icons/explorers/corsair/escape-shot.png} tip={Escape Shot}>"],
+                ["4th Job", "<tt src={/class-icons/common/double-down.png} tip={Double Down}> -> <tt src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys}> -> <tt src={/class-icons/explorers/corsair/aggressive-stance.png} tip={Aggressive Stance}> -> <tt src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence}> -> <tt src={/class-icons/explorers/corsair/eight-legs-easton.png} tip={Eight-Legs Easton}> -> <tt src={/class-icons/explorers/corsair/jolly-roger.png} tip={Jolly Roger}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting}> -> <tt src={/class-icons/explorers/corsair/rapid-fire.png} tip={Rapid Fire}> -> <tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler}> -> <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/explorers/corsair/rapid-fire-reinforce.png} tip={Rapid Fire - Reinforce}> <tt src={/class-icons/explorers/corsair/rapid-fire-boss-rush.png} tip={Rapid Fire - Boss Rush}> Rapid Fire - Reinforce and Boss Rush_<tt src={/class-icons/explorers/corsair/brain-scrambler-reinforce.png} tip={Brain Scrambler - Reinforce}> <tt src={/class-icons/explorers/corsair/brain-scrambler-extra-strike.png} tip={Brain Scrambler - Extra Strike}> <tt src={/class-icons/explorers/corsair/brain-scrambler-boss-rush.png} tip={Brain Scrambler - Boss Rush}> Brain Scrambler - Reinforce, Extra Strike, and Boss Rush_>"
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/corsair/rapid-fire.png} tip={Rapid Fire (4th Job)}> <tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler (4th Job)}> <tt src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber (3rd Job)}> <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside/Tempest Bombardment (4th Job)}> <tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)}>"],
+                    ["Tertiary Trio", "<tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> <tt src={/class-icons/explorers/corsair/ugly-bomb.png} tip={Ugly Bomb (4th Job)}> <tt src={/class-icons/explorers/corsair/eight-legs-easton.png} tip={Eight-Legs Easton (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/explorers/corsair/rapid-fire.png} tip={Rapid Fire (4th Job)}> <tt src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence (4th Job)}>",
+                "<tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)}> <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber (3rd Job)}> <tt src={/class-icons/explorers/corsair/tempest-bombardment.png} tip={Tempest Bombardment (4th Job)}>",
+                "<tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler (4th Job)}> <tt src={/class-icons/explorers/corsair/eight-legs-easton.png} tip={Eight-Legs Easton (4th Job)}>",
+                "<tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)}> <tt src={/class-icons/explorers/corsair/ugly-bomb.png} tip={Ugly Bomb (Hyper Skill)}> <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}>",
+                "<tt src={/class-icons/explorers/corsair/recoil-shot.png} tip={Recoil Shot (2nd Job)}> <tt src={/class-icons/explorers/corsair/escape-shot.png} tip={Escape Shot (3rd Job)}> <tt src={/class-icons/explorers/corsair/blunderbuster.png} tip={Blunderbuster (3rd Job)}>",
+                "<tt src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting (4th Job)}> <tt src={/class-icons/explorers/corsair/rapid-blast.png} tip={Rapid Blast (2nd Job)}> <tt src={/class-icons/explorers/corsair/blackboot-bill.png} tip={Blackboot Bill (3rd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Corsair"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%BA%A1%ED%8B%B4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/eNFCVDuGbB"},
+            {"title": "Class Doc", "link": "https://cutt.ly/corsairfaq"}
+        ],
+        "infographics": [
+            {
+                "src": "/corsair/corsair-overview.png",
+                "title": "Overview",
+                "credit": "Corsair Discord",
+                "date": "2026-05-15"
+            },
+            {
+                "src": "/corsair/corsair-6th-job.png",
+                "title": "6th Job",
+                "credit": "Corsair Discord",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "/corsair/corsair-culvert.png",
+                "title": "Culvert",
+                "credit": "Corsair Discord",
+                "date": "2026-05-15"
+            }
+        ],
+        "specialThanks": "Special thanks to Huynni, Styxa, and the members of the Corsair Discord for their help in making this overview!",
+        "discord": "https://discord.gg/eNFCVDuGbB",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Pirate's Blessing",
+                    "maxLevel": 9,
+                    "shortDesc": "STR: +130, DEX: +130, INT: +130, LUK: +130, Max HP: +1750, Max MP: +1750, Damage Taken: -21%\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/link-skills/pirate-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Stats provided are affected by %Stat effects",
+                        "For Pirate Explorers, double-clicking this skill turns ON/OFF a toggle where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
+                    ]
+                },
+                {
+                    "name": "Three Snails",
+                    "shortDesc": "MP Cost: 7, Damage 40",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "animations": ["https://media.giphy.com/media/onCB9mTYmPBTTUJHca/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a snail shell forward that deals fixed amount of damage"
+                },
+                {
+                    "name": "Recovery",
+                    "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "animations": ["https://media.giphy.com/media/MDcmYoaWJ2wQdWLUBJ/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Nimble Feet",
+                    "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "animations": ["https://media.giphy.com/media/SFvuz7cp4BQB72pGfr/giphy.gif"],
+                    "type": "Buff"
+                },
+                {
+                    "name": "Maple Return",
+                    "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "animations": ["https://media.giphy.com/media/2OpS8cfSdk5yGRi4EA/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Master of Swimming",
+                    "shortDesc": "Permanently increases swimming speed and prevents HP loss when swimming.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/master-of-swimming.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Master of Organization",
+                    "shortDesc": "Permanently expands Equip, Use, Set-up, and Etc. Inventory.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/master-of-organization.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG1iM2FqanUwbTMyYWpnNnVlcWwwYXZ6MDluc2Nrd3RpY3p5eHMzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6yVMKujbYbGeJwbwiU/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                    "name": "Sommersault Kick",
+                    "shortDesc": "MP Cost: 16, Max Enemies Hit: 6, Damage: 155%, Number of Attacks: 2",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/pirate/sommersault-kick.png"],
+                    "animations": ["https://media.giphy.com/media/nfOPHdfOVinHpTrkYH/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Kick forward damaging enemies",
+                    "details": [
+                        "Only usable when equipped with Knuckles"
+                    ]
+                },
+                {
+                    "name": "Double Shot",
+                    "shortDesc": "MP Cost: 7, Bullet Cost: 2, fires 2 shots dealing 260% damage. At point of impact, Explosion Damage: 260%, Max Enemies Hit: 6, Max Range: 380",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/explorers/pirate/double-shot.png"],
+                    "animations": ["https://media.giphy.com/media/TT0X98Z4iXz8hx7Div/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires two bullets that explode on impact damaging nearby enemies",
+                    "details": [
+                        "Only usable when equipped with a Gun"
+                    ]
+                },
+                {
+                    "name": "Pirate Leap",
+                    "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/explorers/pirate/pirate-leap.png"],
+                    "animations": ["https://media.giphy.com/media/tZxMKhLzEPofSqDsgS/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice"
+                    ]
+                },
+                {
+                    "name": "Dash",
+                    "shortDesc": "Dash, MP Cost: 1, Duration: Up to 10 sec., Movement Speed: +50, Jump: +20, Knockback Resistance: +100%",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/explorers/pirate/dash.png"],
+                    "animations": ["https://media.giphy.com/media/QoTGF9MfjWly5jlz2a/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Double-tap the Left or Right Arrow Keys to start sprinting to increase Movement Speed and Jump",
+                    "details": [
+                        "Right-clicking the skill will toggle a lock to prevent it from activating with the Arrow Keys",
+                        "While sprinting, gain 100% Knockback Resistance"
+                    ]
+                },
+                {
+                    "name": "Shadow Heart",
+                    "shortDesc": "Critical Rate: +20%, Critical Damage: +5%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/explorers/pirate/shadow-heart.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Bullet Time",
+                    "shortDesc": "Speed: +22, Jump: +10, Max Speed: +20",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/explorers/pirate/bullet-time.png"],
+                    "type": "Passive"
+                }]
+                ],
+                [
+                    "2nd Job", [{
+                        "name": "Rapid Blast",
+                        "shortDesc": "MP Cost: 20 and 3 bullets, Damage: 205%, Max Enemies Hit: 6, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/corsair/rapid-blast.png"],
+                        "animations": ["https://media.giphy.com/media/62dBVXOJx8NFCG71Ap/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Rapidly fire at multiple enemies"
+                    },
+                    {
+                        "name": "Swift Fire",
+                        "shortDesc": "MP Cost: 16, Bullet Cost: 3, Damage: 201%, Number of Attacks: 3",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/corsair/swift-fire.png"],
+                        "animations": ["https://media.giphy.com/media/hVWKoM4oSaC8fNtW3e/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire consecutively at a single enemy"
+                    },
+                    {
+                        "name": "Scurvy Summons",
+                        "shortDesc": "MP Cost: 25, Duration: 120 sec. Summoned Nautilus crewman, Damage: 150%, Number of Attacks: 3, Bullets Fired: 2, Cooldown: 45 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/scurvy-summons.png"],
+                        "animations": ["https://media.giphy.com/media/A0BTNjfaYuaLbTfnzW/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a crewmate to fight alongside you",
+                        "details": [
+                            "Prioritizes enemy with the highest max HP within range first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Recoil Shot",
+                        "shortDesc": "MP Cost: 15, Damage: 210%",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/corsair/recoil-shot.png"],
+                        "animations": ["https://media.giphy.com/media/C52Ry6nFtc5gfDRsqI/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a shot that pushes you backward"
+                    },
+                    {
+                        "name": "Wings",
+                        "shortDesc": "MP Cost: 10",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/explorers/corsair/wings.png"],
+                        "animations": ["https://media.giphy.com/media/eTFZmhJbxKIzq4rpPD/giphy.gif"],
+                        "type": "Active Utility",
+                        "desc": "Launch up into the air",
+                        "details": [
+                            "Holding the Skill Key will allow you to glide after using the skill",
+                            "Can be used in the air"
+                        ]
+                    },
+                    {
+                        "name": "Infinity Blast",
+                        "shortDesc": "Attack Power: +10, Can cast attack skills without consuming bullets.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/infinity-blast.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Uses the bullet with the highest Attack to calculate your damage",
+                            "Not usable if there are no bullets in your inventory"
+                        ]
+                    },
+                    {
+                        "name": "Agile Guns",
+                        "shortDesc": "Gun Attack Speed: +2, DEX: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/agile-guns.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Gun Mastery",
+                        "shortDesc": "Gun Mastery: +50%, Critical Rate: +10%, Ammo: +200",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/gun-mastery.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Additionally increases the max number of charges each Ammo slot can hold"
+                        ]
+                    },
+                    {
+                        "name": "Physical Trianing",
+                        "shortDesc": "Permanently increases Strength by 30 and DEX by +30\\nPermanently decreases Damage Taken by 20%",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                    "3rd Job", [{
+                        "name": "Blunderbuster",
+                        "shortDesc": "MP Cost: 32 and 2 bullets, Damage: 480%, Max Enemies Hit: 8, Number of Attacks: 2",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/corsair/blunderbuster.png"],
+                        "animations": ["https://media.giphy.com/media/2jE8gvuMQsTC9TOK48/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a blast of bullets forward"
+                    },
+                    {
+                        "name": "Blackboot Bill",
+                        "shortDesc": "MP Cost: 35, Bullets Consumed: 1, Max Enemies Hit: 6, Damage: 734%, Knockback Range: 400",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/corsair/blackboot-bill.png"],
+                        "animations": ["https://media.giphy.com/media/GoRPcus4cfaNbMCLFe/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a giant bullet that pushes enemies back"
+                    },
+                    {
+                        "name": "Escape Shot",
+                        "shortDesc": "MP Cost: 10, Damage: 420%, Max Enemies Pushed: 6",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/corsair/escape-shot.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3BuMWIybzExcXF2empnNjVtMnh1d2FjZ2ZzcGpzbjJ5ZzA2dXl3MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTOQsHsU3GmEtoMdt6/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies"
+                    },
+                    {
+                        "name": "Siege Bomber",
+                        "shortDesc": "MP Cost: 18, Cannon Damage: 300%, Summon Duration: 60 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/siege-bomber.png"],
+                        "animations": ["https://media.giphy.com/media/fQ4OFXuziR5T4J91c2/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a stationary cannon that attacks nearby enemies",
+                        "details": [
+                            "Prioritizes enemy with the highest max HP within range first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Roll of the Dice",
+                        "shortDesc": "MP Cost: 60, Dice Buff Duration: 180.\\n1: Roll of the Dice Cooldown: -50%\\n2: Defense +30%\\n3: Attack +15\\n4: Critical Rate: +15%\\n5: Damage +20%\\n6: EXP Obtained +30%\\nCooldown: 60 sec.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/common/roll-of-the-dice.png"],
+                        "animations": ["https://media.giphy.com/media/b1ePRu8X0Lcx38doUl/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Grants a buff based on the number rolled"
+                    },
+                    {
+                        "name": "Cross Cut Blast",
+                        "shortDesc": "Attack +60",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/corsair/cross-cut-blast.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Outlaw's Code",
+                        "shortDesc": "DEF: +20%, Max HP/MP: +600, Status and Elemental Resistances: +15%, Knockback Resistance: +40%",
+                        "maxLevel": 4,
+                        "icons": ["/class-icons/explorers/corsair/outlaws-code.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Fullmetal Jacket",
+                        "shortDesc": "Final Damage: 20%, Critical Rate: +30%, Ignore Defense: 20%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/corsair/fullmetal-jacket.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "All Aboard",
+                        "shortDesc": "MP Cost: 40, Summons two brave crew members to assist you in battle.\\nSharpshooter Crew: Bomb Damage: 170%, Enemies Hit: 4, Number of Attacks: 4\\nDual Pistol Crew: Bullet Damage: +200% points\\nIf you're targeted by a fatal status effect, a crew member will block it. That crew member cannot block another status effect until re-summoned.\\nSummon Duration: 120 sec, Cooldown: 45 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/all-aboard.png", "/class-icons/explorers/corsair/scurvy-summons.png"],
+                        "animations": ["https://media.giphy.com/media/bwTGT9m5RhjZrHF8xE/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "Increases the %Damage of <tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)}> by a flat amount and allows you to summon two crew members at once",
+                        "details": [
+                            "Crew members can also block an Abnormal Status per each summon",
+                            "Additionally, adds a new crew member who throws bombs"
+                        ]
+                    }]
+                ],
+                [
+                    "4th Job", [{
+                        "name": "Rapid Fire",
+                        "shortDesc": "MP Cost per attack: 9, Damage: 417% per shot, Speed: locked at 120 while active",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/corsair/rapid-fire.png"],
+                        "animations": ["https://media.giphy.com/media/XtYwmU2z98HArNzMk7/giphy.gif"],
+                        "type": "Key-down Attack",
+                        "desc": "While held, fire a stream of bullets forward",
+                        "details": [
+                            "You can move and jump while casting",
+                            "Not affected by Attack Speed"
+                        ]
+                    },
+                    {
+                        "name": "Brain Scrambler",
+                        "shortDesc": "MP Cost: 30, Damage: 984%, Number of Attacks: 13\\nEnemy DEF Ignored: 60%, Bonus Critical Chance: 100%\\nCooldown: 5 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/corsair/brain-scrambler.png"],
+                        "animations": ["https://media.giphy.com/media/MTxcXMzrT3uJFXKq8R/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a powerful shot at a single enemy",
+                        "details": [
+                            "Attack has increased %Ignore DEF and is a guaranteed Critical Hit"
+                        ]
+                    },
+                    {
+                        "name": "Eight-Legs Easton",
+                        "shortDesc": "MP Cost: 55, Bullets Consumed: 4, Damage: 649%, Max Enemies Attacked: 8, Number of Attacks: 4.\\n[Passive Effect : Battleship Nautilus's skill damage +130% (additive)]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/corsair/eight-legs-easton.png"],
+                        "animations": ["https://media.giphy.com/media/bECek0vrP6NCeumgVZ/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a barrage of bullets forward",
+                        "details": [
+                            "[Passive]: Increases %Damage of <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> by a flat amount",
+                            "If used while pressing the Down Arrow Key, the attack range will be reduced, but you will be immune to knockbacks (Super Knockback Resistance)"
+                        ]
+                    },
+                    {
+                        "name": "Quickdraw",
+                        "shortDesc": "Your attacks have a 8% chance to activate Quickdraw. Upon triggering, grants your next Brain Scrambler, Ugly Bomb, Nautilus Strike, or Target Lock an additional 25% Final Damage",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/quickdraw.png"],
+                        "type": "Passive",
+                        "desc": "Successful attacks have a chance to grant increased %Final Damage for the next use of the following skills: <tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler (4th Job)}> <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> <tt src={/class-icons/explorers/corsair/ugly-bomb.png} tip={Ugly Bomb (Hyper Skill)}> <tt src={/class-icons/explorers/corsair/target-lock.png} tip={Target Lock (5th Job)}>"
+                    },
+                    {
+                        "name": "Broadside",
+                        "shortDesc": "MP Cost: 150, Summons a ship for 60 sec that fires its cannons at regular intervals. Cannonballs explode upon contact with the enemy. Damage: 400%, Max Enemies Hit: 6, Number of Attacks: 3. Up to 2 can be summoned simultaneously. Cooldown: 0.5 sec.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/corsair/broadside.png"],
+                        "animations": ["https://media.giphy.com/media/UinsGEydFTUT829ctZ/giphy-downsized-large.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a stationary battleship that attacks nearby enemies",
+                        "details": [
+                            "Shares Skill Points (SP) with <tt src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys (4th Job)}>",
+                            "Up to 2 battleships can be summoned at a time",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Tempest Bombardment",
+                        "shortDesc": "Bombards the target, dealing 860% damage to up to 6 enemies 6 times\\nBombardment Cooldown: 2 sec",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/corsair/tempest-bombardment.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHVkaHBubXd2bzQ1dHRqNXluaWloNGpnc2cxbWUzdWFxYTZ2aWMybiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/llG0tMSs4eQAc0QM0s/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, successful attacks periodically trigger a bombardment attack upon the enemy",
+                        "details": [
+                            "Skill cannot be used at the same time as <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber (3rd Job)}> <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)}>",
+                            "Prioritizes enemies marked with <tt src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting (4th Job)}> then bosses with the highest Max HP",
+                            "Shares Skill Points (SP) with <tt src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Parrotargetting",
+                        "shortDesc": "MP Cost: 37, Damage: 610%\\n[Passive Effect: Final Damage: +25%, Critical Damage +20%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/parrotargetting.png"],
+                        "animations": ["https://media.giphy.com/media/7qw0JVX6cLq5Oy7Mdv/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fire a shot that marks all attacks to target this enemy",
+                        "details": [
+                            "[Passive]: Permanently increases %Final Damage and %Crit Damage",
+                            "Prioritizes bosses within range"
+                        ]
+                    },
+                    {
+                        "name": "Nautilus Strike",
+                        "shortDesc": "MP Cost: 350, Damage: 440%, Max Enemies Hit: 15, Number of Attacks: 7\\nCooldown: 30 sec\\n[Passive Effect: Majestic Presence Final Damage +30%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/corsair/nautilus-strike.png"],
+                        "animations": ["https://media.giphy.com/media/lNadRKyNXth6RhSS4Y/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Launch a massive attack that damages a large area",
+                        "details": [
+                            "[Passive]: Permanently increases %Final Damage of <tt src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence (4th Job)}>",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/EkpSNiHP8gmLdcwp6r/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Jolly Roger",
+                        "shortDesc": "MP Cost: 55, Duration: 180 sec, Attack Power: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%, Avoidability: -300\\n[Passive Effects - Knockback Resistance: +60%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/explorers/corsair/jolly-roger.png"],
+                        "animations": ["https://media.giphy.com/media/xFrbV4Dc7D76JYlhA0/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/4bQxENksexKFS7kjsL/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Aggressive Stance",
+                        "shortDesc": "Duration: 10 sec., Damage: +15%. Landing attacks while the buff is active will refresh the duration.\\n[Passive Effect: Damage Taken -15%]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/corsair/aggressive-stance.png"],
+                        "type": "Passive",
+                        "desc": "Successfull attacks grant a %Damage buff",
+                        "details": [
+                            "Also permanently increases %Damage Reduction"
+                        ]
+                    },
+                    {
+                        "name": "Double Down",
+                        "shortDesc": "MP Cost: 60, Dice Buff Duration: 180 sec.\\n50% chance of rolling a Double Down.\\nEnhances the following effects by 10 or 10% (additive) if the dice results are the same, excluding 1.\\n1: Roll of the Dice Cooldown: -50%\\n2: Defense +30%\\n3: Attack +15\\n4: Critical Rate: +15%\\n5: Damage +20%\\n6: EXP Obtained +30%\\nCooldown: 60 sec.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/double-down.png", "/class-icons/common/roll-of-the-dice.png"],
+                        "animations": ["https://media.giphy.com/media/l8oQ6PQQlQh1QL2LW7/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Grants a chance to roll two dices at once"
+                        ]
+                    },
+                    {
+                        "name": "Ahoy Mateys",
+                        "shortDesc": "Final Crewman Damage: +15%, When a crewman is summoned: Attack Power +45, Critical Damage +5%, Critical Rate +10%, Speed +30, Incoming Damage -15%.\\n[Passive Effect: Max HP +5000, Critical Damage +25%]",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/explorers/corsair/ahoy-mateys.png", "/class-icons/explorers/corsair/scurvy-summons.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "Increases the %Final Damage of <tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)}> and grants a buff while crewmates are summoned",
+                        "details": [
+                            "[Buff]: Grants flat Attack and increases %Crit Damage, %Crit Rate, Speed, and %Damage Reduction",
+                            "[Passive]: Permanently increases %Crit Damage and grants flat Max HP"
+                        ]
+                    },
+                    {
+                        "name": "Majestic Presence",
+                        "shortDesc": "Gun Mastery: +70%, Final Damage: +8%, Attack Power: +30\\n[Final Attack Skills] 275% additional explosion damage upon performing a shot-firing attack.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/explorers/corsair/majestic-presence.png"],
+                        "type": "Final Attack Passive",
+                        "desc": "Successful shot-firing attacks deal an additional attack",
+                        "details": [
+                            "Additionally increases %Gun Mastery, %Final Damage, and grants flat Attack"
+                        ]
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Double Down - Saving Grace",
+                    "shortDesc": "When Double Down does not activate, there is a 40% chance for the cooldown to not apply. The next cast after this will activate Double Down with 4 or above.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/double-down-saving-grace.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Double Down - Addition",
+                    "shortDesc": "Lucky number 7 added to Double Down",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/double-down-addition.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "When rolled, increases %Ignore DEF"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Double Down - Enhance",
+                    "shortDesc": "Increases the chances of rolling a 4, 5, or 6 in Roll of the Dice.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/double-down-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Rapid Fire - Reinforce",
+                    "shortDesc": "Damage: +30%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/rapid-fire-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Rapid Fire - Add Range",
+                    "shortDesc": "100 additional range",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/rapid-fire-add-range.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Rapid Fire - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/rapid-fire-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Brain Scrambler - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/brain-scrambler-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Brain Scrambler - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/brain-scrambler-extra-strike.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Brain Scrambler - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/brain-scrambler-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Whaler's Potion",
+                    "shortDesc": "MP Cost: 300, HP Recovered: 99% of Max HP, Damage Taken: -15% for 20 sec, Scurvy Summons, Siege Bomber, Broadside, Tempest Bombardment Final Damage: +50%\\nCooldown: 60 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/whalers-potion.png"],
+                    "animations": ["https://media.giphy.com/media/727Jr5gNW6psIA8nRs/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Upon use, recovers max HP and grants a buff that increases %Damage Reduction and %Final Damage of <tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)}> <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber (3rd Job)}> <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)}> <tt src={/class-icons/explorers/corsair/tempest-bombardment.png} tip={Tempest Bombardment (4th Job)}>",
+                    "details": [
+                        "Unaffected by cooldown resets"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Ugly Bomb",
+                    "shortDesc": "MP Cost: 500, Damage: 400%, Number of Attacks: 12, Max Enemies Hit: 15 \\nCooldown: 15 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/corsair/ugly-bomb.png"],
+                    "animations": ["https://media.giphy.com/media/s4Mf1P08jY80o1j6xu/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Drop a massive bomb in front of you",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/explorers/pirate/epic-adventure.png"],
+                    "animations": ["https://media.giphy.com/media/D95xUUF0vzV1wosckk/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["expPirate", "goddessBlessing", "loadedDice", "overdrive"],
+            "fifthMain": [
+                {
+                    "name": "Bullet Barrage",
+                    "shortDesc": "MP Cost: 500, Duration: 3 sec. Periodically deal 1675% damage, 7 times, on up to 15 enemies.\\nCan only attack up to 20 times on single enemy.\\nCan move and jump while using the skill. Damage taken while attacking, including attacks that deal damage in proportion to Max HP: -50%. This skill will be immediately canceled if you use it again.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/explorers/corsair/bullet-barrage.png"],
+                    "animations": ["https://media.giphy.com/media/lrmTrKzmPkoDZjV3bc/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Wildy fire bullets in all directions",
+                    "details": [
+                        "While casting, you can move and use <tt src={/class-icons/explorers/pirate/pirate-leap.png} tip={Pirate Leap (1st Job)}>",
+                        "While casting, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "Each enemy can only be hit a maximum of 20 times",
+                        "Pressing the Skill Key again will cancel the attack early"
+                    ]
+                },
+                {
+                    "name": "Target Lock",
+                    "shortDesc": "[Passive Effect] Focuses aim on up to 12 enemies within range whenever skill is not in cooldown.\\n[Active Effect] MP Cost: 850, Targeted enemies take 1022% damage 15 times, at +100% Critical Rate.\\nDeals extra damage for Target Locks. Bonus stacks up to 3x.\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/explorers/corsair/target-lock.png"],
+                    "animations": ["https://media.giphy.com/media/P1YP9HcuaQntSNPapt/giphy-downsized-large.gif"],
+                    "type": "Attack",
+                    "desc": "Fire devastating shots at marked targets",
+                    "details": [
+                        "While Target Lock is not on cooldown, targets in range are randomly marked for the attack while prioritizing bosses with the highest Max HP first",
+                        "The target will blink 3 times before selecting a new target<bp_If you activate Target Lock while on the last blink, it will deal extra damage_>",
+                        "You are invincible while casting<bp_Depending on the number of blinks, the invincibility time will increase_>",
+                        "Attack is a guaranteed Critical Hit"
+                    ]
+                },
+                {
+                    "name": "Nautilus Assault",
+                    "shortDesc": "MP Cost: 1500, Max Enemies Hit: 15, Invincible while casting\\nShip Attack: The ship attacks at set intervals. Damage: 1776%, Number of Attacks: 6, Ship Attack Activation Count: 7\\nVolley: Fires a volley at set intervals. Damage: 654%, Number of Attacks: 12, Volley Activation Count: 36\\nCooldown: 120 sec\\nWhen either Nautilus Strike or Nautilus Assault is used, a cooldown of 8 sec is applied, but it won't be applied if another cooldown longer than that time is already applied.",
+                    "icons": ["/class-icons/explorers/corsair/nautilus-assault.png"],
+                    "animations": ["https://media.giphy.com/media/Db4nJ3waDY2WdafivA/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summon the Nautilus to launch an assault",
+                    "details": [
+                        "The ship and assault both deal damage",
+                        "If either <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> or <tt src={/class-icons/explorers/corsair/nautilus-assault.png} tip={Nautilus Assault (5th Job)}> are used, there is a short cooldown (8 secs) before either can activated unless they are already on cooldown",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Death Trigger",
+                    "shortDesc": "MP Cost: 750. Fires up to 7 shots, which attack up to 7 enemies with 580% damage 7 time(s).\\nCooldown: 30 sec. Cooldown decreases by 0.5 sec. for each remaining ricochet.",
+                    "icons": ["/class-icons/explorers/corsair/death-trigger.png"],
+                    "animations": ["https://media.giphy.com/media/NlVM3UQszpJsQhdbfr/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fire bullets that ricochets to multiple enemies",
+                    "details": [
+                        "If there is an enemy affected by the <tt src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting (4th Job)}> debuff, all bullets will target that enemy",
+                        "Cooldown decreases depending on the number of remaining ricochets",
+                        "Can be used in the air",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Rapid Blast Boost",
+                    "shortDesc": "Rapid Blast Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/corsair/rapid-blast.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Recoil Shot Boost",
+                    "shortDesc": "Recoil Shot Final Damage: +300%",
+                    "icons": ["/class-icons/explorers/corsair/recoil-shot.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Scurvy Summons/All Aboard Boost",
+                    "shortDesc": "Scurvy Summons and All Aboard Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/corsair/scurvy-summons.png", "/class-icons/explorers/corsair/all-aboard.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blunderbuster Boost",
+                    "shortDesc": "Blunderbuster Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/corsair/blunderbuster.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Blackboot Bill Boost",
+                    "shortDesc": "Blackboot Bill Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/corsair/blackboot-bill.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Siege Bomber Boost",
+                    "shortDesc": "Siege Bomber Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/corsair/siege-bomber.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Rapid Fire Boost",
+                    "shortDesc": "Rapid Fire Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/corsair/rapid-fire.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Nautilus Strike Boost",
+                    "shortDesc": "Nautilus Strike Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/corsair/nautilus-strike.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Brain Scrambler Boost",
+                    "shortDesc": "Brain Scrambler Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/corsair/brain-scrambler.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Eight-Legs Easton Boost",
+                    "shortDesc": "Eight-Legs Easton Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/corsair/eight-legs-easton.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Majestic Presence Boost",
+                    "shortDesc": "Majestic Presence Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/corsair/majestic-presence.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Broadside/Tempest Bombardment Boost",
+                    "shortDesc": "Broadside/Tempest Bombardment Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/corsair/broadside.png", "/class-icons/explorers/corsair/tempest-bombardment.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Parrotargetting Boost",
+                    "shortDesc": "Parrotargetting Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/corsair/parrotargetting.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ugly Bomb Boost",
+                    "shortDesc": "Ugly Bomb Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/corsair/ugly-bomb.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/corsair/hexa-rapid-fire-1.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/corsair/rapid-fire.png} tip={Rapid Fire (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Rapid Fire",
+                    "shortDesc": "MP Cost per attack: 19, Max Enemies Hit: 4, Damage: 610% per shot. When 5 attacks land, 1 clip will reload. Once 10 clips have reloaded, shootout mode will activate.\\n[Passive Effect - Majestic Presence Damage: +145% (additive)]\\n------Shootout Mode HEXA Rapid Fire------\\nMP Cost per attack: 19, consumes 1 clip every 0.6 sec\\nMax Enemies Hit: 6, Damage: 297%, Number of Consecutive Attacks: 4",
+                    "icons": ["/class-icons/explorers/corsair/hexa-rapid-fire-1.png", "/class-icons/explorers/corsair/hexa-rapid-fire-2.png", "/class-icons/explorers/corsair/rapid-fire.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWZ1ZjNzaTN0Y3NraTdiMWV4N28xOGc0anl1bnRzOWdoeXNzY3l5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xEwjEvAvbt59ZnkPG7/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/corsair/hexa-broadside-tempest.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)}> <tt src={/class-icons/explorers/corsair/tempest-bombardment.png} tip={Tempest Bombardment (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Broadside",
+                    "shortDesc": "MP Cost: 155, Summons a ship for 60 sec that fires its cannons at regular intervals\\nCannonballs explode upon contact with the enemy. Damage: 840%, Max Enemies Hit: 6, Number of Attacks: 3\\nUp to 2 can be summoned simultaneously\\nCooldown: 0.5 sec",
+                    "icons": ["/class-icons/explorers/corsair/hexa-broadside.png", "/class-icons/explorers/corsair/broadside.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2FqZDU5ZXRra2IwYTdyZDN2ZmJzc2k5cTloZnk0YmIxYmtnM3ViOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JsVMnswX5KAwBGoqRP/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Tempest Bombardment",
+                    "shortDesc": "Bombards the target, dealing 1003% damage to up to 6 enemies 9 times\\nBombardment Cooldown: 2 sec",
+                    "icons": ["/class-icons/explorers/corsair/hexa-tempest-bombardment.png", "/class-icons/explorers/corsair/tempest-bombardment.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjVnemVzcWY2M2x1cTFha2k2eGFvY21nY2phNW5jYXhoMWwyenY2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IeEThQg76TKTLjm5hd/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/corsair/hexa-scrambler-easton.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler (4th Job)}> <tt src={/class-icons/explorers/corsair/eight-legs-easton.png} tip={Eight-Legs Easton (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Brain Scrambler",
+                    "shortDesc": "MP Cost: 36, Max Enemies Hit: 4, Damage: 1688%, Number of Attacks: 13\\nMonster DEF Ignored: 60%, Additional Critical Rate: +100%\\nWhen it lands 2 times, the next Brain Scrambler triggers as Death Hail - MP Cost: 36, Max Enemies Hit: 8, Damage: 1266%, Number of Attacks: 13, Trigger Count: 2\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/explorers/corsair/hexa-brain-scrambler.png", "/class-icons/explorers/corsair/hexa-brain-scrambler-2.png", "/class-icons/explorers/corsair/brain-scrambler.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNxM2NwMmpkcXU0OTNmcHA0emRlcWZwd2JhaGFyemJlN2o4ZjFhcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KCMt4AIvmcyjDqhU4J/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamswNG83dmJkN3Rib3J6eXh1eWxvZDZsN3Z0c3RqaWRzdGEweDlkbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qiLaqr5p539vk0PCNI/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Eight-Legs Easton",
+                    "shortDesc": "MP Cost: 65, Bullet Cost: 4, Max Enemies Hit: 8, Damage: 1080%, Number of Attacks: 4",
+                    "icons": ["/class-icons/explorers/corsair/hexa-eight-legs-easton.png", "/class-icons/explorers/corsair/eight-legs-easton.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2RncWpsbnh6NmRiMHV1bWh2MWJ5cnFxdDF1cGRxd283b3c2enF6dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eK9eFxNwpk1lpWpbvt/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGE1b3NmZjVrZTR4NXQ4cmk1dGJjbjl1YTlzczBzMGwydzFnNHZmcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AA6EHGW0rpNDD4KqjY/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/corsair/hexa-siege-scurvy-nautilus-ugly.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber (3rd Job)}> <tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)}> <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> <tt src={/class-icons/explorers/corsair/ugly-bomb.png} tip={Ugly Bomb (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Scurvy Summons",
+                    "shortDesc": "MP Cost: 48, Duration: 120 sec. Summon two brave crewmen to assist you in battle.\\nDual Pistol Crew - Damage: 965%, Number of Attacks: 3, Ammo Count: 2\\nSharpshooter Crew - Max Enemies Hit: 4, Damage: 468, Number of Attacks: 4\\nIf you're targeted by a fatal status effect, a crew member will block it. That crew member cannot block another status effect until re-summoned\\nCooldown: 45 sec",
+                    "icons": ["/class-icons/explorers/corsair/hexa-scurvy-summons.png", "/class-icons/explorers/corsair/scurvy-summons.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmEydGZvNHEyenRpcDZoemltZm4wbjFscHk5ejhwOW51bnBxOTl1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fAmn7hHePK7HIZVeaR/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN4dHFxcXB6c2U1bzJxeXdibmpiZW80ZWVseWxmM2hpcjJ6YWh5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PtTjLPx7UbEq1x4ZSN/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Siege Bomber",
+                    "shortDesc": "MP Cost: 21, Summons Artillery with Duration: 60 sec, Max Enemies Hit: 3, Damage: 615%\\n[Passive Effect - HEXA Tempest Bombardment Damage: +312% (additive)]",
+                    "icons": ["/class-icons/explorers/corsair/hexa-siege-bomber.png", "/class-icons/explorers/corsair/siege-bomber.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExam5mejN4YnN6MGlyaTNjdzJidG5rbTN0dHN1a2I5dmJkcnZrOXR6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26lBDGEh4w8vemw9lg/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Ugly bomb",
+                    "shortDesc": "MP Cost: 590, Damage: 600%, Number of Attacks: 12, Max Enemies Hit: 15\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/explorers/corsair/hexa-ugly-bomb.png", "/class-icons/explorers/corsair/ugly-bomb.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjA2b3F5dGk0OHlhdGYwcmdtcGdzYmIxaXhiOTM0Z3Z5OWpjYTNxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JfU5LuoBTRUipeWlts/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Nautilus Strike",
+                    "shortDesc": "MP Cost: 410, Damage: 865%, Number of Attacks: 7, Max Enemies Hit: 15\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/explorers/corsair/hexa-nautilus-strike.png", "/class-icons/explorers/corsair/nautilus-strike.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXJuazcxY3Jrd3cwM3hxeHB6ZGU1NGs2a3g2ZG0wdjA1ZDM3ODFhayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hwYlZOwZ3Tt3eld1Uj/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "The Dreadnought",
+                    "shortDesc": "MP Cost: 2000, invincible during casting\\nAdvance bravely, Max Enemies Hit: 15, Damage: 1270%, Number of Attacks: 12, Wind and Waves: 52\\nAfter the attack ends, the naval vessel stays in the air for 15 sec. Max Enemies Hit: 7, Bombardment Damage: 1500%, Number of Attacks: 8\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/corsair/the-dreadnought.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3VzenAyNmcyMGl0dXpsZGR2ZXE4M3FubjdlMTc1MGdhZm56cHlubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XcUn04EsGiBkJJlM1D/giphy.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Firecracker Fusillade",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nFills the sky with 9 rounds, dealing 6159% damage to up to 15 enemies 12 times. Then the fusillade crashes to earth and explodes 19 times, dealing 6159% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/explorers/corsair/firecracker-fusillade.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3dnYzA5eHptcTF0dmZlN2VuaXp3YXhxbDV3azBlOHh6OTF2enpreSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4N5F7I2UTRfvtzYJMt/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Bullet Barrage Boost",
+                    "shortDesc": "Bullet Barrage Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/corsair/bullet-barrage.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Target Lock Boost",
+                    "shortDesc": "Target Lock Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/corsair/target-lock.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Nautilus Assault Boost",
+                    "shortDesc": "Nautilus Assault Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/corsair/nautilus-assault.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Death Trigger Boost",
+                    "shortDesc": "Death Trigger Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/corsair/death-trigger.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Scurvy Summons - 2nd Job",
+                "icons": ["/class-icons/explorers/corsair/scurvy-summons.png"],
+                "animations": ["https://media.giphy.com/media/bwTGT9m5RhjZrHF8xE/giphy.gif"]
+            },
+            {
+                "name": "Siege Bomber - 3rd Job",
+                "icons": ["/class-icons/explorers/corsair/siege-bomber.png"],
+                "animations": ["https://media.giphy.com/media/fQ4OFXuziR5T4J91c2/giphy.gif"]
+            },
+            {
+                "name": "Rapid Fire - 4th Job",
+                "icons": ["/class-icons/explorers/corsair/rapid-fire.png"],
+                "animations": ["https://media.giphy.com/media/XtYwmU2z98HArNzMk7/giphy.gif"]
+            },
+            {
+                "name": "Eight-Legs Easton - 4th Job",
+                "icons": ["/class-icons/explorers/corsair/eight-legs-easton.png"],
+                "animations": ["https://media.giphy.com/media/bECek0vrP6NCeumgVZ/giphy.gif"]
+            },
+            {
+                "name": "Broadside - 4th Job",
+                "icons": ["/class-icons/explorers/corsair/broadside.png"],
+                "animations": ["https://media.giphy.com/media/UinsGEydFTUT829ctZ/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Bullet Barrage - 5th Job",
+                "icons": ["/class-icons/explorers/corsair/bullet-barrage.png"],
+                "animations": ["https://media.giphy.com/media/lrmTrKzmPkoDZjV3bc/giphy.gif"]
+            },
+            {
+                "name": "Nautilus Assault - 5th Job",
+                "icons": ["/class-icons/explorers/corsair/nautilus-assault.png"],
+                "animations": ["https://media.giphy.com/media/Db4nJ3waDY2WdafivA/giphy.gif"]
+            },
+            {
+                "name": "The Dreadnought - 6th Job",
+                "icons": ["/class-icons/explorers/corsair/the-dreadnought.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3VzenAyNmcyMGl0dXpsZGR2ZXE4M3FubjdlMTc1MGdhZm56cHlubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XcUn04EsGiBkJJlM1D/giphy.gif"]
+            },
+            {
+                "name": "Firecracker Fusillade - 6th Job",
+                "icons": ["/class-icons/explorers/corsair/firecracker-fusillade.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3dnYzA5eHptcTF0dmZlN2VuaXp3YXhxbDV3azBlOHh6OTF2enpreSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4N5F7I2UTRfvtzYJMt/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Corsair is a DEX pirate class part of the Explorers. Corsair utilize Guns as their primary weapons. For their secondary weapon, Corsair can equip Far Sights"
+}

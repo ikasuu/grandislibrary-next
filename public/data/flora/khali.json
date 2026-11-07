@@ -1,0 +1,1173 @@
+{
+    "class": "Khali",
+    "content": {
+        "classGroup": "Flora",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat LUK",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["chakram"]},
+            {"secondary": ["hexSeeker"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/flora/khali/chakram-booster.png} tip={Chakram Booster (2nd Job)} val={+2}>"
+              },
+              {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/flora/khali/chakram-expert.png} tip={Chakram Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "LUK",
+                "stat": "+60 & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+60}> <bg src={/class-icons/flora/khali/hero-of-the-flora.png} tip={Hero of the Flora (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +130(160)",
+                "detail": "<bg src={/class-icons/flora/khali/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg src={/class-icons/flora/khali/flare.png} tip={Flare (1st Job)} val={+30}> <bg src={/class-icons/flora/khali/chakram-mastery.png} tip={Chakram Mastery (2nd Job)} val={+30}> <bg src={/class-icons/flora/khali/intuition.png} tip={Intuition (3rd Job)} val={+30}> <bg src={/class-icons/flora/khali/chakram-expert.png} tip={Chakram Expert (4th Job)} val={+40}> <bg src={/class-icons/flora/magic-conversion.png} tip={Magic Conversion (Beginner Skill)} val={50% of Magic Attack from equipment - excluding weapon} val={Cannot exceed 20% of weapon's base Magic Attack}> <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+100 & 100% of Magic Attack from equipment - excluding weapon} val={Cannot exceed 150% of weapon's base Magic Attack}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/flora/khali/impulse.png} tip={Impulse (2nd Job)} val={+35%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+43%",
+                "detail": "<bg src={/class-icons/flora/khali/impulse.png} tip={Impulse (2nd Job)} val={+20%}> <bg src={/class-icons/flora/khali/chakram-expert.png} tip={Chakram Expert (4th Job)} val={+23%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+10%(65%)",
+                "detail": "<bg src={/class-icons/link-skills/innate-gift.png} tip={Innate Gift (Link Skill)} val={+10%}> <bg type={temp} src={/class-icons/flora/khali/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} val={+45%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+30%",
+                "detail": "<bg src={/class-icons/flora/khali/redemption.png} tip={Redemption (4th Job)} val={+30%}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+72.8%(146.41%)",
+                "detail": "<bg src={/class-icons/flora/khali/intuition.png} tip={Intuition (3rd Job)} val={+28%}> × <bg src={/class-icons/flora/khali/redemption.png} tip={Redemption (4th Job)} val={+35%}> × <bg type={temp} src={/class-icons/flora/khali/hex-sandstorm.png} tip={Hex: Sandstorm (6th Job)} val={+15%}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+36%",
+                "detail": "<bg src={/class-icons/flora/khali/intuition.png} tip={Intuition (3rd Job)} val={+20%}> × <bg src={/class-icons/flora/khali/redemption.png} tip={Redemption (4th Job)} val={+20%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/flora/khali/chakram-booster.png} tip={Chakram Booster (2nd Job)} dur={[200s]}>",
+            "toggles": "<tt src={/class-icons/flora/khali/void-enhance.png} tip={Void Enhance (3rd Job)}>",
+            "summons": "<tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)} dur={[30s, Max 6 Chakri](Toggle)}> <tt src={/class-icons/flora/khali/death-blossom.png} tip={Death Blossom (Hyper Skill)} dur={[30s](60s cd)}> <tt src={/class-icons/flora/khali/hex-pandemonium.png} tip={Hex: Pandemonium (5th Job)} dur={[3s](30s cd)}>",
+            "buffCd": "<tt src={/class-icons/flora/khali/oblivion.png} tip={Oblivion (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/flora/khali/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/khali/resonate-ultimatum.png} tip={Resonate: Ultimatum (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/khali/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/flora/khali/hex-sandstorm.png} tip={Hex: Sandstorm (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/flora/khali/desert-veil.png} tip={Desert Veil (4th Job)} dur={[3s](75s cd)}> <tt src={/class-icons/flora/khali/void-burst.png} tip={Void Burst (5th Job)} dur={[4.3s during skill, 3.5s after skill](120s cd)}> <tt src={/class-icons/flora/khali/hex-sandstorm.png} tip={Hex: Sandstorm (6th Job)} dur={(360s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 150030241,
+            "offline": true,
+            "name": "Innate Gift",
+            "maxLevel": 3,
+            "shortDesc": "Damage: +7%\\nUpon attacking, Recovery Chance: 100%, Recovery 3% of Max HP/MP per sec, Duration: 5 sec\\nCooldown: 30 sec",
+            "icons": ["/class-icons/link-skills/innate-gift.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Unaffected by cooldown resets, cooldown reduction, and buff duration increase"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/flora/khali/spark.png} tip={Spark}> -> <tt src={/class-icons/flora/khali/flare.png} tip={Flare}> -> <tt src={/class-icons/flora/khali/patience.png} tip={Patience}> -> <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush}> -> <tt src={/class-icons/flora/khali/arts-cross-cut.png} tip={Arts: Cross Cut}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/flora/khali/impulse.png} tip={Impulse}> -> <tt src={/class-icons/flora/khali/chakram-mastery.png} tip={Chakram Mastery}> -> <tt src={/class-icons/flora/khali/chakram-booster.png} tip={Chakram Booster}> -> <tt src={/class-icons/flora/khali/arts-dual-edge.png} tip={Arts: Dual Edge}> -> <tt src={/class-icons/flora/khali/insanity-i.png} tip={Insanity I}> -> <tt src={/class-icons/flora/khali/arts-crescentum.png} tip={Arts: Crescentum}>"],
+                ["3rd Job", "<tt src={/class-icons/flora/khali/insanity-ii.png} tip={Insanity II}> -> <tt src={/class-icons/flora/khali/vigilance.png} tip={Vigilance}> -> <tt src={/class-icons/flora/khali/intuition.png} tip={Intuition}> -> <tt src={/class-icons/flora/khali/resonate.png} tip={Resonate}> -> <tt src={/class-icons/flora/khali/deceiving-blade.png} tip={Deceiving Blade}> -> <tt src={/class-icons/flora/khali/arts-triple-bash.png} tip={Arts: Triple Bash}> -> <tt src={/class-icons/flora/khali/hex-chakram-sweep.png} tip={Hex: Chakram Sweep}>"],
+                ["4th Job", "<tt src={/class-icons/flora/khali/insanity-iii.png} tip={Insanity III}> -> <tt src={/class-icons/flora/khali/redemption.png} tip={Redemption}> -> <tt src={/class-icons/flora/khali/ascend.png} tip={Ascend}> -> <tt src={/class-icons/flora/khali/chakram-expert.png} tip={Chakram Expert}> -> <tt src={/class-icons/flora/khali/arts-flurry.png} tip={Arts: Flurry}> -> <tt src={/class-icons/flora/khali/hero-of-the-flora.png} tip={Hero of the Flora}> -> <tt src={/class-icons/flora/khali/hex-chakram-split.png} tip={Hex: Chakram Split}> -> <tt src={/class-icons/flora/khali/hex-chakram-fury.png} tip={Hex: Chakram Fury}> -> <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz}> -> <tt src={/class-icons/flora/khali/desert-veil.png} tip={Desert Veil}> -> <tt src={/class-icons/flora/khali/floran-heros-will.png} tip={Floran Hero's Will}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/flora/khali/hex-reinforce.png} tip={Hex - Reinforce}> <tt src={/class-icons/flora/khali/hex-guardbreak.png} tip={Hex - Guardbreak}> <tt src={/class-icons/flora/khali/hex-boss-rush.png} tip={Hex - Boss Rush}> Hex - Reinforce, Guardbreak, and Boss Rush_<tt src={/class-icons/flora/khali/arts-extra-strike.png} tip={Arts - Extra Strike}> Arts - Extra Strike_<tt src={/class-icons/flora/khali/void-reinforce.png} tip={Void - Reinforce}> Void - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/flora/khali/arts-flurry.png} tip={Arts: Flurry / Crescentum (4th Job / 2nd Job)}> <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> <tt src={/class-icons/flora/khali/hex-chakram-sweep.png} tip={Hex: Chakram Sweep / Chakram Split / Chakram Fury (3rd Job / 4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/flora/khali/resonate.png} tip={Resonate / Deceiving Blade (3rd Job)}> <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}> <tt src={/class-icons/flora/khali/death-blossom.png} tip={Death Blossom (Hyper Skill)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/flora/khali/arts-flurry.png} tip={Arts: Flurry (4th Job)}> <tt src={/class-icons/flora/khali/arts-crescentum.png} tip={Arts: Crescentum (2nd Job)}>",
+                "<tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}> <tt src={/class-icons/flora/khali/hex-chakram-split.png} tip={Hex: Chakram Split (3rd Job)}>",
+                "<tt src={/class-icons/flora/khali/hex-chakram-fury.png} tip={Hex: Chakram Fury (4th Job)}> <tt src={/class-icons/flora/khali/hex-chakram-sweep.png} tip={Hex: Chakram Sweep (3rd Job)}> <tt src={/class-icons/flora/khali/death-blossom.png} tip={Death Blossom (Hyper Skill)}>",
+                "<tt src={/class-icons/flora/khali/resonate.png} tip={Resonate (3rd Job)}> <tt src={/class-icons/flora/khali/deceiving-blade.png} tip={Deceiving Blade (3rd Job)}>",
+                "<tt src={/class-icons/flora/khali/arts-cross-cut.png} tip={Arts: Cross Cut (1st Job)}>  <tt src={/class-icons/flora/khali/arts-dual-edge.png} tip={Arts: Dual Edge (2nd Job)}>",
+                "<tt src={/class-icons/flora/khali/arts-triple-bash.png} tip={Arts: Triple Bash (3rd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Khali"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%B9%BC%EB%A6%AC(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/an6dkrgXTr"}
+        ],
+        "specialThanks": "Special thanks to the members of the Khali Discord for their help in making this overview!",
+        "discord": "https://discord.gg/an6dkrgXTr",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Class Infographic", "McCain"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Khali Class Discord"]
+        ],
+        "infographics": [
+            {
+                "src": "khali/khali-overview.png",
+                "title": "Overview",
+                "credit": "McCain",
+                "date": "2026-06-03"
+            },
+            {
+                "src": "khali/khali-sequence.png",
+                "title": "Sequence",
+                "credit": "Khali Discord",
+                "date": "2026-06-25"
+            },
+            {
+                "src": "khali/khali-6th-job.png",
+                "title": "6th Job",
+                "credit": "Khali Discord",
+                "date": "2026-06-25"
+            }
+        ],
+        "extraContent": {
+            "title": "Arts, Void, and Hex Skills",
+            "content": [
+                "[Arts Skills]",
+                "Arts Skills are direct attacks that utilize your Chakram weapon. Pre-5th Job Arts Skills reduce the cooldown of <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> Void Rush (1st Job) and <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}> Void Blitz (4th Job)",
+                "[Void Skills]",
+                "Void Skills are primarily utility skills that can leave afterimages that damage enemies. Certain skills when used provide <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state (Rush and Blitz) or invincibility (Burst)",
+                "In 3rd Job, Void Skills have a chance to create <tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)}> Chakri that interact with Hex Skills",
+                "[Hex Skills]",
+                "Hex Skills are powerful Chakram attacks with cooldowns that deal a special or wide-range attack. In 3rd Job, Hex Skills also interact with created <tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)}> Chakri to create flying projectiles called <tt src={/class-icons/flora/khali/resonate.png} tip={Resonate (3rd Job)}> Resonate",
+                "[Dark Sight]",
+                "<em text={Credits to the Night Walker Discord for the list of attacks avoidable with Dark Sight. For an actively maintained version, please check out the Night Walker Discord}>",
+                "Starting 2nd Job, using <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> Void Rush grants <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state. Below is a list of avoidable attacks that have been tested:",
+                " dsTable "
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Innate Gift",
+                    "maxLevel": 3,
+                    "shortDesc": "Damage: +10%\\nUpon attacking, Recovery Chance: 100%, Recovery 3% of Max HP/MP per sec, Duration: 5 sec\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/link-skills/innate-gift.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Unaffected by cooldown resets, cooldown reduction, and buff duration increase"
+                    ]
+                },
+                {
+                    "name": "Reminiscence",
+                    "shortDesc": "MP Cost: 30, Move back to Erimos.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/reminiscence.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2llYTZ2NGExc2loYXJzeXB4aXMzM3FqcTR0eTZ3cnd2MDI2ZjdrdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k7FFcgx9ckuCCq80DB/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Magic Conversion",
+                    "shortDesc": "50% of your equipment's Magic ATT is converted to Attack Power, excluding your weapon.\\nAny set effects do not apply. Only converts up to 20% of your weapon's base Attack Power.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/magic-conversion.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power & Magic ATT: +4%\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/exclusive-spell.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHQ3dTBtMG96M2E5NmxnMzR0ZWFhZ3M2aXhkcWQzN3hqdjU0djBsNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xSwYyW8eFbK7war1cR/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete Khali's storyline and the quest <link href={https://maplestorywiki.net/w/Quests/245/Ypsilon%27s_Identity} title={\"Ypsilon's Identity\"}>",
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Arts: Cross Cut",
+                        "shortDesc": "MP Cost: 12, Max Enemies Hit: 5, Damage: 120%, Number of Attacks: 3\\nReduces cooldown of Void Rush/Void Blitz by 1 sec when the attack hits.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/khali/arts-cross-cut.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHRvOGhnZjN5NTl2YnJsczdybDBkN3IwbGtua2tkYjNiNHBybGRobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IZPAFKH2fm5AALZqA0/giphy.gif"],
+                        "type": "Arts Attack",
+                        "desc": "Slash forward",
+                        "details": [
+                            "Successful attacks decrease the cooldown of <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> and <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Spark",
+                        "shortDesc": "MP Cost: 5. Allows you to jump a greater distance.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/flora/khali/spark.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmw3b2dhcnV4YmVhcG1xb2o2Z21oa245OXRyejM4bmVxaGVhb2c0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qGcwuxfc5KfmEnZGzs/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>",
+                            "Horizontal jump can be used twice in a row"
+                        ]
+                    },
+                    {
+                        "name": "Void Rush",
+                        "shortDesc": "MP Cost: 10, Move quickly in the direction pressed\\nCooldown: 5 sec",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/khali/void-rush.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJlYXExNjNhNGZsbGVmMDBqODVhMXo3N2N5ZTVqcnFsaWEyYjNzeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gREQy0R2mlgrxNzgqI/giphy.gif"],
+                        "type": "Void Active",
+                        "desc": "Dash forward",
+                        "details": [
+                            "Pressing the Left/Right Arrow Key and Skill Key together will dash in the given direction",
+                            "Using <tt src={/class-icons/flora/khali/phase-rush.png} tip={Phase Rush (1st Job)}> allows to switch [Normal Mode] and [Stationary Mode] which prevents dashing forward if there is terrain in your path ",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Phase Rush",
+                        "shortDesc": "MP Cost: 30, Use the arrow keys to switch between Void Rush and Void Rush: Stationary Mode\\nCooldown: 1 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/khali/phase-rush.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWt6ZWY5MGltOTJ5MmxwcnZ3c21lMW52ZXY2eTdtOHdkOHVqYmd0NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WjQRej6YwhJ6seCXwW/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Using the Arrow Keys, choose the behavior of <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> from [Normal Mode] or [Stationary Mode]",
+                        "details": [
+                            "In [Normal Mode], <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> will function as normal and dash forward",
+                            "In [Stationary Mode], <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> will not allow you to dash forward if there is terrain in your path"
+                        ]
+                    },
+                    {
+                        "name": "Flare",
+                        "shortDesc": "Attack Power: +30, Defense: +150, Max HP: +500, Max MP: +500, Knockback Resistance: +40%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/flora/khali/flare.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Patience",
+                        "shortDesc": "Speed: +40, Jump: +20, Max Speed: +20, Avoidability: +30%",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/flora/khali/patience.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Arts: Dual Edge",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 6, Damage: 160%, Number of Attacks: 4\\nReduces cooldown of Void Rush/Void Blitz by 1 sec when the attack hits.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/khali/arts-dual-edge.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTFhY2c4MjZqbXk5Y2Jzc254ajZ4dTdvenBndXB3cjUyNnZ3ZGYzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tflkmL7dNallD7E9i4/giphy.gif"],
+                        "type": "Arts Attack",
+                        "desc": "Slash forward twice",
+                        "details": [
+                            "Successful attacks decrease the cooldown of <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> and <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Arts: Crescentum",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 8, Damage: 230%, Number of Attacks: 4\\nVoid Rush/Void Blitz Cooldown: -5 sec.\\nCooldown: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/khali/arts-crescentum.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenJ1M2FpbTMzZDdqOG5wMXRpMHNxNW5sNXNoaGwwbmZqZnJ3d2l3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CJv5TSagJ94OCMbyAV/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHQyMjd6bnJqbDBhd3VlamN1c3l2YTBzOWQxY3g0MGtyNWo2NHdpeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZoQ70duvsRsZDiZtw5/giphy.gif"],
+                        "type": "Arts Attack",
+                        "desc": "Rotate rapidly slashing around yourself",
+                        "details": [
+                            "Can only be used during or after a Void Skill to attack in the direction of the skill",
+                            "When used, immediately decreases the cooldown of <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> and <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Chakram Booster",
+                        "shortDesc": "MP Cost: 10, Duration: 200 sec, Chakram Attack Speed: +2",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/khali/chakram-booster.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd21lcmd5M2U1NHpxc3AxbGlkdzJneTlwaGZoenhvbm93cDJqNHRrcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iyK7bI832Q9F8zYLSf/giphy.gif"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Chakram Mastery",
+                        "shortDesc": "Chakram Mastery: +50%, Attack Power: +30",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/khali/chakram-mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Insanity I",
+                        "shortDesc": "MP Cost: 30, Move quickly in the direction pressed, Max Enemies Hit: 6, Damage: 100%, Number of Attacks: 2\\nNormal Enemy Damage: +200% points\\nDark Sight Duration: 2 sec\\nCooldown: 5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/khali/insanity-i.png", "/class-icons/flora/khali/void-rush.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDIxY2t3aXNha2wxOHJibWozeHRyN2w1anMzMmhvMGhmcWVmanlsYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tWD307pYKC1y1MeMCt/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Enhances <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}>, granting the ability to dash in 8 directions and now damages enemies in your path",
+                        "details": [
+                            "When used, briefly enters <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state and hover while in the air",
+                            "While dashing, pressing the Jump Key will immediately stop the dash",
+                            "Can be used while casting Arts and Hex Skills",
+                            "Deals increased %Damage to regular monsters by a flat amount",
+                            "Unaffected by Damage Reflect and cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Impulse",
+                        "shortDesc": "Critical Rate: +35%, Critical Damage: +20%",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/flora/khali/impulse.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "LUK +60",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Arts: Triple Bash",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 220%, Number of Attacks: 5\\nReduces cooldown of Void Rush/Void Blitz by 1 sec when the attack hits.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/khali/arts-triple-bash.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWp1aTVrM2VzY2N5ZXZwbHNuNWYwMWgzZmh3eW9tdXljZGdpYXhmciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5ZGAepAo16FphVorNj/giphy.gif"],
+                        "type": "Arts Attack",
+                        "desc": "Slash forward several times",
+                        "details": [
+                            "Successful attacks decrease the cooldown of <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> and <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Hex: Chakram Sweep",
+                        "shortDesc": "MP Cost: 45. Max Enemies Hit: 8, Large Chakram Damage: 300%, Number of Attacks: 7\\nCooldown: 6 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/khali/hex-chakram-sweep.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGp4aHd4M3NuYXhoZzdmMDQwcDJmdWs3NDJrYXh6dDZ1MjJ2ZjIxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wHPhvtTTGPEvBBCPvG/giphy.gif"],
+                        "type": "Hex Attack",
+                        "desc": "Throw forward a giant chakram and recoil backwards"
+                    },
+                    {
+                        "name": "Summon Chakri",
+                        "shortDesc": "30% chance to create Chakri when defeating monsters or attacking Boss monsters with Void-type skills.\\n100% chance to create chakri when canceling Arts/Hex-type skills with Void-type skills.\\nChakri Duration: 30 sec, Max Created: 6, Not created near locations that already have chakri.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/khali/summon-chakri.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnFoNW9jNDBqMmxhMDNydzg0YjlvM2dpbHFzOGpoMHlkbmE2YnB0YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AMljKFd4OJ9FEtalyo/giphy.gif"],
+                        "type": "Toggle Active",
+                        "desc": "While toggled, defeating enemies with a Void Skill or attacking bosses have a chance to create a Chakri (up to 6)",
+                        "details": [
+                            "Chakri are used to activate damaging projectiles from <tt src={/class-icons/flora/khali/resonate.png} tip={Resonate (3rd Job)}>",
+                            "Upon cancelling a Arts/Hex Skill using a Void Skill, a Chakri will be created",
+                            "Adding Skill Points (SP) into <tt src={/class-icons/flora/khali/resonate.png} tip={Resonate (3rd Job)}> will automatically grant this skill"
+                        ]
+                    },
+                    {
+                        "name": "Resonate",
+                        "shortDesc": "Hex-type skills manifest chakri summoned within a certain range with Resonate.\\nManifested Resonate deal 120% damage 3 times then disappears after bouncing to up to 3 times.\\nRepeatedly hitting a single target reduces Final Damage by 45%.",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/flora/khali/resonate.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGV1YWx1ZWNycWtnODJ6cmE2em1nMWJpb2piaGFtem9pOGFodDhxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aylzibt9qJVeGHfrKS/giphy-downsized-large.gif"],
+                        "type": "Passive Attack",
+                        "desc": "Using a Hex Skill converts nearby <tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)}> Chakri into damaging homing projectiles",
+                        "details": [
+                            "The projectiles can attack several times before disappearing<bp_Damaging the same enemy will deal reduced %Final Damage after the first hit_>",
+                            "Prioritizes bosses with the highest HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Insanity II",
+                        "shortDesc": "MP Cost: 40, Move quickly in the direction pressed, Max Enemies Hit: 6, Damage: 130%, Number of Attacks: 3\\nNormal Monster Damage: +260% points\\nDark Sight for 2 sec. when used\\nMax Consecutive Uses: 2\\nCooldown: 5 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/flora/khali/insanity-ii.png", "/class-icons/flora/khali/void-rush.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTB3bGhwa21janpkbWIxdWYzYXRnYm43NWlva2I4bG42bms3YTRpZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y2brjeF0Sf4XOeVyS4/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases attack's range and can be linked with a Hex Skill",
+                            "Increases attack's %Damage and Number of Attacks, %Damage (by a flat amount) to regular monsters",
+                            "Can be used 2 times in quick succession before the cooldown is applied<bp_Using any skill other than <tt src={/class-icons/flora/khali/spark.png} tip={Spark (1st Job)}>, <tt src={/class-icons/flora/khali/arts-crescentum.png} tip={Arts: Crescentum (2nd Job)}>, and Hex Skills will interrupt the quick succession_Linking with <tt src={/class-icons/flora/khali/arts-crescentum.png} tip={Arts: Crescentum (2nd Job)}> can allow up to 4 dashes (or 6 in 4th Job)_Linking Void->Hex->Void is possible, but Void->Arts (except <tt src={/class-icons/flora/khali/arts-crescentum.png} tip={Arts: Crescentum (2nd Job)}>)->Void is impossible_>",
+                            "While in the air, the skill can only be used to dash upwards up to 2 times regardless of cooldown",
+                            "While casting, pressing the Skill Key again will buffer the next dash"
+                        ]
+                    },
+                    {
+                        "name": "Void Enhance",
+                        "shortDesc": "Increased the movement range of Void Rush.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/khali/void-enhance.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW5qcnViMnd3cDJkNjU5dzlmcWNpNmZncGtmdWVuaHN2NzZ0OTFqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MzggxK2KfpkY0yt9cX/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjh0Z3RzNGNvaTM4aGpwYW5yNndicHl6MzM1MWV3aHdlcm82bjJ6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/upzXR1hHHvbOGDcYBW/giphy.gif"],
+                        "type": "Toggle Active",
+                        "desc": "",
+                        "details": [
+                            "Adding Skill Points (SP) into <tt src={/class-icons/flora/khali/insanity-ii.png} tip={Insanity II (3rd Job)}> will automatically grant this skill"
+                        ]
+                    },
+                    {
+                        "name": "Deceiving Blade",
+                        "shortDesc": "When Void-type skills hit, Buff Duration: 20 sec\\nWhen direct attacks hit while buff is active, Extra Hit Damage: 400%, Number of Extra Attacks: 2\\nExtra Hit Cooldown: 0.5 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/khali/deceiving-blade.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3FhNDlmbDF0YnprbzB3cXFucWppcWl6ZXR5bWdpamNhMmVlcXp5YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/peQkO6vLre4yCdgXYR/giphy.gif"],
+                        "type": "Passive Attack",
+                        "desc": "Upon successful Void Skill attacks, grants a short buff that provides an additional attack on successful Arts/Hex attacks",
+                        "details": [
+                            "Additional attack will not trigger from Void skills, projectiles, and summons",
+                            "Unaffected by Damage Reflect and buff duration increase"
+                        ]
+                    },
+                    {
+                        "name": "Intuition",
+                        "shortDesc": "Final Damage: +28%, Ignore DEF: +20%, Attack Power: +30\\nArts: Crescentum Damage: +120% points",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/flora/khali/intuition.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Vigilance",
+                        "shortDesc": "Max HP: +15%, Max MP: +15%, Status Resistance: +30, Elemental Resistance: +30%, Knockback Resistance: +60%, Damage Taken: -30%",
+                        "maxLevel": 19,
+                        "icons": ["/class-icons/flora/khali/vigilance.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                {
+                    "name": "Arts: Flurry",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 7, Damage: 290%, Number of Attacks: 7\\nReduces cooldown of Void Rush/Void Blitz by 1 sec when the attack hits.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/khali/arts-flurry.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXhyYzJlem5tODk2czEwMzJpcWFsZWZ0bWF2azF5YWswdjF6MjR3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xqGMJrV7KEvwPMd82d/giphy.gif"],
+                    "type": "Arts Attack",
+                    "desc": "Rapidly slash forward several times",
+                    "details": [
+                        "Successful attacks decrease the cooldown of <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> and <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}>"
+                    ]
+                },
+                {
+                    "name": "Hex: Chakram Split",
+                    "shortDesc": "MP Cost: 75, Max Enemies Hit: 10, Damage: 245%, Number of Attacks: 5, Large Chakram Thrown: 4\\nEach chakram hits the target up to 4 times.\\nCooldown: 14 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/khali/hex-chakram-split.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGxyN2hwc3JicjZnYWRtN2Qwd214bWRtc2lzeGcyczA3YmQxZ3cxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JWlplvOXAbFm9ZWQox/giphy.gif"],
+                    "type": "Hex Attack",
+                    "desc": "Throw forward several chakrams that spin briefly before returning to your position",
+                    "details": [
+                        "Chakrams damage enemies during its path and while spinning",
+                        "While returning, chakrams will disappear if you move too far",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Hex: Chakram Fury",
+                    "shortDesc": "MP Cost: 70, Damage: 735%, Number of Attacks: 15, Max Enemies Hit: 10, Chase Cuts: 2\\nCooldown: 12 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/khali/hex-chakram-fury.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJucm90cDlqZHp5cnJzbm1teHFlM2I2cWJvbTkyaXByMzlrMjU5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v9nLbzOjAKPNLYefFo/giphy.gif"],
+                    "type": "Hex Attack",
+                    "desc": "Unleash a storm of chakrams around you",
+                    "details": [
+                        "When used in the air, you will float",
+                        "While casting, you will not be knocked back at all (Super Knockback Resistance)"
+                    ]
+                },
+                {
+                    "name": "Void Blitz",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 6, Damage: 210%, Number of Attacks: 4, Aftertime Activations: 4\\nDark Sight Duration: 2 sec\\nCooldown: 6 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/khali/void-blitz.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2VtdWMyaTltZjB0aXRwaGdlODR0aTlxYjA4dmQ1Z2RlOGpmM2FuMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q9tzGoBGFOMQ8ZqyO7/giphy.gif"],
+                    "type": "Void Attack",
+                    "desc": "Release several afterimages forward that damage enemies it passes through",
+                    "details": [
+                        "When used, briefly enters <tt src={/class-icons/common/dark-sight.png} tip={Dark Sight}> Dark Sight state",
+                        "Each afterimage is considered a separate attack and the effect of <tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)}> is applied to each individually",
+                        "Right-clicking the skill will toggle a function ON/OFF to activate this skill when using <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> without any Arrow Keys pressed",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Desert Veil",
+                    "shortDesc": "MP Cost: 150, Invincibility Duration: 3 sec\\nCooldown: 75 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/khali/desert-veil.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWxhcHFsY2EzZGs3OWxweDJrbGwwcXZwMmF6bnFjZjliY3hsaWt5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t7eIOAcLCeQrX42o9p/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, briefly become invincible",
+                    "details": [
+                        "Pressing the Skill Key again will end the buff early",
+                        "Unaffected by cooldown resets and %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "Hero of the Flora",
+                    "shortDesc": "MP Cost: 70, creates a Flora emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/khali/hero-of-the-flora.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHV2Z2V6MmR1Y3Zhc3FlNG1sNTAyY2hsNDBxNHNmeHdxd2ttY2p5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UAL3ukO6wI81LkAwgO/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Floran Hero's Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/flora/khali/floran-heros-will.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ia3lid3ZwZjZuYXVuNWw4cW1yb2JwYXo4amxxbnBvN2ozc3JsMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W74dRA0FTfmE07PATX/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Insanity III",
+                    "shortDesc": "MP Cost: 50, Move quickly in the direction pressed, Max Enemies Hit: 7, Damage: 190%, Number of Attacks: 4\\nNormal Enemy Damage: +370% points\\nDark Sight Duration: 2 sec\\nMax Consecutive Uses: 3\\nCooldown: 5 sec",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/flora/khali/insanity-iii.png", "/class-icons/flora/khali/insanity-i.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hnMjV2ODU2MXppanpyc3FpbzMxanphaWV1bXF6YnBzYmNmNTN1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZVXF8JzJbpBhM3Uw7h/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases attack's %Damage, Number of Attacks, Max Enemies Hit, and %Damage (by a flat amount) to regular monsters",
+                        "Can be used 3 times in quick succession"
+                    ]
+                },
+                {
+                    "name": "Chakram Expert",
+                    "shortDesc": "Chakram Mastery: +70%, Attack Power: +40, Critical Damage: +23%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/flora/khali/chakram-expert.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Ascend",
+                    "shortDesc": "Resonate Damage: +155% points\\nNumber of Resonate Bounces: +1\\nSummon Chakri Creation Chance: +45%\\nHex: Chakram Sweep Damage: +400% points\\nArts: Crescentum Damage: +130% points",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/khali/ascend.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Does not apply to <tt src={/class-icons/flora/khali/resonate-ultimatum.png} tip={Resonate: Ultimatum (5th Job)}>"
+                    ]
+                },
+                {
+                    "name": "Redemption",
+                    "shortDesc": "Final Damage: +35%, Ignore Defense: +20%, Boss Damage: 30%",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/flora/khali/redemption.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Hex - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/hex-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of all Hex Skills"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Hex - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/hex-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of all Hex Skills"
+                    ],
+                    "reqLev": 150
+                },
+                {
+                    "name": "Hex - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/hex-boss-rush.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of all Hex Skills"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Resonate - Range",
+                    "shortDesc": "Enemy Search Range Increased",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/resonate-range.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Does not apply to <tt src={/class-icons/flora/khali/resonate-ultimatum.png} tip={Resonate: Ultimatum (5th Job)}>"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Void - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/void-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of all Void Skills"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Void - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/void-guardbreak.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of all Void Skills"
+                    ],
+                    "reqLev": 180
+                },
+                {
+                    "name": "Arts - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/arts-reinforce.png"],
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of all Arts Skills"
+                    ],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Arts - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/arts-spread.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases Max Enemies Hit of all Arts Skills"
+                    ],
+                    "reqLev": 165
+                },
+                {
+                    "name": "Arts - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/arts-extra-strike.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases Number of Attacks of all Arts Skills"
+                    ],
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Oblivion",
+                    "shortDesc": "MP Cost: 250, Duration: 30 sec\\nResets cooldown of Void Rush and Void Blitz upon use.\\nWhile active, reduces cooldown of 4th job or below Hex-type skills by 50%.\\nVoid/Hex-type Skills Final Damage: +30%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/oblivion.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTQydnhxbW11amY4MnMwdnNkeTlxYTM4Zzlib2NmZzA4b2xteTgxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jUXmsCzRNgOI0G6uPw/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Upon use, grants a buff and resets the cooldown of <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> and <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}>",
+                    "details": [
+                        "[Buff]: Increases the %Final Damage of Void/Hex Skills and reduces the cooldown of 4th job and below Hex Skills by 50%"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Death Blossom",
+                    "shortDesc": "MP Cost: 300, Rose Duration: 30 sec\\nMax Enemies Hit: 10, Damage: 500%, Number of Attacks: 6\\n100% chance to create summoned chakri in the location of the attack\\nIf the total target attacked is lower than the max, additional summoned chakri as much as the difference are created in random locations.\\nUp to 2 additional summoned chakri are created. It cannot be created near locations that already have a chakri.\\nCooldown: 60 sec\\nHold the down arrow key with the skill after summoning to resummon",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/death-blossom.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmxyYjh3cmc0amV2anBxam8wYWNqNXVjZm9vYzU3YzdxdGlycjZ6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BpORgKheBYnwygCT4X/giphy-downsized-large.gif"],
+                    "type": "Summon",
+                    "desc": "Place down a stationary blossom that periodically attacks nearby enemies",
+                    "details": [
+                        "For each enemy hit, <tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)}> Chakri are created (max. 2 per enemy)<bp_If the number of enemies hit are less than the Max Enemies Hit, an additional <tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)}> Chakri is created_>",
+                        "While summoned, pressing the Down Arrow Key and Skill Key together will resummon the blossom to your position",
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Divine Wrath",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Flora class in the party\\nCooldown: 120 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/flora/khali/divine-wrath.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3Nlbm12NTJ4ZWRzcHBnc3E0MWp1dzlieHRweDQybW41N2pqazhwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zNMenGlDGcFBgH5aql/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["conversionOverdrive", "grandisGoddessBlessingFL", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Hex: Pandemonium",
+                    "shortDesc": "MP Cost: 700, Duration: 3 sec, Summons the realm of chaos, Max Enemies Hit: 10, Damage: 715%, Number of Attacks: 4\\nAttack Speed increases in proportion to the realm of chaos duration, can increase up to +3.\\nWhen duration ends, Max Enemies Hit: 12, Damage: 1375%, Number of Attacks: 10, Number of Explosions: 5\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/flora/khali/hex-pandemonium.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYml3M2JvbzB2bmp1eWdiZ28wOGFucGRudmQyMzNpM2dia2RqaGRjbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S8WcD96Yn1KINRKtIq/giphy.gif"],
+                    "type": "Hex Attack",
+                    "desc": "Create a chakram storm that continuously damages enemies within it",
+                    "details": [
+                        "The storm gains increasing attack speed based on the duration of the attack",
+                        "At the end of the attack, the storm explodes dealing damage to nearby enemies",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Void Burst",
+                    "shortDesc": "MP Cost: 1000, Wind of Vengeance Descent Duration: 4.3 sec, Invincible during Wind of Vengeance\\nUsing the skill again during Wind of Vengeance pursues a target in the surroundings, Max Enemies Hit: 12, Damage: 2200%, Number of Consecutive Attacks: 12\\n5 consecutive attacks or duration ends, Max Enemies Hit: 15, Damage: 2310%, Number of Attacks: 15, Chase Cut: 7, Invincibility Duration: 3.5 sec\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/flora/khali/void-burst.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGR0bngwemxpbHMwMDRuZjI2OGMxbmYxZjB4Y3IwcTd1cWMwbzQ0bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iYjRL69iDpNFhEuJwM/giphy-downsized-large.gif"],
+                    "type": "Void Attack",
+                    "desc": "When used, grants invincibility for the duration of the skill however, you cannot perform any actions",
+                    "details": [
+                        "While active, pressing the Skill Key (up to 5 times) activates consecutive slash attacks that prioritize bosses with the highest HP first<bp_If no enemies are in range, the slashes activate on the player's location_>",
+                        "After the 5 consecutive attacks or when the duration ends, a finishing blow is activated that grants invincibility briefly",
+                        "The consecutive slashes and finishing blow can create <tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)}> Chakri",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Arts: Astra",
+                    "shortDesc": "MP Cost: 500, Max Enemies Hit: 8, Damage: 1000%, Number of Attacks: 6, Ancient Chakram Summoned: 3\\nDisappears after a while, Max Enemies Hit: 10, Damage: 1100%, Number of Attacks: 8\\nCooldown: 14 sec",
+                    "icons": ["/class-icons/flora/khali/arts-astra.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXdrZjIybWN1YWhpZWY1YWpnemxrMThsdTc2dmUxajhzb3RqYWpobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/08J9MNdmxbSC0Re8M9/giphy.gif"],
+                    "type": "Passive Arts Attack",
+                    "desc": "Periodically, upon successful Arts Skill attacks, chakrams appear above enemies and slash down upon them",
+                    "details": [
+                        "Chakrams will remain briefly after striking, dealing continuous damage before disappearing",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Resonate: Ultimatum",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec\\nMax Awakened Chakri Created: 8\\nUsing Hex-type skills splits and manifests the summoned Awakened Chakri within a certain range up to 2 Resonates.\\nAwakened Resonate deals 260% damage 3 times, bounces up to 4 times and then disappears\\nNormal Enemy Damage: + 150% points\\nWhen repeatedly hitting a single target, Final Damage: -45%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/flora/khali/resonate-ultimatum.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJzM214b2tlc29tcXhhZDM0Y2NiNWhiZnZ1dmk1aGZ3ZXlrYnU4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qEO9KqKiyyp1kahQkP/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, enhanced <tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)}> Chakri can be created (up to 8) that Hex Skills activate into 2 enhanced Resonates",
+                    "details": [
+                        "The projectiles can attack several times before disappearing<bp_Damaging the same enemy will deal reduced %Final Damage after the first hit_>",
+                        "Deals increased %Damage to regular monsters by a flat amount",
+                        "Attack prioritizes bosses with highest HP first",
+                        "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Arts: Cross Cut Boost",
+                    "shortDesc": "Arts: Cross Cut Final Damage: +420%",
+                    "icons": ["/class-icons/flora/khali/arts-cross-cut.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Arts: Dual Edge Boost",
+                    "shortDesc": "Arts: Dual Edge Final Damage: +300%",
+                    "icons": ["/class-icons/flora/khali/arts-dual-edge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Void Rush Boost",
+                    "shortDesc": "Void Rush Final Damage: +120%",
+                    "icons": ["/class-icons/flora/khali/void-rush.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Arts: Triple Bash Boost",
+                    "shortDesc": "Arts: Triple Bash Final Damage: +180%",
+                    "icons": ["/class-icons/flora/khali/arts-triple-bash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Resonate/Deceiving Blade Boost",
+                    "shortDesc": "Resonate/Deceiving Blade Final Damage: +120%",
+                    "icons": ["/class-icons/flora/khali/resonate.png", "/class-icons/flora/khali/deceiving-blade.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hex:: Chakram Sweep/Split/Fury Boost",
+                    "shortDesc": "Hex: Chakram Sweep/Split/Fury Final Damage: +120%",
+                    "icons": ["/class-icons/flora/khali/hex-chakram-sweep.png", "/class-icons/flora/khali/hex-chakram-split.png", "/class-icons/flora/khali/hex-chakram-fury.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Arts: Flurry/Crescentum Boost",
+                    "shortDesc": "Arts: Flurry/Crescentum Final Damage: +120%",
+                    "icons": ["/class-icons/flora/khali/arts-flurry.png", "/class-icons/flora/khali/arts-crescentum.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Void Blitz Boost",
+                    "shortDesc": "Void Blitz Final Damage: +120%",
+                    "icons": ["/class-icons/flora/khali/void-blitz.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Death Blossom Boost",
+                    "shortDesc": "Death Blossom Final Damage: +120%",
+                    "icons": ["/class-icons/flora/khali/death-blossom.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/khali/hexa-flurry-crescentum.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/khali/arts-flurry.png} tip={Arts: Flurry / Crescentum (4th Job / 2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Arts: Flurry",
+                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 8, Damage: 585%, Number of Attacks: 7\\nReduces cooldown of Void Rush/Void Blitz by 1 sec when the attack hits.",
+                    "icons": ["/class-icons/flora/khali/hexa-arts-flurry.png", "/class-icons/flora/khali/arts-flurry.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXNyOWFwZ3RpdTdwODBucmg1b2RuMTVnMG85cm42MW16NGpkeDNkNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b8dbOqIBLERRmMvfn9/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Arts: Crescentum",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 1040%, Number of Attacks: 4\\nVoid Rush/Void Blitz Cooldown: -5 sec.\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/flora/khali/hexa-arts-crescentum.png", "/class-icons/flora/khali/arts-crescentum.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWtxazRjcGVvdjB0cjllNmtsdmlndGFrMDdtb2VnazNuNmF0OXBvMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EEqZV1PznzgjKYKrA6/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/khali/hexa-void-chakram-split.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> <tt src={/class-icons/flora/khali/void-blitz.png} tip={Void Blitz (4th Job)}> <tt src={/class-icons/flora/khali/hex-chakram-sweep.png} tip={Hex: Chakram Sweep / Chakram Split / Chakram Fury (3rd Job / 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Void Rush",
+                    "shortDesc": "MP Cost: 62, Move quickly in the direction pressed, Max Enemies Hit: 7, Damage: 320%, Number of Attacks: 4\\nNormal Enemy Damage: +635% points\\nDark Sight Duration: 2 sec\\nMax Consecutive Uses: 3\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/flora/khali/hexa-void-rush.png", "/class-icons/flora/khali/void-rush.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzlndjhnczc4dmhjN2FscHpzaGR4ajZldGZib2Jib2g5ajYxZzIyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jVEjtOYWst9H5g34zn/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Void Blitz",
+                    "shortDesc": "MP Cost: 57, Max Enemies Hit: 6, Damage: 399%, Number of Attacks: 5, Afterimage Activations: 4\\nDark Sight Duration: 2 sec\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/flora/khali/hexa-void-blitz.png", "/class-icons/flora/khali/void-blitz.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3BndWhpY2I3eWZjNXJ0dTZjaGcyMW8wNGVuYWN2b2Rqdjd6emlocyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9UiT0i1GUk7tErIc1c/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Hex: Chakram Split",
+                    "shortDesc": "MP Cost: 87, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 5, Large Chakrams Thrown: 4\\nEach chakram hits the target up to 4 times\\nCooldown: 14 sec",
+                    "icons": ["/class-icons/flora/khali/hexa-hex-chakram-split.png", "/class-icons/flora/khali/hex-chakram-split.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDhhbnZqNGJ1aW1memltbTZxMXZ6OXdhNmJ1OHFlY21oczlnMHIwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NDCsb8tUDiS2YsqlT6/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/khali/hexa-sweep-fury-death-blossom.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/khali/hex-chakram-sweep.png} tip={Hex: Chakram Sweep / Chakram Split / Chakram Fury (3rd Job / 4th Job)}> <tt src={/class-icons/flora/khali/death-blossom.png} tip={Death Blossom (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Hex: Chakram Sweep",
+                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 8, Large Chakram Damage: 1326%, Number of Attacks: 7\\nCooldown: 6 sec.",
+                    "icons": ["/class-icons/flora/khali/hexa-hex-chakram-sweep.png", "/class-icons/flora/khali/hex-chakram-sweep.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzQ1eWRibHpoczB2eXkyMGt3emFzNDFjMXVqNzZ2aTJrZ2VlYzQyMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e1QnsCZqp4pftZ1vU5/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Hex: Chakram Fury",
+                    "shortDesc": "MP Cost: 81, Damage: 1435%, Number of Attacks: 15, Max Enemies Hit: 10, Chase Cuts: 2\\nCooldown: 12 sec.",
+                    "icons": ["/class-icons/flora/khali/hexa-hex-chakram-fury.png", "/class-icons/flora/khali/hex-chakram-fury.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG8wYmVreTNqYmN0NXQ2ZW80ajB6bXdzbmI3aGI3bDFxMjh3c3AxOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g2tALEzUxu6gE5nWk2/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Death Blossom",
+                    "shortDesc": "MP Cost: 330, Rose Duration: 30 sec., Max Enemies Hit: 10, Damage: 1010%, Number of Attacks: 6\\n100% chance to create summoned chakri in the location of the attack\\nIf the total target attacked is lower than the max, additional summoned chakri as much as the difference are created in random locations.\\nUp to 2 additional summoned chakri are created. It cannot be created near locations that already have a chakri.\\nCooldown: 60 sec.\\nHold the down arrow key with the skill after summoning to resummon",
+                    "icons": ["/class-icons/flora/khali/hexa-death-blossom.png", "/class-icons/flora/khali/death-blossom.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZml3cmJ4NXQ0ZzczeHJ5amdoaW94b2duZDFhenN1N2x3aW93MTk2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w69LRpjl648XSK228e/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/flora/khali/hexa-resonate-deceiving-blade.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/flora/khali/resonate.png} tip={Resonate / Deceiving Blade (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Resonate",
+                    "shortDesc": "Hex-type skills manifest chakri summoned within a certain range with Resonate.\\nManifested Resonate deals 390% damage 3 times, then disappears after bouncing up to 4 times.\\nAdditional Resonate Created When Manifesting Chakri 15 times: 10 Repeatedly hitting single target reduces Final Damage by 45%.",
+                    "icons": ["/class-icons/flora/khali/hexa-resonate.png", "/class-icons/flora/khali/resonate.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG5xcjZqMGNkdm1jazl1ajNucHR2bzh6Y3A1dmt3ZXR3a2RxbDF4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4GyBBZHjknHzDjBbzB/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Deceiving Blade",
+                    "shortDesc": "When Void-type skills hit, Buff Duration: 20 sec.\\nWhen direct attacks hit while buff is active, Extra Hit Damage: 759%, Number of Extra Attacks: 2\\nExtra Hit Cooldown: 0.5 sec.",
+                    "icons": ["/class-icons/flora/khali/hexa-deceiving-blade.png", "/class-icons/flora/khali/deceiving-blade.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3QwZWtmaDlhMm12MmxkeWRpbG02OHNmaTRoZ3d1bmMyc2RmcnFwaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NKltY9XPYzdMdfsXkC/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Hex: Sandstorm",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nHold down the key for max 3 sec to create a chakram storm, Max Enemies Hit: 15, Damage: 840%, Number of Attacks: 15\\nWhen the key is released - Chase Cuts Created: 13, Max Enemies Hit: 15, Damage: 900%, Number of Attacks: 10. Then a powerful sandstorm is created, Max Enemies Hit: 15, Damage: 960%, Number of Attacks: 14, Explosions: 34\\nFinal Damage: +15% for 30 sec\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/flora/khali/hex-sandstorm.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRzMjZsMTRjbDB2bmtrdWxteWlzMml4ZGdxd2VmM3JyeW12eXM0MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mp2Yk8aW6oSQtccV6C/giphy.gif"],
+                    "type": "Key-down Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Wake the Void",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nAwakens the void to unleash 15 rapid attacks, dealing 5800% damage to up to 15 enemies 9 times\\nAfterwards, manifests 21 voidbound chakri that deal 6185% damage 13 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/flora/khali/wake-the-void.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTNodzhhZzZuN25jZGp5cDU5eWxxMTVwNnZ4NXk4NmdjM2Vnbmh6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wiZlmJZEAd1QZRxWkX/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Hex: Pandemonium Boost",
+                    "shortDesc": "Hex: Pandemonium Final Damage: +60%",
+                    "icons": ["/class-icons/flora/khali/hex-pandemonium.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Void Burst Boost",
+                    "shortDesc": "Void Burst Final Damage: +60%",
+                    "icons": ["/class-icons/flora/khali/void-burst.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Arts: Astra Boost",
+                    "shortDesc": "Arts: Astra Final Damage: +60%",
+                    "icons": ["/class-icons/flora/khali/arts-astra.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Resonate: Ultimatum Boost",
+                    "shortDesc": "Resonate: Ultimatum Final Damage: +60%",
+                    "icons": ["/class-icons/flora/khali/resonate-ultimatum.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Void Rush - 1st - 4th Job",
+                "icons": ["/class-icons/flora/khali/void-rush.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hnMjV2ODU2MXppanpyc3FpbzMxanphaWV1bXF6YnBzYmNmNTN1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZVXF8JzJbpBhM3Uw7h/giphy.gif"]
+            },
+            {
+                "name": "Arts: Flurry - 4th Job",
+                "icons": ["/class-icons/flora/khali/arts-flurry.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXhyYzJlem5tODk2czEwMzJpcWFsZWZ0bWF2azF5YWswdjF6MjR3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xqGMJrV7KEvwPMd82d/giphy.gif"]
+            },
+            {
+                "name": "Hex: Chakram Split - 4th Job",
+                "icons": ["/class-icons/flora/khali/hex-chakram-split.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGxyN2hwc3JicjZnYWRtN2Qwd214bWRtc2lzeGcyczA3YmQxZ3cxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JWlplvOXAbFm9ZWQox/giphy.gif"]
+            },
+            {
+                "name": "Hex: Chakram Fury - 4th Job",
+                "icons": ["/class-icons/flora/khali/hex-chakram-fury.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJucm90cDlqZHp5cnJzbm1teHFlM2I2cWJvbTkyaXByMzlrMjU5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v9nLbzOjAKPNLYefFo/giphy.gif"]
+            },
+            {
+                "name": "Void Blitz - 4th Job",
+                "icons": ["/class-icons/flora/khali/void-blitz.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2VtdWMyaTltZjB0aXRwaGdlODR0aTlxYjA4dmQ1Z2RlOGpmM2FuMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q9tzGoBGFOMQ8ZqyO7/giphy.gif"]
+            },
+            {
+                "name": "Hex: Pandemonium - 5th Job",
+                "icons": ["/class-icons/flora/khali/hex-pandemonium.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYml3M2JvbzB2bmp1eWdiZ28wOGFucGRudmQyMzNpM2dia2RqaGRjbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S8WcD96Yn1KINRKtIq/giphy.gif"]
+            },
+            {
+                "name": "Void Burst - 5th Job",
+                "icons": ["/class-icons/flora/khali/void-burst.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGR0bngwemxpbHMwMDRuZjI2OGMxbmYxZjB4Y3IwcTd1cWMwbzQ0bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iYjRL69iDpNFhEuJwM/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Hex: Sandstorm - 6th Job",
+                "icons": ["/class-icons/flora/khali/hex-sandstorm.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRzMjZsMTRjbDB2bmtrdWxteWlzMml4ZGdxd2VmM3JyeW12eXM0MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mp2Yk8aW6oSQtccV6C/giphy.gif"]
+            },
+            {
+                "name": "Wake the Void - 6th Job",
+                "icons": ["/class-icons/flora/khali/wake-the-void.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTNodzhhZzZuN25jZGp5cDU5eWxxMTVwNnZ4NXk4NmdjM2Vnbmh6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wiZlmJZEAd1QZRxWkX/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Khali is LUK thief class part of the Flora class group. Khali utilize Chakrams as their primary weapons. For their secondary weapon, Khali can equip Hex Seekers"
+}

@@ -1,0 +1,1230 @@
+{
+    "class": "Night Walker",
+    "content": {
+        "classGroup": "Cygnus Knights",
+        "jobGroup": "Thief",
+        "mainStat": "LUK",
+        "secondaryStat": "DEX",
+        "legion": "Grants flat LUK",
+        "legionValue": "10/20/40/80/100",
+        "equipment": [
+            {"weapon": ["claw"]},
+            {"secondary": ["jewel"]},
+            {"ammo": "throwingStar"}
+        ],
+        "innerAbility": [
+            {
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Attack +21 / Buff Duration +38%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.75x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 6}> <bg src={/class-icons/cygnus-knights/night-walker/agile-throwing.png} tip={Agile Throwing (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/cygnus-knights/night-walker/throwing-expert.png} tip={Throwing Expert (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "LUK",
+                "stat": "+80 +1 per 2 levels & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/agile-throwing.png} tip={Agile Throwing (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+60}> <bg src={/class-icons/cygnus-knights/elemental-harmony.png} tip={Elemental Harmony (Beginner Skill)} val={+1 per 2 levels}> <bg src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+14% +125(215)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+55}> <bg src={/class-icons/cygnus-knights/night-walker/spirit-projection.png} tip={Spirit Projection (3rd Job)} val={+10}> <bg src={/class-icons/cygnus-knights/night-walker/throwing-expert.png} tip={Throwing Expert (4th Job)} val={+30}> <bg src={/class-icons/cygnus-knights/night-walker/dark-blessing.png} tip={Dark Blessing (4th Job)} val={+30}> <bg type={opt} src={/class-icons/cygnus-knights/night-walker/vitality-siphon-reinforce.png} tip={Vitality Siphon - Reinforce (Hyper Skill)} val={+60}> <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+30}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+40%(100%)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/cygnus-knights/night-walker/critical-throw.png} tip={Critical Throw (2nd Job)} val={+35%}> <bg type={temp} src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)} val={+100%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%",
+                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/critical-throw.png} tip={Critical Throw (2nd Job)} val={+10%}> <bg src={/class-icons/cygnus-knights/night-walker/alchemic-adrenaline.png} tip={Alchemic Adrenaline (3rd Job)} val={+10%}> <bg src={/class-icons/cygnus-knights/night-walker/throwing-expert.png} tip={Throwing Expert (4th Job)} val={+10%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+30%(112%)",
+                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/throwing-mastery.png} tip={Throwing Mastery (2nd Job)} val={+30%}> <bg type={temp} src={/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+54.56%(129.99%)",
+                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/shadow-momentum.png} tip={Shadow Momentum (3rd Job)} val={+15%}> × <bg src={/class-icons/cygnus-knights/night-walker/dark-blessing.png} tip={Dark Blessing (4th Job)} val={+12%}> × <bg src={/class-icons/cygnus-knights/night-walker/shadow-bite.png} tip={Shadow Bite (5th Job)} val={+20%}> × <bg type={temp} src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)} val={+20%}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+44.75%",
+                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/dark-blessing.png} tip={Dark Blessing (4th Job)} val={+15%}> × <bg type={debuff} src={/class-icons/cygnus-knights/night-walker/adaptive-darkness-iii.png} tip={Adaptive Darkness III (4th Job)} val={+7% per stack} val={(Max. +35%)}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)} dur={[180s]}>",
+            "toggles": "[ <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> / <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> ] <tt src={/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tip={Darkness Ascending (3rd Job)}>",
+            "summons": "<tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)} dur={[7s/60s](60s/0s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-slide.png} tip={Shadow Slide (5th Job)} dur={[55s](60s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[15s / 140 Attacks](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tip={Shadow Illusion (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/cygnus-knights/night-walker/shadow-stitch.png} tip={Shadow Stitch (4th Job)} dur={[10-12s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/silence.png} tip={Silence (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)} dur={[200s](Special)}> <tt src={/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tip={Darkness Ascending (3rd Job)} dur={[4s](1800s cd revive)}> <tt src={/class-icons/cygnus-knights/night-walker/dark-evasion.png} tip={Dark Evasion (4th Job)} dur={[3s](75s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)} dur={(120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/silence.png} tip={Silence (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/cygnus-knights/night-walker/vitality-siphon.png} tip={Vitality Siphon (4th Job)} dur={[15s](10% HP | Barrier)}> <tt src={/class-icons/cygnus-knights/night-walker/rapid-throw.png} tip={Rapid Throw (5th Job)} dur={[Up to 2.4s](-50% | 120s cd)}> <tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 80000055,
+            "offline": true,
+            "name": "Cygnus Blessing",
+            "maxLevel": 15,
+            "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
+            "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level"]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight}> -> <tt src={/class-icons/cygnus-knights/night-walker/haste.png} tip={Haste}> -> <tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental}> -> <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat}> -> <tt src={/class-icons/cygnus-knights/night-walker/lucky-seven.png} tip={Lucky Seven}> -> <tt src={/class-icons/cygnus-knights/night-walker/soundless-rush.png} tip={Soundless Rush}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/cygnus-knights/night-walker/throwing-mastery.png} tip={Throwing Mastery}> -> <tt src={/class-icons/cygnus-knights/night-walker/agile-throwing.png} tip={Agile Throwing}> -> <tt src={/class-icons/cygnus-knights/night-walker/adaptive-darkness.png} tip={Adaptive Darkness}> -> <tt src={/class-icons/cygnus-knights/night-walker/critical-throw.png} tip={Critical Throw}> -> <tt src={/class-icons/cygnus-knights/night-walker/bat-affinity.png} tip={Bat Affinity}> -> <tt src={/class-icons/cygnus-knights/night-walker/shadow-spark.png} tip={Shadow Spark}> -> <tt src={/class-icons/cygnus-knights/night-walker/triple-throw.png} tip={Triple Throw}>"],
+                ["3rd Job", "<tt src={/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tip={Darkness Ascending}> -> <tt src={/class-icons/cygnus-knights/night-walker/spirit-projection.png} tip={Spirit Projection}> -> <tt src={/class-icons/cygnus-knights/night-walker/alchemic-adrenaline.png} tip={Alchemic Adrenaline}> -> <tt src={/class-icons/cygnus-knights/night-walker/adaptive-darkness-ii.png} tip={Adaptive Darkness II}> -> <tt src={/class-icons/common/enveloping-darkness.png} tip={Enveloping Darkness}> -> <tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant}> -> <tt src={/class-icons/cygnus-knights/night-walker/bat-affinity-ii.png} tip={Bat Affinity II}> -> <tt src={/class-icons/cygnus-knights/night-walker/shadow-momentum.png} tip={Shadow Momentum}> -> <tt src={/class-icons/cygnus-knights/night-walker/quad-star.png} tip={Quad Star}>"],
+                ["4th Job", "<tt src={/class-icons/cygnus-knights/night-walker/vitality-siphon.png} tip={Vitality Siphon}> -> <tt src={/class-icons/cygnus-knights/night-walker/adaptive-darkness-iii.png} tip={Adaptive Darkness III}> -> <tt src={/class-icons/cygnus-knights/night-walker/throwing-expert.png} tip={Throwing Expert}> -> <tt src={/class-icons/cygnus-knights/night-walker/bat-affinity-iii.png} tip={Bat Affinity III}> -> <tt src={/class-icons/cygnus-knights/night-walker/shadow-slip.png} tip={Shadow Slip}> -> <tt src={/class-icons/common/call-of-cygnus.png} tip={Call of Cygnus}> -> <tt src={/class-icons/cygnus-knights/night-walker/dark-blessing.png} tip={Dark Blessing}> -> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat}> -> <tt src={/class-icons/cygnus-knights/night-walker/shadow-stitch.png} tip={Shadow Stitch}> -> <tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen}> -> <tt src={/class-icons/cygnus-knights/night-walker/quintuple-star.png} tip={Quintuple Star}> -> <tt src={/class-icons/cygnus-knights/night-walker/dark-evasion.png} tip={Dark Evasion}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/cygnus-knights/night-walker/quintuple-star-reinforce.png} tip={Quintuple Star - Reinforce}> <tt src={/class-icons/cygnus-knights/night-walker/quintuple-star-boss-rush.png} tip={Quintuple Star - Boss Rush}> Quintuple Star - Reinforce and Boss Rush_<tt src={/class-icons/cygnus-knights/night-walker/dark-omen-cooldown-cutter.png} tip={Dark Omen - Cooldown Cutter}> <tt src={/class-icons/cygnus-knights/night-walker/dark-omen-reinforce.png} tip={Dark Omen - Reinforce}> Dark Omen - Cooldown Cutter and Reinforce_<tt src={/class-icons/cygnus-knights/night-walker/vitality-siphon-reinforce.png} tip={Vitality Siphon - Reinforce}> Vitality Siphon - Reinforce_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Skills To Boost", "<tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat and Ravenous Bat (1st Job / 4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/quintuple-star.png} tip={Quintuple Star (4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good",
+                    "3 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
+                ]
+            },
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={/class-icons/cygnus-knights/night-walker/quintuple-star.png} tip={Quintuple Star (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-stitch.png} tip={Shadow Stitch (4th Job)}>",
+                "<tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)}>",
+                "<tt src={/class-icons/cygnus-knights/night-walker/lucky-seven.png} tip={Lucky Seven (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/soundless-rush.png} tip={Soundless Rush (1st Job)}>",
+                "<tt src={/class-icons/cygnus-knights/night-walker/triple-throw.png} tip={Triple Throw (2nd Job)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-spark.png} tip={Shadow Spark (2nd Job)}> <tt src={/class-icons/cygnus-knights/night-walker/quad-star.png} tip={Quad Star (3rd Job)}>"
+            ]
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Night_Walker"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%82%98%EC%9D%B4%ED%8A%B8%EC%9B%8C%EC%BB%A4"},
+            {"title": "Class Discord", "link": "https://discord.gg/FR55ADj"}
+        ],
+        "specialThanks": "Special thanks to Dormi and the members of the Night Walker Discord for their help in making this overview!",
+        "discord": "https://discord.gg/FR55ADj",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Night Walker Discord"]
+        ],
+        "infographics": [
+            {
+                "src": "night-walker/night-walker-overview.png",
+                "title": "Overview",
+                "credit": "Dormí",
+                "date": "2026-09-04"
+            },
+            {
+                "src": "night-walker/night-walker-sequence.png",
+                "title": "Sequence",
+                "credit": "Night Walker Discord",
+                "date": "2026-09-04"
+            },
+            {
+                "src": "night-walker/night-walker-6th-job-fragments.png",
+                "title": "6th Job (Fragments Efficient)",
+                "credit": "Night Walker Discord",
+                "date": "2026-09-04"
+            },
+            {
+                "src": "night-walker/night-walker-6th-job-energy.png",
+                "title": "6th Job (Energy Efficient)",
+                "credit": "Night Walker Discord",
+                "date": "2026-09-04"
+            }
+        ],
+        "extraContent": {
+            "title": "Dark Attribute & Throwing Star Skills + Dark Sight",
+            "content": [
+                "All of Night Walker's attacks are dark-attribute including <tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tip={Shadow Illusion (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)}> clones, <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> bats, and <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)}> shadow spears. In 5th Job, successful dark-attribute attacks allows <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)}> Shadow Spear to form a spear that strikes enemies",
+                "[Throwing Star Skills]",
+                "Throwing Star skills refer to skills that consume Throwing Stars to use. The skills below have interaction with Throwing Star skills:",
+                "<bp_<tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> Dark Elemental (1st Job)_<tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> Shadow Bat (1st Job)_<tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)}> Dark Servant (3rd Job)_<tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> Ravenous Bat (4th Job)_<tt src={/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tip={Shadow Illusion (Hyper Skill)}> Shadow Illusion (Hyper Skill)_<tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)}> Greater Dark Servant (5th Job)_>",
+                "[Throw-type Skills]",
+                "There are also skills listed as 'Throw' skills. Throw-type skills have two parts, the initial attack and the final attack - both attacks count towards successful Throwing Star attacks. Only the final attack is dark-attribute for Throw-type skills (except for <tt src={/class-icons/cygnus-knights/night-walker/rapid-throw.png} tip={Rapid Throw (5th Job)}> where both attacks are dark-attribute). These skills are also Throwing Star skills however have unique interactions with the skills below:",
+                "<bp_<tt src={/class-icons/cygnus-knights/night-walker/shadow-jump.png} tip={Shadow Jump (1st Job)}> Shadow Jump (1st Job)_<tt src={/class-icons/cygnus-knights/night-walker/shadow-dodge.png} tip={Shadow Dodge (1st Job)}> Shadow Dodge (1st Job)_<tt src={/class-icons/cygnus-knights/night-walker/shadow-momentum.png} tip={Shadow Momentum (3rd Job)}> Shadow Momentum (3rd Job)_>",
+                "Below are a list of all your Throw-type skills:",
+                "<bp_<tt src={/class-icons/cygnus-knights/night-walker/triple-throw.png} tip={Triple Throw (2nd Job)}> Triple Throw (2nd Job)_<tt src={/class-icons/cygnus-knights/night-walker/quad-star.png} tip={Quad Star (3rd Job)}> Quad Star (3rd Job)_<tt src={/class-icons/cygnus-knights/night-walker/quintuple-star.png} tip={Quintuple Star (4th Job)}> Quintuple Star (4th Job)_<tt src={/class-icons/cygnus-knights/night-walker/rapid-throw.png} tip={Rapid Throw (5th Job)}> Rapid Throw (5th Job)_>",
+                "[Dark Sight]",
+                "<em text={Credits to the Night Walker Discord for the list of attacks avoidable with Dark Sight. For an actively maintained version, please check out the Night Walker Discord}>",
+                "In 1st Job, <tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)}> Dark Sight is unlocked that allows you to dodge certain attacks. Below is a list of avoidable attacks that have been tested:",
+                " dsTable "
+            ]
+        }
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "Cygnus Blessing",
+                    "maxLevel": 15,
+                    "shortDesc": "Attack Power and Magic ATT: +55, Status Resistance: +22, Elemental Resistance: +22%",
+                    "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
+                    "name": "Elemental Slash",
+                    "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-slash.png"],
+                    "animations": ["https://media.giphy.com/media/Tc2NCOpVzvLlaS2bPI/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Strike forward damaging multiple enemies"
+                },
+                {
+                    "name": "Imperial Recall",
+                    "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/imperial-recall.png"],
+                    "animations": ["https://media.giphy.com/media/HYCF0wQoMuSsia6wgW/giphy.gif"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Noble Mind",
+                    "shortDesc": "Increases Empress's Blessing max level by 6",
+                    "maxLevel": 6,
+                    "icons": ["/class-icons/cygnus-knights/noble-mind.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing quests from Neinheart after Lv. 125"
+                    ]
+                },
+                {
+                    "name": "Elemental Harmony",
+                    "shortDesc": "Luck increases 1 for every 2 levels the character gains",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-harmony.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elemental Expert",
+                    "shortDesc": "Attack Power and Magic ATT: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-expert.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Elemental Shift",
+                    "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/elemental-shift.png"],
+                    "animations": ["https://media.giphy.com/media/nEi1ugmCsMMk1YN2XQ/giphy.gif"],
+                    "type": "Passive",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be activated by pressing jump twice",
+                        "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump"
+                    ]
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "animations": ["https://media.giphy.com/media/a8b9EeW5rdLAo6JuIm/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [{
+                        "name": "Lucky Seven",
+                        "shortDesc": "MP Cost: 14, Throwing Stars Cost: 2, Max Enemies Hit: 5, Damage: 110%, Number of Attacks: 3",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/lucky-seven.png"],
+                        "animations": ["https://media.giphy.com/media/Hk32J92yl9Uu7jYG9r/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throw a barrage of stars forward"
+                    },
+                    {
+                        "name": "Dark Elemental",
+                        "shortDesc": "Dark Elemental Channeling\\n[Passive Effect: Hit enemies with Throwing Stars Skill for a 20% chance to create a Mark of Darkness that stacks 2 times. Marked enemies will take 80% damage over time per stack every second for 15 seconds, and if Night Walkers attack these enemies, they'll ignore 4% defense per stacked Mark of Darkness.]",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/dark-elemental.png"],
+                        "animations": ["https://media.giphy.com/media/MhAofYn6p8jw4Xa5QJ/giphy.gif", "https://media.giphy.com/media/kwP8dDCLhvo8BbTP09/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "Successful Throwing Star attacks have a chance to apply a stack of [Mark of Darkness]",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation",
+                            "[Mark of Darkness]: Enemy takes increased %Ignore DEF and is dealt damage over time"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Bat",
+                        "shortDesc": "Summons a Shadow Bat for 60 sec for every 3 times that you hit with a Throwing Star skill. Max number of bats: 2.\\nWhen using a Throwing Star skill, there is a 50% chance for it to fly towards the target and inflict 150% damage, then bounce off 3 enemies and inflicts the same amount of damage before disappearing. Damage Against Normal Monsters: +35%.\\nRecovers 1% of Max HP on first damage.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/shadow-bat.png"],
+                        "animations": ["https://media.giphy.com/media/KOfoxGSZabSM6nueFZ/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While toggled, every 3 successful Throwing Star attacks, a Shadow Bat is summoned that has a chance to attack nearby enemies upon successful Throwing Star attacks",
+                        "details": [
+                            "Enemies marked with <tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> have a guaranteed chance to trigger the bats to attack<bp_Additional bats will be created based on the number of stacks_>",
+                            "Can not be used at the same time as <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}>",
+                            "Bats can bounce off to damage multiple enemies",
+                            "Initial hit will restore some %Max HP",
+                            "Deals increased %Damage to regular monsters",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Jump",
+                        "shortDesc": "MP Cost: 5. Allows you to jump a greater distance.\\nUsing the Jump Key during throwing skills will cause you to enter Dark Sight state for 2 sec.\\nIf you dodge an attack that deals damage proportional to Max HP while the triggered Dark Sight is active, its remaining duration will be reduced by 20% of the full duration.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/shadow-jump.png", "/class-icons/cygnus-knights/elemental-shift.png"],
+                        "animations": ["https://media.giphy.com/media/nEi1ugmCsMMk1YN2XQ/giphy.gif", "https://media.giphy.com/media/dRPRoC9ZJG4pI36KSv/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Double jump skill, can be used twice in a row",
+                        "details": [
+                            "Can be assigned a Key Slot using <tt src={/class-icons/cygnus-knights/night-walker/shadow-jump.png} tip={Shadow Jump (1st Job)}> or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>",
+                            "If the skill is used during a Throw-type attack, the final attack will be cancelled and you will briefly enter <tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)}><bp_While in the triggered <tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)}>, if you dodge an attack that deals %Max HP, the duration is reduced slightly_>",
+                            "Right-clicking the skill will toggle a function ON/OFF that allows you to jump in place unless you press the Left / Right Arrow Key while jumping"
+                        ]
+                    },
+                    {
+                        "name": "Dark Sight",
+                        "shortDesc": "MP Cost: 20, hides in the shadows for 200 seconds.\\nWhen Dark Sight is deactivated, cooldown increased per attack dodged: 3 seconds. Stacks up to 5 times.",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/dark-sight.png"],
+                        "animations": ["https://media.giphy.com/media/K0rcZzntFRJXkwRIfo/giphy.gif"],
+                        "type": "Active / Utility",
+                        "desc": "While active, you cannot attack or be hit by enemies",
+                        "details": [
+                            "While active, pressing the Skill Key again or using an attack will cancel Dark Sight",
+                            "You can use <tt src={/class-icons/cygnus-knights/night-walker/shadow-jump.png} tip={Shadow Jump (1st Job)}> while in Dark Sight",
+                            "Has a cooldown (3 secs, stacks up to 5 times) per attack dodged"
+                        ]
+                    },
+                    {
+                        "name": "Soundless Rush",
+                        "shortDesc": "MP Cost: 9, Max Enemies Hit: 6, Damage: 75%, Number of Attacks: 2 while moving",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/soundless-rush.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3o5NWhvODh4eHk5NDR4N2U1MXh5OHlnYXR0ejQ1c2hlb2VzbzF4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q3A84faPooSMAARQpt/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies"
+                    },
+                    {
+                        "name": "Shadow Dodge",
+                        "shortDesc": "MP Cost: 7. Allows you to move a certain distance backwards.\\nUsing during throwing skills will cause you to enter Dark Sight state for 2 sec.\\nIf you dodge an attack that deals damage proportional to Max HP while the triggered Dark Sight is active, its remaining duration will be reduced by 20% of the full duration.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/shadow-dodge.png"],
+                        "animations": ["https://media.giphy.com/media/v9G9yb08CbobdWQ4jK/giphy.gif"],
+                        "type": "Active / Utility",
+                        "desc": "Dash backwards",
+                        "details": [
+                            "Can be used while casting other skills and while in the air",
+                            "If the skill is used during a Throw-type attack, the final attack will be cancelled and you will briefly enter <tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)}><bp_While in the triggered <tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)}>, if you dodge an attack that deals %Max HP, the duration is reduced slightly_>",
+                            "While dashing, you will not be knocked back at all (Super Knockback Resistance)"
+                        ]
+                    },
+                    {
+                        "name": "Haste",
+                        "shortDesc": "Speed: +40, Jump: +20, Max Speed: +20, Avoidability: +15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/haste.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [{
+                        "name": "Triple Throw",
+                        "shortDesc": "MP Cost: 20, Throwing Stars Cost: 3, Damage: 210% 2 times, Damage: 420% 1 time",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/triple-throw.png"],
+                        "animations": ["https://media.giphy.com/media/80EkgWYZydjQo0gff8/giphy.gif"],
+                        "type": "Throw Attack",
+                        "desc": "Throw 3 stars at a single enemy",
+                        "details": [
+                            "The last star will deal increased damage",
+                            "Prioritizes bosses with the highest HP first"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Spark",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 6, Damage: 200%, Number of Attacks: 3. When shuriken explodes, Max Enemies Hit: 6, Damage: 200%, Number of Attacks: 3",
+                        "maxLevel": 15,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/shadow-spark.png"],
+                        "animations": ["https://media.giphy.com/media/18EDyg4urzqoegfFm8/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Throw a star that pierces through enemies before exploding"
+                    },
+                    {
+                        "name": "Throwing Mastery",
+                        "shortDesc": "Claw Mastery: +50%, Damage: +30%, Throwing Stars: +200",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/throwing-mastery.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Additionally increases the max number of charges each Throwing Star slot can hold"
+                        ]
+                    },
+                    {
+                        "name": "Agile Throwing",
+                        "shortDesc": "Attack Speed: +2, Luck: +20",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/agile-throwing.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Bat Affinity",
+                        "shortDesc": "Shadow Bat's Attack Chance: 20%, Max Summon Limit: 1, Damage: 120% points, Max Enemies Hit: 1",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/bat-affinity.png", "/class-icons/cygnus-knights/night-walker/shadow-bat.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance, number of bounces, and %Damage by a flat amount",
+                            "Increases the maximum number of bats up to 3"
+                        ]
+                    },
+                    {
+                        "name": "Adaptive Darkness",
+                        "shortDesc": "Chance to place Mark of Darkness: 5%, Maximum Stacking Limit: 1, DoT Per Stack: 40%, Defense Rate Ignored Per Mark: +1%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/adaptive-darkness.png", "/class-icons/cygnus-knights/night-walker/dark-elemental.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to apply debuff",
+                            "Increases max stacks of debuff up to 3",
+                            "Increases %Ignore DEF provided per stack and damage over time dealt per stack"
+                        ]
+                    },
+                    {
+                        "name": "Critical Throw",
+                        "shortDesc": "Critical Rate: +35%, Critical Damage: +10%",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/critical-throw.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Permanently increases LUK by 60",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [{
+                        "name": "Quad Star",
+                        "shortDesc": "MP Cost: 41, Throwing Stars Cost: 4, Damage: 220% 3 times, Damage: 660% 1 time.\\n[Passive Effect: Shadow Spark Damage: +100% points]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/quad-star.png"],
+                        "animations": ["https://media.giphy.com/media/kFszDGCBNTOIROo4sU/giphy.gif"],
+                        "type": "Throw Attack",
+                        "desc": "Throw 4 stars at a single enemy",
+                        "details": [
+                            "[Passive]: Permanently increases %Damage of <tt src={/class-icons/cygnus-knights/night-walker/shadow-spark.png} tip={Shadow Spark (2nd Job)}> by a flat amount",
+                            "The last star will deal increased damage",
+                            "Prioritizes bosses with the highest HP first"
+                        ]
+                    },
+                    {
+                        "name": "Dark Servant",
+                        "shortDesc": "MP Cost: 65, Summon Duration: 180 sec. Your shadow attacks, dealing 70% of the Final Damage of your throwing star skills.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/dark-servant.png"],
+                        "animations": ["https://media.giphy.com/media/HdXDBfYtq573u3DOAs/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Summon a clone that follows your movements and copies your attacks after a short delay",
+                        "details": [
+                            "Clone's attacks are all dark-attribute and can activate the following skills with reduced %Final Damage: <tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}>",
+                            "Attacks are limited to Throwing Star skills and Movement skills",
+                            "Unaffected by Damage Reflect"
+                        ]
+                    },
+                    {
+                        "name": "Darkness Ascending",
+                        "shortDesc": "MP Cost: 150. When hit by an attack that would prove fatal, recover 50% of Max HP per 3 sec. If Shadow Bats are currently summoned, they are consumed to recover 10% extra HP per bat.\\nInvincible for 2 sec while recovering, and again at the end of skill.\\nUpon consuming buff - Cooldown: 1800 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/darkness-ascending.png"],
+                        "animations": ["https://media.giphy.com/media/ACg6ZPbTYa7isU7mrx/giphy.gif"],
+                        "type": "Toggle Buff Revive",
+                        "desc": "While toggled, when hit by a fatal attack, you will not die and instead continuously heal back a percentage of your HP",
+                        "details": [
+                            "If there are <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> bats summoned, they are consumed to recover extra HP",
+                            "Briefly invincible during recovery and at the end of the skill",
+                            "Unaffected by cooldown resets"
+                        ]
+                    },
+                    {
+                        "name": "Shadow Momentum",
+                        "shortDesc": "Gives the attack inertia to use thrrowing skills even faster.\\nPermanently Final Damage by 15%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/shadow-momentum.png"],
+                        "animations": ["https://media.giphy.com/media/UreIycSmwA5jP4JAtT/giphy.gif", "https://media.giphy.com/media/uDllqqTciS1eTJTfUj/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Increases %Final Damage and the speed that Throw-type skills can be used and cancelled",
+                        "details": [
+                            "Right-clicking the skill will toggle the visual effect ON/OFF",
+                            "[Note]: Top animation is without Shadow Momentum"
+                        ]
+                    },
+                    {
+                        "name": "Bat Affinity II",
+                        "shortDesc": "Shadow Bat's Max Summon Limit: 1, Damage: 150% points, Number of Bounces: +1\\nSummons enhanced Shadow Bat for every 5 Shadow Bats summoned.\\nEnhanced Shadow Bat: 100% chance to fly towards target when using a Throwing Star skill to inflict 420% damage, then bounce off 6 enemies and inflict the same amount of damage before disappearing. Creates an explosion for every attack that deals 140% damage 3 times up to 3 enemies nearby.\\nIf a single enemy receives several explosions, Final Damage is decreased by 50% starting with the second explosion.\\nEnhanced Shadow Bat Damage Against Normal Enemies: +35%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/bat-affinity-ii.png", "/class-icons/cygnus-knights/night-walker/shadow-bat.png"],
+                        "animations": ["https://media.giphy.com/media/SqQKlpYU2aBRPSqTFx/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance, number of bounces, and %p Damage",
+                            "Increases the maximum number of bats up to 4",
+                            "Every 5 bats summoned, an enhanced bat is summoned that has a guaranteed chance to trigger upon a successful Throwing Star attack<bp_Each time the bat attacks, it triggers an explosion that damages nearby enemies_Enemies hit by multiple explosions take reduced %Final Damage after the first explosion_Bat deals increased %Damage to regular monsters_>"
+                        ]
+                    },
+                    {
+                        "name": "Adaptive Darkness II",
+                        "shortDesc": "Chance to place Mark of Darkness: 5%, Maximum Stacking Limit: 1, DoT Per Stack: 50%, Defense Rate Ignored Per Mark: +1%.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/adaptive-darkness-ii.png", "/class-icons/cygnus-knights/night-walker/dark-elemental.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases chance to apply debuff",
+                            "Increases max stacks of debuff up to 4",
+                            "Increases %Ignore DEF provided per stack and damage over time dealt per stack"
+                        ]
+                    },
+                    {
+                        "name": "Spirit Projection",
+                        "shortDesc": "Attack Power: +10. Enables use of skills without consuming Throwing Stars.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/spirit-projection.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Uses the Throwing Star with the highest Attack to calculate your damage",
+                            "Not usable if there are no Throwing Stars in your inventory"
+                        ]
+                    },
+                    {
+                        "name": "Enveloping Darkness",
+                        "shortDesc": "Status Resistance: +30, Elemental Resistance: +30%, Knockback Resistance: +40%",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/common/enveloping-darkness.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Alchemic Adrenaline",
+                        "shortDesc": "Recovery Amount: +170%, Critical Damage: +10%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/night-walker/alchemic-adrenaline.png"],
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Recovery is not increased for percentage-based items like Elixirs"
+                        ]
+                    }]
+                ],
+                [
+                "4th Job", [{
+                    "name": "Call of Cygnus",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/common/call-of-cygnus.png"],
+                    "animations": ["https://media.giphy.com/media/2ZVl4AVcKPpINzT8Er/giphy.gif"],
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
+                },
+                {
+                    "name": "Cygnus Knights' Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
+                    "animations": ["https://media.giphy.com/media/XRci2FKnrzXuE6Cy2d/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Quintuple Star",
+                    "shortDesc": "MP Cost: 36, Throwing Stars Cost: 5, Damage: 253% 4 times, Damage: 1010% 1 time",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/quintuple-star.png"],
+                    "animations": ["https://media.giphy.com/media/fFRfH7UDrhSujBwBhd/giphy.gif"],
+                    "type": "Throw Attack",
+                    "desc": "Throw 5 stars at a single enemy",
+                    "details": [
+                        "The last star will deal increased damage",
+                        "Prioritizes bosses with the highest HP first"
+                    ]
+                },
+                {
+                    "name": "Dark Omen",
+                    "shortDesc": "MP Cost: 110, Bat Pack Duration: 7, Max Enemies Hit every 0.3 sec.: 6, Damage: 370%, Number of Attacks: 6\\n[When Shadow Bat is Active] Weakened Bat Pack Duration: 60, Max Enemies Hit every 1.5 sec.: Damage: 300%, Number of Attacks: 2\\nSummon 1 Shadow Bat and Ravenous Bat per 3 enemies hit.\\nMax Bats: 1.\\nUse the skill again with the down arrow key to re-summon the swarm of bats. Re-summon Cooldown: 0.5 sec.\\nCooldonw: 60 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dark-omen.png", "/class-icons/cygnus-knights/night-walker/dark-omen-2.png"],
+                    "animations": ["https://media.giphy.com/media/i0rTV0cm4JHx6tOMRO/giphy-downsized-large.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a stationary pack of bats that damages enemies within it",
+                    "details": [
+                        "While <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> is toggled, a weaker but longer version is summoned instead",
+                        "While summoned, pressing the Down Arrow Key and Skill Key together re-summons the pack of bats at your location",
+                        "Unaffected by Damage Reflect and you cannot be pushed back at all when casting this skill (Super Knockback Resistance)"
+                    ]
+                },
+                {
+                    "name": "Dark Evasion",
+                    "shortDesc": "MP Cost: 150, Invincibility Duration: 3 sec.\\nCooldown: 75 sec.",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dark-evasion.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGFuY3dkYWI3cGRnbzhuMmZ2OWZ0dzU3dGVveHdlaTA2bTdqajM2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2HaSCv82dd1c6l6CBy/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "When used, briefly become invincible",
+                    "details": [
+                        "Pressing the Skill Key again will end the buff early",
+                        "Unaffected by cooldown resets"
+                    ]
+                },
+                {
+                    "name": "Shadow Stitch",
+                    "shortDesc": "MP Cost: 66, Condense surrounding shadows by holding the key up to 5 sec.\\nReleasing will detonate the condensed shadows. Max Enemies Hit: 15, Damage: 850%, Number of Attacks: 3. Attacked enemies incapacitated for 10 sec. Incapacitation increases by 1 sec, up to 12 sec, for every 0.5 sec of the condensed duration\\nBind Duration: Up to +100%, depending on damage inflicted with Shadow Stitch.\\nCooldown: 120 sec",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-stitch.png"],
+                    "animations": ["https://media.giphy.com/media/u3TcMRc925sTBgLn1P/giphy.gif"],
+                    "type": "Key-down Bind Attack",
+                    "desc": "While held, charges a condensed explosion that binds enemies upon release",
+                    "details": [
+                        "Bind duration increases based on how long the skill was held",
+                        "While held, you will not be knocked back at all (Super Knockback Resistance)",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Ravenous Bat",
+                    "shortDesc": "Summons a Ravenous Bat for 60 sec for every 3 times that you hit with a Throwing Star skill. Max number of bats: 5.\\nWhen using a Throwing Star skill, there is a 100% chance to fly towards the target and inflict 480% damage 2 times. Recovers 1% of Max HP upon hitting.",
+                    "maxLevel": 20,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/ravenous-bat.png"],
+                    "animations": ["https://media.giphy.com/media/zH7HTs6CKBuKcej19a/giphy.gif"],
+                    "type": "Toggle Attack",
+                    "desc": "While toggled, every 3 successful Throwing Star attacks, a Ravenous Bat is summoned that strikes a nearby enemy upon successful Throwing Star attacks",
+                    "details": [
+                        "Additional bats are summoned based on the number of <tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> stacks are on an enemy",
+                        "Can not be used at the same time as <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}>",
+                        "Attack will restore some %Max HP",
+                        "Prioritizes bosses with the highest HP first",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Bat Affinity III",
+                    "shortDesc": "Shadow Bat's Attack Chance: 30%, Max Summon Limit: 1, Damage: 200% points, Number of Bounces: +1\\nEnhanced Shadow Bat Damage: +200% points, Explosion Damage: +60% points\\nShadow Bat Damage Against Normal Enemies: +50%\\nSummons enhanced Ravenous Bat for every 5 Ravenous Bats summoned.\\nEnhanced Ravenous Bat: 100% chance to fly towards target when using a Throwing Star skill to inflict 480% damage 3 times, recovers 5% of Max HP upon hitting",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/bat-affinity-iii.png", "/class-icons/cygnus-knights/night-walker/shadow-bat.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation chance, number of bounces, %p Damage, and %Damage against regular monsters",
+                        "Increases the maximum number of bats up to 5",
+                        "Increases %p Damage of enhanced bats and now restores %Max HP upon hitting<bp_Now prioritizes bosses with the highest HP first_>"
+
+                    ]
+                },
+                {
+                    "name": "Adaptive Darkness III",
+                    "shortDesc": "Chance to place Mark of Darkness: 5%, Maximum Stacking Limit: 1, DoT Per Stack: 50%, Defense Rate Ignored Per Mark: +1%.",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/adaptive-darkness-iii.png", "/class-icons/cygnus-knights/night-walker/dark-elemental.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases chance to apply debuff",
+                        "Increases max stacks of debuff up to 5",
+                        "Increases %Ignore DEF provided per stack and damage dealt over time per stack",
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Throwing Expert",
+                    "shortDesc": "Claw Mastery: +70%. Attack Power: +30, Critical Damage: +10%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/throwing-expert.png", "/class-icons/cygnus-knights/night-walker/throwing-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
+                },
+                {
+                    "name": "Vitality Siphon",
+                    "shortDesc": "Absorbs life force from your enemies when laying the Mark of Darkness with Dark Elemental. When life force absorbed reaches 30, it will all be consumed, and a Protective Shield that blocks damage that is 10% of Max HP will be created for 15 sec.\\nAbsorbed life force will be maintained for 15 sec, and this time will reset when you set the Mark of Darkness",
+                    "maxLevel": 5,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/vitality-siphon.png"],
+                    "type": "Passive",
+                    "desc": "Applying stacks of <tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> will grant stacks of 'Life Force' used to gain a shield",
+                    "details": [
+                        "At 30 stacks of Life Force, gain a shield that absorbs damage",
+                        "Life Force stacks disappear if more stacks are not gained<bp_Stack duration refreshes upon applying stacks of <tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}>_>",
+                        "Unaffected by %Buff Duration"
+                    ]
+                },
+                {
+                    "name": "Dark Blessing",
+                    "shortDesc": "Attack Power: +30, Ignore Defense: +15%, Final Damage: +12%, Knockback Resistance: +60%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dark-blessing.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Shadow Slip",
+                    "shortDesc": "Dodge Chance: +40%, Damage Taken: -10%",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-slip.png"],
+                    "type": "Passive"
+                }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Quintuple Star - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/quintuple-star-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Quintuple Star - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/quintuple-star-boss-rush.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Quintuple Star - Critical Chance",
+                    "shortDesc": "Critical Rate: +10%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/quintuple-star-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Dark Omen - Cooldown Cutter",
+                    "shortDesc": "Cooldown: -50%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dark-omen-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Dark Omen - Spread",
+                    "shortDesc": "Max Enemies Hit: +9",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dark-omen-spread.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Dark Omen - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dark-omen-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Vitality Siphon - Extra Point",
+                    "shortDesc": "Protective Shield: +3% of Max HP",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/vitality-siphon-extra-point.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Vitality Siphon - Reinforce",
+                    "shortDesc": "Attack Power: +60",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/vitality-siphon-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Vitality Siphon - Preparation",
+                    "shortDesc": "Status Resistance: +20",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/vitality-siphon-preparation.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Shadow Illusion",
+                    "shortDesc": "MP Cost: 200, Summons Duration: 20 sec. Your shadow attacks, dealing 70%, 45%, and 20% of the Final Damage of your throwing skills.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-illusion.png"],
+                    "animations": ["https://media.giphy.com/media/EApexanlXY52hF61RN/giphy-downsized-large.gif"],
+                    "type": "Buff",
+                    "desc": "Summons 3 clones that function like <tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)}>",
+                    "details": [
+                        "Each clone deals a reduced amount of %Final Damage",
+                        "Clone's attacks are all dark-attribute and can activate the following skills with reduced %Final Damage: <tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}>",
+                        "Attacks are limited to Throwing Star skills and Movement skills",
+                        "Unaffected by Damage Reflect"
+                    ],
+                    "reqLev": 140
+                },
+                {
+                    "name": "Dominion",
+                    "shortDesc": "MP Cost: 350, Max Enemies Hit: 15, Damage: 1000%, Number of Attacks: 10. Grants invincibility during skill casting.\\nUse Throwing Stars skill within 20 sec of skill to receive Mark of Darkness at max stacks, increase max summon limit of Shadow Bats and Ravenous Bats by 3, and summon bats.\\nWhile active, Final Damage: +20%, Critical Rate: +100%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dominion.png"],
+                    "animations": ["https://media.giphy.com/media/uUaH1Zvd1eNWT9VHSX/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Unleash a dark attack that leaves the map in a stasis",
+                    "details": [
+                        "Grants invincibility during initial skill cast",
+                        "While active, increases %Final Damage and %Crit Rate and increases summon limit of <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}>",
+                        "While active, using Throwing Star skills will continuously summon bats and cause enemies to gain max stacks of <tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}>",
+                        "Right-clicking the skill will toggle the gray background ON/OFF while the attack is active"
+                    ],
+                    "reqLev": 160
+                },
+                {
+                    "name": "Glory of the Guardians",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png"],
+                    "animations": ["https://media.giphy.com/media/2M9cMNnyMcMOC4GYnI/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["phalanxCharge", "cygnusBlessing", "venomBurst", "lastResort"],
+            "fifthMain": [
+                {
+                    "name": "Shadow Spear",
+                    "shortDesc": "MP Cost: 1000, Duration: 30, spears form every time you use a dark attribute skill (except Shadow Spear and summons).\\nSpears deal 792% damage 2 times. If the spear activates 6 times, they form a giant spear that deals 1848% damage over 6 attacks. Spears can attack one enemy up to 75 times.\\nAll the Shadow Spear's attacks increase Damage Against Monsters by 25%\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-spear.png"],
+                    "animations": ["https://media.giphy.com/media/X6hYRgoWV6HNuoI4kX/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "While active, using a Dark-attribute attack create an additional spear attack",
+                    "details": [
+                        "This skill and summons are excluded as Dark-attribute attacks and do not form spears",
+                        "Upon activating a spear 6 times, they form an empowered giant spear",
+                        "Spears can attack an enemy up to 75 times",
+                        "Deals increased %Damage to regular monsters",
+                        "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Greater Dark Servant",
+                    "shortDesc": "MP Cost: 1000, Summons a shadow with Duration: 20 sec.\\nShadow: Each Throwing Star attack deals an additional 75% of Final Damage\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/greater-dark-servant.png"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGs2ZWd6ZWExN2lkMmxyYWc0OXJmeDlydjdmdDB3cXdzcGw4dDlzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pHLmJBRkwfpuxXKHCK/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Summon a shadow that mimics your attacks to deal an additional hit each hit",
+                    "details": [
+                        "Clone's attacks are all dark-attribute and deal reduced %Final Damage"
+                    ]
+                },
+                {
+                    "name": "Shadow Slide",
+                    "shortDesc": "MP Cost: 800, Immovable Shadow Summon Duration: 55 sec, activate to swap places up to 3 times\\nShadow Re-summon Cooldown: 1.5 sec\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-slide.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21zb2RreG1naDJld2Rtd3o2NWVnb2Q4YjViOWxxY3g5dDJocnJwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VmqJy28iqG5K0jKzH0/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Place down a shadow clone that allows you to teleport back to it (up to 3 times)",
+                    "details": [
+                        "While summoned, pressing the Down Arrow Key and Skill Key together re-summons the shadow clone at your location",
+                        "Shares Skill Points (SP) with <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)}> and you get both skills together"
+                    ]
+                },
+                {
+                    "name": "Shadow Bite",
+                    "shortDesc": "MP Cost: 1500, Max Enemies Hit: 15, Damage: 990%, Number of Attacks: 14, deals 2673% damage to boss monsters, creates a Shadow Bat and Ravenous Bat where an enemy was attacked only if a bat can be summoned.\\nCooldown: 15 sec\\n[Passive Effect: Final Damage: +20%]",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-bite.png"],
+                    "animations": ["https://media.giphy.com/media/fjmlO6PjjPKvvnYnPf/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Bats attack nearby enemies and summon <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}>/<tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> at their location",
+                    "details": [
+                        "[Passive]: Permanently increases %Final Damage",
+                        "Deals increased damage to bosses"
+                    ]
+                },
+                {
+                    "name": "Rapid Throw",
+                    "shortDesc": "MP Cost: 1000, consecutively throw shadow throwing stars with 858% damage 5 times up to 8 enemies for 1.2 sec., then finish with a huge shadow throwing star that attacks up to 10 enemies with 1980% damage 13 times\\nDark Sight for 4 sec while skill is in use.\\nTap repeatedly to increase the consecutive throwing duration up to 2.4 sec\\nWhile Shadow Spear is active, Consecutive Throw Attack Damage: +300% (additive)\\nDamage taken while attacking, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/rapid-throw.png"],
+                    "animations": ["https://media.giphy.com/media/g16DetgHDzRbnhHQnE/giphy.gif"],
+                    "type": "Throw Attack",
+                    "desc": "Consecutively throws stars forward before throwing a final giant throwing star",
+                    "details": [
+                        "Continuously pressing the Skill Key will extend the duration of the attack",
+                        "Each throwing star is only considered at most once as a successful Throwing Star attack",
+                        "Attacking during <tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)}> will not deactivate while casting",
+                        "While <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)}> is active, skill deals increases %Damage (by a flat amount) but do not form spears",
+                        "While casting, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "When used in the air, you will remain in the air until the attack ends"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Lucky Seven Boost",
+                    "shortDesc": "Lucky Seven Final Damage: +350%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/lucky-seven.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shadow Bat and Ravenous Bat Boost",
+                    "shortDesc": "Shadow Bat and Ravenous Bat Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-bat.png", "/class-icons/cygnus-knights/night-walker/ravenous-bat.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Triple Throw Boost",
+                    "shortDesc": "Triple Throw Final Damage: +300%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/triple-throw.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Quad Star Boost",
+                    "shortDesc": "Quad Star Final Damage: +180%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/quad-star.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shadow Spark Boost",
+                    "shortDesc": "Shadow Spark Final Damage: +180%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-spark.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Quintuple Star Boost",
+                    "shortDesc": "Quintuple Star Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/quintuple-star.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dark Omen Boost",
+                    "shortDesc": "Dark Omen Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dark-omen.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shadow Stitch Boost",
+                    "shortDesc": "Shadow Stitch Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-stitch.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dominion Boost",
+                    "shortDesc": "Dominion Final Damage: +120%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/dominion.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-quintuple-star-1.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/night-walker/quintuple-star.png} tip={Quintuple Star (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Quintuple Star",
+                    "shortDesc": "MP Cost: 52, Throwing Stars Cost: 5\\nMax Enemies Hit: 3, Damage: 396% 4 times, Damage: 1320% 1 time\\nEvery 6 seconds, the last attack is enhanced to Jet Black Throwing Stars.\\n------Jet Black Throwing Stars------\\nMP Cost: 52, Throwing Stars Cost: 5, Max Enemies Hit: 3, Damage: 396% 4 times\\nThe final attack is enhanced Jet Black Throwing Stars that strike up to 8 enemies with 360% damage 7 times",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-quintuple-star-1.png", "/class-icons/cygnus-knights/night-walker/hexa-quintuple-star-2.png", "/class-icons/cygnus-knights/night-walker/quintuple-star.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmN6cHkxYzYwcW53eWJ4MWViYjU5eXhhb2N6c3J3NmNiM2hncHVpciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5YnMJwY2TGl4L40fE1/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-shadow-bat-ravenous-bat.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNxcHJjYnE1bXVkdXp1ZXRoaTg2dnFiaGdwajd2cXg0MW84dHY1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lOP2G527zFy6jByQpp/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat and Ravenous Bat (1st Job / 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Shadow Bat",
+                    "shortDesc": "Summon a Shadow Bat for 60 sec for every 3 times that you hit with a Throwing Star skill. Max number of bats: 2.\\nWhen using a Throwing Star skill, there is a 50% chance for it to fly towards the target and inflict 1200% damage, then bounce off 3 enemies and inflict the same amount of damage before disappearing.\\nNormal Enemy Damage: +85%, Does not stack with Shadow Bat and Bat Affinity III.\\nRecovers 1% of Max HP on first damage.",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-shadow-bat.png", "/class-icons/cygnus-knights/night-walker/shadow-bat.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Ravenous Bat",
+                    "shortDesc": "Summon a Ravenous Bat for 60 sec for every 3 times that you hit with a Throwing Star skill. Max number of bats: 5.\\nWhen using a Throwing Star skill, there is a 100% chance to fly towards the target and inflict 1013% damage 2 times. Recovers 1% of Max HP upon hitting.",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-ravenous-bat.png", "/class-icons/cygnus-knights/night-walker/ravenous-bat.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-dark-omen.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Dark Omen",
+                    "shortDesc": "MP Cost: 122, Bat Pack Duration: 7, Max Enemies Hit every 0.3 sec.: 6, Damage: 820%, Number of Attacks: 6\\n[When Shadow Bat is Active] Weakened Bat Pack Duration: 60, Max Enemies Hit every 1.5 sec.: 6, Damage: 535%, Number of Attacks: 2\\nSummon 1 Shadow Bat and Ravenous Bat per 3 enemies hit.\\nMax Bats: 1.\\nUse the skill again with the down arrow key to re-summon the swarm of bats. Re-summon Cooldown: 0.5 sec.\\nCooldown: 60 sec.",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-dark-omen.png", "/class-icons/cygnus-knights/night-walker/hexa-dark-omen-2.png", "/class-icons/cygnus-knights/night-walker/dark-omen.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjh5ejIzcG51ZzhuenY5bHN1aHY5ZTQ5ZmtveGdnaWtxcnF4anR0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5vPkRi4fCfkmKgn700/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJmNXE4c3M1dTBueWllZTE3aTFiZ2Q3cWdsdjNlYWtlZng0eGw3OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PdM90bMIu1VrJhkic3/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-dominion-abyssal-darkness.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Dominion",
+                    "shortDesc": "MP Cost: 410, Max Enemies Hit: 15, Damage: 2000%, Number of Attacks: 10. Grants invincibility during skill casting.\\nUse the Throwing Stars skill within 20 sec. of skill to receive Mark of Darkness at max stacks, increase max summon limit of Shadow Bats and Ravenous Bats by 3, and summon bats.\\nWhile active, Final Damage: +20%, Critical Rate: +100%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/hexa-dominion.png", "/class-icons/cygnus-knights/night-walker/dominion.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2diM3Q0cmMxOHE0cGd1d3Izd3NyYTZpbHUybTN2bjBtMWNsb3J2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rx5AD59JWsfzrTkYLY/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3k5cnZ2bHIzZ3AyZWtncTM4bWRtbnA5NXA0djByMWZyMnN0djd0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JcafKqrHL3g3AYwYFP/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Abyssal Darkness",
+                    "shortDesc": "Number of Throwing Star Skills excluding Rapid Throw Landed for Abyssal Strike: 12, Damage: 427%, Number of Attacks: 6\\nAbyssal Strike damage increases with each stack of Mark of Darkness, Max Stacks: 5",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/abyssal-darkness.png"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGM3cnFwd2Ftd2tqeGh0b3FzenR1enljbHRmbzU1eml3OG5nYXgzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aMTvKVJP86JQz1k912/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "skillCore": [
+                {
+                    "name": "Silence",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nIncreases slash final damage by 8% during Shadow Illusion and by 12% during Greater Dark Servant. The final damage increases stack\\nChase Cuts occur 34 times which attack up to 15 enemies with 808% damage 12 times\\nFor 30 seconds, when the attack hits, the Shadow Bat transforms into 3 huge Shadow Throwing Stars to track and attack the enemy\\nShadow Throwing Stars: attack 12 times with 900% damage, after hitting the enemy, the Shadow Throwing Stars attack by bouncing up to 5 times, Shadow Throwing Stars Recreation Cooldown: 3 seconds\\nCooldown: 360 seconds",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/silence.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnJxZzRuNHBxM2R2eWo3Mzd4MWpkdXd0MmVjOHZkODcwNjliZHdlMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4dgnYTQZoAlcsjH6Mw/giphy-downsized-large.gif"],
+                    "type": "Origin Skill",
+                    "desc": ""
+                },
+                {
+                    "name": "Stygian Command",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe dark mantle attacks 11 times, dealing 6380% damage to up to 15 enemies 14 times. Then the darkness dominates 14 times, dealing 5680% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/stygian-command.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGVuZnllZjR1d253Mmo2b2llc3Vna3hmYXcybWUxaW1wZjJvbzgzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6ZzMcBF4hfyRkWINCX/giphy.gif"],
+                    "type": "Ascent Skill",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Shadow Spear Boost",
+                    "shortDesc": "Shadow Spear Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-spear.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Greater Dark Servant/Shadow Slide Boost",
+                    "shortDesc": "Greater Dark Servant Final Damage: 105%, Shadow Slide Duration increased to 55 sec",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/greater-dark-servant.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Shadow Bite Boost",
+                    "shortDesc": "Shadow Bite Final Damage: +60%, Final Damage: +6% per enemy defeated with Shadow Bite, Boss Final Damage: 20%, Cooldown reduced to 10 sec",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/shadow-bite.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Rapid Throw Boost",
+                    "shortDesc": "Rapid Throw Final Damage: +60%",
+                    "icons": ["/class-icons/cygnus-knights/night-walker/rapid-throw.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Shadow Bat - 1st Job",
+                "icons": ["/class-icons/cygnus-knights/night-walker/shadow-bat.png"],
+                "animations": ["https://media.giphy.com/media/KOfoxGSZabSM6nueFZ/giphy.gif"]
+            },
+            {
+                "name": "Shadow Spark - 2nd Job",
+                "icons": ["/class-icons/cygnus-knights/night-walker/shadow-spark.png"],
+                "animations": ["https://media.giphy.com/media/18EDyg4urzqoegfFm8/giphy.gif"]
+            },
+            {
+                "name": "Quintuple Star - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/night-walker/quintuple-star.png"],
+                "animations": ["https://media.giphy.com/media/fFRfH7UDrhSujBwBhd/giphy.gif"]
+            },
+            {
+                "name": "Dark Omen - 4th Job",
+                "icons": ["/class-icons/cygnus-knights/night-walker/dark-omen.png"],
+                "animations": ["https://media.giphy.com/media/i0rTV0cm4JHx6tOMRO/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Dominion - Hyper Skill",
+                "icons": ["/class-icons/cygnus-knights/night-walker/dominion.png"],
+                "animations": ["https://media.giphy.com/media/uUaH1Zvd1eNWT9VHSX/giphy.gif"]
+            },
+            {
+                "name": "Shadow Bite - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/night-walker/shadow-bite.png"],
+                "animations": ["https://media.giphy.com/media/fjmlO6PjjPKvvnYnPf/giphy.gif"]
+            },
+            {
+                "name": "Rapid Throw - 5th Job",
+                "icons": ["/class-icons/cygnus-knights/night-walker/rapid-throw.png"],
+                "animations": ["https://media.giphy.com/media/g16DetgHDzRbnhHQnE/giphy.gif"]
+            },
+            {
+                "name": "Silence - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/night-walker/silence.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnJxZzRuNHBxM2R2eWo3Mzd4MWpkdXd0MmVjOHZkODcwNjliZHdlMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4dgnYTQZoAlcsjH6Mw/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Stygian Command - 6th Job",
+                "icons": ["/class-icons/cygnus-knights/night-walker/stygian-command.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGVuZnllZjR1d253Mmo2b2llc3Vna3hmYXcybWUxaW1wZjJvbzgzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6ZzMcBF4hfyRkWINCX/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Night Walker is LUK thief class part of the Cygnus Knights. Night Walkers are known for their bossing capabilities. Additionally, they use Throwing Stars as ammo for their skills"
+}
