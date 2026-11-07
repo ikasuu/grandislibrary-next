@@ -171,6 +171,8 @@ function skillBlockTypeToColor(color){
             return "#176BCB";
         case "beta":
             return "#D53F3F";
+        case "finalpact":
+            return "#8F3FD5D4";
         default:
             return "#6C757D";
     };

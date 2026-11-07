@@ -180,7 +180,7 @@ function PropertyBox({skills, infographics, resources}) {
 }
 
 /*
-    Box component to display Class Infographcis in Class Overviews
+    Box component to display Class Infographics in Class Overviews
     Created by: Ikasuu, Fall 2024
 */
 function InfographicBox({data}){
@@ -285,15 +285,19 @@ function ClassBuffs({content}) {
       <div>
         <BuffAndActivesWrapper md="auto">
             <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order. Durations and cooldowns are based on their base value at Max Level. Does not include Common 5th Job."/></StyledHeaderTwo>
-            <Table size="sm">
+            <Table responsive>
             <tbody>
-                <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.active)}</StatTableData></tr>
-                {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.toggles)}</StatTableData></tr>:<></>}
-                {content.buffInfo.summons ? <tr><th><strong>Summons &amp; Placables</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.summons)}</StatTableData></tr>:<tr><th><strong>Summons &amp; Placables</strong>:</th><td>None</td></tr>}
-                <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.buffCd)}</StatTableData></tr>
-                {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.binds)}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
-                {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.iFrame)}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
-                {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.damageReduce)}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
+                <tr><th><strong>Pet Auto Buffable</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.auto)}</StatTableData></tr>
+                {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.toggles)}</StatTableData></tr>:<></>}
+                {content.buffInfo.summons ? <tr><th><strong>Summons & Installs</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.summons)}</StatTableData></tr>:<></>}
+                {content.buffInfo.debuffs ? <tr><th><strong>Debuffs</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.debuffs)}</StatTableData></tr>:<></>}
+                {content.buffInfo.other ? <tr><th><strong>Other Actives</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.other)}</StatTableData></tr>:<></>}
+                <tr><th><strong>60s Cooldown</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.mini)}</StatTableData></tr>
+                <tr><th><strong>120s Cooldown</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.full)}</StatTableData></tr>
+                <tr><th><strong>Other Cooldowns</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.etcCooldown)}</StatTableData></tr>
+                <tr><th><strong>Binds</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.binds)}</StatTableData></tr>
+                <tr><th><strong>iFrames</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.iFrame)}</StatTableData></tr>
+                {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{formatSkillBadge(content.buffInfo.damageReduce)}</StatTableData></tr>:<></>}
             </tbody>
             </Table>
         </BuffAndActivesWrapper>
@@ -323,7 +327,7 @@ const StatTableData = styled.td`
 `;
 
 //Component from the skill blocks that are used in the base stats section
-//WIP
+//WIP 2026
 const SkillNodeBlock = styled.span`
     /* Adjust the background from the properties */
     background-image: ${props => props.color};
