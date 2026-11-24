@@ -78,13 +78,16 @@
             }
         ],
         "buffInfo": {
-            "active": "<tt src={/class-icons/common/shadow-partner.png} tip={Shadow Partner (3rd Job)} dur={[200s]}>",
-            "toggles": "[<tt src={/class-icons/explorers/shadower/pick-pocket.png} tip={Pick Pocket (3rd Job)}> / <tt src={/class-icons/explorers/shadower/blood-money.png} tip={Blood Money (4th Job)}>]",
-            "summons": "<tt src={/class-icons/explorers/shadower/dark-flare.png} tip={Dark Flare (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen (4th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/shadower/shadow-veil.png} tip={Shadow Veil (Hyper Skill)} dur={[12s](60s cd)}>",
-            "buffCd": "<tt src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/shadow-walker.png} tip={Shadow Walker (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
-            "binds": "<tt src={/class-icons/explorers/shadower/halve-cut.png} tip={Halve Cut (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)} dur={[200s](Special, 0 - 15s cd)}> <tt src={/class-icons/explorers/shadower/trickblade.png} tip={Trickblade (5th Job)} dur={[1.8s](20s cd)}> <tt src={/class-icons/explorers/shadower/halve-cut.png} tip={Halve Cut (6th Job)} dur={[360s cd]}>",
-            "damageReduce": "<tt src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen (4th Job)} dur={[30s](-10% | 150s cd)}> <tt src={/class-icons/explorers/shadower/sonic-blow.png} tip={Sonic Blow (5th Job)} dur={[2s](-50% | 60s cd)}>"
+            "auto": "<bg src={/class-icons/common/shadow-partner.png} tip={Shadow Partner (3rd Job)} val={200s}>",
+            "toggles": "<bg src={/class-icons/explorers/shadower/pick-pocket.png} src={/class-icons/explorers/shadower/blood-money.png} tip={Pick Pocket (3rd Job)} tip={Blood Money (4th Job)} val={}>",
+            "summons": "<bg src={/class-icons/explorers/shadower/dark-flare.png} tip={Dark Flare (3rd Job)} val={60s}> <bg src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen (4th Job)} val={30s} val={120s cd}> <bg src={/class-icons/explorers/shadower/shadow-veil.png} tip={Shadow Veil (Hyper Skill)} val={12s} val={60s cd}>",
+            "other": "<bg src={/class-icons/common/dark-sight.png} src={http://localhost:3000/class-icons/explorers/shadower/into-darkness.png} tip={Dark Sight (1st Job)} tip={Into Darkness (3rd Job)} val={Dark Sight} val={0-15s cd}>",
+            "mini": "<bg src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={30s}>",
+            "full": "<bg src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={60s}> <bg src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={60s}> <bg src={/class-icons/5th-job/shadow-walker.png} tip={Shadow Walker (5th Job)} val={20s}>",
+            "etcCooldown": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={Hero's Echo}>",
+            "binds": "<bg src={/class-icons/explorers/shadower/halve-cut.png} tip={Halve Cut (6th Job)} val={10s} val={Origin Skill}>",
+            "iFrame": "<bg src={/class-icons/explorers/shadower/trickblade.png} tip={Trickblade (5th Job)} val={1.8s} val={20s cd}> <bg src={/class-icons/explorers/shadower/halve-cut.png} tip={Halve Cut (6th Job)} val={Origin Skill}> <bg src={http://localhost:3000/class-icons/explorers/shadower/covetous-darkness.png} tip={Covetous Darkness (6th Job)} val={Ascent Skill}>",
+            "damageReduce": "<bg src={/class-icons/explorers/shadower/smokescreen.png} tip={Smokescreen (4th Job)} val={30s, -10%} val={150s cd}> <bg src={/class-icons/explorers/shadower/sonic-blow.png} tip={Sonic Blow (5th Job)} val={2s, -50%} val={60s cd}>"
         },
         "linkSkill": {
             "id": 80002770,

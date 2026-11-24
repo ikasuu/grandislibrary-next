@@ -9,7 +9,7 @@ import HeaderImage from '../../components/HeaderImage';
 import SkillTab from '../../components/class-overview/SkillTab';
 
 //EDIT THIS
-import dev from '../../public/data/explorers/bishop.json';
+import dev from '../../public/data/explorers/night-lord.json';
 
 function ClassOverview({post, slug}) {
     const [data, setData] = useState(post);

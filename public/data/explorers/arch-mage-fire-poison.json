@@ -83,12 +83,14 @@
             }
         ],
         "buffInfo": {
-            "active": "<tt src={/class-icons/explorers/fire-poison/meditation.png} tip={Meditation (2nd Job)} dur={[240s]}>",
-            "toggles": "<tt src={/class-icons/explorers/fire-poison/ignite.png} tip={Ignite (2nd Job)}> <tt src={/class-icons/explorers/fire-poison/teleport-mastery.png} tip={Teleport Mastery (3rd Job)}> <tt src={/class-icons/explorers/fire-poison/inferno-aura.png} tip={Inferno Aura (Hyper Skill)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} dur={[30s cd]}>",
-            "summons": "<tt src={/class-icons/explorers/fire-poison/creeping-toxin.png} tip={Creeping Toxin (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)} dur={[600s]}> <tt src={/class-icons/explorers/fire-poison/elemental-fury.png} tip={Elemental Fury (5th Job)} dur={[3-6s based on Fervent Drain stacks](60s cd)}>",
-            "buffCd": "<tt src={/class-icons/explorers/fire-poison/elemental-adaptation.png} tip={Elemental Adaptation (3rd Job)} dur={[10 Critical Abnormal Statuses](240s cd)}> <tt src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
-            "binds": "<tt src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} dur={[360s cd]}>"
+            "auto": "<bg src={/class-icons/explorers/fire-poison/meditation.png} tip={Meditation (2nd Job)} val={240s}>",
+            "toggles": "<bg src={/class-icons/explorers/fire-poison/ignite.png} tip={Ignite (2nd Job)} val={}> <bg src={/class-icons/explorers/fire-poison/teleport-mastery.png} tip={Teleport Mastery (3rd Job)} val={}> <bg src={/class-icons/explorers/fire-poison/inferno-aura.png} tip={Inferno Aura (Hyper Skill)} val={}> <bg src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={}>",
+            "summons": "<bg src={/class-icons/explorers/fire-poison/creeping-toxin.png} tip={Creeping Toxin (3rd Job)} val={60s}> <bg src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)} val={600s}> <bg src={/class-icons/explorers/fire-poison/elemental-fury.png} tip={Elemental Fury (5th Job)} val={3-6s} val={60s cd}>",
+            "mini": "",
+            "full": "<bg src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={60s}> <bg src={/class-icons/5th-job/arcane-overdrive.png} tip={Arcane Overdrive (5th Job)} val={30s}> <bg src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={60s}>",
+            "etcCooldown": "<bg src={/class-icons/explorers/fire-poison/elemental-adaptation.png} tip={Elemental Adaptation (3rd Job)} val={10 Abnormal Statuses} val={240s cd}> <bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={Hero's Echo}>",
+            "binds": "<bg src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} val={10s} val={Origin Skill}>",
+            "iFrame": "<bg src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} val={3s} val={60s cd}> <bg src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} val={Origin Skill}> <bg src={/class-icons/explorers/fire-poison/immortal-flame.png} tip={Immortal Flame (6th Job)} val={Ascent Skill}>"
         },
         "linkSkill": {
             "id": 80002762,
